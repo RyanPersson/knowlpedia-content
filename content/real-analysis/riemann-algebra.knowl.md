@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Riemann integrable functions are closed under products, forming an algebra."
 aliases = ["riemann-algebra", "Riemann algebra"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-algebra.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/riemann-linearity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Riemann algebra:** Let \(f,g:[a,b]\to\mathbb R\) be [[real-analysis/riemann-integrable-function|Riemann integrable]] on the [[real-analysis/interval|interval]] \([a,b]\). Then the product \(fg\) is Riemann integrable on \([a,b]\). Consequently, the collection of Riemann integrable functions on \([a,b]\) is closed under pointwise addition, scalar multiplication ([[real-analysis/riemann-linearity|linearity]]), and pointwise multiplication, hence forms an algebra over \(\mathbb R\).

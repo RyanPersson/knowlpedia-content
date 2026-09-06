@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A value attained at some point where the derivative is not surjective"
 aliases = ["critical-value", "Critical value"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/regular-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/critical-value.md"
+prerequisites = ["real-analysis/regular-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **critical value** of a differentiable map \(F:U\to \mathbb{R}^m\) (with \(U\subseteq \mathbb{R}^n\) and \(m\le n\)) is a point \(y\in \mathbb{R}^m\) for which there exists \(a\in U\) with \(F(a)=y\) such that \(a\) is not a [[real-analysis/regular-point|regular point]] of \(F\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of inputs that a function sends into a specified subset of its codomain"
 aliases = ["preimage"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/preimage.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/subset"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **preimage** is the set of inputs that map into a given subset of the codomain: if \(f:A\to B\) is a [[shared-foundations/function|function]] and \(T\subseteq B\), then

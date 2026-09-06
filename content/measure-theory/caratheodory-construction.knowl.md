@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A method that turns an outer measure into a measure by selecting Carathéodory measurable sets."
 aliases = ["caratheodory-construction", "Carathéodory construction"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/outer-measure"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/caratheodory-construction.md"
+prerequisites = ["measure-theory/outer-measure", "measure-theory/caratheodory-measurable-set", "measure-theory/sigma-algebra", "measure-theory/measure"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Carathéodory construction:** Let \(\mu^*\) be an [[measure-theory/outer-measure|outer measure]] on a set \(X\). Define

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "In a metric space, a point lies in a set's closure exactly when a sequence from the set converges to it."
 aliases = ["closure-characterized-by-convergent-sequences", "Closure via sequences"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/closure-characterized-by-convergent-sequences.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/closure-of-a-set", "convex-analysis/closure-characterized-by-ball-intersections", "topology/convergent-sequence", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a metric space and \(A\subseteq X\). For \(a\in X\),

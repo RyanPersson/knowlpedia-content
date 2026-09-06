@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The cardinality of a basis of a free module."
 aliases = ["rank-module", "Rank of a free module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/free-module", "shared-foundations/cardinality", "algebra-modules/basis-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/rank-module.md"
+prerequisites = ["algebra-modules/free-module", "shared-foundations/cardinality", "algebra-modules/basis-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a nonzero commutative ring and \(F\) a [[algebra-modules/free-module|free \(R\)-module]]. The **rank** of \(F\) is the [[shared-foundations/cardinality|cardinality]] of a [[algebra-modules/basis-module|basis]], denoted \(\operatorname{rank}(F)\). This is well-defined because any two bases of a free module over a nonzero commutative ring have the same cardinality.

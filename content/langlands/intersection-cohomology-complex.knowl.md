@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The perverse middle extension of a shifted local system from a smooth dense stratum."
 aliases = ["IC complex", "intersection-cohomology sheaf"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["fiber-bundles/local-system", "langlands/perverse-sheaf"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/local-system", "langlands/perverse-sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be an irreducible complex algebraic variety of dimension \(d\), let

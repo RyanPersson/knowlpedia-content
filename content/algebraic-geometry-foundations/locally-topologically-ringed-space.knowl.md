@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A topological space with a sheaf of topological rings whose underlying ringed space is locally ringed."
 aliases = ["locally topological ringed space", "locally ringed space with topological structure sheaf"]
 domains = ["algebraic-geometry-foundations", "algebra-topological"]
-prerequisites = ["topology/topological-space", "algebraic-geometry-foundations/locally-ringed-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-space", "algebraic-geometry-foundations/locally-ringed-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **locally topologically ringed space** is a pair

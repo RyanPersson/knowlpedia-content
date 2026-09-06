@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally convex space in which every closed, convex, balanced, absorbing set is a zero-neighborhood."
 aliases = ["barrelled space"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/convex-set", "convex-analysis/balanced-and-absorbing-sets", "topology/neighborhood"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/convex-set", "convex-analysis/balanced-and-absorbing-sets", "topology/neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a Hausdorff [[functional-analysis/locally-convex-space|locally convex space]]. A **barrel** in \(E\) is a closed, [[convex-analysis/convex-set|convex]], [[convex-analysis/balanced-and-absorbing-sets|balanced, and absorbing]] subset of \(E\). The space \(E\) is **barreled** if every barrel is a [[topology/neighborhood|neighborhood]] of \(0\). Thus a set satisfying the algebraic size and symmetry conditions, together with topological closedness, cannot be anomalously thin near the origin. This property is unchanged by the alternative British spelling **barrelled**.

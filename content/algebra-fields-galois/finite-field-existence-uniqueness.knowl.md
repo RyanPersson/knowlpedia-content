@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For each prime power q=p^n there is a unique (up to isomorphism) field with q elements."
 aliases = ["finite-field-existence-uniqueness", "Existence and uniqueness of finite fields"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/finite-field", "algebra-rings/characteristic"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-field-existence-uniqueness.md"
+prerequisites = ["algebra-fields-galois/finite-field", "algebra-rings/characteristic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-fields-galois/finite-field|finite field]] is a field with finitely many elements.

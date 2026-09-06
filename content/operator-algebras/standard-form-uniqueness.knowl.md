@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A normal isomorphism between von Neumann algebras in standard form has a unique cone-preserving unitary implementation."
 aliases = ["spatial uniqueness of standard form"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/standard-form", "operator-algebras/von-neumann-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/standard-form", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,H,J_M,P_M)\) and \((N,K,J_N,P_N)\) be

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A dense Fréchet *-subalgebra of a C*-algebra whose finer topology records regularity and which is closed under holomorphic functional calculus."
 aliases = ["smooth dense *-subalgebra", "spectrally invariant subalgebra", "holomorphically closed subalgebra"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "functional-analysis/holomorphic-functional-calculus-banach-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "functional-analysis/holomorphic-functional-calculus-banach-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. In this knowl, a **smooth subalgebra** is a dense \(*\)-subalgebra \(\mathcal A\subseteq A\) with a complete Fréchet topology finer than the \(C^*\)-norm topology, continuous multiplication and involution, and spectral invariance: after adjoining identities when necessary,

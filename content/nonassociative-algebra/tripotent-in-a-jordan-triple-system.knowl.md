@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An element e of a Jordan triple system satisfying {e,e,e}=e, the triple-system analogue of an idempotent."
 aliases = ["tripotent", "Jordan tripotent", "triple-system tripotent"]
 domains = ["nonassociative-algebra", "functional-analysis"]
-prerequisites = ["nonassociative-algebra/hermitian-jordan-triple-system", "nonassociative-algebra/jordan-idempotent"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/hermitian-jordan-triple-system", "nonassociative-algebra/jordan-idempotent"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of outputs a function attains on a given subset of inputs"
 aliases = ["image"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/image.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 An **image** is the set of values a function takes on a subset of its domain: if \(f:A\to B\) is a [[shared-foundations/function|function]] and \(S\subseteq A\), then

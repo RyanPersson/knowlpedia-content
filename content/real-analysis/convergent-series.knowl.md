@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A series whose partial sums approach a finite limit."
 aliases = ["convergent-series", "Convergent series"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/partial-sums"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/convergent-series.md"
+prerequisites = ["real-analysis/series", "real-analysis/partial-sums"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **convergent series** is a [[real-analysis/series|series]] \(\sum_{n=1}^\infty a_n\) whose [[real-analysis/partial-sums|partial sums]] \(s_n=\sum_{k=1}^n a_k\) converge to a finite limit \(S\), in which case one writes \(\sum_{n=1}^\infty a_n = S\).

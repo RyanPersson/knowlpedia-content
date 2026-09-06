@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "For a density operator and an observable, the expectation value is the trace of their product."
 aliases = ["quantum-expectation-value", "Quantum expectation value"]
 domains = ["stat-mech-quantum"]
-prerequisites = ["quantum-foundations/density-operator", "stat-mech-quantum/observable-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/quantum-expectation-value.md"
+prerequisites = ["quantum-foundations/density-operator", "stat-mech-quantum/observable-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\rho\) be a [[quantum-foundations/density-operator|density operator]] on a finite-dimensional Hilbert space and \(A\) a self-adjoint element of the [[stat-mech-quantum/observable-algebra|observable algebra]]. The **expectation value** of \(A\) in the state \(\rho\) is

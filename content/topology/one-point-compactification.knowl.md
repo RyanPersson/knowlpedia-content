@@ -5,9 +5,10 @@ kind = "construction"
 summary = "A compact space obtained by adjoining one point whose neighborhoods have compact complements."
 aliases = ["Alexandroff compactification", "point at infinity"]
 domains = ["topology"]
-prerequisites = ["topology/locally-compact-space", "topology/hausdorff-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-space", "topology/hausdorff-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a noncompact, [[topology/locally-compact-space|locally compact]] [[topology/hausdorff-space|Hausdorff space]]. Its **one-point compactification** is the set

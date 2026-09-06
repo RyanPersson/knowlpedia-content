@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A weak-star limit in phase space of quadratic observables evaluated on a bounded family of high-frequency states."
 aliases = ["defect measure", "microlocal defect measure", "quantum limit"]
 domains = ["mathematical-physics", "microlocal-analysis", "quantum-chaos"]
-prerequisites = ["differential-geometry/classical-phase-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/classical-phase-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(u_h\) be an \(L^2\)-bounded family on a manifold as \(h\to0\). A

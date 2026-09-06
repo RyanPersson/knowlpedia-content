@@ -6,6 +6,7 @@ summary = "The bounded linear operator projecting a Hilbert space onto a closed 
 aliases = ["orthogonal projection", "orthogonal projector"]
 domains = ["linear-algebra", "quantum-foundations"]
 prerequisites = ["linear-algebra/closed-linear-subspace", "linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

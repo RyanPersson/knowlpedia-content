@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous real function on a compact set attains its maximum and minimum."
 aliases = ["global-extrema", "Global extrema"]
 domains = ["real-analysis"]
-prerequisites = ["topology/continuous-map", "real-analysis/interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/global-extrema.md"
+prerequisites = ["topology/continuous-map", "real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Global extrema:** Let \(K\subseteq\mathbb R^n\) be nonempty and compact, and let \(f:K\to\mathbb R\) be [[topology/continuous-map|continuous]]. Then there exist points \(x_{\min},x_{\max}\in K\) such that

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth equivariant map between principal bundles covering a smooth map of the bases."
 aliases = ["principal-bundle-morphism", "Principal bundle morphism"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/right-principal-action", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-bundle-morphism.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/right-principal-action", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) and \(\pi':P'\to M'\) be [[fiber-bundles/principal-g-bundle|principal G-bundles]] with [[fiber-bundles/right-principal-action|right actions]] \((p,g)\mapsto p\cdot g\) and \((p',g)\mapsto p'\cdot g\).

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "How a principal connection produces a canonical splitting of the Atiyah sequence of a principal bundle."
 aliases = ["construction-splitting-of-atiyah-sequence-from-a-principal-connection", "Construction: Splitting of the Atiyah sequence from a principal connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/tangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/tangent-bundle", "fiber-bundles/atiyah-sequence-tpgtm0", "fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), where \(G\) is a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\).

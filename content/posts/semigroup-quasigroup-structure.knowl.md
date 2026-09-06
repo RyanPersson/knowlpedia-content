@@ -6,6 +6,9 @@ summary = "Semigroup–Quasigroup Structure"
 aliases = ["semigroup-quasigroup-structure", "Semigroup–Quasigroup Structure"]
 domains = ["posts"]
 legacy_source_path = "posts/semigroup-quasigroup-structure.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 These structures impose different conditions on a binary operation. Here, **division** means that each equation \(ax=b\) and \(ya=b\) has a unique solution for every pair \(a,b\).

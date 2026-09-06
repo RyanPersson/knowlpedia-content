@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The canonical g-valued 1-form on a Lie group obtained by translating tangent vectors to the identity on the right."
 aliases = ["right-maurer-cartan-form", "Right Maurer–Cartan form"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra-of-a-lie-group", "lie-groups/right-translation", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/lie-bracket", "lie-groups/maurer-cartan-equation", "lie-groups/left-maurer-cartan-form", "lie-groups/right-invariant-vector-field", "lie-groups/one-parameter-subgroup", "lie-groups/exponential-map-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/right-maurer-cartan-form.md"
+prerequisites = ["lie-groups/lie-algebra-of-a-lie-group", "lie-groups/right-translation", "lie-groups/right-invariant-differential-form", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/lie-bracket", "lie-groups/maurer-cartan-equation", "lie-groups/left-maurer-cartan-form", "lie-groups/right-invariant-vector-field", "lie-groups/one-parameter-subgroup", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a Lie group with Lie algebra \(\mathfrak g=\mathrm{Lie}(G)\) (see [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]). The **right Maurer–Cartan form** is the \(\mathfrak g\)-valued 1-form \(\theta^R\in\Omega^1(G;\mathfrak g)\) defined by
@@ -15,6 +16,8 @@ Let \(G\) be a Lie group with Lie algebra \(\mathfrak g=\mathrm{Lie}(G)\) (see [
 \theta^R_g \;:=\; (dR_{g^{-1}})_g : T_gG \longrightarrow T_eG \cong \mathfrak g,
 \]
 where \(R_{g^{-1}}\) is [[lie-groups/right-translation|right translation]] by \(g^{-1}\).
+
+## Properties
 
 Key properties:
 

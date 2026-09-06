@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A construction Ind_H^G that extends a representation of a subgroup H to a representation of the whole group G."
 aliases = ["induced-representation", "Induced representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/induced-representation.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/tensor-product", "algebra-modules/module-homomorphism", "algebra-groups/coset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group, \(H\le G\) a subgroup, and \(\sigma:H\to \mathrm{GL}(W)\) a finite-dimensional complex [[algebra-representation-theory/group-representation|representation]] of \(H\).

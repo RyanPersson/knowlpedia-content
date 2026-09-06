@@ -6,6 +6,7 @@ summary = "A cyclic diagram of three objects whose last morphism lands in the sh
 aliases = ["triangle in a category", "triangle"]
 domains = ["algebra-category-theory", "algebra-homological"]
 prerequisites = ["algebra-category-theory/shift-functor"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

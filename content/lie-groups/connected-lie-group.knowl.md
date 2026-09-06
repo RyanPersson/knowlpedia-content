@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie group whose underlying smooth manifold is connected (equivalently, equal to its identity component)."
 aliases = ["connected-lie-group", "Connected Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/normal-lie-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/connected-lie-group.md"
+prerequisites = ["fiber-bundles/lie-group", "topology/connected-set"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **connected Lie group** is a [[fiber-bundles/lie-group|Lie group]] \(G\) whose underlying topological space (hence smooth manifold) is connected.

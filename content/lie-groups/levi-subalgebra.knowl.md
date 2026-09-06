@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A reductive subalgebra obtained from a subset of simple roots by retaining the full Cartan and the corresponding root spaces."
 aliases = ["Levi subalgebra", "standard Levi subalgebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "algebra-groups/inner-automorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "algebra-groups/inner-automorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]], choose a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\), a [[lie-groups/root-system|root system]] \(\Phi\), and a base \(\Delta\) of [[lie-groups/simple-root|simple roots]]. For \(I\subseteq\Delta\), put

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The nondegenerate real 2-form obtained by pairing an almost-complex structure with its compatible metric."
 aliases = ["associated 2-form", "fundamental form"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-hermitian-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/differential-k-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/almost-hermitian-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,J,g)\) be an [[differential-geometry/almost-hermitian-manifold|almost-Hermitian manifold]]. Its **fundamental \(2\)-form** is the differential form \(\omega\) defined by

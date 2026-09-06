@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A finite-dimensional real vector space equipped with a nondegenerate alternating bilinear form."
 aliases = ["linear symplectic space"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "linear-algebra/bilinear-form", "linear-algebra/linear-map", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/bilinear-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **symplectic vector space** is a pair \((V,\omega)\) consisting of a finite-dimensional real [[linear-algebra/vector-space|vector space]] \(V\) and a [[linear-algebra/bilinear-form|bilinear form]] \(\omega:V\times V\to\mathbb R\) such that:

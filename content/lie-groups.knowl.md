@@ -6,6 +6,9 @@ summary = "Core theory of Lie groups, Lie algebras, representations, and structu
 aliases = ["lie-groups", "Lie Groups and Lie Algebras"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This module covers the foundations of Lie group and Lie algebra theory, including the exponential map, adjoint representations, root systems, and the classification of semisimple Lie algebras.

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A time-oriented Lorentzian manifold is globally hyperbolic if and only if it admits a Cauchy hypersurface."
 aliases = ["Geroch characterization of global hyperbolicity", "Cauchy hypersurface characterization"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes", "differential-geometry/cauchy-hypersurface"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/cauchy-hypersurface"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] is [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic]] if and only if it admits a [[differential-geometry/cauchy-hypersurface|Cauchy hypersurface]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Existence and uniqueness of a density for one measure that is absolutely continuous with respect to another."
 aliases = ["radon-nikodym-theorem", "Radon–Nikodym theorem"]
 domains = ["probability"]
-prerequisites = ["measure-theory/measure-space", "measure-theory/measure", "measure-theory/measurable-function", "probability/probability-measure", "probability/probability-space", "probability/expectation", "probability/conditional-expectation", "measure-theory/sigma-algebra"]
-dependency_review_count = 1
 legacy_source_path = "probability/radon-nikodym-theorem.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measure", "measure-theory/measurable-function", "probability/probability-measure", "probability/probability-space", "probability/expectation", "probability/conditional-expectation", "measure-theory/sigma-algebra", "analysis/absolute-continuity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Radon–Nikodym theorem:** Let \((X,\mathcal{A},\mu)\) be a [[measure-theory/measure-space|measure space]] such that \(\mu\) is \(\sigma\)-finite, and let \(\nu\) be a \(\sigma\)-finite [[measure-theory/measure|measure]] on \((X,\mathcal{A})\) that is absolutely continuous with respect to \(\mu\) (written \(\nu \ll \mu\), meaning \(\mu(E)=0 \implies \nu(E)=0\) for all \(E\in\mathcal{A}\)). Then there exists a [[measure-theory/measurable-function|measurable function]] \(f:X\to[0,\infty]\) such that

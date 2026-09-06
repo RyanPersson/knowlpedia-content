@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Characterizations and closure properties of affine sets; representation of aff(Ω)."
 aliases = ["properties-of-affine-sets-and-affine-hulls", "Properties of Affine Sets and Affine Hulls"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/affine-hull-affine-combination", "convex-analysis/affine-mapping", "convex-analysis/linear-subspace", "convex-analysis/convex-set", "convex-analysis/convex-hull"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/properties-of-affine-sets-and-affine-hulls.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/affine-hull-affine-combination", "convex-analysis/affine-mapping", "convex-analysis/linear-subspace", "convex-analysis/convex-set", "convex-analysis/convex-hull"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subset X\).

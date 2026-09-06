@@ -5,18 +5,21 @@ kind = "knowl"
 summary = "A curve in the total space projecting to a base curve and whose velocity is everywhere horizontal."
 aliases = ["horizontal-lift-of-a-curve", "Horizontal lift of a curve"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-curve.md"
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:E\to M\) be a surjective submersion equipped with an [[fiber-bundles/ehresmann-connection|Ehresmann connection]] with horizontal subspaces \(H_eE\subset T_eE\).
 
 Let \(\gamma:I\to M\) be a [[fiber-bundles/smooth-map|smooth map]] from an interval \(I\subset\mathbb R\), and fix \(t_0\in I\) and \(e_0\in E\) with \(\pi(e_0)=\gamma(t_0)\).
 
-**Definition.** A horizontal lift of \(\gamma\) through \(e_0\) is a curve \(\widetilde\gamma:J\to E\) defined on an interval \(J\subset I\) containing \(t_0\) such that:
+**Definition.** A horizontal lift of \(\gamma\) through \(e_0\) is a curve \(\widetilde\gamma:J\to E\) defined on an interval \(J\subset I\) containing \(t_0\) such that \(\widetilde\gamma(t_0)=e_0\) and:
 1. \(\pi\circ \widetilde\gamma=\gamma|_J\), and
 2. \(\dot{\widetilde\gamma}(t)\in H_{\widetilde\gamma(t)}E\) for all \(t\in J\).
+
+## Existence and uniqueness
 
 Standard existence/uniqueness results for ordinary differential equations imply: given an Ehresmann connection, such a lift exists and is unique on some (possibly smaller) interval around \(t_0\), and extends uniquely to a maximal interval.
 

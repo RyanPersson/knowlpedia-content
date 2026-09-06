@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set is linearly independent if only the trivial finite linear combination equals zero"
 aliases = ["linearly-independent-and-linearly-dependent-sets", "Linear independence and dependence"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-combination"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/linearly-independent-and-linearly-dependent-sets.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-combination"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] over \(K\), and let \(M\subset X\).

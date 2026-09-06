@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A self-adjoint operator that extends a given symmetric operator without changing its action on the original domain."
 aliases = ["self-adjoint operator extension"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/self-adjoint-unbounded-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/self-adjoint-unbounded-operator", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A:\mathcal D(A)\subseteq H\to H\) be a densely defined

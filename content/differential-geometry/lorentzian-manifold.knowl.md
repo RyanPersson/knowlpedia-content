@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A pseudo-Riemannian manifold with one timelike direction at every point."
 aliases = ["Lorentz manifold", "Lorentzian metric manifold"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/pseudo-riemannian-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/pseudo-riemannian-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An \(n\)-dimensional **Lorentzian manifold** is a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian manifold]] \((M,g)\) whose metric has signature \((1,n-1)\). In the convention used here, a nonzero tangent vector \(v\) is **timelike**, **null**, or **spacelike** according as

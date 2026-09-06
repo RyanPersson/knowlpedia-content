@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The complement of the resolvent set for a closed, possibly unbounded operator."
 aliases = ["operator spectrum for an unbounded operator", "spectrum of an unbounded operator"]
 domains = ["functional-analysis", "operator-theory", "spectral-theory"]
-prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "functional-analysis/closed-graph-theorem"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "functional-analysis/closed-graph-theorem", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:\mathcal D(T)\subseteq X\to X\) be a densely defined

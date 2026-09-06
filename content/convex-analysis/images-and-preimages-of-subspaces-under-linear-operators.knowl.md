@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Linear maps send subspaces to subspaces and pull back subspaces to subspaces"
 aliases = ["images-and-preimages-of-subspaces-under-linear-operators", "Images and preimages of subspaces under linear maps"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/linear-subspace"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/images-and-preimages-of-subspaces-under-linear-operators.md"
+prerequisites = ["convex-analysis/linear-operator-linear-transformation", "convex-analysis/linear-subspace", "shared-foundations/image", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

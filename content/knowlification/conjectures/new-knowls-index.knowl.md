@@ -5,6 +5,9 @@ kind = "index"
 summary = "The definitions added while knowlifying twelve selected formal conjectures and open problems."
 aliases = ["conjectures new knowls", "formal conjectures glossary"]
 domains = ["knowlification", "conjectures"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This index collects supporting definitions for a collection of formal conjectures and open problems.

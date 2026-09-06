@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonempty subset is a subspace iff it is closed under addition and scalar multiplication"
 aliases = ["subspace-test-closure-under-addition-and-scalar-multiplication", "Subspace test"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/linear-subspace"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/subspace-test-closure-under-addition-and-scalar-multiplication.md"
+prerequisites = ["convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition (Subspace test).**

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a commutative ring, the Jacobson radical equals the intersection of all maximal ideals."
 aliases = ["jacobson-radical-intersection-maximals", "Jacobson radical as intersection of maximal ideals"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/maximal-spectrum"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/jacobson-radical-intersection-maximals.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/maximal-spectrum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. Its **Jacobson radical** is

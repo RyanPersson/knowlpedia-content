@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Compactly supported source and Cauchy data determine a unique smooth solution with finite propagation on a globally hyperbolic spacetime."
 aliases = ["Cauchy theorem for normally hyperbolic operators", "well-posedness of the normally hyperbolic Cauchy problem"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
-prerequisites = ["mathematical-physics/normally-hyperbolic-operator","differential-geometry/globally-hyperbolic-spacetime","differential-geometry/cauchy-hypersurface","mathematical-physics/connection-form-of-a-normally-hyperbolic-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/normally-hyperbolic-operator", "differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/cauchy-hypersurface", "mathematical-physics/connection-form-of-a-normally-hyperbolic-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P:\Gamma^\infty(E)\to\Gamma^\infty(E)\) be a [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic operator]] on a vector bundle over a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]]. Let \(\Sigma\) be a smooth spacelike [[differential-geometry/cauchy-hypersurface|Cauchy hypersurface]] with future-directed unit normal \(\nu\). For

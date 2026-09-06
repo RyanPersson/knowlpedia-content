@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Derivatives of order two and higher, defined iteratively."
 aliases = ["higher-derivatives", "Higher derivatives"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/higher-derivatives.md"
+prerequisites = ["real-analysis/derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **higher derivative** of a function \(f\) is a derivative of order \(n\ge 2\), defined recursively by \(f^{(0)}=f\), \(f^{(1)}=f'\), and \(f^{(n)}=(f^{(n-1)})'\) wherever the [[real-analysis/derivative|derivative]] exists.

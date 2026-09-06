@@ -6,6 +6,9 @@ summary = "Quantum ensembles and KMS states"
 aliases = ["stat-mech-quantum", "Quantum Statistical Mechanics"]
 domains = ["stat-mech-quantum"]
 legacy_source_path = "stat-mech-quantum/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Quantum Systems

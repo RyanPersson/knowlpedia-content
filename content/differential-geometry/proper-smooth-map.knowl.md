@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth map for which the inverse image of every compact set is compact."
 aliases = ["proper map of manifolds", "proper smooth mapping"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/continuous-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/continuous-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]]. A [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) is **proper** if \(f^{-1}(K)\) is a [[topology/compact-set|compact set]] in \(M\) for every compact subset \(K\subseteq N\). Properness is a global topological condition on the underlying [[topology/continuous-map|continuous map]]; it does not impose a rank condition on its differential. In particular, every fiber \(f^{-1}(y)\) is compact because a singleton in a manifold is compact.

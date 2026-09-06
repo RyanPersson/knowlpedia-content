@@ -6,6 +6,7 @@ summary = "A topological group whose underlying topological space is locally com
 aliases = ["locally compact group", "locally compact topological group"]
 domains = ["topology", "algebra-groups"]
 prerequisites = ["topology/topological-group", "topology/locally-compact-space"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

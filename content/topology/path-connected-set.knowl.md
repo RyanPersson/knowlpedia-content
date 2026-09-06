@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set in which any two points can be joined by a continuous path lying in the set."
 aliases = ["path-connected-set", "Path-connected set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/path"]
-dependency_review_count = 1
 legacy_source_path = "topology/path-connected-set.md"
+prerequisites = ["topology/topological-space", "topology/path"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **path-connected set** is a subset \(A\subseteq X\) of a [[topology/topological-space|topological space]] \(X\) such that for any \(x,y\in A\) there exists a [[topology/path|path]] \(\gamma\colon [0,1]\to X\) with \(\gamma(0)=x\), \(\gamma(1)=y\), and \(\gamma([0,1])\subseteq A\).

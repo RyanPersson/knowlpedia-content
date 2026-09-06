@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a Euclidean domain, the Euclidean algorithm computes a gcd and expresses it as a linear combination."
 aliases = ["euclidean-algorithm", "Euclidean algorithm yields gcd and Bézout identity"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/euclidean-domain", "algebra-rings/gcd", "algebra-rings/ideal-generated", "algebra-rings/principal-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/euclidean-algorithm.md"
+prerequisites = ["algebra-rings/euclidean-domain", "algebra-rings/gcd", "algebra-rings/ideal-generated", "algebra-rings/principal-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Euclidean algorithm yields gcd and Bézout identity**: Let \(R\) be a Euclidean domain and let \(a,b\in R\) be not both zero. The Euclidean algorithm produces \(d\in R\) and \(x,y\in R\) such that \(d=\gcd(a,b)\) and \(d=ax+by\). Equivalently, \((a,b)=(d)\) as ideals.

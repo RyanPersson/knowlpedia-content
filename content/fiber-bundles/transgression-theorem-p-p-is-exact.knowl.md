@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The difference of Chern–Weil forms for two connections is exact, with an explicit transgression form."
 aliases = ["transgression-theorem-p-p-is-exact", "Transgression theorem (Chern–Simons)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/transgression-theorem-p-p-is-exact.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:Q\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], let \(\omega_0,\omega_1\) be [[fiber-bundles/principal-connection|principal connections]] with curvatures \(\Omega_0,\Omega_1\), and let \(p\) be an \(\operatorname{Ad}\)-invariant homogeneous polynomial of degree \(k\) on \(\mathfrak g\).

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The decreasing filtration obtained by collecting the Hodge components whose first bidegree is at least a prescribed integer."
 aliases = ["decreasing Hodge filtration"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/pure-hodge-structure", "differential-geometry/complex-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/pure-hodge-structure", "differential-geometry/complex-manifold", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) carry a [[differential-geometry/pure-hodge-structure|pure Hodge structure]] of weight \(n\), with

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An entity of a category; morphisms go between objects."
 aliases = ["object"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/object.md"
+prerequisites = ["algebra-category-theory/category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. An **object** of \(\mathcal C\) is an element of the collection \(\mathrm{Ob}(\mathcal C)\).

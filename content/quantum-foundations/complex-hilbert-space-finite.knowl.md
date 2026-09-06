@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A finite-dimensional complex inner product space, automatically complete, used as the state space in finite-dimensional quantum theory."
 aliases = ["complex-hilbert-space-finite", "Finite-Dimensional Complex Hilbert Space"]
 domains = ["quantum-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/complex-hilbert-space-finite.md"
+prerequisites = ["quantum-foundations/density-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **finite-dimensional complex Hilbert space** is a complex vector space \(H\) of finite dimension equipped with an inner product

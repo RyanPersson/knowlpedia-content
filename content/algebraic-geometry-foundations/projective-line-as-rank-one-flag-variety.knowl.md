@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The projective line is the complete flag variety of a two-dimensional vector space."
 aliases = ["P1 as a flag variety", "rank-one flag variety"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/borel-subgroup", "algebraic-geometry-foundations/projective-line", "algebraic-geometry-foundations/flag-variety"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/borel-subgroup", "algebraic-geometry-foundations/projective-line", "algebraic-geometry-foundations/flag-variety"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field and let \(B\) be the split upper-triangular

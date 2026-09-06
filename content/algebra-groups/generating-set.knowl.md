@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset whose elements generate the whole group"
 aliases = ["generating-set", "Generating Set"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/generated-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/generating-set.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/generated-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(S\subseteq G\). The set \(S\) **generates \(G\)**, or is a **generating set** for \(G\), if the smallest [[algebra-groups/subgroup|subgroup]] containing \(S\) is \(G\):

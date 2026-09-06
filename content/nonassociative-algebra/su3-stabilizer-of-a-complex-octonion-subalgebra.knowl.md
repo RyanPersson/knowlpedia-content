@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Fixing a unit imaginary octonion reduces the octonion automorphism group G₂ to SU(3)."
 aliases = ["SU3 in G2", "SU(3) stabilizer in G2", "complex stabilizer of the octonions"]
 domains = ["nonassociative-algebra", "lie-groups"]
-prerequisites = ["lie-groups/compact-exceptional-lie-group-g2"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/compact-exceptional-lie-group-g2", "nonassociative-algebra/octonion-algebra", "linear-algebra/vector-space", "linear-algebra/orthogonal-complement", "nonassociative-algebra/conjugated-cross-product-on-c3", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(i\in\operatorname{Im}(\mathbb O)\) be a unit imaginary octonion, so \(i^2=-1\), and let \(\mathbb C_i=\operatorname{span}_{\mathbb R}\{1,i\}\). The subgroup of

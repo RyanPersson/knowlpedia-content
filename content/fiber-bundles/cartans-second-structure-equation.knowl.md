@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "On the frame bundle, the curvature form is given by d omega plus one half the bracket of omega with itself."
 aliases = ["cartans-second-structure-equation", "Cartan's second structure equation (curvature) in the frame bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/cartans-second-structure-equation.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:F(M)\to M\) be its frame bundle, a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G=\mathrm{GL}(n,\mathbb{R})\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\in\Omega^1(F(M);\mathfrak{gl}(n,\mathbb{R}))\), where \(\mathfrak{gl}(n,\mathbb{R})\) is the [[lie-groups/lie-algebra|Lie algebra]] of \(G\).

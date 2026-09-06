@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subgroup whose order is coprime to its index in the ambient finite group"
 aliases = ["hall-subgroup", "Hall subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/index-of-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/hall-subgroup.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/index-of-subgroup", "algebra-groups/sylow-subgroup", "algebra-groups/solvable-group", "algebra-rings/gcd"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite [[algebra-groups/group|group]]. A [[algebra-groups/subgroup|subgroup]] \(H\le G\) is called a **Hall subgroup** if the order of \(H\) is relatively prime to its [[algebra-groups/index-of-subgroup|index]] in \(G\), i.e.

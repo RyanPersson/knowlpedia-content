@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set of ordered pairs encoding which elements are related."
 aliases = ["relation"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/cartesian-product"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/relation.md"
+prerequisites = ["shared-foundations/cartesian-product", "shared-foundations/subset"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **relation** from a set \(A\) to a set \(B\) is a set \(R\) with

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Strongly continuous one-parameter unitary groups are exactly exponentials of self-adjoint operators."
 aliases = ["Stone theorem", "infinitesimal generator theorem"]
 domains = ["lie-groups", "functional-analysis"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "lie-groups/one-parameter-subgroup", "functional-analysis/self-adjoint-unbounded-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "lie-groups/one-parameter-subgroup", "functional-analysis/self-adjoint-unbounded-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U:\mathbb R\to U(\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of the additive group, equivalently a strongly continuous unitary [[lie-groups/one-parameter-subgroup|one-parameter group]]. **Stone's theorem** states that there is a unique, possibly unbounded, [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint operator]] \(A\) on \(\mathcal H\) such that

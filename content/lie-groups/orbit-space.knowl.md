@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The quotient of a G-manifold by the equivalence relation of lying in the same orbit."
 aliases = ["orbit-space", "Orbit space"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/orbit-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/orbit-space.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/orbit-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold \(M\) (see [[lie-groups/smooth-action-lie-group|smooth actions]]).

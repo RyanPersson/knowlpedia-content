@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The decomposition of a representation after restriction from a Lie group or Lie algebra to a subgroup or subalgebra."
 aliases = ["branching rule", "restriction rule", "branching decomposition"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/representation-of-a-lie-group", "algebra-representation-theory/restricted-representation", "lie-groups/multiplicity-of-an-irreducible-representation", "lie-groups/lie-algebra", "lie-groups/representation-of-a-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/representation-of-a-lie-group", "algebra-representation-theory/restricted-representation", "lie-groups/multiplicity-of-an-irreducible-representation", "lie-groups/lie-algebra", "lie-groups/representation-of-a-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(i:H\to G\) be a homomorphism of [[fiber-bundles/lie-group|Lie groups]] and let \((\pi,V)\) be a finite-dimensional [[lie-groups/representation-of-a-lie-group|representation]] of \(G\). The **branching rule** for \(V\) along \(i\) is the decomposition of the [[algebra-representation-theory/restricted-representation|restricted representation]]

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A vector bundle section whose value is nonzero in every fiber."
 aliases = ["nonvanishing section", "nowhere-zero section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/zero-section", "linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/zero-section", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a real or complex [[fiber-bundles/vector-bundle|vector bundle]] and let \(s:M\to E\) be a [[fiber-bundles/section-of-a-vector-bundle|section]]. The section \(s\) is **nowhere vanishing** if

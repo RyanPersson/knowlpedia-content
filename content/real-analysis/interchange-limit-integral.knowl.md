@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Under uniform convergence, the limit of Riemann integrals equals the Riemann integral of the limit."
 aliases = ["interchange-limit-integral", "Interchanging limit and integral"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/uniform-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/interchange-limit-integral.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Interchanging limit and integral:** Let \(f_n:[a,b]\to\mathbb{R}\) be [[real-analysis/riemann-integrable-function|Riemann integrable]] for every \(n\), and suppose \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]] on \([a,b]\). Then \(f\) is [[real-analysis/riemann-integrable-function|Riemann integrable]] and

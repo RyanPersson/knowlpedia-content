@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The nth homology H_n(C) = ker(d_n)/im(d_{n+1}) of a chain complex of modules."
 aliases = ["homology-module", "Homology module"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-rings/ring", "algebra-homological/chain-complex", "algebra-modules/module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/homology-module.md"
+prerequisites = ["algebra-rings/ring", "algebra-homological/chain-complex", "algebra-modules/module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and let

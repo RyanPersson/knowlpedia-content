@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Necessary first-order condition for constrained extrema in terms of gradients."
 aliases = ["lagrange-multiplier-condition", "Lagrange multiplier condition"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/constraint-set", "real-analysis/local-extremum", "real-analysis/regular-point", "real-analysis/gradient", "real-analysis/critical-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/lagrange-multiplier-condition.md"
+prerequisites = ["topology/open-set", "real-analysis/constraint-set", "real-analysis/local-extremum", "real-analysis/regular-point", "real-analysis/gradient", "real-analysis/critical-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Lagrange multiplier condition:** Let \(U\subseteq\mathbb R^n\) be an [[topology/open-set|open set]]. Let \(f:U\to\mathbb R\) and \(g:U\to\mathbb R^m\) be continuously differentiable with \(m<n\), and consider the [[real-analysis/constraint-set|constraint set]] \(S=\{x\in U: g(x)=0\}\). If \(x^\ast\in S\) is a local [[real-analysis/local-extremum|extremum]] of \(f\) restricted to \(S\) and \(Dg(x^\ast)\) has rank \(m\) (so \(x^\ast\) is a [[real-analysis/regular-point|regular point]] of \(g\)), then there exists \(\lambda\in\mathbb R^m\) such that

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The End(E)-valued curvature two-form of a Hermitian holomorphic vector bundle's Chern connection."
 aliases = ["Chern curvature", "Hermitian curvature"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric", "fiber-bundles/chern-connection", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric", "fiber-bundles/chern-connection", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to X\) be a [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]] over a [[differential-geometry/complex-manifold|complex manifold]], equipped with a [[fiber-bundles/hermitian-metric|Hermitian metric]] \(h\). If \(\nabla\) is its [[fiber-bundles/chern-connection|Chern connection]], the **Chern curvature** is the [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature]]

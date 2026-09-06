@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonassociative algebra in which repeated adjacent factors associate."
 aliases = ["alternative ring", "left and right alternative algebra"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/nonassociative-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/nonassociative-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An [[nonassociative-algebra/nonassociative-algebra|algebra]] \(A\) is **alternative** if it satisfies the left and right alternative laws

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A quasi-regular representation is the unitary action of a locally compact group on square-integrable functions over a homogeneous space."
 aliases = ["representation on L2(G/H)", "homogeneous-space representation"]
 domains = ["harmonic-analysis", "representation-theory", "lie-groups"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/quasi-invariant-measure", "harmonic-analysis/locally-compact-homogeneous-space", "measure-theory/lp-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/quasi-invariant-measure", "harmonic-analysis/locally-compact-homogeneous-space", "measure-theory/lp-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]], let \(H\) be a closed subgroup, and let \(\mu\) be a [[harmonic-analysis/quasi-invariant-measure|quasi-invariant regular measure]] on the [[harmonic-analysis/locally-compact-homogeneous-space|locally compact homogeneous space]] \(G/H\). Write \(g_*\mu(E)=\mu(g^{-1}E)\) and \(r_g=d(g_*\mu)/d\mu\). The **quasi-regular representation** of \(G\) on [[measure-theory/lp-space|\(L^2(G/H,\mu)\)]] is

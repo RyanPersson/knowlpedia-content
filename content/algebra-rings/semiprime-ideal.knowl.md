@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An ideal containing no nonzero nilpotent ideal modulo it; in commutative rings, the same as a radical ideal."
 aliases = ["semiprime-ideal", "Semiprime ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/two-sided-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/semiprime-ideal.md"
+prerequisites = ["algebra-rings/two-sided-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring and let \(I\) be a [[algebra-rings/two-sided-ideal|two-sided ideal]]. The ideal \(I\) is **semiprime** if, for every two-sided ideal \(J\subseteq R\),

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Submodules of M containing N correspond to submodules of M/N."
 aliases = ["correspondence-theorem-modules", "Correspondence theorem for modules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/submodule", "algebra-modules/quotient-module", "shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/correspondence-theorem-modules.md"
+prerequisites = ["algebra-modules/submodule", "algebra-modules/quotient-module", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Correspondence theorem (modules)**: Let \(M\) be an \(R\)-module and \(N\subseteq M\) a submodule. Let \(\pi\colon M\to M/N\) be the quotient map. Then the assignments

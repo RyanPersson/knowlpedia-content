@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The topology of pointwise norm convergence for bounded operators on a Hilbert space."
 aliases = ["SOT", "strong operator convergence", "pointwise norm topology"]
 domains = ["operator-algebras", "functional-analysis", "topology"]
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/topology-generated-by-seminorms"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/topology-generated-by-seminorms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]]. The **strong

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A finite-order jet records the derivatives of a smooth map at one point through a specified order."
 aliases = ["r-jet", "jet equivalence of maps"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "real-analysis/partial-derivative", "shared-foundations/equivalence-class", "fiber-bundles/jet-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "real-analysis/partial-derivative", "shared-foundations/equivalence-class", "fiber-bundles/jet-bundle", "real-analysis/chain-rule", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M,N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]], \(x\in M\), and \(r\geq 0\) an integer. Two [[fiber-bundles/smooth-map|smooth maps]] \(f,g\), defined near \(x\), have the same **\(r\)-jet at \(x\)** if \(f(x)=g(x)\) and, in local coordinates about \(x\) and their common value, all [[real-analysis/partial-derivative|partial derivatives]] of their coordinate representatives of total order at most \(r\) agree at \(x\). This relation is independent of the chosen coordinates. The [[shared-foundations/equivalence-class|equivalence class]] is denoted \(j_x^r f\). Varying \(x\), the value \(f(x)\), and the class produces the [[fiber-bundles/jet-bundle|jet bundle]] \(J^r(M,N)\).

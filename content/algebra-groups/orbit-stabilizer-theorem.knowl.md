@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a group action, the orbit of a point is in bijection with the coset space of its stabilizer."
 aliases = ["orbit-stabilizer-theorem", "Orbit–Stabilizer Theorem"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/orbit", "algebra-groups/stabilizer"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/orbit-stabilizer-theorem.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/orbit", "algebra-groups/stabilizer", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Orbit–Stabilizer Theorem.**

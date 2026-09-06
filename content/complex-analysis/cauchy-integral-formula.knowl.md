@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A holomorphic function and all its derivatives are recovered from boundary values."
 aliases = ["Cauchy's integral formula"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/winding-number"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-contour-integral", "complex-analysis/winding-number", "complex-analysis/complex-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be open, let \(f\) be holomorphic on \(D\), and let \(\gamma\) be a closed piecewise \(C^1\) contour whose image lies in \(D\) and whose [[complex-analysis/winding-number|index]] vanishes outside \(D\). For every \(a\in D\setminus\gamma\),

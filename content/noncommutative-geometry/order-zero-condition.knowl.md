@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The requirement that the represented algebra commute with the opposite-algebra action induced by the real structure."
 aliases = ["commutant condition", "zero-order condition"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["operator-algebras/opposite-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/opposite-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,H,D,J)\) be spectral data with antiunitary \(J\), and define the represented [[operator-algebras/opposite-algebra|opposite-algebra action]] by

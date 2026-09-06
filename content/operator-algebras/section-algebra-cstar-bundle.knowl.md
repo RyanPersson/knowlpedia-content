@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The C*-algebra of continuous bundle sections that vanish at infinity."
 aliases = ["C_0-sections of a C*-bundle", "Gamma_0(X,A)"]
 domains = ["operator-algebras", "topology"]
-prerequisites = ["operator-algebras/upper-semicontinuous-cstar-bundle", "topology/locally-compact-space", "topology/hausdorff-space", "operator-algebras/cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/upper-semicontinuous-cstar-bundle", "topology/locally-compact-space", "topology/hausdorff-space", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(p\colon\mathcal A\to X\) be an [[operator-algebras/upper-semicontinuous-cstar-bundle|upper-semicontinuous \(C^*\)-bundle]] over a [[topology/locally-compact-space|locally compact]] [[topology/hausdorff-space|Hausdorff space]]. Its **section algebra** is

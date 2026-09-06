@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A maximal connected solvable subgroup of a connected linear algebraic group."
 aliases = ["Borel subgroup"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/reductive-algebraic-group", "lie-groups/positive-root"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/reductive-algebraic-group", "lie-groups/positive-root"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/algebraic-group|

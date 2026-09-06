@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A semifinite spectral triple whose resolvent has finite noncommutative lp norm with respect to the chosen trace."
 aliases = ["semifinite p-summability", "tau-p-summable triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/semifinite-spectral-triple", "operator-algebras/faithful-normal-semifinite-trace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/semifinite-spectral-triple", "operator-algebras/faithful-normal-semifinite-trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,\mathcal N,D,\tau)\) be a [[noncommutative-geometry/semifinite-spectral-triple|semifinite spectral triple]], where \(\tau\) is a [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]] on \(\mathcal N\), and let \(p>0\). The triple is **tau-\(p\)-summable** if

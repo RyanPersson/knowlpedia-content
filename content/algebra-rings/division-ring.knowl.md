@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A unital ring in which every nonzero element is invertible (not necessarily commutative)."
 aliases = ["division-ring", "Division ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/unital-ring", "algebra-rings/unit", "algebra-rings/group-of-units"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/division-ring.md"
+prerequisites = ["algebra-rings/unital-ring", "algebra-rings/unit"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **division ring** (or skew field) is a [[algebra-rings/unital-ring|unital ring]] \(D\) with \(1\neq 0\) such that every nonzero element of \(D\) is a [[algebra-rings/unit|unit]] (equivalently, \(D^\times=D\setminus\{0\}\) is a group under multiplication, i.e. the [[algebra-rings/group-of-units|group of units]] equals all nonzero elements).

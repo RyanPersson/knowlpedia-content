@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The structure equation satisfied by the Maurer–Cartan form on a Lie group."
 aliases = ["maurer-cartan-equation", "Maurer–Cartan equation"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-maurer-cartan-form", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/maurer-cartan-equation.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-maurer-cartan-form", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak g\).

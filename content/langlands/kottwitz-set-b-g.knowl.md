@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of Frobenius-conjugacy classes in a reductive group over the completed maximal unramified extension."
 aliases = ["Kottwitz set", "sigma-conjugacy classes in G", "G-isocrystals"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/unramified-extension-local", "langlands-letter/knowls/frobenius-unramified", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/twisted-conjugacy", "shared-foundations/pointed-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/unramified-extension-local", "langlands-letter/knowls/frobenius-unramified", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/twisted-conjugacy", "shared-foundations/pointed-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a

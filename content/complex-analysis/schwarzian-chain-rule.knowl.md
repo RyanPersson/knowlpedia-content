@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The Schwarzian derivative obeys a quadratic-differential cocycle rule under composition."
 aliases = ["chain rule for the Schwarzian derivative"]
 domains = ["complex-analysis", "projective-geometry"]
-prerequisites = ["complex-analysis/schwarzian-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/schwarzian-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f\) and \(g\) be locally univalent holomorphic maps for which the composite \(f\circ g\) is defined. Their [[complex-analysis/schwarzian-derivative|Schwarzian derivatives]] satisfy

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The Lie subalgebra of elements commuting with every element of a given Lie subalgebra."
 aliases = ["centralizer of a Lie subalgebra", "Lie-algebra centralizer", "commutant in a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak k\subseteq\mathfrak g\) be a [[lie-groups/lie-subalgebra|Lie subalgebra]]. The **centralizer of \(\mathfrak k\) in \(\mathfrak g\)** is

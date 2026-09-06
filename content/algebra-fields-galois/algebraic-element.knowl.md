@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element α is algebraic over F if it satisfies a nonzero polynomial with coefficients in F."
 aliases = ["algebraic-element", "Algebraic element"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/algebraic-element.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-rings/polynomial-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E/F\) be a [[algebra-fields-galois/field-extension|field extension]] and let \(\alpha\in E\). The element \(\alpha\) is **algebraic over \(F\)** if there exists a nonzero polynomial \(f(x)\in F[x]\) such that

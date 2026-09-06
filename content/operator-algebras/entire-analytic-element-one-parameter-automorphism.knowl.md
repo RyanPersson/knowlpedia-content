@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An element whose orbit under a one-parameter automorphism group extends to an entire algebra-valued function."
 aliases = ["entire analytic element", "analytic element for an automorphism group"]
 domains = ["operator-algebras", "functional-analysis", "dynamical-systems"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-automorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-automorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and

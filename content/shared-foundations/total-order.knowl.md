@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A partial order in which any two elements are comparable."
 aliases = ["total-order", "Total order"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/partial-order"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/total-order.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/partial-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **total order** on a [[shared-foundations/set|set]] \(X\) is a [[shared-foundations/partial-order|partial order]] \(\le\) on \(X\) such that for all \(a,b\in X\), either \(a\le b\) or \(b\le a\).

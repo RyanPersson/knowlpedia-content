@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every short exact sequence of finite-rank vector bundles over a paracompact base admits a generally noncanonical bundle splitting."
 aliases = ["splitting of a vector bundle exact sequence", "bundle complement theorem"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/short-exact-sequence-of-vector-bundles", "fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/short-exact-sequence-of-vector-bundles", "fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be paracompact, and let

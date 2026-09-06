@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subset of points fixed by every group element in an action."
 aliases = ["fixed-point-set", "Fixed-Point Set"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-action"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/fixed-point-set.md"
+prerequisites = ["algebra-groups/group-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[algebra-groups/group-action|group action]] of a group \(G\) on a set \(X\) be given. The **fixed-point set** of the action is

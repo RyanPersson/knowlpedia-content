@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The principal bundle whose fiber consists of ordered bases of the fibers of a rank-n vector bundle."
 aliases = ["frame-bundle-frame-bundle-of-a-rank-n-vector-bundle", "Frame bundle of a rank-n vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/rank-of-a-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/transition-matrix-of-a-local-frame"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle.md"
+prerequisites = ["fiber-bundles/rank-of-a-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/transition-matrix-of-a-local-frame"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth real or complex vector bundle of [[fiber-bundles/rank-of-a-vector-bundle|rank]] \(n\) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **frame bundle** (or **general linear frame bundle**) of \(E\), denoted \(\mathrm{Fr}(E)\), is the manifold whose points are ordered bases (frames) of the fibers of \(E\):

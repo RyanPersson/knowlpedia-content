@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A level structure defined by the inverse image of a Borel subgroup under evaluation of positive loops at the marked point."
 aliases = ["Borel level structure"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "langlands/level-structure-on-g-bundle", "langlands/parahoric-level-structure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "langlands/level-structure-on-g-bundle", "langlands/parahoric-level-structure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over \(k\), choose a

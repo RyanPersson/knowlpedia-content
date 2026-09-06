@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Compute the expectation of a transformed random variable using the distribution of the original."
 aliases = ["expectation-function-of-rv", "Expectation of a function of a random variable"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable", "probability/distribution-law", "measure-theory/measurable-function"]
-dependency_review_count = 1
 legacy_source_path = "probability/expectation-function-of-rv.md"
+prerequisites = ["probability/random-variable", "probability/distribution-law", "measure-theory/measurable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Law of the unconscious statistician:** Let \(X:\Omega\to S\) be a [[probability/random-variable|random variable]] with [[probability/distribution-law|distribution (law)]] \(\mu_X\) on \((S,\mathcal S)\). If \(g:S\to\mathbb R\) is [[measure-theory/measurable-function|measurable]] and \(g(X)\) is integrable, then

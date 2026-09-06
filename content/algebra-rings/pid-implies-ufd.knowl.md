@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every principal ideal domain is a unique factorization domain."
 aliases = ["pid-implies-ufd", "PID ⇒ UFD"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/pid", "algebra-rings/irreducible-element", "algebra-rings/prime-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/pid-implies-ufd.md"
+prerequisites = ["algebra-rings/pid", "algebra-rings/ufd", "algebra-rings/irreducible-element", "algebra-rings/prime-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **PID ⇒ UFD**: If \(R\) is a [[algebra-rings/pid|principal ideal domain]], then \(R\) is a [[algebra-rings/ufd|unique factorization domain]].

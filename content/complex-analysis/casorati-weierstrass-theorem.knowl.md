@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Near an essential singularity, the image of every punctured neighborhood is dense in the complex plane."
 aliases = ["Casorati-Weierstrass theorem", "Weierstrass–Casorati theorem"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/isolated-singularity-classification", "complex-analysis/holomorphic-functions-are-analytic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(a\) be an essential isolated singularity of a holomorphic function \(f\). For every \(\delta>0\), the set

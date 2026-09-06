@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The invariant distribution character of an admissible p-adic representation and its regular-semisimple representing function."
 aliases = ["p-adic Harish-Chandra character", "distribution character of a p-adic representation", "Harish-Chandra character for p-adic groups"]
 domains = ["harmonic-analysis", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/admissible-representation-p-adic-group", "harmonic-analysis/test-function-space-local-group", "harmonic-analysis/distribution-local-group", "harmonic-analysis/haar-measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/admissible-representation-p-adic-group", "harmonic-analysis/test-function-space-local-group", "harmonic-analysis/distribution-local-group", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected

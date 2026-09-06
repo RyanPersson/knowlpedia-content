@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "An object admitting a unique morphism to every object of a category."
 aliases = ["initial object"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/terminal-object"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

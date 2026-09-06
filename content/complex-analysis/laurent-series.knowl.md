@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The unique expansion of a holomorphic function in positive and negative powers on an annulus."
 aliases = ["Laurent expansion"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-contour-integral", "real-analysis/power-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 If \(f\) is holomorphic on an annulus

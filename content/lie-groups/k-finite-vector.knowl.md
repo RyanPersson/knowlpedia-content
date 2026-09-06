@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A vector whose orbit under a compact subgroup spans a finite-dimensional subspace."
 aliases = ["finite vector for a compact subgroup", "K-finite part"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["linear-algebra/vector-space", "lie-groups/strongly-continuous-unitary-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "lie-groups/strongly-continuous-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi\) be a representation of a group \(G\) on a complex [[linear-algebra/vector-space|vector space]] \(V\), and let \(K\subseteq G\) be compact. A vector \(v\in V\) is **\(K\)-finite** when

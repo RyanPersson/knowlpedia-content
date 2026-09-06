@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A scheme morphism that is locally induced by finitely generated algebras."
 aliases = ["locally-of-finite-type", "Locally of finite type"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-modules/algebra-over-ring", "algebraic-geometry-foundations/locally-of-finite-presentation"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-modules/algebra-over-ring", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

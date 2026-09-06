@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A collection of sets labeled by elements of an index set."
 aliases = ["indexed-family-of-sets", "Indexed family of sets"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/indexed-family-of-sets.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 An **indexed family of sets** is a [[shared-foundations/function|function]] \(A\colon I\to V\) whose domain \(I\) is a set of indices and such that for each \(i\in I\), the value \(A(i)\) is a set. One writes the family as \((A_i)_{i\in I}\), where \(A_i:=A(i)\).

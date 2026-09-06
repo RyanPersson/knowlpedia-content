@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bijective smooth map with smooth inverse; an isomorphism of smooth manifolds."
 aliases = ["diffeomorphism"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/diffeomorphism.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "shared-foundations/bijective-function", "shared-foundations/inverse-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]]. A map \(f:M\to N\) is a **diffeomorphism** if

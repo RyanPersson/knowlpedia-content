@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The canonical generator of the first integral cohomology of the real Lagrangian Grassmannian."
 aliases = ["universal Maslov class"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/lagrangian-grassmannian", "topology/fundamental-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lagrangian-grassmannian", "topology/fundamental-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\geq1\), identify the real [[differential-geometry/lagrangian-grassmannian|Lagrangian Grassmannian]] with \(\Lambda(n)=U(n)/O(n)\). Since \(\det(AQ)^2=\det(A)^2\) for \(Q\in O(n)\), the map

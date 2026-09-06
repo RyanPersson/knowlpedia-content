@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measurable function that takes only finitely many values."
 aliases = ["simple-function", "Simple function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-space","measure-theory/measurable-function","measure-theory/measurable-set","measure-theory/indicator-function"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/simple-function.md"
+prerequisites = ["measure-theory/measurable-function", "measure-theory/measurable-set", "measure-theory/indicator-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **simple function** on a measurable space \((X,\Sigma)\) is a [[measure-theory/measurable-function|measurable function]] \(s:X\to \mathbb R\) (or into \([0,\infty]\)) that takes only finitely many distinct values; equivalently, \(s\) can be written as \(s=\sum_{k=1}^n a_k\,\mathbf 1_{A_k}\) for some real numbers \(a_k\) and some [[measure-theory/measurable-set|measurable sets]] \(A_k\in\Sigma\).

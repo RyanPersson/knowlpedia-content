@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A fundamental object determined entirely by which elements it contains."
 aliases = ["set"]
 domains = ["shared-foundations"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/set.md"
+prerequisites = []
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **set** is an object \(A\) for which statements of the form \(x\in A\) (read “\(x\) is an element of \(A\)”) are meaningful, and whose identity is determined by **extensionality**: for sets \(A,B\),

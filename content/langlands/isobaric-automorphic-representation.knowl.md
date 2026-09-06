@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An automorphic representation of GL_n formed as the Langlands quotient of cuspidal data on a standard Levi subgroup."
 aliases = ["isobaric sum", "Langlands isobaric sum", "boxplus of automorphic representations"]
 domains = ["langlands", "harmonic-analysis"]
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "langlands-letter/knowls/adeles-restricted-product", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "langlands-letter/knowls/adeles-restricted-product", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A singular trace on the Marcinkiewicz–Macaev ideal obtained by applying an invariant generalized limit to logarithmic singular-value means."
 aliases = ["non-normal singular trace", "Tr-omega"]
 domains = ["operator-algebras", "noncommutative-geometry"]
-prerequisites = ["linear-algebra/hilbert-space", "real-analysis/bounded-sequence", "operator-algebras/marcinkiewicz-macaev-ideal"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "real-analysis/bounded-sequence", "operator-algebras/marcinkiewicz-macaev-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a separable [[linear-algebra/hilbert-space|Hilbert space]] and let

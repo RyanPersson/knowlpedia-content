@@ -6,6 +6,7 @@ summary = "A compact manifold without boundary."
 aliases = ["closed manifold", "closed smooth manifold", "closed topological manifold"]
 domains = ["topology", "fiber-bundles"]
 prerequisites = ["topology/topological-manifold", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

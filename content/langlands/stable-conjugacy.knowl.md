@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Conjugacy over an algebraic closure, retaining the Galois descent class of the centralizer."
 aliases = ["stably conjugate", "stable conjugacy class"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/strongly-regular-semisimple-element", "algebra-fields-galois/algebraic-closure", "algebra-groups/centralizer", "langlands-letter/knowls/galois-extension-and-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/strongly-regular-semisimple-element", "algebra-fields-galois/algebraic-closure", "algebra-groups/centralizer", "langlands-letter/knowls/galois-extension-and-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a field \(F\). Two

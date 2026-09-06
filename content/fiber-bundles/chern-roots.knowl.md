@@ -5,10 +5,10 @@ kind = "definition"
 summary = "Formal degree-two classes that express the Chern classes of a complex vector bundle as elementary symmetric polynomials."
 aliases = ["formal Chern roots", "Chern roots under the splitting principle"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/splitting-principle", "fiber-bundles/line-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/splitting-principle", "fiber-bundles/line-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to X\) be a rank-\(r\) [[fiber-bundles/complex-vector-bundle|complex vector bundle]]. Choose a splitting space \(p:Y\to X\) supplied by the [[fiber-bundles/splitting-principle|splitting principle]], so that \(p^*\) is injective on cohomology and \(p^*E\cong L_1\oplus\cdots\oplus L_r\) for complex line bundles \(L_i\). The **Chern roots** of \(E\) are the formal degree-two classes

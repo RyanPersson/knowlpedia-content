@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every globally hyperbolic spacetime has a smooth Cauchy temporal function and splits smoothly into time times a Cauchy hypersurface."
 aliases = ["Bernal-Sánchez splitting theorem", "smooth Geroch splitting theorem"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/cauchy-hypersurface"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/globally-hyperbolic-spacetime", "differential-geometry/cauchy-hypersurface"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Every [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]] \((M,g)\) admits a smooth Cauchy temporal function \(t:M\to\mathbb R\): its gradient is timelike and each level set

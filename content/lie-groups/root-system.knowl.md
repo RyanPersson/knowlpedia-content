@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite set of vectors closed under reflections and satisfying integrality; the combinatorial data behind semisimple Lie theory."
 aliases = ["root-system", "Root system"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/weyl-group", "lie-groups/cartan-subalgebra", "lie-groups/killing-form", "lie-groups/classification-simple-lie-algebras"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/root-system.md"
+prerequisites = ["lie-groups/weyl-group", "lie-groups/cartan-subalgebra", "lie-groups/killing-form", "lie-groups/classification-simple-lie-algebras"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **(reduced) root system** is a finite subset \(\Phi\subset V\setminus\{0\}\) of a real finite-dimensional inner product space \((V,\langle\cdot,\cdot\rangle)\) such that:

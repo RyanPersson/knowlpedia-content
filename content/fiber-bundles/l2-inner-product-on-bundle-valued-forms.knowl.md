@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The integral inner product on bundle-valued differential forms induced by metrics on the base and coefficient bundle."
 aliases = ["L2 pairing on bundle-valued forms", "gauge-theoretic L2 metric"]
 domains = ["fiber-bundles", "differential-geometry", "functional-analysis"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "linear-algebra/inner-product", "fiber-bundles/vector-bundle-valued-differential-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "linear-algebra/inner-product", "fiber-bundles/vector-bundle-valued-differential-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] and let \(E\to M\) be a real Euclidean or complex Hermitian [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] \(h\). The metrics induce a pointwise [[linear-algebra/inner-product|inner product]] on [[fiber-bundles/vector-bundle-valued-differential-form|\(E\)-valued \(k\)-forms]]. For compactly supported forms \(\alpha,\beta\), their **\(L^2\) inner product** is

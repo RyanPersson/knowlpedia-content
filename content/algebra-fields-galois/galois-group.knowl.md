@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The group of field automorphisms of an extension that fix the base field pointwise."
 aliases = ["galois-group", "Galois group"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/field-automorphism", "algebra-groups/automorphism-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/galois-group.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/field-automorphism", "algebra-groups/automorphism-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/F\) be a [[algebra-fields-galois/field-extension|field extension]].

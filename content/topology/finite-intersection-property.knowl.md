@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A property of a family of sets where every finite subfamily has nonempty intersection."
 aliases = ["finite-intersection-property", "Finite intersection property"]
 domains = ["topology"]
-prerequisites = ["topology/closed-set", "topology/compact-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/finite-intersection-property.md"
+prerequisites = ["topology/closed-set", "topology/compact-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A family \(\mathcal F\) of subsets of a set \(X\) has the **finite intersection property** if every finite subfamily has nonempty intersection. In particular, for \(F_1,\ldots,F_n\in\mathcal F\),

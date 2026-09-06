@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The sphere bundle whose fiber consists of the compatible complex structures in a quaternionic structure."
 aliases = ["quaternionic twistor space", "twistor bundle"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["differential-geometry/quaternionic-manifold", "fiber-bundles/sphere-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/quaternionic-manifold", "fiber-bundles/sphere-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M^{4n},Q)\) be a [[differential-geometry/quaternionic-manifold|quaternionic manifold]]. Its **twistor space** is the [[fiber-bundles/sphere-bundle|sphere bundle]]

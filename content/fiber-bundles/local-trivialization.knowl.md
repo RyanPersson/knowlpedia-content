@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A local trivialization identifies a bundle over an open set with a product of that open set and the fiber."
 aliases = ["local-trivialization", "Local trivialization"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/typical-fiber", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/local-trivialization.md"
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] with typical fiber \(F\) (see [[fiber-bundles/typical-fiber|typical fiber]]). Let \(U\subset M\) be open.

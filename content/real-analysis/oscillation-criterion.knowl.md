@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bounded function is Riemann integrable exactly when its total oscillation can be made small by a partition."
 aliases = ["oscillation-criterion", "Oscillation criterion for Riemann integrability"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/oscillation", "real-analysis/riemann-integrable-function", "real-analysis/upper-sum", "real-analysis/lower-sum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/oscillation-criterion.md"
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/oscillation", "real-analysis/riemann-integrable-function", "real-analysis/upper-sum", "real-analysis/lower-sum", "real-analysis/riemann-integrability-finite-discontinuities"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Oscillation criterion:** Let \(a<b\) and let \(f:[a,b]\to\mathbb{R}\) be bounded. For a [[real-analysis/partition-of-an-interval|partition]] \(P=\{a=x_0<x_1<\cdots<x_n=b\}\), let \(\omega_i\) be the [[real-analysis/oscillation|oscillation]] of \(f\) on the subinterval \([x_{i-1},x_i]\). Then \(f\) is a [[real-analysis/riemann-integrable-function|Riemann integrable function]] on \([a,b]\) if and only if for every \(\varepsilon>0\) there exists a partition \(P\) such that

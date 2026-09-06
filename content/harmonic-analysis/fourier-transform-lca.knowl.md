@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The transform integrating an integrable function against the characters of a locally compact abelian group."
 aliases = ["group Fourier transform", "LCA Fourier transform"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
-prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/haar-measure", "measure-theory/l1-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/haar-measure", "measure-theory/l1-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] that is [[algebra-groups/abelian-group|abelian]], let \(\widehat G\) be its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]], and fix a [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\) on \(G\). For an [[measure-theory/l1-function|\(L^1\) function]] \(f\) on \(G\), its **Fourier transform** is the function on \(\widehat G\) defined by

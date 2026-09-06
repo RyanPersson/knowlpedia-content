@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A superalgebra whose homogeneous elements commute with the Koszul sign."
 aliases = ["graded-commutative superalgebra", "commutative superalgebra"]
 domains = ["supergeometry", "algebra-commutative"]
-prerequisites = ["supergeometry/superalgebra", "algebra-category-theory/algebra-object", "supergeometry/category-of-super-vector-spaces"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/superalgebra", "algebra-category-theory/algebra-object", "supergeometry/category-of-super-vector-spaces"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field of characteristic different from \(2\). A

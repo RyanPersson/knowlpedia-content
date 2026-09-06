@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The group of linear transformations preserving the Minkowski bilinear form."
 aliases = ["lorentz-group"]
 domains = ["lie-groups"]
-prerequisites = ["linear-algebra/signature-of-symmetric-bilinear-form", "linear-algebra/minkowski-vector-space", "lie-groups/orthogonal-group", "differential-geometry/time-orientation"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lorentz-group.md"
+prerequisites = ["linear-algebra/signature-of-symmetric-bilinear-form", "linear-algebra/minkowski-vector-space", "lie-groups/orthogonal-group", "differential-geometry/time-orientation", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix the Minkowski bilinear form on \(\mathbb R^n\) with one negative and \(n-1\) positive directions, represented by

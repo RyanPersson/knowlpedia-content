@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A relation that assigns each input exactly one output"
 aliases = ["function"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/relation", "shared-foundations/set"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/function.md"
+prerequisites = ["shared-foundations/relation", "shared-foundations/set"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **function** is a [[shared-foundations/relation|relation]] \(f\subseteq A\times B\) between [[shared-foundations/set|sets]] \(A\) and \(B\) such that for every \(a\in A\) there exists a unique \(b\in B\) with \((a,b)\in f\); we write this \(b\) as \(f(a)\) and denote the function by \(f:A\to B\).

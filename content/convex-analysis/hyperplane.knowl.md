@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An affine set whose direction subspace has codimension one."
 aliases = ["hyperplane"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/codimension", "convex-analysis/parallel-subspace-to-an-affine-set-is"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/hyperplane.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set", "convex-analysis/codimension", "convex-analysis/parallel-subspace-to-an-affine-set-is"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]]. An [[convex-analysis/affine-set|affine set]] \(\Omega\subset X\) is called a **hyperplane** if it has [[convex-analysis/codimension|codimension]] one.

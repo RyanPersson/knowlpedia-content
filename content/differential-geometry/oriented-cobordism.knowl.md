@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A cobordism whose orientation induces the reversed incoming and given outgoing boundary orientations."
 aliases = ["oriented bordism", "orientation-preserving cobordism"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["differential-geometry/boundary-orientation", "differential-geometry/cobordism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/boundary-orientation", "differential-geometry/cobordism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M_0\) and \(M_1\) be closed oriented \(n\)-manifolds. An **oriented cobordism from \(M_0\) to \(M_1\)** is an oriented compact \((n+1)\)-manifold \(W\) together with an orientation-preserving diffeomorphism

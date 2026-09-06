@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complementary series consists of unitary non-tempered members obtained by unitarizing principal-series representations away from the unitary parameter axis."
 aliases = ["complementary series", "non-tempered unitary principal series"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["lie-groups/principal-series-representation", "lie-groups/real-reductive-lie-group", "lie-groups/irreducible-unitary-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/principal-series-representation", "lie-groups/real-reductive-lie-group", "lie-groups/irreducible-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(I(\lambda)\) be a normalized

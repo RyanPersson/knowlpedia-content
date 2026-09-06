@@ -6,8 +6,8 @@ summary = "A bounded operator that commutes with its adjoint."
 aliases = ["normal operator", "normal operators"]
 domains = ["quantum-foundations", "linear-algebra", "analysis"]
 prerequisites = ["linear-algebra/operator-invariant-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A bounded operator \(T\) on a complex Hilbert space is **normal** if it commutes with its adjoint:

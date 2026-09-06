@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complex vector space with a symmetric outer, conjugate-linear middle triple product satisfying the Jordan triple identity."
 aliases = ["positive Hermitian Jordan triple system", "Hermitian Jordan triple"]
 domains = ["nonassociative-algebra", "complex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Hermitian Jordan triple system** is a complex [[linear-algebra/vector-space|vector space]] \(V\) with a

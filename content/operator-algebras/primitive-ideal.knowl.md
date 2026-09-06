@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A primitive ideal is the kernel of a nonzero irreducible representation of a C*-algebra."
 aliases = ["primitive C*-ideal", "kernel of an irreducible representation"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal", "operator-algebras/irreducible-cstar-representation", "algebra-representation-theory/irreducible-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal", "operator-algebras/irreducible-cstar-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A

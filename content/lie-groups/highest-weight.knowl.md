@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A dominant maximal weight that labels irreducible representations of semisimple Lie algebras."
 aliases = ["highest-weight", "Highest weight"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-space-decomposition", "lie-groups/weight-of-a-representation", "lie-groups/positive-root"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/highest-weight.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-space-decomposition", "lie-groups/weight-of-a-representation", "lie-groups/positive-root"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex semisimple [[lie-groups/lie-algebra|Lie algebra]], fix a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\subset \mathfrak g\), and choose a set of positive roots, hence a decomposition into root spaces (see [[lie-groups/root-space-decomposition|root space decomposition]]).

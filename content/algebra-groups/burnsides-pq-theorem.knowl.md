@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite group of order p^a q^b (two primes) is solvable"
 aliases = ["burnsides-pq-theorem", "Burnside's p^a q^b Theorem"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/solvable-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/burnsides-pq-theorem.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/solvable-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Burnside's p^a q^b Theorem.**

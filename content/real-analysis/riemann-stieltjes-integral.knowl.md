@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An integral defined using increments of an integrator function."
 aliases = ["riemann-stieltjes-integral", "Riemann–Stieltjes integral"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/integrator-function", "real-analysis/tagged-partition"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-stieltjes-integral.md"
+prerequisites = ["real-analysis/integrator-function", "real-analysis/tagged-partition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Riemann–Stieltjes integral** of a bounded function \(f:[a,b]\to\mathbb R\) with respect to an [[real-analysis/integrator-function|integrator function]] \(\alpha:[a,b]\to\mathbb R\) is a number

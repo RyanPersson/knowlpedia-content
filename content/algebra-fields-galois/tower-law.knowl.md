@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a finite tower K ⊂ L ⊂ M, degrees multiply: [M:K]=[M:L][L:K]."
 aliases = ["tower-law", "Tower law"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/intermediate-field", "algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/tower-law.md"
+prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/intermediate-field", "algebra-fields-galois/degree-of-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K \subseteq L \subseteq M\) be a [[algebra-fields-galois/tower-of-fields|tower of fields]], so \(L\) is an [[algebra-fields-galois/intermediate-field|intermediate field]] of the [[algebra-fields-galois/field-extension|field extension]] \(M/K\). Assume the extensions \(L/K\) and \(M/L\) are finite, i.e. have finite [[algebra-fields-galois/degree-of-extension|degree]].

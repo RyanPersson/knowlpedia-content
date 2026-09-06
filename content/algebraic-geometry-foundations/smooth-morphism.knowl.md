@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally finitely presented flat morphism with geometrically regular fibers."
 aliases = ["smooth map of schemes", "smooth morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/flat-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/flat-morphism", "algebraic-geometry-foundations/locally-of-finite-presentation", "algebraic-geometry-foundations/geometric-fiber", "algebraic-geometry-foundations/regular-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A morphism of schemes \(f:X\to S\) is **smooth** if it is locally of finite

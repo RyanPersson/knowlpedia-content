@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The homogeneous bundle map on the cotangent bundle obtained from the highest-order part of a differential operator."
 aliases = ["symbol of a differential operator", "leading symbol"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/differential-operator-vector-bundles", "fiber-bundles/bundle-map", "fiber-bundles/cotangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/differential-operator-vector-bundles", "fiber-bundles/bundle-map", "fiber-bundles/cotangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D:\Gamma^\infty(E)\to\Gamma^\infty(F)\) be a [[differential-geometry/differential-operator-vector-bundles|differential operator between vector bundles]] of order \(m\). Its **principal symbol** is the [[fiber-bundles/bundle-map|bundle map]]

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A commutative ring with exactly one maximal ideal."
 aliases = ["local-ring", "Local ring"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/local-ring.md"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-rings/commutative-ring|commutative ring]] \(R\) is a **local ring** if it has a unique maximal ideal. One often records this ideal and writes \((R,\mathfrak m)\).

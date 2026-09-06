@@ -5,12 +5,13 @@ kind = "knowl"
 summary = "A proper ideal P such that ab in P forces a in P or b in P."
 aliases = ["prime-ideal", "Prime ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/prime-ideal.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
-Let \(R\) be a commutative ring with \(1\). A **prime ideal** is a proper [[algebra-rings/ideal|ideal]] \(P\subsetneq R\) such that whenever \(ab\in P\) (with \(a,b\in R\)), then \(a\in P\) or \(b\in P\).
+Let \(R\) be a commutative unital ring. A **prime ideal** is a proper [[algebra-rings/ideal|ideal]] \(P\subsetneq R\) such that whenever \(ab\in P\) (with \(a,b\in R\)), then \(a\in P\) or \(b\in P\).
 
 ## Equivalent characterizations
 

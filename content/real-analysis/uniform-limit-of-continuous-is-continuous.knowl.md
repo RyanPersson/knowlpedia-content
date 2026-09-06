@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A uniform limit of continuous functions is continuous."
 aliases = ["uniform-limit-of-continuous-is-continuous", "Uniform limit of continuous functions is continuous"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/uniform-convergence", "real-analysis/pointwise-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-limit-of-continuous-is-continuous.md"
+prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Uniform limit of continuous functions is continuous:** Let \(X\) be a [[topology/metric-space|metric space]] and let \(Y\) be a metric space. If each \(f_n:X\to Y\) is [[topology/continuous-map|continuous]] and \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]] on \(X\), then \(f:X\to Y\) is continuous.

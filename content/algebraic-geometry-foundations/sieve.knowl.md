@@ -6,6 +6,7 @@ summary = "A collection of morphisms into one object that is closed under precom
 aliases = ["sieve", "sieves", "sieve on an object"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

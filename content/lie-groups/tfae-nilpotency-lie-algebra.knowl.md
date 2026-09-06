@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Nilpotency can be tested via the lower central series, Engel’s condition on adjoints, or strict upper-triangular models."
 aliases = ["tfae-nilpotency-lie-algebra", "Equivalent characterizations of nilpotency for Lie algebras"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lower-central-series-lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/ados-theorem"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/tfae-nilpotency-lie-algebra.md"
+prerequisites = ["lie-groups/lower-central-series-lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/ados-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional Lie algebra over a field of characteristic \(0\). The following are equivalent.

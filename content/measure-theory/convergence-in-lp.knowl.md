@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Norm convergence in an Lp space."
 aliases = ["convergence-in-lp", "Convergence in \\(L^p\\)"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/sequence","measure-theory/lp-space","measure-theory/measure-space"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/convergence-in-lp.md"
+prerequisites = ["shared-foundations/sequence", "measure-theory/lp-space", "measure-theory/measure-space", "measure-theory/essential-supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[shared-foundations/sequence|sequence]] \((f_n)\) in a [[measure-theory/lp-space|\(L^p\) space]] \(L^p(X,\mathcal A,\mu)\) **converges in \(L^p\)** to \(f\in L^p(X,\mathcal A,\mu)\) if

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The product vector space with componentwise bracket, modeling Lie algebras of product groups."
 aliases = ["direct-sum-of-lie-algebras", "Direct sum of Lie algebras"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/direct-sum-of-lie-algebras.md"
+prerequisites = ["lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) and \(\mathfrak h\) be [[lie-groups/lie-algebra|Lie algebras]] over the same field.

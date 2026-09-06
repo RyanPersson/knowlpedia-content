@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A parabolic subgroup minimal under inclusion, constructed from a choice of positive restricted roots."
 aliases = ["minimal P", "MAN subgroup"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected

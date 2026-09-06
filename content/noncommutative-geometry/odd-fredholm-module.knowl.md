@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An ungraded Fredholm module representing an odd analytic K-homology class."
 aliases = ["ungraded Fredholm module", "odd bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/fredholm-module", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/fredholm-module", "linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a complex \(C^*\)-algebra. An **odd Fredholm module over \(A\)** is a [[noncommutative-geometry/fredholm-module|Fredholm module]] \((H,\pi,F)\) regarded without a \(\mathbb Z/2\)-grading: \(H\) is a complex [[linear-algebra/hilbert-space|Hilbert space]], \(\pi:A\to\mathcal B(H)\) is a representation, and the commutator and local self-adjointness and involutivity defects of \(F\) are compact. In the normalized convention this says

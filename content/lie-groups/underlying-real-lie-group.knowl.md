@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The real Lie group obtained from a complex Lie group by forgetting its complex structure."
 aliases = ["realification of a complex Lie group", "restriction of scalars of a complex Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/complex-lie-group", "differential-geometry/complex-manifold", "algebra-groups/group-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/complex-lie-group", "differential-geometry/complex-manifold", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 If \(G\) is a [[lie-groups/complex-lie-group|complex Lie group]], its **underlying real Lie group**, denoted \(G_{\mathbb R}\), has the same points, multiplication, and inversion as \(G\), but its [[differential-geometry/complex-manifold|complex manifold]] is regarded as a smooth real manifold. If \(\dim_{\mathbb C}G=n\), then

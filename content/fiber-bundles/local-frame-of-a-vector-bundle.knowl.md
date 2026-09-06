@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A choice of smooth local sections that form a basis of each fiber over an open set."
 aliases = ["local-frame-of-a-vector-bundle", "Local frame of a vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/local-frame-of-a-vector-bundle.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth vector bundle of rank \(r\) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. Let \(U\subseteq M\) be open. A **local frame** of \(E\) over \(U\) is an ordered \(r\)-tuple of smooth sections

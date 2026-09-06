@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a Hausdorff space, every compact subset is closed."
 aliases = ["compact-subset-of-hausdorff-is-closed", "Compact subset of a Hausdorff space is closed"]
 domains = ["topology"]
-prerequisites = ["topology/hausdorff-space", "topology/compact-set", "topology/closed-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/compact-subset-of-hausdorff-is-closed.md"
+prerequisites = ["topology/hausdorff-space", "topology/compact-set", "topology/closed-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Compact subset of a Hausdorff space is closed:** Let \(X\) be a [[topology/hausdorff-space|Hausdorff space]]. If \(K\subseteq X\) is [[topology/compact-set|compact]], then \(K\) is a [[topology/closed-set|closed set]] in \(X\).

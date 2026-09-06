@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset of a group that is itself a group under the same operation"
 aliases = ["subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/subgroup.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] with operation \(\cdot\). A **subgroup** of \(G\) is a [[shared-foundations/subset|subset]] \(H\subseteq G\) such that:

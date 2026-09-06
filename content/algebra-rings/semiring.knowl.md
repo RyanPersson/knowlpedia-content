@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An additive commutative monoid with a distributive, unital multiplication and absorbing zero."
 aliases = ["rig", "unital semiring"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
-prerequisites = ["algebra-groups/commutative-monoid", "algebra-groups/monoid"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/commutative-monoid", "algebra-groups/monoid"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **semiring** is a set \(S\) with operations \(+\) and \(\cdot\) and elements

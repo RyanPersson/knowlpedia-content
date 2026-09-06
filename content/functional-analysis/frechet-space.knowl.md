@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Hausdorff locally convex space whose topology is induced by a complete metric."
 aliases = ["F-space in the locally convex sense", "complete metrizable locally convex space"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/complete-metric-space-complete-subset"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/complete-metric-space-complete-subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Fréchet space** is a Hausdorff [[functional-analysis/locally-convex-space|locally convex topological vector space]] whose topology is induced by a translation-invariant metric with respect to which the space is [[convex-analysis/complete-metric-space-complete-subset|complete]]. Equivalently, it is a complete, metrizable, locally convex space. Completeness belongs to the compatible uniform structure and is independent of which compatible translation-invariant metric is chosen. A Fréchet space need not be normable: one countable family of seminorms may be required to describe its topology, and no single norm may generate the same open sets.

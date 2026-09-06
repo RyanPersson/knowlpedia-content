@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The largest subgroup in which a given subgroup becomes normal"
 aliases = ["normalizer"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/normalizer.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(H\le G\) be a [[algebra-groups/subgroup|subgroup]]. The **normalizer of \(H\) in \(G\)** is

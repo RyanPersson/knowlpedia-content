@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The test-function space on a local field, given by Schwartz functions at archimedean places and locally constant compactly supported functions otherwise."
 aliases = ["Schwartz-Bruhat functions", "Bruhat-Schwartz functions on a local field"]
 domains = ["harmonic-analysis", "number-theory"]
-prerequisites = ["functional-analysis/schwartz-space", "topology/compact-set", "harmonic-analysis/schwartz-bruhat-space-lca"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["functional-analysis/schwartz-space", "topology/compact-set", "harmonic-analysis/schwartz-bruhat-space-lca"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a locally compact nondiscrete field. The **Schwartz–Bruhat space** \(\mathcal S(K)\) is defined according to the type of \(K\). If \(K\cong\mathbb R\) or \(\mathbb C\), then \(\mathcal S(K)\) is the usual [[functional-analysis/schwartz-space|Schwartz space]]: its smooth functions and all their derivatives decay faster than every polynomial. If \(K\) is nonarchimedean, then

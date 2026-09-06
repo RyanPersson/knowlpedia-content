@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set that satisfies Carathéodory’s splitting condition for an outer measure."
 aliases = ["caratheodory-measurable-set", "Carathéodory measurable set"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/outer-measure","shared-foundations/intersection","shared-foundations/set-difference"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/caratheodory-measurable-set.md"
+prerequisites = ["measure-theory/outer-measure", "shared-foundations/intersection", "shared-foundations/set-difference"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **Carathéodory measurable set** (with respect to an outer measure \(\mu^*\) on \(X\)) is a subset \(E\subseteq X\) such that for every subset \(S\subseteq X\),

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The finite family of irreducible admissible representations sharing one local Langlands parameter."
 aliases = ["Langlands packet", "local L-packet", "packet of representations"]
 domains = ["langlands", "harmonic-analysis"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands/local-l-parameter"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands/local-l-parameter"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Assume the [[langlands/local-langlands-correspondence|basic local Langlands

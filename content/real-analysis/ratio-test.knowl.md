@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A series converges absolutely if successive terms shrink by a uniform factor less than one."
 aliases = ["ratio-test", "Ratio Test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/divergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/ratio-test.md"
+prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/divergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Ratio test:** Let \(\sum_{n=1}^\infty a_n\) be a [[real-analysis/series|series]] with \(a_n\ne0\) for all sufficiently large \(n\), and define

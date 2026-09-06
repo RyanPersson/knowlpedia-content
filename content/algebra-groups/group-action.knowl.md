@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A homomorphism from a group to permutations of a set, equivalently a compatible map G×X→X"
 aliases = ["group-action", "Group Action"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/set", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-action.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/set", "shared-foundations/function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(X\) be a [[shared-foundations/set|set]]. A **(left) group action** of \(G\) on \(X\) is a [[shared-foundations/function|function]] \(\alpha:G\times X\to X\) (usually written \(\alpha(g,x)=g\cdot x\)) such that:

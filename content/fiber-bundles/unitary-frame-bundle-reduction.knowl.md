@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The principal U(n)-bundle of unitary frames determined by a Hermitian metric on a complex rank-n bundle."
 aliases = ["unitary-frame-bundle-reduction", "Unitary frame bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/hermitian-metric", "fiber-bundles/principal-g-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/unitary-frame-bundle-reduction.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a complex vector bundle of rank \(n\) over a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(h\) be a [[fiber-bundles/hermitian-metric|Hermitian metric]] on \(E\). The **unitary frame bundle** of \((E,h)\), denoted \(\mathrm{U}(E)\), is the submanifold of the (complex) frame bundle \(\mathrm{Fr}(E)\) consisting of frames that are unitary with respect to \(h\):

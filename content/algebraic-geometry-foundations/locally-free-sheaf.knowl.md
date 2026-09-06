@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A sheaf of modules locally isomorphic to a finite direct sum of the structure sheaf."
 aliases = ["locally free module sheaf", "vector bundle sheaf", "finite-rank locally free sheaf"]
 domains = ["algebraic-geometry-foundations", "algebra-modules"]
-prerequisites = ["algebraic-geometry-foundations/ringed-space", "algebraic-geometry-foundations/sheaf-of-modules"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/ringed-space", "algebraic-geometry-foundations/sheaf-of-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,\mathcal O_X)\) be a

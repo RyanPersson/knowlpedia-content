@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A rectangular array of numbers, symbols, or expressions arranged in rows and columns."
 aliases = ["matrix"]
 domains = ["linear-algebra"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/field"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/matrix.md"
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **matrix** is a rectangular array of entries (typically from a [[algebra-rings/ring|ring]] or [[algebra-rings/field|field]]) arranged in rows and columns.

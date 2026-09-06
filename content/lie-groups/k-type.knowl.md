@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An irreducible compact-group representation occurring in the restriction of a representation to K."
 aliases = ["isotypic K-type", "compact-subgroup type"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/k-finite-vector", "lie-groups/strongly-continuous-unitary-representation", "shared-foundations/equivalence-class", "lie-groups/irreducible-representation-lie-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/k-finite-vector", "lie-groups/strongly-continuous-unitary-representation", "shared-foundations/equivalence-class", "lie-groups/irreducible-representation-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a compact group and \(V\) a complex \(K\)-representation that is a direct sum of finite-dimensional irreducibles, as happens for the [[lie-groups/k-finite-vector|\(K\)-finite part]] of a [[lie-groups/strongly-continuous-unitary-representation|continuous unitary representation]]. A **\(K\)-type** of \(V\) is an [[shared-foundations/equivalence-class|equivalence class]] \(\tau\) of [[lie-groups/irreducible-representation-lie-group|irreducible finite-dimensional \(K\)-representations]] for which

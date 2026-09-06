@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An injective ring homomorphism."
 aliases = ["ring-monomorphism", "Ring monomorphism"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring-homomorphism", "shared-foundations/injective-function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring-monomorphism.md"
+prerequisites = ["algebra-rings/ring-homomorphism", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **ring monomorphism** is a [[algebra-rings/ring-homomorphism|ring homomorphism]] \(\varphi:R\to S\) that is [[shared-foundations/injective-function|injective]] as a function.

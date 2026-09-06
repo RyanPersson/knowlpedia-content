@@ -6,6 +6,7 @@ summary = "A scheme equipped with a specified morphism to a fixed base scheme."
 aliases = ["scheme-over-a-base", "Scheme over a base", "scheme over a scheme", "S-scheme"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/morphism-of-schemes"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

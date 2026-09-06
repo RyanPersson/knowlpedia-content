@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth map that pulls the target Riemannian metric back to a positive pointwise multiple of the source metric."
 aliases = ["conformal mapping", "conformal immersion", "angle-preserving map"]
 domains = ["differential-geometry", "complex-analysis"]
-prerequisites = ["differential-geometry/riemannian-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) and \((N,h)\) be [[differential-geometry/riemannian-manifold|Riemannian manifolds]]. A **conformal map** in the convention used here is a smooth map \(f:M\to N\) for which there is a smooth positive function \(\lambda:M\to(0,\infty)\) satisfying

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonzero function transformed into a scalar multiple of itself by the Laplace–Beltrami operator."
 aliases = ["Laplace eigenfunction", "Riemannian Laplacian eigenfunction"]
 domains = ["mathematical-physics", "spectral-theory", "differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/laplace-beltrami-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/laplace-beltrami-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a [[differential-geometry/riemannian-manifold|Riemannian manifold]]. A nonzero smooth function

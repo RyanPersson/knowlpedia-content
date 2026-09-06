@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring with no nontrivial two-sided ideals."
 aliases = ["simple-ring", "Simple ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/two-sided-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/simple-ring.md"
+prerequisites = ["algebra-rings/ring", "algebra-rings/two-sided-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **simple ring** is a nonzero [[algebra-rings/ring|ring]] \(R\) whose only [[algebra-rings/two-sided-ideal|two-sided ideals]] are \(0\) and \(R\).

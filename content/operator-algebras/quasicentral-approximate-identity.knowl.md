@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A quasicentral approximate identity for an ideal also asymptotically commutes with every element of the ambient C*-algebra."
 aliases = ["quasi-central approximate unit", "quasicentral approximate unit"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/closed-two-sided-ideal", "operator-algebras/cstar-algebra", "operator-algebras/approximate-identity"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/closed-two-sided-ideal", "operator-algebras/cstar-algebra", "operator-algebras/approximate-identity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(I\) be a [[operator-algebras/closed-two-sided-ideal|closed two-sided ideal]] in a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\). A

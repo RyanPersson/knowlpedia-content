@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A set is a basis if and only if it is maximal among the linearly independent subsets."
 aliases = ["basis-characterized-by-maximal-linear-independence", "Bases are maximal linearly independent sets"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/basis-hamel-basis-and-dimension", "convex-analysis/linearly-independent-and-linearly-dependent-sets"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/basis-characterized-by-maximal-linear-independence.md"
+prerequisites = ["convex-analysis/basis-hamel-basis-and-dimension", "convex-analysis/linearly-independent-and-linearly-dependent-sets"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition (Maximal linear independence characterization).**

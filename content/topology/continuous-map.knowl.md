@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function whose preimage of every open set is open."
 aliases = ["continuous-map", "Continuous map"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "shared-foundations/function", "topology/open-set", "shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "topology/continuous-map.md"
+prerequisites = ["topology/topological-space", "shared-foundations/function", "topology/open-set", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **continuous map** between [[topology/topological-space|topological spaces]] \((X,\mathcal{T}_X)\) and \((Y,\mathcal{T}_Y)\) is a [[shared-foundations/function|function]] \(f:X\to Y\) such that for every [[topology/open-set|open set]] \(V\in\mathcal{T}_Y\), the [[shared-foundations/preimage|preimage]] \(f^{-1}(V)\) is open in \(X\).

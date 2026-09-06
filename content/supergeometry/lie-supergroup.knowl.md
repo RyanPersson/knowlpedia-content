@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A group object in the category of finite-dimensional smooth real supermanifolds."
 aliases = ["smooth Lie supergroup", "super Lie group"]
 domains = ["supergeometry", "lie-groups"]
-prerequisites = ["algebra-category-theory/group-object", "supergeometry/supermanifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/group-object", "supergeometry/supermanifold", "fiber-bundles/lie-group", "supergeometry/functor-of-points-of-supermanifold", "supergeometry/super-harish-chandra-pair"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **finite-dimensional smooth real Lie supergroup** is a

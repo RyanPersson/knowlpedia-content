@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A linear subspace closed under the Lie bracket."
 aliases = ["lie-subalgebra", "Lie subalgebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-subalgebra.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] over \(\Bbbk\) with bracket \([\ ,\ ]\).

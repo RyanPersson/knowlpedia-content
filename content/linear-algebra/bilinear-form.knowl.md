@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function of two vector arguments that is linear in each argument."
 aliases = ["bilinear-form", "Bilinear form"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/bilinear-form.md"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **bilinear form** on [[linear-algebra/vector-space|vector spaces]] \(V\) and \(W\) over a field \(\mathbb{F}\) is a map

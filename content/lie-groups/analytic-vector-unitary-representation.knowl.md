@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A representation vector whose orbit map is real analytic near the identity of the Lie group."
 aliases = ["analytic vector"]
 domains = ["lie-groups", "functional-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/orbit-map", "lie-groups/derived-representation-on-smooth-vectors"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/orbit-map", "lie-groups/derived-representation-on-smooth-vectors"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite-dimensional real [[fiber-bundles/lie-group|Lie group]] and \((\pi,\mathcal H)\) a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]]. A vector \(v\in\mathcal H\) is an **analytic vector** if its [[fiber-bundles/orbit-map|orbit map]]

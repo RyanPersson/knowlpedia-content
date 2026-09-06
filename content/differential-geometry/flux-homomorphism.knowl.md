@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The homomorphism sending a symplectic-isotopy class to the integrated cohomology class of its generating contraction forms."
 aliases = ["symplectic flux", "flux of a symplectic isotopy"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/symplectic-isotopy", "fiber-bundles/de-rham-cohomology-group", "lie-groups/universal-covering-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/symplectic-isotopy", "fiber-bundles/de-rham-cohomology-group", "lie-groups/universal-covering-group", "differential-geometry/symplectomorphism-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a closed connected [[differential-geometry/symplectic-manifold|symplectic manifold]]. For a [[differential-geometry/symplectic-isotopy|symplectic isotopy]] \(\phi_t\) with generating vector field \(X_t\), its **flux** is

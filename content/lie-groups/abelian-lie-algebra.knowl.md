@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A Lie algebra whose bracket vanishes identically."
 aliases = ["abelian-lie-algebra", "Abelian Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "lie-groups/abelian-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak{g}\) be a [[lie-groups/lie-algebra|Lie algebra]] over a field \(\Bbbk\) with [[fiber-bundles/lie-bracket|Lie bracket]] \([\cdot,\cdot]\).

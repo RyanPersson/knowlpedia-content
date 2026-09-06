@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two elements of a group are conjugate if one is obtained from the other by an inner automorphism"
 aliases = ["conjugate-element", "Conjugate element"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/inner-automorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/conjugate-element.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/inner-automorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(g,h\in G\). We say that **\(h\) is conjugate to \(g\) in \(G\)**, and write \(h\sim g\), if there exists \(x\in G\) such that

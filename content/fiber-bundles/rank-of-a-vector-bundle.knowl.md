@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The fiber dimension of a real or complex vector bundle, which is locally constant on the base."
 aliases = ["rank-of-a-vector-bundle", "Rank of a vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/rank-of-a-vector-bundle.md"
+prerequisites = ["fiber-bundles/vector-bundle", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth real or complex vector bundle. The **rank of \(E\) at \(x\in M\)** is

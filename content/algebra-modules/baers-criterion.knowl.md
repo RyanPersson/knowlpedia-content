@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Characterization of injective modules by extension of maps from ideals."
 aliases = ["baers-criterion", "Baer's criterion"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/injective-module", "algebra-modules/module-homomorphism", "algebra-rings/ideal", "algebra-rings/unital-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/baers-criterion.md"
+prerequisites = ["algebra-modules/injective-module", "algebra-modules/module-homomorphism", "algebra-rings/ideal", "algebra-rings/unital-ring", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Baer's criterion**: Let \(R\) be a unital ring and let \(Q\) be a left \(R\)-module. Then \(Q\) is injective if and only if for every left ideal \(I\subseteq R\) and every \(R\)-linear map \(f:I\to Q\), there exists an \(R\)-linear map \(F:R\to Q\) such that \(F|_I=f\).

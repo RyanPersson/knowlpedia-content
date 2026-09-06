@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A category obtained by restricting the objects and morphisms of a given category."
 aliases = ["subcategory"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/subcategory.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]].

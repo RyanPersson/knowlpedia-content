@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The splitting of a Jordan algebra into the 0, one-half, and 1 eigenspaces of multiplication by an idempotent."
 aliases = ["Jordan Peirce decomposition", "Peirce spaces", "Peirce eigenspaces"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/jordan-idempotent", "nonassociative-algebra/jordan-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/jordan-idempotent", "nonassociative-algebra/jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "nonassociative-algebra/euclidean-jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(e\) be an [[nonassociative-algebra/jordan-idempotent|idempotent]] in a

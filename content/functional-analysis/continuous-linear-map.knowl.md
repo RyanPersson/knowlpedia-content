@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear map that is continuous for the given vector-space topologies."
 aliases = ["continuous linear operator", "continuous linear transformation"]
 domains = ["functional-analysis", "topology", "linear-algebra"]
-prerequisites = ["functional-analysis/topological-vector-space", "linear-algebra/linear-map", "topology/neighborhood"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/topological-vector-space", "linear-algebra/linear-map", "topology/neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(F\) be [[functional-analysis/topological-vector-space|topological vector spaces]] over the same field. A **continuous linear map** \(T:E\to F\) is a [[linear-algebra/linear-map|linear map]] that is continuous for the given topologies. Linearity makes continuity at one point equivalent to continuity everywhere. In particular, \(T\) is continuous exactly when, for every [[topology/neighborhood|neighborhood]] \(V\) of \(0\) in \(F\), there is a neighborhood \(U\) of \(0\) in \(E\) such that

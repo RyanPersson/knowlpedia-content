@@ -5,9 +5,10 @@ kind = "construction"
 summary = "A pull-push functor on automorphic sheaves defined from the Hecke correspondence and a dual-group representation."
 aliases = ["Hecke functor", "geometric Hecke operator"]
 domains = ["langlands"]
-prerequisites = ["langlands/geometric-satake-equivalence", "langlands/hecke-correspondence"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands/geometric-satake-equivalence", "langlands/hecke-correspondence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a smooth complex curve, let \(G\) be a connected reductive

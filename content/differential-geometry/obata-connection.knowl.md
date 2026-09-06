@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The unique torsion-free connection preserving the three complex structures of a hypercomplex manifold."
 aliases = ["canonical connection of a hypercomplex manifold"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["differential-geometry/hypercomplex-manifold", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/integrable-almost-complex-structure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hypercomplex-manifold", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/integrable-almost-complex-structure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,I,J,K)\) be a [[differential-geometry/hypercomplex-manifold|hypercomplex manifold]]. Its **Obata connection** is the unique torsion-free [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla^{\mathrm{Ob}}\) on \(TM\) satisfying

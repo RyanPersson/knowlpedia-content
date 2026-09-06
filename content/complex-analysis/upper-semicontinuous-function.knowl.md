@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A function whose value at a limit point is at least the limsup of nearby values."
 aliases = ["upper semicontinuity", "usc function"]
 domains = ["complex-analysis", "topology", "real-analysis"]
-prerequisites = ["topology/topological-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/topological-space", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A function \(u:X\to[-\infty,\infty\)) on a [[topology/topological-space|topological space]] is

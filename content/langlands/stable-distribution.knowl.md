@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An invariant distribution that depends only on stable orbital-integral data."
 aliases = ["stable invariant distribution", "stable character distribution", "stable virtual character"]
 domains = ["langlands", "harmonic-analysis"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "harmonic-analysis/distribution-local-group", "langlands/strongly-regular-semisimple-element", "langlands/stable-orbital-integral", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "harmonic-analysis/distribution-local-group", "langlands/strongly-regular-semisimple-element", "langlands/stable-orbital-integral", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected
@@ -23,6 +24,8 @@ integral]] data rather than depending on the individual
 [[algebra-groups/conjugacy-class|\(G(F)\)-conjugacy classes]] inside a stable
 class. A distribution may also have singular support; its extension across
 the nonregular locus must satisfy the corresponding stable-germ conditions.
+
+## Interpretation
 
 This functional definition remains meaningful when a distribution has no
 pointwise character function.

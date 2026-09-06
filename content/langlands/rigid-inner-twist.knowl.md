@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An inner twist equipped with a cohomological rigidification used to normalize refined local Langlands packets and transfer factors."
 aliases = ["rigid inner form", "rigidifying cocycle", "rigid inner twist of a reductive group"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-groups/center-of-group", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/galois-descent-forms"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-groups/center-of-group", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/galois-descent-forms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

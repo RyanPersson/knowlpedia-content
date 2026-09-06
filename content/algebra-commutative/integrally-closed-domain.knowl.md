@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A domain that already contains every element of its fraction field that is integral over it."
 aliases = ["integrally-closed-domain", "Integrally closed domain"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/integral-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/integrally-closed-domain.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-element", "algebra-commutative/integral-closure", "algebra-commutative/localization-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an integral domain with fraction field \(K\).

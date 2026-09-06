@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of points reachable from a given point under a group action."
 aliases = ["orbit-of-a-group-action", "Orbit of a group action"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/orbit-of-a-group-action.md"
+prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Consider a [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth action]] of a Lie group \(G\) on a manifold \(M\).

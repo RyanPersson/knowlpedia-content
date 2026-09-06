@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complex spinor lying in one of the two half-spin representations in even dimension."
 aliases = ["chiral spinor", "half-spinor"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/chirality-operator", "differential-geometry/clifford-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/chirality-operator", "differential-geometry/clifford-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be an even-dimensional oriented [[linear-algebra/quadratic-form|quadratic space]] and let

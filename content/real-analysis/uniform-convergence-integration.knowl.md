@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A uniformly convergent series of Riemann integrable functions may be integrated term by term."
 aliases = ["uniform-convergence-integration", "Uniform convergence and integration"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/uniform-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence-integration.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Uniform convergence and integration:** Let \(f_n:[a,b]\to\mathbb{R}\) be [[real-analysis/riemann-integrable-function|Riemann integrable]] for all \(n\), and let \(s_N=\sum_{n=1}^N f_n\) be the partial sums. If \(s_N\to s\) [[real-analysis/uniform-convergence|uniformly]] on \([a,b]\), then \(s\) is [[real-analysis/riemann-integrable-function|Riemann integrable]] and

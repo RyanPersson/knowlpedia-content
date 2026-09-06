@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Fourier transform of a tempered distribution is defined by transposing the Fourier automorphism of Schwartz space."
 aliases = ["distributional Fourier transform", "Fourier transform on S-prime"]
 domains = ["functional-analysis", "harmonic-analysis", "distribution-theory"]
-prerequisites = ["functional-analysis/tempered-distribution", "functional-analysis/fourier-transform-schwartz-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/tempered-distribution", "functional-analysis/fourier-transform-schwartz-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(u\) be a [[functional-analysis/tempered-distribution|tempered

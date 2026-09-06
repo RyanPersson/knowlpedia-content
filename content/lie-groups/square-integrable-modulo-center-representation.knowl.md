@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An irreducible unitary representation having a nonzero matrix coefficient that is square-integrable after quotienting by the center."
 aliases = ["relative discrete series", "square-integrable modulo Z"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["harmonic-analysis/unimodular-group", "lie-groups/irreducible-unitary-representation", "harmonic-analysis/coefficient-function", "algebra-representation-theory/schurs-lemma", "real-analysis/absolute-value"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["harmonic-analysis/unimodular-group", "lie-groups/irreducible-unitary-representation", "harmonic-analysis/coefficient-function", "algebra-representation-theory/schurs-lemma", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a second-countable [[harmonic-analysis/unimodular-group|unimodular locally compact group]] with center \(Z\), and fix an invariant measure on \(G/Z\). An [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] \(\pi\) of \(G\) is **square-integrable modulo the center** if some nonzero [[harmonic-analysis/coefficient-function|matrix coefficient]] satisfies

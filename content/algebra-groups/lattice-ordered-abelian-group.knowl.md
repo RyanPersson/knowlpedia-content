@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An abelian group with a translation-invariant lattice order."
 aliases = ["abelian l-group", "abelian ℓ-group", "lattice-ordered commutative group"]
 domains = ["algebra-groups", "order-theory", "algebra-rings"]
-prerequisites = ["algebra-groups/abelian-group", "shared-foundations/partial-order", "shared-foundations/lattice"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group", "shared-foundations/partial-order", "shared-foundations/lattice"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **lattice-ordered abelian group**, or **abelian

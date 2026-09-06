@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A G-invariant choice of horizontal subspaces complementing the vertical tangent spaces in a principal bundle."
 aliases = ["principal-connection", "Principal connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-connection.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] \(G\). For each \(p\in P\), define the **vertical subspace**

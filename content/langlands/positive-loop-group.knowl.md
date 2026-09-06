@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The subgroup-valued functor of G-valued loops that extend to the formal disc."
 aliases = ["arc group", "L+G"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands/loop-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands/loop-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be an affine [[algebraic-geometry-foundations/algebraic-group|algebraic group]] over a field \(k\). Its **positive

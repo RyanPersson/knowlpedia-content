@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The elements that lie in exactly one of two sets."
 aliases = ["symmetric-difference", "Symmetric difference"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set-difference", "shared-foundations/union"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/symmetric-difference.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/intersection", "shared-foundations/union"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **symmetric difference** of sets \(A\) and \(B\) is the set of elements that belong to exactly one of them:

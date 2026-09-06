@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A hyper-Hermitian metric whose three Hermitian structures share a metric connection with skew torsion."
 aliases = ["hyperkähler with torsion metric", "hyper-Kähler with torsion", "HKT geometry"]
 domains = ["differential-geometry", "quaternionic-analysis"]
-prerequisites = ["differential-geometry/hyperhermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hyperhermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,I,J,K,g)\) be a

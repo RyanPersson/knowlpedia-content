@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An irreducible admissible p-adic representation with no contribution from a proper parabolic subgroup."
 aliases = ["supercuspidal representation of a reductive p-adic group", "supercuspidal"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/admissible-representation-p-adic-group", "harmonic-analysis/jacquet-module", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/levi-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/admissible-representation-p-adic-group", "harmonic-analysis/jacquet-module", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/levi-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G=\mathbf G(F)\) for a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a

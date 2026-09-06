@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a commutative 3×3 diagram in an abelian category, exact columns and two exact rows force the remaining row to be exact."
 aliases = ["nine-lemma", "Nine lemma (3×3 lemma)"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/exact-sequence-categorical"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/nine-lemma.md"
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/exact-sequence-categorical"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal A\) be an [[algebra-category-theory/abelian-category|abelian category]]. Consider a commutative \(3\times 3\) diagram

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The unique connection on a dual vector bundle for which differentiation obeys the natural evaluation pairing."
 aliases = ["connection on the dual bundle", "contragredient connection"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/dual-vector-bundle", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/dual-vector-bundle", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\), and let \(E^*\to M\) be its [[fiber-bundles/dual-vector-bundle|dual vector bundle]]. The **dual connection** \(\nabla^*\) is the unique connection on \(E^*\) satisfying

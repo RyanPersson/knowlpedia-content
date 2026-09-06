@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The coefficient of the inverse-linear term in a Laurent expansion."
 aliases = ["complex residue"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/laurent-series"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/laurent-series", "complex-analysis/complex-contour-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f\) be holomorphic on a punctured neighborhood of \(a\), with [[complex-analysis/laurent-series|Laurent expansion]]

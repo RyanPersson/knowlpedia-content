@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subgroup of elements that commute with every element of a given subset."
 aliases = ["centralizer"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/centralizer.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and \(S\subseteq G\) a subset. The **centralizer of \(S\) in \(G\)** is the [[algebra-groups/subgroup|subgroup]]

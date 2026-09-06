@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The amount a function varies on a set or interval."
 aliases = ["oscillation"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/oscillation.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **oscillation** of a bounded function \(f\) on a nonempty set \(A\subseteq\mathbb R\) is

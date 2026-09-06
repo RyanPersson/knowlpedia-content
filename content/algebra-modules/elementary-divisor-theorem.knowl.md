@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over a PID, a finitely generated module decomposes into primary cyclic summands."
 aliases = ["elementary-divisor-theorem", "Elementary divisor theorem"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/structure-theorem-pid"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/elementary-divisor-theorem.md"
+prerequisites = ["algebra-rings/pid", "algebra-modules/finitely-generated-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/pid|principal ideal domain]] and \(M\) a finitely generated \(R\)-module. Then there are an integer \(r\ge0\), prime elements \(p_1,\ldots,p_t\in R\), and positive integers \(e_1,\ldots,e_t\) such that

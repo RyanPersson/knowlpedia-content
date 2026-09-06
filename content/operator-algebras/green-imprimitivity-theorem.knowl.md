@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "An induced dynamical system crossed by its ambient group is Morita equivalent to the original system crossed by the subgroup."
 aliases = ["Green's imprimitivity theorem"]
 domains = ["operator-algebras", "harmonic-analysis"]
-prerequisites = ["topology/locally-compact-group", "lie-groups/left-translation", "operator-algebras/full-crossed-product", "operator-algebras/strong-morita-equivalence", "operator-algebras/imprimitivity-bimodule"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "lie-groups/left-translation", "operator-algebras/full-crossed-product", "operator-algebras/strong-morita-equivalence", "operator-algebras/imprimitivity-bimodule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]], \(H\subseteq G\) a closed subgroup, and \((A,H,\alpha)\) a \(C^*\)-dynamical system. Form the induced algebra

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The top-degree characteristic class of an oriented even-rank real vector bundle defined from curvature using the Pfaffian."
 aliases = ["euler-class", "Euler class via Chern–Weil theory"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/exterior-derivative", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/euler-class.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/exterior-derivative", "fiber-bundles/smooth-map", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/orientation-of-a-real-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:E\to M\) be an oriented real vector bundle of rank \(2m\). Choose a Euclidean metric on \(E\) and a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) whose structure group is reduced to \(SO(2m)\). Let \(F_\nabla\in\Omega^2(M;\mathfrak{so}(E))\) be its [[fiber-bundles/curvature|curvature]].

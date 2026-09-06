@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sample space with a sigma-algebra of events and a probability measure."
 aliases = ["probability-space", "Probability space"]
 domains = ["probability"]
-prerequisites = ["shared-foundations/set", "measure-theory/sigma-algebra", "probability/probability-measure"]
-dependency_review_count = 1
 legacy_source_path = "probability/probability-space.md"
+prerequisites = ["shared-foundations/set", "measure-theory/sigma-algebra", "probability/probability-measure"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **probability space** is a triple \((\Omega,\mathcal{F},\mathbb{P})\) where \(\Omega\) is a [[shared-foundations/set|set]], \(\mathcal{F}\) is a [[measure-theory/sigma-algebra|sigma-algebra]] on \(\Omega\), and \(\mathbb{P}\) is a [[probability/probability-measure|probability measure]] on \((\Omega,\mathcal{F})\).

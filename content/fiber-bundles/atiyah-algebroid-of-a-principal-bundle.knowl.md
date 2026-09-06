@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The quotient TP/G with its natural Lie algebroid structure induced by G-invariant vector fields on the total space."
 aliases = ["atiyah-algebroid-of-a-principal-bundle", "Atiyah algebroid of a principal bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/quotient-vector-bundle", "fiber-bundles/bundle-map", "fiber-bundles/vector-field", "fiber-bundles/lie-bracket"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/atiyah-algebroid-of-a-principal-bundle.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/quotient-vector-bundle", "fiber-bundles/bundle-map", "fiber-bundles/vector-field", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. The right action of \(G\) on \(P\) lifts to an action on the [[fiber-bundles/tangent-bundle|tangent bundle]] \(TP\) by differentials \((R_g)_*:TP\to TP\). Form the [[fiber-bundles/quotient-vector-bundle|quotient vector bundle]]
@@ -22,11 +22,15 @@ The map \(d\pi:TP\to TM\) is \(G\)-equivariant and descends to a [[fiber-bundles
 a:A(P)\to TM.
 \]
 
-A section of \(A(P)\) can be identified with a \(G\)-invariant [[fiber-bundles/vector-field|vector field]] on \(P\): explicitly, \( \Gamma(A(P)) \cong \mathfrak{X}(P)^G \). For the right-action convention, invariant vector fields along a group fiber are right-invariant, whose bracket is the opposite of the usual Lie-algebra bracket. Using this, define a bracket on \(\Gamma(A(P))\) by
+A section of \(A(P)\) can be identified with a \(G\)-invariant [[fiber-bundles/vector-field|vector field]] on \(P\): explicitly, \( \Gamma(A(P)) \cong \mathfrak{X}(P)^G \). Define a bracket on \(\Gamma(A(P))\) by
 \[
 [\![\sigma,\tau]\!]\;\coloneqq\;\text{the class of }[X,Y],
 \]
-where \(X,Y\) are \(G\)-invariant vector fields representing \(\sigma,\tau\) and \([X,Y]\) is their [[fiber-bundles/lie-bracket|Lie bracket]]. This is well-defined and makes \(A(P)\) into a Lie algebroid over \(M\), called the **Atiyah algebroid** of \(P\). With the standard bracket on \(\operatorname{ad}(P)\), the Atiyah sequence is embedded by \([p,\xi]\mapsto[-\xi^\#_p]\); the minus sign compensates for the right-action convention.
+where \(X,Y\) are \(G\)-invariant vector fields representing \(\sigma,\tau\) and \([X,Y]\) is their [[fiber-bundles/lie-bracket|Lie bracket]]. This is well-defined and makes \(A(P)\) into a Lie algebroid over \(M\), called the **Atiyah algebroid** of \(P\).
+
+## Right-action convention
+
+For the right-action convention, invariant vector fields along a group fiber are right-invariant, whose bracket is the opposite of the usual Lie-algebra bracket. With the standard bracket on \(\operatorname{ad}(P)\), the Atiyah sequence is embedded by \([p,\xi]\mapsto[-\xi^\#_p]\); the minus sign compensates for the right-action convention.
 
 ## Examples
 1. **Bundle over a point.** If \(M=\{\ast\}\) and \(P=G\), then \(TP/G\) identifies with \(\mathfrak{g}\) via right translation; right-invariant vector fields have the opposite of the usual Lie-algebra bracket. Composing this identification with \(\xi\mapsto-\xi\) gives the standard Lie-algebra bracket used for the adjoint-bundle inclusion.

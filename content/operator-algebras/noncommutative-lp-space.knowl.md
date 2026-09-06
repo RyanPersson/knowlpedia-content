@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Haagerup's weight-independent Lp space constructed from homogeneous measurable operators in a crossed product."
 aliases = ["Lp space of a von Neumann algebra", "Haagerup Lp space"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/continuous-core-von-neumann-algebra", "operator-algebras/von-neumann-crossed-product", "operator-algebras/modular-automorphism-group", "operator-algebras/dual-action-von-neumann-crossed-product", "operator-algebras/tau-measurable-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/continuous-core-von-neumann-algebra", "operator-algebras/von-neumann-crossed-product", "operator-algebras/modular-automorphism-group", "operator-algebras/dual-action-von-neumann-crossed-product", "operator-algebras/tau-measurable-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]],

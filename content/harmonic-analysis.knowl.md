@@ -5,6 +5,9 @@ kind = "section"
 summary = "Haar measure, convolution, Fourier analysis, positive-definite functions, and harmonic analysis on locally compact groups."
 aliases = ["harmonic-analysis", "Harmonic Analysis"]
 domains = ["harmonic-analysis"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Click any term to expand its definition inline.

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Natural isomorphism between Hom out of a tensor product and Hom into a Hom-module."
 aliases = ["tensor-hom-adjunction-lemma", "Tensor–Hom adjunction lemma"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/unital-ring", "algebra-modules/bimodule", "algebra-modules/module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-hom-adjunction-lemma.md"
+prerequisites = ["algebra-rings/unital-ring", "algebra-modules/bimodule", "algebra-modules/module", "algebra-modules/tensor-product", "algebra-modules/hom-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R,S\) be [[algebra-rings/unital-ring|unital rings]], let

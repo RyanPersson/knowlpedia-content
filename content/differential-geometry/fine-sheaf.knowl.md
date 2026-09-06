@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A sheaf admitting endomorphism-valued partitions of unity subordinate to locally finite open covers."
 aliases = ["fine module sheaf"]
 domains = ["differential-geometry"]
-prerequisites = ["algebraic-geometry-foundations/sheaf", "algebra-groups/abelian-group", "topology/topological-space", "topology/open-cover", "algebraic-geometry-foundations/stalk"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/sheaf", "algebra-groups/abelian-group", "topology/topological-space", "topology/open-cover", "algebraic-geometry-foundations/stalk"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal F\) be a [[algebraic-geometry-foundations/sheaf|sheaf]] of [[algebra-groups/abelian-group|abelian groups]] on a [[topology/topological-space|topological space]] \(X\). It is **fine** if, for every locally finite [[topology/open-cover|open cover]] \((U_i)_{i\in I}\), there are sheaf endomorphisms \(h_i:\mathcal F\to\mathcal F\) such that the family \((h_i)\) is locally finite,

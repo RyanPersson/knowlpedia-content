@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The fully faithful embedding that regards additive equalities as an ordered blueprint with equality order."
 aliases = ["blueprints embedded in ordered blueprints", "canonical ordered blueprint of a blueprint"]
 domains = ["algebraic-geometry-foundations", "algebra-category-theory"]
-prerequisites = ["algebraic-geometry-foundations/blueprint", "algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/blueprint", "algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B=A/\!/\mathcal R\) be a [[algebraic-geometry-foundations/blueprint|blueprint]]. Its associated [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] is

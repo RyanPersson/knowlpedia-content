@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A linear operator equal to its adjoint; in quantum theory it represents an observable with real measurement outcomes."
 aliases = ["self-adjoint-operator-observable", "Self-Adjoint Operator (Observable)"]
 domains = ["quantum-foundations"]
-prerequisites = ["quantum-foundations/bounded-operator-hilbert"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/self-adjoint-operator-observable.md"
+prerequisites = ["quantum-foundations/bounded-operator-hilbert"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a complex Hilbert space and let \(A:H\to H\) be a bounded operator (see [[quantum-foundations/bounded-operator-hilbert|Bounded Operator Hilbert]]). The operator \(A\) is **self-adjoint** (or **Hermitian**) if

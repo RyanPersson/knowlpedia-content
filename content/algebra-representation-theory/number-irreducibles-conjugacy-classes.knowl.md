@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over ℂ, the number of irreducible representations equals the number of conjugacy classes of the group."
 aliases = ["number-irreducibles-conjugacy-classes", "Irreducibles and Conjugacy Classes"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-groups/conjugacy-class", "algebra-groups/class-function", "algebra-representation-theory/group-representation", "algebra-representation-theory/character", "algebra-representation-theory/irreducible-character"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/number-irreducibles-conjugacy-classes.md"
+prerequisites = ["algebra-groups/class-function", "algebra-representation-theory/group-representation", "algebra-representation-theory/irreducible-representation", "algebra-representation-theory/irreducible-character", "algebra-groups/conjugacy-class", "algebra-representation-theory/character-orthonormality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group. A **class function** on \(G\) is a function \(f:G\to \mathbb{C}\) constant on each [[algebra-groups/conjugacy-class|conjugacy class]]. The space of class functions is denoted

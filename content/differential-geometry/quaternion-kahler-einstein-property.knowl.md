@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every quaternion-Kähler manifold of real dimension at least eight has Ricci tensor proportional to its metric."
 aliases = ["Einstein property of quaternion-Kähler manifolds"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/quaternion-kahler-manifold", "differential-geometry/einstein-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/quaternion-kahler-manifold", "differential-geometry/einstein-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M^{4n},g)\) be a connected [[differential-geometry/quaternion-kahler-manifold|quaternion-Kähler manifold]] with \(n\geq2\). Then \(g\) is an [[differential-geometry/einstein-manifold|Einstein metric]]: there is a constant \(\lambda\in\mathbb R\) such that

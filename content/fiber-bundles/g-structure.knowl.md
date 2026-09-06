@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A reduction of the frame bundle of a smooth manifold to a specified Lie subgroup of the general linear group."
 aliases = ["G-structure on a manifold", "reduction of the frame bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/frame-bundle-fr-of-a-manifold-m"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/frame-bundle-fr-of-a-manifold-m"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a smooth \(n\)-manifold and let \(G\subseteq\mathrm{GL}(n,\mathbb R)\) be a [[lie-groups/lie-subgroup|Lie subgroup]]. A **\(G\)-structure** on \(M\) is a [[fiber-bundles/reduction-of-structure-group|reduction of structure group]] of the [[fiber-bundles/frame-bundle-fr-of-a-manifold-m|frame bundle]] \(\mathrm{Fr}(TM)\) from \(\mathrm{GL}(n,\mathbb R)\) to \(G\). Concretely, it is a principal \(G\)-subbundle \(Q\subseteq\mathrm{Fr}(TM)\) whose fiber \(Q_x\) consists of the frames at \(x\) declared compatible with the structure. The fixed inclusion \(G\hookrightarrow\mathrm{GL}(n,\mathbb R)\) is part of the ambient data and determines how \(G\) changes those frames.

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "An analytic boundary condition on equilibrium correlation functions at inverse temperature beta."
 aliases = ["kms-condition-finite", "KMS condition in finite quantum systems"]
 domains = ["stat-mech-quantum"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/kms-condition-finite.md"
+prerequisites = ["stat-mech-quantum/quantum-hamiltonian", "stat-mech-quantum/observable-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal A=\mathcal B(\mathcal H)\) for a finite-dimensional Hilbert space, let \(H=H^*\), fix \(\beta>0\), and use units with \(\hbar=1\). Write

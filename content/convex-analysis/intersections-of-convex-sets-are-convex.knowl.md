@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Any intersection of convex sets is convex"
 aliases = ["intersections-of-convex-sets-are-convex", "Intersections of convex sets are convex"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-set"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/intersections-of-convex-sets-are-convex.md"
+prerequisites = ["convex-analysis/convex-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

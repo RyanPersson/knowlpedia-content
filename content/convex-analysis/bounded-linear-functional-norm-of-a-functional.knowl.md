@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A linear functional is bounded exactly when it is continuous; its norm is the supremum of its absolute value on the unit ball."
 aliases = ["bounded-linear-functional-norm-of-a-functional", "Bounded Linear Functional and Its Norm"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/linear-operator-linear-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/bounded-linear-functional-norm-of-a-functional.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/linear-operator-linear-transformation", "real-analysis/absolute-value", "real-analysis/supremum"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed space]] over \(\mathbb K\in\{\mathbb R,\mathbb C\}\). A [[convex-analysis/linear-operator-linear-transformation|linear map]] \(f:X\to\mathbb K\) is a **linear functional**. It is **bounded** if there exists \(M\ge0\) such that

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The Banach star-algebra of integrable functions on a locally compact group under convolution."
 aliases = ["group Banach algebra", "L^1(G)", "convolution algebra L1(G)"]
 domains = ["harmonic-analysis", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "measure-theory/lp-space", "harmonic-analysis/convolution-on-locally-compact-group", "harmonic-analysis/convolution-involution", "measure-theory/measure-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "measure-theory/lp-space", "harmonic-analysis/convolution-on-locally-compact-group", "harmonic-analysis/convolution-involution", "harmonic-analysis/modular-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] with a fixed

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The critical exponent at which powers of a spectral triple's regularized inverse Dirac operator become trace class."
 aliases = ["spectral dimension", "summability dimension"]
 domains = ["noncommutative-geometry", "functional-analysis"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/schatten-class-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/schatten-class-operator", "real-analysis/infimum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\), its **metric dimension** is the critical summability exponent

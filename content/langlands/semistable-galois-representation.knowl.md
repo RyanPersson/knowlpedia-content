@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A p-adic Galois representation whose semistable period module has full dimension."
 aliases = ["semistable p-adic representation", "potentially semistable representation", "semistable representation in p-adic Hodge theory"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/\mathbb Q_p\) be finite, let \(K_0\) be its maximal unramified

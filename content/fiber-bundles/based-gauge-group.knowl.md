@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The subgroup of gauge transformations that fixes a chosen point in a principal-bundle fiber."
 aliases = ["pointed gauge group", "framed gauge group"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation", "fiber-bundles/equivariant-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation", "fiber-bundles/equivariant-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]], choose \(x_0\in M\), and choose any point \(p_0\in P_{x_0}\). The **based gauge group** is the subgroup

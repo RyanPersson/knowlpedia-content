@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear map between C*-algebras whose entrywise amplification to n-by-n matrices preserves positivity."
 aliases = ["matrix-positive map", "2-positive map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra","linear-algebra/linear-map","operator-algebras/positive-linear-map","operator-algebras/matrix-cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map", "operator-algebras/positive-linear-map", "operator-algebras/matrix-cstar-algebra", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]]

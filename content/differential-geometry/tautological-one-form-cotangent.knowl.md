@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The canonical one-form that evaluates a cotangent vector on the projection of a tangent vector to the base."
 aliases = ["canonical one-form", "Liouville one-form", "Poincaré one-form"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/cotangent-bundle", "fiber-bundles/differential-k-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/cotangent-bundle", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and \(\pi:T^*M\to M\) its [[fiber-bundles/cotangent-bundle|cotangent bundle]]. The **tautological one-form** \(\theta\) is the [[fiber-bundles/differential-k-form|differential one-form]] on \(T^*M\) defined at a covector \(\alpha_x\in T_x^*M\) by

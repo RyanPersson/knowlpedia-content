@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a metric space, every compact set can be covered by finitely many small balls."
 aliases = ["compactness-implies-total-boundedness", "Compactness implies total boundedness"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/compact-set", "topology/totally-bounded-set", "topology/open-ball"]
-dependency_review_count = 1
 legacy_source_path = "topology/compactness-implies-total-boundedness.md"
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/totally-bounded-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Compactness implies total boundedness:** Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(K\subseteq X\) be [[topology/compact-set|compact]]. Then \(K\) is [[topology/totally-bounded-set|totally bounded]]: for every \(\varepsilon>0\) there exists a finite set \(F\subseteq K\) such that

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A bounded net in the group convolution algebra that converges to the identity in its left and right actions."
 aliases = ["convolution approximate identity", "approximate unit in L1(G)", "Approximate identity in a group algebra"]
 domains = ["harmonic-analysis", "functional-analysis"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/l1-group-algebra", "topology/neighborhood"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/l1-group-algebra", "topology/neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. An

@@ -5,10 +5,10 @@ kind = "construction"
 summary = "The full preimage Spin⁺(p,q) of the identity component SO⁺(p,q) under the indefinite spin covering."
 aliases = ["Spin+(p,q)", "proper orthochronous spin group"]
 domains = ["lie-groups", "differential-geometry", "mathematical-physics"]
-prerequisites = ["lie-groups/indefinite-spin-group", "lie-groups/special-orthogonal-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/indefinite-spin-group", "lie-groups/special-orthogonal-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let

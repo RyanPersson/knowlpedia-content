@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The smallest convex set containing a given set"
 aliases = ["convex-hull", "Convex hull"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-set", "convex-analysis/intersections-of-convex-sets-are-convex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/convex-hull.md"
+prerequisites = ["convex-analysis/convex-set", "convex-analysis/intersections-of-convex-sets-are-convex"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real vector space and let \(\Omega\subset X\). The **convex hull** of \(\Omega\), denoted \(\mathrm{co}(\Omega)\), is defined as the intersection of all [[convex-analysis/convex-set|convex]] sets containing \(\Omega\):

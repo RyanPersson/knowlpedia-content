@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point where a function attains a local maximum or local minimum."
 aliases = ["local-extremum", "Local extremum"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/local-extremum.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **local extremum** of a function \(f:I\to\mathbb{R}\) at a point \(a\in I\) means either a local maximum or a local minimum: \(a\) is a local maximum if there exists \(\delta>0\) such that \(f(a)\ge f(x)\) for all \(x\in I\) with \(|x-a|<\delta\), and a local minimum if there exists \(\delta>0\) such that \(f(a)\le f(x)\) for all such \(x\).

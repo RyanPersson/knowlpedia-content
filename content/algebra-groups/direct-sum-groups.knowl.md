@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subgroup of a direct product with finite support"
 aliases = ["direct-sum-groups", "Direct Sum of Groups"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/direct-product-groups"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/direct-sum-groups.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/direct-product-groups"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((G_i)_{i\in I}\) be a family of [[algebra-groups/group|groups]] with identities \(e_i\). The (external) **direct sum**

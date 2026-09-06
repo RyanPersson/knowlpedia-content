@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bound on the change of a differentiable map using a bound on its derivative."
 aliases = ["mean-value-inequality", "Mean value inequality"]
 domains = ["real-analysis"]
-prerequisites = ["linear-algebra/operator-norm"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/mean-value-inequality.md"
+prerequisites = ["linear-algebra/operator-norm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Mean value inequality.** Let \(U\subseteq\mathbb R^k\) be open, let \(f:U\to\mathbb R^m\) be continuously differentiable, and suppose the line segment \([x,y]\) lies in \(U\). If \(M\ge0\) satisfies

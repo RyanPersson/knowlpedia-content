@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A numerical summary of a distribution given by derivatives of the cumulant generating function at zero."
 aliases = ["cumulant"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable", "probability/cumulant-generating-function"]
-dependency_review_count = 1
 legacy_source_path = "probability/cumulant.md"
+prerequisites = ["probability/random-variable", "probability/cumulant-generating-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **cumulant** (of order \(n\)) of a [[probability/random-variable|random variable]] \(X\) is the number

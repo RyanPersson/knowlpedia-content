@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A family of holomorphic functions for which every sequence has a locally uniformly convergent subsequence."
 aliases = ["normal family of holomorphic functions"]
 domains = ["complex-analysis", "topology"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain", "complex-analysis/riemann-sphere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be a domain. A family \(\mathcal F\) of holomorphic functions \(D\to\mathbb C\) is a **normal family** if every sequence in \(\mathcal F\) has a subsequence that converges uniformly on each compact subset of \(D\), either to a holomorphic function \(D\to\mathbb C\) or locally uniformly to \(\infty\).

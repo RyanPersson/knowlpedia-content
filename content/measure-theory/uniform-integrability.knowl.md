@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A uniform L1 bound together with uniformly vanishing large-value tails."
 aliases = ["uniform-integrability", "Uniform integrability"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","shared-foundations/sequence"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/uniform-integrability.md"
+prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence", "measure-theory/l1-function", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A family \(\mathcal F\subset L^1(X,\mu)\) on a [[measure-theory/measure-space|measure space]] \((X,\mathcal A,\mu)\) is **uniformly integrable** if

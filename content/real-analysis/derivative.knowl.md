@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The limit of a function's difference quotient at an interior point."
 aliases = ["derivative"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/derivative.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[shared-foundations/function|function]] \(f:I\to\mathbb R\), defined on an open interval \(I\), is **differentiable at** \(a\in I\) if the finite limit

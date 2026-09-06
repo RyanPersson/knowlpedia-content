@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of points reachable from a given point under a group action"
 aliases = ["orbit"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-action"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/orbit.md"
+prerequisites = ["algebra-groups/group-action"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[algebra-groups/group-action|group action]] of a group \(G\) on a set \(X\) be given, written \(g\cdot x\). For \(x\in X\), the **orbit** of \(x\) is the subset

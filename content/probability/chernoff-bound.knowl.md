@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Exponential tail bound using moment generating functions."
 aliases = ["chernoff-bound", "Chernoff bound"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "probability/chernoff-bound.md"
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Chernoff bound:** Let \(X\) be a [[probability/random-variable|random variable]]. Suppose \(\mathbb{E}[e^{tX}]<\infty\) for some \(t>0\). Then for every real \(a\) and every \(t>0\) for which the expectation is finite,

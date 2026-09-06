@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The ideal of formal sums declared null in a band."
 aliases = ["null set of a band", "band nullset", "band null set"]
 domains = ["algebra-hyperstructures"]
-prerequisites = ["algebra-hyperstructures/band"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/band"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[algebra-hyperstructures/band|band]] \(B\), its **nullset** is the

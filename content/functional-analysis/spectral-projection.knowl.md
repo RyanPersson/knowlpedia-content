@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The projection assigned to a Borel subset of the spectrum by an operator's projection-valued spectral measure."
 aliases = ["spectral measure projection", "Borel spectral projection"]
 domains = ["functional-analysis", "operator-algebras"]
-prerequisites = ["quantum-foundations/normal-operator", "functional-analysis/borel-functional-calculus", "linear-algebra/orthogonal-projection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["quantum-foundations/normal-operator", "functional-analysis/borel-functional-calculus", "linear-algebra/orthogonal-projection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T\) be a self-adjoint or [[quantum-foundations/normal-operator|normal operator]] with spectral measure \(E_T\), and let \(B\) be a Borel subset of \(\mathbb R\) in the self-adjoint case or \(\mathbb C\) in the normal case. The **spectral projection of \(T\) for \(B\)** is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A norm assigns lengths to vectors and induces a metric"
 aliases = ["norm-normed-vector-space", "Norm and normed vector space"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/norm-normed-vector-space.md"
+prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] over \(\mathbb{R}\) (or \(\mathbb{C}\)). A **norm** on \(X\) is a function \(\|\cdot\|:X\to[0,\infty)\) such that for all \(x,y\in X\) and scalars \(\alpha\):

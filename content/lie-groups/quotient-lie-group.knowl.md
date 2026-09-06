@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "If N is a closed normal Lie subgroup of G, then G/N carries a natural Lie group structure."
 aliases = ["quotient-lie-group", "Quotient Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/normal-lie-subgroup", "lie-groups/closed-subgroup-theorem", "lie-groups/lie-group-homomorphism", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/quotient-lie-algebra", "lie-groups/covering-lie-group", "lie-groups/universal-covering-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "lie-groups/quotient-lie-group.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/normal-lie-subgroup", "lie-groups/closed-subgroup-theorem", "lie-groups/lie-group-homomorphism", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/quotient-lie-algebra", "lie-groups/covering-lie-group", "lie-groups/universal-covering-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a Lie group (see [[fiber-bundles/lie-group|Lie group]]) and let \(N\trianglelefteq G\) be a **closed normal Lie subgroup** (see [[lie-groups/normal-lie-subgroup|normal Lie subgroup]] and [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]]). The quotient set \(G/N\) carries a natural smooth manifold structure such that:

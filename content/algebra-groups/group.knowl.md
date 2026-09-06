@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A monoid in which every element has an inverse"
 aliases = ["group"]
 domains = ["algebra-groups"]
-prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation", "algebra-groups/monoid"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/group.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation", "algebra-groups/monoid"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **group** is a [[shared-foundations/set|set]] \(G\) together with a [[shared-foundations/binary-operation|binary operation]] \(\cdot : G\times G\to G\) such that:

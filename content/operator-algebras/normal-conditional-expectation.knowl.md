@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An ultraweakly continuous conditional expectation from a von Neumann algebra onto a von Neumann subalgebra."
 aliases = ["von Neumann algebra conditional expectation", "normal expectation"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/conditional-expectation", "operator-algebras/normal-positive-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/conditional-expectation", "operator-algebras/normal-positive-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(N\subseteq M\) be unital

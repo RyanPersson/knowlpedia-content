@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonzero representation of a C*-algebra is irreducible when it has no nontrivial closed invariant Hilbert subspaces."
 aliases = ["topologically irreducible *-representation", "irreducible C*-representation"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-representation", "linear-algebra/orthogonal-complement"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-representation", "linear-algebra/orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:A\to B(H)\) be a nonzero [[operator-algebras/cstar-representation|representation of a \(C^*\)-algebra]]. It is **irreducible** when the only closed subspaces \(K\subseteq H\) satisfying \(\pi(a)K\subseteq K\) for every \(a\in A\) are \(K=\{0\}\) and \(K=H\). Because \(A\) is closed under involution, every invariant closed subspace is automatically reducing: its [[linear-algebra/orthogonal-complement|orthogonal complement]] is invariant as well. The word “closed” is essential; irreducibility is a topological condition on the Hilbert-space representation, not algebraic simplicity of the underlying module.

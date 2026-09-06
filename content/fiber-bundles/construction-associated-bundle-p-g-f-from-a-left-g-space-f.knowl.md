@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Construction of the fiber bundle P×_G F associated to a principal G-bundle and a left G-space."
 aliases = ["construction-associated-bundle-p-g-f-from-a-left-g-space-f", "Associated bundle from a principal bundle and a left G-space"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/associated-bundle", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] and let \(F\) be a smooth manifold with a smooth left action of the [[fiber-bundles/lie-group|Lie group]] \(G\) (a left \(G\)-space).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In the localization S^{-1}R, every element of S becomes a unit, and S^{-1}R is universal with that property."
 aliases = ["localization-inverts-multiplicative-set", "Localization inverts a multiplicative set"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/localization-at-prime", "algebra-commutative/local-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-inverts-multiplicative-set.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/localization-at-prime", "algebra-commutative/local-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(S\subseteq R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. The [[algebra-commutative/localization-ring|localization]] \(S^{-1}R\) comes with a canonical ring homomorphism

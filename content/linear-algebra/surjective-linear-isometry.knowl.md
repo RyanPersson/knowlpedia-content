@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A bijective linear map that preserves the norm exactly."
 aliases = ["surjective linear isometry", "linear isometric equivalence", "linear isometry group"]
 domains = ["linear-algebra", "topology"]
-prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/linear-map"]
+prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/linear-map", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

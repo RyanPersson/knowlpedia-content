@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A homomorphism that kills an ideal factors uniquely through the quotient."
 aliases = ["quotient-ring-universal-property", "Universal property of quotient rings"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "algebra-rings/ring-homomorphism", "algebra-rings/kernel-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/quotient-ring-universal-property.md"
+prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "algebra-rings/ring-homomorphism", "algebra-rings/kernel-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Universal property of quotient rings**: Let \(R\) be a ring, let \(I\triangleleft R\) be a two-sided [[algebra-rings/ideal|ideal]], and let \(\pi:R\to R/I\) be the canonical projection onto the [[algebra-rings/quotient-ring|quotient ring]]. For any [[algebra-rings/ring-homomorphism|ring homomorphism]] \(f:R\to S\) such that \(I\subseteq \ker(f)\) (where \(\ker(f)\) is the [[algebra-rings/kernel-ring|kernel]]), there exists a unique ring homomorphism \(\bar f:R/I\to S\) with

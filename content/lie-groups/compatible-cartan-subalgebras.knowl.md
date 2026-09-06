@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Cartan subalgebras chosen along an inclusion so that the smaller one is obtained by intersection with the larger."
 aliases = ["compatible Cartans", "compatible choice of Cartan subalgebras"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/cartan-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/cartan-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For an inclusion \(\mathfrak k\subseteq\mathfrak g\) of finite-dimensional Lie

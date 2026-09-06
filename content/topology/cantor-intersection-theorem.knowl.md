@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Nested closed sets with diameters going to zero intersect in a single point in a complete metric space"
 aliases = ["cantor-intersection-theorem", "Cantor intersection theorem"]
 domains = ["topology"]
-prerequisites = ["topology/complete-metric-space", "topology/closed-set", "topology/diameter"]
-dependency_review_count = 1
 legacy_source_path = "topology/cantor-intersection-theorem.md"
+prerequisites = ["topology/complete-metric-space", "topology/closed-set", "topology/diameter"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Cantor intersection theorem:** Let \((X,d)\) be a [[topology/complete-metric-space|complete metric space]] and let \((F_n)_{n\in\mathbb{N}}\) be a sequence of nonempty [[topology/closed-set|closed sets]] with

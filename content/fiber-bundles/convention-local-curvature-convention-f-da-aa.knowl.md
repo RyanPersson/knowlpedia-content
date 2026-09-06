@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The sign and bracket convention relating a local connection 1 form to its local curvature 2 form."
 aliases = ["convention-local-curvature-convention-f-da-aa", "Convention: local curvature is F = dA + A wedge A"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/local-connection-1-form", "fiber-bundles/local-curvature-2-form"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/convention-local-curvature-convention-f-da-aa.md"
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/local-connection-1-form", "fiber-bundles/local-curvature-2-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[fiber-bundles/principal-connection|principal connection]] can be described locally by a Lie algebra–valued 1-form, and its curvature is then expressed by a standard structure equation. Different sign conventions appear in the literature; this knowl fixes the convention used here.

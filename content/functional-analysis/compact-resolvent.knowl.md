@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A closed operator whose resolvent is compact at one, equivalently every, resolvent point."
 aliases = ["compact-resolvent operator", "compact resolvent"]
 domains = ["functional-analysis", "operator-theory", "spectral-theory"]
-prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "linear-algebra/compact-operator", "functional-analysis/resolvent-identity"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "linear-algebra/compact-operator", "functional-analysis/resolvent-identity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:\mathcal D(T)\subseteq X\to X\) be a densely defined

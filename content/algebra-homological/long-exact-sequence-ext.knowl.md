@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The natural long exact sequence in Ext induced by a short exact sequence of modules."
 aliases = ["long-exact-sequence-ext", "Long exact sequence for Ext"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-modules/short-exact-sequence"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/long-exact-sequence-ext.md"
+prerequisites = ["algebra-modules/short-exact-sequence", "algebra-homological/ext", "algebra-homological/hom-left-exact"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring. A [[algebra-modules/short-exact-sequence|short exact sequence]] of left \(R\)-modules

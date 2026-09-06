@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A chosen Clifford module whose restriction to the spin group is a spin representation."
 aliases = ["spin module", "space of algebraic spinors"]
 domains = ["differential-geometry", "representation-theory"]
-prerequisites = ["differential-geometry/clifford-module", "differential-geometry/clifford-algebra", "lie-groups/spin-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/clifford-module", "differential-geometry/clifford-algebra", "lie-groups/spin-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,q)\) be a finite-dimensional nondegenerate real or complex quadratic

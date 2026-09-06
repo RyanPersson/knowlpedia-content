@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A collection of sets whose unions give all open sets."
 aliases = ["basis-of-topology", "Basis of a topology"]
 domains = ["topology"]
-prerequisites = ["topology/open-set", "topology/topology"]
-dependency_review_count = 1
 legacy_source_path = "topology/basis-of-topology.md"
+prerequisites = ["topology/topology", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **basis of a topology** on a set \(X\) is a collection \(\mathcal{B}\) of subsets of \(X\) such that:

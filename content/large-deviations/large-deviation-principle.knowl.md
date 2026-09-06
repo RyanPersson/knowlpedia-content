@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Asymptotic exponential bounds for probabilities of rare events at a given speed."
 aliases = ["large-deviation-principle", "Large deviation principle"]
 domains = ["large-deviations"]
-prerequisites = ["large-deviations/rate-function"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/large-deviation-principle.md"
+prerequisites = ["large-deviations/rate-function", "probability/probability-measure", "topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **large deviation principle (LDP)** for a sequence of probability measures \((\mu_n)_{n\ge 1}\) on a topological space \(E\) (with its Borel \(\sigma\)-algebra) consists of a **speed** \((a_n)_{n\ge 1}\) with \(a_n\to\infty\) and a [[large-deviations/rate-function|rate function]] \(I:E\to[0,\infty]\) such that:

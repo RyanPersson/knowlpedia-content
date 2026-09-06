@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Integration identifies de Rham cohomology naturally with singular cohomology with real coefficients."
 aliases = ["de Rham isomorphism theorem"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/integration-of-differential-forms", "differential-geometry/de-rham-complex", "topology/singular-cohomology-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/integration-of-differential-forms", "differential-geometry/de-rham-complex", "topology/singular-cohomology-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For every [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), [[differential-geometry/integration-of-differential-forms|integration]] over smooth singular simplices defines a cochain map

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every compactly supported smooth function on a Lie group is a finite sum of convolutions of such functions, and every smooth representation vector is a finite sum of smoothed vectors."
 aliases = ["smooth-vector factorization theorem", "Dixmier–Malliavin theorem"]
 domains = ["lie-groups", "harmonic-analysis", "functional-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "harmonic-analysis/convolution-on-locally-compact-group", "functional-analysis/frechet-space", "lie-groups/garding-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "harmonic-analysis/convolution-on-locally-compact-group", "functional-analysis/frechet-space", "lie-groups/garding-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite-dimensional [[fiber-bundles/lie-group|Lie group]]. The **Dixmier–Malliavin factorization theorem** states that every \(f\in C_c^\infty(G)\) is a finite sum of [[harmonic-analysis/convolution-on-locally-compact-group|convolutions]]:

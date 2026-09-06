@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset containing zero and closed under addition and scalar multiplication."
 aliases = ["linear-subspace", "Linear subspace"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-subspace.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a vector space over a field \(K\), and let \(Y\subseteq X\). The set \(Y\) is a **linear subspace** of \(X\) if

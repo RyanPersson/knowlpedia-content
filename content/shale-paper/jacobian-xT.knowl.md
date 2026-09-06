@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Radon–Nikodym derivative of the transformed Gaussian measure n(T) with respect to n"
 aliases = ["jacobian-xT", "Jacobian X(T) in Shale's Gaussian Setup"]
 domains = ["shale-paper"]
-prerequisites = ["shale-paper/radon-nikodym-derivative"]
-dependency_review_count = 1
 legacy_source_path = "shale-paper/jacobian-xT.md"
+prerequisites = ["shale-paper/radon-nikodym-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(T\in rGL(M)\), Shale defines a new measure \(n(T)\) via pullback on \(L_\infty\),

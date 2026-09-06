@@ -5,15 +5,18 @@ kind = "definition"
 summary = "The coordinate equations characterizing complex-linear real derivatives."
 aliases = ["Cauchy-Riemann equations", "CR equations"]
 domains = ["complex-analysis", "partial-differential-equations"]
-prerequisites = ["real-analysis/partial-derivative"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["real-analysis/partial-derivative", "shared-foundations/complex-numbers-c", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Write \(f(x+iy)=u(x,y)+iv(x,y)\). At a point where the real [[real-analysis/partial-derivative|partial derivatives]] exist, the **Cauchy–Riemann equations** are
 \[
 u_x=v_y,\qquad u_y=-v_x.
 \]
+## Derivative matrix
+
 When \(f\) is real-differentiable at the point, these equations are equivalent to the real derivative matrix having the form
 \[
 Df=\begin{pmatrix}a&-b\\ b&a\end{pmatrix},

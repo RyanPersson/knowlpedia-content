@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Two scaling properties of subsets in a vector space"
 aliases = ["balanced-and-absorbing-sets", "Balanced and absorbing sets"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/balanced-and-absorbing-sets.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] over \(K\in\{\mathbb{R},\mathbb{C}\}\), and let \(M\subset X\).

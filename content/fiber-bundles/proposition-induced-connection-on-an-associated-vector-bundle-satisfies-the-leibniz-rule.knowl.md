@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The induced covariant derivative on an associated vector bundle is a derivation with respect to multiplying sections by functions."
 aliases = ["proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule", "Leibniz rule for induced connections on associated bundles"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/associated-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/associated-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). Given a representation \(\rho:G\to \mathrm{GL}(V)\), form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] \(E:=P\times_\rho V\to M\). The connection \(\omega\) induces a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (covariant derivative)

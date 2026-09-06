@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every irreducible unitary representation of a real reductive group has finite multiplicity for each irreducible maximal-compact-subgroup type."
 aliases = ["admissibility theorem for irreducible unitary representations"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/irreducible-unitary-representation", "lie-groups/k-type"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/irreducible-unitary-representation", "lie-groups/k-type"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]] in the Harish–Chandra class, and let \(K\) be a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]]. The **Harish–Chandra admissibility theorem** states that every [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] \((\pi,\mathcal H)\) of \(G\) is admissible: for each irreducible finite-dimensional representation \(\tau\) of \(K\),

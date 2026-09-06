@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An ordered basis in which a symplectic form has its standard block matrix."
 aliases = ["Darboux basis"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a \(2n\)-dimensional [[differential-geometry/symplectic-vector-space|symplectic vector space]]. A **symplectic basis** is an ordered basis

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The group of smooth self-diffeomorphisms of a manifold modulo smooth isotopy."
 aliases = ["smooth mapping class group", "diffeomorphisms modulo isotopy"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/diffeomorphism-group", "differential-geometry/smooth-isotopy", "algebra-groups/normal-subgroup"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/diffeomorphism-group", "differential-geometry/smooth-isotopy", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. Its **smooth mapping class group** is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Functors R^nF and L_nF obtained from resolutions, measuring the failure of exactness and yielding Ext and Tor."
 aliases = ["derived-functor", "Derived functor"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-category-theory/abelian-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/derived-functor.md"
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/left-exact-functor", "algebra-category-theory/right-exact-functor", "algebra-homological/injective-resolution", "algebra-homological/projective-resolution", "algebra-homological/cohomology-module", "algebra-homological/homology-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Derived functors formalize the idea that a non-exact functor can be “corrected” by replacing objects with resolutions and then taking homology/cohomology.

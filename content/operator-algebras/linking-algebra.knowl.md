@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A block C-star algebra whose diagonal corners are Morita-equivalent algebras and whose off-diagonal corner is their imprimitivity bimodule."
 aliases = ["linking C*-algebra"]
 domains = ["operator-algebras", "algebra-modules"]
-prerequisites = ["operator-algebras/imprimitivity-bimodule", "operator-algebras/compact-operator-hilbert-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/imprimitivity-bimodule", "operator-algebras/compact-operator-hilbert-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \({}_AE_B\) be an

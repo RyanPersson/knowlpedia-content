@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convex function with strict inequality for distinct points"
 aliases = ["strictly-convex-function", "Strictly convex function"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/strictly-convex-function.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real vector space and let \(f:X\to(-\infty,+\infty]\) have a convex effective domain

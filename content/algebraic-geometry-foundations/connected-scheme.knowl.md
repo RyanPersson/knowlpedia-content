@@ -5,7 +5,8 @@ kind = "definition"
 summary = "A scheme whose underlying Zariski topological space cannot be split into two nonempty open-and-closed pieces."
 aliases = ["connected scheme", "scheme connectedness"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "topology/topological-space", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/affine-scheme"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "topology/topological-space", "algebra-commutative/zariski-topology", "topology/connected-set"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

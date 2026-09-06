@@ -5,9 +5,10 @@ kind = "definition"
 summary = "One repeated family of quark and lepton multiplets with the same internal gauge quantum numbers."
 aliases = ["fermion generation", "Standard Model family", "one generation of fermions"]
 domains = ["mathematical-physics"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Standard Model fermion generation** is one copy of the quark and lepton multiplets carrying the following representations of \(SU(2)_L\times SU(3)_C\times U(1)_Y\):

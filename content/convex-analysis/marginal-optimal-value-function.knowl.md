@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The infimum of an objective over a set-valued constraint mapping"
 aliases = ["marginal-optimal-value-function", "Marginal (Optimal Value) Function"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/marginal-optimal-value-function.md"
+prerequisites = ["convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Given a [[convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping|set-valued mapping]] \(F:X\rightrightarrows Y\) and a function \(\varphi:X\times Y\to\overline{\mathbb{R}}\), the **optimal value (marginal) function** \(\mu:X\to\overline{\mathbb{R}}\) is defined by

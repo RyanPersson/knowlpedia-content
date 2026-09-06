@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compact subgroup maximal by inclusion, canonically associated up to conjugacy with a Cartan involution."
 aliases = ["maximal compact K", "maximal compact subgroup"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/lie-algebra", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "algebra-groups/conjugacy-class"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/lie-algebra", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "algebra-groups/conjugacy-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **maximal compact subgroup** of a

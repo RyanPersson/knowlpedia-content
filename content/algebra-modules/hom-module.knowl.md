@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The module (or abelian group) of module homomorphisms between two modules."
 aliases = ["hom-module", "Hom module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/module", "algebra-rings/commutative-ring", "algebra-modules/bimodule"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/hom-module.md"
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/module", "algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Hom module** \(\mathrm{Hom}_R(M,N)\) is the set of all [[algebra-modules/module-homomorphism|module homomorphisms]] \(f\colon M\to N\) between \(R\)-[[algebra-modules/module|modules]], equipped with pointwise addition \((f+g)(m)=f(m)+g(m)\). This makes \(\mathrm{Hom}_R(M,N)\) an abelian group. If \(R\) is a [[algebra-rings/commutative-ring|commutative ring]], then \(\mathrm{Hom}_R(M,N)\) is naturally an \(R\)-module via \((r\cdot f)(m)=r\,f(m)\).

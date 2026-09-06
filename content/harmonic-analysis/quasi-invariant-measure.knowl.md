@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A quasi-invariant measure has the same null sets as each of its translates under the group action."
 aliases = ["invariant measure class", "G-quasi-invariant measure"]
 domains = ["harmonic-analysis", "measure-theory"]
-prerequisites = ["topology/locally-compact-group", "measure-theory/measurable-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "measure-theory/measurable-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[topology/locally-compact-group|locally compact group]] \(G\) act measurably on a [[measure-theory/measurable-space|measurable space]] \(X\), and let \(\mu\) be a \(\sigma\)-finite measure on \(X\). The measure \(\mu\) is **quasi-invariant** under the action if, for every \(g\in G\), the pushforward \(g_*\mu\), defined by \(g_*\mu(E)=\mu(g^{-1}E)\), is mutually absolutely continuous with \(\mu\). Equivalently,

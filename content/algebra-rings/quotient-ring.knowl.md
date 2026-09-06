@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring formed from a ring by identifying elements that differ by a two-sided ideal."
 aliases = ["quotient-ring", "Quotient ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/two-sided-ideal", "shared-foundations/quotient-set", "shared-foundations/equivalence-relation", "algebra-groups/coset"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/quotient-ring.md"
+prerequisites = ["algebra-rings/two-sided-ideal", "shared-foundations/quotient-set", "shared-foundations/equivalence-relation", "algebra-groups/coset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring and let \(I\) be a [[algebra-rings/two-sided-ideal|two-sided ideal]] of \(R\). The **quotient ring** \(R/I\) is the [[shared-foundations/quotient-set|quotient set]] of \(R\) by the [[shared-foundations/equivalence-relation|equivalence relation]] \(r\sim s\) iff \(r-s\in I\), with addition and multiplication on [[algebra-groups/coset|cosets]] defined by

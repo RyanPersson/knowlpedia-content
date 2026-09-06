@@ -6,6 +6,7 @@ summary = "A smooth map that restricts near every point to a diffeomorphism onto
 aliases = ["local diffeomorphism", "locally diffeomorphic map"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

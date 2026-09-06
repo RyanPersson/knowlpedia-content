@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Total characteristic classes multiply when vector bundles are combined by direct sum."
 aliases = ["Whitney product formula", "multiplicativity of total characteristic classes"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/characteristic-class", "fiber-bundles/direct-sum-vector-bundle", "fiber-bundles/chern-class", "fiber-bundles/stiefel-whitney-class", "topology/singular-cohomology-group", "topology/cup-product-and-cohomology-ring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/characteristic-class", "fiber-bundles/direct-sum-vector-bundle", "fiber-bundles/chern-class", "fiber-bundles/stiefel-whitney-class", "topology/singular-cohomology-group", "topology/cup-product-and-cohomology-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(F\) be [[fiber-bundles/vector-bundle|vector bundles]] over the same paracompact base \(X\). The **Whitney sum formula** states that total [[fiber-bundles/characteristic-class|characteristic classes]] multiply under the [[fiber-bundles/direct-sum-vector-bundle|direct sum]]:

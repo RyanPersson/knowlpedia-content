@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every self-adjoint operator is uniquely represented as a spectral integral against a projection-valued measure on the real line."
 aliases = ["unbounded spectral theorem", "spectral resolution theorem"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/self-adjoint-unbounded-operator", "linear-algebra/hilbert-space", "functional-analysis/projection-valued-measure", "functional-analysis/spectral-integral"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/self-adjoint-unbounded-operator", "linear-algebra/hilbert-space", "functional-analysis/projection-valued-measure", "functional-analysis/spectral-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The parameter space of fixed-dimensional isotropic subspaces of a symplectic vector space."
 aliases = ["symplectic Grassmannian of isotropic planes"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/grassmannian", "differential-geometry/isotropic-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/grassmannian", "differential-geometry/isotropic-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a \(2n\)-dimensional real or complex [[differential-geometry/symplectic-vector-space|symplectic vector space]], and let \(0\leq k\leq n\). The **isotropic Grassmannian** is

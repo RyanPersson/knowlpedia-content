@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For functions into a complete metric space, uniform convergence is equivalent to being uniformly Cauchy."
 aliases = ["uniform-cauchy-iff-uniform-convergence", "Uniform Cauchy criterion"]
 domains = ["real-analysis"]
-prerequisites = ["topology/complete-metric-space", "real-analysis/uniform-convergence", "real-analysis/uniform-cauchy", "real-analysis/uniform-metric", "real-analysis/supremum-norm"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-cauchy-iff-uniform-convergence.md"
+prerequisites = ["topology/complete-metric-space", "real-analysis/uniform-convergence", "real-analysis/uniform-cauchy"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Uniform Cauchy criterion:** Let \(E\) be a set and let \((Y,\rho)\) be a [[topology/complete-metric-space|complete metric space]]. A sequence of functions \(f_n:E\to Y\) converges [[real-analysis/uniform-convergence|uniformly]] on \(E\) if and only if it is [[real-analysis/uniform-cauchy|uniformly Cauchy]], meaning: for every \(\varepsilon>0\) there exists \(N\) such that for all \(m,n\ge N\) and all \(x\in E\),

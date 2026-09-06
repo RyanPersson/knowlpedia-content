@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compact connected surface equipped with a complete Riemannian metric of constant curvature minus one."
 aliases = ["closed hyperbolic surface", "compact surface of constant negative curvature"]
 domains = ["mathematical-physics", "differential-geometry", "quantum-chaos"]
-prerequisites = ["differential-geometry/riemannian-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **compact hyperbolic surface** is a compact connected smooth surface \(M\)

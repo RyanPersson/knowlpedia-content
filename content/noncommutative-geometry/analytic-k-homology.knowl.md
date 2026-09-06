@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The two-periodic homology theory of a complex C*-algebra represented by stable homotopy classes of Fredholm modules."
 aliases = ["operator K-homology", "Kasparov K-homology"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["algebra-groups/abelian-group", "noncommutative-geometry/even-fredholm-module", "noncommutative-geometry/odd-fredholm-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group", "noncommutative-geometry/even-fredholm-module", "noncommutative-geometry/odd-fredholm-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a separable complex \(C^*\)-algebra \(A\), **analytic K-homology** is the \(\mathbb Z/2\)-graded [[algebra-groups/abelian-group|abelian group]]

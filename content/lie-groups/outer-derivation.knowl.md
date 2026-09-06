@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A derivation that does not arise by taking the bracket with a fixed Lie algebra element."
 aliases = ["outer-derivation", "Outer derivation"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/derivation-lie-algebra", "lie-groups/inner-derivation", "lie-groups/adjoint-representation-of-a-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/outer-derivation.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/derivation-lie-algebra", "lie-groups/inner-derivation", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]].

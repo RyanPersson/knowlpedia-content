@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A scheme morphism that is both finite and étale."
 aliases = ["finite-etale-morphism", "Finite etale morphism", "Finite étale morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/finite-morphism", "algebraic-geometry-foundations/etale-morphism", "algebraic-geometry-foundations/relative-kahler-differentials", "algebra-fields-galois/separable-extension"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/finite-morphism", "algebraic-geometry-foundations/etale-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

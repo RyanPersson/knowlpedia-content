@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A semigroup with an identity element"
 aliases = ["monoid"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/semigroup", "shared-foundations/composition"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/monoid.md"
+prerequisites = ["algebra-groups/semigroup"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **monoid** is a [[algebra-groups/semigroup|semigroup]] \((M,\cdot)\) with an **identity element** \(e\in M\), meaning that for every \(a\in M\),

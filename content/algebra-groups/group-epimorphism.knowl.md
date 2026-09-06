@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A surjective group homomorphism"
 aliases = ["group-epimorphism", "Group epimorphism"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-homomorphism", "shared-foundations/surjective-function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-epimorphism.md"
+prerequisites = ["algebra-groups/group-homomorphism", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **group epimorphism** is a [[algebra-groups/group-homomorphism|group homomorphism]] \(\varphi\colon G\to H\) that is surjective as a [[shared-foundations/surjective-function|surjective function]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The unique torsion-free metric-compatible connection on a Riemannian manifold, viewed on the orthonormal frame bundle."
 aliases = ["levicivita-connection-connection", "Levi–Civita connection as a principal O(n)-connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/levicivita-connection-connection.md"
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a Riemannian [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(n\). Denote by \(O(M)\to M\) the orthonormal frame bundle, a principal \(O(n)\)-bundle.

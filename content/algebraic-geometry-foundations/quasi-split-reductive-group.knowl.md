@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A connected reductive group having a Borel subgroup defined over the base field."
 aliases = ["quasisplit reductive group", "quasi-split group", "quasisplit group"]
 domains = ["algebraic-geometry-foundations", "langlands", "algebra-groups"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "langlands-letter/knowls/split-reductive-group", "langlands-letter/knowls/maximal-torus-weight-lattice", "algebra-fields-galois/separable-extension"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field and let \(G\) be a connected

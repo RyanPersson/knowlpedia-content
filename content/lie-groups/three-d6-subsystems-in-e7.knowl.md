@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Each of the three generation root lines has a 60-root orthogonal complement of type D6, yielding a copy of so12 in e7."
 aliases = ["three so12 subalgebras in e7", "D6 subsystem orthogonal to generation root", "so12 beta k"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["lie-groups/generation-sl2-subalgebras", "lie-groups/root-subsystem", "lie-groups/type-d-root-system", "lie-groups/regular-lie-subalgebra", "lie-groups/complex-lie-algebra-so12"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/generation-sl2-subalgebras", "lie-groups/root-subsystem", "lie-groups/type-d-root-system", "lie-groups/regular-lie-subalgebra", "lie-groups/complex-lie-algebra-so12"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Use the generation-plane partition

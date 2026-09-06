@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The normalized complex Clifford volume element acting on an even-dimensional spinor module."
 aliases = ["chirality matrix", "complex volume operator"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module", "mathematical-physics/gamma-matrices"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module", "mathematical-physics/gamma-matrices"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be an oriented complex [[linear-algebra/quadratic-form|quadratic space]] of even dimension, and let

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A standard Baire category method for producing a dense or residual set by intersecting dense open sets."
 aliases = ["category-argument-template", "Category Argument Template"]
 domains = ["topology"]
-prerequisites = ["topology/baire-space", "topology/open-set", "topology/dense-set", "topology/residual-set", "topology/nowhere-dense-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/category-argument-template.md"
+prerequisites = ["topology/baire-space", "topology/open-set", "topology/dense-set", "topology/residual-set", "topology/nowhere-dense-set", "topology/baire-category-theorem", "topology/intersection-of-dense-open-is-dense"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Category argument template.** Let \(X\) be a [[topology/baire-space|Baire space]] and let \(U_1,U_2,\dots\subseteq X\) be [[topology/open-set|open]] and [[topology/dense-set|dense]]. Then

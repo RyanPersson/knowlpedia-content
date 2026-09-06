@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra of SU(n): traceless skew-Hermitian matrices with the commutator bracket."
 aliases = ["special-unitary-lie-algebra", "Special unitary Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/special-unitary-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/special-unitary-lie-algebra.md"
+prerequisites = ["lie-groups/special-unitary-group", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **special unitary Lie algebra** \(\mathfrak{su}(n)\) is the real Lie algebra of the [[lie-groups/special-unitary-group|special unitary group]] \(SU(n)\). Concretely,

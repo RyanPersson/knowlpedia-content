@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra gl(V) of all endomorphisms with commutator bracket."
 aliases = ["general-linear-lie-algebra", "General linear Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/general-linear-lie-algebra.md"
+prerequisites = ["linear-algebra/vector-space", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional real or complex vector space.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The vector field obtained from the differential of a Hamiltonian function through a symplectic form."
 aliases = ["Hamiltonian field"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-function", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-function", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] and let \(H:M\to\mathbb R\) be a [[differential-geometry/hamiltonian-function|Hamiltonian function]]. The **Hamiltonian vector field** of \(H\) is the unique smooth [[fiber-bundles/vector-field|vector field]] \(X_H\) satisfying

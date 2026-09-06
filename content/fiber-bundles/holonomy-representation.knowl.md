@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a flat connection, the induced representation of the fundamental group into the structure group via parallel transport."
 aliases = ["holonomy-representation", "Holonomy representation"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/holonomy-group"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/holonomy-representation.md"
+prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/holonomy-group", "topology/fundamental-group", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle over a connected smooth manifold, equipped with a [[fiber-bundles/flat-principal-connection|flat principal connection]]. Fix \(x\in M\) and \(p\in P_x\).

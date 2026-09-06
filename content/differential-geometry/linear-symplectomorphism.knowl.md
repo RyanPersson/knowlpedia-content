@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An invertible linear map that preserves the symplectic forms on its source and target."
 aliases = ["symplectic linear isomorphism", "linear canonical transformation"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/symplectic-linear-map", "linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/symplectic-linear-map", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega_V)\) and \((W,\omega_W)\) be finite-dimensional [[differential-geometry/symplectic-vector-space|symplectic vector spaces]]. A **linear symplectomorphism** is a bijective [[differential-geometry/symplectic-linear-map|symplectic linear map]] \(T:V\to W\); explicitly,

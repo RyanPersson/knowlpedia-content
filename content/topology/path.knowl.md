@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous map from the unit interval into a space."
 aliases = ["path"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/interval"]
-dependency_review_count = 1
 legacy_source_path = "topology/path.md"
+prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **path** in a [[topology/topological-space|topological space]] \(X\) is a [[topology/continuous-map|continuous map]] \(\gamma\colon [0,1]\to X\), where \([0,1]\) is the [[real-analysis/interval|interval]] with its usual topology. The points \(\gamma(0)\) and \(\gamma(1)\) are called the initial and terminal points of the path.

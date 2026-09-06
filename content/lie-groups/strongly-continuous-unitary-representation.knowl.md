@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A unitary group representation whose orbit map at every vector is norm-continuous."
 aliases = ["continuous unitary representation"]
 domains = ["lie-groups", "functional-analysis"]
-prerequisites = ["topology/topological-group", "linear-algebra/hilbert-space", "algebra-groups/group-homomorphism", "fiber-bundles/orbit-map", "linear-algebra/operator-norm", "linear-algebra/inner-product"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-group", "linear-algebra/hilbert-space", "algebra-groups/group-homomorphism", "fiber-bundles/orbit-map", "linear-algebra/operator-norm", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/topological-group|topological group]] and \(\mathcal H\) a complex [[linear-algebra/hilbert-space|Hilbert space]]. A **strongly continuous unitary representation** of \(G\) on \(\mathcal H\) is a [[algebra-groups/group-homomorphism|group homomorphism]]

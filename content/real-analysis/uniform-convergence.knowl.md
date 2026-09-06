@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Convergence of functions with an error bound that is uniform in the domain variable."
 aliases = ["uniform-convergence", "Uniform convergence"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/sequence", "topology/metric-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A sequence of functions \((f_n)\) from a set \(X\) into a [[topology/metric-space|metric space]] \((Y,d)\) **converges uniformly** to a function \(f:X\to Y\) if for every \(\varepsilon>0\) there exists \(N\) such that for all \(n\ge N\) and all \(x\in X\),

@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The universal map from an ordered blueprint to one with unique weak inverses."
 aliases = ["pasteurization of an ordered blueprint", "pasteurization functor", "unique weak inverse reflection"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
-prerequisites = ["algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For an [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \(B\), its **unique-weak-inverse reflection** is an ordered blueprint \(B^\pm\) with unique weak inverses together with a morphism

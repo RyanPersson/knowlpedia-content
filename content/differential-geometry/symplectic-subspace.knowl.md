@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear subspace on which the ambient symplectic form remains nondegenerate."
 aliases = ["nondegenerate subspace"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a finite-dimensional [[differential-geometry/symplectic-vector-space|symplectic vector space]]. A [[convex-analysis/linear-subspace|linear subspace]] \(W\subseteq V\) is a **symplectic subspace** if the restricted alternating form \(\omega|_{W\times W}\) is nondegenerate. Equivalently,

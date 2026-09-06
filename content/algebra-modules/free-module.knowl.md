@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module admitting a basis; equivalently, a direct sum of copies of the ring."
 aliases = ["free-module", "Free module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/basis-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/free-module.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/basis-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A left \(R\)-[[algebra-modules/module|module]] \(F\) is **free** if it has a [[algebra-modules/basis-module|basis]] \(B\subseteq F\), i.e. every element of \(F\) admits a unique expression as a finite \(R\)-linear combination of elements of \(B\).

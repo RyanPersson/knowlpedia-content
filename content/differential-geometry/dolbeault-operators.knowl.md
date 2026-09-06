@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The two bidegree components of the exterior derivative on a complex manifold."
 aliases = ["Dolbeault differentials", "partial and d-bar operators", "∂ and ∂̄"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/differential-form-of-type-pq", "fiber-bundles/exterior-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/differential-form-of-type-pq", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. For a [[differential-geometry/differential-form-of-type-pq|form of type \((p,q)\)]], the [[fiber-bundles/exterior-derivative|exterior derivative]] has only two type components. The **Dolbeault operators** are their projections:

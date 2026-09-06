@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set in a metric space that can be covered by finitely many small balls for every radius."
 aliases = ["totally-bounded-set", "Totally bounded set"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/open-ball"]
-dependency_review_count = 1
 legacy_source_path = "topology/totally-bounded-set.md"
+prerequisites = ["topology/metric-space", "topology/open-ball", "shared-foundations/union"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **totally bounded set** is a subset \(A\subseteq X\) of a [[topology/metric-space|metric space]] \((X,d)\) such that for every \(\varepsilon>0\) there exist points \(x_1,\dots,x_n\in X\) with

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A choice of “half” of a root set, compatible with addition, used to organize roots into positive and negative."
 aliases = ["positive-root", "Positive root"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/root-system"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/positive-root.md"
+prerequisites = ["lie-groups/root-system"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Phi\) be a root system in a real inner product space \(V\) (see [[lie-groups/root-system|root system]]). A **positive system** (or set of **positive roots**) is a subset \(\Phi^+ \subset \Phi\) such that:

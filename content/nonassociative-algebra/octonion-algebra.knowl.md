@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The eight-dimensional real alternative normed division algebra."
 aliases = ["octonions", "Cayley numbers", "Cayley algebra", "𝕆"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/real-normed-division-algebra", "nonassociative-algebra/alternative-algebra", "nonassociative-algebra/hurwitz-theorem"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/real-normed-division-algebra", "nonassociative-algebra/alternative-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **octonion algebra** \(\mathbb O\) is the eight-dimensional [[nonassociative-algebra/real-normed-division-algebra|real normed division algebra]]. It is unital, noncommutative, and nonassociative, but it is [[nonassociative-algebra/alternative-algebra|alternative]]. By [[nonassociative-algebra/hurwitz-theorem|Hurwitz's theorem]], it is unique up to isomorphism among eight-dimensional real normed division algebras.

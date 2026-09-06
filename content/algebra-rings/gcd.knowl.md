@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A divisor d of a and b that is divisible by every common divisor (defined up to associates)."
 aliases = ["gcd", "Greatest common divisor"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/gcd.md"
+prerequisites = ["algebra-rings/integral-domain"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]] and let \(a,b\in R\). A **greatest common divisor** of \(a\) and \(b\) is an element \(d\in R\) such that:

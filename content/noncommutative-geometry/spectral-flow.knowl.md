@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The signed count of eigenvalues crossing zero along a continuous path of self-adjoint Fredholm operators."
 aliases = ["net eigenvalue crossing", "spectral-flow index"]
 domains = ["noncommutative-geometry", "functional-analysis", "operator-algebras"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/fredholm-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/fredholm-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a separable complex [[linear-algebra/hilbert-space|Hilbert space]] and let \(B:[0,1]\to\mathcal B(H)\) be a norm-continuous path of self-adjoint [[functional-analysis/fredholm-operator|Fredholm operators]]. Choose \(0=t_0<\cdots<t_m=1\) and \(a_i>0\) so that \(E_i(t)=1_{[-a_i,a_i]}(B_t)\) is finite-rank and norm-continuous on \([t_{i-1},t_i]\). Let \(E_i^+(t)H\) be its spectral subspace for eigenvalues in \([0,a_i]\). The **spectral flow** is

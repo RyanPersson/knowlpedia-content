@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The operator-norm closure of the integrated left regular representation of a locally compact group."
 aliases = ["regular group C*-algebra", "C_r*(G)"]
 domains = ["operator-algebras", "harmonic-analysis"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/l1-group-algebra", "algebra-representation-theory/regular-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/l1-group-algebra", "algebra-representation-theory/regular-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] and let

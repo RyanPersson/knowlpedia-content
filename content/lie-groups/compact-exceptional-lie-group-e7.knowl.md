@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The compact simply connected exceptional Lie group of type E7, rank 7, dimension 133, and center of order 2."
 aliases = ["compact-exceptional-lie-group-e7", "compact E7", "compact Lie group E7"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-e7"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-e7"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **compact exceptional Lie group \(E_7\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_7\). It has rank \(7\), real dimension \(133\), and center isomorphic to \(\mathbb Z/2\mathbb Z\). Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose complexification is [[lie-groups/exceptional-lie-algebra-e7|\(\mathfrak e_7\)]].

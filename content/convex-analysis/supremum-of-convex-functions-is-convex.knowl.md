@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The pointwise supremum of any family of convex functions is convex"
 aliases = ["supremum-of-convex-functions-is-convex", "Supremum of Convex Functions"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/supremum-of-convex-functions-is-convex.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Supremum of Convex Functions**: Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\{f_i:X\to\overline{\mathbb{R}}\}_{i\in I}\) be a family of [[convex-analysis/convex-function-via-epigraph|convex functions]] indexed by a nonempty set \(I\). Define

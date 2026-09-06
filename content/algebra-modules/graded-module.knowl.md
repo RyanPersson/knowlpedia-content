@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module decomposed into degrees compatible with a graded ring action."
 aliases = ["graded-module", "Graded module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/direct-sum-modules", "algebra-modules/graded-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/graded-module.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/direct-sum-modules", "algebra-modules/graded-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **graded module** over a graded ring \(R=\bigoplus_{n}R_n\) is an \(R\)-[[algebra-modules/module|module]] \(M\) together with a direct-sum decomposition

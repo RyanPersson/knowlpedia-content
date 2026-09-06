@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A homeomorphism from an open subset of a manifold to an open subset of Euclidean space, providing local coordinates."
 aliases = ["smooth-chart-coordinate-chart", "Smooth chart (coordinate chart)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/coordinate-transition-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-chart-coordinate-chart.md"
+prerequisites = ["topology/topological-manifold", "topology/homeomorphism", "topology/open-set"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional topological manifold (in particular, any [[fiber-bundles/smooth-manifold|smooth manifold]] has such an underlying space). A **chart** (or **coordinate chart**) on \(M\) is a pair \((U,\varphi)\) where

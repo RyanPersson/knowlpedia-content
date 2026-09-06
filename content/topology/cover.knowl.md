@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A family of subsets whose union contains a given set."
 aliases = ["cover"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/indexed-family-of-sets", "shared-foundations/union"]
-dependency_review_count = 1
 legacy_source_path = "topology/cover.md"
+prerequisites = ["shared-foundations/indexed-family-of-sets", "shared-foundations/union"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **cover** of a subset \(A\subseteq X\) is a family \(\{U_i\}_{i\in I}\) of subsets of \(X\) such that

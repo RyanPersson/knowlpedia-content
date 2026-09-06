@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A topological space with a sheaf of blueprints whose stalks are local blueprints."
 aliases = ["locally blueprint ringed space", "LocBlpr-space"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/blueprint", "algebra-rings/maximal-ideal", "algebraic-geometry-foundations/morphism-of-sheaves"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/blueprint", "algebra-rings/maximal-ideal", "algebraic-geometry-foundations/morphism-of-sheaves"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **blueprinted space** is a topological space \(X\) together with a sheaf \(\mathcal O_X\) of [[algebraic-geometry-foundations/blueprint|blueprints]]. It is **locally blueprinted** if every stalk \(\mathcal O_{X,x}\) is a local blueprint, meaning that it has a unique [[algebra-rings/maximal-ideal|maximal ideal]] \(\mathfrak m_x\).

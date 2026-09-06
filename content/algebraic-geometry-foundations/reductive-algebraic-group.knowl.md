@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth connected affine algebraic group with trivial geometric unipotent radical."
 aliases = ["reductive group", "reductive algebraic group"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-fields-galois/algebraic-closure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-fields-galois/algebraic-closure", "algebraic-geometry-foundations/unipotent-radical"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field. A **reductive algebraic group** over \(k\) is a smooth,

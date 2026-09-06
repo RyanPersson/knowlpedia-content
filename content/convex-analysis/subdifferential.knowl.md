@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of all subgradients of a convex function at a point, defined by global supporting inequalities."
 aliases = ["subdifferential"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/hyperplane", "real-analysis/derivative", "real-analysis/differentiable-map"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/subdifferential.md"
+prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/subgradient", "convex-analysis/supporting-hyperplane-convex-function", "convex-analysis/hyperplane", "real-analysis/derivative", "real-analysis/differentiable-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **subdifferential** of a [[convex-analysis/convex-function-via-epigraph|convex function]] \(f:\mathbb{R}^n\to(-\infty,+\infty]\) at a point \(x\) in its [[convex-analysis/domain-and-epigraph-proper-function|effective domain]] is the set

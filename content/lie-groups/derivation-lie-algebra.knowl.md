@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A linear map satisfying the Leibniz rule for the Lie bracket; derivations form a Lie algebra."
 aliases = ["derivation-lie-algebra", "Derivation of a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/derivation-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] over a field. A **derivation** of \(\mathfrak g\) is a linear map \(D:\mathfrak g\to\mathfrak g\) satisfying

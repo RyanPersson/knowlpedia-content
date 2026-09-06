@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth space locally modeled on Euclidean orthants of possibly varying codimension."
 aliases = ["manifold with corners", "cornered manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/manifold-with-boundary"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/manifold-with-boundary"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An \(n\)-dimensional **smooth manifold with corners** is a Hausdorff, second-countable space \(M\) with a maximal compatible atlas of charts onto open subsets of

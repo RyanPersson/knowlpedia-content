@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A countably additive set function defined on a set algebra."
 aliases = ["premeasure"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/empty-set","measure-theory/set-algebra"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/premeasure.md"
+prerequisites = ["shared-foundations/empty-set", "measure-theory/set-algebra", "shared-foundations/function", "shared-foundations/sequence", "shared-foundations/union"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **premeasure** on a set algebra \(\mathcal A\) is a function \(\mu_0:\mathcal A\to[0,\infty]\) with \(\mu_0(\varnothing)=0\) such that whenever \((A_n)_{n\ge 1}\) is a pairwise disjoint sequence in \(\mathcal A\) whose union \(\bigcup_{n=1}^\infty A_n\) also lies in \(\mathcal A\), one has

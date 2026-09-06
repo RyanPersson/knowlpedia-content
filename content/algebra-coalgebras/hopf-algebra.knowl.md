@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A bialgebra with an antipode implementing algebraic inversion."
 aliases = ["Hopf algebra over a ring", "antipode"]
 domains = ["algebra-coalgebras", "algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-coalgebras/bialgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-coalgebras/bialgebra", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a [[algebra-rings/commutative-ring|commutative ring]]. A

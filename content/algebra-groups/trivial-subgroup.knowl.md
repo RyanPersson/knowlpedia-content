@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subgroup consisting only of the identity element"
 aliases = ["trivial-subgroup", "Trivial Subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/trivial-subgroup.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] with identity element \(e\). The **trivial subgroup** of \(G\) is the [[algebra-groups/subgroup|subgroup]] \(\{e\}\).

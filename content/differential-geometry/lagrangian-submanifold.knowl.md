@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A half-dimensional submanifold on which the ambient symplectic form vanishes."
 aliases = ["Lagrangian embedding", "maximal isotropic submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/tangent-space", "differential-geometry/lagrangian-subspace", "differential-geometry/symplectic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/tangent-space", "differential-geometry/lagrangian-subspace", "differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] of dimension \(2n\). An [[differential-geometry/embedded-submanifold|embedded submanifold]] \(L\subset M\) is a **Lagrangian submanifold** if \(\dim L=n\) and the pullback of \(\omega\) along the inclusion \(i:L\hookrightarrow M\) vanishes:

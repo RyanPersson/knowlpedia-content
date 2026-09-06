@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth Lie group action whose transformations preserve the symplectic form."
 aliases = ["symplectic action"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-manifold", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "differential-geometry/symplectomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-manifold", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "differential-geometry/symplectomorphism"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \((M,\omega)\) be

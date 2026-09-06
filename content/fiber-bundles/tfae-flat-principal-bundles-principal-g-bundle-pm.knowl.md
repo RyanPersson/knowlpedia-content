@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Equivalent conditions for a principal bundle connection to be flat, including vanishing curvature and homotopy-invariant parallel transport."
 aliases = ["tfae-flat-principal-bundles-principal-g-bundle-pm", "TFAE: Flat principal bundles (principal G-bundle with connection)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] for a [[fiber-bundles/lie-group|Lie group]] \(G\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) on \(P\), with curvature form \(\Omega\). Then the following are equivalent:

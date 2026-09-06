@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a normed space, the interior and closure of a convex set are convex."
 aliases = ["interior-and-closure-of-a-convex-set-are-convex", "Interior and closure of a convex set are convex"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/closure-of-a-set"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/interior-and-closure-of-a-convex-set-are-convex.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/closure-of-a-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and \(\Omega\subseteq X\) a [[convex-analysis/convex-set|convex set]]. Then:

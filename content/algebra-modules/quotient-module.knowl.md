@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The module obtained by collapsing a submodule to zero."
 aliases = ["quotient-module", "Quotient module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/submodule", "shared-foundations/equivalence-relation", "shared-foundations/quotient-set"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/quotient-module.md"
+prerequisites = ["algebra-modules/submodule", "shared-foundations/equivalence-relation", "shared-foundations/quotient-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a left \(R\)-module and let \(N\le M\) be a [[algebra-modules/submodule|submodule]]. Define an [[shared-foundations/equivalence-relation|equivalence relation]] on \(M\) by \(m\sim m'\) iff \(m-m'\in N\). The **quotient module** \(M/N\) is the [[shared-foundations/quotient-set|quotient set]] of equivalence classes, written \(m+N\), with operations

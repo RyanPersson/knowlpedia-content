@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differential form whose values lie in a fixed Lie algebra."
 aliases = ["lie-algebra-valued-k-form", "Lie-algebra-valued k-form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "lie-groups/lie-algebra", "fiber-bundles/differential-k-form", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lie-algebra-valued-k-form.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "lie-groups/lie-algebra", "fiber-bundles/differential-k-form", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\) be fixed.

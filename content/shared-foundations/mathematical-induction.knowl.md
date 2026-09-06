@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A principle for proving statements for all natural numbers."
 aliases = ["mathematical-induction", "Mathematical induction"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/natural-numbers"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/mathematical-induction.md"
+prerequisites = ["shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Mathematical induction:** Let \(P(n)\) be a statement about \(n\in\mathbb{N}\). If \(P(0)\) is true and for every \(n\in\mathbb{N}\) the implication \(P(n)\Rightarrow P(n+1)\) holds, then \(P(n)\) is true for all \(n\in\mathbb{N}\).

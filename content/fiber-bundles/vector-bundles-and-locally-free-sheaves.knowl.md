@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Taking local smooth sections is an equivalence from fixed-base vector bundles to finite-rank locally free smooth-module sheaves."
 aliases = ["sheaf-bundle equivalence", "vector bundles as locally free sheaves", "smooth locally free sheaf theorem"]
 domains = ["fiber-bundles", "differential-geometry", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-category-theory/equivalence-of-categories", "fiber-bundles/category-of-vector-bundles-over-a-manifold", "algebraic-geometry-foundations/locally-free-sheaf", "topology/connected-component"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/equivalence-of-categories", "fiber-bundles/category-of-vector-bundles-over-a-manifold", "algebraic-geometry-foundations/locally-free-sheaf", "topology/connected-component"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a smooth manifold and

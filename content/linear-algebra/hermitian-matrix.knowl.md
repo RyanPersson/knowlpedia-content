@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complex square matrix equal to its conjugate transpose."
 aliases = ["self-adjoint matrix"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/orthonormal-basis"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/orthonormal-basis", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A complex square matrix \(A=(a_{ij})\) is **Hermitian** if

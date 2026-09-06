@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For increasing measurable sets, the measure of the union is the limit of the measures."
 aliases = ["continuity-from-below-measure", "Continuity from below"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/measure"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/continuity-from-below-measure.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measure", "measure-theory/measurable-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Continuity from below:** Let \((X,\Sigma,\mu)\) be a [[measure-theory/measure-space|measure space]] and let \(E_1,E_2,\dots \in \Sigma\) satisfy

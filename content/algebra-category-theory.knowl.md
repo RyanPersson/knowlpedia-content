@@ -6,6 +6,9 @@ summary = "Foundations of category theory: categories, functors, natural transfo
 aliases = ["algebra-category-theory", "Category Theory"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section covers the foundations of category theory, providing a unified language for describing mathematical structures and the relationships between them.

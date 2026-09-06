@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A square matrix satisfies its own characteristic polynomial."
 aliases = ["cayley-hamilton-theorem", "Cayley–Hamilton theorem"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-operator", "linear-algebra/characteristic-polynomial"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/cayley-hamilton-theorem.md"
+prerequisites = ["linear-algebra/linear-operator", "linear-algebra/characteristic-polynomial"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Cayley–Hamilton theorem:** Let \(T:V\to V\) be a [[linear-algebra/linear-operator|linear operator]] on a finite-dimensional vector space \(V\). Let \(p_T(t)\) be the [[linear-algebra/characteristic-polynomial|characteristic polynomial]] of \(T\). Then

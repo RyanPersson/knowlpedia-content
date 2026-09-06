@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The connection-independent torsion class that obstructs a G-structure from admitting a torsion-free compatible connection."
 aliases = ["intrinsic torsion", "torsion class of a G-structure"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/g-structure", "fiber-bundles/connection-compatible-with-a-reduction", "fiber-bundles/associated-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/g-structure", "fiber-bundles/connection-compatible-with-a-reduction", "fiber-bundles/associated-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V=\mathbb R^n\), let \(G\subseteq\operatorname{GL}(V)\) have [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), and let \(Q\) be a [[fiber-bundles/g-structure|\(G\)-structure]] on an \(n\)-manifold. A [[fiber-bundles/connection-compatible-with-a-reduction|compatible connection]] has torsion in \(\Lambda^2V^*\otimes V\). Changing the connection by \(A\in V^*\otimes\mathfrak g\) changes its torsion by

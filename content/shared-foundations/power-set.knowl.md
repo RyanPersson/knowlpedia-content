@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of all subsets of a given set."
 aliases = ["power-set", "Power set"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/power-set.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/subset"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **power set** of a set \(A\) is the set

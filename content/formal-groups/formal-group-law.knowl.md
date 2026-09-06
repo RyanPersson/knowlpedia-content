@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An n-dimensional, not necessarily commutative group multiplication encoded by tuples of formal power series."
 aliases = ["n-dimensional formal group law", "multidimensional formal group law"]
 domains = ["formal-groups", "algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/multivariable-formal-power-series-ring", "algebra-rings/substitution-of-formal-power-series"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/multivariable-formal-power-series-ring", "algebra-rings/substitution-of-formal-power-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and write

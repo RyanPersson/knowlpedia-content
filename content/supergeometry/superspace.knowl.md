@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally superringed space, the ambient geometric object from which supermanifolds are selected by a local model condition."
 aliases = ["locally superringed space", "super ringed space"]
 domains = ["supergeometry"]
-prerequisites = ["supergeometry/supercommutative-algebra", "algebra-commutative/residue-field", "topology/continuous-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/supercommutative-algebra", "algebra-commutative/residue-field", "topology/continuous-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In smooth real supergeometry, a **superspace** is a pair

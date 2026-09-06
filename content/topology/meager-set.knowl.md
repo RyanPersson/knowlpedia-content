@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set that is a countable union of nowhere dense sets"
 aliases = ["meager-set", "Meager set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/union", "topology/nowhere-dense-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/meager-set.md"
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/union", "topology/nowhere-dense-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **meager set** in a [[topology/topological-space|topological space]] \(X\) is a [[shared-foundations/subset|subset]] \(M\subseteq X\) that can be written as a countable [[shared-foundations/union|union]] of [[topology/nowhere-dense-set|nowhere dense sets]].

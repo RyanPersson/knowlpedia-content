@@ -5,11 +5,11 @@ kind = "definition"
 summary = "Semilinear cocycle data that descend an algebraic group and distinguish general, inner, and pure inner forms."
 aliases = ["galois-descent-forms", "Galois Descent, Twisted Forms, and Inner Forms"]
 domains = ["langlands-letter"]
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "algebraic-geometry-foundations/algebraic-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/galois-descent-forms.md"
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "algebraic-geometry-foundations/algebraic-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/k\) be a finite

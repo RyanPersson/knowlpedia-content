@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The classical limit theorem stating that normalized sums of i.i.d. variables converge in distribution to a normal law."
 aliases = ["central-limit-theorem", "Central limit theorem"]
 domains = ["probability"]
-prerequisites = ["probability/iid-sequence", "probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "probability/central-limit-theorem.md"
+prerequisites = ["probability/iid-sequence", "probability/random-variable"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Central limit theorem (i.i.d. version):** Let \((X_i)_{i\ge 1}\) be an [[probability/iid-sequence|i.i.d. sequence]] of real-valued [[probability/random-variable|random variables]] with \(\mathbb{E}[X_1]=\mu\) and \(\mathrm{Var}(X_1)=\sigma^2\) where \(0<\sigma^2<\infty\). Define \(S_n=\sum_{i=1}^n X_i\). Then

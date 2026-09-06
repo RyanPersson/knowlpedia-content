@@ -6,6 +6,8 @@ summary = "A guided index of local and global parameters, automorphic representa
 aliases = ["modern Langlands index", "ordinary Langlands index", "Langlands foundations"]
 domains = ["langlands"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

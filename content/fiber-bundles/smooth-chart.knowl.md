@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A local coordinate map from an open subset of a smooth manifold to an open subset of Euclidean space."
 aliases = ["smooth-chart", "Smooth chart"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-chart.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. A **smooth chart** on \(M\) is a pair \((U,\varphi)\) in which \(U\subseteq M\) is open and \(\varphi:U\to V\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]] onto an open set \(V\subseteq\mathbb R^n\).

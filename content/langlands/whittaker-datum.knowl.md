@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A conjugacy class of a rational Borel subgroup together with a nondegenerate character of its unipotent radical."
 aliases = ["Whittaker data", "generic datum"]
 domains = ["langlands", "harmonic-analysis"]
-prerequisites = ["algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-fields-galois/local-field", "algebraic-geometry-foundations/borel-subgroup", "algebraic-geometry-foundations/unipotent-radical", "harmonic-analysis/unitary-character"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-fields-galois/local-field", "algebraic-geometry-foundations/borel-subgroup", "algebraic-geometry-foundations/unipotent-radical", "harmonic-analysis/unitary-character"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An irreducible unitary representation occurring as a closed subrepresentation of the left regular representation."
 aliases = ["square-integrable representation"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "lie-groups/irreducible-unitary-representation", "shared-foundations/equivalence-class", "lie-groups/invariant-closed-subspace-unitary-representation", "harmonic-analysis/regular-representations-locally-compact-group", "algebra-representation-theory/regular-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "lie-groups/irreducible-unitary-representation", "shared-foundations/equivalence-class", "lie-groups/invariant-closed-subspace-unitary-representation", "harmonic-analysis/regular-representations-locally-compact-group", "algebra-representation-theory/regular-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a second-countable [[topology/locally-compact-group|locally compact group]] with left [[harmonic-analysis/haar-measure|Haar measure]]. A **discrete series representation** of \(G\) is an [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] whose [[shared-foundations/equivalence-class|equivalence class]] occurs as a [[lie-groups/invariant-closed-subspace-unitary-representation|closed \(G\)-invariant subspace]] of the [[harmonic-analysis/regular-representations-locally-compact-group|left regular representation]] on \(L^2(G)\). Equivalently, it is an irreducible summand in the discrete part of that [[algebra-representation-theory/regular-representation|regular representation]]. The word “discrete” describes its occurrence as a Hilbert direct summand, not discreteness of the group, the representation space, or its parameter set.

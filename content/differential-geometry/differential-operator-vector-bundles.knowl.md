@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A linear map on smooth bundle sections whose value at a point depends on only finitely many derivatives of the section there."
 aliases = ["linear differential operator", "order of a differential operator", "bundle differential operator"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(F\) be smooth [[fiber-bundles/vector-bundle|vector bundles]] over the same [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). A **linear differential operator of order at most \(m\)** is a [[linear-algebra/linear-map|linear map]]

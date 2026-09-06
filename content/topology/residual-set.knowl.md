@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set whose complement is meager"
 aliases = ["residual-set", "Residual set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/complement", "topology/meager-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/residual-set.md"
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/complement", "topology/meager-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **residual set** in a [[topology/topological-space|topological space]] \(X\) is a [[shared-foundations/subset|subset]] \(R\subseteq X\) whose [[shared-foundations/complement|complement]] \(X\setminus R\) is [[topology/meager-set|meager]].

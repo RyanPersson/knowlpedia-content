@@ -5,14 +5,17 @@ kind = "knowl"
 summary = "A limit taken from the left or from the right of a point."
 aliases = ["one-sided-limit", "One-sided limit"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/limit-at-a-point", "real-analysis/interval", "real-analysis/discontinuity-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/one-sided-limit.md"
+prerequisites = ["shared-foundations/function", "real-analysis/interval", "real-analysis/discontinuity-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **one-sided limit** for a [[shared-foundations/function|function]] \(f:D\to\mathbb R\) at \(a\in\mathbb R\) is a number \(L\in\mathbb R\) satisfying an \(\varepsilon\)–\(\delta\) condition with \(x\) restricted to one side of \(a\), provided that side contains points of \(D\) arbitrarily close to \(a\):
 - The right-hand limit \(\lim_{x\to a^+} f(x)=L\) means \(a\) is a limit point of \(D\cap(a,\infty)\), and for every \(\varepsilon>0\) there exists \(\delta>0\) such that if \(x\in D\) and \(0<x-a<\delta\), then \(|f(x)-L|<\varepsilon\).
 - The left-hand limit \(\lim_{x\to a^-} f(x)=L\) means \(a\) is a limit point of \(D\cap(-\infty,a)\), and for every \(\varepsilon>0\) there exists \(\delta>0\) such that if \(x\in D\) and \(0<a-x<\delta\), then \(|f(x)-L|<\varepsilon\).
+
+## Context
 
 One-sided limits refine the [[real-analysis/limit-at-a-point|limit at a point]] by tracking behavior on half-neighborhoods, and they are especially natural for functions defined on [[real-analysis/interval|intervals]] with endpoints. They are used to describe jump behavior at a [[real-analysis/discontinuity-point|discontinuity point]].
 

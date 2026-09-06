@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Subgroups of G containing N correspond to subgroups of the quotient G/N"
 aliases = ["correspondence-theorem-groups", "Correspondence Theorem (Groups)"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/subgroup", "shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/correspondence-theorem-groups.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/subgroup", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Correspondence Theorem (Groups).**

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A representation of an involutive algebra by bounded operators on a Hilbert space."
 aliases = ["bounded *-representation", "*-representation by bounded operators"]
 domains = ["operator-algebras", "algebra-representation-theory"]
-prerequisites = ["operator-algebras/involutive-algebra", "linear-algebra/hilbert-space", "algebra-modules/algebra-homomorphism", "operator-algebras/bounded-operator-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/involutive-algebra", "linear-algebra/hilbert-space", "algebra-modules/algebra-homomorphism", "operator-algebras/bounded-operator-cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be an [[operator-algebras/involutive-algebra|involutive algebra]]

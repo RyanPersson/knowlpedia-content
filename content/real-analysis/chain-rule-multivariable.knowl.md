@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The derivative of a composition is the composition (product) of derivatives"
 aliases = ["chain-rule-multivariable", "Chain rule (multivariable)"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiable-map", "real-analysis/jacobian-matrix"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/chain-rule-multivariable.md"
+prerequisites = ["real-analysis/differentiable-map", "real-analysis/jacobian-matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Chain rule (multivariable)**: Let \(U\subseteq\mathbb{R}^n\) and \(V\subseteq\mathbb{R}^m\) be open. Suppose \(f:U\to V\) is [[real-analysis/differentiable-map|differentiable]] at \(a\in U\) and \(g:V\to\mathbb{R}^p\) is differentiable at \(f(a)\). Then \(g\circ f:U\to\mathbb{R}^p\) is differentiable at \(a\) and

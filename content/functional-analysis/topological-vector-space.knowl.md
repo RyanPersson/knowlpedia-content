@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A vector space with a Hausdorff topology for which addition and scalar multiplication are continuous."
 aliases = ["TVS", "linear topological space"]
 domains = ["functional-analysis", "topology"]
-prerequisites = ["linear-algebra/vector-space", "topology/topological-space", "topology/continuous-map", "topology/product-topology", "topology/neighborhood"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "topology/topological-space", "topology/continuous-map", "topology/product-topology", "topology/neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathbb F=\mathbb R\) or \(\mathbb C\). A **topological vector space over \(\mathbb F\)** is a [[linear-algebra/vector-space|vector space]] \(V\) equipped with a [[topology/topological-space|Hausdorff topology]] such that the maps

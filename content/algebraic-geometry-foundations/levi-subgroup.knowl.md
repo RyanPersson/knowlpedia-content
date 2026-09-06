@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A reductive complement to the unipotent radical of a parabolic subgroup."
 aliases = ["Levi factor", "Levi component", "Levi decomposition of a parabolic"]
 domains = ["algebraic-geometry-foundations", "algebra-groups", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebra-groups/semidirect-product", "algebraic-geometry-foundations/unipotent-radical"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebra-groups/semidirect-product", "algebraic-geometry-foundations/unipotent-radical"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected

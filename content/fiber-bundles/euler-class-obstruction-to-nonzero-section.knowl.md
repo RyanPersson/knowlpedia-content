@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A nowhere-zero section forces the Euler class to vanish, and in base dimension equal to the bundle rank this is the complete obstruction."
 aliases = ["Euler obstruction", "nonvanishing-section obstruction"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/sphere-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to X\) be an oriented real rank-\(n\) [[fiber-bundles/vector-bundle|vector bundle]] over a CW complex. If \(E\) admits a nowhere-zero [[fiber-bundles/section-of-a-fiber-bundle|section]], then

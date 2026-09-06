@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A path-connected topological space with trivial fundamental group."
 aliases = ["simply connected", "simple connectivity"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/fundamental-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-space", "topology/fundamental-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[topology/topological-space|topological space]] \(X\) is **simply connected** if it is path-connected and, for one—and hence every—basepoint \(x_0\in X\), its [[topology/fundamental-group|fundamental group]] is trivial:

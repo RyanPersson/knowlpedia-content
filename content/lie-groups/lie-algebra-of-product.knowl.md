@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra of a product Lie group is the direct sum of the Lie algebras."
 aliases = ["lie-algebra-of-product", "Lie algebra of a product"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/direct-sum-of-lie-algebras"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-of-product.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/product-lie-group", "lie-groups/direct-sum-of-lie-algebras"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G,H\) be [[fiber-bundles/lie-group|Lie groups]], and consider their [[lie-groups/product-lie-group|product Lie group]] \(G\times H\).

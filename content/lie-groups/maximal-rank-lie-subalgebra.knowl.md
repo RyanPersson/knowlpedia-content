@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A subalgebra reductive in its ambient reductive Lie algebra and having the same rank as the ambient algebra."
 aliases = ["maximal-rank Lie subalgebra", "subalgebra of maximal rank", "equal-rank Lie subalgebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/reductive-lie-algebra", "lie-groups/cartan-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/reductive-lie-algebra", "lie-groups/cartan-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional complex [[lie-groups/reductive-lie-algebra|reductive Lie algebra]], and let \(\mathfrak k\subseteq\mathfrak g\) be **reductive in \(\mathfrak g\)**, meaning that its adjoint action on \(\mathfrak g\) is completely reducible. The subalgebra \(\mathfrak k\) has **maximal rank** in \(\mathfrak g\) if

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For F ⊣ G, the counit ε: F∘G ⇒ Id_D is the natural transformation corresponding to identities under the adjunction bijection."
 aliases = ["counit-adjunction", "Counit of an adjunction"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/functor", "algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/counit-adjunction.md"
+prerequisites = ["algebra-category-theory/functor", "algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F:\mathcal C\to\mathcal D\) and \(G:\mathcal D\to\mathcal C\) be [[algebra-category-theory/functor|functors]] with an [[algebra-category-theory/adjoint-functors|adjunction]] \(F\dashv G\).

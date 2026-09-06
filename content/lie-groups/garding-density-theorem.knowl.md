@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The Gårding subspace, and therefore the smooth-vector space, is dense in every strongly continuous unitary representation of a Lie group."
 aliases = ["density theorem for smooth vectors", "Gårding theorem"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "lie-groups/garding-subspace", "lie-groups/smooth-vector-unitary-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/strongly-continuous-unitary-representation", "lie-groups/garding-subspace", "lie-groups/smooth-vector-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite-dimensional [[fiber-bundles/lie-group|Lie group]] and let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]]. The **Gårding density theorem** states that the [[lie-groups/garding-subspace|Gårding subspace]]

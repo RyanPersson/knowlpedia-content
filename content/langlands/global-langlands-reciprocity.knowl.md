@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The conjectural relation between global arithmetic parameters and automorphic representations."
 aliases = ["global Langlands correspondence", "Langlands reciprocity conjecture", "nonabelian reciprocity"]
 domains = ["langlands", "number-theory", "representation-theory"]
-prerequisites = ["langlands/global-langlands-parameter", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/automorphic-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["langlands/global-langlands-parameter", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/automorphic-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Global Langlands reciprocity** is the conjectural principle that arithmetic

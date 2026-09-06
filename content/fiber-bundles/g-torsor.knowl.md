@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonempty set or smooth space with a free and transitive action of a group G."
 aliases = ["principal homogeneous G-space", "G-principal homogeneous space", "right G-torsor"]
 domains = ["fiber-bundles", "group-theory"]
-prerequisites = ["algebra-groups/group", "algebra-groups/group-action", "fiber-bundles/lie-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/group", "algebra-groups/group-action", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. A **right \(G\)-torsor** is a

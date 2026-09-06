@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measurable function whose absolute value has finite Lebesgue integral."
 aliases = ["lebesgue-integrable-function", "Lebesgue integrable function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/measurable-function","real-analysis/absolute-value","measure-theory/lebesgue-integral"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-integrable-function.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "real-analysis/absolute-value", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **Lebesgue integrable function** on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) is a real- or complex-valued [[measure-theory/measurable-function|measurable function]] \(f\) such that

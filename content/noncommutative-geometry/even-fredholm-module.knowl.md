@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A Fredholm module on a graded Hilbert space whose representation is even and whose Fredholm operator is odd."
 aliases = ["graded Fredholm module", "even bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/fredholm-module", "functional-analysis/z2-graded-hilbert-space", "operator-algebras/graded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/fredholm-module", "functional-analysis/z2-graded-hilbert-space", "operator-algebras/graded-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a trivially graded complex \(C^*\)-algebra. An **even Fredholm module over \(A\)** is a [[noncommutative-geometry/fredholm-module|Fredholm module]] \((H,\pi,F)\) together with a [[functional-analysis/z2-graded-hilbert-space|\(\mathbb Z/2\)-grading]] operator \(\Gamma\) such that

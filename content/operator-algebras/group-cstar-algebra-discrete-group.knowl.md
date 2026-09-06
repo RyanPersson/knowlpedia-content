@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The full and reduced C*-completions of the complex group algebra of a discrete group."
 aliases = ["discrete group C*-algebra", "C*(Gamma)", "C_r*(Gamma)"]
 domains = ["operator-algebras", "algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-algebra", "real-analysis/supremum-norm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-representation-theory/group-algebra", "real-analysis/supremum-norm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Gamma\) be a discrete group and

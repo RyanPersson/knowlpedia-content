@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An ordered basis of a real vector space or fiber that is compatible with a chosen orientation."
 aliases = ["oriented-frame", "Oriented frame"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/oriented-frame.md"
+prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth real vector bundle of rank \(r\) equipped with an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]]. For a point \(x\in M\), an **oriented frame** of \(E\) at \(x\) is an ordered basis \((e_1,\dots,e_r)\) of the vector space \(E_x\) that lies in the chosen positive component of the set of all ordered bases of \(E_x\).

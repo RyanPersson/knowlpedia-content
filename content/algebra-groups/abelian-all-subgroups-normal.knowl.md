@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In an abelian group every subgroup is normal"
 aliases = ["abelian-all-subgroups-normal", "Abelian implies all subgroups normal"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/abelian-group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/abelian-all-subgroups-normal.md"
+prerequisites = ["algebra-groups/abelian-group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition (Subgroups of abelian groups are normal).**

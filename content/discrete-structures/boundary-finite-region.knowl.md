@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Standard notions of boundary for a finite subset of a graph or lattice."
 aliases = ["boundary-finite-region", "Boundary of a finite region"]
 domains = ["discrete-structures"]
-prerequisites = ["discrete-structures/nearest-neighbor-zd"]
-dependency_review_count = 1
 legacy_source_path = "discrete-structures/boundary-finite-region.md"
+prerequisites = ["discrete-structures/nearest-neighbor-zd"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Lambda\) be a finite subset of vertices in a graph. In the lattice setting, take \(\Lambda\subset \mathbb{Z}^d\) with adjacency given by [[discrete-structures/nearest-neighbor-zd|nearest-neighbor-zd]].

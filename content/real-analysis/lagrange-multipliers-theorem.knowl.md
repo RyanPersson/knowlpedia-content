@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Constrained extrema give critical points of a Lagrangian under a regularity hypothesis."
 aliases = ["lagrange-multipliers-theorem", "Lagrange multipliers theorem"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/constraint-set", "real-analysis/local-extremum", "real-analysis/regular-point", "real-analysis/lagrange-multiplier-condition"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/lagrange-multipliers-theorem.md"
+prerequisites = ["topology/open-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Lagrange multipliers theorem:** Let \(U\subseteq\mathbb R^n\) be an [[topology/open-set|open set]], let \(f:U\to\mathbb R\) and \(g:U\to\mathbb R^m\) be continuously differentiable with \(m<n\), and let \(S=\{x\in U: g(x)=0\}\). Assume \(x^\ast\in S\) is a local extremum of \(f\) on \(S\) and that \(Dg(x^\ast)\) has rank \(m\). Define the Lagrangian

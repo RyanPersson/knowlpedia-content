@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An almost-complex structure induced locally by holomorphic coordinate charts."
 aliases = ["integrable almost complex structure"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-complex-structure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/almost-complex-structure", "differential-geometry/holomorphic-map", "differential-geometry/complex-manifold", "differential-geometry/nijenhuis-tensor", "differential-geometry/newlander-nirenberg-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An [[differential-geometry/almost-complex-structure|almost-complex structure]] \(J\) on a smooth \(2n\)-manifold is **integrable** if every point has local coordinates in \(\mathbb C^n\) whose ordinary multiplication by \(i\) induces \(J\). Such charts have [[differential-geometry/holomorphic-map|holomorphic]] transition maps and therefore make the manifold a [[differential-geometry/complex-manifold|complex manifold]].

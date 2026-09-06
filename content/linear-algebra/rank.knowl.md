@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The rank of a linear map or matrix is the dimension of its image."
 aliases = ["rank"]
 domains = ["linear-algebra"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/rank.md"
+prerequisites = ["linear-algebra/linear-map", "shared-foundations/image", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:V\to W\) be a linear map between vector spaces over a field \(\mathbb{F}\). The **rank** of \(T\) is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonzero weight for the adjoint action of a Cartan subalgebra on a semisimple Lie algebra."
 aliases = ["root-lie-algebra", "Root of a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/classification-simple-lie-algebras"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/root-lie-algebra.md"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional complex semisimple Lie algebra (see [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]) and let \(\mathfrak h\subset \mathfrak g\) be a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. For \(\alpha\in \mathfrak h^*\), define the **\(\alpha\)-weight space for the adjoint action** by

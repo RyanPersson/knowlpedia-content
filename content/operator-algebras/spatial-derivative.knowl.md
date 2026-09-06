@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Connes's positive self-adjoint Radon-Nikodym operator for a normal semifinite weight relative to a weight on the commutant."
 aliases = ["Connes spatial derivative", "spatial Radon-Nikodym derivative"]
 domains = ["operator-algebras", "noncommutative-geometry"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/semifinite-weight", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/commutant", "functional-analysis/closed-quadratic-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/semifinite-weight", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/commutant", "functional-analysis/closed-quadratic-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\subseteq B(H)\) be a

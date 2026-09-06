@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of homotopy classes of continuous maps from a manifold M to the classifying space BG."
 aliases = ["homotopy-class-mbg", "Homotopy class [M,BG]"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/homotopy-class-mbg.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(BG\) be the classifying space associated to a [[fiber-bundles/lie-group|Lie group]] \(G\).

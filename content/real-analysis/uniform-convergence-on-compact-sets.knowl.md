@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Uniform convergence on every compact subset of the domain."
 aliases = ["uniform-convergence-on-compact-sets", "Uniform convergence on compact sets"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "real-analysis/uniform-convergence", "shared-foundations/restriction-of-a-function", "real-analysis/power-series", "real-analysis/power-series-uniform-convergence-on-compacts"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence-on-compact-sets.md"
+prerequisites = ["topology/metric-space", "real-analysis/uniform-convergence", "shared-foundations/restriction-of-a-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A sequence of functions \((f_n):X\to Y\) (with \(Y\) a [[topology/metric-space|metric space]]) **converges uniformly on compact sets** to a function \(f:X\to Y\) if for every compact subset \(K\subseteq X\), the restricted sequence \(f_n|_K\) converges uniformly to \(f|_K\) on \(K\), i.e.

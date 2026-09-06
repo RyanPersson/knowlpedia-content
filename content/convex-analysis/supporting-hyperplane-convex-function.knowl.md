@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An affine function whose graph supports the epigraph of a convex function."
 aliases = ["supporting-hyperplane-convex-function", "Supporting hyperplane of a convex function"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/hyperplane", "convex-analysis/convex-set"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/supporting-hyperplane-convex-function.md"
+prerequisites = ["convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/hyperplane", "convex-analysis/convex-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **supporting hyperplane of a convex function** \(f\) at a point \(x\in\operatorname{dom} f\) (see [[convex-analysis/domain-and-epigraph-proper-function|domain]]) is an affine function

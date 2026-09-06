@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Invertibility is stable under small perturbations, with a quantitative bound on the inverse"
 aliases = ["neumann-series-lemma", "Determinant nonvanishing implies local invertibility lemma"]
 domains = ["real-analysis"]
-prerequisites = ["linear-algebra/linear-map"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/neumann-series-lemma.md"
+prerequisites = ["linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A:\mathbb{R}^n\to\mathbb{R}^n\) be an invertible [[linear-algebra/linear-map|linear map]], and equip the space of linear maps with an operator norm.

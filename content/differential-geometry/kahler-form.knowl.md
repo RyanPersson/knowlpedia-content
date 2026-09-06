@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A closed real positive form of type one-one on a complex manifold."
 aliases = ["fundamental form of a Kähler metric"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/symplectic-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,J)\) be a [[differential-geometry/complex-manifold|complex manifold]]. A **Kähler form** is a real differential \(2\)-form \(\omega\) such that

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear map between normed spaces whose output norm is bounded by a fixed multiple of the input norm."
 aliases = ["bounded operator between normed spaces"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/linear-map", "linear-algebra/operator-norm"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/linear-map", "linear-algebra/operator-norm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) and \(Y\) be [[linear-algebra/normed-vector-space|normed vector

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A graded sequence of modules with differentials d raising degree and satisfying d∘d=0."
 aliases = ["cochain-complex", "Cochain complex"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-modules/module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/cochain-complex.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring and let \(\{C^n\}_{n\in\mathbb Z}\) be [[algebra-modules/module|R-modules]].

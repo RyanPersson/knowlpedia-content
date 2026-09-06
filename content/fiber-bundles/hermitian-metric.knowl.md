@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smoothly varying Hermitian inner product on the fibers of a complex vector bundle."
 aliases = ["hermitian-metric", "Hermitian metric"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/hermitian-metric.md"
+prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). A **Hermitian metric** on \(E\) is an assignment, for each \(x\in M\), of a Hermitian inner product

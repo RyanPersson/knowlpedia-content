@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The polynomial built from derivatives of a function at a point."
 aliases = ["taylor-polynomial", "Taylor polynomial"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/higher-derivatives", "real-analysis/polynomial"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/taylor-polynomial.md"
+prerequisites = ["real-analysis/higher-derivatives", "real-analysis/polynomial"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Taylor polynomial** of order \(n\) for a function \(f\) at a point \(a\) is the polynomial

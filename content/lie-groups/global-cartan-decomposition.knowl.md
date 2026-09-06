@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The decomposition of a real reductive group as K exp(p), refined to the KAK decomposition."
 aliases = ["KAK decomposition", "polar decomposition of G"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/cartan-decomposition-real-reductive-lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/cartan-decomposition-real-reductive-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive Lie

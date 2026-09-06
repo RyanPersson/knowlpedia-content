@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The canonical bijection between irreducible smooth representations of GL_n and n-dimensional Frobenius-semisimple Weil–Deligne representations."
 aliases = ["LLC for GL_n", "local Langlands theorem for the general linear group"]
 domains = ["langlands", "harmonic-analysis"]
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/smooth-representation-totally-disconnected-group", "langlands/weil-deligne-representation", "langlands/local-class-field-theory", "langlands/local-epsilon-factor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/smooth-representation-totally-disconnected-group", "langlands/weil-deligne-representation", "langlands/local-class-field-theory", "langlands/local-epsilon-factor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

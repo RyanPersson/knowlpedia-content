@@ -5,16 +5,21 @@ kind = "definition"
 summary = "A complete normed algebra whose norm is submultiplicative."
 aliases = ["complete normed algebra"]
 domains = ["functional-analysis"]
-prerequisites = ["algebra-modules/algebra-over-ring", "linear-algebra/norm", "linear-algebra/banach-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/norm", "linear-algebra/banach-space"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(\mathbb F=\mathbb R\) or \(\mathbb C\). A **Banach algebra over \(\mathbb F\)** is an associative [[algebra-modules/algebra-over-ring|\(\mathbb F\)-algebra]] \(A\) equipped with a [[linear-algebra/norm|norm]] such that \(A\) is a [[linear-algebra/banach-space|Banach space]] and
+Let \(\mathbb F=\mathbb R\) or \(\mathbb C\). A **Banach algebra over \(\mathbb F\)** is a vector space \(A\) over \(\mathbb F\) equipped with an associative \(\mathbb F\)-bilinear multiplication \(A\times A\to A\) and a [[linear-algebra/norm|norm]] such that \(A\) is a [[linear-algebra/banach-space|Banach space]] and
 \[
 \lVert ab\rVert\leq \lVert a\rVert\,\lVert b\rVert
 \]
-for all \(a,b\in A\). The inequality makes multiplication jointly continuous. This definition does not require an identity. A **unital Banach algebra** additionally has a multiplicative identity; here its norm is normalized by \(\lVert 1\rVert=1\).
+for all \(a,b\in A\).
+
+## Continuity and unity
+
+The inequality makes multiplication jointly continuous. This definition does not require an identity. A **unital Banach algebra** additionally has a multiplicative identity; here its norm is normalized by \(\lVert 1\rVert=1\).
 
 ## Unitization and spectral notions
 

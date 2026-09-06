@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Characteristic cohomology classes of a real vector bundle defined from curvature, using the complexification in Chern–Weil theory."
 aliases = ["pontryagin-class", "Pontryagin class via Chern–Weil theory"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/pontryagin-class.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\). Choose a [[fiber-bundles/bundle-metric|bundle metric]] on \(E\) and a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) (so the structure group reduces to \(O(r)\)). Let \(F_\nabla\in\Omega^2(M;\mathfrak{so}(E))\) be its [[fiber-bundles/curvature|curvature]].

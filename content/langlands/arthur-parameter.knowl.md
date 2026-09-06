@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A bounded Langlands parameter enlarged by an additional algebraic SL2 factor."
 aliases = ["A-parameter", "local Arthur parameter", "global Arthur parameter"]
 domains = ["langlands", "representation-theory", "number-theory"]
-prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/local-l-parameter", "algebra-groups/center-of-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/local-l-parameter", "algebra-groups/center-of-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

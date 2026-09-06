@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth manifold is orientable when its tangent bundle admits an orientation."
 aliases = ["orientable manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/orientation-of-a-real-vector-bundle", "real-analysis/jacobian-determinant"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/orientation-of-a-real-vector-bundle", "real-analysis/jacobian-determinant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is **orientable** if its [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\) admits an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]]. Equivalently, \(M\) has an atlas whose transition maps all have positive [[real-analysis/jacobian-determinant|Jacobian determinant]]. Orientability is an existence property: an orientable manifold need not come with a selected [[differential-geometry/orientation-of-a-smooth-manifold|orientation]]. A manifold together with such a selection is **oriented**. If no orientation exists, the manifold is **nonorientable**. These terms apply componentwise when the dimension is locally constant rather than globally fixed.

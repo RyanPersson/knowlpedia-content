@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Parallel transport along a curve yields a right G-equivariant diffeomorphism between principal bundle fibers."
 aliases = ["parallel-transport-defines-a-g-equivariant-map-between-fibers", "Theorem: Parallel transport defines a G-equivariant map between fibers"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/parallel-transport-defines-a-g-equivariant-map-between-fibers.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with a [[fiber-bundles/principal-connection|principal connection]].

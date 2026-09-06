@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A representation that splits as a direct sum of irreducible subrepresentations."
 aliases = ["completely-reducible-representation", "Completely reducible representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/direct-sum-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/completely-reducible-representation.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\rho)\) be a finite-dimensional [[algebra-representation-theory/group-representation|group representation]] of \(G\) over a field \(k\). The representation \(V\) is **completely reducible** if there exist irreducible subrepresentations \(V_1,\dots,V_r\) such that

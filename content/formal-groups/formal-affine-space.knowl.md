@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The formal n-disc with its origin, coordinates, and n-dimensional tangent space."
 aliases = ["formal n-disc", "formal disk", "formal disc", "formal affine n-space"]
 domains = ["formal-groups", "algebraic-geometry-foundations"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field. The **formal affine \(n\)-space**, or **formal

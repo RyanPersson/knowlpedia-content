@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous bijection from a compact space to a Hausdorff space is a homeomorphism."
 aliases = ["compact-to-hausdorff-homeomorphism-criterion", "Compact-to-Hausdorff homeomorphism criterion"]
 domains = ["topology"]
-prerequisites = ["topology/continuous-map", "topology/compact-set", "topology/hausdorff-space", "topology/homeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "topology/compact-to-hausdorff-homeomorphism-criterion.md"
+prerequisites = ["topology/compact-set", "topology/hausdorff-space", "topology/homeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Compact-to-Hausdorff homeomorphism criterion.** Let \(f:X\to Y\) be a continuous bijection. If \(X\) is compact and \(Y\) is [[topology/hausdorff-space|Hausdorff]], then \(f\) is a [[topology/homeomorphism|homeomorphism]].

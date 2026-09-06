@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An affiliated closed operator whose domain contains an increasing family of almost-full projections with finite complements."
 aliases = ["Segal measurable operator", "measurable affiliated operator"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/affiliated-operator", "operator-algebras/finite-projection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/affiliated-operator", "operator-algebras/finite-projection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\subseteq B(H)\) be a [[operator-algebras/semifinite-von-neumann-algebra|semifinite von Neumann algebra]]. A closed densely defined

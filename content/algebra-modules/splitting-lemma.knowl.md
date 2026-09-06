@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A short exact sequence splits iff it has a section or a retraction."
 aliases = ["splitting-lemma", "Splitting lemma"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/short-exact-sequence", "algebra-modules/module", "algebra-modules/module-homomorphism", "algebra-modules/split-exact-sequence", "algebra-modules/direct-sum-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/splitting-lemma.md"
+prerequisites = ["algebra-modules/short-exact-sequence", "algebra-modules/module", "algebra-modules/module-homomorphism", "algebra-modules/split-exact-sequence", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Splitting lemma**: Given a [[algebra-modules/short-exact-sequence|short exact sequence]]

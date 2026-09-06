@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The natural topology on Spec(R) whose closed sets are defined by vanishing of ideals."
 aliases = ["zariski-topology", "Zariski topology"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/zariski-topology.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]], and consider its [[algebra-commutative/prime-spectrum|prime spectrum \(\operatorname{Spec}(R)\)]].

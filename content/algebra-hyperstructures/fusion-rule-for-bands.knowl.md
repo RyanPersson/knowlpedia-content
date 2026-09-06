@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The cancellation rule that combines two null formal sums containing opposite terms."
 aliases = ["fusion axiom for bands", "band fusion rule"]
 domains = ["algebra-hyperstructures"]
-prerequisites = ["algebra-hyperstructures/band"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/band"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B\) be a [[algebra-hyperstructures/band|band]], and let \(I\subseteq

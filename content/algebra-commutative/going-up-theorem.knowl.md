@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Along an integral extension, prime ideals can be lifted to extend prime chains."
 aliases = ["going-up-theorem", "Going-up theorem"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring", "algebra-commutative/lying-over-theorem", "algebra-commutative/prime-spectrum"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/going-up-theorem.md"
+prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring", "algebra-commutative/lying-over-theorem", "algebra-commutative/prime-spectrum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\subseteq B\) be an [[algebra-commutative/integral-extension|integral extension]] of [[algebra-rings/commutative-ring|commutative rings]]. The [[algebra-commutative/lying-over-theorem|lying-over theorem]] ensures that primes of \(A\) occur as contractions of primes of \(B\); going-up strengthens this by lifting *inclusions* of primes.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A lift of the oriented, time-oriented Lorentz frame bundle through the spin double cover."
 aliases = ["spin structure on a Lorentzian manifold", "Lorentzian spin lift"]
 domains = ["differential-geometry", "fiber-bundles", "mathematical-physics"]
-prerequisites = ["differential-geometry/time-orientation", "differential-geometry/lorentzian-manifold", "lie-groups/restricted-spin-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/time-orientation", "differential-geometry/lorentzian-manifold", "lie-groups/restricted-spin-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be an oriented and [[differential-geometry/time-orientation|time-oriented]] [[differential-geometry/lorentzian-manifold|Lorentzian \(n\)-manifold]] of signature \((1,n-1)\), with negative directions listed first, and let \(P_{\mathrm{SO}^+(1,n-1)}(M)\) be its bundle of oriented, time-oriented pseudo-orthonormal frames. Write \(\mathrm{Spin}^+(1,n-1)\) for the full preimage of \(\mathrm{SO}^+(1,n-1)\) under the spin covering, as in the [[lie-groups/restricted-spin-group|restricted spin group]]. A **Lorentzian spin structure** is a principal \(\mathrm{Spin}^+(1,n-1)\)-bundle \(P_{\mathrm{Spin}}\to M\) and an equivariant double covering

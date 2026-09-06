@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The complex Lie algebra obtained by extending scalars from the real numbers to the complex numbers."
 aliases = ["complexified Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a real [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak h\), its **complexification** is

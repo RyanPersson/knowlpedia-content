@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A p-adic Galois representation with the full expected space of de Rham periods."
 aliases = ["de Rham representation", "de Rham p-adic representation"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings", "langlands/hodge-tate-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings", "langlands/hodge-tate-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/\mathbb Q_p\) be finite, let

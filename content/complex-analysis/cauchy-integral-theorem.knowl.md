@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Holomorphic functions have zero integral around null-homologous closed contours."
 aliases = ["Cauchy's theorem", "Cauchy–Goursat theorem"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/complex-domain", "topology/simply-connected-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain", "complex-analysis/complex-contour-integral", "topology/simply-connected-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be a [[complex-analysis/complex-domain|domain]], let \(f:D\to\mathbb C\) be holomorphic, and let \(\gamma\) be a closed piecewise \(C^1\) contour in \(D\). If \(\gamma\) is null-homotopic in \(D\), then

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A semisimple element of a reductive group whose centralizer is a maximal torus."
 aliases = ["strongly regular semisimple", "strongly regular element", "regular semisimple element with torus centralizer"]
 domains = ["langlands", "algebraic-geometry-foundations", "representation-theory"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "algebra-groups/centralizer", "langlands-letter/knowls/maximal-torus-weight-lattice"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "algebra-groups/centralizer", "langlands-letter/knowls/maximal-torus-weight-lattice"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a field \(F\). An element

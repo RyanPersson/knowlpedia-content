@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence converges if points eventually lie arbitrarily close to the limit"
 aliases = ["convergence-of-a-sequence", "Convergence of a sequence in a metric space"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/closure-characterized-by-convergent-sequences", "topology/cauchy-sequence"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/convergence-of-a-sequence.md"
+prerequisites = ["convex-analysis/metric-metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a [[convex-analysis/metric-metric-space|metric space]]. A sequence \((x_n)\) in \(X\) **converges** to a point \(a\in X\) if

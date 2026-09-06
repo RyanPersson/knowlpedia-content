@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A condition ensuring events measurable with respect to different sigma-algebras are independent"
 aliases = ["independence-sigma-algebras", "Independence of sigma-algebras"]
 domains = ["probability"]
-prerequisites = ["probability/probability-space", "measure-theory/sigma-algebra", "probability/independence-random-variables"]
-dependency_review_count = 1
 legacy_source_path = "probability/independence-sigma-algebras.md"
+prerequisites = ["probability/probability-space", "measure-theory/sigma-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Two **sigma-algebras are independent** if, on a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\), sub-[[measure-theory/sigma-algebra|sigma-algebras]] \(\mathcal G_1,\mathcal G_2\subseteq\mathcal F\) satisfy

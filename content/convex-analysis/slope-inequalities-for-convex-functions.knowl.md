@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Secant slopes of a convex function are ordered"
 aliases = ["slope-inequalities-for-convex-functions", "Slope inequalities for convex functions"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-function-via-epigraph"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/slope-inequalities-for-convex-functions.md"
+prerequisites = ["convex-analysis/convex-function-via-epigraph"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Lemma.**

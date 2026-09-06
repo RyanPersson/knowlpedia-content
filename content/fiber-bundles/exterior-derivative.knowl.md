@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The differential operator on differential forms that squares to zero and satisfies the graded Leibniz rule."
 aliases = ["exterior-derivative", "Exterior derivative"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exterior-derivative.md"
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), the **exterior derivative** is the unique family of \(\mathbb R\)-linear maps

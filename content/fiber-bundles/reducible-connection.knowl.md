@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A connection whose gauge stabilizer is larger than the unavoidable central subgroup."
 aliases = ["reducible gauge field", "connection with noncentral stabilizer"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-transformation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a connected manifold with compact structure group \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]]. Using the full [[fiber-bundles/gauge-group|gauge group]], \(A\) is **reducible** when its [[fiber-bundles/stabilizer-of-a-connection|stabilizer]] strictly contains the subgroup of constant gauge transformations arising from the center \(Z(G)\):

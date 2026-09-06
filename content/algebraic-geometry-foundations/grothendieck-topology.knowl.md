@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A specification of covering sieves on each object of a category, stable under pullback and satisfying local character."
 aliases = ["grothendieck-topology", "Grothendieck topology"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-category-theory/category", "algebraic-geometry-foundations/sieve", "algebra-category-theory/morphism", "topology/topology"]
+prerequisites = ["algebra-category-theory/category", "algebraic-geometry-foundations/sieve", "algebra-category-theory/morphism"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

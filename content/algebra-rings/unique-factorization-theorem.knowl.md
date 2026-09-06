@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a UFD, every nonzero nonunit factors uniquely into irreducibles up to associates and order."
 aliases = ["unique-factorization-theorem", "Unique factorization theorem"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ufd", "algebra-rings/unit", "algebra-rings/irreducible-element", "algebra-rings/associated-elements", "algebra-rings/prime-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/unique-factorization-theorem.md"
+prerequisites = ["algebra-rings/ufd", "algebra-rings/unit", "algebra-rings/irreducible-element", "algebra-rings/associated-elements", "algebra-rings/prime-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Unique factorization theorem**: Let \(R\) be a [[algebra-rings/ufd|unique factorization domain]]. Every nonzero element of \(R\) that is not a [[algebra-rings/unit|unit]] can be written as a finite product of [[algebra-rings/irreducible-element|irreducible elements]]. Moreover, if

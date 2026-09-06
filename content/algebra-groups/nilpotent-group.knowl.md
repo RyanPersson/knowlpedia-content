@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group whose lower central series terminates at the trivial subgroup"
 aliases = ["nilpotent-group", "Nilpotent Group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/lower-central-series"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/nilpotent-group.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/lower-central-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **nilpotent group** is a [[algebra-groups/group|group]] \(G\) such that its [[algebra-groups/lower-central-series|lower central series]] terminates at the trivial subgroup: there exists \(c\ge 1\) with \(\gamma_{c+1}(G)=\{e\}\), where \(\gamma_1(G)=G\) and

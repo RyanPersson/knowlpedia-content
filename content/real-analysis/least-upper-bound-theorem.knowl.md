@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Nonempty subsets of R that are bounded above have a supremum in R"
 aliases = ["least-upper-bound-theorem", "Least Upper Bound Theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-above"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/least-upper-bound-theorem.md"
+prerequisites = ["real-analysis/bounded-above"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Least Upper Bound Theorem**: If \(E\subseteq \mathbb{R}\) is nonempty and [[real-analysis/bounded-above|bounded above]], then \(\sup E\) exists in \(\mathbb{R}\).

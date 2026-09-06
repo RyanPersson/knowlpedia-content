@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Finite-dimensional irreducibles of a semisimple Lie algebra are classified by dominant integral highest weights."
 aliases = ["highest-weight-theorem", "Highest-weight theorem"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/highest-weight-representation", "lie-groups/highest-weight"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/highest-weight-theorem.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/highest-weight-representation", "lie-groups/highest-weight"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\), and a choice of [[lie-groups/positive-root|positive roots]] (hence [[lie-groups/simple-root|simple roots]] and fundamental weights).

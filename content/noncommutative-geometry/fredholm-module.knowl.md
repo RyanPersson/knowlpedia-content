@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A representation of a complex C*-algebra equipped with an operator whose commutators and local self-adjointness and involutivity defects are compact."
 aliases = ["bounded Fredholm module", "bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/cstar-representation", "linear-algebra/compact-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/cstar-representation", "linear-algebra/compact-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a complex \(C^*\)-algebra. A **Fredholm module over \(A\)** is a complex [[linear-algebra/hilbert-space|Hilbert space]] \(H\), a [[operator-algebras/cstar-representation|representation]] \(\pi:A\to\mathcal B(H)\), and a bounded operator \(F\in\mathcal B(H)\) such that, for every \(a\in A\),

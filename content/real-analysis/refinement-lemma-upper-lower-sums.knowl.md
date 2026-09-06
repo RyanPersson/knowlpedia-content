@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Refining a partition decreases upper sums and increases lower sums."
 aliases = ["refinement-lemma-upper-lower-sums", "Refinement lemma for upper and lower sums"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/refinement-of-a-partition", "real-analysis/partition-of-an-interval", "real-analysis/upper-sum", "real-analysis/lower-sum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/refinement-lemma-upper-lower-sums.md"
+prerequisites = ["real-analysis/refinement-of-a-partition", "real-analysis/partition-of-an-interval", "real-analysis/upper-sum", "real-analysis/lower-sum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Refinement lemma:** Let \(a<b\) and let \(f:[a,b]\to\mathbb{R}\) be bounded. If \(P'\) is a [[real-analysis/refinement-of-a-partition|refinement]] of a [[real-analysis/partition-of-an-interval|partition]] \(P\), then

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bijective continuous map with a continuous inverse."
 aliases = ["homeomorphism"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "shared-foundations/bijective-function", "topology/continuous-map", "shared-foundations/inverse-function"]
-dependency_review_count = 1
 legacy_source_path = "topology/homeomorphism.md"
+prerequisites = ["topology/topological-space", "shared-foundations/bijective-function", "topology/continuous-map", "shared-foundations/inverse-function"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **homeomorphism** between [[topology/topological-space|topological spaces]] \(X\) and \(Y\) is a [[shared-foundations/bijective-function|bijective function]] \(f:X\to Y\) such that \(f\) is a [[topology/continuous-map|continuous map]] and its [[shared-foundations/inverse-function|inverse function]] \(f^{-1}:Y\to X\) is also continuous.

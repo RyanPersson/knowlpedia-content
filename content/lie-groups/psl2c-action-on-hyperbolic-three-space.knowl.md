@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "PSL(2,C) is the orientation-preserving isometry group of hyperbolic three-space."
 aliases = ["PSL2C hyperbolic action", "orientation-preserving isometries of H3"]
 domains = ["lie-groups", "differential-geometry"]
-prerequisites = ["differential-geometry/hyperbolic-three-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hyperbolic-three-space", "lie-groups/psl2-complex", "lie-groups/lorentz-group", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On the positive-definite Hermitian-matrix model of [[differential-geometry/hyperbolic-three-space|\(\mathbb H^3\)]], the formula

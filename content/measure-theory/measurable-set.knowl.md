@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset that belongs to the sigma-algebra of a measurable space."
 aliases = ["measurable-set", "Measurable set"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-space"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-set.md"
+prerequisites = ["measure-theory/measurable-space", "shared-foundations/subset"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **measurable set** in a measurable space \((X,\Sigma)\) is a subset \(A\subseteq X\) with \(A\in\Sigma\).

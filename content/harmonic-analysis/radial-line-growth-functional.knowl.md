@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A maximal averaged magnitude along radial lines used as the growth condition in a higher-dimensional multiplier theorem."
 aliases = ["Cohen growth functional", "radial growth function G-star"]
 domains = ["harmonic-analysis", "analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a measurable weight \(\omega:\mathbb R^d\to\mathbb R\), define

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Clifford module bundle associated to a Lorentzian spin structure and a spin representation."
 aliases = ["spinor bundle of a Lorentzian manifold", "bundle of Lorentzian spinors"]
 domains = ["differential-geometry", "fiber-bundles", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-spin-structure", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-spin-structure", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) carry a [[differential-geometry/lorentzian-spin-structure|Lorentzian spin structure]] \(P_{\mathrm{Spin}}\), and let \(\Delta_{1,n-1}\) be a real or complex module for the relevant [[differential-geometry/clifford-algebra|Clifford algebra]], restricted to \(\mathrm{Spin}^+(1,n-1)\). The associated **Lorentzian spinor bundle** is

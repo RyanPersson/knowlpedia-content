@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A principal G bundle over the circle can be constructed by gluing a cylinder using a group element or clutching data."
 aliases = ["principal-bundle-over-s1-defined-by-a-clutching-function", "Principal bundle over S1 from a clutching function"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/clutching-function", "fiber-bundles/lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function.md"
+prerequisites = ["fiber-bundles/clutching-function", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This is the \(1\)-dimensional case of the general [[fiber-bundles/clutching-function|clutching construction]] for bundles.

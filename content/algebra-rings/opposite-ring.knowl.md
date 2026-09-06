@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ring with the same underlying abelian group but reversed multiplication."
 aliases = ["opposite-ring", "Opposite ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/opposite-ring.md"
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]]. The **opposite ring** \(R^{\mathrm{op}}\) is defined to have the same underlying additive group as \(R\), but with multiplication given by

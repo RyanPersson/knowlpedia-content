@@ -5,10 +5,10 @@ kind = "definition"
 summary = "Canonical coordinates adapted to invariant tori in which an integrable Hamiltonian depends only on action variables."
 aliases = ["angle-action variables"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/completely-integrable-hamiltonian-system", "differential-geometry/hamiltons-equations"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/completely-integrable-hamiltonian-system", "differential-geometry/hamiltons-equations", "fiber-bundles/diffeomorphism", "differential-geometry/lagrangian-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On an open set \(U\) of a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]], **action-angle coordinates** are a diffeomorphism \(U\cong B\times\mathbb T^n\), where \(B\subset\mathbb R^n\) is open, providing variables

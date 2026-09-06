@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element of a unital ring that has a multiplicative inverse."
 aliases = ["unit"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/unital-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/unit.md"
+prerequisites = ["algebra-rings/unital-ring"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/unital-ring|unital ring]]. An element \(u\in R\) is a **unit** if there exists \(v\in R\) such that \(uv=vu=1\).

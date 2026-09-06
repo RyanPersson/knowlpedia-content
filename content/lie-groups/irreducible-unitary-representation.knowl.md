@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An irreducible unitary representation has no nonzero proper closed invariant subspace."
 aliases = ["topologically irreducible representation", "irreducible Hilbert representation"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "lie-groups/invariant-closed-subspace-unitary-representation", "linear-algebra/orthogonal-complement"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "lie-groups/invariant-closed-subspace-unitary-representation", "linear-algebra/orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:G\to U(H)\) be a

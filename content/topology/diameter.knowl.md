@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The supremum of all distances between pairs of points in a set within a metric space."
 aliases = ["diameter"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "real-analysis/supremum"]
-dependency_review_count = 1
 legacy_source_path = "topology/diameter.md"
+prerequisites = ["topology/metric-space", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **diameter** of a subset \(A\) of a metric space \((X,d)\) is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A matrix encoding a linear map relative to chosen bases."
 aliases = ["matrix-representation", "Matrix representation"]
 domains = ["algebra-modules"]
-prerequisites = ["linear-algebra/linear-map", "linear-algebra/matrix"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/matrix-representation.md"
+prerequisites = ["linear-algebra/linear-map", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **matrix representation** of a [[linear-algebra/linear-map|linear map]] \(T: V \to W\) with respect to bases \(\mathcal{B} = \{v_1, \ldots, v_n\}\) of \(V\) and \(\mathcal{C} = \{w_1, \ldots, w_m\}\) of \(W\) is the \(m \times n\) [[linear-algebra/matrix|matrix]] \([T]_{\mathcal{B}}^{\mathcal{C}}\) whose columns are the coordinate vectors of \(T(v_j)\) in the basis \(\mathcal{C}\).

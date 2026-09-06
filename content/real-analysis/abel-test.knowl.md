@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convergence test for sums of products when one series converges and the other factor is monotone and bounded."
 aliases = ["abel-test", "Abel test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/abel-test.md"
+prerequisites = ["real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Abel test:** Consider a series \(\sum_{n=1}^\infty a_n b_n\) of real or complex numbers. Suppose

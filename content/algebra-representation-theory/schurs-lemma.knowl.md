@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonzero intertwiner between irreducible representations is an isomorphism; equivariant endomorphisms form a division ring and, under standard hypotheses, are scalars."
 aliases = ["schurs-lemma", "Schur's Lemma"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/irreducible-representation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/schurs-lemma.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/irreducible-representation", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a group and let \(k\) be a field. A (finite-dimensional) \(k\)-[[algebra-representation-theory/group-representation|representation]] of \(G\) is a \(k\)-vector space \(V\) with a homomorphism \(\rho_V: G \to \mathrm{GL}(V)\). A \(G\)-**intertwiner** (or \(G\)-map) \(f:V\to W\) between two representations is a \(k\)-linear map satisfying

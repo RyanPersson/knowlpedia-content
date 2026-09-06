@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For nonnegative measurable functions, the integral of the liminf is bounded by the liminf of the integrals."
 aliases = ["fatous-lemma", "Fatou's lemma"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/measurable-function","measure-theory/lebesgue-integral"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/fatous-lemma.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Fatou's lemma:** Let \((X,\Sigma,\mu)\) be a [[measure-theory/measure-space|measure space]] and let \((f_n)_{n\ge 1}\) be a sequence of nonnegative [[measure-theory/measurable-function|measurable functions]] \(f_n:X\to[0,\infty]\). Then

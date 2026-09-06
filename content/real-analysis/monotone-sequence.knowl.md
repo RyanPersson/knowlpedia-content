@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A real sequence that is nondecreasing or nonincreasing."
 aliases = ["monotone-sequence", "Monotone sequence"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/monotone-sequence.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **monotone sequence** is a sequence \((a_n)_{n\ge 1}\) of real numbers such that either

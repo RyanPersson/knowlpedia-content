@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The spectral category IndCoh_Nilp on the stack of dual-group local systems."
 aliases = ["IndCoh_Nilp", "nilpotent singular-support category"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "langlands/global-nilpotent-cone", "langlands/ind-coherent-sheaf", "langlands/singular-support-of-coherent-sheaf", "algebraic-geometry-foundations/reductive-algebraic-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "langlands/global-nilpotent-cone", "langlands/ind-coherent-sheaf", "langlands/singular-support-of-coherent-sheaf", "algebraic-geometry-foundations/reductive-algebraic-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]] and let \(\widehat G\) be a reductive

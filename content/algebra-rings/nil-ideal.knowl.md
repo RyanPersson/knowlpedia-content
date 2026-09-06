@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An ideal all of whose elements are nilpotent."
 aliases = ["nil-ideal", "Nil ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ideal", "algebra-rings/nilpotent-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/nil-ideal.md"
+prerequisites = ["algebra-rings/ideal", "algebra-rings/nilpotent-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **nil ideal** in a ring \(R\) is an [[algebra-rings/ideal|ideal]] \(I\subseteq R\) such that every element of \(I\) is a [[algebra-rings/nilpotent-element|nilpotent element]].

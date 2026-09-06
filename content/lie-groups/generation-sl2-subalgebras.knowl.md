@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The three regular sl2 subalgebras associated with the three root lines of the generation A2 root system."
 aliases = ["generation sl2s", "three generation sl2 subalgebras", "sl2 beta k"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["lie-groups/generation-plane", "lie-groups/root-sl2-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/generation-plane", "lie-groups/root-sl2-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\subset P\) be the \(A_2\) roots in the [[lie-groups/generation-plane|generation plane]]. Write

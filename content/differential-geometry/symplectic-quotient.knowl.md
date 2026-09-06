@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The orbit space of a moment-map level set by the stabilizer of its value."
 aliases = ["reduced phase space", "Marsden–Weinstein quotient"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "algebra-groups/stabilizer", "fiber-bundles/coadjoint-action-of-a-lie-group", "lie-groups/orbit-space", "differential-geometry/symplectic-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "algebra-groups/stabilizer", "fiber-bundles/coadjoint-action-of-a-lie-group", "lie-groups/orbit-space", "differential-geometry/symplectic-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega,\mu)\) be a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian \(G\)-space]] with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\), and let \(\alpha\in\mathfrak g^*\). Write \(G_\alpha\) for the [[algebra-groups/stabilizer|stabilizer]] of \(\alpha\) under the [[fiber-bundles/coadjoint-action-of-a-lie-group|coadjoint action]]. Equivariance makes \(\mu^{-1}(\alpha)\) invariant under \(G_\alpha\). The **symplectic quotient of \(M\) at \(\alpha\)** is the [[lie-groups/orbit-space|orbit space]]

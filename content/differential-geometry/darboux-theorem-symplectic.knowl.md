@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every symplectic form is locally equivalent to the standard constant symplectic form."
 aliases = ["symplectic Darboux theorem", "Darboux local normal-form theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-chart-coordinate-chart", "differential-geometry/symplectomorphism", "differential-geometry/symplectic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-chart-coordinate-chart", "differential-geometry/symplectomorphism", "differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]] and \(x\in M\). The **Darboux theorem** states that there are [[fiber-bundles/smooth-chart-coordinate-chart|local coordinates]]

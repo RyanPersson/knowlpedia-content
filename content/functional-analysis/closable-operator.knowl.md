@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear operator whose graph closure is still the graph of an operator."
 aliases = ["preclosed operator"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/graph-of-operator", "functional-analysis/closed-linear-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/graph-of-operator", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:\operatorname{Dom}(T)\subseteq H\to K\) be a linear operator between

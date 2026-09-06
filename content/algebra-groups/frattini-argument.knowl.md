@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If N is normal and P is a Sylow p-subgroup of N, then G = N N_G(P)"
 aliases = ["frattini-argument", "Frattini Argument"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/sylow-subgroup", "algebra-groups/normalizer"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/frattini-argument.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/sylow-subgroup", "algebra-groups/normalizer"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Frattini Argument**: Let \(G\) be a finite [[algebra-groups/group|group]], let \(N\trianglelefteq G\) be a [[algebra-groups/normal-subgroup|normal subgroup]], and let \(P\) be a [[algebra-groups/sylow-subgroup|Sylow \(p\)-subgroup]] of \(N\) (so \(p\) divides \(|N|\)). Let \(N_G(P)\) denote the [[algebra-groups/normalizer|normalizer]] of \(P\) in \(G\). Then

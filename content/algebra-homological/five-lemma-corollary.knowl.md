@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a morphism of short exact sequences, isomorphisms on the ends force an isomorphism in the middle."
 aliases = ["five-lemma-corollary", "Corollary of the five lemma: the short five lemma"]
 domains = ["algebra-homological"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/five-lemma-corollary.md"
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-homological/five-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In an abelian category, consider a commutative diagram with exact rows

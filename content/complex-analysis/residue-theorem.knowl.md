@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "A contour integral of a meromorphic function is the winding-number-weighted sum of its residues."
 aliases = ["Cauchy residue theorem"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/meromorphic-function", "complex-analysis/winding-number", "complex-analysis/residue", "complex-analysis/complex-contour-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be open, let \(f\) be meromorphic on \(D\), and let \(\gamma\) be a closed piecewise \(C^1\) contour avoiding the poles of \(f\). Suppose \(\operatorname{Ind}(\gamma,a)=0\) for every \(a\notin D\) and only finitely many poles have nonzero index. Then

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set in which every open cover has a finite subcover."
 aliases = ["compact-set", "Compact set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/open-cover"]
-dependency_review_count = 1
 legacy_source_path = "topology/compact-set.md"
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/open-cover"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **compact set** is a subset \(K\subseteq X\) of a [[topology/topological-space|topological space]] \(X\) such that every [[topology/open-cover|open cover]] of \(K\) contains a finite subcover: whenever \(\{U_i\}_{i\in I}\) is a family of open sets with \(K\subseteq \bigcup_{i\in I}U_i\), there exist indices \(i_1,\dots,i_n\) such that

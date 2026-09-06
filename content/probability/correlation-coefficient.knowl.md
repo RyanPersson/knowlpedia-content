@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Normalized covariance giving a scale-free measure of linear association between two random variables"
 aliases = ["correlation-coefficient", "Correlation coefficient"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "probability/correlation-coefficient.md"
+prerequisites = ["probability/random-variable", "probability/covariance"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **correlation coefficient** is the normalized covariance \(\rho(X,Y)=\frac{\operatorname{Cov}(X,Y)}{\sqrt{\operatorname{Var}(X)\operatorname{Var}(Y)}}\) for [[probability/random-variable|random variables]] \(X\) and \(Y\) with \(0<\operatorname{Var}(X),\operatorname{Var}(Y)<\infty\).

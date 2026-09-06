@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A distance between two probability distributions defined by the largest possible difference they assign to the same event."
 aliases = ["total-variation-distance", "Total variation distance"]
 domains = ["probability"]
-prerequisites = ["measure-theory/measurable-set"]
-dependency_review_count = 1
 legacy_source_path = "probability/total-variation-distance.md"
+prerequisites = ["measure-theory/measurable-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **total variation distance** between probability measures \(P\) and \(Q\) on the same measurable space \((\Omega,\mathcal F)\) is

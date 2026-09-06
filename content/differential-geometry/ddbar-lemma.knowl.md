@@ -5,9 +5,10 @@ kind = "definition"
 summary = "On a compact Kähler manifold, a pure-type closed form that is exact in one standard complex is ∂∂̄-exact."
 aliases = ["ddbar lemma", "d d-c lemma"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/complex-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/complex-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a compact [[differential-geometry/kahler-manifold|Kähler manifold]], and let \(\alpha\) be a complex-valued form of pure type \((p,q)\) with \(d\alpha=0\). The **\(\partial\bar\partial\)-lemma** states that the following are equivalent: \(\alpha\) is \(d\)-exact, \(\partial\)-exact, \(\bar\partial\)-exact, or \(\partial\bar\partial\)-exact. Thus, whenever any of the first three conditions holds, there is a \((p-1,q-1)\)-form \(\beta\) such that

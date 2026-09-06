@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The Weil integration formula decomposes integration on a locally compact group into integration along a closed subgroup and over its homogeneous space."
 aliases = ["quotient integral formula", "integration over G/H"]
 domains = ["harmonic-analysis", "measure-theory", "lie-groups"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/locally-compact-homogeneous-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/locally-compact-homogeneous-space", "harmonic-analysis/modular-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]], let \(H\) be a closed subgroup, and choose left [[harmonic-analysis/haar-measure|Haar measures]] \(dg\) and \(dh\). There are a positive continuous function \(\rho:G\to(0,\infty)\), satisfying

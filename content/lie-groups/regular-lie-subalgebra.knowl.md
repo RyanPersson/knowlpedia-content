@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A Lie subalgebra normalized by a Cartan subalgebra of the ambient semisimple Lie algebra."
 aliases = ["regular Lie subalgebra", "regular subalgebra of a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/lie-subalgebra", "lie-groups/root-space-decomposition", "lie-groups/root-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] and let \(\mathfrak h\subset\mathfrak g\) be a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. A [[lie-groups/lie-subalgebra|Lie subalgebra]] \(\mathfrak k\subseteq\mathfrak g\) is **regular relative to \(\mathfrak h\)** if

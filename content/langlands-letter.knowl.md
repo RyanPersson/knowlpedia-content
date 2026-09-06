@@ -6,6 +6,9 @@ summary = "A historical annotated reading of Langlands' 1967 letter to Weil, cro
 aliases = ["langlands-letter", "Langlands Letter"]
 domains = ["langlands-letter"]
 legacy_source_path = "langlands-letter/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An annotated reading of Robert Langlands' 1967 letter to André Weil, which

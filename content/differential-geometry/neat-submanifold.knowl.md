@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A boundary-compatible embedded submanifold that meets the ambient boundary transversely and has no other boundary."
 aliases = ["neat embedded submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/embedded-submanifold", "differential-geometry/transverse-submanifolds", "differential-geometry/boundary-and-interior-of-a-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/embedded-submanifold", "differential-geometry/transverse-submanifolds", "differential-geometry/boundary-and-interior-of-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[differential-geometry/manifold-with-boundary|smooth manifold with boundary]], and let \(S\subseteq M\) be an embedded [[differential-geometry/embedded-submanifold|smooth submanifold]] with boundary. The submanifold \(S\) is **neat** if

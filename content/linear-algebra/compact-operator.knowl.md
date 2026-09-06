@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A linear operator whose unit ball image has compact closure."
 aliases = ["compact-operator", "Compact operator"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-operator", "linear-algebra/normed-vector-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/compact-operator.md"
+prerequisites = ["linear-algebra/linear-operator", "linear-algebra/normed-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **compact operator** is a [[linear-algebra/linear-operator|linear operator]] \(T:X\to Y\) between [[linear-algebra/normed-vector-space|normed vector spaces]] such that the image of the closed unit ball

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Convexity via epigraph is equivalent to Jensen and extended Jensen inequalities"
 aliases = ["equivalent-characterizations-of-convex-functions", "Equivalent characterizations of convex functions"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/convex-combination"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/equivalent-characterizations-of-convex-functions.md"
+prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/convex-combination"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Theorem.**

@@ -5,11 +5,11 @@ kind = "knowl"
 summary = "A Borel, maximal torus, and simple-root vectors that canonically lift automorphisms of a based root datum."
 aliases = ["pinned-automorphisms", "Pinning and Pinned Automorphisms"]
 domains = ["langlands-letter"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/simple-root", "langlands-letter/knowls/roots-weights-weyl"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/pinned-automorphisms.md"
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/simple-root", "langlands-letter/knowls/roots-weights-weyl"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **pinning** of a split connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) is data

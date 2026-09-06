@@ -6,6 +6,8 @@ summary = "The reusable arithmetic, representation-theoretic, geometric, and cat
 aliases = ["Langlands dependency index", "modern Langlands prerequisite index", "Langlands closure index"]
 domains = ["langlands"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

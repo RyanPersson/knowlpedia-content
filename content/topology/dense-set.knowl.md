@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset whose closure is the whole space."
 aliases = ["dense-set", "Dense set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closure"]
-dependency_review_count = 1
 legacy_source_path = "topology/dense-set.md"
+prerequisites = ["topology/topological-space", "topology/closure", "shared-foundations/subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **dense set** in a [[topology/topological-space|topological space]] \(X\) is a subset \(D\subseteq X\) such that its [[topology/closure|closure]] is all of \(X\), i.e. \(\overline{D}=X\).

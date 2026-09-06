@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The Hilbert space of square-integrable measurable sections of a measurable field of Hilbert spaces."
 aliases = ["Hilbert direct integral", "continuous Hilbert sum", "continuous direct sum"]
 domains = ["functional-analysis", "measure-theory"]
-prerequisites = ["measure-theory/measure-space", "functional-analysis/measurable-field-hilbert-spaces", "measure-theory/almost-everywhere", "measure-theory/lebesgue-integral", "linear-algebra/hilbert-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["measure-theory/measure-space", "functional-analysis/measurable-field-hilbert-spaces", "measure-theory/almost-everywhere", "measure-theory/lebesgue-integral", "linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,\Sigma,\mu)\) be a [[measure-theory/measure-space|measure space]] and \(\{\mathcal H_x\}_{x\in X}\) a [[functional-analysis/measurable-field-hilbert-spaces|measurable field of Hilbert spaces]]. Its **direct integral** is

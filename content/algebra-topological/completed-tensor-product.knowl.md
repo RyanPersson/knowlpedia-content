@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The completion of a tensor product for the topology induced by specified filtrations."
 aliases = ["complete tensor product", "adic completed tensor product", "hat tensor product"]
 domains = ["algebra-topological", "algebra-modules"]
-prerequisites = ["algebra-modules/tensor-product"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-modules/tensor-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a commutative ring, let \(M\) have a decreasing filtration

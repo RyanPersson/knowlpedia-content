@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A polynomial whose coefficients generate the unit ideal (content 1)."
 aliases = ["primitive-polynomial", "Primitive polynomial"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-rings/polynomial-ring", "algebra-rings/content-polynomial"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/primitive-polynomial.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/content-polynomial"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]] and let \(f\in R[x]\) be nonzero. The polynomial \(f\) is **primitive** if its [[algebra-rings/content-polynomial|content]] is the whole ring, i.e. \(c(f)=R\) (equivalently, the coefficients generate the unit ideal).

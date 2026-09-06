@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If a differentiable function has positive derivative everywhere on an interval, then it is strictly increasing."
 aliases = ["positive-derivative-implies-increasing", "Positive derivative implies increasing"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d", "real-analysis/mean-value-theorem"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/positive-derivative-implies-increasing.md"
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d", "real-analysis/mean-value-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Positive derivative implies increasing.** Let \(I\subseteq\mathbb R\) be an [[real-analysis/interval|interval]], and let \(f:I\to\mathbb R\) be continuous on \(I\) and [[real-analysis/differentiability-1d|differentiable]] at every interior point. If

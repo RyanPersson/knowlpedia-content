@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The parity decomposition of an exterior algebra into its even-degree and odd-degree parts."
 aliases = ["parity decomposition of the exterior algebra", "even exterior algebra", "odd exterior algebra"]
 domains = ["lie-groups", "algebra-modules", "supergeometry"]
-prerequisites = ["algebra-modules/exterior-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-modules/exterior-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a module \(V\), the [[algebra-modules/exterior-algebra|exterior algebra]] has a canonical parity decomposition

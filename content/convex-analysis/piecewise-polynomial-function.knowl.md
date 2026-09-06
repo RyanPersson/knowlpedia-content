@@ -6,6 +6,7 @@ summary = "A function represented by polynomial formulas on a finite semialgebra
 aliases = ["piecewise polynomial", "piecewise-polynomial function"]
 domains = ["convex-analysis", "algebra-rings"]
 prerequisites = ["convex-analysis/semialgebraic-set"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

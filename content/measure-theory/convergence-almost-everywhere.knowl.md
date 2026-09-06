@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Convergence of functions pointwise outside a null set."
 aliases = ["convergence-almost-everywhere", "Almost everywhere convergence"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/sequence","measure-theory/measurable-function","measure-theory/measure-space","measure-theory/null-set","real-analysis/limit-of-a-sequence"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/convergence-almost-everywhere.md"
+prerequisites = ["shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/measure-space", "measure-theory/null-set", "real-analysis/limit-of-a-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Almost everywhere convergence** of a [[shared-foundations/sequence|sequence]] of measurable functions means the following: a sequence \((f_n)\) of [[measure-theory/measurable-function|measurable functions]] on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) **converges almost everywhere** to a function \(f\) if there exists a [[measure-theory/null-set|null set]] \(N\subseteq X\) such that for every \(x\in X\setminus N\) the [[real-analysis/limit-of-a-sequence|limit of a sequence]] \(f_n(x)\to f(x)\) holds as \(n\to\infty\).

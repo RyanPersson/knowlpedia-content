@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Convergence of a sequence of functions at each fixed point of the domain."
 aliases = ["pointwise-convergence", "Pointwise convergence"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/uniform-convergence", "topology/convergent-sequence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/pointwise-convergence.md"
+prerequisites = ["shared-foundations/function", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Pointwise convergence** of a sequence of functions \((f_n)\) to a function \(f\) on a set \(X\) means: for every \(x\in X\), the real sequence \((f_n(x))\) converges to \(f(x)\), i.e.

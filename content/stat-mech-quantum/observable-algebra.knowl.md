@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A unital star-algebra of operators whose self-adjoint elements represent observables."
 aliases = ["observable-algebra", "Observable algebra"]
 domains = ["stat-mech-quantum"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/observable-algebra.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal H\) be a finite-dimensional complex Hilbert space. An **observable algebra** is a unital \(*\)-subalgebra

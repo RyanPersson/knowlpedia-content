@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The diffeomorphism of a Lie group given by multiplying on the right by a fixed element."
 aliases = ["right-translation", "Right Translation"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/right-translation.md"
+prerequisites = ["fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and fix \(g\in G\). The **right translation** by \(g\) is the map

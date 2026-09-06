@@ -6,6 +6,9 @@ summary = "Real analysis, metric spaces, and function spaces."
 aliases = ["analysis"]
 domains = ["analysis"]
 legacy_source_path = "analysis/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Definitions

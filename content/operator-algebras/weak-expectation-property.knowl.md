@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A unital C*-algebra has WEP when every faithful representation admits a weak expectation from all bounded operators into its bidual."
 aliases = ["WEP"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/unital-completely-positive-map", "operator-algebras/von-neumann-algebra", "operator-algebras/bicommutant"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/unital-completely-positive-map", "operator-algebras/von-neumann-algebra", "operator-algebras/bicommutant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[operator-algebras/unital-cstar-algebra|unital \(C^*\)-algebra]] \(A\)

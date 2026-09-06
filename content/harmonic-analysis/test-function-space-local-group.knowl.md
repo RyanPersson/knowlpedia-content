@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The compactly supported smooth functions on an archimedean Lie group or locally constant compactly supported functions on a locally profinite group."
 aliases = ["test functions on a local group", "C_c infinity of a local group", "local-group test-function space"]
 domains = ["harmonic-analysis", "langlands", "functional-analysis"]
-prerequisites = ["algebra-fields-galois/local-field","fiber-bundles/lie-group","topology/locally-profinite-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/local-field", "fiber-bundles/lie-group", "topology/locally-profinite-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a [[algebra-fields-galois/local-field|local field]] and let \(G(F)\) be a local group. Its **test-function space** is

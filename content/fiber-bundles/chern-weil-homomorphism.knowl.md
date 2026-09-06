@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The graded-algebra map from invariant polynomials on a Lie algebra to de Rham cohomology."
 aliases = ["Chern-Weil map", "Weil homomorphism"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-algebra", "fiber-bundles/invariant-polynomial-on-a-lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-algebra", "fiber-bundles/invariant-polynomial-on-a-lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with [[lie-groups/lie-algebra|Lie algebra \(\mathfrak g\)]], and write

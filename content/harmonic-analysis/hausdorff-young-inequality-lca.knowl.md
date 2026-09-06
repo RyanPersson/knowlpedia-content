@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The Fourier transform maps Lp of a locally compact abelian group boundedly into Lq of its dual when 1 is at most p and p is at most 2."
 aliases = ["Hausdorff-Young inequality", "Lp Fourier estimate"]
 domains = ["harmonic-analysis", "measure-theory", "functional-analysis"]
-prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/fourier-transform-lca", "shared-foundations/equivalence-class", "measure-theory/lp-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/fourier-transform-lca", "measure-theory/lp-space", "shared-foundations/equivalence-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] that

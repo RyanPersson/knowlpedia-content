@@ -5,12 +5,15 @@ kind = "theorem"
 summary = "A normally hyperbolic operator on a globally hyperbolic spacetime has unique future and past Green operators."
 aliases = ["existence of causal Green operators", "Green hyperbolicity of normally hyperbolic operators"]
 domains = ["mathematical-physics", "partial-differential-equations"]
-prerequisites = ["mathematical-physics/normally-hyperbolic-operator","differential-geometry/globally-hyperbolic-spacetime","mathematical-physics/advanced-and-retarded-green-operators"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/normally-hyperbolic-operator", "differential-geometry/globally-hyperbolic-spacetime"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Every [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic operator]] on a vector bundle over a [[differential-geometry/globally-hyperbolic-spacetime|globally hyperbolic spacetime]] has unique future and past [[mathematical-physics/advanced-and-retarded-green-operators|Green operators]] \(G^+\) and \(G^-\).
+
+## Operator identities and propagator
 
 For each compactly supported source \(f\), the sections \(G^+f\) and \(G^-f\) solve \(Pu=f\) with supports in \(J^+(\operatorname{supp}f)\) and \(J^-(\operatorname{supp}f)\), respectively. The uniqueness is as Green operators satisfying both-sided identities on compactly supported sections; the one-sided equation and support condition alone do not state operator-level uniqueness. Their difference
 \[

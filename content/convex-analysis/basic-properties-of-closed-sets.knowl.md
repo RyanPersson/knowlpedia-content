@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Intersections of closed sets are closed; finite unions of closed sets are closed"
 aliases = ["basic-properties-of-closed-sets", "Basic properties of closed sets"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/closed-subset"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/basic-properties-of-closed-sets.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/closed-subset", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A function space whose weak derivatives through a specified order are integrable to a fixed power."
 aliases = ["W^{k,p} space", "H^k space"]
 domains = ["functional-analysis", "partial-differential-equations"]
-prerequisites = ["shared-foundations/equivalence-class", "functional-analysis/weak-derivative", "linear-algebra/banach-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["shared-foundations/equivalence-class", "functional-analysis/weak-derivative", "linear-algebra/banach-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Omega\subseteq\mathbb R^n\) be open, let \(k\) be a nonnegative

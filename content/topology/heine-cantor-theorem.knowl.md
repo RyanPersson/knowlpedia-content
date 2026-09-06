@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous function on a compact metric space is uniformly continuous."
 aliases = ["heine-cantor-theorem", "Heine-Cantor theorem"]
 domains = ["topology"]
-prerequisites = ["topology/continuous-map", "topology/compact-set", "topology/metric-space", "real-analysis/uniform-continuity"]
-dependency_review_count = 1
 legacy_source_path = "topology/heine-cantor-theorem.md"
+prerequisites = ["topology/continuous-map", "topology/compact-set", "topology/metric-space", "real-analysis/uniform-continuity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Heine-Cantor theorem** states: if \(f: K \to Y\) is a [[topology/continuous-map|continuous function]] from a [[topology/compact-set|compact]] [[topology/metric-space|metric space]] \(K\) to a metric space \(Y\), then \(f\) is [[real-analysis/uniform-continuity|uniformly continuous]].

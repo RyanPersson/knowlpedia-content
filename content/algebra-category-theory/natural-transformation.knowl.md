@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A morphism between functors given by components that commute with all structure maps."
 aliases = ["natural-transformation", "Natural transformation"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/natural-transformation.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C,\mathcal D\) be [[algebra-category-theory/category|categories]], and let \(F,G:\mathcal C\to\mathcal D\) be [[algebra-category-theory/functor|functors]].

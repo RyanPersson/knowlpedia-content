@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point where a differentiable map has maximal rank or a surjective derivative"
 aliases = ["regular-point", "Regular point"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/frechet-derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/regular-point.md"
+prerequisites = ["real-analysis/frechet-derivative", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **regular point** of a differentiable map \(F:U\to \mathbb{R}^m\), where \(U\subseteq\mathbb R^n\) is open, is a point \(a\in U\) such that the [[real-analysis/frechet-derivative|Fréchet derivative]] \(DF(a):\mathbb{R}^n\to \mathbb{R}^m\) is surjective.

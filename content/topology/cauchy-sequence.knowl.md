@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence in a metric space whose terms become arbitrarily close to each other."
 aliases = ["cauchy-sequence", "Cauchy sequence"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "topology/cauchy-sequence.md"
+prerequisites = ["shared-foundations/sequence", "topology/metric-space"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **Cauchy sequence** \((x_n)\) in a metric space \((X,d)\) is a sequence such that for every \(\varepsilon>0\) there exists \(N\) with

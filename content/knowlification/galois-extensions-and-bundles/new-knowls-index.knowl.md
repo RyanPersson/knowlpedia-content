@@ -5,6 +5,9 @@ kind = "index"
 summary = "The new definitions and bridge results added while knowlifying the Galois Extensions and Bundles conversation."
 aliases = ["Galois Extensions and Bundles new knowls"]
 domains = ["knowlification"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This temporary index lists every knowl added for the conversation. Click any term to expand it in place.

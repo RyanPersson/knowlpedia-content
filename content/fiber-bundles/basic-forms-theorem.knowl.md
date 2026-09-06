@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Characterizes which differential forms on a principal bundle descend to the base manifold."
 aliases = ["basic-forms-theorem", "Basic forms theorem"]
 domains = ["fiber-bundles"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/basic-forms-theorem.md"
+prerequisites = ["fiber-bundles/horizontal-differential-form-on-a-principal-bundle", "fiber-bundles/invariant-differential-form", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle with right action \(R_g:P\to P\). A differential form \(\alpha \in \Omega^k(P)\) is called **basic** if it satisfies:

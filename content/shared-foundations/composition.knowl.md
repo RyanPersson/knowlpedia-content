@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Forming a new function by applying one function after another"
 aliases = ["composition", "Composition of functions"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 2
 legacy_source_path = "shared-foundations/composition.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **composition of functions** is the function obtained by applying one function after another: if \(f:A\to B\) and \(g:B\to C\) are [[shared-foundations/function|functions]] (so the codomain of \(f\) matches the domain of \(g\)), then the composition \(g\circ f:A\to C\) is defined by

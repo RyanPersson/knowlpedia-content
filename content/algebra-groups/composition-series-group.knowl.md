@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subnormal series with simple successive quotients"
 aliases = ["composition-series-group", "Composition series"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subnormal-series", "algebra-groups/quotient-group", "algebra-groups/simple-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/composition-series-group.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subnormal-series", "algebra-groups/quotient-group", "algebra-groups/simple-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. A **composition series** for \(G\) is a finite chain of subgroups

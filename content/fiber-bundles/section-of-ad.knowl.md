@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth choice of an element in each fiber of the adjoint bundle, equivalently a globally defined gauge function with conjugation gluing laws."
 aliases = ["section-of-ad", "Section of Ad(P)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/section-of-ad.md"
+prerequisites = ["fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/smooth-map", "fiber-bundles/gauge-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathrm{Ad}(P)\to M\) be the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]] of a principal \(G\)-bundle \(P\).

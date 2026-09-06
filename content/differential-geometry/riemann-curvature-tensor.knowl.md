@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Riemann curvature tensor measures the failure of Levi–Civita covariant derivatives to commute."
 aliases = ["Riemannian curvature tensor", "Riemann tensor"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a [[differential-geometry/riemannian-manifold|Riemannian manifold]] with [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]] \(\nabla\). Its **Riemann curvature tensor** is the \((1,3)\)-tensor

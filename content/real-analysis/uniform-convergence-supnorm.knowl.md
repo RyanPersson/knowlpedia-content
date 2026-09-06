@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For bounded real-valued functions, uniform convergence is equivalent to convergence in the supremum norm."
 aliases = ["uniform-convergence-supnorm", "Uniform convergence in supremum norm"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/uniform-convergence", "real-analysis/supremum-norm"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence-supnorm.md"
+prerequisites = ["real-analysis/uniform-convergence", "real-analysis/supremum-norm"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Uniform convergence in supremum norm:** Let \(E\) be a set and let \(f_n,f:E\to\mathbb{R}\) be bounded functions. Then \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]] on \(E\) if and only if

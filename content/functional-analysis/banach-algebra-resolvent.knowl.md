@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The inverse of the scalar shift of a Banach-algebra element, defined on its resolvent set."
 aliases = ["resolvent set", "resolvent function"]
 domains = ["functional-analysis", "operator-algebras"]
-prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-invertible-element", "operator-algebras/unitization"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-invertible-element", "functional-analysis/banach-algebra-spectrum", "operator-algebras/unitization"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a complex unital [[functional-analysis/banach-algebra|Banach algebra]] with identity \(1\), and let \(a\in A\). The **resolvent set** of \(a\) is

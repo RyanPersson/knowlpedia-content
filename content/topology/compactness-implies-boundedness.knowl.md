@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a metric space, every compact set is bounded"
 aliases = ["compactness-implies-boundedness", "Compactness implies boundedness"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/compact-set", "topology/bounded-set", "topology/diameter"]
-dependency_review_count = 1
 legacy_source_path = "topology/compactness-implies-boundedness.md"
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/bounded-set", "topology/diameter"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Compactness implies boundedness:** Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(K\subseteq X\) be a [[topology/compact-set|compact set]]. Then \(K\) is a [[topology/bounded-set|bounded set]]; equivalently, \(\operatorname{diam}(K)<\infty\), where \(\operatorname{diam}\) is the [[topology/diameter|diameter]] induced by \(d\).

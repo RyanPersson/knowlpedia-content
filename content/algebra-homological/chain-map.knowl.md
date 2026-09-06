@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A degreewise module homomorphism between chain complexes commuting with differentials."
 aliases = ["chain-map", "Chain map"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-homological/chain-complex", "algebra-homological/homology-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/chain-map.md"
+prerequisites = ["algebra-homological/chain-complex", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((C_\bullet,d^C)\) and \((D_\bullet,d^D)\) be [[algebra-homological/chain-complex|chain complexes]] of \(R\)-modules.

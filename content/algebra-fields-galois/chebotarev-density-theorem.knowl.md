@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Frobenius conjugacy classes of unramified primes are equidistributed in a finite Galois group."
 aliases = ["Chebotarev theorem", "Chebotarev density"]
 domains = ["algebra-fields-galois", "number-theory", "langlands"]
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/number-field", "algebra-fields-galois/galois-group", "algebra-groups/conjugacy-class", "langlands-letter/knowls/frobenius-unramified"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/number-field", "algebra-fields-galois/galois-group", "algebra-groups/conjugacy-class", "langlands-letter/knowls/frobenius-unramified"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L/K\) be a finite

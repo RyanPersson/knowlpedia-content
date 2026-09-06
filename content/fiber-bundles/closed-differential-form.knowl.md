@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differential form whose exterior derivative vanishes."
 aliases = ["closed-differential-form", "Closed differential form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/closed-differential-form.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A [[fiber-bundles/differential-k-form|differential \(k\)-form]] \(\omega\in\Omega^k(M)\) is **closed** if its [[fiber-bundles/exterior-derivative|exterior derivative]] vanishes:

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring in which the product of nonzero ideals is never zero."
 aliases = ["prime-ring", "Prime ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/two-sided-ideal", "algebra-rings/product-of-ideals"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/prime-ring.md"
+prerequisites = ["algebra-rings/ring", "algebra-rings/two-sided-ideal", "algebra-rings/product-of-ideals"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **prime ring** is a [[algebra-rings/ring|ring]] \(R\) such that for any nonzero [[algebra-rings/two-sided-ideal|two-sided ideals]] \(A,B\subseteq R\), one has \(AB\neq 0\), where \(AB\) denotes the [[algebra-rings/product-of-ideals|product of ideals]]. Equivalently: if \(A\) and \(B\) are ideals with \(AB=0\), then \(A=0\) or \(B=0\).

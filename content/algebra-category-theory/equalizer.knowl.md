@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A universal solution E → A making two parallel morphisms A ⇉ B equal after composition."
 aliases = ["equalizer"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/equalizer.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and let \(f,g:A\to B\) be parallel [[algebra-category-theory/morphism|morphisms]] in \(\mathcal C\).

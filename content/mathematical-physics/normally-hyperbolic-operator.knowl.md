@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A second-order operator whose principal symbol is the negative Lorentzian inverse metric times the identity."
 aliases = ["normally hyperbolic differential operator", "wave operator on a vector bundle"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
-prerequisites = ["differential-geometry/lorentzian-manifold","differential-geometry/principal-symbol"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/principal-symbol"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] and \(E\to M\) a smooth vector bundle. A second-order differential operator

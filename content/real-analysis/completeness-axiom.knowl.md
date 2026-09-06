@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every nonempty set of real numbers that is bounded above has a least upper bound."
 aliases = ["completeness-axiom", "Completeness Axiom"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/completeness-axiom.md"
+prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Completeness axiom (least upper bound property):** If \(A \subseteq \mathbb{R}\) is nonempty and [[real-analysis/bounded-above|bounded above]], then \(A\) has a [[real-analysis/supremum|supremum]] in \(\mathbb{R}\).

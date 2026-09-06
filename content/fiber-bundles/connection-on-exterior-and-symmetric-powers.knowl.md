@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The connections induced on exterior and symmetric power bundles by differentiating one tensor factor at a time."
 aliases = ["induced connection on tensor powers", "connection on Lambda^k E", "connection on Sym^k E"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/symmetric-power-bundle", "fiber-bundles/tensor-product-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/symmetric-power-bundle", "fiber-bundles/tensor-product-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|real or complex vector bundle]] with connection \(\nabla\). The **induced connections** on the [[fiber-bundles/exterior-power-bundle|exterior power]] \(\Lambda^kE\) and [[fiber-bundles/symmetric-power-bundle|symmetric power]] \(\operatorname{Sym}^kE\) are the unique connections satisfying

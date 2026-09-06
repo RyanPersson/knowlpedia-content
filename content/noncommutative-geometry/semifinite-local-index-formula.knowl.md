@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A residue-cocycle formula computing trace-valued index pairings for regular summable spectral triples in semifinite von Neumann algebras."
 aliases = ["semifinite residue cocycle", "local index formula relative to tau"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/tau-summable-spectral-triple", "noncommutative-geometry/semifinite-index-pairing", "noncommutative-geometry/spectral-flow"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/tau-summable-spectral-triple", "noncommutative-geometry/semifinite-index-pairing", "noncommutative-geometry/spectral-flow"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,\mathcal N,D,\tau)\) be a regular, finitely [[noncommutative-geometry/tau-summable-spectral-triple|tau-summable semifinite spectral triple]] with isolated dimension spectrum and the analytic-continuation hypotheses of Carey–Phillips–Rennie–Sukochev. The **semifinite local index formula** represents its Chern character by a finite residue cocycle built from \(\tau\), elements \(a_j\), commutators \([D,a_j]\), and iterated commutators with \(D^2\). Pairing this cocycle with \(K_1(\mathcal A)\) in odd parity or \(K_0(\mathcal A)\) in even parity equals the [[noncommutative-geometry/semifinite-index-pairing|Breuer-index pairing]]. In odd parity it also computes semifinite [[noncommutative-geometry/spectral-flow|spectral flow]] from \(D\) to \(uDu^*\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module is projective iff every short exact sequence ending in it splits."
 aliases = ["projective-ses-criterion", "Projective short exact sequence criterion"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/projective-module", "algebra-modules/short-exact-sequence", "algebra-modules/split-exact-sequence", "algebra-modules/splitting-lemma"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/projective-ses-criterion.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/projective-module", "algebra-modules/short-exact-sequence", "algebra-modules/splitting-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Projective s.e.s. criterion**: An \(R\)-[[algebra-modules/module|module]] \(P\) is [[algebra-modules/projective-module|projective]] if and only if every [[algebra-modules/short-exact-sequence|short exact sequence]]

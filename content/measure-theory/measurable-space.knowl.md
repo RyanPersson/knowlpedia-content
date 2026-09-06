@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set equipped with a sigma-algebra of measurable subsets."
 aliases = ["measurable-space", "Measurable space"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/set","measure-theory/sigma-algebra"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-space.md"
+prerequisites = ["shared-foundations/set", "measure-theory/sigma-algebra"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **measurable space** is a pair \((X,\Sigma)\) consisting of a [[shared-foundations/set|set]] \(X\) and a [[measure-theory/sigma-algebra|sigma-algebra]] \(\Sigma\) on \(X\).

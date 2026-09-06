@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The obstruction to extending canonical quantization consistently to every polynomial observable on a finite-dimensional linear phase space."
 aliases = ["Groenewold-Van Hove theorem", "Groenewold-Van Hove obstruction", "no-go theorem for canonical quantization"]
 domains = ["mathematical-physics", "differential-geometry", "functional-analysis"]
-prerequisites = ["mathematical-physics/quantization-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/quantization-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For the standard symplectic space \(\mathbb R^{2n}\), there is no [[mathematical-physics/quantization-map|quantization map]] on the full Poisson algebra of polynomial observables that simultaneously extends the Schrödinger quantization of the canonical affine observables, sends \(1\) to the identity, satisfies the exact Dirac rule

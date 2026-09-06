@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth right inverse to a fiber-bundle projection, selecting one point in every fiber."
 aliases = ["smooth section", "global section", "cross-section", "section of a smooth fiber bundle", "bundle section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. A **smooth global section** of \(\pi\) is a [[fiber-bundles/smooth-map|smooth map]] \(s:M\to E\) satisfying

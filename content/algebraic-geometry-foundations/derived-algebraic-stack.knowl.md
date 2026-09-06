@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A derived stack with representable diagonal and a smooth surjective atlas by derived affine schemes."
 aliases = ["derived Artin stack", "derived algebraic stack"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/grothendieck-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/grothendieck-topology", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **derived algebraic stack**, or **derived Artin stack**, is a stack

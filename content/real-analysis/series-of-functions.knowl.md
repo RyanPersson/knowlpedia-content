@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An infinite sum of functions defined through its partial sums."
 aliases = ["series-of-functions", "Series of functions"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/series-of-functions.md"
+prerequisites = ["real-analysis/series", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **series of functions** on a set \(X\) is an expression \(\sum_{n=0}^\infty f_n\) where each \(f_n:X\to\mathbb{R}\) (or \(X\to\mathbb{C}\)). Its **partial sums** are the functions

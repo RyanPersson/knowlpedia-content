@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smoothly varying inner product on the fibers of a real vector bundle."
 aliases = ["bundle-metric", "Bundle metric"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-metric.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth real vector bundle over a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **bundle metric** on \(E\) is an assignment of an inner product

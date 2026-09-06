@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The compactly supported A-valued convolution algebra associated with a C*-dynamical system."
 aliases = ["covariant convolution algebra", "C_c(G,A)"]
 domains = ["operator-algebras", "harmonic-analysis"]
-prerequisites = ["operator-algebras/cstar-dynamical-system", "harmonic-analysis/haar-measure", "harmonic-analysis/modular-function", "linear-algebra/vector-space", "operator-algebras/involutive-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-dynamical-system", "harmonic-analysis/haar-measure", "harmonic-analysis/modular-function", "linear-algebra/vector-space", "operator-algebras/involutive-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dynamical system]], fix a left [[harmonic-analysis/haar-measure|Haar measure]] \(ds\), and let \(\Delta\) be the [[harmonic-analysis/modular-function|modular function]] of \(G\). The **crossed-product convolution \(*\)-algebra** is the [[linear-algebra/vector-space|vector space]] \(C_c(G,A)\) of continuous compactly supported functions \(G\to A\), with

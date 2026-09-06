@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The universal ring in which every element of a multiplicative subset becomes invertible."
 aliases = ["localization-ring", "Localization of a ring"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-ring.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and \(S\subseteq R\) a [[algebra-commutative/multiplicative-set|multiplicative set]]. A **localization of \(R\) at \(S\)** is a commutative ring \(S^{-1}R\) with a homomorphism

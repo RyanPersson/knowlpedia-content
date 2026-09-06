@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A function holomorphic away from isolated poles, equivalently locally a quotient of holomorphic functions."
 aliases = ["meromorphic map to the Riemann sphere"]
 domains = ["complex-analysis", "differential-geometry"]
-prerequisites = ["complex-analysis/complex-domain"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **meromorphic function** on a [[complex-analysis/complex-domain|domain]] \(D\) is a function holomorphic away from a discrete subset \(P\subset D\) such that every point of \(P\) is a pole. Equivalently, it is locally a quotient \(g/h\) of holomorphic functions with \(h\) not identically zero.

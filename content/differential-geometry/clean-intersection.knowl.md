@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An intersection of submanifolds whose set and tangent spaces fit together without a tangent-space jump."
 aliases = ["cleanly intersecting submanifolds"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/tangent-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/tangent-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\) and \(T\) be [[differential-geometry/embedded-submanifold|embedded submanifolds]] of a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). They **intersect cleanly** if \(C=S\cap T\) is an embedded submanifold of \(M\) and, at every \(p\in C\),

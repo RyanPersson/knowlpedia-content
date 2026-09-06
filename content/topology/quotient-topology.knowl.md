@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The finest topology on a codomain that makes a given surjection continuous."
 aliases = ["quotient-topology", "Quotient topology"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/surjective-function", "topology/topological-space", "topology/open-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/quotient-topology.md"
+prerequisites = ["shared-foundations/surjective-function", "topology/topological-space", "topology/open-set", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 The **quotient topology** on a set \(Y\) induced by a [[shared-foundations/surjective-function|surjective function]] \(q:X\to Y\) from a [[topology/topological-space|topological space]] \(X\) is defined by declaring a subset \(U\subseteq Y\) to be [[topology/open-set|open]] if and only if \(q^{-1}(U)\) is open in \(X\).

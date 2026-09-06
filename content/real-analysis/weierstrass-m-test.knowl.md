@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A comparison test giving uniform convergence of a series of functions from an absolutely convergent numerical majorant."
 aliases = ["weierstrass-m-test", "Weierstrass M-test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/convergent-series", "real-analysis/series-of-functions", "real-analysis/uniform-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/weierstrass-m-test.md"
+prerequisites = ["real-analysis/convergent-series", "real-analysis/series-of-functions", "real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Weierstrass M-test:** Let \(E\) be a set and let \(f_n:E\to\mathbb{R}\) (or \(\mathbb{C}\)) be functions. Assume there exist numbers \(M_n\ge 0\) such that

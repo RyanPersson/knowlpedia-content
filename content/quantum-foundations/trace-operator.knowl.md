@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A basis-independent scalar associated to a linear operator, equal to the sum of diagonal entries or eigenvalues in finite dimension."
 aliases = ["trace-operator", "Trace of an Operator"]
 domains = ["quantum-foundations"]
-prerequisites = ["linear-algebra/trace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/trace-operator.md"
+prerequisites = ["linear-algebra/trace", "linear-algebra/orthonormal-basis"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a finite-dimensional complex Hilbert space and let \(A:H\to H\) be a linear operator. The **trace** of \(A\), denoted \(\operatorname{Tr}(A)\), is defined by choosing any orthonormal basis \((e_1,\dots,e_n)\) and setting

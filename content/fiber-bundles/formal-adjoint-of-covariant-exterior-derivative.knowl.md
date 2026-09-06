@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The covariant codifferential is the formal adjoint of the covariant exterior derivative with respect to the bundle-valued L2 pairing."
 aliases = ["covariant codifferential", "d_A star"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/l2-inner-product-on-bundle-valued-forms"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/l2-inner-product-on-bundle-valued-forms", "differential-geometry/hodge-star-operator", "real-analysis/integration-by-parts"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an oriented \(n\)-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary, and let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] and compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(A\). The **formal adjoint of the covariant exterior derivative** is the operator

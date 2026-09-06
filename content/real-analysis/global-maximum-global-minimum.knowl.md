@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A point where a function attains its maximum or minimum value on its entire domain."
 aliases = ["global-maximum-global-minimum", "Global maximum and global minimum"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/global-maximum-global-minimum.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:E\to\mathbb{R}\) and let \(a\in E\).

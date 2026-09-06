@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A convergent sequence in a metric space must lie in some ball"
 aliases = ["convergent-sequences-are-bounded", "Convergent sequences are bounded"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convergence-of-a-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/convergent-sequences-are-bounded.md"
+prerequisites = ["convex-analysis/convergence-of-a-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

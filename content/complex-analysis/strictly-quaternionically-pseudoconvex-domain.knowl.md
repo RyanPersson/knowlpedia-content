@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A smooth bounded quaternionic domain admitting local strictly quaternionic PSH defining functions."
 aliases = ["quaternionic strictly pseudoconvex domain", "strict q-pseudoconvexity"]
 domains = ["complex-analysis", "quaternionic-analysis", "partial-differential-equations"]
-prerequisites = ["complex-analysis/strictly-quaternionic-plurisubharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/strictly-quaternionic-plurisubharmonic-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A bounded domain \(\Omega\subseteq\mathbb H^n\) with smooth boundary is

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The smooth manifold structure on an orbit space arising from a free and proper Lie group action."
 aliases = ["quotient-manifold", "Quotient manifold (for a free proper action)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/quotient-manifold.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[fiber-bundles/lie-group|Lie group]] \(G\) act smoothly, freely, and properly on a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Then the orbit space \(M/G\) admits a unique smooth manifold structure for which the quotient map \(\pi:M\to M/G\) is a smooth submersion. Moreover:

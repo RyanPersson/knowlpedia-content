@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A band whose nullset is closed under the fusion rule."
 aliases = ["band satisfying fusion", "band with fusion"]
 domains = ["algebra-hyperstructures"]
-prerequisites = ["algebra-hyperstructures/band", "algebra-hyperstructures/null-set-of-a-band", "algebra-hyperstructures/fusion-rule-for-bands"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/band", "algebra-hyperstructures/null-set-of-a-band", "algebra-hyperstructures/fusion-rule-for-bands"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **fusion band** is a [[algebra-hyperstructures/band|band]] \(B\) whose

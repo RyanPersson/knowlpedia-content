@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A polynomial is separable iff it has no repeated roots in an algebraic closure (equivalently gcd(f,f')=1)."
 aliases = ["separable-distinct-roots", "Separable polynomials have distinct roots"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/splitting-field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separable-distinct-roots.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/splitting-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a [[algebra-rings/field|field]] and \(f(x)\in K[x]\) be nonzero. In an [[algebra-fields-galois/algebraic-closure|algebraic closure]] \(\overline K\), the following are equivalent:

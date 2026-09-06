@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "In characteristic zero, the distribution algebra of a smooth formal group is canonically its tangent Lie algebra's universal enveloping algebra."
 aliases = ["Dist(G) equals U(Lie(G))", "distribution–enveloping-algebra theorem"]
 domains = ["formal-groups", "lie-groups", "algebra-coalgebras"]
-prerequisites = ["formal-groups/formal-group", "lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra", "formal-groups/distribution-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["formal-groups/formal-group", "lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra", "formal-groups/distribution-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field of characteristic zero and let \(G\) be a

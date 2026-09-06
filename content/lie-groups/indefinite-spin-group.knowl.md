@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The even Clifford group Spin(p,q) associated with a nondegenerate real quadratic form of mixed signature."
 aliases = ["Spin(p,q)", "pseudo-Riemannian spin group"]
 domains = ["lie-groups", "differential-geometry"]
-prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "lie-groups/indefinite-pin-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "lie-groups/indefinite-pin-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,q)\) be a real [[linear-algebra/quadratic-form|quadratic space]] of

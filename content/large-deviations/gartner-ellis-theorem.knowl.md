@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A large deviation principle obtained from limits of scaled log moment generating functions."
 aliases = ["gartner-ellis-theorem", "Gärtner–Ellis theorem"]
 domains = ["large-deviations"]
-prerequisites = ["probability/random-variable", "large-deviations/log-moment-generating-function", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "convex-analysis/legendre-fenchel-transform"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/gartner-ellis-theorem.md"
+prerequisites = ["probability/random-variable", "large-deviations/log-moment-generating-function", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "large-deviations/good-rate-function", "convex-analysis/legendre-fenchel-transform"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Gärtner–Ellis theorem.** Let \((Z_n)\) be \(\mathbb{R}^d\)-valued [[probability/random-variable|random variables]] and let \(a_n\to\infty\). Define the scaled [[large-deviations/log-moment-generating-function|log moment generating function]]

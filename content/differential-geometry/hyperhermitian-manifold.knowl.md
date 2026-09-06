@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A hypercomplex manifold with a Riemannian metric Hermitian for all three complex structures."
 aliases = ["hyperhermitian manifold", "hyper-Hermitian metric"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/hypercomplex-manifold", "differential-geometry/riemannian-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hypercomplex-manifold", "differential-geometry/riemannian-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **hyper-Hermitian manifold** is a [[differential-geometry/hypercomplex-manifold|hypercomplex manifold]] \((M,I,J,K)\) together with a [[differential-geometry/riemannian-manifold|Riemannian metric]] \(g\) that is Hermitian for each member of the hypercomplex triple:

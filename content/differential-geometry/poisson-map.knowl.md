@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Poisson map is a smooth map whose pullback preserves Poisson brackets."
 aliases = ["Poisson morphism"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/poisson-manifold", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/poisson-manifold", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\{-,-\}_M)\) and \((N,\{-,-\}_N)\) be [[differential-geometry/poisson-manifold|Poisson manifolds]]. A [[fiber-bundles/smooth-map|smooth map]] \(\Phi:M\to N\) is a **Poisson map** if

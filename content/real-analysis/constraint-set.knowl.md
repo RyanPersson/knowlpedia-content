@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset defined by one or more equations or inequalities that restrict admissible points"
 aliases = ["constraint-set", "Constraint set"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/constraint-set.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/preimage", "real-analysis/lagrange-multipliers-theorem", "fiber-bundles/regular-value", "real-analysis/implicitly-defined-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **constraint set** is a subset of a domain \(U\subseteq \mathbb{R}^n\) described by one or more constraints, commonly written as a level set

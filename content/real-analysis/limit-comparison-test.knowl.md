@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two positive series with asymptotically proportional terms converge or diverge together."
 aliases = ["limit-comparison-test", "Limit Comparison Test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-comparison-test.md"
+prerequisites = ["real-analysis/series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Limit comparison test:** Let \(\sum_{n=1}^\infty a_n\) and \(\sum_{n=1}^\infty b_n\) be [[real-analysis/series|series]] with \(a_n>0\) and \(b_n>0\) for all sufficiently large \(n\). Suppose the limit

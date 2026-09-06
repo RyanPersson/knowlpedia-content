@@ -6,6 +6,9 @@ summary = "Definitions from Shale's 1962 paper on linear symmetries of the free 
 aliases = ["shale-paper", "Shale's Paper"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Definitions from David Shale's 1962 paper *"Linear Symmetries of Free Boson Fields"*, which characterizes which symplectic transformations are unitarily implementable in bosonic Fock space.

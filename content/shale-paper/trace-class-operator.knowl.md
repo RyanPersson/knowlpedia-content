@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bounded operator on a Hilbert space whose singular values are summable."
 aliases = ["trace-class-operator", "Trace-Class Operator"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/trace-class-operator.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a Hilbert space and \(X:H\to H\) a bounded operator. The operator \(X\) is **trace-class** if

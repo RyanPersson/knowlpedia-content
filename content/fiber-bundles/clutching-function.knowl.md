@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A map on an overlap used to glue trivial bundles into a global bundle."
 aliases = ["clutching-function", "Clutching function"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-bundle-transition-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/clutching-function.md"
+prerequisites = ["fiber-bundles/principal-bundle-transition-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M=U\cup V\) be an open cover, and let \(G\) be a Lie group. A **clutching function** is a smooth map \(g:U\cap V\to G\) used to construct a principal \(G\)-bundle by identifying the two trivial bundles \(U\times G\) and \(V\times G\) according to

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The dimension of the image of a smooth map's differential at a specified point."
 aliases = ["rank of the differential", "rank at a point"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/differential-of-a-smooth-map", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/differential-of-a-smooth-map", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] and let \(p\in M\). The **rank of \(f\) at \(p\)** is the rank of its [[fiber-bundles/differential-of-a-smooth-map|differential]]

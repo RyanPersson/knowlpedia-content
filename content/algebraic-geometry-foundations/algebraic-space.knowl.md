@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An étale sheaf admitting a representable diagonal and a surjective étale atlas by a scheme."
 aliases = ["algebraic space"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/etale-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/etale-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\) be a scheme. An **algebraic space** over \(S\) is a sheaf \(X\) on

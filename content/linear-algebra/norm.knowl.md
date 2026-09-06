@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function assigning a nonnegative length to vectors."
 aliases = ["norm"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/norm.md"
+prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **norm** on a [[linear-algebra/vector-space|vector space]] \(V\) over \(\mathbb{F}\) is a function \(\|\cdot\|:V\to[0,\infty)\) such that for all \(u,v\in V\) and \(a\in\mathbb{F}\):

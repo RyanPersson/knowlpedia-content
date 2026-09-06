@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An inequality relating a function and its Fenchel conjugate via the dual pairing."
 aliases = ["fenchel-young-inequality", "Fenchel-Young inequality"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/subdifferential"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/fenchel-young-inequality.md"
+prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/subdifferential"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Fenchel–Young inequality.** Let \(f:\mathbb R^n\to(-\infty,+\infty]\) be a proper [[shared-foundations/function|function]], and let \(f^*\) be its [[convex-analysis/convex-conjugate-fenchel|Fenchel conjugate]]. Then, for all \(x,y\in\mathbb R^n\),

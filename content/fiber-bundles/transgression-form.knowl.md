@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A differential form whose exterior derivative is the difference of two characteristic forms coming from different connections"
 aliases = ["transgression-form", "Transgression form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/chernweil-form", "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/transgression-form.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/chernweil-form", "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with Lie algebra \(\mathfrak g\), and let \(\omega_0,\omega_1\) be two [[fiber-bundles/principal-connection|principal connections]] on \(P\) with corresponding [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-forms]] \(\Omega_0,\Omega_1\in\Omega^2(P;\mathfrak g)\).

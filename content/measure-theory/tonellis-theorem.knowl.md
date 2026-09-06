@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Interchange of integrals for nonnegative measurable functions on a product measure space."
 aliases = ["tonellis-theorem", "Tonelli's theorem"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/product-measure","shared-foundations/cartesian-product","measure-theory/lebesgue-integral","measure-theory/measurable-function"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/tonellis-theorem.md"
+prerequisites = ["measure-theory/product-measure", "shared-foundations/cartesian-product", "measure-theory/lebesgue-integral", "measure-theory/measurable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Tonelli's theorem:** Let \((X,\Sigma,\mu)\) and \((Y,\mathcal T,\nu)\) be \(\sigma\)-finite measure spaces, and let \(f:X\times Y\to[0,\infty]\) be \((\Sigma\otimes\mathcal T)\)-measurable. Then the functions

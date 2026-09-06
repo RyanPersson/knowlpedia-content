@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A spectral triple whose algebra and Dirac commutators are smooth for every iterated commutator with the absolute Dirac operator."
 aliases = ["QC-infinity spectral triple", "smooth spectral triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/bounded-commutator", "noncommutative-geometry/smooth-domain-delta"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/bounded-commutator", "noncommutative-geometry/smooth-domain-delta"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) is **regular** if

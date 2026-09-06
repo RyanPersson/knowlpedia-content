@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Tensoring with a fixed module distributes over arbitrary direct sums."
 aliases = ["tensor-preserves-direct-sums", "Tensor product preserves direct sums"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/tensor-product", "algebra-modules/direct-sum-modules", "algebra-modules/tensor-hom-adjunction"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-preserves-direct-sums.md"
+prerequisites = ["algebra-modules/tensor-product", "algebra-modules/direct-sum-modules", "algebra-modules/tensor-hom-adjunction"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Tensor product preserves direct sums.** Let \(M\) be a right \(R\)-module and \(\{N_i\}_{i\in I}\) a family of left \(R\)-modules. There is a canonical isomorphism

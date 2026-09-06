@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every monotone function on a closed interval is Riemann integrable."
 aliases = ["riemann-integrability-monotone", "Riemann integrability of monotone functions"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/monotone-function", "real-analysis/riemann-integrable-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integrability-monotone.md"
+prerequisites = ["real-analysis/monotone-function", "real-analysis/riemann-integrable-function", "real-analysis/discontinuity-point", "real-analysis/oscillation-criterion"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Monotone functions are Riemann integrable:** Let \(a<b\). If \(f:[a,b]\to\mathbb{R}\) is [[real-analysis/monotone-function|monotone]], then \(f\) is a [[real-analysis/riemann-integrable-function|Riemann integrable function]] on \([a,b]\).

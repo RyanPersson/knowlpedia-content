@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point x such that x_n becomes arbitrarily close to x as n→∞."
 aliases = ["limit-of-a-sequence", "Limit of a sequence"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-of-a-sequence.md"
+prerequisites = ["topology/metric-space", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \((x_n)\) be a sequence in \(X\). A point \(x\in X\) is the **limit** of \((x_n)\) if

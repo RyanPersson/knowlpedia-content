@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The Plancherel theorem extends Fourier transformation to a unitary operator between the L2 spaces of a locally compact abelian group and its dual."
 aliases = ["L2 Fourier transform", "Parseval-Plancherel theorem"]
 domains = ["harmonic-analysis", "functional-analysis"]
-prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "functional-analysis/unitary-operator", "linear-algebra/hilbert-space", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "functional-analysis/unitary-operator", "linear-algebra/hilbert-space", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be an [[algebra-groups/abelian-group|abelian]] [[topology/locally-compact-group|locally compact group]] with [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\), and equip its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]] \(\widehat G\) with the [[harmonic-analysis/dual-haar-measure|dual Haar measure]] \(\widehat\mu\). The **Plancherel theorem** states that the [[harmonic-analysis/fourier-transform-lca|Fourier transform]], initially defined on \(L^1(G,\mu)\cap L^2(G,\mu)\), extends uniquely to a [[functional-analysis/unitary-operator|unitary operator]] between complex [[linear-algebra/hilbert-space|Hilbert spaces]],

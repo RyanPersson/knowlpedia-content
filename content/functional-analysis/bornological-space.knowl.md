@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally convex space whose topology is determined by its bounded subsets."
 aliases = ["bornologic space"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/bounded-subset-tvs"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/bounded-subset-tvs", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a Hausdorff [[functional-analysis/locally-convex-space|locally convex space]]. A convex balanced set \(D\subseteq E\) is **bornivorous** if it absorbs every [[functional-analysis/bounded-subset-tvs|bounded subset]] \(B\) of \(E\): for each \(B\), some \(r>0\) satisfies \(B\subseteq tD\) whenever \(\lvert t\rvert\ge r\). The space \(E\) is **bornological** if every bornivorous convex balanced set is a neighborhood of \(0\). Equivalently, the locally convex topology of \(E\) is the finest locally convex topology having the same bounded subsets.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A positive linear map between von Neumann algebras that is ultraweakly continuous."
 aliases = ["normal order-positive map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/positive-linear-map", "operator-algebras/normal-linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/positive-linear-map", "operator-algebras/normal-linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be

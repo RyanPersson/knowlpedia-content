@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A section of a holomorphic bundle that is holomorphic as a map into the total space."
 aliases = ["analytic section", "holomorphic bundle section"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/holomorphic-map", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/holomorphic-map", "fiber-bundles/section-of-a-fiber-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to X\) be a [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]]. A **holomorphic section** over an open set \(U\subseteq X\) is a [[differential-geometry/holomorphic-map|holomorphic map]] \(s:U\to E\) satisfying \(\pi\circ s=\operatorname{id}_U\); in particular, it is a [[fiber-bundles/section-of-a-fiber-bundle|section of the underlying smooth bundle]]. In a holomorphic trivialization \(E|_V\cong V\times\mathbb C^r\), the section has the form \(x\mapsto(x,s^1(x),\ldots,s^r(x))\), where all coefficient functions \(s^j\) are holomorphic. This local condition is independent of the chosen holomorphic trivialization.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The universal C*-completion of an involutive algebra in the maximal norm detected by bounded representations."
 aliases = ["C*-completion", "universal C*-completion", "C*-envelope of a *-algebra", "full C*-completion"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/maximal-cstar-seminorm", "operator-algebras/cstar-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/maximal-cstar-seminorm", "operator-algebras/cstar-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be an [[operator-algebras/involutive-algebra|involutive algebra]]

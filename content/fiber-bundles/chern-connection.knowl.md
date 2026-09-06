@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The unique connection on a Hermitian holomorphic vector bundle compatible with both structures."
 aliases = ["canonical Hermitian connection", "Chern covariant derivative", "Chern connection of a Hermitian holomorphic bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "fiber-bundles/hermitian-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/hermitian-connection", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/hermitian-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to X\) be a [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]] over a [[differential-geometry/complex-manifold|complex manifold]], with [[differential-geometry/holomorphic-map|holomorphic transition maps]] and a [[fiber-bundles/hermitian-metric|Hermitian metric]] \(h\). The **Chern connection** is the unique [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) that is a [[fiber-bundles/hermitian-connection|Hermitian connection]] and whose \((0,1)\)-part equals the bundle Dolbeault operator:

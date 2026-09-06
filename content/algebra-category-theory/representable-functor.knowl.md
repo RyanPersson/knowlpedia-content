@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Set-valued functor naturally isomorphic to a Hom functor."
 aliases = ["representable-functor", "Representable functor"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "shared-foundations/set", "algebra-category-theory/functor", "algebra-category-theory/natural-isomorphism", "algebra-category-theory/contravariant-functor", "algebra-category-theory/opposite-category", "algebra-category-theory/isomorphism-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/representable-functor.md"
+prerequisites = ["algebra-category-theory/category", "shared-foundations/set", "algebra-category-theory/functor", "algebra-category-theory/natural-isomorphism", "algebra-category-theory/contravariant-functor", "algebra-category-theory/opposite-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal{C}\) be a [[algebra-category-theory/category|category]] such that each hom-class \(\mathrm{Hom}_{\mathcal{C}}(A,B)\) is a [[shared-foundations/set|set]] (i.e. \(\mathcal{C}\) is locally small).

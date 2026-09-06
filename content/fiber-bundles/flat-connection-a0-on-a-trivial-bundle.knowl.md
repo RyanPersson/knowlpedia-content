@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The product connection on a trivial bundle whose curvature and holonomy are trivial."
 aliases = ["flat-connection-a0-on-a-trivial-bundle", "Flat connection on a trivial bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/trivial-principal-bundle-mgm", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/flat-connection-a0-on-a-trivial-bundle.md"
+prerequisites = ["fiber-bundles/trivial-principal-bundle-mgm", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P=M\times G\to M\) be the [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\).

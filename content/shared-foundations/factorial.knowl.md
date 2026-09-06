@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "The product of all positive integers up to a given nonnegative integer."
 aliases = ["factorial", "factorials"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/natural-numbers", "shared-foundations/p-adic-valuation"]
+prerequisites = ["shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

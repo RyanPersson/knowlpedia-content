@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "For sigma-unital C-star algebras, strong Morita equivalence is equivalent to stable isomorphism."
 aliases = ["stable isomorphism and strong Morita equivalence"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/approximate-identity", "operator-algebras/compact-operator-cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/strong-morita-equivalence", "linear-algebra/compact-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/approximate-identity", "operator-algebras/compact-operator-cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/strong-morita-equivalence", "linear-algebra/compact-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be \(\sigma\)-unital \(C^*\)-algebras, equivalently \(C^*\)-algebras admitting countable [[operator-algebras/approximate-identity|approximate identities]], and let \(\mathcal K\) be the [[operator-algebras/compact-operator-cstar-algebra|\(C^*\)-algebra of compact operators]] on a separable infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]]. The **Brown–Green–Rieffel stabilization theorem** states that \(A\) and \(B\) are [[operator-algebras/strong-morita-equivalence|strongly Morita equivalent]] if and only if

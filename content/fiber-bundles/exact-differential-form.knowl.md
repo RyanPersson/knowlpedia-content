@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differential form that is the exterior derivative of a form of one lower degree."
 aliases = ["exact-differential-form", "Exact differential form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exact-differential-form.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. Exactness is defined using the [[fiber-bundles/exterior-derivative|exterior derivative]] on [[fiber-bundles/differential-k-form|differential forms]].

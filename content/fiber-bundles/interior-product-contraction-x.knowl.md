@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Insertion of a vector field into a differential form, producing a form of one lower degree."
 aliases = ["interior-product-contraction-x", "Interior product (contraction) ι_X"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/lie-derivative-of-a-differential-form", "fiber-bundles/exterior-derivative"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/interior-product-contraction-x.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/lie-derivative-of-a-differential-form", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(X\) be a [[fiber-bundles/vector-field|vector field]] on \(M\). For a [[fiber-bundles/differential-k-form|differential form]] \(\omega\in\Omega^k(M)\), the **interior product** (or **contraction**) of \(\omega\) by \(X\) is the \((k-1)\)-form \(\iota_X\omega\in\Omega^{k-1}(M)\) defined by

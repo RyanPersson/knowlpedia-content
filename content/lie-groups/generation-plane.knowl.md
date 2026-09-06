@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The real two-plane spanned by the A2 roots of the generation sl3 after choosing a compatible Cartan subalgebra."
 aliases = ["generation plane", "E7 generation plane"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["lie-groups/good-standard-model-embedding-in-e7", "lie-groups/generation-sl3-in-e7", "lie-groups/compatible-cartan-subalgebras", "lie-groups/root-system", "lie-groups/cartan-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/good-standard-model-embedding-in-e7", "lie-groups/generation-sl3-in-e7", "lie-groups/compatible-cartan-subalgebras", "lie-groups/root-system", "lie-groups/cartan-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a [[lie-groups/good-standard-model-embedding-in-e7|good]] \(\mathfrak g_{\mathrm{SM}}\subset\mathfrak e_7\), its [[lie-groups/generation-sl3-in-e7|generation algebra]] \(\mathfrak{sl}_3^{\mathrm{gen}}\), and [[lie-groups/compatible-cartan-subalgebras|compatible Cartan subalgebras]]. If \(A\) is the resulting \(A_2\) [[lie-groups/root-system|root system]] of \(\mathfrak{sl}_3^{\mathrm{gen}}\) inside the real span \(V\) of the \(E_7\) roots, the **generation plane** is

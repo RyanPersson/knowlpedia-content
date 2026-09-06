@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The stabilizer in compact F_4 of an H_2(O) corner of the Albert algebra is Spin(9)."
 aliases = ["Spin(9) subgroup of F4", "octonionic spin-factor stabilizer", "Cayley-plane isotropy"]
 domains = ["nonassociative-algebra", "lie-groups"]
-prerequisites = ["nonassociative-algebra/jordan-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "topology/connected-component"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J=H_3(\mathbb O)\), let \(F_4=\operatorname{Aut}(J)\), and let

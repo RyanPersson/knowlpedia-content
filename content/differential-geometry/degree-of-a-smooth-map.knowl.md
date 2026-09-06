@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An integer measuring the signed number of preimages of a regular value under a proper map of oriented manifolds."
 aliases = ["mapping degree", "topological degree of a smooth map"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/proper-smooth-map", "fiber-bundles/regular-value"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/proper-smooth-map", "fiber-bundles/regular-value", "fiber-bundles/smooth-map", "differential-geometry/integration-of-differential-forms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[differential-geometry/orientation-of-a-smooth-manifold|oriented]] smooth \(n\)-manifolds without boundary, with \(N\) connected, and let \(f:M\to N\) be a [[differential-geometry/proper-smooth-map|proper smooth map]]. For a [[fiber-bundles/regular-value|regular value]] \(y\in N\), the fiber \(f^{-1}(y)\) is finite. At each \(x\in f^{-1}(y)\), the isomorphism \(d f_x:T_xM\to T_yN\) has sign \(+1\) or \(-1\) according as it preserves or reverses orientation. The **degree of \(f\)** is

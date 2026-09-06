@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The subspace of vectors symplectically orthogonal to every vector in a specified subspace."
 aliases = ["symplectic orthogonal", "skew-orthogonal complement", "symplectic complement"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "linear-algebra/orthogonal-complement", "linear-algebra/inner-product"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a [[differential-geometry/symplectic-vector-space|symplectic vector space]] and let \(W\subseteq V\) be a [[convex-analysis/linear-subspace|linear subspace]]. The **symplectic orthogonal complement** of \(W\) is

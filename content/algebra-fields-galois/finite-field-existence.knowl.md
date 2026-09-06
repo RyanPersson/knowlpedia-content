@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Finite fields exist exactly in prime power cardinalities, and can be constructed from irreducible polynomials."
 aliases = ["finite-field-existence", "Existence of Finite Fields"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/finite-field", "algebra-rings/field", "algebra-rings/characteristic", "algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension", "algebra-fields-galois/simple-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-field-existence.md"
+prerequisites = ["algebra-fields-galois/finite-field", "algebra-rings/field", "algebra-rings/characteristic", "algebra-fields-galois/field-extension", "convex-analysis/basis-hamel-basis-and-dimension", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-fields-galois/finite-field|finite field]] is a finite [[algebra-rings/field|field]].

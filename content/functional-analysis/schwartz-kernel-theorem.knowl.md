@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every continuous operator from test functions to distributions is represented uniquely by a distributional kernel."
 aliases = ["kernel theorem", "distribution kernel", "kernel theorem for distributions", "distribution kernel theorem"]
 domains = ["functional-analysis", "distribution-theory"]
-prerequisites = ["functional-analysis/continuous-linear-map", "functional-analysis/test-function-space", "functional-analysis/distribution", "topology/continuous-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/continuous-linear-map", "functional-analysis/test-function-space", "functional-analysis/distribution", "topology/continuous-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\subseteq\mathbb R^m\) and \(Y\subseteq\mathbb R^n\) be open. The

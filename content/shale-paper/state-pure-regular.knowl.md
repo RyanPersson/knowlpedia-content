@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Positive normalized functionals, with purity and CCR-regularity conditions"
 aliases = ["state-pure-regular", "State, Pure State, Regular State (CCR context)"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/state-pure-regular.md"
+prerequisites = ["shale-paper/cstar-algebra-observables"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **state** on a \(C^*\)-algebra \(\mathfrak A\) is a linear functional \(E\) with \(E(I)=1\) and \(E(A^*A)\ge0\).

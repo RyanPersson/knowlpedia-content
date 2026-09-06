@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A self-adjoint energy operator that generates time evolution and determines thermal weights."
 aliases = ["quantum-hamiltonian", "Quantum Hamiltonian"]
 domains = ["stat-mech-quantum"]
-prerequisites = ["stat-mech-quantum/observable-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/quantum-hamiltonian.md"
+prerequisites = ["stat-mech-quantum/observable-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **quantum Hamiltonian** is a densely defined self-adjoint operator \(H\) on the system Hilbert space \(\mathcal H\), representing the system's energy. In finite dimension, \(H\) is a self-adjoint element of the [[stat-mech-quantum/observable-algebra|observable algebra]] and has a spectral decomposition

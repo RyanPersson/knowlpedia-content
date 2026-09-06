@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element that is not a zero divisor (equivalently, multiplication by it is injective)."
 aliases = ["regular-element", "Regular element"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/zero-divisor"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/regular-element.md"
+prerequisites = ["algebra-rings/zero-divisor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring. An element \(a\in R\) is **left regular** if \(ax=ay\) implies \(x=y\) for all \(x,y\in R\), and **right regular** if \(xa=ya\) implies \(x=y\) for all \(x,y\in R\). It is **regular** if it is both left and right regular. In a commutative ring, this is equivalent to saying \(a\) is not a [[algebra-rings/zero-divisor|zero divisor]], i.e. \(ax=0\) implies \(x=0\).

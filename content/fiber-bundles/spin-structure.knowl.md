@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A lift of the oriented orthonormal frame bundle through the double covering Spin(n) to SO(n)."
 aliases = ["spin lift of the frame bundle", "principal Spin bundle"]
 domains = ["fiber-bundles", "differential-geometry", "topology"]
-prerequisites = ["fiber-bundles/special-orthonormal-frame-bundle-reduction", "fiber-bundles/bundle-map", "lie-groups/spin-group", "algebra-groups/group-action"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/special-orthonormal-frame-bundle-reduction", "fiber-bundles/bundle-map", "lie-groups/spin-group", "algebra-groups/group-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be an oriented Riemannian \(n\)-manifold, let \(P_{\mathrm{SO}}(M)\) be its [[fiber-bundles/special-orthonormal-frame-bundle-reduction|oriented orthonormal frame bundle]], and let \(\lambda:\mathrm{Spin}(n)\to\mathrm{SO}(n)\) be the double covering. A **spin structure** on \(M\) is a principal \(\mathrm{Spin}(n)\)-bundle \(P_{\mathrm{Spin}}(M)\to M\) together with a [[fiber-bundles/bundle-map|bundle map]]

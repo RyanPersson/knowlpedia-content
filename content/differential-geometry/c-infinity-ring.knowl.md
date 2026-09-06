@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An algebraic object carrying an operation for every smooth map between finite-dimensional real affine spaces."
 aliases = ["C∞-ring", "C-infty ring"]
 domains = ["differential-geometry", "algebra-rings"]
-prerequisites = ["linear-algebra/euclidean-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/euclidean-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **\(C^\infty\)-ring** is a set \(A\) equipped, for every smooth map

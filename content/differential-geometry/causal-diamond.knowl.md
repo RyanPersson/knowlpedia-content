@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The events causally after one event and causally before another."
 aliases = ["causal interval"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/chronological-and-causal-future"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/chronological-and-causal-future"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For events \(p,q\) in a time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]], the **causal diamond** from \(p\) to \(q\) is

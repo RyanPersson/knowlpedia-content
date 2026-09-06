@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map with continuous partial derivatives up to order k."
 aliases = ["class-ck-map", "Class C^k map"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/jacobian-matrix", "real-analysis/frechet-derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/class-ck-map.md"
+prerequisites = ["shared-foundations/function", "real-analysis/jacobian-matrix", "real-analysis/frechet-derivative", "real-analysis/schwarz-clairaut-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **class \(C^k\) map** is a [[shared-foundations/function|function]] \(F:U\to\mathbb{R}^m\) defined on an open set \(U\subseteq\mathbb{R}^n\) such that all partial derivatives of \(F\) of total order at most \(k\) exist on \(U\) and are continuous on \(U\) (with order \(0\) meaning \(F\) itself).

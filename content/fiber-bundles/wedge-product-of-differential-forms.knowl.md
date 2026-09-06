@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An alternating product that combines a k-form and an ℓ-form into a (k+ℓ)-form."
 aliases = ["wedge-product-of-differential-forms", "Wedge product of differential forms"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/tangent-space-at-a-point"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/wedge-product-of-differential-forms.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/tangent-space-at-a-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **wedge product** is the canonical bilinear product on the graded algebra of [[fiber-bundles/differential-k-form|differential forms]].

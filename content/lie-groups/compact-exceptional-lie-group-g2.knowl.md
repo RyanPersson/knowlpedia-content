@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The compact connected simple 14-dimensional Lie group of rank 2 that is the automorphism group of the real octonions."
 aliases = ["compact-exceptional-lie-group-g2", "compact G2", "compact Lie group G2", "Aut(O)"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/simply-connected-lie-group", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-g2"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/root-system", "lie-groups/simply-connected-lie-group", "lie-groups/lie-algebra", "lie-groups/compact-real-form", "lie-groups/exceptional-lie-algebra-g2"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **compact exceptional Lie group \(G_2\)** is the compact connected simple [[lie-groups/compact-lie-group|Lie group]] of rank \(2\) and real dimension \(14\) whose [[lie-groups/root-system|root system]] has Dynkin type \(G_2\). It is both [[lie-groups/simply-connected-lie-group|simply connected]] and centerless. Its real [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] of [[lie-groups/exceptional-lie-algebra-g2|\(\mathfrak g_2\)]].

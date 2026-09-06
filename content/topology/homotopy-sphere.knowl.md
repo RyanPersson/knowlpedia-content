@@ -6,6 +6,7 @@ summary = "A closed manifold homotopy equivalent to a standard sphere."
 aliases = ["homotopy sphere", "smooth homotopy sphere"]
 domains = ["topology", "fiber-bundles"]
 prerequisites = ["topology/closed-manifold", "topology/topological-manifold", "topology/homotopy-equivalence", "topology/metric-sphere", "fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

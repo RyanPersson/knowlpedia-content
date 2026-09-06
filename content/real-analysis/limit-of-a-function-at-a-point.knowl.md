@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The value L that f(x) approaches as x approaches x0, defined by an ε–δ condition."
 aliases = ["limit-of-a-function-at-a-point", "Limit of a function at a point"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "topology/limit-point", "topology/neighborhood"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-of-a-function-at-a-point.md"
+prerequisites = ["topology/metric-space", "topology/limit-point", "topology/neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d_X)\) and \((Y,d_Y)\) be [[topology/metric-space|metric spaces]], let \(E\subseteq X\), let \(x_0\in X\) be a [[topology/limit-point|limit point]] of \(E\) (meaning every [[topology/neighborhood|neighborhood]] of \(x_0\) meets \(E\setminus\{x_0\}\)), and let \(f:E\to Y\). We say that **\(f(x)\) tends to \(L\in Y\) as \(x\to x_0\)**, written

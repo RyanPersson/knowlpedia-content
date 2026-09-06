@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The set obtained by adding every point of one subset of a vector space to every point of another."
 aliases = ["set addition", "Minkowski addition"]
 domains = ["convex-analysis", "analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For subsets \(A,B\) of a real or complex [[linear-algebra/vector-space|vector space]] \(V\), their

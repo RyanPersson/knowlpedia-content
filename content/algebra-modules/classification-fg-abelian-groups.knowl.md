@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every finitely generated abelian group splits as a free part plus finite cyclic invariants."
 aliases = ["classification-fg-abelian-groups", "Classification of finitely generated abelian groups"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/direct-sum-modules", "algebra-modules/cyclic-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/classification-fg-abelian-groups.md"
+prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/direct-sum-modules", "algebra-modules/cyclic-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Classification of finitely generated abelian groups**: If \(G\) is a finitely generated abelian group, then there exist integers \(r\ge 0\) and \(n_1,\dots,n_t\ge 2\) with \(n_1\mid n_2\mid\cdots\mid n_t\) such that

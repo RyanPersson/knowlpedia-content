@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every completely positive map into bounded operators is a compression of a star-representation."
 aliases = ["Stinespring representation theorem", "Stinespring theorem"]
 domains = ["operator-algebras"]
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/completely-positive-map", "operator-algebras/cstar-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/completely-positive-map", "operator-algebras/cstar-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a unital \(C^*\)-algebra, \(H\) a [[linear-algebra/hilbert-space|Hilbert space]], and \(\Phi:A\to B(H)\) a [[operator-algebras/completely-positive-map|completely positive map]]. The **Stinespring dilation theorem** provides a Hilbert space \(K\), a unital [[operator-algebras/cstar-representation|\(*\)-representation]] \(\pi:A\to B(K)\), and a bounded operator \(V:H\to K\) such that

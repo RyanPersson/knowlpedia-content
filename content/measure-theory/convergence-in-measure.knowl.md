@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A mode of convergence where the set of large errors has measure tending to zero."
 aliases = ["convergence-in-measure", "Convergence in measure"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/sequence","measure-theory/measurable-function","measure-theory/measure-space"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/convergence-in-measure.md"
+prerequisites = ["shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/measure-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **convergence in measure** is the following notion of convergence for a [[shared-foundations/sequence|sequence]] \((f_n)\) of [[measure-theory/measurable-function|measurable functions]] on a [[measure-theory/measure-space|measure space]] \((X,\mathcal{A},\mu)\): we say that \(f_n\) **converges in measure** to a measurable function \(f\) if for every \(\varepsilon>0\),

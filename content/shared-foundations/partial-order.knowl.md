@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A binary relation that is reflexive, antisymmetric, and transitive."
 aliases = ["partial-order", "Partial order"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/relation", "shared-foundations/cartesian-product"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/partial-order.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/relation", "shared-foundations/cartesian-product"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **partial order** on a [[shared-foundations/set|set]] \(P\) is a [[shared-foundations/relation|relation]] \(\le\,\subseteq P\times P\) such that for all \(a,b,c\in P\):

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map between groups that preserves the group operation"
 aliases = ["group-homomorphism", "Group homomorphism"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-homomorphism.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G,H\) be [[algebra-groups/group|groups]]. A **group homomorphism** is a [[shared-foundations/function|function]] \(\varphi\colon G\to H\) such that for all \(x,y\in G\),

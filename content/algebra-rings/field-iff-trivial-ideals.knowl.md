@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonzero commutative ring with identity is a field exactly when its only ideals are zero and the whole ring."
 aliases = ["field-iff-trivial-ideals", "Fields and trivial ideals"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/field", "algebra-rings/ideal", "algebra-rings/unit"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/field-iff-trivial-ideals.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/field", "algebra-rings/ideal", "algebra-rings/unit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a nonzero [[algebra-rings/commutative-ring|commutative ring]] with identity. Then \(R\) is a [[algebra-rings/field|field]] if and only if its only [[algebra-rings/ideal|ideals]] are \((0)\) and \(R\). Equivalently, every nonzero element of \(R\) is a [[algebra-rings/unit|unit]].

@@ -5,6 +5,9 @@ kind = "section"
 summary = "Holomorphic functions, contour integration, singularities, conformal maps, and the projective geometry of the Riemann sphere."
 aliases = ["complex function theory", "theory of functions of a complex variable"]
 domains = ["complex-analysis"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Complex analysis studies functions governed by complex differentiability. Its one-variable theory combines local power-series rigidity, global contour integration, conformal geometry, and the projective symmetry of the Riemann sphere.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complex manifold equipped with a closed nondegenerate holomorphic two-form."
 aliases = ["complex symplectic manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-symplectic-form", "differential-geometry/biholomorphism", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-symplectic-form", "differential-geometry/biholomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **holomorphic symplectic manifold** is a pair \((X,\sigma)\) consisting of a [[differential-geometry/complex-manifold|complex manifold]] \(X\) and a [[differential-geometry/holomorphic-symplectic-form|holomorphic symplectic form]] \(\sigma\) on it. Thus \(\sigma\) is a closed holomorphic \(2\)-form whose contraction map \(T^{1,0}X\to T^{*1,0}X\) is an isomorphism at every point. Isomorphisms of such pairs are [[differential-geometry/biholomorphism|biholomorphisms]] \(f:X\to Y\) satisfying \(f^*\sigma_Y=\sigma_X\). Saying merely that \(X\) “is holomorphic symplectic” usually asserts the existence of some such form without selecting one.

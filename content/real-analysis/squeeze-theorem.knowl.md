@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence trapped between two sequences with the same limit has that limit as well."
 aliases = ["squeeze-theorem", "Squeeze Theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/limit-at-a-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/squeeze-theorem.md"
+prerequisites = ["real-analysis/limit-at-a-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Squeeze theorem:** Let \((a_n)\), \((b_n)\), and \((c_n)\) be real sequences such that \(a_n \le b_n \le c_n\) for all sufficiently large \(n\). If \(a_n \to L\) and \(c_n \to L\), then \(b_n \to L\).

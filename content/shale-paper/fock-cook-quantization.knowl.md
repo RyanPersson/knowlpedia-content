@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The bosonic canonical-commutation-relation representation defined by field operators on symmetric Fock space."
 aliases = ["fock-cook-quantization", "Fock–Cook Quantization"]
 domains = ["shale-paper"]
-prerequisites = ["shale-paper/symmetric-fock-space", "shale-paper/creation-annihilation-operators"]
-dependency_review_count = 1
 legacy_source_path = "shale-paper/fock-cook-quantization.md"
+prerequisites = ["shale-paper/symmetric-fock-space", "shale-paper/creation-annihilation-operators"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a complex Hilbert space, let \(S(H)\) be its [[shale-paper/symmetric-fock-space|symmetric Fock space]], and let \(C(z)\) and \(C^*(z)\) be the [[shale-paper/creation-annihilation-operators|creation and annihilation operators]] associated with \(z\in H\). The **Fock–Cook field operator** is the closure

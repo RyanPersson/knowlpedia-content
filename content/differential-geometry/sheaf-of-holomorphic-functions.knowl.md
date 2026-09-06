@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The sheaf assigning to each open subset of a complex manifold its algebra of holomorphic functions."
 aliases = ["structure sheaf of a complex manifold", "holomorphic structure sheaf"]
 domains = ["differential-geometry", "complex-analysis"]
-prerequisites = ["differential-geometry/complex-manifold", "algebraic-geometry-foundations/sheaf", "algebraic-geometry-foundations/locally-ringed-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "algebraic-geometry-foundations/sheaf", "algebraic-geometry-foundations/locally-ringed-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. Its **sheaf of holomorphic functions**, denoted \(\mathcal O_X\), assigns to every open set \(U\subseteq X\) the commutative unital complex algebra

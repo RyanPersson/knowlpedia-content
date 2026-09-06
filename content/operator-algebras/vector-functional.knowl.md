@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A vector functional evaluates a concrete von Neumann algebra between two fixed Hilbert-space vectors."
 aliases = ["matrix coefficient functional"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "operator-algebras/vector-state"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "operator-algebras/vector-state"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\subseteq B(H)\) be a concrete

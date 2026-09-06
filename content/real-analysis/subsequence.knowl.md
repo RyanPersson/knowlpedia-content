@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence obtained by restricting to a strictly increasing sequence of indices."
 aliases = ["subsequence"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/sequence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/subsequence.md"
+prerequisites = ["shared-foundations/sequence"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **subsequence** of a sequence \((a_n)_{n\ge 1}\) is a sequence of the form \((a_{n_k})_{k\ge 1}\), where \(n_1<n_2<n_3<\cdots\) is a strictly increasing sequence of indices.

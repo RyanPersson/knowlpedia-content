@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A group object in formal schemes; in finite-dimensional formal Lie theory its pointed formal scheme is a formal disc."
 aliases = ["formal Lie group", "formal group scheme"]
 domains = ["formal-groups", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-category-theory/group-object", "algebraic-geometry-foundations/formal-scheme"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/group-object", "algebraic-geometry-foundations/formal-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **formal group over a base \(S\)** is a

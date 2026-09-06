@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Unitary map identifying bosonic Fock space with Gaussian L₂(M,n)"
 aliases = ["duality-transform-D", "Duality Transform D (Segal)"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/duality-transform-D.md"
+prerequisites = ["linear-algebra/hilbert-space", "shale-paper/symmetric-fock-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Segal's **duality transform** \(D: S(H)\to L_2(M,n)\) is a unitary identifying the Fock space picture

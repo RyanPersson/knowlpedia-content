@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A weighted average of finitely many points with nonnegative weights summing to one"
 aliases = ["convex-combination", "Convex combination"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-hull"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/convex-combination.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[linear-algebra/vector-space|vector space]]. A vector \(x\in X\) is a **convex combination** of points \(x_1,\dots,x_m\in X\) if there exist scalars \(\lambda_1,\dots,\lambda_m\ge 0\) with

@@ -6,6 +6,7 @@ summary = "A scheme morphism whose induced homomorphisms on local rings are flat
 aliases = ["flat-morphism", "Flat morphism"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-modules/flat-module"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

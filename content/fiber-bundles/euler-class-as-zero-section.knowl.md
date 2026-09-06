@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The topological Euler class obtained by pulling a vector bundle's Thom class back along its zero section."
 aliases = ["zero-section definition of Euler class", "Euler class via Thom class"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/thom-class", "fiber-bundles/zero-section"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/thom-class", "fiber-bundles/zero-section"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to B\) be an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented real vector bundle]] of rank \(r\), let \(u_E\in H^r(E,E^\times;\mathbb Z)\) be its [[fiber-bundles/thom-class|Thom class]], and let \(0_E:B\to E\) be the [[fiber-bundles/zero-section|zero section]]. The **Euler class of \(E\)** is

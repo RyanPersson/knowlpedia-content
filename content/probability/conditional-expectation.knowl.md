@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An integrable random variable characterized by its averages over events in a given sigma-algebra."
 aliases = ["conditional-expectation", "Conditional expectation"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable", "probability/probability-space", "measure-theory/measurable-function"]
-dependency_review_count = 1
 legacy_source_path = "probability/conditional-expectation.md"
+prerequisites = ["probability/random-variable", "probability/probability-space", "measure-theory/measurable-function", "probability/expectation", "measure-theory/indicator-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **conditional expectation** of an integrable [[probability/random-variable|random variable]] \(X\) given a sub-\(\sigma\)-algebra \(\mathcal G\subseteq\mathcal F\) on a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\) is an integrable, \(\mathcal G\)-[[measure-theory/measurable-function|measurable function]] \(Y\) such that

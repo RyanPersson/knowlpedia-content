@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over an algebraically closed field, the ideal of a variety is the radical of the defining ideal."
 aliases = ["nullstellensatz-strong", "Hilbert's Nullstellensatz (strong)"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/field", "algebra-rings/ideal", "algebra-rings/polynomial-ring", "algebra-rings/radical-of-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/nullstellensatz-strong.md"
+prerequisites = ["algebra-rings/field", "algebra-rings/ideal", "algebra-rings/polynomial-ring", "algebra-rings/radical-of-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Hilbert's Nullstellensatz (strong)**: Let \(k\) be an algebraically closed [[algebra-rings/field|field]] and let \(I\triangleleft k[x_1,\dots,x_n]\) be an [[algebra-rings/ideal|ideal]] in the [[algebra-rings/polynomial-ring|polynomial ring]]. Let

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth manifold equipped with a pointwise nondegenerate two-form, without a closedness requirement."
 aliases = ["nondegenerate 2-form manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "differential-geometry/tangent-space", "differential-geometry/symplectic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "differential-geometry/tangent-space", "differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **almost symplectic manifold** is a pair \((M,\omega)\), where \(M\) is a finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] and \(\omega\) is a smooth [[fiber-bundles/differential-k-form|differential \(2\)-form]] such that \(\omega_p\) is nondegenerate at every \(p\in M\). Thus

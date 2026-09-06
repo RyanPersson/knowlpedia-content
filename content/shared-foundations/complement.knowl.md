@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The elements of an ambient universe that are not in a given set."
 aliases = ["complement"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/complement.md"
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **complement** of a set \(A\) is defined relative to a fixed ambient set (universe) \(U\) with \(A\subseteq U\). The complement of \(A\) in \(U\) is

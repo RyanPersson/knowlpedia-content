@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The tensor measuring the failure of an almost-complex structure to be integrable."
 aliases = ["Nijenhuis tensor"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-complex-structure", "fiber-bundles/lie-bracket", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/almost-complex-structure", "fiber-bundles/lie-bracket", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) be an

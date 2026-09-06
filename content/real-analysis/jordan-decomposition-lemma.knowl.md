@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bounded variation function can be written as a difference of two increasing functions."
 aliases = ["jordan-decomposition-lemma", "Jordan decomposition lemma"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-variation-function", "real-analysis/monotone-function", "real-analysis/total-variation"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/jordan-decomposition-lemma.md"
+prerequisites = ["real-analysis/bounded-variation-function", "real-analysis/monotone-function", "real-analysis/total-variation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Jordan decomposition lemma:** Let \(a<b\) and let \(g:[a,b]\to\mathbb{R}\) be a [[real-analysis/bounded-variation-function|bounded variation function]]. Then there exist [[real-analysis/monotone-function|increasing functions]] \(g_1,g_2:[a,b]\to\mathbb{R}\) such that

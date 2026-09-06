@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point where the first derivative of a scalar function vanishes"
 aliases = ["critical-point", "Critical point"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/frechet-derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/critical-point.md"
+prerequisites = ["real-analysis/frechet-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **critical point** of a differentiable function \(f:U\to \mathbb{R}\) (with \(U\subseteq \mathbb{R}^n\)) is a point \(a\in U\) such that

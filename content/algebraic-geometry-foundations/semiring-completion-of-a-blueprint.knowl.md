@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The semiring obtained by quotienting formal sums by all additive relations of a blueprint."
 aliases = ["associated semiring of a blueprint", "blueprint semiring completion"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
-prerequisites = ["algebraic-geometry-foundations/blueprint", "algebra-rings/commutative-semiring", "algebraic-geometry-foundations/pre-addition-on-a-monoid"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/blueprint", "algebra-rings/commutative-semiring", "algebraic-geometry-foundations/pre-addition-on-a-monoid", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B=A/\!/\mathcal R\) be a [[algebraic-geometry-foundations/blueprint|blueprint]]. Its **semiring completion** is the [[algebra-rings/commutative-semiring|commutative semiring]]

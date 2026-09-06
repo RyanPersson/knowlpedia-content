@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An exact cochain complex starting at M and continuing with injective modules, used to compute Ext and right derived functors."
 aliases = ["injective-resolution", "Injective resolution"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/cochain-complex", "algebra-modules/injective-module", "algebra-homological/exact-complex"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/injective-resolution.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/cochain-complex", "algebra-modules/injective-module", "algebra-homological/exact-complex"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and \(M\) an [[algebra-modules/module|R-module]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Matrix of first partial derivatives of a multivariable map"
 aliases = ["jacobian-matrix", "Jacobian matrix"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partial-derivative", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "real-analysis/gradient"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/jacobian-matrix.md"
+prerequisites = ["real-analysis/partial-derivative", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "real-analysis/gradient", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Jacobian matrix** of a map \(f=(f_1,\dots,f_m):U\to \mathbb{R}^m\) (with \(U\subseteq \mathbb{R}^n\)) at a point \(a\in U\) is the \(m\times n\) matrix

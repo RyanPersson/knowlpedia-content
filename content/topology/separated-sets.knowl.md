@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two sets in a topological space that do not meet each other's closure."
 aliases = ["separated-sets", "Separated sets"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closure", "topology/connected-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/separated-sets.md"
+prerequisites = ["topology/topological-space", "topology/closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Two **separated sets** \(A\) and \(B\) in a [[topology/topological-space|topological space]] \(X\) are subsets such that

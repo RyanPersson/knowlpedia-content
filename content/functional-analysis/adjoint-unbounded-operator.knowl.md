@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The closed operator determined by the vectors on which an unbounded operator's inner-product pairing is bounded."
 aliases = ["unbounded adjoint", "Hilbert-space operator adjoint"]
 domains = ["functional-analysis", "operator-theory"]
-prerequisites = ["functional-analysis/densely-defined-operator", "linear-algebra/hilbert-space", "functional-analysis/riesz-representation-hilbert-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/densely-defined-operator", "linear-algebra/hilbert-space", "functional-analysis/riesz-representation-hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:\mathcal D(T)\subseteq H\to K\) be a

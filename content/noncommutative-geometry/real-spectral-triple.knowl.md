@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A spectral triple equipped with a KO-dimensional real structure satisfying the order-zero and first-order conditions."
 aliases = ["real even spectral triple", "real odd spectral triple", "real K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/real-structure-spectral-triple", "noncommutative-geometry/ko-dimension-signs", "noncommutative-geometry/order-zero-condition", "noncommutative-geometry/first-order-condition"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/real-structure-spectral-triple", "noncommutative-geometry/ko-dimension-signs", "noncommutative-geometry/order-zero-condition", "noncommutative-geometry/first-order-condition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **real spectral triple of KO-dimension \(n\)** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\), even or odd, together with a [[noncommutative-geometry/real-structure-spectral-triple|real structure]] \(J\) having the [[noncommutative-geometry/ko-dimension-signs|signs prescribed by \(n\bmod 8\)]]. Writing

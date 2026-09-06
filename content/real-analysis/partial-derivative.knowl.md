@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Derivative of a multivariable function with respect to one coordinate"
 aliases = ["partial-derivative", "Partial derivative"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/partial-derivative.md"
+prerequisites = ["real-analysis/differentiable-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq\mathbb R^n\) be open, \(f:U\to\mathbb R^m\), and \(a\in U\). The **partial derivative of \(f\) at \(a\) with respect to the \(j\)-th coordinate** is

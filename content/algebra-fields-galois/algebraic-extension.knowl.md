@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An extension E/F in which every element of E is algebraic over F."
 aliases = ["algebraic-extension", "Algebraic extension"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/algebraic-extension.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-fields-galois/field-extension|field extension]] \(E/F\) is called an **algebraic extension** if every element \(\alpha\in E\) is an [[algebra-fields-galois/algebraic-element|algebraic element]] over \(F\); that is, for each \(\alpha\in E\) there exists a nonzero polynomial \(f(x)\in F[x]\) with \(f(\alpha)=0\).

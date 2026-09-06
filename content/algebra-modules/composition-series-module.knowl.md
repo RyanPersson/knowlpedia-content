@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite chain of submodules with simple successive quotients."
 aliases = ["composition-series-module", "Composition series"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/submodule", "algebra-modules/simple-module", "algebra-modules/quotient-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/composition-series-module.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/submodule", "algebra-modules/simple-module", "algebra-modules/quotient-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **composition series** of an \(R\)-[[algebra-modules/module|module]] \(M\) is a finite chain of [[algebra-modules/submodule|submodules]]

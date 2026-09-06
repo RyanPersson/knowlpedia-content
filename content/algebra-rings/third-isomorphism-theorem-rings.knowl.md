@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Quotienting by an intermediate ideal is the same as quotienting in one step."
 aliases = ["third-isomorphism-theorem-rings", "Third isomorphism theorem for rings"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/two-sided-ideal", "algebra-rings/ideal", "algebra-rings/ring-isomorphism", "algebra-rings/quotient-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/third-isomorphism-theorem-rings.md"
+prerequisites = ["algebra-rings/ideal", "algebra-rings/ring-isomorphism", "algebra-rings/quotient-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Third isomorphism theorem (rings)**: Let \(R\) be a ring and let \(I\subseteq J\) be [[algebra-rings/ideal|ideals]] of \(R\). Then \(J/I\) is an ideal of \(R/I\), and there is a natural [[algebra-rings/ring-isomorphism|ring isomorphism]]

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A regularity-sensitive criterion for a function to be holomorphic."
 aliases = ["Cauchy-Riemann criterion"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/cauchy-riemann-equations", "differential-geometry/holomorphic-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/cauchy-riemann-equations", "complex-analysis/complex-derivative", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq\mathbb C\) be open and write \(f=u+iv:U\to\mathbb C\). If \(u\) and \(v\) are \(C^1\) and satisfy the [[complex-analysis/cauchy-riemann-equations|Cauchy–Riemann equations]] throughout \(U\), then \(f\) is [[differential-geometry/holomorphic-map|holomorphic]]. Conversely, a holomorphic function satisfies those equations; indeed, holomorphic functions are smooth.

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Function of a real parameter defined by the expected exponential of t times a random variable"
 aliases = ["moment-generating-function", "Moment generating function"]
 domains = ["probability"]
-prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/moment", "probability/characteristic-function-probability"]
-dependency_review_count = 1
 legacy_source_path = "probability/moment-generating-function.md"
+prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/expectation"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **moment generating function** is the [[shared-foundations/function|function]] \(M_X(t)=\mathbb{E}[e^{tX}]\) of a real parameter \(t\) defined for a [[probability/random-variable|random variable]] \(X\) on all values of \(t\) for which the expectation is finite (often an interval containing \(0\)).

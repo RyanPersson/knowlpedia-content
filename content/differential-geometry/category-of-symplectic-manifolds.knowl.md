@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The category whose objects are symplectic manifolds and whose morphisms preserve the symplectic forms by pullback."
 aliases = ["category of symplectic manifolds", "symplectic manifolds and symplectic maps"]
 domains = ["differential-geometry", "category-theory"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/symplectic-map", "fiber-bundles/smooth-immersion", "differential-geometry/symplectomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/symplectic-map", "algebra-category-theory/category", "algebra-category-theory/core-of-a-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **category of symplectic manifolds** used here has finite-dimensional

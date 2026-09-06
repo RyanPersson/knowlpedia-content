@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An object of the cocomplete category obtained by adjoining filtered colimits to coherent sheaves on a derived stack."
 aliases = ["IndCoh object", "ind-coherent complex"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/coherent-sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a suitable derived scheme or stack \(Y\), the category

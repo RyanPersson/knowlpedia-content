@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Riemann–Stieltjes integral is linear in both the integrand and the integrator when the relevant integrals exist."
 aliases = ["riemann-stieltjes-linearity", "Linearity of the Riemann–Stieltjes integral"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-stieltjes-integral"]
-dependency_review_count = 2
 legacy_source_path = "real-analysis/riemann-stieltjes-linearity.md"
+prerequisites = ["real-analysis/riemann-stieltjes-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Riemann–Stieltjes linearity:** Let \(a<b\) and let \(f,h,g_1,g_2:[a,b]\to\mathbb{R}\). Suppose the indicated [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes integrals]] exist. For scalars \(\alpha,\beta\in\mathbb{R}\):

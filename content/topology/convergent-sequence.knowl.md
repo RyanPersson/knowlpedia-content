@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence whose terms eventually remain in every neighborhood of a limit point."
 aliases = ["convergent-sequence", "Convergent sequence"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/neighborhood", "topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "topology/convergent-sequence.md"
+prerequisites = ["shared-foundations/sequence", "topology/topological-space", "topology/neighborhood"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A sequence \((x_n)\) in a [[topology/topological-space|topological space]] \(X\) **converges** to \(x\in X\) if, for every [[topology/neighborhood|neighborhood]] \(U\) of \(x\), there is \(N\in\mathbb N\) such that \(x_n\in U\) for all \(n\geq N\).

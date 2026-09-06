@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Smoothly homotopic maps induce the same pullback homomorphism on de Rham cohomology."
 aliases = ["smooth-homotopy invariance of de Rham cohomology"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/smooth-homotopy", "fiber-bundles/de-rham-cohomology-group", "differential-geometry/de-rham-homotopy-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/smooth-homotopy", "fiber-bundles/de-rham-cohomology-group", "differential-geometry/de-rham-homotopy-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f_0,f_1:M\to N\) be [[fiber-bundles/smooth-map|smooth maps]] between [[fiber-bundles/smooth-manifold|smooth manifolds]]. If \(f_0\) and \(f_1\) are joined by a [[differential-geometry/smooth-homotopy|smooth homotopy]], then their pullbacks induce the same homomorphism on every [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology group]]:

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally ringed space covered by open subsets that are affine schemes."
 aliases = ["scheme"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "topology/open-cover", "algebraic-geometry-foundations/affine-scheme"]
-dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/scheme.md"
+prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "topology/open-cover", "algebraic-geometry-foundations/affine-scheme", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **scheme** is a [[algebraic-geometry-foundations/locally-ringed-space|locally ringed space]] \((X,\mathcal O_X)\) that has an [[topology/open-cover|open cover]] \(X=\bigcup_iU_i\) for which every restricted locally ringed space \((U_i,\mathcal O_X|_{U_i})\) is an [[algebraic-geometry-foundations/affine-scheme|affine scheme]].

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The Hilbert module obtained by tensoring two Hilbert modules over the minimal tensor product of their coefficient algebras."
 aliases = ["external tensor product of Hilbert modules"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/minimal-cstar-tensor-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/minimal-cstar-tensor-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a right [[operator-algebras/hilbert-cstar-module|Hilbert \(A\)-module]] and \(F\) a right Hilbert \(B\)-module. On the algebraic

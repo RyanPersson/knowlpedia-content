@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If the series of absolute values converges, then the original series converges."
 aliases = ["absolute-convergence-implies-convergence", "Absolute convergence implies convergence"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/absolute-convergence-implies-convergence.md"
+prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Absolute convergence implies convergence:** If a [[real-analysis/series|series]] \(\sum_{n=1}^\infty a_n\) is [[real-analysis/absolutely-convergent-series|absolutely convergent]], meaning that

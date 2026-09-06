@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A family of continuous linear maps that satisfies one continuity estimate uniformly across all its members."
 aliases = ["equicontinuous operator family", "equicontinuous set of functionals"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/continuous-linear-map", "topology/neighborhood", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/continuous-linear-map", "topology/neighborhood", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(F\) be [[functional-analysis/topological-vector-space|topological vector spaces]], and let \(\mathcal T\) be a family of [[functional-analysis/continuous-linear-map|continuous linear maps]] \(T:E\to F\). The family \(\mathcal T\) is **equicontinuous** if, for every [[topology/neighborhood|neighborhood]] \(V\) of \(0\) in \(F\), there is a neighborhood \(U\) of \(0\) in \(E\) such that

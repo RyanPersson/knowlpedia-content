@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A real symmetric matrix whose quadratic form is strictly positive on every nonzero vector."
 aliases = ["positive-definite symmetric matrix", "SPD matrix", "Sym++(n,R)", "positive-definite cone"]
 domains = ["linear-algebra"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A real \(n\times n\) matrix \(A\) is **symmetric positive definite** if

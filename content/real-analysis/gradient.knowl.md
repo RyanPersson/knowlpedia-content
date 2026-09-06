@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Vector of first partial derivatives of a scalar function"
 aliases = ["gradient"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partial-derivative", "linear-algebra/inner-product", "real-analysis/directional-derivative", "real-analysis/differentiable-map", "real-analysis/critical-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/gradient.md"
+prerequisites = ["real-analysis/partial-derivative", "linear-algebra/inner-product", "real-analysis/directional-derivative", "real-analysis/differentiable-map", "real-analysis/critical-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **gradient** of a differentiable function \(f:U\to \mathbb{R}\), where \(U\subseteq\mathbb R^n\) is open, at a point \(a\in U\) is the vector
@@ -16,6 +17,8 @@ A **gradient** of a differentiable function \(f:U\to \mathbb{R}\), where \(U\sub
 \]
 
 formed from the [[real-analysis/partial-derivative|partial derivatives]] of \(f\).
+
+## Directional derivatives
 
 With respect to the standard [[linear-algebra/inner-product|inner product]] on \(\mathbb{R}^n\), the gradient encodes [[real-analysis/directional-derivative|directional derivatives]] via \(D_v f(a)=\nabla f(a)\cdot v\) whenever \(f\) is [[real-analysis/differentiable-map|differentiable]] at \(a\). Points where \(\nabla f(a)=0\) are [[real-analysis/critical-point|critical points]].
 

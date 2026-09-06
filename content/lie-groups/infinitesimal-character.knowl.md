@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An algebra character through which the center of an enveloping algebra acts on a representation."
 aliases = ["central character of U(g)", "Harish-Chandra infinitesimal character"]
 domains = ["lie-groups", "algebra-representation-theory"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra", "algebra-modules/algebra-homomorphism", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/harish-chandra-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra", "algebra-modules/algebra-homomorphism", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/harish-chandra-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex [[lie-groups/lie-algebra|Lie algebra]] and let \(V\) be a module over its [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]]. An **infinitesimal character** of \(V\) is a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]] from [[lie-groups/center-of-universal-enveloping-algebra|the center of \(U(\mathfrak g)\)]] to \(\mathbb C\),

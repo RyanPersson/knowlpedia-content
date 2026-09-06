@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Supremum and infimum behave predictably under inclusion, translation, scaling, and unions"
 aliases = ["algebraic-properties-sup-inf", "Algebraic properties of sup and inf"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/algebraic-properties-sup-inf.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E,F\subseteq\mathbb R\) be nonempty and bounded above or below as required, and let \(c\in\mathbb R\).

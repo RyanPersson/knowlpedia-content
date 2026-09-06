@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A hereditary C*-subalgebra whose generated closed two-sided ideal is the whole ambient algebra."
 aliases = ["full hereditary subalgebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/hereditary-cstar-subalgebra", "operator-algebras/closed-two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/hereditary-cstar-subalgebra", "operator-algebras/closed-two-sided-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and

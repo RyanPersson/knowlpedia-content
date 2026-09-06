@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A structure of objects and morphisms with associative composition and identity morphisms."
 aliases = ["category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["shared-foundations/set", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/category.md"
+prerequisites = []
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **category** \(\mathcal C\) consists of:

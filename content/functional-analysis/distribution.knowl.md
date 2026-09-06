@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A distribution on an open Euclidean set is a continuous linear functional on its space of compactly supported smooth test functions."
 aliases = ["generalized function", "continuous linear functional on test functions", "Schwartz distribution", "Distribution (generalized function)"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/topological-dual", "functional-analysis/test-function-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/topological-dual", "functional-analysis/test-function-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Omega\subseteq\mathbb R^n\) be open and let \(\mathcal D(\Omega)=C_c^\infty(\Omega)\) carry its canonical locally convex topology. A **distribution** on \(\Omega\) is a continuous linear functional

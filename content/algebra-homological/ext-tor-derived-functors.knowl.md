@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Ext and Tor are the right/left derived functors of Hom and tensor, computed via injective/projective (or flat) resolutions."
 aliases = ["ext-tor-derived-functors", "Ext and Tor as derived functors"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-homological/hom-left-exact", "algebra-homological/tensor-right-exact", "algebra-homological/ext", "algebra-homological/tor"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/ext-tor-derived-functors.md"
+prerequisites = ["algebra-homological/hom-left-exact", "algebra-homological/tensor-right-exact", "algebra-homological/ext", "algebra-homological/tor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a commutative ring and \(M,N\) be \(R\)-modules. The functors

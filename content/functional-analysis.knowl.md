@@ -5,6 +5,9 @@ kind = "section"
 summary = "Locally convex spaces, distributions, direct integrals, and bounded and unbounded operators."
 aliases = ["functional-analysis", "Functional Analysis"]
 domains = ["functional-analysis"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Click any term to expand its definition inline.

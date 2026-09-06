@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The Peirce 1-space of an idempotent, a unital Jordan subalgebra with that idempotent as its unit."
 aliases = ["Peirce one space", "Jordan corner", "Peirce 1-space"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/jordan-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "nonassociative-algebra/jordan-idempotent"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For an idempotent \(e\) in a [[nonassociative-algebra/jordan-algebra|Jordan algebra]] \(J\), the **Peirce-one corner** is

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A translate in the octonionic plane of an eight-dimensional direction parametrized by the octonionic projective line."
 aliases = ["octonionic line in O^2", "affine Cayley line", "AOP^1 line"]
 domains = ["complex-analysis", "octonionic-analysis", "differential-geometry"]
-prerequisites = ["differential-geometry/octonionic-projective-line"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/octonionic-projective-line"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **affine octonionic line** in \(\mathbb O^2\) is a translate of one of the

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complete nondiscretely valued nonarchimedean field whose residue-level Frobenius is surjective."
 aliases = ["perfectoid nonarchimedean field", "perfectoid field of mixed characteristic"]
 domains = ["algebraic-geometry-foundations", "number-theory", "langlands"]
-prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-fields-galois/frobenius-endomorphism", "algebra-fields-galois/perfect-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-fields-galois/frobenius-endomorphism", "algebra-fields-galois/perfect-field", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **perfectoid field** is a complete nonarchimedean field \(K\) with a

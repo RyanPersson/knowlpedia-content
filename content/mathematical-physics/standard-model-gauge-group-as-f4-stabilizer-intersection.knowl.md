@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The effective Standard Model group arises as the intersection of two stabilizers in compact F4 acting on the exceptional Jordan algebra."
 aliases = ["F4 stabilizer characterization of the Standard Model group", "Standard Model group from the exceptional Jordan algebra"]
 domains = ["mathematical-physics", "lie-groups", "nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "lie-groups/compact-exceptional-lie-group-f4", "nonassociative-algebra/automorphism-group-of-a-jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "lie-groups/identity-component-of-a-lie-group", "mathematical-physics/standard-model-gauge-group", "nonassociative-algebra/complex-qubit-jordan-algebra", "nonassociative-algebra/complex-qutrit-jordan-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "lie-groups/compact-exceptional-lie-group-f4", "nonassociative-algebra/automorphism-group-of-a-jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "lie-groups/identity-component-of-a-lie-group", "mathematical-physics/standard-model-gauge-group", "nonassociative-algebra/complex-qubit-jordan-algebra", "nonassociative-algebra/complex-qutrit-jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J=\mathfrak h_3(\mathbb O)\) be the [[nonassociative-algebra/exceptional-jordan-algebra|exceptional Jordan algebra]], and let the [[lie-groups/compact-exceptional-lie-group-f4|compact group \(F_4\)]] act through its [[nonassociative-algebra/automorphism-group-of-a-jordan-algebra|Jordan-algebra automorphisms]]. Suppose \(X\subset B\subset J\) are [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebras]] with

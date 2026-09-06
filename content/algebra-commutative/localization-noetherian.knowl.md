@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If a ring is Noetherian, then any localization at a multiplicative set is again Noetherian."
 aliases = ["localization-noetherian", "Localization preserves Noetherian rings"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-noetherian.md"
+prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \(S\subseteq R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. Then the localized ring

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The smallest limit point of a bounded sequence, or equivalently the supremum of infima of tails."
 aliases = ["limit-inferior-lim-inf", "Limit inferior (lim inf)"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-inferior-lim-inf.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **limit inferior** (or **lim inf**) of a bounded sequence \((x_n)\) in \(\mathbb{R}\) is

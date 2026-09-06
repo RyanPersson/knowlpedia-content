@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth fiber bundle whose fibers are vector spaces and whose local trivializations are fiberwise linear."
 aliases = ["vector-bundle", "Vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/vector-bundle.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/local-trivialization", "linear-algebra/vector-space", "linear-algebra/linear-map", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 2
 +++
 
 A **smooth real vector bundle** of rank \(k\) over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] \(\pi:E\to M\) together with the structure of a \(k\)-dimensional real vector space on each fiber \(E_x=\pi^{-1}(x)\), such that:

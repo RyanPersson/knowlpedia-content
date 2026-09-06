@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An action with trivial kernel, equivalently an injective permutation representation"
 aliases = ["faithful-action", "Faithful Action"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-action", "algebra-groups/kernel-of-action", "algebra-groups/trivial-subgroup", "algebra-groups/group-monomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/faithful-action.md"
+prerequisites = ["algebra-groups/group-action", "algebra-groups/kernel-of-action", "algebra-groups/trivial-subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-groups/group-action|group action]] of a group \(G\) on a set \(X\) is **faithful** if its [[algebra-groups/kernel-of-action|kernel]] is the [[algebra-groups/trivial-subgroup|trivial subgroup]]. Equivalently, the associated homomorphism \(G\to \mathrm{Sym}(X)\) is a [[algebra-groups/group-monomorphism|monomorphism]], i.e. injective.

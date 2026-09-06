@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Characterization of differentiability via a best linear approximation."
 aliases = ["differentiability-criterion", "Differentiability criterion"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "linear-algebra/linear-map"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiability-criterion.md"
+prerequisites = ["topology/open-set", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Differentiability criterion:** Let \(U\subseteq\mathbb R^k\) be an [[topology/open-set|open set]], let \(f:U\to\mathbb R^m\), and fix \(a\in U\). The following are equivalent:

@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Every irreducible Harish–Chandra module for a real reductive group embeds into the Harish–Chandra module of a minimal principal-series representation."
 aliases = ["subrepresentation theorem", "embedding into principal series"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/harish-chandra-module", "algebra-representation-theory/irreducible-representation", "lie-groups/principal-series-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/harish-chandra-module", "algebra-representation-theory/irreducible-representation", "lie-groups/principal-series-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]],

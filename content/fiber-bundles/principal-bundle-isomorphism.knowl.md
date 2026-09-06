@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An invertible principal bundle morphism, equivalently an equivariant diffeomorphism of total spaces covering a base diffeomorphism."
 aliases = ["principal-bundle-isomorphism", "Principal bundle isomorphism"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-morphism", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-bundle-isomorphism.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-morphism", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) and \(\pi':P'\to M'\) be [[fiber-bundles/principal-g-bundle|principal G-bundles]].

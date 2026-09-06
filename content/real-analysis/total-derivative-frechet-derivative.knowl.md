@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The linear map Df(a) giving the best first-order approximation f(a+h)=f(a)+Df(a)h+o(‖h‖)."
 aliases = ["total-derivative-frechet-derivative", "Total derivative (Fréchet derivative in ℝ^k)"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "linear-algebra/linear-map", "real-analysis/jacobian-matrix", "real-analysis/partial-derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/total-derivative-frechet-derivative.md"
+prerequisites = ["topology/open-set", "linear-algebra/linear-map", "real-analysis/jacobian-matrix", "real-analysis/partial-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq\mathbb{R}^k\) be [[topology/open-set|open]] and let \(f:U\to\mathbb{R}^m\). The function \(f\) is **(Fréchet) differentiable at \(a\in U\)** if there exists a [[linear-algebra/linear-map|linear map]] \(A:\mathbb{R}^k\to\mathbb{R}^m\) such that

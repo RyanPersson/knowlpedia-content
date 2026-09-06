@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The largest open set contained in a given set"
 aliases = ["interior-of-a-set", "Interior"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/interior-of-a-set.md"
+prerequisites = ["convex-analysis/metric-metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a metric space and let \(E\subset X\).

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A set carrying a measure whose mass in centered balls is uniformly comparable to a fixed power of the radius."
 aliases = ["AD-regular set", "Ahlfors regular set", "delta-regular set"]
 domains = ["analysis", "geometric-measure-theory", "measure-theory"]
-prerequisites = ["measure-theory/measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["measure-theory/measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(0\le\delta\le d\), \(C\ge1\), and

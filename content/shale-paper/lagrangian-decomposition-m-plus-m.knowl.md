@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A choice of real subspace M giving coordinates (x,y) for phase space K"
 aliases = ["lagrangian-decomposition-m-plus-m", "Decomposition K = M ⊕ M"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/lagrangian-decomposition-m-plus-m.md"
+prerequisites = ["shale-paper/symplectic-hilbert-space", "shale-paper/complex-structure-lambda"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Shale fixes a real subspace \(M\subset K\) so that \(K=\Lambda^{-1}M\oplus M\), written \(K=M\oplus M\).

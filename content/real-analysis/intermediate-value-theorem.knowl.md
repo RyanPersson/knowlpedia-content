@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous function on an interval takes all values between its endpoint values."
 aliases = ["intermediate-value-theorem", "Intermediate value theorem"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/intermediate-value-theorem.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Intermediate value theorem:** Let \(f:[a,b]\to\mathbb{R}\) be continuous on \([a,b]\). If \(y\) is any number between \(f(a)\) and \(f(b)\) (that is, \(\min\{f(a),f(b)\}\le y\le \max\{f(a),f(b)\}\)), then there exists \(c\in[a,b]\) such that

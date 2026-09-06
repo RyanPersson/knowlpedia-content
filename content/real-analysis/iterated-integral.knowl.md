@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A repeated one-variable integration over a rectangle or product of intervals."
 aliases = ["iterated-integral", "Iterated integral"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integral", "real-analysis/multiple-riemann-integral"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/iterated-integral.md"
+prerequisites = ["real-analysis/riemann-integral", "real-analysis/multiple-riemann-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **iterated integral** of \(f:[a,b]\times[c,d]\to\mathbb R\) integrates in one variable and then the other. The \(y\)-then-\(x\) iterated integral is

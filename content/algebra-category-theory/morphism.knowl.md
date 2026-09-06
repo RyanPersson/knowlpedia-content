@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An arrow between objects in a category."
 aliases = ["morphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/morphism.md"
+prerequisites = ["algebra-category-theory/object", "algebra-category-theory/category"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and \(X,Y \in \mathrm{Ob}(\mathcal C)\).

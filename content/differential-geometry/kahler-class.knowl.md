@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The degree-two real de Rham cohomology class represented by a Kähler form."
 aliases = ["cohomology class of a Kähler form"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/kahler-form", "fiber-bundles/de-rham-cohomology-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/kahler-form", "fiber-bundles/de-rham-cohomology-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]] and let \(\omega\) be a [[differential-geometry/kahler-form|Kähler form]] on \(X\). Since \(d\omega=0\), the form determines a class

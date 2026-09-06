@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The affine scheme Spec(k[x]) representing one algebraic coordinate over a base field."
 aliases = ["affine-line", "Affine line"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/affine-scheme", "algebra-rings/polynomial-ring", "algebra-rings/prime-ideal", "algebraic-geometry-foundations/closed-point", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/generic-point", "topology/irreducible-space"]
-dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/affine-line.md"
+prerequisites = ["algebraic-geometry-foundations/affine-scheme", "algebra-rings/polynomial-ring", "algebra-rings/prime-ideal", "algebraic-geometry-foundations/closed-point", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/generic-point", "topology/irreducible-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field. The **affine line over \(k\)** is the [[algebraic-geometry-foundations/affine-scheme|affine scheme]]

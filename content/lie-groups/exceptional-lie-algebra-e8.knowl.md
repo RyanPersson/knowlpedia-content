@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The 248-dimensional simple complex Lie algebra of rank 8 and exceptional Dynkin type E8."
 aliases = ["exceptional-lie-algebra-e8", "e8", "complex Lie algebra e8", "exceptional Lie algebra E8"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/adjoint-representation-of-a-lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **exceptional complex Lie algebra** \(\mathfrak e_8\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(E_8\). It has complex dimension \(248\), rank \(8\), and \(240\) roots.

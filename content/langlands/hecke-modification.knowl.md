@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A change of a G-bundle at one point, given by an isomorphism away from that point."
 aliases = ["modification of a G-bundle"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/principal-g-bundle-on-scheme"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/principal-g-bundle-on-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a smooth curve, \(x\in X\), and \(E,E'\)

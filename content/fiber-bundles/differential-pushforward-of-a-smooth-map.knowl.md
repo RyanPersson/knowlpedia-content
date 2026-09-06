@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The linear map on tangent spaces induced by a smooth map, satisfying the chain rule."
 aliases = ["differential-pushforward-of-a-smooth-map", "Differential (pushforward) of a smooth map"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/differential-pushforward-of-a-smooth-map.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/tangent-space-at-a-point", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M,N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] and let \(F:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]].

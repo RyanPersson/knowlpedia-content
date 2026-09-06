@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Taking algebraic interior preserves convexity"
 aliases = ["core-of-a-convex-set-is-convex", "Core of a Convex Set is Convex"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/core-of-a-convex-set-is-convex.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subseteq X\) be [[convex-analysis/convex-set|convex]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]]

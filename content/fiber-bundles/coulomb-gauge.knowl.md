@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Coulomb gauge imposes a covariant divergence-free condition on the difference between a connection and a reference connection."
 aliases = ["Coulomb gauge condition", "divergence-free gauge"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative", "fiber-bundles/gauge-fixing-condition"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative", "fiber-bundles/gauge-fixing-condition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A_0\) be a [[fiber-bundles/principal-connection|connection]] on a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a [[differential-geometry/riemannian-manifold|Riemannian manifold]], and write another connection as \(A=A_0+a\). The connection \(A\) is in **Coulomb gauge relative to \(A_0\)** when

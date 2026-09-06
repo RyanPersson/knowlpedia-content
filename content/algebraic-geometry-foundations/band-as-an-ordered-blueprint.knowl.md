@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The fully faithful, coreflective embedding of bands into ordered blueprints."
 aliases = ["ordered blueprint of a band", "bands embedded in ordered blueprints"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures", "algebra-category-theory"]
-prerequisites = ["algebra-hyperstructures/band", "algebraic-geometry-foundations/ordered-blueprint", "algebra-rings/semiring-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/band", "algebraic-geometry-foundations/ordered-blueprint", "algebra-rings/semiring-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B\) be a [[algebra-hyperstructures/band|band]] with null set \(N_B\). Its associated [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] is

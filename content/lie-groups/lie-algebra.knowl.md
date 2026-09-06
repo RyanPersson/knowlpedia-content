@@ -5,10 +5,11 @@ kind = "definition"
 summary = "A vector space over a stated field with an alternating bilinear bracket satisfying the Jacobi identity."
 aliases = ["lie-algebra", "Lie Algebra"]
 domains = ["lie-groups"]
-prerequisites = ["linear-algebra/vector-space", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra.md"
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(k\) be a field. A **Lie algebra over \(k\)** is a [[linear-algebra/vector-space|vector space]] \(\mathfrak g\) over \(k\) equipped with a \(k\)-bilinear map

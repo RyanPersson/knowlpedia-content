@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie algebra whose lower central series reaches zero after finitely many steps."
 aliases = ["nilpotent-lie-algebra", "Nilpotent Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lower-central-series-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/nilpotent-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lower-central-series-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]].

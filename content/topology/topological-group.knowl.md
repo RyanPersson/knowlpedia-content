@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group with a topology making multiplication and inversion continuous."
 aliases = ["topological-group", "Topological group"]
 domains = ["topology"]
-prerequisites = ["algebra-groups/group", "topology/topological-space", "topology/continuous-map"]
-dependency_review_count = 1
 legacy_source_path = "topology/topological-group.md"
+prerequisites = ["algebra-groups/group", "topology/topological-space", "topology/continuous-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **topological group** is a [[algebra-groups/group|group]] \(G\) equipped with a [[topology/topological-space|topology]] such that:

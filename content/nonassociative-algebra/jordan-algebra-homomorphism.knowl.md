@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear map preserving the Jordan product; preservation of units is an additional condition."
 aliases = ["Jordan algebra homomorphism", "Jordan homomorphism"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/jordan-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) and \(K\) be [[nonassociative-algebra/jordan-algebra|Jordan

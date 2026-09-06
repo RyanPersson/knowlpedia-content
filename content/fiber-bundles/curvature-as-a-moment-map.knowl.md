@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The moment-map interpretation of curvature for the gauge action on connections over an oriented closed surface."
 aliases = ["Atiyah–Bott moment map", "gauge moment map"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/atiyah-bott-symplectic-form", "fiber-bundles/gauge-group", "fiber-bundles/moment-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/atiyah-bott-symplectic-form", "fiber-bundles/gauge-group", "fiber-bundles/moment-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented surface, with compact structure group \(G\) and an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. Give \(\mathcal A(P)\) the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott symplectic form]]. Identify the dual of the gauge Lie algebra \(\Omega^0(\Sigma;\operatorname{ad}P)\) with \(\Omega^2(\Sigma;\operatorname{ad}P)\) by integration. Then **curvature is a moment map** for the [[fiber-bundles/gauge-group|gauge-group]] action:

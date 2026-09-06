@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Strict separation means there is a positive gap between the two sets under a continuous functional."
 aliases = ["strict-separation-by-a-closed-hyperplane", "Strict Separation by a Closed Hyperplane"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/dual-space-and-duality-pairing"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/strict-separation-by-a-closed-hyperplane.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/dual-space-and-duality-pairing"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[convex-analysis/norm-normed-vector-space|normed space]] and let \(\Omega_1,\Omega_2\subset X\) be nonempty.

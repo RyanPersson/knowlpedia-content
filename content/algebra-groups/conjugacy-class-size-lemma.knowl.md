@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The size of a conjugacy class equals the index of the centralizer."
 aliases = ["conjugacy-class-size-lemma", "Conjugacy Class Size Lemma"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/conjugacy-class", "algebra-groups/centralizer", "algebra-groups/index-of-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/conjugacy-class-size-lemma.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/conjugacy-class", "algebra-groups/centralizer", "algebra-groups/index-of-subgroup", "algebra-groups/orbit-stabilizer-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite [[algebra-groups/group|group]] and \(g\in G\). If \(\mathrm{Cl}(g)\) is the [[algebra-groups/conjugacy-class|conjugacy class]] of \(g\) and \(C_G(g)\) its [[algebra-groups/centralizer|centralizer]], then

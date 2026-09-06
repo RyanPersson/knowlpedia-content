@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set of points that approximates a set in a metric space within a fixed tolerance."
 aliases = ["epsilon-net"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "topology/epsilon-net.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **epsilon-net** for a subset \(A\subseteq X\) in a [[topology/metric-space|metric space]] \((X,d)\) is a subset \(F\subseteq X\) such that for every \(a\in A\) there exists \(f\in F\) with

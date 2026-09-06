@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The maximal subgroupoid of the smooth-manifold category, retaining every manifold but only diffeomorphisms."
 aliases = ["core of the category of smooth manifolds", "Man core", "Man superscript simeq"]
 domains = ["differential-geometry", "category-theory"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "algebra-category-theory/groupoid", "algebra-category-theory/core-of-a-category", "differential-geometry/category-of-smooth-manifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "algebra-category-theory/groupoid", "algebra-category-theory/core-of-a-category", "differential-geometry/category-of-smooth-manifolds"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **diffeomorphism groupoid of smooth manifolds** is the category

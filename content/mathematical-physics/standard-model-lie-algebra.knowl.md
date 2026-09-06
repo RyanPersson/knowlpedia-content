@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The real compact Lie algebra of Standard Model internal symmetries and its complexification."
 aliases = ["g_SM", "complexified Standard Model Lie algebra"]
 domains = ["mathematical-physics", "lie-groups"]
-prerequisites = ["lie-groups/complexification-of-a-real-lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/complexification-of-a-real-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Standard Model Lie algebra** in its compact real form is

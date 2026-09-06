@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The covariant Hodge Laplacian is the second-order operator obtained by anticommuting a covariant exterior derivative with its formal adjoint."
 aliases = ["gauge-covariant Laplacian", "Delta_A"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] and compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(A\) over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]]. The **covariant Hodge Laplacian** on \(E\)-valued \(k\)-forms is

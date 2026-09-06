@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function with continuous derivatives up to order k."
 aliases = ["class-ck-function", "Class C^k function"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/class-ck-function.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **class \(C^k\) function** on an interval \(I\) is a [[shared-foundations/function|function]] \(f:I\to\mathbb{R}\) such that \(f^{(j)}\) exists on \(I\) and is continuous for every integer \(0\le j\le k\) (with \(f^{(0)}=f\)); it is class \(C^\infty\) if this holds for all \(k\).

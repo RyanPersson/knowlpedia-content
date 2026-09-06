@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A functor presented as a filtered colimit of schemes, usually along closed immersions."
 aliases = ["ind-algebraic scheme"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **ind-scheme** over a field \(k\) is a functor on \(k\)-algebras admitting

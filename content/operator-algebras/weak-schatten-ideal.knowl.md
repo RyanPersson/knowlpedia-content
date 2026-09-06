@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The operator ideal of compact operators whose singular values decay at the weak-lp rate."
 aliases = ["Lorentz operator ideal", "L-p-infinity", "weak trace ideal"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/compact-operator", "functional-analysis/schatten-class-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/compact-operator", "functional-analysis/schatten-class-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]], let \(p>0\), and write \(\mu_n(T)\) for the singular values of a [[linear-algebra/compact-operator|compact operator]] \(T\), arranged in nonincreasing order and counted with multiplicity. The **weak Schatten ideal**

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A von Neumann algebra whose center consists only of scalar multiples of its identity."
 aliases = ["primary von Neumann algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **von Neumann factor**, or simply a **factor**, is a

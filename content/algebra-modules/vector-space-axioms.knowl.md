@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The module axioms specialized to scalars in a field."
 aliases = ["vector-space-axioms", "Vector space axioms"]
 domains = ["algebra-modules"]
-prerequisites = ["linear-algebra/vector-space", "algebra-rings/field", "algebra-modules/module-axioms"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/vector-space-axioms.md"
+prerequisites = ["linear-algebra/vector-space", "algebra-rings/field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **vector space axioms** define a [[linear-algebra/vector-space|vector space]] \(V\) over a [[algebra-rings/field|field]] \(k\) as an abelian group \((V,+)\) equipped with scalar multiplication \(k\times V\to V\), \((a,v)\mapsto av\), satisfying the same distributivity/associativity/unit conditions as the [[algebra-modules/module-axioms|module axioms]]:

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite-dimensional real inner product space."
 aliases = ["euclidean-space", "Euclidean space"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/inner-product-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/euclidean-space.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Euclidean space** is a real inner product space \((V,\langle\cdot,\cdot\rangle)\) with \(\dim V<\infty\).

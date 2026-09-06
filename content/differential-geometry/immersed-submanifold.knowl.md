@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An immersed submanifold is a manifold equipped with an injective immersion into an ambient smooth manifold."
 aliases = ["injectively immersed submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. An **immersed submanifold** of \(M\) is a smooth manifold \(S\) together with an injective [[fiber-bundles/smooth-immersion|smooth immersion]] \(\iota:S\to M\). Thus each differential \(d\iota_s:T_sS\to T_{\iota(s)}M\) is injective, but the topology and smooth structure on \(S\) are part of the data and need not be induced from \(M\). When \(\iota\) is understood, one often identifies \(S\) set-theoretically with \(\iota(S)\), while retaining its given manifold topology. Its codimension is \(\dim M-\dim S\).

@@ -5,9 +5,10 @@ kind = "lemma"
 summary = "Disjoint closed subsets of a smooth manifold can be separated by a smooth function valued between zero and one."
 aliases = ["smooth separation lemma", "smooth cutoff lemma"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "topology/closed-set", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "topology/closed-set", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(A,B\subseteq M\) be disjoint [[topology/closed-set|closed sets]]. There exists a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to[0,1]\) such that \(f|_A=0\) and \(f|_B=1\). Equivalently, if \(A\subseteq U\) with \(A\) closed and \(U\) open, there is a smooth \(f:M\to[0,1]\) satisfying \(f=1\) on \(A\) and \(\operatorname{supp}f\subseteq U\). No compactness of \(A\) is required, and the support in the equivalent formulation need not be compact. The equalities hold on the entire prescribed closed sets, not merely at selected points.

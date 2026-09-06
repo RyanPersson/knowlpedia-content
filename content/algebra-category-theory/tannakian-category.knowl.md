@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A rigid abelian tensor category reconstructed as representations of an affine group scheme by a fiber functor."
 aliases = ["neutral Tannakian category", "Tannaka category", "Tannakian fiber functor", "fiber functor"]
 domains = ["algebra-category-theory", "algebra-representation-theory", "langlands"]
-prerequisites = ["algebra-rings/field", "algebra-category-theory/abelian-category", "algebra-category-theory/symmetric-monoidal-category", "algebra-category-theory/exact-functor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/field", "algebra-category-theory/abelian-category", "algebra-category-theory/symmetric-monoidal-category", "algebra-category-theory/exact-functor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a [[algebra-rings/field|field]]. A **neutral Tannakian category

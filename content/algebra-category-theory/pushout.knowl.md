@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A universal object obtained by gluing two objects along a common source."
 aliases = ["pushout"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/isomorphism-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/pushout.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal{C}\) be a [[algebra-category-theory/category|category]] and let

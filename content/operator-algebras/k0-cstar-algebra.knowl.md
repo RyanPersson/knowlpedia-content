@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Grothendieck group built from stable equivalence classes of projections over a C*-algebra."
 aliases = ["operator K-zero", "projection K-theory", "even K-theory"]
 domains = ["operator-algebras", "k-theory"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/murray-von-neumann-equivalence", "operator-algebras/projection-cstar-algebra", "operator-algebras/unitization"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/murray-von-neumann-equivalence", "operator-algebras/projection-cstar-algebra", "operator-algebras/unitization"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a unital [[operator-algebras/cstar-algebra|\(C^*\)-algebra]].

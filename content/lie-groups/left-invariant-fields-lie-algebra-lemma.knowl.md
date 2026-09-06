@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Left-invariant vector fields are closed under bracket and identify with T_eG."
 aliases = ["left-invariant-fields-lie-algebra-lemma", "Left-invariant vector fields form the Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-translation", "lie-groups/lie-algebra-of-a-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/left-invariant-fields-lie-algebra-lemma.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-translation", "lie-groups/lie-algebra-of-a-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A smooth vector field \(X\) on \(G\) is **left-invariant** if \((L_g)_*X=X\) for all \(g\in G\), where \(L_g\) is [[lie-groups/left-translation|left translation]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie group whose underlying manifold is simply connected (connected with trivial fundamental group)."
 aliases = ["simply-connected-lie-group", "Simply connected Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["topology/fundamental-group", "lie-groups/connected-lie-group", "lie-groups/covering-lie-group", "lie-groups/lie-algebra-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/simply-connected-lie-group.md"
+prerequisites = ["topology/fundamental-group", "lie-groups/connected-lie-group"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A Lie group \(G\) is **simply connected** if, as a topological space (equivalently a manifold), it is connected and has trivial [[topology/fundamental-group|fundamental group]]:

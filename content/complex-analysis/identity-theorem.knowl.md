@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Holomorphic functions agreeing on a set with an interior accumulation point agree everywhere on a domain."
 aliases = ["identity principle", "uniqueness theorem for holomorphic functions"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/complex-domain"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain", "complex-analysis/holomorphic-functions-are-analytic", "complex-analysis/order-of-zero-or-pole"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be a [[complex-analysis/complex-domain|domain]] and let \(f,g:D\to\mathbb C\) be holomorphic. If the set

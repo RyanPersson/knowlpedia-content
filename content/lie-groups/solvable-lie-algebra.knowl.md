@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie algebra whose derived series eventually becomes zero; the Lie-algebra analogue of solvable groups."
 aliases = ["solvable-lie-algebra", "Solvable Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/derived-series-lie-algebra", "fiber-bundles/lie-bracket", "lie-groups/derived-subalgebra", "lie-groups/derived-subalgebra-is-ideal-lemma"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/solvable-lie-algebra.md"
+prerequisites = ["lie-groups/derived-series-lie-algebra", "fiber-bundles/lie-bracket", "lie-groups/derived-subalgebra", "lie-groups/derived-subalgebra-is-ideal-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a Lie algebra. Define its derived series (see [[lie-groups/derived-series-lie-algebra|derived series]]) by

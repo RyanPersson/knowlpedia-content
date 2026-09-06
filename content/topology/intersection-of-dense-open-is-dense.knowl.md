@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a topological space, the intersection of two dense open sets is again dense (and open)."
 aliases = ["intersection-of-dense-open-is-dense", "Intersection of Dense Open Sets is Dense"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/open-set", "topology/dense-set", "shared-foundations/intersection"]
-dependency_review_count = 1
 legacy_source_path = "topology/intersection-of-dense-open-is-dense.md"
+prerequisites = ["topology/topological-space", "topology/open-set", "topology/dense-set", "topology/topology", "shared-foundations/intersection", "topology/baire-category-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Intersection of dense open sets is dense:** Let \(X\) be a [[topology/topological-space|topological space]] and let \(U,V\subseteq X\). If \(U\) and \(V\) are [[topology/open-set|open]] and [[topology/dense-set|dense]] in \(X\), then \(U\cap V\) is open and dense in \(X\).

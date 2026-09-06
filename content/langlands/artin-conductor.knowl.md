@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A nonnegative integer measuring the tame and wild ramification of a local Galois or Weil representation."
 aliases = ["Artin conductor exponent", "conductor of a Galois representation", "local Artin conductor"]
 domains = ["langlands", "algebra-fields-galois", "number-theory"]
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/galois-extension-and-group", "langlands/weil-group", "algebra-fields-galois/galois-extension", "algebra-fields-galois/inertia-subgroup"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/galois-extension-and-group", "langlands/weil-group", "algebra-fields-galois/galois-extension", "algebra-fields-galois/inertia-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

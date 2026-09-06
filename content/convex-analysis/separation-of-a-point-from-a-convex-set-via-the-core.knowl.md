@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If x0 is outside core(Ω) and core(Ω)≠∅, then Ω and {x0} are separable by a hyperplane."
 aliases = ["separation-of-a-point-from-a-convex-set-via-the-core", "Separating a Point from a Convex Set via the Core"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/separation-by-a-hyperplane"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/separation-by-a-hyperplane"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[linear-algebra/vector-space|vector space]], let \(x_0\in X\), and let \(\Omega\subset X\) be [[convex-analysis/convex-set|convex]]. Assume that [[convex-analysis/algebraic-interior-core|core(Ω)]] is nonempty and \(x_0\notin \operatorname{core}(\Omega)\).

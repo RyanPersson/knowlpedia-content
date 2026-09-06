@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An object A×B equipped with projections, universal among cones to A and B."
 aliases = ["categorical-product", "Categorical product"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/composition-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/categorical-product.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and let \(A,B\) be [[algebra-category-theory/object|objects]] of \(\mathcal C\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset that is strictly smaller than the set it sits inside."
 aliases = ["proper-subset", "Proper subset"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/proper-subset.md"
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **proper subset** of a set \(B\) is a set \(A\) such that \(A\subseteq B\) and \(A\neq B\). One writes \(A\subsetneq B\) (or \(A\subset B\) in contexts where ambiguity is avoided).

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A good Standard Model subalgebra of e7 has centralizer sl3 plus a two-dimensional center, with a unique sl3 subalgebra."
 aliases = ["generation sl3", "generation algebra in e7", "sl3 gen"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["lie-groups/good-standard-model-embedding-in-e7", "lie-groups/centralizer-of-a-lie-subalgebra", "lie-groups/lie-subalgebra", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/good-standard-model-embedding-in-e7", "lie-groups/centralizer-of-a-lie-subalgebra", "lie-groups/lie-subalgebra", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a [[lie-groups/good-standard-model-embedding-in-e7|good embedding]]

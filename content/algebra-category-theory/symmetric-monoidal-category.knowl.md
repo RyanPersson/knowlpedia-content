@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A monoidal category whose tensor factors can be exchanged by a coherent involutive braiding."
 aliases = ["symmetric tensor category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/monoidal-category", "algebra-category-theory/natural-isomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/monoidal-category", "algebra-category-theory/natural-isomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **symmetric monoidal category** is a [[algebra-category-theory/monoidal-category|monoidal category]] \((\mathcal C,\otimes,\mathbb 1)\) equipped with [[algebra-category-theory/natural-isomorphism|natural isomorphisms]]

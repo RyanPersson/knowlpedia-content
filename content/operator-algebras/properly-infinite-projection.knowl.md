@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A projection that contains two orthogonal subprojections, each equivalent to the original projection."
 aliases = ["Murray–von Neumann properly infinite projection"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/orthogonal-projection", "operator-algebras/murray-von-neumann-equivalence", "operator-algebras/infinite-projection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/orthogonal-projection", "operator-algebras/murray-von-neumann-equivalence", "operator-algebras/infinite-projection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(p\) be a projection in a

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Sard's theorem states that the critical values of a smooth map between finite-dimensional manifolds form a measure-zero set."
 aliases = ["Morse-Sard theorem", "Sard theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/critical-value-of-a-smooth-map", "measure-theory/lebesgue-measure", "fiber-bundles/regular-value"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/critical-value-of-a-smooth-map", "measure-theory/lebesgue-measure", "fiber-bundles/regular-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be finite-dimensional, second-countable

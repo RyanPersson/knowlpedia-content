@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function is continuous iff the preimage of every open set is open"
 aliases = ["continuity-via-open-sets", "Continuity via open sets"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "real-analysis/continuity-on-a-set", "topology/open-set", "real-analysis/preimage-inverse-image"]
-dependency_review_count = 1
 legacy_source_path = "topology/continuity-via-open-sets.md"
+prerequisites = ["topology/metric-space", "topology/open-set", "real-analysis/preimage-inverse-image", "shared-foundations/composition-of-functions"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Continuity via open sets**: Let \((X,d_X)\) and \((Y,d_Y)\) be [[topology/metric-space|metric spaces]] and \(f:X\to Y\). Then \(f\) is [[real-analysis/continuity-on-a-set|continuous]] (at every point) if and only if for every [[topology/open-set|open set]] \(V\subseteq Y\), the [[real-analysis/preimage-inverse-image|preimage]]

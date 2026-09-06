@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The kernel of a ring homomorphism is a two-sided ideal of the domain."
 aliases = ["kernel-is-ideal", "Kernel is an ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/kernel-is-ideal.md"
+prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\varphi:R\to S\) be a [[algebra-rings/ring-homomorphism|ring homomorphism]]. Then

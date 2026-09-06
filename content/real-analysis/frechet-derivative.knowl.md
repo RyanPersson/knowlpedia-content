@@ -5,17 +5,20 @@ kind = "knowl"
 summary = "The derivative of a multivariable function as a best linear approximation at a point"
 aliases = ["frechet-derivative", "Fréchet derivative"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "linear-algebra/linear-map", "linear-algebra/euclidean-norm"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/frechet-derivative.md"
+prerequisites = ["shared-foundations/function", "linear-algebra/linear-map", "linear-algebra/euclidean-norm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
-A **Fréchet derivative** of a [[shared-foundations/function|function]] \(f:U\to \mathbb{R}^m\) (with \(U\subseteq \mathbb{R}^n\)) at a point \(a\in U\) is a [[linear-algebra/linear-map|linear map]] \(Df(a):\mathbb{R}^n\to \mathbb{R}^m\) such that
+A **Fréchet derivative** of a [[shared-foundations/function|function]] \(f:U\to \mathbb{R}^m\) (with \(U\subseteq \mathbb{R}^n\) open) at a point \(a\in U\) is a [[linear-algebra/linear-map|linear map]] \(Df(a):\mathbb{R}^n\to \mathbb{R}^m\) such that
 \[
 \lim_{h\to 0}\frac{\|f(a+h)-f(a)-Df(a)h\|}{\|h\|}=0,
 \]
 
 where \(\|\cdot\|\) is the [[linear-algebra/euclidean-norm|Euclidean norm]].
+
+## Uniqueness and differentiability
 
 If such a map exists, it is unique; it is the linear part of the first-order approximation \(f(a+h)=f(a)+Df(a)h+o(\|h\|)\). If \(f\) is Fréchet differentiable at \(a\), its partial derivatives exist and \(Df(a)\) is represented by the [[real-analysis/jacobian-matrix|Jacobian matrix]] at \(a\). Existence of \(Df(a)\) is the defining condition for a [[real-analysis/differentiable-map|differentiable map]] at \(a\); existence of partial derivatives alone does not suffice.
 

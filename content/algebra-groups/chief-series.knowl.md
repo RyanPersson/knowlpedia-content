@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A normal series with no intermediate normal subgroups between successive terms"
 aliases = ["chief-series", "Chief series"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/chief-series.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. A **chief series** of \(G\) is a finite chain of subgroups

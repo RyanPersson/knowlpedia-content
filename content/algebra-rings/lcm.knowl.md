@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A common multiple m of a and b that divides every other common multiple (defined up to associates)."
 aliases = ["lcm", "Least common multiple"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/lcm.md"
+prerequisites = ["algebra-rings/integral-domain"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]] and let \(a,b\in R\). A **least common multiple** of \(a\) and \(b\) is an element \(m\in R\) such that:

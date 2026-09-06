@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A map preserving zero, one, addition, and multiplication."
 aliases = ["homomorphism of semirings", "semiring map"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
-prerequisites = ["algebra-rings/semiring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/semiring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For [[algebra-rings/semiring|semirings]] \(S\) and \(T\), a **semiring

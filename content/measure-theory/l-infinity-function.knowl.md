@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measurable function that is essentially bounded on a measure space."
 aliases = ["l-infinity-function", "L-infinity function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/measurable-function","measure-theory/essential-supremum"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/l-infinity-function.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/essential-supremum", "measure-theory/ae-equality", "measure-theory/null-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **\(L^\infty\) function** on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) is a [[measure-theory/measurable-function|measurable function]] \(f:X\to\mathbb R\) or \(f:X\to\mathbb C\) such that

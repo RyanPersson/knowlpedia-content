@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subspace invariant under every operator in a Lie algebra representation."
 aliases = ["subrepresentation-lie-algebra", "Subrepresentation of a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/representation-of-a-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/subrepresentation-lie-algebra.md"
+prerequisites = ["lie-groups/representation-of-a-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a Lie algebra and let \(\rho:\mathfrak g\to \mathfrak{gl}(V)\) be a [[lie-groups/representation-of-a-lie-algebra|representation of \(\mathfrak g\)]] on a finite-dimensional vector space \(V\). A linear subspace \(W\subseteq V\) is a **subrepresentation** (or **\(\mathfrak g\)-submodule**) if it is invariant under the action:

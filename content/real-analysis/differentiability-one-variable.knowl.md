@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function is differentiable at a point if the limit defining its derivative exists there."
 aliases = ["differentiability-one-variable", "Differentiability at a point (one variable)"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiability-one-variable.md"
+prerequisites = ["real-analysis/derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A function \(f: (a, b) \to \mathbb{R}\) is **differentiable at** \(x_0 \in (a, b)\) if the limit

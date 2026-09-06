@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite extension is Galois iff it is both separable and normal."
 aliases = ["separable-normal-galois", "Finite Galois extensions are separable and normal"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/galois-extension", "algebra-fields-galois/separable-extension", "algebra-fields-galois/normal-extension", "algebra-fields-galois/galois-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separable-normal-galois.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/galois-extension", "algebra-fields-galois/separable-extension", "algebra-fields-galois/normal-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\subseteq L\) be a finite [[algebra-fields-galois/field-extension|field extension]]. Then:

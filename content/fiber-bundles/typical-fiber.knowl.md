@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A chosen model manifold F that locally represents every fiber of a smooth fiber bundle."
 aliases = ["typical-fiber", "Typical fiber"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/typical-fiber.md"
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. A **typical fiber** (or **model fiber**) is a [[fiber-bundles/smooth-manifold|smooth manifold]] \(F\) for which there exists an open cover \(\{U_i\}\) of \(M\) and [[fiber-bundles/local-trivialization|local trivializations]] \(\Phi_i:\pi^{-1}(U_i)\to U_i\times F\).

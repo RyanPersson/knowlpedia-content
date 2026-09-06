@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Lie algebra homomorphism assigning to each infinitesimal symmetry its Hamiltonian function."
 aliases = ["co-moment map"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["differential-geometry/symplectic-lie-group-action", "lie-groups/lie-algebra", "linear-algebra/linear-map", "lie-groups/lie-algebra-homomorphism", "differential-geometry/poisson-algebra-smooth-functions", "differential-geometry/infinitesimal-generator-lie-action", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-lie-group-action", "lie-groups/lie-algebra", "linear-algebra/linear-map", "lie-groups/lie-algebra-homomorphism", "differential-geometry/poisson-algebra-smooth-functions", "differential-geometry/infinitesimal-generator-lie-action", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act on \((M,\omega)\) by a [[differential-geometry/symplectic-lie-group-action|symplectic action]], with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), and use \(\iota_{X_f}\omega=df\). A **comoment map** is a [[linear-algebra/linear-map|linear map]]

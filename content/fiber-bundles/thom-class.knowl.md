@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The relative cohomology class that restricts to the orientation generator in every fiber of an oriented vector bundle."
 aliases = ["orientation class of a vector bundle", "Thom cohomology class"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/zero-section", "topology/singular-cohomology-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/zero-section", "topology/singular-cohomology-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to B\) be an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented]] real [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a paracompact Hausdorff base, and let \(E^\times=E\setminus 0_E(B)\) be the complement of its [[fiber-bundles/zero-section|zero section]]. The **Thom class** of \(E\) is the unique class

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The special linear group modulo its scalar center."
 aliases = ["PSL", "unimodular projective group", "projective unimodular group"]
 domains = ["algebra-groups", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-groups/quotient-group", "algebra-groups/normal-subgroup", "algebra-groups/projective-general-linear-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/special-linear-group", "algebra-groups/quotient-group", "algebra-groups/normal-subgroup", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(n\ge2\) and let \(k\) be a field. The **projective special linear group** is

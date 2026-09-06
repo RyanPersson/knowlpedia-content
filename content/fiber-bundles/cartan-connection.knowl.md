@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A g-valued 1-form on a principal H-bundle that models the geometry of a manifold on a homogeneous space G/H."
 aliases = ["cartan-connection", "Cartan connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/cartan-connection.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\), and let \(H\subset G\) be a closed subgroup with Lie algebra \(\mathfrak{h}\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Taking the core twice gives the same set: core(core(Ω))=core(Ω)."
 aliases = ["idempotence-of-the-core-operator", "Idempotence of the Core Operator"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/idempotence-of-the-core-operator.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subset X\) be [[convex-analysis/convex-set|convex]].

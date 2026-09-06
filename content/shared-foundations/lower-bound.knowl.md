@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element that is less than or equal to every element of a subset in an ordered set."
 aliases = ["lower-bound", "Lower bound"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/partial-order"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/lower-bound.md"
+prerequisites = ["shared-foundations/partial-order"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **lower bound** of a subset \(A\) of a [[shared-foundations/partial-order|partially ordered set]] \((P,\le)\) is an element \(\ell\in P\) such that \(\ell\le a\) for all \(a\in A\). The subset \(A\) is **bounded below** if it has at least one lower bound in \(P\).

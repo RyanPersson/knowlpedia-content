@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A norm-closed linear subspace of a C*-algebra stable under multiplication from both sides."
 aliases = ["C*-ideal", "closed ideal", "two-sided C*-ideal"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "convex-analysis/linear-subspace", "algebra-rings/two-sided-ideal"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "convex-analysis/linear-subspace", "algebra-rings/two-sided-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A

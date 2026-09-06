@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The relation in which two admissible representations have isomorphic maximal-compact-subgroup-finite modules."
 aliases = ["infinitesimally equivalent representations"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]], \(K\) a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]], and \((\pi,E)\), \((\sigma,F)\) two admissible continuous representations whose [[lie-groups/k-finite-vector|\(K\)-finite parts]] are [[lie-groups/harish-chandra-module|Harish–Chandra modules]]. They are **infinitesimally equivalent** if there is a linear isomorphism

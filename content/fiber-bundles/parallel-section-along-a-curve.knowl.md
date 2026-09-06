@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A section along a curve whose covariant derivative along the curve vanishes."
 aliases = ["parallel-section-along-a-curve", "Parallel section along a curve"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/parallel-section-along-a-curve.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \( \pi:E\to M \) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\).

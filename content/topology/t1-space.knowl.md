@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A space in which every singleton set is closed."
 aliases = ["t1-space", "T1 space"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closed-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/t1-space.md"
+prerequisites = ["topology/topological-space", "topology/closed-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **T1 space** is a [[topology/topological-space|topological space]] \(X\) such that for every point \(x\in X\), the singleton \(\{x\}\) is a [[topology/closed-set|closed set]] in \(X\).

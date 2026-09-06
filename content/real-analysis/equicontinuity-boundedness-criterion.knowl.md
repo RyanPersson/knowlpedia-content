@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "On a compact metric space, equicontinuity plus pointwise boundedness implies uniform boundedness."
 aliases = ["equicontinuity-boundedness-criterion", "Equicontinuity–boundedness criterion"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "real-analysis/equicontinuous-family", "real-analysis/pointwise-bounded-family", "real-analysis/uniformly-bounded-family"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/equicontinuity-boundedness-criterion.md"
+prerequisites = ["topology/metric-space", "real-analysis/equicontinuous-family", "real-analysis/pointwise-bounded-family", "real-analysis/uniformly-bounded-family"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Equicontinuity–boundedness criterion:** Let \(K\) be a compact [[topology/metric-space|metric space]] and let \(\mathcal{F}\) be a family of functions \(f:K\to\mathbb{R}\). Assume \(\mathcal{F}\) is an [[real-analysis/equicontinuous-family|equicontinuous family]] and is [[real-analysis/pointwise-bounded-family|pointwise bounded]] on \(K\). Then \(\mathcal{F}\) is [[real-analysis/uniformly-bounded-family|uniformly bounded]] on \(K\).

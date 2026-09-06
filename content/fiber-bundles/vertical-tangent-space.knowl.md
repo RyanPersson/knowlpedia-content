@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subspace of a tangent space consisting of vectors tangent to a fiber of a surjective submersion."
 aliases = ["vertical-tangent-space", "Vertical tangent space"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/bundle-map", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/vertical-tangent-space.md"
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/bundle-map", "fiber-bundles/tangent-bundle", "differential-geometry/embedded-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/fibered-manifold|fibered manifold]] and let \(e\in E\) with \(x=\pi(e)\). The **vertical tangent space** at \(e\) is

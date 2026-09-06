@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Approximates a smooth multivariable function by a polynomial in a neighborhood of a point"
 aliases = ["taylors-theorem-in-several-variables", "Taylor's Theorem in several variables"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/class-ck-map", "topology/neighborhood"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/taylors-theorem-in-several-variables.md"
+prerequisites = ["real-analysis/class-ck-map", "real-analysis/higher-derivatives", "topology/neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Taylor's Theorem (several variables, one standard form)**: Let \(U\subseteq\mathbb{R}^n\) be open and let \(f:U\to\mathbb{R}\) be of [[real-analysis/class-ck-map|class]] \(C^{k+1}\) on a [[topology/neighborhood|neighborhood]] of \(a\in U\). Using multi-index notation, there exists a remainder \(R_k(h)\) such that for \(h\) sufficiently small (with \(a+h\in U\)),

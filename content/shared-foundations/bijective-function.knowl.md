@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function that is both injective and surjective."
 aliases = ["bijective-function", "Bijective function"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function", "shared-foundations/injective-function", "shared-foundations/surjective-function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/bijective-function.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/injective-function", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **bijective function** is a [[shared-foundations/function|function]] \(f:A\to B\) that is both [[shared-foundations/injective-function|injective]] and [[shared-foundations/surjective-function|surjective]].

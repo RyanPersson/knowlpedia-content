@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The spectral localization condition that a Fourier transform vanish outside a bounded frequency set."
 aliases = ["compact Fourier support", "band-limited function", "frequency localization"]
 domains = ["harmonic-analysis", "functional-analysis"]
-prerequisites = ["measure-theory/almost-everywhere", "topology/bounded-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["measure-theory/almost-everywhere", "topology/bounded-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A function \(f\in L^2(\mathbb R^d)\) has **bounded Fourier support** if its

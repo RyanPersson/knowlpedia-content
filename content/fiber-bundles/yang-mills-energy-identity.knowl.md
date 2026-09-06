@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The four-dimensional decomposition of Yang–Mills energy into a topological curvature integral and a nonnegative self-dual or anti-self-dual term."
 aliases = ["topological Yang–Mills energy bound", "instanton energy bound", "Bogomolny decomposition"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/curvature-2-form-of-a-principal-connection", "shared-foundations/lower-bound"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/curvature-2-form-of-a-principal-connection", "shared-foundations/lower-bound"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed oriented Riemannian four-manifold, and choose an invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. For any connection \(A\), write \(F_A=F_A^++F_A^-\) for the Hodge decomposition of its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] and set \(\operatorname{YM}(A)=\tfrac12\|F_A\|_{L^2}^2\). Then

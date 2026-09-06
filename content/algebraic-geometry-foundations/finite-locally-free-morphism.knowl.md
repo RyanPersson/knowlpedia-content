@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A scheme morphism whose direct-image algebra is locally a finite-rank free module."
 aliases = ["finite flat morphism of finite presentation", "finite locally free map"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/morphism-of-schemes", "algebraic-geometry-foundations/finite-morphism", "algebraic-geometry-foundations/flat-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/morphism-of-schemes", "algebraic-geometry-foundations/finite-morphism", "algebraic-geometry-foundations/flat-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]] \(f:X\to S\) is **finite locally free** if every point of \(S\) has an affine neighborhood \(U=\operatorname{Spec}R\) for which

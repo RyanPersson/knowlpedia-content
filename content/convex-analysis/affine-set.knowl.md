@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set containing the entire line through any two of its points."
 aliases = ["affine-set", "Affine Set"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/line-connecting-two-points"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/affine-set.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/line-connecting-two-points"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]]. A subset \(\Omega\subseteq X\) is **affine** if for all \(a,b\in\Omega\),

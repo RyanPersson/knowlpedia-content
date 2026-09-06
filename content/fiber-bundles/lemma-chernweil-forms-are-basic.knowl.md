@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Applying an invariant polynomial to the curvature of a principal connection produces a basic differential form."
 aliases = ["lemma-chernweil-forms-are-basic", "Lemma: Chern–Weil forms are basic"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/basic-differential-form-on-a-principal-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lemma-chernweil-forms-are-basic.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/basic-differential-form-on-a-principal-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]], and let \(\Omega\in\Omega^2(P;\mathfrak g)\) be its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature \(2\)-form]]. If \(Q\) is an \(\operatorname{Ad}\)-invariant symmetric multilinear polynomial of degree \(k\) on \(\mathfrak g\), then

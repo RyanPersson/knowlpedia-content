@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth choice of horizontal tangent subspaces complementing the vertical spaces in a fiber bundle."
 aliases = ["horizontal-distribution", "Horizontal distribution"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/horizontal-subbundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-distribution.md"
+prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/horizontal-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a surjective submersion. For each \(e\in E\), write \(V_eE=\ker(d\pi_e)\subset T_eE\).

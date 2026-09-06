@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A first-order gauge equation equating the curvature of a connection on a three-manifold with the Hodge dual of the covariant derivative of a Higgs field."
 aliases = ["Bogomolny equation", "magnetic monopole equation"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator", "fiber-bundles/gauge-transformation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to Y\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented Riemannian three-manifold. A **Bogomolny monopole** is a pair \((A,\Phi)\) consisting of a [[fiber-bundles/principal-connection|connection]] \(A\) and a Higgs field \(\Phi\in\Omega^0(Y;\operatorname{ad}P)\) satisfying the **Bogomolny monopole equation**

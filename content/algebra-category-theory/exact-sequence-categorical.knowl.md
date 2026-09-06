@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In an abelian category, a sequence is exact at an object when the image equals the kernel (equivalently, kernels and cokernels fit together appropriately)."
 aliases = ["exact-sequence-categorical", "Exact sequence (categorical)"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/exact-sequence-categorical.md"
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal A\) be an [[algebra-category-theory/abelian-category|abelian category]] and consider a composable pair

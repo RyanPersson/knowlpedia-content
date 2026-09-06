@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A maximal toral subalgebra of a complex semisimple Lie algebra equals its Lie-algebra normalizer."
 aliases = ["cartan-subalgebra-self-normalizing-lemma", "Cartan subalgebras are self-normalizing"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/cartan-subalgebra-self-normalizing-lemma.md"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-space-decomposition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional complex

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Ideals of R containing I are in bijection with ideals of the quotient ring R/I."
 aliases = ["ideal-correspondence", "Ideal correspondence for quotients"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ideal", "algebra-rings/two-sided-ideal", "algebra-rings/quotient-ring", "shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/ideal-correspondence.md"
+prerequisites = ["algebra-rings/correspondence-theorem-rings", "algebra-rings/ring-epimorphism", "algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Ideal correspondence for quotients**: Let \(R\) be a ring and let \(I\lhd R\) be a two-sided ideal, with quotient map \(\pi:R\to R/I\). The assignment

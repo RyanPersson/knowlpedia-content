@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A supermanifold globally presented by the exterior algebra of the dual of a vector bundle."
 aliases = ["split smooth supermanifold", "Pi E supermanifold"]
 domains = ["supergeometry", "fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a smooth manifold and let \(E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]] of

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For complex representations, the character of a direct sum is the sum of the characters."
 aliases = ["character-direct-sum", "Character of a Direct Sum"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/character", "linear-algebra/trace", "algebra-modules/direct-sum-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/character-direct-sum.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/character", "linear-algebra/trace", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group and let \(V\) be a finite-dimensional complex [[algebra-representation-theory/group-representation|representation]] with action \(\rho_V:G\to \mathrm{GL}(V)\). Its [[algebra-representation-theory/character|character]] is the class function

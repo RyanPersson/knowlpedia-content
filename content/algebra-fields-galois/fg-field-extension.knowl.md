@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An extension E/F of the form E = F(α1,…,αn) for finitely many generators."
 aliases = ["fg-field-extension", "Finitely generated field extension"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/fg-field-extension.md"
+prerequisites = ["algebra-fields-galois/field-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E/F\) be a [[algebra-fields-galois/field-extension|field extension]]. The extension \(E/F\) is **finitely generated** (as a field extension) if there exist elements \(\alpha_1,\dots,\alpha_n\in E\) such that

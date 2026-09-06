@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A program relating irreducible unitary representations of a Lie group to symplectic coadjoint orbits."
 aliases = ["Kirillov orbit method", "method of coadjoint orbits"]
 domains = ["lie-groups", "representation-theory", "differential-geometry"]
-prerequisites = ["lie-groups/irreducible-unitary-representation", "fiber-bundles/lie-group", "differential-geometry/coadjoint-orbit", "lie-groups/polarization-of-a-coadjoint-orbit"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/irreducible-unitary-representation", "fiber-bundles/lie-group", "differential-geometry/coadjoint-orbit", "lie-groups/polarization-of-a-coadjoint-orbit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **orbit method** is the representation-theoretic program that associates irreducible [[lie-groups/irreducible-unitary-representation|unitary representations]] of a [[fiber-bundles/lie-group|Lie group]] \(G\) with its [[differential-geometry/coadjoint-orbit|coadjoint orbits]] in \(\mathfrak g^*\), interpreting each orbit as a classical symplectic phase space and its representation as a quantization. For a connected, simply connected nilpotent Lie group, the precise Kirillov correspondence sends the orbit of \(\ell\) to the equivalence class of the representation induced from the character \(e^{i\ell}\) of a subgroup integrating a [[lie-groups/polarization-of-a-coadjoint-orbit|polarization at \(\ell\)]]. In this setting it is a bijection \(\mathfrak g^*/G\to\widehat G\), independent of the polarization chosen.

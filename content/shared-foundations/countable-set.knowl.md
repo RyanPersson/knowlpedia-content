@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set that can be listed in a sequence, possibly with finitely many elements"
 aliases = ["countable-set", "Countable set"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/injective-function", "shared-foundations/natural-numbers", "shared-foundations/bijective-function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/countable-set.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/natural-numbers", "shared-foundations/injective-function", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **countable set** is a set \(A\) for which there exists an [[shared-foundations/injective-function|injective function]] \(f:A\to\mathbb{N}\), where \(\mathbb{N}\) is the set of [[shared-foundations/natural-numbers|natural numbers]]. Equivalently, \(A\) is countable if it is finite or there exists a [[shared-foundations/bijective-function|bijective function]] between \(A\) and \(\mathbb{N}\).

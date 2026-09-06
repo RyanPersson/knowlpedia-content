@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The scalars for which a closed operator has an everywhere-defined bounded inverse."
 aliases = ["operator resolvent set", "regular set"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/bounded-linear-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/bounded-linear-operator", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:\operatorname{Dom}(T)\subseteq X\to X\) be a

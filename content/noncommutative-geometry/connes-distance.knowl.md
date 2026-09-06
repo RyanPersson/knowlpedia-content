@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The extended distance between states obtained by maximizing their difference over the spectral Lipschitz unit ball."
 aliases = ["spectral distance", "Connes distance formula"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/state-cstar-algebra", "noncommutative-geometry/lipschitz-seminorm-spectral-triple"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/state-cstar-algebra", "noncommutative-geometry/lipschitz-seminorm-spectral-triple"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,H,D)\) be a unital [[noncommutative-geometry/spectral-triple|spectral triple]], and let \(\varphi,\psi\) be [[operator-algebras/state-cstar-algebra|states]] on the \(C^*\)-completion of \(\mathcal A\). Their **Connes spectral distance** is

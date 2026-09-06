@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map preserving addition and scalar multiplication between modules."
 aliases = ["module-homomorphism", "Module homomorphism"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/module-homomorphism.md"
+prerequisites = ["algebra-modules/module", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring and let \(M,N\) be left \(R\)-[[algebra-modules/module|modules]]. A **module homomorphism** is a [[shared-foundations/function|function]] \(f:M\to N\) such that for all \(m,m'\in M\) and \(r\in R\),

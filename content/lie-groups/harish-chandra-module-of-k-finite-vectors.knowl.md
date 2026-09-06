@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The algebraic representation obtained by retaining the K-finite vectors of an admissible representation."
 aliases = ["underlying (g,K)-module", "K-finite module construction"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "lie-groups/derived-representation-on-smooth-vectors"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "lie-groups/derived-representation-on-smooth-vectors"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a

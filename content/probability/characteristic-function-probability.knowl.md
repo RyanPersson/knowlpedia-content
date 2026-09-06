@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The complex-valued function t ↦ E[exp(i t X)] associated with a real-valued random variable."
 aliases = ["characteristic-function-probability", "Characteristic function"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "probability/characteristic-function-probability.md"
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **characteristic function** of a real-valued [[probability/random-variable|random variable]] \(X\) is the function \(\varphi_X:\mathbb R\to\mathbb C\) defined by

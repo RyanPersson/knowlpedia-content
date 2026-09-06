@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every open cover of a compact metric space has a uniform scale that fits inside the cover."
 aliases = ["lebesgue-number-lemma", "Lebesgue number lemma"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/compact-set", "topology/open-cover", "topology/open-ball"]
-dependency_review_count = 1
 legacy_source_path = "topology/lebesgue-number-lemma.md"
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/open-cover", "topology/open-ball"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Lebesgue number lemma:** Let \((X,d)\) be a [[topology/metric-space|metric space]] and assume \(X\) is [[topology/compact-set|compact]]. For every [[topology/open-cover|open cover]] \(\mathcal{U}\) of \(X\), there exists a number \(\delta>0\) (a Lebesgue number for \(\mathcal{U}\)) such that for every \(x\in X\) there is some \(U\in\mathcal{U}\) with

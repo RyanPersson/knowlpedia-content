@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A continuous real-valued function on a nonempty compact set attains its maximum and minimum."
 aliases = ["extreme-value-theorem", "Extreme value theorem"]
 domains = ["topology"]
-prerequisites = ["topology/compact-set", "topology/continuous-map"]
-dependency_review_count = 1
 legacy_source_path = "topology/extreme-value-theorem.md"
+prerequisites = ["topology/compact-set", "topology/continuous-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **extreme value theorem** states: if \(K\) is a nonempty

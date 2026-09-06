@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A topological vector space whose origin has a neighborhood basis of convex sets."
 aliases = ["locally convex topological vector space", "LCTVS"]
 domains = ["functional-analysis", "convex-analysis", "topology"]
-prerequisites = ["functional-analysis/topological-vector-space", "topology/neighborhood", "convex-analysis/convex-set", "convex-analysis/seminorm"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/topological-vector-space", "topology/neighborhood", "convex-analysis/convex-set", "convex-analysis/seminorm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **locally convex space** is a real or complex

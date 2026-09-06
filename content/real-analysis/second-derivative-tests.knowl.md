@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Using the second derivative to classify local maxima and minima at critical points."
 aliases = ["second-derivative-tests", "Second derivative tests"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/critical-point", "real-analysis/local-extremum", "real-analysis/higher-derivatives"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/second-derivative-tests.md"
+prerequisites = ["real-analysis/critical-point", "real-analysis/local-extremum", "real-analysis/higher-derivatives"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Second derivative tests:** Let \(f:I\to\mathbb{R}\) be twice differentiable on an open interval \(I\), and let \(c\in I\) satisfy \(f'(c)=0\).

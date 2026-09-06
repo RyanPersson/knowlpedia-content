@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The number of local boundary coordinates that vanish at a point of a manifold with corners."
 aliases = ["corner depth", "depth stratum"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/manifold-with-corners"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/manifold-with-corners"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional [[differential-geometry/manifold-with-corners|manifold with corners]], and choose a corner chart in which \(x\in M\) corresponds to

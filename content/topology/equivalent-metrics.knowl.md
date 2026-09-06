@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two metrics on the same set that generate the same open sets, hence the same topology."
 aliases = ["equivalent-metrics", "Equivalent metrics"]
 domains = ["topology"]
-prerequisites = ["topology/metric-induced-topology", "topology/homeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "topology/equivalent-metrics.md"
+prerequisites = ["topology/metric-induced-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Two metrics \(d\) and \(d'\) on a set \(X\) are **equivalent** if they induce the same [[topology/metric-induced-topology|topology]] on \(X\).

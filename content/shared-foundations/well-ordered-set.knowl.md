@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A totally ordered set in which every nonempty subset has a least element."
 aliases = ["well-ordered-set", "Well-ordered set"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/total-order"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/well-ordered-set.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/total-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **well-ordered set** is a [[shared-foundations/set|set]] \(X\) equipped with a [[shared-foundations/total-order|total order]] \(\le\) such that every nonempty subset \(A\subseteq X\) has a least element; that is, there exists \(m\in A\) with \(m\le a\) for all \(a\in A\).

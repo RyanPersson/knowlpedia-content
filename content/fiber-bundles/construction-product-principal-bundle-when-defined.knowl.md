@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Construction of a principal G×H-bundle from principal G- and H-bundles over the same base."
 aliases = ["construction-product-principal-bundle-when-defined", "Product principal bundle (fiber product over the base)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "differential-geometry/embedded-submanifold", "fiber-bundles/principal-bundle-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-product-principal-bundle-when-defined.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "differential-geometry/embedded-submanifold", "fiber-bundles/principal-bundle-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with projection \(\pi_P\), and let \(Q\to M\) be a principal \(H\)-bundle with projection \(\pi_Q\), where \(G,H\) are [[fiber-bundles/lie-group|Lie groups]].

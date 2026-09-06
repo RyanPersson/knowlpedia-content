@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The map a+bi ↦ a-bi on complex numbers."
 aliases = ["complex-conjugate", "Complex conjugate"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/complex-numbers-c"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/complex-conjugate.md"
+prerequisites = []
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 For \(z=a+bi\in\mathbb{C}\) with \(a,b\in\mathbb{R}\), the **complex conjugate** of \(z\) is

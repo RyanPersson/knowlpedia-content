@@ -1,0 +1,997 @@
+{
+  "version": 1,
+  "review_scope": "Foundational prerequisite lists; entire core and later sections inspected to distinguish ingredients from examples and consequences.",
+  "entry_assumptions": [
+    "Elementary logic and set membership",
+    "Elementary real/complex arithmetic and Euclidean spaces",
+    "Euclidean C-infinity calculus and second countability where no dedicated canonical knowl currently exists"
+  ],
+  "baseline_nodes": 3501,
+  "baseline_edges": 10064,
+  "reviews": [
+    {
+      "id": "shared-foundations/set",
+      "before": [],
+      "after": [],
+      "review_count_before": 0,
+      "rationale": "Set membership and elementary logic are entry assumptions. Union, intersection, and power set are subsequent constructions."
+    },
+    {
+      "id": "shared-foundations/subset",
+      "before": [],
+      "after": [
+        "shared-foundations/set"
+      ],
+      "review_count_before": 0,
+      "rationale": "Containment is defined by membership in two sets; it does not require set operations."
+    },
+    {
+      "id": "shared-foundations/ordered-pair",
+      "before": [],
+      "after": [
+        "shared-foundations/set"
+      ],
+      "review_count_before": 0,
+      "rationale": "Componentwise equality and the stated Kuratowski realization require sets. Cartesian products and relations use pairs subsequently."
+    },
+    {
+      "id": "shared-foundations/cartesian-product",
+      "before": [
+        "shared-foundations/ordered-pair"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/ordered-pair"
+      ],
+      "review_count_before": 0,
+      "rationale": "The product is a set of ordered pairs; both constituent notions belong in the dependency list."
+    },
+    {
+      "id": "shared-foundations/relation",
+      "before": [
+        "shared-foundations/cartesian-product"
+      ],
+      "after": [
+        "shared-foundations/cartesian-product",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is a subset of a Cartesian product, including the previously unlinked containment notation."
+    },
+    {
+      "id": "shared-foundations/function",
+      "before": [
+        "shared-foundations/relation",
+        "shared-foundations/set"
+      ],
+      "after": [
+        "shared-foundations/relation",
+        "shared-foundations/set"
+      ],
+      "review_count_before": 0,
+      "rationale": "A total single-valued relation between sets; images, preimages, and composition are later constructions."
+    },
+    {
+      "id": "shared-foundations/binary-operation",
+      "before": [
+        "shared-foundations/function",
+        "shared-foundations/cartesian-product"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/cartesian-product"
+      ],
+      "review_count_before": 0,
+      "rationale": "A function with domain the Cartesian square; examples of algebraic structures are not prerequisites."
+    },
+    {
+      "id": "shared-foundations/power-set",
+      "before": [],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The collection consists of all subsets of a given set; notation in the statement previously produced no inferred prerequisites."
+    },
+    {
+      "id": "shared-foundations/indexed-family-of-sets",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The family is a set-valued function indexed by a set. Set knowledge is already supplied by the function prerequisite."
+    },
+    {
+      "id": "shared-foundations/union",
+      "before": [
+        "shared-foundations/indexed-family-of-sets"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/indexed-family-of-sets"
+      ],
+      "review_count_before": 0,
+      "rationale": "Retain indexed families for the general union formula and explicitly retain sets for the binary definition."
+    },
+    {
+      "id": "shared-foundations/intersection",
+      "before": [
+        "shared-foundations/indexed-family-of-sets"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/indexed-family-of-sets"
+      ],
+      "review_count_before": 0,
+      "rationale": "Retain indexed families for the general intersection formula. Union and complement are comparisons rather than required constructions."
+    },
+    {
+      "id": "shared-foundations/complement",
+      "before": [],
+      "after": [
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The complement is specified by membership outside a subset of an ambient set; set difference is an equivalent formulation."
+    },
+    {
+      "id": "shared-foundations/preimage",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "A preimage requires a function and a subset of its codomain. An inverse function is not necessary."
+    },
+    {
+      "id": "shared-foundations/sequence",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "shared-foundations/natural-numbers"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "shared-foundations/natural-numbers"
+      ],
+      "review_count_before": 0,
+      "rationale": "Sequences are functions on natural numbers. The three existing inputs cover the actual definition."
+    },
+    {
+      "id": "algebra-groups/semigroup",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation"
+      ],
+      "review_count_before": 0,
+      "rationale": "Associative operation on a set. Monoids and groups add further conditions."
+    },
+    {
+      "id": "algebra-groups/monoid",
+      "before": [
+        "algebra-groups/semigroup",
+        "shared-foundations/composition"
+      ],
+      "after": [
+        "algebra-groups/semigroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The identity axiom extends a semigroup. Composition appears as an example of a monoid, not as part of its definition."
+    },
+    {
+      "id": "algebra-groups/group",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation",
+        "algebra-groups/monoid"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation",
+        "algebra-groups/monoid"
+      ],
+      "review_count_before": 0,
+      "rationale": "Retain the set/operation presentation and its monoid formulation; subgroups and group homomorphisms are downstream."
+    },
+    {
+      "id": "algebra-groups/abelian-group",
+      "before": [
+        "algebra-groups/group"
+      ],
+      "after": [
+        "algebra-groups/group"
+      ],
+      "review_count_before": 0,
+      "rationale": "An abelian group is a group satisfying commutativity; vector spaces are examples."
+    },
+    {
+      "id": "algebra-rings/ring-axioms",
+      "before": [
+        "shared-foundations/binary-operation",
+        "algebra-groups/abelian-group"
+      ],
+      "after": [
+        "shared-foundations/binary-operation",
+        "algebra-groups/abelian-group"
+      ],
+      "review_count_before": 0,
+      "rationale": "The full axiom statement uses binary operations and an abelian additive group. It does not assume a unit or commutativity of multiplication."
+    },
+    {
+      "id": "algebra-rings/ring",
+      "before": [
+        "shared-foundations/binary-operation",
+        "algebra-groups/abelian-group",
+        "algebra-rings/ring-axioms"
+      ],
+      "after": [
+        "shared-foundations/binary-operation",
+        "algebra-groups/abelian-group",
+        "algebra-rings/ring-axioms"
+      ],
+      "review_count_before": 0,
+      "rationale": "Retain operations, additive abelian groups, and the explicit axiom formulation. The repository permits nonunital rings."
+    },
+    {
+      "id": "algebra-rings/commutative-ring",
+      "before": [
+        "algebra-rings/ring"
+      ],
+      "after": [
+        "algebra-rings/ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "A commutative ring adds one identity to the ring axioms. Ideals and spectra are downstream."
+    },
+    {
+      "id": "algebra-rings/unital-ring",
+      "before": [
+        "algebra-rings/ring"
+      ],
+      "after": [
+        "algebra-rings/ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "A unital ring adds a multiplicative identity to a ring; units are defined afterward."
+    },
+    {
+      "id": "algebra-rings/unit",
+      "before": [
+        "algebra-rings/unital-ring"
+      ],
+      "after": [
+        "algebra-rings/unital-ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "An invertible element in a unital ring; no field or group-of-units construction is required."
+    },
+    {
+      "id": "algebra-rings/field",
+      "before": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unit"
+      ],
+      "after": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unit"
+      ],
+      "review_count_before": 0,
+      "rationale": "The commutative-ring and unit prerequisites together provide the unital inverse condition. Ideals are equivalent characterizations."
+    },
+    {
+      "id": "linear-algebra/vector-space",
+      "before": [
+        "algebra-rings/field",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "after": [
+        "algebra-rings/field",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The statement supplies the complete vector-space axioms using a field, set, and functions. Linear maps and eigenvalues are downstream."
+    },
+    {
+      "id": "linear-algebra/linear-map",
+      "before": [
+        "shared-foundations/function",
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "linear-algebra/vector-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "A function between vector spaces preserving the two operations. Operator theory is a specialization."
+    },
+    {
+      "id": "linear-algebra/inner-product",
+      "before": [
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-conjugate"
+      ],
+      "review_count_before": 0,
+      "rationale": "The displayed conjugate-symmetry axiom uses complex conjugation, absent from the original link-only list. Norms and orthogonality are constructions from the product."
+    },
+    {
+      "id": "linear-algebra/inner-product-space",
+      "before": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product"
+      ],
+      "review_count_before": 0,
+      "rationale": "Retain a vector space and chosen inner product. Completeness is not required until Hilbert spaces."
+    },
+    {
+      "id": "linear-algebra/norm",
+      "before": [
+        "linear-algebra/vector-space",
+        "real-analysis/absolute-value"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "real-analysis/absolute-value"
+      ],
+      "review_count_before": 0,
+      "rationale": "The explicit norm axioms require a vector space and scalar absolute value. A metric is induced afterward."
+    },
+    {
+      "id": "linear-algebra/hilbert-space",
+      "before": [
+        "linear-algebra/inner-product-space",
+        "topology/complete-metric-space"
+      ],
+      "after": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/norm",
+        "topology/complete-metric-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition requires an inner product, the induced norm, and metric completeness. Banach spaces are a consequence, not an input."
+    },
+    {
+      "id": "topology/topology",
+      "before": [
+        "shared-foundations/set"
+      ],
+      "after": [
+        "shared-foundations/power-set",
+        "shared-foundations/union",
+        "shared-foundations/intersection"
+      ],
+      "review_count_before": 0,
+      "rationale": "The closure axioms use a power set, arbitrary unions, and finite intersections. Open sets are the members selected by this structure."
+    },
+    {
+      "id": "topology/topological-space",
+      "before": [
+        "shared-foundations/ordered-pair",
+        "shared-foundations/set",
+        "topology/topology"
+      ],
+      "after": [
+        "shared-foundations/ordered-pair",
+        "shared-foundations/set",
+        "topology/topology"
+      ],
+      "review_count_before": 0,
+      "rationale": "An ordered pair of a set and its topology; later constructions are not prerequisites."
+    },
+    {
+      "id": "topology/open-set",
+      "before": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/interior",
+        "topology/closure"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "Membership in the topology defines openness. Interior and closure are derived operations and must not precede open sets."
+    },
+    {
+      "id": "topology/neighborhood",
+      "before": [
+        "topology/topological-space",
+        "topology/open-set"
+      ],
+      "after": [
+        "topology/topological-space",
+        "topology/open-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "A neighborhood contains an open set around a point. Metric balls and interior provide examples or equivalent descriptions."
+    },
+    {
+      "id": "topology/continuous-map",
+      "before": [
+        "topology/topological-space",
+        "shared-foundations/function",
+        "topology/open-set",
+        "shared-foundations/preimage"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/function",
+        "topology/open-set",
+        "shared-foundations/preimage"
+      ],
+      "review_count_before": 0,
+      "rationale": "The function/preimage/open-set condition and the underlying spaces provide the full definition."
+    },
+    {
+      "id": "topology/metric",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "topology/open-ball",
+        "topology/metric-induced-topology"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "A metric is a distance function satisfying three axioms. Balls and induced topology are constructed from it."
+    },
+    {
+      "id": "topology/metric-space",
+      "before": [
+        "shared-foundations/set",
+        "topology/metric",
+        "topology/topological-space",
+        "topology/metric-induced-topology",
+        "topology/open-ball"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "topology/metric"
+      ],
+      "review_count_before": 0,
+      "rationale": "The pair consists of a set and a metric. Its topological structure and open balls are consequences."
+    },
+    {
+      "id": "topology/open-ball",
+      "before": [
+        "topology/open-set",
+        "topology/basis-of-topology",
+        "topology/neighborhood"
+      ],
+      "after": [
+        "topology/metric-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The inequality d(x,y)<r requires a metric space. Being open and forming a topological basis are subsequent properties."
+    },
+    {
+      "id": "topology/metric-induced-topology",
+      "before": [
+        "topology/open-ball",
+        "topology/basis-of-topology",
+        "topology/open-set"
+      ],
+      "after": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/topology"
+      ],
+      "review_count_before": 0,
+      "rationale": "This constructs a topology from metric balls. The basis characterization is useful but not needed before the construction."
+    },
+    {
+      "id": "topology/cauchy-sequence",
+      "before": [],
+      "after": [
+        "shared-foundations/sequence",
+        "topology/metric-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The epsilon condition is stated for a sequence in a metric space. Completeness and convergence are not prerequisites for Cauchyness."
+    },
+    {
+      "id": "topology/convergent-sequence",
+      "before": [
+        "topology/topological-space",
+        "topology/neighborhood",
+        "topology/metric-space",
+        "topology/hausdorff-space"
+      ],
+      "after": [
+        "shared-foundations/sequence",
+        "topology/topological-space",
+        "topology/neighborhood"
+      ],
+      "review_count_before": 0,
+      "rationale": "The general definition uses neighborhoods. Metric convergence and uniqueness in Hausdorff spaces are special cases."
+    },
+    {
+      "id": "topology/complete-metric-space",
+      "before": [
+        "topology/cauchy-sequence",
+        "topology/convergent-sequence"
+      ],
+      "after": [
+        "topology/metric-space",
+        "topology/cauchy-sequence",
+        "topology/convergent-sequence"
+      ],
+      "review_count_before": 0,
+      "rationale": "Completeness quantifies over Cauchy sequences and demands a limit inside the metric space."
+    },
+    {
+      "id": "measure-theory/sigma-algebra",
+      "before": [],
+      "after": [
+        "shared-foundations/power-set",
+        "shared-foundations/complement",
+        "shared-foundations/union",
+        "shared-foundations/sequence"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition uses subsets of a power set, relative complements, and countable sequences/unions. Neither measures nor measurable functions are inputs."
+    },
+    {
+      "id": "measure-theory/measurable-space",
+      "before": [
+        "shared-foundations/set",
+        "measure-theory/sigma-algebra",
+        "measure-theory/measurable-function",
+        "measure-theory/measure"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "measure-theory/sigma-algebra"
+      ],
+      "review_count_before": 0,
+      "rationale": "A set with a sigma-algebra exists before measures or measurable functions are introduced."
+    },
+    {
+      "id": "measure-theory/measurable-set",
+      "before": [
+        "measure-theory/measurable-function"
+      ],
+      "after": [
+        "measure-theory/measurable-space",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "Membership in the specified sigma-algebra defines measurability. Functions and measures use this notion afterward."
+    },
+    {
+      "id": "measure-theory/measurable-function",
+      "before": [
+        "shared-foundations/function",
+        "shared-foundations/preimage"
+      ],
+      "after": [
+        "measure-theory/measurable-space",
+        "measure-theory/measurable-set",
+        "shared-foundations/function",
+        "shared-foundations/preimage"
+      ],
+      "review_count_before": 0,
+      "rationale": "Both measurable spaces and their measurable sets are necessary to state the preimage condition; they were missing from the heuristic list."
+    },
+    {
+      "id": "measure-theory/measure",
+      "before": [
+        "measure-theory/measurable-set",
+        "measure-theory/null-set"
+      ],
+      "after": [
+        "measure-theory/measurable-space",
+        "measure-theory/measurable-set",
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "shared-foundations/union"
+      ],
+      "review_count_before": 0,
+      "rationale": "Countable additivity is a condition on a function on measurable sets. Null sets require a measure and cannot be an input to it."
+    },
+    {
+      "id": "measure-theory/measure-space",
+      "before": [
+        "measure-theory/measurable-space",
+        "measure-theory/measure"
+      ],
+      "after": [
+        "measure-theory/measurable-space",
+        "measure-theory/measure"
+      ],
+      "review_count_before": 0,
+      "rationale": "A measurable space together with a measure; almost-everywhere statements are later notions."
+    },
+    {
+      "id": "topology/homeomorphism",
+      "before": [
+        "topology/topological-space",
+        "shared-foundations/bijective-function",
+        "topology/continuous-map",
+        "shared-foundations/inverse-function"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/bijective-function",
+        "topology/continuous-map",
+        "shared-foundations/inverse-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition requires topological spaces and a bijective continuous function with continuous inverse. Compactness and connectedness are preserved properties."
+    },
+    {
+      "id": "topology/topological-manifold",
+      "before": [
+        "topology/topological-space",
+        "topology/homeomorphism",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "after": [
+        "topology/topological-space",
+        "topology/homeomorphism",
+        "topology/hausdorff-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The base definition is topological and Hausdorff. A smooth manifold is a stronger structure, not an input. Second countability and Euclidean space are explicit background assumptions in this review."
+    },
+    {
+      "id": "fiber-bundles/smooth-chart-coordinate-chart",
+      "before": [
+        "fiber-bundles/coordinate-transition-map"
+      ],
+      "after": [
+        "topology/topological-manifold",
+        "topology/homeomorphism",
+        "topology/open-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "A chart is a homeomorphism between suitable open sets. Comparing two charts to form a transition map occurs afterward."
+    },
+    {
+      "id": "fiber-bundles/coordinate-transition-map",
+      "before": [],
+      "after": [
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "shared-foundations/composition",
+        "shared-foundations/inverse-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The transition is the composition of one chart with the inverse of another. Smooth compatibility is a property of this map."
+    },
+    {
+      "id": "fiber-bundles/smooth-atlas",
+      "before": [
+        "fiber-bundles/smooth-chart-coordinate-chart"
+      ],
+      "after": [
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/coordinate-transition-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "A covering by charts with smooth coordinate changes; maximal atlases and smooth manifolds are built later. Euclidean C-infinity calculus is assumed."
+    },
+    {
+      "id": "fiber-bundles/smooth-compatibility-of-charts-and-atlases",
+      "before": [
+        "fiber-bundles/smooth-atlas"
+      ],
+      "after": [
+        "fiber-bundles/coordinate-transition-map",
+        "fiber-bundles/smooth-atlas"
+      ],
+      "review_count_before": 0,
+      "rationale": "The entry covers both chart and atlas compatibility. Its core specifies smooth coordinate changes directly; it need not depend on manifold diffeomorphisms."
+    },
+    {
+      "id": "fiber-bundles/maximal-smooth-atlas",
+      "before": [
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-compatibility-of-charts-and-atlases"
+      ],
+      "after": [
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-compatibility-of-charts-and-atlases"
+      ],
+      "review_count_before": 0,
+      "rationale": "Maximality is a condition on a smooth atlas relative to compatibility of charts. A chosen smooth structure is introduced afterward."
+    },
+    {
+      "id": "fiber-bundles/smooth-structure",
+      "before": [
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-compatibility-of-charts-and-atlases"
+      ],
+      "after": [
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-compatibility-of-charts-and-atlases"
+      ],
+      "review_count_before": 0,
+      "rationale": "The maximal-atlas definition and compatible-atlas formulation cover the entry without requiring the resulting smooth manifold."
+    },
+    {
+      "id": "fiber-bundles/smooth-manifold",
+      "before": [
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-structure"
+      ],
+      "after": [
+        "topology/topological-manifold",
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-structure"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the underlying topological manifold, alongside the existing smooth atlas data. Lie groups and tangent bundles are examples or subsequent constructions."
+    },
+    {
+      "id": "fiber-bundles/smooth-map",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-atlas"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-atlas"
+      ],
+      "review_count_before": 0,
+      "rationale": "A map between smooth manifolds is tested in coordinate charts. Its differential and pullbacks are subsequent constructions. Euclidean C-infinity calculus is assumed."
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/right-translation-r-g",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the abstract group required by the definition. Translations and their diffeomorphism property follow from smooth group operations."
+    },
+    {
+      "id": "fiber-bundles/lie-bracket",
+      "before": [
+        "fiber-bundles/vector-field",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/left-invariant-vector-field"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "A bracket is an alternating bilinear operation satisfying Jacobi; linearity in each argument is sufficient. Vector fields and Lie groups are realizations of the abstract operation."
+    },
+    {
+      "id": "lie-groups/lie-algebra",
+      "before": [
+        "linear-algebra/vector-space",
+        "fiber-bundles/lie-bracket"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "fiber-bundles/lie-bracket"
+      ],
+      "review_count_before": 0,
+      "rationale": "A vector space with a specified Lie bracket. The bracket entry is now abstract and no longer imports differential geometry into this definition."
+    },
+    {
+      "id": "fiber-bundles/local-trivialization",
+      "before": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/transition-function",
+        "fiber-bundles/equivariant-local-trivialization",
+        "fiber-bundles/construction-local-trivialization-from-a-local-section"
+      ],
+      "after": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition uses a bundle and a diffeomorphism to a local product. Transition functions, equivariant versions, and constructions from sections are downstream."
+    },
+    {
+      "id": "fiber-bundles/vector-bundle",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/local-trivialization"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/local-trivialization",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the linear algebra behind vector fibers and fiberwise linear isomorphisms. Tangent bundles and connection theory are examples or later constructions."
+    },
+    {
+      "id": "fiber-bundles/principal-g-bundle",
+      "before": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "after": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/smooth-submersion",
+        "algebra-groups/group-action"
+      ],
+      "review_count_before": 0,
+      "rationale": "The statement requires a surjective submersion and group action in addition to smooth local products. Connections and holonomy remain downstream."
+    }
+  ],
+  "learning_paths": [
+    {
+      "name": "Sets to linear maps",
+      "concepts": [
+        "shared-foundations/set",
+        "shared-foundations/ordered-pair",
+        "shared-foundations/cartesian-product",
+        "shared-foundations/relation",
+        "shared-foundations/function",
+        "shared-foundations/binary-operation",
+        "algebra-groups/semigroup",
+        "algebra-groups/monoid",
+        "algebra-groups/group",
+        "algebra-groups/abelian-group",
+        "algebra-rings/ring",
+        "algebra-rings/commutative-ring",
+        "algebra-rings/field",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "name": "Metric completeness to Hilbert spaces",
+      "concepts": [
+        "shared-foundations/function",
+        "topology/metric",
+        "topology/metric-space",
+        "topology/cauchy-sequence",
+        "topology/complete-metric-space",
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "name": "Inner products to Hilbert spaces",
+      "concepts": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product",
+        "linear-algebra/inner-product-space",
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "name": "Sets to measure spaces",
+      "concepts": [
+        "shared-foundations/set",
+        "shared-foundations/subset",
+        "shared-foundations/power-set",
+        "measure-theory/sigma-algebra",
+        "measure-theory/measurable-space",
+        "measure-theory/measure",
+        "measure-theory/measure-space"
+      ]
+    },
+    {
+      "name": "Measurable spaces to measurable functions",
+      "concepts": [
+        "measure-theory/sigma-algebra",
+        "measure-theory/measurable-space",
+        "measure-theory/measurable-set",
+        "measure-theory/measurable-function"
+      ]
+    },
+    {
+      "name": "Topology to Lie groups",
+      "concepts": [
+        "topology/topology",
+        "topology/topological-space",
+        "topology/topological-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/coordinate-transition-map",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "name": "Linear algebra to abstract Lie algebras",
+      "concepts": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "fiber-bundles/lie-bracket",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "name": "Linear algebra to vector bundles",
+      "concepts": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "fiber-bundles/vector-bundle"
+      ]
+    }
+  ],
+  "forbidden_prerequisite_ancestors": {
+    "topology/metric": [
+      "topology/open-ball",
+      "topology/metric-induced-topology",
+      "topology/topological-space"
+    ],
+    "measure-theory/measurable-space": [
+      "measure-theory/measure",
+      "measure-theory/measurable-function",
+      "measure-theory/null-set"
+    ],
+    "topology/open-set": [
+      "topology/interior",
+      "topology/closure",
+      "topology/continuous-map"
+    ],
+    "algebra-groups/monoid": [
+      "shared-foundations/composition"
+    ],
+    "lie-groups/lie-algebra": [
+      "fiber-bundles/smooth-manifold",
+      "fiber-bundles/lie-group",
+      "fiber-bundles/principal-g-bundle"
+    ],
+    "fiber-bundles/smooth-chart-coordinate-chart": [
+      "fiber-bundles/coordinate-transition-map",
+      "fiber-bundles/smooth-manifold"
+    ],
+    "linear-algebra/vector-space": [
+      "linear-algebra/determinant",
+      "linear-algebra/eigenvalue"
+    ]
+  },
+  "added_edges": 52,
+  "removed_edges": 32,
+  "final_edges": 10084
+}

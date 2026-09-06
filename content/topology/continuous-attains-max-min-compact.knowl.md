@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous real-valued function on a compact set achieves a maximum and a minimum"
 aliases = ["continuous-attains-max-min-compact", "Continuous attains max/min on compact set"]
 domains = ["topology"]
-prerequisites = ["topology/compact-set", "topology/continuous-map", "topology/continuous-image-of-compact-set-is-compact"]
-dependency_review_count = 1
 legacy_source_path = "topology/continuous-attains-max-min-compact.md"
+prerequisites = ["topology/compact-set", "topology/continuous-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Extreme-value theorem.** Let \(K\) be a nonempty [[topology/compact-set|compact set]] and let \(f:K\to\mathbb R\) be [[topology/continuous-map|continuous]]. Then there exist \(x_{\min},x_{\max}\in K\) such that

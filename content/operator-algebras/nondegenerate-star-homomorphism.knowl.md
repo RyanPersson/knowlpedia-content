@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C*-algebra homomorphism whose image acts densely on the target algebra or representation space."
 aliases = ["non-degenerate representation", "essential *-homomorphism", "nondegenerate representation", "nondegenerate C*-homomorphism"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-homomorphism", "operator-algebras/multiplier-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/star-homomorphism", "operator-algebras/multiplier-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be

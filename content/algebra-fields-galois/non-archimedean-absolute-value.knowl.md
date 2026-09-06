@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A multiplicative absolute value satisfying the strong triangle inequality."
 aliases = ["ultrametric absolute value", "nonarchimedean norm on a field"]
 domains = ["algebra-fields-galois", "real-analysis"]
-prerequisites = ["algebra-fields-galois/valuation-on-a-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/valuation-on-a-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **non-Archimedean absolute value** on a field \(K\) is a map

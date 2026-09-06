@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function specified indirectly by an equation involving its inputs and outputs"
 aliases = ["implicitly-defined-function", "Implicitly defined function"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/implicitly-defined-function.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a function on a subset of \(\mathbb R^{n+m}\). A function \(\varphi:U\to\mathbb R^m\), where \(U\subseteq\mathbb R^n\), is **implicitly defined by**

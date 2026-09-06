@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The principal SO(n)-bundle of oriented orthonormal frames for an oriented metric real rank-n bundle."
 aliases = ["special-orthonormal-frame-bundle-reduction", "Special orthonormal frame bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/bundle-metric", "fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle", "fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/special-orthonormal-frame-bundle-reduction.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/bundle-metric", "fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]] of rank \(n\) over a [[fiber-bundles/smooth-manifold|smooth manifold]], equipped with a [[fiber-bundles/bundle-metric|bundle metric]] and an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]]. The **special orthonormal frame bundle**, denoted \(\mathrm{SO}(E)\), is the subbundle of the [[fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle|orthonormal frame bundle]] consisting of orthonormal frames that are oriented:

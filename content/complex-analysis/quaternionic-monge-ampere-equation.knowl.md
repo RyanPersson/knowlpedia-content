@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A nonlinear elliptic equation prescribing the Moore determinant of a quaternionic Hessian."
 aliases = ["quaternionic Monge-Ampere equation", "quaternionic determinant equation"]
 domains = ["complex-analysis", "quaternionic-analysis", "partial-differential-equations"]
-prerequisites = ["complex-analysis/quaternionic-monge-ampere-measure", "complex-analysis/quaternionic-plurisubharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/quaternionic-monge-ampere-measure", "complex-analysis/quaternionic-plurisubharmonic-function", "complex-analysis/quaternionic-hessian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On a domain \(\Omega\subseteq\mathbb H^n\), a **quaternionic Monge–Ampère

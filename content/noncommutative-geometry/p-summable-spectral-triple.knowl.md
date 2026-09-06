@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A spectral triple whose regularized inverse Dirac operator belongs to a specified Schatten class."
 aliases = ["p-summability", "strictly p-summable spectral triple"]
 domains = ["noncommutative-geometry", "functional-analysis"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/schatten-class-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/schatten-class-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(0<p<\infty\). A [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) is **\(p\)-summable** if

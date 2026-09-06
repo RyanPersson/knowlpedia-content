@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The change-of-trivialization data on overlaps, encoding how local bundle charts glue."
 aliases = ["transition-function", "Transition function"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/local-trivialization", "fiber-bundles/diffeomorphism", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/transition-function.md"
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/diffeomorphism", "fiber-bundles/smooth-map", "fiber-bundles/local-trivialization"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] with [[fiber-bundles/typical-fiber|typical fiber]] \(F\), and let \((U_i,\Phi_i)\) and \((U_j,\Phi_j)\) be [[fiber-bundles/local-trivialization|local trivializations]]. On the overlap \(U_{ij}=U_i\cap U_j\), the change of trivialization is the map

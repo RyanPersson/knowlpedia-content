@@ -6,6 +6,7 @@ summary = "Pulling an object over a base back along a morphism to a new base."
 aliases = ["base change", "change of base", "pullback along the base"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/fiber-product-of-schemes", "algebraic-geometry-foundations/affine-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The symmetric monoidal structure on a cobordism category whose tensor product is disjoint union and whose unit is the empty manifold."
 aliases = ["disjoint-union monoidal structure on cobordisms", "symmetric monoidal bordism category"]
 domains = ["differential-geometry", "category-theory"]
-prerequisites = ["differential-geometry/cobordism-category", "differential-geometry/cobordism", "differential-geometry/disjoint-union-of-smooth-manifolds"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/cobordism-category", "differential-geometry/cobordism", "differential-geometry/disjoint-union-of-smooth-manifolds"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On a fixed \(d\)-dimensional [[differential-geometry/cobordism-category|cobordism category]], the **symmetric monoidal structure under disjoint union** has

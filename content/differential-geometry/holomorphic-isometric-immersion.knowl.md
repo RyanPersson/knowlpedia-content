@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A holomorphic map between Hermitian manifolds that pulls the target metric back to the source metric."
 aliases = ["Kähler immersion", "Hermitian isometric immersion"]
 domains = ["differential-geometry", "complex-analysis"]
-prerequisites = ["differential-geometry/hermitian-manifold", "differential-geometry/holomorphic-map", "differential-geometry/riemannian-isometric-immersion"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hermitian-manifold", "differential-geometry/holomorphic-map", "differential-geometry/riemannian-isometric-immersion"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,J_M,g_M)\) and \((N,J_N,g_N)\) be [[differential-geometry/hermitian-manifold|Hermitian manifolds]]. A **holomorphic isometric immersion** is a smooth map \(f:M\to N\) satisfying

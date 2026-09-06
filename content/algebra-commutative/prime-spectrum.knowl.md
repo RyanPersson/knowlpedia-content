@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set Spec(R) of prime ideals of a commutative ring, naturally equipped with the Zariski topology."
 aliases = ["prime-spectrum", "Prime spectrum"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/prime-spectrum.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/localization-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. A **prime ideal** of \(R\) is a proper ideal \(\mathfrak p\subsetneq R\) such that whenever \(ab\in\mathfrak p\) (with \(a,b\in R\)), then \(a\in\mathfrak p\) or \(b\in\mathfrak p\).

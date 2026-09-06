@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An additive map between vector spaces that twists scalar multiplication by a field homomorphism."
 aliases = ["semilinear transformation", "sigma-semilinear map", "semilinear isomorphism"]
 domains = ["linear-algebra", "algebra-fields-galois"]
-prerequisites = ["linear-algebra/vector-space", "algebra-fields-galois/field-automorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "algebra-fields-galois/field-automorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a [[linear-algebra/vector-space|vector space]] over a field \(k\), let \(W\) be a vector space over a field \(\ell\), and let \(\sigma:k\to\ell\) be a field homomorphism. A map \(T:V\to W\) is **\(\sigma\)-semilinear** if

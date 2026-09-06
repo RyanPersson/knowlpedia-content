@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A semifield with idempotent addition."
 aliases = ["tropical semifield in the broad sense"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
-prerequisites = ["algebra-rings/semifield", "algebra-rings/idempotent-semiring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/semifield", "algebra-rings/idempotent-semiring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **idempotent semifield** is a [[algebra-rings/semifield|semifield]]

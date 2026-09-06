@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "If i is an ideal in g, then g/i inherits a canonical Lie bracket."
 aliases = ["quotient-lie-algebra", "Quotient Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/lie-algebra-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "lie-groups/quotient-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/lie-algebra-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a Lie algebra (see [[lie-groups/lie-algebra|Lie algebra]]) and let \(\mathfrak i\subseteq \mathfrak g\) be an ideal (see [[lie-groups/ideal-lie-algebra|ideal]]). The **quotient Lie algebra** \(\mathfrak g/\mathfrak i\) is the vector space quotient equipped with the bracket

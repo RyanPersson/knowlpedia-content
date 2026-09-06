@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A possibly unbounded linear operator whose graph is closed in the product space."
 aliases = ["closed operator"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/normed-vector-space", "convex-analysis/linear-subspace", "functional-analysis/graph-of-operator", "topology/closed-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/normed-vector-space", "convex-analysis/linear-subspace", "functional-analysis/graph-of-operator", "topology/closed-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) and \(Y\) be [[linear-algebra/normed-vector-space|normed vector spaces]], and let \(T:D(T)\subseteq X\to Y\) be linear on the [[convex-analysis/linear-subspace|linear subspace]] \(D(T)\). The operator \(T\) is **closed** if its [[functional-analysis/graph-of-operator|graph]]

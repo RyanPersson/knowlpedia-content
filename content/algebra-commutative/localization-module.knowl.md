@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a multiplicative subset S of a commutative ring R, the localization S^{-1}M is the module obtained by making every element of S act invertibly."
 aliases = ["localization-module", "Localization of a module"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-module.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]], let \(S\subseteq R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]], and let \(M\) be an \(R\)-module. The **localization of \(M\) at \(S\)** is the \(S^{-1}R\)-module \(S^{-1}M\) whose elements and operations are described below. Every \(s\in S\) acts invertibly on this module.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The distinction between Jordan algebras realizable by symmetrizing associative multiplication and those that are not."
 aliases = ["special Jordan algebra", "special versus exceptional Jordan algebra"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/jordan-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/jordan-algebra", "nonassociative-algebra/jordan-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[nonassociative-algebra/jordan-algebra|Jordan algebra]] \(J\) is **special**

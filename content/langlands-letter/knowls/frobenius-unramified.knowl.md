@@ -5,11 +5,11 @@ kind = "knowl"
 summary = "Arithmetic and geometric Frobenius conjugacy classes at an unramified place."
 aliases = ["frobenius-unramified", "Unramified Prime and Frobenius Element"]
 domains = ["langlands-letter"]
-prerequisites = ["algebra-fields-galois/galois-extension", "langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/inertia-subgroup", "algebra-fields-galois/decomposition-group", "algebra-commutative/residue-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/frobenius-unramified.md"
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/galois-extension", "langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/inertia-subgroup", "algebra-fields-galois/decomposition-group", "algebra-commutative/residue-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/F\) be a finite [[algebra-fields-galois/galois-extension|Galois

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Condition that two vectors have inner product equal to zero."
 aliases = ["orthogonality"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/inner-product-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/orthogonality.md"
+prerequisites = ["linear-algebra/inner-product-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Orthogonality** is the relation in an [[linear-algebra/inner-product-space|inner product space]] \((V,\langle\cdot,\cdot\rangle)\) defined by

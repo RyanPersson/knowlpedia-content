@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A regular tempered distribution is a tempered distribution represented by integration against a locally integrable function."
 aliases = ["tempered distribution induced by a function", "slow-growth function as a distribution"]
 domains = ["functional-analysis", "distribution-theory", "harmonic-analysis"]
-prerequisites = ["functional-analysis/tempered-distribution", "functional-analysis/schwartz-space", "measure-theory/lebesgue-integrable-function", "topology/compact-set", "measure-theory/almost-everywhere"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/tempered-distribution", "functional-analysis/schwartz-space", "measure-theory/lebesgue-integrable-function", "topology/compact-set", "measure-theory/almost-everywhere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **regular tempered distribution** on \(\mathbb R^n\) is a

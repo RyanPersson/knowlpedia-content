@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A locally ringed space obtained as the prime spectrum of a commutative ring."
 aliases = ["affine-scheme", "Affine scheme"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf"]
-dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/affine-scheme.md"
+prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **affine scheme** is a [[algebraic-geometry-foundations/locally-ringed-space|locally ringed space]] isomorphic to

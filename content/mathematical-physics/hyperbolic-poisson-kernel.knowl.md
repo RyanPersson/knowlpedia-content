@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The positive kernel comparing a point in the Poincaré disk with a point on its ideal boundary."
 aliases = ["Poincaré-disk Poisson kernel", "hyperbolic Poisson kernel"]
 domains = ["mathematical-physics", "harmonic-analysis", "hyperbolic-geometry"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(z\in\mathbb D\) and \(b\in S^1=\partial\mathbb D\), the **hyperbolic

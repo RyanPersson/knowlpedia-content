@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a metric space, a set is closed iff it contains limits of all convergent sequences from it."
 aliases = ["sequential-characterization-closed", "Sequential characterization of closed sets"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/closed-set", "topology/convergent-sequence"]
-dependency_review_count = 1
 legacy_source_path = "topology/sequential-characterization-closed.md"
+prerequisites = ["topology/metric-space", "topology/closed-set", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Sequential characterization of closed sets:** Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X\). Then \(A\) is [[topology/closed-set|closed]] if and only if for every [[topology/convergent-sequence|convergent sequence]] \((a_n)\) in \(A\) with \(a_n\to x\) in \(X\), one has \(x\in A\).

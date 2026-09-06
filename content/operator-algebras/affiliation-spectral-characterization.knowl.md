@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Affiliation is equivalent to membership of the polar partial isometry and all absolute-value spectral projections in the von Neumann algebra."
 aliases = ["affiliation by spectral projections"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "functional-analysis/densely-defined-operator", "operator-algebras/affiliated-operator", "functional-analysis/partial-isometry", "functional-analysis/spectral-projection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "functional-analysis/densely-defined-operator", "operator-algebras/affiliated-operator", "functional-analysis/partial-isometry", "functional-analysis/spectral-projection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\subseteq B(H)\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] and let \(T\) be a closed [[functional-analysis/densely-defined-operator|densely defined operator]] on \(H\), with polar decomposition \(T=v|T|\). Then \(T\) is [[operator-algebras/affiliated-operator|affiliated with \(M\)]] if and only if the [[functional-analysis/partial-isometry|partial isometry]] \(v\) belongs to \(M\) and every [[functional-analysis/spectral-projection|spectral projection]]

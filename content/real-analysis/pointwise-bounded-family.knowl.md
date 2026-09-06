@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A family of functions that is bounded at each fixed point of the domain."
 aliases = ["pointwise-bounded-family", "Pointwise bounded family"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/pointwise-bounded-family.md"
+prerequisites = ["shared-foundations/function", "real-analysis/bounded-above", "real-analysis/bounded-below"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A family \(\mathcal{F}\) of functions \(f:X\to\mathbb{R}\) is **pointwise bounded** if for every \(x\in X\) the set of values \(\{f(x): f\in\mathcal{F}\}\) is bounded in \(\mathbb{R}\), equivalently

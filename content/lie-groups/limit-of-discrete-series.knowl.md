@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonzero irreducible representation obtained by extending the discrete-series parameter construction to a singular dominant Harish-Chandra parameter."
 aliases = ["limit discrete-series representation"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/discrete-series-representation", "lie-groups/irreducible-unitary-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/discrete-series-representation", "lie-groups/irreducible-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a linear connected semisimple real [[fiber-bundles/lie-group|Lie group]] with compact [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak t\), and choose a Weyl chamber \(C\) in the [[lie-groups/root-system|root system]] of \((\mathfrak g_{\mathbb C},\mathfrak t_{\mathbb C})\). Let \(\rho_C\) be half the sum of the \(C\)-positive roots, and let \(\lambda\) be dominant on the closure of \(C\), with \(\lambda-\rho_C\) exponentiating to a character of the corresponding compact Cartan subgroup. The Harish-Chandra construction extends from regular \(\lambda\), which gives [[lie-groups/discrete-series-representation|discrete series]], to singular \(\lambda\). A **limit of discrete series representation** is a nonzero [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] \(\pi(\lambda,C)\) obtained from such a singular parameter.

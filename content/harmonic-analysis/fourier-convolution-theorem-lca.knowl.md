@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "On a locally compact abelian group, the Fourier transform changes convolution into pointwise multiplication on the Pontryagin dual."
 aliases = ["convolution theorem", "Fourier transform of convolution", "Fourier convolution theorem on an abelian group"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
-prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/convolution-on-locally-compact-group", "harmonic-analysis/fourier-transform-lca", "harmonic-analysis/pontryagin-dual", "algebra-modules/algebra-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/convolution-on-locally-compact-group", "harmonic-analysis/fourier-transform-lca", "harmonic-analysis/pontryagin-dual", "algebra-modules/algebra-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] that is [[algebra-groups/abelian-group|abelian]], with a fixed [[harmonic-analysis/haar-measure|Haar measure]]. For \(f,g\in L^1(G)\), define their [[harmonic-analysis/convolution-on-locally-compact-group|convolution]] using that measure. The **Fourier convolution theorem** states that

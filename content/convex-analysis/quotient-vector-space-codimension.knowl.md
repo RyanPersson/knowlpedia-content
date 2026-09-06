@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A vector space of cosets modulo a subspace; its dimension defines codimension"
 aliases = ["quotient-vector-space-codimension", "Quotient vector space and codimension"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/linear-subspace"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/quotient-vector-space-codimension.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "shared-foundations/quotient-set", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a vector space over \(K\), and let \(Y\subset X\) be a [[convex-analysis/linear-subspace|linear subspace]].

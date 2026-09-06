@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Ideals of a quotient ring correspond to ideals of the original ring containing the kernel."
 aliases = ["correspondence-theorem-rings", "Correspondence theorem for rings"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/correspondence-theorem-rings.md"
+prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/preimage", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Correspondence theorem (rings)**: Let \(R\) be a ring, let \(I\triangleleft R\) be an [[algebra-rings/ideal|ideal]], and let \(\pi:R\to R/I\) be the quotient map. Then the assignment

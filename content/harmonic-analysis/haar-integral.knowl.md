@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonzero positive linear functional on compactly supported continuous functions that is invariant under left translation."
 aliases = ["invariant integral", "left invariant integral"]
 domains = ["harmonic-analysis", "measure-theory", "topology"]
-prerequisites = ["topology/locally-compact-group", "operator-algebras/positive-linear-functional", "harmonic-analysis/haar-measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "operator-algebras/positive-linear-functional", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a Hausdorff [[topology/locally-compact-group|locally compact group]], and let \(C_c(G)\) denote the complex-valued continuous functions on \(G\) with compact support. A **left Haar integral** is a nonzero [[operator-algebras/positive-linear-functional|positive linear functional]]

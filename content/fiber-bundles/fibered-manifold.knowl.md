@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth manifold E equipped with a surjective submersion onto a base manifold M."
 aliases = ["fibered-manifold", "Fibered manifold"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/fibered-manifold.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/smooth-submersion", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(M\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] and let \(\pi:E\to M\) be a [[fiber-bundles/smooth-map|smooth map]]. The triple \((E,\pi,M)\) is called a **fibered manifold** if \(\pi\) is a **surjective submersion**, i.e. \(\pi\) is surjective and for every \(e\in E\) the differential

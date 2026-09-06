@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Symplectic reduction without regularity or freeness, producing a stratified quotient rather than generally a manifold."
 aliases = ["stratified symplectic quotient"]
 domains = ["differential-geometry"]
-prerequisites = ["lie-groups/compact-lie-group", "differential-geometry/hamiltonian-lie-group-action", "differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "lie-groups/orbit-space", "fiber-bundles/regular-value", "topology/connected-component", "differential-geometry/shifting-trick"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/compact-lie-group", "differential-geometry/hamiltonian-lie-group-action", "differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "lie-groups/orbit-space", "fiber-bundles/regular-value", "topology/connected-component", "differential-geometry/shifting-trick"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[lie-groups/compact-lie-group|compact Lie group]] \(G\) have a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian action]] on a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\) with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\). The **singular symplectic reduction at zero** is the [[lie-groups/orbit-space|orbit space]]

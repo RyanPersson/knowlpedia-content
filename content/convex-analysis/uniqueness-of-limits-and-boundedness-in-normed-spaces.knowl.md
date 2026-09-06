@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Limits are unique, and every convergent sequence is bounded"
 aliases = ["uniqueness-of-limits-and-boundedness-in-normed-spaces", "Uniqueness of limits and boundedness in normed spaces"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convergence-in-normed-spaces", "convex-analysis/bounded-set-and-bounded-sequence"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/uniqueness-of-limits-and-boundedness-in-normed-spaces.md"
+prerequisites = ["convex-analysis/convergence-in-normed-spaces", "convex-analysis/bounded-set-and-bounded-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

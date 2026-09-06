@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A character-weighted sum of orbital integrals inside one stable conjugacy class."
 aliases = ["κ-orbital integral", "kappa orbital integral", "endoscopic orbital integral"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
-prerequisites = ["langlands/strongly-regular-semisimple-element", "algebra-fields-galois/local-field", "langlands-letter/knowls/nonabelian-h1-galois-cohomology", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands/strongly-regular-semisimple-element", "algebra-fields-galois/local-field", "langlands-letter/knowls/nonabelian-h1-galois-cohomology", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\gamma\in G(F)\) be [[langlands/strongly-regular-semisimple-element|strongly regular semisimple]] over a

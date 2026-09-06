@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The bundle over a common base whose fiber is the tensor product of the fibers of two bundles."
 aliases = ["tensor-product-vector-bundle", "Tensor product vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tensor-product-vector-bundle.md"
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi_E:E\to M\) and \(\pi_F:F\to M\) be smooth vector bundles over the same [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Their **tensor product bundle** is a vector bundle

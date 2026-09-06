@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Self-adjoint matrices over a real normed division algebra, with the symmetrized matrix product in the degrees where the Jordan identity holds."
 aliases = ["Hermitian matrix Jordan algebra", "h_n(K)", "self-adjoint matrix Jordan algebra"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["linear-algebra/vector-space", "nonassociative-algebra/euclidean-jordan-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "nonassociative-algebra/euclidean-jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(\mathbb K=\mathbb R,\mathbb C\), or \(\mathbb H\), the **Hermitian

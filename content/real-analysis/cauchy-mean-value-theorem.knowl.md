@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A two-function mean value theorem relating ratios of increments to ratios of derivatives."
 aliases = ["cauchy-mean-value-theorem", "Cauchy mean value theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiability-1d", "real-analysis/mean-value-theorem", "real-analysis/lhopitals-rule"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/cauchy-mean-value-theorem.md"
+prerequisites = ["real-analysis/differentiability-1d", "real-analysis/mean-value-theorem", "real-analysis/lhopitals-rule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Cauchy mean value theorem:** Let \(f,g:[a,b]\to\mathbb{R}\) be continuous on \([a,b]\) and [[real-analysis/differentiability-1d|differentiable]] on \((a,b)\). Assume \(g'(x)\neq 0\) for all \(x\in(a,b)\) and \(g(b)\neq g(a)\). Then there exists \(c\in(a,b)\) such that

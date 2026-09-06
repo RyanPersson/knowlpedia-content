@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The smallest affine set containing Ω, and linear combinations with coefficients summing to 1."
 aliases = ["affine-hull-affine-combination", "Affine Hull and Affine Combination"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/affine-hull-affine-combination.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/affine-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subset X\).

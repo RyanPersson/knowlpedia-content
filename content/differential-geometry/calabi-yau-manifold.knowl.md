@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A compact connected Kähler manifold whose holomorphic canonical bundle is trivial."
 aliases = ["CY manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/canonical-bundle-complex-manifold", "differential-geometry/kahler-metric", "differential-geometry/kahler-class", "differential-geometry/holomorphic-symplectic-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/canonical-bundle-complex-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In this knowl, a **Calabi–Yau manifold** is a connected compact [[differential-geometry/kahler-manifold|Kähler manifold]] \(X\) whose [[differential-geometry/canonical-bundle-complex-manifold|canonical bundle]] \(K_X\) is holomorphically trivial. Equivalently, if \(n=\dim_{\mathbb C}X\), then \(X\) admits a nowhere-vanishing holomorphic \(n\)-form. The form, a [[differential-geometry/kahler-metric|Kähler metric]], and a [[differential-geometry/kahler-class|Kähler class]] are not included as chosen data. This convention is deliberately broad: it includes complex tori and compact Kähler [[differential-geometry/holomorphic-symplectic-manifold|holomorphic symplectic manifolds]], as well as manifolds whose Ricci-flat metrics have full holonomy \(SU(n)\).

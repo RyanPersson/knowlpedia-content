@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The cohomology of the de Rham complex restricted to compactly supported differential forms."
 aliases = ["de Rham cohomology with compact support", "compact-support de Rham cohomology"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "differential-geometry/compactly-supported-differential-form", "differential-geometry/de-rham-complex"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "differential-geometry/compactly-supported-differential-form", "differential-geometry/de-rham-complex"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. Because the [[fiber-bundles/exterior-derivative|exterior derivative]] does not enlarge support, the spaces of [[differential-geometry/compactly-supported-differential-form|compactly supported differential forms]] form the subcomplex

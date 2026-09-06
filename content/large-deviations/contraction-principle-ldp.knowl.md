@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "How a large deviation principle transfers through a continuous mapping."
 aliases = ["contraction-principle-ldp", "Contraction principle"]
 domains = ["large-deviations"]
-prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/contraction-principle-ldp.md"
+prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "probability/random-variable"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Contraction principle:** Let \((\mu_n)\) be [[probability/probability-measure|probability measures]] on a space \(X\) that satisfy a [[large-deviations/large-deviation-principle|large deviation principle]] with speed \(a_n\to\infty\) and [[large-deviations/rate-function|rate function]] \(I\colon X\to[0,\infty]\). Let \(f\colon X\to Y\) be continuous, and let \(\nu_n=\mu_n\circ f^{-1}\) be the pushforward measures on \(Y\). Then \((\nu_n)\) satisfies an LDP on \(Y\) with the same speed \(a_n\) and rate function

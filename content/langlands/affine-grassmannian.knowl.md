@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The ind-projective loop-group quotient parametrizing a G-bundle on a formal disc with a punctured-disc trivialization."
 aliases = ["affine Grassmannian", "Gr_G"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/ind-scheme", "langlands/loop-group", "langlands/positive-loop-group", "formal-groups/formal-affine-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/ind-scheme", "langlands/loop-group", "langlands/positive-loop-group", "formal-groups/formal-affine-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] and \(G\) a connected reductive

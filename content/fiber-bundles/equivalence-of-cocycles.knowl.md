@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two transition function cocycles are equivalent if they differ by a change of local trivializations"
 aliases = ["equivalence-of-cocycles", "Equivalence of cocycles"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/bundle-atlas"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivalence-of-cocycles.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/equivalent-bundle-atlases"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\{U_i\}\) be an open cover. A \(G\)-valued cocycle on this cover is a collection of [[fiber-bundles/smooth-map|smooth maps]] \(g_{ij}:U_i\cap U_j\to G\) satisfying the [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle condition]]

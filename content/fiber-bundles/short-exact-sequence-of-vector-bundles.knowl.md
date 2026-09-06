@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A pair of bundle morphisms whose induced sequence is exact in every fiber."
 aliases = ["exact sequence of smooth vector bundles"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism", "fiber-bundles/bundle-isomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism", "fiber-bundles/bundle-isomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **short exact sequence of smooth vector bundles** over a manifold \(M\) is a diagram of [[fiber-bundles/vector-bundle|vector bundles]] and [[fiber-bundles/vector-bundle-morphism|bundle morphisms]] over \(M\),

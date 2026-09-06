@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ring of square matrices over a ring, with entrywise addition and matrix multiplication."
 aliases = ["matrix-ring", "Matrix ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/matrix-ring.md"
+prerequisites = ["algebra-rings/ring", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and \(n\ge 1\). The **matrix ring** \(M_n(R)\) consists of the \(n\times n\) matrices over \(R\), with entrywise addition and multiplication

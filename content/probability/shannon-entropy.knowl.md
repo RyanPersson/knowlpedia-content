@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measure of uncertainty of a discrete random variable, defined from its probability mass function."
 aliases = ["shannon-entropy", "Shannon entropy"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "probability/shannon-entropy.md"
+prerequisites = ["probability/random-variable"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Shannon entropy** of a discrete [[probability/random-variable|random variable]] \(X\) with probability mass function \(p(x)=\mathbb{P}(X=x)\) is

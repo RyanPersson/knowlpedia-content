@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The complete augmentation-adic ring of formal series in finitely many variables."
 aliases = ["formal power series in several variables", "R[[X_1,...,X_n]]", "multivariate formal power series ring"]
 domains = ["algebra-rings", "formal-groups"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] with \(1\) and let
@@ -21,6 +22,8 @@ Equality and addition are coefficientwise, and multiplication is determined by
 \[
 [X^\gamma](fg)=\sum_{\alpha+\beta=\gamma}a_\alpha b_\beta.
 \]
+## Formal multiplication
+
 The sum is finite for each \(\gamma\), so no analytic convergence is involved.
 
 ## Augmentation-adic description

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The natural identification Hom(M⊗N,P) ≅ Hom(M,Hom(N,P))."
 aliases = ["tensor-hom-adjunction", "Tensor–Hom adjunction"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/tensor-product", "algebra-modules/hom-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-hom-adjunction.md"
+prerequisites = ["algebra-modules/tensor-product", "algebra-modules/hom-module", "algebra-modules/tensor-product-universal-property"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **tensor–Hom adjunction** (over a commutative ring \(R\)) is the natural isomorphism of abelian groups (indeed \(R\)-modules)

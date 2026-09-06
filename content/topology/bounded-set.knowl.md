@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A subset of a metric space that lies inside some ball of finite radius."
 aliases = ["bounded-set", "Bounded set"]
 domains = ["topology"]
-prerequisites = ["topology/open-ball", "topology/diameter"]
-dependency_review_count = 1
 legacy_source_path = "topology/bounded-set.md"
+prerequisites = ["topology/open-ball"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **bounded set** in a metric space \((X,d)\) is a subset \(A\subseteq X\)

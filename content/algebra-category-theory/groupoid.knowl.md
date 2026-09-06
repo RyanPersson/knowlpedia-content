@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A category in which every morphism is invertible."
 aliases = ["category with only invertible morphisms"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/isomorphism-category"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/isomorphism-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **groupoid** is a [[algebra-category-theory/category|category]] \(\mathcal G\) in which every morphism is an [[algebra-category-theory/isomorphism-category|isomorphism]]. Thus for every \(f:x\to y\) there is a morphism \(f^{-1}:y\to x\) satisfying \(f^{-1}f=\operatorname{id}_x\) and \(ff^{-1}=\operatorname{id}_y\).

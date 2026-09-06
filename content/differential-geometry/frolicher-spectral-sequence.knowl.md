@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The spectral sequence of the type filtration on the complex de Rham complex of a complex manifold."
 aliases = ["Dolbeault-to-de Rham spectral sequence"]
 domains = ["differential-geometry", "algebra-homological"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/de-rham-complex", "differential-geometry/dolbeault-cohomology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/de-rham-complex", "differential-geometry/dolbeault-cohomology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. Filter its complex-valued [[differential-geometry/de-rham-complex|de Rham complex]] by holomorphic degree in the decomposition \(\Omega^k(X;\mathbb C)=\bigoplus_{p+q=k}\Omega^{p,q}(X)\). The resulting **Frölicher spectral sequence** has

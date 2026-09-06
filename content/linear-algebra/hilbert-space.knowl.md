@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A complete inner product space."
 aliases = ["hilbert-space", "Hilbert space"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/inner-product-space", "topology/complete-metric-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/hilbert-space.md"
+prerequisites = ["linear-algebra/inner-product-space", "linear-algebra/norm", "topology/complete-metric-space"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **Hilbert space** is an [[linear-algebra/inner-product-space|inner product space]] \((H,\langle\cdot,\cdot\rangle)\) that is complete with respect to the induced norm \(\|x\|=\sqrt{\langle x,x\rangle}\).

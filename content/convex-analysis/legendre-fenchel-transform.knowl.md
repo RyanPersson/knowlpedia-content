@@ -5,15 +5,21 @@ kind = "knowl"
 summary = "The general convex-conjugation transform defined by a supremum pairing, without smoothness assumptions."
 aliases = ["legendre-fenchel-transform", "Legendre–Fenchel transform"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/legendre-fenchel-transform.md"
+prerequisites = ["shared-foundations/function", "convex-analysis/extended-real-number-system-and-conventions", "real-analysis/supremum", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-A **Legendre–Fenchel transform** of an extended-real-valued [[shared-foundations/function|function]] \(f:\mathbb{R}^n\to(-\infty,+\infty]\) is the function \(f^*:\mathbb{R}^n\to(-\infty,+\infty]\) defined by
+A **Legendre–Fenchel transform** of an extended-real-valued [[shared-foundations/function|function]] \(f:\mathbb{R}^n\to(-\infty,+\infty]\) is the function \(f^*:\mathbb{R}^n\to[-\infty,+\infty]\) defined by
 \[
 f^*(y) \;=\; \sup_{x\in\mathbb{R}^n}\big(\langle y,x\rangle - f(x)\big).
 \]
+where \(\langle y,x\rangle=\sum_{i=1}^n y_i x_i\) is the Euclidean [[linear-algebra/inner-product|inner product]].
+
+## Properties and limiting cases
+
+If \(f\equiv+\infty\), then \(f^*\equiv-\infty\); otherwise \(f\) is finite somewhere and \(f^*\) never takes the value \(-\infty\).
 
 This is exactly the [[convex-analysis/convex-conjugate-fenchel|Fenchel conjugate]]; the “Legendre” terminology is common even when \(f\) is not differentiable, and it underlies [[convex-analysis/fenchel-young-inequality|Fenchel–Young inequality]] and [[convex-analysis/biconjugate|biconjugation]]. When \(f\) is smooth and strictly convex, the transform agrees with the classical [[convex-analysis/legendre-transform|Legendre transform]] on the range of \(\nabla f\).
 

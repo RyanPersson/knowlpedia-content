@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The foliation integrating the null distribution of the symplectic form restricted to a coisotropic submanifold."
 aliases = ["null foliation"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/symplectic-manifold", "differential-geometry/characteristic-distribution-coisotropic"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/symplectic-manifold", "differential-geometry/characteristic-distribution-coisotropic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(C\) be a [[differential-geometry/coisotropic-submanifold|coisotropic submanifold]] of a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\). Its **characteristic foliation** is the regular foliation whose tangent distribution is the [[differential-geometry/characteristic-distribution-coisotropic|characteristic distribution]]

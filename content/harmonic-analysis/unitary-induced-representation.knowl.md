@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A unitary representation built from a closed-subgroup representation on square-integrable sections over a homogeneous space."
 aliases = ["unitary induction", "Mackey induction"]
 domains = ["harmonic-analysis", "representation-theory"]
-prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/quasi-invariant-measure", "linear-algebra/hilbert-space", "lie-groups/left-translation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/quasi-invariant-measure", "linear-algebra/hilbert-space", "lie-groups/left-translation", "lie-groups/homogeneous-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a second-countable [[topology/locally-compact-group|locally compact Hausdorff group]], \(H\subseteq G\) a closed subgroup, and

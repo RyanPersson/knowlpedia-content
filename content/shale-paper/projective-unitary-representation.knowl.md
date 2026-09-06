@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group action by unitaries defined only up to phase (unitary rays)"
 aliases = ["Shale-paper projective unitary representation"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/projective-unitary-representation.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **projective unitary representation** assigns each \(g\in G\) a **unitary ray**

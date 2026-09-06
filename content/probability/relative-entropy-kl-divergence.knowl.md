@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A directed measure of discrepancy between two probability distributions, defined by an expectation of a log-likelihood ratio."
 aliases = ["relative-entropy-kl-divergence", "Relative entropy (KL divergence)"]
 domains = ["probability"]
-prerequisites = ["probability/probability-measure", "probability/radon-nikodym-theorem"]
-dependency_review_count = 1
 legacy_source_path = "probability/relative-entropy-kl-divergence.md"
+prerequisites = ["probability/probability-measure", "probability/radon-nikodym-theorem", "analysis/absolute-continuity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **relative entropy (Kullback–Leibler divergence)** is an extended real number \(D_{\mathrm{KL}}(P\|Q)\) associated to two [[probability/probability-measure|probability measures]] \(P\) and \(Q\) on the same measurable space, defined (when \(P\) is absolutely continuous with respect to \(Q\)) by

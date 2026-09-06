@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An automorphism given by conjugation by an element"
 aliases = ["inner-automorphism", "Inner Automorphism"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/automorphism-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/inner-automorphism.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/automorphism-group", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. For each \(g\in G\), the map

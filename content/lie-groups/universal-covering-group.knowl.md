@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A simply connected covering Lie group of a connected Lie group, unique up to isomorphism."
 aliases = ["universal-covering-group", "Universal covering group"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simply-connected-lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/covering-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/universal-covering-group.md"
+prerequisites = ["lie-groups/lie-group-homomorphism", "lie-groups/covering-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected Lie group. A **universal covering group** of \(G\) is a pair \((\widetilde G,p)\) where:

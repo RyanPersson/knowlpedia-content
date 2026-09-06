@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A family of Hilbert spaces equipped with a countably generated measurable structure on its sections."
 aliases = ["measurable Hilbert bundle", "Borel field of Hilbert spaces", "measurable family of Hilbert spaces"]
 domains = ["functional-analysis", "measure-theory"]
-prerequisites = ["measure-theory/measurable-space", "linear-algebra/hilbert-space", "convex-analysis/linear-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["measure-theory/measurable-space", "linear-algebra/hilbert-space", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,\Sigma)\) be a [[measure-theory/measurable-space|measurable space]]. A **measurable field of Hilbert spaces** consists of [[linear-algebra/hilbert-space|Hilbert spaces]] \(H_x\) and a [[convex-analysis/linear-subspace|linear subspace]] \(\mathcal M\subseteq\prod_{x\in X}H_x\) of sections such that:

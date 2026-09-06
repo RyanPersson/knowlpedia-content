@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The number assigned by a probability measure to an event."
 aliases = ["event-probability", "Probability of an event"]
 domains = ["probability"]
-prerequisites = ["probability/probability-space"]
-dependency_review_count = 1
 legacy_source_path = "probability/event-probability.md"
+prerequisites = ["probability/probability-space", "probability/probability-measure"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\Omega,\mathcal F,\mathbb P)\) be a [[probability/probability-space|probability space]]. The **probability of an event** \(A\in\mathcal F\) is the number \(\mathbb P(A)\in[0,1]\).

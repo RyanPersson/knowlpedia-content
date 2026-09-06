@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function between vector spaces that respects addition and scalar multiplication."
 aliases = ["linear-map", "Linear map"]
 domains = ["linear-algebra"]
-prerequisites = ["shared-foundations/function", "linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/linear-map.md"
+prerequisites = ["shared-foundations/function", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **linear map** is a [[shared-foundations/function|function]] \(T:V\to W\) between [[linear-algebra/vector-space|vector spaces]] over the same field \(\mathbb{F}\) such that for all \(u,v\in V\) and \(a\in\mathbb{F}\),

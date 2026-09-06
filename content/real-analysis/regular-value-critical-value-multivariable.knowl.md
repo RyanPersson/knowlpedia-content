@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Values whose preimages contain only regular points, versus values hit at some critical point"
 aliases = ["regular-value-critical-value-multivariable", "Regular value and critical value"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiable-map", "real-analysis/preimage-inverse-image", "real-analysis/regular-point-critical-point-multivariable"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/regular-value-critical-value-multivariable.md"
+prerequisites = ["real-analysis/differentiable-map", "real-analysis/regular-point-critical-point-multivariable"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq \mathbb{R}^n\) be open and let \(f:U\to \mathbb{R}^m\) be [[real-analysis/differentiable-map|differentiable]].

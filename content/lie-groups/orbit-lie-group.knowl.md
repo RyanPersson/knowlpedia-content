@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of points reachable from x under the action; it is an immersed homogeneous space."
 aliases = ["orbit-lie-group", "Orbit of a Lie group action"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/stabilizer-lie-group", "lie-groups/closed-subgroup-theorem"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/orbit-lie-group.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/stabilizer-lie-group", "lie-groups/closed-subgroup-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold \(M\); see [[lie-groups/smooth-action-lie-group|smooth Lie group actions]]. Fix \(x\in M\).

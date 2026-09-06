@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The norm on an operator domain that controls both a vector and its image."
 aliases = ["operator graph norm"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/normed-vector-space", "functional-analysis/graph-of-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/normed-vector-space", "functional-analysis/graph-of-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:D(T)\subseteq X\to Y\) be a linear operator between [[linear-algebra/normed-vector-space|normed vector spaces]]. The **graph norm** of \(T\) is the norm on \(D(T)\) defined by

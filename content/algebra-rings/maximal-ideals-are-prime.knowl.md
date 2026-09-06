@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a commutative ring, every maximal ideal is a prime ideal."
 aliases = ["maximal-ideals-are-prime", "Maximal ideals are prime"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/maximal-ideal", "algebra-rings/prime-ideal", "algebra-rings/quotient-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/maximal-ideals-are-prime.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/maximal-ideal", "algebra-rings/prime-ideal", "algebra-rings/quotient-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Maximal ideals are prime**: Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] with \(1\), and let \(\mathfrak m\) be a [[algebra-rings/maximal-ideal|maximal ideal]] of \(R\). Then \(\mathfrak m\) is a [[algebra-rings/prime-ideal|prime ideal]].

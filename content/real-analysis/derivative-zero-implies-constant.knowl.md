@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If the derivative of a differentiable function is zero everywhere on an interval, the function is constant."
 aliases = ["derivative-zero-implies-constant", "Derivative zero implies constant"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/derivative-zero-implies-constant.md"
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Derivative zero implies constant:** Let \(I\subseteq\mathbb{R}\) be an [[real-analysis/interval|interval]], and let \(f:I\to\mathbb{R}\) be [[real-analysis/differentiability-1d|differentiable]] on \(I\). If

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map from the base into BG whose pullback of EG reproduces a given principal G-bundle."
 aliases = ["classifying-map-of-a-principal-bundle", "Classifying map of a principal bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/universal-principal-bundle-egbg", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/classifying-map-of-a-principal-bundle.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/universal-principal-bundle-egbg", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a [[fiber-bundles/lie-group|Lie group]] \(G\) and a chosen [[fiber-bundles/universal-principal-bundle-egbg|universal principal bundle]] \(EG\to BG\). For a principal \(G\)-bundle \(P\to M\), a **classifying map** is a continuous map

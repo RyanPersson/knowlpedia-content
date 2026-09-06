@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The kernel of the residue-field action of a decomposition group."
 aliases = ["inertia group", "inertia subgroup at a place", "I_F", "I_w"]
 domains = ["algebra-fields-galois", "langlands"]
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/nonarchimedean-local-field", "algebra-commutative/residue-field", "algebra-fields-galois/decomposition-group", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/galois-extension", "algebra-groups/exact-sequence-groups"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/nonarchimedean-local-field", "algebra-commutative/residue-field", "algebra-fields-galois/decomposition-group", "algebra-groups/exact-sequence-groups"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L_w/K_v\) be a finite

@@ -5,7 +5,8 @@ kind = "definition"
 summary = "A finite algebra whose spectrum is étale over the spectrum of the base ring."
 aliases = ["finite étale algebra", "finite etale algebra"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-rings/commutative-ring", "algebraic-geometry-foundations/etale-morphism"]
+prerequisites = ["algebra-rings/commutative-ring", "algebraic-geometry-foundations/finite-morphism", "algebraic-geometry-foundations/etale-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

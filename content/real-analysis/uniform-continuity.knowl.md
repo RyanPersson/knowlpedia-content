@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Continuity where a single delta works for the whole set, not point by point."
 aliases = ["uniform-continuity", "Uniform continuity"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-continuity.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/subset", "topology/metric-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:(X,d_X)\to(Y,d_Y)\) and \(A\subseteq X\). The function \(f\) is **uniformly continuous on \(A\)** if

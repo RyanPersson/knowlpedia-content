@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Points where the derivative of a map has maximal rank, versus points where it fails to"
 aliases = ["regular-point-critical-point-multivariable", "Regular point and critical point"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiable-map", "real-analysis/jacobian-matrix"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/regular-point-critical-point-multivariable.md"
+prerequisites = ["real-analysis/differentiable-map", "real-analysis/jacobian-matrix", "shared-foundations/surjective-function", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq \mathbb{R}^n\) be open and let \(f:U\to \mathbb{R}^m\) be [[real-analysis/differentiable-map|differentiable]].

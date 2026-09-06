@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Ramification of an etale local system for which wild inertia acts trivially."
 aliases = ["tamely ramified local system"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-fields-galois/valuation-on-a-field", "fiber-bundles/local-system", "langlands/regular-singular-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "fiber-bundles/local-system", "langlands/regular-singular-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a discretely [[algebra-fields-galois/valuation-on-a-field|valued field]] with inertia subgroup \(I_K\) and wild

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convergence test for nonincreasing nonnegative series using dyadic subsequences."
 aliases = ["cauchy-condensation-test", "Cauchy condensation test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/cauchy-condensation-test.md"
+prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Cauchy condensation test:** Let \((a_n)\) be a nonincreasing sequence of real numbers with \(a_n\ge 0\). Then the [[real-analysis/series|series]] \(\sum_{n=1}^\infty a_n\) [[real-analysis/convergent-series|converges]] if and only if the condensed series

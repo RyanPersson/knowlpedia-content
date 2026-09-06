@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subgroup invariant under conjugation"
 aliases = ["normal-subgroup", "Normal Subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/conjugation-action"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/normal-subgroup.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(H\le G\) be a [[algebra-groups/subgroup|subgroup]]. The subgroup \(H\) is **normal** in \(G\), written \(H\trianglelefteq G\), if for every \(g\in G\),

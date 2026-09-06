@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A morphism that has a two-sided inverse in a category."
 aliases = ["isomorphism-category", "Isomorphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/isomorphism-category.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. A morphism \(f : X \to Y\) is an **isomorphism** if there exists a morphism \(g : Y \to X\) such that

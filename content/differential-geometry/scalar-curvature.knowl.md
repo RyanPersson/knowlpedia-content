@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The metric trace of the Ricci curvature."
 aliases = ["Ricci scalar", "scalar curvature function"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "differential-geometry/ricci-curvature", "differential-geometry/riemann-curvature-tensor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "differential-geometry/ricci-curvature", "differential-geometry/riemann-curvature-tensor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian manifold]]. Its **scalar curvature** is the smooth function

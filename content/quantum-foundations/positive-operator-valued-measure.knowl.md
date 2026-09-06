@@ -5,9 +5,9 @@ kind = "definition"
 summary = "A normalized, weakly countably additive measure taking measurable sets to positive operators."
 aliases = ["positive operator-valued measure", "POVM", "positive operator valued measure"]
 domains = ["quantum-foundations"]
-prerequisites = ["linear-algebra/hilbert-space", "quantum-foundations/positive-semidefinite-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
+prerequisites = ["linear-algebra/hilbert-space", "quantum-foundations/positive-semidefinite-operator", "measure-theory/sigma-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\Omega,\Sigma)\) be a measurable space and \(H\) a complex [[linear-algebra/hilbert-space|Hilbert space]]. A **positive operator-valued measure** or **POVM** is a map

@@ -6,6 +6,9 @@ summary = "Formal power series, formal geometry, formal group laws, and the char
 aliases = ["formal groups", "formal group laws", "formal Lie theory"]
 domains = ["formal-groups"]
 section_mode = "continuous"
+prerequisites = ["algebra-category-theory/group-object"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Formal group theory studies group multiplication in completed infinitesimal

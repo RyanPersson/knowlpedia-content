@@ -5,11 +5,11 @@ kind = "definition"
 summary = "Maximal compact subgroups and the more restrictive hyperspecial compact opens arising from reductive integral models."
 aliases = ["maximal-compact-hyperspecial", "Maximal Compact and Hyperspecial Subgroup"]
 domains = ["langlands-letter"]
-prerequisites = ["topology/locally-compact-group", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "algebra-fields-galois/valuation-ring", "topology/locally-profinite-group", "algebraic-geometry-foundations/group-scheme"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/maximal-compact-hyperspecial.md"
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "algebra-fields-galois/valuation-ring", "topology/locally-profinite-group", "algebraic-geometry-foundations/group-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **maximal compact subgroup** of a [[topology/locally-compact-group|locally compact group]] is a compact

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth alternating covariant k-tensor field; equivalently, a smooth section of the kth exterior power of the cotangent bundle."
 aliases = ["differential-k-form", "Differential k-form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/cotangent-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/tangent-space-at-a-point"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/differential-k-form.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/cotangent-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/section-of-a-fiber-bundle"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:T^*M\to M\) be its [[fiber-bundles/cotangent-bundle|cotangent bundle]].

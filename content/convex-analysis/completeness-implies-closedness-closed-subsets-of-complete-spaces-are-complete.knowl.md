@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Complete subsets are closed; closed subsets of complete spaces are complete"
 aliases = ["completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete", "Completeness and closedness"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/complete-metric-space-complete-subset", "convex-analysis/closed-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/complete-metric-space-complete-subset", "convex-analysis/closed-subset", "convex-analysis/convergent-sequences-are-cauchy", "convex-analysis/uniqueness-of-limits-in-metric-spaces"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

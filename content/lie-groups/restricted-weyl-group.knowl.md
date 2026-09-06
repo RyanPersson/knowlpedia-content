@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The finite group obtained by normalizing a maximal split abelian subspace and quotienting by its centralizer."
 aliases = ["little Weyl group", "Weyl group of (g,a)"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/restricted-root-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/restricted-root-system"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A strong form of continuity where distances in the image are bounded by a constant times distances in the domain."
 aliases = ["lipschitz-continuity", "Lipschitz continuity"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "topology/lipschitz-continuity.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Lipschitz continuous map** between metric spaces \((X,d_X)\) and \((Y,d_Y)\) is a map \(f\colon X\to Y\) for which there exists a constant \(L\ge 0\) such that for all \(x,y\in X\),

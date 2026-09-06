@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The compact homogeneous space obtained by quotienting a semisimple Lie group by a minimal parabolic subgroup."
 aliases = ["minimal flag manifold", "G/P boundary"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/homogeneous-space", "lie-groups/langlands-decomposition-of-a-parabolic", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/iwasawa-decomposition"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/minimal-parabolic-subgroup", "lie-groups/homogeneous-space", "lie-groups/langlands-decomposition-of-a-parabolic", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/iwasawa-decomposition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected noncompact real semisimple

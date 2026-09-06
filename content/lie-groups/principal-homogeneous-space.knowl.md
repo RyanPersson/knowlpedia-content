@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A space with a free and transitive action of a Lie group, also called a torsor."
 aliases = ["principal-homogeneous-space", "Principal Homogeneous Space"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/principal-homogeneous-space.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **principal homogeneous space** (or **\(G\)-torsor**) is a [[fiber-bundles/smooth-manifold|smooth manifold]] \(P\) equipped with a smooth action

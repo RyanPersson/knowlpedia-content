@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Every positive-dimensional smooth manifold embeds smoothly in Euclidean space of twice its dimension."
 aliases = ["smooth Whitney embedding theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/embedded-submanifold", "linear-algebra/euclidean-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/embedded-submanifold", "linear-algebra/euclidean-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a Hausdorff, second-countable [[fiber-bundles/smooth-manifold|smooth manifold]] without boundary and of positive dimension \(n\). The **Whitney embedding theorem** states that there exists a [[fiber-bundles/smooth-embedding|smooth embedding]]

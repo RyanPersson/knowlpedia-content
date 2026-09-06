@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The fundamental inequality relating the distance between three points in a metric space."
 aliases = ["triangle-inequality", "Triangle inequality"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/triangle-inequality.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 The **triangle inequality** states that for any three points \(x, y, z\) in a [[topology/metric-space|metric space]] \((X, d)\):

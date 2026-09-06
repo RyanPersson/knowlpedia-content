@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A diffeomorphism between symplectic manifolds that preserves their symplectic forms by pullback."
 aliases = ["symplectic diffeomorphism"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/diffeomorphism", "fiber-bundles/pullback-of-differential-forms", "differential-geometry/symplectic-map", "differential-geometry/linear-symplectomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/diffeomorphism", "fiber-bundles/pullback-of-differential-forms", "differential-geometry/symplectic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega_M)\) and \((N,\omega_N)\) be [[differential-geometry/symplectic-manifold|symplectic manifolds]]. A **symplectomorphism** from \(M\) to \(N\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]] \(\varphi:M\to N\) satisfying

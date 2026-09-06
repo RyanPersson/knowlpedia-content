@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every real sequence has a monotone subsequence."
 aliases = ["monotone-subsequence-lemma", "Monotone Subsequence Lemma"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/subsequence", "real-analysis/monotone-sequence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/monotone-subsequence-lemma.md"
+prerequisites = ["real-analysis/subsequence", "real-analysis/monotone-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Monotone subsequence lemma:** Every real sequence \((a_n)\) has a [[real-analysis/subsequence|subsequence]] that is [[real-analysis/monotone-sequence|monotone]] (either nondecreasing or nonincreasing).

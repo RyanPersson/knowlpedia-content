@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of elements mapped to zero by a ring homomorphism."
 aliases = ["kernel-ring", "Kernel of a ring homomorphism"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring-homomorphism", "shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/kernel-ring.md"
+prerequisites = ["algebra-rings/ring-homomorphism", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 The **kernel** of a [[algebra-rings/ring-homomorphism|ring homomorphism]] \(\varphi:R\to S\) is

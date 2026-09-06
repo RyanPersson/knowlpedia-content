@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A subspace of a symplectic vector space that contains its symplectic orthogonal complement."
 aliases = ["coisotropic linear subspace", "co-isotropic subspace"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a [[differential-geometry/symplectic-vector-space|symplectic vector space]] and \(W\subseteq V\) a [[convex-analysis/linear-subspace|linear subspace]]. The subspace \(W\) is **coisotropic** if

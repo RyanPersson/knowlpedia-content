@@ -6,6 +6,9 @@ summary = "Quantum mechanical foundations for statistical mechanics"
 aliases = ["quantum-foundations", "Quantum Foundations"]
 domains = ["quantum-foundations"]
 legacy_source_path = "quantum-foundations/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Operators

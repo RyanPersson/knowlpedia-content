@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra of the symplectic group, consisting of matrices satisfying XᵀJ + JX = 0."
 aliases = ["symplectic-lie-algebra", "Symplectic Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-bracket", "lie-groups/symplectic-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/symplectic-lie-algebra.md"
+prerequisites = ["fiber-bundles/lie-bracket", "lie-groups/symplectic-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix the standard symplectic matrix

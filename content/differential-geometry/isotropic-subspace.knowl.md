@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear subspace on which the ambient symplectic form vanishes identically."
 aliases = ["totally isotropic subspace", "isotropic linear subspace"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "convex-analysis/linear-subspace", "differential-geometry/symplectic-orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a finite-dimensional [[differential-geometry/symplectic-vector-space|symplectic vector space]], and let \(W\subseteq V\) be a [[convex-analysis/linear-subspace|linear subspace]]. The subspace \(W\) is **isotropic** if

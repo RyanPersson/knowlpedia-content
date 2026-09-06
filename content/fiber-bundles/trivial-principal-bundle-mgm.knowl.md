@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The product principal bundle M times G with its standard projection and right action."
 aliases = ["trivial-principal-bundle-mgm", "Trivial principal bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/local-trivialization", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/trivial-principal-bundle-mgm.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. The **trivial principal \(G\)-bundle** over \(M\) is

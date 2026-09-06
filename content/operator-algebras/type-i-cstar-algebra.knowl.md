@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A type I C*-algebra is one whose every irreducible represented image contains all compact operators on its representation space."
 aliases = ["GCR C*-algebra", "GCR algebra", "postliminal C*-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/irreducible-cstar-representation", "operator-algebras/compact-operator-cstar-algebra", "operator-algebras/von-neumann-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/irreducible-cstar-representation", "operator-algebras/compact-operator-cstar-algebra", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A \(C^*\)-algebra \(A\) is a **type I \(C^*\)-algebra**, also called **GCR** or **postliminal**, if for every [[operator-algebras/irreducible-cstar-representation|irreducible representation]] \(\pi\colon A\to B(H_\pi)\), the represented algebra contains the [[operator-algebras/compact-operator-cstar-algebra|compact operators]]:

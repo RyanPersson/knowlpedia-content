@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map between vector spaces preserving addition and scalar multiplication"
 aliases = ["linear-operator-linear-transformation", "Linear operator"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-operator-linear-transformation.md"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) and \(Y\) be vector spaces over the same field \(K\).

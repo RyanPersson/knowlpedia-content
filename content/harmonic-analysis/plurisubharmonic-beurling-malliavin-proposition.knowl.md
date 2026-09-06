@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "A regular weight with controlled radial-line growth has a Lipschitz plurisubharmonic minorant with linear growth in imaginary directions."
 aliases = ["PSH-BM", "PSH Beurling–Malliavin proposition"]
 domains = ["harmonic-analysis", "several-complex-variables"]
-prerequisites = ["harmonic-analysis/radial-line-growth-functional", "harmonic-analysis/higher-dimensional-beurling-malliavin-theorem", "complex-analysis/plurisubharmonic-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["harmonic-analysis/radial-line-growth-functional", "harmonic-analysis/higher-dimensional-beurling-malliavin-theorem", "complex-analysis/plurisubharmonic-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Suppose \(\omega:\mathbb R^d\to\mathbb R_{\le0}\) satisfies the vanishing,

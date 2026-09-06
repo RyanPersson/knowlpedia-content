@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A lower-semibounded symmetric form whose domain is complete in its shifted form norm."
 aliases = ["closed semibounded form", "closed symmetric form"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "shared-foundations/lower-bound", "functional-analysis/closed-linear-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "shared-foundations/lower-bound", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]] and let
@@ -20,6 +21,8 @@ quadratic form is \(q[u]=\mathfrak a[u,u]\). Choose any real \(c>-m\). It is **c
 \|u\|_{\mathfrak a,c}=
 \bigl(\mathfrak a[u,u]+c\|u\|^2\bigr)^{1/2}.
 \]
+## Choice of form norm
+
 Different choices of \(c>-m\), or replacing \(m\) by another
 [[shared-foundations/lower-bound|lower bound]], give equivalent norms. Unlike a
 [[functional-analysis/closed-linear-operator|closed operator]], a closed form

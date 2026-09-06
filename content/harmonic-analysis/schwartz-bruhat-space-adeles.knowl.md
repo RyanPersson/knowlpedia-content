@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The restricted tensor product of the local Schwartz–Bruhat spaces over all places of a global field."
 aliases = ["adelic Schwartz space", "adelic test functions", "restricted tensor product of Schwartz-Bruhat spaces"]
 domains = ["harmonic-analysis", "number-theory"]
-prerequisites = ["linear-algebra/vector-space", "harmonic-analysis/restricted-tensor-product-test-functions", "harmonic-analysis/schwartz-bruhat-space-local-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "harmonic-analysis/restricted-tensor-product-test-functions", "harmonic-analysis/schwartz-bruhat-space-local-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a number field and \(\mathbb A_F\) its ring of adeles. The **Schwartz–Bruhat space on the adeles** is

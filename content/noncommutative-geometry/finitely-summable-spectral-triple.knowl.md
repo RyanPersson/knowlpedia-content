@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A spectral triple that is strictly p-summable for at least one finite exponent."
 aliases = ["finite summability", "finitely summable triple"]
 domains = ["noncommutative-geometry", "functional-analysis"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/p-summable-spectral-triple"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "noncommutative-geometry/p-summable-spectral-triple"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) is **finitely summable** if it is [[noncommutative-geometry/p-summable-spectral-triple|\(p\)-summable]] for at least one finite exponent \(p>0\); explicitly, there exists \(p<\infty\) such that

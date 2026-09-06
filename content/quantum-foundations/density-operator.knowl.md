@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A positive semidefinite trace-one operator representing the state of a quantum system, allowing both pure and statistical mixtures."
 aliases = ["density-operator", "Density Operator"]
 domains = ["quantum-foundations"]
-prerequisites = ["quantum-foundations/trace-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/density-operator.md"
+prerequisites = ["quantum-foundations/trace-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a complex Hilbert space (typically finite-dimensional in basic quantum theory). A **density operator** (also called a **density matrix**) is an operator \(\rho:H\to H\) such that:

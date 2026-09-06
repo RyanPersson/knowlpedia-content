@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The principal SU(n)-bundle of unitary frames calibrated by a chosen unit determinant trivialization."
 aliases = ["special-unitary-frame-bundle-reduction", "Special unitary frame bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/nowhere-vanishing-section", "fiber-bundles/unitary-frame-bundle-reduction"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/special-unitary-frame-bundle-reduction.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/nowhere-vanishing-section", "fiber-bundles/unitary-frame-bundle-reduction"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a rank-\(n\) complex [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/hermitian-metric|Hermitian metric]], and let

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The positivity theorem for the Hermitian intersection form on primitive cohomology of a compact Kähler manifold."
 aliases = ["Riemann bilinear relations"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/kahler-class", "differential-geometry/primitive-cohomology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/kahler-class", "differential-geometry/primitive-cohomology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a compact [[differential-geometry/kahler-manifold|Kähler manifold]] of complex dimension \(n\), with [[differential-geometry/kahler-class|Kähler class]] \(\omega\). If \(0\neq\alpha\in P^{p,q}(X)\) is a [[differential-geometry/primitive-cohomology|primitive cohomology]] class and \(k=p+q\leq n\), then the **Hodge–Riemann bilinear relations** assert

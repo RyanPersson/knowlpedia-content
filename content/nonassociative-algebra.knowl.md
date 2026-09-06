@@ -6,6 +6,9 @@ summary = "Nonassociative, alternative, composition, octonion, and Jordan algebr
 aliases = ["nonassociative algebra", "division algebras", "Jordan algebras"]
 domains = ["nonassociative-algebra"]
 section_mode = "continuous"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Nonassociative algebra studies [[linear-algebra/vector-space|vector spaces]] with bilinear multiplication

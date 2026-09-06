@@ -6,6 +6,7 @@ summary = "A scheme morphism that is locally induced by finitely presented algeb
 aliases = ["locally-of-finite-presentation", "Locally of finite presentation"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

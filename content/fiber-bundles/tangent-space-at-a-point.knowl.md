@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The vector space of tangent vectors to a smooth manifold at a given point."
 aliases = ["tangent-space-at-a-point", "Tangent space at a point"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/tangent-space-at-a-point.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/vector-space", "linear-algebra/linear-map", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(p\in M\).

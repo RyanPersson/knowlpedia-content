@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A fiber bundle built from a principal bundle and a left group action on a model fiber by taking a quotient of the product."
 aliases = ["associated-bundle", "Associated bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/associated-bundle.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with right action \(p\cdot g\), and let \(F\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] equipped with a smooth left action of the [[fiber-bundles/lie-group|Lie group]] \(G\).

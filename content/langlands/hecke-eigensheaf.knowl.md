@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An automorphic sheaf on Bun_G whose geometric Hecke transforms are governed by a dual-group local system."
 aliases = ["Hecke eigen-D-module", "automorphic eigensheaf"]
 domains = ["langlands"]
-prerequisites = ["langlands/g-local-system", "langlands/hecke-functor", "fiber-bundles/local-system"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands/g-local-system", "langlands/hecke-functor", "fiber-bundles/local-system"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a \(\widehat G\)-[[langlands/g-local-system|local system]] on

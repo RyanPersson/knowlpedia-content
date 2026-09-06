@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A chain complex whose homology vanishes in every degree (equivalently, im d = ker d)."
 aliases = ["exact-complex", "Exact complex"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-homological/chain-complex", "algebra-homological/homology-module", "algebra-modules/exactness-via-kernels-images", "algebra-category-theory/abelian-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/exact-complex.md"
+prerequisites = ["algebra-homological/chain-complex", "algebra-homological/homology-module", "algebra-modules/exactness-via-kernels-images", "algebra-category-theory/abelian-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-homological/chain-complex|chain complex]] \((C_\bullet,d)\) is **exact** if any (hence all) of the following equivalent conditions hold:

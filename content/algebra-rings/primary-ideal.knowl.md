@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An ideal Q such that ab in Q forces a in Q or a power of b in Q."
 aliases = ["primary-ideal", "Primary ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/primary-ideal.md"
+prerequisites = ["algebra-rings/ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a commutative ring. A **primary ideal** \(Q\subsetneq R\) is an [[algebra-rings/ideal|ideal]] such that whenever \(ab\in Q\) (with \(a,b\in R\)), then either \(a\in Q\) or \(b^n\in Q\) for some integer \(n\ge 1\).

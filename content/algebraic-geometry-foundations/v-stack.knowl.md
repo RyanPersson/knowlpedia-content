@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A stack on perfectoid spaces for the very fine v-topology."
 aliases = ["v stack", "small v-stack", "v-sheaf"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/perfectoid-space", "algebraic-geometry-foundations/base-change"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/perfectoid-space", "algebraic-geometry-foundations/base-change", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **v-topology** on

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The natural representation obtained from the matrix realization of a classical Lie algebra."
 aliases = ["natural representation of a classical Lie algebra", "standard representation of a classical Lie algebra", "vector representation"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **defining representation** of a classical matrix [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\subseteq\mathfrak{gl}(V)\) is the natural action on \(V\):

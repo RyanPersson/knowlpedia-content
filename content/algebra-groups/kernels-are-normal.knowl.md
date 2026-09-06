@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The kernel of a group homomorphism is invariant under conjugation"
 aliases = ["kernels-are-normal", "Kernels are Normal Subgroups"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "algebra-groups/first-isomorphism-theorem-groups"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/kernels-are-normal.md"
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "algebra-groups/first-isomorphism-theorem-groups"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Kernels are Normal Subgroups**: Let \(f:G\to H\) be a [[algebra-groups/group-homomorphism|group homomorphism]] between groups. Then the [[algebra-groups/kernel-group|kernel]] \(\ker(f)\) is a [[algebra-groups/normal-subgroup|normal subgroup]] of \(G\).

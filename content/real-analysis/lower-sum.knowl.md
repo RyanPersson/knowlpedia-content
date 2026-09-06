@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Riemann lower sum built from infima on each subinterval."
 aliases = ["lower-sum", "Lower sum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/infimum", "real-analysis/upper-sum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/lower-sum.md"
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/infimum", "real-analysis/upper-sum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **lower sum** of a bounded function \(f:[a,b]\to\mathbb R\) with respect to a [[real-analysis/partition-of-an-interval|partition]] \(P=\{x_0,\dots,x_n\}\) is the number

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A conjugate-exponent bound: |xy| is controlled by |x|^p/p + |y|^q/q"
 aliases = ["youngs-inequality", "Young's Inequality"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/youngs-inequality.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Young's Inequality**: Let \(p,q>1\) satisfy \(\frac1p+\frac1q=1\). Then for all \(x,y\in\mathbb{R}\),

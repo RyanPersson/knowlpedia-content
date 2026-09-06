@@ -6,6 +6,9 @@ summary = "Convex sets, convex functions, separation theorems, and the Hahn-Bana
 aliases = ["convex-analysis", "Convex Analysis"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Click any term to expand its definition inline.

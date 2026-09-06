@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite weighted sum approximating an integral using a tagged partition."
 aliases = ["riemann-sum", "Riemann sum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/tagged-partition", "real-analysis/riemann-integral", "real-analysis/mesh-of-a-partition"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-sum.md"
+prerequisites = ["real-analysis/tagged-partition", "real-analysis/mesh-of-a-partition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Riemann sum** of a bounded function \(f:[a,b]\to\mathbb R\) with respect to a [[real-analysis/tagged-partition|tagged partition]] \((P,\{t_i\})\), where \(P=\{x_0,\dots,x_n\}\), is the number

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A multivariable substitution rule involving the Jacobian determinant."
 aliases = ["change-of-variables-formula", "Change of variables formula"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "fiber-bundles/diffeomorphism", "real-analysis/jacobian-determinant"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/change-of-variables-formula.md"
+prerequisites = ["topology/open-set", "fiber-bundles/diffeomorphism", "real-analysis/jacobian-determinant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U,V\subseteq\mathbb R^n\) be [[topology/open-set|open sets]], let \(\Phi:U\to V\) be a \(C^1\) [[fiber-bundles/diffeomorphism|diffeomorphism]], and let \(f:V\to\mathbb R\) be continuous with compact support. The **change of variables formula** is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point lies in core(Ω) iff translating Ω by that point makes it absorbing"
 aliases = ["core-characterized-by-absorbing-translations", "Core Characterized by Absorbing Translations"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/set-operations-sum-scalar-multiple-difference", "convex-analysis/algebraic-interior-core", "convex-analysis/balanced-and-absorbing-sets"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/core-characterized-by-absorbing-translations.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/set-operations-sum-scalar-multiple-difference", "convex-analysis/algebraic-interior-core", "convex-analysis/balanced-and-absorbing-sets"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and \(\Omega\subset X\) be nonempty. For \(x\in X\), consider the translate \(\Omega-x:=\{w-x\mid w\in\Omega\}\) (using [[convex-analysis/set-operations-sum-scalar-multiple-difference|set difference/translation notation]]).

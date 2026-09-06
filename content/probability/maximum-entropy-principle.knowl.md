@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A rule for selecting a probability distribution by maximizing entropy subject to known constraints."
 aliases = ["maximum-entropy-principle", "Maximum entropy principle"]
 domains = ["probability"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "probability/maximum-entropy-principle.md"
+prerequisites = ["probability/probability-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **maximum entropy principle** selects, when a maximizer exists, a probability distribution \(P^\star\) from a nonempty feasible class \(\mathcal C\) such that

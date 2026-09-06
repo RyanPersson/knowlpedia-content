@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Two smooth maps are transverse exactly when their product map is transverse to the diagonal."
 aliases = ["transversality via the diagonal", "fiber product diagonal criterion"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/product-manifold", "differential-geometry/transverse-smooth-maps", "differential-geometry/embedded-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/product-manifold", "differential-geometry/transverse-smooth-maps", "differential-geometry/embedded-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to P\) and \(g:N\to P\) be [[fiber-bundles/smooth-map|smooth maps]] between finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary. Using the [[differential-geometry/product-manifold|product manifolds]], form the map

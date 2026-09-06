@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Rules for limits of sums, products, and quotients of convergent sequences."
 aliases = ["limit-algebra-for-sequences", "Limit Algebra for Sequences"]
 domains = ["real-analysis"]
-prerequisites = ["topology/convergent-sequence", "real-analysis/absolute-value"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-algebra-for-sequences.md"
+prerequisites = ["topology/convergent-sequence", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Limit algebra for sequences:** Let \((a_n)\) and \((b_n)\) be real sequences, and suppose \(a_n \to a\) and \(b_n \to b\) (in the sense of a [[topology/convergent-sequence|convergent sequence]]). Then:

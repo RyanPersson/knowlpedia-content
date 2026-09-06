@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonzero regular Borel measure on a locally compact group that is invariant under translation on one chosen side."
 aliases = ["left Haar measure", "right Haar measure", "Haar measure on a locally compact group"]
 domains = ["harmonic-analysis", "topology", "measure-theory"]
-prerequisites = ["topology/locally-compact-group", "measure-theory/measure", "topology/compact-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "measure-theory/measure", "topology/compact-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]]. A **left Haar measure** on \(G\) is a nonzero [[measure-theory/measure|Borel measure]] \(\mu\) that is finite on [[topology/compact-set|compact sets]], inner regular on open sets, outer regular on Borel sets, and left invariant:

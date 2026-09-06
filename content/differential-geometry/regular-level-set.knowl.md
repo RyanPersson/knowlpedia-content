@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The preimage of a regular value of a smooth map between manifolds."
 aliases = ["regular fiber", "regular preimage"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/regular-value", "differential-geometry/embedded-submanifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/regular-value", "differential-geometry/embedded-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] between finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifolds]], and let \(y\in N\) be a [[fiber-bundles/regular-value|regular value]] of \(f\). The subset

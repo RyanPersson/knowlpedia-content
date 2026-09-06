@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Separability is stable under passing up and down a tower of fields."
 aliases = ["separability-towers", "Separability in towers"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/separable-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separability-towers.md"
+prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/separable-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Consider a [[algebra-fields-galois/tower-of-fields|tower of fields]] \(K\subseteq E\subseteq L\) with \(L/K\) algebraic. Separability behaves transitively:

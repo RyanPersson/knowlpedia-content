@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A blueprinted space isomorphic to the spectrum of a blueprint."
 aliases = ["affine blueprint scheme"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/locally-blueprinted-space", "algebraic-geometry-foundations/blueprint", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/locally-blueprinted-space", "algebraic-geometry-foundations/blueprint", "algebra-commutative/zariski-topology", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **affine blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] isomorphic to

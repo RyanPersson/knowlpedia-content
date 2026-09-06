@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Every closed ball in a metric space is a closed subset."
 aliases = ["closed-balls-are-closed-sets", "Closed balls are closed"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/closed-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/closed-balls-are-closed-sets.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/closed-subset", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In a metric space \((X,d)\), every closed ball

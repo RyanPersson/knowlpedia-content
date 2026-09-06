@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth manifold equipped with a smoothly varying positive-definite inner product on its tangent spaces."
 aliases = ["Riemannian metric on a manifold", "Riemannian structure", "Riemannian metric manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/inner-product", "fiber-bundles/bundle-metric", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/inner-product", "fiber-bundles/bundle-metric", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. A **Riemannian metric** on \(M\) is a smooth symmetric covariant \(2\)-tensor \(g\) such that \(g_p\) is a positive-definite [[linear-algebra/inner-product|inner product]] on \(T_pM\) for every \(p\in M\). Equivalently, \(g\) is a [[fiber-bundles/bundle-metric|bundle metric]] on the [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\). A **Riemannian manifold** is a pair \((M,g)\). In local coordinates, \(g=g_{ij}\,dx^i\otimes dx^j\), where the matrix \((g_{ij}(p))\) is symmetric positive definite at every point and each coefficient \(g_{ij}\) is smooth.

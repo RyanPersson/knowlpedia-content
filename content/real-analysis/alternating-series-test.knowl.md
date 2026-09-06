@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convergence test for alternating series with decreasing term magnitudes tending to zero."
 aliases = ["alternating-series-test", "Alternating series test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/alternating-series-test.md"
+prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Alternating series test (Leibniz):** Let \((a_n)\) be a sequence of real numbers such that

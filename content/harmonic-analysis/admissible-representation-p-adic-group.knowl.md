@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth representation whose compact-open fixed spaces are finite-dimensional."
 aliases = ["admissible smooth representation", "admissible p-adic representation"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
-prerequisites = ["topology/locally-profinite-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-profinite-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-profinite-group|locally profinite group]]. A

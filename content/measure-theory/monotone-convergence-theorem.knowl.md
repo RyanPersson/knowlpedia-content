@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For an increasing sequence of nonnegative measurable functions, the integral of the limit equals the limit of the integrals."
 aliases = ["monotone-convergence-theorem", "Monotone convergence theorem"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","shared-foundations/sequence","measure-theory/measurable-function","measure-theory/lebesgue-integral-nonnegative"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/monotone-convergence-theorem.md"
+prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "measure-theory/almost-everywhere", "measure-theory/null-set", "measure-theory/ae-equality", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Monotone Convergence Theorem (Beppo Levi):** Let \((X,\Sigma,\mu)\) be a [[measure-theory/measure-space|measure space]] and let \((f_n)_{n\ge 1}\) be a [[shared-foundations/sequence|sequence]] of nonnegative [[measure-theory/measurable-function|measurable functions]] \(f_n:X\to[0,\infty]\) such that \(f_n(x)\le f_{n+1}(x)\) for all \(x\in X\) and all \(n\). Define \(f(x)=\lim_{n\to\infty} f_n(x)\) (possibly \(+\infty\)). Then

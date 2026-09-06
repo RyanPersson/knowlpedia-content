@@ -6,6 +6,7 @@ summary = "A subset of real affine space described by finitely many polynomial e
 aliases = ["semialgebraic", "semialgebraic set"]
 domains = ["convex-analysis", "algebraic-geometry-foundations"]
 prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

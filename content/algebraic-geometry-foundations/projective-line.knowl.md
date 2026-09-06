@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The one-dimensional projective space formed by lines in a two-dimensional vector space."
 aliases = ["projective 1-space", "projective one-space", "P1"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
-prerequisites = ["algebraic-geometry-foundations/projective-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/projective-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a field \(k\), the **projective line over \(k\)** is

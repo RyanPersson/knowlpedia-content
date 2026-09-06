@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite chain from the trivial subgroup to a group in which each term is normal in the next."
 aliases = ["subnormal-series", "Subnormal series"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/subnormal-series.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. A **subnormal series** of \(G\) is a finite chain

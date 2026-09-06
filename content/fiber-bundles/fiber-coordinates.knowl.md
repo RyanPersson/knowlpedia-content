@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Coordinates in the typical-fiber factor supplied by a local bundle trivialization."
 aliases = ["local fiber coordinates", "bundle fiber coordinates"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/local-trivialization"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/local-trivialization"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Phi:\pi^{-1}(U)\to U\times F\) be a

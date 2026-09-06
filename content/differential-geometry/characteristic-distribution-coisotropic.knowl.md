@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The null distribution of the restricted symplectic form on a coisotropic submanifold."
 aliases = ["null distribution", "characteristic subbundle"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/symplectic-manifold", "fiber-bundles/vector-subbundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/symplectic-manifold", "fiber-bundles/vector-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(C\) be a [[differential-geometry/coisotropic-submanifold|coisotropic submanifold]] of a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\), and write \(\omega_C=\iota^*\omega\) for the restricted two-form. The **characteristic distribution** on \(C\) is the [[fiber-bundles/vector-subbundle|vector subbundle]] \(\mathcal K\subseteq TC\) whose fiber at \(p\in C\) is

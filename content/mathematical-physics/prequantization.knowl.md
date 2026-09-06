@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The geometric construction that represents all classical observables on sections of a line bundle before imposing a polarization."
 aliases = ["Kostant-Souriau prequantization", "geometric prequantization", "prequantum line bundle construction"]
 domains = ["mathematical-physics", "differential-geometry", "fiber-bundles"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/line-bundle", "fiber-bundles/connection-on-a-vector-bundle", "mathematical-physics/quantization-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/line-bundle", "fiber-bundles/connection-on-a-vector-bundle", "mathematical-physics/quantization-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] and \(\hbar>0\). A **prequantization** consists of a Hermitian [[fiber-bundles/line-bundle|line bundle]] \(L\to M\) with a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] whose curvature is the prescribed scalar multiple of \(\omega\), together with the induced [[mathematical-physics/quantization-map|quantization map]] on smooth sections of \(L\). With the conventions

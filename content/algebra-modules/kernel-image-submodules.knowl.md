@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a module homomorphism, both kernel and image are submodules."
 aliases = ["kernel-image-submodules", "Kernel and image are submodules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/kernels-are-submodules", "algebra-modules/image-module", "algebra-modules/module-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/kernel-image-submodules.md"
+prerequisites = ["algebra-modules/kernels-are-submodules", "algebra-modules/image-module", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Kernel and image are submodules**: Let \(f:M\to N\) be an \(R\)-module homomorphism. Then \(\ker(f)\le M\) and \(\operatorname{im}(f)\le N\).

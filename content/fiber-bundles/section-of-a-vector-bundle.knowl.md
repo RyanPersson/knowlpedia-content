@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth choice of one vector in every fiber of a smooth vector bundle."
 aliases = ["vector bundle section", "smooth vector bundle section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/smooth-map", "linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/smooth-map", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]]. A **section of \(E\)** is a smooth [[fiber-bundles/section-of-a-fiber-bundle|section]] \(s:M\to E\); equivalently,

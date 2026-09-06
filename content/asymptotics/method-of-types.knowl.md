@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Counting and probability estimates for sequences grouped by their empirical distribution."
 aliases = ["method-of-types", "Method of types"]
 domains = ["asymptotics"]
-prerequisites = ["asymptotics/entropy-multinomial-coefficients"]
-dependency_review_count = 1
 legacy_source_path = "asymptotics/method-of-types.md"
+prerequisites = ["asymptotics/entropy-multinomial-coefficients", "probability/probability-measure", "probability/relative-entropy-kl-divergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The method of types is a set of counting and probability tools for sequences over a finite alphabet. It is foundational in information theory and large deviations: it turns questions about probabilities of empirical frequencies into entropy and divergence calculations.

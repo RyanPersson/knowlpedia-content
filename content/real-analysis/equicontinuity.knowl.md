@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A uniform form of continuity shared by all functions in a family."
 aliases = ["equicontinuity"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/equicontinuous-family"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/equicontinuity.md"
+prerequisites = ["topology/metric-space", "topology/continuous-map", "real-analysis/equicontinuous-family"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A family \(\mathcal{F}\) of functions from a [[topology/metric-space|metric space]] \((X,d_X)\) to a [[topology/metric-space|metric space]] \((Y,d_Y)\) is **equicontinuous at a point** \(x_0\in X\) if for every \(\varepsilon>0\) there exists \(\delta>0\) such that for every \(f\in\mathcal{F}\) and every \(x\in X\),

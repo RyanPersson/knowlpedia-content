@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The element g⁻¹h⁻¹gh, which is trivial exactly when g and h commute."
 aliases = ["commutator"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/commutator.md"
+prerequisites = ["algebra-groups/group"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(g,h\in G\). The **commutator** of \(g\) and \(h\) is

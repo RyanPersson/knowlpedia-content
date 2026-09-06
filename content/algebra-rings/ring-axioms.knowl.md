@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Axioms defining a ring as an abelian group under addition with associative multiplication distributing over addition."
 aliases = ["ring-axioms", "Ring axioms"]
 domains = ["algebra-rings"]
-prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group"]
-dependency_review_count = 2
 legacy_source_path = "algebra-rings/ring-axioms.md"
+prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 The **ring axioms** specify a set \(R\) equipped with two [[shared-foundations/binary-operation|binary operations]] \(+\) and \(\cdot\) such that:

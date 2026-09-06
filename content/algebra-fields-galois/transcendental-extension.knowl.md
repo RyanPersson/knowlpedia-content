@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An extension E/F that contains at least one element transcendental over F (i.e. is not algebraic)."
 aliases = ["transcendental-extension", "Transcendental extension"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension", "algebra-fields-galois/transcendental-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/transcendental-extension.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension", "algebra-fields-galois/transcendental-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-fields-galois/field-extension|field extension]] \(E/F\) is called a **transcendental extension** if it is not an [[algebra-fields-galois/algebraic-extension|algebraic extension]]. Equivalently, \(E/F\) is transcendental iff there exists some \(\alpha\in E\) that is a [[algebra-fields-galois/transcendental-element|transcendental element]] over \(F\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Riemann integration of a bounded function over a rectangular region in Euclidean space."
 aliases = ["multiple-riemann-integral", "Multiple Riemann integral"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/cartesian-product", "real-analysis/partition-of-an-interval", "real-analysis/mesh-of-a-partition"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/multiple-riemann-integral.md"
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/riemann-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **multiple Riemann integral** of a bounded function \(f:R\to\mathbb{R}\) over a rectangle \(R=\prod_{i=1}^n [a_i,b_i]\subset \mathbb{R}^n\) is a number \(I\in\mathbb{R}\) such that for every \(\varepsilon>0\) there exists \(\delta>0\) with the property that for every rectangular partition of \(R\) with mesh \(<\delta\) and every choice of tags (sample points) \(\xi_j\) in each subrectangle \(R_j\), the corresponding Riemann sum

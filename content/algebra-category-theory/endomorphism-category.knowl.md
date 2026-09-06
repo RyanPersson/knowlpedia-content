@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A morphism whose domain and codomain are the same object."
 aliases = ["endomorphism-category", "Endomorphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/endomorphism-category.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and let \(A\) be an [[algebra-category-theory/object|object]] of \(\mathcal C\).

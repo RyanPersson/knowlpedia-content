@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonempty subset H of a group is a subgroup exactly when xy⁻¹ belongs to H for all x,y in H."
 aliases = ["subgroup-test-one-step", "Subgroup Test (one-step)"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/subset", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/subgroup-test-one-step.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/subset", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **One-step subgroup test.** Let \(G\) be a [[algebra-groups/group|group]] and let \(H\) be a nonempty [[shared-foundations/subset|subset]] of \(G\). Then \(H\) is a [[algebra-groups/subgroup|subgroup]] of \(G\) if and only if

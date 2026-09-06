@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group built from two normal subgroups whose product is the whole group"
 aliases = ["internal-direct-product", "Internal Direct Product"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup", "algebra-groups/trivial-subgroup", "algebra-groups/group-isomorphism", "algebra-groups/direct-product-groups"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/internal-direct-product.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup", "algebra-groups/trivial-subgroup", "algebra-groups/group-isomorphism", "algebra-groups/direct-product-groups"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(N,H\le G\) be [[algebra-groups/subgroup|subgroups]]. One says that **\(G\) is the internal direct product of \(N\) and \(H\)** if:

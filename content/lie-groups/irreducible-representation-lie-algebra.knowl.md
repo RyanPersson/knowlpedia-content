@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A representation with no nontrivial invariant subspaces."
 aliases = ["irreducible-representation-lie-algebra", "Irreducible representation of a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/representation-of-a-lie-algebra", "lie-groups/subrepresentation-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/irreducible-representation-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/representation-of-a-lie-algebra", "lie-groups/subrepresentation-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] and let \(\rho:\mathfrak g\to \mathfrak{gl}(V)\) be a [[lie-groups/representation-of-a-lie-algebra|representation]] on a finite-dimensional vector space \(V\).

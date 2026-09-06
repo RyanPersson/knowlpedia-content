@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map with invertible derivative at a point has a differentiable local inverse."
 aliases = ["inverse-function-theorem-rk", "Inverse function theorem in R^k"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/jacobian-determinant"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/inverse-function-theorem-rk.md"
+prerequisites = ["topology/open-set", "real-analysis/jacobian-determinant", "fiber-bundles/diffeomorphism", "topology/homeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Inverse function theorem in \(\mathbb R^k\):** Let \(U\subseteq\mathbb R^k\) be an [[topology/open-set|open set]] and let \(f:U\to\mathbb R^k\) be continuously differentiable. If the [[real-analysis/jacobian-determinant|Jacobian determinant]] \(\det Df(a)\) is nonzero at some \(a\in U\), then there exist neighborhoods \(A\) of \(a\) and \(B\) of \(f(a)\) such that \(f\) restricts to a bijection \(f:A\to B\) whose inverse \(f^{-1}:B\to A\) is continuously differentiable. Moreover,

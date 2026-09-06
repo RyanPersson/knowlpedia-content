@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Natural transformations from a representable functor correspond to elements of the target functor."
 aliases = ["yoneda-lemma", "Yoneda lemma"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/functor", "algebra-category-theory/representable-functor", "algebra-category-theory/natural-transformation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/yoneda-lemma.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/functor", "algebra-category-theory/representable-functor", "algebra-category-theory/natural-transformation", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] such that each hom-class \(\mathrm{Hom}_{\mathcal C}(A,B)\) is a set (i.e. \(\mathcal C\) is *locally small*). Fix an [[algebra-category-theory/object|object]] \(A\in\mathcal C\) and a [[algebra-category-theory/functor|functor]] \(F:\mathcal C\to \mathbf{Set}\).

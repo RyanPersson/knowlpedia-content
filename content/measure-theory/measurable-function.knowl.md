@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function whose preimages of measurable sets are measurable."
 aliases = ["measurable-function", "Measurable function"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/function","shared-foundations/preimage"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-function.md"
+prerequisites = ["measure-theory/measurable-space", "measure-theory/measurable-set", "shared-foundations/function", "shared-foundations/preimage"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **measurable function** between measurable spaces \((X,\Sigma)\) and \((Y,\mathcal T)\) is a [[shared-foundations/function|function]] \(f:X\to Y\) such that for every \(B\in \mathcal T\), the [[shared-foundations/preimage|preimage]] \(f^{-1}(B)\) lies in \(\Sigma\).

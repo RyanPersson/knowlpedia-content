@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nontrivial commutative hyperring without multiplicative zero divisors."
 aliases = ["hyperdomain", "integral hyperdomain"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
-prerequisites = ["algebra-hyperstructures/hyperring", "algebra-rings/zero-divisor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/hyperring", "algebra-rings/zero-divisor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **integral hyperring**, also called a **hyperdomain**, is a commutative

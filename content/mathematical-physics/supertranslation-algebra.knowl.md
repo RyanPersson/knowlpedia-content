@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A two-step nilpotent Lie superalgebra whose odd spinors bracket into even spacetime translations."
 aliases = ["supersymmetry translation algebra", "supertranslation Lie superalgebra"]
 domains = ["mathematical-physics", "supergeometry"]
-prerequisites = ["differential-geometry/spinor-module", "algebra-modules/bilinear-map", "supergeometry/lie-superalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/spinor-module", "algebra-modules/bilinear-map", "supergeometry/lie-superalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\eta)\) be a real pseudo-Euclidean vector space, let \(S\) be a real

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A collection of subsets closed under complements and finite unions."
 aliases = ["set-algebra", "Set algebra"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/power-set","shared-foundations/set","shared-foundations/intersection","shared-foundations/set-difference"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/set-algebra.md"
+prerequisites = ["shared-foundations/power-set", "shared-foundations/complement", "shared-foundations/union"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **set algebra** on a set \(X\) is a nonempty collection \(\mathcal A \subseteq \mathcal P(X)\) such that if \(A\in\mathcal A\) then \(X\setminus A\in\mathcal A\), and if \(A,B\in\mathcal A\) then \(A\cup B\in\mathcal A\).

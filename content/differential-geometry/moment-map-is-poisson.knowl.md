@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "An equivariant moment map is a Poisson map to the dual Lie algebra with its compatible Lie–Poisson bracket."
 aliases = ["equivariant moment map is Poisson"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/equivariant-moment-map", "differential-geometry/poisson-map", "fiber-bundles/moment-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/equivariant-moment-map", "differential-geometry/poisson-map", "fiber-bundles/moment-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act on the [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\), using \(\iota_{X_f}\omega=df\), and let \(\mu:M\to\mathfrak g^*\) be an [[differential-geometry/equivariant-moment-map|equivariant moment map]]. Equip \(\mathfrak g^*\) with the plus Lie–Poisson bracket determined by

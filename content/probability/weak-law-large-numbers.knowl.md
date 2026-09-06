@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Sample averages of iid variables converge in probability to the mean."
 aliases = ["weak-law-large-numbers", "Weak law of large numbers"]
 domains = ["probability"]
-prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "probability/variance", "probability/probability-space", "probability/chebyshev-inequality"]
-dependency_review_count = 1
 legacy_source_path = "probability/weak-law-large-numbers.md"
+prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "probability/variance", "probability/probability-space", "probability/chebyshev-inequality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Weak law of large numbers:** Let \((X_n)_{n\ge 1}\) be an [[probability/iid-sequence|iid sequence]] of [[probability/random-variable|random variables]] with [[probability/expectation|expectation]] \(\mu=\mathbb{E}[X_1]\) and finite [[probability/variance|variance]] \(\mathrm{Var}(X_1)<\infty\). Define the sample mean

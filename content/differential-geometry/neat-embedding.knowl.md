@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth embedding between manifolds with boundary that is exactly boundary preserving and transverse to the target boundary."
 aliases = ["boundary-compatible embedding"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-embedding"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/manifold-with-boundary", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(N\) and \(M\) be smooth [[differential-geometry/manifold-with-boundary|manifolds with boundary]]. A **neat embedding** is a [[fiber-bundles/smooth-embedding|smooth embedding]] \(e:N\to M\) such that

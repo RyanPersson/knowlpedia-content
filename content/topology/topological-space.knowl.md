@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set equipped with a topology, specifying which subsets are open."
 aliases = ["topological-space", "Topological space"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/ordered-pair", "shared-foundations/set", "topology/topology"]
-dependency_review_count = 1
 legacy_source_path = "topology/topological-space.md"
+prerequisites = ["shared-foundations/ordered-pair", "shared-foundations/set", "topology/topology"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **topological space** is an [[shared-foundations/ordered-pair|ordered pair]] \((X,\mathcal{T})\) where \(X\) is a [[shared-foundations/set|set]] and \(\mathcal{T}\subseteq \mathcal{P}(X)\) is a [[topology/topology|topology]] on \(X\), meaning:

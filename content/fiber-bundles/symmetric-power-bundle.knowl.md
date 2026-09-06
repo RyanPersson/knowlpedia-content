@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The vector bundle whose fiber at each point is the k-th symmetric power of the original fiber."
 aliases = ["symmetric-power-bundle", "Symmetric power bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/tensor-product-vector-bundle", "fiber-bundles/bundle-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/symmetric-power-bundle.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/tensor-product-vector-bundle", "fiber-bundles/bundle-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. For an integer \(k\ge 0\), the **k-th symmetric power bundle** of \(E\) is the vector bundle

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring homomorphism that respects the chosen base-ring action."
 aliases = ["algebra-homomorphism", "Algebra homomorphism"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/algebra-homomorphism.md"
+prerequisites = ["algebra-rings/ring-homomorphism", "algebra-modules/algebra-over-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **algebra homomorphism** between \(R\)-algebras \(A\) and \(B\) (with structure maps \(\iota_A\colon R\to A\), \(\iota_B\colon R\to B\)) is a [[algebra-rings/ring-homomorphism|ring homomorphism]] \(\varphi\colon A\to B\) such that \(\varphi\circ \iota_A=\iota_B\).

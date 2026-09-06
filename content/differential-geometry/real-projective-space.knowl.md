@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The smooth manifold of real lines through the origin in real Euclidean space."
 aliases = ["RPn", "real projective n-space", "real projective manifold"]
 domains = ["differential-geometry", "algebraic-geometry-foundations", "topology"]
-prerequisites = ["convex-analysis/linear-subspace", "algebraic-geometry-foundations/projective-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["convex-analysis/linear-subspace", "algebraic-geometry-foundations/projective-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\ge0\), **real projective \(n\)-space** is the set of one-dimensional real [[convex-analysis/linear-subspace|linear subspaces]] of \(\mathbb R^{n+1}\):

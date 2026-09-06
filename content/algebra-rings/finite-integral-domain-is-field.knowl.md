@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite integral domain has multiplicative inverses for all nonzero elements."
 aliases = ["finite-integral-domain-is-field", "Finite integral domains are fields"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-rings/field", "algebra-rings/cancellation-integral-domain", "algebra-rings/unit"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/finite-integral-domain-is-field.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/cancellation-integral-domain", "algebra-rings/unit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Finite integral domains are fields**: If \(D\) is a finite integral domain, then \(D\) is a field.

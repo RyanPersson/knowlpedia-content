@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Localizing a sequence of modules at a multiplicative set preserves exactness."
 aliases = ["localization-exact", "Exactness of localization"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/localization-ring", "algebra-commutative/localization-module", "algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-modules/exact-sequence-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-exact.md"
+prerequisites = ["algebra-commutative/localization-ring", "algebra-commutative/localization-module", "algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-modules/exact-sequence-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Localization is not just a way to invert elements in a ring [[algebra-commutative/localization-ring|(localization of rings)]]; it is also a well-behaved operation on modules [[algebra-commutative/localization-module|(localization of modules)]]. One of its most important formal properties is that it preserves exact sequences.

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If a ring is Noetherian, then any localization (in particular at a prime) is Noetherian."
 aliases = ["localization-noetherian-corollary", "Localization preserves Noetherianity"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-at-prime", "algebra-commutative/local-ring", "algebra-commutative/maximal-ideal-local-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-noetherian-corollary.md"
+prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-at-prime", "algebra-commutative/local-ring", "algebra-commutative/maximal-ideal-local-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \(S \subset R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. Then the localization \(S^{-1}R\) is Noetherian.

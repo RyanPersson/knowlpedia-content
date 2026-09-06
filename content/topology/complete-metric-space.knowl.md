@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A metric space in which every Cauchy sequence converges to a point of the space."
 aliases = ["complete-metric-space", "Complete metric space"]
 domains = ["topology"]
-prerequisites = ["topology/cauchy-sequence", "topology/convergent-sequence"]
-dependency_review_count = 1
 legacy_source_path = "topology/complete-metric-space.md"
+prerequisites = ["topology/metric-space", "topology/cauchy-sequence", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **complete metric space** is a metric space \((X,d)\) in which every [[topology/cauchy-sequence|Cauchy sequence]] converges (as a [[topology/convergent-sequence|convergent sequence]]) to a point of \(X\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The 66-dimensional simple complex orthogonal Lie algebra of rank 6 and Dynkin type D6."
 aliases = ["complex-lie-algebra-so12", "so12(C)", "so(12,C)", "complex Lie algebra so12"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "linear-algebra/bilinear-form", "lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/half-spin-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "linear-algebra/bilinear-form", "lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/half-spin-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **complex Lie algebra** \(\mathfrak{so}_{12}(\mathbb C)\) is the [[lie-groups/lie-algebra|Lie algebra]] of infinitesimal transformations preserving a nondegenerate symmetric [[linear-algebra/bilinear-form|bilinear form]] on \(\mathbb C^{12}\). It is [[lie-groups/simple-lie-algebra|simple]], of complex dimension \(66\), rank \(6\), and [[lie-groups/dynkin-diagram|Dynkin type]] \(D_6\).

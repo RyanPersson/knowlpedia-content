@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonzero vector that is scaled by a linear operator."
 aliases = ["eigenvector"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-operator"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/eigenvector.md"
+prerequisites = ["linear-algebra/linear-operator"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 An **eigenvector** of a [[linear-algebra/linear-operator|linear operator]] \(T:V\to V\) is a nonzero vector \(v\in V\) for which there exists a scalar \(\lambda\in\mathbb{F}\) such that

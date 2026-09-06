@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The smooth subbundles formed by the pointwise kernels and images of a constant-rank vector bundle morphism."
 aliases = ["kernel bundle", "image bundle", "constant-rank bundle map theorem"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle-morphism", "fiber-bundles/vector-subbundle", "topology/connected-component"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle-morphism", "fiber-bundles/vector-subbundle", "topology/connected-component"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Phi:E\to F\) be a smooth [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]] over the identity of a manifold \(M\), and suppose the fiber maps \(\Phi_x:E_x\to F_x\) have locally constant rank. Its **kernel bundle** and **image bundle** are

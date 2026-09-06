@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a finitely generated module over a local ring, generators of M/mM lift to generators of M, and the minimal number of generators is dim(M/mM)."
 aliases = ["nakayama-corollary", "Nakayama corollary: generators mod the maximal ideal lift"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/local-ring", "algebra-commutative/residue-field", "algebra-commutative/nakayama-lemma", "algebra-modules/cyclic-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/nakayama-corollary.md"
+prerequisites = ["algebra-commutative/local-ring", "algebra-commutative/residue-field", "algebra-commutative/nakayama-lemma", "algebra-modules/cyclic-module", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((R,\mathfrak m)\) be a [[algebra-commutative/local-ring|local ring]], let \(M\) be a finitely generated \(R\)-module, and let \(k=R/\mathfrak m\) be the [[algebra-commutative/residue-field|residue field]]. The following are consequences of [[algebra-commutative/nakayama-lemma|Nakayama's lemma]]:

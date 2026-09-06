@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A prime ideal disjoint from the multiplicative set extends to a prime ideal in the localized ring."
 aliases = ["localization-preserves-primality", "Localization preserves prime ideals"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/localization-ring", "algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-preserves-primality.md"
+prerequisites = ["algebra-commutative/localization-ring", "algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Prime ideals behave well under [[algebra-commutative/localization-ring|localization]]: if a prime ideal does not meet the elements being inverted, then it stays prime after localization. This is one half of the [[algebra-commutative/localization-prime-correspondence|prime correspondence under localization]].

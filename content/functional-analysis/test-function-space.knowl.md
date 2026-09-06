@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The LF-space of compactly supported smooth functions on an open subset of Euclidean space."
 aliases = ["test function", "compactly supported smooth function", "C_c^\\infty", "C_c^infinity", "D(Omega)", "space D(U)", "compactly supported smooth test functions"]
 domains = ["functional-analysis", "distribution-theory", "real-analysis"]
-prerequisites = ["linear-algebra/vector-space", "topology/compact-set", "functional-analysis/lf-space", "functional-analysis/inductive-limit-locally-convex-spaces"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "topology/compact-set", "functional-analysis/lf-space", "functional-analysis/inductive-limit-locally-convex-spaces"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For an open set \(\Omega\subseteq\mathbb R^n\), the **test-function space**

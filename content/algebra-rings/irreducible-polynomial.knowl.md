@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonconstant polynomial that cannot be factored into lower-degree nonunits."
 aliases = ["irreducible-polynomial", "Irreducible polynomial"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/irreducible-polynomial.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]]. A polynomial \(f\in R[x]\) is **irreducible** if \(f\) is nonzero, not a [[algebra-rings/unit|unit]], has positive degree, and whenever \(f=gh\) with \(g,h\in R[x]\), then either \(g\) or \(h\) is a unit.

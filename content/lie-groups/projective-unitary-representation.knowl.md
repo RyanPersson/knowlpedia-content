@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A continuous group representation by unitary operators modulo scalar phases."
 aliases = ["unitary projective representation", "projective representation on a Hilbert space", "unitary ray representation"]
 domains = ["lie-groups", "functional-analysis"]
-prerequisites = ["topology/topological-group", "linear-algebra/hilbert-space", "operator-algebras/strong-operator-topology", "algebra-groups/group-homomorphism", "functional-analysis/unitary-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-group", "linear-algebra/hilbert-space", "operator-algebras/strong-operator-topology", "algebra-groups/group-homomorphism", "functional-analysis/unitary-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/topological-group|topological group]] and \(H\) a complex [[linear-algebra/hilbert-space|Hilbert space]]. Write

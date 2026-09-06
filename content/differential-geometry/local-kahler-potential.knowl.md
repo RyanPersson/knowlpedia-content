@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A real smooth function whose complex Hessian is a given Kähler form on a coordinate neighborhood."
 aliases = ["Kähler potential", "local potential for a Kähler form"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-form", "differential-geometry/complex-manifold", "differential-geometry/d-c-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-form", "differential-geometry/complex-manifold", "differential-geometry/d-c-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\omega\) be a [[differential-geometry/kahler-form|Kähler form]] on a [[differential-geometry/complex-manifold|complex manifold]] \(X\), and let \(U\subseteq X\) be open. A **local Kähler potential** for \(\omega\) on \(U\) is a real-valued smooth function \(\varphi:U\to\mathbb R\) satisfying

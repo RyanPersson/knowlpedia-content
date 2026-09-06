@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An additive category with kernels and cokernels where exactness behaves like in module categories."
 aliases = ["abelian-category", "Abelian category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/additive-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/abelian-category.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/additive-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **abelian category** is a [[algebra-category-theory/category|category]] \(\mathcal A\) such that:

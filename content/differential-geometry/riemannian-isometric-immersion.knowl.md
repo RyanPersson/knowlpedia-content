@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth map whose pullback of the target Riemannian metric is the source metric."
 aliases = ["isometric immersion", "Riemannian immersion"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/smooth-immersion"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/smooth-immersion"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g_M)\) and \((N,g_N)\) be [[differential-geometry/riemannian-manifold|Riemannian manifolds]]. A **Riemannian isometric immersion** is a smooth map \(f:M\to N\) such that

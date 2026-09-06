@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differential form built from the curvature of a principal connection using an invariant polynomial."
 aliases = ["chernweil-form", "Chern–Weil form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/lemma-chernweil-forms-are-basic"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/chernweil-form.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/lemma-chernweil-forms-are-basic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] and let \(\omega\in\Omega^1(P;\mathfrak{g})\) be a [[fiber-bundles/principal-connection|principal connection]] with curvature \(\Omega\in\Omega^2(P;\mathfrak{g})\) (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form of a principal connection]]).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of equivalence classes of a set under an equivalence relation"
 aliases = ["quotient-set", "Quotient set"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/equivalence-relation"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/quotient-set.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/equivalence-relation", "shared-foundations/equivalence-class"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **quotient set** is the set of equivalence classes determined by an equivalence relation: if \(A\) is a [[shared-foundations/set|set]] and \(\sim\) is an [[shared-foundations/equivalence-relation|equivalence relation]] on \(A\), then the quotient set \(A/{\sim}\) is

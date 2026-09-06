@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module with commuting left and right actions by (possibly different) rings."
 aliases = ["bimodule"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/bimodule.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R,S\) be [[algebra-rings/ring|rings]]. An **\((R,S)\)-bimodule** is an abelian group \(M\) that is simultaneously a left [[algebra-modules/module|module]] over \(R\) and a right module over \(S\), such that the actions are compatible:

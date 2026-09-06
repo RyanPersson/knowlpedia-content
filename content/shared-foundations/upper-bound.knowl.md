@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element that is greater than or equal to every element of a subset in an ordered set."
 aliases = ["upper-bound", "Upper bound"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/partial-order"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/upper-bound.md"
+prerequisites = ["shared-foundations/partial-order"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 An **upper bound** of a subset \(A\) of a [[shared-foundations/partial-order|partially ordered set]] \((P,\le)\) is an element \(u\in P\) such that \(a\le u\) for all \(a\in A\). The subset \(A\) is **bounded above** if it has at least one upper bound in \(P\).

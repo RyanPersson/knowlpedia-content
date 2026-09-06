@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Given a principal bundle P over M and a smooth map f from N to M, the pullback f-star P is a principal bundle over N."
 aliases = ["construction-pullback-principal-bundle-fp-along-fnm", "Construction: pullback principal bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-pullback-principal-bundle-fp-along-fnm.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/pullback-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with right action, and let \(f:N\to M\) be a [[fiber-bundles/smooth-map|smooth map]] between [[fiber-bundles/smooth-manifold|smooth manifolds]].

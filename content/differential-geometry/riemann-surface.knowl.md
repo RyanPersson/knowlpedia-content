@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A connected complex manifold of complex dimension one."
 aliases = ["complex curve", "one-dimensional complex manifold"]
 domains = ["differential-geometry", "complex-analysis"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "fiber-bundles/smooth-manifold", "differential-geometry/complex-coordinate-chart"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "fiber-bundles/smooth-manifold", "differential-geometry/complex-coordinate-chart"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Riemann surface** is a connected [[differential-geometry/complex-manifold|complex manifold]] of complex dimension \(1\). Explicitly, it is a connected Hausdorff, second-countable space \(X\) with an atlas of homeomorphisms \(z_\alpha:U_\alpha\to V_\alpha\subseteq\mathbb C\) whose transition maps \(z_\beta\circ z_\alpha^{-1}\) are [[differential-geometry/holomorphic-map|holomorphic]] wherever defined. Thus \(X\) is an underlying real [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(2\), while its [[differential-geometry/complex-coordinate-chart|complex charts]] specify which local complex-valued functions and maps are holomorphic.

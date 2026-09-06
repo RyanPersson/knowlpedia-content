@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A semiring whose addition satisfies a+a=a."
 aliases = ["additively idempotent semiring", "dioid"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
-prerequisites = ["algebra-rings/semiring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/semiring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **idempotent semiring** is a [[algebra-rings/semiring|semiring]] \(S\)

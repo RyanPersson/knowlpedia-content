@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The elliptic complex whose cohomology records infinitesimal gauge symmetries, deformations, and obstructions of an anti-self-dual connection."
 aliases = ["anti-self-dual deformation complex", "instanton deformation complex"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms", "fiber-bundles/gauge-transformation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be an [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connection]] on a principal \(G\)-bundle \(P\to X\) over an oriented Riemannian four-manifold. The **ASD deformation complex at \(A\)** is

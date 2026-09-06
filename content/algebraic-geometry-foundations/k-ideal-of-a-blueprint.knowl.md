@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A multiplicative ideal of a blueprint that is closed under subtraction encoded by additive relations."
 aliases = ["subtractive ideal of a blueprint", "blueprint k-ideal"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
-prerequisites = ["algebraic-geometry-foundations/blueprint"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/blueprint"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B\) be a [[algebraic-geometry-foundations/blueprint|blueprint]]. A **\(k\)-ideal** of \(B\) is a subset \(I\subseteq B^\bullet\) such that:

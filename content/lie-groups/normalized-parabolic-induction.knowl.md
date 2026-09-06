@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Parabolic induction with a half-modular correction that preserves unitarity on the unitary parameter axis."
 aliases = ["unitary parabolic induction", "normalized induction"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/langlands-decomposition-of-a-parabolic", "harmonic-analysis/modular-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/langlands-decomposition-of-a-parabolic", "harmonic-analysis/modular-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive Lie group]], let

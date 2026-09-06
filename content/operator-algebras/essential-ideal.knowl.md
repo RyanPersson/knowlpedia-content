@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A closed two-sided ideal that meets every nonzero closed two-sided ideal nontrivially."
 aliases = ["essential C*-ideal", "large ideal", "essential two-sided ideal"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal", "algebra-rings/two-sided-ideal"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal", "algebra-rings/two-sided-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A

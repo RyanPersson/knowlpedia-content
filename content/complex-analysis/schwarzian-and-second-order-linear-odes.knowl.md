@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Ratios of independent solutions of a second-order linear equation have prescribed Schwarzian."
 aliases = ["Schwarzian ODE correspondence"]
 domains = ["complex-analysis", "projective-geometry"]
-prerequisites = ["topology/simply-connected-space", "complex-analysis/schwarzian-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/simply-connected-space", "complex-analysis/schwarzian-derivative", "complex-analysis/schwarzian-chain-rule", "complex-analysis/meromorphic-function", "complex-analysis/mobius-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be [[topology/simply-connected-space|simply connected]], let \(q\) be holomorphic on \(D\), and let \(y_1,y_2\) be linearly independent solutions of

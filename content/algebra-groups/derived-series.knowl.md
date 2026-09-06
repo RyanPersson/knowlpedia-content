@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The descending series obtained by repeatedly taking commutator subgroups"
 aliases = ["derived-series", "Derived series"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/commutator-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/derived-series.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/commutator-subgroup", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. The **derived series** of \(G\) is the sequence of subgroups \((G^{(n)})_{n\ge 0}\) defined recursively by

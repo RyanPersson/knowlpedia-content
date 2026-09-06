@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every finite group of order p², for p prime, is abelian."
 aliases = ["p-squared-abelian", "Groups of order p^2 are abelian"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/abelian-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/p-squared-abelian.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/p-group", "algebra-groups/center-of-group", "algebra-groups/quotient-group", "algebra-groups/prime-order-cyclic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.** Let \(G\) be a finite [[algebra-groups/group|group]] with \(|G|=p^2\) for a prime \(p\). Then \(G\) is [[algebra-groups/abelian-group|abelian]].

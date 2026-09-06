@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of ring elements that kill a given subset under multiplication."
 aliases = ["annihilator-ideal", "Annihilator ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["shared-foundations/subset", "algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/annihilator-ideal.md"
+prerequisites = ["shared-foundations/subset", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring and let \(S\subseteq R\) be a [[shared-foundations/subset|subset]]. The **left annihilator** of \(S\) is

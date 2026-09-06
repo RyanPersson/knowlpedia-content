@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The vector space of continuous linear functionals on a topological vector space."
 aliases = ["continuous dual", "continuous linear dual"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/topological-vector-space", "linear-algebra/vector-space", "convex-analysis/dual-space-and-duality-pairing"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/topological-vector-space", "linear-algebra/vector-space", "convex-analysis/dual-space-and-duality-pairing"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a

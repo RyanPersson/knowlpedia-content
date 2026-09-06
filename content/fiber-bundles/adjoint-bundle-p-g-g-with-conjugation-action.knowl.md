@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The associated bundle with fiber G where the structure group acts on G by conjugation, yielding a bundle of groups over the base."
 aliases = ["adjoint-bundle-p-g-g-with-conjugation-action", "Adjoint bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/associated-bundle", "fiber-bundles/conjugation-action-of-a-lie-group-on-itself"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] for a [[fiber-bundles/lie-group|Lie group]] \(G\).

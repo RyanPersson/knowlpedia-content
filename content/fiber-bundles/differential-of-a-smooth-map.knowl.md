@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The linear map between tangent spaces induced by a smooth map, also called the pushforward."
 aliases = ["differential-of-a-smooth-map", "Differential of a smooth map"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-chart"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/differential-of-a-smooth-map.md"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-chart"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] between smooth manifolds, and let \(p\in M\). The **differential** (or **pushforward**) of \(f\) at \(p\) is the linear map

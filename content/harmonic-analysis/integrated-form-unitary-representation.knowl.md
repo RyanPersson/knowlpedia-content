@@ -5,10 +5,10 @@ kind = "construction"
 summary = "The representation of a group convolution algebra obtained by integrating a strongly continuous unitary representation."
 aliases = ["integrated representation", "pi(f)", "integrated group representation", "operator pi(f)", "Convolution operator associated to a representation"]
 domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/l1-group-algebra", "harmonic-analysis/coefficient-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/l1-group-algebra", "harmonic-analysis/coefficient-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] with left

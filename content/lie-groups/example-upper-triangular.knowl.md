@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Upper triangular matrices form a Lie algebra whose derived subalgebra is strictly upper triangular, giving an explicit derived series."
 aliases = ["example-upper-triangular", "Example: upper triangular matrices (a solvable Lie algebra)"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/general-linear-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/example-upper-triangular.md"
+prerequisites = ["lie-groups/general-linear-group", "lie-groups/lie-subgroup", "lie-groups/lie-algebra-of-a-lie-group", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B\subset GL(2,\mathbb R)\) (see [[lie-groups/general-linear-group|general linear group]]) be the subgroup of invertible upper triangular matrices:

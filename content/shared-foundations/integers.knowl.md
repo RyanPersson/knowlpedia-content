@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of whole numbers, positive, negative, and zero."
 aliases = ["integers"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/integers.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **integers** are the [[shared-foundations/set|set]] \(\mathbb{Z}=\{\dots,-2,-1,0,1,2,\dots\}\).

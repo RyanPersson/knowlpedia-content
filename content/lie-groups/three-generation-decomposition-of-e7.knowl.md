@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "After choosing generation root lines, e7 decomposes as sl6 plus a two-dimensional trivial module plus three 32-dimensional Standard Model generation modules."
 aliases = ["three generations in e7 decomposition", "e7 equals sl6 plus C2 plus three generations", "E7 three-generation theorem"]
 domains = ["lie-groups", "representation-theory", "mathematical-physics"]
-prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/generation-module-as-even-exterior-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/generation-module-as-even-exterior-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a good embedded \(\mathfrak g_{\mathrm{SM}}\subset\mathfrak e_7\), a compatible [[lie-groups/cartan-subalgebra|Cartan subalgebra]], and a labeling of the three generation root lines. Then

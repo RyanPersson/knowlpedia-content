@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The epsilon-delta definition of the limit of a function as x approaches a."
 aliases = ["limit-at-a-point", "Limit at a point"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "topology/limit-point", "real-analysis/absolute-value"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-at-a-point.md"
+prerequisites = ["shared-foundations/function", "topology/limit-point", "real-analysis/absolute-value", "real-analysis/one-sided-limit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **limit at a point** for a [[shared-foundations/function|function]] \(f:D\to\mathbb R\) (with \(D\subseteq\mathbb R\)) at a point \(a\in\mathbb R\) is a number \(L\in\mathbb R\) such that: for every \(\varepsilon>0\) there exists \(\delta>0\) with the property that whenever \(x\in D\) and \(0<|x-a|<\delta\), one has \(|f(x)-L|<\varepsilon\). Typically one assumes that \(a\) is a [[topology/limit-point|limit point]] of \(D\).

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A Z/2-graded cyclic cohomology of Banach algebras whose infinite cochain sequences satisfy a factorial analytic-growth condition."
 aliases = ["entire (b,B)-cohomology", "HE cohomology"]
 domains = ["noncommutative-geometry", "operator-algebras", "algebra-homological"]
-prerequisites = ["functional-analysis/banach-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["functional-analysis/banach-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a unital [[functional-analysis/banach-algebra|Banach algebra]], and let \(C^n_{\mathrm{cont}}(A)\) be its continuous \((n+1)\)-linear cochains. An even cochain sequence \(\phi=(\phi_{2k})_{k\geq0}\) is **entire** when

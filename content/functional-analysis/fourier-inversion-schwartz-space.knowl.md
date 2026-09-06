@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every Schwartz function is recovered pointwise and in the Schwartz topology from its Fourier transform."
 aliases = ["Schwartz Fourier inversion"]
 domains = ["functional-analysis", "harmonic-analysis"]
-prerequisites = ["functional-analysis/fourier-transform-schwartz-space", "functional-analysis/schwartz-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/fourier-transform-schwartz-space", "functional-analysis/schwartz-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f\in\mathcal S(\mathbb R^n)\), and define its

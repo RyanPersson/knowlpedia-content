@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A partial order in which every pair of elements is comparable."
 aliases = ["total-order-linear-order", "Total order (linear order)"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/partial-order"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/total-order-linear-order.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/partial-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **total order** (or **linear order**) on a set \(X\) is a partial order \(\le\) on \(X\) such that for all \(x,y\in X\),

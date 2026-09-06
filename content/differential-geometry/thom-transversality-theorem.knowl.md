@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Smooth maps whose jet extensions are transverse to a fixed jet-space submanifold form a residual set."
 aliases = ["jet transversality theorem", "Thom jet transversality"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/whitney-c-infinity-topology", "differential-geometry/jet-of-a-smooth-map", "differential-geometry/map-transverse-to-a-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/whitney-c-infinity-topology", "differential-geometry/jet-of-a-smooth-map", "differential-geometry/map-transverse-to-a-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M,N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]], let \(r\geq0\), and let \(W\) be a [[differential-geometry/embedded-submanifold|smooth submanifold]] of the \(r\)-jet bundle \(J^r(M,N)\). The **Thom transversality theorem** states that

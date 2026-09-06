@@ -6,6 +6,7 @@ summary = "The exponent of a prime in an integer, extended to a valuation on rat
 aliases = ["p-adic valuation", "prime-adic valuation"]
 domains = ["shared-foundations", "algebra-fields-galois"]
 prerequisites = ["shared-foundations/rational-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

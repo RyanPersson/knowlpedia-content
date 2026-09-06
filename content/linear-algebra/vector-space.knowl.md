@@ -5,25 +5,22 @@ kind = "knowl"
 summary = "A set with addition and scalar multiplication satisfying the vector space axioms."
 aliases = ["vector-space", "Vector space"]
 domains = ["linear-algebra"]
-prerequisites = ["algebra-rings/field", "shared-foundations/set", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/vector-space.md"
+prerequisites = ["algebra-rings/field", "shared-foundations/set", "shared-foundations/function"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-A **vector space** over a [[algebra-rings/field|field]] \(\mathbb{F}\) is a [[shared-foundations/set|set]] \(V\) equipped with two operations ([[shared-foundations/function|functions]]) \(+:V\times V\to V\) and \(\cdot:\mathbb{F}\times V\to V\). The following identities hold for all \(u,v,w\in V\) and \(a,b\in\mathbb{F}\), with one common additive identity \(0\in V\):
-\[
-\begin{aligned}
-&u+v=v+u,\qquad (u+v)+w=u+(v+w),\\
-&v+0=v,\qquad \forall v\in V\ \exists\,(-v)\in V:\ v+(-v)=0,\\
-&a\cdot(u+v)=a\cdot u+a\cdot v,\qquad (a+b)\cdot v=a\cdot v+b\cdot v,\\
-&(ab)\cdot v=a\cdot(b\cdot v),\qquad 1\cdot v=v.
-\end{aligned}
-\]
+A **vector space** over a [[algebra-rings/field|field]] \(\mathbb F\) is a [[shared-foundations/set|set]] \(V\) with operations ([[shared-foundations/function|functions]]) \(+:V\times V\to V\) and \(\cdot:\mathbb F\times V\to V\), and an element \(0\in V\), satisfying the following for all \(u,v,w\in V\) and \(a,b\in\mathbb F\):
 
-The first two rows give the abelian-group laws for addition: commutativity and
-associativity, then one common additive identity and an additive inverse for
-each vector. The last two rows give distributivity, compatibility with field
-multiplication, and the identity scalar.
+- **Commutativity:** \(u+v=v+u\).
+- **Associativity:** \((u+v)+w=u+(v+w)\).
+- **Additive identity:** \(v+0=v\).
+- **Additive inverse:** for each \(v\), there is \(-v\in V\) with \(v+(-v)=0\).
+- **Distributivity over vector addition:** \(a\cdot(u+v)=a\cdot u+a\cdot v\).
+- **Distributivity over scalar addition:** \((a+b)\cdot v=a\cdot v+b\cdot v\).
+- **Scalar associativity:** \((ab)\cdot v=a\cdot(b\cdot v)\).
+- **Scalar identity:** \(1\cdot v=v\).
 
 ## Context
 

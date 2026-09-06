@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The weak-star topology on the bounded operators induced by their trace-class predual."
 aliases = ["sigma-weak topology", "weak-star operator topology"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/weak-star-topology", "shale-paper/trace-class-operator", "linear-algebra/banach-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/weak-star-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal H\) be a [[linear-algebra/hilbert-space|Hilbert space]]. The **ultraweak operator topology**, or **\(\sigma\)-weak topology**, on the [[operator-algebras/bounded-operator-cstar-algebra|bounded-operator algebra]] \(\mathcal B(\mathcal H)\) is the [[functional-analysis/weak-star-topology|weak-star topology]] \(\sigma(\mathcal B(\mathcal H),\mathcal C_1(\mathcal H))\) coming from the trace-class predual. Explicitly, a net \(T_i\) converges ultraweakly to \(T\) exactly when

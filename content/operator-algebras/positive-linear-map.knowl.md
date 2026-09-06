@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear map between C*-algebras that sends positive elements to positive elements."
 aliases = ["positive map", "order-preserving linear map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]]. A complex-linear map \(\Phi:A\to B\) is **positive** if

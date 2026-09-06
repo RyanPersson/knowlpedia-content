@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The Hilbert-module direct sum of all tensor powers of a C*-correspondence, including the coefficient algebra in degree zero."
 aliases = ["Fock correspondence", "full Fock module"]
 domains = ["operator-algebras", "algebra-modules"]
-prerequisites = ["operator-algebras/cstar-correspondence", "operator-algebras/internal-tensor-product-correspondences", "operator-algebras/hilbert-cstar-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-correspondence", "operator-algebras/internal-tensor-product-correspondences", "operator-algebras/hilbert-cstar-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[operator-algebras/cstar-correspondence|\(C^*\)-correspondence]]

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A small-boundary condition requiring finite-measure sets that are nearly invariant under translation by prescribed compact subsets."
 aliases = ["Folner condition", "Følner net"]
 domains = ["harmonic-analysis", "algebra-groups"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] with left [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\). A net \((F_i)\) of measurable, relatively compact subsets with \(0<\mu(F_i)<\infty\) is a **left Følner net** if, for every compact subset \(C\subseteq G\),

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The local subring of elements having nonnegative valuation."
 aliases = ["valuation ring associated with a valuation"]
 domains = ["algebra-fields-galois", "algebra-commutative"]
-prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-rings/group-of-units", "algebra-rings/maximal-ideal", "algebra-commutative/local-ring", "algebra-commutative/residue-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-rings/group-of-units", "algebra-rings/maximal-ideal", "algebra-commutative/local-ring", "algebra-commutative/residue-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[algebra-fields-galois/valuation-on-a-field|valued field]]

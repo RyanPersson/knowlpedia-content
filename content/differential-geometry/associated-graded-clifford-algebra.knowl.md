@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The Clifford filtration has exterior algebra as its associated graded algebra."
 aliases = ["Clifford PBW theorem", "symbol algebra of a Clifford algebra"]
 domains = ["differential-geometry", "algebra-rings"]
-prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "algebra-modules/exterior-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "algebra-modules/exterior-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional vector space over a field \(k\) of

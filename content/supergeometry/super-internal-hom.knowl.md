@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The super vector space whose even and odd parts are the parity-preserving and parity-reversing linear maps."
 aliases = ["graded internal Hom", "internal Hom of super vector spaces"]
 domains = ["supergeometry", "algebra-category-theory"]
-prerequisites = ["supergeometry/super-vector-space", "supergeometry/koszul-sign-rule", "supergeometry/category-of-super-vector-spaces", "supergeometry/parity-shift"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/super-vector-space", "supergeometry/koszul-sign-rule", "supergeometry/category-of-super-vector-spaces", "supergeometry/parity-shift", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For [[supergeometry/super-vector-space|super vector spaces]] \(V\) and \(W\),

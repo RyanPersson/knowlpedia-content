@@ -5,22 +5,25 @@ kind = "definition"
 summary = "A complex associative algebra equipped with a conjugate-linear involution reversing products."
 aliases = ["*-algebra"]
 domains = ["operator-algebras", "algebra-rings"]
-prerequisites = ["algebra-modules/algebra-over-ring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "shared-foundations/complex-conjugate"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-An **involutive algebra**, or **\(*\)-algebra**, is a complex associative [[algebra-modules/algebra-over-ring|algebra]] \(A\) equipped with a map \(a\mapsto a^*\) such that for all \(a,b\in A\) and \(\lambda,\mu\in\mathbb C\),
+An **involutive algebra**, or **\(*\)-algebra**, is a complex vector space \(A\) equipped with an associative \(\mathbb C\)-bilinear multiplication \(A\times A\to A\) and a map \(a\mapsto a^*\) such that for all \(a,b\in A\) and \(\lambda,\mu\in\mathbb C\),
 \[
 (\lambda a+\mu b)^*=\overline\lambda a^*+\overline\mu b^*,\qquad
 (ab)^*=b^*a^*,\qquad
 (a^*)^*=a.
 \]
+## Terminology and unity
+
 The operation is called an involution. If \(A\) is unital, one normally also requires \(1^*=1\), although this follows from the other axioms when the involution is bijective and \(1\) is a two-sided identity. No norm, topology, or completeness is part of this definition.
 
 ## Morphisms and distinguished elements
 
-A \(*\)-homomorphism is an [[algebra-modules/algebra-homomorphism|algebra homomorphism]] \(\phi:A\to B\) satisfying \(\phi(a^*)=\phi(a)^*\). An element is self-adjoint when \(a=a^*\), normal when \(aa^*=a^*a\), and unitary in a unital algebra when \(a^*a=aa^*=1\). These algebraic notions become analytic only after a compatible norm or operator representation is supplied.
+A \(*\)-homomorphism is a complex-linear map \(\phi:A\to B\) satisfying \(\phi(ab)=\phi(a)\phi(b)\) and \(\phi(a^*)=\phi(a)^*\). It need not preserve an identity unless this is required separately. An element is self-adjoint when \(a=a^*\), normal when \(aa^*=a^*a\), and unitary in a unital algebra when \(a^*a=aa^*=1\). These algebraic notions become analytic only after a compatible norm or operator representation is supplied.
 
 ## Examples and additional structure
 

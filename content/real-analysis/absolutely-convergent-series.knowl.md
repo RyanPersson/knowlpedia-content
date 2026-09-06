@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A series that converges after taking absolute values term-by-term."
 aliases = ["absolutely-convergent-series", "Absolutely convergent series"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/absolutely-convergent-series.md"
+prerequisites = ["real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **absolutely convergent series** is a series \(\sum_{n=1}^\infty a_n\) such that the series of absolute values \(\sum_{n=1}^\infty |a_n|\) is a [[real-analysis/convergent-series|convergent series]].

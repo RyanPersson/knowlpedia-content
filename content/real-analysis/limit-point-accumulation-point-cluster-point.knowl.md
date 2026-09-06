@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point x such that every neighborhood of x contains a point of the set different from x."
 aliases = ["limit-point-accumulation-point-cluster-point", "Limit point (accumulation point, cluster point)"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "topology/open-ball"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-point-accumulation-point-cluster-point.md"
+prerequisites = ["topology/metric-space", "topology/open-ball", "topology/closed-set", "real-analysis/isolated-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X\). A point \(x\in X\) is a **limit point** (also called an **accumulation point** or **cluster point**) of \(A\) if

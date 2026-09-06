@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A state that is strictly positive on every nonzero positive element."
 aliases = ["faithful C*-state", "faithful positive normalized functional"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/positive-element", "operator-algebras/von-neumann-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/positive-element", "operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A lower semicontinuous function that governs exponential decay rates in large deviations."
 aliases = ["rate-function", "Rate function"]
 domains = ["large-deviations"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "large-deviations/rate-function.md"
+prerequisites = ["topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **rate function** on a topological space \(E\) is a lower semicontinuous function \(I:E\to[0,\infty]\) that is not identically \(+\infty\). Equivalently, for every \(\alpha\in\mathbb R\), its sublevel set

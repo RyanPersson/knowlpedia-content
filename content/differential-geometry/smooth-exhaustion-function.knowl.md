@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A proper smooth nonnegative function whose compact sublevel sets exhaust a smooth manifold."
 aliases = ["proper smooth exhaustion", "exhausting function"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/proper-smooth-map", "topology/compact-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/proper-smooth-map", "topology/compact-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **smooth exhaustion function** is a [[fiber-bundles/smooth-map|smooth map]] \(\rho:M\to[0,\infty)\) that is [[differential-geometry/proper-smooth-map|proper]]. Equivalently, every sublevel set

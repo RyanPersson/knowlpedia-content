@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The compact complex manifold of complex lines in complex Euclidean space."
 aliases = ["CPn", "complex projective n-space", "complex projective manifold"]
 domains = ["differential-geometry", "algebraic-geometry-foundations", "complex-analysis"]
-prerequisites = ["algebraic-geometry-foundations/projective-space", "differential-geometry/complex-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/projective-space", "differential-geometry/complex-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\ge0\), **complex projective \(n\)-space** is the set of one-dimensional complex linear subspaces of \(\mathbb C^{n+1}\):

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Semisimplicity is equivalent to nondegeneracy of the Killing form and to decomposition into simple ideals."
 aliases = ["tfae-semisimplicity-lie-algebra", "Equivalent characterizations of semisimplicity for Lie algebras"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/killing-form", "lie-groups/killing-form-nondegenerate-iff-semisimple", "lie-groups/direct-sum-of-lie-algebras", "lie-groups/simple-lie-algebra", "lie-groups/semisimple-direct-sum-simple"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/tfae-semisimplicity-lie-algebra.md"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/killing-form", "lie-groups/killing-form-nondegenerate-iff-semisimple", "lie-groups/direct-sum-of-lie-algebras", "lie-groups/simple-lie-algebra", "lie-groups/semisimple-direct-sum-simple"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional Lie algebra over a field of characteristic \(0\). The following are equivalent.

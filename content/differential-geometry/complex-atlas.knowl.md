@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A covering family of complex coordinate charts whose transition maps are holomorphic."
 aliases = ["holomorphic atlas", "complex analytic atlas"]
 domains = ["differential-geometry"]
-prerequisites = ["topology/topological-manifold", "differential-geometry/complex-coordinate-chart", "differential-geometry/holomorphic-map", "shared-foundations/equivalence-class"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-manifold", "differential-geometry/complex-coordinate-chart", "shared-foundations/equivalence-class", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a Hausdorff, second-countable [[topology/topological-manifold|topological manifold]] of real dimension \(2n\). A **complex atlas of complex dimension \(n\)** on \(M\) is a family of [[differential-geometry/complex-coordinate-chart|complex coordinate charts]] \(\{(U_\alpha,\varphi_\alpha)\}\) whose domains cover \(M\) and such that, whenever \(U_\alpha\cap U_\beta\neq\varnothing\), the transition map

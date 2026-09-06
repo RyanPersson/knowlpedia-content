@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A product set whose factors are measurable in their respective spaces."
 aliases = ["measurable-rectangle", "Measurable rectangle"]
 domains = ["measure-theory"]
-prerequisites = ["shared-foundations/cartesian-product","measure-theory/measurable-set"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/measurable-rectangle.md"
+prerequisites = ["shared-foundations/cartesian-product", "measure-theory/measurable-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **measurable rectangle** in the [[shared-foundations/cartesian-product|Cartesian product]] \(X\times Y\) of measurable spaces \((X,\Sigma)\) and \((Y,\mathcal T)\) is a set of the form \(A\times B\), where \(A\in\Sigma\) and \(B\in\mathcal T\) are [[measure-theory/measurable-set|measurable sets]].

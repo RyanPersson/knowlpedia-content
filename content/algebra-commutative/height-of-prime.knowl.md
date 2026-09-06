@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The codimension of a prime ideal, measured by the maximum length of chains of primes ending at it."
 aliases = ["height-of-prime", "Height of a prime"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/height-of-prime.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum", "algebra-commutative/localization-at-prime", "algebra-commutative/krull-dimension", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(\mathfrak p\) be a prime ideal (i.e., \(\mathfrak p\in\operatorname{Spec}(R)\), the [[algebra-commutative/prime-spectrum|prime spectrum]]).

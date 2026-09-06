@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The group of all isomorphisms from a group to itself"
 aliases = ["automorphism-group", "Automorphism Group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/group-isomorphism", "shared-foundations/composition"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/automorphism-group.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/group-isomorphism", "shared-foundations/composition", "shared-foundations/inverse-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[algebra-groups/group|group]] \(G\), the **automorphism group** of \(G\), denoted \(\operatorname{Aut}(G)\), is the set of all [[algebra-groups/group-isomorphism|group isomorphisms]] \(\varphi:G\to G\), with group operation given by [[shared-foundations/composition|composition]]

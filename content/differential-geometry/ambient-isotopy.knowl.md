@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An ambient isotopy is a smooth family of diffeomorphisms of a manifold beginning at the identity."
 aliases = ["isotopy by diffeomorphisms"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/smooth-map-of-manifolds-with-boundary", "fiber-bundles/diffeomorphism", "differential-geometry/embedded-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "differential-geometry/embedded-submanifold", "differential-geometry/smooth-isotopy"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(N\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. An

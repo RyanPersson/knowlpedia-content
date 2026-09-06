@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The 24-dimensional simple complex Lie algebra of rank 4 and Dynkin type A4."
 aliases = ["complex-lie-algebra-sl5", "sl5(C)", "sl(5,C)", "complex Lie algebra sl5"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/fundamental-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/fundamental-representation", "lie-groups/cartan-subalgebra", "lie-groups/simple-root", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **complex Lie algebra** \(\mathfrak{sl}_5(\mathbb C)\) consists of trace-zero \(5\times5\) complex matrices with commutator bracket. It is [[lie-groups/simple-lie-algebra|simple]], of complex dimension \(24\), rank \(4\), and [[lie-groups/dynkin-diagram|Dynkin type]] \(A_4\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The convex dual of a log moment generating function, giving a canonical large-deviation rate function."
 aliases = ["cramer-transform", "Cramér transform"]
 domains = ["large-deviations"]
-prerequisites = ["convex-analysis/legendre-fenchel-transform", "convex-analysis/convex-conjugate-fenchel"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/cramer-transform.md"
+prerequisites = ["convex-analysis/legendre-fenchel-transform", "convex-analysis/convex-conjugate-fenchel"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Cramér transform** associated with a log moment generating function \(\Lambda:\mathbb R^d\to(-\infty,\infty]\) is the function \(I:\mathbb R^d\to[0,\infty]\) defined by

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C*-algebra whose every irreducible represented image is the algebra of compact operators."
 aliases = ["CCR C*-algebra", "completely continuous C*-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/irreducible-cstar-representation", "operator-algebras/compact-operator-cstar-algebra", "algebra-representation-theory/irreducible-representation", "operator-algebras/elementary-cstar-algebra", "linear-algebra/compact-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/irreducible-cstar-representation", "operator-algebras/compact-operator-cstar-algebra", "algebra-representation-theory/irreducible-representation", "operator-algebras/elementary-cstar-algebra", "linear-algebra/compact-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\) is **liminal**, or **CCR**, if every [[operator-algebras/irreducible-cstar-representation|irreducible representation]] \(\pi\colon A\to B(H_\pi)\) has image

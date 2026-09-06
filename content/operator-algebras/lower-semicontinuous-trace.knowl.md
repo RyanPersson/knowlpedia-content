@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An extended-valued tracial weight on a C-star algebra that is lower semicontinuous in the norm topology."
 aliases = ["lower-semicontinuous C-star trace", "lsc C-star trace"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A

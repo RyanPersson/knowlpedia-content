@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A third-order differential invariant of a locally univalent holomorphic function."
 aliases = ["Schwarzian", "Schwarz derivative"]
 domains = ["complex-analysis", "differential-geometry"]
-prerequisites = ["complex-analysis/complex-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f\) be holomorphic and locally univalent on a [[complex-analysis/complex-domain|plane domain]], so \(f'\ne0\). Its **Schwarzian derivative** is

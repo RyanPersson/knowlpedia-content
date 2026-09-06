@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The smooth action of a Lie group on itself given by sending an element to its conjugate by another element."
 aliases = ["conjugation-action-of-a-lie-group-on-itself", "Conjugation action of a Lie group on itself"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/diffeomorphism", "lie-groups/adjoint-action-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/conjugation-action-of-a-lie-group-on-itself.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/diffeomorphism", "lie-groups/adjoint-action-of-a-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. The **conjugation action** of \(G\) on itself is the map

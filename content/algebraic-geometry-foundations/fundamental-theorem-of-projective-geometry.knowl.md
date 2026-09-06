@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A line-preserving bijection of projective spaces of dimension at least two is induced by a semilinear isomorphism."
 aliases = ["fundamental theorem of projective geometries", "collineation theorem"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "algebraic-geometry-foundations/projective-line", "linear-algebra/semilinear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "algebraic-geometry-foundations/projective-line", "linear-algebra/semilinear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) and \(W\) be [[linear-algebra/vector-space|vector spaces]] of dimension at least \(3\) over fields \(k\) and \(\ell\). If a bijection

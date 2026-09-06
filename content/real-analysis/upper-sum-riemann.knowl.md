@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A weighted sum of suprema of f over subintervals of a partition."
 aliases = ["upper-sum-riemann", "Upper sum (Riemann)"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/upper-sum-riemann.md"
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:[a,b]\to\mathbb{R}\) be bounded and let \(P:a=x_0<\cdots<x_n=b\) be a partition. For each subinterval, define

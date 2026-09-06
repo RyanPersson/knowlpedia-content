@@ -6,6 +6,7 @@ summary = "The sheaf on the target whose sections are sections over inverse imag
 aliases = ["direct image sheaf", "pushforward sheaf", "pushforward of a sheaf"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["topology/continuous-map", "algebraic-geometry-foundations/sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

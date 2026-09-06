@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A conjugate-linear surjective isometry of a complex Hilbert space."
 aliases = ["antiunitary transformation", "anti-unitary operator"]
 domains = ["quantum-foundations", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/unitary-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/unitary-operator", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **antiunitary operator** between complex [[linear-algebra/hilbert-space|Hilbert spaces]]

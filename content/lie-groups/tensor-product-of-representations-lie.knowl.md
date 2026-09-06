@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The diagonal action on a tensor product, defined by tensoring group actions or by the Leibniz rule for Lie algebras."
 aliases = ["tensor-product-of-representations-lie", "Tensor product of representations"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/representation-of-a-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/tensor-product-of-representations-lie.md"
+prerequisites = ["lie-groups/representation-of-a-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a Lie group and let \(\pi_V:G\to\operatorname{GL}(V)\) and \(\pi_W:G\to\operatorname{GL}(W)\) be [[lie-groups/representation-of-a-lie-group|representations of \(G\)]]. Their **tensor product representation** on \(V\otimes W\) is

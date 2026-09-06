@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of all d-dimensional vectors with integer coordinates."
 aliases = ["lattice-zd", "Integer lattice Z^d"]
 domains = ["discrete-structures"]
-prerequisites = ["shared-foundations/integers"]
-dependency_review_count = 1
 legacy_source_path = "discrete-structures/lattice-zd.md"
+prerequisites = ["shared-foundations/integers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a positive integer \(d\). The **integer lattice** in dimension \(d\) is

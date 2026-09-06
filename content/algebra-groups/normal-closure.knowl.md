@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The smallest normal subgroup containing a given subset."
 aliases = ["normal-closure", "Normal Closure"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/generated-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/normal-closure.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/generated-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and \(A\subseteq G\). The **normal closure** of \(A\) in \(G\), denoted \(\langle\!\langle A\rangle\!\rangle\), is the smallest [[algebra-groups/normal-subgroup|normal subgroup]] of \(G\) containing \(A\). Equivalently,

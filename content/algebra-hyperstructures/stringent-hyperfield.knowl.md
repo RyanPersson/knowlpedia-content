@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A hyperfield whose sum is single-valued unless the summands are additive inverses."
 aliases = ["stringent commutative hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
-prerequisites = ["algebra-hyperstructures/hyperfield"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/hyperfield"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-hyperstructures/hyperfield|hyperfield]] \(F\) is **stringent** if

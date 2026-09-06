@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "On a paracompact smooth manifold, every open cover admits a smooth partition of unity subordinate to it."
 aliases = ["existence-of-partitions-of-unity-on-paracompact-manifolds", "Existence of partitions of unity on paracompact manifolds"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/existence-of-partitions-of-unity-on-paracompact-manifolds.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/paracompact-manifold", "topology/open-cover"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\{U_i\}_{i\in I}\) be an open cover of \(M\). Then there is a family of smooth functions \(\{\rho_i:M\to[0,1]\}_{i\in I}\) such that:

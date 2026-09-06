@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A Hochschild chain annihilated by the Hochschild boundary."
 aliases = ["Hochschild homology cycle", "b-cycle"]
 domains = ["noncommutative-geometry", "algebra-homological"]
-prerequisites = ["algebra-modules/algebra-over-ring", "noncommutative-geometry/hochschild-chain-complex", "algebra-homological/homology-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-modules/algebra-over-ring", "noncommutative-geometry/hochschild-chain-complex", "algebra-homological/homology-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a unital [[algebra-modules/algebra-over-ring|algebra over a commutative ring]] \(k\), let \(M\) be an \(A\)-bimodule, and let

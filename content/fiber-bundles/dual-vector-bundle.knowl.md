@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The vector bundle whose fiber over each point is the dual space of the original fiber."
 aliases = ["dual-vector-bundle", "Dual vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization", "fiber-bundles/vector-bundle-morphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/dual-vector-bundle.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization", "fiber-bundles/vector-bundle-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] (real or complex) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **dual vector bundle** of \(E\) is the vector bundle

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Continuity of partial derivatives at a point implies differentiability of a multivariable function there."
 aliases = ["sufficient-condition-for-differentiability", "Sufficient condition for differentiability"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/partial-derivative", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "real-analysis/jacobian-matrix", "linear-algebra/linear-map"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/sufficient-condition-for-differentiability.md"
+prerequisites = ["shared-foundations/function", "real-analysis/partial-derivative", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "real-analysis/jacobian-matrix", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Sufficient condition for differentiability:** Let \(U\subseteq\mathbb{R}^n\) be open and let \(f:U\to\mathbb{R}^m\) be a [[shared-foundations/function|function]]. Fix \(a\in U\). Assume that each first-order [[real-analysis/partial-derivative|partial derivative]] \(\partial f_i/\partial x_j\) exists on a neighborhood of \(a\) and is continuous at \(a\) (for all components \(i=1,\dots,m\) and coordinates \(j=1,\dots,n\)). Then \(f\) is [[real-analysis/differentiable-map|differentiable]] at \(a\) in the sense of the [[real-analysis/frechet-derivative|Fréchet derivative]], and its derivative is the linear map represented by the [[real-analysis/jacobian-matrix|Jacobian matrix]] at \(a\).

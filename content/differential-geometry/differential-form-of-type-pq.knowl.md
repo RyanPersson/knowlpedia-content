@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A complex differential form whose covector factors have a fixed holomorphic and antiholomorphic bidegree."
 aliases = ["(p,q)-form", "form of bidegree (p,q)", "complex differential form of type (p,q)"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/complexified-tangent-bundle-splitting", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/wedge-product-of-differential-forms"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/complexified-tangent-bundle-splitting", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/wedge-product-of-differential-forms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[differential-geometry/complex-manifold|complex manifold]], with the [[differential-geometry/complexified-tangent-bundle-splitting|type decomposition]] \(T_{\mathbb C}^*M=T^{*1,0}M\oplus T^{*0,1}M\). A **differential form of type \((p,q)\)** is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of

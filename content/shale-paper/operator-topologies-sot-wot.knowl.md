@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The strong and weak operator topologies on the bounded operators of a Hilbert space."
 aliases = ["operator-topologies-sot-wot", "Strong vs Weak Operator Topology"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/operator-topologies-sot-wot.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a Hilbert space and \(B(H)\) its bounded linear operators. A net \((T_i)\) in \(B(H)\) converges to \(T\in B(H)\):

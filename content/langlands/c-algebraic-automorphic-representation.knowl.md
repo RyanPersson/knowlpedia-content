@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "An automorphic representation whose archimedean parameter is integral after the half-sum-of-positive-roots shift."
 aliases = ["C-algebraic representation", "C-algebraic automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands/automorphic-representation", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/positive-root", "langlands/local-l-parameter"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands/automorphic-representation", "langlands-letter/knowls/maximal-torus-weight-lattice", "lie-groups/positive-root", "langlands/local-l-parameter"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a

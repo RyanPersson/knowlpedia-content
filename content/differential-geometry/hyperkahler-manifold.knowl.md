@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Riemannian manifold carrying a parallel quaternionic triple of complex structures."
 aliases = ["hyper-Kähler manifold", "hyperkähler structure"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/hyperhermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/hyperhermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **hyperkähler manifold** is a [[differential-geometry/riemannian-manifold|Riemannian manifold]] \((M^{4n},g)\) equipped with complex structures \(I,J,K\) satisfying \(IJ=K=-JI\), each orthogonal for \(g\), such that

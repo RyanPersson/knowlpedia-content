@@ -5,10 +5,10 @@ kind = "construction"
 summary = "An alternating subtraction of parabolic constant terms that makes automorphic kernels rapidly decreasing in cuspidal directions."
 aliases = ["Arthur truncation operator", "Langlands-Arthur truncation", "Lambda^T truncation"]
 domains = ["langlands", "harmonic-analysis"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/parabolic-subgroup", "langlands/automorphic-form", "langlands/automorphic-constant-term"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/parabolic-subgroup", "langlands/automorphic-form", "langlands/automorphic-constant-term"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected

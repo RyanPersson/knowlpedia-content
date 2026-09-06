@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Sample averages of iid variables converge almost surely to the mean."
 aliases = ["strong-law-large-numbers", "Strong law of large numbers"]
 domains = ["probability"]
-prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "measure-theory/convergence-almost-everywhere", "probability/probability-measure"]
-dependency_review_count = 1
 legacy_source_path = "probability/strong-law-large-numbers.md"
+prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "probability/weak-law-large-numbers", "measure-theory/convergence-almost-everywhere", "probability/probability-measure", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Strong law of large numbers:** Let \((X_n)_{n\ge 1}\) be an [[probability/iid-sequence|iid sequence]] of [[probability/random-variable|random variables]] such that \(\mathbb{E}[|X_1|]<\infty\), and let [[probability/expectation|expectation]] \(\mu=\mathbb{E}[X_1]\). Define the sample mean

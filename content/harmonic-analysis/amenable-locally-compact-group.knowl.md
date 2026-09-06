@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally compact group admitting a normalized positive mean invariant under left translation."
 aliases = ["amenable group", "group amenability"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/invariant-mean", "harmonic-analysis/haar-measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/invariant-mean", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[topology/locally-compact-group|locally compact group]] \(G\) is **amenable** if there exists a left [[harmonic-analysis/invariant-mean|invariant mean]] on \(L^\infty(G)\). Concretely, this is a linear functional

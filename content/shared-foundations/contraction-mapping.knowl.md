@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A self-map that strictly shrinks distances by a uniform factor <1"
 aliases = ["contraction-mapping", "Contraction mapping"]
 domains = ["shared-foundations"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/contraction-mapping.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(T:X\to X\).

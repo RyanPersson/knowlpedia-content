@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The integer obtained by compressing the off-diagonal operator of an even Fredholm module by a K-zero projection."
 aliases = ["even index pairing", "K0 index pairing", "projection index pairing"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/even-fredholm-module", "operator-algebras/projection-cstar-algebra", "operator-algebras/k0-cstar-algebra", "functional-analysis/fredholm-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/even-fredholm-module", "operator-algebras/projection-cstar-algebra", "operator-algebras/k0-cstar-algebra", "functional-analysis/fredholm-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a unital complex \(C^*\)-algebra, let \((H^+\oplus H^-,\pi,F)\) be a normalized [[noncommutative-geometry/even-fredholm-module|even Fredholm module]], and write \(F^+:H^+\to H^-\) for its positive-to-negative part. For a [[operator-algebras/projection-cstar-algebra|projection]] \(p\in M_n(A)\) representing a [[operator-algebras/k0-cstar-algebra|\(K_0(A)\)-class]], put \(p^\pm=\pi_n^\pm(p)\). The compression

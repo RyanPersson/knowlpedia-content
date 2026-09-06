@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Integration assigns a real number to a compactly supported top-degree form on an oriented manifold."
 aliases = ["integral of a top form", "integration on a manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "fiber-bundles/smooth-manifold", "differential-geometry/compactly-supported-differential-form", "fiber-bundles/differential-k-form", "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "fiber-bundles/smooth-manifold", "differential-geometry/compactly-supported-differential-form", "fiber-bundles/differential-k-form", "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an [[differential-geometry/orientation-of-a-smooth-manifold|oriented]] \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. The **integral** of a [[differential-geometry/compactly-supported-differential-form|compactly supported]] [[fiber-bundles/differential-k-form|differential \(n\)-form]] \(\omega\) is the number obtained by choosing an orientation-preserving atlas and a [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|subordinate partition of unity]] \((\rho_i)\), writing

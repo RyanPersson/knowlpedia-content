@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Hom out of a direct sum canonically identifies with the product of Homs."
 aliases = ["hom-sums-to-products", "Hom turns sums into products"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/hom-module", "algebra-modules/direct-sum-modules", "algebra-modules/direct-product-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/hom-sums-to-products.md"
+prerequisites = ["algebra-modules/hom-module", "algebra-modules/direct-sum-modules", "algebra-modules/direct-product-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Hom turns sums into products**: Let \(\{M_i\}_{i\in I}\) be a family of \(R\)-modules and let \(N\) be an \(R\)-module. Restriction along the canonical maps \(\iota_i:M_i\to \bigoplus_{i\in I}M_i\) induces a natural isomorphism

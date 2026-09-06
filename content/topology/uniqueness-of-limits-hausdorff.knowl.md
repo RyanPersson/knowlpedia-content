@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a Hausdorff space, a convergent sequence has at most one limit."
 aliases = ["uniqueness-of-limits-hausdorff", "Uniqueness of limits in Hausdorff spaces"]
 domains = ["topology"]
-prerequisites = ["topology/hausdorff-space", "topology/convergent-sequence"]
-dependency_review_count = 1
 legacy_source_path = "topology/uniqueness-of-limits-hausdorff.md"
+prerequisites = ["topology/hausdorff-space", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Uniqueness of limits in Hausdorff spaces:** Let \(X\) be a [[topology/hausdorff-space|Hausdorff space]] and let \((x_n)\) be a sequence in \(X\). If \((x_n)\) [[topology/convergent-sequence|converges]] to both \(x\in X\) and \(y\in X\), then \(x=y\).

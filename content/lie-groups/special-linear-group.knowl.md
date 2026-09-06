@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The determinant-one matrix group, with dimensions distinguished over the real and complex numbers."
 aliases = ["special-linear-group", "Special linear group"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/general-linear-group", "lie-groups/lie-subgroup", "lie-groups/closed-subgroup-lie-group", "lie-groups/underlying-real-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/special-linear-group.md"
+prerequisites = ["lie-groups/general-linear-group", "lie-groups/lie-subgroup", "lie-groups/closed-subgroup-lie-group", "lie-groups/underlying-real-lie-group", "linear-algebra/determinant"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 For a field \(\mathbb F\) equal to \(\mathbb R\) or \(\mathbb C\), the **special linear group** is

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A star homomorphism between von Neumann algebras that is continuous for their ultraweak topologies."
 aliases = ["ultraweakly continuous star homomorphism"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/star-homomorphism", "operator-algebras/normal-linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/star-homomorphism", "operator-algebras/normal-linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be

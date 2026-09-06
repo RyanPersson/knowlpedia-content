@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The modular automorphism group is the canonical one-parameter automorphism group associated with a faithful normal semifinite weight."
 aliases = ["modular group", "modular flow"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/modular-operator", "operator-algebras/gns-construction-for-weight", "operator-algebras/standard-form", "operator-algebras/tomita-takesaki-theorem"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/modular-operator", "operator-algebras/gns-construction-for-weight", "operator-algebras/standard-form", "operator-algebras/tomita-takesaki-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]

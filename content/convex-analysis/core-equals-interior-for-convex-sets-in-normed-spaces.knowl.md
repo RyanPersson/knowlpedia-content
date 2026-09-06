@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For convex sets with nonempty interior, algebraic and topological interiors coincide."
 aliases = ["core-equals-interior-for-convex-sets-in-normed-spaces", "Core Equals Interior for Convex Sets in Normed Spaces"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/algebraic-interior-core"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/algebraic-interior-core"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed vector space]] and let \(\Omega\subseteq X\) be [[convex-analysis/convex-set|convex]] with nonempty [[convex-analysis/interior-of-a-set|interior]]. Then its [[convex-analysis/algebraic-interior-core|algebraic interior]] equals its topological interior:

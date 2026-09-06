@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite increasing sequence of points that subdivides a closed interval."
 aliases = ["partition-of-an-interval", "Partition of an interval"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/partition-of-an-interval.md"
+prerequisites = ["real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **partition of an interval** \([a,b]\) is a finite sequence of real numbers

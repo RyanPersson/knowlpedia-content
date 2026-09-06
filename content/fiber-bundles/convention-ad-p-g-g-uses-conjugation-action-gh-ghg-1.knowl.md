@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Notation convention that the adjoint bundle is formed using the conjugation action of the structure group on itself"
 aliases = ["convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1", "Convention: Ad(P) uses the conjugation action on G"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/associated-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/associated-bundle", "fiber-bundles/conjugation-action-of-a-lie-group-on-itself"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. In this project we reserve the notation \(\operatorname{Ad}(P)\) for the [[fiber-bundles/associated-bundle|associated bundle]] with fiber the group \(G\) itself, where \(G\) acts on \(G\) by conjugation.

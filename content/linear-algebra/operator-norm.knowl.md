@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Norm of a linear map defined by its maximal expansion of unit vectors."
 aliases = ["operator-norm", "Operator norm"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-map", "linear-algebra/normed-vector-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/operator-norm.md"
+prerequisites = ["linear-algebra/linear-map", "linear-algebra/normed-vector-space", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **operator norm** of a [[linear-algebra/linear-map|linear map]] \(T:V\to W\) between [[linear-algebra/normed-vector-space|normed vector spaces]] \((V,\|\cdot\|_V)\) and \((W,\|\cdot\|_W)\) is the quantity

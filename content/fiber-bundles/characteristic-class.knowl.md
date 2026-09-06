@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A de Rham cohomology class of a principal bundle defined from curvature via the Chern–Weil construction."
 aliases = ["characteristic-class", "Characteristic class"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/invariant-polynomial-on-a-lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/chernweil-form"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/characteristic-class.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/invariant-polynomial-on-a-lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/chernweil-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Fix an [[fiber-bundles/invariant-polynomial-on-a-lie-algebra|Ad-invariant polynomial]] \(P\) on the Lie algebra \(\mathfrak{g}\) of \(G\).

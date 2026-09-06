@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A smooth quotient of a coisotropic submanifold by its characteristic leaves inherits a unique symplectic form."
 aliases = ["characteristic reduction", "presymplectic reduction"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/characteristic-foliation", "fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/coisotropic-submanifold", "differential-geometry/characteristic-foliation", "fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(C\) be a [[differential-geometry/coisotropic-submanifold|coisotropic submanifold]] of \((M,\omega)\), with inclusion \(i:C\hookrightarrow M\). Suppose the leaf space \(C/\mathcal K\) of its [[differential-geometry/characteristic-foliation|characteristic foliation]] is a [[fiber-bundles/smooth-manifold|smooth manifold]] \(B\), and the quotient map \(\pi:C\to B\) is a surjective submersion whose fibers are the characteristic leaves. Then there is a unique two-form \(\omega_B\) satisfying

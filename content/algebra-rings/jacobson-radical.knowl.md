@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The intersection of all maximal ideals, equivalently the elements acting trivially on simple modules."
 aliases = ["jacobson-radical", "Jacobson radical"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/maximal-ideal", "algebra-rings/unit", "algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/jacobson-radical.md"
+prerequisites = ["algebra-rings/maximal-ideal", "algebra-rings/unit", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring. The **Jacobson radical** \(J(R)\) is the intersection of all [[algebra-rings/maximal-ideal|maximal ideals]] of \(R\) (in the commutative case), and more generally can be defined as the intersection of annihilators of all simple right \(R\)-modules.

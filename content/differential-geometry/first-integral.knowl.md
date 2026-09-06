@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A smooth function that is constant along every trajectory of a dynamical system."
 aliases = ["constant of motion", "conserved quantity"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/hamiltonian-vector-field", "differential-geometry/hamiltonian-flow"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/hamiltonian-vector-field", "differential-geometry/hamiltonian-flow"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega,H)\) be a [[differential-geometry/hamiltonian-system|Hamiltonian system]] with [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector field]] \(X_H\). A smooth function \(F:M\to\mathbb R\) is a **first integral** if

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Given a connection, any curve in the base has a unique horizontal lift through a chosen point in the fiber."
 aliases = ["existenceuniqueness-of-horizontal-lift-of-a-curve", "Theorem: Existence and uniqueness of horizontal lifts of curves"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with a [[fiber-bundles/principal-connection|principal connection]] \(\omega\), and let \(H=\ker(\omega)\subset TP\) be its horizontal distribution.

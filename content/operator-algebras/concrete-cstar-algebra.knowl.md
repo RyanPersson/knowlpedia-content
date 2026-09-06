@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A norm-closed operator algebra on a Hilbert space that is closed under adjoints."
 aliases = ["operator C*-algebra", "norm-closed *-algebra of operators"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space","operator-algebras/bounded-operator-cstar-algebra","linear-algebra/operator-norm","operator-algebras/cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "linear-algebra/operator-norm", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal H\) be a complex

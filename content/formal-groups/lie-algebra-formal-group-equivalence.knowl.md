@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Over a characteristic-zero field, finite-dimensional Lie algebras are equivalent to formally smooth formal groups on finite formal discs."
 aliases = ["formal Lie correspondence", "Lie algebra–formal group equivalence", "finite-dimensional formal Lie theory", "Lie algebras and formal group laws"]
 domains = ["formal-groups", "lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "formal-groups/formal-group", "formal-groups/formal-affine-space", "formal-groups/tangent-lie-algebra", "algebra-category-theory/equivalence-of-categories"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "formal-groups/formal-group", "formal-groups/formal-affine-space", "formal-groups/tangent-lie-algebra", "algebra-category-theory/equivalence-of-categories"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field of characteristic \(0\). Let

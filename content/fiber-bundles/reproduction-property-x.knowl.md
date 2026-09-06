@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The connection form evaluates to the generating Lie algebra element on each fundamental vector field."
 aliases = ["reproduction-property-x", "Reproduction property"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/reproduction-property-x.md"
+prerequisites = ["fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle and let \(\omega\in \Omega^1(P;\mathfrak{g})\) be a [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]].

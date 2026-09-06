@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every family of nonempty sets has a choice function."
 aliases = ["axiom-of-choice", "Axiom of Choice"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function", "shared-foundations/indexed-family-of-sets", "shared-foundations/union"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/axiom-of-choice.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/indexed-family-of-sets", "shared-foundations/union", "shared-foundations/empty-set"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Axiom of Choice:** For every indexed family \((A_i)_{i\in I}\) of nonempty sets, there exists a [[shared-foundations/function|function]] \(f:I\to \bigcup_{i\in I} A_i\) such that \(f(i)\in A_i\) for all \(i\in I\).

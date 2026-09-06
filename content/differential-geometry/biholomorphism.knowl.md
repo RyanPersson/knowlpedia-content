@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A bijective holomorphic map whose inverse is holomorphic."
 aliases = ["biholomorphic map", "holomorphic isomorphism"]
 domains = ["differential-geometry", "complex-analysis"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) and \(Y\) be [[differential-geometry/complex-manifold|complex manifolds]]. A **biholomorphism** from \(X\) to \(Y\) is a bijective [[differential-geometry/holomorphic-map|holomorphic map]]

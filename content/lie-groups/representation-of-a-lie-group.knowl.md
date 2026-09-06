@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A smooth homomorphism from a Lie group to the group of invertible linear maps on a vector space."
 aliases = ["representation-of-a-lie-group", "Representation of a Lie Group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "linear-algebra/vector-space", "lie-groups/lie-group-homomorphism", "linear-algebra/linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "lie-groups/representation-of-a-lie-group.md"
+prerequisites = ["fiber-bundles/lie-group", "linear-algebra/vector-space", "lie-groups/lie-group-homomorphism", "linear-algebra/linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and \(V\) a finite-dimensional [[linear-algebra/vector-space|vector space]].

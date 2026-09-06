@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Riemann integrable function on a closed interval must be bounded."
 aliases = ["riemann-integrability-implies-boundedness", "Riemann integrability implies boundedness"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integrability-implies-boundedness.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/bounded-above", "real-analysis/bounded-below", "real-analysis/riemann-integral", "real-analysis/upper-sum", "real-analysis/lower-sum", "real-analysis/partition-of-an-interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Riemann integrability implies boundedness:** Let \(a<b\) and let \(f:[a,b]\to\mathbb{R}\) be a [[real-analysis/riemann-integrable-function|Riemann integrable function]]. Then \(f\) is bounded on \([a,b]\) (equivalently, \(f\) is both [[real-analysis/bounded-above|bounded above]] and [[real-analysis/bounded-below|bounded below]]).

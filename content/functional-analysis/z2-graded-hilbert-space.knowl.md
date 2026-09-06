@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Hilbert space decomposed orthogonally into closed even and odd subspaces."
 aliases = ["even Hilbert space", "graded Hilbert space", "super Hilbert space"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "algebra-modules/graded-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "algebra-modules/graded-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **\(Z/2\)-graded Hilbert space** is a

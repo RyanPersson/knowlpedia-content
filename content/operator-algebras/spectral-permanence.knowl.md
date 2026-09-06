@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A C-star-subalgebra computes the same spectrum as its ambient C-star-algebra when units are treated consistently."
 aliases = ["inverse-closed C*-subalgebra", "spectrum permanence", "spectral invariance for C*-subalgebras"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/cstar-subalgebra", "functional-analysis/banach-algebra-spectrum"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-subalgebra", "functional-analysis/banach-algebra-spectrum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B\subseteq A\) be a

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The dual representation acts on linear functionals by precomposition with the inverse group action; infinitesimally, it is the negative transpose."
 aliases = ["dual-representation-lie", "Dual (contragredient) representation"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/representation-of-a-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/dual-representation-lie.md"
+prerequisites = ["lie-groups/representation-of-a-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional vector space. If \(\rho:G\to \mathrm{GL}(V)\) is a [[lie-groups/representation-of-a-lie-group|representation of a Lie group]] \(G\), its **dual**, or **contragredient**, representation on \(V^*\) is

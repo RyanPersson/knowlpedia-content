@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A representation whose restriction to a maximal compact subgroup has finite multiplicity for every irreducible type."
 aliases = ["admissible representation", "finite K-multiplicity representation"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/k-type"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/k-finite-vector", "lie-groups/k-type"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]]

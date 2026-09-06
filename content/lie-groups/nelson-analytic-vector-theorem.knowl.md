@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A symmetric operator with a dense set of analytic vectors is essentially self-adjoint."
 aliases = ["analytic-vector essential self-adjointness theorem"]
 domains = ["lie-groups", "functional-analysis"]
-prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "topology/dense-set", "functional-analysis/essentially-self-adjoint-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "topology/dense-set", "functional-analysis/essentially-self-adjoint-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[functional-analysis/symmetric-operator|symmetric operator]] on a complex [[linear-algebra/hilbert-space|Hilbert space]]. Suppose the domain of \(A\) contains a [[topology/dense-set|dense set]] \(D\) such that every \(v\in D\) is analytic for \(A\):

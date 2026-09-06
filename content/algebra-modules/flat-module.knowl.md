@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module whose tensor product functor preserves exactness."
 aliases = ["flat-module", "Flat module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/short-exact-sequence", "algebra-modules/tensor-product"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/flat-module.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/short-exact-sequence", "algebra-modules/tensor-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **flat module** is a left \(R\)-module \(M\) over a ring \(R\) such that tensoring with \(M\) preserves exactness: for every [[algebra-modules/short-exact-sequence|short exact sequence]] of right \(R\)-modules

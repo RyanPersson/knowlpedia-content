@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The matrix-valued function describing how two local frames are related on an overlap."
 aliases = ["transition-matrix-of-a-local-frame", "Transition matrix of a local frame"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/local-frame-of-a-vector-bundle", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/transition-matrix-of-a-local-frame.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/local-frame-of-a-vector-bundle", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a rank \(r\) smooth [[fiber-bundles/vector-bundle|vector bundle]], and let \((e_1,\dots,e_r)\) and \((e'_1,\dots,e'_r)\) be two [[fiber-bundles/local-frame-of-a-vector-bundle|local frames]] of \(E\) defined on open sets \(U\) and \(V\), respectively. On the overlap \(U\cap V\), there is a unique map

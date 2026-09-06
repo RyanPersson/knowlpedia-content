@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ideal consisting of all sums of an element from each of two ideals."
 aliases = ["sum-of-ideals", "Sum of ideals"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/sum-of-ideals.md"
+prerequisites = ["algebra-rings/ring", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Given ideals \(I,J\) in a [[algebra-rings/ring|ring]] \(R\), their **sum** is

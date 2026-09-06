@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The quotient of the codomain by the image of a module homomorphism."
 aliases = ["cokernel-module", "Cokernel"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/quotient-module", "algebra-modules/image-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/cokernel-module.md"
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/quotient-module", "algebra-modules/image-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[algebra-modules/module-homomorphism|module homomorphism]]. The **cokernel** of \(f\) is the [[algebra-modules/quotient-module|quotient module]]

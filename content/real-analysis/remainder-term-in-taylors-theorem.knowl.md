@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The difference f(x)−T_k f(x;a), measuring Taylor approximation error."
 aliases = ["remainder-term-in-taylors-theorem", "Remainder term in Taylor's theorem"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/remainder-term-in-taylors-theorem.md"
+prerequisites = ["real-analysis/taylor-polynomial", "real-analysis/higher-derivatives"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Suppose \(f\) has derivatives through order \(k\) at \(a\). Its Taylor polynomial of degree at most \(k\) about \(a\) is

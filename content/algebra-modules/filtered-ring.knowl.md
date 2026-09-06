@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring equipped with an increasing multiplicative filtration."
 aliases = ["filtered-ring", "Filtered ring"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/filtered-ring.md"
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **filtered ring** is a [[algebra-rings/ring|ring]] \(R\) together with an increasing family of additive subgroups \(\{F_nR\}_{n\in\mathbb Z}\) such that:

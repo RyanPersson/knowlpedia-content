@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The compact Lie group of quaternionic linear transformations preserving the standard quaternionic Hermitian form."
 aliases = ["quaternionic unitary group", "USp(2n)"]
 domains = ["lie-groups", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "linear-algebra/quaternion-division-algebra", "fiber-bundles/lie-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/quaternion-division-algebra", "fiber-bundles/lie-group", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\geq 1\), regard \(\mathbb H^n\) as a right [[linear-algebra/vector-space|vector space]] over the

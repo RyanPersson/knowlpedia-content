@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In an integral extension, every prime ideal downstairs is the contraction of some prime ideal upstairs."
 aliases = ["lying-over-theorem", "Lying-over theorem"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/lying-over-theorem.md"
+prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Theorem (Lying over).**

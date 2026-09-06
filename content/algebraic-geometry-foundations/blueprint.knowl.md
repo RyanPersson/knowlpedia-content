@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A commutative multiplicative monoid together with compatible formal additive relations."
 aliases = ["algebraic blueprint", "blueprint algebra"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
-prerequisites = ["algebra-groups/commutative-monoid", "algebraic-geometry-foundations/pre-addition-on-a-monoid"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/commutative-monoid", "algebraic-geometry-foundations/pre-addition-on-a-monoid"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **blueprint** \(B=A/\!/\mathcal R\) consists of a [[algebra-groups/commutative-monoid|commutative monoid with zero]] \(A\) together with a [[algebraic-geometry-foundations/pre-addition-on-a-monoid|pre-addition]] \(\mathcal R\) on \(A\).

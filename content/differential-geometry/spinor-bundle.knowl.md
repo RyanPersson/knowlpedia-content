@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The vector bundle associated to a spin structure through a spin representation."
 aliases = ["bundle of spinors", "spinor module bundle"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["fiber-bundles/spin-structure", "differential-geometry/spinor-module", "fiber-bundles/associated-vector-bundle", "differential-geometry/clifford-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/spin-structure", "differential-geometry/spinor-module", "fiber-bundles/associated-vector-bundle", "differential-geometry/clifford-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be an oriented Riemannian \(n\)-manifold equipped with a [[fiber-bundles/spin-structure|spin structure]] \(P_{\mathrm{Spin}}(M)\to M\), and let \(\Delta_n\) be a real or complex [[differential-geometry/spinor-module|spinor module]], restricted to its spin representation of \(\mathrm{Spin}(n)\). The corresponding **spinor bundle** is the [[fiber-bundles/associated-vector-bundle|associated vector bundle]]

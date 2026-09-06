@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A circle in the complex plane or a straight line completed by the point at infinity."
 aliases = ["generalised circle", "circle on the Riemann sphere", "circline"]
 domains = ["complex-analysis", "geometry"]
-prerequisites = ["complex-analysis/riemann-sphere"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/riemann-sphere", "complex-analysis/mobius-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **generalized circle** in the [[complex-analysis/riemann-sphere|Riemann sphere]] is either an ordinary Euclidean circle in \(\mathbb C\) or a set

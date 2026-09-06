@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C*-algebra whose irreducible-representation traces vary continuously and densely detect its positive elements."
 aliases = ["continuous trace algebra", "CT C*-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/irreducible-cstar-representation", "operator-algebras/operator-trace", "algebra-representation-theory/irreducible-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/irreducible-cstar-representation", "operator-algebras/operator-trace", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] with

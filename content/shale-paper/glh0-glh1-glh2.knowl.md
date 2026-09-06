@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Invertible elementary, trace-class, and Hilbert–Schmidt perturbations of the identity."
 aliases = ["glh0-glh1-glh2", "Shale's Subgroups GL(H)₀, GL(H)₁, GL(H)₂"]
 domains = ["shale-paper"]
-prerequisites = ["shale-paper/trace-class-operator", "shale-paper/hilbert-schmidt-operator"]
-dependency_review_count = 1
 legacy_source_path = "shale-paper/glh0-glh1-glh2.md"
+prerequisites = ["shale-paper/trace-class-operator", "shale-paper/hilbert-schmidt-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a Hilbert space \(H\), let \(\mathcal I_0\), \(\mathcal I_1\), and \(\mathcal I_2\) denote respectively the elementary, trace-class, and Hilbert–Schmidt operator ideals. Shale's subgroups are

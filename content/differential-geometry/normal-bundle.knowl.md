@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The quotient of the ambient tangent bundle along an embedded submanifold by its tangent bundle."
 aliases = ["normal vector bundle", "normal bundle of an embedding"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/vector-subbundle", "fiber-bundles/tangent-bundle", "fiber-bundles/quotient-vector-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/vector-subbundle", "fiber-bundles/tangent-bundle", "fiber-bundles/quotient-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(i:S\hookrightarrow M\) be an [[differential-geometry/embedded-submanifold|embedded submanifold]]. The differential of \(i\) identifies \(TS\) with a [[fiber-bundles/vector-subbundle|vector subbundle]] of the restricted [[fiber-bundles/tangent-bundle|tangent bundle]] \(i^*TM=TM|_S\). The **normal bundle** of the embedding is the [[fiber-bundles/quotient-vector-bundle|quotient vector bundle]]

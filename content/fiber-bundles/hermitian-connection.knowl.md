@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A connection on a Hermitian vector bundle that preserves its fiberwise Hermitian inner product."
 aliases = ["unitary connection", "metric-compatible complex connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/hermitian-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "linear-algebra/inner-product"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/hermitian-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) carry a [[fiber-bundles/hermitian-metric|Hermitian metric]] \(h\), conjugate-linear in its first variable, and let \(\nabla\) be a [[fiber-bundles/connection-on-a-vector-bundle|connection on the complex vector bundle]]. The connection is a **Hermitian connection** if

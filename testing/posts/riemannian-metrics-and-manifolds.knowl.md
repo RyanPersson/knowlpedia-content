@@ -5,6 +5,9 @@ kind = "document"
 summary = "Dependency-first lecture notes on smooth manifolds, fiber bundles, Lie groups, and Riemannian geometry."
 aliases = ["Manifold lecture notes", "Riemannian Metrics and Manifolds lecture notes"]
 domains = ["differential-geometry", "fiber-bundles", "lie-groups"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 These lecture notes are adapted from the supplied LaTeX manuscript. Existing Knowlpedia concepts open inline; terms awaiting dedicated knowls remain bold.
@@ -91,7 +94,6 @@ The notes develop the following [[shared-foundations/relation|relations]].
 1. Every [[fiber-bundles/lie-group|Lie group]] has left-invariant [[differential-geometry/riemannian-manifold|Riemannian metrics]].
 1. The [[topology/isometry|isometry]] [[algebra-groups/group|group]] of a connected [[differential-geometry/riemannian-manifold|Riemannian manifold]] is a [[fiber-bundles/lie-group|Lie group]].
 
- \tableofcontents
 
 # Part: Foundations
 ## Sets, maps, and algebraic structures
@@ -5174,7 +5176,7 @@ R_q(X,Y):T_qM\to T_qM.
 
 Thus [[fiber-bundles/curvature|curvature]] is the infinitesimal generator of holonomy. A simply connected [[differential-geometry/riemannian-manifold|Riemannian manifold]] is flat exactly when its holonomy is trivial.
 
-Reductions of holonomy produce additional geometric structures. Examples include K\"ahler, Calabi--Yau, $G_2$, and $\mathrm{Spin}(7)$ structures.
+Reductions of holonomy produce additional geometric structures. Examples include Kähler, Calabi--Yau, $G_2$, and $\mathrm{Spin}(7)$ structures.
 
 ### Limits on the relation between manifolds and Lie groups
 
@@ -6098,14 +6100,13 @@ a_1dx^1+\cdots+a_ndx^n.
 
 ### Primary references
 
-\begin{thebibliography}{11}
 1. John M. Lee, *Introduction to Smooth Manifolds*, 2nd edition, Springer, 2013.
 
 1. John M. Lee, *Introduction to Riemannian Manifolds*, 2nd edition, Springer, 2018.
 
 1. Loring W. Tu, *An Introduction to Manifolds*, 2nd edition, Springer, 2011.
 
-1. Manfredo P. do Carmo, *Riemannian Geometry*, Birkh\"auser, 1992.
+1. Manfredo P. do Carmo, *Riemannian Geometry*, Birkhäuser, 1992.
 
 1. Peter Petersen, *Riemannian Geometry*, 3rd edition, Springer, 2016.
 
@@ -6139,7 +6140,7 @@ The next topics depend on the material in these notes:
 
 1. Morse theory and geodesic index theory.
 1. Comparison geometry and global [[fiber-bundles/curvature|curvature]] bounds.
-1. Symplectic and K\"ahler geometry.
+1. Symplectic and Kähler geometry.
 1. [[fiber-bundles/characteristic-class|Characteristic classes]] and Chern--Weil theory.
 1. [[fiber-bundles/spin-structure|Spin structures]] and [[noncommutative-geometry/dirac-operator|Dirac operators]].
 1. Geometric [[measure-theory/measure|measure]] theory and minimal submanifolds.

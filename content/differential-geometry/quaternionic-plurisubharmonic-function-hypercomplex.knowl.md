@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A function whose del-del-J form is a nonnegative real (2,0)-form on a hypercomplex manifold."
 aliases = ["hypercomplex plurisubharmonic function", "quaternionic PSH function on a hypercomplex manifold"]
 domains = ["differential-geometry", "quaternionic-analysis", "potential-theory"]
-prerequisites = ["differential-geometry/hypercomplex-manifold", "linear-algebra/hyperhermitian-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hypercomplex-manifold", "linear-algebra/hyperhermitian-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,I,J,K)\) be a

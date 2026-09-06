@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A right-handed neutrino transforming in the trivial representation of the Standard Model internal gauge group."
 aliases = ["right-handed neutrino", "sterile right-handed neutrino", "nu_R"]
 domains = ["mathematical-physics"]
-prerequisites = ["mathematical-physics/standard-model-gauge-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/standard-model-gauge-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **right-handed neutrino gauge singlet** is a right-handed Weyl fermion \(\nu_R\) carrying the trivial representation

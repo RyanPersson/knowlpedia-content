@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convolution-style product of two series."
 aliases = ["cauchy-product", "Cauchy product"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/cauchy-product.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Cauchy product** of two series \(\sum_{n=0}^\infty a_n\) and \(\sum_{n=0}^\infty b_n\) is the series \(\sum_{n=0}^\infty c_n\) where

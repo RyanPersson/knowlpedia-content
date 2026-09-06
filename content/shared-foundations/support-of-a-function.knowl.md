@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The closure of the set on which a function is nonzero."
 aliases = ["function support", "support of a scalar function"]
 domains = ["shared-foundations", "topology", "analysis"]
-prerequisites = ["shared-foundations/function", "topology/closure", "topology/topological-space"]
-dependency_review_count = 2
 section_mode = "progressive"
+prerequisites = ["shared-foundations/function", "topology/topological-space", "topology/closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:X\to\mathbb F\) be a function on a topological space, where

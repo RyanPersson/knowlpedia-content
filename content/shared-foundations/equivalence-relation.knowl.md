@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A relation that formalizes when two elements should be regarded as the same type."
 aliases = ["equivalence-relation", "Equivalence relation"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/relation"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/equivalence-relation.md"
+prerequisites = ["shared-foundations/relation"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 An **equivalence relation** on a set \(A\) is a [[shared-foundations/relation|relation]] \(\sim\,\subseteq A\times A\) satisfying the following three properties for all \(a,b,c\in A\):

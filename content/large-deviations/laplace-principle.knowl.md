@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A variational limit for exponential integrals that encodes large-deviation behavior."
 aliases = ["laplace-principle", "Laplace principle"]
 domains = ["large-deviations"]
-prerequisites = ["probability/probability-measure", "large-deviations/rate-function"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/laplace-principle.md"
+prerequisites = ["probability/probability-measure", "large-deviations/rate-function", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Laplace principle** for a sequence of [[probability/probability-measure|probability measures]] \((\mu_n)\) on a space \(X\), with speed \(a_n\to\infty\) and [[large-deviations/rate-function|rate function]] \(I\colon X\to[0,\infty]\), is the statement that for every bounded continuous function \(\varphi\colon X\to\mathbb{R}\),

@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "A residue formula representing the cyclic Chern character of suitable regular finitely summable spectral triples."
 aliases = ["Connes–Moscovici index formula", "Connes–Moscovici local index formula"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/dimension-spectrum", "convex-analysis/linear-combination"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/dimension-spectrum", "convex-analysis/linear-combination"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,H,D)\) be a finitely summable [[noncommutative-geometry/regular-spectral-triple|regular spectral triple]] with discrete [[noncommutative-geometry/dimension-spectrum|dimension spectrum]] and the meromorphic-continuation hypotheses of Connes and Moscovici. The **local index formula** states that the periodic cyclic Chern character of the bounded transform of \(D\) is represented by a finite \((b,B)\)-cocycle whose components are [[convex-analysis/linear-combination|linear combinations]] of residues at specified poles of

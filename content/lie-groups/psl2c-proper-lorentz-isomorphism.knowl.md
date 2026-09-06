@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Quotienting the SL(2,C) spin cover gives PSL(2,C)ℝ≅SO⁺(1,3) as real Lie groups."
 aliases = ["PSL2C isomorphism with SO+(1,3)", "projective spin-Lorentz isomorphism"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/sl2c-spin-cover-of-lorentz-group", "lie-groups/psl2-complex", "lie-groups/proper-orthochronous-lorentz-group", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The spin covering descends to an isomorphism

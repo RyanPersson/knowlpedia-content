@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A real ordered vector space with an Archimedean positive element that bounds every vector."
 aliases = ["Archimedean order-unit space", "AOU space"]
 domains = ["operator-algebras", "functional-analysis", "convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **Archimedean order-unit space** is a real [[linear-algebra/vector-space|vector space]] \(A\) with a

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A self-adjoint operator A is nonnegative if ⟨Ax,x⟩≥0 for all x"
 aliases = ["nonnegative-positive-semidefinite-operator", "Nonnegative (positive-semidefinite) operator"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/self-adjoint-linear-operator"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/nonnegative-positive-semidefinite-operator.md"
+prerequisites = ["linear-algebra/inner-product-space", "convex-analysis/linear-operator-linear-transformation", "convex-analysis/self-adjoint-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be an inner product space and let \(A:H\to H\) be a [[convex-analysis/self-adjoint-linear-operator|self-adjoint]] linear operator.

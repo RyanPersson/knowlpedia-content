@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ideal of scalars that kill the entire module."
 aliases = ["annihilator-module", "Annihilator of a module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "shared-foundations/intersection", "algebra-modules/annihilator-element", "algebra-rings/two-sided-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/annihilator-module.md"
+prerequisites = ["algebra-modules/module", "shared-foundations/intersection", "algebra-modules/annihilator-element", "algebra-rings/two-sided-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a left \(R\)-[[algebra-modules/module|module]]. The **annihilator** of \(M\) is

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The kernel description of Fell topology expresses closure of irreducible representations through containment of intersections of their kernels."
 aliases = ["primitive-ideal description of Fell topology", "hull-kernel convergence"]
 domains = ["harmonic-analysis", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group", "operator-algebras/full-group-cstar-algebra", "algebra-representation-theory/irreducible-representation", "harmonic-analysis/unitary-dual", "harmonic-analysis/fell-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "operator-algebras/full-group-cstar-algebra", "algebra-representation-theory/irreducible-representation", "harmonic-analysis/unitary-dual", "harmonic-analysis/fell-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]], let \(A=C^*(G)\) be its [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]], and identify its [[algebra-representation-theory/irreducible-representation|irreducible representations]] with the [[harmonic-analysis/unitary-dual|unitary dual]] \(\widehat G\). The [[harmonic-analysis/fell-topology|Fell topology]] has the following **kernel description**:

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A linear functional on a normed space is continuous iff one of its level sets is closed."
 aliases = ["continuity-of-linear-functionals-via-closed-level-sets", "Continuity of Linear Functionals via Closed Level Sets"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/closed-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/continuity-of-linear-functionals-via-closed-level-sets.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/closed-subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[convex-analysis/norm-normed-vector-space|normed space]], let \(f:X\to\mathbb{R}\) be a nonzero linear functional, and let \(\alpha\in\mathbb{R}\).

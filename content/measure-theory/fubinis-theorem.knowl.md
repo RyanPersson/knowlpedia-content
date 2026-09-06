@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Interchange of iterated integrals for absolutely integrable functions on a product measure space."
 aliases = ["fubinis-theorem", "Fubini's theorem"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/l1-function","measure-theory/product-measure","measure-theory/lebesgue-integral"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/fubinis-theorem.md"
+prerequisites = ["measure-theory/l1-function", "measure-theory/product-measure", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Fubini's theorem:** Let \((X,\Sigma,\mu)\) and \((Y,\mathcal T,\nu)\) be \(\sigma\)-finite measure spaces, and let \(f:X\times Y\to\mathbb R\) be \((\Sigma\otimes\mathcal T)\)-measurable. If

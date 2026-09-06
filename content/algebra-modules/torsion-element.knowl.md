@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element killed by a nonzero scalar in a module over an integral domain."
 aliases = ["torsion-element", "Torsion element"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/torsion-element.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module", "algebra-modules/annihilator-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]] and \(M\) a (left) \(R\)-[[algebra-modules/module|module]]. An element \(m\in M\) is a **torsion element** if there exists a nonzero \(r\in R\) such that \(rm=0\).

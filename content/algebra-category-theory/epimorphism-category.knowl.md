@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A morphism that is right-cancellative; the categorical analogue of a surjection."
 aliases = ["epimorphism-category", "Epimorphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/epimorphism-category.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and let \(f:A\to B\) be a [[algebra-category-theory/morphism|morphism]] in \(\mathcal C\).

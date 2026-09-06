@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map between Euclidean spaces is differentiable at a point when it has a first-order linear approximation there."
 aliases = ["differentiable-map", "Differentiable map"]
 domains = ["real-analysis"]
-prerequisites = ["linear-algebra/euclidean-norm", "real-analysis/frechet-derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiable-map.md"
+prerequisites = ["linear-algebra/euclidean-norm", "real-analysis/frechet-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq\mathbb R^n\) be open, let \(a\in U\), and let \(f:U\to\mathbb R^m\). The map \(f\) is **differentiable at \(a\)** if there is a linear map \(L:\mathbb R^n\to\mathbb R^m\) such that

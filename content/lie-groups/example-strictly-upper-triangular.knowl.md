@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Strictly upper triangular matrices form a nilpotent Lie algebra under commutator; commutators move entries further above the diagonal."
 aliases = ["example-strictly-upper-triangular", "Example: strictly upper triangular matrices"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/nilpotent-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/example-strictly-upper-triangular.md"
+prerequisites = ["lie-groups/nilpotent-lie-algebra", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak n_n\subset \mathfrak{gl}_n(\mathbb R)\) be the vector space of strictly upper triangular matrices (zeros on and below the diagonal), with Lie bracket the commutator \([A,B]=AB-BA\).

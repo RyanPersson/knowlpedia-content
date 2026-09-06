@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function obtained by limiting another function's domain to a subset."
 aliases = ["restriction-of-a-function", "Restriction of a function"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/restriction-of-a-function.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **restriction of a function** is a new function obtained by limiting the domain: if \(f:A\to B\) is a [[shared-foundations/function|function]] and \(S\subseteq A\), then the restriction \(f|_S:S\to B\) is defined by

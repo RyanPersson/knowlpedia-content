@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Solves an equation F(x,y)=0 locally for y as a function of x under a nondegeneracy condition."
 aliases = ["implicit-function-theorem", "Implicit function theorem"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/jacobian-matrix"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/implicit-function-theorem.md"
+prerequisites = ["topology/open-set", "real-analysis/jacobian-matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Implicit function theorem.** Let \(U\subseteq\mathbb R^{n+m}\) be [[topology/open-set|open]], and let \(F:U\to\mathbb R^m\) be continuously differentiable. Write points as \((x,y)\), where \(x\in\mathbb R^n\) and \(y\in\mathbb R^m\). Suppose \((a,b)\in U\), \(F(a,b)=0\), and the [[real-analysis/jacobian-matrix|partial Jacobian]] \(D_yF(a,b)\) is invertible. Then there are neighborhoods \(A\) of \(a\) and \(B\) of \(b\), with \(A\times B\subseteq U\), and a unique continuously differentiable map \(g:A\to B\) such that \(g(a)=b\) and

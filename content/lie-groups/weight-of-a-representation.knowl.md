@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A functional occurring as a simultaneous eigenvalue for the action of a Cartan subalgebra."
 aliases = ["weight-of-a-representation", "Weight of a representation"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/weight-of-a-representation.md"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/weight-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional complex semisimple Lie algebra (see [[lie-groups/semisimple-lie-algebra|semisimple Lie algebras]]) and let \(\mathfrak h\subset \mathfrak g\) be a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. For a representation \(\rho:\mathfrak g\to \mathfrak{gl}(V)\), a linear functional \(\lambda\in \mathfrak h^\ast\) is called a **weight** of \(V\) if the corresponding [[lie-groups/weight-space|weight space]]

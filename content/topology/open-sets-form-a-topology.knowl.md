@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The open subsets of a metric space satisfy the axioms of a topology."
 aliases = ["open-sets-form-a-topology", "Open sets form a topology"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/open-set", "topology/metric"]
-dependency_review_count = 1
 legacy_source_path = "topology/open-sets-form-a-topology.md"
+prerequisites = ["topology/metric-space", "topology/open-set", "topology/metric"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Open sets form a topology.** Let \((X,d)\) be a [[topology/metric-space|metric space]]. Then:

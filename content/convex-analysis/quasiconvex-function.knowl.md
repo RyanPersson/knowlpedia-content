@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function whose value on a line segment never exceeds the larger endpoint value."
 aliases = ["quasiconvex-function", "Quasiconvex function"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/quasiconvex-function.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real vector space and let \(f:X\to(-\infty,\infty]\) be an extended-real-valued function. The function \(f\) is **quasiconvex** if, for all \(x,y\in X\) and \(\lambda\in[0,1]\),

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The filtered Hopf algebra of finite-order functionals supported at the identity of a formal group."
 aliases = ["hyperalgebra of a formal group", "algebra of distributions at the identity", "Dist(G)"]
 domains = ["formal-groups", "lie-groups", "algebra-coalgebras"]
-prerequisites = ["formal-groups/formal-group", "formal-groups/formal-affine-space", "formal-groups/coordinate-hopf-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["formal-groups/formal-group", "formal-groups/formal-affine-space", "formal-groups/coordinate-hopf-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field and let \(G=\operatorname{Spf}(A)\) be a

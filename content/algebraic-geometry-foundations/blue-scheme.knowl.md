@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally blueprinted space covered by spectra of blueprints."
 aliases = ["blueprint scheme", "blue scheme over F1"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/locally-blueprinted-space", "topology/open-cover", "algebraic-geometry-foundations/affine-blue-scheme"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/locally-blueprinted-space", "topology/open-cover", "algebraic-geometry-foundations/affine-blue-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] \(X\) that admits an [[topology/open-cover|open cover]] by [[algebraic-geometry-foundations/affine-blue-scheme|affine blue schemes]]

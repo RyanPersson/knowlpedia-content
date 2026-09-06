@@ -5,9 +5,10 @@ kind = "definition"
 summary = "For a discrete-group action, the faithful conditional expectation that extracts the identity Fourier coefficient from the reduced crossed product."
 aliases = ["Fourier coefficient expectation", "crossed-product expectation"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/reduced-crossed-product", "operator-algebras/conditional-expectation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/reduced-crossed-product", "operator-algebras/conditional-expectation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a discrete group \(G\) act by automorphisms \(\alpha\) on a

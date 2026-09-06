@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Irreducible unitary representations of the real Heisenberg group with a fixed nontrivial central character are unitarily equivalent."
 aliases = ["uniqueness of the Schrödinger representation", "Heisenberg representation theorem"]
 domains = ["lie-groups", "harmonic-analysis", "functional-analysis"]
-prerequisites = ["lie-groups/heisenberg-group", "lie-groups/irreducible-unitary-representation", "lie-groups/strongly-continuous-unitary-representation", "algebra-representation-theory/irreducible-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/heisenberg-group", "lie-groups/irreducible-unitary-representation", "lie-groups/strongly-continuous-unitary-representation", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H_n\) be the real [[lie-groups/heisenberg-group|Heisenberg group]] with

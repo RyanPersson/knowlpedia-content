@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group acts on itself by conjugation g·x = gxg^{-1}"
 aliases = ["conjugation-action-self", "Conjugation action on itself"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/group-action", "algebra-groups/conjugation-action"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/conjugation-action-self.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/group-action", "algebra-groups/conjugation-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition (Conjugation action).**

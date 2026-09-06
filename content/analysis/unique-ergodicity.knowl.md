@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The property that a continuous dynamical system has exactly one invariant probability measure."
 aliases = ["uniquely ergodic system", "uniquely ergodic flow"]
 domains = ["analysis", "dynamical-systems", "ergodic-theory"]
-prerequisites = ["topology/continuous-map", "probability/probability-measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/continuous-map", "probability/probability-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[topology/continuous-map|continuous map]] \(T:X\to X\) of a compact space is **uniquely ergodic** if it

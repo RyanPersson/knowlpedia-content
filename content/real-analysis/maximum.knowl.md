@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The largest element of a set of real numbers, when it exists."
 aliases = ["maximum"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/maximum.md"
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **maximum** of a [[shared-foundations/subset|subset]] \(A\subseteq\mathbb R\) is an element \(m\in A\) such that \(x\le m\) for every \(x\in A\).

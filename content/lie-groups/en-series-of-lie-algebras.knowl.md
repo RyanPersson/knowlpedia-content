@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The extended E_n convention linking the exceptional types E6, E7, E8 to D5, A4, and A2+A1 by successive Dynkin-node deletion."
 aliases = ["en-series-of-lie-algebras", "E_n series", "En series", "extended E-series"]
 domains = ["lie-groups"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/semisimple-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **\(E_n\) series of complex Lie algebras**, in the convention relevant here, is the sequence

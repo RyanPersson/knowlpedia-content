@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally superringed space locally isomorphic to a finite-dimensional smooth real superdomain."
 aliases = ["smooth supermanifold", "Berezin-Leites supermanifold", "Kostant supermanifold"]
 domains = ["supergeometry", "differential-geometry"]
-prerequisites = ["supergeometry/superspace", "supergeometry/superdomain", "algebra-rings/nilpotent-element"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/superspace", "supergeometry/superdomain", "algebra-rings/nilpotent-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **smooth real supermanifold of dimension \(p|q\)** is a

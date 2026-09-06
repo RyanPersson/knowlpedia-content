@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a tower K⊆E⊆L of finite field extensions, trace and norm are transitive."
 aliases = ["trace-norm-towers", "Trace and norm in towers"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/trace-field", "algebra-fields-galois/norm-field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/trace-norm-towers.md"
+prerequisites = ["algebra-fields-galois/tower-of-fields", "algebra-fields-galois/trace-field", "algebra-fields-galois/norm-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\subseteq E\subseteq L\) be a [[algebra-fields-galois/tower-of-fields|tower of fields]] of finite extensions. For \(x\in L\), write

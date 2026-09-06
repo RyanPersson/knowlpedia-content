@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The compatibility identities on double and triple overlaps needed to glue a fiber bundle."
 aliases = ["cocycle-condition-for-transition-functions", "Cocycle condition for transition functions"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/bundle-atlas", "fiber-bundles/typical-fiber", "fiber-bundles/transition-function", "fiber-bundles/smooth-fiber-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/cocycle-condition-for-transition-functions.md"
+prerequisites = ["fiber-bundles/bundle-atlas", "fiber-bundles/typical-fiber", "fiber-bundles/transition-function", "fiber-bundles/smooth-fiber-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\{(U_i,\Phi_i)\}\) be a [[fiber-bundles/bundle-atlas|bundle atlas]] for a smooth fiber bundle with [[fiber-bundles/typical-fiber|typical fiber]] \(F\), and let \(t_{ij}:U_{ij}\to \mathrm{Diff}(F)\) be the associated [[fiber-bundles/transition-function|transition functions]]. They satisfy the following identities:

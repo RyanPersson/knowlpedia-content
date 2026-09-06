@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A pointed tuple of power series intertwining two formal group laws, with isomorphisms and strict isomorphisms distinguished by their linear terms."
 aliases = ["formal group law homomorphism", "homomorphism of formal group laws", "strict isomorphism of formal group laws", "coordinate change of formal group laws"]
 domains = ["formal-groups"]
-prerequisites = ["formal-groups/formal-group-law", "algebra-rings/substitution-of-formal-power-series", "algebra-category-theory/identity-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["formal-groups/formal-group-law", "algebra-rings/substitution-of-formal-power-series", "algebra-category-theory/identity-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be an \(n\)-dimensional

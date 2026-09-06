@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set contained in another set, element by element."
 aliases = ["subset"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/subset.md"
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **subset** of a set \(B\) is a set \(A\) such that every element of \(A\) is an element of \(B\):

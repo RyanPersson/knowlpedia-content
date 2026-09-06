@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every finite division ring is commutative, hence a field."
 aliases = ["wedderburns-little-theorem", "Wedderburn's little theorem"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/division-ring", "algebra-rings/field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/wedderburns-little-theorem.md"
+prerequisites = ["algebra-rings/division-ring", "algebra-rings/field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Wedderburn's little theorem**: Every finite [[algebra-rings/division-ring|division ring]] is commutative. Equivalently, every finite division ring is a [[algebra-rings/field|field]].

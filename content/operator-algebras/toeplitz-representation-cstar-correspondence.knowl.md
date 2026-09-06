@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compatible pair representing a C*-correspondence and its coefficient algebra inside another C*-algebra."
 aliases = ["covariant representation of a correspondence", "Toeplitz pair"]
 domains = ["operator-algebras", "algebra-representation-theory"]
-prerequisites = ["operator-algebras/cstar-correspondence", "linear-algebra/linear-map", "operator-algebras/star-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-correspondence", "linear-algebra/linear-map", "operator-algebras/star-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[operator-algebras/cstar-correspondence|\(C^*\)-correspondence]]

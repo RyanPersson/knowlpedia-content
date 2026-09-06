@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The function whose increments weight the sums in a Riemann–Stieltjes integral."
 aliases = ["integrator-function", "Integrator function"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/integrator-function.md"
+prerequisites = ["real-analysis/monotone-function", "real-analysis/bounded-variation-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **integrator function** on \([a,b]\) is a function \(\alpha:[a,b]\to\mathbb R\) used to weight increments in the definition of the [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes integral]]: the associated sums use the differences \(\alpha(x_i)-\alpha(x_{i-1})\) along partitions.

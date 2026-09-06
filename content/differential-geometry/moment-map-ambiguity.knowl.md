@@ -5,9 +5,10 @@ kind = "proposition"
 summary = "Two moment maps for the same action differ by a locally constant dual-Lie-algebra-valued function, constrained by equivariance."
 aliases = ["moment-map normalization"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "topology/connected-component", "differential-geometry/equivariant-moment-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "topology/connected-component", "differential-geometry/equivariant-moment-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[fiber-bundles/lie-group|Lie group]] \(G\) act symplectically on \(M\), and let \(\mu,\nu:M\to\mathfrak g^*\) be [[fiber-bundles/moment-map|moment maps]] for the same action and sign convention. Their difference \(\delta=\nu-\mu\) is locally constant: on each [[topology/connected-component|connected component]] \(C\subseteq M\), there is a covector \(c_C\in\mathfrak g^*\) with \(\delta|_C=c_C\). If both maps are [[differential-geometry/equivariant-moment-map|equivariant]], then

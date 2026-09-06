@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "How a principal connection induces a covariant derivative on sections of an associated vector bundle."
 aliases = ["construction-induced-covariant-derivative-on-associated-vector-bundle-sections", "Induced covariant derivative on sections of an associated vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/associated-vector-bundle", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/horizontal-subbundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/associated-vector-bundle", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/horizontal-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\rho:G\to \mathrm{GL}(V)\) be a [[lie-groups/representation-of-a-lie-group|representation of a Lie group]] on a vector space \(V\).

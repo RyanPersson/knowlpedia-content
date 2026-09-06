@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The quotient of a product P × F by the diagonal action of the structure group, yielding the associated bundle."
 aliases = ["bundle-of-orbits", "Bundle of orbits"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/right-principal-action", "fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-of-orbits.md"
+prerequisites = ["fiber-bundles/right-principal-action", "fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/associated-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal bundle with [[fiber-bundles/right-principal-action|right principal action]] of the [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(F\) be a smooth left \(G\)-space.

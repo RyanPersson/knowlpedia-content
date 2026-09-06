@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The integer measuring how a closed contour winds around a point."
 aliases = ["index of a curve", "contour index"]
 domains = ["complex-analysis", "topology"]
-prerequisites = ["topology/connected-component"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/connected-component", "complex-analysis/complex-contour-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\gamma\) be a closed piecewise \(C^1\) contour in \(\mathbb C\), and let \(a\notin\gamma\). Its **winding number** or **index about \(a\)** is

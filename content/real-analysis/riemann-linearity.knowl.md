@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Linearity of the Riemann integral with respect to addition and scalar multiplication."
 aliases = ["riemann-linearity", "Riemann linearity"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/riemann-integral"]
-dependency_review_count = 4
 legacy_source_path = "real-analysis/riemann-linearity.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/riemann-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Riemann linearity:** Let \(f,g:[a,b]\to\mathbb R\) be [[real-analysis/riemann-integrable-function|Riemann integrable]] on the [[real-analysis/interval|interval]] \([a,b]\), and let \(\alpha,\beta\in\mathbb R\). Then \(\alpha f+\beta g\) is Riemann integrable on \([a,b]\), and

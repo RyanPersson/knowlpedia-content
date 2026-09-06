@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A smooth admissible Fréchet representation of a real reductive group whose action has moderate growth."
 aliases = ["smooth admissible Fréchet representation", "SAF representation"]
 domains = ["lie-groups", "representation-theory", "functional-analysis"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "functional-analysis/frechet-space", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "convex-analysis/seminorm"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "functional-analysis/frechet-space", "lie-groups/k-finite-vector", "lie-groups/harish-chandra-module", "convex-analysis/seminorm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]] and \(K\) a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]]. A **Casselman–Wallach representation** is a continuous representation \((\pi,E)\) on a complex [[functional-analysis/frechet-space|Fréchet space]] such that the action is smooth, its [[lie-groups/k-finite-vector|\(K\)-finite part]] \(E_K\) is a [[lie-groups/harish-chandra-module|Harish–Chandra module]], and the action has moderate growth. The latter means that, for every continuous [[convex-analysis/seminorm|seminorm]] \(p\) on \(E\), there are a continuous seminorm \(q\) and \(N\geq0\) with

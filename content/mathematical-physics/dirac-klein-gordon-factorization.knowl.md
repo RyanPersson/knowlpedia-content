@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The free Minkowski Dirac factors multiply to the scalar Klein–Gordon operator up to sign."
 aliases = ["Dirac factorization of the Klein-Gordon operator", "squared Dirac equation", "Dirac square factorization"]
 domains = ["mathematical-physics", "partial-differential-equations"]
-prerequisites = ["mathematical-physics/minkowski-dirac-operator", "mathematical-physics/dirac-equation", "mathematical-physics/klein-gordon-equation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/minkowski-dirac-operator", "mathematical-physics/dirac-equation", "mathematical-physics/klein-gordon-equation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D_{\mathrm M}=\gamma^\mu\partial_\mu\) be the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]] with

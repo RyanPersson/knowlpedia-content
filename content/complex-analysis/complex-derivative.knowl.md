@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The derivative defined by a complex difference quotient independent of direction."
 aliases = ["complex differentiability", "complex-differentiable"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["shared-foundations/function", "shared-foundations/complex-numbers-c"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq\mathbb C\) be open, \(f:U\to\mathbb C\), and \(z_0\in U\). The **complex derivative** of \(f\) at \(z_0\) is the limit

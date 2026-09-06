@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A positive-definite product on a vector space that defines lengths and angles."
 aliases = ["inner-product", "Inner product"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/inner-product.md"
+prerequisites = ["linear-algebra/vector-space", "shared-foundations/complex-conjugate"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 An **inner product** on a [[linear-algebra/vector-space|vector space]] \(V\) over \(\mathbb{F}=\mathbb{R}\) or \(\mathbb{C}\) is a map

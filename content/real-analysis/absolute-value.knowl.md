@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The standard absolute value function on the real numbers."
 aliases = ["absolute-value", "Absolute value"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/absolute-value.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 The **absolute value** on \(\mathbb R\) is the function \(|\cdot|:\mathbb R\to[0,\infty)\) defined by

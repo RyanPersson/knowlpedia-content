@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nondiscrete locally compact topological field."
 aliases = ["local fields", "locally compact nondiscrete field"]
 domains = ["algebra-fields-galois", "topology", "langlands"]
-prerequisites = ["topology/locally-compact-space", "algebra-fields-galois/nonarchimedean-local-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **local field** is a nondiscrete Hausdorff topological field whose underlying

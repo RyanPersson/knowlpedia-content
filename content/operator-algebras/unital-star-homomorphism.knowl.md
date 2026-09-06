@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A star-homomorphism between unital C-star algebras that preserves the multiplicative identity."
 aliases = ["unit-preserving *-homomorphism", "unital C*-homomorphism"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/star-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/star-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be

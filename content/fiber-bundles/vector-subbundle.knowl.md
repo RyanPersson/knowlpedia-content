@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smoothly varying family of linear subspaces inside the fibers of a vector bundle."
 aliases = ["smooth vector subbundle", "subbundle of a vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "convex-analysis/linear-subspace", "fiber-bundles/local-trivialization", "fiber-bundles/smooth-embedding"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "convex-analysis/linear-subspace", "fiber-bundles/local-trivialization", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]]. A **vector subbundle of rank \(k\)** is a subset \(F\subseteq E\) such that \(F_x=F\cap E_x\) is a \(k\)-dimensional [[convex-analysis/linear-subspace|linear subspace]] of every fiber and, near each \(x\in M\), there is a [[fiber-bundles/local-trivialization|vector-bundle trivialization]]

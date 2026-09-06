@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "For a von Neumann algebra and its commutant, cyclicity for either algebra is equivalent to separation for the other."
 aliases = ["commutant cyclic-separating theorem"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "operator-algebras/commutant"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "linear-algebra/hilbert-space", "operator-algebras/commutant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\subseteq B(H)\) be a

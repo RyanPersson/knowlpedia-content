@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An almost-quaternionic manifold with a Riemannian metric invariant under every admissible local complex structure."
 aliases = ["almost quaternion-Hermitian manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-quaternionic-manifold", "differential-geometry/riemannian-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/almost-quaternionic-manifold", "differential-geometry/riemannian-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **quaternionic-Hermitian manifold** is an [[differential-geometry/almost-quaternionic-manifold|almost-quaternionic manifold]] \((M,Q)\) of real dimension \(4n\) together with a [[differential-geometry/riemannian-manifold|Riemannian metric]] \(g\) such that

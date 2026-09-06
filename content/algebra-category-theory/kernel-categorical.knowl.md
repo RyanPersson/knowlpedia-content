@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a pointed category, the kernel of f:A→B is the equalizer of f and the zero morphism A→B."
 aliases = ["kernel-categorical", "Kernel (categorical)"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/zero-object", "algebra-category-theory/equalizer"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/kernel-categorical.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/zero-object", "algebra-category-theory/additive-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Throughout, assume \(\mathcal C\) is a [[algebra-category-theory/category|category]] with a zero object (e.g. any [[algebra-category-theory/additive-category|additive category]]), so that for any objects \(A,B\) there is a distinguished **zero morphism** \(0_{A,B}:A\to B\).

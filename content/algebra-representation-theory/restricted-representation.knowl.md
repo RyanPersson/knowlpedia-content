@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Given a representation of a group and a subgroup, the restriction is the same action viewed only on the subgroup."
 aliases = ["restricted-representation", "Restricted representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/restricted-representation.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/group-algebra", "algebra-representation-theory/subrepresentation", "algebra-representation-theory/character"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a group, \(H\le G\) a subgroup, and let \((V,\rho)\) be a (finite-dimensional) [[algebra-representation-theory/group-representation|representation]] of \(G\) over a field \(k\), i.e. a homomorphism

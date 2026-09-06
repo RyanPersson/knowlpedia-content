@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For any nonzero z0, there is a bounded functional f with ||f||=1 and f(z0)=||z0||."
 aliases = ["existence-of-a-functional-attaining-its-norm-at-a-point", "Existence of a Norming Functional"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/bounded-linear-functional-norm-of-a-functional", "convex-analysis/separation-of-a-point-and-a-subspace"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/existence-of-a-functional-attaining-its-norm-at-a-point.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/bounded-linear-functional-norm-of-a-functional", "convex-analysis/separation-of-a-point-and-a-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed space]] and let \(z_0\in X\setminus\{0\}\).

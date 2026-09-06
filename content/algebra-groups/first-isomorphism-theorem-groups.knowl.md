@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group homomorphism induces an isomorphism from the quotient by its kernel to its image."
 aliases = ["first-isomorphism-theorem-groups", "First Isomorphism Theorem (Groups)"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/group-isomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/first-isomorphism-theorem-groups.md"
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/group-isomorphism", "algebra-groups/quotient-group", "algebra-groups/image-group"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:G\to H\) be a [[algebra-groups/group-homomorphism|group homomorphism]]. Its [[algebra-groups/kernel-group|kernel]] \(K=\ker(f)\) is a [[algebra-groups/normal-subgroup|normal subgroup]] of \(G\), and \(f\) induces a [[algebra-groups/group-isomorphism|group isomorphism]]

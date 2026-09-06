@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For continuous functions on a rectangle, iterated integrals exist and agree with the double Riemann integral."
 aliases = ["fubini-theorem-riemann", "Fubini theorem for Riemann integrals"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/multiple-riemann-integral", "real-analysis/iterated-integral"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/fubini-theorem-riemann.md"
+prerequisites = ["real-analysis/multiple-riemann-integral", "real-analysis/iterated-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(a<b\), \(c<d\), and let \(f:[a,b]\times[c,d]\to\mathbb R\) be continuous. Then \(f\) is [[real-analysis/multiple-riemann-integral|Riemann integrable]], both [[real-analysis/iterated-integral|iterated integrals]] exist, and

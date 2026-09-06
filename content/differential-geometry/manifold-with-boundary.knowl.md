@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth manifold with boundary is locally modeled on open subsets of a closed Euclidean half-space."
 aliases = ["manifold with boundary"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-atlas", "fiber-bundles/smooth-chart", "topology/topological-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-atlas", "fiber-bundles/smooth-chart", "topology/topological-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An \(n\)-dimensional **smooth manifold with boundary** is a Hausdorff, second-countable space \(M\) equipped with a maximal [[fiber-bundles/smooth-atlas|smooth atlas]] of [[fiber-bundles/smooth-chart|charts]] onto relatively open subsets of

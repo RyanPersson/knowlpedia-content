@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The periodic cyclic-cohomology class represented by trace cocycles constructed from a summable Fredholm module."
 aliases = ["Connes-Chern character", "cyclic Chern character"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/p-summable-fredholm-module", "noncommutative-geometry/periodic-cyclic-cohomology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/p-summable-fredholm-module", "noncommutative-geometry/periodic-cyclic-cohomology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((H,\pi,F)\) be a

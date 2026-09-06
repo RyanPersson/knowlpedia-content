@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A covering by coordinate charts whose overlap transition maps are smooth."
 aliases = ["smooth-atlas", "Smooth atlas"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-compatibility-of-charts-and-atlases"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-atlas.md"
+prerequisites = ["fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/coordinate-transition-map"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional topological manifold. A **smooth atlas** on \(M\) is a collection of [[fiber-bundles/smooth-chart-coordinate-chart|charts]] \(\mathcal A=\{(U_\alpha,\varphi_\alpha)\}_{\alpha\in I}\) such that

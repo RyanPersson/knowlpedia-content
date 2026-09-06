@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An abelian group with a translation-invariant total order."
 aliases = ["totally ordered abelian group", "ordered commutative group"]
 domains = ["algebra-groups", "order-theory"]
-prerequisites = ["algebra-groups/abelian-group", "shared-foundations/total-order"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group", "shared-foundations/total-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **ordered abelian group** is an [[algebra-groups/abelian-group|abelian group]] \((\Gamma,+,0)\) equipped with a [[shared-foundations/total-order|total order]] \(\leq\) that is translation-invariant:

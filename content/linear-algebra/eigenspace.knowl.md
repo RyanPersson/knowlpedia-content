@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Set of vectors sent to scalar multiples of themselves for a fixed eigenvalue."
 aliases = ["eigenspace"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-operator"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/eigenspace.md"
+prerequisites = ["linear-algebra/linear-operator"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 An **eigenspace** of a [[linear-algebra/linear-operator|linear operator]] \(T:V\to V\) associated to a scalar \(\lambda\in\mathbb{F}\) is the set

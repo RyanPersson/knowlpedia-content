@@ -6,6 +6,9 @@ summary = "Group theory through Sylow theorems and structure"
 aliases = ["algebra-groups", "Algebra: Groups"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This section contains definitions, theorems, lemmas, propositions, and corollaries from group theory.

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A cohomology class on a classifying space whose pullbacks assign a natural characteristic class to every principal bundle."
 aliases = ["characteristic class on BG", "universal cohomological characteristic class"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["topology/topological-group", "fiber-bundles/classifying-space-bg", "fiber-bundles/classifying-map-of-a-principal-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/topological-group", "fiber-bundles/classifying-space-bg", "fiber-bundles/classifying-map-of-a-principal-bundle", "topology/singular-cohomology-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/topological-group|topological group]], let \(R\) be a coefficient ring, and choose a [[fiber-bundles/classifying-space-bg|classifying space]] \(BG\). A **universal characteristic class of degree \(n\)** is a class

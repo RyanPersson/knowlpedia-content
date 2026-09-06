@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The algebra-valued inner product of a Hilbert C-star-module satisfies a norm-valued Cauchy–Schwarz bound."
 aliases = ["Hilbert-module Cauchy-Schwarz inequality"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/hilbert-cstar-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/hilbert-cstar-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a right

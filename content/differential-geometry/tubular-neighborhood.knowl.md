@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A neighborhood of an embedded submanifold modeled by a neighborhood of the zero section in its normal bundle."
 aliases = ["tubular neighborhood embedding", "normal neighborhood"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["differential-geometry/embedded-submanifold", "differential-geometry/normal-bundle", "fiber-bundles/zero-section", "fiber-bundles/smooth-embedding", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/embedded-submanifold", "differential-geometry/normal-bundle", "fiber-bundles/zero-section", "fiber-bundles/smooth-embedding", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(i:S\hookrightarrow M\) be an [[differential-geometry/embedded-submanifold|embedded submanifold]] with [[differential-geometry/normal-bundle|normal bundle]] \(\nu\to S\). A **tubular neighborhood** of \(S\) in \(M\) consists of an open neighborhood \(U\subseteq\nu\) of the [[fiber-bundles/zero-section|zero section]] and a [[fiber-bundles/smooth-embedding|smooth embedding]] \(\Phi:U\to M\) such that \(\Phi(0_p)=i(p)\) for every \(p\in S\), and \(\Phi(U)\) is open in \(M\). Hence \(\Phi\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]] from \(U\) onto an open neighborhood of \(S\). Its differential in each normal fiber must induce the canonical normal direction modulo \(T_pS\).

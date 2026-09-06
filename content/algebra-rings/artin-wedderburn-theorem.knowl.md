@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Semisimple Artinian rings are exactly finite products of matrix rings over division rings."
 aliases = ["artin-wedderburn-theorem", "Artin–Wedderburn theorem"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/artinian-semisimple-ring", "algebra-rings/division-ring", "algebra-rings/matrix-ring", "algebra-rings/simple-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/artin-wedderburn-theorem.md"
+prerequisites = ["algebra-rings/artinian-semisimple-ring", "algebra-rings/division-ring", "algebra-rings/matrix-ring", "algebra-rings/simple-ring", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Artin–Wedderburn theorem**: A ring \(R\) is [[algebra-rings/artinian-semisimple-ring|semisimple Artinian]] if and only if there exist positive integers \(n_1,\dots,n_t\) and [[algebra-rings/division-ring|division rings]] \(D_1,\dots,D_t\) such that

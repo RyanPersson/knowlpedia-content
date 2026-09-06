@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Norm from integrating the pth power of absolute value, or essential supremum when p is infinity."
 aliases = ["lp-norm", "L^p norm"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/measurable-function","measure-theory/lebesgue-integral-nonnegative","real-analysis/absolute-value","measure-theory/essential-supremum"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/lp-norm.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "real-analysis/absolute-value", "measure-theory/essential-supremum", "measure-theory/ae-equality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **\(L^p\) norm** on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) (for \(1\le p<\infty\)) assigns to a [[measure-theory/measurable-function|measurable function]] \(f:X\to\mathbb{R}\) the value

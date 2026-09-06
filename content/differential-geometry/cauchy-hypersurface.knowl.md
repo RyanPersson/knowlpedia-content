@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A subset of a spacetime met exactly once by every inextendible timelike curve."
 aliases = ["Cauchy surface"]
 domains = ["differential-geometry", "mathematical-physics", "partial-differential-equations"]
-prerequisites = ["differential-geometry/lorentzian-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/globally-hyperbolic-spacetime"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]]. A **Cauchy hypersurface** is a subset \(\Sigma\subset M\) that every inextendible timelike curve meets exactly once.

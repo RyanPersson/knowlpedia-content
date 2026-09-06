@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Powers of a Kähler class give isomorphisms between complementary cohomological degrees on a compact Kähler manifold."
 aliases = ["Lefschetz isomorphism theorem"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["differential-geometry/kahler-manifold", "topology/cup-product-and-cohomology-ring", "differential-geometry/kahler-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "topology/cup-product-and-cohomology-ring", "differential-geometry/kahler-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a compact [[differential-geometry/kahler-manifold|Kähler manifold]] of complex dimension \(n\), and let \(L\) denote [[topology/cup-product-and-cohomology-ring|cup product]] with its [[differential-geometry/kahler-class|Kähler class]] \([\omega]\). The **Hard Lefschetz theorem** states that for every \(0\leq k\leq n\),

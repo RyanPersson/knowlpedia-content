@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A left, right, or two-sided additive subgroup stable under the corresponding multiplication by ring elements."
 aliases = ["ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/ideal.md"
+prerequisites = ["algebra-rings/ring", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and \(I\le (R,+)\) an additive subgroup. Then \(I\) is a **left ideal** if \(rI\subseteq I\) for every \(r\in R\), a **right ideal** if \(Ir\subseteq I\) for every \(r\in R\), and a **two-sided ideal** if both conditions hold.

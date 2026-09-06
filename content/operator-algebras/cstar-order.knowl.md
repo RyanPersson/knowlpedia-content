@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The partial order whose nonnegative elements are the positive elements of a C-star algebra."
 aliases = ["C*-algebra order"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone", "shared-foundations/partial-order"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone", "shared-foundations/partial-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]], and write

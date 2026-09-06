@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An affiliated closed operator whose domain is arbitrarily close to full in the measure determined by a semifinite trace."
 aliases = ["τ-measurable operator", "trace-measurable operator"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/faithful-normal-semifinite-trace", "operator-algebras/affiliated-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/faithful-normal-semifinite-trace", "operator-algebras/affiliated-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\subseteq B(H)\) carry a

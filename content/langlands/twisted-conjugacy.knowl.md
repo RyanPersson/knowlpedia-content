@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Conjugacy modified by an automorphism, including Frobenius and sigma-conjugacy as basic cases."
 aliases = ["theta-conjugacy", "twisted conjugacy class", "sigma-conjugacy"]
 domains = ["langlands", "algebra-groups"]
-prerequisites = ["algebra-groups/automorphism-group", "fiber-bundles/orbit-map", "algebra-groups/stabilizer"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/automorphism-group", "fiber-bundles/orbit-map", "algebra-groups/stabilizer"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a group and let \(\theta\) be an

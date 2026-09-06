@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every finite-dimensional symplectic vector space has even dimension and a basis in standard symplectic form."
 aliases = ["linear Darboux theorem", "symplectic Gram–Schmidt theorem"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/symplectic-basis", "linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a finite-dimensional real [[differential-geometry/symplectic-vector-space|symplectic vector space]]. The **symplectic basis theorem** states that \(\dim V=2n\) for some \(n\) and that \(V\) has a [[differential-geometry/symplectic-basis|symplectic basis]]

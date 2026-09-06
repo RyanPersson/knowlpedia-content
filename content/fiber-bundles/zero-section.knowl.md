@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The canonical smooth section assigning the zero vector to every fiber of a vector bundle."
 aliases = ["canonical zero section", "zero section of a vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/smooth-embedding"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]]. Its **zero section** is the map

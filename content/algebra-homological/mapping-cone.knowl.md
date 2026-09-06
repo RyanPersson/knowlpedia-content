@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A complex combining the source and target of a chain map and measuring its failure to be an equivalence."
 aliases = ["mapping cone", "cone of a chain map"]
 domains = ["algebra-homological", "algebra-category-theory"]
-prerequisites = ["algebra-homological/chain-map"]
+prerequisites = ["algebra-homological/chain-map", "algebra-homological/cochain-complex"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The classification of irreducible unitary representations of a connected simply connected nilpotent Lie group by its coadjoint orbits."
 aliases = ["orbit-method theorem for nilpotent groups", "Kirillov homeomorphism"]
 domains = ["lie-groups", "representation-theory", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/orbit-method-induced-representation", "differential-geometry/coadjoint-orbit", "harmonic-analysis/unitary-dual", "topology/quotient-topology", "lie-groups/strongly-continuous-unitary-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/orbit-method-induced-representation", "differential-geometry/coadjoint-orbit", "harmonic-analysis/unitary-dual", "topology/quotient-topology", "lie-groups/strongly-continuous-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected, simply connected nilpotent [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). For \(\ell\in\mathfrak g^*\), choose a polarization and form the [[lie-groups/orbit-method-induced-representation|orbit-method induced representation]] \(\pi_\ell\). The **Kirillov correspondence** asserts that

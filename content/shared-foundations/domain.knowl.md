@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of allowed inputs of a function"
 aliases = ["domain"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/domain.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **domain** is the set of inputs of a function: if \(f:A\to B\) is a [[shared-foundations/function|function]], then its domain is the set \(A\).

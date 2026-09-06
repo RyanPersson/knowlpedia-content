@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subadditive, absolutely homogeneous function p(λx)=|λ|p(x)."
 aliases = ["seminorm"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/norm-normed-vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/seminorm.md"
+prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] over \(\mathbb{R}\) or \(\mathbb{C}\). A function \(p:X\to\mathbb{R}\) is called a **seminorm** if:

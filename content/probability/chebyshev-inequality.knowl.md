@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Upper bound on deviation probability using variance."
 aliases = ["chebyshev-inequality", "Chebyshev's inequality"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable", "probability/expectation", "probability/variance"]
-dependency_review_count = 1
 legacy_source_path = "probability/chebyshev-inequality.md"
+prerequisites = ["probability/random-variable", "probability/expectation", "probability/variance"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Chebyshev's inequality:** Let \(X\) be a [[probability/random-variable|random variable]] with [[probability/expectation|expectation]] \(\mu=\mathbb{E}[X]\) and finite [[probability/variance|variance]] \(\sigma^2=\mathrm{Var}(X)\). Then for every \(t>0\),

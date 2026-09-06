@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A symplectic Lie group action equipped with a compatible equivariant moment map."
 aliases = ["Hamiltonian action"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-lie-group-action", "fiber-bundles/moment-map", "algebra-groups/group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-lie-group-action", "fiber-bundles/moment-map", "algebra-groups/group-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting by a [[differential-geometry/symplectic-lie-group-action|symplectic Lie group action]] on \((M,\omega)\). With the convention \(\iota_{X_f}\omega=df\), the action is **Hamiltonian** if it admits a [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\) such that

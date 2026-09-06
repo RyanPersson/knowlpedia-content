@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "How supremum and infimum interact with basic set operations such as translation and scaling."
 aliases = ["sup-inf-algebra", "Supremum and Infimum Algebra"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/sup-inf-algebra.md"
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Supremum/infimum algebra:** Let \(A,B \subseteq \mathbb{R}\) be nonempty [[shared-foundations/subset|subsets]]. Define

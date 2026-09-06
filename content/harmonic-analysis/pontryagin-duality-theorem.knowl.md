@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Every locally compact abelian group is canonically isomorphic as a topological group to the Pontryagin dual of its dual."
 aliases = ["double-dual theorem for LCA groups", "Pontryagin-van Kampen duality"]
 domains = ["harmonic-analysis", "topology", "algebra-groups"]
-prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/pontryagin-dual", "algebra-groups/group-isomorphism", "topology/homeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/pontryagin-dual", "algebra-groups/group-isomorphism", "topology/homeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]] that is [[algebra-groups/abelian-group|abelian]], and let \(\widehat G\) be its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]], both duals carrying the compact-open topology. The **Pontryagin duality theorem** states that the evaluation homomorphism

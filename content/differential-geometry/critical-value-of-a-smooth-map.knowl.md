@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A target point whose fiber contains a critical point of the smooth map."
 aliases = ["singular value of a smooth map", "critical value on a manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "differential-geometry/critical-point-of-a-smooth-map", "fiber-bundles/regular-value"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "differential-geometry/critical-point-of-a-smooth-map", "fiber-bundles/regular-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]]. A point \(y\in N\) is a **critical value of \(f\)** if there exists \(p\in f^{-1}(y)\) that is a [[differential-geometry/critical-point-of-a-smooth-map|critical point of \(f\)]]. Equivalently, \(y\) is critical when at least one differential

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The connected component containing the identity; it is an open normal Lie subgroup with discrete quotient."
 aliases = ["identity component", "neutral component", "connected component of the identity", "G zero"]
 domains = ["lie-groups", "topology"]
-prerequisites = ["fiber-bundles/lie-group", "topology/connected-component", "lie-groups/normal-lie-subgroup"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "topology/connected-component", "lie-groups/normal-lie-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with identity \(e\). The

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Inside the radius of convergence, a power series can be differentiated by differentiating each term."
 aliases = ["term-by-term-differentiation", "Term-by-term differentiation for power series"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/power-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/term-by-term-differentiation.md"
+prerequisites = ["real-analysis/power-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Term-by-term differentiation for power series:** Let \(\sum_{n=0}^\infty a_n (x-x_0)^n\) be a [[real-analysis/power-series|power series]] with radius of convergence \(R>0\), and define

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subgroup that is discrete in the manifold topology; its Lie algebra is zero."
 aliases = ["discrete-subgroup", "Discrete subgroup"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/discrete-subgroup.md"
+prerequisites = ["fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]].

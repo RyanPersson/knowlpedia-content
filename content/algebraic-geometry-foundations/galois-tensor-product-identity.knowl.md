@@ -5,7 +5,8 @@ kind = "theorem"
 summary = "For a finite Galois extension, the self-tensor product splits into one copy for each automorphism."
 aliases = ["Galois tensor-product identity", "Galois tensor identity", "K tensor K decomposition"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-fields-galois/galois-extension", "algebraic-geometry-foundations/torsor-condition"]
+prerequisites = ["algebra-fields-galois/galois-extension", "algebra-modules/tensor-product"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

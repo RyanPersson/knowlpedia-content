@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Extension of a holomorphic function through overlapping domains, uniquely controlled by the identity theorem."
 aliases = ["holomorphic continuation"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/complex-domain", "topology/connected-component", "complex-analysis/identity-theorem"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain", "topology/connected-component", "complex-analysis/identity-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\) and \(V\) be [[complex-analysis/complex-domain|complex domains]], and let \(C\) be a [[topology/connected-component|connected component]] of \(U\cap V\). A holomorphic function \(g:V\to\mathbb C\) is an **analytic continuation** of a holomorphic function \(f:U\to\mathbb C\) through \(C\) if \(f=g\) on \(C\). By the [[complex-analysis/identity-theorem|identity theorem]], it is enough to require equality on any nonempty open subset of \(C\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Balanced bilinear maps out of M×N correspond to linear maps out of M⊗N."
 aliases = ["tensor-product-universal-property", "Universal property of the tensor product"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/tensor-product", "algebra-modules/module-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-product-universal-property.md"
+prerequisites = ["algebra-modules/bilinear-map", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(R\) be a ring, \(M\) a right \(R\)-module, and \(N\) a left \(R\)-module. A pair \((T,\tau)\) has the **universal property of the tensor product** if \(T\) is an abelian group, \(\tau\colon M\times N\to T\) is biadditive and balanced,

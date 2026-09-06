@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A binary operation whose value is a nonempty set of possible outputs."
 aliases = ["multivalued operation", "binary hyperoperation"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **binary hyperoperation** on a set \(X\) is a map

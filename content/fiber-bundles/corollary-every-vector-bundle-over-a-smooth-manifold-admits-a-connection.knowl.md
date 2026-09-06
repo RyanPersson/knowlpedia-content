@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Any smooth vector bundle over a smooth manifold admits at least one covariant derivative."
 aliases = ["corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection", "Every vector bundle admits a connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]].

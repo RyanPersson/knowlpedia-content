@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Under a gauge transformation, the local curvature 2-form is conjugated by the gauge function"
 aliases = ["lemma-local-curvature-transformation-law-fg-g-1fg", "Lemma: local curvature transforms by conjugation"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/local-connection-1-form", "fiber-bundles/local-curvature-formula-f-da-aa"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg.md"
+prerequisites = ["fiber-bundles/local-curvature-formula-f-da-aa", "fiber-bundles/local-connection-1-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq M\) be open, let \(G\) be a Lie group with Lie algebra \(\mathfrak g\), and let

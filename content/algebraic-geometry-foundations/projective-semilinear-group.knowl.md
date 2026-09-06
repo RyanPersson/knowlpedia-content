@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The collineation group obtained from invertible semilinear maps modulo scalar maps."
 aliases = ["PGammaL", "PΓL", "projective semilinear transformations"]
 domains = ["algebraic-geometry-foundations", "algebra-groups"]
-prerequisites = ["linear-algebra/vector-space", "linear-algebra/semilinear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/semilinear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\ne0\) be a finite-dimensional [[linear-algebra/vector-space|vector space]] over a field \(k\). The group \(\Gamma L(V)\) consists of all bijective [[linear-algebra/semilinear-map|semilinear self-maps]] of \(V\), allowing every automorphism of \(k\). Its **projective semilinear group** is

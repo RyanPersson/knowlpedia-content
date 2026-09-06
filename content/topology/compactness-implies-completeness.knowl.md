@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A compact metric space is complete: every Cauchy sequence converges."
 aliases = ["compactness-implies-completeness", "Compactness implies completeness"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/compact-set", "topology/complete-metric-space", "topology/cauchy-sequence"]
-dependency_review_count = 1
 legacy_source_path = "topology/compactness-implies-completeness.md"
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/cauchy-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Compactness implies completeness.** Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(K\subseteq X\) be [[topology/compact-set|compact]]. Then \(K\), with the induced metric, is [[topology/complete-metric-space|complete]]: every [[topology/cauchy-sequence|Cauchy sequence]] in \(K\) converges to a point of \(K\).

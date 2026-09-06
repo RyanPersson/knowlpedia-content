@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Expressing an ideal as an intersection of primary ideals, with existence guaranteed in Noetherian rings."
 aliases = ["primary-decomposition", "Primary decomposition"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/primary-decomposition.md"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(I\subseteq R\) be an ideal.

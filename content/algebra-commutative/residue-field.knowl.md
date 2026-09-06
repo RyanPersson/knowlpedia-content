@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The field obtained from a local ring by reducing modulo its maximal ideal."
 aliases = ["residue-field", "Residue field"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/local-ring", "algebra-rings/field", "algebra-commutative/maximal-ideal-local-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/residue-field.md"
+prerequisites = ["algebra-commutative/local-ring", "algebra-rings/field", "algebra-commutative/maximal-ideal-local-ring", "algebra-commutative/localization-at-prime"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((R,\mathfrak m)\) be a [[algebra-commutative/local-ring|local ring]]. The **residue field** of \(R\) is

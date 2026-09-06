@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A Lie-group quotient by a closed subgroup of the center."
 aliases = ["central quotient", "quotient by a central subgroup"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/center-of-a-lie-group", "lie-groups/quotient-lie-group", "lie-groups/coset-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/center-of-a-lie-group", "lie-groups/quotient-lie-group", "lie-groups/coset-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \(Z\) be a closed subgroup of its [[lie-groups/center-of-a-lie-group|center]]. The **central quotient of \(G\) by \(Z\)** is the [[lie-groups/quotient-lie-group|quotient Lie group]]

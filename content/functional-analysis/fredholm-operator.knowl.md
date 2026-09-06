@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A bounded operator with closed range and finite-dimensional kernel and cokernel."
 aliases = ["Fredholm index", "Atkinson operator"]
 domains = ["functional-analysis", "operator-algebras"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H_0,H_1\) be [[linear-algebra/hilbert-space|Hilbert spaces]]. A

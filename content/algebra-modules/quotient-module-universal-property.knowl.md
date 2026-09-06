@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map that kills a submodule factors uniquely through the quotient."
 aliases = ["quotient-module-universal-property", "Universal property of quotient modules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/quotient-module", "algebra-modules/submodule", "algebra-modules/kernel-module", "algebra-modules/module-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/quotient-module-universal-property.md"
+prerequisites = ["algebra-modules/quotient-module", "algebra-modules/submodule", "algebra-modules/kernel-module", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Universal property of quotient modules**: Let \(M\) be an \(R\)-module, let \(N\le M\) be a submodule, and let \(\pi:M\to M/N\) be the quotient map. For any \(R\)-module \(Q\) and any homomorphism \(f:M\to Q\) such that \(N\subseteq \ker(f)\), there exists a unique homomorphism \(\bar f:M/N\to Q\) with \(f=\bar f\circ \pi\).

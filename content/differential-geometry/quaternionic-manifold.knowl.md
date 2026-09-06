@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An almost-quaternionic manifold whose rank-three quaternionic structure is preserved by a torsion-free connection."
 aliases = ["integrable quaternionic manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-quaternionic-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/almost-quaternionic-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) have real dimension \(4n\) with \(n\geq2\). A **quaternionic manifold** is an [[differential-geometry/almost-quaternionic-manifold|almost-quaternionic manifold]] \((M,Q)\) for which there exists a torsion-free [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) on \(TM\) that preserves \(Q\):

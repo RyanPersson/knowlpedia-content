@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A homogeneous bounded operator on a graded Hilbert space is even when it preserves parity and odd when it reverses parity."
 aliases = ["homogeneous operator", "graded operator", "operator parity"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["functional-analysis/z2-graded-hilbert-space", "functional-analysis/bounded-linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["functional-analysis/z2-graded-hilbert-space", "functional-analysis/bounded-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H=H^0\oplus H^1\) be a [[functional-analysis/z2-graded-hilbert-space|graded Hilbert space]], with grading operator \(\Gamma\). A [[functional-analysis/bounded-linear-operator|bounded operator]] \(T\in B(H)\) is **even** (of degree \(0\)) if \(T(H^j)\subseteq H^j\), equivalently \(T\Gamma=\Gamma T\). It is **odd** (of degree \(1\)) if \(T(H^j)\subseteq H^{j+1\!\!\pmod 2}\), equivalently \(T\Gamma=-\Gamma T\). An operator is **homogeneous** if it is even or odd, and its degree is written \(|T|\in\mathbb Z/2\). A general bounded operator need not be homogeneous, but decomposes uniquely as the sum of its even and odd parts.

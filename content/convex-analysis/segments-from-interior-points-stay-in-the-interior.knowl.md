@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "From an interior point, the segment to any other point stays interior except possibly at the endpoint"
 aliases = ["segments-from-interior-points-stay-in-the-interior", "Segments from interior points stay in the interior"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/line-segments-in-a-vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/segments-from-interior-points-stay-in-the-interior.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/line-segments-in-a-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Lemma.**

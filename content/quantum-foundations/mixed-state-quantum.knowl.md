@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A quantum state described by a density operator that is not a rank-one projector."
 aliases = ["mixed-state-quantum", "Mixed quantum state"]
 domains = ["quantum-foundations"]
-prerequisites = ["quantum-foundations/density-operator", "quantum-foundations/pure-state-quantum"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/mixed-state-quantum.md"
+prerequisites = ["quantum-foundations/density-operator", "quantum-foundations/pure-state-quantum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **mixed quantum state** on a finite-dimensional complex Hilbert space \(H\) is a [[quantum-foundations/density-operator|density-operator]] \(\rho\) that is **not** pure (see [[quantum-foundations/pure-state-quantum|pure-state-quantum]]). Concretely, \(\rho\) is mixed iff it cannot be written as \(|\psi\rangle\langle\psi|\) for any unit vector \(\psi\).

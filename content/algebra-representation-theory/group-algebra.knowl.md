@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The associative algebra k[G] whose basis is a group G and whose multiplication extends the group law bilinearly."
 aliases = ["group-algebra", "Group algebra"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/group-algebra.md"
+prerequisites = ["algebra-groups/group", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group and \(k\) a field. The **group algebra** \(k[G]\) (also written \(kG\)) is the \(k\)-[[linear-algebra/vector-space|vector space]] with basis \(\{\,\delta_g : g\in G\,\}\) and multiplication determined by

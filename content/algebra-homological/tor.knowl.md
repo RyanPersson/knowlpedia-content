@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The left derived functors of tensor product; measures failure of tensor to be left exact (flatness)."
 aliases = ["tor"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/tensor-product", "algebra-homological/projective-resolution", "algebra-homological/chain-complex", "algebra-homological/homology-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/tor.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/tensor-product", "algebra-homological/projective-resolution", "algebra-homological/chain-complex", "algebra-homological/homology-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]].

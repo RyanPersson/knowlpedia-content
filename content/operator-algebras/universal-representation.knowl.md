@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The faithful representation obtained by summing the GNS representations of all states."
 aliases = ["universal GNS representation", "sum of all GNS representations"]
 domains = ["operator-algebras", "representation-theory"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/gns-construction", "operator-algebras/direct-sum-cstar-representations", "operator-algebras/nondegenerate-cstar-representation", "algebra-category-theory/terminal-object"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/gns-construction", "operator-algebras/direct-sum-cstar-representations", "operator-algebras/nondegenerate-cstar-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a nonzero [[operator-algebras/cstar-algebra|\(C^*\)-algebra]].

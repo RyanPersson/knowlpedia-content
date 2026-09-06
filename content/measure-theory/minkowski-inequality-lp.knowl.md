@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Triangle inequality for the Lp norm."
 aliases = ["minkowski-inequality-lp", "Minkowski inequality in Lp"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/lp-norm","measure-theory/lp-space"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/minkowski-inequality-lp.md"
+prerequisites = ["measure-theory/lp-norm", "measure-theory/lp-space", "measure-theory/essential-supremum", "measure-theory/l-infinity-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Minkowski inequality:** Let \((X,\Sigma,\mu)\) be a measure space and let \(1\le p\le\infty\). For all \(f,g\in L^p(\mu)\),

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every projective module is flat, so tensoring with it preserves exact sequences."
 aliases = ["projective-implies-flat", "Projective implies flat"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/projective-module", "algebra-modules/flat-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/projective-implies-flat.md"
+prerequisites = ["algebra-modules/projective-module", "algebra-modules/flat-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\) be a [[algebra-modules/projective-module|projective]] right \(R\)-module. Then \(P\) is [[algebra-modules/flat-module|flat]]: for every short exact sequence of left \(R\)-modules

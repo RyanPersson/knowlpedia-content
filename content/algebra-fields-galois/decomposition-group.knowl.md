@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The subgroup of a Galois group that stabilizes a chosen prime above a prime of the base field."
 aliases = ["decomposition subgroup", "decomposition group at a place", "D_w"]
 domains = ["algebra-fields-galois", "langlands"]
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/completion-at-place", "algebra-commutative/residue-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/completion-at-place", "algebra-commutative/residue-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L/K\) be a finite [[langlands-letter/knowls/galois-extension-and-group|Galois extension]] of

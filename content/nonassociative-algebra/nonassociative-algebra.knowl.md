@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A vector space with a bilinear multiplication, with no associative law assumed."
 aliases = ["non-associative algebra", "not necessarily associative algebra"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["algebra-rings/field", "linear-algebra/vector-space", "algebra-modules/bilinear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/field", "linear-algebra/vector-space", "algebra-modules/bilinear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a [[algebra-rings/field|field]]. A **nonassociative algebra** over \(k\) is a [[linear-algebra/vector-space|vector space]] \(A\) over \(k\) equipped with a [[algebra-modules/bilinear-map|bilinear map]]

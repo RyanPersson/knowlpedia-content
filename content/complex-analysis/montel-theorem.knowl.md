@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every locally uniformly bounded family of holomorphic functions is normal."
 aliases = ["Montel's theorem for holomorphic functions"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/complex-domain", "complex-analysis/normal-family"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain", "complex-analysis/normal-family", "complex-analysis/cauchy-integral-formula", "real-analysis/arzela-ascoli-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be a [[complex-analysis/complex-domain|domain]], and let \(\mathcal F\) be a family of holomorphic functions \(D\to\mathbb C\). Suppose that \(\mathcal F\) is **locally uniformly bounded**: for every compact set \(K\subset D\), there is a constant \(M_K\) such that

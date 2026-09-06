@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Measurable functions with finite L^p norm, identified up to equality almost everywhere."
 aliases = ["lp-space", "L^p space"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/lp-norm","measure-theory/almost-everywhere"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/lp-space.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/lp-norm", "measure-theory/almost-everywhere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) and \(1\le p\le\infty\), the **\(L^p\) space** is

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An almost-complex structure that preserves a symplectic form and makes its associated bilinear form positive definite."
 aliases = ["symplectic-compatible almost-complex structure", "omega-compatible almost-complex structure"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/almost-complex-structure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/almost-complex-structure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. A [[differential-geometry/almost-complex-structure|almost-complex structure]] \(J\) on \(M\) is **compatible with \(\omega\)** if

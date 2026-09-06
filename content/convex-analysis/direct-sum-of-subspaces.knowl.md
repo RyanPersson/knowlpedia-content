@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sum of subspaces with trivial intersection"
 aliases = ["direct-sum-of-subspaces", "Direct sum of subspaces"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/linear-subspace", "convex-analysis/characterization-of-direct-sums"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/direct-sum-of-subspaces.md"
+prerequisites = ["convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a vector space and let \(M,N\) be [[convex-analysis/linear-subspace|linear subspaces]].

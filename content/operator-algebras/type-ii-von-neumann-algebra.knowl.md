@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A type II von Neumann algebra is semifinite and has no nonzero abelian projection."
 aliases = ["type II W*-algebra", "continuous semifinite von Neumann algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/abelian-projection", "operator-algebras/finite-projection", "operator-algebras/faithful-normal-semifinite-trace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/abelian-projection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[operator-algebras/von-neumann-algebra|von Neumann algebra]] \(M\) is **type II** if it is [[operator-algebras/semifinite-von-neumann-algebra|semifinite]] and has no nonzero [[operator-algebras/abelian-projection|abelian projection]]. Here a projection \(p\in M\) is abelian when the corner \(pMp\) is a commutative algebra. Thus type II algebras possess enough [[operator-algebras/finite-projection|finite projections]] or, equivalently in the standard formulation, a [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]], but none of their nonzero projection corners is type I and abelian. This definition applies to general von Neumann algebras, not only to factors.

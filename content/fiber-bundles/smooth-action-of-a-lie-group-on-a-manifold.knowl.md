@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth map defining a group action of a Lie group on a smooth manifold."
 aliases = ["smooth-action-of-a-lie-group-on-a-manifold", "Smooth action of a Lie group on a manifold"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let [[fiber-bundles/lie-group|Lie group]] \(G\) and [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) be given.

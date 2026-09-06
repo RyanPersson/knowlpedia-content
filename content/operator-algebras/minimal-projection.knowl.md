@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nonzero projection in a von Neumann algebra that has no nonzero proper subprojection."
 aliases = ["atomic projection"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]].

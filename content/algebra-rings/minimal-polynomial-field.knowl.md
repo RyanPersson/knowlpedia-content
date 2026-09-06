@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The unique monic irreducible polynomial over K annihilating a given algebraic element."
 aliases = ["minimal-polynomial-field", "Minimal polynomial over a field"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/irreducible-polynomial"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/minimal-polynomial-field.md"
+prerequisites = ["algebra-rings/irreducible-polynomial"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\subseteq L\) be fields and let \(\alpha\in L\) be algebraic over \(K\). The **minimal polynomial of \(\alpha\) over \(K\)** is the unique monic [[algebra-rings/irreducible-polynomial|irreducible polynomial]] \(m_{\alpha,K}(x)\in K[x]\) such that \(m_{\alpha,K}(\alpha)=0\).

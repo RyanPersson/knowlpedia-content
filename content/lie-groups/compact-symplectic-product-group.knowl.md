@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The central quotient of the product of two compact symplectic groups acting on quaternionic Euclidean space."
 aliases = ["Sp(n) dot Sp(1)", "Sp(n)·Sp(1)"]
 domains = ["lie-groups", "differential-geometry"]
-prerequisites = ["lie-groups/compact-symplectic-group", "lie-groups/lie-subgroup"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/compact-symplectic-group", "lie-groups/lie-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\geq1\), let the [[lie-groups/compact-symplectic-group|compact symplectic group]] \(\operatorname{Sp}(n)\) act on \(\mathbb H^n\) from the left and let its unit-quaternion subgroup \(\operatorname{Sp}(1)\) act from the right. The homomorphism

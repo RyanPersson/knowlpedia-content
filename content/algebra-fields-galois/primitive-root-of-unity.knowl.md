@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element whose multiplicative order is exactly a prescribed positive integer."
 aliases = ["primitive-root-of-unity", "Primitive root of unity"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/primitive-root-of-unity.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a [[algebra-rings/field|field]], let \(\overline F\) be an [[algebra-fields-galois/algebraic-closure|algebraic closure]], and let \(n\ge1\). An element \(\zeta\in\overline F\) is a **primitive \(n\)th root of unity** if its multiplicative order is exactly \(n\):

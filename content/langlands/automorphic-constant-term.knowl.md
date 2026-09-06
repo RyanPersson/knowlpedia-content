@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The integral of an automorphic form along the unipotent radical of a parabolic subgroup."
 aliases = ["automorphic constant term", "constant term along a parabolic", "parabolic constant term"]
 domains = ["langlands", "harmonic-analysis"]
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/unipotent-radical", "langlands/automorphic-form", "langlands-letter/knowls/adeles-restricted-product", "harmonic-analysis/haar-measure", "algebraic-geometry-foundations/levi-subgroup", "harmonic-analysis/parabolic-modulus-character"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/unipotent-radical", "langlands/automorphic-form", "langlands-letter/knowls/adeles-restricted-product", "harmonic-analysis/haar-measure", "algebraic-geometry-foundations/levi-subgroup", "harmonic-analysis/parabolic-modulus-character"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

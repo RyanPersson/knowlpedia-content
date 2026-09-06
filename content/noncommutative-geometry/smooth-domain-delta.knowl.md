@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The algebra of bounded operators lying in the domain of every iterated commutator with the absolute Dirac operator."
 aliases = ["OP-zero", "intersection of domains of delta powers", "smooth operators"]
 domains = ["noncommutative-geometry", "functional-analysis"]
-prerequisites = ["noncommutative-geometry/delta-derivation", "noncommutative-geometry/spectral-triple"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/delta-derivation", "noncommutative-geometry/spectral-triple"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\delta(T)=[|D|,T]\) be the [[noncommutative-geometry/delta-derivation|Dirac derivation]] on \(B(H)\). Its **smooth domain** is

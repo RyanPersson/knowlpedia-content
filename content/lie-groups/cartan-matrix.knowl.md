@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The integer matrix encoding the simple-root geometry of a semisimple Lie algebra."
 aliases = ["cartan-matrix", "Cartan matrix"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/cartan-matrix.md"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "linear-algebra/inner-product", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak{g}\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]], choose a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak{h}\), and let \(\Phi\subset \mathfrak{h}^*\) be the associated [[lie-groups/root-system|root system]]. Fix a set of [[lie-groups/simple-root|simple roots]] \(\Delta=\{\alpha_1,\dots,\alpha_\ell\}\).
@@ -18,6 +19,8 @@ Choose any \(W\)-invariant inner product on the real span of \(\Phi\).
 \[
 a_{ij} \;=\; 2\,\frac{(\alpha_i,\alpha_j)}{(\alpha_i,\alpha_i)}.
 \]
+
+## Properties
 
 **Basic properties.**
 - \(a_{ii}=2\) for all \(i\).

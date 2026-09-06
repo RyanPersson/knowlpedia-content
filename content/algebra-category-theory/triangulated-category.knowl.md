@@ -6,6 +6,7 @@ summary = "A pretriangulated category satisfying the octahedral axiom."
 aliases = ["triangulated category", "triangulated"]
 domains = ["algebra-category-theory", "algebra-homological"]
 prerequisites = ["algebra-category-theory/pretriangulated-category", "algebra-category-theory/distinguished-triangle", "algebra-category-theory/octahedral-axiom"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

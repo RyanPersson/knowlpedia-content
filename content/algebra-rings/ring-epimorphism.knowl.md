@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring homomorphism that is right-cancellative among ring homomorphisms."
 aliases = ["ring-epimorphism", "Ring epimorphism"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring-epimorphism.md"
+prerequisites = ["algebra-rings/ring-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **ring epimorphism** is a [[algebra-rings/ring-homomorphism|ring homomorphism]] \(\varphi:R\to S\) such that for every ring \(T\) and homomorphisms \(g,h:S\to T\),

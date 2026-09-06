@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Under continuity, mixed second partial derivatives agree."
 aliases = ["schwarz-clairaut-theorem", "Schwarz–Clairaut theorem"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/mixed-partial-derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/schwarz-clairaut-theorem.md"
+prerequisites = ["topology/open-set", "real-analysis/mixed-partial-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Schwarz–Clairaut theorem:** Let \(U\subseteq\mathbb R^n\) be an [[topology/open-set|open set]] and let \(f:U\to\mathbb R\). Fix indices \(i,j\in\{1,\dots,n\}\). If the [[real-analysis/mixed-partial-derivative|mixed second partial derivatives]] \(\frac{\partial^2 f}{\partial x_i\partial x_j}\) and \(\frac{\partial^2 f}{\partial x_j\partial x_i}\) exist on a neighborhood of \(a\in U\) and are continuous at \(a\), then

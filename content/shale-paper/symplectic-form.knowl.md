@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nondegenerate skew-symmetric bilinear form B on a real vector space"
 aliases = ["symplectic-form", "Symplectic Form"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/symplectic-form.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **symplectic form** on a real vector space \(K\) is a bilinear form \(B:K\times K\to\mathbb R\) with

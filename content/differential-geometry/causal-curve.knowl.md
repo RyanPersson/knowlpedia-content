@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A curve in a time-oriented Lorentzian manifold whose tangent vectors are everywhere future-directed or everywhere past-directed and nonspacelike."
 aliases = ["nonspacelike curve"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/time-orientation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/time-orientation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] with a [[differential-geometry/time-orientation|time orientation]]. A piecewise \(C^1\) curve \(\gamma:I\to M\) is **future-directed causal** if, wherever \(\dot\gamma\) exists and is nonzero,

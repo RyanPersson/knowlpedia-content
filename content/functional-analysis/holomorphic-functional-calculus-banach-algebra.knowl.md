@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A contour-integral calculus that evaluates functions holomorphic near the spectrum at a Banach-algebra element."
 aliases = ["analytic functional calculus", "Riesz–Dunford calculus", "holomorphic functional calculus"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-spectrum", "functional-analysis/banach-algebra-resolvent"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/banach-algebra", "functional-analysis/banach-algebra-spectrum", "functional-analysis/banach-algebra-resolvent"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a complex unital [[functional-analysis/banach-algebra|Banach algebra]], let \(a\in A\), and let \(f\) be holomorphic on an open neighborhood

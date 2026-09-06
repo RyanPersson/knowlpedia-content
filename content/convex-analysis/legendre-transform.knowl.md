@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth, strict-convex special case of convex conjugation defined via the gradient map."
 aliases = ["legendre-transform", "Legendre transform"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/strictly-convex-function", "convex-analysis/convex-conjugate-fenchel", "real-analysis/derivative", "real-analysis/differentiable-map"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/legendre-transform.md"
+prerequisites = ["convex-analysis/strictly-convex-function", "convex-analysis/convex-conjugate-fenchel", "real-analysis/derivative", "real-analysis/differentiable-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Legendre transform** of a differentiable [[convex-analysis/strictly-convex-function|strictly convex function]] \(f:U\to\mathbb{R}\) on an open convex set \(U\subseteq\mathbb{R}^n\) is the function \(f^{\mathcal L}\) defined on the set \(\nabla f(U)\subseteq\mathbb{R}^n\) by

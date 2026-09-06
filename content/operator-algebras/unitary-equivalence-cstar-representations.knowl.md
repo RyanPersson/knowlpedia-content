@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The equivalence relation on Hilbert-space representations implemented by a unitary intertwining operator."
 aliases = ["equivalent *-representations"]
 domains = ["operator-algebras", "representation-theory"]
-prerequisites = ["operator-algebras/cstar-representation", "functional-analysis/unitary-operator", "linear-algebra/inner-product", "shared-foundations/equivalence-relation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-representation", "functional-analysis/unitary-operator", "linear-algebra/inner-product", "shared-foundations/equivalence-relation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:A\to\mathcal B(H_\pi)\) and

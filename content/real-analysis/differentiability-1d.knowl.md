@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The property of having a finite derivative at a point or on an interval."
 aliases = ["differentiability-1d", "Differentiability in one variable"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiability-1d.md"
+prerequisites = ["shared-foundations/function", "real-analysis/difference-quotient"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[shared-foundations/function|function]] \(f:I\to\mathbb R\) is **differentiable at** \(a\in I\) if the finite limit

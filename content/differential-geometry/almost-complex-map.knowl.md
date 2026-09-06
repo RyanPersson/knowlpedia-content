@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth map whose tangent map intertwines the almost-complex structures."
 aliases = ["J-holomorphic map", "pseudoholomorphic map"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-complex-structure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "differential-geometry/almost-complex-structure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,J_M)\) and \((N,J_N)\) be smooth manifolds with

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth one-dimensional projective scheme over a field, the standard global base for geometric Langlands."
 aliases = ["smooth projective algebraic curve"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-curve", "algebraic-geometry-foundations/projective-space", "algebraic-geometry-foundations/smooth-morphism", "algebraic-geometry-foundations/projective-morphism", "algebraic-geometry-foundations/algebraically-closed-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-curve", "algebraic-geometry-foundations/smooth-morphism", "algebraic-geometry-foundations/projective-morphism", "algebraic-geometry-foundations/projective-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **smooth projective curve** over a field \(k\) is an

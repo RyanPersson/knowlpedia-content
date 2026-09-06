@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The field obtained from an integral domain by adjoining inverses to all nonzero elements."
 aliases = ["fraction-field", "Fraction field"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-rings/field", "algebra-rings/ring-monomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/fraction-field.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/field", "algebra-rings/ring-monomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]]. The **fraction field** \(\mathrm{Frac}(R)\) is the set of equivalence classes of pairs \((a,b)\in R\times R\) with \(b\neq 0\), under

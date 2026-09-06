@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The rule that composes morphisms in a category, generalizing function composition."
 aliases = ["composition-category", "Composition of morphisms"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "shared-foundations/composition"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/composition-category.md"
+prerequisites = ["shared-foundations/composition", "algebra-category-theory/category", "algebra-category-theory/morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. If

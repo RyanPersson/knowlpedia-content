@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A finite-dimensional Hilbert space with an observable algebra and a self-adjoint Hamiltonian."
 aliases = ["quantum-system-stat-mech", "Finite quantum statistical system"]
 domains = ["stat-mech-quantum"]
-prerequisites = ["stat-mech-quantum/observable-algebra", "stat-mech-quantum/quantum-hamiltonian", "quantum-foundations/density-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/quantum-system-stat-mech.md"
+prerequisites = ["stat-mech-quantum/observable-algebra", "stat-mech-quantum/quantum-hamiltonian", "quantum-foundations/density-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **finite quantum statistical system** consists of a triple \((\mathcal H,\mathcal A,H)\), where \(\mathcal H\) is a finite-dimensional complex Hilbert space, \(\mathcal A\subseteq\mathcal B(\mathcal H)\) is a unital [[stat-mech-quantum/observable-algebra|observable algebra]], and \(H=H^*\in\mathcal A\) is the [[stat-mech-quantum/quantum-hamiltonian|Hamiltonian]]. A state is a positive normalized functional on \(\mathcal A\); on \(\mathcal B(\mathcal H)\) it is represented uniquely by a [[quantum-foundations/density-operator|density operator]].

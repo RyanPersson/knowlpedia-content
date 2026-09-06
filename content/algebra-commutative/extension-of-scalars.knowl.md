@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Given a ring map R→S, the S-module S⊗_R M obtained from an R-module M by base change."
 aliases = ["extension-of-scalars", "Extension of scalars"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/extension-of-scalars.md"
+prerequisites = ["algebra-rings/commutative-ring", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:R\to S\) be a homomorphism of [[algebra-rings/commutative-ring|commutative rings]], and let \(M\) be an \(R\)-module. The **extension of scalars** (or **base change**) of \(M\) along \(f\) is the \(S\)-module

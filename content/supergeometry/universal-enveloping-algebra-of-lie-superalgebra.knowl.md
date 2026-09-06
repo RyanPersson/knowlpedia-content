@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The associative superalgebra universally realizing a Lie superalgebra bracket as a supercommutator."
 aliases = ["super universal enveloping algebra", "enveloping superalgebra"]
 domains = ["supergeometry", "algebra-rings"]
-prerequisites = ["supergeometry/lie-superalgebra", "algebra-modules/tensor-algebra", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/lie-superalgebra", "algebra-modules/tensor-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[supergeometry/lie-superalgebra|Lie superalgebra]]

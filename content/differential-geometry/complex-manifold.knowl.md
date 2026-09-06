@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A space locally modeled on complex Euclidean space with holomorphic transition maps."
 aliases = ["holomorphic manifold", "complex-manifold structure", "complex structure on a manifold"]
 domains = ["differential-geometry", "topology"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-manifold", "differential-geometry/complex-atlas", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **complex manifold of complex dimension \(n\)** is a Hausdorff, second-countable space covered by coordinate charts \(\varphi_i:U_i\to V_i\subseteq\mathbb C^n\) such that each transition map \(\varphi_j\circ\varphi_i^{-1}\) is [[differential-geometry/holomorphic-map|holomorphic]] wherever it is defined.

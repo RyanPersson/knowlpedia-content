@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The descending series defined by iterated commutators with the whole group"
 aliases = ["lower-central-series", "Lower central series"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/commutator"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/lower-central-series.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/commutator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. The **lower central series** of \(G\) is the sequence of subgroups \((\gamma_n(G))_{n\ge 1}\) defined by

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function that never takes the same value on two different inputs"
 aliases = ["injective-function", "Injective function"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/injective-function.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 An **injective function** is a [[shared-foundations/function|function]] \(f:A\to B\) such that whenever \(f(a_1)=f(a_2)\), it follows that \(a_1=a_2\).

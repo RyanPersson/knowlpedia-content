@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The support of a distribution is the complement of the largest open set on which the distribution vanishes."
 aliases = ["distributional support"]
 domains = ["functional-analysis", "distribution-theory"]
-prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "topology/closed-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "topology/closed-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T\) be a [[functional-analysis/distribution|distribution]] on an open

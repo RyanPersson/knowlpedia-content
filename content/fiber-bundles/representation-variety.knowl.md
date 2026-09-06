@@ -5,17 +5,21 @@ kind = "definition"
 summary = "The affine algebraic set parameterizing homomorphisms from a finitely presented group into an affine algebraic group."
 aliases = ["homomorphism variety", "G-representation variety"]
 domains = ["fiber-bundles", "algebraic-geometry-foundations", "lie-groups"]
-prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] of characteristic zero, \(\Gamma\) a finitely presented group, and \(G\) an affine algebraic group over \(k\). The **\(G\)-representation variety** of \(\Gamma\) is
 \[
 \operatorname{Hom}(\Gamma,G),
 \]
-the set of [[algebra-groups/group-homomorphism|group homomorphisms]] \(\rho:\Gamma\to G\), equipped with its natural affine algebraic-set structure. After choosing generators \(\gamma_1,\ldots,\gamma_r\), a representation is identified with
+the set of [[algebra-groups/group-homomorphism|group homomorphisms]] \(\rho:\Gamma\to G\), equipped with its natural affine algebraic-set structure.
+
+## Coordinates
+
+After choosing generators \(\gamma_1,\ldots,\gamma_r\), a representation is identified with
 \[
 (\rho(\gamma_1),\ldots,\rho(\gamma_r))\in G^r,
 \]

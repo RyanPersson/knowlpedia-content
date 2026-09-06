@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The condition that every event has arbitrarily small neighborhoods which causal curves cannot leave and then re-enter."
 aliases = ["strongly causal spacetime", "strong causality condition"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/causal-curve"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/causal-curve"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] \((M,g)\) is **strongly causal at** \(p\in M\) if every neighborhood \(U\) of \(p\) contains a neighborhood \(V\) of \(p\) such that no [[differential-geometry/causal-curve|causal curve]] intersects \(V\) in a disconnected set. It is **strongly causal** if it is strongly causal at every point.

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map between metric spaces where one delta works uniformly for all points for a given epsilon."
 aliases = ["uniformly-continuous-map", "Uniformly continuous map"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "topology/uniformly-continuous-map.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **uniformly continuous map** between metric spaces \((X,d_X)\) and \((Y,d_Y)\) is a map \(f\colon X\to Y\) such that for every \(\varepsilon>0\) there exists \(\delta>0\) with

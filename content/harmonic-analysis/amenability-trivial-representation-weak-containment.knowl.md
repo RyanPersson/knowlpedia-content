@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The representation-theoretic criterion that a locally compact group is amenable exactly when its regular representation weakly contains the trivial representation."
 aliases = ["Hulanicki-Reiter criterion"]
 domains = ["harmonic-analysis", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/weak-containment-unitary-representations", "algebra-representation-theory/regular-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/weak-containment-unitary-representations", "algebra-representation-theory/regular-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]], let \(1_G\) denote its one-dimensional trivial unitary representation, and let \(\lambda_G\) be its left [[harmonic-analysis/regular-representations-locally-compact-group|regular representation]] on \(L^2(G)\). The **Hulanicki–Reiter criterion** states that

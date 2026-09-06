@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The order of a finite group is the order of its center plus the sizes of its noncentral conjugacy classes."
 aliases = ["class-equation", "Class Equation"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/centralizer", "algebra-groups/conjugacy-class"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/class-equation.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/centralizer", "algebra-groups/conjugacy-class", "algebra-groups/center-of-group", "algebra-groups/conjugation-action", "algebra-groups/orbit-stabilizer-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite [[algebra-groups/group|group]]. For \(g\in G\), set

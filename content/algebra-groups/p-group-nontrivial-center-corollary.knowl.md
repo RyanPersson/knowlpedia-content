@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The center of a nontrivial finite p-group has order divisible by p."
 aliases = ["p-group-nontrivial-center-corollary", "Finite p-Group Has Nontrivial Center"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/p-group", "algebra-groups/center-of-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/p-group-nontrivial-center-corollary.md"
+prerequisites = ["algebra-groups/p-group", "algebra-groups/center-of-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(p\) be a prime and let \(G\) be a finite [[algebra-groups/p-group|\(p\)-group]] of order \(p^n\), where \(n\ge 1\). Then the [[algebra-groups/center-of-group|center]] \(Z(G)\) is nontrivial. More precisely,

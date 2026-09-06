@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The standard complete translation-invariant measure on Euclidean space built from covering by rectangles."
 aliases = ["lebesgue-measure", "Lebesgue measure"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/outer-measure","measure-theory/caratheodory-measurable-set"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-measure.md"
+prerequisites = ["measure-theory/measure", "measure-theory/outer-measure", "measure-theory/caratheodory-measurable-set", "measure-theory/measurable-rectangle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Lebesgue measure** on \(\mathbb R^n\) is the complete [[measure-theory/measure|measure]] \(\lambda^n\) obtained from the [[measure-theory/outer-measure|outer measure]]

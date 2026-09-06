@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The almost-everywhere unique density dν/dμ representing an absolutely continuous measure ν relative to μ."
 aliases = ["radon-nikodym-derivative", "Radon–Nikodym Derivative"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/radon-nikodym-derivative.md"
+prerequisites = ["measure-theory/measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mu\) and \(\nu\) be \(\sigma\)-finite positive measures on the same measurable space. If \(\nu\ll\mu\), the **Radon–Nikodym derivative** \(d\nu/d\mu\) is the \(\mu\)-almost-everywhere unique measurable function \(X\geq 0\) such that

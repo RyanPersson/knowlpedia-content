@@ -6,6 +6,7 @@ summary = "The relation that one integer is an exact multiplicative factor of an
 aliases = ["divides", "divisibility", "divisor"]
 domains = ["shared-foundations"]
 prerequisites = ["shared-foundations/integers", "shared-foundations/p-adic-valuation"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

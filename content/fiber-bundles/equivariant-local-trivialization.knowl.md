@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A local trivialization of a principal bundle that intertwines the right group action with right multiplication on the model fiber."
 aliases = ["equivariant-local-trivialization", "Equivariant local trivialization"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/right-principal-action", "topology/open-cover", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivariant-local-trivialization.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/right-principal-action", "topology/open-cover", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/right-principal-action|right principal action]] \((p,g)\mapsto p\cdot g\), and let \(U\subset M\) be open (often chosen from an [[topology/open-cover|open cover]] of \(M\)).

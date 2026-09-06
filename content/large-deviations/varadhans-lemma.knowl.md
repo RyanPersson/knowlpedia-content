@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Asymptotic evaluation of exponential integrals under a large deviation principle."
 aliases = ["varadhans-lemma", "Varadhan's lemma"]
 domains = ["large-deviations"]
-prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "large-deviations/laplace-principle", "large-deviations/exponential-tightness"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/varadhans-lemma.md"
+prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Varadhan's lemma:** Let \(X\) be a Polish space and let \((\mu_n)\) be [[probability/probability-measure|probability measures]] on \(X\) that satisfy a [[large-deviations/large-deviation-principle|large deviation principle]] with speed \(a_n\to\infty\) and [[large-deviations/good-rate-function|good rate function]] \(I\colon X\to[0,\infty]\). If \(f\colon X\to\mathbb{R}\) is continuous and bounded above, then

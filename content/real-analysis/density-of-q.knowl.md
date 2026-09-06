@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Between any two real numbers there is a rational number."
 aliases = ["density-of-q", "Density of the Rationals"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/density-of-q.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Density of \(\mathbb{Q}\):** If \(a<b\) are real numbers, then there exists a rational number \(q\in\mathbb{Q}\) such that \(a<q<b\). In fact, there are infinitely many such rationals.

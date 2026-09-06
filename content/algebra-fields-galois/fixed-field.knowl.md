@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subfield consisting of elements fixed by every automorphism in a given group."
 aliases = ["fixed-field", "Fixed field"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-automorphism", "algebra-fields-galois/intermediate-field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/fixed-field.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/intermediate-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a [[algebra-rings/field|field]], and let \(G\) be a set (typically a subgroup) of field automorphisms of \(E\).

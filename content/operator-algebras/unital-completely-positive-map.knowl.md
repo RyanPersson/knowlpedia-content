@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A unital completely positive map preserves the identity and is positive at every matrix level."
 aliases = ["UCP map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/completely-positive-map", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/unital-cstar-algebra", "operator-algebras/completely-positive-map", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be

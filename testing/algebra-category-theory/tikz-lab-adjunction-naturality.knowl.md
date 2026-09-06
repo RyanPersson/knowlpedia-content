@@ -6,6 +6,9 @@ summary = "A diagram stress test for adjunction bijections, units, counits, and 
 aliases = ["tikz-lab-adjunction-naturality", "TikZ lab: adjunction naturality"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/tikz-lab-adjunction-naturality.md"
+prerequisites = ["algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation", "algebra-category-theory/composition-category", "algebra-category-theory/unit-adjunction", "algebra-category-theory/counit-adjunction", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For an [[algebra-category-theory/adjoint-functors|adjunction]] \(F\dashv G\), the

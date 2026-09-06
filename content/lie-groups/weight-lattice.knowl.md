@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The lattice of vectors pairing integrally with every coroot."
 aliases = ["integral weight lattice", "weight lattice P", "lattice of integral weights"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/root-system", "lie-groups/simple-root"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/root-system", "lie-groups/simple-root"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Phi\subset E\) be a crystallographic [[lie-groups/root-system|root system]], with coroots \(\alpha^\vee=2\alpha/(\alpha,\alpha)\). Its **weight lattice** is

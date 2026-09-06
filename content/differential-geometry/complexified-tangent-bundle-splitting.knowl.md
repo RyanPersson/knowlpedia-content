@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The splitting of a complexified tangent bundle into the positive and negative imaginary eigenspaces of an almost-complex structure."
 aliases = ["holomorphic-antiholomorphic tangent splitting", "T one zero and T zero one splitting"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-complex-structure", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/almost-complex-structure", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) carry an [[differential-geometry/almost-complex-structure|almost-complex structure]] \(J\). Extend \(J\) complex-linearly to \(T_{\mathbb C}M=TM\otimes_{\mathbb R}\mathbb C\). Since \(J^2=-1\), its only eigenvalues are \(i\) and \(-i\), and the complexified [[fiber-bundles/tangent-bundle|tangent bundle]] splits as

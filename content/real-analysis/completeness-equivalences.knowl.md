@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The least-upper-bound, Cauchy, monotone-convergence, and nested-interval properties are equivalent completeness principles for the real numbers."
 aliases = ["completeness-equivalences", "Completeness Equivalences"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "topology/cauchy-sequence", "real-analysis/monotone-sequence", "real-analysis/interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/completeness-equivalences.md"
+prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "topology/cauchy-sequence", "real-analysis/monotone-sequence", "real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Completeness equivalences.** For the ordered field \(\mathbb R\), the following statements are equivalent:

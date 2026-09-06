@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A universal cocone from a diagram, generalizing coproducts, pushouts, and coequalizers."
 aliases = ["colimit"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/composition-category", "algebra-category-theory/isomorphism-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/colimit.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal{C}\) be a [[algebra-category-theory/category|category]] and let \(J\) be an indexing category. A **diagram of shape \(J\)** in \(\mathcal{C}\) is a [[algebra-category-theory/functor|functor]]

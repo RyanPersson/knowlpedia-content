@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A module with coassociative comultiplication and a counit."
 aliases = ["coalgebra over a ring", "counital coalgebra"]
 domains = ["algebra-coalgebras", "algebra-modules"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/module", "algebra-category-theory/monoidal-category"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/module", "algebra-category-theory/monoidal-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a [[algebra-rings/commutative-ring|commutative ring]]. A **\(k\)-coalgebra** is a \(k\)-[[algebra-modules/module|module]] \(C\) equipped with \(k\)-linear maps

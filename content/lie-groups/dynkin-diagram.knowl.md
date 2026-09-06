@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A graph encoding the angles and relative lengths among simple roots of a semisimple Lie algebra via the Cartan matrix."
 aliases = ["dynkin-diagram", "Dynkin diagram"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "lie-groups/cartan-matrix"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/dynkin-diagram.md"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "lie-groups/cartan-matrix", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]. Fix a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\) and a choice of positive roots in its [[lie-groups/root-system|root system]]. Let \(\Delta=\{\alpha_1,\dots,\alpha_\ell\}\) be the corresponding set of [[lie-groups/simple-root|simple roots]].

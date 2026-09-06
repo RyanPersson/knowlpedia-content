@@ -6,6 +6,7 @@ summary = "An object that is simultaneously initial and terminal."
 aliases = ["zero object"]
 domains = ["algebra-category-theory", "algebra-homological"]
 prerequisites = ["algebra-category-theory/category", "algebra-category-theory/initial-object", "algebra-category-theory/terminal-object"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

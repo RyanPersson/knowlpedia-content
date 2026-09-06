@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The collection of germs near one point of a sheaf."
 aliases = ["stalk", "germ at a point"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/sheaf", "topology/topological-space"]
-dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/stalk.md"
+prerequisites = ["algebraic-geometry-foundations/sheaf", "topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal F\) be a [[algebraic-geometry-foundations/sheaf|sheaf]] on a [[topology/topological-space|topological space]] \(X\), and let \(x\in X\). The **stalk** \(\mathcal F_x\) is the collection of germs of sections of \(\mathcal F\) near \(x\). Concretely, a germ is represented by a pair \((U,s)\), where \(U\) is an open neighborhood of \(x\) and \(s\in\mathcal F(U)\). Two representatives \((U,s)\) and \((V,t)\) define the same germ if \(s\) and \(t\) agree on some neighborhood of \(x\) contained in \(U\cap V\).

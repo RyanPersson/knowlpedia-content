@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra of the holonomy group of a connection at a chosen point."
 aliases = ["holonomy-algebra", "Holonomy algebra"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/holonomy-group", "fiber-bundles/parallel-transport", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/holonomy-algebra.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/holonomy-group", "fiber-bundles/parallel-transport", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with a [[fiber-bundles/principal-connection|principal connection]] \(\omega\), and choose \(p\in P_x\). The **holonomy algebra** at \(p\) is

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A category with an associative tensor product and a tensor unit, coherently up to specified isomorphisms."
 aliases = ["tensor category in the weak sense"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/natural-isomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/natural-isomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **monoidal category** is a [[algebra-category-theory/category|category]] \(\mathcal C\) equipped with a bifunctor

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The unique bounded operator obtained by transferring a Hilbert-space operator across the inner product."
 aliases = ["bounded-operator adjoint", "Hilbert-space adjoint"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/bounded-linear-operator", "functional-analysis/riesz-representation-hilbert-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/bounded-linear-operator", "functional-analysis/riesz-representation-hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) and \(K\) be complex [[linear-algebra/hilbert-space|Hilbert

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The nine-dimensional Euclidean Jordan algebra of Hermitian three-by-three complex matrices."
 aliases = ["complex qutrit Jordan algebra", "qutrit Jordan algebra", "h_3(C)"]
 domains = ["nonassociative-algebra", "quantum-foundations"]
-prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "quantum-foundations/qutrit"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "quantum-foundations/qutrit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **complex-qutrit Jordan algebra** is

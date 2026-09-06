@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The topology on a metric space in which a set is open if it contains an open ball around each of its points."
 aliases = ["metric-induced-topology", "Metric-induced topology"]
 domains = ["topology"]
-prerequisites = ["topology/metric", "topology/open-ball"]
-dependency_review_count = 1
 legacy_source_path = "topology/metric-induced-topology.md"
+prerequisites = ["topology/metric-space", "topology/open-ball", "topology/topology"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 The **metric-induced topology** on a metric space \((X,d)\) is the collection \(\tau_d\) of subsets \(U\subseteq X\) such that, for every \(x\in U\), there is \(r>0\) with \(B_d(x,r)\subseteq U\). Here \(B_d(x,r)\) is the [[topology/open-ball|open ball]] of radius \(r\) centered at \(x\).

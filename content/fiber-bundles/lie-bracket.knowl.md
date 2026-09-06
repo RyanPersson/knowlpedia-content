@@ -5,22 +5,27 @@ kind = "knowl"
 summary = "A bilinear alternating operation satisfying the Jacobi identity; for vector fields it is the commutator."
 aliases = ["lie-bracket", "Lie bracket"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/left-invariant-vector-field"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lie-bracket.md"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-A **Lie bracket** on a real vector space \(\mathfrak{g}\) is a bilinear map
+A **Lie bracket** on a vector space \(\mathfrak{g}\) over a field \(k\) is a \(k\)-bilinear map
 \[
 [\,,\,]:\mathfrak{g}\times\mathfrak{g}\to\mathfrak{g}
 \]
 such that:
 
-1. **Alternating / skew-symmetry:** \([X,X]=0\) for all \(X\in\mathfrak{g}\) (equivalently \([X,Y]=-[Y,X]\)).
+1. **Alternating:** \([X,X]=0\) for all \(X\in\mathfrak{g}\).
 2. **Jacobi identity:** for all \(X,Y,Z\in\mathfrak{g}\),
    \[
    [X,[Y,Z]]+[Y,[Z,X]]+[Z,[X,Y]]=0.
    \]
+
+## Alternation and vector fields
+
+Alternation implies \([X,Y]=-[Y,X]\); the converse holds when the field has characteristic different from \(2\).
 
 In differential geometry, there is a canonical Lie bracket on the space of [[fiber-bundles/vector-field|vector fields]] on a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\): for vector fields \(X,Y\) define \([X,Y]\) by its action on smooth functions,
 \[

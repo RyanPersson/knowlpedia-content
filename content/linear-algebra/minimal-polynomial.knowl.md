@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Smallest-degree monic polynomial that annihilates a linear operator."
 aliases = ["minimal-polynomial", "Minimal polynomial"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-operator", "linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/minimal-polynomial.md"
+prerequisites = ["linear-algebra/linear-operator", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **minimal polynomial** of a [[linear-algebra/linear-operator|linear operator]] \(T:V\to V\) on a finite-dimensional [[linear-algebra/vector-space|vector space]] is the unique monic polynomial \(m_T(t)\in\mathbb{F}[t]\) of least degree such that

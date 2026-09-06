@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A scalar invariant of a square matrix measuring volume scaling and invertibility."
 aliases = ["determinant"]
 domains = ["linear-algebra"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/determinant.md"
+prerequisites = ["algebra-rings/field", "linear-algebra/matrix", "shared-foundations/finite-permutation", "shared-foundations/permutation-sign"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **determinant** is a function that assigns to each \(n\times n\) matrix \(A=(a_{ij})\) over a field \(\mathbb{F}\) the scalar

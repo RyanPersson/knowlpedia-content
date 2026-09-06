@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The theorem attaching a unique semisimple local L-parameter to an irreducible smooth representation."
 aliases = ["Fargues–Scholze parameter", "Fargues Scholze semisimple local Langlands correspondence", "Fargues-Scholze L-parameter"]
 domains = ["langlands", "representation-theory", "number-theory"]
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebra-groups/conjugacy-class", "langlands-letter/knowls/semisimple-element-and-class", "langlands/weil-group", "langlands/l-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebra-groups/conjugacy-class", "langlands-letter/knowls/semisimple-element-and-class", "langlands/weil-group", "langlands/l-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a

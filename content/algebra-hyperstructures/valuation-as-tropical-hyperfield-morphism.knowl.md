@@ -5,9 +5,10 @@ kind = "proposition"
 summary = "Negating an additive non-Archimedean valuation gives a weak morphism to a max tropical hyperfield."
 aliases = ["tropicalization as a hyperfield morphism", "non-Archimedean norm as hyperfield morphism"]
 domains = ["algebra-hyperstructures", "algebra-fields-galois", "algebra-rings"]
-prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-groups/ordered-abelian-group", "algebra-hyperstructures/hyperring-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "algebra-groups/ordered-abelian-group", "algebra-hyperstructures/hyperring-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(v:K\to\Gamma\cup\{\infty\}\) be a

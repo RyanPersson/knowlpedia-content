@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A multiplicative group of ring units on which addition is only partially defined."
 aliases = ["Semple-Whittle partial field"]
 domains = ["algebra-hyperstructures", "algebra-rings", "matroid-theory"]
-prerequisites = ["algebra-rings/unital-ring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/unital-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **partial field** in normalized ambient form is a pair \(P=(G,R)\), where

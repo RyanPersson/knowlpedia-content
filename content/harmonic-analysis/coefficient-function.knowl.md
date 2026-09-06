@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A scalar-valued function obtained by pairing the orbit of one Hilbert-space vector with another."
 aliases = ["coefficient function", "matrix coefficient"]
 domains = ["harmonic-analysis", "lie-groups"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "harmonic-analysis/positive-definite-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "harmonic-analysis/positive-definite-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:G\to U(\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] on a complex [[linear-algebra/hilbert-space|Hilbert space]], whose [[linear-algebra/inner-product|inner product]] is linear in the first variable. For \(\xi,\eta\in\mathcal H\), the **matrix coefficient** determined by \(\xi\) and \(\eta\) is

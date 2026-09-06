@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Z/2-graded stabilization of cyclic cohomology under Connes's degree-two periodicity operator."
 aliases = ["HP cohomology", "periodic (b,B)-cohomology"]
 domains = ["noncommutative-geometry", "algebra-homological"]
-prerequisites = ["noncommutative-geometry/cyclic-cohomology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/cyclic-cohomology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a unital algebra over a characteristic-zero field. Connes's periodicity operator gives maps

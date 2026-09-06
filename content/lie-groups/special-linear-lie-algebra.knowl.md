@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra sl(n,F) of trace-zero matrices with bracket [X,Y]=XY−YX."
 aliases = ["special-linear-lie-algebra", "Special linear Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-bracket", "lie-groups/general-linear-lie-algebra", "lie-groups/simple-lie-algebra", "lie-groups/classification-simple-lie-algebras"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/special-linear-lie-algebra.md"
+prerequisites = ["fiber-bundles/lie-bracket", "lie-groups/general-linear-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(\mathbb F\in\{\mathbb R,\mathbb C\}\), the **special linear Lie algebra** is

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The massless hyperbolic field equation determined by a Lorentzian metric."
 aliases = ["scalar wave equation", "homogeneous wave equation", "d'Alembert equation"]
 domains = ["mathematical-physics", "partial-differential-equations"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/dalembert-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/dalembert-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] \((M,g)\), the **scalar wave equation** for a smooth real- or complex-valued field \(\phi\) is

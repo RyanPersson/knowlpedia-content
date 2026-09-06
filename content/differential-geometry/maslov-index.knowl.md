@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The integer measuring the winding of a loop of Lagrangian subspaces, equivalently its signed intersection with a Maslov cycle."
 aliases = ["Maslov index of a path", "Lagrangian path index"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/lagrangian-grassmannian", "differential-geometry/symplectic-vector-space", "differential-geometry/maslov-class-lagrangian-grassmannian", "differential-geometry/maslov-cycle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lagrangian-grassmannian", "differential-geometry/symplectic-vector-space", "differential-geometry/maslov-class-lagrangian-grassmannian", "differential-geometry/maslov-cycle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a loop \(\ell:S^1\to\Lambda(V)\) in the [[differential-geometry/lagrangian-grassmannian|Lagrangian Grassmannian]] of a real [[differential-geometry/symplectic-vector-space|symplectic vector space]], let \(\mu_\Lambda\) denote the [[differential-geometry/maslov-class-lagrangian-grassmannian|universal Maslov class]]. The **Maslov index** of \(\ell\) is

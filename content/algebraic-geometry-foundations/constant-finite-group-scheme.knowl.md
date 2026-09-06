@@ -6,6 +6,7 @@ summary = "The group scheme obtained by placing one copy of the base scheme at e
 aliases = ["constant finite group scheme", "constant group scheme"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-groups/group", "algebraic-geometry-foundations/group-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A real Hilbert space with a continuous skew form, weakly or strongly nondegenerate according to convention."
 aliases = ["symplectic-hilbert-space", "Symplectic Hilbert Space (K,B)"]
 domains = ["shale-paper"]
-prerequisites = ["linear-algebra/hilbert-space", "shale-paper/symplectic-form"]
-dependency_review_count = 1
 legacy_source_path = "shale-paper/symplectic-hilbert-space.md"
+prerequisites = ["linear-algebra/hilbert-space", "shale-paper/symplectic-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **weak symplectic Hilbert space** is a real

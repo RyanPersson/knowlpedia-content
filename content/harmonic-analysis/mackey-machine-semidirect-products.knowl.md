@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "A classification of irreducible unitary representations of regular semidirect products with an abelian normal factor."
 aliases = ["little-group method"]
 domains = ["harmonic-analysis", "representation-theory"]
-prerequisites = ["topology/locally-compact-group", "algebra-groups/semidirect-product", "harmonic-analysis/pontryagin-dual", "algebra-groups/stabilizer", "lie-groups/irreducible-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebra-groups/semidirect-product", "harmonic-analysis/pontryagin-dual", "algebra-groups/stabilizer", "lie-groups/irreducible-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(K\) be [[topology/locally-compact-group|second-countable locally compact Hausdorff groups]], with \(A\) abelian, and let \(G=A\rtimes K\) be their [[algebra-groups/semidirect-product|semidirect product]]. Suppose the \(K\)-action on the [[harmonic-analysis/pontryagin-dual|Pontryagin dual]] \(\widehat A\) is regular. For \(\chi\in\widehat A\), let \(K_\chi\) be its [[algebra-groups/stabilizer|stabilizer]]. The **Mackey machine** states that every [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] of \(G\) is

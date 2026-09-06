@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A cohomologically constant smooth family of symplectic forms on a compact manifold is trivialized by an isotopy."
 aliases = ["Moser trick", "Moser isotopy theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold", "differential-geometry/smooth-isotopy", "differential-geometry/symplectomorphism", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/symplectic-manifold", "differential-geometry/smooth-isotopy", "differential-geometry/symplectomorphism", "fiber-bundles/vector-field", "differential-geometry/de-rham-complex"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a compact [[fiber-bundles/smooth-manifold|smooth manifold]] without boundary, and let \(\omega_t\), \(0\leq t\leq1\), be a smooth family of [[differential-geometry/symplectic-manifold|symplectic forms]] whose de Rham cohomology class \([\omega_t]\) is independent of \(t\). The **Moser stability theorem** states that there is a smooth [[differential-geometry/smooth-isotopy|isotopy]] \(\varphi_t:M\to M\), with \(\varphi_0=\operatorname{id}_M\), such that

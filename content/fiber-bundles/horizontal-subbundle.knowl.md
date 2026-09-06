@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subbundle of the tangent bundle of a total space that complements the vertical tangent bundle."
 aliases = ["horizontal-subbundle", "Horizontal subbundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/ehresmann-connection"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-subbundle.md"
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vertical-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a surjective submersion, and let

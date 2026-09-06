@@ -5,10 +5,11 @@ kind = "knowl"
 summary = "A semisimple algebraic group with no nontrivial central isogeny cover."
 aliases = ["simply-connected-semisimple-group", "Simply Connected Semisimple Algebraic Group"]
 domains = ["langlands-letter"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-groups/center-of-group"]
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/simply-connected-semisimple-group.md"
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-groups/center-of-group", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive algebraic group]] is **semisimple** if its connected

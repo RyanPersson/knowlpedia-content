@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring whose module theory is completely reducible; equivalently a finite product of matrix rings over division rings."
 aliases = ["semisimple-ring", "Semisimple ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/unital-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/semisimple-ring.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-modules/semisimple-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **semisimple ring** is a unital ring \(R\) such that every left \(R\)-module is semisimple (i.e. a direct sum of simple modules). Equivalently, the left regular module \({}_RR\) is a direct sum of minimal left ideals.

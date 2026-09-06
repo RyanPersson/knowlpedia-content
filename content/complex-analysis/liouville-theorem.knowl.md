@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every bounded entire function is constant."
 aliases = ["Liouville theorem for entire functions"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/entire-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/entire-function", "complex-analysis/cauchy-integral-formula"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 If \(f:\mathbb C\to\mathbb C\) is an [[complex-analysis/entire-function|entire function]] and bounded, then \(f\) is constant.

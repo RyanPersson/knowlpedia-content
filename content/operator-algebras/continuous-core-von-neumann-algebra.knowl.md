@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The semifinite crossed product of a von Neumann algebra by the modular automorphism group of a faithful normal semifinite weight."
 aliases = ["continuous core", "core of a von Neumann algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/von-neumann-crossed-product", "operator-algebras/modular-automorphism-group", "operator-algebras/dual-action-von-neumann-crossed-product", "operator-algebras/faithful-normal-semifinite-trace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/von-neumann-crossed-product", "operator-algebras/modular-automorphism-group", "operator-algebras/dual-action-von-neumann-crossed-product", "operator-algebras/faithful-normal-semifinite-trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differentiable function attains its average slope at some interior point."
 aliases = ["mean-value-theorem", "Mean value theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiability-1d"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/mean-value-theorem.md"
+prerequisites = ["real-analysis/differentiability-1d"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Mean value theorem:** Let \(a<b\), and let \(f:[a,b]\to\mathbb{R}\) be continuous on \([a,b]\) and [[real-analysis/differentiability-1d|differentiable]] on \((a,b)\). Then there exists \(c\in(a,b)\) such that

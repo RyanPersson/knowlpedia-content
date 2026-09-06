@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Over a Q-algebra, a commutative formal group law has a unique strict isomorphism to the additive law."
 aliases = ["logarithm of a formal group law", "formal logarithm", "log_F"]
 domains = ["formal-groups"]
-prerequisites = ["formal-groups/formal-group-law", "formal-groups/formal-group-law-morphism", "formal-groups/additive-and-multiplicative-formal-group-laws"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["formal-groups/formal-group-law", "formal-groups/formal-group-law-morphism", "formal-groups/additive-and-multiplicative-formal-group-laws"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a \(\mathbb Q\)-algebra and let \(F\) be a commutative

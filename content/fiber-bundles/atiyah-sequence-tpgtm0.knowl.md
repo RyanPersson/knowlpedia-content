@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The short exact sequence 0 to ad(P) to TP/G to TM to 0 associated to a principal bundle."
 aliases = ["atiyah-sequence-tpgtm0", "Atiyah sequence"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/atiyah-algebroid-of-a-principal-bundle", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/atiyah-sequence-tpgtm0.md"
+prerequisites = ["fiber-bundles/atiyah-algebroid-of-a-principal-bundle", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle with Lie algebra \(\mathfrak{g}\). Its [[fiber-bundles/atiyah-algebroid-of-a-principal-bundle|Atiyah algebroid]] is \(A(P)=TP/G\to M\), equipped with the anchor \(a:A(P)\to TM\) induced by \(d\pi\).

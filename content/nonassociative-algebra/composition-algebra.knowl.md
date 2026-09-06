@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A unital algebra with a nondegenerate quadratic norm that composes under multiplication."
 aliases = ["Hurwitz algebra", "unital composition algebra"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/nonassociative-algebra", "linear-algebra/quadratic-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/nonassociative-algebra", "linear-algebra/quadratic-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field of characteristic different from \(2\). A **composition algebra** over \(k\) is a finite-dimensional unital [[nonassociative-algebra/nonassociative-algebra|algebra]] \(A\) with a nondegenerate [[linear-algebra/quadratic-form|quadratic form]] \(N:A\to k\) such that

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function continuous on a closed interval is Riemann integrable."
 aliases = ["riemann-integral-continuous-exists", "Continuous functions are Riemann integrable"]
 domains = ["real-analysis"]
-prerequisites = ["topology/continuous-map", "real-analysis/riemann-integrable-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integral-continuous-exists.md"
+prerequisites = ["topology/continuous-map", "real-analysis/riemann-integrable-function", "real-analysis/riemann-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Continuous implies Riemann integrable:** Let \(a<b\). If \(f:[a,b]\to\mathbb{R}\) is continuous (as a [[topology/continuous-map|continuous map]]), then \(f\) is a [[real-analysis/riemann-integrable-function|Riemann integrable function]] on \([a,b]\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A field for which every algebraic extension is separable."
 aliases = ["perfect-field", "Perfect field"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/separable-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/perfect-field.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/separable-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a [[algebra-rings/field|field]].

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Dirichlet-type trace function that records the spectral growth of the Dirac operator in a spectral triple."
 aliases = ["Dirac zeta function", "zeta_D", "zeta function of D"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/operator-trace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/operator-trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,H,D)\) be a [[noncommutative-geometry/spectral-triple|spectral triple]]. Write \(|D|^{-s}\) for the complex power that is zero on \(\ker D\) and equals \(\lambda^{-s}\) on the positive spectral value \(\lambda\). The **spectral zeta function** is

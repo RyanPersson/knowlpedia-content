@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie group action on a manifold given by a smooth map G×M→M satisfying the action axioms."
 aliases = ["smooth-action-lie-group", "Smooth action of a Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/principal-homogeneous-space", "lie-groups/transitive-action-lie", "lie-groups/one-parameter-subgroup", "lie-groups/effective-action"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/smooth-action-lie-group.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(G\) be a Lie group and \(M\) a smooth manifold. A **smooth (left) action** of \(G\) on \(M\) is a smooth map

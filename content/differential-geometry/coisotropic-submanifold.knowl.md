@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A submanifold whose tangent spaces contain their symplectic orthogonal complements."
 aliases = ["co-isotropic submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/coisotropic-subspace", "fiber-bundles/smooth-embedding"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/coisotropic-subspace", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] and \(C\subseteq M\) an [[differential-geometry/embedded-submanifold|embedded submanifold]]. For \(p\in C\), let

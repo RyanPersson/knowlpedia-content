@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The dual Haar measure is the uniquely normalized Haar measure on the Pontryagin dual that makes Fourier transformation unitary on L2."
 aliases = ["Plancherel-normalized Haar measure", "dual measure on the Pontryagin dual"]
 domains = ["harmonic-analysis", "measure-theory", "functional-analysis"]
-prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/fourier-transform-lca", "functional-analysis/unitary-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/fourier-transform-lca", "functional-analysis/unitary-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] that is [[algebra-groups/abelian-group|abelian]], with [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\), and let \(\widehat G\) be its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]]. The **dual Haar measure** \(\widehat\mu\) is the unique Haar measure on \(\widehat G\) for which the [[harmonic-analysis/fourier-transform-lca|Fourier transform]]

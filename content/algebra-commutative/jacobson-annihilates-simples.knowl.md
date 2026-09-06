@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For every simple right R-module S, the Jacobson radical satisfies S J(R) = 0."
 aliases = ["jacobson-annihilates-simples", "Jacobson radical annihilates simple modules"]
 domains = ["algebra-commutative"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/jacobson-annihilates-simples.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring, let \(J(R)\) be its Jacobson radical, and let \(S\) be a simple right \(R\)-module. Then

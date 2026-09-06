@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "f is quasiconvex iff all sublevel sets {x: f(x)≤α} are convex"
 aliases = ["quasiconvexity-characterized-by-convex-sublevel-sets", "Quasiconvexity via convex sublevel sets"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/quasiconvex-function", "convex-analysis/convex-set"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/quasiconvexity-characterized-by-convex-sublevel-sets.md"
+prerequisites = ["convex-analysis/quasiconvex-function", "convex-analysis/convex-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

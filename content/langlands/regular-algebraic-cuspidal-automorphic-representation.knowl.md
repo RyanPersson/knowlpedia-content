@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A cuspidal automorphic representation of a general linear group with regular integral archimedean infinitesimal character."
 aliases = ["RACAR", "regular algebraic cuspidal representation", "regular algebraic cuspidal automorphic representation of GLn"]
 domains = ["langlands", "number-theory", "representation-theory"]
-prerequisites = ["algebra-fields-galois/number-field", "langlands/cuspidal-automorphic-representation", "lie-groups/infinitesimal-character", "langlands/c-algebraic-automorphic-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/number-field", "langlands/cuspidal-automorphic-representation", "lie-groups/infinitesimal-character", "langlands/c-algebraic-automorphic-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

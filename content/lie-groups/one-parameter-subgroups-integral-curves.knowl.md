@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Exponentials give flows of invariant vector fields; invariant flows recover one-parameter subgroups."
 aliases = ["one-parameter-subgroups-integral-curves", "One-parameter subgroups as integral curves"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-invariant-vector-field", "lie-groups/left-translation", "lie-groups/exponential-map-lie-group", "lie-groups/right-invariant-vector-field"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/one-parameter-subgroups-integral-curves.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/left-invariant-vector-field", "lie-groups/left-translation", "lie-groups/exponential-map-lie-group", "lie-groups/right-invariant-vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak g\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A vector field on a Lie group that is unchanged by all right translations."
 aliases = ["right-invariant-vector-field", "Right-Invariant Vector Field"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/vector-field", "lie-groups/right-translation"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/right-invariant-vector-field.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/vector-field", "lie-groups/right-translation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A [[fiber-bundles/vector-field|vector field]] \(X\) on \(G\) is **right-invariant** if for every \(g\in G\),

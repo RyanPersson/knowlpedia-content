@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Uniform Hilbert-transform and transverse Hessian bounds make a linewise Poisson extension plurisubharmonic after adding a multiple of the imaginary norm."
 aliases = ["Exact PSH-BM", "exact PSH Beurling–Malliavin proposition"]
 domains = ["harmonic-analysis", "several-complex-variables"]
-prerequisites = ["complex-analysis/plurisubharmonic-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/plurisubharmonic-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\omega:\mathbb R^d\to\mathbb R_{\le0}\) be \(C^2\) and compactly

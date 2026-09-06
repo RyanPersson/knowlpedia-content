@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A homomorphism of commutative rings A→B is integral when every element of B satisfies a monic polynomial over A."
 aliases = ["integral-extension", "Integral extension"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/integral-extension.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\to B\) be a homomorphism of [[algebra-rings/commutative-ring|commutative rings]]. The map (or extension) is **integral** if every \(b\in B\) is [[algebra-commutative/integral-element|integral over \(A\)]]: for each \(b\), some monic polynomial in \(A[T]\) has \(b\) as a root.

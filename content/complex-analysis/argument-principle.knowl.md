@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The logarithmic derivative counts zeros minus poles inside a contour."
 aliases = ["principle of the argument"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/meromorphic-function", "complex-analysis/complex-contour-integral", "complex-analysis/winding-number", "complex-analysis/logarithmic-derivative", "complex-analysis/residue-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f\) be meromorphic on a domain containing a positively oriented simple closed contour \(\gamma\) and its interior, with no zeros or poles on \(\gamma\). If \(N\) and \(P\) are the numbers of zeros and poles inside \(\gamma\), counted with multiplicity, then

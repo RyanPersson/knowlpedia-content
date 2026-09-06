@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A maximal p-subgroup of a finite group, of order equal to the largest p-power dividing the group order"
 aliases = ["sylow-subgroup", "Sylow p-subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/p-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylow-subgroup.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/p-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite [[algebra-groups/group|group]] and let \(p\) be a prime. Write

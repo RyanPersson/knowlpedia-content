@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Uniformly continuous maps send Cauchy sequences to Cauchy sequences"
 aliases = ["uniform-continuity-preserves-cauchy", "Uniform continuity preserves Cauchy sequences"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "real-analysis/uniform-continuity", "topology/cauchy-sequence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-continuity-preserves-cauchy.md"
+prerequisites = ["real-analysis/uniform-continuity", "topology/cauchy-sequence"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d_X)\) and \((Y,d_Y)\) be [[topology/metric-space|metric spaces]] and let \(f:X\to Y\) be [[real-analysis/uniform-continuity|uniformly continuous]].

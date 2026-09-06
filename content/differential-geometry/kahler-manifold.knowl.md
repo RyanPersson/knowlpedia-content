@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Hermitian manifold whose fundamental two-form is closed."
 aliases = ["Kählerian manifold", "Kahler manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/hermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric", "differential-geometry/holomorphic-tangent-bundle", "linear-algebra/bilinear-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hermitian-manifold", "differential-geometry/fundamental-form-almost-hermitian", "differential-geometry/complex-manifold", "fiber-bundles/hermitian-metric"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,J,g)\) be a [[differential-geometry/hermitian-manifold|Hermitian manifold]], and let

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function that equals 1 on a set and 0 outside it."
 aliases = ["indicator-function", "Indicator function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-space","measure-theory/measurable-function","measure-theory/measurable-set"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/indicator-function.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 An **indicator function** of a subset \(A\subseteq X\) is the function \(\mathbf 1_A:X\to\{0,1\}\) defined by \(\mathbf 1_A(x)=1\) for \(x\in A\) and \(\mathbf 1_A(x)=0\) for \(x\notin A\).

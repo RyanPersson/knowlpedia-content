@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The least projection on which a normal positive functional is concentrated."
 aliases = ["carrier projection of a functional"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-functional", "operator-algebras/projection-cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/normal-functional", "operator-algebras/projection-cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]

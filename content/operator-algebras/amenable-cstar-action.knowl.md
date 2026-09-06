@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A C*-dynamical action admitting an equivariant conditional mean after passage to the bidual."
 aliases = ["amenable C*-dynamical system", "amenable group action"]
 domains = ["operator-algebras", "dynamical-systems"]
-prerequisites = ["operator-algebras/cstar-dynamical-system", "lie-groups/left-translation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-dynamical-system", "lie-groups/left-translation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system| \(C^*\)-dynamical system]]. In the Anantharaman-Delaroche convention,

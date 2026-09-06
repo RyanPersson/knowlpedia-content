@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A proper ideal maximal under inclusion; in the commutative unital case, equivalently the quotient is a field."
 aliases = ["maximal-ideal", "Maximal ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/maximal-ideal.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] with \(1\neq 0\). A **maximal ideal** \(M\subsetneq R\) is a proper [[algebra-rings/ideal|ideal]] such that there is no ideal \(I\) with \(M\subsetneq I\subsetneq R\).

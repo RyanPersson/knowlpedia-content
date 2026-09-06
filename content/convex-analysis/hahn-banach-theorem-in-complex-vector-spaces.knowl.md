@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Complex linear functionals dominated by a seminorm extend to the whole space."
 aliases = ["hahn-banach-theorem-in-complex-vector-spaces", "Hahn–Banach Theorem (Complex Vector Spaces)"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "convex-analysis/seminorm"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/hahn-banach-theorem-in-complex-vector-spaces.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "convex-analysis/seminorm", "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a complex [[linear-algebra/vector-space|vector space]], let \(Y\subset X\) be a [[convex-analysis/linear-subspace|linear subspace]], and let \(p:X\to\mathbb{R}\) be a [[convex-analysis/seminorm|seminorm]].

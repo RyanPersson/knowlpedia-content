@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Standard inequalities and identities involving limit superior and limit inferior."
 aliases = ["limsup-liminf-properties", "Basic Properties of limsup and liminf"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/limit-superior", "real-analysis/limit-inferior"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limsup-liminf-properties.md"
+prerequisites = ["real-analysis/limit-superior", "real-analysis/limit-inferior"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((a_n)\) and \((b_n)\) be real sequences. Their [[real-analysis/limit-superior|limit superior]] and [[real-analysis/limit-inferior|limit inferior]], regarded as extended real numbers, satisfy:

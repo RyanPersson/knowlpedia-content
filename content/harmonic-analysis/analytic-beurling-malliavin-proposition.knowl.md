@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A controlled plurisubharmonic function is majorized by the logarithmic modulus of a nonvanishing entire L2 function with matching growth."
 aliases = ["A-BM", "analytic BM proposition"]
 domains = ["harmonic-analysis", "several-complex-variables"]
-prerequisites = ["complex-analysis/entire-function-several-variables"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/entire-function-several-variables"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(u:\mathbb C^d\to\mathbb R\) be plurisubharmonic, with \(u|_{\mathbb R^d}

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A Lie algebra homomorphism from a Lie algebra to endomorphisms of a vector space."
 aliases = ["representation-of-a-lie-algebra", "Representation of a Lie Algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "linear-algebra/vector-space", "lie-groups/lie-algebra-homomorphism", "linear-algebra/linear-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "lie-groups/representation-of-a-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra", "linear-algebra/vector-space", "lie-groups/lie-algebra-homomorphism", "linear-algebra/linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak{g}\) be a [[lie-groups/lie-algebra|Lie algebra]] and let \(V\) be a [[linear-algebra/vector-space|vector space]].

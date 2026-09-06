@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "A bounded set porous on every line admits band-limited damping functions with enhanced decay on that set."
 aliases = ["line porous sets admit damping functions"]
 domains = ["harmonic-analysis", "analysis"]
-prerequisites = ["analysis/porosity-on-lines", "harmonic-analysis/damping-function"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["analysis/porosity-on-lines", "harmonic-analysis/damping-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(Y\subseteq[-3h^{-1},3h^{-1}]^d\) be

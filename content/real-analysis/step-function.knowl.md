@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function that is constant on each subinterval of some partition."
 aliases = ["step-function", "Step function"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/partition-of-an-interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/step-function.md"
+prerequisites = ["shared-foundations/function", "real-analysis/partition-of-an-interval"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **step function** on \([a,b]\) is a [[shared-foundations/function|function]] \(s:[a,b]\to\mathbb R\) for which there exists a [[real-analysis/partition-of-an-interval|partition]] \(P=\{x_0,\dots,x_n\}\) and constants \(c_1,\dots,c_n\) such that

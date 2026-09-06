@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The theorem that states detect positivity and recover the norm of every positive element of a C-star algebra."
 aliases = ["state separation theorem", "norm of a positive element by states"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/positive-element"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/positive-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\neq0\) be a complex

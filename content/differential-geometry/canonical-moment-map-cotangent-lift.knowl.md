@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The cotangent lift of a Lie group action is Hamiltonian with moment map given by pairing covectors with infinitesimal generators."
 aliases = ["cotangent-lift moment map"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "differential-geometry/cotangent-lift", "differential-geometry/equivariant-moment-map", "differential-geometry/hamiltonian-lie-group-action"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "differential-geometry/cotangent-lift", "differential-geometry/equivariant-moment-map", "differential-geometry/hamiltonian-lie-group-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act on \(Q\) by a [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth Lie group action]], and let it act on \(T^*Q\) by the [[differential-geometry/cotangent-lift|cotangent lift]]. With \(\omega_{\mathrm{can}}=-d\theta\) and \(\xi_Q(q)=\left.\frac{d}{dt}\right|_0\exp(t\xi)\cdot q\), define

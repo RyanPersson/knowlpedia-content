@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A discrete multiscale porosity condition expressed by an empty child in every occupied cube."
 aliases = ["box porous set", "L-adic box porosity"]
 domains = ["analysis", "geometric-measure-theory", "harmonic-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix an integer \(L\ge3\). Partition \([-1,1]^d\) at depth \(n\) into congruent

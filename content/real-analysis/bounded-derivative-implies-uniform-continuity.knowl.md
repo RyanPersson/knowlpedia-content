@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differentiable function with bounded derivative is Lipschitz, hence uniformly continuous."
 aliases = ["bounded-derivative-implies-uniform-continuity", "Bounded derivative implies uniform continuity"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-derivative-implies-uniform-continuity.md"
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Bounded derivative implies uniform continuity:** Let \(I\subseteq\mathbb R\) be an [[real-analysis/interval|interval]] and let \(f:I\to\mathbb R\) be [[real-analysis/differentiability-1d|differentiable]] on \(I\). If there is a constant \(M\) such that \(|f'(t)|\le M\) for all \(t\in I\), then for all \(x,y\in I\),

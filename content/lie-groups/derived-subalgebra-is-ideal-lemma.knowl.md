@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For any Lie algebra g, its commutator subalgebra [g,g] is an ideal of g."
 aliases = ["derived-subalgebra-is-ideal-lemma", "Derived subalgebra is an ideal"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/derived-subalgebra", "lie-groups/ideal-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/derived-subalgebra-is-ideal-lemma.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/derived-subalgebra", "lie-groups/ideal-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]]. Its [[lie-groups/derived-subalgebra|derived subalgebra]] \([\mathfrak g,\mathfrak g]\) is an [[lie-groups/ideal-lie-algebra|ideal]] in \(\mathfrak g\); equivalently,

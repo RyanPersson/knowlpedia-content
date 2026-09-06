@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The distinguished automorphism class of regular embeddings of the complexified Standard Model Lie algebra in e7 used in the three-generation construction."
 aliases = ["good embedding of the Standard Model Lie algebra in e7", "good gSM subalgebra of e7"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["mathematical-physics/standard-model-lie-algebra", "lie-groups/exceptional-lie-algebra-e7", "lie-groups/regular-lie-subalgebra", "lie-groups/removing-a-simple-root", "lie-groups/maximal-levi-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/standard-model-lie-algebra", "lie-groups/exceptional-lie-algebra-e7", "lie-groups/regular-lie-subalgebra", "lie-groups/removing-a-simple-root", "lie-groups/maximal-levi-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If int(Ω1)≠∅ and int(Ω1)∩Ω2=∅, then Ω1 and Ω2 are separable by a continuous functional."
 aliases = ["separation-by-closed-hyperplane-under-interior-condition", "Separation by Closed Hyperplane Under an Interior Condition"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/separation-by-a-closed-hyperplane", "convex-analysis/separation-of-two-convex-sets-via-the-core-condition", "convex-analysis/continuity-of-linear-functionals-via-closed-level-sets"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/separation-by-closed-hyperplane-under-interior-condition.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/separation-by-a-closed-hyperplane", "convex-analysis/separation-of-two-convex-sets-via-the-core-condition", "convex-analysis/continuity-of-linear-functionals-via-closed-level-sets"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[convex-analysis/norm-normed-vector-space|normed space]] and let \(\Omega_1,\Omega_2\subset X\) be nonempty [[convex-analysis/convex-set|convex sets]]. Assume that [[convex-analysis/interior-of-a-set|int(Ω₁)]]\(\neq\emptyset\) and

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The space of smooth maps from one smooth manifold to another, with topology and smooth structure specified by the chosen mapping-space framework."
 aliases = ["smooth mapping space", "C-infinity mapping space", "C∞(M,N)"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/category-of-smooth-manifolds"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/category-of-smooth-manifolds"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifolds]] \(M\) and \(N\), the [[fiber-bundles/smooth-map|smooth maps]] from \(M\) to \(N\) form the **space of smooth maps**

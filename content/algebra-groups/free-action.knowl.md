@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An action in which only the identity can fix a point"
 aliases = ["free-action", "Free Action"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-action", "algebra-groups/stabilizer"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/free-action.md"
+prerequisites = ["algebra-groups/group-action", "algebra-groups/stabilizer"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-groups/group-action|group action]] of a group \(G\) on a set \(X\) is **free** if every [[algebra-groups/stabilizer|stabilizer]] is trivial:

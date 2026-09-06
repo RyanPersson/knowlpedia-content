@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A weak derivative is a locally integrable function representing a function's distributional derivative."
 aliases = ["Sobolev derivative", "generalized weak derivative"]
 domains = ["functional-analysis", "partial-differential-equations", "sobolev-spaces"]
-prerequisites = ["measure-theory/lebesgue-integrable-function", "functional-analysis/distributional-derivative", "measure-theory/almost-everywhere"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["measure-theory/lebesgue-integrable-function", "functional-analysis/distributional-derivative", "measure-theory/almost-everywhere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Omega\subseteq\mathbb R^n\) be open and let \(f\) be locally

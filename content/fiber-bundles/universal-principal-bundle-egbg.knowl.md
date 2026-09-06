@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A canonical principal G-bundle whose pullbacks classify principal G-bundles over paracompact bases."
 aliases = ["universal-principal-bundle-egbg", "Universal principal bundle EG→BG"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/homotopy-class-mbg"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/universal-principal-bundle-egbg.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/homotopy-class-mbg"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **universal principal \(G\)-bundle** is a principal \(G\)-bundle \(\pi:EG\to BG\) whose total space \(EG\) is contractible and that has the classification property below. Its base is the quotient

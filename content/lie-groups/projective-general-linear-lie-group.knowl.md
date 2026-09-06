@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The real or complex general linear Lie group modulo its closed central subgroup of scalar matrices."
 aliases = ["PGL Lie group", "projective linear Lie group"]
 domains = ["lie-groups", "algebra-groups"]
-prerequisites = ["lie-groups/quotient-lie-group", "algebra-groups/projective-general-linear-group", "fiber-bundles/smooth-submersion"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/quotient-lie-group", "algebra-groups/projective-general-linear-group", "fiber-bundles/smooth-submersion"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathbb F=\mathbb R\) or \(\mathbb C\), and let \(n\ge2\). The **projective general linear Lie group** is the [[lie-groups/quotient-lie-group|quotient Lie group]]

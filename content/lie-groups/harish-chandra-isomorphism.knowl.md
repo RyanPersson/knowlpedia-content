@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The theorem identifying the center of a semisimple enveloping algebra with Weyl-invariant polynomials on a Cartan subalgebra."
 aliases = ["radial component isomorphism for Z(U(g))", "Harish-Chandra homomorphism"]
 domains = ["lie-groups", "algebra-representation-theory"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/weyl-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/weyl-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]], let \(\mathfrak h\) be a [[lie-groups/cartan-subalgebra|Cartan subalgebra]], and choose [[lie-groups/positive-root|positive roots]] with half-sum \(\rho\). The Poincaré–Birkhoff–Witt decomposition defines a projection from [[lie-groups/center-of-universal-enveloping-algebra|\(Z(U(\mathfrak g))\)]] to \(U(\mathfrak h)\cong S(\mathfrak h)\). Composing it with the translation \(H\mapsto H-\rho(H)\) gives the **Harish–Chandra homomorphism**

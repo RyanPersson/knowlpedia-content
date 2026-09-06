@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The local Weil group augmented by monodromy, presented either with an additive factor or an auxiliary SL_2."
 aliases = ["Weil-Deligne group", "local Langlands group", "W_F prime"]
 domains = ["langlands", "algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/group-scheme", "langlands/weil-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/group-scheme", "langlands/weil-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

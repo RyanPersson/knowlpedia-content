@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The theorem representing invariant eigendistributions by locally integrable functions analytic on regular semisimple elements."
 aliases = ["regularity of invariant eigendistributions", "character regularity theorem"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "functional-analysis/distribution", "algebra-groups/centralizer"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "functional-analysis/distribution", "algebra-groups/centralizer"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected real reductive [[fiber-bundles/lie-group|Lie group]]. Suppose \(\Theta\) is a conjugation-invariant [[functional-analysis/distribution|distribution]] on \(G\) and a joint eigendistribution for the invariant differential operators coming from \(Z(U(\mathfrak g_\mathbb C))\). The **Harish–Chandra regularity theorem** states that there is a locally integrable function \(F_\Theta\) whose associated distribution is \(\Theta\), and that \(F_\Theta\) is real analytic on the regular semisimple set \(G_{\mathrm{reg}}\). Here an element is regular semisimple when its [[algebra-groups/centralizer|centralizer]] has the minimal possible dimension. Equality with \(\Theta\) is distributional; values of \(F_\Theta\) on measure-zero singular sets are not determined.

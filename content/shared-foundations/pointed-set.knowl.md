@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A set equipped with a distinguished element called its basepoint."
 aliases = ["based set", "set with basepoint", "pointed object in Set"]
 domains = ["shared-foundations", "category-theory", "topology"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **pointed set** is a pair \((X,x_0)\) consisting of a set \(X\) and a

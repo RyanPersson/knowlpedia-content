@@ -5,19 +5,24 @@ kind = "knowl"
 summary = "The Lie group GL(V) of invertible linear maps on a finite-dimensional vector space."
 aliases = ["general-linear-group", "General linear group"]
 domains = ["lie-groups"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "lie-groups/general-linear-group.md"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map", "algebra-groups/group", "convex-analysis/basis-hamel-basis-and-dimension", "linear-algebra/determinant"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(V\) be a finite-dimensional real or complex vector space.
+Let \(V\) be a real or complex vector space of finite dimension \(n\ge 1\).
 
 **Definition (General linear group).**
 The **general linear group** of \(V\) is
 \[
 \mathrm{GL}(V)=\{A:V\to V \text{ linear and invertible}\},
 \]
-with group operation given by composition. After choosing a basis, \(\mathrm{GL}(V)\cong \mathrm{GL}_n(\mathbb F)\) where \(\mathbb F=\mathbb R\) or \(\mathbb C\) and
+with group operation given by composition.
+
+## Matrix realization
+
+After choosing a basis, \(\mathrm{GL}(V)\cong \mathrm{GL}_n(\mathbb F)\) where \(\mathbb F=\mathbb R\) or \(\mathbb C\) and
 \[
 \mathrm{GL}_n(\mathbb F)=\{A\in M_n(\mathbb F):\det(A)\ne 0\}.
 \]

@@ -5,15 +5,18 @@ kind = "knowl"
 summary = "A function between rings preserving addition and multiplication."
 aliases = ["ring-homomorphism", "Ring homomorphism"]
 domains = ["algebra-rings"]
-prerequisites = ["shared-foundations/function", "algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/ring-homomorphism.md"
+prerequisites = ["shared-foundations/function", "algebra-rings/ring"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **ring homomorphism** is a [[shared-foundations/function|function]] \(\varphi:R\to S\) between [[algebra-rings/ring|rings]] such that for all \(a,b\in R\),
 \[
 \varphi(a+b)=\varphi(a)+\varphi(b),\qquad \varphi(ab)=\varphi(a)\varphi(b).
 \]
+## Unital homomorphisms
+
 If \(R,S\) are unital, some authors additionally require \(\varphi(1_R)=1_S\); this is then called a *unital* homomorphism. The definition above does not impose that condition, so it also applies to the nonunital rings allowed here.
 
 ## Remarks

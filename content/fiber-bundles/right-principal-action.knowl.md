@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth right action of a Lie group on a bundle total space that is free and transitive along each fiber."
 aliases = ["right-principal-action", "Right principal action"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/right-principal-action.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \(\pi:P\to M\) be a surjective submersion of [[fiber-bundles/smooth-manifold|smooth manifolds]].

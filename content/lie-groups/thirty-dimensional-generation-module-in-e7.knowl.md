@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Each 30-root projection class in E7 is an sl6 module Λ²C⁶ plus Λ⁴C⁶ and restricts to one Standard Model generation without two neutrino singlets."
 aliases = ["30-dimensional generation module", "generation module without right-handed neutrinos", "N k module in e7"]
 domains = ["lie-groups", "representation-theory", "mathematical-physics"]
-prerequisites = ["lie-groups/generation-plane", "lie-groups/exterior-power-representation", "lie-groups/representation-of-a-lie-algebra", "lie-groups/lie-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/generation-plane", "lie-groups/exterior-power-representation", "lie-groups/representation-of-a-lie-algebra", "lie-groups/lie-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a labeled defining weight \(w_k\) in the [[lie-groups/generation-plane|generation plane]], let

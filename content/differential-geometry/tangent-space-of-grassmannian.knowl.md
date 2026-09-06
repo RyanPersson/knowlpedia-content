@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The tangent space at a subspace in a Grassmannian is canonically the space of linear maps from that subspace to its quotient."
 aliases = ["tangent space to Gr(k,V)"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "differential-geometry/grassmannian", "differential-geometry/tangent-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "differential-geometry/grassmannian", "differential-geometry/tangent-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional real or complex [[linear-algebra/vector-space|vector space]], and let \(W\) be a point of the [[differential-geometry/grassmannian|Grassmannian]] \(\operatorname{Gr}_k(V)\). Its [[differential-geometry/tangent-space|tangent space]] has a canonical linear identification

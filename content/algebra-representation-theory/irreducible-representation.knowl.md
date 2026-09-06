@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonzero representation with no proper, nontrivial invariant subspaces."
 aliases = ["irreducible-representation", "Irreducible representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/subrepresentation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/irreducible-representation.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/subrepresentation", "algebra-modules/simple-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\rho)\) be a finite-dimensional [[algebra-representation-theory/group-representation|group representation]] of a group \(G\) over a field \(k\). The representation \(V\neq 0\) is **irreducible** if its only [[algebra-representation-theory/subrepresentation|subrepresentations]] are \(0\) and \(V\) itself.

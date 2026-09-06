@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The simultaneous eigenspace of a representation corresponding to a weight on an abelian subalgebra."
 aliases = ["weight-space", "Weight space"]
 domains = ["lie-groups"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "lie-groups/weight-space.md"
+prerequisites = ["lie-groups/representation-of-a-lie-algebra", "lie-groups/cartan-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex Lie algebra, let \(\mathfrak h\subseteq\mathfrak g\) be an abelian subalgebra, and let \(\rho:\mathfrak g\to\mathfrak{gl}(V)\) be a representation. For \(\lambda\in\mathfrak h^\ast\), the **\(\lambda\)-weight space** is

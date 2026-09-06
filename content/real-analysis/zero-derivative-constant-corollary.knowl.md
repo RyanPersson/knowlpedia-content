@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If f' vanishes everywhere on an interval, the function is constant"
 aliases = ["zero-derivative-constant-corollary", "Zero derivative implies constant"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/differentiability-one-variable", "real-analysis/mean-value-theorem"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/zero-derivative-constant-corollary.md"
+prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/differentiability-one-variable", "real-analysis/mean-value-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:[a,b]\to\mathbb{R}\) be [[real-analysis/continuity-on-a-set|continuous]] on \([a,b]\) and [[real-analysis/differentiability-one-variable|differentiable]] on \((a,b)\).

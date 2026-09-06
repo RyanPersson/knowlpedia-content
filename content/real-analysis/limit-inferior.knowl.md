@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The supremum of the infima of the tails of an extended-real sequence."
 aliases = ["limit-inferior", "Limit inferior"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-inferior.md"
+prerequisites = ["real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **limit inferior** of a sequence \((a_n)_{n\ge1}\) of extended real numbers is

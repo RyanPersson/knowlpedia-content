@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The algebraic direct limit equipped with the finest locally convex topology making its structure maps continuous."
 aliases = ["direct limit topology", "locally convex inductive limit"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/continuous-linear-map", "linear-algebra/linear-map", "topology/topological-space", "functional-analysis/topological-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/locally-convex-space", "functional-analysis/continuous-linear-map", "linear-algebra/linear-map", "topology/topological-space", "functional-analysis/topological-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((E_i,\phi_{ji})\) be a directed system of [[functional-analysis/locally-convex-space|locally convex spaces]] and [[functional-analysis/continuous-linear-map|continuous linear maps]], and let \(E=\varinjlim E_i\) be its algebraic direct limit with canonical [[linear-algebra/linear-map|linear maps]] \(\iota_i:E_i\to E\). The **locally convex inductive-limit topology** on \(E\) is the finest locally convex vector topology for which every \(\iota_i\) is continuous. The resulting locally convex space is denoted

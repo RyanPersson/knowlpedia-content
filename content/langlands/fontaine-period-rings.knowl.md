@@ -5,10 +5,10 @@ kind = "definition"
 summary = "Galois-equivariant p-adic coefficient rings whose invariant periods define Hodge–Tate, de Rham, crystalline, and semistable representations."
 aliases = ["p-adic period rings", "Fontaine's period rings", "B_HT B_dR B_cris B_st"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
-prerequisites = ["langlands-letter/knowls/p-adic-field", "langlands-letter/knowls/galois-extension-and-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/p-adic-field", "langlands-letter/knowls/galois-extension-and-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/\mathbb Q_p\) be a

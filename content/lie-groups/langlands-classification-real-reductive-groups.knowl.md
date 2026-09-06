@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every irreducible admissible representation of a real reductive group is the unique quotient of a standard module."
 aliases = ["Langlands quotient theorem", "nonunitary dual classification"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/langlands-quotient", "lie-groups/standard-module-real-reductive-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/langlands-quotient", "lie-groups/standard-module-real-reductive-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive Lie group]] and fix compatible standard parabolic subgroups and positive

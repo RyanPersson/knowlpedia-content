@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally convex space whose defining Banach-space transition maps are nuclear."
 aliases = ["nuclear locally convex space", "Grothendieck nuclear space"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/locally-convex-space", "linear-algebra/vector-space", "functional-analysis/topological-dual"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/locally-convex-space", "linear-algebra/vector-space", "functional-analysis/topological-dual"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a Hausdorff

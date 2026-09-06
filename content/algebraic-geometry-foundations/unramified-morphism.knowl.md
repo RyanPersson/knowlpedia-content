@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A locally finite type scheme morphism whose relative differentials vanish."
 aliases = ["unramified-morphism", "Unramified morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/locally-of-finite-type", "algebraic-geometry-foundations/relative-kahler-differentials", "algebraic-geometry-foundations/diagonal-morphism", "algebra-fields-galois/separable-extension"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/locally-of-finite-type", "algebraic-geometry-foundations/relative-kahler-differentials", "algebraic-geometry-foundations/diagonal-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

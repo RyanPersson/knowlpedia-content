@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The unitary representation obtained by inducing the character defined by a coadjoint functional from a polarizing subgroup."
 aliases = ["orbit representation", "Kirillov induced representation"]
 domains = ["lie-groups", "representation-theory", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/polarization-of-a-coadjoint-orbit", "fiber-bundles/exponential-map", "harmonic-analysis/unitary-induced-representation", "lie-groups/strongly-continuous-unitary-representation", "shared-foundations/equivalence-class", "differential-geometry/coadjoint-orbit"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/polarization-of-a-coadjoint-orbit", "fiber-bundles/exponential-map", "harmonic-analysis/unitary-induced-representation", "lie-groups/strongly-continuous-unitary-representation", "shared-foundations/equivalence-class", "differential-geometry/coadjoint-orbit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected, simply connected nilpotent [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), let \(\ell\in\mathfrak g^*\), and choose a real [[lie-groups/polarization-of-a-coadjoint-orbit|polarization]] \(\mathfrak p\) at \(\ell\). Since the [[fiber-bundles/exponential-map|exponential map]] is a diffeomorphism, \(P=\exp(\mathfrak p)\) is a closed connected subgroup. Subordination gives a unitary character

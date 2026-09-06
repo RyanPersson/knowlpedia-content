@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite linear combination of powers of a variable with real coefficients."
 aliases = ["polynomial"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/polynomial.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **polynomial** (in one real variable) is a function \(p:\mathbb{R}\to\mathbb{R}\) of the form

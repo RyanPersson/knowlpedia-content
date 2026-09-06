@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A functor that reverses the direction of morphisms; equivalently a functor C^op → D."
 aliases = ["contravariant-functor", "Contravariant functor"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/contravariant-functor.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C,\mathcal D\) be [[algebra-category-theory/category|categories]].

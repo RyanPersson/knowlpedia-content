@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset of continuous functions closed under linear combinations and pointwise products."
 aliases = ["subalgebra-of-continuous-functions", "Subalgebra of continuous functions"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/space-of-continuous-functions", "algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/subalgebra-of-continuous-functions.md"
+prerequisites = ["topology/topological-space", "real-analysis/space-of-continuous-functions", "algebra-rings/ring", "real-analysis/separates-points"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **subalgebra of continuous functions** on a [[topology/topological-space|topological space]] \(X\) is a subset \(A\subseteq C(X)\) (where \(C(X)\) is the [[real-analysis/space-of-continuous-functions|space of continuous functions]]) such that whenever \(f,g\in A\) and \(\alpha,\beta\in\mathbb{R}\), the functions \(\alpha f+\beta g\) and \(f\cdot g\) (pointwise product) also belong to \(A\). If \(A\) contains the constant function \(1\), it is called a unital subalgebra.

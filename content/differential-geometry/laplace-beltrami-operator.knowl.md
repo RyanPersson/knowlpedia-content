@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The negative metric trace of the covariant Hessian, with a sign chosen to be nonnegative in Riemannian signature."
 aliases = ["metric Laplacian", "scalar Laplacian", "Laplace-Beltrami operator"]
 domains = ["differential-geometry", "partial-differential-equations"]
-prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/principal-symbol"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/principal-symbol"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian manifold]] with [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]] \(\nabla\). In the convention used here, the **Laplace–Beltrami operator** on a smooth function \(f\) is

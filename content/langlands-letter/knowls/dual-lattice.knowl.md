@@ -5,11 +5,11 @@ kind = "knowl"
 summary = "The integral dual Hom(L,Z) of a finite free abelian group and its role in dual root data."
 aliases = ["dual-lattice", "Dual Lattice"]
 domains = ["langlands-letter"]
-prerequisites = ["algebra-groups/abelian-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/dual-lattice.md"
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **lattice** is a finite free [[algebra-groups/abelian-group|abelian group]] \(L\simeq\mathbb Z^r\). Its

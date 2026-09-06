@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The determinant of the trace-pairing matrix associated with a basis of a finite field extension."
 aliases = ["discriminant-field", "Discriminant (of a field basis)"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/trace-field", "algebra-fields-galois/separable-extension", "algebra-fields-galois/field-embedding"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/discriminant-field.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/trace-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L/K\) be a finite [[algebra-fields-galois/field-extension|field extension]] of degree \(n\), and let \(\mathrm{Tr}_{L/K}\) be the [[algebra-fields-galois/trace-field|field trace]]. For an \(n\)-tuple \(\mathbf{b}=(b_1,\dots,b_n)\) in \(L\) that is a \(K\)-basis of \(L\), the **discriminant** of \(\mathbf{b}\) (relative to \(L/K\)) is

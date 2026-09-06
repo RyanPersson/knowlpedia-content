@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Cup product with the Thom class shifts the cohomology of a bundle base into the relative cohomology of its total space."
 aliases = ["Thom isomorphism", "Thom-Gysin isomorphism"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/thom-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/thom-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to B\) be an \(R\)-oriented real [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a paracompact Hausdorff base, and let \(E^\times=E\setminus 0_E(B)\). If

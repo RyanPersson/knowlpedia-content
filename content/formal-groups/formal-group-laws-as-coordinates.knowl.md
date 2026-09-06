@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Group structures on a formal disc, expressed in chosen parameters, are exactly formal group laws."
 aliases = ["coordinate equivalence for formal groups", "formal groups with parameters", "formal group law coordinate presentation"]
 domains = ["formal-groups"]
-prerequisites = ["formal-groups/formal-affine-space", "formal-groups/formal-group-law", "formal-groups/formal-group-law-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["formal-groups/formal-affine-space", "formal-groups/formal-group-law", "formal-groups/formal-group-law-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a commutative base field \(k\) and \(n\geq0\). Giving a group-object

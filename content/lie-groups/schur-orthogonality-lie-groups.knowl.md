@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Matrix coefficients of distinct irreducible unitary representations are orthogonal in L²(G), with a sharp normalization."
 aliases = ["schur-orthogonality-lie-groups", "Schur orthogonality for compact Lie groups"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/compact-lie-group", "harmonic-analysis/haar-measure", "lie-groups/representation-of-a-lie-group", "lie-groups/irreducible-representation-lie-group", "lie-groups/peter-weyl-theorem", "lie-groups/completely-reducible-representation-lie"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "lie-groups/schur-orthogonality-lie-groups.md"
+prerequisites = ["lie-groups/compact-lie-group", "harmonic-analysis/haar-measure", "lie-groups/representation-of-a-lie-group", "lie-groups/irreducible-representation-lie-group", "lie-groups/peter-weyl-theorem", "lie-groups/completely-reducible-representation-lie"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]]. Fix the normalized [[harmonic-analysis/haar-measure|Haar measure]] \(dg\) on \(G\) (so \(\int_G 1\,dg=1\)). Let \((\pi,V)\) and \((\sigma,W)\) be finite-dimensional continuous unitary representations of \(G\) (see [[lie-groups/representation-of-a-lie-group|representation of a Lie group]]), with \(\pi,\sigma\) irreducible (see [[lie-groups/irreducible-representation-lie-group|irreducible representation]]). Choose orthonormal bases so that \(\pi(g)\) and \(\sigma(g)\) have matrix entries \(\pi_{ij}(g)\) and \(\sigma_{kl}(g)\).

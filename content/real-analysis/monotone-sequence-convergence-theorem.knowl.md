@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every bounded monotone real sequence converges, with limit given by a supremum or infimum."
 aliases = ["monotone-sequence-convergence-theorem", "Monotone Sequence Convergence Theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/monotone-sequence", "real-analysis/bounded-above", "real-analysis/bounded-below"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/monotone-sequence-convergence-theorem.md"
+prerequisites = ["real-analysis/monotone-sequence", "real-analysis/bounded-above", "real-analysis/bounded-below"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Monotone sequence convergence theorem:** Let \((a_n)\) be a [[real-analysis/monotone-sequence|monotone sequence]] of real numbers.

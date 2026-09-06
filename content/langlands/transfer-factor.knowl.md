@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A normalized scalar comparing orbital integrals of matching elements on an endoscopic group and the original group."
 aliases = ["transfer factor", "Langlands-Shelstad transfer factor", "endoscopic transfer factors"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
-prerequisites = ["langlands/endoscopic-datum", "langlands/strongly-regular-semisimple-element", "langlands/stable-orbital-integral", "langlands/orbital-integral", "harmonic-analysis/test-function-space-local-group", "algebra-groups/conjugacy-class", "langlands/kappa-orbital-integral"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands/endoscopic-datum", "langlands/strongly-regular-semisimple-element", "langlands/stable-orbital-integral", "langlands/orbital-integral", "harmonic-analysis/test-function-space-local-group", "algebra-groups/conjugacy-class", "langlands/kappa-orbital-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be the endoscopic group in an

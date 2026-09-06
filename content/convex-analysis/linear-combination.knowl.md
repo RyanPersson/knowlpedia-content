@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite sum of scalar multiples of vectors"
 aliases = ["linear-combination", "Linear combination"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/subspace-generated-by-a-set-span"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-combination.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] over a field \(K\). Given vectors \(x_1,\dots,x_m\in X\) and scalars \(\alpha_1,\dots,\alpha_m\in K\), a **linear combination** of \(x_1,\dots,x_m\) is any vector of the form

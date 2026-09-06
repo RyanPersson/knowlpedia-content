@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A closed Hilbert subspace preserved by every operator in a unitary group representation."
 aliases = ["reducing subspace", "invariant Hilbert subspace"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/closed-linear-subspace", "linear-algebra/orthogonal-complement"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/closed-linear-subspace", "linear-algebra/orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a group \(G\). A [[linear-algebra/closed-linear-subspace|closed linear subspace]] \(M\subseteq\mathcal H\) is **invariant** if

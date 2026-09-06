@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth manifold carrying three integrable complex structures that satisfy the quaternion relations."
 aliases = ["hypercomplex structure"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/integrable-almost-complex-structure", "differential-geometry/complex-manifold", "differential-geometry/tangent-space", "linear-algebra/quaternionic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/integrable-almost-complex-structure", "differential-geometry/complex-manifold", "differential-geometry/tangent-space", "linear-algebra/quaternionic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **hypercomplex manifold** is a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) equipped with three smooth bundle endomorphisms \(I,J,K:TM\to TM\) such that

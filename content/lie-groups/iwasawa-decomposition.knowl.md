@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The canonical KAN factorization of a real reductive Lie group after choices of Cartan and positive restricted-root data."
 aliases = ["KAN decomposition", "Iwasawa theorem"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive Lie

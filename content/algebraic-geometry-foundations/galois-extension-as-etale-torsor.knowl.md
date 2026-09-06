@@ -5,7 +5,8 @@ kind = "theorem"
 summary = "A finite Galois field extension gives a connected finite étale torsor on spectra."
 aliases = ["Galois extension as an étale torsor", "Galois torsor of spectra"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-fields-galois/galois-extension", "algebraic-geometry-foundations/connected-scheme", "algebraic-geometry-foundations/constant-finite-group-scheme", "algebraic-geometry-foundations/small-etale-site", "algebraic-geometry-foundations/g-torsor-on-a-site", "algebraic-geometry-foundations/galois-tensor-product-identity"]
+prerequisites = ["algebra-fields-galois/galois-extension", "algebraic-geometry-foundations/connected-scheme", "algebraic-geometry-foundations/constant-finite-group-scheme", "algebraic-geometry-foundations/small-etale-site", "algebraic-geometry-foundations/g-torsor-on-a-site"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

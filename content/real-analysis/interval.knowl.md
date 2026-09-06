@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset of the real line that contains every point between any two of its points."
 aliases = ["interval"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/interval.md"
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **interval** is a [[shared-foundations/subset|subset]] \(I\subseteq\mathbb R\) such that whenever \(a,c\in I\) and \(a<b<c\), then \(b\in I\).

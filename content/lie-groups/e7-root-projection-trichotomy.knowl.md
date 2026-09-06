@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Projection of an E7 root to the generation plane is zero, a defining A2 weight up to sign, or a generation A2 root."
 aliases = ["root projection trichotomy in E7", "generation-plane projection lemma"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["lie-groups/root-system", "lie-groups/generation-sl3-in-e7", "linear-algebra/orthogonal-projection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/root-system", "lie-groups/generation-sl3-in-e7", "linear-algebra/orthogonal-projection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Phi\subset V\) be the \(E_7\) [[lie-groups/root-system|root system]], let \(A\subset\Phi\) be the \(A_2\) root system of the [[lie-groups/generation-sl3-in-e7|generation \(\mathfrak{sl}_3\)]], let \(P=\operatorname{span}_{\mathbb R}A\), and let \(\pi:V\to P\) be [[linear-algebra/orthogonal-projection|orthogonal projection]]. If \(w_1,w_2,w_3\) are the defining \(A_2\) weights, then every \(r\in\Phi\) satisfies

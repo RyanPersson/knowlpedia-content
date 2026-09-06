@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An ungraded spectral triple representing the odd parity of analytic K-homology."
 aliases = ["ungraded spectral triple", "odd K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/involutive-algebra", "linear-algebra/hilbert-space", "noncommutative-geometry/analytic-k-homology", "noncommutative-geometry/even-spectral-triple"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/involutive-algebra", "linear-algebra/hilbert-space", "noncommutative-geometry/analytic-k-homology", "noncommutative-geometry/even-spectral-triple"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **odd spectral triple** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) regarded without a compatible \(\mathbb Z/2\)-grading: the data are the represented [[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\), [[linear-algebra/hilbert-space|Hilbert space]] \(H\), and self-adjoint operator \(D\), subject to the compactness and bounded-commutator axioms of a spectral triple. “Odd” names its parity in [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]; it does not mean that \(D\) has odd degree on an unstated grading. If a grading \(\Gamma\) commuting with \(\mathcal A\) and anticommuting with \(D\) is included, the resulting object is instead an [[noncommutative-geometry/even-spectral-triple|even spectral triple]].

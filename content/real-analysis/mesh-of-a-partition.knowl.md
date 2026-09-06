@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The length of the longest subinterval in a partition."
 aliases = ["mesh-of-a-partition", "Mesh of a partition"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/mesh-of-a-partition.md"
+prerequisites = ["real-analysis/tagged-partition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **mesh of a partition** \(P=\{x_0,\dots,x_n\}\) of \([a,b]\) is the number

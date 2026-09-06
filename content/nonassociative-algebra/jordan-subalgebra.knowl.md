@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear subspace closed under the Jordan product, with unit preservation stated separately."
 aliases = ["Jordan subalgebra", "Jordan-subalgebra"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/jordan-algebra", "convex-analysis/linear-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/jordan-algebra", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Jordan subalgebra** of a [[nonassociative-algebra/jordan-algebra|Jordan

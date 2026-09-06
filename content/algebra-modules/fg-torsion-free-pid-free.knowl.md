@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over a PID, finitely generated torsion-free modules are free."
 aliases = ["fg-torsion-free-pid-free", "Finitely generated torsion-free over a PID is free"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/torsion-free-module", "algebra-modules/free-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/fg-torsion-free-pid-free.md"
+prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/torsion-free-module", "algebra-modules/free-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Finitely generated torsion-free over a PID is free**: Let \(R\) be a PID and let \(M\) be a finitely generated torsion-free \(R\)-module. Then \(M\) is a free \(R\)-module.

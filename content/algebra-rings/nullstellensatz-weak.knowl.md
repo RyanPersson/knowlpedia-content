@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over an algebraically closed field, every proper ideal in a polynomial ring has a common zero."
 aliases = ["nullstellensatz-weak", "Hilbert's Nullstellensatz (weak)"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/field", "algebra-rings/ideal", "algebra-rings/polynomial-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/nullstellensatz-weak.md"
+prerequisites = ["algebra-rings/field", "algebra-rings/ideal", "algebra-rings/polynomial-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Hilbert's Nullstellensatz (weak)**: Let \(k\) be an algebraically closed [[algebra-rings/field|field]], and let \(I\) be a proper [[algebra-rings/ideal|ideal]] of the [[algebra-rings/polynomial-ring|polynomial ring]] \(k[x_1,\dots,x_n]\). Then the affine variety

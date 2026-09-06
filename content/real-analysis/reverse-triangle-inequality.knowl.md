@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The difference of norms is bounded by the norm of the difference"
 aliases = ["reverse-triangle-inequality", "Reverse triangle inequality"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/reverse-triangle-inequality.md"
+prerequisites = ["real-analysis/absolute-value", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Reverse triangle inequality**: In a normed vector space \((V,\|\cdot\|)\), for all \(u,v\in V\),

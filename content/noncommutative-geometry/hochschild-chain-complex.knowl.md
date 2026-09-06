@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The tensor chain complex of an associative algebra with coefficients in a bimodule and boundary given by adjacent multiplications."
 aliases = ["Hochschild chains", "Hochschild boundary b"]
 domains = ["noncommutative-geometry", "algebra-homological"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/bimodule", "algebra-homological/chain-complex"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/bimodule", "algebra-homological/chain-complex"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a [[algebra-rings/commutative-ring|commutative ring]], \(A\) a unital associative \(k\)-algebra, and \(M\) an [[algebra-modules/bimodule|\(A\)-bimodule]]. The **Hochschild chain complex** has

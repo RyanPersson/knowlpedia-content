@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A symmetric limiting prescription for certain singular or non-absolutely convergent integrals."
 aliases = ["principal value integral", "p.v. integral", "PV integral"]
 domains = ["real-analysis", "harmonic-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a function \(g\) singular at \(t=0\), its **Cauchy principal value** is

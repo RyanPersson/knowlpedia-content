@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Hermitian form defined by the mixed complex second derivatives of a twice differentiable real-valued function."
 aliases = ["complex Hessian", "ddbar Hessian"]
 domains = ["complex-analysis", "several-complex-variables", "differential-geometry"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["real-analysis/hessian-matrix", "shared-foundations/complex-numbers-c"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a real-valued \(C^2\) function \(u\) on an open subset of \(\mathbb C^d\),

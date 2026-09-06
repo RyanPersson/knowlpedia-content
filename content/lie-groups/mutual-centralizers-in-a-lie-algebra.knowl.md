@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Two subalgebras each equal to the full centralizer of the other in an ambient Lie algebra."
 aliases = ["mutual centralizers in a Lie algebra", "mutually centralizing Lie subalgebras", "reductive dual pair in a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-subalgebra", "lie-groups/centralizer-of-a-lie-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-subalgebra", "lie-groups/centralizer-of-a-lie-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Two [[lie-groups/lie-subalgebra|Lie subalgebras]] \(\mathfrak a,\mathfrak b\subseteq\mathfrak g\) are **mutual centralizers in \(\mathfrak g\)** if

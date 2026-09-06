@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A pointed commutative monoid equipped with an ideal of null formal sums and unique additive inverses."
 aliases = ["band in matroid theory", "Baker-Jin-Lorscheid band"]
 domains = ["algebra-hyperstructures", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-groups/commutative-monoid"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/commutative-monoid"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(B\) be a [[algebra-groups/commutative-monoid|commutative monoid]] with

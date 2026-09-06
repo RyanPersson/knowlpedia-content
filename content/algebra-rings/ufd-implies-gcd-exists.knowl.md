@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a unique factorization domain, any two elements admit a gcd unique up to associates."
 aliases = ["ufd-implies-gcd-exists", "UFD implies GCDs exist"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ufd", "algebra-rings/gcd", "algebra-rings/associated-elements"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/ufd-implies-gcd-exists.md"
+prerequisites = ["algebra-rings/ufd", "algebra-rings/gcd", "algebra-rings/prime-element", "algebra-rings/associated-elements"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **UFD implies GCDs exist**: Let \(R\) be a UFD and let \(a,b\in R\) be not both zero. Then there exists \(d\in R\) such that (i) \(d\mid a\) and \(d\mid b\), and (ii) if \(c\mid a\) and \(c\mid b\) then \(c\mid d\). Any two such \(d\) differ by multiplication by a unit; one writes \(d=\gcd(a,b)\).

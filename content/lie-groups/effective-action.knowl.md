@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie group action whose only element fixing every point is the identity."
 aliases = ["effective-action", "Effective action"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/effective-action.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold \(M\). The **kernel of the action** is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Operators adding/removing one symmetric tensor factor in bosonic Fock space"
 aliases = ["creation-annihilation-operators", "Creation and Annihilation Operators"]
 domains = ["shale-paper"]
-prerequisites = ["shale-paper/symmetric-fock-space"]
-dependency_review_count = 1
 legacy_source_path = "shale-paper/creation-annihilation-operators.md"
+prerequisites = ["shale-paper/symmetric-fock-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(z\in H\), the **creation operator** on the algebraic finite-particle subspace of [[shale-paper/symmetric-fock-space|symmetric Fock space]] \(S(H)\) is defined by

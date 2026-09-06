@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A bundle over a group whose fibers multiply and take adjoints like the homogeneous pieces of a C*-algebra."
 aliases = ["C*-algebraic bundle", "Banach *-algebraic bundle"]
 domains = ["operator-algebras", "harmonic-analysis"]
-prerequisites = ["topology/locally-compact-group", "operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. A

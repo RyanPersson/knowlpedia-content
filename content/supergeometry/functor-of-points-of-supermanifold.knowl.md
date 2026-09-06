@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The contravariant functor sending each test supermanifold to its family of points in a given supermanifold."
 aliases = ["functor of points in supergeometry", "S-points of a supermanifold"]
 domains = ["supergeometry", "algebraic-geometry-foundations"]
-prerequisites = ["supergeometry/supermanifold", "algebra-category-theory/contravariant-functor", "algebra-category-theory/natural-transformation", "algebra-category-theory/yoneda-lemma"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/supermanifold", "algebra-category-theory/contravariant-functor", "algebra-category-theory/natural-transformation", "algebra-category-theory/yoneda-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[supergeometry/supermanifold|supermanifold]] \(X\), its **functor of

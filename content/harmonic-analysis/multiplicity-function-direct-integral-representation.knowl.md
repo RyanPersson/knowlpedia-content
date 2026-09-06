@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A multiplicity function records the dimension of the multiplicity space attached to almost every irreducible fiber in a direct-integral decomposition."
 aliases = ["spectral multiplicity", "representation multiplicity function"]
 domains = ["harmonic-analysis", "representation-theory"]
-prerequisites = ["topology/locally-compact-group", "linear-algebra/hilbert-space", "harmonic-analysis/direct-integral-unitary-representations", "harmonic-analysis/unitary-dual", "measure-theory/measurable-function", "measure-theory/almost-everywhere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "linear-algebra/hilbert-space", "harmonic-analysis/direct-integral-unitary-representations", "harmonic-analysis/unitary-dual", "measure-theory/measurable-function", "measure-theory/almost-everywhere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a second-countable type I [[topology/locally-compact-group|locally compact group]] and \(U\) a unitary representation on a separable complex [[linear-algebra/hilbert-space|Hilbert space]]. Suppose \(U\) has the [[harmonic-analysis/direct-integral-unitary-representations|direct-integral disintegration]]

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The unique positive element whose square is a prescribed positive element."
 aliases = ["square root of a positive element"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-element", "operator-algebras/continuous-functional-calculus"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-element", "operator-algebras/continuous-functional-calculus"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and let

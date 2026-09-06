@@ -5,11 +5,11 @@ kind = "definition"
 summary = "A root-adapted basis of a split semisimple Lie algebra with normalized integral bracket constants."
 aliases = ["chevalley-basis", "Chevalley Basis"]
 domains = ["langlands-letter"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "langlands-letter/knowls/coroots-and-pairing"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/chevalley-basis.md"
 section_mode = "progressive"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-system", "lie-groups/simple-root", "langlands-letter/knowls/coroots-and-pairing"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a split [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] over a

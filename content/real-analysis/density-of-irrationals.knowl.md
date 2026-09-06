@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Between any two real numbers there is an irrational number."
 aliases = ["density-of-irrationals", "Density of the Irrationals"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/density-of-q", "real-analysis/interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/density-of-irrationals.md"
+prerequisites = ["real-analysis/density-of-q", "real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Density of the irrationals:** If \(a<b\) are real numbers, then there exists an irrational number \(x\in\mathbb{R}\setminus\mathbb{Q}\) such that \(a<x<b\). In fact, there are infinitely many such irrationals.

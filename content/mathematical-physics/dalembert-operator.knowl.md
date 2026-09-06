@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The scalar normally hyperbolic operator obtained from a Lorentzian metric."
 aliases = ["d'Alembertian", "wave operator", "box operator", "dalembert operator"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/laplace-beltrami-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/laplace-beltrami-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] \((M,g)\) of signature \((1,n-1)\), the **d’Alembert operator** or **wave operator** is

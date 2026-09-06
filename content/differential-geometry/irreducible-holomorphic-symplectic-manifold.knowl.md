@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compact simply connected Kähler manifold whose holomorphic two-forms are spanned by an everywhere nondegenerate form."
 aliases = ["IHS manifold", "compact hyperkähler manifold in the complex-geometric sense"]
 domains = ["differential-geometry", "complex-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/holomorphic-symplectic-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/holomorphic-symplectic-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **irreducible holomorphic symplectic manifold** is a compact, simply connected [[differential-geometry/kahler-manifold|Kähler manifold]] \(X\) such that

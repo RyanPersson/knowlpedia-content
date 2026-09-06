@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The image and kernel of a linear operator; bijective linear maps are isomorphisms"
 aliases = ["image-and-kernel-linear-isomorphism", "Image, kernel, and linear isomorphism"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/linear-operator-linear-transformation"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/image-and-kernel-linear-isomorphism.md"
+prerequisites = ["convex-analysis/linear-operator-linear-transformation", "convex-analysis/linear-subspace", "shared-foundations/image", "shared-foundations/preimage", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:X\to Y\) be a [[convex-analysis/linear-operator-linear-transformation|linear operator]] between vector spaces.

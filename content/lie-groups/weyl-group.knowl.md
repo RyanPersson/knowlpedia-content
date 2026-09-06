@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The finite group N_G(T)/T associated with a maximal torus, or equivalently the reflection group of a semisimple root system."
 aliases = ["weyl-group", "Weyl group"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/maximal-torus-theorem"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/weyl-group.md"
+prerequisites = ["lie-groups/maximal-torus-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a compact connected Lie group and let \(T\subset G\) be a maximal torus (see [[lie-groups/maximal-torus-theorem|maximal tori]]). The **Weyl group** of \(G\) is

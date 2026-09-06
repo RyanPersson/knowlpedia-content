@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ideal of all nilpotent elements of a commutative ring."
 aliases = ["nilradical"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/nilpotent-element", "algebra-rings/radical-of-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/nilradical.md"
+prerequisites = ["algebra-rings/nilpotent-element", "algebra-rings/radical-of-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a commutative ring. The **nilradical** of \(R\) is the set

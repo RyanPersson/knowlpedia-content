@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A left or right translate of a subgroup by a group element"
 aliases = ["coset"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/subgroup", "algebra-groups/group", "shared-foundations/equivalence-class", "shared-foundations/equivalence-relation", "shared-foundations/partition"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/coset.md"
+prerequisites = ["algebra-groups/subgroup", "algebra-groups/group"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **left coset** of a [[algebra-groups/subgroup|subgroup]] \(H\) in a [[algebra-groups/group|group]] \(G\) is a subset of \(G\) of the form

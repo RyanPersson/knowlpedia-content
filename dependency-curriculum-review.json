@@ -1,0 +1,3467 @@
+{
+  "version": 1,
+  "review_scope": "Second semantic pass across shared foundations, algebra, linear algebra, topology/analysis, measure/probability and smooth bundles. Complete prerequisite lists reviewed against the knowl bodies, distinguishing definitions from downstream properties and retaining theorem statement vocabulary.",
+  "entry_assumptions": [
+    "Elementary logic and set membership",
+    "Elementary real/complex arithmetic and Euclidean spaces",
+    "Euclidean C-infinity calculus and second countability where no dedicated canonical knowl currently exists"
+  ],
+  "baseline_nodes": 3501,
+  "baseline_edges": 10084,
+  "reviews": [
+    {
+      "id": "shared-foundations/natural-numbers",
+      "before": [
+        "shared-foundations/set"
+      ],
+      "after": [
+        "shared-foundations/set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The entry specifies the nonnegative counting convention as a set. Integer constructions, induction and well-ordering are subsequent topics; elementary arithmetic remains an entry assumption."
+    },
+    {
+      "id": "shared-foundations/identity-function",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "A function sending each element to itself. Composition and invertibility are subsequent properties."
+    },
+    {
+      "id": "shared-foundations/composition",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The formula applies one function after another; identity functions and inverses are not needed to define composition."
+    },
+    {
+      "id": "shared-foundations/injective-function",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The equality implication is stated directly for a function; cardinality comparisons are applications."
+    },
+    {
+      "id": "shared-foundations/surjective-function",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The quantified condition covers every codomain element; image notation is an equivalent formulation."
+    },
+    {
+      "id": "shared-foundations/bijective-function",
+      "before": [
+        "shared-foundations/function",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition combines injectivity and surjectivity of a function. Inverses and equal cardinality are consequences."
+    },
+    {
+      "id": "shared-foundations/inverse-function",
+      "before": [
+        "shared-foundations/bijective-function",
+        "shared-foundations/identity-function"
+      ],
+      "after": [
+        "shared-foundations/bijective-function",
+        "shared-foundations/identity-function",
+        "shared-foundations/composition"
+      ],
+      "review_count_before": 0,
+      "rationale": "Retain bijectivity and identity functions and restore composition used by both displayed inverse identities."
+    },
+    {
+      "id": "shared-foundations/complex-conjugate",
+      "before": [],
+      "after": [],
+      "review_count_before": 0,
+      "rationale": "The explicit a+bi to a-bi formula is elementary complex arithmetic, a documented entry assumption. Algebraic involutions and inverse computations are remarks."
+    },
+    {
+      "id": "shared-foundations/equivalence-relation",
+      "before": [
+        "shared-foundations/relation"
+      ],
+      "after": [
+        "shared-foundations/relation"
+      ],
+      "review_count_before": 0,
+      "rationale": "The three axioms are given for a relation. Classes, partitions and quotients are subsequent constructions."
+    },
+    {
+      "id": "shared-foundations/equivalence-class",
+      "before": [
+        "shared-foundations/equivalence-relation"
+      ],
+      "after": [
+        "shared-foundations/equivalence-relation"
+      ],
+      "review_count_before": 0,
+      "rationale": "The set of elements related to a fixed element requires the given equivalence relation. Quotient sets and partitions describe the collection afterward."
+    },
+    {
+      "id": "shared-foundations/quotient-set",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/equivalence-relation"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/equivalence-relation",
+        "shared-foundations/equivalence-class"
+      ],
+      "review_count_before": 0,
+      "rationale": "The quotient collects equivalence classes. Restore the class concept despite its link appearing in Remarks, after the formula."
+    },
+    {
+      "id": "shared-foundations/partition",
+      "before": [],
+      "after": [
+        "shared-foundations/subset",
+        "shared-foundations/empty-set",
+        "shared-foundations/intersection",
+        "shared-foundations/union"
+      ],
+      "review_count_before": 0,
+      "rationale": "All three defining conditions use subsets, the empty set, intersections, and unions. Equivalence relations are a correspondence, not an input to the definition."
+    },
+    {
+      "id": "shared-foundations/image",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The image is defined on a subset of the domain; restore this explicit ingredient. Surjectivity and preimages are related later topics."
+    },
+    {
+      "id": "shared-foundations/restriction-of-a-function",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition restricts a function to a specified subset. Graph intersections are a later description."
+    },
+    {
+      "id": "shared-foundations/set-difference",
+      "before": [],
+      "after": [
+        "shared-foundations/set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The displayed set builder uses membership and nonmembership in two sets. Intersection and complement express an alternative formula."
+    },
+    {
+      "id": "real-analysis/absolute-value",
+      "before": [],
+      "after": [
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the function ingredient in the piecewise definition; real arithmetic and order are entry assumptions. Metrics and limits are applications."
+    },
+    {
+      "id": "shared-foundations/cardinality",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/bijective-function"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/bijective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The entry defines equal size via a bijection between sets. Countability and injection comparisons follow afterward."
+    },
+    {
+      "id": "algebra-groups/subgroup",
+      "before": [
+        "algebra-groups/group",
+        "shared-foundations/subset"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The identity, multiplication and inverse closure conditions require a subset of a group. Cosets and Lagrange are subsequent constructions."
+    },
+    {
+      "id": "algebra-groups/group-homomorphism",
+      "before": [
+        "algebra-groups/group",
+        "shared-foundations/function"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "A function between groups preserving products. Kernels, images and isomorphism theorems follow from the definition."
+    },
+    {
+      "id": "algebra-groups/normal-subgroup",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/conjugation-action",
+        "algebra-groups/coset"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining equality gHg^-1=H is stated directly using subgroup multiplication. Group actions and cosets give interpretations, not necessary prior constructions."
+    },
+    {
+      "id": "algebra-groups/group-action",
+      "before": [
+        "algebra-groups/group",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The two explicit axioms define a function on the product of a group and a set. Cartesian products are already covered by the function prerequisite; permutation representations are equivalent data."
+    },
+    {
+      "id": "algebra-groups/conjugacy-class",
+      "before": [
+        "algebra-groups/group"
+      ],
+      "after": [
+        "algebra-groups/group"
+      ],
+      "review_count_before": 0,
+      "rationale": "The explicit set of conjugates uses group multiplication and inverses. Orbit, partition, center and class-equation interpretations follow later."
+    },
+    {
+      "id": "algebra-groups/quotient-group",
+      "before": [
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/group",
+        "algebra-groups/coset"
+      ],
+      "after": [
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/group",
+        "algebra-groups/coset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The construction uses cosets of a normal subgroup with a multiplication inherited from the group. Projection homomorphisms and exact sequences are consequences."
+    },
+    {
+      "id": "algebra-groups/center-of-group",
+      "before": [
+        "algebra-groups/group"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The entry identifies a subgroup by its commuting condition. Restore subgroup terminology; characteristic subgroups and centralizers supply later properties."
+    },
+    {
+      "id": "algebra-groups/centralizer",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The stated subgroup consists of elements commuting with a specified subset; subgroup knowledge includes subsets. Conjugacy classes and stabilizers are applications."
+    },
+    {
+      "id": "algebra-groups/automorphism-group",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/group-isomorphism",
+        "shared-foundations/composition"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/group-isomorphism",
+        "shared-foundations/composition",
+        "shared-foundations/inverse-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The group consists of self-isomorphisms under composition, with inverses explicitly given by inverse maps. Semidirect products are an application."
+    },
+    {
+      "id": "algebra-groups/group-isomorphism",
+      "before": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/bijective-function",
+        "shared-foundations/inverse-function"
+      ],
+      "after": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/bijective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "A bijective group homomorphism defines an isomorphism. The inverse being a homomorphism is a consequence rather than required data."
+    },
+    {
+      "id": "algebra-groups/stabilizer",
+      "before": [
+        "algebra-groups/group-action",
+        "algebra-groups/subgroup"
+      ],
+      "after": [
+        "algebra-groups/group-action",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The fixed-point condition uses an action and the entry states that the resulting set is a subgroup. Orbit-stabilizer and centralizers are applications."
+    },
+    {
+      "id": "algebra-groups/coset",
+      "before": [
+        "algebra-groups/subgroup",
+        "algebra-groups/group",
+        "shared-foundations/equivalence-class",
+        "shared-foundations/equivalence-relation",
+        "shared-foundations/partition"
+      ],
+      "after": [
+        "algebra-groups/subgroup",
+        "algebra-groups/group"
+      ],
+      "review_count_before": 0,
+      "rationale": "A coset is explicitly a translate of a subgroup. Its equivalence-class interpretation, partition property and quotient-group use are subsequent facts."
+    },
+    {
+      "id": "algebra-groups/generated-subgroup",
+      "before": [
+        "algebra-groups/group",
+        "shared-foundations/subset",
+        "shared-foundations/intersection",
+        "algebra-groups/subgroup"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "shared-foundations/subset",
+        "shared-foundations/intersection",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition intersects all subgroups containing the specified subset. The existing list covers all ingredients; cyclic subgroups are a specialization."
+    },
+    {
+      "id": "algebra-groups/index-of-subgroup",
+      "before": [
+        "algebra-groups/subgroup",
+        "algebra-groups/group",
+        "shared-foundations/cardinality",
+        "algebra-groups/coset"
+      ],
+      "after": [
+        "algebra-groups/subgroup",
+        "algebra-groups/group",
+        "shared-foundations/cardinality",
+        "algebra-groups/coset"
+      ],
+      "review_count_before": 0,
+      "rationale": "Index is the cardinality of the set of cosets of a subgroup. Lagrange and normality for index two are subsequent results."
+    },
+    {
+      "id": "algebra-groups/kernel-group",
+      "before": [
+        "algebra-groups/group-homomorphism"
+      ],
+      "after": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The entry defines a subgroup as the elements mapped to the identity. Restore subgroup terminology; normality and the isomorphism theorem are consequences."
+    },
+    {
+      "id": "algebra-groups/direct-product-groups",
+      "before": [
+        "algebra-groups/group",
+        "shared-foundations/cartesian-product"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "shared-foundations/cartesian-product"
+      ],
+      "review_count_before": 0,
+      "rationale": "Two groups give a Cartesian product with coordinatewise multiplication. Projection homomorphisms are subsequent structure."
+    },
+    {
+      "id": "algebra-groups/inner-automorphism",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/automorphism-group"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/automorphism-group",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The entry defines conjugation automorphisms and their subgroup inside Aut(G); restore subgroup terminology. The quotient by the center is a later theorem."
+    },
+    {
+      "id": "algebra-groups/orbit",
+      "before": [
+        "algebra-groups/group-action"
+      ],
+      "after": [
+        "algebra-groups/group-action"
+      ],
+      "review_count_before": 0,
+      "rationale": "The orbit is the set obtained by acting on one point. Partitions and stabilizers are later properties, not defining inputs."
+    },
+    {
+      "id": "algebra-groups/image-group",
+      "before": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/subgroup"
+      ],
+      "after": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/subgroup",
+        "shared-foundations/image"
+      ],
+      "review_count_before": 0,
+      "rationale": "The construction is the image of a homomorphism, stated to be a subgroup. Restore general image notation used in the formula; epimorphisms and isomorphism theorems follow later."
+    },
+    {
+      "id": "algebra-groups/free-action",
+      "before": [
+        "algebra-groups/group-action",
+        "algebra-groups/stabilizer"
+      ],
+      "after": [
+        "algebra-groups/group-action",
+        "algebra-groups/stabilizer"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition demands trivial stabilizers for an action. Regular actions combine this property with transitivity afterward."
+    },
+    {
+      "id": "algebra-groups/transitive-action",
+      "before": [
+        "algebra-groups/group-action"
+      ],
+      "after": [
+        "algebra-groups/group-action"
+      ],
+      "review_count_before": 0,
+      "rationale": "The quantified formula defines transitivity directly from an action. A single orbit is an equivalent characterization."
+    },
+    {
+      "id": "algebra-groups/faithful-action",
+      "before": [
+        "algebra-groups/group-action",
+        "algebra-groups/kernel-of-action",
+        "algebra-groups/trivial-subgroup",
+        "algebra-groups/group-monomorphism"
+      ],
+      "after": [
+        "algebra-groups/group-action",
+        "algebra-groups/kernel-of-action",
+        "algebra-groups/trivial-subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The stated definition uses the action kernel and trivial subgroup. Injectivity of a permutation homomorphism is an equivalent characterization."
+    },
+    {
+      "id": "algebra-groups/conjugation-action",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/group-action"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/group-action"
+      ],
+      "review_count_before": 0,
+      "rationale": "The formula defines a particular group action using multiplication and inverses. Classes, centralizers and normalizers interpret this action afterward."
+    },
+    {
+      "id": "algebra-groups/normalizer",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The set-builder condition uses a subgroup of a group and its translates. Normality gives a later characterization."
+    },
+    {
+      "id": "algebra-groups/commutator",
+      "before": [
+        "algebra-groups/group"
+      ],
+      "after": [
+        "algebra-groups/group"
+      ],
+      "review_count_before": 0,
+      "rationale": "The four-factor expression requires only group multiplication and inversion. Derived subgroups are constructed from these elements later."
+    },
+    {
+      "id": "algebra-groups/commutator-subgroup",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/generated-subgroup",
+        "algebra-groups/commutator"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/generated-subgroup",
+        "algebra-groups/commutator"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition generates a subgroup from all commutators. Normality, abelian quotients and derived series are consequences."
+    },
+    {
+      "id": "algebra-groups/kernel-of-action",
+      "before": [
+        "algebra-groups/group-action",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/kernel-group"
+      ],
+      "after": [
+        "algebra-groups/group-action"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining condition selects elements acting trivially everywhere. Normality and the permutation-homomorphism kernel give properties and alternative descriptions."
+    },
+    {
+      "id": "algebra-groups/trivial-subgroup",
+      "before": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The subgroup consists solely of the group identity. Simple groups are a later use."
+    },
+    {
+      "id": "algebra-groups/group-monomorphism",
+      "before": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/injective-function"
+      ],
+      "after": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/injective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is an injective group homomorphism. Trivial kernels and image identifications are equivalent characterizations."
+    },
+    {
+      "id": "algebra-groups/first-isomorphism-theorem-groups",
+      "before": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/group-isomorphism"
+      ],
+      "after": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/quotient-group",
+        "algebra-groups/image-group"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the quotient group and image that form the domain and codomain of the displayed isomorphism. Exact sequences restate the theorem afterward."
+    },
+    {
+      "id": "algebra-rings/ideal",
+      "before": [
+        "algebra-rings/ring"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-groups/subgroup"
+      ],
+      "review_count_before": 0,
+      "rationale": "The absorption conditions are imposed on an additive subgroup of a ring. Restore subgroup vocabulary; kernels and quotients are subsequent constructions."
+    },
+    {
+      "id": "algebra-rings/two-sided-ideal",
+      "before": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal"
+      ],
+      "review_count_before": 0,
+      "rationale": "Both left and right absorption are required of an ideal in a ring. Quotient rings are the later application."
+    },
+    {
+      "id": "algebra-rings/ring-homomorphism",
+      "before": [
+        "shared-foundations/function",
+        "algebra-rings/ring"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "algebra-rings/ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "The main definition preserves two ring operations under a function. The optional unital specialization is not required for general ring homomorphisms."
+    },
+    {
+      "id": "algebra-rings/integral-domain",
+      "before": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/zero-divisor"
+      ],
+      "after": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/zero-divisor"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the multiplicative identity explicitly required by 1 != 0. Fraction fields and factorization are downstream."
+    },
+    {
+      "id": "algebra-rings/quotient-ring",
+      "before": [
+        "algebra-rings/two-sided-ideal",
+        "shared-foundations/quotient-set",
+        "shared-foundations/equivalence-relation",
+        "algebra-groups/coset"
+      ],
+      "after": [
+        "algebra-rings/two-sided-ideal",
+        "shared-foundations/quotient-set",
+        "shared-foundations/equivalence-relation",
+        "algebra-groups/coset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition forms a quotient set of additive cosets modulo a two-sided ideal and defines both operations. Its universal property is a later result."
+    },
+    {
+      "id": "algebra-rings/maximal-ideal",
+      "before": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal"
+      ],
+      "after": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal"
+      ],
+      "review_count_before": 0,
+      "rationale": "The stated ambient ring has 1 != 0; restore its unital structure. The field quotient characterization and primality are subsequent results."
+    },
+    {
+      "id": "algebra-rings/prime-ideal",
+      "before": [
+        "algebra-rings/ideal"
+      ],
+      "after": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the commutative ambient ring and make the unital hypothesis explicit in the body so the stated quotient-domain equivalence matches the repository convention."
+    },
+    {
+      "id": "algebra-rings/polynomial-ring",
+      "before": [
+        "algebra-rings/commutative-ring"
+      ],
+      "after": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "The coefficient ring is explicitly commutative with 1. Restore the unital structure; content and irreducibility are subsequent notions."
+    },
+    {
+      "id": "algebra-rings/zero-divisor",
+      "before": [
+        "algebra-rings/commutative-ring"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "algebra-rings/commutative-ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "The entry first defines left and right zero divisors in an arbitrary ring and then their coincidence in the commutative case. Restore the general ring context."
+    },
+    {
+      "id": "algebra-rings/division-ring",
+      "before": [
+        "algebra-rings/unital-ring",
+        "algebra-rings/unit",
+        "algebra-rings/group-of-units"
+      ],
+      "after": [
+        "algebra-rings/unital-ring",
+        "algebra-rings/unit"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition says all nonzero elements are units in a nonzero unital ring. The group-of-units equality is an equivalent characterization."
+    },
+    {
+      "id": "algebra-rings/subring",
+      "before": [
+        "algebra-rings/ring",
+        "shared-foundations/subset"
+      ],
+      "after": [
+        "algebra-rings/ring",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "A subset with inherited ring operations defines a subring. The identity-preserving convention is an optional specialization."
+    },
+    {
+      "id": "algebra-rings/ideal-generated",
+      "before": [
+        "shared-foundations/subset",
+        "algebra-rings/ring",
+        "algebra-rings/ideal"
+      ],
+      "after": [
+        "shared-foundations/subset",
+        "algebra-rings/ring",
+        "algebra-rings/two-sided-ideal",
+        "algebra-rings/unital-ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "The general definition is the smallest two-sided ideal containing the subset. The finite r*a*s formula additionally requires a unit; the body now states that condition rather than applying it to nonunital rings."
+    },
+    {
+      "id": "algebra-rings/kernel-ring",
+      "before": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/preimage"
+      ],
+      "after": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/preimage"
+      ],
+      "review_count_before": 0,
+      "rationale": "The kernel is a homomorphism preimage of the additive identity. Its ideal property and injectivity criterion follow afterward."
+    },
+    {
+      "id": "algebra-rings/image-ring",
+      "before": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/image",
+        "algebra-rings/subring"
+      ],
+      "after": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/image",
+        "algebra-rings/subring"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition uses a ring homomorphism and its image and immediately identifies a subring. Ideal lattices and isomorphism theorems are later uses."
+    },
+    {
+      "id": "algebra-rings/ring-isomorphism",
+      "before": [
+        "algebra-rings/ring-homomorphism"
+      ],
+      "after": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/bijective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the bijectivity required by the definition. The inverse being a ring homomorphism follows automatically."
+    },
+    {
+      "id": "algebra-rings/principal-ideal",
+      "before": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/ideal-generated"
+      ],
+      "after": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/ideal-generated"
+      ],
+      "review_count_before": 0,
+      "rationale": "The displayed formula (a)=Ra for an ideal generated by a requires a unital coefficient ring; make that hypothesis explicit in the body and metadata."
+    },
+    {
+      "id": "algebra-rings/pid",
+      "before": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/ideal",
+        "algebra-rings/principal-ideal",
+        "algebra-rings/euclidean-domain",
+        "algebra-rings/ufd"
+      ],
+      "after": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/ideal",
+        "algebra-rings/principal-ideal"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is an integral domain in which each ideal is principal. Euclidean domains and UFDs locate PIDs among other classes and are not prerequisites."
+    },
+    {
+      "id": "algebra-rings/group-of-units",
+      "before": [
+        "algebra-groups/group",
+        "algebra-rings/unit"
+      ],
+      "after": [
+        "algebra-groups/group",
+        "algebra-rings/unit"
+      ],
+      "review_count_before": 0,
+      "rationale": "The unit notion supplies the unital ring and the entry equips these elements with their group structure. Functoriality and matrix examples follow later."
+    },
+    {
+      "id": "algebra-rings/first-isomorphism-theorem-rings",
+      "before": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ring-isomorphism",
+        "algebra-rings/kernel-ring",
+        "algebra-rings/image-ring"
+      ],
+      "after": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ring-isomorphism",
+        "algebra-rings/kernel-ring",
+        "algebra-rings/image-ring",
+        "algebra-rings/quotient-ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the quotient ring forming the domain of the displayed isomorphism. Both its domain and image codomain are needed to understand the theorem."
+    },
+    {
+      "id": "shared-foundations/axiom-of-choice",
+      "before": [
+        "shared-foundations/function"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/indexed-family-of-sets",
+        "shared-foundations/union",
+        "shared-foundations/empty-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The axiom chooses one element from each nonempty set in an indexed family into their union. Zorn and well-ordering are equivalent axioms, not defining inputs."
+    },
+    {
+      "id": "measure-theory/set-algebra",
+      "before": [
+        "shared-foundations/power-set",
+        "shared-foundations/set",
+        "shared-foundations/intersection",
+        "shared-foundations/set-difference",
+        "measure-theory/sigma-algebra"
+      ],
+      "after": [
+        "shared-foundations/power-set",
+        "shared-foundations/complement",
+        "shared-foundations/union"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition requires a collection of subsets closed under complement and finite union. Sigma-algebras, intersections and difference closure are consequences."
+    },
+    {
+      "id": "convex-analysis/norm-normed-vector-space",
+      "before": [
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "real-analysis/absolute-value"
+      ],
+      "review_count_before": 0,
+      "rationale": "The three displayed axioms use vector-space operations and scalar absolute value. Induced metrics and completeness are constructed later; complex arithmetic is an entry assumption."
+    },
+    {
+      "id": "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+      "before": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/linear-operator-linear-transformation"
+      ],
+      "after": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/linear-operator-linear-transformation",
+        "real-analysis/absolute-value",
+        "real-analysis/supremum"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining bound and operator norm use a linear functional on a normed space, absolute value, and a supremum over the unit ball. Continuity and the infimum characterization follow afterward."
+    },
+    {
+      "id": "shared-foundations/empty-set",
+      "before": [],
+      "after": [
+        "shared-foundations/set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The empty set is a set characterized by having no members; set membership and extensionality are the only foundational input."
+    },
+    {
+      "id": "measure-theory/null-set",
+      "before": [
+        "measure-theory/measurable-set"
+      ],
+      "after": [
+        "measure-theory/measurable-set",
+        "measure-theory/measure-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "A null set is defined inside a measure space as a measurable set with measure zero; the measure-space context is a definition input, while the empty set is only an example."
+    },
+    {
+      "id": "measure-theory/almost-everywhere",
+      "before": [
+        "measure-theory/null-set",
+        "measure-theory/measure-space",
+        "shared-foundations/symmetric-difference"
+      ],
+      "after": [
+        "measure-theory/null-set",
+        "measure-theory/measure-space",
+        "shared-foundations/set-difference"
+      ],
+      "review_count_before": 0,
+      "rationale": "Almost-everywhere validity quantifies over a null set in a measure space. Symmetric difference appears only in a later comparison, so it is not a definition input. The defining complement X minus N uses set difference."
+    },
+    {
+      "id": "measure-theory/ae-equality",
+      "before": [
+        "measure-theory/measure-space"
+      ],
+      "after": [
+        "measure-theory/measure-space",
+        "measure-theory/null-set",
+        "measure-theory/almost-everywhere"
+      ],
+      "review_count_before": 0,
+      "rationale": "Equality holds outside a measurable null set. Align the body with almost-everywhere validity by allowing the disagreement set to be contained in a measurable null set, even in an incomplete measure space."
+    },
+    {
+      "id": "measure-theory/borel-sigma-algebra",
+      "before": [
+        "topology/topological-space",
+        "measure-theory/sigma-algebra",
+        "topology/open-set"
+      ],
+      "after": [
+        "topology/topological-space",
+        "measure-theory/sigma-algebra",
+        "topology/open-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The generated sigma-algebra is defined from the open sets of a topological space; the existing three inputs exactly state that construction."
+    },
+    {
+      "id": "measure-theory/indicator-function",
+      "before": [
+        "measure-theory/measurable-space",
+        "measure-theory/measurable-function",
+        "measure-theory/measurable-set"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "An indicator is a function of a subset of a set, defined independently of measures. Its measurability criterion is a later property; remove the measurable-function prerequisites."
+    },
+    {
+      "id": "measure-theory/simple-function",
+      "before": [
+        "measure-theory/measurable-function",
+        "measure-theory/measurable-set",
+        "measure-theory/indicator-function"
+      ],
+      "after": [
+        "measure-theory/measurable-function",
+        "measure-theory/measurable-set",
+        "measure-theory/indicator-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is a measurable function with finitely many values, equivalently a finite linear combination of indicators of measurable sets; the current inputs cover both formulations."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral-nonnegative",
+      "before": [
+        "measure-theory/measure-space",
+        "measure-theory/simple-function",
+        "measure-theory/indicator-function",
+        "measure-theory/measurable-function"
+      ],
+      "after": [
+        "measure-theory/measure-space",
+        "measure-theory/simple-function",
+        "measure-theory/indicator-function",
+        "measure-theory/measurable-function",
+        "real-analysis/supremum"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining construction uses simple functions, their indicators, a measure space, measurable functions, and the supremum of their integrals. Restore the supremum used by the formula."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral",
+      "before": [
+        "measure-theory/measure-space",
+        "measure-theory/measurable-function",
+        "measure-theory/lebesgue-integral-nonnegative",
+        "measure-theory/ae-equality"
+      ],
+      "after": [
+        "measure-theory/measure-space",
+        "measure-theory/measurable-function",
+        "measure-theory/lebesgue-integral-nonnegative"
+      ],
+      "review_count_before": 0,
+      "rationale": "The signed integral is defined from positive and negative parts using the nonnegative integral on a measure space. a.e. invariance is a consequence, not an input."
+    },
+    {
+      "id": "measure-theory/lebesgue-integrable-function",
+      "before": [
+        "measure-theory/measure-space",
+        "measure-theory/measurable-function",
+        "real-analysis/absolute-value",
+        "measure-theory/lebesgue-integral",
+        "measure-theory/ae-equality"
+      ],
+      "after": [
+        "measure-theory/measure-space",
+        "measure-theory/measurable-function",
+        "real-analysis/absolute-value",
+        "measure-theory/lebesgue-integral"
+      ],
+      "review_count_before": 0,
+      "rationale": "Integrability is finiteness of the integral of the pointwise absolute value for a measurable function on a measure space. a.e. dependence is a resulting property."
+    },
+    {
+      "id": "measure-theory/premeasure",
+      "before": [
+        "shared-foundations/empty-set",
+        "measure-theory/set-algebra",
+        "measure-theory/measure",
+        "measure-theory/caratheodory-construction"
+      ],
+      "after": [
+        "shared-foundations/empty-set",
+        "measure-theory/set-algebra",
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "shared-foundations/union"
+      ],
+      "review_count_before": 0,
+      "rationale": "A premeasure is a function on a set algebra with an empty-set value and countable additivity for disjoint sequences whose union remains in the algebra. Measure and Carath\u00e9odory construction are downstream outputs."
+    },
+    {
+      "id": "measure-theory/outer-measure",
+      "before": [
+        "shared-foundations/power-set",
+        "measure-theory/caratheodory-measurable-set",
+        "measure-theory/measure"
+      ],
+      "after": [
+        "shared-foundations/empty-set",
+        "shared-foundations/power-set",
+        "shared-foundations/subset",
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "shared-foundations/union"
+      ],
+      "review_count_before": 0,
+      "rationale": "An outer measure is a function on the power set satisfying zero, monotonicity, and countable subadditivity. Carath\u00e9odory measurable sets and measures are consequences of this definition."
+    },
+    {
+      "id": "measure-theory/caratheodory-measurable-set",
+      "before": [
+        "shared-foundations/intersection",
+        "shared-foundations/set-difference",
+        "measure-theory/sigma-algebra",
+        "measure-theory/measure"
+      ],
+      "after": [
+        "measure-theory/outer-measure",
+        "shared-foundations/intersection",
+        "shared-foundations/set-difference"
+      ],
+      "review_count_before": 0,
+      "rationale": "The splitting condition is stated for an outer measure using intersection and set difference. Sigma-algebra and measure properties are conclusions of the construction."
+    },
+    {
+      "id": "measure-theory/caratheodory-construction",
+      "before": [
+        "measure-theory/outer-measure",
+        "measure-theory/sigma-algebra",
+        "measure-theory/measure",
+        "measure-theory/caratheodory-measurable-set",
+        "measure-theory/measurable-space",
+        "measure-theory/lebesgue-measure"
+      ],
+      "after": [
+        "measure-theory/outer-measure",
+        "measure-theory/caratheodory-measurable-set",
+        "measure-theory/sigma-algebra",
+        "measure-theory/measure"
+      ],
+      "review_count_before": 0,
+      "rationale": "The construction starts with an outer measure, selects its Carath\u00e9odory measurable sets, and states that they form a sigma-algebra carrying the restricted measure. Measurable space and Lebesgue measure are applications, not inputs."
+    },
+    {
+      "id": "probability/probability-space",
+      "before": [
+        "shared-foundations/set",
+        "measure-theory/sigma-algebra"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "measure-theory/sigma-algebra",
+        "probability/probability-measure"
+      ],
+      "review_count_before": 0,
+      "rationale": "A probability space is a sample set, event sigma-algebra, and probability measure; the probability measure is a component of the defining triple."
+    },
+    {
+      "id": "probability/probability-measure",
+      "before": [
+        "measure-theory/sigma-algebra",
+        "shared-foundations/set",
+        "measure-theory/measure",
+        "probability/probability-space",
+        "probability/event-probability"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "measure-theory/sigma-algebra",
+        "measure-theory/measure"
+      ],
+      "review_count_before": 0,
+      "rationale": "A probability measure is a measure on a sigma-algebra over a set with total mass one. Probability spaces and event probabilities use this notion afterward; removing them breaks the existing definition loop."
+    },
+    {
+      "id": "probability/event-probability",
+      "before": [
+        "probability/probability-space"
+      ],
+      "after": [
+        "probability/probability-space",
+        "probability/probability-measure"
+      ],
+      "review_count_before": 0,
+      "rationale": "The value P(A) is supplied by the probability measure component of a probability space; the explicit measure input makes that operation visible without introducing a cycle."
+    },
+    {
+      "id": "probability/random-variable",
+      "before": [
+        "measure-theory/measurable-function",
+        "probability/probability-space"
+      ],
+      "after": [
+        "measure-theory/measurable-function",
+        "probability/probability-space",
+        "measure-theory/borel-sigma-algebra"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is a measurable map from the probability space into real numbers equipped with their Borel sigma-algebra; distribution and expectation are consequences."
+    },
+    {
+      "id": "probability/expectation",
+      "before": [
+        "probability/random-variable"
+      ],
+      "after": [
+        "probability/random-variable",
+        "measure-theory/lebesgue-integral",
+        "measure-theory/lebesgue-integrable-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "Expectation is the Lebesgue integral of an integrable random variable. The integral and integrability notions are definition inputs, while variance and limit-theorem uses are downstream."
+    },
+    {
+      "id": "probability/distribution-law",
+      "before": [
+        "probability/random-variable",
+        "probability/probability-measure"
+      ],
+      "after": [
+        "probability/random-variable",
+        "probability/probability-measure"
+      ],
+      "review_count_before": 0,
+      "rationale": "The law is the probability measure induced by a random variable; the current two inputs directly state the pushforward construction."
+    },
+    {
+      "id": "probability/conditional-expectation",
+      "before": [
+        "probability/random-variable",
+        "probability/probability-space",
+        "measure-theory/measurable-function"
+      ],
+      "after": [
+        "probability/random-variable",
+        "probability/probability-space",
+        "measure-theory/measurable-function",
+        "probability/expectation",
+        "measure-theory/indicator-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining identity uses expectation and indicators of events in the conditioning sigma-algebra, in addition to an integrable random variable and measurable output."
+    },
+    {
+      "id": "probability/conditional-probability",
+      "before": [
+        "measure-theory/sigma-algebra",
+        "probability/probability-space",
+        "probability/random-variable",
+        "probability/conditional-expectation"
+      ],
+      "after": [
+        "measure-theory/sigma-algebra",
+        "probability/probability-space",
+        "probability/random-variable",
+        "probability/conditional-expectation"
+      ],
+      "review_count_before": 0,
+      "rationale": "The event formula and the general conditional-sigma-algebra formulation are both covered by the current sigma-algebra, probability-space, random-variable, and conditional-expectation inputs."
+    },
+    {
+      "id": "probability/independence-random-variables",
+      "before": [
+        "probability/probability-space"
+      ],
+      "after": [
+        "probability/probability-space",
+        "probability/random-variable",
+        "measure-theory/borel-sigma-algebra"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition quantifies over a family of random variables and Borel target sets on a probability space; independence of sigma-algebras and events are equivalent characterizations. Correct the body to require distinct chosen indices; repeating the same index would wrongly require a nontrivial random variable to be independent of itself."
+    },
+    {
+      "id": "convex-analysis/linear-subspace",
+      "before": [
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/vector-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "A subspace is a subset of a vector space closed under the inherited operations; the vector-space structure is the only prerequisite."
+    },
+    {
+      "id": "convex-analysis/subspace-test-closure-under-addition-and-scalar-multiplication",
+      "before": [
+        "convex-analysis/linear-subspace"
+      ],
+      "after": [
+        "convex-analysis/linear-subspace"
+      ],
+      "review_count_before": 0,
+      "rationale": "This criterion is a proposition about the defining closure conditions for a linear subspace."
+    },
+    {
+      "id": "convex-analysis/subspace-generated-by-a-set-span",
+      "before": [
+        "convex-analysis/linear-subspace"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/intersection"
+      ],
+      "review_count_before": 0,
+      "rationale": "The span is the intersection of subspaces of an ambient vector space containing a set, so the ambient vector space, subspace notion, and intersection operation are direct inputs."
+    },
+    {
+      "id": "convex-analysis/linear-combination",
+      "before": [
+        "linear-algebra/vector-space",
+        "convex-analysis/subspace-generated-by-a-set-span"
+      ],
+      "after": [
+        "linear-algebra/vector-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "A finite linear combination uses only vector-space addition and scalar multiplication; span is a construction characterized afterward."
+    },
+    {
+      "id": "convex-analysis/span-equals-the-set-of-all-finite-linear-combinations",
+      "before": [
+        "convex-analysis/subspace-generated-by-a-set-span",
+        "convex-analysis/linear-combination"
+      ],
+      "after": [
+        "convex-analysis/subspace-generated-by-a-set-span",
+        "convex-analysis/linear-combination"
+      ],
+      "review_count_before": 0,
+      "rationale": "The theorem compares the span definition with finite linear combinations, so both notions are required."
+    },
+    {
+      "id": "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+      "before": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-combination"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-combination"
+      ],
+      "review_count_before": 0,
+      "rationale": "Independence is defined by finite linear combinations in a vector space; basis and dependence consequences follow later."
+    },
+    {
+      "id": "convex-analysis/basis-hamel-basis-and-dimension",
+      "before": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+        "convex-analysis/subspace-generated-by-a-set-span"
+      ],
+      "review_count_before": 0,
+      "rationale": "A Hamel basis is independent and spans the ambient vector space; the span notion is an explicit part of the definition even though the prose states it via finite combinations."
+    },
+    {
+      "id": "convex-analysis/basis-characterized-by-maximal-linear-independence",
+      "before": [
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets"
+      ],
+      "after": [
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets"
+      ],
+      "review_count_before": 0,
+      "rationale": "The proposition directly relates the basis definition to linear independence and maximality."
+    },
+    {
+      "id": "linear-algebra/basis-existence-theorem",
+      "before": [
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "shared-foundations/axiom-of-choice"
+      ],
+      "review_count_before": 0,
+      "rationale": "The theorem asserts a basis exists, with the proof using independent sets and the Hamel-basis definition; its statement explicitly assumes the axiom of choice."
+    },
+    {
+      "id": "convex-analysis/quotient-vector-space-codimension",
+      "before": [
+        "convex-analysis/linear-subspace"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/quotient-set",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "review_count_before": 0,
+      "rationale": "The quotient requires an ambient vector space, a subspace, equivalence classes modulo that subspace, and dimension of the resulting vector space to define codimension."
+    },
+    {
+      "id": "convex-analysis/dual-space-and-duality-pairing",
+      "before": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional"
+      ],
+      "after": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "topology/continuous-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "The continuous dual is the set of continuous linear functionals on a normed space; retain the repository's bounded-functional equivalence and add continuity explicitly."
+    },
+    {
+      "id": "convex-analysis/images-and-preimages-of-subspaces-under-linear-operators",
+      "before": [
+        "convex-analysis/linear-subspace"
+      ],
+      "after": [
+        "convex-analysis/linear-operator-linear-transformation",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/image",
+        "shared-foundations/preimage"
+      ],
+      "review_count_before": 0,
+      "rationale": "The proposition concerns images and preimages under a linear operator and closure of subspaces; both set operations are explicitly used in the statement."
+    },
+    {
+      "id": "convex-analysis/image-and-kernel-linear-isomorphism",
+      "before": [
+        "convex-analysis/linear-operator-linear-transformation"
+      ],
+      "after": [
+        "convex-analysis/linear-operator-linear-transformation",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/image",
+        "shared-foundations/preimage",
+        "shared-foundations/bijective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definitions explicitly form image and preimage/kernel, identify them as subspaces, and define isomorphism by bijectivity."
+    },
+    {
+      "id": "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one",
+      "before": [
+        "linear-algebra/vector-space",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/quotient-vector-space-codimension"
+      ],
+      "review_count_before": 0,
+      "rationale": "The statement requires a linear functional, its kernel, and codimension defined through a quotient; the linear-map and quotient inputs were implicit."
+    },
+    {
+      "id": "convex-analysis/isomorphism-theorem-and-dimension-formula-for-linear-operators",
+      "before": [],
+      "after": [
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/quotient-vector-space-codimension",
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "The first isomorphism theorem explicitly compares the image and quotient by the kernel for a linear map."
+    },
+    {
+      "id": "convex-analysis/linear-operator-linear-transformation",
+      "before": [
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "A linear transformation is a function between vector spaces preserving addition and scalar multiplication; the repository's linear-map notion is the direct abstraction."
+    },
+    {
+      "id": "linear-algebra/linear-operator",
+      "before": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "An operator is a linear map whose domain and codomain are the same vector space; the map notion already carries the vector-space inputs."
+    },
+    {
+      "id": "linear-algebra/eigenvector",
+      "before": [
+        "linear-algebra/linear-operator"
+      ],
+      "after": [
+        "linear-algebra/linear-operator"
+      ],
+      "review_count_before": 0,
+      "rationale": "An eigenvector is defined by the equation T(v)=lambda v for a linear operator; eigenvalues and eigenspaces are associated consequences."
+    },
+    {
+      "id": "linear-algebra/eigenspace",
+      "before": [
+        "linear-algebra/linear-operator"
+      ],
+      "after": [
+        "linear-algebra/linear-operator"
+      ],
+      "review_count_before": 0,
+      "rationale": "For a fixed scalar, the eigenspace is the solution set of the operator equation; vector-space closure is a consequence."
+    },
+    {
+      "id": "linear-algebra/eigenvalue",
+      "before": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/eigenvector",
+        "linear-algebra/eigenspace",
+        "linear-algebra/characteristic-polynomial"
+      ],
+      "after": [
+        "linear-algebra/linear-operator"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is the existence of a nonzero vector satisfying T(v)=lambda v; eigenvectors, eigenspaces, and characteristic polynomials provide terminology or finite-dimensional consequences."
+    },
+    {
+      "id": "linear-algebra/matrix",
+      "before": [
+        "algebra-rings/ring",
+        "algebra-rings/field"
+      ],
+      "after": [
+        "algebra-rings/ring"
+      ],
+      "review_count_before": 0,
+      "rationale": "A matrix is a rectangular array over a ring; a field is a special coefficient choice and is not needed for the general definition."
+    },
+    {
+      "id": "linear-algebra/characteristic-polynomial",
+      "before": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/matrix",
+        "linear-algebra/determinant",
+        "algebra-rings/polynomial-ring",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition uses a finite-dimensional operator, a chosen basis and its matrix, determinant of tI-A, and the polynomial ring containing the result."
+    },
+    {
+      "id": "linear-algebra/rank",
+      "before": [],
+      "after": [
+        "linear-algebra/linear-map",
+        "shared-foundations/image",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "review_count_before": 0,
+      "rationale": "Rank is the dimension of a linear map's image, so linear maps, images, and finite or infinite basis dimension are the defining inputs."
+    },
+    {
+      "id": "linear-algebra/rank-nullity-theorem",
+      "before": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/linear-map",
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "review_count_before": 0,
+      "rationale": "The theorem computes dimensions of the domain, kernel, and image of a linear map; those concepts are stated explicitly."
+    },
+    {
+      "id": "linear-algebra/bilinear-form",
+      "before": [
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "Separate linearity in each argument is naturally expressed using vector spaces and linear maps; inner products are specialized forms."
+    },
+    {
+      "id": "linear-algebra/quadratic-form",
+      "before": [
+        "linear-algebra/vector-space",
+        "algebra-rings/field",
+        "linear-algebra/bilinear-form"
+      ],
+      "after": [
+        "linear-algebra/vector-space",
+        "algebra-rings/field",
+        "linear-algebra/bilinear-form"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition explicitly requires a vector space over a field and a bilinear polarization."
+    },
+    {
+      "id": "linear-algebra/trace",
+      "before": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/matrix",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "review_count_before": 0,
+      "rationale": "Trace is defined from a matrix representing a finite-dimensional operator in a basis; matrix and basis inputs are direct."
+    },
+    {
+      "id": "linear-algebra/signature-of-symmetric-bilinear-form",
+      "before": [
+        "linear-algebra/bilinear-form",
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "linear-algebra/bilinear-form",
+        "linear-algebra/vector-space",
+        "linear-algebra/quadratic-form",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "review_count_before": 0,
+      "rationale": "The statement is about finite-dimensional real symmetric bilinear forms, their associated quadratic forms, and a basis diagonalization."
+    },
+    {
+      "id": "fiber-bundles/smooth-fiber-bundle",
+      "before": [
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/typical-fiber"
+      ],
+      "after": [
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/diffeomorphism",
+        "topology/open-set",
+        "shared-foundations/preimage",
+        "shared-foundations/cartesian-product",
+        "differential-geometry/product-manifold",
+        "shared-foundations/composition",
+        "shared-foundations/restriction-of-a-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition supplies a smooth model manifold F and requires a surjective submersion plus local product diffeomorphisms over open neighborhoods. Its displayed construction directly uses smooth maps, open subsets, preimages, Cartesian products and their smooth product-manifold structure, composition of projections, and restriction of the bundle map. Typical-fiber is introduced by the definition as the name for F, so making it a prerequisite would reverse the logical order and create a bootstrap."
+    },
+    {
+      "id": "fiber-bundles/typical-fiber",
+      "before": [
+        "fiber-bundles/smooth-manifold"
+      ],
+      "after": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "review_count_before": 0,
+      "rationale": "A typical fiber is the smooth manifold F appearing in the already-defined local product data of a smooth fiber bundle. The bundle structure and the smooth-manifold type of F are therefore direct inputs; local-trivialization is not needed because the defining bundle entry already states the local product condition."
+    },
+    {
+      "id": "fiber-bundles/tangent-space-at-a-point",
+      "before": [
+        "fiber-bundles/smooth-manifold"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "fiber-bundles/smooth-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "The derivations at a point form a real vector space, and the definition quantifies over smooth functions C-infinity(M). The vector-space, linear-map, and smooth-map concepts make those stated structures explicit."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "linear-algebra/linear-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "The differential is defined as a linear map between tangent spaces; linearity is part of the canonical object, not merely an example."
+    },
+    {
+      "id": "fiber-bundles/diffeomorphism",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "shared-foundations/bijective-function",
+        "shared-foundations/inverse-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "Bijectivity, smoothness, and smoothness of the inverse are the definition. The differential and tangent-space statements are consequences; the bijective-function and inverse-function entries supply the two set-theoretic predicates."
+    },
+    {
+      "id": "fiber-bundles/smooth-chart",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "review_count_before": 0,
+      "rationale": "The body defines the chart as a diffeomorphism from an open manifold subset to an open Euclidean subset; both listed inputs are direct."
+    },
+    {
+      "id": "fiber-bundles/smooth-immersion",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "shared-foundations/injective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition states a smooth map whose differential is injective at every point; the injective-function entry makes that predicate explicit alongside the differential and tangent spaces."
+    },
+    {
+      "id": "fiber-bundles/smooth-submersion",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "shared-foundations/surjective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition states a smooth map whose differential is surjective at every point; the surjective-function entry makes that predicate explicit alongside the differential and tangent spaces."
+    },
+    {
+      "id": "fiber-bundles/smooth-embedding",
+      "before": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-immersion",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "after": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-immersion",
+        "shared-foundations/injective-function",
+        "topology/homeomorphism",
+        "shared-foundations/image"
+      ],
+      "review_count_before": 0,
+      "rationale": "A smooth embedding is a smooth immersion that is injective and a homeomorphism from the source onto its image. The injective-function, image, and homeomorphism entries expose those defining predicates; the diffeomorphism in the body is an induced structure afterward."
+    },
+    {
+      "id": "differential-geometry/embedded-submanifold",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart",
+        "topology/subspace-topology",
+        "fiber-bundles/smooth-embedding"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart",
+        "topology/subspace-topology",
+        "fiber-bundles/smooth-embedding"
+      ],
+      "review_count_before": 0,
+      "rationale": "The local coordinate-plane definition explicitly needs an ambient smooth manifold and chart, the inherited subspace topology, and the equivalent embedding formulation."
+    },
+    {
+      "id": "fiber-bundles/fibered-manifold",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/embedded-submanifold"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-submersion",
+        "shared-foundations/surjective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is a smooth map that is surjective and a submersion. The surjective-function predicate and smooth-submersion structure are direct inputs; embedded fibers follow from the submersion theorem."
+    },
+    {
+      "id": "differential-geometry/immersed-submanifold",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-immersion"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-immersion"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition is a manifold equipped with an injective smooth immersion; the existing two inputs directly supply that structure."
+    },
+    {
+      "id": "differential-geometry/tangent-space",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The derivation model and the stated vector-space structure require a smooth manifold and a vector space; this duplicate entry is already aligned."
+    },
+    {
+      "id": "fiber-bundles/regular-value",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "shared-foundations/surjective-function"
+      ],
+      "review_count_before": 0,
+      "rationale": "Regularity is defined by surjectivity of the differential along a fiber. The surjective-function predicate makes this stated condition explicit alongside the current map, manifold, differential, and tangent-space inputs."
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/local-trivialization"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/local-trivialization"
+      ],
+      "review_count_before": 0,
+      "rationale": "The construction uses the disjoint union of tangent spaces, coordinate charts and a smooth atlas to define the smooth structure, then the vector-bundle and local-trivialization structures to state the resulting bundle. The existing list covers these direct construction inputs; no later section consequence is promoted."
+    },
+    {
+      "id": "differential-geometry/product-manifold",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "shared-foundations/cartesian-product",
+        "topology/product-topology"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "shared-foundations/cartesian-product",
+        "topology/product-topology"
+      ],
+      "review_count_before": 0,
+      "rationale": "The product uses Cartesian products, product topology and smooth manifolds with their chart-defined structures. Tangent-space identities and the categorical universal property are later results."
+    },
+    {
+      "id": "fiber-bundles/vector-bundle",
+      "before": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/local-trivialization",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "after": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/local-trivialization",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "review_count_before": 1,
+      "rationale": "A second review adds finite-dimensional vector-space vocabulary used to specify the fiber dimension and bundle rank, alongside the reviewed local product and fiberwise linear-map ingredients."
+    },
+    {
+      "id": "real-analysis/subsequence",
+      "before": [
+        "real-analysis/limit-superior",
+        "real-analysis/limit-inferior"
+      ],
+      "after": [
+        "shared-foundations/sequence"
+      ],
+      "review_count_before": 0,
+      "rationale": "A subsequence is obtained by composing a sequence with a strictly increasing sequence of natural-number indices; this is a definition, not a convergence theorem. The current links are later uses in limsup and liminf discussions."
+    },
+    {
+      "id": "real-analysis/triangle-inequality",
+      "before": [
+        "topology/metric-space"
+      ],
+      "after": [
+        "topology/metric-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The statement is the triangle axiom for a metric and needs only a metric space; the inequality is not a prerequisite for defining the metric space itself."
+    },
+    {
+      "id": "real-analysis/uniform-convergence",
+      "before": [
+        "topology/metric-space"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "topology/metric-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "Uniform convergence compares a sequence of functions with values in a metric space using one index bound for every domain point. Both the function and sequence structures are explicit inputs."
+    },
+    {
+      "id": "real-analysis/uniform-cauchy",
+      "before": [
+        "topology/metric-space"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "topology/metric-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The uniform Cauchy condition is a definition for a sequence of functions into a metric space; it does not require completeness or uniform convergence. Function and sequence are explicit vocabulary."
+    },
+    {
+      "id": "real-analysis/uniform-continuity",
+      "before": [
+        "real-analysis/continuity-on-a-set",
+        "topology/complete-metric-space",
+        "topology/compact-set"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "shared-foundations/subset",
+        "topology/metric-space"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition quantifies over a function and a specified subset of its metric-space domain. Continuity on a set, completeness, and compactness are consequences or hypotheses of separate theorems, not inputs to uniform continuity."
+    },
+    {
+      "id": "real-analysis/uniform-continuity-preserves-cauchy",
+      "before": [
+        "topology/metric-space",
+        "real-analysis/uniform-continuity",
+        "topology/cauchy-sequence"
+      ],
+      "after": [
+        "real-analysis/uniform-continuity",
+        "topology/cauchy-sequence"
+      ],
+      "review_count_before": 0,
+      "rationale": "The proposition applies the uniform-continuity definition to a Cauchy sequence; metric-space structure is already supplied transitively by those inputs."
+    },
+    {
+      "id": "real-analysis/supremum-approximation-lemma",
+      "before": [
+        "real-analysis/bounded-above",
+        "real-analysis/supremum",
+        "real-analysis/bounded-below"
+      ],
+      "after": [
+        "real-analysis/bounded-above",
+        "real-analysis/supremum",
+        "real-analysis/bounded-below",
+        "real-analysis/infimum"
+      ],
+      "review_count_before": 0,
+      "rationale": "The displayed lemma contains both supremum and dual infimum assertions, so both named extremal constructions and their boundedness hypotheses are genuine vocabulary for the two halves."
+    },
+    {
+      "id": "real-analysis/supremum-norm",
+      "before": [
+        "real-analysis/supremum",
+        "real-analysis/absolute-value"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "real-analysis/supremum",
+        "real-analysis/absolute-value"
+      ],
+      "review_count_before": 0,
+      "rationale": "The norm is defined on bounded functions by a supremum of absolute values. The function input is explicit; boundedness is a domain restriction rather than a separate construction in this corpus."
+    },
+    {
+      "id": "real-analysis/uniform-metric",
+      "before": [
+        "real-analysis/supremum-norm"
+      ],
+      "after": [
+        "real-analysis/supremum-norm"
+      ],
+      "review_count_before": 0,
+      "rationale": "The uniform metric is exactly the distance induced by the supremum norm, so the existing single edge captures its definition."
+    },
+    {
+      "id": "real-analysis/space-of-continuous-functions",
+      "before": [
+        "topology/topological-space",
+        "topology/continuous-map"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "topology/topological-space",
+        "topology/continuous-map"
+      ],
+      "review_count_before": 0,
+      "rationale": "This is the set of functions from X to the reals satisfying continuity. The vector-space structure mentioned afterward is a consequence, not a prerequisite."
+    },
+    {
+      "id": "real-analysis/pointwise-bounded-family",
+      "before": [],
+      "after": [
+        "shared-foundations/function",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition bounds the real set of values of a function family at each point. Restore boundedness vocabulary; uniform bounds and compactness theorems are later topics."
+    },
+    {
+      "id": "real-analysis/uniformly-bounded-family",
+      "before": [
+        "real-analysis/supremum-norm"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "real-analysis/absolute-value"
+      ],
+      "review_count_before": 0,
+      "rationale": "The explicit common numerical bound applies to absolute values of a family of functions. The supremum-norm formulation is equivalent, not defining input."
+    },
+    {
+      "id": "real-analysis/total-boundedness-epsilon-nets",
+      "before": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/totally-bounded-set"
+      ],
+      "after": [
+        "topology/totally-bounded-set",
+        "topology/open-ball"
+      ],
+      "review_count_before": 0,
+      "rationale": "This characterization compares total boundedness with finite covers by metric balls; the metric-space context is supplied by open-ball and total-bounded-set transitively."
+    },
+    {
+      "id": "real-analysis/terms-go-to-zero",
+      "before": [
+        "real-analysis/series",
+        "real-analysis/convergent-series"
+      ],
+      "after": [
+        "real-analysis/convergent-series",
+        "topology/convergent-sequence"
+      ],
+      "review_count_before": 0,
+      "rationale": "The theorem assumes convergence of a series and concludes convergence of its terms to zero. The series object and convergence are already supplied by convergent-series; divergence, root and ratio tests are applications or contrapositives."
+    },
+    {
+      "id": "real-analysis/weierstrass-m-test",
+      "before": [
+        "real-analysis/convergent-series",
+        "real-analysis/series-of-functions",
+        "real-analysis/uniform-convergence"
+      ],
+      "after": [
+        "real-analysis/convergent-series",
+        "real-analysis/series-of-functions",
+        "real-analysis/uniform-convergence"
+      ],
+      "review_count_before": 0,
+      "rationale": "The M-test compares a function series with a convergent numerical majorant and concludes uniform convergence; all three named notions are used directly."
+    },
+    {
+      "id": "real-analysis/uniform-limit-theorem-for-continuity",
+      "before": [
+        "topology/metric-space",
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/uniform-convergence-of-a-sequence-of-functions",
+        "real-analysis/pointwise-convergence"
+      ],
+      "after": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/uniform-convergence"
+      ],
+      "review_count_before": 0,
+      "rationale": "Continuity and uniform convergence supply both hypothesis and conclusion vocabulary. The pointwise comparison is not used by the theorem statement."
+    },
+    {
+      "id": "real-analysis/uniform-cauchy-iff-uniform-convergence",
+      "before": [
+        "topology/complete-metric-space",
+        "real-analysis/uniform-convergence",
+        "real-analysis/uniform-cauchy",
+        "real-analysis/uniform-metric",
+        "real-analysis/supremum-norm"
+      ],
+      "after": [
+        "topology/complete-metric-space",
+        "real-analysis/uniform-convergence",
+        "real-analysis/uniform-cauchy"
+      ],
+      "review_count_before": 0,
+      "rationale": "The criterion requires completeness of the target and the two equivalent function-sequence conditions. Uniform metric and supremum norm are optional presentations, not hypotheses for metric-valued functions."
+    },
+    {
+      "id": "real-analysis/uniform-limit-of-integrable-functions",
+      "before": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/uniform-convergence",
+        "real-analysis/interchange-limit-integral",
+        "real-analysis/riemann-integral"
+      ],
+      "after": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/uniform-convergence",
+        "real-analysis/riemann-integral"
+      ],
+      "review_count_before": 0,
+      "rationale": "Retain integrability, uniform convergence and the integral vocabulary needed for the stated extension. The separate interchange theorem is a further result, not a prerequisite."
+    },
+    {
+      "id": "real-analysis/step-function",
+      "before": [
+        "shared-foundations/function",
+        "real-analysis/partition-of-an-interval"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "real-analysis/partition-of-an-interval"
+      ],
+      "review_count_before": 0,
+      "rationale": "A step function is defined from a function and a finite partition of an interval; its integrability applications are downstream."
+    },
+    {
+      "id": "real-analysis/total-variation",
+      "before": [
+        "real-analysis/partition-of-an-interval"
+      ],
+      "after": [
+        "shared-foundations/function",
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/supremum",
+        "real-analysis/absolute-value"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining supremum over partition sums uses a function, interval partitions, supremum, and absolute values of increments. Bounded variation and monotonicity are subsequent applications."
+    },
+    {
+      "id": "real-analysis/uniform-limit-theorem",
+      "before": [
+        "topology/metric-space",
+        "topology/continuous-map",
+        "real-analysis/uniform-convergence"
+      ],
+      "after": [
+        "topology/continuous-map",
+        "real-analysis/uniform-convergence"
+      ],
+      "review_count_before": 0,
+      "rationale": "This theorem uses continuous maps and uniform convergence; metric-space structure follows from the map and convergence definitions in the current graph."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-implies-pointwise",
+      "before": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/pointwise-convergence"
+      ],
+      "after": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/pointwise-convergence"
+      ],
+      "review_count_before": 0,
+      "rationale": "Uniform convergence is the hypothesis and pointwise convergence is the explicitly stated conclusion, so both concepts remain linked for the theorem\u2019s navigable statement."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-supnorm",
+      "before": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/supremum-norm"
+      ],
+      "after": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/supremum-norm"
+      ],
+      "review_count_before": 0,
+      "rationale": "The equivalence explicitly relates uniform convergence to convergence in the supremum norm, so both notions are required."
+    },
+    {
+      "id": "real-analysis/bounded-sequence",
+      "before": [
+        "topology/metric-space",
+        "topology/bounded-set"
+      ],
+      "after": [
+        "shared-foundations/sequence",
+        "topology/bounded-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "A bounded sequence is a sequence whose range is bounded. The metric context is already part of bounded-set; no separate metric-space edge is needed. The current review counter is already 1."
+    },
+    {
+      "id": "real-analysis/bounded-sequence-has-convergent-subsequence",
+      "before": [
+        "real-analysis/bounded-sequence",
+        "real-analysis/subsequence"
+      ],
+      "after": [
+        "real-analysis/bounded-sequence",
+        "real-analysis/subsequence",
+        "topology/convergent-sequence"
+      ],
+      "review_count_before": 0,
+      "rationale": "Bolzano-Weierstrass uses bounded sequences and subsequences and concludes existence of a convergent subsequence; the conclusion\u2019s notion should be visible as an input vocabulary. The current review counter is already 1."
+    },
+    {
+      "id": "topology/hausdorff-space",
+      "before": [
+        "topology/topological-space",
+        "topology/neighborhood"
+      ],
+      "after": [
+        "topology/topological-space",
+        "topology/neighborhood"
+      ],
+      "review_count_before": 0,
+      "rationale": "The primary definition quantifies over two distinct points and disjoint neighborhoods in a topological space. Disjoint open sets, T1, and uniqueness of limits are equivalent characterizations or consequences."
+    },
+    {
+      "id": "topology/subspace-topology",
+      "before": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/continuous-map"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The construction is the topology on a subset Y formed by intersections with ambient open sets. Continuity of the inclusion map is an automatic consequence, so subset replaces the downstream continuous-map edge."
+    },
+    {
+      "id": "topology/closed-set",
+      "before": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set",
+        "topology/closure",
+        "topology/continuous-map"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set",
+        "shared-foundations/complement"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining complement must be open. Restore complement; closure and the continuity test are later constructions and properties."
+    },
+    {
+      "id": "topology/closure",
+      "before": [
+        "topology/topological-space"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/closed-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition takes the intersection of all closed supersets of a specified subset A. The explicit subset and closed-set inputs are missing; neighborhoods and limit points are alternate characterizations or consequences."
+    },
+    {
+      "id": "topology/interior",
+      "before": [
+        "topology/topological-space"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "Interior is the union of open subsets of a specified subset A. Both the subset being operated on and open sets are explicit in the displayed formula; closure is only a dual remark."
+    },
+    {
+      "id": "topology/compact-set",
+      "before": [
+        "topology/topological-space",
+        "topology/open-cover"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-cover"
+      ],
+      "review_count_before": 0,
+      "rationale": "Compactness is a property of a subset K of a topological space, quantified over open covers. The finite-intersection formulation and continuous-image theorem are consequences or equivalent criteria."
+    },
+    {
+      "id": "topology/connected-set",
+      "before": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/subspace-topology"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set",
+        "topology/subspace-topology"
+      ],
+      "review_count_before": 0,
+      "rationale": "The primary definition splits a specified subset into nonempty disjoint subspace-open pieces. Closed sets occur only in the equivalent clopen characterization and should not be a direct prerequisite."
+    },
+    {
+      "id": "topology/basis-of-topology",
+      "before": [
+        "topology/open-set",
+        "topology/topology",
+        "topology/continuous-map"
+      ],
+      "after": [
+        "topology/topology",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "A basis is a collection of subsets satisfying the two basis axioms, whose unions generate a topology. Open sets and continuity are resulting uses, not prerequisites to the basis definition."
+    },
+    {
+      "id": "topology/product-topology",
+      "before": [
+        "topology/topological-space"
+      ],
+      "after": [
+        "topology/topological-space",
+        "shared-foundations/cartesian-product",
+        "shared-foundations/preimage",
+        "topology/subbasis-of-topology"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition generates a topology from projection preimages forming a subbasis on a Cartesian product. Restore each ingredient; the universal continuity property follows afterward."
+    },
+    {
+      "id": "topology/quotient-topology",
+      "before": [
+        "shared-foundations/surjective-function",
+        "topology/topological-space",
+        "topology/open-set"
+      ],
+      "after": [
+        "shared-foundations/surjective-function",
+        "topology/topological-space",
+        "topology/open-set",
+        "shared-foundations/preimage"
+      ],
+      "review_count_before": 0,
+      "rationale": "A surjection from a topological space defines open target sets by their open preimages. Restore the preimage operation; continuity and quotient-set applications follow afterward."
+    },
+    {
+      "id": "real-analysis/supremum",
+      "before": [
+        "real-analysis/bounded-above",
+        "real-analysis/maximum"
+      ],
+      "after": [
+        "real-analysis/bounded-above",
+        "shared-foundations/upper-bound",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The least-upper-bound definition applies to a nonempty subset and explicitly quantifies over upper bounds. Bounded-above supplies existence of an upper bound, while maximum and completeness are later comparisons or existence results."
+    },
+    {
+      "id": "real-analysis/infimum",
+      "before": [
+        "real-analysis/bounded-below",
+        "real-analysis/minimum",
+        "real-analysis/completeness-axiom"
+      ],
+      "after": [
+        "real-analysis/bounded-below",
+        "shared-foundations/lower-bound",
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The greatest-lower-bound definition explicitly quantifies over lower bounds of a nonempty subset. A minimum is not required, and completeness is cited to guarantee existence rather than used to define the infimum."
+    },
+    {
+      "id": "real-analysis/bounded-above",
+      "before": [
+        "shared-foundations/subset"
+      ],
+      "after": [
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The existential inequality defines boundedness above for a real subset. Real order is an entry assumption; maxima and suprema are later notions."
+    },
+    {
+      "id": "real-analysis/bounded-below",
+      "before": [
+        "shared-foundations/subset"
+      ],
+      "after": [
+        "shared-foundations/subset"
+      ],
+      "review_count_before": 0,
+      "rationale": "The existential inequality defines boundedness below for a real subset. Infima and minima are later constructions."
+    },
+    {
+      "id": "shared-foundations/partial-order",
+      "before": [
+        "shared-foundations/set",
+        "shared-foundations/relation",
+        "shared-foundations/cartesian-product"
+      ],
+      "after": [
+        "shared-foundations/set",
+        "shared-foundations/relation",
+        "shared-foundations/cartesian-product"
+      ],
+      "review_count_before": 0,
+      "rationale": "The three explicit axioms define a relation on a set. Total orders and bounds are later notions."
+    },
+    {
+      "id": "shared-foundations/upper-bound",
+      "before": [
+        "shared-foundations/partial-order"
+      ],
+      "after": [
+        "shared-foundations/partial-order"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining inequality applies to a subset in a partial order; lower bounds and suprema are comparisons and subsequent constructions."
+    },
+    {
+      "id": "shared-foundations/lower-bound",
+      "before": [
+        "shared-foundations/partial-order"
+      ],
+      "after": [
+        "shared-foundations/partial-order"
+      ],
+      "review_count_before": 0,
+      "rationale": "The defining inequality applies to a subset in a partial order; upper bounds and infima are comparisons and subsequent constructions."
+    },
+    {
+      "id": "topology/open-cover",
+      "before": [
+        "topology/topological-space",
+        "topology/open-set"
+      ],
+      "after": [
+        "topology/topological-space",
+        "topology/open-set"
+      ],
+      "review_count_before": 0,
+      "rationale": "The definition requires a family of open sets in a topological space whose union contains the subset. The topology prerequisite already supplies unions and indexed families; compactness follows afterward."
+    },
+    {
+      "id": "topology/subbasis-of-topology",
+      "before": [
+        "topology/basis-of-topology"
+      ],
+      "after": [
+        "topology/basis-of-topology",
+        "shared-foundations/power-set",
+        "shared-foundations/union",
+        "shared-foundations/intersection"
+      ],
+      "review_count_before": 0,
+      "rationale": "The construction takes a collection of subsets and uses their union and finite intersections to form a basis. Product topologies and continuity tests are later uses."
+    },
+    {
+      "id": "topology/bounded-set",
+      "before": [
+        "topology/open-ball"
+      ],
+      "after": [
+        "topology/open-ball"
+      ],
+      "review_count_before": 0,
+      "rationale": "Containment in a finite-radius open ball defines boundedness; diameter and total boundedness are later characterizations or stronger conditions."
+    },
+    {
+      "id": "topology/totally-bounded-set",
+      "before": [
+        "topology/metric-space",
+        "topology/open-ball"
+      ],
+      "after": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "shared-foundations/union"
+      ],
+      "review_count_before": 0,
+      "rationale": "Restore the union in the finite ball-cover condition. Completeness and compactness describe related results rather than definition inputs."
+    }
+  ],
+  "learning_paths": [
+    {
+      "name": "Groups to the first isomorphism theorem",
+      "concepts": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/quotient-group",
+        "algebra-groups/first-isomorphism-theorem-groups"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Functions to automorphism groups",
+      "concepts": [
+        "shared-foundations/function",
+        "shared-foundations/injective-function",
+        "shared-foundations/bijective-function",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/automorphism-group"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Group actions to faithful actions",
+      "concepts": [
+        "algebra-groups/group",
+        "algebra-groups/group-action",
+        "algebra-groups/kernel-of-action",
+        "algebra-groups/faithful-action"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Rings to quotient isomorphisms",
+      "concepts": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal",
+        "algebra-rings/two-sided-ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/first-isomorphism-theorem-rings"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Rings to principal ideal domains",
+      "concepts": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal",
+        "algebra-rings/ideal-generated",
+        "algebra-rings/principal-ideal",
+        "algebra-rings/pid"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Measure spaces to conditional expectations",
+      "concepts": [
+        "measure-theory/measure-space",
+        "measure-theory/lebesgue-integral-nonnegative",
+        "measure-theory/lebesgue-integral",
+        "probability/expectation",
+        "probability/conditional-expectation"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Probability measures to random-variable laws",
+      "concepts": [
+        "measure-theory/measure",
+        "probability/probability-measure",
+        "probability/probability-space",
+        "probability/random-variable",
+        "probability/distribution-law"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Outer measures to the Caratheodory construction",
+      "concepts": [
+        "shared-foundations/power-set",
+        "measure-theory/outer-measure",
+        "measure-theory/caratheodory-measurable-set",
+        "measure-theory/caratheodory-construction"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Submersions to tangent bundles",
+      "concepts": [
+        "fiber-bundles/smooth-submersion",
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/local-trivialization",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Function sequences to uniform limits",
+      "concepts": [
+        "shared-foundations/sequence",
+        "real-analysis/uniform-convergence",
+        "real-analysis/uniform-limit-theorem"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Cauchy sequences to uniform Cauchy criterion",
+      "concepts": [
+        "topology/cauchy-sequence",
+        "topology/complete-metric-space",
+        "real-analysis/uniform-cauchy-iff-uniform-convergence"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Bounded sequences to Bolzano-Weierstrass",
+      "concepts": [
+        "shared-foundations/sequence",
+        "real-analysis/bounded-sequence",
+        "real-analysis/bounded-sequence-has-convergent-subsequence"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Open sets to closure",
+      "concepts": [
+        "topology/open-set",
+        "topology/closed-set",
+        "topology/closure"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Topological bases to smooth product manifolds",
+      "concepts": [
+        "topology/basis-of-topology",
+        "topology/subbasis-of-topology",
+        "topology/product-topology",
+        "differential-geometry/product-manifold"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Open covers to compactness",
+      "concepts": [
+        "topology/open-set",
+        "topology/open-cover",
+        "topology/compact-set"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Subspaces to rank-nullity",
+      "concepts": [
+        "convex-analysis/linear-subspace",
+        "convex-analysis/subspace-generated-by-a-set-span",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "linear-algebra/rank-nullity-theorem"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Linear maps to eigenvalues",
+      "concepts": [
+        "linear-algebra/linear-map",
+        "linear-algebra/linear-operator",
+        "linear-algebra/eigenvalue"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Normed spaces to the continuous dual",
+      "concepts": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "convex-analysis/dual-space-and-duality-pairing"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Sets to linear maps \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "linear-algebra/linear-map"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Metric completeness to Hilbert spaces \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "linear-algebra/hilbert-space"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Inner products to Hilbert spaces \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "linear-algebra/hilbert-space"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Sets to measure spaces \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "measure-theory/measure-space"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Measurable spaces to measurable functions \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "measure-theory/measurable-function"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Topology to Lie groups \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "fiber-bundles/lie-group"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Linear algebra to abstract Lie algebras \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "lie-groups/lie-algebra"
+      ],
+      "max_unreviewed_prerequisites": 0
+    },
+    {
+      "name": "Linear algebra to vector bundles \u2014 reviewed prerequisite closure",
+      "concepts": [
+        "fiber-bundles/vector-bundle"
+      ],
+      "max_unreviewed_prerequisites": 0
+    }
+  ],
+  "forbidden_prerequisite_ancestors": {
+    "algebra-groups/group-homomorphism": [
+      "algebra-groups/kernel-group",
+      "algebra-groups/image-group",
+      "algebra-groups/first-isomorphism-theorem-groups"
+    ],
+    "algebra-groups/coset": [
+      "algebra-groups/normal-subgroup",
+      "algebra-groups/quotient-group"
+    ],
+    "algebra-groups/group-action": [
+      "algebra-groups/orbit",
+      "algebra-groups/stabilizer",
+      "algebra-groups/faithful-action"
+    ],
+    "shared-foundations/equivalence-relation": [
+      "shared-foundations/partition",
+      "shared-foundations/quotient-set"
+    ],
+    "algebra-rings/ideal": [
+      "algebra-rings/quotient-ring",
+      "algebra-rings/kernel-ring"
+    ],
+    "algebra-rings/ring-homomorphism": [
+      "algebra-rings/kernel-ring",
+      "algebra-rings/first-isomorphism-theorem-rings"
+    ],
+    "algebra-rings/pid": [
+      "algebra-rings/ufd",
+      "algebra-rings/euclidean-domain"
+    ],
+    "measure-theory/indicator-function": [
+      "measure-theory/measurable-function",
+      "measure-theory/simple-function",
+      "measure-theory/lebesgue-integral"
+    ],
+    "probability/probability-measure": [
+      "probability/probability-space",
+      "probability/event-probability"
+    ],
+    "measure-theory/outer-measure": [
+      "measure-theory/caratheodory-measurable-set",
+      "measure-theory/caratheodory-construction"
+    ],
+    "measure-theory/premeasure": [
+      "measure-theory/caratheodory-construction"
+    ],
+    "fiber-bundles/smooth-fiber-bundle": [
+      "fiber-bundles/typical-fiber",
+      "fiber-bundles/local-trivialization",
+      "fiber-bundles/tangent-bundle"
+    ],
+    "fiber-bundles/diffeomorphism": [
+      "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "fiber-bundles/tangent-space-at-a-point"
+    ],
+    "real-analysis/terms-go-to-zero": [
+      "real-analysis/root-test",
+      "real-analysis/ratio-test",
+      "real-analysis/divergent-series"
+    ],
+    "real-analysis/uniform-limit-theorem-for-continuity": [
+      "real-analysis/pointwise-convergence"
+    ],
+    "real-analysis/uniformly-bounded-family": [
+      "real-analysis/uniform-convergence"
+    ],
+    "topology/closed-set": [
+      "topology/closure",
+      "topology/continuous-map"
+    ],
+    "topology/basis-of-topology": [
+      "topology/product-topology",
+      "topology/continuous-map"
+    ],
+    "real-analysis/supremum": [
+      "real-analysis/maximum",
+      "real-analysis/completeness-axiom"
+    ],
+    "real-analysis/infimum": [
+      "real-analysis/minimum",
+      "real-analysis/completeness-axiom"
+    ],
+    "linear-algebra/eigenvalue": [
+      "linear-algebra/characteristic-polynomial",
+      "linear-algebra/determinant"
+    ],
+    "convex-analysis/linear-combination": [
+      "convex-analysis/subspace-generated-by-a-set-span",
+      "convex-analysis/basis-hamel-basis-and-dimension"
+    ]
+  },
+  "deferred": [
+    {
+      "id": "linear-algebra/determinant",
+      "reason": "The Leibniz formula uses permutation signs without defining the sign convention, and no canonical sign/permutation definition currently supplies that prerequisite. Keep this list unreviewed until that vocabulary is supplied."
+    }
+  ],
+  "content_corrections": [
+    {
+      "id": "algebra-rings/ideal-generated",
+      "before": "containing \\(A\\). Equivalently, \\((A)\\) consists of all finite sums",
+      "after": "containing \\(A\\). If \\(R\\) is unital, then equivalently \\((A)\\) consists of all finite sums",
+      "rationale": "The r*a*s formula need not contain A without a unit (e.g. the element 2 in the nonunital ring 2Z). Preserve the general smallest-ideal definition and qualify the formula."
+    },
+    {
+      "id": "algebra-rings/principal-ideal",
+      "before": "[[algebra-rings/commutative-ring|commutative ring]] \\(R\\)",
+      "after": "[[algebra-rings/commutative-ring|commutative]] [[algebra-rings/unital-ring|unital ring]] \\(R\\)",
+      "rationale": "The formula (a)=Ra for the ideal generated by a uses a multiplicative identity."
+    },
+    {
+      "id": "algebra-rings/prime-ideal",
+      "before": "Let \\(R\\) be a commutative ring.",
+      "after": "Let \\(R\\) be a commutative unital ring.",
+      "rationale": "The stated equivalence with an integral-domain quotient uses the repository convention that integral domains have a nonzero identity."
+    },
+    {
+      "id": "probability/independence-random-variables",
+      "before": "for every finite choice of indices",
+      "after": "for every finite choice of distinct indices",
+      "rationale": "Independence tests distinct members of a family; repeated indices would require every variable to be independent of itself."
+    },
+    {
+      "id": "measure-theory/ae-equality",
+      "before": "f=g \\text{ a.e.} \\quad \\Longleftrightarrow \\quad \\mu(\\{x\\in X: f(x)\\neq g(x)\\})=0.",
+      "after": "\\begin{gathered}\nf=g\\text{ a.e.}\\quad\\Longleftrightarrow\\\\\n\\exists N\\in\\Sigma\\text{ such that }\\mu(N)=0\\\\\n\\text{and }f(x)=g(x)\\text{ for all }x\\in X\\setminus N.\n\\end{gathered}",
+      "rationale": "Allow disagreement on any subset of a measurable null set; this agrees with almost-everywhere validity even on incomplete measure spaces."
+    },
+    {
+      "id": "measure-theory/ae-equality",
+      "before": "Equivalently, the set where \\(f\\) and \\(g\\) disagree is a [[measure-theory/null-set|null set]].",
+      "after": "Equivalently, \\(f\\) and \\(g\\) agree outside a measurable [[measure-theory/null-set|null set]]. If the disagreement set is measurable, this is the same as requiring its measure to be zero.",
+      "rationale": "State the equivalence with the measurable qualification required by an incomplete measure space."
+    },
+    {
+      "id": "real-analysis/supremum",
+      "before": "n\\in\\mathbb N",
+      "after": "n\\in\\mathbb N,\\ n\\ge 1",
+      "rationale": "Restrict reciprocal examples to positive indices, since the repository defines natural numbers to include zero."
+    },
+    {
+      "id": "real-analysis/infimum",
+      "before": "n\\in\\mathbb N",
+      "after": "n\\in\\mathbb N,\\ n\\ge 1",
+      "rationale": "Restrict reciprocal examples to positive indices, since the repository defines natural numbers to include zero."
+    },
+    {
+      "id": "topology/open-cover",
+      "before": "n\\in\\mathbb{N}",
+      "after": "n\\in\\mathbb{N},\\ n\\ge 1",
+      "rationale": "Restrict reciprocal examples to positive indices, since the repository defines natural numbers to include zero."
+    },
+    {
+      "id": "linear-algebra/rank-nullity-theorem",
+      "before": "\\ker T=\\{v\\in V:T(v)=0\\},\\qquad \\operatorname{im}T=\\{T(v):v\\in V\\}.",
+      "after": "\\begin{gathered}\n\\ker T=\\{v\\in V:T(v)=0\\},\\\\\n\\operatorname{im}T=\\{T(v):v\\in V\\}.\n\\end{gathered}",
+      "rationale": "Put the kernel and image definitions on separate display lines so both remain readable in the graph definition panel; mathematical content and delimiters are unchanged."
+    }
+  ],
+  "added_edges": 168,
+  "removed_edges": 72,
+  "final_edges": 10180,
+  "validation_snapshot": {
+    "learning_paths": [
+      {
+        "name": "Sets to linear maps",
+        "endpoint": "linear-algebra/linear-map",
+        "prerequisite_count": 18,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Metric completeness to Hilbert spaces",
+        "endpoint": "linear-algebra/hilbert-space",
+        "prerequisite_count": 38,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Inner products to Hilbert spaces",
+        "endpoint": "linear-algebra/hilbert-space",
+        "prerequisite_count": 38,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Sets to measure spaces",
+        "endpoint": "measure-theory/measure-space",
+        "prerequisite_count": 16,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Measurable spaces to measurable functions",
+        "endpoint": "measure-theory/measurable-function",
+        "prerequisite_count": 16,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Topology to Lie groups",
+        "endpoint": "fiber-bundles/lie-group",
+        "prerequisite_count": 37,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Linear algebra to abstract Lie algebras",
+        "endpoint": "lie-groups/lie-algebra",
+        "prerequisite_count": 20,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Linear algebra to vector bundles",
+        "endpoint": "fiber-bundles/vector-bundle",
+        "prerequisite_count": 64,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Groups to the first isomorphism theorem",
+        "endpoint": "algebra-groups/first-isomorphism-theorem-groups",
+        "prerequisite_count": 22,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Functions to automorphism groups",
+        "endpoint": "algebra-groups/automorphism-group",
+        "prerequisite_count": 18,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Group actions to faithful actions",
+        "endpoint": "algebra-groups/faithful-action",
+        "prerequisite_count": 14,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Rings to quotient isomorphisms",
+        "endpoint": "algebra-rings/first-isomorphism-theorem-rings",
+        "prerequisite_count": 31,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Rings to principal ideal domains",
+        "endpoint": "algebra-rings/pid",
+        "prerequisite_count": 22,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Measure spaces to conditional expectations",
+        "endpoint": "probability/conditional-expectation",
+        "prerequisite_count": 38,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Probability measures to random-variable laws",
+        "endpoint": "probability/distribution-law",
+        "prerequisite_count": 26,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Outer measures to the Caratheodory construction",
+        "endpoint": "measure-theory/caratheodory-construction",
+        "prerequisite_count": 21,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Submersions to tangent bundles",
+        "endpoint": "fiber-bundles/tangent-bundle",
+        "prerequisite_count": 65,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Function sequences to uniform limits",
+        "endpoint": "real-analysis/uniform-limit-theorem",
+        "prerequisite_count": 20,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Cauchy sequences to uniform Cauchy criterion",
+        "endpoint": "real-analysis/uniform-cauchy-iff-uniform-convergence",
+        "prerequisite_count": 23,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Bounded sequences to Bolzano-Weierstrass",
+        "endpoint": "real-analysis/bounded-sequence-has-convergent-subsequence",
+        "prerequisite_count": 23,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Open sets to closure",
+        "endpoint": "topology/closure",
+        "prerequisite_count": 15,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Topological bases to smooth product manifolds",
+        "endpoint": "differential-geometry/product-manifold",
+        "prerequisite_count": 35,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Open covers to compactness",
+        "endpoint": "topology/compact-set",
+        "prerequisite_count": 14,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Subspaces to rank-nullity",
+        "endpoint": "linear-algebra/rank-nullity-theorem",
+        "prerequisite_count": 33,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Linear maps to eigenvalues",
+        "endpoint": "linear-algebra/eigenvalue",
+        "prerequisite_count": 20,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      },
+      {
+        "name": "Normed spaces to the continuous dual",
+        "endpoint": "convex-analysis/dual-space-and-duality-pairing",
+        "prerequisite_count": 36,
+        "unreviewed_prerequisite_count": 0,
+        "unreviewed_prerequisites": []
+      }
+    ],
+    "coverage": {
+      "total_concepts": 3501,
+      "reviewed_concepts": 247,
+      "reviewed_with_all_prerequisites_reviewed": 239,
+      "by_domain": {
+        "algebra-category-theory": {
+          "total": 64,
+          "reviewed": 0
+        },
+        "algebra-coalgebras": {
+          "total": 3,
+          "reviewed": 0
+        },
+        "algebra-commutative": {
+          "total": 49,
+          "reviewed": 0
+        },
+        "algebra-fields-galois": {
+          "total": 71,
+          "reviewed": 0
+        },
+        "algebra-groups": {
+          "total": 144,
+          "reviewed": 34
+        },
+        "algebra-homological": {
+          "total": 32,
+          "reviewed": 0
+        },
+        "algebra-hyperstructures": {
+          "total": 34,
+          "reviewed": 0
+        },
+        "algebra-modules": {
+          "total": 91,
+          "reviewed": 0
+        },
+        "algebra-representation-theory": {
+          "total": 24,
+          "reviewed": 0
+        },
+        "algebra-rings": {
+          "total": 124,
+          "reviewed": 25
+        },
+        "algebra-topological": {
+          "total": 3,
+          "reviewed": 0
+        },
+        "algebraic-geometry-foundations": {
+          "total": 118,
+          "reviewed": 0
+        },
+        "analysis": {
+          "total": 13,
+          "reviewed": 0
+        },
+        "asymptotics": {
+          "total": 6,
+          "reviewed": 0
+        },
+        "complex-analysis": {
+          "total": 83,
+          "reviewed": 0
+        },
+        "convex-analysis": {
+          "total": 171,
+          "reviewed": 17
+        },
+        "differential-geometry": {
+          "total": 307,
+          "reviewed": 4
+        },
+        "discrete-structures": {
+          "total": 7,
+          "reviewed": 0
+        },
+        "fiber-bundles": {
+          "total": 352,
+          "reviewed": 25
+        },
+        "formal-groups": {
+          "total": 19,
+          "reviewed": 0
+        },
+        "functional-analysis": {
+          "total": 92,
+          "reviewed": 0
+        },
+        "harmonic-analysis": {
+          "total": 104,
+          "reviewed": 0
+        },
+        "knowlification": {
+          "total": 10,
+          "reviewed": 0
+        },
+        "langlands": {
+          "total": 120,
+          "reviewed": 0
+        },
+        "langlands-letter": {
+          "total": 36,
+          "reviewed": 0
+        },
+        "large-deviations": {
+          "total": 13,
+          "reviewed": 0
+        },
+        "lie-groups": {
+          "total": 333,
+          "reviewed": 1
+        },
+        "linear-algebra": {
+          "total": 50,
+          "reviewed": 19
+        },
+        "mathematical-physics": {
+          "total": 39,
+          "reviewed": 0
+        },
+        "measure-theory": {
+          "total": 49,
+          "reviewed": 20
+        },
+        "nonassociative-algebra": {
+          "total": 47,
+          "reviewed": 0
+        },
+        "noncommutative-geometry": {
+          "total": 56,
+          "reviewed": 0
+        },
+        "operator-algebras": {
+          "total": 273,
+          "reviewed": 0
+        },
+        "posts": {
+          "total": 7,
+          "reviewed": 0
+        },
+        "probability": {
+          "total": 38,
+          "reviewed": 9
+        },
+        "quantum-foundations": {
+          "total": 21,
+          "reviewed": 0
+        },
+        "real-analysis": {
+          "total": 245,
+          "reviewed": 30
+        },
+        "search": {
+          "total": 1,
+          "reviewed": 0
+        },
+        "shale-paper": {
+          "total": 34,
+          "reviewed": 0
+        },
+        "shared-foundations": {
+          "total": 64,
+          "reviewed": 35
+        },
+        "stat-mech-quantum": {
+          "total": 8,
+          "reviewed": 0
+        },
+        "supergeometry": {
+          "total": 27,
+          "reviewed": 0
+        },
+        "tikz": {
+          "total": 1,
+          "reviewed": 0
+        },
+        "topology": {
+          "total": 118,
+          "reviewed": 28
+        }
+      },
+      "next_candidates": [
+        {
+          "id": "real-analysis/convergent-series",
+          "direct_dependents": 15,
+          "reviewed_direct_dependents": 2
+        },
+        {
+          "id": "real-analysis/partition-of-an-interval",
+          "direct_dependents": 10,
+          "reviewed_direct_dependents": 2
+        },
+        {
+          "id": "real-analysis/riemann-integrable-function",
+          "direct_dependents": 20,
+          "reviewed_direct_dependents": 1
+        },
+        {
+          "id": "real-analysis/continuity-on-a-set",
+          "direct_dependents": 11,
+          "reviewed_direct_dependents": 1
+        },
+        {
+          "id": "real-analysis/riemann-integral",
+          "direct_dependents": 9,
+          "reviewed_direct_dependents": 1
+        },
+        {
+          "id": "real-analysis/pointwise-convergence",
+          "direct_dependents": 5,
+          "reviewed_direct_dependents": 1
+        },
+        {
+          "id": "linear-algebra/determinant",
+          "direct_dependents": 3,
+          "reviewed_direct_dependents": 1
+        },
+        {
+          "id": "real-analysis/series-of-functions",
+          "direct_dependents": 1,
+          "reviewed_direct_dependents": 1
+        },
+        {
+          "id": "operator-algebras/cstar-algebra",
+          "direct_dependents": 97,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "algebraic-geometry-foundations/reductive-algebraic-group",
+          "direct_dependents": 77,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "operator-algebras/von-neumann-algebra",
+          "direct_dependents": 76,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "topology/locally-compact-group",
+          "direct_dependents": 70,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "fiber-bundles/principal-connection",
+          "direct_dependents": 64,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "differential-geometry/symplectic-manifold",
+          "direct_dependents": 51,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "algebra-modules/module",
+          "direct_dependents": 45,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "harmonic-analysis/haar-measure",
+          "direct_dependents": 44,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "lie-groups/strongly-continuous-unitary-representation",
+          "direct_dependents": 44,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "algebra-category-theory/category",
+          "direct_dependents": 41,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "convex-analysis/convex-set",
+          "direct_dependents": 41,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "differential-geometry/complex-manifold",
+          "direct_dependents": 39,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "differential-geometry/riemannian-manifold",
+          "direct_dependents": 38,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "algebra-fields-galois/field-extension",
+          "direct_dependents": 37,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "fiber-bundles/vector-field",
+          "direct_dependents": 34,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "lie-groups/root-system",
+          "direct_dependents": 33,
+          "reviewed_direct_dependents": 0
+        },
+        {
+          "id": "algebra-fields-galois/nonarchimedean-local-field",
+          "direct_dependents": 32,
+          "reviewed_direct_dependents": 0
+        }
+      ]
+    }
+  }
+}

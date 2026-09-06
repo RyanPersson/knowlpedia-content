@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A short exact sequence induces a long exact sequence on left/right derived functors via connecting morphisms."
 aliases = ["long-exact-sequence-derived", "Long exact sequence for derived functors"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-homological/derived-functor", "algebra-homological/snake-lemma", "algebra-homological/connecting-homomorphism-lemma"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/long-exact-sequence-derived.md"
+prerequisites = ["algebra-homological/derived-functor", "algebra-homological/snake-lemma", "algebra-homological/connecting-homomorphism-lemma", "algebra-modules/short-exact-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Derived functors (see [[algebra-homological/derived-functor|derived functors]]) turn short exact sequences into long exact sequences in homology/cohomology. Conceptually, this is a systematic abstraction of the [[algebra-homological/snake-lemma|snake lemma]] and its boundary map; see also [[algebra-homological/connecting-homomorphism-lemma|connecting homomorphisms]].

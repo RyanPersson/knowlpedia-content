@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A linear map between Lie algebras that preserves the Lie bracket."
 aliases = ["lie-algebra-homomorphism", "Lie algebra homomorphism"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-homomorphism.md"
+prerequisites = ["lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g,\mathfrak h\) be [[lie-groups/lie-algebra|Lie algebras]] over a field \(\Bbbk\) (typically \(\Bbb R\) or \(\Bbb C\)), with [[fiber-bundles/lie-bracket|Lie brackets]] \([\ ,\ ]_{\mathfrak g}\) and \([\ ,\ ]_{\mathfrak h}\).

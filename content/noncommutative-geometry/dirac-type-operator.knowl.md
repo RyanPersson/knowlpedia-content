@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A first-order differential operator whose principal symbol is Clifford multiplication."
 aliases = ["generalized Dirac operator", "Clifford-symbol operator"]
 domains = ["noncommutative-geometry", "differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/clifford-module", "differential-geometry/principal-symbol", "differential-geometry/elliptic-differential-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/clifford-module", "differential-geometry/principal-symbol", "differential-geometry/elliptic-differential-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[differential-geometry/riemannian-manifold|Riemannian manifold]] and \(E\to M\) a Hermitian [[differential-geometry/clifford-module|Clifford module]] with Clifford multiplication \(c:T^*M\to\operatorname{End}(E)\). A **Dirac-type operator** on \(E\) is a first-order differential operator

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth homotopy is a smoothly parameterized one-parameter deformation between smooth maps."
 aliases = ["homotopy through smooth maps"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/smooth-map-of-manifolds-with-boundary", "differential-geometry/product-manifold", "differential-geometry/manifold-with-boundary", "shared-foundations/equivalence-relation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "differential-geometry/smooth-map-of-manifolds-with-boundary", "differential-geometry/product-manifold", "differential-geometry/manifold-with-boundary", "shared-foundations/equivalence-relation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary, and let \(f_0,f_1:M\to N\) be [[fiber-bundles/smooth-map|smooth maps]]. A **smooth homotopy** from \(f_0\) to \(f_1\) is a [[differential-geometry/smooth-map-of-manifolds-with-boundary|smooth map in the manifold-with-boundary sense]]

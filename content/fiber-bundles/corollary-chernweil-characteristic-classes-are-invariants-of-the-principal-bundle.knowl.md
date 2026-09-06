@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Characteristic classes obtained from invariant polynomials in curvature do not depend on the chosen principal connection."
 aliases = ["corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle", "Chern–Weil classes are independent of the connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle.md"
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(p\) be an \(\mathrm{Ad}\)-invariant polynomial on the Lie algebra. Given a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) with [[fiber-bundles/curvature|curvature]] \(\Omega\), the Chern–Weil construction produces a differential form on \(M\) by applying \(p\) to \(\Omega\) and using the fact that the resulting form is basic.

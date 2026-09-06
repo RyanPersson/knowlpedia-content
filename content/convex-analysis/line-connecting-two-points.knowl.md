@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The affine line through a and b: {λa+(1−λ)b : λ∈R}."
 aliases = ["line-connecting-two-points", "Line Connecting Two Points"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/line-segments-in-a-vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/line-connecting-two-points.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/line-segments-in-a-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[linear-algebra/vector-space|vector space]] and let \(a,b\in X\). The **line connecting \(a\) and \(b\)** is

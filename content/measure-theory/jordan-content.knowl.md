@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite-additivity notion of volume for certain bounded subsets of Euclidean space."
 aliases = ["jordan-content", "Jordan content"]
 domains = ["measure-theory"]
-prerequisites = ["real-analysis/interval"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/jordan-content.md"
+prerequisites = ["real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Jordan content** of a bounded set \(A\subseteq \mathbb R^n\) is the common value \(c(A)=c^*(A)=c_*(A)\) (when it exists), where for rectangles \(R=\prod_{i=1}^n [a_i,b_i]\) one sets \(\operatorname{vol}(R)=\prod_{i=1}^n (b_i-a_i)\), the outer content is

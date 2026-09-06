@@ -5,11 +5,11 @@ kind = "knowl"
 summary = "Integral Lie and representation lattices and the reductive Chevalley group scheme determined by a root datum."
 aliases = ["chevalley-lattice-integral-model", "Chevalley Lattice and Integral Model"]
 domains = ["langlands-letter"]
-prerequisites = ["langlands-letter/knowls/chevalley-basis", "lie-groups/semisimple-lie-algebra", "lie-groups/universal-enveloping-algebra", "algebraic-geometry-foundations/group-scheme", "langlands-letter/knowls/roots-weights-weyl"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/chevalley-lattice-integral-model.md"
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/chevalley-basis", "lie-groups/semisimple-lie-algebra", "lie-groups/universal-enveloping-algebra", "algebraic-geometry-foundations/group-scheme", "langlands-letter/knowls/roots-weights-weyl"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[langlands-letter/knowls/chevalley-basis|Chevalley basis]] of a split

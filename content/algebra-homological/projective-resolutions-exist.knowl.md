@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every module admits a projective (in fact free) resolution."
 aliases = ["projective-resolutions-exist", "Existence of projective resolutions"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-modules/module", "algebra-homological/projective-resolution", "algebra-homological/chain-complex", "algebra-modules/projective-module", "algebra-homological/exact-complex", "algebra-modules/free-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/projective-resolutions-exist.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/projective-module", "algebra-modules/free-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring and \(M\) a left \(R\)-[[algebra-modules/module|module]].

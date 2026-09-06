@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A differential operator whose principal symbol is invertible at every nonzero cotangent vector."
 aliases = ["elliptic operator", "ellipticity"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/principal-symbol", "convex-analysis/image-and-kernel-linear-isomorphism", "topology/connected-component"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/differential-operator-vector-bundles", "differential-geometry/principal-symbol", "convex-analysis/image-and-kernel-linear-isomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D:\Gamma^\infty(E)\to\Gamma^\infty(F)\) be a differential operator of order \(m\geq0\) between smooth [[fiber-bundles/vector-bundle|vector bundles]] over \(M\). The operator \(D\) is **elliptic** if, for every \(x\in M\) and every nonzero \(\xi\in T_x^*M\), its [[differential-geometry/principal-symbol|principal symbol]]

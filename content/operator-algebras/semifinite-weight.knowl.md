@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A weight whose finite positive elements are order-dense in the positive cone."
 aliases = ["semifiniteness of a weight"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/weight-on-von-neumann-algebra", "operator-algebras/ultraweak-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/weight-on-von-neumann-algebra", "operator-algebras/ultraweak-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]

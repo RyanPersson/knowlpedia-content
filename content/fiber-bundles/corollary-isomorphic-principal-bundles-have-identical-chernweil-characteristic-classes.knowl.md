@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Chern–Weil characteristic classes agree for isomorphic principal bundles."
 aliases = ["corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes", "Isomorphic principal bundles have the same Chern–Weil classes"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/diffeomorphism", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes.md"
+prerequisites = ["fiber-bundles/diffeomorphism", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) and \(P'\to M\) be principal \(G\)-bundles, and let \(\Phi:P\to P'\) be an isomorphism of principal bundles over \(M\) (a \(G\)-equivariant [[fiber-bundles/diffeomorphism|diffeomorphism]] with \(\pi'\circ\Phi=\pi\)).

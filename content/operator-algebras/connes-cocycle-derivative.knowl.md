@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Connes cocycle derivative is a unitary cocycle that compares the modular automorphism groups of two faithful normal semifinite weights."
 aliases = ["cocycle Radon–Nikodym derivative"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/von-neumann-algebra", "operator-algebras/spatial-derivative", "operator-algebras/modular-automorphism-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/von-neumann-algebra", "operator-algebras/spatial-derivative", "operator-algebras/modular-automorphism-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\varphi\) and \(\psi\) be

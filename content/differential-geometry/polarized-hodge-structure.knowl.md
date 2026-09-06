@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A pure Hodge structure equipped with a parity-compatible bilinear form satisfying Hodge orthogonality and positivity."
 aliases = ["Hodge polarization", "polarization of a Hodge structure"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/pure-hodge-structure", "linear-algebra/bilinear-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/pure-hodge-structure", "linear-algebra/bilinear-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **polarization** of a real [[differential-geometry/pure-hodge-structure|pure Hodge structure]] \(V\) of weight \(n\) is a nondegenerate real [[linear-algebra/bilinear-form|bilinear form]] \(Q\) such that

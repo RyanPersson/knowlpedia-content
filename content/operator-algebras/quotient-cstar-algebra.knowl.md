@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The C*-algebra obtained by dividing a C*-algebra by a closed two-sided ideal."
 aliases = ["C*-algebra quotient", "A/I"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/closed-two-sided-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and let

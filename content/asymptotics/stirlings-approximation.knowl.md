@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Asymptotic formulas and bounds for factorials and log-factorials for large n."
 aliases = ["stirlings-approximation", "Stirling's approximation"]
 domains = ["asymptotics"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "asymptotics/stirlings-approximation.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For integers \(n \to \infty\),

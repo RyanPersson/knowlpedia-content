@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The local behavior of a holomorphic function near one point, modulo restriction to smaller neighborhoods."
 aliases = ["germ of a holomorphic function", "analytic germ"]
 domains = ["complex-analysis", "sheaf-theory"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a complex manifold and \(a\in X\). Two holomorphic functions \(f:U\to\mathbb C\) and \(g:V\to\mathbb C\), defined on neighborhoods of \(a\), determine the same **holomorphic germ at \(a\)** if they agree on some neighborhood \(W\subseteq U\cap V\) of \(a\). The equivalence class is denoted \([f]_a\) or \(f_a\).

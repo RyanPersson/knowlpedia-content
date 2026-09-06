@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If is a Lie group homomorphism, then is a Lie algebra homomorphism."
 aliases = ["differential-is-lie-algebra-homomorphism", "Differential of a Lie group homomorphism"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-group-homomorphism", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/lie-algebra-homomorphism", "lie-groups/exponential-map-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/differential-is-lie-algebra-homomorphism.md"
+prerequisites = ["lie-groups/lie-group-homomorphism", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/lie-algebra-homomorphism", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Phi:G\to H\) be a [[lie-groups/lie-group-homomorphism|Lie group homomorphism]] between [[fiber-bundles/lie-group|Lie groups]], and let \(\mathfrak g=\mathrm{Lie}(G)\) and \(\mathfrak h=\mathrm{Lie}(H)\) (see [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]).

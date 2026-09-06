@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A smooth map between hypercomplex manifolds that preserves each member of the ordered quaternionic triple."
 aliases = ["hypercomplex map", "triholomorphic morphism"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/hypercomplex-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hypercomplex-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,I_M,J_M,K_M)\) and \((N,I_N,J_N,K_N)\) be [[differential-geometry/hypercomplex-manifold|hypercomplex manifolds]]. A **triholomorphic map** is a smooth map \(f:M\to N\) satisfying

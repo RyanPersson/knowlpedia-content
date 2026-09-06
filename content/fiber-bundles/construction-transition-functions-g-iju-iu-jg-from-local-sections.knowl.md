@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "How local sections determine transition functions on overlaps in a principal bundle."
 aliases = ["construction-transition-functions-g-iju-iu-jg-from-local-sections", "Transition functions from local sections"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with the [[fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p|standard right G-action]]. Let \(\{U_i\}\) be an open cover of \(M\) and let \(s_i:U_i\to P\) be smooth local sections.

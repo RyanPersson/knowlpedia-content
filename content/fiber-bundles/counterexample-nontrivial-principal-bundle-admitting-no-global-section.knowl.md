@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Illustration of the fact that a principal bundle is trivial exactly when it admits a global smooth section."
 aliases = ["counterexample-nontrivial-principal-bundle-admitting-no-global-section", "Nontrivial principal bundle with no global section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/trivial-principal-bundle-mgm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].

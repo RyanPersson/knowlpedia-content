@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "An isolated singularity is removable, a pole, or essential according to its Laurent principal part."
 aliases = ["isolated singularity classification"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/laurent-series"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/laurent-series", "complex-analysis/holomorphic-functions-are-analytic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f\) be holomorphic on a punctured disc \(0<|z-a|<R\). Exactly one of the following occurs:
@@ -15,6 +16,8 @@ Let \(f\) be holomorphic on a punctured disc \(0<|z-a|<R\). Exactly one of the f
 1. \(a\) is **removable**, when \(f\) extends holomorphically across \(a\);
 2. \(a\) is a **pole**, when \(|f(z)|\to\infty\) as \(z\to a\);
 3. \(a\) is **essential**, when it is neither removable nor a pole.
+
+## Laurent-series characterization
 
 In the [[complex-analysis/laurent-series|Laurent expansion]], these cases correspond respectively to no negative terms, finitely many negative terms, and infinitely many negative terms.
 

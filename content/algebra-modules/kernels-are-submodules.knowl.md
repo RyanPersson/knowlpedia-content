@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The kernel of a module homomorphism is a submodule of its domain."
 aliases = ["kernels-are-submodules", "Kernels are submodules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/submodule", "algebra-modules/kernel-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/kernels-are-submodules.md"
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/submodule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a homomorphism of \(R\)-modules. Its kernel

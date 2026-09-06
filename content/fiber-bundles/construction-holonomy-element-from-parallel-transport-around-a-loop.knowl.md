@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Definition of the holonomy element in G obtained by transporting a point around a based loop."
 aliases = ["construction-holonomy-element-from-parallel-transport-around-a-loop", "Holonomy element from parallel transport around a loop"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-parallel-transport-map-along-a-curve", "fiber-bundles/holonomy-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-holonomy-element-from-parallel-transport-around-a-loop.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-parallel-transport-map-along-a-curve", "fiber-bundles/holonomy-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with [[fiber-bundles/principal-connection|principal connection]] \(\omega\). Fix \(x\in M\), \(p\in P_x\), and a piecewise smooth loop \(\gamma:[0,1]\to M\) with \(\gamma(0)=\gamma(1)=x\).

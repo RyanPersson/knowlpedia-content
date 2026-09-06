@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The hyperring of multiplicative orbits R/G of a ring under a subgroup of units."
 aliases = ["Krasner quotient hyperring", "factor hyperring by a multiplicative subgroup"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/group-of-units", "algebra-hyperstructures/hyperring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/group-of-units", "algebra-hyperstructures/hyperring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(G\le R^\times\) be a multiplicative

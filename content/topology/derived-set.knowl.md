@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of all limit points of a subset."
 aliases = ["derived-set", "Derived set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/limit-point", "topology/closure"]
-dependency_review_count = 1
 legacy_source_path = "topology/derived-set.md"
+prerequisites = ["topology/topological-space", "topology/limit-point", "topology/closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **derived set** of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] is the set

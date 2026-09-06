@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Banach configuration space obtained by completing connections and gauge transformations in compatible Sobolev norms."
 aliases = ["Sobolev gauge group", "completed connection space"]
 domains = ["fiber-bundles", "functional-analysis"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a compact \(d\)-dimensional

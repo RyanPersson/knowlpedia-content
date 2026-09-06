@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A vector space equipped with an inner product."
 aliases = ["inner-product-space", "Inner product space"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "linear-algebra/inner-product"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/inner-product-space.md"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 An **inner product space** is a [[linear-algebra/vector-space|vector space]] \(V\) over \(\mathbb{R}\) or \(\mathbb{C}\) together with a specified [[linear-algebra/inner-product|inner product]] \(\langle\cdot,\cdot\rangle\) on \(V\).

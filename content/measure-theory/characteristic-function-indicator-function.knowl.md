@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The function that records membership in a set by 0/1 values."
 aliases = ["characteristic-function-indicator-function", "Characteristic function (indicator function)"]
 domains = ["measure-theory"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "measure-theory/characteristic-function-indicator-function.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a set and let \(A\subseteq X\). The **characteristic function** (or **indicator function**) of \(A\) is the function \(\mathbf{1}_A:X\to\{0,1\}\) defined by

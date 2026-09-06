@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Stringent hyperfields are tropical extensions whose residue layer is a field, the Krasner hyperfield, or the sign hyperfield."
 aliases = ["Bowler-Su classification of stringent hyperfields"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
-prerequisites = ["algebra-hyperstructures/stringent-hyperfield", "algebra-hyperstructures/krasner-hyperfield", "algebra-hyperstructures/sign-hyperfield", "algebra-rings/field", "algebra-groups/ordered-abelian-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/stringent-hyperfield", "algebra-hyperstructures/krasner-hyperfield", "algebra-hyperstructures/sign-hyperfield", "algebra-rings/field", "algebra-groups/ordered-abelian-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Every [[algebra-hyperstructures/stringent-hyperfield|stringent hyperfield]]

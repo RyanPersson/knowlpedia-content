@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Every finite-dimensional Lie algebra over characteristic 0 has a faithful finite-dimensional representation."
 aliases = ["ados-theorem", "Ado’s theorem"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism", "lie-groups/lie-subalgebra", "lie-groups/general-linear-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "lie-groups/ados-theorem.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-algebra-homomorphism", "lie-groups/lie-subalgebra", "lie-groups/general-linear-lie-algebra", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak{g}\) be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]] over a field of characteristic \(0\) (typically \(\mathbb{R}\) or \(\mathbb{C}\)).

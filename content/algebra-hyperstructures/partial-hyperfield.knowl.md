@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A multiplicative group selected inside an integral hyperring, with a possibly empty multivalued partial addition."
 aliases = ["partial Krasner hyperfield"]
 domains = ["algebra-hyperstructures", "matroid-theory"]
-prerequisites = ["algebra-hyperstructures/integral-hyperring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/integral-hyperring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **partial hyperfield** in normalized ambient form is a pair \(P=(G,R)\),

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every continuous function on a closed interval has a Riemann integral"
 aliases = ["existence-of-riemann-integral-for-continuous-functions", "Continuous functions are Riemann integrable"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/riemann-integrable-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/existence-of-riemann-integral-for-continuous-functions.md"
+prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/riemann-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Continuous functions are Riemann integrable**: If \(f:[a,b]\to\mathbb{R}\) is [[real-analysis/continuity-on-a-set|continuous]], then \(f\) is [[real-analysis/riemann-integrable-function|Riemann integrable]] on \([a,b]\).

@@ -5,15 +5,18 @@ kind = "knowl"
 summary = "For a smooth action , the stabilizer fixes a point and is a closed Lie subgroup."
 aliases = ["stabilizer-lie-group", "Stabilizer (isotropy subgroup) in a Lie group action"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/lie-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/stabilizer-lie-group.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/closed-subgroup-theorem", "lie-groups/lie-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold \(M\) via an action map \(a:G\times M\to M\) (see [[lie-groups/smooth-action-lie-group|smooth actions of Lie groups]]). For a point \(x\in M\), the **stabilizer** (or **isotropy subgroup**) at \(x\) is
 \[
 G_x=\{g\in G\mid g\cdot x=x\}.
 \]
+
+## Closedness
 
 It is a subgroup of \(G\). Since it is the preimage of the closed set \(\{x\}\) under the continuous map \(g\mapsto g\cdot x\), it is closed in \(G\); hence \(G_x\) is a [[lie-groups/closed-subgroup-lie-group|closed subgroup]], and by the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]] it is automatically an embedded [[lie-groups/lie-subgroup|Lie subgroup]].
 

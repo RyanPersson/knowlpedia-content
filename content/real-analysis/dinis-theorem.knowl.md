@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "On a compact space, monotone pointwise convergence of continuous functions to a continuous limit is uniform."
 aliases = ["dinis-theorem", "Dini's theorem"]
 domains = ["real-analysis"]
-prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/pointwise-convergence", "real-analysis/uniform-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/dinis-theorem.md"
+prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/pointwise-convergence", "real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Dini's theorem:** Let \(K\) be a compact [[topology/topological-space|topological space]] and let \(f_n:K\to\mathbb{R}\) be [[topology/continuous-map|continuous]] for every \(n\). Assume \((f_n)\) is monotone in \(n\) (either \(f_n(x)\le f_{n+1}(x)\) for all \(x\in K\), or \(f_n(x)\ge f_{n+1}(x)\) for all \(x\in K\)) and that \(f_n\to f\) [[real-analysis/pointwise-convergence|pointwise]] on \(K\), where \(f\) is continuous. Then \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]] on \(K\).

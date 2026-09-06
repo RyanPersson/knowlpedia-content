@@ -6,6 +6,7 @@ summary = "An autoequivalence representing an integral degree shift in a categor
 aliases = ["shift functor", "shift autoequivalence", "translation functor"]
 domains = ["algebra-category-theory", "algebra-homological"]
 prerequisites = ["algebra-category-theory/equivalence-of-categories"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

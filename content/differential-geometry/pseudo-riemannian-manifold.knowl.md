@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth manifold equipped with a nondegenerate symmetric metric whose signature is constant on each connected component."
 aliases = ["semi-Riemannian manifold", "indefinite Riemannian manifold", "pseudo-Riemannian metric"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "topology/connected-component", "linear-algebra/signature-of-symmetric-bilinear-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "topology/connected-component", "linear-algebra/signature-of-symmetric-bilinear-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. A **pseudo-Riemannian metric** on \(M\) is a smooth symmetric section

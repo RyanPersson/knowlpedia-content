@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A transformation of projective space induced by an invertible linear map."
 aliases = ["projectivity", "linear projective transformation", "homography"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map", "algebraic-geometry-foundations/projective-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional [[linear-algebra/vector-space|vector space]] over a field \(k\). An invertible [[linear-algebra/linear-map|linear map]] \(A:V\to V\) induces a **projective transformation**

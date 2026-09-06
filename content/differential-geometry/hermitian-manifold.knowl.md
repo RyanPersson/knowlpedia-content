@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complex manifold equipped with a Riemannian metric invariant under its complex structure."
 aliases = ["Hermitian complex manifold", "Hermitian metric on a complex manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/tangent-bundle", "differential-geometry/almost-hermitian-manifold", "differential-geometry/almost-complex-structure", "differential-geometry/integrable-almost-complex-structure", "fiber-bundles/hermitian-metric", "differential-geometry/holomorphic-tangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/tangent-bundle", "differential-geometry/almost-hermitian-manifold", "differential-geometry/almost-complex-structure", "differential-geometry/integrable-almost-complex-structure", "fiber-bundles/hermitian-metric", "differential-geometry/holomorphic-tangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[differential-geometry/complex-manifold|complex manifold]] with its canonical complex structure \(J\) on the real [[fiber-bundles/tangent-bundle|tangent bundle]]. A **Hermitian manifold** is \(M\) together with a smooth Riemannian metric \(g\) satisfying

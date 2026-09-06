@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An orientation of a smooth manifold is a continuous choice of orientation for all of its tangent spaces."
 aliases = ["manifold orientation"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-atlas", "real-analysis/jacobian-determinant", "topology/connected-component"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-atlas", "real-analysis/jacobian-determinant", "topology/connected-component"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. An **orientation of \(M\)** is an [[fiber-bundles/orientation-of-a-real-vector-bundle|orientation]] of its [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\): at each \(p\in M\), one chooses one of the two orientation classes of ordered bases of \(T_pM\), and the choice must vary continuously. Equivalently, an orientation is a maximal [[fiber-bundles/smooth-atlas|smooth atlas]] whose coordinate changes have positive [[real-analysis/jacobian-determinant|Jacobian determinant]]. A manifold together with such a choice is **oriented**; a manifold admitting a choice is **orientable**. On each [[topology/connected-component|connected component]] of a positive-dimensional [[differential-geometry/orientability-of-a-smooth-manifold|orientable manifold]], exactly two orientations exist.

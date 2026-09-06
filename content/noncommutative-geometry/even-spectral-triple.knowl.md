@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A spectral triple with a grading that commutes with the represented algebra and anticommutes with its self-adjoint operator."
 aliases = ["graded spectral triple", "even K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/z2-graded-hilbert-space", "operator-algebras/graded-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/z2-graded-hilbert-space", "operator-algebras/graded-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **even spectral triple** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) together with a [[functional-analysis/z2-graded-hilbert-space|grading]] operator \(\Gamma\) on \(H\) such that

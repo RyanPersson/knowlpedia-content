@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The automorphism group of a complex manifold in the category of complex manifolds and holomorphic maps."
 aliases = ["holomorphic automorphism group", "Aut_hol(X)", "group of biholomorphisms"]
 domains = ["differential-geometry", "complex-analysis", "algebra-groups"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/category-of-complex-manifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/category-of-complex-manifolds"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[differential-geometry/complex-manifold|complex manifold]] \(X\), its **biholomorphism group** or **holomorphic automorphism group** is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Cartesian product of vector spaces with componentwise operations"
 aliases = ["product-space-cartesian-product", "Product space"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/product-space-cartesian-product.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X_1,\dots,X_m\) be vector spaces over the same field \(K\). Their **Cartesian product**

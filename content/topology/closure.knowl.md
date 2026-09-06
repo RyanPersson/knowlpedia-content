@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The smallest closed set containing a given subset."
 aliases = ["closure"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closed-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/closure.md"
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/closed-set"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 The **closure** of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] \((X,\mathcal{T})\) is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The derivative of a vector bundle section along a vector field as defined by a connection."
 aliases = ["covariant-derivative-of-a-section", "Covariant derivative of a section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/leibniz-rule-for-a-connection"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/covariant-derivative-of-a-section.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/leibniz-rule-for-a-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\). For a [[fiber-bundles/vector-field|vector field]] \(X\) on \(M\) and a section \(s\in\Gamma(E)\), the connection produces another section \(\nabla_X s\).

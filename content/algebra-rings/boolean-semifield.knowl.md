@@ -5,9 +5,10 @@ kind = "example"
 summary = "The two-element idempotent semifield with OR as addition and AND as multiplication."
 aliases = ["Boolean semiring", "binary Boolean semifield"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
-prerequisites = ["algebra-rings/idempotent-semifield"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/idempotent-semifield"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Boolean semifield** is

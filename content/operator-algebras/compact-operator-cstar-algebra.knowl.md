@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The norm-closed C*-algebra of compact operators on a Hilbert space."
 aliases = ["K(H)", "compact operator algebra"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/compact-operator", "operator-algebras/closed-two-sided-ideal", "operator-algebras/bounded-operator-cstar-algebra", "operator-algebras/cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/compact-operator", "operator-algebras/closed-two-sided-ideal", "operator-algebras/bounded-operator-cstar-algebra", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal H\) be a complex

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Continuity of the integrand and bounded variation of the integrator guarantee Riemann–Stieltjes integrability."
 aliases = ["riemann-stieltjes-integrability-theorem", "Riemann–Stieltjes integrability theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-variation-function", "real-analysis/riemann-stieltjes-integral", "real-analysis/integrator-function", "real-analysis/monotone-function", "real-analysis/riemann-integral"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-stieltjes-integrability-theorem.md"
+prerequisites = ["real-analysis/bounded-variation-function", "real-analysis/riemann-stieltjes-integral", "real-analysis/integrator-function", "real-analysis/monotone-function", "real-analysis/riemann-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Riemann–Stieltjes integrability theorem:** Let \(a<b\). If \(f:[a,b]\to\mathbb{R}\) is continuous and \(g:[a,b]\to\mathbb{R}\) is a [[real-analysis/bounded-variation-function|bounded variation function]], then \(f\) is [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes integrable]] with respect to the [[real-analysis/integrator-function|integrator function]] \(g\) on \([a,b]\).

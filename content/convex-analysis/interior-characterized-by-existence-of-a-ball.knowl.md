@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point lies in the interior iff a ball around it is contained in the set"
 aliases = ["interior-characterized-by-existence-of-a-ball", "Interior via balls"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/interior-characterized-by-existence-of-a-ball.md"
+prerequisites = ["convex-analysis/metric-metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A real manifold whose tangent bundle carries a rank-three family of endomorphisms locally satisfying the quaternion relations."
 aliases = ["almost quaternionic structure"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/almost-complex-structure", "fiber-bundles/quaternionic-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **almost-quaternionic manifold** is a [[fiber-bundles/smooth-manifold|smooth real manifold]] \(M\) of dimension \(4n\), \(n\geq1\), together with a rank-three smooth subbundle

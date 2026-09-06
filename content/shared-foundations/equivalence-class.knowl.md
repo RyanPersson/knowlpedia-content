@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of all elements equivalent to a given element under an equivalence relation."
 aliases = ["equivalence-class", "Equivalence class"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/equivalence-relation"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/equivalence-class.md"
+prerequisites = ["shared-foundations/equivalence-relation"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 An **equivalence class** of an element \(a\in A\) (with respect to an [[shared-foundations/equivalence-relation|equivalence relation]] \(\sim\) on \(A\)) is the set

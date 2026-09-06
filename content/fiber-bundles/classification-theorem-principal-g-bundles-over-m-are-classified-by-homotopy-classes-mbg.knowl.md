@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Principal G bundles over a paracompact manifold are classified up to isomorphism by homotopy classes of maps into the classifying space BG."
 aliases = ["classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg", "Classification of principal G-bundles by homotopy classes of maps into BG"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/universal-principal-bundle-egbg", "fiber-bundles/classifying-space-bg", "fiber-bundles/construction-pullback-principal-bundle-fp-along-fnm", "fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/universal-principal-bundle-egbg", "fiber-bundles/classifying-space-bg", "fiber-bundles/construction-pullback-principal-bundle-fp-along-fnm", "fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \(M\) be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]]. Write \(\mathrm{Prin}_G(M)\) for the set of isomorphism classes of [[fiber-bundles/principal-g-bundle|principal G-bundles]] over \(M\) (isomorphisms are [[fiber-bundles/principal-bundle-isomorphism|principal bundle isomorphisms]] covering \(\mathrm{id}_M\)).

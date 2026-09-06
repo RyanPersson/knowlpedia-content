@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The four-dimensional Euclidean Jordan algebra of Hermitian two-by-two complex matrices."
 aliases = ["complex qubit Jordan algebra", "qubit Jordan algebra", "h_2(C)"]
 domains = ["nonassociative-algebra", "quantum-foundations"]
-prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "quantum-foundations/qubit"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "quantum-foundations/qubit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **complex-qubit Jordan algebra** is

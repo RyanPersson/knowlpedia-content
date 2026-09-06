@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An estimate that gives an explicit lower bound for the mass of a function on an observation set from analytic or spectral constraints."
 aliases = ["quantitative uniqueness estimate", "observability inequality"]
 domains = ["analysis", "partial-differential-equations", "harmonic-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **quantitative unique-continuation estimate** for a class
@@ -18,7 +19,11 @@ A **quantitative unique-continuation estimate** for a class
 \qquad f\in\mathcal F,
 \]
 with an explicit constant \(c>0\) determined by stated geometric and analytic
-parameters. It strengthens qualitative unique continuation, which would only
+parameters.
+
+## Relation to qualitative uniqueness
+
+It strengthens qualitative unique continuation, which would only
 say that vanishing on \(U\) forces \(f=0\).
 
 ## Spectral version used in fractal uncertainty

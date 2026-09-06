@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Key algebraic properties for gauges and Hahn–Banach domination."
 aliases = ["subadditive-positively-homogeneous-and-sublinear-functions", "Subadditive, Positively Homogeneous, and Sublinear Functions"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(p:X\to\mathbb{R}\).

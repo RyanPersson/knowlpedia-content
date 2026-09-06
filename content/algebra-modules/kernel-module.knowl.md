@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The submodule mapped to zero by a module homomorphism."
 aliases = ["kernel-module", "Kernel of a module homomorphism"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/submodule"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/kernel-module.md"
+prerequisites = ["algebra-modules/module-homomorphism", "algebra-modules/submodule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[algebra-modules/module-homomorphism|module homomorphism]]. The **kernel** of \(f\) is

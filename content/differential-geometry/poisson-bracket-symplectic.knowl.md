@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Lie bracket on smooth functions induced by the inverse of a symplectic form."
 aliases = ["symplectic Poisson bracket"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. For \(f,g\in C^\infty(M,\mathbb R)\), let \(X_f,X_g\) be their [[differential-geometry/hamiltonian-vector-field|Hamiltonian vector fields]] under the convention \(\iota_{X_f}\omega=df\). The **Poisson bracket** is

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The product of functions obtained by integrating one function against left translates of another."
 aliases = ["group convolution", "convolution of functions on a group", "f star g"]
 domains = ["harmonic-analysis", "functional-analysis", "algebra-groups"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "measure-theory/lebesgue-integral", "measure-theory/ae-equality"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "measure-theory/lebesgue-integral", "measure-theory/ae-equality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] with a fixed left [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\). For functions \(f,g:G\to\mathbb C\) for which the [[measure-theory/lebesgue-integral|integral]] exists, their **convolution** is

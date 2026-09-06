@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The integral of a function over affine lines, parameterized by a base point and a direction."
 aliases = ["line transform", "Euclidean X-ray transform"]
 domains = ["harmonic-analysis", "integral-geometry"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["measure-theory/lebesgue-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For an integrable function \(f:\mathbb R^d\to\mathbb C\), its **X-ray

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The dimensions of the two nonreal eigenspaces of the adjoint of a symmetric operator."
 aliases = ["defect indices", "deficiency numbers"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/adjoint-unbounded-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/adjoint-unbounded-operator", "shared-foundations/ordered-pair"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a densely defined closed

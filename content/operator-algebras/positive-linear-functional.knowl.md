@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complex linear functional on a C*-algebra that is nonnegative on every positive element."
 aliases = ["positive functional", "positive form on a C*-algebra"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-cone"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A **positive linear functional** is a complex-linear map \(\varphi:A\to\mathbb C\) such that

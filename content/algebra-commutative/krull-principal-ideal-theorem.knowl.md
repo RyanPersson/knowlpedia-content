@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a Noetherian ring, any prime ideal minimal over a principal ideal has height at most 1."
 aliases = ["krull-principal-ideal-theorem", "Krull's principal ideal theorem"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/height-of-prime"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/krull-principal-ideal-theorem.md"
+prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/height-of-prime"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and \(f\in A\). If a prime ideal \(\mathfrak p\) is minimal among the prime ideals containing \((f)\), then

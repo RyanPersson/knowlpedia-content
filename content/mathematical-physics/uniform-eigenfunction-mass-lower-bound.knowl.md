@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every normalized Laplace eigenfunction on a compact hyperbolic surface has a uniformly positive amount of L2 mass in each fixed nonempty open set."
 aliases = ["Dyatlov–Jin eigenfunction mass theorem", "full support of semiclassical measures on hyperbolic surfaces"]
 domains = ["mathematical-physics", "spectral-theory", "quantum-chaos"]
-prerequisites = ["mathematical-physics/compact-hyperbolic-surface", "mathematical-physics/laplace-beltrami-eigenfunction", "differential-geometry/laplace-beltrami-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/compact-hyperbolic-surface", "mathematical-physics/laplace-beltrami-eigenfunction", "differential-geometry/laplace-beltrami-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[mathematical-physics/compact-hyperbolic-surface|compact

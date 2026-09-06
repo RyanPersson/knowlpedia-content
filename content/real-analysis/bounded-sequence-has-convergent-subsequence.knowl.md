@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A direct corollary form of the Bolzano–Weierstrass theorem"
 aliases = ["bounded-sequence-has-convergent-subsequence", "Every bounded sequence in R^k has a convergent subsequence"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-sequence", "real-analysis/subsequence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-sequence-has-convergent-subsequence.md"
+prerequisites = ["real-analysis/bounded-sequence", "real-analysis/subsequence", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Corollary (Bolzano–Weierstrass, sequence form)**: If \((x_n)\) is a [[real-analysis/bounded-sequence|bounded sequence]] in \(\mathbb{R}^k\), then there exists a [[real-analysis/subsequence|subsequence]] \((x_{n_j})\) and a point \(x\in\mathbb{R}^k\) such that

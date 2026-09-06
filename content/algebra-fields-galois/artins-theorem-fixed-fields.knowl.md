@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite group of field automorphisms yields a finite Galois extension with degree equal to the group order."
 aliases = ["artins-theorem-fixed-fields", "Artin's theorem on fixed fields"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-automorphism", "algebra-fields-galois/fixed-field", "algebra-fields-galois/galois-extension", "algebra-fields-galois/galois-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/artins-theorem-fixed-fields.md"
+prerequisites = ["algebra-fields-galois/field-automorphism", "algebra-fields-galois/fixed-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L\) be a field and let \(G\) be a finite subgroup of the group of [[algebra-fields-galois/field-automorphism|field automorphisms]] of \(L\). Define the [[algebra-fields-galois/fixed-field|fixed field]]

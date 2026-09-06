@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonempty subset of a group is a subgroup iff it is closed under products and inverses"
 aliases = ["subgroup-test-two-step", "Subgroup Test (two-step)"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/subset", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/subgroup-test-two-step.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/subset", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Subgroup Test (two-step)**: Let \(G\) be a [[algebra-groups/group|group]] and let \(H\) be a nonempty [[shared-foundations/subset|subset]] of \(G\). Then \(H\) is a [[algebra-groups/subgroup|subgroup]] of \(G\) if and only if:

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The fixed-ring category whose objects are finitely generated projective modules and whose morphisms are module homomorphisms."
 aliases = ["Proj A", "category of finite projective modules", "finite projective module category"]
 domains = ["algebra-modules", "category-theory"]
-prerequisites = ["algebra-modules/projective-module", "algebra-modules/module-homomorphism", "algebra-category-theory/full-subcategory", "algebra-category-theory/zero-object"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-modules/projective-module", "algebra-modules/module-homomorphism", "algebra-category-theory/full-subcategory", "algebra-category-theory/zero-object", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a commutative unital ring. The **category of finitely generated

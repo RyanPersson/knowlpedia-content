@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The target set in the definition of a function"
 aliases = ["codomain"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/codomain.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **codomain** is the target set of a function: if \(f:A\to B\) is a [[shared-foundations/function|function]], then its codomain is the set \(B\).

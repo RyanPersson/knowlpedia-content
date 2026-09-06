@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Natural numbers are unbounded in the real numbers."
 aliases = ["archimedean-property", "Archimedean Property"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/archimedean-property.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Archimedean property:** For every real number \(x\) there exists \(n \in \mathbb{N}\) such that \(n > x\). Equivalently, for every \(\varepsilon>0\) there exists \(n \in \mathbb{N}\) such that \(0<\frac{1}{n}<\varepsilon\).

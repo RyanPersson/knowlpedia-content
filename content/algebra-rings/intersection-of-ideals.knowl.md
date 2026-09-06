@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set-theoretic intersection of two ideals, which is again an ideal."
 aliases = ["intersection-of-ideals", "Intersection of ideals"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring", "shared-foundations/intersection"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/intersection-of-ideals.md"
+prerequisites = ["algebra-rings/ring", "shared-foundations/intersection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Given ideals \(I,J\) in a [[algebra-rings/ring|ring]] \(R\), their **intersection** is the set-theoretic [[shared-foundations/intersection|intersection]] \(I\cap J=\{x\in R:x\in I\text{ and }x\in J\}\).

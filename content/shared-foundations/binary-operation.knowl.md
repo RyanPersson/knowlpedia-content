@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function that combines two elements of a set to produce another element of the same set"
 aliases = ["binary-operation", "Binary operation"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function", "shared-foundations/cartesian-product"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/binary-operation.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/cartesian-product"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **binary operation** on a set \(S\) is a [[shared-foundations/function|function]] \(*:S\times S\to S\), where \(S\times S\) is the [[shared-foundations/cartesian-product|Cartesian product]] of \(S\) with itself. The value of \(*(x,y)\) is usually written \(x*y\).

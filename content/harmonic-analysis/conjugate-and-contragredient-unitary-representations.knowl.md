@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The conjugate action on the conjugate Hilbert space and the corresponding dual action on continuous linear functionals."
 aliases = ["conjugate representation", "dual unitary representation"]
 domains = ["harmonic-analysis", "lie-groups"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\pi,\mathcal H)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of a group \(G\). Its **conjugate representation** acts on the conjugate [[linear-algebra/hilbert-space|Hilbert space]] \(\overline{\mathcal H}\) by

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A morphism that is left-cancellative under composition."
 aliases = ["monomorphism-category", "Monomorphism"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/composition-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/monomorphism-category.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]]. A morphism \(f : X \to Y\) is a **monomorphism** (or **mono**) if for every object \(Z\) and all morphisms \(g_1,g_2 : Z \to X\),

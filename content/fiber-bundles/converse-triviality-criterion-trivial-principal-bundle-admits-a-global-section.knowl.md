@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Any principal bundle isomorphic to a product bundle has a canonical global section."
 aliases = ["converse-triviality-criterion-trivial-principal-bundle-admits-a-global-section", "Theorem: A trivial principal bundle admits a global section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/converse-triviality-criterion-trivial-principal-bundle-admits-a-global-section.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/trivial-principal-bundle-mgm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] \(G\).

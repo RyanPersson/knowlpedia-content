@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The ordered-group generalization of the tropical hyperfield."
 aliases = ["generalized tropical hyperfield", "value-group hyperfield"]
 domains = ["algebra-hyperstructures", "algebra-fields-galois", "algebra-rings"]
-prerequisites = ["algebra-groups/ordered-abelian-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/ordered-abelian-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Gamma\) be a totally

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A local field isomorphic to the real or complex numbers."
 aliases = ["archimedean local fields", "archimedean completion"]
 domains = ["algebra-fields-galois", "topology", "langlands"]
-prerequisites = ["algebra-fields-galois/local-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/local-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **archimedean local field** is a

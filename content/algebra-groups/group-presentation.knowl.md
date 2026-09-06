@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group specified as a quotient of a free group by the normal closure of a set of relations."
 aliases = ["group-presentation", "Group Presentation"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/free-group", "algebra-groups/normal-closure", "algebra-groups/quotient-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-presentation.md"
+prerequisites = ["algebra-groups/free-group", "algebra-groups/normal-closure", "algebra-groups/quotient-group", "shared-foundations/set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **group presentation** consists of a set \(S\) of generators and a set \(R\subseteq F(S)\) of relators. The notation

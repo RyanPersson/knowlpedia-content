@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset of a ring that is itself a ring under the inherited operations."
 aliases = ["subring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/subring.md"
+prerequisites = ["algebra-rings/ring", "shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **subring** of a [[algebra-rings/ring|ring]] \(R\) is a nonempty [[shared-foundations/subset|subset]] \(S\subseteq R\) such that, with the operations induced from \(R\), the triple \((S,+,\cdot)\) is a ring. Equivalently, \(S\) is closed under addition, additive inverses, and multiplication (and hence contains \(0\)).

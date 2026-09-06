@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Formulas for derivatives of sums, products, quotients, and compositions."
 aliases = ["differentiation-rules", "Differentiation rules"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/differentiation-rules.md"
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(I\subseteq\mathbb R\) be an [[real-analysis/interval|interval]], let \(g:I\to J\) and \(f:J\to\mathbb R\) be functions on intervals, and fix an interior point \(x\in I\). Assume \(f\) and \(g\) are [[real-analysis/differentiability-1d|differentiable]] at the points where they are used. Then:

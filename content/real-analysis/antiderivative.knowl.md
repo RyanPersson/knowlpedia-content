@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function whose derivative equals a given function."
 aliases = ["antiderivative"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiable-map"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/antiderivative.md"
+prerequisites = ["real-analysis/differentiable-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **antiderivative** (or **primitive**) of a function \(f: I \to \mathbb{R}\) on an interval \(I\) is a [[real-analysis/differentiable-map|differentiable function]] \(F: I \to \mathbb{R}\) such that

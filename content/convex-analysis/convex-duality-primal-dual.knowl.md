@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Primal and dual convex optimization problems and the relationship between their optimal values."
 aliases = ["convex-duality-primal-dual", "Convex duality: primal and dual problems"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "real-analysis/infimum", "real-analysis/supremum", "convex-analysis/fenchel-young-inequality"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/convex-duality-primal-dual.md"
+prerequisites = ["shared-foundations/function", "linear-algebra/linear-map", "convex-analysis/convex-conjugate-fenchel", "real-analysis/infimum", "real-analysis/supremum", "convex-analysis/fenchel-young-inequality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **primal-dual pair** in convex optimization is a pair of problems built from convex objectives so that the dual objective gives a universal lower bound on the primal optimal value. A common (Fenchel) form starts from convex [[shared-foundations/function|functions]] \(f:\mathbb{R}^n\to(-\infty,+\infty]\) and \(g:\mathbb{R}^m\to(-\infty,+\infty]\) and a linear map \(A:\mathbb{R}^n\to\mathbb{R}^m\), and defines

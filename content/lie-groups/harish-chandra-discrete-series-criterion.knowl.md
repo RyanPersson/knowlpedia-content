@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A connected semisimple real group with finite center has discrete series exactly when it has a compact Cartan subgroup."
 aliases = ["equal-rank criterion", "compact Cartan criterion"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/discrete-series-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/discrete-series-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected semisimple real [[fiber-bundles/lie-group|Lie group]] with finite center, and let

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Unitary action of rGL(M) on Gaussian L₂ by change of variables and a Jacobian"
 aliases = ["segal-unitary-representation-Ufrak", "Segal/Shale Representation 𝔘(T) on L₂(M,n)"]
 domains = ["shale-paper"]
-prerequisites = ["functional-analysis/unitary-operator", "shale-paper/jacobian-xT"]
-dependency_review_count = 1
 legacy_source_path = "shale-paper/segal-unitary-representation-Ufrak.md"
+prerequisites = ["functional-analysis/unitary-operator", "shale-paper/jacobian-xT"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(T\in rGL(M)\), the [[functional-analysis/unitary-operator|unitary operator]] \(\mathfrak U(T)\) on \(L_2(M,n)\) is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie-algebra-valued 2-form measuring the non-integrability of the horizontal distribution of a principal connection."
 aliases = ["curvature-2-form-of-a-principal-connection", "Curvature 2-form of a principal connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/curvature-2-form-of-a-principal-connection.md"
+prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle with connection 1-form \(\omega\in \Omega^1(P;\mathfrak{g})\) (see [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]). The **curvature 2-form** is the \(\mathfrak{g}\)-valued 2-form

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of inputs that a function maps into a given subset of the codomain."
 aliases = ["preimage-inverse-image", "Preimage (inverse image)"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/preimage-inverse-image.md"
+prerequisites = ["shared-foundations/function", "shared-foundations/set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:X\to Y\) be a function and let \(B\subseteq Y\). The **preimage** (or **inverse image**) of \(B\) under \(f\) is

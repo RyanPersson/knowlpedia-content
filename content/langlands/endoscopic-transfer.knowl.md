@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The matching of test functions and stable distributions between a group and an endoscopic group."
 aliases = ["transfer of orbital integrals", "endoscopic matching", "endoscopic character transfer"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
-prerequisites = ["langlands/endoscopic-datum", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/test-function-space-local-group", "langlands/strongly-regular-semisimple-element", "langlands/transfer-factor", "algebra-groups/conjugacy-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["langlands/endoscopic-datum", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/test-function-space-local-group", "langlands/strongly-regular-semisimple-element", "langlands/transfer-factor", "algebra-groups/conjugacy-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak e\) be an [[langlands/endoscopic-datum|endoscopic datum]]

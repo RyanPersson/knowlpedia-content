@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The relativistic field equation for a free massive scalar field."
 aliases = ["Klein-Gordon equation", "Klein Gordon equation", "relativistic scalar wave equation"]
 domains = ["mathematical-physics", "partial-differential-equations"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/klein-gordon-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/klein-gordon-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Klein–Gordon equation** for a scalar field \(\phi\) of mass \(m\geq0\) on a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] is

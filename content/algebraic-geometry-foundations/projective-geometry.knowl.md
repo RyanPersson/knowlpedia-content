@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The incidence geometry of lines and subspaces in a vector space, viewed projectively."
 aliases = ["Desarguesian projective geometry", "classical projective geometry"]
 domains = ["algebraic-geometry-foundations", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a [[linear-algebra/vector-space|vector space]] of dimension at least \(2\) over a field \(k\). The **projective geometry of \(V\)** is the incidence structure whose points are the one-dimensional linear subspaces of \(V\), and whose projective subspaces are the sets

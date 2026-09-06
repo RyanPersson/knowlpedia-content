@@ -6,6 +6,9 @@ summary = "A diagram-heavy category theory note for practicing TikZ, tikz-cd, an
 aliases = ["tikz-diagram-lab", "TikZ diagram lab: category theory lecture notes"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/tikz-diagram-lab.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/identity-morphism", "algebra-category-theory/composition-category", "algebra-category-theory/functor", "algebra-category-theory/natural-transformation", "algebra-category-theory/pullback", "algebra-category-theory/adjoint-functors", "algebra-category-theory/unit-adjunction", "algebra-category-theory/counit-adjunction", "algebra-category-theory/yoneda-embedding", "algebra-category-theory/representable-functor", "algebra-category-theory/yoneda-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 These notes are a scratch space for [[algebra-category-theory/category|category]]-theory

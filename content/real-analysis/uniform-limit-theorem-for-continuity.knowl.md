@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A uniform limit of continuous functions between metric spaces is continuous."
 aliases = ["uniform-limit-theorem-for-continuity", "Uniform limit theorem for continuity"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "real-analysis/continuity-on-a-set", "real-analysis/uniform-convergence-of-a-sequence-of-functions", "real-analysis/pointwise-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-limit-theorem-for-continuity.md"
+prerequisites = ["real-analysis/continuity-on-a-set", "real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) and \(Y\) be [[topology/metric-space|metric spaces]], and let \(f_n:X\to Y\) be [[real-analysis/continuity-on-a-set|continuous]] for every \(n\). If \(f_n\to f\) [[real-analysis/uniform-convergence-of-a-sequence-of-functions|uniformly]] on \(X\), then \(f:X\to Y\) is continuous.

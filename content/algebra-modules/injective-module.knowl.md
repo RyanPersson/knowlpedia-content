@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module with the extension property against injective homomorphisms."
 aliases = ["injective-module", "Injective module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-rings/ring", "algebra-modules/module-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/injective-module.md"
+prerequisites = ["algebra-modules/module", "algebra-rings/ring", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 An **injective module** is a left [[algebra-modules/module|module]] \(E\) over a [[algebra-rings/ring|ring]] \(R\) such that for every injective [[algebra-modules/module-homomorphism|module homomorphism]] \(i\colon A\hookrightarrow B\) and every homomorphism \(f\colon A\to E\), there exists a homomorphism \(g\colon B\to E\) with \(g\circ i=f\).
 

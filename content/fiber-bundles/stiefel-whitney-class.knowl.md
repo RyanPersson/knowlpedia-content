@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A canonical mod-2 characteristic class of a real vector bundle."
 aliases = ["total Stiefel-Whitney class"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/vector-bundle", "topology/singular-cohomology-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "topology/singular-cohomology-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a rank-\(r\) real [[fiber-bundles/vector-bundle|vector bundle]] \(E\to X\), its **Stiefel–Whitney classes** are canonical elements [[topology/singular-cohomology-group|\(w_i(E)\in H^i(X;\mathbb Z/2)\)]], for \(0\leq i\leq r\), with \(w_0(E)=1\) and \(w_i(E)=0\) for \(i>r\). The **total Stiefel–Whitney class** is

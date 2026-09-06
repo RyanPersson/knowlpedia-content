@@ -6,6 +6,7 @@ summary = "Compatible maps between the sections of two sheaves."
 aliases = ["morphism of sheaves", "sheaf morphism", "map of sheaves"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/sheaf", "topology/topological-space", "algebraic-geometry-foundations/stalk"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The locally compact abelian group of continuous circle-valued characters of a locally compact abelian group."
 aliases = ["Pontryagin dual group", "character group", "dual locally compact abelian group"]
 domains = ["harmonic-analysis", "topology"]
-prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "shared-foundations/complex-numbers-c", "algebra-groups/group-homomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "algebra-groups/abelian-group", "shared-foundations/complex-numbers-c", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]] that is [[algebra-groups/abelian-group|abelian]]. Inside [[shared-foundations/complex-numbers-c|the complex numbers]], let

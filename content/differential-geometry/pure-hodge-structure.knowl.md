@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A finite-dimensional real vector space whose complexification decomposes into conjugate bidegree pieces of fixed total weight."
 aliases = ["Hodge structure of weight n"]
 domains = ["differential-geometry"]
-prerequisites = ["linear-algebra/vector-space", "linear-algebra/complexification", "algebra-groups/abelian-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/complexification", "algebra-groups/abelian-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **pure real Hodge structure of weight \(n\)** is a finite-dimensional real [[linear-algebra/vector-space|vector space]] \(V_{\mathbb R}\) together with a direct-sum decomposition of its [[linear-algebra/complexification|complexification]]

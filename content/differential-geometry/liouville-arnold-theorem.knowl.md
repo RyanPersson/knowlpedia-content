@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A compact connected regular fiber of a completely integrable Hamiltonian system is a torus with local action-angle coordinates."
 aliases = ["action-angle theorem"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/symplectic-manifold", "topology/connected-component", "differential-geometry/regular-level-set", "differential-geometry/action-angle-coordinates"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "topology/connected-component", "differential-geometry/regular-level-set", "differential-geometry/action-angle-coordinates"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]], and let \(F=(F_1,\ldots,F_n):M\to\mathbb R^n\) have pairwise commuting components whose differentials are independent along \(F^{-1}(c)\). If \(\Lambda\) is a compact [[topology/connected-component|connected component]] of this [[differential-geometry/regular-level-set|regular fiber]], the **Liouville–Arnold theorem** states that \(\Lambda\) is diffeomorphic to \(\mathbb T^n\) and has a saturated neighborhood carrying [[differential-geometry/action-angle-coordinates|action-angle coordinates]]. In those coordinates the fibers of \(F\) are the tori \(I=\mathrm{constant}\), and every Hamiltonian commuting with all \(F_j\) depends only on the actions. Consequently, its flow is linear on each such torus.

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Define the principal GL(n)-bundle of frames of a rank-n vector bundle."
 aliases = ["construction-frame-bundle-fr-of-a-vector-bundle-e", "Construction: Frame bundle Fr(E) of a vector bundle E"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth real vector bundle of rank \(n\) over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). The **frame bundle** of \(E\) is

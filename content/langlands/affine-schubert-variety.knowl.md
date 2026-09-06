@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The closure of a positive-loop-group orbit in the affine Grassmannian."
 aliases = ["Schubert variety in the affine Grassmannian"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/dominant-coweight", "langlands/positive-loop-group", "langlands/affine-grassmannian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/dominant-coweight", "langlands/positive-loop-group", "langlands/affine-grassmannian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a split connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over an algebraically closed

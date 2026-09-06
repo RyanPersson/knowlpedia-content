@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth map between symplectic manifolds that pulls the target symplectic form back to the source symplectic form."
 aliases = ["symplectic morphism", "form-preserving smooth map"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-map", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/smooth-immersion"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-map", "fiber-bundles/pullback-of-differential-forms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega_M)\) and \((N,\omega_N)\) be [[differential-geometry/symplectic-manifold|symplectic manifolds]]. A **symplectic map** is a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) such that

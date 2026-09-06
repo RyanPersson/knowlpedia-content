@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "On a compact set, an open cover can be refined by finitely many small balls subordinate to it"
 aliases = ["lebesgue-number-lemma-auxiliary-refinement", "Lebesgue number lemma refinement lemma"]
 domains = ["measure-theory"]
-prerequisites = ["topology/metric-space","topology/compact-set","topology/open-set","topology/lebesgue-number-lemma"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-number-lemma-auxiliary-refinement.md"
+prerequisites = ["topology/metric-space", "topology/compact-set", "topology/open-set", "topology/lebesgue-number-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Refinement lemma (used for Lebesgue numbers).** Let \((X,d)\) be a [[topology/metric-space|metric space]], let \(K\subseteq X\) be [[topology/compact-set|compact]], and let \(\mathcal U\) be an [[topology/open-set|open]] cover of \(K\). For each \(x\in K\), choose \(U_x\in\mathcal U\) with \(x\in U_x\). Since \(U_x\) is open, there exists \(r_x>0\) such that

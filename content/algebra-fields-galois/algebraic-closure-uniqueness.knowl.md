@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Any two algebraic closures of a field are isomorphic over the base field."
 aliases = ["algebraic-closure-uniqueness", "Uniqueness of Algebraic Closures"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/algebraic-closure-uniqueness.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a [[algebra-rings/field|field]]. An [[algebra-fields-galois/algebraic-closure|algebraic closure]] of \(K\) is a [[algebra-fields-galois/field-extension|field extension]] \(\Omega/K\) that is [[algebra-fields-galois/algebraic-extension|algebraic]] and algebraically closed.

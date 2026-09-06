@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subring of an overring consisting of all elements integral over a given ring."
 aliases = ["integral-closure", "Integral closure"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/integral-closure.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]], and let \(A\) be a commutative \(R\)-algebra.

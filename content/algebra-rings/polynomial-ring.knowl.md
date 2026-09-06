@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ring R[x] of polynomials in an indeterminate x with coefficients in R."
 aliases = ["polynomial-ring", "Polynomial ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/polynomial-ring.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] with \(1\). The **polynomial ring** \(R[x]\) consists of finite sums \(\sum_{i=0}^n a_i x^i\) with coefficients \(a_i\in R\), with addition termwise and multiplication determined by distributivity and \(x^i x^j=x^{i+j}\).

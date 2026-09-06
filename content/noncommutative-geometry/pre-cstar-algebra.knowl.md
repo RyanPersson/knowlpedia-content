@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A possibly incomplete normed involutive algebra satisfying the C*-identity."
 aliases = ["pre-C*-algebra", "pre-C-star algebra"]
 domains = ["noncommutative-geometry", "operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **pre-\(C^*\)-algebra** is a complex normed [[operator-algebras/involutive-algebra|\(*\)-algebra]] \(A\), not assumed complete, whose norm is submultiplicative and satisfies the \(C^*\)-identity

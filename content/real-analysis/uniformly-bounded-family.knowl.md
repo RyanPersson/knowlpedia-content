@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A family of functions bounded by a single constant on the whole domain."
 aliases = ["uniformly-bounded-family", "Uniformly bounded family"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/supremum-norm"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniformly-bounded-family.md"
+prerequisites = ["shared-foundations/function", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A family \(\mathcal{F}\) of functions \(f:X\to\mathbb{R}\) is **uniformly bounded** if there exists \(M<\infty\) such that

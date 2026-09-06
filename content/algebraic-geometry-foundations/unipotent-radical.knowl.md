@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The largest smooth connected normal unipotent subgroup of a linear algebraic group."
 aliases = ["unipotent radical R_u(G)", "R_u(G)", "radical unipotent"]
 domains = ["algebraic-geometry-foundations", "algebra-groups", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-groups/normal-subgroup"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a smooth connected

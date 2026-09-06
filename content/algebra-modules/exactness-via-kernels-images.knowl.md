@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence is exact at a term precisely when the incoming image equals the outgoing kernel."
 aliases = ["exactness-via-kernels-images", "Exactness via kernels and images"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/kernel-module", "algebra-modules/image-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/exactness-via-kernels-images.md"
+prerequisites = ["algebra-modules/exact-sequence-modules", "algebra-modules/kernel-module", "algebra-modules/image-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Exactness via kernels and images**: A sequence of \(R\)-modules and homomorphisms

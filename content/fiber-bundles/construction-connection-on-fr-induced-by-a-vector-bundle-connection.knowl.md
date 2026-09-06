@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Equivalence between covariant derivatives on a vector bundle and principal connections on its frame bundle."
 aliases = ["construction-connection-on-fr-induced-by-a-vector-bundle-connection", "Construction: Connection on Fr(E) induced by a vector bundle connection (and conversely)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a rank-\(n\) smooth vector bundle over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), and let \(P=\mathrm{Fr}(E)\) be its [[fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e|frame bundle]] (a principal \(\mathrm{GL}(n,\mathbb R)\)-bundle).

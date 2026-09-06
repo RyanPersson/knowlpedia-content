@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A principal G-bundle with flat connection; over the complex numbers, Riemann-Hilbert comparison relates it to a G-valued monodromy representation."
 aliases = ["G local system", "principal G-local system"]
 domains = ["langlands", "fiber-bundles"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "fiber-bundles/local-system"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "fiber-bundles/local-system"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be an [[algebraic-geometry-foundations/algebraic-group|algebraic group]] and \(X\) a smooth complex curve. A

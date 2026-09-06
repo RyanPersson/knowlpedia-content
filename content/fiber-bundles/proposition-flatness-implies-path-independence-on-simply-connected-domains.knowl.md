@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "On a simply connected region where the curvature vanishes, parallel transport depends only on the endpoints."
 aliases = ["proposition-flatness-implies-path-independence-on-simply-connected-domains", "Flatness implies path-independence on simply connected domains"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/proposition-flatness-implies-path-independence-on-simply-connected-domains.md"
+prerequisites = ["fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a vector bundle with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\), and let \(F_\nabla\) denote its [[fiber-bundles/curvature|curvature]].

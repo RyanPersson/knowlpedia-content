@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The wavefront set records the points and nonzero cotangent directions in which a distribution is not microlocally smooth."
 aliases = ["microlocal singular support", "Hörmander wavefront set"]
 domains = ["functional-analysis", "distribution-theory", "microlocal-analysis"]
-prerequisites = ["functional-analysis/distribution", "functional-analysis/compactly-supported-distribution", "functional-analysis/fourier-transform-tempered-distributions"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/distribution", "functional-analysis/compactly-supported-distribution", "functional-analysis/fourier-transform-tempered-distributions"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T\in\mathcal D'(\Omega)\) be a

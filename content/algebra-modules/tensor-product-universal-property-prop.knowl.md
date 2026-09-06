@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The tensor product represents balanced bilinear maps out of a pair of modules."
 aliases = ["tensor-product-universal-property-prop", "Tensor product universal property"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/tensor-product", "algebra-modules/bilinear-map", "algebra-modules/tensor-product-universal-property"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-product-universal-property-prop.md"
+prerequisites = ["algebra-modules/tensor-product", "algebra-modules/bilinear-map", "algebra-modules/tensor-product-universal-property"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a right \(R\)-module and \(N\) a left \(R\)-module. There is an abelian group \(M\otimes_R N\) and a biadditive map

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A change of variables formula for one-dimensional Riemann integrals."
 aliases = ["substitution-rule", "Substitution rule"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/change-of-variables-formula", "real-analysis/chain-rule", "real-analysis/fundamental-theorem-of-calculus-ii"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/substitution-rule.md"
+prerequisites = ["real-analysis/change-of-variables-formula", "real-analysis/chain-rule", "real-analysis/fundamental-theorem-of-calculus-ii"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Substitution rule:** Let \(\alpha<\beta\), let \(\varphi:[\alpha,\beta]\to\mathbb{R}\) be continuously differentiable and strictly increasing, and set \(a=\varphi(\alpha)\) and \(b=\varphi(\beta)\). If \(f:[a,b]\to\mathbb{R}\) is continuous, then

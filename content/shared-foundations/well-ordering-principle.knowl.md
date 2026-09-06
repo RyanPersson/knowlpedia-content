@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every nonempty subset of the natural numbers has a least element."
 aliases = ["well-ordering-principle", "Well-ordering principle"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/natural-numbers"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/well-ordering-principle.md"
+prerequisites = ["shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Well-ordering principle:** Every nonempty subset \(S\subseteq\mathbb{N}\) has a least element (with respect to the usual order on \(\mathbb{N}\)); that is, there exists \(m\in S\) such that \(m\le s\) for all \(s\in S\).

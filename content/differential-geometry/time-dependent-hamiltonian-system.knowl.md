@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A symplectic phase space with a smoothly time-varying Hamiltonian that generates nonautonomous dynamics."
 aliases = ["nonautonomous Hamiltonian system"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/classical-phase-space", "differential-geometry/hamiltonian-vector-field"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/classical-phase-space", "differential-geometry/hamiltonian-vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(I\subseteq\mathbb R\) be an open interval and let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. A **time-dependent Hamiltonian system** is a smooth function

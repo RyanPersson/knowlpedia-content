@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The integral of a random variable with respect to the underlying probability measure."
 aliases = ["expectation"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "probability/expectation.md"
+prerequisites = ["probability/random-variable", "measure-theory/lebesgue-integral", "measure-theory/lebesgue-integrable-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 The **expectation** of an integrable [[probability/random-variable|random variable]] \(X\) is

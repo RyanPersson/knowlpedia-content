@@ -5,10 +5,11 @@ kind = "definition"
 summary = "A smooth manifold equipped with a closed, nondegenerate 2-form."
 aliases = ["symplectic structure"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "differential-geometry/symplectic-manifold.md"
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/almost-symplectic-manifold", "fiber-bundles/closed-differential-form"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **symplectic manifold** is a pair \((M,\omega)\) where \(M\) is a [[fiber-bundles/smooth-manifold|smooth manifold]] and \(\omega\in\Omega^2(M)\) is a differential \(2\)-form satisfying:

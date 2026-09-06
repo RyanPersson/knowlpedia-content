@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The epsilon-delta condition that a function preserves closeness near a given point."
 aliases = ["continuity-at-a-point", "Continuity at a point"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/continuity-at-a-point.md"
+prerequisites = ["topology/metric-space", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:(X,d_X)\to(Y,d_Y)\) and let \(a\in X\).

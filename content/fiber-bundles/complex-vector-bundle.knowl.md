@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth vector bundle whose fibers are complex vector spaces and whose transition functions are complex linear."
 aliases = ["complex-vector-bundle", "Complex vector bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/rank-of-a-vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/complex-vector-bundle.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/rank-of-a-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **smooth complex vector bundle of rank \(r\)** over \(M\) is a smooth surjective map \(\pi:E\to M\) with the following properties:

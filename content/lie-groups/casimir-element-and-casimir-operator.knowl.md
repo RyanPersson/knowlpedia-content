@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A basis-independent central element of an enveloping algebra and the operator through which it acts in a representation."
 aliases = ["quadratic Casimir", "Casimir invariant"]
 domains = ["lie-groups", "algebra-representation-theory"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/killing-form", "lie-groups/universal-enveloping-algebra", "lie-groups/center-of-universal-enveloping-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/killing-form", "lie-groups/universal-enveloping-algebra", "lie-groups/center-of-universal-enveloping-algebra", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] over \(\mathbb R\) or \(\mathbb C\), let \(B\) be its [[lie-groups/killing-form|Killing form]], and choose bases \((X_i)\) and \((X^i)\) dual with respect to \(B\). The **Casimir element** in the [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]] is

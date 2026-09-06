@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset whose closure is compact in the ambient space."
 aliases = ["relatively-compact-set", "Relatively compact set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/closure", "topology/compact-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/relatively-compact-set.md"
+prerequisites = ["topology/topological-space", "topology/closure", "topology/compact-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **relatively compact set** (or **precompact set**) is a subset \(A\subseteq X\) of a [[topology/topological-space|topological space]] \(X\) such that its [[topology/closure|closure]] \(\overline{A}\) is [[topology/compact-set|compact]] in \(X\).

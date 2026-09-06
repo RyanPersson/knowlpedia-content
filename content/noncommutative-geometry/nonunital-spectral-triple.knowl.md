@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A nonunital spectral triple replaces global compact resolvent by compactness after multiplication by algebra elements."
 aliases = ["locally compact spectral triple", "noncompact spectral triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/nondegenerate-star-homomorphism", "linear-algebra/hilbert-space", "functional-analysis/self-adjoint-unbounded-operator", "functional-analysis/bounded-commutator", "linear-algebra/compact-operator", "noncommutative-geometry/spectral-triple"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/involutive-algebra", "operator-algebras/nondegenerate-star-homomorphism", "linear-algebra/hilbert-space", "functional-analysis/self-adjoint-unbounded-operator", "functional-analysis/bounded-commutator", "linear-algebra/compact-operator", "noncommutative-geometry/spectral-triple"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In the locally compact convention, a **nonunital spectral triple** \((\mathcal A,H,D)\) consists of a nonunital [[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\) whose \(C^*\)-completion acts faithfully by a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] on a [[linear-algebra/hilbert-space|Hilbert space]] \(H\), together with a densely defined [[functional-analysis/self-adjoint-unbounded-operator|self-adjoint operator]] \(D\). For every \(a\in\mathcal A\), one requires \(a\operatorname{Dom}(D)\subseteq\operatorname{Dom}(D)\), a [[functional-analysis/bounded-commutator|bounded extension]] of \([D,a]\), and the localizing operator below must be [[linear-algebra/compact-operator|compact]]:

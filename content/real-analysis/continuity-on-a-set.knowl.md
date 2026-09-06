@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function is continuous on a set if it is continuous at every point of that set."
 aliases = ["continuity-on-a-set", "Continuity on a set"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/continuity-at-a-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/continuity-on-a-set.md"
+prerequisites = ["real-analysis/continuity-at-a-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:(X,d_X)\to(Y,d_Y)\) be a function between metric spaces, and let \(A\subseteq X\).

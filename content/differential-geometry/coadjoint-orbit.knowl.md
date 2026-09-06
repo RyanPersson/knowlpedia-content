@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An orbit of a Lie group acting on the dual of its Lie algebra by the coadjoint action."
 aliases = ["co-adjoint orbit"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/orbit-lie-group", "fiber-bundles/coadjoint-action-of-a-lie-group", "lie-groups/stabilizer-lie-group", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/orbit-lie-group", "fiber-bundles/coadjoint-action-of-a-lie-group", "lie-groups/stabilizer-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let [[fiber-bundles/lie-group|\(G\)]] be a finite-dimensional Lie group with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), and let \(\lambda\in\mathfrak g^*\). The **coadjoint orbit through \(\lambda\)** is the [[lie-groups/orbit-lie-group|orbit]]

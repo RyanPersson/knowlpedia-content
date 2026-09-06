@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The manifold whose points are fixed-dimensional real subspaces equipped with orientations."
 aliases = ["oriented Grassmann manifold"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["linear-algebra/vector-space", "fiber-bundles/smooth-manifold", "differential-geometry/grassmannian"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "fiber-bundles/smooth-manifold", "differential-geometry/grassmannian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be an \(n\)-dimensional real [[linear-algebra/vector-space|vector space]] and \(1\leq k\leq n\). The **oriented Grassmannian**

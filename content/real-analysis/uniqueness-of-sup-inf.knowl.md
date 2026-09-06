@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set has at most one least upper bound and at most one greatest lower bound."
 aliases = ["uniqueness-of-sup-inf", "Uniqueness of Supremum and Infimum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/supremum", "real-analysis/infimum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniqueness-of-sup-inf.md"
+prerequisites = ["real-analysis/supremum", "real-analysis/infimum", "real-analysis/completeness-axiom"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Uniqueness of supremum/infimum:** Let \(A \subseteq \mathbb{R}\) be nonempty.

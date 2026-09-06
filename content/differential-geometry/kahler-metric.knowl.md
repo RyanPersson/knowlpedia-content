@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Hermitian metric whose associated fundamental two-form is closed."
 aliases = []
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/hermitian-manifold", "differential-geometry/kahler-form", "differential-geometry/kahler-manifold", "differential-geometry/holomorphic-tangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/hermitian-manifold", "differential-geometry/kahler-form", "differential-geometry/kahler-manifold", "differential-geometry/holomorphic-tangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]] with complex structure \(J\). A **Kähler metric** is a [[differential-geometry/hermitian-manifold|Hermitian]] Riemannian metric \(g\) whose associated real fundamental \(2\)-form

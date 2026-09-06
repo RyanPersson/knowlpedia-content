@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A proper connected closed subgroup maximal among connected closed subgroups."
 aliases = ["maximal connected subgroup", "maximal connected proper closed subgroup"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "algebra-groups/proper-subgroup"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "algebra-groups/proper-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **maximal connected closed subgroup** is a [[algebra-groups/proper-subgroup|proper subgroup]] \(H<G\) that is connected and closed, and for which every connected closed subgroup \(K\) satisfying

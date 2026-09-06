@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A rate function whose sublevel sets are compact."
 aliases = ["good-rate-function", "Good rate function"]
 domains = ["large-deviations"]
-prerequisites = ["large-deviations/rate-function"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/good-rate-function.md"
+prerequisites = ["large-deviations/rate-function", "topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **good rate function** on a topological space \(E\) is a [[large-deviations/rate-function|rate function]] \(I:E\to[0,\infty]\) such that for every \(\alpha<\infty\) the sublevel set

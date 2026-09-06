@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The cochain complex of smooth forms of fixed holomorphic degree with differential given by the d-bar operator."
 aliases = ["d-bar complex", "∂̄-complex"]
 domains = ["differential-geometry", "algebra-homological"]
-prerequisites = ["differential-geometry/complex-manifold", "algebra-homological/cochain-complex", "linear-algebra/vector-space", "differential-geometry/dolbeault-operators"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "algebra-homological/cochain-complex", "linear-algebra/vector-space", "differential-geometry/dolbeault-operators"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]] of complex dimension \(n\), and fix \(0\leq p\leq n\). The **Dolbeault complex in holomorphic degree \(p\)** is the [[algebra-homological/cochain-complex|cochain complex]]

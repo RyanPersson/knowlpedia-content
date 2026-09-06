@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The first-order hyperbolic-type operator obtained by Clifford contraction of the Lorentzian spin connection."
 aliases = ["spacetime Dirac operator", "pseudo-Riemannian spin Dirac operator"]
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-spinor-bundle", "fiber-bundles/spin-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-spinor-bundle", "fiber-bundles/spin-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a Lorentzian spin manifold, \(S\to M\) its

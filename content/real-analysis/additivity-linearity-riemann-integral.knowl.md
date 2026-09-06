@@ -5,9 +5,10 @@ kind = "page"
 summary = "A map of the linearity and interval-additivity rules for Riemann and Riemann–Stieltjes integrals"
 aliases = ["additivity-linearity-riemann-integral", "Additivity and linearity lemmas for Riemann and Riemann–Stieltjes integrals"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-linearity", "real-analysis/riemann-additivity-over-subintervals", "real-analysis/riemann-stieltjes-linearity", "real-analysis/riemann-stieltjes-additivity-over-subintervals"]
-dependency_review_count = 5
 legacy_source_path = "real-analysis/additivity-linearity-riemann-integral.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/monotone-function", "real-analysis/riemann-stieltjes-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This knowl is a navigation page for four independently reusable facts:

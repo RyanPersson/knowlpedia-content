@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A factor representation whose generated von Neumann algebra is a type I factor."
 aliases = ["type I representation", "factor representation of type I"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-representation", "operator-algebras/von-neumann-algebra", "operator-algebras/type-i-factor", "operator-algebras/bicommutant"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/cstar-representation", "operator-algebras/von-neumann-algebra", "operator-algebras/type-i-factor", "operator-algebras/bicommutant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A **type I factor representation** of \(A\) is a nondegenerate [[operator-algebras/cstar-representation|\(*\)-representation]] \(\pi\colon A\to B(H)\) such that the generated [[operator-algebras/von-neumann-algebra|von Neumann algebra]]

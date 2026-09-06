@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set that contains an open set around a given point."
 aliases = ["neighborhood"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/open-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/neighborhood.md"
+prerequisites = ["topology/topological-space", "topology/open-set"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **neighborhood** of a point \(x\) in a [[topology/topological-space|topological space]] \((X,\mathcal{T})\) is a subset \(N\subseteq X\) such that there exists an [[topology/open-set|open set]] \(U\in\mathcal{T}\) with \(x\in U\subseteq N\).

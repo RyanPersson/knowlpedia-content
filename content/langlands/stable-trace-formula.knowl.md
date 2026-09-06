@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The decomposition of the invariant trace formula into stable distributions on a group and its endoscopic groups."
 aliases = ["stabilized trace formula", "stabilization of the trace formula", "stable Arthur trace formula"]
 domains = ["langlands", "harmonic-analysis", "number-theory"]
-prerequisites = ["langlands/arthur-selberg-trace-formula", "langlands/endoscopic-datum", "langlands/endoscopic-transfer", "langlands/stable-distribution", "algebraic-geometry-foundations/levi-subgroup"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands/arthur-selberg-trace-formula", "langlands/endoscopic-datum", "langlands/endoscopic-transfer", "langlands/stable-distribution", "algebraic-geometry-foundations/levi-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **stable trace formula** is the endoscopic reorganization of the

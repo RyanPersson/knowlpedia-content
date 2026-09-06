@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The measure algebra of a locally compact group is the Banach algebra of bounded regular complex Borel measures under convolution."
 aliases = ["measure convolution algebra", "M(G)"]
 domains = ["harmonic-analysis", "measure-theory", "functional-analysis"]
-prerequisites = ["topology/locally-compact-group", "linear-algebra/vector-space", "measure-theory/product-measure", "functional-analysis/banach-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "linear-algebra/vector-space", "measure-theory/product-measure", "functional-analysis/banach-algebra", "harmonic-analysis/convolution-on-locally-compact-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]]. Its **measure algebra** \(M(G)\) is the [[linear-algebra/vector-space|vector space]] of bounded regular complex Borel measures on \(G\), equipped with the total-variation norm and convolution determined by

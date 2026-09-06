@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A system of imprimitivity is a unitary representation together with a projection-valued measure covariant for a group action."
 aliases = ["covariant projection-valued measure", "imprimitivity system"]
 domains = ["harmonic-analysis", "representation-theory"]
-prerequisites = ["topology/locally-compact-group", "linear-algebra/hilbert-space", "lie-groups/strongly-continuous-unitary-representation", "functional-analysis/projection-valued-measure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "linear-algebra/hilbert-space", "lie-groups/strongly-continuous-unitary-representation", "functional-analysis/projection-valued-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[topology/locally-compact-group|locally compact group]] \(G\) act measurably on a standard Borel space \(X\). A **system of imprimitivity** for this action on a complex [[linear-algebra/hilbert-space|Hilbert space]] \(\mathcal H\) is a pair \((U,P)\), where \(U\) is a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] of \(G\) on \(\mathcal H\) and \(P\) is a [[functional-analysis/projection-valued-measure|projection-valued measure]] on \(X\), such that

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Asymptotic evaluation of contour integrals and coefficient formulas using stationary points of the phase."
 aliases = ["saddle-point-method", "Saddle-point method"]
 domains = ["asymptotics"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "asymptotics/saddle-point-method.md"
+prerequisites = ["complex-analysis/complex-domain", "complex-analysis/complex-contour-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **saddle-point method** is a complex-analytic method for estimating integrals with a large parameter,

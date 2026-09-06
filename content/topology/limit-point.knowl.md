@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point whose every neighborhood meets a set away from that point."
 aliases = ["limit-point", "Limit point"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/neighborhood", "topology/closure"]
-dependency_review_count = 1
 legacy_source_path = "topology/limit-point.md"
+prerequisites = ["topology/topological-space", "topology/neighborhood", "topology/closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **limit point** (or accumulation point) of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] is a point \(x\in X\) such that every [[topology/neighborhood|neighborhood]] \(N\) of \(x\) satisfies

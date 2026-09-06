@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Truncated ball porosity forces a quantitative power saving in local Lebesgue measure."
 aliases = ["porosity volume bound", "porous-set volume decay"]
 domains = ["analysis", "geometric-measure-theory", "measure-theory"]
-prerequisites = ["analysis/porosity-on-balls"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["analysis/porosity-on-balls", "analysis/box-porosity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\subseteq\mathbb R^d\) be \(\nu\)-[[analysis/porosity-on-balls|porous on

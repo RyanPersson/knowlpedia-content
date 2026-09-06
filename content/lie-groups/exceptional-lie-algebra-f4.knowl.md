@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The 52-dimensional simple complex Lie algebra of rank 4 and exceptional Dynkin type F4."
 aliases = ["exceptional-lie-algebra-f4", "f4", "complex Lie algebra f4", "exceptional Lie algebra F4"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **exceptional complex Lie algebra** \(\mathfrak f_4\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(F_4\). It has complex dimension \(52\), rank \(4\), and \(48\) roots, occurring in two root lengths.

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Large deviations for empirical means of independent identically distributed real random variables."
 aliases = ["cramers-theorem", "Cramér's theorem"]
 domains = ["large-deviations"]
-prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/moment-generating-function", "large-deviations/log-moment-generating-function", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "large-deviations/cramer-transform", "convex-analysis/legendre-fenchel-transform", "convex-analysis/convex-conjugate-fenchel"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/cramers-theorem.md"
+prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/moment-generating-function", "large-deviations/log-moment-generating-function", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "large-deviations/cramer-transform", "convex-analysis/legendre-fenchel-transform", "convex-analysis/convex-conjugate-fenchel"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Cramér's theorem:** Let \((X_i)_{i\ge 1}\) be an [[probability/iid-sequence|i.i.d. sequence]] of real-valued [[probability/random-variable|random variables]]. Assume the [[probability/moment-generating-function|moment generating function]] \(M(\theta)=\mathbb{E}[e^{\theta X_1}]\) is finite for all \(\theta\) in some open interval containing \(0\), and let \(\Lambda(\theta)=\log M(\theta)\) be the [[large-deviations/log-moment-generating-function|log moment generating function]]. Define the empirical mean \(\overline X_n=\frac{1}{n}\sum_{i=1}^n X_i\). Then \((\overline X_n)\) satisfies a [[large-deviations/large-deviation-principle|large deviation principle]] on \(\mathbb{R}\) with speed \(n\) and [[large-deviations/good-rate-function|good rate function]]

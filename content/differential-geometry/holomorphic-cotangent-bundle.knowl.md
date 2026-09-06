@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The holomorphic dual of the holomorphic tangent bundle of a complex manifold."
 aliases = ["holomorphic one-form bundle", "holomorphic cotangent sheaf"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-tangent-bundle", "differential-geometry/holomorphic-vector-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-tangent-bundle", "differential-geometry/holomorphic-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. Its **holomorphic cotangent bundle**, denoted \(T^{*1,0}X\) or \(\Omega_X^1\), is the holomorphic dual of the [[differential-geometry/holomorphic-tangent-bundle|holomorphic tangent bundle]] \(T^{1,0}X\). Thus it is a [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]] whose fiber at \(x\) is \((T_x^{1,0}X)^*\). Holomorphic coordinate functions \(z^1,\ldots,z^n\) give the local frame \(dz^1,\ldots,dz^n\), and changes of frame are the inverse transposes of the holomorphic Jacobian matrices. Its underlying smooth bundle is the \((1,0)\)-cotangent summand.

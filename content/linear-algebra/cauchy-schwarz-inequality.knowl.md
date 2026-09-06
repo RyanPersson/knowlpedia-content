@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In an inner product space, the absolute value of an inner product is at most the product of norms."
 aliases = ["cauchy-schwarz-inequality", "Cauchy–Schwarz inequality"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/inner-product-space", "linear-algebra/norm"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/cauchy-schwarz-inequality.md"
+prerequisites = ["linear-algebra/inner-product-space", "linear-algebra/norm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Cauchy–Schwarz inequality:** In an [[linear-algebra/inner-product-space|inner product space]] \((V,\langle\cdot,\cdot\rangle)\), for all \(x,y\in V\),

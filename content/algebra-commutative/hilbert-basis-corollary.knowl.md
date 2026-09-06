@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Polynomial rings (and finitely generated algebras) over a Noetherian ring are Noetherian."
 aliases = ["hilbert-basis-corollary", "Hilbert basis corollary"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/noetherian-ring", "algebra-rings/field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/hilbert-basis-corollary.md"
+prerequisites = ["algebra-commutative/noetherian-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Hilbert basis theorem (iterated form).** Let \(R\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]]. For every integer \(n\ge 0\), the polynomial ring \(R[x_1,\ldots,x_n]\) is Noetherian. Hence every ideal in this ring is finitely generated. Moreover, every finitely generated \(R\)-algebra is Noetherian, because it is a quotient of some \(R[x_1,\ldots,x_n]\).

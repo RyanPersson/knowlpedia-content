@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The canonical unital C*-algebra in which a C*-algebra sits as an essential ideal."
 aliases = ["M(A)", "multiplier C*-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/double-centralizer", "linear-algebra/linear-map", "operator-algebras/essential-ideal"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/double-centralizer", "linear-algebra/linear-map", "operator-algebras/essential-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. Its

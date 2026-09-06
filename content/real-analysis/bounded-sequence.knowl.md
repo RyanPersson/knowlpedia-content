@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence whose range is a bounded subset of its metric space."
 aliases = ["bounded-sequence", "Bounded sequence"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "topology/bounded-set"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-sequence.md"
+prerequisites = ["shared-foundations/sequence", "topology/bounded-set"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A sequence \((x_n)\) in a [[topology/metric-space|metric space]] \((X, d)\) is **bounded** if its range \(\{x_n : n \in \mathbb{N}\}\) is a [[topology/bounded-set|bounded set]].

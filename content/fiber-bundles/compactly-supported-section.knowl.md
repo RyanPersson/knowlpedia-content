@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A vector bundle section whose support is a compact subset of the base."
 aliases = ["section with compact support", "Gamma_c(E)"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/support-of-a-section", "topology/compact-set", "linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/support-of-a-section", "topology/compact-set", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] and \(s\in\Gamma^\infty(M,E)\) a smooth [[fiber-bundles/section-of-a-vector-bundle|section]]. The section \(s\) is **compactly supported** if its [[fiber-bundles/support-of-a-section|support]]

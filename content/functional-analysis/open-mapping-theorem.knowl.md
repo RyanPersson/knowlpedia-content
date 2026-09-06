@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A surjective bounded linear operator between Banach spaces maps open sets to open sets."
 aliases = ["Banach–Schauder theorem"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/banach-space", "functional-analysis/bounded-linear-operator", "convex-analysis/linear-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/banach-space", "functional-analysis/bounded-linear-operator", "convex-analysis/linear-subspace", "topology/baire-category-theorem", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) and \(Y\) be

@@ -5,9 +5,10 @@ kind = "example"
 summary = "The three multiplicity-one weights of the natural three-dimensional representation of sl3."
 aliases = ["weights of the standard sl3 representation", "sl3 defining weights", "weight diagram of the 3 of sl3"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/defining-representation-of-a-classical-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/defining-representation-of-a-classical-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V=\mathbb C^3\) be the [[lie-groups/defining-representation-of-a-classical-lie-algebra|defining representation]] of \(\mathfrak{sl}_3(\mathbb C)\), and take the [[lie-groups/cartan-subalgebra|Cartan subalgebra]]

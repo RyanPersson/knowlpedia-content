@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The polynomial Φ_n(x) whose roots are the primitive n-th roots of unity; it factors x^n−1 and is irreducible over Q."
 aliases = ["cyclotomic-polynomial", "Cyclotomic polynomial"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/algebraic-closure", "algebra-fields-galois/primitive-root-of-unity"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/cyclotomic-polynomial.md"
+prerequisites = ["algebra-fields-galois/algebraic-closure", "algebra-fields-galois/primitive-root-of-unity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix an integer \(n\ge 1\). In an [[algebra-fields-galois/algebraic-closure|algebraic closure]] of a field of characteristic \(0\) (e.g. inside \(\mathbb{C}\)), an element \(\zeta\) is a [[algebra-fields-galois/primitive-root-of-unity|primitive n-th root of unity]] if \(\zeta^n=1\) and \(\zeta^d\ne 1\) for every proper divisor \(d\mid n\). The **\(n\)-th cyclotomic polynomial** is

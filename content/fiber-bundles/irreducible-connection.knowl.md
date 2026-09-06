@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A connection whose stabilizer under the full gauge group is exactly the unavoidable central subgroup."
 aliases = ["irreducible gauge field", "connection with central stabilizer"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-transformation", "fiber-bundles/reducible-connection", "fiber-bundles/gauge-theory"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-transformation", "fiber-bundles/reducible-connection", "fiber-bundles/gauge-theory"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a connected manifold, with compact structure group \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|connection]]. Relative to the full [[fiber-bundles/gauge-group|gauge group]], \(A\) is **irreducible** if its [[fiber-bundles/stabilizer-of-a-connection|stabilizer]] consists exactly of the constant [[fiber-bundles/gauge-transformation|gauge transformations]] induced by the center:

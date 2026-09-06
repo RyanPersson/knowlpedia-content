@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The positive sum of squares of infinitesimal generators used to detect regular vectors in a unitary Lie-group representation."
 aliases = ["representation Laplacian", "Nelson operator"]
 domains = ["lie-groups", "harmonic-analysis", "functional-analysis"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/smooth-vector-unitary-representation", "functional-analysis/symmetric-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/smooth-vector-unitary-representation", "functional-analysis/symmetric-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi\) be a

@@ -5,15 +5,18 @@ kind = "knowl"
 summary = "Localization of a commutative ring obtained by inverting all regular elements (non-zero-divisors)."
 aliases = ["total-ring-of-fractions", "Total ring of fractions"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/regular-element", "algebra-rings/zero-divisor", "algebra-rings/unit"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/total-ring-of-fractions.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/regular-element", "algebra-rings/zero-divisor", "algebra-rings/unit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] (with \(1\)). Let \(S\subseteq R\) be the multiplicative set of [[algebra-rings/regular-element|regular elements]] (equivalently: elements that are not a [[algebra-rings/zero-divisor|zero-divisor]]). The **total ring of fractions** of \(R\) is the localization
 \[
 Q(R):=S^{-1}R.
 \]
+## Universal property
+
 The canonical map \(R\to Q(R)\) sends every \(s\in S\) to a [[algebra-rings/unit|unit]] in \(Q(R)\), and \(Q(R)\) is universal with this property among commutative unital rings receiving a unital map from \(R\).
 
 ## Remarks

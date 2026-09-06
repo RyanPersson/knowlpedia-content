@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The eigenspace g_α for the adjoint action of a Cartan subalgebra corresponding to a root α."
 aliases = ["root-space", "Root space"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/root-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/root-space.md"
+prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/root-lie-algebra", "lie-groups/example-sl2c"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex semisimple Lie algebra and \(\mathfrak h\subset\mathfrak g\) a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. For \(\alpha\in\mathfrak h^*\), the **root space** (more generally, the \(\alpha\)-weight space for \(\mathrm{ad}|_{\mathfrak h}\)) is

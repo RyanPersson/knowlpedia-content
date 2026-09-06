@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An operator in the norm-closed span of rank-one operators between Hilbert C*-modules."
 aliases = ["generalized compact operator", "K(E,F)", "rank-one Hilbert-module operator"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["linear-algebra/operator-norm", "operator-algebras/adjointable-operator-hilbert-module", "topology/relatively-compact-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/operator-norm", "operator-algebras/adjointable-operator-hilbert-module", "topology/relatively-compact-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(F\) be right Hilbert \(A\)-modules. For \(x\in E\) and

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The vector bundle whose fiber at each point is the k-th exterior power of the original fiber."
 aliases = ["exterior-power-bundle", "Exterior power bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tensor-product-vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exterior-power-bundle.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tensor-product-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. For an integer \(k\) with \(0\le k\le r\), the **k-th exterior power bundle** of \(E\) is the vector bundle

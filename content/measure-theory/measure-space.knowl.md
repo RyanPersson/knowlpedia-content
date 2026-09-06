@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measurable space equipped with a measure."
 aliases = ["measure-space", "Measure space"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-space","measure-theory/measure"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/measure-space.md"
+prerequisites = ["measure-theory/measurable-space", "measure-theory/measure"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **measure space** is a triple \((X,\Sigma,\mu)\) where \((X,\Sigma)\) is a [[measure-theory/measurable-space|measurable space]] and \(\mu\) is a [[measure-theory/measure|measure]] on \(\Sigma\).

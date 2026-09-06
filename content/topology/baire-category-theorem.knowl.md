@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a complete metric space, countable intersections of dense open sets are dense."
 aliases = ["baire-category-theorem", "Baire category theorem"]
 domains = ["topology"]
-prerequisites = ["topology/complete-metric-space", "topology/dense-set", "topology/open-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/baire-category-theorem.md"
+prerequisites = ["topology/complete-metric-space", "topology/dense-set", "topology/open-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Baire category theorem.** Let \((X,d)\) be a nonempty [[topology/complete-metric-space|complete metric space]]. If \((U_n)_{n\in\mathbb{N}}\) is a sequence of [[topology/dense-set|dense]] [[topology/open-set|open sets]] in \(X\), then \(\bigcap_{n\in\mathbb{N}}U_n\) is dense in \(X\).

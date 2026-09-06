@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a finite group, the order of any element divides the order of the group."
 aliases = ["order-divides-group-order", "Order of Element Divides Order of Group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/order-divides-group-order.md"
+prerequisites = ["algebra-groups/group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Order of Element Divides Order of Group**: Let \(G\) be a finite [[algebra-groups/group|group]] (so \(|G|\) denotes its cardinality), and let \(g\in G\). The **order of \(g\)**, written \(\operatorname{ord}(g)\), is the least integer \(n\ge 1\) such that \(g^n=e\), where \(e\) is the identity element of \(G\). Then

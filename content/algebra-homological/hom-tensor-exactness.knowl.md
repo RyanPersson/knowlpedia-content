@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Hom is left exact and tensor is right exact; flatness, projectivity, and injectivity are exactly the conditions that make these functors exact."
 aliases = ["hom-tensor-exactness", "Exactness properties of Hom and tensor"]
 domains = ["algebra-homological"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/hom-tensor-exactness.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/hom-left-exact", "algebra-homological/tensor-right-exact", "algebra-modules/projective-module", "algebra-modules/injective-module", "algebra-modules/flat-module"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(R\) be a commutative ring, and let \(M\) and \(N\) be \(R\)-modules. The functors \(\operatorname{Hom}_R(M,-)\) and \(\operatorname{Hom}_R(-,N)\) on \(R\)-modules are left exact, with the latter reversing arrows. The functor \(-\otimes_R N\) is right exact. These functors are exact precisely when \(M\) is projective, \(N\) is injective, and \(N\) is flat, respectively.
@@ -51,6 +52,8 @@ Because Hom and tensor are only one-sided exact in general, their derived functo
 See [[algebra-homological/ext-tor-derived-functors|Ext and Tor as derived functors]].
 
 ## Examples
+
+In the cyclic-group examples, let \(n\ge 2\) be an integer.
 
 ### Example 1 (tensor is not left exact over \(\mathbb Z\))
 In \(\mathbf{Ab}\), take the injection \(0\to \mathbb Z \xrightarrow{\cdot n} \mathbb Z\).

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "In a compact connected Lie group, maximal tori exist and are all conjugate."
 aliases = ["maximal-torus-theorem", "Maximal torus theorem"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/compact-lie-group", "lie-groups/connected-lie-group", "lie-groups/example-torus", "lie-groups/connected-abelian-lie-group-structure"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "lie-groups/maximal-torus-theorem.md"
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/connected-lie-group", "lie-groups/example-torus", "lie-groups/connected-abelian-lie-group-structure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] that is also [[lie-groups/connected-lie-group|connected]]. A **torus** means a Lie group isomorphic to \((S^1)^r\); see [[lie-groups/example-torus|the torus example]] and [[lie-groups/connected-abelian-lie-group-structure|the structure of connected abelian Lie groups]].

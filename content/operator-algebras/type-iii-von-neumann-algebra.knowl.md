@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A von Neumann algebra with no nonzero finite projections."
 aliases = ["type III W*-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/infinite-projection", "operator-algebras/von-neumann-factor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/infinite-projection", "operator-algebras/von-neumann-factor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[operator-algebras/von-neumann-algebra|von Neumann algebra]] \(M\) is

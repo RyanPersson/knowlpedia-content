@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The 14-dimensional simple complex Lie algebra of rank 2 and exceptional Dynkin type G2."
 aliases = ["exceptional-lie-algebra-g2", "g2", "complex Lie algebra g2", "exceptional Lie algebra G2"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **exceptional complex Lie algebra** \(\mathfrak g_2\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(G_2\). It has complex dimension \(14\), rank \(2\), and \(12\) roots, with squared-length ratio \(3\) between long and short roots.

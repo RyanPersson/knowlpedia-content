@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set with a binary operation (no other axioms)"
 aliases = ["magma"]
 domains = ["algebra-groups"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/magma.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **magma** is a set \(M\) together with a binary operation \(\cdot : M \times M \to M\). No additional axioms are required—the operation need not be associative, commutative, or have an identity.

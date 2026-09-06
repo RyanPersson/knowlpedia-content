@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A descending sequence defined by iterated commutators, used to define nilpotent Lie algebras."
 aliases = ["lower-central-series-lie-algebra", "Lower central series of a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/ideal-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lower-central-series-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/ideal-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]].

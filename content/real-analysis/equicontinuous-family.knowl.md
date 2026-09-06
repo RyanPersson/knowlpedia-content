@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A family of functions that satisfies the equicontinuity condition at every point."
 aliases = ["equicontinuous-family", "Equicontinuous family"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/equicontinuous-family.md"
+prerequisites = ["real-analysis/pointwise-bounded-family", "real-analysis/space-of-continuous-functions", "real-analysis/uniform-metric"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A family \(\mathcal F\) of functions from a metric space \((X,d_X)\) to a metric space \((Y,d_Y)\) is **equicontinuous on \(X\)** if, for every \(x_0\in X\) and \(\varepsilon>0\), there exists \(\delta>0\) such that, for every \(f\in\mathcal F\) and \(x\in X\),

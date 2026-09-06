@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "All Sylow p-subgroups are conjugate, and every p-subgroup lies in one"
 aliases = ["sylows-second-theorem", "Sylow's Second Theorem"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup", "algebra-groups/p-group", "algebra-groups/conjugation-action"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylows-second-theorem.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup", "algebra-groups/p-group", "algebra-groups/conjugation-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Sylow's Second Theorem.**

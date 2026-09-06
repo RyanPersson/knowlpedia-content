@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The representation of a crossed-product convolution algebra obtained by integrating a covariant pair."
 aliases = ["integrated covariant representation", "pi cross U"]
 domains = ["operator-algebras", "representation-theory"]
-prerequisites = ["operator-algebras/covariant-representation-cstar-dynamical-system", "harmonic-analysis/haar-measure", "operator-algebras/crossed-product-convolution-star-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/covariant-representation-cstar-dynamical-system", "harmonic-analysis/haar-measure", "operator-algebras/crossed-product-convolution-star-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\pi,U)\) be a [[operator-algebras/covariant-representation-cstar-dynamical-system|covariant representation]] of \((A,G,\alpha)\) on \(H\), and fix a left [[harmonic-analysis/haar-measure|Haar measure]] on \(G\). Its **integrated form**, written \(\pi\rtimes U\), is the operator-valued map on the [[operator-algebras/crossed-product-convolution-star-algebra|convolution \(*\)-algebra \(C_c(G,A)\)]] defined by

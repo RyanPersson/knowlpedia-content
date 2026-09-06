@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Bochner's theorem identifies continuous positive-definite functions on a locally compact abelian group with Fourier transforms of finite positive measures on its dual."
 aliases = ["Bochner theorem", "positive-definite Fourier representation"]
 domains = ["harmonic-analysis", "measure-theory"]
-prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/positive-definite-function", "probability/probability-measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/positive-definite-function", "probability/probability-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be an [[algebra-groups/abelian-group|abelian]] [[topology/locally-compact-group|locally compact group]] and \(\widehat G\) its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]]. **Bochner's theorem** states that a function \(\varphi:G\to\mathbb C\) is continuous and [[harmonic-analysis/positive-definite-function|positive definite]] if and only if there is a unique finite positive regular Borel measure \(\nu\) on \(\widehat G\) such that

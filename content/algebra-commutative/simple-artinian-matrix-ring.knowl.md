@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A simple Artinian ring is isomorphic to a full matrix ring over a division ring."
 aliases = ["simple-artinian-matrix-ring", "Simple Artinian rings are matrix rings over division rings"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/division-ring", "algebra-rings/artin-wedderburn-theorem"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/simple-artinian-matrix-ring.md"
+prerequisites = ["algebra-commutative/artinian-ring", "algebra-rings/division-ring", "algebra-rings/artin-wedderburn-theorem", "algebra-rings/field", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a nonzero ring, not necessarily commutative. If \(R\) is **simple**, meaning that it has no nonzero proper two-sided ideals, and **left Artinian**, meaning that every descending chain of left ideals stabilizes, then there are an integer \(n\ge 1\) and a [[algebra-rings/division-ring|division ring]] \(D\) such that
@@ -15,6 +16,8 @@ Let \(R\) be a nonzero ring, not necessarily commutative. If \(R\) is **simple**
 R\cong M_n(D)
 \]
 as rings. Conversely, every full matrix ring \(M_n(D)\) over a division ring is simple Artinian. This is the simple case of the [[algebra-rings/artin-wedderburn-theorem|Artin–Wedderburn theorem]].
+
+## Refinements
 
 A useful refinement is that \(D\) may be taken, up to passing to the opposite ring according to module conventions, from the endomorphism ring of a simple \(R\)-module. The general semisimple case is the [[algebra-commutative/semisimple-artinian-product|finite product decomposition]] into such matrix rings.
 

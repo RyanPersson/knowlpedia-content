@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two random variables with the same probability law."
 aliases = ["identically-distributed", "Identically distributed random variables"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable", "probability/distribution-law"]
-dependency_review_count = 1
 legacy_source_path = "probability/identically-distributed.md"
+prerequisites = ["probability/random-variable", "probability/distribution-law"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **pair of identically distributed random variables** \(X\) and \(Y\) is a pair of [[probability/random-variable|random variables]] whose [[probability/distribution-law|distribution laws]] agree; equivalently, for every Borel set \(A\subseteq\mathbb R\),

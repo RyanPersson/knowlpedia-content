@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The conormal bundle of an embedded submanifold is Lagrangian in the ambient cotangent bundle."
 aliases = ["Lagrangian conormal theorem"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/cotangent-bundle", "differential-geometry/canonical-symplectic-form-cotangent", "differential-geometry/lagrangian-submanifold", "fiber-bundles/zero-section"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/cotangent-bundle", "differential-geometry/canonical-symplectic-form-cotangent", "differential-geometry/lagrangian-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\subseteq Q\) be an [[differential-geometry/embedded-submanifold|embedded submanifold]] of a smooth \(n\)-manifold. Its conormal bundle

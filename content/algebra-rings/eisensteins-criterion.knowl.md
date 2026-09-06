@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A divisibility criterion implying that a polynomial is irreducible over the fraction field of a UFD."
 aliases = ["eisensteins-criterion", "Eisenstein's criterion"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ufd", "algebra-rings/prime-element", "algebra-rings/polynomial-ring", "algebra-rings/irreducible-polynomial", "algebra-rings/fraction-field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/eisensteins-criterion.md"
+prerequisites = ["algebra-rings/ufd", "algebra-rings/prime-element", "algebra-rings/polynomial-ring", "algebra-rings/irreducible-polynomial", "algebra-rings/fraction-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Eisenstein's criterion**: Let \(R\) be a [[algebra-rings/ufd|UFD]] and let \(p\in R\) be a [[algebra-rings/prime-element|prime element]]. Consider \(f(x)=a_nx^n+\cdots+a_0\in R[x]\) in the [[algebra-rings/polynomial-ring|polynomial ring]] \(R[x]\). If

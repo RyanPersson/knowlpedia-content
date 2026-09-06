@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The coarsest vector topology making every continuous linear functional remain continuous."
 aliases = ["sigma(E,E-prime)", "weak vector topology"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/topological-dual", "functional-analysis/topology-generated-by-seminorms"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/topological-vector-space", "functional-analysis/topological-dual", "functional-analysis/topology-generated-by-seminorms"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a

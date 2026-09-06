@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Lie superalgebra obtained by adjoining Lorentz transformations to a supertranslation algebra."
 aliases = ["Poincare superalgebra"]
 domains = ["mathematical-physics", "supergeometry", "lie-groups"]
-prerequisites = ["mathematical-physics/supertranslation-algebra", "mathematical-physics/poincare-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/supertranslation-algebra", "mathematical-physics/poincare-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let

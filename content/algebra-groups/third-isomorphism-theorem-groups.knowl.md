@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If N is contained in K and both are normal in G, then (G/N)/(K/N) is canonically isomorphic to G/K."
 aliases = ["third-isomorphism-theorem-groups", "Third Isomorphism Theorem (Groups)"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/third-isomorphism-theorem-groups.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Third Isomorphism Theorem (Groups).**

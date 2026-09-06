@@ -6,6 +6,7 @@ summary = "A continuous map with a compatible sheaf map that is local on every s
 aliases = ["morphism of locally ringed spaces", "locally ringed space morphism"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/locally-ringed-space", "topology/continuous-map", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/direct-image-sheaf", "algebraic-geometry-foundations/stalk", "algebra-commutative/local-ring"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

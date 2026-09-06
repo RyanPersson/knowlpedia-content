@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The quotient stack of the space of connections by gauge transformations, retaining the automorphisms of each connection."
 aliases = ["connection quotient stack", "stack of connections modulo gauge"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space", "fiber-bundles/stabilizer-of-a-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space", "fiber-bundles/stabilizer-of-a-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], let \(\mathcal A(P)\) be its [[fiber-bundles/bundle-of-connections|space of connections]], and let \(\mathcal G(P)\) be its [[fiber-bundles/gauge-group|gauge group]]. The **moduli stack of connections** is the quotient stack

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If a series converges, its terms must converge to 0"
 aliases = ["convergent-series-terms-go-to-zero", "Convergent series terms go to zero"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/convergent-series-terms-go-to-zero.md"
+prerequisites = ["real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Corollary**: If \(\sum_{n=1}^\infty a_n\) [[real-analysis/convergent-series|converges]] in \(\mathbb{R}\) or \(\mathbb{C}\), then

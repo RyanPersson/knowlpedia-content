@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Hamiltonian system in dimension two n with n independent first integrals in pairwise involution."
 aliases = ["Liouville integrable system"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/functions-in-involution"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/functions-in-involution"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega,H)\) be a [[differential-geometry/hamiltonian-system|Hamiltonian system]] with \(\dim M=2n\). It is **completely integrable in the Liouville sense** if there are smooth functions \(F_1=H,F_2,\ldots,F_n\) that are [[differential-geometry/functions-in-involution|in involution]],

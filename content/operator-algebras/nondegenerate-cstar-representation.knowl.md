@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A representation whose image acts on a dense subspace of the whole representation Hilbert space."
 aliases = ["non-degenerate C*-representation", "essential representation"]
 domains = ["operator-algebras", "representation-theory"]
-prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/nondegenerate-star-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/nondegenerate-star-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:A\to\mathcal B(H)\) be a

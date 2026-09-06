@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element whose sufficiently high power is zero."
 aliases = ["nilpotent-element", "Nilpotent element"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/nilpotent-element.md"
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring. An element \(a\in R\) is **nilpotent** if \(a^n=0\) for some integer \(n\ge 1\).

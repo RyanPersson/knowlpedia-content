@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The complete topological field obtained from a field and one of its places."
 aliases = ["completion at a place", "local completion", "completion of a global field"]
 domains = ["algebra-fields-galois", "topology", "langlands"]
-prerequisites = ["algebra-fields-galois/place-of-global-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/place-of-global-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a field with an absolute value \(|\cdot|_v\) representing a

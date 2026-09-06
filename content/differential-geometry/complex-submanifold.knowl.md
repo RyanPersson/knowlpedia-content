@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A subset of a complex manifold that is locally a complex coordinate subspace."
 aliases = ["holomorphic submanifold", "complex analytic submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/complex-coordinate-chart", "differential-geometry/holomorphic-map", "differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/complex-coordinate-chart", "differential-geometry/holomorphic-map", "differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]] of complex dimension \(n\). A subset \(Y\subseteq X\) is a **complex submanifold of complex dimension \(k\)** if every \(p\in Y\) has a [[differential-geometry/complex-coordinate-chart|complex chart]] \((U,\varphi)\) of \(X\), with \(\varphi(p)=0\), such that

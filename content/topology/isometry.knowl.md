@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A distance-preserving map between metric spaces."
 aliases = ["isometry"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "topology/isometry.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **isometry** between metric spaces \((X,d_X)\) and \((Y,d_Y)\) is a map \(f\colon X\to Y\) such that for all \(x,x'\in X\),

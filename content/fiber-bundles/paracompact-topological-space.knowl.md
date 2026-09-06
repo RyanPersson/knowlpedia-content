@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A topological space in which every open cover has a locally finite open refinement."
 aliases = ["paracompact-topological-space", "Paracompact topological space"]
 domains = ["fiber-bundles"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/paracompact-topological-space.md"
+prerequisites = ["fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a topological space.

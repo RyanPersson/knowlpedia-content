@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A finite or countable disjoint union inherits a smooth structure component by component and is the categorical coproduct of its components."
 aliases = ["coproduct manifold", "smooth coproduct"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-atlas", "fiber-bundles/smooth-embedding", "algebra-category-theory/coproduct", "differential-geometry/category-of-smooth-manifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-atlas", "fiber-bundles/smooth-embedding", "algebra-category-theory/coproduct", "differential-geometry/category-of-smooth-manifolds"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a finite or countable family of [[fiber-bundles/smooth-manifold|smooth manifolds]] \((M_i)_{i\in I}\), their **smooth disjoint union** \(\bigsqcup_iM_i\) is the set-theoretic disjoint union with the disjoint-union topology and the [[fiber-bundles/smooth-atlas|smooth atlas]] formed by all component charts. Each canonical inclusion \(M_i\hookrightarrow\bigsqcup_iM_i\) is a [[fiber-bundles/smooth-embedding|smooth open embedding]]. A map \(f:\bigsqcup_iM_i\to N\) is smooth exactly when every restriction \(f|_{M_i}\) is smooth. Hence the disjoint union, with these inclusions, is the [[algebra-category-theory/coproduct|coproduct]] in the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]] whenever it remains an object of the chosen category.

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ring R_p obtained by inverting all elements outside a prime ideal p."
 aliases = ["localization-at-prime", "Localization at a prime ideal"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/localization-at-prime.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring", "algebra-commutative/local-ring", "algebra-commutative/localization-prime-correspondence", "algebra-commutative/prime-spectrum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(\mathfrak p\subset R\) be a prime ideal. The complement

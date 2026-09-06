@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Ordered monomials in an ordered basis of a Lie algebra form a basis of its universal enveloping algebra."
 aliases = ["PBW theorem", "symmetrization theorem"]
 domains = ["lie-groups", "algebra"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/universal-enveloping-algebra", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] over a field \(k\), and let \((x_i)_{i\in I}\) be a totally ordered basis. The **Poincaré–Birkhoff–Witt theorem** states that the ordered monomials

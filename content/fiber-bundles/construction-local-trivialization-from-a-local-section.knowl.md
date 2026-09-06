@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A local section of a principal bundle determines a canonical local trivialization by multiplying by group elements."
 aliases = ["construction-local-trivialization-from-a-local-section", "Construction: local trivialization from a local section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/construction-local-trivialization-from-a-local-section.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with right action \((p,g)\mapsto p\cdot g\). Let \(U\subset M\) be open and let \(s:U\to P\) be a smooth local section. The section determines the local trivialization

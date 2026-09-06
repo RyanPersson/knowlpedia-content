@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A scheme morphism that factors as a closed immersion into relative projective space."
 aliases = ["projective map of schemes", "projective morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/base-change"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/scheme-over-a-base"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A morphism of schemes \(f:X\to S\) is **projective** if there is an integer

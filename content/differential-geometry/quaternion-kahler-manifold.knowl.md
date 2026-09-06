@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Riemannian manifold of dimension at least eight whose holonomy is contained in Sp(n)Sp(1)."
 aliases = ["quaternionic-Kähler manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/holonomy-group", "lie-groups/compact-symplectic-product-group", "differential-geometry/quaternionic-hermitian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/kahler-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/holonomy-group", "lie-groups/compact-symplectic-product-group", "differential-geometry/quaternionic-hermitian-manifold", "fiber-bundles/levicivita-connection-connection", "differential-geometry/kahler-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\geq2\), a **quaternion-Kähler manifold** is a [[differential-geometry/riemannian-manifold|Riemannian manifold]] \((M^{4n},g)\) whose [[fiber-bundles/holonomy-group|holonomy group]] is contained in the [[lie-groups/compact-symplectic-product-group|group \(\operatorname{Sp}(n)\operatorname{Sp}(1)\)]]. Equivalently, \(M\) carries a rank-three subbundle \(Q\subseteq\operatorname{End}(TM)\), locally spanned by a quaternionic triple \(I,J,K\), such that \(g\) is [[differential-geometry/quaternionic-hermitian-manifold|quaternionic-Hermitian]] and the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]] preserves \(Q\). It may rotate \(I,J,K\) rather than preserve each separately. The definition is Riemannian and does not assert that \(M\) is a complex or a [[differential-geometry/kahler-manifold|Kähler manifold]].

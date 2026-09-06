@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A homogeneous degree-two scalar-valued function whose polarization is bilinear."
 aliases = ["quadratic space"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "algebra-rings/field", "linear-algebra/bilinear-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "algebra-rings/field", "linear-algebra/bilinear-form"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a [[linear-algebra/vector-space|vector space]] over a [[algebra-rings/field|field]] \(k\). A **quadratic form** on \(V\) is a function \(q:V\to k\) such that

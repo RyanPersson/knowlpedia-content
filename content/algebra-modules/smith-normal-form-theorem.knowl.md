@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A matrix over a PID can be diagonalized with divisibility conditions on the diagonal."
 aliases = ["smith-normal-form-theorem", "Smith normal form theorem"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/pid"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/smith-normal-form-theorem.md"
+prerequisites = ["algebra-rings/pid", "algebra-modules/matrix-representation", "algebra-modules/structure-theorem-pid"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 **Smith normal form theorem**: Let \(R\) be a [[algebra-rings/pid|PID]] and let \(A\) be an \(m\times n\) matrix with entries in \(R\). Then there exist invertible matrices \(U\in \mathrm{GL}_m(R)\) and \(V\in \mathrm{GL}_n(R)\) such that

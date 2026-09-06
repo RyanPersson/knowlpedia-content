@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An algebra and coalgebra whose multiplication and comultiplication are compatible."
 aliases = ["bialgebra over a ring"]
 domains = ["algebra-coalgebras", "algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/algebra-over-ring", "algebra-coalgebras/coalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/algebra-over-ring", "algebra-coalgebras/coalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a [[algebra-rings/commutative-ring|commutative ring]]. A

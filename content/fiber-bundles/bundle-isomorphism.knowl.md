@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An invertible bundle morphism whose total-space map and base map are diffeomorphisms."
 aliases = ["bundle-isomorphism", "Bundle isomorphism"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/bundle-morphism", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/bundle-isomorphism.md"
+prerequisites = ["fiber-bundles/bundle-morphism", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) and \(\pi':E'\to M'\) be smooth fiber bundles. A **bundle isomorphism** is a [[fiber-bundles/bundle-morphism|bundle morphism]] \((\Phi,f)\) where:

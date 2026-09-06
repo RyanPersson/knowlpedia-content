@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The group of cosets of a normal subgroup."
 aliases = ["quotient-group", "Quotient Group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/normal-subgroup", "algebra-groups/group", "algebra-groups/coset"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/quotient-group.md"
+prerequisites = ["algebra-groups/normal-subgroup", "algebra-groups/group", "algebra-groups/coset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(N\) be a [[algebra-groups/normal-subgroup|normal subgroup]] of a [[algebra-groups/group|group]] \(G\). The **quotient group** \(G/N\) is the set of (left) [[algebra-groups/coset|cosets]] \(\{gN : g\in G\}\) equipped with the operation

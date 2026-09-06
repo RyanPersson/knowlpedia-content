@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "If convex sets have intersecting interiors, closure distributes over their intersection"
 aliases = ["closure-of-intersections-under-interior-point-condition", "Closure of intersections under an interior-point condition"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/closure-of-intersections-under-interior-point-condition.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/closure-of-a-set", "convex-analysis/segments-from-interior-points-stay-in-the-interior"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Theorem.**

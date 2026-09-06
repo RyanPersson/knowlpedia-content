@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bijective field homomorphism; automorphisms fixing a base field form the Galois group."
 aliases = ["field-automorphism", "Field automorphism"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-groups/automorphism-group", "algebra-fields-galois/field-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/field-automorphism.md"
+prerequisites = ["algebra-rings/field", "algebra-groups/automorphism-group", "algebra-fields-galois/field-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L\) be a [[algebra-rings/field|field]]. A **field automorphism** of \(L\) is a bijective field homomorphism \(\sigma:L\to L\). The set \(\mathrm{Aut}(L)\) of all field automorphisms is a group under composition (an instance of [[algebra-groups/automorphism-group|automorphism group]]).

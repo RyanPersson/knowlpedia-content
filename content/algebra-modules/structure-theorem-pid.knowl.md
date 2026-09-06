@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finitely generated module over a PID splits as a free part plus cyclic torsion factors."
 aliases = ["structure-theorem-pid", "Structure theorem for finitely generated modules over a PID"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/direct-sum-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/structure-theorem-pid.md"
+prerequisites = ["algebra-rings/pid", "algebra-modules/finitely-generated-module", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/pid|principal ideal domain]] and let \(M\) be a [[algebra-modules/finitely-generated-module|finitely generated \(R\)-module]]. Then there exist an integer \(r\ge 0\) and nonzero nonunits \(d_1,\dots,d_t\in R\), with \(d_1\mid d_2\mid\cdots\mid d_t\), such that

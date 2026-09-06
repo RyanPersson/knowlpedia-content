@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The simply laced root system D_n consisting of the vectors ±e_i±e_j in R^n."
 aliases = ["type D root system", "D_n root system", "root system of type D"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simply-laced-root-system"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/simply-laced-root-system"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\geq4\), the **root system of type \(D_n\)** is

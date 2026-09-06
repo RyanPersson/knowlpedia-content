@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The decreasing eigenvalue sequence of the absolute value of a compact Hilbert-space operator."
 aliases = ["s-numbers", "singular-value sequence", "approximation numbers"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/compact-operator", "linear-algebra/hilbert-space", "real-analysis/absolute-value"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/compact-operator", "linear-algebra/hilbert-space", "real-analysis/absolute-value"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:H\to K\) be a

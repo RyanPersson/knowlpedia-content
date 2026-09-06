@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A topological ring whose topology is defined by the powers of a finitely generated ideal."
 aliases = ["I-adic ring"]
 domains = ["algebra-topological", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-topological/ideal-of-definition"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-topological/ideal-of-definition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **adic ring** is a commutative topological ring \(A\) whose topology is the

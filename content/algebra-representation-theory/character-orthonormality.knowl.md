@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "With respect to the standard inner product on class functions, irreducible characters are orthonormal (and over ℂ they form an orthonormal basis)."
 aliases = ["character-orthonormality", "Orthonormality of irreducible characters"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-groups/class-function", "linear-algebra/inner-product", "algebra-groups/conjugacy-class"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/character-orthonormality.md"
+prerequisites = ["algebra-representation-theory/character", "algebra-groups/class-function", "linear-algebra/inner-product", "algebra-groups/conjugacy-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group, and let \(\mathrm{Cl}(G;\mathbb C)\) denote the \(\mathbb C\)-vector space of complex-valued [[algebra-groups/class-function|class functions]] on \(G\).

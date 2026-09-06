@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set equipped with a metric that measures distances between its points."
 aliases = ["metric-space", "Metric space"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/set", "topology/metric"]
-dependency_review_count = 1
 legacy_source_path = "topology/metric-space.md"
+prerequisites = ["shared-foundations/set", "topology/metric"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **metric space** is a pair \((X,d)\) where \(X\) is a [[shared-foundations/set|set]] and \(d\) is a [[topology/metric|metric]] on \(X\).

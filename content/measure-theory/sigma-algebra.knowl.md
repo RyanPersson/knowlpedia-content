@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A collection of subsets closed under complements and countable unions."
 aliases = ["sigma-algebra"]
 domains = ["measure-theory"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "measure-theory/sigma-algebra.md"
+prerequisites = ["shared-foundations/power-set", "shared-foundations/complement", "shared-foundations/union", "shared-foundations/sequence"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **sigma-algebra** on a set \(X\) is a nonempty collection \(\Sigma \subseteq \mathcal P(X)\) such that if \(A\in\Sigma\) then \(X\setminus A\in\Sigma\), and whenever \((A_n)_{n\ge 1}\) is a sequence in \(\Sigma\), the union \(\bigcup_{n=1}^\infty A_n\) lies in \(\Sigma\).

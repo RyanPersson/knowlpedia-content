@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The canonical connection on a pullback vector bundle induced by a connection on the original bundle."
 aliases = ["pulled-back covariant derivative", "connection on f-star E"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/pullback-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle-valued-differential-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/pullback-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle-valued-differential-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:N\to M\) be a [[fiber-bundles/smooth-map|smooth map]], let \(E\to M\) be a smooth real or complex [[fiber-bundles/vector-bundle|vector bundle]], and let \(\nabla\) be a [[fiber-bundles/connection-on-a-vector-bundle|connection]] on \(E\). The **pullback connection** \(f^*\nabla\) is the unique connection on the [[fiber-bundles/pullback-bundle|pullback bundle]] \(f^*E\to N\) such that

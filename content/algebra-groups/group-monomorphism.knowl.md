@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An injective group homomorphism"
 aliases = ["group-monomorphism", "Group monomorphism"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-homomorphism", "shared-foundations/injective-function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/group-monomorphism.md"
+prerequisites = ["algebra-groups/group-homomorphism", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **group monomorphism** is a [[algebra-groups/group-homomorphism|group homomorphism]] \(\varphi\colon G\to H\) that is injective as an [[shared-foundations/injective-function|injective function]].

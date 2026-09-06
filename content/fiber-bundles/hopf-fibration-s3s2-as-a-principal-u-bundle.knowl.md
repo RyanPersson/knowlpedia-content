@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The classic circle bundle with total space the 3-sphere and base the 2-sphere."
 aliases = ["hopf-fibration-s3s2-as-a-principal-u-bundle", "Hopf fibration as a principal U(1)-bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S^3=\{(z_1,z_2)\in\mathbb C^2:|z_1|^2+|z_2|^2=1\}\) and let \(U(1)\subset\mathbb C^\times\) act on \(S^3\) by scalar multiplication:

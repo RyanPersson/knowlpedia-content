@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Axioms for addition and multiplication in a field, as used for the real numbers."
 aliases = ["field-axioms", "Field axioms"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/set"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/field-axioms.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Field axioms:** Let \(F\) be a [[shared-foundations/set|set]] equipped with binary operations \(+\) and \(\cdot\) and distinguished elements \(0,1\in F\) with \(0\neq 1\). The following are required for all \(a,b,c\in F\):

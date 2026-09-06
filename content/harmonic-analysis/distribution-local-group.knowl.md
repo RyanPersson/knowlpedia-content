@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A continuous linear functional on the archimedean or nonarchimedean test-function space of a local group."
 aliases = ["local-group distribution", "distribution on a p-adic group", "invariant distribution on a local group"]
 domains = ["harmonic-analysis", "langlands", "functional-analysis"]
-prerequisites = ["algebra-fields-galois/local-field", "harmonic-analysis/test-function-space-local-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/local-field", "harmonic-analysis/test-function-space-local-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A principal G-bundle is written with a right action of G on the total space, matching standard connection and equivariance formulas."
 aliases = ["convention-principal-bundles-use-a-right-g-action-on-p", "Convention: principal bundles use a right G-action on P"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/right-principal-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. In this convention, a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] is a fiber bundle \(\pi:P\to M\) equipped with a **right** smooth action

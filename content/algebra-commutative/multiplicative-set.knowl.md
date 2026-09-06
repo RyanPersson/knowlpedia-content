@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset of a ring closed under multiplication and containing 1, used to form localizations."
 aliases = ["multiplicative-set", "Multiplicative set"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/multiplicative-set.md"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. A subset \(S\subseteq R\) is a **multiplicative set** if

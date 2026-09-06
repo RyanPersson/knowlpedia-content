@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A distance function on a set satisfying positivity, symmetry, and the triangle inequality."
 aliases = ["metric"]
 domains = ["topology"]
-prerequisites = ["shared-foundations/set", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "topology/metric.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/function"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **metric** on a [[shared-foundations/set|set]] \(X\) is a [[shared-foundations/function|function]] \(d\colon X\times X\to[0,\infty)\) such that for all \(x,y,z\in X\):

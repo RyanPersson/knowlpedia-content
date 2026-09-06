@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A characteristic class of complex vector bundles defined as the trace of the exponential of curvature; it is additive under direct sum."
 aliases = ["chern-character", "Chern character via Chern–Weil theory"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/chern-character.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) with [[fiber-bundles/curvature|curvature]] \(F_\nabla\in\Omega^2(M;\mathrm{End}(E))\).

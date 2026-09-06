@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The commutative subalgebra of enveloping-algebra elements that commute with every element."
 aliases = ["infinitesimal center", "Z(U(g))"]
 domains = ["lie-groups", "algebra-rings"]
-prerequisites = ["lie-groups/lie-algebra", "algebra-rings/field", "lie-groups/universal-enveloping-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "algebra-rings/field", "lie-groups/universal-enveloping-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] over a [[algebra-rings/field|field]] \(k\), and let \(U(\mathfrak g)\) be its [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]]. The **center of the universal enveloping algebra** is

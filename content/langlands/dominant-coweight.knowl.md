@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A cocharacter pairing nonnegatively with every positive root determined by a Borel subgroup."
 aliases = ["dominant cocharacter"]
 domains = ["langlands", "representation-theory"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "lie-groups/positive-root", "langlands/affine-grassmannian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "lie-groups/positive-root", "langlands/affine-grassmannian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]], choose a maximal torus

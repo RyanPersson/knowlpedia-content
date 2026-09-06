@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The integral of the Euler curvature form of a closed oriented even-dimensional Riemannian manifold equals its Euler characteristic."
 aliases = ["Gauss–Bonnet–Chern theorem", "generalized Gauss–Bonnet theorem"]
 domains = ["fiber-bundles", "differential-geometry", "topology"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/levicivita-connection-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a closed oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] of dimension \(2m\), and let \(\Omega\) be the curvature matrix of its [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]] in a local oriented orthonormal frame. With the Chern–Weil normalization

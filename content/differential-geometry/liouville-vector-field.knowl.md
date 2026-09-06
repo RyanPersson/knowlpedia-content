@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The unique vector field dual to a chosen primitive of an exact symplectic form."
 aliases = ["symplectic dilation vector field"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/exact-symplectic-manifold", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/exact-symplectic-manifold", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be an [[differential-geometry/exact-symplectic-manifold|exact symplectic manifold]] with a specified primitive \(\lambda\), so \(\omega=d\lambda\). The **Liouville vector field** associated with \(\lambda\) is the unique smooth [[fiber-bundles/vector-field|vector field]] \(Z\) satisfying

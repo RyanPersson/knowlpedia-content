@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Ways to describe a group in terms of simpler subgroups, factors, or extensions."
 aliases = ["decomposition", "Group decomposition"]
 domains = ["algebra-groups"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/decomposition.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **group decomposition** describes a group in terms of simpler groups and the maps that assemble them. The precise form depends on how the constituent subgroups interact.

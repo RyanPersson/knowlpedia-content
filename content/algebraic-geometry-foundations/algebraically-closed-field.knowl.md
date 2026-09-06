@@ -5,7 +5,8 @@ kind = "definition"
 summary = "A field in which every nonconstant one-variable polynomial has a root."
 aliases = ["algebraically closed field", "algebraically closed"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure"]
+prerequisites = ["algebra-rings/field"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

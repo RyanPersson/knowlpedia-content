@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Riemann integral can be computed from any antiderivative."
 aliases = ["fundamental-theorem-of-calculus-ii", "Fundamental theorem of calculus II"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/differentiability-1d", "real-analysis/fundamental-theorem-of-calculus-i", "real-analysis/riemann-integral"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/fundamental-theorem-of-calculus-ii.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/differentiability-1d", "real-analysis/fundamental-theorem-of-calculus-i", "real-analysis/riemann-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Fundamental theorem of calculus II:** Let \(a<b\) and let \(f:[a,b]\to\mathbb{R}\) be a [[real-analysis/riemann-integrable-function|Riemann integrable function]]. Suppose \(F:[a,b]\to\mathbb{R}\) is continuous on \([a,b]\), [[real-analysis/differentiability-1d|differentiable]] on \((a,b)\), and satisfies \(F'(x)=f(x)\) for all \(x\in(a,b)\). Then

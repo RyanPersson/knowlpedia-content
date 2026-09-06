@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A local inverse to the exponential map near the identity of a Lie group."
 aliases = ["logarithm-map", "Logarithm map"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/exponential-map-lie-group", "lie-groups/exponential-local-diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/logarithm-map.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/exponential-map-lie-group", "lie-groups/exponential-local-diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak g\).

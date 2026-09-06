@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Commutator formulas relating the Dolbeault operators, their formal adjoints, and the Lefschetz operators of a Kähler metric."
 aliases = ["commutator identities in Kähler geometry"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/formal-adjoint-differential-operator", "differential-geometry/dolbeault-operators"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/formal-adjoint-differential-operator", "differential-geometry/dolbeault-operators"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,\omega)\) be a [[differential-geometry/kahler-manifold|Kähler manifold]]. Define \(L\alpha=\omega\wedge\alpha\), let \(\Lambda=L^*\), and let \(\partial^*,\bar\partial^*\) be the [[differential-geometry/formal-adjoint-differential-operator|formal adjoints]] of the [[differential-geometry/dolbeault-operators|Dolbeault operators]]. With the Hermitian and commutator conventions used here, the **Kähler identities** are

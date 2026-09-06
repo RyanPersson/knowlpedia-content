@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differentiable function equal at two endpoints has a critical point in between."
 aliases = ["rolles-theorem", "Rolle's theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiability-1d", "real-analysis/local-extremum", "real-analysis/mean-value-theorem"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/rolles-theorem.md"
+prerequisites = ["real-analysis/differentiability-1d", "real-analysis/local-extremum", "real-analysis/mean-value-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Rolle's theorem:** Let \(f:[a,b]\to\mathbb{R}\) be continuous on \([a,b]\) and [[real-analysis/differentiability-1d|differentiable]] on \((a,b)\). If \(f(a)=f(b)\), then there exists \(c\in(a,b)\) such that

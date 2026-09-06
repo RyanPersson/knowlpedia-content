@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "A nonconstant holomorphic function on a domain sends open sets to open sets."
 aliases = ["holomorphic open mapping theorem"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/complex-domain"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/complex-domain", "complex-analysis/complex-derivative", "complex-analysis/holomorphic-functions-are-analytic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 If \(D\subseteq\mathbb C\) is a [[complex-analysis/complex-domain|domain]] and \(f:D\to\mathbb C\) is nonconstant and holomorphic, then \(f\) is an open map: \(f(U)\) is open in \(\mathbb C\) for every open \(U\subseteq D\).

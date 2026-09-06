@@ -5,7 +5,8 @@ kind = "definition"
 summary = "The module or sheaf that universally records first-order variation relative to a base."
 aliases = ["relative-kahler-differentials", "Relative Kahler differentials", "Relative Kähler differentials", "Kahler differentials", "Kähler differentials", "relative differentials"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-rings/commutative-ring"]
+prerequisites = ["algebra-rings/commutative-ring", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

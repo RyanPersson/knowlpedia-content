@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A metric space is complete if every Cauchy sequence converges (in the space)"
 aliases = ["complete-metric-space-complete-subset", "Complete metric space and complete subset"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/metric-metric-space", "topology/cauchy-sequence", "convex-analysis/convergence-of-a-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/complete-metric-space-complete-subset.md"
+prerequisites = ["convex-analysis/metric-metric-space", "topology/cauchy-sequence", "convex-analysis/convergence-of-a-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[convex-analysis/metric-metric-space|metric space]] \((X,d)\) is **complete** if every [[topology/cauchy-sequence|Cauchy sequence]] \((x_n)\) in \(X\) [[convex-analysis/convergence-of-a-sequence|converges]] to some point \(x\in X\).

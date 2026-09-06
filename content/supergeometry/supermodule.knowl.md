@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A graded module over a superalgebra with degree-preserving action."
 aliases = ["graded module over a superalgebra", "superalgebra module"]
 domains = ["supergeometry", "algebra-modules"]
-prerequisites = ["supergeometry/superalgebra", "supergeometry/super-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/superalgebra", "supergeometry/super-vector-space", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A=A_{\bar0}\oplus A_{\bar1}\) be a

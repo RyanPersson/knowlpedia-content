@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The nonnegative magnitude |z| of a complex number z, equal to its distance from 0."
 aliases = ["modulus-on-c", "Modulus (absolute value) on ℂ"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/modulus-on-c.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(z=a+bi\in\mathbb{C}\), the **modulus** (or **absolute value**) of \(z\) is

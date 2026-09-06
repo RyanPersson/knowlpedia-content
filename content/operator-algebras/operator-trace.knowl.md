@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The basis-independent extended sum of diagonal matrix coefficients of a positive Hilbert-space operator."
 aliases = ["trace on positive operators", "Hilbert-space trace", "Tr"]
 domains = ["operator-algebras"]
-prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/orthonormal-basis", "real-analysis/partial-sums"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/orthonormal-basis", "real-analysis/partial-sums"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]] and let \(T\) be

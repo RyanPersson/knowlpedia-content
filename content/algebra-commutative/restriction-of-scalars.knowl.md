@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Given a ring map R→S, any S-module can be regarded as an R-module by forgetting part of the scalar action."
 aliases = ["restriction-of-scalars", "Restriction of scalars"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/extension-of-scalars"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/restriction-of-scalars.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/extension-of-scalars"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) and \(S\) be [[algebra-rings/commutative-ring|commutative rings]], and let \(\varphi: R \to S\) be a ring homomorphism. If \(M\) is an \(S\)-module, the **restriction of scalars** of \(M\) along \(\varphi\) is the \(R\)-module

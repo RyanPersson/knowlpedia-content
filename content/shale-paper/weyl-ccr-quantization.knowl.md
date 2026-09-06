@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A regular unitary representation of the Weyl relations for a real symplectic space."
 aliases = ["weyl-ccr-quantization", "Weyl CCR Quantization"]
 domains = ["shale-paper"]
-prerequisites = ["shale-paper/symplectic-hilbert-space"]
-dependency_review_count = 1
 legacy_source_path = "shale-paper/weyl-ccr-quantization.md"
+prerequisites = ["shale-paper/symplectic-hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((K,B)\) be a real [[shale-paper/symplectic-hilbert-space|symplectic

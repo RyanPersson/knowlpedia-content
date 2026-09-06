@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A unimodular locally compact group has trivial modular function, so its left Haar measures are also right invariant."
 aliases = ["unimodular group", "unimodularity"]
 domains = ["harmonic-analysis", "topology", "algebra-groups"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/modular-function", "harmonic-analysis/haar-measure", "lie-groups/right-translation", "topology/topological-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/modular-function", "harmonic-analysis/haar-measure", "lie-groups/right-translation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. It is

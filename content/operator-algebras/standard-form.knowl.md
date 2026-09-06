@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A faithful representation of a von Neumann algebra equipped with its canonical conjugation and self-dual positive cone."
 aliases = ["Haagerup standard form", "standard representation"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/natural-positive-cone", "operator-algebras/modular-conjugation", "linear-algebra/hilbert-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/natural-positive-cone", "operator-algebras/modular-conjugation", "linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **standard form** of a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] \(M\) is a quadruple \((M,H,J,P)\), with \(M\subseteq B(H)\) faithful and nondegenerate, \(J\) a conjugate-linear isometric involution, and \(P\subseteq H\) a closed self-dual cone, such that

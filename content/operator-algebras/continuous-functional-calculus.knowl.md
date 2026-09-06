@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A normal element of a C*-algebra canonically determines a star-homomorphism from continuous functions on its spectrum."
 aliases = ["continuous C*-functional calculus", "continuous calculus for a normal element"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["functional-analysis/banach-algebra-spectrum","operator-algebras/commutative-cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/banach-algebra-spectrum", "operator-algebras/commutative-cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a unital \(C^*\)-algebra and let \(a\in A\) be normal, meaning \(a^*a=aa^*\). On the [[functional-analysis/banach-algebra-spectrum|spectrum]] \(\sigma_A(a)\), the **continuous functional calculus** is the unique unital isometric \(*\)-homomorphism

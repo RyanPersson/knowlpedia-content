@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A set is bounded if it lies in some ball; a sequence is bounded if its range is bounded"
 aliases = ["bounded-set-and-bounded-sequence", "Bounded sets and sequences"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/open-and-closed-balls-in-a-metric-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/bounded-set-and-bounded-sequence.md"
+prerequisites = ["convex-analysis/open-and-closed-balls-in-a-metric-space", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a metric space and let \(A\subseteq X\).

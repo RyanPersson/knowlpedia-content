@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The bounded operator obtained from a spectral triple's Dirac operator by the function x divided by the square root of one plus x squared."
 aliases = ["bounded Fredholm transform", "bounded transform of an unbounded cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/compact-resolvent", "noncommutative-geometry/fredholm-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "functional-analysis/compact-resolvent", "noncommutative-geometry/fredholm-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,H,D)\) be a [[noncommutative-geometry/spectral-triple|spectral triple]], with \(D\) densely defined and self-adjoint. Its **bounded transform** is the bounded self-adjoint contraction

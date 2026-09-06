@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A homeomorphism from an open manifold neighborhood to an open subset of complex Euclidean space."
 aliases = ["holomorphic chart", "complex chart", "complex coordinate system"]
 domains = ["differential-geometry"]
-prerequisites = ["topology/topological-manifold", "topology/homeomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-manifold", "topology/homeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[topology/topological-manifold|topological manifold]] of real dimension \(2n\). A **complex coordinate chart** on \(M\) is a pair \((U,\varphi)\) in which \(U\subseteq M\) is open and

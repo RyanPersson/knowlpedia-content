@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie group action is free if all stabilizers are trivial."
 aliases = ["free-action-lie", "Free smooth Lie group action"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/stabilizer-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/free-action-lie.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-action-lie-group", "lie-groups/stabilizer-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold \(M\) via a [[lie-groups/smooth-action-lie-group|smooth action]] \(G\times M\to M\), \((g,p)\mapsto g\cdot p\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Weights are elements of ; integrality conditions define weight lattices tied to maximal tori and characters."
 aliases = ["weights-in-dual-cartan", "Weights in the dual Cartan"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation", "lie-groups/root-system"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/weights-in-dual-cartan.md"
+prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/weight-of-a-representation", "lie-groups/root-system"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex semisimple Lie algebra and \(\mathfrak h\subset\mathfrak g\) a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. A [[lie-groups/weight-of-a-representation|weight]] of a representation is, by definition, an element of the dual space \(\mathfrak h^\ast\), i.e. a linear functional on \(\mathfrak h\). The root system \(\Delta\) of \(\mathfrak g\) is also a subset of \(\mathfrak h^\ast\) (see [[lie-groups/root-system|root systems]]), so weights and roots live in the same ambient vector space and can be compared geometrically.

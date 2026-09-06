@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set with addition forming an abelian group and multiplication that is associative and distributive over addition."
 aliases = ["ring"]
 domains = ["algebra-rings"]
-prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group"]
-dependency_review_count = 2
 legacy_source_path = "algebra-rings/ring.md"
+prerequisites = ["shared-foundations/binary-operation", "algebra-groups/abelian-group", "algebra-rings/ring-axioms"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **ring** is a set \(R\) equipped with two [[shared-foundations/binary-operation|binary operations]] \(+\) and \(\cdot\) such that:

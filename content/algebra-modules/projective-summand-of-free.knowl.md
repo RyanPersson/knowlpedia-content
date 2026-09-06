@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module is projective iff it is a direct summand of a free module."
 aliases = ["projective-summand-of-free", "Projective modules are direct summands of free modules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/projective-module", "algebra-modules/free-module", "algebra-modules/direct-sum-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/projective-summand-of-free.md"
+prerequisites = ["algebra-modules/projective-module", "algebra-modules/free-module", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Projective is a summand of free**: An \(R\)-module \(P\) is [[algebra-modules/projective-module|projective]] if and only if there exists a [[algebra-modules/free-module|free module]] \(F\) and an \(R\)-module \(Q\) such that

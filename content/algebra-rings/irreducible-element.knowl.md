@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonzero nonunit that cannot be written as a product of two nonunits."
 aliases = ["irreducible-element", "Irreducible element"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/irreducible-element.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]]. An element \(a\in R\) is **irreducible** if \(a\neq 0\), \(a\) is not a [[algebra-rings/unit|unit]], and whenever \(a=bc\), then \(b\) or \(c\) is a unit.

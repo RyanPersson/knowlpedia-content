@@ -5,10 +5,11 @@ kind = "definition"
 summary = "The complete x-adic ring of one-variable formal coefficient sequences with Cauchy multiplication."
 aliases = ["formal-power-series-ring", "Formal power series ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/formal-power-series-ring.md"
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] with \(1\). The **formal power series ring** \(R[[x]]\) consists of all coefficient sequences \((a_0,a_1,\ldots)\), written

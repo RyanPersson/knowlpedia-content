@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The first cohomology of the flat-connection deformation complex is the infinitesimal moduli space, with zeroth and second cohomology controlling stabilizers and obstructions."
 aliases = ["first cohomology with local coefficients", "infinitesimal flat deformations"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/deformation-complex-of-a-flat-connection", "fiber-bundles/irreducible-connection", "differential-geometry/tangent-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/deformation-complex-of-a-flat-connection", "fiber-bundles/irreducible-connection", "differential-geometry/tangent-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a flat connection on a principal \(G\)-bundle \(P\to M\), and let \(H_A^j\) denote the cohomology of its [[fiber-bundles/deformation-complex-of-a-flat-connection|deformation complex]]. The **deformation-theoretic tangent space** to flat connections modulo gauge at \([A]\) is

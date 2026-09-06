@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set that cannot be split into two disjoint nonempty open pieces in the subspace topology."
 aliases = ["connected-set", "Connected set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/open-set", "topology/subspace-topology", "topology/closed-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/connected-set.md"
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/open-set", "topology/subspace-topology"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **connected set** is a subset \(C\subseteq X\) of a [[topology/topological-space|topological space]] \(X\) such that there do not exist disjoint nonempty sets \(U,V\subseteq C\) that are [[topology/open-set|open]] in the [[topology/subspace-topology|subspace topology]] on \(C\) and satisfy \(C=U\cup V\).

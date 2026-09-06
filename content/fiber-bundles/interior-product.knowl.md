@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The contraction of a differential form with a vector field, lowering degree by one."
 aliases = ["interior-product", "Interior product"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/differential-k-form"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/interior-product.md"
+prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a smooth manifold, let \(X\) be a [[fiber-bundles/vector-field|vector field]] on \(M\), and let \(\omega\in\Omega^k(M)\) be a [[fiber-bundles/differential-k-form|differential \(k\)-form]] with \(k\ge 1\). The **interior product** (or **contraction**) of \(\omega\) with \(X\) is the \((k-1)\)-form \(\iota_X\omega\) defined by

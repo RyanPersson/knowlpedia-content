@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For any Lie group G, exp is a diffeomorphism from a neighborhood of 0 in its Lie algebra onto a neighborhood of the identity in G."
 aliases = ["exponential-local-diffeomorphism", "Exponential map is a local diffeomorphism"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/exponential-map-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/exponential-local-diffeomorphism.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak g\) and [[lie-groups/exponential-map-lie-group|exponential map]] \(\exp:\mathfrak g\to G\).

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Regular-singular algebraic flat connections on a smooth complex variety correspond to finite-dimensional complex local systems on its analytic space."
 aliases = ["regular-singular Riemann-Hilbert correspondence"]
 domains = ["langlands", "fiber-bundles"]
-prerequisites = ["langlands/regular-singular-connection", "fiber-bundles/local-system", "langlands/irregular-singular-connection", "langlands/stokes-data"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["langlands/regular-singular-connection", "fiber-bundles/local-system", "langlands/irregular-singular-connection", "langlands/stokes-data"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a smooth complex algebraic variety. Analytic horizontal sections

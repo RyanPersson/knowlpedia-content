@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measurable real-valued function on a probability space."
 aliases = ["random-variable", "Random variable"]
 domains = ["probability"]
-prerequisites = ["measure-theory/measurable-function", "probability/probability-space"]
-dependency_review_count = 1
 legacy_source_path = "probability/random-variable.md"
+prerequisites = ["measure-theory/measurable-function", "probability/probability-space", "measure-theory/borel-sigma-algebra"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **random variable** is a [[measure-theory/measurable-function|measurable function]] \(X:(\Omega,\mathcal{F})\to(\mathbb{R},\mathcal{B}(\mathbb{R}))\) defined on a [[probability/probability-space|probability space]] \((\Omega,\mathcal{F},\mathbb{P})\), meaning that for every Borel set \(B\subseteq\mathbb{R}\) one has \(X^{-1}(B)\in\mathcal{F}\).

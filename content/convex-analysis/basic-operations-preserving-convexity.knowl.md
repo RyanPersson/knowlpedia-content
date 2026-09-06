@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Nonnegative scaling, finite sums, and finite maxima preserve convexity"
 aliases = ["basic-operations-preserving-convexity", "Operations Preserving Convexity"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/basic-operations-preserving-convexity.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph", "convex-analysis/equivalent-characterizations-of-convex-functions"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Operations Preserving Convexity**: Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(f,f_i:X\to\overline{\mathbb{R}}\) be [[convex-analysis/convex-function-via-epigraph|convex functions]] for \(i=1,\dots,m\). Then:

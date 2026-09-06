@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The sheaf of derivations, equivalently the dual of the sheaf of Kähler differentials."
 aliases = ["algebraic tangent sheaf", "tangent sheaf"]
 domains = ["algebraic-geometry-foundations", "differential-geometry"]
-prerequisites = ["algebraic-geometry-foundations/relative-kahler-differentials"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/relative-kahler-differentials"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a morphism of schemes \(X\to S\), the **relative tangent sheaf** is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Axioms for a total order compatible with addition and multiplication on the real numbers."
 aliases = ["order-axioms", "Order axioms"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/field-axioms", "shared-foundations/relation"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/order-axioms.md"
+prerequisites = ["real-analysis/field-axioms", "shared-foundations/relation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Order axioms:** Let \(F\) be a field (satisfying the [[real-analysis/field-axioms|field axioms]]) and let \(\le\) be a [[shared-foundations/relation|relation]] on \(F\). The following are required for all \(a,b,c\in F\):

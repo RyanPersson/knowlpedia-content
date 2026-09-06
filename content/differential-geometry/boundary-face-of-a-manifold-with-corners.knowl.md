@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A globally chosen connected boundary hypersurface obtained by continuing one local boundary component through a manifold with corners."
 aliases = ["face of a manifold with corners"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/manifold-with-corners", "topology/connected-component"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/manifold-with-corners", "topology/connected-component"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/manifold-with-corners|manifold with corners]]. At \(x\in X\), a **local boundary component** is the germ at \(x\) of one of the coordinate hypersurfaces \(u_i=0\) in a corner chart for which \(u_i(x)=0\). The abstract boundary \(\partial X\) consists of pairs \((x,\beta)\), where \(\beta\) is such a local component. A **boundary face** is a [[topology/connected-component|connected component]] of \(\partial X\); its image in \(X\) is the closure of the corresponding connected depth-one piece. This definition retains which hypersurface is chosen when several meet at a corner.

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An integral domain admitting division with remainder controlled by a Euclidean function."
 aliases = ["euclidean-domain", "Euclidean domain"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/euclidean-domain.md"
+prerequisites = ["algebra-rings/integral-domain"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Euclidean domain** is an [[algebra-rings/integral-domain|integral domain]] \(R\) equipped with a function \(\delta:R\setminus\{0\}\to \mathbb{N}\) such that for all \(a\in R\) and \(b\in R\setminus\{0\}\), there exist \(q,r\in R\) with \(a=bq+r\) and either \(r=0\) or \(\delta(r)<\delta(b)\).

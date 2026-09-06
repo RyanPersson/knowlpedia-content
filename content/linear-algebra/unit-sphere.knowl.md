@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "The set of vectors having norm exactly one."
 aliases = ["unit sphere", "unit sphere of a normed space"]
 domains = ["linear-algebra", "topology"]
-prerequisites = ["linear-algebra/normed-vector-space", "linear-algebra/inner-product"]
+prerequisites = ["linear-algebra/normed-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The graded ring gr_F(R)=⊕ F_nR/F_{n-1}R attached to a filtered ring."
 aliases = ["associated-graded-ring", "Associated graded ring"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/filtered-ring", "algebra-rings/quotient-ring", "algebra-modules/direct-sum-modules", "algebra-modules/graded-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/associated-graded-ring.md"
+prerequisites = ["algebra-modules/filtered-ring", "algebra-rings/quotient-ring", "algebra-modules/direct-sum-modules", "algebra-modules/graded-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Given a [[algebra-modules/filtered-ring|filtered ring]] \((R,F_\bullet)\) with \(F_{n-1}R\subseteq F_nR\) and \(F_nR\,F_mR\subseteq F_{n+m}R\), the **associated graded ring** is

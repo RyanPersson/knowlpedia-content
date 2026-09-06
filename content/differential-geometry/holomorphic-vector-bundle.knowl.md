@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A holomorphic vector bundle is a complex vector bundle whose local trivializations have holomorphic transition functions."
 aliases = ["complex analytic vector bundle"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/local-trivialization", "differential-geometry/holomorphic-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/local-trivialization", "differential-geometry/holomorphic-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. A **holomorphic vector bundle** of rank \(r\) over \(X\) is a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] \(\pi:E\to X\) whose total space is a complex manifold and which admits [[fiber-bundles/local-trivialization|local trivializations]]

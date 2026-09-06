@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A complex manifold whose multiplication and inversion maps are holomorphic."
 aliases = ["complex analytic Lie group"]
 domains = ["lie-groups", "differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "algebra-groups/group-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-map", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **complex Lie group** is a [[differential-geometry/complex-manifold|complex manifold]] \(G\) with a group structure for which

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a connected Lie group, ker(Ad) equals the center."
 aliases = ["kernel-of-ad-is-center-lemma", "Kernel of the group adjoint representation"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/adjoint-action-of-a-lie-group", "lie-groups/center-of-a-lie-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/kernel-of-ad-is-center-lemma.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/adjoint-action-of-a-lie-group", "lie-groups/center-of-a-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak g\), and let

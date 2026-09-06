@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth map between G-manifolds that intertwines the group actions."
 aliases = ["equivariant-map", "Equivariant map"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivariant-map.md"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act on manifolds \(M\) and \(N\) (on the left, unless stated otherwise).

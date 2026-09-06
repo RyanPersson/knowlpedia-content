@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function whose total variation on an interval is finite."
 aliases = ["bounded-variation-function", "Function of bounded variation"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/total-variation", "real-analysis/partition-of-an-interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-variation-function.md"
+prerequisites = ["real-analysis/total-variation", "real-analysis/partition-of-an-interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **function of bounded variation** on \([a,b]\) is a function \(\alpha:[a,b]\to\mathbb R\) whose [[real-analysis/total-variation|total variation]] on \([a,b]\) is finite, i.e.

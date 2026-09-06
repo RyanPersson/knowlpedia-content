@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ordered real line with positive and negative infinity, together with standard infimum and supremum conventions."
 aliases = ["extended-real-number-system-and-conventions", "Extended real number system and conventions"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/extended-real-number-system-and-conventions.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **extended real number system** is

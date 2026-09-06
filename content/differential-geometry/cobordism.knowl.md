@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compact manifold whose boundary is identified with a pair of closed manifolds."
 aliases = ["smooth cobordism", "cobordant manifolds"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["topology/closed-manifold", "differential-geometry/manifold-with-boundary"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/closed-manifold", "differential-geometry/manifold-with-boundary", "shared-foundations/equivalence-relation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M_0\) and \(M_1\) be [[topology/closed-manifold|closed smooth manifolds]] of dimension \(n\). A **smooth cobordism from \(M_0\) to \(M_1\)** is a compact smooth \((n+1)\)-dimensional [[differential-geometry/manifold-with-boundary|manifold with boundary]] \(W\), together with a diffeomorphism

@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "The orthogonal projection onto the line spanned by a normalized vector."
 aliases = ["rank-one projector", "rank-one projection"]
 domains = ["quantum-foundations", "linear-algebra"]
-prerequisites = ["quantum-foundations/normalized-state-vector","linear-algebra/orthogonal-projection","quantum-foundations/positive-semidefinite-operator"]
+prerequisites = ["quantum-foundations/normalized-state-vector", "linear-algebra/orthogonal-projection", "quantum-foundations/positive-semidefinite-operator"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

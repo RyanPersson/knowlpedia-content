@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A module carrying a compatible representation of a Clifford algebra."
 aliases = ["Clifford representation", "Clifford multiplication"]
 domains = ["differential-geometry", "algebra-modules", "supergeometry"]
-prerequisites = ["differential-geometry/clifford-algebra", "algebra-modules/module", "algebra-modules/algebra-homomorphism", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/clifford-algebra", "algebra-modules/module", "algebra-modules/algebra-homomorphism", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\operatorname{Cl}(V,q)\) be a [[differential-geometry/clifford-algebra|Clifford algebra]]. A **Clifford module** is a [[algebra-modules/module|module]] \(E\) together with a unital [[algebra-modules/algebra-homomorphism|algebra homomorphism]]

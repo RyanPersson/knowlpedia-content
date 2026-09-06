@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The unital commutative algebra of scalar-valued smooth functions on a smooth manifold under pointwise operations."
 aliases = ["C-infinity algebra", "smooth function algebra"]
 domains = ["differential-geometry", "algebra-rings"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **algebra of smooth functions on \(M\)** is

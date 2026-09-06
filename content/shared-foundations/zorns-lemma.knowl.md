@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A maximal-element principle for partially ordered sets."
 aliases = ["zorns-lemma", "Zorn's lemma"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/partial-order", "shared-foundations/upper-bound", "shared-foundations/total-order"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/zorns-lemma.md"
+prerequisites = ["shared-foundations/partial-order", "shared-foundations/upper-bound", "shared-foundations/total-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Zorn's lemma:** Let \((P,\le)\) be a [[shared-foundations/partial-order|partially ordered set]]. If every chain \(C\subseteq P\) has an [[shared-foundations/upper-bound|upper bound]] in \(P\), then \(P\) has a maximal element.

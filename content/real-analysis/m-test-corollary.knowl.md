@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If the sum of supremum norms is finite, then the corresponding series of functions converges uniformly."
 aliases = ["m-test-corollary", "Corollary of the M-test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/uniform-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/m-test-corollary.md"
+prerequisites = ["real-analysis/uniform-convergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Corollary of the M-test.** Let \(E\) be a set and let \(f_n:E\to\mathbb R\) or \(f_n:E\to\mathbb C\) be bounded functions. If

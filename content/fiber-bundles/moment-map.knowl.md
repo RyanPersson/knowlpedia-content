@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map from a Hamiltonian Lie group action to the dual Lie algebra encoding infinitesimal symmetries of a symplectic form."
 aliases = ["moment-map", "Moment map"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/moment-map.md"
+prerequisites = ["fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting by symplectomorphisms on a manifold \(M\) equipped with a symplectic form \(\omega\) (a closed, nondegenerate 2-form), and let \(\mathfrak{g}\) be its Lie algebra.

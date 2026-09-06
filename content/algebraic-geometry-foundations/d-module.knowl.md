@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A quasi-coherent sheaf module over the sheaf of differential operators on a smooth algebraic variety."
 aliases = ["D-module", "D module"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/sheaf-of-differential-operators"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/sheaf-of-differential-operators", "algebraic-geometry-foundations/sheaf-of-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a smooth algebraic variety in characteristic \(0\). A

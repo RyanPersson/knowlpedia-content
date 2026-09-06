@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A realization of a generic representation using functions transforming by a nondegenerate character of a maximal unipotent subgroup."
 aliases = ["Whittaker functional", "generic representation", "Whittaker realization"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
-prerequisites = ["algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-fields-galois/local-field", "algebraic-geometry-foundations/borel-subgroup", "harmonic-analysis/unitary-character", "algebraic-geometry-foundations/unipotent-radical", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-fields-galois/local-field", "algebraic-geometry-foundations/borel-subgroup", "harmonic-analysis/unitary-character", "algebraic-geometry-foundations/unipotent-radical", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a

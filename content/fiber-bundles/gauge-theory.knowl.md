@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A field theory whose configurations carry local symmetries represented geometrically by gauge transformations."
 aliases = ["classical gauge theory", "geometric gauge theory"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **classical geometric gauge theory** on a manifold \(M\) specifies a [[fiber-bundles/principal-g-bundle|principal bundle]] \(P\to M\), a configuration space containing [[fiber-bundles/principal-connection|principal connections]] on \(P\) and possibly additional matter fields, and an action of the [[fiber-bundles/gauge-group|gauge group]] \(\mathcal G(P)\). Its equations, action functional, and observables are required to be invariant under this action. Configurations related by a [[fiber-bundles/gauge-transformation|gauge transformation]] represent the same physical or geometric state, so solutions are studied through their gauge-equivalence classes. This definition describes the classical bundle-theoretic framework; a particular gauge theory also fixes the structure group, field content, functional, boundary conditions, and regularity class.

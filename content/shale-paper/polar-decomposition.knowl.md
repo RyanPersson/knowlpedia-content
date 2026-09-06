@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Writing T as a unitary/orthogonal part times a positive part"
 aliases = ["polar-decomposition", "Polar Decomposition"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/polar-decomposition.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Any invertible bounded operator \(T\) on a Hilbert space has a **polar decomposition**

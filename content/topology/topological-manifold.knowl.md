@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A Hausdorff, second-countable space locally homeomorphic to a fixed Euclidean space."
 aliases = ["topological manifold", "topological n-manifold"]
 domains = ["topology", "fiber-bundles"]
-prerequisites = ["topology/topological-space", "topology/homeomorphism"]
+prerequisites = ["topology/topological-space", "topology/homeomorphism", "topology/hausdorff-space"]
+dependency_heuristic = "semantic-foundations-review-v1"
 dependency_review_count = 1
 +++
 

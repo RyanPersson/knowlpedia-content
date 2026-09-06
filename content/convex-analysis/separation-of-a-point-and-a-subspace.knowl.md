@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If a point has positive distance to a subspace, a bounded functional separates them."
 aliases = ["separation-of-a-point-and-a-subspace", "Separation of a Point and a Subspace"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/linear-subspace", "convex-analysis/bounded-linear-functional-norm-of-a-functional"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/separation-of-a-point-and-a-subspace.md"
+prerequisites = ["convex-analysis/linear-subspace", "convex-analysis/bounded-linear-functional-norm-of-a-functional"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Separation theorem.** Let \(X\) be a normed space over \(\mathbb K\in\{\mathbb R,\mathbb C\}\), let \(Y\subseteq X\) be a [[convex-analysis/linear-subspace|linear subspace]], and suppose \(x_0\in X\) has positive distance

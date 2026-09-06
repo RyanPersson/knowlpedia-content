@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A local system whose fibers carry Hodge structures varying holomorphically and satisfying Griffiths transversality."
 aliases = ["VHS"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-vector-bundle", "fiber-bundles/flat-vector-bundle-connection", "linear-algebra/bilinear-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "differential-geometry/holomorphic-vector-bundle", "fiber-bundles/flat-vector-bundle-connection", "linear-algebra/bilinear-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **real variation of Hodge structure of weight \(n\)** on a [[differential-geometry/complex-manifold|complex manifold]] \(S\) consists of a finite-rank real local system \(\mathbb V_{\mathbb R}\), its [[differential-geometry/holomorphic-vector-bundle|holomorphic bundle]] \(\mathcal V=\mathbb V_{\mathbb R}\otimes_{\mathbb R}\mathcal O_S\) with [[fiber-bundles/flat-vector-bundle-connection|flat connection]] \(\nabla\), and holomorphic subbundles forming a decreasing filtration \(F^\bullet\mathcal V\). At every \(s\in S\), the filtration defines a pure real Hodge structure of weight \(n\), and it satisfies **Griffiths transversality**

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The canonical representation of a group on the vector space with basis the group, via left multiplication."
 aliases = ["regular-representation", "Regular representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/regular-representation.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/group-algebra", "algebra-representation-theory/character", "algebra-representation-theory/irreducible-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group and \(k\) a field.

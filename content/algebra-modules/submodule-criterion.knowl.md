@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Closure conditions that characterize when a subset is a submodule."
 aliases = ["submodule-criterion", "Submodule criterion"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/submodule", "algebra-modules/module-axioms", "algebra-modules/module", "algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/submodule-criterion.md"
+prerequisites = ["algebra-modules/submodule", "algebra-modules/module-axioms", "algebra-modules/module", "algebra-rings/ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Submodule criterion**: Let \(M\) be an \(R\)-module and let \(N\subseteq M\) be a subset. Then \(N\) is a submodule of \(M\) if and only if:

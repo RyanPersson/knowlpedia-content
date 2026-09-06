@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A scheme locally modeled on spectra of ordered blueprints."
 aliases = ["ordered blueprint scheme", "ordered blue geometry"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
-prerequisites = ["algebraic-geometry-foundations/ordered-blueprinted-space", "algebraic-geometry-foundations/ordered-blueprint"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/ordered-blueprinted-space", "algebraic-geometry-foundations/ordered-blueprint"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **ordered blue scheme** is an [[algebraic-geometry-foundations/ordered-blueprinted-space|ordered blueprinted space]] that is locally isomorphic to an affine spectrum \(\operatorname{Spec}B\) of an [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \(B\).

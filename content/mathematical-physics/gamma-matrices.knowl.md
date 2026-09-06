@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Matrices representing Clifford multiplication in a chosen basis of a spinor module."
 aliases = ["Dirac gamma matrices", "Clifford matrices"]
 domains = ["mathematical-physics", "differential-geometry"]
-prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/clifford-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/clifford-module", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,g)\) be a finite-dimensional real or complex [[linear-algebra/quadratic-form|quadratic space]] with

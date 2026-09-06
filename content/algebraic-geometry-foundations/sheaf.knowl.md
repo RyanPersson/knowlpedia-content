@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A system of local data on open sets that can be uniquely glued when compatible."
 aliases = ["sheaf"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["topology/topological-space"]
-dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/sheaf.md"
+prerequisites = ["topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[topology/topological-space|topological space]]. A **sheaf** \(\mathcal F\) on \(X\) assigns an object \(\mathcal F(U)\) to every open set \(U\subseteq X\), together with restriction maps

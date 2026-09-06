@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A unital two-positive map bounds the product of an image by the image of the corresponding product."
 aliases = ["Schwarz inequality for positive maps", "Kadison inequality"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/n-positive-map", "operator-algebras/unital-completely-positive-map", "operator-algebras/positive-element", "linear-algebra/cauchy-schwarz-inequality"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/n-positive-map", "operator-algebras/unital-completely-positive-map", "operator-algebras/positive-element", "linear-algebra/cauchy-schwarz-inequality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be unital \(C^*\)-algebras and let \(\Phi:A\to B\) be a unital [[operator-algebras/n-positive-map|\(2\)-positive map]]. The **Kadison–Schwarz inequality** states that every \(a\in A\) satisfies

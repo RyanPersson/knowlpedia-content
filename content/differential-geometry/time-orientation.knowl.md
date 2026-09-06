@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A continuous choice of one component of the timelike cone on a Lorentzian manifold."
 aliases = []
 domains = ["differential-geometry", "mathematical-physics"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "linear-algebra/minkowski-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "linear-algebra/minkowski-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **time orientation** on a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] is a continuous choice, at every point, of one of the two connected components of the timelike cone. Equivalently, it is represented by a continuous timelike vector field; timelike vectors in the chosen component are **future-directed**, as are causal vectors in its closure. A manifold admitting such a choice is **time-orientable**.

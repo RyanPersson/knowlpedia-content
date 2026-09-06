@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The nth cohomology H^n(C) = ker(d^n)/im(d^{n-1}) of a cochain complex of modules."
 aliases = ["cohomology-module", "Cohomology module"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-rings/ring", "algebra-homological/cochain-complex", "algebra-modules/module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/cohomology-module.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/cochain-complex"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and let

@@ -5,9 +5,10 @@ kind = "construction"
 summary = "A chain of regular semisimple subalgebras obtained by deleting simple roots, terminating in the semisimple part of the Standard Model Lie algebra."
 aliases = ["exceptional chain to gSM", "E7 E6 D5 A4 A2+A1 chain", "en chain to the Standard Model"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/simple-root", "lie-groups/removing-a-simple-root", "lie-groups/regular-lie-subalgebra", "lie-groups/maximal-levi-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/cartan-subalgebra", "lie-groups/simple-root", "lie-groups/removing-a-simple-root", "lie-groups/regular-lie-subalgebra", "lie-groups/maximal-levi-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a compatible choice of [[lie-groups/cartan-subalgebra|Cartan subalgebra]] and [[lie-groups/simple-root|simple roots]] in \(\mathfrak e_7\), repeated [[lie-groups/removing-a-simple-root|simple-root removal]] gives a chain of [[lie-groups/regular-lie-subalgebra|regular semisimple Lie subalgebras]]

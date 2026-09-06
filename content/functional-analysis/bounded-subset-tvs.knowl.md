@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A subset that is eventually contained in every sufficiently large scalar multiple of each zero-neighborhood."
 aliases = ["von Neumann bounded set", "TVS-bounded set"]
 domains = ["functional-analysis", "topology"]
-prerequisites = ["functional-analysis/topological-vector-space", "topology/neighborhood", "convex-analysis/balanced-and-absorbing-sets"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/topological-vector-space", "topology/neighborhood", "convex-analysis/balanced-and-absorbing-sets"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[functional-analysis/topological-vector-space|topological vector space]] over \(\mathbb R\) or \(\mathbb C\). A subset \(B\subseteq X\) is **bounded** if every [[topology/neighborhood|neighborhood]] \(U\) of \(0\) [[convex-analysis/balanced-and-absorbing-sets|absorbs]] \(B\): there is \(r>0\) such that

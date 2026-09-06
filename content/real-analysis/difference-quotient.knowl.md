@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ratio (f(x)-f(a))/(x-a) measuring average rate of change from a to x."
 aliases = ["difference-quotient", "Difference quotient"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/difference-quotient.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:E\to\mathbb{R}\) (or \(\mathbb{C}\)) with \(E\subseteq\mathbb{R}\). For \(a\in E\) and \(x\in E\) with \(x\ne a\), the **difference quotient** of \(f\) at \((a,x)\) is

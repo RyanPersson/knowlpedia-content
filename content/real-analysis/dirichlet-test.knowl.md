@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convergence test for sums of products using bounded partial sums and monotone factors."
 aliases = ["dirichlet-test", "Dirichlet test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partial-sums", "real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/dirichlet-test.md"
+prerequisites = ["real-analysis/partial-sums", "real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Dirichlet test:** Consider a series \(\sum_{n=1}^\infty a_n b_n\), where \(a_n\) may be real or complex and \(b_n\) is real. Let

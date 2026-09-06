@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A module map between Hilbert C*-modules that admits an adjoint with respect to their module-valued inner products."
 aliases = ["adjointable module map", "L(E,F)"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/hilbert-cstar-module"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/hilbert-cstar-module", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) and \(F\) be right

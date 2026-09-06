@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module over an integral domain with no nonzero torsion elements."
 aliases = ["torsion-free-module", "Torsion-free module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module", "algebra-modules/torsion-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/torsion-free-module.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module", "algebra-modules/torsion-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]] and \(M\) an \(R\)-[[algebra-modules/module|module]]. The module \(M\) is **torsion-free** if its only [[algebra-modules/torsion-element|torsion element]] is \(0\), i.e. if \(rm=0\) with \(0\ne r\in R\) forces \(m=0\).

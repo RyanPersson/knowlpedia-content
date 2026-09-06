@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compatible locally finite action of a complexified Lie algebra and a compact subgroup."
 aliases = ["Harish-Chandra pair module", "compatible Lie algebra and compact-group module"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "linear-algebra/vector-space", "lie-groups/representation-of-a-lie-algebra", "lie-groups/k-finite-vector"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "linear-algebra/vector-space", "lie-groups/representation-of-a-lie-algebra", "lie-groups/k-finite-vector"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a real [[fiber-bundles/lie-group|Lie group]], \(K\subseteq G\) a compact subgroup with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak k_0\), and \(\mathfrak g=\operatorname{Lie}(G)\otimes_{\mathbb R}\mathbb C\). A **\((\mathfrak g,K)\)-module** is a complex [[linear-algebra/vector-space|vector space]] \(V\) with a [[lie-groups/representation-of-a-lie-algebra|\(\mathfrak g\)-module]] structure and a \(K\)-action such that every vector is [[lie-groups/k-finite-vector|\(K\)-finite]], the differential of the \(K\)-action equals the restricted \(\mathfrak k_0\)-action, and

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The supremum of lengths of chains of prime ideals in a ring (equivalently, the dimension of its prime spectrum)."
 aliases = ["krull-dimension", "Krull dimension"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/krull-dimension.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a nonzero [[algebra-rings/commutative-ring|commutative ring]]. The **Krull dimension** of \(R\), denoted \(\dim R\), is the supremum of the integers \(n\ge 0\) for which there exists a strictly increasing chain of prime ideals

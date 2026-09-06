@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A symplectic leaf is a maximal connected integral manifold of the characteristic distribution of a Poisson manifold."
 aliases = ["leaf of a Poisson manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/poisson-manifold", "differential-geometry/immersed-submanifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/poisson-manifold", "differential-geometry/immersed-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\pi)\) be a [[differential-geometry/poisson-manifold|Poisson manifold]], and define its characteristic subspace at \(p\) by

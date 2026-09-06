@@ -6,6 +6,9 @@ summary = "A TikZ-heavy test knowl for pullback pasting diagrams and surrounding
 aliases = ["tikz-lab-pullback-pasting", "TikZ lab: pullback pasting"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/tikz-lab-pullback-pasting.md"
+prerequisites = ["algebra-category-theory/pullback", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A separated finite-type scheme of pure dimension one over a field."
 aliases = ["algebraic curve"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme-over-a-base"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/scheme-over-a-base"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In this knowl, an **algebraic curve** over a field \(k\) is a separated

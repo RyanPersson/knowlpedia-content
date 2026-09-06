@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Parallel transport along a concatenated path equals the composition of parallel transports along the two pieces."
 aliases = ["proposition-parallel-transport-respects-concatenation-of-paths", "Parallel transport respects concatenation of paths"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/proposition-parallel-transport-respects-concatenation-of-paths.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\). For a piecewise smooth path \(\gamma:[0,1]\to M\), write

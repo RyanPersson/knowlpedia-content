@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The unitary representation acting diagonally on the completed Hilbert tensor product of two representation spaces."
 aliases = ["Hilbert tensor product representation"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
-prerequisites = ["topology/topological-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/unitary-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/topological-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "linear-algebra/inner-product", "functional-analysis/unitary-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/topological-group|topological group]], and let \(\pi:G\to\mathcal U(\mathcal H)\) and \(\sigma:G\to\mathcal U(\mathcal K)\) be [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representations]] on complex [[linear-algebra/hilbert-space|Hilbert spaces]]. Their **tensor product representation** is the homomorphism

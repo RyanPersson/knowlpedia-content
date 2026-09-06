@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The complete ordered number system containing the rationals."
 aliases = ["real-numbers", "Real numbers"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/rational-numbers", "shared-foundations/total-order", "shared-foundations/upper-bound"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/real-numbers.md"
+prerequisites = ["shared-foundations/rational-numbers", "shared-foundations/total-order", "shared-foundations/upper-bound"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **real numbers** are a [[shared-foundations/set|set]] \(\mathbb{R}\) containing \(\mathbb{Q}\) (the [[shared-foundations/rational-numbers|rational numbers]]), equipped with operations \(+\) and \(\cdot\) and a [[shared-foundations/total-order|total order]] \(\le\) such that:

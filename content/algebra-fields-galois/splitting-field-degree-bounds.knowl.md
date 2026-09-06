@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The splitting field of a separable degree-n polynomial has degree at most n! over the base field."
 aliases = ["splitting-field-degree-bounds", "Degree bounds for splitting fields"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/algebraic-closure", "algebra-fields-galois/separable-distinct-roots", "algebra-fields-galois/splitting-field", "algebra-fields-galois/galois-extension", "algebra-fields-galois/separable-normal-galois"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field-degree-bounds.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/separable-distinct-roots", "algebra-fields-galois/splitting-field", "algebra-fields-galois/galois-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a [[algebra-rings/field|field]] and let \(f(x)\in K[x]\) be a separable polynomial of degree \(n\) (equivalently, \(f\) has distinct roots in an [[algebra-fields-galois/algebraic-closure|algebraic closure]]; see [[algebra-fields-galois/separable-distinct-roots|separable ⇔ distinct roots]]). Let \(L\) be the [[algebra-fields-galois/splitting-field|splitting field]] of \(f\) over \(K\). Then \(L/K\) is finite, normal, and separable, hence [[algebra-fields-galois/galois-extension|Galois]] (see [[algebra-fields-galois/separable-normal-galois|separable + normal = Galois]]).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A twice continuously differentiable real function has equal mixed second partial derivatives."
 aliases = ["c2-implies-equal-mixed-partials", "C^2 implies equal mixed partials"]
 domains = ["real-analysis"]
-prerequisites = ["topology/open-set", "real-analysis/class-ck-map"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/c2-implies-equal-mixed-partials.md"
+prerequisites = ["topology/open-set", "real-analysis/class-ck-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U\subseteq\mathbb R^n\) be [[topology/open-set|open]] and \(f:U\to\mathbb R\) be of [[real-analysis/class-ck-map|class \(C^2\)]]. Then for every \(a\in U\) and all indices \(i,j\),

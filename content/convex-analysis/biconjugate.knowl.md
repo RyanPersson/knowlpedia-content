@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Fenchel conjugate of a function's conjugate, central to lower-semicontinuous convex relaxation."
 aliases = ["biconjugate"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/closed-convex-function"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/biconjugate.md"
+prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/closed-convex-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **biconjugate** of an extended-real-valued [[shared-foundations/function|function]] \(f:\mathbb{R}^n\to(-\infty,+\infty]\) is the function

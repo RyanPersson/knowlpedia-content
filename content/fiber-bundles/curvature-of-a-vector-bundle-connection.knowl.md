@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The obstruction to commuting covariant derivatives, yielding an endomorphism-valued 2-form."
 aliases = ["curvature-of-a-vector-bundle-connection", "Curvature of a vector bundle connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/lie-bracket", "fiber-bundles/differential-k-form"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/curvature-of-a-vector-bundle-connection.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/lie-bracket", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\). Let \(X,Y\) be smooth [[fiber-bundles/vector-field|vector fields]] on \(M\), and let \(s\) be a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of \(E\).

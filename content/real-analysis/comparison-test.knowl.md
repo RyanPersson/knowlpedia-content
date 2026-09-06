@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonnegative series is controlled by a larger or smaller nonnegative series."
 aliases = ["comparison-test", "Comparison Test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/convergent-series", "real-analysis/divergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/comparison-test.md"
+prerequisites = ["real-analysis/series", "real-analysis/convergent-series", "real-analysis/divergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Comparison test:** Let \(\sum_{n=1}^\infty a_n\) and \(\sum_{n=1}^\infty b_n\) be [[real-analysis/series|series]] with \(a_n\ge 0\) and \(b_n\ge 0\) for all \(n\).

@@ -5,9 +5,10 @@ kind = "construction"
 summary = "A complex vector space regarded as a real vector space by restriction of scalars."
 aliases = ["underlying real vector space", "restriction of scalars from complex to real"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a complex [[linear-algebra/vector-space|vector space]]. Its **realification** \(V_{\mathbb R}\) is the same additive group, regarded as a real vector space by restricting scalar multiplication along \(\mathbb R\hookrightarrow\mathbb C\). If \(\dim_{\mathbb C}V=n<\infty\), then

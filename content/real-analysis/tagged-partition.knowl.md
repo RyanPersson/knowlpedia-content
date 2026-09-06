@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A partition together with a chosen sample point in each subinterval."
 aliases = ["tagged-partition", "Tagged partition"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/tagged-partition.md"
+prerequisites = ["real-analysis/partition-of-an-interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **tagged partition** of \([a,b]\) is a [[real-analysis/partition-of-an-interval|partition]] \(P=\{x_0,\dots,x_n\}\) together with a choice of points (tags) \(t_i\in[x_{i-1},x_i]\) for each \(i=1,\dots,n\). It is often denoted \((P,\{t_i\}_{i=1}^n)\).

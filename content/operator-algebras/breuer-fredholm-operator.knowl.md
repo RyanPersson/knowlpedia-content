@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An operator in a semifinite von Neumann algebra that is invertible modulo the ideal of trace-compact operators."
 aliases = ["tau-Fredholm operator", "semifinite Fredholm operator"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/faithful-normal-semifinite-trace", "operator-algebras/tau-compact-operator", "functional-analysis/fredholm-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/semifinite-von-neumann-algebra", "operator-algebras/faithful-normal-semifinite-trace", "operator-algebras/tau-compact-operator", "functional-analysis/fredholm-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal M\subseteq B(H)\) be a

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A completely positive map that sends orthogonal positive elements to orthogonal positive elements."
 aliases = ["order zero map", "orthogonality-preserving CP map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/completely-positive-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/completely-positive-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]].

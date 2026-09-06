@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subcategory that contains every morphism of the ambient category between its objects."
 aliases = ["full-subcategory", "Full Subcategory"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/subcategory", "algebra-category-theory/morphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/full-subcategory.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/subcategory"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and \(\mathcal D\) a [[algebra-category-theory/subcategory|subcategory]] of \(\mathcal C\).

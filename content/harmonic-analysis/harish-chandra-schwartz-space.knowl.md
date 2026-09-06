@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Fréchet space of smooth functions on a real reductive group whose invariant derivatives decay relative to the Harish-Chandra Xi-function."
 aliases = ["Harish-Chandra space", "Harish-Chandra Schwartz functions"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/universal-enveloping-algebra", "lie-groups/lie-algebra", "harmonic-analysis/harish-chandra-xi-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/universal-enveloping-algebra", "lie-groups/lie-algebra", "harmonic-analysis/harish-chandra-xi-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set that can be covered by countably many rectangles (or balls) with arbitrarily small total volume."
 aliases = ["set-of-measure-zero-in-rk", "Set of measure zero in ℝ^k"]
 domains = ["measure-theory"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "measure-theory/set-of-measure-zero-in-rk.md"
+prerequisites = ["measure-theory/lebesgue-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A set \(N\subseteq\mathbb R^k\) has **Lebesgue measure zero**, or is a **null set**, if for every \(\varepsilon>0\) there is a countable collection of \(k\)-dimensional boxes \(\{R_n\}_{n=1}^\infty\) such that

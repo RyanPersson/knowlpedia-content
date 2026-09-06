@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The eventual upper limiting value of a real sequence."
 aliases = ["limit-superior", "Limit superior"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/limit-superior.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **limit superior** of a real sequence \((a_n)_{n\ge 1}\) is the extended real number

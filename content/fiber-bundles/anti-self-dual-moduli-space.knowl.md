@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The gauge-equivalence classes of anti-self-dual connections on a fixed principal bundle over an oriented Riemannian four-manifold."
 aliases = ["instanton moduli space", "ASD connection moduli"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group", "fiber-bundles/instanton"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group", "fiber-bundles/instanton"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented [[differential-geometry/riemannian-manifold|Riemannian]] four-manifold. Write \(\mathcal A(P)\) for its connections and \(\mathcal G(P)\) for its [[fiber-bundles/gauge-group|gauge group]]. The **anti-self-dual moduli space** is

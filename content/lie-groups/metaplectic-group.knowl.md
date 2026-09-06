@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The connected double cover of the real symplectic group."
 aliases = ["real metaplectic group", "Mp(2n,R)", "metaplectic double cover"]
 domains = ["lie-groups", "differential-geometry", "harmonic-analysis"]
-prerequisites = ["lie-groups/symplectic-group", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/symplectic-group", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **metaplectic group** \(\operatorname{Mp}(2n,\mathbb R)\) is the connected two-sheeted covering group of the [[lie-groups/symplectic-group|real symplectic group]] \(\operatorname{Sp}(2n,\mathbb R)\). It fits into the central extension

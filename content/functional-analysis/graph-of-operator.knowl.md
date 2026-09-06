@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The subspace of a product space consisting of each domain vector paired with its image."
 aliases = ["operator graph"]
 domains = ["functional-analysis", "linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "topology/product-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "functional-analysis/densely-defined-operator", "topology/product-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:D(T)\subseteq X\to Y\) be a linear operator between [[linear-algebra/vector-space|vector spaces]]. Its **graph** is the [[convex-analysis/linear-subspace|linear subspace]]

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The inclusion and intersection relations among H, SH, PSH, and PH on a complex domain."
 aliases = ["H SH PSH PH relations", "harmonic plurisubharmonic Venn diagram"]
 domains = ["complex-analysis", "several-complex-variables", "potential-theory"]
-prerequisites = ["complex-analysis/harmonic-function", "complex-analysis/subharmonic-function", "complex-analysis/plurisubharmonic-function", "complex-analysis/pluriharmonic-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/harmonic-function", "complex-analysis/subharmonic-function", "complex-analysis/plurisubharmonic-function", "complex-analysis/pluriharmonic-function", "linear-algebra/hermitian-matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On a domain \(U\subseteq\mathbb C^d\), let \(H\), \(SH\), \(PSH\), and

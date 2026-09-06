@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Monotonicity, idempotence, and compatibility with finite unions"
 aliases = ["basic-properties-of-the-closure-operator", "Basic properties of closure"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/closed-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/basic-properties-of-the-closure-operator.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/closed-subset", "convex-analysis/closure-of-a-set", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A smooth map of locally constant rank has coordinates in which it is a coordinate projection followed by a coordinate inclusion."
 aliases = ["rank theorem for smooth maps", "constant-rank normal form"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "differential-geometry/rank-of-a-smooth-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "differential-geometry/rank-of-a-smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M^m\to N^n\) be a [[fiber-bundles/smooth-map|smooth map]], and suppose its [[differential-geometry/rank-of-a-smooth-map|rank]] is constantly \(r\) on a neighborhood of \(p\in M\). The **constant rank theorem** states that there are smooth coordinate charts \(\varphi\) about \(p\) and \(\psi\) about \(f(p)\), both centered at the origin, such that

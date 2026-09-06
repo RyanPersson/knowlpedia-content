@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A topological bundle of C*-algebras whose fiber norm is upper semicontinuous."
 aliases = ["upper semicontinuous C*-algebra bundle", "USC C*-bundle"]
 domains = ["operator-algebras", "topology"]
-prerequisites = ["topology/topological-space", "operator-algebras/cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-space", "operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **upper-semicontinuous \(C^*\)-bundle** over a [[topology/topological-space|topological space]] \(X\) is an open continuous surjection \(p\colon\mathcal A\to X\) whose fiber \(\mathcal A_x=p^{-1}(x)\) is a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. Fiberwise addition, scalar multiplication, multiplication, and involution are continuous, while \(a\mapsto\lVert a\rVert\) is upper semicontinuous. The zero elements satisfy the convergence axiom: if \(p(a_i)\to x\) and \(\lVert a_i\rVert\to0\), then \(a_i\to0_x\).

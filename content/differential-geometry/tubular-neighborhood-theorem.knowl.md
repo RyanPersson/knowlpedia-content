@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Every embedded submanifold has a neighborhood modeled on a neighborhood of the zero section in its normal bundle."
 aliases = ["tubular neighborhood existence theorem"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/tubular-neighborhood", "fiber-bundles/zero-section", "differential-geometry/normal-bundle", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/tubular-neighborhood", "fiber-bundles/zero-section", "differential-geometry/normal-bundle", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\subseteq M\) be an [[differential-geometry/embedded-submanifold|embedded submanifold]] of a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **tubular neighborhood theorem** states that \(S\) admits a [[differential-geometry/tubular-neighborhood|tubular neighborhood]]: some open neighborhood of the [[fiber-bundles/zero-section|zero section]] in the [[differential-geometry/normal-bundle|normal bundle]] \(\nu(S\subset M)\) is [[fiber-bundles/diffeomorphism|diffeomorphic]] to an open neighborhood of \(S\) in \(M\), and the diffeomorphism restricts to the inclusion on the zero section. No compactness hypothesis on \(S\) is needed; for noncompact \(S\), the allowable radius in the normal directions may vary from point to point.

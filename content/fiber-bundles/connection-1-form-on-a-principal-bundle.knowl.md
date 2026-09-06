@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Definition of a principal connection 1-form and the horizontal distribution it determines."
 aliases = ["connection-1-form-on-a-principal-bundle", "Connection 1-form on a principal bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/vertical-subbundle", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/connection-1-form-on-a-principal-bundle.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/reproduction-property-x", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/vertical-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] (with the [[fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p|standard right action convention]]), and let \(\mathfrak g\) be the [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra]] of \(G\).

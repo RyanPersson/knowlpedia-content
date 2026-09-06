@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The reconstruction axiom requiring the smooth spinor domain to be finite projective and its Hilbert product to arise from noncommutative integration."
 aliases = ["finiteness axiom", "absolute-continuity axiom"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/noncommutative-integral"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/regular-spectral-triple", "noncommutative-geometry/noncommutative-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,H,D)\) be a \(p\)-dimensional [[noncommutative-geometry/regular-spectral-triple|regular spectral triple]] and set \(H^\infty=\bigcap_{k\geq1}\operatorname{Dom}D^k\). It satisfies the **finiteness and absolute-continuity axiom** when \(H^\infty\) is a finitely generated projective left \(\mathcal A\)-module and carries an \(\mathcal A\)-valued Hermitian pairing \((\cdot\mid\cdot)_{\mathcal A}\) for which

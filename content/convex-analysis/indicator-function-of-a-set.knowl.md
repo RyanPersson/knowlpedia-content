@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The extended-real function that is zero on a set and positive infinity outside it."
 aliases = ["indicator-function-of-a-set", "Indicator function of a set"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/extended-real-number-system-and-conventions", "convex-analysis/domain-and-epigraph-proper-function"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/indicator-function-of-a-set.md"
+prerequisites = ["convex-analysis/extended-real-number-system-and-conventions", "convex-analysis/domain-and-epigraph-proper-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a set and let \(\Omega\subseteq X\). The **indicator function** of \(\Omega\) is the [[convex-analysis/extended-real-number-system-and-conventions|extended-real-valued]] function \(\delta_\Omega:X\to(-\infty,+\infty]\) defined by

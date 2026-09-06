@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonnegative derivative forces a function to be nondecreasing, and a nonpositive derivative forces it to be nonincreasing."
 aliases = ["derivative-sign-implies-monotonicity", "Derivative sign implies monotonicity"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/derivative-sign-implies-monotonicity.md"
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Derivative sign implies monotonicity:** Let \(I\subseteq\mathbb{R}\) be an [[real-analysis/interval|interval]], and let \(f:I\to\mathbb{R}\) be [[real-analysis/differentiability-1d|differentiable]] on \(I\).

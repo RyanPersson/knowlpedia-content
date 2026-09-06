@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The principal O(n)-bundle of orthonormal frames determined by a bundle metric on a real rank-n bundle."
 aliases = ["orthonormal-frame-bundle-reduction-of-the-frame-bundle", "Orthonormal frame bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/bundle-metric", "fiber-bundles/principal-g-bundle"]
-dependency_review_count = 4
 legacy_source_path = "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/bundle-metric", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a real rank-\(n\) vector bundle over a [[fiber-bundles/smooth-manifold|smooth manifold]], equipped with a [[fiber-bundles/bundle-metric|bundle metric]] \(\langle\cdot,\cdot\rangle\). Its **orthonormal frame bundle** is

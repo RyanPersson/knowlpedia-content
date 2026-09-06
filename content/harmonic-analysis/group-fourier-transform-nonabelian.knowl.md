@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The operator-valued transform obtained by integrating a function against each irreducible unitary representation of a locally compact group."
 aliases = ["operator-valued Fourier transform", "Fourier transform on a type I group"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/unitary-dual", "harmonic-analysis/integrated-form-unitary-representation", "linear-algebra/operator-norm", "lie-groups/type-i-locally-compact-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/unitary-dual", "harmonic-analysis/integrated-form-unitary-representation", "linear-algebra/operator-norm", "lie-groups/type-i-locally-compact-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] with a

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An embedded submanifold on which the ambient symplectic form restricts nondegenerately."
 aliases = ["nondegenerate submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/symplectic-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/symplectic-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] and let \(\iota:S\hookrightarrow M\) be a [[fiber-bundles/smooth-embedding|smooth embedding]]. The image, or equivalently \(S\) with this embedding, is a **symplectic submanifold** if the pulled-back form

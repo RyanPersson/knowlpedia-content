@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth manifold whose underlying topological space is paracompact, enabling global constructions via partitions of unity."
 aliases = ["paracompact-manifold", "Paracompact manifold"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/paracompact-topological-space"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/paracompact-manifold.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/paracompact-topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is called **paracompact** if its underlying topological space is [[fiber-bundles/paracompact-topological-space|paracompact]] (and, in the usual manifold conventions, Hausdorff).

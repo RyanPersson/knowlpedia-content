@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A free proper Hamiltonian action reduces a regular zero level to a symplectic manifold of dimension lowered by twice the group dimension."
 aliases = ["symplectic reduction theorem", "regular reduction theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "fiber-bundles/regular-value", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "fiber-bundles/regular-value", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a \(k\)-dimensional [[fiber-bundles/lie-group|Lie group]] \(G\) act freely and properly on a \(2n\)-dimensional [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\) by a [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian action]] with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\). If \(0\) is a [[fiber-bundles/regular-value|regular value]], then

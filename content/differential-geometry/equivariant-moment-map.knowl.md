@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A moment map that intertwines a Lie group action with the coadjoint action on the dual Lie algebra."
 aliases = ["coadjoint-equivariant moment map"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "fiber-bundles/coadjoint-action-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/moment-map", "fiber-bundles/coadjoint-action-of-a-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[fiber-bundles/lie-group|Lie group]] \(G\) act symplectically on \((M,\omega)\), and let \(\mu:M\to\mathfrak g^*\) be a [[fiber-bundles/moment-map|moment map]]. It is an **equivariant moment map** if

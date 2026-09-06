@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The change-of-coordinates map between the Euclidean images of two overlapping manifold charts."
 aliases = ["change of coordinates", "coordinate change", "chart transition map", "coordinate transformation"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-compatibility-of-charts-and-atlases"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-chart-coordinate-chart", "shared-foundations/composition", "shared-foundations/inverse-function"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((U,\varphi)\) and \((V,\psi)\) be coordinate charts on the same

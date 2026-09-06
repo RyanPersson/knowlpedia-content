@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "When char(k) does not divide |G|, the group algebra is semisimple and the regular representation splits into irreducibles with multiplicity equal to dimension."
 aliases = ["maschke-corollary", "Maschke corollary (regular representation decomposition)"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/irreducible-representation", "algebra-representation-theory/regular-representation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/maschke-corollary.md"
+prerequisites = ["algebra-representation-theory/irreducible-representation", "algebra-representation-theory/regular-representation", "algebra-representation-theory/maschkes-theorem", "algebra-representation-theory/group-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group and \(k\) an algebraically closed field such that \(\operatorname{char}(k)\nmid |G|\). Let \(\{V_1,\dots,V_r\}\) be representatives of the isomorphism classes of finite-dimensional [[algebra-representation-theory/irreducible-representation|irreducible representations]] of \(G\), and set \(d_i=\dim_k V_i\). Then the [[algebra-representation-theory/regular-representation|regular representation]] decomposes as a left \(k[G]\)-module:

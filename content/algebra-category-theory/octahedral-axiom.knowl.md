@@ -6,6 +6,7 @@ summary = "The triangle axiom coherently relating cones of two composable morphi
 aliases = ["octahedral axiom", "octahedron axiom", "TR4"]
 domains = ["algebra-category-theory", "algebra-homological"]
 prerequisites = ["algebra-category-theory/pretriangulated-category", "algebra-category-theory/distinguished-triangle"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A semiring with a partial order compatible with addition and multiplication."
 aliases = ["partially ordered semiring", "ordered commutative semiring"]
 domains = ["algebra-rings", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-rings/semiring", "shared-foundations/partial-order"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/semiring", "shared-foundations/partial-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **ordered semiring** is a [[algebra-rings/semiring|semiring]] \(R\) equipped with a [[shared-foundations/partial-order|partial order]] \(\leq\) such that

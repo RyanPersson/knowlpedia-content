@@ -5,10 +5,10 @@ kind = "construction"
 summary = "The rank-k vector bundle over a Grassmannian whose fiber over a k-plane is that plane itself."
 aliases = ["universal subbundle", "tautological subbundle"]
 domains = ["differential-geometry", "fiber-bundles"]
-prerequisites = ["linear-algebra/vector-space", "differential-geometry/grassmannian", "fiber-bundles/vector-bundle", "fiber-bundles/vector-subbundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "differential-geometry/grassmannian", "fiber-bundles/vector-bundle", "fiber-bundles/vector-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional real or complex [[linear-algebra/vector-space|vector space]] and let \(\operatorname{Gr}_k(V)\) be its [[differential-geometry/grassmannian|Grassmannian]]. The **tautological bundle** is

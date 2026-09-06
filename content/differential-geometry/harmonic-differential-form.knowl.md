@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A differential form annihilated by the Hodge Laplacian of a Riemannian metric."
 aliases = ["harmonic form"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/hodge-laplacian", "differential-geometry/codifferential"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/hodge-laplacian", "differential-geometry/codifferential"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be an oriented

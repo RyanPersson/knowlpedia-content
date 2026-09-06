@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every finite-dimensional smooth real supermanifold is noncanonically split."
 aliases = ["Batchelor-Gawedzki theorem", "smooth splitting theorem for supermanifolds"]
 domains = ["supergeometry"]
-prerequisites = ["supergeometry/supermanifold", "fiber-bundles/vector-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/supermanifold", "fiber-bundles/vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a finite-dimensional smooth real

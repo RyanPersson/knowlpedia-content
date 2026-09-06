@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A symplectic manifold whose symplectic form is the exterior derivative of a global one-form."
 aliases = ["exact symplectic form"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/exact-differential-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/exact-differential-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **exact symplectic manifold** is a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\) for which there exists a global one-form \(\lambda\in\Omega^1(M)\) satisfying

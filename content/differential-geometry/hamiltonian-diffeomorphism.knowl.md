@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A symplectomorphism obtained as the time-one map of a Hamiltonian isotopy."
 aliases = ["Hamiltonian symplectomorphism"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/time-dependent-hamiltonian-system", "differential-geometry/hamiltonian-isotopy"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/time-dependent-hamiltonian-system", "differential-geometry/hamiltonian-isotopy"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. A **Hamiltonian diffeomorphism** is a diffeomorphism \(\phi:M\to M\) for which there is a smooth Hamiltonian \(H:[0,1]\times M\to\mathbb R\) whose [[differential-geometry/time-dependent-hamiltonian-system|time-dependent Hamiltonian flow]] \(\phi_H^t\) exists for every \(t\in[0,1]\), begins at \(\phi_H^0=\operatorname{id}_M\), and satisfies \(\phi=\phi_H^1\). Equivalently, \(\phi\) is the endpoint of a [[differential-geometry/hamiltonian-isotopy|Hamiltonian isotopy]].

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C_0(X)-algebra whose quotient-fiber norms are continuous functions of the base point."
 aliases = ["continuous C*-algebra over X"]
 domains = ["operator-algebras", "topology"]
-prerequisites = ["topology/hausdorff-space", "operator-algebras/c0-x-algebra", "operator-algebras/fiber-c0-x-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/hausdorff-space", "operator-algebras/c0-x-algebra", "operator-algebras/fiber-c0-x-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a locally compact [[topology/hausdorff-space|Hausdorff space]] and let \(A\) be a [[operator-algebras/c0-x-algebra|\(C_0(X)\)-algebra]]. For \(x\in X\), write \(A_x\) for its [[operator-algebras/fiber-c0-x-algebra|quotient fiber]] and \(a(x)\) for the image of \(a\in A\). The algebra \(A\) is a **continuous \(C_0(X)\)-algebra** when

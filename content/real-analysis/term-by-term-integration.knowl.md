@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Inside its radius of convergence, a power series can be integrated by integrating each term."
 aliases = ["term-by-term-integration", "Term-by-term integration of a power series"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/power-series", "real-analysis/power-series-uniform-convergence-on-compacts", "real-analysis/uniform-convergence-integration", "real-analysis/riemann-integral"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/term-by-term-integration.md"
+prerequisites = ["real-analysis/power-series", "real-analysis/power-series-uniform-convergence-on-compacts", "real-analysis/uniform-convergence-integration", "real-analysis/riemann-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Term-by-term integration (power series):** Let \(\sum_{n=0}^\infty a_n(x-x_0)^n\) be a [[real-analysis/power-series|power series]] with radius of convergence \(R>0\), and define

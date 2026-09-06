@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An infinitesimal generator is the vector field obtained by differentiating a one-parameter subgroup acting on a manifold."
 aliases = ["fundamental vector field", "infinitesimal action"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/vector-field", "linear-algebra/linear-map", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/vector-field", "linear-algebra/linear-map", "lie-groups/lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act smoothly on \(M\) from the left through a [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth Lie group action]], and let \(\mathfrak{g}\) be the [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of \(G\)]]. For \(\xi\in\mathfrak{g}\), its **infinitesimal generator** is the [[fiber-bundles/vector-field|vector field]]

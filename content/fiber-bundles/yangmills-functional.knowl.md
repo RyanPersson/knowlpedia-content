@@ -5,22 +5,23 @@ kind = "knowl"
 summary = "The energy of a connection defined as the L2 norm of its curvature on a Riemannian manifold."
 aliases = ["yangmills-functional", "Yang–Mills functional"]
 domains = ["fiber-bundles"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/yangmills-functional.md"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with an \(\mathrm{Ad}\)-invariant positive-definite inner product on its Lie algebra (as for a compact structure group), and let \(\pi\colon P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
 
-Fix a [[fiber-bundles/principal-connection|principal connection]] \(A\) on \(P\) with [[fiber-bundles/curvature|curvature]] \(F_A\in \Omega^2(M;\mathrm{Ad}(P))\).
+Fix a [[fiber-bundles/principal-connection|principal connection]] \(A\) on \(P\) with [[fiber-bundles/curvature|curvature]] \(F_A\in \Omega^2(M;\operatorname{ad}(P))\).
 
-## Definition (Yang–Mills functional)
 The **Yang–Mills functional** is
 \[
 \mathrm{YM}(A) := \frac12\int_M |F_A|^2\,\mathrm{vol}_g,
 \]
-equivalently \(\mathrm{YM}(A)=\frac12\int_M \langle F_A\wedge *F_A\rangle\) using the Hodge star of the Riemannian metric and the chosen inner product.
+## Equivalent formula and properties
+
+Equivalently, \(\mathrm{YM}(A)=\frac12\int_M \langle F_A\wedge *F_A\rangle\) using the Hodge star of the Riemannian metric and the chosen inner product.
 
 It is invariant under gauge transformations of \(P\), so it descends to a functional on the moduli space of connections modulo gauge.
 

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A norm-one positive linear functional on a C*-algebra."
 aliases = ["C*-state", "algebraic state", "normalized positive functional"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "operator-algebras/von-neumann-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A

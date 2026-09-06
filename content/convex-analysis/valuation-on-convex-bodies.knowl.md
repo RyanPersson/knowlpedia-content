@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A finitely additive functional on convex bodies, with continuity and symmetry as additional properties."
 aliases = ["convex-body valuation", "continuous translation-invariant valuation", "valuation on convex sets"]
 domains = ["convex-analysis", "integral-geometry"]
-prerequisites = ["convex-analysis/convex-body", "linear-algebra/vector-space", "algebra-groups/abelian-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["convex-analysis/convex-body", "linear-algebra/vector-space", "algebra-groups/abelian-group", "topology/hausdorff-distance"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal K(V)\) be the family of

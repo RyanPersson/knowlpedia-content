@@ -5,10 +5,10 @@ kind = "definition"
 summary = "Local holomorphic coefficients transforming by the Schwarzian cocycle on a Riemann surface."
 aliases = ["projective connection", "complex projective connection"]
 domains = ["complex-analysis", "differential-geometry", "projective-geometry"]
-prerequisites = ["differential-geometry/riemann-surface", "complex-analysis/schwarzian-derivative"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemann-surface", "complex-analysis/schwarzian-derivative", "complex-analysis/schwarzian-chain-rule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/riemann-surface|Riemann surface]] with local coordinates \(z\). In the convention of this knowl, a **holomorphic projective connection** is a collection of holomorphic functions \(R_z\), one in each coordinate, such that under a change of coordinate \(w=w(z)\),

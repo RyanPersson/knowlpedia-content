@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The determinant-Hessian measure of a continuous octonionic plurisubharmonic function on the octonionic plane."
 aliases = ["octonionic Monge-Ampere operator", "octonionic Hessian measure"]
 domains = ["complex-analysis", "octonionic-analysis", "potential-theory"]
-prerequisites = ["complex-analysis/octonionic-plurisubharmonic-function", "nonassociative-algebra/octonionic-two-by-two-determinant", "nonassociative-algebra/octonionic-spin-factor"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/octonionic-plurisubharmonic-function", "complex-analysis/octonionic-hessian", "nonassociative-algebra/octonionic-two-by-two-determinant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a \(C^2\) [[complex-analysis/octonionic-plurisubharmonic-function|

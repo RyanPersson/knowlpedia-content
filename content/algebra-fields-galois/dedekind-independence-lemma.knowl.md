@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Distinct K-embeddings of a field are linearly independent as functions."
 aliases = ["dedekind-independence-lemma", "Dedekind independence lemma"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/field-embedding", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/dedekind-independence-lemma.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/field-embedding", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K \subseteq L\) be a [[algebra-fields-galois/field-extension|field extension]], and let \(\Omega\) be a field containing (identified copies of) the images of \(L\) under the embeddings below. If

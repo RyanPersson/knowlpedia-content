@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie algebra with no nonzero solvable ideals; equivalently, one with nondegenerate Killing form (char 0)."
 aliases = ["semisimple-lie-algebra", "Semisimple Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/solvable-lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/simple-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/semisimple-lie-algebra.md"
+prerequisites = ["lie-groups/solvable-lie-algebra", "lie-groups/ideal-lie-algebra", "lie-groups/killing-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A finite-dimensional Lie algebra \(\mathfrak g\) (over a field of characteristic \(0\)) is **semisimple** if it has no nonzero solvable ideals. Equivalently, if \(\mathrm{Rad}(\mathfrak g)\) denotes the solvable radical, then \(\mathfrak g\) is semisimple exactly when \(\mathrm{Rad}(\mathfrak g)=0\) (compare [[lie-groups/solvable-lie-algebra|solvable Lie algebra]] and [[lie-groups/ideal-lie-algebra|ideals]]).

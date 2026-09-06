@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The 78-dimensional simple complex Lie algebra of rank 6 and exceptional Dynkin type E6."
 aliases = ["exceptional-lie-algebra-e6", "e6", "complex Lie algebra e6", "exceptional Lie algebra E6"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/adjoint-representation-of-a-lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **exceptional complex Lie algebra** \(\mathfrak e_6\) is the unique [[lie-groups/simple-lie-algebra|simple complex Lie algebra]] whose [[lie-groups/root-system|root system]] has Dynkin type \(E_6\). It has complex dimension \(78\), rank \(6\), and \(72\) roots.

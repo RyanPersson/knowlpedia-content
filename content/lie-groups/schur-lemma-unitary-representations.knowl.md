@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "An irreducible complex unitary representation has only scalar bounded operators in its commutant."
 aliases = ["unitary Schur lemma", "commutant criterion for irreducibility"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "lie-groups/irreducible-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "lie-groups/irreducible-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi\) be a unitary representation of a group \(G\) on a nonzero complex

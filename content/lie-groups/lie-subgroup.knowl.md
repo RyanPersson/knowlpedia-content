@@ -5,16 +5,19 @@ kind = "knowl"
 summary = "A subgroup of a Lie group that carries a compatible immersed submanifold structure."
 aliases = ["lie-subgroup", "Lie Subgroup"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-subgroup.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "algebra-groups/subgroup", "fiber-bundles/smooth-immersion"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **Lie subgroup** of \(G\) is a subgroup \(H\le G\) together with the structure of an immersed [[fiber-bundles/smooth-manifold|submanifold]] such that the inclusion map
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **Lie subgroup** of \(G\) is a subgroup \(H\le G\) together with a Lie group structure such that the inclusion map
 \[
 i:H\hookrightarrow G
 \]
-is a smooth immersion and a group homomorphism (so the group operations on \(H\) are smooth).
+is a [[fiber-bundles/smooth-immersion|smooth immersion]] and a group homomorphism.
+
+## Embedded Lie subgroups
 
 A Lie subgroup is called **embedded** if \(i\) is an embedding (so \(H\) is an actual submanifold of \(G\)).
 

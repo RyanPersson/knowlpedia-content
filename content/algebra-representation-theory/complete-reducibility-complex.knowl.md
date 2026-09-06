@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every finite-dimensional complex representation of a finite group splits as a direct sum of irreducibles."
 aliases = ["complete-reducibility-complex", "Complete reducibility over ℂ"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/completely-reducible-representation", "algebra-representation-theory/irreducible-representation", "algebra-representation-theory/subrepresentation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/complete-reducibility-complex.md"
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/completely-reducible-representation", "algebra-representation-theory/irreducible-representation", "algebra-representation-theory/subrepresentation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group and \(V\) a finite-dimensional [[algebra-representation-theory/group-representation|complex representation]] of \(G\). Then \(V\) is [[algebra-representation-theory/completely-reducible-representation|completely reducible]]: there are [[algebra-representation-theory/irreducible-representation|irreducible]] subrepresentations \(V_1,\dots,V_m\) such that

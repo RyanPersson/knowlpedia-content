@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Within the common disk of convergence, power series can be added, scaled, and multiplied by operating on coefficients."
 aliases = ["term-by-term-operations", "Term-by-term operations for power series"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/power-series", "real-analysis/cauchy-product"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/term-by-term-operations.md"
+prerequisites = ["real-analysis/power-series", "real-analysis/cauchy-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Term-by-term operations for power series:** Let

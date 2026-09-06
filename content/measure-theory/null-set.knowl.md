@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measurable set of measure zero."
 aliases = ["null-set", "Null set"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-set"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/null-set.md"
+prerequisites = ["measure-theory/measurable-set", "measure-theory/measure-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **null set** in a measure space \((X,\Sigma,\mu)\) is a [[measure-theory/measurable-set|measurable set]] \(N\in\Sigma\) such that \(\mu(N)=0\).

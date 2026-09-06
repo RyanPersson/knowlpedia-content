@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The pairing of a semifinite spectral triple with K-theory through a trace-valued Breuer index."
 aliases = ["Breuer index pairing", "tau-index pairing", "semifinite spectral-flow pairing"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/semifinite-spectral-triple", "operator-algebras/breuer-fredholm-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/semifinite-spectral-triple", "operator-algebras/breuer-fredholm-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A,\mathcal N,D,\tau)\) be a [[noncommutative-geometry/semifinite-spectral-triple|semifinite spectral triple]] and put \(P=1_{[0,\infty)}(D)\). Its **semifinite K-theory index pairing** is the homomorphism obtained by replacing the ordinary Fredholm index with the [[operator-algebras/breuer-fredholm-operator|\(\tau\)-Breuer index]]. In odd parity, a unitary \(u\in M_n(\mathcal A)\) represents a class in \(K_1(\mathcal A)\), and

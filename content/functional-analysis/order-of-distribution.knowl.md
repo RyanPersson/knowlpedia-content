@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The order of a distribution is the least derivative degree needed in uniform seminorm estimates on compact supports."
 aliases = ["finite-order distribution", "distribution of order m"]
 domains = ["functional-analysis", "distribution-theory"]
-prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T\) be a [[functional-analysis/distribution|distribution]] on an open

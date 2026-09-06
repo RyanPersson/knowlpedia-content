@@ -5,9 +5,10 @@ kind = "proposition"
 summary = "Idempotent addition defines a partial order in which addition is binary join."
 aliases = ["canonical order of an idempotent semiring", "idempotent semiring order"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
-prerequisites = ["algebra-rings/idempotent-semiring", "shared-foundations/partial-order"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/idempotent-semiring", "shared-foundations/partial-order"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\) be an [[algebra-rings/idempotent-semiring|idempotent semiring]].

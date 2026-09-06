@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A necessary condition for a series to converge is that its terms tend to zero."
 aliases = ["terms-go-to-zero", "Terms go to zero"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/convergent-series", "real-analysis/divergent-series", "real-analysis/root-test", "real-analysis/ratio-test"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/terms-go-to-zero.md"
+prerequisites = ["real-analysis/convergent-series", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Terms go to zero:** If the [[real-analysis/series|series]] \(\sum_{n=1}^\infty a_n\) [[real-analysis/convergent-series|converges]], then

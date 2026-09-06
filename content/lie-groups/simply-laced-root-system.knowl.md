@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A reduced root system whose Dynkin diagram has only single edges."
 aliases = ["simply-laced root system", "simply laced root system", "simply-laced"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/root-system", "lie-groups/dynkin-diagram"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/root-system", "lie-groups/dynkin-diagram"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A reduced [[lie-groups/root-system|root system]] \(\Phi\) is **simply laced** if every edge of its [[lie-groups/dynkin-diagram|Dynkin diagram]] is a single unoriented edge. Equivalently, the roots in each irreducible component all have the same length. Different orthogonal components may be rescaled independently, so roots in distinct components need not have equal lengths.

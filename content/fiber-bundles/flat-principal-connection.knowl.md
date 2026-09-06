@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A principal connection whose curvature 2-form vanishes identically."
 aliases = ["flat-principal-connection", "Flat principal connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-group"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/flat-principal-connection.md"
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle equipped with a [[fiber-bundles/principal-connection|principal connection]] and curvature \(\Omega\in \Omega^2(P;\mathfrak{g})\).

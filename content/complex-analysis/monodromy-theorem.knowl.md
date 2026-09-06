@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Analytic continuation along all paths in a simply connected domain produces a single-valued holomorphic function."
 aliases = ["monodromy theorem for analytic continuation"]
 domains = ["complex-analysis", "topology"]
-prerequisites = ["topology/simply-connected-space", "complex-analysis/holomorphic-germ"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/simply-connected-space", "complex-analysis/holomorphic-germ", "complex-analysis/analytic-continuation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(D\subseteq\mathbb C\) be a [[topology/simply-connected-space|simply connected]] domain, let \(a\in D\), and let \(f_a\) be a [[complex-analysis/holomorphic-germ|holomorphic germ]] at \(a\). If \(f_a\) can be analytically continued along every path in \(D\) starting at \(a\), then all continuations fit together to a single holomorphic function \(F:D\to\mathbb C\) whose germ at \(a\) is \(f_a\).

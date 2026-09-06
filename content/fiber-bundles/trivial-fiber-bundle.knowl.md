@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A fiber bundle globally isomorphic to a product M times F over the base."
 aliases = ["trivial-fiber-bundle", "Trivial fiber bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/bundle-isomorphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/trivial-fiber-bundle.md"
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/bundle-isomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] \(\pi:E\to M\) with [[fiber-bundles/typical-fiber|typical fiber]] \(F\) is **trivial** (or **globally trivial**) if there exists a [[fiber-bundles/bundle-isomorphism|bundle isomorphism]]

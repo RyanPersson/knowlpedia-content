@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra of SO(3) consists of real skew-symmetric matrices, whose exponentials are rotations."
 aliases = ["example-so3", "Example: SO(3) and rotations"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/special-orthogonal-group", "lie-groups/orthogonal-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/example-so3.md"
+prerequisites = ["lie-groups/special-orthogonal-group", "lie-groups/orthogonal-lie-algebra", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The [[lie-groups/special-orthogonal-group|\(SO(3)\)]] rotation group has Lie algebra [[lie-groups/orthogonal-lie-algebra|\(\mathfrak{so}(3)\)]], the real skew-symmetric \(3\times3\) matrices with bracket \([A,B]=AB-BA\).

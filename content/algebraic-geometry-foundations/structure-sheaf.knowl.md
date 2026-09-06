@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The sheaf of rings that supplies the local algebraic functions on a scheme."
 aliases = ["structure-sheaf", "Structure sheaf"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/sheaf", "algebra-commutative/prime-spectrum", "algebra-commutative/localization-ring", "algebra-commutative/local-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebraic-geometry-foundations/structure-sheaf.md"
+prerequisites = ["algebraic-geometry-foundations/sheaf", "algebra-commutative/prime-spectrum", "algebra-commutative/localization-ring", "algebraic-geometry-foundations/stalk", "algebra-commutative/local-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **structure sheaf** on a space \(X\) is a [[algebraic-geometry-foundations/sheaf|sheaf]] of rings \(\mathcal O_X\) whose sections are regarded as functions on open subsets of \(X\). A [[algebraic-geometry-foundations/scheme|scheme]] is not merely its topological space: its structure sheaf carries the local algebra that distinguishes it from other schemes with the same points.

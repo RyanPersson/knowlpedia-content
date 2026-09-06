@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a finite group, the order of a subgroup divides the order of the group"
 aliases = ["lagranges-theorem", "Lagrange's Theorem"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/coset", "shared-foundations/cardinality", "shared-foundations/partition", "algebra-groups/index-of-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/lagranges-theorem.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/coset", "shared-foundations/cardinality", "shared-foundations/partition", "algebra-groups/index-of-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Lagrange's Theorem.**

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a finite Galois extension L/K, the degree [L:K] equals the size of Gal(L/K)."
 aliases = ["galois-degree-equals-group-order", "Degree Equals Galois Group Order"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/galois-group", "algebra-fields-galois/field-automorphism", "algebra-fields-galois/galois-extension", "algebra-fields-galois/degree-of-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/galois-degree-equals-group-order.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/galois-extension", "algebra-fields-galois/galois-group", "algebra-fields-galois/degree-of-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L/K\) be a finite [[algebra-fields-galois/field-extension|field extension]]. Its [[algebra-fields-galois/galois-group|Galois group]] is

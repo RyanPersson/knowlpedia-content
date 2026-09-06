@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A barreled locally convex space in which every closed bounded subset is compact."
 aliases = ["Montel locally convex space"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/barreled-space", "functional-analysis/bounded-subset-tvs", "linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/barreled-space", "functional-analysis/bounded-subset-tvs", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Montel space** is a Hausdorff [[functional-analysis/barreled-space|barreled locally convex space]] \(E\) in which every closed [[functional-analysis/bounded-subset-tvs|bounded subset]] is compact. Equivalently, every bounded subset of \(E\) has compact closure. Both clauses matter: relative compactness of bounded sets is the compactness condition, while barreledness supplies the uniform-boundedness behavior expected of the space. Compactness and boundedness refer to the given locally convex topology; changing that topology can therefore change whether the same underlying [[linear-algebra/vector-space|vector space]] is Montel.

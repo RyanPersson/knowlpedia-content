@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An irreducible highest-weight representation whose highest weight is a fundamental weight."
 aliases = ["fundamental-representation", "Fundamental representation"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/highest-weight-representation", "lie-groups/highest-weight"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/fundamental-representation.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/highest-weight-representation", "lie-groups/highest-weight"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex semisimple [[lie-groups/lie-algebra|Lie algebra]] with a fixed [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\) and a choice of positive roots (see [[lie-groups/positive-root|positive roots]]). Let \(\{\alpha_1,\dots,\alpha_r\}\) be the set of [[lie-groups/simple-root|simple roots]], and let \(\{\omega_1,\dots,\omega_r\}\subset \mathfrak h^*\) be the corresponding **fundamental weights**, characterized by

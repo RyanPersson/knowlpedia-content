@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In real vector spaces, Ω is a hyperplane iff Ω={x : f(x)=α} for some f≠0."
 aliases = ["hyperplanes-are-level-sets-of-nonzero-linear-functionals", "Hyperplanes as Level Sets of Linear Functionals"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/hyperplane"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/hyperplane", "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[linear-algebra/vector-space|vector space]].

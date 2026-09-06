@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A sheaf carrying module structures over a fixed sheaf of rings, compatibly with restriction."
 aliases = ["module sheaf", "O-module sheaf", "sheaf of O-modules"]
 domains = ["algebraic-geometry-foundations", "algebra-modules"]
-prerequisites = ["algebraic-geometry-foundations/ringed-space", "algebra-groups/abelian-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/ringed-space", "algebra-groups/abelian-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,\mathcal O_X)\) be a

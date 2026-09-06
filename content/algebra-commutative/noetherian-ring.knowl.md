@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring in which ascending chains of ideals stabilize (equivalently, every ideal is finitely generated)."
 aliases = ["noetherian-ring", "Noetherian ring"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/noetherian-ring.md"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]].

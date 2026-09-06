@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The continuous dual X* and the pairing ⟨x*,x⟩=x*(x)."
 aliases = ["dual-space-and-duality-pairing", "Dual Space and Duality Pairing"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/bounded-linear-functional-norm-of-a-functional"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/dual-space-and-duality-pairing.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/bounded-linear-functional-norm-of-a-functional", "topology/continuous-map"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed space]] over \(\mathbb{R}\).

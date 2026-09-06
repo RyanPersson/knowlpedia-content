@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A fiberwise inner product reduces the structure group of a frame bundle from GL(n) to O(n)."
 aliases = ["example-reduction-of-gl-structure-to-o-using-a-bundle-metric", "Reducing a GL(n)-structure to O(n) using a bundle metric"]
 domains = ["fiber-bundles"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a smooth real rank-\(n\) vector bundle over a smooth manifold \(M\). Its frame bundle \(\mathrm{Fr}(E)\to M\) is a principal \(\mathrm{GL}(n,\mathbb R)\)-bundle.

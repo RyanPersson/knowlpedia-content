@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function that preserves or reverses order on an interval."
 aliases = ["monotone-function", "Monotone function"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/interval"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/monotone-function.md"
+prerequisites = ["real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **monotone function** on an [[real-analysis/interval|interval]] \(I\subseteq\mathbb{R}\) is a function \(f:I\to\mathbb{R}\) that is either nondecreasing (if \(x\le y\) implies \(f(x)\le f(y)\)) or nonincreasing (if \(x\le y\) implies \(f(x)\ge f(y)\)); it is strictly increasing or strictly decreasing if the inequalities are strict whenever \(x<y\).

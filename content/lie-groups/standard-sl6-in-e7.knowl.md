@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The centralizer of the generation sl3 in e7 is a distinguished sl6, and the two subalgebras are mutual centralizers."
 aliases = ["standard sl6", "Standard Model sl6 in e7", "sl6 SM"]
 domains = ["lie-groups", "mathematical-physics"]
-prerequisites = ["lie-groups/good-standard-model-embedding-in-e7", "lie-groups/generation-sl3-in-e7", "lie-groups/mutual-centralizers-in-a-lie-algebra", "lie-groups/maximal-lie-subalgebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/good-standard-model-embedding-in-e7", "lie-groups/generation-sl3-in-e7", "lie-groups/mutual-centralizers-in-a-lie-algebra", "lie-groups/maximal-lie-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a [[lie-groups/good-standard-model-embedding-in-e7|good embedded]] \(\mathfrak g_{\mathrm{SM}}\subset\mathfrak e_7\) and let \(\mathfrak{sl}_3^{\mathrm{gen}}\) be its [[lie-groups/generation-sl3-in-e7|generation \(\mathfrak{sl}_3\)]]. Then

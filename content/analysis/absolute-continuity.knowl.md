@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A strong continuity condition on an interval controlling total change over collections of small subintervals"
 aliases = ["absolute-continuity", "Absolute continuity"]
 domains = ["analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "analysis/absolute-continuity.md"
+prerequisites = ["real-analysis/interval", "shared-foundations/function", "real-analysis/uniform-continuity"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A function \(f:[a,b]\to\mathbb{R}\) is **absolutely continuous** if for every \(\varepsilon>0\) there exists \(\delta>0\) such that for every finite collection of pairwise disjoint subintervals \((a_k,b_k)\subseteq [a,b]\) with \(\sum_k (b_k-a_k)<\delta\), one has

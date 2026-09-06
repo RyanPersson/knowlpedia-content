@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The smallest linear subspace containing a given set"
 aliases = ["subspace-generated-by-a-set-span", "Span"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/linear-subspace"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/subspace-generated-by-a-set-span.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "shared-foundations/intersection"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a vector space and let \(A\subset X\).

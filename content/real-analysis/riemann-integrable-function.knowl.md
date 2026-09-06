@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bounded function whose upper and lower sums can be made arbitrarily close."
 aliases = ["riemann-integrable-function", "Riemann integrable function"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/upper-sum", "real-analysis/lower-sum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integrable-function.md"
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/upper-sum", "real-analysis/lower-sum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Riemann integrable function** on \([a,b]\) is a bounded function \(f:[a,b]\to\mathbb R\) such that for every \(\varepsilon>0\) there exists a [[real-analysis/partition-of-an-interval|partition]] \(P\) with

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The obstruction to extending a G-local system across a puncture as an unramified object in a fixed Betti, de Rham, or etale category."
 aliases = ["ramified G-local system"]
 domains = ["langlands", "fiber-bundles"]
-prerequisites = ["fiber-bundles/local-system", "langlands/g-local-system", "langlands/regular-singular-connection", "langlands/irregular-singular-connection", "langlands/stokes-data", "langlands/tame-ramification", "langlands/wild-ramification"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/local-system", "langlands/g-local-system", "langlands/regular-singular-connection", "langlands/irregular-singular-connection", "langlands/stokes-data", "langlands/tame-ramification", "langlands/wild-ramification"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a Betti, de Rham, or étale category of [[fiber-bundles/local-system|local systems]], and let

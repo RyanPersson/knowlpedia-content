@@ -5,7 +5,8 @@ kind = "definition"
 summary = "A sheaf with a locally trivial simply transitive action of a group sheaf."
 aliases = ["G-torsor on a site", "torsor on a site", "sheaf torsor"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sheaf-of-groups", "algebra-groups/group-action", "algebra-category-theory/terminal-object", "algebraic-geometry-foundations/covering-family", "algebraic-geometry-foundations/torsor-condition"]
+prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sheaf-of-groups", "algebra-groups/group-action", "algebra-category-theory/terminal-object", "algebraic-geometry-foundations/covering-family"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

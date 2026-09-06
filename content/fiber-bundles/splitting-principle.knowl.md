@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A complex vector bundle pulls back to a sum of line bundles on a flag bundle without losing cohomological information."
 aliases = ["splitting principle for characteristic classes", "flag-bundle splitting"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/pullback-bundle", "fiber-bundles/line-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/characteristic-class"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/pullback-bundle", "fiber-bundles/line-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/characteristic-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to X\) be a rank-\(n\) [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]]. There is a complete flag bundle \(p:\operatorname{Fl}(E)\to X\) such that the [[fiber-bundles/pullback-bundle|pullback bundle]] \(p^*E\) has a filtration with [[fiber-bundles/line-bundle|line-bundle]] quotients \(L_1,\ldots,L_n\); after choosing a [[fiber-bundles/hermitian-metric|Hermitian metric]], \(p^*E\cong L_1\oplus\cdots\oplus L_n\). Moreover,

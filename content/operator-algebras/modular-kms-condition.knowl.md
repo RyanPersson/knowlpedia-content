@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The modular KMS condition is the analytic boundary relation that characterizes a faithful normal state's modular dynamics."
 aliases = ["KMS characterization of modular flow"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/faithful-normal-state", "operator-algebras/modular-automorphism-group", "operator-algebras/entire-analytic-element-one-parameter-automorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/faithful-normal-state", "operator-algebras/modular-automorphism-group", "operator-algebras/entire-analytic-element-one-parameter-automorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]],

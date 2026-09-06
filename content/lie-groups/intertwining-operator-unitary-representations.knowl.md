@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A bounded linear operator commuting with the actions of a group on two Hilbert spaces."
 aliases = ["intertwiner", "equivariant bounded operator"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "functional-analysis/bounded-linear-operator", "linear-algebra/vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "functional-analysis/bounded-linear-operator", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\pi,\mathcal H_\pi)\) and \((\sigma,\mathcal H_\sigma)\) be [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representations]] of the same group \(G\). An **intertwining operator** from \(\pi\) to \(\sigma\) is a [[functional-analysis/bounded-linear-operator|bounded linear operator]] \(T:\mathcal H_\pi\to\mathcal H_\sigma\) satisfying

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A vector field whose local flow preserves the symplectic form."
 aliases = ["locally Hamiltonian vector field"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/vector-field", "fiber-bundles/lie-derivative-of-a-differential-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/vector-field", "fiber-bundles/lie-derivative-of-a-differential-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. A **symplectic vector field** is a [[fiber-bundles/vector-field|smooth vector field]] \(X\) satisfying

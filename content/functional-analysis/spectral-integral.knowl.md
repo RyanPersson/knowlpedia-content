@@ -5,9 +5,10 @@ kind = "construction"
 summary = "An operator obtained by integrating a measurable scalar function against a projection-valued measure."
 aliases = ["integration against a projection-valued measure", "operator-valued spectral integral"]
 domains = ["functional-analysis", "measure-theory"]
-prerequisites = ["functional-analysis/projection-valued-measure", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/projection-valued-measure", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E:\Sigma\to\mathcal B(\mathcal H)\) be a [[functional-analysis/projection-valued-measure|projection-valued measure]] on \(X\), and let \(f:X\to\mathbb C\) be [[measure-theory/measurable-function|measurable]]. The **spectral integral**

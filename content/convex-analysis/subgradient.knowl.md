@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A vector that defines an affine global lower bound to a convex function at a point."
 aliases = ["subgradient"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "real-analysis/derivative"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/subgradient.md"
+prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "real-analysis/derivative", "convex-analysis/supporting-hyperplane-convex-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **subgradient** of a [[convex-analysis/convex-function-via-epigraph|convex function]] \(f\) at a point \(x\in\operatorname{dom} f\) (see [[convex-analysis/domain-and-epigraph-proper-function|domain]]) is a vector \(g\in\mathbb{R}^n\) such that

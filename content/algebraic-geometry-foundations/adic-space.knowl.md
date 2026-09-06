@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally ringed space locally modeled on continuous valuations of a Huber pair."
 aliases = ["Huber adic space", "affinoid adic space", "Spa(A,A+)"]
 domains = ["algebraic-geometry-foundations", "langlands", "number-theory"]
-prerequisites = ["algebra-topological/ideal-of-definition", "shared-foundations/equivalence-class", "algebraic-geometry-foundations/locally-ringed-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-topological/ideal-of-definition", "shared-foundations/equivalence-class", "algebraic-geometry-foundations/locally-ringed-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Huber pair** \((A,A^+)\) consists of a topological ring \(A\) admitting an

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A type II von Neumann factor whose identity projection is infinite."
 aliases = ["semifinite infinite factor"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-ii-von-neumann-algebra", "operator-algebras/properly-infinite-von-neumann-algebra", "operator-algebras/abelian-projection", "operator-algebras/finite-projection", "operator-algebras/faithful-normal-semifinite-trace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-ii-von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **type \(\mathrm{II}_\infty\) factor** is a [[operator-algebras/von-neumann-factor|von Neumann factor]] \(M\) that is [[operator-algebras/type-ii-von-neumann-algebra|type II]] and whose identity projection \(1_M\) is infinite. Equivalently, it is a semifinite, [[operator-algebras/properly-infinite-von-neumann-algebra|properly infinite]] factor with no nonzero [[operator-algebras/abelian-projection|abelian projection]]. Semifiniteness supplies nonzero [[operator-algebras/finite-projection|finite projections]] below every nonzero projection, while the infinite identity excludes the finite type \(\mathrm{II}_1\) case. A [[operator-algebras/faithful-normal-semifinite-trace|faithful normal semifinite trace]] on \(M\) therefore takes the value \(+\infty\) at \(1_M\); unlike the normalized trace on a \(\mathrm{II}_1\) factor, it is determined only up to a positive scalar.

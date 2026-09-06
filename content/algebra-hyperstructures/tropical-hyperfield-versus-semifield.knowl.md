@@ -5,9 +5,10 @@ kind = "proposition"
 summary = "The tropical semifield and hyperfield share their carrier and multiplication but differ exactly at tied addition."
 aliases = ["tropical hyperfield and tropical semiring comparison"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
-prerequisites = ["algebra-rings/tropical-semifield", "algebra-hyperstructures/tropical-hyperfield"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/tropical-semifield", "algebra-hyperstructures/tropical-hyperfield"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On the common carrier \(\mathbb R\cup\{-\infty\}\), the

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Any two composition series of a group have the same simple composition factors up to order."
 aliases = ["jordan-holder-uniqueness", "Jordan-Hölder Uniqueness"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/composition-series-group", "algebra-groups/quotient-group", "algebra-groups/simple-group", "algebra-groups/jordan-holder-theorem-groups", "algebra-groups/schreier-refinement-theorem"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/jordan-holder-uniqueness.md"
+prerequisites = ["algebra-groups/composition-series-group", "algebra-groups/quotient-group", "algebra-groups/simple-group", "algebra-groups/jordan-holder-theorem-groups", "algebra-groups/schreier-refinement-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Jordan-Hölder Uniqueness**: Let \(G\) be a group that admits a [[algebra-groups/composition-series-group|composition series]]. Suppose

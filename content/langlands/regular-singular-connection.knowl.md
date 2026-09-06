@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A flat connection on a punctured curve that has at worst logarithmic poles after extension across the punctures."
 aliases = ["regular singular connection", "regular singularity"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-curve"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-curve"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(U=X\setminus D\) be the complement of finitely many points in a smooth

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Cartesian product of Lie groups, with componentwise multiplication, is again a Lie group."
 aliases = ["product-lie-group", "Product Lie group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/direct-sum-of-lie-algebras"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/product-lie-group.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/exponential-map-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Given Lie groups \(G\) and \(H\) (see [[fiber-bundles/lie-group|Lie group]]), their **product Lie group** is the manifold \(G\times H\) with group structure

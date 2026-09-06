@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Holding except on a set of measure zero."
 aliases = ["almost-everywhere", "Almost everywhere"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/null-set","measure-theory/measure-space"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/almost-everywhere.md"
+prerequisites = ["measure-theory/null-set", "measure-theory/measure-space", "shared-foundations/set-difference"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A property \(P(x)\) is said to hold **almost everywhere** (with respect to a measure \(\mu\) on \(X\)) if there exists a [[measure-theory/null-set|null set]] \(N\subseteq X\) such that \(P(x)\) holds for all \(x\in X\setminus N\).

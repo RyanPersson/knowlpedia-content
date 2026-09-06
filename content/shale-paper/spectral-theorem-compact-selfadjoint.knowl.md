@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A compact self-adjoint operator on a separable Hilbert space has an orthonormal eigenbasis, with nonzero eigenvalues tending to zero."
 aliases = ["spectral-theorem-compact-selfadjoint", "Spectral Theorem for Compact Selfadjoint Operators"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/spectral-theorem-compact-selfadjoint.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a compact self-adjoint operator on a separable Hilbert space \(H\). Then \(H\) has an orthonormal basis of eigenvectors of \(A\). Every eigenvalue is real, each nonzero eigenvalue has finite multiplicity, and the nonzero eigenvalues form a finite sequence or a sequence tending to \(0\). The kernel of \(A\) is the zero-eigenspace and may be infinite-dimensional.

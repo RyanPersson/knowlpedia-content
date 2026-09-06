@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A vector bundle locally modeled on a finite-dimensional right module over the quaternion division algebra."
 aliases = ["quaternionic bundle", "quaternion vector bundle"]
 domains = ["fiber-bundles", "linear-algebra"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "linear-algebra/quaternion-division-algebra", "fiber-bundles/local-trivialization", "fiber-bundles/transition-function", "fiber-bundles/smooth-map", "fiber-bundles/bundle-morphism"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "linear-algebra/quaternion-division-algebra", "fiber-bundles/local-trivialization", "fiber-bundles/transition-function", "fiber-bundles/smooth-map", "fiber-bundles/bundle-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A

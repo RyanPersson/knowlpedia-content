@@ -5,10 +5,10 @@ kind = "definition"
 summary = "Submanifolds whose tangent spaces together span the ambient tangent space at every intersection point."
 aliases = ["transversely intersecting submanifolds", "transverse intersection"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "linear-algebra/linear-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\) and \(T\) be [[differential-geometry/embedded-submanifold|embedded submanifolds]] of a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). They are **transverse at \(p\in S\cap T\)** if

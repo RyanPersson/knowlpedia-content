@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A topological space in which countable intersections of dense open sets are dense"
 aliases = ["baire-space", "Baire space"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/open-set", "topology/dense-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/baire-space.md"
+prerequisites = ["topology/topological-space", "topology/open-set", "topology/dense-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Baire space** is a [[topology/topological-space|topological space]] \(X\) such that for every sequence \((U_n)_{n\in\mathbb{N}}\) of [[topology/open-set|open sets]] that are [[topology/dense-set|dense]], the intersection \(\bigcap_{n\in\mathbb{N}} U_n\) is dense in \(X\).

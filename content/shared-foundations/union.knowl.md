@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of elements that belong to at least one of the given sets."
 aliases = ["union"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/indexed-family-of-sets"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/union.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/indexed-family-of-sets"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **union** is the set obtained by collecting all elements that lie in at least one set in a given collection. For sets \(A,B\),

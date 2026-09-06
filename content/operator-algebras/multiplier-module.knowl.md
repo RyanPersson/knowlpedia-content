@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The multiplier module of a Hilbert module consists of adjointable module maps from its coefficient algebra into the module."
 aliases = ["multiplier Hilbert module", "M(E)"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/adjointable-operator-hilbert-module", "operator-algebras/multiplier-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/hilbert-cstar-module", "operator-algebras/adjointable-operator-hilbert-module", "operator-algebras/multiplier-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\) be a right [[operator-algebras/hilbert-cstar-module|Hilbert \(C^*\)-module]] over a \(C^*\)-algebra \(A\). Its **multiplier module** is

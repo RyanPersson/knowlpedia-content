@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a Lie group, a connected Lie subgroup is uniquely determined by its Lie algebra."
 aliases = ["connected-subgroup-determined-by-algebra", "Connected subgroup determined by its Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/lie-subalgebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/connected-subgroup-determined-by-algebra.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup", "lie-groups/lie-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. If \(H_1,H_2\subseteq G\) are connected [[lie-groups/lie-subgroup|immersed Lie subgroups]] and

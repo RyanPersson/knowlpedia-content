@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A surjective linear isometry between complex Hilbert spaces."
 aliases = ["unitary transformation", "unitary isomorphism"]
 domains = ["functional-analysis", "linear-algebra"]
-prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/linear-map", "linear-algebra/inner-product", "functional-analysis/adjoint-bounded-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/linear-map", "linear-algebra/inner-product", "functional-analysis/adjoint-bounded-operator", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) and \(K\) be complex [[linear-algebra/hilbert-space|Hilbert

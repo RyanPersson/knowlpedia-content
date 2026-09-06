@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Within its radius of convergence, a power series defines a function with derivatives given by termwise differentiation."
 aliases = ["power-series-analytic-on-disk", "Power series is analytic on its disk of convergence"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/power-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/power-series-analytic-on-disk.md"
+prerequisites = ["real-analysis/power-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Power series is analytic on its disk of convergence:** Let \(\sum_{n=0}^\infty a_n (z-z_0)^n\) be a [[real-analysis/power-series|power series]] with radius of convergence \(R>0\). Define

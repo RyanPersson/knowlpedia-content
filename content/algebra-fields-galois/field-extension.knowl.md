@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An inclusion of fields F ⊆ E (written E/F) and the basic language used to study it."
 aliases = ["field-extension", "Field extension"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/field-extension.md"
+prerequisites = ["algebra-rings/field", "shared-foundations/injective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) and \(E\) be [[algebra-rings/field|fields]]. A **field extension** of \(F\) is a pair \((E,\iota)\) where \(\iota:F\hookrightarrow E\) is an injective field homomorphism. In practice one identifies \(F\) with its image \(\iota(F)\subseteq E\), writes simply \(F\subseteq E\), and denotes the extension by \(E/F\).

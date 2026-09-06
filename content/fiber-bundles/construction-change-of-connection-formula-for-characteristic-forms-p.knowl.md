@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Exact formula relating characteristic forms computed from two different principal connections"
 aliases = ["construction-change-of-connection-formula-for-characteristic-forms-p", "Change of connection formula for Chern Weil characteristic forms"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/chernweil-form", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection", "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial", "fiber-bundles/cartans-second-structure-equation", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-change-of-connection-formula-for-characteristic-forms-p.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/chernweil-form", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection", "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial", "fiber-bundles/cartans-second-structure-equation", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]], and let \(\omega_0,\omega_1\) be two [[fiber-bundles/principal-connection|principal connections]] on \(P\) with connection 1-forms (also denoted) \(\omega_0,\omega_1\in \Omega^1(P;\mathfrak g)\) as in [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-forms on principal bundles]]. Write their curvature 2-forms as \(\Omega_0,\Omega_1\in \Omega^2(P;\mathfrak g)\) (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-forms of principal connections]]).

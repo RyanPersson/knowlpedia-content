@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A pair of functors F ⊣ G equipped with a natural hom-set bijection (equivalently, a unit and counit satisfying the triangle identities)."
 aliases = ["adjoint-functors", "Adjoint functors"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/adjoint-functors.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/natural-transformation", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C,\mathcal D\) be [[algebra-category-theory/category|categories]], and let

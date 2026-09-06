@@ -6,6 +6,7 @@ summary = "A pair of maps inverse to one another up to continuous deformation."
 aliases = ["homotopy equivalent", "homotopy equivalence"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/continuous-map"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

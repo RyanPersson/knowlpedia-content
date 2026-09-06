@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A principal connection whose horizontal spaces restrict to a chosen reduction of the structure group."
 aliases = ["connection preserving an H-reduction", "adapted connection", "reduction-compatible connection"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\subseteq G\) be a [[lie-groups/lie-subgroup|Lie subgroup]], let \(i:Q\hookrightarrow P\) be a [[fiber-bundles/reduction-of-structure-group|reduction of structure group]] of a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). The connection \(A\) is **compatible with the reduction** \(Q\) when its horizontal subspace at every \(q\in Q\) lies in \(T_qQ\). Equivalently, the restricted connection form \(i^*A\) takes values in the Lie algebra \(\mathfrak h\subseteq\mathfrak g\); then \(i^*A\), regarded as an \(\mathfrak h\)-valued form, is a principal \(H\)-connection on \(Q\).

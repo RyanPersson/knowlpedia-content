@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A nonempty compact convex subset of a finite-dimensional real vector space."
 aliases = ["compact convex set", "convex compact set"]
 domains = ["convex-analysis", "integral-geometry"]
-prerequisites = ["linear-algebra/vector-space", "topology/compact-set", "convex-analysis/convex-set"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "topology/compact-set", "convex-analysis/convex-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional real

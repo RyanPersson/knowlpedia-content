@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth map between total spaces that sends fibers to fibers over a base map."
 aliases = ["fiber-preserving-map", "Fiber-preserving map"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/fibered-manifold", "fiber-bundles/bundle-map", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/fiber-preserving-map.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/fibered-manifold", "fiber-bundles/bundle-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E,M,E',M'\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] and let \(\pi:E\to M\) and \(\pi':E'\to M'\) be [[fiber-bundles/smooth-map|smooth maps]]. A smooth map \(F:E\to E'\) is **fiber-preserving** if there exists a smooth map \(f:M\to M'\) such that

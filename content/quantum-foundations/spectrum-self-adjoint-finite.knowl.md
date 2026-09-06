@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "For a finite-dimensional self-adjoint operator, the spectrum is exactly the set of its real eigenvalues and yields a spectral decomposition."
 aliases = ["spectrum-self-adjoint-finite", "Spectrum of a Self-Adjoint Operator in Finite Dimension"]
 domains = ["quantum-foundations"]
-prerequisites = ["quantum-foundations/complex-hilbert-space-finite", "quantum-foundations/self-adjoint-operator-observable", "linear-algebra/eigenvalue"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/spectrum-self-adjoint-finite.md"
+prerequisites = ["quantum-foundations/complex-hilbert-space-finite", "quantum-foundations/self-adjoint-operator-observable", "linear-algebra/eigenvalue"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a finite-dimensional complex Hilbert space ([[quantum-foundations/complex-hilbert-space-finite|Complex Hilbert Space Finite]]) and let \(A:H\to H\) be self-adjoint ([[quantum-foundations/self-adjoint-operator-observable|Self Adjoint Operator Observable]]).

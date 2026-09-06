@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A subset of a root system that is itself a root system in its real span."
 aliases = ["root subsystem", "subsystem of a root system"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/root-system", "linear-algebra/euclidean-space", "linear-algebra/inner-product"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/root-system", "linear-algebra/euclidean-space", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Phi\) be a [[lie-groups/root-system|root system]] in a [[linear-algebra/euclidean-space|Euclidean space]] \(V\). A subset \(\Psi\subseteq\Phi\) is a **root subsystem** if \(\Psi\) is itself a root system in \(\operatorname{span}_{\mathbb R}(\Psi)\) with the induced [[linear-algebra/inner-product|inner product]]. Equivalently, \(\Psi\) spans its ambient subspace and

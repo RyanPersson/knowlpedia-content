@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The unitary representation obtained by acting coordinatewise on the Hilbert direct sum of representation spaces."
 aliases = ["orthogonal direct sum of representations"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
-prerequisites = ["topology/topological-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/topological-group", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/topological-group|topological group]], and for each \(i\in I\) let \(\pi_i:G\to\mathcal U(\mathcal H_i)\) be a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] on a complex [[linear-algebra/hilbert-space|Hilbert space]]. Their **Hilbert direct sum** is the representation

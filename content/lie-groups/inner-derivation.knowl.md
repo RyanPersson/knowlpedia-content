@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A derivation of the form ad_x(y) = [x,y]."
 aliases = ["inner-derivation", "Inner derivation"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/derivation-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/inner-derivation.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/derivation-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]]. Recall that a [[lie-groups/derivation-lie-algebra|derivation]] is a linear map \(D:\mathfrak g\to\mathfrak g\) satisfying the Leibniz rule

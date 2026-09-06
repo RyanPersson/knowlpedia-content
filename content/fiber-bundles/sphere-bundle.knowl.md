@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The fiber bundle of unit vectors in a positive-rank vector bundle equipped with a bundle metric."
 aliases = ["unit sphere bundle", "spherical bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a positive-rank real [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] \(g\). Its **unit sphere bundle** is

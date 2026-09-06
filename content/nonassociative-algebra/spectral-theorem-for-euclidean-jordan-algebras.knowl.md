@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every element of a Euclidean Jordan algebra is a real linear combination of a Jordan frame, with uniquely determined eigenvalues."
 aliases = ["Jordan spectral theorem", "spectral decomposition in a Euclidean Jordan algebra", "EJA spectral theorem"]
 domains = ["nonassociative-algebra", "linear-algebra"]
-prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "nonassociative-algebra/jordan-frame"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "nonassociative-algebra/jordan-frame"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) be a [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point of a set that has a neighborhood containing no other points of the set."
 aliases = ["isolated-point", "Isolated point"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/isolated-point.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a metric space and let \(A\subseteq X\). A point \(x\in A\) is an **isolated point** of \(A\) if there exists \(r>0\) such that

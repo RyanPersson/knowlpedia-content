@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Existence and uniqueness of the horizontal lift of a base curve for a given starting point in the total space."
 aliases = ["construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift", "Horizontal lift of curves and uniqueness"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/horizontal-distribution", "fiber-bundles/parallel-transport"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/horizontal-distribution", "fiber-bundles/parallel-transport"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] equipped with a [[fiber-bundles/principal-connection|principal connection]] \(\omega\), and let \(H:=\ker\omega\subset TP\) be its [[fiber-bundles/horizontal-distribution|horizontal distribution]].

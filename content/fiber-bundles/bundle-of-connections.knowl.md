@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "An affine bundle over a manifold whose sections are connections on a fixed bundle."
 aliases = ["bundle-of-connections", "Bundle of connections"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/jet-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/bundle-of-connections.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/jet-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. The **bundle of connections** of \(P\) is the affine bundle

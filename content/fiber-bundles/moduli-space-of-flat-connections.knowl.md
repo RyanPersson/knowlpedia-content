@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The quotient of the space of flat connections on a fixed principal bundle by gauge equivalence."
 aliases = ["flat-connection moduli", "flat gauge moduli"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/gauge-transformation", "fiber-bundles/flat-principal-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/gauge-transformation", "fiber-bundles/flat-principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a smooth [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. Write \(\mathcal A(P)\) for its space of connections and \(\mathcal G(P)\) for its [[fiber-bundles/gauge-group|gauge group]]. The **moduli space of flat connections on \(P\)** is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A condition controlling how fast a function can change, generalizing Lipschitz continuity by allowing a power less than one."
 aliases = ["holder-continuity", "Hölder continuity"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space"]
-dependency_review_count = 1
 legacy_source_path = "topology/holder-continuity.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Hölder continuous map** between metric spaces \((X,d_X)\) and \((Y,d_Y)\) is a map \(f\colon X\to Y\) such that there exist constants \(C\ge 0\) and \(\alpha\in(0,1]\) with

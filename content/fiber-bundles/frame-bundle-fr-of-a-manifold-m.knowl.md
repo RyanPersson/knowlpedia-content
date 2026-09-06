@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Principal GL(n) bundle of ordered tangent frames on a smooth n-manifold."
 aliases = ["frame-bundle-fr-of-a-manifold-m", "Frame bundle of a manifold"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/principal-g-bundle", "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/frame-bundle-fr-of-a-manifold-m.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] with [[fiber-bundles/tangent-bundle|tangent bundle]] \(\pi:TM\to M\).

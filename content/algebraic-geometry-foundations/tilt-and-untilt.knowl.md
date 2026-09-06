@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The passage between perfectoid fields of mixed and positive characteristic via inverse-limit Frobenius."
 aliases = ["tilting equivalence", "perfectoid tilt", "untilt", "K-flat"]
 domains = ["algebraic-geometry-foundations", "number-theory", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/perfectoid-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/perfectoid-field", "algebraic-geometry-foundations/perfectoid-space", "topology/topological-space", "langlands-letter/knowls/galois-extension-and-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a [[algebraic-geometry-foundations/perfectoid-field|perfectoid
@@ -27,8 +28,11 @@ in \(K\); it is multiplicative but generally not additive.
 
 An **untilt** of a perfectoid field \(L\) of characteristic \(p\) is a
 perfectoid field \(K\), often of characteristic \(0\), equipped with an
-identification \(K^\flat\simeq L\).  A field can have many nonisomorphic
-untilts.
+identification \(K^\flat\simeq L\).
+
+## Nonuniqueness
+
+A field can have many nonisomorphic untilts.
 
 ## Tilting equivalence
 

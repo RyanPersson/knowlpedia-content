@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The group of based loops in a space modulo endpoint-preserving homotopy."
 aliases = ["pi_1", "homotopy group in degree one"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/path", "shared-foundations/equivalence-class", "algebra-groups/group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-space", "topology/path", "shared-foundations/equivalence-class", "algebra-groups/group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[topology/topological-space|topological space]] with basepoint \(x_0\). A based loop is a [[topology/path|path]] \(\gamma:[0,1]\to X\) with \(\gamma(0)=\gamma(1)=x_0\). Two based loops are equivalent when they are joined by a continuous homotopy through based loops, keeping both endpoints fixed throughout. The **fundamental group**

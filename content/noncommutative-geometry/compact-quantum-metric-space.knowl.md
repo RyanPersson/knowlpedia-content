@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An order-unit space with a seminorm whose state-space metric induces the weak-star topology."
 aliases = ["quantum compact metric space"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["operator-algebras/order-unit-space", "convex-analysis/seminorm", "functional-analysis/weak-star-topology", "operator-algebras/state-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/order-unit-space", "convex-analysis/seminorm", "functional-analysis/weak-star-topology", "operator-algebras/state-cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a real

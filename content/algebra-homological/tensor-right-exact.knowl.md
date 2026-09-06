@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For fixed N, the functor -⊗_R N preserves cokernels (exactness on the right); its failure to be left exact is measured by Tor."
 aliases = ["tensor-right-exact", "Tensor product is right exact"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/tensor-right-exact.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/tensor-product", "algebra-modules/short-exact-sequence"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and fix a left \(R\)-module \(N\). If
@@ -44,6 +45,8 @@ In particular, \(N\) is [[algebra-modules/flat-module|flat]] if and only if \((-
 
 ## Examples
 
+In the cyclic-group examples, let \(n\ge 2\) be an integer.
+
 ### Example 1: Tensor is not left exact over \(\mathbb Z\)
 
 Consider the injective map of \(\mathbb Z\)-modules
@@ -76,7 +79,7 @@ with \(\mathbb Q\):
 Here \(\times n:\mathbb Q\to\mathbb Q\) is an isomorphism, so \((\mathbb Z/n)\otimes\mathbb Q=0\) and the tensored sequence remains exact.
 
 ### Example 3: Tensor with a free module is exact
-If \(N\cong R^{\oplus r}\) is free, then
+If \(N\cong R^{\oplus r}\) is free of finite rank \(r\), then
 \[
 A\otimes_R N \cong A^{\oplus r},
 \]

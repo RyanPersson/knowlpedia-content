@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compatible pair of left and right multiplier maps on a C*-algebra."
 aliases = ["double multiplier", "double centralizer pair"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Banach *-algebra whose norm and involution satisfy the C*-identity."
 aliases = []
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **\(C^*\)-algebra** is a complex [[operator-algebras/involutive-algebra|involutive algebra]] \(A\) that is a [[functional-analysis/banach-algebra|Banach algebra]] and whose norm satisfies the **\(C^*\)-identity**

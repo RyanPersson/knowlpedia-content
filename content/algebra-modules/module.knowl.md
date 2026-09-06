@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An abelian group equipped with a compatible scalar action by a ring (left or right)."
 aliases = ["module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/unital-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/module.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/module-axioms"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] (often assumed a [[algebra-rings/unital-ring|unital ring]]). A **left \(R\)-module** is an abelian group \((M,+)\) together with a scalar multiplication map \(R\times M\to M\), \((r,m)\mapsto rm\), such that for all \(r,s\in R\) and \(m,n\in M\):

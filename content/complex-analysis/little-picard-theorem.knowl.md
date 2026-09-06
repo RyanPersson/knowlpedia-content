@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A nonconstant entire function assumes every complex value with at most one exception."
 aliases = ["Picard's little theorem"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/entire-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/entire-function", "complex-analysis/great-picard-theorem", "complex-analysis/fundamental-theorem-of-algebra-complex-analysis"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 If \(f:\mathbb C\to\mathbb C\) is a nonconstant [[complex-analysis/entire-function|entire function]], then the complement

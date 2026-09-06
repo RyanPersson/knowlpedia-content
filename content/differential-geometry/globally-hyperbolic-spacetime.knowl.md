@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A strongly causal spacetime in which every causal diamond is compact."
 aliases = ["global hyperbolicity", "globally hyperbolic Lorentzian manifold"]
 domains = ["differential-geometry", "mathematical-physics", "partial-differential-equations"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/strong-causality", "differential-geometry/causal-diamond"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/strong-causality", "differential-geometry/causal-diamond"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] \((M,g)\) is **globally hyperbolic** if it is [[differential-geometry/strong-causality|strongly causal]] and every [[differential-geometry/causal-diamond|causal diamond]]

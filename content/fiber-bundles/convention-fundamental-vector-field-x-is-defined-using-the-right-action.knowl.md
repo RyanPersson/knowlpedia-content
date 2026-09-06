@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The fundamental vector field X-sharp is defined by differentiating the right action p·exp(tX)."
 aliases = ["convention-fundamental-vector-field-x-is-defined-using-the-right-action", "Convention: fundamental vector field uses the right action"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra", "fiber-bundles/right-translation-r-g"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with the right action \((p,g)\mapsto p\cdot g\) as in [[fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p|the right-action convention]]. Let \(\mathfrak g\) be the [[lie-groups/lie-algebra|Lie algebra]] of \(G\).

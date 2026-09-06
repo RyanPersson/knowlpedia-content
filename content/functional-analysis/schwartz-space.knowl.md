@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The smooth functions whose derivatives decay faster than every inverse polynomial."
 aliases = ["Schwartz space", "Schwartz functions", "rapidly decreasing smooth functions", "S(R^n)", "Schwartz topology", "Schwartz seminorms", "Schwartz Fréchet space", "Fréchet topology of the Schwartz space", "space S(R^n)"]
 domains = ["functional-analysis", "harmonic-analysis"]
-prerequisites = ["real-analysis/partial-derivative", "convex-analysis/seminorm", "functional-analysis/topology-generated-by-seminorms", "functional-analysis/frechet-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["real-analysis/partial-derivative", "convex-analysis/seminorm", "functional-analysis/topology-generated-by-seminorms", "functional-analysis/frechet-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Schwartz space** \(\mathcal S(\mathbb R^n)\) consists of all smooth

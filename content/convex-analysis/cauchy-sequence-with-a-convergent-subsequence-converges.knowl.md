@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A Cauchy sequence converges if one of its subsequences converges"
 aliases = ["cauchy-sequence-with-a-convergent-subsequence-converges", "Cauchy sequence with a convergent subsequence converges"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/metric-metric-space", "topology/cauchy-sequence", "real-analysis/subsequence", "convex-analysis/convergence-of-a-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/cauchy-sequence-with-a-convergent-subsequence-converges.md"
+prerequisites = ["convex-analysis/metric-metric-space", "topology/cauchy-sequence", "real-analysis/subsequence", "convex-analysis/convergence-of-a-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

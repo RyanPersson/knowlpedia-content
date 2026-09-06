@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The formal adjoint is the differential operator obtained by transferring derivatives across an integral pairing without boundary terms."
 aliases = ["formal adjoint"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/bundle-metric", "differential-geometry/differential-operator-vector-bundles"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/bundle-metric", "differential-geometry/differential-operator-vector-bundles"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary, let \(E,F\to M\) be real or [[fiber-bundles/complex-vector-bundle|complex vector bundles]] with [[fiber-bundles/bundle-metric|bundle metrics]], and let

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a commutative ring, the nilradical is the intersection of all prime ideals."
 aliases = ["nilradical-intersection-primes", "Nilradical equals intersection of prime ideals"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/nilradical", "algebra-rings/nilpotent-element", "algebra-rings/prime-ideal", "algebra-rings/radical-of-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/nilradical-intersection-primes.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/nilradical", "algebra-rings/nilpotent-element", "algebra-rings/radical-of-ideal", "algebra-rings/prime-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Nilradical theorem.** Let \(R\) be a commutative ring. Then

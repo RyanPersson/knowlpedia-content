@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An admissible (g,K)-module that is finitely generated over the universal enveloping algebra."
 aliases = ["admissible finitely generated (g,K)-module"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/g-k-module", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/universal-enveloping-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/g-k-module", "lie-groups/admissible-representation-real-reductive-group", "lie-groups/universal-enveloping-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]], \(K\) a [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]], and \(\mathfrak g=\operatorname{Lie}(G)\otimes_{\mathbb R}\mathbb C\). A **Harish–Chandra module** is a [[lie-groups/g-k-module|\((\mathfrak g,K)\)-module]] \(V\) that is [[lie-groups/admissible-representation-real-reductive-group|admissible]] and finitely generated as a module over the [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]] \(U(\mathfrak g)\). Explicitly, every irreducible \(K\)-representation occurs in \(V\) with finite multiplicity, and finitely many vectors generate \(V\) under \(U(\mathfrak g)\). These are independent finiteness requirements: neither is omitted from the standard definition used in real-reductive representation theory.

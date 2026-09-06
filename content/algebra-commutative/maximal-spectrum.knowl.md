@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set MaxSpec(R) of maximal ideals of a commutative ring, with the induced Zariski topology."
 aliases = ["maximal-spectrum", "Maximal spectrum"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/field", "algebra-commutative/prime-spectrum", "algebra-commutative/zariski-topology", "algebra-commutative/residue-field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/maximal-spectrum.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/field", "algebra-commutative/prime-spectrum", "algebra-commutative/zariski-topology", "algebra-commutative/residue-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. A **maximal ideal** of \(R\) is a proper ideal \(\mathfrak m\subsetneq R\) such that there is no ideal strictly between \(\mathfrak m\) and \(R\); equivalently, \(R/\mathfrak m\) is a [[algebra-rings/field|field]].

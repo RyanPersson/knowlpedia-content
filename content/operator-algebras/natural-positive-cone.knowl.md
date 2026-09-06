@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The canonical self-dual cone obtained from the modular data of a cyclic separating representation."
 aliases = ["self-dual cone of standard form", "P-natural"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/cyclic-vector", "operator-algebras/separating-vector", "operator-algebras/tomita-operator", "operator-algebras/modular-operator", "operator-algebras/modular-conjugation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/cyclic-vector", "operator-algebras/separating-vector", "operator-algebras/tomita-operator", "operator-algebras/modular-operator", "operator-algebras/modular-conjugation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\subseteq B(H)\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] with [[operator-algebras/cyclic-vector|cyclic]] [[operator-algebras/separating-vector|separating vector]] \(\Omega\), and let \(S=J\Delta^{1/2}\) be the polar decomposition of its [[operator-algebras/tomita-operator|Tomita operator]]. The **natural positive cone** is

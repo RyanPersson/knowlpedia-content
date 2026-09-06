@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The determinant of the Levi matrix, extended as a measure for suitable plurisubharmonic functions."
 aliases = ["complex Monge-Ampere operator", "complex Monge–Ampère measure"]
 domains = ["complex-analysis", "several-complex-variables", "partial-differential-equations"]
-prerequisites = ["complex-analysis/levi-form", "complex-analysis/plurisubharmonic-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/levi-form", "complex-analysis/plurisubharmonic-function", "real-analysis/hessian-matrix", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a real-valued \(C^2\) function \(u\) on \(U\subseteq\mathbb C^d\), the

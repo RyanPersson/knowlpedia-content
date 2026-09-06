@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The closed unit ball of the continuous dual of a normed space is compact in the weak-star topology."
 aliases = ["Alaoglu theorem", "weak-star compactness theorem"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/normed-vector-space", "functional-analysis/topological-dual", "functional-analysis/weak-star-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/normed-vector-space", "functional-analysis/topological-dual", "functional-analysis/weak-star-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a

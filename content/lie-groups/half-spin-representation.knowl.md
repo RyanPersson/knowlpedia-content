@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Either irreducible chiral summand of the complex spin representation in even dimension."
 aliases = ["half-spin module", "chiral spin representation", "positive half-spin representation", "negative half-spin representation"]
 domains = ["lie-groups", "representation-theory", "differential-geometry"]
-prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "differential-geometry/chirality-operator", "differential-geometry/spinor-module", "differential-geometry/clifford-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/clifford-algebra", "differential-geometry/chirality-operator", "differential-geometry/spinor-module", "differential-geometry/clifford-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be an oriented complex [[linear-algebra/quadratic-form|quadratic space]] of even dimension \(2m\), and let \(\Delta\) be an irreducible module for its [[differential-geometry/clifford-algebra|complex Clifford algebra]]. The [[differential-geometry/chirality-operator|chirality operator]] decomposes the [[differential-geometry/spinor-module|spinor module]] as

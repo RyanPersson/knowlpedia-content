@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An orientation-reversing conformal automorphism of the Riemann sphere."
 aliases = ["anti-Mobius transformation", "antiholomorphic Möbius transformation"]
 domains = ["complex-analysis", "differential-geometry"]
-prerequisites = ["complex-analysis/riemann-sphere", "complex-analysis/mobius-transformation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/riemann-sphere", "complex-analysis/mobius-transformation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **anti-Möbius transformation** is a map of the [[complex-analysis/riemann-sphere|Riemann sphere]] of the form

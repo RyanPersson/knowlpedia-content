@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A unit-preserving multiplicative map that weakly or strongly preserves hyperaddition."
 aliases = ["weak hyperring homomorphism", "strong hyperring homomorphism", "strict hyperring homomorphism"]
 domains = ["algebra-hyperstructures", "algebra-rings"]
-prerequisites = ["algebra-hyperstructures/hyperring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/hyperring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For [[algebra-hyperstructures/hyperring|hyperrings]] \(R\) and \(S\), a

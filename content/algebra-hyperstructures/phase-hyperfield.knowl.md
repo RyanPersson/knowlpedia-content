@@ -5,9 +5,10 @@ kind = "example"
 summary = "The quotient hyperfield of the complex numbers by positive real scaling."
 aliases = ["complex phase hyperfield", "hyperfield of phases"]
 domains = ["algebra-hyperstructures", "complex-analysis"]
-prerequisites = ["algebra-hyperstructures/hyperfield-of-a-field-quotient"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-hyperstructures/hyperfield-of-a-field-quotient"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **phase hyperfield** is the

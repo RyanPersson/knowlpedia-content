@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A degree +1 family of maps witnessing that two chain maps differ by a boundary operator."
 aliases = ["chain-homotopy", "Chain homotopy"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-homological/chain-map", "algebra-homological/chain-complex"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/chain-homotopy.md"
+prerequisites = ["algebra-homological/chain-map", "algebra-homological/chain-complex"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f,g:C_\bullet\to D_\bullet\) be [[algebra-homological/chain-map|chain maps]] between [[algebra-homological/chain-complex|chain complexes]] \((C_\bullet,d^C)\) and \((D_\bullet,d^D)\).

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Construction of an Ehresmann connection on an associated bundle from a principal connection on P."
 aliases = ["construction-induced-connection-on-an-associated-bundle-using-horizontals", "Induced connection on an associated bundle via horizontals"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f", "fiber-bundles/horizontal-distribution", "fiber-bundles/ehresmann-connection", "fiber-bundles/connection-on-a-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/construction-induced-connection-on-an-associated-bundle-using-horizontals.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f", "fiber-bundles/horizontal-distribution", "fiber-bundles/ehresmann-connection", "fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/principal-connection|principal connection]] \(\omega\), and let \(E=P\times_G F\) be the [[fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f|associated bundle]] for a left \(G\)-space \(F\). Write \(q:P\times F\to E\) for the quotient map and denote by \(\pi_E:E\to M\) the bundle projection.

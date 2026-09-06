@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The standard notion of adjacency on the integer lattice where points differ by 1 in one coordinate."
 aliases = ["nearest-neighbor-zd", "Nearest-neighbor adjacency on Z^d"]
 domains = ["discrete-structures"]
-prerequisites = ["discrete-structures/lattice-zd"]
-dependency_review_count = 1
 legacy_source_path = "discrete-structures/nearest-neighbor-zd.md"
+prerequisites = ["discrete-structures/lattice-zd"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On the [[discrete-structures/lattice-zd|integer lattice]] \(\mathbb Z^d\), two sites \(x,y\) are **nearest neighbors**, written \(x\sim y\), if they differ by \(1\) in exactly one coordinate and agree in all others.

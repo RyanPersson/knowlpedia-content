@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A commutative ring with no nonzero nilpotent elements."
 aliases = ["reduced-ring", "Reduced ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/nilpotent-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/reduced-ring.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/nilpotent-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **reduced ring** is a [[algebra-rings/commutative-ring|commutative ring]] \(R\) such that the only [[algebra-rings/nilpotent-element|nilpotent element]] of \(R\) is \(0\).

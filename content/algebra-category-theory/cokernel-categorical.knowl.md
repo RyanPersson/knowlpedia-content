@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a pointed category, the cokernel of f:A→B is the coequalizer of f and the zero morphism A→B."
 aliases = ["cokernel-categorical", "Cokernel (categorical)"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/kernel-categorical"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/cokernel-categorical.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/zero-object"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] with a zero object, and hence with zero morphisms \(0_{A,B}:A\to B\). Given a morphism \(f:A\to B\), a **cokernel** of \(f\) is a morphism

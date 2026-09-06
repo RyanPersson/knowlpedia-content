@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The common value determined by Riemann sums when a function is integrable."
 aliases = ["riemann-integral", "Riemann integral"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/lower-sum", "real-analysis/upper-sum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-integral.md"
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/lower-sum", "real-analysis/upper-sum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Riemann integral** of a [[real-analysis/riemann-integrable-function|Riemann integrable function]] \(f:[a,b]\to\mathbb R\) is the number

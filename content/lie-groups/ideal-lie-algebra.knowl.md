@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie subalgebra stable under bracketing with the whole algebra."
 aliases = ["ideal-lie-algebra", "Ideal in a Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "lie-groups/adjoint-representation-of-a-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/ideal-lie-algebra.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]].

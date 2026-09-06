@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every closed differential form of positive degree is locally exact."
 aliases = ["local exactness of differential forms"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **Poincaré lemma** states that every [[fiber-bundles/closed-differential-form|closed differential form]] of degree \(k>0\) is locally [[fiber-bundles/exact-differential-form|exact]]. Explicitly, if \(M\) is a [[fiber-bundles/smooth-manifold|smooth manifold]], \(p\in M\), and \(\omega\in\Omega^k(M)\) satisfies \(d\omega=0\), then some open neighborhood \(W\) of \(p\) admits \(\eta\in\Omega^{k-1}(W)\) with \(\omega|_W=d\eta\). Equivalently, on every star-shaped open set \(U\subseteq\mathbb R^n\), each closed form of positive degree is exact. In degree zero, the corresponding statement is that a function with zero differential is locally constant.

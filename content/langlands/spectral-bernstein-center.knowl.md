@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ring of global functions on the stack of local Langlands parameters."
 aliases = ["stable Bernstein center on the spectral side", "spectral center", "Z_spec"]
 domains = ["langlands", "representation-theory", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "langlands/stack-of-l-parameters"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "langlands/stack-of-l-parameters"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a

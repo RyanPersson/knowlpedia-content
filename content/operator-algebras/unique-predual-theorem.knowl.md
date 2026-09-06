@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The Banach-space predual of a von Neumann algebra is uniquely determined up to its canonical isometry."
 aliases = ["uniqueness of the von Neumann algebra predual"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/predual", "linear-algebra/banach-space", "functional-analysis/weak-star-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/predual", "linear-algebra/banach-space", "functional-analysis/weak-star-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]].

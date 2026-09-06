@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Irreducible complex characters are orthonormal under the standard inner product on class functions."
 aliases = ["character-orthogonality", "Character orthogonality"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/character", "algebra-groups/class-function", "algebra-groups/conjugacy-class", "linear-algebra/inner-product", "linear-algebra/orthogonality", "algebra-representation-theory/irreducible-character", "algebra-representation-theory/character-orthonormality", "algebra-representation-theory/number-irreducibles-conjugacy-classes", "algebra-groups/centralizer", "algebra-representation-theory/maschkes-theorem", "algebra-representation-theory/schurs-lemma"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/character-orthogonality.md"
+prerequisites = ["algebra-representation-theory/character", "algebra-groups/class-function", "algebra-groups/conjugacy-class", "linear-algebra/inner-product", "linear-algebra/orthogonality", "algebra-representation-theory/character-orthonormality", "algebra-representation-theory/number-irreducibles-conjugacy-classes", "algebra-groups/centralizer", "algebra-representation-theory/maschkes-theorem", "algebra-representation-theory/schurs-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group. A (complex) [[algebra-representation-theory/character|character]] \(\chi:G\to\mathbb C\) is a [[algebra-groups/class-function|class function]]: it is constant on each [[algebra-groups/conjugacy-class|conjugacy class]].

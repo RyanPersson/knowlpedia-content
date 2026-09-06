@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Hamiltonian function is a smooth real-valued function on a symplectic manifold that determines a Hamiltonian vector field."
 aliases = ["Hamiltonian"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. A **Hamiltonian function** is a smooth function \(H:M\to\mathbb{R}\). With the convention

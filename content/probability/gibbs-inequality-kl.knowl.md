@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Kullback–Leibler divergence is always nonnegative, and it is zero only when the two distributions are identical."
 aliases = ["gibbs-inequality-kl", "Gibbs' inequality (nonnegativity of KL divergence)"]
 domains = ["probability"]
-prerequisites = ["probability/probability-measure", "shared-foundations/set", "measure-theory/sigma-algebra", "probability/relative-entropy-kl-divergence"]
-dependency_review_count = 1
 legacy_source_path = "probability/gibbs-inequality-kl.md"
+prerequisites = ["probability/probability-measure", "shared-foundations/set", "measure-theory/sigma-algebra", "probability/relative-entropy-kl-divergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Gibbs' inequality:** Let \(P\) and \(Q\) be [[probability/probability-measure|probability measures]] on a [[shared-foundations/set|set]] \(\Omega\) equipped with a [[measure-theory/sigma-algebra|sigma-algebra]] \(\mathcal F\), and let \(D(P\|Q)\) denote their [[probability/relative-entropy-kl-divergence|Kullback–Leibler divergence]] (allowing the value \(+\infty\)). Then

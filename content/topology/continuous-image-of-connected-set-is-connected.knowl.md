@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Continuous maps preserve connectedness."
 aliases = ["continuous-image-of-connected-set-is-connected", "Continuous image of a connected set is connected"]
 domains = ["topology"]
-prerequisites = ["topology/continuous-map", "topology/connected-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/continuous-image-of-connected-set-is-connected.md"
+prerequisites = ["topology/continuous-map", "topology/connected-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Continuous image of a connected set is connected:** Let \(f:X\to Y\) be a [[topology/continuous-map|continuous map]] between topological spaces. If \(C\subseteq X\) is [[topology/connected-set|connected]], then \(f(C)\subseteq Y\) is connected.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A maximal-dimensional Lie subalgebra on which the alternating form defined by a coadjoint functional vanishes."
 aliases = ["subordinate subalgebra of maximal dimension", "real polarization", "complex polarization"]
 domains = ["lie-groups", "representation-theory", "differential-geometry"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional real [[lie-groups/lie-algebra|Lie algebra]] and \(\ell\in\mathfrak g^*\). Set

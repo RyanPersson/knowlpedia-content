@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth map between manifolds with boundary has coordinate representatives that extend smoothly across the bounding hyperplanes."
 aliases = ["boundary-smooth map", "smooth map on manifolds with boundary"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/boundary-chart", "fiber-bundles/smooth-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/manifold-with-boundary", "differential-geometry/boundary-chart", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[differential-geometry/manifold-with-boundary|smooth manifolds with boundary]] of dimensions \(m\) and \(n\). A map \(F:M\to N\) is **smooth** if, for every \(p\in M\), there are [[differential-geometry/boundary-chart|boundary charts]] \((U,\varphi)\) at \(p\) and \((V,\psi)\) at \(F(p)\), with \(F(U)\subseteq V\), such that

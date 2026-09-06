@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A map from a selected Poisson algebra of classical observables to operators on a quantum state space."
 aliases = ["canonical quantization map", "Dirac quantization map", "operator quantization"]
 domains = ["mathematical-physics", "differential-geometry", "functional-analysis"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-algebra-smooth-functions", "linear-algebra/hilbert-space", "functional-analysis/symmetric-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-algebra-smooth-functions", "linear-algebra/hilbert-space", "functional-analysis/symmetric-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]], let \(\mathcal A\subseteq C^\infty(M,\mathbb R)\) be a [[differential-geometry/poisson-algebra-smooth-functions|Poisson subalgebra]] containing the constants, and let \(\mathscr D\) be a dense subspace of a complex [[linear-algebra/hilbert-space|Hilbert space]] \(\mathscr H\). A **quantization map** on \(\mathcal A\) is a real-linear map

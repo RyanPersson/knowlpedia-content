@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring homomorphism induces an isomorphism from the quotient by its kernel onto its image."
 aliases = ["first-isomorphism-theorem-rings", "First isomorphism theorem for rings"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/ring-isomorphism", "algebra-rings/kernel-ring", "algebra-rings/image-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/first-isomorphism-theorem-rings.md"
+prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/ring-isomorphism", "algebra-rings/kernel-ring", "algebra-rings/image-ring", "algebra-rings/quotient-ring"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **First isomorphism theorem (rings)**: Let \(\varphi:R\to S\) be a [[algebra-rings/ring-homomorphism|ring homomorphism]]. Then the induced map

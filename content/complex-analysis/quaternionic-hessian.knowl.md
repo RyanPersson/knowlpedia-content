@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The hyperhermitian matrix of mixed Cauchy–Fueter derivatives of a real-valued function."
 aliases = ["quaternionic Hessian matrix", "Hessian over the quaternions"]
 domains = ["complex-analysis", "quaternionic-analysis", "partial-differential-equations"]
-prerequisites = ["complex-analysis/cauchy-fueter-operators", "linear-algebra/hyperhermitian-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["complex-analysis/cauchy-fueter-operators", "linear-algebra/hyperhermitian-form", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a real-valued \(C^2\) function \(u\) on an open subset of

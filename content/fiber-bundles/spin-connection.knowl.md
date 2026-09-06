@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The lift of the Levi–Civita connection from the oriented orthonormal frame bundle to a chosen spin structure."
 aliases = ["lifted Levi–Civita connection", "connection on a spin bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/spin-structure", "fiber-bundles/principal-connection", "fiber-bundles/levicivita-connection-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/spin-structure", "fiber-bundles/principal-connection", "fiber-bundles/levicivita-connection-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian \(n\)-manifold]] with [[fiber-bundles/spin-structure|spin structure]] \(\Phi:P_{\mathrm{Spin}}\to P_{\mathrm{SO}}\), and let \(\lambda:\mathrm{Spin}(n)\to\mathrm{SO}(n)\) be the double covering. The **spin connection** is the unique [[fiber-bundles/principal-connection|principal connection]] \(\widetilde\omega\) on \(P_{\mathrm{Spin}}\) satisfying

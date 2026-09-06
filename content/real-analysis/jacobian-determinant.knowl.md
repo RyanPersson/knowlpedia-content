@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Determinant of the Jacobian matrix for a map from Rn to Rn"
 aliases = ["jacobian-determinant", "Jacobian determinant"]
 domains = ["real-analysis"]
-prerequisites = ["linear-algebra/determinant", "real-analysis/jacobian-matrix"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/jacobian-determinant.md"
+prerequisites = ["linear-algebra/determinant", "real-analysis/jacobian-matrix", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For a differentiable map \(f:U\to\mathbb{R}^n\), where \(U\subseteq\mathbb{R}^n\), the **Jacobian determinant** of \(f\) at \(a\in U\) is the [[linear-algebra/determinant|determinant]] of its [[real-analysis/jacobian-matrix|Jacobian matrix]]:

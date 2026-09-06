@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A real symmetric or complex Hermitian matrix whose quadratic form is nonnegative."
 aliases = ["nonnegative definite matrix", "PSD matrix", "positive semidefinite Hermitian matrix", "positive matrix in Loewner order"]
 domains = ["linear-algebra", "functional-analysis"]
-prerequisites = ["linear-algebra/matrix", "linear-algebra/inner-product-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/matrix", "linear-algebra/inner-product-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\in M_n(\mathbb F)\), where

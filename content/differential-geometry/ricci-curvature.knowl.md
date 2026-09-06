@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The symmetric covariant two-tensor obtained by tracing the Riemann curvature tensor."
 aliases = ["Ricci tensor", "Ricci curvature tensor"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/riemann-curvature-tensor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/riemann-curvature-tensor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be an \(n\)-dimensional

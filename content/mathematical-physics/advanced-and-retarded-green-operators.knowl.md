@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Two-sided Green operators on compactly supported sections whose outputs have future- or past-causal support."
 aliases = ["causal Green operators", "advanced Green operator", "retarded Green operator"]
 domains = ["mathematical-physics", "partial-differential-equations"]
-prerequisites = ["differential-geometry/lorentzian-manifold","differential-geometry/chronological-and-causal-future"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/chronological-and-causal-future", "mathematical-physics/normally-hyperbolic-operator", "differential-geometry/globally-hyperbolic-spacetime"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P:\Gamma^\infty(E)\to\Gamma^\infty(E)\) be a differential operator on a time-oriented [[differential-geometry/lorentzian-manifold|Lorentzian manifold]]. A **future Green operator** \(G^+\) and a **past Green operator** \(G^-\) are linear maps

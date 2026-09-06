@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring decomposed into homogeneous pieces compatible with multiplication."
 aliases = ["graded-ring", "Graded ring"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/direct-sum-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/graded-ring.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/direct-sum-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **graded ring** is a [[algebra-rings/ring|ring]] \(R\) together with a direct-sum decomposition of abelian groups

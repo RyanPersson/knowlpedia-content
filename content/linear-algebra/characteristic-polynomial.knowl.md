@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The basis-independent determinant polynomial attached to a finite-dimensional linear operator."
 aliases = ["characteristic-polynomial", "Characteristic polynomial"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/linear-operator", "linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "linear-algebra/characteristic-polynomial.md"
+prerequisites = ["linear-algebra/linear-operator", "linear-algebra/matrix", "linear-algebra/determinant", "algebra-rings/polynomial-ring", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **characteristic polynomial** of a [[linear-algebra/linear-operator|linear operator]] \(T:V\to V\) on an \(n\)-dimensional [[linear-algebra/vector-space|vector space]] is the polynomial

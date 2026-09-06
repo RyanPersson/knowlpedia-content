@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The complex vector space obtained from a real vector space by extending scalars to the complex numbers."
 aliases = ["complexification of a real vector space", "complexified vector space"]
 domains = ["linear-algebra"]
-prerequisites = ["linear-algebra/vector-space", "algebra-modules/tensor-product", "shared-foundations/real-numbers", "shared-foundations/complex-numbers-c"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "algebra-modules/tensor-product", "shared-foundations/real-numbers", "shared-foundations/complex-numbers-c"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a real [[linear-algebra/vector-space|vector space]]. Its **complexification** is the complex vector space

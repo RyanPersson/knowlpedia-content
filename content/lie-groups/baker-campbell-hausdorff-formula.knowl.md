@@ -5,11 +5,11 @@ kind = "theorem"
 summary = "A Lie series for the product exp(X)exp(Y) expressed as exp(BCH(X,Y))."
 aliases = ["baker-campbell-hausdorff-formula", "Baker–Campbell–Hausdorff formula"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/exponential-map-lie-group", "fiber-bundles/lie-bracket", "lie-groups/nilpotent-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "lie-groups/baker-campbell-hausdorff-formula.md"
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/exponential-map-lie-group", "fiber-bundles/lie-bracket", "lie-groups/nilpotent-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak{g}\) and [[lie-groups/exponential-map-lie-group|exponential map]] \(\exp:\mathfrak{g}\to G\). For \(X,Y\in\mathfrak{g}\) sufficiently small, there is a unique \(Z\in\mathfrak{g}\) near \(0\) such that \(\exp(X)\exp(Y)=\exp(Z)\); write \(Z=\mathrm{BCH}(X,Y)\).

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The normally hyperbolic scalar operator obtained by adding mass and curvature coupling to the wave operator."
 aliases = ["massive wave operator", "Klein-Gordon operator", "Klein Gordon operator"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
-prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/dalembert-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/dalembert-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]] \((M,g)\), the **minimally coupled Klein–Gordon operator** of mass \(m\geq0\) is

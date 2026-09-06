@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A formal moduli space of p-divisible groups quasi-isogenous to a fixed framing object, often with additional structure."
 aliases = ["Rapoport-Zink space", "Rapoport–Zink formal scheme", "RZ space"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
-prerequisites = ["algebra-fields-galois/perfect-field", "algebraic-geometry-foundations/formal-scheme"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/perfect-field", "algebraic-geometry-foundations/formal-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a [[algebra-fields-galois/perfect-field|perfect field]] \(k\) of

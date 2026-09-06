@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A connection on an oriented Riemannian four-manifold whose curvature lies entirely in the self-dual or anti-self-dual summand of two-forms."
 aliases = ["self-dual connection", "anti-self-dual connection", "SD connection", "ASD connection"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over an oriented Riemannian four-manifold, and let \(A\) be a [[fiber-bundles/principal-connection|connection]] with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] \(F_A\in\Omega^2(M;\operatorname{ad}P)\). The metric and orientation define a [[differential-geometry/hodge-star-operator|Hodge star]] with \(*^2=1\) on two-forms. The connection is **self-dual** if

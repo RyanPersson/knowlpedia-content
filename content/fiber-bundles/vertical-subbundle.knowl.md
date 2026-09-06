@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The smooth subbundle of TE consisting of vectors tangent to the fibers of a surjective submersion."
 aliases = ["vertical-subbundle", "Vertical subbundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tangent-bundle", "fiber-bundles/vector-subbundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/vertical-subbundle.md"
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tangent-bundle", "fiber-bundles/vertical-tangent-space", "fiber-bundles/vector-subbundle", "fiber-bundles/section-of-a-fiber-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/fibered-manifold|fibered manifold]]. The differential of \(\pi\) defines a smooth [[fiber-bundles/vector-bundle-morphism|vector bundle map]] between the [[fiber-bundles/tangent-bundle|tangent bundles]]

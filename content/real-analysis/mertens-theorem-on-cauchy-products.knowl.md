@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Cauchy product of two convergent series converges to the product of their sums if one series converges absolutely."
 aliases = ["mertens-theorem-on-cauchy-products", "Mertens theorem on Cauchy products"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/cauchy-product", "real-analysis/absolutely-convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/mertens-theorem-on-cauchy-products.md"
+prerequisites = ["real-analysis/series", "real-analysis/cauchy-product", "real-analysis/absolutely-convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\sum_{n=0}^\infty a_n\) and \(\sum_{n=0}^\infty b_n\) be convergent real or complex [[real-analysis/series|series]]. Define their [[real-analysis/cauchy-product|Cauchy product]] by

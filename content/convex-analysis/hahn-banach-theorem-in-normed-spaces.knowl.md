@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bounded linear functional on a subspace extends to the whole space without increasing its norm."
 aliases = ["hahn-banach-theorem-in-normed-spaces", "Hahn–Banach Theorem in Normed Spaces"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/linear-subspace", "convex-analysis/bounded-linear-functional-norm-of-a-functional"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/hahn-banach-theorem-in-normed-spaces.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/linear-subspace", "convex-analysis/bounded-linear-functional-norm-of-a-functional", "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[convex-analysis/norm-normed-vector-space|normed space]], let \(Y\subset X\) be a [[convex-analysis/linear-subspace|subspace]], and let \(f:Y\to\mathbb{K}\) be a [[convex-analysis/bounded-linear-functional-norm-of-a-functional|bounded linear functional]].

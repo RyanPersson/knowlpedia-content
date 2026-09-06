@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function whose outputs cover the entire codomain"
 aliases = ["surjective-function", "Surjective function"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/surjective-function.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **surjective function** is a [[shared-foundations/function|function]] \(f:A\to B\) such that for every \(b\in B\) there exists at least one \(a\in A\) with \(f(a)=b\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every nonempty subset of the real numbers that is bounded below has a real infimum."
 aliases = ["greatest-lower-bound-theorem", "Greatest Lower Bound Theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-below"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/greatest-lower-bound-theorem.md"
+prerequisites = ["real-analysis/bounded-below"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 If \(E\subseteq\mathbb R\) is nonempty and [[real-analysis/bounded-below|bounded below]], then its greatest lower bound \(\inf E\) exists in \(\mathbb R\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The product group with componentwise multiplication"
 aliases = ["direct-product-groups", "Direct Product of Groups"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/cartesian-product"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/direct-product-groups.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/cartesian-product"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Given [[algebra-groups/group|groups]] \(G\) and \(H\), their (external) **direct product** is the set [[shared-foundations/cartesian-product|Cartesian product]] \(G\times H\) equipped with componentwise multiplication:

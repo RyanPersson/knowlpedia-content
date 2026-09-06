@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Pullback gives a right action of the gauge group on principal connections."
 aliases = ["proposition-gauge-group-acts-on-conn-by-pullback", "Gauge group action on connections by pullback"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. Write \(\mathrm{Conn}(P)\) for the set of [[fiber-bundles/principal-connection|principal connections]] on \(P\), and let \(\mathrm{Gauge}(P)\) denote the gauge group, i.e. the group of \(G\)-equivariant diffeomorphisms \(\Phi:P\to P\) covering the identity on \(M\) (so \(\pi\circ\Phi=\pi\) and \(\Phi(p\cdot g)=\Phi(p)\cdot g\)).

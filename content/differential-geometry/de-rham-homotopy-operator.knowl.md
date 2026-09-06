@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The degree-minus-one operator obtained by integrating a pulled-back form along a smooth homotopy, yielding a chain homotopy between endpoint pullbacks."
 aliases = ["homotopy operator for differential forms", "chain homotopy on forms"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["differential-geometry/smooth-homotopy", "linear-algebra/linear-map", "fiber-bundles/pullback-of-differential-forms", "algebra-homological/chain-homotopy"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/smooth-homotopy", "linear-algebra/linear-map", "fiber-bundles/pullback-of-differential-forms", "algebra-homological/chain-homotopy"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F:M\times[0,1]\to N\) be a [[differential-geometry/smooth-homotopy|smooth homotopy]], with \(F_t(x)=F(x,t)\). The **de Rham homotopy operator** associated to \(F\) is the degree-\(-1\) [[linear-algebra/linear-map|linear map]]

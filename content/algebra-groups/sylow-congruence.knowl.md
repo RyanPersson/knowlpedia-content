@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The number n_p of Sylow p-subgroups satisfies n_p ≡ 1 (mod p)."
 aliases = ["sylow-congruence", "Sylow Congruence"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylow-congruence.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Sylow Congruence**: Let \(G\) be a finite [[algebra-groups/group|group]] and let \(p\) be a prime. Write \(|G|=p^a m\) with \(a\ge 1\) and \(p\nmid m\). Let \(n_p\) be the number of [[algebra-groups/sylow-subgroup|Sylow p-subgroups]] of \(G\). Then

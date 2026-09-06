@@ -5,10 +5,10 @@ kind = "definition"
 summary = "Smooth maps to a common target whose differentials jointly span the target tangent space over every coincidence."
 aliases = ["transverse maps", "maps transverse to each other"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-of-a-smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-of-a-smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to P\) and \(g:N\to P\) be [[fiber-bundles/smooth-map|smooth maps]] between finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary. The maps \(f\) and \(g\) are **transverse**, written \(f\pitchfork g\), if for every pair \((x,y)\in M\times N\) with \(f(x)=g(y)=z\),

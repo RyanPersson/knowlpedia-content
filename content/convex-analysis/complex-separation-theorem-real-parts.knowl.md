@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "In complex vector spaces, separation holds via the real part of a complex linear functional."
 aliases = ["complex-separation-theorem-real-parts", "Complex Separation Theorem (Real Parts)"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/complex-separation-theorem-real-parts.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/separation-of-two-convex-sets-via-the-core-condition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a complex [[linear-algebra/vector-space|vector space]] and let \(\Omega_1,\Omega_2\subset X\) be nonempty [[convex-analysis/convex-set|convex sets]]. Assume [[convex-analysis/algebraic-interior-core|core(Ω₁)]] \(\neq\emptyset\) and \(\operatorname{core}(\Omega_1)\cap\Omega_2=\emptyset\).

@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Convergence implies the Cauchy property in any metric space"
 aliases = ["convergent-sequences-are-cauchy", "Convergent sequences are Cauchy"]
 domains = ["convex-analysis"]
-prerequisites = ["topology/cauchy-sequence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/convergent-sequences-are-cauchy.md"
+prerequisites = ["convex-analysis/convergence-of-a-sequence", "topology/cauchy-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Distributional convolution extends ordinary convolution under support hypotheses and includes convolution with test functions."
 aliases = ["distribution convolution", "convolution with a distribution", "distributional convolution", "convolution with a compactly supported distribution"]
 domains = ["functional-analysis", "distribution-theory", "harmonic-analysis"]
-prerequisites = ["functional-analysis/distribution", "functional-analysis/compactly-supported-distribution", "functional-analysis/test-function-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/distribution", "functional-analysis/compactly-supported-distribution", "functional-analysis/test-function-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S,T\in\mathcal D'(\mathbb R^n)\) be

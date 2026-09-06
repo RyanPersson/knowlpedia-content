@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The parameter space of all subspaces of a fixed dimension in a finite-dimensional vector space."
 aliases = ["Grassmann manifold", "k-plane Grassmannian"]
 domains = ["differential-geometry", "algebraic-geometry-foundations"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be an \(n\)-dimensional [[linear-algebra/vector-space|vector space]] over \(\mathbb F=\mathbb R\) or \(\mathbb C\), and let \(0\leq k\leq n\). The **Grassmannian**

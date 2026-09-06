@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If a is in core(Ω) and b in Ω, then points on [a,b) remain in core(Ω)."
 aliases = ["segments-from-core-points-stay-in-the-core", "Segments from Core Points Stay in the Core"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/line-segments-in-a-vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/segments-from-core-points-stay-in-the-core.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/algebraic-interior-core", "convex-analysis/line-segments-in-a-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subset X\) be [[convex-analysis/convex-set|convex]].

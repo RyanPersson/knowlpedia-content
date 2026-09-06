@@ -6,6 +6,7 @@ summary = "The site of schemes étale over a fixed scheme, covered by jointly su
 aliases = ["small-etale-site", "Small etale site", "Small étale site"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/site", "algebraic-geometry-foundations/etale-morphism", "algebraic-geometry-foundations/scheme-over-a-base"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

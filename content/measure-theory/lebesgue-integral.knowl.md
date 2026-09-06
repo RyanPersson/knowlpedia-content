@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Integral of a measurable function defined from its positive and negative parts."
 aliases = ["lebesgue-integral", "Lebesgue integral"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/measurable-function","measure-theory/lebesgue-integral-nonnegative"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-integral.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **Lebesgue integral** on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) assigns a value to a [[measure-theory/measurable-function|measurable function]] \(f:X\to[-\infty,\infty]\) by reducing to the nonnegative case. Define the positive and negative parts

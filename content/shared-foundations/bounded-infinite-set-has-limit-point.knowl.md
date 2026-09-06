@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bounded infinite set in Euclidean space has an accumulation point"
 aliases = ["bounded-infinite-set-has-limit-point", "Every bounded infinite subset of R^k has a limit point"]
 domains = ["shared-foundations"]
-prerequisites = ["topology/bounded-set", "topology/limit-point", "topology/open-ball"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/bounded-infinite-set-has-limit-point.md"
+prerequisites = ["topology/bounded-set", "topology/limit-point", "topology/open-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Corollary (Bolzano–Weierstrass, set form)**: Let \(E\subseteq\mathbb{R}^k\) be [[topology/bounded-set|bounded]] and infinite. Then \(E\) has a [[topology/limit-point|limit point]]; i.e., there exists \(x\in\mathbb{R}^k\) such that every [[topology/open-set|open]] ball \(B(x,\varepsilon)\) contains a point of \(E\) different from \(x\) (indeed, infinitely many points of \(E\)).

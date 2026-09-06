@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The number of copies of an irreducible representation in a semisimple decomposition."
 aliases = ["irreducible multiplicity", "representation multiplicity", "isotypic multiplicity"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["algebra-representation-theory/completely-reducible-representation", "algebraic-geometry-foundations/algebraically-closed-field", "lie-groups/irreducible-representation-lie-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-representation-theory/completely-reducible-representation", "algebraic-geometry-foundations/algebraically-closed-field", "lie-groups/irreducible-representation-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional [[algebra-representation-theory/completely-reducible-representation|completely reducible representation]] over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], and let \(S\) be an [[lie-groups/irreducible-representation-lie-group|irreducible representation]] of the same group. If

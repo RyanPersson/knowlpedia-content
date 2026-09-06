@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A nonzero nonunit p such that p | ab implies p | a or p | b."
 aliases = ["prime-element", "Prime element"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/prime-element.md"
+prerequisites = ["algebra-rings/integral-domain"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]]. An element \(p\in R\) is a **prime element** if \(p\neq 0\), \(p\) is not a unit, and whenever \(p\) divides a product \(ab\), then \(p\) divides \(a\) or \(p\) divides \(b\).

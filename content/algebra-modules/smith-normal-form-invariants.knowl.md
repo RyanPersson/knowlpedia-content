@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Smith normal form diagonal entries are canonical invariants and control the cokernel module."
 aliases = ["smith-normal-form-invariants", "Smith normal form invariants"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/smith-normal-form-theorem", "algebra-modules/structure-theorem-pid", "algebra-modules/cokernel-module", "algebra-rings/pid"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/smith-normal-form-invariants.md"
+prerequisites = ["algebra-modules/structure-theorem-pid", "algebra-modules/cokernel-module", "algebra-rings/pid"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 **Smith normal form invariants**: Let \(R\) be a PID and let \(A\in M_{m\times n}(R)\). Suppose \(A\) has Smith normal form \(\operatorname{diag}(d_1,\dots,d_r,0,\dots,0)\) with \(d_1\mid d_2\mid\cdots\mid d_r\). Then the elements \(d_i\) are uniquely determined by \(A\) up to multiplication by a unit of \(R\), and they determine the isomorphism class of the cokernel module

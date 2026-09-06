@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differential form on a principal bundle that vanishes whenever any input vector is vertical"
 aliases = ["horizontal-differential-form-on-a-principal-bundle", "Horizontal differential form on a principal bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/vertical-subbundle", "fiber-bundles/horizontal-distribution", "fiber-bundles/horizontal-lift-of-a-tangent-vector", "fiber-bundles/invariant-differential-form"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-differential-form-on-a-principal-bundle.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/vertical-subbundle", "fiber-bundles/invariant-differential-form", "fiber-bundles/differential-k-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]]. The vertical subbundle is

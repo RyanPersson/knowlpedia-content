@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "A finite-energy Yang–Mills connection on a punctured four-ball extends smoothly across the puncture after a gauge transformation."
 aliases = ["removable singularity theorem for Yang–Mills connections", "instanton removable singularity theorem"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/yangmills-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/yangmills-equation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/yangmills-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/yangmills-equation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be compact and let \(A\) be a smooth Yang–Mills connection on a principal \(G\)-bundle over the punctured Riemannian four-ball \(B^4\setminus\{0\}\). If its curvature has finite energy,

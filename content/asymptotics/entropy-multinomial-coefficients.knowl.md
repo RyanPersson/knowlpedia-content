@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Approximations and bounds relating multinomial coefficients to Shannon entropy."
 aliases = ["entropy-multinomial-coefficients", "Entropy and multinomial coefficients"]
 domains = ["asymptotics"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "asymptotics/entropy-multinomial-coefficients.md"
+prerequisites = ["asymptotics/stirlings-approximation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Multinomial coefficients have exponential growth rates governed by entropy. This connection underlies many results in information theory and large deviations, including the [[asymptotics/method-of-types|method-of-types]].

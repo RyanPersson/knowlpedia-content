@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The linear topology on a ring or module whose neighborhoods of zero are the powers of an ideal."
 aliases = ["adic topology", "I-adic topology", "ideal-adic topology"]
 domains = ["algebra-commutative", "algebra-rings"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[algebra-rings/commutative-ring|commutative ring]] and

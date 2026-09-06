@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function on a convex set is convex exactly when its extension by positive infinity is convex."
 aliases = ["convexity-on-a-convex-subset-via-extension", "Convexity on a convex subset via extension"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-set", "convex-analysis/convex-function-via-epigraph"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/convexity-on-a-convex-subset-via-extension.md"
+prerequisites = ["convex-analysis/convex-set", "convex-analysis/convex-function-via-epigraph"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real vector space, let \(\Omega\subseteq X\) be a nonempty [[convex-analysis/convex-set|convex set]], and let \(f:\Omega\to\mathbb R\).

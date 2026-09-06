@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A category whose objects are closed manifolds and whose morphisms are cobordisms composed by gluing."
 aliases = ["bordism category", "category of cobordisms"]
 domains = ["differential-geometry", "category-theory"]
-prerequisites = ["topology/closed-manifold", "algebra-category-theory/morphism", "differential-geometry/cobordism", "algebra-category-theory/identity-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/closed-manifold", "algebra-category-theory/morphism", "differential-geometry/cobordism", "algebra-category-theory/identity-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(d\geq1\), the **\(d\)-dimensional cobordism category** \(\mathbf{Cob}_d\) has [[topology/closed-manifold|closed smooth manifolds]] of dimension \(d-1\) as objects. A [[algebra-category-theory/morphism|morphism]] \(M_0\to M_1\) is a diffeomorphism class, relative to the boundary, of compact \(d\)-dimensional [[differential-geometry/cobordism|cobordisms]] \(W\) equipped with boundary identifications \(\partial W\cong M_0\sqcup M_1\) and collars of those boundary components. Composition is smooth gluing along the identified common boundary, disjoint union is the symmetric monoidal product, and the cylinder represents the [[algebra-category-theory/identity-morphism|identity morphism]]. All diffeomorphisms used in the quotient must preserve the specified boundary data.

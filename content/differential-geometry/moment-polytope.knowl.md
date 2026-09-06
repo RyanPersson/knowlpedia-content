@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The convex-polytope image of the moment map for a compact connected Hamiltonian torus space."
 aliases = ["momentum polytope"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "differential-geometry/atiyah-guillemin-sternberg-convexity-theorem"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "differential-geometry/atiyah-guillemin-sternberg-convexity-theorem", "convex-analysis/convex-hull", "algebra-groups/fixed-point-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a compact torus \(T\), with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak t\), act in a Hamiltonian fashion on a compact connected [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\), and let \(\mu:M\to\mathfrak t^*\) be a [[fiber-bundles/moment-map|moment map]]. The **moment polytope** is

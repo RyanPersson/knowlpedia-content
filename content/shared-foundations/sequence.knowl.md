@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function from the natural numbers to a set."
 aliases = ["sequence"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/function", "shared-foundations/natural-numbers"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/sequence.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/function", "shared-foundations/natural-numbers"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **sequence** in a [[shared-foundations/set|set]] \(X\) is a [[shared-foundations/function|function]] \(a:\mathbb{N}\to X\), where \(\mathbb{N}\) is the [[shared-foundations/natural-numbers|natural numbers]]. One writes \(a_n\) for \(a(n)\), so the sequence is denoted \((a_n)_{n\in\mathbb{N}}\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The topological space obtained by identifying points lying in the same orbit of a group action."
 aliases = ["quotient-space-of-an-action", "Quotient space of an action (orbit space)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/orbit-of-a-group-action", "fiber-bundles/principal-action", "fiber-bundles/quotient-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/quotient-space-of-an-action.md"
+prerequisites = ["fiber-bundles/orbit-of-a-group-action", "fiber-bundles/principal-action", "fiber-bundles/quotient-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act on a manifold \(M\).

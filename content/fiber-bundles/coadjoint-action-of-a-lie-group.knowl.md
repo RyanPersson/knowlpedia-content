@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The induced action of a Lie group on the dual of its Lie algebra obtained by dualizing the adjoint action."
 aliases = ["coadjoint-action-of-a-lie-group", "Coadjoint action of a Lie group"]
 domains = ["fiber-bundles"]
-prerequisites = ["lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/cotangent-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/coadjoint-action-of-a-lie-group.md"
+prerequisites = ["lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/cotangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a Lie group with Lie algebra \(\mathfrak{g}\). The [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]] assigns to each \(g\in G\) an automorphism \(\mathrm{Ad}_g:\mathfrak{g}\to\mathfrak{g}\). The **coadjoint action** is the action of \(G\) on the dual vector space \(\mathfrak{g}^*\) (canonically analogous to a fiber of a [[fiber-bundles/cotangent-bundle|cotangent bundle]]) defined by

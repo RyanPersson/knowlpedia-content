@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Hodge Laplacian is the degree-preserving elliptic operator obtained by anticommuting the exterior derivative and codifferential."
 aliases = ["Laplace–de Rham operator", "de Rham Laplacian", "Hodge–de Rham Laplacian"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/exterior-derivative", "differential-geometry/codifferential"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/exterior-derivative", "differential-geometry/codifferential", "differential-geometry/hodge-star-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]]. The **Hodge Laplacian** on differential \(k\)-forms is

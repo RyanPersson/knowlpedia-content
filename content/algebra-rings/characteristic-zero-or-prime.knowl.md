@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An integral domain cannot have composite positive characteristic."
 aliases = ["characteristic-zero-or-prime", "Characteristic of an integral domain is 0 or prime"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-rings/characteristic", "algebra-rings/kernel-is-ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/characteristic-zero-or-prime.md"
+prerequisites = ["algebra-rings/characteristic", "algebra-rings/integral-domain", "algebra-rings/kernel-is-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Characteristic of an integral domain is 0 or prime**: If \(D\) is an integral domain, then \(\operatorname{char}(D)\) is either \(0\) or a prime number \(p\).

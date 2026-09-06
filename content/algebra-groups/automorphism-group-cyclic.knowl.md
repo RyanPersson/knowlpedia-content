@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Aut(C_n) is naturally isomorphic to (ℤ/nℤ)×"
 aliases = ["automorphism-group-cyclic", "Automorphisms of a cyclic group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-rings/group-of-units"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/automorphism-group-cyclic.md"
+prerequisites = ["algebra-rings/group-of-units", "algebra-groups/group", "algebra-groups/cyclic-subgroup", "algebra-groups/group-isomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.** Let \(G=\langle g\rangle\) be a cyclic group of finite order \(n\). The map sending an automorphism \(\alpha\) to the unique residue class \(k\) satisfying \(\alpha(g)=g^k\) gives an isomorphism

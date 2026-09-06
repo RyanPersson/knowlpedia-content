@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Expectation of a centered product measuring joint linear variability of two random variables"
 aliases = ["covariance"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable"]
-dependency_review_count = 1
 legacy_source_path = "probability/covariance.md"
+prerequisites = ["probability/random-variable", "probability/expectation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **covariance** is the quantity \(\operatorname{Cov}(X,Y)=\mathbb{E}\!\left[(X-\mathbb{E}[X])(Y-\mathbb{E}[Y])\right]=\mathbb{E}[XY]-\mathbb{E}[X]\mathbb{E}[Y]\) associated to two [[probability/random-variable|random variables]] \(X\) and \(Y\) with finite second moments.

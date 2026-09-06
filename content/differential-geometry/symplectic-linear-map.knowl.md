@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear map that pulls the target symplectic form back to the source symplectic form."
 aliases = ["linear symplectic map"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega_V)\) and \((W,\omega_W)\) be finite-dimensional [[differential-geometry/symplectic-vector-space|symplectic vector spaces]]. A **symplectic linear map** is a [[linear-algebra/linear-map|linear map]] \(T:V\to W\) satisfying

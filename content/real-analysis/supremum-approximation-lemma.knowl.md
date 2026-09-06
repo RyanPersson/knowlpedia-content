@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A supremum can be approximated from below by elements of the set."
 aliases = ["supremum-approximation-lemma", "Supremum Approximation Lemma"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "real-analysis/bounded-below"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/supremum-approximation-lemma.md"
+prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "real-analysis/bounded-below", "real-analysis/infimum"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Supremum approximation lemma:** Let \(A \subseteq \mathbb{R}\) be nonempty and [[real-analysis/bounded-above|bounded above]], and let \(s=\sup A\) (see [[real-analysis/supremum|supremum]]). Then for every \(\varepsilon>0\) there exists \(a\in A\) such that

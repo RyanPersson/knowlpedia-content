@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The eight-sphere obtained as the projective quotient of the unit sphere in the octonionic plane."
 aliases = ["Cayley projective line", "OP^1", "octonionic line space"]
 domains = ["differential-geometry", "nonassociative-algebra", "octonionic-analysis"]
-prerequisites = ["topology/one-point-compactification"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/one-point-compactification"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For unit vectors \(\xi,\eta\in S^{15}\subset\mathbb O^2\), define

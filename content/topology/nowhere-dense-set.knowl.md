@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set whose closure has empty interior"
 aliases = ["nowhere-dense-set", "Nowhere dense set"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/interior", "topology/closure", "shared-foundations/empty-set"]
-dependency_review_count = 1
 legacy_source_path = "topology/nowhere-dense-set.md"
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/interior", "topology/closure", "shared-foundations/empty-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **nowhere dense set** in a [[topology/topological-space|topological space]] \(X\) is a [[shared-foundations/subset|subset]] \(A\subseteq X\) such that the [[topology/interior|interior]] of its [[topology/closure|closure]] is [[shared-foundations/empty-set|empty]], i.e. \(\operatorname{int}(\overline{A})=\varnothing\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two atlases are equivalent if they define the same smooth bundle structure via compatible trivialisations."
 aliases = ["equivalent-bundle-atlases", "Equivalent bundle atlases"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/bundle-atlas", "fiber-bundles/transition-function"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivalent-bundle-atlases.md"
+prerequisites = ["fiber-bundles/bundle-atlas", "fiber-bundles/transition-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a smooth fiber bundle with typical fiber \(F\). Two [[fiber-bundles/bundle-atlas|bundle atlases]] \(\mathcal A\) and \(\mathcal B\) for \(\pi\) are **equivalent** if their union \(\mathcal A\cup \mathcal B\) is again a bundle atlas; equivalently, every local trivialization from \(\mathcal A\) is compatible with every local trivialization from \(\mathcal B\) in the sense that the induced changes of trivialization on overlaps are smooth and fiberwise diffeomorphisms.

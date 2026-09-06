@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set of elements giving unique finite linear combinations in a free module."
 aliases = ["basis-module", "Basis of a free module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "convex-analysis/linearly-independent-and-linearly-dependent-sets", "convex-analysis/linear-combination", "linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/basis-module.md"
+prerequisites = ["algebra-modules/module", "convex-analysis/linearly-independent-and-linearly-dependent-sets", "convex-analysis/linear-combination", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a [[algebra-modules/free-module|free]] \(R\)-[[algebra-modules/module|module]]. A **basis** of \(F\) is a subset \(B\subseteq F\) such that every \(x\in F\) can be written uniquely as a finite sum

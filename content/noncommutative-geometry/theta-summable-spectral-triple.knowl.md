@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A spectral triple whose Dirac heat operator has finite trace at every positive time."
 aliases = ["heat-kernel summable triple", "theta summability"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/operator-trace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/spectral-triple", "operator-algebras/operator-trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[noncommutative-geometry/spectral-triple|spectral triple]] \((\mathcal A,H,D)\) is **theta-summable** if

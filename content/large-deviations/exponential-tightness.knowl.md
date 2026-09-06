@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A compact-containment condition ensuring probabilities outside compacts decay exponentially fast."
 aliases = ["exponential-tightness", "Exponential tightness"]
 domains = ["large-deviations"]
-prerequisites = ["probability/probability-measure"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/exponential-tightness.md"
+prerequisites = ["probability/probability-measure", "topology/topological-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A sequence of probability measures \((\mu_n)_{n\ge1}\) on a topological space \(E\) is **exponentially tight at speed** \((a_n)_{n\ge1}\) with \(a_n\to\infty\) if for every \(M>0\) there exists a compact set \(K_M\subseteq E\) such that

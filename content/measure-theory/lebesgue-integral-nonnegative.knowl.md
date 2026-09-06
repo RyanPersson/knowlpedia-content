@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Definition of the Lebesgue integral for nonnegative measurable functions."
 aliases = ["lebesgue-integral-nonnegative", "Lebesgue integral of a nonnegative function"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/simple-function","measure-theory/measurable-function"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/lebesgue-integral-nonnegative.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/simple-function", "measure-theory/indicator-function", "measure-theory/measurable-function", "real-analysis/supremum"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **Lebesgue integral of a nonnegative measurable function** on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) is defined as follows. For a nonnegative [[measure-theory/simple-function|simple function]] of the form

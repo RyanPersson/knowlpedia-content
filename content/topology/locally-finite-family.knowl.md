@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A family of subsets for which every point has a neighborhood meeting only finitely many members."
 aliases = ["locally finite collection", "local finiteness of a family"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-space", "shared-foundations/indexed-family-of-sets"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A family \(\{A_i\}_{i\in I}\) of subsets of a topological space \(X\) is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The Lie algebra of the unitary group: skew-Hermitian matrices with the commutator bracket."
 aliases = ["unitary-lie-algebra", "Unitary Lie algebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/unitary-group"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/unitary-lie-algebra.md"
+prerequisites = ["lie-groups/unitary-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **unitary Lie algebra** \(\mathfrak u(n)\) is the Lie algebra of the [[lie-groups/unitary-group|unitary group]] \(U(n)\). Concretely,

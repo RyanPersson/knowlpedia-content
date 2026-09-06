@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differential form preserved by pullback under a Lie group action."
 aliases = ["invariant-differential-form", "Invariant differential form"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/lie-derivative", "differential-geometry/de-rham-complex", "fiber-bundles/exterior-derivative"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/invariant-differential-form.md"
+prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/lie-derivative", "differential-geometry/de-rham-complex", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act on a manifold \(M\) by a [[fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold|smooth action]].

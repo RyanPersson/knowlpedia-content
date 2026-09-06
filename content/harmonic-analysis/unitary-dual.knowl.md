@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The space of unitary-equivalence classes of irreducible continuous unitary representations of a locally compact group."
 aliases = ["unitary dual", "dual object of a group", "G-hat", "irreducible dual"]
 domains = ["harmonic-analysis", "lie-groups", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group","lie-groups/unitary-equivalence-of-representations","lie-groups/irreducible-unitary-representation","linear-algebra/hilbert-space","harmonic-analysis/pontryagin-dual"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "lie-groups/unitary-equivalence-of-representations", "lie-groups/irreducible-unitary-representation", "linear-algebra/hilbert-space", "harmonic-analysis/pontryagin-dual"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. Its
@@ -15,18 +16,19 @@ Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. Its
 [[lie-groups/unitary-equivalence-of-representations|unitary-equivalence
 classes]] \([\pi]\) of strongly continuous
 [[lie-groups/irreducible-unitary-representation|irreducible unitary
-representations]] of \(G\) on nonzero complex [[linear-algebra/hilbert-space|Hilbert spaces]]. The set is
-equipped with the [[harmonic-analysis/fell-topology|Fell topology]], defined by approximation of coefficient
-functions uniformly on compact subsets. This topology, not a generally
-available group operation, is part of the standard meaning of \(\widehat G\).
+representations]] of \(G\) on nonzero complex [[linear-algebra/hilbert-space|Hilbert spaces]]. It is equipped with the [[harmonic-analysis/fell-topology|Fell topology]].
+
+## Abelian groups
+
 For abelian \(G\), every [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] is one-dimensional,
 and \(\widehat G\) recovers the [[harmonic-analysis/pontryagin-dual|Pontryagin dual group]].
 
 ## The Fell topology
 
-Informally, \([\pi]\) is near a class \([\rho]\) when selected diagonal
-coefficients of \(\rho\) can be approximated on a chosen compact subset of
-\(G\) by finite sums of diagonal coefficients of \(\pi\). This description is
+For a neighborhood centered at \([\pi]\), the approximation condition asks
+that selected diagonal coefficients of \(\pi\) be approximated on a chosen
+compact subset of \(G\) by finite sums of diagonal coefficients of the
+variable representation \(\rho\). This description is
 independent of representatives. The resulting space need not be Hausdorff;
 its separation properties encode substantial representation-theoretic
 information.

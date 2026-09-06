@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The connection on a homomorphism bundle induced by connections on its source and target bundles."
 aliases = ["induced connection on Hom(E,F)", "endomorphism-bundle connection"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/tensor-product-connection", "fiber-bundles/dual-connection"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/tensor-product-connection", "fiber-bundles/dual-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E,F\to M\) be smooth real or complex [[fiber-bundles/vector-bundle|vector bundles]] with [[fiber-bundles/connection-on-a-vector-bundle|connections]] \(\nabla^E\) and \(\nabla^F\). The **induced connection on \(\operatorname{Hom}(E,F)\)** is the unique connection satisfying

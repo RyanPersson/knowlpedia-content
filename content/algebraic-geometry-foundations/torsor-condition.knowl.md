@@ -6,6 +6,7 @@ summary = "The condition that two points in the same fiber differ by a unique gr
 aliases = ["torsor condition", "principal homogeneous space condition"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/group-scheme", "algebra-groups/group-action", "algebraic-geometry-foundations/fiber-product-of-schemes"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

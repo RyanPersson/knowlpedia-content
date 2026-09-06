@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Hom preserves kernels: Hom_R(M,-) is left exact (covariant) and Hom_R(-,N) is left exact (contravariant); Ext measures the failure of exactness beyond that."
 aliases = ["hom-left-exact", "Hom is left exact"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/hom-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/hom-left-exact.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/hom-module", "algebra-modules/short-exact-sequence"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(R\) be a [[algebra-rings/ring|ring]] and write [[algebra-modules/hom-module|\(\mathrm{Hom}_R(-,-)\)]] for the Hom functor.
@@ -42,6 +43,8 @@ If \(M\) is [[algebra-modules/projective-module|projective]], then \(\mathrm{Hom
 
 ## Examples
 
+In the cyclic-group examples, let \(n\ge 2\) be an integer.
+
 ### Example 1: Hom need not be right exact (over \(\mathbb Z\))
 Start from the short exact sequence
 \[
@@ -57,7 +60,7 @@ The map \(\mathbb Z\xrightarrow{\times n}\mathbb Z\) is not surjective for \(|n|
 \]
 
 ### Example 2: If \(M\) is free, then Hom is exact
-If \(M\cong R^{\oplus r}\) is free, then
+If \(M\cong R^{\oplus r}\) is free of finite rank \(r\), then
 \[
 \mathrm{Hom}_R(M,A)\cong A^{\oplus r}.
 \]

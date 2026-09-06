@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The coproduct of modules: tuples with finite support under coordinatewise operations."
 aliases = ["direct-sum-modules", "Direct sum of modules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/direct-product-modules", "shared-foundations/cartesian-product"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/direct-sum-modules.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/direct-product-modules", "shared-foundations/cartesian-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Given a family of \(R\)-[[algebra-modules/module|modules]] \((M_i)_{i\in I}\), their **direct sum** is the module

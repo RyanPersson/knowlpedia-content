@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The pointwise stabilizer in compact F_4 of a labelled Albert-algebra Jordan frame is Spin(8)."
 aliases = ["Albert algebra frame stabilizer", "Spin(8) in F4", "Jordan frame isotropy in F4"]
 domains = ["nonassociative-algebra", "lie-groups"]
-prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-frame"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-frame", "lie-groups/half-spin-representation", "lie-groups/spin8-triality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J=H_3(\mathbb O)\) be the compact real [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]], let

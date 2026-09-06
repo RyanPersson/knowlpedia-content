@@ -5,12 +5,17 @@ kind = "definition"
 summary = "An equivalence of C*-algebras witnessed by a full imprimitivity bimodule."
 aliases = ["C*-Morita equivalence", "Rieffel Morita equivalence"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/imprimitivity-bimodule"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/imprimitivity-bimodule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
-Two [[operator-algebras/cstar-algebra|\(C^*\)-algebras]] \(A\) and \(B\) are **strongly Morita equivalent** when there exists an [[operator-algebras/imprimitivity-bimodule|\(A\)-\(B\) imprimitivity bimodule]] \(X\). Concretely, \(X\) is a full right Hilbert \(B\)-module with a nondegenerate \(*\)-homomorphism
+Two [[operator-algebras/cstar-algebra|\(C^*\)-algebras]] \(A\) and \(B\) are **strongly Morita equivalent** when there exists an [[operator-algebras/imprimitivity-bimodule|\(A\)-\(B\) imprimitivity bimodule]] \(X\).
+
+## Bimodule characterization
+
+Concretely, \(X\) is a full right Hilbert \(B\)-module with a nondegenerate \(*\)-homomorphism
 \[
 A\cong\mathcal K_B(X)\subseteq\mathcal L_B(X)
 \]

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An inequality bounding total variation distance by the square root of Kullback–Leibler divergence."
 aliases = ["pinsker-inequality", "Pinsker's inequality"]
 domains = ["probability"]
-prerequisites = ["probability/probability-measure", "probability/total-variation-distance", "probability/relative-entropy-kl-divergence", "probability/gibbs-inequality-kl"]
-dependency_review_count = 1
 legacy_source_path = "probability/pinsker-inequality.md"
+prerequisites = ["probability/probability-measure", "probability/total-variation-distance", "probability/relative-entropy-kl-divergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Pinsker's inequality:** Let \(P\) and \(Q\) be [[probability/probability-measure|probability measures]] on the same \((\Omega,\mathcal F)\). Then their [[probability/total-variation-distance|total variation distance]] satisfies

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An object carrying multiplication, identity, and inverse morphisms that satisfy the group axioms internally."
 aliases = ["internal group"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/categorical-product", "algebra-category-theory/terminal-object"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/categorical-product", "algebra-category-theory/terminal-object"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] with finite [[algebra-category-theory/categorical-product|products]] and [[algebra-category-theory/terminal-object|terminal object]] \(1\). A **group object** in \(\mathcal C\) is an object \(G\) with morphisms

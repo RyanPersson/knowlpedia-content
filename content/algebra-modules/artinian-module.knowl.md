@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module satisfying the descending chain condition on submodules."
 aliases = ["artinian-module", "Artinian module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/submodule"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/artinian-module.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/submodule"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An \(R\)-[[algebra-modules/module|module]] \(M\) is **Artinian** if it satisfies the descending chain condition on [[algebra-modules/submodule|submodules]]: for every chain

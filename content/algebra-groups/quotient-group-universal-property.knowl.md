@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A homomorphism that kills a normal subgroup factors uniquely through the corresponding quotient group."
 aliases = ["quotient-group-universal-property", "Universal Property of Quotient Groups"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "algebra-groups/group-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/quotient-group-universal-property.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]], \(N\trianglelefteq G\) a [[algebra-groups/normal-subgroup|normal subgroup]], and \(\pi:G\to G/N\) the canonical map to the [[algebra-groups/quotient-group|quotient group]]. If \(f:G\to K\) is a [[algebra-groups/group-homomorphism|group homomorphism]] with \(N\subseteq\ker(f)\), then there is a unique homomorphism \(\bar f:G/N\to K\) such that

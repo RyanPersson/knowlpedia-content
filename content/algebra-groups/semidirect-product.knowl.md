@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A product of groups twisted by an action by automorphisms"
 aliases = ["semidirect-product", "Semidirect Product"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/group-homomorphism", "algebra-groups/automorphism-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/semidirect-product.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/group-homomorphism", "algebra-groups/automorphism-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(N\) and \(H\) be [[algebra-groups/group|groups]], and let

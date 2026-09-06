@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The span of a set consists exactly of its finite linear combinations"
 aliases = ["span-equals-the-set-of-all-finite-linear-combinations", "Span equals finite linear combinations"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/subspace-generated-by-a-set-span", "convex-analysis/linear-combination"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/span-equals-the-set-of-all-finite-linear-combinations.md"
+prerequisites = ["convex-analysis/subspace-generated-by-a-set-span", "convex-analysis/linear-combination"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 **Theorem.**

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The only finite-dimensional real normed division algebras are R, C, H, and O."
 aliases = ["Hurwitz theorem", "Hurwitz classification theorem", "1-2-4-8 theorem"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/real-normed-division-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/real-normed-division-algebra", "nonassociative-algebra/composition-algebra", "linear-algebra/quadratic-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Hurwitz's theorem.** Every finite-dimensional unital real algebra with a positive-definite multiplicative quadratic norm is isomorphic, as a normed real algebra, to exactly one of

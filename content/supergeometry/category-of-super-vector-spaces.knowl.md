@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The symmetric monoidal category of Z/2-graded vector spaces and even linear maps."
 aliases = ["SuperVect", "category of Z/2-graded vector spaces"]
 domains = ["supergeometry", "algebra-category-theory"]
-prerequisites = ["supergeometry/super-vector-space", "algebra-category-theory/symmetric-monoidal-category", "supergeometry/koszul-sign-rule"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/super-vector-space", "algebra-category-theory/symmetric-monoidal-category", "supergeometry/koszul-sign-rule", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field of characteristic different from \(2\). The **category of

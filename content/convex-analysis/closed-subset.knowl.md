@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set whose complement is open"
 aliases = ["closed-subset", "Closed set"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/open-subset", "convex-analysis/closure-of-a-set"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/closed-subset.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/open-subset", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,d)\) be a metric space and let \(F\subset X\).

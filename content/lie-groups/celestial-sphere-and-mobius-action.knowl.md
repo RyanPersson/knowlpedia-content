@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The proper Lorentz action on future null directions becomes the PSL(2,C) Möbius action on CP¹."
 aliases = ["Lorentz action as Möbius transformations", "celestial Möbius action"]
 domains = ["lie-groups", "complex-analysis", "mathematical-physics"]
-prerequisites = ["lie-groups/proper-orthochronous-lorentz-group", "differential-geometry/celestial-sphere"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/proper-orthochronous-lorentz-group", "differential-geometry/celestial-sphere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Under the identifications

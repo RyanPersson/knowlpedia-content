@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The direct sum is characterized by a universal mapping property from the summands."
 aliases = ["direct-sum-universal-property", "Direct sum universal property"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/direct-sum-modules", "algebra-modules/module-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/direct-sum-universal-property.md"
+prerequisites = ["algebra-modules/direct-sum-modules", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring, let \(\{M_i\}_{i\in I}\) be a family of \(R\)-modules, and let \(\iota_i:M_i\to \bigoplus_{i\in I}M_i\) be the canonical maps. The **direct sum universal property** states that for every \(R\)-module \(N\) and family of homomorphisms \(f_i:M_i\to N\), there is a unique homomorphism

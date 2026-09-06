@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear operator whose specified domain is dense in its ambient Hilbert space."
 aliases = ["densely defined linear operator", "operator with dense domain"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "convex-analysis/linear-subspace", "topology/dense-set", "linear-algebra/linear-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "convex-analysis/linear-subspace", "topology/dense-set", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) and \(K\) be [[linear-algebra/hilbert-space|Hilbert spaces]]. A **densely defined operator from \(H\) to \(K\)** is a pair \((D(T),T)\), where \(D(T)\) is a [[convex-analysis/linear-subspace|linear subspace]] of \(H\), [[topology/dense-set|dense]] in \(H\), and

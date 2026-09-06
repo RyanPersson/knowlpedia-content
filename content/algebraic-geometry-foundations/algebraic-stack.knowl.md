@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A stack in groupoids with a representable diagonal and a smooth surjective atlas by a scheme."
 aliases = ["Artin stack"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-space", "algebra-groups/automorphism-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-space", "algebra-groups/automorphism-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\) be a scheme. An **algebraic stack** (or **Artin stack**) over \(S\)

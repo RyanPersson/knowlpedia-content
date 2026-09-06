@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The canonical invariant symplectic form on a coadjoint orbit."
 aliases = ["KKS form", "Kirillov form", "Kostant–Kirillov form"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "differential-geometry/coadjoint-orbit", "differential-geometry/symplectic-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "differential-geometry/coadjoint-orbit", "differential-geometry/symplectic-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let [[fiber-bundles/lie-group|\(G\)]] be a finite-dimensional Lie group with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), and let \(\mathcal O\subseteq\mathfrak g^*\) be a [[differential-geometry/coadjoint-orbit|coadjoint orbit]]. For \(X\in\mathfrak g\), write

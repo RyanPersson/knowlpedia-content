@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C*-algebra equipped with a point-norm continuous action of a locally compact group by automorphisms."
 aliases = ["C*-algebraic dynamical system", "group action on a C*-algebra"]
 domains = ["operator-algebras", "dynamical-systems"]
-prerequisites = ["operator-algebras/cstar-algebra", "topology/locally-compact-group", "algebra-groups/group-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "topology/locally-compact-group", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **\(C^*\)-dynamical system** is a triple \((A,G,\alpha)\) consisting of a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\), a [[topology/locally-compact-group|locally compact group]] \(G\), and a [[algebra-groups/group-homomorphism|group homomorphism]]

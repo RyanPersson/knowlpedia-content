@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measure on a sigma-algebra with total mass 1."
 aliases = ["probability-measure", "Probability measure"]
 domains = ["probability"]
-prerequisites = ["measure-theory/sigma-algebra", "shared-foundations/set", "measure-theory/measure"]
-dependency_review_count = 1
 legacy_source_path = "probability/probability-measure.md"
+prerequisites = ["shared-foundations/set", "measure-theory/sigma-algebra", "measure-theory/measure"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **probability measure** is a function \(\mathbb{P}:\mathcal{F}\to[0,1]\) defined on a [[measure-theory/sigma-algebra|sigma-algebra]] \(\mathcal{F}\) of subsets of a [[shared-foundations/set|set]] \(\Omega\) such that \(\mathbb{P}(\varnothing)=0\), \(\mathbb{P}\!\left(\bigcup_{n=1}^\infty A_n\right)=\sum_{n=1}^\infty \mathbb{P}(A_n)\) for every pairwise disjoint sequence \((A_n)_{n\ge1}\subseteq\mathcal{F}\), and \(\mathbb{P}(\Omega)=1\).

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A quantitative hole condition imposed on every line segment in a prescribed range of scales."
 aliases = ["line porosity", "line porous set", "porous on lines", "nu-porous on lines"]
 domains = ["analysis", "geometric-measure-theory", "harmonic-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(0<\nu\le 1\) and \(0<\alpha_0<\alpha_1\). A set

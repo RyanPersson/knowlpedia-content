@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The difference of two principal connection 1-forms is a tensorial one-form with values in the Lie algebra."
 aliases = ["lemma-difference-of-two-principal-connections-is-tensorial", "Difference of two principal connections is tensorial"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/lie-group|Lie group]] \(G\) and Lie algebra \(\mathfrak g\) (see [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra of a Lie group]]). Let \(\omega,\omega'\in \Omega^1(P;\mathfrak g)\) be connection \(1\)-forms of two [[fiber-bundles/principal-connection|principal connections]] (see [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form on a principal bundle]]).

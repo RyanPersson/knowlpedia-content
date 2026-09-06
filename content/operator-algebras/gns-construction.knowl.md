@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The canonical construction of a cyclic Hilbert-space representation from a positive functional on a C*-algebra."
 aliases = ["Gelfand–Naimark–Segal construction", "cyclic representation from a positive functional"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "linear-algebra/hilbert-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "linear-algebra/hilbert-space", "operator-algebras/cyclic-cstar-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and let
@@ -21,8 +22,11 @@ Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and let
 \varphi(a)=\langle\pi_\varphi(a)\xi_\varphi,\xi_\varphi\rangle
 \quad(a\in A)
 \]
-and \(\pi_\varphi(A)\xi_\varphi\) is dense in \(H_\varphi\). Thus
-\((\pi_\varphi,H_\varphi,\xi_\varphi)\) is a
+and \(\pi_\varphi(A)\xi_\varphi\) is dense in \(H_\varphi\).
+
+## Cyclicity and assumptions
+
+The triple \((\pi_\varphi,H_\varphi,\xi_\varphi)\) is a
 [[operator-algebras/cyclic-cstar-representation|cyclic representation]]. The
 functional is bounded automatically; neither unitality of \(A\) nor
 faithfulness of \(\varphi\) is assumed.

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The C-star algebra of square matrices over a C-star algebra with its canonical operator norm."
 aliases = ["full matrix algebra", "M_n(C)"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "linear-algebra/operator-norm"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "linear-algebra/operator-norm", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and let

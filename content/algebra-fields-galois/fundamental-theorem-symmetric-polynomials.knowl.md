@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A symmetric polynomial can be expressed uniquely in terms of the elementary symmetric polynomials."
 aliases = ["fundamental-theorem-symmetric-polynomials", "Fundamental theorem of symmetric polynomials"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/fundamental-theorem-symmetric-polynomials.md"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and consider the polynomial ring \(R[x_1,\dots,x_n]\).

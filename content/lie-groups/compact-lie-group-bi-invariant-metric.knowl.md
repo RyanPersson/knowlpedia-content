@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A compact Lie group always admits a bi-invariant Riemannian metric by averaging."
 aliases = ["compact-lie-group-bi-invariant-metric", "Bi-invariant metrics on compact Lie groups"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "lie-groups/bi-invariant-metric", "lie-groups/adjoint-action-of-a-lie-group"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "lie-groups/compact-lie-group-bi-invariant-metric.md"
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "lie-groups/bi-invariant-metric", "lie-groups/adjoint-action-of-a-lie-group", "harmonic-analysis/haar-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\).

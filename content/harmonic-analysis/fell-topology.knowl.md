@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Fell topology is the hull-kernel topology on equivalence classes of irreducible unitary representations."
 aliases = ["Fell topology", "hull-kernel topology on the unitary dual", "Jacobson topology on irreducible representations"]
 domains = ["harmonic-analysis", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group","harmonic-analysis/unitary-dual","operator-algebras/full-group-cstar-algebra","harmonic-analysis/weak-containment-unitary-representations"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/unitary-dual", "operator-algebras/full-group-cstar-algebra", "harmonic-analysis/weak-containment-unitary-representations"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. Via integrated forms, its [[harmonic-analysis/unitary-dual|unitary dual]] \(\widehat G\) is the spectrum of the [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]] \(C^*(G)\). The **Fell topology** is the hull-kernel topology: for \(S\subseteq\widehat G\), an irreducible class \([\pi]\) lies in \(\overline S\) exactly when

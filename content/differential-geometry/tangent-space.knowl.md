@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The vector space of derivations at a point of a smooth manifold."
 aliases = ["tangent-space", "Tangent Space"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "differential-geometry/tangent-space.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]], \(p\in M\), and \(C^\infty_p(M)\) the algebra of germs of smooth real-valued functions at \(p\). The **tangent space** \(T_pM\) is the [[linear-algebra/vector-space|vector space]] of linear maps

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A compatible pair consisting of a nondegenerate representation of the coefficient algebra and a strongly continuous unitary representation of the acting group."
 aliases = ["covariant pair"]
 domains = ["operator-algebras", "representation-theory"]
-prerequisites = ["operator-algebras/cstar-dynamical-system", "linear-algebra/hilbert-space", "operator-algebras/nondegenerate-star-homomorphism", "lie-groups/strongly-continuous-unitary-representation", "algebra-groups/group-action"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-dynamical-system", "linear-algebra/hilbert-space", "operator-algebras/nondegenerate-star-homomorphism", "lie-groups/strongly-continuous-unitary-representation", "algebra-groups/group-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dynamical system]]. A **covariant representation** of \((A,G,\alpha)\) on a [[linear-algebra/hilbert-space|Hilbert space]] \(H\) is a pair \((\pi,U)\) in which \(\pi:A\to\mathcal B(H)\) is a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate \(*\)-representation]], \(U:G\to\mathcal U(H)\) is a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]], and

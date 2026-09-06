@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The matrix of 2-forms computed from a local connection 1-form by dA plus A wedge A."
 aliases = ["curvature-2-form-in-a-frame", "Curvature 2-form in a frame"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/local-connection-1-form", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/curvature-2-form-in-a-frame.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/local-connection-1-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with connection \(\nabla\), and let \(U\subset M\) be an open set with a chosen local frame. Let \(A\) denote the [[fiber-bundles/local-connection-1-form|local connection 1-form]] (connection matrix) on \(U\) in that frame.

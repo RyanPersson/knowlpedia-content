@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A family of smooth functions whose pairwise Poisson brackets vanish."
 aliases = ["commuting Hamiltonians"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-bracket-symplectic"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-bracket-symplectic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]] with its [[differential-geometry/poisson-bracket-symplectic|Poisson bracket]]. A family \(\mathcal F\subseteq C^\infty(M,\mathbb R)\) is **in involution** if

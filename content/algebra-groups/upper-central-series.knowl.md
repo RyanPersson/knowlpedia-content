@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ascending series built from successive centers of quotients"
 aliases = ["upper-central-series", "Upper central series"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/center-of-group", "algebra-groups/quotient-group"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/upper-central-series.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/center-of-group", "algebra-groups/quotient-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]]. The **upper central series** of \(G\) is the sequence of subgroups \((Z_n(G))_{n\ge 0}\) defined by

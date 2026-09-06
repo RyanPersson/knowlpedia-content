@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For a finite extension L/K, the norm N_{L/K}(α) is the determinant of multiplication-by-α as a K-linear map."
 aliases = ["norm-field", "Field norm"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/norm-field.md"
+prerequisites = ["algebra-fields-galois/field-extension", "linear-algebra/linear-map", "linear-algebra/determinant"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L/K\) be a finite [[algebra-fields-galois/field-extension|field extension]] of degree \(n=[L:K]\). For \(\alpha\in L\), consider the \(K\)-linear map \(m_\alpha:L\to L\), \(x\mapsto \alpha x\). The **(field) norm** of \(\alpha\) from \(L\) to \(K\) is

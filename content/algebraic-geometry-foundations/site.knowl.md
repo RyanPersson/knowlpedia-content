@@ -6,7 +6,8 @@ summary = "A category equipped with a Grothendieck topology."
 aliases = ["site"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebra-category-theory/category", "algebraic-geometry-foundations/grothendieck-topology", "algebraic-geometry-foundations/sieve"]
-dependency_review_count = 1
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 A **site** is a pair \((\mathcal C,J)\), where \(\mathcal C\) is a [[algebra-category-theory/category|category]] and \(J\) is a [[algebraic-geometry-foundations/grothendieck-topology|Grothendieck topology]] on \(\mathcal C\).

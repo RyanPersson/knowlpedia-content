@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a metric space, a point lies in the closure of a set iff it is the limit of a sequence from the set."
 aliases = ["sequential-characterization-closure", "Sequential characterization of closure"]
 domains = ["topology"]
-prerequisites = ["topology/metric-space", "topology/closure"]
-dependency_review_count = 1
 legacy_source_path = "topology/sequential-characterization-closure.md"
+prerequisites = ["topology/metric-space", "topology/closure", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Sequential characterization of closure:** Let \((X,d)\) be a [[topology/metric-space|metric space]], let \(A\subseteq X\), and let \(x\in X\). Then

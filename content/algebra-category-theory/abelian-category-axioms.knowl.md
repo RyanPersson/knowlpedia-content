@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convenient list of axioms characterizing abelian categories."
 aliases = ["abelian-category-axioms", "Axioms for an abelian category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/additive-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/abelian-category-axioms.md"
+prerequisites = ["algebra-category-theory/additive-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-category-theory/monomorphism-category", "algebra-category-theory/epimorphism-category"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **[[algebra-category-theory/abelian-category|abelian category]]** is an [[algebra-category-theory/additive-category|additive category]] \(\mathcal A\) in which every morphism has a [[algebra-category-theory/kernel-categorical|kernel]] and a [[algebra-category-theory/cokernel-categorical|cokernel]], every [[algebra-category-theory/monomorphism-category|monomorphism]] is a kernel, and every [[algebra-category-theory/epimorphism-category|epimorphism]] is a cokernel. Equivalently, for each monomorphism \(m\) and epimorphism \(e\),

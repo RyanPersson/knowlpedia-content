@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A flat connection obtained from the zero connection by a global gauge transformation."
 aliases = ["pure-gauge-connection-ag-1dg-on-a-trivial-bundle", "Pure gauge connection on a trivial bundle"]
 domains = ["fiber-bundles"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/pure-gauge-connection-ag-1dg-on-a-trivial-bundle.md"
+prerequisites = ["fiber-bundles/principal-connection"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P=M\times G\to M\) be a trivial principal bundle, where \(G\) is a Lie group with Lie algebra \(\mathfrak g\). Given a smooth map \(g:M\to G\), the **pure gauge potential** associated with \(g\) is

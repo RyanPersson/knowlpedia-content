@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The universal recipient of balanced bilinear maps from a pair of modules."
 aliases = ["tensor-product", "Tensor product of modules"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/ring", "algebra-modules/bilinear-map", "algebra-modules/module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-product.md"
+prerequisites = ["algebra-rings/ring", "algebra-modules/bilinear-map", "algebra-modules/module", "algebra-modules/tensor-product-universal-property"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 The **tensor product of modules** of a right \(R\)-module \(M\) and a left \(R\)-module \(N\) (for a [[algebra-rings/ring|ring]] \(R\)) is an abelian group \(M\otimes_R N\) equipped with a canonical [[algebra-modules/bilinear-map|balanced bilinear map]] \(M\times N\to M\otimes_R N\), \((m,n)\mapsto m\otimes n\), satisfying the [[algebra-modules/tensor-product-universal-property|universal property]]: every balanced bilinear map out of \(M\times N\) factors uniquely through a homomorphism out of \(M\otimes_R N\).

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A connected open subset of the complex plane."
 aliases = ["domain in the complex plane", "plane domain", "region"]
 domains = ["complex-analysis", "topology"]
-prerequisites = ["topology/open-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/open-set", "shared-foundations/complex-numbers-c"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **complex domain** is a nonempty, connected [[topology/open-set|open subset]] \(D\subseteq\mathbb C\). Connectedness is part of the term “domain”; an arbitrary open subset of \(\mathbb C\) may have several components.

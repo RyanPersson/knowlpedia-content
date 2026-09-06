@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A maximal nilpotent, self-normalizing subalgebra; in the semisimple case, a maximal toral subalgebra."
 aliases = ["cartan-subalgebra", "Cartan subalgebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/nilpotent-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/cartan-subalgebra.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/semisimple-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak{g}\) be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]] over an algebraically closed field of characteristic \(0\) (typically \(\mathbb{C}\)).

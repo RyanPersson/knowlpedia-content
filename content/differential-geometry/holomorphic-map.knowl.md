@@ -5,14 +5,19 @@ kind = "definition"
 summary = "A complex-differentiable map between open subsets or complex manifolds."
 aliases = ["holomorphic", "analytic map"]
 domains = ["differential-geometry", "complex-analysis"]
-prerequisites = ["differential-geometry/complex-coordinate-chart"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-coordinate-chart", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
-A map \(f:U\to\mathbb C^m\), where \(U\subseteq\mathbb C^n\) is open, is **holomorphic** if each component is complex differentiable in every variable in a neighborhood of every point. Equivalently, each component is locally represented by a convergent complex power series in \(n\) variables.
+A map \(f:U\to\mathbb C^m\), where \(U\subseteq\mathbb C^n\) is open, is **holomorphic** if each component is complex differentiable in every variable in a neighborhood of every point.
 
-For [[differential-geometry/complex-manifold|complex manifolds]], a map is holomorphic when its expression in every pair of [[differential-geometry/complex-coordinate-chart|complex coordinate charts]] is holomorphic in this Euclidean sense. A bijective holomorphic map with holomorphic inverse is a [[differential-geometry/biholomorphism|biholomorphism]].
+For a map between spaces equipped with compatible complex atlases, the map is holomorphic when, in compatible charts about each source point and its image, its coordinate expression is holomorphic in the Euclidean sense defined above.
+
+## Equivalent descriptions
+
+In Euclidean charts, each component of a holomorphic map is locally represented by a convergent complex power series. A bijective holomorphic map with holomorphic inverse is a [[differential-geometry/biholomorphism|biholomorphism]].
 
 ## Scalar-valued and one-variable cases
 

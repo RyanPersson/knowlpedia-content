@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The Fourier inversion theorem reconstructs a function on a locally compact abelian group from an integrable Fourier transform."
 aliases = ["LCA Fourier inversion", "group Fourier inversion"]
 domains = ["harmonic-analysis"]
-prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "measure-theory/almost-everywhere"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "measure-theory/almost-everywhere"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be an [[algebra-groups/abelian-group|abelian]] [[topology/locally-compact-group|locally compact group]] with [[harmonic-analysis/haar-measure|Haar measure]] \(\mu\), and give its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]] \(\widehat G\) the [[harmonic-analysis/dual-haar-measure|dual Haar measure]] \(\widehat\mu\). The **Fourier inversion theorem** states that if \(f\in L^1(G,\mu)\) and its [[harmonic-analysis/fourier-transform-lca|Fourier transform]] \(\widehat f\) belongs to \(L^1(\widehat G,\widehat\mu)\), then

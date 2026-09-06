@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A category whose morphism sets are abelian groups and whose composition is bilinear."
 aliases = ["preadditive category", "preadditive"]
 domains = ["algebra-category-theory", "algebra-homological"]
-prerequisites = ["algebra-category-theory/category"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

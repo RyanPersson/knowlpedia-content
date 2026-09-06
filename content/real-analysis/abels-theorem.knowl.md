@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A boundary limit theorem relating a convergent series to its associated power series near the radius 1."
 aliases = ["abels-theorem", "Abel's theorem"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/abels-theorem.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Abel's theorem:** Let \(\sum_{n=0}^\infty a_n\) be a convergent series of real or complex numbers, with sum \(s\). For \(0\le x<1\), define

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The ordered abelian subgroup consisting of the finite values of a field valuation."
 aliases = ["valuation value group"]
 domains = ["algebra-fields-galois", "algebra-groups"]
-prerequisites = ["algebra-fields-galois/valuation-on-a-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-fields-galois/valuation-on-a-field", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(v:K\to\Gamma\cup\{\infty\}\) be a

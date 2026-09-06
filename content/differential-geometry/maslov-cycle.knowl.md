@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The singular incidence hypersurface of Lagrangian planes that fail to be transverse to a fixed Lagrangian plane."
 aliases = ["train of a Lagrangian", "Maslov hypersurface"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-grassmannian"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-grassmannian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a real \(2n\)-dimensional [[differential-geometry/symplectic-vector-space|symplectic vector space]], let \(\Lambda(V)\) be its [[differential-geometry/lagrangian-grassmannian|Lagrangian Grassmannian]], and fix \(L_0\in\Lambda(V)\). The **Maslov cycle**, or **train of \(L_0\)**, is

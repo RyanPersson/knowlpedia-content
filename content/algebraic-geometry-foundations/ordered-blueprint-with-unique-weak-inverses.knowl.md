@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An ordered blueprint in which every element has exactly one additive weak inverse."
 aliases = ["pasteurized ordered blueprint", "ordered blueprint with unique weak inverse"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
-prerequisites = ["algebraic-geometry-foundations/ordered-blueprint"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/ordered-blueprint"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \(B\) has **unique weak inverses** if, for every \(a\in B^\bullet\), there is a unique \(b\in B^\bullet\) such that

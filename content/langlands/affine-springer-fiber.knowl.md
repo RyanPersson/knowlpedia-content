@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The locus of affine-Grassmannian lattices on which a fixed loop-Lie-algebra element becomes integral."
 aliases = ["affine Springer fibre", "Kazhdan-Lusztig affine Springer fiber", "affine Springer variety"]
 domains = ["langlands", "algebraic-geometry-foundations", "algebra-representation-theory"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/strongly-regular-semisimple-element", "lie-groups/lie-algebra", "langlands/affine-grassmannian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/strongly-regular-semisimple-element", "lie-groups/lie-algebra", "langlands/affine-grassmannian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field, put \(F=k((t))\) and \(\mathcal O=k[[t]]\), and let \(G\)
@@ -29,7 +29,11 @@ gG(\mathcal O)\in G(F)/G(\mathcal O):
 \right\}
 \]
 
-of the [[langlands/affine-grassmannian|affine Grassmannian]]. It parametrizes
+of the [[langlands/affine-grassmannian|affine Grassmannian]].
+
+## Interpretation and group version
+
+It parametrizes
 integral \(G\)-lattices preserved by \(\gamma\).
 
 There is also a group version in which

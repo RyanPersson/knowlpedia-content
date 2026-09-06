@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A smooth almost-complex structure is integrable exactly when its Nijenhuis tensor vanishes."
 aliases = ["Newlander-Nirenberg theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/almost-complex-structure", "differential-geometry/nijenhuis-tensor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/almost-complex-structure", "differential-geometry/nijenhuis-tensor", "differential-geometry/complex-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) be a smooth

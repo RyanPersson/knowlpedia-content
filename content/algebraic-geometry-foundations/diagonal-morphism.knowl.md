@@ -6,6 +6,7 @@ summary = "The canonical map from a scheme to its fiber square over the target."
 aliases = ["diagonal-morphism", "Diagonal morphism", "diagonal of a morphism"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/morphism-of-schemes", "algebraic-geometry-foundations/fiber-product-of-schemes"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

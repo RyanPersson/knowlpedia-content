@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Solvability can be detected via the derived series, triangular representations, or Cartan’s trace criterion."
 aliases = ["tfae-solvability-lie-algebra", "Equivalent characterizations of solvability for Lie algebras"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/derived-series-lie-algebra", "lie-groups/ados-theorem", "lie-groups/example-upper-triangular", "lie-groups/solvable-lie-algebra", "lie-groups/cartans-criterion-solvability"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/tfae-solvability-lie-algebra.md"
+prerequisites = ["lie-groups/derived-series-lie-algebra", "lie-groups/solvable-lie-algebra", "lie-groups/ados-theorem", "lie-groups/example-upper-triangular", "lie-groups/cartans-criterion-solvability"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional Lie algebra over an algebraically closed field of characteristic \(0\) (e.g. \(\mathbb C\)). The following are equivalent.

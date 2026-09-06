@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The probability measure induced by a random variable on its state space."
 aliases = ["distribution-law", "Distribution (law)"]
 domains = ["probability"]
-prerequisites = ["probability/random-variable", "probability/probability-measure"]
-dependency_review_count = 1
 legacy_source_path = "probability/distribution-law.md"
+prerequisites = ["probability/random-variable", "probability/probability-measure"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **distribution (law)** of a [[probability/random-variable|random variable]] \(X:\Omega\to S\) (more generally, a measurable map into a measurable space \((S,\mathcal S)\)) is the [[probability/probability-measure|probability measure]] \(\mu_X\) on \((S,\mathcal S)\) defined by

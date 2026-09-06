@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The kernel of the adjoint representation ad is the center of the Lie algebra."
 aliases = ["kernel-of-ad-small-is-center-lemma", "Kernel of the Lie-algebra adjoint representation"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/center-of-a-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/kernel-of-ad-small-is-center-lemma.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/center-of-a-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]]. Its [[lie-groups/adjoint-representation-of-a-lie-algebra|adjoint representation]] is

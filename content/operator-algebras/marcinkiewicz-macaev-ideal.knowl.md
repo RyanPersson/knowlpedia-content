@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The compact-operator ideal defined by logarithmic bounds on partial sums of singular values."
 aliases = ["Macaev ideal", "logarithmic Marcinkiewicz ideal", "M-1-infinity ideal"]
 domains = ["operator-algebras", "noncommutative-geometry", "functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/singular-values", "linear-algebra/compact-operator", "real-analysis/partial-sums"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/singular-values", "linear-algebra/compact-operator", "real-analysis/partial-sums"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a separable [[linear-algebra/hilbert-space|Hilbert space]], and let

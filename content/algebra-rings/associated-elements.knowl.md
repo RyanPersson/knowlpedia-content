@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Two elements that differ by multiplication by a unit."
 aliases = ["associated-elements", "Associated elements"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/associated-elements.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/unit"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]]. Elements \(a,b\in R\) are **associates** if there exists a [[algebra-rings/unit|unit]] \(u\in R^\times\) such that \(a=ub\).

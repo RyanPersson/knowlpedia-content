@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A positive element is a self-adjoint C*-algebra element whose spectrum is contained in the nonnegative real axis."
 aliases = ["positive C*-element", "nonnegative element of a C*-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/self-adjoint-element","functional-analysis/banach-algebra-spectrum","operator-algebras/continuous-functional-calculus"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/self-adjoint-element", "functional-analysis/banach-algebra-spectrum", "operator-algebras/continuous-functional-calculus"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An element \(a\) of a \(C^*\)-algebra \(A\) is **positive**, written \(a\geq0\), if it is [[operator-algebras/self-adjoint-element|self-adjoint]] and its [[functional-analysis/banach-algebra-spectrum|spectrum]] satisfies \(\sigma_A(a)\subseteq[0,\infty)\). Equivalently, \(a=b^*b\) for some \(b\in A\). Also equivalently, there is a unique positive element \(a^{1/2}\in A\) such that \((a^{1/2})^2=a\). These characterizations agree in unital and nonunital \(C^*\)-algebras; the square root is constructed by the [[operator-algebras/continuous-functional-calculus|continuous functional calculus]]. The positive elements form the cone \(A_+\), which defines the canonical order on the self-adjoint part: \(x\leq y\) exactly when \(y-x\in A_+\).

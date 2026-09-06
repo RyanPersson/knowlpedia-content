@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An additive and multiplicative equivalence relation on formal sums of elements of a monoid with zero."
 aliases = ["pre-addition of a blueprint", "blueprint pre-addition"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
-prerequisites = ["algebra-groups/commutative-monoid", "shared-foundations/equivalence-relation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/commutative-monoid", "shared-foundations/equivalence-relation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[algebra-groups/commutative-monoid|commutative monoid with zero]], and let \(\mathbb N[A]\) denote the semiring of finite formal sums of elements of \(A\). A **pre-addition** on \(A\) is an [[shared-foundations/equivalence-relation|equivalence relation]] \(\mathcal R\) on \(\mathbb N[A]\), written

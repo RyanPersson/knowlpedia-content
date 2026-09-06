@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A measurable map from a probability space into a finite-dimensional real vector space."
 aliases = ["random-vector", "Random vector"]
 domains = ["probability"]
-prerequisites = ["measure-theory/measurable-function", "probability/probability-space"]
-dependency_review_count = 1
 legacy_source_path = "probability/random-vector.md"
+prerequisites = ["measure-theory/measurable-function", "probability/probability-space", "measure-theory/borel-sigma-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **random vector** is a [[measure-theory/measurable-function|measurable function]] \(X:(\Omega,\mathcal F)\to(\mathbb R^d,\mathcal B(\mathbb R^d))\) defined on a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\), where \(\mathcal B(\mathbb R^d)\) is the Borel \(\sigma\)-algebra on \(\mathbb R^d\).

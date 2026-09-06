@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear map between C*-algebras whose every matrix amplification is positive."
 aliases = ["CP map", "completely positive linear map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra","linear-algebra/linear-map","operator-algebras/n-positive-map"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map", "operator-algebras/n-positive-map", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]]. A

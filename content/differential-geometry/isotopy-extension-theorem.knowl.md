@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A smooth isotopy of a compact embedded manifold extends to a smooth ambient isotopy."
 aliases = ["ambient isotopy extension theorem"]
 domains = ["differential-geometry", "topology"]
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/smooth-isotopy", "differential-geometry/ambient-isotopy"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/smooth-isotopy", "differential-geometry/ambient-isotopy", "fiber-bundles/vector-field", "differential-geometry/tubular-neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(N\) be a compact [[fiber-bundles/smooth-manifold|smooth manifold]], let \(M\) be a smooth manifold without boundary, and let \(F:N\times[0,1]\to M\) be a [[differential-geometry/smooth-isotopy|smooth isotopy]] of embeddings with \(F_0=i\). The **isotopy extension theorem** states that there is a smooth [[differential-geometry/ambient-isotopy|ambient isotopy]] \(\Phi:M\times[0,1]\to M\) such that \(\Phi_0=\operatorname{id}_M\) and

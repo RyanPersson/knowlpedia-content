@@ -5,10 +5,11 @@ kind = "knowl"
 summary = "In characteristic p, the p-power map is a ring endomorphism and induces the absolute Frobenius morphism of a scheme."
 aliases = ["frobenius-endomorphism", "Frobenius endomorphism", "absolute Frobenius morphism", "absolute Frobenius"]
 domains = ["algebra-fields-galois", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-rings/field", "algebra-rings/characteristic"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/frobenius-endomorphism.md"
 section_mode = "progressive"
+prerequisites = ["algebra-rings/field", "algebra-rings/characteristic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a [[algebra-rings/field|field]] of [[algebra-rings/characteristic|characteristic]] \(p>0\). The **Frobenius endomorphism** of \(F\) is the map

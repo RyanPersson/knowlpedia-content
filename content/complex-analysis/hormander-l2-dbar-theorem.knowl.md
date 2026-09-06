@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A strictly plurisubharmonic weight gives a weighted L2 solution of the d-bar equation for closed (0,1)-forms."
 aliases = ["Hörmander d-bar estimate", "Hörmander L2 existence theorem"]
 domains = ["complex-analysis", "several-complex-variables", "partial-differential-equations"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/levi-form", "complex-analysis/plurisubharmonic-function", "differential-geometry/dolbeault-operators"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\phi:\mathbb C^d\to\mathbb R\) be plurisubharmonic with Levi form bounded

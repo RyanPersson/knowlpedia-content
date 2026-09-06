@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A proper Lie subalgebra not contained in any other proper Lie subalgebra of the ambient algebra."
 aliases = ["maximal Lie subalgebra", "maximal proper Lie subalgebra"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-subalgebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-subalgebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[lie-groups/lie-subalgebra|Lie subalgebra]] \(\mathfrak m\subsetneq\mathfrak g\) is a **maximal Lie subalgebra** of \(\mathfrak g\) if every Lie subalgebra \(\mathfrak k\) satisfying

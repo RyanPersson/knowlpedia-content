@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A nontrivial commutative semiring in which every nonzero element is multiplicatively invertible."
 aliases = ["commutative semifield", "division semiring"]
 domains = ["algebra-rings", "algebra-hyperstructures"]
-prerequisites = ["algebra-rings/commutative-semiring"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/commutative-semiring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **semifield** is a [[algebra-rings/commutative-semiring|commutative

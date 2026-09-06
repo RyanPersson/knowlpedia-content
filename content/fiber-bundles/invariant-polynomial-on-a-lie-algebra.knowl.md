@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A polynomial on a Lie algebra that is unchanged by the adjoint action of its Lie group."
 aliases = ["Ad-invariant polynomial", "invariant symmetric polynomial"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/adjoint-action-of-a-lie-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/adjoint-action-of-a-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). A homogeneous **invariant polynomial of degree \(k\)** is an element \(p\in\operatorname{Sym}^k(\mathfrak g^*)\) fixed by the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]]. Equivalently, regarding \(p\) as a symmetric \(k\)-linear form,

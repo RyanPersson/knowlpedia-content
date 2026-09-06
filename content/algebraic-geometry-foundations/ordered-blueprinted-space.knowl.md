@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A topological space equipped with a sheaf of ordered blueprints."
 aliases = ["OBlpr-space", "ordered blueprint space"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
-prerequisites = ["algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/locally-blueprinted-space", "algebra-rings/maximal-ideal"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/locally-blueprinted-space", "algebra-rings/maximal-ideal"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **ordered blueprinted space**, or **OBlpr-space**, is a topological space \(X\) together with a sheaf \(\mathcal O_X\) of [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprints]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A distance function satisfying positivity, symmetry, and the triangle inequality"
 aliases = ["metric-metric-space", "Metric and metric space"]
 domains = ["convex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/metric-metric-space.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a nonempty set. A function \(d:X\times X\to\mathbb{R}\) is a **metric** on \(X\) if for all \(x,y,z\in X\):

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An ambient smooth chart in which an embedded submanifold becomes a coordinate plane."
 aliases = ["slice chart", "adapted chart for a submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart", "differential-geometry/embedded-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\) be a \(k\)-dimensional [[differential-geometry/embedded-submanifold|embedded submanifold]] of an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), and let \(p\in S\). A **submanifold chart at \(p\)** is a [[fiber-bundles/smooth-chart|smooth chart]] \((U,\varphi)\) of \(M\), with \(p\in U\), for which

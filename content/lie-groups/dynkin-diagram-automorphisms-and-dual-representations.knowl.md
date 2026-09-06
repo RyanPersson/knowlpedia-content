@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Diagram symmetries act on highest weights, while the opposition involution gives the highest weight of the dual representation."
 aliases = ["opposition involution", "dual highest-weight involution", "Dynkin automorphism and contragredient"]
 domains = ["lie-groups", "representation-theory"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/simple-root", "lie-groups/cartan-matrix", "lie-groups/highest-weight-representation", "lie-groups/weyl-group", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/highest-weight", "lie-groups/dual-representation-lie"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/simple-root", "lie-groups/cartan-matrix", "lie-groups/highest-weight-representation", "lie-groups/weyl-group", "lie-groups/root-system", "algebra-representation-theory/irreducible-representation", "lie-groups/highest-weight", "lie-groups/dual-representation-lie", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with chosen [[lie-groups/simple-root|simple roots]] \(\Delta=\{\alpha_i\}\). A **Dynkin-diagram automorphism** is a permutation of \(\Delta\) preserving the [[lie-groups/cartan-matrix|Cartan matrix]]. It permutes the fundamental weights and, after choosing a compatible automorphism of \(\mathfrak g\), sends irreducible [[lie-groups/highest-weight-representation|highest-weight representations]] to irreducible highest-weight representations with the correspondingly permuted labels.

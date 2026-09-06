@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Representations whose generated von Neumann algebras are normally isomorphic by an isomorphism agreeing on the represented C-star algebra."
 aliases = ["quasi-equivalence of representations", "normally equivalent representations"]
 domains = ["operator-algebras", "algebra-representation-theory"]
-prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/von-neumann-algebra-generated-by-representation", "operator-algebras/normal-star-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-representation", "operator-algebras/von-neumann-algebra-generated-by-representation", "operator-algebras/normal-star-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Two [[operator-algebras/cstar-representation|representations]]

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The finite sums obtained by truncating a series."
 aliases = ["partial-sums", "Partial sums"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/partial-sums.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **partial sum** is a finite sum \(s_n=\sum_{k=1}^n a_k\) associated to a [[real-analysis/series|series]] \(\sum_{k=1}^\infty a_k\).

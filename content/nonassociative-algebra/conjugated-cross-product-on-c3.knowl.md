@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The SU(3)-equivariant conjugate-bilinear cross product on complex three-space."
 aliases = ["Hermitian cross product", "conjugate cross product on C3", "conjugated complex cross product"]
 domains = ["nonassociative-algebra"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(u,v\in\mathbb C^3\), their **conjugated cross product** is

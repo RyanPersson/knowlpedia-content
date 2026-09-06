@@ -6,6 +6,9 @@ summary = "Index of geometric-Langlands foundations, Hecke structures, spectral 
 aliases = ["geometric Langlands collection", "geometric Langlands foundations index"]
 domains = ["langlands"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **geometric Langlands** collection develops the categorical

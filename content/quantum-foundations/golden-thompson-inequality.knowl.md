@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Trace inequality bounding Tr exp(A+B) by Tr(exp(A)exp(B)) for Hermitian matrices."
 aliases = ["golden-thompson-inequality", "Golden-Thompson inequality"]
 domains = ["quantum-foundations"]
-prerequisites = ["quantum-foundations/self-adjoint-operator-observable", "quantum-foundations/trace-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/golden-thompson-inequality.md"
+prerequisites = ["quantum-foundations/self-adjoint-operator-observable", "quantum-foundations/trace-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be Hermitian (self-adjoint) matrices (equivalently, finite-dimensional self-adjoint operators; see [[quantum-foundations/self-adjoint-operator-observable|self-adjoint-operator-observable]]). The **Golden-Thompson inequality** states that

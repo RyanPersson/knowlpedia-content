@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group whose elements have order a power of a fixed prime p"
 aliases = ["p-group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/cardinality"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/p-group.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/cardinality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a prime number \(p\). A **\(p\)-group** is a [[algebra-groups/group|group]] \(G\) such that every element \(g\in G\) has order \(p^k\) for some integer \(k\ge 0\) (depending on \(g\)). If \(G\) is finite, this is equivalent to saying that the [[shared-foundations/cardinality|cardinality]] of \(G\) is a power of \(p\), i.e. \(|G|=p^n\) for some \(n\ge 0\).

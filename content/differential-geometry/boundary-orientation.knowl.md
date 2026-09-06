@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The orientation on a manifold boundary determined by placing an outward normal before a positive boundary basis."
 aliases = ["induced orientation on the boundary", "outward-normal-first convention"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/manifold-with-boundary", "differential-geometry/boundary-and-interior-of-a-manifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/manifold-with-boundary", "differential-geometry/boundary-and-interior-of-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an [[differential-geometry/orientation-of-a-smooth-manifold|oriented]] \(n\)-dimensional [[differential-geometry/manifold-with-boundary|smooth manifold with boundary]]. Its [[differential-geometry/boundary-and-interior-of-a-manifold|boundary]] \(\partial M\) has the **boundary orientation** defined as follows. At \(p\in\partial M\), an ordered basis \((v_1,\ldots,v_{n-1})\) of \(T_p\partial M\) is positive exactly when

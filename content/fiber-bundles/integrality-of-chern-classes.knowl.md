@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Chern–Weil forms representing Chern classes have integral periods and come from integral cohomology classes."
 aliases = ["integrality-of-chern-classes", "Integrality of Chern classes"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/integrality-of-chern-classes.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank \(r\), equipped with a Hermitian [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\) with [[fiber-bundles/curvature|curvature]] \(F_\nabla\).

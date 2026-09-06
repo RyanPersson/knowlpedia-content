@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An additive functor that preserves cokernels (equivalently, exactness at the right end of short exact sequences)."
 aliases = ["right-exact-functor", "Right exact functor"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/functor", "algebra-category-theory/colimit", "algebra-category-theory/cokernel-categorical"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/right-exact-functor.md"
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/functor", "algebra-category-theory/colimit", "algebra-category-theory/cokernel-categorical"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathcal A,\mathcal B\) be [[algebra-category-theory/abelian-category|abelian categories]] and let \(F:\mathcal A\to\mathcal B\) be an additive [[algebra-category-theory/functor|functor]].

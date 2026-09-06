@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A finite type II von Neumann factor, equivalently a continuous factor with finite identity."
 aliases = ["finite continuous factor", "Type II_1 factor"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-ii-von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/finite-von-neumann-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-factor", "operator-algebras/type-ii-von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/finite-von-neumann-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **type \(\mathrm{II}_1\) factor** is a

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A free module on a set represents functions out of that set by unique linear extension."
 aliases = ["free-module-universal-property", "Free module universal property"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/free-module", "shared-foundations/set", "shared-foundations/function", "algebra-modules/module-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/free-module-universal-property.md"
+prerequisites = ["algebra-modules/free-module", "shared-foundations/set", "shared-foundations/function", "algebra-modules/module-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Free module universal property**: Let \(X\) be a set and let \(F\) be a free \(R\)-module on \(X\), equipped with a function \(\eta:X\to F\). For any \(R\)-module \(M\) and any function \(g:X\to M\), there exists a unique \(R\)-module homomorphism \(\tilde g:F\to M\) such that \(\tilde g\circ \eta=g\).

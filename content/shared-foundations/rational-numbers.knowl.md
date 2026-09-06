@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Numbers expressible as a ratio of two integers with nonzero denominator."
 aliases = ["rational-numbers", "Rational numbers"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/integers"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/rational-numbers.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/integers"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **rational numbers** are the [[shared-foundations/set|set]] \(\mathbb{Q}\) of fractions \(p/q\) with \(p,q\in\mathbb{Z}\) and \(q\ne 0\), where \(p/q\) and \(p'/q'\) represent the same rational number exactly when \(pq'=p'q\).

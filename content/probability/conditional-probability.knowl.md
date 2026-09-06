@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Probability of an event given another event or a sigma-algebra representing available information"
 aliases = ["conditional-probability", "Conditional probability"]
 domains = ["probability"]
-prerequisites = ["measure-theory/sigma-algebra", "probability/probability-space", "probability/random-variable", "probability/conditional-expectation"]
-dependency_review_count = 1
 legacy_source_path = "probability/conditional-probability.md"
+prerequisites = ["measure-theory/sigma-algebra", "probability/probability-space", "probability/random-variable", "probability/conditional-expectation"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **conditional probability** is the probability of an event after restricting to information in another event or in a sub-[[measure-theory/sigma-algebra|sigma-algebra]].  On a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\), for events \(A,B\in\mathcal F\) with \(\mathbb P(B)>0\), the conditional probability of \(A\) given \(B\) is

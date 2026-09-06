@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A group scheme of finite type over a field."
 aliases = ["algebraic group"]
 domains = ["algebraic-geometry-foundations", "lie-groups"]
-prerequisites = ["algebraic-geometry-foundations/group-scheme"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/group-scheme"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **algebraic group** over a field \(k\) is a

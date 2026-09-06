@@ -5,11 +5,11 @@ kind = "knowl"
 summary = "An algebraic-group element whose image in a faithful representation is diagonalizable."
 aliases = ["semisimple-element-and-class", "Semisimple Element and Semisimple Conjugacy Class"]
 domains = ["langlands-letter"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/maximal-torus-weight-lattice", "algebra-groups/conjugacy-class"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/semisimple-element-and-class.md"
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/maximal-torus-weight-lattice", "algebra-groups/conjugacy-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a linear [[algebraic-geometry-foundations/algebraic-group|algebraic group]] over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]].

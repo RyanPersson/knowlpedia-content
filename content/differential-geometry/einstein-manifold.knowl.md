@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A Riemannian manifold whose Ricci tensor is a constant multiple of the metric."
 aliases = ["Einstein metric", "Riemannian Einstein manifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "topology/connected-component", "differential-geometry/ricci-curvature"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/ricci-curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **Einstein manifold** is a [[differential-geometry/riemannian-manifold|Riemannian manifold]] \((M^n,g)\) for which there is a real constant \(\lambda\), on each [[topology/connected-component|connected component]], such that

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The class function χ(g)=tr(ρ(g)) attached to a finite-dimensional representation ρ of a finite group."
 aliases = ["character", "Character of a representation"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/group-representation", "linear-algebra/trace"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/character.md"
+prerequisites = ["algebra-representation-theory/group-representation", "linear-algebra/trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group and let \(\rho:G\to \mathrm{GL}(V)\) be a finite-dimensional complex [[algebra-representation-theory/group-representation|representation]]. The **character** of \(\rho\) is the function

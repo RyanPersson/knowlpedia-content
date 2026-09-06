@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The affine formal scheme Spf(A) associated to a complete adic ring A."
 aliases = ["Spf", "affine formal scheme", "formal affine spectrum"]
 domains = ["algebraic-geometry-foundations", "formal-groups"]
-prerequisites = ["algebra-topological/adic-ring", "algebra-topological/ideal-of-definition", "algebraic-geometry-foundations/structure-sheaf"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-topological/adic-ring", "algebra-topological/ideal-of-definition", "algebraic-geometry-foundations/structure-sheaf"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a complete and separated

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A second partial derivative taken with respect to two different coordinates"
 aliases = ["mixed-partial-derivative", "Mixed partial derivative"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/mixed-partial-derivative.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **mixed partial derivative** of a scalar function \(f:U\to \mathbb{R}\) (with \(U\subseteq \mathbb{R}^n\)) at \(a\in U\) is a second-order partial derivative of the form

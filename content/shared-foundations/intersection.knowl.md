@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of elements that belong to all of the given sets."
 aliases = ["intersection"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/indexed-family-of-sets"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/intersection.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/indexed-family-of-sets"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 An **intersection** is the set of elements common to every set in a given collection. For sets \(A,B\),

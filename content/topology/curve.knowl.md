@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous map from an interval of real numbers into a space."
 aliases = ["curve"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/interval", "topology/path"]
-dependency_review_count = 1
 legacy_source_path = "topology/curve.md"
+prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/interval"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **curve** in a [[topology/topological-space|topological space]] \(X\) is a [[topology/continuous-map|continuous map]] \(\gamma\colon I\to X\), where \(I\subseteq\mathbb{R}\) is an [[real-analysis/interval|interval]] (with its usual topology).

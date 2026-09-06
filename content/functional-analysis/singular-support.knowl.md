@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The singular support records the points near which a distribution cannot be represented by a smooth function."
 aliases = ["singular support", "distributional singular locus"]
 domains = ["functional-analysis", "distribution-theory"]
-prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "functional-analysis/support-of-distribution"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "functional-analysis/support-of-distribution"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T\) be a [[functional-analysis/distribution|distribution]] on an open set

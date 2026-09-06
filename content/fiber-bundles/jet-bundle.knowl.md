@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bundle whose points record the value and first derivative of a local section at a basepoint."
 aliases = ["jet-bundle", "Jet bundle (first jets of sections)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/jet-bundle.md"
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi\colon E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]].

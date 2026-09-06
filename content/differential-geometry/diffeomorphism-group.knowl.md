@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The group of all smooth self-diffeomorphisms of a smooth manifold under composition."
 aliases = ["group of diffeomorphisms", "Diff(M)"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "algebra-groups/automorphism-group", "differential-geometry/category-of-smooth-manifolds"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "algebra-groups/automorphism-group", "differential-geometry/category-of-smooth-manifolds"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **diffeomorphism group** of \(M\), denoted \(\operatorname{Diff}(M)\), is the set of all [[fiber-bundles/diffeomorphism|diffeomorphisms]] \(f:M\to M\), with composition as multiplication, the identity map as identity element, and functional inverse as group inverse. It is the [[algebra-groups/automorphism-group|automorphism group]] of \(M\) in the [[differential-geometry/category-of-smooth-manifolds|category of smooth manifolds]]. This algebraic definition does not by itself specify a topology or an infinite-dimensional smooth structure on \(\operatorname{Diff}(M)\); those require additional choices and hypotheses.

@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The maximal subgroupoid of a category, retaining all objects but only the isomorphisms."
 aliases = ["maximal subgroupoid", "underlying groupoid of a category"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/groupoid"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/groupoid"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **core** of a [[algebra-category-theory/category|category]] \(\mathcal C\), written \(\mathcal C^\simeq\) or \(\operatorname{Core}(\mathcal C)\), is the [[algebra-category-theory/groupoid|groupoid]] with the same objects as \(\mathcal C\) and with

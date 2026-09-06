@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Hilbert-space operator whose squared norms on an orthonormal basis have finite sum."
 aliases = ["Hilbert–Schmidt class", "Hilbert Schmidt operator", "Schatten 2-class operator"]
 domains = ["functional-analysis", "operator-algebras"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator", "linear-algebra/orthonormal-basis", "functional-analysis/schatten-class-operator", "linear-algebra/compact-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator", "linear-algebra/orthonormal-basis", "functional-analysis/schatten-class-operator", "linear-algebra/compact-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) and \(K\) be [[linear-algebra/hilbert-space|Hilbert spaces]]. A

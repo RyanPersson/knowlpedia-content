@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The stable or unstable unipotent flow on the unit tangent bundle of a hyperbolic surface."
 aliases = ["stable horocycle flow", "unstable horocycle flow"]
 domains = ["differential-geometry", "dynamical-systems", "quantum-chaos"]
-prerequisites = ["fiber-bundles/tangent-bundle", "lie-groups/right-translation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/tangent-bundle", "lie-groups/right-translation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On an oriented hyperbolic surface \(M=\Gamma\backslash\mathbb H^2\), identify

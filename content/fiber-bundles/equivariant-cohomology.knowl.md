@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A cohomology theory for manifolds with a Lie group action, computed by the Cartan complex of equivariant differential forms."
 aliases = ["equivariant-cohomology", "Equivariant cohomology (Cartan model)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/universal-principal-bundle-egbg"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivariant-cohomology.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/universal-principal-bundle-egbg", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/vector-field", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] acting smoothly on a manifold \(M\). Write \(\mathfrak{g}\) for the [[lie-groups/lie-algebra|Lie algebra]] of \(G\).

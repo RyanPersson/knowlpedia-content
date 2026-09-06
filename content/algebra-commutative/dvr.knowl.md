@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A one-dimensional Noetherian local domain with principal maximal ideal; equivalently, a local PID with a unique nonzero prime."
 aliases = ["dvr", "Discrete valuation ring"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/local-ring", "algebra-commutative/maximal-ideal-local-ring", "algebra-commutative/noetherian-ring", "algebra-commutative/krull-dimension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/dvr.md"
+prerequisites = ["algebra-commutative/local-ring", "algebra-commutative/maximal-ideal-local-ring", "algebra-commutative/noetherian-ring", "algebra-commutative/krull-dimension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **discrete valuation ring (DVR)** is the basic local building block of dimension-one commutative algebra.

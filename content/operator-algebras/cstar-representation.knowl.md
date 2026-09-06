@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A *-homomorphism from a C*-algebra to the bounded operators on a Hilbert space."
 aliases = ["*-representation", "C*-representation"]
 domains = ["operator-algebras", "algebra-representation-theory"]
-prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/star-homomorphism", "operator-algebras/bounded-operator-cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/star-homomorphism", "operator-algebras/bounded-operator-cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and \(H\)

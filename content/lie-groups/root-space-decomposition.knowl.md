@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Decomposition of a semisimple Lie algebra into a Cartan subalgebra plus root spaces for the adjoint action."
 aliases = ["root-space-decomposition", "Root space decomposition"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/killing-form"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/root-space-decomposition.md"
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-lie-algebra", "lie-groups/adjoint-representation-of-a-lie-algebra", "lie-groups/root-space", "lie-groups/killing-form", "lie-groups/root-system", "lie-groups/positive-root", "lie-groups/dynkin-diagram"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] and let \(\mathfrak h\subset\mathfrak g\) be a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. For each \(\alpha\in\mathfrak h^*\), define

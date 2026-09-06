@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "A linear operator whose action does not increase vector norms by more than a fixed constant; equivalently, a continuous linear map."
 aliases = ["bounded-operator-hilbert", "Bounded Operator on a Hilbert Space"]
 domains = ["quantum-foundations"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/bounded-operator-hilbert.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a (complex) Hilbert space. A linear operator \(A:H\to H\) is **bounded** if there exists a constant \(C\ge 0\) such that

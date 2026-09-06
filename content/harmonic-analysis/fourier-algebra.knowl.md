@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Banach algebra of coefficient functions of a group's left regular representation."
 aliases = ["Fourier algebra", "A(G)", "regular coefficient algebra"]
 domains = ["harmonic-analysis", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/coefficient-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/regular-representations-locally-compact-group", "harmonic-analysis/coefficient-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]] and let \(\lambda\) be its left

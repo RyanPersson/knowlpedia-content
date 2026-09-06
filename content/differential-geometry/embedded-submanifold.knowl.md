@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A subset of a smooth manifold that is locally a coordinate plane in ambient smooth charts."
 aliases = ["regular submanifold", "smoothly embedded submanifold", "smooth submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart", "topology/subspace-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart", "topology/subspace-topology", "fiber-bundles/smooth-embedding"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]]. A subset \(S\subseteq M\) is a \(k\)-dimensional **embedded submanifold** if every \(p\in S\) has a [[fiber-bundles/smooth-chart|smooth chart]] \((U,\varphi)\) of \(M\) such that

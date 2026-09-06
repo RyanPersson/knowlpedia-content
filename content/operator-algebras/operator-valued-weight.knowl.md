@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An extended-positive-valued bimodular weight from a von Neumann algebra to a von Neumann subalgebra."
 aliases = ["operator valued weight"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/extended-positive-cone"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/extended-positive-cone"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(N\subseteq M\) be unital

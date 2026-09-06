@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Continuous antilinear functionals on the Fréchet space of smooth vectors of a Lie-group representation."
 aliases = ["generalized vectors", "distribution globalization", "H-infinity dual"]
 domains = ["lie-groups", "functional-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-vector-unitary-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/smooth-vector-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \((\pi,\mathcal H)\) be a strongly continuous

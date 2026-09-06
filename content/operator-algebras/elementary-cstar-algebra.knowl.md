@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C*-algebra isomorphic to the compact operators on a nonzero Hilbert space."
 aliases = ["algebra of compact operators", "K(H)-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/star-isomorphism", "operator-algebras/compact-operator-cstar-algebra", "functional-analysis/unitary-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/hilbert-space", "operator-algebras/star-isomorphism", "operator-algebras/compact-operator-cstar-algebra", "functional-analysis/unitary-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **elementary \(C^*\)-algebra** is a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\) for which there are a nonzero [[linear-algebra/hilbert-space|Hilbert space]] \(H\) and a [[operator-algebras/star-isomorphism|\(*\)-isomorphism]]

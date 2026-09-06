@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If |G| = p^a m with p ∤ m, then G has a subgroup of order p^a"
 aliases = ["sylows-first-theorem", "Sylow's First Theorem"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/sylow-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylows-first-theorem.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/sylow-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Sylow's First Theorem.**

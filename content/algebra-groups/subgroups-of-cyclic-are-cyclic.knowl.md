@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every subgroup of a cyclic group is cyclic, with an explicit generator"
 aliases = ["subgroups-of-cyclic-are-cyclic", "Subgroups of cyclic groups are cyclic"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/cyclic-subgroup", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/subgroups-of-cyclic-are-cyclic.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/cyclic-subgroup", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition (Subgroups of cyclic groups are cyclic).**

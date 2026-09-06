@@ -6,9 +6,14 @@ summary = "A linear subspace that is closed in the topology induced by the ambie
 aliases = ["closed subspace", "closed linear subspace"]
 domains = ["linear-algebra", "topology"]
 prerequisites = ["convex-analysis/linear-subspace", "linear-algebra/normed-vector-space", "linear-algebra/banach-space", "linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A [[convex-analysis/linear-subspace|linear subspace]] \(M\) of a [[linear-algebra/normed-vector-space|normed vector space]] \(E\) is **closed** if it contains the limit of every convergent sequence of points of \(M\). Equivalently, \(E\setminus M\) is open in \(E\) (with its norm topology).
+A [[convex-analysis/linear-subspace|linear subspace]] \(M\) of a [[linear-algebra/normed-vector-space|normed vector space]] \(E\) is **closed** if it contains the limit of every convergent sequence of points of \(M\).
+
+## Equivalent characterization and properties
+
+Equivalently, \(E\setminus M\) is open in \(E\) (with its norm topology).
 
 A closed linear subspace of a [[linear-algebra/banach-space|Banach space]] is again a Banach space. In a [[linear-algebra/hilbert-space|Hilbert space]], every closed subspace \(M\) has an [[linear-algebra/orthogonal-complement|orthogonal complement]] and every vector decomposes uniquely as \(x=m+m^\perp\).

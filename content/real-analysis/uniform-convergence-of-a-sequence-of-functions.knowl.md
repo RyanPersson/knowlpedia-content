@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Convergence f_n→f with a single N(ε) working for all x in the domain."
 aliases = ["uniform-convergence-of-a-sequence-of-functions", "Uniform convergence (sequence of functions)"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/set", "topology/metric-space", "real-analysis/supremum", "real-analysis/continuity-on-a-set", "real-analysis/pointwise-convergence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/uniform-convergence-of-a-sequence-of-functions.md"
+prerequisites = ["shared-foundations/set", "topology/metric-space", "real-analysis/supremum", "real-analysis/continuity-on-a-set", "real-analysis/pointwise-convergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[shared-foundations/set|set]] and let \((Y,d_Y)\) be a [[topology/metric-space|metric space]]. A sequence of functions \(f_n:X\to Y\) **converges uniformly** to \(f:X\to Y\) if

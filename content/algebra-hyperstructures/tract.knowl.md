@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An abelian multiplicative group equipped with a null set of formal sums."
 aliases = ["tract in matroid theory", "Baker-Bowler tract"]
 domains = ["algebra-hyperstructures", "algebraic-geometry-foundations"]
-prerequisites = ["algebra-groups/abelian-group", "algebra-groups/group-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/abelian-group", "algebra-groups/group-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **tract** is a pair \(F=(G,N_F)\), where \(G\) is an [[algebra-groups/abelian-group|abelian group]] and \(N_F\subseteq\mathbb N[G]\) is a set of formal sums, called the **null set**, satisfying:

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The locally free sheaf assigning smooth local sections of a vector bundle to each open subset of its base."
 aliases = ["section sheaf", "sheaf of sections of a vector bundle", "Gamma sheaf of a bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["fiber-bundles/vector-bundle", "algebraic-geometry-foundations/sheaf-of-modules", "differential-geometry/sheaf-of-smooth-functions"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "algebraic-geometry-foundations/sheaf-of-modules", "differential-geometry/sheaf-of-smooth-functions"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathbb F\in\{\mathbb R,\mathbb C\}\), and let

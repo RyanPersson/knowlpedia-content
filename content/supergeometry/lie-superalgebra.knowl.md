@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Z/2-graded vector space with a graded-skew bracket satisfying the super Jacobi identity."
 aliases = ["super Lie algebra", "Z/2-graded Lie algebra"]
 domains = ["supergeometry", "lie-groups"]
-prerequisites = ["supergeometry/super-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["supergeometry/super-vector-space", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be a field of characteristic \(0\). A **Lie superalgebra** over \(k\)

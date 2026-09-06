@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The complex dual group extended by the Weil or Galois action on its based root datum."
 aliases = ["L-group", "Langlands group of a reductive group", "{}^L G"]
 domains = ["langlands", "algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands-letter/knowls/global-local-fields-completions", "langlands-letter/knowls/langlands-dual-group", "langlands/weil-group", "langlands-letter/knowls/pinned-automorphisms", "langlands-letter/knowls/roots-weights-weyl"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands-letter/knowls/global-local-fields-completions", "langlands-letter/knowls/langlands-dual-group", "langlands/weil-group", "langlands-letter/knowls/pinned-automorphisms", "langlands-letter/knowls/roots-weights-weyl"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a

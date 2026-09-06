@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A group whose derived series terminates at the trivial subgroup"
 aliases = ["solvable-group", "Solvable Group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/derived-series", "algebra-groups/trivial-subgroup", "algebra-groups/commutator-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/solvable-group.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/derived-series", "algebra-groups/trivial-subgroup", "algebra-groups/commutator-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **solvable group** is a [[algebra-groups/group|group]] \(G\) whose [[algebra-groups/derived-series|derived series]] reaches the [[algebra-groups/trivial-subgroup|trivial subgroup]] after finitely many steps. Explicitly, there is an integer \(n\ge 0\) such that \(G^{(n)}=\{e\}\), where

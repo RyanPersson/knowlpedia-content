@@ -5,10 +5,10 @@ kind = "construction"
 summary = "The sphere of future null directions, naturally identified with CP¹."
 aliases = ["sphere of null directions", "projectivized light cone", "celestial two-sphere"]
 domains = ["differential-geometry", "mathematical-physics", "complex-analysis"]
-prerequisites = ["linear-algebra/minkowski-vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["linear-algebra/minkowski-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In [[linear-algebra/minkowski-vector-space|\(\mathbb R^{1,3}\)]], let

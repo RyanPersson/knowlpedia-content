@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A field with finitely many elements; necessarily of size p^n and unique up to isomorphism for each p^n."
 aliases = ["finite-field", "Finite field"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-rings/characteristic", "algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-field.md"
+prerequisites = ["algebra-rings/field", "algebra-rings/characteristic", "algebra-fields-galois/field-extension", "algebra-fields-galois/degree-of-extension", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **finite field** is a [[algebra-rings/field|field]] \(F\) with finite cardinality \(|F|<\infty\). Its [[algebra-rings/characteristic|characteristic]] is a prime \(p\), so \(F\) contains a copy of \(\mathbb{F}_p\), and \(F\) is a finite-dimensional [[algebra-fields-galois/field-extension|field extension]] of \(\mathbb{F}_p\). Consequently \(|F|=p^n\) where \(n=[F:\mathbb{F}_p]\) (see [[algebra-fields-galois/degree-of-extension|degree of an extension]]).

@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A scheme morphism that is flat, unramified, and locally of finite presentation."
 aliases = ["etale-morphism", "Etale morphism", "Étale morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/flat-morphism", "algebraic-geometry-foundations/unramified-morphism", "algebraic-geometry-foundations/locally-of-finite-presentation", "algebraic-geometry-foundations/relative-kahler-differentials", "algebraic-geometry-foundations/local-diffeomorphism"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/flat-morphism", "algebraic-geometry-foundations/unramified-morphism", "algebraic-geometry-foundations/locally-of-finite-presentation"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The identity component of the automorphism group of a simple Euclidean Jordan algebra acts transitively on its ordered Jordan frames."
 aliases = ["transitivity on Jordan frames", "Jordan frame homogeneous space", "automorphism action on Jordan frames"]
 domains = ["nonassociative-algebra", "lie-groups"]
-prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "lie-groups/identity-component-of-a-lie-group", "nonassociative-algebra/jordan-frame"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/simple-euclidean-jordan-algebra", "lie-groups/identity-component-of-a-lie-group", "nonassociative-algebra/jordan-frame", "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) be a simple

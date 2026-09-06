@@ -5,10 +5,10 @@ kind = "definition"
 summary = "An involutive automorphism whose compactly twisted invariant form is positive definite."
 aliases = ["Cartan involution", "compact real-form involution"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/real-reductive-lie-group", "linear-algebra/bilinear-form", "lie-groups/lie-algebra-automorphism", "lie-groups/killing-form", "lie-groups/reductive-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/real-reductive-lie-group", "linear-algebra/bilinear-form", "lie-groups/lie-algebra-automorphism", "lie-groups/killing-form", "lie-groups/reductive-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be the [[lie-groups/lie-algebra|Lie algebra]] of a

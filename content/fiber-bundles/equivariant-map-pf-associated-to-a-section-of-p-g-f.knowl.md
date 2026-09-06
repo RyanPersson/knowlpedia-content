@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "How a section of an associated bundle corresponds to an equivariant map from the principal bundle to the fiber"
 aliases = ["equivariant-map-pf-associated-to-a-section-of-p-g-f", "Equivariant map associated to a section of an associated bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "fiber-bundles/smooth-manifold", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/associated-bundle", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/equivariant-map"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/equivariant-map-pf-associated-to-a-section-of-p-g-f.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "fiber-bundles/smooth-manifold", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/associated-bundle", "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/equivariant-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]], written using the standard convention that \(P\) carries a right \(G\)-action (see [[fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p|the principal bundle action convention]]). Let \(F\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] with a left \(G\)-action, as in [[fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f|the associated bundle fiber action convention]].

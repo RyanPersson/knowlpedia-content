@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A topological space containing a countable dense subset."
 aliases = ["separable", "separable space", "separability"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/metric-space"]
+prerequisites = ["topology/topological-space", "topology/metric-space", "topology/dense-set"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

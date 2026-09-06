@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "In characteristic p, nonisomorphic formal groups can have isomorphic tangent Lie algebras."
 aliases = ["positive-characteristic formal group warning", "failure of formal Lie correspondence in characteristic p"]
 domains = ["formal-groups", "lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "formal-groups/formal-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/lie-algebra", "formal-groups/formal-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Over a field \(k\) of characteristic \(p>0\), the tangent [[lie-groups/lie-algebra|Lie algebra]] functor

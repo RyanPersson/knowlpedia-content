@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C-star algebra containing a multiplicative identity."
 aliases = ["C*-algebra with identity"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra","operator-algebras/star-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\) is **unital** if

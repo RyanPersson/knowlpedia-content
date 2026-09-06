@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "The group-valued cocycle on overlaps that relates two equivariant trivializations of a principal bundle."
 aliases = ["principal-bundle-transition-function", "Principal bundle transition function"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "topology/open-cover", "fiber-bundles/equivariant-local-trivialization", "fiber-bundles/smooth-map"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/principal-bundle-transition-function.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "topology/open-cover", "fiber-bundles/equivariant-local-trivialization", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a [[fiber-bundles/principal-g-bundle|principal G-bundle]] \(\pi:P\to M\) and an [[topology/open-cover|open cover]] \(\{U_i\}_{i\in I}\) together with [[fiber-bundles/equivariant-local-trivialization|equivariant local trivializations]]

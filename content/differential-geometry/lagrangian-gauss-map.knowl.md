@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The tangent-plane map of a Lagrangian immersion, valued intrinsically in the Lagrangian-Grassmannian bundle."
 aliases = ["Gauss map of a Lagrangian immersion"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/lagrangian-submanifold", "differential-geometry/symplectic-manifold", "differential-geometry/lagrangian-grassmannian", "fiber-bundles/pullback-bundle", "differential-geometry/symplectic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lagrangian-submanifold", "differential-geometry/symplectic-manifold", "differential-geometry/lagrangian-grassmannian", "fiber-bundles/pullback-bundle", "differential-geometry/symplectic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:L^n\to(M^{2n},\omega)\) be a [[differential-geometry/lagrangian-submanifold|Lagrangian immersion]] into a [[differential-geometry/symplectic-manifold|symplectic manifold]]. Write \(\operatorname{Lag}(TM)\to M\) for the bundle whose fiber at \(p\) is the [[differential-geometry/lagrangian-grassmannian|Lagrangian Grassmannian]] of \(T_pM\). The **Lagrangian Gauss map** is

@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Two projections in a von Neumann algebra become subequivalent in opposite directions after a central decomposition."
 aliases = ["Murray–von Neumann comparison theorem"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra", "operator-algebras/murray-von-neumann-subequivalence"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/center-of-von-neumann-algebra", "operator-algebras/murray-von-neumann-subequivalence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(p\) and \(q\) be projections in a

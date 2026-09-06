@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Set addition, scalar multiplication, and difference inside a vector space"
 aliases = ["set-operations-sum-scalar-multiple-difference", "Operations on subsets of a vector space"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/set-operations-sum-scalar-multiple-difference.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(M,N\subset X\) be nonempty subsets, with \(\alpha\in K\).

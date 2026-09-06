@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Transverse embedded submanifolds intersect in an embedded submanifold of the expected codimension."
 aliases = ["intersection theorem for transverse submanifolds"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/transverse-submanifolds"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/smooth-manifold", "differential-geometry/transverse-submanifolds"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(S\) and \(T\) be [[differential-geometry/embedded-submanifold|embedded submanifolds]] of a finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) without boundary. If \(S\) and \(T\) are [[differential-geometry/transverse-submanifolds|transverse]], then \(S\cap T\) is an embedded submanifold of \(M\). At every \(p\in S\cap T\),

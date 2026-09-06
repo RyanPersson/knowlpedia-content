@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Points from which every vector-space direction remains in the set for a sufficiently short segment."
 aliases = ["algebraic-interior-core", "Algebraic Interior (Core)"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/algebraic-interior-core.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/norm-normed-vector-space", "convex-analysis/interior-of-a-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[linear-algebra/vector-space|vector space]] and let \(\Omega\subseteq X\).

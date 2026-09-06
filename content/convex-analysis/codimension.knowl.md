@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The dimension of the quotient space X/L for a subspace L⊂X."
 aliases = ["codimension"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "convex-analysis/quotient-vector-space-codimension"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/codimension.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/linear-subspace", "convex-analysis/quotient-vector-space-codimension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(L\subset X\) be a [[convex-analysis/linear-subspace|linear subspace]]. The **codimension** of \(L\) in \(X\) is

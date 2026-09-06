@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An infinite sum understood through its sequence of partial sums."
 aliases = ["series"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partial-sums"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/series.md"
+prerequisites = ["real-analysis/partial-sums"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **series** is a formal expression \(\sum_{n=1}^\infty a_n\) together with the associated [[real-analysis/partial-sums|partial sums]] \(s_n=\sum_{k=1}^n a_k\).

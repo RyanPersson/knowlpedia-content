@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An absolutely convergent series has Cauchy partial sums."
 aliases = ["absolute-convergence-implies-cauchy", "Absolute convergence implies Cauchy"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partial-sums"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/absolute-convergence-implies-cauchy.md"
+prerequisites = ["real-analysis/partial-sums"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Absolute convergence implies Cauchy:** Let \(\sum_{n=1}^\infty a_n\) be a series of real or complex numbers, and let \(s_n=\sum_{k=1}^n a_k\) be its [[real-analysis/partial-sums|partial sums]]. If

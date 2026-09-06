@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Lie subgroup has Lie algebra equal to its tangent space at the identity, viewed as a Lie subalgebra."
 aliases = ["lie-algebra-of-subgroup-lemma", "Lie algebra of a subgroup lemma"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-of-subgroup-lemma.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \(H\subseteq G\) be a [[lie-groups/lie-subgroup|Lie subgroup]] with inclusion map \(\iota:H\hookrightarrow G\).

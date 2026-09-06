@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a local ring, the unique maximal ideal is exactly the set of nonunits."
 aliases = ["maximal-ideal-local-ring", "Maximal ideal of a local ring"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/local-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/maximal-ideal-local-ring.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/local-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. Write \(R^\times\) for its group of units and set

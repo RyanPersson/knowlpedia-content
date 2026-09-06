@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "The decomposition of complex de Rham cohomology into Dolbeault cohomology groups of fixed bidegree."
 aliases = ["Kähler Hodge decomposition", "Hodge decomposition by bidegree"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/dolbeault-cohomology", "differential-geometry/hodge-theorem"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/dolbeault-cohomology", "differential-geometry/hodge-theorem"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a compact [[differential-geometry/kahler-manifold|Kähler manifold]]. For every \(k\), the **Hodge decomposition** is the canonical direct sum

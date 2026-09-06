@@ -6,6 +6,7 @@ summary = "A basis whose vectors have unit length and are pairwise orthogonal."
 aliases = ["orthonormal basis", "orthonormal bases"]
 domains = ["linear-algebra", "quantum-foundations"]
 prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Banach space whose canonical embedding into its continuous bidual is surjective."
 aliases = ["reflexive space", "canonical bidual isomorphism"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/banach-space", "functional-analysis/topological-dual"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/banach-space", "functional-analysis/topological-dual", "shared-foundations/surjective-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/banach-space|Banach space]] over

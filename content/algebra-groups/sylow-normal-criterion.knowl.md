@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "If the Sylow p-subgroup is unique then it is normal"
 aliases = ["sylow-normal-criterion", "Sylow normality criterion"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup", "algebra-groups/normal-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/sylow-normal-criterion.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/sylow-subgroup", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition (If \(n_p=1\) then the Sylow p-subgroup is normal).**

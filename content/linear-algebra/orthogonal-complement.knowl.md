@@ -6,6 +6,7 @@ summary = "The subspace of vectors orthogonal to every vector in a given subset.
 aliases = ["orthogonal complement"]
 domains = ["linear-algebra"]
 prerequisites = ["linear-algebra/inner-product-space", "linear-algebra/closed-linear-subspace", "linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every normally hyperbolic operator is uniquely a connection wave operator plus a bundle endomorphism."
 aliases = ["connection decomposition of a normally hyperbolic operator"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
-prerequisites = ["differential-geometry/lorentzian-manifold","mathematical-physics/normally-hyperbolic-operator","fiber-bundles/levicivita-connection-connection","differential-geometry/connection-laplacian"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lorentzian-manifold", "mathematical-physics/normally-hyperbolic-operator", "fiber-bundles/levicivita-connection-connection", "differential-geometry/connection-laplacian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to(M,g)\) be a smooth vector bundle over a [[differential-geometry/lorentzian-manifold|Lorentzian manifold]]. Every [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic operator]]

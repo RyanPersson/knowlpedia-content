@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The canonical-coordinate differential equations determined by a Hamiltonian function and the standard symplectic form."
 aliases = ["canonical Hamilton equations"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/darboux-theorem-symplectic"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/hamiltonian-system", "differential-geometry/darboux-theorem-symplectic"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega,H)\) be an [[differential-geometry/hamiltonian-system|autonomous Hamiltonian system]]. In [[differential-geometry/darboux-theorem-symplectic|Darboux coordinates]] \((q^1,\ldots,q^n,p_1,\ldots,p_n)\), where

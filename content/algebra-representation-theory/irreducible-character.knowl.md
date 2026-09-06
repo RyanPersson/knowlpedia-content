@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The character of an irreducible complex representation; these form an orthonormal basis of class functions."
 aliases = ["irreducible-character", "Irreducible character"]
 domains = ["algebra-representation-theory"]
-prerequisites = ["algebra-representation-theory/character", "algebra-representation-theory/irreducible-representation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-representation-theory/irreducible-character.md"
+prerequisites = ["algebra-representation-theory/character", "algebra-representation-theory/irreducible-representation", "algebra-modules/simple-module", "algebra-representation-theory/group-algebra", "algebra-groups/class-function", "algebra-groups/conjugacy-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a finite group. An **irreducible character** of \(G\) is the [[algebra-representation-theory/character|character]] \(\chi_\rho\) of an [[algebra-representation-theory/irreducible-representation|irreducible (complex) representation]] \(\rho:G\to \mathrm{GL}(V)\).

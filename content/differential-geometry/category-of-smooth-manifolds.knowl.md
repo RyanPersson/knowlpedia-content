@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The category whose objects are smooth manifolds and whose morphisms are smooth maps."
 aliases = ["smooth-manifold category", "category of manifolds and smooth maps", "Diff", "category Diff", "category of smooth manifolds and smooth maps"]
 domains = ["differential-geometry", "category-theory"]
-prerequisites = []
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/category", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **category of smooth manifolds**, denoted \(\mathbf{Man}\), has smooth
@@ -17,6 +17,8 @@ morphisms. Identity maps are smooth, and composites of smooth maps are
 smooth, so these data form a [[algebra-category-theory/category|category]].
 The convention here allows disconnected manifolds, provided their component
 dimensions are globally bounded.
+
+## Categorical properties
 
 An isomorphism in \(\mathbf{Man}\) is exactly a
 [[fiber-bundles/diffeomorphism|diffeomorphism]]: a smooth map with a smooth

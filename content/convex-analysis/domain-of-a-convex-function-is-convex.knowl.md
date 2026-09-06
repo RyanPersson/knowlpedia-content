@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The effective domain of an extended-real-valued convex function is a convex set."
 aliases = ["domain-of-a-convex-function-is-convex", "Domain of a convex function is convex"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/convex-set"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/domain-of-a-convex-function-is-convex.md"
+prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/convex-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real vector space and let \(f:X\to(-\infty,+\infty]\) be a [[convex-analysis/convex-function-via-epigraph|convex function]]. Then its effective [[convex-analysis/domain-and-epigraph-proper-function|domain]]

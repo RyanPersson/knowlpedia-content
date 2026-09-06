@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A differential operator on tensorial forms on a principal bundle obtained by differentiating and projecting to horizontal directions."
 aliases = ["exterior-covariant-derivative", "Exterior covariant derivative"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/exterior-derivative", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exterior-covariant-derivative.md"
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a principal \(G\)-bundle \(\pi:P\to M\) with a [[fiber-bundles/principal-connection|principal connection]] and associated connection form \(\omega\). Let \(V\) be a representation of \(G\).

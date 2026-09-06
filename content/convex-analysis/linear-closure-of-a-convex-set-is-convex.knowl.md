@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set lin(Ω) is convex whenever Ω is convex."
 aliases = ["linear-closure-of-a-convex-set-is-convex", "Linear Closure of a Convex Set is Convex"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/linear-closure"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/linear-closure-of-a-convex-set-is-convex.md"
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-set", "convex-analysis/linear-closure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(\Omega\subset X\) be [[convex-analysis/convex-set|convex]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of all real-valued continuous functions on a given topological space."
 aliases = ["space-of-continuous-functions", "Space of continuous functions"]
 domains = ["real-analysis"]
-prerequisites = ["topology/topological-space", "topology/continuous-map"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/space-of-continuous-functions.md"
+prerequisites = ["shared-foundations/function", "topology/topological-space", "topology/continuous-map"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 The **space of continuous functions** on a [[topology/topological-space|topological space]] \(X\) is

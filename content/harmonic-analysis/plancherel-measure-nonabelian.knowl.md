@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The spectral measure on the unitary dual that makes the nonabelian Fourier transform an L2 isometry."
 aliases = ["nonabelian Plancherel measure", "Plancherel measure of a locally compact group"]
 domains = ["harmonic-analysis", "lie-groups", "functional-analysis"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/unitary-dual", "functional-analysis/hilbert-schmidt-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/unitary-dual", "functional-analysis/hilbert-schmidt-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a second-countable, unimodular, type I

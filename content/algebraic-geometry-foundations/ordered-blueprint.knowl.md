@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An ordered semiring together with a multiplicative monoid of generators."
 aliases = ["ordered blueprint algebra"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
-prerequisites = ["algebra-rings/ordered-semiring", "algebra-rings/semiring-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-rings/ordered-semiring", "algebra-rings/semiring-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **ordered blueprint** is a triple

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Knapp–Stein operator is the meromorphically continued and normalized standard integral intertwining two Weyl-related principal-series representations."
 aliases = ["standard intertwining operator", "normalized intertwiner"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/normalized-parabolic-induction", "lie-groups/intertwining-operator-unitary-representations"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/normalized-parabolic-induction", "lie-groups/intertwining-operator-unitary-representations"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]],

@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A group action whose action map is continuous in the group element and the point."
 aliases = ["continuous action", "continuous group action", "topological group action"]
 domains = ["topology", "algebra-groups"]
-prerequisites = ["topology/topological-group", "topology/topological-space", "algebra-groups/group-action", "topology/continuous-map", "topology/product-topology", "topology/homeomorphism"]
+prerequisites = ["topology/topological-group", "topology/topological-space", "algebra-groups/group-action", "topology/continuous-map", "topology/product-topology"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

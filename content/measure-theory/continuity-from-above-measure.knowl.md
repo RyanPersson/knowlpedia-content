@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "For decreasing measurable sets, the measure of the intersection is the limit of the measures under a finiteness hypothesis."
 aliases = ["continuity-from-above-measure", "Continuity from above"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measure-space","measure-theory/measure"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/continuity-from-above-measure.md"
+prerequisites = ["measure-theory/measure-space", "measure-theory/measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Continuity from above:** Let \((X,\Sigma,\mu)\) be a [[measure-theory/measure-space|measure space]] and let \(E_1,E_2,\dots \in \Sigma\) satisfy

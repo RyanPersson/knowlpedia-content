@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The C*-completion of a dynamical system obtained from a faithful regular covariant representation."
 aliases = ["reduced C*-crossed product"]
 domains = ["operator-algebras", "dynamical-systems"]
-prerequisites = ["operator-algebras/cstar-dynamical-system", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/regular-covariant-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-dynamical-system", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/regular-covariant-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dynamical system]], choose a faithful [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate representation]] \(\pi:A\to\mathcal B(H)\), and form its [[operator-algebras/regular-covariant-representation|regular covariant representation]] \((\widetilde\pi,\lambda)\) on \(L^2(G,H)\). The **reduced crossed product** is

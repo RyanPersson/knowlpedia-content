@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The scalar-curvature coupling that makes the massless wave equation conformally covariant."
 aliases = ["conformally coupled scalar field", "conformal scalar coupling", "conformal wave operator"]
 domains = ["mathematical-physics", "partial-differential-equations", "differential-geometry"]
-prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "differential-geometry/scalar-curvature"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/pseudo-riemannian-manifold", "differential-geometry/scalar-curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On an \(n\)-dimensional [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian manifold]] with \(n\geq3\), the **conformally coupled scalar operator** in the convention

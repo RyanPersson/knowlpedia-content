@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The number of cosets of a subgroup in a group"
 aliases = ["index-of-subgroup", "Index of a Subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/subgroup", "algebra-groups/group", "shared-foundations/cardinality", "algebra-groups/coset"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/index-of-subgroup.md"
+prerequisites = ["algebra-groups/subgroup", "algebra-groups/group", "shared-foundations/cardinality", "algebra-groups/coset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a [[algebra-groups/subgroup|subgroup]] of a [[algebra-groups/group|group]] \(G\). The **index** of \(H\) in \(G\), denoted \([G:H]\), is the [[shared-foundations/cardinality|cardinality]] of the set of left [[algebra-groups/coset|cosets]] of \(H\) in \(G\):

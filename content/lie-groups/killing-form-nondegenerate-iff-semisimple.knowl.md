@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A finite-dimensional Lie algebra is semisimple iff its Killing form is nondegenerate."
 aliases = ["killing-form-nondegenerate-iff-semisimple", "Killing form nondegeneracy criterion"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/killing-form"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/killing-form-nondegenerate-iff-semisimple.md"
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/killing-form", "lie-groups/semisimple-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]] over a field of characteristic \(0\), and let \(B\) be its [[lie-groups/killing-form|Killing form]].

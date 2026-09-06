@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The meromorphic function f prime over f, whose residues record zeros and poles."
 aliases = ["log derivative"]
 domains = ["complex-analysis"]
-prerequisites = ["complex-analysis/meromorphic-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["complex-analysis/meromorphic-function", "complex-analysis/complex-derivative", "complex-analysis/residue"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f\) be a nonzero [[complex-analysis/meromorphic-function|meromorphic function]]. Its **logarithmic derivative** is

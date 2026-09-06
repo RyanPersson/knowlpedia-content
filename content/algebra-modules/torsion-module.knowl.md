@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A module in which every element is torsion (over an integral domain)."
 aliases = ["torsion-module", "Torsion module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module", "algebra-modules/torsion-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/torsion-module.md"
+prerequisites = ["algebra-rings/integral-domain", "algebra-modules/module", "algebra-modules/torsion-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be an [[algebra-rings/integral-domain|integral domain]] and \(M\) an \(R\)-[[algebra-modules/module|module]]. The module \(M\) is a **torsion module** if every element of \(M\) is a [[algebra-modules/torsion-element|torsion element]].

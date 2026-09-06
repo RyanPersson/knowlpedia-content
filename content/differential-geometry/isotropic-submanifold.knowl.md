@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An immersed submanifold on which the ambient symplectic form pulls back to zero."
 aliases = ["isotropic immersed submanifold"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/isotropic-subspace", "differential-geometry/symplectic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/isotropic-subspace", "differential-geometry/symplectic-vector-space", "differential-geometry/tangent-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. A [[fiber-bundles/smooth-immersion|smooth immersion]] \(\iota:L\to M\) is an **isotropic submanifold** if

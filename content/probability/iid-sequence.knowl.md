@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence of random variables that are independent and identically distributed."
 aliases = ["iid-sequence", "i.i.d. sequence"]
 domains = ["probability"]
-prerequisites = ["shared-foundations/sequence", "probability/random-variable", "probability/probability-space", "probability/independence-random-variables", "probability/identically-distributed", "probability/distribution-law"]
-dependency_review_count = 1
 legacy_source_path = "probability/iid-sequence.md"
+prerequisites = ["shared-foundations/sequence", "probability/random-variable", "probability/probability-space", "probability/independence-random-variables", "probability/identically-distributed", "probability/distribution-law"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **sequence of i.i.d. random variables** is a [[shared-foundations/sequence|sequence]] \((X_n)_{n\ge 1}\) of [[probability/random-variable|random variables]] on a common [[probability/probability-space|probability space]] such that the family \((X_n)_{n\ge 1}\) is [[probability/independence-random-variables|independent]] and the variables are [[probability/identically-distributed|identically distributed]] (equivalently, each \(X_n\) has the same [[probability/distribution-law|distribution law]] as \(X_1\)).

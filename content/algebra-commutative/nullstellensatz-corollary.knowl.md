@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over an algebraically closed field, maximal ideals of a polynomial ring are exactly the ideals of points."
 aliases = ["nullstellensatz-corollary", "Nullstellensatz corollary: maximal ideals are points"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/field", "algebra-commutative/maximal-spectrum", "algebra-commutative/residue-field"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/nullstellensatz-corollary.md"
+prerequisites = ["algebra-rings/field", "algebra-commutative/maximal-spectrum", "algebra-commutative/residue-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be an algebraically closed [[algebra-rings/field|field]]. The weak Nullstellensatz states that every maximal ideal \(\mathfrak m\subset k[x_1,\dots,x_n]\) has the form

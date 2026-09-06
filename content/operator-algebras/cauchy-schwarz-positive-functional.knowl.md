@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A positive functional on a C*-algebra induces a positive semidefinite form satisfying the scalar Cauchy–Schwarz inequality."
 aliases = ["Schwarz inequality for positive functionals", "C*-Cauchy–Schwarz"]
 domains = ["operator-algebras", "functional-analysis"]
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "linear-algebra/cauchy-schwarz-inequality"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/positive-linear-functional", "linear-algebra/cauchy-schwarz-inequality"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] and let

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The number of simple factors in a composition series (when finite)."
 aliases = ["length-module", "Length of a module"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-modules/module", "algebra-modules/composition-series-module"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/length-module.md"
+prerequisites = ["algebra-modules/module", "algebra-modules/composition-series-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 If an \(R\)-[[algebra-modules/module|module]] \(M\) admits a [[algebra-modules/composition-series-module|composition series]]

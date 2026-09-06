@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A smooth fiber bundle with a free and transitive right action of a Lie group on each fiber and local trivializations compatible with the action."
 aliases = ["principal-g-bundle", "Principal G-bundle"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/principal-g-bundle.md"
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/diffeomorphism", "fiber-bundles/smooth-submersion", "algebra-groups/group-action"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and let \(M\) be a smooth manifold. A **principal \(G\)-bundle** over \(M\) is a quadruple \((P,\pi,M,G)\) consisting of a [[fiber-bundles/smooth-manifold|smooth manifold]] \(P\), a surjective submersion \(\pi:P\to M\), and a smooth right action

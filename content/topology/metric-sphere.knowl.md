@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of points at exactly a fixed distance from a given center point in a metric space."
 aliases = ["metric-sphere", "Metric sphere"]
 domains = ["topology"]
-prerequisites = ["topology/metric"]
-dependency_review_count = 1
 legacy_source_path = "topology/metric-sphere.md"
+prerequisites = ["topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **metric sphere** in a metric space \((X,d)\) is a set of the form

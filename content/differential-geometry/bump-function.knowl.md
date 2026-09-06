@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A smooth function with compact support, often chosen to equal one on a prescribed closed set."
 aliases = ["smooth bump function", "smooth cutoff function"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/closed-set", "topology/neighborhood"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/closed-set", "topology/neighborhood"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **bump function** is a [[fiber-bundles/smooth-map|smooth map]] \(\varphi:M\to\mathbb R\) whose support

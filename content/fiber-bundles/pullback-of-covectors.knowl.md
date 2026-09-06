@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The contravariant map on cotangent spaces induced by a smooth map, defined by precomposing with the differential."
 aliases = ["pullback-of-covectors", "Pullback of covectors"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/cotangent-bundle", "fiber-bundles/diffeomorphism"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/pullback-of-covectors.md"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/diffeomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] between [[fiber-bundles/smooth-manifold|smooth manifolds]]. For each \(p\in M\), the [[fiber-bundles/differential-pushforward-of-a-smooth-map|differential]] gives a linear map

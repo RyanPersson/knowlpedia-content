@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The tangent space at the identity of a Lie group, equipped with a canonical bracket from invariant vector fields."
 aliases = ["lie-algebra-of-a-lie-group", "Lie Algebra of a Lie Group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "differential-geometry/tangent-space"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/lie-algebra-of-a-lie-group.md"
+prerequisites = ["differential-geometry/tangent-space", "fiber-bundles/lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with identity \(e\). The **Lie algebra of \(G\)** is the [[differential-geometry/tangent-space|tangent space]]

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Langlands quotient is the unique irreducible quotient of a standard module with its inducing parameter in the chosen positive chamber."
 aliases = ["unique irreducible quotient of a standard module", "Langlands subquotient"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/standard-module-real-reductive-group", "lie-groups/real-reductive-lie-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/standard-module-real-reductive-group", "lie-groups/real-reductive-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(I(P,\sigma,\nu)\) be a

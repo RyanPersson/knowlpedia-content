@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set of real numbers that has a lower bound."
 aliases = ["bounded-below", "Bounded below"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/bounded-below.md"
+prerequisites = ["shared-foundations/subset"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **bounded below** set is a [[shared-foundations/subset|subset]] \(A\subseteq\mathbb R\) for which there exists \(m\in\mathbb R\) such that \(m\le x\) for every \(x\in A\); such an \(m\) is called a lower bound of \(A\).

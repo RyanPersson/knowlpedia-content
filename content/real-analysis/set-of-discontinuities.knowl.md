@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The set of points where a function is discontinuous."
 aliases = ["set-of-discontinuities", "Set of discontinuities"]
 domains = ["real-analysis"]
-prerequisites = ["shared-foundations/function", "real-analysis/discontinuity-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/set-of-discontinuities.md"
+prerequisites = ["shared-foundations/function", "real-analysis/discontinuity-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **set of discontinuities** of a [[shared-foundations/function|function]] \(f:E\to\mathbb R\), where \(E\subseteq\mathbb R\), is the set

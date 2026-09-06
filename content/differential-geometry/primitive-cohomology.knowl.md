@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The kernel of the appropriate power of the Lefschetz operator on the cohomology of a compact Kähler manifold."
 aliases = ["primitive part of cohomology"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/lefschetz-operator", "differential-geometry/kahler-class"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/lefschetz-operator", "differential-geometry/kahler-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a compact [[differential-geometry/kahler-manifold|Kähler manifold]] of complex dimension \(n\), and let \(L\) be the [[differential-geometry/lefschetz-operator|Lefschetz operator]] determined by its [[differential-geometry/kahler-class|Kähler class]]. For \(0\leq k\leq n\), the **primitive cohomology in degree \(k\)** is

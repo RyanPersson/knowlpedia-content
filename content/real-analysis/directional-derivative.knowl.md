@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The derivative of a function along a line through a point in a specified direction."
 aliases = ["directional-derivative", "Directional derivative"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/differentiable-map", "real-analysis/frechet-derivative"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/directional-derivative.md"
+prerequisites = ["real-analysis/differentiable-map", "real-analysis/frechet-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **directional derivative** of a function \(f:U\to\mathbb R\), where \(U\subseteq\mathbb R^n\) is open, at \(a\in U\) in the direction \(v\in\mathbb R^n\) is the limit

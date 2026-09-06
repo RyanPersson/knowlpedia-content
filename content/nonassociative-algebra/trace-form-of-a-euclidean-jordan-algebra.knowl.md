@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The canonical positive-definite associative bilinear form obtained from the Jordan trace."
 aliases = ["Jordan trace form", "trace form of a Euclidean Jordan algebra", "canonical trace inner product"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) be a [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean

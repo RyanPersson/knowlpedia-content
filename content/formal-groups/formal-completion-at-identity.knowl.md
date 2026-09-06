@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The formal group obtained by retaining every infinitesimal neighborhood of the identity in a group scheme."
 aliases = ["completion of a group scheme at the identity", "identity formal completion", "formal neighborhood of the identity"]
 domains = ["formal-groups", "algebraic-geometry-foundations", "lie-groups"]
-prerequisites = ["algebraic-geometry-foundations/group-scheme", "algebraic-geometry-foundations/formal-scheme", "formal-groups/formal-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/group-scheme", "algebraic-geometry-foundations/formal-scheme", "formal-groups/formal-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebraic-geometry-foundations/group-scheme|group scheme]] separated over a field \(k\), with identity section

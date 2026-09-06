@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Every complex-qubit Jordan subalgebra of the Albert algebra lies in a unique octonionic spin-factor corner."
 aliases = ["unique H2(O) corner containing H2(C)", "octonionic completion of a complex qubit"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "nonassociative-algebra/octonionic-spin-factor"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/exceptional-jordan-algebra", "nonassociative-algebra/jordan-subalgebra", "nonassociative-algebra/octonionic-spin-factor"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J=H_3(\mathbb O)\) be the compact real

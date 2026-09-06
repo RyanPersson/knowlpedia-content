@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The symmetrization of a pure tensor, obtained by averaging over all permutations of its factors."
 aliases = ["symmetric-tensor-product", "Symmetric Tensor Product (·)_s"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/symmetric-tensor-product.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a complex Hilbert space and let \(x_1,\dots,x_n\in H\). Their **symmetric tensor** is the symmetrization

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A choice of horizontal subspaces complementary to the vertical tangent spaces of a fibered manifold."
 aliases = ["ehresmann-connection", "Ehresmann connection"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/ehresmann-connection.md"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle", "fiber-bundles/horizontal-subbundle"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:E\to M\) be a surjective submersion between smooth manifolds (a fibered manifold). The map \(\pi\) is a [[fiber-bundles/smooth-map|smooth map]], so it has a differential \(d\pi:TE\to TM\) between the [[fiber-bundles/tangent-bundle|tangent bundles]].

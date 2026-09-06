@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Linear map that traces out one tensor factor to produce a reduced operator."
 aliases = ["partial-trace", "Partial trace"]
 domains = ["quantum-foundations"]
-prerequisites = ["quantum-foundations/trace-operator"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "quantum-foundations/partial-trace.md"
+prerequisites = ["quantum-foundations/trace-operator", "algebra-modules/tensor-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H_A\) and \(H_B\) be finite-dimensional complex Hilbert spaces, and let \(X\) be an operator on the tensor product \(H_A\otimes H_B\). The **partial trace over \(B\)** is the unique linear map

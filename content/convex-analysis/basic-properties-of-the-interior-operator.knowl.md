@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Monotonicity, idempotence, and compatibility with finite intersections"
 aliases = ["basic-properties-of-the-interior-operator", "Basic properties of interior"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/open-subset"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/basic-properties-of-the-interior-operator.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/open-subset", "convex-analysis/interior-of-a-set", "topology/metric-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

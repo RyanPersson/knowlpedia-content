@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A bounded real-linear operator Λ with Λ² = −I; when orthogonal, it equips a real Hilbert space with a compatible complex Hilbert structure."
 aliases = ["complex-structure-lambda", "Complex Structure Λ on K"]
 domains = ["shale-paper"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "shale-paper/complex-structure-lambda.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **complex structure** on a real Hilbert space \(K\) is a bounded real-linear operator \(\Lambda:K\to K\) satisfying \(\Lambda^2=-I\). It defines complex scalar multiplication by

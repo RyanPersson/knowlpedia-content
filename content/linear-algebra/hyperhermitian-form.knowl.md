@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A quaternionic Hermitian form, represented in a basis by a self-adjoint quaternionic matrix."
 aliases = ["quaternionic Hermitian form", "hyperhermitian matrix", "quaternionic Hermitian matrix"]
 domains = ["linear-algebra", "quaternionic-analysis"]
-prerequisites = ["linear-algebra/quaternionic-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/quaternionic-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional right

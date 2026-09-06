@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A boundary-term identity relating two Riemann–Stieltjes integrals."
 aliases = ["integration-by-parts-riemann-stieltjes", "Integration by parts for Riemann–Stieltjes integrals"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/bounded-variation-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/integration-by-parts-riemann-stieltjes.md"
+prerequisites = ["real-analysis/bounded-variation-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(a<b\). If \(f,g:[a,b]\to\mathbb R\) are [[real-analysis/bounded-variation-function|of bounded variation]] and at least one is continuous, then both Riemann–Stieltjes integrals exist and

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A densely defined symmetric operator whose closure is self-adjoint."
 aliases = ["essential self-adjointness"]
 domains = ["functional-analysis"]
-prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/closure-of-operator", "functional-analysis/self-adjoint-unbounded-operator", "functional-analysis/self-adjoint-extension"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/symmetric-operator", "linear-algebra/hilbert-space", "functional-analysis/closure-of-operator", "functional-analysis/self-adjoint-unbounded-operator", "functional-analysis/self-adjoint-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T\) be a densely defined

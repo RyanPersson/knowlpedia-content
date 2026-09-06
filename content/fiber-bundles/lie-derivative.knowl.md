@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The derivative of a differential form along the flow of a vector field."
 aliases = ["lie-derivative", "Lie derivative"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/interior-product", "fiber-bundles/exterior-derivative"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/lie-derivative.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/interior-product", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(X\) be a [[fiber-bundles/vector-field|vector field]] on \(M\) with local flow \(\Phi_t\). For a [[fiber-bundles/differential-k-form|differential k-form]] \(\omega\in\Omega^k(M)\), the **Lie derivative of \(\omega\) along \(X\)** is

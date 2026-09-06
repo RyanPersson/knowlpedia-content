@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The space of connections modulo gauge transformations is the set of orbits for the gauge group action"
 aliases = ["corollary-conn-gauge-is-a-well-defined-orbit-space", "Gauge equivalence classes of connections form an orbit space"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], let \(\operatorname{Conn}(P)\) be its set of [[fiber-bundles/principal-connection|principal connections]], and let \(\mathcal G(P)\) be its [[fiber-bundles/gauge-group|gauge group]]. Pullback defines the [[fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback|right action]]

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The unique horizontal vector field on the total space that projects to a given vector field on the base."
 aliases = ["horizontal-lift-of-a-vector-field", "Horizontal lift of a vector field"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-vector-field.md"
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a surjective submersion with an [[fiber-bundles/ehresmann-connection|Ehresmann connection]] and horizontal spaces \(H_eE\subset T_eE\).

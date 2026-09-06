@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subgroup of elements fixing a point under a group action"
 aliases = ["stabilizer"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-action", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/stabilizer.md"
+prerequisites = ["algebra-groups/group-action", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[algebra-groups/group-action|group action]] of a group \(G\) on a set \(X\) be given. For \(x\in X\), the **stabilizer** of \(x\) is

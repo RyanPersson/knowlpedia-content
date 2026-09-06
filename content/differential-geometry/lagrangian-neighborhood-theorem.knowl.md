@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A neighborhood of a Lagrangian submanifold has the cotangent bundle as its canonical local symplectic model."
 aliases = ["Weinstein neighborhood theorem", "Lagrangian tubular-neighborhood theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/lagrangian-submanifold", "differential-geometry/symplectic-manifold", "fiber-bundles/zero-section", "fiber-bundles/cotangent-bundle", "differential-geometry/symplectomorphism", "differential-geometry/canonical-symplectic-form-cotangent"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lagrangian-submanifold", "differential-geometry/symplectic-manifold", "fiber-bundles/zero-section", "fiber-bundles/cotangent-bundle", "differential-geometry/symplectomorphism", "differential-geometry/canonical-symplectic-form-cotangent"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(L\) be an embedded [[differential-geometry/lagrangian-submanifold|Lagrangian submanifold]] of a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\). There are neighborhoods \(U\) of the [[fiber-bundles/zero-section|zero section]] in the [[fiber-bundles/cotangent-bundle|cotangent bundle]] \(T^*L\) and \(V\) of \(L\) in \(M\), together with a [[differential-geometry/symplectomorphism|symplectomorphism]]

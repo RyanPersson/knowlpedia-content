@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Splitting fields are unique up to base-field isomorphism (and unique inside a fixed algebraic closure)."
 aliases = ["splitting-field-uniqueness", "Uniqueness of splitting fields"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/splitting-field", "algebra-fields-galois/field-embedding"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field-uniqueness.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/splitting-field", "algebra-fields-galois/field-embedding"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a [[algebra-rings/field|field]] and let \(S\subseteq K[x]\) be a set of polynomials. Suppose \(L\) and \(L'\) are [[algebra-fields-galois/splitting-field|splitting fields]] of \(S\) over \(K\).

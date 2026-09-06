@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The scalar Hamiltonian obtained by pairing a moment map with one Lie algebra element."
 aliases = ["component function of a moment map", "Hamiltonian for an infinitesimal generator"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "differential-geometry/hamiltonian-function", "differential-geometry/infinitesimal-generator-lie-action"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/moment-map", "differential-geometry/hamiltonian-function", "differential-geometry/infinitesimal-generator-lie-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) act on a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((M,\omega)\), let \(\mu:M\to\mathfrak g^*\) be a [[fiber-bundles/moment-map|moment map]], and fix \(\xi\in\mathfrak g\). The **moment-map component in the direction \(\xi\)** is the smooth function

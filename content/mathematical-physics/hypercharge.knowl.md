@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The U(1) weight that combines with weak isospin to determine electric charge."
 aliases = ["hypercharge", "weak hypercharge", "U(1)_Y"]
 domains = ["mathematical-physics", "lie-groups"]
-prerequisites = ["mathematical-physics/standard-model-gauge-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["mathematical-physics/standard-model-gauge-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Weak hypercharge** \(Y\) is the weight labeling a one-dimensional representation of the \(U(1)_Y\) factor of the [[mathematical-physics/standard-model-gauge-group|Standard Model internal symmetry group]]. In the convention used here,

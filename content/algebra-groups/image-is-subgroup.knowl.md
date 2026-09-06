@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The image of a group homomorphism is a subgroup of the codomain"
 aliases = ["image-is-subgroup", "Image is a subgroup"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/image-group", "algebra-groups/subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/image-is-subgroup.md"
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/image-group", "algebra-groups/subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition (Image is a subgroup).**

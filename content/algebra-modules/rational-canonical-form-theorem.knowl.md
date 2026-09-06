@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every linear operator is similar to a block diagonal companion-matrix form determined by invariant factors."
 aliases = ["rational-canonical-form-theorem", "Rational canonical form theorem"]
 domains = ["algebra-modules"]
-prerequisites = ["linear-algebra/linear-map", "linear-algebra/vector-space", "algebra-modules/basis-module", "algebra-modules/matrix-representation", "linear-algebra/minimal-polynomial", "linear-algebra/characteristic-polynomial", "algebra-rings/polynomial-ring", "algebra-modules/structure-theorem-pid"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/rational-canonical-form-theorem.md"
+prerequisites = ["linear-algebra/linear-map", "linear-algebra/vector-space", "algebra-modules/basis-module", "algebra-modules/matrix-representation", "linear-algebra/minimal-polynomial", "linear-algebra/characteristic-polynomial", "algebra-rings/polynomial-ring", "algebra-modules/structure-theorem-pid"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Rational canonical form theorem**: Let \(T\) be a [[linear-algebra/linear-map|linear map]] on a finite-dimensional [[linear-algebra/vector-space|vector space]] \(V\) over a field \(k\). Then there exists a [[algebra-modules/basis-module|basis]] of \(V\) such that the [[algebra-modules/matrix-representation|matrix representation]] of \(T\) is block diagonal with blocks equal to companion matrices \(C(f_1),\dots,C(f_s)\) of monic polynomials \(f_1,\dots,f_s\in k[x]\) satisfying

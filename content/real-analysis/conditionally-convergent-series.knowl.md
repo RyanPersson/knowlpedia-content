@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convergent series that is not absolutely convergent."
 aliases = ["conditionally-convergent-series", "Conditionally convergent series"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/convergent-series", "real-analysis/absolutely-convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/conditionally-convergent-series.md"
+prerequisites = ["real-analysis/convergent-series", "real-analysis/absolutely-convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **conditionally convergent series** is a series \(\sum_{n=1}^\infty a_n\) that is [[real-analysis/convergent-series|convergent]] but not [[real-analysis/absolutely-convergent-series|absolutely convergent]], meaning that \(\sum_{n=1}^\infty a_n\) converges while \(\sum_{n=1}^\infty |a_n|\) diverges.

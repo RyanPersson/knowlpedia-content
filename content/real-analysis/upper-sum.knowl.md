@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A Riemann upper sum built from suprema on each subinterval."
 aliases = ["upper-sum", "Upper sum"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/supremum"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/upper-sum.md"
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/supremum"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **upper sum** of a bounded function \(f:[a,b]\to\mathbb R\) with respect to a [[real-analysis/partition-of-an-interval|partition]] \(P=\{x_0,\dots,x_n\}\) is the number

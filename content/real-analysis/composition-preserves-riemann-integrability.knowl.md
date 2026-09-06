@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Composing a Riemann integrable function with a continuous function preserves integrability."
 aliases = ["composition-preserves-riemann-integrability", "Composition preserves Riemann integrability"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/composition-preserves-riemann-integrability.md"
+prerequisites = ["real-analysis/riemann-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Composition preserves Riemann integrability.** Let \(f:[a,b]\to\mathbb R\) be [[real-analysis/riemann-integrable-function|Riemann integrable]], and let \(\varphi:J\to\mathbb R\) be continuous on an interval \(J\) containing \(f([a,b])\). Then \(\varphi\circ f\) is Riemann integrable on \([a,b]\).

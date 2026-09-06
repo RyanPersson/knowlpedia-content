@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The gauge-invariant symplectic form on the affine space of connections over an oriented closed surface."
 aliases = ["symplectic form on the space of connections", "Atiyah–Bott form"]
 domains = ["fiber-bundles", "differential-geometry"]
-prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "linear-algebra/inner-product", "fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "differential-geometry/tangent-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "linear-algebra/inner-product", "fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "differential-geometry/tangent-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Sigma\) be a closed oriented surface, let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] whose [[lie-groups/lie-algebra|Lie algebra]] has an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] \(\langle-,-\rangle\), and let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. The [[fiber-bundles/bundle-of-connections|space of connections]] \(\mathcal A(P)\) is affine with [[differential-geometry/tangent-space|tangent space]] \(\Omega^1(\Sigma;\operatorname{ad}P)\). Its **Atiyah–Bott symplectic form** is the constant two-form

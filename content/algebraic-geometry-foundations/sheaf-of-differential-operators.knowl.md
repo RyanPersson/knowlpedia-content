@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The filtered sheaf D_X generated locally by functions and vector fields acting as differential operators."
 aliases = ["D_X", "differential-operator sheaf"]
 domains = ["algebraic-geometry-foundations", "langlands"]
-prerequisites = ["algebraic-geometry-foundations/tangent-sheaf", "fiber-bundles/vector-field", "lie-groups/universal-enveloping-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/tangent-sheaf", "fiber-bundles/vector-field", "lie-groups/universal-enveloping-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a smooth algebraic variety over a field of characteristic \(0\).

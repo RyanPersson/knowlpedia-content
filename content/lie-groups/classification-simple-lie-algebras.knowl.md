@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Complex simple Lie algebras are classified by connected Dynkin diagrams of types A–G."
 aliases = ["classification-simple-lie-algebras", "Classification of complex simple Lie algebras"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "lie-groups/classification-simple-lie-algebras.md"
+prerequisites = ["lie-groups/simple-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Theorem (classification).** Every finite-dimensional complex [[lie-groups/simple-lie-algebra|simple Lie algebra]] is isomorphic to exactly one of the Lie algebras in the following families:

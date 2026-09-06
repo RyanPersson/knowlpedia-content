@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The difference of two operator products, defined only where both products make sense."
 aliases = ["operator commutator", "commutator on a common domain", "AB minus BA"]
 domains = ["functional-analysis"]
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/densely-defined-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/densely-defined-operator", "linear-algebra/linear-map"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be linear operators on a [[linear-algebra/hilbert-space|Hilbert space]] \(H\), with possibly

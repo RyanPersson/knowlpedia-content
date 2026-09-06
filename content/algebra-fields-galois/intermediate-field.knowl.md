@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subfield K with F ⊆ K ⊆ E inside a given field extension E/F."
 aliases = ["intermediate-field", "Intermediate field"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/intermediate-field.md"
+prerequisites = ["algebra-fields-galois/field-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E/F\) be a [[algebra-fields-galois/field-extension|field extension]]. An **intermediate field** (or **subextension**) of \(E/F\) is a field \(K\) such that

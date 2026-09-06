@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "For a finite quantum system with Hamiltonian H, the canonical partition function is Tr(exp(-beta H))."
 aliases = ["quantum-partition-function", "Quantum partition function"]
 domains = ["stat-mech-quantum"]
-prerequisites = ["stat-mech-quantum/quantum-hamiltonian"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "stat-mech-quantum/quantum-partition-function.md"
+prerequisites = ["stat-mech-quantum/quantum-hamiltonian"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a [[stat-mech-quantum/quantum-hamiltonian|Hamiltonian]] on a finite-dimensional Hilbert space and let \(\beta>0\). The **quantum partition function** is

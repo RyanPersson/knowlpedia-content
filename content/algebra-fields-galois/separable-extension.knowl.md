@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An algebraic extension in which every element is separable over the base field."
 aliases = ["separable-extension", "Separable extension"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/separable-element"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separable-extension.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/separable-element"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/F\) be an algebraic [[algebra-fields-galois/field-extension|field extension]].

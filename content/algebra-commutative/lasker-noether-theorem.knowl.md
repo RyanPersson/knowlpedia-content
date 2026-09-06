@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every ideal in a Noetherian ring can be written as a finite intersection of primary ideals."
 aliases = ["lasker-noether-theorem", "Lasker–Noether theorem"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-commutative/noetherian-ring", "algebra-rings/commutative-ring", "algebra-commutative/primary-decomposition"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/lasker-noether-theorem.md"
+prerequisites = ["algebra-commutative/noetherian-ring", "algebra-rings/commutative-ring", "algebra-commutative/primary-decomposition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Lasker–Noether theorem.** Let \(A\) be a [[algebra-commutative/noetherian-ring|Noetherian]] [[algebra-rings/commutative-ring|commutative ring]], and let \(I\subseteq A\) be an ideal. Then there are primary ideals \(Q_1,\dots,Q_r\subseteq A\) such that

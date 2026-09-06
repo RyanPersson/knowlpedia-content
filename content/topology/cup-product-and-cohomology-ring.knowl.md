@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The natural graded multiplication on singular cohomology induced by multiplying cochains."
 aliases = ["cup product", "cohomology ring", "graded cohomology ring"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "algebra-rings/commutative-ring", "topology/singular-cohomology-group", "algebra-modules/graded-module"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-space", "algebra-rings/commutative-ring", "topology/singular-cohomology-group", "algebra-modules/graded-module"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[topology/topological-space|topological space]] and \(R\) a [[algebra-rings/commutative-ring|commutative ring with identity]]. The **cup product** is the natural bilinear operation

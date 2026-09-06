@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The ring of finite sums of a_i x^i allowing negative exponents."
 aliases = ["laurent-polynomial-ring", "Laurent polynomial ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/polynomial-ring", "algebra-rings/unital-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/laurent-polynomial-ring.md"
+prerequisites = ["algebra-rings/polynomial-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a commutative ring with \(1\). The **Laurent polynomial ring** \(R[x,x^{-1}]\) consists of all finite sums

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An injective field homomorphism, often required to fix a base field in extension theory."
 aliases = ["field-embedding", "Field embedding"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/field-automorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/field-embedding.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/field-automorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) and \(L\) be [[algebra-rings/field|fields]]. A **field embedding** \(\sigma:K\hookrightarrow L\) is a ring homomorphism \(\sigma:K\to L\) such that \(\sigma(1)=1\) and \(\sigma\) is injective.

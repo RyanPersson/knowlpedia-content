@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The cohomology of the d-bar complex of smooth differential forms on a complex manifold."
 aliases = ["Dolbeault cohomology group", "d-bar cohomology"]
 domains = ["differential-geometry", "algebra-homological"]
-prerequisites = ["differential-geometry/complex-manifold", "algebra-homological/cohomology-module", "differential-geometry/dolbeault-complex", "linear-algebra/vector-space", "fiber-bundles/hermitian-metric"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["differential-geometry/complex-manifold", "algebra-homological/cohomology-module", "differential-geometry/dolbeault-complex", "linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[differential-geometry/complex-manifold|complex manifold]]. Its **Dolbeault cohomology group of bidegree \((p,q)\)** is the [[algebra-homological/cohomology-module|cohomology]]

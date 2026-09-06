@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A holomorphic map of vector-bundle total spaces that is linear on fibers and covers a holomorphic base map."
 aliases = ["holomorphic bundle map", "analytic vector-bundle morphism"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/holomorphic-map", "fiber-bundles/vector-bundle-morphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/holomorphic-vector-bundle", "differential-geometry/holomorphic-map", "fiber-bundles/vector-bundle-morphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to X\) and \(F\to Y\) be [[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundles]]. A **holomorphic vector-bundle morphism** from \(E\) to \(F\) is a pair \((\Phi,f)\) in which \(f:X\to Y\) and \(\Phi:E\to F\) are [[differential-geometry/holomorphic-map|holomorphic maps]], the projections satisfy \(\pi_F\circ\Phi=f\circ\pi_E\), and each restriction \(\Phi_x:E_x\to F_{f(x)}\) is complex-linear. Thus it is a [[fiber-bundles/vector-bundle-morphism|vector-bundle morphism]] in the smooth category with the additional requirement of holomorphicity. A morphism over \(X\) means \(X=Y\) and \(f=\operatorname{id}_X\).

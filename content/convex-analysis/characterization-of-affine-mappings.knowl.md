@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Affine maps are exactly those that preserve two-point convex combinations"
 aliases = ["characterization-of-affine-mappings", "Characterization of affine mappings"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/affine-mapping"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "convex-analysis/characterization-of-affine-mappings.md"
+prerequisites = ["convex-analysis/affine-mapping"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

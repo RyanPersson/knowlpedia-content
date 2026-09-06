@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C*-algebra characterized by a universal mapping property for specified generators and operator relations."
 aliases = ["C*-algebra with a universal property", "universal C*-algebra for generators and relations", "universal enveloping C*-algebra subject to relations"]
 domains = ["operator-algebras", "algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "operator-algebras/cstar-algebra", "operator-algebras/star-homomorphism"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-category-theory/category", "operator-algebras/cstar-algebra", "operator-algebras/star-homomorphism"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix generators \(\mathcal G\), relations \(\mathcal R\), and a choice of unital

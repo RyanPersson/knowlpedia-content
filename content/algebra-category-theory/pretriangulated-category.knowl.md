@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A shifted preadditive category with distinguished triangles satisfying the first triangle axioms."
 aliases = ["pretriangulated category", "pretriangulated"]
 domains = ["algebra-category-theory", "algebra-homological"]
-prerequisites = ["algebra-category-theory/preadditive-category", "algebra-category-theory/zero-object", "algebra-category-theory/shift-functor", "algebra-category-theory/triangle"]
+prerequisites = ["algebra-category-theory/preadditive-category", "algebra-category-theory/zero-object", "algebra-category-theory/shift-functor", "algebra-category-theory/distinguished-triangle"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
@@ -16,5 +17,7 @@ In the convention used by mathlib, a **pretriangulated category** is a [[algebra
 3. every morphism extends to a distinguished triangle;
 4. a triangle is distinguished exactly when its rotation is;
 5. a commuting square on the first maps of two distinguished triangles extends to a morphism of triangles.
+
+## Convention
 
 This terminology is convention-sensitive. Here “triangulated” means pretriangulated plus the [[algebra-category-theory/octahedral-axiom|octahedral axiom]].

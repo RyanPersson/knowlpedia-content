@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A contraction on a complete metric space has a unique fixed point, found by iteration"
 aliases = ["banach-fixed-point-theorem", "Banach Fixed Point Theorem"]
 domains = ["real-analysis"]
-prerequisites = ["topology/complete-metric-space", "shared-foundations/contraction-mapping", "real-analysis/fixed-point", "topology/convergent-sequence"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/banach-fixed-point-theorem.md"
+prerequisites = ["topology/complete-metric-space", "shared-foundations/contraction-mapping", "real-analysis/fixed-point", "topology/convergent-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Banach Fixed Point Theorem (contraction mapping principle)**: Let \((X,d)\) be a [[topology/complete-metric-space|complete metric space]] and let \(T:X\to X\) be a [[shared-foundations/contraction-mapping|contraction]] with contraction constant \(c\in[0,1)\). Then:

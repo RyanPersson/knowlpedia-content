@@ -6,6 +6,7 @@ summary = "A sheaf whose sections form groups compatibly with restriction."
 aliases = ["sheaf of groups", "group sheaf", "group object in sheaves"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/site", "algebraic-geometry-foundations/sheaf", "algebra-groups/group", "algebra-groups/group-action", "algebraic-geometry-foundations/morphism-of-sheaves"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The minimal closed extension obtained by closing the graph of a closable operator."
 aliases = ["operator closure", "minimal closed extension"]
 domains = ["functional-analysis", "operator-theory"]
-prerequisites = ["functional-analysis/closable-operator", "linear-algebra/banach-space", "functional-analysis/graph-of-operator", "functional-analysis/closed-linear-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["functional-analysis/closable-operator", "linear-algebra/banach-space", "functional-analysis/graph-of-operator", "functional-analysis/closed-linear-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(T:\mathcal D(T)\subseteq X\to Y\) be a

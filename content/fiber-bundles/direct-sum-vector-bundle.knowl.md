@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The bundle over a common base whose fiber is the direct sum of the fibers of two bundles."
 aliases = ["direct-sum-vector-bundle", "Direct sum vector bundle (Whitney sum)"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/rank-of-a-vector-bundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/direct-sum-vector-bundle.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/rank-of-a-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi_E:E\to M\) and \(\pi_F:F\to M\) be smooth vector bundles over the same [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Their **direct sum bundle** (or **Whitney sum**) is the vector bundle

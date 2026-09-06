@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The simply connected complete three-dimensional Riemannian manifold of constant sectional curvature −1."
 aliases = ["hyperbolic 3-space", "H3", "three-dimensional hyperbolic space"]
 domains = ["differential-geometry", "lie-groups"]
-prerequisites = ["topology/simply-connected-space", "differential-geometry/riemannian-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/simply-connected-space", "differential-geometry/riemannian-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Hyperbolic three-space** \(\mathbb H^3\) is the [[topology/simply-connected-space|simply connected]] complete \(3\)-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]] of constant sectional curvature \(-1\), unique up to isometry.

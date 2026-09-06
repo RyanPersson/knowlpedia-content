@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An algebraic element whose minimal polynomial has distinct roots in a splitting field."
 aliases = ["separable-element", "Separable element"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-element", "algebra-fields-galois/splitting-field", "algebra-fields-galois/algebraic-closure"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/separable-element.md"
+prerequisites = ["algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-element", "algebra-fields-galois/separable-distinct-roots"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/F\) be a [[algebra-fields-galois/field-extension|field extension]] and let \(\alpha\in K\) be an [[algebra-fields-galois/algebraic-element|algebraic element]] over \(F\). Let \(m_{\alpha,F}(x)\in F[x]\) be the minimal polynomial of \(\alpha\) over \(F\).

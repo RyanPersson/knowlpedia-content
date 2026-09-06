@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A state on a von Neumann algebra that dominates no nonzero normal positive functional."
 aliases = ["singular von Neumann algebra state", "purely singular state"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/normal-functional", "operator-algebras/normal-state"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/state-cstar-algebra", "operator-algebras/normal-functional", "operator-algebras/normal-state"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]].

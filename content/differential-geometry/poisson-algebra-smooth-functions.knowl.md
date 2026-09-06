@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The commutative algebra of smooth functions equipped with the Poisson bracket induced by a symplectic form."
 aliases = ["classical observable algebra"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-bracket-symplectic", "lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/poisson-bracket-symplectic", "lie-groups/lie-algebra", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega)\) be a [[differential-geometry/symplectic-manifold|symplectic manifold]]. Its **Poisson algebra of smooth functions** is the real unital commutative algebra \(C^\infty(M,\mathbb R)\), with pointwise multiplication, together with the [[differential-geometry/poisson-bracket-symplectic|Poisson bracket]] \(\{-,-\}\). The bracket is real-bilinear and antisymmetric, satisfies the Jacobi identity, and obeys the Leibniz rule

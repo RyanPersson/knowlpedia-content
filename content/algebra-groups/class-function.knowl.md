@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A function on a group that is constant on conjugacy classes"
 aliases = ["class-function", "Class function"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "shared-foundations/function"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/class-function.md"
+prerequisites = ["algebra-groups/group", "shared-foundations/function", "algebra-groups/conjugacy-class"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[algebra-groups/group|group]] and let \(A\) be a set. A **class function** on \(G\) with values in \(A\) is a [[shared-foundations/function|function]] \(f\colon G\to A\) such that for all \(x,g\in G\),

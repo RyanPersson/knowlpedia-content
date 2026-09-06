@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A point x satisfying T(x)=x for a self-map T"
 aliases = ["fixed-point", "Fixed point"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/fixed-point.md"
+prerequisites = ["shared-foundations/function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a set and let \(T:X\to X\) be a function.

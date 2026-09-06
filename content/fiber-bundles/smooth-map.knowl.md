@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A map between smooth manifolds that becomes an ordinary smooth function in local coordinates."
 aliases = ["smooth-map", "Smooth map"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/smooth-map.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-atlas"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] of dimensions \(m\) and \(n\). A function \(f:M\to N\) is **smooth** (or \(C^\infty\)) if for every \(p\in M\) there exist [[fiber-bundles/smooth-chart-coordinate-chart|charts]] \((U,\varphi)\) on \(M\) with \(p\in U\) and \((V,\psi)\) on \(N\) with \(f(U)\subset V\) such that the coordinate expression

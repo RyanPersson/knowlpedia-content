@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The convolution involution reverses a function by group inversion, complex conjugation, and the modular correction."
 aliases = ["group-algebra involution", "convolution star operation", "f-star"]
 domains = ["harmonic-analysis", "functional-analysis", "operator-algebras"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/modular-function"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/modular-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]], let

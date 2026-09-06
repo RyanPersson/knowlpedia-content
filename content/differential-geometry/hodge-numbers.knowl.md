@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The dimensions of the bidegree components in the Hodge decomposition of a compact Kähler manifold."
 aliases = []
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/hodge-decomposition-kahler"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/hodge-decomposition-kahler"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a compact [[differential-geometry/kahler-manifold|Kähler manifold]] of complex dimension \(n\). Its **Hodge number of bidegree \((p,q)\)** is

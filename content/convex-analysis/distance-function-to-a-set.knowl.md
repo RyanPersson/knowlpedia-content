@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "d_Ω(x)=inf{||x−w||: w∈Ω} in a normed space"
 aliases = ["distance-function-to-a-set", "Distance function to a set"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/distance-function-to-a-set.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,\|\cdot\|)\) be a [[convex-analysis/norm-normed-vector-space|normed vector space]], and let \(\Omega\subseteq X\) be nonempty. The **distance function** to \(\Omega\) is

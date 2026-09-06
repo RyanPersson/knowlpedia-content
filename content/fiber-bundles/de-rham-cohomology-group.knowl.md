@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The quotient of closed differential forms by exact forms."
 aliases = ["de-rham-cohomology-group", "de Rham cohomology group"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/de-rham-cohomology-group.md"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The [[fiber-bundles/exterior-derivative|exterior derivative]] makes the graded vector space of [[fiber-bundles/differential-k-form|differential forms]] into a cochain complex \((\Omega^\ast(M),d)\). Its cohomology is the **de Rham cohomology**.

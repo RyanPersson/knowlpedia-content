@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The real or complex special linear Lie group modulo its finite scalar center."
 aliases = ["PSL Lie group", "projective unimodular Lie group"]
 domains = ["lie-groups", "algebra-groups"]
-prerequisites = ["lie-groups/special-linear-group", "lie-groups/quotient-lie-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/special-linear-group", "lie-groups/quotient-lie-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\mathbb F=\mathbb R\) or \(\mathbb C\), and let \(n\ge2\). The **projective special linear Lie group** is

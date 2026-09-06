@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A monoid whose multiplication is commutative."
 aliases = ["abelian monoid", "commutative multiplicative monoid"]
 domains = ["algebra-groups", "algebra-rings"]
-prerequisites = ["algebra-groups/monoid"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebra-groups/monoid"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **commutative monoid** is a [[algebra-groups/monoid|monoid]] \((A,\cdot,1)\) such that

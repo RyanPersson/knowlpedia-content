@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A continuous map sends compact subsets of its domain to compact subsets of its codomain."
 aliases = ["continuous-image-of-compact-set-is-compact", "Continuous image of compact set is compact"]
 domains = ["topology"]
-prerequisites = ["topology/continuous-map", "topology/topological-space", "topology/compact-set", "shared-foundations/image"]
-dependency_review_count = 1
 legacy_source_path = "topology/continuous-image-of-compact-set-is-compact.md"
+prerequisites = ["topology/continuous-map", "topology/topological-space", "topology/compact-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:X\to Y\) be a [[topology/continuous-map|continuous map]] between [[topology/topological-space|topological spaces]]. If \(K\subseteq X\) is [[topology/compact-set|compact]], then its [[shared-foundations/image|image]] \(f(K)\) is compact in \(Y\).

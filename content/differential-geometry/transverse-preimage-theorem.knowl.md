@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The inverse image of an embedded submanifold under a transverse map is an embedded submanifold of the same codimension."
 aliases = ["preimage theorem for transverse maps", "transversality preimage theorem"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/map-transverse-to-a-submanifold"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/map-transverse-to-a-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] between finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary, and let \(S\subseteq N\) be an [[differential-geometry/embedded-submanifold|embedded submanifold]]. If \(f\) is [[differential-geometry/map-transverse-to-a-submanifold|transverse to \(S\)]], then \(f^{-1}(S)\) is an embedded submanifold of \(M\). For every \(x\in f^{-1}(S)\),

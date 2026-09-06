@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The trace of connection holonomy around a closed loop in a chosen representation."
 aliases = ["Wilson observable", "trace of holonomy"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/representation-of-a-lie-group", "fiber-bundles/parallel-transport", "linear-algebra/trace"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/representation-of-a-lie-group", "fiber-bundles/parallel-transport", "linear-algebra/trace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with [[fiber-bundles/principal-connection|connection]] \(A\), let \(\rho:G\to\operatorname{GL}(V)\) be a finite-dimensional [[lie-groups/representation-of-a-lie-group|representation]], and let \(\gamma\) be a piecewise smooth closed loop based at \(x\). Choosing \(p\in P_x\), [[fiber-bundles/parallel-transport|parallel transport]] around \(\gamma\) gives a holonomy element \(h_{A,\gamma,p}\in G\). The **Wilson loop in the representation \(\rho\)** is

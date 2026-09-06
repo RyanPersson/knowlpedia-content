@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The map from a Lie algebra to its Lie group defined by flowing left-invariant vector fields for unit time."
 aliases = ["exponential-map", "Exponential map"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/exponential-map.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/left-invariant-vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}=T_eG\). For each \(X\in\mathfrak{g}\), let \(X^L\) denote the left-invariant vector field on \(G\) determined by \(X\) (so \(X^L_e=X\)). Let \(\gamma_X(t)\) be the integral curve of \(X^L\) with initial condition \(\gamma_X(0)=e\).

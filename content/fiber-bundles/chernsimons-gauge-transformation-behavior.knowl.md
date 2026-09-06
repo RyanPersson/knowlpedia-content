@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Under a gauge transformation, a Chern–Simons form changes by an exact term plus a group term, yielding a functional well-defined modulo integers in integral normalizations."
 aliases = ["chernsimons-gauge-transformation-behavior", "Gauge transformation behavior of Chern–Simons forms"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "lie-groups/lie-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/chernsimons-gauge-transformation-behavior.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "lie-groups/lie-algebra", "fiber-bundles/exterior-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature|curvature]] \(F_A\). Fix an \(\mathrm{Ad}\)-invariant homogeneous polynomial \(P\) of degree \(k\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\).

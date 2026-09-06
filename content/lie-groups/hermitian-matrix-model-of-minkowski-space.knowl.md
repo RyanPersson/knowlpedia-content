@@ -5,9 +5,10 @@ kind = "construction"
 summary = "Hermitian 2×2 matrices model Minkowski space, with determinant equal to the negative of the chosen (−+++) quadratic form."
 aliases = ["Pauli matrix model of Minkowski space", "Hermitian 2 by 2 model of spacetime"]
 domains = ["lie-groups", "linear-algebra", "mathematical-physics"]
-prerequisites = ["linear-algebra/hermitian-matrix", "linear-algebra/minkowski-vector-space"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["linear-algebra/hermitian-matrix", "linear-algebra/minkowski-vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Identify \(v=(t,x,y,z)\in\mathbb R^{1,3}\) with the [[linear-algebra/hermitian-matrix|Hermitian matrix]]

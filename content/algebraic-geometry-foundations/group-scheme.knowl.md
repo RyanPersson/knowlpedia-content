@@ -6,6 +6,7 @@ summary = "A scheme over a base whose multiplication, identity, and inverse are 
 aliases = ["group scheme", "group object in schemes"]
 domains = ["algebraic-geometry-foundations"]
 prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/scheme-over-a-base", "algebraic-geometry-foundations/morphism-of-schemes", "algebra-groups/group", "algebraic-geometry-foundations/fiber-product-of-schemes"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

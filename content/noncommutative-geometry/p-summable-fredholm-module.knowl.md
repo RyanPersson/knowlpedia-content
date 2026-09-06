@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A Fredholm module whose algebra commutators belong to the Schatten ideal of order p."
 aliases = ["finitely summable Fredholm module", "p-summable bounded K-cycle"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/fredholm-module", "operator-algebras/involutive-algebra", "functional-analysis/schatten-class-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/fredholm-module", "operator-algebras/involutive-algebra", "functional-analysis/schatten-class-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(p>0\), and let \((H,\pi,F)\) be a normalized [[noncommutative-geometry/fredholm-module|Fredholm module]] over a complex [[operator-algebras/involutive-algebra|involutive algebra]] \(\mathcal A\), so \(F=F^*\), \(F^2=I\), and \([F,\pi(a)]\) is compact for every \(a\in\mathcal A\). The module is **\(p\)-summable** when

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The affine geometric-invariant-theory quotient of a representation variety by conjugation."
 aliases = ["G-character variety", "affine character variety"]
 domains = ["fiber-bundles", "algebraic-geometry-foundations", "lie-groups"]
-prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "fiber-bundles/representation-variety"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "fiber-bundles/representation-variety"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] of characteristic zero, let \(\Gamma\) be a finitely generated group, and let \(G\) be a reductive affine algebraic group over \(k\). The **\(G\)-character variety** of \(\Gamma\) is the affine categorical quotient

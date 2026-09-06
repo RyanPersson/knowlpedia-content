@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A countably additive function on a sigma-algebra assigning sizes to sets."
 aliases = ["measure"]
 domains = ["measure-theory"]
-prerequisites = ["measure-theory/measurable-space"]
-dependency_review_count = 1
 legacy_source_path = "measure-theory/measure.md"
+prerequisites = ["measure-theory/measurable-space", "measure-theory/measurable-set", "shared-foundations/function", "shared-foundations/sequence", "shared-foundations/union"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **measure** on a measurable space \((X,\Sigma)\) is a function \(\mu:\Sigma\to[0,\infty]\) such that \(\mu(\varnothing)=0\) and for every pairwise disjoint sequence \((A_n)_{n\ge 1}\) in \(\Sigma\),

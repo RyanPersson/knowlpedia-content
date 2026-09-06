@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A scalar obtained by evaluating a top-degree product of characteristic classes on a fundamental class."
 aliases = ["characteristic class number", "characteristic number of a manifold"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["topology/closed-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/characteristic-class", "topology/cup-product-and-cohomology-ring", "topology/fundamental-class", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/closed-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/characteristic-class", "topology/cup-product-and-cohomology-ring", "topology/fundamental-class", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a [[topology/closed-manifold|closed \(R\)-oriented \(n\)-manifold]], let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]], and let \(P\) be a homogeneous polynomial of total cohomological degree \(n\) in [[fiber-bundles/characteristic-class|characteristic classes]] \(\alpha_i(E)\). The **characteristic number** determined by \(P\) is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The 35-dimensional simple complex Lie algebra of rank 5 and Dynkin type A5."
 aliases = ["complex-lie-algebra-sl6", "sl6(C)", "sl(6,C)", "complex Lie algebra sl6"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/fundamental-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/simple-lie-algebra", "lie-groups/dynkin-diagram", "lie-groups/fundamental-representation", "lie-groups/cartan-subalgebra", "lie-groups/simple-root", "linear-algebra/matrix"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **complex Lie algebra** \(\mathfrak{sl}_6(\mathbb C)\) is the algebra of trace-zero \(6\times6\) complex matrices with commutator bracket. It is [[lie-groups/simple-lie-algebra|simple]], has complex dimension \(35\), rank \(5\), and [[lie-groups/dynkin-diagram|Dynkin type]] \(A_5\).

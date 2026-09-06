@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth one-parameter family of smooth embeddings joining two given embeddings."
 aliases = ["isotopy of embeddings"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-embedding", "fiber-bundles/smooth-manifold", "differential-geometry/smooth-map-of-manifolds-with-boundary"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-embedding", "fiber-bundles/smooth-manifold", "differential-geometry/smooth-map-of-manifolds-with-boundary"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f_0,f_1:M\to N\) be [[fiber-bundles/smooth-embedding|smooth embeddings]] between [[fiber-bundles/smooth-manifold|smooth manifolds]]. A **smooth isotopy** from \(f_0\) to \(f_1\) is a [[differential-geometry/smooth-map-of-manifolds-with-boundary|smooth map in the manifold-with-boundary sense]] \(F:M\times[0,1]\to N\) such that \(F(x,0)=f_0(x)\), \(F(x,1)=f_1(x)\), and every time slice \(F_t(x)=F(x,t)\) is a smooth embedding. Thus both the dependence on \(t\) and the combined map \(F\) are smooth, while injectivity and the embedding condition are required slice by slice. An isotopy of diffeomorphisms analogously requires every \(F_t\) to be a diffeomorphism.

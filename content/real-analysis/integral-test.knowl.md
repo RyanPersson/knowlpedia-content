@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A convergence test that compares a nonnegative decreasing series to an improper integral."
 aliases = ["integral-test", "Integral test"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/integral-test.md"
+prerequisites = ["real-analysis/series", "real-analysis/convergent-series"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Integral test:** Let \(f:[1,\infty)\to[0,\infty)\) be continuous and decreasing, and define \(a_n=f(n)\). Then the [[real-analysis/series|series]] \(\sum_{n=1}^\infty a_n\) [[real-analysis/convergent-series|converges]] if and only if the improper integral

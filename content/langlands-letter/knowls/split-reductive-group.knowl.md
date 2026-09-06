@@ -5,11 +5,11 @@ kind = "knowl"
 summary = "A connected reductive group possessing a maximal torus split over the base field."
 aliases = ["split-reductive-group", "Split Reductive Algebraic Group"]
 domains = ["langlands-letter"]
-prerequisites = ["algebraic-geometry-foundations/unipotent-radical", "langlands-letter/knowls/maximal-torus-weight-lattice"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/split-reductive-group.md"
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/unipotent-radical", "langlands-letter/knowls/maximal-torus-weight-lattice"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **connected reductive algebraic group** over a field \(k\) is a smooth

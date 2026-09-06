@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A linear infinitesimal symmetry satisfying the Leibniz rule for the Jordan product."
 aliases = ["Jordan derivation", "derivation algebra of a Jordan algebra", "Der(J)"]
 domains = ["nonassociative-algebra", "lie-groups"]
-prerequisites = ["nonassociative-algebra/jordan-algebra", "linear-algebra/linear-map", "linear-algebra/vector-space", "lie-groups/lie-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/jordan-algebra", "linear-algebra/linear-map", "linear-algebra/vector-space", "lie-groups/lie-algebra", "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) be a [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. A

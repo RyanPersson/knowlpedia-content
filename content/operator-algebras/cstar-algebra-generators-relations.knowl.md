@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A universal C*-algebra determined by specified generators, relations, and a uniformly bounded class of representations."
 aliases = ["universal C*-relations", "generators-and-relations C*-algebra", "universal C*-algebra on generators and relations", "C*-relations", "C*-algebra defined by generators and relations"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/universal-cstar-algebra", "operator-algebras/star-homomorphism", "real-analysis/supremum-norm"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/universal-cstar-algebra", "operator-algebras/star-homomorphism", "real-analysis/supremum-norm"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **\(C^*\)-algebra by generators and relations** consists of generators

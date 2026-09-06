@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A locally compact totally disconnected Hausdorff group, equivalently one with compact-open subgroups forming an identity basis."
 aliases = ["locally profinite topological group", "totally disconnected locally compact group", "tdlc group", "t.d.l.c. group"]
 domains = ["topology", "harmonic-analysis", "langlands"]
-prerequisites = ["topology/topological-group", "topology/locally-compact-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["topology/topological-group", "topology/locally-compact-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **locally profinite group** is a Hausdorff

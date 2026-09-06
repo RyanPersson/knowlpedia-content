@@ -5,6 +5,9 @@ kind = "document"
 summary = "A knowlified discussion connecting symplectic group actions, quantization maps, moment maps, and derived unitary representations."
 aliases = ["Representation-theoretic notation for quantization", "Symplectic symmetry quantization conversation"]
 domains = ["mathematical-physics", "lie-groups", "differential-geometry"]
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The proposed description of quantization combines three different structures:

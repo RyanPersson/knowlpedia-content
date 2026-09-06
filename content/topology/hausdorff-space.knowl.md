@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A space where any two distinct points have disjoint neighborhoods."
 aliases = ["hausdorff-space", "Hausdorff space"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/neighborhood"]
-dependency_review_count = 1
 legacy_source_path = "topology/hausdorff-space.md"
+prerequisites = ["topology/topological-space", "topology/neighborhood"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **Hausdorff space** (or **T2 space**) is a [[topology/topological-space|topological space]] \(X\) such that for any distinct points \(x\neq y\) there exist [[topology/neighborhood|neighborhoods]] \(U\) of \(x\) and \(V\) of \(y\) with \(U\cap V=\varnothing\).

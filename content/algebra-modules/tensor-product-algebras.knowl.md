@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The tensor product A⊗_R B equipped with the induced algebra structure."
 aliases = ["tensor-product-algebras", "Tensor product of algebras"]
 domains = ["algebra-modules"]
-prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/tensor-product"]
-dependency_review_count = 1
 legacy_source_path = "algebra-modules/tensor-product-algebras.md"
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/tensor-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **tensor product of algebras** \(A\otimes_R B\) of two \(R\)-algebras \(A,B\) over a [[algebra-rings/commutative-ring|commutative ring]] \(R\) is the [[algebra-modules/tensor-product|tensor product]] of the underlying \(R\)-modules, equipped with the unique \(R\)-algebra structure for which

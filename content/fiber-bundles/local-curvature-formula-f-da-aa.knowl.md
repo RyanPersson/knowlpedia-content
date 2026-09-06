@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Local expression for the curvature of a principal connection in a chosen gauge."
 aliases = ["local-curvature-formula-f-da-aa", "Local curvature formula"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/local-curvature-formula-f-da-aa.md"
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\) and [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). Let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\). For an open set \(U\subset M\) and a local section \(s:U\to P\), define the local connection form and local curvature form by

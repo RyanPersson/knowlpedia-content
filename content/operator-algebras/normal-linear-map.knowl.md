@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A normal linear map between von Neumann algebras is a bounded linear map that is continuous for their ultraweak topologies."
 aliases = ["ultraweakly continuous map", "order-continuous map"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/von-neumann-algebra","operator-algebras/predual","linear-algebra/linear-map","operator-algebras/ultraweak-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/predual", "linear-algebra/linear-map", "operator-algebras/ultraweak-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[operator-algebras/von-neumann-algebra|von Neumann algebras]] with [[operator-algebras/predual|preduals]] \(M_*\) and \(N_*\). A bounded [[linear-algebra/linear-map|linear map]] \(\Phi:M\to N\) is **normal** when it is continuous from the [[operator-algebras/ultraweak-topology|ultraweak topology]] on \(M\) to the ultraweak topology on \(N\). Equivalently, there is a unique bounded linear preadjoint \(\Phi_*:N_*\to M_*\) such that

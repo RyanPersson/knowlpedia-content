@@ -6,6 +6,7 @@ summary = "A topological space in which every point has a neighborhood with comp
 aliases = ["locally compact", "locally compact space", "local compactness"]
 domains = ["topology"]
 prerequisites = ["topology/topological-space", "topology/compact-set", "topology/hausdorff-space"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

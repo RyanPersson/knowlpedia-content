@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An identity relating the integral of a product to boundary terms and another integral."
 aliases = ["integration-by-parts", "Integration by parts"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/integration-by-parts.md"
+prerequisites = ["real-analysis/riemann-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(a<b\). Suppose \(u,v:[a,b]\to\mathbb R\) are continuous on \([a,b]\), differentiable on \((a,b)\), and their derivatives extend to [[real-analysis/riemann-integrable-function|Riemann-integrable]] functions on \([a,b]\). Then

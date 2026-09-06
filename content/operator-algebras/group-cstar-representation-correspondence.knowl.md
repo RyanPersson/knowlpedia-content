@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "Integrated form gives a natural correspondence between continuous unitary group representations and nondegenerate representations of the full group C*-algebra."
 aliases = ["integrated-form correspondence", "universal representation correspondence"]
 domains = ["operator-algebras", "harmonic-analysis"]
-prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/full-group-cstar-algebra"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "lie-groups/strongly-continuous-unitary-representation", "operator-algebras/nondegenerate-star-homomorphism", "operator-algebras/full-group-cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. The **integrated-form correspondence** assigns to every [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] \(U\colon G\to\mathcal U(H)\) the unique [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate \(C^*\)-representation]] of the [[operator-algebras/full-group-cstar-algebra|full group \(C^*\)-algebra]]

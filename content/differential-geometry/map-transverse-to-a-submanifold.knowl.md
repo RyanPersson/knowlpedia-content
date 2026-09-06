@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth map whose differential and the submanifold tangent space span the target at every inverse-image point."
 aliases = ["transversality to a submanifold", "f transverse to S"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold", "differential-geometry/transverse-smooth-maps"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "differential-geometry/embedded-submanifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] between finite-dimensional [[fiber-bundles/smooth-manifold|smooth manifolds]] without boundary, and let \(S\subseteq N\) be an [[differential-geometry/embedded-submanifold|embedded submanifold]]. The map \(f\) is **transverse to \(S\) at \(x\in M\)**, written \(f\pitchfork_xS\), if either \(f(x)\notin S\), or

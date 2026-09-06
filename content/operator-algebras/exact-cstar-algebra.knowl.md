@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A C-star algebra whose minimal tensor product preserves every short exact sequence of C-star algebras."
 aliases = ["exactness of a C*-algebra"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/minimal-cstar-tensor-product", "operator-algebras/cstar-exact-sequence"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/minimal-cstar-tensor-product", "operator-algebras/cstar-exact-sequence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A \(C^*\)-algebra \(A\) is **exact** if tensoring with \(A\) by the

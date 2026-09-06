@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The compact matrix Lie group SU(n) preserving a Hermitian form with determinant 1."
 aliases = ["special-unitary-group", "Special unitary group"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/unitary-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/simply-connected-lie-group", "lie-groups/spin-group", "lie-groups/example-so3"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/special-unitary-group.md"
+prerequisites = ["lie-groups/unitary-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/simply-connected-lie-group", "lie-groups/spin-group", "lie-groups/example-so3"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\langle\cdot,\cdot\rangle\) be the standard Hermitian inner product on \(\mathbb C^n\). The **special unitary group** is

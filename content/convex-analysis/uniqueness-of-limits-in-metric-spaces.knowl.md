@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A sequence in a metric space has at most one limit"
 aliases = ["uniqueness-of-limits-in-metric-spaces", "Uniqueness of limits"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/nonnegative-real-less-than-every-0-must-be-zero"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/uniqueness-of-limits-in-metric-spaces.md"
+prerequisites = ["convex-analysis/metric-metric-space", "convex-analysis/nonnegative-real-less-than-every-0-must-be-zero"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Proposition.**

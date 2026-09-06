@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The unique horizontal vector at a point in the total space that projects to a given base tangent vector."
 aliases = ["horizontal-lift-of-a-tangent-vector", "Horizontal lift of a tangent vector"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-subbundle"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-tangent-vector.md"
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-subbundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:E\to M\) be a surjective submersion equipped with an [[fiber-bundles/ehresmann-connection|Ehresmann connection]], i.e. a splitting \(TE=HE\oplus VE\) by a [[fiber-bundles/horizontal-subbundle|horizontal subbundle]] \(HE\).

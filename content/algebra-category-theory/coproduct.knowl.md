@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An object A ⊔ B with injections, universal among cocones from A and B."
 aliases = ["coproduct"]
 domains = ["algebra-category-theory"]
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/composition-category", "algebra-category-theory/isomorphism-category", "algebra-category-theory/categorical-product", "algebra-category-theory/opposite-category", "algebra-category-theory/colimit"]
-dependency_review_count = 1
 legacy_source_path = "algebra-category-theory/coproduct.md"
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/object", "algebra-category-theory/morphism", "algebra-category-theory/composition-category"]
+dependency_heuristic = "semantic-spotcheck-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\mathcal C\) be a [[algebra-category-theory/category|category]] and let \(A,B\) be [[algebra-category-theory/object|objects]] of \(\mathcal C\).

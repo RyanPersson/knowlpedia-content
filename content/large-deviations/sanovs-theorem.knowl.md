@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Large deviations for empirical measures of an independent identically distributed sample."
 aliases = ["sanovs-theorem", "Sanov's theorem"]
 domains = ["large-deviations"]
-prerequisites = ["probability/iid-sequence", "probability/distribution-law", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "probability/relative-entropy-kl-divergence"]
-dependency_review_count = 1
 legacy_source_path = "large-deviations/sanovs-theorem.md"
+prerequisites = ["probability/iid-sequence", "probability/distribution-law", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "probability/relative-entropy-kl-divergence"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Sanov's theorem:** Let \((X_i)_{i\ge 1}\) be an [[probability/iid-sequence|i.i.d. sequence]] taking values in a Polish space \(E\), with common [[probability/distribution-law|law]] \(\mu\). Define the empirical measure

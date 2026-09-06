@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A way to break a set into disjoint nonempty blocks that cover it."
 aliases = ["partition"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/partition.md"
+prerequisites = ["shared-foundations/subset", "shared-foundations/empty-set", "shared-foundations/intersection", "shared-foundations/union"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **partition** of a set \(X\) is a set \(\mathcal{P}\) of subsets of \(X\) (called **blocks** or **parts**) such that:

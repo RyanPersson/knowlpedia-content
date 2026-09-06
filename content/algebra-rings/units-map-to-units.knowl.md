@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A unital ring homomorphism sends invertible elements to invertible elements."
 aliases = ["units-map-to-units", "Units map to units"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/unital-ring", "algebra-rings/unit", "algebra-rings/ring-homomorphism"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/units-map-to-units.md"
+prerequisites = ["algebra-rings/unital-ring", "algebra-rings/ring-homomorphism", "algebra-rings/unit", "algebra-rings/group-of-units"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Units map to units**: Let \(\varphi:R\to S\) be a unital ring homomorphism. If \(u\in R\) is a unit, then \(\varphi(u)\in S\) is a unit and

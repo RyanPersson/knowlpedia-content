@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Left (or right) cosets of a subgroup form a partition of the ambient group"
 aliases = ["cosets-partition", "Cosets Partition a Group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/coset", "shared-foundations/partition"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/cosets-partition.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/coset", "shared-foundations/partition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Cosets Partition a Group**: Let \(G\) be a [[algebra-groups/group|group]] and let \(H\le G\) be a [[algebra-groups/subgroup|subgroup]]. Then the set of left [[algebra-groups/coset|cosets]] \(\{gH : g\in G\}\) forms a [[shared-foundations/partition|partition]] of \(G\) (and similarly for right cosets \(\{Hg:g\in G\}\)).

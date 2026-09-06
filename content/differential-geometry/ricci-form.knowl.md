@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The real closed (1,1)-form obtained from the Ricci curvature of a Kähler metric."
 aliases = ["Ricci (1,1)-form", "Kähler Ricci form"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/kahler-metric", "differential-geometry/ricci-curvature"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/kahler-metric", "differential-geometry/ricci-curvature"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((X,J,g)\) be a complex \(n\)-dimensional manifold with [[differential-geometry/kahler-metric|Kähler metric]], and let \(\operatorname{Ric}_g\) be its [[differential-geometry/ricci-curvature|Ricci tensor]]. The **Ricci form** is the real \(2\)-form

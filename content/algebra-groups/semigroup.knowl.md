@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A set equipped with an associative binary operation"
 aliases = ["semigroup"]
 domains = ["algebra-groups"]
-prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/semigroup.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/binary-operation"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **semigroup** is a [[shared-foundations/set|set]] \(S\) together with an associative [[shared-foundations/binary-operation|binary operation]] \(\cdot : S \times S \to S\), meaning that for all \(a,b,c \in S\),

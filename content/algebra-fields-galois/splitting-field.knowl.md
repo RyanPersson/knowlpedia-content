@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The smallest field extension over which a given polynomial factors completely into linear factors."
 aliases = ["splitting-field", "Splitting field"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/tower-of-fields", "algebra-fields-galois/simple-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/splitting-field.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F\) be a [[algebra-rings/field|field]] and let \(f(x)\in F[x]\) be a nonconstant polynomial.

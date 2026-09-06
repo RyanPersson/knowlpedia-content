@@ -5,10 +5,10 @@ kind = "theorem"
 summary = "The tensor category of spherical perverse sheaves on Gr_G is equivalent to representations of the Langlands dual group."
 aliases = ["geometric Satake correspondence"]
 domains = ["langlands", "representation-theory"]
-prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/perverse-sheaf", "langlands/affine-grassmannian", "langlands-letter/knowls/langlands-dual-group", "langlands/intersection-cohomology-complex", "langlands/affine-schubert-variety", "langlands/dominant-coweight"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/perverse-sheaf", "langlands/affine-grassmannian", "langlands-letter/knowls/langlands-dual-group", "langlands/intersection-cohomology-complex", "langlands/affine-schubert-variety", "langlands/dominant-coweight"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], let \(G\) be a connected reductive

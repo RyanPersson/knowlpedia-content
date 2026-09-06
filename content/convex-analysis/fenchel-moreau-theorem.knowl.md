@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A closed proper convex function equals its Fenchel biconjugate."
 aliases = ["fenchel-moreau-theorem", "Fenchel-Moreau theorem"]
 domains = ["convex-analysis"]
-prerequisites = ["shared-foundations/function", "convex-analysis/biconjugate", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/closed-convex-function"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/fenchel-moreau-theorem.md"
+prerequisites = ["shared-foundations/function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/biconjugate", "convex-analysis/closed-convex-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Fenchel-Moreau theorem:** Let \(f:\mathbb{R}^n\to(-\infty,+\infty]\) be a proper [[shared-foundations/function|function]], and let \(f^{**}\) denote its [[convex-analysis/biconjugate|biconjugate]] (defined using the [[convex-analysis/convex-conjugate-fenchel|Fenchel conjugate]]). Then \(f^{**}\) is a [[convex-analysis/closed-convex-function|closed convex function]] and satisfies

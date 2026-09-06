@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The size of a set, understood up to bijection"
 aliases = ["cardinality"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/set", "shared-foundations/bijective-function"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/cardinality.md"
+prerequisites = ["shared-foundations/set", "shared-foundations/bijective-function"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **cardinality** is the size of a set, understood up to bijection: two [[shared-foundations/set|sets]] \(A\) and \(B\) have the same cardinality if there exists a [[shared-foundations/bijective-function|bijective function]] \(f:A\to B\). The cardinality of \(A\) is often denoted \(|A|\).

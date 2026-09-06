@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Disjoint compact convex and closed convex sets in a normed space admit strict separation by a continuous functional."
 aliases = ["strict-separation-of-compact-and-closed-convex-sets", "Strict Separation of Compact and Closed Convex Sets"]
 domains = ["convex-analysis"]
-prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/closed-subset", "convex-analysis/strict-separation-by-a-closed-hyperplane", "convex-analysis/dual-space-and-duality-pairing", "convex-analysis/separation-by-closed-hyperplane-under-interior-condition"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/strict-separation-of-compact-and-closed-convex-sets.md"
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/closed-subset", "convex-analysis/strict-separation-by-a-closed-hyperplane", "convex-analysis/dual-space-and-duality-pairing", "convex-analysis/separation-by-closed-hyperplane-under-interior-condition"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a real [[convex-analysis/norm-normed-vector-space|normed space]]. Let \(K,F\subset X\) be nonempty [[convex-analysis/convex-set|convex sets]] and assume:

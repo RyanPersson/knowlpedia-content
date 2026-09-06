@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Segments are sets of convex combinations of two points"
 aliases = ["line-segments-in-a-vector-space", "Line segments in a vector space"]
 domains = ["convex-analysis"]
-prerequisites = ["linear-algebra/vector-space"]
-dependency_review_count = 1
 legacy_source_path = "convex-analysis/line-segments-in-a-vector-space.md"
+prerequisites = ["linear-algebra/vector-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] and let \(a,b\in X\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element e satisfying e^2=e."
 aliases = ["idempotent-element", "Idempotent element"]
 domains = ["algebra-rings"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/idempotent-element.md"
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(R\) be a ring. An element \(e\in R\) is **idempotent** if \(e^2=e\).

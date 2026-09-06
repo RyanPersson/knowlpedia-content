@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A decomposition of the unit of a Euclidean Jordan algebra into pairwise orthogonal primitive idempotents."
 aliases = ["complete system of primitive orthogonal idempotents", "Jordan algebra frame"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "nonassociative-algebra/primitive-jordan-idempotent"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/euclidean-jordan-algebra", "nonassociative-algebra/primitive-jordan-idempotent"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(J\) be a finite-dimensional unital

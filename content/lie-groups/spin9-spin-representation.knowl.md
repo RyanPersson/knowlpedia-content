@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The real 16-dimensional spin representation of Spin(9), realized on the octonionic plane."
 aliases = ["16-dimensional spin representation of Spin(9)", "Spin(9) action on O^2", "real Spin(9) spin module"]
 domains = ["lie-groups", "representation-theory", "nonassociative-algebra"]
-prerequisites = ["lie-groups/spin-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/octonionic-special-linear-group"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/spin-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/octonionic-special-linear-group"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The compact [[lie-groups/spin-group|spin group]]

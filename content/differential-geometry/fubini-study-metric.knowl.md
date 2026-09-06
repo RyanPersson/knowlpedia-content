@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The canonical unitary-invariant Kähler metric on complex projective space."
 aliases = ["Fubini Study metric", "Fubini–Study Kähler form"]
 domains = ["differential-geometry"]
-prerequisites = ["algebraic-geometry-foundations/projective-space", "differential-geometry/kahler-metric", "differential-geometry/kahler-form"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/projective-space", "differential-geometry/kahler-metric", "differential-geometry/kahler-form"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 On [[algebraic-geometry-foundations/projective-space|complex projective space]] \(\mathbb{CP}^n\), the **Fubini–Study metric** is the [[differential-geometry/kahler-metric|Kähler metric]] whose [[differential-geometry/kahler-form|Kähler form]] on the affine chart \(Z_0\neq0\), with \(z_j=Z_j/Z_0\), is

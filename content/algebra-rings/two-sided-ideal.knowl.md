@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subset that is simultaneously a left ideal and a right ideal."
 aliases = ["two-sided-ideal", "Two-sided ideal"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring", "algebra-rings/ideal"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/two-sided-ideal.md"
+prerequisites = ["algebra-rings/ring", "algebra-rings/ideal"]
+dependency_heuristic = "semantic-curriculum-review-v1"
+dependency_review_count = 1
 +++
 
 A **two-sided ideal** of a [[algebra-rings/ring|ring]] \(R\) is an [[algebra-rings/ideal|ideal]] \(I\subseteq R\) such that \(rI\subseteq I\) and \(Ir\subseteq I\) for all \(r\in R\).

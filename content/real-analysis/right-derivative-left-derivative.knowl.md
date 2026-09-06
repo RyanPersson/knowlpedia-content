@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "One-sided derivatives defined by one-sided limits of the difference quotient."
 aliases = ["right-derivative-left-derivative", "Right derivative and left derivative"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/right-derivative-left-derivative.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(f:E\to\mathbb{R}\) (or \(\mathbb{C}\)) with \(E\subseteq\mathbb{R}\), and let \(a\in E\). If \(a\) is a limit point of \(E\cap(a,\infty)\), the **right derivative** of \(f\) at \(a\) is
@@ -15,6 +16,8 @@ Let \(f:E\to\mathbb{R}\) (or \(\mathbb{C}\)) with \(E\subseteq\mathbb{R}\), and 
 provided the limit exists. If \(a\) is a limit point of \(E\cap(-\infty,a)\), the **left derivative** is
 \[f'_-(a):=\lim_{h\uparrow 0}\frac{f(a+h)-f(a)}{h},\]
 provided the limit exists.
+
+## Relation to differentiability
 
 If both one-sided derivatives exist and are equal, then \(f\) is differentiable at \(a\) and \(f'(a)=f'_+(a)=f'_-(a)\).
 

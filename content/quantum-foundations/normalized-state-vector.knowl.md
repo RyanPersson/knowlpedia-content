@@ -5,7 +5,8 @@ kind = "knowl"
 summary = "A unit vector representing a pure quantum state up to multiplication by a phase."
 aliases = ["normalized state vector", "unit state vector"]
 domains = ["quantum-foundations", "linear-algebra"]
-prerequisites = ["linear-algebra/hilbert-space","linear-algebra/unit-sphere"]
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/unit-sphere"]
+dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 

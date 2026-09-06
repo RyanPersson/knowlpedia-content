@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Standard axioms of set theory: Zermelo-Fraenkel axioms plus the Axiom of Choice."
 aliases = ["zfc-axioms", "ZFC axioms"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/axiom-of-choice", "shared-foundations/empty-set", "shared-foundations/union", "shared-foundations/power-set", "shared-foundations/natural-numbers", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "shared-foundations/zfc-axioms.md"
+prerequisites = ["shared-foundations/axiom-of-choice", "shared-foundations/empty-set", "shared-foundations/union", "shared-foundations/power-set", "shared-foundations/natural-numbers", "shared-foundations/subset"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **ZFC axioms:** ZFC is the first-order theory in the language with equality and the membership relation \(\in\) whose axioms are the Zermelo–Fraenkel axioms together with the [[shared-foundations/axiom-of-choice|Axiom of Choice]]. A common presentation includes:

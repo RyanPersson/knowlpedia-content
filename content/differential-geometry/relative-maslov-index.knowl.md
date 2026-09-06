@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The Maslov index of a pair of moving Lagrangian subspaces, including a crossing-form definition for nontransverse endpoints."
 aliases = ["Maslov index of a pair", "Robbin–Salamon index"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/lagrangian-subspace", "differential-geometry/symplectic-vector-space", "differential-geometry/maslov-index"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/lagrangian-subspace", "differential-geometry/symplectic-vector-space", "differential-geometry/maslov-index"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\Lambda_0,\Lambda_1:[a,b]\to\Lambda(V)\) be continuous paths of [[differential-geometry/lagrangian-subspace|Lagrangian subspaces]] in a finite-dimensional real [[differential-geometry/symplectic-vector-space|symplectic vector space]]. Their **relative Maslov index** is the [[differential-geometry/maslov-index|Maslov index]]

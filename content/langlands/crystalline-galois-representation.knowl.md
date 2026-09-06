@@ -5,10 +5,10 @@ kind = "definition"
 summary = "A p-adic Galois representation with the full expected space of crystalline periods."
 aliases = ["crystalline representation", "crystalline p-adic representation"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K/\mathbb Q_p\) be finite, let \(K_0\) be the maximal unramified

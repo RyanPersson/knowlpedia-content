@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over a perfect field, every algebraic (hence every finite) extension is separable."
 aliases = ["finite-extension-perfect-separable", "Perfect fields and separability of finite extensions"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-fields-galois/perfect-field", "algebra-fields-galois/separable-extension"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/finite-extension-perfect-separable.md"
+prerequisites = ["algebra-fields-galois/perfect-field", "algebra-fields-galois/separable-extension"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-fields-galois/perfect-field|perfect field]] is a field \(K\) such that every algebraic extension of \(K\) is [[algebra-fields-galois/separable-extension|separable]]. The key consequence for field extensions is:

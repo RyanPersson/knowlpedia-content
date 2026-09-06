@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A conditionally convergent real series can be rearranged to converge to any real value or diverge."
 aliases = ["riemann-rearrangement-theorem", "Riemann rearrangement theorem"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/convergent-series", "real-analysis/absolutely-convergent-series", "real-analysis/conditionally-convergent-series", "real-analysis/rearrangement-theorem-absolute"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/riemann-rearrangement-theorem.md"
+prerequisites = ["real-analysis/convergent-series", "real-analysis/absolutely-convergent-series", "real-analysis/conditionally-convergent-series", "real-analysis/rearrangement-theorem-absolute"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Riemann rearrangement theorem:** Let \(\sum_{n=1}^\infty a_n\) be a real series that is [[real-analysis/convergent-series|convergent]] but not [[real-analysis/absolutely-convergent-series|absolutely convergent]] (equivalently, it is [[real-analysis/conditionally-convergent-series|conditionally convergent]]). Then:

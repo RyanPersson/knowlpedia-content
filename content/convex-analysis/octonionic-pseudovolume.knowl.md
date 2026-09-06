@@ -5,9 +5,10 @@ kind = "construction"
 summary = "A Spin(9)-invariant continuous valuation obtained from the octonionic Hessian measure of a support function."
 aliases = ["octonionic pseudo-volume", "Spin(9)-invariant octonionic valuation", "P_O valuation"]
 domains = ["convex-analysis", "octonionic-analysis", "lie-groups"]
-prerequisites = ["convex-analysis/convex-body", "convex-analysis/support-function", "complex-analysis/octonionic-monge-ampere-measure"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["convex-analysis/convex-body", "convex-analysis/support-function", "complex-analysis/octonionic-monge-ampere-measure"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\subseteq\mathbb O^2\cong\mathbb R^{16}\) be a

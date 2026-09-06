@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Nonabelian Čech 1-cohomology classifies principal G-bundles as a pointed set."
 aliases = ["Čech classification of principal bundles", "nonabelian H1 of a manifold", "principal bundles classified by H1"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/principal-g-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/principal-g-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a smooth manifold and \(G\) a Lie group. Regard

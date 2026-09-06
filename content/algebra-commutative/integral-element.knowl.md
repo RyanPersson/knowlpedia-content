@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An element b in an R-algebra is integral over R if it satisfies a monic polynomial with coefficients in R."
 aliases = ["integral-element", "Integral element"]
 domains = ["algebra-commutative"]
-prerequisites = ["algebra-rings/commutative-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-commutative/integral-element.md"
+prerequisites = ["algebra-rings/commutative-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\to B\) be a homomorphism of [[algebra-rings/commutative-ring|commutative rings]] (often viewed as an inclusion \(A\subseteq B\)). An element \(b\in B\) is **integral over \(A\)** if there exists a monic polynomial

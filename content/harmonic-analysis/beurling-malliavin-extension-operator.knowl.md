@@ -5,9 +5,10 @@ kind = "construction"
 summary = "An operator extending a function on real Euclidean space by taking a Poisson average along the real line determined by the imaginary direction."
 aliases = ["Cohen extension operator", "linewise harmonic extension"]
 domains = ["harmonic-analysis", "several-complex-variables"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["harmonic-analysis/poisson-extension-upper-half-plane", "complex-analysis/levi-form", "harmonic-analysis/x-ray-transform", "harmonic-analysis/radial-line-growth-functional"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For suitable \(\omega:\mathbb R^d\to\mathbb R\), define its **linewise Poisson

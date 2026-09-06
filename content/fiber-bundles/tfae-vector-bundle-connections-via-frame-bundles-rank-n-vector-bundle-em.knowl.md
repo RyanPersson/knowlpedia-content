@@ -5,10 +5,10 @@ kind = "knowl"
 summary = "Equivalence between covariant derivatives on a rank-n vector bundle and principal connections on its frame bundle."
 aliases = ["tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em", "Connections on vector bundles via frame bundles"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 legacy_source_path = "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em.md"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a smooth real rank-\(n\) [[fiber-bundles/vector-bundle|vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Denote by \(\mathrm{Fr}(E)\to M\) the principal \(\mathrm{GL}(n,\mathbb R)\)-bundle of frames of \(E\) (ordered bases of each fiber).

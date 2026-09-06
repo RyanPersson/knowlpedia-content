@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "From a commutative diagram with exact rows, produces an exact sequence of kernels and cokernels with a canonical connecting map."
 aliases = ["snake-lemma", "Snake lemma"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-modules/cokernel-module", "algebra-modules/exact-sequence-modules"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/snake-lemma.md"
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-category-theory/kernel-categorical", "algebra-category-theory/cokernel-categorical", "algebra-modules/cokernel-module", "algebra-modules/exact-sequence-modules"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The snake lemma is a fundamental diagram-chase statement in the category of \(R\)-modules, and more generally in any [[algebra-category-theory/abelian-category|abelian category]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In a morphism of exact five-term sequences, suitable isomorphism, epimorphism, and monomorphism hypotheses force the middle map to be an isomorphism."
 aliases = ["five-lemma", "Five lemma"]
 domains = ["algebra-homological"]
-prerequisites = ["algebra-category-theory/abelian-category"]
-dependency_review_count = 1
 legacy_source_path = "algebra-homological/five-lemma.md"
+prerequisites = ["algebra-category-theory/abelian-category", "algebra-homological/four-lemma"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In an [[algebra-category-theory/abelian-category|abelian category]], consider a commutative diagram with exact rows

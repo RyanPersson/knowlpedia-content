@@ -5,9 +5,10 @@ kind = "definition"
 summary = "Jordan idempotents e and f are orthogonal when their Jordan product vanishes."
 aliases = ["orthogonal idempotents in a Jordan algebra", "Jordan-orthogonal idempotents"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/jordan-idempotent", "nonassociative-algebra/jordan-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/jordan-idempotent", "nonassociative-algebra/jordan-algebra", "nonassociative-algebra/euclidean-jordan-algebra", "linear-algebra/inner-product"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Two [[nonassociative-algebra/jordan-idempotent|Jordan idempotents]] \(e,f\)

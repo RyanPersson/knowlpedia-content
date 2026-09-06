@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Every field admits an algebraic closure."
 aliases = ["algebraic-closure-existence", "Existence of algebraic closures"]
 domains = ["algebra-fields-galois"]
-prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension", "algebra-fields-galois/algebraic-element", "algebra-fields-galois/algebraic-closure", "shared-foundations/axiom-of-choice"]
-dependency_review_count = 1
 legacy_source_path = "algebra-fields-galois/algebraic-closure-existence.md"
+prerequisites = ["algebra-rings/field", "algebra-fields-galois/field-extension", "algebra-fields-galois/algebraic-extension", "algebra-fields-galois/algebraic-element", "shared-foundations/axiom-of-choice"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(K\) be a [[algebra-rings/field|field]].

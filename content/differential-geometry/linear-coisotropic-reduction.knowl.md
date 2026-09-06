@@ -5,9 +5,10 @@ kind = "construction"
 summary = "The symplectic quotient of a coisotropic subspace by its characteristic subspace."
 aliases = ["symplectic reduction of a vector space", "coisotropic quotient"]
 domains = ["differential-geometry", "linear-algebra"]
-prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/coisotropic-subspace", "convex-analysis/quotient-vector-space-codimension", "differential-geometry/symplectic-orthogonal-complement"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/coisotropic-subspace", "convex-analysis/quotient-vector-space-codimension", "differential-geometry/symplectic-orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((V,\omega)\) be a [[differential-geometry/symplectic-vector-space|symplectic vector space]] and \(W\subseteq V\) a [[differential-geometry/coisotropic-subspace|coisotropic subspace]]. Its **linear coisotropic reduction** is the [[convex-analysis/quotient-vector-space-codimension|quotient vector space]]

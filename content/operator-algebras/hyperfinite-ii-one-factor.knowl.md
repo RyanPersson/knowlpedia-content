@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The separable type II₁ factor obtained as the strong closure of an increasing union of finite-dimensional algebras."
 aliases = ["approximately finite-dimensional II_1 factor", "hyperfinite factor R"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/type-ii-one-factor", "operator-algebras/strong-operator-topology"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["operator-algebras/type-ii-one-factor", "operator-algebras/strong-operator-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **hyperfinite type \(\mathrm{II}_1\) factor** is a

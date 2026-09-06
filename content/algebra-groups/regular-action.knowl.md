@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "An action that is both free and transitive"
 aliases = ["regular-action", "Regular Action"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group-action", "algebra-groups/free-action", "algebra-groups/transitive-action"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/regular-action.md"
+prerequisites = ["algebra-groups/group-action", "algebra-groups/free-action", "algebra-groups/transitive-action"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A [[algebra-groups/group-action|group action]] of a group \(G\) on a set \(X\) is **regular** if it is both [[algebra-groups/free-action|free]] and [[algebra-groups/transitive-action|transitive]].

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "In metric spaces, f is continuous at x iff it preserves limits of sequences converging to x"
 aliases = ["continuity-via-sequences", "Continuity via sequences"]
 domains = ["real-analysis"]
-prerequisites = ["topology/metric-space", "real-analysis/continuity-at-a-point"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/continuity-via-sequences.md"
+prerequisites = ["topology/metric-space", "real-analysis/continuity-at-a-point"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Continuity via sequences**: Let \((X,d_X)\) and \((Y,d_Y)\) be [[topology/metric-space|metric spaces]] and let \(f:X\to Y\). Then \(f\) is [[real-analysis/continuity-at-a-point|continuous at]] \(x\in X\) if and only if for every sequence \((x_n)\) in \(X\),

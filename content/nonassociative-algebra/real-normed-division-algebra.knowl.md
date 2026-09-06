@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A finite-dimensional real unital algebra with a positive multiplicative Euclidean norm."
 aliases = ["normed division algebra over the reals", "real normed division algebra"]
 domains = ["nonassociative-algebra"]
-prerequisites = ["nonassociative-algebra/nonassociative-algebra", "shared-foundations/real-numbers", "linear-algebra/euclidean-norm", "nonassociative-algebra/composition-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["nonassociative-algebra/nonassociative-algebra", "shared-foundations/real-numbers", "linear-algebra/euclidean-norm", "nonassociative-algebra/composition-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **real normed division algebra** is a finite-dimensional unital [[nonassociative-algebra/nonassociative-algebra|algebra]] \(A\) over [[shared-foundations/real-numbers|\(\mathbb R\)]] with a positive-definite [[linear-algebra/euclidean-norm|Euclidean norm]] \(\lVert\cdot\rVert\) satisfying

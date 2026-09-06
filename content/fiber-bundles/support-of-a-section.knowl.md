@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The closure of the set of base points where a vector bundle section is nonzero."
 aliases = ["section support", "support of a vector bundle section"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "topology/closed-set"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "topology/closed-set"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] and \(s\in\Gamma^\infty(M,E)\) a smooth [[fiber-bundles/section-of-a-vector-bundle|section]]. The **support of \(s\)** is the [[topology/closed-set|closed set]]

@@ -6,6 +6,9 @@ summary = "New knowls added while annotating a conversation about charts, princi
 aliases = ["Charts and morphisms conversation additions", "Bundle cocycle conversation additions"]
 domains = ["knowlification", "differential-geometry", "fiber-bundles"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This index records the concepts added while knowlifying a conversation that

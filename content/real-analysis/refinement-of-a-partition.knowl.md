@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A partition that contains all points of another partition."
 aliases = ["refinement-of-a-partition", "Refinement of a partition"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/partition-of-an-interval", "shared-foundations/subset"]
-dependency_review_count = 1
 legacy_source_path = "real-analysis/refinement-of-a-partition.md"
+prerequisites = ["shared-foundations/subset", "real-analysis/upper-sum", "real-analysis/lower-sum", "real-analysis/riemann-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **refinement of a partition** \(P\) of \([a,b]\) is a partition \(Q\) of \([a,b]\) such that every point of \(P\) is also a point of \(Q\). In other words, \(P\subseteq Q\) in the sense of [[shared-foundations/subset|subset]].

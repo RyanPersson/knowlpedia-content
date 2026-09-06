@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Over a UFD, content(fg) is associate to content(f)content(g) for polynomials."
 aliases = ["content-formula", "Content formula"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ufd", "algebra-rings/content-polynomial", "algebra-rings/polynomial-ring", "algebra-rings/associated-elements", "algebra-rings/primitive-polynomial"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/content-formula.md"
+prerequisites = ["algebra-rings/ufd", "algebra-rings/polynomial-ring", "algebra-rings/content-polynomial", "algebra-rings/primitive-polynomial"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Content formula**: Let \(R\) be a UFD and let \(f,g\in R[x]\). Choose elements \(c(f),c(g),c(fg)\) generating the coefficient ideals (the content ideals). Then

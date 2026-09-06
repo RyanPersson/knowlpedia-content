@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A subgroup is normal iff it is stable under conjugation by every group element"
 aliases = ["normal-subgroup-criterion", "Normal Subgroup Criterion"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup"]
-dependency_review_count = 1
 legacy_source_path = "algebra-groups/normal-subgroup-criterion.md"
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/normal-subgroup"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 **Normal Subgroup Criterion**: Let \(G\) be a [[algebra-groups/group|group]] and let \(N\le G\) be a [[algebra-groups/subgroup|subgroup]]. Then \(N\) is a [[algebra-groups/normal-subgroup|normal]] subgroup of \(G\) if and only if for every \(g\in G\) and every \(n\in N\) one has \(gng^{-1}\in N\).

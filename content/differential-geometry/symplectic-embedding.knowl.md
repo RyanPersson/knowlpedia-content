@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A smooth embedding that preserves the symplectic forms by pullback."
 aliases = ["symplectic inclusion"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/symplectic-map", "fiber-bundles/tangent-space-at-a-point", "convex-analysis/linear-subspace"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/smooth-embedding", "differential-geometry/symplectic-map", "fiber-bundles/tangent-space-at-a-point", "convex-analysis/linear-subspace"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,\omega_M)\) and \((N,\omega_N)\) be [[differential-geometry/symplectic-manifold|symplectic manifolds]]. A **symplectic embedding** is a [[fiber-bundles/smooth-embedding|smooth embedding]] \(\iota:M\hookrightarrow N\) satisfying

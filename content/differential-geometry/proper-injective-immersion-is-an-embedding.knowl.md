@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "A proper injective smooth immersion between manifolds is a smooth embedding."
 aliases = ["proper immersion embedding criterion"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/proper-smooth-map", "fiber-bundles/smooth-embedding", "topology/subspace-topology"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-immersion", "differential-geometry/proper-smooth-map", "fiber-bundles/smooth-embedding", "topology/subspace-topology"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]], and let \(f:M\to N\) be a [[fiber-bundles/smooth-immersion|smooth immersion]]. If \(f\) is injective and is a [[differential-geometry/proper-smooth-map|proper smooth map]], then \(f\) is a [[fiber-bundles/smooth-embedding|smooth embedding]]. Equivalently, \(f\) is a homeomorphism from \(M\) onto \(f(M)\) with the [[topology/subspace-topology|subspace topology]], in addition to having injective differential at every point. The result supplies the global topological condition missing from the local immersion hypothesis; injectivity alone does not force the inverse \(f(M)\to M\) to be continuous.

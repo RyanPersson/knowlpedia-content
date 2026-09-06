@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "Matrix of second partial derivatives of a scalar function"
 aliases = ["hessian-matrix", "Hessian matrix"]
 domains = ["real-analysis"]
-prerequisites = []
-dependency_review_count = 1
 legacy_source_path = "real-analysis/hessian-matrix.md"
+prerequisites = ["real-analysis/partial-derivative"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 A **Hessian matrix** of a function \(f:U\to \mathbb{R}\) (with \(U\subseteq \mathbb{R}^n\)) at a point \(a\in U\) is the \(n\times n\) matrix

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A semisimple ring that satisfies the descending chain condition on ideals; equivalently a finite product of matrix algebras over division rings."
 aliases = ["artinian-semisimple-ring", "Artinian semisimple ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/semisimple-ring"]
-dependency_review_count = 1
 legacy_source_path = "algebra-rings/artinian-semisimple-ring.md"
+prerequisites = ["algebra-rings/semisimple-ring", "algebra-commutative/artinian-ring"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 An **Artinian semisimple ring** is a ring \(R\) that is [[algebra-rings/semisimple-ring|semisimple]] and left Artinian, meaning that every descending chain of left ideals stabilizes.

@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Regular reduction at a nonzero moment-map value uses the coadjoint stabilizer of that value."
 aliases = ["nonzero-level reduction", "reduction at a coadjoint value"]
 domains = ["differential-geometry"]
-prerequisites = ["fiber-bundles/lie-group", "differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "fiber-bundles/regular-value", "differential-geometry/symplectic-quotient", "fiber-bundles/smooth-manifold"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "differential-geometry/hamiltonian-lie-group-action", "fiber-bundles/moment-map", "fiber-bundles/regular-value", "differential-geometry/symplectic-quotient", "fiber-bundles/smooth-manifold"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let a [[fiber-bundles/lie-group|Lie group]] \(G\) act on \((M,\omega)\), and suppose the action is [[differential-geometry/hamiltonian-lie-group-action|Hamiltonian]] with equivariant [[fiber-bundles/moment-map|moment map]] \(\mu:M\to\mathfrak g^*\). Fix \(\alpha\in\mathfrak g^*\). If \(\alpha\) is a [[fiber-bundles/regular-value|regular value]] and its coadjoint stabilizer \(G_\alpha\) acts freely and properly on \(\mu^{-1}(\alpha)\), then the [[differential-geometry/symplectic-quotient|quotient]]

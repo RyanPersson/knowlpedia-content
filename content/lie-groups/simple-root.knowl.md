@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A minimal positive root; simple roots form a basis for the root system and generate all positive roots."
 aliases = ["simple-root", "Simple root"]
 domains = ["lie-groups"]
-prerequisites = ["lie-groups/root-system", "lie-groups/positive-root"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/simple-root.md"
+prerequisites = ["lie-groups/root-system", "lie-groups/positive-root"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Fix a root system \(\Phi\subset V\) (see [[lie-groups/root-system|root system]]) together with a choice of [[lie-groups/positive-root|positive roots]] \(\Phi^+\subset\Phi\).

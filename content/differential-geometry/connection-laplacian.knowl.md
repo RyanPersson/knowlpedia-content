@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The negative metric trace of the second covariant derivative on sections of a vector bundle."
 aliases = ["rough Laplacian", "Bochner Laplacian"]
 domains = ["differential-geometry", "partial-differential-equations"]
-prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/covariant-derivative-of-a-section", "mathematical-physics/normally-hyperbolic-operator", "differential-geometry/laplace-beltrami-operator"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/covariant-derivative-of-a-section"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] with connection \(\nabla^E\), and let \(g\) be a [[differential-geometry/pseudo-riemannian-manifold|pseudo-Riemannian metric]] with [[fiber-bundles/levicivita-connection-connection|Levi–Civita connection]] \(\nabla^{\mathrm{LC}}\). The second [[fiber-bundles/covariant-derivative-of-a-section|covariant derivative of a section]] \(s\) is

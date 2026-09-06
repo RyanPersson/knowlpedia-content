@@ -6,6 +6,9 @@ summary = "Graphs and lattice structures for statistical mechanics."
 aliases = ["discrete-structures", "Discrete Structures"]
 domains = ["discrete-structures"]
 legacy_source_path = "discrete-structures/_index.md"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 ## Graph Theory

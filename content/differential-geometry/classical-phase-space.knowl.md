@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A symplectic manifold whose points represent the instantaneous states of a finite-dimensional classical system."
 aliases = ["phase space", "Hamiltonian phase space"]
 domains = ["differential-geometry", "classical-mechanics"]
-prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-function", "fiber-bundles/vector-field"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/symplectic-manifold", "differential-geometry/hamiltonian-function", "fiber-bundles/vector-field"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 In finite-dimensional Hamiltonian mechanics, a **classical phase space** is a [[differential-geometry/symplectic-manifold|symplectic manifold]] \((P,\omega)\) whose points represent the complete instantaneous states of a classical system. A real-valued [[differential-geometry/hamiltonian-function|smooth function \(H\in C^\infty(P)\), called a Hamiltonian]], specifies a particular dynamics through the unique [[fiber-bundles/vector-field|vector field]] \(X_H\) determined by

@@ -5,10 +5,10 @@ kind = "definition"
 summary = "The full group C*-algebra is the universal C*-completion of the convolution algebra of a locally compact group."
 aliases = ["universal group C*-algebra", "maximal group C*-algebra", "C*(G)"]
 domains = ["operator-algebras", "harmonic-analysis"]
-prerequisites = ["topology/locally-compact-group", "harmonic-analysis/l1-group-algebra", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/integrated-form-unitary-representation"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 0
 section_mode = "progressive"
+prerequisites = ["topology/locally-compact-group", "harmonic-analysis/l1-group-algebra", "lie-groups/strongly-continuous-unitary-representation", "harmonic-analysis/integrated-form-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact group]]. For \(f\) in the [[harmonic-analysis/l1-group-algebra|\(L^1\) group algebra]], define

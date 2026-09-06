@@ -5,9 +5,10 @@ kind = "definition"
 summary = "An integer obtained by evaluating a top-degree monomial in Chern classes on an oriented fundamental class."
 aliases = ["Chern characteristic number"]
 domains = ["fiber-bundles", "topology"]
-prerequisites = ["fiber-bundles/vector-bundle", "topology/fundamental-class", "fiber-bundles/tangent-bundle"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/vector-bundle", "topology/fundamental-class", "fiber-bundles/tangent-bundle"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be a closed oriented \(2n\)-manifold and let \(E\to M\) be a complex [[fiber-bundles/vector-bundle|vector bundle]]. For a partition \(\lambda=(\lambda_1,\ldots,\lambda_\ell)\) of \(n\), the associated **Chern number** is

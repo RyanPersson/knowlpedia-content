@@ -5,11 +5,11 @@ kind = "knowl"
 summary = "The normalizer theorem used in the letter to place semisimple elements of a disconnected reductive extension in standard torus data."
 aliases = ["borel-mostow-semisimple-normalizer", "Borel–Mostow Normalizer Representative (Semisimple Class)"]
 domains = ["langlands-letter"]
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/maximal-torus-weight-lattice", "algebra-groups/normalizer"]
-dependency_heuristic = "definition-links-v1"
-dependency_review_count = 1
 legacy_source_path = "langlands-letter/knowls/borel-mostow-semisimple-normalizer.md"
 section_mode = "progressive"
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/maximal-torus-weight-lattice", "algebra-groups/normalizer"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(H\) be a complex linear [[algebraic-geometry-foundations/algebraic-group|algebraic group]] whose identity component

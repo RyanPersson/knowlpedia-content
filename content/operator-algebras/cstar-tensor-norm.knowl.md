@@ -5,9 +5,10 @@ kind = "definition"
 summary = "A norm on the algebraic tensor product of two C*-algebras whose completion is again a C*-algebra."
 aliases = ["C*-cross norm", "C*-tensor product norm"]
 domains = ["operator-algebras"]
-prerequisites = ["operator-algebras/cstar-algebra"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["operator-algebras/cstar-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(A\) and \(B\) be [[operator-algebras/cstar-algebra|\(C^*\)-algebras]].

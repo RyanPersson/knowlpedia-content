@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The canonical unitary representation of the metaplectic group on square-integrable functions."
 aliases = ["oscillator representation of the metaplectic group", "Segal-Shale-Weil representation", "Weil representation over the real numbers"]
 domains = ["lie-groups", "harmonic-analysis", "mathematical-physics"]
-prerequisites = ["lie-groups/metaplectic-group", "lie-groups/projective-unitary-representation"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["lie-groups/metaplectic-group", "lie-groups/projective-unitary-representation"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 The **metaplectic representation** is the strongly continuous unitary representation

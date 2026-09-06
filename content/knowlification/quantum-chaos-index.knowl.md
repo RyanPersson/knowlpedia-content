@@ -6,6 +6,9 @@ summary = "Dependency-ordered index of atomic knowls supporting Alex Cohen's hig
 aliases = ["quantum chaos knowl batch", "fractal uncertainty batch index"]
 domains = ["knowlification", "harmonic-analysis", "complex-analysis", "mathematical-physics"]
 section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 This index organizes the new axiomatic knowls supporting the paper *Fractal

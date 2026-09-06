@@ -5,9 +5,10 @@ kind = "theorem"
 summary = "Smooth forms on a compact oriented Riemannian manifold split orthogonally into harmonic, exact, and coexact parts."
 aliases = ["orthogonal Hodge decomposition"]
 domains = ["differential-geometry"]
-prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/harmonic-differential-form"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/harmonic-differential-form", "differential-geometry/hodge-laplacian", "linear-algebra/orthogonal-complement"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a compact oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary.

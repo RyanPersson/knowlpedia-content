@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The integral of a complex-valued function along an oriented parametrized curve."
 aliases = ["contour integral", "complex line integral"]
 domains = ["complex-analysis"]
-prerequisites = []
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["shared-foundations/function", "real-analysis/riemann-integrable-function"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\gamma:[a,b]\to\mathbb C\) be piecewise \(C^1\), and let \(f\) be continuous on the image of \(\gamma\). The **complex contour integral** of \(f\) along \(\gamma\) is

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The basic nonabelian nilpotent Lie group, central extension of an abelian group."
 aliases = ["heisenberg-group", "Heisenberg group"]
 domains = ["lie-groups"]
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/example-heisenberg-algebra", "lie-groups/nilpotent-lie-algebra"]
-dependency_review_count = 1
 legacy_source_path = "lie-groups/heisenberg-group.md"
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/example-heisenberg-algebra", "lie-groups/nilpotent-lie-algebra"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\ge 1\), the (real) **Heisenberg group** \(H_n\) can be realized as \(\mathbb R^{2n}\times \mathbb R\) with elements written \((x,y,z)\) where \(x,y\in\mathbb R^n\) and \(z\in\mathbb R\), and group law

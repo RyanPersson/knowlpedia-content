@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "A ring in which multiplication is commutative."
 aliases = ["commutative-ring", "Commutative ring"]
 domains = ["algebra-rings"]
-prerequisites = ["algebra-rings/ring"]
-dependency_review_count = 2
 legacy_source_path = "algebra-rings/commutative-ring.md"
+prerequisites = ["algebra-rings/ring"]
+dependency_heuristic = "semantic-foundations-review-v1"
+dependency_review_count = 1
 +++
 
 A **commutative ring** is a [[algebra-rings/ring|ring]] \(R\) such that \(ab=ba\) for all \(a,b\in R\).

@@ -5,9 +5,10 @@ kind = "knowl"
 summary = "The subgroup of the structure group obtained by parallel transport around loops based at a point."
 aliases = ["holonomy-group", "Holonomy group"]
 domains = ["fiber-bundles"]
-prerequisites = ["fiber-bundles/principal-connection"]
-dependency_review_count = 1
 legacy_source_path = "fiber-bundles/holonomy-group.md"
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/horizontal-lift-of-a-curve"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle equipped with a [[fiber-bundles/principal-connection|principal connection]]. Fix a point \(p\in P\) and set \(x=\pi(p)\in M\).

@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The graded tensor product combines spectral triples using the Dirac operator D1 tensor 1 plus Gamma1 tensor D2."
 aliases = ["tensor product of spectral triples", "graded product triple"]
 domains = ["noncommutative-geometry", "operator-algebras"]
-prerequisites = ["noncommutative-geometry/even-spectral-triple", "linear-algebra/hilbert-space", "algebra-modules/tensor-product-algebras"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["noncommutative-geometry/even-spectral-triple", "linear-algebra/hilbert-space", "algebra-modules/tensor-product-algebras"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((\mathcal A_i,H_i,D_i,\Gamma_i)\), \(i=1,2\), be

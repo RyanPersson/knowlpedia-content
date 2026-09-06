@@ -5,9 +5,10 @@ kind = "definition"
 summary = "The conjugation-invariant distribution obtained by tracing the integrated operators of an admissible representation."
 aliases = ["Harish-Chandra character", "distribution character"]
 domains = ["lie-groups", "harmonic-analysis"]
-prerequisites = ["fiber-bundles/lie-group", "harmonic-analysis/haar-measure", "lie-groups/admissible-representation-real-reductive-group", "harmonic-analysis/integrated-operator-continuous-representation", "functional-analysis/distribution"]
-dependency_review_count = 1
 section_mode = "progressive"
+prerequisites = ["fiber-bundles/lie-group", "harmonic-analysis/haar-measure", "lie-groups/admissible-representation-real-reductive-group", "harmonic-analysis/integrated-operator-continuous-representation", "functional-analysis/distribution"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(G\) be a real reductive [[fiber-bundles/lie-group|Lie group]] with a
