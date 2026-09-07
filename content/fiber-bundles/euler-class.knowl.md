@@ -40,6 +40,6 @@ e(f^*E)=f^*e(E).
    \[
    \langle e(T\Sigma),[\Sigma]\rangle=\chi(\Sigma),
    \]
-   and \(e(\nabla)\) is the Gauss curvature form normalized by \(2\pi\) for the Levi-Civita connection.
+   and, for a Riemannian metric and its Levi-Civita connection, \(e(\nabla)=K\,\operatorname{vol}_g/(2\pi)\), where \(K\) is the [[differential-geometry/gaussian-curvature|Gauss curvature]] and \(\operatorname{vol}_g\) is the oriented [[differential-geometry/volume-form|volume form]].
 
 3. **Flat oriented bundles.** If \(\nabla\) is flat (\(F_\nabla=0\)), then \(e(\nabla)=0\), so \(e(E)\) vanishes in real cohomology (and hence in rational cohomology).

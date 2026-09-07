@@ -6,31 +6,33 @@ summary = "A generalized Laplace eigenfunction on the Poincaré disk obtained fr
 aliases = ["incoming hyperbolic wave", "outgoing hyperbolic wave", "Helgason plane wave"]
 domains = ["mathematical-physics", "harmonic-analysis", "quantum-chaos"]
 section_mode = "progressive"
-prerequisites = ["mathematical-physics/hyperbolic-poisson-kernel"]
+prerequisites = ["mathematical-physics/hyperbolic-poisson-kernel", "differential-geometry/poincare-disk-model", "differential-geometry/laplace-beltrami-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 
 [[issues]]
 id = "3b5995e5-b613-43c1-9076-a6bbe710cee7"
-status = "open"
+status = "resolved"
 summary = "Reported missing knowl links, including Poincaré disk"
 reported_at = "2026-09-07T03:41:20Z"
-updated_at = "2026-09-07T03:41:52Z"
+updated_at = "2026-09-07T06:38:00Z"
 report = "Flagging some missing knowl links in this one including poincare disk."
-assessment = "Confirmed that the core mentions Poincaré disk without a knowl link. A corpus search found mentions in compact-hyperbolic-surface and hyperbolic-poisson-kernel, but no dedicated Poincaré disk definition target. A subsequent Request change should establish a canonical disk-model knowl and link the first mention here. The unlinked Laplacian is another candidate: differential-geometry/laplace-beltrami-operator exists, but its nonnegative Delta convention must be reconciled with this source’s displayed -Delta before choosing link wording. The broader missing-link concern remains open; no body corrections were made."
+assessment = "The reported missing Poincaré disk dependency was confirmed. A canonical definition now gives the unit-disk metric, curvature normalization, geodesics, and ideal boundary, and the first mention in this knowl links to it. The existing Laplace–Beltrami knowl uses the nonnegative convention, so the eigenvalue statement was corrected to link that operator and write Δψ=(r²+1/4)ψ. The linked Poisson kernel and new disk model provide the complete direct prerequisites."
+resolution = "Added and linked differential-geometry/poincare-disk-model, including the curvature-minus-one metric normalization and boundary/geodesic facts checked against Farb and Margalit, A Primer on Mapping Class Groups, §1.1.2, pp. 19–21. Corrected the sign and linked the Laplace–Beltrami operator under the convention declared by its canonical knowl. Parsed front matter and validated all referenced IDs; no unrelated knowls were changed."
 +++
 
 Let \(P_b(z)\) be the
 [[mathematical-physics/hyperbolic-poisson-kernel|hyperbolic Poisson kernel]] of
-the Poincaré disk, with
+the [[differential-geometry/poincare-disk-model|Poincaré disk]], with
 \(b\in S^1\) and \(z\in\mathbb D\). For \(r\in\mathbb R\), the **hyperbolic
 plane wave** based at \(b\) is
 \[
 \psi_b^r(z)=P_b(z)^{1/2+ir}.
 \]
-With the nonnegative Laplacian convention it satisfies
+With the nonnegative [[differential-geometry/laplace-beltrami-operator|Laplace–Beltrami
+operator]] convention it satisfies
 \[
--\Delta\psi_b^r=(r^2+1/4)\psi_b^r.
+\Delta\psi_b^r=(r^2+1/4)\psi_b^r.
 \]
 
 ## Incoming and outgoing conventions
