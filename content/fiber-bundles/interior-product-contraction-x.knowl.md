@@ -6,7 +6,7 @@ summary = "Insertion of a vector field into a differential form, producing a for
 aliases = ["interior-product-contraction-x", "Interior product (contraction) ι_X"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/interior-product-contraction-x.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/lie-derivative-of-a-differential-form", "fiber-bundles/exterior-derivative"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -20,6 +20,8 @@ Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(X\) b
 p\in M,\; v_i\in T_pM.
 \]
 By convention, if \(k=0\) then \(\iota_X\omega:=0\).
+
+## Identities
 
 The contraction satisfies the following standard identities.
 

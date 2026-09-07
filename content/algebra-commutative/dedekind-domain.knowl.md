@@ -6,7 +6,7 @@ summary = "A Noetherian, integrally closed domain of Krull dimension one; equiva
 aliases = ["dedekind-domain", "Dedekind domain"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/dedekind-domain.md"
-prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/integrally-closed-domain", "algebra-commutative/krull-dimension", "algebra-commutative/height-of-prime"]
+prerequisites = ["algebra-rings/integral-domain", "algebra-commutative/noetherian-ring", "algebra-commutative/integrally-closed-domain", "algebra-commutative/krull-dimension", "algebra-commutative/height-of-prime"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

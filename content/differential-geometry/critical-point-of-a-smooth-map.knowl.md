@@ -6,7 +6,7 @@ summary = "A point where the differential of a smooth map is not surjective onto
 aliases = ["critical point on a manifold"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-of-a-smooth-map", "differential-geometry/rank-of-a-smooth-map", "linear-algebra/matrix"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-of-a-smooth-map", "differential-geometry/rank-of-a-smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

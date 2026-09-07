@@ -6,7 +6,7 @@ summary = "A Lie group action on a manifold given by a smooth map G×M→M satis
 aliases = ["smooth-action-lie-group", "Smooth action of a Lie group"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/smooth-action-lie-group.md"
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
@@ -19,6 +19,8 @@ such that:
 
 1. \(e\cdot m=m\) for all \(m\in M\) (where \(e\) is the identity in \(G\)), and
 2. \((g_1g_2)\cdot m=g_1\cdot(g_2\cdot m)\) for all \(g_1,g_2\in G\) and \(m\in M\).
+
+## Associated constructions
 
 Associated to any smooth action are the basic orbit-stabilizer constructions: the orbit \(G\cdot m\) (see [[lie-groups/orbit-lie-group|orbit]]) and the stabilizer subgroup \(G_m\) (see [[lie-groups/stabilizer-lie-group|stabilizer]]). If the action is transitive, \(M\) becomes a [[lie-groups/homogeneous-space|homogeneous space]]; if it is free, it resembles a [[lie-groups/principal-homogeneous-space|principal homogeneous space]] (compare [[lie-groups/transitive-action-lie|transitive action]] and [[lie-groups/free-action-lie|free action]]).
 

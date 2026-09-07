@@ -6,7 +6,7 @@ summary = "An element that is not a zero divisor (equivalently, multiplication b
 aliases = ["regular-element", "Regular element"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/regular-element.md"
-prerequisites = ["algebra-rings/zero-divisor"]
+prerequisites = ["algebra-rings/ring", "algebra-rings/zero-divisor"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

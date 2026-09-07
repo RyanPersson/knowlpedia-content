@@ -6,7 +6,7 @@ summary = "The natural topology on Spec(R) whose closed sets are defined by vani
 aliases = ["zariski-topology", "Zariski topology"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/zariski-topology.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/prime-spectrum"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-commutative/prime-spectrum"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,31 +6,22 @@ summary = "For a multiplicative subset S of a commutative ring R, the localizati
 aliases = ["localization-module", "Localization of a module"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/localization-module.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/module", "algebra-commutative/multiplicative-set", "algebra-commutative/localization-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]], let \(S\subseteq R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]], and let \(M\) be an \(R\)-module. The **localization of \(M\) at \(S\)** is the \(S^{-1}R\)-module \(S^{-1}M\) whose elements and operations are described below. Every \(s\in S\) acts invertibly on this module.
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]], let \(S\subseteq R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]], and let \(M\) be an \(R\)-module. The **localization of \(M\) at \(S\)** is the \(S^{-1}R\)-module \(S^{-1}M\) of equivalence classes of pairs \(m,s\in M\times S\), with
+\[
+(m,s)\sim(m',s')\Longleftrightarrow\exists t\in S\text{ such that }t(s'm-sm')=0\text{ in }M.
+\]
+Write the class as \(m/s\). Addition and scalar action are
+\[
+\frac m s+\frac {m'}{s'}=\frac {s'm+sm'}{ss'},\qquad \left(\frac r s\right)\left(\frac m t\right)=\frac {rm}{st}.
+\]
+Every \(s\in S\) acts invertibly, and \(m\mapsto m/1\) is \(R\)-linear.
 
 Here \(S^{-1}R\) is the [[algebra-commutative/localization-ring|localized ring]].
-
-## Construction
-
-Define \(S^{-1}M\) as equivalence classes of pairs \((m,s)\in M\times S\) under
-\[
-(m,s)\sim (m',s') \quad \Longleftrightarrow \quad \exists\,t\in S \text{ such that } t(s'm-sm')=0 \text{ in }M.
-\]
-Write the class of \((m,s)\) as \(\frac{m}{s}\). Addition is
-\[
-\frac{m}{s}+\frac{m'}{s'}=\frac{s'm+sm'}{ss'},
-\]
-and the scalar action of \(S^{-1}R\) is given by
-\[
-\left(\frac{r}{s}\right)\!\left(\frac{m}{t}\right)=\frac{rm}{st}.
-\]
-
-The map \(\iota_M:M\to S^{-1}M\) given by \(\iota_M(m)=\frac{m}{1}\) is \(R\)-linear.
 
 ## Universal property
 

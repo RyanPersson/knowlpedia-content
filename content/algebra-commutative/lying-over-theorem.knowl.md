@@ -6,7 +6,7 @@ summary = "In an integral extension, every prime ideal downstairs is the contrac
 aliases = ["lying-over-theorem", "Lying-over theorem"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/lying-over-theorem.md"
-prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring"]
+prerequisites = ["algebra-commutative/integral-extension", "algebra-rings/commutative-ring", "algebra-rings/prime-ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

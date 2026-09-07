@@ -12,7 +12,7 @@
       "id": "operator-algebras/natural-positive-cone",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b830d097f95d456f1b0244381a64703f349316a9740b54bd60fa53f95596b7dd",
-      "evidence": "Complete source and direct targets read: for a concrete von Neumann algebra M with a cyclic and separating vector \u03a9, Tomita polar decomposition S=J\u0394^(1/2) supplies \u0394 and J; the norm closure of {\u0394^(1/4)x\u03a9:x\u2208M_+} is the stated closed cone. The distinction from M_+ and the self-duality claims preserve the representation hypotheses.",
+      "evidence": "Complete source and direct targets read: for a concrete von Neumann algebra M with a cyclic and separating vector Ω, Tomita polar decomposition S=JΔ^(1/2) supplies Δ and J; the norm closure of {Δ^(1/4)xΩ:x∈M_+} is the stated closed cone. The distinction from M_+ and the self-duality claims preserve the representation hypotheses.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/cyclic-vector",
@@ -34,7 +34,7 @@
       "id": "operator-algebras/noncommutative-lp-space",
       "outcome": "reviewed_unchanged",
       "source_sha256": "0285e443f590d7e1125f963ada61392376512d1a8576abe47ffbe67b2b502818",
-      "evidence": "Complete source and direct targets read: Haagerup L^p uses an n.s.f. weight to form the modular crossed product N, its dual action \u03b8, the canonical trace \u03c4, and \u03c4-measurable affiliated operators; the homogeneity \u03b8_s(x)=e^{-s/p}x and 0<p<\u221e are explicit, with L\u221e(M)=M.",
+      "evidence": "Complete source and direct targets read: Haagerup L^p uses an n.s.f. weight to form the modular crossed product N, its dual action θ, the canonical trace τ, and τ-measurable affiliated operators; the homogeneity θ_s(x)=e^{-s/p}x and 0<p<∞ are explicit, with L∞(M)=M.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/normal-semifinite-faithful-weight",
@@ -58,7 +58,7 @@
       "id": "operator-algebras/nondegenerate-cstar-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e563223a91a3008a5fd57032b8df7e189b09dec08ce1238192c41d1c8fdf2882",
-      "evidence": "Complete source and direct targets read: the closure of \u03c0(A)H is H, equivalently no nonzero vector is killed by all \u03c0(a); this is a representation-space condition independent of injectivity and correctly relates to nondegenerate multiplier-valued homomorphisms.",
+      "evidence": "Complete source and direct targets read: the closure of π(A)H is H, equivalently no nonzero vector is killed by all π(a); this is a representation-space condition independent of injectivity and correctly relates to nondegenerate multiplier-valued homomorphisms.",
       "previous_prerequisites": [
         "operator-algebras/cstar-representation",
         "operator-algebras/nondegenerate-star-homomorphism"
@@ -72,7 +72,7 @@
       "id": "operator-algebras/nondegenerate-star-homomorphism",
       "outcome": "reviewed_unchanged",
       "source_sha256": "df45f96b3d35a5c5051d5b6514ff6e56583f3084d0a85ae16c226c66feb8cd6c",
-      "evidence": "Complete source and direct targets read: for \u03c6:A\u2192M(B), closure of span \u03c6(a)b=B is the nonunital definition, while \u03c0(A)H\u0304=H is the representation case; the multiplier algebra is needed for the codomain and no unitality is assumed.",
+      "evidence": "Complete source and direct targets read: for φ:A→M(B), closure of span φ(a)b=B is the nonunital definition, while π(A)H̄=H is the representation case; the multiplier algebra is needed for the codomain and no unitality is assumed.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/star-homomorphism",
@@ -88,7 +88,7 @@
       "id": "operator-algebras/normal-completely-positive-map",
       "outcome": "reviewed_unchanged",
       "source_sha256": "6f7bd1518bf83b1fcf99e8cb3de60b6a03a3fc8723628e733a18ea48f2719e1b",
-      "evidence": "Complete source and direct targets read: M,N are von Neumann algebras and \u03a6 is simultaneously completely positive (all matrix amplifications positive) and normal (ultraweak continuity, equivalently bounded increasing-net preservation); unitality and multiplicativity are correctly excluded.",
+      "evidence": "Complete source and direct targets read: M,N are von Neumann algebras and Φ is simultaneously completely positive (all matrix amplifications positive) and normal (ultraweak continuity, equivalently bounded increasing-net preservation); unitality and multiplicativity are correctly excluded.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "linear-algebra/linear-map",
@@ -108,7 +108,7 @@
       "id": "operator-algebras/normal-conditional-expectation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "4e9cad033c12bb500cb16c01c33567f09e7a88d06f9f6e70f5d48dd0d9bfba60",
-      "evidence": "Complete source and direct targets read: for unital N\u2282M, E is a conditional expectation and normal positive map, so positivity, norm-one projection onto N, N-bimodularity, and preservation of bounded increasing suprema are all stated; faithfulness is correctly not assumed.",
+      "evidence": "Complete source and direct targets read: for unital N⊂M, E is a conditional expectation and normal positive map, so positivity, norm-one projection onto N, N-bimodularity, and preservation of bounded increasing suprema are all stated; faithfulness is correctly not assumed.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/conditional-expectation",
@@ -142,7 +142,7 @@
       "id": "operator-algebras/normal-linear-map",
       "outcome": "reviewed_unchanged",
       "source_sha256": "cdc6048bbea4fc8ced403f717ccc9ef1dbe818c24c89f34c30c14adf923e1875",
-      "evidence": "Complete source and direct targets read: for von Neumann algebras M,N, ultraweak continuity is equivalent to a unique bounded preadjoint N_*\u2192M_* with the displayed pairing; this checks the topology, boundedness, and dual-direction hypotheses.",
+      "evidence": "Complete source and direct targets read: for von Neumann algebras M,N, ultraweak continuity is equivalent to a unique bounded preadjoint N_*→M_* with the displayed pairing; this checks the topology, boundedness, and dual-direction hypotheses.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/predual",
@@ -160,7 +160,7 @@
       "id": "operator-algebras/normal-positive-map",
       "outcome": "reviewed_unchanged",
       "source_sha256": "42308af00050f4bcff338f9112649cde9303604bf2fffb1ee06de79ee2ebab9c",
-      "evidence": "Complete source and direct targets read: positivity \u03a6(M_+)\u2282N_+ plus normality gives preservation of bounded increasing positive suprema; no unitality, faithfulness, or complete positivity is silently added, and boundedness follows from the unital domain.",
+      "evidence": "Complete source and direct targets read: positivity Φ(M_+)⊂N_+ plus normality gives preservation of bounded increasing positive suprema; no unitality, faithfulness, or complete positivity is silently added, and boundedness follows from the unital domain.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/positive-linear-map",
@@ -176,7 +176,7 @@
       "id": "operator-algebras/normal-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "7d3057d0840545c101c4458d09f8fae5ff0109254d352db602833aa2c2eed893",
-      "evidence": "Complete source and direct targets read: a representation M\u2192B(H) of a von Neumann algebra is normal precisely as a normal star-homomorphism, i.e. ultraweakly continuous; the optional nondegeneracy/unitality convention is clearly separated.",
+      "evidence": "Complete source and direct targets read: a representation M→B(H) of a von Neumann algebra is normal precisely as a normal star-homomorphism, i.e. ultraweakly continuous; the optional nondegeneracy/unitality convention is clearly separated.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "linear-algebra/hilbert-space",
@@ -216,7 +216,7 @@
       "id": "operator-algebras/normal-star-homomorphism",
       "outcome": "reviewed_unchanged",
       "source_sha256": "99843e19d0b43011d202b1919dd5aa16267d31369f39b4479efd65eaa85a3ba0",
-      "evidence": "Complete source and direct targets read: for von Neumann algebras, a star-homomorphism is normal as a linear map exactly when it has the bounded preadjoint \u03c9\u21a6\u03c9\u2218\u03c0; unitality and injectivity are correctly independent.",
+      "evidence": "Complete source and direct targets read: for von Neumann algebras, a star-homomorphism is normal as a linear map exactly when it has the bounded preadjoint ω↦ω∘π; unitality and injectivity are correctly independent.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/star-homomorphism",
@@ -252,7 +252,7 @@
       "id": "operator-algebras/normal-unital-completely-positive-map",
       "outcome": "reviewed_unchanged",
       "source_sha256": "73ae2457705b1371e0830394fbc4eec83cc58c7bdf568d484ee49db2423eb733",
-      "evidence": "Complete source and direct targets read: for unital von Neumann algebras, normal UCP means ultraweak continuity, complete positivity, and \u03a6(1)=1; the three conditions and the nonmultiplicative possibility are correctly distinguished.",
+      "evidence": "Complete source and direct targets read: for unital von Neumann algebras, normal UCP means ultraweak continuity, complete positivity, and Φ(1)=1; the three conditions and the nonmultiplicative possibility are correctly distinguished.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "linear-algebra/linear-map",
@@ -328,7 +328,7 @@
       "id": "operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability",
       "outcome": "reviewed_unchanged",
       "source_sha256": "1c65a877a70f290129889c25d4c51bc89227ea155a207e088f8fd7194b77f757",
-      "evidence": "Complete source and direct targets read: for a discrete group \u0393, Lance\u2019s equivalence uses invariant-mean amenability and the reduced algebra generated by the left regular representation; the discrete hypothesis and nuclearity/tensor-norm meaning are explicit.",
+      "evidence": "Complete source and direct targets read: for a discrete group Γ, Lance’s equivalence uses invariant-mean amenability and the reduced algebra generated by the left regular representation; the discrete hypothesis and nuclearity/tensor-norm meaning are explicit.",
       "previous_prerequisites": [
         "harmonic-analysis/invariant-mean",
         "operator-algebras/reduced-group-cstar-algebra",
@@ -362,7 +362,7 @@
       "id": "operator-algebras/operator-valued-weight",
       "outcome": "reviewed_unchanged",
       "source_sha256": "aa90e88d0a024ca22abff19f55b282a03570e8084a39bc4d9be33128bd031fed",
-      "evidence": "Complete source and targets read: for unital von Neumann N\u2282M, T maps M_+ into the extended positive cone of N and satisfies additivity, positive homogeneity, and positive N-bimodularity; extended or infinite values are allowed and normality/faithfulness/semifiniteness are not assumed.",
+      "evidence": "Complete source and targets read: for unital von Neumann N⊂M, T maps M_+ into the extended positive cone of N and satisfies additivity, positive homogeneity, and positive N-bimodularity; extended or infinite values are allowed and normality/faithfulness/semifiniteness are not assumed.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/extended-positive-cone"
@@ -406,7 +406,7 @@
       "id": "operator-algebras/order-zero-map",
       "outcome": "reviewed_unchanged",
       "source_sha256": "451a147dde5cca06285bb5bfd78f5da429a859e38893125e0e17e59d80b351e0",
-      "evidence": "Complete source and targets read: a completely positive map A\u2192B is order zero exactly when orthogonal positive a,b (ab=0) map to orthogonal positives; contractivity and multiplicativity are correctly excluded.",
+      "evidence": "Complete source and targets read: a completely positive map A→B is order zero exactly when orthogonal positive a,b (ab=0) map to orthogonal positives; contractivity and multiplicativity are correctly excluded.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/completely-positive-map"
@@ -468,7 +468,7 @@
       "id": "operator-algebras/positive-linear-functional",
       "outcome": "reviewed_unchanged",
       "source_sha256": "33b7a0de32c6c57f20caad45cb7ea74322a033530fb3315beafb2b6b78d5700b",
-      "evidence": "Complete source and targets read: a complex-linear functional is positive on A_+ (equivalently b*b), which yields *-preservation and boundedness; norm equals \u03c6(1) only in the unital case, and state normalization is separate.",
+      "evidence": "Complete source and targets read: a complex-linear functional is positive on A_+ (equivalently b*b), which yields *-preservation and boundedness; norm equals φ(1) only in the unital case, and state normalization is separate.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/positive-cone"
@@ -482,7 +482,7 @@
       "id": "operator-algebras/positive-linear-map",
       "outcome": "reviewed_unchanged",
       "source_sha256": "ffdacc587faf4c5993ebcb86f3bdabf7fc2583b9551cb70cf5eb74cfcaed44d4",
-      "evidence": "Complete source and targets read: positivity maps A_+ into B_+, forces *-preservation, and for unital A gives bounded norm ||\u03a6(1)||; matrix-level positivity and multiplicativity are correctly not assumed.",
+      "evidence": "Complete source and targets read: positivity maps A_+ into B_+, forces *-preservation, and for unital A gives bounded norm ||Φ(1)||; matrix-level positivity and multiplicativity are correctly not assumed.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/positive-cone",
@@ -498,7 +498,7 @@
       "id": "operator-algebras/positive-negative-parts",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a2631e82d4117a7086a1a4ffa507ca9ddb2007cb9860218d4e65ff6c6cae54a3",
-      "evidence": "Complete source and targets read: for self-adjoint a, |a|=(a\u00b2)^(1/2) yields positive a_+,a_- with a=a_+\u2212a_-, orthogonality, and uniqueness in C*(a); the square-root and self-adjoint inputs are sufficient.",
+      "evidence": "Complete source and targets read: for self-adjoint a, |a|=(a²)^(1/2) yields positive a_+,a_- with a=a_+−a_-, orthogonality, and uniqueness in C*(a); the square-root and self-adjoint inputs are sufficient.",
       "previous_prerequisites": [
         "operator-algebras/self-adjoint-element",
         "operator-algebras/cstar-algebra"
@@ -528,7 +528,7 @@
       "id": "operator-algebras/predual",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a9e95787487b0498e6ca1f3f0b62d175b3a2dd74109095ce00c7d1462b0abf8a",
-      "evidence": "Complete source and targets read: M_* is the Banach space of ultraweakly continuous functionals with M=(M_*)*, and \u03c3(M,M_*) is the ultraweak topology; the concrete trace-class realization is correctly deferred to a later section.",
+      "evidence": "Complete source and targets read: M_* is the Banach space of ultraweakly continuous functionals with M=(M_*)*, and σ(M,M_*) is the ultraweak topology; the concrete trace-class realization is correctly deferred to a later section.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "linear-algebra/banach-space",
@@ -546,7 +546,7 @@
       "id": "operator-algebras/primitive-ideal",
       "outcome": "reviewed_unchanged",
       "source_sha256": "fe351f099647e37f5f4fb0bfb4e655b4e72fd6050c0ad8ff7a722dec558b27bd",
-      "evidence": "Complete source and targets read: a primitive ideal is a proper closed two-sided ideal equal to ker \u03c0 for a nonzero irreducible C*-representation; the quotient and pure-state consequences preserve the faithfulness distinction.",
+      "evidence": "Complete source and targets read: a primitive ideal is a proper closed two-sided ideal equal to ker π for a nonzero irreducible C*-representation; the quotient and pure-state consequences preserve the faithfulness distinction.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/closed-two-sided-ideal",
@@ -578,7 +578,7 @@
       "id": "operator-algebras/projection-cstar-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "77b97c4a0e50753cef213c29636d139800e5a1b3c214a39839cf092fdefd7f64",
-      "evidence": "Complete source and targets read: a projection is p=p*=p\u00b2 in any unital or nonunital C*-algebra; zero is allowed, while representation, spectral, and Murray\u2013von Neumann facts are clearly consequences.",
+      "evidence": "Complete source and targets read: a projection is p=p*=p² in any unital or nonunital C*-algebra; zero is allowed, while representation, spectral, and Murray–von Neumann facts are clearly consequences.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "algebra-rings/idempotent-element"
@@ -592,7 +592,7 @@
       "id": "operator-algebras/properly-infinite-projection",
       "outcome": "corrected",
       "source_sha256": "b64eedbdfd9ea742188d62c5f4979c3d5959eb258e3ce00e376d085b8dab865e",
-      "evidence": "Complete source and targets read: after correcting the missing p\u22600 hypothesis, two orthogonal subprojections each Murray\u2013von Neumann equivalent to p define proper infiniteness and imply infiniteness; the converse is properly restricted.",
+      "evidence": "Complete source and targets read: after correcting the missing p≠0 hypothesis, two orthogonal subprojections each Murray–von Neumann equivalent to p define proper infiniteness and imply infiniteness; the converse is properly restricted.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "linear-algebra/orthogonal-projection",
@@ -678,7 +678,7 @@
       "id": "operator-algebras/quasicentral-approximate-identity",
       "outcome": "reviewed_unchanged",
       "source_sha256": "02ebe33db267860a23f1a776b77e22edf3395a15455a588ead2791f6c41e0f8b",
-      "evidence": "For a closed ideal I in C*-algebra A, the core requires a positive contractive approximate identity for I and norm commutation with every a\u2208A; the ambient-algebra dependence is explicit.",
+      "evidence": "For a closed ideal I in C*-algebra A, the core requires a positive contractive approximate identity for I and norm commutation with every a∈A; the ambient-algebra dependence is explicit.",
       "previous_prerequisites": [
         "operator-algebras/closed-two-sided-ideal",
         "operator-algebras/cstar-algebra",
@@ -708,7 +708,7 @@
       "id": "operator-algebras/reduced-crossed-product",
       "outcome": "reviewed_unchanged",
       "source_sha256": "db3b0122d94f1aaa9804fd2e22dfe23e6b31456d22473f41ea9f9a94a02d65be",
-      "evidence": "The reduced crossed product uses a C*-dynamical system, faithful nondegenerate \u03c0, and its regular covariant representation on L\u00b2(G,H); norm completion and independence of \u03c0 are stated.",
+      "evidence": "The reduced crossed product uses a C*-dynamical system, faithful nondegenerate π, and its regular covariant representation on L²(G,H); norm completion and independence of π are stated.",
       "previous_prerequisites": [
         "operator-algebras/cstar-dynamical-system",
         "operator-algebras/nondegenerate-star-homomorphism",
@@ -724,7 +724,7 @@
       "id": "operator-algebras/reduced-group-cstar-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "9544d579194f5afd84097ecf66a67c088613577942cc524c8457b2c09c4ba2ee",
-      "evidence": "For locally compact G, the left regular representation integrates L\u00b9(G) and its operator-norm closure defines C*r(G); the reduced norm and kernel quotient are correctly distinguished.",
+      "evidence": "For locally compact G, the left regular representation integrates L¹(G) and its operator-norm closure defines C*r(G); the reduced norm and kernel quotient are correctly distinguished.",
       "previous_prerequisites": [
         "topology/locally-compact-group",
         "harmonic-analysis/regular-representations-locally-compact-group",
@@ -742,7 +742,7 @@
       "id": "operator-algebras/regular-covariant-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "50bdded48fd6a47c808f72bcb75e14a8728586c5a7f09bc76762c6e7e2233f0a",
-      "evidence": "The formulas on L\u00b2(G,H) use \u03b1_{s\u22121}, left Haar measure, and left translations; the covariance identity and faithfulness condition for the reduced norm have the correct conventions.",
+      "evidence": "The formulas on L²(G,H) use α_{s−1}, left Haar measure, and left translations; the covariance identity and faithfulness condition for the reduced norm have the correct conventions.",
       "previous_prerequisites": [
         "operator-algebras/cstar-dynamical-system",
         "operator-algebras/nondegenerate-star-homomorphism",
@@ -774,7 +774,7 @@
       "id": "operator-algebras/rieffel-induction",
       "outcome": "reviewed_unchanged",
       "source_sha256": "69a93eb131408d7c394cfd0904a496696edd29a54416f683b2aa6ede9b93d541",
-      "evidence": "Given a C*-correspondence and nondegenerate \u03c0 of B, the induced A-action on E\u2297\u03c0H is well defined through balancing, quotient completion, and adjointable left action.",
+      "evidence": "Given a C*-correspondence and nondegenerate π of B, the induced A-action on E⊗πH is well defined through balancing, quotient completion, and adjointable left action.",
       "previous_prerequisites": [
         "operator-algebras/cstar-correspondence",
         "operator-algebras/nondegenerate-cstar-representation",
@@ -792,7 +792,7 @@
       "id": "operator-algebras/sakai-characterization-theorem",
       "outcome": "reviewed_unchanged",
       "source_sha256": "aeae88f3f332573cf50fa45501718eedd540fab5a3866aa17146c181cab4ef70",
-      "evidence": "Sakai\u2019s equivalence is stated for a C*-algebra being a Banach dual, yielding its canonical predual and faithful normal concrete representation; the W*-algebra conclusion has the necessary dual-space hypothesis.",
+      "evidence": "Sakai’s equivalence is stated for a C*-algebra being a Banach dual, yielding its canonical predual and faithful normal concrete representation; the W*-algebra conclusion has the necessary dual-space hypothesis.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "linear-algebra/banach-space",
@@ -812,7 +812,7 @@
       "id": "operator-algebras/section-algebra-cstar-bundle",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e8d333875bbf759f7a6e483068076d8e436d9cfb72996d82ed612f47892c27c3",
-      "evidence": "For an upper-semicontinuous C*-bundle over locally compact Hausdorff X, \u0393\u2080 consists of continuous sections vanishing at infinity; pointwise operations and sup norm give a complete C*-algebra.",
+      "evidence": "For an upper-semicontinuous C*-bundle over locally compact Hausdorff X, Γ₀ consists of continuous sections vanishing at infinity; pointwise operations and sup norm give a complete C*-algebra.",
       "previous_prerequisites": [
         "operator-algebras/upper-semicontinuous-cstar-bundle",
         "topology/locally-compact-space",
@@ -872,7 +872,7 @@
       "id": "operator-algebras/separating-vector",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5d311adf5f44659eea7ba336438c999c6d7f3bc08a66d171d150c60e4d0dfba7",
-      "evidence": "For M\u2282B(H), \u03be is separating exactly when x\u03be=0 implies x=0; the injective evaluation-map formulation and distinction from representation faithfulness are correct.",
+      "evidence": "For M⊂B(H), ξ is separating exactly when xξ=0 implies x=0; the injective evaluation-map formulation and distinction from representation faithfulness are correct.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "linear-algebra/hilbert-space",
@@ -888,7 +888,7 @@
       "id": "operator-algebras/sigma-unital-cstar-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "27977ce550fc02d8b748eb28016421bc925b7dd18b8a05672074bc832b91d625",
-      "evidence": "\u03c3-unitality is correctly the existence of a sequential positive contractive approximate identity converging on both sides, with no topology conflation.",
+      "evidence": "σ-unitality is correctly the existence of a sequential positive contractive approximate identity converging on both sides, with no topology conflation.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/approximate-identity"
@@ -920,7 +920,7 @@
       "id": "operator-algebras/spatial-derivative",
       "outcome": "reviewed_unchanged",
       "source_sha256": "d895ef483ea0c6d67e9d74176af2b5bfd87d99e983facc57b8ed29eaa16cca52",
-      "evidence": "The spatial derivative core supplies M, a normal semifinite \u03c6, an n.s.f. \u03a8 on M\u2032, \u03a8-bounded vectors, the closed quadratic form, and the unique positive self-adjoint operator representing it.",
+      "evidence": "The spatial derivative core supplies M, a normal semifinite φ, an n.s.f. Ψ on M′, Ψ-bounded vectors, the closed quadratic form, and the unique positive self-adjoint operator representing it.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/semifinite-weight",
@@ -956,7 +956,7 @@
       "id": "operator-algebras/spectral-permanence",
       "outcome": "reviewed_unchanged",
       "source_sha256": "175b3a2ea6acc336fc4ecbacf400ad1a4023086e8bcf74c53aa32f1c1cf16588",
-      "evidence": "For a same-unit unital C*-subalgebra B\u2282A, spectra and inverses agree; compatible unitizations correctly handle nonunital inclusions.",
+      "evidence": "For a same-unit unital C*-subalgebra B⊂A, spectra and inverses agree; compatible unitizations correctly handle nonunital inclusions.",
       "previous_prerequisites": [
         "operator-algebras/cstar-subalgebra",
         "functional-analysis/banach-algebra-spectrum"
@@ -970,7 +970,7 @@
       "id": "operator-algebras/standard-form",
       "outcome": "reviewed_unchanged",
       "source_sha256": "46ddf19d587e761fec0b08ea6e8263691736dc863b6102b1b8be390ad5226dad",
-      "evidence": "The standard-form core includes faithful nondegenerate M\u2282B(H), antiunitary involution J, closed self-dual cone P, commutant relation, fixed-cone and positivity conditions, and the center relation.",
+      "evidence": "The standard-form core includes faithful nondegenerate M⊂B(H), antiunitary involution J, closed self-dual cone P, commutant relation, fixed-cone and positivity conditions, and the center relation.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/natural-positive-cone",
@@ -1002,7 +1002,7 @@
       "id": "operator-algebras/standard-hilbert-cstar-module",
       "outcome": "reviewed_unchanged",
       "source_sha256": "1725d29010e5899ebe25d67d331b389618d5ba76b95bc2af97211df53f40d19e",
-      "evidence": "The standard module \u2113\u00b2(A) is defined by norm convergence of positive partial sums, with norm-convergent A-valued inner product and completion of finitely supported sequences.",
+      "evidence": "The standard module ℓ²(A) is defined by norm convergence of positive partial sums, with norm-convergent A-valued inner product and completion of finitely supported sequences.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "real-analysis/partial-sums",
@@ -1018,7 +1018,7 @@
       "id": "operator-algebras/star-automorphism",
       "outcome": "reviewed_unchanged",
       "source_sha256": "c9833a6bb78debaf1dca5020a153df79271662fea40bd33379092e4d91cf5e78",
-      "evidence": "A *-automorphism is a bijective complex-linear multiplicative *-map A\u2192A; inverse and composition properties are included, while external continuity is not assumed.",
+      "evidence": "A *-automorphism is a bijective complex-linear multiplicative *-map A→A; inverse and composition properties are included, while external continuity is not assumed.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/star-isomorphism"
@@ -1058,7 +1058,7 @@
       "id": "operator-algebras/state-cstar-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a6975701660b3120f3882bc41bbdce83b630ace9418040588f9ee6d4edd1a16e",
-      "evidence": "A state is a norm-one positive functional, with \u03c6(1)=1 only in the unital case; the core correctly separates general C*-states from normal states on von Neumann algebras.",
+      "evidence": "A state is a norm-one positive functional, with φ(1)=1 only in the unital case; the core correctly separates general C*-states from normal states on von Neumann algebras.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/positive-linear-functional"
@@ -1072,7 +1072,7 @@
       "id": "operator-algebras/state-space",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b884c925dcf04b4fb3cc052fa503f429f6a0c3d7038c8dcdfa5e7324cefc449c",
-      "evidence": "The state space is the positive norm-one functionals with weak-* topology; compactness is correctly limited to unital A and the nonunital norm\u22641 compact set is identified.",
+      "evidence": "The state space is the positive norm-one functionals with weak-* topology; compactness is correctly limited to unital A and the nonunital norm≤1 compact set is identified.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/state-cstar-algebra",
@@ -1106,7 +1106,7 @@
       "id": "operator-algebras/stinespring-dilation-theorem",
       "outcome": "reviewed_unchanged",
       "source_sha256": "3cbc478fda8c8d72b64215971f93abf0f22e40d10dff873e9d17c3425ed10f98",
-      "evidence": "For unital A and CP \u03a6:A\u2192B(H), the core supplies K, unital \u03c0, bounded V, \u03a6(a)=V*\u03c0(a)V, minimal uniqueness, and the UCP isometry consequence.",
+      "evidence": "For unital A and CP Φ:A→B(H), the core supplies K, unital π, bounded V, Φ(a)=V*π(a)V, minimal uniqueness, and the UCP isometry consequence.",
       "previous_prerequisites": [
         "linear-algebra/hilbert-space",
         "operator-algebras/completely-positive-map",
@@ -1156,7 +1156,7 @@
       "id": "operator-algebras/strong-morita-equivalence",
       "outcome": "reviewed_unchanged",
       "source_sha256": "43300676289ad70ed78d53de79411d68db042ad3d928d0e9fbfdfe852b33ddf6",
-      "evidence": "Strong Morita equivalence is exactly existence of an A\u2013B imprimitivity bimodule, with both C*-algebras and the bimodule as required inputs.",
+      "evidence": "Strong Morita equivalence is exactly existence of an A–B imprimitivity bimodule, with both C*-algebras and the bimodule as required inputs.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/imprimitivity-bimodule"
@@ -1170,7 +1170,7 @@
       "id": "operator-algebras/strong-operator-topology",
       "outcome": "reviewed_unchanged",
       "source_sha256": "614915a21377cb5d2007215d3fea6dfc1160f1863038d0bfd3a5cadc702cc75e",
-      "evidence": "SOT on B(H) is generated by p\u03be(T)=||T\u03be||, so nets converge pointwise in norm; the finite-neighborhood and comparison statements use the correct topology.",
+      "evidence": "SOT on B(H) is generated by pξ(T)=||Tξ||, so nets converge pointwise in norm; the finite-neighborhood and comparison statements use the correct topology.",
       "previous_prerequisites": [
         "linear-algebra/hilbert-space",
         "operator-algebras/bounded-operator-cstar-algebra",
@@ -1186,7 +1186,7 @@
       "id": "operator-algebras/strong-star-operator-topology",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a8181efd773b4e3d273d34ad243380dd6806548cb350d7fa070cabf2fee9ae20",
-      "evidence": "Strong-* topology uses simultaneous norm control of T\u03be and T*\u03be on Hilbert space; inheritance by von Neumann subalgebras and refinement of SOT are correct.",
+      "evidence": "Strong-* topology uses simultaneous norm control of Tξ and T*ξ on Hilbert space; inheritance by von Neumann subalgebras and refinement of SOT are correct.",
       "previous_prerequisites": [
         "linear-algebra/hilbert-space",
         "operator-algebras/bounded-operator-cstar-algebra",
@@ -1204,7 +1204,7 @@
       "id": "operator-algebras/support-projection-of-functional",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b343059e73434343e0709ff5d0edc1783f51a3f4947bcd77344b183a50d2e931",
-      "evidence": "For a positive normal functional on M, the least projection with \u03c6(p)=\u03c6(1) equals one minus the supremum of zero projections; s(0)=0 and corner faithfulness are correctly scoped.",
+      "evidence": "For a positive normal functional on M, the least projection with φ(p)=φ(1) equals one minus the supremum of zero projections; s(0)=0 and corner faithfulness are correctly scoped.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/normal-functional",
@@ -1220,7 +1220,7 @@
       "id": "operator-algebras/takai-duality",
       "outcome": "corrected",
       "source_sha256": "93cc6b1ee71732062ab54c5432adea2d6f9fd2ccdc199b99b33e92616674bb5b",
-      "evidence": "For a locally compact abelian G acting on A, double crossed product by the dual action is canonically A\u2297K(L\u00b2(G)); the corrected group target and stabilization caveat match the theorem.",
+      "evidence": "For a locally compact abelian G acting on A, double crossed product by the dual action is canonically A⊗K(L²(G)); the corrected group target and stabilization caveat match the theorem.",
       "previous_prerequisites": [
         "operator-algebras/cstar-dynamical-system",
         "operator-algebras/dual-action-crossed-product",
@@ -1236,7 +1236,7 @@
       "id": "operator-algebras/tau-compact-operator",
       "outcome": "reviewed_unchanged",
       "source_sha256": "3bfdbb76c7196ce1c6030e26431e306b8d59d072831e6533243119a5d6cefac4",
-      "evidence": "For a semifinite M with faithful normal semifinite \u03c4, \u03c4-compact operators are the norm-closed ideal generated by finite-\u03c4 projection corners; dependence on \u03c4 is explicit.",
+      "evidence": "For a semifinite M with faithful normal semifinite τ, τ-compact operators are the norm-closed ideal generated by finite-τ projection corners; dependence on τ is explicit.",
       "previous_prerequisites": [
         "operator-algebras/semifinite-von-neumann-algebra",
         "operator-algebras/faithful-normal-semifinite-trace",
@@ -1252,7 +1252,7 @@
       "id": "operator-algebras/tau-measurable-operator",
       "outcome": "reviewed_unchanged",
       "source_sha256": "866850816d27e7024a000bb80b09fd870bf08e921db7e116376b0923a269d5ea",
-      "evidence": "A closed densely defined operator affiliated with M is \u03c4-measurable when its domain contains projections e with \u03c4(1\u2212e)<\u03b5; the trace and affiliation hypotheses are explicit.",
+      "evidence": "A closed densely defined operator affiliated with M is τ-measurable when its domain contains projections e with τ(1−e)<ε; the trace and affiliation hypotheses are explicit.",
       "previous_prerequisites": [
         "operator-algebras/faithful-normal-semifinite-trace",
         "operator-algebras/affiliated-operator"
@@ -1266,7 +1266,7 @@
       "id": "operator-algebras/toeplitz-pimsner-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "62c027186e25653062465225c0a6f2d1b5444214d37fa681e56319c4d80d637a",
-      "evidence": "The Toeplitz\u2013Pimsner algebra is universal for Toeplitz representations of a C*-correspondence, with the unique induced homomorphism and no Cuntz\u2013Pimsner covariance imposed.",
+      "evidence": "The Toeplitz–Pimsner algebra is universal for Toeplitz representations of a C*-correspondence, with the unique induced homomorphism and no Cuntz–Pimsner covariance imposed.",
       "previous_prerequisites": [
         "operator-algebras/cstar-correspondence",
         "operator-algebras/universal-cstar-algebra",
@@ -1298,7 +1298,7 @@
       "id": "operator-algebras/tomita-operator",
       "outcome": "reviewed_unchanged",
       "source_sha256": "51db70b50018773d4c1c14d9d207eb1a5c3b481cfa7b4dce4bc8f0cc9189fda6",
-      "evidence": "For cyclic-separating \u03a9, S\u2080(x\u03a9)=x*\u03a9 is well defined on dense M\u03a9, closable, and its closure is the closed Tomita operator; both vector hypotheses are used.",
+      "evidence": "For cyclic-separating Ω, S₀(xΩ)=x*Ω is well defined on dense MΩ, closable, and its closure is the closed Tomita operator; both vector hypotheses are used.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/cyclic-vector",
@@ -1314,7 +1314,7 @@
       "id": "operator-algebras/tomita-takesaki-theorem",
       "outcome": "reviewed_unchanged",
       "source_sha256": "7bf71dfadbdc6e60b7aa6e300474bf0aa85f3ee48fa8cc6a813428c37e33d570",
-      "evidence": "The cyclic-separating representation supplies Tomita S and its polar factors J,\u0394; the theorem\u2019s commutant equality and modular invariance are stated for all real t, with strong continuity.",
+      "evidence": "The cyclic-separating representation supplies Tomita S and its polar factors J,Δ; the theorem’s commutant equality and modular invariance are stated for all real t, with strong continuity.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/cyclic-vector",
@@ -1338,7 +1338,7 @@
       "id": "operator-algebras/trace-cstar-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "85aecea9cd0f4382b084f5706c0df79ab61b9ed41fd8888aff80109a3c99a573",
-      "evidence": "A bounded positive functional \u03c4 on a C*-algebra is tracial exactly when \u03c4(ab)=\u03c4(ba); norm-one gives a tracial state, while extended tracial weights are explicitly separated.",
+      "evidence": "A bounded positive functional τ on a C*-algebra is tracial exactly when τ(ab)=τ(ba); norm-one gives a tracial state, while extended tracial weights are explicitly separated.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/positive-linear-functional",
@@ -1354,7 +1354,7 @@
       "id": "operator-algebras/tracial-noncommutative-lp-space",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e52be90121993c8ab9fbcf63f83a30e377480d1eccfd3bdd77b0595f189c0b9b",
-      "evidence": "For an n.s.f. trace \u03c4 and 0<p<\u221e, \u03c4-measurable affiliated operators with finite \u03c4(|x|^p) form Lp; the p-norm/quasinorm and L\u221e convention have correct completeness ranges.",
+      "evidence": "For an n.s.f. trace τ and 0<p<∞, τ-measurable affiliated operators with finite τ(|x|^p) form Lp; the p-norm/quasinorm and L∞ convention have correct completeness ranges.",
       "previous_prerequisites": [
         "operator-algebras/faithful-normal-semifinite-trace",
         "operator-algebras/tau-measurable-operator",
@@ -1386,7 +1386,7 @@
       "id": "operator-algebras/tracial-weight",
       "outcome": "reviewed_unchanged",
       "source_sha256": "4eb6733f692126078a4f32f82f48d8bab6ac1ffa53bd0625fc7677c85b303421",
-      "evidence": "A weight on M_+ is tracial when \u03c4(x*x)=\u03c4(xx*) in extended reals; normality, semifiniteness, faithfulness, and finiteness are correctly left independent.",
+      "evidence": "A weight on M_+ is tracial when τ(x*x)=τ(xx*) in extended reals; normality, semifiniteness, faithfulness, and finiteness are correctly left independent.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/weight-on-von-neumann-algebra"
@@ -1400,7 +1400,7 @@
       "id": "operator-algebras/transformation-group-cstar-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "17688eec66c883f03b4f451fdeab55a0c3b6a2a20268e40298d07784d1febb7c",
-      "evidence": "For locally compact Hausdorff X and locally compact G acting continuously, \u03b1_s(f)(x)=f(s\u207b\u00b9x) defines the transformation crossed product; full and reduced versions are distinguished.",
+      "evidence": "For locally compact Hausdorff X and locally compact G acting continuously, α_s(f)(x)=f(s⁻¹x) defines the transformation crossed product; full and reduced versions are distinguished.",
       "previous_prerequisites": [
         "topology/locally-compact-space",
         "topology/locally-compact-group",
@@ -1434,7 +1434,7 @@
       "id": "operator-algebras/type-i-composition-series",
       "outcome": "reviewed_unchanged",
       "source_sha256": "ae703e6947ab660a67afcc195d00ca2bd7331ebe1ae0a6dc06bf9bc104b92711",
-      "evidence": "The definition gives an ordinal filtration by closed ideals, closure at limits, strict successors, and continuous-trace subquotients; it does not assume finite Jordan\u2013H\u00f6lder length.",
+      "evidence": "The definition gives an ordinal filtration by closed ideals, closure at limits, strict successors, and continuous-trace subquotients; it does not assume finite Jordan–Hölder length.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/closed-two-sided-ideal",
@@ -1450,7 +1450,7 @@
       "id": "operator-algebras/type-i-cstar-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "ece6d03fc9bd4a4ca715efb38e386a7918ec2ad31441b48ed9b68174e0f29086",
-      "evidence": "The GCR/type-I condition is correctly stated for every irreducible representation by containment of K(H\u03c0) in \u03c0(A), including nonunital algebras and distinguishing von Neumann type I.",
+      "evidence": "The GCR/type-I condition is correctly stated for every irreducible representation by containment of K(Hπ) in π(A), including nonunital algebras and distinguishing von Neumann type I.",
       "previous_prerequisites": [
         "operator-algebras/irreducible-cstar-representation",
         "operator-algebras/compact-operator-cstar-algebra",
@@ -1484,7 +1484,7 @@
       "id": "operator-algebras/type-i-factor-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "14108f3e63b56e35fdf3baeb8e25a35075894c4253293639194082be0bda6071",
-      "evidence": "A nondegenerate C*-representation is type-I-factor when \u03c0(A)\u2032\u2032 is both a von Neumann type-I algebra and a factor; the bicommutant supplies the generated algebra.",
+      "evidence": "A nondegenerate C*-representation is type-I-factor when π(A)′′ is both a von Neumann type-I algebra and a factor; the bicommutant supplies the generated algebra.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "operator-algebras/cstar-representation",
@@ -1520,7 +1520,7 @@
       "id": "operator-algebras/type-i-infinity-factor",
       "outcome": "reviewed_unchanged",
       "source_sha256": "84f7ec0748165e00ecca5ecff5d81bbe92822d6e91fb51a53c8cc7e9b2ffaa38",
-      "evidence": "The I\u221e factor is B(H) for infinite-dimensional H, equivalently identity infinite or infinitely many equivalent minimal projections; arbitrary infinite cardinal dimension is retained.",
+      "evidence": "The I∞ factor is B(H) for infinite-dimensional H, equivalently identity infinite or infinitely many equivalent minimal projections; arbitrary infinite cardinal dimension is retained.",
       "previous_prerequisites": [
         "operator-algebras/type-i-factor",
         "linear-algebra/hilbert-space",
@@ -1538,7 +1538,7 @@
       "id": "operator-algebras/type-i-n-factor",
       "outcome": "reviewed_unchanged",
       "source_sha256": "81bf6b344ace8cead547154a13d3951a72226374a2da70a71763d136eedecd84",
-      "evidence": "For integer n\u22651, I_n is a type-I factor isomorphic to M_n(C), equivalently having n equivalent minimal projections; finiteness and matrix dimension are correctly separated.",
+      "evidence": "For integer n≥1, I_n is a type-I factor isomorphic to M_n(C), equivalently having n equivalent minimal projections; finiteness and matrix dimension are correctly separated.",
       "previous_prerequisites": [
         "operator-algebras/type-i-factor",
         "operator-algebras/minimal-projection",
@@ -1572,7 +1572,7 @@
       "id": "operator-algebras/type-ii-infinity-factor",
       "outcome": "reviewed_unchanged",
       "source_sha256": "89840ba3d6439c1abf5badc1cb0aba08cdddf9dfa10995fe825d6171602bf5a7",
-      "evidence": "A II\u221e factor combines factoriality, type II, and infinite identity; the finite-projection supply and semifinite trace distinguish it from type III and II\u2081.",
+      "evidence": "A II∞ factor combines factoriality, type II, and infinite identity; the finite-projection supply and semifinite trace distinguish it from type III and II₁.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-factor",
         "operator-algebras/type-ii-von-neumann-algebra"
@@ -1586,7 +1586,7 @@
       "id": "operator-algebras/type-ii-one-factor",
       "outcome": "reviewed_unchanged",
       "source_sha256": "2f2241eb97e7c1b0277a7b5198f79835fb71b882804fe2e5142819c5d83cf603",
-      "evidence": "A II\u2081 factor is type II with finite identity, equivalently finite with trivial center; the exclusion of finite-dimensional matrix factors and normalized trace are correct.",
+      "evidence": "A II₁ factor is type II with finite identity, equivalently finite with trivial center; the exclusion of finite-dimensional matrix factors and normalized trace are correct.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-factor",
         "operator-algebras/type-ii-von-neumann-algebra",
@@ -1634,7 +1634,7 @@
       "id": "operator-algebras/ultrastrong-star-topology",
       "outcome": "reviewed_unchanged",
       "source_sha256": "0d543ed4e6b269a4074492e0b46ecb69e178f18ec5e3cfc079b1ec162e50effd",
-      "evidence": "The \u03c3-strong-* topology is generated by positive normal-functional seminorms involving x*x and xx*, equivalently simultaneous ultrastrong convergence of x and x*.",
+      "evidence": "The σ-strong-* topology is generated by positive normal-functional seminorms involving x*x and xx*, equivalently simultaneous ultrastrong convergence of x and x*.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/normal-functional",
@@ -1650,7 +1650,7 @@
       "id": "operator-algebras/ultrastrong-topology",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f369720ef7a9e708e39e423f77f90d7ac8f881e122bb745b16f3736e741fd41d",
-      "evidence": "The \u03c3-strong topology on B(H) uses square-summable Hilbert-space sequences in the displayed \u2113\u00b2 seminorm; restriction to concrete von Neumann algebras is correctly described.",
+      "evidence": "The σ-strong topology on B(H) uses square-summable Hilbert-space sequences in the displayed ℓ² seminorm; restriction to concrete von Neumann algebras is correctly described.",
       "previous_prerequisites": [
         "linear-algebra/hilbert-space",
         "operator-algebras/bounded-operator-cstar-algebra",
@@ -1668,7 +1668,7 @@
       "id": "operator-algebras/unique-predual-theorem",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e0505e962acaccd63e2a9bd9ea32fdbff4d6b6fbd639885142b318b9c464892e",
-      "evidence": "For a von Neumann algebra, any Banach predual realizing it as a dual identifies isometrically with M_*; hence the weak-* topology \u03c3(M,M*) is intrinsic.",
+      "evidence": "For a von Neumann algebra, any Banach predual realizing it as a dual identifies isometrically with M_*; hence the weak-* topology σ(M,M*) is intrinsic.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/predual",
@@ -1758,7 +1758,7 @@
       "id": "operator-algebras/unitization",
       "outcome": "reviewed_unchanged",
       "source_sha256": "390c2eccdfb0944c76ea4d34b2a1a5402514c98271a69a328d16a552bc50b310",
-      "evidence": "For nonunital A, A\u2295C with the displayed operations and canonical C*-norm is the minimal unitization; A is an essential ideal and the universal unital extension property is correct.",
+      "evidence": "For nonunital A, A⊕C with the displayed operations and canonical C*-norm is the minimal unitization; A is an essential ideal and the universal unital extension property is correct.",
       "previous_prerequisites": [
         "operator-algebras/cstar-algebra",
         "linear-algebra/vector-space"
@@ -1822,7 +1822,7 @@
       "id": "operator-algebras/vector-functional",
       "outcome": "reviewed_unchanged",
       "source_sha256": "9e40bb5e6f9a1a1604357141437768291c1a7af6af3a1931ccda0770d11a440a",
-      "evidence": "For concrete M\u2282B(H), \u03c9\u03be,\u03b7(x)=\u27e8x\u03be,\u03b7\u27e9 is bounded normal with the stated norm bound; \u03b7=\u03be gives positivity and a unit vector in a unital representation gives a state.",
+      "evidence": "For concrete M⊂B(H), ωξ,η(x)=⟨xξ,η⟩ is bounded normal with the stated norm bound; η=ξ gives positivity and a unit vector in a unital representation gives a state.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "linear-algebra/hilbert-space",
@@ -1840,7 +1840,7 @@
       "id": "operator-algebras/vector-state",
       "outcome": "reviewed_unchanged",
       "source_sha256": "939ff4890dbd018e963bba2cdebe5c0b807486e463f402d448735c9b81c6f4fd",
-      "evidence": "A unit vector in a nondegenerate C*-representation yields the normalized positive functional \u27e8\u03c0(a)\u03be,\u03be\u27e9; degeneracy can lower its norm, so the representation hypothesis matters.",
+      "evidence": "A unit vector in a nondegenerate C*-representation yields the normalized positive functional ⟨π(a)ξ,ξ⟩; degeneracy can lower its norm, so the representation hypothesis matters.",
       "previous_prerequisites": [
         "operator-algebras/nondegenerate-cstar-representation",
         "operator-algebras/cstar-representation",
@@ -1880,7 +1880,7 @@
       "id": "operator-algebras/von-neumann-algebra-generated-by-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e5b9e0ff759ee358d26fb619ae9db89866563bc031dd2654bbe0163941b8d4c8",
-      "evidence": "For \u03c0:A\u2192B(H), \u03c0(A)\u2032\u2032 is the smallest generated von Neumann algebra by the bicommutant theorem; nondegeneracy justifies closure of \u03c0(A) itself containing the identity.",
+      "evidence": "For π:A→B(H), π(A)′′ is the smallest generated von Neumann algebra by the bicommutant theorem; nondegeneracy justifies closure of π(A) itself containing the identity.",
       "previous_prerequisites": [
         "operator-algebras/cstar-representation",
         "operator-algebras/von-neumann-bicommutant-theorem"
@@ -1894,7 +1894,7 @@
       "id": "operator-algebras/von-neumann-bicommutant-theorem",
       "outcome": "reviewed_unchanged",
       "source_sha256": "504f6541a3dd0e1b74bf7b79dfb89b092e4a891b2549d6e2648658db56c54ce6",
-      "evidence": "For a unital self-adjoint A\u2282B(H), SOT closure, WOT closure, and A\u2032\u2032 coincide; the theorem\u2019s topology hypotheses and norm-closure distinction are explicit.",
+      "evidence": "For a unital self-adjoint A⊂B(H), SOT closure, WOT closure, and A′′ coincide; the theorem’s topology hypotheses and norm-closure distinction are explicit.",
       "previous_prerequisites": [
         "linear-algebra/hilbert-space",
         "operator-algebras/strong-operator-topology",
@@ -1914,7 +1914,7 @@
       "id": "operator-algebras/von-neumann-crossed-product",
       "outcome": "reviewed_unchanged",
       "source_sha256": "c78232c41c39ad51586f313b6cd29da689aedcb5243f7987f63dcd5e46fd1df2",
-      "evidence": "For an ultraweakly continuous action of a locally compact G on M, the covariant formulas on L\u00b2(G,H) generate M\u22ca\u03b1G as a bicommutant; left Haar and \u03b1s\u207b\u00b9 conventions give covariance.",
+      "evidence": "For an ultraweakly continuous action of a locally compact G on M, the covariant formulas on L²(G,H) generate M⋊αG as a bicommutant; left Haar and αs⁻¹ conventions give covariance.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "topology/locally-compact-group"
@@ -1937,254 +1937,968 @@
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/center-of-von-neumann-algebra"
       ]
-    }
-  ],
-  "triage_records": [
+    },
     {
       "id": "operator-algebras/weak-expectation-property",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9407ea90b02e93a332b04e51d9f9dffe4f93978bd6e4232d0921aa91009aaf58",
+      "evidence": "Full source and direct targets read for operator-algebras/weak-expectation-property; opening claim checked: A [[operator-algebras/unital-cstar-algebra|unital \\(C^*\\)-algebra]] \\(A\\) has the **weak expectation property** (**WEP**) if, for every faithful unital representation \\(\\pi:A\\to B(. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/unital-cstar-algebra",
+        "operator-algebras/unital-completely-positive-map",
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/bicommutant"
+      ],
+      "prerequisites": [
+        "operator-algebras/unital-cstar-algebra",
+        "operator-algebras/unital-completely-positive-map",
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/bicommutant"
+      ]
     },
     {
       "id": "operator-algebras/weak-operator-topology",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b41d43a90a36c1f8fd70cddc2ffb8e1765aec56a0b0985be89994968531228f7",
+      "evidence": "Full source and direct targets read for operator-algebras/weak-operator-topology; opening claim checked: Let \\(H\\) be a [[linear-algebra/hilbert-space|Hilbert space]]. The **weak operator topology** on the [[operator-algebras/bounded-operator-cstar-algebra|bounded-operator \\(C^*\\)-alg. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra"
+      ]
     },
     {
       "id": "operator-algebras/weak-schatten-ideal",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ff4d71d4e4342b4b8c4de95731a7047dddf30aad29f69b58771df26406a0bda",
+      "evidence": "Full source and direct targets read for operator-algebras/weak-schatten-ideal; opening claim checked: Let \\(H\\) be a [[linear-algebra/hilbert-space|Hilbert space]], let \\(p>0\\), and write \\(\\mu_n(T)\\) for the singular values of a [[linear-algebra/compact-operator|compact operator]]. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/compact-operator",
+        "functional-analysis/schatten-class-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/compact-operator",
+        "functional-analysis/schatten-class-operator"
+      ]
     },
     {
       "id": "operator-algebras/weight-on-von-neumann-algebra",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd5d67159c7651d50f4f70a66aa0445ad5c89d0c9dc991085492b4c156c23c68",
+      "evidence": "Full source and direct targets read for operator-algebras/weight-on-von-neumann-algebra; opening claim checked: Let \\(M\\) be a [[operator-algebras/von-neumann-algebra|von Neumann algebra]] with [[operator-algebras/positive-cone|positive cone]] \\(M_+\\). A **weight on \\(M\\)** is a map \\[ \\varp. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/positive-cone",
+        "operator-algebras/positive-linear-functional"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/positive-cone",
+        "operator-algebras/positive-linear-functional"
+      ]
     },
     {
       "id": "noncommutative-geometry",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a40866476526364e259623a873a7de06898852b17d100df063efdc8780d1f352",
+      "evidence": "Full source and direct targets read for noncommutative-geometry; opening claim checked: Click any term to expand its definition inline. . Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": []
     },
     {
       "id": "noncommutative-geometry/almost-commutative-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b0acea0393c208c4f2dc0a0caa759b607845c353d443180cc1952849dd8502c",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/almost-commutative-spectral-triple; opening claim checked: Let \\(M\\) be a closed even-dimensional Riemannian spin manifold with [[noncommutative-geometry/canonical-spin-spectral-triple|canonical spin spectral triple]] \\((C^\\infty(M),L^2(M,. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/canonical-spin-spectral-triple",
+        "noncommutative-geometry/product-spectral-triple"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/canonical-spin-spectral-triple",
+        "noncommutative-geometry/product-spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/analytic-k-homology",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5400596400945ddc17d6e0e0627dcb492289f16147543e20c2fb78d00b0eb5c",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/analytic-k-homology; opening claim checked: For a separable complex \\(C^*\\)-algebra \\(A\\), **analytic K-homology** is the \\(\\mathbb Z/2\\)-graded [[algebra-groups/abelian-group|abelian group]] \\[ K^j(A)=KK^j(A,\\mathbb C),\\qqu. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "noncommutative-geometry/even-fredholm-module",
+        "noncommutative-geometry/odd-fredholm-module"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "noncommutative-geometry/even-fredholm-module",
+        "noncommutative-geometry/odd-fredholm-module"
+      ]
     },
     {
       "id": "noncommutative-geometry/bounded-transform-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5265587518b8d7ac0f06895a7df539b9f16fda1c7f0fefd685ec26af3423db7",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/bounded-transform-spectral-triple; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a [[noncommutative-geometry/spectral-triple|spectral triple]], with \\(D\\) densely defined and self-adjoint. Its **bounded transform** is the bounded sel. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/compact-resolvent",
+        "noncommutative-geometry/fredholm-module"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/compact-resolvent",
+        "noncommutative-geometry/fredholm-module"
+      ]
     },
     {
       "id": "noncommutative-geometry/canonical-spin-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e5dbdfda5e6904df8385f78e92db28ad8ac8661dc9f69471ccb95e12ac3b009",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/canonical-spin-spectral-triple; opening claim checked: Let \\(M\\) be a closed [[differential-geometry/riemannian-manifold|Riemannian manifold]] with a [[fiber-bundles/spin-structure|spin structure]] and complex [[differential-geometry/s. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/spin-structure",
+        "differential-geometry/spinor-bundle",
+        "noncommutative-geometry/dirac-operator",
+        "noncommutative-geometry/spectral-triple"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/spin-structure",
+        "differential-geometry/spinor-bundle",
+        "noncommutative-geometry/dirac-operator",
+        "noncommutative-geometry/spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/chern-character-fredholm-module",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d5e993dc6262e5f9ffa10ebb77a62ac29ede539b81a797a9a089a5f80cb5cde",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/chern-character-fredholm-module; opening claim checked: Let \\((H,\\pi,F)\\) be a [[noncommutative-geometry/p-summable-fredholm-module|\\(p\\)-summable Fredholm module]] over a complex algebra \\(\\mathcal A\\). Its **Chern character** is the c. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/p-summable-fredholm-module",
+        "noncommutative-geometry/periodic-cyclic-cohomology"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/p-summable-fredholm-module",
+        "noncommutative-geometry/periodic-cyclic-cohomology"
+      ]
     },
     {
       "id": "noncommutative-geometry/commutative-reconstruction-theorem",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa47c415aa80b0586531db1064489fe605c20c93d75a9a88d3ab71b83bfe014f",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/commutative-reconstruction-theorem; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a unital commutative [[noncommutative-geometry/spectral-triple|spectral triple]] of integer metric dimension satisfying the reconstruction hypotheses: r. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/hochschild-orientability-axiom",
+        "noncommutative-geometry/finiteness-absolute-continuity-axiom",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/elliptic-differential-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/hochschild-orientability-axiom",
+        "noncommutative-geometry/finiteness-absolute-continuity-axiom",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/elliptic-differential-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/compact-quantum-metric-space",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e170a566554acf8e36f01c086920149a793d780240ffc2b7f81d54f6270b87f7",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/compact-quantum-metric-space; opening claim checked: Let \\(A\\) be a real [[operator-algebras/order-unit-space|order-unit space]] with order unit \\(e\\) and state space \\(S(A)\\). A **compact quantum metric space** is a pair \\((A,L)\\) i. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/order-unit-space",
+        "convex-analysis/seminorm",
+        "functional-analysis/weak-star-topology",
+        "operator-algebras/state-cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/order-unit-space",
+        "convex-analysis/seminorm",
+        "functional-analysis/weak-star-topology",
+        "operator-algebras/state-cstar-algebra"
+      ]
     },
     {
       "id": "noncommutative-geometry/connes-distance",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8008d9a2579a51be06e35890d31d3e9bbe849f75ac55bec16c90260aa43e2a2",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/connes-distance; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a unital [[noncommutative-geometry/spectral-triple|spectral triple]], and let \\(\\varphi,\\psi\\) be [[operator-algebras/state-cstar-algebra|states]] on th. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/state-cstar-algebra",
+        "noncommutative-geometry/lipschitz-seminorm-spectral-triple"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/state-cstar-algebra",
+        "noncommutative-geometry/lipschitz-seminorm-spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/cyclic-cohomology",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af49a712980473a06a95e1949d29804b1efff451a1ce063ad8585de75267a008",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/cyclic-cohomology; opening claim checked: Let \\(A\\) be a unital algebra over a field of characteristic zero. A **cyclic \\(n\\)-cochain** is a multilinear map \\(\\varphi:A^{n+1}\\to k\\) satisfying \\[ \\varphi(a_n,a_0,\\ldots,a_{. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "algebra-homological/cohomology-module",
+        "noncommutative-geometry/hochschild-chain-complex"
+      ],
+      "prerequisites": [
+        "algebra-homological/cohomology-module",
+        "noncommutative-geometry/hochschild-chain-complex"
+      ]
     },
     {
       "id": "noncommutative-geometry/delta-derivation",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3174e9c02fa7ef0fa373e6f8197e5ab40eb3a1b4f3b40643c54aaab7ce30742b",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/delta-derivation; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a [[noncommutative-geometry/spectral-triple|spectral triple]]. The **delta derivation** is the generally unbounded derivation on \\(B(H)\\) defined by \\[ . Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/operator-commutator",
+        "linear-algebra/operator-norm"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/operator-commutator",
+        "linear-algebra/operator-norm"
+      ]
     },
     {
       "id": "noncommutative-geometry/dimension-spectrum",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ea491a307e2b251d14cabdbd2944f0c0de68deacb3cbeb24bd604b4fe8a1a9c",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/dimension-spectrum; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a [[noncommutative-geometry/regular-spectral-triple|regular spectral triple]], and let \\(\\mathcal B\\) be the algebra generated by all \\(\\delta^k(a)\\) an. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/regular-spectral-triple",
+        "noncommutative-geometry/spectral-zeta-function"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/regular-spectral-triple",
+        "noncommutative-geometry/spectral-zeta-function"
+      ]
     },
     {
       "id": "noncommutative-geometry/dirac-operator",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5e8218380ad12be28b376dea96ac8b1bb7bf6b832f7a73e88fdf7bdb9102800",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/dirac-operator; opening claim checked: Let \\(M\\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary equipped with a [[fiber-bundles/spin-structure|spin structure]], \\(S\\to . Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/spin-structure",
+        "differential-geometry/spinor-bundle",
+        "fiber-bundles/spin-connection",
+        "noncommutative-geometry/dirac-type-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/spin-structure",
+        "differential-geometry/spinor-bundle",
+        "fiber-bundles/spin-connection",
+        "noncommutative-geometry/dirac-type-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/dirac-type-operator",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54ba2f24886aba6d2ff37b8867f083b96fef60a72a2170e28b09c85ecd882c91",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/dirac-type-operator; opening claim checked: Let \\(M\\) be a [[differential-geometry/riemannian-manifold|Riemannian manifold]] and \\(E\\to M\\) a Hermitian [[differential-geometry/clifford-module|Clifford module]] with Clifford . Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/clifford-module",
+        "differential-geometry/principal-symbol",
+        "differential-geometry/elliptic-differential-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/clifford-module",
+        "differential-geometry/principal-symbol",
+        "differential-geometry/elliptic-differential-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/entire-cyclic-cohomology",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89bedfdb7203e4453fe762d7b7811efc10f48fe7dee7c15e523bb41946a70869",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/entire-cyclic-cohomology; opening claim checked: Let \\(A\\) be a unital [[functional-analysis/banach-algebra|Banach algebra]], and let \\(C^n_{\\mathrm{cont}}(A)\\) be its continuous \\((n+1)\\)-linear cochains. An even cochain sequenc. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra"
+      ]
     },
     {
       "id": "noncommutative-geometry/even-fredholm-module",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ce4745d5d847f0c4e3649452946fc7215a1e315f4fb1e65bb94a6db8ef12cd6",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/even-fredholm-module; opening claim checked: Let \\(A\\) be a trivially graded complex \\(C^*\\)-algebra. An **even Fredholm module over \\(A\\)** is a [[noncommutative-geometry/fredholm-module|Fredholm module]] \\((H,\\pi,F)\\) toget. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/fredholm-module",
+        "functional-analysis/z2-graded-hilbert-space",
+        "operator-algebras/graded-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/fredholm-module",
+        "functional-analysis/z2-graded-hilbert-space",
+        "operator-algebras/graded-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/even-index-pairing",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac1faec2165f58c773b0af1fb0c69af88b5e9d9f274b1e1faaf1d80dc8a22835",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/even-index-pairing; opening claim checked: Let \\(A\\) be a unital complex \\(C^*\\)-algebra, let \\((H^+\\oplus H^-,\\pi,F)\\) be a normalized [[noncommutative-geometry/even-fredholm-module|even Fredholm module]], and write \\(F^+:. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/even-fredholm-module",
+        "operator-algebras/projection-cstar-algebra",
+        "operator-algebras/k0-cstar-algebra",
+        "functional-analysis/fredholm-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/even-fredholm-module",
+        "operator-algebras/projection-cstar-algebra",
+        "operator-algebras/k0-cstar-algebra",
+        "functional-analysis/fredholm-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/even-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b075424df2d4cef97cd645fb0717790c11b67dd9e42396c5b14345f54fdf2d9",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/even-spectral-triple; opening claim checked: An **even spectral triple** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\) together with a [[functional-analysis/z2-graded-hilbert-space|grad. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/z2-graded-hilbert-space",
+        "operator-algebras/graded-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/z2-graded-hilbert-space",
+        "operator-algebras/graded-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/finitely-summable-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8cf4daabc3c891f1f1d62c167c0dd6fceb4d02591320ad2ec96251c90300d8a2",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/finitely-summable-spectral-triple; opening claim checked: A [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\) is **finitely summable** if it is [[noncommutative-geometry/p-summable-spectral-triple|\\(p\\)-summ. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/p-summable-spectral-triple"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/p-summable-spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/finiteness-absolute-continuity-axiom",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb4589f481b62e12b96cde8b50f0059cc60c7ef1daf77de59a1a47c91dfd2e26",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/finiteness-absolute-continuity-axiom; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a \\(p\\)-dimensional [[noncommutative-geometry/regular-spectral-triple|regular spectral triple]] and set \\(H^\\infty=\\bigcap_{k\\geq1}\\operatorname{Dom}D^k. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/regular-spectral-triple",
+        "noncommutative-geometry/noncommutative-integral"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/regular-spectral-triple",
+        "noncommutative-geometry/noncommutative-integral"
+      ]
     },
     {
       "id": "noncommutative-geometry/first-order-condition",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92899f546a1ff0ac4eba4fdaa395309a6531849960bf78f94595af476242568c",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/first-order-condition; opening claim checked: Let \\((\\mathcal A,H,D,J)\\) satisfy the [[noncommutative-geometry/order-zero-condition|order-zero condition]] and write \\(b^\\circ=Jb^*J^{-1}\\). The **first-order condition** is \\[ \\. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/order-zero-condition",
+        "functional-analysis/bounded-commutator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/order-zero-condition",
+        "functional-analysis/bounded-commutator"
+      ]
     },
     {
       "id": "noncommutative-geometry/fredholm-module",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b7b8aa45f6a2742f2af7d843a0f5fb7dd0d0c935ee12960bde6573a0e2791342",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/fredholm-module; opening claim checked: Let \\(A\\) be a complex \\(C^*\\)-algebra. A **Fredholm module over \\(A\\)** is a complex [[linear-algebra/hilbert-space|Hilbert space]] \\(H\\), a [[operator-algebras/cstar-representati. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/cstar-representation",
+        "linear-algebra/compact-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/cstar-representation",
+        "linear-algebra/compact-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/hochschild-chain-complex",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b8d43cdba8a6f5a08dfa37dcb511489a7d5ae84ea4ef6681131487b29c58ad2",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/hochschild-chain-complex; opening claim checked: Let \\(k\\) be a [[algebra-rings/commutative-ring|commutative ring]], \\(A\\) a unital associative \\(k\\)-algebra, and \\(M\\) an [[algebra-modules/bimodule|\\(A\\)-bimodule]]. The **Hochsc. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/bimodule",
+        "algebra-homological/chain-complex"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/bimodule",
+        "algebra-homological/chain-complex"
+      ]
     },
     {
       "id": "noncommutative-geometry/hochschild-cycle",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1494d95d28f1067281b0fb591381971f5235e661f86100d38532e0cceb852d99",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/hochschild-cycle; opening claim checked: Let \\(A\\) be a unital [[algebra-modules/algebra-over-ring|algebra over a commutative ring]] \\(k\\), let \\(M\\) be an \\(A\\)-bimodule, and let \\[ \\bigl(C_\\bullet(A,M),b\\bigr) \\] be the. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "algebra-modules/algebra-over-ring",
+        "noncommutative-geometry/hochschild-chain-complex",
+        "algebra-homological/homology-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/algebra-over-ring",
+        "noncommutative-geometry/hochschild-chain-complex",
+        "algebra-homological/homology-module"
+      ]
     },
     {
       "id": "noncommutative-geometry/hochschild-orientability-axiom",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d04ab458eee336420459e52e368ecc2db12720c1846185aac87b1c4c0be75c37",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/hochschild-orientability-axiom; opening claim checked: An \\(n\\)-dimensional [[noncommutative-geometry/real-spectral-triple|real spectral triple]] \\((\\mathcal A,H,D,J)\\) satisfies the **Hochschild orientability axiom** if there is a [[n. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/real-spectral-triple",
+        "noncommutative-geometry/hochschild-cycle",
+        "noncommutative-geometry/even-spectral-triple"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/real-spectral-triple",
+        "noncommutative-geometry/hochschild-cycle",
+        "noncommutative-geometry/even-spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/jlo-cocycle",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c77a0cb9f94baf05aefdac06a41f3b4ddd6d338f0c6d704e6ba105c6df543b8",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/jlo-cocycle; opening claim checked: Let \\((\\mathcal A,H,D,\\gamma)\\) be an even [[noncommutative-geometry/theta-summable-spectral-triple|theta-summable spectral triple]]. Its **Jaffe–Leśniewski–Osterwalder cocycle** i. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/theta-summable-spectral-triple",
+        "noncommutative-geometry/entire-cyclic-cohomology"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/theta-summable-spectral-triple",
+        "noncommutative-geometry/entire-cyclic-cohomology"
+      ]
     },
     {
       "id": "noncommutative-geometry/ko-dimension-signs",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4a1a1f3691201dd5e24edf12a13cbf62aa0856a0c7cd20a32d4b46d2566b7a41",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/ko-dimension-signs; opening claim checked: For a [[noncommutative-geometry/real-structure-spectral-triple|real structure]] \\(J\\), the **KO-dimension sign table** assigns signs to \\[ J^2=\\varepsilon,\\qquad JD=\\varepsilon'DJ,. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/real-structure-spectral-triple",
+        "noncommutative-geometry/metric-dimension"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/real-structure-spectral-triple",
+        "noncommutative-geometry/metric-dimension"
+      ]
     },
     {
       "id": "noncommutative-geometry/lipschitz-seminorm-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e14800f4c7e045629833e8ad6bd989c075b4569ec0ce8fa554df9c59af25bde",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/lipschitz-seminorm-spectral-triple; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a [[noncommutative-geometry/spectral-triple|spectral triple]], with \\(\\mathcal A\\) represented on \\(H\\). Its **spectral Lipschitz seminorm** is \\[ L_D(a. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/bounded-commutator",
+        "real-analysis/triangle-inequality"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/bounded-commutator",
+        "real-analysis/triangle-inequality"
+      ]
     },
     {
       "id": "noncommutative-geometry/local-index-formula",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22fec4f5092b3430d895ca11d8081645a0285c484c119783a20163ae6aeb97b7",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/local-index-formula; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a finitely summable [[noncommutative-geometry/regular-spectral-triple|regular spectral triple]] with discrete [[noncommutative-geometry/dimension-spectr. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/regular-spectral-triple",
+        "noncommutative-geometry/dimension-spectrum",
+        "convex-analysis/linear-combination"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/regular-spectral-triple",
+        "noncommutative-geometry/dimension-spectrum",
+        "convex-analysis/linear-combination"
+      ]
     },
     {
       "id": "noncommutative-geometry/metric-dimension",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf78bfd572ece6f86af32dd6a4e44884446fd016d30cb9d236de043ed2d63a2d",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/metric-dimension; opening claim checked: For a [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\), its **metric dimension** is the critical summability exponent \\[ \\dim_{\\mathrm{met}}(D)= \\in. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/schatten-class-operator",
+        "real-analysis/infimum"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/schatten-class-operator",
+        "real-analysis/infimum"
+      ]
     },
     {
       "id": "noncommutative-geometry/noncommutative-integral",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ac2f6181befd7844d543648f39f17eb63e37d0f1a8803ca896af5b5e4c22c74",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/noncommutative-integral; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a [[noncommutative-geometry/spectral-triple|spectral triple]] of positive [[noncommutative-geometry/metric-dimension|metric dimension]] \\(p\\), assume \\(. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/metric-dimension",
+        "operator-algebras/dixmier-trace",
+        "operator-algebras/positive-linear-functional"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/metric-dimension",
+        "operator-algebras/dixmier-trace",
+        "operator-algebras/positive-linear-functional"
+      ]
     },
     {
       "id": "noncommutative-geometry/nonunital-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "073b1a0f3ac7126ec0ae9e01a7e404589b3e6329060a95150f39a06787f594fa",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/nonunital-spectral-triple; opening claim checked: In the locally compact convention, a **nonunital spectral triple** \\((\\mathcal A,H,D)\\) consists of a nonunital [[operator-algebras/involutive-algebra|involutive algebra]] \\(\\mathc. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/bounded-commutator",
+        "linear-algebra/compact-operator",
+        "noncommutative-geometry/spectral-triple"
+      ],
+      "prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/bounded-commutator",
+        "linear-algebra/compact-operator",
+        "noncommutative-geometry/spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/odd-fredholm-module",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6006d143bf7fa9d28373a364edb9bdf277dc52815cc0ff1b560ed3c6629b6767",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/odd-fredholm-module; opening claim checked: Let \\(A\\) be a complex \\(C^*\\)-algebra. An **odd Fredholm module over \\(A\\)** is a [[noncommutative-geometry/fredholm-module|Fredholm module]] \\((H,\\pi,F)\\) regarded without a \\(\\m. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/fredholm-module",
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/fredholm-module",
+        "linear-algebra/hilbert-space"
+      ]
     },
     {
       "id": "noncommutative-geometry/odd-index-pairing",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "320289c65d7384e41786dcce26f549d3adfed315c0b995db82bc70109901b273",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/odd-index-pairing; opening claim checked: Let \\(A\\) be a unital complex \\(C^*\\)-algebra, let \\((H,\\pi,F)\\) be a normalized [[noncommutative-geometry/odd-fredholm-module|odd Fredholm module]], and set \\(P=(I+F)/2\\). For a [. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/odd-fredholm-module",
+        "operator-algebras/unitary-element",
+        "operator-algebras/k1-cstar-algebra",
+        "functional-analysis/fredholm-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/odd-fredholm-module",
+        "operator-algebras/unitary-element",
+        "operator-algebras/k1-cstar-algebra",
+        "functional-analysis/fredholm-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/odd-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cc2ed388aee77cfa14c2b901bd390c5de524d90b030fed558f9dc927c588c0f",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/odd-spectral-triple; opening claim checked: An **odd spectral triple** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\) regarded without a compatible \\(\\mathbb Z/2\\)-grading: the data are. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/involutive-algebra",
+        "linear-algebra/hilbert-space",
+        "noncommutative-geometry/analytic-k-homology",
+        "noncommutative-geometry/even-spectral-triple"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/involutive-algebra",
+        "linear-algebra/hilbert-space",
+        "noncommutative-geometry/analytic-k-homology",
+        "noncommutative-geometry/even-spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/order-zero-condition",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4049a93c31631ca23373bea2ce38e48c7c4a12379b679aa6581bada7a258b169",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/order-zero-condition; opening claim checked: Let \\((\\mathcal A,H,D,J)\\) be spectral data with antiunitary \\(J\\), and define the represented [[operator-algebras/opposite-algebra|opposite-algebra action]] by \\[ b^\\circ=Jb^*J^{-. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/opposite-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/opposite-algebra"
+      ]
     },
     {
       "id": "noncommutative-geometry/p-summable-fredholm-module",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5c4fa5636cc76cfa4fb76b61877594b84ca04cc132a8e3fa9e400872aa9b13d",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/p-summable-fredholm-module; opening claim checked: Let \\(p>0\\), and let \\((H,\\pi,F)\\) be a normalized [[noncommutative-geometry/fredholm-module|Fredholm module]] over a complex [[operator-algebras/involutive-algebra|involutive alge. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/fredholm-module",
+        "operator-algebras/involutive-algebra",
+        "functional-analysis/schatten-class-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/fredholm-module",
+        "operator-algebras/involutive-algebra",
+        "functional-analysis/schatten-class-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/p-summable-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "945df497f03a5ae54732ebdcc84348f1bd19973523cbc567ac98c50d8a5e02f4",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/p-summable-spectral-triple; opening claim checked: Let \\(0<p<\\infty\\). A [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\) is **\\(p\\)-summable** if \\[ (1+D^2)^{-1/2}\\in\\mathcal L^p(H), \\] where \\(\\mat. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/schatten-class-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/schatten-class-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/periodic-cyclic-cohomology",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a70912a4499a375c84b2716aa3f87b6ab7833621dace33fff96a3f3cb117b34a",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/periodic-cyclic-cohomology; opening claim checked: Let \\(A\\) be a unital algebra over a characteristic-zero field. Connes's periodicity operator gives maps \\[ S:HC^n(A)\\longrightarrow HC^{n+2}(A) \\] on [[noncommutative-geometry/cyc. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/cyclic-cohomology"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/cyclic-cohomology"
+      ]
     },
     {
       "id": "noncommutative-geometry/pre-cstar-algebra",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d64a3fd0f878d2e7e983a542a2128eef2cbf855b965c35cd7be2c5662e4778ce",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/pre-cstar-algebra; opening claim checked: A **pre-\\(C^*\\)-algebra** is a complex normed [[operator-algebras/involutive-algebra|\\(*\\)-algebra]] \\(A\\), not assumed complete, whose norm is submultiplicative and satisfies the . Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/cstar-algebra"
+      ]
     },
     {
       "id": "noncommutative-geometry/product-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ca7f7da1a823fd3936907b433ddffe24330236a3c703fb064acec8775f6a7bd",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/product-spectral-triple; opening claim checked: Let \\((\\mathcal A_i,H_i,D_i,\\Gamma_i)\\), \\(i=1,2\\), be [[noncommutative-geometry/even-spectral-triple|even spectral triples]] over complex [[linear-algebra/hilbert-space|Hilbert sp. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/even-spectral-triple",
+        "linear-algebra/hilbert-space",
+        "algebra-modules/tensor-product-algebras"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/even-spectral-triple",
+        "linear-algebra/hilbert-space",
+        "algebra-modules/tensor-product-algebras"
+      ]
     },
     {
       "id": "noncommutative-geometry/real-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee5f17b07dce65cb58f57e9806f99e044d3a35e8c800cbabd3603d765a501c51",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/real-spectral-triple; opening claim checked: A **real spectral triple of KO-dimension \\(n\\)** is a [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\), even or odd, together with a [[noncommutativ. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/real-structure-spectral-triple",
+        "noncommutative-geometry/ko-dimension-signs",
+        "noncommutative-geometry/order-zero-condition",
+        "noncommutative-geometry/first-order-condition"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "noncommutative-geometry/real-structure-spectral-triple",
+        "noncommutative-geometry/ko-dimension-signs",
+        "noncommutative-geometry/order-zero-condition",
+        "noncommutative-geometry/first-order-condition"
+      ]
     },
     {
       "id": "noncommutative-geometry/real-structure-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cda16420f44eda91afe0ed1ba2a627721095f339d949d7255c3bd25d5ee1e29f",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/real-structure-spectral-triple; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a [[noncommutative-geometry/spectral-triple|spectral triple]]. A **real structure of KO-dimension \\(n\\)** is an antiunitary \\(J:H\\to H\\) for which \\[ J^. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/opposite-algebra",
+        "noncommutative-geometry/order-zero-condition",
+        "noncommutative-geometry/first-order-condition"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/opposite-algebra",
+        "noncommutative-geometry/order-zero-condition",
+        "noncommutative-geometry/first-order-condition"
+      ]
     },
     {
       "id": "noncommutative-geometry/regular-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bdfd4629680946fa4ffa75f45e7468cb3f1122ce3e8d64255ed0d1b0034a2aa6",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/regular-spectral-triple; opening claim checked: A [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\) is **regular** if \\[ \\mathcal A+[D,\\mathcal A]\\subseteq \\operatorname{Dom}\\delta^\\infty, \\qquad \\. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/bounded-commutator",
+        "noncommutative-geometry/smooth-domain-delta"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "functional-analysis/bounded-commutator",
+        "noncommutative-geometry/smooth-domain-delta"
+      ]
     },
     {
       "id": "noncommutative-geometry/semifinite-index-pairing",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d2658b3ec3c064cc7257f63e1b0a3876192724df8a11141df7916dfd1ad70da",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/semifinite-index-pairing; opening claim checked: Let \\((\\mathcal A,\\mathcal N,D,\\tau)\\) be a [[noncommutative-geometry/semifinite-spectral-triple|semifinite spectral triple]] and put \\(P=1_{[0,\\infty)}(D)\\). Its **semifinite K-th. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/semifinite-spectral-triple",
+        "operator-algebras/breuer-fredholm-operator"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/semifinite-spectral-triple",
+        "operator-algebras/breuer-fredholm-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/semifinite-local-index-formula",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c87aad79814397ba9cb45a81104aedf78814627cb97a998270e8e20ca0d5764e",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/semifinite-local-index-formula; opening claim checked: Let \\((\\mathcal A,\\mathcal N,D,\\tau)\\) be a regular, finitely [[noncommutative-geometry/tau-summable-spectral-triple|tau-summable semifinite spectral triple]] with isolated dimensi. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/tau-summable-spectral-triple",
+        "noncommutative-geometry/semifinite-index-pairing",
+        "noncommutative-geometry/spectral-flow"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/tau-summable-spectral-triple",
+        "noncommutative-geometry/semifinite-index-pairing",
+        "noncommutative-geometry/spectral-flow"
+      ]
     },
     {
       "id": "noncommutative-geometry/semifinite-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18d7d4c646e0cbacce04d51b5d54dec813e073aff02c0f107acccbb77a4e06aa",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/semifinite-spectral-triple; opening claim checked: A **semifinite spectral triple** \\((\\mathcal A,\\mathcal H,D;\\mathcal M,\\tau)\\) consists of a unital [[operator-algebras/involutive-algebra|involutive algebra]] \\(\\mathcal A\\) repre. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "operator-algebras/affiliated-operator",
+        "operator-algebras/tau-compact-operator"
+      ],
+      "prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "operator-algebras/affiliated-operator",
+        "operator-algebras/tau-compact-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/smooth-domain-delta",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7d009b9f09bb1d98a2e1194e5ff271652cefc2a26c9186ffb26bbbe9532cfd8",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/smooth-domain-delta; opening claim checked: Let \\(\\delta(T)=[|D|,T]\\) be the [[noncommutative-geometry/delta-derivation|Dirac derivation]] on \\(B(H)\\). Its **smooth domain** is \\[ \\operatorname{Dom}\\delta^\\infty =\\bigcap_{k\\. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/delta-derivation",
+        "noncommutative-geometry/spectral-triple"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/delta-derivation",
+        "noncommutative-geometry/spectral-triple"
+      ]
     },
     {
       "id": "noncommutative-geometry/smooth-subalgebra-cstar-algebra",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c9f72891bc8071b6d7783826e3ebe085ba74546f755840184053f0c44ec1107",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/smooth-subalgebra-cstar-algebra; opening claim checked: Let \\(A\\) be a [[operator-algebras/cstar-algebra|\\(C^*\\)-algebra]]. In this knowl, a **smooth subalgebra** is a dense \\(*\\)-subalgebra \\(\\mathcal A\\subseteq A\\) with a complete Fré. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "functional-analysis/holomorphic-functional-calculus-banach-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "functional-analysis/holomorphic-functional-calculus-banach-algebra"
+      ]
     },
     {
       "id": "noncommutative-geometry/spectral-flow",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "593db669d13b7c28475d9c1d591bcb99e28c7802fa4a71c30d7a624d7dc75b5f",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/spectral-flow; opening claim checked: Let \\(H\\) be a separable complex [[linear-algebra/hilbert-space|Hilbert space]] and let \\(B:[0,1]\\to\\mathcal B(H)\\) be a norm-continuous path of self-adjoint [[functional-analysis/. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/fredholm-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/fredholm-operator"
+      ]
     },
     {
       "id": "noncommutative-geometry/spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "61c6e8fa78e75a9177147a4c0ad480a7f967be7d9c55c8998cdddf9d72806de0",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/spectral-triple; opening claim checked: A **compact spectral triple** \\((\\mathcal A,H,D)\\) consists of a unital [[operator-algebras/involutive-algebra|involutive algebra]] \\(\\mathcal A\\), a [[linear-algebra/hilbert-space. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-star-representation",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/compact-resolvent",
+        "functional-analysis/bounded-commutator"
+      ],
+      "prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-star-representation",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/compact-resolvent",
+        "functional-analysis/bounded-commutator"
+      ]
     },
     {
       "id": "noncommutative-geometry/spectral-zeta-function",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34d557a6d081a8df4952ef7a1dcf29114f06e67ca02c913839f2fbf434265301",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/spectral-zeta-function; opening claim checked: Let \\((\\mathcal A,H,D)\\) be a [[noncommutative-geometry/spectral-triple|spectral triple]]. Write \\(|D|^{-s}\\) for the complex power that is zero on \\(\\ker D\\) and equals \\(\\lambda^. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/operator-trace"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/operator-trace"
+      ]
     },
     {
       "id": "noncommutative-geometry/tau-summable-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad4f648695b38dc3d1c433732ba735ff260ef3df21e1e75700e729f42d66d53b",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/tau-summable-spectral-triple; opening claim checked: Let \\((\\mathcal A,\\mathcal N,D,\\tau)\\) be a [[noncommutative-geometry/semifinite-spectral-triple|semifinite spectral triple]], where \\(\\tau\\) is a [[operator-algebras/faithful-norm. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/semifinite-spectral-triple",
+        "operator-algebras/faithful-normal-semifinite-trace"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/semifinite-spectral-triple",
+        "operator-algebras/faithful-normal-semifinite-trace"
+      ]
     },
     {
       "id": "noncommutative-geometry/theta-summable-spectral-triple",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "306ec42374ec6220b7d229836da8b9cfebaba22800c39a65313d23aafb213605",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/theta-summable-spectral-triple; opening claim checked: A [[noncommutative-geometry/spectral-triple|spectral triple]] \\((\\mathcal A,H,D)\\) is **theta-summable** if \\[ e^{-tD^2} \\] is trace class for every \\(t>0\\), equivalently if \\(\\ope. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/operator-trace"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/operator-trace"
+      ]
     },
     {
       "id": "noncommutative-geometry/unbounded-kasparov-module",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "20f3da2c9389ae08da9a3c68a760539e73466aa617d17ea1969efd9df590ac5f",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/unbounded-kasparov-module; opening claim checked: Let \\(A\\) and \\(B\\) be [[operator-algebras/graded-cstar-algebra|graded \\(C^*\\)-algebras]]. An **unbounded Kasparov \\(A\\)-\\(B\\) module** is a graded, [[operator-algebras/countably-g. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "operator-algebras/graded-cstar-algebra",
+        "operator-algebras/countably-generated-hilbert-cstar-module",
+        "operator-algebras/adjointable-operator-hilbert-module",
+        "operator-algebras/regular-operator-hilbert-cstar-module",
+        "operator-algebras/compact-operator-hilbert-module"
+      ],
+      "prerequisites": [
+        "operator-algebras/graded-cstar-algebra",
+        "operator-algebras/countably-generated-hilbert-cstar-module",
+        "operator-algebras/adjointable-operator-hilbert-module",
+        "operator-algebras/regular-operator-hilbert-cstar-module",
+        "operator-algebras/compact-operator-hilbert-module"
+      ]
     },
     {
       "id": "noncommutative-geometry/unitary-equivalence-spectral-triples",
-      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cd6854da25489d77a6f00b1ebf065d29c6485429826a824e51a5de03dc6d1e9",
+      "evidence": "Full source and direct targets read for noncommutative-geometry/unitary-equivalence-spectral-triples; opening claim checked: Two [[noncommutative-geometry/spectral-triple|spectral triples]] \\((\\mathcal A_1,H_1,D_1)\\) and \\((\\mathcal A_2,H_2,D_2)\\), with representations \\(\\pi_1,\\pi_2\\), are **unitarily eq. Domain, hypotheses, and target scope match the listed prerequisites.",
+      "previous_prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/star-isomorphism",
+        "linear-algebra/surjective-linear-isometry"
+      ],
+      "prerequisites": [
+        "noncommutative-geometry/spectral-triple",
+        "operator-algebras/star-isomorphism",
+        "linear-algebra/surjective-linear-isometry"
+      ]
     },
     {
       "id": "operator-algebras/type-iii-von-neumann-algebra",
-      "outcome": "reviewed_unchanged",
-      "source_sha256": "06cf450690411e7d0bc8d81044ba69c95baa1a1777fb857921f577c24abda3c9",
-      "evidence": "Type III is correctly the absence of nonzero finite projections, equivalently all nonzero projections infinite; the core distinguishes general central summands from the factor subtype.",
+      "outcome": "corrected",
+      "source_sha256": "89ccb7d738900f1a380a9161c3c23042009b40de5f731e59f888d8d3a4bde10f",
+      "evidence": "Full source and direct targets read: the type III core applies to general von Neumann algebras and defines the class by absence of nonzero finite projections; factor is only a later subtype, so its prerequisite was removed.",
       "previous_prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/finite-projection",
@@ -2194,15 +2908,14 @@
       "prerequisites": [
         "operator-algebras/von-neumann-algebra",
         "operator-algebras/finite-projection",
-        "operator-algebras/infinite-projection",
-        "operator-algebras/von-neumann-factor"
+        "operator-algebras/infinite-projection"
       ]
     },
     {
       "id": "operator-algebras/ultraweak-topology",
-      "outcome": "reviewed_unchanged",
-      "source_sha256": "11f68ce1c86d5e73129609b7e84c3f80f6029b59faf7a9b3bef38e73bd438687",
-      "evidence": "The \u03c3-weak topology is the weak-* topology from trace-class pairings on B(H); the net criterion, sequence factorization, and distinction from Banach weak topology are correct.",
+      "outcome": "corrected",
+      "source_sha256": "2fe629c3edd34c140e46ed8b2f8e2f944a917ff9b58e43152e4c81ee1856f16d",
+      "evidence": "Full source and direct targets read: the σ-weak core is defined by trace-class pairings and dual Banach structure, so trace-class and Banach-space inputs are explicit prerequisites.",
       "previous_prerequisites": [
         "linear-algebra/hilbert-space",
         "operator-algebras/bounded-operator-cstar-algebra",
@@ -2211,8 +2924,11 @@
       "prerequisites": [
         "linear-algebra/hilbert-space",
         "operator-algebras/bounded-operator-cstar-algebra",
-        "functional-analysis/weak-star-topology"
+        "functional-analysis/weak-star-topology",
+        "functional-analysis/trace-class-operator",
+        "linear-algebra/banach-space"
       ]
     }
-  ]
+  ],
+  "triage_records": []
 }

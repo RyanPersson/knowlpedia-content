@@ -6,7 +6,7 @@ summary = "A smooth, strict-convex special case of convex conjugation defined vi
 aliases = ["legendre-transform", "Legendre transform"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/legendre-transform.md"
-prerequisites = ["convex-analysis/strictly-convex-function", "convex-analysis/convex-conjugate-fenchel", "real-analysis/derivative", "real-analysis/differentiable-map"]
+prerequisites = ["convex-analysis/strictly-convex-function", "convex-analysis/convex-conjugate-fenchel", "convex-analysis/convex-set", "real-analysis/derivative", "real-analysis/differentiable-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

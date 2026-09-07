@@ -6,7 +6,7 @@ summary = "The set Spec(R) of prime ideals of a commutative ring, naturally equi
 aliases = ["prime-spectrum", "Prime spectrum"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/prime-spectrum.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/localization-ring"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/prime-ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -18,6 +18,8 @@ The **prime spectrum** of \(R\) is the set
 \operatorname{Spec}(R) := \{\mathfrak p \subset R \mid \mathfrak p \text{ is a prime ideal}\}.
 \]
 An element \(\mathfrak p\in \operatorname{Spec}(R)\) is called a **point** of \(\operatorname{Spec}(R)\).
+
+## Topology and local data
 
 In commutative algebra one usually studies \(\operatorname{Spec}(R)\) together with the [[algebra-commutative/zariski-topology|Zariski topology]]; this turns \(\operatorname{Spec}(R)\) into a topological space whose basic opens are closely related to [[algebra-commutative/localization-ring|localizations]]. For a point \(\mathfrak p\in\operatorname{Spec}(R)\), the associated local data are the [[algebra-commutative/localization-at-prime|localization \(R_{\mathfrak p}\)]] and its [[algebra-commutative/residue-field|residue field \(\kappa(\mathfrak p)\)]].
 

@@ -6,7 +6,7 @@ summary = "The difference of norms is bounded by the norm of the difference"
 aliases = ["reverse-triangle-inequality", "Reverse triangle inequality"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/reverse-triangle-inequality.md"
-prerequisites = ["real-analysis/absolute-value", "linear-algebra/vector-space"]
+prerequisites = ["linear-algebra/normed-vector-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

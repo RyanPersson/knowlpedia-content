@@ -6,7 +6,7 @@ summary = "A second partial derivative taken with respect to two different coord
 aliases = ["mixed-partial-derivative", "Mixed partial derivative"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/mixed-partial-derivative.md"
-prerequisites = []
+prerequisites = ["real-analysis/partial-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

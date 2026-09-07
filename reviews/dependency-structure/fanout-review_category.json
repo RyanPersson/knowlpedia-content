@@ -1083,807 +1083,686 @@
         "algebra-category-theory/shift-functor"
       ],
       "evidence": "A triangle is the shifted diagram X\u2192Y\u2192Z\u2192X[1]; shift-functor is the only special structure required in the core. Full source, mathematical examples, and each listed prerequisite target were read and checked."
-    }
-  ],
-  "triage_records": [
+    },
     {
       "id": "algebra-category-theory/triangulated-category",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-category-theory/triangulated-category",
-        "outcome": "pending",
-        "source_sha256": "d0933db7f0a6f8c537e461a0ae1813f983e371eb2670d4407d9ad8f57fd7ee8a",
-        "previous_prerequisites": [
-          "algebra-category-theory/pretriangulated-category",
-          "algebra-category-theory/distinguished-triangle",
-          "algebra-category-theory/octahedral-axiom"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/pretriangulated-category",
-          "algebra-category-theory/distinguished-triangle",
-          "algebra-category-theory/octahedral-axiom"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0933db7f0a6f8c537e461a0ae1813f983e371eb2670d4407d9ad8f57fd7ee8a",
+      "previous_prerequisites": [
+        "algebra-category-theory/pretriangulated-category",
+        "algebra-category-theory/distinguished-triangle",
+        "algebra-category-theory/octahedral-axiom"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/pretriangulated-category",
+        "algebra-category-theory/distinguished-triangle",
+        "algebra-category-theory/octahedral-axiom"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-category-theory/yoneda-lemma",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-category-theory/yoneda-lemma",
-        "outcome": "pending",
-        "source_sha256": "d0caa685b27e3faa9d22e7c5f60dd0fddaf6fe69bbe79108dfee0c185094df6a",
-        "previous_prerequisites": [
-          "algebra-category-theory/category",
-          "algebra-category-theory/object",
-          "algebra-category-theory/functor",
-          "algebra-category-theory/representable-functor",
-          "algebra-category-theory/natural-transformation",
-          "algebra-category-theory/identity-morphism",
-          "algebra-category-theory/composition-category",
-          "shared-foundations/bijective-function"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/category",
-          "algebra-category-theory/object",
-          "algebra-category-theory/functor",
-          "algebra-category-theory/representable-functor",
-          "algebra-category-theory/natural-transformation",
-          "algebra-category-theory/identity-morphism",
-          "algebra-category-theory/composition-category",
-          "shared-foundations/bijective-function"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0caa685b27e3faa9d22e7c5f60dd0fddaf6fe69bbe79108dfee0c185094df6a",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/representable-functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/representable-functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category",
+        "shared-foundations/bijective-function"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-category-theory/zero-object",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-category-theory/zero-object",
-        "outcome": "pending",
-        "source_sha256": "60ffd9f856a584168ae763ab9f4a612f6b7145fec3d4abaaa38e65ed59bf8a12",
-        "previous_prerequisites": [
-          "algebra-category-theory/category",
-          "algebra-category-theory/initial-object",
-          "algebra-category-theory/terminal-object"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/category",
-          "algebra-category-theory/initial-object",
-          "algebra-category-theory/terminal-object"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60ffd9f856a584168ae763ab9f4a612f6b7145fec3d4abaaa38e65ed59bf8a12",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/initial-object",
+        "algebra-category-theory/terminal-object"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/initial-object",
+        "algebra-category-theory/terminal-object"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological",
-        "outcome": "pending",
-        "source_sha256": "5d112acc76bb2ae272cae2e870992948b5b569da5d65f01182e30241e0cfb208",
-        "previous_prerequisites": [],
-        "prerequisites": []
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d112acc76bb2ae272cae2e870992948b5b569da5d65f01182e30241e0cfb208",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/chain-complex",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/chain-complex",
-        "outcome": "pending",
-        "source_sha256": "a61ae02d50f67acfc7893864cec1535ca79ff15925f1a4f7904e00f7eb6eb8bf",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a61ae02d50f67acfc7893864cec1535ca79ff15925f1a4f7904e00f7eb6eb8bf",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/chain-homotopy",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/chain-homotopy",
-        "outcome": "pending",
-        "source_sha256": "ce58372e0fa4d260a0ed233778158822eda24005368a4ce0f483886a395edf8b",
-        "previous_prerequisites": [
-          "algebra-homological/chain-map",
-          "algebra-homological/chain-complex"
-        ],
-        "prerequisites": [
-          "algebra-homological/chain-map",
-          "algebra-homological/chain-complex"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ce58372e0fa4d260a0ed233778158822eda24005368a4ce0f483886a395edf8b",
+      "previous_prerequisites": [
+        "algebra-homological/chain-map",
+        "algebra-homological/chain-complex"
+      ],
+      "prerequisites": [
+        "algebra-homological/chain-map",
+        "algebra-homological/chain-complex"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/cochain-complex",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/cochain-complex",
-        "outcome": "pending",
-        "source_sha256": "110a3c33e8f46077c5fdac9c350ebd9a433d5ea37a0932b814a7a0d057e31c8c",
-        "previous_prerequisites": [
-          "algebra-modules/module",
-          "algebra-modules/module-homomorphism"
-        ],
-        "prerequisites": [
-          "algebra-modules/module",
-          "algebra-modules/module-homomorphism"
-        ]
-      }
+      "outcome": "corrected",
+      "source_sha256": "95e073660ea5144f8a14bce8f2f2d514c54b23d34d8d6a489feeee53cdecf63e",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-modules/module-homomorphism"
+      ],
+      "evidence": "The source explicitly introduces a ring R and cochain complexes of R-modules; added the direct ring prerequisite alongside module and module-homomorphism. The Hom example was scoped to abelian groups for general noncommutative R, with an R-module interpretation only under commutativity or a specified compatible action. Full source and each listed prerequisite target were read and checked."
     },
     {
       "id": "algebra-homological/connecting-homomorphism-lemma",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/connecting-homomorphism-lemma",
-        "outcome": "pending",
-        "source_sha256": "70d4f46cc52b2b7aa9e42e44d8edcae0fad747753cca7477167dfd9683b358fc",
-        "previous_prerequisites": [
-          "algebra-homological/chain-complex",
-          "algebra-category-theory/abelian-category",
-          "algebra-homological/homology-module",
-          "algebra-modules/short-exact-sequence"
-        ],
-        "prerequisites": [
-          "algebra-homological/chain-complex",
-          "algebra-category-theory/abelian-category",
-          "algebra-homological/homology-module",
-          "algebra-modules/short-exact-sequence"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70d4f46cc52b2b7aa9e42e44d8edcae0fad747753cca7477167dfd9683b358fc",
+      "previous_prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-category-theory/abelian-category",
+        "algebra-homological/homology-module",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-category-theory/abelian-category",
+        "algebra-homological/homology-module",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/derived-functor",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/derived-functor",
-        "outcome": "pending",
-        "source_sha256": "16a0eff427aaa48c2255f31cedcd047dd0503dff01ea922f5eaecf5a43abd273",
-        "previous_prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-category-theory/left-exact-functor",
-          "algebra-category-theory/right-exact-functor",
-          "algebra-homological/injective-resolution",
-          "algebra-homological/projective-resolution",
-          "algebra-homological/cohomology-module",
-          "algebra-homological/homology-module"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-category-theory/left-exact-functor",
-          "algebra-category-theory/right-exact-functor",
-          "algebra-homological/injective-resolution",
-          "algebra-homological/projective-resolution",
-          "algebra-homological/cohomology-module",
-          "algebra-homological/homology-module"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16a0eff427aaa48c2255f31cedcd047dd0503dff01ea922f5eaecf5a43abd273",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/left-exact-functor",
+        "algebra-category-theory/right-exact-functor",
+        "algebra-homological/injective-resolution",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/cohomology-module",
+        "algebra-homological/homology-module"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/left-exact-functor",
+        "algebra-category-theory/right-exact-functor",
+        "algebra-homological/injective-resolution",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/cohomology-module",
+        "algebra-homological/homology-module"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/exact-complex",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/exact-complex",
-        "outcome": "pending",
-        "source_sha256": "93b04ba94c9d8f45c608f6472f690a512c9e25f9a8c70eb71381371b02789013",
-        "previous_prerequisites": [
-          "algebra-homological/chain-complex",
-          "algebra-homological/homology-module",
-          "algebra-modules/exactness-via-kernels-images",
-          "algebra-category-theory/abelian-category"
-        ],
-        "prerequisites": [
-          "algebra-homological/chain-complex",
-          "algebra-homological/homology-module",
-          "algebra-modules/exactness-via-kernels-images",
-          "algebra-category-theory/abelian-category"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "93b04ba94c9d8f45c608f6472f690a512c9e25f9a8c70eb71381371b02789013",
+      "previous_prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-homological/homology-module",
+        "algebra-modules/exactness-via-kernels-images",
+        "algebra-category-theory/abelian-category"
+      ],
+      "prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-homological/homology-module",
+        "algebra-modules/exactness-via-kernels-images",
+        "algebra-category-theory/abelian-category"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/ext",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/ext",
-        "outcome": "pending",
-        "source_sha256": "d33b31ae9d4122a2b1d660bca00a8f78c6b2ee4fee76db69cf0ddd5d4b77e9c0",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/derived-functor",
-          "algebra-homological/projective-resolution",
-          "algebra-modules/hom-module",
-          "algebra-homological/cochain-complex"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/derived-functor",
-          "algebra-homological/projective-resolution",
-          "algebra-modules/hom-module",
-          "algebra-homological/cochain-complex"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d33b31ae9d4122a2b1d660bca00a8f78c6b2ee4fee76db69cf0ddd5d4b77e9c0",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/derived-functor",
+        "algebra-homological/projective-resolution",
+        "algebra-modules/hom-module",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/derived-functor",
+        "algebra-homological/projective-resolution",
+        "algebra-modules/hom-module",
+        "algebra-homological/cochain-complex"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/ext-tor-derived-functors",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/ext-tor-derived-functors",
-        "outcome": "pending",
-        "source_sha256": "2f4013b97fcfcc646ffc1f41788998b59863b36a7e4fabd79ba52234fff09993",
-        "previous_prerequisites": [
-          "algebra-homological/hom-left-exact",
-          "algebra-homological/tensor-right-exact",
-          "algebra-homological/ext",
-          "algebra-homological/tor"
-        ],
-        "prerequisites": [
-          "algebra-homological/hom-left-exact",
-          "algebra-homological/tensor-right-exact",
-          "algebra-homological/ext",
-          "algebra-homological/tor"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f4013b97fcfcc646ffc1f41788998b59863b36a7e4fabd79ba52234fff09993",
+      "previous_prerequisites": [
+        "algebra-homological/hom-left-exact",
+        "algebra-homological/tensor-right-exact",
+        "algebra-homological/ext",
+        "algebra-homological/tor"
+      ],
+      "prerequisites": [
+        "algebra-homological/hom-left-exact",
+        "algebra-homological/tensor-right-exact",
+        "algebra-homological/ext",
+        "algebra-homological/tor"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/ext1-classifies-extensions",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/ext1-classifies-extensions",
-        "outcome": "pending",
-        "source_sha256": "2649dd2ee31db5a1444b3338b0040bb2da6906f9fcf1bc9c103080a5ff096e45",
-        "previous_prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-homological/ext",
-          "algebra-modules/hom-module",
-          "algebra-homological/derived-functor"
-        ],
-        "prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-homological/ext",
-          "algebra-modules/hom-module",
-          "algebra-homological/derived-functor"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2649dd2ee31db5a1444b3338b0040bb2da6906f9fcf1bc9c103080a5ff096e45",
+      "previous_prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-homological/ext",
+        "algebra-modules/hom-module",
+        "algebra-homological/derived-functor"
+      ],
+      "prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-homological/ext",
+        "algebra-modules/hom-module",
+        "algebra-homological/derived-functor"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/five-lemma",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/five-lemma",
-        "outcome": "pending",
-        "source_sha256": "6c61a67f2880a44932aa9d6666349505902ba08a0a48ccd0b8717fd375f0b2d3",
-        "previous_prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-homological/four-lemma"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-homological/four-lemma"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c61a67f2880a44932aa9d6666349505902ba08a0a48ccd0b8717fd375f0b2d3",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-homological/four-lemma"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-homological/four-lemma"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/five-lemma-corollary",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/five-lemma-corollary",
-        "outcome": "pending",
-        "source_sha256": "f4ec28dfff9fb75bae37654806637350870da44e5183b7b25d1647f6cbe92f48",
-        "previous_prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-homological/five-lemma"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-homological/five-lemma"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4ec28dfff9fb75bae37654806637350870da44e5183b7b25d1647f6cbe92f48",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-homological/five-lemma"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-homological/five-lemma"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/four-lemma",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/four-lemma",
-        "outcome": "pending",
-        "source_sha256": "d77e0c4c94ec423a5723d1276c1cf5a389b76746b387a2f94ef93e6847ce0afd",
-        "previous_prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-modules/exact-sequence-modules",
-          "shared-foundations/surjective-function",
-          "shared-foundations/injective-function"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-modules/exact-sequence-modules",
-          "shared-foundations/surjective-function",
-          "shared-foundations/injective-function"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d77e0c4c94ec423a5723d1276c1cf5a389b76746b387a2f94ef93e6847ce0afd",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-modules/exact-sequence-modules",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-modules/exact-sequence-modules",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/hom-left-exact",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/hom-left-exact",
-        "outcome": "pending",
-        "source_sha256": "40540c30743250f44a5b58664b894951e19caba06a9576d56b32783b72f8ad08",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/hom-module",
-          "algebra-modules/short-exact-sequence"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/hom-module",
-          "algebra-modules/short-exact-sequence"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40540c30743250f44a5b58664b894951e19caba06a9576d56b32783b72f8ad08",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/hom-module",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/hom-module",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/hom-tensor-exactness",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/hom-tensor-exactness",
-        "outcome": "pending",
-        "source_sha256": "953e8c22eff89f2492299ef777f8b4f36ea6db4f6cbbbb1301197d6db487284f",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/hom-left-exact",
-          "algebra-homological/tensor-right-exact",
-          "algebra-modules/projective-module",
-          "algebra-modules/injective-module",
-          "algebra-modules/flat-module"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/hom-left-exact",
-          "algebra-homological/tensor-right-exact",
-          "algebra-modules/projective-module",
-          "algebra-modules/injective-module",
-          "algebra-modules/flat-module"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "953e8c22eff89f2492299ef777f8b4f36ea6db4f6cbbbb1301197d6db487284f",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/hom-left-exact",
+        "algebra-homological/tensor-right-exact",
+        "algebra-modules/projective-module",
+        "algebra-modules/injective-module",
+        "algebra-modules/flat-module"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/hom-left-exact",
+        "algebra-homological/tensor-right-exact",
+        "algebra-modules/projective-module",
+        "algebra-modules/injective-module",
+        "algebra-modules/flat-module"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/horseshoe-lemma",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/horseshoe-lemma",
-        "outcome": "pending",
-        "source_sha256": "9f420a294df00c85a4d3ed12a8baa257f666f75d4a957e6065555264a7c35788",
-        "previous_prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-modules/projective-module",
-          "algebra-homological/projective-resolution",
-          "algebra-homological/chain-complex"
-        ],
-        "prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-modules/projective-module",
-          "algebra-homological/projective-resolution",
-          "algebra-homological/chain-complex"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f420a294df00c85a4d3ed12a8baa257f666f75d4a957e6065555264a7c35788",
+      "previous_prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/projective-module",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/chain-complex"
+      ],
+      "prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/projective-module",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/chain-complex"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/injective-resolution",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/injective-resolution",
-        "outcome": "pending",
-        "source_sha256": "2d276dd1086992e5a040fcdf27b04952404de04dbd11316129364675c4e76eca",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/cochain-complex",
-          "algebra-modules/injective-module",
-          "algebra-homological/exact-complex"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/cochain-complex",
-          "algebra-modules/injective-module",
-          "algebra-homological/exact-complex"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d276dd1086992e5a040fcdf27b04952404de04dbd11316129364675c4e76eca",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/cochain-complex",
+        "algebra-modules/injective-module",
+        "algebra-homological/exact-complex"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/cochain-complex",
+        "algebra-modules/injective-module",
+        "algebra-homological/exact-complex"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/long-exact-sequence-derived",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/long-exact-sequence-derived",
-        "outcome": "pending",
-        "source_sha256": "95e025c6beeb43bb1ca131217a4ed651b3e2e6e071d7a174932d22a400c3e743",
-        "previous_prerequisites": [
-          "algebra-homological/derived-functor",
-          "algebra-homological/snake-lemma",
-          "algebra-homological/connecting-homomorphism-lemma",
-          "algebra-modules/short-exact-sequence"
-        ],
-        "prerequisites": [
-          "algebra-homological/derived-functor",
-          "algebra-homological/snake-lemma",
-          "algebra-homological/connecting-homomorphism-lemma",
-          "algebra-modules/short-exact-sequence"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95e025c6beeb43bb1ca131217a4ed651b3e2e6e071d7a174932d22a400c3e743",
+      "previous_prerequisites": [
+        "algebra-homological/derived-functor",
+        "algebra-homological/snake-lemma",
+        "algebra-homological/connecting-homomorphism-lemma",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "prerequisites": [
+        "algebra-homological/derived-functor",
+        "algebra-homological/snake-lemma",
+        "algebra-homological/connecting-homomorphism-lemma",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/long-exact-sequence-ext",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/long-exact-sequence-ext",
-        "outcome": "pending",
-        "source_sha256": "08671ff6638bc4c9df4e0bed36b5b153ce7c81e20e80df4b015b10801225d45c",
-        "previous_prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-homological/ext",
-          "algebra-homological/hom-left-exact"
-        ],
-        "prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-homological/ext",
-          "algebra-homological/hom-left-exact"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "08671ff6638bc4c9df4e0bed36b5b153ce7c81e20e80df4b015b10801225d45c",
+      "previous_prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-homological/ext",
+        "algebra-homological/hom-left-exact"
+      ],
+      "prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-homological/ext",
+        "algebra-homological/hom-left-exact"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/long-exact-sequence-tor",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/long-exact-sequence-tor",
-        "outcome": "pending",
-        "source_sha256": "a92c8a8d0ee206f1f089057c806833d07a7c2bb46ed610bddb1e07f740db303c",
-        "previous_prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-homological/connecting-homomorphism-lemma",
-          "algebra-homological/derived-functor",
-          "algebra-homological/tor"
-        ],
-        "prerequisites": [
-          "algebra-modules/short-exact-sequence",
-          "algebra-homological/connecting-homomorphism-lemma",
-          "algebra-homological/derived-functor",
-          "algebra-homological/tor"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a92c8a8d0ee206f1f089057c806833d07a7c2bb46ed610bddb1e07f740db303c",
+      "previous_prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-homological/connecting-homomorphism-lemma",
+        "algebra-homological/derived-functor",
+        "algebra-homological/tor"
+      ],
+      "prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-homological/connecting-homomorphism-lemma",
+        "algebra-homological/derived-functor",
+        "algebra-homological/tor"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/mapping-cone",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/mapping-cone",
-        "outcome": "pending",
-        "source_sha256": "e586c4291b3dcb361cbb26963d53798de8d0905ef43a33c9609509f23828fa80",
-        "previous_prerequisites": [
-          "algebra-homological/chain-map",
-          "algebra-homological/cochain-complex"
-        ],
-        "prerequisites": [
-          "algebra-homological/chain-map",
-          "algebra-homological/cochain-complex"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e586c4291b3dcb361cbb26963d53798de8d0905ef43a33c9609509f23828fa80",
+      "previous_prerequisites": [
+        "algebra-homological/chain-map",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites": [
+        "algebra-homological/chain-map",
+        "algebra-homological/cochain-complex"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/nine-lemma",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/nine-lemma",
-        "outcome": "pending",
-        "source_sha256": "a28cf10750439b1a4af357631592aa42637296f7c8260123cec007a98331818d",
-        "previous_prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-category-theory/exact-sequence-categorical"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-category-theory/exact-sequence-categorical"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a28cf10750439b1a4af357631592aa42637296f7c8260123cec007a98331818d",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/exact-sequence-categorical"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/exact-sequence-categorical"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/projective-resolution",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/projective-resolution",
-        "outcome": "pending",
-        "source_sha256": "a209ce261459145322b3828a199472bedcd55a7ae43a34740429763773a1f22a",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/chain-complex",
-          "algebra-modules/projective-module",
-          "algebra-homological/exact-complex"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/module",
-          "algebra-homological/chain-complex",
-          "algebra-modules/projective-module",
-          "algebra-homological/exact-complex"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a209ce261459145322b3828a199472bedcd55a7ae43a34740429763773a1f22a",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/chain-complex",
+        "algebra-modules/projective-module",
+        "algebra-homological/exact-complex"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/chain-complex",
+        "algebra-modules/projective-module",
+        "algebra-homological/exact-complex"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/snake-lemma",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/snake-lemma",
-        "outcome": "pending",
-        "source_sha256": "d8059aa5e454e6be3de4cf97f39dcd25b106fb471cf8c984b170476dd3b4a5d7",
-        "previous_prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-category-theory/kernel-categorical",
-          "algebra-category-theory/cokernel-categorical",
-          "algebra-modules/cokernel-module",
-          "algebra-modules/exact-sequence-modules"
-        ],
-        "prerequisites": [
-          "algebra-category-theory/abelian-category",
-          "algebra-category-theory/kernel-categorical",
-          "algebra-category-theory/cokernel-categorical",
-          "algebra-modules/cokernel-module",
-          "algebra-modules/exact-sequence-modules"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8059aa5e454e6be3de4cf97f39dcd25b106fb471cf8c984b170476dd3b4a5d7",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical",
+        "algebra-modules/cokernel-module",
+        "algebra-modules/exact-sequence-modules"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical",
+        "algebra-modules/cokernel-module",
+        "algebra-modules/exact-sequence-modules"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/snake-lemma-corollary",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/snake-lemma-corollary",
-        "outcome": "pending",
-        "source_sha256": "1df59d9a2b8d3b922cf13ceb3707437df9e5f17dca625925febdba5ba1a84282",
-        "previous_prerequisites": [
-          "algebra-homological/chain-complex",
-          "algebra-modules/exact-sequence-modules",
-          "algebra-homological/homology-module",
-          "algebra-homological/snake-lemma",
-          "algebra-homological/connecting-homomorphism-lemma"
-        ],
-        "prerequisites": [
-          "algebra-homological/chain-complex",
-          "algebra-modules/exact-sequence-modules",
-          "algebra-homological/homology-module",
-          "algebra-homological/snake-lemma",
-          "algebra-homological/connecting-homomorphism-lemma"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1df59d9a2b8d3b922cf13ceb3707437df9e5f17dca625925febdba5ba1a84282",
+      "previous_prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-modules/exact-sequence-modules",
+        "algebra-homological/homology-module",
+        "algebra-homological/snake-lemma",
+        "algebra-homological/connecting-homomorphism-lemma"
+      ],
+      "prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-modules/exact-sequence-modules",
+        "algebra-homological/homology-module",
+        "algebra-homological/snake-lemma",
+        "algebra-homological/connecting-homomorphism-lemma"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/tensor-right-exact",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/tensor-right-exact",
-        "outcome": "pending",
-        "source_sha256": "83cf850c5dbac540caddd3f63666eb3c59b607b1a68756458e9c67b0869edf94",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/tensor-product",
-          "algebra-modules/short-exact-sequence"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/tensor-product",
-          "algebra-modules/short-exact-sequence"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83cf850c5dbac540caddd3f63666eb3c59b607b1a68756458e9c67b0869edf94",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/tensor-product",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/tensor-product",
+        "algebra-modules/short-exact-sequence"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-homological/tor",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-homological/tor",
-        "outcome": "pending",
-        "source_sha256": "c0bb18ef573aa34ec2bec82005ba991a12ccbcb893758224b1719393aad55208",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/tensor-product",
-          "algebra-homological/projective-resolution",
-          "algebra-homological/chain-complex",
-          "algebra-homological/homology-module"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/tensor-product",
-          "algebra-homological/projective-resolution",
-          "algebra-homological/chain-complex",
-          "algebra-homological/homology-module"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0bb18ef573aa34ec2bec82005ba991a12ccbcb893758224b1719393aad55208",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/tensor-product",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/chain-complex",
+        "algebra-homological/homology-module"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/tensor-product",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/chain-complex",
+        "algebra-homological/homology-module"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules",
-        "outcome": "pending",
-        "source_sha256": "75334f6788eab1e815b63c39051f1c18700b1475251eb43d20b506dde707a05e",
-        "previous_prerequisites": [],
-        "prerequisites": []
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "75334f6788eab1e815b63c39051f1c18700b1475251eb43d20b506dde707a05e",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/tensor-hom-adjunction",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/tensor-hom-adjunction",
-        "outcome": "pending",
-        "source_sha256": "9a198c2ecfb5d9b97c9efc89d0204142bf08374bc0e7f7d78218efacbfaddef1",
-        "previous_prerequisites": [
-          "algebra-modules/tensor-product",
-          "algebra-modules/hom-module",
-          "algebra-modules/tensor-product-universal-property"
-        ],
-        "prerequisites": [
-          "algebra-modules/tensor-product",
-          "algebra-modules/hom-module",
-          "algebra-modules/tensor-product-universal-property"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a198c2ecfb5d9b97c9efc89d0204142bf08374bc0e7f7d78218efacbfaddef1",
+      "previous_prerequisites": [
+        "algebra-modules/tensor-product",
+        "algebra-modules/hom-module",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "prerequisites": [
+        "algebra-modules/tensor-product",
+        "algebra-modules/hom-module",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/tensor-product",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/tensor-product",
-        "outcome": "pending",
-        "source_sha256": "e0f81acc45af6db7359e893752c53976d150ad7fe55096ad39486fda114ec9c6",
-        "previous_prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/bilinear-map",
-          "algebra-modules/module",
-          "algebra-modules/tensor-product-universal-property"
-        ],
-        "prerequisites": [
-          "algebra-rings/ring",
-          "algebra-modules/bilinear-map",
-          "algebra-modules/module",
-          "algebra-modules/tensor-product-universal-property"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0f81acc45af6db7359e893752c53976d150ad7fe55096ad39486fda114ec9c6",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/tensor-product-algebras",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/tensor-product-algebras",
-        "outcome": "pending",
-        "source_sha256": "0022cdde9e20fce7bc3e73320a1f293bf0131ed9e2949125f7c512542728d5ca",
-        "previous_prerequisites": [
-          "algebra-rings/commutative-ring",
-          "algebra-modules/tensor-product"
-        ],
-        "prerequisites": [
-          "algebra-rings/commutative-ring",
-          "algebra-modules/tensor-product"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0022cdde9e20fce7bc3e73320a1f293bf0131ed9e2949125f7c512542728d5ca",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/tensor-product"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/tensor-product-universal-property",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/tensor-product-universal-property",
-        "outcome": "pending",
-        "source_sha256": "b350897b3ce52e924ce34de65109b2d11b011b5b7022ae57a10f65fcbdf2c5aa",
-        "previous_prerequisites": [
-          "algebra-modules/bilinear-map",
-          "algebra-modules/module-homomorphism"
-        ],
-        "prerequisites": [
-          "algebra-modules/bilinear-map",
-          "algebra-modules/module-homomorphism"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b350897b3ce52e924ce34de65109b2d11b011b5b7022ae57a10f65fcbdf2c5aa",
+      "previous_prerequisites": [
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-modules/bilinear-map",
+        "algebra-modules/module-homomorphism"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/tensor-product-universal-property-prop",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/tensor-product-universal-property-prop",
-        "outcome": "pending",
-        "source_sha256": "9c6bfd0ad7717b51e9a5c8b9f539b127e9935871bb3c31bf82919195260afdd6",
-        "previous_prerequisites": [
-          "algebra-modules/tensor-product",
-          "algebra-modules/bilinear-map",
-          "algebra-modules/tensor-product-universal-property"
-        ],
-        "prerequisites": [
-          "algebra-modules/tensor-product",
-          "algebra-modules/bilinear-map",
-          "algebra-modules/tensor-product-universal-property"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c6bfd0ad7717b51e9a5c8b9f539b127e9935871bb3c31bf82919195260afdd6",
+      "previous_prerequisites": [
+        "algebra-modules/tensor-product",
+        "algebra-modules/bilinear-map",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "prerequisites": [
+        "algebra-modules/tensor-product",
+        "algebra-modules/bilinear-map",
+        "algebra-modules/tensor-product-universal-property"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/third-isomorphism-theorem-modules",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/third-isomorphism-theorem-modules",
-        "outcome": "pending",
-        "source_sha256": "211c1674b8cfdac928907068edefca575a6786be14909e596596b4f2fede8478",
-        "previous_prerequisites": [
-          "algebra-modules/submodule",
-          "algebra-modules/quotient-module"
-        ],
-        "prerequisites": [
-          "algebra-modules/submodule",
-          "algebra-modules/quotient-module"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "211c1674b8cfdac928907068edefca575a6786be14909e596596b4f2fede8478",
+      "previous_prerequisites": [
+        "algebra-modules/submodule",
+        "algebra-modules/quotient-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/submodule",
+        "algebra-modules/quotient-module"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/torsion-free-module",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/torsion-free-module",
-        "outcome": "pending",
-        "source_sha256": "9324251dca1422cce6c9b0b821e53e4fe3bf4030aadfac27c49a5a52f6fb2cdb",
-        "previous_prerequisites": [
-          "algebra-rings/integral-domain",
-          "algebra-modules/module",
-          "algebra-modules/torsion-element"
-        ],
-        "prerequisites": [
-          "algebra-rings/integral-domain",
-          "algebra-modules/module",
-          "algebra-modules/torsion-element"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9324251dca1422cce6c9b0b821e53e4fe3bf4030aadfac27c49a5a52f6fb2cdb",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-modules/module",
+        "algebra-modules/torsion-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-modules/module",
+        "algebra-modules/torsion-element"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-modules/torsion-module",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-modules/torsion-module",
-        "outcome": "pending",
-        "source_sha256": "7cd8f76f350ec23d07f880e8870cb6ed2d2120b59a47262d9897998bbe385793",
-        "previous_prerequisites": [
-          "algebra-rings/integral-domain",
-          "algebra-modules/module",
-          "algebra-modules/torsion-element"
-        ],
-        "prerequisites": [
-          "algebra-rings/integral-domain",
-          "algebra-modules/module",
-          "algebra-modules/torsion-element"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7cd8f76f350ec23d07f880e8870cb6ed2d2120b59a47262d9897998bbe385793",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-modules/module",
+        "algebra-modules/torsion-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-modules/module",
+        "algebra-modules/torsion-element"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-coalgebras/hopf-algebra",
-      "reason": "Not individually checked to completion yet; retained for substantive review.",
-      "provisional_record": {
-        "id": "algebra-coalgebras/hopf-algebra",
-        "outcome": "pending",
-        "source_sha256": "9099f5e7e030e0b0cfc3b94418b3e2009d0f7d78f7838a3d19463092937af0d5",
-        "previous_prerequisites": [
-          "algebra-rings/commutative-ring",
-          "algebra-coalgebras/bialgebra",
-          "linear-algebra/linear-map"
-        ],
-        "prerequisites": [
-          "algebra-rings/commutative-ring",
-          "algebra-coalgebras/bialgebra",
-          "linear-algebra/linear-map"
-        ]
-      }
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9099f5e7e030e0b0cfc3b94418b3e2009d0f7d78f7838a3d19463092937af0d5",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-coalgebras/bialgebra",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-coalgebras/bialgebra",
+        "linear-algebra/linear-map"
+      ],
+      "evidence": "Full source and each listed prerequisite target were read and checked. The definition, theorem statements, and examples use the listed concepts as stated; no additional direct prerequisite is required."
     },
     {
       "id": "algebra-category-theory/right-exact-functor",
-      "outcome": "reviewed_unchanged",
-      "source_sha256": "62069cbb3499acb212a3a9e658282576439a1c1bfd0c32e509af972daa9522a1",
+      "outcome": "corrected",
+      "source_sha256": "350a1b3c9d307706081bcb55de1ac3426b9f16d9eb5c7ef67c7645a8eae1fbd6",
       "previous_prerequisites": [
         "algebra-category-theory/abelian-category",
         "algebra-category-theory/functor",
@@ -1892,11 +1771,32 @@
       ],
       "prerequisites": [
         "algebra-category-theory/abelian-category",
+        "algebra-category-theory/additive-category",
         "algebra-category-theory/functor",
         "algebra-category-theory/colimit",
         "algebra-category-theory/cokernel-categorical"
       ],
-      "evidence": "The definition assumes abelian categories and an additive functor preserving finite colimits/cokernels; category, functor, colimit, and cokernel are direct, with additivity inherited from the stated context. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+      "evidence": "The source explicitly requires an additive functor; added the direct additive-category prerequisite to the existing abelian-category, functor, colimit, and cokernel inputs. Full source and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-homological/cohomology-module",
+      "outcome": "corrected",
+      "source_sha256": "ce57c3d28ef2cb3821fbd9052479c0ff96d8ca1f596be044fea2e7ff07ac58ae",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/cochain-complex",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module",
+        "algebra-modules/quotient-module"
+      ],
+      "evidence": "The cohomology construction directly uses kernels, images, and quotient modules in addition to the ring, module, and cochain-complex context. Full source and each listed prerequisite target were read and checked; the exactness equivalence is recorded as a property."
     }
-  ]
+  ],
+  "triage_records": []
 }

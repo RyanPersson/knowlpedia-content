@@ -6,7 +6,7 @@ summary = "In a local ring, a finitely generated module cannot equal its maximal
 aliases = ["nakayama-lemma", "Nakayama's lemma"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/nakayama-lemma.md"
-prerequisites = ["algebra-commutative/local-ring", "algebra-rings/commutative-ring", "algebra-commutative/jacobson-radical-intersection-maximals"]
+prerequisites = ["algebra-commutative/local-ring", "algebra-rings/commutative-ring", "algebra-commutative/jacobson-radical-intersection-maximals", "algebra-modules/module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

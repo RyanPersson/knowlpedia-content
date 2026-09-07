@@ -1,0 +1,52 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles/integral-chern-classes",
+      "scope": "foundation",
+      "outcome": "corrected",
+      "source_sha256": "81ccb8bcfd2d0abfa1bf2047f548a8a2167120b0af7d3be7a3ce35c444c70bb3",
+      "evidence": "Added the missing integral definition with all four standard axioms in the opening: naturality, Whitney sum, c0=1 and vanishing above rank, and tautological-line normalization c1(O(-1))=-u on CP1. The core explains universal classes on BU(n), classifying-map uniqueness, and the flag-bundle splitting argument; its Chern\u2013Weil paragraph distinguishes the real image from torsion. The tautological-line sign matches Hatcher, Vector Bundles and K-Theory, Chapter 3, \u00a73.1, pp. 77\u201384, and the stated det(I+iF/(2pi)) convention. Root independently checked all axioms against Hatcher Theorem3.2 and added explicit isomorphism invariance/family quantification; CP1 normalization fixes CPinfinity generator via inclusion. Full topological bundle local triviality, pullback, Whitney and compatible smooth comparison read.",
+      "previous_prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/direct-sum-vector-bundle",
+        "fiber-bundles/paracompact-topological-space",
+        "topology/singular-cohomology-group",
+        "fiber-bundles/classifying-space-bg"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-complex-vector-bundle",
+        "topology/cup-product-and-cohomology-ring",
+        "fiber-bundles/paracompact-topological-space",
+        "topology/singular-cohomology-group",
+        "differential-geometry/complex-projective-space"
+      ],
+      "sources": [
+        "https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf#page=77",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/integral-chern-classes.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/topological-complex-vector-bundle",
+      "scope": "foundation",
+      "outcome": "corrected",
+      "source_sha256": "2b7476436d588e4ff682b40eda07fa04daa646bbecbbe2cef20cd00c6c6ccd43",
+      "evidence": "Added a complete topological definition: arbitrary-base topology, continuous surjection, constant complex-vector-space fibers, and local homeomorphisms to U times C^r that restrict fiberwise complex-linearly. The entry also defines continuous pullback and fiberwise direct sums, while recording the smooth direct-sum comparison only as an example.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/product-topology",
+        "linear-algebra/vector-space",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/topological-complex-vector-bundle.knowl.md",
+        "https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf#page=77"
+      ],
+      "unresolved": []
+    }
+  ],
+  "triage_records": []
+}

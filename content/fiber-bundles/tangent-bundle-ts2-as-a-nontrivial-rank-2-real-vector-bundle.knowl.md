@@ -6,7 +6,7 @@ summary = "The tangent bundle of the 2-sphere is a rank-2 real vector bundle tha
 aliases = ["tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle", "The tangent bundle of the 2-sphere is nontrivial"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle.md"
-prerequisites = ["fiber-bundles/tangent-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/trivial-vector-bundle-mvm", "fiber-bundles/nowhere-vanishing-section"]
+prerequisites = ["fiber-bundles/tangent-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/trivial-vector-bundle-mvm", "fiber-bundles/nowhere-vanishing-section", "fiber-bundles/vector-field"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,7 @@ Let \(S^2\) be the 2-sphere. Its [[fiber-bundles/tangent-bundle|tangent bundle]]
 
 The bundle \(TS^2\) is **not** isomorphic (as a rank-2 real vector bundle) to the [[fiber-bundles/trivial-vector-bundle-mvm|trivial rank-2 bundle]] \(S^2\times \mathbb R^2\).
 
-A standard proof uses the “hairy ball” phenomenon: every continuous tangent vector field on \(S^2\) has a zero. Since a global [[fiber-bundles/nowhere-vanishing-section|nowhere-zero section]] would trivialize a rank-1 subbundle and (together with a second independent section) produce a global frame, this obstructs triviality.
+A standard proof uses the “hairy ball” phenomenon: every continuous tangent vector field on \(S^2\) has a zero. A trivial rank-2 bundle has a constant nowhere-zero section, so the absence of such a section obstructs triviality.
 
 ## Equivalent characterizations
 Equivalently:

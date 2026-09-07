@@ -6,12 +6,12 @@ summary = "A lift of the oriented orthonormal frame bundle through the double co
 aliases = ["spin lift of the frame bundle", "principal Spin bundle"]
 domains = ["fiber-bundles", "differential-geometry", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/special-orthonormal-frame-bundle-reduction", "fiber-bundles/bundle-map", "lie-groups/spin-group", "algebra-groups/group-action"]
+prerequisites = ["fiber-bundles/special-orthonormal-frame-bundle-reduction", "fiber-bundles/bundle-map", "lie-groups/spin-group", "algebra-groups/group-action", "fiber-bundles/principal-g-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((M,g)\) be an oriented Riemannian \(n\)-manifold, let \(P_{\mathrm{SO}}(M)\) be its [[fiber-bundles/special-orthonormal-frame-bundle-reduction|oriented orthonormal frame bundle]], and let \(\lambda:\mathrm{Spin}(n)\to\mathrm{SO}(n)\) be the double covering. A **spin structure** on \(M\) is a principal \(\mathrm{Spin}(n)\)-bundle \(P_{\mathrm{Spin}}(M)\to M\) together with a [[fiber-bundles/bundle-map|bundle map]]
+Let \((M,g)\) be an oriented Riemannian \(n\)-manifold with \(n\ge1\), let \(P_{\mathrm{SO}}(M)\) be its [[fiber-bundles/special-orthonormal-frame-bundle-reduction|oriented orthonormal frame bundle]], and let \(\lambda:\mathrm{Spin}(n)\to\mathrm{SO}(n)\) be the double covering. A **spin structure** on \(M\) is a principal \(\mathrm{Spin}(n)\)-bundle \(P_{\mathrm{Spin}}(M)\to M\) together with a [[fiber-bundles/bundle-map|bundle map]]
 \[
 \Phi:P_{\mathrm{Spin}}(M)\longrightarrow P_{\mathrm{SO}}(M)
 \]
@@ -25,7 +25,7 @@ w_2(TM)=0.
 \]
 When spin structures exist, their isomorphism classes form a torsor for \(H^1(M;\mathbb Z/2)\); there is generally no preferred origin in this torsor.
 
-The Riemannian definition uses orthonormal frames, but existence and equivalence do not depend on the chosen metric: changing the metric canonically transports the lifting problem to another [[fiber-bundles/oriented-frame|oriented frame]] reduction.
+The Riemannian definition uses orthonormal frames, but existence and equivalence do not depend on the chosen metric: the space of Riemannian metrics is contractible, so changing the metric does not change the lifting problem up to isomorphism class.
 
 ## Associated geometry
 
@@ -33,7 +33,7 @@ A spin structure lifts the Levi-Civita connection to \(P_{\mathrm{Spin}}(M)\). A
 
 ## Examples and non-examples
 
-The standard oriented \(\mathbb R^n\) has a spin structure obtained from its trivial oriented orthonormal frame bundle. Every oriented surface is spin; its spin structures form a torsor for \(H^1(M;\mathbb Z/2)\). Complex [[algebraic-geometry-foundations/projective-space|projective space]] \(\mathbb{CP}^2\) is oriented but not spin because \(w_2(T\mathbb{CP}^2)\neq0\). The latter computation follows from the relation between Chern and Stiefel–Whitney classes.
+The standard oriented \(\mathbb R^n\) has a spin structure obtained from its trivial oriented orthonormal frame bundle. Every oriented surface is spin; its spin structures form a torsor for \(H^1(M;\mathbb Z/2)\). Complex [[differential-geometry/complex-projective-space|projective space]] \(\mathbb{CP}^2\) is oriented but not spin because \(w_2(T\mathbb{CP}^2)\neq0\). The latter computation follows from the relation between Chern and Stiefel–Whitney classes.
 
 ## References
 

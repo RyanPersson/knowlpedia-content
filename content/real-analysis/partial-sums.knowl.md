@@ -6,14 +6,16 @@ summary = "The finite sums obtained by truncating a series."
 aliases = ["partial-sums", "Partial sums"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/partial-sums.md"
-prerequisites = []
+prerequisites = ["shared-foundations/sequence", "shared-foundations/complex-numbers-c"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **partial sum** is a finite sum \(s_n=\sum_{k=1}^n a_k\) associated to a [[real-analysis/series|series]] \(\sum_{k=1}^\infty a_k\).
+For a [[shared-foundations/sequence|sequence]] \((a_k)_{k\ge1}\) of real or complex numbers, the **\(n\)th partial sum** is the finite sum \(s_n=\sum_{k=1}^n a_k\), for \(n\ge1\). Equivalently, \(s_0=0\) and \(s_n=s_{n-1}+a_n\).
 
-The sequence \((s_n)\) encodes the series: statements about convergence or divergence of the series are statements about whether the partial sums form a sequence with a limit, as formalized in [[real-analysis/convergent-series|convergent series]].
+## Relation to a series
+
+The sequence \((s_n)\) encodes the [[real-analysis/series|series]] \(\sum_{k=1}^{\infty}a_k\): statements about convergence or divergence of the series are statements about whether the partial sums form a sequence with a limit, as formalized in [[real-analysis/convergent-series|convergent series]].
 
 ## Examples
 

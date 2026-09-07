@@ -6,7 +6,7 @@ summary = "The cochain complex of smooth differential forms with the exterior de
 aliases = ["complex of differential forms", "de Rham cochain complex"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "algebra-homological/cochain-complex", "linear-algebra/vector-space", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/wedge-product-of-differential-forms"]
+prerequisites = ["fiber-bundles/smooth-manifold", "algebra-homological/cochain-complex", "linear-algebra/vector-space", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

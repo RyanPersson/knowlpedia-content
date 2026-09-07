@@ -6,7 +6,7 @@ summary = "A bounded function is Riemann integrable exactly when its total oscil
 aliases = ["oscillation-criterion", "Oscillation criterion for Riemann integrability"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/oscillation-criterion.md"
-prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/oscillation", "real-analysis/riemann-integrable-function", "real-analysis/upper-sum", "real-analysis/lower-sum", "real-analysis/riemann-integrability-finite-discontinuities"]
+prerequisites = ["real-analysis/partition-of-an-interval", "real-analysis/oscillation", "real-analysis/riemann-integrable-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

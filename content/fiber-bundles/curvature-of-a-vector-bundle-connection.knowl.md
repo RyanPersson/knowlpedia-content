@@ -6,7 +6,7 @@ summary = "The obstruction to commuting covariant derivatives, yielding an endom
 aliases = ["curvature-of-a-vector-bundle-connection", "Curvature of a vector bundle connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/curvature-of-a-vector-bundle-connection.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/lie-bracket", "fiber-bundles/differential-k-form"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/lie-bracket", "fiber-bundles/vector-bundle-valued-differential-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,7 +19,7 @@ R^\nabla(X,Y)s \;:=\; \nabla_X\nabla_Y s \;-\; \nabla_Y\nabla_X s \;-\; \nabla_{
 \]
 where \([X,Y]\) is the [[fiber-bundles/lie-bracket|Lie bracket]] of vector fields.
 
-For each \(X,Y\), the operator \(R^\nabla(X,Y):\Gamma(E)\to\Gamma(E)\) is \(C^\infty(M)\)-linear in \(s\), hence defines a bundle endomorphism of \(E\). Moreover, \(R^\nabla\) is \(C^\infty(M)\)-linear in \(X\) and \(Y\) and skew-symmetric, so it can be viewed as an \(\mathrm{End}(E)\)-valued [[fiber-bundles/differential-k-form|differential 2-form]] on \(M\). In a local frame, it is represented by the [[fiber-bundles/curvature-2-form-in-a-frame|curvature 2-form]] matrix.
+For each \(X,Y\), the operator \(R^\nabla(X,Y):\Gamma(E)\to\Gamma(E)\) is \(C^\infty(M)\)-linear in \(s\), hence defines a bundle endomorphism of \(E\). Moreover, \(R^\nabla\) is \(C^\infty(M)\)-linear in \(X\) and \(Y\) and skew-symmetric, so it can be viewed as an \(\mathrm{End}(E)\)-valued [[fiber-bundles/vector-bundle-valued-differential-form|bundle-valued differential 2-form]] on \(M\). In a local frame, it is represented by the [[fiber-bundles/curvature-2-form-in-a-frame|curvature 2-form]] matrix.
 
 ## Examples
 1. **Trivial connection is flat.** For the trivial connection on \(M\times\mathbb R^r\), mixed derivatives commute and \(R^\nabla=0\).

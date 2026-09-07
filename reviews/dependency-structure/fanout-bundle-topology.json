@@ -1,0 +1,579 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles/equivariant-cohomology",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "1c27fe3e804e46dd0fb87b5cf67b62fe3ab988d6613ac38d8401ad9af8055768",
+      "evidence": "Core defines the Cartan complex as (S(g*) tensor Omega*(M))^G and states the d_G rule; compactness is required for the Cartan de Rham comparison, while the point, trivial-action, and free-action examples match the Borel model.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "changes": [
+        "Qualified the Cartan-model claim at the opening with compactness and characteristic-zero coefficients."
+      ],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/equivariant-cohomology.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/universal-principal-bundle-egbg",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/universal-principal-bundle-egbg",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/equivariant-cohomology/index.html"
+    },
+    {
+      "id": "fiber-bundles/euler-class-as-zero-section",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5e416e2b8c86e8f80dbc5537fefc2f694cee85ba1398420424521057c7d86f6",
+      "evidence": "Core correctly defines e(E)=0_E^*u_E in H^r(B;Z) for an oriented rank-r bundle and explicitly treats relative pairs, pullback naturality, transverse zeros, and the nonorientable local-coefficient caveat.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/euler-class-as-zero-section.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/thom-class",
+        "fiber-bundles/zero-section"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/thom-class",
+        "fiber-bundles/zero-section"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/euler-class-as-zero-section/index.html"
+    },
+    {
+      "id": "fiber-bundles/euler-class-obstruction-to-nonzero-section",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "0b5afe59723b456fd66cd461d3689b22f8b8ae27277fe9d6737d35523dd96085",
+      "evidence": "Core identifies e(E) as the primary obstruction to a sphere-bundle section and correctly limits completeness to dim X <= n; the CW and orientation hypotheses support the obstruction group and the higher-obstruction warning.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "changes": [
+        "Added the orientation, Euler-class, zero-section, and nowhere-zero-section prerequisites required by the obstruction statement."
+      ],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/euler-class-obstruction-to-nonzero-section.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/sphere-bundle",
+        "fiber-bundles/euler-class-as-zero-section",
+        "fiber-bundles/zero-section"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/sphere-bundle",
+        "fiber-bundles/euler-class-as-zero-section",
+        "fiber-bundles/zero-section"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/euler-class-obstruction-to-nonzero-section/index.html"
+    },
+    {
+      "id": "fiber-bundles/homotopy-class-mbg",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52a8fb36a56154ee554411915ff222e54fab9024ad49339475dcfd9bef3b824a",
+      "evidence": "Core gives unbased homotopy classes of maps M -> BG, the precomposition bijection, and correctly distinguishes based sphere classes from unbased classes via pi_1 action.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/homotopy-class-mbg.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/homotopy-class-mbg/index.html"
+    },
+    {
+      "id": "fiber-bundles/nonabelian-cech-h1-principal-bundles",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efba93c96d2746898ce441ea63cb26ff16ea15529d73902f3e51d0b6274654ad",
+      "evidence": "Fixed-cover cocycles use the correct h_i^{-1}g_ijh_j action; refinement and the pointed-set distinction are stated, and the abelian U(1) example correctly lands in H^2(M;Z).",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/nonabelian-cech-h1-principal-bundles.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/nonabelian-cech-h1-principal-bundles/index.html"
+    },
+    {
+      "id": "fiber-bundles/pontryagin-number",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb2f9c337b0da04c59179a60f4b4fd1da15d14f080a28daf6665702afdb08980",
+      "evidence": "Core has the necessary closed oriented 4k-manifold and partition-of-k hypotheses; degree counting makes the evaluation integral, and the CP^2 and signature checks are consistent.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/pontryagin-number.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "topology/cup-product-and-cohomology-ring"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "topology/cup-product-and-cohomology-ring"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/pontryagin-number/index.html"
+    },
+    {
+      "id": "fiber-bundles/projective-module-bundle-reconstruction",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a301e34031b227348c6820830a6cf9493418aa69cc82ec87c0ee738af83ea421",
+      "evidence": "Idempotent evaluation produces fibers im p(x), while Q/I_xQ gives the intrinsic fiber and Gamma(E_Q) is identified with Q; the finite-dimensional manifold assumptions support smooth reconstruction.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/projective-module-bundle-reconstruction.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-modules/projective-summand-of-free",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-modules/projective-summand-of-free",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/projective-module-bundle-reconstruction/index.html"
+    },
+    {
+      "id": "fiber-bundles/section-module-is-finitely-generated-projective",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "979eccdc929c61ae02c26f5357bc7814edc413396dae071372695b0357cecf48",
+      "evidence": "Complementary-bundle proof correctly yields Gamma(E) as a summand of finite free C-infinity sections; the noncompact and disconnected-rank qualifications state exactly where finite generation can fail.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/section-module-is-finitely-generated-projective.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "algebra-modules/projective-module",
+        "differential-geometry/algebra-of-smooth-functions"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "algebra-modules/projective-module",
+        "differential-geometry/algebra-of-smooth-functions"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/section-module-is-finitely-generated-projective/index.html"
+    },
+    {
+      "id": "fiber-bundles/serre-swan-idempotent-construction",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a786a55cae1d4aa952e89ebf988bf8f4c3f8f52d66fe7523bc2ba00da66a35f2",
+      "evidence": "The idempotent image and complementary image bundles are correctly described, including locally constant rank and the section-module identification p C-infinity(M)^n; the sphere tangent-bundle projector is a valid example.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/serre-swan-idempotent-construction.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/algebra-of-smooth-functions",
+        "fiber-bundles/vector-bundle",
+        "algebra-rings/idempotent-element",
+        "fiber-bundles/vector-subbundle"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/algebra-of-smooth-functions",
+        "fiber-bundles/vector-bundle",
+        "algebra-rings/idempotent-element",
+        "fiber-bundles/vector-subbundle"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/serre-swan-idempotent-construction/index.html"
+    },
+    {
+      "id": "fiber-bundles/serre-swan-theorem",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "01c6b863af6135c0e36c658743c007964f15c17c7788f5a9412ed7e4440dcc74",
+      "evidence": "The fixed-base section functor is correctly presented as a categorical equivalence, with finite-dimensional smooth hypotheses and the separate compact-continuous formulation preventing the common C(X) versus C-infinity confusion.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/serre-swan-theorem.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+        "fiber-bundles/vector-bundle",
+        "algebra-modules/category-of-finitely-generated-projective-modules",
+        "algebra-category-theory/equivalence-of-categories",
+        "fiber-bundles/section-module-is-finitely-generated-projective",
+        "fiber-bundles/module-of-smooth-sections"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+        "fiber-bundles/vector-bundle",
+        "algebra-modules/category-of-finitely-generated-projective-modules",
+        "algebra-category-theory/equivalence-of-categories",
+        "fiber-bundles/section-module-is-finitely-generated-projective",
+        "fiber-bundles/module-of-smooth-sections"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/serre-swan-theorem/index.html"
+    },
+    {
+      "id": "fiber-bundles/sheaf-of-smooth-sections",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a297466b6fca4d3124e81d7267fa9e725ea9e0506c6271672621ed970ee542d",
+      "evidence": "Restriction and gluing establish the sheaf, local frames establish finite local freeness, and the stalk/global-module distinction is explicitly maintained.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/sheaf-of-smooth-sections.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "differential-geometry/sheaf-of-smooth-functions"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "differential-geometry/sheaf-of-smooth-functions"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/sheaf-of-smooth-sections/index.html"
+    },
+    {
+      "id": "fiber-bundles/spin-structure",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "3c3d86e36c3c6dd9bf5acf9b9527a270a5788c5eecff96133cafc9c298398871",
+      "evidence": "The Spin(n)-equivariant lift of the oriented orthonormal frame bundle is correct; w_2(TM)=0 and the H^1(M;Z/2) torsor classification are stated with the required oriented Riemannian setting.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "changes": [
+        "Added the Stiefel–Whitney and tangent-bundle prerequisites used by the existence criterion; clarified metric-independence as an isomorphism-class statement."
+      ],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/spin-structure.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/special-orthonormal-frame-bundle-reduction",
+        "fiber-bundles/bundle-map",
+        "lie-groups/spin-group",
+        "algebra-groups/group-action",
+        "fiber-bundles/stiefel-whitney-class",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/special-orthonormal-frame-bundle-reduction",
+        "fiber-bundles/bundle-map",
+        "lie-groups/spin-group",
+        "algebra-groups/group-action",
+        "fiber-bundles/stiefel-whitney-class",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/spin-structure/index.html"
+    },
+    {
+      "id": "fiber-bundles/splitting-principle",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b6cc7c5f2dcfa43ffa859289693abe53d31c9a6c35f910527dea92732166c85",
+      "evidence": "The complete flag bundle has line-bundle quotients, Hermitian complements split the filtration, and the iterated projective-bundle theorem supplies injectivity of p^*; the Chern-root calculation follows.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/splitting-principle.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/pullback-bundle",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/characteristic-class"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/pullback-bundle",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/characteristic-class"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/splitting-principle/index.html"
+    },
+    {
+      "id": "fiber-bundles/splitting-theorem-for-vector-bundles",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21f2f7355a2463559e9b747a125feec5526d8fb7c91ea836ae330480749d4ca8",
+      "evidence": "A bundle metric makes the orthogonal complement of the injected subbundle and q restricts to an isomorphism onto E\"; the proof correctly separates smooth/topological splitting from holomorphic splitting.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/splitting-theorem-for-vector-bundles.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/splitting-theorem-for-vector-bundles/index.html"
+    },
+    {
+      "id": "fiber-bundles/stiefel-whitney-class",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "095f3a66a60c4e635c5004a0fc613d55536ea084ca5d5324305897afcd611ba5",
+      "evidence": "The mod-2 normalization, naturality, Whitney product, rank truncation, orientability criterion, spin obstruction, and sphere stable-trivialization example are mutually consistent.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/stiefel-whitney-class.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "topology/singular-cohomology-group"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "topology/singular-cohomology-group"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/stiefel-whitney-class/index.html"
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "fd69e36464028d0e716d03cf833653222dde8050e33a047cffd372c672e96f7f",
+      "evidence": "The rendered core states rank two and nontriviality; hairy-ball supplies absence of a nowhere-zero tangent section, which directly contradicts the constant section available for a trivial bundle.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "changes": [
+        "Added the vector-field prerequisite and simplified the triviality obstruction to the direct constant-section argument."
+      ],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/trivial-vector-bundle-mvm",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/vector-field"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/trivial-vector-bundle-mvm",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/vector-field"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle/index.html"
+    },
+    {
+      "id": "fiber-bundles/thom-class",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39599548106fdd063bbf02f8fef033dfe71773891342ae3ce27c4974119eea6d",
+      "evidence": "Core defines the relative class by fiberwise orientation generators and states the relative Thom isomorphism, pullback naturality, disk/sphere model, and local-coefficient/mod-2 variants.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/thom-class.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/zero-section",
+        "topology/singular-cohomology-group"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/zero-section",
+        "topology/singular-cohomology-group"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/thom-class/index.html"
+    },
+    {
+      "id": "fiber-bundles/thom-isomorphism-theorem",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0e4be6d9fc8278e97b3f75e0c901f77a452eedd0f51dbb4f2c6a117392c31d0",
+      "evidence": "The theorem states the precise degree-shift isomorphism H^q(B;R) -> H^{q+r}(E,E-times;R), then correctly relates disk/sphere and Thom-space models and coefficient orientations.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/thom-isomorphism-theorem.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/thom-class"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/thom-class"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/thom-isomorphism-theorem/index.html"
+    },
+    {
+      "id": "fiber-bundles/universal-characteristic-class",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e8934f67f9ccc6db7d6cb87ad09c3b8c86528a0f1e11759e97c50f6d32a5432",
+      "evidence": "Pullback from c in H^n(BG;R) gives a natural class independent of classifying-map choice; the examples distinguish universal Stiefel-Whitney, Chern, and Pontryagin classes from arbitrary cohomology elements.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/universal-characteristic-class.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/classifying-map-of-a-principal-bundle",
+        "topology/singular-cohomology-group"
+      ],
+      "previous_prerequisites": [
+        "topology/topological-group",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/classifying-map-of-a-principal-bundle",
+        "topology/singular-cohomology-group"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/universal-characteristic-class/index.html"
+    },
+    {
+      "id": "fiber-bundles/universal-principal-bundle-egbg",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1621da76d2e5e327eddf8851ebe633350c726d62e390db40d9d9c410676ac39",
+      "evidence": "The contractible free EG with BG=EG/G and the paracompact classification property are stated explicitly; the U(1) and Z/2 infinite-sphere models correctly illustrate the construction.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/universal-principal-bundle-egbg.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/homotopy-class-mbg"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/homotopy-class-mbg"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/universal-principal-bundle-egbg/index.html"
+    },
+    {
+      "id": "fiber-bundles/whitney-sum-formula",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab81ae4f536a66b38ffdfc7e626eef9b8a20fda5668d7b625db8b7d20fe57a5e",
+      "evidence": "The total Chern and Stiefel-Whitney product identities, component formulas, coefficient rings, and Pontryagin/Euler consequences are correctly aligned with direct-sum bundles.",
+      "prerequisites_read": true,
+      "unresolved": [],
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/whitney-sum-formula.knowl.md",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/dependency-fanout/bundle-topology.json"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/characteristic-class",
+        "fiber-bundles/direct-sum-vector-bundle",
+        "fiber-bundles/chern-class",
+        "fiber-bundles/stiefel-whitney-class",
+        "topology/singular-cohomology-group",
+        "topology/cup-product-and-cohomology-ring"
+      ],
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/characteristic-class",
+        "fiber-bundles/direct-sum-vector-bundle",
+        "fiber-bundles/chern-class",
+        "fiber-bundles/stiefel-whitney-class",
+        "topology/singular-cohomology-group",
+        "topology/cup-product-and-cohomology-ring"
+      ],
+      "rendered_target": "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia/tmp/merged-production/fiber-bundles/whitney-sum-formula/index.html"
+    }
+  ],
+  "triage_records": []
+}

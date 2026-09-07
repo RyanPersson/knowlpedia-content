@@ -24,5 +24,5 @@ These conditions are exactly the statement that the changes of trivialization co
 
 ## Examples
 1. **Trivial bundle:** all \(t_{ij}\) are the identity, so the cocycle condition holds tautologically.
-2. **Möbius [[fiber-bundles/line-bundle|line bundle]]:** with \(t_{12}\equiv-1\), the cocycle identity on a triple overlap reduces to \((-1)\cdot(-1)=1\).
+2. **Möbius [[fiber-bundles/line-bundle|line bundle]]:** cover the circle by two arcs whose overlap has two components. Choose \(t_{12}=+1\) on one component and \(t_{12}=-1\) on the other, with \(t_{21}=t_{12}^{-1}\). These satisfy the cocycle identities and give the nontrivial line bundle. Choosing \(t_{12}\equiv-1\) on the entire overlap instead gives a trivial bundle after reversing one local frame.
 3. **Tangent bundle:** on triple overlaps of coordinate charts, the cocycle condition is the chain rule for Jacobians of coordinate changes.

@@ -6,7 +6,7 @@ summary = "A real sequence that is nondecreasing or nonincreasing."
 aliases = ["monotone-sequence", "Monotone sequence"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/monotone-sequence.md"
-prerequisites = []
+prerequisites = ["shared-foundations/sequence", "shared-foundations/real-numbers"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

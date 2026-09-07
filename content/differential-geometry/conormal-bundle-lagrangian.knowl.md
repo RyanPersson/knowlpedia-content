@@ -6,7 +6,7 @@ summary = "The conormal bundle of an embedded submanifold is Lagrangian in the a
 aliases = ["Lagrangian conormal theorem"]
 domains = ["differential-geometry", "fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/cotangent-bundle", "differential-geometry/canonical-symplectic-form-cotangent", "differential-geometry/lagrangian-submanifold"]
+prerequisites = ["differential-geometry/embedded-submanifold", "fiber-bundles/cotangent-bundle", "differential-geometry/canonical-symplectic-form-cotangent", "differential-geometry/lagrangian-submanifold", "fiber-bundles/zero-section"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,7 @@ Let \(S\subseteq Q\) be an [[differential-geometry/embedded-submanifold|embedded
 \[
 N^*S=\{\alpha_q\in T^*Q:q\in S,\ \alpha_q(v)=0\text{ for every }v\in T_qS\}
 \]
-is an embedded \(n\)-dimensional submanifold of the [[fiber-bundles/cotangent-bundle|cotangent bundle]] \(T^*Q\). With the [[differential-geometry/canonical-symplectic-form-cotangent|canonical symplectic form]] on \(T^*Q\), the submanifold \(N^*S\) is [[differential-geometry/lagrangian-submanifold|Lagrangian]]. This includes the [[fiber-bundles/zero-section|zero section]] as the case \(S=Q\). The statement uses the full conormal bundle over \(S\), including its zero covectors; deleting the zero section gives another, nonclosed Lagrangian submanifold.
+is an embedded \(n\)-dimensional submanifold of the [[fiber-bundles/cotangent-bundle|cotangent bundle]] \(T^*Q\). With the [[differential-geometry/canonical-symplectic-form-cotangent|canonical symplectic form]] on \(T^*Q\), the submanifold \(N^*S\) is [[differential-geometry/lagrangian-submanifold|Lagrangian]]. This includes the [[fiber-bundles/zero-section|zero section]] as the case \(S=Q\). The statement uses the full conormal bundle over \(S\), including its zero covectors; deleting the zero section gives another Lagrangian submanifold, which is nonclosed when S is nonempty of positive codimension.
 
 ## Proof mechanism
 

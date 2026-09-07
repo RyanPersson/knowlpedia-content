@@ -6,7 +6,7 @@ summary = "If the sum of supremum norms is finite, then the corresponding series
 aliases = ["m-test-corollary", "Corollary of the M-test"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/m-test-corollary.md"
-prerequisites = ["real-analysis/uniform-convergence"]
+prerequisites = ["real-analysis/uniform-convergence", "real-analysis/supremum-norm", "real-analysis/convergent-series"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

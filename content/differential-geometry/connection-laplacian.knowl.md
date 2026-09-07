@@ -6,7 +6,7 @@ summary = "The negative metric trace of the second covariant derivative on secti
 aliases = ["rough Laplacian", "Bochner Laplacian"]
 domains = ["differential-geometry", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/covariant-derivative-of-a-section"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/pseudo-riemannian-manifold", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/covariant-derivative-of-a-section"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -20,6 +20,13 @@ In the sign convention of this collection, the **connection Laplacian** is
 \[
 \Delta_{\nabla^E}s=-\operatorname{tr}_g\bigl((\nabla^E)^2s\bigr).
 \]
+
+In a local pseudo-orthonormal frame \(e_i\), with \(g(e_i,e_i)=\varepsilon_i\in\{+1,-1\}\), this is
+\[
+\Delta_{\nabla^E}s=-\sum_i\varepsilon_i\Bigl(\nabla^E_{e_i}\nabla^E_{e_i}s-\nabla^E_{\nabla^{\mathrm{LC}}_{e_i}e_i}s\Bigr).
+\]
+
+## Special cases
 
 For a Riemannian metric and a metric connection, this is also called the rough or Bochner Laplacian and has nonnegative leading sign. For a Lorentzian metric it is a connection wave operator and is [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]]. On the trivial line bundle with its trivial connection, it reduces to the scalar [[differential-geometry/laplace-beltrami-operator|Laplace–Beltrami operator]].
 

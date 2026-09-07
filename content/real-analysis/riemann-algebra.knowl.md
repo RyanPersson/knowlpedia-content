@@ -6,7 +6,7 @@ summary = "Riemann integrable functions are closed under products, forming an al
 aliases = ["riemann-algebra", "Riemann algebra"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/riemann-algebra.md"
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/riemann-linearity"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "linear-algebra/vector-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

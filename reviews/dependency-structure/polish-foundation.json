@@ -1,0 +1,16 @@
+{
+  "reviews": [
+    {
+      "id": "topology/polish-space",
+      "outcome": "corrected",
+      "source_sha256": "920ceca24e8fd8fb834f51b168e4d29bb2409f9b57232bdda37a4fb865674e92",
+      "evidence": "Created and read the complete foundation. The core retains both defining conditions: separability and existence of a metric whose metric-induced topology is the given topology and which is complete, explicitly distinguishing existence of one such metric from completeness of every compatible metric. Direct targets complete-metric-space, separable-space, and metric-induced-topology define those conditions. Examples were checked for every n\u22650: \u211d\u207f is Polish; an interval (a,b) with a<b is Polish via a homeomorphism to \u211d despite its usual metric being incomplete; \u211a is separable but not completely metrizable by the Baire-category obstruction. Root repaired stripped LaTeX escapes, made a,b finite real endpoints explicit, and checked transported metric completeness directly through the isometry h; Q is nonempty meagre without isolated points, contradicting Baire.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/complete-metric-space",
+        "topology/separable-space",
+        "topology/metric-induced-topology"
+      ]
+    }
+  ]
+}

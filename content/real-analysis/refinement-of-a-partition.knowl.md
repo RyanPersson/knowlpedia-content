@@ -6,7 +6,7 @@ summary = "A partition that contains all points of another partition."
 aliases = ["refinement-of-a-partition", "Refinement of a partition"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/refinement-of-a-partition.md"
-prerequisites = ["shared-foundations/subset", "real-analysis/upper-sum", "real-analysis/lower-sum", "real-analysis/riemann-integrable-function"]
+prerequisites = ["real-analysis/partition-of-an-interval", "shared-foundations/subset"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

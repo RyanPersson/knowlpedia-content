@@ -6,7 +6,7 @@ summary = "A semisimple Artinian ring is a finite product of simple Artinian rin
 aliases = ["semisimple-artinian-product", "Semisimple Artinian rings decompose as finite products"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/semisimple-artinian-product.md"
-prerequisites = ["algebra-rings/artinian-semisimple-ring", "algebra-rings/artin-wedderburn-theorem", "algebra-commutative/simple-artinian-matrix-ring", "algebra-rings/commutative-ring", "algebra-rings/field", "linear-algebra/matrix"]
+prerequisites = ["algebra-rings/artinian-semisimple-ring", "algebra-rings/artin-wedderburn-theorem", "algebra-commutative/simple-artinian-matrix-ring", "algebra-rings/commutative-ring", "algebra-rings/field", "linear-algebra/matrix", "shared-foundations/cartesian-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

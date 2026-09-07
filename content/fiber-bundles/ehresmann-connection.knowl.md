@@ -6,7 +6,7 @@ summary = "A choice of horizontal subspaces complementary to the vertical tangen
 aliases = ["ehresmann-connection", "Ehresmann connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/ehresmann-connection.md"
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle", "fiber-bundles/horizontal-subbundle"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle", "fiber-bundles/horizontal-subbundle", "fiber-bundles/fibered-manifold", "fiber-bundles/vertical-subbundle", "convex-analysis/direct-sum-of-subspaces"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
@@ -23,7 +23,9 @@ VE:=\ker(d\pi)\subset TE.
 TE = HE \oplus VE.
 \]
 
-An Ehresmann connection determines horizontal lifts and hence [[fiber-bundles/parallel-transport|parallel transport]] along curves. On a [[fiber-bundles/principal-g-bundle|principal G-bundle]], every [[fiber-bundles/principal-connection|principal connection]] induces an Ehresmann connection whose horizontal spaces are \(G\)-equivariant.
+## Horizontal lifts and transport
+
+An Ehresmann connection determines locally defined horizontal lifts and hence local [[fiber-bundles/parallel-transport|parallel transport]] along curves. Lifts can escape in finite time; transport along an entire prescribed interval requires completeness or another hypothesis ensuring global existence. On a [[fiber-bundles/principal-g-bundle|principal G-bundle]], every [[fiber-bundles/principal-connection|principal connection]] induces an Ehresmann connection whose horizontal spaces are \(G\)-equivariant.
 
 ## Equivalent characterizations
 

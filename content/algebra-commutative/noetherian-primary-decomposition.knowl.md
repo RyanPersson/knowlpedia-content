@@ -6,7 +6,7 @@ summary = "In a Noetherian ring, every ideal is a finite intersection of primary
 aliases = ["noetherian-primary-decomposition", "Primary decomposition in Noetherian rings"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/noetherian-primary-decomposition.md"
-prerequisites = ["algebra-commutative/noetherian-ring"]
+prerequisites = ["algebra-commutative/noetherian-ring", "algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-rings/primary-ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

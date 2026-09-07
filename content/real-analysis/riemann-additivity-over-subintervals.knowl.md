@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "Splitting a Riemann integral at an interior point"
 aliases = ["riemann-additivity-over-subintervals", "Additivity of the Riemann integral over subintervals"]
 domains = ["real-analysis"]
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/riemann-integral", "real-analysis/interval"]
 dependency_heuristic = "definition-links-v1"
 dependency_review_count = 2
 +++

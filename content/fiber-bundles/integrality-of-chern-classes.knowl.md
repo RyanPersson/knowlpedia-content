@@ -6,14 +6,12 @@ summary = "Chern–Weil forms representing Chern classes have integral periods a
 aliases = ["integrality-of-chern-classes", "Integrality of Chern classes"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/integrality-of-chern-classes.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature-of-a-vector-bundle-connection", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative"]
+prerequisites = ["fiber-bundles/chern-class", "fiber-bundles/integral-chern-classes", "fiber-bundles/hermitian-connection", "fiber-bundles/de-rham-cohomology-group", "topology/singular-cohomology-group", "differential-geometry/integration-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank \(r\), equipped with a Hermitian [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\) with [[fiber-bundles/curvature|curvature]] \(F_\nabla\).
-
-## Theorem (integrality)
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank \(r\), equipped with a [[fiber-bundles/hermitian-connection|Hermitian connection]] \(\nabla\) with [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature]] \(F_\nabla\).
 
 Form the total Chern–Weil representative
 \[
@@ -25,12 +23,12 @@ where each \(c_k(E,\nabla)\) is a closed [[fiber-bundles/differential-k-form|dif
 Then:
 
 1. The de Rham cohomology class \([c_k(E,\nabla)]\in H^{2k}_{\mathrm{dR}}(M)\) is independent of the choice of \(\nabla\), and
-2. The canonical integral Chern class \(c_k(E)\in H^{2k}(M;\mathbb{Z})\) maps to \([c_k(E,\nabla)]\) under the change-of-coefficients map
+2. The canonical [[fiber-bundles/integral-chern-classes|integral Chern class]] \(c_k(E)\in H^{2k}(M;\mathbb{Z})\) maps to \([c_k(E,\nabla)]\) under the change-of-coefficients map
    \[
    H^{2k}(M;\mathbb{Z})\to H^{2k}(M;\mathbb{R})\cong H^{2k}_{\mathrm{dR}}(M)
    \]
 
-Equivalently: for every smooth singular \(2k\)-cycle \(\Sigma\) in \(M\),
+In particular, for every smooth singular \(2k\)-cycle \(\Sigma\) in \(M\),
 \[
 \int_\Sigma c_k(E,\nabla)\in\mathbb{Z}.
 \]
@@ -46,7 +44,7 @@ This integrality is the precise sense in which Chern classes are “integral” 
    and that integer is the degree (first [[fiber-bundles/chern-number|Chern number]]) of \(L\).
 
 2. **The tautological line bundle over complex projective space.**
-   For the tautological line bundle \(\mathcal{O}(-1)\to \mathbb{CP}^n\), the class \(c_1(\mathcal{O}(-1))\) generates \(H^2(\mathbb{CP}^n;\mathbb{Z})\cong\mathbb{Z}\). Any Chern–Weil representative integrates to an integer over any embedded \(\mathbb{CP}^1\subset\mathbb{CP}^n\).
+   For the tautological line bundle \(\mathcal{O}(-1)\to \mathbb{CP}^n\) with \(n\ge1\), the class \(c_1(\mathcal{O}(-1))\) is the negative of the complex-orientation generator of \(H^2(\mathbb{CP}^n;\mathbb{Z})\cong\mathbb{Z}\). Any Chern–Weil representative integrates to an integer over any embedded \(\mathbb{CP}^1\subset\mathbb{CP}^n\).
 
 3. **Direct sums preserve integrality.**
    If \(E=L_1\oplus\cdots\oplus L_r\) is a sum of line bundles, then the total Chern class satisfies

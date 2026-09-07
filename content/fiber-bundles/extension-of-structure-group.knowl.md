@@ -6,12 +6,12 @@ summary = "A construction that turns a principal G-bundle into a principal H-bun
 aliases = ["extension-of-structure-group", "Extension of structure group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/extension-of-structure-group.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/associated-bundle", "fiber-bundles/principal-bundle-morphism"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/associated-bundle", "lie-groups/lie-group-homomorphism", "fiber-bundles/bundle-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\varphi:G\to H\) be a smooth homomorphism of [[fiber-bundles/lie-group|Lie groups]].
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\varphi:G\to H\) be a [[lie-groups/lie-group-homomorphism|smooth homomorphism]] of [[fiber-bundles/lie-group|Lie groups]].
 
 The **extension of structure group** of \(P\) along \(\varphi\) is the quotient
 \[
@@ -33,11 +33,11 @@ With these structures, \(P\times_\varphi H\to M\) is a principal \(H\)-bundle.
 
 This construction is a special case of an [[fiber-bundles/associated-bundle|associated bundle]]: it is the associated bundle to \(P\) with fiber \(H\) where \(G\) acts on \(H\) by left multiplication through \(\varphi\).
 
-There is a canonical [[fiber-bundles/principal-bundle-morphism|principal bundle morphism]]
+There is a canonical smooth [[fiber-bundles/bundle-map|bundle map]]
 \[
 P\to P\times_\varphi H,\qquad p\mapsto [p,e],
 \]
-covering \(\mathrm{id}_M\).
+covering \(\mathrm{id}_M\). It is \(\varphi\)-equivariant: \([pg,e]=[p,\varphi(g)]=[p,e]\cdot\varphi(g)\). For \(\varphi=\operatorname{id}_G\), this is a [[fiber-bundles/principal-bundle-morphism|principal \(G\)-bundle morphism]] in the fixed-group sense.
 
 ## Examples
 1. **From oriented orthonormal frames to oriented frames.** The inclusion \(SO(n)\hookrightarrow GL^+(n)\) extends the principal \(SO(n)\)-bundle of oriented orthonormal frames to the principal \(GL^+(n)\)-bundle of oriented frames. (Using \(O(n)\hookrightarrow GL(n)\) gives the full frame bundle.)

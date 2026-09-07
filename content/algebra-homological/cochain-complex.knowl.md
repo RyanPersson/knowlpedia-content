@@ -6,7 +6,7 @@ summary = "A graded sequence of modules with differentials d raising degree and 
 aliases = ["cochain-complex", "Cochain complex"]
 domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/cochain-complex.md"
-prerequisites = ["algebra-modules/module", "algebra-modules/module-homomorphism"]
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-modules/module-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -20,6 +20,9 @@ such that
 \[
 d^{n+1}\circ d^n = 0\quad\text{for all }n.
 \]
+
+## Cohomology
+
 Its **cohomology modules** are
 \[
 H^n(C^\bullet)=\ker(d^n)/\operatorname{im}(d^{n-1}),
@@ -48,6 +51,7 @@ see [[algebra-homological/cohomology-module|cohomology module]].
    \[
    \delta^n(\varphi) := \varphi\circ d_{n+1} \in \operatorname{Hom}_R(C_{n+1},M).
    \]
+   These Hom groups form a cochain complex of abelian groups in general. If \(R\) is commutative (or the Hom groups carry a specified compatible scalar action), they may be viewed as a cochain complex of \(R\)-modules.
    Then \(\delta^{n+1}\circ \delta^n=0\) because \(d\circ d=0\), so this is a cochain complex. This construction underlies the computation of [[algebra-homological/ext|Ext]] from a [[algebra-homological/projective-resolution|projective resolution]].
 
 3. **“Multiplication by \(x\)” as a cochain complex.**

@@ -6,12 +6,12 @@ summary = "The twisted de Rham complex whose cohomology records infinitesimal sy
 aliases = ["twisted de Rham complex", "flat-connection deformation complex"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms", "fiber-bundles/gauge-transformation", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad"]
+prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms", "fiber-bundles/gauge-transformation", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "algebra-homological/cochain-complex", "algebra-homological/cohomology-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A\) be a [[fiber-bundles/flat-principal-connection|flat connection]] on a principal \(G\)-bundle \(P\to M\). The **deformation complex of \(A\)** is the twisted de Rham complex
+Let \(A\) be a [[fiber-bundles/flat-principal-connection|flat connection]] on a principal \(G\)-bundle \(P\to M\). The **deformation complex of \(A\)** is the twisted de Rham [[algebra-homological/cochain-complex|complex]]
 \[
 0\longrightarrow\Omega^0(M;\operatorname{ad}P)
 \xrightarrow{\,d_A\,}\Omega^1(M;\operatorname{ad}P)
@@ -19,7 +19,7 @@ Let \(A\) be a [[fiber-bundles/flat-principal-connection|flat connection]] on a 
 \xrightarrow{\,d_A\,}\cdots,
 \]
 where \(d_A\) is the [[fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms|covariant exterior derivative]]. It is a complex because \(d_A^2\alpha=[F_A\wedge\alpha]\) and flatness gives \(F_A=0\). The first three terms govern deformations of the flatness equation modulo [[fiber-bundles/gauge-transformation|gauge transformations]]; the full complex computes the cohomology of the flat [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint bundle]].
-Its cohomology groups are denoted \(H_A^j\) or \(H^j(M;\operatorname{ad}P_A)\).
+Its [[algebra-homological/cohomology-module|cohomology groups]] are denoted \(H_A^j\) or \(H^j(M;\operatorname{ad}P_A)\).
 
 ## Infinitesimal meaning
 
@@ -42,7 +42,7 @@ The linear term gives the complex, while the quadratic term explains why a class
 
 ## Ellipticity and examples
 
-On a compact [[differential-geometry/riemannian-manifold|Riemannian manifold]], the twisted de Rham complex is elliptic. Hodge theory then gives finite-dimensional harmonic representatives of its cohomology. If \(G\) is abelian and \(P\) is trivial, the adjoint action is trivial and the complex is the ordinary [[differential-geometry/de-rham-complex|de Rham complex]] tensored with the Lie algebra of \(G\).
+On a closed (compact, without boundary) [[differential-geometry/riemannian-manifold|Riemannian manifold]], the twisted de Rham complex is elliptic. Hodge theory then gives finite-dimensional harmonic representatives of its cohomology. If \(G\) is abelian and \(P\) is trivial, the adjoint action is trivial and the complex is the ordinary [[differential-geometry/de-rham-complex|de Rham complex]] tensored with the Lie algebra of \(G\).
 
 **Warning.** Vanishing of \(H_A^2\) is a useful sufficient condition for unobstructedness in standard slice models, but nonvanishing does not by itself prove that actual obstructions occur.
 

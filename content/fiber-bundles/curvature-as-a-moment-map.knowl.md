@@ -6,18 +6,18 @@ summary = "The moment-map interpretation of curvature for the gauge action on co
 aliases = ["Atiyah–Bott moment map", "gauge moment map"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/atiyah-bott-symplectic-form", "fiber-bundles/gauge-group", "fiber-bundles/moment-map"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/atiyah-bott-symplectic-form", "fiber-bundles/gauge-group", "fiber-bundles/moment-map", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented surface, with compact structure group \(G\) and an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. Give \(\mathcal A(P)\) the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott symplectic form]]. Identify the dual of the gauge Lie algebra \(\Omega^0(\Sigma;\operatorname{ad}P)\) with \(\Omega^2(\Sigma;\operatorname{ad}P)\) by integration. Then **curvature is a [[fiber-bundles/moment-map|moment map]]** for the [[fiber-bundles/gauge-group|gauge-group]] action:
+Let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented surface, with compact structure group \(G\) and an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. Give \(\mathcal A(P)\) the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott symplectic form]]. Each \(\beta\in\Omega^2(\Sigma;\operatorname{ad}P)\) defines a functional on the gauge Lie algebra \(\Omega^0(\Sigma;\operatorname{ad}P)\) by \(\xi\mapsto\int_\Sigma\langle\beta,\xi\rangle\). This embeds smooth two-forms into that dual; it does not identify them with the entire continuous dual. Then **curvature is a [[fiber-bundles/moment-map|moment map]]** for the [[fiber-bundles/gauge-group|gauge-group]] action:
 \[
 \mu\colon\mathcal A(P)\longrightarrow
 \Omega^2(\Sigma;\operatorname{ad}P),\qquad
 \mu(A)=F_A,
 \]
-up to the common overall sign convention in the definition of a [[fiber-bundles/moment-map|moment map]].
+where \(F_A\) is the [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] descended to the adjoint bundle, and the formula is understood through the integration pairing above, up to the common overall sign convention in the definition of a [[fiber-bundles/moment-map|moment map]].
 
 ## Verification of the moment-map identity
 

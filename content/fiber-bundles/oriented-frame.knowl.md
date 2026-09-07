@@ -23,4 +23,4 @@ Equivalently, \((e_1,\dots,e_r)\) is oriented if and only if, for some (hence an
 
 2. **Oriented coordinate frames on a manifold.** On an oriented \(n\)-manifold, a coordinate chart \((U;x^1,\dots,x^n)\) is called orientation-preserving when \((\partial/\partial x^1,\dots,\partial/\partial x^n)\) is an oriented frame of \(TM\) at each point of \(U\).
 
-3. **Rank-one case.** For a rank-one oriented bundle, an oriented frame at \(x\) is simply a nonzero vector in \(E_x\) that points in the chosen “positive direction”; there are exactly two possible choices of orientation in each fiber.
+3. **Rank-one case.** For a rank-one oriented bundle, an oriented frame at \(x\) is simply a nonzero vector in \(E_x\) that points in the chosen “positive direction.” There are exactly two possible orientations of a real one-dimensional fiber, and each chosen orientation has a whole positive half-line of oriented frames.

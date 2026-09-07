@@ -6,18 +6,18 @@ summary = "The quotient of closed differential forms by exact forms."
 aliases = ["de-rham-cohomology-group", "de Rham cohomology group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/de-rham-cohomology-group.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "algebra-homological/cochain-complex", "convex-analysis/quotient-vector-space-codimension"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The [[fiber-bundles/exterior-derivative|exterior derivative]] makes the graded vector space of [[fiber-bundles/differential-k-form|differential forms]] into a cochain complex \((\Omega^\ast(M),d)\). Its cohomology is the **de Rham cohomology**.
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The [[fiber-bundles/exterior-derivative|exterior derivative]] makes the graded vector space of [[fiber-bundles/differential-k-form|differential forms]] into a [[algebra-homological/cochain-complex|cochain complex]] \((\Omega^\ast(M),d)\). Its cohomology is the **de Rham cohomology**.
 
-Define
+For \(k\ge0\), using \(\Omega^{-1}(M)=0\), define
 - \(Z^k(M)\) as the space of [[fiber-bundles/closed-differential-form|closed \(k\)-forms]] (those \(\omega\) with \(d\omega=0\)),
 - \(B^k(M)\) as the space of [[fiber-bundles/exact-differential-form|exact \(k\)-forms]] (those \(\omega\) with \(\omega=d\eta\)).
 
-Because \(d^2=0\), every exact form is closed, so \(B^k(M)\subseteq Z^k(M)\). The **\(k\)th de Rham cohomology group** is the quotient vector space
+Because \(d^2=0\), every exact form is closed, so \(B^k(M)\subseteq Z^k(M)\). The **\(k\)th de Rham cohomology group** is the [[convex-analysis/quotient-vector-space-codimension|quotient vector space]]
 \[
 H^k_{\mathrm{dR}}(M)\coloneqq Z^k(M)\,/\,B^k(M).
 \]

@@ -6,7 +6,7 @@ summary = "Convergence of a sequence of functions at each fixed point of the dom
 aliases = ["pointwise-convergence", "Pointwise convergence"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/pointwise-convergence.md"
-prerequisites = ["shared-foundations/function", "topology/convergent-sequence"]
+prerequisites = ["shared-foundations/function", "shared-foundations/sequence", "topology/convergent-sequence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

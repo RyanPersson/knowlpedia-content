@@ -6,7 +6,7 @@ summary = "The energy of a connection defined as the L2 norm of its curvature on
 aliases = ["yangmills-functional", "Yang–Mills functional"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/yangmills-functional.md"
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "differential-geometry/integration-of-differential-forms", "linear-algebra/inner-product", "lie-groups/adjoint-action-of-a-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,17 +17,19 @@ Fix a [[fiber-bundles/principal-connection|principal connection]] \(A\) on \(P\)
 
 The **Yang–Mills functional** is
 \[
-\mathrm{YM}(A) := \frac12\int_M |F_A|^2\,\mathrm{vol}_g,
+\mathrm{YM}(A) := \frac12\int_M |F_A|^2\,\mathrm{vol}_g\in[0,+\infty],
 \]
+where the norm combines the Riemannian metric with the chosen invariant inner product; the integral may be infinite on a noncompact base.
+
 ## Equivalent formula and properties
 
 Equivalently, \(\mathrm{YM}(A)=\frac12\int_M \langle F_A\wedge *F_A\rangle\) using the Hodge star of the Riemannian metric and the chosen inner product.
 
 It is invariant under gauge transformations of \(P\), so it descends to a functional on the moduli space of connections modulo gauge.
 
-Critical points of this functional are precisely [[fiber-bundles/yangmills-connection|Yang–Mills connections]], characterized by the [[fiber-bundles/yangmills-equation|Yang–Mills equation]].
+On a closed manifold, critical points of this functional are precisely [[fiber-bundles/yangmills-connection|Yang–Mills connections]], characterized by the [[fiber-bundles/yangmills-equation|Yang–Mills equation]].
 
 ## Examples
 1. **Flat connections.** If \(F_A=0\) then \(\mathrm{YM}(A)=0\), which is the minimum possible value.
 2. **Abelian case (Maxwell energy).** For \(G=U(1)\), the curvature is an ordinary closed 2-form, and \(\mathrm{YM}(A)\) reduces to the classical electromagnetic energy \(\frac12\int |F|^2\).
-3. **Four dimensions and self-duality.** On an oriented 4-manifold, connections with self-dual or anti-self-dual curvature minimize \(\mathrm{YM}\) within their topological class (the functional splits into a topological term plus a nonnegative remainder).
+3. **Four dimensions and self-duality.** On a closed oriented 4-manifold, connections with self-dual or anti-self-dual curvature minimize \(\mathrm{YM}\) within their topological class (the functional splits into a topological term plus a nonnegative remainder).

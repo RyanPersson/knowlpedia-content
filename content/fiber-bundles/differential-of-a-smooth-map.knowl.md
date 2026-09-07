@@ -6,7 +6,7 @@ summary = "The linear map between tangent spaces induced by a smooth map, also c
 aliases = ["differential-of-a-smooth-map", "Differential of a smooth map"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/differential-of-a-smooth-map.md"
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/tangent-bundle", "fiber-bundles/smooth-chart"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-chart", "linear-algebra/linear-map", "differential-geometry/tangent-space", "real-analysis/jacobian-matrix"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,9 +15,11 @@ Let \(f:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] between smooth man
 \[
 \mathrm{d}f_p:T_pM\longrightarrow T_{f(p)}N
 \]
-between [[differential-geometry/tangent-space|tangent spaces]] (equivalently, between the fibers of the [[fiber-bundles/tangent-bundle|tangent bundle]]) characterized as follows.
+between [[differential-geometry/tangent-space|tangent spaces]] characterized as follows.
 
-Choose [[fiber-bundles/smooth-chart|smooth charts]] \((U,\varphi)\) around \(p\) and \((V,\psi)\) around \(f(p)\) with \(f(U)\subset V\). Writing \(\psi\circ f\circ\varphi^{-1}:\varphi(U)\to\psi(V)\) as a smooth map between open subsets of Euclidean space, \(\mathrm{d}f_p\) is the unique linear map whose matrix in these coordinates is the Jacobian of \(\psi\circ f\circ\varphi^{-1}\) at \(\varphi(p)\). This definition is independent of the chosen charts.
+Choose [[fiber-bundles/smooth-chart|smooth charts]] \((U,\varphi)\) around \(p\) and \((V,\psi)\) around \(f(p)\) with \(f(U)\subset V\). Writing \(\psi\circ f\circ\varphi^{-1}:\varphi(U)\to\psi(V)\) as a smooth map between open subsets of Euclidean space, \(\mathrm{d}f_p\) is the unique linear map whose matrix in these coordinates is the [[real-analysis/jacobian-matrix|Jacobian]] of \(\psi\circ f\circ\varphi^{-1}\) at \(\varphi(p)\). This definition is independent of the chosen charts.
+
+## Functoriality
 
 The differential is functorial: if \(g:N\to P\) is smooth, then
 \[

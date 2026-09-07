@@ -6,7 +6,7 @@ summary = "A unitary integrable connection whose curvature has constant central 
 aliases = ["Hermitian–Einstein connection", "HYM connection"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/hermitian-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/hermitian-connection", "fiber-bundles/chern-connection", "fiber-bundles/chern-curvature", "fiber-bundles/hermitian-metric"]
+prerequisites = ["differential-geometry/hermitian-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/hermitian-connection", "fiber-bundles/curvature-of-a-vector-bundle-connection", "differential-geometry/differential-form-of-type-pq", "fiber-bundles/wedge-product-of-differential-forms", "linear-algebra/inner-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,7 +17,11 @@ F_A^{0,2}=0
 \qquad\text{and}\qquad
 \sqrt{-1}\,\Lambda_\omega F_A=\lambda\,\operatorname{id}_E
 \]
-for a real constant \(\lambda\), where \(\Lambda_\omega\) is contraction with \(\omega\). The first equation makes \(A\) compatible with a holomorphic structure; relative to that structure, \(A\) is its [[fiber-bundles/chern-connection|Chern connection]]. The second says that the contracted [[fiber-bundles/chern-curvature|Chern curvature]] is a constant central endomorphism.
+for a real constant \(\lambda\). Here \(F_A\) is the [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature]], \(F_A^{0,2}\) is its [[differential-geometry/differential-form-of-type-pq|type \((0,2)\) component]], and \(\Lambda_\omega\) is the pointwise adjoint, for the induced Hermitian inner products on forms, of \(L_\omega(\alpha)=\omega\wedge\alpha\). Thus \(\langle\omega\wedge\alpha,\beta\rangle=\langle\alpha,\Lambda_\omega\beta\rangle\) pointwise. It acts on the differential-form factor of endomorphism-valued forms.
+
+## Holomorphic interpretation
+
+The first equation makes \(A\) compatible with a holomorphic structure; relative to that structure, \(A\) is its [[fiber-bundles/chern-connection|Chern connection]]. The second says that the contracted [[fiber-bundles/chern-curvature|Chern curvature]] is a constant central endomorphism.
 
 ## Meaning of the equations
 

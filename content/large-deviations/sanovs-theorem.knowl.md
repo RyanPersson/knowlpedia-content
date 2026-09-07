@@ -6,7 +6,7 @@ summary = "Large deviations for empirical measures of an independent identically
 aliases = ["sanovs-theorem", "Sanov's theorem"]
 domains = ["large-deviations"]
 legacy_source_path = "large-deviations/sanovs-theorem.md"
-prerequisites = ["probability/iid-sequence", "probability/distribution-law", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "probability/relative-entropy-kl-divergence"]
+prerequisites = ["probability/iid-sequence", "probability/distribution-law", "large-deviations/large-deviation-principle", "large-deviations/good-rate-function", "probability/relative-entropy-kl-divergence", "topology/polish-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

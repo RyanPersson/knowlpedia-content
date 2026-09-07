@@ -6,7 +6,7 @@ summary = "The difference of two principal connection 1-forms is a tensorial one
 aliases = ["lemma-difference-of-two-principal-connections-is-tensorial", "Difference of two principal connections is tensorial"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/pullback-of-differential-forms", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/vector-bundle-valued-differential-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -18,7 +18,6 @@ Define their difference
 a := \omega' - \omega \in \Omega^1(P;\mathfrak g).
 \]
 
-## Lemma
 The \(1\)-form \(a\) is **tensorial of type \(\mathrm{Ad}\)**, meaning:
 1. (**Horizontal**) \(a_p(v)=0\) for every vertical vector \(v\in V_pP\) (equivalently \(\iota_{X^\#}a=0\) for all fundamental vertical fields \(X^\#\)).
 2. (**\(\mathrm{Ad}\)-equivariant**) \((R_g)^*a = \mathrm{Ad}(g^{-1})\,a\) for all \(g\in G\) (see [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]]).
@@ -27,7 +26,9 @@ Consequently, \(a\) descends to a well-defined \(1\)-form on the base with value
 \[
 a \ \longleftrightarrow\ \widetilde a \in \Omega^1\!\big(M;\mathrm{ad}(P)\big),
 \]
-where \(\mathrm{ad}(P)=P\times_{\mathrm{Ad}}\mathfrak g\) is the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]] (compare [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|construction of the adjoint Lie algebra bundle]] and [[fiber-bundles/section-of-ad|sections of ad(P)]]).
+where \(\mathrm{ad}(P)=P\times_{\mathrm{Ad}}\mathfrak g\) is the [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint Lie algebra bundle]] (compare [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|construction of the adjoint Lie algebra bundle]] and [[fiber-bundles/section-of-ad|sections of ad(P)]]).
+
+## Applications
 
 This tensoriality fact underlies many standard constructions, including transgression formulas (see [[fiber-bundles/transgression-form|transgression forms]]) and the description of the affine space of connections (compare [[fiber-bundles/bundle-of-connections|bundle of connections]]).
 

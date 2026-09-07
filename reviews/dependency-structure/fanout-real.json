@@ -1,1075 +1,9 @@
 {
   "area": "real-analysis",
-  "review_scope": "Full-source semantic review through entry 120; remaining entries retained in triage.",
-  "reviewed": 120,
-  "corrected": 53,
+  "review_scope": "Individualized full-source semantic review through entry 200; later entries retained in triage.",
+  "reviewed": 200,
+  "corrected": 94,
   "triage_records": [
-    {
-      "id": "real-analysis/local-implicit-function-parameterization",
-      "source_sha256": "025e83a32dd59efab38e91e8d0d51a0bd2e204b715dfde68e71334eb2ff611d2",
-      "previous_prerequisites": [
-        "topology/open-set",
-        "real-analysis/regular-point"
-      ],
-      "prerequisites": [
-        "topology/open-set",
-        "real-analysis/regular-point"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/local-maximum-local-minimum",
-      "source_sha256": "432bc67e0aa170752a4bd1c49c25399fff6d53f69b646cabec21939cb8efc32b",
-      "previous_prerequisites": [
-        "topology/metric-space"
-      ],
-      "prerequisites": [
-        "topology/metric-space"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/lower-sum",
-      "source_sha256": "2931b828b4a9b515bb8b636a8272cdede28db883aef3ad0327e4e691b5b0a88e",
-      "previous_prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/infimum",
-        "real-analysis/upper-sum"
-      ],
-      "prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/infimum",
-        "real-analysis/upper-sum"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/lower-sum-riemann",
-      "source_sha256": "e95ecd0716383e24593e6945bfc697764d8e9a3abce9ceba8194b5971df707d4",
-      "previous_prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/infimum"
-      ],
-      "prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/infimum"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/m-test-continuity-integration-corollary",
-      "source_sha256": "c78a7d4d16da34714649a93749444b7c9044402266cebbb19fa248281eec5d0b",
-      "previous_prerequisites": [
-        "real-analysis/continuity-on-a-set",
-        "topology/metric-space",
-        "real-analysis/convergent-series",
-        "real-analysis/uniform-convergence-of-a-sequence-of-functions",
-        "real-analysis/weierstrass-m-test",
-        "real-analysis/uniform-limit-theorem",
-        "real-analysis/riemann-integrable-function"
-      ],
-      "prerequisites": [
-        "real-analysis/continuity-on-a-set",
-        "topology/metric-space",
-        "real-analysis/convergent-series",
-        "real-analysis/uniform-convergence-of-a-sequence-of-functions",
-        "real-analysis/weierstrass-m-test",
-        "real-analysis/uniform-limit-theorem",
-        "real-analysis/riemann-integrable-function"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/m-test-corollary",
-      "source_sha256": "95dc8875347b9b9f993f6603fa7972c698e4971d40f09a581214e58934917c0a",
-      "previous_prerequisites": [
-        "real-analysis/uniform-convergence"
-      ],
-      "prerequisites": [
-        "real-analysis/uniform-convergence"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/maximum",
-      "source_sha256": "428aa1f4845c24068b4b1a3636c1cb2181350fbce31476bc292e32cd84ba38fa",
-      "previous_prerequisites": [
-        "shared-foundations/subset"
-      ],
-      "prerequisites": [
-        "shared-foundations/subset"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mean-value-estimate-lemma",
-      "source_sha256": "946ae8d7c5ada27d8e5b490ec7348bf226661f815d7f400dbeacee9561e8af7d",
-      "previous_prerequisites": [
-        "real-analysis/differentiability-1d"
-      ],
-      "prerequisites": [
-        "real-analysis/differentiability-1d"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mean-value-inequality",
-      "source_sha256": "a2cbd725e17824c3244d6b986346b3a5acb70f50d321b963d4a64a6a2d0d05e7",
-      "previous_prerequisites": [
-        "linear-algebra/operator-norm"
-      ],
-      "prerequisites": [
-        "linear-algebra/operator-norm"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mean-value-theorem",
-      "source_sha256": "2b9c2204f1270e1a7f5dbec25e556d698890cc5fe477e2c412bca54c65add348",
-      "previous_prerequisites": [
-        "real-analysis/differentiability-1d"
-      ],
-      "prerequisites": [
-        "real-analysis/differentiability-1d"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mean-value-theorem-for-integrals",
-      "source_sha256": "5a9fd74e874851530a8fd2c9cde7d20f8235bde159ce7d9d83e5f2c60b479df1",
-      "previous_prerequisites": [
-        "real-analysis/riemann-integral",
-        "real-analysis/intermediate-value-theorem"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-integral",
-        "real-analysis/intermediate-value-theorem"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mertens-theorem",
-      "source_sha256": "5c539955a09ed3f8448e2470ee7511d3eea49965dfbe1fb9b3858f6a757a4a58",
-      "previous_prerequisites": [
-        "real-analysis/cauchy-product"
-      ],
-      "prerequisites": [
-        "real-analysis/cauchy-product"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mertens-theorem-on-cauchy-products",
-      "source_sha256": "f292114136c07c1d69e7418bf10bf70611c8fbd52eb7f4da2a62fb151d5817ef",
-      "previous_prerequisites": [
-        "real-analysis/series",
-        "real-analysis/cauchy-product",
-        "real-analysis/absolutely-convergent-series"
-      ],
-      "prerequisites": [
-        "real-analysis/series",
-        "real-analysis/cauchy-product",
-        "real-analysis/absolutely-convergent-series"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mesh-of-a-partition",
-      "source_sha256": "e580a3ebd18e5be14216c0982569f2e249907300e3eb638ff450fb58d7577831",
-      "previous_prerequisites": [
-        "real-analysis/tagged-partition"
-      ],
-      "prerequisites": [
-        "real-analysis/tagged-partition"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/minimum",
-      "source_sha256": "3c2333081e324e46e20127b58a2691175b01f4cc77f9c8f6b17ac9995a2ae662",
-      "previous_prerequisites": [
-        "shared-foundations/subset"
-      ],
-      "prerequisites": [
-        "shared-foundations/subset"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/mixed-partial-derivative",
-      "source_sha256": "7ba680099793630fd2db371c03db0b48b0ff3ce6ee732b8944449802e3e93361",
-      "previous_prerequisites": [],
-      "prerequisites": [],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/modulus-on-c",
-      "source_sha256": "2d3c196c1daeca51b26d7823f1f47299c4199985ddb8e8ee460ad6a5720b2449",
-      "previous_prerequisites": [
-        "shared-foundations/complex-numbers-c"
-      ],
-      "prerequisites": [
-        "shared-foundations/complex-numbers-c"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/monotone-function",
-      "source_sha256": "b279af1595e49a45cfa4d25a3cad5faf689d88bb0702fd742d4eb6b003c36dfc",
-      "previous_prerequisites": [
-        "real-analysis/interval"
-      ],
-      "prerequisites": [
-        "real-analysis/interval"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/monotone-sequence",
-      "source_sha256": "04781c2629c66ee7ab342d115c1082336f604d19334082408e65b8f223dcb87f",
-      "previous_prerequisites": [],
-      "prerequisites": [],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/monotone-sequence-convergence-theorem",
-      "source_sha256": "b5228496abb21cc27e100735f0eb483a39e95ff5664950f577ab025e1c1e32e7",
-      "previous_prerequisites": [
-        "real-analysis/monotone-sequence",
-        "real-analysis/bounded-above",
-        "real-analysis/bounded-below"
-      ],
-      "prerequisites": [
-        "real-analysis/monotone-sequence",
-        "real-analysis/bounded-above",
-        "real-analysis/bounded-below"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/monotone-sequence-of-functions",
-      "source_sha256": "5417b33c422f6b61a3f82b26e67c3b3902f0dfa51ae18e069833eaf8abfa8cb2",
-      "previous_prerequisites": [
-        "real-analysis/monotone-sequence"
-      ],
-      "prerequisites": [
-        "real-analysis/monotone-sequence"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/monotone-subsequence-lemma",
-      "source_sha256": "88ebd642d1031b978f03dc48b5ebc2422a05c8fdcdd5aafa4ac3bf1badbdc3f2",
-      "previous_prerequisites": [
-        "real-analysis/subsequence",
-        "real-analysis/monotone-sequence"
-      ],
-      "prerequisites": [
-        "real-analysis/subsequence",
-        "real-analysis/monotone-sequence"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/multi-index-notation",
-      "source_sha256": "6327a3223021f128a5a9986da0344d3dfbea1fdf7d58705716875ec779d76214",
-      "previous_prerequisites": [
-        "shared-foundations/natural-numbers",
-        "shared-foundations/factorial",
-        "real-analysis/partial-derivative"
-      ],
-      "prerequisites": [
-        "shared-foundations/natural-numbers",
-        "shared-foundations/factorial",
-        "real-analysis/partial-derivative"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/multiple-riemann-integral",
-      "source_sha256": "e225fea371b8fe3911f444ff4a7e0456f7cfe26378b16c4e1b5ee81a1ff98a9f",
-      "previous_prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/riemann-integrable-function"
-      ],
-      "prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/riemann-integrable-function"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/neumann-series-lemma",
-      "source_sha256": "d4d0148cf849a2d256c58172240c936f10d372e9dcd37b5e4d9fc5b4a1414de7",
-      "previous_prerequisites": [
-        "linear-algebra/linear-map"
-      ],
-      "prerequisites": [
-        "linear-algebra/linear-map"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/newton-leibniz-formula",
-      "source_sha256": "4aaaf0d2bbdb0fd6c8f346951570a5bb36716ae07b8bc91444759de6737985b6",
-      "previous_prerequisites": [
-        "real-analysis/continuity-on-a-set",
-        "real-analysis/riemann-integral",
-        "real-analysis/derivative"
-      ],
-      "prerequisites": [
-        "real-analysis/continuity-on-a-set",
-        "real-analysis/riemann-integral",
-        "real-analysis/derivative"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/one-sided-limit",
-      "source_sha256": "888075912d73687f3f44c99c6ef1e23d957e9f35e2ac7817ef852e75bc9abfa8",
-      "previous_prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/interval",
-        "real-analysis/discontinuity-point"
-      ],
-      "prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/interval",
-        "real-analysis/discontinuity-point"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/order-axioms",
-      "source_sha256": "a1f8008dcb3d45934f7664bac7d832ffcc3ba35ad0c3810c37c4e5508f1df6f3",
-      "previous_prerequisites": [
-        "real-analysis/field-axioms",
-        "shared-foundations/relation"
-      ],
-      "prerequisites": [
-        "real-analysis/field-axioms",
-        "shared-foundations/relation"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/oscillation",
-      "source_sha256": "eb157f30c40e103a88ffddfeb42c14967cd6984e716a933942c60eb4793cd8e3",
-      "previous_prerequisites": [],
-      "prerequisites": [],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/oscillation-criterion",
-      "source_sha256": "49f09f45bbae1b95256c5f2b3c81c6d46f06cb8b5275117b183ba8afd83265ec",
-      "previous_prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/oscillation",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum",
-        "real-analysis/riemann-integrability-finite-discontinuities"
-      ],
-      "prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/oscillation",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum",
-        "real-analysis/riemann-integrability-finite-discontinuities"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/partial-sums",
-      "source_sha256": "e972736ebc4dc2a7b1530c43c824bc8df9afd2ed5adf3f28e953cfd123f6160b",
-      "previous_prerequisites": [],
-      "prerequisites": [],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/partition-of-an-interval",
-      "source_sha256": "7b033e2e08f80d1ddb2b1056bad91dbf390b3f3a85f1478ded8c060ba040c42f",
-      "previous_prerequisites": [
-        "real-analysis/interval"
-      ],
-      "prerequisites": [
-        "real-analysis/interval"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/pointwise-bounded-family",
-      "source_sha256": "077c2d7e30c9e44dafca384aeef9101b29e31863dfa9891f127feb39d06ab7e4",
-      "previous_prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/bounded-above",
-        "real-analysis/bounded-below"
-      ],
-      "prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/bounded-above",
-        "real-analysis/bounded-below"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/pointwise-convergence",
-      "source_sha256": "58e8119e500eb4515ffd92da193a360a49d0e71880075fe1497d52feba17e37d",
-      "previous_prerequisites": [
-        "shared-foundations/function",
-        "topology/convergent-sequence"
-      ],
-      "prerequisites": [
-        "shared-foundations/function",
-        "topology/convergent-sequence"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/polynomial",
-      "source_sha256": "708c9b2157097b65f12fbe01edc6923d046200cf95a3a3ab69ba5ac9ef3dac8f",
-      "previous_prerequisites": [],
-      "prerequisites": [],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/positive-derivative-implies-increasing",
-      "source_sha256": "74616034604b535e8a8a8e117cfc59de928abc169484af8a2681314af9b1c892",
-      "previous_prerequisites": [
-        "real-analysis/interval",
-        "real-analysis/differentiability-1d",
-        "real-analysis/mean-value-theorem"
-      ],
-      "prerequisites": [
-        "real-analysis/interval",
-        "real-analysis/differentiability-1d",
-        "real-analysis/mean-value-theorem"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/power-series",
-      "source_sha256": "61eb95e38540b9f1699ea1fea0e028e64d264fcfcd838c437c7447da516288aa",
-      "previous_prerequisites": [
-        "real-analysis/series"
-      ],
-      "prerequisites": [
-        "real-analysis/series"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/power-series-analytic-on-disk",
-      "source_sha256": "3536b8d7683b8a4c8d924eb76cef0f9b53474bacbd1a2acc6c273427376dd6cd",
-      "previous_prerequisites": [
-        "real-analysis/power-series"
-      ],
-      "prerequisites": [
-        "real-analysis/power-series"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/power-series-uniform-convergence-on-compacts",
-      "source_sha256": "baea0c0d4eceba0afee58e54108b1b73ac21f2cf97f55a1e57b535025dd2ca35",
-      "previous_prerequisites": [
-        "real-analysis/power-series"
-      ],
-      "prerequisites": [
-        "real-analysis/power-series"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/preimage-inverse-image",
-      "source_sha256": "9b31e9198ad4c948ec3768e645485f9b769d0bcc6112fefff3d33582d164731a",
-      "previous_prerequisites": [
-        "shared-foundations/function",
-        "shared-foundations/set"
-      ],
-      "prerequisites": [
-        "shared-foundations/function",
-        "shared-foundations/set"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/ratio-test",
-      "source_sha256": "b099613b64a147df1671e5b7d832c38020dfabaa7a31b32f4ac9ea77e94c9d54",
-      "previous_prerequisites": [
-        "real-analysis/series",
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/divergent-series"
-      ],
-      "prerequisites": [
-        "real-analysis/series",
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/divergent-series"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/rearrangement-of-series",
-      "source_sha256": "002395931cf1b63bb3bd9de6d35bac0e2c8a6ed01b785eac372e905f367566ac",
-      "previous_prerequisites": [
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/rearrangement-theorem-absolute",
-        "real-analysis/conditionally-convergent-series",
-        "real-analysis/riemann-rearrangement-theorem"
-      ],
-      "prerequisites": [
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/rearrangement-theorem-absolute",
-        "real-analysis/conditionally-convergent-series",
-        "real-analysis/riemann-rearrangement-theorem"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/rearrangement-theorem-absolute",
-      "source_sha256": "20cf76e4c074348d0d0e517973a2fb611a30d8002130e49b59df97a7b0712a2b",
-      "previous_prerequisites": [
-        "real-analysis/absolutely-convergent-series"
-      ],
-      "prerequisites": [
-        "real-analysis/absolutely-convergent-series"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/refinement-lemma-upper-lower-sums",
-      "source_sha256": "99319e24d345a911750d10f7cbe95dafdbc1b640ffdb11b86de506f862df375f",
-      "previous_prerequisites": [
-        "real-analysis/refinement-of-a-partition",
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum"
-      ],
-      "prerequisites": [
-        "real-analysis/refinement-of-a-partition",
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/refinement-of-a-partition",
-      "source_sha256": "a644341f7f2cd1b5245807aef7bc2b2266d94780dc4a8350a4a82b2f3423cff9",
-      "previous_prerequisites": [
-        "shared-foundations/subset",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum",
-        "real-analysis/riemann-integrable-function"
-      ],
-      "prerequisites": [
-        "shared-foundations/subset",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum",
-        "real-analysis/riemann-integrable-function"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/regular-point",
-      "source_sha256": "83d42e5b350b25af1fd1ad5d58bdf3b63e4e03da1a4059ea4192fbb9b2f7b4cc",
-      "previous_prerequisites": [
-        "real-analysis/frechet-derivative",
-        "shared-foundations/surjective-function"
-      ],
-      "prerequisites": [
-        "real-analysis/frechet-derivative",
-        "shared-foundations/surjective-function"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/regular-point-critical-point-multivariable",
-      "source_sha256": "3d95dbea33f50444d295d9df5e135d2c55579e43e37424720b4e6506330e2865",
-      "previous_prerequisites": [
-        "real-analysis/differentiable-map",
-        "real-analysis/jacobian-matrix",
-        "shared-foundations/surjective-function",
-        "linear-algebra/matrix"
-      ],
-      "prerequisites": [
-        "real-analysis/differentiable-map",
-        "real-analysis/jacobian-matrix",
-        "shared-foundations/surjective-function",
-        "linear-algebra/matrix"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/regular-value-critical-value-multivariable",
-      "source_sha256": "8b722631faab47e97f4583ed060e1701f6c822a464bd74152f1ee99551251c76",
-      "previous_prerequisites": [
-        "real-analysis/differentiable-map",
-        "real-analysis/regular-point-critical-point-multivariable"
-      ],
-      "prerequisites": [
-        "real-analysis/differentiable-map",
-        "real-analysis/regular-point-critical-point-multivariable"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/remainder-term-in-taylors-theorem",
-      "source_sha256": "fd659c2ffda4e96e15df94604467f598fe6a003f3e61805cab12dccaac08f3e9",
-      "previous_prerequisites": [
-        "real-analysis/taylor-polynomial",
-        "real-analysis/higher-derivatives"
-      ],
-      "prerequisites": [
-        "real-analysis/taylor-polynomial",
-        "real-analysis/higher-derivatives"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/reverse-triangle-inequality",
-      "source_sha256": "2433a0291c4aa025077415fa831d3bcadf77e266bbf2cee8f2b6aa335cb6d970",
-      "previous_prerequisites": [
-        "real-analysis/absolute-value",
-        "linear-algebra/vector-space"
-      ],
-      "prerequisites": [
-        "real-analysis/absolute-value",
-        "linear-algebra/vector-space"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-additivity-over-subintervals",
-      "source_sha256": "3be06eaed9771d40f1d6685d6df0405f213e943cb5558c5d3a06b6378a990fc5",
-      "previous_prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/interval"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/interval"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-algebra",
-      "source_sha256": "4f5576f28a076ff965192cae93a0bea756cc54dd5e6002375a4237f50f15fb07",
-      "previous_prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/interval",
-        "real-analysis/riemann-linearity"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/interval",
-        "real-analysis/riemann-linearity"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-integrability-finite-discontinuities",
-      "source_sha256": "2482dc0384e086c76ce1284c800e99daaacb88cd04ba5e2afa3a94d62ef63eb8",
-      "previous_prerequisites": [
-        "real-analysis/discontinuity-point",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/set-of-discontinuities"
-      ],
-      "prerequisites": [
-        "real-analysis/discontinuity-point",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/set-of-discontinuities"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-integrability-implies-boundedness",
-      "source_sha256": "dbda798e4913d6f74ad044ef0fcdd906942905195bf54f7d12401751940b06fc",
-      "previous_prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/bounded-above",
-        "real-analysis/bounded-below",
-        "real-analysis/riemann-integral",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum",
-        "real-analysis/partition-of-an-interval"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/bounded-above",
-        "real-analysis/bounded-below",
-        "real-analysis/riemann-integral",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum",
-        "real-analysis/partition-of-an-interval"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-integrability-monotone",
-      "source_sha256": "b2fedd6e79f7ca5ba083bc8405f452651901dd9bd60499c8986090b4439051e1",
-      "previous_prerequisites": [
-        "real-analysis/monotone-function",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/discontinuity-point",
-        "real-analysis/oscillation-criterion"
-      ],
-      "prerequisites": [
-        "real-analysis/monotone-function",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/discontinuity-point",
-        "real-analysis/oscillation-criterion"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-integrable-function",
-      "source_sha256": "618ff8dd7617042e06285c9b8177a8b08542c3f49554c9c1c28962e8bbe40113",
-      "previous_prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum"
-      ],
-      "prerequisites": [
-        "real-analysis/partition-of-an-interval",
-        "real-analysis/upper-sum",
-        "real-analysis/lower-sum"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-integral",
-      "source_sha256": "e39c76af5d70ad08d8c89c49e3bcc2045e5d83799dd7277980b6ff90ecf2a0db",
-      "previous_prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/lower-sum",
-        "real-analysis/upper-sum"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/lower-sum",
-        "real-analysis/upper-sum"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-integral-continuous-exists",
-      "source_sha256": "f5280ebdfe66b1c6d9cc9f87608f6cf7ad563607c5842e2434a80bdbf8592962",
-      "previous_prerequisites": [
-        "topology/continuous-map",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/riemann-integral"
-      ],
-      "prerequisites": [
-        "topology/continuous-map",
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/riemann-integral"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-linearity",
-      "source_sha256": "8f4e02f5be2f79bbb4724803b7f86a4d453502d0ba19aa315a9e3fa80c583a9f",
-      "previous_prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/interval",
-        "real-analysis/riemann-integral"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-integrable-function",
-        "real-analysis/interval",
-        "real-analysis/riemann-integral"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-rearrangement-theorem",
-      "source_sha256": "39b79b98af07b74f7be5d38c23a33b830e4e0ebe8be03b57813b7ed5535f5f1e",
-      "previous_prerequisites": [
-        "real-analysis/convergent-series",
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/conditionally-convergent-series",
-        "real-analysis/rearrangement-theorem-absolute"
-      ],
-      "prerequisites": [
-        "real-analysis/convergent-series",
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/conditionally-convergent-series",
-        "real-analysis/rearrangement-theorem-absolute"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-stieltjes-additivity-over-subintervals",
-      "source_sha256": "81bd7859369738c181488d4668cf93abadaa3a30f4ec3800bb2a58ad82b78db2",
-      "previous_prerequisites": [
-        "real-analysis/riemann-stieltjes-integral",
-        "real-analysis/monotone-function"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-stieltjes-integral",
-        "real-analysis/monotone-function"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-stieltjes-integrability-theorem",
-      "source_sha256": "5928cad670cee065a30cc2ec9ddcca74cbc3461cca0eef9d5aa26ecf042b3cdc",
-      "previous_prerequisites": [
-        "real-analysis/bounded-variation-function",
-        "real-analysis/riemann-stieltjes-integral",
-        "real-analysis/integrator-function",
-        "real-analysis/monotone-function",
-        "real-analysis/riemann-integral"
-      ],
-      "prerequisites": [
-        "real-analysis/bounded-variation-function",
-        "real-analysis/riemann-stieltjes-integral",
-        "real-analysis/integrator-function",
-        "real-analysis/monotone-function",
-        "real-analysis/riemann-integral"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-stieltjes-integral",
-      "source_sha256": "3cbc14f27bce828336dda7f3555b19512d2c6c0dfe6bf6ff5a4b3592de1a6ab8",
-      "previous_prerequisites": [
-        "real-analysis/integrator-function",
-        "real-analysis/tagged-partition"
-      ],
-      "prerequisites": [
-        "real-analysis/integrator-function",
-        "real-analysis/tagged-partition"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-stieltjes-linearity",
-      "source_sha256": "a7bdd5dfb773f1178d66338d5f708a476d0718c658c19e3768ab69be01399760",
-      "previous_prerequisites": [
-        "real-analysis/riemann-stieltjes-integral"
-      ],
-      "prerequisites": [
-        "real-analysis/riemann-stieltjes-integral"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/riemann-sum",
-      "source_sha256": "b9e8c96bcb096e5045085ca48ab6edb701f542cee6ba33b2ebf2ed98e927827d",
-      "previous_prerequisites": [
-        "real-analysis/tagged-partition",
-        "real-analysis/mesh-of-a-partition"
-      ],
-      "prerequisites": [
-        "real-analysis/tagged-partition",
-        "real-analysis/mesh-of-a-partition"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/right-derivative-left-derivative",
-      "source_sha256": "9efc07a3846ec7a9d5624dad29574ee2aabbaaf9849c4954b39a9045f4a9f8e3",
-      "previous_prerequisites": [
-        "real-analysis/limit-of-a-function-at-a-point",
-        "real-analysis/difference-quotient",
-        "topology/limit-point"
-      ],
-      "prerequisites": [
-        "real-analysis/limit-of-a-function-at-a-point",
-        "real-analysis/difference-quotient",
-        "topology/limit-point"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/rolles-theorem",
-      "source_sha256": "9e8e2b21a4075fed8ff6ea1fb4f2a07bbfc9dd4800846f29de77fbfa31953758",
-      "previous_prerequisites": [
-        "real-analysis/differentiability-1d",
-        "real-analysis/local-extremum",
-        "real-analysis/mean-value-theorem"
-      ],
-      "prerequisites": [
-        "real-analysis/differentiability-1d",
-        "real-analysis/local-extremum",
-        "real-analysis/mean-value-theorem"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/root-test",
-      "source_sha256": "830144c254eb9aed9242283bbad3376fadbc89a935fee535351a368a343520e8",
-      "previous_prerequisites": [
-        "real-analysis/series",
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/divergent-series"
-      ],
-      "prerequisites": [
-        "real-analysis/series",
-        "real-analysis/absolutely-convergent-series",
-        "real-analysis/divergent-series"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/schwarz-clairaut-theorem",
-      "source_sha256": "a067fef4b19190719581aa9d97fd4084ffb7d34291e34dc1ecfcfa0d832e1f11",
-      "previous_prerequisites": [
-        "topology/open-set",
-        "real-analysis/mixed-partial-derivative"
-      ],
-      "prerequisites": [
-        "topology/open-set",
-        "real-analysis/mixed-partial-derivative"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/second-derivative-tests",
-      "source_sha256": "a47cf944bceb130e51e3f41aadb38ab732df5a77f84c758eb660a7426169a819",
-      "previous_prerequisites": [
-        "real-analysis/critical-point",
-        "real-analysis/local-extremum",
-        "real-analysis/higher-derivatives"
-      ],
-      "prerequisites": [
-        "real-analysis/critical-point",
-        "real-analysis/local-extremum",
-        "real-analysis/higher-derivatives"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/separates-points",
-      "source_sha256": "3fcb56aa8d84147f828e7a9b9282831f1b99cbacffc6a746bbb5a9f48214527f",
-      "previous_prerequisites": [],
-      "prerequisites": [],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/series",
-      "source_sha256": "e80ab53f04661d36b9028e3d4580fb0137c1f7fe3e6796641b987132b342f216",
-      "previous_prerequisites": [
-        "real-analysis/partial-sums"
-      ],
-      "prerequisites": [
-        "real-analysis/partial-sums"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/series-of-functions",
-      "source_sha256": "252b9825fc49232bed1540308ab9470ee09cd6d77e58af200303ce52ac2be353",
-      "previous_prerequisites": [
-        "real-analysis/series",
-        "shared-foundations/function"
-      ],
-      "prerequisites": [
-        "real-analysis/series",
-        "shared-foundations/function"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/set-of-discontinuities",
-      "source_sha256": "6aea6fc8e68f9b0356411e490ef4dab103ee5a30c4b10570776e59a5ec3469f4",
-      "previous_prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/discontinuity-point"
-      ],
-      "prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/discontinuity-point"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/space-of-continuous-functions",
-      "source_sha256": "84ea617f6aa2a3ff21ff89cf9a5fad35f2c200c5cb4aa747585bc9028fcdbbff",
-      "previous_prerequisites": [
-        "shared-foundations/function",
-        "topology/topological-space",
-        "topology/continuous-map"
-      ],
-      "prerequisites": [
-        "shared-foundations/function",
-        "topology/topological-space",
-        "topology/continuous-map"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/squeeze-theorem",
-      "source_sha256": "1c951f056bb312a8044bd440005915cab9d141ec958662ff4fb59171e41f4323",
-      "previous_prerequisites": [
-        "real-analysis/limit-at-a-point"
-      ],
-      "prerequisites": [
-        "real-analysis/limit-at-a-point"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/step-function",
-      "source_sha256": "af412e4af104c45049f019f1ecf7b8fe9ef3541f51158ad3d864799a5adf057b",
-      "previous_prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/partition-of-an-interval"
-      ],
-      "prerequisites": [
-        "shared-foundations/function",
-        "real-analysis/partition-of-an-interval"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/stone-weierstrass-theorem",
-      "source_sha256": "8080b1438abab7843bff08423c9bfa4ba1ba9ab4b855807841078189ebe8615f",
-      "previous_prerequisites": [
-        "topology/topological-space",
-        "real-analysis/subalgebra-of-continuous-functions",
-        "real-analysis/separates-points",
-        "real-analysis/supremum-norm"
-      ],
-      "prerequisites": [
-        "topology/topological-space",
-        "real-analysis/subalgebra-of-continuous-functions",
-        "real-analysis/separates-points",
-        "real-analysis/supremum-norm"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/subalgebra-of-continuous-functions",
-      "source_sha256": "3f59ff468b8400fc627caaa6aef3dcacbbcfb2bb5f131688b6e59358e93c3af2",
-      "previous_prerequisites": [
-        "topology/topological-space",
-        "real-analysis/space-of-continuous-functions",
-        "algebra-rings/ring",
-        "real-analysis/separates-points"
-      ],
-      "prerequisites": [
-        "topology/topological-space",
-        "real-analysis/space-of-continuous-functions",
-        "algebra-rings/ring",
-        "real-analysis/separates-points"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
-    {
-      "id": "real-analysis/subsequence",
-      "source_sha256": "9757a9bac51f1a079df49469464b9c619d31947aee7695ce618baad675c62276",
-      "previous_prerequisites": [
-        "shared-foundations/sequence"
-      ],
-      "prerequisites": [
-        "shared-foundations/sequence"
-      ],
-      "reason": "Pending complete source and direct prerequisite-target audit; excluded from completed review count."
-    },
     {
       "id": "real-analysis/substitution-rule",
       "source_sha256": "5d0d344ea6009fd1ea1728d9e14ee280d1c7fb062b7a62953fb416fb15162f5a",
@@ -2065,14 +999,15 @@
     },
     {
       "id": "real-analysis/cauchy-hadamard-theorem",
-      "source_sha256": "91677c8f22a211255ac8028ea2050b190a3563343aa6d6025aa4cc6ebf6abc50",
+      "source_sha256": "d30f138fdfb967baffda3ad0e0aea0b633bd38fd36c346eb7837968190e8fab2",
       "previous_prerequisites": [
         "real-analysis/power-series"
       ],
       "prerequisites": [
         "real-analysis/power-series",
         "real-analysis/limit-superior",
-        "real-analysis/root-test"
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/divergent-series"
       ],
       "outcome": "corrected",
       "evidence": "Full source, examples, endpoint/quantifier conditions, and each direct prerequisite target reviewed. Core claim/hypotheses: **Cauchy–Hadamard theorem:** For a [[real-analysis/power-series|power series]] \\(\\sum_{n=0}^\\infty a_n (x-x_0)^n\\) (real or complex), define \\[ L=\\limsup_{n\\to\\infty} |a_n|^{1/n}. \\] Set the radius of convergence \\[ R=\\frac{1}{L}, \\] with the conventions \\(1/0=\\infty\\) and \\(1/\\infty=0\\). Then: - The series converges absolutely for \\(|x-x_0|<R\\). - The series diverges for \\(|x-x_0|>R\\).. Dependency decision: listed prerequisites provide the defining objects, hypotheses, and stated outputs; downstream consequences and explanatory proof references are excluded."
@@ -2907,7 +1842,7 @@
     },
     {
       "id": "real-analysis/gradient",
-      "source_sha256": "8124e9d3ff388f46ad5c4c00dd0d441c77c6aee69f158a353564d45a943f7138",
+      "source_sha256": "86e3c02de2c8511dd4f185b7748b00e6495d034619a4723f81d9e6fbd504f54b",
       "previous_prerequisites": [
         "real-analysis/partial-derivative",
         "linear-algebra/inner-product",
@@ -2917,7 +1852,9 @@
       ],
       "prerequisites": [
         "real-analysis/partial-derivative",
-        "linear-algebra/inner-product"
+        "linear-algebra/inner-product",
+        "real-analysis/differentiable-map",
+        "topology/open-set"
       ],
       "outcome": "corrected",
       "evidence": "Full source, examples, endpoint/quantifier conditions, and each direct prerequisite target reviewed. Core claim/hypotheses: A **gradient** of a differentiable function \\(f:U\\to \\mathbb{R}\\), where \\(U\\subseteq\\mathbb R^n\\) is open, at a point \\(a\\in U\\) is the vector \\[ \\nabla f(a)=\\left(\\frac{\\partial f}{\\partial x_1}(a),\\dots,\\frac{\\partial f}{\\partial x_n}(a)\\right), \\] formed from the [[real-analysis/partial-derivative|partial derivatives]] of \\(f\\).. Dependency decision: listed prerequisites provide the defining objects, hypotheses, and stated outputs; downstream consequences and explanatory proof references are excluded."
@@ -3002,7 +1939,7 @@
     },
     {
       "id": "real-analysis/infimum",
-      "source_sha256": "6c57209843c29c4c23be41e8f69b59609fa5ae624b0af86ba257a1d92d638f2b",
+      "source_sha256": "7288cd02e51153ea336f4b9f9832f28b80669210c37cc7f86160378953405499",
       "previous_prerequisites": [
         "real-analysis/bounded-below",
         "shared-foundations/lower-bound",
@@ -3011,8 +1948,7 @@
       "prerequisites": [
         "real-analysis/bounded-below",
         "shared-foundations/lower-bound",
-        "shared-foundations/subset",
-        "real-analysis/completeness-axiom"
+        "shared-foundations/subset"
       ],
       "outcome": "corrected",
       "evidence": "Full source, examples, endpoint/quantifier conditions, and each direct prerequisite target reviewed. Core claim/hypotheses: An **infimum** of a nonempty set \\(A\\subseteq\\mathbb R\\) that is [[real-analysis/bounded-below|bounded below]] is a real number \\(t\\in\\mathbb R\\) such that: 1. \\(t\\) is a lower bound of \\(A\\) (i.e., \\(t\\le x\\) for all \\(x\\in A\\)), and 2. for every lower bound \\(\\ell\\) of \\(A\\), one has \\(\\ell\\le t\\). The infimum is the “greatest lower bound” and may exist even when \\(A\\) has no [[real-analysis/minimum|minimum]]. Using the [[real-analysis/completeness-axiom|completeness axiom]], every nonempty bo. Dependency decision: listed prerequisites provide the defining objects, hypotheses, and stated outputs; downstream consequences and explanatory proof references are excluded."
@@ -3474,6 +2410,1192 @@
       ],
       "outcome": "corrected",
       "evidence": "Full source, examples, endpoint/quantifier conditions, and each direct prerequisite target reviewed. Core claim/hypotheses: A **local extremum** of a function \\(f:I\\to\\mathbb{R}\\) at a point \\(a\\in I\\) means either a local maximum or a local minimum: \\(a\\) is a local maximum if there exists \\(\\delta>0\\) such that \\(f(a)\\ge f(x)\\) for all \\(x\\in I\\) with \\(|x-a|<\\delta\\), and a local minimum if there exists \\(\\delta>0\\) such that \\(f(a)\\le f(x)\\) for all such \\(x\\).. Dependency decision: listed prerequisites provide the defining objects, hypotheses, and stated outputs; downstream consequences and explanatory proof references are excluded."
+    },
+    {
+      "id": "real-analysis/local-implicit-function-parameterization",
+      "outcome": "corrected",
+      "source_sha256": "4c140fc9b326ee2ac1025bd664934dc59755cb3c28e144c85cf89f5187206e3e",
+      "evidence": "Manual full-source review: real-analysis/local-implicit-function-parameterization defines/states “**Local implicit-function parameterization:** Let \\(U\\subseteq\\mathbb R^n\\) be an [[topology/open-set|open set]], let \\(F:U\\to\\mathbb R^m\\) be continuously differentiable with \\(m<n\\), and let \\(p\\in U\\) satisfy \\(F(p)=0\\). If the derivative \\(DF(p):\\mathbb R^n\\to\\mathbb R^m\\) has rank \\(m\\) (equivalently, \\(p\\) is a [[real-analysis/regular-point|regular point]] of \\(F\\)), then”. I checked its examples and endpoint or quantifier conditions against direct targets ['topology/open-set', 'real-analysis/regular-point', 'real-analysis/class-ck-map']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "topology/open-set",
+        "real-analysis/regular-point"
+      ],
+      "prerequisites": [
+        "topology/open-set",
+        "real-analysis/regular-point",
+        "real-analysis/class-ck-map"
+      ]
+    },
+    {
+      "id": "real-analysis/local-maximum-local-minimum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "432bc67e0aa170752a4bd1c49c25399fff6d53f69b646cabec21939cb8efc32b",
+      "evidence": "Manual full-source review: real-analysis/local-maximum-local-minimum defines/states “Let \\(f:E\\to\\mathbb{R}\\) with \\(E\\subseteq X\\) where \\((X,d)\\) is a [[topology/metric-space|metric space]], and let \\(a\\in E\\). - The point \\(a\\) is a **local maximum** of \\(f\\) if there exists \\(r>0\\) such that for all \\(x\\in E\\cap B(a,r)\\), \\[f(x)\\le f(a).\\] - The point \\(a\\) is a **local minimum** of \\(f\\) if there exists \\(r>0\\) such that for all \\(x\\in E\\cap B(a,r)\\), \\[f(”. I checked its examples and endpoint or quantifier conditions against direct targets ['topology/metric-space']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "real-analysis/lower-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2931b828b4a9b515bb8b636a8272cdede28db883aef3ad0327e4e691b5b0a88e",
+      "evidence": "Manual full-source review: real-analysis/lower-sum defines/states “A **lower sum** of a bounded function \\(f:[a,b]\\to\\mathbb R\\) with respect to a [[real-analysis/partition-of-an-interval|partition]] \\(P=\\{x_0,\\dots,x_n\\}\\) is the number \\[ L(f,P)=\\sum_{i=1}^n m_i\\,(x_i-x_{i-1}), \\] where \\(m_i=\\inf\\{f(x):x\\in[x_{i-1},x_i]\\}\\) is the [[real-analysis/infimum|infimum]] of \\(f\\) on the \\(i\\)th subinterval. Lower sums are paired with [[real-analys”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/partition-of-an-interval', 'real-analysis/infimum', 'real-analysis/upper-sum']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/infimum",
+        "real-analysis/upper-sum"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/infimum",
+        "real-analysis/upper-sum"
+      ]
+    },
+    {
+      "id": "real-analysis/lower-sum-riemann",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e95ecd0716383e24593e6945bfc697764d8e9a3abce9ceba8194b5971df707d4",
+      "evidence": "Manual full-source review: real-analysis/lower-sum-riemann defines/states “Let \\(f:[a,b]\\to\\mathbb{R}\\) be bounded and let \\(P:a=x_0<\\cdots<x_n=b\\) be a partition. For each subinterval, define \\[ m_i := \\inf\\{f(x): x\\in[x_{i-1},x_i]\\}. \\] The **lower sum** of \\(f\\) with respect to \\(P\\) is \\[ L(f,P) := \\sum_{i=1}^n m_i\\, (x_i-x_{i-1}). \\] [[real-analysis/lower-sum|Lower sums]] approximate the integral from below. As the partition is refined, lower sum”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/partition-of-an-interval', 'real-analysis/infimum']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/infimum"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/infimum"
+      ]
+    },
+    {
+      "id": "real-analysis/m-test-continuity-integration-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c78a7d4d16da34714649a93749444b7c9044402266cebbb19fa248281eec5d0b",
+      "evidence": "Manual full-source review: real-analysis/m-test-continuity-integration-corollary defines/states “Let \\(X\\) be a set and let \\(f_n:X\\to\\mathbb{R}\\) (or \\(\\mathbb{C}\\)). Suppose: - each \\(f_n\\) is [[real-analysis/continuity-on-a-set|continuous]] on \\(X\\) (when \\(X\\) is a [[topology/metric-space|metric space]]), and - there exist \\(M_n\\ge 0\\) with \\(|f_n(x)|\\le M_n\\) for all \\(x\\in X\\), and \\(\\sum M_n\\) [[real-analysis/convergent-series|converges]]. **Corollary**: - The serie”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/continuity-on-a-set', 'topology/metric-space', 'real-analysis/convergent-series', 'real-analysis/uniform-convergence-of-a-sequence-of-functions', 'real-analysis/weierstrass-m-test', 'real-analysis/uniform-limit-theorem', 'real-analysis/riemann-integrable-function']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "topology/metric-space",
+        "real-analysis/convergent-series",
+        "real-analysis/uniform-convergence-of-a-sequence-of-functions",
+        "real-analysis/weierstrass-m-test",
+        "real-analysis/uniform-limit-theorem",
+        "real-analysis/riemann-integrable-function"
+      ],
+      "prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "topology/metric-space",
+        "real-analysis/convergent-series",
+        "real-analysis/uniform-convergence-of-a-sequence-of-functions",
+        "real-analysis/weierstrass-m-test",
+        "real-analysis/uniform-limit-theorem",
+        "real-analysis/riemann-integrable-function"
+      ]
+    },
+    {
+      "id": "real-analysis/m-test-corollary",
+      "outcome": "corrected",
+      "source_sha256": "b567c77c47f0cccfbeb5307ad2dfe48c78cf8ac2cabf66eb033c115b69c52e1c",
+      "evidence": "Manual full-source review: real-analysis/m-test-corollary defines/states “**Corollary of the M-test.** Let \\(E\\) be a set and let \\(f_n:E\\to\\mathbb R\\) or \\(f_n:E\\to\\mathbb C\\) be bounded functions. If \\[ \\sum_{n=1}^\\infty \\|f_n\\|_\\infty \\] converges, where \\(\\|f_n\\|_\\infty=\\sup_{x\\in E}|f_n(x)|\\), then \\(\\sum_{n=1}^\\infty f_n\\) converges [[real-analysis/uniform-convergence|uniformly]] on \\(E\\) and absolutely at each point.”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/uniform-convergence', 'real-analysis/supremum-norm', 'real-analysis/convergent-series']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/uniform-convergence"
+      ],
+      "prerequisites": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/supremum-norm",
+        "real-analysis/convergent-series"
+      ]
+    },
+    {
+      "id": "real-analysis/maximum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "428aa1f4845c24068b4b1a3636c1cb2181350fbce31476bc292e32cd84ba38fa",
+      "evidence": "Manual full-source review: real-analysis/maximum defines/states “A **maximum** of a [[shared-foundations/subset|subset]] \\(A\\subseteq\\mathbb R\\) is an element \\(m\\in A\\) such that \\(x\\le m\\) for every \\(x\\in A\\).”. I checked its examples and endpoint or quantifier conditions against direct targets ['shared-foundations/subset']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "real-analysis/mean-value-estimate-lemma",
+      "outcome": "corrected",
+      "source_sha256": "ceb48a7033e81a2c7407eb008174c754107bc25c96a07e5ddbacf97fadff2d67",
+      "evidence": "Manual full-source review: real-analysis/mean-value-estimate-lemma defines/states “**Mean value estimate lemma:** Let \\(f:[a,b]\\to\\mathbb{R}\\) be continuous on \\([a,b]\\) and [[real-analysis/differentiability-1d|differentiable]] on \\((a,b)\\). If there exists \\(M\\ge 0\\) such that \\(|f'(x)|\\le M\\) for all \\(x\\in(a,b)\\), then \\[ |f(b)-f(a)|\\le M\\,|b-a|. \\]”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/differentiability-1d', 'real-analysis/continuity-on-a-set']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/differentiability-1d"
+      ],
+      "prerequisites": [
+        "real-analysis/differentiability-1d",
+        "real-analysis/continuity-on-a-set"
+      ]
+    },
+    {
+      "id": "real-analysis/mean-value-inequality",
+      "outcome": "corrected",
+      "source_sha256": "21c8b42bbf82d7ad392691b8a25159ea007ce09037d35f8037e25f89f35e046e",
+      "evidence": "Manual full-source review: real-analysis/mean-value-inequality defines/states “**Mean value inequality.** Let \\(U\\subseteq\\mathbb R^k\\) be open, let \\(f:U\\to\\mathbb R^m\\) be continuously differentiable, and suppose the line segment \\([x,y]\\) lies in \\(U\\). If \\(M\\ge0\\) satisfies \\[ \\|Df(z)\\|\\le M \\quad \\text{for all } z \\text{ on the segment from } x \\text{ to } y, \\] where \\(\\lVert Df(z)\\rVert\\) is the [[linear-algebra/operator-norm|operator norm]], then”. I checked its examples and endpoint or quantifier conditions against direct targets ['topology/open-set', 'real-analysis/differentiable-map', 'linear-algebra/operator-norm']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "linear-algebra/operator-norm"
+      ],
+      "prerequisites": [
+        "topology/open-set",
+        "real-analysis/differentiable-map",
+        "linear-algebra/operator-norm"
+      ]
+    },
+    {
+      "id": "real-analysis/mean-value-theorem",
+      "outcome": "corrected",
+      "source_sha256": "ad15d105031cebaeeceb30eedad09ac883b782c6aa1ab03566bf9308cfdac46c",
+      "evidence": "Manual full-source review: real-analysis/mean-value-theorem defines/states “**Mean value theorem:** Let \\(a<b\\), and let \\(f:[a,b]\\to\\mathbb{R}\\) be continuous on \\([a,b]\\) and [[real-analysis/differentiability-1d|differentiable]] on \\((a,b)\\). Then there exists \\(c\\in(a,b)\\) such that \\[ f'(c)=\\frac{f(b)-f(a)}{b-a}. \\]”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/differentiability-1d', 'real-analysis/continuity-on-a-set']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/differentiability-1d"
+      ],
+      "prerequisites": [
+        "real-analysis/differentiability-1d",
+        "real-analysis/continuity-on-a-set"
+      ]
+    },
+    {
+      "id": "real-analysis/mean-value-theorem-for-integrals",
+      "outcome": "corrected",
+      "source_sha256": "5993b6837196f7fa465e2150cb9cfd253728fcda194f8181d3638b208bb50bb4",
+      "evidence": "Manual full-source review: real-analysis/mean-value-theorem-for-integrals defines/states “**Mean value theorem for integrals.** Let \\(a<b\\) and let \\(f:[a,b]\\to\\mathbb{R}\\) be continuous. Then there exists \\(c\\in[a,b]\\) such that \\[ \\int_a^b f(x)\\,dx = f(c)\\,(b-a). \\]”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/riemann-integral', 'real-analysis/riemann-integrable-function', 'real-analysis/continuity-on-a-set']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integral",
+        "real-analysis/intermediate-value-theorem"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integral",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/continuity-on-a-set"
+      ]
+    },
+    {
+      "id": "real-analysis/mertens-theorem",
+      "outcome": "corrected",
+      "source_sha256": "f3cfab80fe5ce5f558ac4b41a5f21ae16135a2b688021a77d564a92e714c50b4",
+      "evidence": "Manual full-source review: real-analysis/mertens-theorem defines/states “**Mertens' theorem:** Let \\(\\sum_{n=0}^\\infty a_n\\) and \\(\\sum_{n=0}^\\infty b_n\\) be series. Assume that \\(\\sum_{n=0}^\\infty a_n\\) converges and that \\(\\sum_{n=0}^\\infty |b_n|\\) converges. Define the [[real-analysis/cauchy-product|Cauchy product]] coefficients \\[ c_n=\\sum_{k=0}^n a_k\\,b_{n-k}. \\] Then the series \\(\\sum_{n=0}^\\infty c_n\\) converges, and its sum satisfies \\[ \\sum”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/cauchy-product', 'real-analysis/convergent-series', 'real-analysis/absolutely-convergent-series']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/cauchy-product"
+      ],
+      "prerequisites": [
+        "real-analysis/cauchy-product",
+        "real-analysis/convergent-series",
+        "real-analysis/absolutely-convergent-series"
+      ]
+    },
+    {
+      "id": "real-analysis/mertens-theorem-on-cauchy-products",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f292114136c07c1d69e7418bf10bf70611c8fbd52eb7f4da2a62fb151d5817ef",
+      "evidence": "Manual full-source review: real-analysis/mertens-theorem-on-cauchy-products defines/states “Let \\(\\sum_{n=0}^\\infty a_n\\) and \\(\\sum_{n=0}^\\infty b_n\\) be convergent real or complex [[real-analysis/series|series]]. Define their [[real-analysis/cauchy-product|Cauchy product]] by \\[ c_n=\\sum_{k=0}^n a_kb_{n-k}. \\] If at least one of the two series [[real-analysis/absolutely-convergent-series|converges absolutely]], then \\(\\sum_{n=0}^\\infty c_n\\) converges and \\[ \\sum_{n”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/series', 'real-analysis/cauchy-product', 'real-analysis/absolutely-convergent-series']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/series",
+        "real-analysis/cauchy-product",
+        "real-analysis/absolutely-convergent-series"
+      ],
+      "prerequisites": [
+        "real-analysis/series",
+        "real-analysis/cauchy-product",
+        "real-analysis/absolutely-convergent-series"
+      ]
+    },
+    {
+      "id": "real-analysis/mesh-of-a-partition",
+      "outcome": "corrected",
+      "source_sha256": "533cac98a9cc17072c8c72d8cb5ea01cb92cfc59d287bd363dcec902d3c4c146",
+      "evidence": "Manual full-source review: real-analysis/mesh-of-a-partition defines/states “A **mesh of a partition** \\(P=\\{x_0,\\dots,x_n\\}\\) of \\([a,b]\\) is the number \\[ \\|P\\|=\\max_{1\\le i\\le n}(x_i-x_{i-1}). \\] For a [[real-analysis/tagged-partition|tagged partition]], the mesh depends only on the underlying partition \\(P\\).”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/partition-of-an-interval']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/tagged-partition"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval"
+      ]
+    },
+    {
+      "id": "real-analysis/minimum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3c2333081e324e46e20127b58a2691175b01f4cc77f9c8f6b17ac9995a2ae662",
+      "evidence": "Manual full-source review: real-analysis/minimum defines/states “A **minimum** of a [[shared-foundations/subset|subset]] \\(A\\subseteq\\mathbb R\\) is an element \\(m\\in A\\) such that \\(m\\le x\\) for every \\(x\\in A\\).”. I checked its examples and endpoint or quantifier conditions against direct targets ['shared-foundations/subset']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "real-analysis/mixed-partial-derivative",
+      "outcome": "corrected",
+      "source_sha256": "819876b4aacafddb260d3bc41e8a061be8654c429b101b6f6c55a95e3b648831",
+      "evidence": "Manual full-source review: real-analysis/mixed-partial-derivative defines/states “A **mixed partial derivative** of a scalar function \\(f:U\\to \\mathbb{R}\\) (with \\(U\\subseteq \\mathbb{R}^n\\)) at \\(a\\in U\\) is a second-order [[real-analysis/partial-derivative|partial derivative]] of the form \\[ \\frac{\\partial^2 f}{\\partial x_i\\,\\partial x_j}(a) =\\frac{\\partial}{\\partial x_i}\\left(\\frac{\\partial f}{\\partial x_j}\\right)(a), \\] provided the relevant partial deriv”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/partial-derivative']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/partial-derivative"
+      ]
+    },
+    {
+      "id": "real-analysis/modulus-on-c",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d3c196c1daeca51b26d7823f1f47299c4199985ddb8e8ee460ad6a5720b2449",
+      "evidence": "Manual full-source review: real-analysis/modulus-on-c defines/states “For \\(z=a+bi\\in\\mathbb{C}\\), the **modulus** (or **absolute value**) of \\(z\\) is \\[ |z|:=\\sqrt{a^2+b^2}=\\sqrt{z\\overline{z}}. \\]”. I checked its examples and endpoint or quantifier conditions against direct targets ['shared-foundations/complex-numbers-c']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "prerequisites": [
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "real-analysis/monotone-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b279af1595e49a45cfa4d25a3cad5faf689d88bb0702fd742d4eb6b003c36dfc",
+      "evidence": "Manual full-source review: real-analysis/monotone-function defines/states “A **monotone function** on an [[real-analysis/interval|interval]] \\(I\\subseteq\\mathbb{R}\\) is a function \\(f:I\\to\\mathbb{R}\\) that is either nondecreasing (if \\(x\\le y\\) implies \\(f(x)\\le f(y)\\)) or nonincreasing (if \\(x\\le y\\) implies \\(f(x)\\ge f(y)\\)); it is strictly increasing or strictly decreasing if the inequalities are strict whenever \\(x<y\\).”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/interval']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/interval"
+      ],
+      "prerequisites": [
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "real-analysis/monotone-sequence",
+      "outcome": "corrected",
+      "source_sha256": "19280db0d43fa3109fdbe12f18ecf1722d7eb0aab6111625d363fdcbf5de7e14",
+      "evidence": "Manual full-source review: real-analysis/monotone-sequence defines/states “A **monotone sequence** is a sequence \\((a_n)_{n\\ge 1}\\) of [[shared-foundations/real-numbers|real numbers]] such that either - \\(a_n\\le a_{n+1}\\) for all \\(n\\) (monotone increasing), or - \\(a_n\\ge a_{n+1}\\) for all \\(n\\) (monotone decreasing).”. I checked its examples and endpoint or quantifier conditions against direct targets ['shared-foundations/sequence', 'shared-foundations/real-numbers']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/sequence",
+        "shared-foundations/real-numbers"
+      ]
+    },
+    {
+      "id": "real-analysis/monotone-sequence-convergence-theorem",
+      "outcome": "corrected",
+      "source_sha256": "cd3e3d98858e4bee4e270847f3b8093038b18828cad7788d501c78ad5e66c242",
+      "evidence": "Manual full-source review: real-analysis/monotone-sequence-convergence-theorem defines/states “**Monotone sequence convergence theorem:** Let \\((a_n)\\) be a [[real-analysis/monotone-sequence|monotone sequence]] of [[shared-foundations/real-numbers|real numbers]]. - If \\((a_n)\\) is increasing and [[real-analysis/bounded-above|bounded above]], then \\((a_n)\\) converges and \\[ \\lim_{n\\to\\infty} a_n=\\sup\\{a_n:\\ n\\in\\mathbb{N}\\}. \\] - If \\((a_n)\\) is decreasing and [[real-anal”. I checked its examples and endpoint or quantifier conditions against direct targets ['real-analysis/monotone-sequence', 'real-analysis/bounded-above', 'real-analysis/bounded-below', 'real-analysis/supremum', 'real-analysis/infimum', 'real-analysis/completeness-axiom']; each listed target supplies a required definition, hypothesis, or stated output, and downstream application links were excluded.",
+      "previous_prerequisites": [
+        "real-analysis/monotone-sequence",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below"
+      ],
+      "prerequisites": [
+        "real-analysis/monotone-sequence",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below",
+        "real-analysis/supremum",
+        "real-analysis/infimum",
+        "real-analysis/completeness-axiom"
+      ]
+    },
+    {
+      "id": "real-analysis/monotone-sequence-of-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af90e377a98b2f20ef6d723ce0fd2d0ac46b9318942e0fbddc2ad587f290e73a",
+      "evidence": "The definition requires one common pointwise direction across all x in X and equates it with numerical monotonicity at each fixed x. The monotone-sequence and function targets are direct; the self-link is absent.",
+      "previous_prerequisites": [
+        "real-analysis/monotone-sequence",
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "real-analysis/monotone-sequence",
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "real-analysis/monotone-subsequence-lemma",
+      "outcome": "corrected",
+      "source_sha256": "02b95895012f4c4f5b069376e6daf42717b4529341b113bab7130b76c77f609b",
+      "evidence": "The theorem starts with an arbitrary real sequence and concludes a monotone subsequence. Sequence, subsequence, and monotone-sequence are all required concepts.",
+      "previous_prerequisites": [
+        "real-analysis/subsequence",
+        "real-analysis/monotone-sequence"
+      ],
+      "prerequisites": [
+        "shared-foundations/sequence",
+        "real-analysis/subsequence",
+        "real-analysis/monotone-sequence"
+      ]
+    },
+    {
+      "id": "real-analysis/multi-index-notation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6327a3223021f128a5a9986da0344d3dfbea1fdf7d58705716875ec779d76214",
+      "evidence": "The tuple, total order, factorial product, monomial, and partial-derivative operators are defined explicitly; natural numbers, factorial, and partial derivatives supply the notation.",
+      "previous_prerequisites": [
+        "shared-foundations/natural-numbers",
+        "shared-foundations/factorial",
+        "real-analysis/partial-derivative"
+      ],
+      "prerequisites": [
+        "shared-foundations/natural-numbers",
+        "shared-foundations/factorial",
+        "real-analysis/partial-derivative"
+      ]
+    },
+    {
+      "id": "real-analysis/multiple-riemann-integral",
+      "outcome": "corrected",
+      "source_sha256": "9f1892abe9a74756dffc9df74af8e15ff7d30f4a12e0ff5d481e011943b4562d",
+      "evidence": "The definition quantifies over rectangular partitions, tags, mesh, volumes, and Riemann sums; partition, integrability, and Riemann-sum targets are direct.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/riemann-integrable-function"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/riemann-sum"
+      ]
+    },
+    {
+      "id": "real-analysis/neumann-series-lemma",
+      "outcome": "corrected",
+      "source_sha256": "d466941ba070de48da36e07368bb7e929edfc3f173e6a9cc4a587caa5eee1b13",
+      "evidence": "The lemma assumes linear maps and an operator-norm contraction, then identifies an inverse with a convergent matrix series and gives a norm bound; all four listed algebra/series targets are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/operator-norm",
+        "real-analysis/series",
+        "real-analysis/convergent-series"
+      ]
+    },
+    {
+      "id": "real-analysis/newton-leibniz-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4aaaf0d2bbdb0fd6c8f346951570a5bb36716ae07b8bc91444759de6737985b6",
+      "evidence": "The formula assumes continuous f and an antiderivative F, then identifies the Riemann integral with endpoint difference; continuity, integral, and derivative targets match the stated data.",
+      "previous_prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/riemann-integral",
+        "real-analysis/derivative"
+      ],
+      "prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/riemann-integral",
+        "real-analysis/derivative"
+      ]
+    },
+    {
+      "id": "real-analysis/one-sided-limit",
+      "outcome": "corrected",
+      "source_sha256": "13dfc345784a7326d2fc7b4786dd56208116aaaabdeaf066414da86dd81945ec",
+      "evidence": "The epsilon-delta definition restricts x to one side and requires that side to contain domain points arbitrarily near a; function, interval, and limit-point targets are direct.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/interval",
+        "real-analysis/discontinuity-point"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/interval",
+        "topology/limit-point"
+      ]
+    },
+    {
+      "id": "real-analysis/order-axioms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1f8008dcb3d45934f7664bac7d832ffcc3ba35ad0c3810c37c4e5508f1df6f3",
+      "evidence": "The core lists order, compatibility with field operations, and positivity axioms for a relation on a field; field-axioms and relation are the defining prerequisites.",
+      "previous_prerequisites": [
+        "real-analysis/field-axioms",
+        "shared-foundations/relation"
+      ],
+      "prerequisites": [
+        "real-analysis/field-axioms",
+        "shared-foundations/relation"
+      ]
+    },
+    {
+      "id": "real-analysis/oscillation",
+      "outcome": "corrected",
+      "source_sha256": "58b7c53299b3413c1efb08a82ab871fe5591b61503660a792c5667a0954e4597",
+      "evidence": "The oscillation is a supremum of pairwise absolute differences, equivalently sup f minus inf f; subset, supremum, infimum, and absolute-value are direct inputs.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/subset",
+        "real-analysis/supremum",
+        "real-analysis/infimum",
+        "real-analysis/absolute-value"
+      ]
+    },
+    {
+      "id": "real-analysis/oscillation-criterion",
+      "outcome": "corrected",
+      "source_sha256": "690e97ba7913e569ca7cc5eed045fea4d13f8cc14ed0534efee0aa210d0b5961",
+      "evidence": "The criterion compares Riemann integrability with a partition weighted sum of subinterval oscillations; partition, oscillation, and integrability are the complete direct set.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/oscillation",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/upper-sum",
+        "real-analysis/lower-sum",
+        "real-analysis/riemann-integrability-finite-discontinuities"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/oscillation",
+        "real-analysis/riemann-integrable-function"
+      ]
+    },
+    {
+      "id": "real-analysis/partial-sums",
+      "outcome": "corrected",
+      "source_sha256": "b58bf902f15668f9f68ef5f0b5da0b6ce8d59fcbd236289ed54d77d3397635e6",
+      "evidence": "The source defines finite s_n from a sequence of terms and postpones series/convergence to remarks; sequence and complex-number scope are retained without restoring a series dependency.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/sequence",
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "real-analysis/partition-of-an-interval",
+      "outcome": "corrected",
+      "source_sha256": "30181d4610e1a4df3c4dc592592cd15b1018b50a228f73cd68433d1164c1cf04",
+      "evidence": "A partition is a finite strictly increasing list of real endpoints from a,b; interval and real-number foundations are direct.",
+      "previous_prerequisites": [
+        "real-analysis/interval"
+      ],
+      "prerequisites": [
+        "real-analysis/interval",
+        "shared-foundations/real-numbers"
+      ]
+    },
+    {
+      "id": "real-analysis/pointwise-bounded-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "077c2d7e30c9e44dafca384aeef9101b29e31863dfa9891f127feb39d06ab7e4",
+      "evidence": "Pointwise boundedness quantifies, for each x, over the value set of a function family and its finite supremum; function and upper/lower boundedness targets supply the definition.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below"
+      ]
+    },
+    {
+      "id": "real-analysis/pointwise-convergence",
+      "outcome": "corrected",
+      "source_sha256": "da9c1228a09333bc76f414519c21f9b0567b7bab36f86ce75ce8fbfd6430b95e",
+      "evidence": "Pointwise convergence quantifies convergence of f_n(x) for every fixed x; function, sequence, and convergent-sequence targets are direct.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "real-analysis/polynomial",
+      "outcome": "corrected",
+      "source_sha256": "8d8eb70fb0bb43a92105ff81860907b6b0d5c88db8669d443d8e668b085f507e",
+      "evidence": "The core defines a real polynomial as a function with finitely many real coefficients and powers; function is the only linked foundational input.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "real-analysis/positive-derivative-implies-increasing",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74616034604b535e8a8a8e117cfc59de928abc169484af8a2681314af9b1c892",
+      "evidence": "The theorem assumes continuity on an interval and positive derivative at every interior point, concluding strict increase; interval, 1D differentiability, and the stated MVT proof link were checked for scope.",
+      "previous_prerequisites": [
+        "real-analysis/interval",
+        "real-analysis/differentiability-1d",
+        "real-analysis/mean-value-theorem"
+      ],
+      "prerequisites": [
+        "real-analysis/interval",
+        "real-analysis/differentiability-1d",
+        "real-analysis/mean-value-theorem"
+      ]
+    },
+    {
+      "id": "real-analysis/power-series",
+      "outcome": "corrected",
+      "source_sha256": "06f2ad659e29c17cc2f664f3dfd5f2f6e7a10ee6ccb344ae3aa7ff5ad5a95a8c",
+      "evidence": "The core defines real/complex coefficient series, radius behavior, and its real interval or complex disk domain; series, complex-number, and interval targets match those definitions.",
+      "previous_prerequisites": [
+        "real-analysis/series"
+      ],
+      "prerequisites": [
+        "real-analysis/series",
+        "shared-foundations/complex-numbers-c",
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "real-analysis/power-series-analytic-on-disk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3536b8d7683b8a4c8d924eb76cef0f9b53474bacbd1a2acc6c273427376dd6cd",
+      "evidence": "The theorem differentiates a power series term by term on its complex disk; power-series supplies the radius and convergence data, while the complex analytic conclusion is stated in the core.",
+      "previous_prerequisites": [
+        "real-analysis/power-series"
+      ],
+      "prerequisites": [
+        "real-analysis/power-series"
+      ]
+    },
+    {
+      "id": "real-analysis/power-series-uniform-convergence-on-compacts",
+      "outcome": "corrected",
+      "source_sha256": "b5f0b8fe76990cb9b282d4bc6e8367c466e293c5f16cbdc208a7df560adc77c7",
+      "evidence": "The theorem asserts absolute/uniform convergence on compact subsets strictly inside the radius; power-series, compact-set, and uniform-convergence targets correspond to the setting and output.",
+      "previous_prerequisites": [
+        "real-analysis/power-series"
+      ],
+      "prerequisites": [
+        "real-analysis/power-series",
+        "topology/compact-set",
+        "real-analysis/uniform-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/preimage-inverse-image",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9b31e9198ad4c948ec3768e645485f9b769d0bcc6112fefff3d33582d164731a",
+      "evidence": "The preimage is defined for any function f:X→Y and subset B⊆Y, independent of invertibility; function and set are exactly the direct prerequisites.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "real-analysis/ratio-test",
+      "outcome": "corrected",
+      "source_sha256": "c2d69f81eab88baed84bc868ab8b1e9857f225acb1e384a5b1d37e0a1b03d551",
+      "evidence": "The ratio test uses limsup/liminf of successive absolute ratios, with L+<1 giving absolute convergence and L−>1 forcing terms away from zero; series, absolute/divergent convergence, and limsup/liminf are direct.",
+      "previous_prerequisites": [
+        "real-analysis/series",
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/divergent-series"
+      ],
+      "prerequisites": [
+        "real-analysis/series",
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/divergent-series",
+        "real-analysis/limit-superior",
+        "real-analysis/limit-inferior"
+      ]
+    },
+    {
+      "id": "real-analysis/rearrangement-of-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "002395931cf1b63bb3bd9de6d35bac0e2c8a6ed01b785eac372e905f367566ac",
+      "evidence": "This page defines permutation by a bijection and contrasts absolute invariance with conditional rearrangement behavior; its four theorem/classification targets are the concepts explicitly invoked.",
+      "previous_prerequisites": [
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/rearrangement-theorem-absolute",
+        "real-analysis/conditionally-convergent-series",
+        "real-analysis/riemann-rearrangement-theorem"
+      ],
+      "prerequisites": [
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/rearrangement-theorem-absolute",
+        "real-analysis/conditionally-convergent-series",
+        "real-analysis/riemann-rearrangement-theorem"
+      ]
+    },
+    {
+      "id": "real-analysis/rearrangement-theorem-absolute",
+      "outcome": "corrected",
+      "source_sha256": "56476011c98f3edbd91e3d5a331cd4071001c659526f4f190760f2c66581ad80",
+      "evidence": "Absolute convergence and a bijection of N are hypotheses, and equality of rearranged/original sums is the conclusion; complex scope is explicit.",
+      "previous_prerequisites": [
+        "real-analysis/absolutely-convergent-series"
+      ],
+      "prerequisites": [
+        "real-analysis/absolutely-convergent-series",
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "real-analysis/refinement-lemma-upper-lower-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99319e24d345a911750d10f7cbe95dafdbc1b640ffdb11b86de506f862df375f",
+      "evidence": "Refining P to P′ changes each subinterval extrema monotonically, yielding U(P′)≤U(P), L(P′)≥L(P); refinement, partition, upper/lower sums are direct.",
+      "previous_prerequisites": [
+        "real-analysis/refinement-of-a-partition",
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/upper-sum",
+        "real-analysis/lower-sum"
+      ],
+      "prerequisites": [
+        "real-analysis/refinement-of-a-partition",
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/upper-sum",
+        "real-analysis/lower-sum"
+      ]
+    },
+    {
+      "id": "real-analysis/refinement-of-a-partition",
+      "outcome": "corrected",
+      "source_sha256": "6d82df66ce3b5176552862cedfc6972145d97afc642eb30912fdd3c2bc95c7e8",
+      "evidence": "The definition is only Q containing every point of P as partitions of [a,b]; partition and subset targets are direct, while sum comparisons are applications.",
+      "previous_prerequisites": [
+        "shared-foundations/subset",
+        "real-analysis/upper-sum",
+        "real-analysis/lower-sum",
+        "real-analysis/riemann-integrable-function"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "real-analysis/regular-point",
+      "outcome": "corrected",
+      "source_sha256": "2b0a7c89fd1c0a1e95ab8fe54c2d214022d4c0089c5d26977345dcec98cdb50f",
+      "evidence": "Regularity is surjectivity of DF(a) for a differentiable map on open U; differentiable-map, Frechet derivative, and surjective-function are exact inputs.",
+      "previous_prerequisites": [
+        "real-analysis/frechet-derivative",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "real-analysis/differentiable-map",
+        "real-analysis/frechet-derivative",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "real-analysis/regular-point-critical-point-multivariable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3d95dbea33f50444d295d9df5e135d2c55579e43e37424720b4e6506330e2865",
+      "evidence": "The paired definition classifies rank Df(a)=m versus <m on an open domain; differentiable-map, Jacobian/matrix rank, and surjectivity supply the setting.",
+      "previous_prerequisites": [
+        "real-analysis/differentiable-map",
+        "real-analysis/jacobian-matrix",
+        "shared-foundations/surjective-function",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "real-analysis/differentiable-map",
+        "real-analysis/jacobian-matrix",
+        "shared-foundations/surjective-function",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "real-analysis/regular-value-critical-value-multivariable",
+      "outcome": "corrected",
+      "source_sha256": "b402238d3091233938b9d6156519b8d84ac507fb7d5c08e69b60f125eb7f1142",
+      "evidence": "A regular value quantifies over the preimage fiber and regular points, while critical means failure; differentiable-map, regular-point, and preimage are direct.",
+      "previous_prerequisites": [
+        "real-analysis/differentiable-map",
+        "real-analysis/regular-point-critical-point-multivariable"
+      ],
+      "prerequisites": [
+        "real-analysis/differentiable-map",
+        "real-analysis/regular-point-critical-point-multivariable",
+        "shared-foundations/preimage"
+      ]
+    },
+    {
+      "id": "real-analysis/remainder-term-in-taylors-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd659c2ffda4e96e15df94604467f598fe6a003f3e61805cab12dccaac08f3e9",
+      "evidence": "The remainder is f−T_k at points where f exists, with Taylor polynomial and derivative order k as inputs; theorem representations are later consequences.",
+      "previous_prerequisites": [
+        "real-analysis/taylor-polynomial",
+        "real-analysis/higher-derivatives"
+      ],
+      "prerequisites": [
+        "real-analysis/taylor-polynomial",
+        "real-analysis/higher-derivatives"
+      ]
+    },
+    {
+      "id": "real-analysis/reverse-triangle-inequality",
+      "outcome": "corrected",
+      "source_sha256": "d0bd7978cf3aae1ab0e55c0e74c09fb39d64b3dd11cfd22308410f7a43e30e6c",
+      "evidence": "The normed-space inequality follows by applying the triangle inequality in both directions; normed-vector-space is the exact setting.",
+      "previous_prerequisites": [
+        "real-analysis/absolute-value",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-additivity-over-subintervals",
+      "outcome": "corrected",
+      "source_sha256": "fff14140670391cffd08e4156e47ed9a5086ca6e9054230dc3d04a3360d3347c",
+      "evidence": "For c at either endpoint the degenerate integral is zero, and otherwise integrability restricts to both subintervals with additive integrals; integrable function, integral, interval are direct.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/interval"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/riemann-integral",
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-algebra",
+      "outcome": "corrected",
+      "source_sha256": "0a1732fd26bbc365b7d3055a4ed41304343177fcc7be5add777ead79c5349c29",
+      "evidence": "Products and linear combinations of integrable functions remain integrable and form an algebra; integrability, interval, and vector-space closure are explicit.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/interval",
+        "real-analysis/riemann-linearity"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/interval",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-integrability-finite-discontinuities",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2482dc0384e086c76ce1284c800e99daaacb88cd04ba5e2afa3a94d62ef63eb8",
+      "evidence": "A bounded function with a finite discontinuity set is asserted integrable; discontinuity point/set and integrable-function are the statement concepts.",
+      "previous_prerequisites": [
+        "real-analysis/discontinuity-point",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/set-of-discontinuities"
+      ],
+      "prerequisites": [
+        "real-analysis/discontinuity-point",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/set-of-discontinuities"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-integrability-implies-boundedness",
+      "outcome": "corrected",
+      "source_sha256": "ec0a5fe5e138c3ef297b98af512f1c423693c03d4d78dfd0d1ab6497c346d497",
+      "evidence": "The theorem concludes bounded above and below from Riemann integrability; those output concepts are retained as direct prerequisites.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below",
+        "real-analysis/riemann-integral",
+        "real-analysis/upper-sum",
+        "real-analysis/lower-sum",
+        "real-analysis/partition-of-an-interval"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-integrability-monotone",
+      "outcome": "corrected",
+      "source_sha256": "54d806117aaf695cee8ad65b741871011442c59824928407a8f16892ba98ada6",
+      "evidence": "Monotonicity on a closed interval is the hypothesis and Riemann integrability the conclusion; discontinuity/oscillation criteria are only explanatory applications.",
+      "previous_prerequisites": [
+        "real-analysis/monotone-function",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/discontinuity-point",
+        "real-analysis/oscillation-criterion"
+      ],
+      "prerequisites": [
+        "real-analysis/monotone-function",
+        "real-analysis/riemann-integrable-function"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-integrable-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "618ff8dd7617042e06285c9b8177a8b08542c3f49554c9c1c28962e8bbe40113",
+      "evidence": "The definition requires boundedness and a partition with U−L<epsilon; partition and upper/lower sums are defining inputs.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/upper-sum",
+        "real-analysis/lower-sum"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/upper-sum",
+        "real-analysis/lower-sum"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e39c76af5d70ad08d8c89c49e3bcc2045e5d83799dd7277980b6ff90ecf2a0db",
+      "evidence": "The integral is defined as the common sup lower-sum/inf upper-sum value for an integrable function; all three targets are direct.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/lower-sum",
+        "real-analysis/upper-sum"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/lower-sum",
+        "real-analysis/upper-sum"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-integral-continuous-exists",
+      "outcome": "corrected",
+      "source_sha256": "40d1bb1f5f4b7a8a753da1d55412d4c367b74f135a8eddcc00483a7d309c2909",
+      "evidence": "Continuity on [a,b] implies membership in the Riemann-integrable class; continuous-map and integrable-function are direct, integral discussion is a remark.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/riemann-integral"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "real-analysis/riemann-integrable-function"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-linearity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f4e02f5be2f79bbb4724803b7f86a4d453502d0ba19aa315a9e3fa80c583a9f",
+      "evidence": "Integrability of f,g on an interval gives integrability and integral linearity of alpha f+beta g; integrable function, interval, and integral are direct.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/interval",
+        "real-analysis/riemann-integral"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/interval",
+        "real-analysis/riemann-integral"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-rearrangement-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39b79b98af07b74f7be5d38c23a33b830e4e0ebe8be03b57813b7ed5535f5f1e",
+      "evidence": "Conditional convergence is the precise hypothesis, and arbitrary real target sums after permutation are the conclusion; convergence/rearrangement classes supply both.",
+      "previous_prerequisites": [
+        "real-analysis/convergent-series",
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/conditionally-convergent-series",
+        "real-analysis/rearrangement-theorem-absolute"
+      ],
+      "prerequisites": [
+        "real-analysis/convergent-series",
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/conditionally-convergent-series",
+        "real-analysis/rearrangement-theorem-absolute"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-additivity-over-subintervals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "81bd7859369738c181488d4668cf93abadaa3a30f4ec3800bb2a58ad82b78db2",
+      "evidence": "For an increasing integrator and Stieltjes-integrable f, restrictions remain integrable and the integral splits, including endpoint degeneracies; both listed inputs are direct.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-stieltjes-integral",
+        "real-analysis/monotone-function"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-stieltjes-integral",
+        "real-analysis/monotone-function"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-integrability-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5928cad670cee065a30cc2ec9ddcca74cbc3461cca0eef9d5aa26ecf042b3cdc",
+      "evidence": "Continuous f and bounded-variation g guarantee Stieltjes integrability; BV, Stieltjes integral, and integrator concepts are explicit.",
+      "previous_prerequisites": [
+        "real-analysis/bounded-variation-function",
+        "real-analysis/riemann-stieltjes-integral",
+        "real-analysis/integrator-function",
+        "real-analysis/monotone-function",
+        "real-analysis/riemann-integral"
+      ],
+      "prerequisites": [
+        "real-analysis/bounded-variation-function",
+        "real-analysis/riemann-stieltjes-integral",
+        "real-analysis/integrator-function",
+        "real-analysis/monotone-function",
+        "real-analysis/riemann-integral"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3cbc14f27bce828336dda7f3555b19512d2c6c0dfe6bf6ff5a4b3592de1a6ab8",
+      "evidence": "The definition quantifies tagged partitions and weighted alpha increments; integrator and tagged-partition are direct.",
+      "previous_prerequisites": [
+        "real-analysis/integrator-function",
+        "real-analysis/tagged-partition"
+      ],
+      "prerequisites": [
+        "real-analysis/integrator-function",
+        "real-analysis/tagged-partition"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-linearity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7bdd5dfb773f1178d66338d5f708a476d0718c658c19e3768ab69be01399760",
+      "evidence": "Linearity is stated conditionally on existence of the relevant Stieltjes integrals; the integral concept is the sole direct prerequisite.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-stieltjes-integral"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-stieltjes-integral"
+      ]
+    },
+    {
+      "id": "real-analysis/riemann-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9e8c96bcb096e5045085ca48ab6edb701f542cee6ba33b2ebf2ed98e927827d",
+      "evidence": "A tagged partition and its mesh define the finite weighted sum; tagged-partition and mesh are exact inputs.",
+      "previous_prerequisites": [
+        "real-analysis/tagged-partition",
+        "real-analysis/mesh-of-a-partition"
+      ],
+      "prerequisites": [
+        "real-analysis/tagged-partition",
+        "real-analysis/mesh-of-a-partition"
+      ]
+    },
+    {
+      "id": "real-analysis/right-derivative-left-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9efc07a3846ec7a9d5624dad29574ee2aabbaaf9849c4954b39a9045f4a9f8e3",
+      "evidence": "One-sided derivatives require one-sided domain accumulation and difference quotients; function, limit, quotient, and limit-point targets match.",
+      "previous_prerequisites": [
+        "real-analysis/limit-of-a-function-at-a-point",
+        "real-analysis/difference-quotient",
+        "topology/limit-point"
+      ],
+      "prerequisites": [
+        "real-analysis/limit-of-a-function-at-a-point",
+        "real-analysis/difference-quotient",
+        "topology/limit-point"
+      ]
+    },
+    {
+      "id": "real-analysis/rolles-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e8e2b21a4075fed8ff6ea1fb4f2a07bbfc9dd4800846f29de77fbfa31953758",
+      "evidence": "Continuity, interior differentiability, and equal endpoint values imply an interior zero derivative; differentiability is direct, while local-extremum/MVT are proof context.",
+      "previous_prerequisites": [
+        "real-analysis/differentiability-1d",
+        "real-analysis/local-extremum",
+        "real-analysis/mean-value-theorem"
+      ],
+      "prerequisites": [
+        "real-analysis/differentiability-1d",
+        "real-analysis/local-extremum",
+        "real-analysis/mean-value-theorem"
+      ]
+    },
+    {
+      "id": "real-analysis/root-test",
+      "outcome": "corrected",
+      "source_sha256": "5c7d3f62dfa74504ec09626584ff9146a42eef9182a0ddf4f9d6f961979f8a08",
+      "evidence": "The limsup nth-root criterion gives absolute convergence below 1 and divergence above 1; series, absolute/divergent convergence, and limsup are direct.",
+      "previous_prerequisites": [
+        "real-analysis/series",
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/divergent-series"
+      ],
+      "prerequisites": [
+        "real-analysis/series",
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/divergent-series",
+        "real-analysis/limit-superior"
+      ]
+    },
+    {
+      "id": "real-analysis/schwarz-clairaut-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a067fef4b19190719581aa9d97fd4084ffb7d34291e34dc1ecfcfa0d832e1f11",
+      "evidence": "The theorem assumes both mixed partials exist near a and are continuous at a, then equates them; open-set and mixed-partial concepts are direct.",
+      "previous_prerequisites": [
+        "topology/open-set",
+        "real-analysis/mixed-partial-derivative"
+      ],
+      "prerequisites": [
+        "topology/open-set",
+        "real-analysis/mixed-partial-derivative"
+      ]
+    },
+    {
+      "id": "real-analysis/second-derivative-tests",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a47cf944bceb130e51e3f41aadb38ab732df5a77f84c758eb660a7426169a819",
+      "evidence": "The sign of f″ at a critical point yields strict local min/max conclusions, with zero inconclusive; critical point, local extremum, and higher derivatives are statement inputs/outputs.",
+      "previous_prerequisites": [
+        "real-analysis/critical-point",
+        "real-analysis/local-extremum",
+        "real-analysis/higher-derivatives"
+      ],
+      "prerequisites": [
+        "real-analysis/critical-point",
+        "real-analysis/local-extremum",
+        "real-analysis/higher-derivatives"
+      ]
+    },
+    {
+      "id": "real-analysis/separates-points",
+      "outcome": "corrected",
+      "source_sha256": "3befb08c9df014f9ad91cd777c09ecd96979a68750161261b049616d39901aaf",
+      "evidence": "The definition quantifies a family function distinguishing every pair x≠y; function is the only defining prerequisite.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "real-analysis/series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e80ab53f04661d36b9028e3d4580fb0137c1f7fe3e6796641b987132b342f216",
+      "evidence": "A series is formally paired with its partial-sum sequence; partial-sums is the defining prerequisite, with convergence deferred to later knowls.",
+      "previous_prerequisites": [
+        "real-analysis/partial-sums"
+      ],
+      "prerequisites": [
+        "real-analysis/partial-sums"
+      ]
+    },
+    {
+      "id": "real-analysis/series-of-functions",
+      "outcome": "corrected",
+      "source_sha256": "bc40296cc54cda15f9395c934922270a60a510339081520a0f0eb30c8b8604d3",
+      "evidence": "The source defines function terms, partial-sum functions, and pointwise/uniform convergence of those sums; function, series, and sequence targets are direct.",
+      "previous_prerequisites": [
+        "real-analysis/series",
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "real-analysis/series",
+        "shared-foundations/function",
+        "shared-foundations/sequence"
+      ]
+    },
+    {
+      "id": "real-analysis/set-of-discontinuities",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6aea6fc8e68f9b0356411e490ef4dab103ee5a30c4b10570776e59a5ec3469f4",
+      "evidence": "The discontinuity set collects exactly points where a function fails continuity; function and discontinuity-point are direct.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/discontinuity-point"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/discontinuity-point"
+      ]
+    },
+    {
+      "id": "real-analysis/space-of-continuous-functions",
+      "outcome": "corrected",
+      "source_sha256": "983411bea4555969c544edab90eb331bdc8850decd641bf1fc43bc556fa25a59",
+      "evidence": "C(X) consists of continuous functions and is declared a vector space under pointwise operations; topological/function/continuity and vector-space targets are direct.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "topology/topological-space",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "topology/topological-space",
+        "topology/continuous-map",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "real-analysis/squeeze-theorem",
+      "outcome": "corrected",
+      "source_sha256": "e007f27a2ed3c80c28e024fc4029062178c2527306b6fa33db96d7e2e1165543",
+      "evidence": "The sequence theorem sandwiches b_n between sequences converging to L; sequence and convergent-sequence are direct, while the function-limit analogy is a remark.",
+      "previous_prerequisites": [
+        "real-analysis/limit-at-a-point"
+      ],
+      "prerequisites": [
+        "shared-foundations/sequence",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "real-analysis/step-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af412e4af104c45049f019f1ecf7b8fe9ef3541f51158ad3d864799a5adf057b",
+      "evidence": "A step function is constant on interiors of partition subintervals, with arbitrary partition-point values; function and partition are exact inputs.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/partition-of-an-interval"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/partition-of-an-interval"
+      ]
+    },
+    {
+      "id": "real-analysis/stone-weierstrass-theorem",
+      "outcome": "corrected",
+      "source_sha256": "85a3adc5568c039a33265157ac6402652f966f3d8f7d1a1fe8e073966e267f25",
+      "evidence": "The compact Hausdorff space, continuous-function subalgebra, constants, point separation, and supremum-norm density are all explicit in the theorem.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "real-analysis/subalgebra-of-continuous-functions",
+        "real-analysis/separates-points",
+        "real-analysis/supremum-norm"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/compact-set",
+        "real-analysis/subalgebra-of-continuous-functions",
+        "real-analysis/separates-points",
+        "real-analysis/supremum-norm"
+      ]
+    },
+    {
+      "id": "real-analysis/subalgebra-of-continuous-functions",
+      "outcome": "corrected",
+      "source_sha256": "44d2c041d554bb68c446bf09cb42f702072d3c3c2a53ffd2b55215c4d7dbae2d",
+      "evidence": "The definition is a subset of C(X) closed under scalar combinations and products; topology, continuous-function space, and ring operations are direct, while point separation is a Stone–Weierstrass application.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "real-analysis/space-of-continuous-functions",
+        "algebra-rings/ring",
+        "real-analysis/separates-points"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "real-analysis/space-of-continuous-functions",
+        "algebra-rings/ring"
+      ]
+    },
+    {
+      "id": "real-analysis/subsequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9757a9bac51f1a079df49469464b9c619d31947aee7695ce618baad675c62276",
+      "evidence": "A subsequence selects terms using a strictly increasing index sequence; sequence is the sole defining input.",
+      "previous_prerequisites": [
+        "shared-foundations/sequence"
+      ],
+      "prerequisites": [
+        "shared-foundations/sequence"
+      ]
     }
   ]
 }

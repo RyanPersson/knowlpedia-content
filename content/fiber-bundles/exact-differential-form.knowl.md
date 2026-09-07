@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. Exactness is defined using the [[fiber-bundles/exterior-derivative|exterior derivative]] on [[fiber-bundles/differential-k-form|differential forms]].
 
-A form \(\omega\in\Omega^k(M)\) is **exact** if there exists \(\eta\in\Omega^{k-1}(M)\) such that
+For \(k\ge0\), with the convention \(\Omega^{-1}(M)=0\), a form \(\omega\in\Omega^k(M)\) is **exact** if there exists \(\eta\in\Omega^{k-1}(M)\) such that
 \[
 \omega = d\eta.
 \]
@@ -21,6 +21,8 @@ The vector space of exact \(k\)-forms is
 \[
 B^k(M) \coloneqq \operatorname{im}\!\bigl(d:\Omega^{k-1}(M)\to\Omega^k(M)\bigr).
 \]
+
+## Relation to closed forms
 
 Exact forms are automatically [[fiber-bundles/closed-differential-form|closed]] because \(d^2=0\). In the [[fiber-bundles/de-rham-cohomology-group|de Rham cohomology group]] \(H^k_{\mathrm{dR}}(M)\), exact forms represent the zero class.
 

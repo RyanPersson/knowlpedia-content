@@ -6,7 +6,7 @@ summary = "Every real sequence has a monotone subsequence."
 aliases = ["monotone-subsequence-lemma", "Monotone Subsequence Lemma"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/monotone-subsequence-lemma.md"
-prerequisites = ["real-analysis/subsequence", "real-analysis/monotone-sequence"]
+prerequisites = ["shared-foundations/sequence", "real-analysis/subsequence", "real-analysis/monotone-sequence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

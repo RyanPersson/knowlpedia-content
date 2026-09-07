@@ -6,7 +6,7 @@ summary = "A domain that already contains every element of its fraction field th
 aliases = ["integrally-closed-domain", "Integrally closed domain"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/integrally-closed-domain.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/integral-element", "algebra-commutative/integral-closure", "algebra-commutative/localization-ring"]
+prerequisites = ["algebra-rings/integral-domain", "algebra-rings/commutative-ring", "algebra-commutative/integral-element", "algebra-commutative/integral-closure", "algebra-commutative/localization-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -30,7 +30,7 @@
       "id": "shared-foundations/bounded-infinite-set-has-limit-point",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a2be8530f0f09f552d93288a671f029faf8d3b1753fbd1d1438f1d1e351c1a9c",
-      "evidence": "Core assumes bounded infinite E⊂R^k and defines a limit point through open-ball neighborhoods; bounded-set, limit-point, and open-set supply exactly these notions.",
+      "evidence": "Core assumes bounded infinite E\u2282R^k and defines a limit point through open-ball neighborhoods; bounded-set, limit-point, and open-set supply exactly these notions.",
       "previous_prerequisites": [
         "topology/bounded-set",
         "topology/limit-point",
@@ -60,7 +60,7 @@
       "id": "shared-foundations/codomain",
       "outcome": "reviewed_unchanged",
       "source_sha256": "4f73a36a3ddffc9b425ab36f2b71cb9e4c572575c52d4dcf1bb3972b26f091cc",
-      "evidence": "Core identifies B as codomain of f:A→B; function is the sole defining input and image/surjectivity are remarks.",
+      "evidence": "Core identifies B as codomain of f:A\u2192B; function is the sole defining input and image/surjectivity are remarks.",
       "previous_prerequisites": [
         "shared-foundations/function"
       ],
@@ -72,7 +72,7 @@
       "id": "shared-foundations/complement",
       "outcome": "reviewed_unchanged",
       "source_sha256": "03b37410cf9a21cce50d29323ba5c5293d1eb367968172ddc05d2abdc4ec961e",
-      "evidence": "Core fixes U and A⊆U then defines U\\A; subset supplies the inclusion and later De Morgan laws add no dependency.",
+      "evidence": "Core fixes U and A\u2286U then defines U\\A; subset supplies the inclusion and later De Morgan laws add no dependency.",
       "previous_prerequisites": [
         "shared-foundations/subset"
       ],
@@ -84,7 +84,7 @@
       "id": "shared-foundations/complex-conjugate",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f8f2c6949cba490f7b963f1bf2e36d031d95dbd727c12f9e5672d317fe400bb8",
-      "evidence": "Core defines a−bi from z=a+bi with real coefficients; it is self-contained and algebraic properties are consequences.",
+      "evidence": "Core defines a\u2212bi from z=a+bi with real coefficients; it is self-contained and algebraic properties are consequences.",
       "previous_prerequisites": [],
       "prerequisites": []
     },
@@ -92,7 +92,7 @@
       "id": "shared-foundations/complex-numbers-c",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5fe53f21d4b1cd32048f66c7f41e4ae546778aa228120e8c54a0db02186f1299",
-      "evidence": "Core constructs C from real coordinates and i²=−1 with operations; it is foundational and vector-space interpretation is later.",
+      "evidence": "Core constructs C from real coordinates and i\u00b2=\u22121 with operations; it is foundational and vector-space interpretation is later.",
       "previous_prerequisites": [],
       "prerequisites": []
     },
@@ -100,7 +100,7 @@
       "id": "shared-foundations/contraction-mapping",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e02e9f06214ab40700d3d98c6a14d60d2ede9361b84024e1e36b5be1a97e555e",
-      "evidence": "Core assumes metric space (X,d), self-map T, and c∈[0,1) satisfying the distance inequality; metric-space supplies the defining structure.",
+      "evidence": "Core assumes metric space (X,d), self-map T, and c\u2208[0,1) satisfying the distance inequality; metric-space supplies the defining structure.",
       "previous_prerequisites": [
         "topology/metric-space"
       ],
@@ -125,7 +125,7 @@
       "id": "shared-foundations/domain",
       "outcome": "reviewed_unchanged",
       "source_sha256": "7812a25a5ce95e389cf54d9427397179a97dc51c831b5cc2bc2a5fca200f7254",
-      "evidence": "Core identifies A as domain of f:A→B; function supplies the defining map and input set.",
+      "evidence": "Core identifies A as domain of f:A\u2192B; function supplies the defining map and input set.",
       "previous_prerequisites": [
         "shared-foundations/function"
       ],
@@ -149,7 +149,7 @@
       "id": "shared-foundations/equivalence-class",
       "outcome": "reviewed_unchanged",
       "source_sha256": "8e601d7fd7b339e5ef527f1d1626075083d12cc429184e93c7e2ed8f47386456",
-      "evidence": "Core defines [a]={x∈A:x~a} for an equivalence relation; that target supplies the relation and carrier.",
+      "evidence": "Core defines [a]={x\u2208A:x~a} for an equivalence relation; that target supplies the relation and carrier.",
       "previous_prerequisites": [
         "shared-foundations/equivalence-relation"
       ],
@@ -161,7 +161,7 @@
       "id": "shared-foundations/factorial",
       "outcome": "reviewed_unchanged",
       "source_sha256": "0998838912197510718c8145262f1e39f7e2bf6ea0cfaecaaee2405b55a1a2b0",
-      "evidence": "Core defines n! for n∈N with empty-product convention; natural-numbers supplies the index domain and valuation formula is optional.",
+      "evidence": "Core defines n! for n\u2208N with empty-product convention; natural-numbers supplies the index domain and valuation formula is optional.",
       "previous_prerequisites": [
         "shared-foundations/natural-numbers"
       ],
@@ -173,7 +173,7 @@
       "id": "shared-foundations/finite-permutation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "15b105b684806423fe8351784d69de3f9e01971d6b38dfeb273cefdf9e73ffc8",
-      "evidence": "Core defines S_n as bijections [n]→[n]; natural-numbers supplies n and bijective-function supplies the map property.",
+      "evidence": "Core defines S_n as bijections [n]\u2192[n]; natural-numbers supplies n and bijective-function supplies the map property.",
       "previous_prerequisites": [
         "shared-foundations/bijective-function",
         "shared-foundations/natural-numbers"
@@ -187,7 +187,7 @@
       "id": "shared-foundations/graph-of-function",
       "outcome": "reviewed_unchanged",
       "source_sha256": "39cec84639ae3f97ba06bf382cea564637ab7fa6475fc9d12be28ff58ba9a68b",
-      "evidence": "Core defines Γ_f from a function f; function supplies the graph data, while product/pair details are explanatory.",
+      "evidence": "Core defines \u0393_f from a function f; function supplies the graph data, while product/pair details are explanatory.",
       "previous_prerequisites": [
         "shared-foundations/function"
       ],
@@ -215,7 +215,7 @@
       "id": "shared-foundations/lower-bound",
       "outcome": "reviewed_unchanged",
       "source_sha256": "2af0b32dd4a8b0a1058398c0b41ccb124444c3e8791a4e833ec1afc1f759cf90",
-      "evidence": "Core defines ℓ≤a for every a in A within a poset; partial-order supplies the carrier and relation.",
+      "evidence": "Core defines \u2113\u2264a for every a in A within a poset; partial-order supplies the carrier and relation.",
       "previous_prerequisites": [
         "shared-foundations/partial-order"
       ],
@@ -311,7 +311,7 @@
       "id": "shared-foundations/proper-subset",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b388a4485f689b9cae8ce7d8b3fdfd81f1c3a1cc97735f61d3aa8479faac9c4e",
-      "evidence": "Core defines A⊊B as A⊆B and A≠B; subset is the direct input.",
+      "evidence": "Core defines A\u228aB as A\u2286B and A\u2260B; subset is the direct input.",
       "previous_prerequisites": [
         "shared-foundations/subset"
       ],
@@ -323,7 +323,7 @@
       "id": "shared-foundations/sequence",
       "outcome": "reviewed_unchanged",
       "source_sha256": "8c7ab1393189e57918cc78f9a7bf02e8b2148386404a78c8586ec4576fa895a5",
-      "evidence": "Core defines a sequence as a function N→X; set, function, and natural-numbers supply the data.",
+      "evidence": "Core defines a sequence as a function N\u2192X; set, function, and natural-numbers supply the data.",
       "previous_prerequisites": [
         "shared-foundations/set",
         "shared-foundations/function",
@@ -367,7 +367,7 @@
       "id": "shared-foundations/symmetric-difference",
       "outcome": "reviewed_unchanged",
       "source_sha256": "45f076e1aec59a7c8c53c89f6a5a9ad630179e20e1994084b3d06f5954d9a3ee",
-      "evidence": "Core defines A△B as (A\\B)∪(B\\A); set, intersection, union supply operations.",
+      "evidence": "Core defines A\u25b3B as (A\\B)\u222a(B\\A); set, intersection, union supply operations.",
       "previous_prerequisites": [
         "shared-foundations/set",
         "shared-foundations/intersection",
@@ -660,7 +660,7 @@
       "id": "linear-algebra/operator-invariant-subspace",
       "outcome": "corrected",
       "source_sha256": "c5a6ec92fb166b5e5f15a09648e0df44896f33ea966828e6ed371633b866cd2e",
-      "evidence": "The core requires a linear operator T:E→E and defines invariance as T(M)⊆M; linear-operator is the direct prerequisite. Closedness and eigenvectors occur only as optional functional-analytic context, so those edges were removed.",
+      "evidence": "The core requires a linear operator T:E\u2192E and defines invariance as T(M)\u2286M; linear-operator is the direct prerequisite. Closedness and eigenvectors occur only as optional functional-analytic context, so those edges were removed.",
       "previous_prerequisites": [
         "linear-algebra/linear-map",
         "linear-algebra/closed-linear-subspace",
@@ -674,7 +674,7 @@
       "id": "linear-algebra/positive-semidefinite-matrix",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e1a53040551d01a2dc4c32c57cdaeadc62e2dffb749073f942cd0c4881e7e50f",
-      "evidence": "The core restricts A to real or complex square matrices, requires A=A* and x*Ax≥0, and distinguishes zero/nonzero vectors for semidefiniteness/definiteness; matrix and inner-product-space provide the carrier and quadratic-form interpretation.",
+      "evidence": "The core restricts A to real or complex square matrices, requires A=A* and x*Ax\u22650, and distinguishes zero/nonzero vectors for semidefiniteness/definiteness; matrix and inner-product-space provide the carrier and quadratic-form interpretation.",
       "previous_prerequisites": [
         "linear-algebra/matrix",
         "linear-algebra/inner-product-space"
@@ -688,7 +688,7 @@
       "id": "linear-algebra/quaternion-division-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "02a001744e79f8702b9a2f9821454a7975e31c230d79cb182343e0657ff67b43",
-      "evidence": "The core gives H as a four-dimensional real vector space with i²=j²=k²=ijk=−1 and proves inverses using conjugation and norm; vector-space, real-numbers, and division-ring are direct structural inputs.",
+      "evidence": "The core gives H as a four-dimensional real vector space with i\u00b2=j\u00b2=k\u00b2=ijk=\u22121 and proves inverses using conjugation and norm; vector-space, real-numbers, and division-ring are direct structural inputs.",
       "previous_prerequisites": [
         "linear-algebra/vector-space",
         "shared-foundations/real-numbers",
@@ -718,7 +718,7 @@
       "id": "linear-algebra/symmetric-positive-definite-matrix",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f400bf24f7cfaf970b13e319692d22499fbd0778a61288ce044630dd8803e67c",
-      "evidence": "The core defines a real symmetric A by vᵀAv>0 for every nonzero v; matrix supplies the array notion, while eigenvalue/factorization statements are equivalent characterizations.",
+      "evidence": "The core defines a real symmetric A by v\u1d40Av>0 for every nonzero v; matrix supplies the array notion, while eigenvalue/factorization statements are equivalent characterizations.",
       "previous_prerequisites": [
         "linear-algebra/matrix"
       ],
@@ -738,7 +738,7 @@
       "id": "analysis/absolute-continuity",
       "outcome": "reviewed_unchanged",
       "source_sha256": "10486661928b408e598bf6769ea770d04e3236c1db0ec069e15d41720a7fdb11",
-      "evidence": "The core uses f:[a,b]→R and the epsilon-delta sum over finitely many pairwise disjoint intervals; interval, function, and uniform-continuity targets match the defining setting and only consequences are linked.",
+      "evidence": "The core uses f:[a,b]\u2192R and the epsilon-delta sum over finitely many pairwise disjoint intervals; interval, function, and uniform-continuity targets match the defining setting and only consequences are linked.",
       "previous_prerequisites": [
         "real-analysis/interval",
         "shared-foundations/function",
@@ -754,7 +754,7 @@
       "id": "analysis/ahlfors-david-regular-set",
       "outcome": "reviewed_unchanged",
       "source_sha256": "feb76e2c9e1f728a9b9e28a52d285c8f5775a0f8b42e29cbe8a435f2da7f772f",
-      "evidence": "The core quantifies a measure supported on X and upper/lower ball-mass bounds C R^δ and C⁻¹R^δ; measure is the direct prerequisite and scale restrictions are explicit.",
+      "evidence": "The core quantifies a measure supported on X and upper/lower ball-mass bounds C R^\u03b4 and C\u207b\u00b9R^\u03b4; measure is the direct prerequisite and scale restrictions are explicit.",
       "previous_prerequisites": [
         "measure-theory/measure"
       ],
@@ -774,7 +774,7 @@
       "id": "analysis/dyadic-annulus",
       "outcome": "reviewed_unchanged",
       "source_sha256": "12b5f21511e39a8b417e673c88bcbeb6eaacafe1596bd6f81d36da17c17b71ea",
-      "evidence": "The core defines A_k by Euclidean radial inequalities 2^k≤|x|<2^(k+1); Euclidean norm supplies |x|, while localization remarks are optional.",
+      "evidence": "The core defines A_k by Euclidean radial inequalities 2^k\u2264|x|<2^(k+1); Euclidean norm supplies |x|, while localization remarks are optional.",
       "previous_prerequisites": [
         "linear-algebra/euclidean-norm"
       ],
@@ -830,7 +830,7 @@
       "id": "analysis/porosity-on-balls",
       "outcome": "reviewed_unchanged",
       "source_sha256": "95a158326f71549cfe130695478d36807ca23d14692908f3837b21afc6e673db",
-      "evidence": "The core quantifies every ball in a truncated scale range and requires an interior center x with B_{νR}(x) disjoint from X; it is self-contained with later comparison links.",
+      "evidence": "The core quantifies every ball in a truncated scale range and requires an interior center x with B_{\u03bdR}(x) disjoint from X; it is self-contained with later comparison links.",
       "previous_prerequisites": [],
       "prerequisites": []
     },
@@ -860,7 +860,7 @@
       "id": "analysis/quantitative-unique-continuation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f2c64fb4410ebb11a533e20f38189bbfca7dc156b6952dc735f3c876ee95d7d6",
-      "evidence": "The core defines an L² lower bound on an observation set for a constrained class; the later spectral/PDE examples are scope illustrations and no existing target is needed for the abstract definition.",
+      "evidence": "The core defines an L\u00b2 lower bound on an observation set for a constrained class; the later spectral/PDE examples are scope illustrations and no existing target is needed for the abstract definition.",
       "previous_prerequisites": [],
       "prerequisites": []
     },
@@ -876,7 +876,7 @@
       "id": "large-deviations/cramer-transform",
       "outcome": "reviewed_unchanged",
       "source_sha256": "1b6748321253dbfce7ca3d9e369827dbb1c1e7f3bad0f0f479000da39160db6b",
-      "evidence": "The core defines I(x)=supθ(<θ,x>−Λ(θ)), exactly the Legendre-Fenchel/Fenchel conjugate of Λ; both transform targets are direct prerequisites.",
+      "evidence": "The core defines I(x)=sup\u03b8(<\u03b8,x>\u2212\u039b(\u03b8)), exactly the Legendre-Fenchel/Fenchel conjugate of \u039b; both transform targets are direct prerequisites.",
       "previous_prerequisites": [
         "convex-analysis/legendre-fenchel-transform",
         "convex-analysis/convex-conjugate-fenchel"
@@ -940,7 +940,7 @@
       "id": "large-deviations/laplace-principle",
       "outcome": "reviewed_unchanged",
       "source_sha256": "00f7997672323fdea1345f5d39d29d376a38ae79140ea0ab648d04cbe079cd9e",
-      "evidence": "The core gives the exponential-integral variational limit for bounded continuous φ under measures and rate I; probability-measure, rate-function, LDP, and good-rate targets support the statement and its equivalence remark.",
+      "evidence": "The core gives the exponential-integral variational limit for bounded continuous \u03c6 under measures and rate I; probability-measure, rate-function, LDP, and good-rate targets support the statement and its equivalence remark.",
       "previous_prerequisites": [
         "probability/probability-measure",
         "large-deviations/rate-function",
@@ -953,14 +953,12 @@
         "large-deviations/large-deviation-principle",
         "large-deviations/good-rate-function"
       ]
-    }
-  ],
-  "triage_records": [
+    },
     {
       "id": "large-deviations/large-deviation-principle",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "716df2a7428fd9f142738b8cbc37f5cc5215b3c974d6960b620a0cbb2b4a2cf1",
-      "evidence": "Full source and every direct target read. Core begins “A **large deviation principle (LDP)** for a sequence of [[probability/probability-measure|probability measures]] \\((\\mu_n)_{n\\ge 1}\\) on a [[topology/topological-space|topological ”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines closed-set upper and open-set lower exponential bounds for probability measures at speed a_n using a rate function; probability-measure, topology, and rate-function supply each formal ingredient.",
       "previous_prerequisites": [
         "large-deviations/rate-function",
         "probability/probability-measure",
@@ -974,9 +972,9 @@
     },
     {
       "id": "large-deviations/log-moment-generating-function",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "0bce40198edc86f995719e073ffeec27bf5a7d4f4ae9f710217ef1e1c371721f",
-      "evidence": "Full source and every direct target read. Core begins “A **log moment generating function** (log-MGF) of an \\(\\mathbb R^d\\)-valued [[probability/random-variable|random variable]] \\(X\\) is the function \\(\\Lambda:\\mathbb R^d\\to(-\\infty,\\”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines \u039b(\u03b8)=log E exp(<\u03b8,X>) for an R^d-valued random variable; random-variable and expectation are direct inputs, while convexity and duality are remarks.",
       "previous_prerequisites": [
         "probability/random-variable",
         "probability/expectation"
@@ -988,65 +986,29 @@
     },
     {
       "id": "large-deviations/rate-function",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "47501cf40bff43224475a14c332cc686009cf96554ab007b0ecfbd26d71a1b21",
-      "evidence": "Full source and every direct target read. Core begins “A **rate function** on a [[topology/topological-space|topological space]] \\(E\\) is a lower semicontinuous function \\(I:E\\to[0,\\infty]\\) that is not identically \\(+\\infty\\). Equival”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines a nonidentically-infinite lower-semicontinuous I on a topological space; topological-space supplies the lsc setting and good-rate is a later refinement.",
       "previous_prerequisites": [
         "topology/topological-space"
       ],
       "prerequisites": [
         "topology/topological-space"
-      ]
-    },
-    {
-      "id": "large-deviations/sanovs-theorem",
-      "outcome": "blocked",
-      "source_sha256": "a0b3fcfaa3d528c32c54da7acfe7344d0571e2985ae474c53356490654e60f37",
-      "evidence": "Full source and every direct target read. Core begins “**Sanov's theorem:** Let \\((X_i)_{i\\ge 1}\\) be an [[probability/iid-sequence|i.i.d. sequence]] taking values in a Polish space \\(E\\), with common [[probability/distribution-law|law”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
-      "previous_prerequisites": [
-        "probability/iid-sequence",
-        "probability/distribution-law",
-        "large-deviations/large-deviation-principle",
-        "large-deviations/good-rate-function",
-        "probability/relative-entropy-kl-divergence"
-      ],
-      "prerequisites": [
-        "probability/iid-sequence",
-        "probability/distribution-law",
-        "large-deviations/large-deviation-principle",
-        "large-deviations/good-rate-function",
-        "probability/relative-entropy-kl-divergence"
-      ]
-    },
-    {
-      "id": "large-deviations/varadhans-lemma",
-      "outcome": "blocked",
-      "source_sha256": "afd8b61223f60a27e0e8be0712b8f84193d8fc358f8c01dc7652cf8ddc5f94fa",
-      "evidence": "Full source and every direct target read. Core begins “**Varadhan's lemma:** Let \\(X\\) be a Polish space and let \\((\\mu_n)\\) be [[probability/probability-measure|probability measures]] on \\(X\\) that satisfy a [[large-deviations/large-d”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
-      "previous_prerequisites": [
-        "probability/probability-measure",
-        "large-deviations/large-deviation-principle",
-        "large-deviations/good-rate-function"
-      ],
-      "prerequisites": [
-        "probability/probability-measure",
-        "large-deviations/large-deviation-principle",
-        "large-deviations/good-rate-function"
       ]
     },
     {
       "id": "discrete-structures",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "9eaa9ea8c96c92fee33bad006867f0aa78a092f7ef7d4be5a17c2343bd14f67c",
-      "evidence": "Full source and every direct target read. Core begins “”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Navigation section organizing graph and lattice entries; no defining mathematical inputs.",
       "previous_prerequisites": [],
       "prerequisites": []
     },
     {
       "id": "discrete-structures/boundary-finite-region",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "f3f51e9186216ce31289247034d62d481aa06a91225ad8da1ccce66b5644d56b",
-      "evidence": "Full source and every direct target read. Core begins “Let \\(\\Lambda\\) be a finite subset of vertices in a graph. In the lattice setting, take \\(\\Lambda\\subset \\mathbb{Z}^d\\) with adjacency given by [[discrete-structures/nearest-neighb”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core separately defines outer vertex, inner vertex, and edge boundaries from adjacency across \u039b and its complement; nearest-neighbor supplies the lattice adjacency relation.",
       "previous_prerequisites": [
         "discrete-structures/nearest-neighbor-zd"
       ],
@@ -1056,9 +1018,9 @@
     },
     {
       "id": "discrete-structures/finite-box-lattice",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "bd7cdf1f00bef6809b3c6cb7146e36b8c7db5a7365214a16a26373ca71af9376",
-      "evidence": "Full source and every direct target read. Core begins “A **finite box** (or **finite cube**) in the [[discrete-structures/lattice-zd|integer lattice]] is a region of the form \\[ \\Lambda_L := \\{x=(x_1,\\dots,x_d)\\in\\mathbb{Z}^d : |x_i|\\l”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines \u039b_L={x\u2208Z^d:|x_i|\u2264L} and counts (2L+1)^d; lattice-Zd supplies the carrier and natural-numbers supplies nonnegative L.",
       "previous_prerequisites": [
         "discrete-structures/lattice-zd",
         "shared-foundations/natural-numbers"
@@ -1070,9 +1032,9 @@
     },
     {
       "id": "discrete-structures/finite-graph",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "d50efea98c98e337b47cba23e772c0a820a32da24a06f7502d313ed7f4b64588",
-      "evidence": "Full source and every direct target read. Core begins “A [[discrete-structures/graph-vertex-edge|graph-vertex-edge]] \\(G=(V,E)\\) is **finite** if its vertex set \\(V\\) is finite. For a simple graph, this implies \\(E\\) is finite as well.”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines finiteness of a graph by finite V and derives edge bounds/handshaking for simple undirected graphs; graph-vertex-edge supplies the graph structure.",
       "previous_prerequisites": [
         "discrete-structures/graph-vertex-edge"
       ],
@@ -1082,9 +1044,9 @@
     },
     {
       "id": "discrete-structures/graph-vertex-edge",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "e832c8599a9a5efa2f862057a7a082c7e4df2cd797bdf78f7987c90af0fb6243",
-      "evidence": "Full source and every direct target read. Core begins “A **(simple, undirected) graph** is an [[shared-foundations/ordered-pair|ordered pair]] \\(G=(V,E)\\) where: If \\(\\{u,v\\}\\in E\\), then: **Common notation.** In a simple undirected gr”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines a simple undirected graph as (V,E) with 2-element edges in V; set supplies the carrier notion and the edge axioms are stated in the core.",
       "previous_prerequisites": [
         "shared-foundations/set"
       ],
@@ -1094,9 +1056,9 @@
     },
     {
       "id": "discrete-structures/lattice-zd",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "9df49787b3d68c2000c71cd1414bb9c279eda554fc053988f64adf21bad8ac15",
-      "evidence": "Full source and every direct target read. Core begins “Fix a positive integer \\(d\\). The **integer lattice** in dimension \\(d\\) is \\[ \\mathbb{Z}^d=\\{(x_1,\\dots,x_d): x_i\\in \\mathbb{Z}\\}, \\] where \\(\\mathbb{Z}\\) denotes the [[shared-fou”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines Z^d as d-tuples of integers and gives componentwise operations; integers supply each coordinate domain.",
       "previous_prerequisites": [
         "shared-foundations/integers"
       ],
@@ -1106,9 +1068,9 @@
     },
     {
       "id": "discrete-structures/nearest-neighbor-zd",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "26a02cf86d1ac228cc8383e94ad7d2b4249cf95195ef17bab18a67ab6092b2b7",
-      "evidence": "Full source and every direct target read. Core begins “On the [[discrete-structures/lattice-zd|integer lattice]] \\(\\mathbb Z^d\\), two sites \\(x,y\\) are **nearest neighbors**, written \\(x\\sim y\\), if they differ by \\(1\\) in exactly one ”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines adjacency by ||x\u2212y||_1=1, equivalently y=x\u00b1e_i; lattice-Zd supplies sites and standard basis.",
       "previous_prerequisites": [
         "discrete-structures/lattice-zd"
       ],
@@ -1118,17 +1080,17 @@
     },
     {
       "id": "asymptotics",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "c72d88add54c8e5a124761a69aa344570e1f39783ff5b14521b59724cd7c0494",
-      "evidence": "Full source and every direct target read. Core begins “”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Navigation section for approximation and asymptotic-method entries; no defining prerequisites.",
       "previous_prerequisites": [],
       "prerequisites": []
     },
     {
       "id": "asymptotics/entropy-multinomial-coefficients",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "8516d70ee4747905d65b2153fc58de3c08135508bf4a26f1e26f5a4e61f445d5",
-      "evidence": "Full source and every direct target read. Core begins “Multinomial coefficients have exponential growth rates governed by entropy. This connection underlies many results in information theory and large deviations, including the [[asymp”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core assumes nonnegative counts summing to n, defines p_i and H(p), then derives multinomial exponential bounds via Stirling; Stirling supplies the asymptotic input.",
       "previous_prerequisites": [
         "asymptotics/stirlings-approximation"
       ],
@@ -1138,9 +1100,9 @@
     },
     {
       "id": "asymptotics/laplaces-method",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "88fa9ec0c3327833d18d10db10602c1b36a363914c17cd2be2d54c7176fd5afd",
-      "evidence": "Full source and every direct target read. Core begins “Laplace's method approximates integrals of the form \\[ I(n)=\\int_a^b e^{n f(x)}\\,g(x)\\,dx \\] for large \\(n\\), when the main contribution comes from a neighborhood of the point wher”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core assumes f\u2208C\u00b2 on [a,b], a unique interior maximizer with f\u02ba(x\u2080)<0, and continuous g(x\u2080)\u22600, yielding the Gaussian factor; class-Ck and Riemann-integral supply function/integral setting.",
       "previous_prerequisites": [
         "real-analysis/class-ck-function",
         "real-analysis/riemann-integral"
@@ -1152,9 +1114,9 @@
     },
     {
       "id": "asymptotics/method-of-types",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "fb6acd9a4b43872dbee7ad1ce077787cbb3a9710147ef196539380d52de230ee",
-      "evidence": "Full source and every direct target read. Core begins “The method of types is a set of counting and probability tools for sequences over a finite alphabet. It is foundational in information theory and large deviations: it turns questio”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines empirical types and type classes on a finite alphabet, counts them via multinomials, and gives Q^n(T(P)) bounds using D(P||Q); entropy-counting, probability, and KL targets supply those operations.",
       "previous_prerequisites": [
         "asymptotics/entropy-multinomial-coefficients",
         "probability/probability-measure",
@@ -1168,9 +1130,9 @@
     },
     {
       "id": "asymptotics/saddle-point-method",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "5b550d5f554e05f840b10a8e0496514aa91291a9b808fde2be11d2a40dd68ce2",
-      "evidence": "Full source and every direct target read. Core begins “The **saddle-point method** is a complex-analytic method for estimating integrals with a large parameter, \\[ I(n)=\\int_{\\Gamma} e^{n\\phi(z)}\\,\\psi(z)\\,dz \\] as \\(n\\to\\infty\\). Here”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core defines contour integrals with analytic phase/amplitude and explains stationary-point deformation; complex-domain and complex-contour-integral supply the analytic setting.",
       "previous_prerequisites": [
         "complex-analysis/complex-domain",
         "complex-analysis/complex-contour-integral"
@@ -1182,11 +1144,50 @@
     },
     {
       "id": "asymptotics/stirlings-approximation",
-      "outcome": "blocked",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "71987813665e1605b6668139fd7f7fb30292b1499e95aa954fb68208b6bd080d",
-      "evidence": "Full source and every direct target read. Core begins “For integers \\(n \\to \\infty\\), \\[ n! \\sim \\sqrt{2\\pi n}\\left(\\frac{n}{e}\\right)^n. \\] A common refined statement is \\[ n! = \\sqrt{2\\pi n}\\left(\\frac{n}{e}\\right)^n\\left(1+O\\!\\left(”; each listed prerequisite supplies a named object, hypothesis, or operation in that statement, and later examples/consequences introduce no additional defining edge.",
+      "evidence": "Core states n!~sqrt(2\u03c0n)(n/e)^n, logarithmic form, Robbins bounds, and inverse-power expansion; it is self-contained and factorial is only a use-case link.",
       "previous_prerequisites": [],
       "prerequisites": []
+    },
+    {
+      "id": "large-deviations/sanovs-theorem",
+      "outcome": "corrected",
+      "source_sha256": "ec15fe19f662a867b3533790bd9ed4a78b19dcb10ba05b91c87274825772426d",
+      "evidence": "The current core assumes an iid sequence in a Polish space, forms L_n=n\u207b\u00b9\u03a3\u03b4_Xi with weak topology, and concludes an LDP with good rate H(\u03bd||\u03bc). iid-sequence, distribution-law, Polish-space, LDP, good-rate, and relative-entropy targets respectively supply the sample, law, state-space, conclusion, compactness property, and rate formula. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "probability/iid-sequence",
+        "probability/distribution-law",
+        "large-deviations/large-deviation-principle",
+        "large-deviations/good-rate-function",
+        "probability/relative-entropy-kl-divergence"
+      ],
+      "prerequisites": [
+        "probability/iid-sequence",
+        "probability/distribution-law",
+        "large-deviations/large-deviation-principle",
+        "large-deviations/good-rate-function",
+        "probability/relative-entropy-kl-divergence",
+        "topology/polish-space"
+      ]
+    },
+    {
+      "id": "large-deviations/varadhans-lemma",
+      "outcome": "corrected",
+      "source_sha256": "fce22449ed206fea18adb244e50fd5df652a040b6eb379ddb17ee3e80465a940",
+      "evidence": "The current core assumes probability measures on a Polish space satisfying an LDP with good rate I and evaluates bounded-above continuous f by the supremum of f\u2212I. Probability-measure, Polish-space, LDP, and good-rate targets directly supply all hypotheses; the Laplace-principle link is a stated consequence. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "probability/probability-measure",
+        "large-deviations/large-deviation-principle",
+        "large-deviations/good-rate-function"
+      ],
+      "prerequisites": [
+        "probability/probability-measure",
+        "large-deviations/large-deviation-principle",
+        "large-deviations/good-rate-function",
+        "topology/polish-space"
+      ]
     }
-  ]
+  ],
+  "triage_records": []
 }

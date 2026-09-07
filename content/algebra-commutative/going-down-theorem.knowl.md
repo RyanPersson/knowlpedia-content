@@ -6,7 +6,7 @@ summary = "For an integral extension of domains with integrally closed base, pri
 aliases = ["going-down-theorem", "Going-down theorem"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/going-down-theorem.md"
-prerequisites = ["algebra-commutative/integral-extension", "algebra-commutative/integrally-closed-domain"]
+prerequisites = ["algebra-commutative/integral-extension", "algebra-commutative/integrally-closed-domain", "algebra-rings/integral-domain"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

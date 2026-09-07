@@ -1,0 +1,998 @@
+{
+  "triage_records": [],
+  "reviews": [
+    {
+      "id": "fiber-bundles/direct-sum-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1eb5806156f9e9e126bb66b239beb6b1bd771c24edd1f85a61ffb46a05dcf53e",
+      "evidence": "Checked the fiber-product definition over the common base: local trivializations produce fiber E_x direct-sum F_x, projections cover id_M, and rank additivity matches the rank target; the metric splitting appears only as an optional example.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/rank-of-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/rank-of-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/equivalence-of-cocycles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bf33d68b1ce63e11ace0105d392aadb3f4c9ea79c6b5577a7a5280f08f3ed321",
+      "evidence": "Checked g_ij g_jk=g_ik and the right-action section change s_i' = s_i h_i: it gives g_ij' = h_i^{-1}g_ij h_j, matching the stated equivalence and principal-bundle isomorphism edge; Chern-class examples are consequences.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/cocycle-condition-for-transition-functions",
+        "fiber-bundles/principal-bundle-transition-function",
+        "fiber-bundles/equivalent-bundle-atlases"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/cocycle-condition-for-transition-functions",
+        "fiber-bundles/principal-bundle-transition-function",
+        "fiber-bundles/equivalent-bundle-atlases"
+      ]
+    },
+    {
+      "id": "fiber-bundles/equivalent-bundle-atlases",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a24618c79f69abf9b5fd937f8d8d30173cae5e9112abb417fb38606225179d6",
+      "evidence": "Checked that union compatibility means smooth fiber-preserving diffeomorphisms on overlaps and is equivalent to a common refinement; the transition-function and atlas inputs support the definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/bundle-atlas",
+        "fiber-bundles/transition-function"
+      ],
+      "prerequisites": [
+        "fiber-bundles/bundle-atlas",
+        "fiber-bundles/transition-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/equivariant-local-trivialization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27d829cfb5bf8eb9ac310238615d5b011006d96600e7ea2a84da41afde4ee1e0",
+      "evidence": "Checked right-action convention \u03c8(p g)=(x,hg), the section \u03c8^{-1}(x,e), and unique decomposition p=s(\u03c0(p))g; the inverse and projection conditions make the local trivialization edge correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/right-principal-action",
+        "topology/open-cover",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/right-principal-action",
+        "topology/open-cover",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/equivariant-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef6a68817d9a57794881f89db87e86fc096c39b4a41071b7ce5d231aeccc240b",
+      "evidence": "Checked both left and right action equations, including inversion under conjugation i(hgh^{-1})=h g^{-1}h^{-1}; smooth-map and smooth-action prerequisites match the definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ]
+    },
+    {
+      "id": "fiber-bundles/equivariant-map-pf-associated-to-a-section-of-p-g-f",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2331e6797be1d95e52e3ea04f4a288d104cd2701402e9ecbdf619eab5758ea02",
+      "evidence": "Checked the quotient convention for a right P-action and left F-action: [p,f]=[p g,g^{-1}f], so \u03a6_s(p g)=g^{-1}\u03a6_s(p) and [p,\u03a6(p)] is independent of p; the associated-bundle and section inputs are essential.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/equivariant-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/equivariant-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa7b54d08bb2249e2bcc791cc014eda54d8dd0444da1a6068ed8737df987439f",
+      "evidence": "Checked O(E) consists exactly of isometric frames, is stable under right O(n) precomposition, and conversely defines the fiber metric; the reduction and principal-bundle edges fit.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/reduction-of-structure-group",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/reduction-of-structure-group",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/extension-of-structure-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "859febbf0b6b4176d7e31de17e0c94c5475004e94575d84bb365eb9215cd80af",
+      "evidence": "Checked the quotient relation and canonical map: [p g,e]=[p,\u03c6(g)]=[p,e]\u00b7\u03c6(g), so p\u21a6[p,e] is a well-defined smooth \u03c6-equivariant principal-bundle morphism; associated-bundle and same-group morphism concepts are correctly used.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/principal-bundle-morphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/principal-bundle-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/fiber-coordinates",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d7904f409dbde57ad0caeacabc9fc34cceccc92500999096f1d0bbd25f5eb77",
+      "evidence": "Checked \u03a6(p)=(\u03c0(p),f(p)) and overlap dependence: coordinates are local, while principal fibers are right G-torsors and local sections choose origins; local-trivialization, transition, and torsor edges fit.",
+      "previous_prerequisites": [
+        "fiber-bundles/local-trivialization"
+      ],
+      "prerequisites": [
+        "fiber-bundles/local-trivialization"
+      ]
+    },
+    {
+      "id": "fiber-bundles/fiber-of-a-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b465c812ea36d7105942a1055598f40581c703403676bd1fbf71e2fb61013ec",
+      "evidence": "Checked the set-theoretic preimage definition and the regular-value codimension statement; empty, singleton, and positive-radius examples cover edge cases. Principal-bundle use is illustrative.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/regular-value",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "differential-geometry/embedded-submanifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/regular-value",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "differential-geometry/embedded-submanifold"
+      ]
+    },
+    {
+      "id": "fiber-bundles/fiber-preserving-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9877355ac6e95b73de65fe540e708a1de4d260cf127b4d368b0255127324999e",
+      "evidence": "Checked \u03c0\u2032F=f\u03c0 and uniqueness of f under surjectivity, plus d\u03c6:T M\u2192T N covering \u03c6; fibered-manifold and tangent-bundle edges support the displayed definition and example.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/bundle-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/bundle-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/frame-bundle-fr-of-a-manifold-m",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a43a7553a591d27649d14ef44f4efd183fda4ff05596649342eb78830c3a4080",
+      "evidence": "Checked frames as ordered bases and right action by postcomposition u\u2218A; this is free/transitive on each fiber and gives a principal GL(n,R)-bundle, with tangent-bundle and smooth-manifold inputs.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/principal-g-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8e3cdb3a97e70aa57e42ad6b74488127f0696b6d3d78bf378a86646b0669084",
+      "evidence": "Checked Iso_F(F^n,E_x), right postcomposition, and local-frame changes; these give a principal GL(n,F)-bundle for real or complex E, with rank and local-frame prerequisites.",
+      "previous_prerequisites": [
+        "fiber-bundles/rank-of-a-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/transition-matrix-of-a-local-frame"
+      ],
+      "prerequisites": [
+        "fiber-bundles/rank-of-a-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/transition-matrix-of-a-local-frame"
+      ]
+    },
+    {
+      "id": "fiber-bundles/g-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d79b74578a1d7a17d19890a5a10cccd68eca89e43e182108dfdf2c07c9bca6f7",
+      "evidence": "Checked the definition as a reduction of Fr(TM) for a fixed subgroup G\u2282GL(n,R); examples distinguish pointwise reduction from integrability and connection compatibility, so optional examples do not add core edges.",
+      "previous_prerequisites": [
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/reduction-of-structure-group",
+        "fiber-bundles/frame-bundle-fr-of-a-manifold-m"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/reduction-of-structure-group",
+        "fiber-bundles/frame-bundle-fr-of-a-manifold-m"
+      ]
+    },
+    {
+      "id": "fiber-bundles/g-torsor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cda04615c28314fae911cb7814961ab6d4b247a335fa4a161eec764809975cd",
+      "evidence": "Checked free/transitive right action and unique t\u2032=t g; choosing t1=t0h changes coordinates by h^{-1} on the left, and principal fibers/local sections are correctly identified as torsors.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-action",
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-action",
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/hermitian-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d81ce5c19e763d247792616fbbbd08b8e36dea0c221f64e2c8a360664e3001a9",
+      "evidence": "Checked conjugate-linearity convention, positivity, smooth local coefficients, and unitary reduction; determinant-line discussion is an example/consequence, while complex-vector-bundle and smooth-manifold inputs suffice.",
+      "previous_prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/smooth-manifold"
+      ]
+    },
+    {
+      "id": "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9179705743833383d57ffee7a076a95c9ab67b0e27813ac458a4cfbe051787b",
+      "evidence": "Checked locally constant rank yields block form diag(I_r,0), hence smooth kernel/image subbundles with ranks e\u2212r and r; the failure example at x=0 verifies why constant rank is required.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/vector-subbundle",
+        "topology/connected-component"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/vector-subbundle",
+        "topology/connected-component"
+      ]
+    },
+    {
+      "id": "fiber-bundles/line-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "849176bb058360baa1964dad9ab800ca855ffe78e96fcbe81f5038ba2ec94af7",
+      "evidence": "Checked rank-one definition over R or C, transition values in F\u00d7, and triviality iff a nowhere-zero global section; classification and dual/tensor examples are consequences rather than defining inputs.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/rank-of-a-vector-bundle",
+        "fiber-bundles/local-trivialization",
+        "linear-algebra/linear-map",
+        "fiber-bundles/transition-function"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/rank-of-a-vector-bundle",
+        "fiber-bundles/local-trivialization",
+        "linear-algebra/linear-map",
+        "fiber-bundles/transition-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/local-frame-of-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d811cb8ee76c9b355ee48ee4358d0f9aad6370720bd97b8a5ec7a6bb8665527",
+      "evidence": "Checked a local frame is r smooth sections forming bases fiberwise and is equivalent to a local trivialization; transition matrices and metric frames are used consistently.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-field"
+      ]
+    },
+    {
+      "id": "fiber-bundles/module-of-smooth-sections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06cbd6eae03479012cb7e24c6f0de8abe4d8d83b71da1f6bcb9dfaec246b07b7",
+      "evidence": "Checked pointwise addition/scalar multiplication, local freeness of the section sheaf, evaluation quotient by m_x, and functoriality only for maps over id_M; the listed vector-bundle, manifold, and smooth-function inputs support the definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/algebra-of-smooth-functions"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/algebra-of-smooth-functions"
+      ]
+    },
+    {
+      "id": "fiber-bundles/nowhere-vanishing-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "325a43aa5b0f01162dc4ac2d2236ad35c3855fba489ed2a6d1cac5ece19e680c",
+      "evidence": "Checked s(x)\u22600_x against the zero section, and the metric-based complement is explicitly conditional; the definition correctly distinguishes intrinsic nonzeroness from optional splitting and examples.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/zero-section",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/zero-section",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/orientation-of-a-real-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c46412d1722a3dc29ac782423e742b46098fc2dd7f41b02bf92a9dff208dce8",
+      "evidence": "Checked positive-determinant atlas, positive frame component, and determinant-line descriptions agree; the nowhere-vanishing determinant section is the needed orientation datum, while tangent-bundle examples are consequences.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/local-trivialization",
+        "fiber-bundles/transition-function",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/nowhere-vanishing-section"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/local-trivialization",
+        "fiber-bundles/transition-function",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/nowhere-vanishing-section"
+      ]
+    },
+    {
+      "id": "fiber-bundles/oriented-frame",
+      "outcome": "corrected",
+      "source_sha256": "d10cab082f6a044e8d53f8306ce3e6d7d87080ebbd29809c65623d5f3efc134d",
+      "evidence": "Checked an oriented frame is a basis in the chosen positive component and transforms under GL\u207a(r,R); the rank-one clarification correctly distinguishes two orientations from infinitely many positive frames. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f45470375cf15aa1dbfb0003d220514114cdc3f98bf918bc0e1a9b28584c7958",
+      "evidence": "Checked metric-orthonormal frames are preserved by right O(n) action, which is free and transitive fiberwise; this establishes the principal O(n)-bundle and reduction claims.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/principal-g-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef2c74bfcfb619c85359dc776e04f79894bab6eab5137d631d482e38a05f72a5",
+      "evidence": "Checked the definition combines a principal-bundle isomorphism with a covering diffeomorphism and preserves the right action; the trivial example \u03a6(x,h)=(f(x),a(x)h) satisfies equivariance.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bcfa24ccc05630f1a494d455b34d3c70841ade0a661e4024b357736b960b1573",
+      "evidence": "Checked an equivariant diffeomorphism covering f has an inverse morphism and induces a diffeomorphic base map; the local coboundary example matches the stated principal-bundle isomorphism scope.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-morphism",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-morphism",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71a9bc1d43917d743942954f482c7ec98e5221ff34adf2770e90e28bb6b18bbb",
+      "evidence": "Checked \u03c0\u2032\u03a6=f\u03c0 and \u03a6(pg)=\u03a6(p)g, with uniqueness of f from surjectivity; the trivial and frame-bundle examples obey the same-group right-action convention.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/right-principal-action",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/right-principal-action",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74e5fc54fa95f9698c2b129901b58d0daea268a43242a556d9569699eefd6d5d",
+      "evidence": "Checked (0,h)~(1,gh) is compatible with the right action, yielding a principal G-bundle; classification by conjugacy classes in \u03c0\u2080(G) and the connected/discrete examples are consistent.",
+      "previous_prerequisites": [
+        "fiber-bundles/clutching-function",
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/clutching-function",
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-transition-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2d1105a148c6ec2969e084f115d8029758e7b30dd985c918995ce7ed56dedc3",
+      "evidence": "Checked \u03c8_i\u03c8_j^{-1}(x,h)=(x,g_ijh) implies s_j=s_i g_ij and gives g_ijg_jk=g_ik; identity and inverse laws match the right-action convention.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "topology/open-cover",
+        "fiber-bundles/equivariant-local-trivialization",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "topology/open-cover",
+        "fiber-bundles/equivariant-local-trivialization",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-h-subbundle",
+      "outcome": "corrected",
+      "source_sha256": "b484d2c80eeb947e65ae245a402ebc8074248828e06c20cec8a8bb4b5f8324c3",
+      "evidence": "Checked Q is a submanifold surjecting onto M, is H-invariant, and has free transitive H fibers; the defining H\u2282G Lie-subgroup input is now represented explicitly.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/right-principal-action"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/right-principal-action"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pullback-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb08a2e36fc1f3656b0a10aa076bde7927d6666642dcb5e743ae7ae2d8cd13be",
+      "evidence": "Checked the fiber-product condition f(n)=\u03c0(e), projection to n, and canonical map to E; local trivializations pull back to f^{-1}(U)\u00d7F, proving the stated bundle structure.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/bundle-morphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/bundle-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "047d4b9a24a398986e230a3e0ab1974652a169d30912f8a954436ce4315df3b5",
+      "evidence": "Checked (n,p)g=(n,pg) preserves f(n)=\u03c0(p), and the iterated pullback identification is (l,p)\u21a6(l,(g(l),p)); principal fibers and functoriality are correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/quaternionic-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5424c262b64665e0fd33bdee0fde1a9127f7d8879d9ca459585afcc8852172af",
+      "evidence": "Checked right-H linear local trivializations give GL(n,H) transitions and real rank 4n; right multiplication by j is complex-antilinear with J\u00b2=\u2212I, matching the complex reformulation.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "linear-algebra/quaternion-division-algebra",
+        "fiber-bundles/local-trivialization",
+        "fiber-bundles/transition-function",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/bundle-morphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "linear-algebra/quaternion-division-algebra",
+        "fiber-bundles/local-trivialization",
+        "fiber-bundles/transition-function",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/bundle-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/quotient-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "14ba2272d79d0405a5bce3cd169c7e224e18f09352bc76c1f7c496c56f0ff4f7",
+      "evidence": "Checked the equivalence v\u2212w\u2208F_x, adapted local frames, and rank r\u2212k; the quotient map has kernel F and the metric complement supplies only a noncanonical splitting.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-subbundle",
+        "shared-foundations/equivalence-relation",
+        "fiber-bundles/vector-bundle-morphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-subbundle",
+        "shared-foundations/equivalence-relation",
+        "fiber-bundles/vector-bundle-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/rank-of-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69fe8f50f4baccf11326951edb572e5ae1aa14df2bf2a93153fc53d9a7d9d091",
+      "evidence": "Checked rank is the fiber dimension and is locally constant for a vector bundle; componentwise rank language handles disconnected bases.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "fiber-bundles/reduction-by-cocycle-structure-group-reduces-to-h-iff-transition-functions-can-be-chosen-h-valued",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c8e44fc158cd0cee3ac92b747e001800be7aeeaf4ab71e424d3c2244c1b6775",
+      "evidence": "Checked the two directions use H-valued transition data to glue an H-subbundle and restrict an existing reduction\u2019s atlas; the iff statement preserves the cocycle law.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/construction-reduction-of-structure-group-to-h-via-transition-functions-valued-in-h"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/construction-reduction-of-structure-group-to-h-via-transition-functions-valued-in-h"
+      ]
+    },
+    {
+      "id": "fiber-bundles/reduction-of-structure-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0c34588ded151a3f9a0218122e8a3e7538906e951a3cc01f88b0d8c0b8fdc451",
+      "evidence": "Checked a principal H-subbundle Q\u2282P and its extension Q\u00d7_H G recover P; the associated G/H section characterization uses the correct left action.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/principal-h-subbundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/principal-h-subbundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/section-of-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1abe29b496511f75bc29ac32842e6b7f6f3f819886cd32577ef3a7e97472373",
+      "evidence": "Checked \u03c0s=id, local coordinates, pointwise module operations, and induced maps over id_M; the zero section and local trivialization examples match the definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/smooth-map",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/smooth-map",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/short-exact-sequence-of-vector-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d1604f92904ecf8c2066b1a3ffc4eee2d09382ad6794381835b2e14e7a227e8",
+      "evidence": "Checked fiberwise exactness, kernel/image characterization, and quotient isomorphism; the smooth metric orthogonal complement gives the stated splitting under paracompactness.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism",
+        "fiber-bundles/bundle-isomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism",
+        "fiber-bundles/bundle-isomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f10157ac291ad6ff1cc451174ce9717530bb4a648cdb5d7df3ee3293dee4d3ad",
+      "evidence": "Checked identity/inverse/triple-overlap laws, section-change formula, and gluing relation; the quotient yields a smooth principal G-bundle and equivalent cocycles yield isomorphic bundles.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/cocycle-condition-for-transition-functions"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/cocycle-condition-for-transition-functions",
+        "fiber-bundles/principal-g-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/solder-form-on-the-frame-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4355656f9a2046f131d0f97937a1483c68ac3db61c19e68d30d27d29ec0b990",
+      "evidence": "Checked \u03b8_u(v)=u^{-1}(d\u03c0_u(v)): it vanishes on ker d\u03c0 and under u\u21a6u\u2218A transforms as A^{-1}\u03b8, exactly the stated semibasic and equivariance laws; tangent-bundle and principal-frame inputs fit.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/tangent-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/special-orthonormal-frame-bundle-reduction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d3f70c1edffa2df6a8830cb8f53bef7c9e8d99fba0b08988be77a8a7e3b1734",
+      "evidence": "Checked oriented orthonormal frames form an SO(n)-torsor inside O(E), since determinant-positive orthogonal changes are exactly SO(n); metric and orientation prerequisites support the reduction.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/special-unitary-frame-bundle-reduction",
+      "outcome": "corrected",
+      "source_sha256": "7b1b5c2baaf97c15a69490f3ad7fdb697cdf02dd401690cea55b019738894e60",
+      "evidence": "Checked the determinant calibration e_1\u2227\u22ef\u2227e_n=\u03a9 cuts U(E) to an SU(n)-torsor and that a unit determinant section is equivalent to a Hermitian determinant-line trivialization; determinant line prerequisites are present. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/unitary-frame-bundle-reduction"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/unitary-frame-bundle-reduction",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/line-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/sphere-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d5b33663cf52ed04a25a0bc74120e20bd1cb4aed553f5bb7142c808355596942",
+      "evidence": "Checked g(v,v)=1 gives local U\u00d7S^{r\u22121} under orthonormal frames, with positive rank ensuring the stated sphere fiber; disk-boundary, antipodal, and metric-independence claims are consistent consequences.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber"
+      ]
+    },
+    {
+      "id": "fiber-bundles/support-of-a-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "551fc839bfb18221a8d596e76925142cc6652d02786ac20f7eaf87247445664d",
+      "evidence": "Checked support is the closure of {x:s(x)\u22600_x}, so its complement is exactly the largest open set where s vanishes; closed-set and section inputs match the definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "topology/closed-set"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "fiber-bundles/symmetric-power-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "656762fe7cc28b763b53908d1bbeb3a40df8f467f742a093fb73aaa27582794b",
+      "evidence": "Checked fiberwise coinvariants of E_x^{\u2297k} under permutations form S^kE and local frame changes induce S^kg; functoriality follows from fiberwise bundle maps, with the line-bundle example consistent.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/bundle-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/bundle-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle-cocycle-from-coordinate-changes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a06da8a382252cecf0c9394adbf6db55f7d5e3bd5141254f13d56cb708a11479",
+      "evidence": "Checked A_ij=D(\u03c6_i\u2218\u03c6_j^{-1}) maps j-components to i-components and the chain rule gives A_ik=A_ijA_jk; the resulting GL(n,R) cocycle glues TM.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+        "fiber-bundles/tangent-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/transition-matrix-of-a-local-frame",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c62d1fa1e7f05714ee6ae900d026ba8b6faac91c78ec308c9cd9eb75ca6fdb77",
+      "evidence": "Checked e\u2032=e g means e\u2032_j=\u03a3_i e_i g_ij and triple changes multiply in the stated order; invertibility follows because both tuples are bases.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/local-frame-of-a-vector-bundle",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/local-frame-of-a-vector-bundle",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/trivial-fiber-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca416ed35df6ccc6461c8ccc018bbe0f16b4c2253c7bbcc5b4fa67b919e12b95",
+      "evidence": "Checked global triviality is precisely a bundle isomorphism E\u2192M\u00d7F over id_M; product, tangent-space, and M\u00f6bius examples correctly distinguish local from global triviality.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/bundle-isomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/bundle-isomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e797a6d9ef25ea6207d5814073aded80ab55d063c81f7ca6de0ecd57c2ee455d",
+      "evidence": "Checked freeness/transitivity gives unique p=s(x)g, making \u03a6(x,g)=s(x)g bijective and equivariant; local trivializations make \u03a6 and inverse smooth.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/trivial-principal-bundle-mgm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9754b0b6e92436d8e7ef88fd53a8fab4b600681081621b8e0a592fa531a4e5be",
+      "evidence": "Checked projection and right action (x,g)h=(x,gh) are free/transitive on fibers, and s(x)=(x,e) is a global section; gauge and frame examples use the same convention.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/trivial-vector-bundle-mvm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "68f6789f183d50d35db73a8dd350f9b91b866341e903f72a245f0b5230e4db79",
+      "evidence": "Checked M\u00d7V has fiberwise vector operations, rank dim V, and sections exactly smooth maps M\u2192V; a basis of V yields a global frame.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/unit-tangent-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8c85df2a98d776243ec8cf6aa9d5eab3ab79d4798950e72b92a4a4a2dd665cf",
+      "evidence": "Checked SM={v\u2208TM:g_x(v,v)=1} has each fiber the unit sphere in T_xM, with the Riemannian metric supplying the defining norm and tangent bundle supplying the total space.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/tangent-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/unitary-frame-bundle-reduction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a111dc08c151a5a10a1ae77a56c23ee7aac863f7f9e1f1e8d3792b40a267b5b",
+      "evidence": "Checked h-orthonormal complex frames form a U(n)-torsor under right GL(n,C) restriction, giving the unitary principal bundle and the metric/reduction equivalence.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/principal-g-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/vector-bundles-and-locally-free-sheaves",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26a0bf97cec42090bfe8fb556eaad8849c8a3c351d44bb2eda0db4e4bbfaa9a2",
+      "evidence": "Checked the complete theorem: local C\u221e-module frames glue via GL_r transition functions, reconstructing a smooth bundle; local sheaf morphism matrices glue to bundle morphisms. The no-compactness Serre\u2013Swan paragraph is retained for root\u2019s separate prerequisite/source review.",
+      "previous_prerequisites": [
+        "algebra-category-theory/equivalence-of-categories",
+        "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "topology/connected-component"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/equivalence-of-categories",
+        "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "topology/connected-component",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/sheaf-of-smooth-sections",
+        "fiber-bundles/transition-function",
+        "fiber-bundles/bundle-morphism",
+        "fiber-bundles/serre-swan-theorem"
+      ]
+    },
+    {
+      "id": "fiber-bundles/vertical-vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "916fd158c3ad1df42f031a52e899d95f2fdb0e076a0109508dc3afa31ba6dd34",
+      "evidence": "Checked verticality X_e\u2208ker d\u03c0_e is equivalent to a section of VE; integral curves project to constant base points, so local flows cover id_M and preserve fibers.",
+      "previous_prerequisites": [
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/vertical-tangent-space",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/vertical-subbundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/vertical-tangent-space",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/vertical-subbundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/zero-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8606c4875d773f059f70d138f17c010bd5a1a9ddf3b6bad8b583c7538488dea3",
+      "evidence": "Checked x\u21a60_x is smooth in every trivialization, is an embedded section, and vector-bundle morphisms preserve it; d0_E supplies the canonical tangent splitting along the zero section and normal bundle identification.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ]
+    }
+  ]
+}

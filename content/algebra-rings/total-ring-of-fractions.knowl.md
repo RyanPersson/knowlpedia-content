@@ -6,7 +6,7 @@ summary = "Localization of a commutative ring obtained by inverting all regular 
 aliases = ["total-ring-of-fractions", "Total ring of fractions"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/total-ring-of-fractions.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/regular-element", "algebra-rings/zero-divisor", "algebra-rings/unit"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/regular-element", "algebra-rings/zero-divisor", "algebra-rings/unit"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

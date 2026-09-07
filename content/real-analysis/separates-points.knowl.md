@@ -6,7 +6,7 @@ summary = "A property of a family of functions distinguishing any two different 
 aliases = ["separates-points", "Separates points"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/separates-points.md"
-prerequisites = []
+prerequisites = ["shared-foundations/function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

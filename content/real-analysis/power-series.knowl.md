@@ -7,7 +7,7 @@ aliases = ["power-series", "Power series", "convergent power series"]
 domains = ["real-analysis", "complex-analysis"]
 legacy_source_path = "real-analysis/power-series.md"
 section_mode = "progressive"
-prerequisites = ["real-analysis/series"]
+prerequisites = ["real-analysis/series", "shared-foundations/complex-numbers-c", "real-analysis/interval"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

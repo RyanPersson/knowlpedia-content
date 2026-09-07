@@ -3482,7 +3482,7 @@
     {
       "id": "lie-groups/solvable-lie-algebra",
       "outcome": "corrected",
-      "source_sha256": "bd17c9c06858aa64a30b1d17541718df34d04aad46a0331bf1537788d065889a",
+      "source_sha256": "92403f5f6cfa4a272fddaa50531c09dc06fb43263c0e0aec00f7956d0574ab84",
       "evidence": "Full source and both prerequisite targets were read. The definition takes a Lie algebra as input and is stated through its derived series; the corrected source now links the Lie-algebra derived-series target and no longer treats later ideal/Levi/Cartan/nilpotent remarks as defining inputs. The two-item prerequisite set is therefore complete.",
       "previous_prerequisites": [
         "lie-groups/derived-series-lie-algebra",
@@ -3498,7 +3498,7 @@
     {
       "id": "lie-groups/special-orthogonal-group",
       "outcome": "corrected",
-      "source_sha256": "2f3c4ed500cf400bedf74e5484fba65bfceb5dce907115121daa1be6d17abb0f",
+      "source_sha256": "d6ed65da9d21b9968d2b1cdead1243fa5cd9d4d6de79afa764e40f67e8de828d",
       "evidence": "Full source and all seven prerequisite targets were read. The defining matrix condition uses inner-product and determinant, and the Lie-subgroup, spin-cover, Lorentz, orthogonal-Lie-algebra, and compactness statements directly support the subsequent claims. The eight-item prerequisite set retains those defining and theorem inputs.",
       "previous_prerequisites": [
         "lie-groups/orthogonal-group",
@@ -3595,14 +3595,12 @@
         "lie-groups/differential-is-lie-algebra-homomorphism",
         "lie-groups/simply-connected-lie-group"
       ]
-    }
-  ],
-  "triage_records": [
+    },
     {
       "id": "lie-groups/sl2-complex-as-real-and-complex-lie-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5dc70aefb8e0456e0d16956ce3a8405644baefa38f9a68d19da385c24d38f6c6",
-      "evidence": "Full source read and checked: the core defines SL(2,C) as a real and complex Lie group from its stated hypotheses; direct core inputs are lie-groups/complex-lie-group, lie-groups/underlying-real-lie-group, topology/topological-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The matrix determinant-one definition and the complex-to-real scalar restriction are supported by the complex Lie group, underlying real Lie group, and topological group targets; the later center and cover statements are consequences.",
       "previous_prerequisites": [
         "lie-groups/complex-lie-group",
         "lie-groups/underlying-real-lie-group",
@@ -3618,7 +3616,7 @@
       "id": "lie-groups/sl2c-spin-cover-of-lorentz-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "44a5e8b910f58e7437ae157dc9dd2c076705b7fd32d35e9cd7b32c29d0bd9b62",
-      "evidence": "Full source read and checked: the core defines SL(2,C) spin cover of the Lorentz group from its stated hypotheses; direct core inputs are lie-groups/hermitian-matrix-model-of-minkowski-space, lie-groups/lie-group-homomorphism. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The Hermitian matrix action, its kernel, and the covering homomorphism are exactly the content of the Hermitian Minkowski model and Lie group homomorphism targets; the real Lie algebra discussion is explanatory.",
       "previous_prerequisites": [
         "lie-groups/hermitian-matrix-model-of-minkowski-space",
         "lie-groups/lie-group-homomorphism"
@@ -3632,7 +3630,7 @@
       "id": "lie-groups/smooth-action-lie-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "0148780f2f0da978374692f8436797bedbae20511eddd83a0da0f53e35cb31bf",
-      "evidence": "Full source read and checked: the core defines Smooth action of a Lie group from its stated hypotheses; direct core inputs are fiber-bundles/lie-group, fiber-bundles/smooth-manifold, fiber-bundles/smooth-map, lie-groups/orbit-lie-group, lie-groups/stabilizer-lie-group, lie-groups/homogeneous-space, lie-groups/principal-homogeneous-space, lie-groups/transitive-action-lie. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The definition requires a Lie group, smooth manifold, and smooth action map; orbit, stabilizer, homogeneous-space, and effectiveness material is downstream context.",
       "previous_prerequisites": [
         "fiber-bundles/lie-group",
         "fiber-bundles/smooth-manifold"
@@ -3646,7 +3644,7 @@
       "id": "lie-groups/smooth-vector-unitary-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "56fb67eb2eadef626bb6f01d71b9d6e0a436516b630f5919a233a72f1d8bf6f4",
-      "evidence": "Full source read and checked: the core defines Smooth vector of a Lie-group representation from its stated hypotheses; direct core inputs are fiber-bundles/lie-group, lie-groups/strongly-continuous-unitary-representation, fiber-bundles/orbit-map, fiber-bundles/smooth-manifold, linear-algebra/hilbert-space, convex-analysis/linear-subspace. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The smooth-vector definition uses a Lie group, strongly continuous unitary representation, orbit map, smooth manifold, Hilbert space, and linear-subspace targets; differentiation and density sections are consequences.",
       "previous_prerequisites": [
         "fiber-bundles/lie-group",
         "lie-groups/strongly-continuous-unitary-representation",
@@ -3668,7 +3666,7 @@
       "id": "lie-groups/special-block-unitary-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "378fe6e83892a0b82b87dd9f6c6d2edfbd0e2ff424a20da37c196dc84db41e64",
-      "evidence": "Full source read and checked: the core defines Special block unitary group from its stated hypotheses; direct core inputs are the local notation and hypotheses. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The block determinant-one definition and Lie algebra are grounded in unitary group, special unitary group, and Lie algebra targets; the central quotient and Standard Model paragraphs are later context.",
       "previous_prerequisites": [
         "lie-groups/unitary-group",
         "lie-groups/special-unitary-group",
@@ -3684,7 +3682,7 @@
       "id": "lie-groups/special-linear-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b7d21a411552f4e02dcbc5dbd787020958b1f480d469554b4f7c2c9ecc964010",
-      "evidence": "Full source read and checked: the core defines Special linear group from its stated hypotheses; direct core inputs are lie-groups/general-linear-group, lie-groups/lie-subgroup, lie-groups/closed-subgroup-lie-group, lie-groups/underlying-real-lie-group, lie-groups/special-linear-lie-algebra, lie-groups/exponential-map-lie-group, lie-groups/semisimple-lie-algebra, lie-groups/root-system. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The determinant-one subgroup construction uses general linear group, Lie-subgroup/closed-subgroup facts, underlying-real conversion, and determinant; Lie-algebra and root-theory references are consequences.",
       "previous_prerequisites": [
         "lie-groups/general-linear-group",
         "lie-groups/lie-subgroup",
@@ -3704,7 +3702,7 @@
       "id": "lie-groups/special-linear-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "43f9cbb3562de8dcc34da6a4f63b24ff4022c89d8a25f6424b2ad44d0afa1c21",
-      "evidence": "Full source read and checked: the core defines Special linear Lie algebra from its stated hypotheses; direct core inputs are fiber-bundles/lie-bracket, lie-groups/general-linear-lie-algebra, lie-groups/special-linear-group, lie-groups/simple-lie-algebra, lie-groups/classification-simple-lie-algebras, lie-groups/example-sl2c. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The trace-zero matrix definition and commutator bracket use the Lie bracket and general linear Lie algebra targets; group identification and complex-simple structure are consequences.",
       "previous_prerequisites": [
         "fiber-bundles/lie-bracket",
         "lie-groups/general-linear-lie-algebra"
@@ -3718,7 +3716,7 @@
       "id": "lie-groups/special-unitary-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5ada43a768b1ca9b06658e57f1d25bd6d03fc075807f376f799bea7cb3abb95d",
-      "evidence": "Full source read and checked: the core defines Special unitary group from its stated hypotheses; direct core inputs are lie-groups/unitary-group, lie-groups/closed-subgroup-lie-group, lie-groups/simply-connected-lie-group, lie-groups/example-su2, lie-groups/spin-group, lie-groups/example-so3. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The Hermitian determinant-one subgroup definition uses unitary group and closed-subgroup facts; connectivity, spin, and representation-theory examples are later claims.",
       "previous_prerequisites": [
         "lie-groups/unitary-group",
         "lie-groups/closed-subgroup-lie-group",
@@ -3738,7 +3736,7 @@
       "id": "lie-groups/special-unitary-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "3afd3c6606d34b831a7264678ec9492af691bde8718c3aea242f69b645f6c419",
-      "evidence": "Full source read and checked: the core defines Special unitary Lie algebra from its stated hypotheses; direct core inputs are lie-groups/special-unitary-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The skew-Hermitian trace-zero definition is the Lie algebra of the special unitary group, with the generic Lie algebra target supplying the real Lie algebra context; center and simplicity are consequences.",
       "previous_prerequisites": [
         "lie-groups/special-unitary-group",
         "lie-groups/lie-algebra"
@@ -3752,7 +3750,7 @@
       "id": "lie-groups/spherical-plancherel-theorem",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b2348715cb8bbd2f53b1fefb6e679d181ca3c528f956d06d289226d7e0d7732c",
-      "evidence": "Full source read and checked: the core defines Spherical Plancherel theorem from its stated hypotheses; direct core inputs are fiber-bundles/lie-group, lie-groups/maximal-compact-subgroup-real-reductive-group, harmonic-analysis/spherical-function, measure-theory/lebesgue-measure, lie-groups/harish-chandra-c-function, linear-algebra/inner-product. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The transform statement explicitly depends on a Lie group, maximal compact subgroup, spherical function, Lebesgue measure, c-function, and inner product; Euclidean and rank-one examples are contextual.",
       "previous_prerequisites": [
         "fiber-bundles/lie-group",
         "lie-groups/maximal-compact-subgroup-real-reductive-group",
@@ -3774,7 +3772,7 @@
       "id": "lie-groups/spherical-principal-series",
       "outcome": "reviewed_unchanged",
       "source_sha256": "fc5b60b81bd73b43f2611810faab2b8371cb1f4dc98d65e4e17b59b32e36262d",
-      "evidence": "Full source read and checked: the core defines Spherical principal series representation from its stated hypotheses; direct core inputs are lie-groups/real-reductive-lie-group, lie-groups/maximal-compact-subgroup-real-reductive-group, lie-groups/minimal-parabolic-subgroup, lie-groups/normalized-parabolic-induction, lie-groups/principal-series-representation. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The induced representation is defined from real reductive group, maximal compact subgroup, minimal parabolic, normalized induction, and principal-series targets; the spherical vector discussion follows from that construction.",
       "previous_prerequisites": [
         "lie-groups/real-reductive-lie-group",
         "lie-groups/maximal-compact-subgroup-real-reductive-group",
@@ -3794,7 +3792,7 @@
       "id": "lie-groups/spherical-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b6778f6382568a470f5c9e15d54f66059ee0b4b478281240c57aefbc08ffe333",
-      "evidence": "Full source read and checked: the core defines Spherical representation from its stated hypotheses; direct core inputs are lie-groups/real-reductive-lie-group, lie-groups/maximal-compact-subgroup-real-reductive-group, lie-groups/irreducible-unitary-representation, lie-groups/gelfand-pair, real-analysis/absolute-value. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The K-fixed-vector definition uses real reductive group, maximal compact subgroup, irreducible unitary representation, Gelfand pair, and absolute value; coefficient and principal-series remarks are consequences.",
       "previous_prerequisites": [
         "lie-groups/real-reductive-lie-group",
         "lie-groups/maximal-compact-subgroup-real-reductive-group",
@@ -3814,7 +3812,7 @@
       "id": "lie-groups/spin-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "742912f5d9a416e36b85461f0f811d97aab33a8259a5597341ee306499f63729",
-      "evidence": "Full source read and checked: the core defines Spin group from its stated hypotheses; direct core inputs are the local notation and hypotheses. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The Clifford even-product construction and covering map require Clifford algebra, universal covering group, and orthogonal Lie algebra targets; special orthogonal and indefinite variants are related context.",
       "previous_prerequisites": [
         "differential-geometry/clifford-algebra",
         "lie-groups/universal-covering-group",
@@ -3830,7 +3828,7 @@
       "id": "lie-groups/spin6-su4-isomorphism",
       "outcome": "reviewed_unchanged",
       "source_sha256": "cef865793ea50fa28f6014f398a990d5f2e064c021fc4f489d071981d5e5bb5d",
-      "evidence": "Full source read and checked: the core defines The isomorphism Spin(6) ≅ SU(4) from its stated hypotheses; direct core inputs are lie-groups/compact-lie-group, lie-groups/lie-algebra. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The stated compact-group and Lie-algebra isomorphisms are checked against compact Lie group and Lie algebra targets; spin, SU, simple representations, and exterior/half-spin material support later representation claims.",
       "previous_prerequisites": [
         "lie-groups/compact-lie-group",
         "lie-groups/lie-algebra",
@@ -3850,7 +3848,7 @@
       "id": "lie-groups/spin8-triality",
       "outcome": "reviewed_unchanged",
       "source_sha256": "96feb81fcbed31c8d07050576d2517b48440e4b25b9ebd1f074f542d7333e889",
-      "evidence": "Full source read and checked: the core defines Spin(8) triality from its stated hypotheses; direct core inputs are lie-groups/simply-connected-lie-group, algebra-groups/outer-automorphism-group, lie-groups/defining-representation-of-a-classical-lie-algebra, lie-groups/half-spin-representation. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The triality assertion uses simply connected Lie group, outer automorphism group, defining and half-spin representations; Dynkin, Clifford, and highest-weight explanations are downstream.",
       "previous_prerequisites": [
         "lie-groups/simply-connected-lie-group",
         "algebra-groups/outer-automorphism-group",
@@ -3868,7 +3866,7 @@
       "id": "lie-groups/spin9-spin-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "dfda6d934928421a11d9f7703ec7bba373d8d3071de9c2abd9e4c154e6dee0cf",
-      "evidence": "Full source read and checked: the core defines Spin representation of Spin(9) from its stated hypotheses; direct core inputs are lie-groups/spin-group, lie-groups/maximal-compact-subgroup-real-reductive-group, lie-groups/octonionic-special-linear-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The Spin(9) module and sphere action use spin group, maximal compact subgroup, octonionic special linear group, and the listed geometric action targets; Hopf-fibration remarks are examples.",
       "previous_prerequisites": [
         "lie-groups/spin-group",
         "lie-groups/maximal-compact-subgroup-real-reductive-group",
@@ -3884,7 +3882,7 @@
       "id": "lie-groups/square-integrable-modulo-center-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "4ab65d4fc42e0e802a3051da3d4eb315d73fb9044abdfb8547a07381473494de",
-      "evidence": "Full source read and checked: the core defines Square-integrable representation modulo the center from its stated hypotheses; direct core inputs are harmonic-analysis/unimodular-group, lie-groups/irreducible-unitary-representation, harmonic-analysis/coefficient-function, algebra-representation-theory/schurs-lemma, real-analysis/absolute-value. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The definition requires unimodularity, irreducible unitary representation, coefficient function, Schur lemma, and absolute value to make the quotient integral and central character precise.",
       "previous_prerequisites": [
         "harmonic-analysis/unimodular-group",
         "lie-groups/irreducible-unitary-representation",
@@ -3904,7 +3902,7 @@
       "id": "lie-groups/stabilizer-lie-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "1b02884ebeaf7699e49708d1bd52faa181e2002e90ca706033ddbe8400973429",
-      "evidence": "Full source read and checked: the core defines Stabilizer (isotropy subgroup) in a Lie group action from its stated hypotheses; direct core inputs are fiber-bundles/lie-group, lie-groups/smooth-action-lie-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The stabilizer definition and closed-subgroup conclusion use Lie group, smooth action, closed subgroup/theorem, Lie subgroup, and the orbit-action framework; homogeneous-space and Lie-algebra sections are consequences.",
       "previous_prerequisites": [
         "fiber-bundles/lie-group",
         "lie-groups/smooth-action-lie-group",
@@ -3924,7 +3922,7 @@
       "id": "lie-groups/standard-module-real-reductive-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "d52f91a517c331bd9c8360242d808b7416ea00319ee9e5b111384fd36d595da0",
-      "evidence": "Full source read and checked: the core defines Standard module of a real reductive group from its stated hypotheses; direct core inputs are lie-groups/real-reductive-lie-group, lie-groups/langlands-decomposition-of-a-parabolic, lie-groups/positive-root, lie-groups/normalized-parabolic-induction. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The standard module is formed from real reductive group, Langlands decomposition, positive roots, and normalized parabolic induction; Langlands quotient is a later classification consequence.",
       "previous_prerequisites": [
         "lie-groups/real-reductive-lie-group",
         "lie-groups/langlands-decomposition-of-a-parabolic",
@@ -3942,7 +3940,7 @@
       "id": "lie-groups/standard-sl5-in-e7",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a313c6c2221906973586e58eff59f28178f9c384758c450b9bddfd93b4a634a4",
-      "evidence": "Full source read and checked: the core defines Standard sl5 in e7 from its stated hypotheses; direct core inputs are mathematical-physics/standard-model-lie-algebra, lie-groups/standard-sl6-in-e7, lie-groups/lie-subalgebra, lie-groups/regular-lie-subalgebra. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The containment and regularity theorem uses the Standard Model algebra, standard sl6, Lie subalgebra, and regular-subalgebra targets; root construction and representation restrictions provide later details.",
       "previous_prerequisites": [
         "mathematical-physics/standard-model-lie-algebra",
         "lie-groups/standard-sl6-in-e7",
@@ -3960,7 +3958,7 @@
       "id": "lie-groups/standard-sl6-in-e7",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a9e5e1b2ca12b37d641ebac4cd9560027f72ff4eb2947d9bd883caa4da7dc809",
-      "evidence": "Full source read and checked: the core defines Standard sl6 in e7 from its stated hypotheses; direct core inputs are lie-groups/good-standard-model-embedding-in-e7, lie-groups/generation-sl3-in-e7, lie-groups/mutual-centralizers-in-a-lie-algebra, lie-groups/maximal-lie-subalgebra. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The centralizer theorem is based on the good embedding, generation sl3, mutual-centralizer, and maximal-subalgebra targets; root projection and branching sections elaborate the result.",
       "previous_prerequisites": [
         "lie-groups/good-standard-model-embedding-in-e7",
         "lie-groups/generation-sl3-in-e7",
@@ -3978,7 +3976,7 @@
       "id": "lie-groups/stone-theorem-one-parameter-unitary-groups",
       "outcome": "reviewed_unchanged",
       "source_sha256": "50dc83a09fbffb8b0c29fed2d5a6ae71e815e964ac451dc58d1f9f04833c3484",
-      "evidence": "Full source read and checked: the core defines Stone's theorem for one-parameter unitary groups from its stated hypotheses; direct core inputs are lie-groups/strongly-continuous-unitary-representation, lie-groups/one-parameter-subgroup, functional-analysis/self-adjoint-unbounded-operator. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. Stone’s theorem directly uses strong continuity, one-parameter groups, and self-adjoint unbounded operators; the representation-of-a-Lie-group equivalence is part of the setup.",
       "previous_prerequisites": [
         "lie-groups/strongly-continuous-unitary-representation",
         "lie-groups/one-parameter-subgroup",
@@ -3994,7 +3992,7 @@
       "id": "lie-groups/strongly-continuous-unitary-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "660cf66d5cf371e261761b6239db0e7421c725313ba750c5e567c2d347234cdf",
-      "evidence": "Full source read and checked: the core defines Strongly continuous unitary representation from its stated hypotheses; direct core inputs are topology/topological-group, linear-algebra/hilbert-space, algebra-groups/group-homomorphism, fiber-bundles/orbit-map, linear-algebra/operator-norm, linear-algebra/inner-product. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The definition combines topological group, Hilbert space, group homomorphism, orbit map, operator norm, and inner product; weak/strong equivalence and generator material are consequences.",
       "previous_prerequisites": [
         "topology/topological-group",
         "linear-algebra/hilbert-space",
@@ -4016,7 +4014,7 @@
       "id": "lie-groups/subrepresentation-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "c537ba0c5271d85233404bcc44af0778505563ef0b689387963d879a35f2701d",
-      "evidence": "Full source read and checked: the core defines Subrepresentation of a Lie algebra from its stated hypotheses; direct core inputs are lie-groups/representation-of-a-lie-algebra. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The invariant-subspace definition is exactly a representation of a Lie algebra on a vector space; quotient and complete-reducibility remarks are downstream.",
       "previous_prerequisites": [
         "lie-groups/representation-of-a-lie-algebra"
       ],
@@ -4028,7 +4026,7 @@
       "id": "lie-groups/symplectic-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "19bad7f6bc5f3501d5231903b2ae1ca48f7b536f283b1c9eca50af7210a79a07",
-      "evidence": "Full source read and checked: the core defines Symplectic group from its stated hypotheses; direct core inputs are lie-groups/general-linear-group, lie-groups/closed-subgroup-theorem. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The matrix preservation equation defines a closed subgroup of the general linear group, with the closed-subgroup theorem giving its Lie-group structure; Lie algebra and root references follow.",
       "previous_prerequisites": [
         "lie-groups/general-linear-group",
         "lie-groups/closed-subgroup-theorem"
@@ -4042,7 +4040,7 @@
       "id": "lie-groups/symplectic-group-spk",
       "outcome": "reviewed_unchanged",
       "source_sha256": "67cdd3c887eb548995a9e11b90d87ef0eb6d1fb7c4deb3d936b2fc564ab8217a",
-      "evidence": "Full source read and checked: the core defines Symplectic Group Sp(K) from its stated hypotheses; direct core inputs are functional-analysis/symplectic-hilbert-space, linear-algebra/linear-operator, lie-groups/symplectic-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The bounded real symplectic group is defined relative to a symplectic Hilbert space; Weyl and restricted-subgroup remarks are applications.",
       "previous_prerequisites": [
         "functional-analysis/symplectic-hilbert-space"
       ],
@@ -4054,7 +4052,7 @@
       "id": "lie-groups/symplectic-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "de3b26639f8235a48a4fbca132911902ebd75726af9bbf75e6f27e4e2ab4ab68",
-      "evidence": "Full source read and checked: the core defines Symplectic Lie algebra from its stated hypotheses; direct core inputs are fiber-bundles/lie-bracket, lie-groups/symplectic-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The matrix condition and commutator bracket use the Lie bracket and symplectic group targets; simplicity, roots, and Killing-form statements are structural consequences.",
       "previous_prerequisites": [
         "fiber-bundles/lie-bracket",
         "lie-groups/symplectic-group"
@@ -4068,7 +4066,7 @@
       "id": "lie-groups/tensor-product-of-representations-lie",
       "outcome": "reviewed_unchanged",
       "source_sha256": "3e4b47098acf8148774a7addf7d92603a05a5257733e7a5f4c739a7ba5ec957a",
-      "evidence": "Full source read and checked: the core defines Tensor product of representations from its stated hypotheses; direct core inputs are lie-groups/representation-of-a-lie-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The group tensor product is defined from a representation of a Lie group, while the Lie-algebra version invokes the corresponding representation and homomorphism concepts; weights are later behavior.",
       "previous_prerequisites": [
         "lie-groups/representation-of-a-lie-group"
       ],
@@ -4080,7 +4078,7 @@
       "id": "lie-groups/tfae-nilpotency-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "691887fcf2d30684f7060626dcaf3861684d29ef54d3f568a00a908cbb78a523",
-      "evidence": "Full source read and checked: the core defines Equivalent characterizations of nilpotency for Lie algebras from its stated hypotheses; direct core inputs are lie-groups/lower-central-series-lie-algebra, lie-groups/nilpotent-lie-algebra, lie-groups/adjoint-representation-of-a-lie-algebra, lie-groups/ados-theorem. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The equivalences explicitly use lower central series, nilpotent algebra, adjoint representation, and Ado’s theorem; triangular examples and nilpotent-solvable comparison are supporting context.",
       "previous_prerequisites": [
         "lie-groups/lower-central-series-lie-algebra",
         "lie-groups/nilpotent-lie-algebra",
@@ -4098,7 +4096,7 @@
       "id": "lie-groups/tfae-semisimplicity-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "12dfcffb2d0bdd3916ef640194401638c499cc49e176e977d7153435e432ccf7",
-      "evidence": "Full source read and checked: the core defines Equivalent characterizations of semisimplicity for Lie algebras from its stated hypotheses; direct core inputs are lie-groups/semisimple-lie-algebra, lie-groups/killing-form, lie-groups/killing-form-nondegenerate-iff-semisimple, lie-groups/direct-sum-of-lie-algebras, lie-groups/simple-lie-algebra, lie-groups/semisimple-direct-sum-simple. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The equivalences are organized by semisimple algebra, Killing form, direct sums, simple algebras, and the semisimple-direct-sum theorem; Weyl and Cartan criteria are comparisons.",
       "previous_prerequisites": [
         "lie-groups/semisimple-lie-algebra",
         "lie-groups/killing-form",
@@ -4120,7 +4118,7 @@
       "id": "lie-groups/tfae-solvability-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "d7cf1d3da486fca78e1eccc5d115b471cb506b6b7bcc4aaf7594b3f60e6f52a9",
-      "evidence": "Full source read and checked: the core defines Equivalent characterizations of solvability for Lie algebras from its stated hypotheses; direct core inputs are lie-groups/derived-series-lie-algebra, lie-groups/solvable-lie-algebra, lie-groups/ados-theorem, lie-groups/example-upper-triangular, lie-groups/cartans-criterion-solvability. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The equivalences use derived series, solvable algebra, Ado, upper-triangular examples, and Cartan’s criterion; the nilpotent implication is a later comparison.",
       "previous_prerequisites": [
         "lie-groups/derived-series-lie-algebra",
         "lie-groups/solvable-lie-algebra",
@@ -4140,7 +4138,7 @@
       "id": "lie-groups/thirty-dimensional-generation-module-in-e7",
       "outcome": "reviewed_unchanged",
       "source_sha256": "124fef558eefa8e94535e63ba90d50142851a1cafdcd2d822b398facf4e41693",
-      "evidence": "Full source read and checked: the core defines Thirty-dimensional generation module in e7 from its stated hypotheses; direct core inputs are lie-groups/generation-plane, lie-groups/exterior-power-representation, lie-groups/representation-of-a-lie-algebra, lie-groups/lie-subalgebra. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The root-projection module and its exterior-power decomposition use generation plane, exterior-power representation, Lie-algebra representation, and Lie subalgebra targets; restriction details are later.",
       "previous_prerequisites": [
         "lie-groups/generation-plane",
         "lie-groups/exterior-power-representation",
@@ -4158,7 +4156,7 @@
       "id": "lie-groups/three-d6-subsystems-in-e7",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f9d7be4ab34c43c8aed0a912197aeea15b2203efb14d87ea91dbd5aedc39ece2",
-      "evidence": "Full source read and checked: the core defines Three D6 subsystems in E7 from its stated hypotheses; direct core inputs are lie-groups/generation-sl2-subalgebras, lie-groups/root-subsystem, lie-groups/type-d-root-system, lie-groups/regular-lie-subalgebra, lie-groups/complex-lie-algebra-so12. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The D6 construction uses generation sl2 subalgebras, root subsystems, type D roots, regular subalgebras, and so12; projection and maximal-rank remarks elaborate it.",
       "previous_prerequisites": [
         "lie-groups/generation-sl2-subalgebras",
         "lie-groups/root-subsystem",
@@ -4178,7 +4176,7 @@
       "id": "lie-groups/three-generation-decomposition-of-e7",
       "outcome": "reviewed_unchanged",
       "source_sha256": "07a3c464d5a5c0f1be882c972fed4c667818299c588786a9a7c2e30140aa5b43",
-      "evidence": "Full source read and checked: the core defines Three-generation decomposition of e7 from its stated hypotheses; direct core inputs are lie-groups/cartan-subalgebra, lie-groups/generation-module-as-even-exterior-algebra. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The direct-sum theorem starts from the Cartan subalgebra and even-exterior generation module; root branching, vector-space, and intersection statements explain the decomposition.",
       "previous_prerequisites": [
         "lie-groups/cartan-subalgebra",
         "lie-groups/generation-module-as-even-exterior-algebra"
@@ -4190,25 +4188,28 @@
     },
     {
       "id": "lie-groups/transitive-action-lie",
-      "outcome": "reviewed_unchanged",
-      "source_sha256": "c15abbd614902d81c690de43d84d10282e27f262c2a76c25119606bf30617eda",
-      "evidence": "Full source read and checked: the core defines Transitive Lie group action from its stated hypotheses; direct core inputs are the local notation and hypotheses. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "outcome": "corrected",
+      "source_sha256": "1338debc69895cde0c484a9256b69f48b094cc7fe8e7628d41d98d71b7a68111",
+      "evidence": "Full source and every listed prerequisite target were read. The homogeneous-space characterization requires Lie group, smooth manifold/action, stabilizer, orbit, and homogeneous-space targets; the prior group-action/stabilizer target scopes were corrected.",
       "previous_prerequisites": [
         "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
         "fiber-bundles/orbit-of-a-group-action",
         "algebra-groups/stabilizer"
       ],
       "prerequisites": [
-        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
-        "fiber-bundles/orbit-of-a-group-action",
-        "algebra-groups/stabilizer"
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "lie-groups/smooth-action-lie-group",
+        "lie-groups/stabilizer-lie-group",
+        "lie-groups/orbit-lie-group",
+        "lie-groups/homogeneous-space"
       ]
     },
     {
       "id": "lie-groups/transitivity-on-real-grassmannians",
       "outcome": "reviewed_unchanged",
       "source_sha256": "3ac3ffdcf43f9147e99ab71e32b5108f34184273ce22e3d407f7eeaeda586d8f",
-      "evidence": "Full source read and checked: the core defines Transitivity on real Grassmannians from its stated hypotheses; direct core inputs are lie-groups/orthogonal-group, differential-geometry/grassmannian, lie-groups/special-orthogonal-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The transitivity theorem uses orthogonal group, Grassmannian, and special orthogonal group; orthonormal bases, complements, and component details support the proof.",
       "previous_prerequisites": [
         "lie-groups/orthogonal-group",
         "differential-geometry/grassmannian",
@@ -4224,7 +4225,7 @@
       "id": "lie-groups/type-a-root-system",
       "outcome": "reviewed_unchanged",
       "source_sha256": "d62b44745ef2fc76fa59c4c4f4ac52b475a31f443e691a306bb30df73159bd48",
-      "evidence": "Full source read and checked: the core defines Type A root system from its stated hypotheses; direct core inputs are linear-algebra/euclidean-space, lie-groups/simply-laced-root-system. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The coordinate construction uses Euclidean space and simply-laced root system; simple roots, Dynkin, Weyl, and Lie-algebra realizations are later structure.",
       "previous_prerequisites": [
         "linear-algebra/euclidean-space",
         "lie-groups/simply-laced-root-system"
@@ -4238,7 +4239,7 @@
       "id": "lie-groups/type-d-root-system",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e549970436417907209c2035d94db64865db51d071e384c6e61d2a26dd7eaa0a",
-      "evidence": "Full source read and checked: the core defines Type D root system from its stated hypotheses; direct core inputs are lie-groups/simply-laced-root-system. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The coordinate construction uses the simply-laced root-system target; Dynkin, Weyl, root-system, and orthogonal Lie-algebra identifications are consequences.",
       "previous_prerequisites": [
         "lie-groups/simply-laced-root-system"
       ],
@@ -4250,7 +4251,7 @@
       "id": "lie-groups/underlying-real-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "8558d11bb15af8b3bb877986496aa0fe4e898c90d72cde858cc2b088902b899d",
-      "evidence": "Full source read and checked: the core defines Underlying real Lie algebra from its stated hypotheses; direct core inputs are lie-groups/lie-algebra, linear-algebra/realification-of-a-complex-vector-space, lie-groups/lie-algebra-homomorphism. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The construction is scalar restriction of a complex Lie algebra and uses realification and Lie-algebra homomorphism targets; complexification is explicitly comparison material.",
       "previous_prerequisites": [
         "lie-groups/lie-algebra",
         "linear-algebra/realification-of-a-complex-vector-space",
@@ -4266,7 +4267,7 @@
       "id": "lie-groups/underlying-real-lie-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "72c612027c1723abebb83c36e4c5983f59c3138165d9425c25566171e3249c3c",
-      "evidence": "Full source read and checked: the core defines Underlying real Lie group from its stated hypotheses; direct core inputs are lie-groups/complex-lie-group, differential-geometry/complex-manifold, algebra-groups/group-homomorphism. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The construction forgets complex charts while retaining group operations, using complex Lie group, complex manifold, and group homomorphism targets; tangent and Weil-restriction remarks are context.",
       "previous_prerequisites": [
         "lie-groups/complex-lie-group",
         "differential-geometry/complex-manifold",
@@ -4282,7 +4283,7 @@
       "id": "lie-groups/unitary-dual-of-an-abelian-lie-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "d31f6919a602ebd287c37a30b434b6f9e683a3af4d7a1cdb2d3b1ab2ccbe2d6f",
-      "evidence": "Full source read and checked: the core defines Unitary dual of an abelian Lie group from its stated hypotheses; direct core inputs are lie-groups/abelian-lie-group, lie-groups/strongly-continuous-unitary-representation, linear-algebra/hilbert-space, harmonic-analysis/unitary-character, lie-groups/connected-abelian-lie-group-structure, harmonic-analysis/unitary-dual. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The character classification uses abelian Lie group, strongly continuous unitary representation, Hilbert space, unitary character, connected-abelian structure, and unitary dual targets.",
       "previous_prerequisites": [
         "lie-groups/abelian-lie-group",
         "lie-groups/strongly-continuous-unitary-representation",
@@ -4304,7 +4305,7 @@
       "id": "lie-groups/unitary-equivalence-of-representations",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f2359ce18db9be5647128e068208d3393adfec39e4b858b9ed37770a7c10c988",
-      "evidence": "Full source read and checked: the core defines Unitary equivalence of representations from its stated hypotheses; direct core inputs are lie-groups/strongly-continuous-unitary-representation, topology/topological-group, functional-analysis/unitary-operator, lie-groups/intertwining-operator-unitary-representations, linear-algebra/inner-product. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The intertwining definition uses strongly continuous representations, topological group, unitary operator, intertwiner, and inner product; invariants and dual-space remarks follow.",
       "previous_prerequisites": [
         "lie-groups/strongly-continuous-unitary-representation",
         "topology/topological-group",
@@ -4324,7 +4325,7 @@
       "id": "lie-groups/unitary-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "38e279b2baf76da6af29d557d466a719c97ce8f449e10050b3c5c9f03292f1d5",
-      "evidence": "Full source read and checked: the core defines Unitary group \\\\(U(n)\\\\) from its stated hypotheses; direct core inputs are lie-groups/general-linear-group, lie-groups/closed-subgroup-theorem, lie-groups/compact-lie-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The unitary matrix definition and Lie-group structure use general linear group, closed-subgroup theorem, and compact Lie group; SU, U(1), and Lie-algebra sections are consequences.",
       "previous_prerequisites": [
         "lie-groups/general-linear-group",
         "lie-groups/closed-subgroup-theorem",
@@ -4340,7 +4341,7 @@
       "id": "lie-groups/unitary-lie-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b1baf157e6968ad09cb4fef3aa0de0b9cd3bbd908917c2a41ba5d842aa092580",
-      "evidence": "Full source read and checked: the core defines Unitary Lie algebra from its stated hypotheses; direct core inputs are lie-groups/unitary-group. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The skew-Hermitian matrix Lie algebra is defined from the unitary group; derived subalgebra, SU, center, and reductivity are later structure.",
       "previous_prerequisites": [
         "lie-groups/unitary-group"
       ],
@@ -4352,7 +4353,7 @@
       "id": "lie-groups/universal-enveloping-algebra",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5f603cd36262e754b4ba2db2bd4343aa8fa455173226dd3236acfc88e2f38fa0",
-      "evidence": "Full source read and checked: the core defines Universal enveloping algebra of a Lie algebra from its stated hypotheses; direct core inputs are lie-groups/lie-algebra, algebra-rings/field, algebra-modules/algebra-over-ring, algebra-modules/algebra-homomorphism. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The universal property requires Lie algebra, field, algebra-over-ring, and algebra-homomorphism targets; PBW and abelian examples are consequences.",
       "previous_prerequisites": [
         "lie-groups/lie-algebra",
         "algebra-rings/field",
@@ -4370,7 +4371,7 @@
       "id": "lie-groups/universal-enveloping-algebra-action-on-smooth-vectors",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f2fc28201549526e95928be43dbddf94c357479bfeea85ce92263e5a3d28f680",
-      "evidence": "Full source read and checked: the core defines Universal enveloping algebra action on smooth vectors from its stated hypotheses; direct core inputs are fiber-bundles/lie-group, lie-groups/lie-algebra, lie-groups/strongly-continuous-unitary-representation, lie-groups/derived-representation-on-smooth-vectors, algebra-modules/algebra-homomorphism. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The extension of the derived representation uses Lie group, Lie algebra, strongly continuous representation, derived representation, and algebra homomorphism targets; group-action and enveloping definitions are explanatory.",
       "previous_prerequisites": [
         "fiber-bundles/lie-group",
         "lie-groups/lie-algebra",
@@ -4390,7 +4391,7 @@
       "id": "lie-groups/weak-continuity",
       "outcome": "reviewed_unchanged",
       "source_sha256": "470c526062daefe971970ca7762113c1b3a38aaefabe39bb35bcbb397ce74cfa",
-      "evidence": "Full source read and checked: the core defines Weak Continuity of a Representation from its stated hypotheses; direct core inputs are the local notation and hypotheses. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The paper-specific weak-continuity definition is formulated for Hilbert-space matrix coefficients, with strong continuity appearing only as an example; the single Hilbert-space prerequisite is sufficient.",
       "previous_prerequisites": [
         "linear-algebra/hilbert-space"
       ],
@@ -4402,7 +4403,7 @@
       "id": "lie-groups/weak-strong-continuity-equivalence-unitary-representations",
       "outcome": "reviewed_unchanged",
       "source_sha256": "10568f347dc4ae050e21716155025c11ba547286f514d8e0ab87e2c6f50840aa",
-      "evidence": "Full source read and checked: the core defines Weak and strong continuity for unitary representations from its stated hypotheses; direct core inputs are topology/topological-group, algebra-groups/group-homomorphism, linear-algebra/hilbert-space, lie-groups/strongly-continuous-unitary-representation, harmonic-analysis/coefficient-function, operator-algebras/weak-operator-topology, operator-algebras/strong-operator-topology. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The equivalence theorem uses topological group, group homomorphism, Hilbert space, strong continuity, coefficient functions, and weak/strong operator topologies; orbit and weak-containment references are explanatory.",
       "previous_prerequisites": [
         "topology/topological-group",
         "algebra-groups/group-homomorphism",
@@ -4426,7 +4427,7 @@
       "id": "lie-groups/weakly-continuous-unitary-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "b91bf44a6904e3962378b004971a282200abf5cbb612755e2b8452a3ab9d40ad",
-      "evidence": "Full source read and checked: the core defines Weakly continuous unitary representation from its stated hypotheses; direct core inputs are topology/topological-group, linear-algebra/hilbert-space, algebra-groups/group-homomorphism, harmonic-analysis/coefficient-function, operator-algebras/weak-operator-topology, lie-groups/weak-strong-continuity-equivalence-unitary-representations, lie-groups/strongly-continuous-unitary-representation. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The definition uses topological group, Hilbert space, group homomorphism, coefficient function, weak-operator topology, and the weak/strong equivalence theorem; strong continuity is the resulting equivalent condition.",
       "previous_prerequisites": [
         "topology/topological-group",
         "linear-algebra/hilbert-space",
@@ -4450,7 +4451,7 @@
       "id": "lie-groups/weight-lattice",
       "outcome": "reviewed_unchanged",
       "source_sha256": "81d1f07f83de154bebecd8c94a191c556576d0966073b474a5bcc2bb8720330a",
-      "evidence": "Full source read and checked: the core defines Weight lattice from its stated hypotheses; direct core inputs are lie-groups/root-system, lie-groups/simple-root. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The lattice definition uses root system and simple roots; dominant-weight, highest-weight, and representation classifications are later consequences.",
       "previous_prerequisites": [
         "lie-groups/root-system",
         "lie-groups/simple-root"
@@ -4464,7 +4465,7 @@
       "id": "lie-groups/weight-of-a-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "033feecfdd13a97cc071b62509ad4ca953e4b49ae265d6715cb7aa8f87508499",
-      "evidence": "Full source read and checked: the core defines Weight of a representation from its stated hypotheses; direct core inputs are lie-groups/semisimple-lie-algebra, lie-groups/cartan-subalgebra, lie-groups/weight-space. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The weight-space definition uses semisimple Lie algebra, Cartan subalgebra, and weight space; dual-Cartan and highest-weight material is contextual.",
       "previous_prerequisites": [
         "lie-groups/semisimple-lie-algebra",
         "lie-groups/cartan-subalgebra",
@@ -4480,7 +4481,7 @@
       "id": "lie-groups/weight-space",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5644d8a2e86c94a622d73ab41c5240f31588c160a616fb794e9d274b0d62020b",
-      "evidence": "Full source read and checked: the core defines Weight space from its stated hypotheses; direct core inputs are lie-groups/weight-of-a-representation. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The weight-space definition uses a Lie-algebra representation and Cartan subalgebra; root-space shifts and complete reducibility are later applications.",
       "previous_prerequisites": [
         "lie-groups/representation-of-a-lie-algebra",
         "lie-groups/cartan-subalgebra"
@@ -4494,7 +4495,7 @@
       "id": "lie-groups/weights-in-dual-cartan",
       "outcome": "reviewed_unchanged",
       "source_sha256": "93c78baf94f55100a75594edc6faa38de79a3f3304226d1a6c0efdbbed617439",
-      "evidence": "Full source read and checked: the core defines Weights in the dual Cartan from its stated hypotheses; direct core inputs are lie-groups/cartan-subalgebra, lie-groups/weight-of-a-representation, lie-groups/root-system. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The ambient dual-Cartan definition uses Cartan subalgebra, weight, and root system; simple roots, Weyl group, and highest-weight discussion extends it.",
       "previous_prerequisites": [
         "lie-groups/cartan-subalgebra",
         "lie-groups/weight-of-a-representation",
@@ -4510,7 +4511,7 @@
       "id": "lie-groups/weights-of-the-defining-sl3-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "2e1dbf24e4db1f86f4dd0f153512aed8ad9d392c101dad0cd3783e0e32fbfa84",
-      "evidence": "Full source read and checked: the core defines Weights of the defining sl₃-representation from its stated hypotheses; direct core inputs are lie-groups/defining-representation-of-a-classical-lie-algebra, lie-groups/cartan-subalgebra, lie-groups/weight-of-a-representation. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The explicit diagonal action uses defining representation, Cartan, and weight targets; simple/positive roots, highest weights, and Weyl data interpret the computed weights.",
       "previous_prerequisites": [
         "lie-groups/defining-representation-of-a-classical-lie-algebra",
         "lie-groups/cartan-subalgebra",
@@ -4526,7 +4527,7 @@
       "id": "lie-groups/weyl-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "917a0f56d9210d1694ab05ea98d5c7c2435f63001f0c4fe90f4598471634a8e0",
-      "evidence": "Full source read and checked: the core defines Weyl group from its stated hypotheses; direct core inputs are lie-groups/maximal-torus-theorem. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The normalizer quotient and reflection definition use maximal-torus theorem; roots, Cartan, simple/positive roots, and weight lattice describe its actions.",
       "previous_prerequisites": [
         "lie-groups/maximal-torus-theorem"
       ],
@@ -4538,7 +4539,7 @@
       "id": "lie-groups/weyls-theorem-complete-reducibility",
       "outcome": "reviewed_unchanged",
       "source_sha256": "8c0711e395e27daa2355b50b28c01e66dd3330cbea124820ce71734d927a7f1a",
-      "evidence": "Full source read and checked: the core defines Weyl’s theorem on complete reducibility from its stated hypotheses; direct core inputs are lie-groups/completely-reducible-representation-lie, lie-groups/subrepresentation-lie-algebra. The remaining sections use linked concepts as consequences, examples, or comparisons, so the existing prerequisite list is retained.",
+      "evidence": "Full source and every listed prerequisite target were read. The theorem uses completely reducible representation and subrepresentation targets, with compact Lie groups supplying the group analogue; irreducible decompositions are equivalent formulation.",
       "previous_prerequisites": [
         "lie-groups/completely-reducible-representation-lie",
         "lie-groups/subrepresentation-lie-algebra"
@@ -4548,5 +4549,6 @@
         "lie-groups/subrepresentation-lie-algebra"
       ]
     }
-  ]
+  ],
+  "triage_records": []
 }

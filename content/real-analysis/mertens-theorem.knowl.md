@@ -6,7 +6,7 @@ summary = "A condition ensuring the Cauchy product of two series converges to th
 aliases = ["mertens-theorem", "Mertens' theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/mertens-theorem.md"
-prerequisites = ["real-analysis/cauchy-product"]
+prerequisites = ["real-analysis/cauchy-product", "real-analysis/convergent-series", "real-analysis/absolutely-convergent-series"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

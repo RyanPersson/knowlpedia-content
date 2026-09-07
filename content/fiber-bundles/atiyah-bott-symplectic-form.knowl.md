@@ -6,18 +6,18 @@ summary = "The gauge-invariant symplectic form on the affine space of connection
 aliases = ["symplectic form on the space of connections", "Atiyah–Bott form"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "linear-algebra/inner-product", "fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "differential-geometry/tangent-space"]
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "linear-algebra/inner-product", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/vector-bundle-valued-differential-form", "fiber-bundles/wedge-product-of-differential-forms", "differential-geometry/integration-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\Sigma\) be a closed oriented surface, let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] whose [[lie-groups/lie-algebra|Lie algebra]] has an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] \(\langle-,-\rangle\), and let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. The [[fiber-bundles/bundle-of-connections|space of connections]] \(\mathcal A(P)\) is affine with [[differential-geometry/tangent-space|tangent space]] \(\Omega^1(\Sigma;\operatorname{ad}P)\). Its **Atiyah–Bott symplectic form** is the constant two-form
+Let \(\Sigma\) be a closed oriented surface, let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] whose [[lie-groups/lie-algebra|Lie algebra]] has an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] \(\langle-,-\rangle\), and let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. The space \(\mathcal A(P)\) of [[fiber-bundles/principal-connection|principal connections]] is affine, modeled on the space \(\Omega^1(\Sigma;\operatorname{ad}P)\) of [[fiber-bundles/vector-bundle-valued-differential-form|adjoint-bundle-valued one-forms]]. Thus each tangent space to \(\mathcal A(P)\) is this vector space. Its **Atiyah–Bott symplectic form** is the constant two-form
 \[
 \omega_A(a,b)=\int_\Sigma\langle a\wedge b\rangle,
 \qquad
 a,b\in T_A\mathcal A(P).
 \]
-Here the coefficient pairing and wedge product produce an ordinary two-form. Orientation defines the integral, while compactness makes it finite without support conditions.
+Here the coefficient pairing and [[fiber-bundles/wedge-product-of-differential-forms|wedge product]] produce an ordinary two-form. Orientation defines [[differential-geometry/integration-of-differential-forms|its integral]], while compactness makes it finite without support conditions.
 
 ## Why the form is symplectic
 

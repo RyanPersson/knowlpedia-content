@@ -6,7 +6,7 @@ summary = "Every bounded monotone real sequence converges, with limit given by a
 aliases = ["monotone-sequence-convergence-theorem", "Monotone Sequence Convergence Theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/monotone-sequence-convergence-theorem.md"
-prerequisites = ["real-analysis/monotone-sequence", "real-analysis/bounded-above", "real-analysis/bounded-below"]
+prerequisites = ["real-analysis/monotone-sequence", "real-analysis/bounded-above", "real-analysis/bounded-below", "real-analysis/supremum", "real-analysis/infimum", "real-analysis/completeness-axiom"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

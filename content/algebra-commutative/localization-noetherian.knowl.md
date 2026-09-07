@@ -6,12 +6,12 @@ summary = "If a ring is Noetherian, then any localization at a multiplicative se
 aliases = ["localization-noetherian", "Localization preserves Noetherian rings"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/localization-noetherian.md"
-prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set"]
+prerequisites = ["algebra-commutative/noetherian-ring", "algebra-commutative/multiplicative-set", "algebra-modules/module", "algebra-modules/noetherian-module", "algebra-commutative/localization-ring", "algebra-commutative/localization-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(R\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \(S\subseteq R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. Then the localized ring
+Let \(R\) be a [[algebra-commutative/noetherian-ring|commutative Noetherian ring]] and let \(S\subseteq R\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. Then the localized ring
 \[
 S^{-1}R
 \]
@@ -26,8 +26,4 @@ More generally, if \(M\) is a Noetherian \(R\)-module, then \(S^{-1}M\) is a Noe
 
 ## Remarks
 
-The converse fails: \(k[x_1,x_2,\ldots]_{x_1}\) is not Noetherian, since
-\[
-(x_2)\subsetneq(x_2,x_3)\subsetneq\cdots
-\]
-is an infinite ascending chain of ideals. The preservation theorem is often used together with [[algebra-commutative/localization-exact|exactness of localization]].
+The converse fails: a localization can be Noetherian even when its source is not. Let \(R=k[x_1,x_2,\ldots]\), which has the infinite ascending chain \( (x_1)\subsetneq(x_1,x_2)\subsetneq\cdots \) of ideals, and localize at all nonzero elements. The resulting fraction field \(\operatorname{Frac}(R)\) is a field, hence Noetherian. The preservation theorem is often used together with [[algebra-commutative/localization-exact|exactness of localization]].

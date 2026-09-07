@@ -6,7 +6,7 @@ summary = "A ring in which descending chains of ideals stabilize."
 aliases = ["artinian-ring", "Artinian ring"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/artinian-ring.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/noetherian-ring", "algebra-commutative/krull-dimension", "algebra-commutative/maximal-spectrum", "algebra-commutative/jacobson-radical-intersection-maximals"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "The principal SU(n)-bundle of unitary frames calibrated by a chosen u
 aliases = ["special-unitary-frame-bundle-reduction", "Special unitary frame bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/special-unitary-frame-bundle-reduction.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/nowhere-vanishing-section", "fiber-bundles/unitary-frame-bundle-reduction"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/nowhere-vanishing-section", "fiber-bundles/unitary-frame-bundle-reduction", "fiber-bundles/exterior-power-bundle", "fiber-bundles/line-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

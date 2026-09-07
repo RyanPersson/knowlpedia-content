@@ -6,7 +6,7 @@ summary = "A function continuous on a closed interval is Riemann integrable."
 aliases = ["riemann-integral-continuous-exists", "Continuous functions are Riemann integrable"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/riemann-integral-continuous-exists.md"
-prerequisites = ["topology/continuous-map", "real-analysis/riemann-integrable-function", "real-analysis/riemann-integral"]
+prerequisites = ["topology/continuous-map", "real-analysis/riemann-integrable-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

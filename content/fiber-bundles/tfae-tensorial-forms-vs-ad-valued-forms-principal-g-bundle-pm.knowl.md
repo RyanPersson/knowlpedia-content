@@ -6,7 +6,7 @@ summary = "Equivalence between horizontal equivariant Lie-algebra-valued forms o
 aliases = ["tfae-tensorial-forms-vs-ad-valued-forms-principal-g-bundle-pm", "Tensorial forms and ad(P)-valued forms"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-tensorial-forms-vs-ad-valued-forms-principal-g-bundle-pm.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/associated-vector-bundle", "fiber-bundles/differential-k-form"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/associated-vector-bundle", "fiber-bundles/differential-k-form", "fiber-bundles/lie-algebra-valued-k-form", "fiber-bundles/vector-bundle-valued-differential-form", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/differential-pushforward-of-a-smooth-map", "lie-groups/adjoint-action-of-a-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,7 +19,7 @@ The **[[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint bundle]
 \]
 where \(G\) acts on \(\mathfrak g\) by the adjoint representation \(\operatorname{Ad}\).
 
-A \(\mathfrak g\)-valued [[fiber-bundles/differential-k-form|differential k-form]] \(\omega\in\Omega^k(P;\mathfrak g)\) is called **tensorial of type \(\operatorname{Ad}\)** if it satisfies:
+For \(k\ge0\), a \(\mathfrak g\)-valued [[fiber-bundles/lie-algebra-valued-k-form|differential k-form]] \(\omega\in\Omega^k(P;\mathfrak g)\) is called **tensorial of type \(\operatorname{Ad}\)** if it satisfies:
 
 1. **Horizontality:** \(\omega_p(v_1,\dots,v_k)=0\) whenever at least one \(v_i\in\ker(d\pi_p)\) (i.e., a vertical tangent vector).
 2. **Equivariance:** for every \(g\in G\),
@@ -30,11 +30,12 @@ A \(\mathfrak g\)-valued [[fiber-bundles/differential-k-form|differential k-form
 
 Write \(\Omega^k_{\mathrm{tens}}(P;\mathfrak g)\) for the vector space of such tensorial forms.
 
-## Theorem (TFAE: tensorial forms vs ad(P)-valued forms)
 There is a natural vector space isomorphism
 \[
 \Omega^k_{\mathrm{tens}}(P;\mathfrak g)\;\cong\;\Omega^k\!\bigl(M;\operatorname{ad}(P)\bigr).
 \]
+
+## Explicit correspondence
 
 More explicitly:
 

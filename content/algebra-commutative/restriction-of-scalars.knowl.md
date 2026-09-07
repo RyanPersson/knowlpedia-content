@@ -6,7 +6,7 @@ summary = "Given a ring map R→S, any S-module can be regarded as an R-module b
 aliases = ["restriction-of-scalars", "Restriction of scalars"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/restriction-of-scalars.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-commutative/extension-of-scalars"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/module", "algebra-rings/ring-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -23,6 +23,8 @@ defined as follows:
   r\cdot m := \varphi(r)m \quad \text{for } r\in R,\ m\in M,
   \]
   where the multiplication on the right is the original \(S\)-module structure on \(M\).
+
+## Functorial properties
 
 This construction is functorial in \(M\) and defines a forgetful functor
 \[

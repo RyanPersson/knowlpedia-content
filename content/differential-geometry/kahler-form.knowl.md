@@ -6,7 +6,7 @@ summary = "A closed real positive form of type one-one on a complex manifold."
 aliases = ["fundamental form of a Kähler metric"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/differential-k-form"]
+prerequisites = ["differential-geometry/complex-manifold", "fiber-bundles/differential-k-form", "differential-geometry/symplectic-manifold"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

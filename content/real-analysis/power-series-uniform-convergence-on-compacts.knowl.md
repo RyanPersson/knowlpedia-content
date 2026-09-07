@@ -6,7 +6,7 @@ summary = "A power series converges uniformly (and absolutely) on every compact 
 aliases = ["power-series-uniform-convergence-on-compacts", "Uniform convergence of power series on compact sets"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/power-series-uniform-convergence-on-compacts.md"
-prerequisites = ["real-analysis/power-series"]
+prerequisites = ["real-analysis/power-series", "topology/compact-set", "real-analysis/uniform-convergence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

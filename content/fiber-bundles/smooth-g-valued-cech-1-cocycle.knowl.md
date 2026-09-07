@@ -6,15 +6,15 @@ summary = "Smooth transition functions on double overlaps satisfying the identit
 aliases = ["principal bundle Čech cocycle", "nonabelian transition cocycle", "G-valued 1-cocycle"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/cocycle-condition-for-transition-functions"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "topology/open-cover", "fiber-bundles/smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]], let
-\(\mathcal U=\{U_i\}_{i\in I}\) be an open cover, and let \(G\) be a
+\(\mathcal U=\{U_i\}_{i\in I}\) be an [[topology/open-cover|open cover]], and let \(G\) be a
 [[fiber-bundles/lie-group|Lie group]]. A **smooth \(G\)-valued Čech
-\(1\)-cocycle** on \(\mathcal U\) is a family of smooth maps
+\(1\)-cocycle** on \(\mathcal U\) is a family of [[fiber-bundles/smooth-map|smooth maps]]
 
 \[
 g_{ij}:U_i\cap U_j\longrightarrow G
@@ -30,9 +30,7 @@ g_{ji}=g_{ij}^{-1},
 g_{ik}=g_{ij}g_{jk}
 \]
 
-on every overlap on which the expressions are defined. The last equality is
-the [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle
-condition]] on triple intersections.
+on every overlap on which the expressions are defined. The last equality is the cocycle condition on triple intersections.
 
 ## From local sections
 

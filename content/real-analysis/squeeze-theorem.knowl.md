@@ -6,7 +6,7 @@ summary = "A sequence trapped between two sequences with the same limit has that
 aliases = ["squeeze-theorem", "Squeeze Theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/squeeze-theorem.md"
-prerequisites = ["real-analysis/limit-at-a-point"]
+prerequisites = ["shared-foundations/sequence", "topology/convergent-sequence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

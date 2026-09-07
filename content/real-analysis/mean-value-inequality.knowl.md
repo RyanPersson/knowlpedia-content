@@ -6,7 +6,7 @@ summary = "A bound on the change of a differentiable map using a bound on its de
 aliases = ["mean-value-inequality", "Mean value inequality"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/mean-value-inequality.md"
-prerequisites = ["linear-algebra/operator-norm"]
+prerequisites = ["topology/open-set", "real-analysis/differentiable-map", "linear-algebra/operator-norm"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "The set of elements whose some power lies in a given ideal."
 aliases = ["radical-of-ideal", "Radical of an ideal"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/radical-of-ideal.md"
-prerequisites = ["algebra-rings/ideal"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -1,0 +1,156 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af0c6a0eae98eb16905c06e8e2b34f012379e4cf51c832d239df5eced117b5d6",
+      "evidence": "Full section source maps definitions, bundle operations, connections, characteristic classes, and gauge theory; section kind is appropriate and empty prerequisites avoid artificial axioms.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/baez-e7-jordan-paper-expansion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ae275f0310ea5eae54eb6ef6f804402dfa9c089e2e44d6c77accadf67cd10d9a",
+      "evidence": "Full source is an ordered knowl expansion list for a paper; index kind matches navigation and no single concept is defined.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/charts-bundle-cocycles-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9bb2cdc64908d55619d3f2da501e063a470430a2260b9c7c4216940a9708c4d5",
+      "evidence": "Full source organizes chart, bundle, and cocycle entries as navigation; index kind is appropriate with no asserted prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/conjectures-new-knowls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "392c9059889e4bd37c1cb08ca2d5412840d0c90b29648e8f85921b279f232501",
+      "evidence": "Full source catalogs conjectural/new knowls rather than one theorem; index kind is appropriate and prerequisites are empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/galois-extensions-and-bundles-new-knowls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e4ea497a844d20231f32a4341ecc9d33df8e42f1725a11a35ce84256df59b06",
+      "evidence": "Full source catalogs entries across Galois extensions and bundles; index kind matches cross-subject navigation without artificial dependencies.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/galois-extensions-and-bundles-transcript",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36355171bfd3be80000e8fc2d77ea5b2618e8b4ca6f88128593f6216215d570c",
+      "evidence": "Full source is continuous transcript prose with source discussion and links, not a reusable definition; document kind is appropriate.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/july-26-additions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0dc7628c7d8f8f05562e508487a8248c7af493fbdab49c59b22f707d16eadcbc",
+      "evidence": "Full source is a dated additions list linking independent knowls; index kind is appropriate and no theorem hypotheses are asserted.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/july-30-additions-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5716fd755c489e214b089649e457eacab387860dc198985366811c2165d6597d",
+      "evidence": "Full source is a dated navigation list of additions; index kind matches its collection role and avoids artificial prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/quantum-chaos-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f549dd517d41dea2526ca90575ed2cd4b00b154ec23804aad0b63342c3cf928",
+      "evidence": "Full source orders geometric, Fourier, Beurling–Malliavin, FUP, and quantum-chaos entries; index kind maps dependencies rather than defining a concept.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/quaternionic-psh-convexity-expansion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d59338f1d789951d208e11f9410f555e23e1dff1e86c021c2897ebd8d466895f",
+      "evidence": "Full source structures classical, quaternionic, convex, HKT, and octonionic branches with scope cautions; index kind is appropriate with no artificial prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "knowlification/representation-theoretic-quantization-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "691fd668e51ae31e022b53ceabdc4a3eb987d8acdf1e5401142f2fb096ca8cd1",
+      "evidence": "Full source is a navigation index for representation-theoretic quantization topics; index kind fits and empty prerequisites avoid pretending its links are hypotheses.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "posts/research-advice-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8906f4f5ab06ddae6d2528affbcb96cdb849cad0d00ad0e04cf487ebe1a44ab5",
+      "evidence": "Full source is an essay-style article giving research advice and analysis; page kind is appropriate rather than definition/theorem.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "posts/semigroup-quasigroup-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa5a208cfa2168d23fc17ccc16217be885c152d63f88ee18781fc517c42cd340",
+      "evidence": "Full source is an expository post comparing semigroup and quasigroup structures; page kind fits the multi-concept narrative.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "harmonic-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3abb348e22626873260e6787c1b7c18eef41108dab0d469d15af79f3678ec8e3",
+      "evidence": "Full source is a subject map of harmonic-analysis knowls; section kind is appropriate with no artificial axioms.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "measure-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a69bf7f80e5d14493877da42d6f2a3e5c71fece1a6e6790e3ea86b073212b12",
+      "evidence": "Full source is a subject map of measure-theory knowls; section kind accurately identifies navigation rather than a single definition.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "probability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db8a8f973a14de80af4b5a2329d53ca64ad02ab914b729db6f9dec9c742df5fa",
+      "evidence": "Full source is a subject map of probability knowls; section kind is appropriate and prerequisites are organizationally empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "search",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b0c8a4f7361e17f8e2b1deebc273aac9bd85f09e3250ed5d6a7bce52df36dff",
+      "evidence": "Full source is a search/navigation page rather than a mathematical concept; page kind is appropriate and no prerequisites are needed.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "shale-paper",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3d37505d575c1e5fd6739bd51b6d76a9d2c340756af889f2d938dccfe8744cd9",
+      "evidence": "Full source is a paper-oriented subject section with grouped knowls; section kind fits the container role.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9897d167d1fc36668c1d16ec91f94df6f2758e82da2c311ad7b7df38e6c79efb",
+      "evidence": "Full source is a subject map organizing topology definitions and results; section kind is appropriate without artificial prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    }
+  ]
+}

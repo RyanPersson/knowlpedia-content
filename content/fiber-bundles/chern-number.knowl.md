@@ -6,29 +6,33 @@ summary = "An integer obtained by evaluating a top-degree monomial in Chern clas
 aliases = ["Chern characteristic number"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "topology/fundamental-class", "fiber-bundles/tangent-bundle"]
+prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/integral-chern-classes", "topology/cup-product-and-cohomology-ring", "topology/fundamental-class"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a closed oriented \(2n\)-manifold and let \(E\to M\) be a complex [[fiber-bundles/vector-bundle|vector bundle]]. For a partition \(\lambda=(\lambda_1,\ldots,\lambda_\ell)\) of \(n\), the associated **Chern number** is
+Let \(M\) be a closed oriented \(2n\)-manifold and let \(E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]]. For a partition \(\lambda=(\lambda_1,\ldots,\lambda_\ell)\) of \(n\), the associated **Chern number** is
 \[
 c_\lambda(E)[M]:=
 \left\langle
 c_{\lambda_1}(E)\smile\cdots\smile c_{\lambda_\ell}(E),
 [M]\right\rangle\in\mathbb Z.
 \]
-Here the product lies in \(H^{2n}(M;\mathbb Z)\) and \([M]\) is the [[topology/fundamental-class|fundamental class]]. A Chern number of an almost-complex or stably almost-complex manifold means this construction for its complex [[fiber-bundles/tangent-bundle|tangent bundle]] or stable tangent bundle.
+Here each \(c_j(E)\) is an [[fiber-bundles/integral-chern-classes|integral Chern class]], the multiplication is the [[topology/cup-product-and-cohomology-ring|cup product]], and the product lies in \(H^{2n}(M;\mathbb Z)\) and \([M]\) is the [[topology/fundamental-class|fundamental class]].
+
+## Tangent bundles
+
+A Chern number of an almost-complex or stably almost-complex manifold means this construction for its complex [[fiber-bundles/tangent-bundle|tangent bundle]] or stable tangent bundle.
 
 ## Relation to characteristic numbers
 
-Chern numbers are the integral [[fiber-bundles/characteristic-number|characteristic numbers]] built from [[fiber-bundles/chern-class|Chern classes]]. Only monomials of total complex degree \(n\) pair with \([M]\). Naturality of Chern classes shows that orientation-preserving bundle equivalences preserve the resulting integers.
+Chern numbers are the integral [[fiber-bundles/characteristic-number|characteristic numbers]] built from [[fiber-bundles/integral-chern-classes|Chern classes]]. Only monomials of total complex degree \(n\) pair with \([M]\). Naturality of Chern classes shows that orientation-preserving bundle equivalences preserve the resulting integers.
 
-For stably almost-complex manifolds, all Chern numbers are bordism invariants. Moreover, equality of all Chern numbers characterizes equality in complex bordism; this is a structure theorem, not part of the definition.
+For closed stably almost-complex manifolds, all Chern numbers are invariants of complex bordism. Moreover, equality of all Chern numbers characterizes equality in complex bordism; this is a structure theorem, not part of the definition.
 
 ## Example: complex projective space
 
-Let \(h\in H^2(\mathbb{CP}^n;\mathbb Z)\) be the positive generator with \(\langle h^n,[\mathbb{CP}^n]\rangle=1\). The Euler sequence gives
+For \(n\ge1\), let \(h\in H^2(\mathbb{CP}^n;\mathbb Z)\) be the positive generator with \(\langle h^n,[\mathbb{CP}^n]\rangle=1\). The Euler sequence gives
 \[
 c(T\mathbb{CP}^n)=(1+h)^{n+1}
 \]

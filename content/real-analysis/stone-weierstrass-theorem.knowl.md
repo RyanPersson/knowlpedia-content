@@ -6,7 +6,7 @@ summary = "A subalgebra of continuous functions on a compact space that separate
 aliases = ["stone-weierstrass-theorem", "Stone–Weierstrass theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/stone-weierstrass-theorem.md"
-prerequisites = ["topology/topological-space", "real-analysis/subalgebra-of-continuous-functions", "real-analysis/separates-points", "real-analysis/supremum-norm"]
+prerequisites = ["topology/topological-space", "topology/compact-set", "real-analysis/subalgebra-of-continuous-functions", "real-analysis/separates-points", "real-analysis/supremum-norm"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

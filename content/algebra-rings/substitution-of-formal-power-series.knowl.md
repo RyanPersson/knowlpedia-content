@@ -6,7 +6,7 @@ summary = "Composition f(g_1,...,g_n) defined adically when each substituted ser
 aliases = ["composition of formal power series", "formal power series substitution", "pointed formal substitution"]
 domains = ["algebra-rings", "formal-groups"]
 section_mode = "progressive"
-prerequisites = ["algebra-rings/formal-power-series-ring", "algebra-rings/multivariable-formal-power-series-ring"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/formal-power-series-ring", "algebra-rings/multivariable-formal-power-series-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

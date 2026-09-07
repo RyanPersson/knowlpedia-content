@@ -6,7 +6,7 @@ summary = "Every finite group of order p², for p prime, is abelian."
 aliases = ["p-squared-abelian", "Groups of order p^2 are abelian"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/p-squared-abelian.md"
-prerequisites = ["algebra-groups/group", "algebra-groups/p-group", "algebra-groups/center-of-group", "algebra-groups/quotient-group", "algebra-groups/prime-order-cyclic"]
+prerequisites = ["algebra-groups/group", "algebra-groups/p-group", "algebra-groups/center-of-group", "algebra-groups/quotient-group", "algebra-groups/prime-order-cyclic", "algebra-groups/abelian-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "A ring whose module theory is completely reducible; equivalently a fi
 aliases = ["semisimple-ring", "Semisimple ring"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/semisimple-ring.md"
-prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-modules/semisimple-module"]
+prerequisites = ["algebra-rings/ring", "algebra-rings/unital-ring", "algebra-modules/module", "algebra-modules/semisimple-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

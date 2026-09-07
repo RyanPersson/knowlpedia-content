@@ -6,7 +6,7 @@ summary = "Given a ring map R→S, the S-module S⊗_R M obtained from an R-modu
 aliases = ["extension-of-scalars", "Extension of scalars"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/extension-of-scalars.md"
-prerequisites = ["algebra-rings/commutative-ring", "linear-algebra/linear-map"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/module", "algebra-modules/tensor-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

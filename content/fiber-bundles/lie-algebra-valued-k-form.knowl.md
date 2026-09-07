@@ -6,17 +6,19 @@ summary = "A differential form whose values lie in a fixed Lie algebra."
 aliases = ["lie-algebra-valued-k-form", "Lie-algebra-valued k-form"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lie-algebra-valued-k-form.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "lie-groups/lie-algebra", "fiber-bundles/differential-k-form", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle"]
+prerequisites = ["fiber-bundles/smooth-manifold", "lie-groups/lie-algebra", "fiber-bundles/differential-k-form", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-valued-differential-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\) be fixed.
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and fix a finite-dimensional real or complex [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\).
 
-A **\(\mathfrak{g}\)-valued [[fiber-bundles/differential-k-form|differential k-form]]** on \(M\) is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the [[fiber-bundles/vector-bundle|vector bundle]]
+For \(k\ge0\), a **\(\mathfrak{g}\)-valued [[fiber-bundles/differential-k-form|differential k-form]]** on \(M\) is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the [[fiber-bundles/vector-bundle|vector bundle]]
 \[
 \Lambda^k T^*M \otimes \mathfrak{g} \;\longrightarrow\; M.
 \]
+
+Here the constant coefficient space means the trivial bundle \(M\times\mathfrak g\); equivalently, this is a [[fiber-bundles/vector-bundle-valued-differential-form|form with values in that bundle]].
 
 Concretely, choosing a basis \(\{e_a\}\) of \(\mathfrak{g}\), any \(\alpha\in\Omega^k(M;\mathfrak{g})\) can be written uniquely as
 \[

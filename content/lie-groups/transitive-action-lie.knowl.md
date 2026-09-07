@@ -6,7 +6,7 @@ summary = "A smooth Lie group action is transitive when it has a single orbit, m
 aliases = ["transitive-action-lie", "Transitive Lie group action"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/transitive-action-lie.md"
-prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/orbit-of-a-group-action", "algebra-groups/stabilizer"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-manifold", "lie-groups/smooth-action-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

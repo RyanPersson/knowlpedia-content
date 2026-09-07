@@ -6,7 +6,7 @@ summary = "A subbundle of the tangent bundle of a total space that complements t
 aliases = ["horizontal-subbundle", "Horizontal subbundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/horizontal-subbundle.md"
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vertical-subbundle"]
+prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/vertical-subbundle", "fiber-bundles/vector-subbundle", "convex-analysis/direct-sum-of-subspaces"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -21,6 +21,8 @@ be the vertical subbundle.
 \[
 T_eE = H_eE \oplus V_eE.
 \]
+
+## Connection interpretation
 
 A choice of horizontal subbundle is exactly the same data as an [[fiber-bundles/ehresmann-connection|Ehresmann connection]]. In particular, the restriction of \(d\pi_e\) to \(H_eE\) is an isomorphism \(H_eE\cong T_{\pi(e)}M\), which is what makes the [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift of a tangent vector]] well-defined and unique.
 

@@ -6,7 +6,7 @@ summary = "The nth cohomology H^n(C) = ker(d^n)/im(d^{n-1}) of a cochain complex
 aliases = ["cohomology-module", "Cohomology module"]
 domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/cohomology-module.md"
-prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/cochain-complex"]
+prerequisites = ["algebra-rings/ring", "algebra-modules/module", "algebra-homological/cochain-complex", "algebra-modules/kernel-module", "algebra-modules/image-module", "algebra-modules/quotient-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -27,6 +27,8 @@ Since \(d^{n}\circ d^{n-1}=0\), one has \(B^n(C^\bullet)\subseteq Z^n(C^\bullet)
 \[
 H^n(C^\bullet) := Z^n(C^\bullet) / B^n(C^\bullet).
 \]
+
+## Properties
 
 A cochain complex is exact (as a sequence of modules) iff all its cohomology modules vanish; see [[algebra-homological/exact-complex|exact complex]].
 

@@ -6,7 +6,7 @@ summary = "A Riemann integrable function on a closed interval must be bounded."
 aliases = ["riemann-integrability-implies-boundedness", "Riemann integrability implies boundedness"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/riemann-integrability-implies-boundedness.md"
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/bounded-above", "real-analysis/bounded-below", "real-analysis/riemann-integral", "real-analysis/upper-sum", "real-analysis/lower-sum", "real-analysis/partition-of-an-interval"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/bounded-above", "real-analysis/bounded-below"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

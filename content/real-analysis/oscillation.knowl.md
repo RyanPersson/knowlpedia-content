@@ -6,7 +6,7 @@ summary = "The amount a function varies on a set or interval."
 aliases = ["oscillation"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/oscillation.md"
-prerequisites = []
+prerequisites = ["shared-foundations/subset", "real-analysis/supremum", "real-analysis/infimum", "real-analysis/absolute-value"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

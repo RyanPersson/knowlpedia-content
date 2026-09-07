@@ -6,7 +6,7 @@ summary = "Taking local smooth sections is an equivalence from fixed-base vector
 aliases = ["sheaf-bundle equivalence", "vector bundles as locally free sheaves", "smooth locally free sheaf theorem"]
 domains = ["fiber-bundles", "differential-geometry", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebra-category-theory/equivalence-of-categories", "fiber-bundles/category-of-vector-bundles-over-a-manifold", "algebraic-geometry-foundations/locally-free-sheaf", "topology/connected-component"]
+prerequisites = ["algebra-category-theory/equivalence-of-categories", "fiber-bundles/category-of-vector-bundles-over-a-manifold", "algebraic-geometry-foundations/locally-free-sheaf", "topology/connected-component", "fiber-bundles/smooth-manifold", "fiber-bundles/sheaf-of-smooth-sections", "fiber-bundles/bundle-morphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

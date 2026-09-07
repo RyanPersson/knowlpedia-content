@@ -6,7 +6,7 @@ summary = "A limit taken from the left or from the right of a point."
 aliases = ["one-sided-limit", "One-sided limit"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/one-sided-limit.md"
-prerequisites = ["shared-foundations/function", "real-analysis/interval", "real-analysis/discontinuity-point"]
+prerequisites = ["shared-foundations/function", "real-analysis/interval", "topology/limit-point"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

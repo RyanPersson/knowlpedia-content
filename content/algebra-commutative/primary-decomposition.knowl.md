@@ -6,7 +6,7 @@ summary = "Expressing an ideal as an intersection of primary ideals, with existe
 aliases = ["primary-decomposition", "Primary decomposition"]
 domains = ["algebra-commutative"]
 legacy_source_path = "algebra-commutative/primary-decomposition.md"
-prerequisites = ["algebra-rings/commutative-ring"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal", "algebra-rings/primary-ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

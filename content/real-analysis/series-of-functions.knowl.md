@@ -6,7 +6,7 @@ summary = "An infinite sum of functions defined through its partial sums."
 aliases = ["series-of-functions", "Series of functions"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/series-of-functions.md"
-prerequisites = ["real-analysis/series", "shared-foundations/function"]
+prerequisites = ["real-analysis/series", "shared-foundations/function", "shared-foundations/sequence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

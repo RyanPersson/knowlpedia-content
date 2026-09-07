@@ -6,7 +6,7 @@ summary = "An H-invariant submanifold of a principal G-bundle that is itself a p
 aliases = ["principal-h-subbundle", "Principal H-subbundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/principal-h-subbundle.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/right-principal-action"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-subgroup", "fiber-bundles/right-principal-action"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

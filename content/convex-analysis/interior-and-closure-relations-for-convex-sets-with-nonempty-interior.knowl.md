@@ -6,7 +6,7 @@ summary = "For convex sets with nonempty interior: cl(int Ω)=cl Ω and int(cl �
 aliases = ["interior-and-closure-relations-for-convex-sets-with-nonempty-interior", "Interior and closure relations for convex sets with nonempty interior"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/interior-and-closure-relations-for-convex-sets-with-nonempty-interior.md"
-prerequisites = ["convex-analysis/convex-set"]
+prerequisites = ["convex-analysis/norm-normed-vector-space", "convex-analysis/convex-set", "convex-analysis/interior-of-a-set", "convex-analysis/closure-of-a-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

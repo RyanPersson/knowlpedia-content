@@ -6,7 +6,7 @@ summary = "A convergence test using the limsup of the nth roots of the term magn
 aliases = ["root-test", "Root test"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/root-test.md"
-prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/divergent-series"]
+prerequisites = ["real-analysis/series", "real-analysis/absolutely-convergent-series", "real-analysis/divergent-series", "real-analysis/limit-superior"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

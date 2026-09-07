@@ -6,7 +6,7 @@ summary = "A von Neumann algebra with no nonzero [[operator-algebras/finite-proj
 aliases = ["type III W*-algebra"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/infinite-projection", "operator-algebras/von-neumann-factor"]
+prerequisites = ["operator-algebras/von-neumann-algebra", "operator-algebras/finite-projection", "operator-algebras/infinite-projection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "The [[functional-analysis/weak-star-topology|weak-star topology]] on 
 aliases = ["sigma-weak topology", "weak-star operator topology"]
 domains = ["operator-algebras", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/weak-star-topology"]
+prerequisites = ["linear-algebra/hilbert-space", "operator-algebras/bounded-operator-cstar-algebra", "functional-analysis/weak-star-topology", "functional-analysis/trace-class-operator", "linear-algebra/banach-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

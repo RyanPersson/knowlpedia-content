@@ -6,7 +6,7 @@ summary = "For a group action, the orbit of a point is in bijection with the cos
 aliases = ["orbit-stabilizer-theorem", "Orbit–Stabilizer Theorem"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/orbit-stabilizer-theorem.md"
-prerequisites = ["algebra-groups/group", "algebra-groups/orbit", "algebra-groups/stabilizer", "shared-foundations/bijective-function"]
+prerequisites = ["algebra-groups/group", "algebra-groups/orbit", "algebra-groups/stabilizer", "algebra-groups/coset", "algebra-groups/index-of-subgroup", "shared-foundations/bijective-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

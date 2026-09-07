@@ -6,7 +6,7 @@ summary = "Automorphisms modulo inner automorphisms"
 aliases = ["outer-automorphism-group", "Outer Automorphism Group"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/outer-automorphism-group.md"
-prerequisites = ["algebra-groups/group", "algebra-groups/inner-automorphism", "algebra-groups/automorphism-group", "algebra-groups/quotient-group"]
+prerequisites = ["algebra-groups/group", "algebra-groups/inner-automorphism", "algebra-groups/automorphism-group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

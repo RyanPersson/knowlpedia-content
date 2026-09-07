@@ -6,14 +6,14 @@ summary = "The equivalence between slope-polystability of a holomorphic vector b
 aliases = ["DUY theorem", "Kobayashi-Hitchin correspondence for vector bundles"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/holomorphic-vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/chern-connection", "fiber-bundles/hermitian-yang-mills-connection"]
+prerequisites = ["differential-geometry/kahler-manifold", "differential-geometry/holomorphic-vector-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/chern-connection", "fiber-bundles/hermitian-yang-mills-connection", "fiber-bundles/chern-class", "algebraic-geometry-foundations/coherent-sheaf", "differential-geometry/integration-of-differential-forms", "fiber-bundles/wedge-product-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((X,\omega)\) be a compact complex \(n\)-dimensional
+Let \((X,\omega)\) be a compact connected complex \(n\)-dimensional, \(n\ge1\),
 [[differential-geometry/kahler-manifold|Kähler manifold]] and \(E\to X\) a
-[[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]]. The **Donaldson–Uhlenbeck–Yau theorem** states that \(E\) admits a
+[[differential-geometry/holomorphic-vector-bundle|holomorphic vector bundle]] of positive rank. The **Donaldson–Uhlenbeck–Yau theorem** states that \(E\) admits a
 [[fiber-bundles/hermitian-metric|Hermitian metric]] whose
 [[fiber-bundles/chern-connection|Chern connection]] is
 [[fiber-bundles/hermitian-yang-mills-connection|Hermitian Yang–Mills]] if
@@ -22,7 +22,7 @@ and only if \(E\) is slope-polystable with respect to \(\omega\). Here
 \mu_\omega(E)=\frac{1}{\operatorname{rk}E}
 \int_X c_1(E)\wedge\frac{\omega^{n-1}}{(n-1)!},
 \]
-stability requires \(\mu_\omega(F)<\mu_\omega(E)\) for every coherent
+Here \(c_1(E)\) in the integral denotes a real representative of the [[fiber-bundles/chern-class|first Chern class]]. For a positive-rank [[algebraic-geometry-foundations/coherent-sheaf|coherent subsheaf]] \(F\) of the sheaf of holomorphic sections of \(E\), define \(c_1(F)=c_1(\det F)\), where \(\det F=(\bigwedge^{\operatorname{rk}F}F)^{**}\) is its determinant line bundle; the double dual is taken over the sheaf \(\mathcal O_X\) of holomorphic functions. Such \(F\) is torsion-free, and its rank is its generic rank. Define \(\mu_\omega(F)\) by the same integral divided by \(\operatorname{rk}F\). Stability requires \(\mu_\omega(F)<\mu_\omega(E)\) for every coherent
 subsheaf \(F\subset E\) with
 \(0<\operatorname{rk}F<\operatorname{rk}E\), and polystability means a direct sum of
 stable bundles having the same slope.

@@ -6,7 +6,7 @@ summary = "A finite linear combination of powers of a variable with real coeffic
 aliases = ["polynomial"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/polynomial.md"
-prerequisites = []
+prerequisites = ["shared-foundations/function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
