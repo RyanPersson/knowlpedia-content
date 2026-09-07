@@ -6,16 +6,18 @@ summary = "A Lie-algebra-valued 2-form measuring the non-integrability of the ho
 aliases = ["curvature-2-form-of-a-principal-connection", "Curvature 2-form of a principal connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/curvature-2-form-of-a-principal-connection.md"
-prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/principal-connection"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/wedge-product-of-differential-forms"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle with connection 1-form \(\omega\in \Omega^1(P;\mathfrak{g})\) (see [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]). The **curvature 2-form** is the \(\mathfrak{g}\)-valued 2-form
 \[
 \Omega \;\coloneqq\; d\omega \;+\; \tfrac12[\omega\wedge \omega] \;\in\; \Omega^2(P;\mathfrak{g}),
 \]
-where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]] and \([\omega\wedge\omega]\) is formed using the [[fiber-bundles/lie-bracket|Lie bracket]] on \(\mathfrak{g}\) together with the wedge product of 1-forms.
+where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]] and \([\omega\wedge\omega]\) is formed using the [[fiber-bundles/lie-bracket|Lie bracket]] on \(\mathfrak{g}\) together with the [[fiber-bundles/wedge-product-of-differential-forms|wedge product]] of 1-forms. The convention is \( [\omega\wedge\omega](u,v)=2[\omega(u),\omega(v)]\).
+
+## Properties
 
 Key properties:
 - \(\Omega\) is **horizontal**: \(\Omega(X,\cdot)=0\) whenever \(X\) is vertical.

@@ -6,19 +6,19 @@ summary = "The complete ordered number system containing the rationals."
 aliases = ["real-numbers", "Real numbers"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/real-numbers.md"
-prerequisites = ["shared-foundations/rational-numbers", "shared-foundations/total-order", "shared-foundations/upper-bound"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["algebra-rings/field", "shared-foundations/total-order", "shared-foundations/upper-bound"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 3
 +++
 
-The **real numbers** are a [[shared-foundations/set|set]] \(\mathbb{R}\) containing \(\mathbb{Q}\) (the [[shared-foundations/rational-numbers|rational numbers]]), equipped with operations \(+\) and \(\cdot\) and a [[shared-foundations/total-order|total order]] \(\le\) such that:
-1. \((\mathbb{R},+,\cdot)\) is a field.
+The **real numbers** are a [[shared-foundations/set|set]] \(\mathbb{R}\), equipped with operations \(+\) and \(\cdot\) and a [[shared-foundations/total-order|total order]] \(\le\) such that:
+1. \((\mathbb{R},+,\cdot)\) is a [[algebra-rings/field|field]].
 2. The order is compatible with the operations: if \(a\le b\) then \(a+c\le b+c\), and if \(0\le a\) and \(0\le b\) then \(0\le ab\).
 3. (Completeness) Every nonempty subset \(A\subseteq\mathbb{R}\) that has an [[shared-foundations/upper-bound|upper bound]] in \(\mathbb{R}\) has a least upper bound in \(\mathbb{R}\); that is, there exists \(u\in\mathbb{R}\) such that \(u\) is an upper bound of \(A\), and for every upper bound \(v\) of \(A\) one has \(u\le v\).
 
 ## Remarks
 
-The completeness property is what distinguishes \(\mathbb{R}\) from \(\mathbb{Q}\) and underlies much of analysis. The usual inclusion \(\mathbb{Q}\subseteq\mathbb{R}\) identifies each rational number with a real number.
+The completeness property is what distinguishes \(\mathbb{R}\) from \(\mathbb{Q}\) and underlies much of analysis. The usual inclusion of the [[shared-foundations/rational-numbers|rational numbers]] \(\mathbb{Q}\subseteq\mathbb{R}\) identifies each rational number with a real number.
 
 ## Examples
 

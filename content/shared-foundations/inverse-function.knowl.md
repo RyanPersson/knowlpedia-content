@@ -6,12 +6,16 @@ summary = "A function that undoes a bijective function"
 aliases = ["inverse-function", "Inverse function"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/inverse-function.md"
-prerequisites = ["shared-foundations/bijective-function", "shared-foundations/identity-function", "shared-foundations/composition"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/bijective-function"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-If \(f:A\to B\) is a [[shared-foundations/bijective-function|bijection]], its **inverse function** is the function \(f^{-1}:B\to A\) for which \(f^{-1}(b)\) is the unique \(a\in A\) satisfying \(f(a)=b\). Equivalently,
+If \(f:A\to B\) is a [[shared-foundations/bijective-function|bijection]], its **inverse function** is the function \(f^{-1}:B\to A\) for which \(f^{-1}(b)\) is the unique \(a\in A\) satisfying \(f(a)=b\).
+
+## Equivalent characterization
+
+Equivalently,
 \[
 f^{-1}\circ f=\mathrm{id}_A\quad\text{and}\quad f\circ f^{-1}=\mathrm{id}_B,
 \]

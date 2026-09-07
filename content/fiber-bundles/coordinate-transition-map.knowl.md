@@ -7,8 +7,8 @@ aliases = ["change of coordinates", "coordinate change", "chart transition map",
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 prerequisites = ["fiber-bundles/smooth-chart-coordinate-chart", "shared-foundations/composition", "shared-foundations/inverse-function"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \((U,\varphi)\) and \((V,\psi)\) be coordinate charts on the same
@@ -19,6 +19,8 @@ transition map**, from \(\varphi\)-coordinates to \(\psi\)-coordinates, is
 \psi\circ\varphi^{-1}:
 \varphi(U\cap V)\longrightarrow\psi(U\cap V).
 \]
+
+## Regularity
 
 It is a homeomorphism between open subsets of \(\mathbb R^n\). The charts are
 [[fiber-bundles/smooth-compatibility-of-charts-and-atlases|smoothly compatible]]

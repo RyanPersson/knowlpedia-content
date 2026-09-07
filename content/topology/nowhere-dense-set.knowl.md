@@ -7,8 +7,8 @@ aliases = ["nowhere-dense-set", "Nowhere dense set"]
 domains = ["topology"]
 legacy_source_path = "topology/nowhere-dense-set.md"
 prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/interior", "topology/closure", "shared-foundations/empty-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **nowhere dense set** in a [[topology/topological-space|topological space]] \(X\) is a [[shared-foundations/subset|subset]] \(A\subseteq X\) such that the [[topology/interior|interior]] of its [[topology/closure|closure]] is [[shared-foundations/empty-set|empty]], i.e. \(\operatorname{int}(\overline{A})=\varnothing\).
@@ -24,4 +24,4 @@ Nowhere dense sets are the basic building blocks of [[topology/meager-set|meager
 ## Examples
 
 - The set of integers \(\mathbb{Z}\subseteq \mathbb{R}\) (with the usual topology) is nowhere dense: it is [[topology/closed-set|closed]] and has empty interior.
-- The set \(\{1/n : n\in\mathbb{N}\}\subseteq \mathbb{R}\) is nowhere dense: its closure is \(\{1/n:n\in\mathbb{N}\}\cup\{0\}\), which has empty interior.
+- The set \(\{1/n : n\ge1\}\subseteq \mathbb{R}\) is nowhere dense: its closure is \(\{1/n:n\ge1\}\cup\{0\}\), which has empty interior.

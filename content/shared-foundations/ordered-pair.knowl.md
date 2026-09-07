@@ -7,14 +7,17 @@ aliases = ["ordered-pair", "Ordered pair"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/ordered-pair.md"
 prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 An **ordered pair** is a two-component object \((a,b)\) whose equality is componentwise:
 \[
 (a,b)=(c,d)\iff a=c \text{ and } b=d.
 \]
+
+## Set-theoretic realization
+
 In set theory one standard implementation is the **Kuratowski ordered pair**:
 \[
 (a,b):=\bigl\{\{a\},\{a,b\}\bigr\}.

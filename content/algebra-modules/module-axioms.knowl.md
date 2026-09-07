@@ -8,10 +8,10 @@ domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/module-axioms.md"
 prerequisites = ["algebra-rings/unital-ring", "shared-foundations/binary-operation"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
-The **module axioms** define a (left) [[algebra-modules/module|module]] \(M\) over a [[algebra-rings/unital-ring|unital ring]] \(R\) as follows. One requires:
+The **module axioms** define a (left) module \(M\) over a [[algebra-rings/unital-ring|unital ring]] \(R\) as follows. One requires:
 1. \((M,+)\) is an abelian group (so \(+\) is a [[shared-foundations/binary-operation|binary operation]] with associativity, commutativity, identity \(0\), and inverses).
 2. A scalar multiplication map \(R\times M\to M\), \((r,m)\mapsto rm\), satisfying for all \(r,s\in R\) and \(m,n\in M\):
    - \((r+s)m = rm + sm\),

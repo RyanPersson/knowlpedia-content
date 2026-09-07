@@ -1,0 +1,246 @@
+{
+  "scope": "first 40 harmonic-analysis canonical sources, alphabetical",
+  "review_type": "dependencies",
+  "reviews": [
+    {
+      "id": "harmonic-analysis/admissible-representation-p-adic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f41544d368a15c93e968e0d9c8f65c5948fe2f4f297e93aa466e06c215b9a74c",
+      "evidence": "The core defines admissibility by finite-dimensional smooth fixed-vector spaces for compact open subgroups; the p-adic group, smooth representation, and local field prerequisites supply the stated setting and action."
+    },
+    {
+      "id": "harmonic-analysis/amenability-trivial-representation-weak-containment",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1c74c382e9ad9f38b7fa0b98fa9ef756bd8d7e50c6b2446c00e713a7a2babb9",
+      "evidence": "The criterion identifies amenability with weak containment of the trivial representation in the left regular representation; locally compact group, regular representation, and weak containment are used directly."
+    },
+    {
+      "id": "harmonic-analysis/amenable-locally-compact-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f03278a98b9c28106584e392ccc09686248b8e6dbbb0ec5f0d973e023474e7c8",
+      "evidence": "The core is an invariant-mean definition on bounded functions over a locally compact group; the mean and group prerequisites are direct, while Haar measure is used for the Reiter equivalence later."
+    },
+    {
+      "id": "harmonic-analysis/analytic-beurling-malliavin-proposition",
+      "outcome": "corrected",
+      "source_sha256": "90d59d803cb6c0904ca9cc80306de304c9c25195aed7884024c7398cc6d2af94",
+      "evidence": "The theorem quantifies over a plurisubharmonic function and constructs an entire function with growth and L2 bounds; plurisubharmonic and entire-function concepts are direct prerequisites, and the latter was restored in this review."
+    },
+    {
+      "id": "harmonic-analysis/approximate-identity-l1-group-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "257ffba94a642ef04ad95d7caed71255187440966de049cbb3327c044d471383",
+      "evidence": "The net is defined by convolution in L1(G), with shrinking-neighborhood support and norm one; locally compact groups and the L1 convolution algebra are the direct ambient concepts."
+    },
+    {
+      "id": "harmonic-analysis/bernstein-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "19a2b90f12f48c74bca9a79d0715311f49fe19aac335d230edbe987aa9ceb987",
+      "evidence": "The center is defined through endomorphisms of every smooth representation and its action on irreducibles; reductive group, smooth representation, irreducibility, and Schur's lemma are used in the core and immediate characterization."
+    },
+    {
+      "id": "harmonic-analysis/bernstein-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "11cda8a639c7f884ceb91662eb22067ec6a9126f4f315cb00e46af48bfdffcdf",
+      "evidence": "The statement decomposes smooth representations by inertial supercuspidal data and Levi subgroups; the reductive p-adic setting, smooth representations, characters, and supercuspidals are direct ingredients."
+    },
+    {
+      "id": "harmonic-analysis/beurling-malliavin-extension-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2fc50d64e56317fda3224e99541f7fd6d2cf2e9c3a33a05c8c08330ac418127c",
+      "evidence": "The construction uses Poisson extension, a linewise X-ray transform, and prescribed radial growth; those named analytic operators and the radial-growth condition are direct, while later estimates are consequences."
+    },
+    {
+      "id": "harmonic-analysis/beurling-malliavin-multiplier-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abc2376d66dd2e5d38b67bf832cbe81391406fcf58c7fd9ac1e3fdf40108b121",
+      "evidence": "The theorem constructs a nonzero entire multiplier from bounded Fourier support and Lipschitz data; entire functions, Fourier support, Paley-Wiener control, and Lipschitz continuity are used in the statement."
+    },
+    {
+      "id": "harmonic-analysis/bochner-theorem-lca",
+      "outcome": "corrected",
+      "source_sha256": "d5f1a0bd9f4ff317339b721db1d938d4d1ac8f910d19227ccff532e0f52dfbb7",
+      "evidence": "Bochner's core represents a continuous positive-definite function by a unique finite positive regular Borel measure; Borel measure is the correct direct measure prerequisite, whereas probability is needed only for the normalized special case later."
+    },
+    {
+      "id": "harmonic-analysis/bounded-fourier-support",
+      "outcome": "corrected",
+      "source_sha256": "cea5c1a93437a785f0e84a431f1a80276cef439dc522e6f9369ddffc17f9e9a9",
+      "evidence": "The definition applies to an L2 equivalence class and uses its Fourier transform and essential support; almost-everywhere equality, Lp/L2 space, and bounded sets are direct, so the Lp prerequisite was added."
+    },
+    {
+      "id": "harmonic-analysis/coefficient-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fefc2f4b44a8043d2418409c5d3bf141ff106551e0efbfa01422a7a7d17a03e5",
+      "evidence": "A coefficient is the scalar function g↦〈π(g)ξ,η〉 of a strongly continuous unitary representation on a Hilbert space; each listed representation, Hilbert, and inner-product concept is used immediately."
+    },
+    {
+      "id": "harmonic-analysis/conjugate-and-contragredient-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58da0f5c4a30863a13a809622fc20365690f56082ef523eb9e54f31c548a658f",
+      "evidence": "The core defines conjugate and contragredient actions from a unitary representation and Hilbert inner product; strong continuity, unitarity, Hilbert space, and inner product are direct ingredients."
+    },
+    {
+      "id": "harmonic-analysis/convolution-involution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00ea37711dd2b5a0c43f927acc898c501d336ffc69d5b54033eaab38562f1a93",
+      "evidence": "The formula requires a locally compact group, left Haar measure, modular function, and L1 functions; the prerequisites provide exactly the measure and modular correction, while the companion algebra page is downstream and would create a cycle."
+    },
+    {
+      "id": "harmonic-analysis/convolution-on-locally-compact-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "94c1477ee22a8f56c056fb97731dd2578f1430c1b7f6d29ef673235a8f27ca83",
+      "evidence": "The convolution formula integrates products over a locally compact group against Haar measure and is stated almost everywhere; group, Haar measure, and a.e. notions are direct, with algebraic properties deferred."
+    },
+    {
+      "id": "harmonic-analysis/damping-function-fup-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0519f6da69bc7c3a7e966e5b9b5b83c78ac8008815bc92f6a5548e42d5bb867a",
+      "evidence": "The theorem assumes a porous set and a damping function, then derives an uncertainty estimate; porosity and damping function are direct hypotheses, while Fourier localization is encapsulated by the damping-function definition."
+    },
+    {
+      "id": "harmonic-analysis/damping-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50aa75dc9aa71c3fbb0baee1592a351d4e2afca2c6a9119e215a9afb611e42f8",
+      "evidence": "The definition requires bounded Fourier support, an L2 function, local L2 mass, and two decay bounds; bounded support and quantitative unique continuation capture the reusable conditions governing the construction."
+    },
+    {
+      "id": "harmonic-analysis/direct-integral-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d2720accf09ad9571869692764da6b5a7603b9c86680878ee9c2a1cbd0a701d",
+      "evidence": "The core assembles a measurable field of Hilbert spaces over a measure space into a direct-integral representation; measurability, Hilbert fields, strong continuity, and a.e. identification are all used directly."
+    },
+    {
+      "id": "harmonic-analysis/dirichlet-to-neumann-upper-half-plane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0cc72b0c825efbde905dab71b673eaccb269979b811e5d451dfe9221d575551e",
+      "evidence": "The map sends boundary data through the Poisson extension to its normal derivative and identifies the fractional Laplacian/Hilbert-transform form; Poisson extension and Hilbert transform are the direct named operators."
+    },
+    {
+      "id": "harmonic-analysis/discrete-and-continuous-spectrum-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d87af0edd2cf44794dd1d4a133712ee41f26358dd3a35829a93cd8e8c2a4fa6d",
+      "evidence": "The distinction is defined for a unitary representation of a locally compact group on a Hilbert space via invariant spectral subspaces; strong continuity, local compactness, and Hilbert structure are direct."
+    },
+    {
+      "id": "harmonic-analysis/distribution-local-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc900712abf6e00f1f303f40d7ebe8f954db8fe9f050623eac90c4092eb275cc",
+      "evidence": "A distribution on a local field is a continuous linear functional on the test-function space; local-field topology and test functions are therefore direct, with representation-theoretic uses later."
+    },
+    {
+      "id": "harmonic-analysis/dual-haar-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33381694c12d4322d7e11bf764cdae911567eb4a9b814ce6119771ebd101a038",
+      "evidence": "The theorem selects the Haar measure on the Pontryagin dual that makes Fourier transformation unitary; locally compact abelian groups, duality, Haar measure, Fourier transform, and unitarity are all used in the core."
+    },
+    {
+      "id": "harmonic-analysis/exact-plurisubharmonic-beurling-malliavin-proposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "623532b47e8c87eb688a0e247d51f747986a23ddb6848dc2aaa9b336e70b77ec",
+      "evidence": "The proposition combines an exact plurisubharmonic weight with Poisson/X-ray control to obtain a multiplier; plurisubharmonic functions and the displayed analytic constructions are direct hypotheses, while estimates remain later."
+    },
+    {
+      "id": "harmonic-analysis/fell-topology-kernel-description",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d235050e378ac5d634c85f4d98c5e00d8bac7edb60397718d9f430485833c3fd",
+      "evidence": "The kernel description defines Fell neighborhoods through irreducible representations and their coefficient behavior; full group C-star algebra, irreducibles, unitary dual, and Fell topology are the concepts named in the statement."
+    },
+    {
+      "id": "harmonic-analysis/fell-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d333044d93905804ca09f15a1c9cee2556f9d7b101ee070631e4e759828d2411",
+      "evidence": "Fell topology is defined by coefficient neighborhoods on the unitary dual and weak containment; locally compact groups, unitary representations, coefficients, and weak containment are direct."
+    },
+    {
+      "id": "harmonic-analysis/folner-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "108ad4326e56e691dc7f39b2d0711c6bfb4e9b4eed93517c74beb31279ca5d51",
+      "evidence": "The condition compares Haar measure of symmetric differences of compact measurable sets under translations; local compactness and Haar measure are direct, and the amenability equivalence is later."
+    },
+    {
+      "id": "harmonic-analysis/fourier-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "831c9e0c755793dd58cc6f7b752785ae1b8788b5f03053b2ab421b3ab3feb723",
+      "evidence": "The Fourier algebra consists of coefficient functions of the left regular representation; locally compact groups, regular representation, and coefficient functions are precisely the defining ingredients."
+    },
+    {
+      "id": "harmonic-analysis/fourier-convolution-theorem-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d58e3f9207026cbd231b312f37a792a129bce64eb6627992ae008f740fbb128",
+      "evidence": "The theorem states Fourier transform converts L1 convolution on an LCA group into pointwise multiplication on the dual; abelian/local compact structure, Haar measure, convolution, transform, and duality are direct."
+    },
+    {
+      "id": "harmonic-analysis/fourier-inversion-lca",
+      "outcome": "corrected",
+      "source_sha256": "ed1e1f86eaba476fb6e7d691f8ab4c1536c7ed0764ae2fc3b79c5dce1ea2dd3d",
+      "evidence": "Inversion assumes both f and its transform are L1 and identifies a continuous representative almost everywhere; the L1-function prerequisite is direct and was added, alongside Haar/dual/transform and a.e. concepts."
+    },
+    {
+      "id": "harmonic-analysis/fourier-stieltjes-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1a5decbf96f73448ee754515034f9ff502b16eb0227b18da56378cd5681b1638",
+      "evidence": "The algebra is formed from matrix coefficients of strongly continuous unitary representations of a locally compact group; coefficient functions, representations, Hilbert spaces, and linear structure are used directly."
+    },
+    {
+      "id": "harmonic-analysis/fourier-transform-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a963c18a8f5327a6dff0de4ab28efef812bcb48e966d715a4c3466486a855cf",
+      "evidence": "The transform integrates an L1 function against characters on an LCA group; local compactness, abelian duality, Haar measure, and L1 functions are the complete direct boundary."
+    },
+    {
+      "id": "harmonic-analysis/fractal-uncertainty-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e52f785d94c62d9d345499f5ec7af33d7327f09ece377a7a4f69f30fbc61d760",
+      "evidence": "The principle bounds simultaneous spatial and Fourier concentration for porous sets; porosity, Fourier localization, and the L2 norm are the operative concepts, with stronger variants referenced later."
+    },
+    {
+      "id": "harmonic-analysis/gns-construction-positive-definite-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8737cff638591d4e056645bb43ac2a5605df9c76ada41abbc983d9b6e0f64f45",
+      "evidence": "The construction turns a positive-definite function into a cyclic unitary representation on a Hilbert space; positivity, Hilbert spaces, strong continuity, and cyclic vectors are direct."
+    },
+    {
+      "id": "harmonic-analysis/group-fourier-transform-nonabelian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd674dd47a4289596b0a9d5fa8f289747bc94aaa0e74471278870522491ab2e0",
+      "evidence": "The nonabelian transform is the integrated operator-valued representation against Haar measure and is measured using operator norm; the group, Haar, unitary dual, integrated form, and norm are direct."
+    },
+    {
+      "id": "harmonic-analysis/haar-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a9eb789d3f391a1e5cbdb64848e85477ef8d9959155d4dc88d5cb67c62b3060",
+      "evidence": "The Haar integral is the positive left-translation-invariant functional/measure on a locally compact group; positive linear functionals, Haar measure, and local compactness supply the definition."
+    },
+    {
+      "id": "harmonic-analysis/haar-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd2329a3a609a2743818ac73234d8a381a4c0349ccefc772fea7c258001a6dea",
+      "evidence": "A Haar measure is a nonzero regular Borel measure invariant under left translation on a locally compact group; local compact group, Borel measure, and compact sets are direct."
+    },
+    {
+      "id": "harmonic-analysis/harish-chandra-character-p-adic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5be377b5a3b249c84086087d4cf1a5c544156d282e813ddf182ebc09bf784c13",
+      "evidence": "The character is a distribution obtained from an admissible representation of a reductive p-adic group and tested against compactly supported functions; all those representation, field, test-function, distribution, and Haar concepts are used."
+    },
+    {
+      "id": "harmonic-analysis/harish-chandra-schwartz-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1cd5f1d763995db2a152bbe99d3e8972d8198ef9728e1f2b4a3de6891b2bc4a2",
+      "evidence": "The algebra consists of Harish-Chandra Schwartz functions under convolution and involution, controlled by Xi on a real reductive group; group, Schwartz space, convolution, involution, and Xi are direct."
+    },
+    {
+      "id": "harmonic-analysis/harish-chandra-schwartz-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6630f778cdc75be30d0210720377a955bfafb0a8852b79ab4803b3a973007f7a",
+      "evidence": "The space is defined by differential seminorms and Xi-weighted decay using the Lie algebra, maximal compact subgroup, and Cartan/Iwasawa data; these listed structural prerequisites are directly invoked."
+    },
+    {
+      "id": "harmonic-analysis/harish-chandra-xi-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "457daaf271f5177a128ee948b8dae873d1a4cc3d4951f354f5f0683f0c00f56d",
+      "evidence": "Xi is a normalized spherical matrix coefficient and its integral formula uses the Iwasawa projection, restricted roots, and normalized Haar measure on K; representation, coefficient, Lie-group, and probability-measure prerequisites support those definitions."
+    }
+  ]
+}

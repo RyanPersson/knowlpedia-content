@@ -6,9 +6,9 @@ summary = "The condition that overlapping coordinate charts have smooth transiti
 aliases = ["smoothly compatible charts", "compatible smooth charts", "compatible smooth atlases", "smooth atlas compatibility"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/coordinate-transition-map", "fiber-bundles/smooth-atlas"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/coordinate-transition-map", "real-analysis/class-ck-map"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Two coordinate charts \((U,\varphi)\) and \((V,\psi)\) on the same
@@ -19,7 +19,11 @@ empty or the coordinate transition map
 \psi\circ\varphi^{-1}:\varphi(U\cap V)\longrightarrow\psi(U\cap V)
 \]
 
-is smooth with smooth inverse. Two [[fiber-bundles/smooth-atlas|smooth
+and its inverse are [[real-analysis/class-ck-map|class \(C^\infty\) maps]].
+
+## Compatibility of atlases
+
+Two [[fiber-bundles/smooth-atlas|smooth
 atlases]] are **compatible** if every chart in one is smoothly compatible
 with every chart in the other; equivalently, their union is a smooth atlas.
 

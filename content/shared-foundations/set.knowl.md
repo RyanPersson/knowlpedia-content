@@ -7,14 +7,18 @@ aliases = ["set"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/set.md"
 prerequisites = []
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **set** is an object \(A\) for which statements of the form \(x\in A\) (read “\(x\) is an element of \(A\)”) are meaningful, and whose identity is determined by **extensionality**: for sets \(A,B\),
+In axiomatic set theory, **set** and the membership relation \(\in\) are primitive notions. The axiom of **extensionality** determines equality by membership: for sets \(A,B\),
 \[
 A=B \iff \forall x\,\bigl(x\in A \Leftrightarrow x\in B\bigr).
 \]
+
+## Axiomatic role
+
+Extensionality is not a complete axiomatization of set theory. Other axioms specify which sets exist and how sets may be formed.
 
 ## Remarks
 

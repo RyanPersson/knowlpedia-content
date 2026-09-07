@@ -1,0 +1,246 @@
+{
+  "scope": "next 40 harmonic-analysis canonical sources, alphabetical (41-80)",
+  "review_type": "dependencies",
+  "reviews": [
+    {
+      "id": "harmonic-analysis/hausdorff-young-inequality-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a83bdd37b2821104fee4ed465dd69cecca1e86eaae2d74a0a418758dd86f31c",
+      "evidence": "Hausdorff–Young extends the L1 Fourier transform to Lp→Lq for 1≤p≤2; Lp space, Fourier transform, Haar measures, and equivalence classes are direct inputs."
+    },
+    {
+      "id": "harmonic-analysis/hecke-algebra-locally-compact-group-pair",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "257fbc0603a69ed8be450f498ae0d672f19207ad992226400acd014702373405",
+      "evidence": "The Hecke algebra is defined by compactly supported K-bi-invariant functions and Haar convolution; locally compact group, compact subgroup, Haar measure, and convolution are direct."
+    },
+    {
+      "id": "harmonic-analysis/higher-dimensional-beurling-malliavin-theorem",
+      "outcome": "corrected",
+      "source_sha256": "3f1c103d4b4c07b240ab1cfadee06877feb748f87a161a81ef86e61b23a6d54a",
+      "evidence": "The conclusion is a band-limited L2 multiplier controlled by a radial growth condition; radial growth and bounded Fourier support are the reusable concepts needed to state the result."
+    },
+    {
+      "id": "harmonic-analysis/higher-dimensional-line-porous-fup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be5cb56236441450b6c2dd0d38f3ccdac14bfa66a4b7f6b6fb088c32e38878b0",
+      "evidence": "The theorem assumes ball and line porosity and derives a Fourier concentration estimate; both porosity notions are direct hypotheses and no downstream uncertainty theorem is needed."
+    },
+    {
+      "id": "harmonic-analysis/hilbert-direct-sum-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd86e22dbe66536656928189294a8432c17295bda40eade7cec66d8cfbef3523",
+      "evidence": "The construction takes a family of strongly continuous unitary representations on Hilbert spaces and forms their Hilbert direct sum; every listed prerequisite is used in the definition."
+    },
+    {
+      "id": "harmonic-analysis/hilbert-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d44a2fc28f8a6cb8d4eb3a6f3b4f2b12be4d2a948513b5e34bce8174adb354ce",
+      "evidence": "The transform is first defined on Schwartz functions by a principal-value integral and extended on L2 via Plancherel; Schwartz space, linear maps, and Plancherel are direct."
+    },
+    {
+      "id": "harmonic-analysis/induction-in-stages-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5f4f76c452389babbf9a28efdc22699354da72566b05c8dfb88146d3fc61d9c5",
+      "evidence": "The identity compares unitary induction through H⊂K⊂G; locally compact groups, unitary representations, homogeneous spaces, and induced representations are direct."
+    },
+    {
+      "id": "harmonic-analysis/integrated-form-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a449d1a74758b36aef16f0f59482faaa49676bae51e8fdf42152ab4a07d027fc",
+      "evidence": "The integrated form is the Haar integral of f(g)π(g) for f in the L1 group algebra; group, Haar measure, unitary representation, L1 algebra, and coefficient/operator action are used."
+    },
+    {
+      "id": "harmonic-analysis/integrated-operator-continuous-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "080102c66f097b3a9f14c416a4e2cebe4c253783701cb242c1a0ec9d604c6771",
+      "evidence": "The operator-valued integral for compactly supported f uses Haar measure and Bochner integration in a Banach space; Banach, locally compact, convolution, and linear structure are direct."
+    },
+    {
+      "id": "harmonic-analysis/invariant-mean",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca339b73d5e9b067665c9fa85475d4f355b6a51ad7c459a73c3c74cf9cdc72fe",
+      "evidence": "The definition is a positive normalized translation-invariant functional on bounded functions; a topological group is the only ambient structure required."
+    },
+    {
+      "id": "harmonic-analysis/jacquet-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b88db274a7ce68c3ec0a36485f86192a3c9283c92b2922052bf8f20506f13cdb",
+      "evidence": "The Jacquet module is coinvariants under the unipotent radical, with normalized action involving the parabolic modulus; local field, reductive/parabolic/Levi structure, smooth representation, and modulus are direct."
+    },
+    {
+      "id": "harmonic-analysis/l1-group-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b52146c248496556cd5e4707b2a04f76bb9fbef4b6fb355c217d4387307a0a4",
+      "evidence": "The L1 group algebra combines the L1 space with group convolution and involution; its listed prerequisites are the ingredients of the definition, including the modular correction."
+    },
+    {
+      "id": "harmonic-analysis/langlands-classification-p-adic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3aa1c57d4de33a606ba20755385332f0a484b8c4f57679e67cc02c851a4843d0",
+      "evidence": "The classification states irreducible admissible p-adic representations as unique quotients of normalized parabolic inductions; field, reductive group, parabolic/Levi data, admissibility, induction, temperedness, and characters are direct."
+    },
+    {
+      "id": "harmonic-analysis/line-porosity-damping-function-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32e01d2fe076810357848c12aca3113206842865a44e1f0ee17407f77841040c",
+      "evidence": "The result assumes line porosity and constructs a damping function with specified parameters; those two knowls are exactly the direct hypothesis and output definitions."
+    },
+    {
+      "id": "harmonic-analysis/locally-compact-homogeneous-space",
+      "outcome": "corrected",
+      "source_sha256": "1cfe955e64b999f96fb2cb407201aa192a813f4b340bfa4e0031fa258cab413f",
+      "evidence": "The space G/H is built from a closed subgroup's cosets with quotient topology and continuous action; subgroup, coset, quotient topology, action, and local compactness are direct, so subgroup/coset prerequisites were added."
+    },
+    {
+      "id": "harmonic-analysis/mackey-imprimitivity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b21acec3fd312c160dcbcad256f52c6fe4d5a1c8c6f25970b60e02d9e4343a22",
+      "evidence": "The theorem classifies systems of imprimitivity for a transitive G-action as induced representations; system, transitive action, unitary representation, and locally compact group are direct."
+    },
+    {
+      "id": "harmonic-analysis/mackey-machine-semidirect-products",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8b9bac1c892a9dd4b39d5dc54bc62a925e59cd3dc46b3715b681322693391e50",
+      "evidence": "The construction parametrizes irreducible representations of A⋊K from K-orbits in the dual and stabilizer representations; semidirect product, dual, stabilizer, and irreducible unitary representation are direct."
+    },
+    {
+      "id": "harmonic-analysis/maximal-compact-hyperspecial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74035763bd7f45bd78fe257bd13c63b45b9ec17bc6ec377ddd175b8377d56700",
+      "evidence": "The definition uses reductive groups over nonarchimedean fields, valuation rings, profinite compactness, and group schemes to define hyperspecial maximal compacts; those structures are directly invoked."
+    },
+    {
+      "id": "harmonic-analysis/measure-algebra",
+      "outcome": "corrected",
+      "source_sha256": "56ac53b345811bb15fad7895a8fe681237468956f426f8d8f1d1f5d2f95fd2e5",
+      "evidence": "The algebra consists of bounded regular complex Borel measures with product-measure pushforward convolution; Borel measure was added because it is a defining input, while product measure and Banach algebra remain direct."
+    },
+    {
+      "id": "harmonic-analysis/modular-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "475b9b80480f9398129e27c017c6b61cc6c6cbab32154c180536747775faa592",
+      "evidence": "The modular function is defined by right translation of a left Haar measure and is a continuous group homomorphism; Haar, right translation, homomorphism, and local compactness are direct."
+    },
+    {
+      "id": "harmonic-analysis/multiplicity-function-direct-integral-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5054da01dfff991b6cf7b53d4f2384f77aa8eb092866a1dac121c56c3002a843",
+      "evidence": "Multiplicity is read from a type-I direct-integral decomposition over the unitary dual; direct integrals, measurable functions, a.e. classes, Hilbert spaces, and the dual are direct."
+    },
+    {
+      "id": "harmonic-analysis/normalized-parabolic-induction-p-adic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed05db734a463bdecd293f47105a7e7d4d2059bdce504bbe35795c617b13ced4",
+      "evidence": "Normalized induction modifies ordinary parabolic induction by the square root of the parabolic modulus; reductive/parabolic/Levi/unipotent data, smooth representations, and modulus are direct."
+    },
+    {
+      "id": "harmonic-analysis/oscillatory-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac28c08fbf9bab8ec62150a6fa5b466f4498a26d0cea33e72b06c75c716b3101",
+      "evidence": "The definition is an integral with complex phase e^{iλφ} and amplitude; complex numbers and Lebesgue integration are the only direct ingredients."
+    },
+    {
+      "id": "harmonic-analysis/paley-wiener-bounded-fourier-support",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f314072275c57a88c037dde1568a2e8f4534eaa276aacd4209e27622086bd308",
+      "evidence": "The equivalence relates L2 functions with bounded Fourier support to entire functions of exponential type; entire functions are the defining analytic target and Fourier/L2 notation is local."
+    },
+    {
+      "id": "harmonic-analysis/parabolic-modulus-character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "727b8299a60a634448ccba316728ba5457986ab423166c1c76c802ffa5b36101",
+      "evidence": "The character is defined from determinant action on the Lie algebra of the unipotent radical; local field, reductive/parabolic/Levi/unipotent structure, character, Lie algebra, and modular action are direct."
+    },
+    {
+      "id": "harmonic-analysis/plancherel-measure-nonabelian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "305c5238379fee105fa6d44e1b374409028c700d2ba2f0c067cee0dfd78b55e1",
+      "evidence": "Plancherel measure is characterized by decomposing the L2 Fourier transform into Hilbert–Schmidt operators over the unitary dual; Haar, dual, Hilbert–Schmidt, and unitary representation data are direct."
+    },
+    {
+      "id": "harmonic-analysis/plancherel-theorem-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ed56a4a0efe354344fed650cff238728fda933bda9733f6a1bd8cb750f6f3ea",
+      "evidence": "The theorem extends the LCA Fourier transform to a unitary L2 map and uses dual Haar normalization; abelian/local compact groups, Haar/dual measures, Fourier transform, unitary operators, Hilbert spaces, and inner products are direct."
+    },
+    {
+      "id": "harmonic-analysis/plancherel-theorem-unimodular-type-i-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a3901b23729960d12e29ace7f5d36d4cd74a216cd8cd38de7856db9a4e5679a",
+      "evidence": "The nonabelian Plancherel identity integrates Hilbert–Schmidt norms against Plancherel measure for a unimodular type-I group; each listed representation, measure, transform, and Hilbert prerequisite is used."
+    },
+    {
+      "id": "harmonic-analysis/plurisubharmonic-beurling-malliavin-proposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f27f109eaf76ffe73297abe31b24802fb5778952909114cedc2d22e38c1bb713",
+      "evidence": "The proposition applies the higher-dimensional BM theorem to produce a plurisubharmonic majorant; radial growth, the BM theorem, and plurisubharmonic functions are direct."
+    },
+    {
+      "id": "harmonic-analysis/poisson-extension-upper-half-plane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "757e1c4b1a6b22d715f20647a6e502d513e24e3fb7b2be5c00c6fc10d8e3d1fb",
+      "evidence": "Poisson extension convolves boundary data with the upper-half-plane Poisson kernel and produces a harmonic function; kernel and harmonic-function definitions are direct."
+    },
+    {
+      "id": "harmonic-analysis/poisson-kernel-upper-half-plane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3da6cf4e08850f0c91af5c844c9b93f02f0d6b6601aaac81cae79f4005d219f5",
+      "evidence": "The kernel is the explicit positive normalized harmonic kernel on the upper half-plane; harmonic function is the only linked defining concept."
+    },
+    {
+      "id": "harmonic-analysis/pontryagin-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "290b94f194d66aa409523befb2b5aa95f3e0f5c2724c00a97bd7f2a3ceacb2fb",
+      "evidence": "The dual is the group of continuous characters into the unit circle; local compactness, abelian groups, complex numbers, and homomorphisms are direct."
+    },
+    {
+      "id": "harmonic-analysis/pontryagin-duality-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3c3b6a130d5d10c9975dc1b09b6cc31e2864a3e034454b8e0683b895f3a02430",
+      "evidence": "The theorem identifies G with its double dual via evaluation and asserts topological group isomorphism; dual, abelian/local compact groups, isomorphism, and homeomorphism are direct."
+    },
+    {
+      "id": "harmonic-analysis/positive-definite-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6581a1a95f9a49568844dfa1e944e4178ae71a442160cf5e8107126139a2c5dc",
+      "evidence": "Positive definiteness is the nonnegative finite coefficient matrix condition for a continuous function on a topological group; topology and positive-semidefinite matrices are direct."
+    },
+    {
+      "id": "harmonic-analysis/quasi-invariant-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39cc2fb33e6c0f86ff9189b13b83a3a7e08e86f9a109a46eaa7c4b1f71940a9f",
+      "evidence": "Quasi-invariance is mutual absolute continuity of every action pushforward with the reference measure; measurable spaces, measures, local compact group actions, and absolute continuity are direct."
+    },
+    {
+      "id": "harmonic-analysis/quasi-regular-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "204f0306bed44084e8958e94527362673b81019ecfdd42bb47dcd46f7be2b9c5",
+      "evidence": "The representation acts on Lp(G/H) using the Radon–Nikodym cocycle of a quasi-invariant measure; homogeneous spaces, quasi-invariance, Lp, and local compactness are direct."
+    },
+    {
+      "id": "harmonic-analysis/radial-line-growth-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c7ec5cefdbba3aa76df0f25ba4c0bd5177c7ed7598c806fd1aa905171488d92f",
+      "evidence": "The functional is defined by measurable radial rescaling and a weighted integral; no prerequisite is needed because the weight, supremum, and integral are introduced locally."
+    },
+    {
+      "id": "harmonic-analysis/regular-representations-locally-compact-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69c7a1a998198850c32149e948d10d9db141678b482f3e66dd43b8c0bade52c6",
+      "evidence": "Left/right regular representations act on L2(G) using Haar measure, modular correction, and translations; Lp, Haar, modular function, strong representation, and right translation are direct."
+    },
+    {
+      "id": "harmonic-analysis/reiter-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8e095cd66a7d385bf1035df4e5f4ffd6bc9309b9ded27a5f576dda7c19b857e",
+      "evidence": "Reiter P1 is a net of positive normalized L1 functions asymptotically invariant on compact sets; locally compact groups, Haar/L1 algebra, and translations are direct."
+    },
+    {
+      "id": "harmonic-analysis/restricted-tensor-product-test-functions",
+      "outcome": "corrected",
+      "source_sha256": "9bea9b85683f61956566dfe49407eb3d24ef8b33f960d744270ff80925d4aef9",
+      "evidence": "The restricted tensor product is indexed by completions of a number field and local Schwartz–Bruhat spaces with distinguished vectors; number field was added as a missing defining input."
+    }
+  ]
+}

@@ -6,9 +6,9 @@ summary = "Definition of a principal connection 1-form and the horizontal distri
 aliases = ["connection-1-form-on-a-principal-bundle", "Connection 1-form on a principal bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/connection-1-form-on-a-principal-bundle.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/differential-k-form", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/reproduction-property-x", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/vertical-subbundle"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/differential-k-form", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/reproduction-property-x", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/pullback-of-differential-forms"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] (with the [[fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p|standard right action convention]]), and let \(\mathfrak g\) be the [[lie-groups/lie-algebra-of-a-lie-group|Lie algebra]] of \(G\).
@@ -30,6 +30,8 @@ such that:
    (R_g)^*\omega = \mathrm{Ad}_{g^{-1}}\omega,
    \]
    where \(\mathrm{Ad}\) is the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]] of \(G\) on \(\mathfrak g\).
+
+## Horizontal distribution
 
 These two axioms are equivalent to specifying a [[fiber-bundles/principal-connection|principal connection]]: the horizontal space at \(p\in P\) is
 \[

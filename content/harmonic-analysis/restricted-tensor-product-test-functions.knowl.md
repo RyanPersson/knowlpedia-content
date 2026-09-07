@@ -6,7 +6,7 @@ summary = "The tensor product of local test-function spaces in which almost ever
 aliases = ["restricted tensor product of Schwartz spaces", "restricted tensor product of local functions"]
 domains = ["harmonic-analysis", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["harmonic-analysis/schwartz-bruhat-space-local-field", "functional-analysis/test-function-space"]
+prerequisites = ["algebra-fields-galois/number-field", "algebra-fields-galois/completion-at-place", "harmonic-analysis/schwartz-bruhat-space-local-field", "functional-analysis/test-function-space", "functional-analysis/nuclear-space", "functional-analysis/inductive-limit-locally-convex-spaces", "algebra-category-theory/colimit"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

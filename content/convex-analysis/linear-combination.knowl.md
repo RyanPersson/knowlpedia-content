@@ -7,8 +7,8 @@ aliases = ["linear-combination", "Linear combination"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/linear-combination.md"
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] over a field \(K\). Given vectors \(x_1,\dots,x_m\in X\) and scalars \(\alpha_1,\dots,\alpha_m\in K\), a **linear combination** of \(x_1,\dots,x_m\) is any vector of the form
@@ -17,7 +17,9 @@ Let \(X\) be a [[linear-algebra/vector-space|vector space]] over a field \(K\). 
 \]
 Only **finite** sums are allowed in this definition.
 
-Linear combinations are the basic algebraic operation behind the [[convex-analysis/subspace-generated-by-a-set-span|span]], and a [[convex-analysis/basis-hamel-basis-and-dimension|basis]] is precisely a set that generates every vector via a unique linear combination.
+## Relation to spanning
+
+Linear combinations are the basic algebraic operation behind the [[convex-analysis/subspace-generated-by-a-set-span|span]], and a [[convex-analysis/basis-hamel-basis-and-dimension|basis]] is precisely a set that generates every vector via uniquely determined finitely supported coefficients.
 
 ## Examples
 

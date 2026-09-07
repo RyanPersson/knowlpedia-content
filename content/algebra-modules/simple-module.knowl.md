@@ -6,9 +6,9 @@ summary = "A nonzero module with no proper nontrivial submodules."
 aliases = ["simple-module", "Simple module"]
 domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/simple-module.md"
-prerequisites = ["algebra-modules/module", "algebra-modules/submodule", "algebra-rings/maximal-ideal"]
+prerequisites = ["algebra-modules/module", "algebra-modules/submodule"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 A (left) \(R\)-[[algebra-modules/module|module]] \(M\ne 0\) is **simple** if its only [[algebra-modules/submodule|submodules]] are \(0\) and \(M\).

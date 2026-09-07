@@ -6,9 +6,9 @@ summary = "A sequence is exact at a term precisely when the incoming image equal
 aliases = ["exactness-via-kernels-images", "Exactness via kernels and images"]
 domains = ["algebra-modules"]
 legacy_source_path = "algebra-modules/exactness-via-kernels-images.md"
-prerequisites = ["algebra-modules/exact-sequence-modules", "algebra-modules/kernel-module", "algebra-modules/image-module"]
+prerequisites = ["algebra-modules/kernel-module", "algebra-modules/image-module"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 **Exactness via kernels and images**: A sequence of \(R\)-modules and homomorphisms

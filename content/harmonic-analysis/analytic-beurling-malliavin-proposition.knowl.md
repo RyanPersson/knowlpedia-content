@@ -6,7 +6,7 @@ summary = "A controlled plurisubharmonic function is majorized by the logarithmi
 aliases = ["A-BM", "analytic BM proposition"]
 domains = ["harmonic-analysis", "several-complex-variables"]
 section_mode = "progressive"
-prerequisites = ["complex-analysis/entire-function-several-variables"]
+prerequisites = ["complex-analysis/entire-function-several-variables", "complex-analysis/plurisubharmonic-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "The Fourier inversion theorem reconstructs a function on a locally co
 aliases = ["LCA Fourier inversion", "group Fourier inversion"]
 domains = ["harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "measure-theory/almost-everywhere"]
+prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/haar-measure", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/dual-haar-measure", "harmonic-analysis/fourier-transform-lca", "measure-theory/almost-everywhere", "measure-theory/l1-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

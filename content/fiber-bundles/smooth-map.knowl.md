@@ -6,14 +6,16 @@ summary = "A map between smooth manifolds that becomes an ordinary smooth functi
 aliases = ["smooth-map", "Smooth map"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/smooth-map.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-atlas"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-chart", "real-analysis/class-ck-map"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] of dimensions \(m\) and \(n\). A function \(f:M\to N\) is **smooth** (or \(C^\infty\)) if for every \(p\in M\) there exist [[fiber-bundles/smooth-chart-coordinate-chart|charts]] \((U,\varphi)\) on \(M\) with \(p\in U\) and \((V,\psi)\) on \(N\) with \(f(U)\subset V\) such that the coordinate expression
+Let \(M\) and \(N\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] of dimensions \(m\) and \(n\). A function \(f:M\to N\) is **smooth** (or \(C^\infty\)) if for every \(p\in M\) there exist [[fiber-bundles/smooth-chart|smooth charts]] \((U,\varphi)\) on \(M\) with \(p\in U\) and \((V,\psi)\) on \(N\) with \(f(U)\subset V\) such that the coordinate expression
 \(\psi\circ f\circ \varphi^{-1}:\varphi(U)\to \psi(V)\)
-is a smooth map between open subsets of \(\mathbb{R}^m\) and \(\mathbb{R}^n\) in the usual multivariable sense.
+is a [[real-analysis/class-ck-map|class \(C^\infty\) map]] between open subsets of \(\mathbb{R}^m\) and \(\mathbb{R}^n\) in the usual multivariable sense.
+
+## Independence of coordinates
 
 Because the transition maps in a [[fiber-bundles/smooth-atlas|smooth atlas]] are smooth, this definition is independent of the particular charts chosen: if it holds for one pair of charts around \(p\) and \(f(p)\), then it holds for any other such pair. Smooth maps are closed under composition, and the identity map on any smooth manifold is smooth.
 

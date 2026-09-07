@@ -6,7 +6,7 @@ summary = "The measure algebra of a locally compact group is the Banach algebra 
 aliases = ["measure convolution algebra", "M(G)"]
 domains = ["harmonic-analysis", "measure-theory", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["topology/locally-compact-group", "linear-algebra/vector-space", "measure-theory/product-measure", "functional-analysis/banach-algebra", "harmonic-analysis/convolution-on-locally-compact-group"]
+prerequisites = ["topology/locally-compact-group", "linear-algebra/vector-space", "measure-theory/borel-measure", "measure-theory/product-measure", "functional-analysis/banach-algebra", "harmonic-analysis/convolution-on-locally-compact-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

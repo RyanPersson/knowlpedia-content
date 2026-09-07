@@ -2729,6 +2729,695 @@
         "lie-groups/adjoint-action-of-a-lie-group",
         "fiber-bundles/curvature-2-form-of-a-principal-connection"
       ]
+    },
+    {
+      "id": "shared-foundations/set",
+      "outcome": "corrected",
+      "source_sha256": "55ad285297828bbea381698398a8d8043cae61c360cdbd887a53763bc11e55a3",
+      "evidence": "Clarified that set and membership are primitive notions; extensionality determines identity but is not by itself a complete definition or axiomatization of sets.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "shared-foundations/ordered-pair",
+      "outcome": "corrected",
+      "source_sha256": "417d2c58ced34283bcafc1a6b4d83a294b99e485aebf235ad0c2c55852a051a2",
+      "evidence": "Componentwise equality specifies the abstract pair; moved its optional Kuratowski set encoding into a separate section.",
+      "previous_prerequisites": [
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "shared-foundations/inverse-function",
+      "outcome": "corrected",
+      "source_sha256": "a1b3f5e8f81f947705bfb53c198ac297769438e14c5941363cd4aee581117996",
+      "evidence": "Unique inverse values define the inverse of a bijection. Moved composition identities to an equivalent characterization and removed identity/composition as extra defining prerequisites.",
+      "previous_prerequisites": [
+        "shared-foundations/bijective-function",
+        "shared-foundations/identity-function",
+        "shared-foundations/composition"
+      ],
+      "prerequisites": [
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "shared-foundations/subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "146556af4ce44bb04cb6e5ee7e5fa41bc2f81d97923371be7f5329b32a172636",
+      "evidence": "Elementwise implication is a complete subset definition and only requires set; equality via mutual containment is later.",
+      "previous_prerequisites": [
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "shared-foundations/relation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25a42a9e7f79aeb211d22697c8947935a95b51f1cd5a13badfa9f84a13874524",
+      "evidence": "A relation from A to B is precisely a subset of their Cartesian product; the product/subset mapping is exact.",
+      "previous_prerequisites": [
+        "shared-foundations/cartesian-product",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/cartesian-product",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "shared-foundations/function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ba92dc0c64dea8235d88d0cfa3e0eb8684289f4653b150e7e8d489afa52c600",
+      "evidence": "A relation from specified A to B with one and only one output for every input is complete; image, inverse and composition are later constructions.",
+      "previous_prerequisites": [
+        "shared-foundations/relation",
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "shared-foundations/relation",
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "shared-foundations/injective-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5fb4a0e58b8b00255fc6bfa13b1c85028084b7e9c3d6d1183b50d053fd63778",
+      "evidence": "Equality of outputs implies equality of inputs; no inverse or cardinality theorem is assumed.",
+      "previous_prerequisites": [
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "shared-foundations/surjective-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "155685148529c5012d2dfbd5ad737ee6f11f64f82180ba6a886626f9eba4e979",
+      "evidence": "Every element of the specified codomain has a preimage; image and bijection are later equivalent descriptions.",
+      "previous_prerequisites": [
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "shared-foundations/bijective-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7402986785b8d7168ec082b0b4369a50ee473c4352ae1ed336a28e72480108c3",
+      "evidence": "The conjunction of injection and surjection supplies the entire definition; inverse existence is correctly a later equivalence.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "shared-foundations/identity-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "927cedca06bb0fb60f726e09af556b42d1d4b843602f8c0b35eab718ddc78f60",
+      "evidence": "The map a↦a with domain/codomain A is explicit. Neutrality under composition and inverse properties are consequences.",
+      "previous_prerequisites": [
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "shared-foundations/binary-operation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "13c6fc1c934be83498fd87a0644e0f2ffa58a88abb4b4605fe998a5cebf305ea",
+      "evidence": "The function S×S→S specifies closure and two inputs; no algebraic laws are silently imposed.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/cartesian-product"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/cartesian-product"
+      ]
+    },
+    {
+      "id": "shared-foundations/composition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4119b46a26b83c89f751f0259b21f72308832e4e7d1729f0c73d384a81cf853e",
+      "evidence": "For matching source/target functions the pointwise formula defines composition; associativity and identity laws are later.",
+      "previous_prerequisites": [
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "shared-foundations/image",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a287e72853bd2d257e5b0fbe2faa716d9768fee93485c1b6e8149d9d8f3e4a8",
+      "evidence": "The set of attained values on S is explicit; range is the S=A case, surjectivity a later property.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "shared-foundations/preimage",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec57dcde9aace8bd2376a788a685f13857c9e192dadc9fcc8ebabacd7091a2aa",
+      "evidence": "Membership f(a)∈T defines preimage for arbitrary functions, explicitly independent of an inverse function.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "shared-foundations/power-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1fc7e0677688e02afe647791092ad0eb5efc1eeb88a2c445ac6f820d54111b6",
+      "evidence": "All subsets of A define the power set; both set and subset are present, with correct empty-set example.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "shared-foundations/restriction-of-a-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b62d5c83a09a4d223e7bce0bf9d36abce4eff35c64e38d6b6b9bddc8d222e76",
+      "evidence": "Restriction retains the codomain while replacing only the domain by S; the graph description agrees with this convention.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "shared-foundations/natural-numbers",
+      "outcome": "corrected",
+      "source_sha256": "0055d83952a5408a9a85f93aa55a03af7829074add541d331384a1e8091c733a",
+      "evidence": "Replaced ellipsis-only description by the Peano successor axioms, with full subset induction and explicit zero convention. Function/set/subset are the direct axiomatic inputs; induction theorem remains a later link.",
+      "previous_prerequisites": [
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "topology/nowhere-dense-set",
+      "outcome": "corrected",
+      "source_sha256": "7163e5aa1388f369951f34e4e24846122c72be9ddb8d1cb9c971955c221cf38a",
+      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0∈N; require n≥1 to avoid division by zero.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/interior",
+        "topology/closure",
+        "shared-foundations/empty-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/interior",
+        "topology/closure",
+        "shared-foundations/empty-set"
+      ]
+    },
+    {
+      "id": "topology/limit-point",
+      "outcome": "corrected",
+      "source_sha256": "3353a017605c0ea9e1ac628e4f3c925ce42092b83bc29154ad4374c9446733e9",
+      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0∈N; require n≥1 to avoid division by zero.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "topology/derived-set",
+      "outcome": "corrected",
+      "source_sha256": "63bfe57049d1956f03d7e3bbcc5ef4b70e56b218aaf162a1ff41477feb7f807b",
+      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0∈N; require n≥1 to avoid division by zero.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/limit-point"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/limit-point"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-chart-coordinate-chart",
+      "outcome": "corrected",
+      "source_sha256": "c47f1ef70ce2beeee3005f247b52bd859153f3f476f28eb6d6ce4f0e5b6505c6",
+      "evidence": "Distinguished topological coordinate charts from charts belonging to a smooth structure; restored the covering condition for an atlas and moved explanatory coordinates after the definition.",
+      "previous_prerequisites": [
+        "topology/topological-manifold",
+        "topology/homeomorphism",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/topological-manifold",
+        "topology/homeomorphism",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-chart",
+      "outcome": "corrected",
+      "source_sha256": "15a1684e00261cbbdd1a9e94dbdc5f131233e618d5f9a004aeea888716304fa3",
+      "evidence": "Defined smooth charts by membership in the chosen maximal atlas, eliminating the circular route through diffeomorphisms and smooth maps. Corrected the compatibility criterion to require both transition directions.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-map",
+      "outcome": "corrected",
+      "source_sha256": "c579901f4462b4a45c9f8567578db0034206d1b96de2933cd951c58acc092551",
+      "evidence": "Required charts from the selected smooth structures rather than arbitrary topological charts; linked the independent Euclidean C-infinity definition. Moved coordinate independence and differential consequences out of the defining core.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-atlas"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart",
+        "real-analysis/class-ck-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-atlas",
+      "outcome": "corrected",
+      "source_sha256": "4a41c53b85acf9c515c87d1e90a660f006a226de80b071f445e5bdc38e9c1ea6",
+      "evidence": "Atlas transition regularity is Euclidean C-infinity, independent of smooth maps on manifolds; retained coverage and both ordered transition directions. Moved generated-structure discussion after the core.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/coordinate-transition-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/coordinate-transition-map",
+        "real-analysis/class-ck-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-compatibility-of-charts-and-atlases",
+      "outcome": "corrected",
+      "source_sha256": "65f50267b171f629401e8710217c60ae5e93a8937dc87b97565c5063861a3708",
+      "evidence": "Chart compatibility requires Euclidean smoothness in both directions; an atlas is not an input to this definition. Atlas compatibility is retained as its extension in a later section.",
+      "previous_prerequisites": [
+        "fiber-bundles/coordinate-transition-map",
+        "fiber-bundles/smooth-atlas"
+      ],
+      "prerequisites": [
+        "fiber-bundles/coordinate-transition-map",
+        "real-analysis/class-ck-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-manifold",
+      "outcome": "corrected",
+      "source_sha256": "2724c8154c357431dd0da6876dde5c55eca602e21644453ffc4556a91e8ae9d8",
+      "evidence": "Used the equipped-topological-manifold definition without repeating atlas and topology axioms. Corrected the Euclidean example to use the maximal structure generated by its one chart.",
+      "previous_prerequisites": [
+        "topology/topological-manifold",
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/smooth-structure"
+      ],
+      "prerequisites": [
+        "topology/topological-manifold",
+        "fiber-bundles/smooth-structure"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-structure",
+      "outcome": "corrected",
+      "source_sha256": "353d37c7a6c3eab75bead726f5f9435eabc5e8869386d3e8e468b3f2b4e8c3e1",
+      "evidence": "The defining object is precisely a maximal smooth atlas; compatible-atlas equivalence is an alternative construction, not an additional prerequisite.",
+      "previous_prerequisites": [
+        "fiber-bundles/maximal-smooth-atlas",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-compatibility-of-charts-and-atlases"
+      ],
+      "prerequisites": [
+        "fiber-bundles/maximal-smooth-atlas"
+      ]
+    },
+    {
+      "id": "real-analysis/class-ck-map",
+      "outcome": "corrected",
+      "source_sha256": "ca838f732b24fb84a756a27115a9229b56d172d44a9891b412f7c07d5649b64a",
+      "evidence": "Added the explicit all-finite-orders definition of C-infinity needed by smooth atlases, and separated derivative representations and Schwarz theorem from the defining core.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/partial-derivative",
+        "topology/open-set",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/partial-derivative",
+        "topology/open-set",
+        "topology/continuous-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/maximal-smooth-atlas",
+      "outcome": "corrected",
+      "source_sha256": "f885d198fdc968ac2c03b96546e2a2aaaa3a69750413dad94ecd5432779ee843",
+      "evidence": "Maximality uses atlas plus two-way chart compatibility. Generated-atlas uniqueness is a consequence. Kept maximal atlas as the construction and smooth structure as its geometric interpretation.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-compatibility-of-charts-and-atlases"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-compatibility-of-charts-and-atlases"
+      ]
+    },
+    {
+      "id": "fiber-bundles/coordinate-transition-map",
+      "outcome": "corrected",
+      "source_sha256": "110162674f3475b681b4f647655cded7d58b055afe6030d9280b96b687a1e5f7",
+      "evidence": "The defining composition is restricted to the overlap images; chart, composition and inverse prerequisites are correct. Moved regularity consequences after the core.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "shared-foundations/composition",
+        "shared-foundations/inverse-function"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "shared-foundations/composition",
+        "shared-foundations/inverse-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle",
+      "outcome": "corrected",
+      "source_sha256": "3ae131a8ade7e6813440e014beb55ddf38242f2a77bfdac4f90f65bc7c3fa66a",
+      "evidence": "Rechecked full construction and examples. The defining total-space atlas must be induced from smooth charts, not arbitrary topological charts. Defined its smooth structure by these charts without presupposing diffeomorphisms; vector-bundle local triviality remains a consequence.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/smooth-chart-coordinate-chart"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/smooth-chart"
+      ]
+    },
+    {
+      "id": "convex-analysis/linear-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27dbdb16770869531dd64aeface337efba5c48413366d84716fbfd65f34f48a0",
+      "evidence": "The zero/addition/scalar closure axioms use only the ambient vector space. Infinite-series and continuous-function examples add no defining prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/subspace-generated-by-a-set-span",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2c8c6f2ddef61e2715710cc07f8c2c84f89adb548c3b3767d437197661b4f89",
+      "evidence": "The intersection definition uses ambient vector space and linear subspaces; the finite-combination characterization is correctly a later theorem, not a prerequisite.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/intersection"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/intersection"
+      ]
+    },
+    {
+      "id": "convex-analysis/linear-combination",
+      "outcome": "corrected",
+      "source_sha256": "2f1021950552675ff6228c200c9e2eade30b685f6c0a10c2a51aceeba971cbc2",
+      "evidence": "Retained finite algebraic sums and vector-space prerequisite; clarified basis uniqueness to concern coefficients rather than arbitrary presentations with zero terms or reordered vectors.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+      "outcome": "corrected",
+      "source_sha256": "545dd6d4d3ebf18f233890fa50bb4f7724d9d85096b6b112224128123c3ca53c",
+      "evidence": "Made distinctness of selected set elements explicit to rule out false dependencies from repeated vectors; vector-space and finite-combination inputs remain correct.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-combination"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-combination"
+      ]
+    },
+    {
+      "id": "convex-analysis/basis-hamel-basis-and-dimension",
+      "outcome": "corrected",
+      "source_sha256": "82fb146917aec7c6a3173aa66feb549088e5c4d588f3a10269bdf641dcaad56b",
+      "evidence": "The basis core uses independence and spanning. Moved dimension to its own expandable section, preserving the finite/infinite distinction and choice caveat.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+        "convex-analysis/subspace-generated-by-a-set-span"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+        "convex-analysis/subspace-generated-by-a-set-span"
+      ]
+    },
+    {
+      "id": "shared-foundations/partial-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f592c6511a5dd9af9e0007fcb44466780eed695e701805ed221583fb23cd91ba",
+      "evidence": "Verified reflexivity, antisymmetry and transitivity for a relation on a set; divisibility example remains valid with zero included in natural numbers.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/relation",
+        "shared-foundations/cartesian-product"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/relation",
+        "shared-foundations/cartesian-product"
+      ]
+    },
+    {
+      "id": "shared-foundations/total-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4864133d252820871745202f6bd0666f8863f4c8521fd3e27182c578113a940",
+      "evidence": "Comparability is the sole added axiom beyond a partial order; lexicographic example specifies the associated strict relation correctly.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/partial-order"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/partial-order"
+      ]
+    },
+    {
+      "id": "shared-foundations/upper-bound",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "823f953c643ed978899db40423ae73bba1b441269e00a6f85c6193b8e7046176",
+      "evidence": "Definition quantifies over the subset and requires the bound to lie in the ambient poset; least-upper-bound notions are downstream.",
+      "previous_prerequisites": [
+        "shared-foundations/partial-order"
+      ],
+      "prerequisites": [
+        "shared-foundations/partial-order"
+      ]
+    },
+    {
+      "id": "shared-foundations/rational-numbers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fea660e3ef9c0a8c9848ac6d2566b84684c1567bb120784490d11e869958e866",
+      "evidence": "Fractions use integer numerators and nonzero denominators with cross-multiplication identification; quotient-set language is an optional formalization in remarks.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/integers"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/integers"
+      ]
+    },
+    {
+      "id": "shared-foundations/real-numbers",
+      "outcome": "corrected",
+      "source_sha256": "6540fcab3d3ff5f699ff759458c6771abe1ea040806bff479d4ae5a1c84cf324",
+      "evidence": "The complete ordered field definition explicitly needs the field axioms, previously absent from prerequisites; total order and upper bounds remain necessary. Rational inclusion is explanatory rather than an extra axiom.",
+      "previous_prerequisites": [
+        "shared-foundations/rational-numbers",
+        "shared-foundations/total-order",
+        "shared-foundations/upper-bound"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "shared-foundations/total-order",
+        "shared-foundations/upper-bound"
+      ]
+    },
+    {
+      "id": "shared-foundations/real-numbers",
+      "outcome": "corrected",
+      "source_sha256": "9bd8012e3fa6e17c8050377442c6085c0f2ab0a162ed3ef8af777b3b1373e62d",
+      "evidence": "Removed rational containment from the axiomatic core: the canonical rational embedding follows from the ordered-field axioms and is explained in remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "shared-foundations/total-order",
+        "shared-foundations/upper-bound"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "shared-foundations/total-order",
+        "shared-foundations/upper-bound"
+      ]
+    },
+    {
+      "id": "fiber-bundles/connection-1-form-on-a-principal-bundle",
+      "outcome": "corrected",
+      "source_sha256": "e82063ab3a472429ed71a7baab07d33cf7ab6ffcd8cf86fcb1e903869d99cc8b",
+      "evidence": "Reproduction and equivariance define the connection form. Added pullback of forms for the equivariance axiom; vertical-subbundle splitting is a later equivalent description, moved out of the core.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action",
+        "fiber-bundles/reproduction-property-x",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "fiber-bundles/vertical-subbundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action",
+        "fiber-bundles/reproduction-property-x",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "fiber-bundles/pullback-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-of-a-principal-connection",
+      "outcome": "corrected",
+      "source_sha256": "b34565fd6e451133e2acce2aaff3e767a8c38c8d7e3fe1a69475f4bd0939295a",
+      "evidence": "Curvature is constructed from a connection form, exterior derivative and bracket-wedge operation. Removed the redundant principal-horizontal-connection prerequisite, made the factor-two bracket convention explicit, and moved horizontality/equivariance consequences to a later section.",
+      "previous_prerequisites": [
+        "fiber-bundles/connection-1-form-on-a-principal-bundle",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/lie-bracket",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/connection-1-form-on-a-principal-bundle",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/lie-bracket",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "linear-algebra/euclidean-space",
+      "outcome": "corrected",
+      "source_sha256": "b398016064a77744cc582b82b24e901ef395eb4b9e0bc73a1bb19f5a67a10281",
+      "evidence": "Rechecked core after correction: Euclidean space explicitly requires a real inner-product space and finite dimension; it is not primitive. Added both defining prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/inner-product-space",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/inner-product-space",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "fiber-bundles/reproduction-property-x",
+      "outcome": "corrected",
+      "source_sha256": "6c4d5456a21f0fe53171e9b7a2bd2e38685c6a1c3c96137030a1c94ad1ec144f",
+      "evidence": "Rechecked arbitrary Lie-algebra-valued one-form formulation to avoid connection-definition circularity; corrected fundamental vector in product-bundle example from right to left translation.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/differential-k-form",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/differential-k-form",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tensor-product-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "c7f56eea679016dd699682164d4544fafe8ff306515b611244ad4cd858654a44",
+      "evidence": "Rechecked tensor-product frame construction rather than mere fiber isomorphisms; uses existing module tensor product over a field and the two given vector bundles.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "algebra-modules/tensor-product"
+      ]
     }
   ]
 }

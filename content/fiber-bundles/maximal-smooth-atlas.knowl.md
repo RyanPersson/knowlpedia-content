@@ -7,8 +7,8 @@ aliases = ["maximal atlas", "maximal compatible smooth atlas", "maximal smooth s
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
 prerequisites = ["fiber-bundles/smooth-atlas", "fiber-bundles/smooth-compatibility-of-charts-and-atlases"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a topological manifold. A [[fiber-bundles/smooth-atlas|smooth
@@ -16,6 +16,8 @@ atlas]] \(\mathcal A\) on \(M\) is a **maximal smooth atlas** if every chart
 on \(M\) that is [[fiber-bundles/smooth-compatibility-of-charts-and-atlases|smoothly
 compatible]] with every chart of \(\mathcal A\) already belongs to
 \(\mathcal A\).
+
+## Equivalent characterization
 
 Equivalently, \(\mathcal A\) is not properly contained in any other smooth
 atlas on \(M\).

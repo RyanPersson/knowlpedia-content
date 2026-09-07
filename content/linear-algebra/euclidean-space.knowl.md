@@ -6,7 +6,7 @@ summary = "A finite-dimensional real inner product space."
 aliases = ["euclidean-space", "Euclidean space"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/euclidean-space.md"
-prerequisites = []
+prerequisites = ["linear-algebra/inner-product-space", "convex-analysis/basis-hamel-basis-and-dimension"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

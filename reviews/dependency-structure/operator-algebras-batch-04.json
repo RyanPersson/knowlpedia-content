@@ -1,0 +1,680 @@
+{
+  "scope": "operator-algebras alphabetical batch 04 (entries 111-150)",
+  "review_type": "dependencies",
+  "reviewed_at": "2026-09-07",
+  "reviews": [
+    {
+      "id": "operator-algebras/group-cstar-representation-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f2ce9750058c97b25b7b1787ea08cf5134f1089a0b74c960b1e4c7ced2d148a",
+      "previous_prerequisites": [
+        "topology/locally-compact-group",
+        "lie-groups/strongly-continuous-unitary-representation",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "operator-algebras/full-group-cstar-algebra"
+      ],
+      "prerequisites": [
+        "topology/locally-compact-group",
+        "lie-groups/strongly-continuous-unitary-representation",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "operator-algebras/full-group-cstar-algebra"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/group-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86691539c9c3496c2efedc0a1193ae4c1b72d5102c5ad20c6d27ae0724ae4724",
+      "previous_prerequisites": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/haar-measure",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "operator-algebras/weak-operator-topology",
+        "operator-algebras/von-neumann-bicommutant-theorem"
+      ],
+      "prerequisites": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/haar-measure",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "operator-algebras/weak-operator-topology",
+        "operator-algebras/von-neumann-bicommutant-theorem"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/hereditary-cstar-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "03ee030ceff537986d2dd3402bdac3eac8fb50d4050f914a5ef74008036f69c1",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-subalgebra",
+        "operator-algebras/positive-element",
+        "operator-algebras/closed-two-sided-ideal"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-subalgebra",
+        "operator-algebras/positive-element",
+        "operator-algebras/closed-two-sided-ideal"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/hilbert-cstar-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e1416e93b7a227bf61264d87b4a029fe2407c04c85644d480c659cb063e4ce7",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-modules/module"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/hull-kernel-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "041b60fdd1e605ed7fb19c1cd6bcdff31c56c6a5b396412f7833b65dd6d4061e",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-rings/two-sided-ideal",
+        "shared-foundations/empty-set"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-rings/two-sided-ideal",
+        "shared-foundations/empty-set"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/hyperfinite-ii-one-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f76a4066e25a226d774d397ca4caf53ec10b02e4ad3b25e923814c3f36eda8a",
+      "previous_prerequisites": [
+        "operator-algebras/type-ii-one-factor",
+        "operator-algebras/strong-operator-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/type-ii-one-factor",
+        "operator-algebras/strong-operator-topology"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/imprimitivity-bimodule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e853cf537134f6f23a880aeaeed1a4e260bc0fd7df4bc1ab321524309eb3203",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "algebra-modules/bimodule",
+        "operator-algebras/compact-operator-hilbert-module"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "algebra-modules/bimodule",
+        "operator-algebras/compact-operator-hilbert-module"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/infinite-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c03b10db02cf2bd2acd5d3e188a1c8c4cb77e9848fc84cf6fb5bda8585107aad",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "functional-analysis/partial-isometry",
+        "operator-algebras/finite-projection"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "functional-analysis/partial-isometry",
+        "operator-algebras/finite-projection"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/integrated-form-covariant-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aba901edaa4f736aa0793356df7d130f77fc3bc782702548a88ce3646af1380b",
+      "previous_prerequisites": [
+        "operator-algebras/covariant-representation-cstar-dynamical-system",
+        "harmonic-analysis/haar-measure",
+        "operator-algebras/crossed-product-convolution-star-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/covariant-representation-cstar-dynamical-system",
+        "harmonic-analysis/haar-measure",
+        "operator-algebras/crossed-product-convolution-star-algebra"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/internal-tensor-product-correspondences",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "668ebd6399c421a8ac18a4a7d105f44098552e7dbffcc8655e1fb284f5d688df",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "algebra-modules/tensor-product"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/involutive-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a3528d851c1fc2db70e12141b41c12475ef121c31c6728057aee95453685e2c",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-conjugate"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-conjugate"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/irreducible-cstar-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9ffaffe31648521b79bd8344032630ba3df762520d1d3e83889182b20fba096",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-representation",
+        "linear-algebra/orthogonal-complement"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-representation",
+        "linear-algebra/orthogonal-complement"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/k0-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "394bd28187fb3edac87170b886b577ca41abfc9672b4e8ccde25d5c9e2ee1ec9",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "operator-algebras/projection-cstar-algebra",
+        "operator-algebras/unitization"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "operator-algebras/projection-cstar-algebra",
+        "operator-algebras/unitization"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/k1-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f392fd8c9a41041f18bec88ad705a7a8c251504531b82cb57588e343570c09eb",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/unitary-element",
+        "operator-algebras/matrix-cstar-algebra",
+        "operator-algebras/unitization",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/unitary-element",
+        "operator-algebras/matrix-cstar-algebra",
+        "operator-algebras/unitization",
+        "linear-algebra/matrix"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/kadison-schwarz-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7efcfe1714927b6badffb5f908ea57736ab170681fe053437bd362565ffc2c5e",
+      "previous_prerequisites": [
+        "operator-algebras/n-positive-map",
+        "operator-algebras/unital-completely-positive-map",
+        "operator-algebras/positive-element",
+        "linear-algebra/cauchy-schwarz-inequality"
+      ],
+      "prerequisites": [
+        "operator-algebras/n-positive-map",
+        "operator-algebras/unital-completely-positive-map",
+        "operator-algebras/positive-element",
+        "linear-algebra/cauchy-schwarz-inequality"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/kasparov-stabilization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d90c93d378b8c9f317818eaffa7d56885175379ebc2e8f55e049b11772146463",
+      "previous_prerequisites": [
+        "operator-algebras/countably-generated-hilbert-cstar-module",
+        "operator-algebras/standard-hilbert-cstar-module",
+        "operator-algebras/adjointable-operator-hilbert-module"
+      ],
+      "prerequisites": [
+        "operator-algebras/countably-generated-hilbert-cstar-module",
+        "operator-algebras/standard-hilbert-cstar-module",
+        "operator-algebras/adjointable-operator-hilbert-module"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/kernel-of-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "28497070b051ced6ff355f80f25909e8c48b3e65b8048311b35af265db50426f",
+      "previous_prerequisites": [
+        "operator-algebras/star-homomorphism",
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal",
+        "linear-algebra/closed-linear-subspace"
+      ],
+      "prerequisites": [
+        "operator-algebras/star-homomorphism",
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal",
+        "linear-algebra/closed-linear-subspace"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/left-ideal-of-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a298a713856f002f89ca69d963457dea668ff3102a0120808aa4b09ac4f32a66",
+      "previous_prerequisites": [
+        "operator-algebras/weight-on-von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/weight-on-von-neumann-algebra"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/liminal-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "454b7095589515e5589925855781c0d5247d68d740845814e0aee43c31048bd3",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/irreducible-cstar-representation",
+        "operator-algebras/compact-operator-cstar-algebra",
+        "algebra-representation-theory/irreducible-representation",
+        "operator-algebras/elementary-cstar-algebra",
+        "linear-algebra/compact-operator"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/irreducible-cstar-representation",
+        "operator-algebras/compact-operator-cstar-algebra",
+        "algebra-representation-theory/irreducible-representation",
+        "operator-algebras/elementary-cstar-algebra",
+        "linear-algebra/compact-operator"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/liminal-implies-type-i",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af29ff5433c98ca19649fdb17a11270f21baaa5e84808ce4e0511c19503addb9",
+      "previous_prerequisites": [
+        "operator-algebras/liminal-cstar-algebra",
+        "operator-algebras/type-i-cstar-algebra",
+        "operator-algebras/irreducible-cstar-representation"
+      ],
+      "prerequisites": [
+        "operator-algebras/liminal-cstar-algebra",
+        "operator-algebras/type-i-cstar-algebra",
+        "operator-algebras/irreducible-cstar-representation"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/linking-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a13cc9763ee5ac8ffc84804ebe75fa7b7303ad40b61dfdeac2f99f116d69df7f",
+      "previous_prerequisites": [
+        "operator-algebras/imprimitivity-bimodule",
+        "operator-algebras/compact-operator-hilbert-module"
+      ],
+      "prerequisites": [
+        "operator-algebras/imprimitivity-bimodule",
+        "operator-algebras/compact-operator-hilbert-module"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/local-lifting-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9022827a9b15ba11fbf5c198455b0b6efafece5b4398f91bbc3707ee4ddde483",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-rings/two-sided-ideal",
+        "operator-algebras/completely-positive-map",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-rings/two-sided-ideal",
+        "operator-algebras/completely-positive-map",
+        "convex-analysis/linear-subspace"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/local-reflexivity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a28c625187205333898207320de33553d0245a3da9a88325de9208d7ae2e68d",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/completely-bounded-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/completely-bounded-map"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/lower-semicontinuous-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4b721c49d1330f218092b4cc41d938823ef5b83c6fb1f2f7bfbed96f28f05f8e",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/marcinkiewicz-macaev-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f997f57f45ceaf41e7722578fe8ff472ab5aebb2027961ab17690ab38bb6b63",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/singular-values",
+        "linear-algebra/compact-operator",
+        "real-analysis/partial-sums"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/singular-values",
+        "linear-algebra/compact-operator",
+        "real-analysis/partial-sums"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/matrix-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76ba13f16db7e804e3879e2cdca8f20914e706151cdcaea219954375f6c729bd",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/operator-norm",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/operator-norm",
+        "linear-algebra/matrix"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/maximal-cstar-seminorm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62a5c210b7839e47e23e51c13091cdf076d7ef5ffdee04e3da8f58224c80644b",
+      "previous_prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/cstar-representation",
+        "convex-analysis/seminorm"
+      ],
+      "prerequisites": [
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/cstar-representation",
+        "convex-analysis/seminorm"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/maximal-cstar-tensor-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9e17e5f67916eb3323e66b3b51a34c97364e4ed7eb5427b36da97034d5ee843",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/cstar-representation",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/cstar-tensor-norm"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/cstar-representation",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/cstar-tensor-norm"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/measurable-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c611f9d0ade2fba40a13f655c3dbad1d9f017ca90c626bdfd9ca1600b1cf5042",
+      "previous_prerequisites": [
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/affiliated-operator",
+        "operator-algebras/finite-projection"
+      ],
+      "prerequisites": [
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/affiliated-operator",
+        "operator-algebras/finite-projection"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/minimal-cstar-tensor-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c44fbb78abed48263a35525452dc690805acceceed8da8c771eb321ed23d0d98",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "operator-algebras/cstar-tensor-norm"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "operator-algebras/cstar-tensor-norm"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/minimal-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "820f9b53c013bc4ac1e131fdb6feb71fd9e5c17d91ccc69495aa71ffb0ff1325",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/modular-automorphism-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a70b2d4abea5ae8a4d097a4213871509f1aa21acce64473be83fdb718245f4d7",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-semifinite-faithful-weight",
+        "operator-algebras/modular-operator",
+        "operator-algebras/gns-construction-for-weight",
+        "operator-algebras/standard-form",
+        "operator-algebras/tomita-takesaki-theorem"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-semifinite-faithful-weight",
+        "operator-algebras/modular-operator",
+        "operator-algebras/gns-construction-for-weight",
+        "operator-algebras/standard-form",
+        "operator-algebras/tomita-takesaki-theorem"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/modular-conjugation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25fcc2f26cb97811b879724d6ab9e3ac580fe483c5c1df41d4db7c0d712a461b",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator",
+        "operator-algebras/modular-operator"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator",
+        "operator-algebras/modular-operator"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/modular-kms-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "201a30aca18226a2c20c343020ed65f52e321d2ab61a85be47881ae641e3fe1b",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/faithful-normal-state",
+        "operator-algebras/modular-automorphism-group",
+        "operator-algebras/entire-analytic-element-one-parameter-automorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/faithful-normal-state",
+        "operator-algebras/modular-automorphism-group",
+        "operator-algebras/entire-analytic-element-one-parameter-automorphism"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/modular-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f1f1badb5c1ce6789dc5d85176ca82bf8357654f6d0d2737c014b6b681e330e",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/multiplier-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41fa4f987cadfbf074a5dc02e31eec33029e1916fdbd0a30cec897f09089ceb9",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/double-centralizer",
+        "linear-algebra/linear-map",
+        "operator-algebras/essential-ideal"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/double-centralizer",
+        "linear-algebra/linear-map",
+        "operator-algebras/essential-ideal"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/multiplier-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c49e7dae72804ea641354740c238ff2f1d6d852783f3a13f016e268a4318778c",
+      "previous_prerequisites": [
+        "operator-algebras/hilbert-cstar-module",
+        "operator-algebras/adjointable-operator-hilbert-module",
+        "operator-algebras/multiplier-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/hilbert-cstar-module",
+        "operator-algebras/adjointable-operator-hilbert-module",
+        "operator-algebras/multiplier-algebra"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/murray-von-neumann-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "948c68a75ea7e3c8386a12551c83eb72f64497ff6ff8a8590a61c52927807fe3",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/projection-cstar-algebra",
+        "functional-analysis/partial-isometry",
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/projection-cstar-algebra",
+        "functional-analysis/partial-isometry",
+        "operator-algebras/cstar-algebra"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/murray-von-neumann-subequivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6dbfe7bba8ac4071d8fb4dedc22451ffb82ca28b6342f3c73ef51adfb677952b",
+      "previous_prerequisites": [
+        "operator-algebras/murray-von-neumann-equivalence",
+        "functional-analysis/partial-isometry"
+      ],
+      "prerequisites": [
+        "operator-algebras/murray-von-neumann-equivalence",
+        "functional-analysis/partial-isometry"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    },
+    {
+      "id": "operator-algebras/n-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af8ca0a713118b8a6a8b86f16b2cb75cd3cae2fae26671a7b67a8acfe63439c0",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/positive-linear-map",
+        "operator-algebras/matrix-cstar-algebra",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/positive-linear-map",
+        "operator-algebras/matrix-cstar-algebra",
+        "linear-algebra/matrix"
+      ],
+      "evidence": "Full-source dependency review found the direct prerequisites sufficient; downstream applications and explanatory links were not promoted to prerequisites."
+    }
+  ],
+  "summary": {
+    "reviewed": 40,
+    "corrected": 0,
+    "reviewed_unchanged": 40
+  }
+}

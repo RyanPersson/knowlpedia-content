@@ -1,0 +1,218 @@
+ {
+   "scope": "Foundational algebra dependency structure (category, groups, rings)",
+   "review_type": "dependencies",
+   "reviewed_at": "2026-09-07",
+   "reviews": [
+     {
+       "id": "algebra-category-theory/category",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "5a1a198e42301058d67e79bd83bdc65486a54db0d60f835cf0b71f18273bb92f",
+       "previous_prerequisites": [],
+       "prerequisites": [],
+       "evidence": "Category is the foundational structure that introduces objects, morphisms, composition, and identities; the component knowls depend on Category, so adding edges back to those components would create direct DAG cycles."
+     },
+     {
+       "id": "algebra-groups/abelian-group",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "5c3f70d6100aaf22c3135b16a24bb072b646f13b31b1f3b8d739036117b8e48c",
+       "previous_prerequisites": [
+         "algebra-groups/group"
+       ],
+       "prerequisites": [
+         "algebra-groups/group"
+       ],
+       "evidence": "The core is exactly a group together with commutativity; the group prerequisite is sufficient."
+     },
+     {
+       "id": "algebra-groups/automorphism-group",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "2183764bb11dc1c19681e301e92790dd2371478c1bfbce213b34720d0729c051",
+       "previous_prerequisites": [
+         "algebra-groups/group",
+         "algebra-groups/group-isomorphism",
+         "shared-foundations/composition",
+         "shared-foundations/inverse-function"
+       ],
+       "prerequisites": [
+         "algebra-groups/group",
+         "algebra-groups/group-isomorphism",
+         "shared-foundations/composition",
+         "shared-foundations/inverse-function"
+       ],
+       "evidence": "The core is the group of self-isomorphisms under composition and inverse maps; all four listed prerequisites are directly used."
+     },
+     {
+       "id": "algebra-groups/group",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "ef1aa8cc35b8c1200463bd20d2860c161ac735fe51b6349cf4249fe0fbb586b6",
+       "previous_prerequisites": [
+         "shared-foundations/set",
+         "shared-foundations/binary-operation",
+         "algebra-groups/monoid"
+       ],
+       "prerequisites": [
+         "shared-foundations/set",
+         "shared-foundations/binary-operation",
+         "algebra-groups/monoid"
+       ],
+       "evidence": "The core presents a set, binary operation, and monoid plus inverses; these are direct prerequisites, while subgroup and homomorphism are later remarks."
+     },
+     {
+       "id": "algebra-groups/group-action",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "cee6310a4900e0adde46d87e8afeb56f88a2762434de6ee931042d6da9cc195e",
+       "previous_prerequisites": [
+         "algebra-groups/group",
+         "shared-foundations/set",
+         "shared-foundations/function"
+       ],
+       "prerequisites": [
+         "algebra-groups/group",
+         "shared-foundations/set",
+         "shared-foundations/function"
+       ],
+       "evidence": "The core takes a group, set, and function and imposes the action laws; the listed prerequisites are direct."
+     },
+     {
+       "id": "algebra-groups/group-homomorphism",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "87074a7ce85a39c3b6d4af6d22c4214e3597e5b7ed2defcd8de0448b19b1d495",
+       "previous_prerequisites": [
+         "algebra-groups/group",
+         "shared-foundations/function"
+       ],
+       "prerequisites": [
+         "algebra-groups/group",
+         "shared-foundations/function"
+       ],
+       "evidence": "The core is a function between groups preserving products; kernel, image, and isomorphism theorem are downstream remarks."
+     },
+     {
+       "id": "algebra-groups/group-isomorphism",
+       "outcome": "corrected",
+       "source_sha256": "0274b52da97f363fcfc596bc66322579223856e2bb7a8bed72db2446a1829d58",
+       "previous_prerequisites": [
+         "algebra-groups/group-homomorphism",
+         "shared-foundations/bijective-function"
+       ],
+       "prerequisites": [
+         "algebra-groups/group-homomorphism",
+         "shared-foundations/bijective-function",
+         "shared-foundations/inverse-function"
+       ],
+       "evidence": "The definition uses a group homomorphism and bijectivity, and immediately relies on the inverse-function notion to state that the inverse is a homomorphism."
+     },
+     {
+       "id": "algebra-groups/monoid",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "0ae5180fee45dcee86e56ebb58ddf575bbc291946778e5306486de808d0b20a2",
+       "previous_prerequisites": [
+         "algebra-groups/semigroup"
+       ],
+       "prerequisites": [
+         "algebra-groups/semigroup"
+       ],
+       "evidence": "The core is a semigroup with an identity element, but no standalone identity-element knowl exists in the corpus; semigroup is the complete available prerequisite."
+     },
+     {
+       "id": "algebra-groups/semigroup",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "9f223b6b6d927c88892d350cb431644d4640686f8015d015703266326875cf82",
+       "previous_prerequisites": [
+         "shared-foundations/set",
+         "shared-foundations/binary-operation"
+       ],
+       "prerequisites": [
+         "shared-foundations/set",
+         "shared-foundations/binary-operation"
+       ],
+       "evidence": "The core is a set with an associative binary operation; monoid and group are stronger downstream structures."
+     },
+     {
+       "id": "algebra-rings/commutative-ring",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "9e56356dc5ab7fbeb18b455264a660f01a81af23299567ab1d49ab6c805d4acc",
+       "previous_prerequisites": [
+         "algebra-rings/ring"
+       ],
+       "prerequisites": [
+         "algebra-rings/ring"
+       ],
+       "evidence": "The core adds commutativity to a ring; the ring prerequisite is sufficient and stronger unital/field cases are downstream."
+     },
+     {
+       "id": "algebra-rings/field",
+       "outcome": "corrected",
+       "source_sha256": "fc6a100039fe7bd765a666cbb2234e05cd7be53440110b0029004e2537c55039",
+       "previous_prerequisites": [
+         "algebra-rings/commutative-ring",
+         "algebra-rings/unit"
+       ],
+       "prerequisites": [
+         "algebra-rings/commutative-ring",
+         "algebra-rings/unital-ring",
+         "algebra-rings/unit"
+       ],
+       "evidence": "The core explicitly requires a commutative unital ring and units for all nonzero elements; unital-ring is direct under the corpus convention that rings may be nonunital."
+     },
+     {
+       "id": "algebra-rings/ring",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "f769c98171cbb645623e7e77b25c7da01326af945d4fbceca44adef3d767f023",
+       "previous_prerequisites": [
+         "shared-foundations/binary-operation",
+         "algebra-groups/abelian-group",
+         "algebra-rings/ring-axioms"
+       ],
+       "prerequisites": [
+         "shared-foundations/binary-operation",
+         "algebra-groups/abelian-group",
+         "algebra-rings/ring-axioms"
+       ],
+       "evidence": "The core uses two binary operations, an additive abelian group, and the ring axiom package; unital and commutative rings are downstream specializations."
+     },
+     {
+       "id": "algebra-rings/ring-axioms",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "8514c0406eaadf6bb1b7f5c82bec754a15d72d00425dac6be889b9c147caa991",
+       "previous_prerequisites": [
+         "shared-foundations/binary-operation",
+         "algebra-groups/abelian-group"
+       ],
+       "prerequisites": [
+         "shared-foundations/binary-operation",
+         "algebra-groups/abelian-group"
+       ],
+       "evidence": "The axiom package directly uses binary operations and an additive abelian group; ring is the structure defined by these axioms and must remain downstream."
+     },
+     {
+       "id": "algebra-rings/unit",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "f39ae750f757d7b2a0db7cc6c1d7e7bca0eaf6810565cb92df63591b21666a33",
+       "previous_prerequisites": [
+         "algebra-rings/unital-ring"
+       ],
+       "prerequisites": [
+         "algebra-rings/unital-ring"
+       ],
+       "evidence": "The core defines a unit inside a unital ring; commutative ring and field are later applications."
+     },
+     {
+       "id": "algebra-rings/unital-ring",
+       "outcome": "reviewed_unchanged",
+       "source_sha256": "682ad4dcfcfe3616ddaf2a4c52d9f0aacdbc755d05d32e177934255631bd4ac9",
+       "previous_prerequisites": [
+         "algebra-rings/ring"
+       ],
+       "prerequisites": [
+         "algebra-rings/ring"
+       ],
+       "evidence": "The core adds a multiplicative identity to a ring; units and fields are downstream notions."
+     }
+   ],
+   "summary": {
+     "reviewed": 15,
+    "corrected": 2,
+    "reviewed_unchanged": 13
+   }
+ }

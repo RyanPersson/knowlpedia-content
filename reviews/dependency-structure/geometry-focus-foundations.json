@@ -1,0 +1,8 @@
+{
+  "area": "partial derivative foundations",
+  "reviews": [
+    {"id":"real-analysis/partial-derivative","outcome":"corrected","source_sha256":"174fd628ccddaaa8dfed292c67aedb542e891d4c50972983ff8a12456c6e547e","prerequisites":["shared-foundations/function","real-analysis/limit-of-a-function-at-a-point","linear-algebra/euclidean-space"],"evidence":"The definition is a one-coordinate difference quotient in Euclidean spaces. A pointwise function, a vector-valued limit, and Euclidean coordinate structure are direct prerequisites; differentiability and the Jacobian are later consequences."},
+    {"id":"real-analysis/limit-of-a-function-at-a-point","outcome":"reviewed_unchanged","source_sha256":"ca7777f258a22418b919f6cfcbee945eee52b71bb32191da1a3c140953668f0e","prerequisites":["topology/metric-space","topology/limit-point","topology/neighborhood"],"evidence":"The full source gives the epsilon-delta definition between metric spaces and requires a limit point and neighborhoods; its prerequisite set directly matches those defining notions."},
+    {"id":"linear-algebra/euclidean-space","outcome":"reviewed_unchanged","source_sha256":"16772c052857c0a348d7638f8cb7523df14e307c66c88da0f9005b0aa47f08d7","prerequisites":[],"evidence":"The full source defines Euclidean space directly as a finite-dimensional real inner-product space. The vector-space and norm links are explanatory consequences, so no prerequisite edge is needed."}
+  ]
+}

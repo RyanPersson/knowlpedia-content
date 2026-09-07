@@ -6,12 +6,12 @@ summary = "The connection form evaluates to the generating Lie algebra element o
 aliases = ["reproduction-property-x", "Reproduction property"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/reproduction-property-x.md"
-prerequisites = ["fiber-bundles/vector-field"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/differential-k-form", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle and let \(\omega\in \Omega^1(P;\mathfrak{g})\) be a [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]].
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] and let \(\omega\in \Omega^1(P;\mathfrak{g})\) be a Lie-algebra-valued 1-form. (When \(\omega\) is a [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]], this condition is one of its defining axioms.)
 
 For \(X\in \mathfrak{g}\), the **fundamental vector field** \(X^\#\) is the [[fiber-bundles/vector-field|vector field]] on \(P\) defined by
 \[
@@ -28,6 +28,6 @@ This condition says that \(\omega\) restricts on each vertical space \(V_p=\ker(
 ## Examples
 1. **Maurer–Cartan form on a Lie group.** For the principal bundle \(G\to \{\ast\}\) (right action by multiplication), the left Maurer–Cartan form \(\theta=g^{-1}dg\) satisfies \(\theta(X^\#)=X\) because \(g^{-1}\frac{d}{dt}(g\exp(tX))|_{0}=X\).
 
-2. **Trivial bundle \(U\times G\).** With \(\omega=\mathrm{Ad}(g^{-1})A + g^{-1}dg\) as in a standard trivialization, a purely vertical vector at \((x,g)\) has the form \((0,(R_g)_*X)\), and one checks \(\omega(0,(R_g)_*X)=X\).
+2. **Trivial bundle \(U\times G\).** With \(\omega=\mathrm{Ad}(g^{-1})A + g^{-1}dg\) as in a standard trivialization, a purely vertical vector at \((x,g)\) has the form \((0,(L_g)_*X)\), and one checks \(\omega(0,(L_g)_*X)=X\).
 
 3. **The abelian case \(U(1)\).** Identify \(\mathfrak{u}(1)\cong i\mathbb{R}\). If \(\partial_\theta\) denotes the fundamental field for the standard \(U(1)\)-action, the reproduction property is \(\omega(\partial_\theta)=1\) (after the usual identification of \(i\mathbb{R}\) with \(\mathbb{R}\)).

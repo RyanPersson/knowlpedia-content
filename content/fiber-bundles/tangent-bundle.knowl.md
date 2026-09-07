@@ -6,9 +6,9 @@ summary = "The smooth vector bundle whose fiber at p is the tangent space T_pM."
 aliases = ["tangent-bundle", "Tangent bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tangent-bundle.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/smooth-atlas", "fiber-bundles/vector-bundle", "fiber-bundles/local-trivialization"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/smooth-chart"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(n\).
@@ -22,11 +22,13 @@ the disjoint union of all [[fiber-bundles/tangent-space-at-a-point|tangent space
 \pi: TM \to M,\qquad \pi(v)=p \ \text{for } v\in T_pM.
 \]
 
-There is a canonical smooth manifold structure on \(TM\) characterized as follows: for any [[fiber-bundles/smooth-chart-coordinate-chart|chart]] \((U,\varphi)\) on \(M\) with \(\varphi:U\to \mathbb{R}^n\), the induced map
+There is a canonical smooth manifold structure on \(TM\) characterized as follows: for any [[fiber-bundles/smooth-chart|smooth chart]] \((U,\varphi)\) on \(M\) with \(\varphi:U\to \mathbb{R}^n\), the induced map
 \[
 \pi^{-1}(U) \longrightarrow \varphi(U)\times \mathbb{R}^n
 \]
-sending a tangent vector \(v\in T_pM\) to \((\varphi(p), (v^1,\dots,v^n))\) in the coordinate basis \(\left.\frac{\partial}{\partial x^i}\right|_p\) is a diffeomorphism onto an open subset of \(\mathbb{R}^{2n}\). These charts are compatible across a [[fiber-bundles/smooth-atlas|smooth atlas]] and make \(\pi:TM\to M\) into a smooth map.
+sending a tangent vector \(v\in T_pM\) to \((\varphi(p), (v^1,\dots,v^n))\) in the coordinate basis \(\left.\frac{\partial}{\partial x^i}\right|_p\) is a smooth coordinate chart onto an open subset of \(\mathbb{R}^{2n}\). These charts are compatible across a [[fiber-bundles/smooth-atlas|smooth atlas]] and make \(\pi:TM\to M\) into a smooth map.
+
+## Consequence
 
 With this structure, \(TM\) is a rank-\(n\) [[fiber-bundles/vector-bundle|vector bundle]] over \(M\): each fiber \(\pi^{-1}(p)=T_pM\) is a vector space, and the local identifications above give smooth [[fiber-bundles/local-trivialization|local trivializations]].
 

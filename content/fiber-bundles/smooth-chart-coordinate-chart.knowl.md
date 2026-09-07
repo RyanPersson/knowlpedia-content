@@ -1,24 +1,26 @@
 +++
 id = "fiber-bundles/smooth-chart-coordinate-chart"
-title = "Smooth chart (coordinate chart)"
+title = "Coordinate chart"
 kind = "knowl"
 summary = "A homeomorphism from an open subset of a manifold to an open subset of Euclidean space, providing local coordinates."
 aliases = ["smooth-chart-coordinate-chart", "Smooth chart (coordinate chart)"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/smooth-chart-coordinate-chart.md"
 prerequisites = ["topology/topological-manifold", "topology/homeomorphism", "topology/open-set"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(M\) be an \(n\)-dimensional topological manifold (in particular, any [[fiber-bundles/smooth-manifold|smooth manifold]] has such an underlying space). A **chart** (or **coordinate chart**) on \(M\) is a pair \((U,\varphi)\) where
+Let \(M\) be an \(n\)-dimensional topological manifold. A **chart** (or **coordinate chart**) on \(M\) is a pair \((U,\varphi)\) where
 
 - \(U\subset M\) is open, and
 - \(\varphi:U\to \varphi(U)\subset \mathbb{R}^n\) is a homeomorphism onto an open subset of \(\mathbb{R}^n\).
 
+## Local coordinates and transitions
+
 The component functions of \(\varphi\) are the **local coordinates** on \(U\): writing \(\varphi(p)=(x^1(p),\dots,x^n(p))\) defines coordinate functions \(x^i:U\to\mathbb{R}\).
 
-Given two charts \((U,\varphi)\) and \((V,\psi)\) with \(U\cap V\neq\varnothing\), their [[fiber-bundles/coordinate-transition-map|coordinate transition map]] is \(\psi\circ\varphi^{-1}\) from \(\varphi(U\cap V)\) to \(\psi(U\cap V)\). A collection of charts forms a [[fiber-bundles/smooth-atlas|smooth atlas]] precisely when all such transition maps are smooth in the usual multivariable sense.
+Given two charts \((U,\varphi)\) and \((V,\psi)\) with \(U\cap V\neq\varnothing\), their [[fiber-bundles/coordinate-transition-map|coordinate transition map]] is \(\psi\circ\varphi^{-1}\) from \(\varphi(U\cap V)\) to \(\psi(U\cap V)\). A collection of charts forms a [[fiber-bundles/smooth-atlas|smooth atlas]] precisely when the chart domains cover the manifold and all such transition maps are smooth in the usual multivariable sense.
 
 ## Examples
 1. On \(\mathbb{R}^n\), the pair \((\mathbb{R}^n,\mathrm{id})\) is a global chart; restricting \(\mathrm{id}\) to any open set \(U\subset\mathbb{R}^n\) gives a chart \((U,\mathrm{id}|_U)\).

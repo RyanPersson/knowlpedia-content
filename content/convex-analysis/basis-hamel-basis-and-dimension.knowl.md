@@ -7,8 +7,8 @@ aliases = ["basis-hamel-basis-and-dimension", "Basis and dimension"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/basis-hamel-basis-and-dimension.md"
 prerequisites = ["linear-algebra/vector-space", "convex-analysis/linearly-independent-and-linearly-dependent-sets", "convex-analysis/subspace-generated-by-a-set-span"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(X\) be a [[linear-algebra/vector-space|vector space]] over \(K\), and let \(B\subset X\).
@@ -20,6 +20,8 @@ A set \(B\) is a **basis** (also called a **Hamel basis**) of \(X\) if:
    \[
    x=\sum_{i=1}^m \alpha_i x_i.
    \]
+
+## Dimension
 
 If \(X\) has a basis with finitely many elements, then \(X\) is **finite-dimensional**, and the number of basis vectors is the **dimension** \(\dim(X)\). If no finite basis exists, \(X\) is **infinite-dimensional** (often written \(\dim(X)=\infty\)).
 

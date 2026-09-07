@@ -6,7 +6,7 @@ summary = "Derivative of a multivariable function with respect to one coordinate
 aliases = ["partial-derivative", "Partial derivative"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/partial-derivative.md"
-prerequisites = ["real-analysis/differentiable-map"]
+prerequisites = ["shared-foundations/function", "real-analysis/limit-of-a-function-at-a-point", "linear-algebra/euclidean-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -18,7 +18,7 @@ Let \(U\subseteq\mathbb R^n\) be open, \(f:U\to\mathbb R^m\), and \(a\in U\). Th
 \]
 when this limit exists in \(\mathbb R^m\).
 
-Partial derivatives are the entries of the [[real-analysis/jacobian-matrix|Jacobian matrix]]. Existence of every partial derivative at \(a\) does not by itself imply that \(f\) is [[real-analysis/differentiable-map|differentiable]] at \(a\).
+Partial derivatives are the entries of the [[real-analysis/jacobian-matrix|Jacobian matrix]]. Existence of every partial derivative at \(a\) does not by itself imply differentiability at \(a\).
 
 ## Examples
 

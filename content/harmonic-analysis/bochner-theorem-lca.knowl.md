@@ -6,7 +6,7 @@ summary = "Bochner's theorem identifies continuous positive-definite functions o
 aliases = ["Bochner theorem", "positive-definite Fourier representation"]
 domains = ["harmonic-analysis", "measure-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/positive-definite-function", "probability/probability-measure"]
+prerequisites = ["algebra-groups/abelian-group", "topology/locally-compact-group", "harmonic-analysis/pontryagin-dual", "harmonic-analysis/positive-definite-function", "measure-theory/borel-measure"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

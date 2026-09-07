@@ -1,0 +1,654 @@
+{
+  "reviews": [
+    {
+      "id": "algebra-modules/algebra-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c412108b6f1710510fe0f1e21c319ab624353b0714c6bc2de61c4b9857b43257",
+      "evidence": "The source opens with: An **algebra homomorphism** between \\(R\\)-algebras \\(A\\) and \\(B\\) (with structure maps \\(\\iota_A\\colon R\\to A\\), \\(\\iota_B\\colon R\\to B\\)) is a [[algebra-rings/ring-homomorphism|ring homomorphism]] \\(\\varphi\\colon A\\to B\\) such that \\(\\varphi\\circ \\iota_A=\\iota_B\\). Full source (Remarks; Equivalent characterizations; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-modules/algebra-over-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-modules/algebra-over-ring"
+      ]
+    },
+    {
+      "id": "algebra-modules/algebra-over-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80279999a8b550b813c319f06bba01b5be439e682135af3ed6943945fed58ffc",
+      "evidence": "The source opens with: An **algebra over a commutative ring** is a [[algebra-rings/unital-ring|unital ring]] \\(A\\) together with a unital [[algebra-rings/ring-homomorphism|ring homomorphism]] \\(\\iota\\colon R\\to A\\) from a [[algebra-rings/commutative-ring|commutative ring]] \\(R\\) such that \\(\\iota(R)\\) lies in the center of \\(A\\) (equivalently, \\(\\iota(r)a=a\\iota(r)\\) for all \\(r\\in R\\), \\(a\\in A\\)). Full source (Equivalent characterizations; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ring-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-modules/annihilator-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eeb84d997551da49fca95994e2cfe737cad05da9a19dec7bbab8b26472cdc316",
+      "evidence": "The source opens with: Let \\(M\\) be a left \\(R\\)-[[algebra-modules/module|module]] and \\(m\\in M\\). The **annihilator** of \\(m\\) is Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ideal",
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ideal",
+        "algebra-rings/ring"
+      ]
+    },
+    {
+      "id": "algebra-modules/annihilator-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a113b9f81303665ea9e4b8afa3dcdb9883ee02e91a886bdbd68686017a4ba3f",
+      "evidence": "The source opens with: Let \\(M\\) be a left \\(R\\)-[[algebra-modules/module|module]]. The **annihilator** of \\(M\\) is Full source (Remarks; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/intersection",
+        "algebra-modules/annihilator-element",
+        "algebra-rings/two-sided-ideal"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/intersection",
+        "algebra-modules/annihilator-element",
+        "algebra-rings/two-sided-ideal"
+      ]
+    },
+    {
+      "id": "algebra-modules/artinian-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "909ad7d14cf145a458cce02f0916abc8c1c0c54509ef6893e2697855441b744b",
+      "evidence": "The source opens with: An \\(R\\)-[[algebra-modules/module|module]] \\(M\\) is **Artinian** if it satisfies the descending chain condition on [[algebra-modules/submodule|submodules]]: for every chain Full source (Relation to finite length; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule"
+      ]
+    },
+    {
+      "id": "algebra-modules/artinian-noetherian-finite-length",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c7d3c40b95c02ada5050da23ffb8105f2935553b9f28276346a0610d58e45d74",
+      "evidence": "The source opens with: **Artinian and Noetherian implies finite length**: Let \\(M\\) be an \\(R\\)-module. If \\(M\\) is both Artinian and Noetherian, then \\(M\\) admits a finite composition series. Full source (Equivalent characterizations) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/artinian-module",
+        "algebra-modules/noetherian-module",
+        "algebra-modules/composition-series-module",
+        "algebra-modules/length-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/artinian-module",
+        "algebra-modules/noetherian-module",
+        "algebra-modules/composition-series-module",
+        "algebra-modules/length-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/associated-graded-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48c0ac26254b4ba0ca443926330a3f2dccf968c1d9eff6e988f2acc199664773",
+      "evidence": "The source opens with: Given a [[algebra-modules/filtered-ring|filtered ring]] \\((R,F_\\bullet)\\) with \\(F_{n-1}R\\subseteq F_nR\\) and \\(F_nR\\,F_mR\\subseteq F_{n+m}R\\), the **associated graded ring** is Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/filtered-ring",
+        "algebra-rings/quotient-ring",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/graded-ring"
+      ],
+      "prerequisites": [
+        "algebra-modules/filtered-ring",
+        "algebra-rings/quotient-ring",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/graded-ring"
+      ]
+    },
+    {
+      "id": "algebra-modules/baers-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e10e275c71861bd7b0de70e6db16715b3ee717eb74831f89d18d6b0c9b360ee",
+      "evidence": "The source opens with: **Baer's criterion**: Let \\(R\\) be a unital ring and let \\(Q\\) be a left \\(R\\)-module. Then \\(Q\\) is injective if and only if for every left ideal \\(I\\subseteq R\\) and every \\(R\\)-linear map \\(f:I\\to Q\\), there exists an \\(R\\)-linear map \\(F:R\\to Q\\) such that \\(F|_I=f\\). Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/injective-module",
+        "algebra-modules/module-homomorphism",
+        "algebra-rings/ideal",
+        "algebra-rings/unital-ring",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "algebra-modules/injective-module",
+        "algebra-modules/module-homomorphism",
+        "algebra-rings/ideal",
+        "algebra-rings/unital-ring",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "algebra-modules/basis-module",
+      "outcome": "corrected",
+      "source_sha256": "29879986102c5976f4f480781f0f1d25abb043afd140380e5b9f275b3b40c252",
+      "evidence": "Basis is the foundational definition used by free modules, so its prior prerequisite on free-module created an unnecessary conceptual cycle. The definition only needs an R-module and subset; linear independence and spanning remain explanatory links.",
+      "previous_prerequisites": [
+        "algebra-modules/free-module",
+        "algebra-modules/module",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+        "convex-analysis/linear-combination",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "algebra-modules/bilinear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89d93ca742e53e58633b2ed3271ca65185af4f94e3711ab2fa8accf4e90a3afb",
+      "evidence": "The source opens with: A **bilinear map** between \\(R\\)-modules (for a [[algebra-rings/commutative-ring|commutative ring]] \\(R\\)) is a function \\(\\beta\\colon M\\times N\\to P\\) from a [[shared-foundations/cartesian-product|cartesian product]] of \\(R\\)-modules such that, for each fixed argument, the resulting map is \\(R\\)-linear in the other: Full source (Balanced maps for tensor products; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring",
+        "shared-foundations/cartesian-product"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring",
+        "shared-foundations/cartesian-product"
+      ]
+    },
+    {
+      "id": "algebra-modules/bimodule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ebded1506f1d15038d1bc9748dbf468fdb971237999d0aa3aa00dbb207f49fe",
+      "evidence": "The source opens with: Let \\(R,S\\) be [[algebra-rings/ring|rings]]. An **\\((R,S)\\)-bimodule** is an abelian group \\(M\\) that is simultaneously a left [[algebra-modules/module|module]] over \\(R\\) and a right module over \\(S\\), such that the actions are compatible: Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module"
+      ]
+    },
+    {
+      "id": "algebra-modules/category-of-finitely-generated-projective-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ef0d8132ffd00ca8c5f7f331496d70ef59b40698105092391443921f6e7d78c",
+      "evidence": "The source opens with: Let \\(A\\) be a commutative [[algebra-rings/unital-ring|unital ring]]. The **[[algebra-category-theory/category|category]] of finitely generated Full source (Exactness and fixed scalars; Geometric example; References) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-modules/module-homomorphism",
+        "algebra-category-theory/full-subcategory",
+        "algebra-category-theory/zero-object",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-modules/module-homomorphism",
+        "algebra-category-theory/full-subcategory",
+        "algebra-category-theory/zero-object",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "algebra-modules/chinese-remainder-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "376417b7114cc62d715061b9302f863a873315686f1d16f8277aa95089c34d3d",
+      "evidence": "The source opens with: **Chinese remainder for modules**: Let \\(R\\) be a commutative ring, let \\(M\\) be an \\(R\\)-module, and let \\(I_1,\\dots,I_n\\subset R\\) be pairwise comaximal ideals. Then the canonical map Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-rings/chinese-remainder-theorem",
+        "algebra-rings/ideal",
+        "algebra-rings/commutative-ring",
+        "algebra-modules/quotient-module",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-rings/chinese-remainder-theorem",
+        "algebra-rings/ideal",
+        "algebra-rings/commutative-ring",
+        "algebra-modules/quotient-module",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/classification-fg-abelian-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c88ce3caa2e684f74b637576f1d02389c9c22d5884f0f937bfd8e60eac0c301",
+      "evidence": "The source opens with: **Classification of finitely generated abelian groups**: If \\(G\\) is a finitely generated abelian group, then there exist integers \\(r\\ge 0\\) and \\(n_1,\\dots,n_t\\ge 2\\) with \\(n_1\\mid n_2\\mid\\cdots\\mid n_t\\) such that Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/cyclic-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/cyclic-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/cokernel-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18af9ea22f536dfdc885abee969f1389fd9a2ab87394dd03137cc84e6294ea7e",
+      "evidence": "The source opens with: Let \\(f:M\\to N\\) be a [[algebra-modules/module-homomorphism|module homomorphism]]. The **cokernel** of \\(f\\) is the [[algebra-modules/quotient-module|quotient module]] Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/quotient-module",
+        "algebra-modules/image-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/quotient-module",
+        "algebra-modules/image-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/composition-series-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "624d472ddc93d39e0c3dd64200a4f32c769f417c9b985b3873763c41098b9460",
+      "evidence": "The source opens with: A **composition series** of an \\(R\\)-[[algebra-modules/module|module]] \\(M\\) is a finite chain of [[algebra-modules/submodule|submodules]] Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule",
+        "algebra-modules/simple-module",
+        "algebra-modules/quotient-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule",
+        "algebra-modules/simple-module",
+        "algebra-modules/quotient-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/correspondence-theorem-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee6ea8b8c671da60d728797e65e96b222486e6cac471a97622c5bc552d1e8492",
+      "evidence": "The source opens with: **Correspondence theorem (modules)**: Let \\(M\\) be an \\(R\\)-module and \\(N\\subseteq M\\) a [[algebra-modules/submodule|submodule]]. Let \\(\\pi\\colon M\\to M/N\\) be the quotient map. Then the assignments Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/submodule",
+        "algebra-modules/quotient-module",
+        "shared-foundations/preimage"
+      ],
+      "prerequisites": [
+        "algebra-modules/submodule",
+        "algebra-modules/quotient-module",
+        "shared-foundations/preimage"
+      ]
+    },
+    {
+      "id": "algebra-modules/cyclic-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d980ecd05791b54f9483bfbe29e0aa4e67718ac0075f7fd8fc7fcd19b4f6e1df",
+      "evidence": "The source opens with: A left \\(R\\)-[[algebra-modules/module|module]] \\(M\\) is **cyclic** if there exists \\(m\\in M\\) such that Full source (Equivalent characterizations; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module"
+      ]
+    },
+    {
+      "id": "algebra-modules/diagonalizable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3b58b776a76e48cecbe4a692a98042418327ee3016357ba2665e15df435ad4a",
+      "evidence": "The source opens with: A [[linear-algebra/linear-map|linear operator]] \\(T:V\\to V\\) on a finite-dimensional [[linear-algebra/vector-space|vector space]] \\(V\\) over a field \\(K\\) is **diagonalizable over \\(K\\)** if \\(V\\) has a basis consisting of [[linear-algebra/eigenvector|eigenvectors]] of \\(T\\). Full source (Equivalent characterizations; Criteria; Examples; Non-example) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "linear-algebra/eigenvector",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "linear-algebra/eigenvector",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "algebra-modules/direct-product-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8248fc1811447da26899674529b8422219dcb65997c3f401a42f19c9f94a39e6",
+      "evidence": "The source opens with: Given a family of \\(R\\)-[[algebra-modules/module|modules]] \\((M_i)_{i\\in I}\\), their **direct product** is Full source (Remarks; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/cartesian-product"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/cartesian-product"
+      ]
+    },
+    {
+      "id": "algebra-modules/direct-sum-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9d82c11fb5d1f3bfe66dfdac21dccc7f5dca851d813f69c82bb787a857548cb",
+      "evidence": "The source opens with: Given a family of \\(R\\)-[[algebra-modules/module|modules]] \\((M_i)_{i\\in I}\\), their **direct sum** is the module Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/direct-product-modules",
+        "shared-foundations/cartesian-product"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/direct-product-modules",
+        "shared-foundations/cartesian-product"
+      ]
+    },
+    {
+      "id": "algebra-modules/direct-sum-universal-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3d07042d4c9f2c3edaa829d6c52289a1b335a631f60e6a0b58182aa7cc1e452a",
+      "evidence": "The source opens with: Let \\(R\\) be a [[algebra-rings/ring|ring]], let \\(\\{M_i\\}_{i\\in I}\\) be a family of \\(R\\)-[[algebra-modules/module|modules]], and let \\(\\iota_i:M_i\\to \\bigoplus_{i\\in I}M_i\\) be the canonical maps. The **direct sum universal property** states that for every \\(R\\)-[[algebra-modules/module|module]] \\(N\\) and family of [[algebra-modules/module-homomorphism|homomorphisms]] \\(f_i:M_i\\to N\\), there is a unique homomorphism Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-modules/dual-lattice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2b711068b198b18f27f1a1a9c95130ba52177cd3e45d2766c7d170da9eebe51",
+      "evidence": "The source opens with: A **lattice** is a finite free [[algebra-groups/abelian-group|abelian group]] \\(L\\simeq\\mathbb Z^r\\). Its Full source (Torus lattices; Distinctions; Relation to the letter; References) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group"
+      ]
+    },
+    {
+      "id": "algebra-modules/dual-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f33d5925cd7e16c044170350a3d919d492db6d214af54355e04fba31a30f8080",
+      "evidence": "The source opens with: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] and \\(M\\) an \\(R\\)-[[algebra-modules/module|module]]. The **dual module** of \\(M\\) is Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/hom-module",
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/hom-module",
+        "algebra-rings/commutative-ring"
+      ]
+    },
+    {
+      "id": "algebra-modules/elementary-divisor-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ccbc20dd0c2658c38da5a2afd5bffd2ace0afc3e2286c983d13f6ead14f19ab",
+      "evidence": "The source opens with: Let \\(R\\) be a [[algebra-rings/pid|principal ideal domain]] and \\(M\\) a finitely generated \\(R\\)-module. Then there are an integer \\(r\\ge0\\), [[algebra-rings/prime-element|prime elements]] \\(p_1,\\ldots,p_t\\in R\\), and positive integers \\(e_1,\\ldots,e_t\\) such that Full source (Relation to invariant factors) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module"
+      ],
+      "prerequisites": [
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/exact-sequence-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "163fa95ca7f6743f7af510bf57492d125bf92c4ddfb0b91b736399def09690ef",
+      "evidence": "The source opens with: An **exact sequence of modules** is a sequence of modules and [[algebra-modules/module-homomorphism|module homomorphisms]] Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/exactness-via-kernels-images",
+      "outcome": "corrected",
+      "source_sha256": "d3dccdd95192cc973640ee0a4f515a9c7331ca21f83141aab9965ee3a0086ea6",
+      "evidence": "This is the kernel/image characterization itself; exact-sequence-modules is the theorem output/application and need not be a prerequisite. Kernel and image are the actual inputs.",
+      "previous_prerequisites": [
+        "algebra-modules/exact-sequence-modules",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/exterior-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9270b263f98467fd31bc63d42f58939ed1b921db4d5830d27ae625d8facacba5",
+      "evidence": "The source opens with: Let \\(M\\) be a [[algebra-modules/module|module]] over a [[algebra-rings/commutative-ring|commutative ring]] \\(R\\). Its **exterior algebra**, also called its **Grassmann algebra**, is Full source (Alternating universal property; Signs; Finite free case; References) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring",
+        "algebra-modules/tensor-algebra"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring",
+        "algebra-modules/tensor-algebra"
+      ]
+    },
+    {
+      "id": "algebra-modules/fg-projective-locally-free",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46c287cabcc82ffdc21d5c8cc548ac5ff5958186444ce2bb5ab7dce772f9cd42",
+      "evidence": "The source opens with: **Finitely generated projectives are locally free**: Let \\(R\\) be a commutative ring and let \\(P\\) be a finitely generated projective \\(R\\)-module. Then for every prime ideal \\(\\mathfrak p\\subset R\\), the localization \\(P_{\\mathfrak p}\\) is a free \\(R_{\\mathfrak p}\\)-module of finite rank. Full source (Equivalent characterizations) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-rings/commutative-ring",
+        "algebra-rings/prime-ideal",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/free-module",
+        "algebra-modules/rank-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-rings/commutative-ring",
+        "algebra-rings/prime-ideal",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/free-module",
+        "algebra-modules/rank-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/fg-torsion-free-pid-free",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d1b22617c86b43996b30a817cbc8414ab7866d1d97bc2b076cfc445ec81856e",
+      "evidence": "The source opens with: **Finitely generated torsion-free over a PID is free**: Let \\(R\\) be a PID and let \\(M\\) be a finitely generated torsion-free \\(R\\)-module. Then \\(M\\) is a free \\(R\\)-module. Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/torsion-free-module",
+        "algebra-modules/free-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/torsion-free-module",
+        "algebra-modules/free-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/filtered-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f492313784931500da27529bd7b5beb1cafbebc8a86ca7ff7bdb8c2e0eab2549",
+      "evidence": "The source opens with: A **filtered ring** is a [[algebra-rings/ring|ring]] \\(R\\) together with an increasing family of additive subgroups \\(\\{F_nR\\}_{n\\in\\mathbb Z}\\) such that: Full source (Examples; Remarks) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring"
+      ]
+    },
+    {
+      "id": "algebra-modules/finitely-generated-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "55fff87e8c8ae02b924f58430ee640e9779a1eb411343350f43f210521a97d9e",
+      "evidence": "The source opens with: A left \\(R\\)-[[algebra-modules/module|module]] \\(M\\) is **finitely generated** if there exist elements \\(m_1,\\dots,m_n\\in M\\) such that every \\(m\\in M\\) can be written as Full source (Remarks; Equivalent characterizations; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module"
+      ]
+    },
+    {
+      "id": "algebra-modules/first-isomorphism-consequence-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72e3275643cacde92efe8a7bdc8ac86fd086b2c61e9c2d0b9ad931b095a31381",
+      "evidence": "The source opens with: **First isomorphism consequence.** Let \\(f:M\\to N\\) be an \\(R\\)-module homomorphism. Then the induced map Full source (Remarks) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module",
+        "algebra-modules/quotient-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module",
+        "algebra-modules/quotient-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/first-isomorphism-theorem-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8fcd73e1eed7b52533fb24597a8e1c88a8d4ab13bba6243520521a691de68b12",
+      "evidence": "The source opens with: **First isomorphism theorem (modules)**: Let \\(f\\colon M\\to N\\) be a [[algebra-modules/module-homomorphism|module homomorphism]]. Then the induced map Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module",
+        "algebra-modules/quotient-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/kernel-module",
+        "algebra-modules/image-module",
+        "algebra-modules/quotient-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/flat-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15d40e0483b309dd1afb65e7a0352a016f06eef923fb759f74757dec33036508",
+      "evidence": "The source opens with: A **flat module** is a left \\(R\\)-module \\(M\\) over a ring \\(R\\) such that tensoring with \\(M\\) preserves exactness: for every [[algebra-modules/short-exact-sequence|short exact sequence]] of right \\(R\\)-modules Full source (Equivalent characterizations; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/tensor-product"
+      ]
+    },
+    {
+      "id": "algebra-modules/free-module-universal-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a70b5e5210791f94f702b3606855e11d825c2a61157a7133f950788cd0df4de",
+      "evidence": "The source opens with: **Free module universal property**: Let \\(X\\) be a set and let \\(F\\) be a free \\(R\\)-module on \\(X\\), equipped with a function \\(\\eta:X\\to F\\). For any \\(R\\)-module \\(M\\) and any function \\(g:X\\to M\\), there exists a unique \\(R\\)-module homomorphism \\(\\tilde g:F\\to M\\) such that \\(\\tilde g\\circ \\eta=g\\). Full source (definition and examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/free-module",
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-modules/free-module",
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-modules/free-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3c5db75e198608eca39f163d0d3804da3efe559f52343478040b670d52c74af9",
+      "evidence": "The source opens with: A left \\(R\\)-[[algebra-modules/module|module]] \\(F\\) is **free** if it has a [[algebra-modules/basis-module|basis]] \\(B\\subseteq F\\), i.e. every element of \\(F\\) admits a unique expression as a finite \\(R\\)-linear combination of elements of \\(B\\). Full source (Equivalent characterizations; Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/basis-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/basis-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/graded-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac54473aed3a583ed7c93a2c4c769cd36819c507a9b68f6034fbb3799d6e08c7",
+      "evidence": "The source opens with: A **graded module** over a [[algebra-modules/graded-ring|graded ring]] \\(R=\\bigoplus_{n}R_n\\) is an \\(R\\)-[[algebra-modules/module|module]] \\(M\\) together with a direct-sum decomposition Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/graded-ring"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/graded-ring"
+      ]
+    },
+    {
+      "id": "algebra-modules/graded-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6b39be15e95ad0bd8538f06c6c294c93076b8a424587f1947be7ef939f898be",
+      "evidence": "The source opens with: A **graded ring** is a [[algebra-rings/ring|ring]] \\(R\\) together with a direct-sum decomposition of abelian groups Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/hom-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2766a755bfc5261f50b96cc790920b3bd7127de1092350a3708e25fc18815a2f",
+      "evidence": "The source opens with: A **Hom module** \\(\\mathrm{Hom}_R(M,N)\\) is the set of all [[algebra-modules/module-homomorphism|module homomorphisms]] \\(f\\colon M\\to N\\) between \\(R\\)-[[algebra-modules/module|modules]], equipped with pointwise addition \\((f+g)(m)=f(m)+g(m)\\). This makes \\(\\mathrm{Hom}_R(M,N)\\) an abelian group. If \\(R\\) is a [[algebra-rings/commutative-ring|commutative ring]], then \\(\\mathrm{Hom}_R(M,N)\\) is naturally an \\(R\\)-module via \\((r\\cdot f)(m)=r\\,f(m)\\). Full source (Examples) was checked against the listed prerequisites; they are inputs to the stated construction/result and no optional application is needed in the core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring"
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ summary = "A commutative unital ring in which every nonzero element is invertibl
 aliases = ["field"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/field.md"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unit"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring", "algebra-rings/unit"]
 dependency_heuristic = "semantic-foundations-review-v1"
 dependency_review_count = 1
 +++

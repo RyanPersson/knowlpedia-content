@@ -1,0 +1,11 @@
+{
+  "area": "remaining curvature focus geometry batch",
+  "reviews": [
+    {"id":"fiber-bundles/tangent-bundle","outcome":"corrected","source_sha256":"9f0d4b67b8ac65d5841248d1e9e65b8727b862b36dbc112229dab8cb4dd60277","evidence":"Full source constructs TM from tangent spaces and coordinate charts; vector-bundle, local-trivialization, and smooth-atlas were consequences of the construction and removed from its minimal prerequisites."},
+    {"id":"fiber-bundles/differential-k-form","outcome":"reviewed_unchanged","source_sha256":"3379d901b9494b359277f6e2b936a0763b670330ea06e904b7a3e54491bf6514","evidence":"Full source defines a form as a smooth section of an exterior power of the cotangent bundle; tangent space, cotangent bundle, exterior power, and section are direct foundations."},
+    {"id":"fiber-bundles/principal-g-bundle","outcome":"reviewed_unchanged","source_sha256":"610c7f79a6c59f45a7088ee2fa4dd57e15ae14ab383ad93a7b65ed9371baed11","evidence":"Full source requires a Lie group, smooth total/base manifolds, a surjective submersion, a smooth action, and equivariant local diffeomorphisms; current prerequisites match these ingredients."},
+    {"id":"fiber-bundles/right-translation-r-g","outcome":"corrected","source_sha256":"d929617e154c439c407de46904c06caa5a4057d724d1c490f6084f4cf85e4a35","evidence":"Full source defines R_g by group multiplication and derives its differential; the diffeomorphism group is only a later target of the family and was removed from prerequisites."},
+    {"id":"fiber-bundles/transition-function","outcome":"reviewed_unchanged","source_sha256":"174c356b63ef887a41ba5d8e5e5530bba4f3eb6d31a2a8b71ba266dc2f9a9e9d","evidence":"Full source obtains transition maps by composing local trivializations on overlaps; smooth bundle, typical fiber, diffeomorphism, smooth map, and local trivialization are direct."},
+    {"id":"fiber-bundles/vertical-subbundle","outcome":"reviewed_unchanged","source_sha256":"2ad222a7fb69e98c30ba426d4e709923f30f83b1a77eec2f3c2d8aac1f7b5028","evidence":"Full source defines the kernel of dπ for a fibered manifold and identifies it with vertical tangent spaces; current prerequisites cover the kernel, tangent, and subbundle constructions."}
+  ]
+}

@@ -6,13 +6,16 @@ summary = "A choice of mutually compatible smooth coordinate charts on a topolog
 aliases = ["smooth manifold structure", "differentiable structure", "C-infinity structure"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/maximal-smooth-atlas", "fiber-bundles/smooth-atlas", "fiber-bundles/smooth-compatibility-of-charts-and-atlases"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/maximal-smooth-atlas"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a topological manifold. A **smooth structure** on \(M\) is a
 [[fiber-bundles/maximal-smooth-atlas|maximal smooth atlas]] on \(M\).
+
+## Equivalent description
+
 Equivalently, it is an equivalence class of [[fiber-bundles/smooth-atlas|smooth
 atlases]], where two atlases are equivalent when they are
 [[fiber-bundles/smooth-compatibility-of-charts-and-atlases|compatible]].

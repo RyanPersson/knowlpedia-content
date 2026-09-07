@@ -1,0 +1,671 @@
+{
+  "reviews": [
+    {
+      "id": "algebra-modules/hom-sums-to-products",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "08aa00a0b16a53b7cbf14c863d1c46a30a4268ec8beb07de65e7858fa9724836",
+      "evidence": "The source opens with: **Hom turns sums into products**: Let \\(\\{M_i\\}_{i\\in I}\\) be a family of \\(R\\)-modules and let \\(N\\) be an \\(R\\)-module. Restriction along the canonical maps \\(\\iota_i:M_i\\to \\bigoplus_{i\\in I}M_i\\) induces a [[algebra-category-theory/natural-isomorphism|natural isomorphism]] Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/hom-module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/direct-product-modules"
+      ],
+      "prerequisites": [
+        "algebra-modules/hom-module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/direct-product-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/image-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d51289eb0d68d0f52804f0ae7970324cd45be43dfd044e62cd21dfe80a5decb2",
+      "evidence": "The source opens with: Let \\(f:M\\to N\\) be a [[algebra-modules/module-homomorphism|module homomorphism]]. The **image** of \\(f\\) is Full source (Properties; Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/submodule"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/submodule"
+      ]
+    },
+    {
+      "id": "algebra-modules/injective-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5d1a405916c0c69a7247339ca8f1738c9bb3c6f888272f802a030af62b12adf",
+      "evidence": "The source opens with: An **injective module** is a left [[algebra-modules/module|module]] \\(E\\) over a [[algebra-rings/ring|ring]] \\(R\\) such that for every injective [[algebra-modules/module-homomorphism|module homomorphism]] \\(i\\colon A\\hookrightarrow B\\) and every homomorphism \\(f\\colon A\\to E\\), there exists a homomorphism \\(g\\colon B\\to E\\) with \\(g\\circ i=f\\). Full source (Equivalent characterizations; Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ring",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ring",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-modules/jcf-from-rcf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33492cd796e747716b5e51ce73b1e137433fffb5d34f2e1a3dcded9b0587484b",
+      "evidence": "The source opens with: **Jordan canonical form from rational canonical form**: Let \\(V\\) be a finite-dimensional vector space over a field \\(F\\), and let \\(T:V\\to V\\) be linear. Assume the characteristic polynomial of \\(T\\) splits over \\(F\\). Then there exists a basis of \\(V\\) for which the matrix of \\(T\\) is in Jordan canonical form. Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/rcf-from-structure-theorem",
+        "algebra-modules/jordan-canonical-form-theorem",
+        "linear-algebra/characteristic-polynomial",
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-modules/rcf-from-structure-theorem",
+        "algebra-modules/jordan-canonical-form-theorem",
+        "linear-algebra/characteristic-polynomial",
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "algebra-modules/jordan-canonical-form-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92cc07c7bd82d139aa0edcf5766e10ba385eb63d1d1df273ce82c399086b2626",
+      "evidence": "The source opens with: Let \\(T\\) be a linear operator on a finite-dimensional vector space \\(V\\) over a field \\(k\\). If the characteristic polynomial of \\(T\\) splits over \\(k\\), then \\(V\\) has a basis in which the matrix of \\(T\\) is block diagonal with Jordan blocks \\(J_m(\\lambda)\\). The eigenvalues \\(\\lambda\\) and, for each \\(\\lambda\\), the multiset of block sizes are uniquely determined by \\(T\\), up to permuting the blocks. Full source (Consequences) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "linear-algebra/characteristic-polynomial",
+        "linear-algebra/eigenvector"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "linear-algebra/characteristic-polynomial",
+        "linear-algebra/eigenvector"
+      ]
+    },
+    {
+      "id": "algebra-modules/kernel-image-submodules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "886a8ef93f820ef4d103c9e01032d6688fc63798a58b32de1b2cdd70d03ef1f5",
+      "evidence": "The source opens with: **Kernel and image are [[algebra-modules/submodule|submodules]]**: Let \\(f:M\\to N\\) be an \\(R\\)-module homomorphism. Then \\(\\ker(f)\\le M\\) and \\(\\operatorname{im}(f)\\le N\\). Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/kernels-are-submodules",
+        "algebra-modules/image-module",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-modules/kernels-are-submodules",
+        "algebra-modules/image-module",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-modules/kernel-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7289019d18d571adcc42b894445cca03068020131ead23421337b4dd5bf97e26",
+      "evidence": "The source opens with: Let \\(f:M\\to N\\) be a [[algebra-modules/module-homomorphism|module homomorphism]]. The **kernel** of \\(f\\) is Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/submodule"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/submodule"
+      ]
+    },
+    {
+      "id": "algebra-modules/kernels-are-submodules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "78777af84313210eb5765b447bad68c22c84fa7c0f9331a4acf0cb58932b31f4",
+      "evidence": "The source opens with: Let \\(f:M\\to N\\) be a homomorphism of \\(R\\)-modules. Its kernel Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/submodule"
+      ],
+      "prerequisites": [
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/submodule"
+      ]
+    },
+    {
+      "id": "algebra-modules/krull-schmidt-azumaya-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d45226a3815a319abd605ebef7fe25633b7ffac2026e6f81dbe112174c343d2",
+      "evidence": "The source opens with: **Krull\u2013Schmidt\u2013Azumaya theorem**: Let \\(M\\) be an \\(R\\)-module that has finite [[algebra-modules/length-module|length]] (equivalently, \\(M\\) admits a [[algebra-modules/composition-series-module|composition series]]). Then: Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/length-module",
+        "algebra-modules/composition-series-module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/artinian-module",
+        "algebra-modules/noetherian-module",
+        "algebra-modules/semisimple-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/length-module",
+        "algebra-modules/composition-series-module",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/artinian-module",
+        "algebra-modules/noetherian-module",
+        "algebra-modules/semisimple-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/length-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9be2587c37216b690b603e2d8ad805a3350bc00eabbe46811bf47fca360cdd9",
+      "evidence": "The source opens with: If an \\(R\\)-[[algebra-modules/module|module]] \\(M\\) admits a [[algebra-modules/composition-series-module|composition series]] Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/composition-series-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/composition-series-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/matrix-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6b23fbcb0e0c6ac55f10ef03a0200d6004a317880f149643943dbb85e67f1117",
+      "evidence": "The source opens with: The **matrix representation** of a [[linear-algebra/linear-map|linear map]] \\(T: V \\to W\\) with respect to bases \\(\\mathcal{B} = \\{v_1, \\ldots, v_n\\}\\) of \\(V\\) and \\(\\mathcal{C} = \\{w_1, \\ldots, w_m\\}\\) of \\(W\\) is the \\(m \\times n\\) [[linear-algebra/matrix|matrix]] \\([T]_{\\mathcal{B}}^{\\mathcal{C}}\\) whose columns are the coordinate vectors of \\(T(v_j)\\) in the basis \\(\\mathcal{C}\\). Full source (Properties; Standard representation; Invariants) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "algebra-modules/module-axioms",
+      "outcome": "corrected",
+      "source_sha256": "0b99e92411aa7274bd117b3f0c79b1a773f8d48dcd3549d0e1e74434b609847b",
+      "evidence": "Module axioms are foundational for the module definition; retaining module as a linked prerequisite would create a definitional cycle, so the core now uses the unital ring and operations only.",
+      "previous_prerequisites": [
+        "algebra-rings/unital-ring",
+        "shared-foundations/binary-operation"
+      ],
+      "prerequisites": [
+        "algebra-rings/unital-ring",
+        "shared-foundations/binary-operation"
+      ]
+    },
+    {
+      "id": "algebra-modules/module-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0bbe12b1650fa22855c995ad8bd6ff7d191dc856d2469b3b6058bc9f23b78263",
+      "evidence": "The source opens with: Let \\(R\\) be a ring and let \\(M,N\\) be left \\(R\\)-[[algebra-modules/module|modules]]. A **module homomorphism** is a [[shared-foundations/function|function]] \\(f:M\\to N\\) such that for all \\(m,m'\\in M\\) and \\(r\\in R\\), Full source (Equivalent characterizations; Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "algebra-modules/module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89c43602cca0891cfd0a3aeb45fbf05bf9acedaa9882618745ef4e5dee1a070e",
+      "evidence": "The source opens with: Let \\(R\\) be a [[algebra-rings/ring|ring]] (often assumed a [[algebra-rings/unital-ring|unital ring]]). A **left \\(R\\)-module** is an abelian group \\((M,+)\\) together with a scalar multiplication map \\(R\\times M\\to M\\), \\((r,m)\\mapsto rm\\), such that for all \\(r,s\\in R\\) and \\(m,n\\in M\\): Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module-axioms"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module-axioms"
+      ]
+    },
+    {
+      "id": "algebra-modules/noetherian-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "975a386ae7ebef9329131a752c61fd00934cade4d5e8d9909d7d97fbd92c7118",
+      "evidence": "The source opens with: An \\(R\\)-[[algebra-modules/module|module]] \\(M\\) is **Noetherian** if it satisfies the ascending chain condition (ACC) on [[algebra-modules/submodule|submodules]]: for every chain Full source (Equivalent characterizations; Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule"
+      ]
+    },
+    {
+      "id": "algebra-modules/projective-implies-flat",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "07fa22cd6474759b4aa8f7cfff1e209981530b502f981632a53d845baefb5352",
+      "evidence": "The source opens with: Let \\(P\\) be a [[algebra-modules/projective-module|projective]] right \\(R\\)-module. Then \\(P\\) is [[algebra-modules/flat-module|flat]]: for every short exact sequence of left \\(R\\)-modules Full source (Proof idea) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-modules/flat-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-modules/flat-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/projective-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dbe5356e1acf21373e48685b0e9355f8c811ca4c7a7dcd8fb9b5d53d7cbb849a",
+      "evidence": "The source opens with: An \\(R\\)-module \\(P\\) is **projective** if for every [[shared-foundations/surjective-function|surjective]] homomorphism \\(f:M\\to N\\) and every homomorphism \\(g:P\\to N\\) (see [[algebra-modules/module-homomorphism|module homomorphisms]]), there exists a homomorphism \\(h:P\\to M\\) such that \\(f\\circ h=g\\). Full source (Equivalent characterizations; Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/surjective-function",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/surjective-function",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-modules/projective-ses-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "084b63b4a907c471ee14fffdc3ae04c883de7850a71ff7cfc7d9a142dcb5456b",
+      "evidence": "The source opens with: **Projective s.e.s. criterion**: An \\(R\\)-[[algebra-modules/module|module]] \\(P\\) is [[algebra-modules/projective-module|projective]] if and only if every [[algebra-modules/short-exact-sequence|short exact sequence]] Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/projective-module",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/splitting-lemma"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/projective-module",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/splitting-lemma"
+      ]
+    },
+    {
+      "id": "algebra-modules/projective-summand-of-free",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3db15c69b5b60b157278875755390587518efd5628a24e6d3979237659968683",
+      "evidence": "The source opens with: **Projective is a summand of free**: An \\(R\\)-module \\(P\\) is [[algebra-modules/projective-module|projective]] if and only if there exists a [[algebra-modules/free-module|free module]] \\(F\\) and an \\(R\\)-module \\(Q\\) such that Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-modules/free-module",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-modules/projective-module",
+        "algebra-modules/free-module",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/quotient-module-universal-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62f306b55a2012c3e18c6e816f3ca2cf9869c34f6db17fcc3c0abec045d146ca",
+      "evidence": "The source opens with: **Universal property of quotient modules**: Let \\(M\\) be an \\(R\\)-module, let \\(N\\le M\\) be a submodule, and let \\(\\pi:M\\to M/N\\) be the quotient map. For any \\(R\\)-module \\(Q\\) and any homomorphism \\(f:M\\to Q\\) such that \\(N\\subseteq \\ker(f)\\), there exists a unique homomorphism \\(\\bar f:M/N\\to Q\\) with \\(f=\\bar f\\circ \\pi\\). Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/quotient-module",
+        "algebra-modules/submodule",
+        "algebra-modules/kernel-module",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-modules/quotient-module",
+        "algebra-modules/submodule",
+        "algebra-modules/kernel-module",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-modules/quotient-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e84008acfc243cfac74a72db9e316358c12402665042e6a2b91730405a0e41ea",
+      "evidence": "The source opens with: Let \\(M\\) be a left \\(R\\)-module and let \\(N\\le M\\) be a [[algebra-modules/submodule|submodule]]. Define an [[shared-foundations/equivalence-relation|equivalence relation]] on \\(M\\) by \\(m\\sim m'\\) iff \\(m-m'\\in N\\). The **quotient module** \\(M/N\\) is the [[shared-foundations/quotient-set|quotient set]] of equivalence classes, written \\(m+N\\), with operations Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/submodule",
+        "shared-foundations/equivalence-relation",
+        "shared-foundations/quotient-set"
+      ],
+      "prerequisites": [
+        "algebra-modules/submodule",
+        "shared-foundations/equivalence-relation",
+        "shared-foundations/quotient-set"
+      ]
+    },
+    {
+      "id": "algebra-modules/rank-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5270c62610ff3a171dedcb7da77961126a61fe4044c250ad73073c148483f2fd",
+      "evidence": "The source opens with: Let \\(R\\) be a nonzero commutative ring and \\(F\\) a [[algebra-modules/free-module|free \\(R\\)-module]]. The **rank** of \\(F\\) is the [[shared-foundations/cardinality|cardinality]] of a [[algebra-modules/basis-module|basis]], denoted \\(\\operatorname{rank}(F)\\). This is well-defined because any two bases of a free module over a nonzero commutative ring have the same cardinality. Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/free-module",
+        "shared-foundations/cardinality",
+        "algebra-modules/basis-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/free-module",
+        "shared-foundations/cardinality",
+        "algebra-modules/basis-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/rational-canonical-form-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd7bace187dc5679b78f44eeaa0c6ab6034b3a109b422957b12d0c41d1920216",
+      "evidence": "The source opens with: **Rational canonical form theorem**: Let \\(T\\) be a [[linear-algebra/linear-map|linear map]] on a finite-dimensional [[linear-algebra/vector-space|vector space]] \\(V\\) over a field \\(k\\). Then there exists a [[algebra-modules/basis-module|basis]] of \\(V\\) such that the [[algebra-modules/matrix-representation|matrix representation]] of \\(T\\) is block diagonal with blocks equal to companion matrices \\(C(f_1),\\dots,C(f_s)\\) of monic polynomials \\(f_1,\\dots,f_s\\in k[x]\\) satisfying Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "algebra-modules/basis-module",
+        "algebra-modules/matrix-representation",
+        "linear-algebra/minimal-polynomial",
+        "linear-algebra/characteristic-polynomial",
+        "algebra-rings/polynomial-ring",
+        "algebra-modules/structure-theorem-pid"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "algebra-modules/basis-module",
+        "algebra-modules/matrix-representation",
+        "linear-algebra/minimal-polynomial",
+        "linear-algebra/characteristic-polynomial",
+        "algebra-rings/polynomial-ring",
+        "algebra-modules/structure-theorem-pid"
+      ]
+    },
+    {
+      "id": "algebra-modules/rcf-from-structure-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "414f12f5aa607299c53a2ea30582c9d7e046571339257d6975b11ff4c8ea883e",
+      "evidence": "The source opens with: **Rational canonical form from the structure theorem**: Let \\(V\\) be a finite-dimensional vector space over a field \\(F\\) and let \\(T:V\\to V\\) be linear. Then there exists a basis of \\(V\\) for which the matrix of \\(T\\) is in rational canonical form. Full source (Equivalent characterizations) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/field",
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "algebra-modules/module",
+        "linear-algebra/matrix",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/field",
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "algebra-modules/module",
+        "linear-algebra/matrix",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "algebra-modules/second-isomorphism-theorem-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7cc70896642313caedd9fa0054c38af81597c5e5f518ad84f8970655cd14839",
+      "evidence": "The source opens with: **Second isomorphism theorem (modules)**: Let \\(M\\) be an \\(R\\)-module and let \\(A,B\\) be [[algebra-modules/submodule|submodules]] of \\(M\\). Then there is a natural isomorphism of \\(R\\)-modules Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/submodule",
+        "shared-foundations/intersection",
+        "algebra-modules/quotient-module",
+        "algebra-modules/first-isomorphism-theorem-modules"
+      ],
+      "prerequisites": [
+        "algebra-modules/submodule",
+        "shared-foundations/intersection",
+        "algebra-modules/quotient-module",
+        "algebra-modules/first-isomorphism-theorem-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/semisimple-direct-summand",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad422677193abd3302eb36ab6d92de62a2957afc51377741cf723349e6349178",
+      "evidence": "The source opens with: **Semisimple iff every submodule is a direct summand**: For an \\(R\\)-module \\(M\\), the following are equivalent: Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/semisimple-module",
+        "algebra-modules/submodule",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/simple-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/semisimple-module",
+        "algebra-modules/submodule",
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/simple-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/semisimple-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b118a5842c425afafd8ff8a3bebbf2abd3a2e709ab03056be6676c23cb703bcb",
+      "evidence": "The source opens with: A module \\(M\\) is **semisimple** if it is (isomorphic to) a [[algebra-modules/direct-sum-modules|direct sum]] of [[algebra-modules/simple-module|simple modules]]. Full source (Equivalent characterizations; Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/simple-module"
+      ],
+      "prerequisites": [
+        "algebra-modules/direct-sum-modules",
+        "algebra-modules/simple-module"
+      ]
+    },
+    {
+      "id": "algebra-modules/short-exact-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "28d98bbf421a3da2327e9c9bc404b4c0b4b254b772b309b29fbdda7b985d7b00",
+      "evidence": "The source opens with: A **short exact sequence** is an exact sequence (see [[algebra-modules/exact-sequence-modules|exact sequence of modules]]) Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/exact-sequence-modules",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebra-modules/exact-sequence-modules",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebra-modules/simple-module",
+      "outcome": "corrected",
+      "source_sha256": "ea1807b7133fbf8165f7db1e40ce0c9c5a888075eff72b9cee61ee8f046564d7",
+      "evidence": "The simple-module definition uses only a module and its submodules. Maximal ideals occur only in the later commutative-ring classification, so they are not a core prerequisite.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule",
+        "algebra-rings/maximal-ideal"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/submodule"
+      ]
+    },
+    {
+      "id": "algebra-modules/smith-normal-form-invariants",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a5cbc4a08b1744c197a4296de3b58aae4d7506e66216d07d995444abe8464e9",
+      "evidence": "The source opens with: **Smith normal form invariants**: Let \\(R\\) be a PID and let \\(A\\in M_{m\\times n}(R)\\). Suppose \\(A\\) has Smith normal form \\(\\operatorname{diag}(d_1,\\dots,d_r,0,\\dots,0)\\) with \\(d_1\\mid d_2\\mid\\cdots\\mid d_r\\). Then the elements \\(d_i\\) are uniquely determined by \\(A\\) up to multiplication by a unit of \\(R\\), and they determine the isomorphism class of the cokernel module Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-modules/cokernel-module",
+        "algebra-rings/pid"
+      ],
+      "prerequisites": [
+        "algebra-modules/structure-theorem-pid",
+        "algebra-modules/cokernel-module",
+        "algebra-rings/pid"
+      ]
+    },
+    {
+      "id": "algebra-modules/smith-normal-form-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5884e376d8e87148c1e941bb89f0858456010b541db058eea0f59a8128745f09",
+      "evidence": "The source opens with: **Smith normal form theorem**: Let \\(R\\) be a [[algebra-rings/pid|PID]] and let \\(A\\) be an \\(m\\times n\\) matrix with entries in \\(R\\). Then there exist invertible matrices \\(U\\in \\mathrm{GL}_m(R)\\) and \\(V\\in \\mathrm{GL}_n(R)\\) such that Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-rings/pid",
+        "algebra-modules/matrix-representation",
+        "algebra-modules/structure-theorem-pid"
+      ],
+      "prerequisites": [
+        "algebra-rings/pid",
+        "algebra-modules/matrix-representation",
+        "algebra-modules/structure-theorem-pid"
+      ]
+    },
+    {
+      "id": "algebra-modules/split-exact-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "67182e3bd653b6163ede46332f7430e515082e86d1f5a01a15e6d02e10c46445",
+      "evidence": "The source opens with: A short exact sequence Full source (Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "shared-foundations/identity-function",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "shared-foundations/identity-function",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/splitting-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2b41afac4f8860c9bc30187d9930edf427ea7f7f132ae1a2c06ea352803dccf",
+      "evidence": "The source opens with: **Splitting lemma**: Given a [[algebra-modules/short-exact-sequence|short exact sequence]] Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/module",
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/split-exact-sequence",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/module",
+        "algebra-modules/module-homomorphism",
+        "algebra-modules/split-exact-sequence",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/structure-theorem-pid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c0f03f9747ad1e845d10f344ae6b5feac636cbc6995b4d55c80b8b36053bb1c",
+      "evidence": "The source opens with: Let \\(R\\) be a [[algebra-rings/pid|principal ideal domain]] and let \\(M\\) be a [[algebra-modules/finitely-generated-module|finitely generated \\(R\\)-module]]. Then there exist an integer \\(r\\ge 0\\) and nonzero nonunits \\(d_1,\\dots,d_t\\in R\\), with \\(d_1\\mid d_2\\mid\\cdots\\mid d_t\\), such that Full source (Consequences) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-rings/pid",
+        "algebra-modules/finitely-generated-module",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/submodule-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9dca9b267650352a9666e02d4cfa59af9d48ed6e8ca9693bae378ffbf5c7ee22",
+      "evidence": "The source opens with: **Submodule criterion**: Let \\(M\\) be an \\(R\\)-module and let \\(N\\subseteq M\\) be a subset. Then \\(N\\) is a submodule of \\(M\\) if and only if: Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/submodule",
+        "algebra-modules/module-axioms",
+        "algebra-modules/module",
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-modules/submodule",
+        "algebra-modules/module-axioms",
+        "algebra-modules/module",
+        "algebra-rings/ring"
+      ]
+    },
+    {
+      "id": "algebra-modules/submodule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee373e54f11ed589c968bafc99ff00e3b5ff9fb9376aacbf21b5c61072c4f8ef",
+      "evidence": "The source opens with: Let \\(M\\) be a left \\(R\\)-[[algebra-modules/module|module]]. A **submodule** of \\(M\\) is a [[shared-foundations/subset|subset]] \\(N\\subseteq M\\) such that: Full source (Equivalent characterizations; Examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "algebra-modules/symmetric-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2996969fd30e57ac923568743071b745539e73678e45839bb680dd70b3e9cc9b",
+      "evidence": "The source opens with: Let \\(M\\) be a [[algebra-modules/module|module]] over a [[algebra-rings/commutative-ring|commutative ring]] \\(R\\). Its **symmetric algebra** is Full source (Universal property; Examples; References) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring",
+        "algebra-modules/tensor-algebra"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/commutative-ring",
+        "algebra-modules/tensor-algebra"
+      ]
+    },
+    {
+      "id": "algebra-modules/tensor-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "455df3d78f59630cf089278e10f0772da64049dbc54837f588b92aa1b4911dc4",
+      "evidence": "The source opens with: Let \\(M\\) be a [[algebra-modules/module|module]] over a commutative [[algebra-rings/ring|ring]] \\(R\\). Its **tensor algebra** is the graded \\(R\\)-module Full source (Universal property; Quotients; References) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ring",
+        "algebra-modules/algebra-over-ring",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ring",
+        "algebra-modules/algebra-over-ring",
+        "algebra-modules/tensor-product"
+      ]
+    },
+    {
+      "id": "algebra-modules/tensor-commutes-with-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37e61775b963fa688302df20e87100ee21dc15f5be94db14a3a5b09a2b54fe0c",
+      "evidence": "The source opens with: **Tensor commutes with direct limits and sums**: Fix a right \\(R\\)-module \\(M\\). Then the functor \\(M\\otimes_R -\\) preserves all small colimits of left \\(R\\)-modules; in particular, for any family \\(\\{N_i\\}_{i\\in I}\\) the canonical map Full source (definition and examples) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-modules/tensor-hom-adjunction",
+        "algebra-modules/tensor-preserves-direct-sums",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-modules/tensor-hom-adjunction",
+        "algebra-modules/tensor-preserves-direct-sums",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-modules/tensor-hom-adjunction-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e015847a74ca91341152af320a9b9520dc250342bc1eeb3d23296aea9bcf37d7",
+      "evidence": "The source opens with: Let \\(R,S\\) be [[algebra-rings/unital-ring|unital rings]], let Full source (Remarks) was checked against its targets; each listed prerequisite is used by the stated construction or theorem, while later applications remain non-core.",
+      "previous_prerequisites": [
+        "algebra-rings/unital-ring",
+        "algebra-modules/bimodule",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product",
+        "algebra-modules/hom-module"
+      ],
+      "prerequisites": [
+        "algebra-rings/unital-ring",
+        "algebra-modules/bimodule",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product",
+        "algebra-modules/hom-module"
+      ]
+    }
+  ]
+}

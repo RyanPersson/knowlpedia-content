@@ -6,16 +6,16 @@ summary = "The bundle over a common base whose fiber is the tensor product of th
 aliases = ["tensor-product-vector-bundle", "Tensor product vector bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tensor-product-vector-bundle.md"
-prerequisites = ["fiber-bundles/smooth-manifold"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "algebra-modules/tensor-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi_E:E\to M\) and \(\pi_F:F\to M\) be smooth vector bundles over the same [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Their **tensor product bundle** is a vector bundle
+Let \(\pi_E:E\to M\) and \(\pi_F:F\to M\) be smooth vector bundles over the same [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\). Their **tensor product bundle** is the vector bundle constructed from local tensor-product frames
 \[
 \pi_{E\otimes F}:E\otimes F \to M
 \]
-characterized by the property that each fiber is the tensor product of fibers:
+whose local trivializations are induced by those frames and whose fibers are tensor products:
 \[
 (E\otimes F)_x \cong E_x\otimes_{\mathbb F} F_x.
 \]

@@ -6,7 +6,7 @@ summary = "A quotient G/H of a locally compact group by a closed subgroup, equip
 aliases = ["topological homogeneous space", "locally compact quotient homogeneous space", "homogeneous G-space G/H"]
 domains = ["harmonic-analysis", "topology", "lie-groups"]
 section_mode = "progressive"
-prerequisites = ["topology/locally-compact-group", "topology/quotient-topology", "topology/continuous-group-action", "topology/hausdorff-space"]
+prerequisites = ["topology/locally-compact-group", "algebra-groups/subgroup", "algebra-groups/coset", "topology/quotient-topology", "topology/continuous-group-action", "topology/hausdorff-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

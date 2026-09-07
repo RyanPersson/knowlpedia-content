@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/limit-point.md"
 prerequisites = ["topology/topological-space", "topology/neighborhood"]
 dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+dependency_review_count = 3
 +++
 
 A **limit point** (or accumulation point) of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] is a point \(x\in X\) such that every [[topology/neighborhood|neighborhood]] \(N\) of \(x\) satisfies
@@ -22,6 +22,6 @@ The set of all limit points of \(A\) is the [[topology/derived-set|derived set]]
 
 ## Examples
 
-- In \(\mathbb{R}\), \(0\) is a limit point of the set \(\{1/n : n\in\mathbb{N}\}\).
+- In \(\mathbb{R}\), \(0\) is a limit point of the set \(\{1/n : n\ge1\}\).
 - In \(\mathbb{R}\), every point of \((0,1)\) is a limit point of \((0,1)\).
 - In a discrete topological space, no subset has a limit point (every point has a singleton neighborhood).

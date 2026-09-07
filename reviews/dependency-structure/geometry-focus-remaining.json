@@ -1,0 +1,174 @@
+{
+  "area": "remaining focus geometry and Lie groups",
+  "reviews": [
+    {
+      "id": "differential-geometry/category-of-smooth-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "426052c31ab366c9b0af6abd15cf2e8cc156f1408f4951e837ec7a758600b4ee",
+      "evidence": "The source defines the category with smooth manifolds as objects and smooth maps as morphisms; the listed category, manifold, and map prerequisites are used in the definition."
+    },
+    {
+      "id": "differential-geometry/diffeomorphism-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18fd5fd7faa58c0a3d59c234f0c6d98777726a0eba124446c139b5e2fcdb54ea",
+      "evidence": "The source defines the group of diffeomorphisms under composition and inversion; diffeomorphism and smooth-manifold foundations are direct, while the category page supplies the ambient category."
+    },
+    {
+      "id": "differential-geometry/embedded-submanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b96250e5425f8267b6af1bce3d99cc0abe1a299de98d0ecd256fb56a04f1dafb",
+      "evidence": "The source defines an embedded submanifold through a smooth embedding and its induced subspace smooth structure; manifold, chart, subspace topology, and embedding are direct."
+    },
+    {
+      "id": "differential-geometry/product-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb720c840779c87808c4860ad5ca26c6115fe658676576fd4f8225886c825d57",
+      "evidence": "The source constructs the product smooth structure from two smooth manifolds and the product topology; those are precisely the direct inputs."
+    },
+    {
+      "id": "differential-geometry/tangent-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb6ddb41655b7ccc6b1f4e32b27db45f4be549acd61e1fabec2d92ff592c8e6e",
+      "evidence": "The source defines tangent vectors as derivations/equivalence classes at a point of a smooth manifold and equips them with vector-space operations; manifold and vector-space foundations are direct."
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-of-a-principal-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d6b5ba7e7bbf3ab0a242b82d9cfea5bb4b99ee359ebc0c27b604d46f767f56f",
+      "evidence": "The source defines curvature by d\u03c9 plus one-half of the Lie bracket wedge term for a principal connection; connection form, exterior derivative, Lie bracket, and principal connection are direct."
+    },
+    {
+      "id": "fiber-bundles/diffeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1e4351acf3d6d8e0210b7c50ac938bd81a184b014d1cc7d69bc5a0e7fdce14e1",
+      "evidence": "The source defines a diffeomorphism as a bijective smooth map with smooth inverse; smooth map/manifold and bijection/inverse-function prerequisites are direct."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c498df1a7900760cae478574002962a6c5e6cc728ae18261c9529393ab85d27e",
+      "evidence": "The source defines the differential of a smooth map as the induced linear map between tangent spaces; smooth maps, tangent spaces, and linear maps are direct."
+    },
+    {
+      "id": "fiber-bundles/exterior-power-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e332555bc1324720439c1f702cd6f56141a46bd05254c52c38de0c60d08a9c9f",
+      "evidence": "The source forms the exterior power fiberwise from a vector bundle and its transition maps; vector bundle, tensor product, and bundle morphism inputs are direct."
+    },
+    {
+      "id": "fiber-bundles/fibered-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c54c94fe081e30234a478124ff2b2387b8c284339d311fcf66d432e19a426c5",
+      "evidence": "The source defines a fibered manifold as a smooth map that is a surjective submersion; smooth manifold/map, submersion, and surjectivity are direct."
+    },
+    {
+      "id": "fiber-bundles/lemma-maurercartan-equation-for-the-left-maurercartan-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f89f6e98870ff67bdc1beeccc1528672aef2310a0c2be68c85c4b896c06b61b",
+      "evidence": "The source proves the Maurer\u2013Cartan equation for the left Maurer\u2013Cartan form using Lie-group multiplication, exterior differentiation, and the Lie bracket; all listed inputs are used."
+    },
+    {
+      "id": "fiber-bundles/lie-bracket",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "746d1579bd189ba77253c5f7c528efa2b2d9dc617819b3d61d65439f29530fd1",
+      "evidence": "The source defines a Lie bracket as a bilinear alternating operation on a vector space; vector-space and linear-map prerequisites are direct."
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4c4f63d90f759e884368440d611fea35fd1976768ab48816561707dfcdaa5ad",
+      "evidence": "The source defines a Lie group as a smooth manifold with smooth group operations; group, smooth manifold, and smooth map foundations are direct."
+    },
+    {
+      "id": "fiber-bundles/principal-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ceba202eaebb0f400f19e181b445e40d5193a9ac68b5e5a49c11d1f93b09dcd2",
+      "evidence": "The source defines a horizontal distribution/connection on a principal bundle invariant under the Lie-group action; principal bundle and Lie group are direct."
+    },
+    {
+      "id": "fiber-bundles/reproduction-property-x",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86368177d65939294ead8fc5bd9c74a627903eac7749273e65d036d11054ae28",
+      "evidence": "The source states the connection-form reproduction property on fundamental vector fields; vector-field structure is the direct prerequisite."
+    },
+    {
+      "id": "fiber-bundles/right-principal-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a4d5a91a25c096152e2fad56cb1c87b4b6152421dbdb5a3f1ab1c2d6dbab376",
+      "evidence": "The source defines a smooth right action of a Lie group on a smooth manifold; Lie group, manifold, and action data are direct."
+    },
+    {
+      "id": "fiber-bundles/section-of-a-fiber-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a133644791aee30314015671abe199144e065d82efda250ed3dfa3ec627846f",
+      "evidence": "The source defines a section as a smooth right inverse of a smooth fiber-bundle projection; the bundle and smooth-map prerequisites are direct."
+    },
+    {
+      "id": "fiber-bundles/smooth-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34b96d749f2d390eae2502404db2ce1ca3c6108975ed10e60493b2f612c981b5",
+      "evidence": "The source defines an embedding as an injective immersion that is a homeomorphism onto its image; smooth map/manifold, immersion, injectivity, topology, and image are direct."
+    },
+    {
+      "id": "fiber-bundles/smooth-immersion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90669285292a62cc7c5e24c8d9debeae221b85cbc39bd70fd2eccfc1b7bb82dc",
+      "evidence": "The source defines an immersion by injectivity of the differential on tangent spaces; smooth maps, tangent spaces, differential, and injectivity are direct."
+    },
+    {
+      "id": "fiber-bundles/smooth-submersion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3f0e6cc8e0c2dc2f6eed779d642274d25f4d65feddcc03315823ffedb37ec55",
+      "evidence": "The source defines a submersion by surjectivity of the differential; smooth maps, tangent spaces, differential, and surjectivity are direct."
+    },
+    {
+      "id": "fiber-bundles/tangent-space-at-a-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "658740265e4dea02ae577d1853d73a577d4013bf179c6089091a9514ddd9d4a2",
+      "evidence": "The source constructs the tangent space at a point from smooth curves/derivations and gives it a vector-space structure; manifold and linear algebra prerequisites are direct."
+    },
+    {
+      "id": "fiber-bundles/tensor-product-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06bfe1ed0e9954056a03a1983eba9650985e0845db281b283a49fedba2813c5b",
+      "evidence": "The source defines tensor products fiberwise and assembles them into a bundle; smooth manifold is the only base prerequisite listed and is used in the construction."
+    },
+    {
+      "id": "fiber-bundles/vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f33091f6895465017cbc0c6c7f91664d7c91ebbb8776a9d119b428200f1e8124",
+      "evidence": "The source defines a vector field as a smooth section of the tangent bundle; manifold, tangent bundle, section, and tangent-space foundations are direct."
+    },
+    {
+      "id": "fiber-bundles/vector-subbundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "befbd6aaf062d5ac0bcf934a113d801a6493e67dddb513516c3b51506cb24604",
+      "evidence": "The source defines a vector subbundle by locally constant-rank linear subspaces with smooth local trivializations; vector bundle, subspace, trivialization, and embedding are direct."
+    },
+    {
+      "id": "fiber-bundles/vertical-tangent-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb7a97dca35bb6c2e151138a460f7815c67af6240ba090b9ef2c03bb63d60c41",
+      "evidence": "The source defines the vertical tangent space as the kernel of the differential of a fiber projection; fibered manifold, bundle map, tangent bundle, and embedded fiber are direct."
+    },
+    {
+      "id": "fiber-bundles/wedge-product-of-differential-forms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d972723aa076bc86838a04d28b40f6e1f219659ce14228a447f9c9ce3bc90114",
+      "evidence": "The source defines the wedge product by antisymmetrizing tensor products of differential forms; smooth manifold, forms, and tangent spaces are direct."
+    },
+    {
+      "id": "lie-groups/lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c23ac910f4f147fef1eefebb4990e8475595a3acb6f565cd77b93ad9a2729c62",
+      "evidence": "The source defines a Lie algebra as a vector space with an alternating bilinear bracket satisfying Jacobi; vector-space and bracket prerequisites are direct."
+    },
+    {
+      "id": "lie-groups/lie-algebra-of-a-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b4c83df06ba75cf5956b70f4fb476c8e042abe1348aa630ef9cce6d07b3a8d3e",
+      "evidence": "The source constructs the Lie algebra as the tangent space at the identity with bracket from invariant vector fields; tangent-space and Lie-group prerequisites are direct."
+    }
+  ]
+}
+

@@ -8,7 +8,7 @@ domains = ["topology"]
 legacy_source_path = "topology/derived-set.md"
 prerequisites = ["topology/topological-space", "topology/limit-point"]
 dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+dependency_review_count = 3
 +++
 
 The **derived set** of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] is the set
@@ -26,6 +26,6 @@ The derived set records the accumulation behavior of \(A\), and it satisfies the
 
 ## Examples
 
-- In \(\mathbb{R}\), if \(A=\{1/n : n\in\mathbb{N}\}\) then \(A'=\{0\}\).
+- In \(\mathbb{R}\), if \(A=\{1/n : n\ge1\}\) then \(A'=\{0\}\).
 - In \(\mathbb{R}\), if \(A=\mathbb{Z}\) then \(A'=\varnothing\).
 - In \(\mathbb{R}\), if \(A=(0,1)\) then \(A'=[0,1]\).
