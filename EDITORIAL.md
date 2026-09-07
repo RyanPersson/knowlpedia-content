@@ -95,3 +95,51 @@ to break a cycle. Resolve circular exposition at its definition boundary and
 retain useful ordinary links. A component already defined within the complete
 data of an object need not become a prerequisite merely because a companion
 knowl extracts that component.
+
+
+## Flagged issues
+
+Store concerns about an individual knowl in optional `[[issues]]` tables at
+**the end of its TOML front matter**, before the closing `+++`. Keep all
+existing top-level metadata above these tables: TOML keys following an
+`[[issues]]` header belong to that issue. No `issues` field is needed on
+knowls without reports. These records belong to the content repository and
+are versioned with the knowl. They are editorial metadata, not reader-facing
+content; the compiler does not publish them in HTML or the registry.
+
+Each issue has these fields:
+
+| Field | Convention |
+| --- | --- |
+| `id` | Stable UUID string; never renumber or reuse for another concern. |
+| `status` | `open`, `resolved`, or `dismissed`. Start with `open`. |
+| `summary` | Short description of the concern, not an unverified assertion of error. |
+| `reported_at` | UTC timestamp string in ISO 8601 format, retained unchanged. |
+| `updated_at` | UTC timestamp string, updated when the record changes. |
+| `report` | Reviewer's original concern; preserve it on subsequent updates. |
+| `selected_text` | Optional exact excerpt supplied with the report. |
+| `assessment` | Model's findings, evidence, uncertainty, and proposed next step. Initially empty if investigation is pending. |
+| `resolution` | Required when resolved or dismissed: explain the fix and checks, or evidence for dismissal. |
+
+The containing knowl's `id` associates the issue with its subject; do not
+repeat the knowl ID inside the issue. Escape strings correctly for TOML and
+parse the whole front matter after every edit. Never put access keys,
+authentication data, or conversation transcripts in these records.
+
+**Flag issue** records the concern before investigation, then updates the
+assessment. It does not authorize corrections to the mathematical body.
+Leave uncertain concerns open, even when a possible fix is apparent.
+**Request change** may apply a correction and resolve the matching issue
+after focused checks. Dismissal means evidence shows no correction is needed;
+record that reasoning. Retain closed records rather than deleting history.
+For a clearly duplicate concern, reuse the issue and append new information
+to its assessment without replacing the original report; reopen if new
+evidence calls the previous resolution into question.
+
+Flagging an issue does not increment dependency-review counts or constitute
+a completed refactor review. The refactor ledger continues to record reviews;
+`[[issues]]` records actionable concerns and their disposition. These records
+are saved by the feedback model using repository edits, not by a separate
+issue database. If the model fails before saving, the conversation alone is
+not a saved issue; its final reply must identify the saved issue and file, or
+explicitly report that it could not save the flag.

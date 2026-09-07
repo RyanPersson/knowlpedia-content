@@ -9,6 +9,15 @@ section_mode = "progressive"
 prerequisites = ["mathematical-physics/hyperbolic-poisson-kernel"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
+
+[[issues]]
+id = "3b5995e5-b613-43c1-9076-a6bbe710cee7"
+status = "open"
+summary = "Reported missing knowl links, including Poincaré disk"
+reported_at = "2026-09-07T03:41:20Z"
+updated_at = "2026-09-07T03:41:52Z"
+report = "Flagging some missing knowl links in this one including poincare disk."
+assessment = "Confirmed that the core mentions Poincaré disk without a knowl link. A corpus search found mentions in compact-hyperbolic-surface and hyperbolic-poisson-kernel, but no dedicated Poincaré disk definition target. A subsequent Request change should establish a canonical disk-model knowl and link the first mention here. The unlinked Laplacian is another candidate: differential-geometry/laplace-beltrami-operator exists, but its nonnegative Delta convention must be reconciled with this source’s displayed -Delta before choosing link wording. The broader missing-link concern remains open; no body corrections were made."
 +++
 
 Let \(P_b(z)\) be the
