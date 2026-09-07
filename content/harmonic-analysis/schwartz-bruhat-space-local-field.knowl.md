@@ -6,7 +6,7 @@ summary = "The test-function space on a local field, given by Schwartz functions
 aliases = ["Schwartz-Bruhat functions", "Bruhat-Schwartz functions on a local field"]
 domains = ["harmonic-analysis", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/schwartz-space", "topology/compact-set", "harmonic-analysis/schwartz-bruhat-space-lca"]
+prerequisites = ["algebra-fields-galois/local-field", "functional-analysis/schwartz-space", "topology/compact-set", "harmonic-analysis/schwartz-bruhat-space-lca"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

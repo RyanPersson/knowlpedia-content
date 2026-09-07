@@ -6,9 +6,9 @@ summary = "A principal bundle automorphism that covers the identity map on the b
 aliases = ["gauge-transformation", "Gauge transformation"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/gauge-transformation.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-automorphism", "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/section-of-ad"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-automorphism"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]]. A **gauge transformation** of \(P\) is a [[fiber-bundles/principal-bundle-automorphism|principal bundle automorphism]] covering \(\operatorname{id}_M\): a smooth diffeomorphism \(\Phi:P\to P\) satisfying
@@ -18,6 +18,8 @@ Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundl
 \Phi(p\cdot g)=\Phi(p)\cdot g
 \]
 for every \(p\in P\) and \(g\in G\).
+
+## Equivariant maps and adjoint-bundle sections
 
 Every gauge transformation can be written uniquely in the form
 \[

@@ -6,12 +6,18 @@ summary = "A set equipped with a topology, specifying which subsets are open."
 aliases = ["topological-space", "Topological space"]
 domains = ["topology"]
 legacy_source_path = "topology/topological-space.md"
-prerequisites = ["shared-foundations/ordered-pair", "shared-foundations/set", "topology/topology"]
+prerequisites = ["shared-foundations/set", "shared-foundations/subset", "shared-foundations/union", "shared-foundations/intersection"]
 dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+dependency_review_count = 3
 +++
 
-A **topological space** is an [[shared-foundations/ordered-pair|ordered pair]] \((X,\mathcal{T})\) where \(X\) is a [[shared-foundations/set|set]] and \(\mathcal{T}\subseteq \mathcal{P}(X)\) is a [[topology/topology|topology]] on \(X\).
+A **topological space** is a pair \((X,\mathcal T)\), where \(X\) is a [[shared-foundations/set|set]] and \(\mathcal T\) is a collection of [[shared-foundations/subset|subsets]] of \(X\), satisfying:
+
+1. **Empty set and whole space:** \(\varnothing,X\in\mathcal T\).
+2. **Arbitrary unions:** the union of any collection of members of \(\mathcal T\) belongs to \(\mathcal T\).
+3. **Finite intersections:** the intersection of finitely many members of \(\mathcal T\) belongs to \(\mathcal T\).
+
+The collection \(\mathcal T\) is the [[topology/topology|topology]] of the space.
 
 ## Constructions
 

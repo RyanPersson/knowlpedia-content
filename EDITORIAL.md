@@ -31,6 +31,8 @@ Place the smallest sufficient statement before the first level-two heading. The 
 - link genuine prerequisites;
 - stand on its own when opened inline.
 
+Keep the defining axioms in the core. Do not replace an axiomatic construction with a shorter characterization that assumes an already constructed object, while moving its axioms into a later disclosure. For example, a basis for a topology opens with covering and intersection-refinement axioms; the generated-topology characterization follows afterward. Minimal means removing unnecessary material, not hiding necessary structure.
+
 Do not begin with history, a long analogy, or a list of examples. A short orienting sentence is useful when the formal statement alone is hard to parse.
 
 ## Optional sections

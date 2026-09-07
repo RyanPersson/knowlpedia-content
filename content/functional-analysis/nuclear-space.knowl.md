@@ -6,9 +6,9 @@ summary = "A locally convex space whose defining Banach-space transition maps ar
 aliases = ["nuclear locally convex space", "Grothendieck nuclear space"]
 domains = ["functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/locally-convex-space", "linear-algebra/vector-space", "functional-analysis/topological-dual"]
+prerequisites = ["functional-analysis/locally-convex-space", "convex-analysis/seminorm", "functional-analysis/seminorm-quotient-completion", "functional-analysis/nuclear-operator"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 Let \(E\) be a Hausdorff

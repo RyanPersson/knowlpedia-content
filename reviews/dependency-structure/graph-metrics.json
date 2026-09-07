@@ -1,6 +1,6 @@
 {
-  "canonical_nodes": 3521,
-  "edges": 11102,
+  "canonical_nodes": 3523,
+  "edges": 11114,
   "height_edges": 45,
   "longest_chain": [
     "differential-geometry/liouville-arnold-theorem",
@@ -53,7 +53,7 @@
   "focus": {
     "id": "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg",
     "height_edges": 39,
-    "ancestors": 122,
+    "ancestors": 121,
     "direct_prerequisites": [
       "fiber-bundles/local-curvature-formula-f-da-aa",
       "fiber-bundles/local-connection-1-form",

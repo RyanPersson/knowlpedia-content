@@ -8,7 +8,7 @@ domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/natural-numbers.md"
 prerequisites = ["shared-foundations/set", "shared-foundations/function", "shared-foundations/subset"]
 dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+dependency_review_count = 3
 +++
 
 The **natural numbers** form a [[shared-foundations/set|set]] \(\mathbb N\) with an element \(0\) and a successor [[shared-foundations/function|function]] \(S:\mathbb N\to\mathbb N\) satisfying:
@@ -20,6 +20,16 @@ The **natural numbers** form a [[shared-foundations/set|set]] \(\mathbb N\) with
 ## Notation and convention
 
 Write \(1=S(0)\), \(2=S(1)\), and so on, so that \(\mathbb N=\{0,1,2,\ldots\}\). Some authors exclude zero; in this corpus, a positive index is written explicitly as \(n\ge1\). These Peano axioms with induction over all subsets characterize the system up to isomorphism.
+
+## Arithmetic
+
+Addition and multiplication are determined recursively by
+\[
+a+0=a,\qquad a+S(b)=S(a+b),
+\]
+\[
+a\cdot0=0,\qquad a\cdot S(b)=a\cdot b+a.
+\]
 
 ## Remarks
 

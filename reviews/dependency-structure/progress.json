@@ -1,13 +1,13 @@
 {
   "counts": {
-    "canonical_entries": 3521,
-    "corrected": 249,
-    "reviewed_unchanged": 620,
+    "canonical_entries": 3523,
+    "corrected": 256,
+    "reviewed_unchanged": 646,
     "blocked": 0,
     "stale": 0,
     "retired": 4,
-    "reviewed_current": 869,
-    "remaining_review": 2652
+    "reviewed_current": 902,
+    "remaining_review": 2621
   },
   "stale_ids": [],
   "note": "Only explicit current-hash semantic reviews count. Graph validity is reported separately."

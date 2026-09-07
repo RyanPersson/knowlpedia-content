@@ -1,0 +1,32 @@
+{
+  "scope": "Functional analysis nuclear-space foundations",
+  "review_type": "dependencies",
+  "reviewed_at": "2026-09-07",
+  "reviews": [
+    {
+      "id": "functional-analysis/nuclear-space",
+      "outcome": "corrected",
+      "source_sha256": "c39920e83be750abd221ccf82434b3bd7340f35399d235df407f9b4c70b94312",
+      "previous_prerequisites": ["functional-analysis/locally-convex-space", "linear-algebra/vector-space", "functional-analysis/topological-dual"],
+      "prerequisites": ["functional-analysis/locally-convex-space", "convex-analysis/seminorm", "functional-analysis/seminorm-quotient-completion", "functional-analysis/nuclear-operator"],
+      "evidence": "The core quantifies over continuous seminorms, forms Banach completions of seminorm quotients, and requires the linking maps to be nuclear. The topological dual appears only in later explanatory remarks and was removed from the prerequisite set; the new foundational knowls supply the two concepts actually used in the definition."
+    },
+    {
+      "id": "functional-analysis/seminorm-quotient-completion",
+      "outcome": "corrected",
+      "source_sha256": "9a32404177cd7c626796080cd84521180b22b338bdd7659c75d02a101648d418",
+      "previous_prerequisites": [],
+      "prerequisites": ["linear-algebra/vector-space", "convex-analysis/seminorm", "convex-analysis/quotient-vector-space-codimension", "linear-algebra/banach-space"],
+      "evidence": "Introduces the norm on E/ker(p), its Banach completion E_p, and the contraction E_q to E_p for q at least p; the listed vector-space, seminorm, quotient, and Banach foundations are directly used."
+    },
+    {
+      "id": "functional-analysis/nuclear-operator",
+      "outcome": "corrected",
+      "source_sha256": "2f71ece4d48bb315784fbc927f0be6f1ef0ae2f2d1b55db11fcf18373ca467a5",
+      "previous_prerequisites": [],
+      "prerequisites": ["linear-algebra/banach-space", "functional-analysis/bounded-linear-operator", "convex-analysis/bounded-linear-functional-norm-of-a-functional"],
+      "evidence": "Defines nuclearity for a bounded operator between Banach spaces by an absolutely norm-summable rank-one expansion using bounded linear functionals; each listed prerequisite is required by that core."
+    }
+  ],
+  "summary": {"reviewed": 3, "corrected": 3, "reviewed_unchanged": 0}
+}

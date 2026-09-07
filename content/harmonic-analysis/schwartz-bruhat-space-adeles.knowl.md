@@ -6,7 +6,7 @@ summary = "The restricted tensor product of the local Schwartz–Bruhat spaces o
 aliases = ["adelic Schwartz space", "adelic test functions", "restricted tensor product of Schwartz-Bruhat spaces"]
 domains = ["harmonic-analysis", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/vector-space", "harmonic-analysis/restricted-tensor-product-test-functions", "harmonic-analysis/schwartz-bruhat-space-local-field"]
+prerequisites = ["algebra-fields-galois/number-field", "linear-algebra/vector-space", "functional-analysis/schwartz-space", "harmonic-analysis/restricted-tensor-product-test-functions", "harmonic-analysis/schwartz-bruhat-space-local-field"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

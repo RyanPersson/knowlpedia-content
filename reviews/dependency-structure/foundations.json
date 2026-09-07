@@ -3418,6 +3418,127 @@
         "fiber-bundles/vector-bundle",
         "algebra-modules/tensor-product"
       ]
+    },
+    {
+      "id": "shared-foundations/integers",
+      "outcome": "corrected",
+      "source_sha256": "e04f22b6da133cdfd0cc5afde3854faf64c43ce8e801042a90f9dee2235984b9",
+      "evidence": "Replaced an ellipsis-only description by formal differences of natural numbers with explicit equivalence; retained arithmetic and notation in expandable sections. Quotient construction supplies the missing defining dependency.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/natural-numbers"
+      ],
+      "prerequisites": [
+        "shared-foundations/natural-numbers",
+        "shared-foundations/cartesian-product",
+        "shared-foundations/quotient-set"
+      ]
+    },
+    {
+      "id": "shared-foundations/natural-numbers",
+      "outcome": "corrected",
+      "source_sha256": "3528a7eb573223fce0c251c9f4d57cf109e82cbbbafc042846db35494f1baf77",
+      "evidence": "Supplied recursive addition and multiplication as constructions after the Peano core, so the integer formal-difference construction has its arithmetic ingredients available without circular integer prerequisites.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "shared-foundations/quotient-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "480c054d20a73bde0601fa3c015cd160e7796e624ddd4c3b6dbb9def8fc43200",
+      "evidence": "Checked equivalence-class set construction and target relation definition. Integer examples are downstream applications; they do not enter prerequisites.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/equivalence-relation",
+        "shared-foundations/equivalence-class"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/equivalence-relation",
+        "shared-foundations/equivalence-class"
+      ]
+    },
+    {
+      "id": "shared-foundations/equivalence-relation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb4e17f00383b56170300297700358585a7b61e515981c078d8413f9b0629517",
+      "evidence": "All three relation axioms are present and no quotient/group structures are required before defining the relation.",
+      "previous_prerequisites": [
+        "shared-foundations/relation"
+      ],
+      "prerequisites": [
+        "shared-foundations/relation"
+      ]
+    },
+    {
+      "id": "fiber-bundles/gauge-transformation",
+      "outcome": "corrected",
+      "source_sha256": "7308a7fd8eded08a5e077a34c6d696d9fbe5ad87a3b0cb458003b1fa314381a7",
+      "evidence": "Checked equivariant automorphism over the identity definition and the right-action formula Phi(p)=p u(p), with u(pg)=g^-1 u(p)g. Adjoint-bundle sections are equivalent data, moved to a later section rather than prerequisites.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-automorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-automorphism"
+      ]
+    },
+    {
+      "id": "topology/basis-of-topology",
+      "outcome": "corrected",
+      "source_sha256": "490ffedea64e18708439092db49dc6c87ea08f472a632008c2e41eabb1745d7f",
+      "evidence": "User correction: restored covering and intersection-refinement axioms to the opening core. Prior root edit wrongly prioritized the relative union characterization. The topology-generation consequence now follows in its own section; defining prerequisites are set, subset and intersection.",
+      "previous_prerequisites": [
+        "topology/topology",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/subset",
+        "shared-foundations/intersection"
+      ]
+    },
+    {
+      "id": "topology/topological-space",
+      "outcome": "corrected",
+      "source_sha256": "19363ee3b2efa1e7e5677837c52db4271a66d7e7c3e804a36be9c931176bfc78",
+      "evidence": "User-directed regression audit: restored the three topology axioms in the first expansion instead of delegating the entire axiomatic content to the topology link. Explanatory constructions remain expandable.",
+      "previous_prerequisites": [
+        "shared-foundations/ordered-pair",
+        "shared-foundations/set",
+        "topology/topology"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/subset",
+        "shared-foundations/union",
+        "shared-foundations/intersection"
+      ]
+    },
+    {
+      "id": "topology/open-sets-form-a-topology",
+      "outcome": "corrected",
+      "source_sha256": "c89fc6e80356f752da870c847550aef733fbb4b60e43628116ff52279ae97328",
+      "evidence": "User-directed regression audit: made the three asserted closure properties explicit in the theorem core. The ball-based definition avoids circular use of topological openness; their proof remains later.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/topology"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/topology"
+      ]
     }
   ]
 }

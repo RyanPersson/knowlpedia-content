@@ -1,0 +1,162 @@
+{
+  "scope": "remaining 26 harmonic-analysis canonical sources, alphabetical (81-106)",
+  "review_type": "dependencies",
+  "reviews": [
+    {
+      "id": "harmonic-analysis/schwartz-bruhat-space-adeles",
+      "outcome": "corrected",
+      "source_sha256": "6dbfd6d0cb722f2bfb348f8a5a06b45ea5d62f01545131ac580d05b5d45a8dba",
+      "evidence": "The adelic Schwartz space is the restricted tensor product over a number field; number field, finite-dimensional vector space, Schwartz space, and local/restricted factors are direct inputs, so number field and Schwartz space were added."
+    },
+    {
+      "id": "harmonic-analysis/schwartz-bruhat-space-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad82940179714db867b690f5008ce5f7c815fd9e2cb09873bdebacdfe49148b4",
+      "evidence": "The space is defined by local compact abelian group structure, compact generated subgroups, and Schwartz functions; the listed prerequisites match those construction choices."
+    },
+    {
+      "id": "harmonic-analysis/schwartz-bruhat-space-local-field",
+      "outcome": "corrected",
+      "source_sha256": "973afb6da3f78d9d2beb1fb0f20398dfdd0b0e0bdddcc64214dc26a826187989",
+      "evidence": "The definition splits archimedean and nonarchimedean cases for a local field and uses Schwartz/compactness/LCA spaces; local-field was added as the missing ambient input."
+    },
+    {
+      "id": "harmonic-analysis/smooth-representation-totally-disconnected-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a0c82f055fba4b6a8b4d6c11c3ba0570544bed4d03c753e5208ee29172067182",
+      "evidence": "Smoothness means every vector has an open stabilizer in a locally profinite group; local profiniteness and stabilizers are exactly the direct concepts."
+    },
+    {
+      "id": "harmonic-analysis/spherical-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3159b41b8b24cde7f7ca89e4573934e02012f519c01e3eea777a1a772b41f05",
+      "evidence": "A spherical function is defined from a Gelfand pair and Haar convolution with a compact subgroup; local compactness, convolution, Gelfand pair, and Haar measure are direct."
+    },
+    {
+      "id": "harmonic-analysis/spherical-hecke-algebra-satake",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e77e666217a9f6889ec622e19530ef893f650b9b27294719aadfea4da55f3ad4",
+      "evidence": "The Satake algebra uses an unramified reductive p-adic group, hyperspecial compact subgroup, normalized Haar measure, and convolution; all are direct."
+    },
+    {
+      "id": "harmonic-analysis/spherical-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a1b08b164054b60e8e8c776241826f2e31c76ecd251d0f744cacfc0234c2746",
+      "evidence": "The transform integrates a K-bi-invariant function against spherical functions on a real semisimple Lie group; Lie group, maximal compact, Haar, and spherical function are direct."
+    },
+    {
+      "id": "harmonic-analysis/supercuspidal-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "13c878087c5ad667e47bf632af29777a61b1c2caf4647ba5c80b1b94c2299baf",
+      "evidence": "Supercuspidality is defined by vanishing Jacquet modules for proper parabolics in the admissible p-adic representation setting; each listed representation-theoretic structure is direct."
+    },
+    {
+      "id": "harmonic-analysis/system-of-imprimitivity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32493e5ad8aac431823c2c095ed8beefde314c16dae5f0cae0d18eb07b4accbd",
+      "evidence": "The definition combines a locally compact action, Hilbert representation, and projection-valued measure with covariance; listed prerequisites cover each defining object."
+    },
+    {
+      "id": "harmonic-analysis/tempered-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e6cfc3b3cd1d11af7d0b47d36fb82f347ec8435f19221198da50d8a9cad8509",
+      "evidence": "The tempered dual is the subspace of the unitary dual consisting of representations weakly contained in the regular representation; the topology subspace and all representation notions are direct."
+    },
+    {
+      "id": "harmonic-analysis/tempered-representation-p-adic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52c3b74c761ae77c314b27a9918fbe29cbc212fc94bb57a8c14e94b307677631",
+      "evidence": "The p-adic tempered condition uses admissibility, unitary central character, and the reductive/local-field setting; center and character data are direct."
+    },
+    {
+      "id": "harmonic-analysis/tempered-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6a56a57d01a487a12aed301a75d40337bee9dece6e1a07c80f21d1be2ba9fcc",
+      "evidence": "Temperedness is weak containment in the regular representation for a strongly continuous unitary representation; the Hilbert and reduced C-star context are direct."
+    },
+    {
+      "id": "harmonic-analysis/tensor-product-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "840f5417471753327deccba5c724238140339e372d80055e03d095c01d42063f",
+      "evidence": "The construction takes two strongly continuous unitary representations on Hilbert spaces and acts on their completed tensor product; all listed representation, Hilbert, inner-product, and unitary concepts are direct."
+    },
+    {
+      "id": "harmonic-analysis/test-function-space-local-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e87711fc22f06f49dab60f8d80cf43958ef9a0dac7bd42d15dd93327645b2cbe",
+      "evidence": "The test-function space differs between Lie and totally disconnected local groups; local field, Lie group, and local profinite structure are defining case data."
+    },
+    {
+      "id": "harmonic-analysis/unimodular-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83d8ff5031d4eeea909ee52366f8ce28babb790b1285ac682b58da05b35b9f1b",
+      "evidence": "Unimodularity is the condition that the modular function is one, equivalently left Haar is right invariant; modular function, Haar, and right translation are direct."
+    },
+    {
+      "id": "harmonic-analysis/unitary-character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e67e7ae560d06a6414d90958acb565cfca7ede03fb170e5fefc7bb4ca5641a0",
+      "evidence": "A unitary character is a continuous homomorphism into the circle and equivalently a one-dimensional unitary representation; group homomorphism and representation are direct."
+    },
+    {
+      "id": "harmonic-analysis/unitary-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53807381b90c705ff8969ad183eeed8cb72640eb1d1753ba51a04253b8623f69",
+      "evidence": "The unitary dual consists of unitary-equivalence classes of irreducible strongly continuous unitary representations on Hilbert spaces; every listed prerequisite enters the definition."
+    },
+    {
+      "id": "harmonic-analysis/unitary-frobenius-reciprocity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7360134511a12397cf0182cf3ea49f6a2a8ef55c81b1129735dd7d95236341dd",
+      "evidence": "The reciprocity isomorphism compares intertwiners with a compact-group induced representation; strong unitary representations, induction, Haar averaging, and intertwining maps are direct."
+    },
+    {
+      "id": "harmonic-analysis/unitary-induced-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb2458327f79a48f54b9f42172ef06e3e18aedd49622977af5afa9169cfccf06",
+      "evidence": "Induction uses a locally compact group, closed subgroup, quasi-invariant measure on G/H, Hilbert bundle, and translations; all listed prerequisites are used in the construction."
+    },
+    {
+      "id": "harmonic-analysis/unramified-representation-p-adic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e52fec839b5c15ad22abd2bcc8bfed82c7f1c4cc354e00b2c3e3aea762e63581",
+      "evidence": "An unramified representation is defined by a hyperspecial-fixed vector in an irreducible admissible representation of an unramified reductive p-adic group; listed inputs are direct."
+    },
+    {
+      "id": "harmonic-analysis/weak-containment-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0e95b24706632fd25916c6a5010768e5ed0acc87daf5dc159f7f5367bdfe681",
+      "evidence": "Weak containment is defined by approximating matrix coefficients of unitary representations uniformly on compact sets; representation, Hilbert, compact-set, and absolute-value notions are direct."
+    },
+    {
+      "id": "harmonic-analysis/weil-integration-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb7db31f2430c79849e2930a26933921aa14a136e6da6e36c6993e67e7764ff5",
+      "evidence": "The formula decomposes Haar integration over G into integration over G/H and H using modular factors; locally compact homogeneous spaces, Haar measures, and modular functions are direct."
+    },
+    {
+      "id": "harmonic-analysis/whittaker-model",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8fec2e0b7b9032ba40a94375af19118a5cd1aebe597209a83cb58fc047931f28",
+      "evidence": "A Whittaker model is a space of functions transforming by a nondegenerate unitary character of the unipotent radical; quasi-split group, local field, Borel/unipotent data, character, and linear maps are direct."
+    },
+    {
+      "id": "harmonic-analysis/wiener-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87f307613e74dda1d04b2fef37acd93c7d605ae4c3ab5f15d6d62ec78022994e",
+      "evidence": "The Wiener transform is a unitary extension defined on a Gaussian Hilbert space and Fock-polynomial subspace; Gaussian measure, Fock space, and unitary operator are direct."
+    },
+    {
+      "id": "harmonic-analysis/x-ray-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d53619c28505c212cfd9367413f8895b4e3af0712b1d8ef0b02d52fdd33be49",
+      "evidence": "The X-ray transform integrates an integrable function along affine lines; Lebesgue integrability is the only nonlocal prerequisite and matches the core."
+    },
+    {
+      "id": "harmonic-analysis/young-convolution-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "82277ed5bdec39a5d0438fe3fb2cd3b35a6c28ceca7b7b13223c39584613bb92",
+      "evidence": "Young's inequality combines unimodularity, Haar convolution, bilinear structure, Hölder, and Tonelli to bound Lp convolution; each is used in the statement/proof."
+    }
+  ]
+}
