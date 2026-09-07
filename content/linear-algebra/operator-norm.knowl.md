@@ -7,15 +7,23 @@ aliases = ["operator-norm", "Operator norm"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/operator-norm.md"
 prerequisites = ["linear-algebra/linear-map", "linear-algebra/normed-vector-space", "real-analysis/supremum"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 An **operator norm** of a [[linear-algebra/linear-map|linear map]] \(T:V\to W\) between [[linear-algebra/normed-vector-space|normed vector spaces]] \((V,\|\cdot\|_V)\) and \((W,\|\cdot\|_W)\) is the quantity
 \[
-\|T\|=\sup_{v\ne 0}\frac{\|T(v)\|_W}{\|v\|_V}=\sup_{\|v\|_V=1}\|T(v)\|_W,
+\|T\|=\sup_{\|v\|_V\le 1}\|T(v)\|_W,
 \]
 with the understanding that the supremum may be \(+\infty\) in general. When \(\|T\|<\infty\), one says \(T\) is bounded.
+
+## Equivalent formulas
+
+For \(V\ne\{0\}\), this also equals
+\[
+\sup_{v\ne0}\frac{\|T(v)\|_W}{\|v\|_V}=\sup_{\|v\|_V=1}\|T(v)\|_W.
+\]
+For the zero vector space, the unit-ball formula gives \(\|T\|=0\).
 
 ## Remarks
 

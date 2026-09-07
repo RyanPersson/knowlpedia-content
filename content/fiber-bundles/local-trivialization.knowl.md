@@ -7,8 +7,8 @@ aliases = ["local-trivialization", "Local trivialization"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/local-trivialization.md"
 prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/typical-fiber", "fiber-bundles/diffeomorphism"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] with typical fiber \(F\) (see [[fiber-bundles/typical-fiber|typical fiber]]). Let \(U\subset M\) be open.
@@ -22,13 +22,15 @@ such that the projection to \(U\) agrees with \(\pi\), i.e.
 \mathrm{pr}_1\circ \Phi = \pi|_{\pi^{-1}(U)}.
 \]
 
+## Atlases and variants
+
 A collection of local trivializations over an open cover that satisfy the compatibility condition defines a [[fiber-bundles/bundle-atlas|bundle atlas]]. On overlaps \(U_i\cap U_j\), comparing trivializations produces the usual [[fiber-bundles/transition-function|transition functions]] (or transition maps), and these satisfy the [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle condition]].
 
 For principal bundles, one often uses the equivariant version (compare [[fiber-bundles/equivariant-local-trivialization|equivariant local trivialization]]), and local trivializations can be built from local sections as in [[fiber-bundles/construction-local-trivialization-from-a-local-section|constructing a trivialization from a local section]].
 
-## Equivalent characterizations
+## Fiberwise consequence
 
-Equivalently, for each \(x\in U\) the map \(\Phi\) restricts to a diffeomorphism of fibers
+For each \(x\in U\), the bundle-compatible diffeomorphism \(\Phi\) restricts to a diffeomorphism of fibers
 \[
 \Phi_x:E_x\stackrel{\cong}{\longrightarrow} \{x\}\times F \cong F.
 \]

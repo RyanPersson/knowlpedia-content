@@ -6,9 +6,9 @@ summary = "A family of subsets for which every point has a neighborhood meeting 
 aliases = ["locally finite collection", "local finiteness of a family"]
 domains = ["topology"]
 section_mode = "progressive"
-prerequisites = ["topology/topological-space", "shared-foundations/indexed-family-of-sets"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "shared-foundations/indexed-family-of-sets", "topology/neighborhood"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A [[shared-foundations/indexed-family-of-sets|family]] \(\{A_i\}_{i\in I}\) of subsets of a [[topology/topological-space|topological space]] \(X\) is

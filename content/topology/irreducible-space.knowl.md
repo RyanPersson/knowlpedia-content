@@ -5,14 +5,22 @@ kind = "definition"
 summary = "A nonempty topological space that is not the union of two proper closed subsets."
 aliases = ["irreducible space", "irreducible topological space", "irreducible subset"]
 domains = ["topology"]
-prerequisites = ["topology/topological-space", "topology/open-set", "topology/closed-set", "topology/subspace-topology"]
-dependency_heuristic = "semantic-spotcheck-review-v1"
-dependency_review_count = 2
+prerequisites = ["topology/topological-space", "topology/closed-set"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 3
 +++
 
-A nonempty [[topology/topological-space|topological space]] \(X\) is **irreducible** if it cannot be written as the union of two proper [[topology/closed-set|closed subsets]]. Equivalently, every two nonempty open subsets of \(X\) intersect.
+A nonempty [[topology/topological-space|topological space]] \(X\) is **irreducible** if it cannot be written as the union of two proper [[topology/closed-set|closed subsets]].
+
+## Equivalent characterization
+
+Equivalently, every two nonempty open subsets of \(X\) intersect.
+
+## Subsets and components
 
 A subset \(Z\subseteq X\) is irreducible if it is irreducible with its [[topology/subspace-topology|subspace topology]]. An **irreducible component** of \(X\) is a maximal irreducible subset; every irreducible component is closed.
+
+## Generic points
 
 If a point \(\eta\in X\) has [[topology/closure|closure]] equal to \(X\), then \(X\) is irreducible and \(\eta\) is its [[algebraic-geometry-foundations/generic-point|generic point]]. In particular, if \(A\) is an [[algebra-rings/integral-domain|integral domain]], then the [[algebra-commutative/prime-spectrum|prime spectrum]] \(\operatorname{Spec}A\) is irreducible, with generic point \((0)\).
 

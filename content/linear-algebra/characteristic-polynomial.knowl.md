@@ -7,8 +7,8 @@ aliases = ["characteristic-polynomial", "Characteristic polynomial"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/characteristic-polynomial.md"
 prerequisites = ["linear-algebra/linear-operator", "linear-algebra/matrix", "linear-algebra/determinant", "algebra-rings/polynomial-ring", "convex-analysis/basis-hamel-basis-and-dimension"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **characteristic polynomial** of a [[linear-algebra/linear-operator|linear operator]] \(T:V\to V\) on an \(n\)-dimensional [[linear-algebra/vector-space|vector space]] is the polynomial
@@ -19,7 +19,7 @@ where \(A\) is the matrix of \(T\) in any basis and \(I\) is the \(n\times n\) i
 
 ## Remarks
 
-The [[linear-algebra/eigenvalue|eigenvalues]] of \(T\) are exactly the roots of \(p_T(t)\) (in any field extension where the polynomial splits). The polynomial is central to statements like the [[linear-algebra/cayley-hamilton-theorem|Cayley–Hamilton theorem]].
+The [[linear-algebra/eigenvalue|eigenvalues]] of \(T\) in \(\mathbb F\) are exactly the roots of \(p_T(t)\) in \(\mathbb F\). Over a field extension, the roots are eigenvalues of the operator obtained by extending scalars. The polynomial is central to statements like the [[linear-algebra/cayley-hamilton-theorem|Cayley–Hamilton theorem]].
 
 ## Examples
 

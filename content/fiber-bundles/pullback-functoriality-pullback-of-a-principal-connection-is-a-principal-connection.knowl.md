@@ -6,7 +6,7 @@ summary = "A principal connection pulls back along a smooth map to a canonical c
 aliases = ["pullback-functoriality-pullback-of-a-principal-connection-is-a-principal-connection", "Theorem: Pullback of a principal connection is a principal connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/pullback-functoriality-pullback-of-a-principal-connection-is-a-principal-connection.md"
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

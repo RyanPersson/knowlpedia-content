@@ -6,15 +6,21 @@ summary = "The open subsets of a metric space satisfy the axioms of a topology."
 aliases = ["open-sets-form-a-topology", "Open sets form a topology"]
 domains = ["topology"]
 legacy_source_path = "topology/open-sets-form-a-topology.md"
-prerequisites = ["topology/metric-space", "topology/open-set", "topology/metric"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/metric-space", "topology/open-ball", "topology/topology"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-**Open sets form a topology.** Let \((X,d)\) be a [[topology/metric-space|metric space]]. Then:
+Let \((X,d)\) be a [[topology/metric-space|metric space]], and define
+\[
+\tau_d=\{U\subseteq X:\text{for every }x\in U\text{ there is }r>0\text{ with }B_d(x,r)\subseteq U\},
+\]
+where \(B_d(x,r)\) is an [[topology/open-ball|open ball]]. Then \(\tau_d\) is a [[topology/topology|topology]] on \(X\).
 
-- \(\varnothing\) and \(X\) are [[topology/open-set|open]];
-- if every \(U_\alpha\) is open, then \(\bigcup_{\alpha\in A}U_\alpha\) is open; and
-- if \(U_1,\ldots,U_n\) are open, then \(\bigcap_{j=1}^nU_j\) is open.
+## Axioms verified
 
-These closure properties justify treating "open sets" as the primitive objects defining the topological structure induced by a [[topology/metric|metric]].
+The empty set and \(X\) lie in \(\tau_d\). An arbitrary union of members lies in \(\tau_d\), since each point belongs to one of them and has a ball inside it. For a finite intersection, take the minimum of the finitely many positive radii supplied at a point. The empty intersection is \(X\).
+
+## Resulting structure
+
+This is the [[topology/metric-induced-topology|metric-induced topology]]. The proof starts with the metric ball condition, rather than assuming an existing topology and its open sets.

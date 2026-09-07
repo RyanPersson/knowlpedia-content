@@ -2,22 +2,7 @@
 id = "topology/continuous-attains-max-min-compact"
 title = "Continuous attains max/min on compact set"
 kind = "knowl"
-summary = "A continuous real-valued function on a compact set achieves a maximum and a minimum"
-aliases = ["continuous-attains-max-min-compact", "Continuous attains max/min on compact set"]
-domains = ["topology"]
-legacy_source_path = "topology/continuous-attains-max-min-compact.md"
-prerequisites = ["topology/compact-set", "topology/continuous-map"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+summary = "Equivalent theorem consolidated into the canonical entry."
+redirect_to = "topology/extreme-value-theorem"
+redirect_sections = { "equivalent-characterizations" = "image-formulation", "remarks" = "image-formulation" }
 +++
-
-**Extreme-value theorem.** Let \(K\) be a nonempty [[topology/compact-set|compact set]] and let \(f:K\to\mathbb R\) be [[topology/continuous-map|continuous]]. Then there exist \(x_{\min},x_{\max}\in K\) such that
-\(f(x_{\min})\le f(x)\le f(x_{\max})\) for all \(x\in K\).
-
-## Equivalent characterizations
-
-Equivalently, the subset \(f(K)\subseteq\mathbb{R}\) has both a [[real-analysis/minimum|minimum]] and a [[real-analysis/maximum|maximum]].
-
-## Remarks
-
-This can be seen by combining [[topology/continuous-image-of-compact-set-is-compact|compactness of continuous images]] with basic order properties of compact subsets of \(\mathbb{R}\).

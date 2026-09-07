@@ -7,8 +7,8 @@ aliases = ["bilinear-form", "Bilinear form"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/bilinear-form.md"
 prerequisites = ["linear-algebra/vector-space", "linear-algebra/linear-map"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **bilinear form** on [[linear-algebra/vector-space|vector spaces]] \(V\) and \(W\) over a [[algebra-rings/field|field]] \(\mathbb{F}\) is a map
@@ -23,7 +23,7 @@ B(u,\, a v_1+b v_2)=a\,B(u,v_1)+b\,B(u,v_2).
 
 ## Remarks
 
-A bilinear form is a scalar-valued [[shared-foundations/function|function]] on a [[shared-foundations/cartesian-product|Cartesian product]] of vector spaces. Inner products (see [[linear-algebra/inner-product|inner product]]) are important examples with additional positivity and symmetry properties.
+A bilinear form is a scalar-valued [[shared-foundations/function|function]] on a [[shared-foundations/cartesian-product|Cartesian product]] of vector spaces. Real inner products (see [[linear-algebra/inner-product|inner product]]) are important examples with additional positivity and symmetry properties.
 
 ## Examples
 

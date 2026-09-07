@@ -6,7 +6,7 @@ summary = "The bosonic canonical-commutation-relation representation defined by 
 aliases = ["fock-cook-quantization", "Fock–Cook Quantization"]
 domains = ["mathematical-physics"]
 legacy_source_path = "shale-paper/fock-cook-quantization.md"
-prerequisites = ["mathematical-physics/symmetric-fock-space", "mathematical-physics/creation-annihilation-operators"]
+prerequisites = ["mathematical-physics/symmetric-fock-space", "mathematical-physics/creation-annihilation-operators", "linear-algebra/hilbert-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

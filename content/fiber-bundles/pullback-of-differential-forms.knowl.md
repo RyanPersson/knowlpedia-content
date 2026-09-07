@@ -6,25 +6,23 @@ summary = "Given a smooth map, pull back a k-form by applying the differential t
 aliases = ["pullback-of-differential-forms", "Pullback of differential forms"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/pullback-of-differential-forms.md"
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/pullback-of-covectors", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/exterior-derivative", "fiber-bundles/closed-differential-form", "fiber-bundles/exact-differential-form", "fiber-bundles/de-rham-cohomology-group", "fiber-bundles/diffeomorphism", "fiber-bundles/smooth-embedding"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/differential-k-form", "fiber-bundles/differential-pushforward-of-a-smooth-map"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 3
 +++
 
-Let \(F:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] between [[fiber-bundles/smooth-manifold|smooth manifolds]].
-
-A [[fiber-bundles/differential-k-form|differential \(k\)-form]] on \(N\) assigns to each \(q\in N\) an alternating \(k\)-linear map on \(T_qN\). The [[fiber-bundles/differential-pushforward-of-a-smooth-map|differential]] \(dF_p:T_pM\to T_{F(p)}N\) transports tangent vectors, and the pullback transports covariant objects in the opposite direction.
-
-**Definition.** If \(\omega\) is a \(k\)-form on \(N\), its **pullback** is the \(k\)-form \(F^*\omega\) on \(M\) defined by
+Let \(F:M\to N\) be a [[fiber-bundles/smooth-map|smooth map]] and \(\omega\) a [[fiber-bundles/differential-k-form|differential \(k\)-form]] on \(N\). Its **pullback** is the \(k\)-form \(F^*\omega\) on \(M\) defined by
 \[
 (F^*\omega)_p(v_1,\dots,v_k)
 :=\omega_{F(p)}\bigl(dF_p(v_1),\dots,dF_p(v_k)\bigr),
 \]
-for \(p\in M\) and \(v_1,\dots,v_k\in T_pM\).
+where \(dF_p\) is the [[fiber-bundles/differential-pushforward-of-a-smooth-map|differential]], for \(p\in M\) and \(v_1,\dots,v_k\in T_pM\).
+
+## One-forms
 
 For \(k=1\), this agrees with the [[fiber-bundles/pullback-of-covectors|pullback of covectors]].
 
-**Key properties.**
+## Properties
 - **Functoriality:** for smooth maps \(M\xrightarrow{F}N\xrightarrow{G}P\), one has \((G\circ F)^*=F^*\circ G^*\).
 - **Compatibility with wedge products:** for forms \(\alpha,\beta\) on \(N\),
   \[

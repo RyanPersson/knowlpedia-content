@@ -6,9 +6,9 @@ summary = "The vector bundle whose fiber over each point is the dual space of th
 aliases = ["dual-vector-bundle", "Dual vector bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/dual-vector-bundle.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization", "fiber-bundles/vector-bundle-morphism"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 3
 +++
 
 Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] (real or complex) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **dual vector bundle** of \(E\) is the vector bundle
@@ -24,6 +24,8 @@ with smooth structure characterized by the property that any [[fiber-bundles/loc
 E^*|_U \cong U\times (\mathbb F^r)^*
 \]
 via fiberwise duality.
+
+## Functoriality
 
 A [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]] \(\Phi:E\to F\) over \(\mathrm{id}_M\) induces a dual morphism \(\Phi^*:F^*\to E^*\) over \(\mathrm{id}_M\) by precomposition on each fiber.
 

@@ -7,11 +7,13 @@ aliases = ["metric-induced-topology", "Metric-induced topology"]
 domains = ["topology"]
 legacy_source_path = "topology/metric-induced-topology.md"
 prerequisites = ["topology/metric-space", "topology/open-ball", "topology/topology"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 The **metric-induced topology** on a metric space \((X,d)\) is the collection \(\tau_d\) of subsets \(U\subseteq X\) such that, for every \(x\in U\), there is \(r>0\) with \(B_d(x,r)\subseteq U\). Here \(B_d(x,r)\) is the [[topology/open-ball|open ball]] of radius \(r\) centered at \(x\).
+
+## Basis
 
 The family of open balls is a [[topology/basis-of-topology|basis]] for \(\tau_d\), so the [[topology/open-set|open sets]] are precisely the unions of open balls.
 

@@ -6,9 +6,9 @@ summary = "A sequence in X×Y converges iff each coordinate sequence converges"
 aliases = ["convergence-in-product-metric-spaces", "Convergence in product metric spaces"]
 domains = ["topology"]
 legacy_source_path = "topology/convergence-in-product-metric-spaces.md"
-prerequisites = ["topology/metric-space", "shared-foundations/cartesian-product", "topology/cauchy-sequence"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/metric-space", "shared-foundations/cartesian-product", "topology/cauchy-sequence", "topology/convergent-sequence"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \((X,d_X)\) and \((Y,d_Y)\) be [[topology/metric-space|metric spaces]]. On the [[shared-foundations/cartesian-product|product]] \(X\times Y\), define the metric

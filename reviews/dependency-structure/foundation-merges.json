@@ -1,0 +1,8 @@
+{
+  "redirects": {
+    "topology/continuous-bijection-from-compact-homeomorphism-criterion": "topology/compact-to-hausdorff-homeomorphism-criterion",
+    "topology/continuous-on-compact-bounded-corollary": "topology/continuous-on-compact-is-bounded",
+    "topology/continuous-attains-max-min-compact": "topology/extreme-value-theorem",
+    "topology/heine-cantor-corollary": "topology/heine-cantor-theorem"
+  }
+}

@@ -39,7 +39,7 @@ Equivalently, \(H_n(C_\bullet)=0\) for all \(n\) iff \(C_\bullet\) is an [[algeb
 ## Examples
 
 ### Example 1: Two-term complex over \(\mathbb Z\)
-Consider the chain complex \(C_\bullet\) with \(C_1=\mathbb Z\), \(C_0=\mathbb Z\), and \(d_1:\mathbb Z\to\mathbb Z\) given by multiplication by \(n\), with all other \(C_i=0\).
+Consider the chain complex \(C_\bullet\) with \(C_1=\mathbb Z\), \(C_0=\mathbb Z\), and \(d_1:\mathbb Z\to\mathbb Z\) given by multiplication by \(n\ne 0\), with all other \(C_i=0\).
 Then
 \[
 H_1(C_\bullet)=\ker(\times n)=0,\qquad

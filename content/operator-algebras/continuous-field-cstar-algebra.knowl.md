@@ -6,7 +6,7 @@ summary = "A family of C*-algebras equipped with enough sections whose pointwise
 aliases = ["continuous C*-bundle"]
 domains = ["operator-algebras", "topology"]
 section_mode = "progressive"
-prerequisites = ["topology/hausdorff-space", "operator-algebras/cstar-algebra", "operator-algebras/upper-semicontinuous-cstar-bundle"]
+prerequisites = ["topology/hausdorff-space", "topology/locally-compact-space", "operator-algebras/cstar-algebra", "operator-algebras/upper-semicontinuous-cstar-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,15 +6,17 @@ summary = "A property of a family of sets where every finite subfamily has nonem
 aliases = ["finite-intersection-property", "Finite intersection property"]
 domains = ["topology"]
 legacy_source_path = "topology/finite-intersection-property.md"
-prerequisites = ["topology/closed-set", "topology/compact-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/set", "shared-foundations/intersection"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A family \(\mathcal F\) of subsets of a set \(X\) has the **finite intersection property** if every finite subfamily has nonempty intersection. In particular, for \(F_1,\ldots,F_n\in\mathcal F\),
+A family \(\mathcal F\) of subsets of a set \(X\) has the **finite intersection property** if every finite subfamily has nonempty [[shared-foundations/intersection|intersection]], taking the empty intersection to be \(X\). In particular, for \(F_1,\ldots,F_n\in\mathcal F\),
 \[
 F_1\cap\cdots\cap F_n \neq \varnothing,
 \]
+## Compactness application
+
 In topology, the finite intersection property is especially useful for families of [[topology/closed-set|closed sets]]: [[topology/compact-set|compactness]] can be characterized by requiring that every family of closed sets with this property has nonempty total intersection.
 
 ## Examples

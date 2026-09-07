@@ -7,11 +7,13 @@ aliases = ["curve"]
 domains = ["topology"]
 legacy_source_path = "topology/curve.md"
 prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/interval"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **curve** in a [[topology/topological-space|topological space]] \(X\) is a [[topology/continuous-map|continuous map]] \(\gamma\colon I\to X\), where \(I\subseteq\mathbb{R}\) is an [[real-analysis/interval|interval]] (with its usual topology).
+
+## Related notions
 
 A [[topology/path|path]] is a curve with domain \([0,1]\). Curves allow other parameter intervals, which is convenient for describing parametrizations and restrictions.
 

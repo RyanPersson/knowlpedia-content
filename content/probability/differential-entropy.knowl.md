@@ -6,7 +6,7 @@ summary = "The negative integral of a probability density times its logarithm, r
 aliases = ["differential-entropy", "Differential entropy"]
 domains = ["probability"]
 legacy_source_path = "probability/differential-entropy.md"
-prerequisites = ["probability/random-variable", "measure-theory/lebesgue-measure", "probability/probability-density-function"]
+prerequisites = ["probability/random-vector", "measure-theory/lebesgue-measure", "measure-theory/lebesgue-integral", "probability/probability-density-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 2
 +++

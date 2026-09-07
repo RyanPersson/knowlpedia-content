@@ -6,21 +6,18 @@ summary = "A function assigning a nonnegative length to vectors."
 aliases = ["norm"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/norm.md"
-prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/vector-space", "real-analysis/absolute-value", "real-analysis/modulus-on-c"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **norm** on a [[linear-algebra/vector-space|vector space]] \(V\) over \(\mathbb{F}\) is a function \(\|\cdot\|:V\to[0,\infty)\) such that for all \(u,v\in V\) and \(a\in\mathbb{F}\):
+A **norm** on a [[linear-algebra/vector-space|vector space]] \(V\) over \(\mathbb F=\mathbb R\) or \(\mathbb C\) is a function \(\|\cdot\|:V\to[0,\infty)\) such that for all \(u,v\in V\) and \(a\in\mathbb{F}\):
 \[
 \|v\|=0\iff v=0,\qquad \|a v\|=|a|\,\|v\|,\qquad \|u+v\|\le \|u\|+\|v\|.
 \]
-Here \(|a|\) denotes the [[real-analysis/absolute-value|absolute value]] of the scalar \(a\) (for \(\mathbb{F}=\mathbb{R}\) or \(\mathbb{C}\)).
+Here \(|a|\) denotes the [[real-analysis/absolute-value|absolute value]] for real scalars and [[real-analysis/modulus-on-c|modulus]] for complex scalars.
 
 ## Remarks
-
-Throughout this entry the scalar field is \(\mathbb{R}\) or \(\mathbb{C}\),
-with its usual absolute value.
 
 A norm induces a [[topology/metric|metric]] by \(d(u,v)=\|u-v\|\), making \(V\) into a [[topology/metric-space|metric space]] and thus giving notions of convergence and continuity.
 

@@ -6,12 +6,12 @@ summary = "Characteristic classes obtained from invariant polynomials in curvatu
 aliases = ["corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle", "Chern–Weil classes are independent of the connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle.md"
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(p\) be an \(\mathrm{Ad}\)-invariant polynomial on the [[lie-groups/lie-algebra|Lie algebra]]. Given a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) with [[fiber-bundles/curvature|curvature]] \(\Omega\), the Chern–Weil construction produces a differential form on \(M\) by applying \(p\) to \(\Omega\) and using the fact that the resulting form is basic.
+Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(p\) be an \(\mathrm{Ad}\)-invariant polynomial on the [[lie-groups/lie-algebra|Lie algebra]]. Given a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(\Omega\), the Chern–Weil construction produces a differential form on \(M\) by applying \(p\) to \(\Omega\) and using the fact that the resulting form is basic.
 
 ## Corollary (independence of connection)
 For each invariant polynomial \(p\) of degree \(k\), there is a canonically defined de Rham cohomology class

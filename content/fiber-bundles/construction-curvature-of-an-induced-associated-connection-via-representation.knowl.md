@@ -6,12 +6,12 @@ summary = "How principal curvature induces curvature on an associated vector bun
 aliases = ["construction-curvature-of-an-induced-associated-connection-via-representation", "Curvature of an induced associated connection via a representation"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/construction-curvature-of-an-induced-associated-connection-via-representation.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "lie-groups/representation-of-a-lie-group", "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/principal-connection|principal connection]] \(\omega\) and curvature \(\Omega\in\Omega^2(P;\mathfrak g)\). Let \(E=P\times_G V\) be an associated vector bundle for a representation \(\rho:G\to \mathrm{GL}(V)\), with induced covariant derivative \(\nabla\) as in [[fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections|induced covariant derivative]]. Let \(\rho_*:\mathfrak g\to \mathrm{End}(V)\) be the derived representation.
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/principal-connection|principal connection]] \(\omega\) and [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\). Let \(E=P\times_G V\) be an associated vector bundle for a [[lie-groups/representation-of-a-lie-group|representation]] \(\rho:G\to \mathrm{GL}(V)\), with induced covariant derivative \(\nabla\) as in [[fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections|induced covariant derivative]]. Let \(\rho_*:\mathfrak g\to \mathrm{End}(V)\) be the derived representation.
 
 **Statement.** The curvature of \(\nabla\) is the \(\mathrm{End}(V)\)-valued 2-form obtained by applying \(\rho_*\) to the principal curvature:
 - On \(P\), the horizontal, equivariant \(\mathrm{End}(V)\)-valued 2-form is \(\rho_*(\Omega)\).

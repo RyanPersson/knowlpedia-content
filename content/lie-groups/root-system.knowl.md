@@ -6,9 +6,9 @@ summary = "A finite set of vectors closed under reflections and satisfying integ
 aliases = ["root-system", "Root system"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/root-system.md"
-prerequisites = ["lie-groups/weyl-group", "lie-groups/cartan-subalgebra", "lie-groups/killing-form", "lie-groups/classification-simple-lie-algebras"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/inner-product-space"]
+dependency_heuristic = "dependency-structure-review-v1"
+dependency_review_count = 2
 +++
 
 A **(reduced) root system** is a finite subset \(\Phi\subset V\setminus\{0\}\) of a real finite-dimensional [[linear-algebra/inner-product-space|inner product space]] \((V,\langle\cdot,\cdot\rangle)\) such that:

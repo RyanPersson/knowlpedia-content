@@ -6,15 +6,17 @@ summary = "A point whose every neighborhood meets a set away from that point."
 aliases = ["limit-point", "Limit point"]
 domains = ["topology"]
 legacy_source_path = "topology/limit-point.md"
-prerequisites = ["topology/topological-space", "topology/neighborhood", "topology/closure"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "topology/neighborhood"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **limit point** (or accumulation point) of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] is a point \(x\in X\) such that every [[topology/neighborhood|neighborhood]] \(N\) of \(x\) satisfies
 \[
 (N\cap (A\setminus\{x\}))\neq\varnothing.
 \]
+
+## Relation to closure
 
 The set of all limit points of \(A\) is the [[topology/derived-set|derived set]] of \(A\). Limit points also describe [[topology/closure|closure]] via the identity \(\overline{A}=A\cup A'\).
 

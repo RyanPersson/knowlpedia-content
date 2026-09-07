@@ -6,12 +6,12 @@ summary = "Unitary action of rGL(M) on Gaussian L₂ by change of variables and 
 aliases = ["segal-unitary-representation-Ufrak", "Segal/Shale Representation 𝔘(T) on L₂(M,n)"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/segal-unitary-representation-Ufrak.md"
-prerequisites = ["functional-analysis/unitary-operator", "shale-paper/jacobian-xT"]
+prerequisites = ["functional-analysis/unitary-operator", "shale-paper/jacobian-xT", "lie-groups/restricted-general-linear-group-rgl", "probability/gaussian-measure-hilbert-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-For \(T\in rGL(M)\), the [[functional-analysis/unitary-operator|unitary operator]] \(\mathfrak U(T)\) on \(L_2(M,n)\) is
+For [[lie-groups/restricted-general-linear-group-rgl|\(T\in rGL(M)\)]], the [[functional-analysis/unitary-operator|unitary operator]] \(\mathfrak U(T)\) on the [[probability/gaussian-measure-hilbert-space|Gaussian]] \(L_2(M,n)\) is
 \[
 (\mathfrak U(T)f)(x)=X(T)^{1/2}\,f(T^*x),
 \]

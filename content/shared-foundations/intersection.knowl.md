@@ -6,20 +6,22 @@ summary = "The set of elements that belong to all of the given sets."
 aliases = ["intersection"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/intersection.md"
-prerequisites = ["shared-foundations/set", "shared-foundations/indexed-family-of-sets"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-An **intersection** is the set of elements common to every set in a given collection. For sets \(A,B\),
+The **intersection** of a nonempty set \(\mathcal A\) of [[shared-foundations/set|sets]] is
 \[
-A\cap B=\{x : x\in A \text{ and } x\in B\}.
+\bigcap\mathcal A=\{x:\text{for every }A\in\mathcal A,\ x\in A\}.
 \]
 
-More generally, for an [[shared-foundations/indexed-family-of-sets|indexed family of sets]] \((A_i)_{i\in I}\),
-\[
-\bigcap_{i\in I} A_i=\{x : \forall i\in I,\; x\in A_i\}.
-\]
+## Notation
+
+For two sets, write \(A\cap B=\bigcap\{A,B\}\).
+For an [[shared-foundations/indexed-family-of-sets|indexed family]] \((A_i)_{i\in I}\), the notation \(\bigcap_{i\in I}A_i\) means the intersection of the sets in its range.
+
+An empty intersection requires an ambient set \(X\): for subsets \(A_i\subseteq X\), set \(\bigcap_{i\in\varnothing}A_i=X\). Without an ambient set, there is no set of all sets.
 
 ## Remarks
 

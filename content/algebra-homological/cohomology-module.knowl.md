@@ -33,7 +33,7 @@ A cochain complex is exact (as a sequence of modules) iff all its cohomology mod
 ## Examples
 
 ### Example 1: Two-term cochain complex over \(\mathbb Z\)
-Let \(C^0=\mathbb Z\), \(C^1=\mathbb Z\), \(d^0=\times n\), and \(C^i=0\) otherwise. Then
+Let \(C^0=\mathbb Z\), \(C^1=\mathbb Z\), \(d^0=\times n\) with \(n\ne 0\), and \(C^i=0\) otherwise. Then
 \[
 H^0(C^\bullet)=\ker(\times n)=0,\qquad
 H^1(C^\bullet)=\operatorname{coker}(\times n)\cong \mathbb Z/n\mathbb Z.

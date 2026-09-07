@@ -6,7 +6,7 @@ summary = "Unitary map identifying bosonic Fock space with Gaussian L₂(M,n)"
 aliases = ["duality-transform-D", "Duality Transform D (Segal)"]
 domains = ["mathematical-physics"]
 legacy_source_path = "shale-paper/duality-transform-D.md"
-prerequisites = ["linear-algebra/hilbert-space", "mathematical-physics/symmetric-fock-space"]
+prerequisites = ["linear-algebra/hilbert-space", "mathematical-physics/symmetric-fock-space", "probability/gaussian-measure-hilbert-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

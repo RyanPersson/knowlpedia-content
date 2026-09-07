@@ -6,12 +6,12 @@ summary = "Under a gauge transformation, a Chern–Simons form changes by an exa
 aliases = ["chernsimons-gauge-transformation-behavior", "Gauge transformation behavior of Chern–Simons forms"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chernsimons-gauge-transformation-behavior.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "lie-groups/lie-algebra", "fiber-bundles/exterior-derivative"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "lie-groups/lie-algebra", "fiber-bundles/exterior-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature|curvature]] \(F_A\). Fix an \(\mathrm{Ad}\)-invariant homogeneous polynomial \(P\) of degree \(k\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(F_A\). Fix an \(\mathrm{Ad}\)-invariant homogeneous polynomial \(P\) of degree \(k\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\).
 
 ## Statement (name-level, with standard formula)
 

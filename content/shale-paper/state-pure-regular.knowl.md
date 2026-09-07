@@ -6,14 +6,14 @@ summary = "Positive normalized functionals, with purity and CCR-regularity condi
 aliases = ["state-pure-regular", "State, Pure State, Regular State (CCR context)"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/state-pure-regular.md"
-prerequisites = ["shale-paper/cstar-algebra-observables"]
+prerequisites = ["shale-paper/cstar-algebra-observables", "operator-algebras/state-cstar-algebra", "operator-algebras/pure-state-cstar-algebra", "convex-analysis/convex-combination"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **state** on a \(C^*\)-algebra \(\mathfrak A\) is a linear functional \(E\) with \(E(I)=1\) and \(E(A^*A)\ge0\).
+A **[[operator-algebras/state-cstar-algebra|state]]** on a \(C^*\)-algebra \(\mathfrak A\) is a linear functional \(E\) with \(E(I)=1\) and \(E(A^*A)\ge0\).
 
-**Pure** means not a nontrivial [[convex-analysis/convex-combination|convex combination]] of other states.
+**[[operator-algebras/pure-state-cstar-algebra|Pure]]** means not a nontrivial [[convex-analysis/convex-combination|convex combination]] of other states.
 
 In Shale's CCR setting, **regular** means \(z\mapsto E(A^*e^{iR(z)}B)\) is continuous on each finite-dimensional subspace.
 

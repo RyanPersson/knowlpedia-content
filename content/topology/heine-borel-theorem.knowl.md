@@ -6,12 +6,12 @@ summary = "In Euclidean space, compactness is equivalent to being closed and bou
 aliases = ["heine-borel-theorem", "Heine–Borel theorem"]
 domains = ["topology"]
 legacy_source_path = "topology/heine-borel-theorem.md"
-prerequisites = ["topology/compact-set", "topology/closed-set", "topology/bounded-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/euclidean-space", "topology/compact-set", "topology/closed-set", "topology/bounded-set"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-**Heine–Borel theorem:** In \(\mathbb{R}^n\) with its usual metric (and induced topology), a set \(K\subseteq \mathbb{R}^n\) is [[topology/compact-set|compact]] if and only if it is both [[topology/closed-set|closed]] and [[topology/bounded-set|bounded]].
+**Heine–Borel theorem:** In [[linear-algebra/euclidean-space|Euclidean space]] \(\mathbb{R}^n\) with its usual metric (and induced topology), a set \(K\subseteq \mathbb{R}^n\) is [[topology/compact-set|compact]] if and only if it is both [[topology/closed-set|closed]] and [[topology/bounded-set|bounded]].
 
 ## Context
 

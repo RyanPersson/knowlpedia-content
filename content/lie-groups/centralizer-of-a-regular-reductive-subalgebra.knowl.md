@@ -6,9 +6,9 @@ summary = "A root-space formula for the centralizer of a regular reductive subal
 aliases = ["centralizer of a regular reductive subalgebra", "root formula for a Lie centralizer"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/regular-lie-subalgebra", "lie-groups/centralizer-of-a-lie-subalgebra"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-space-decomposition", "lie-groups/regular-lie-subalgebra", "lie-groups/centralizer-of-a-lie-subalgebra"]
+dependency_heuristic = "dependency-structure-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] with [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\) and root-space decomposition

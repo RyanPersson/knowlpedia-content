@@ -6,12 +6,12 @@ summary = "A cover consisting entirely of open sets in a topological space."
 aliases = ["open-cover", "Open cover"]
 domains = ["topology"]
 legacy_source_path = "topology/open-cover.md"
-prerequisites = ["topology/topological-space", "topology/open-set"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "topology/open-set", "topology/cover"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-An **open cover** of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] \(X\) is a cover \(\{U_i\}_{i\in I}\) of \(A\) such that each \(U_i\) is an [[topology/open-set|open set]] in \(X\).
+An **open cover** of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] \(X\) is a [[topology/cover|cover]] \(\{U_i\}_{i\in I}\) of \(A\) such that each \(U_i\) is an [[topology/open-set|open set]] in \(X\).
 
 ## Equivalent characterizations
 

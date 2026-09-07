@@ -6,7 +6,7 @@ summary = "Under a change of local section, the local connection form transforms
 aliases = ["lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg", "Local gauge transformation law for a connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/smooth-map", "fiber-bundles/lemma-maurercartan-equation-for-the-left-maurercartan-form"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/smooth-map", "fiber-bundles/lemma-maurercartan-equation-for-the-left-maurercartan-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

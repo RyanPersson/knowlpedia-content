@@ -7,8 +7,8 @@ aliases = ["continuity-on-a-set", "Continuity on a set"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/continuity-on-a-set.md"
 prerequisites = ["real-analysis/continuity-at-a-point"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(f:(X,d_X)\to(Y,d_Y)\) be a function between [[topology/metric-space|metric spaces]], and let \(A\subseteq X\).
@@ -22,8 +22,8 @@ d_X(x,a)<\delta \quad\Rightarrow\quad d_Y\!\bigl(f(x),f(a)\bigr)<\varepsilon.
 ## Equivalent characterizations
 
 Equivalent viewpoints (metric spaces):
-- **Sequential**: if \(x_n\in A\) and \(x_n\to a\), then \(f(x_n)\to f(a)\) (see [[real-analysis/limit-of-a-sequence|limit of a sequence]]).
-- **Open-set**: for every open \(V\subseteq Y\), the preimage \(f^{-1}(V)\) is open in \(A\) (i.e., \(f^{-1}(V)=A\cap U\) for some open \(U\subseteq X\)).
+- **Sequential**: if \(x_n\in A\), \(a\in A\), and \(x_n\to a\), then \(f(x_n)\to f(a)\) (see [[real-analysis/limit-of-a-sequence|limit of a sequence]]).
+- **Open-set**: for every open \(V\subseteq Y\), the preimage \((f|_A)^{-1}(V)=A\cap f^{-1}(V)\) is open in \(A\) (i.e., it equals \(A\cap U\) for some open \(U\subseteq X\)).
 
 ## Examples
 

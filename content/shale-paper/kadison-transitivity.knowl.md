@@ -6,12 +6,12 @@ summary = "In an irreducible representation, algebra elements can move one vecto
 aliases = ["kadison-transitivity", "Kadison Transitivity (Used in §6)"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/kadison-transitivity.md"
-prerequisites = ["shale-paper/cstar-algebra-observables", "linear-algebra/hilbert-space"]
+prerequisites = ["shale-paper/cstar-algebra-observables", "linear-algebra/hilbert-space", "operator-algebras/irreducible-cstar-representation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A form of **Kadison's theorem** used in §6: if \(\mathfrak A\) acts irreducibly on \(\mathcal H\) and \(x,y\in\mathcal H\),
+A form of **Kadison's theorem** used in §6: if \(\mathfrak A\) acts irreducibly on \(\mathcal H\), then for every nonzero \(x\in\mathcal H\) and every \(y\in\mathcal H\),
 then there exists \(A\in\mathfrak A\) with \(Ax=y\).
 
 ## Remarks

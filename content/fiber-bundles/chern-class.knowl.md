@@ -6,9 +6,9 @@ summary = "Characteristic cohomology classes of a complex vector bundle defined 
 aliases = ["chern-class", "Chern class via Chern–Weil theory"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chern-class.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] of rank \(n\) equipped with a (linear) [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\). Write \(F_\nabla\in\Omega^2(M;\mathrm{End}(E))\) for its [[fiber-bundles/curvature|curvature]].

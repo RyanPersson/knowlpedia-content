@@ -7,8 +7,8 @@ aliases = ["lebesgue-number-lemma", "Lebesgue number lemma"]
 domains = ["topology"]
 legacy_source_path = "topology/lebesgue-number-lemma.md"
 prerequisites = ["topology/metric-space", "topology/compact-set", "topology/open-cover", "topology/open-ball"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 **Lebesgue number lemma:** Let \((X,d)\) be a [[topology/metric-space|metric space]] and assume \(X\) is [[topology/compact-set|compact]]. For every [[topology/open-cover|open cover]] \(\mathcal{U}\) of \(X\), there exists a number \(\delta>0\) (a Lebesgue number for \(\mathcal{U}\)) such that for every \(x\in X\) there is some \(U\in\mathcal{U}\) with
@@ -19,7 +19,7 @@ where \(B(x,\delta)\) is the [[topology/open-ball|open ball]].
 
 ## Equivalent characterizations
 
-Equivalently, every subset of \(X\) with [[topology/diameter|diameter]] less than \(\delta\) is contained in some member of the cover.
+The ball formulation implies that every nonempty subset of \(X\) with [[topology/diameter|diameter]] less than \(\delta\) is contained in a member of the cover. Conversely, if this diameter condition holds at a scale \(\eta>0\), the ball formulation holds with \(\delta=\eta/2\). Thus the two existence statements are equivalent, although the same numerical scale need not work in both directions.
 
 ## Remarks
 

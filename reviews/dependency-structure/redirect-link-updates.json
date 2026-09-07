@@ -1,0 +1,8 @@
+{
+  "paths": [
+    "content/topology.knowl.md",
+    "content/topology/continuous-image-of-compact-set-is-compact.knowl.md",
+    "content/topology/image-compact-connected-is-interval.knowl.md"
+  ],
+  "reason": "Canonicalize links following four theorem merges; historical review ledgers are preserved."
+}

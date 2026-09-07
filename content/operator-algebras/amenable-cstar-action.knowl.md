@@ -6,7 +6,7 @@ summary = "A C*-dynamical action admitting an equivariant conditional mean after
 aliases = ["amenable C*-dynamical system", "amenable group action"]
 domains = ["operator-algebras", "dynamical-systems"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/cstar-dynamical-system", "lie-groups/left-translation"]
+prerequisites = ["operator-algebras/cstar-dynamical-system", "lie-groups/left-translation", "operator-algebras/von-neumann-algebra", "operator-algebras/conditional-expectation", "operator-algebras/normal-completely-positive-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

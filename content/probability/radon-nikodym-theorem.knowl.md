@@ -6,7 +6,7 @@ summary = "Existence and uniqueness of a density for one measure that is absolut
 aliases = ["radon-nikodym-theorem", "Radon–Nikodym theorem"]
 domains = ["probability"]
 legacy_source_path = "probability/radon-nikodym-theorem.md"
-prerequisites = ["measure-theory/measure-space", "measure-theory/measure", "measure-theory/measurable-function", "probability/probability-measure", "probability/probability-space", "probability/expectation", "probability/conditional-expectation", "measure-theory/sigma-algebra", "analysis/absolute-continuity"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measure", "measure-theory/measurable-function", "measure-theory/almost-everywhere", "analysis/absolute-continuity"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

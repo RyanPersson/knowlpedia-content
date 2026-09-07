@@ -1,0 +1,11 @@
+{
+  "scope": "Shale/CCR operator cluster follow-up",
+  "review_type": "dependencies",
+  "reviewed_at": "2026-09-07",
+  "reviews": [
+    {"id":"shale-paper/kadison-transitivity","outcome":"corrected","source_sha256":"693088f61617f196def75c22a34fd5dccef1af4a2693deb6ed23e49956dd09b3","previous_prerequisites":["shale-paper/cstar-algebra-observables","linear-algebra/hilbert-space"],"prerequisites":["shale-paper/cstar-algebra-observables","linear-algebra/hilbert-space","operator-algebras/irreducible-cstar-representation"],"evidence":"Corrected the transitivity hypothesis to nonzero x and arbitrary y; the irreducible-representation hypothesis is explicit."},
+    {"id":"functional-analysis/fredholm-determinant-trace-log","outcome":"corrected","source_sha256":"1c19a14043360af14a3426d2f70e8b6072ef27778ae09561d3c33e12162cdaf5","previous_prerequisites":["linear-algebra/determinant","functional-analysis/trace-class-operator"],"prerequisites":["linear-algebra/hilbert-space","linear-algebra/determinant","functional-analysis/trace-class-operator"],"evidence":"The core quantifies a trace-class operator on a Hilbert space, so the ambient Hilbert-space concept is direct."},
+    {"id":"operator-algebras/cauchy-schwarz-hilbert-cstar-module","outcome":"corrected","source_sha256":"122e82d3396a7917d20aea593eff687ffb515c3e6bb84848814612374bc15930","previous_prerequisites":["operator-algebras/hilbert-cstar-module"],"prerequisites":["operator-algebras/hilbert-cstar-module","linear-algebra/inner-product"],"evidence":"The theorem states the module inner-product convention in its core."}
+  ],
+  "summary": {"reviewed": 3, "corrected": 3, "reviewed_unchanged": 0}
+}

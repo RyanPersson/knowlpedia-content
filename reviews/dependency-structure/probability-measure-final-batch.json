@@ -1,0 +1,180 @@
+{
+  "scope": "remaining 29 measure-theory canonical sources after prior batches",
+  "review_type": "dependencies",
+  "reviews": [
+    {
+      "id": "measure-theory/convergence-in-lp",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ff856f1d08c411f93325b50e3c8f7e906d863a9a2ad05f1eaa299fdfbc4cb629",
+      "evidence": "The definition is norm convergence in an Lp space; sequence, Lp space, measure space, and essential supremum for p=infinity are direct."
+    },
+    {
+      "id": "measure-theory/convergence-in-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb55422902ed67ffa5a47a9f26f8d9cefc5fd203cec09266399066820fac4a21",
+      "evidence": "The definition quantifies measurable function sequences on a measure space and measures error sets; all listed prerequisites are direct."
+    },
+    {
+      "id": "measure-theory/dominated-convergence-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72361b7c8d66002ebe29005c12ea04d034985db64008bb39006a7fdf8847d10c",
+      "evidence": "The hypotheses require measure space, measurable functions, a.e. convergence, L1 domination, integrability, and integration; the listed mapping matches."
+    },
+    {
+      "id": "measure-theory/essential-supremum",
+      "outcome": "corrected",
+      "source_sha256": "f6b6e9ac3c32b3d28b5685511892af69b87861a1fd25afb6d5e332644a2dcca4",
+      "evidence": "The bound is defined for measurable functions on a measure space outside an a.e. exceptional set; added almost-everywhere."
+    },
+    {
+      "id": "measure-theory/indicator-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a14759460857f0c287ea2662f829f1ab7d828d9405e2abb01a7beb2c9b5b7051",
+      "evidence": "The core is a function attached to a subset; function and subset are sufficient, while measurability is a later conditional property."
+    },
+    {
+      "id": "measure-theory/jordan-content",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4214056d525ffecc8cb13d5863a7f3adfa0673c9214453f2e8409dc9cf148499",
+      "evidence": "Jordan content is built from finite unions of intervals/rectangles; interval is the direct foundation."
+    },
+    {
+      "id": "measure-theory/lebesgue-criterion-for-riemann-integrability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0384e34b842476febc4956c3aae30f05b1eb542ea7a47bcf9d2b470ad66f467",
+      "evidence": "The criterion assumes a bounded function on a closed interval and identifies discontinuities as a Lebesgue null set; listed foundations are direct."
+    },
+    {
+      "id": "measure-theory/lebesgue-integrable-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b78327b611672f1dc1087a45d4c6ad1a9ae1583bfc57a92e64020821231641d",
+      "evidence": "Integrability is finite integral of absolute value for a measurable function on a measure space; all listed prerequisites are direct."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral-nonnegative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3821dfe23235fc9ed031c80f52a7d6d0883cc4b653931c1d8e14d16dd651ec25",
+      "evidence": "The construction takes measurable nonnegative functions, approximating simple functions and taking a supremum; each listed foundation is used."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3149e5600b63f8a0d3d83baee0bbc3796fa0dcc5d3f0614684a6d56fbb8bc883",
+      "evidence": "The signed integral is defined from positive/negative parts via the nonnegative integral on a measure space; mapping is direct."
+    },
+    {
+      "id": "measure-theory/lebesgue-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39e45941ff5bdd5bb32357b341e9b5c49632af6253baed973928314cb7af54a3",
+      "evidence": "The construction starts from outer measure and Caratheodory measurability and produces a measure using measurable rectangles; mapping is direct."
+    },
+    {
+      "id": "measure-theory/lebesgue-number-lemma-auxiliary-refinement",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79bafe53994aa5e2ea0db1d449383051c39f4d3eb295d2b140c55ef21a557c85",
+      "evidence": "The refinement lemma assumes metric space, compact set, and open cover; the listed topology prerequisites and parent lemma are direct."
+    },
+    {
+      "id": "measure-theory/lp-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2dd68a4832b9beecf5c938354b91979062b1285c019b7d5dd5d6a6093494a033",
+      "evidence": "The quotient definition requires measure space, Lp norm, and a.e. identification; all three are direct."
+    },
+    {
+      "id": "measure-theory/measurable-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59ce3e212da3f7d0ad61d15ef4df185964167a5fe60d33bbec192efc608be5a6",
+      "evidence": "A measurable set is a subset in a measurable space; those two concepts are direct."
+    },
+    {
+      "id": "measure-theory/measurable-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8476a4de3d60a725ca651a5f5390daf9ed6d83defbd3d894affec955dda69098",
+      "evidence": "A measurable space is a set with a sigma-algebra; both are direct."
+    },
+    {
+      "id": "measure-theory/measure",
+      "outcome": "corrected",
+      "source_sha256": "751a14a966127c24d4454810010a63dd7e7622efce74daf518250b15b8d40753",
+      "evidence": "A measure is a function on a measurable space countably additive over sequences and unions; measurable-space, function, sequence, and union are direct."
+    },
+    {
+      "id": "measure-theory/measure-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00d032433d591f0d54d2e91fa285404c6c0d367066841b7868c65e6d5927604a",
+      "evidence": "A measure space is a measurable space equipped with a measure; both components are direct."
+    },
+    {
+      "id": "measure-theory/minkowski-inequality-lp",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62699cc4088c9557235fdb56e4d0ebf44c9349240fa1fd94383c9af0951cbdf5",
+      "evidence": "The inequality is stated using Lp norms/spaces and the p=infinity essential-supremum cases; listed prerequisites match."
+    },
+    {
+      "id": "measure-theory/null-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "078db0bf8f05f841e62844f9686d5a98a728d5115056a298b32a7070697e3f24",
+      "evidence": "A null set is a measurable set of measure zero in a measure space; listed prerequisites are direct."
+    },
+    {
+      "id": "measure-theory/outer-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0d0dc5f1d37f3fc16fda27385f41a30fa2ce477a8c305ac9fbfdc7587e68002",
+      "evidence": "The core is a subadditive set function on the power set, using empty set, subsets, sequences, unions, and functions; listed foundations match."
+    },
+    {
+      "id": "measure-theory/premeasure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "43175eaaf18549aafadfb3c230491326c9a69ad656c566e91ffb5b493e0684e3",
+      "evidence": "A premeasure is countably additive on a set algebra when the union remains in it; listed empty-set, set-algebra, function, sequence, and union concepts are direct."
+    },
+    {
+      "id": "measure-theory/product-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0b777b5af9219efd11acddbd1fa4b0fec87a14517b02d810a412e273bf70d4c",
+      "evidence": "The construction combines two measure spaces on a Cartesian product and uses measurable rectangles/sigma-algebras; listed prerequisites are direct."
+    },
+    {
+      "id": "measure-theory/pushforward-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25c523fba003f00c9b18ab2d9fdb50a9de970037b7bb41f6a973c50d305a4589",
+      "evidence": "The pushforward is defined from a measurable map between measurable spaces and a source measure space; listed prerequisites match."
+    },
+    {
+      "id": "measure-theory/set-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8ed89991ff3b36c7b3b1b98b6ba8398ab7ab10a73feffd99d5af8f4d0ab3d6a",
+      "evidence": "A set algebra uses power set and closure under complements/unions; listed prerequisites are direct."
+    },
+    {
+      "id": "measure-theory/set-of-measure-zero-in-rk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4594618f421529a1e0c9d63b4b7ea72d0c25551511d5f8dcabdc5d4edddedab",
+      "evidence": "The notion is simply a subset of Euclidean space having zero Lebesgue measure; Lebesgue measure is the direct prerequisite."
+    },
+    {
+      "id": "measure-theory/sigma-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a95fc673ce486a58fb75dd93dfc8048c2d800602ed44a5621071867bff45075",
+      "evidence": "The core closure axioms use power set, complements, countable unions, and sequences; listed foundations are direct."
+    },
+    {
+      "id": "measure-theory/simple-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8e36bcd10deec45533c4046e436d06df0c5ea03a19b492c04e7a35b9e4487f6",
+      "evidence": "A simple function is a finite linear combination of indicators of measurable sets; listed function/set/indicator prerequisites are direct."
+    },
+    {
+      "id": "measure-theory/tonellis-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f4848c5aeda661ac3c2fd6e85d640a2f5c7a584892d3c57258bb1c3a7e879b2",
+      "evidence": "Tonelli assumes a product measure and nonnegative measurable function and equates iterated integrals; listed prerequisites are direct."
+    },
+    {
+      "id": "measure-theory/uniform-integrability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c4b7a96ce9bc92c3d6665aac9b433cfb38a46573506c5e5b0c1df916b8297371",
+      "evidence": "The definition is a family of L1 functions on a measure space with tail control, and sequences occur in the later sequence formulation; listed prerequisites are direct."
+    }
+  ]
+}

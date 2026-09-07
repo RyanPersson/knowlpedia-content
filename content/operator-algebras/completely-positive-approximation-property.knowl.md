@@ -6,7 +6,7 @@ summary = "Approximation of the identity map of a C*-algebra in point-norm by co
 aliases = ["CPAP", "Choi-Effros approximation property"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/completely-positive-map"]
+prerequisites = ["operator-algebras/cstar-algebra", "operator-algebras/completely-positive-map", "operator-algebras/completely-positive-contraction"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

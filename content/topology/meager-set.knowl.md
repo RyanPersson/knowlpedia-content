@@ -6,12 +6,14 @@ summary = "A set that is a countable union of nowhere dense sets"
 aliases = ["meager-set", "Meager set"]
 domains = ["topology"]
 legacy_source_path = "topology/meager-set.md"
-prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/union", "topology/nowhere-dense-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/union", "topology/nowhere-dense-set", "shared-foundations/countable-set"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **meager set** in a [[topology/topological-space|topological space]] \(X\) is a [[shared-foundations/subset|subset]] \(M\subseteq X\) that can be written as a countable [[shared-foundations/union|union]] of [[topology/nowhere-dense-set|nowhere dense sets]].
+
+## Terminology
 
 Meager sets are also called “sets of first category.” Their [[shared-foundations/complement|complements]] are the [[topology/residual-set|residual sets]]; in a [[topology/baire-space|Baire space]], meager sets are topologically “small.”
 

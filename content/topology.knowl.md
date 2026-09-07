@@ -106,7 +106,7 @@ Click any term to expand its definition inline.
 - [[topology/closed-subset-of-compact-set-is-compact|Closed subset of compact is compact]]
 - [[topology/compact-subset-of-hausdorff-is-closed|Compact in Hausdorff is closed]]
 - [[topology/continuous-image-of-compact-set-is-compact|Continuous image of compact is compact]]
-- [[topology/continuous-attains-max-min-compact|Continuous attains max/min on compact]]
+- [[topology/extreme-value-theorem|Continuous attains max/min on compact]]
 - [[topology/compact-to-hausdorff-homeomorphism-criterion|Bijection from compact to Hausdorff]]
 - [[topology/compactness-of-graphs-lemma|Compactness of graphs lemma]]
 
@@ -161,11 +161,11 @@ Click any term to expand its definition inline.
 - [[topology/boundary|Boundary]]
 - [[topology/closed-sets-are-complements-of-open-sets|Closed sets are complements of open sets]]
 - [[topology/continuity-via-open-sets|Continuity via open sets]]
-- [[topology/continuous-bijection-from-compact-homeomorphism-criterion|Continuous bijection from compact is a homeomorphism criterion]]
-- [[topology/continuous-on-compact-bounded-corollary|Continuous function on a compact set is bounded]]
+- [[topology/compact-to-hausdorff-homeomorphism-criterion|Continuous bijection from compact is a homeomorphism criterion]]
+- [[topology/continuous-on-compact-is-bounded|Continuous function on a compact set is bounded]]
 - [[topology/continuous-on-compact-is-bounded|Continuous functions on compact sets are bounded]]
 - [[topology/convergence-in-product-metric-spaces|Convergence in product metric spaces]]
-- [[topology/heine-cantor-corollary|Continuous function on a compact set is uniformly continuous]]
+- [[topology/heine-cantor-theorem|Continuous function on a compact set is uniformly continuous]]
 - [[topology/nested-interval-theorem|Nested interval theorem]]
 - [[topology/open-sets-form-a-topology|Open sets form a topology]]
 

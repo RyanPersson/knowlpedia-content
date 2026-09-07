@@ -6,7 +6,7 @@ summary = "The covariant exterior derivative of the curvature form of a connecti
 aliases = ["bianchi-identity", "Bianchi identity"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/bianchi-identity.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

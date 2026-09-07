@@ -6,7 +6,7 @@ summary = "The almost-everywhere unique density dν/dμ representing an absolute
 aliases = ["radon-nikodym-derivative", "Radon–Nikodym Derivative"]
 domains = ["measure-theory"]
 legacy_source_path = "shale-paper/radon-nikodym-derivative.md"
-prerequisites = ["measure-theory/measure"]
+prerequisites = ["measure-theory/measure", "measure-theory/measurable-space", "measure-theory/measurable-function", "measure-theory/measurable-set", "measure-theory/almost-everywhere"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

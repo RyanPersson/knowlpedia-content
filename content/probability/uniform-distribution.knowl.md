@@ -5,7 +5,7 @@ kind = "definition"
 summary = "The probability distribution with constant density on a specified finite interval."
 aliases = ["uniform-distribution", "Uniform distribution", "continuous uniform distribution"]
 domains = ["probability"]
-prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "measure-theory/radon-nikodym-derivative", "probability/probability-density-function"]
+prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "probability/probability-density-function"]
 dependency_heuristic = "component-dependency-review-v1"
 dependency_review_count = 2
 +++

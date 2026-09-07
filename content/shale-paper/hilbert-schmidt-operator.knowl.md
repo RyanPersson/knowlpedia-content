@@ -6,7 +6,7 @@ summary = "An operator with finite ℓ²-norm of matrix coefficients (Schatten c
 aliases = ["Shale-paper Hilbert–Schmidt operator"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/hilbert-schmidt-operator.md"
-prerequisites = ["linear-algebra/hilbert-space"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator", "linear-algebra/orthonormal-basis"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

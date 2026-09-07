@@ -7,9 +7,9 @@ aliases = ["contragredient-representation", "Contragredient (Dual) Representatio
 domains = ["algebra-representation-theory"]
 legacy_source_path = "langlands-letter/knowls/contragredient-representation.md"
 section_mode = "progressive"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["algebra-representation-theory/group-representation", "linear-algebra/vector-space"]
+dependency_heuristic = "dependency-structure-review-v1"
+dependency_review_count = 2
 +++
 
 For a finite-dimensional representation \((\pi,V)\) of a group \(G\), the

@@ -6,7 +6,7 @@ summary = "The Connes cocycle derivative is a unitary cocycle that compares the 
 aliases = ["cocycle Radon–Nikodym derivative"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/von-neumann-algebra", "operator-algebras/spatial-derivative", "operator-algebras/modular-automorphism-group"]
+prerequisites = ["operator-algebras/normal-semifinite-faithful-weight", "operator-algebras/von-neumann-algebra", "operator-algebras/spatial-derivative", "operator-algebras/modular-automorphism-group", "operator-algebras/unitary-element", "operator-algebras/strong-operator-topology"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

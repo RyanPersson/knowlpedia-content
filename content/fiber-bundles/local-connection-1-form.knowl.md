@@ -6,14 +6,14 @@ summary = "A Lie algebra valued 1-form on an open set obtained by pulling back a
 aliases = ["local-connection-1-form", "Local connection 1-form"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/local-connection-1-form.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-local-trivialization-from-a-local-section", "fiber-bundles/local-gauge-transformation", "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg", "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections", "fiber-bundles/local-curvature-2-form", "fiber-bundles/local-curvature-formula-f-da-aa"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/principal-connection", "fiber-bundles/construction-local-trivialization-from-a-local-section", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with Lie algebra \(\mathfrak g\), and let \(\omega\in\Omega^1(P;\mathfrak g)\) be a [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]] representing a [[fiber-bundles/principal-connection|principal connection]].
 
-Given a local section \(s:U\to P\) over an open set \(U\subseteq M\), the **local connection 1-form** (also called the gauge potential in that trivialization) is the \(\mathfrak g\)-valued 1-form
+Given a [[fiber-bundles/section-of-a-fiber-bundle|local section]] \(s:U\to P\) over an open set \(U\subseteq M\), the **local connection 1-form** (also called the gauge potential in that trivialization) is the \(\mathfrak g\)-valued 1-form
 \[
 A:=s^*\omega \in \Omega^1(U;\mathfrak g).
 \]

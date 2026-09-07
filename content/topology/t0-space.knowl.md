@@ -6,12 +6,14 @@ summary = "A topological space in which some open set distinguishes each pair of
 aliases = ["t0-space", "T0 space"]
 domains = ["topology"]
 legacy_source_path = "topology/t0-space.md"
-prerequisites = ["topology/topological-space", "topology/open-set", "topology/t1-space", "topology/hausdorff-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "topology/open-set"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **\(T_0\) space** is a [[topology/topological-space|topological space]] \(X\) such that for any distinct points \(x,y\in X\), there is an [[topology/open-set|open set]] containing exactly one of them.
+
+## Comparison with stronger axioms
 
 This is the weakest of the common separation axioms. Every [[topology/t1-space|\(T_1\) space]], and hence every [[topology/hausdorff-space|Hausdorff space]], is \(T_0\).
 

@@ -7,8 +7,8 @@ aliases = ["subspace-topology", "Subspace topology"]
 domains = ["topology"]
 legacy_source_path = "topology/subspace-topology.md"
 prerequisites = ["topology/topological-space", "shared-foundations/subset", "topology/open-set"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 The **subspace topology** on a subset \(Y\subseteq X\) of a [[topology/topological-space|topological space]] \((X,\mathcal{T})\) is the topology
@@ -16,6 +16,8 @@ The **subspace topology** on a subset \(Y\subseteq X\) of a [[topology/topologic
 \mathcal{T}_Y=\{U\cap Y : U\in\mathcal{T}\}.
 \]
 With this topology, \((Y,\mathcal{T}_Y)\) becomes a topological space, called a subspace of \(X\).
+
+## Induced structure
 
 A subset \(V\subseteq Y\) is [[topology/open-set|open]] in the subspace exactly when it is the intersection of \(Y\) with an open set of \(X\). The inclusion map \(i:Y\to X\) is automatically [[topology/continuous-map|continuous]] for the subspace topology.
 

@@ -1,0 +1,2734 @@
+{
+  "reviews": [
+    {
+      "id": "shared-foundations/union",
+      "outcome": "corrected",
+      "source_sha256": "ca497fbf54865b7813409e97b69e09816c0cae24f2e4b19357a9aab4afc8f4c8",
+      "evidence": "Defined the operation on a set of sets before indexed notation, removing the artificial prerequisite on functions through indexed families. Intersection now states nonempty-family or ambient-set convention explicitly.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/indexed-family-of-sets"
+      ],
+      "prerequisites": [
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "shared-foundations/intersection",
+      "outcome": "corrected",
+      "source_sha256": "38f56362e040f7e7904b76a3755009538e5c05918cfa2c13b61c2503e496c02c",
+      "evidence": "Defined the operation on a set of sets before indexed notation, removing the artificial prerequisite on functions through indexed families. Intersection now states nonempty-family or ambient-set convention explicitly.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/indexed-family-of-sets"
+      ],
+      "prerequisites": [
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "shared-foundations/indexed-family-of-sets",
+      "outcome": "corrected",
+      "source_sha256": "5c237465fc78c9a0bed672da9b01705778fe89d741dbd58b1603bde101886cc1",
+      "evidence": "Replaced undefined V (potential class-valued codomain) by an explicit set of sets; function remains the correct prerequisite.",
+      "previous_prerequisites": [
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "topology/topological-space",
+      "outcome": "corrected",
+      "source_sha256": "aa95a035225646c04ca387cfe57f9d3cbfcbd006d1cb7d6a89453fe0268c94c1",
+      "evidence": "The topology knowl owns the three topology axioms; removed their duplicated restatement from the minimal equipped-set definition. Retained topology/set/ordered-pair prerequisites.",
+      "previous_prerequisites": [
+        "shared-foundations/ordered-pair",
+        "shared-foundations/set",
+        "topology/topology"
+      ],
+      "prerequisites": [
+        "shared-foundations/ordered-pair",
+        "shared-foundations/set",
+        "topology/topology"
+      ]
+    },
+    {
+      "id": "topology/open-set",
+      "outcome": "corrected",
+      "source_sha256": "25ce81d192462a82241698f556d41c9aab517e52385ef39bb59e7a0111365ae4",
+      "evidence": "The sole defining condition is membership in the chosen topology; moved interpretation and downstream concepts into an expandable section. Existing prerequisite targets are correct.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "topology/topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a0f4db6bf4536175a539bb58e62ed903f6b0cd311dc862850bbdeea9e184f484",
+      "evidence": "Union, intersection and power set are the defining operations; did not add continuity or closed sets from consequences.",
+      "previous_prerequisites": [
+        "shared-foundations/power-set",
+        "shared-foundations/union",
+        "shared-foundations/intersection"
+      ],
+      "prerequisites": [
+        "shared-foundations/power-set",
+        "shared-foundations/union",
+        "shared-foundations/intersection"
+      ]
+    },
+    {
+      "id": "topology/homeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "867880d8b4f7b81be8c26e72cc850927c06da082561ab5a2a68d7f7068974970",
+      "evidence": "Bijective continuous map with continuous inverse uses exactly the mapped function/topology ingredients; examples add no dependencies.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/bijective-function",
+        "topology/continuous-map",
+        "shared-foundations/inverse-function"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/bijective-function",
+        "topology/continuous-map",
+        "shared-foundations/inverse-function"
+      ]
+    },
+    {
+      "id": "topology/continuous-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb8f36e596b7b924968f500c1c6cdd404d7d355f8747620341f95d5cf612b188",
+      "evidence": "Preimages of open sets define continuity; basis/subbasis and closed-set tests are later equivalent criteria, correctly absent as prerequisites.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/function",
+        "topology/open-set",
+        "shared-foundations/preimage"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/function",
+        "topology/open-set",
+        "shared-foundations/preimage"
+      ]
+    },
+    {
+      "id": "topology/product-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57925678e1802741e8402cd119cc120fe19b6e8ea5d0d8bcba3dbff6b50cb3be",
+      "evidence": "The product is defined by a subbasis of coordinate preimages; all four prerequisites are appropriate.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/cartesian-product",
+        "shared-foundations/preimage",
+        "topology/subbasis-of-topology"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/cartesian-product",
+        "shared-foundations/preimage",
+        "topology/subbasis-of-topology"
+      ]
+    },
+    {
+      "id": "topology/hausdorff-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5ff25a439dc303c9ba8e546f857a0d43a052f9ff682ca8cdf144d2ed8df7ddb",
+      "evidence": "The core separation condition uses neighborhoods; sequential uniqueness and compact-set closedness are consequences and correctly omitted.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "shared-foundations/cartesian-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6ffd0e7257fea154d13e449f6e5767c438574d7746586d0a1e1e575cf485067",
+      "evidence": "Binary Cartesian product genuinely uses ordered pairs, not indexed products or relations.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/ordered-pair"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/ordered-pair"
+      ]
+    },
+    {
+      "id": "topology/basis-of-topology",
+      "outcome": "corrected",
+      "source_sha256": "1329a7a3f033e9f0ecc036c8057e63b3ff51950e19ffdeaa7852b1fa02e169fe",
+      "evidence": "Distinguished a basis of a specified topology from an abstract basis generating one. Core now gives the short union characterization; covering/intersection criterion remains expandable.",
+      "previous_prerequisites": [
+        "topology/topology",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "topology/topology",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "topology/subbasis-of-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a6cc249eb1a53edcecffd0e577abc768708f59a74cf6d3266695f677efbb034",
+      "evidence": "Checked the covering convention, empty intersection, and basis-generation statement. Dependencies are correct under the stated covering convention; retained the definition unchanged.",
+      "previous_prerequisites": [
+        "topology/basis-of-topology",
+        "shared-foundations/power-set",
+        "shared-foundations/union",
+        "shared-foundations/intersection"
+      ],
+      "prerequisites": [
+        "topology/basis-of-topology",
+        "shared-foundations/power-set",
+        "shared-foundations/union",
+        "shared-foundations/intersection"
+      ]
+    },
+    {
+      "id": "topology/second-countable-space",
+      "outcome": "corrected",
+      "source_sha256": "30a40bf474bd129359ab76e5d8b90daa1510dda1ba782dc2048b18b57e8c916b",
+      "evidence": "Created the missing countable-basis condition explicitly required by topological manifolds; used basis and countability foundations, not manifold as a prerequisite.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/basis-of-topology",
+        "shared-foundations/countable-set"
+      ]
+    },
+    {
+      "id": "topology/topological-manifold",
+      "outcome": "corrected",
+      "source_sha256": "97063f70204e13b7a47bae3862ca69c3c46b5e12e05a18f448c17b496b2d6ba1",
+      "evidence": "Added the missing second-countability prerequisite and first-use links for both topological separation/countability hypotheses. Moved discussion of charts and smooth structures after the complete definition.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/homeomorphism",
+        "topology/hausdorff-space"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/homeomorphism",
+        "topology/hausdorff-space",
+        "topology/second-countable-space"
+      ]
+    },
+    {
+      "id": "shared-foundations/countable-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a003fede519714961e473205a0707b0c55856c372202178f69db822a9ed90102",
+      "evidence": "Checked finite and empty cases via injection into natural numbers; equivalent bijection criterion is stated correctly.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/natural-numbers",
+        "shared-foundations/injective-function",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/natural-numbers",
+        "shared-foundations/injective-function",
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "linear-algebra/vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc5e1d2bd11087f0151fa620451f125aa6f138616f894812a228abd88b54b847",
+      "evidence": "Checked all named operations and eight axioms; prerequisites field/set/function are appropriate. No dependence on linear maps or eigenvalues from examples.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "linear-algebra/linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02195eb1350f3fc07843b75e0c5a68d47165c9df1056320cefd46ab32fc7f6c5",
+      "evidence": "Checked common scalar field, additivity and homogeneity; vector-space/function dependencies sufficient.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "linear-algebra/inner-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83eaee321b81d86929d2e35390898f4e33dcb50852a63bfa929e57f36d3233cc",
+      "evidence": "Checked complex conjugation and linear-first convention, positive definiteness; no norm or Hilbert-space prerequisite is needed for the algebraic definition.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-conjugate"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-conjugate"
+      ]
+    },
+    {
+      "id": "linear-algebra/hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c3ad5948b01f246f6c4ebdbb9e1c5ee2ace32a4fd80d507c9c0587a230ca362",
+      "evidence": "Checked completeness is for induced inner-product norm; Banach space, Cauchy–Schwarz and L2 examples correctly remain later links.",
+      "previous_prerequisites": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/norm",
+        "topology/complete-metric-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/norm",
+        "topology/complete-metric-space"
+      ]
+    },
+    {
+      "id": "linear-algebra/operator-norm",
+      "outcome": "corrected",
+      "source_sha256": "dae8e5a707cad3ece06a772ca226f8757b1fe6189dcac82092138a68cfa820f6",
+      "evidence": "Used the unit-ball supremum so the definition includes the zero vector space without an undefined empty-sphere supremum. Kept boundedness as finiteness, not a circular prerequisite.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/normed-vector-space",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/normed-vector-space",
+        "real-analysis/supremum"
+      ]
+    },
+    {
+      "id": "linear-algebra/norm",
+      "outcome": "corrected",
+      "source_sha256": "8d8925a69c89ff068d6afdf3e4ef388197d119394c2ecb56a54e525a503dc41b",
+      "evidence": "Stated R/C scalar restriction in the core and linked complex modulus separately from the real absolute-value definition.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "real-analysis/absolute-value"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "real-analysis/absolute-value",
+        "real-analysis/modulus-on-c"
+      ]
+    },
+    {
+      "id": "topology/metric-space",
+      "outcome": "corrected",
+      "source_sha256": "f8bba6a64da941aaa97d94d873997ca145e446c7cc5f30ff8001ebb0c1d11377",
+      "evidence": "Kept the defining structure in the core and moved consequences to a disclosure. Existing dependency targets match the definition.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "topology/metric"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "topology/metric"
+      ]
+    },
+    {
+      "id": "topology/metric",
+      "outcome": "corrected",
+      "source_sha256": "af6276c857d55d32db40b9258bd9d3afbdde20304ddc28314be847b3313280e1",
+      "evidence": "Kept the defining structure in the core and moved consequences to a disclosure. Added real numbers for the distance codomain, addition and order.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "shared-foundations/real-numbers"
+      ]
+    },
+    {
+      "id": "topology/subspace-topology",
+      "outcome": "corrected",
+      "source_sha256": "15bdafa9fe03705d525814ff0e84e478ddad7cddaba273b23f72dbe78803fca6",
+      "evidence": "Kept the defining structure in the core and moved consequences to a disclosure. Existing dependency targets match the definition.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "topology/complete-metric-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e23fa1fd378418e368bc867208d6240f1daba1c184bb1d77d3d0f33bb4c9c4a9",
+      "evidence": "Completion is defined using Cauchy sequences and convergence in the same metric space; later Baire/compactness results are correctly not prerequisites.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/cauchy-sequence",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/cauchy-sequence",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "topology/cauchy-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2f225377b7944367bbb606ae6630bb079ad466c05f294913f562b1ad706c169",
+      "evidence": "Pairwise eventual distance condition is independent of convergence or completeness; existing metric-space/sequence mapping is correct.",
+      "previous_prerequisites": [
+        "shared-foundations/sequence",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "shared-foundations/sequence",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/neighborhood",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "330ad705a297df340c47435eb41aa22dcee13d36f8508468113440aa0bf723fa",
+      "evidence": "Open-set containment definition precedes interior and convergence; no downstream dependencies.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "linear-algebra/inner-product-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d0930cb551333693b97c96212ec023df6758997c23b32f8f8637efeaa8b6acf",
+      "evidence": "Equipped vector-space definition uses inner product; norm and Hilbert completeness are downstream.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product"
+      ]
+    },
+    {
+      "id": "linear-algebra/normed-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e53e909bd30a6d7318263af62ecafc13d44cd04bce2b5d5e3cde6892f2114104",
+      "evidence": "Norm and vector-space data suffice; operator norms and completeness remain later.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/norm"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/norm"
+      ]
+    },
+    {
+      "id": "linear-algebra/banach-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d5b19b3a4322377f7a9ff5f586e5931b3d58c142ba677ec582ae2c219ec40267",
+      "evidence": "Cauchy convergence in the norm is the core requirement, correctly mapped to normed space and metric completeness.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "topology/complete-metric-space",
+        "topology/cauchy-sequence"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "topology/complete-metric-space",
+        "topology/cauchy-sequence"
+      ]
+    },
+    {
+      "id": "topology/open-cover",
+      "outcome": "corrected",
+      "source_sha256": "bbbdef6b11adf08f84aa6a3c53f834fee9084c07bb4749ae27514c3a1c7ddd4b",
+      "evidence": "Cover is explicitly the defining ingredient and had no link or prerequisite; added it, without importing compactness.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/cover"
+      ]
+    },
+    {
+      "id": "topology/closed-set",
+      "outcome": "corrected",
+      "source_sha256": "39945d97a2796b97cade41225fb5bf709ff6ae758439e119b57b551c4a18ab83",
+      "evidence": "Complement/open-set dependencies are correct; moved closure and continuity discussion after the minimal definition.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set",
+        "shared-foundations/complement"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set",
+        "shared-foundations/complement"
+      ]
+    },
+    {
+      "id": "topology/convergent-sequence",
+      "outcome": "corrected",
+      "source_sha256": "f1e86695a5c6eddc8fe12af605d72107c31f0059857b8e4975b7c4a01e37b700",
+      "evidence": "Neighborhood convergence is the general definition; metric specialization and Hausdorff uniqueness are downstream and now expandable.",
+      "previous_prerequisites": [
+        "shared-foundations/sequence",
+        "topology/topological-space",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "shared-foundations/sequence",
+        "topology/topological-space",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "topology/sequential-compactness-equals-compactness",
+      "outcome": "corrected",
+      "source_sha256": "efdb78d2287048f535b871984c812a8d08e5d54834fbd09d721dd7f48a79f0a9",
+      "evidence": "Preserved the indispensable metric-space hypothesis; moved general-topology comparison out of theorem core.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/sequentially-compact-set",
+        "real-analysis/subsequence",
+        "topology/convergent-sequence",
+        "topology/topological-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/sequentially-compact-set"
+      ]
+    },
+    {
+      "id": "topology/compactness-implies-completeness",
+      "outcome": "corrected",
+      "source_sha256": "e28f39ef1aa78072e3cdbf7d24eb19db075d833283345a78829933da8ba0bdaa",
+      "evidence": "Added completeness/convergence as the named conclusion concept, previously absent despite explicit core use.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/cauchy-sequence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/complete-metric-space",
+        "topology/cauchy-sequence"
+      ]
+    },
+    {
+      "id": "topology/totally-bounded-cauchy-subsequence",
+      "outcome": "corrected",
+      "source_sha256": "990b03d00bb542d41fed0c69883fb1ed9c52310b1eb2e2c1e7148bf233efef01",
+      "evidence": "Removed epsilon-net comparison as a prerequisite: the statement uses total boundedness and Cauchy subsequences, and no net-based proof is supplied. Kept the useful comparison afterward.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/totally-bounded-set",
+        "real-analysis/subsequence",
+        "topology/cauchy-sequence",
+        "topology/epsilon-net"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/totally-bounded-set",
+        "real-analysis/subsequence",
+        "topology/cauchy-sequence"
+      ]
+    },
+    {
+      "id": "topology/epsilon-net",
+      "outcome": "corrected",
+      "source_sha256": "af7a6870ead254aed8d526b0c7f271e1afb676274020af6162d2f18e4c6a79dc",
+      "evidence": "Made positive tolerance explicit in the definition; ambient centers are permitted consistently with total-boundedness convention.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/compact-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5af3b3523fc164edbce36b93d4b1ccf363b4bb0a88b4a0468a7cf78362505485",
+      "evidence": "Open-cover finite-subcover definition is self-contained and permits empty K via an empty finite subcover; no sequential or completeness criterion prerequisites.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-cover"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-cover"
+      ]
+    },
+    {
+      "id": "topology/sequentially-compact-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76ac305a05b45419cf73c708ce54f89d6ecc909445956349246dc5e2eda1c419",
+      "evidence": "General topological sequence/subsequence definition correctly distinct from compactness; subsequence target is valid for arbitrary state space despite its real-analysis location.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "real-analysis/subsequence",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "real-analysis/subsequence",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "topology/compact-iff-complete-totally-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c33882684aa3d4242eab0577da3805ad703447135308335f0da89d32d27f04ce",
+      "evidence": "Metric-space equivalence uses both complete and totally bounded definitions; no dependency on either corollary linked in remarks.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/complete-metric-space",
+        "topology/totally-bounded-set"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/complete-metric-space",
+        "topology/totally-bounded-set"
+      ]
+    },
+    {
+      "id": "topology/totally-bounded-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb2d6a8599a6b0e6ca7ade6300179d60f357b97261e967ccee6862984d355b6c",
+      "evidence": "Finite covers by arbitrarily small ambient balls is a valid convention; no epsilon-net equivalence or completeness prerequisite.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "shared-foundations/union"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "shared-foundations/union"
+      ]
+    },
+    {
+      "id": "topology/cover",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c08273b0cbc3f47f1e995be74e1a54922718910b05bda543e548f1efa43cd01",
+      "evidence": "Indexed-family union condition owns covering before open-cover specialization; existing edges appropriate.",
+      "previous_prerequisites": [
+        "shared-foundations/indexed-family-of-sets",
+        "shared-foundations/union"
+      ],
+      "prerequisites": [
+        "shared-foundations/indexed-family-of-sets",
+        "shared-foundations/union"
+      ]
+    },
+    {
+      "id": "topology/closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2b6a4d8dc1cd6b05592f244314e05269cdb0d31b0557b01641a97cee3d0c41d",
+      "evidence": "Intersection of closed supersets is nonempty because ambient X qualifies; no downstream limit-point requirement.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/closed-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "topology/interior",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8a2c7ea8e51f0b97071d3db1d52b57146884c48b10fc1fcab1c8e913b456b37",
+      "evidence": "Union of open subsets including empty union defines interior; closure duality is not a prerequisite.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "topology/dense-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7fa104bb5bf14401e84fb22f985082ac7ea99aa78a22f4c220dc59db71c66266",
+      "evidence": "Closure equals whole space is the core criterion; open-set equivalent characterization remains later.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/closure",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/closure",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "topology/compactness-implies-total-boundedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8dff565025bab295661035e88fe5a64f39202260525683fb799d312ae0902e5e",
+      "evidence": "Finite subcover of balls yields stated finite epsilon-net with centers in K; all core concepts mapped.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/totally-bounded-set"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/totally-bounded-set"
+      ]
+    },
+    {
+      "id": "topology/compact-to-hausdorff-homeomorphism-criterion",
+      "outcome": "corrected",
+      "source_sha256": "8ea7595b80fa2a61983cfafc907033b0dc072030a187d46692a0c5e8575c579b",
+      "evidence": "Merged identical compact-to-Hausdorff criterion; preserved metric specialization and explicit proof. Added the three actual proof lemmas, not reverse edges from those lemmas.",
+      "previous_prerequisites": [
+        "topology/compact-set",
+        "topology/hausdorff-space",
+        "topology/homeomorphism"
+      ],
+      "prerequisites": [
+        "topology/compact-set",
+        "topology/hausdorff-space",
+        "topology/homeomorphism",
+        "topology/closed-subset-of-compact-set-is-compact",
+        "topology/continuous-image-of-compact-set-is-compact",
+        "topology/compact-subset-of-hausdorff-is-closed"
+      ]
+    },
+    {
+      "id": "topology/continuous-on-compact-is-bounded",
+      "outcome": "corrected",
+      "source_sha256": "bdc7fcdc7cdd2032f7571630f3dd16d427ed6784da849b2b3299fd380643c501",
+      "evidence": "Merged duplicate boundedness corollary, removed unnecessary metric hypothesis and real-domain continuity target, preserved extreme-value proof with empty-domain case explicit.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "real-analysis/continuity-on-a-set",
+        "topology/bounded-set"
+      ],
+      "prerequisites": [
+        "topology/compact-set",
+        "topology/continuous-map",
+        "real-analysis/absolute-value",
+        "topology/extreme-value-theorem"
+      ]
+    },
+    {
+      "id": "topology/extreme-value-theorem",
+      "outcome": "corrected",
+      "source_sha256": "fe17da07fb20cf57f6ff66a0c1b839a4783b0d49bb7a2e6aa79b4f8d531b38e3",
+      "evidence": "Merged duplicate max/min theorem with identical nonempty-compact hypotheses; preserved image formulation and proof explanation.",
+      "previous_prerequisites": [
+        "topology/compact-set",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "topology/compact-set",
+        "topology/continuous-map",
+        "topology/continuous-image-of-compact-set-is-compact"
+      ]
+    },
+    {
+      "id": "topology/heine-cantor-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d1eb6f2e4ce3de22c150139ca6fb77bf638e8b65db61a3de2199f3dea9ea1cd",
+      "evidence": "Compared both statements: same arbitrary compact metric domain and metric codomain, no extra content in duplicate; retain canonical theorem and redirect the corollary.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "topology/compact-set",
+        "topology/metric-space",
+        "real-analysis/uniform-continuity"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "topology/compact-set",
+        "topology/metric-space",
+        "real-analysis/uniform-continuity"
+      ]
+    },
+    {
+      "id": "topology/continuous-bijection-from-compact-homeomorphism-criterion",
+      "outcome": "corrected",
+      "source_sha256": "dfe62e89a7b804741c98a0c4133cf9e8f9ba88c96598e9f34434703c005d2b55",
+      "evidence": "Read complete source and consolidated identical theorem into topology/compact-to-hausdorff-homeomorphism-criterion; unique explanatory material retained there.",
+      "previous_prerequisites": [
+        "shared-foundations/bijective-function",
+        "topology/compact-set",
+        "topology/hausdorff-space"
+      ],
+      "prerequisites": [],
+      "redirect_to": "topology/compact-to-hausdorff-homeomorphism-criterion"
+    },
+    {
+      "id": "topology/continuous-on-compact-bounded-corollary",
+      "outcome": "corrected",
+      "source_sha256": "1d7100be0716146d51b49fc1f58fd302869f1ef2c26acc6f9d09bddb590f931e",
+      "evidence": "Read complete source and consolidated identical theorem into topology/continuous-on-compact-is-bounded; unique explanatory material retained there.",
+      "previous_prerequisites": [
+        "topology/compact-set",
+        "topology/metric-space",
+        "real-analysis/continuity-on-a-set",
+        "topology/bounded-set"
+      ],
+      "prerequisites": [],
+      "redirect_to": "topology/continuous-on-compact-is-bounded"
+    },
+    {
+      "id": "topology/continuous-attains-max-min-compact",
+      "outcome": "corrected",
+      "source_sha256": "aa7e7135ec232a49564b12f0445c15f38320a487f2d1fcf1aab451dfbd02cc85",
+      "evidence": "Read complete source and consolidated identical theorem into topology/extreme-value-theorem; unique explanatory material retained there.",
+      "previous_prerequisites": [
+        "topology/compact-set",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [],
+      "redirect_to": "topology/extreme-value-theorem"
+    },
+    {
+      "id": "topology/heine-cantor-corollary",
+      "outcome": "corrected",
+      "source_sha256": "0c7ce2909e27cf196de866aad28b9df9a6320e6cc85c78acecd987a6f8fe78c0",
+      "evidence": "Read complete source and consolidated identical theorem into topology/heine-cantor-theorem; unique explanatory material retained there.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "real-analysis/uniform-continuity"
+      ],
+      "prerequisites": [],
+      "redirect_to": "topology/heine-cantor-theorem"
+    },
+    {
+      "id": "topology/continuous-image-of-compact-set-is-compact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "217482f0e4e1c07569b61778c113ce9a02a86818b852b18be30c940ffaeb0675",
+      "evidence": "Image of compact space needs only continuity and compactness, not extreme values downstream; preserve the edge direction.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "topology/topological-space",
+        "topology/compact-set"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "topology/topological-space",
+        "topology/compact-set"
+      ]
+    },
+    {
+      "id": "topology/closed-subset-of-compact-set-is-compact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3659519dc4713af0f4f2246db31a4bbd26eb3de7312e2cb3f2a2254313810fd8",
+      "evidence": "Closedness is relative to compact K, which is essential in non-Hausdorff ambient spaces; current subspace prerequisite is correct.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/subspace-topology"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/subspace-topology"
+      ]
+    },
+    {
+      "id": "topology/compact-subset-of-hausdorff-is-closed",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efe5138942977c0bb8755364dfda4a773af3062ec38494fd69d8c3df96dc6c49",
+      "evidence": "Hausdorff separation is explicit; homeomorphism criterion uses this result rather than defining it.",
+      "previous_prerequisites": [
+        "topology/hausdorff-space",
+        "topology/compact-set",
+        "topology/closed-set"
+      ],
+      "prerequisites": [
+        "topology/hausdorff-space",
+        "topology/compact-set",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "topology/uniformly-continuous-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "907a8170384ae306fc453bb55573928491f46aa83126392b89f5c0796ef10544",
+      "evidence": "Metric epsilon-delta condition is independent of continuity/Heine–Cantor consequences, correctly not required.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/homotopy",
+      "outcome": "corrected",
+      "source_sha256": "cddf8c6a35ee6d6b182564f5bcdb9fc83eaf85f2d168e122d385a41246fc4041",
+      "evidence": "Created missing jointly continuous homotopy definition, with endpoint-relative variant for fundamental group; verified endpoint convention against Hatcher §1.1. No fundamental-group dependency on its own ingredient.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/continuous-map",
+        "topology/product-topology",
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "topology/homotopy-equivalence",
+      "outcome": "corrected",
+      "source_sha256": "1a26beae592640494b573749874549840343c56c2808f0cebbf7ce38f2514724",
+      "evidence": "Replaced informal hidden homotopy definition with direct canonical homotopy link and prerequisite; maps inverse up to homotopy remain the complete core.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homotopy"
+      ]
+    },
+    {
+      "id": "topology/fundamental-group",
+      "outcome": "corrected",
+      "source_sha256": "a2f4726154b8fca1beff9c3c48a62e57d3d900b8c95f675d532e5057a82dda59",
+      "evidence": "Added the missing homotopy ingredient of the equivalence relation; endpoint fixing remains explicit and avoids free-homotopy conflation.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/path",
+        "shared-foundations/equivalence-class",
+        "algebra-groups/group"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/path",
+        "topology/homotopy",
+        "shared-foundations/equivalence-class",
+        "algebra-groups/group"
+      ]
+    },
+    {
+      "id": "topology/simply-connected-space",
+      "outcome": "corrected",
+      "source_sha256": "dc3e1413a88fc3e7f7f15fc8602777c97b8d4fc5a65a03036269b8556b51efdf",
+      "evidence": "Added explicit nonempty/path-connected hypotheses and prerequisite; loop condition alone does not imply path-connectedness. Kept equivalent characterization in its own section.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/fundamental-group"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/fundamental-group",
+        "topology/path-connected-set"
+      ]
+    },
+    {
+      "id": "topology/path",
+      "outcome": "corrected",
+      "source_sha256": "7d46bf10bf8ae1272927de934c05c3cfc1d89efd1233c7a788070356221eb7dc",
+      "evidence": "The core defining condition or theorem is complete; moved downstream comparison out of initial expansion. Existing prerequisite direction is appropriate.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "real-analysis/interval"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "topology/path-connected-set",
+      "outcome": "corrected",
+      "source_sha256": "88a879f82f38f1f1b1d50f78eda78d5261fdfcfade21756d4dd01e8c7aaf9c49",
+      "evidence": "The core defining condition or theorem is complete; moved downstream comparison out of initial expansion. Existing prerequisite direction is appropriate.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/path"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/path"
+      ]
+    },
+    {
+      "id": "topology/separated-sets",
+      "outcome": "corrected",
+      "source_sha256": "cce270fc6115764287d6bb790ec948d63998d2d0f2cf5a682e7793ece0cce0ba",
+      "evidence": "The core defining condition or theorem is complete; moved downstream comparison out of initial expansion. Existing prerequisite direction is appropriate.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/closure"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/closure"
+      ]
+    },
+    {
+      "id": "topology/continuous-image-of-connected-set-is-connected",
+      "outcome": "corrected",
+      "source_sha256": "bbf243b603eb33bfb33581c02e212c66ca63efd3f6899e21539f56017b2761ab",
+      "evidence": "The core defining condition or theorem is complete; moved downstream comparison out of initial expansion. Existing prerequisite direction is appropriate.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "topology/connected-set"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "topology/connected-set"
+      ]
+    },
+    {
+      "id": "topology/curve",
+      "outcome": "corrected",
+      "source_sha256": "8459127961836b14deddd2158c60e1d90616ee6212a0259909b8fb8a8d965508",
+      "evidence": "The core defining condition or theorem is complete; moved downstream comparison out of initial expansion. Existing prerequisite direction is appropriate.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "real-analysis/interval"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "topology/connectedness-criteria-r",
+      "outcome": "corrected",
+      "source_sha256": "7a741d10ff9acfdb1b102e186f2d216bd61f0a9fed195d296c940a95ce226958",
+      "evidence": "Continuous-image theorem is only a later application, not an ingredient in the equivalence between intervals and connected subsets of R.",
+      "previous_prerequisites": [
+        "topology/connected-set",
+        "real-analysis/interval",
+        "topology/continuous-image-of-connected-set-is-connected"
+      ],
+      "prerequisites": [
+        "topology/connected-set",
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "topology/connected-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bbcbe2541e986ab62484b6354ea2fd1a44ff611adf27aceddd8f7bf27d705db8",
+      "evidence": "Relative open separation is the defining condition; path-connectedness and components are downstream and correctly excluded.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set",
+        "topology/subspace-topology"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/open-set",
+        "topology/subspace-topology"
+      ]
+    },
+    {
+      "id": "topology/connected-component",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf6882a62a6dd80d87f4e3076431d13980a570a7998ce7e944fb6659ef92ad21",
+      "evidence": "Maximal connected subset and union of all connected sets through a point agree; no path-component prerequisite.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/connected-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/connected-set"
+      ]
+    },
+    {
+      "id": "topology/intersection-of-dense-open-is-dense",
+      "outcome": "corrected",
+      "source_sha256": "3b3e507dd6dcaf9ab054b34723882eb9c82dfe82dbda6087afffaf75cfe88225",
+      "evidence": "Finite dense-open intersections hold in every topological space, without completeness or the Baire theorem. Removed the reversed dependency on its countable-intersection application.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/dense-set",
+        "topology/topology",
+        "shared-foundations/intersection",
+        "topology/baire-category-theorem"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/dense-set",
+        "topology/topology",
+        "shared-foundations/intersection"
+      ]
+    },
+    {
+      "id": "topology/category-argument-template",
+      "outcome": "corrected",
+      "source_sha256": "fda9afa7a64bd62443c8e931182342e6ed89a3dcb4a49f4ffb2f43afd02e976a",
+      "evidence": "The statement assumes a Baire space and uses residual/nowhere-dense definitions; it does not require the theorem establishing that complete metric spaces are Baire or a separate finite-intersection theorem.",
+      "previous_prerequisites": [
+        "topology/baire-space",
+        "topology/open-set",
+        "topology/dense-set",
+        "topology/residual-set",
+        "topology/nowhere-dense-set",
+        "topology/baire-category-theorem",
+        "topology/intersection-of-dense-open-is-dense"
+      ],
+      "prerequisites": [
+        "topology/baire-space",
+        "topology/open-set",
+        "topology/dense-set",
+        "topology/residual-set",
+        "topology/nowhere-dense-set"
+      ]
+    },
+    {
+      "id": "topology/residual-set",
+      "outcome": "corrected",
+      "source_sha256": "ea850e57e8441275699dd29478362bc2bba493fd832b3da82d2c2bea75f2b21c",
+      "evidence": "Complement-of-meager mapping is correct. Fixed the example link: its countable Baire conclusion had pointed to a theorem only about two open sets.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "shared-foundations/complement",
+        "topology/meager-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "shared-foundations/complement",
+        "topology/meager-set"
+      ]
+    },
+    {
+      "id": "topology/meager-set",
+      "outcome": "corrected",
+      "source_sha256": "bafba3a9467727143bb5cef54e3b0bfd0c4aa8aca60290d2d8ee00cefbd12600",
+      "evidence": "The defining countable union uses nowhere density; residual sets and Baire-space applications belong after the core. Added the missing countability prerequisite.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "shared-foundations/union",
+        "topology/nowhere-dense-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "shared-foundations/union",
+        "topology/nowhere-dense-set",
+        "shared-foundations/countable-set"
+      ]
+    },
+    {
+      "id": "topology/locally-compact-space",
+      "outcome": "corrected",
+      "source_sha256": "af01f7d09cfe98f17fb02cf0f77b84dae7d525429a92d2a82cb84f2829b33c8e",
+      "evidence": "The chosen definition uses neighborhood and closure but does not assume Hausdorff; separated its Hausdorff equivalent criterion and removed that extra prerequisite. Qualified noncompact Euclidean example by positive dimension.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/compact-set",
+        "topology/hausdorff-space"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/compact-set",
+        "topology/neighborhood",
+        "topology/closure"
+      ]
+    },
+    {
+      "id": "topology/complete-metric-space-is-baire",
+      "outcome": "corrected",
+      "source_sha256": "2adaed4febfd840b473e7d02b8dfce1b3cb6910c918f2de642d0e9912ded3cf6",
+      "evidence": "The theorem explicitly concludes the Baire-space property; added that definition rather than requiring the separate equivalent theorem as an input.",
+      "previous_prerequisites": [
+        "topology/complete-metric-space",
+        "topology/dense-set",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/complete-metric-space",
+        "topology/baire-space"
+      ]
+    },
+    {
+      "id": "topology/baire-category-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92775f8b531710b715bc9f33418fdae80ed3b5857273574a59b7af7735937730",
+      "evidence": "Complete metric space, dense set and open set supply the countable-intersection theorem statement. Baire/residual equivalences are subsequent consequences, not inputs.",
+      "previous_prerequisites": [
+        "topology/complete-metric-space",
+        "topology/dense-set",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/complete-metric-space",
+        "topology/dense-set",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "topology/baire-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca83baea172e58c66a56124773b2217e35239776acc7d50b8ac2b7278d8af6b8",
+      "evidence": "The countable dense-open intersection property is independent of the theorem for complete metrics. Its existing topology/open/dense prerequisites express the definition.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/dense-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/dense-set"
+      ]
+    },
+    {
+      "id": "topology/nowhere-dense-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1a9b2f5be52ac15dad9fc5402d09fa47437784f13e661dca098e31809dff516a",
+      "evidence": "The exact condition is empty interior of closure; existing interior, closure and empty-set definitions supply it. Meagerness is a downstream construction.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/interior",
+        "topology/closure",
+        "shared-foundations/empty-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/subset",
+        "topology/interior",
+        "topology/closure",
+        "shared-foundations/empty-set"
+      ]
+    },
+    {
+      "id": "topology/one-point-compactification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d4a1fd7ee832a6525db8ef1134f2a7cba67a68fa0ecc847ae09c71e086b8c16",
+      "evidence": "The noncompact locally compact Hausdorff hypothesis is explicit and supplies compact complements. The construction and dense embedding characterization are valid with this restriction; no Riemann-sphere example dependency is needed.",
+      "previous_prerequisites": [
+        "topology/locally-compact-space",
+        "topology/hausdorff-space"
+      ],
+      "prerequisites": [
+        "topology/locally-compact-space",
+        "topology/hausdorff-space"
+      ]
+    },
+    {
+      "id": "topology/t0-space",
+      "outcome": "corrected",
+      "source_sha256": "23e13e6e653f16b8ce5924cad458e734f300479513a8ea3d0ae8103c36ee9d00",
+      "evidence": "T0 uses open sets distinguishing two points; stronger T1 and Hausdorff conditions are comparisons, not prerequisites.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/t1-space",
+        "topology/hausdorff-space"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "topology/separable-space",
+      "outcome": "corrected",
+      "source_sha256": "496a0bc78c1a85e137803c54af453c38c9a88ab204766498c61b2bfe45ac2660",
+      "evidence": "Separability is defined for arbitrary topological spaces; removed metric-space specialization from prerequisites and added the actual countable-set requirement.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/metric-space",
+        "topology/dense-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/dense-set",
+        "shared-foundations/countable-set"
+      ]
+    },
+    {
+      "id": "topology/quotient-topology",
+      "outcome": "corrected",
+      "source_sha256": "85297f127e902eb53a82e19d4abcd3965c024b70ca0d6a3635a77bd3cbe84ded",
+      "evidence": "Surjection, preimage and open-set criterion are mapped correctly. Clarified that a bijection with its transported quotient topology is automatically a homeomorphism, not an additional test.",
+      "previous_prerequisites": [
+        "shared-foundations/surjective-function",
+        "topology/topological-space",
+        "topology/open-set",
+        "shared-foundations/preimage"
+      ],
+      "prerequisites": [
+        "shared-foundations/surjective-function",
+        "topology/topological-space",
+        "topology/open-set",
+        "shared-foundations/preimage"
+      ]
+    },
+    {
+      "id": "topology/irreducible-space",
+      "outcome": "corrected",
+      "source_sha256": "54b4d8507e29fb698a623c2f73750f6d149e7e50ebc99168afa5c6f5355c1796",
+      "evidence": "The core is nonempty and not a union of two proper closed subsets. Moved equivalent criterion, induced-subspace extension and component notion after the core; no subspace dependency for irreducibility of a space itself.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/open-set",
+        "topology/closed-set",
+        "topology/subspace-topology"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "topology/locally-finite-family",
+      "outcome": "corrected",
+      "source_sha256": "22de5cef2997369e76728963287808ed82af05a7f98cc358e3741339518eed91",
+      "evidence": "Local finiteness explicitly quantifies over a neighborhood, missing from its direct mapping; indexed-family and topological-space inputs are appropriate.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/indexed-family-of-sets"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "shared-foundations/indexed-family-of-sets",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "topology/refinement-of-open-cover",
+      "outcome": "corrected",
+      "source_sha256": "e3b870ba0a29237301def82108ef9d6f3a3ee9a9cafe27b6ac826c5a75bc9040",
+      "evidence": "Refinement requires covering the same set; corrected example whose proposed refinement missed 0, 1/2 and 1. Removed basis-of-topology application prerequisite.",
+      "previous_prerequisites": [
+        "topology/open-cover",
+        "topology/basis-of-topology"
+      ],
+      "prerequisites": [
+        "topology/open-cover"
+      ]
+    },
+    {
+      "id": "topology/relatively-compact-set",
+      "outcome": "corrected",
+      "source_sha256": "b53f25a0fcd1a1501727bad7369aec3330fd229842ce0bae0a2affa73d6ba620",
+      "evidence": "Closure and compactness prerequisites are correct. Removed unqualified precompact synonym: total boundedness only guarantees compact closure in a complete ambient metric space.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/closure",
+        "topology/compact-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/closure",
+        "topology/compact-set"
+      ]
+    },
+    {
+      "id": "topology/topological-group",
+      "outcome": "corrected",
+      "source_sha256": "efb90cb207127fb567881ea3671da0998b0f84ad91ee82759b7e0a729b871c07",
+      "evidence": "Joint continuity of multiplication needs the topology on G×G; stated and linked product topology explicitly and added it as prerequisite.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "topology/topological-space",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/product-topology"
+      ]
+    },
+    {
+      "id": "topology/continuous-group-action",
+      "outcome": "corrected",
+      "source_sha256": "cf874c633259622d92e5bd8f95b9587d1ff01dcd8a310057bae1ea2f19f65b77",
+      "evidence": "Product-continuity mapping is right. Removed ambiguous equivalence with varying both arguments, which can be read as separate continuity; retained explicit joint continuity and moved consequences out of core.",
+      "previous_prerequisites": [
+        "topology/topological-group",
+        "topology/topological-space",
+        "algebra-groups/group-action",
+        "topology/continuous-map",
+        "topology/product-topology"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "topology/topological-space",
+        "algebra-groups/group-action",
+        "topology/continuous-map",
+        "topology/product-topology"
+      ]
+    },
+    {
+      "id": "topology/locally-compact-group",
+      "outcome": "corrected",
+      "source_sha256": "6f37d3ec22975b8699ee86de60d86aca1ac94e0107c9bf0fb2af42e173e8919a",
+      "evidence": "Definition correctly combines topological group and local compactness; removed repeated definitions of both ingredients from the core.",
+      "previous_prerequisites": [
+        "topology/topological-group",
+        "topology/locally-compact-space"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "topology/locally-compact-space"
+      ]
+    },
+    {
+      "id": "topology/t1-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dfa7b16373ceb6d53fe19ac67b4b5e3b9892bb02734f6654ac8f7250a22c67e5",
+      "evidence": "Closed singletons are a complete T1 definition. Stronger Hausdorff and weaker T0 comparisons correctly remain outside prerequisite metadata.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/closed-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "topology/totally-disconnected-space",
+      "outcome": "corrected",
+      "source_sha256": "eb3b04c235ccad60f7a38f9db1079ab5339f83c216eff07dab60e79a32ef396e",
+      "evidence": "Added the missing independent connected-subset definition required by locally profinite groups; does not depend on the group application or compact-open subgroup theorem."
+    },
+    {
+      "id": "topology/locally-profinite-group",
+      "outcome": "corrected",
+      "source_sha256": "2609ccac9e7235109ecee337c60f19627fef0f916cae5c38974c48928c9b4d8c",
+      "evidence": "Added the missing total-disconnectedness foundation. Moved van Dantzig equivalent characterization out of the minimal definition.",
+      "previous_prerequisites": [
+        "topology/topological-group",
+        "topology/locally-compact-group"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "topology/locally-compact-group",
+        "topology/hausdorff-space",
+        "topology/totally-disconnected-space"
+      ]
+    },
+    {
+      "id": "topology/boundary",
+      "outcome": "corrected",
+      "source_sha256": "51e285e9dcf92b0b8da7e041d54758783c64e34b470a84f62680ffc9950bfceb",
+      "evidence": "Boundary uses closure minus interior in an arbitrary topological space; replaced the unwarranted metric-space restriction.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/closure",
+        "topology/interior"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/closure",
+        "topology/interior"
+      ]
+    },
+    {
+      "id": "topology/hausdorff-distance",
+      "outcome": "corrected",
+      "source_sha256": "2ec31bc786c4b1be7d6f27d3083e55e81c8ed23de9d3b1dba751564292af3226",
+      "evidence": "The definition assumes compact subsets and uses supremum and infimum; added those missing direct definitions and specified the otherwise undefined epsilon-neighborhood notation.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "real-analysis/supremum",
+        "real-analysis/infimum"
+      ]
+    },
+    {
+      "id": "topology/open-ball",
+      "outcome": "corrected",
+      "source_sha256": "3376de833ca5b98e21cc7bc3f5f4571ac9c8bbccab4e6967c875ca44b3f91f64",
+      "evidence": "The metric inequality/construction and prerequisite boundary are correct; moved the induced-topology consequence out of the initial core.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/closed-ball",
+      "outcome": "corrected",
+      "source_sha256": "0813f0532cc58255a1aa7937034acda998b7cf85245bc895076336e07401b2a1",
+      "evidence": "The metric inequality/construction and prerequisite boundary are correct; moved the induced-topology consequence out of the initial core.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/metric-induced-topology",
+      "outcome": "corrected",
+      "source_sha256": "c03d45ffc5e63baa43cfd2b3f8bdd48c722bb8d954017139211bd87d00acee25",
+      "evidence": "The metric inequality/construction and prerequisite boundary are correct; moved the induced-topology consequence out of the initial core.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/topology"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/topology"
+      ]
+    },
+    {
+      "id": "topology/metric-sphere",
+      "outcome": "corrected",
+      "source_sha256": "eb84e97ec26f0d7aaeb52b1187638618af8e523c5115816f5e8f32a951943667",
+      "evidence": "The distance-equality definition includes radius zero; restricted the open-ball difference formula to positive radius since the linked open-ball definition requires r>0.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/bounded-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abf35754a023bac0b53ae6a927f34fd1ef97cf2edbb6fb29ad42ce45b87d0f65",
+      "evidence": "The open-ball containment definition handles the empty set explicitly, including an empty ambient space; diameter is only its later equivalent condition.",
+      "previous_prerequisites": [
+        "topology/open-ball"
+      ],
+      "prerequisites": [
+        "topology/open-ball"
+      ]
+    },
+    {
+      "id": "topology/diameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b07e2ce5ef18d52cedba8d8fcbeff7e1f5e27fcc5c01624daa8974290c0c4a3",
+      "evidence": "Metric distance and supremum define diameter, with explicit infinity and empty-set conventions; boundedness is the consequence, not a prerequisite.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "real-analysis/supremum"
+      ]
+    },
+    {
+      "id": "topology/equivalent-metrics",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c347f9d6629132cfe642e24bfeca4ce7b74fa0642f657f7d2900a1f91b9c069a",
+      "evidence": "Equality of induced topologies is the definition; homeomorphism is an equivalent test. The distinction from uniform equivalence correctly allows completeness to differ.",
+      "previous_prerequisites": [
+        "topology/metric-induced-topology"
+      ],
+      "prerequisites": [
+        "topology/metric-induced-topology"
+      ]
+    },
+    {
+      "id": "topology/isometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e55d0747e5b877fc91f97951830cfdf64e951ad0d1ceb2dc9c485261732ce3c5",
+      "evidence": "Distance preservation only needs metric spaces; surjectivity is not imposed, and the later bijective conclusion states it explicitly.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/holder-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e66cdf916649b07bb1ed2ca9c63efbc1967047e7296ab5d93be6cd8d7a49b72",
+      "evidence": "The global metric power bound specifies finite constant and exponent in (0,1]; Lipschitz and uniform continuity are consequences.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/lipschitz-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca01dfa88e0c6db804bdc5c6438d08176b6e18d52e9bafe2af3aa8792728fdc3",
+      "evidence": "The single finite global metric bound is complete. Uniform continuity and diameter comparisons are downstream results and absent from prerequisites.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "topology/finite-intersection-property",
+      "outcome": "corrected",
+      "source_sha256": "a0b509d3d8a78794a5e2fe830dce06a17b27e1929fbba28391433617abab886a",
+      "evidence": "Finite intersection property is set-theoretic, not dependent on closed sets or compactness. Stated ambient empty-intersection convention so the compactness equivalence includes the empty space consistently.",
+      "previous_prerequisites": [
+        "topology/closed-set",
+        "topology/compact-set"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/intersection"
+      ]
+    },
+    {
+      "id": "topology/lebesgue-number-lemma",
+      "outcome": "corrected",
+      "source_sha256": "8bebb6f3d8966755c0bc999833cadde476f89b63f9467141b377a1115160bcd7",
+      "evidence": "Fixed false same-scale equivalence: diameter and centered-ball formulations may require a factor-two change. Nonempty subsets avoids the empty-space/empty-cover exception. Core dependencies are appropriate.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/open-cover",
+        "topology/open-ball"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/open-cover",
+        "topology/open-ball"
+      ]
+    },
+    {
+      "id": "topology/compactness-of-graphs-lemma",
+      "outcome": "corrected",
+      "source_sha256": "c06378fdece82fb437ab55b15a0dfe85bbe8b6ea1e927bbea5406a282faa6c74",
+      "evidence": "Kept Hausdorff and closed-set definitions because the core explicitly includes closedness conclusion. Removed compact-Hausdorff closedness theorem and homeomorphism mentioned only as related uses; the graph closedness statement does not assume X Hausdorff.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "topology/product-topology",
+        "topology/compact-set",
+        "topology/hausdorff-space",
+        "topology/closed-set",
+        "topology/compact-subset-of-hausdorff-is-closed",
+        "topology/homeomorphism"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "topology/product-topology",
+        "topology/compact-set",
+        "topology/hausdorff-space",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "topology/heine-borel-theorem",
+      "outcome": "corrected",
+      "source_sha256": "224476a94a28f3849f1ef063a58b117ce86f0c65eedea522e63eb55a378c4bf3",
+      "evidence": "Finite-dimensional Euclidean ambient space is essential: closed and bounded is insufficient in general metric spaces. Added the Euclidean-space prerequisite.",
+      "previous_prerequisites": [
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/bounded-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/euclidean-space",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/bounded-set"
+      ]
+    },
+    {
+      "id": "topology/cantor-intersection-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c224e6d1cd27678775c9111c4532cd28da19b5e939955ea8e8179e158d7007d0",
+      "evidence": "Nested nonempty closed sets, completeness and shrinking diameter are all explicit, and the three input definitions match; nested intervals are a specialization not an input.",
+      "previous_prerequisites": [
+        "topology/complete-metric-space",
+        "topology/closed-set",
+        "topology/diameter"
+      ],
+      "prerequisites": [
+        "topology/complete-metric-space",
+        "topology/closed-set",
+        "topology/diameter"
+      ]
+    },
+    {
+      "id": "topology/finite-intersection-property-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a843e8bfc9358318e6fccc0f1c9cbef77710abb08f5645f30299b9854212ea5",
+      "evidence": "The theorem correctly uses closed sets relative to K, not ambient X, and the revised ambient empty-intersection convention makes it valid for empty K as well.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/subspace-topology",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/finite-intersection-property",
+        "topology/open-cover"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/subspace-topology",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/finite-intersection-property",
+        "topology/open-cover"
+      ]
+    },
+    {
+      "id": "topology/nested-interval-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6541173357f51bbe647155d2eb3ac0816f1581721c315b90e8afbe29e89ba27f",
+      "evidence": "Nonempty bounded closed intervals are explicit; supremum/infimum identify the intersection. General compactness and Cantor are explanatory proof routes rather than prerequisite assumptions.",
+      "previous_prerequisites": [
+        "real-analysis/interval",
+        "real-analysis/supremum",
+        "real-analysis/infimum"
+      ],
+      "prerequisites": [
+        "real-analysis/interval",
+        "real-analysis/supremum",
+        "real-analysis/infimum"
+      ]
+    },
+    {
+      "id": "topology/bolzano-weierstrass-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "963678b0aeae8e0ee10b0ee5e9731a10d2aa19e10b6fd5c83567519dfc04924f",
+      "evidence": "Euclidean-space restriction, boundedness, subsequence and convergence are all directly mapped; Heine-Borel is contextual and not an assumed input.",
+      "previous_prerequisites": [
+        "linear-algebra/euclidean-space",
+        "topology/bounded-set",
+        "real-analysis/subsequence",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "linear-algebra/euclidean-space",
+        "topology/bounded-set",
+        "real-analysis/subsequence",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "topology/continuity-via-open-sets",
+      "outcome": "corrected",
+      "source_sha256": "7529a09647b0a63179253aa2df4c2b474499bdc900c20eedd72fa18bf370a715",
+      "evidence": "This theorem identifies epsilon-delta continuity with open preimages; added continuity-at-a-point and removed the composition application prerequisite.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/open-set",
+        "real-analysis/preimage-inverse-image",
+        "shared-foundations/composition-of-functions"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/open-set",
+        "real-analysis/preimage-inverse-image",
+        "real-analysis/continuity-at-a-point"
+      ]
+    },
+    {
+      "id": "topology/convergence-in-product-metric-spaces",
+      "outcome": "corrected",
+      "source_sha256": "1948d395e26eb1c15f142f2a47eede901c70f3b641d34261ffce167a62935807",
+      "evidence": "The core states both convergence and Cauchy criteria; convergence was missing while Cauchy was present. Added the actual convergence definition.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "shared-foundations/cartesian-product",
+        "topology/cauchy-sequence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "shared-foundations/cartesian-product",
+        "topology/cauchy-sequence",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "topology/convergent-sequence-is-cauchy",
+      "outcome": "corrected",
+      "source_sha256": "3076b15d26f2c055bd13d96525e0ef26f0e1429cda59a7f46b5ed40682afe0ff",
+      "evidence": "Convergence implies Cauchy in every metric space; completeness belongs only to the converse comparison and is not an input.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/convergent-sequence",
+        "topology/cauchy-sequence",
+        "topology/complete-metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/convergent-sequence",
+        "topology/cauchy-sequence"
+      ]
+    },
+    {
+      "id": "topology/connected-subsets-of-r-are-intervals",
+      "outcome": "corrected",
+      "source_sha256": "a98c4dcf5e661ce53eb6b5664c0a6dde7417f351096f7fd47d061fee7f1cae63",
+      "evidence": "Continuous-image preservation is a later use of this classification, not required by its interval statement.",
+      "previous_prerequisites": [
+        "topology/connected-set",
+        "real-analysis/interval",
+        "topology/continuous-image-of-connected-set-is-connected"
+      ],
+      "prerequisites": [
+        "topology/connected-set",
+        "real-analysis/interval"
+      ]
+    },
+    {
+      "id": "topology/derived-set",
+      "outcome": "corrected",
+      "source_sha256": "9e20d5b51098a32e91c08c31b6debcb3c24c171ebe883857cc87a70285f22d28",
+      "evidence": "Definition uses limit points/neighborhoods, while the closure identity is a subsequent relationship. Removed closure as a prerequisite and expanded it later.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/limit-point",
+        "topology/closure"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/limit-point"
+      ]
+    },
+    {
+      "id": "topology/limit-point",
+      "outcome": "corrected",
+      "source_sha256": "796c146565d5d0e1a64360d9667eeca4406093639c0bfa7388d297a5799ec819",
+      "evidence": "Definition uses limit points/neighborhoods, while the closure identity is a subsequent relationship. Removed closure as a prerequisite and expanded it later.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/neighborhood",
+        "topology/closure"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "topology/image-compact-connected-is-interval",
+      "outcome": "corrected",
+      "source_sha256": "4a63cab5ff9ff42023bf22b4d014ae84e3719d8f938b1b04f866bb95060876d5",
+      "evidence": "Added interval as the actual output concept. The stated proof combines compact-image, connected-image and real connected-set classification, so those three theorem dependencies are retained explicitly.",
+      "previous_prerequisites": [
+        "topology/compact-set",
+        "topology/connected-set",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "topology/compact-set",
+        "topology/connected-set",
+        "topology/continuous-map",
+        "real-analysis/interval",
+        "topology/continuous-image-of-compact-set-is-compact",
+        "topology/continuous-image-of-connected-set-is-connected",
+        "topology/connected-subsets-of-r-are-intervals"
+      ]
+    },
+    {
+      "id": "topology/open-sets-form-a-topology",
+      "outcome": "corrected",
+      "source_sha256": "1db701c4fc6c4ba3e97de0c2238ac7bb5f8d35a111b516da85a6c2d2d0f8b104",
+      "evidence": "Replaced circular appeal to already topologically open sets by the metric-ball condition, then explicitly verified the topology axioms. Inputs are metric space, open ball and topology definition.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/open-set",
+        "topology/metric"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/topology"
+      ]
+    },
+    {
+      "id": "topology/cauchy-sequence-is-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f33a7407c9399a5910ed14acc28cd3e9b8e7094bbafdf9cb9c367093f18c0027",
+      "evidence": "Metric space, Cauchy condition and boundedness are exactly the stated assumption and conclusion; no completeness is assumed.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/cauchy-sequence",
+        "topology/bounded-set"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/cauchy-sequence",
+        "topology/bounded-set"
+      ]
+    },
+    {
+      "id": "topology/closed-sets-are-complements-of-open-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60380b52807f249dbc6f86f19a3354b14629239a3e5d635ab3a9ac63fbce04d2",
+      "evidence": "The definition and closed-set closure properties use topological space/open/closed definitions; later limit-point discussion adds no prerequisites.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/closed-set",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/closed-set",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "topology/compactness-implies-boundedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "841b4b2b48e8c923190e9277c2db656c58ff3f285ab48ba0d17a649831ff3b4f",
+      "evidence": "Metric compactness implies boundedness and finite diameter as stated, with correct input and output concept mappings.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/bounded-set",
+        "topology/diameter"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "topology/bounded-set",
+        "topology/diameter"
+      ]
+    },
+    {
+      "id": "topology/compactness-implies-closedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53887859b29c9a3f6fad7519a8ff6659e547f417537818134159f67204a33f9c",
+      "evidence": "Hausdorffness is explicitly assumed and necessary for the compact-implies-closed result. This duplicates another theorem but current mapping is mathematically sound.",
+      "previous_prerequisites": [
+        "topology/hausdorff-space",
+        "topology/compact-set",
+        "topology/closed-set"
+      ],
+      "prerequisites": [
+        "topology/hausdorff-space",
+        "topology/compact-set",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "topology/sequential-characterization-closed",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70418de332eeade2318a413b6da3a3846e874a8bbd57c51c4c12754f529d5da4",
+      "evidence": "Metric restriction makes sequential closedness equivalent to closedness; the ambient limit is explicitly in X and need not initially lie in A.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/closed-set",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/closed-set",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "topology/sequential-characterization-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5dd5292ba612a64886620e4f3b202b50940e6a6ec93062c4024203d8f230fea",
+      "evidence": "Metric restriction is explicit, making approximation by sequences valid, including the empty-set case; convergence and closure are the mapped definitions.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/closure",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/closure",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "topology/uniqueness-of-limits-hausdorff",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eb3b103c582110d82476b036544a5c82ab8db8a16f409c67c2ea96311a0d91e",
+      "evidence": "Hausdorff plus convergence supply the proof by disjoint neighborhoods; no metric assumption appears, correctly.",
+      "previous_prerequisites": [
+        "topology/hausdorff-space",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "topology/hausdorff-space",
+        "topology/convergent-sequence"
+      ]
+    },
+    {
+      "id": "topology/finite-intersection-property-theorem",
+      "outcome": "corrected",
+      "source_sha256": "d4aeb3d00e27674833525587bb8c88a05809c317375a22b07c1e14749c2371ca",
+      "evidence": "Independent cross-review confirmed the theorem; removed open-cover listed only as a comparison to the alternate definition, already supplied transitively by compactness.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/subspace-topology",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/finite-intersection-property",
+        "topology/open-cover"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/subspace-topology",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/finite-intersection-property"
+      ]
+    },
+    {
+      "id": "real-analysis/continuity-on-a-set",
+      "outcome": "corrected",
+      "source_sha256": "4f759a5f3c6b9a8339e043b95002cba7ee3abe0ed782d8faf713e5880726bb63",
+      "evidence": "Target audit caught incorrect unrestricted preimage in the subspace criterion. Use restriction preimage A∩f⁻¹(V), and explicitly require the sequential limit to lie in A.",
+      "previous_prerequisites": [
+        "real-analysis/continuity-at-a-point"
+      ],
+      "prerequisites": [
+        "real-analysis/continuity-at-a-point"
+      ]
+    },
+    {
+      "id": "topology/closed-manifold",
+      "outcome": "corrected",
+      "source_sha256": "5d3304acc88349b0e9aa3c8f3af7933f54b497da03060fa68985c0abdbd71971",
+      "evidence": "Closed topological manifold requires compactness, not smooth structure. Added compact-set and moved smooth specialization later; qualified the Euclidean/disk examples by positive dimension.",
+      "previous_prerequisites": [
+        "topology/topological-manifold",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "topology/topological-manifold",
+        "topology/compact-set"
+      ]
+    },
+    {
+      "id": "topology/homotopy-sphere",
+      "outcome": "corrected",
+      "source_sha256": "38c2a2c34c092ebb47418f7da0b56b0fd7678accf6038a502ed6d473969a7443",
+      "evidence": "Topological homotopy sphere only requires closed manifold, sphere and homotopy equivalence. Removed smooth-manifold/diffeomorphism prerequisites used only in the separate smooth/exotic discussion.",
+      "previous_prerequisites": [
+        "topology/closed-manifold",
+        "topology/topological-manifold",
+        "topology/homotopy-equivalence",
+        "topology/metric-sphere",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "topology/closed-manifold",
+        "topology/topological-manifold",
+        "topology/homotopy-equivalence",
+        "topology/metric-sphere"
+      ]
+    },
+    {
+      "id": "topology/reduced-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5499c5862d666e2b71d6f1be9bbd44b2a67b1aeb394b5f71525648f4f859e1a6",
+      "evidence": "Nonempty X makes constants embed in H0. The quotient-by-constants core works without connectedness or basepoint, and the augmented/relative descriptions are later constructions. Prerequisites match.",
+      "previous_prerequisites": [
+        "topology/singular-cohomology-group",
+        "topology/topological-space",
+        "algebra-groups/abelian-group",
+        "algebra-groups/quotient-group"
+      ],
+      "prerequisites": [
+        "topology/singular-cohomology-group",
+        "topology/topological-space",
+        "algebra-groups/abelian-group",
+        "algebra-groups/quotient-group"
+      ]
+    },
+    {
+      "id": "topology/cup-product-and-cohomology-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "167b6130f31ce03011a874f529ee42cf8c912a9215bf78d55f688d72cb71df4d",
+      "evidence": "Commutative coefficient ring, singular cohomology and graded module supply the product/ring construction; front/back face multiplication is specified and expanded into the cochain formula. Graded commutativity and examples are consequences.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "algebra-rings/commutative-ring",
+        "topology/singular-cohomology-group",
+        "algebra-modules/graded-module"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "algebra-rings/commutative-ring",
+        "topology/singular-cohomology-group",
+        "algebra-modules/graded-module"
+      ]
+    },
+    {
+      "id": "linear-algebra/bilinear-form",
+      "outcome": "corrected",
+      "source_sha256": "122cf98722c8a715834375789c75ee22c4e6ec47df725c2e7667cdaa884b58c9",
+      "evidence": "Linear-in-each-slot definition is correct. Qualified inner-product example as real: complex inner products are sesquilinear, not bilinear.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "linear-algebra/symplectic-form",
+      "outcome": "corrected",
+      "source_sha256": "7964605c58a1d437f06d423e52f5b05e7678a883e38debbff1bb2ddb78030edf",
+      "evidence": "The core explicitly requires a bilinear form, so added that direct prerequisite; real scalars justify equivalence of skew-symmetry and alternation.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "linear-algebra/signature-of-symmetric-bilinear-form",
+      "outcome": "corrected",
+      "source_sha256": "ffd518fca6e996e571c4f6b77966abfb2e552f88adf5c6da1ff82470df1182fd",
+      "evidence": "Definition counts signs of a symmetric bilinear form in a basis. Quadratic form appears only in the later association and is not required.",
+      "previous_prerequisites": [
+        "linear-algebra/bilinear-form",
+        "linear-algebra/vector-space",
+        "linear-algebra/quadratic-form",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/bilinear-form",
+        "linear-algebra/vector-space",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra/complexification",
+      "outcome": "corrected",
+      "source_sha256": "c7c21b023d74ab791445378504cfad087828f5801c8779f12ee85ac10d7b461a",
+      "evidence": "Scalar extension/restriction defines the object; moved coordinates and dimension consequence beyond the minimal core. Existing scalar/vector-space inputs are appropriate. Integration removed trailing whitespace only.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "algebra-modules/tensor-product",
+        "shared-foundations/real-numbers",
+        "shared-foundations/complex-numbers-c"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "algebra-modules/tensor-product",
+        "shared-foundations/real-numbers",
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "linear-algebra/realification-of-a-complex-vector-space",
+      "outcome": "corrected",
+      "source_sha256": "b5c5fe23b10f58d54a9aa45cfefee56c75af36e79db0c80c953d4d89560ba6ea",
+      "evidence": "Scalar extension/restriction defines the object; moved coordinates and dimension consequence beyond the minimal core. Existing scalar/vector-space inputs are appropriate. Integration removed trailing whitespace only.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "linear-algebra/semilinear-map",
+      "outcome": "corrected",
+      "source_sha256": "9d198791258f28b694c5a94299543030de27258e9c6e882591418631165c5a12",
+      "evidence": "The general scalar twist is a field homomorphism, not necessarily an automorphism. Mapped the general field-embedding definition and made the inverse statement explicitly assume an automorphism.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "algebra-fields-galois/field-automorphism"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "algebra-fields-galois/field-embedding"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/field-embedding",
+      "outcome": "corrected",
+      "source_sha256": "c15ec9aafcf85a60b1f4726c8285d57807f6280da33a3277bbb256a9d1c1245f",
+      "evidence": "Target review found bijection into a different field incorrectly called an automorphism. Corrected to isomorphism unless codomain equals domain; moved base extension variant out of core and removed its application prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/field-automorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/ring-homomorphism"
+      ]
+    },
+    {
+      "id": "linear-algebra/quadratic-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9ad11c12eb5c08bea30c9dd8c6f4c3b7873ea5032a90a1c0b0cc350a101aa95",
+      "evidence": "Homogeneity and bilinear polarization define quadratic forms in arbitrary characteristic; characteristic-two caveats are correctly separated.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "algebra-rings/field",
+        "linear-algebra/bilinear-form"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "algebra-rings/field",
+        "linear-algebra/bilinear-form"
+      ]
+    },
+    {
+      "id": "linear-algebra/linear-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3b00c908f42b664ef3e8c194a68d5d42343c68c5bdb501bb5d73fcc97f474d2",
+      "evidence": "The convention is explicitly endomorphism V→V and requires only linear map; general maps are handled by the latter knowl.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "linear-algebra/rank",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d264b60f6e717e1621e9b53779fcee31a9e51fe2f8f563df88cde34782cdfb94",
+      "evidence": "Image dimension is the core definition and matches linear-map/image/basis prerequisites; matrix and rank-nullity formulas are later elaborations.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map",
+        "shared-foundations/image",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "shared-foundations/image",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra/rank-nullity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1cceee56a7947a68fa23ff317cc6d1e7a95d55c702b402957003e5e65e18eef3",
+      "evidence": "Finite-dimensional linear map, kernel/image and dimension supply the stated identity. W could be arbitrary, but the stronger stated hypothesis is valid and no new prerequisite is needed.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map",
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "topology/continuous-image-of-compact-set-is-compact",
+      "outcome": "corrected",
+      "source_sha256": "83d4b715504b2ef3e39dd9237d3416777106dedd364afb58a25bcce72353e432",
+      "evidence": "Rechecked after canonicalizing links to the merged extreme-value theorem; mathematical statement and prerequisite meaning preserved.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "topology/topological-space",
+        "topology/compact-set"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "topology/topological-space",
+        "topology/compact-set"
+      ]
+    },
+    {
+      "id": "topology/image-compact-connected-is-interval",
+      "outcome": "corrected",
+      "source_sha256": "508e391631d9a91aa694c6d79173986a40573b99ef840e75b034983ae24ecac4",
+      "evidence": "Rechecked after canonicalizing links to the merged extreme-value theorem; mathematical statement and prerequisite meaning preserved.",
+      "previous_prerequisites": [
+        "topology/compact-set",
+        "topology/connected-set",
+        "topology/continuous-map",
+        "real-analysis/interval",
+        "topology/continuous-image-of-compact-set-is-compact",
+        "topology/continuous-image-of-connected-set-is-connected",
+        "topology/connected-subsets-of-r-are-intervals"
+      ],
+      "prerequisites": [
+        "topology/compact-set",
+        "topology/connected-set",
+        "topology/continuous-map",
+        "real-analysis/interval",
+        "topology/continuous-image-of-compact-set-is-compact",
+        "topology/continuous-image-of-connected-set-is-connected",
+        "topology/connected-subsets-of-r-are-intervals"
+      ]
+    },
+    {
+      "id": "linear-algebra/eigenvalue",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b0911254bb075d2d4ae3bbd2ce456552c8e49bdb3c0d97af874b3576f68790b",
+      "evidence": "Nonzero eigenvector existence is required; linear-operator supplies the scalar/vector setup, and characteristic polynomial is only a finite-dimensional consequence.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-operator"
+      ]
+    },
+    {
+      "id": "linear-algebra/eigenvector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d2100561cc25e31a559fa9645e53cda371caec6b2959df33042aa3034769a50",
+      "evidence": "The nonzero requirement and scalar equation define eigenvectors independently of a separate eigenvalue entry, avoiding a conceptual cycle.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-operator"
+      ]
+    },
+    {
+      "id": "linear-algebra/eigenspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ecfc30cde55e40df8e937651f95db9a1a0dcec19e7153542f31280dea412feb",
+      "evidence": "The kernel-equivalent set is defined for every scalar, allowing zero eigenspace when not an eigenvalue; linear operator suffices.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-operator"
+      ]
+    },
+    {
+      "id": "linear-algebra/cayley-hamilton-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db730f7d53f8364e3713426af5280fbf3f94e8fce68284223b647deb04f24729",
+      "evidence": "Finite-dimensional operator and its characteristic polynomial are the theorem inputs; minimal polynomial is a consequence.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/characteristic-polynomial"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/characteristic-polynomial"
+      ]
+    },
+    {
+      "id": "linear-algebra/trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b313e8e4d284bb27477aaa700ed76134bf6c283a409eb3a316274077f5df03a8",
+      "evidence": "Matrix diagonal sum and basis-independent finite-dimensional operator extension are both in the core, matching matrix/operator/basis metadata.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/matrix",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/matrix",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra/determinant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f129bc4fbe7d0b790d1efc99f6fe40084cccb7941cf44e34021dbf951b90713d",
+      "evidence": "Leibniz permutation sum uses matrix, field, finite permutations and permutation sign; characteristic polynomial and operator extension are later constructions.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "linear-algebra/matrix",
+        "shared-foundations/finite-permutation",
+        "shared-foundations/permutation-sign"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "linear-algebra/matrix",
+        "shared-foundations/finite-permutation",
+        "shared-foundations/permutation-sign"
+      ]
+    },
+    {
+      "id": "linear-algebra/matrix",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ce0395c4344fc0be4ac3efc9e7fe4fa7a3d03dda00c5f6bb39088aa283e787a",
+      "evidence": "Rectangular array and index notation are explicit, and ring prerequisite supplies the later arithmetic operations. No linear-operator prerequisite is imposed.",
+      "previous_prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring"
+      ]
+    },
+    {
+      "id": "linear-algebra/minimal-polynomial",
+      "outcome": "corrected",
+      "source_sha256": "0c5ceef5c941230f6863cb2e4181deb54bd0af703e2f02d3a0fd9013402e7d06",
+      "evidence": "Added polynomial-ring and dimension prerequisites needed by monic least-degree annihilator. Corrected identity example for the zero vector space, whose minimal polynomial is 1.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-operator",
+        "algebra-rings/polynomial-ring",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra/characteristic-polynomial",
+      "outcome": "corrected",
+      "source_sha256": "aceb892c38db8d3f614fd8036cdceb3556cc38c9f0403f3bf0718c5082c9b5f8",
+      "evidence": "Finite-dimensional determinant definition and prerequisites are correct. Clarified that roots outside the base field are eigenvalues after scalar extension, not eigenvalues of the original base-field operator.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/matrix",
+        "linear-algebra/determinant",
+        "algebra-rings/polynomial-ring",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/matrix",
+        "linear-algebra/determinant",
+        "algebra-rings/polynomial-ring",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra/closed-linear-subspace",
+      "outcome": "corrected",
+      "source_sha256": "f12936dd14661821c59ce7fd44a157ba176d1a9b8cf50d9d892b9268f2899ce1",
+      "evidence": "Closed subspace is defined in any normed space, without Banach/Hilbert completeness. Mapped closed-set directly and removed the later completeness/projection application dependencies.",
+      "previous_prerequisites": [
+        "convex-analysis/linear-subspace",
+        "linear-algebra/normed-vector-space",
+        "linear-algebra/banach-space",
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/linear-subspace",
+        "linear-algebra/normed-vector-space",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "linear-algebra/orthogonal-complement",
+      "outcome": "corrected",
+      "source_sha256": "0e759becd5981dfea7345fa09a67bf99e2f31a7d0710ccdb894ed062ce152c22",
+      "evidence": "The orthogonality set is defined in an arbitrary inner-product space. Closedness and Hilbert projection are consequences; removed those prerequisites and made linearity of M explicit in the decomposition theorem.",
+      "previous_prerequisites": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/closed-linear-subspace",
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/inner-product-space"
+      ]
+    },
+    {
+      "id": "linear-algebra/orthogonal-projection",
+      "outcome": "corrected",
+      "source_sha256": "28743ba9651f780b944a7a24cbaee25ad473d8a3a92d7720cf1cdabf961129cb",
+      "evidence": "Projection is defined using M-perp, so added orthogonal complement after removing its reversed Hilbert dependency. Moved self-adjoint operator characterization after core.",
+      "previous_prerequisites": [
+        "linear-algebra/closed-linear-subspace",
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/closed-linear-subspace",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthogonal-complement"
+      ]
+    },
+    {
+      "id": "linear-algebra/orthonormal-basis",
+      "outcome": "corrected",
+      "source_sha256": "90bb63e8a2aee168818674bfa791a8214590e73cddcfe9f3d82cb176002dbc02",
+      "evidence": "Added closure and linear span required by the Hilbert basis definition. Corrected expansion coefficients to match the first-linear inner-product convention; the prior conjugated coefficient gives wrong complex vectors.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "topology/closure",
+        "convex-analysis/subspace-generated-by-a-set-span"
+      ]
+    },
+    {
+      "id": "linear-algebra/cauchy-schwarz-inequality",
+      "outcome": "corrected",
+      "source_sha256": "450fb1516452b0e5a0a97df7fa985b8598e33675deca60dacafdb53644c4d4e1",
+      "evidence": "The core includes its equality criterion, which uses linear dependence; added that missing definition.",
+      "previous_prerequisites": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/norm"
+      ],
+      "prerequisites": [
+        "linear-algebra/inner-product-space",
+        "linear-algebra/norm",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra/unit-sphere",
+      "outcome": "corrected",
+      "source_sha256": "7a3926819fd7edc20c4f84b465ee9b3d3bac23cbeb26daeaced385584c3172a7",
+      "evidence": "Norm-one level set is the full definition; boundary, shape and radial decomposition are consequences now expandable.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space"
+      ]
+    },
+    {
+      "id": "linear-algebra/surjective-linear-isometry",
+      "outcome": "corrected",
+      "source_sha256": "f24cb7ab3a23faed9c40bf485fab8766c7511dbdf4c0767f2c0cae7d092fc44e",
+      "evidence": "Surjective norm-preserving linear map is a complete core; moved derived injectivity/inverse and group statements after a heading.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "linear-algebra/linear-map",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "linear-algebra/linear-map",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "linear-algebra/orthogonality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f43b1008d906e44aa9d3ef2656d0df5bef256040fdfd28b9cf04add5693a6c58",
+      "evidence": "Zero inner product defines the relation and examples agree; norm and Cauchy-Schwarz are later consequences, appropriately absent as prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/inner-product-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/inner-product-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-fiber-bundle",
+      "outcome": "corrected",
+      "source_sha256": "7eb8d45935a2ed87fca8a091912f9cc2ad5f51ad4f235972ce0a208c92ec70aa",
+      "evidence": "Verified smooth surjection plus local product diffeomorphisms supplies the submersion property; removed the reversed fibered-manifold input. Moved terminology and consequences after the complete definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/diffeomorphism",
+        "topology/open-set",
+        "shared-foundations/preimage",
+        "shared-foundations/cartesian-product",
+        "differential-geometry/product-manifold",
+        "shared-foundations/composition",
+        "shared-foundations/restriction-of-a-function"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/diffeomorphism",
+        "topology/open-set",
+        "shared-foundations/preimage",
+        "shared-foundations/cartesian-product",
+        "differential-geometry/product-manifold",
+        "shared-foundations/composition",
+        "shared-foundations/restriction-of-a-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/local-trivialization",
+      "outcome": "corrected",
+      "source_sha256": "6e21540e3ab14e7fb54396ee575999eb95f52d7b7fca118f2f0b46288652d8f6",
+      "evidence": "Verified bundle-compatible global diffeomorphism is required; fiberwise diffeomorphisms alone are only a consequence. Moved atlas and principal-bundle applications out of the core.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/typical-fiber",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/typical-fiber",
+      "outcome": "corrected",
+      "source_sha256": "ba53f49a153ea13282c36bdf6e29d32761f67bd07dfa542be6cb7285137587ab",
+      "evidence": "Model fiber is specified by local products. Qualified uniqueness up to diffeomorphism by nonempty base; over the empty base any model works.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-manifold"
+      ]
+    },
+    {
+      "id": "fiber-bundles/dual-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "073389c3376d5919d1c0627af5936a5395ad2b5f7ae6f6f16183ce6c8913fa49",
+      "evidence": "Verified real/complex algebraic dual fibers and induced local trivializations define the bundle. Dual morphisms are functoriality, not prerequisites, and now unfold later.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/local-trivialization"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/local-trivialization"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pullback-of-differential-forms",
+      "outcome": "corrected",
+      "source_sha256": "3f0e21114e2852bb54827d357e1449299e0dba636022c9870f34593b1142f1e9",
+      "evidence": "Checked the actual pullback formula: smooth map, differential form and differential suffice. Removed one-form specialization as prerequisite and placed all compatibility/cohomology properties after the core.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/pullback-of-covectors"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/cotangent-bundle",
+      "outcome": "corrected",
+      "source_sha256": "9495cff7ef8cc83b853209ce003cd45a4b2c3a805ae5cd50dcaffe37f6e735cd",
+      "evidence": "The dual tangent bundle supplies the complete smooth vector-bundle structure. Replaced the long initial chart construction by this exact definition and retained the construction in an expandable section.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/dual-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/dual-vector-bundle"
+      ]
+    },
+    {
+      "id": "linear-algebra/surjective-linear-isometry",
+      "outcome": "corrected",
+      "source_sha256": "5b8cf5594d50568bd9e16b75b62df34aeb532e7363e6708610dd74cca086a07b",
+      "evidence": "Rechecked the norm-preserving surjection definition after removing trailing whitespace from the paragraph split.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "linear-algebra/linear-map",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "linear-algebra/linear-map",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg",
+      "outcome": "corrected",
+      "source_sha256": "0abfed35d1d7300219f467126fe9bba408db4d5dc134202ef3adfcc33aa9704d",
+      "evidence": "The theorem had only setup in the initial expansion. Moved the actual transformation law into the minimal core, made general adjoint versus matrix notation explicit, and replaced the abbreviated calculation by the horizontal/equivariant principal-curvature proof with its prerequisite.",
+      "previous_prerequisites": [
+        "fiber-bundles/local-curvature-formula-f-da-aa",
+        "fiber-bundles/local-connection-1-form",
+        "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg"
+      ],
+      "prerequisites": [
+        "fiber-bundles/local-curvature-formula-f-da-aa",
+        "fiber-bundles/local-connection-1-form",
+        "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg",
+      "outcome": "corrected",
+      "source_sha256": "085cd8992271c7f6bd0e0dbb7f18c951284147d3d7fd2bd2f4a19872be1c4182",
+      "evidence": "Verified horizontal/equivariant curvature and section pullback against Marsh §5.4 and added a reference for the geometric proof.",
+      "previous_prerequisites": [
+        "fiber-bundles/local-curvature-formula-f-da-aa",
+        "fiber-bundles/local-connection-1-form",
+        "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/local-curvature-formula-f-da-aa",
+        "fiber-bundles/local-connection-1-form",
+        "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ]
+    }
+  ]
+}

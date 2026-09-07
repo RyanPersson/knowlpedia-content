@@ -7,14 +7,11 @@ aliases = ["topological-space", "Topological space"]
 domains = ["topology"]
 legacy_source_path = "topology/topological-space.md"
 prerequisites = ["shared-foundations/ordered-pair", "shared-foundations/set", "topology/topology"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **topological space** is an [[shared-foundations/ordered-pair|ordered pair]] \((X,\mathcal{T})\) where \(X\) is a [[shared-foundations/set|set]] and \(\mathcal{T}\subseteq \mathcal{P}(X)\) is a [[topology/topology|topology]] on \(X\), meaning:
-- \(\varnothing\in\mathcal{T}\) and \(X\in\mathcal{T}\),
-- if \(\{U_i\}_{i\in I}\subseteq\mathcal{T}\) then \(\bigcup_{i\in I}U_i\in\mathcal{T}\),
-- if \(U,V\in\mathcal{T}\) then \(U\cap V\in\mathcal{T}\).
+A **topological space** is an [[shared-foundations/ordered-pair|ordered pair]] \((X,\mathcal{T})\) where \(X\) is a [[shared-foundations/set|set]] and \(\mathcal{T}\subseteq \mathcal{P}(X)\) is a [[topology/topology|topology]] on \(X\).
 
 ## Constructions
 

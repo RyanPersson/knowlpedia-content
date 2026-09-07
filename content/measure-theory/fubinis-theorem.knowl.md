@@ -6,7 +6,7 @@ summary = "Interchange of iterated integrals for absolutely integrable functions
 aliases = ["fubinis-theorem", "Fubini's theorem"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/fubinis-theorem.md"
-prerequisites = ["measure-theory/l1-function", "measure-theory/product-measure", "measure-theory/lebesgue-integral"]
+prerequisites = ["measure-theory/l1-function", "measure-theory/product-measure", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

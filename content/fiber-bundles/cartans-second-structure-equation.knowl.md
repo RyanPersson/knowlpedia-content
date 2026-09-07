@@ -6,7 +6,7 @@ summary = "On the frame bundle, the curvature form is given by d omega plus one 
 aliases = ["cartans-second-structure-equation", "Cartan's second structure equation (curvature) in the frame bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/cartans-second-structure-equation.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "lie-groups/lie-algebra"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/exterior-derivative", "fiber-bundles/wedge-product-of-differential-forms", "lie-groups/lie-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,7 @@ Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifol
 
 ## Statement (frame bundle formulation)
 
-The [[fiber-bundles/curvature|curvature]] of \(\omega\) is the \(\mathfrak{gl}(n,\mathbb{R})\)-valued \(2\)-form \(\Omega\in\Omega^2(F(M);\mathfrak{gl}(n,\mathbb{R}))\) defined by
+The [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] of \(\omega\) is the \(\mathfrak{gl}(n,\mathbb{R})\)-valued \(2\)-form \(\Omega\in\Omega^2(F(M);\mathfrak{gl}(n,\mathbb{R}))\) defined by
 \[
 \Omega \;:=\; d\omega \;+\;\tfrac12[\omega\wedge\omega].
 \]

@@ -6,9 +6,9 @@ summary = "A real form of a complex semisimple Lie algebra whose Killing form is
 aliases = ["compact real form", "compact form of a complex Lie algebra"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/lie-subalgebra", "lie-groups/killing-form", "lie-groups/lie-algebra", "fiber-bundles/lie-group"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/lie-subalgebra", "lie-groups/killing-form", "lie-groups/lie-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 Let \(\mathfrak g\) be a finite-dimensional complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]. A real [[lie-groups/lie-subalgebra|Lie subalgebra]] \(\mathfrak u\subset\mathfrak g\) is a **compact real form** of \(\mathfrak g\) if

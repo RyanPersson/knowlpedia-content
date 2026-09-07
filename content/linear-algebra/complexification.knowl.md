@@ -7,15 +7,19 @@ aliases = ["complexification of a real vector space", "complexified vector space
 domains = ["linear-algebra"]
 section_mode = "progressive"
 prerequisites = ["linear-algebra/vector-space", "algebra-modules/tensor-product", "shared-foundations/real-numbers", "shared-foundations/complex-numbers-c"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(V\) be a real [[linear-algebra/vector-space|vector space]]. Its **complexification** is the complex vector space
 \[
 V_{\mathbb C}:=V\otimes_{\mathbb R}\mathbb C,
 \]
-formed as an [[algebra-modules/tensor-product|algebraic tensor product]] by extending scalars from the [[shared-foundations/real-numbers|real numbers]] to the [[shared-foundations/complex-numbers-c|complex numbers]]. The canonical real-linear map \(V\to V_{\mathbb C}\) sends \(v\) to \(v\otimes1\). Every element has a unique expression
+formed as an [[algebra-modules/tensor-product|algebraic tensor product]] by extending scalars from the [[shared-foundations/real-numbers|real numbers]] to the [[shared-foundations/complex-numbers-c|complex numbers]].
+
+## Canonical embedding and coordinates
+
+The canonical real-linear map \(V\to V_{\mathbb C}\) sends \(v\) to \(v\otimes1\). Every element has a unique expression
 \[
 v\otimes1+w\otimes i,
 \qquad v,w\in V,

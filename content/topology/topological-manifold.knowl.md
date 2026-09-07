@@ -5,11 +5,15 @@ kind = "knowl"
 summary = "A Hausdorff, second-countable space locally homeomorphic to a fixed Euclidean space."
 aliases = ["topological manifold", "topological n-manifold"]
 domains = ["topology", "fiber-bundles"]
-prerequisites = ["topology/topological-space", "topology/homeomorphism", "topology/hausdorff-space"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "topology/homeomorphism", "topology/hausdorff-space", "topology/second-countable-space"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-An **\(n\)-dimensional topological manifold** is a Hausdorff, second-countable [[topology/topological-space|topological space]] \(M\) such that every point has an open neighborhood [[topology/homeomorphism|homeomorphic]] to an open subset of \(\mathbb R^n\). The local homeomorphisms are coordinate charts; their collection covers \(M\).
+An **\(n\)-dimensional topological manifold** is a [[topology/hausdorff-space|Hausdorff]], [[topology/second-countable-space|second-countable]] [[topology/topological-space|topological space]] \(M\) such that every point has an open neighborhood [[topology/homeomorphism|homeomorphic]] to an open subset of \(\mathbb R^n\).
+
+## Charts and smooth structures
+
+The local homeomorphisms are coordinate charts; their collection covers \(M\).
 
 The integer \(n\) is the dimension of \(M\). No differentiability is assumed. A [[fiber-bundles/smooth-manifold|smooth manifold]] is a topological manifold equipped with charts whose transition maps are smooth, so every smooth manifold has an underlying topological manifold but not conversely.

@@ -6,7 +6,7 @@ summary = "A normal element of a C*-algebra canonically determines a star-homomo
 aliases = ["continuous C*-functional calculus", "continuous calculus for a normal element"]
 domains = ["operator-algebras", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/banach-algebra-spectrum", "operator-algebras/commutative-cstar-algebra"]
+prerequisites = ["functional-analysis/banach-algebra-spectrum", "operator-algebras/commutative-cstar-algebra", "operator-algebras/unital-cstar-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "A group action by unitaries defined only up to phase (unitary rays)"
 aliases = ["Shale-paper projective unitary representation"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/projective-unitary-representation.md"
-prerequisites = ["linear-algebra/hilbert-space"]
+prerequisites = ["linear-algebra/hilbert-space", "lie-groups/projective-unitary-representation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

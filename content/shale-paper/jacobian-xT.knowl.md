@@ -6,12 +6,12 @@ summary = "The Radon–Nikodym derivative of the transformed Gaussian measure n(
 aliases = ["jacobian-xT", "Jacobian X(T) in Shale's Gaussian Setup"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/jacobian-xT.md"
-prerequisites = ["measure-theory/radon-nikodym-derivative"]
+prerequisites = ["measure-theory/radon-nikodym-derivative", "lie-groups/restricted-general-linear-group-rgl", "probability/gaussian-measure-hilbert-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-For \(T\in rGL(M)\), Shale defines a new measure \(n(T)\) via pullback on \(L_\infty\),
+For [[lie-groups/restricted-general-linear-group-rgl|\(T\in rGL(M)\)]], Shale defines a new measure \(n(T)\) on the [[probability/gaussian-measure-hilbert-space|Gaussian space]] via pullback on \(L_\infty\),
 and sets
 \[
 X(T)=\frac{dn(T)}{dn},

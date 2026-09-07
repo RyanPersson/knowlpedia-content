@@ -7,10 +7,12 @@ aliases = ["continuous-image-of-connected-set-is-connected", "Continuous image o
 domains = ["topology"]
 legacy_source_path = "topology/continuous-image-of-connected-set-is-connected.md"
 prerequisites = ["topology/continuous-map", "topology/connected-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 **Continuous image of a connected set is connected:** Let \(f:X\to Y\) be a [[topology/continuous-map|continuous map]] between topological spaces. If \(C\subseteq X\) is [[topology/connected-set|connected]], then \(f(C)\subseteq Y\) is connected.
+
+## Related notions
 
 This is the main functorial property behind connectedness, and it combines naturally with facts about connected sets in \(\mathbb{R}\) (see [[topology/connected-subsets-of-r-are-intervals|connected subsets of R are intervals]]) to identify images of connected domains as intervals.

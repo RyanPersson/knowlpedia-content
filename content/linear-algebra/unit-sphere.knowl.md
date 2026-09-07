@@ -6,14 +6,17 @@ summary = "The set of vectors having norm exactly one."
 aliases = ["unit sphere", "unit sphere of a normed space"]
 domains = ["linear-algebra", "topology"]
 prerequisites = ["linear-algebra/normed-vector-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 For a [[linear-algebra/normed-vector-space|normed vector space]] \(E\), its **unit sphere** is
 \[
 S_E=\{x\in E:\lVert x\rVert=1\}.
 \]
+
+## Geometry
+
 It is the boundary of the closed unit ball \(\{x:\lVert x\rVert\le1\}\). The term “sphere” refers to the given norm: unless the norm comes from an [[linear-algebra/inner-product|inner product]], \(S_E\) need not be round in Euclidean coordinates.
 
 Every nonzero vector is a positive scalar multiple of a unique point of \(S_E\), namely \(x/\lVert x\rVert\).

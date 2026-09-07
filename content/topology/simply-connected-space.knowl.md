@@ -6,16 +6,19 @@ summary = "A path-connected topological space with trivial fundamental group."
 aliases = ["simply connected", "simple connectivity"]
 domains = ["topology"]
 section_mode = "progressive"
-prerequisites = ["topology/topological-space", "topology/fundamental-group"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "topology/fundamental-group", "topology/path-connected-set"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A [[topology/topological-space|topological space]] \(X\) is **simply connected** if it is path-connected and, for one—and hence every—basepoint \(x_0\in X\), its [[topology/fundamental-group|fundamental group]] is trivial:
+A [[topology/topological-space|topological space]] \(X\) is **simply connected** if it is nonempty and [[topology/path-connected-set|path-connected]] and, for one—and hence every—basepoint \(x_0\in X\), its [[topology/fundamental-group|fundamental group]] is trivial:
 \[
 \pi_1(X,x_0)=\{1\}.
 \]
-Equivalently, every loop in \(X\) can be continuously contracted to a constant loop while its basepoint remains fixed.
+
+## Loop formulation
+
+Equivalently, a nonempty path-connected space is simply connected if every loop in \(X\) can be continuously contracted to a constant loop while its basepoint remains fixed.
 
 ## Basepoint and hypotheses
 
@@ -23,7 +26,7 @@ Path-connectedness makes fundamental groups at different basepoints isomorphic, 
 
 ## Examples
 
-Convex subsets of real vector spaces, spheres \(S^n\) for \(n\geq2\), and Euclidean spaces are simply connected. The circle and punctured plane are not simply connected: each has fundamental group isomorphic to \(\mathbb Z\).
+Nonempty convex subsets of real vector spaces, spheres \(S^n\) for \(n\geq2\), and Euclidean spaces are simply connected. The circle and punctured plane are not simply connected: each has fundamental group isomorphic to \(\mathbb Z\).
 
 ## References
 

@@ -5,7 +5,7 @@ kind = "definition"
 summary = "The probability distribution on the real line with a Gaussian density determined by a mean and positive variance."
 aliases = ["normal-distribution", "Normal distribution", "Gaussian distribution", "Gaussian law"]
 domains = ["probability"]
-prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "measure-theory/radon-nikodym-derivative", "probability/probability-density-function"]
+prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "probability/probability-density-function"]
 dependency_heuristic = "component-dependency-review-v1"
 dependency_review_count = 2
 +++

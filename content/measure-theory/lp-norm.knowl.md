@@ -6,7 +6,7 @@ summary = "Norm from integrating the pth power of absolute value, or essential s
 aliases = ["lp-norm", "L^p norm"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/lp-norm.md"
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "real-analysis/absolute-value", "measure-theory/essential-supremum", "measure-theory/ae-equality"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "real-analysis/absolute-value", "measure-theory/essential-supremum"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

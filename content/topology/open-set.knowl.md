@@ -7,11 +7,13 @@ aliases = ["open-set", "Open set"]
 domains = ["topology"]
 legacy_source_path = "topology/open-set.md"
 prerequisites = ["topology/topological-space", "shared-foundations/subset"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 An **open set** in a [[topology/topological-space|topological space]] \((X,\mathcal{T})\) is a [[shared-foundations/subset|subset]] \(U\subseteq X\) such that \(U\in\mathcal{T}\).
+
+## Role in topology
 
 Open sets are the basic “observable” sets in topology: they define [[topology/neighborhood|neighborhoods]] of points and determine operations like [[topology/interior|interior]] and [[topology/closure|closure]]. They also control [[topology/continuous-map|continuity]] through preimages.
 

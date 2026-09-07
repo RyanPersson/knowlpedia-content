@@ -6,9 +6,9 @@ summary = "A characteristic class of complex vector bundles defined as the trace
 aliases = ["chern-character", "Chern character via Chern–Weil theory"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chern-character.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] equipped with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) with [[fiber-bundles/curvature|curvature]] \(F_\nabla\in\Omega^2(M;\mathrm{End}(E))\).

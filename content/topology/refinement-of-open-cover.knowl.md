@@ -6,9 +6,9 @@ summary = "A cover that is finer than another, with each set contained in a memb
 aliases = ["refinement-of-open-cover", "Refinement of an open cover"]
 domains = ["topology"]
 legacy_source_path = "topology/refinement-of-open-cover.md"
-prerequisites = ["topology/open-cover", "topology/basis-of-topology"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/open-cover"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **refinement** of a cover \(\mathcal U\) of a set \(A\subseteq X\) is another cover \(\mathcal V\) of \(A\) such that for every \(V\in\mathcal V\) there exists \(U\in\mathcal U\) with
@@ -17,9 +17,11 @@ V \subseteq U.
 \]
 If \(\mathcal U\) and \(\mathcal V\) are [[topology/open-cover|open covers]], then \(\mathcal V\) is called an **open refinement** of \(\mathcal U\).
 
+## Use with a basis
+
 Refinements compare “how fine” two covers are and are especially useful when working with a [[topology/basis-of-topology|basis of a topology]], since open covers can often be refined by basic open sets.
 
 ## Examples
 
-- In \(\mathbb{R}\), let \(\mathcal U=\{(-1,1),(0,2)\}\), which covers \([0,1]\). Then \(\mathcal V=\{(0,1/2),(1/2,1)\}\) is a refinement of \(\mathcal U\).
+- In \(\mathbb{R}\), let \(\mathcal U=\{(-1,1),(0,2)\}\), which covers \([0,1]\). Then \(\mathcal V=\{(-1/4,3/4),(1/4,5/4)\}\) is a refinement of \(\mathcal U\).
 - If \(\mathcal U\) is an open cover of \(X\) and \(\mathcal B\) is a basis, then taking all \(B\in\mathcal B\) with \(B\subseteq U\) for some \(U\in\mathcal U\) gives an open refinement by basis elements.

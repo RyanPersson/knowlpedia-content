@@ -6,7 +6,7 @@ summary = "For nonnegative measurable functions, the integral of the liminf is b
 aliases = ["fatous-lemma", "Fatou's lemma"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/fatous-lemma.md"
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
+prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/lebesgue-integral"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

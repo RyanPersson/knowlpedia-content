@@ -6,10 +6,15 @@ summary = "The smooth vector bundle whose fiber at each point is the dual of the
 aliases = ["cotangent-bundle", "Cotangent bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/cotangent-bundle.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/smooth-chart-coordinate-chart", "fiber-bundles/tangent-bundle", "fiber-bundles/dual-vector-bundle"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/dual-vector-bundle"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
+
+The **cotangent bundle** of a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is the [[fiber-bundles/dual-vector-bundle|dual vector bundle]] \(T^*M=(TM)^*\) of its [[fiber-bundles/tangent-bundle|tangent bundle]]. Its fiber at \(p\) is the space of real linear functionals on \(T_pM\).
+
+## Fiberwise and coordinate construction
+
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(n\). For each \(p\in M\), the [[fiber-bundles/tangent-space-at-a-point|tangent space]] \(T_pM\) is a real vector space, and its dual space
 \[

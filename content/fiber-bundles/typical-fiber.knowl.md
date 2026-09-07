@@ -7,8 +7,8 @@ aliases = ["typical-fiber", "Typical fiber"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/typical-fiber.md"
 prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. A **typical fiber** (or **model fiber**) is a [[fiber-bundles/smooth-manifold|smooth manifold]] \(F\) for which there exists an open cover \(\{U_i\}\) of \(M\) and [[fiber-bundles/local-trivialization|local trivializations]] \(\Phi_i:\pi^{-1}(U_i)\to U_i\times F\).
@@ -20,4 +20,4 @@ Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]
 
 
 ## Remarks
-In particular, for every \(x\in M\) the fiber \(E_x=\pi^{-1}(x)\) is [[fiber-bundles/diffeomorphism|diffeomorphic]] to \(F\), via restriction of \(\Phi_i\) to \(\{x\}\times F\). The typical fiber is not part of the bare fibered-manifold structure; it is extra data specifying *which* manifold is used as the local model. If both \(F\) and \(F'\) can serve as typical fibers for the same bundle, then \(F\) and \(F'\) must be diffeomorphic.
+In particular, for every \(x\in M\) the fiber \(E_x=\pi^{-1}(x)\) is [[fiber-bundles/diffeomorphism|diffeomorphic]] to \(F\), via restriction of \(\Phi_i\) to \(\{x\}\times F\). The typical fiber is not part of the bare fibered-manifold structure; it is extra data specifying *which* manifold is used as the local model. If the base is nonempty and both \(F\) and \(F'\) can serve as typical fibers for the same bundle, then \(F\) and \(F'\) must be diffeomorphic.

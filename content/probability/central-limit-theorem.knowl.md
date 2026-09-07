@@ -6,7 +6,7 @@ summary = "The classical limit theorem stating that normalized sums of i.i.d. va
 aliases = ["central-limit-theorem", "Central limit theorem"]
 domains = ["probability"]
 legacy_source_path = "probability/central-limit-theorem.md"
-prerequisites = ["probability/iid-sequence", "probability/random-variable"]
+prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "probability/variance", "probability/normal-distribution"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

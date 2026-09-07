@@ -7,11 +7,13 @@ aliases = ["path-connected-set", "Path-connected set"]
 domains = ["topology"]
 legacy_source_path = "topology/path-connected-set.md"
 prerequisites = ["topology/topological-space", "topology/path"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **path-connected set** is a subset \(A\subseteq X\) of a [[topology/topological-space|topological space]] \(X\) such that for any \(x,y\in A\) there exists a [[topology/path|path]] \(\gamma\colon [0,1]\to X\) with \(\gamma(0)=x\), \(\gamma(1)=y\), and \(\gamma([0,1])\subseteq A\).
+
+## Related notions
 
 Path-connectedness is stronger than [[topology/connected-set|connectedness]] (every path-connected set is connected), and it leads to a decomposition of spaces into “path components,” analogous to [[topology/connected-component|connected components]].
 

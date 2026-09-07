@@ -6,7 +6,7 @@ summary = "A compact self-adjoint operator on a separable Hilbert space has an o
 aliases = ["spectral-theorem-compact-selfadjoint", "Spectral Theorem for Compact Selfadjoint Operators"]
 domains = ["functional-analysis"]
 legacy_source_path = "shale-paper/spectral-theorem-compact-selfadjoint.md"
-prerequisites = ["linear-algebra/hilbert-space"]
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/orthonormal-basis"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

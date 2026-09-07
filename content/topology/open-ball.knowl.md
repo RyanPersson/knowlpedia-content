@@ -7,8 +7,8 @@ aliases = ["open-ball", "Open ball"]
 domains = ["topology"]
 legacy_source_path = "topology/open-ball.md"
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 An **open ball** in a metric space \((X,d)\) is a set of the form
@@ -16,6 +16,8 @@ An **open ball** in a metric space \((X,d)\) is a set of the form
 B_d(x,r)=\{y\in X : d(x,y)<r\},
 \]
 where \(x\in X\) is its center and \(r>0\) is its radius.
+
+## Induced topology
 
 Open balls are [[topology/open-set|open sets]] in the [[topology/metric-induced-topology|metric-induced topology]] and they form a [[topology/basis-of-topology|basis]] for that topology; in particular, they are the basic [[topology/neighborhood|neighborhoods]] in metric spaces.
 

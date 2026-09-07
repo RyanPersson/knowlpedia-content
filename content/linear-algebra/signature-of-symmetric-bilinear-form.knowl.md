@@ -6,9 +6,9 @@ summary = "The numbers of negative and positive squares in a real symmetric bili
 aliases = ["inertia of a real symmetric bilinear form", "signature of a quadratic form"]
 domains = ["linear-algebra"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/bilinear-form", "linear-algebra/vector-space", "linear-algebra/quadratic-form", "convex-analysis/basis-hamel-basis-and-dimension"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/bilinear-form", "linear-algebra/vector-space", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(B\) be a symmetric [[linear-algebra/bilinear-form|bilinear form]] on a finite-dimensional real [[linear-algebra/vector-space|vector space]]. There is a basis in which

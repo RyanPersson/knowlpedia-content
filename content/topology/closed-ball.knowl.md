@@ -7,8 +7,8 @@ aliases = ["closed-ball", "Closed ball"]
 domains = ["topology"]
 legacy_source_path = "topology/closed-ball.md"
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **closed ball** in a metric space \((X,d)\) is a set of the form
@@ -16,6 +16,8 @@ A **closed ball** in a metric space \((X,d)\) is a set of the form
 \overline{B}_d(x,r)=\{y\in X : d(x,y)\le r\},
 \]
 where \(x\in X\) and \(r\ge 0\).
+
+## Induced topology
 
 Closed balls are closely related to [[topology/open-ball|open balls]] and are [[topology/closed-set|closed sets]] in the [[topology/metric-induced-topology|metric-induced topology]].
 

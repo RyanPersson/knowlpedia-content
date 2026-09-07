@@ -7,8 +7,8 @@ aliases = ["residual-set", "Residual set"]
 domains = ["topology"]
 legacy_source_path = "topology/residual-set.md"
 prerequisites = ["topology/topological-space", "shared-foundations/subset", "shared-foundations/complement", "topology/meager-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **residual set** in a [[topology/topological-space|topological space]] \(X\) is a [[shared-foundations/subset|subset]] \(R\subseteq X\) whose [[shared-foundations/complement|complement]] \(X\setminus R\) is [[topology/meager-set|meager]].
@@ -24,4 +24,4 @@ In a [[topology/baire-space|Baire space]], every residual set is dense.
 ## Examples
 
 - The irrationals \(\mathbb{R}\setminus\mathbb{Q}\) form a residual subset of \(\mathbb{R}\), since \(\mathbb{Q}\) is [[topology/meager-set|meager]].
-- In any Baire space, the intersection of countably many dense open sets is residual (and dense), as captured by [[topology/intersection-of-dense-open-is-dense|intersection of dense open sets is dense]].
+- In any Baire space, the intersection of countably many dense open sets is residual (and dense), as captured by [[topology/baire-space|the defining property of a Baire space]].

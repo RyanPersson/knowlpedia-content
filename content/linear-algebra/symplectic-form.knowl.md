@@ -6,9 +6,9 @@ summary = "A nondegenerate skew-symmetric bilinear form B on a real vector space
 aliases = ["symplectic-form", "Symplectic Form"]
 domains = ["linear-algebra"]
 legacy_source_path = "shale-paper/symplectic-form.md"
-prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/bilinear-form"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **symplectic form** on a real [[linear-algebra/vector-space|vector space]] \(K\) is a [[linear-algebra/bilinear-form|bilinear form]] \(B:K\times K\to\mathbb R\) with

@@ -6,7 +6,7 @@ summary = "The complex-valued function t ↦ E[exp(i t X)] associated with a rea
 aliases = ["characteristic-function-probability", "Characteristic function"]
 domains = ["probability"]
 legacy_source_path = "probability/characteristic-function-probability.md"
-prerequisites = ["probability/random-variable"]
+prerequisites = ["probability/random-variable", "probability/expectation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,12 +6,12 @@ summary = "Chern–Weil forms and their de Rham classes commute with pullback of
 aliases = ["naturality-of-chernweil-classes-under-pullback", "Naturality of Chern–Weil classes under pullback"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/naturality-of-chernweil-classes-under-pullback.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/smooth-map", "fiber-bundles/chernweil-form", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/smooth-map", "fiber-bundles/chernweil-form", "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) and [[fiber-bundles/curvature|curvature]] \(\Omega\). Let \(f:N\to M\) be a [[fiber-bundles/smooth-map|smooth map]] and let \(f^*P\to N\) be the pullback principal bundle, with pulled-back connection \(f^*\omega\) and curvature \(f^*\Omega\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) and [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(\Omega\). Let \(f:N\to M\) be a [[fiber-bundles/smooth-map|smooth map]] and let \(f^*P\to N\) be the pullback principal bundle, with pulled-back connection \(f^*\omega\) and curvature \(f^*\Omega\).
 
 Fix an Ad-invariant homogeneous polynomial \(P\) on \(\mathfrak g\) of degree \(k\).
 

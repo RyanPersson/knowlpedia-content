@@ -1,0 +1,1440 @@
+{
+  "reviews": [
+    {
+      "id": "lie-groups/root-system",
+      "outcome": "corrected",
+      "source_sha256": "47e36ec79d2983c7efd8b430019b811b05765b9c9704dd4c6557e497197f8a4b",
+      "evidence": "The core defines an abstract finite root system in an inner-product space. Weyl groups, Cartan subalgebras, Killing forms, and classification are Lie-theoretic applications or context, so they are not prerequisites for this generic definition.",
+      "previous_prerequisites": [
+        "lie-groups/weyl-group",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/killing-form",
+        "lie-groups/classification-simple-lie-algebras"
+      ],
+      "prerequisites": [
+        "linear-algebra/inner-product-space"
+      ]
+    },
+    {
+      "id": "lie-groups/cartan-subalgebra",
+      "outcome": "corrected",
+      "source_sha256": "d1153253fb7ef3deef0880b632ff02ea34128fb7f4522c8a705df879aa49d76a",
+      "evidence": "The definition is a subalgebra that is nilpotent and self-normalizing. The Lie-subalgebra concept is therefore a direct prerequisite; semisimple and nilpotent structure remain relevant to the stated refinements.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/nilpotent-lie-algebra",
+        "lie-groups/semisimple-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-subalgebra",
+        "lie-groups/nilpotent-lie-algebra",
+        "lie-groups/semisimple-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/root-space-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "56f91cfb6d4fd83652960c62ef95d010e0eee2b8ec9011ecb4c01cdddc5ebd34",
+      "evidence": "The decomposition requires a semisimple Lie algebra, Cartan subalgebra, adjoint action, root spaces, and the Killing-form pairing used in the stated root-system consequence. Positive roots, Dynkin diagrams, and the abstract root-system knowl are consequences or later organization, not prerequisites for the decomposition.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-lie-algebra",
+        "lie-groups/adjoint-representation-of-a-lie-algebra",
+        "lie-groups/root-space",
+        "lie-groups/killing-form",
+        "lie-groups/root-system",
+        "lie-groups/positive-root",
+        "lie-groups/dynkin-diagram"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-lie-algebra",
+        "lie-groups/adjoint-representation-of-a-lie-algebra",
+        "lie-groups/root-space",
+        "lie-groups/killing-form"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/contragredient-representation",
+      "outcome": "corrected",
+      "source_sha256": "a5edc9f5c434fdc20d316bc5328cb1d044439bcfeb727eeb28b2e9f0524fb0bb",
+      "evidence": "The opening definition acts on the dual of a finite-dimensional group representation, so group-representation and vector-space concepts are direct prerequisites. Smooth and Hilbert dual variants remain later qualifications.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "lie-groups/root-lattice",
+      "outcome": "corrected",
+      "source_sha256": "d0fe5c07496c197c67eb7d6e9796db701e2f69036ce0d1984beb70f5fe678ef5",
+      "evidence": "The definition takes a crystallographic root system and simple roots, and its relation to the weight lattice is stated directly. Simply connectedness appears only in a later group-level application and is not a prerequisite for the root lattice.",
+      "previous_prerequisites": [
+        "lie-groups/root-system",
+        "lie-groups/simple-root",
+        "lie-groups/weight-lattice",
+        "lie-groups/simply-connected-lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/root-system",
+        "lie-groups/simple-root",
+        "lie-groups/weight-lattice"
+      ]
+    },
+    {
+      "id": "lie-groups/root-space",
+      "outcome": "corrected",
+      "source_sha256": "cd0946e2a661185f98dc9dda9b6e62ffcbe7814a1561018772110203ee9d42ae",
+      "evidence": "The root-space definition uses a Cartan subalgebra and a root of the Lie algebra. The sl2 example illustrates the definition later and does not define the general eigenspace, so it is not a prerequisite.",
+      "previous_prerequisites": [
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-lie-algebra",
+        "lie-groups/example-sl2c"
+      ],
+      "prerequisites": [
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/abelian-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f8e9d691802200b3d61e5e02c02ea09293f744f0141938399d257b2ecfe28fc",
+      "evidence": "The source defines an abelian Lie algebra from the ambient Lie algebra and its bracket; both listed prerequisites are direct ingredients, while equivalent characterizations and applications remain later context.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/lie-bracket"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/lie-bracket"
+      ]
+    },
+    {
+      "id": "lie-groups/abelian-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2f57d70c6c9a03f8e6afb4c38a6dfa1937edbd138ecdcf2f8a454d29d45bb72",
+      "evidence": "The core definition is commutativity of a Lie group, requiring only the ambient Lie-group structure; commutator and Lie-algebra characterizations are later context.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/adjoint-action-of-a-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "770c178b14a53bdda02b60f6a12a559ee0b5579721d97d7bbc40337a5be63c4d",
+      "evidence": "The adjoint action starts from conjugation in a Lie group and differentiates at the identity, so the listed Lie-group and Lie-algebra prerequisites match the construction; exponential and root-theory references are applications.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/adjoint-faithful-iff-discrete-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c34882bb479d6334969e69a540a189bef591ec5da7231afbacd27a26bcbcee2",
+      "evidence": "The theorem explicitly assumes connectedness and identifies the kernel of the adjoint action with the group center; all three listed prerequisites are used in the statement and proof context.",
+      "previous_prerequisites": [
+        "lie-groups/connected-lie-group",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "lie-groups/center-of-a-lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/connected-lie-group",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "lie-groups/center-of-a-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/adjoint-representation-of-a-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "731a57e8a99520e045d19ecc7454647ca65f83c9f33e107468ae8316087b5697",
+      "evidence": "The adjoint representation is defined by the Lie bracket on a Lie algebra and its homomorphism property uses the Jacobi identity; the two listed prerequisites are direct.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/lie-bracket"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/lie-bracket"
+      ]
+    },
+    {
+      "id": "lie-groups/admissible-representation-real-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c345a7cae5ddd95a6f19554d026de91433da34082c7f8427b7ae05edc3ce471d",
+      "evidence": "Admissibility is defined for a representation of a real reductive group relative to a maximal compact subgroup, with finite multiplicities of K-types; the listed ambient and K-finiteness concepts are the needed ingredients.",
+      "previous_prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "lie-groups/k-finite-vector",
+        "lie-groups/k-type"
+      ],
+      "prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "lie-groups/k-finite-vector",
+        "lie-groups/k-type"
+      ]
+    },
+    {
+      "id": "lie-groups/ados-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3110af4d489b9a1569d9bc58ea391aaf50d1fe117256a191512258c76a6b15e3",
+      "evidence": "Ado’s theorem states an injective Lie-algebra homomorphism into a general linear Lie algebra, so Lie algebra, homomorphism, subalgebra, general-linear algebra, and injectivity are all direct statement ingredients.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-algebra-homomorphism",
+        "lie-groups/lie-subalgebra",
+        "lie-groups/general-linear-lie-algebra",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-algebra-homomorphism",
+        "lie-groups/lie-subalgebra",
+        "lie-groups/general-linear-lie-algebra",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "lie-groups/analytic-vector-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16fcda9cf2a292ff0a84fdc9a48757e2f3d86805df2ef7beb80aeb42ddb036d0",
+      "evidence": "The definition uses a Lie-group orbit map for a strongly continuous unitary representation and compares analytic vectors with derived smooth vectors; the four listed prerequisites directly support those notions.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/strongly-continuous-unitary-representation",
+        "fiber-bundles/orbit-map",
+        "lie-groups/derived-representation-on-smooth-vectors"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/strongly-continuous-unitary-representation",
+        "fiber-bundles/orbit-map",
+        "lie-groups/derived-representation-on-smooth-vectors"
+      ]
+    },
+    {
+      "id": "lie-groups/baker-campbell-hausdorff-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe5e6036ac2457fa7b9a82ae414258128a82c7648d049455342a1d55bdb03cbc",
+      "evidence": "BCH is stated for a Lie group and exponential map using iterated Lie brackets, with nilpotence as the truncation hypothesis; each listed prerequisite is used directly.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/exponential-map-lie-group",
+        "fiber-bundles/lie-bracket",
+        "lie-groups/nilpotent-lie-algebra"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/exponential-map-lie-group",
+        "fiber-bundles/lie-bracket",
+        "lie-groups/nilpotent-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/bi-invariant-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62ef283facbfddb57685fa39023a22154fde213edfeb956f9648c3921ba6d691",
+      "evidence": "Bi-invariance is defined by invariance under left and right translations; the listed Lie-group and translation concepts are exactly the operations in the definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/left-translation",
+        "lie-groups/right-translation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/left-translation",
+        "lie-groups/right-translation"
+      ]
+    },
+    {
+      "id": "lie-groups/bi-invariant-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a296be08e719fc06bd4ee4a207b5c7a59720f7b31e39f5782aa9c7edf1a9eb4",
+      "evidence": "The metric is defined by invariance under left and right translations, and its Lie-algebra formulation uses the adjoint action; the four listed prerequisites match those claims.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/left-translation",
+        "lie-groups/right-translation",
+        "lie-groups/adjoint-action-of-a-lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/left-translation",
+        "lie-groups/right-translation",
+        "lie-groups/adjoint-action-of-a-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/borel-de-siebenthal-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c45df4f2eac1a56d1f346f34b243639db74ceaab071c74e4c3479abe4be5b526",
+      "evidence": "The source is a Borel–de Siebenthal structural theorem for connected compact groups, using root systems, maximal tori, Dynkin diagrams, and central quotients; each listed prerequisite occurs in the theorem’s setup or conclusion.",
+      "previous_prerequisites": [
+        "lie-groups/connected-lie-group",
+        "lie-groups/root-system",
+        "lie-groups/maximal-torus-theorem",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/central-quotient-of-a-lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/connected-lie-group",
+        "lie-groups/root-system",
+        "lie-groups/maximal-torus-theorem",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/central-quotient-of-a-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/branching-rule-for-lie-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b23f7d89d1b3f76899a8673b8719a7f4fc32499600f50f357eeec3a8ea987fd",
+      "evidence": "The branching statement compares group and Lie-algebra representations under restriction and tracks irreducible multiplicities; all six listed representation, restriction, multiplicity, and ambient Lie concepts are used.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/representation-of-a-lie-group",
+        "algebra-representation-theory/restricted-representation",
+        "lie-groups/multiplicity-of-an-irreducible-representation",
+        "lie-groups/lie-algebra",
+        "lie-groups/representation-of-a-lie-algebra"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/representation-of-a-lie-group",
+        "algebra-representation-theory/restricted-representation",
+        "lie-groups/multiplicity-of-an-irreducible-representation",
+        "lie-groups/lie-algebra",
+        "lie-groups/representation-of-a-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/cartan-decomposition-real-reductive-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "17bc34abba513da5a8df8579fe9db8f0a78797b323280018cbad3e18c8231ed5",
+      "evidence": "The decomposition is formed from the ±1 eigenspaces of a Cartan involution on a real reductive Lie algebra; automorphism, subalgebra, and inner-product prerequisites support the displayed bracket and orthogonality properties.",
+      "previous_prerequisites": [
+        "lie-groups/cartan-involution-real-lie-algebra",
+        "lie-groups/reductive-lie-algebra",
+        "lie-groups/lie-algebra-automorphism",
+        "lie-groups/lie-subalgebra",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "lie-groups/cartan-involution-real-lie-algebra",
+        "lie-groups/reductive-lie-algebra",
+        "lie-groups/lie-algebra-automorphism",
+        "lie-groups/lie-subalgebra",
+        "linear-algebra/inner-product"
+      ]
+    },
+    {
+      "id": "lie-groups/cartan-involution-real-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7521ff5ce7e8f83949eba3761c2efb49f36908447293818cfaafa83fcdae6601",
+      "evidence": "The Cartan involution definition is for the Lie algebra of a real reductive group and uses an invariant bilinear form, Lie-algebra automorphism, Killing form, and reductive structure; the listed prerequisites are all explicit setup ingredients.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/real-reductive-lie-group",
+        "linear-algebra/bilinear-form",
+        "lie-groups/lie-algebra-automorphism",
+        "lie-groups/killing-form",
+        "lie-groups/reductive-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/real-reductive-lie-group",
+        "linear-algebra/bilinear-form",
+        "lie-groups/lie-algebra-automorphism",
+        "lie-groups/killing-form",
+        "lie-groups/reductive-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/cartan-matrix",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8cdbafee6a75601bd7b51915eff7ed08691d83dcd538acfca26d54104fbb0804",
+      "evidence": "The Cartan matrix is formed from simple roots in the root system of a semisimple Lie algebra and displayed as a matrix using an inner product; the six listed prerequisites provide these ingredients.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-system",
+        "lie-groups/simple-root",
+        "linear-algebra/inner-product",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-system",
+        "lie-groups/simple-root",
+        "linear-algebra/inner-product",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/cartan-subalgebra-self-normalizing-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a700278002254ef0ce657dd07f0d1c1f0d8a5a2a01cf6d91f51e3b42843527db",
+      "evidence": "The proof explicitly expands an element using the root-space decomposition and tests normalization of a Cartan subalgebra; semisimplicity, Cartan structure, and root-space decomposition are therefore direct prerequisites.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-space-decomposition"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-space-decomposition"
+      ]
+    },
+    {
+      "id": "lie-groups/cartans-criterion-semisimplicity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5742be9feef9582e37747acb7f2509a550d0936b224e6547c60b2e568e86b4e",
+      "evidence": "Cartan’s criterion compares semisimplicity with nondegeneracy of the Killing form for a Lie algebra; the three listed concepts are exactly the theorem’s ambient object and alternatives.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/semisimple-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/semisimple-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/cartans-criterion-solvability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1261cf87445c5bb5cf4121cd29f3475df72627301ad7df81877be4d538fe4b72",
+      "evidence": "The solvability criterion is stated through the derived series, derived subalgebra, and Killing form, with Cartan’s semisimplicity criterion used in the surrounding argument; the listed prerequisites match those ingredients.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/derived-subalgebra",
+        "lie-groups/solvable-lie-algebra",
+        "lie-groups/derived-series-lie-algebra",
+        "lie-groups/cartans-criterion-semisimplicity"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/derived-subalgebra",
+        "lie-groups/solvable-lie-algebra",
+        "lie-groups/derived-series-lie-algebra",
+        "lie-groups/cartans-criterion-semisimplicity"
+      ]
+    },
+    {
+      "id": "lie-groups/casimir-element-and-casimir-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "91c5a52e82cbbc08be0e16f9bc4ef39bc0a4e0d3b73fa30918810bcdfecaa63c",
+      "evidence": "The Casimir construction uses the Killing form and a basis of a semisimple Lie algebra to produce an element of its universal enveloping algebra and an operator; the listed prerequisites cover each construction.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/universal-enveloping-algebra",
+        "lie-groups/center-of-universal-enveloping-algebra",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/killing-form",
+        "lie-groups/universal-enveloping-algebra",
+        "lie-groups/center-of-universal-enveloping-algebra",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "lie-groups/casselman-subrepresentation-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "423b3ac95a3293c9a293d17433f7ceeb8cee9bcde6878e10711c4f8ce9d015a0",
+      "evidence": "The theorem embeds irreducible admissible representations of a real reductive group into normalized principal series and uses maximal compact and Harish–Chandra data; the listed prerequisites are the theorem’s stated categories.",
+      "previous_prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "lie-groups/minimal-parabolic-subgroup",
+        "lie-groups/harish-chandra-module",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/principal-series-representation"
+      ],
+      "prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "lie-groups/minimal-parabolic-subgroup",
+        "lie-groups/harish-chandra-module",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/principal-series-representation"
+      ]
+    },
+    {
+      "id": "lie-groups/casselman-wallach-globalization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "559771a63f6cd113630d73613fc1b730d8ff2c6faa218fa1d298d2192db3c375",
+      "evidence": "The globalization theorem relates Harish–Chandra modules to Casselman–Wallach representations for real reductive groups via an equivalence of categories; every listed prerequisite appears in that assertion.",
+      "previous_prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "lie-groups/casselman-wallach-representation",
+        "lie-groups/harish-chandra-module",
+        "algebra-category-theory/equivalence-of-categories"
+      ],
+      "prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "lie-groups/casselman-wallach-representation",
+        "lie-groups/harish-chandra-module",
+        "algebra-category-theory/equivalence-of-categories"
+      ]
+    },
+    {
+      "id": "lie-groups/casselman-wallach-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "67bb97c9548bf6d63391d288e82031f88919b212f5dd337c188dcd0b86a2333a",
+      "evidence": "The definition combines a real reductive group, maximal compact subgroup, smooth Fréchet representation, K-finite Harish–Chandra module, and moderate-growth seminorm bounds; all listed prerequisites are explicit conditions.",
+      "previous_prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "functional-analysis/frechet-space",
+        "lie-groups/k-finite-vector",
+        "lie-groups/harish-chandra-module",
+        "convex-analysis/seminorm"
+      ],
+      "prerequisites": [
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group",
+        "functional-analysis/frechet-space",
+        "lie-groups/k-finite-vector",
+        "lie-groups/harish-chandra-module",
+        "convex-analysis/seminorm"
+      ]
+    },
+    {
+      "id": "lie-groups/celestial-sphere-and-mobius-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b2689f065dd7309a865d29caf476a4bf48bb2df6ddf50ad28ab0328242e29dd",
+      "evidence": "The source derives the Möbius action from the proper Lorentz-group and celestial-sphere identifications; those two concepts are the only prerequisites for its opening claim.",
+      "previous_prerequisites": [
+        "lie-groups/proper-orthochronous-lorentz-group",
+        "differential-geometry/celestial-sphere"
+      ],
+      "prerequisites": [
+        "lie-groups/proper-orthochronous-lorentz-group",
+        "differential-geometry/celestial-sphere"
+      ]
+    },
+    {
+      "id": "lie-groups/center-of-a-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7441debf1377f96b8d2fdf0364e69b389df1540312809aed5db3ccad66bf356f",
+      "evidence": "The center is defined by the Lie bracket and then identified as a subalgebra, ideal, and kernel of the adjoint representation; the listed prerequisites support each basic property presented.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-subalgebra",
+        "lie-groups/ideal-lie-algebra",
+        "lie-groups/adjoint-representation-of-a-lie-algebra",
+        "lie-groups/abelian-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/lie-subalgebra",
+        "lie-groups/ideal-lie-algebra",
+        "lie-groups/adjoint-representation-of-a-lie-algebra",
+        "lie-groups/abelian-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/center-of-a-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2104581a0b08314ae20a398c3fbb09858dffc9de1735a9b3524ff56aedff8f84",
+      "evidence": "The group center is defined inside a Lie group and its later properties invoke normal subgroups, conjugation, and the adjoint action; the listed prerequisites follow those explicit claims.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/normal-lie-subgroup",
+        "lie-groups/conjugation-action-of-a-lie-group",
+        "lie-groups/adjoint-action-of-a-lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/normal-lie-subgroup",
+        "lie-groups/conjugation-action-of-a-lie-group",
+        "lie-groups/adjoint-action-of-a-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/center-of-universal-enveloping-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dbe2b7db628c4a619fba73f9ef11231cd2bda516d6f1a801430d4988dc646532",
+      "evidence": "The source defines the center of the universal enveloping algebra for a Lie algebra over a field; the three listed prerequisites are explicit ambient constructions in the definition.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "algebra-rings/field",
+        "lie-groups/universal-enveloping-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "algebra-rings/field",
+        "lie-groups/universal-enveloping-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/central-quotient-of-a-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "256f46c128ea36c5807fded200c4329e432403df8c1292b3337a54611f58f3f4",
+      "evidence": "The quotient construction assumes a Lie group and a closed central subgroup, then invokes the quotient group and coset-space structures; all four listed prerequisites are used in the core.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/center-of-a-lie-group",
+        "lie-groups/quotient-lie-group",
+        "lie-groups/coset-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/center-of-a-lie-group",
+        "lie-groups/quotient-lie-group",
+        "lie-groups/coset-space"
+      ]
+    },
+    {
+      "id": "lie-groups/centralizer-of-a-lie-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd32b6c538c41935d35866f287cb1902f3bbd4c5977c4479f4637b23b3dc37c6",
+      "evidence": "The centralizer is defined for a Lie subalgebra by the bracket-commutation condition; the sole listed prerequisite is therefore the exact ambient structure required.",
+      "previous_prerequisites": [
+        "lie-groups/lie-subalgebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-subalgebra"
+      ]
+    },
+    {
+      "id": "lie-groups/centralizer-of-a-regular-reductive-subalgebra",
+      "outcome": "corrected",
+      "source_sha256": "86f86662f74ed0300058fb2e9a5f36750643ddf8f04d9ff3a0aed6873458c0de",
+      "evidence": "The theorem assumes a root-space decomposition in its opening hypotheses, so that theorem is a direct prerequisite alongside semisimplicity, a Cartan subalgebra, regularity, and the centralizer operation.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/regular-lie-subalgebra",
+        "lie-groups/centralizer-of-a-lie-subalgebra"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-space-decomposition",
+        "lie-groups/regular-lie-subalgebra",
+        "lie-groups/centralizer-of-a-lie-subalgebra"
+      ]
+    },
+    {
+      "id": "lie-groups/derived-subalgebra-is-ideal-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e86aa589b4ee14f4526ccffb9ff7aa31411115483e7f832bba21403e376d4f2",
+      "evidence": "Full source review of Derived subalgebra is an ideal: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/derived-subalgebra",
+        "lie-groups/ideal-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/derived-subalgebra",
+        "lie-groups/ideal-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/derived-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ecf4e046fca65853fe70ee3747d370fb2f73b18c9e141e1be924a7b118557466",
+      "evidence": "Full source review of Derived subalgebra: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/differential-is-lie-algebra-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb1d589278c20db62366e13fe1dc2756397e5368ea12d5a2fe4d287d7722b68f",
+      "evidence": "Full source review of Differential of a Lie group homomorphism: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/lie-group-homomorphism",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/lie-algebra-homomorphism",
+        "lie-groups/exponential-map-lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-group-homomorphism",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/lie-algebra-homomorphism",
+        "lie-groups/exponential-map-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/direct-sum-of-lie-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "340399db4dc68242f5b4e8c315c906aba38dcff14a6b93e29761655c84ce44ef",
+      "evidence": "Full source review of Direct sum of Lie algebras: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/discrete-series-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bea15f0e05ab69ef052341971070337565a2f4f1eee2adad01f25e0beb4dec6b",
+      "evidence": "Full source review of Discrete series representation: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/haar-measure",
+        "lie-groups/irreducible-unitary-representation",
+        "shared-foundations/equivalence-class",
+        "lie-groups/invariant-closed-subspace-unitary-representation",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "algebra-representation-theory/regular-representation"
+      ],
+      "prerequisites": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/haar-measure",
+        "lie-groups/irreducible-unitary-representation",
+        "shared-foundations/equivalence-class",
+        "lie-groups/invariant-closed-subspace-unitary-representation",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "algebra-representation-theory/regular-representation"
+      ]
+    },
+    {
+      "id": "lie-groups/discrete-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3bcd6be37e7fe105196e2804c7a58baac601e9564e565527265d3ba130cf607",
+      "evidence": "Full source review of Discrete subgroup: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/distribution-vectors-of-a-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f64b230e63d62992112b84198fe0fbf3f0c7dbc144bbcf91c73804df874fdb12",
+      "evidence": "Full source review of Distribution vectors of a Lie-group representation: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/smooth-vector-unitary-representation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/smooth-vector-unitary-representation"
+      ]
+    },
+    {
+      "id": "lie-groups/dixmier-malliavin-factorization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb8d6201d83c15495a59af89f091cd9f0921eaffd0c90ff2f17a062930465084",
+      "evidence": "Full source review of Dixmier–Malliavin factorization theorem: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "harmonic-analysis/convolution-on-locally-compact-group",
+        "functional-analysis/frechet-space",
+        "lie-groups/garding-subspace"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "harmonic-analysis/convolution-on-locally-compact-group",
+        "functional-analysis/frechet-space",
+        "lie-groups/garding-subspace"
+      ]
+    },
+    {
+      "id": "lie-groups/dual-representation-lie",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15397f73b2dd4a46bacb16f7f1e001fc4b1b3cc2ae88257695451f731d18b5ad",
+      "evidence": "Full source review of Dual (contragredient) representation: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/representation-of-a-lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/representation-of-a-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/dynkin-diagram-automorphisms-and-dual-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40fac535a9ca6bc12dab735e5ca06d72d855023c05c2431f59bba09ba6534c99",
+      "evidence": "Full source review of Dynkin-diagram automorphisms and dual representations: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/simple-root",
+        "lie-groups/cartan-matrix",
+        "lie-groups/highest-weight-representation",
+        "lie-groups/weyl-group",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/highest-weight",
+        "lie-groups/dual-representation-lie",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/simple-root",
+        "lie-groups/cartan-matrix",
+        "lie-groups/highest-weight-representation",
+        "lie-groups/weyl-group",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/highest-weight",
+        "lie-groups/dual-representation-lie",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/dynkin-diagram",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b2663b5906cca452065bf1561d95282cc6d9e51fd53380776660803e27c570f",
+      "evidence": "Full source review of Dynkin diagram: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-system",
+        "lie-groups/simple-root",
+        "lie-groups/cartan-matrix",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/root-system",
+        "lie-groups/simple-root",
+        "lie-groups/cartan-matrix",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/e7-branching-under-a1-plus-d6",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "51943a433aed6466324729cdff64a00e8aeb7fb55ede9b3e50056049d4155504",
+      "evidence": "Full source review of E7 branching under A1 + D6: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/branching-rule-for-lie-representations",
+        "lie-groups/defining-representation-of-a-classical-lie-algebra",
+        "lie-groups/half-spin-representation"
+      ],
+      "prerequisites": [
+        "lie-groups/branching-rule-for-lie-representations",
+        "lie-groups/defining-representation-of-a-classical-lie-algebra",
+        "lie-groups/half-spin-representation"
+      ]
+    },
+    {
+      "id": "lie-groups/e7-branching-under-a2-plus-a5",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c45f49598a7c03c48dedb565ad707ed1d0824e06c93336c362e5421785b2a573",
+      "evidence": "Full source review of E7 branching under A2 + A5: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/branching-rule-for-lie-representations"
+      ],
+      "prerequisites": [
+        "lie-groups/branching-rule-for-lie-representations"
+      ]
+    },
+    {
+      "id": "lie-groups/e7-root-projection-trichotomy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f514f330d65e4abca0983c610f3186c27ffb6f513ed35e222fc1e75c8d18dc5b",
+      "evidence": "Full source review of E7 root-projection trichotomy: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/root-system",
+        "lie-groups/generation-sl3-in-e7",
+        "linear-algebra/orthogonal-projection"
+      ],
+      "prerequisites": [
+        "lie-groups/root-system",
+        "lie-groups/generation-sl3-in-e7",
+        "linear-algebra/orthogonal-projection"
+      ]
+    },
+    {
+      "id": "lie-groups/effective-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8378d8e6bbc823cd6423af9751362270a212e6ee9f61074ee61fa39c49d05771",
+      "evidence": "Full source review of Effective action: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ]
+    },
+    {
+      "id": "lie-groups/en-series-of-lie-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4feea3c3f0240cbfe04bf0cafe5a91ce29f38d47b53f462d9ff363acf55743b8",
+      "evidence": "Full source review of En series of Lie algebras: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/essentially-skew-adjoint-derived-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b6a4972e006fe0f9e638b017204158fb73cb144c6cd2153fed97c97948765eb",
+      "evidence": "Full source review of Essential skew-adjointness of derived representation operators: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/strongly-continuous-unitary-representation",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/derived-representation-on-smooth-vectors",
+        "lie-groups/infinitesimal-generator-unitary-representation",
+        "lie-groups/stone-theorem-one-parameter-unitary-groups"
+      ],
+      "prerequisites": [
+        "lie-groups/strongly-continuous-unitary-representation",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/derived-representation-on-smooth-vectors",
+        "lie-groups/infinitesimal-generator-unitary-representation",
+        "lie-groups/stone-theorem-one-parameter-unitary-groups"
+      ]
+    },
+    {
+      "id": "lie-groups/even-and-odd-exterior-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a227e722e2c85f005a0f909b9cbb20ae24cca5eefd8bd1b8716602ec4637da35",
+      "evidence": "Full source review of Even and odd exterior algebra: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "algebra-modules/exterior-algebra"
+      ],
+      "prerequisites": [
+        "algebra-modules/exterior-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/example-heisenberg-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40c183b90a12a7e7fc1ee91ae2705f03ecf92353689656bb996d698be11ded48",
+      "evidence": "Full source review of Example: the Heisenberg Lie algebra: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/nilpotent-lie-algebra",
+        "lie-groups/derived-subalgebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/nilpotent-lie-algebra",
+        "lie-groups/derived-subalgebra"
+      ]
+    },
+    {
+      "id": "lie-groups/example-sl2c",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c68c1531e7c472812043a080ba226875511d0ef5bbe90b49b58ef8e65b0f2d8",
+      "evidence": "Full source review of Complex Lie algebra sl2(C): the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/adjoint-representation-of-a-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "lie-groups/dynkin-diagram",
+        "lie-groups/adjoint-representation-of-a-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/example-so3",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6fdae1379e91ea6b0bf3e353a08aee2dc5f8f6dd3a1ded4e2bd2baa6c7e6839f",
+      "evidence": "Full source review of Example: SO(3) and rotations: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "lie-groups/orthogonal-lie-algebra",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "lie-groups/orthogonal-lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/example-sphere-homogeneous",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2dc9205509e2c480aaa8f003bcd82c296820c023d3f276c998c54370bf4625ee",
+      "evidence": "Full source review of Example: the sphere as a homogeneous space: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "lie-groups/smooth-action-lie-group",
+        "lie-groups/transitive-action-lie",
+        "lie-groups/stabilizer-lie-group",
+        "lie-groups/lie-subgroup",
+        "lie-groups/coset-space"
+      ],
+      "prerequisites": [
+        "lie-groups/special-orthogonal-group",
+        "lie-groups/smooth-action-lie-group",
+        "lie-groups/transitive-action-lie",
+        "lie-groups/stabilizer-lie-group",
+        "lie-groups/lie-subgroup",
+        "lie-groups/coset-space"
+      ]
+    },
+    {
+      "id": "lie-groups/example-strictly-upper-triangular",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ce0b2a7c9073bef98f31db5aad4498ffc50e7e2413289a37d8d33abb5ea16e9",
+      "evidence": "Full source review of Example: strictly upper triangular matrices: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/nilpotent-lie-algebra",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "lie-groups/nilpotent-lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/example-su2",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80c71c169d76b338f0b2817f4a9e8268690b35c9994a258afbfffc9bc6082601",
+      "evidence": "Full source review of Example: \\(SU(2)\\) and its Lie algebra: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/special-unitary-group",
+        "lie-groups/special-unitary-lie-algebra",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "lie-groups/special-unitary-group",
+        "lie-groups/special-unitary-lie-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/example-torus",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f8d19b05e0a9b94a3b17737018d6a258cabf02a7e8ed48bf4ffb707a18fa276",
+      "evidence": "Full source review of Example: the torus \\(T^n\\): the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/abelian-lie-group",
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/exponential-map-lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/abelian-lie-group",
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/exponential-map-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/example-u1-circle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37d634bb4fdd97328bbb180bb77d96ad1b04e48d57b4db7fef67cfa2bec3cac1",
+      "evidence": "Full source review of Example: U(1) (the circle group): the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/abelian-lie-group",
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/exponential-map-lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/abelian-lie-group",
+        "lie-groups/abelian-lie-algebra",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/exponential-map-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/example-upper-triangular",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "94a97012202e2096d07e92ce9250a933c3cbb844c9363dbe4b84d313954c68d0",
+      "evidence": "Full source review of Example: upper triangular matrices (a solvable Lie algebra): the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/general-linear-group",
+        "lie-groups/lie-subgroup",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "lie-groups/general-linear-group",
+        "lie-groups/lie-subgroup",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-chain-to-the-standard-model",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6592f7de3d18c188f4faf6ea1ab6d4745299c7b9532568ae026299728dd798b5",
+      "evidence": "Full source review of Exceptional chain to the Standard Model Lie algebra: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/simple-root",
+        "lie-groups/removing-a-simple-root",
+        "lie-groups/regular-lie-subalgebra",
+        "lie-groups/maximal-levi-subalgebra"
+      ],
+      "prerequisites": [
+        "lie-groups/cartan-subalgebra",
+        "lie-groups/simple-root",
+        "lie-groups/removing-a-simple-root",
+        "lie-groups/regular-lie-subalgebra",
+        "lie-groups/maximal-levi-subalgebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-e-root-systems",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7e57983d2a86bd9cb4822c30173de4b3a5eb35caacb6488d6a46b55b5caa38e",
+      "evidence": "Full source review of Exceptional E-type root systems: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/simply-laced-root-system",
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/root-space",
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/dynkin-diagram"
+      ],
+      "prerequisites": [
+        "lie-groups/simply-laced-root-system",
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/root-space",
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/dynkin-diagram"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e6",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35af039e4f0af957a3b7a079255aa59325f312725dce3ef491050011e527f968",
+      "evidence": "Full source review of Exceptional Lie algebra e6: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/adjoint-representation-of-a-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/adjoint-representation-of-a-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34b084508b206e6625e3871cc9dc05c574cd62f45fc611a9e5b2f0e4bfed78f1",
+      "evidence": "Full source review of Exceptional Lie algebra e7: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation"
+      ],
+      "prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e8",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7631e57bf3dfb06fa6299a063fec2a8cfe51799dc21b153b21914eb9a1265851",
+      "evidence": "Full source review of Exceptional Lie algebra e8: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/adjoint-representation-of-a-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation",
+        "lie-groups/adjoint-representation-of-a-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-f4",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a3fb7564e4fb425567721cf26ae2b12f4383cbfa853eb1539e929239fd780f0",
+      "evidence": "Full source review of Exceptional Lie algebra f4: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation"
+      ],
+      "prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation"
+      ]
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-g2",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "291952fdd59c17c4c576f6e8091fdad6bccd1871199be6c7fec0cd22db02519e",
+      "evidence": "Full source review of Exceptional Lie algebra g2: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation"
+      ],
+      "prerequisites": [
+        "lie-groups/simple-lie-algebra",
+        "lie-groups/root-system",
+        "algebra-representation-theory/irreducible-representation"
+      ]
+    },
+    {
+      "id": "lie-groups/exponential-local-diffeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a07e6ffe6d4a7d5cffecdb7d9a924804b1480bab331211925adbf203674ed0b",
+      "evidence": "Full source review of Exponential map is a local diffeomorphism: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/exponential-map-lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/exponential-map-lie-group"
+      ]
+    },
+    {
+      "id": "lie-groups/exponential-map-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "707fbee0553b3cf9de66b6f34ba6f7f334ca6f51d690da9e7457aef0d72cf00e",
+      "evidence": "Full source review of Exponential map of a Lie group: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/one-parameter-subgroup"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/one-parameter-subgroup"
+      ]
+    },
+    {
+      "id": "lie-groups/exponential-one-parameter-subgroup-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84862aaca08803f1aef859ab9c649604d916057ebeaad07e1a5bfa763c43cbb3",
+      "evidence": "Full source review of Exponentials and one-parameter subgroups: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/exponential-map-lie-group",
+        "lie-groups/one-parameter-subgroup"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra-of-a-lie-group",
+        "lie-groups/exponential-map-lie-group",
+        "lie-groups/one-parameter-subgroup"
+      ]
+    },
+    {
+      "id": "lie-groups/exterior-algebra-of-a-direct-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "043d47d169b220a03ac74dd9b98187426bc24eb94e840c67f9bd79a7b3a370e2",
+      "evidence": "Full source review of Exterior algebra of a direct sum: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "supergeometry/koszul-sign-rule"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "supergeometry/koszul-sign-rule"
+      ]
+    },
+    {
+      "id": "lie-groups/exterior-power-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c07331a05eb12a74aa7207d02ccbe810eb17e7d0bd4bccc726c14c588944198",
+      "evidence": "Full source review of Exterior-power representation: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/representation-of-a-lie-group",
+        "algebra-modules/exterior-algebra",
+        "lie-groups/representation-of-a-lie-algebra",
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/representation-of-a-lie-group",
+        "algebra-modules/exterior-algebra",
+        "lie-groups/representation-of-a-lie-algebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/fixed-vector-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e84276a7a5820b704b0bb9a7ea5702eaf8cdda324e100ee6a2911014e102f463",
+      "evidence": "Full source review of Fixed-vector subspace: the core statement was checked against each prerequisite. Listed entries supply its ambient structures and named constructions; examples and downstream applications remain ordinary links.",
+      "previous_prerequisites": [
+        "lie-groups/representation-of-a-lie-group",
+        "lie-groups/representation-of-a-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/representation-of-a-lie-group",
+        "lie-groups/representation-of-a-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/compact-real-form",
+      "outcome": "corrected",
+      "source_sha256": "2c7f0bfe5fcd80990534b7046660261fa9216c836b2225369be5bff2a1e41b02",
+      "evidence": "The definition is for a real form of a complex semisimple Lie algebra; the compact Lie group appears only in the equivalence and is an integrating application. Removing fiber-bundles/lie-group keeps the prerequisite core at Lie-algebra level while retaining semisimple Lie algebra, Lie subalgebra, Killing form, and Lie algebra.",
+      "previous_prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/lie-subalgebra",
+        "lie-groups/killing-form",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/lie-subalgebra",
+        "lie-groups/killing-form",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "topology/singular-chain-complex",
+      "outcome": "corrected",
+      "source_sha256": "0c7d6a84998a6b8f7cbc068274fbc1f969c6f55bc6f4665ab4eb224fab80a4ea",
+      "evidence": "Defines singular simplices, the alternating face boundary, and verifies the chain-complex structure; these are the complete prerequisites for singular chains.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "algebra-groups/abelian-group",
+        "algebra-homological/chain-complex"
+      ]
+    },
+    {
+      "id": "topology/singular-homology-group",
+      "outcome": "corrected",
+      "source_sha256": "3e7b405d43fe9234e07e57c7b751d65c6b85965520eaabb8ec8e77a16aec833f",
+      "evidence": "Defines H_n as cycles modulo boundaries of the singular chain complex and records functoriality; the chain-complex and homology abstractions are genuine prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/singular-chain-complex",
+        "algebra-groups/abelian-group",
+        "algebra-homological/homology-module"
+      ]
+    },
+    {
+      "id": "topology/relative-singular-homology",
+      "outcome": "corrected",
+      "source_sha256": "9d55523eb9ac888bab78fe36c84a553f43984a116703e41766dc15eee3060b01",
+      "evidence": "Defines the quotient complex C(X,B;A) and relative cycles, then derives the long exact sequence from the short exact sequence of complexes.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/singular-chain-complex",
+        "topology/singular-homology-group",
+        "algebra-homological/homology-module"
+      ]
+    },
+    {
+      "id": "topology/fundamental-class",
+      "outcome": "corrected",
+      "source_sha256": "0eb01b9bd7798072813887dbd768e9b1788bec8ac0c900fb91c68a80ca60f36d",
+      "evidence": "The opening definition uses H_n(M;R), and the boundary variant uses relative homology; both now point to complete singular homology foundations. Integration removed trailing whitespace only.",
+      "previous_prerequisites": [
+        "topology/closed-manifold",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/orientation-of-a-real-vector-bundle"
+      ],
+      "prerequisites": [
+        "topology/closed-manifold",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "topology/singular-homology-group",
+        "topology/relative-singular-homology"
+      ]
+    },
+    {
+      "id": "topology/singular-cohomology-group",
+      "outcome": "corrected",
+      "source_sha256": "9a857b776b6459247c6440064b5640c86512efed2db196b604631e7dd3ce7cbf",
+      "evidence": "The cochain definition depends on the singular chain groups and their full alternating boundary; it now links to the dedicated chain-complex knowl rather than leaving that construction implicit.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "algebra-groups/abelian-group",
+        "topology/continuous-map",
+        "algebra-homological/cohomology-module",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "algebra-groups/abelian-group",
+        "topology/continuous-map",
+        "topology/singular-chain-complex",
+        "algebra-homological/cohomology-module",
+        "algebra-homological/cochain-complex"
+      ]
+    },
+    {
+      "id": "algebra-homological/cohomology-module",
+      "outcome": "corrected",
+      "source_sha256": "f0b23516755d6e731be379d3f17d71498d45e41b746a6b08476c52f5f9eefa86",
+      "evidence": "The two-term example asserted ker(×n)=0 without excluding n=0; specifying n≠0 makes the stated kernel and cokernel correct.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-homological/cochain-complex"
+      ]
+    },
+    {
+      "id": "algebra-homological/homology-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e6f783a5983cce1533d8e1307f332aa226f3a5417bbcb22b7bb8a5456a828d3",
+      "evidence": "The two-term example already specifies n≠0, so its asserted kernel and cokernel are correct.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-homological/chain-complex",
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-homological/chain-complex",
+        "algebra-modules/module"
+      ]
+    }
+  ]
+}

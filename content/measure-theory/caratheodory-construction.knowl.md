@@ -6,9 +6,9 @@ summary = "A method that turns an outer measure into a measure by selecting Cara
 aliases = ["caratheodory-construction", "Carathéodory construction"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/caratheodory-construction.md"
-prerequisites = ["measure-theory/outer-measure", "measure-theory/caratheodory-measurable-set", "measure-theory/sigma-algebra", "measure-theory/measure"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["measure-theory/outer-measure", "measure-theory/sigma-algebra", "measure-theory/measure"]
+dependency_heuristic = "dependency-structure-review-v1"
+dependency_review_count = 2
 +++
 
 **Carathéodory construction:** Let \(\mu^*\) be an [[measure-theory/outer-measure|outer measure]] on a set \(X\). Define

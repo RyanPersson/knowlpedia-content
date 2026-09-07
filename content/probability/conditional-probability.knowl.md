@@ -6,7 +6,7 @@ summary = "[[probability/event-probability|Probability of an event]] given anoth
 aliases = ["conditional-probability", "Conditional probability"]
 domains = ["probability"]
 legacy_source_path = "probability/conditional-probability.md"
-prerequisites = ["measure-theory/sigma-algebra", "probability/probability-space", "probability/random-variable", "probability/conditional-expectation"]
+prerequisites = ["measure-theory/sigma-algebra", "probability/probability-space"]
 dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++

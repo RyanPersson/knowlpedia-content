@@ -6,9 +6,9 @@ summary = "A distance function on a set satisfying positivity, symmetry, and the
 aliases = ["metric"]
 domains = ["topology"]
 legacy_source_path = "topology/metric.md"
-prerequisites = ["shared-foundations/set", "shared-foundations/function"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/set", "shared-foundations/function", "shared-foundations/real-numbers"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **metric** on a [[shared-foundations/set|set]] \(X\) is a [[shared-foundations/function|function]] \(d\colon X\times X\to[0,\infty)\) such that for all \(x,y,z\in X\):
@@ -16,6 +16,8 @@ A **metric** on a [[shared-foundations/set|set]] \(X\) is a [[shared-foundations
 1. (Identity of indiscernibles) \(d(x,y)=0\) if and only if \(x=y\).
 2. (Symmetry) \(d(x,y)=d(y,x)\).
 3. (Triangle inequality) \(d(x,z)\le d(x,y)+d(y,z)\).
+
+## Induced structure
 
 A metric is the basic structure underlying a [[topology/metric-space|metric space]]; it determines [[topology/open-ball|open balls]] and hence the [[topology/metric-induced-topology|metric-induced topology]].
 

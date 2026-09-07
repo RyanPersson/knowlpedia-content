@@ -6,7 +6,7 @@ summary = "A Banach *-algebra whose norm and involution satisfy the C*-identity.
 aliases = []
 domains = ["operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra"]
+prerequisites = ["operator-algebras/involutive-algebra", "functional-analysis/banach-algebra", "operator-algebras/cstar-identity"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++

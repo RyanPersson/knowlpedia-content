@@ -6,7 +6,7 @@ summary = "Exponential tail bound using moment generating functions."
 aliases = ["chernoff-bound", "Chernoff bound"]
 domains = ["probability"]
 legacy_source_path = "probability/chernoff-bound.md"
-prerequisites = ["probability/random-variable"]
+prerequisites = ["probability/random-variable", "probability/expectation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

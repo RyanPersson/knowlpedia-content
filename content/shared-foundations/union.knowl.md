@@ -6,20 +6,20 @@ summary = "The set of elements that belong to at least one of the given sets."
 aliases = ["union"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/union.md"
-prerequisites = ["shared-foundations/set", "shared-foundations/indexed-family-of-sets"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/set"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **union** is the set obtained by collecting all elements that lie in at least one set in a given collection. For sets \(A,B\),
+The **union** of a set \(\mathcal A\) of [[shared-foundations/set|sets]] is
 \[
-A\cup B=\{x : x\in A \text{ or } x\in B\}.
+\bigcup\mathcal A=\{x:\text{there exists }A\in\mathcal A\text{ with }x\in A\}.
 \]
 
-More generally, for an [[shared-foundations/indexed-family-of-sets|indexed family of sets]] \((A_i)_{i\in I}\),
-\[
-\bigcup_{i\in I} A_i=\{x : \exists i\in I\text{ with }x\in A_i\}.
-\]
+## Notation
+
+For two sets, write \(A\cup B=\bigcup\{A,B\}\).
+For an [[shared-foundations/indexed-family-of-sets|indexed family]] \((A_i)_{i\in I}\), the notation \(\bigcup_{i\in I}A_i\) means the union of the sets in its range.
 
 ## Remarks
 

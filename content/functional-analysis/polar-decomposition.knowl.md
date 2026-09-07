@@ -6,7 +6,7 @@ summary = "Writing T as a unitary/orthogonal part times a positive part"
 aliases = ["polar-decomposition", "Polar Decomposition"]
 domains = ["functional-analysis"]
 legacy_source_path = "shale-paper/polar-decomposition.md"
-prerequisites = ["linear-algebra/hilbert-space"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

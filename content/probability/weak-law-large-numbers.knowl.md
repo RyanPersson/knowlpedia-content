@@ -6,7 +6,7 @@ summary = "Sample averages of iid variables converge in probability to the mean.
 aliases = ["weak-law-large-numbers", "Weak law of large numbers"]
 domains = ["probability"]
 legacy_source_path = "probability/weak-law-large-numbers.md"
-prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "probability/variance", "probability/probability-space", "probability/chebyshev-inequality"]
+prerequisites = ["probability/iid-sequence", "probability/random-variable", "probability/expectation", "probability/variance"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

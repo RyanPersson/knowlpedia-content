@@ -6,12 +6,12 @@ summary = "The maximum discrepancy between two nonempty compact subsets of a met
 aliases = ["Hausdorff metric", "Hausdorff convergence"]
 domains = ["topology", "metric-geometry", "convex-analysis"]
 section_mode = "progressive"
-prerequisites = ["topology/metric-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/metric-space", "topology/compact-set", "real-analysis/supremum", "real-analysis/infimum"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-For nonempty compact subsets \(A,B\) of a
+For nonempty [[topology/compact-set|compact subsets]] \(A,B\) of a
 [[topology/metric-space|metric space]] \((X,d)\), their **Hausdorff distance**
 is
 \[
@@ -29,7 +29,7 @@ Equivalently,
 d_H(A,B)=\inf\{\varepsilon>0:
 A\subseteq B_\varepsilon\text{ and }B\subseteq A_\varepsilon\}.
 \]
-On the nonempty compact subsets of \(X\), this is a genuine metric. For more
+Here \(C_\varepsilon=\{x\in X:d(x,C)<\varepsilon\}\). On the nonempty compact subsets of \(X\), this is a genuine metric. For more
 general closed unbounded subsets it may be infinite.
 
 ## Convex bodies

@@ -6,7 +6,7 @@ summary = "An integrable random variable characterized by its averages over even
 aliases = ["conditional-expectation", "Conditional expectation"]
 domains = ["probability"]
 legacy_source_path = "probability/conditional-expectation.md"
-prerequisites = ["probability/random-variable", "probability/probability-space", "measure-theory/measurable-function", "probability/expectation", "measure-theory/indicator-function"]
+prerequisites = ["probability/random-variable", "probability/probability-space", "measure-theory/sigma-algebra", "measure-theory/measurable-function", "measure-theory/lebesgue-integrable-function", "probability/expectation", "measure-theory/indicator-function", "measure-theory/almost-everywhere"]
 dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++

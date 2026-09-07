@@ -7,8 +7,8 @@ aliases = ["separated-sets", "Separated sets"]
 domains = ["topology"]
 legacy_source_path = "topology/separated-sets.md"
 prerequisites = ["topology/topological-space", "topology/closure"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Two **separated sets** \(A\) and \(B\) in a [[topology/topological-space|topological space]] \(X\) are subsets such that
@@ -18,6 +18,8 @@ A\cap \overline{B}=\varnothing
 \overline{A}\cap B=\varnothing,
 \]
 where \(\overline{A}\) and \(\overline{B}\) denote [[topology/closure|closures]] in \(X\).
+
+## Related notions
 
 Separatedness is the key notion used to define [[topology/connected-set|connectedness]]: a space is disconnected exactly when it can be written as a union of two nonempty separated sets.
 

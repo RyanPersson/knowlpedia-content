@@ -6,7 +6,7 @@ summary = "A regular unitary representation of the Weyl relations for a real sym
 aliases = ["weyl-ccr-quantization", "Weyl CCR Quantization"]
 domains = ["mathematical-physics"]
 legacy_source_path = "shale-paper/weyl-ccr-quantization.md"
-prerequisites = ["functional-analysis/symplectic-hilbert-space"]
+prerequisites = ["functional-analysis/symplectic-hilbert-space", "lie-groups/stone-theorem-one-parameter-unitary-groups"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

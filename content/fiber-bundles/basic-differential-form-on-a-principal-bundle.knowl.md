@@ -6,7 +6,7 @@ summary = "A differential form on a principal bundle that is horizontal and inva
 aliases = ["basic-differential-form-on-a-principal-bundle", "Basic differential form on a principal bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/basic-differential-form-on-a-principal-bundle.md"
-prerequisites = ["fiber-bundles/horizontal-differential-form-on-a-principal-bundle", "fiber-bundles/invariant-differential-form", "fiber-bundles/exterior-derivative"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/differential-k-form", "fiber-bundles/horizontal-differential-form-on-a-principal-bundle", "fiber-bundles/invariant-differential-form", "fiber-bundles/exterior-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

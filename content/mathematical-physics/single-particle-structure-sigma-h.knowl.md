@@ -6,7 +6,7 @@ summary = "Segal's package (K,B) extracted from a complex Hilbert space H for CC
 aliases = ["single-particle-structure-sigma-h", "Single Particle Structure Σ(H)"]
 domains = ["mathematical-physics"]
 legacy_source_path = "shale-paper/single-particle-structure-sigma-h.md"
-prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/symplectic-form"]
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/symplectic-form", "functional-analysis/symplectic-hilbert-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

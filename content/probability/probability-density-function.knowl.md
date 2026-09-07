@@ -6,7 +6,7 @@ summary = "A nonnegative measurable function whose integrals give probabilities 
 aliases = ["probability density function", "PDF"]
 domains = ["probability"]
 section_mode = "progressive"
-prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-integral", "measure-theory/lebesgue-measure"]
+prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-integral", "measure-theory/lebesgue-measure", "measure-theory/measurable-function"]
 dependency_heuristic = "probability-foundations-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "For an increasing sequence of nonnegative measurable functions, the i
 aliases = ["monotone-convergence-theorem", "Monotone convergence theorem"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/monotone-convergence-theorem.md"
-prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "measure-theory/almost-everywhere", "measure-theory/null-set", "measure-theory/ae-equality", "measure-theory/lebesgue-integral"]
+prerequisites = ["measure-theory/measure-space", "shared-foundations/sequence", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "measure-theory/lebesgue-integral"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

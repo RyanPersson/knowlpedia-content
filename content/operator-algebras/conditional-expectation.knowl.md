@@ -6,7 +6,7 @@ summary = "A conditional expectation is a completely positive contractive bimodu
 aliases = ["C*-conditional expectation", "conditional expectation onto a subalgebra"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/cstar-subalgebra", "operator-algebras/completely-positive-map", "linear-algebra/linear-map"]
+prerequisites = ["operator-algebras/cstar-subalgebra", "operator-algebras/completely-positive-map", "operator-algebras/completely-positive-contraction", "linear-algebra/linear-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

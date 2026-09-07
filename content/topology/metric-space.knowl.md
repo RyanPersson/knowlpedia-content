@@ -7,11 +7,13 @@ aliases = ["metric-space", "Metric space"]
 domains = ["topology"]
 legacy_source_path = "topology/metric-space.md"
 prerequisites = ["shared-foundations/set", "topology/metric"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **metric space** is a pair \((X,d)\) where \(X\) is a [[shared-foundations/set|set]] and \(d\) is a [[topology/metric|metric]] on \(X\).
+
+## Induced structure
 
 Every metric space determines a [[topology/topological-space|topological space]] via the [[topology/metric-induced-topology|metric-induced topology]], whose basic neighborhoods are [[topology/open-ball|open balls]].
 

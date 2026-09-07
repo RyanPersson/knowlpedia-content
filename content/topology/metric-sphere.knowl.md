@@ -7,8 +7,8 @@ aliases = ["metric-sphere", "Metric sphere"]
 domains = ["topology"]
 legacy_source_path = "topology/metric-sphere.md"
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **metric sphere** in a metric space \((X,d)\) is a set of the form
@@ -19,7 +19,7 @@ where \(x\in X\) and \(r\ge 0\).
 
 ## Remarks
 
-A sphere can be written as \(\overline{B}_d(x,r)\setminus B_d(x,r)\), so it sits between the [[topology/open-ball|open ball]] and [[topology/closed-ball|closed ball]] of the same radius.
+For \(r>0\), a sphere can be written as \(\overline{B}_d(x,r)\setminus B_d(x,r)\), so it sits between the [[topology/open-ball|open ball]] and [[topology/closed-ball|closed ball]] of the same radius.
 
 ## Examples
 

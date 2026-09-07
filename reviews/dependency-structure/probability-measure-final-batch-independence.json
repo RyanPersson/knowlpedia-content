@@ -1,0 +1,4 @@
+{
+  "scope":"remaining probability source",
+  "reviews":[{"id":"probability/independence-sigma-algebras","outcome":"reviewed_unchanged","source_sha256":"db2e8d11d096365fafb98b82e7e24a5e682adea711eaa644aaa9b80fb8a34596","evidence":"The core defines factorization for sub-sigma-algebras on a probability space; probability-space and sigma-algebra are direct. Variable independence is a later characterization."}]
+}

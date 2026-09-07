@@ -6,10 +6,12 @@ summary = "A topological group whose underlying topological space is locally com
 aliases = ["locally compact group", "locally compact topological group"]
 domains = ["topology", "algebra-groups"]
 prerequisites = ["topology/topological-group", "topology/locally-compact-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **locally compact group** is a [[topology/topological-group|topological group]] \(G\) whose underlying space is [[topology/locally-compact-space|locally compact]]. Thus multiplication \(G\times G\to G\) and inversion \(G\to G\) are continuous, and every point has a neighborhood with compact closure.
+A **locally compact group** is a [[topology/topological-group|topological group]] \(G\) whose underlying space is [[topology/locally-compact-space|locally compact]].
+
+## Checking local compactness
 
 Because left and right translations are [[topology/homeomorphism|homeomorphisms]], it is enough to check local compactness at the identity element. Lie groups, finite groups with the discrete topology, and the additive groups of \(\mathbb R^n\) and of the [[shared-foundations/p-adic-integers|\(p\)-adic integers]] are standard examples.

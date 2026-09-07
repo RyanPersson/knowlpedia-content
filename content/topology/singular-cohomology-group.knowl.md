@@ -6,12 +6,12 @@ summary = "The cohomology of the cochain complex dual to the singular chain comp
 aliases = ["ordinary cohomology", "integral cohomology", "H^k(X,R)"]
 domains = ["topology"]
 section_mode = "progressive"
-prerequisites = ["topology/topological-space", "algebra-groups/abelian-group", "topology/continuous-map", "algebra-homological/cohomology-module", "algebra-homological/cochain-complex"]
+prerequisites = ["topology/topological-space", "algebra-groups/abelian-group", "topology/continuous-map", "topology/singular-chain-complex", "algebra-homological/cohomology-module", "algebra-homological/cochain-complex"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 3
 +++
 
-Let \(X\) be a [[topology/topological-space|topological space]] and \(A\) an [[algebra-groups/abelian-group|abelian group]]. The singular \(k\)-chains \(C_k(X;\mathbb Z)\) form the free abelian group on [[topology/continuous-map|continuous maps]] \(\Delta^k\to X\), with the alternating face boundary \(\partial\). The singular cochains with coefficients in \(A\) are
+Let \(X\) be a [[topology/topological-space|topological space]] and \(A\) an [[algebra-groups/abelian-group|abelian group]]. By [[topology/singular-chain-complex|the singular chain construction]], the groups \(C_k(X;\mathbb Z)\) carry the alternating face boundary \(\partial\). The singular cochains with coefficients in \(A\) are
 \[
 C^k(X;A)
 :=

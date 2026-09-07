@@ -7,9 +7,9 @@ aliases = ["fiberwise linear bundle map"]
 domains = ["fiber-bundles", "category-theory"]
 section_mode = "progressive"
 legacy_source_path = "fiber-bundles/vector-bundle-morphism.md"
-prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-map"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 Let \(\pi_E:E\to M\) and \(\pi_F:F\to N\) be smooth real or [[fiber-bundles/complex-vector-bundle|complex vector bundles]]. A **vector bundle morphism** (also called a *fiberwise linear bundle map*) from \(E\) to \(F\) is a pair \((\Phi,f)\) consisting of a [[fiber-bundles/smooth-map|smooth map]] \(\Phi:E\to F\) and a smooth map \(f:M\to N\) such that:

@@ -6,7 +6,7 @@ summary = "Definition of a principal connection 1-form and the horizontal distri
 aliases = ["connection-1-form-on-a-principal-bundle", "Connection 1-form on a principal bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/connection-1-form-on-a-principal-bundle.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/reproduction-property-x", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/vertical-subbundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p", "lie-groups/lie-algebra-of-a-lie-group", "fiber-bundles/differential-k-form", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/reproduction-property-x", "lie-groups/adjoint-action-of-a-lie-group", "fiber-bundles/vertical-subbundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

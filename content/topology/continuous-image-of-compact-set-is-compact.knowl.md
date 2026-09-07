@@ -13,4 +13,4 @@ dependency_review_count = 1
 
 Let \(f:X\to Y\) be a [[topology/continuous-map|continuous map]] between [[topology/topological-space|topological spaces]]. If \(K\subseteq X\) is [[topology/compact-set|compact]], then its [[shared-foundations/image|image]] \(f(K)\) is compact in \(Y\).
 
-This is one of the most important invariance properties in topology; it underlies results like [[topology/continuous-attains-max-min-compact|attainment of maxima and minima on compact domains]].
+This is one of the most important invariance properties in topology; it underlies results like [[topology/extreme-value-theorem|attainment of maxima and minima on compact domains]].

@@ -6,7 +6,7 @@ summary = "How a local connection 1-form changes under a change of local section
 aliases = ["gauge-transform-of-a-local-connection-form", "Gauge transform of a local connection form"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/gauge-transform-of-a-local-connection-form.md"
-prerequisites = ["fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/smooth-map"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

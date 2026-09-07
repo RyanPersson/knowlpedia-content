@@ -6,7 +6,7 @@ summary = "Normalized covariance giving a scale-free measure of linear associati
 aliases = ["correlation-coefficient", "Correlation coefficient"]
 domains = ["probability"]
 legacy_source_path = "probability/correlation-coefficient.md"
-prerequisites = ["probability/random-variable", "probability/covariance"]
+prerequisites = ["probability/random-variable", "probability/covariance", "probability/variance"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

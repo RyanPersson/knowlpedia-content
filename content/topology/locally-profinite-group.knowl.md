@@ -6,14 +6,16 @@ summary = "A locally compact totally disconnected Hausdorff group, equivalently 
 aliases = ["locally profinite topological group", "totally disconnected locally compact group", "tdlc group", "t.d.l.c. group"]
 domains = ["topology", "harmonic-analysis", "langlands"]
 section_mode = "progressive"
-prerequisites = ["topology/topological-group", "topology/locally-compact-group"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-group", "topology/locally-compact-group", "topology/hausdorff-space", "topology/totally-disconnected-space"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **locally profinite group** is a Hausdorff
 [[topology/topological-group|topological group]] that is
-[[topology/locally-compact-group|locally compact]] and totally disconnected.
+[[topology/locally-compact-group|locally compact]] and [[topology/totally-disconnected-space|totally disconnected]].
+
+## Compact open subgroups
 
 By van Dantzig's theorem, this is equivalent to requiring that the identity
 have a neighborhood basis consisting of compact open subgroups.  A compact

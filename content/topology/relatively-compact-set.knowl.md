@@ -7,13 +7,15 @@ aliases = ["relatively-compact-set", "Relatively compact set"]
 domains = ["topology"]
 legacy_source_path = "topology/relatively-compact-set.md"
 prerequisites = ["topology/topological-space", "topology/closure", "topology/compact-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **relatively compact set** (or **precompact set**) is a subset \(A\subseteq X\) of a [[topology/topological-space|topological space]] \(X\) such that its [[topology/closure|closure]] \(\overline{A}\) is [[topology/compact-set|compact]] in \(X\).
+A **relatively compact set** is a subset \(A\subseteq X\) of a [[topology/topological-space|topological space]] \(X\) such that its [[topology/closure|closure]] \(\overline{A}\) is [[topology/compact-set|compact]] in \(X\).
 
-Relative compactness depends on the ambient space and topology (it is not purely an intrinsic property of \(A\)). In metric spaces it is closely related to [[topology/totally-bounded-set|total boundedness]].
+## Ambient space and terminology
+
+Relative compactness depends on the ambient space and topology (it is not purely an intrinsic property of \(A\)). Some authors use “precompact” for relative compactness; in metric and uniform spaces it commonly means [[topology/totally-bounded-set|totally bounded]], which is equivalent to relative compactness when the ambient metric space is complete. These notions can differ in an incomplete ambient space.
 
 ## Examples
 

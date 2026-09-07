@@ -6,9 +6,9 @@ summary = "The set of all limit points of a subset."
 aliases = ["derived-set", "Derived set"]
 domains = ["topology"]
 legacy_source_path = "topology/derived-set.md"
-prerequisites = ["topology/topological-space", "topology/limit-point", "topology/closure"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "topology/limit-point"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 The **derived set** of a subset \(A\subseteq X\) in a [[topology/topological-space|topological space]] is the set
@@ -16,6 +16,8 @@ The **derived set** of a subset \(A\subseteq X\) in a [[topology/topological-spa
 A'=\{x\in X : x \text{ is a limit point of } A\},
 \]
 where “limit point” is as in [[topology/limit-point|limit point]].
+
+## Relation to closure
 
 The derived set records the accumulation behavior of \(A\), and it satisfies the basic relationship with [[topology/closure|closure]]:
 \[

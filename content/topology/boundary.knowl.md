@@ -6,9 +6,9 @@ summary = "The set of points where every neighborhood meets both the set and its
 aliases = ["boundary"]
 domains = ["topology"]
 legacy_source_path = "topology/boundary.md"
-prerequisites = ["topology/metric-space", "topology/closure", "topology/interior"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/topological-space", "topology/closure", "topology/interior"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(X\) be a [[topology/topological-space|topological space]] and let \(A\subseteq X\). The **boundary** of \(A\), denoted \(\partial A\), is

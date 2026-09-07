@@ -6,21 +6,25 @@ summary = "A surjective submersion that is locally a product with a fixed model 
 aliases = ["smooth-fiber-bundle", "Smooth fiber bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/smooth-fiber-bundle.md"
-prerequisites = ["fiber-bundles/fibered-manifold", "fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism", "topology/open-set", "shared-foundations/preimage", "shared-foundations/cartesian-product", "differential-geometry/product-manifold", "shared-foundations/composition", "shared-foundations/restriction-of-a-function"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism", "topology/open-set", "shared-foundations/preimage", "shared-foundations/cartesian-product", "differential-geometry/product-manifold", "shared-foundations/composition", "shared-foundations/restriction-of-a-function"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(M\), \(E\), and \(F\) be smooth manifolds. A map \(\pi:E\to M\) is a **smooth fiber bundle** with typical fiber \(F\) if:
+Let \(M\), \(E\), and \(F\) be smooth manifolds, with \(F\) nonempty. A smooth map \(\pi:E\to M\) is a **smooth fiber bundle** with typical fiber \(F\) if:
 
-1. \(\pi\) is a surjective submersion (so \((E,\pi,M)\) is a [[fiber-bundles/fibered-manifold|fibered manifold]]), and
+1. \(\pi\) is surjective, and
 2. for every \(x\in M\) there exists an open neighborhood \(U\ni x\) and a [[fiber-bundles/diffeomorphism|diffeomorphism]]
    \[
    \Phi:\pi^{-1}(U)\longrightarrow U\times F
    \]
    such that \(\mathrm{pr}_1\circ \Phi=\pi|_{\pi^{-1}(U)}\).
 
+## Trivializations and consequences
+
 Such a \(\Phi\) is a [[fiber-bundles/local-trivialization|local trivialization]] of the bundle over \(U\), and \(F\) is called the [[fiber-bundles/typical-fiber|typical fiber]] (model fiber). A family of compatible local trivializations covering \(M\) forms a [[fiber-bundles/bundle-atlas|bundle atlas]], and on overlaps the change of trivialization is encoded by a [[fiber-bundles/transition-function|transition function]].
+
+The local product condition implies that \(\pi\) is a submersion, so every smooth fiber bundle is a [[fiber-bundles/fibered-manifold|fibered manifold]].
 
 ## Examples
 1. **Trivial bundle:** \(M\times F\to M\) with projection \(\mathrm{pr}_1\) is a smooth fiber bundle with typical fiber \(F\).

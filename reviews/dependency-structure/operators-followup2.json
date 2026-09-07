@@ -1,0 +1,11 @@
+{
+  "scope": "Mathematical-physics foundational structures",
+  "review_type": "dependencies",
+  "reviewed_at": "2026-09-07",
+  "reviews": [
+    {"id":"mathematical-physics/standard-model-gauge-group","outcome":"corrected","source_sha256":"8a92d6794caeb713dead55bf524d57cf2c6ede7092c2a9c2554eeb62b50593bd","previous_prerequisites":[],"prerequisites":["lie-groups/example-u1-circle","lie-groups/special-unitary-group"],"evidence":"The core is the product and central quotient of U(1), SU(2), and SU(3); the U(1) example and general special-unitary-group definitions supply those factors."},
+    {"id":"mathematical-physics/standard-model-fermion-generation","outcome":"corrected","source_sha256":"0e03544bc409f08d3dcbdf21d961ea88112c9eeed0799ebbeed33597304d6091","previous_prerequisites":[],"prerequisites":["mathematical-physics/standard-model-gauge-group","algebra-representation-theory/group-representation","algebra-representation-theory/contragredient-representation"],"evidence":"The core specifies multiplets as representations of the Standard Model group and uses dual representations for antiparticles."},
+    {"id":"mathematical-physics/single-particle-structure-sigma-h","outcome":"corrected","source_sha256":"b80f81fc6ab35bd8b6cebf270c9968d675ec771af7aad6896a3f46d9c02ca6a3","previous_prerequisites":["linear-algebra/hilbert-space","linear-algebra/symplectic-form"],"prerequisites":["linear-algebra/hilbert-space","linear-algebra/symplectic-form","functional-analysis/symplectic-hilbert-space"],"evidence":"The construction packages the underlying real Hilbert space with its continuous nondegenerate symplectic form, matching the canonical symplectic-Hilbert-space definition."}
+  ],
+  "summary": {"reviewed": 3, "corrected": 3, "reviewed_unchanged": 0}
+}

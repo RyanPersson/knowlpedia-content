@@ -6,9 +6,9 @@ summary = "A continuous real-valued function on a nonempty compact set attains i
 aliases = ["extreme-value-theorem", "Extreme value theorem"]
 domains = ["topology"]
 legacy_source_path = "topology/extreme-value-theorem.md"
-prerequisites = ["topology/compact-set", "topology/continuous-map"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/compact-set", "topology/continuous-map", "topology/continuous-image-of-compact-set-is-compact"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 The **extreme value theorem** states: if \(K\) is a nonempty
@@ -30,3 +30,7 @@ a maximum and a minimum on \([a,b]\).
 
 - The function \(f(x)=x\) on \((0,1)\) has neither a maximum nor a minimum.
 - The function \(f(x)=x\) on \([1,\infty)\) has no maximum.
+
+## Image formulation
+
+Equivalently, \(f(K)\subseteq\mathbb R\) has a [[real-analysis/minimum|minimum]] and a [[real-analysis/maximum|maximum]]. The result follows from [[topology/continuous-image-of-compact-set-is-compact|compactness of continuous images]] and the order properties of nonempty compact subsets of \(\mathbb R\).

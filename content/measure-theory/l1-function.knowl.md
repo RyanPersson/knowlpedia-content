@@ -6,7 +6,7 @@ summary = "A measurable function with finite integral of absolute value, modulo 
 aliases = ["l1-function", "L^1 function"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/l1-function.md"
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/ae-equality", "measure-theory/lp-norm", "measure-theory/lp-space", "measure-theory/lebesgue-integrable-function"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/ae-equality", "measure-theory/lebesgue-integrable-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,12 +6,12 @@ summary = "Local expression for the curvature of a principal connection in a cho
 aliases = ["local-curvature-formula-f-da-aa", "Local curvature formula"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/local-curvature-formula-f-da-aa.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/exterior-derivative", "fiber-bundles/lie-bracket"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\) and [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). Let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature|curvature]] \(\Omega\in\Omega^2(P;\mathfrak g)\). For an open set \(U\subset M\) and a local section \(s:U\to P\), define the local connection form and local curvature form by
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\) and [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). Let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(\Omega\in\Omega^2(P;\mathfrak g)\). For an open set \(U\subset M\) and a [[fiber-bundles/section-of-a-fiber-bundle|local section]] \(s:U\to P\), define the local connection form and local curvature form by
 \[
 A := s^*\omega \in \Omega^1(U;\mathfrak g),
 \qquad

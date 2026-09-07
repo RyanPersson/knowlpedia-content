@@ -6,9 +6,9 @@ summary = "A maximal nilpotent, self-normalizing subalgebra; in the semisimple c
 aliases = ["cartan-subalgebra", "Cartan subalgebra"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/cartan-subalgebra.md"
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/semisimple-lie-algebra"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "lie-groups/nilpotent-lie-algebra", "lie-groups/semisimple-lie-algebra"]
+dependency_heuristic = "dependency-structure-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\mathfrak{g}\) be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]] over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] of [[algebra-rings/characteristic|characteristic]] \(0\) (typically \(\mathbb{C}\)).

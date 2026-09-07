@@ -6,7 +6,7 @@ summary = "The strong and weak operator topologies on the bounded operators of a
 aliases = ["operator-topologies-sot-wot", "Strong vs Weak Operator Topology"]
 domains = ["operator-algebras"]
 legacy_source_path = "shale-paper/operator-topologies-sot-wot.md"
-prerequisites = ["linear-algebra/hilbert-space"]
+prerequisites = ["linear-algebra/hilbert-space", "linear-algebra/linear-operator", "operator-algebras/strong-operator-topology", "operator-algebras/weak-operator-topology"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

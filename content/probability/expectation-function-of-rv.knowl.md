@@ -6,7 +6,7 @@ summary = "Compute the expectation of a transformed random variable using the di
 aliases = ["expectation-function-of-rv", "Expectation of a function of a random variable"]
 domains = ["probability"]
 legacy_source_path = "probability/expectation-function-of-rv.md"
-prerequisites = ["probability/random-variable", "probability/distribution-law", "measure-theory/measurable-function"]
+prerequisites = ["probability/random-variable", "probability/distribution-law", "measure-theory/measurable-function", "probability/expectation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

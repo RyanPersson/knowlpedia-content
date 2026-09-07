@@ -6,7 +6,7 @@ summary = "The compact internal-symmetry group of the Standard Model, with an im
 aliases = ["Standard Model internal symmetry group", "Standard Model group"]
 domains = ["mathematical-physics", "lie-groups"]
 section_mode = "progressive"
-prerequisites = []
+prerequisites = ["lie-groups/example-u1-circle", "lie-groups/special-unitary-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,22 +6,26 @@ summary = "An additive map between vector spaces that twists scalar multiplicati
 aliases = ["semilinear transformation", "sigma-semilinear map", "semilinear isomorphism"]
 domains = ["linear-algebra", "algebra-fields-galois"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/vector-space", "algebra-fields-galois/field-automorphism"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/vector-space", "algebra-fields-galois/field-embedding"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(V\) be a [[linear-algebra/vector-space|vector space]] over a field \(k\), let \(W\) be a vector space over a field \(\ell\), and let \(\sigma:k\to\ell\) be a field homomorphism. A map \(T:V\to W\) is **\(\sigma\)-semilinear** if
+Let \(V\) be a [[linear-algebra/vector-space|vector space]] over a field \(k\), let \(W\) be a vector space over a field \(\ell\), and let \(\sigma:k\to\ell\) be a unital [[algebra-fields-galois/field-embedding|field homomorphism]]. A map \(T:V\to W\) is **\(\sigma\)-semilinear** if
 \[
 T(v+w)=T(v)+T(w),\qquad T(av)=\sigma(a)T(v)
 \]
-for all \(v,w\in V\) and \(a\in k\). When \(k=\ell\) and \(\sigma\) is a [[algebra-fields-galois/field-automorphism|field automorphism]], one simply calls \(T\) semilinear.
+for all \(v,w\in V\) and \(a\in k\).
+
+## Automorphism convention
+
+When \(k=\ell\) and \(\sigma\) is a [[algebra-fields-galois/field-automorphism|field automorphism]], one simply calls \(T\) semilinear.
 
 ## Relation to linear maps
 
 For \(\sigma=\operatorname{id}_k\), semilinearity is ordinary [[linear-algebra/linear-map|linearity]]. More generally, if \({}_{\sigma}W\) denotes \(W\) with scalar action \(a\cdot_\sigma w=\sigma(a)w\), then a \(\sigma\)-semilinear map \(V\to W\) is the same additive function as a \(k\)-linear map \(V\to{}_{\sigma}W\).
 
-A bijective semilinear self-map has an associated automorphism \(\sigma\), and its inverse is \(\sigma^{-1}\)-semilinear. Composing a \(\sigma\)-semilinear map with a \(\tau\)-semilinear map gives a \(\tau\circ\sigma\)-semilinear map.
+For an automorphism \(\sigma:k\to k\), the inverse of a bijective \(\sigma\)-semilinear self-map is \(\sigma^{-1}\)-semilinear. Composing a \(\sigma\)-semilinear map with a \(\tau\)-semilinear map gives a \(\tau\circ\sigma\)-semilinear map.
 
 ## Projective significance
 

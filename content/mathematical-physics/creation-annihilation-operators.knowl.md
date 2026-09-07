@@ -6,7 +6,7 @@ summary = "Operators adding/removing one symmetric tensor factor in bosonic Fock
 aliases = ["creation-annihilation-operators", "Creation and Annihilation Operators"]
 domains = ["mathematical-physics"]
 legacy_source_path = "shale-paper/creation-annihilation-operators.md"
-prerequisites = ["mathematical-physics/symmetric-fock-space"]
+prerequisites = ["mathematical-physics/symmetric-fock-space", "linear-algebra/hilbert-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

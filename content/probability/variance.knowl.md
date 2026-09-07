@@ -6,7 +6,7 @@ summary = "A measure of how spread out a random variable is around its mean."
 aliases = ["variance"]
 domains = ["probability"]
 legacy_source_path = "probability/variance.md"
-prerequisites = ["probability/random-variable", "probability/expectation", "real-analysis/absolute-value"]
+prerequisites = ["probability/random-variable", "probability/expectation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

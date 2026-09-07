@@ -6,7 +6,7 @@ summary = "A function whose preimages of measurable sets are measurable."
 aliases = ["measurable-function", "Measurable function"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/measurable-function.md"
-prerequisites = ["measure-theory/measurable-space", "measure-theory/measurable-set", "shared-foundations/function", "shared-foundations/preimage"]
+prerequisites = ["measure-theory/measurable-space", "shared-foundations/function", "shared-foundations/preimage"]
 dependency_heuristic = "semantic-foundations-review-v1"
 dependency_review_count = 1
 +++

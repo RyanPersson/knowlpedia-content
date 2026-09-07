@@ -6,9 +6,9 @@ summary = "The infinitesimal obstruction to integrability of a connection's hori
 aliases = ["curvature"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/curvature.md"
-prerequisites = ["fiber-bundles/horizontal-distribution", "fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/curvature-of-a-vector-bundle-connection", "fiber-bundles/characteristic-class"]
+prerequisites = ["fiber-bundles/horizontal-distribution", "fiber-bundles/principal-connection", "fiber-bundles/principal-g-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
 In differential geometry, **curvature** is the infinitesimal obstruction to integrability of the [[fiber-bundles/horizontal-distribution|horizontal distribution]] determined by a connection.

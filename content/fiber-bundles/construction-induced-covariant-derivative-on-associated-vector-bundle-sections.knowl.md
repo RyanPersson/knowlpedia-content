@@ -6,7 +6,7 @@ summary = "How a principal connection induces a covariant derivative on sections
 aliases = ["construction-induced-covariant-derivative-on-associated-vector-bundle-sections", "Induced covariant derivative on sections of an associated vector bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/associated-vector-bundle", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/horizontal-subbundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/associated-vector-bundle", "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/horizontal-subbundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/horizontal-lift-of-a-tangent-vector"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

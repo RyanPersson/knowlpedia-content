@@ -6,7 +6,7 @@ summary = "On the frame bundle, the torsion form equals the exterior derivative 
 aliases = ["cartans-first-structure-equation", "Cartan's first structure equation (torsion) in the frame bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/cartans-first-structure-equation.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle", "lie-groups/lie-algebra"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/principal-connection", "fiber-bundles/solder-form-on-the-frame-bundle", "fiber-bundles/torsion-2-form", "fiber-bundles/exterior-derivative", "lie-groups/lie-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

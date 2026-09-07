@@ -6,7 +6,7 @@ summary = "Invertible elementary, trace-class, and Hilbert–Schmidt perturbatio
 aliases = ["glh0-glh1-glh2", "Shale's Subgroups GL(H)₀, GL(H)₁, GL(H)₂"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/glh0-glh1-glh2.md"
-prerequisites = ["functional-analysis/trace-class-operator", "shale-paper/hilbert-schmidt-operator"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/trace-class-operator", "shale-paper/hilbert-schmidt-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

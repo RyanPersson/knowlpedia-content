@@ -2,13 +2,6 @@
 id = "topology/heine-cantor-corollary"
 title = "Continuous function on a compact set is uniformly continuous"
 kind = "knowl"
-summary = "A continuous map from a compact metric space to a metric space is uniformly continuous."
-aliases = ["heine-cantor-corollary", "Continuous function on a compact set is uniformly continuous"]
-domains = ["topology"]
-legacy_source_path = "topology/heine-cantor-corollary.md"
-prerequisites = ["topology/metric-space", "topology/compact-set", "real-analysis/uniform-continuity"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+summary = "Equivalent theorem consolidated into the canonical entry."
+redirect_to = "topology/heine-cantor-theorem"
 +++
-
-Let \((X,d_X)\) be a [[topology/metric-space|metric space]] whose underlying space is [[topology/compact-set|compact]], and let \((Y,d_Y)\) be a metric space. Every continuous map \(f:X\to Y\) is [[real-analysis/uniform-continuity|uniformly continuous]].

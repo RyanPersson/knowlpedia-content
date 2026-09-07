@@ -6,7 +6,7 @@ summary = "A measurable function that is essentially bounded on a measure space.
 aliases = ["l-infinity-function", "L-infinity function"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/l-infinity-function.md"
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/essential-supremum", "measure-theory/ae-equality", "measure-theory/null-set"]
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/essential-supremum"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

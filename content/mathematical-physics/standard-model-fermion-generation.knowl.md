@@ -6,7 +6,7 @@ summary = "One repeated family of quark and lepton multiplets with the same inte
 aliases = ["fermion generation", "Standard Model family", "one generation of fermions"]
 domains = ["mathematical-physics"]
 section_mode = "progressive"
-prerequisites = []
+prerequisites = ["mathematical-physics/standard-model-gauge-group", "algebra-representation-theory/group-representation", "algebra-representation-theory/contragredient-representation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

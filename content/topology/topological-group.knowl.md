@@ -6,12 +6,12 @@ summary = "A group with a topology making multiplication and inversion continuou
 aliases = ["topological-group", "Topological group"]
 domains = ["topology"]
 legacy_source_path = "topology/topological-group.md"
-prerequisites = ["algebra-groups/group", "topology/topological-space", "topology/continuous-map"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["algebra-groups/group", "topology/topological-space", "topology/continuous-map", "topology/product-topology"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **topological group** is a [[algebra-groups/group|group]] \(G\) equipped with a [[topology/topological-space|topology]] such that:
+A **topological group** is a [[algebra-groups/group|group]] \(G\) equipped with a [[topology/topology|topology]] such that, using the [[topology/product-topology|product topology]] on \(G\times G\):
 
 1. The multiplication map \(\mu: G \times G \to G\), \((g, h) \mapsto gh\), is [[topology/continuous-map|continuous]].
 2. The inversion map \(\iota: G \to G\), \(g \mapsto g^{-1}\), is continuous.

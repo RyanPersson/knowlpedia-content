@@ -6,7 +6,7 @@ summary = "The algebra-valued inner product of a Hilbert C-star-module satisfies
 aliases = ["Hilbert-module Cauchy-Schwarz inequality"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/hilbert-cstar-module"]
+prerequisites = ["operator-algebras/hilbert-cstar-module", "linear-algebra/inner-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

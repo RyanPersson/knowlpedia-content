@@ -6,7 +6,7 @@ summary = "A distance between two probability distributions defined by the large
 aliases = ["total-variation-distance", "Total variation distance"]
 domains = ["probability"]
 legacy_source_path = "probability/total-variation-distance.md"
-prerequisites = ["measure-theory/measurable-set"]
+prerequisites = ["probability/probability-measure", "measure-theory/measurable-space", "measure-theory/measurable-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

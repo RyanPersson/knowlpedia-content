@@ -7,11 +7,15 @@ aliases = ["underlying real vector space", "restriction of scalars from complex 
 domains = ["linear-algebra"]
 section_mode = "progressive"
 prerequisites = ["linear-algebra/vector-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(V\) be a complex [[linear-algebra/vector-space|vector space]]. Its **realification** \(V_{\mathbb R}\) is the same additive group, regarded as a real vector space by restricting scalar multiplication along \(\mathbb R\hookrightarrow\mathbb C\). If \(\dim_{\mathbb C}V=n<\infty\), then
+Let \(V\) be a complex [[linear-algebra/vector-space|vector space]]. Its **realification** \(V_{\mathbb R}\) is the same additive group, regarded as a real vector space by restricting scalar multiplication along \(\mathbb R\hookrightarrow\mathbb C\).
+
+## Dimension
+
+If \(\dim_{\mathbb C}V=n<\infty\), then
 \[
 \dim_{\mathbb R}V_{\mathbb R}=2n.
 \]

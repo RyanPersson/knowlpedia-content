@@ -6,7 +6,7 @@ summary = "A bounded operator on a Hilbert space whose singular values are summa
 aliases = ["trace-class-operator", "Trace-Class Operator"]
 domains = ["functional-analysis"]
 legacy_source_path = "shale-paper/trace-class-operator.md"
-prerequisites = ["linear-algebra/hilbert-space"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/bounded-linear-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

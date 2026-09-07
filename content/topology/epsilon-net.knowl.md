@@ -7,11 +7,11 @@ aliases = ["epsilon-net"]
 domains = ["topology"]
 legacy_source_path = "topology/epsilon-net.md"
 prerequisites = ["topology/metric-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-An **epsilon-net** for a subset \(A\subseteq X\) in a [[topology/metric-space|metric space]] \((X,d)\) is a subset \(F\subseteq X\) such that for every \(a\in A\) there exists \(f\in F\) with
+For \(\varepsilon>0\), an **epsilon-net** for a subset \(A\subseteq X\) in a [[topology/metric-space|metric space]] \((X,d)\) is a subset \(F\subseteq X\) such that for every \(a\in A\) there exists \(f\in F\) with
 \[
 d(a,f) < \varepsilon.
 \]

@@ -6,7 +6,7 @@ summary = "A linear map whose entrywise matrix amplifications have uniformly bou
 aliases = ["CB map", "completely bounded linear map"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["operator-algebras/matrix-cstar-algebra", "linear-algebra/matrix"]
+prerequisites = ["operator-algebras/cstar-algebra", "linear-algebra/linear-map", "operator-algebras/matrix-cstar-algebra", "linear-algebra/matrix"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
