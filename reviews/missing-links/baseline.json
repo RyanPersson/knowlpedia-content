@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "created_at": "2026-09-07T06:26:53.454070+00:00",
+  "content_base_commit": "a8ce46d836f0b1f071efc4c0a3b52c4a59a75839",
+  "audit_script_sha256": "39611f0bb69310de28e23f3ea71b91b5fe080d3f45f0e9c8c483b60805761728",
+  "profile": "production",
+  "parameters": {
+    "min_sources": 3,
+    "seed_terms": [
+      "poincaré disk"
+    ]
+  },
+  "counts": {
+    "unlinked_phrase": 21961,
+    "ambiguous_phrase": 376,
+    "broken_link": 0,
+    "missing_prerequisite_target": 0,
+    "core_multiword_unlinked": 1760,
+    "canonical_knowls": 3499,
+    "eligible_knowls": 3442,
+    "possible_missing_definitions": 768
+  },
+  "corpus_inventory_sha256": "98b185d1587fb8dd6446a7fd96e478ba0c56e726448267cc5832eb5d521df753",
+  "progress": {
+    "eligible_knowls": 3442,
+    "reviewed_current": 0,
+    "corrected_current": 0,
+    "reviewed_unchanged_current": 0,
+    "blocked_current": 0,
+    "stale_reviews": 0,
+    "remaining_review": 3442,
+    "automated_findings": {
+      "unlinked_phrase": 21961,
+      "ambiguous_phrase": 376,
+      "broken_link": 0,
+      "missing_prerequisite_target": 0,
+      "core_multiword_unlinked": 1760,
+      "canonical_knowls": 3499,
+      "eligible_knowls": 3442,
+      "possible_missing_definitions": 768
+    }
+  },
+  "dependency_graph_counts": {
+    "cycles": 0,
+    "edges": 10911,
+    "invalid": 0,
+    "missing_targets": 0,
+    "nodes": 3499
+  },
+  "interpretation": "Automated candidate baseline only. No knowls have yet received a completed linking review.",
+  "leading_unknown_phrases": [
+    {
+      "phrase": "structure group",
+      "source_count": 76,
+      "core_source_count": 45,
+      "related_targets": [
+        "fiber-bundles/construction-reduction-of-structure-group-to-h-via-transition-functions-valued-in-h",
+        "fiber-bundles/extension-of-structure-group",
+        "fiber-bundles/reduction-of-structure-group",
+        "fiber-bundles/tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm"
+      ]
+    },
+    {
+      "phrase": "right action",
+      "source_count": 49,
+      "core_source_count": 33,
+      "related_targets": [
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"
+      ]
+    },
+    {
+      "phrase": "bounded operator",
+      "source_count": 38,
+      "core_source_count": 24,
+      "related_targets": [
+        "functional-analysis/adjoint-bounded-operator",
+        "functional-analysis/bounded-linear-operator",
+        "functional-analysis/operator-commutator",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/spectrum-closed-operator",
+        "lie-groups/intertwining-operator-unitary-representations",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "operator-algebras/bounded-star-representation",
+        "operator-algebras/regular-operator-hilbert-cstar-module",
+        "quantum-foundations/bounded-operator-hilbert"
+      ]
+    },
+    {
+      "phrase": "tensor product",
+      "source_count": 49,
+      "core_source_count": 21,
+      "related_targets": [
+        "algebra-homological/tensor-right-exact",
+        "algebra-modules/tensor-preserves-direct-sums",
+        "algebra-modules/tensor-product",
+        "algebra-modules/tensor-product-algebras",
+        "algebra-modules/tensor-product-universal-property",
+        "algebra-modules/tensor-product-universal-property-prop",
+        "algebra-representation-theory/character-tensor-product",
+        "algebra-topological/completed-tensor-product",
+        "fiber-bundles/tensor-product-connection",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "harmonic-analysis/restricted-tensor-product-test-functions",
+        "harmonic-analysis/schwartz-bruhat-space-adeles"
+      ]
+    },
+    {
+      "phrase": "real vector space",
+      "source_count": 32,
+      "core_source_count": 20,
+      "related_targets": [
+        "convex-analysis/hahn-banach-theorem-in-real-vector-spaces",
+        "linear-algebra/complexification",
+        "linear-algebra/realification-of-a-complex-vector-space",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "phrase": "principal bundle",
+      "source_count": 60,
+      "core_source_count": 19,
+      "related_targets": [
+        "fiber-bundles/atiyah-algebroid-of-a-principal-bundle",
+        "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+        "fiber-bundles/classifying-map-of-a-principal-bundle",
+        "fiber-bundles/connection-1-form-on-a-principal-bundle",
+        "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f",
+        "fiber-bundles/construction-product-principal-bundle-when-defined",
+        "fiber-bundles/construction-pullback-principal-bundle-fp-along-fnm",
+        "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p",
+        "fiber-bundles/converse-triviality-criterion-trivial-principal-bundle-admits-a-global-section",
+        "fiber-bundles/corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection",
+        "fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes",
+        "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section"
+      ]
+    },
+    {
+      "phrase": "quotient map",
+      "source_count": 44,
+      "core_source_count": 17,
+      "related_targets": []
+    },
+    {
+      "phrase": "canonical map",
+      "source_count": 37,
+      "core_source_count": 17,
+      "related_targets": [
+        "operator-algebras/canonical-map-full-to-reduced-crossed-product"
+      ]
+    },
+    {
+      "phrase": "finite group",
+      "source_count": 27,
+      "core_source_count": 17,
+      "related_targets": [
+        "algebra-groups/cauchys-theorem-groups",
+        "algebraic-geometry-foundations/constant-finite-group-scheme",
+        "harmonic-analysis/smooth-representation-totally-disconnected-group",
+        "topology/locally-profinite-group"
+      ]
+    },
+    {
+      "phrase": "left action",
+      "source_count": 25,
+      "core_source_count": 17,
+      "related_targets": [
+        "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f"
+      ]
+    },
+    {
+      "phrase": "finite-dimensional complex",
+      "source_count": 21,
+      "core_source_count": 17,
+      "related_targets": [
+        "quantum-foundations/complex-hilbert-space-finite"
+      ]
+    },
+    {
+      "phrase": "adjoint representation",
+      "source_count": 27,
+      "core_source_count": 16,
+      "related_targets": [
+        "lie-groups/adjoint-faithful-iff-discrete-center",
+        "lie-groups/adjoint-representation-of-a-lie-algebra",
+        "lie-groups/coadjoint-representation-of-a-lie-algebra",
+        "lie-groups/kernel-of-ad-is-center-lemma",
+        "lie-groups/kernel-of-ad-small-is-center-lemma"
+      ]
+    },
+    {
+      "phrase": "self-adjoint operator",
+      "source_count": 31,
+      "core_source_count": 14,
+      "related_targets": [
+        "functional-analysis/essentially-self-adjoint-operator",
+        "functional-analysis/self-adjoint-extension",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/spectral-theorem-unbounded-self-adjoint",
+        "quantum-foundations/self-adjoint-operator-observable",
+        "quantum-foundations/spectrum-self-adjoint-finite"
+      ]
+    },
+    {
+      "phrase": "frame bundle",
+      "source_count": 53,
+      "core_source_count": 13,
+      "related_targets": [
+        "fiber-bundles/cartans-first-structure-equation",
+        "fiber-bundles/cartans-second-structure-equation",
+        "fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e",
+        "fiber-bundles/frame-bundle-fr-of-a-manifold-m",
+        "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle",
+        "fiber-bundles/g-structure",
+        "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+        "fiber-bundles/solder-form-on-the-frame-bundle",
+        "fiber-bundles/special-orthonormal-frame-bundle-reduction",
+        "fiber-bundles/special-unitary-frame-bundle-reduction",
+        "fiber-bundles/spin-structure",
+        "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em"
+      ]
+    },
+    {
+      "phrase": "compact structure group",
+      "source_count": 16,
+      "core_source_count": 13,
+      "related_targets": []
+    },
+    {
+      "phrase": "unique morphism",
+      "source_count": 14,
+      "core_source_count": 13,
+      "related_targets": []
+    },
+    {
+      "phrase": "riemannian metric",
+      "source_count": 45,
+      "core_source_count": 12,
+      "related_targets": [
+        "differential-geometry/coordinate-transformation-law-riemannian-metric",
+        "differential-geometry/pseudo-riemannian-manifold",
+        "differential-geometry/riemannian-manifold"
+      ]
+    },
+    {
+      "phrase": "complex lie algebra",
+      "source_count": 21,
+      "core_source_count": 12,
+      "related_targets": [
+        "lie-groups/compact-real-form",
+        "lie-groups/complex-lie-algebra-sl3",
+        "lie-groups/complex-lie-algebra-sl5",
+        "lie-groups/complex-lie-algebra-sl6",
+        "lie-groups/complex-lie-algebra-so10",
+        "lie-groups/complex-lie-algebra-so12",
+        "lie-groups/example-sl2c",
+        "lie-groups/exceptional-lie-algebra-e6",
+        "lie-groups/exceptional-lie-algebra-e7",
+        "lie-groups/exceptional-lie-algebra-e8",
+        "lie-groups/exceptional-lie-algebra-f4",
+        "lie-groups/exceptional-lie-algebra-g2"
+      ]
+    },
+    {
+      "phrase": "exact sequence",
+      "source_count": 27,
+      "core_source_count": 11,
+      "related_targets": [
+        "algebra-category-theory/exact-sequence-categorical",
+        "algebra-groups/exact-sequence-groups",
+        "algebra-groups/pgl-psl-comparison",
+        "algebra-groups/semidirect-product-splitting",
+        "algebra-homological/long-exact-sequence-derived",
+        "algebra-homological/long-exact-sequence-ext",
+        "algebra-homological/long-exact-sequence-tor",
+        "algebra-homological/snake-lemma-corollary",
+        "algebra-modules/exact-sequence-modules",
+        "algebra-modules/projective-ses-criterion",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/split-exact-sequence"
+      ]
+    },
+    {
+      "phrase": "convex topology",
+      "source_count": 15,
+      "core_source_count": 11,
+      "related_targets": [
+        "functional-analysis/topology-generated-by-seminorms"
+      ]
+    }
+  ]
+}
