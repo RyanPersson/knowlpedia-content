@@ -7,8 +7,8 @@ aliases = ["tangent-space-at-a-point", "Tangent space at a point"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tangent-space-at-a-point.md"
 prerequisites = ["fiber-bundles/smooth-manifold", "linear-algebra/vector-space", "linear-algebra/linear-map", "fiber-bundles/smooth-map"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(p\in M\).
@@ -17,10 +17,10 @@ The **tangent space** \(T_pM\) is the real vector space of all derivations at \(
 \[
 v: C^\infty(M)\to \mathbb{R}
 \]
-that satisfy the Leibniz rule \(v(fg)=f(p)v(g)+g(p)v(f)\) for all \(f,g\in C^\infty(M)\). Its elements are the **tangent vectors at \(p\)**.
+where \(C^\infty(M)\) is the space of [[fiber-bundles/smooth-map|smooth real-valued functions]] on \(M\), and the maps satisfy the Leibniz rule \(v(fg)=f(p)v(g)+g(p)v(f)\) for all \(f,g\in C^\infty(M)\). Its elements are the **tangent vectors at \(p\)**.
 
 ## Coordinate description
-If \((U,\varphi)\) is a [[fiber-bundles/smooth-chart-coordinate-chart|smooth chart]] with \(p\in U\) and \(\varphi=(x^1,\dots,x^n)\), then there are canonical basis derivations \(\left.\frac{\partial}{\partial x^i}\right|_p\in T_pM\) defined by
+If \((U,\varphi)\) is a [[fiber-bundles/smooth-chart|smooth chart]] with \(p\in U\) and \(\varphi=(x^1,\dots,x^n)\), then there are canonical basis derivations \(\left.\frac{\partial}{\partial x^i}\right|_p\in T_pM\) defined by
 \[
 \left.\frac{\partial}{\partial x^i}\right|_p (f)
 = \frac{\partial (f\circ \varphi^{-1})}{\partial x^i}\bigl(\varphi(p)\bigr).

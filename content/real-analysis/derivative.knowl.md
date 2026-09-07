@@ -6,7 +6,7 @@ summary = "The limit of a function's difference quotient at an interior point."
 aliases = ["derivative"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/derivative.md"
-prerequisites = ["shared-foundations/function"]
+prerequisites = ["shared-foundations/function", "real-analysis/interval", "real-analysis/limit-of-a-function-at-a-point"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

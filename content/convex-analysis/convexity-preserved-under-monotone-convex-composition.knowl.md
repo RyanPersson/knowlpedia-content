@@ -6,7 +6,7 @@ summary = "If f is convex and φ is convex and nondecreasing, then φ∘f is con
 aliases = ["convexity-preserved-under-monotone-convex-composition", "Convexity Preserved Under Monotone Convex Composition"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/convexity-preserved-under-monotone-convex-composition.md"
-prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph", "convex-analysis/convex-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

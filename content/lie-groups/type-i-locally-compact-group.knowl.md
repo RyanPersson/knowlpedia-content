@@ -6,7 +6,7 @@ summary = "A locally compact group is type I when its full group C*-algebra is a
 aliases = ["type I group"]
 domains = ["lie-groups", "harmonic-analysis", "operator-algebras"]
 section_mode = "progressive"
-prerequisites = ["topology/locally-compact-group", "operator-algebras/full-group-cstar-algebra", "operator-algebras/type-i-cstar-algebra", "operator-algebras/factorial-representation", "operator-algebras/type-i-factor"]
+prerequisites = ["topology/locally-compact-group", "operator-algebras/full-group-cstar-algebra", "operator-algebras/type-i-cstar-algebra", "operator-algebras/factorial-representation", "operator-algebras/type-i-factor", "harmonic-analysis/unitary-dual"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++

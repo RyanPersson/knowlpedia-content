@@ -6,9 +6,9 @@ summary = "The covariant Hodge Laplacian is the second-order operator obtained b
 aliases = ["gauge-covariant Laplacian", "Delta_A"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "differential-geometry/riemannian-manifold", "fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] and compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(A\) over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]]. The **covariant Hodge Laplacian** on \(E\)-valued \(k\)-forms is
@@ -16,7 +16,7 @@ Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-b
 \Delta_A=d_A d_A^*+d_A^*d_A:
 \Omega^k(M;E)\longrightarrow\Omega^k(M;E),
 \]
-where \(d_A\) is the [[fiber-bundles/exterior-covariant-derivative|exterior covariant derivative]] and \(d_A^*\) is its [[fiber-bundles/formal-adjoint-of-covariant-exterior-derivative|formal adjoint]]. It is a formally self-adjoint elliptic operator with scalar principal symbol \(|\xi|^2\operatorname{id}\). Unlike the ordinary de Rham differential, \(d_A^2\) need not vanish: curvature acts on the coefficient bundle.
+where \(d_A\) is the [[fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle|exterior covariant derivative]] and \(d_A^*\) is its [[fiber-bundles/formal-adjoint-of-covariant-exterior-derivative|formal adjoint]]. It is a formally self-adjoint elliptic operator with scalar principal symbol \(|\xi|^2\operatorname{id}\). Unlike the ordinary de Rham differential, \(d_A^2\) need not vanish: curvature acts on the coefficient bundle.
 The operator preserves form degree and depends on both the Riemannian metric and the connection.
 
 ## Energy identity and kernel

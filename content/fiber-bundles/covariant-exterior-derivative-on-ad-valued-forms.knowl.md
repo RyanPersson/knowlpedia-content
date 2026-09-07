@@ -6,22 +6,22 @@ summary = "The exterior derivative on differential forms with values in the adjo
 aliases = ["covariant-exterior-derivative-on-ad-valued-forms", "Covariant exterior derivative on ad(P)-valued forms"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-algebra", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-algebra", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/lie-bracket", "fiber-bundles/exterior-derivative", "fiber-bundles/differential-k-form", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/principal-connection", "fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with Lie algebra \(\mathfrak{g}\). The **adjoint bundle** is the vector bundle
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with Lie algebra \(\mathfrak{g}\). The [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint Lie algebra bundle]] is the vector bundle
 \[
 \mathrm{ad}(P)\coloneqq P\times_{\mathrm{Ad}} \mathfrak{g}\;\to\;M,
 \]
 associated to the adjoint action of \(G\) on [[lie-groups/lie-algebra|the Lie algebra]] \(\mathfrak{g}\).
 
-A principal connection on \(P\) induces a connection \(\nabla\) on \(\mathrm{ad}(P)\) (equivalently, it induces the operator on tensorial forms described by [[fiber-bundles/exterior-covariant-derivative|the exterior covariant derivative]]). The **covariant exterior derivative**
+A [[fiber-bundles/principal-connection|principal connection]] on \(P\) induces a connection \(\nabla\) on \(\mathrm{ad}(P)\) (equivalently, it induces the operator on tensorial forms described by [[fiber-bundles/exterior-covariant-derivative|the exterior covariant derivative]]). The **covariant exterior derivative**
 \[
 d_\nabla:\Omega^k(M;\mathrm{ad}(P))\to \Omega^{k+1}(M;\mathrm{ad}(P))
 \]
-is the unique graded derivation extending \(\nabla\) and satisfying the usual Koszul formula: for \(\alpha\in \Omega^k(M;\mathrm{ad}(P))\) and vector fields \(X_0,\dots,X_k\),
+is the [[fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle|degree-one extension]] of \(\nabla\), defined by the Koszul formula: for \(\alpha\in \Omega^k(M;\mathrm{ad}(P))\) and vector fields \(X_0,\dots,X_k\),
 \[
 \begin{aligned}
 (d_\nabla \alpha)(X_0,\dots,X_k)

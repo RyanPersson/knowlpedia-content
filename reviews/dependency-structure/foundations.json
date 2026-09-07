@@ -292,7 +292,7 @@
       "id": "linear-algebra/hilbert-space",
       "outcome": "reviewed_unchanged",
       "source_sha256": "6c3ad5948b01f246f6c4ebdbb9e1c5ee2ace32a4fd80d507c9c0587a230ca362",
-      "evidence": "Checked completeness is for induced inner-product norm; Banach space, Cauchy–Schwarz and L2 examples correctly remain later links.",
+      "evidence": "Checked completeness is for induced inner-product norm; Banach space, Cauchy\u2013Schwarz and L2 examples correctly remain later links.",
       "previous_prerequisites": [
         "linear-algebra/inner-product-space",
         "linear-algebra/norm",
@@ -904,7 +904,7 @@
       "id": "topology/uniformly-continuous-map",
       "outcome": "reviewed_unchanged",
       "source_sha256": "907a8170384ae306fc453bb55573928491f46aa83126392b89f5c0796ef10544",
-      "evidence": "Metric epsilon-delta condition is independent of continuity/Heine–Cantor consequences, correctly not required.",
+      "evidence": "Metric epsilon-delta condition is independent of continuity/Heine\u2013Cantor consequences, correctly not required.",
       "previous_prerequisites": [
         "topology/metric-space"
       ],
@@ -916,7 +916,7 @@
       "id": "topology/homotopy",
       "outcome": "corrected",
       "source_sha256": "cddf8c6a35ee6d6b182564f5bcdb9fc83eaf85f2d168e122d385a41246fc4041",
-      "evidence": "Created missing jointly continuous homotopy definition, with endpoint-relative variant for fundamental group; verified endpoint convention against Hatcher §1.1. No fundamental-group dependency on its own ingredient.",
+      "evidence": "Created missing jointly continuous homotopy definition, with endpoint-relative variant for fundamental group; verified endpoint convention against Hatcher \u00a71.1. No fundamental-group dependency on its own ingredient.",
       "previous_prerequisites": [],
       "prerequisites": [
         "topology/continuous-map",
@@ -1386,7 +1386,7 @@
       "id": "topology/topological-group",
       "outcome": "corrected",
       "source_sha256": "efb90cb207127fb567881ea3671da0998b0f84ad91ee82759b7e0a729b871c07",
-      "evidence": "Joint continuity of multiplication needs the topology on G×G; stated and linked product topology explicitly and added it as prerequisite.",
+      "evidence": "Joint continuity of multiplication needs the topology on G\u00d7G; stated and linked product topology explicitly and added it as prerequisite.",
       "previous_prerequisites": [
         "algebra-groups/group",
         "topology/topological-space",
@@ -2039,7 +2039,7 @@
       "id": "real-analysis/continuity-on-a-set",
       "outcome": "corrected",
       "source_sha256": "4f759a5f3c6b9a8339e043b95002cba7ee3abe0ed782d8faf713e5880726bb63",
-      "evidence": "Target audit caught incorrect unrestricted preimage in the subspace criterion. Use restriction preimage A∩f⁻¹(V), and explicitly require the sequential limit to lie in A.",
+      "evidence": "Target audit caught incorrect unrestricted preimage in the subspace criterion. Use restriction preimage A\u2229f\u207b\u00b9(V), and explicitly require the sequential limit to lie in A.",
       "previous_prerequisites": [
         "real-analysis/continuity-at-a-point"
       ],
@@ -2240,7 +2240,7 @@
       "id": "linear-algebra/linear-operator",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a3b00c908f42b664ef3e8c194a68d5d42343c68c5bdb501bb5d73fcc97f474d2",
-      "evidence": "The convention is explicitly endomorphism V→V and requires only linear map; general maps are handled by the latter knowl.",
+      "evidence": "The convention is explicitly endomorphism V\u2192V and requires only linear map; general maps are handled by the latter knowl.",
       "previous_prerequisites": [
         "linear-algebra/linear-map"
       ],
@@ -2714,7 +2714,7 @@
       "id": "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg",
       "outcome": "corrected",
       "source_sha256": "085cd8992271c7f6bd0e0dbb7f18c951284147d3d7fd2bd2f4a19872be1c4182",
-      "evidence": "Verified horizontal/equivariant curvature and section pullback against Marsh §5.4 and added a reference for the geometric proof.",
+      "evidence": "Verified horizontal/equivariant curvature and section pullback against Marsh \u00a75.4 and added a reference for the geometric proof.",
       "previous_prerequisites": [
         "fiber-bundles/local-curvature-formula-f-da-aa",
         "fiber-bundles/local-connection-1-form",
@@ -2848,7 +2848,7 @@
       "id": "shared-foundations/identity-function",
       "outcome": "reviewed_unchanged",
       "source_sha256": "927cedca06bb0fb60f726e09af556b42d1d4b843602f8c0b35eab718ddc78f60",
-      "evidence": "The map a↦a with domain/codomain A is explicit. Neutrality under composition and inverse properties are consequences.",
+      "evidence": "The map a\u21a6a with domain/codomain A is explicit. Neutrality under composition and inverse properties are consequences.",
       "previous_prerequisites": [
         "shared-foundations/function"
       ],
@@ -2860,7 +2860,7 @@
       "id": "shared-foundations/binary-operation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "13c6fc1c934be83498fd87a0644e0f2ffa58a88abb4b4605fe998a5cebf305ea",
-      "evidence": "The function S×S→S specifies closure and two inputs; no algebraic laws are silently imposed.",
+      "evidence": "The function S\u00d7S\u2192S specifies closure and two inputs; no algebraic laws are silently imposed.",
       "previous_prerequisites": [
         "shared-foundations/function",
         "shared-foundations/cartesian-product"
@@ -2900,7 +2900,7 @@
       "id": "shared-foundations/preimage",
       "outcome": "reviewed_unchanged",
       "source_sha256": "ec57dcde9aace8bd2376a788a685f13857c9e192dadc9fcc8ebabacd7091a2aa",
-      "evidence": "Membership f(a)∈T defines preimage for arbitrary functions, explicitly independent of an inverse function.",
+      "evidence": "Membership f(a)\u2208T defines preimage for arbitrary functions, explicitly independent of an inverse function.",
       "previous_prerequisites": [
         "shared-foundations/function",
         "shared-foundations/subset"
@@ -2956,7 +2956,7 @@
       "id": "topology/nowhere-dense-set",
       "outcome": "corrected",
       "source_sha256": "7163e5aa1388f369951f34e4e24846122c72be9ddb8d1cb9c971955c221cf38a",
-      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0∈N; require n≥1 to avoid division by zero.",
+      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0\u2208N; require n\u22651 to avoid division by zero.",
       "previous_prerequisites": [
         "topology/topological-space",
         "shared-foundations/subset",
@@ -2976,7 +2976,7 @@
       "id": "topology/limit-point",
       "outcome": "corrected",
       "source_sha256": "3353a017605c0ea9e1ac628e4f3c925ce42092b83bc29154ad4374c9446733e9",
-      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0∈N; require n≥1 to avoid division by zero.",
+      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0\u2208N; require n\u22651 to avoid division by zero.",
       "previous_prerequisites": [
         "topology/topological-space",
         "topology/neighborhood"
@@ -2990,7 +2990,7 @@
       "id": "topology/derived-set",
       "outcome": "corrected",
       "source_sha256": "63bfe57049d1956f03d7e3bbcc5ef4b70e56b218aaf162a1ff41477feb7f807b",
-      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0∈N; require n≥1 to avoid division by zero.",
+      "evidence": "Checked reciprocal-sequence examples against the corpus convention 0\u2208N; require n\u22651 to avoid division by zero.",
       "previous_prerequisites": [
         "topology/topological-space",
         "topology/limit-point"
@@ -3538,6 +3538,843 @@
         "topology/metric-space",
         "topology/open-ball",
         "topology/topology"
+      ]
+    },
+    {
+      "id": "linear-algebra/multilinear-map",
+      "outcome": "corrected",
+      "source_sha256": "4bf47a246ba3f6c696ff256948fcf93d1bf4450ca8d081b86768575b7276fb1a",
+      "evidence": "Created missing separately-linear map definition with its full per-argument linearity axiom; checked scalar field and arity. Distinguishes separate linearity from linearity of the product-domain map.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "shared-foundations/cartesian-product"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "shared-foundations/cartesian-product"
+      ]
+    },
+    {
+      "id": "linear-algebra/alternating-multilinear-map",
+      "outcome": "corrected",
+      "source_sha256": "bc28e3296bde6187909cdfef926ba25a6c48bbeab0a47e5926eb3f209a8d4f60",
+      "evidence": "Created missing alternation definition with repeated-argument vanishing; verified characteristic-two distinction and k=1 case without imposing an unnecessary characteristic restriction.",
+      "previous_prerequisites": [
+        "linear-algebra/multilinear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/multilinear-map"
+      ]
+    },
+    {
+      "id": "linear-algebra/exterior-power",
+      "outcome": "corrected",
+      "source_sha256": "df92b37ccc755ba6c5faedb2491452099e499f386c1486e8fde459d9a7c474ac",
+      "evidence": "Created the independently usable exterior-power universal construction, keeping both the alternating map and unique-factorization axiom in the core. Degree-zero convention explicit; algebra structure and basis formula are later consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/alternating-multilinear-map",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/alternating-multilinear-map",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/exterior-power-bundle",
+      "outcome": "corrected",
+      "source_sha256": "108f55e4d6695cdf8e7b8497294f0ddcc002c34390c47518093a1c462ebcc826",
+      "evidence": "Added the missing algebraic exterior-power construction rather than assuming tensor-product bundles supply it. Kept induced frames and transition maps in the defining core; functoriality alone needs bundle morphisms. Allowed k>rank, giving the zero bundle.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/tensor-product-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/exterior-power"
+      ]
+    },
+    {
+      "id": "fiber-bundles/dual-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "f0f0094c2f05e17e3232b2797fb5d7a5faf9b7ce3706b56be1089dd864a8d939",
+      "evidence": "The dual construction requires linear coordinate trivializations, not arbitrary smooth bundle trivializations, and linear functionals on each fiber. Made linearity explicit and added linear-map dependency; retained defining smooth-structure condition in core.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/local-trivialization"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/local-trivialization",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/exterior-derivative",
+      "outcome": "corrected",
+      "source_sha256": "b1685dec2785a7cb0c8b5695b177cb31acb457455c15a70ef5ce5574a4708749",
+      "evidence": "Kept the full function rule, graded Leibniz identity and nilpotence equations in the initial defining expansion, rather than naming the axioms while hiding their statements. Naturality is a later property.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "outcome": "corrected",
+      "source_sha256": "6f110bd6acc7d72070f2110fd3f24caa2783598cec91d91045c9d20e545b5b4f",
+      "evidence": "Linked the exterior-power bundle in the defining section statement and the pointwise alternation condition to its new algebraic definition. Corrected smooth-chart target to the chosen-atlas chart concept.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "linear-algebra/alternating-multilinear-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/section-of-a-fiber-bundle",
+      "outcome": "corrected",
+      "source_sha256": "7c591eafbf289029bae895730197fb937eab650f65b1e934d1bf9f2644f19e8b",
+      "evidence": "Corrected the local-section equation codomain: pi composed with a section on U maps to M, so it equals the inclusion U\u2192M, or identity only after restricting the bundle projection to U. Global section definition unchanged.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/wedge-product-of-differential-forms",
+      "outcome": "corrected",
+      "source_sha256": "fd0a9cdd529198f1b25b9ebd80b210735f6ecf2912f170731a2450c82df1cf35",
+      "evidence": "Checked full permutation normalization: the tensor alternation averaged by (k+ell)! must be multiplied by (k+ell)!/(k!ell!). This yields dx wedge dy(e_x,e_y)=1, and for k=0 gives multiplication by a function. Added the explicitly used finite permutation, sign, factorial targets after reading them. Associativity and graded sign follow shuffle counts; pullback property is subsequent.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/tangent-space-at-a-point"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/tangent-space-at-a-point",
+        "shared-foundations/finite-permutation",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/factorial"
+      ]
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "outcome": "corrected",
+      "source_sha256": "7142f02dfbae1258506316732fb4fdc3725646fa19570ba618ebab2e22160159",
+      "evidence": "Removed duplicated vector-bundle wording and separated coordinate expansion as a property; the complete smooth-section definition and alternating multilinear interpretation remain in core.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "linear-algebra/alternating-multilinear-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "linear-algebra/alternating-multilinear-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tangent-space-at-a-point",
+      "outcome": "corrected",
+      "source_sha256": "4a7d2dc299ef5bcf2d17b5b766e3fc33cef36f5fe77e7218fff6deb04ca3a1be",
+      "evidence": "The derivation definition has full real linearity and Leibniz axioms in core. Identified C-infinity(M) as smooth real functions (existing smooth-map prerequisite). Corrected coordinate-description link to a chart of the smooth atlas. Checked coordinate derivation and tangent sphere examples; no downstream tangent-bundle/differential prerequisite needed.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/coulomb-gauge",
+      "outcome": "corrected",
+      "source_sha256": "bf56c48c4a383a0f45844501bba100b5eaefa069fc0187bce2606f5bf2b7d20f",
+      "evidence": "Corrected false inequivalence: for a=A\u2212A0 the adjoint difference is \u2212sum_i[a_i,a_i]=0 in an orthonormal frame with invariant Lie-algebra metric. Specified that metric and compactly supported interior gauge parameters for formal orthogonality; full boundary orthogonality needs normal-component condition. Checked Wehrheim \u00a72 pp706\u2013709 (dA=d+[A,wedge], formal adjoint, local slice Theorem2.2). Retained local/existence/nonuniqueness qualifications.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/principal-g-bundle",
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+        "fiber-bundles/gauge-fixing-condition"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/principal-g-bundle",
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+        "fiber-bundles/gauge-fixing-condition"
+      ]
+    },
+    {
+      "id": "fiber-bundles/corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection",
+      "outcome": "corrected",
+      "source_sha256": "8d65b60f1b3480992c01905a6a4870f5e70d9f5bf3a71ff2344e37b96ae210b8",
+      "evidence": "Moved the actual existence conclusion into the opening theorem instead of exposing hypotheses alone. Added connection-on-a-vector-bundle as theorem output. Smooth manifolds here are Hausdorff/second-countable, so partitions of unity give existence; frame-bundle proof and metric/line-bundle examples are valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/covariant-derivative-of-a-section",
+      "outcome": "corrected",
+      "source_sha256": "00fcc46fc4ff209e2b140ffb668680b8acd0669b4a0dcbb126a7dc40703bce9c",
+      "evidence": "Retained connection evaluation as the definition; expanded the actual Leibniz identity in core rather than merely naming it. Checked C-infinity linearity in X and real linearity in sections, local line-bundle formula Xf+A(X)f and contraction characterization.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/leibniz-rule-for-a-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/leibniz-rule-for-a-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-in-a-frame",
+      "outcome": "corrected",
+      "source_sha256": "3be34f3a0fb604d2998f8299778c869eef2d8ff8ec4891672b6b451061281216",
+      "evidence": "dA+A wedge A needs wedge product explicitly. Checked R(X,Y)e_j=sum F^i_j e_i, conjugation under e\u2032=eg, rank1 A wedge A=0, and constant matrices give sum_i<j[A_i,A_j]dx_i wedge dx_j without a spurious1/2.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/local-connection-1-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/local-connection-1-form",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes",
+      "outcome": "corrected",
+      "source_sha256": "bdb2086ec7a21279d0dfbda050446a629f765c39fb11abfd6057e59b41dbee50",
+      "evidence": "The theorem needs principal-bundle isomorphism and invariant polynomial as direct hypotheses, plus de Rham cohomology as its output. Pullback by inverse bundle isomorphism transports the connection and leaves descended CW forms on the common base identical; diffeomorphic-base example correctly uses cohomology pullback.",
+      "previous_prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/de-rham-cohomology-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "ea94b34b45d4efee3ebdb2ab5906b7083049f27010dacf72ef502c28401fa751",
+      "evidence": "Created the missing base-manifold E-valued operator rather than sending arbitrary vector-bundle connections to a principal-total-space construction. The complete degree-one linear rule and its sign are in core. Verified balancing over smooth functions by the connection Leibniz rule, local d+A formula, and square dA+A wedge A. Existing scalar wedge target fixes normalization.",
+      "previous_prerequisites": [
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-bundle-valued-differential-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ],
+      "prerequisites": [
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-bundle-valued-differential-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+      "outcome": "corrected",
+      "source_sha256": "6f9492bb9a530c2b9a2f21ed8f39822327938f3fc4dec5559fb0152a470bbe77",
+      "evidence": "Corrected the exterior-covariant-derivative input to the operator on arbitrary vector-bundle-valued base forms; previous target defined only tensorial forms on a principal total space. Full source checked: metric compatibility for star/adjoint, compact-interior pairing, and compact boundaryless energy identity preserved; curvature prevents dA squared from vanishing.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/exterior-covariant-derivative",
+        "fiber-bundles/l2-inner-product-on-bundle-valued-forms",
+        "differential-geometry/hodge-star-operator",
+        "real-analysis/integration-by-parts"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle",
+        "fiber-bundles/l2-inner-product-on-bundle-valued-forms",
+        "differential-geometry/hodge-star-operator",
+        "real-analysis/integration-by-parts"
+      ]
+    },
+    {
+      "id": "fiber-bundles/covariant-hodge-laplacian",
+      "outcome": "corrected",
+      "source_sha256": "43ec725719b633bf1f9ccf7710538d8ee5f44aeef82c0944650de7be7281c959",
+      "evidence": "Corrected the exterior-covariant-derivative input to the operator on arbitrary vector-bundle-valued base forms; previous target defined only tensorial forms on a principal total space. Full source checked: metric compatibility for star/adjoint, compact-interior pairing, and compact boundaryless energy identity preserved; curvature prevents dA squared from vanishing.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/exterior-covariant-derivative",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative"
+      ]
+    },
+    {
+      "id": "fiber-bundles/paracompact-topological-space",
+      "outcome": "corrected",
+      "source_sha256": "3994b14aec79a867a6e23c639d0af8363f3931d478b34c9055854de838a6dedf",
+      "evidence": "Removed reverse prerequisite on partitions of unity: definition uses open covers, refinement, and neighborhoods only. All local-finiteness/refinement axioms stay in core. Qualified partition-of-unity consequence by Hausdorffness and clarified that the finite subcover, not original cover, is locally finite.",
+      "previous_prerequisites": [
+        "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/open-cover",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "fiber-bundles/corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection",
+      "outcome": "corrected",
+      "source_sha256": "53adc3e6fb9c1fb989b0145bd8fb4790014093b0c7299368c83e1630842f49a1",
+      "evidence": "Existence statement explicitly assumes paracompactness, so added its corrected topological definition. Partition-of-unity affine averaging preserves connection reproduction/equivariance; product and Hopf contact examples satisfy both. Principal connection is correctly retained as theorem output.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/paracompact-topological-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-connection",
+      "outcome": "corrected",
+      "source_sha256": "d6c4288e735c1fcd402b07462d6ae1f0359dd895727e33c6d8f27df4e3c13693",
+      "evidence": "Added the tangent-space, differential, and direct-sum structures explicitly used in horizontal-complement and right-invariance axioms. Expanded kernel as vectors sent to zero, avoiding an unnecessary module-kernel prerequisite. All smoothness/complement/right-invariance axioms remain in opening. Checked product potential and Hopf horizontal examples.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "convex-analysis/direct-sum-of-subspaces"
+      ]
+    },
+    {
+      "id": "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+      "outcome": "corrected",
+      "source_sha256": "d26d35a3744feca97573e4dbd548a397615357d7885b4350e68d6fe9631def1f",
+      "evidence": "Right pullback action composition (Phi1Phi2)*=Phi2*Phi1* makes orbit relation reflexive/symmetric/transitive; added quotient-set because that is the stated output. Checked local Ad(g^-1)A+g^-1dg, abelian reduction and connected-group circle holonomy classification. No quotient topology is asserted.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+        "shared-foundations/quotient-set"
+      ]
+    },
+    {
+      "id": "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms",
+      "outcome": "corrected",
+      "source_sha256": "27bde63b8ca17bb8abbf86979d81fdf9a5f091d56cceda59c03a0d61bf27229c",
+      "evidence": "Specialized the general E-valued exterior covariant derivative to ad(P), linking the correct Lie-algebra bundle rather than treating an undefined bundle as primitive. Preserved full Koszul formula; checked sign i+j with bracket inserted first, local d+[A wedge alpha], k0 covariant derivative, Bianchi and abelian examples.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/exterior-covariant-derivative",
+        "fiber-bundles/lie-bracket",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/differential-k-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/exterior-covariant-derivative",
+        "fiber-bundles/lie-bracket",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/vector-bundle-valued-differential-form",
+      "outcome": "corrected",
+      "source_sha256": "69106c2058b9921d64eac713ff78ff3d4c7a33a4645f933ee5c5bf5e169fa100",
+      "evidence": "Added tensor-product, exterior-power, and cotangent bundles directly occurring in the section definition. Corrected local coefficients to Omega^k(U), and ad(P) to the Lie-algebra-valued associated bundle instead of group bundle Ad(P). Scalar wedge uses its normalized existing definition. Covariant derivative is later structure, not prerequisite. Checked k0, real/complex conventions and pullback value bundle.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/differential-k-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/cotangent-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/cotangent-bundle",
+      "outcome": "corrected",
+      "source_sha256": "4d8aa2f8737a58a6228744bd251627e313c5902bdefa7817b1f11fb8e1d428da",
+      "evidence": "The dual-bundle construction supplies the full cotangent structure. Corrected smooth-chart target in coordinate construction; fiberwise dual bases transform by inverse transpose, angular differentials on S1 glue though theta is not global, and left translation trivializes Lie-group cotangent bundle.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/dual-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/dual-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle",
+      "outcome": "corrected",
+      "source_sha256": "cc18596217e5cfe9108012ef4c9e7fb60e2a504254157989223d7b279136bad6",
+      "evidence": "Moved actual closedness/connection-independence theorem into opening rather than leaving only its setup visible. Added defining invariant-polynomial/CW-form inputs and de Rham/exact-form outputs. Corrected missing Chern normalization factors using convention c(det)=det(I+iF/(2pi)): c1=i trF/(2pi), tracefree c2=tr(F wedge F)/(8pi^2). Homotopy of connections gives exact transgression, so identicalbundle examples valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/chernweil-form",
+        "fiber-bundles/de-rham-cohomology-group",
+        "fiber-bundles/exact-differential-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle",
+      "outcome": "corrected",
+      "source_sha256": "928fcffca6754a356aaf5db10c934b9ee61474745acce05fc34d9b53228b5fcf",
+      "evidence": "The Hopf bundle is constructed by unit-sphere scalar action and projective quotient; no-section counterexample is a consequence, so separated it and removed the reverse prerequisite. Checked normalized (w,1) local section and U1 counterpart give a once-winding clutching map (sign depends chart ordering). Added projective-space construction as actual quotient target.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "differential-geometry/complex-projective-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section",
+      "outcome": "corrected",
+      "source_sha256": "c54f278c728b2be00b82bd9d77e422758e001ea4563045b6a08a169ecf548b0c",
+      "evidence": "Moved the actual Hopf counterexample into opening; checked obstruction via pi1(S3)=0 versus pi1(S2\u00d7S1)=Z. The section-trivialization proof uses free transitive fiber action and local smooth inverse, and the O1 circle clutching example is the connected double cover with no section. Correct dependency direction is counterexample\u2192Hopf construction.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/trivial-principal-bundle-mgm"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/trivial-principal-bundle-mgm",
+        "fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+      "outcome": "corrected",
+      "source_sha256": "96027eb98ac82fa1ba7611a9fd5126371c449418c05f720c6c25f6dbbe31d323",
+      "evidence": "Corrected the Lie bracket target: the fibers use an abstract Lie-algebra bracket, not the bracket of vector fields. Added the actual adjoint representation and output vector-bundle structure. Associated construction gives equivalence (p g,X)~(p,Ad(g)X); automorphism identity Ad(g)[X,Y]=[Ad(g)X,Ad(g)Y] proves fiber bracket descends. Checked trivial, abelian and SO(n) skew-endomorphism examples.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/lie-bracket"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/associated-bundle",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "fiber-bundles/vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "outcome": "corrected",
+      "source_sha256": "6d2f20c61d59d901f4530eb6ed9a41fd75b5740c55609ad18861d1210cbe13d1",
+      "evidence": "Clarified that the linked k-ary alternation definition is used for k>=1, while the explicit Omega0=C-infinity convention handles zero forms. Cleaned local-expression paragraph spacing.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "linear-algebra/alternating-multilinear-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "linear-algebra/alternating-multilinear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/rank-one-operator",
+      "outcome": "corrected",
+      "source_sha256": "e4b95f8519aa769947fd999d923cdd41fc912880374c4d28a0f12b838ac360ca",
+      "evidence": "Independent recheck: defining bounded operator with one-dimensional range requires finite dimension vocabulary, while bounded-functional representation is a later characterization. Removed optional functional target and retained dimension via existing basis-and-dimension target. Representation is valid by choosing nonzero range vector and its scalar coordinate functional; zero operator correctly excluded.",
+      "previous_prerequisites": [
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/linear-map",
+        "linear-algebra/normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional"
+      ],
+      "prerequisites": [
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/linear-map",
+        "linear-algebra/normed-vector-space",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "real-analysis/gradient",
+      "outcome": "corrected",
+      "source_sha256": "86e3c02de2c8511dd4f185b7748b00e6495d034619a4723f81d9e6fbd504f54b",
+      "evidence": "Restored differentiability as explicit hypothesis of defining sentence; open domain is also direct. Checked partial-derivative examples and directional identity using Frechet derivative. Definition by partials alone would permit nondifferentiable functions, inconsistent with stated scope.",
+      "previous_prerequisites": [
+        "real-analysis/partial-derivative",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "real-analysis/partial-derivative",
+        "linear-algebra/inner-product",
+        "real-analysis/differentiable-map",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "real-analysis/infimum",
+      "outcome": "corrected",
+      "source_sha256": "7288cd02e51153ea336f4b9f9832f28b80669210c37cc7f86160378953405499",
+      "evidence": "Full lower-bound and maximality axioms already define infimum; completeness is used only to prove existence and now lies under its own heading. Removed reverse/completeness dependency from definition, retaining lower bound and bounded-below inputs. Examples(0,1) and reciprocal integers both have inf0 outside set.",
+      "previous_prerequisites": [
+        "real-analysis/bounded-below",
+        "shared-foundations/lower-bound",
+        "shared-foundations/subset",
+        "real-analysis/completeness-axiom"
+      ],
+      "prerequisites": [
+        "real-analysis/bounded-below",
+        "shared-foundations/lower-bound",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "real-analysis/cauchy-hadamard-theorem",
+      "outcome": "corrected",
+      "source_sha256": "d30f138fdfb967baffda3ad0e0aea0b633bd38fd36c346eb7837968190e8fab2",
+      "evidence": "Retained limsup because it defines radius, and added absolute convergence/divergence as actual theorem conclusion concepts. Removed root-test because it occurs only as proof explanation in Remarks. Checked L0/Linfinity conventions: radiusinfinity/zero and no boundary claim.",
+      "previous_prerequisites": [
+        "real-analysis/power-series",
+        "real-analysis/limit-superior",
+        "real-analysis/root-test"
+      ],
+      "prerequisites": [
+        "real-analysis/power-series",
+        "real-analysis/limit-superior",
+        "real-analysis/absolutely-convergent-series",
+        "real-analysis/divergent-series"
+      ]
+    },
+    {
+      "id": "differential-geometry/bump-function",
+      "outcome": "corrected",
+      "source_sha256": "f792d4db4fc10a4a7fad02de3710d09cae041ff4cc2e652767d1fbeb3a814368",
+      "evidence": "Independent recheck found localized bump variant still in core, so restored its closed-set/neighborhood inputs. Added closure used in support formula. Both compact-support definition and complete 0<=phi<=1, phi=1 nearA, supportsinsideU conditions remain in core; existence correctly assumes Acompact.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "topology/compact-set"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/neighborhood",
+        "topology/closure"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-projective-space",
+      "outcome": "corrected",
+      "source_sha256": "1ded461f20d0d7229921ea7310c45645a91f406f9067b76b2571d407e88c8dae",
+      "evidence": "Independently checked quotient by nonzero scalars, projective affine chart ratios and rational holomorphic transitions with nonzero denominator. Added complex-manifold target for claimed output structure; scheme comparison remains optional under a dedicated heading. CP0 is one point; FubiniStudy form i ddbarlog gives2pi integral on CP1, consistent with stated normalization.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-numbers-c",
+        "topology/quotient-topology"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-numbers-c",
+        "topology/quotient-topology",
+        "differential-geometry/complex-manifold"
+      ]
+    },
+    {
+      "id": "algebra-homological/chain-map",
+      "outcome": "corrected",
+      "source_sha256": "8aff52ae56bedf9b73ec62bca6ae9a26ff5da9e9da705ef05472a4d88201b5bd",
+      "evidence": "Independent check of corrected scalar example: central r makes r(ac)=(ra)c=(ar)c=a(rc), ensuring module-linearity before commuting with d. Fixed R math delimiters. Homology paragraph is a consequence under its own heading.",
+      "previous_prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "functional-analysis/holomorphic-functional-calculus-banach-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10a012002aa4d2a0c5f1fcde75d90b6f2e274cd782e83086f8e34b7469aa8350",
+      "evidence": "Independently verified removal of reverse spectral-mapping edge: contour-resolvent integral constructs f(a) first; spectral mapping is later property and its theorem correctly depends on calculus. Checked contour orientation/winding, unitization convention and nonnormal Riesz projection example.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "functional-analysis/banach-algebra-resolvent"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "functional-analysis/banach-algebra-resolvent"
+      ]
+    },
+    {
+      "id": "functional-analysis/trace-class-operator",
+      "outcome": "corrected",
+      "source_sha256": "4ff913a2c6ba499741e6bf556fe7fc9fc307041f47d6b1fec5a58884c7688d48",
+      "evidence": "Replaced circular unexplained tr(|X|)<infinity core by compactness and summable singular values, an equivalent complete definition not presupposing general trace. Read actual singular-values target and corrected it separately. Berkeley Math209 \u00a74 pp7\u20138 Prop4.1 and singular expansion confirm norm=sum s_n and basis-independent trace; diagonal example includes finite/zero cases.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/bounded-linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/compact-operator",
+        "functional-analysis/singular-values",
+        "real-analysis/convergent-series"
+      ]
+    },
+    {
+      "id": "quantum-foundations/trace-operator",
+      "outcome": "corrected",
+      "source_sha256": "8b0cff90f9e60b74ebdee9728e8a38460b3b66259bf785026bfeb0922b49607f",
+      "evidence": "Extended finite matrix trace to the general trace-class setting used by density operators. Fixed conjugation error: first-slot-linear inner product requires <Ae,e>, not <e,Ae>; check A=iI on C gives i. Core includes absolute/basis-independent summation and nonseparable index convention. Cyclic product assumptions and bounded-observable expectation qualified. Verified Berkeley Math209 \u00a74 Prop4.1.",
+      "previous_prerequisites": [
+        "linear-algebra/trace",
+        "linear-algebra/orthonormal-basis"
+      ],
+      "prerequisites": [
+        "functional-analysis/trace-class-operator",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "linear-algebra/orthonormal-basis"
+      ]
+    },
+    {
+      "id": "functional-analysis/singular-values",
+      "outcome": "corrected",
+      "source_sha256": "2830ade056b99146046763c94d167a3e15d2ec5cb1af32646c2301a1a27dccee",
+      "evidence": "Removed wrong scalar-real-absolute-value target for |T|=(T*T)^1/2; supplied adjoint, positive-square-root, eigenvalue, operator-norm and finite-rank inputs actually used in core. Checked nonseparable approximation-number convention and zero tails, diagonal ordering and ideal estimate.",
+      "previous_prerequisites": [
+        "linear-algebra/compact-operator",
+        "linear-algebra/hilbert-space",
+        "real-analysis/absolute-value"
+      ],
+      "prerequisites": [
+        "linear-algebra/compact-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/adjoint-bounded-operator",
+        "operator-algebras/positive-square-root",
+        "linear-algebra/eigenvalue",
+        "linear-algebra/operator-norm",
+        "functional-analysis/finite-rank-operator"
+      ]
+    },
+    {
+      "id": "linear-algebra/compact-operator",
+      "outcome": "corrected",
+      "source_sha256": "596e3b03ac435608ffef8b27f7e91a3a80471fe5d5083daf9a7092c6d328a410",
+      "evidence": "Compact maps between different normed spaces need general linear-map target, not endomorphism-only linear-operator. Added compact-set/closure directly used in unit-ball definition. Fixed finite-rank example: algebraic finite-rank maps may be discontinuous, so boundedness must be stated. Sequence characterization valid in metric norm topology; finite-dimensional examples correct.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-operator",
+        "linear-algebra/normed-vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "linear-algebra/normed-vector-space",
+        "topology/compact-set",
+        "topology/closure"
+      ]
+    },
+    {
+      "id": "quantum-foundations/density-operator",
+      "outcome": "corrected",
+      "source_sha256": "a023d0754ac2d2bb750ba848833349656a387bb296c0a0c91a91b9e6a2589076",
+      "evidence": "Independent general-scope check after trace foundation repair: infinite-rank density may need countably many pure states, with trace-norm convergence, rather than finite convex combination. Qualified expectation for bounded observables and extended entropy interpretation. Positivity/unit-trace core preserved; purity equivalences follow nonnegative eigenvalues summing1.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/trace-class-operator",
+        "quantum-foundations/trace-operator",
+        "quantum-foundations/positive-semidefinite-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/trace-class-operator",
+        "quantum-foundations/trace-operator",
+        "quantum-foundations/positive-semidefinite-operator"
+      ]
+    },
+    {
+      "id": "real-analysis/monotone-sequence-of-functions",
+      "outcome": "corrected",
+      "source_sha256": "af90e377a98b2f20ef6d723ce0fd2d0ac46b9318942e0fbddc2ad587f290e73a",
+      "evidence": "Read the full inequalities, numerical monotone-sequence definition and function target. The claimed equivalence needs one common direction across X: f_n(x)=nx on {-1,1} is pointwise monotone with opposite directions and is neither increasing nor decreasing as a function sequence. Made the common-direction condition explicit, retained both initial defining inequalities and checked x-1/n and x^n examples. Function is a direct input; Dini and convergence are later discussion only. Self-link removal also retained.",
+      "previous_prerequisites": [
+        "real-analysis/monotone-sequence"
+      ],
+      "prerequisites": [
+        "real-analysis/monotone-sequence",
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "lie-groups/solvable-lie-algebra",
+      "outcome": "corrected",
+      "source_sha256": "92403f5f6cfa4a272fddaa50531c09dc06fb43263c0e0aec00f7956d0574ab84",
+      "evidence": "Independently checked derived-series recursion and vanishing criterion, distinguishing balanced derived commutators from arbitrary nested commutators (nilpotency). Abstract bracket supplied by Lie algebra, not vector-field bracket. All defining conditions remain opening; finite-dimensional characteristic-zero Levi and nilpotency consequences are in a later section.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/derived-series-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "lie-groups/derived-series-lie-algebra"
+      ]
+    },
+    {
+      "id": "lie-groups/special-orthogonal-group",
+      "outcome": "corrected",
+      "source_sha256": "d6ed65da9d21b9968d2b1cdead1243fa5cd9d4d6de79afa764e40f67e8de828d",
+      "evidence": "Independently checked SO(n) defining matrix orthogonality and determinant-one conditions. Orthogonal-group target supplies A-transpose-A=I and matrix setup; determinant and real inner product are direct inputs. Spin cover n>=3, compactness, Lie algebra and indefinite variants moved as complete structural discussion after the opening definition. Noncompact SO(p,q) requires p,q>0; definite cases remain compact.",
+      "previous_prerequisites": [
+        "lie-groups/orthogonal-group",
+        "lie-groups/closed-subgroup-lie-group",
+        "lie-groups/spin-group",
+        "lie-groups/lorentz-group",
+        "lie-groups/orthogonal-lie-algebra",
+        "lie-groups/compact-lie-group",
+        "linear-algebra/inner-product",
+        "linear-algebra/determinant"
+      ],
+      "prerequisites": [
+        "lie-groups/orthogonal-group",
+        "linear-algebra/inner-product",
+        "linear-algebra/determinant"
       ]
     }
   ]

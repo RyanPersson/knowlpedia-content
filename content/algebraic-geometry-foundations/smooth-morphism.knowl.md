@@ -6,7 +6,7 @@ summary = "A locally finitely presented flat morphism with geometrically regular
 aliases = ["smooth map of schemes", "smooth morphism"]
 domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/flat-morphism", "algebraic-geometry-foundations/locally-of-finite-presentation", "algebraic-geometry-foundations/geometric-fiber", "algebraic-geometry-foundations/regular-scheme"]
+prerequisites = ["algebraic-geometry-foundations/morphism-of-schemes", "algebraic-geometry-foundations/flat-morphism", "algebraic-geometry-foundations/locally-of-finite-presentation", "algebraic-geometry-foundations/geometric-fiber", "algebraic-geometry-foundations/regular-scheme"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "Finite-dimensional unitary representations of a compact Lie group spa
 aliases = ["peter-weyl-theorem", "Peter–Weyl theorem"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/peter-weyl-theorem.md"
-prerequisites = ["lie-groups/compact-lie-group"]
+prerequisites = ["lie-groups/compact-lie-group", "harmonic-analysis/haar-measure", "lie-groups/representation-of-a-lie-group", "lie-groups/irreducible-representation-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

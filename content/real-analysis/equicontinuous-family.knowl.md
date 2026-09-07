@@ -6,7 +6,7 @@ summary = "A family of functions that satisfies the equicontinuity condition at 
 aliases = ["equicontinuous-family", "Equicontinuous family"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/equicontinuous-family.md"
-prerequisites = ["real-analysis/pointwise-bounded-family", "real-analysis/space-of-continuous-functions", "real-analysis/uniform-metric"]
+prerequisites = ["topology/metric-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

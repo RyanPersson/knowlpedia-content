@@ -1,0 +1,1530 @@
+{
+  "reviews": [
+    {
+      "id": "algebra-fields-galois",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58ac3af5b1384a14b7c806314137825666d3de94a0fa9e5a9cbd54f807910c16",
+      "evidence": "Navigation section: read all section prose; it only organizes field/Galois concepts and has no standalone mathematical core, so no prerequisite edges are needed.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "algebra-fields-galois/adeles-restricted-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa2d71b39455e4621e79e730d5f694a99bef0536ab2e2e556e1b2988f336f43c",
+      "evidence": "The core fixes a global field F, its nonarchimedean completions F_v, and valuation rings O_v, then defines the restricted product by O_v membership for all but finitely many v. I checked the global-field, valuation-ring, number-field, global-function-field, and closed-point targets; each supplies a structure used in the displayed construction. The topology, diagonal, and measures are later consequences/remarks.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/valuation-ring",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/closed-point"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/valuation-ring",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/closed-point"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8226675493b712e07526e9900fcf33dbc023b833c5a4b93614abcf6a35b9f12f",
+      "evidence": "The core requires a field F and an algebraic extension \u0305F/F, then imposes algebraic closedness via polynomial splitting. The field, algebraic-extension targets supply exactly these defining inputs; splitting-field and embedding links occur only in remarks/examples.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-closure-existence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2347dc722f05560fc075f2deb3b1def9849677fe1a4541756172fe6044a2315a",
+      "evidence": "The theorem quantifies over a field K and asserts an algebraic field extension with algebraicity and polynomial-splitting hypotheses; the proof explicitly invokes Zorn/choice. Field, field-extension, algebraic-extension, algebraic-element, and axiom-of-choice targets therefore match the statement and proof setup; uniqueness is a later consequence.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-extension",
+        "algebra-fields-galois/algebraic-element",
+        "shared-foundations/axiom-of-choice"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-extension",
+        "algebra-fields-galois/algebraic-element",
+        "shared-foundations/axiom-of-choice"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-closure-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6834bd2f656bf3c3d09fa6013d836eb66e19a74a8bbf050d4cc85a9c64bf4727",
+      "evidence": "The core defines two algebraic closures as algebraic field extensions that are algebraically closed, then asserts a K-isomorphism. Field, algebraic-closure, field-extension, and algebraic-extension targets provide each named input; existence and examples are later context.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b54df88b4ab0818cc03d05e412c6a05b2c00e8e43bebe4e9056c7b210f220e4",
+      "evidence": "The core evaluates a nonzero polynomial in F[x] at alpha in an extension E/F. Field-extension and polynomial-ring targets supply the ambient extension and polynomial evaluation; transcendence, simple extensions, and finite degree are consequences/links after the definition.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-rings/polynomial-ring"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-rings/polynomial-ring"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9b02d27448a5f9dd336b37d6e0c79e8d886019cfbd7a82b5f8c1ccb3e6bd162",
+      "evidence": "The core quantifies over every element of E in a field extension E/F and requires an annihilating polynomial over F. Field-extension and algebraic-element targets exactly provide those notions; finite degree and Galois applications are later consequences.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-element"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-element"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/archimedean-local-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "04bf67bc1a79a02661945be99f1f459aadf18244d4de5eadaf4ffb6187d5da9d",
+      "evidence": "The core specializes a local field to the archimedean case and identifies R or C. The local-field target supplies the ambient topological-field notion; completion and function-field links are explanatory applications.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/artins-theorem-fixed-fields",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4166cbbfa7394b8671d958287d963fd508acaaee3efe52dbdc0e65bf055d735",
+      "evidence": "The theorem starts with a field L and finite subgroup G of its field automorphisms, forms L^G, and concludes finiteness/Galois structure. Field-automorphism and fixed-field targets supply the inputs; Galois extension/group are outputs of the theorem.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-automorphism",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-automorphism",
+        "algebra-fields-galois/fixed-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/chebotarev-density-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e81edb623118def5bb92a44080f1f68854567ce0e85b97c33889112ae18ec048",
+      "evidence": "The core assumes a finite Galois extension of number fields, its Galois group, a conjugacy class, and Frobenius at unramified places. The five listed targets define exactly these objects and the Frobenius convention; representation-theoretic consequences and function-field qualifications are later sections.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/galois-group",
+        "algebra-groups/conjugacy-class",
+        "algebra-fields-galois/frobenius-unramified"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/galois-group",
+        "algebra-groups/conjugacy-class",
+        "algebra-fields-galois/frobenius-unramified"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/completion-at-place",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48dbaf3ec04820faab10549226e582b3fdec73f521342288b6c126c1f6f8ac6d",
+      "evidence": "The core starts with a field equipped with an absolute value representing a place and constructs its complete valued completion. The place target supplies the input and the completion construction is self-contained; global/local-field statements are subsequent applications.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/place-of-global-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/place-of-global-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/cyclotomic-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d1f783e4166de6a56845a432906d545bcfffe7eeddf5b14849d61e5452de5129",
+      "evidence": "The core fixes a field, a primitive nth root in an algebraic closure, and defines K(zeta_n)/K as a simple extension. Field, primitive-root, algebraic-closure, and simple-extension targets match these inputs. The separable/normal/Galois assertion is conditional on char(K) not dividing n and is a theorem consequence.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/primitive-root-of-unity",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/simple-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/primitive-root-of-unity",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/simple-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/cyclotomic-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "576d53d05c1b06376b704f56095ded3fd7279b167339c297c709ba1131f0b7bb",
+      "evidence": "The core chooses a primitive nth root in an algebraic closure and forms the product over gcd(k,n)=1. Algebraic-closure and primitive-root targets define the ambient root and its exact order; irreducibility, factorization, and degree appear as later properties.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/primitive-root-of-unity"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/primitive-root-of-unity"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/decomposition-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "245fb2825516956e2115f9b4b51d142bb691015b7cea3587462ad9b1dca53a43",
+      "evidence": "The core assumes a finite Galois extension of global fields, a nonarchimedean place v, and a place w above it; it defines the stabilizer and then restriction to completions/residue fields. Galois-extension/group, global-field, completion, and residue-field targets supply those inputs and operations. Inertia is the stated kernel/output, so it is not added as a prerequisite.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/completion-at-place",
+        "algebra-commutative/residue-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/completion-at-place",
+        "algebra-commutative/residue-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/dedekind-independence-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ff8e437c89132a6573d0fc446ab66396f353b4a7ecae4469d67e7368fd1cc089",
+      "evidence": "The lemma assumes a field extension K subset L, a common overfield Omega, and distinct K-fixing field embeddings, then asserts linear independence as Omega-valued functions. Field-extension, field-embedding, and function targets define exactly the domain, maps, and linear-combination operation; Galois examples are consequences.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/field-embedding",
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/field-embedding",
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/degree-of-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d846b4bbe8f88f4635cfcd7c26c0a4d4ae1cfdad136d4226ee6ffd42fab788aa",
+      "evidence": "The core defines [E:F] as the vector-space dimension of a field extension and states the basis/cardinality condition. Field-extension and vector-space targets supply the two defining structures; tower law is explicitly deferred to remarks.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/discriminant-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "808820452646b35e5abe431bb7c20419b7a0dce4b182bfcc070ff1e9ae038b2a",
+      "evidence": "The core assumes a finite field extension, its degree, its field trace, and a K-basis, then takes the determinant of the trace-pairing matrix. Field-extension and trace-field targets supply the ambient extension and trace operation; separability/embeddings only occur in later properties.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/trace-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/trace-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/embeddings-qbar-to-q_p",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4841a26bf3139a474abf72d69e0210c4b2cde53287f09b599e095f02b007dc94",
+      "evidence": "The core chooses an embedding of algebraic closures extending Q into Q_p and identifies the associated decomposition subgroup with the local absolute Galois group. Decomposition-group and Galois-extension/group targets supply the subgroup and absolute-Galois operations; inertia, Frobenius, and representations are later consequences.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/decomposition-group",
+        "algebra-fields-galois/galois-extension-and-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/decomposition-group",
+        "algebra-fields-galois/galois-extension-and-group"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/fg-field-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4ec94c49865d1666d18aaace065c6c09b248de84e75d910fa2b6168f2625b58",
+      "evidence": "The core defines finite generation by E=F(alpha_1,...,alpha_n) inside a field extension. Field-extension supplies the ambient inclusion and generated extension; simplicity, degree, and transcendence are later comparisons.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/field-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56e635521ee60d9acb80814bf59745619a4de28d3540e4b11bc2b4d46bab4d52",
+      "evidence": "The core defines a bijective field homomorphism L to itself and then K-automorphisms for a field extension. Field, automorphism-group, and field-extension targets supply the object, group operation, and base-fixing condition; Galois groups and fixed fields are later uses.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-groups/automorphism-group",
+        "algebra-fields-galois/field-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-groups/automorphism-group",
+        "algebra-fields-galois/field-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/field-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59361a08cebce4b25e91ca6d3e1565756a7c23bbaccc929e108a3dba91c4c3d4",
+      "evidence": "The core defines an extension as an injective field homomorphism F\u2192E and then identifies F with its image. The field target supplies both fields, and injective-function supplies the stated embedding condition; intermediate fields, degree, and automorphisms are later language.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-extension-perfect-separable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "31c273e4f10aba357269bcc8b2d9eb5afb90d32d6a029a5886a01374703801c2",
+      "evidence": "The theorem assumes a perfect field K and an algebraic extension L/K, concluding separability (and perfection of L). Perfect-field and separable-extension targets define the hypothesis and conclusion; the finite and examples clauses are applications.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/perfect-field",
+        "algebra-fields-galois/separable-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/perfect-field",
+        "algebra-fields-galois/separable-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "599c3f551b43270b4bc00075b7ffbe7a5dacd88e5f412fa9e52d3c774a49830d",
+      "evidence": "The core defines a finite field, derives prime characteristic and finite dimension over F_p, and obtains |F|=p^n. Field, characteristic, field-extension, degree, and basis/dimension targets supply those operations; classification and cyclicity are later results.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/characteristic",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/degree-of-extension",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/characteristic",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/degree-of-extension",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-existence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ccb40622f468325d605052a4f94000d20b894aab730a4b4af047a96ff101a9a0",
+      "evidence": "The theorem separates the prime-power cardinality argument from construction via an irreducible degree-n polynomial quotient. Finite-field, field, characteristic, vector-space, and basis/dimension targets support those inputs and the cardinality calculation; existence of irreducibles is invoked as a standard theorem.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-rings/field",
+        "algebra-rings/characteristic",
+        "algebra-fields-galois/field-extension",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-rings/field",
+        "algebra-rings/characteristic",
+        "algebra-fields-galois/field-extension",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-existence-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25caa773750222c77639df3d50efc54a48fb607df4464ef3f8c5998d53089e62",
+      "evidence": "The core states existence for q=p^n and uniqueness up to isomorphism, using an irreducible quotient and the splitting-field characterization of x^q\u2212x. Finite-field and characteristic targets define the objects and characteristic constraint; splitting-field and polynomial details are cited as consequences in the body.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-rings/characteristic"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-rings/characteristic"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-galois-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d47c5526f4646c1b9be684ce62e4398824f094464315052c562c0620ab9617cc",
+      "evidence": "The theorem fixes q=p^n, the extension F_q/F_p, and Frobenius x\u21a6x^p, then asserts finite Galois cyclicity and exact order n. Finite-field, field-extension, Frobenius, Galois-extension, Galois-group, and finite-field-existence targets supply the named data and operations; the subfield examples are consequences.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/finite-field-existence"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/finite-field-existence"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-galois-group-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ce96c76d84629fa9137226046c688899b0480e3efc8c09c5d0733702bb3d596",
+      "evidence": "The theorem defines Frobenius on F_{p^n} and asserts that it generates the Galois group of order n, with the m|n generalization. Finite-field, Frobenius, Galois-extension, and Galois-group targets supply the core objects; intermediate-field consequences are deferred to remarks.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-multiplicative-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32d8fb65771bd2378f9f9fd1016db488878985cae36408d24a29ce8682c0fabc",
+      "evidence": "The core takes a finite field F_q, forms its nonzero multiplicative group, and asserts cyclicity of order q\u22121. Finite-field and abelian-group targets define the field and group structure; primitive-root language is an output/example, not an additional prerequisite.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/abelian-group"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-multiplicative-group-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39b1f92f046ac90e55364473c5ff362b52a0db2a0ea40077d78c3e4e13c81d1a",
+      "evidence": "This duplicate formulation has the same core: nonzero elements of a finite field form an abelian group and the theorem asserts cyclicity. Finite-field and abelian-group targets exactly supply those inputs; primitive-element comparisons are later remarks.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/abelian-group"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/finite-fields-perfect",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb9a5a088cbae692b2e8dd3c24f4e13bf09aede52155ab477c2bebb61ce6f264",
+      "evidence": "The proof uses the Frobenius endomorphism on a finite field, injectivity plus finiteness for surjectivity, and concludes perfection/separability. Field, Frobenius, separable-extension, perfect-field, injective-function, and surjective-function targets match each operation in the core proof.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/separable-extension",
+        "algebra-fields-galois/perfect-field",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/separable-extension",
+        "algebra-fields-galois/perfect-field",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/fixed-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "841954a196d22a66948aa83ce799fb676100c4f72229ada9ec5d2918b3b0e120",
+      "evidence": "The definition takes a field E and a collection G of field automorphisms and forms the common fixed subfield E^G; under an extension it is intermediate. Field and intermediate-field targets provide the ambient and subextension notions; finite-group and Galois results are later applications.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/intermediate-field"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/intermediate-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/frobenius-endomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7903508fb1d0b1c9f6987ad074d5133f3d921c15f90160efe51834cf4c2ffcc1",
+      "evidence": "The core defines x\u21a6x^p in characteristic p and proves additivity/multiplicativity from the binomial identity. Field and characteristic targets supply the domain and characteristic hypothesis; finite-field/perfect-field and scheme-relative Frobenius material are subsequent specializations.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/characteristic"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/characteristic"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/frobenius-unramified",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab430cadc656fccd47711d72de510036da8264a6f2d2fed560760eb04205beaa",
+      "evidence": "The core assumes a finite Galois extension of global fields and an unramified place, identifies decomposition with residue Galois action, and defines arithmetic/geometric Frobenius. Galois-extension, global-field, inertia, decomposition, and residue-field targets define those objects; Weil-group conventions follow later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/inertia-subgroup",
+        "algebra-fields-galois/decomposition-group",
+        "algebra-commutative/residue-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/inertia-subgroup",
+        "algebra-fields-galois/decomposition-group",
+        "algebra-commutative/residue-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/fundamental-theorem-galois-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47b97719c825276fa5f12c8ab7132fd00bdfecec3d35592b3e6f8ecc2947919c",
+      "evidence": "The theorem assumes a finite Galois extension, its group, subgroup fixed fields, and intermediate fields, then gives the inclusion-reversing bijection and degree/normality formulas. Galois-extension/group, fixed-field, intermediate-field, and group-index/degree targets supply the input language; the correspondence knowl is a restatement link.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/fixed-field",
+        "algebra-fields-galois/intermediate-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/fixed-field",
+        "algebra-fields-galois/intermediate-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/fundamental-theorem-symmetric-polynomials",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a305d87865b0e47be5ded3480dff5ffe6871de9d014c71e3caa745bf30db3708",
+      "evidence": "The core defines symmetric polynomials and elementary symmetric polynomials over a commutative ring, then asserts unique polynomial expression in the elementary generators. The commutative-ring target supplies the coefficient setting; the permutation and polynomial constructions are stated locally, with Galois applications later.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/galois-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54a59d95737c7cb4a2cefabec7567e2268b831f504cbd9a8e0d18e2166c7e844",
+      "evidence": "The theorem fixes a finite Galois extension and explicitly constructs maps between intermediate fields and subgroups via fixed fields and restriction groups. Galois-extension/group, intermediate-field, fixed-field, and degree/tower targets support the definitions and formulas; normality and quotient statements are theorem outputs.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/intermediate-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/intermediate-field",
+        "algebra-fields-galois/fixed-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/galois-degree-equals-group-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5df0e55c9288ada8a0696fdc2ac6a4099ae1259ab373235bb4e7a0cb870b8486",
+      "evidence": "The theorem assumes a finite field extension and adds the Galois hypothesis, then equates its degree with the order of the base-fixing automorphism group. Field-extension, Galois-group, field-automorphism, Galois-extension, and degree targets define every object in the statement; the inequality is a later companion fact.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/degree-of-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/galois-group",
+        "algebra-fields-galois/degree-of-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/galois-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98f112ecca181ad4b1a19b992a6b389f0bf81d38bd8a50df60977d48c8e4ec17",
+      "evidence": "The core defines an algebraic extension to be Galois when it is normal and separable. Field-extension, normal-extension, and separable-extension targets supply the defining conditions; splitting fields and group order appear as finite-case consequences.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/normal-extension",
+        "algebra-fields-galois/separable-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/normal-extension",
+        "algebra-fields-galois/separable-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/galois-extension-and-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df649f867b0b8bcb129ddef16768904a48e1b91d6d02cc945def5433cd67bebf",
+      "evidence": "The core defines finite Galois extension/group using normality, separability, embeddings, and minimal polynomials, then separately discusses the profinite infinite case. Fixed-field and minimal-polynomial targets support the stated core definitions; the infinite paragraph is explicitly scoped as an extension of the finite setup.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/fixed-field",
+        "linear-algebra/minimal-polynomial"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/fixed-field",
+        "linear-algebra/minimal-polynomial"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/galois-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b50ddc3b16f9319a192ea098af32c1075cdbe83bd1a64e144d8364095e9109e1",
+      "evidence": "The definition takes a field extension K/F and selects its field automorphisms fixing F pointwise, with composition as group law. Field-extension, field-automorphism, and automorphism-group targets provide exactly these structures; finite Galois order and examples are later uses.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/field-automorphism",
+        "algebra-groups/automorphism-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/field-automorphism",
+        "algebra-groups/automorphism-group"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/global-function-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0adc1760cc3ae2467dedd6c18a896ca466eb2237c9072c09ac4ebb4a3f6803db",
+      "evidence": "Read the complete definition and targets. The core defines a finite extension of F_q(t), then identifies it with the function field of a smooth projective geometrically connected curve; field-extension, finite-field, and smooth-projective-curve provide these inputs. Place/completion statements are later consequences.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/finite-field",
+        "algebraic-geometry-foundations/smooth-projective-curve"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/finite-field",
+        "algebraic-geometry-foundations/smooth-projective-curve"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/global-local-fields-completions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90415909201c72ccfa1cc8376c6f7763fe3de066b46f27a829b7649e33b3303d",
+      "evidence": "Read the complete definition and targets. The core defines a global field as a number field or global function field and then describes places and completions; number-field and global-function-field are the two defining alternatives. Local-field/completion links are consequences of the classification.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/global-function-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/global-function-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/ideles-artin-reciprocity-hecke-character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0f46aee72eac657bc891f0c4f100439a59c04e0ed2cd7fcfa841bbda8545be44",
+      "evidence": "Read the full source and direct targets. The core forms A_F^\u00d7 from the adele restricted product, quotients by F^\u00d7, and defines continuous quasicharacters; number-field, adeles, and character targets provide exactly those constructions. L-functions and reciprocity are later applications.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/adeles-restricted-product",
+        "algebra-representation-theory/character"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/adeles-restricted-product",
+        "algebra-representation-theory/character"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/inertia-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9648f5c13f2609d02ad2fb56cfd2af959f85613816782a01cf0e3f761546588b",
+      "evidence": "Read the complete source and targets. The core defines inertia as the kernel of Gal(L_w/K_v) acting on residue fields, then gives the absolute exact sequence; Galois-extension/group, nonarchimedean-local-field, residue-field, decomposition-group, and exact-sequence targets support each operation. Tame/wild material is subsequent.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/decomposition-group",
+        "algebra-groups/exact-sequence-groups"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/decomposition-group",
+        "algebra-groups/exact-sequence-groups"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/inseparable-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47430b61582fcba05c6b2779dd29b84cbaab4373f989b5a223409949ddc1d413",
+      "evidence": "Read the complete definition and targets. The core defines failure of separability through a repeated-root minimal polynomial and defines purely inseparable extensions by alpha^{p^n} in F; field-extension, separable-extension, and characteristic provide these notions. Examples instantiate the p-positive hypothesis.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-extension",
+        "algebra-rings/characteristic"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-extension",
+        "algebra-rings/characteristic"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/intermediate-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a29fa19d697132e5dbf47dfb262b120d67ded950297c57086f7688213913c9f8",
+      "evidence": "Read the complete definition and target. The core defines K by F\u2286K\u2286E inside a field extension; field-extension supplies the ambient inclusion. Tower and Galois correspondence are explicitly later remarks.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/local-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "63f2077b7b87b79e56c85a2c44ebd6094fc1e4b89e22281bdd9468b6ab945b78",
+      "evidence": "Read the complete definition and target. The core requires a nondiscrete Hausdorff topological field with locally compact underlying space; locally-compact-space supplies the topological condition. Archimedean/nonarchimedean classification and completions are later.",
+      "previous_prerequisites": [
+        "topology/locally-compact-space"
+      ],
+      "prerequisites": [
+        "topology/locally-compact-space"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/non-archimedean-absolute-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f00e6f1b44690eb3fe86201f66c3897d4105d52f9cb08fabc14152f3ee66971a",
+      "evidence": "Read the complete definition and valuation target. The core lists positivity, multiplicativity, and the strong triangle inequality and then converts a real valuation by exp(-v); valuation-on-a-field supports the additive counterpart. The references and ultrametric discussion do not alter inputs.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/nonabelian-h1-galois-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b80e35100c2ef843985ade4104dad39525026d94f82a956177ae30d011a0390d",
+      "evidence": "Read the full source and direct targets. The core defines cocycles z\u03c3\u03c4=z\u03c3\u00b7\u03c3z\u03c4 and twisted-conjugacy classes as a pointed set; twisted-conjugacy and pointed-set targets supply the quotient/action language. Galois and torsor applications are later sections.",
+      "previous_prerequisites": [
+        "langlands/twisted-conjugacy",
+        "shared-foundations/pointed-set"
+      ],
+      "prerequisites": [
+        "langlands/twisted-conjugacy",
+        "shared-foundations/pointed-set"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/nonarchimedean-local-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "de4d4c40888fdefd8eb908ae725cc5e693475a48e2fc6153352e83b5498f34b6",
+      "evidence": "Read the complete definition and targets. The core requires completeness for a nontrivial discrete valuation and finite residue field, with an equivalent locally compact absolute-value formulation; valuation, residue-field, and nonarchimedean-absolute-value provide those inputs. Classification and compactness are consequences.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/non-archimedean-absolute-value"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/non-archimedean-absolute-value"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/norm-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1399920d40de028d56baf91ee42eac8539afa01f4ad268e14bc1bfd074115536",
+      "evidence": "Read the complete definition and targets. The core defines N_L/K(alpha) as det of multiplication by alpha on a finite extension, while the separable product formula is later. Field-extension supplies L/K and the remaining cited targets support separability, embeddings, and tower comparison.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "linear-algebra/linear-map",
+        "linear-algebra/determinant"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "linear-algebra/linear-map",
+        "linear-algebra/determinant"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/normal-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b928d6b507fabfd0822b748768e65dcc693c398ec021b3689d69df71f92a3b7d",
+      "evidence": "Read the complete definition and targets. The core defines normality by splitting every irreducible polynomial having a root in K and gives embedding/splitting-field equivalents; field-extension and algebraic-closure/embedding/splitting-field targets support those formulations. Separability is explicitly a later distinction.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/normality-splitting-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0cae638b0bc122ad3103732fcf05298803d14600b63a6dc4ebfcae61a1e1629",
+      "evidence": "Read the complete equivalence and targets. The core compares normality, root-splitting, and being a splitting field (a single polynomial in the finite case); normal-extension and splitting-field supply the two central notions. Examples and Galois consequences are later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/normal-extension",
+        "algebra-fields-galois/splitting-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/normal-extension",
+        "algebra-fields-galois/splitting-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/number-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0027462d9a2f452f6219bd1e83397077eaf0a58228555f0c72de2330daf186f",
+      "evidence": "Read the complete definition and targets. The core defines a number field as a finite extension F/Q and uses places/completions to position it among global fields; field-extension, rational-numbers, place, local-field, and global-field targets supply those structures.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "shared-foundations/rational-numbers"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "shared-foundations/rational-numbers"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/p-adic-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cad88a86094fd5d43896c979e6073a3b0d6b80f4c845832e85e8dfece071e8ee",
+      "evidence": "Read the full definition and targets. The core defines a p-adic field as finite over Q_p and derives its normalized valuation ring, maximal ideal, residue field, and uniformizer; nonarchimedean-local-field, maximal-ideal, residue-field, and DVR targets support those data. Topological/Langlands remarks are later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/valuation-ring",
+        "algebra-rings/maximal-ideal",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/finite-field",
+        "algebra-commutative/dvr"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/valuation-ring",
+        "algebra-rings/maximal-ideal",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/finite-field",
+        "algebra-commutative/dvr"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/perfect-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4bbf5161f59a3b3a2c8a544ddabcf7199e0d313516bb8e7cefb4142f2ce21b6a",
+      "evidence": "Read the complete definition and targets. The core defines perfectness by separability of every algebraic extension and gives the characteristic-zero and surjective-Frobenius criteria; field, field-extension, separable-extension, algebraic-element, and Frobenius targets support these equivalences. Examples are consequences.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/place-of-global-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f463f64622661cf64831e993c990a3d81e9b79f48ddd118749319a5d552d2833",
+      "evidence": "Read the complete definition and targets. The core defines a place as an equivalence class of nontrivial absolute values and obtains completion; global-field, completion, nonarchimedean-absolute-value, and closed-point targets support the stated cases. Product-formula normalization is a later remark.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/primitive-element-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f330b195aed714323a3c302f1f4f01d849429b1e389deabb6e994ba1d0460271",
+      "evidence": "Read the entire theorem and targets. The core assumes a finite separable extension and concludes L=K(alpha); field-extension, separable-extension, and simple-extension supply the hypotheses and output. The generic beta+c gamma strengthening is explicitly scoped to infinite K.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-extension",
+        "algebra-fields-galois/simple-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-extension",
+        "algebra-fields-galois/simple-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/primitive-root-of-unity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b4a34be5853dbf2a6e590f3e634457ff27f78c29f331bd73e7d54b0ad0a2cd06",
+      "evidence": "Read the complete definition and targets. The core defines exact multiplicative order n in an algebraic closure and gives the characteristic-coprime cyclotomic characterization; field, algebraic-closure, and cyclotomic-polynomial targets support those notions. Finite-field examples are later.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-closure"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-closure"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/separability-towers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "925f77a2fdfa4e99a949f766b27ddd55aa45b1e4720d82c28e74ebd5d7d60af1",
+      "evidence": "Read the full theorem and targets. The core states both directions of separability transitivity for K\u2286E\u2286L and an algebraic L/K; tower-of-fields, separable-extension, and separable-element supply the exact hypotheses and elementwise operation. Degree remarks are downstream.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/tower-of-fields",
+        "algebra-fields-galois/separable-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/tower-of-fields",
+        "algebra-fields-galois/separable-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/separable-distinct-roots",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5632db1c1c7001dea65a1721eac07df7a0b80e938824187246c1159b3c0daef",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks separability criteria by gcd, repeated roots, and distinct factors; algebraic-closure/splitting-field/algebraic-element/separable-element define the ambient roots and terms. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/splitting-field"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-fields-galois/splitting-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/separable-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcd206117efda65476b0d7cd466f5990591691f6641ab19fda6494eb509125bc",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks minimal polynomial distinct-root definition and gcd test; field-extension/algebraic-element/splitting-field/algebraic-closure/separable-distinct-roots support each operation. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-element",
+        "algebra-fields-galois/separable-distinct-roots"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-element",
+        "algebra-fields-galois/separable-distinct-roots"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/separable-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15ada6d9c344dad7758f68465cc385d7794860f32d046828c7bd72f03b0b0327",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks elementwise separable extension and finite embedding-count criterion; field-extension/separable-element/algebraic-closure/field-embedding provide the hypotheses and equivalence. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-element"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/separable-element"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/separable-normal-galois",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4608e140161234fbecd334c153269cda9e2172e0ac99a01009090546b384af0",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks finite Galois iff separable and normal, with degree/group formula; field-extension/Galois-extension/separable-extension/normal-extension/Galois-group supply all stated structures. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/separable-extension",
+        "algebra-fields-galois/normal-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/separable-extension",
+        "algebra-fields-galois/normal-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/simple-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a08b93e913aab259dc7aee096b61b4c4e3104e91b76677224c2723229f00daa",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks smallest subfield F(alpha) and rational expressions; field-extension supplies the ambient inclusion while algebraic/transcendental/degree links are consequences. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/splitting-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8bda3de99c67cdcc545a9c9efdc4c75c0a1ed54835bc35214d17b019a4828a0",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks splitting field defined by complete factorization and generation by roots; field-extension/tower/simple/algebraic-closure supply construction data. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/splitting-field-degree-bounds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d28d5887d5d37a226be615e78bfb3415e342506564a78cb01cb31251fa3dc797",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks factorial degree bound from successive root adjunctions; field-extension/splitting-field/degree/simple-extension support the extension chain and dimension bound. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/separable-distinct-roots",
+        "algebra-fields-galois/splitting-field",
+        "algebra-fields-galois/galois-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/separable-distinct-roots",
+        "algebra-fields-galois/splitting-field",
+        "algebra-fields-galois/galois-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/splitting-field-existence-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24c7ad73b1fa1bfded798c2318dc64666f1b1376967b53c756e6d244cad1c3a4",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks existence and uniqueness of a splitting field for a nonconstant polynomial; field/field-extension/splitting-field/algebraic-extension match the construction hypotheses. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/splitting-field",
+        "algebra-fields-galois/algebraic-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/splitting-field",
+        "algebra-fields-galois/algebraic-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/splitting-field-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53a2467b115557a6b10103ccd2623200ed0710a4899503ad94d0229b9aa7ea94",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks base-field isomorphism between two splitting fields and fixed-closure realization; field/field-extension/splitting-field/field-embedding support the maps. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/splitting-field",
+        "algebra-fields-galois/field-embedding"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-fields-galois/splitting-field",
+        "algebra-fields-galois/field-embedding"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/tower-law",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d916957b4683a157a8014367f6674ff3778236c49c33c01d4993c8faffac693a",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks multiplicativity of dimensions in finite tower; tower/intermediate-field/degree/field-extension provide the basis setup and degree operation. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/tower-of-fields",
+        "algebra-fields-galois/intermediate-field",
+        "algebra-fields-galois/degree-of-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/tower-of-fields",
+        "algebra-fields-galois/intermediate-field",
+        "algebra-fields-galois/degree-of-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/tower-of-fields",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f24f981b8a4fa8915dd90e86d6d0d433b4001e32d02e4beee71883bb53ce75d",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks chain F subset K subset E as extension plus intermediate field; field-extension and intermediate-field are exactly the defining inputs. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/intermediate-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/intermediate-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/trace-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a0d6c16373848ba763d8e65fca0d3943cfc8adf9e9267f410c7cccf0bad53e5a",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks trace as linear-algebra trace of multiplication on finite extension, with separable embedding sum; field-extension/degree/vector-space/linear-map/trace support the definition. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/degree-of-extension",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "linear-algebra/trace"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/degree-of-extension",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "linear-algebra/trace"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/trace-norm-towers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a1a389f73348f3e5a7a283d476a2d7294ab5c065ef32747ff32f50619872d78",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks composition formulas for trace and norm in finite tower; tower/trace/norm targets define each operation and the hypotheses. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/tower-of-fields",
+        "algebra-fields-galois/trace-field",
+        "algebra-fields-galois/norm-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/tower-of-fields",
+        "algebra-fields-galois/trace-field",
+        "algebra-fields-galois/norm-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/transcendental-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c35ec154247ab72e8b6464f168f83bce1e80b07f0909b85dad21c02e501b62c",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks transcendence via absence of polynomial relation and injective evaluation; field-extension/polynomial-ring/simple/degree support the map and degree consequence. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-rings/polynomial-ring",
+        "algebra-fields-galois/simple-extension",
+        "algebra-fields-galois/degree-of-extension"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-rings/polynomial-ring",
+        "algebra-fields-galois/simple-extension",
+        "algebra-fields-galois/degree-of-extension"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/transcendental-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54c0fa31d78e66f74d97d17a3fe97424f2ea476fade86846a40f68dae27cd0ad",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks transcendental extension iff not algebraic iff contains transcendental element; field-extension/algebraic-extension/transcendental-element supply both formulations. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-extension",
+        "algebra-fields-galois/transcendental-element"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/field-extension",
+        "algebra-fields-galois/algebraic-extension",
+        "algebra-fields-galois/transcendental-element"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/unramified-extension-local",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7864ccc27301db4c7fee3ff96131341b2142f0431ddac674f555161c67322e62",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks unramified local extension defined by e=1 and separable residue extension, with residue Frobenius classification; local-field/finite-field/residue-field/DVR supply local data. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/finite-field",
+        "algebra-commutative/residue-field",
+        "algebra-commutative/dvr"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/finite-field",
+        "algebra-commutative/residue-field",
+        "algebra-commutative/dvr"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/valuation-on-a-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f82988082eb4f5735abfd19f8e1813788554101b3845d74837928278a63cc076",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks valuation axioms into ordered abelian group, then valuation ring and value group; field and ordered-abelian-group supply the axiomatic inputs. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-groups/ordered-abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-groups/ordered-abelian-group"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/valuation-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59d7a0af7b61da12833d144c1e646d7cc70d85084cdbb5594c75bfcba7688b71",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks valuation ring, units, maximal ideal, local ring, residue field from a valuation; valuation/group-of-units/maximal-ideal/local-ring/residue-field match each construction. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-rings/group-of-units",
+        "algebra-rings/maximal-ideal",
+        "algebra-commutative/local-ring",
+        "algebra-commutative/residue-field"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-rings/group-of-units",
+        "algebra-rings/maximal-ideal",
+        "algebra-commutative/local-ring",
+        "algebra-commutative/residue-field"
+      ]
+    },
+    {
+      "id": "algebra-fields-galois/value-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f40e08576838c53f4c59a1c77d84bc0aee7175ef17a92a2ea373427f220f7ff",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks value group as v(K^times), replacing codomain to make valuation surjective; valuation and surjective-function support the map and codomain claim. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "formal-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79ea37741432287a4dd963ba1cd7035e227ee7b1d80b6361aef2e0521b46987d",
+      "evidence": "Read the complete source and each direct prerequisite target. The core checks navigation section with explicit formal-group house convention; group-object is its only prerequisite. Later examples and remarks do not add prerequisites.",
+      "previous_prerequisites": [
+        "algebra-category-theory/group-object"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/group-object"
+      ]
+    },
+    {
+      "id": "formal-groups/additive-and-multiplicative-formal-group-laws",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efef024caaeb61ca59731719b174e57d223dcd647a7e6185e7a3ac845f22459c",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines X+Y and X+Y+XY over a commutative ring and verifies inverses/logarithms; commutative-ring and one-dimensional-law targets provide the coefficient setting and axioms. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "formal-groups/one-dimensional-formal-group-law"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "formal-groups/one-dimensional-formal-group-law"
+      ]
+    },
+    {
+      "id": "formal-groups/affine-formal-groups-and-complete-hopf-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e2d2da89d350d4ce2b340cda56c83d3538cc57b280f19bb5646682ab8b475f2",
+      "evidence": "Read the complete source and each direct prerequisite target. The core states the Spf/Hopf anti-equivalence with completed tensor product and adic hypotheses; formal-spectrum, completed-tensor-product, and adic-ring targets supply the exact topological framework. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/formal-spectrum",
+        "algebra-topological/completed-tensor-product",
+        "algebra-topological/adic-ring"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/formal-spectrum",
+        "algebra-topological/completed-tensor-product",
+        "algebra-topological/adic-ring"
+      ]
+    },
+    {
+      "id": "formal-groups/complete-filtered-lie-algebra-bch-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8b2f483ef072d9c20554d9922c8a5bc300661e3c43e412cb498f4110c858b5d7",
+      "evidence": "Read the complete source and each direct prerequisite target. The core constructs BCH(x,y) on a complete bracket-filtered characteristic-zero Lie algebra and proves convergence modulo filtration; complete-filtered-Lie-algebra and BCH-formula targets provide hypotheses and series. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "lie-groups/complete-filtered-lie-algebra",
+        "lie-groups/baker-campbell-hausdorff-formula"
+      ],
+      "prerequisites": [
+        "lie-groups/complete-filtered-lie-algebra",
+        "lie-groups/baker-campbell-hausdorff-formula"
+      ]
+    },
+    {
+      "id": "formal-groups/coordinate-hopf-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c1f49362c46d221cfbf7597ea38e429cfa04a823f09154cd02f315afb70ee4be",
+      "evidence": "Read the complete source and each direct prerequisite target. The core pulls multiplication, identity, inverse on an affine formal group back to continuous Delta, epsilon, S maps and lists Hopf identities; formal-group, continuous-map, Hopf-algebra, completed-tensor targets support each structure. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "formal-groups/formal-group",
+        "topology/continuous-map",
+        "algebra-coalgebras/hopf-algebra",
+        "algebra-topological/completed-tensor-product"
+      ],
+      "prerequisites": [
+        "formal-groups/formal-group",
+        "topology/continuous-map",
+        "algebra-coalgebras/hopf-algebra",
+        "algebra-topological/completed-tensor-product"
+      ]
+    },
+    {
+      "id": "formal-groups/distribution-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b866121ac069fb197ec35c4c79eec7e17bc262067997af0a06adb39d8e56131f",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines finite-order functionals Hom(A/m^(n+1),k), convolution, and primitive derivations; formal-group/formal-affine-space/coordinate-Hopf targets provide the completed local algebra and comultiplication. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "formal-groups/formal-group",
+        "formal-groups/formal-affine-space",
+        "formal-groups/coordinate-hopf-algebra"
+      ],
+      "prerequisites": [
+        "formal-groups/formal-group",
+        "formal-groups/formal-affine-space",
+        "formal-groups/coordinate-hopf-algebra"
+      ]
+    },
+    {
+      "id": "formal-groups/distribution-algebra-and-universal-enveloping-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4a809171ae000520cc49e2506161ba0d16e37bedd8a0de44ff1e1eebdbacbdb3",
+      "evidence": "Read the complete source and each direct prerequisite target. The core asserts in characteristic zero that primitive distributions extend to a filtered Hopf isomorphism U(Lie G)\u2192Dist(G); formal-group, Lie-algebra, enveloping-algebra, and distribution targets define both sides. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "formal-groups/formal-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/universal-enveloping-algebra",
+        "formal-groups/distribution-algebra"
+      ],
+      "prerequisites": [
+        "formal-groups/formal-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/universal-enveloping-algebra",
+        "formal-groups/distribution-algebra"
+      ]
+    },
+    {
+      "id": "formal-groups/formal-affine-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3782fce7ca3366a0a9de6973f1d5d7c08e64a45cbebcc6d0aed320c69494c931",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines Spf k[[X_1,...,X_n]] with origin, tangent/cotangent spaces, pointed maps, and products; no prerequisites are needed because the construction states its base field and ring locally. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "formal-groups/formal-completion-at-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39760c9ed294257135cde1d9c4469540d083bd37f2039540f82517d74d3bfa36",
+      "evidence": "Read the complete source and each direct prerequisite target. The core constructs the formal completion of a group scheme at its identity and identifies the induced formal group; group-scheme, formal-scheme, and formal-group targets provide construction inputs. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/group-scheme",
+        "algebraic-geometry-foundations/formal-scheme",
+        "formal-groups/formal-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/group-scheme",
+        "algebraic-geometry-foundations/formal-scheme",
+        "formal-groups/formal-group"
+      ]
+    },
+    {
+      "id": "formal-groups/formal-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e73cc72b4cc66f5369403992f1b3d64b4d20c8aece9ef1405c6752d73ce7786",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines a group object in formal schemes with multiplication, identity, inverse diagrams and finite-dimensional formal-disc scope; group-object and formal-scheme targets exactly supply the axioms. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "algebra-category-theory/group-object",
+        "algebraic-geometry-foundations/formal-scheme"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/group-object",
+        "algebraic-geometry-foundations/formal-scheme"
+      ]
+    },
+    {
+      "id": "formal-groups/formal-group-law",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed1d48dc8e11361809f55f3d29bcebfabb501321ee513e6f40b051cf3e5568d9",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines an n-dimensional tuple of formal series with unit, associativity, and two-sided inverse axioms; commutative-ring, multivariable-series, and substitution targets support the coefficient and composition operations. The axiomatic core remains intact. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/multivariable-formal-power-series-ring",
+        "algebra-rings/substitution-of-formal-power-series"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/multivariable-formal-power-series-ring",
+        "algebra-rings/substitution-of-formal-power-series"
+      ]
+    },
+    {
+      "id": "formal-groups/formal-group-law-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "462aacf6e3cc6d7697f34de15462e2db833b332073a5f14f6da98750e153055f",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines pointed series f intertwining F and G, composition by substitution, and invertibility via the linear Jacobian; formal-group-law, substitution, and identity-morphism targets support those operations. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "formal-groups/formal-group-law",
+        "algebra-rings/substitution-of-formal-power-series",
+        "algebra-category-theory/identity-morphism"
+      ],
+      "prerequisites": [
+        "formal-groups/formal-group-law",
+        "algebra-rings/substitution-of-formal-power-series",
+        "algebra-category-theory/identity-morphism"
+      ]
+    },
+    {
+      "id": "formal-groups/formal-group-laws-as-coordinates",
+      "outcome": "corrected",
+      "source_sha256": "6cca1be3e6809cacdbd642ffe1dc1b4e3e27a3f17aa90d1ec7cebae54cc2e8c7",
+      "evidence": "Read the complete source and each direct prerequisite target. The core equates group-object structures on a formal disc with formal group laws and morphisms, using contravariant coordinate pullback; formal-affine-space, formal-group-law, morphism, and group-object targets supply every core structure. The group-object edge is the genuine correction. Later sections are examples, consequences, or scope cautions and add no required edge. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "formal-groups/formal-affine-space",
+        "formal-groups/formal-group-law",
+        "formal-groups/formal-group-law-morphism",
+        "algebra-category-theory/group-object"
+      ],
+      "prerequisites": [
+        "formal-groups/formal-affine-space",
+        "formal-groups/formal-group-law",
+        "formal-groups/formal-group-law-morphism",
+        "algebra-category-theory/group-object"
+      ]
+    },
+    {
+      "id": "formal-groups/formal-group-logarithm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f4733ac13c2cf869336b7c39f61f96a41815ac94a47ec0f1a7bd81cf688b222",
+      "evidence": "Read the complete source and each direct prerequisite target. The core states the unique strict logarithm of a commutative law over a Q-algebra and constructs it from invariant differentials; formal-group-law, morphism, and additive-law targets support the source/target laws and strict map. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "formal-groups/formal-group-law",
+        "formal-groups/formal-group-law-morphism",
+        "formal-groups/additive-and-multiplicative-formal-group-laws"
+      ],
+      "prerequisites": [
+        "formal-groups/formal-group-law",
+        "formal-groups/formal-group-law-morphism",
+        "formal-groups/additive-and-multiplicative-formal-group-laws"
+      ]
+    },
+    {
+      "id": "formal-groups/height-of-one-dimensional-formal-group-law",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09604a68abbdb22c49a2c30273d9cc89571db811ee9cffff9e6626a20135d73c",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines height from the first nonzero term of [p]_F in characteristic p and proves isomorphism invariance; one-dimensional-law target supplies the p-series and commutative law. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "formal-groups/one-dimensional-formal-group-law"
+      ],
+      "prerequisites": [
+        "formal-groups/one-dimensional-formal-group-law"
+      ]
+    },
+    {
+      "id": "formal-groups/lie-algebra-formal-group-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e31a6e46172b086cc8d7ed56e910f917b8b153e14de12c0007e08ceec1b0f739",
+      "evidence": "Read the complete source and each direct prerequisite target. The core states the characteristic-zero equivalence between finite-dimensional Lie algebras and formal-disc groups, with BCH quasi-inverse and coordinate corollary; Lie-algebra, formal-group, formal-disc, tangent, and equivalence targets match the categorical setup. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "formal-groups/formal-group",
+        "formal-groups/formal-affine-space",
+        "formal-groups/tangent-lie-algebra",
+        "algebra-category-theory/equivalence-of-categories"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "formal-groups/formal-group",
+        "formal-groups/formal-affine-space",
+        "formal-groups/tangent-lie-algebra",
+        "algebra-category-theory/equivalence-of-categories"
+      ]
+    },
+    {
+      "id": "formal-groups/one-dimensional-formal-group-law",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cb5a987a2b66a4861655f67918193bf1e3fcf37af5812c5a2297239ba478c99",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines a commutative F(X,Y) with unit/associativity/commutativity and unique inverse, then p-series/logarithm scope; its axioms and coefficient ring are local, so no prerequisites are needed. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "formal-groups/positive-characteristic-warning",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4984aaa1447c94d6284990fbbb066b40eb795c6a2b905936fbb90b03fc1eea90",
+      "evidence": "Read the complete source and each direct prerequisite target. The core uses additive and multiplicative laws to show equal tangent algebras but different p-series/heights in characteristic p; Lie-algebra and formal-group targets supply the functor and objects, with height/formal-law links used as consequences. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "formal-groups/formal-group"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "formal-groups/formal-group"
+      ]
+    },
+    {
+      "id": "formal-groups/tangent-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a89ab6a0168e2968011e57a11069c6034690f23eec07f085e04356eb06c4c6f8",
+      "evidence": "Read the complete source and each direct prerequisite target. The core defines T_eG and the bracket from left-invariant formal vector fields, then gives the quadratic B(u,v)-B(v,u) formula; formal-group and vector-field targets supply the group and derivation operation. Later sections are examples, consequences, or scope cautions and add no required edge.",
+      "previous_prerequisites": [
+        "formal-groups/formal-group",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "formal-groups/formal-group",
+        "fiber-bundles/vector-field"
+      ]
+    }
+  ],
+  "triage_records": [],
+  "excluded_count": 0
+}

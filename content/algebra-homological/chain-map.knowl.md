@@ -7,8 +7,8 @@ aliases = ["chain-map", "Chain map"]
 domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/chain-map.md"
 prerequisites = ["algebra-homological/chain-complex", "algebra-modules/module-homomorphism"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \((C_\bullet,d^C)\) and \((D_\bullet,d^D)\) be [[algebra-homological/chain-complex|chain complexes]] of \(R\)-modules.
@@ -20,6 +20,8 @@ such that for every \(n\),
 \[
 d^D_n\circ f_n = f_{n-1}\circ d^C_n.
 \]
+
+## Induced maps on homology
 
 A chain map induces maps on homology:
 \[
@@ -51,4 +53,4 @@ D_n & \xrightarrow{d^D_n} & D_{n-1}.
    If \(C_\bullet\subseteq D_\bullet\) degreewise and \(d^D\) restricts to \(C_\bullet\), then the inclusions \(i_n:C_n\hookrightarrow D_n\) form a chain map \(i:C_\bullet\to D_\bullet\).
 
 3. **Multiplication on a fixed complex.**
-   Let \(C_\bullet\) be any chain complex of \(R\)-modules and fix \(r\in R\). Define \(f_n:C_n\to C_n\) by \(f_n(c)=rc\). Since the differentials are \(R\)-linear, \(d_n(rc)=r\,d_n(c)\), so \(f=(f_n)\) is a chain endomorphism \(C_\bullet\to C_\bullet\).
+   Let \(C_\bullet\) be any chain complex of \(R\)-modules and fix a central element \(r\in Z(R)\) (in particular, this holds for every \(r\) when \(R\) is commutative). Define \(f_n:C_n\to C_n\) by \(f_n(c)=rc\). Centrality ensures \(f_n\) is \(R\)-linear, since \(f_n(ac)=r(ac)=(ra)c=(ar)c=a(rc)\); then \(R\)-linearity of the differentials gives \(d_n(rc)=r\,d_n(c)\), so \(f=(f_n)\) is a chain endomorphism \(C_\bullet\to C_\bullet\).

@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "The relation that one integer is an exact multiplicative factor of another."
 aliases = ["divides", "divisibility", "divisor"]
 domains = ["shared-foundations"]
-prerequisites = ["shared-foundations/integers", "shared-foundations/p-adic-valuation"]
+prerequisites = ["shared-foundations/integers"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

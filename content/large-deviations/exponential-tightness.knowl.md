@@ -6,7 +6,7 @@ summary = "A compact-containment condition ensuring probabilities outside compac
 aliases = ["exponential-tightness", "Exponential tightness"]
 domains = ["large-deviations"]
 legacy_source_path = "large-deviations/exponential-tightness.md"
-prerequisites = ["probability/probability-measure", "topology/topological-space"]
+prerequisites = ["probability/probability-measure", "topology/topological-space", "topology/compact-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]] and let
 \(\mathfrak a\) be a densely defined symmetric sesquilinear form, linear in
-the second variable, with domain \(D(\mathfrak a)\subseteq H\). Suppose
+the first variable, with domain \(D(\mathfrak a)\subseteq H\). Suppose
 \(\mathfrak a[u,u]\geq m\|u\|^2\) for some \(m\in\mathbb R\). The associated
 quadratic form is \(q[u]=\mathfrak a[u,u]\). Choose any real \(c>-m\). It is **closed** if
 \(D(\mathfrak a)\) is complete for the form norm

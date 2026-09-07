@@ -6,7 +6,7 @@ summary = "A scheme morphism that factors as a closed immersion into relative pr
 aliases = ["projective map of schemes", "projective morphism"]
 domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/scheme-over-a-base"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/morphism-of-schemes"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

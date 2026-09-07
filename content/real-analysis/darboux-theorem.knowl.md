@@ -6,7 +6,7 @@ summary = "Derivatives satisfy the intermediate value property even when they ar
 aliases = ["darboux-theorem", "Darboux's theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/darboux-theorem.md"
-prerequisites = ["real-analysis/interval", "real-analysis/intermediate-value-theorem", "topology/continuous-map", "real-analysis/discontinuity-point"]
+prerequisites = ["real-analysis/interval", "real-analysis/differentiability-1d"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "The property that a continuous dynamical system has exactly one invar
 aliases = ["uniquely ergodic system", "uniquely ergodic flow"]
 domains = ["analysis", "dynamical-systems", "ergodic-theory"]
 section_mode = "progressive"
-prerequisites = ["topology/continuous-map", "probability/probability-measure"]
+prerequisites = ["topology/continuous-map", "topology/compact-set", "probability/probability-measure"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

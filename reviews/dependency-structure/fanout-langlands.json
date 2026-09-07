@@ -1,0 +1,2435 @@
+{
+  "reviews": [
+    {
+      "id": "langlands",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b74bdd948c40af667465e454f6c1f35fd73bfd8a58e11a93ec7a6c3733aee79d",
+      "evidence": "Read complete section: core presents Langlands as harmonic analysis on reductive groups related to Galois/motivic parameters and explicitly separates theorem-level cases from the conjectural general program; only reductive group is needed for this orientation.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group"
+      ]
+    },
+    {
+      "id": "langlands/a-packet",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a411e6ef340412f74f7861a3d22772940235fb5cfac1152e0478f1ae7dcb9a49",
+      "evidence": "Read complete knowl: local definition requires local field, connected reductive group, Arthur parameter, and archimedean/nonarchimedean admissibility; global tensor products and multiplicity are later scope.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/arthur-parameter",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "harmonic-analysis/admissible-representation-p-adic-group",
+        "lie-groups/admissible-representation-real-reductive-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/arthur-parameter",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "harmonic-analysis/admissible-representation-p-adic-group",
+        "lie-groups/admissible-representation-real-reductive-group"
+      ]
+    },
+    {
+      "id": "langlands/affine-grassmannian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8bff60ca4688a950e1d8fd94f26ef784aa4afef737382e7a58c196a31d9bfc2",
+      "evidence": "Read complete knowl: LG/L+G is defined over an algebraically closed field for connected reductive G using loop, positive-loop, ind-scheme, and formal-disc data; coweights and modifications are later orbit interpretation.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "langlands/ind-scheme",
+        "langlands/loop-group",
+        "langlands/positive-loop-group",
+        "formal-groups/formal-affine-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "langlands/ind-scheme",
+        "langlands/loop-group",
+        "langlands/positive-loop-group",
+        "formal-groups/formal-affine-space"
+      ]
+    },
+    {
+      "id": "langlands/affine-schubert-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "187a00a5e08f7799a08db63190796a966e8ddf83aa0ebad4484239021378279a",
+      "evidence": "Read complete knowl: reduced closure of the L+G orbit through t^lambda requires split reductive G, dominant coweight, positive-loop action, and affine Grassmannian; projectivity and boundary are consequences.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/dominant-coweight",
+        "langlands/positive-loop-group",
+        "langlands/affine-grassmannian"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/dominant-coweight",
+        "langlands/positive-loop-group",
+        "langlands/affine-grassmannian"
+      ]
+    },
+    {
+      "id": "langlands/affine-springer-fiber",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1996843786c04b1907855550eb652892f574c6dd1b7b92c678b24e09c7c4c014",
+      "evidence": "Read complete knowl: displayed locus requires G(F)/G(O), reductive G, Lie-algebra regular-semisimple gamma, and affine Grassmannian; group analogue and orbital-integral uses are later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/strongly-regular-semisimple-element",
+        "lie-groups/lie-algebra",
+        "langlands/affine-grassmannian"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/strongly-regular-semisimple-element",
+        "lie-groups/lie-algebra",
+        "langlands/affine-grassmannian"
+      ]
+    },
+    {
+      "id": "langlands/algebraic-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "200f0799f992ae35ca65b4b41f9f683cf8bd929e238a5b0a865e795d90043417",
+      "evidence": "Read complete knowl: algebraicity is defined over a number field by integral archimedean infinitesimal data, explicitly distinguishing C/L normalizations and positive-root shift; Galois discussion is qualified conjecturally.",
+      "previous_prerequisites": [
+        "langlands/automorphic-representation",
+        "algebra-fields-galois/number-field",
+        "langlands/local-l-parameter",
+        "langlands/c-algebraic-automorphic-representation",
+        "langlands/l-algebraic-automorphic-representation",
+        "lie-groups/positive-root"
+      ],
+      "prerequisites": [
+        "langlands/automorphic-representation",
+        "algebra-fields-galois/number-field",
+        "langlands/local-l-parameter",
+        "langlands/c-algebraic-automorphic-representation",
+        "langlands/l-algebraic-automorphic-representation",
+        "lie-groups/positive-root"
+      ]
+    },
+    {
+      "id": "langlands/arthur-multiplicity-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cde8ab6b24dbefeb72882992f08176120021b37801dc848be36696c9d6411d66",
+      "evidence": "Read complete knowl: for a discrete global Arthur parameter, formula uses finite component group, local A-packet pairings, and character orthogonality; displayed multiplicity-free form is limited to established classical settings.",
+      "previous_prerequisites": [
+        "langlands/arthur-parameter",
+        "langlands/a-packet",
+        "algebra-representation-theory/character-orthogonality"
+      ],
+      "prerequisites": [
+        "langlands/arthur-parameter",
+        "langlands/a-packet",
+        "algebra-representation-theory/character-orthogonality"
+      ]
+    },
+    {
+      "id": "langlands/arthur-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "296dd7c84c681172967c24c857b156a66e6fc8a5bdb68f53a231eecbd94ca729",
+      "evidence": "Read complete knowl: local parameter is admissible L_F x SL2(C) -> L-group with bounded-mod-center restriction and algebraic Arthur SL2; global isobaric form is separately restricted to classical settings.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/local-l-parameter",
+        "algebra-groups/center-of-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/local-l-parameter",
+        "algebra-groups/center-of-group"
+      ]
+    },
+    {
+      "id": "langlands/arthur-selberg-trace-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5f93ae5b302079bfa8f6050406d7a35a081bb98483f1ecfdff92fd313aa63de8",
+      "evidence": "Read complete knowl: J_geom(f)=J_spec(f) requires global field, reductive group, adelic test function, automorphic representations, and Levi data; truncation/weights/stabilization are later mechanisms.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/adeles-restricted-product",
+        "harmonic-analysis/test-function-space-local-group",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-fields-galois/adeles-restricted-product",
+        "harmonic-analysis/test-function-space-local-group",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ]
+    },
+    {
+      "id": "langlands/arthur-truncation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "246fb18d1d948149644064a975419e7d55d6eb06e3bb291b980c25cd96e444e6",
+      "evidence": "Read complete knowl: schematic alternating sum requires global reductive group, minimal parabolic, automorphic form, and constant terms; purpose and T-dependence are consequences.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "langlands/automorphic-form",
+        "langlands/automorphic-constant-term"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "langlands/automorphic-form",
+        "langlands/automorphic-constant-term"
+      ]
+    },
+    {
+      "id": "langlands/artin-conductor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1d8ae812d2ec9d4e521080773adf9de5ef69e13a42d51fa99c4d2661b5e64c7",
+      "evidence": "Read complete knowl: ramification-group sum requires nonarchimedean local field, finite-inertia Galois/Weil representation, finite Galois factorization, and inertia groups; WD/global formulas are later applications.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/weil-group",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/inertia-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/weil-group",
+        "algebra-fields-galois/galois-extension",
+        "algebra-fields-galois/inertia-subgroup"
+      ]
+    },
+    {
+      "id": "langlands/automorphic-constant-term",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0eb96a79f0b04516caf1525378291e6a6a4213d383633390da4f172405827fad",
+      "evidence": "Read complete knowl: integral over N(F)\\N(A_F) requires global field, reductive group, parabolic/unipotent/Levi data, adele ring, and Haar measure; modulus is an explicit normalization choice.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "langlands/automorphic-form",
+        "algebra-fields-galois/adeles-restricted-product",
+        "harmonic-analysis/haar-measure",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "harmonic-analysis/parabolic-modulus-character"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "langlands/automorphic-form",
+        "algebra-fields-galois/adeles-restricted-product",
+        "harmonic-analysis/haar-measure",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "harmonic-analysis/parabolic-modulus-character"
+      ]
+    },
+    {
+      "id": "langlands/automorphic-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4fb48607975e31bb1bf5dbed143505b94ea5afa3b21e1d70170fb170df209376",
+      "evidence": "Read complete knowl: core defines form on G(F)\\G(A_F) with smoothness, moderate growth, compact/infinitesimal finiteness, and central-character option; constant terms and representations are later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/adeles-restricted-product",
+        "lie-groups/k-finite-vector",
+        "lie-groups/universal-enveloping-algebra",
+        "algebra-representation-theory/central-character"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/adeles-restricted-product",
+        "lie-groups/k-finite-vector",
+        "lie-groups/universal-enveloping-algebra",
+        "algebra-representation-theory/central-character"
+      ]
+    },
+    {
+      "id": "langlands/automorphic-form-hecke-eigen",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0298ad2e4ca877dd2871c3cc7dfaad25918d9d5a13c2fafc8a090142af8f7ba0",
+      "evidence": "Read complete knowl: at unramified v, K_v-fixed vector is defined by a spherical Hecke-algebra character; automorphic form, number-field, reductive, hyperspecial, and character inputs are used directly.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/automorphic-form",
+        "algebra-representation-theory/central-character",
+        "harmonic-analysis/maximal-compact-hyperspecial",
+        "algebra-representation-theory/character"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/automorphic-form",
+        "algebra-representation-theory/central-character",
+        "harmonic-analysis/maximal-compact-hyperspecial",
+        "algebra-representation-theory/character"
+      ]
+    },
+    {
+      "id": "langlands/automorphic-galois-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "68283f1daf64dbd3bed20bbb7b6da140c9850da1d1774568e8d52543fa32021d",
+      "evidence": "Read complete knowl: explicitly conjectural/partial association for L-algebraic automorphic representations over number fields, with L-group-valued Galois map and local-global compatibility; GL_n hypotheses are qualified.",
+      "previous_prerequisites": [
+        "langlands/l-algebraic-automorphic-representation",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/l-group",
+        "langlands/local-global-compatibility"
+      ],
+      "prerequisites": [
+        "langlands/l-algebraic-automorphic-representation",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/l-group",
+        "langlands/local-global-compatibility"
+      ]
+    },
+    {
+      "id": "langlands/automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac65d4348b30179f7be624cb9e46811ba9daf7cdce6c0bee81b93118c1dc4151",
+      "evidence": "Read complete knowl: automorphic representation is irreducible subquotient of right-regular action on automorphic forms over a global field; local admissibility and restricted products are subsequent structure.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "langlands/automorphic-form",
+        "algebra-representation-theory/central-character"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "langlands/automorphic-form",
+        "algebra-representation-theory/central-character"
+      ]
+    },
+    {
+      "id": "langlands/c-algebraic-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "43b67e8968f58d0472384b0ea7a878324f9e6c57d7978ed2d1b88f50d2a8354a",
+      "evidence": "Read complete knowl: C-algebraicity is lambda_sigma-delta in cocharacter lattice at archimedean places, requiring maximal torus, positive roots, and local parameters; C-group consequence is marked expected.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/positive-root",
+        "langlands/local-l-parameter"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/positive-root",
+        "langlands/local-l-parameter"
+      ]
+    },
+    {
+      "id": "langlands/coalescence-of-shtuka-legs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f71c9af42f5b2b937dc3a1b347f7bcd70f62b9f49bdc31424415ee11726f5bc",
+      "evidence": "Read complete knowl: for finite-set map zeta, diagonal pullback gives I-leg/J-leg fusion; G-shtuka, affine Grassmannian factorization, and geometric Satake provide inputs.",
+      "previous_prerequisites": [
+        "langlands/g-shtuka",
+        "langlands/affine-grassmannian",
+        "langlands/geometric-satake-equivalence"
+      ],
+      "prerequisites": [
+        "langlands/g-shtuka",
+        "langlands/affine-grassmannian",
+        "langlands/geometric-satake-equivalence"
+      ]
+    },
+    {
+      "id": "langlands/cohomological-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b5342c3709f03c0f3e8ba20f44eb97a18cec2dc02dfcaa2964ff361cfcfe260",
+      "evidence": "Read complete knowl: cohomologicality is nonzero relative Lie algebra cohomology at each archimedean place, requiring number field, automorphic representation, complexified Lie algebra, and maximal compact; C-algebraicity is a consequence.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "langlands/automorphic-representation",
+        "lie-groups/complexification-of-a-real-lie-algebra",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "langlands/automorphic-representation",
+        "lie-groups/complexification-of-a-real-lie-algebra",
+        "lie-groups/maximal-compact-subgroup-real-reductive-group"
+      ]
+    },
+    {
+      "id": "langlands/compatible-system-of-galois-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3662dd0e8a1bb3c9c6975deaeedd2d9b10511a3a9a812d81e4d1f757f01df2f8",
+      "evidence": "Read complete knowl: weak compatibility means semisimple Galois representations with finite exceptional set, trivial inertia away from it, and coefficient-independent Frobenius polynomials; stronger p-adic/monodromy conditions are separated.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/inertia-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/number-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/inertia-subgroup"
+      ]
+    },
+    {
+      "id": "langlands/convolution-of-sheaves",
+      "outcome": "corrected",
+      "source_sha256": "701eae7aeefb8740877e13ee3cb7ad1d4cebd0f480d0a5c3b57f4d06d45ad776",
+      "evidence": "Read complete knowl: convolution is defined by m_!(F~boxtimes G) on the convolution Grassmannian for equivariant constructible/perverse sheaves; geometric Satake is a later use, so its reverse edge was removed.",
+      "previous_prerequisites": [
+        "langlands/perverse-sheaf",
+        "langlands/geometric-satake-equivalence"
+      ],
+      "prerequisites": [
+        "langlands/perverse-sheaf"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "langlands/dominant-coweight",
+      "outcome": "corrected",
+      "source_sha256": "b456c9978abbabf9847fe5c0c854026bee1bb441611c5d0790f2f0de56195894",
+      "evidence": "Read complete knowl: dominance is defined by <alpha,lambda> >= 0 for positive roots after choosing a maximal torus in a Borel of connected reductive G; affine-Grassmannian orbit indexing is a later application, so its edge was removed.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "lie-groups/positive-root",
+        "langlands/affine-grassmannian"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "lie-groups/positive-root"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "langlands/geometric-satake-equivalence",
+      "outcome": "corrected",
+      "source_sha256": "440d76a293f9286d89d2dff11dd8da02d845dd233c8cc9e51d8a75ab87fcd2bd",
+      "evidence": "Read complete knowl: equivalence identifies the convolution tensor category of equivariant perverse sheaves on Gr_G with Rep of the dual group; convolution is a direct defining input, so the edge was added.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "langlands/perverse-sheaf",
+        "langlands/affine-grassmannian",
+        "langlands/langlands-dual-group",
+        "langlands/intersection-cohomology-complex",
+        "langlands/affine-schubert-variety",
+        "langlands/dominant-coweight"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "langlands/perverse-sheaf",
+        "langlands/affine-grassmannian",
+        "langlands/langlands-dual-group",
+        "langlands/intersection-cohomology-complex",
+        "langlands/affine-schubert-variety",
+        "langlands/dominant-coweight",
+        "langlands/convolution-of-sheaves"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "langlands/component-group-of-l-parameter",
+      "outcome": "corrected",
+      "source_sha256": "98b50f8d39bdc7c76e5c529f693e0083d34ca6d651d090a6fa6e36df105c6ccd",
+      "evidence": "Complete source read: A_phi is pi_0 of the dual-group centralizer of a local L-parameter; local parameter, centralizer, and dual group are defining inputs. Packet groups and refined covers are clearly later conventions, so the packet edge was removed.",
+      "previous_prerequisites": [
+        "langlands/local-l-parameter",
+        "algebra-groups/centralizer",
+        "langlands/langlands-dual-group",
+        "langlands/l-packet"
+      ],
+      "prerequisites": [
+        "langlands/local-l-parameter",
+        "algebra-groups/centralizer",
+        "langlands/langlands-dual-group",
+        "langlands/l-packet"
+      ]
+    },
+    {
+      "id": "langlands/continuous-automorphic-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "271c54801f0d6351556955bac1705c582767208b1185f846114341a7e065de5d",
+      "evidence": "Complete source read: the L2 decomposition and direct-integral definition require reductive global G, global field, central/split-center convention, Hilbert space, discrete spectrum, direct-integral representations, and proper Levi data; Eisenstein and residual material is downstream.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-representation-theory/central-character",
+        "linear-algebra/hilbert-space",
+        "langlands/discrete-automorphic-spectrum",
+        "harmonic-analysis/direct-integral-unitary-representations",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-representation-theory/central-character",
+        "linear-algebra/hilbert-space",
+        "langlands/discrete-automorphic-spectrum",
+        "harmonic-analysis/direct-integral-unitary-representations",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ]
+    },
+    {
+      "id": "langlands/crystalline-galois-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79dc3908882d6648961460092ba85a11d316c91374c4cc243efc12d49fca934d",
+      "evidence": "Complete source read: D_cris(V)=(B_cris tensor V)^G_K and its full-dimension condition require the absolute Galois group and Fontaine period ring; semistable/de Rham implications and inertia remarks are later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/fontaine-period-rings"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/fontaine-period-rings"
+      ]
+    },
+    {
+      "id": "langlands/cuspidal-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d405187be5bd77f8a6fc43fc42d614c3e4f3f00134dadb55f23c5c6b75028652",
+      "evidence": "Complete source read: cuspidality is vanishing of the N(F)\\N(A) integral for every proper F-parabolic P=MN, requiring automorphic forms, reductive/global settings, parabolic/Levi/unipotent data, and irreducible representations for the associated constituent.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/automorphic-form",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "algebra-representation-theory/irreducible-representation"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/automorphic-form",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "algebra-representation-theory/irreducible-representation"
+      ]
+    },
+    {
+      "id": "langlands/de-rham-galois-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5c1961c7cb17eab3bb31a1b56d86716b1b52fb0da8441cdf33e2065ca04e99b6",
+      "evidence": "Complete source read: D_dR(V)=(B_dR tensor V)^G_K and its full-dimension condition require G_K, Fontaine B_dR, and the Hodge–Tate comparison; semistable/crystalline implications are explicitly qualified.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/fontaine-period-rings",
+        "langlands/hodge-tate-representation"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/fontaine-period-rings",
+        "langlands/hodge-tate-representation"
+      ]
+    },
+    {
+      "id": "langlands/discrete-automorphic-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df7c8d7cebd9dc8014dd212f85ba54325e4f739c04d91d660fb7894ef0b7a0f5",
+      "evidence": "Complete source read: discrete spectrum is the maximal closed Hilbert L2 subrepresentation that is a Hilbert direct sum of irreducibles, with global reductive setting and central-character/split-center convention; cuspidal/residual decomposition is downstream.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-representation-theory/central-character"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebra-representation-theory/central-character"
+      ]
+    },
+    {
+      "id": "langlands/drinfeld-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0de22972f284fb847299c88b420de7bc011de21496159d2e9fb1dd827c76b541",
+      "evidence": "Complete source read: the theorem applies to X^I over a finite field with scheme connectivity, lisse/etale sheaves, and compatible partial Frobenius; product fundamental/Weil-group action and stack variants are qualified by hypotheses.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-fields-galois/finite-field",
+        "algebraic-geometry-foundations/lisse-ell-adic-sheaf",
+        "langlands/partial-frobenius-on-shtukas"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-fields-galois/finite-field",
+        "algebraic-geometry-foundations/lisse-ell-adic-sheaf",
+        "langlands/partial-frobenius-on-shtukas"
+      ]
+    },
+    {
+      "id": "langlands/eisenstein-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6440f4cd73e02657009f353e17c3702677dd26d44685416302b448331b68567e",
+      "evidence": "Complete source read: E(g,phi,lambda)=sum over P(F)\\G(F) requires global reductive group, field, parabolic with Levi/unipotent radical, induced K-finite section, and cuspidal data; continuation and L-function claims are explicitly scoped.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "lie-groups/k-finite-vector",
+        "langlands/cuspidal-automorphic-representation"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "lie-groups/k-finite-vector",
+        "langlands/cuspidal-automorphic-representation"
+      ]
+    },
+    {
+      "id": "langlands/endoscopic-datum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a939c1b7633fd155414f4d899756eb144087caca4505308f8e9ebc91f2ae8bb",
+      "evidence": "Complete source read: the shorthand datum (H,s,eta) requires local/global field, reductive/quasi-split groups, semisimple centralizer, L-groups/L-homomorphism, dual group, and equivalence convention; full extension form is separately stated.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/langlands-functoriality-l-homomorphism",
+        "langlands/l-group",
+        "langlands/langlands-dual-group",
+        "algebra-groups/centralizer",
+        "shared-foundations/equivalence-relation"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/langlands-functoriality-l-homomorphism",
+        "langlands/l-group",
+        "langlands/langlands-dual-group",
+        "algebra-groups/centralizer",
+        "shared-foundations/equivalence-relation"
+      ]
+    },
+    {
+      "id": "langlands/endoscopic-transfer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87771ecd02b3091e74d604deee609c1bc10e8c59926e2c2af79005d870d5da35",
+      "evidence": "Complete source read: transfer identity compares stable orbital integral on H with transfer-factor-weighted orbital integrals on matching G classes, requiring endoscopic datum, test functions, regular-semisimple elements, transfer factor, and conjugacy classes.",
+      "previous_prerequisites": [
+        "langlands/endoscopic-datum",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "harmonic-analysis/test-function-space-local-group",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/transfer-factor",
+        "algebra-groups/conjugacy-class"
+      ],
+      "prerequisites": [
+        "langlands/endoscopic-datum",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "harmonic-analysis/test-function-space-local-group",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/transfer-factor",
+        "algebra-groups/conjugacy-class"
+      ]
+    },
+    {
+      "id": "langlands/euler-product-and-local-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "604638c329661f5decd28ce1c3b0e94fcc64147da132a48efc1ee8cd6aaf37e5",
+      "evidence": "Complete source read: determinant local factor requires nonarchimedean field, unramified representation, Satake class, L-group representation, semisimple/conjugacy and Frobenius conventions; incomplete global product and WD factor are later extensions.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "harmonic-analysis/unramified-representation-p-adic-group",
+        "langlands/satake-parameter",
+        "langlands/l-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-groups/conjugacy-class",
+        "algebra-fields-galois/frobenius-unramified"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "harmonic-analysis/unramified-representation-p-adic-group",
+        "langlands/satake-parameter",
+        "langlands/l-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-groups/conjugacy-class",
+        "algebra-fields-galois/frobenius-unramified"
+      ]
+    },
+    {
+      "id": "langlands/excursion-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9c4d13e7e901708dd087cedc380bdef2772f34254795c51e22a47e566d5c218",
+      "evidence": "Complete source read: algebra is generated by excursion operators on finite-level cuspidal space over a global function field; reductive group and excursion-operator definitions are direct inputs, with character decomposition and parameter reconstruction following.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/excursion-operator"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/excursion-operator"
+      ]
+    },
+    {
+      "id": "langlands/excursion-operator",
+      "outcome": "corrected",
+      "source_sha256": "ead8a09b997850461c124b9a5303991f2d897094cb5a4c53966cb7672ee6b143",
+      "evidence": "Complete source read: the operator is created, acted on by independent Galois elements through partial Frobenius and Drinfeld lemma, and annihilated using coalescence; those three shtuka structures were added as direct prerequisites.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/langlands-dual-group",
+        "lie-groups/right-translation",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/automorphic-form"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/langlands-dual-group",
+        "lie-groups/right-translation",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/automorphic-form"
+      ]
+    },
+    {
+      "id": "langlands/fargues-fontaine-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a7b3f95f4571218814863432479958fc8d4cf363ad4122e37a5296b873a5d51",
+      "evidence": "Complete source read: X_{S,E}=Y_{S,E}/phi^Z requires a nonarchimedean local field/residue field, perfectoid S, adic space, and Frobenius; classification and bundle applications are later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-commutative/residue-field",
+        "algebraic-geometry-foundations/perfectoid-space",
+        "algebraic-geometry-foundations/adic-space",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-commutative/residue-field",
+        "algebraic-geometry-foundations/perfectoid-space",
+        "algebraic-geometry-foundations/adic-space",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ]
+    },
+    {
+      "id": "langlands/fargues-scholze-parameter-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6bd43c59cd97c24f5475e12fb8062df5f24c4132ee3b42ab4b12e8ba7fb83379",
+      "evidence": "Complete source read: the map assigns a semisimple W_E-to-L(G) class to smooth irreducibles for a nonarchimedean E with ell != p; field, reductive group, smooth representations, conjugacy/semisimple classes, Weil group, and L-group are direct inputs, while limitations are explicit.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "harmonic-analysis/smooth-representation-totally-disconnected-group",
+        "algebra-groups/conjugacy-class",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/weil-group",
+        "langlands/l-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "harmonic-analysis/smooth-representation-totally-disconnected-group",
+        "algebra-groups/conjugacy-class",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/weil-group",
+        "langlands/l-group"
+      ]
+    },
+    {
+      "id": "langlands/fontaine-period-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d50e5ed1f93c66f274b936bb04d214a1c4f6a1a20e0db8edaf3501177eeb2d2",
+      "evidence": "Complete source read: Fontaine rings are defined for a p-adic field and its absolute Galois group, with B_HT/B_dR/B_cris/B_st structures; period modules and admissibility conditions are downstream.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/p-adic-field",
+        "algebra-fields-galois/galois-extension-and-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/p-adic-field",
+        "algebra-fields-galois/galois-extension-and-group"
+      ]
+    },
+    {
+      "id": "langlands/fundamental-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48a87bd0e12f634ba9135832c619e10763231814182ebf50308696b5d9cdbd19",
+      "evidence": "Complete source read: the unit hyperspecial functions and matching orbital integrals require nonarchimedean field, unramified reductive/endoscopic groups, hyperspecial subgroups, regular-semisimple classes, orbital integrals, and transfer; weighted/twisted variants are separated.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/unramified-reductive-group",
+        "langlands/endoscopic-datum",
+        "harmonic-analysis/maximal-compact-hyperspecial",
+        "langlands/endoscopic-transfer",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/orbital-integral"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/unramified-reductive-group",
+        "langlands/endoscopic-datum",
+        "harmonic-analysis/maximal-compact-hyperspecial",
+        "langlands/endoscopic-transfer",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/orbital-integral"
+      ]
+    },
+    {
+      "id": "langlands/g-bundle-on-fargues-fontaine-curve",
+      "outcome": "corrected",
+      "source_sha256": "938532c5c07a3ad281a953a15129e8e9878785e86bf0daace8a7d4a87b13881f",
+      "evidence": "Complete source read: a G-bundle is a principal bundle on X_{S,E}, equivalently a Tannakian tensor functor, varying over perfectoid S as a v-stack; the Fargues–Fontaine curve was added as the missing defining target, while B(G) classification is later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "algebra-category-theory/tannakian-category",
+        "algebraic-geometry-foundations/perfectoid-space",
+        "algebraic-geometry-foundations/v-stack"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "algebra-category-theory/tannakian-category",
+        "algebraic-geometry-foundations/perfectoid-space",
+        "algebraic-geometry-foundations/v-stack"
+      ]
+    },
+    {
+      "id": "langlands/g-local-system",
+      "outcome": "corrected",
+      "source_sha256": "7cbbb4ac5bb7b8d00e59d00e1bfdc7341cfbcb1a3eb0b1fbf20454c2da12e643",
+      "evidence": "Complete source read: de Rham G-local systems require an algebraic group, smooth complex curve, principal bundle, and integrable connection; Betti local systems and Riemann–Hilbert comparisons are later variants.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "fiber-bundles/local-system"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "fiber-bundles/local-system"
+      ]
+    },
+    {
+      "id": "langlands/g-shtuka",
+      "outcome": "corrected",
+      "source_sha256": "d22a02413f3165d76da66cfb0aeea4198dc6d28994456453ee85e2a147fb7a2e",
+      "evidence": "Complete source read: the core defines a multi-leg shtuka over a smooth projective curve over F_q using a reductive group, principal bundle, dominant bounds, and absolute Frobenius; level and cohomology structures are later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "langlands/dominant-coweight",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "langlands/dominant-coweight",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ]
+    },
+    {
+      "id": "langlands/geometric-langlands-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "57319bee481dda57157193d766c378ede58073b4385830024b686e5e934717d4",
+      "evidence": "Complete source read: the theorem requires characteristic-zero algebraically closed curve, reductive G and dual group, D-modules on Bun_G, and IndCoh_N on dual LocSys; the categorical and half-twist qualifications are explicit.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/langlands-dual-group",
+        "algebraic-geometry-foundations/d-module",
+        "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve",
+        "langlands/ind-coherent-sheaves-with-nilpotent-singular-support",
+        "langlands/moduli-stack-of-g-local-systems",
+        "langlands/global-nilpotent-cone"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/langlands-dual-group",
+        "algebraic-geometry-foundations/d-module",
+        "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve",
+        "langlands/ind-coherent-sheaves-with-nilpotent-singular-support",
+        "langlands/moduli-stack-of-g-local-systems",
+        "langlands/global-nilpotent-cone"
+      ]
+    },
+    {
+      "id": "langlands/geometric-langlands-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2f1caf175f0cf20d8d221339d2bccc1706a993af7903b80c699ad127241b491",
+      "evidence": "Complete section read: this is a navigation index with no standalone definition or theorem, so its prerequisite list is correctly empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "langlands/global-langlands-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "213a4e3f11c42e5a99545eead8aed4e22278b40a22c97bc33797c928e111d3d7",
+      "evidence": "Complete source read: the conjectural homomorphism from global Langlands group to L-group requires global field, reductive G, conjugacy, places, and local L-parameters; number-field nonexistence and function-field theorem scope are explicit.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/l-group",
+        "algebra-groups/conjugacy-class",
+        "algebra-fields-galois/place-of-global-field",
+        "langlands/local-l-parameter"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/l-group",
+        "algebra-groups/conjugacy-class",
+        "algebra-fields-galois/place-of-global-field",
+        "langlands/local-l-parameter"
+      ]
+    },
+    {
+      "id": "langlands/global-langlands-reciprocity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a64673a18eab23d0c27196e97b7daa59fc7410a8dbec79b5e4ac1ff21d8c0a0",
+      "evidence": "Complete source read: the program relates global parameters to automorphic representations, with GL1 class field theory and GL_n function-field cases as qualified models; global parameter, reductive group, and automorphic representation are direct inputs.",
+      "previous_prerequisites": [
+        "langlands/global-langlands-parameter",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/automorphic-representation"
+      ],
+      "prerequisites": [
+        "langlands/global-langlands-parameter",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/automorphic-representation"
+      ]
+    },
+    {
+      "id": "langlands/global-nilpotent-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a814f033f693776e37d967ffb6e26471641a23f2bd3352a6dffb95d362f06726",
+      "evidence": "Complete source read: the cone is defined from a G-local system on a smooth projective curve and a horizontal nilpotent coadjoint section inside LocSys; curve, reductive group, LocSys, and local-system inputs are used directly.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/moduli-stack-of-g-local-systems",
+        "fiber-bundles/local-system"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/moduli-stack-of-g-local-systems",
+        "fiber-bundles/local-system"
+      ]
+    },
+    {
+      "id": "langlands/hecke-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "122d47a26f871af25f02f9d5d5c7093ce3050ba105bb03134c4845266004f353",
+      "evidence": "Complete source read: Hecke correspondence compares two G-bundles on a smooth projective curve with a single-point modification, requiring curve and Hecke-modification definitions.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "langlands/hecke-modification"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "langlands/hecke-modification"
+      ]
+    },
+    {
+      "id": "langlands/hecke-eigensheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd9810e2690c7fde103454a571544b73ec1196b6cbb881422f1a8fdc4029caf2",
+      "evidence": "Complete source read: eigencondition H_V(F)=F boxtimes E_V requires G-local system, geometric Hecke functor, and local-system coefficient; those are direct prerequisites.",
+      "previous_prerequisites": [
+        "langlands/g-local-system",
+        "langlands/hecke-functor",
+        "fiber-bundles/local-system"
+      ],
+      "prerequisites": [
+        "langlands/g-local-system",
+        "langlands/hecke-functor",
+        "fiber-bundles/local-system"
+      ]
+    },
+    {
+      "id": "langlands/hecke-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79228cb4eea67c1f29ab62f67d73aa7b74e8103c2c5ab01dcf3f64f09b3182a7",
+      "evidence": "Complete source read: pull-tensor-push along Bun_G <- Hecke_G -> Bun_G x X uses geometric Satake kernel and Hecke correspondence; tensor/fusion is stated as later compatibility.",
+      "previous_prerequisites": [
+        "langlands/geometric-satake-equivalence",
+        "langlands/hecke-correspondence"
+      ],
+      "prerequisites": [
+        "langlands/geometric-satake-equivalence",
+        "langlands/hecke-correspondence"
+      ]
+    },
+    {
+      "id": "langlands/hecke-modification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "798b57c5438cd65e65b5f9ca585b9a85bef295b86d67196a87e1d5c86a72d0ad",
+      "evidence": "Complete source read: a modification is an isomorphism of two principal G-bundles off one point; affine-Grassmannian relative position is a later interpretation, so the principal-bundle prerequisite suffices.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme"
+      ]
+    },
+    {
+      "id": "langlands/hitchin-fibration",
+      "outcome": "corrected",
+      "source_sha256": "951c7e0e61b4ed7d30fa171fda47cc2be02baaac5dc84b57b877d69e86d235ce",
+      "evidence": "Complete source read: Hitchin map sends a D-valued Higgs field to invariant-polynomial sections in H^0(X,D^d_i), requiring curve, reductive Lie algebra, principal bundle, line bundle, and characteristic-polynomial data; line-bundle edge was added.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "lie-groups/lie-algebra",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "linear-algebra/characteristic-polynomial"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "lie-groups/lie-algebra",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "linear-algebra/characteristic-polynomial"
+      ]
+    },
+    {
+      "id": "langlands/hodge-tate-representation",
+      "outcome": "corrected",
+      "source_sha256": "f5494925b6543e218e1f3f382469a3c7637a26f51ec635b345006718abb7a254",
+      "evidence": "Complete source read: Hodge–Tate means C_p tensor V splits into Tate twists for a finite extension K/Q_p and its Galois group; p-adic field was added as a defining field input.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group"
+      ]
+    },
+    {
+      "id": "langlands/ind-coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd837223e06ab07be0b4f39a71f6e0e7df3fde869fb4781dad5c0ca3fbe9f780",
+      "evidence": "Complete source read: IndCoh(Y) is the ind-completion of coherent complexes on a suitable derived scheme/stack; coherent sheaf is its sole direct prerequisite.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/coherent-sheaf"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/coherent-sheaf"
+      ]
+    },
+    {
+      "id": "langlands/ind-coherent-sheaves-with-nilpotent-singular-support",
+      "outcome": "corrected",
+      "source_sha256": "76468ef1b78279b14acc06618ca65f46d1254bfb363035ddae3c0ef1cf9cca8e",
+      "evidence": "Complete source read: the category is the singular-support subcategory on LocSys_dual, requiring the local-system moduli stack, global nilpotent cone, IndCoh, singular support, curve, and reductive group; LocSys edge was added.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "langlands/global-nilpotent-cone",
+        "langlands/ind-coherent-sheaf",
+        "langlands/singular-support-of-coherent-sheaf",
+        "algebraic-geometry-foundations/reductive-algebraic-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "langlands/global-nilpotent-cone",
+        "langlands/ind-coherent-sheaf",
+        "langlands/singular-support-of-coherent-sheaf",
+        "algebraic-geometry-foundations/reductive-algebraic-group"
+      ]
+    },
+    {
+      "id": "langlands/ind-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37886e287cd0938e9c70c75946eae0cb58c3217a04be9d989314441d8d78b49f",
+      "evidence": "Complete source read: an ind-scheme is a filtered colimit of schemes along closed immersions, with ind-projective variant; scheme is the sole direct input.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme"
+      ]
+    },
+    {
+      "id": "langlands/intersection-cohomology-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "344f378b5658938dde0da35270024ab756d6d98c7f64ada5ec49b6cd8da1af88",
+      "evidence": "Complete source read: IC_X(L)=j_!*(L[d]) requires irreducible complex variety, smooth dense stratum, local system, and perverse middle extension; listed local-system/perverse targets supply the reusable concepts.",
+      "previous_prerequisites": [
+        "fiber-bundles/local-system",
+        "langlands/perverse-sheaf"
+      ],
+      "prerequisites": [
+        "fiber-bundles/local-system",
+        "langlands/perverse-sheaf"
+      ]
+    },
+    {
+      "id": "langlands/irregular-singular-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7e4ce45b3f0b4629e3d5ca6325ea29822e9c253c751495f25d63dbe7950b9c3",
+      "evidence": "Complete source read: irregularity is non-regular-singular meromorphic flat connection on a punctured smooth curve, with formal gauge transformation and Stokes data in later sections; regular connection and gauge inputs are direct.",
+      "previous_prerequisites": [
+        "langlands/regular-singular-connection",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "langlands/regular-singular-connection",
+        "fiber-bundles/gauge-transformation"
+      ]
+    },
+    {
+      "id": "langlands/isobaric-automorphic-representation",
+      "outcome": "corrected",
+      "source_sha256": "83b035133109676b9e8c54d4d19c8c49403915a666780fcc1c36d0f188dced3a",
+      "evidence": "Complete source read: the Langlands quotient of normalized induction from unitary cuspidal GL factors requires global field, cusp data, adeles, automorphic representations, Levi, and local classification; strong multiplicity one was added for the stated uniqueness claim.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/cuspidal-automorphic-representation",
+        "algebra-fields-galois/adeles-restricted-product",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/cuspidal-automorphic-representation",
+        "algebra-fields-galois/adeles-restricted-product",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ]
+    },
+    {
+      "id": "langlands/iwahori-level-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9bc1c79bb86cc957ab9827e3897398d63c97857b4c32fa85fc2a1f63265689a",
+      "evidence": "Complete source read: I={g in G(k[[t]]) : g(0) in B} defines the Iwahori subgroup and its reduction of a formal-frame torsor; reductive/Borel, level, and parahoric data are direct inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "langlands/level-structure-on-g-bundle",
+        "langlands/parahoric-level-structure"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "langlands/level-structure-on-g-bundle",
+        "langlands/parahoric-level-structure"
+      ]
+    },
+    {
+      "id": "langlands/kappa-orbital-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9083fd356ea73fd7f2d41a71fb47b080a319173fb69a7a0ad8485471c5e8a56",
+      "evidence": "Complete source read: kappa orbital integral sums O_gamma'(f) weighted by a character of ker[H1(F,G_gamma)->H1(F,G)], requiring strong regularity, local field, nonabelian cohomology, conjugacy, and stable class.",
+      "previous_prerequisites": [
+        "langlands/strongly-regular-semisimple-element",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/nonabelian-h1-galois-cohomology",
+        "algebra-groups/conjugacy-class",
+        "langlands/stable-conjugacy"
+      ],
+      "prerequisites": [
+        "langlands/strongly-regular-semisimple-element",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/nonabelian-h1-galois-cohomology",
+        "algebra-groups/conjugacy-class",
+        "langlands/stable-conjugacy"
+      ]
+    },
+    {
+      "id": "langlands/kottwitz-set-b-g",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a306dd5948087b76a48f62d026f9c21563e5146a34b9717283c31eba6add370d",
+      "evidence": "Complete source read: B(G)=G(breve E)/sigma-conjugacy with Newton and Kottwitz invariants requires local/unramified field, Frobenius, reductive group, twisted conjugacy, and pointed-set structure; bundle classification is later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/unramified-extension-local",
+        "algebra-fields-galois/frobenius-unramified",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/twisted-conjugacy",
+        "shared-foundations/pointed-set"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/unramified-extension-local",
+        "algebra-fields-galois/frobenius-unramified",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/twisted-conjugacy",
+        "shared-foundations/pointed-set"
+      ]
+    },
+    {
+      "id": "langlands/l-algebraic-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "91f2a4588c7471b8dee711f99388c4203f844a2d597938a6a07ded4c2754a419",
+      "evidence": "Complete source read: L-algebraicity is integrality of archimedean parameter exponents in X_*(T_hat), requiring number field, reductive/automorphic data, maximal torus, and local parameter; Galois consequence is explicitly conjectural.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "langlands/local-l-parameter"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/number-field",
+        "langlands/automorphic-representation",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "langlands/local-l-parameter"
+      ]
+    },
+    {
+      "id": "langlands/l-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "075660ae47c19dc9fbfffb3ac58b2874d50540790b8986329dfa4b5728b4a171",
+      "evidence": "Complete source read: the L-group is the dual group semidirect the standard local or global Weil group; dual group, pinning, root datum, and local/global field scope are direct inputs. The separate global-parameter source handles the conjectural Langlands group distinction.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/langlands-dual-group",
+        "langlands/weil-group",
+        "algebraic-geometry-foundations/pinned-automorphisms",
+        "lie-groups/roots-weights-weyl"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/langlands-dual-group",
+        "langlands/weil-group",
+        "algebraic-geometry-foundations/pinned-automorphisms",
+        "lie-groups/roots-weights-weyl"
+      ]
+    },
+    {
+      "id": "langlands/l-packet",
+      "outcome": "corrected",
+      "source_sha256": "f78e938ab75cdb7939bc521c0394a9ae10a888b259675e3310c0b69fd5984d25",
+      "evidence": "Complete source read: the packet is the fiber of the assumed basic local Langlands map, so local correspondence was added as a direct prerequisite and removed from the correspondence reverse edge.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "langlands/local-l-parameter"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "langlands/local-l-parameter"
+      ]
+    },
+    {
+      "id": "langlands/lafforgue-global-parameterization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95ae25c10fa85fc894fb77d81a190c466a37437c3b67849fbc5f58eeffdb07e9",
+      "evidence": "Complete source read: Lafforgue decomposition of finite-level cuspidal forms by semisimple global parameters requires function field/curve, reductive group, automorphic forms, Galois and dual/L-group data; theorem scope distinguishes split/nonsplit.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/automorphic-form",
+        "algebra-groups/conjugacy-class",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/global-langlands-parameter",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/langlands-dual-group",
+        "langlands/l-group",
+        "langlands/rigid-inner-twist"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-function-field",
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/automorphic-form",
+        "algebra-groups/conjugacy-class",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/global-langlands-parameter",
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/langlands-dual-group",
+        "langlands/l-group",
+        "langlands/rigid-inner-twist"
+      ]
+    },
+    {
+      "id": "langlands/langlands-dual-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "82929c566152ba6f007a4d15a77f50bc311fe8a6da2b4f9b4816e075b437e025",
+      "evidence": "Complete source read: dual group is constructed by dualizing root datum for a split reductive group with torus/lattice, roots/Weyl, and pinning inputs; later Galois action belongs to L-groups.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/split-reductive-group",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/roots-weights-weyl",
+        "algebraic-geometry-foundations/pinned-automorphisms"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/split-reductive-group",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/roots-weights-weyl",
+        "algebraic-geometry-foundations/pinned-automorphisms"
+      ]
+    },
+    {
+      "id": "langlands/langlands-functoriality-l-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b17359c5edf30f819b7e0651df3551bc840806f1647835a181d762301bc26381",
+      "evidence": "Complete source read: functoriality pulls parameters along an L-homomorphism between L-groups, requiring local/global field, reductive and dual/L-group data, Weil group, and conjugacy; conjectural status is qualified.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/l-group",
+        "langlands/weil-group",
+        "langlands/langlands-dual-group",
+        "algebra-groups/conjugacy-class"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/l-group",
+        "langlands/weil-group",
+        "langlands/langlands-dual-group",
+        "algebra-groups/conjugacy-class"
+      ]
+    },
+    {
+      "id": "langlands/level-structure-on-g-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0d58a1324732b264b5cfa7f39dbab45feac35428a1f97e2cac118f8281f0c27",
+      "evidence": "Complete source read: level structure is a trivialization/reduction along a finite subscheme of a curve, requiring principal G-bundle, smooth projective curve, and formal-disc frame data.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "formal-groups/formal-affine-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "formal-groups/formal-affine-space"
+      ]
+    },
+    {
+      "id": "langlands/local-class-field-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c62ffdc9bba2320f24438417d23e867eef58434f344a6c336eccecbff551d52e",
+      "evidence": "Complete source read: local reciprocity identifies F^x with the abelianized Weil/Galois group for a nonarchimedean field, with valuation/DVR, inertia, unramified Frobenius, and Galois inputs; Euler factors are a later application.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/weil-group",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/frobenius-unramified",
+        "algebra-commutative/dvr",
+        "algebra-fields-galois/inertia-subgroup",
+        "langlands/euler-product-and-local-factor"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/weil-group",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/frobenius-unramified",
+        "algebra-commutative/dvr",
+        "algebra-fields-galois/inertia-subgroup",
+        "langlands/euler-product-and-local-factor"
+      ]
+    },
+    {
+      "id": "langlands/local-epsilon-factor",
+      "outcome": "corrected",
+      "source_sha256": "476cac0c87ea1809c179a9d659ae21f392236ae3f1c5d189744ae9a76afe8a29",
+      "evidence": "Complete source read: epsilon factor is the normalization-sensitive functional-equation factor for a Weil–Deligne representation and additive character, with Haar, L-factor, conductor, and contragredient conventions; gamma is downstream.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/weil-deligne-representation",
+        "algebra-representation-theory/character",
+        "langlands/euler-product-and-local-factor",
+        "harmonic-analysis/haar-measure",
+        "langlands/local-gamma-factor",
+        "algebra-representation-theory/contragredient-representation",
+        "langlands/artin-conductor"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/weil-deligne-representation",
+        "algebra-representation-theory/character",
+        "langlands/euler-product-and-local-factor",
+        "harmonic-analysis/haar-measure",
+        "langlands/local-gamma-factor",
+        "algebra-representation-theory/contragredient-representation",
+        "langlands/artin-conductor"
+      ]
+    },
+    {
+      "id": "langlands/local-gamma-factor",
+      "outcome": "corrected",
+      "source_sha256": "2ee98503aea8e56e09c93d89c1976d13cf28df1f0aebdff62e533ae8566ada49",
+      "evidence": "Complete source read: gamma(s,V,psi)=epsilon(s,V,psi)L(1-s,V^vee)/L(s,V), requiring WD representation, local field, character, contragredient, and epsilon factor; epsilon edge was made foundational.",
+      "previous_prerequisites": [
+        "langlands/weil-deligne-representation",
+        "algebra-fields-galois/local-field",
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/contragredient-representation"
+      ],
+      "prerequisites": [
+        "langlands/weil-deligne-representation",
+        "algebra-fields-galois/local-field",
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/contragredient-representation"
+      ]
+    },
+    {
+      "id": "langlands/local-global-compatibility",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0f3b791fcd47bab8cf27f2a28d9b2c764c6b82b4b393a782c902d5b535398235",
+      "evidence": "Complete source read: restriction of rho_{pi,lambda} at a place matches pi_v local parameter, with distinct v not dividing ell and v dividing ell formulations; number field, restricted product, algebraicity, decomposition group, and local parameter are direct inputs.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/number-field",
+        "langlands/restricted-tensor-product-automorphic-representation",
+        "langlands/algebraic-automorphic-representation",
+        "algebra-fields-galois/decomposition-group",
+        "langlands/local-l-parameter"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/number-field",
+        "langlands/restricted-tensor-product-automorphic-representation",
+        "langlands/algebraic-automorphic-representation",
+        "algebra-fields-galois/decomposition-group",
+        "langlands/local-l-parameter"
+      ]
+    },
+    {
+      "id": "langlands/local-l-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5f90ce42665b779fba6563eba480709180bcc494e13096b191ba23468904170",
+      "evidence": "Complete source read: admissible L_F -> ^LG requires local field, Weil/L-group, reductive and dual groups, semisimple dual part; relevance, temperedness, and GL_n WD forms are qualified variants.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/weil-group",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/l-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/langlands-dual-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/weil-group",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/l-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "langlands/langlands-dual-group"
+      ]
+    },
+    {
+      "id": "langlands/local-langlands-compatibilities",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "19d2837c460c0c02f3c6ddf64dca27b3e3e8d79cdbe55d9ccdfa35dbd923675a",
+      "evidence": "Complete source read: compatibility list relates local correspondence to unramified/Satake, tempered/discrete, characters, induction, duality, and local factors, requiring each named representation-theoretic input; normalization warning is explicit.",
+      "previous_prerequisites": [
+        "langlands/local-langlands-correspondence",
+        "harmonic-analysis/unramified-representation-p-adic-group",
+        "langlands/satake-parameter",
+        "harmonic-analysis/tempered-representation-p-adic-group",
+        "lie-groups/square-integrable-modulo-center-representation",
+        "algebra-representation-theory/central-character",
+        "langlands/local-class-field-theory",
+        "algebra-representation-theory/contragredient-representation",
+        "harmonic-analysis/langlands-classification-p-adic-group",
+        "harmonic-analysis/normalized-parabolic-induction-p-adic-group",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "langlands/local-epsilon-factor",
+        "langlands/local-gamma-factor"
+      ],
+      "prerequisites": [
+        "langlands/local-langlands-correspondence",
+        "harmonic-analysis/unramified-representation-p-adic-group",
+        "langlands/satake-parameter",
+        "harmonic-analysis/tempered-representation-p-adic-group",
+        "lie-groups/square-integrable-modulo-center-representation",
+        "algebra-representation-theory/central-character",
+        "langlands/local-class-field-theory",
+        "algebra-representation-theory/contragredient-representation",
+        "harmonic-analysis/langlands-classification-p-adic-group",
+        "harmonic-analysis/normalized-parabolic-induction-p-adic-group",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "langlands/local-epsilon-factor",
+        "langlands/local-gamma-factor"
+      ]
+    },
+    {
+      "id": "langlands/local-langlands-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "49b2ebbc71c0d20ff42e481f3f31125189237d74fb8169c02442a9a3805013c6",
+      "evidence": "Complete source read: basic LLC is a finite-to-one map from irreducible admissible representations to relevant local parameters, requiring local/reductive fields and groups, equivalence classes, admissibility, and local parameter; packet is defined downstream.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "shared-foundations/equivalence-class",
+        "harmonic-analysis/admissible-representation-p-adic-group",
+        "lie-groups/admissible-representation-real-reductive-group",
+        "langlands/local-l-parameter",
+        "langlands/l-packet"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "shared-foundations/equivalence-class",
+        "harmonic-analysis/admissible-representation-p-adic-group",
+        "lie-groups/admissible-representation-real-reductive-group",
+        "langlands/local-l-parameter",
+        "langlands/l-packet"
+      ]
+    },
+    {
+      "id": "langlands/local-langlands-correspondence-for-gln",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a16af8543ffd5c2f1b1536b707d47027a2929912b3c859c621fee052300574a1",
+      "evidence": "Complete source read: canonical GL_n bijection is between irreducible smooth representations over a nonarchimedean field and Frobenius-semisimple WD_n, normalized by class field theory and L/epsilon factors; special classes are qualified.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "harmonic-analysis/smooth-representation-totally-disconnected-group",
+        "langlands/weil-deligne-representation",
+        "langlands/local-class-field-theory",
+        "langlands/local-epsilon-factor"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "harmonic-analysis/smooth-representation-totally-disconnected-group",
+        "langlands/weil-deligne-representation",
+        "langlands/local-class-field-theory",
+        "langlands/local-epsilon-factor"
+      ]
+    },
+    {
+      "id": "langlands/local-shimura-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abaeae3ed88978c60224351f7ad23d7834460e5d2511e8788848ce3b3d78dd3e",
+      "evidence": "Complete source read: local datum (G,[b],{mu}) and its level tower require p-adic reductive group, B(G), conjugacy/cocharacter bounds, adic/v-stack, local shtuka, G-bundle, and untilt data; theorem/expectation scope is separated.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/p-adic-field",
+        "langlands/kottwitz-set-b-g",
+        "algebra-groups/conjugacy-class",
+        "langlands/dominant-coweight",
+        "algebraic-geometry-foundations/adic-space",
+        "algebraic-geometry-foundations/v-stack",
+        "langlands/local-shtuka",
+        "langlands/g-bundle-on-fargues-fontaine-curve",
+        "algebraic-geometry-foundations/tilt-and-untilt"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/p-adic-field",
+        "langlands/kottwitz-set-b-g",
+        "algebra-groups/conjugacy-class",
+        "langlands/dominant-coweight",
+        "algebraic-geometry-foundations/adic-space",
+        "algebraic-geometry-foundations/v-stack",
+        "langlands/local-shtuka",
+        "langlands/g-bundle-on-fargues-fontaine-curve",
+        "algebraic-geometry-foundations/tilt-and-untilt"
+      ]
+    },
+    {
+      "id": "langlands/local-shtuka",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24f6fe866769b6f2ee0fc9442cb58b4e1ee336bbe5c3b14e45cb97aeafe632da",
+      "evidence": "Complete source read: local shtuka is a Frobenius-compatible bounded modification of G-bundles at untilt divisors, with cocharacter classes and level; Fargues bundle, Hecke modification, Frobenius, topology, and conjugacy inputs are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/frobenius-endomorphism",
+        "langlands/hecke-modification",
+        "algebraic-geometry-foundations/tilt-and-untilt",
+        "algebra-groups/conjugacy-class",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "langlands/g-bundle-on-fargues-fontaine-curve",
+        "topology/locally-profinite-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/frobenius-endomorphism",
+        "langlands/hecke-modification",
+        "algebraic-geometry-foundations/tilt-and-untilt",
+        "algebra-groups/conjugacy-class",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "langlands/g-bundle-on-fargues-fontaine-curve",
+        "topology/locally-profinite-group"
+      ]
+    },
+    {
+      "id": "langlands/loop-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7d7f9c8375e14e65f105e68426059c47485400aed4d338fb3277569c9cb14a0",
+      "evidence": "Complete source read: LG(R)=G(R((t))) is the group-valued functor of an affine algebraic group on punctured formal discs; algebraic-group and formal-disc definitions are direct inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "formal-groups/formal-affine-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "formal-groups/formal-affine-space"
+      ]
+    },
+    {
+      "id": "langlands/modern-langlands-dependency-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23d00615493bee9f0685d7966b015fb8df23ced732a87b459165b7cf49daa62f",
+      "evidence": "Complete section read: navigation index listing reusable prerequisites; no standalone definition or theorem, so prerequisites correctly remain empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "langlands/modern-langlands-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "947790b0a5e8da417e289c660bfcc08f2c9d5b2e445f99637990a29aa9c24ab9",
+      "evidence": "Complete section read: navigation index organizing local/global/endoscopic/geometric layers; no standalone definition or theorem, so prerequisites correctly remain empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "langlands/moduli-stack-of-g-local-systems",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9415dabf89006be31d3a4059506e96d04ac4811601adf2bb15025a8cfc268eaa",
+      "evidence": "Complete source read: LocSys_dR=Map(X_dR,BG) parametrizes principal G-bundles with flat connection, requiring smooth projective curve, reductive group, G-local systems, and Riemann-surface comparison data.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/g-local-system",
+        "differential-geometry/riemann-surface"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/g-local-system",
+        "differential-geometry/riemann-surface"
+      ]
+    },
+    {
+      "id": "langlands/orbital-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abbb69b53a15a7b890a19be81745394aae97aa400340b8f1cd724ceaa58c133d",
+      "evidence": "Complete source read: O_gamma(f) integrates a local test function over G_gamma(F)\\G(F), requiring local field, reductive group, semisimple element, test-function space, centralizer, and Haar measures; stable/weighted variants are later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "harmonic-analysis/test-function-space-local-group",
+        "algebra-groups/centralizer",
+        "harmonic-analysis/haar-measure"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "harmonic-analysis/test-function-space-local-group",
+        "algebra-groups/centralizer",
+        "harmonic-analysis/haar-measure"
+      ]
+    },
+    {
+      "id": "langlands/parahoric-level-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a90d9c540a862a6acd897e78be34499f259b5e398a4f27e5fc249e3c648bce80",
+      "evidence": "Complete source read: parahoric level structure extends a punctured-disc bundle to a Bruhat–Tits parahoric group-scheme torsor, requiring reductive/group-scheme, formal-disc, loop, and level structures.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/group-scheme",
+        "formal-groups/formal-affine-space",
+        "langlands/loop-group",
+        "langlands/level-structure-on-g-bundle"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/group-scheme",
+        "formal-groups/formal-affine-space",
+        "langlands/loop-group",
+        "langlands/level-structure-on-g-bundle"
+      ]
+    },
+    {
+      "id": "langlands/partial-frobenius-on-shtukas",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d3a1b8d2bb5ed5cc58e6ab91df67a69e8992040931ea76015d1e0c067160bc37",
+      "evidence": "Complete source read: partial Frobenius acts by moving one selected shtuka leg while applying Frobenius to the base, requiring G-shtuka and Frobenius endomorphism; excursion use is downstream.",
+      "previous_prerequisites": [
+        "langlands/g-shtuka",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ],
+      "prerequisites": [
+        "langlands/g-shtuka",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ]
+    },
+    {
+      "id": "langlands/perverse-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "046662367205818c2fef73d10f80981daa3fdd5e8e480a5b1a74297e13f9189d",
+      "evidence": "Complete source read: perverse sheaf is defined via middle-perversity support/cosupport conditions in a constructible sheaf setting; local-system input supplies the stated coefficient example.",
+      "previous_prerequisites": [
+        "fiber-bundles/local-system"
+      ],
+      "prerequisites": [
+        "fiber-bundles/local-system"
+      ]
+    },
+    {
+      "id": "langlands/positive-loop-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a80a205f94012bff81e93bb0dcbaa64eecfbf9d27a7604a764117a604d9ca0f5",
+      "evidence": "Complete source read: L+G(R)=G(R[[t]]) is the subgroup of loops extending across the puncture, requiring algebraic group and loop group.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "langlands/loop-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "langlands/loop-group"
+      ]
+    },
+    {
+      "id": "langlands/ramification-of-g-local-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "900fe4fcd7464b40227ae71cdad89cb2e27a7ad336467774d92aa401ec5f8d22",
+      "evidence": "Complete source read: ramification of a G-local system along a boundary separates regular/irregular, tame/wild, and Stokes data; each named connection/ramification input is direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/local-system",
+        "langlands/g-local-system",
+        "langlands/regular-singular-connection",
+        "langlands/irregular-singular-connection",
+        "langlands/stokes-data",
+        "langlands/tame-ramification",
+        "langlands/wild-ramification"
+      ],
+      "prerequisites": [
+        "fiber-bundles/local-system",
+        "langlands/g-local-system",
+        "langlands/regular-singular-connection",
+        "langlands/irregular-singular-connection",
+        "langlands/stokes-data",
+        "langlands/tame-ramification",
+        "langlands/wild-ramification"
+      ]
+    },
+    {
+      "id": "langlands/ramified-geometric-langlands",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9532ee549b9899949d94b78b73c385650e2e71fe7844ceadd22fb042aeeca79c",
+      "evidence": "Complete source read: ramified variant uses pointed curve, level structure at marked points, and prescribed spectral ramification; these are direct prerequisites and theorem scope is qualified.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/pointed-algebraic-curve",
+        "langlands/ramification-of-g-local-system",
+        "langlands/level-structure-on-g-bundle"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/pointed-algebraic-curve",
+        "langlands/ramification-of-g-local-system",
+        "langlands/level-structure-on-g-bundle"
+      ]
+    },
+    {
+      "id": "langlands/rapoport-zink-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1e84282007bf6250160592a2d6502519e84114546f59e0f0eb1add4aa476df50",
+      "evidence": "Complete source read: Rapoport–Zink space is a formal moduli space of deformations/quasi-isogenies for a p-divisible or local-shtuka datum over a perfect field; perfect-field and formal-scheme inputs are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/perfect-field",
+        "algebraic-geometry-foundations/formal-scheme"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/perfect-field",
+        "algebraic-geometry-foundations/formal-scheme"
+      ]
+    },
+    {
+      "id": "langlands/refined-local-langlands-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "13e98ac05a2049a81907cd28b585f022bea3b80adf90593c124f0278466f6b61",
+      "evidence": "Complete source read: refined LLC augments relevant local parameters with Whittaker/rigid-inner-twist/component-group labels and central character, requiring quasi-split/local/irreducible and rigid data.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-fields-galois/local-field",
+        "langlands/whittaker-datum",
+        "langlands/local-l-parameter",
+        "algebra-representation-theory/irreducible-representation",
+        "langlands/rigid-inner-twist",
+        "algebra-representation-theory/central-character"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-fields-galois/local-field",
+        "langlands/whittaker-datum",
+        "langlands/local-l-parameter",
+        "algebra-representation-theory/irreducible-representation",
+        "langlands/rigid-inner-twist",
+        "algebra-representation-theory/central-character"
+      ]
+    },
+    {
+      "id": "langlands/regular-algebraic-cuspidal-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e700a26b18f4bdb004945667ef87fbe798856f5e41448d30edc1b5d3521672d",
+      "evidence": "Complete source read: RACAR is a number-field cuspidal GL_n representation with integral regular archimedean infinitesimal character; cusp, infinitesimal-character, C-algebraic, and number-field inputs are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/number-field",
+        "langlands/cuspidal-automorphic-representation",
+        "lie-groups/infinitesimal-character",
+        "langlands/c-algebraic-automorphic-representation"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/number-field",
+        "langlands/cuspidal-automorphic-representation",
+        "lie-groups/infinitesimal-character",
+        "langlands/c-algebraic-automorphic-representation"
+      ]
+    },
+    {
+      "id": "langlands/regular-singular-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "735a670a27b76ebcfb8356ab1586e7784e75144a72621d4f3c4b30e48e26f768",
+      "evidence": "Complete source read: regular singularity is a logarithmic-pole extension of a flat connection on a punctured smooth complex algebraic curve; algebraic-curve input is direct and Riemann–Hilbert is downstream.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve"
+      ]
+    },
+    {
+      "id": "langlands/residual-automorphic-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21fd75cee9f1cbb74e7b889a5389154349a644865d64c15ad5c3c19617eeab81",
+      "evidence": "Complete source read: residual spectrum is the orthogonal complement of cuspidal spectrum inside discrete global automorphic L2, requiring reductive/global setting, Hilbert orthogonal complement, and discrete spectrum; Eisenstein origin is later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "linear-algebra/orthogonal-complement",
+        "langlands/discrete-automorphic-spectrum"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "linear-algebra/orthogonal-complement",
+        "langlands/discrete-automorphic-spectrum"
+      ]
+    },
+    {
+      "id": "langlands/restricted-tensor-product-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "271009369314a4f6336113dbcad97c7a4d6d93393029791b13026cb4ad967c4c",
+      "evidence": "Complete source read: factorization pi=⊗′pi_v requires global reductive automorphic representation, completions, and unramified spherical vectors; restricted-product construction and Flath theorem are stated.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/automorphic-representation",
+        "algebra-fields-galois/completion-at-place",
+        "harmonic-analysis/unramified-representation-p-adic-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/automorphic-representation",
+        "algebra-fields-galois/completion-at-place",
+        "harmonic-analysis/unramified-representation-p-adic-group"
+      ]
+    },
+    {
+      "id": "langlands/riemann-hilbert-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "66ff411bcb43fd887c537580cb751c95ee9c5bc3fc39f4ffcec62dd6033bb3cb",
+      "evidence": "Complete source read: analytic horizontal sections give equivalence between regular-singular flat connections and finite-dimensional local systems on a smooth complex variety; regular/irregular connection and Stokes distinctions are explicit.",
+      "previous_prerequisites": [
+        "langlands/regular-singular-connection",
+        "fiber-bundles/local-system",
+        "langlands/irregular-singular-connection",
+        "langlands/stokes-data"
+      ],
+      "prerequisites": [
+        "langlands/regular-singular-connection",
+        "fiber-bundles/local-system",
+        "langlands/irregular-singular-connection",
+        "langlands/stokes-data"
+      ]
+    },
+    {
+      "id": "langlands/rigid-inner-twist",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a09b9629bac6c88b8027dea2424a165b0b563031c9c5324d1524ad03a0c482d0",
+      "evidence": "Complete source read: rigid inner twist adds a rigid cocycle to an inner twist of a quasi-split local reductive group, requiring center, Galois cohomology, and descent-form data; packet normalization is downstream.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-groups/center-of-group",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebraic-geometry-foundations/galois-descent-forms"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-groups/center-of-group",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebraic-geometry-foundations/galois-descent-forms"
+      ]
+    },
+    {
+      "id": "langlands/root-number",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a04722e035f5d923419fb98e96a525f8e7190ff8da96c7710ee3a68cdcedab9f",
+      "evidence": "Complete source read: root number is the unit-modulus constant in a completed L-function functional equation, requiring L-function/dual data; local epsilon relation and convention caveats are explicit.",
+      "previous_prerequisites": [
+        "langlands/euler-product-and-local-factor",
+        "algebra-representation-theory/contragredient-representation"
+      ],
+      "prerequisites": [
+        "langlands/euler-product-and-local-factor",
+        "algebra-representation-theory/contragredient-representation"
+      ]
+    },
+    {
+      "id": "langlands/satake-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6cb7b94ed01eadc169b9169c59e69b61ede904e4cef53e19ceb6d16d3cd4094",
+      "evidence": "Complete source read: Satake parameter is the semisimple dual-group class attached by normalized spherical Hecke character for unramified reductive G over a nonarchimedean field; hyperspecial, unramified representation, Hecke algebra, and conjugacy inputs are direct.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/unramified-reductive-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "harmonic-analysis/maximal-compact-hyperspecial",
+        "harmonic-analysis/unramified-representation-p-adic-group",
+        "harmonic-analysis/hecke-algebra-locally-compact-group-pair",
+        "algebra-groups/conjugacy-class"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/unramified-reductive-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "harmonic-analysis/maximal-compact-hyperspecial",
+        "harmonic-analysis/unramified-representation-p-adic-group",
+        "harmonic-analysis/hecke-algebra-locally-compact-group-pair",
+        "algebra-groups/conjugacy-class"
+      ]
+    },
+    {
+      "id": "langlands/semistable-galois-representation",
+      "outcome": "corrected",
+      "source_sha256": "bb52eba79c461730866c290437ee11a2cc504c6c74e384fafa2c603af313c3aa",
+      "evidence": "Complete source read: semistability is full dimension of D_st(V) over K_0 with Frobenius/monodromy/filtration; p-adic field, Galois group, and Fontaine ring are direct inputs, and p-adic-field edge was added.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/fontaine-period-rings"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "langlands/fontaine-period-rings"
+      ]
+    },
+    {
+      "id": "langlands/shtuka",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9c120554f0660e5c85a03fb2ba564cfca1d9d71c4b9cd10f3096f4b638a7e5b",
+      "evidence": "Complete source read: rank-n shtuka is vector bundle on X x S with Frobenius isomorphism away from finitely many legs over a finite-field curve; curve, finite field, locally free sheaf, and Frobenius inputs are direct.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebra-fields-galois/finite-field",
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebra-fields-galois/finite-field",
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "algebra-fields-galois/frobenius-endomorphism"
+      ]
+    },
+    {
+      "id": "langlands/singular-support-of-coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "93fadcdb505930196dcef9f46ea0729ea6b784a8a43e043268f45009bb632c85",
+      "evidence": "Complete source read: singular support is a closed conical subset of Sing(Y) for coherent complexes on a quasi-smooth derived scheme/stack; IndCoh is the direct reusable input and constructible microsupport is distinguished.",
+      "previous_prerequisites": [
+        "langlands/ind-coherent-sheaf"
+      ],
+      "prerequisites": [
+        "langlands/ind-coherent-sheaf"
+      ]
+    },
+    {
+      "id": "langlands/spectral-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36e3e736cab710ce13b517a73f424920037985368094ab17cd31e50a15ff7f64",
+      "evidence": "Complete source read: Perf of the local parameter stack acts on lisse sheaves on Bun_G; perfect complexes, parameter stack, lisse sheaves, and G-bundles are direct inputs, while Satake/excursion consequences are later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/perfect-complex",
+        "langlands/stack-of-l-parameters",
+        "algebraic-geometry-foundations/lisse-ell-adic-sheaf",
+        "langlands/g-bundle-on-fargues-fontaine-curve"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/perfect-complex",
+        "langlands/stack-of-l-parameters",
+        "algebraic-geometry-foundations/lisse-ell-adic-sheaf",
+        "langlands/g-bundle-on-fargues-fontaine-curve"
+      ]
+    },
+    {
+      "id": "langlands/spectral-bernstein-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e29a2e55540bb541f07b1f1ae24c825dc3d88eeaa874c628528fb20ee1bb1670",
+      "evidence": "Complete source read: spectral center is global functions on the local parameter stack for nonarchimedean reductive G and maps to ordinary Bernstein center; coefficient restrictions and non-isomorphism status are explicit.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/stack-of-l-parameters"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/stack-of-l-parameters"
+      ]
+    },
+    {
+      "id": "langlands/stable-conjugacy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47636c58431be07846a53b7e6dff2ebd081ede37790072ee8325e4debf78747d",
+      "evidence": "Complete source read: stable conjugacy is conjugacy over algebraic closure with centralizer Galois cocycle condition, requiring reductive group, strong regularity, algebraic closure, centralizer, and Galois group.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/strongly-regular-semisimple-element",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-groups/centralizer",
+        "algebra-fields-galois/galois-extension-and-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "langlands/strongly-regular-semisimple-element",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-groups/centralizer",
+        "algebra-fields-galois/galois-extension-and-group"
+      ]
+    },
+    {
+      "id": "langlands/stable-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f00684d8e9c0c15d1dc23c7358714bc19cf6a4b06670ecf61541c463421cf1b7",
+      "evidence": "Complete source read: stable distribution is a linear functional invariant across stable conjugacy, built from local distributions and stable orbital integrals; field/group, distribution, strong regularity, stable orbital and conjugacy inputs are direct.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "harmonic-analysis/distribution-local-group",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/stable-orbital-integral",
+        "algebra-groups/conjugacy-class",
+        "langlands/stable-conjugacy"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "harmonic-analysis/distribution-local-group",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/stable-orbital-integral",
+        "algebra-groups/conjugacy-class",
+        "langlands/stable-conjugacy"
+      ]
+    },
+    {
+      "id": "langlands/stable-orbital-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "82f97fdf0f31d824f1fe39d44c222dbff2d983db8d449ceda60913f130ec7f27",
+      "evidence": "Complete source read: stable orbital integral sums ordinary orbital integrals over rational conjugacy classes in a stable class with compatible measures; local field, strong regularity, stable conjugacy, orbital integral, and Haar inputs are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/stable-conjugacy",
+        "langlands/orbital-integral",
+        "harmonic-analysis/haar-measure"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/local-field",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/stable-conjugacy",
+        "langlands/orbital-integral",
+        "harmonic-analysis/haar-measure"
+      ]
+    },
+    {
+      "id": "langlands/stable-trace-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ae05570500281a997721cb83d34ea74ea680f2c7e79b2f5b9b3cc02849bce709",
+      "evidence": "Complete source read: stabilization reorganizes the Arthur trace formula into stable distributions over endoscopic data and transfers; trace formula, datum, transfer, stable distribution, and Levi inputs are direct.",
+      "previous_prerequisites": [
+        "langlands/arthur-selberg-trace-formula",
+        "langlands/endoscopic-datum",
+        "langlands/endoscopic-transfer",
+        "langlands/stable-distribution",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ],
+      "prerequisites": [
+        "langlands/arthur-selberg-trace-formula",
+        "langlands/endoscopic-datum",
+        "langlands/endoscopic-transfer",
+        "langlands/stable-distribution",
+        "algebraic-geometry-foundations/levi-subgroup"
+      ]
+    },
+    {
+      "id": "langlands/stack-of-l-parameters",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3429f15941954e007ea3f9b785301135c261b0df5cc3566c29457ef6d12e9ad9",
+      "evidence": "Complete source read: stack is the quotient [Z^1(W_E,G_hat)/G_hat] of continuous local parameters for nonarchimedean E; Weil/dual/L-group, pinned action, reductive group, algebraic stack, and parameter inputs are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/weil-group",
+        "langlands/langlands-dual-group",
+        "algebraic-geometry-foundations/pinned-automorphisms",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/algebraic-stack",
+        "langlands/l-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/weil-group",
+        "langlands/langlands-dual-group",
+        "algebraic-geometry-foundations/pinned-automorphisms",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/algebraic-stack",
+        "langlands/l-group"
+      ]
+    },
+    {
+      "id": "langlands/stokes-data",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6f3f64ed272088b5ec159cbb2575aaebb3620f72544f9ebc4f0ae81c019f6ff",
+      "evidence": "Complete source read: Stokes data are sectorial transition factors required to classify irregular connections beyond formal type; irregular-singular connection is the direct input.",
+      "previous_prerequisites": [
+        "langlands/irregular-singular-connection"
+      ],
+      "prerequisites": [
+        "langlands/irregular-singular-connection"
+      ]
+    },
+    {
+      "id": "langlands/strong-multiplicity-one-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "11fcf28fa20288b59b208ab61210aaee87dabdfa08d7f4ce44c6db42ce5c37c8",
+      "evidence": "Complete source read: for cuspidal GL_n automorphic representations, equality of almost-all unramified local components implies global isomorphism; global field, cusp data, adeles, and Satake parameters are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/cuspidal-automorphic-representation",
+        "algebra-fields-galois/adeles-restricted-product",
+        "langlands/satake-parameter"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/global-local-fields-completions",
+        "langlands/cuspidal-automorphic-representation",
+        "algebra-fields-galois/adeles-restricted-product",
+        "langlands/satake-parameter"
+      ]
+    },
+    {
+      "id": "langlands/strongly-regular-semisimple-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "171dff94586b75e79509386813f4c923144a485cee6af09da4ce9b6cd1d74e4d",
+      "evidence": "Complete source read: strongly regular semisimple means semisimple with centralizer a maximal torus and regular root conditions, requiring reductive group, semisimple class, centralizer, maximal torus lattice.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-groups/centralizer",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-groups/centralizer",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice"
+      ]
+    },
+    {
+      "id": "langlands/tamagawa-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd990ed8a4ded19e34a84d4247330e5ec004f2e098c542ddc6accbb837e79685",
+      "evidence": "Complete source read: Tamagawa measure is the adelic measure assembled from invariant top forms and local Haar normalizations on a reductive group, requiring algebraic group, global field/adeles, Haar, reductive group, and torus lattice.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "harmonic-analysis/haar-measure",
+        "algebra-fields-galois/adeles-restricted-product",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-fields-galois/global-local-fields-completions",
+        "harmonic-analysis/haar-measure",
+        "algebra-fields-galois/adeles-restricted-product",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice"
+      ]
+    },
+    {
+      "id": "langlands/tame-ramification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "636cf726ef2e993316f969a24fa667f213997e92f0376811f36fff683f79cc0f",
+      "evidence": "Complete source read: tame ramification is the prime-to-residue-characteristic inertia behavior of a local system/connection on a valued punctured curve; valuation, local system, and regular-singular connection are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "fiber-bundles/local-system",
+        "langlands/regular-singular-connection"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "fiber-bundles/local-system",
+        "langlands/regular-singular-connection"
+      ]
+    },
+    {
+      "id": "langlands/tate-nakayama-duality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "45e6d52a559c77011b9d5ca581bb32f71e1ae4ce77f97d80f4f25f2d64a636f6",
+      "evidence": "Complete source read: Tate–Nakayama pairs local Galois cohomology with dual-group component data for nonarchimedean fields, requiring dual group, finite Galois extension, nonabelian H1, abelian groups, and connected components.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/langlands-dual-group",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/nonabelian-h1-galois-cohomology",
+        "algebra-groups/abelian-group",
+        "topology/connected-component"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "langlands/langlands-dual-group",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/nonabelian-h1-galois-cohomology",
+        "algebra-groups/abelian-group",
+        "topology/connected-component"
+      ]
+    },
+    {
+      "id": "langlands/transfer-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be4a1d4f3367fd98455ed93b95cbf5eb6781f007272e793c8f5c0e7d1ff08899",
+      "evidence": "Complete source read: transfer factor weights matching orbital integrals for endoscopic datum and strongly regular classes, requiring datum, stable/ordinary orbital integrals, test functions, conjugacy, and kappa integral.",
+      "previous_prerequisites": [
+        "langlands/endoscopic-datum",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/stable-orbital-integral",
+        "langlands/orbital-integral",
+        "harmonic-analysis/test-function-space-local-group",
+        "algebra-groups/conjugacy-class",
+        "langlands/kappa-orbital-integral"
+      ],
+      "prerequisites": [
+        "langlands/endoscopic-datum",
+        "langlands/strongly-regular-semisimple-element",
+        "langlands/stable-orbital-integral",
+        "langlands/orbital-integral",
+        "harmonic-analysis/test-function-space-local-group",
+        "algebra-groups/conjugacy-class",
+        "langlands/kappa-orbital-integral"
+      ]
+    },
+    {
+      "id": "langlands/twisted-conjugacy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60d8f5566cf384a1882edaeefc423df4e5c6842f97e5c41780cab95bb7601179",
+      "evidence": "Complete source read: twisted conjugacy identifies x and g x theta(g)^-1 under an automorphism, requiring automorphism group, orbit map, and stabilizer.",
+      "previous_prerequisites": [
+        "algebra-groups/automorphism-group",
+        "fiber-bundles/orbit-map",
+        "algebra-groups/stabilizer"
+      ],
+      "prerequisites": [
+        "algebra-groups/automorphism-group",
+        "fiber-bundles/orbit-map",
+        "algebra-groups/stabilizer"
+      ]
+    },
+    {
+      "id": "langlands/weighted-orbital-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36aaf516b1e8eec5d5bdff70b652135d44746f793073e4ed468ad3848ec0cc9a",
+      "evidence": "Complete source read: weighted orbital integral inserts Arthur weight functions into local orbital integration for reductive groups and Levi/parabolic data; convex-hull and ordinary orbital inputs are direct.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "convex-analysis/convex-hull",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "langlands/orbital-integral"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/levi-subgroup",
+        "convex-analysis/convex-hull",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "langlands/orbital-integral"
+      ]
+    },
+    {
+      "id": "langlands/weil-deligne-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "130a62aa2fbd0393cb913c001e8605c0509ab9bc4991e6c7e41e902df52e186e",
+      "evidence": "Complete source read: Weil–Deligne group extends the Weil group by an algebraic SL2 with local-field group-scheme data; nonarchimedean field, group scheme, and Weil group are direct.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/group-scheme",
+        "langlands/weil-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/group-scheme",
+        "langlands/weil-group"
+      ]
+    },
+    {
+      "id": "langlands/weil-deligne-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62993b6ab169920b9e3176a0263a510e7b62b12e895b64fc503e83c16d521ff4",
+      "evidence": "Complete source read: WD representation is a finite-dimensional vector-space representation of Weil group plus nilpotent N satisfying Frobenius relation, requiring nonarchimedean field, vector space, Weil/inertia, WD group.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "linear-algebra/vector-space",
+        "langlands/weil-group",
+        "algebra-fields-galois/inertia-subgroup",
+        "langlands/weil-deligne-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "linear-algebra/vector-space",
+        "langlands/weil-group",
+        "algebra-fields-galois/inertia-subgroup",
+        "langlands/weil-deligne-group"
+      ]
+    },
+    {
+      "id": "langlands/weil-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2cf226ffd93328ff4f0b3a7e2c630d57c90caa9bb03360620c0eee15ca20bfe",
+      "evidence": "Complete source read: Weil group is defined from the absolute Galois group of a nonarchimedean local field with inertia and Frobenius quotient, requiring local field, Galois, inertia, and locally profinite topology.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/inertia-subgroup",
+        "topology/locally-profinite-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebra-fields-galois/inertia-subgroup",
+        "topology/locally-profinite-group"
+      ]
+    },
+    {
+      "id": "langlands/whittaker-datum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "93bd712065835d761a9274855955fa53b17c0100c9e9b04f1d6859c73298ee3d",
+      "evidence": "Complete source read: Whittaker datum is a quasi-split local reductive group with Borel/unipotent radical and generic unitary character, requiring local field, Borel/unipotent, quasi-split group, and character.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "harmonic-analysis/unitary-character"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-fields-galois/local-field",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "harmonic-analysis/unitary-character"
+      ]
+    },
+    {
+      "id": "langlands/wild-ramification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49f35e111559ae64d7a14272358939290f26a8821e20f9894ba04e19497568a0",
+      "evidence": "Complete source read: wild ramification is the p-primary/inertia filtration behavior of a local system, requiring valued field, Galois group, and local-system data.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-fields-galois/galois-group",
+        "fiber-bundles/local-system"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-fields-galois/galois-group",
+        "fiber-bundles/local-system"
+      ]
+    },
+    {
+      "id": "langlands-letter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46db31d0d7ea86063f13d6eb212d25b9301efc2a63251744352852d391798e0f",
+      "evidence": "Complete source read: historical section introducing and organizing the 1967 letter; no standalone dependency-bearing definition, so prerequisites remain empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "langlands-letter/knowls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1286d9816a99aa394550871720266ead22b2e340a309b76324b7c7e99188e1a",
+      "evidence": "Complete section read: navigation container for letter definitions with no standalone definition, so prerequisites remain empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "langlands-letter/knowls/l-group-satake-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b712f29ef6237c97dacde1ed3b7cc9f5399853ddcd145c1b62c03b71d8b8d77",
+      "evidence": "Complete source read: bridge separates L-group and unramified Satake class, requiring L-group/pinning/Weil/dual group, Satake, semisimple conjugacy, and Frobenius.",
+      "previous_prerequisites": [
+        "langlands/l-group",
+        "algebraic-geometry-foundations/pinned-automorphisms",
+        "langlands/weil-group",
+        "langlands/langlands-dual-group",
+        "langlands/satake-parameter",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-fields-galois/frobenius-unramified"
+      ],
+      "prerequisites": [
+        "langlands/l-group",
+        "algebraic-geometry-foundations/pinned-automorphisms",
+        "langlands/weil-group",
+        "langlands/langlands-dual-group",
+        "langlands/satake-parameter",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-fields-galois/frobenius-unramified"
+      ]
+    },
+    {
+      "id": "langlands-letter/letter/letter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d813a382a5cd4250dcb7fabb705657b93b76d3ae0d6dbb7751441f0836068b41",
+      "evidence": "Complete page read: historical source transcript whose mathematical terms are linked to definitions but whose page itself has no dependency-bearing definition; prerequisites remain empty.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    }
+  ],
+  "triage_records": []
+}

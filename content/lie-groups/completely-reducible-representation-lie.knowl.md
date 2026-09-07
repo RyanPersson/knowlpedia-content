@@ -6,7 +6,7 @@ summary = "A representation that splits as a direct sum of irreducible subrepres
 aliases = ["completely-reducible-representation-lie", "Completely reducible Lie representation"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/completely-reducible-representation-lie.md"
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/representation-of-a-lie-algebra", "fiber-bundles/lie-group", "lie-groups/representation-of-a-lie-group", "lie-groups/subrepresentation-lie-algebra", "lie-groups/irreducible-representation-lie-algebra"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/representation-of-a-lie-algebra", "fiber-bundles/lie-group", "lie-groups/representation-of-a-lie-group", "lie-groups/subrepresentation-lie-algebra", "linear-algebra/operator-invariant-subspace", "lie-groups/irreducible-representation-lie-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

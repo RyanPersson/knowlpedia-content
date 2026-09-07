@@ -6,7 +6,7 @@ summary = "A convergence test for sums of products using bounded partial sums an
 aliases = ["dirichlet-test", "Dirichlet test"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/dirichlet-test.md"
-prerequisites = ["real-analysis/partial-sums", "real-analysis/convergent-series"]
+prerequisites = ["real-analysis/partial-sums", "real-analysis/convergent-series", "shared-foundations/complex-numbers-c"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

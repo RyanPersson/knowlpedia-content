@@ -8,7 +8,7 @@ domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/cotangent-bundle.md"
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "fiber-bundles/dual-vector-bundle"]
 dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+dependency_review_count = 3
 +++
 
 The **cotangent bundle** of a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is the [[fiber-bundles/dual-vector-bundle|dual vector bundle]] \(T^*M=(TM)^*\) of its [[fiber-bundles/tangent-bundle|tangent bundle]]. Its fiber at \(p\) is the space of real linear functionals on \(T_pM\).
@@ -31,7 +31,7 @@ together with the projection map \(\pi:T^*M\to M\) sending a covector \(\alpha\i
 **Smooth structure / vector bundle structure.** The set \(T^*M\) carries a canonical smooth manifold structure of dimension \(2n\) such that:
 
 1. \(\pi:T^*M\to M\) is a smooth map, and each fiber \(\pi^{-1}(p)=T_p^*M\) is a vector space of dimension \(n\).
-2. For every [[fiber-bundles/smooth-chart-coordinate-chart|smooth chart]] \((U,x)\) on \(M\), with coordinates \(x=(x^1,\dots,x^n)\), there is a smooth trivialization
+2. For every [[fiber-bundles/smooth-chart|smooth chart]] \((U,x)\) on \(M\), with coordinates \(x=(x^1,\dots,x^n)\), there is a smooth trivialization
    \[
    \Phi_U:\pi^{-1}(U)\to U\times \mathbb{R}^n
    \]

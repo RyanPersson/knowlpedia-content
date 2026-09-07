@@ -1,0 +1,1254 @@
+{
+  "reviews": [
+    {
+      "id": "nonassociative-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bad5ec31930d893946c9d7565fa2f5fdf8e4cdb12a37f5bbf1d5cf1e8eaec816",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Nonassociative algebra studies [[linear-algebra/vector-space|vector spaces]] with [[algebra-modules/bilinear-map|bilinear multiplication]] without assuming the associative law. This section develops the structures needed for the octonions, Jordan algebras, and their exceptional symmetry groups, from general definitions through the Albert algebra and Peirce theory. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The section is continuous navigation; its paragraph gives the section scope rather than a standalone algebraic definition.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/albert-algebra-complex-subalgebra-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7b5711611381f15435fa99d4196c33bb7e6c268cd7918d2f0f6c8b4c2e6fd9b",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(B H_3( O)\\) be a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] isomorphic to \\(H_3( C)\\), and suppose that \\(B\\) contains the standard [[nonassociative-algebra/jordan-frame|Jordan frame]] \\((e_1,e_2,e_3)\\). Relative to the standard frame decomposition there are real two-dimensional subspaces \\(V_{12},V_{23},V_{31} O\\) such that \\[ B=_{i=1}^3 R e_i _{12}(V_{12}) _{23}(V_{23}) _{31}(V_{31}). \\] T The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The three inclusions are closure constraints from multiplying adjacent off-diagonal Peirce summands; conjugation placement is convention-dependent and correctly qualified.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/frame-decomposition-of-hermitian-jordan-algebras",
+        "lie-groups/spin8-triality"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/frame-decomposition-of-hermitian-jordan-algebras",
+        "lie-groups/spin8-triality"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/alternative-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1586e052ee64beaa1d75b9b96540108d4b5bca98ad953e1420fbb2973a7a73b3",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: An [[nonassociative-algebra/nonassociative-algebra|algebra]] \\(A\\) is **alternative** if it satisfies the left and right alternative laws \\[ x(xy)=(xx)y, (yx)x=y(xx) \\] for all \\(x,y A\\). In terms of the associator, these are \\([x,x,y]=0\\) and \\([y,x,x]=0\\). The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: Both identities are needed: one repeats the left factor and one repeats the right factor; neither is silently replaced by associativity.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/automorphism-group-of-a-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0d34a449c7e256dff753dd99356b41dcfd0f58c326d7d5dd573007b12a6708f",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: For a [[nonassociative-algebra/jordan-algebra|Jordan algebra]] \\(J\\), its **automorphism group** is \\[ {Aut}(J)= \\{g GL(J):g(x y)=g(x) g(y) { for all }x,y J\\}. \\] The group operation is composition. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: Invertibility is required for a group, and product preservation forces the unit only because the map is onto.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/automorphism-transitivity-on-jordan-frames",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10aad67fce69cff9a1d635c04d7db2c24c62f978479fae4fa8c000169ad1c05f",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(J\\) be a simple [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]], and let \\(K={Aut}(J)^{}\\) be the [[lie-groups/identity-component-of-a-lie-group|identity component]] of its automorphism group. Then \\(K\\) acts transitively on ordered [[nonassociative-algebra/jordan-frame|Jordan frames]]: for any two frames \\[ (c_1,,c_r),(d_1,,d_r), \\] there is \\(k K\\) satisfying \\(k(c_i)=d_i\\) for ev The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The action is on ordered frames, so requiring k(c_i)=d_i preserves labels; the later unordered stabilizer discussion correctly distinguishes the two actions.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/simple-euclidean-jordan-algebra",
+        "lie-groups/identity-component-of-a-lie-group",
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/simple-euclidean-jordan-algebra",
+        "lie-groups/identity-component-of-a-lie-group",
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/complex-qubit-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b50b272bdbb42f8ef3a723e994645c5a2f33b9cda3dcb55d078ac08d585b5072",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: The **complex-qubit Jordan algebra** is \\[ h_2( C) =\\{X M_2( C):X^*=X\\}, X Y=12(XY+YX). \\] It is the four-dimensional real [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]] of observables of a complex [[quantum-foundations/qubit|two-level quantum system]]. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The Pauli expansion has one scalar plus three real coefficients, confirming real dimension four and the spin-factor identification.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "quantum-foundations/qubit"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "quantum-foundations/qubit"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/complex-qutrit-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0cf1e1ec1efbc1c206b5cfff2a2e959f4f56d077ee653427afcb1f9268f50f02",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: The **complex-qutrit Jordan algebra** is \\[ h_3( C) =\\{X M_3( C):X^*=X\\}, X Y=12(XY+YX). \\] It is the nine-dimensional real [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]] of observables of a complex [[quantum-foundations/qutrit|three-level quantum system]]. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: Self-adjoint 3-by-3 complex matrices have 3 real diagonal plus 3 complex off-diagonal entries, giving 9 real dimensions.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "quantum-foundations/qutrit"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "quantum-foundations/qutrit"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/complex-qutrit-stabilizer-in-f4",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52c8263bb4675d391d0b2009cccb922e202288c04c172bf2e62940dfc87b3000",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(J=H_3( O)\\), let \\(F_4={Aut}(J)\\), and let \\(B J\\) be a [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] isomorphic to \\(H_3( C)\\). The [[lie-groups/identity-component-of-a-lie-group|identity component]] of its setwise stabilizer is \\[ {Stab}_{F_4}(B)^0 {{SU}(3){SU}(3)}{_3}, \\] where \\(_3=\\{( I, I):^3=1\\}\\) is the diagonal central subgroup. This is a connected closed subgroup of compact \\(F_4\\). The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. The subgroup/classification assertion was also compared with the cited standard reference in the source (and, for the F4 complex-subalgebra stabilizer, the SU(3)×SU(3)/Z3 description). Manual finding: The displayed action has kernel exactly simultaneous central cube roots, matching the diagonal μ3 quotient; the text does not conflate this with the disconnected full stabilizer.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "lie-groups/identity-component-of-a-lie-group",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "lie-groups/identity-component-of-a-lie-group",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/composition-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8de7001799a00f91c381280de162dc31ca246dd7538dcc937260ff8cb3080e8",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(k\\) be a field of characteristic different from \\(2\\). A **composition algebra** over \\(k\\) is a finite-dimensional unital [[nonassociative-algebra/nonassociative-algebra|algebra]] \\(A\\) with a nondegenerate [[linear-algebra/quadratic-form|quadratic form]] \\(N:A k\\) such that \\[ N(xy)=N(x)N(y) \\] for all \\(x,y A\\). Here “composition algebra” means *unital* composition algebra, also called a **Hurwitz algebra**. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The norm identities derive the standard conjugation and inverse only after the explicit normalization N(1)=1; split forms are correctly allowed over general fields.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra",
+        "linear-algebra/quadratic-form"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra",
+        "linear-algebra/quadratic-form"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/conjugated-cross-product-on-c3",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e507120c8a90d0bea04ee4eb94086b09d451880cf5faeaa658d1bc2afa999ab9",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: For \\(u,v C^3\\), their **conjugated cross product** is \\[ u{}v={u v}, \\] where \\(u v\\) is the usual coordinate cross product extended complex-bilinearly and the bar denotes componentwise complex conjugation. Equivalently, \\[ (u{}v)_i =_{j,k=1}^{3}_{ijk}\\,{u_j}\\,{v_k}. \\] The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: Conjugating the ordinary cross product makes it conjugate-linear in both inputs, while SU(3) equivariance follows from overline(g^{-T})=g.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/derivation-of-a-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e312e1e004c4370bdc8d396bbd530aa70ef0e73d936e737e3f7b56c523df9155",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(J\\) be a [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. A **derivation** of \\(J\\) is a [[linear-algebra/linear-map|linear map]] \\(D:J J\\) satisfying \\[ D(x y)=D(x) y+x D(y) (x,y J). \\] The [[linear-algebra/vector-space|vector space]] of all derivations is denoted \\({Der}(J)\\). With the commutator bracket \\([D,E]=D E-E D\\), it is a [[lie-groups/lie-algebra|Lie algebra]]. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The commutator of multiplication operators is the Jordan inner derivation, and differentiating product-preserving curves gives the Leibniz rule.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "lie-groups/lie-algebra",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/linear-map",
+        "linear-algebra/vector-space",
+        "lie-groups/lie-algebra",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/euclidean-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf6c30b2e6efd77e840daa41b82fece84bc3c6b4993a056d963c54fd85e439f3",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: A **Euclidean Jordan algebra** is a finite-dimensional real unital [[nonassociative-algebra/jordan-algebra|Jordan algebra]] \\(J\\), together with a positive-definite [[linear-algebra/inner-product|inner product]] \\(-,-\\), such that \\[ x y,z= y,x z (x,y,z J). \\] Equivalently, every multiplication operator \\(L_x(y)=x y\\) is self-adjoint. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: Self-adjointness of every L_x is exactly equivalent to the displayed associative inner-product identity; positivity and finite dimensionality support the spectral claims.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "linear-algebra/inner-product"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/exceptional-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e583d85c9725de69fed5f5cbf2d856cd89bcfe8ff5aefac339487703157579b",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: The **exceptional Jordan algebra**, or real **Albert algebra**, is \\[ h_3( O) =\\{X M_3( O):X^*=X\\}, X Y=12(XY+YX). \\] It is a 27-dimensional simple [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]] with unit \\(I_3\\), and it is not special. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The coordinate count 3+3·8=27 and the compact real form qualification prevent confusion with split or other Albert algebras.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/f4-transitivity-on-compatible-jordan-subalgebra-pairs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "65d2e5a25ddec68daf2dca6d977216b49b23c4d61c52f1b2d7e2a11ee2ac8897",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(J=H_3( O)\\). The compact group \\(F_4={Aut}(J)\\) acts transitively on [[shared-foundations/ordered-pair|ordered pairs]] \\((A,B)\\) of [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebras]] satisfying \\[ A H_2( O), B H_3( C), A B H_2( C). \\] All three hypotheses, including the intersection condition, are part of the statement. Equivalently, \\(F_4\\) acts transitively on incident pairs \\((X,B)\\) with \\(X B  The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. The subgroup/classification assertion was also compared with the cited standard reference in the source (and, for the F4 complex-subalgebra stabilizer, the SU(3)×SU(3)/Z3 description). Manual finding: The intersection hypothesis is retained in the core and is what permits conversion to incident (X,B) pairs and application of the unique-corner result.",
+      "previous_prerequisites": [
+        "shared-foundations/ordered-pair",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/unique-octonionic-spin-factor-corner",
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/f4-transitivity-on-complex-qutrit-subalgebras"
+      ],
+      "prerequisites": [
+        "shared-foundations/ordered-pair",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/unique-octonionic-spin-factor-corner",
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/f4-transitivity-on-complex-qutrit-subalgebras"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/f4-transitivity-on-complex-qutrit-subalgebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f77b5f63d6e726536a00d33651beaf187b354e98a662b5b13541eaaffc462558",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(J=H_3( O)\\) be the compact real [[nonassociative-algebra/exceptional-jordan-algebra|Albert algebra]]. Its automorphism group \\(F_4\\) acts transitively on the set \\[ \\{B J:B{ is a Jordan subalgebra and }B H_3( C)\\}. \\] Equivalently, every complex-qutrit [[nonassociative-algebra/jordan-subalgebra|Jordan subalgebra]] can be carried to the standard \\(H_3( C) H_3( O)\\) by an automorphism of \\(J\\). The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. The subgroup/classification assertion was also compared with the cited standard reference in the source (and, for the F4 complex-subalgebra stabilizer, the SU(3)×SU(3)/Z3 description). Manual finding: The proof first fixes a frame, then uses Spin(8) triality to normalize the three 2-planes; the theorem quantifies over all H3(C) subalgebras.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/albert-algebra-complex-subalgebra-decomposition",
+        "nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/albert-algebra-complex-subalgebra-decomposition",
+        "nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/frame-decomposition-of-hermitian-jordan-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "317050d12712ab44218747794fcf4cc55ee3a775880714c3885478ca7dd1410e",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\( K\\) be a normed real division algebra and let \\((e_1,e_2,e_3)\\) be the standard [[nonassociative-algebra/jordan-frame|Jordan frame]] of \\(H_3( K)\\). Write \\(_{ij}(x)\\) for the Hermitian matrix whose \\(ij\\)-entry is \\(x\\), whose \\(ji\\)-entry is \\(x^*\\), and whose other entries vanish. Then there is an orthogonal direct sum \\[ H_3( K) =_{i=1}^3 R e_i \\;\\; _{12}( K)_{23}( K)_{31}( K). \\] For \\( K= O\\), this is th The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The ξ_ij definition accounts for both conjugate off-diagonal entries, and the adjacent-product formula explains why the third pair summand appears.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/peirce-decomposition",
+        "lie-groups/half-spin-representation"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-frame",
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/peirce-decomposition",
+        "lie-groups/half-spin-representation"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/hermitian-jordan-triple-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09b91c245801d2c338672443c4a1b89158f10e936864facdc3c6342d70d1f1db",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: A **Hermitian Jordan triple system** is a complex [[linear-algebra/vector-space|vector space]] \\(V\\) with a sesquilinear triple product \\[ \\{x,y,z\\}:V V V V \\] that is complex-linear in \\(x,z\\), conjugate-linear in \\(y\\), symmetric in the outer variables, and satisfies the Jordan triple identity \\[ \\{x,y,\\{u,v,w\\}\\} =\\{\\{x,y,u\\},v,w\\} -\\{u,\\{y,x,v\\},w\\} +\\{u,v,\\{x,y,w\\}\\}. \\] In the finite-dimensional **positive** ca The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: The triple identity signs and conjugate-linearity match the stated convention; the positive trace form is explicitly restricted to the finite-dimensional positive case.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/hermitian-matrix-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d5ed29c06f13e5ef6087f477b2dcae6c0a9887c628116d4b42481940ce3238f",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: For \\( K= R, C\\), or \\( H\\), the **Hermitian matrix Jordan algebra** \\( h_n( K)\\) is the real [[linear-algebra/vector-space|vector space]] of matrices \\(X M_n( K)\\) satisfying \\(X^*=X\\), with product \\[ X Y=12(XY+YX). \\] It is a [[nonassociative-algebra/euclidean-jordan-algebra|Euclidean Jordan algebra]] for every \\(n1\\). The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: Restricting the core to R,C,H is essential because octonionic matrices only give Jordan algebras in sizes 1,2,3, as the full source states separately.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/hurwitz-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87947bf4e603eb90a8a3870d2a149776b2e6ca7751bc8d496ae70893d6b5f9f2",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: **Hurwitz's theorem.** Every finite-dimensional unital real algebra with a positive-definite multiplicative quadratic norm is isomorphic, as a normed real algebra, to exactly one of \\[ R, C, H, O. \\] Consequently, a [[nonassociative-algebra/real-normed-division-algebra|real normed division algebra]] has dimension \\(1\\), \\(2\\), \\(4\\), or \\(8\\). The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. The subgroup/classification assertion was also compared with the cited standard reference in the source (and, for the F4 complex-subalgebra stabilizer, the SU(3)×SU(3)/Z3 description). Manual finding: The positive-definite norm hypothesis selects the four division algebras; the later composition-algebra paragraph correctly distinguishes split isotropic norms.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/real-normed-division-algebra",
+        "nonassociative-algebra/composition-algebra",
+        "linear-algebra/quadratic-form"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/real-normed-division-algebra",
+        "nonassociative-algebra/composition-algebra",
+        "linear-algebra/quadratic-form"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/ideal-in-a-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53d4e20c29fc433831e53f869345d277cae029aee2eec58326f2b61a5fc7cecf",
+      "evidence": "Manually read the complete source and direct prerequisite definitions. Statement-specific check: Let \\(J\\) be a [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. An **ideal** of \\(J\\) is a [[convex-analysis/linear-subspace|linear subspace]] \\(I J\\) such that \\[ x y I {for every }x J{ and }y I. \\] Equivalently, every multiplication operator \\(L_x:y x y\\) preserves \\(I\\). Because the Jordan product is commutative, no separate left- and right-ideal conditions are needed. The listed prerequisites supply the structures, operations, hypotheses, or conventions used by the core; no prerequisite is merely a consequence, and all displayed defining equations/axioms remain in the core. Checked direct internal links and target scope; no mathematical or edge-direction correction was required. Manual finding: Commutativity makes one-sided stability sufficient, and the full quotient/kernel section confirms the ideal condition is exactly what makes J/I and homomorphism kernels well-defined.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "convex-analysis/linear-subspace",
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra-homomorphism",
+        "nonassociative-algebra/jordan-subalgebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "convex-analysis/linear-subspace",
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/jordan-algebra-homomorphism",
+        "nonassociative-algebra/jordan-subalgebra"
+      ]
+    },
+    {
+      "id": "nonassociative-algebra/jordan-algebra",
+      "source_sha256": "0252fc048868e3cc2e6e257ead45c3ce87e0dc0140989fca4131699368ea7668",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core preserves commutativity, bilinearity, and the Jordan identity over characteristic not 2. The full source checks the symmetrized associative construction, unit convention, power-associativity consequence, and characteristic caveat; vector space is the sole direct prerequisite."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-algebra-homomorphism",
+      "source_sha256": "fa6599a404da01de127e05cceedb2fe9a45116f95425c2fb7df5624b8647a2a4",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The definition requires linearity and product preservation, with unitality explicitly additional. The full source verifies corner inclusions, kernel ideal, image subalgebra, and the distinction from associative homomorphisms; Jordan algebra is the direct input."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-frame",
+      "source_sha256": "b4522ae981564ad6f177c36726321ff65b78a45162e8c94906f7175def28b0cc",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/primitive-jordan-idempotent"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/primitive-jordan-idempotent"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core requires primitive idempotents, pairwise Jordan orthogonality, and sum equal to the unit, while treating ordering separately. The matrix example and stabilizer discussion confirm why labels matter; Euclidean-Jordan and primitive-idempotent are the required inputs."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-idempotent",
+      "source_sha256": "ab9885e140f9a2a6fd6c0d9f8699e312f7b8d94a2f1fdd4c8d5037632a4eb1d7",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The defining equation e∘e=e is kept in the core. The full source correctly limits projection/rank comparisons to Euclidean or Hermitian-matrix settings; Jordan algebra alone is the direct prerequisite."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-subalgebra",
+      "source_sha256": "a146fbb16a47daa774287194baf154f78721a67cb5879478c5c6438f3b6b58e8",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "convex-analysis/linear-subspace"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines a linear subspace closed under the Jordan product and explicitly separates ambient-unit preservation. The corner example and embedding/stabilizer sections support that convention; Jordan algebra and linear-subspace are genuine inputs."
+    },
+    {
+      "id": "nonassociative-algebra/nonassociative-algebra",
+      "source_sha256": "2bd622cf5d048781bd349a97ccbfc36ec4ce017f5ddca3f3cb138ba8d21db26c",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "linear-algebra/vector-space",
+        "algebra-modules/bilinear-map"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "linear-algebra/vector-space",
+        "algebra-modules/bilinear-map"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core retains field, vector-space, bilinear multiplication, and optional unit axioms. The full source checks associator, morphisms, subalgebra convention, and examples; all three listed prerequisites are used."
+    },
+    {
+      "id": "nonassociative-algebra/octonion-algebra",
+      "source_sha256": "7ee58706f4a49d5d03cb980d54af546324e1b99dea62f62e4c9e75d1aececd7c",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/real-normed-division-algebra",
+        "nonassociative-algebra/alternative-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/real-normed-division-algebra",
+        "nonassociative-algebra/alternative-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The source identifies the positive real eight-dimensional normed division algebra and separately states unitality, noncommutativity, nonassociativity, and alternativity. The Fano-plane, conjugation, and general-field caveat preserve the real/split distinction; both prerequisites are direct."
+    },
+    {
+      "id": "nonassociative-algebra/octonion-conjugation-norm-and-inner-product",
+      "source_sha256": "28915ba112e86dc12fdc49c897f6eb7388747f2fc44888766810a8e0dd0b2cbf",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "linear-algebra/inner-product",
+        "linear-algebra/vector-space",
+        "linear-algebra/bilinear-form",
+        "linear-algebra/orthogonal-complement"
+      ],
+      "prerequisites": [
+        "linear-algebra/inner-product",
+        "linear-algebra/vector-space",
+        "linear-algebra/bilinear-form",
+        "linear-algebra/orthogonal-complement"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines conjugation, norm, and inner product with the exact real-part convention. The full source verifies involutive anti-automorphism, norm composition, polarization normalization, and orthogonal splittings; the four listed linear-algebra notions support these formulas."
+    },
+    {
+      "id": "nonassociative-algebra/octonionic-spin-factor",
+      "source_sha256": "5003192208612b9400aee923f657fd31ab85bf47845a97e9a908fc276c800ecb",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/spin-factor-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/spin-factor-jordan-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core states the 2-by-2 Hermitian octonionic carrier and symmetrized product, then Euclidean-Jordan status. The full source checks the R⊕R^9 spin-factor identification, nonunital corner embedding, and Spin(9) ambient stabilizer; all listed prerequisites are used."
+    },
+    {
+      "id": "nonassociative-algebra/octonionic-two-by-two-determinant",
+      "source_sha256": "0461ce1540ad1051500605443742f8ef63513dc9bb38324318630466752c91a4",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/octonionic-spin-factor",
+        "linear-algebra/quadratic-form"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/octonionic-spin-factor",
+        "linear-algebra/quadratic-form"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines the rank-two determinant ab−|q|² on precisely H2(O). The full source distinguishes its quadratic polarization and positivity from the cubic Albert determinant; octonionic spin factor and quadratic form are direct inputs."
+    },
+    {
+      "id": "nonassociative-algebra/octonions-as-complex-vectors",
+      "source_sha256": "0eb3a6985bc7bdac571ea2237f372f80854bbb290e9607cfbe996e14be95d7cf",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/conjugated-cross-product-on-c3",
+        "nonassociative-algebra/octonion-conjugation-norm-and-inner-product",
+        "linear-algebra/orthogonal-complement",
+        "nonassociative-algebra/real-normed-division-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "nonassociative-algebra/octonion-algebra",
+        "nonassociative-algebra/conjugated-cross-product-on-c3",
+        "nonassociative-algebra/octonion-conjugation-norm-and-inner-product",
+        "linear-algebra/orthogonal-complement",
+        "nonassociative-algebra/real-normed-division-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The multiplication formula retains the conjugate-linear Hermitian convention, conjugated cross product, and scalar conjugation on the left factor. The full source checks identity, conjugation, norm multiplicativity, real-vs-complex bilinearity, and SU(3) symmetry; every listed prerequisite is used."
+    },
+    {
+      "id": "nonassociative-algebra/orthogonal-jordan-idempotents",
+      "source_sha256": "39543b807ff05955ec3fe02ea5d9c4bfc6c912fb4b169856b42fea27417d1ebf",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-idempotent",
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-idempotent",
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "linear-algebra/inner-product"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines orthogonality by e∘f=0 and proves the sum is idempotent. The full source limits inner-product equivalence to Euclidean trace normalization and connects pairwise orthogonal primitives to frames; the four prerequisites match those claims."
+    },
+    {
+      "id": "nonassociative-algebra/peirce-decomposition",
+      "source_sha256": "24c7deba82f13314fdda99e3472391b76cca148211552580135a7a687d9524f6",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-idempotent",
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-idempotent",
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The theorem retains characteristic ≠2, the three eigenspaces 0, 1/2, 1, and the direct sum. The multiplication rules and Euclidean orthogonality are checked in later sections; idempotent/Jordan/subalgebra/Euclidean inputs are all used."
+    },
+    {
+      "id": "nonassociative-algebra/peirce-one-space-jordan-corner",
+      "source_sha256": "24015b86b5c442a8c0ed86404ef38a6dea792be807bce66a8419f897f75e8ef0",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/jordan-idempotent"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/jordan-idempotent"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core uses the equation e∘x=x and states J1(e) is a subalgebra with unit e. The H3(K) section verifies the trace-two H2(K) corner and uniqueness of its unit; the three listed prerequisites are direct."
+    },
+    {
+      "id": "nonassociative-algebra/power-associative-algebra",
+      "source_sha256": "584c076469b718a6f70eb89b4c608e8251c1e61eafd86c178e33ee40b595bd52",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines associativity of each one-generated subalgebra and the unambiguous power law. The full source correctly distinguishes one-element control from full associativity and records Jordan/alternative consequences; nonassociative algebra is the sole input."
+    },
+    {
+      "id": "nonassociative-algebra/primitive-jordan-idempotent",
+      "source_sha256": "02df68cc314448e2ac4059cfb1e150c1d758b531b1ffccf6b0f5271bd9969041",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-idempotent",
+        "nonassociative-algebra/orthogonal-jordan-idempotents",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-idempotent",
+        "nonassociative-algebra/orthogonal-jordan-idempotents",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core requires a nonzero idempotent with no decomposition into two nonzero orthogonal idempotents. The full source checks rank-one and trace-one interpretations only in Euclidean/Hermitian cases; all three prerequisites are used."
+    },
+    {
+      "id": "nonassociative-algebra/real-normed-division-algebra",
+      "source_sha256": "7c8a304c8bebfea0d9afd6d8bf0875c496227f7c7555f2b9018a8710a4bce2b1",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra",
+        "shared-foundations/real-numbers",
+        "linear-algebra/euclidean-norm",
+        "nonassociative-algebra/composition-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/nonassociative-algebra",
+        "shared-foundations/real-numbers",
+        "linear-algebra/euclidean-norm",
+        "nonassociative-algebra/composition-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core states finite-dimensional real unital algebra, positive-definite Euclidean norm, and norm multiplicativity. The full source derives division, invokes Hurwitz classification, and warns about alternate meanings; all four prerequisites are substantive."
+    },
+    {
+      "id": "nonassociative-algebra/simple-euclidean-jordan-algebra",
+      "source_sha256": "25724d12b0d9c99aa23b55b9ce59b23c2905367b0c2c7146c9719b6a0bfe7bd4",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/ideal-in-a-jordan-algebra",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/ideal-in-a-jordan-algebra",
+        "convex-analysis/linear-subspace"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The definition requires nonzero Euclidean J with only 0 and J as ideals, then states the full classification and direct-sum theorem. The full source handles low-rank spin-factor duplication; Euclidean, ideal, and linear-subspace prerequisites are all used."
+    },
+    {
+      "id": "nonassociative-algebra/special-and-exceptional-jordan-algebras",
+      "source_sha256": "1dc46918be9f2a5bd3c0953654364e2f2f00487cf7a2879075d019612932727d",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines specialness as embedding into a symmetrized associative algebra and exceptionalness as its negation, without requiring unit preservation. The full source checks examples, the Albert exception, and Glennie-identity context; Jordan algebra and subalgebra are direct inputs."
+    },
+    {
+      "id": "nonassociative-algebra/spectral-theorem-for-euclidean-jordan-algebras",
+      "source_sha256": "7e1d2c9df4e70915d58537a8aad2cd1ff1a3e8448215fcc8c00c79b407701a96",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/jordan-frame"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra",
+        "nonassociative-algebra/jordan-frame"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The theorem states existence of a frame expansion with real eigenvalues and uniqueness of the multiset, then derives spectral idempotents and functional calculus. The full source checks invertibility, positivity, and matrix specialization; Euclidean-Jordan and frame are the required inputs."
+    },
+    {
+      "id": "nonassociative-algebra/spin-factor-jordan-algebra",
+      "source_sha256": "96db9e4e5e86a0df8a0bfa414d18b5f6d1a301de30c981b490143b879a46f697",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core gives the bilinear product on R⊕V, its unit, and compatible inner product. The full source checks spectral idempotents, Lorentz cone, simplicity threshold dim V≥2, O(V) automorphisms, and all four Hermitian degree-two models; all three prerequisites are used."
+    },
+    {
+      "id": "nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame",
+      "source_sha256": "44ec1387d1fd042fb13c454478b5c42d9fbf2a8791cb9bcfb12ba0f065df36e6",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-frame",
+        "lie-groups/half-spin-representation",
+        "lie-groups/spin8-triality"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-frame",
+        "lie-groups/half-spin-representation",
+        "lie-groups/spin8-triality"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The theorem explicitly says pointwise stabilizer of a labelled frame is Spin(8), while the full source derives the three vector/half-spin summands and the setwise Spin(8)⋊S3 distinction. Albert, frame, half-spin, and triality prerequisites match these outputs."
+    },
+    {
+      "id": "nonassociative-algebra/spin9-stabilizer-of-an-octonionic-spin-factor",
+      "source_sha256": "ff538af55a66fcc27c0a5e2bcbff489d4db32465430454ab864c4ec3d1625f76",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "topology/connected-component"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "topology/connected-component"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core assumes an H2(O) Jordan corner and states its connected setwise F4 stabilizer is Spin(9). The full source identifies it as J1(ell), converts to the primitive-idempotent isotropy, and gives OP2=F4/Spin(9); the connected-component prerequisite is needed for the comparison."
+    },
+    {
+      "id": "nonassociative-algebra/su3-stabilizer-of-a-complex-octonion-subalgebra",
+      "source_sha256": "8751220732e5d7bb2fa106930541a00efed0f6f5b049559faca77918c3ad6191",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "lie-groups/compact-exceptional-lie-group-g2",
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/vector-space",
+        "linear-algebra/orthogonal-complement",
+        "nonassociative-algebra/conjugated-cross-product-on-c3",
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/compact-exceptional-lie-group-g2",
+        "nonassociative-algebra/octonion-algebra",
+        "linear-algebra/vector-space",
+        "linear-algebra/orthogonal-complement",
+        "nonassociative-algebra/conjugated-cross-product-on-c3",
+        "lie-groups/lie-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core fixes a unit imaginary i and states the pointwise C_i stabilizer in G2 is SU(3). The full source checks the C_i⊥ complex 3-space, conjugated-cross-product action, G2/SU(3)=S6, and the separate setwise order-two extension; every listed prerequisite is substantive."
+    },
+    {
+      "id": "nonassociative-algebra/trace-form-of-a-euclidean-jordan-algebra",
+      "source_sha256": "52d7688319083f4e22eafbc7630569191e58d79ea9cdb629e9a86cdaa44c7b52",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The definition uses the Jordan eigenvalue trace to define τ(x,y)=tr_J(x∘y). The full source checks positivity/associativity, matrix and spin-factor normalizations, and the operator-trace factor N/r; Euclidean Jordan algebra is the direct input."
+    },
+    {
+      "id": "nonassociative-algebra/tripotent-in-a-jordan-triple-system",
+      "source_sha256": "b9068d842b1039f0893eb22546092a87fe222f931f894169bdc071f91dfd4250",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/hermitian-jordan-triple-system",
+        "nonassociative-algebra/jordan-idempotent"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/hermitian-jordan-triple-system",
+        "nonassociative-algebra/jordan-idempotent"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core preserves the ternary equation {e,e,e}=e without imposing a binary product or unit. The full source verifies the operator partial-isometry example, Peirce eigenvalues under the 1/2 normalization, and minimal/complete notions; the triple system and idempotent links support the stated analogy."
+    },
+    {
+      "id": "nonassociative-algebra/unique-octonionic-spin-factor-corner",
+      "source_sha256": "40e9846d1d82ea0ba75264a500898fda7e891ee213f3ce4a87a98a013ebf7ad5",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/octonionic-spin-factor"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "nonassociative-algebra/octonionic-spin-factor"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The theorem assumes X≅H2(C) inside H3(O), constructs A=J1(ell), and proves uniqueness via trace-two support inclusion. The full source checks the equation ell∘a=a and the nonunital corner convention; all three listed prerequisites are used."
+    },
+    {
+      "id": "algebra-hyperstructures",
+      "source_sha256": "afde86dd6d345077fa8c51a3f90d4fee5d0bb56f657a5849f33c73065b06a81e",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-rings/semiring"
+      ],
+      "prerequisites": [
+        "algebra-rings/semiring"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The continuous section introduces hyperstructures after the semiring setting and organizes bands, hyperfields, and tracts. Its sole prerequisite is the ambient semiring; the linked entries are section contents rather than hidden defining inputs."
+    },
+    {
+      "id": "algebra-hyperstructures/band",
+      "source_sha256": "3434e2a66e98aadf02ed9db9d59aa65dd6e4fb1daac6a643001ea6754f582b7a",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-groups/commutative-monoid"
+      ],
+      "prerequisites": [
+        "algebra-groups/commutative-monoid"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core retains pointed commutative-monoid data, formal-sum semiring B+, ideal nullset, and unique additive inverses. The full source distinguishes bands from hyperaddition and records morphisms; commutative monoid is the direct prerequisite."
+    },
+    {
+      "id": "algebra-hyperstructures/canonical-hypergroup",
+      "source_sha256": "31bb8dcfb64239dbcda5f68a5b02b63b8e5d13012c4f0cd1760e01a4f6997f91",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperoperation"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperoperation"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The definition lists commutativity, associativity, zero, unique inverse, and reversibility explicitly. The full source checks subset-valued associativity and the singleton abelian-group case; hyperoperation is the only prerequisite."
+    },
+    {
+      "id": "algebra-hyperstructures/classification-of-stringent-hyperfields",
+      "source_sha256": "20bac97eebe7675b1fde8fd614300dfeb3f51da809544b22c13a15f4f024e981",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/stringent-hyperfield",
+        "algebra-hyperstructures/krasner-hyperfield",
+        "algebra-hyperstructures/sign-hyperfield",
+        "algebra-rings/field",
+        "algebra-groups/ordered-abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/stringent-hyperfield",
+        "algebra-hyperstructures/krasner-hyperfield",
+        "algebra-hyperstructures/sign-hyperfield",
+        "algebra-rings/field",
+        "algebra-groups/ordered-abelian-group"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The theorem keeps the three residue cases, ordered-group exact sequence, layerwise addition rule, and converse construction. The full source explicitly avoids claiming a split extension; all five listed residue/order prerequisites are used."
+    },
+    {
+      "id": "algebra-hyperstructures/doubly-distributive-hyperfield",
+      "source_sha256": "d464cc2451f4e14c5a6a33ba54ae7c15f3c7efb4005e7938036be0982a68f381",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperfield"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperfield"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines subset equality for (a⊞b)(c⊞d) and expands all four products. The examples section checks fields, Krasner, sign, tropical, and the strictness relation; hyperfield is the direct input."
+    },
+    {
+      "id": "algebra-hyperstructures/doubly-distributive-hyperfields-are-stringent",
+      "source_sha256": "a2f5f391b78e1353e0a7d8a0b368662b9dd4193fd521acd0c1627c77cb37df3f",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/doubly-distributive-hyperfield",
+        "algebra-hyperstructures/stringent-hyperfield"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/doubly-distributive-hyperfield",
+        "algebra-hyperstructures/stringent-hyperfield"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The theorem preserves the condition a≠−b and concludes singleton hypersums, while separately stating the failed converse. Its two prerequisites exactly supply the premise and conclusion classes."
+    },
+    {
+      "id": "algebra-hyperstructures/fields-semifields-and-hyperfields",
+      "source_sha256": "c0483b786ad5a8dc9ccaad42c4fb451053cca9c3cb2b09b55854791180764222",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/semifield",
+        "algebra-hyperstructures/hyperfield",
+        "algebra-groups/abelian-group",
+        "algebra-rings/semiring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/semifield",
+        "algebra-hyperstructures/hyperfield",
+        "algebra-groups/abelian-group",
+        "algebra-rings/semiring-homomorphism"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core states both fully faithful embeddings and characterizes each essential image. The full source checks additive inverses for semiring maps and singleton inclusion for weak hyperfield maps; all five categorical/algebraic prerequisites are used."
+    },
+    {
+      "id": "algebra-hyperstructures/fusion-band",
+      "source_sha256": "c9d11db87e385e5ef8ab79cb797bcacbbff5802ed4d0ba28d0736f88978050d8",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/band",
+        "algebra-hyperstructures/null-set-of-a-band",
+        "algebra-hyperstructures/fusion-rule-for-bands"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/band",
+        "algebra-hyperstructures/null-set-of-a-band",
+        "algebra-hyperstructures/fusion-rule-for-bands"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The definition applies the displayed fusion closure to a band nullset and explicitly says it is not an arity-generation condition. Band, nullset, and fusion-rule prerequisites each provide a required component."
+    },
+    {
+      "id": "algebra-hyperstructures/fusion-rule-for-bands",
+      "source_sha256": "a37e98fa40d0860b47f4bc7ca99754dee17a7b177cea412d8dad6a79b6651188",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/band"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/band"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core states cancellation of c and −c across two formal null sums and defines fusion ideals/closure. The interpretation confirms this is extra to ordinary ideal closure; band is the direct structural prerequisite."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperfield",
+      "source_sha256": "4fb7857f99699b131f69fe70038f27efbed71f17617037ce354cba26bc3902db",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperring",
+        "algebra-groups/abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperring",
+        "algebra-groups/abelian-group"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core requires a nontrivial hyperring and an abelian multiplicative group of nonzero elements. The full source distinguishes multivalued addition, multiplicative division, and the associated tract; hyperring and abelian-group prerequisites are exact."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperfield-as-a-tract",
+      "source_sha256": "5b5303b58919e7cd54af6d43ba028606a0405ecb98ae023bfaa1936cbb76b1de",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperfield",
+        "algebra-hyperstructures/tract"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperfield",
+        "algebra-hyperstructures/tract"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The construction records exactly finite hypersums containing zero and sets ε=−1. The full source verifies what information is forgotten and why weak homomorphisms induce tract morphisms; hyperfield and tract are direct inputs."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperfield-of-a-field-quotient",
+      "source_sha256": "2e9f6fd1d79a7eea7385491d7a95bac7932b5e82615ce3fc13bb46c2c04eb55a",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/quotient-hyperring",
+        "algebra-rings/field"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/quotient-hyperring",
+        "algebra-rings/field"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The orbit construction explicitly uses a field K and subgroup G≤K×, with representative-independent multiplication and hypersum. The full source checks weak versus strong quotient maps and the F2/Krasner edge case; quotient-hyperring and field are needed."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperoperation",
+      "source_sha256": "fda5cbbd7d28142670648f176f111dccb30e3eb79547882c6105eeb46bbea4d5",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The definition maps X×X to nonempty subsets and extends it to subsets by union. The full source checks subset-valued associativity and singleton ordinary operations; no prerequisite is required."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperring",
+      "source_sha256": "2076bdb10f0c9f69bcef0c82ac85a2cdec2bbfc57d8497d51d1ac725e157f19a",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/canonical-hypergroup",
+        "algebra-groups/commutative-monoid"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/canonical-hypergroup",
+        "algebra-groups/commutative-monoid"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core retains canonical-hypergroup addition, commutative monoid multiplication, absorbing zero, and subset equality for distributivity. The full source checks singleton commutative-ring specialization and distinguishes equality from weak morphism inclusion; both listed prerequisites are direct."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperring-homomorphism",
+      "source_sha256": "f2bb44c0af3e0c1007f8251033390ceb8afe5e283e570f2a3a15fc0a0f22cb36",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperring"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperring"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The definition explicitly separates weak inclusion from strong equality and preserves 0, 1, and multiplication. The full source checks ordinary rings, valuations, quotient maps, and the isomorphism convention; hyperring is the sole direct input."
+    },
+    {
+      "id": "algebra-hyperstructures/idyll",
+      "source_sha256": "e7498d30b17334ef2b80d574ebf0d04482d8e7a7b04b05590ce491a5cfdb8ae4",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/band"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/band"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines B×=B\\{0}≠∅ and keeps nullset information separate from multiplicative invertibility. The full source checks associated tracts, ordered-blueprint realization, and the pasture condition; band supplies the underlying structure."
+    },
+    {
+      "id": "algebra-hyperstructures/integral-hyperring",
+      "source_sha256": "848ed7b84a503447f4be0dce5e4cd78b8a21f9ffadc9f8d9009b758e3d1cf834",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperring",
+        "algebra-rings/zero-divisor"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperring",
+        "algebra-rings/zero-divisor"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core states 0≠1 and the no-zero-divisor implication for single-valued multiplication. The full source compares hyperfields, ordinary integral domains, and partial hyperfields; hyperring and zero-divisor are the actual inputs."
+    },
+    {
+      "id": "algebra-hyperstructures/krasner-hyperfield",
+      "source_sha256": "fc4ed0da24cffe23f3d48c7b32a8ea96a2b84facd8866e415b5a76ed58bbc3a8",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The complete example specifies both nonzero hyperaddition 1⊞1={0,1} and zero absorption, then verifies quotient and Boolean comparisons including the F2 exception. It is self-contained and needs no prerequisite."
+    },
+    {
+      "id": "algebra-hyperstructures/null-set-of-a-band",
+      "source_sha256": "48ce0ce13c9c0f6e5151507c4b25b3fb4bb57fbcdaeccd63d4f5430628315138",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/band"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/band"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core defines NB as an ideal of formal sums and retains empty sum, ideal closure, and unique additive inverse. The full source explicitly distinguishes ideal closure from fusion closure; band is the direct input."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-field",
+      "source_sha256": "f311de92b6e75c362fa53e3e2211a023f37f6ad0e968d6aeb5db4a09c20c9454",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-rings/unital-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/unital-ring"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core retains commutative unital ambient ring, subgroup G of units, −1, and ring-generation hypotheses. The full source checks partial addition, regular partial field, associated tract, and convention variation; unital ring is the direct prerequisite."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-field-as-a-tract",
+      "source_sha256": "9c635021e8ecae76a8e2546681aec5f3591331170e48e2800a7d6c376ce994c2",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/partial-field",
+        "algebra-hyperstructures/tract"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/partial-field",
+        "algebra-hyperstructures/tract"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The construction records exactly formal G-sums vanishing in the ambient ring and sets ε=−1. The full source checks preservation under morphisms and what ambient information is forgotten; partial field and tract are required inputs."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-hyperfield",
+      "source_sha256": "cf7935b09dc3ed44cc054e4d9d9acf7beda9491f282912062680b140dcda4e74",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/integral-hyperring"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/integral-hyperring"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core selects a subgroup of ambient hyperring units and defines visible sums by intersection with G∪{0}, explicitly allowing emptiness. The full source distinguishes partial fields and full hyperfields and preserves the ambient-null construction; integral hyperring is direct."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-hyperfield-as-a-tract",
+      "source_sha256": "be0a90885a364b56b0c0fecafc0ca5402ce97edd6fe507840856584f76a6c870",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/partial-hyperfield",
+        "algebra-hyperstructures/integral-hyperring",
+        "algebra-hyperstructures/tract"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/partial-hyperfield",
+        "algebra-hyperstructures/integral-hyperring",
+        "algebra-hyperstructures/tract"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The construction uses ambient hypersums containing zero, even when intermediate values leave the selected coefficient set. The full source verifies specialization to partial fields and hyperfields; all three listed prerequisites supply the construction."
+    },
+    {
+      "id": "algebra-hyperstructures/pasture",
+      "source_sha256": "2412ccef2122bcb7c1beed5d8af821f5a07c06f9af97c9aa893fbe81e6f3d3c7",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/idyll",
+        "algebra-hyperstructures/null-set-of-a-band",
+        "algebra-hyperstructures/fusion-rule-for-bands",
+        "algebra-hyperstructures/fusion-band"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/idyll",
+        "algebra-hyperstructures/null-set-of-a-band",
+        "algebra-hyperstructures/fusion-rule-for-bands",
+        "algebra-hyperstructures/fusion-band"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core retains idyll structure and the fusion-ideal generation condition from three-term null relations. The full source checks the hereditary-fusion equivalence and morphism convention; each listed band/nullset/fusion prerequisite is used."
+    },
+    {
+      "id": "algebra-hyperstructures/phase-hyperfield",
+      "source_sha256": "5ba599ecea5223ebea9005491501d25c563d31eacf84615ae4475a18b956e9a9",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperfield-of-a-field-quotient"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperfield-of-a-field-quotient"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core identifies C/R>0, explains phase hypersums, gives the open-arc and antipodal cases, and states the quotient map. The quotient-hyperfield prerequisite supplies the construction and its operations."
+    },
+    {
+      "id": "algebra-hyperstructures/quotient-hyperring",
+      "source_sha256": "d36528f91c63cbfcb0c61a3a2cd77bb337b8060359aa296aaedbd6e8c778dd9d",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/group-of-units",
+        "algebra-hyperstructures/hyperring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/group-of-units",
+        "algebra-hyperstructures/hyperring"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core requires a commutative ring and subgroup of units and defines orbit multiplication plus all independently rescaled sums. The full source checks representative independence, weak quotient map, and field specialization; all three prerequisites are direct."
+    },
+    {
+      "id": "algebra-hyperstructures/sign-hyperfield",
+      "source_sha256": "af5a239c9a120e22692901f94f769bcdc5b93611204f49c8fcfada23fa5079bd",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The complete example specifies all nonzero sums and zero sums, then verifies the R/R>0 quotient and weak sign map. It is self-contained and needs no prerequisite."
+    },
+    {
+      "id": "algebra-hyperstructures/stringent-hyperfield",
+      "source_sha256": "980adc77efd5f1c0e4d060b060b5a83d8ef8130c5173d7cb9a28260e5f7703c4",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperfield"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperfield"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core states singleton sums whenever a≠−b. The full source checks ordinary fields, Krasner/sign/valuative examples, and the distinction from double distributivity; hyperfield is the direct input."
+    },
+    {
+      "id": "algebra-hyperstructures/tract",
+      "source_sha256": "ec6778c55902ffd792ba664fbdadf36fd9420bf5426d14e6aef2bdfd5b6254d9",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-groups/group-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-groups/group-homomorphism"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core retains all four tract null-set axioms, including unique ε and multiplicative stability. The full source checks ε²=1, null-pair consequences, examples, and ordered-blueprint relation; abelian group and group homomorphism support the structure/morphism."
+    },
+    {
+      "id": "algebra-hyperstructures/tract-as-an-ordered-blueprint",
+      "source_sha256": "fb4b920c1d5de4ab2dfa60675e93cea37ee4ee5be75b22f323a15ac2d3f51a5c",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/tract",
+        "shared-foundations/partial-order",
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/tract",
+        "shared-foundations/partial-order",
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The construction generates an order from every tract null sum and explicitly distinguishes the general adjunction from its ideal-null restricted equivalence. Tract, partial order, and ordered blueprint are genuine inputs/outputs."
+    },
+    {
+      "id": "algebra-hyperstructures/tropical-hyperfield",
+      "source_sha256": "f7806cb172f1dc4acc86dfc9ef901f86af72db8d2133c0295121e1bbc2b9276c",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core fixes max convention, carrier, multiplication, identities, and tied lower-interval hypersum. The full source checks tied cancellation, exponential alternative, and min/max warning; it is self-contained."
+    },
+    {
+      "id": "algebra-hyperstructures/tropical-hyperfield-versus-semifield",
+      "source_sha256": "43c43dd616cc71ceaff0d46a5ce599dcbf81d7d1f31935edd1f30a2146b0b53d",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-rings/tropical-semifield",
+        "algebra-hyperstructures/tropical-hyperfield"
+      ],
+      "prerequisites": [
+        "algebra-rings/tropical-semifield",
+        "algebra-hyperstructures/tropical-hyperfield"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The proposition compares the same carrier/multiplication and isolates the exact tied-sum difference. The full source checks idempotence, order conventions, and why singleton inclusion is not a categorical subobject; both listed tropical structures are required."
+    },
+    {
+      "id": "algebra-hyperstructures/valuation-as-tropical-hyperfield-morphism",
+      "source_sha256": "8c127b2bb9dd57d5accc3e7aae490cd81061349d418ba5ccdd6519b4e409aa67",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-groups/ordered-abelian-group",
+        "algebra-hyperstructures/hyperring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-groups/ordered-abelian-group",
+        "algebra-hyperstructures/hyperring-homomorphism"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The core states the valuation hypotheses and negated map to the max tropical hyperfield. The verification checks multiplicativity, unequal/tied valuation cases, converse inequality, and weak-vs-strong distinction; all three prerequisites are used."
+    },
+    {
+      "id": "algebra-hyperstructures/valuative-hyperfield",
+      "source_sha256": "fe1e69a5cce4d7e0034e65c292455836a75983af63f72a7c5e24bcc4b56389b4",
+      "reason": "Not individually re-read with all direct prerequisite definitions in this pass; retained for manual review and excluded from accepted review counts.",
+      "previous_prerequisites": [
+        "algebra-groups/ordered-abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/ordered-abelian-group"
+      ],
+      "outcome": "reviewed_unchanged",
+      "evidence": "The construction retains a totally ordered abelian group, bottom element, max hypersum, and absorbing multiplication. The full source checks hyperfield identities, tropical/Krasner specializations, and valuation relation; ordered abelian group is the direct input."
+    }
+  ],
+  "triage_records": []
+}

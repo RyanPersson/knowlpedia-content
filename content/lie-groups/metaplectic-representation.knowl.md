@@ -6,7 +6,7 @@ summary = "The canonical unitary representation of the metaplectic group on squa
 aliases = ["oscillator representation of the metaplectic group", "Segal-Shale-Weil representation", "Weil representation over the real numbers"]
 domains = ["lie-groups", "harmonic-analysis", "mathematical-physics"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/metaplectic-group", "lie-groups/projective-unitary-representation"]
+prerequisites = ["lie-groups/metaplectic-group", "lie-groups/projective-unitary-representation", "mathematical-physics/schrodinger-representation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

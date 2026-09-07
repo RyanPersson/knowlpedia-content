@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "A linear subspace mapped into itself by a linear operator."
 aliases = ["invariant subspace", "operator-invariant subspace"]
 domains = ["linear-algebra", "analysis"]
-prerequisites = ["linear-algebra/linear-map", "linear-algebra/closed-linear-subspace", "linear-algebra/eigenvector"]
+prerequisites = ["linear-algebra/linear-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

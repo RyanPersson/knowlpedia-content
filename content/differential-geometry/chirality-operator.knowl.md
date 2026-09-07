@@ -6,7 +6,7 @@ summary = "The normalized complex Clifford volume element acting on an even-dime
 aliases = ["chirality matrix", "complex volume operator"]
 domains = ["differential-geometry", "mathematical-physics"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module", "mathematical-physics/gamma-matrices"]
+prerequisites = ["linear-algebra/quadratic-form", "differential-geometry/spinor-module", "differential-geometry/clifford-algebra", "differential-geometry/clifford-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

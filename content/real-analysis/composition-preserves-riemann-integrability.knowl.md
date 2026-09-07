@@ -6,7 +6,7 @@ summary = "Composing a Riemann integrable function with a continuous function pr
 aliases = ["composition-preserves-riemann-integrability", "Composition preserves Riemann integrability"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/composition-preserves-riemann-integrability.md"
-prerequisites = ["real-analysis/riemann-integrable-function"]
+prerequisites = ["real-analysis/riemann-integrable-function", "topology/continuous-map", "shared-foundations/composition"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

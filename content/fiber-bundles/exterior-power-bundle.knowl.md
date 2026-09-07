@@ -6,16 +6,16 @@ summary = "The vector bundle whose fiber at each point is the k-th exterior powe
 aliases = ["exterior-power-bundle", "Exterior power bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/exterior-power-bundle.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/tensor-product-vector-bundle"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "linear-algebra/exterior-power"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. For an integer \(k\) with \(0\le k\le r\), the **k-th exterior power bundle** of \(E\) is the vector bundle
+Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. For an integer \(k\ge0\), the **k-th exterior power bundle** of \(E\) is the vector bundle
 \[
 \Lambda^k E \to M
 \]
-defined fiberwise by
+with fibers given by the [[linear-algebra/exterior-power|exterior powers]]
 \[
 (\Lambda^k E)_x := \Lambda^k(E_x).
 \]
@@ -25,6 +25,8 @@ If \((e_1,\dots,e_r)\) is a local frame of \(E|_U\), then the wedge products
 e_{i_1}\wedge \cdots \wedge e_{i_k}\qquad (1\le i_1<\cdots<i_k\le r)
 \]
 form a local frame of \((\Lambda^k E)|_U\). Under a change of local frame with transition matrix \(g:U\cap V\to \mathrm{GL}(r,\mathbb F)\), the induced transition matrix on \(\Lambda^kE\) is the \(k\)-th exterior power representation \(\Lambda^k g\).
+
+## Functoriality
 
 The construction is functorial: a [[fiber-bundles/vector-bundle-morphism|vector bundle morphism]] \(\Phi:E\to F\) over \(\mathrm{id}_M\) induces \(\Lambda^k\Phi:\Lambda^kE\to \Lambda^kF\) fiberwise.
 

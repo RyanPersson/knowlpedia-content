@@ -6,16 +6,16 @@ summary = "A sequence of functions that is monotone at each point of the domain.
 aliases = ["monotone-sequence-of-functions", "Monotone sequence of functions"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/monotone-sequence-of-functions.md"
-prerequisites = ["real-analysis/monotone-sequence"]
+prerequisites = ["real-analysis/monotone-sequence", "shared-foundations/function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A sequence of real-valued functions \((f_n)\) on a set \(X\) is a **[[real-analysis/monotone-sequence-of-functions|monotone increasing sequence of functions]]** if
+A sequence of real-valued functions \((f_n)\) on a set \(X\) is a **monotone increasing sequence of functions** if
 \[
 f_n(x)\le f_{n+1}(x)\quad \text{for all } x\in X \text{ and all } n,
 \]
-and it is **monotone decreasing** if \(f_n(x)\ge f_{n+1}(x)\) for all \(x\) and \(n\). Equivalently, for each fixed \(x\in X\), the numerical sequence \((f_n(x))\) is a [[real-analysis/monotone-sequence|monotone sequence]].
+and it is **monotone decreasing** if \(f_n(x)\ge f_{n+1}(x)\) for all \(x\) and \(n\). Equivalently, for each fixed \(x\in X\), the numerical sequence \((f_n(x))\) is a [[real-analysis/monotone-sequence|monotone sequence]], with the same direction of monotonicity for every point of \(X\).
 
 ## Remarks
 

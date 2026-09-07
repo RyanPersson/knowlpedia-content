@@ -6,7 +6,7 @@ summary = "The canonical KAN factorization of a real reductive Lie group after c
 aliases = ["KAN decomposition", "Iwasawa theorem"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/restricted-root-system", "lie-groups/exponential-map-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

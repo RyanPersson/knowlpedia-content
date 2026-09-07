@@ -6,7 +6,7 @@ summary = "An automorphic representation of GL_n formed as the Langlands quotien
 aliases = ["isobaric sum", "Langlands isobaric sum", "boxplus of automorphic representations"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "algebra-fields-galois/adeles-restricted-product", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "algebra-fields-galois/adeles-restricted-product", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup", "langlands/strong-multiplicity-one-theorem"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

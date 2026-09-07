@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "A [[functional-analysis/bounded-linear-operator|bounded operator]] that commutes with its adjoint."
 aliases = ["normal operator", "normal operators"]
 domains = ["quantum-foundations", "linear-algebra", "analysis"]
-prerequisites = ["linear-algebra/operator-invariant-subspace"]
+prerequisites = ["quantum-foundations/bounded-operator-hilbert"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -17,7 +17,7 @@ g(\dot\gamma,\dot\gamma)\leq 0
 \]
 and \(\dot\gamma\) lies in the chosen future cone. A **past-directed causal curve** is defined using the past cone. Either is called a **causal curve**.
 
-A causal curve is **timelike** if \(g(\dot\gamma,\dot\gamma)<0\) wherever its tangent is nonzero, and **null** if \(g(\dot\gamma,\dot\gamma)=0\). Definitions using locally Lipschitz curves impose the same condition almost everywhere and include the piecewise-smooth curves used here.
+A causal curve is **timelike** if its tangent is nonzero and \(g(\dot\gamma,\dot\gamma)<0\) wherever the tangent exists, and **null** if its tangent is nonzero and \(g(\dot\gamma,\dot\gamma)=0\). Definitions using locally Lipschitz curves impose the same condition almost everywhere and include the piecewise-smooth curves used here.
 
 Future-directed causal and timelike curves define the [[differential-geometry/chronological-and-causal-future|causal and chronological relations]] on spacetime.
 

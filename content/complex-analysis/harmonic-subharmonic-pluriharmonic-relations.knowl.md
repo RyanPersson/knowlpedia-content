@@ -48,7 +48,7 @@ with zero trace is zero. Hence a harmonic PSH function has vanishing
 [[complex-analysis/levi-form|Levi form]] and is pluriharmonic. The same
 conclusion holds without smoothness by distributional regularity.
 
-For the inclusions, restrict a harmonic or plurisubharmonic function to each complex line. The restriction of a harmonic function is subharmonic, giving \(H\subseteq SH\), while the definition of PSH requires subharmonicity on every such line, giving \(PSH\subseteq SH\). Vanishing Levi form is locally equivalent to \(u=\operatorname{Re}h\) for [[differential-geometry/holomorphic-map|holomorphic]] \(h\), which is pluriharmonic; mollification gives the distributional version. In one complex dimension the Levi trace is the planar Laplacian, so the classes collapse as stated.
+For the inclusions, a harmonic function has zero real Laplacian and hence is subharmonic on the underlying real domain, giving \(H\subseteq SH\). A plurisubharmonic function is subharmonic on that real domain because its Levi matrix is positive semidefinite and four times its trace is the real Laplacian, giving \(PSH\subseteq SH\). (Restricting a real-harmonic function to an arbitrary complex line would not, by itself, prove the first inclusion.) Vanishing Levi form is locally equivalent to \(u=\operatorname{Re}h\) for [[differential-geometry/holomorphic-map|holomorphic]] \(h\), which is pluriharmonic; mollification gives the distributional version. In one complex dimension four times the Levi trace is the planar Laplacian, so the classes collapse as stated.
 
 ## Separating examples
 

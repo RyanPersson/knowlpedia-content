@@ -6,7 +6,7 @@ summary = "A compact Lie group always admits a bi-invariant Riemannian metric by
 aliases = ["compact-lie-group-bi-invariant-metric", "Bi-invariant metrics on compact Lie groups"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/compact-lie-group-bi-invariant-metric.md"
-prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "lie-groups/bi-invariant-metric", "lie-groups/adjoint-action-of-a-lie-group", "harmonic-analysis/haar-measure"]
+prerequisites = ["lie-groups/compact-lie-group", "lie-groups/lie-algebra", "lie-groups/bi-invariant-metric", "lie-groups/adjoint-action-of-a-lie-group", "harmonic-analysis/haar-measure", "linear-algebra/inner-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

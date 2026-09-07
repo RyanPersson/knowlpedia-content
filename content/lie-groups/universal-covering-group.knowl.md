@@ -6,7 +6,7 @@ summary = "A simply connected covering Lie group of a connected Lie group, uniqu
 aliases = ["universal-covering-group", "Universal covering group"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/universal-covering-group.md"
-prerequisites = ["lie-groups/lie-group-homomorphism", "lie-groups/covering-lie-group"]
+prerequisites = ["lie-groups/lie-group-homomorphism", "lie-groups/covering-lie-group", "lie-groups/simply-connected-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

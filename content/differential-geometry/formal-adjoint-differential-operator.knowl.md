@@ -6,7 +6,7 @@ summary = "The formal adjoint is the differential operator obtained by transferr
 aliases = ["formal adjoint"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/bundle-metric", "differential-geometry/differential-operator-vector-bundles"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/complex-vector-bundle", "fiber-bundles/bundle-metric", "differential-geometry/differential-operator-vector-bundles", "fiber-bundles/section-of-a-fiber-bundle", "real-analysis/integration-by-parts"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

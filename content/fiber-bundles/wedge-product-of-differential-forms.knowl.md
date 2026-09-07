@@ -6,9 +6,9 @@ summary = "An alternating product that combines a k-form and an ℓ-form into a 
 aliases = ["wedge-product-of-differential-forms", "Wedge product of differential forms"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/wedge-product-of-differential-forms.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/tangent-space-at-a-point"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/tangent-space-at-a-point", "shared-foundations/finite-permutation", "shared-foundations/permutation-sign", "shared-foundations/factorial"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **wedge product** is the canonical bilinear product on the graded algebra of [[fiber-bundles/differential-k-form|differential forms]].
@@ -20,10 +20,21 @@ For \(\alpha \in \Omega^k(M)\) and \(\beta \in \Omega^\ell(M)\), their **wedge p
 \alpha_p\!\bigl(v_{\sigma(1)},\dots,v_{\sigma(k)}\bigr)\,
 \beta_p\!\bigl(v_{\sigma(k+1)},\dots,v_{\sigma(k+\ell)}\bigr),
 \]
-for all \(p\in M\) and \(v_1,\dots,v_{k+\ell}\in T_pM\).
+where \(S_{k+\ell}\) is the set of [[shared-foundations/finite-permutation|permutations]] of \(k+\ell\) symbols, \(\operatorname{sgn}\) is the [[shared-foundations/permutation-sign|permutation sign]], and \(k!\) and \(\ell!\) are [[shared-foundations/factorial|factorials]]. The formula holds for all \(p\in M\) and \(v_1,\dots,v_{k+\ell}\in T_pM\).
 
 ## Equivalent characterizations
-Equivalently, \((\alpha\wedge\beta)_p\) is the alternation of the tensor product \(\alpha_p\otimes \beta_p\).
+If alternation is normalized by
+\[
+\operatorname{Alt}(T)(v_1,\ldots,v_r)
+=\frac1{r!}\sum_{\sigma\in S_r}\operatorname{sgn}(\sigma)
+T(v_{\sigma(1)},\ldots,v_{\sigma(r)}),
+\]
+then the same convention gives
+\[
+(\alpha\wedge\beta)_p
+=\frac{(k+\ell)!}{k!\ell!}\operatorname{Alt}(\alpha_p\otimes\beta_p).
+\]
+Here the tensor product evaluates by multiplying the value of \(\alpha_p\) on the first \(k\) arguments by that of \(\beta_p\) on the last \(\ell\).
 
 ## Examples
 1. **Coordinate 1-forms on \(\mathbb{R}^3\).**

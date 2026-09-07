@@ -6,7 +6,7 @@ summary = "The octonionic Hermitian matrix of mixed Dirac derivatives of a real-
 aliases = ["octonionic Hessian matrix", "Hessian over the octonions"]
 domains = ["complex-analysis", "octonionic-analysis", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = ["nonassociative-algebra/octonionic-spin-factor", "complex-analysis/cauchy-fueter-operators", "linear-algebra/matrix"]
+prerequisites = ["nonassociative-algebra/octonionic-spin-factor", "linear-algebra/matrix"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

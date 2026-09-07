@@ -6,7 +6,7 @@ summary = "A point where the first derivative of a scalar function vanishes"
 aliases = ["critical-point", "Critical point"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/critical-point.md"
-prerequisites = ["real-analysis/frechet-derivative"]
+prerequisites = ["topology/open-set", "real-analysis/frechet-derivative", "real-analysis/gradient"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

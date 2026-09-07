@@ -6,7 +6,7 @@ summary = "Between any two real numbers there is a rational number."
 aliases = ["density-of-q", "Density of the Rationals"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/density-of-q.md"
-prerequisites = []
+prerequisites = ["real-analysis/archimedean-property", "real-analysis/order-axioms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "Subgroups of G containing N correspond to subgroups of the quotient G
 aliases = ["correspondence-theorem-groups", "Correspondence Theorem (Groups)"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/correspondence-theorem-groups.md"
-prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/subgroup", "shared-foundations/preimage"]
+prerequisites = ["algebra-groups/group", "algebra-groups/normal-subgroup", "algebra-groups/subgroup", "algebra-groups/quotient-group", "shared-foundations/preimage"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

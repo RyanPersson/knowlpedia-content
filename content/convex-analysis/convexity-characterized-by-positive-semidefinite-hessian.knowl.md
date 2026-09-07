@@ -6,7 +6,7 @@ summary = "A C^2 function on an open convex set is convex iff its Hessian is pos
 aliases = ["convexity-characterized-by-positive-semidefinite-hessian", "Convexity characterized by positive semidefinite Hessian"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/convexity-characterized-by-positive-semidefinite-hessian.md"
-prerequisites = ["convex-analysis/nonnegative-positive-semidefinite-operator", "convex-analysis/convexity-via-nonnegative-second-derivative", "linear-algebra/matrix"]
+prerequisites = ["convex-analysis/nonnegative-positive-semidefinite-operator", "convex-analysis/convexity-via-nonnegative-second-derivative", "real-analysis/hessian-matrix"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

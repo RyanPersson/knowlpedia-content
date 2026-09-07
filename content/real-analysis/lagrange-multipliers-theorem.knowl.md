@@ -6,7 +6,7 @@ summary = "Constrained extrema give critical points of a Lagrangian under a regu
 aliases = ["lagrange-multipliers-theorem", "Lagrange multipliers theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/lagrange-multipliers-theorem.md"
-prerequisites = ["topology/open-set"]
+prerequisites = ["topology/open-set", "real-analysis/class-ck-map", "real-analysis/constraint-set", "real-analysis/local-extremum", "real-analysis/regular-point"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

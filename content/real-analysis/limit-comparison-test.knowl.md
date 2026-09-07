@@ -6,7 +6,7 @@ summary = "Two positive series with asymptotically proportional terms converge o
 aliases = ["limit-comparison-test", "Limit Comparison Test"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/limit-comparison-test.md"
-prerequisites = ["real-analysis/series"]
+prerequisites = ["real-analysis/series", "real-analysis/convergent-series", "topology/convergent-sequence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

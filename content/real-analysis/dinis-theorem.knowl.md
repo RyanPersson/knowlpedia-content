@@ -6,7 +6,7 @@ summary = "On a compact space, monotone pointwise convergence of continuous func
 aliases = ["dinis-theorem", "Dini's theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/dinis-theorem.md"
-prerequisites = ["topology/topological-space", "topology/continuous-map", "real-analysis/pointwise-convergence", "real-analysis/uniform-convergence"]
+prerequisites = ["topology/topological-space", "topology/compact-set", "topology/continuous-map", "real-analysis/pointwise-convergence", "real-analysis/monotone-sequence-of-functions", "real-analysis/uniform-convergence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

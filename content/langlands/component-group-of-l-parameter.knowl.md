@@ -6,7 +6,7 @@ summary = "The finite group of connected components of the dual-group centralize
 aliases = ["Langlands component group", "Arthur component group", "A_phi", "S_phi"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["langlands/local-l-parameter", "algebra-groups/centralizer", "langlands/langlands-dual-group", "langlands/l-packet"]
+prerequisites = ["langlands/local-l-parameter", "algebra-groups/centralizer", "langlands/langlands-dual-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

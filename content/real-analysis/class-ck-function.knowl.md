@@ -6,7 +6,7 @@ summary = "A function with continuous derivatives up to order k."
 aliases = ["class-ck-function", "Class C^k function"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/class-ck-function.md"
-prerequisites = ["shared-foundations/function"]
+prerequisites = ["shared-foundations/function", "real-analysis/interval", "real-analysis/higher-derivatives"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

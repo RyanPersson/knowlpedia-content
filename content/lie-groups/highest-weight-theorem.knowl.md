@@ -6,7 +6,7 @@ summary = "Finite-dimensional irreducibles of a semisimple Lie algebra are class
 aliases = ["highest-weight-theorem", "Highest-weight theorem"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/highest-weight-theorem.md"
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/highest-weight-representation", "lie-groups/highest-weight"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/simple-root", "lie-groups/highest-weight-representation", "lie-groups/highest-weight"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

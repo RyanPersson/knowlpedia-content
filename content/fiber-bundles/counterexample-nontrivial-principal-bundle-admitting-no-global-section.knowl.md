@@ -6,15 +6,15 @@ summary = "Illustration of the fact that a principal bundle is trivial exactly w
 aliases = ["counterexample-nontrivial-principal-bundle-admitting-no-global-section", "Nontrivial principal bundle with no global section"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/trivial-principal-bundle-mgm"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/trivial-principal-bundle-mgm", "fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]].
+The [[fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle|Hopf bundle]] \(S^3\to S^2\) is a nontrivial principal \(U(1)\)-bundle with no global [[fiber-bundles/section-of-a-fiber-bundle|smooth section]]. A section would trivialize it as \(S^2\times U(1)\), which cannot be diffeomorphic to \(S^3\): their fundamental groups are \(\mathbb Z\) and \(0\), respectively.
 
 ## Triviality criterion via sections
-A smooth [[fiber-bundles/section-of-a-fiber-bundle|global section]] \(s:M\to P\) (so \(\pi\circ s=\mathrm{id}_M\)) trivializes \(P\):
+For a [[fiber-bundles/principal-g-bundle|principal bundle]] \(\pi:P\to M\), a smooth [[fiber-bundles/section-of-a-fiber-bundle|global section]] \(s:M\to P\) (so \(\pi\circ s=\mathrm{id}_M\)) trivializes \(P\):
 
 - Define
   \[

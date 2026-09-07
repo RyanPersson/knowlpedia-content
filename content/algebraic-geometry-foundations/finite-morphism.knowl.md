@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "A scheme morphism that is affine and is locally induced by a ring map making the target a finite module over the source."
 aliases = ["finite-morphism", "Finite morphism"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebra-rings/ring-homomorphism"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/affine-scheme", "algebra-rings/ring-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

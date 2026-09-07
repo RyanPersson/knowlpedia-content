@@ -6,7 +6,7 @@ summary = "The ideal of all nilpotent elements of a commutative ring."
 aliases = ["nilradical"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/nilradical.md"
-prerequisites = ["algebra-rings/nilpotent-element", "algebra-rings/radical-of-ideal"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/nilpotent-element", "algebra-rings/radical-of-ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

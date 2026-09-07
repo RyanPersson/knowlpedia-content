@@ -6,9 +6,9 @@ summary = "The vector bundle whose fiber over each point is the dual space of th
 aliases = ["dual-vector-bundle", "Dual vector bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/dual-vector-bundle.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/local-trivialization", "linear-algebra/linear-map"]
 dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 3
+dependency_review_count = 4
 +++
 
 Let \(\pi:E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]] (real or complex) over a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **dual vector bundle** of \(E\) is the vector bundle
@@ -19,11 +19,11 @@ defined fiberwise by
 \[
 E_x^* := \mathrm{Hom}_{\mathbb F}(E_x,\mathbb F),
 \]
-with smooth structure characterized by the property that any [[fiber-bundles/local-trivialization|local trivialization]] \(E|_U\cong U\times \mathbb F^r\) induces a local trivialization
+with smooth structure characterized by the property that any fiberwise-linear [[fiber-bundles/local-trivialization|local trivialization]] \(E|_U\cong U\times \mathbb F^r\) induces a local trivialization
 \[
 E^*|_U \cong U\times (\mathbb F^r)^*
 \]
-via fiberwise duality.
+by sending a [[linear-algebra/linear-map|linear functional]] on a fiber to its expression in those linear coordinates.
 
 ## Functoriality
 

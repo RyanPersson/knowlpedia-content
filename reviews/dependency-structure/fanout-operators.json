@@ -1,0 +1,2218 @@
+{
+  "reviews": [
+    {
+      "id": "operator-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ec450390b66afd9a9f6c81f03f8b6c9a7f77d2362743cc5c262fade2367999d",
+      "evidence": "Complete section read: this is navigation only; its zero prerequisite list is appropriate because the linked knowls are a catalog, not defining inputs.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "operator-algebras/natural-positive-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b830d097f95d456f1b0244381a64703f349316a9740b54bd60fa53f95596b7dd",
+      "evidence": "Complete source and direct targets read: for a concrete von Neumann algebra M with a cyclic and separating vector \u03a9, Tomita polar decomposition S=J\u0394^(1/2) supplies \u0394 and J; the norm closure of {\u0394^(1/4)x\u03a9:x\u2208M_+} is the stated closed cone. The distinction from M_+ and the self-duality claims preserve the representation hypotheses.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator",
+        "operator-algebras/modular-operator",
+        "operator-algebras/modular-conjugation"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator",
+        "operator-algebras/modular-operator",
+        "operator-algebras/modular-conjugation"
+      ]
+    },
+    {
+      "id": "operator-algebras/noncommutative-lp-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0285e443f590d7e1125f963ada61392376512d1a8576abe47ffbe67b2b502818",
+      "evidence": "Complete source and direct targets read: Haagerup L^p uses an n.s.f. weight to form the modular crossed product N, its dual action \u03b8, the canonical trace \u03c4, and \u03c4-measurable affiliated operators; the homogeneity \u03b8_s(x)=e^{-s/p}x and 0<p<\u221e are explicit, with L\u221e(M)=M.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-semifinite-faithful-weight",
+        "operator-algebras/continuous-core-von-neumann-algebra",
+        "operator-algebras/von-neumann-crossed-product",
+        "operator-algebras/modular-automorphism-group",
+        "operator-algebras/dual-action-von-neumann-crossed-product",
+        "operator-algebras/tau-measurable-operator"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-semifinite-faithful-weight",
+        "operator-algebras/continuous-core-von-neumann-algebra",
+        "operator-algebras/von-neumann-crossed-product",
+        "operator-algebras/modular-automorphism-group",
+        "operator-algebras/dual-action-von-neumann-crossed-product",
+        "operator-algebras/tau-measurable-operator"
+      ]
+    },
+    {
+      "id": "operator-algebras/nondegenerate-cstar-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e563223a91a3008a5fd57032b8df7e189b09dec08ce1238192c41d1c8fdf2882",
+      "evidence": "Complete source and direct targets read: the closure of \u03c0(A)H is H, equivalently no nonzero vector is killed by all \u03c0(a); this is a representation-space condition independent of injectivity and correctly relates to nondegenerate multiplier-valued homomorphisms.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-representation",
+        "operator-algebras/nondegenerate-star-homomorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-representation",
+        "operator-algebras/nondegenerate-star-homomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/nondegenerate-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df45f96b3d35a5c5051d5b6514ff6e56583f3084d0a85ae16c226c66feb8cd6c",
+      "evidence": "Complete source and direct targets read: for \u03c6:A\u2192M(B), closure of span \u03c6(a)b=B is the nonunital definition, while \u03c0(A)H\u0304=H is the representation case; the multiplier algebra is needed for the codomain and no unitality is assumed.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-homomorphism",
+        "operator-algebras/multiplier-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-homomorphism",
+        "operator-algebras/multiplier-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-completely-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f7bd1518bf83b1fcf99e8cb3de60b6a03a3fc8723628e733a18ea48f2719e1b",
+      "evidence": "Complete source and direct targets read: M,N are von Neumann algebras and \u03a6 is simultaneously completely positive (all matrix amplifications positive) and normal (ultraweak continuity, equivalently bounded increasing-net preservation); unitality and multiplicativity are correctly excluded.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/completely-positive-map",
+        "operator-algebras/normal-linear-map",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/completely-positive-map",
+        "operator-algebras/normal-linear-map",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-conditional-expectation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e9cad033c12bb500cb16c01c33567f09e7a88d06f9f6e70f5d48dd0d9bfba60",
+      "evidence": "Complete source and direct targets read: for unital N\u2282M, E is a conditional expectation and normal positive map, so positivity, norm-one projection onto N, N-bimodularity, and preservation of bounded increasing suprema are all stated; faithfulness is correctly not assumed.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/conditional-expectation",
+        "operator-algebras/normal-positive-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/conditional-expectation",
+        "operator-algebras/normal-positive-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d366488620ab6f3eccbd8002c281e1eeb25ea9773383337f6b9c53d7b71c703a",
+      "evidence": "Complete source and direct targets read: a bounded functional on a von Neumann algebra is normal exactly when ultraweakly continuous, equivalently an element of the canonical predual; the scalar normal-map formulation and distinction from arbitrary C*-functionals are consistent.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/ultraweak-topology",
+        "operator-algebras/predual",
+        "operator-algebras/normal-linear-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/ultraweak-topology",
+        "operator-algebras/predual",
+        "operator-algebras/normal-linear-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cdc6048bbea4fc8ced403f717ccc9ef1dbe818c24c89f34c30c14adf923e1875",
+      "evidence": "Complete source and direct targets read: for von Neumann algebras M,N, ultraweak continuity is equivalent to a unique bounded preadjoint N_*\u2192M_* with the displayed pairing; this checks the topology, boundedness, and dual-direction hypotheses.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/predual",
+        "linear-algebra/linear-map",
+        "operator-algebras/ultraweak-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/predual",
+        "linear-algebra/linear-map",
+        "operator-algebras/ultraweak-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42308af00050f4bcff338f9112649cde9303604bf2fffb1ee06de79ee2ebab9c",
+      "evidence": "Complete source and direct targets read: positivity \u03a6(M_+)\u2282N_+ plus normality gives preservation of bounded increasing positive suprema; no unitality, faithfulness, or complete positivity is silently added, and boundedness follows from the unital domain.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/positive-linear-map",
+        "operator-algebras/normal-linear-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/positive-linear-map",
+        "operator-algebras/normal-linear-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d3057d0840545c101c4458d09f8fae5ff0109254d352db602833aa2c2eed893",
+      "evidence": "Complete source and direct targets read: a representation M\u2192B(H) of a von Neumann algebra is normal precisely as a normal star-homomorphism, i.e. ultraweakly continuous; the optional nondegeneracy/unitality convention is clearly separated.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/cstar-representation",
+        "operator-algebras/normal-star-homomorphism",
+        "operator-algebras/ultraweak-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/cstar-representation",
+        "operator-algebras/normal-star-homomorphism",
+        "operator-algebras/ultraweak-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-semifinite-faithful-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e299acbbd1d0fb51b39afe48b021094a5146880268abbb5c506701f07079992",
+      "evidence": "Complete source and direct targets read: the weight is defined on M_+ and the three independent conditions are normality on increasing nets, semifiniteness/order density of finite elements, and faithfulness; extended values correctly prevent treating it as a bounded state.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra",
+        "operator-algebras/normal-weight",
+        "operator-algebras/semifinite-weight",
+        "operator-algebras/faithful-weight"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra",
+        "operator-algebras/normal-weight",
+        "operator-algebras/semifinite-weight",
+        "operator-algebras/faithful-weight"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99843e19d0b43011d202b1919dd5aa16267d31369f39b4479efd65eaa85a3ba0",
+      "evidence": "Complete source and direct targets read: for von Neumann algebras, a star-homomorphism is normal as a linear map exactly when it has the bounded preadjoint \u03c9\u21a6\u03c9\u2218\u03c0; unitality and injectivity are correctly independent.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/star-homomorphism",
+        "operator-algebras/normal-linear-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/star-homomorphism",
+        "operator-algebras/normal-linear-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-state",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd531052d0715d9076e04f89e7ec0fc3811b26a9421c5a185f13295927b6d370",
+      "evidence": "Complete source and direct targets read: a state on a von Neumann algebra is normal exactly when it is a normal functional, equivalently a positive norm-one predual element; the bounded increasing-net criterion and independence from faithfulness/purity are explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/predual",
+        "operator-algebras/positive-linear-functional"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/predual",
+        "operator-algebras/positive-linear-functional"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-unital-completely-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "73ae2457705b1371e0830394fbc4eec83cc58c7bdf568d484ee49db2423eb733",
+      "evidence": "Complete source and direct targets read: for unital von Neumann algebras, normal UCP means ultraweak continuity, complete positivity, and \u03a6(1)=1; the three conditions and the nonmultiplicative possibility are correctly distinguished.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/normal-completely-positive-map",
+        "operator-algebras/unital-completely-positive-map",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/linear-map",
+        "operator-algebras/normal-completely-positive-map",
+        "operator-algebras/unital-completely-positive-map",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "operator-algebras/normal-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76682b8f19c70b0f957db3dcafbdc2e1ceb0092f5bae6f11c0c9856e2618dd99",
+      "evidence": "Complete source and direct targets read: a weight on M_+ is normal when it preserves suprema of increasing positive nets; the net formulation, extended-value domain, and separate faithfulness/semifiniteness requirements are maintained.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra",
+        "measure-theory/continuity-from-below-measure",
+        "operator-algebras/normal-functional",
+        "operator-algebras/positive-linear-functional"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra",
+        "measure-theory/continuity-from-below-measure",
+        "operator-algebras/normal-functional",
+        "operator-algebras/positive-linear-functional"
+      ]
+    },
+    {
+      "id": "operator-algebras/nuclear-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c3953f3833ffcfa7fea8cdd289fe433d2efa710e5024e428eebc63e6ac0c8498",
+      "evidence": "Complete source and direct targets read: nuclearity is stated for every C*-algebra B via uniqueness of the tensor norm, equivalently max=min; no unitality/separability is imposed, and the CPAP, permanence, and group examples are presented as consequences.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/cstar-tensor-norm",
+        "operator-algebras/maximal-cstar-tensor-product",
+        "operator-algebras/minimal-cstar-tensor-product"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/cstar-tensor-norm",
+        "operator-algebras/maximal-cstar-tensor-product",
+        "operator-algebras/minimal-cstar-tensor-product"
+      ]
+    },
+    {
+      "id": "operator-algebras/nuclear-implies-exact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee42dba7234ddc4b6d8a6f851419dada309c8e4d826d67e782cb1eedc4c4f012",
+      "evidence": "Complete source and direct targets read: the theorem assumes nuclear A and a short exact C*-sequence, then asserts exactness of the minimal tensor sequence; the proof idea uses CP approximations and matrix exactness, while strictness is correctly illustrated by C_r*(F2).",
+      "previous_prerequisites": [
+        "operator-algebras/nuclear-cstar-algebra",
+        "operator-algebras/exact-cstar-algebra",
+        "operator-algebras/cstar-exact-sequence",
+        "operator-algebras/maximal-cstar-tensor-product"
+      ],
+      "prerequisites": [
+        "operator-algebras/nuclear-cstar-algebra",
+        "operator-algebras/exact-cstar-algebra",
+        "operator-algebras/cstar-exact-sequence",
+        "operator-algebras/maximal-cstar-tensor-product"
+      ]
+    },
+    {
+      "id": "operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c65a877a70f290129889c25d4c51bc89227ea155a207e088f8fd7194b77f757",
+      "evidence": "Complete source and direct targets read: for a discrete group \u0393, Lance\u2019s equivalence uses invariant-mean amenability and the reduced algebra generated by the left regular representation; the discrete hypothesis and nuclearity/tensor-norm meaning are explicit.",
+      "previous_prerequisites": [
+        "harmonic-analysis/invariant-mean",
+        "operator-algebras/reduced-group-cstar-algebra",
+        "algebra-representation-theory/regular-representation",
+        "harmonic-analysis/amenable-locally-compact-group"
+      ],
+      "prerequisites": [
+        "harmonic-analysis/invariant-mean",
+        "operator-algebras/reduced-group-cstar-algebra",
+        "algebra-representation-theory/regular-representation",
+        "harmonic-analysis/amenable-locally-compact-group"
+      ]
+    },
+    {
+      "id": "operator-algebras/operator-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "875f7f5e9652304164d1e78e916d293c95ea00c9f830197f3408c667b336c00b",
+      "evidence": "Complete source and direct targets read: for positive bounded T on a Hilbert space, Tr(T) is the basis-independent supremum of finite sums of diagonal coefficients; finite value gives trace class, and the later cyclicity claims are restricted to trace-class products.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthonormal-basis",
+        "real-analysis/partial-sums"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthonormal-basis",
+        "real-analysis/partial-sums"
+      ]
+    },
+    {
+      "id": "operator-algebras/operator-valued-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa90e88d0a024ca22abff19f55b282a03570e8084a39bc4d9be33128bd031fed",
+      "evidence": "Complete source and targets read: for unital von Neumann N\u2282M, T maps M_+ into the extended positive cone of N and satisfies additivity, positive homogeneity, and positive N-bimodularity; extended or infinite values are allowed and normality/faithfulness/semifiniteness are not assumed.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/extended-positive-cone"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/extended-positive-cone"
+      ]
+    },
+    {
+      "id": "operator-algebras/opposite-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97db5ae93c077be6728929c53a9eb2e485119222d6a0eddf8399730e85961b4f",
+      "evidence": "Complete source and targets read: A^op keeps the complex vector space, norm, and involution while reversing multiplication; the C*-identity is preserved, and the canonical product-reversing map is correctly distinguished from an algebra homomorphism.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/vector-space",
+        "algebra-rings/opposite-ring",
+        "algebra-modules/algebra-homomorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/vector-space",
+        "algebra-rings/opposite-ring",
+        "algebra-modules/algebra-homomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/order-unit-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8648aa985f6335b4f136f81aca275d5d6c6c6e343b2829404b62ccead5698b15",
+      "evidence": "Complete source and targets read: the real vector space, proper convex cone, order unit domination, and Archimedean condition are all in the core; the infimum formula gives the associated order-unit norm with no unmentioned algebraic structure.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "operator-algebras/order-zero-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "451a147dde5cca06285bb5bfd78f5da429a859e38893125e0e17e59d80b351e0",
+      "evidence": "Complete source and targets read: a completely positive map A\u2192B is order zero exactly when orthogonal positive a,b (ab=0) map to orthogonal positives; contractivity and multiplicativity are correctly excluded.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/completely-positive-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/completely-positive-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/positive-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "04c502e9c05ef52b6c9afd2318bbba8696e4d66060b6d36766396d7abdafd13e",
+      "evidence": "Complete source and targets read: for a C*-algebra the spectral, b*b, and self-adjoint-square descriptions of A_+ agree; closure, convexity, properness, and the induced self-adjoint order are correctly stated.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "operator-algebras/positive-cone-of-predual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f11caa31840b03243721501cd6c235250307f97fa0b4f64942153a74102d97fe",
+      "evidence": "Complete source and targets read: for M with predual M_*, positivity is tested on M_+, producing the norm-closed proper generating cone of normal functionals and its order; all ambient duality inputs are listed.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/predual",
+        "operator-algebras/positive-cone",
+        "operator-algebras/normal-functional"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/predual",
+        "operator-algebras/positive-cone",
+        "operator-algebras/normal-functional"
+      ]
+    },
+    {
+      "id": "operator-algebras/positive-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c49b369b24da48f0c1b4d6656f6d66074f04280d4b6598eda8fa473acd96275",
+      "evidence": "Complete source and targets read: positivity combines self-adjointness with nonnegative spectrum, equivalently b*b and the unique positive square root; the statement explicitly covers unital and nonunital C*-algebras.",
+      "previous_prerequisites": [
+        "operator-algebras/self-adjoint-element",
+        "functional-analysis/banach-algebra-spectrum",
+        "operator-algebras/continuous-functional-calculus"
+      ],
+      "prerequisites": [
+        "operator-algebras/self-adjoint-element",
+        "functional-analysis/banach-algebra-spectrum",
+        "operator-algebras/continuous-functional-calculus"
+      ]
+    },
+    {
+      "id": "operator-algebras/positive-linear-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33b7a0de32c6c57f20caad45cb7ea74322a033530fb3315beafb2b6b78d5700b",
+      "evidence": "Complete source and targets read: a complex-linear functional is positive on A_+ (equivalently b*b), which yields *-preservation and boundedness; norm equals \u03c6(1) only in the unital case, and state normalization is separate.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-cone"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-cone"
+      ]
+    },
+    {
+      "id": "operator-algebras/positive-linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ffdacc587faf4c5993ebcb86f3bdabf7fc2583b9551cb70cf5eb74cfcaed44d4",
+      "evidence": "Complete source and targets read: positivity maps A_+ into B_+, forces *-preservation, and for unital A gives bounded norm ||\u03a6(1)||; matrix-level positivity and multiplicativity are correctly not assumed.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-cone",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-cone",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/positive-negative-parts",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2631e82d4117a7086a1a4ffa507ca9ddb2007cb9860218d4e65ff6c6cae54a3",
+      "evidence": "Complete source and targets read: for self-adjoint a, |a|=(a\u00b2)^(1/2) yields positive a_+,a_- with a=a_+\u2212a_-, orthogonality, and uniqueness in C*(a); the square-root and self-adjoint inputs are sufficient.",
+      "previous_prerequisites": [
+        "operator-algebras/self-adjoint-element",
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/self-adjoint-element",
+        "operator-algebras/cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/positive-square-root",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a69b94b020231afdfb6557c67d6e25f36dba7e79f13310ec71e8eed463ddd5ae",
+      "evidence": "Complete source and targets read: every positive element in a C*-algebra has a unique positive square root in C*(a), obtained by continuous calculus on the nonnegative spectrum; nonpositive roots are correctly excluded.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-element",
+        "operator-algebras/continuous-functional-calculus"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-element",
+        "operator-algebras/continuous-functional-calculus"
+      ]
+    },
+    {
+      "id": "operator-algebras/predual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9e95787487b0498e6ca1f3f0b62d175b3a2dd74109095ce00c7d1462b0abf8a",
+      "evidence": "Complete source and targets read: M_* is the Banach space of ultraweakly continuous functionals with M=(M_*)*, and \u03c3(M,M_*) is the ultraweak topology; the concrete trace-class realization is correctly deferred to a later section.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/banach-space",
+        "functional-analysis/weak-star-topology",
+        "operator-algebras/ultraweak-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/banach-space",
+        "functional-analysis/weak-star-topology",
+        "operator-algebras/ultraweak-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/primitive-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe351f099647e37f5f4fb0bfb4e655b4e72fd6050c0ad8ff7a722dec558b27bd",
+      "evidence": "Complete source and targets read: a primitive ideal is a proper closed two-sided ideal equal to ker \u03c0 for a nonzero irreducible C*-representation; the quotient and pure-state consequences preserve the faithfulness distinction.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/irreducible-cstar-representation"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/irreducible-cstar-representation"
+      ]
+    },
+    {
+      "id": "operator-algebras/primitive-ideal-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4343ead5e9fa72f96c8bf9fd3aed7a248b11f9ac42266d99583c362bf597f75b",
+      "evidence": "Complete source and targets read: Prim(A) is the set of primitive ideals with hull-kernel topology, whose closed sets hull(I) come from closed two-sided ideals; the closure formula uses the correct intersection.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/primitive-ideal",
+        "operator-algebras/hull-kernel-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/primitive-ideal",
+        "operator-algebras/hull-kernel-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/projection-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77b97c4a0e50753cef213c29636d139800e5a1b3c214a39839cf092fdefd7f64",
+      "evidence": "Complete source and targets read: a projection is p=p*=p\u00b2 in any unital or nonunital C*-algebra; zero is allowed, while representation, spectral, and Murray\u2013von Neumann facts are clearly consequences.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-rings/idempotent-element"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "algebra-rings/idempotent-element"
+      ]
+    },
+    {
+      "id": "operator-algebras/properly-infinite-projection",
+      "outcome": "corrected",
+      "source_sha256": "b64eedbdfd9ea742188d62c5f4979c3d5959eb258e3ce00e376d085b8dab865e",
+      "evidence": "Complete source and targets read: after correcting the missing p\u22600 hypothesis, two orthogonal subprojections each Murray\u2013von Neumann equivalent to p define proper infiniteness and imply infiniteness; the converse is properly restricted.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/orthogonal-projection",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "operator-algebras/infinite-projection"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/orthogonal-projection",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "operator-algebras/infinite-projection"
+      ]
+    },
+    {
+      "id": "operator-algebras/properly-infinite-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a0b1d2fdf45331b2d47e6cf00383141f4c1762e14867f89c58728c07e05ab46",
+      "evidence": "Complete source and targets read: proper infiniteness of a von Neumann algebra is proper infiniteness of 1, expressed by two orthogonal ranges of isometries in M; this is stronger than mere infiniteness and all projection hypotheses are explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/orthogonal-projection",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "operator-algebras/infinite-projection"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/orthogonal-projection",
+        "operator-algebras/murray-von-neumann-equivalence",
+        "operator-algebras/infinite-projection"
+      ]
+    },
+    {
+      "id": "operator-algebras/pure-state-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fbf16ef49f92bfc7148cd86c25d2156849be96bb6c0f2474aad67e8b89032cab",
+      "evidence": "Complete source and targets read: a state is pure exactly when every convex decomposition with 0<t<1 is trivial; the criterion is geometric and does not silently impose normality or faithfulness.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/state-space"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/state-space"
+      ]
+    },
+    {
+      "id": "operator-algebras/pure-state-irreducible-gns",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "daf34598157b3996e4cad6bfea6ddc0f204be8e1ea77c935e997febc19984a0f",
+      "evidence": "Complete source and targets read: for a state and its GNS triple, extremality in the state space is equivalent to irreducibility of the cyclic representation; neither conclusion includes faithfulness.",
+      "previous_prerequisites": [
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/gns-construction",
+        "operator-algebras/pure-state-cstar-algebra",
+        "operator-algebras/irreducible-cstar-representation"
+      ],
+      "prerequisites": [
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/gns-construction",
+        "operator-algebras/pure-state-cstar-algebra",
+        "operator-algebras/irreducible-cstar-representation"
+      ]
+    },
+    {
+      "id": "operator-algebras/quasi-equivalent-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd1afb97fad3dcb506dd7b07c1523f9c94a1171444114c96d470a127381b0f57",
+      "evidence": "Complete source and targets read: representations of one C*-algebra are quasi-equivalent when the assignment on images extends to a normal *-isomorphism between generated von Neumann algebras with normal inverse; the kernel and weak-limit implications are correctly qualified.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-representation",
+        "operator-algebras/von-neumann-algebra-generated-by-representation",
+        "operator-algebras/normal-star-homomorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-representation",
+        "operator-algebras/von-neumann-algebra-generated-by-representation",
+        "operator-algebras/normal-star-homomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/quasicentral-approximate-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02ebe33db267860a23f1a776b77e22edf3395a15455a588ead2791f6c41e0f8b",
+      "evidence": "For a closed ideal I in C*-algebra A, the core requires a positive contractive approximate identity for I and norm commutation with every a\u2208A; the ambient-algebra dependence is explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/approximate-identity"
+      ],
+      "prerequisites": [
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/approximate-identity"
+      ]
+    },
+    {
+      "id": "operator-algebras/quotient-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "29b442b0ec3a46eae49ed54dbcbd4703fad54c34458021672d73e4ea442c9ae6",
+      "evidence": "The core constructs A/I from a closed two-sided ideal with quotient involution and infimum norm, and explicitly verifies completeness, C*-identity, surjection, and kernel.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal"
+      ]
+    },
+    {
+      "id": "operator-algebras/reduced-crossed-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db3b0122d94f1aaa9804fd2e22dfe23e6b31456d22473f41ea9f9a94a02d65be",
+      "evidence": "The reduced crossed product uses a C*-dynamical system, faithful nondegenerate \u03c0, and its regular covariant representation on L\u00b2(G,H); norm completion and independence of \u03c0 are stated.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-dynamical-system",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "operator-algebras/regular-covariant-representation"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-dynamical-system",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "operator-algebras/regular-covariant-representation"
+      ]
+    },
+    {
+      "id": "operator-algebras/reduced-group-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9544d579194f5afd84097ecf66a67c088613577942cc524c8457b2c09c4ba2ee",
+      "evidence": "For locally compact G, the left regular representation integrates L\u00b9(G) and its operator-norm closure defines C*r(G); the reduced norm and kernel quotient are correctly distinguished.",
+      "previous_prerequisites": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "harmonic-analysis/l1-group-algebra",
+        "algebra-representation-theory/regular-representation"
+      ],
+      "prerequisites": [
+        "topology/locally-compact-group",
+        "harmonic-analysis/regular-representations-locally-compact-group",
+        "harmonic-analysis/l1-group-algebra",
+        "algebra-representation-theory/regular-representation"
+      ]
+    },
+    {
+      "id": "operator-algebras/regular-covariant-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50bdded48fd6a47c808f72bcb75e14a8728586c5a7f09bc76762c6e7e2233f0a",
+      "evidence": "The formulas on L\u00b2(G,H) use \u03b1_{s\u22121}, left Haar measure, and left translations; the covariance identity and faithfulness condition for the reduced norm have the correct conventions.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-dynamical-system",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "harmonic-analysis/haar-measure",
+        "harmonic-analysis/regular-representations-locally-compact-group"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-dynamical-system",
+        "operator-algebras/nondegenerate-star-homomorphism",
+        "harmonic-analysis/haar-measure",
+        "harmonic-analysis/regular-representations-locally-compact-group"
+      ]
+    },
+    {
+      "id": "operator-algebras/regular-operator-hilbert-cstar-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d610d0cc175f9fa05370f9a78cac8350461a3460c78766ade129c643d47c73b7",
+      "evidence": "A densely defined A-linear operator on a Hilbert C*-module is regular when closed, adjoint densely defined, and Ran(1+T*T) dense; self-adjointness includes domain equality.",
+      "previous_prerequisites": [
+        "operator-algebras/hilbert-cstar-module",
+        "functional-analysis/densely-defined-operator"
+      ],
+      "prerequisites": [
+        "operator-algebras/hilbert-cstar-module",
+        "functional-analysis/densely-defined-operator"
+      ]
+    },
+    {
+      "id": "operator-algebras/rieffel-induction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69a93eb131408d7c394cfd0904a496696edd29a54416f683b2aa6ede9b93d541",
+      "evidence": "Given a C*-correspondence and nondegenerate \u03c0 of B, the induced A-action on E\u2297\u03c0H is well defined through balancing, quotient completion, and adjointable left action.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "operator-algebras/nondegenerate-cstar-representation",
+        "operator-algebras/internal-tensor-product-correspondences",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "operator-algebras/nondegenerate-cstar-representation",
+        "operator-algebras/internal-tensor-product-correspondences",
+        "linear-algebra/inner-product"
+      ]
+    },
+    {
+      "id": "operator-algebras/sakai-characterization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aeae88f3f332573cf50fa45501718eedd540fab5a3866aa17146c181cab4ef70",
+      "evidence": "Sakai\u2019s equivalence is stated for a C*-algebra being a Banach dual, yielding its canonical predual and faithful normal concrete representation; the W*-algebra conclusion has the necessary dual-space hypothesis.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/banach-space",
+        "operator-algebras/predual",
+        "operator-algebras/normal-representation",
+        "operator-algebras/von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/banach-space",
+        "operator-algebras/predual",
+        "operator-algebras/normal-representation",
+        "operator-algebras/von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/section-algebra-cstar-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8d333875bbf759f7a6e483068076d8e436d9cfb72996d82ed612f47892c27c3",
+      "evidence": "For an upper-semicontinuous C*-bundle over locally compact Hausdorff X, \u0393\u2080 consists of continuous sections vanishing at infinity; pointwise operations and sup norm give a complete C*-algebra.",
+      "previous_prerequisites": [
+        "operator-algebras/upper-semicontinuous-cstar-bundle",
+        "topology/locally-compact-space",
+        "topology/hausdorff-space",
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/upper-semicontinuous-cstar-bundle",
+        "topology/locally-compact-space",
+        "topology/hausdorff-space",
+        "operator-algebras/cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/self-adjoint-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf888dba9fc2f7fe3699758d2c9132baa05fcb2301e227ee3730591fd5595e42",
+      "evidence": "The core defines a*=a and checks the real vector-space decomposition; the concrete Hilbert-space interpretation is conditional and does not burden the abstract definition.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/semifinite-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9ab3db89ea2558db3b51ca41df9898b9b49af0e047d395fb874645b4ffa9a40",
+      "evidence": "Semifiniteness is correctly defined by every nonzero projection dominating a nonzero finite projection, with equivalent supremum and central-summand formulations and type III exclusion.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/finite-projection"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/finite-projection"
+      ]
+    },
+    {
+      "id": "operator-algebras/semifinite-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa6ab92fd4e3d0b52075866df59e8fa2b84855465ea903008800418e88356e84",
+      "evidence": "A weight on M is semifinite when finite positive elements are order-dense; the equivalent ultraweak density of its left ideal and independence from faithfulness/normality are correctly stated.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra",
+        "operator-algebras/ultraweak-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra",
+        "operator-algebras/ultraweak-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/separating-vector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d311adf5f44659eea7ba336438c999c6d7f3bc08a66d171d150c60e4d0dfba7",
+      "evidence": "For M\u2282B(H), \u03be is separating exactly when x\u03be=0 implies x=0; the injective evaluation-map formulation and distinction from representation faithfulness are correct.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/sigma-unital-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27977ce550fc02d8b748eb28016421bc925b7dd18b8a05672074bc832b91d625",
+      "evidence": "\u03c3-unitality is correctly the existence of a sequential positive contractive approximate identity converging on both sides, with no topology conflation.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/approximate-identity"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/approximate-identity"
+      ]
+    },
+    {
+      "id": "operator-algebras/singular-state",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3137566583c251d90b043dd35382f8d0d16aa15b18f8df7e57e4915dbc38a7cd",
+      "evidence": "A state on a von Neumann algebra is singular when every dominated normal positive functional vanishes; the source distinguishes this from merely non-normal mixtures.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/normal-state"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/normal-state"
+      ]
+    },
+    {
+      "id": "operator-algebras/spatial-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d895ef483ea0c6d67e9d74176af2b5bfd87d99e983facc57b8ed29eaa16cca52",
+      "evidence": "The spatial derivative core supplies M, a normal semifinite \u03c6, an n.s.f. \u03a8 on M\u2032, \u03a8-bounded vectors, the closed quadratic form, and the unique positive self-adjoint operator representing it.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/semifinite-weight",
+        "operator-algebras/normal-semifinite-faithful-weight",
+        "operator-algebras/commutant",
+        "functional-analysis/closed-quadratic-form"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/semifinite-weight",
+        "operator-algebras/normal-semifinite-faithful-weight",
+        "operator-algebras/commutant",
+        "functional-analysis/closed-quadratic-form"
+      ]
+    },
+    {
+      "id": "operator-algebras/spectral-mapping-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "119ac777cfd85314e19b5c7949c2ae1e494a951acacd87b211127aa1b1bcadd2",
+      "evidence": "The Banach-algebra theorem assumes a unital algebra, spectrum, and holomorphic calculus; the C*-normal continuous-calculus variant is separately qualified, preserving both domains.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "functional-analysis/holomorphic-functional-calculus-banach-algebra"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "functional-analysis/holomorphic-functional-calculus-banach-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/spectral-permanence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "175b3a2ea6acc336fc4ecbacf400ad1a4023086e8bcf74c53aa32f1c1cf16588",
+      "evidence": "For a same-unit unital C*-subalgebra B\u2282A, spectra and inverses agree; compatible unitizations correctly handle nonunital inclusions.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-subalgebra",
+        "functional-analysis/banach-algebra-spectrum"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-subalgebra",
+        "functional-analysis/banach-algebra-spectrum"
+      ]
+    },
+    {
+      "id": "operator-algebras/standard-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46ddf19d587e761fec0b08ea6e8263691736dc863b6102b1b8be390ad5226dad",
+      "evidence": "The standard-form core includes faithful nondegenerate M\u2282B(H), antiunitary involution J, closed self-dual cone P, commutant relation, fixed-cone and positivity conditions, and the center relation.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/natural-positive-cone",
+        "operator-algebras/modular-conjugation",
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/natural-positive-cone",
+        "operator-algebras/modular-conjugation",
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "id": "operator-algebras/standard-form-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f85f2e9072eb2bf5b6340bf812d4f133a63c9fa89bcc64d5ea94abe4aab8cb4",
+      "evidence": "For standard forms of M,N, a normal *-isomorphism has a unique cone-preserving implementing unitary, which also intertwines modular conjugations; normality and full standard-form data are required.",
+      "previous_prerequisites": [
+        "operator-algebras/standard-form",
+        "operator-algebras/von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/standard-form",
+        "operator-algebras/von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/standard-hilbert-cstar-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1725d29010e5899ebe25d67d331b389618d5ba76b95bc2af97211df53f40d19e",
+      "evidence": "The standard module \u2113\u00b2(A) is defined by norm convergence of positive partial sums, with norm-convergent A-valued inner product and completion of finitely supported sequences.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "real-analysis/partial-sums",
+        "operator-algebras/hilbert-cstar-module"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "real-analysis/partial-sums",
+        "operator-algebras/hilbert-cstar-module"
+      ]
+    },
+    {
+      "id": "operator-algebras/star-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9833a6bb78debaf1dca5020a153df79271662fea40bd33379092e4d91cf5e78",
+      "evidence": "A *-automorphism is a bijective complex-linear multiplicative *-map A\u2192A; inverse and composition properties are included, while external continuity is not assumed.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-isomorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-isomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69586d8ce4a2c9cdf07c14296fd61b501c86c43486ad7675221778bc7225d2de",
+      "evidence": "The core gives complex-linearity, multiplication, and involution preservation for maps between C*-algebras; unitality, zero maps, and ideal inclusions are correctly treated as separate cases.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/star-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ce75cc4aa3e869df0dee18163f3e13eeb2b76df15daabf9e8b1c95a86d9f2863",
+      "evidence": "A *-isomorphism is a bijective *-homomorphism, whose inverse preserves all structure; the underlying normed-vector-space isomorphism is explicitly insufficient as a definition.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-homomorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-homomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/state-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a6975701660b3120f3882bc41bbdce83b630ace9418040588f9ee6d4edd1a16e",
+      "evidence": "A state is a norm-one positive functional, with \u03c6(1)=1 only in the unital case; the core correctly separates general C*-states from normal states on von Neumann algebras.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-linear-functional"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-linear-functional"
+      ]
+    },
+    {
+      "id": "operator-algebras/state-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b884c925dcf04b4fb3cc052fa503f429f6a0c3d7038c8dcdfa5e7324cefc449c",
+      "evidence": "The state space is the positive norm-one functionals with weak-* topology; compactness is correctly limited to unital A and the nonunital norm\u22641 compact set is identified.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "convex-analysis/convex-set",
+        "functional-analysis/weak-star-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "convex-analysis/convex-set",
+        "functional-analysis/weak-star-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/states-separate-positive-elements",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd4b6b7299fd77aa7443d6941829c2e0e0376ae52cee9cdc756f9c5dad4f0fab",
+      "evidence": "For nonzero possibly nonunital A, the core states norm attainment by a state on each positive a and the resulting separation/equivalent positivity criterion.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/positive-element"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/positive-element"
+      ]
+    },
+    {
+      "id": "operator-algebras/stinespring-dilation-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3cbc478fda8c8d72b64215971f93abf0f22e40d10dff873e9d17c3425ed10f98",
+      "evidence": "For unital A and CP \u03a6:A\u2192B(H), the core supplies K, unital \u03c0, bounded V, \u03a6(a)=V*\u03c0(a)V, minimal uniqueness, and the UCP isometry consequence.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/completely-positive-map",
+        "operator-algebras/cstar-representation"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/completely-positive-map",
+        "operator-algebras/cstar-representation"
+      ]
+    },
+    {
+      "id": "operator-algebras/strict-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa393e7ac8c10cc1fa0b9042b495a28573ad2960c69f40011413fa478c31fe0a",
+      "evidence": "The strict topology on M(A) is generated by left/right multiplication seminorms against the essential ideal A; net convergence and norm comparison are explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/multiplier-algebra",
+        "operator-algebras/essential-ideal"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/multiplier-algebra",
+        "operator-algebras/essential-ideal"
+      ]
+    },
+    {
+      "id": "operator-algebras/strictly-positive-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3a7b12f27fed41d903d60e88ee00dd1b3a6b2645b60361e69984ab66d70d34e",
+      "evidence": "Strict positivity is defined by closure of hAh=A and equivalent positivity on every nonzero positive functional; nonunital noninvertibility is correctly flagged.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-element",
+        "operator-algebras/hereditary-cstar-subalgebra",
+        "operator-algebras/positive-linear-functional"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-element",
+        "operator-algebras/hereditary-cstar-subalgebra",
+        "operator-algebras/positive-linear-functional"
+      ]
+    },
+    {
+      "id": "operator-algebras/strong-morita-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "43300676289ad70ed78d53de79411d68db042ad3d928d0e9fbfdfe852b33ddf6",
+      "evidence": "Strong Morita equivalence is exactly existence of an A\u2013B imprimitivity bimodule, with both C*-algebras and the bimodule as required inputs.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/imprimitivity-bimodule"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/imprimitivity-bimodule"
+      ]
+    },
+    {
+      "id": "operator-algebras/strong-operator-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "614915a21377cb5d2007215d3fea6dfc1160f1863038d0bfd3a5cadc702cc75e",
+      "evidence": "SOT on B(H) is generated by p\u03be(T)=||T\u03be||, so nets converge pointwise in norm; the finite-neighborhood and comparison statements use the correct topology.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "functional-analysis/topology-generated-by-seminorms"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "functional-analysis/topology-generated-by-seminorms"
+      ]
+    },
+    {
+      "id": "operator-algebras/strong-star-operator-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8181efd773b4e3d273d34ad243380dd6806548cb350d7fa070cabf2fee9ae20",
+      "evidence": "Strong-* topology uses simultaneous norm control of T\u03be and T*\u03be on Hilbert space; inheritance by von Neumann subalgebras and refinement of SOT are correct.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/strong-operator-topology"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/strong-operator-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/support-projection-of-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b343059e73434343e0709ff5d0edc1783f51a3f4947bcd77344b183a50d2e931",
+      "evidence": "For a positive normal functional on M, the least projection with \u03c6(p)=\u03c6(1) equals one minus the supremum of zero projections; s(0)=0 and corner faithfulness are correctly scoped.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/projection-cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/projection-cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/takai-duality",
+      "outcome": "corrected",
+      "source_sha256": "93cc6b1ee71732062ab54c5432adea2d6f9fd2ccdc199b99b33e92616674bb5b",
+      "evidence": "For a locally compact abelian G acting on A, double crossed product by the dual action is canonically A\u2297K(L\u00b2(G)); the corrected group target and stabilization caveat match the theorem.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-dynamical-system",
+        "operator-algebras/dual-action-crossed-product",
+        "operator-algebras/compact-operator-cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-dynamical-system",
+        "operator-algebras/dual-action-crossed-product",
+        "operator-algebras/compact-operator-cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/tau-compact-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3bfdbb76c7196ce1c6030e26431e306b8d59d072831e6533243119a5d6cefac4",
+      "evidence": "For a semifinite M with faithful normal semifinite \u03c4, \u03c4-compact operators are the norm-closed ideal generated by finite-\u03c4 projection corners; dependence on \u03c4 is explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "algebra-rings/two-sided-ideal"
+      ],
+      "prerequisites": [
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "algebra-rings/two-sided-ideal"
+      ]
+    },
+    {
+      "id": "operator-algebras/tau-measurable-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "866850816d27e7024a000bb80b09fd870bf08e921db7e116376b0923a269d5ea",
+      "evidence": "A closed densely defined operator affiliated with M is \u03c4-measurable when its domain contains projections e with \u03c4(1\u2212e)<\u03b5; the trace and affiliation hypotheses are explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "operator-algebras/affiliated-operator"
+      ],
+      "prerequisites": [
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "operator-algebras/affiliated-operator"
+      ]
+    },
+    {
+      "id": "operator-algebras/toeplitz-pimsner-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62c027186e25653062465225c0a6f2d1b5444214d37fa681e56319c4d80d637a",
+      "evidence": "The Toeplitz\u2013Pimsner algebra is universal for Toeplitz representations of a C*-correspondence, with the unique induced homomorphism and no Cuntz\u2013Pimsner covariance imposed.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "operator-algebras/universal-cstar-algebra",
+        "operator-algebras/toeplitz-representation-cstar-correspondence"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "operator-algebras/universal-cstar-algebra",
+        "operator-algebras/toeplitz-representation-cstar-correspondence"
+      ]
+    },
+    {
+      "id": "operator-algebras/toeplitz-representation-cstar-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d6c5a1485c5748fddfd7deb70a3e66b916fb23f3ead3bf54f333b6235f4489f8",
+      "evidence": "The three Toeplitz representation identities correctly encode right-module, left-action, and inner-product compatibility; injectivity, nondegeneracy, and Cuntz covariance are not assumed.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "linear-algebra/linear-map",
+        "operator-algebras/star-homomorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-correspondence",
+        "linear-algebra/linear-map",
+        "operator-algebras/star-homomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/tomita-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "51db70b50018773d4c1c14d9d207eb1a5c3b481cfa7b4dce4bc8f0cc9189fda6",
+      "evidence": "For cyclic-separating \u03a9, S\u2080(x\u03a9)=x*\u03a9 is well defined on dense M\u03a9, closable, and its closure is the closed Tomita operator; both vector hypotheses are used.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector"
+      ]
+    },
+    {
+      "id": "operator-algebras/tomita-takesaki-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7bf71dfadbdc6e60b7aa6e300474bf0aa85f3ee48fa8cc6a813428c37e33d570",
+      "evidence": "The cyclic-separating representation supplies Tomita S and its polar factors J,\u0394; the theorem\u2019s commutant equality and modular invariance are stated for all real t, with strong continuity.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator",
+        "operator-algebras/modular-conjugation",
+        "operator-algebras/modular-operator",
+        "operator-algebras/commutant"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/cyclic-vector",
+        "operator-algebras/separating-vector",
+        "operator-algebras/tomita-operator",
+        "operator-algebras/modular-conjugation",
+        "operator-algebras/modular-operator",
+        "operator-algebras/commutant"
+      ]
+    },
+    {
+      "id": "operator-algebras/trace-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85aecea9cd0f4382b084f5706c0df79ab61b9ed41fd8888aff80109a3c99a573",
+      "evidence": "A bounded positive functional \u03c4 on a C*-algebra is tracial exactly when \u03c4(ab)=\u03c4(ba); norm-one gives a tracial state, while extended tracial weights are explicitly separated.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-linear-functional",
+        "operator-algebras/tracial-weight"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/positive-linear-functional",
+        "operator-algebras/tracial-weight"
+      ]
+    },
+    {
+      "id": "operator-algebras/tracial-noncommutative-lp-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e52be90121993c8ab9fbcf63f83a30e377480d1eccfd3bdd77b0595f189c0b9b",
+      "evidence": "For an n.s.f. trace \u03c4 and 0<p<\u221e, \u03c4-measurable affiliated operators with finite \u03c4(|x|^p) form Lp; the p-norm/quasinorm and L\u221e convention have correct completeness ranges.",
+      "previous_prerequisites": [
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "operator-algebras/tau-measurable-operator",
+        "linear-algebra/operator-norm"
+      ],
+      "prerequisites": [
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "operator-algebras/tau-measurable-operator",
+        "linear-algebra/operator-norm"
+      ]
+    },
+    {
+      "id": "operator-algebras/tracial-state",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06eb723ca76bfcb0c5a9c9489353928d172100d7dc3da533ba563c86670505a5",
+      "evidence": "A tracial state is a norm-one C*-state satisfying cyclic two-factor invariance; unital and nonunital normalization conventions are correctly distinguished.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/trace-cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/trace-cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/tracial-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4eb6733f692126078a4f32f82f48d8bab6ac1ffa53bd0625fc7677c85b303421",
+      "evidence": "A weight on M_+ is tracial when \u03c4(x*x)=\u03c4(xx*) in extended reals; normality, semifiniteness, faithfulness, and finiteness are correctly left independent.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weight-on-von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/transformation-group-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "17688eec66c883f03b4f451fdeab55a0c3b6a2a20268e40298d07784d1febb7c",
+      "evidence": "For locally compact Hausdorff X and locally compact G acting continuously, \u03b1_s(f)(x)=f(s\u207b\u00b9x) defines the transformation crossed product; full and reduced versions are distinguished.",
+      "previous_prerequisites": [
+        "topology/locally-compact-space",
+        "topology/locally-compact-group",
+        "operator-algebras/full-crossed-product"
+      ],
+      "prerequisites": [
+        "topology/locally-compact-space",
+        "topology/locally-compact-group",
+        "operator-algebras/full-crossed-product"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-classification-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "968d9f8c5f80e8e515aa61c98be08af2a64e8525dea0bc31812873d2eaebc03a",
+      "evidence": "The theorem decomposes any von Neumann algebra into unique orthogonal central I, II, III summands summing to 1, explicitly allowing zero summands.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/type-i-von-neumann-algebra",
+        "operator-algebras/type-ii-von-neumann-algebra",
+        "operator-algebras/type-iii-von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/type-i-von-neumann-algebra",
+        "operator-algebras/type-ii-von-neumann-algebra",
+        "operator-algebras/type-iii-von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-composition-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ae703e6947ab660a67afcc195d00ca2bd7331ebe1ae0a6dc06bf9bc104b92711",
+      "evidence": "The definition gives an ordinal filtration by closed ideals, closure at limits, strict successors, and continuous-trace subquotients; it does not assume finite Jordan\u2013H\u00f6lder length.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/continuous-trace-cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/continuous-trace-cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ece6d03fc9bd4a4ca715efb38e386a7918ec2ad31441b48ed9b68174e0f29086",
+      "evidence": "The GCR/type-I condition is correctly stated for every irreducible representation by containment of K(H\u03c0) in \u03c0(A), including nonunital algebras and distinguishing von Neumann type I.",
+      "previous_prerequisites": [
+        "operator-algebras/irreducible-cstar-representation",
+        "operator-algebras/compact-operator-cstar-algebra",
+        "operator-algebras/von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/irreducible-cstar-representation",
+        "operator-algebras/compact-operator-cstar-algebra",
+        "operator-algebras/von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c7596268e934ee869ff2c4c3f94bf97ca79218f44dfada4ec68e51b9db3c6fe6",
+      "evidence": "A von Neumann factor is type I when it contains a nonzero abelian projection; factoriality makes central support one and the B(K) classification follows.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-i-von-neumann-algebra",
+        "operator-algebras/abelian-projection",
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-i-von-neumann-algebra",
+        "operator-algebras/abelian-projection",
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-factor-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "14108f3e63b56e35fdf3baeb8e25a35075894c4253293639194082be0bda6071",
+      "evidence": "A nondegenerate C*-representation is type-I-factor when \u03c0(A)\u2032\u2032 is both a von Neumann type-I algebra and a factor; the bicommutant supplies the generated algebra.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/cstar-representation",
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/type-i-factor",
+        "operator-algebras/bicommutant"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/cstar-representation",
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/type-i-factor",
+        "operator-algebras/bicommutant"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-ideal-quotient-stability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "646fa16c5bc5a45e3ab666cc76b4ad20945a1af4832a8766dd7a46621cecea3e",
+      "evidence": "For a type-I C*-algebra and closed ideal I, both I and A/I remain type I; the short exact sequence and absence of separability/unitality restrictions are explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/type-i-cstar-algebra",
+        "operator-algebras/cstar-exact-sequence"
+      ],
+      "prerequisites": [
+        "operator-algebras/closed-two-sided-ideal",
+        "operator-algebras/type-i-cstar-algebra",
+        "operator-algebras/cstar-exact-sequence"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-infinity-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84f7ec0748165e00ecca5ecff5d81bbe92822d6e91fb51a53c8cc7e9b2ffaa38",
+      "evidence": "The I\u221e factor is B(H) for infinite-dimensional H, equivalently identity infinite or infinitely many equivalent minimal projections; arbitrary infinite cardinal dimension is retained.",
+      "previous_prerequisites": [
+        "operator-algebras/type-i-factor",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/infinite-projection",
+        "operator-algebras/minimal-projection"
+      ],
+      "prerequisites": [
+        "operator-algebras/type-i-factor",
+        "linear-algebra/hilbert-space",
+        "operator-algebras/infinite-projection",
+        "operator-algebras/minimal-projection"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-n-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "81bf6b344ace8cead547154a13d3951a72226374a2da70a71763d136eedecd84",
+      "evidence": "For integer n\u22651, I_n is a type-I factor isomorphic to M_n(C), equivalently having n equivalent minimal projections; finiteness and matrix dimension are correctly separated.",
+      "previous_prerequisites": [
+        "operator-algebras/type-i-factor",
+        "operator-algebras/minimal-projection",
+        "operator-algebras/finite-von-neumann-algebra",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "operator-algebras/type-i-factor",
+        "operator-algebras/minimal-projection",
+        "operator-algebras/finite-von-neumann-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-i-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9caa43dc42b59a67ba4b3053debe1483fb41ce6692997a8e05764714b84802e7",
+      "evidence": "Type I is defined for general von Neumann algebras by abelian projections below every nonzero central projection; the central-support equivalence does not impose factoriality.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/abelian-projection",
+        "operator-algebras/central-support"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/abelian-projection",
+        "operator-algebras/central-support"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-ii-infinity-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89840ba3d6439c1abf5badc1cb0aba08cdddf9dfa10995fe825d6171602bf5a7",
+      "evidence": "A II\u221e factor combines factoriality, type II, and infinite identity; the finite-projection supply and semifinite trace distinguish it from type III and II\u2081.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-ii-von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-ii-von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-ii-one-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f2241eb97e7c1b0277a7b5198f79835fb71b882804fe2e5142819c5d83cf603",
+      "evidence": "A II\u2081 factor is type II with finite identity, equivalently finite with trivial center; the exclusion of finite-dimensional matrix factors and normalized trace are correct.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-ii-von-neumann-algebra",
+        "operator-algebras/finite-projection",
+        "operator-algebras/finite-von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-ii-von-neumann-algebra",
+        "operator-algebras/finite-projection",
+        "operator-algebras/finite-von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-ii-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad47c8e1bfe5a5df6381478082b0d60e21414c965f851d5cd96fc649c9f5f186",
+      "evidence": "Type II combines semifiniteness with absence of nonzero abelian projections and applies to general algebras; finite projections/traces and the type-I/III distinctions are accurately qualified.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/abelian-projection"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/semifinite-von-neumann-algebra",
+        "operator-algebras/abelian-projection"
+      ]
+    },
+    {
+      "id": "operator-algebras/type-iii-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c95865d428ac4a62008fc2e73fd220ea9be3fc7cf0d13e1bf03ad3d200fd5eaf",
+      "evidence": "A type III factor is simultaneously a von Neumann factor and type III algebra, hence has no nonzero finite projections; the factor and type conditions are separately stated.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-iii-von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-factor",
+        "operator-algebras/type-iii-von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/ultrastrong-star-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d543ed4e6b269a4074492e0b46ecb69e178f18ec5e3cfc079b1ec162e50effd",
+      "evidence": "The \u03c3-strong-* topology is generated by positive normal-functional seminorms involving x*x and xx*, equivalently simultaneous ultrastrong convergence of x and x*.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/ultrastrong-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/normal-functional",
+        "operator-algebras/ultrastrong-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/ultrastrong-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f369720ef7a9e708e39e423f77f90d7ac8f881e122bb745b16f3736e741fd41d",
+      "evidence": "The \u03c3-strong topology on B(H) uses square-summable Hilbert-space sequences in the displayed \u2113\u00b2 seminorm; restriction to concrete von Neumann algebras is correctly described.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "functional-analysis/topology-generated-by-seminorms",
+        "operator-algebras/von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "functional-analysis/topology-generated-by-seminorms",
+        "operator-algebras/von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/unique-predual-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0505e962acaccd63e2a9bd9ea32fdbff4d6b6fbd639885142b318b9c464892e",
+      "evidence": "For a von Neumann algebra, any Banach predual realizing it as a dual identifies isometrically with M_*; hence the weak-* topology \u03c3(M,M*) is intrinsic.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/predual",
+        "linear-algebra/banach-space",
+        "functional-analysis/weak-star-topology"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/predual",
+        "linear-algebra/banach-space",
+        "functional-analysis/weak-star-topology"
+      ]
+    },
+    {
+      "id": "operator-algebras/unital-completely-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74db6095789c2f482b03e1e3dda7a8c6ff445ecd8d113e882225662a8805c68a",
+      "evidence": "A UCP map between unital C*-algebras is completely positive at every matrix level and preserves the identity; multiplicativity, bijectivity, and normality are correctly excluded.",
+      "previous_prerequisites": [
+        "operator-algebras/unital-cstar-algebra",
+        "operator-algebras/completely-positive-map",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "operator-algebras/unital-cstar-algebra",
+        "operator-algebras/completely-positive-map",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "operator-algebras/unital-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2616cda5ad19240820ea6765f5c30e8658011da5898782cf2d9cace7f7ed0f62",
+      "evidence": "Unitality is existence of a two-sided identity in a C*-algebra; the source correctly treats norm/positivity and approximate identities, unitization, and unital morphisms as consequences or additions.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/unital-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27a21c76fc4de6243f4c87774404fe188f01cc3a6f8f07410d482af009c0aa0f",
+      "evidence": "A unital *-homomorphism is a structure-preserving map between unital C*-algebras carrying 1A to 1B; the extra identity condition is clearly separated from *-homomorphism.",
+      "previous_prerequisites": [
+        "operator-algebras/unital-cstar-algebra",
+        "operator-algebras/star-homomorphism"
+      ],
+      "prerequisites": [
+        "operator-algebras/unital-cstar-algebra",
+        "operator-algebras/star-homomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/unitary-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "78681520a4cdddd340e61b173ee2849dd20ecc31f78edd5fd05197da876f2a41",
+      "evidence": "A unitary in a unital C*-algebra satisfies u*u=uu*=1 and is equivalently invertible with inverse u*; nonunital unitization/multiplier conventions are explicit.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/unitary-equivalence-cstar-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "492d53756cd730422a52b32390007f95e0b8bb57101fbc1350317bdce0f98efa",
+      "evidence": "Two representations of the same C*-algebra are unitarily equivalent exactly through a unitary intertwiner; inner-product preservation and distinction from bounded similarity are correct.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-representation",
+        "functional-analysis/unitary-operator",
+        "linear-algebra/inner-product",
+        "shared-foundations/equivalence-relation"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-representation",
+        "functional-analysis/unitary-operator",
+        "linear-algebra/inner-product",
+        "shared-foundations/equivalence-relation"
+      ]
+    },
+    {
+      "id": "operator-algebras/unitization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "390c2eccdfb0944c76ea4d34b2a1a5402514c98271a69a328d16a552bc50b310",
+      "evidence": "For nonunital A, A\u2295C with the displayed operations and canonical C*-norm is the minimal unitization; A is an essential ideal and the universal unital extension property is correct.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "operator-algebras/universal-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e70927b868565e95d485b91893fbbcb1fd51a0a1010b6adf06b95353ea23ed12",
+      "evidence": "Given generators, relations, and a chosen unital/nonunital C*-category, the universal object has unique *-homomorphisms to every realization and is unique up to generator-preserving isomorphism.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/star-homomorphism"
+      ]
+    },
+    {
+      "id": "operator-algebras/universal-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42e4b9fe94b856a97d5dc03f8f2801bf7039aad6d7657748a5c9ffea09391d02",
+      "evidence": "The direct sum of all state GNS representations is faithful and nondegenerate for nonzero A; the source distinguishes this representation-theoretic universal property from a categorical terminal object.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/gns-construction",
+        "operator-algebras/direct-sum-cstar-representations",
+        "operator-algebras/nondegenerate-cstar-representation"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/state-cstar-algebra",
+        "operator-algebras/gns-construction",
+        "operator-algebras/direct-sum-cstar-representations",
+        "operator-algebras/nondegenerate-cstar-representation"
+      ]
+    },
+    {
+      "id": "operator-algebras/upper-semicontinuous-cstar-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8e06aeec3b7c81050e2cd12e33fccc4d878de65ddc69f61468a667ba662e5e63",
+      "evidence": "The bundle core states open projection, C*-algebra fibers, continuous operations, upper-semicontinuous norm, and zero convergence; no local triviality is imposed.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "operator-algebras/cstar-algebra"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "operator-algebras/cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/vector-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e40bb5e6f9a1a1604357141437768291c1a7af6af3a1931ccda0770d11a440a",
+      "evidence": "For concrete M\u2282B(H), \u03c9\u03be,\u03b7(x)=\u27e8x\u03be,\u03b7\u27e9 is bounded normal with the stated norm bound; \u03b7=\u03be gives positivity and a unit vector in a unital representation gives a state.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "operator-algebras/vector-state"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "operator-algebras/vector-state"
+      ]
+    },
+    {
+      "id": "operator-algebras/vector-state",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "939ff4890dbd018e963bba2cdebe5c0b807486e463f402d448735c9b81c6f4fd",
+      "evidence": "A unit vector in a nondegenerate C*-representation yields the normalized positive functional \u27e8\u03c0(a)\u03be,\u03be\u27e9; degeneracy can lower its norm, so the representation hypothesis matters.",
+      "previous_prerequisites": [
+        "operator-algebras/nondegenerate-cstar-representation",
+        "operator-algebras/cstar-representation",
+        "operator-algebras/state-cstar-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/nondegenerate-cstar-representation",
+        "operator-algebras/cstar-representation",
+        "operator-algebras/state-cstar-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa0c0fb8afbc6d76e64f4ad1ecc5a85023c3300e2f4bdc25d2b88f63bf560a72",
+      "evidence": "A concrete von Neumann algebra is a unital self-adjoint subalgebra of B(H) closed in WOT, equivalently SOT-closed or equal to its bicommutant; the abstract W* dual formulation is also scoped.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "operator-algebras/weak-operator-topology",
+        "operator-algebras/strong-operator-topology",
+        "operator-algebras/bicommutant",
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/banach-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "operator-algebras/weak-operator-topology",
+        "operator-algebras/strong-operator-topology",
+        "operator-algebras/bicommutant",
+        "operator-algebras/cstar-algebra",
+        "linear-algebra/banach-space"
+      ]
+    },
+    {
+      "id": "operator-algebras/von-neumann-algebra-generated-by-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5b9e0ff759ee358d26fb619ae9db89866563bc031dd2654bbe0163941b8d4c8",
+      "evidence": "For \u03c0:A\u2192B(H), \u03c0(A)\u2032\u2032 is the smallest generated von Neumann algebra by the bicommutant theorem; nondegeneracy justifies closure of \u03c0(A) itself containing the identity.",
+      "previous_prerequisites": [
+        "operator-algebras/cstar-representation",
+        "operator-algebras/von-neumann-bicommutant-theorem"
+      ],
+      "prerequisites": [
+        "operator-algebras/cstar-representation",
+        "operator-algebras/von-neumann-bicommutant-theorem"
+      ]
+    },
+    {
+      "id": "operator-algebras/von-neumann-bicommutant-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "504f6541a3dd0e1b74bf7b79dfb89b092e4a891b2549d6e2648658db56c54ce6",
+      "evidence": "For a unital self-adjoint A\u2282B(H), SOT closure, WOT closure, and A\u2032\u2032 coincide; the theorem\u2019s topology hypotheses and norm-closure distinction are explicit.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/strong-operator-topology",
+        "operator-algebras/weak-operator-topology",
+        "operator-algebras/bicommutant",
+        "operator-algebras/von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/strong-operator-topology",
+        "operator-algebras/weak-operator-topology",
+        "operator-algebras/bicommutant",
+        "operator-algebras/von-neumann-algebra"
+      ]
+    },
+    {
+      "id": "operator-algebras/von-neumann-crossed-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c78232c41c39ad51586f313b6cd29da689aedcb5243f7987f63dcd5e46fd1df2",
+      "evidence": "For an ultraweakly continuous action of a locally compact G on M, the covariant formulas on L\u00b2(G,H) generate M\u22ca\u03b1G as a bicommutant; left Haar and \u03b1s\u207b\u00b9 conventions give covariance.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "topology/locally-compact-group"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "topology/locally-compact-group"
+      ]
+    },
+    {
+      "id": "operator-algebras/von-neumann-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "64d67a1a9017b78d8d8b4dc1682a76ee5b5f4292aa574d2465d59a38d28287f3",
+      "evidence": "A factor is a von Neumann algebra with scalar center, equivalently only trivial central projections; the definition correctly captures absence of central direct-sum decomposition.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/center-of-von-neumann-algebra"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/center-of-von-neumann-algebra"
+      ]
+    }
+  ],
+  "triage_records": [
+    {
+      "id": "operator-algebras/weak-expectation-property",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "operator-algebras/weak-operator-topology",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "operator-algebras/weak-schatten-ideal",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "operator-algebras/weight-on-von-neumann-algebra",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/almost-commutative-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/analytic-k-homology",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/bounded-transform-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/canonical-spin-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/chern-character-fredholm-module",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/commutative-reconstruction-theorem",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/compact-quantum-metric-space",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/connes-distance",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/cyclic-cohomology",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/delta-derivation",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/dimension-spectrum",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/dirac-operator",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/dirac-type-operator",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/entire-cyclic-cohomology",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/even-fredholm-module",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/even-index-pairing",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/even-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/finitely-summable-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/finiteness-absolute-continuity-axiom",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/first-order-condition",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/fredholm-module",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/hochschild-chain-complex",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/hochschild-cycle",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/hochschild-orientability-axiom",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/jlo-cocycle",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/ko-dimension-signs",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/lipschitz-seminorm-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/local-index-formula",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/metric-dimension",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/noncommutative-integral",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/nonunital-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/odd-fredholm-module",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/odd-index-pairing",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/odd-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/order-zero-condition",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/p-summable-fredholm-module",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/p-summable-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/periodic-cyclic-cohomology",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/pre-cstar-algebra",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/product-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/real-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/real-structure-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/regular-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/semifinite-index-pairing",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/semifinite-local-index-formula",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/semifinite-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/smooth-domain-delta",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/smooth-subalgebra-cstar-algebra",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/spectral-flow",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/spectral-zeta-function",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/tau-summable-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/theta-summable-spectral-triple",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/unbounded-kasparov-module",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "noncommutative-geometry/unitary-equivalence-spectral-triples",
+      "reason": "Full-source and direct-target mathematical review not manually substantiated in this pass; excluded from accepted review count."
+    },
+    {
+      "id": "operator-algebras/type-iii-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06cf450690411e7d0bc8d81044ba69c95baa1a1777fb857921f577c24abda3c9",
+      "evidence": "Type III is correctly the absence of nonzero finite projections, equivalently all nonzero projections infinite; the core distinguishes general central summands from the factor subtype.",
+      "previous_prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/finite-projection",
+        "operator-algebras/infinite-projection",
+        "operator-algebras/von-neumann-factor"
+      ],
+      "prerequisites": [
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/finite-projection",
+        "operator-algebras/infinite-projection",
+        "operator-algebras/von-neumann-factor"
+      ]
+    },
+    {
+      "id": "operator-algebras/ultraweak-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "11f68ce1c86d5e73129609b7e84c3f80f6029b59faf7a9b3bef38e73bd438687",
+      "evidence": "The \u03c3-weak topology is the weak-* topology from trace-class pairings on B(H); the net criterion, sequence factorization, and distinction from Banach weak topology are correct.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "functional-analysis/weak-star-topology"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "operator-algebras/bounded-operator-cstar-algebra",
+        "functional-analysis/weak-star-topology"
+      ]
+    }
+  ]
+}

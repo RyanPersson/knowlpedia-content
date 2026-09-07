@@ -6,7 +6,7 @@ summary = "A sequence of homomorphisms where image equals kernel at each stage"
 aliases = ["exact-sequence-groups", "Exact Sequence of Groups"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/exact-sequence-groups.md"
-prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/image-group", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "shared-foundations/surjective-function", "shared-foundations/injective-function"]
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/image-group", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "algebra-groups/group-isomorphism", "shared-foundations/surjective-function", "shared-foundations/injective-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

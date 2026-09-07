@@ -6,7 +6,7 @@ summary = "Every module embeds into an injective module, hence admits an injecti
 aliases = ["injective-resolutions-exist", "Existence of injective resolutions"]
 domains = ["algebra-homological"]
 legacy_source_path = "algebra-homological/injective-resolutions-exist.md"
-prerequisites = ["algebra-modules/module", "algebra-modules/injective-module"]
+prerequisites = ["algebra-modules/module", "algebra-modules/injective-module", "algebra-homological/injective-resolution", "algebra-homological/cochain-complex", "algebra-homological/exact-complex"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

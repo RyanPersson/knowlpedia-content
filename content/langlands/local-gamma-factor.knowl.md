@@ -6,7 +6,7 @@ summary = "The local functional-equation factor combining epsilon and the ratio 
 aliases = ["gamma factor", "local gamma factor of a representation", "gamma(s,V,psi)"]
 domains = ["langlands", "number-theory", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["langlands/weil-deligne-representation", "algebra-fields-galois/local-field", "algebra-representation-theory/character", "algebra-representation-theory/contragredient-representation"]
+prerequisites = ["langlands/weil-deligne-representation", "algebra-fields-galois/local-field", "algebra-representation-theory/character", "algebra-representation-theory/contragredient-representation", "langlands/local-epsilon-factor"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

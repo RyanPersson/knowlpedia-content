@@ -6,7 +6,7 @@ summary = "A map between Euclidean spaces is differentiable at a point when it h
 aliases = ["differentiable-map", "Differentiable map"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/differentiable-map.md"
-prerequisites = ["linear-algebra/euclidean-norm", "real-analysis/frechet-derivative"]
+prerequisites = ["topology/open-set", "linear-algebra/euclidean-norm", "real-analysis/frechet-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

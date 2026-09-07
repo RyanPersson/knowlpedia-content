@@ -6,7 +6,7 @@ summary = "If gcd(a,n)=1 then a^{φ(n)} ≡ 1 (mod n)."
 aliases = ["eulers-theorem", "Euler's Theorem"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/eulers-theorem.md"
-prerequisites = ["algebra-rings/gcd", "shared-foundations/integers", "algebra-rings/group-of-units", "algebra-groups/lagranges-theorem"]
+prerequisites = ["algebra-rings/gcd", "shared-foundations/integers"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

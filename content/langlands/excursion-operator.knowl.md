@@ -6,7 +6,7 @@ summary = "An operator on cuspidal automorphic forms built by creating shtuka le
 aliases = ["excursion operators", "Lafforgue excursion operator"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/langlands-dual-group", "lie-groups/right-translation", "algebra-fields-galois/galois-extension-and-group", "langlands/automorphic-form"]
+prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/langlands-dual-group", "lie-groups/right-translation", "algebra-fields-galois/galois-extension-and-group", "langlands/automorphic-form", "langlands/partial-frobenius-on-shtukas", "langlands/drinfeld-lemma", "langlands/coalescence-of-shtuka-legs"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

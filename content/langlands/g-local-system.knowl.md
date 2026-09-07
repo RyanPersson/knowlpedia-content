@@ -6,7 +6,7 @@ summary = "A principal G-bundle with flat connection; over the complex numbers, 
 aliases = ["G local system", "principal G-local system"]
 domains = ["langlands", "fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "fiber-bundles/local-system"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/algebraic-curve", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "fiber-bundles/local-system"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "A subset of a spacetime met exactly once by every inextendible timeli
 aliases = ["Cauchy surface"]
 domains = ["differential-geometry", "mathematical-physics", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/globally-hyperbolic-spacetime"]
+prerequisites = ["differential-geometry/lorentzian-manifold", "differential-geometry/causal-curve"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,14 +6,14 @@ summary = "Chern–Weil characteristic classes agree for isomorphic principal bu
 aliases = ["corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes", "Isomorphic principal bundles have the same Chern–Weil classes"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes.md"
-prerequisites = ["fiber-bundles/diffeomorphism", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/diffeomorphism", "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/invariant-polynomial-on-a-lie-algebra", "fiber-bundles/de-rham-cohomology-group"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(P\to M\) and \(P'\to M\) be principal \(G\)-bundles, and let \(\Phi:P\to P'\) be an isomorphism of principal bundles over \(M\) (a \(G\)-equivariant [[fiber-bundles/diffeomorphism|diffeomorphism]] with \(\pi'\circ\Phi=\pi\)).
+Let \(P\to M\) and \(P'\to M\) be principal \(G\)-bundles, and let \(\Phi:P\to P'\) be a [[fiber-bundles/principal-bundle-isomorphism|principal bundle isomorphism]] over \(M\) (a \(G\)-equivariant [[fiber-bundles/diffeomorphism|diffeomorphism]] with \(\pi'\circ\Phi=\pi\)).
 
-For every invariant polynomial \(p\), the corresponding [[fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle|Chern–Weil characteristic class]] satisfies
+For every [[fiber-bundles/invariant-polynomial-on-a-lie-algebra|invariant polynomial]] \(p\), the corresponding [[fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle|Chern–Weil characteristic class]] satisfies
 \[
 \mathrm{cw}_p(P)=\mathrm{cw}_p(P') \in H^{*}_{\mathrm{dR}}(M).
 \]

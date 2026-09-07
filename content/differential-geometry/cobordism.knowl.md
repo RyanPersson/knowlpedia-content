@@ -6,7 +6,7 @@ summary = "A compact manifold whose boundary is identified with a pair of closed
 aliases = ["smooth cobordism", "cobordant manifolds"]
 domains = ["differential-geometry", "topology"]
 section_mode = "progressive"
-prerequisites = ["topology/closed-manifold", "differential-geometry/manifold-with-boundary", "shared-foundations/equivalence-relation"]
+prerequisites = ["topology/closed-manifold", "differential-geometry/manifold-with-boundary", "fiber-bundles/diffeomorphism", "differential-geometry/disjoint-union-of-smooth-manifolds"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

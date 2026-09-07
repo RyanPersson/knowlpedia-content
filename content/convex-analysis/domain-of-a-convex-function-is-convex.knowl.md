@@ -6,7 +6,7 @@ summary = "The effective domain of an extended-real-valued convex function is a 
 aliases = ["domain-of-a-convex-function-is-convex", "Domain of a convex function is convex"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/domain-of-a-convex-function-is-convex.md"
-prerequisites = ["convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/convex-set"]
+prerequisites = ["linear-algebra/vector-space", "convex-analysis/convex-function-via-epigraph", "convex-analysis/domain-and-epigraph-proper-function", "convex-analysis/convex-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

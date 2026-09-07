@@ -6,7 +6,7 @@ summary = "An ideal Q such that ab in Q forces a in Q or a power of b in Q."
 aliases = ["primary-ideal", "Primary ideal"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/primary-ideal.md"
-prerequisites = ["algebra-rings/ideal"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

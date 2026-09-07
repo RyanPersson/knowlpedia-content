@@ -6,7 +6,7 @@ summary = "An adic space locally modeled on perfectoid affinoid algebras."
 aliases = ["perfectoid adic space", "affinoid perfectoid space"]
 domains = ["algebraic-geometry-foundations", "number-theory", "langlands"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/perfectoid-field", "algebraic-geometry-foundations/adic-space", "shared-foundations/surjective-function"]
+prerequisites = ["algebraic-geometry-foundations/perfectoid-field", "algebraic-geometry-foundations/adic-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

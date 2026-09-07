@@ -1,0 +1,983 @@
+{
+  "reviews": [
+    {
+      "id": "mathematical-physics",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4be0055c92e58351ca79a09db916c6af798f2f9a96a5fb5e6ccd0c679ea72428",
+      "evidence": "Section index only; the axiomatic opening fixes the Lorentzian metric, Clifford, and wave-operator sign conventions; no prerequisite is required for navigation.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "mathematical-physics/advanced-and-retarded-green-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8675d4241abd793b0c9c7635ac53763588814702093bfd2334bedcf04ac1aea0",
+      "evidence": "The core defines two-sided maps G±: Γc∞(E)→Γ∞(E), requiring a differential operator on a time-oriented Lorentzian manifold and causal futures/pasts; normal hyperbolicity and global hyperbolicity occur in the existence consequence and are retained as direct applicability inputs.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/chronological-and-causal-future",
+        "mathematical-physics/normally-hyperbolic-operator",
+        "differential-geometry/globally-hyperbolic-spacetime"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/chronological-and-causal-future",
+        "mathematical-physics/normally-hyperbolic-operator",
+        "differential-geometry/globally-hyperbolic-spacetime"
+      ]
+    },
+    {
+      "id": "mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "feefe478af0496e628815e9dea25260c903f91c68d3f032a9746a8f1d5d736f0",
+      "evidence": "The theorem explicitly assumes a normally hyperbolic P, globally hyperbolic spacetime, Cauchy hypersurface Σ, compact source/data, and the connection ∇E; the finite-propagation formula uses all three support sets and J.",
+      "previous_prerequisites": [
+        "mathematical-physics/normally-hyperbolic-operator",
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface",
+        "mathematical-physics/connection-form-of-a-normally-hyperbolic-operator"
+      ],
+      "prerequisites": [
+        "mathematical-physics/normally-hyperbolic-operator",
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface",
+        "mathematical-physics/connection-form-of-a-normally-hyperbolic-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/cauchy-problem-for-the-lorentzian-dirac-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52b459a41a5615d05289a7394a37fa97470f26a1278ab85e606d89d1261abd87",
+      "evidence": "The source problem is Dgψ=f on a globally hyperbolic spacetime with one compact spinor trace on a Cauchy hypersurface; Lorentzian Dirac, global hyperbolicity, Cauchy hypersurface, and the Dirac equation supply the stated operator and interpretation.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-dirac-operator",
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface",
+        "mathematical-physics/dirac-equation"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-dirac-operator",
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface",
+        "mathematical-physics/dirac-equation"
+      ]
+    },
+    {
+      "id": "mathematical-physics/clifford-slash-notation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c3aa40a769b15b2dc699a6eb28ae7780381cbbe38600d967daf1c7ec99975512",
+      "evidence": "The definition applies Clifford multiplication c to v or ξ♯ and derives slash-ξ²=−g−1(ξ,ξ)id; Clifford module/algebra and the metric musical map are direct, while gamma matrices provide the displayed coordinate form.",
+      "previous_prerequisites": [
+        "differential-geometry/clifford-module",
+        "mathematical-physics/gamma-matrices",
+        "differential-geometry/clifford-algebra",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "differential-geometry/clifford-module",
+        "mathematical-physics/gamma-matrices",
+        "differential-geometry/clifford-algebra",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "mathematical-physics/compact-hyperbolic-surface",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "434a522257584ccf60c28f4314ce3fd9c4727b2af62c9b5a13dcd39abecefced",
+      "evidence": "The definition requires a connected compact smooth surface with a Riemannian metric of constant curvature −1; the quotient and dynamical material are consequences, so Riemannian manifold is the sole direct prerequisite.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold"
+      ]
+    },
+    {
+      "id": "mathematical-physics/conformal-coupling-of-a-scalar-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef34bdf5e3d81cf759d09c85f9446dd23971c111afb2eb9df626b3d5f9627303",
+      "evidence": "The core assumes an n≥3 pseudo-Riemannian manifold and scalar curvature, then states Lg=□g+(n−2)Scal/(4(n−1)) and its conformal covariance; both geometric inputs are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/pseudo-riemannian-manifold",
+        "differential-geometry/scalar-curvature"
+      ],
+      "prerequisites": [
+        "differential-geometry/pseudo-riemannian-manifold",
+        "differential-geometry/scalar-curvature"
+      ]
+    },
+    {
+      "id": "mathematical-physics/connection-form-of-a-normally-hyperbolic-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aaa88eadbd1539f2274eff0681c6e6d75c8a0af5effe5d7ccc639478961ba769",
+      "evidence": "The theorem decomposes P into −trg((∇E)²)+B using the Levi–Civita Hessian and identifies its principal symbol; Lorentzian metric, normal hyperbolicity, Levi–Civita connection, and connection wave operator are the defining inputs.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/normally-hyperbolic-operator",
+        "fiber-bundles/levicivita-connection-connection",
+        "differential-geometry/connection-laplacian"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/normally-hyperbolic-operator",
+        "fiber-bundles/levicivita-connection-connection",
+        "differential-geometry/connection-laplacian"
+      ]
+    },
+    {
+      "id": "mathematical-physics/dalembert-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47b4f22d9de135fecf259e4cf85d71f0527515bbe755bc6e5623163a2979d74b",
+      "evidence": "The core defines □g=−trg(∇df), gives the coordinate formula and Minkowski specialization, and identifies the null principal symbol; Lorentzian manifold and Laplace–Beltrami operator supply exactly that construction.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/laplace-beltrami-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/laplace-beltrami-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/dirac-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eec01820bff1453815a8cc245f254fb43c6e7455d8b0b2a7cf2e19531672c585",
+      "evidence": "The free equation (iDM−m)ψ=0 is fixed by Minkowski spacetime, the gamma Clifford relation, and the Minkowski Dirac operator; the Klein–Gordon implication is later and does not alter the definition boundary.",
+      "previous_prerequisites": [
+        "mathematical-physics/minkowski-spacetime",
+        "mathematical-physics/minkowski-dirac-operator",
+        "mathematical-physics/gamma-matrices"
+      ],
+      "prerequisites": [
+        "mathematical-physics/minkowski-spacetime",
+        "mathematical-physics/minkowski-dirac-operator",
+        "mathematical-physics/gamma-matrices"
+      ]
+    },
+    {
+      "id": "mathematical-physics/dirac-klein-gordon-factorization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3387837f131441d18286684e0f4990bbe3cb635c72eb45b1623f4d49644e33e",
+      "evidence": "The displayed product of (iDM±m) uses the Minkowski Dirac operator, constant mass, Clifford anticommutation, and □η; the linked Dirac and Klein–Gordon entries identify the two equations connected by the factorization.",
+      "previous_prerequisites": [
+        "mathematical-physics/minkowski-dirac-operator",
+        "mathematical-physics/dirac-equation",
+        "mathematical-physics/klein-gordon-equation"
+      ],
+      "prerequisites": [
+        "mathematical-physics/minkowski-dirac-operator",
+        "mathematical-physics/dirac-equation",
+        "mathematical-physics/klein-gordon-equation"
+      ]
+    },
+    {
+      "id": "mathematical-physics/klein-gordon-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15fd2f8057ad1fce60789b5ec003ad8dab182994246dc7277c771d2c0d4735e6",
+      "evidence": "The core defines the homogeneous and inhomogeneous Klein–Gordon equations on a Lorentzian manifold, with the operator and mass term supplied by the Lorentzian and Klein–Gordon operator entries; the flat-space dispersion relation is a later specialization.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/klein-gordon-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/klein-gordon-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/existence-of-advanced-and-retarded-green-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "279968bba56992e20307567b9945773233369324e464ec064f9591ff000bd5fd",
+      "evidence": "The theorem assumes a normally hyperbolic operator on a globally hyperbolic spacetime and concludes unique future/past Green operators; the two-sided identities and causal supports are stated explicitly in the core.",
+      "previous_prerequisites": [
+        "mathematical-physics/normally-hyperbolic-operator",
+        "differential-geometry/globally-hyperbolic-spacetime"
+      ],
+      "prerequisites": [
+        "mathematical-physics/normally-hyperbolic-operator",
+        "differential-geometry/globally-hyperbolic-spacetime"
+      ]
+    },
+    {
+      "id": "mathematical-physics/gamma-matrices",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a212544ec85b91c5d0f8c4192f66f8f5632d8ade2eee5bf5fb944605af168e6",
+      "evidence": "Gamma matrices are c(ea) for a Clifford/spinor module over a quadratic space; the anticommutation relation and raised-index formula require the quadratic form, module, Clifford multiplication, and matrix realization.",
+      "previous_prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/spinor-module",
+        "differential-geometry/clifford-module",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/spinor-module",
+        "differential-geometry/clifford-module",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "mathematical-physics/geometric-quantization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "071f52a138be24ff7a00d4a58dab0aacd34e57eef3c196232c2ddd3a040dd111",
+      "evidence": "The procedure starts with a symplectic manifold and prequantum line-bundle data, then imposes a polarization via ∇Xs=0; symplectic manifold and prequantization are the direct construction stages.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "mathematical-physics/prequantization"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "mathematical-physics/prequantization"
+      ]
+    },
+    {
+      "id": "mathematical-physics/georgi-glashow-su5-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7446615eccb9363c924bc4ab9df9ccc0b2019c5cdfefe846314b328616febcb8",
+      "evidence": "The embedding Φ(z,A,B)=diag(z³A,z⁻²B) lands in SU(5) because the block determinant powers cancel; the special block-unitary group and Standard Model gauge group are the source and target structures.",
+      "previous_prerequisites": [
+        "lie-groups/special-block-unitary-group",
+        "mathematical-physics/standard-model-gauge-group"
+      ],
+      "prerequisites": [
+        "lie-groups/special-block-unitary-group",
+        "mathematical-physics/standard-model-gauge-group"
+      ]
+    },
+    {
+      "id": "mathematical-physics/groenewold-van-hove-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f45f5112f93dc4bcf366ed2073f2fe3caa77f32aa05b22959d89d2b51d6d2d5",
+      "evidence": "The no-go statement is about a quantization map on polynomial observables on R²ⁿ, extending affine Schrödinger observables and obeying the exact Dirac bracket; quantization-map is therefore the direct prerequisite.",
+      "previous_prerequisites": [
+        "mathematical-physics/quantization-map"
+      ],
+      "prerequisites": [
+        "mathematical-physics/quantization-map"
+      ]
+    },
+    {
+      "id": "mathematical-physics/hyperbolic-plane-wave",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a8cb0a6c9dc352f1cd424e3533958195ab0c3787ba547b52f9ddfc11fecafbd",
+      "evidence": "The Poisson-kernel formula on the Poincaré disk is an eigenfunction of the hyperbolic Laplacian; the kernel, disk model, and Laplace–Beltrami operator are all used in the displayed construction.",
+      "previous_prerequisites": [
+        "mathematical-physics/hyperbolic-poisson-kernel",
+        "differential-geometry/poincare-disk-model",
+        "differential-geometry/laplace-beltrami-operator"
+      ],
+      "prerequisites": [
+        "mathematical-physics/hyperbolic-poisson-kernel",
+        "differential-geometry/poincare-disk-model",
+        "differential-geometry/laplace-beltrami-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/hyperbolic-poisson-kernel",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b569b282df739f2a3dcd74d9839ff529423db366b9de81eb522ffe97c2a76ba5",
+      "evidence": "The core is a self-contained disk-model formula K(z,ξ)=(1−|z|²)/|z−ξ|² and its boundary-measure role; no external prerequisite is required by the current statement.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "mathematical-physics/hypercharge",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d074bdcd3624834198df0f1ef92af1007180d52086f31f454bb203c5df2b99b6",
+      "evidence": "The definition assigns the U(1) generator/charge within the Standard Model internal gauge group and uses Q=T3+Y/2 in later representation assignments; the gauge-group entry is the direct ambient structure.",
+      "previous_prerequisites": [
+        "mathematical-physics/standard-model-gauge-group"
+      ],
+      "prerequisites": [
+        "mathematical-physics/standard-model-gauge-group"
+      ]
+    },
+    {
+      "id": "mathematical-physics/klein-gordon-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d3b07388ddcd1687cee917526df83cffd09bd380dfc4bce9bdf451ce47dcc28",
+      "evidence": "The core defines Pm=□g+m² and Pm,ξ=□g+m²+ξScal on a Lorentzian manifold, then computes the unchanged null principal symbol and flat dispersion relation; Lorentzian and d’Alembertian are direct inputs, while normal hyperbolicity is a consequence.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/dalembert-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/dalembert-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/laplace-beltrami-eigenfunction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d71d2d8c098646d85890528f871d784f613da22ad04a85585c3a8873018080fa",
+      "evidence": "The definition assumes a Riemannian manifold and states −Δgψ=λψ for nonzero smooth ψ; compact spectral discreteness and semiclassical scaling are later properties, so the two geometric/operator prerequisites match the core.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/laplace-beltrami-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/laplace-beltrami-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/minkowski-dirac-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86921923f730c7234cd0f514c768356779778b7d6514dd039786bbbb7f6ed0cb",
+      "evidence": "The core constructs DM=γμ∂μ on four-dimensional Minkowski space from a constant spinor module and gamma matrices, then derives its square and null characteristic symbol; all three listed prerequisites supply those ingredients.",
+      "previous_prerequisites": [
+        "mathematical-physics/minkowski-spacetime",
+        "mathematical-physics/gamma-matrices",
+        "differential-geometry/dirac-spinor"
+      ],
+      "prerequisites": [
+        "mathematical-physics/minkowski-spacetime",
+        "mathematical-physics/gamma-matrices",
+        "differential-geometry/dirac-spinor"
+      ]
+    },
+    {
+      "id": "mathematical-physics/minkowski-spacetime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cbc4d3957dd5fc3a4e2f56ed974842ea009cea6cedbf1b5bded729fa4368040",
+      "evidence": "The definition equips affine R⁴ with η=−dt²+dx²+dy²+dz² and distinguishes events from displacement vectors; Lorentzian manifold, Minkowski vector space, quadratic form, and time orientation are exactly the ambient data.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "linear-algebra/minkowski-vector-space",
+        "linear-algebra/quadratic-form",
+        "differential-geometry/time-orientation"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "linear-algebra/minkowski-vector-space",
+        "linear-algebra/quadratic-form",
+        "differential-geometry/time-orientation"
+      ]
+    },
+    {
+      "id": "mathematical-physics/normally-hyperbolic-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ee17acab347bdb72a7f5ecdc95eb307d91ecdcf7195146e02113c919eccb646",
+      "evidence": "The defining condition is σ₂(P)(x,ξ)=−g⁻¹(ξ,ξ)id on a vector bundle over a Lorentzian manifold; principal-symbol and Lorentzian-manifold provide the local hypotheses, with global theorems explicitly later.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/principal-symbol"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/principal-symbol"
+      ]
+    },
+    {
+      "id": "mathematical-physics/poincare-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a9fa3550e082b6f7552a2b172409c5713f1ef18769abd45f6d5eea5579490bb",
+      "evidence": "The core gives iso(V,η)=so(V,η)⋉V and bracket [(A,v),(B,w)]=([A,B],Aw−Bv); Lie algebra, Minkowski vector space, and Poincaré group provide the algebraic ambient and interpretation.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/minkowski-vector-space",
+        "lie-groups/poincare-group"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "linear-algebra/minkowski-vector-space",
+        "lie-groups/poincare-group"
+      ]
+    },
+    {
+      "id": "mathematical-physics/prequantization",
+      "outcome": "corrected",
+      "source_sha256": "db67901b1b472b3dde63532bcfe74af282bb619c2f9ea284b3f6c21b2a27105c",
+      "evidence": "The definition requires symplectic (M,ω), a Hermitian line bundle with compatible connection, curvature F=iω/ℏ, and the Kostant–Souriau operator; symplectic, line-bundle, and connection are direct inputs. Quantization-map is an output, not a prerequisite.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "mathematical-physics/quantization-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "mathematical-physics/quantization-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27f2d00d63bb7fd5de9a58fffa5b616781902519d770cd19522f90ef99b7299b",
+      "evidence": "The core specifies a Poisson subalgebra A, dense Hilbert subspace D, symmetric operator values, and the exact Dirac bracket; symplectic/Poisson structures, Hilbert space, and symmetric operators are all required data.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/poisson-algebra-smooth-functions",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/symmetric-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/poisson-algebra-smooth-functions",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/symmetric-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/right-handed-neutrino-gauge-singlet",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "55e62ca5aa95974506a1da058d36bd00b9518b24b3afbad9a7161a29bfb57a84",
+      "evidence": "The definition assigns νR the trivial (1,1)₀ representation of SU(2)L×SU(3)C×U(1)Y; the gauge-group entry supplies the group action, while model-building and exterior-algebra remarks are later.",
+      "previous_prerequisites": [
+        "mathematical-physics/standard-model-gauge-group"
+      ],
+      "prerequisites": [
+        "mathematical-physics/standard-model-gauge-group"
+      ]
+    },
+    {
+      "id": "mathematical-physics/schrodinger-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2e652fa38f8d5eb9ef988bce875bb56fe544325b3ca239df108002927e7ca4c",
+      "evidence": "The core defines V(q,p) on L²(Rⁿ), verifies the Weyl phase using Q and P on a common smooth core, and states strong continuity; Lp space, unitary operators, and Weyl CCR are direct inputs.",
+      "previous_prerequisites": [
+        "measure-theory/lp-space",
+        "functional-analysis/unitary-operator",
+        "mathematical-physics/weyl-ccr-quantization"
+      ],
+      "prerequisites": [
+        "measure-theory/lp-space",
+        "functional-analysis/unitary-operator",
+        "mathematical-physics/weyl-ccr-quantization"
+      ]
+    },
+    {
+      "id": "mathematical-physics/semiclassical-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76914b82dcf5abdde794d5c4232701da61e732323cbbe33afa900b6af7ec0d98",
+      "evidence": "The definition takes an L²-bounded family uh and limits ⟨Op_h(a)uh,uh⟩ against compactly supported symbols to a Radon measure on phase space; classical phase space is the direct ambient prerequisite.",
+      "previous_prerequisites": [
+        "differential-geometry/classical-phase-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/classical-phase-space"
+      ]
+    },
+    {
+      "id": "mathematical-physics/standard-model-exterior-algebra-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6875c8c514bf580209824ead9e8c128589a7925c05df2dde7c959208cb48afbb",
+      "evidence": "The construction restricts the SU(5) exterior action along Φ and decomposes Λᵏ(C²⊕C³) into gauge multiplets; fermion-generation and right-handed-neutrino entries supply the stated physical identification.",
+      "previous_prerequisites": [
+        "mathematical-physics/standard-model-fermion-generation",
+        "mathematical-physics/right-handed-neutrino-gauge-singlet"
+      ],
+      "prerequisites": [
+        "mathematical-physics/standard-model-fermion-generation",
+        "mathematical-physics/right-handed-neutrino-gauge-singlet"
+      ]
+    },
+    {
+      "id": "mathematical-physics/standard-model-gauge-group-as-f4-stabilizer-intersection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ce9a9f3e9839cce1787e7398c15cf08f2fd527e92443c9d98ea3dbf36884f88",
+      "evidence": "The theorem assumes J=h₃(O), F₄ automorphisms, nested X≅h₂(C)⊂B≅h₃(C), and identity-component stabilizers, then identifies their intersection with S(U(2)×U(3)); every listed algebraic/group prerequisite appears in these hypotheses or the equivalent formulation.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "lie-groups/compact-exceptional-lie-group-f4",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "lie-groups/identity-component-of-a-lie-group",
+        "mathematical-physics/standard-model-gauge-group",
+        "nonassociative-algebra/complex-qubit-jordan-algebra",
+        "nonassociative-algebra/complex-qutrit-jordan-algebra"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/exceptional-jordan-algebra",
+        "lie-groups/compact-exceptional-lie-group-f4",
+        "nonassociative-algebra/automorphism-group-of-a-jordan-algebra",
+        "nonassociative-algebra/jordan-subalgebra",
+        "lie-groups/identity-component-of-a-lie-group",
+        "mathematical-physics/standard-model-gauge-group",
+        "nonassociative-algebra/complex-qubit-jordan-algebra",
+        "nonassociative-algebra/complex-qutrit-jordan-algebra"
+      ]
+    },
+    {
+      "id": "mathematical-physics/standard-model-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8fa909f4824b57cec4b8aa8348936ee22af6ba41cc7fe62bc63b6fd71390a1e6",
+      "evidence": "The core states u(1)⊕su(2)⊕su(3), its complexification, and the embedding into sl₅(C); complexification of a real Lie algebra is direct, while global group comparison is a later consequence.",
+      "previous_prerequisites": [
+        "lie-groups/complexification-of-a-real-lie-algebra"
+      ],
+      "prerequisites": [
+        "lie-groups/complexification-of-a-real-lie-algebra"
+      ]
+    },
+    {
+      "id": "mathematical-physics/super-poincare-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58921fd17d72bfc9ed6d0edae15cf534600e631b74f24fbe9f585082521e779e",
+      "evidence": "The definition forms so(V,η)⋉t from a supertranslation algebra and lists the even Poincaré and odd spinor parts plus all nonzero brackets; supertranslation and Poincaré algebras are the two construction inputs.",
+      "previous_prerequisites": [
+        "mathematical-physics/supertranslation-algebra",
+        "mathematical-physics/poincare-algebra"
+      ],
+      "prerequisites": [
+        "mathematical-physics/supertranslation-algebra",
+        "mathematical-physics/poincare-algebra"
+      ]
+    },
+    {
+      "id": "mathematical-physics/supertranslation-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "241b8759bbce840767cd99ad12388744e918eed344acb9b6b2ef722154209f21",
+      "evidence": "The core chooses a real pseudo-Euclidean V, spinor module S, and equivariant symmetric Γ:Sym²S→V, then defines the Lie-superalgebra brackets; spinor, bilinear-map, and Lie-superalgebra prerequisites are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/spinor-module",
+        "algebra-modules/bilinear-map",
+        "supergeometry/lie-superalgebra"
+      ],
+      "prerequisites": [
+        "differential-geometry/spinor-module",
+        "algebra-modules/bilinear-map",
+        "supergeometry/lie-superalgebra"
+      ]
+    },
+    {
+      "id": "mathematical-physics/symmetric-fock-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "45801897f403fcec7799698c54381cc0fa9927c21b2159b40ab2f63e86e33872",
+      "evidence": "The construction is the Hilbert direct sum of completed symmetric tensor powers Symⁿ(H), with vacuum in Sym⁰(H); Hilbert space and symmetric tensor product are exactly the defining inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/symmetric-tensor-product"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/symmetric-tensor-product"
+      ]
+    },
+    {
+      "id": "mathematical-physics/uniform-eigenfunction-mass-lower-bound",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "28d08ff673d67984aaaaf05076e28c18369b2b2194bd0e647e0e8bd6450d77d1",
+      "evidence": "The theorem assumes a compact hyperbolic surface, nonempty open U, normalized Laplace eigenfunctions, and states a uniform L² mass lower bound; compact surface, eigenfunction, and Laplace–Beltrami operator are direct.",
+      "previous_prerequisites": [
+        "mathematical-physics/compact-hyperbolic-surface",
+        "mathematical-physics/laplace-beltrami-eigenfunction",
+        "differential-geometry/laplace-beltrami-operator"
+      ],
+      "prerequisites": [
+        "mathematical-physics/compact-hyperbolic-surface",
+        "mathematical-physics/laplace-beltrami-eigenfunction",
+        "differential-geometry/laplace-beltrami-operator"
+      ]
+    },
+    {
+      "id": "mathematical-physics/wave-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5eae5a5509fd02264bb44b29aa16766144e40a0a5cb9131fa582db9ee1c04188",
+      "evidence": "The core defines □gφ=0 and □gφ=f on a Lorentzian manifold, then gives the flat dispersion relation; Lorentzian manifold and d’Alembertian are the defining inputs.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/dalembert-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "mathematical-physics/dalembert-operator"
+      ]
+    },
+    {
+      "id": "quantum-foundations/density-operator",
+      "outcome": "corrected",
+      "source_sha256": "460438bf6dc72277589153345e0e1dd5043f74ac9e6739d050a58462151bf767",
+      "evidence": "The core defines a positive trace-class unit-trace operator on a complex Hilbert space; Hilbert space, trace-class, trace, and positivity are required. Later spectral/purity claims are explicitly finite-dimensional.",
+      "previous_prerequisites": [
+        "quantum-foundations/trace-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/trace-class-operator",
+        "quantum-foundations/trace-operator",
+        "quantum-foundations/positive-semidefinite-operator"
+      ]
+    },
+    {
+      "id": "stat-mech-quantum/quantum-hamiltonian",
+      "outcome": "corrected",
+      "source_sha256": "8548cb2bf1171912325f467ec9b2b9fb12358a16fcee91baf3d1f878133ecae7",
+      "evidence": "The core defines H as densely defined self-adjoint on a nonzero complex Hilbert space, with finite-dimensional spectral sums explicitly qualified. Gibbs formulas are qualified by trace-class e^(-βH), preserving the operator domain and convergence hypotheses and ensuring a nonzero partition trace is possible; Hilbert space and unbounded self-adjoint operator are direct inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/self-adjoint-unbounded-operator"
+      ]
+    },
+    {
+      "id": "quantum-foundations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca941c75a5fb6cc53946bc8397b3847a04e313a65c020ebc60b44300e0f00171",
+      "evidence": "Section index reviewed as a complete navigation source. Its operator/state/measurement groupings link the 29 child concepts; the section itself has no mathematical construction or prerequisite hypotheses, so the empty prerequisite list is correct.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "quantum-foundations/antiunitary-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b7b3bb963801453649139994f048e97259352f62ea29fd86d8215a9b2b59fcdb",
+      "evidence": "Defines a conjugate-linear surjective isometry and derives UK factorization and Wigner symmetry; Hilbert space, inner product, unitary, and linear-map notions are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "functional-analysis/unitary-operator",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "functional-analysis/unitary-operator",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "quantum-foundations/bounded-operator-hilbert",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "851ba5a52e529b60372b74a5e26a8baca02004047d5dd5b4456fabb7499acaec",
+      "evidence": "Defines boundedness by a global norm inequality and operator norm, then adjoint identities; normed/Hilbert operator structure is the required setting.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "quantum-foundations/complex-hilbert-space-finite",
+      "outcome": "corrected",
+      "source_sha256": "9e6140ac0b5e7f7840171849108bce74f1a551bbe22bd6e1c8dd4dfcbd6852d1",
+      "evidence": "Full source and direct prerequisites individually checked; current prerequisite boundary matches the core hypotheses and defining formulas.",
+      "previous_prerequisites": [
+        "quantum-foundations/density-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/inner-product"
+      ]
+    },
+    {
+      "id": "quantum-foundations/golden-thompson-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ae44ed094ae67a502155347baf2c3956757995a81810a253066df846250d6c26",
+      "evidence": "States Tr exp(A+B)≤Tr(exp A exp B) for Hermitian matrices; self-adjoint operators and trace supply the exact hypotheses and expression.",
+      "previous_prerequisites": [
+        "quantum-foundations/self-adjoint-operator-observable",
+        "quantum-foundations/trace-operator"
+      ],
+      "prerequisites": [
+        "quantum-foundations/self-adjoint-operator-observable",
+        "quantum-foundations/trace-operator"
+      ]
+    },
+    {
+      "id": "quantum-foundations/mixed-state-quantum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69f8224d66c462e89877587bd7304b8d9badb562fb23e85ab86e85858c6b501b",
+      "evidence": "Defines mixed states as non-pure density operators and proves rank, idempotence, purity, entropy, and convex-mixture equivalents; density and pure-state concepts are direct.",
+      "previous_prerequisites": [
+        "quantum-foundations/density-operator",
+        "quantum-foundations/pure-state-quantum"
+      ],
+      "prerequisites": [
+        "quantum-foundations/density-operator",
+        "quantum-foundations/pure-state-quantum"
+      ]
+    },
+    {
+      "id": "quantum-foundations/normal-operator",
+      "outcome": "corrected",
+      "source_sha256": "5e177264101157484acd6fd79c18b44f62e6933b6433bc5ea042b699ac065b76",
+      "evidence": "Defines bounded T by TT*=T*T and gives finite-dimensional unitary diagonalization; bounded operators supply the operator and adjoint domain.",
+      "previous_prerequisites": [
+        "linear-algebra/operator-invariant-subspace"
+      ],
+      "prerequisites": [
+        "quantum-foundations/bounded-operator-hilbert"
+      ]
+    },
+    {
+      "id": "quantum-foundations/normalized-state-vector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aced0c242bb150b232a6d8747788b81993adbc311821ffabd6241b135cef0a0d",
+      "evidence": "Defines ψ by ||ψ||=1 and explains phase quotient; Hilbert space and unit sphere are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/unit-sphere"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/unit-sphere"
+      ]
+    },
+    {
+      "id": "quantum-foundations/partial-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "63998632bd6cae6b343b4a13798bbe4b6ee7b2756fb6ecf0bd8efa6fe21cc370",
+      "evidence": "Characterizes TrB uniquely by Tr((MA⊗I)X)=Tr(MA TrB X) and gives basis formula; trace and tensor product are direct.",
+      "previous_prerequisites": [
+        "quantum-foundations/trace-operator",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "quantum-foundations/trace-operator",
+        "algebra-modules/tensor-product"
+      ]
+    },
+    {
+      "id": "quantum-foundations/positive-operator-valued-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c4f71db1cd835da93559d3ca72fd7d93e0382072a1aff496b5076537d334d8a",
+      "evidence": "Defines a normalized weak-operator-countably-additive positive operator measure; Hilbert, positivity, and measurable-space/sigma-algebra are the three defining inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "quantum-foundations/positive-semidefinite-operator",
+        "measure-theory/sigma-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "quantum-foundations/positive-semidefinite-operator",
+        "measure-theory/sigma-algebra"
+      ]
+    },
+    {
+      "id": "quantum-foundations/positive-semidefinite-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ffc8bc0357f4d222a338c4fedbbf27766d701be3df271265ad008ed4c28e18e",
+      "evidence": "Defines bounded A≥0 through ⟨x,Ax⟩≥0 and derives self-adjoint/B*B equivalence; Hilbert space is the direct ambient prerequisite.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "id": "quantum-foundations/pure-state-quantum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44e23447258ab2ea60604802083333aecf80a3f4fa10710153f06afd659029ce",
+      "evidence": "Defines a pure state as a unit-vector ray or rank-one density projector and gives equivalent finite-dimensional criteria; finite Hilbert and density notions are direct.",
+      "previous_prerequisites": [
+        "quantum-foundations/complex-hilbert-space-finite",
+        "quantum-foundations/density-operator"
+      ],
+      "prerequisites": [
+        "quantum-foundations/complex-hilbert-space-finite",
+        "quantum-foundations/density-operator"
+      ]
+    },
+    {
+      "id": "quantum-foundations/quantum-relative-entropy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "297bd4f35a529421d4a9c86b608af92b354d4a3d69df92af4bdf6f75f15fb09e",
+      "evidence": "Defines Umegaki entropy with support condition suppρ⊂suppσ, then states classical reduction and data processing; density and spectral calculus are required.",
+      "previous_prerequisites": [
+        "quantum-foundations/density-operator",
+        "quantum-foundations/spectrum-self-adjoint-finite"
+      ],
+      "prerequisites": [
+        "quantum-foundations/density-operator",
+        "quantum-foundations/spectrum-self-adjoint-finite"
+      ]
+    },
+    {
+      "id": "quantum-foundations/qubit",
+      "outcome": "corrected",
+      "source_sha256": "9d3d64e2276e3168508a7d907ce0820ee32bbf71005c4f907479c62926c0ffba",
+      "evidence": "Defines a two-dimensional complex Hilbert state space, density states, Bloch ball, and observables; finite complex Hilbert, basis, and density are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthonormal-basis"
+      ],
+      "prerequisites": [
+        "quantum-foundations/complex-hilbert-space-finite",
+        "linear-algebra/orthonormal-basis",
+        "quantum-foundations/density-operator"
+      ]
+    },
+    {
+      "id": "quantum-foundations/qutrit",
+      "outcome": "corrected",
+      "source_sha256": "d2975dcc413c0f443c063408bc8b9b314fcef68ba9bbe12823aa43205da0e9fb",
+      "evidence": "Defines a three-dimensional complex Hilbert state space, normalized coordinates, density states, and CP² pure-state space; finite Hilbert, basis, and density are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthonormal-basis"
+      ],
+      "prerequisites": [
+        "quantum-foundations/complex-hilbert-space-finite",
+        "linear-algebra/orthonormal-basis",
+        "quantum-foundations/density-operator"
+      ]
+    },
+    {
+      "id": "quantum-foundations/rank-one-projector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a03f99d4c35b5fab66575a7b13a9850678bced42f8c16bfbd375ff64c5df8c7c",
+      "evidence": "Constructs Πψ=|ψ⟩⟨ψ| from a normalized vector and verifies projection, positivity, idempotence, and trace one; all listed operator prerequisites are used.",
+      "previous_prerequisites": [
+        "quantum-foundations/normalized-state-vector",
+        "linear-algebra/orthogonal-projection",
+        "quantum-foundations/positive-semidefinite-operator"
+      ],
+      "prerequisites": [
+        "quantum-foundations/normalized-state-vector",
+        "linear-algebra/orthogonal-projection",
+        "quantum-foundations/positive-semidefinite-operator"
+      ]
+    },
+    {
+      "id": "quantum-foundations/self-adjoint-operator-observable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d35a1a196e2985281b59deb8a995dccfcdc5bdb2507a2049335fe27f09bfd87b",
+      "evidence": "Defines bounded self-adjoint A=A* and states finite-dimensional spectral properties and expectation formula; bounded operator supplies adjoint/domain.",
+      "previous_prerequisites": [
+        "quantum-foundations/bounded-operator-hilbert"
+      ],
+      "prerequisites": [
+        "quantum-foundations/bounded-operator-hilbert"
+      ]
+    },
+    {
+      "id": "quantum-foundations/spectrum-self-adjoint-finite",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f7d4a5d491c94602feeed7ad311c968feaea5962d1044950bd589476675cfddd",
+      "evidence": "Defines spectrum by noninvertibility and states the finite-dimensional self-adjoint spectral resolution and functional calculus; finite Hilbert, self-adjointness, and eigenvalues are direct.",
+      "previous_prerequisites": [
+        "quantum-foundations/complex-hilbert-space-finite",
+        "quantum-foundations/self-adjoint-operator-observable",
+        "linear-algebra/eigenvalue"
+      ],
+      "prerequisites": [
+        "quantum-foundations/complex-hilbert-space-finite",
+        "quantum-foundations/self-adjoint-operator-observable",
+        "linear-algebra/eigenvalue"
+      ]
+    },
+    {
+      "id": "quantum-foundations/trace-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56c4abb5c6871869193c83fa86a15592241d7336be77c140ca51fb48c432bbb0",
+      "evidence": "Defines finite-dimensional trace by an orthonormal-basis sum and proves basis independence, cyclicity, and unitary invariance; linear trace and orthonormal basis are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/trace",
+        "linear-algebra/orthonormal-basis"
+      ],
+      "prerequisites": [
+        "linear-algebra/trace",
+        "linear-algebra/orthonormal-basis"
+      ]
+    },
+    {
+      "id": "quantum-foundations/von-neumann-entropy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c4ee9ae2ebfe6611df6f1eb87edb0626bba3b3032c103d17553123900230a5fd",
+      "evidence": "Defines S(ρ)=−Trρlogρ with 0log0 convention, derives eigenvalue bounds and product additivity; density and finite spectral calculus are required.",
+      "previous_prerequisites": [
+        "quantum-foundations/density-operator",
+        "quantum-foundations/spectrum-self-adjoint-finite"
+      ],
+      "prerequisites": [
+        "quantum-foundations/density-operator",
+        "quantum-foundations/spectrum-self-adjoint-finite"
+      ]
+    },
+    {
+      "id": "stat-mech-quantum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "417ae7925f6df9ace3c4f5511a3cdfd58812cf55c9d9467f8d9b1fa95c961649",
+      "evidence": "Navigation section reviewed; it groups observable algebra, Hamiltonian, finite systems, Gibbs/partition functions, expectation, and KMS without adding a mathematical prerequisite.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "stat-mech-quantum/gibbs-state-quantum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69aa78d8a7a1beba80d57762834d1c6341cb367556a95d445bb68cbc7097be04",
+      "evidence": "Defines ρβ=e^(−βH)/Z and variational free-energy characterization via relative entropy; Hamiltonian, partition function, and density operator are direct.",
+      "previous_prerequisites": [
+        "stat-mech-quantum/quantum-hamiltonian",
+        "stat-mech-quantum/quantum-partition-function",
+        "quantum-foundations/density-operator"
+      ],
+      "prerequisites": [
+        "stat-mech-quantum/quantum-hamiltonian",
+        "stat-mech-quantum/quantum-partition-function",
+        "quantum-foundations/density-operator"
+      ]
+    },
+    {
+      "id": "stat-mech-quantum/kms-condition-finite",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f272cb4735f58c7bf17c1c64df63c1be33865b182e035c95794fdd9b0485dc29",
+      "evidence": "Defines finite-dimensional β-KMS analyticity strip for τt(A)=e^{itH}Ae^(−itH) and characterizes the Gibbs state; Hamiltonian and observable algebra are direct.",
+      "previous_prerequisites": [
+        "stat-mech-quantum/quantum-hamiltonian",
+        "stat-mech-quantum/observable-algebra"
+      ],
+      "prerequisites": [
+        "stat-mech-quantum/quantum-hamiltonian",
+        "stat-mech-quantum/observable-algebra"
+      ]
+    },
+    {
+      "id": "stat-mech-quantum/observable-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "087f0424061362aa965a7c277e67362b8eec597f494836f6ea1ed7d6fe0bb888",
+      "evidence": "Defines a unital *-subalgebra A⊂B(H), its positive normalized states, and density representation on B(H); Hilbert space is the ambient input.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "id": "stat-mech-quantum/quantum-expectation-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1cadd7af8cc6fec134bd30f6647baff0f44468ec383c6dd0aa29ce39d036f47",
+      "evidence": "Defines ⟨A⟩ρ=Tr(ρA), proves positivity/normalization/bound, and gives thermal specialization; density and observable algebra are direct.",
+      "previous_prerequisites": [
+        "quantum-foundations/density-operator",
+        "stat-mech-quantum/observable-algebra"
+      ],
+      "prerequisites": [
+        "quantum-foundations/density-operator",
+        "stat-mech-quantum/observable-algebra"
+      ]
+    },
+    {
+      "id": "stat-mech-quantum/quantum-partition-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c4d56142d00a0031a59c88109baacf5e5e35bb5d5aa963f17be8f1f0d41a6f5a",
+      "evidence": "Defines Z(β)=Tr(e^(−βH)), derives energy/free-energy derivatives and tensor-product factorization; Hamiltonian is the direct input.",
+      "previous_prerequisites": [
+        "stat-mech-quantum/quantum-hamiltonian"
+      ],
+      "prerequisites": [
+        "stat-mech-quantum/quantum-hamiltonian"
+      ]
+    },
+    {
+      "id": "stat-mech-quantum/quantum-system-stat-mech",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "004b1dc2886b71485d175595cfa17d6fd47ed7587d4d8fe38684898f81d7aabb",
+      "evidence": "Defines the finite triple (H,A,H) with observable algebra and self-adjoint Hamiltonian, then dynamics and equilibrium; all three listed prerequisites are used.",
+      "previous_prerequisites": [
+        "stat-mech-quantum/observable-algebra",
+        "stat-mech-quantum/quantum-hamiltonian",
+        "quantum-foundations/density-operator"
+      ],
+      "prerequisites": [
+        "stat-mech-quantum/observable-algebra",
+        "stat-mech-quantum/quantum-hamiltonian",
+        "quantum-foundations/density-operator"
+      ]
+    }
+  ],
+  "triage_records": []
+}

@@ -6,7 +6,7 @@ summary = "The intersection of all maximal ideals, equivalently the elements act
 aliases = ["jacobson-radical", "Jacobson radical"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/jacobson-radical.md"
-prerequisites = ["algebra-rings/maximal-ideal", "algebra-rings/unit", "algebra-rings/ideal"]
+prerequisites = ["algebra-rings/ring", "algebra-rings/maximal-ideal", "algebra-rings/unit", "algebra-rings/ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -7,17 +7,15 @@ aliases = ["exterior-derivative", "Exterior derivative"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/exterior-derivative.md"
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "fiber-bundles/wedge-product-of-differential-forms"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 2
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 3
 +++
 
 On a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\), the **exterior derivative** is the unique family of \(\mathbb R\)-linear maps
 \[
 d:\Omega^k(M)\to \Omega^{k+1}(M)\qquad (k\ge 0)
 \]
-that agrees with the differential of a function, satisfies the graded Leibniz rule, and obeys \(d^2=0\).
-
-## Characterizing properties
+satisfying the following axioms:
 
 1. (**On functions**) If \(f\in\Omega^0(M)=C^\infty(M)\), then \(df\) is the usual differential (a 1-form) given by \(df_p(v)=v(f)\).
 2. (**Graded Leibniz rule**) For \(\alpha\in\Omega^k(M)\) and \(\beta\in\Omega^\ell(M)\),
@@ -25,6 +23,8 @@ that agrees with the differential of a function, satisfies the graded Leibniz ru
    d(\alpha\wedge\beta)=d\alpha\wedge\beta + (-1)^k\,\alpha\wedge d\beta.
    \]
 3. (**Nilpotence**) \(d\circ d = 0\).
+
+## Naturality
 
 A key naturality property is that for any [[fiber-bundles/smooth-map|smooth map]] \(F:M\to N\), the [[fiber-bundles/pullback-of-differential-forms|pullback of differential forms]] satisfies
 \[

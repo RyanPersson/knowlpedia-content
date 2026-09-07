@@ -6,9 +6,9 @@ summary = "The matrix of 2-forms computed from a local connection 1-form by dA p
 aliases = ["curvature-2-form-in-a-frame", "Curvature 2-form in a frame"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/curvature-2-form-in-a-frame.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/local-connection-1-form"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/differential-k-form", "fiber-bundles/exterior-derivative", "fiber-bundles/local-connection-1-form", "fiber-bundles/wedge-product-of-differential-forms"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with connection \(\nabla\), and let \(U\subset M\) be an open set with a chosen local frame. Let \(A\) denote the [[fiber-bundles/local-connection-1-form|local connection 1-form]] (connection matrix) on \(U\) in that frame.
@@ -17,7 +17,7 @@ Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with connectio
 \[
 F := dA + A\wedge A,
 \]
-where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]] applied entrywise and \(A\wedge A\) uses matrix multiplication together with the wedge product of forms.
+where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]] applied entrywise and \(A\wedge A\) uses matrix multiplication together with the [[fiber-bundles/wedge-product-of-differential-forms|wedge product of forms]].
 
 The matrix \(F\) represents the curvature operator in the sense that, writing the frame vectors as \(e_j\),
 \[

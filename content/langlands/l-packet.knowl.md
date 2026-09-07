@@ -6,7 +6,7 @@ summary = "The finite family of irreducible admissible representations sharing o
 aliases = ["Langlands packet", "local L-packet", "packet of representations"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands/local-l-parameter"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands/local-l-parameter", "langlands/local-langlands-correspondence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

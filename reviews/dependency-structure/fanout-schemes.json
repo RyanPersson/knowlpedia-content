@@ -1,0 +1,2114 @@
+{
+  "reviews": [
+    {
+      "id": "algebraic-geometry-foundations/base-change",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "75712fbd610099545c958967362e02cde37514d95631b34013a9fc8c4fafad11",
+      "evidence": "The definition forms X ×_S S' and its affine formula Spec(A tensor_R R'); the fiber product is the construction input and affine scheme is required by the displayed affine calculation. No metadata change was required.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/fiber-product-of-schemes",
+        "algebraic-geometry-foundations/affine-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/fiber-product-of-schemes",
+        "algebraic-geometry-foundations/affine-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-blueprinted-space",
+      "outcome": "corrected",
+      "source_sha256": "61104e16f66dde0fe25bef462d5b7eea1ff077b02237648ed26d6a30fd9cf750",
+      "evidence": "The core defines a topological space with a sheaf of blueprints, local stalks, maximal ideals, and sheaf morphisms; topology, stalk, blueprint, maximal ideal, and morphism-of-sheaves are therefore defining inputs. The blue-scheme mention is a later subcategory consequence.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/blueprint",
+        "algebra-rings/maximal-ideal",
+        "algebraic-geometry-foundations/morphism-of-sheaves"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/blueprint",
+        "algebra-rings/maximal-ideal",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/stalk"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-ringed-space",
+      "outcome": "corrected",
+      "source_sha256": "5438c8eeed005e18b196670fe000ee846b2491ce1500e192e4444e76ff965065",
+      "evidence": "The core is the pair of a topological space and sheaf whose stalks are local rings. Structure sheaf is the local name for the sheaf, while affine schemes occur only as an example, so neither is a prerequisite.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/sheaf",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-commutative/local-ring",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/sheaf",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-commutative/local-ring"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/ringed-space",
+      "outcome": "corrected",
+      "source_sha256": "fd0eead5139e6802b0fc08049eed3f99e7b6fb562df79fc1d607d0d17393871f",
+      "evidence": "The core includes the morphism pair (f,f#), continuous map, sheaf morphism into f_*O_X, and stalkwise ring maps. Those displayed data require continuous-map, morphism-of-sheaves, direct-image-sheaf, topology, sheaf, and commutative-ring; structure sheaf is only the name of O_X.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-rings/commutative-ring",
+        "algebraic-geometry-foundations/structure-sheaf",
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/morphism-of-sheaves"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-rings/commutative-ring",
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/direct-image-sheaf"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/scheme",
+      "outcome": "corrected",
+      "source_sha256": "96777308d19f08b65a6984d4171df780faaf5039f90e9b029699e07565e17789",
+      "evidence": "The defining core is a locally ringed space with an open cover by affine schemes. Structure sheaf and stalk are already components of locally ringed space and appear in the explanatory section, so they do not add defining prerequisites.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "topology/open-cover",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "topology/open-cover",
+        "algebraic-geometry-foundations/affine-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/morphism-of-schemes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eb27c8ec57741c12e39069ccccf7e9caba00aee15130a60bde45212e110ffc3",
+      "evidence": "The core defines a locally-ringed-space morphism with continuous map, sheaf map, direct image, stalkwise local ring maps, and gives the affine Spec(B) to Spec(A) example from a ring homomorphism. Affine scheme is required for that explicit example. No metadata change was required.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-locally-ringed-spaces",
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/structure-sheaf",
+        "algebraic-geometry-foundations/direct-image-sheaf",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-rings/ring-homomorphism",
+        "algebraic-geometry-foundations/affine-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-locally-ringed-spaces",
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/structure-sheaf",
+        "algebraic-geometry-foundations/direct-image-sheaf",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-rings/ring-homomorphism",
+        "algebraic-geometry-foundations/affine-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/integrable-connection",
+      "outcome": "corrected",
+      "source_sha256": "efc886ee2c145f11bbf1e47b015b388822adaef1935d2eff77a33c655134b507",
+      "evidence": "The displayed connection maps into Omega^1_X/k and curvature into Omega^2_X/k; relative Kähler differentials are the defining geometric input in addition to linear-map notation.",
+      "previous_prerequisites": [
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/linear-map",
+        "algebraic-geometry-foundations/relative-kahler-differentials"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/smooth-morphism",
+      "outcome": "corrected",
+      "source_sha256": "400740184ac5a76b2096bd05eaa9edbfc9fdfa12c3ee4059312931ad7fd626b3",
+      "evidence": "The first sentence defines smoothness for a morphism of schemes and then imposes locally finite presentation, flatness, and regular geometric fibers. The morphism-of-schemes concept is a required input absent from the former list.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/flat-morphism",
+        "algebraic-geometry-foundations/locally-of-finite-presentation",
+        "algebraic-geometry-foundations/geometric-fiber",
+        "algebraic-geometry-foundations/regular-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/flat-morphism",
+        "algebraic-geometry-foundations/locally-of-finite-presentation",
+        "algebraic-geometry-foundations/geometric-fiber",
+        "algebraic-geometry-foundations/regular-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-etale-algebra",
+      "outcome": "corrected",
+      "source_sha256": "24a273a5eafb1de4f8e05d4a5176c2c2726aeb89f09c6add83140be9639c37b6",
+      "evidence": "The definition uses finite and étale morphisms and its displayed affine equivalence explicitly requires Omega^1_A/R=0; relative Kähler differentials is therefore a required input.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebraic-geometry-foundations/finite-morphism",
+        "algebraic-geometry-foundations/etale-morphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebraic-geometry-foundations/finite-morphism",
+        "algebraic-geometry-foundations/etale-morphism",
+        "algebraic-geometry-foundations/relative-kahler-differentials"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-etale-morphism",
+      "outcome": "corrected",
+      "source_sha256": "7c154b70b78843dce4fc45379249a5d90d2bf20b2a981a967aebf28365c767c0",
+      "evidence": "The definition combines finite and étale morphisms, and the displayed affine characterization includes Omega_B/A=0; relative Kähler differentials is a genuine defining input.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/finite-morphism",
+        "algebraic-geometry-foundations/etale-morphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/finite-morphism",
+        "algebraic-geometry-foundations/etale-morphism",
+        "algebraic-geometry-foundations/relative-kahler-differentials"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-morphism",
+      "outcome": "corrected",
+      "source_sha256": "b335efd4627d1f992f1d7e55aebd967bc49c5654ad8cac7b385e9b5372155c03",
+      "evidence": "The defining sentence is a morphism of schemes factoring through relative projective space by a closed immersion. The scheme and morphism concepts are the direct prerequisites; scheme-over-a-base was an indirect substitute.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/scheme-over-a-base"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/morphism-of-schemes"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/adic-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b1604470631c13e7b785ec548b947bc58a149ddcf2c4b07a873e6b5f64c446b",
+      "evidence": "The source defines a Huber pair, Spa(A,A+) as equivalence classes of continuous valuations bounded on A+, and adic spaces locally modeled on sheafified affinoid spectra. The retained ideal-of-definition, equivalence-class, and locally-ringed-space prerequisites support those defining data; formal and perfectoid references are later relations.",
+      "previous_prerequisites": [
+        "algebra-topological/ideal-of-definition",
+        "shared-foundations/equivalence-class",
+        "algebraic-geometry-foundations/locally-ringed-space"
+      ],
+      "prerequisites": [
+        "algebra-topological/ideal-of-definition",
+        "shared-foundations/equivalence-class",
+        "algebraic-geometry-foundations/locally-ringed-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-blue-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a71600260538542ff69842072309d09a9ab0c1a42cbf7da7a027dc37a07673b",
+      "evidence": "The source defines an affine blue scheme as a locally blueprinted space isomorphic to Spec(B), with Zariski topology and structure sheaf, and states the contravariant blueprint morphism correspondence. The retained locally-blueprinted-space, blueprint, Zariski-topology, and structure-sheaf prerequisites are exactly the construction inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/locally-blueprinted-space",
+        "algebraic-geometry-foundations/blueprint",
+        "algebra-commutative/zariski-topology",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/locally-blueprinted-space",
+        "algebraic-geometry-foundations/blueprint",
+        "algebra-commutative/zariski-topology",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-line",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9640524cbd99645c80e8d7f0d90622895455c25c44441409a3f5cdba8029565b",
+      "evidence": "The source fixes a field and defines A^1_k as Spec k[x], then characterizes its prime, closed, and generic points under the algebraic-closedness hypothesis. The retained affine-scheme, polynomial-ring, prime-ideal, closed-point, algebraically-closed-field, generic-point, and irreducibility prerequisites match these claims; affine n-space is only a later example.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/prime-ideal",
+        "algebraic-geometry-foundations/closed-point",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/generic-point",
+        "topology/irreducible-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/prime-ideal",
+        "algebraic-geometry-foundations/closed-point",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/generic-point",
+        "topology/irreducible-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-n-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb61a9d969edfe6785f9d1805bec4bca898f7e25fb51e53b59ec6c1ba17dbd43",
+      "evidence": "The source fixes a field and n≥0 and defines Spec k[x_1,…,x_n], with maximal ideals for k-valued points and the algebraically closed classification of closed points. The retained affine-scheme, polynomial-ring, prime/maximal ideals, algebraic-closed-field, closed-point, and irreducible-space prerequisites support the definition and stated point classification.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/maximal-ideal",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/closed-point",
+        "topology/irreducible-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/maximal-ideal",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/closed-point",
+        "topology/irreducible-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d3bedfd26a305f677e10d9e2c082c6a4b425ba9b0f52064202baae9707270d0f",
+      "evidence": "The source defines an affine scheme as a locally ringed space isomorphic to (Spec A,O_SpecA), explicitly requiring a commutative ring, prime spectrum, Zariski topology, and structure sheaf. The retained prerequisites encode precisely those defining ingredients; the global-section equation is a property of the construction.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/zariski-topology",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/zariski-topology",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09b864d561efc04e0d33f0cecf59488cc80f6e9d2249853bc1e49c101924467a",
+      "evidence": "The source defines a curve over k as a separated finite-type scheme over k of pure dimension one, and explicitly leaves reducedness/irreducibility/geometric integrality as optional hypotheses. Scheme-over-a-base is the direct structural prerequisite and no optional refinement was promoted.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme-over-a-base"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme-over-a-base"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bccc67a11c2b579997870fda7f9cc4949bf0bf3ad649a86847a21bdf4453de21",
+      "evidence": "The source defines an algebraic group over k as a group scheme of finite type and states the multiplication, identity, and inverse morphisms as group-scheme data. Group-scheme is therefore the sole direct prerequisite; linear/projective cases are later properties.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/group-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/group-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7573f14c4a93b23cdb03bee41cb2c9bfc7906b6ad35c46cffff878d49ce5bd5a",
+      "evidence": "The source defines an algebraic space over S as an étale sheaf with representable diagonal and a representable surjective étale atlas by a scheme. The retained étale-morphism prerequisite supports the atlas condition; quotient and algebraic-stack references are consequences.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/etale-morphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/etale-morphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-stack",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "530d7b9dc107b69451b0b580609c66882a77b0ac25809ab31f7f9917a88b2501",
+      "evidence": "The source defines an Artin stack over S using a stack in groupoids, representable diagonal by algebraic spaces, and a representable smooth surjective scheme atlas, then explains automorphism groups. The retained algebraic-space and automorphism-group prerequisites support the defining diagonal and interpretation; later Bun_G and derived-stack links are applications.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-space",
+        "algebra-groups/automorphism-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-space",
+        "algebra-groups/automorphism-group"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraically-closed-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "66fc7bd7694c7b221faa2ebbe536f4536a9340de4cff0b6c57cec408edbce292",
+      "evidence": "Read the complete source and its defining core. A [[algebra-rings/field|field]] \\(k\\) is **algebraically closed** if every nonconstant polynomial \\(f(x)\\in k[x]\\) has a root in \\(k\\). Equivalently, every nonconstant polynomial factors completely into linear factors:  Prerequisite list matches the stated defining data and constraints; later examples and consequences were not promoted to prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/field"
+      ],
+      "prerequisites": [
+        "algebra-rings/field"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/band-as-an-ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9bdebf0f1c284d46d44084d7b92b68cfd16801e8fb223d5e4f6608e908b237ca",
+      "evidence": "Read the complete source and its defining core. Let \\(B\\) be a [[algebra-hyperstructures/band|band]] with null set \\(N_B\\). Its associated [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] is \\[ Prerequisite list matches the stated defining data and constraints; later examples and consequences were not promoted to prerequisites.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/band",
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebra-rings/semiring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/band",
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebra-rings/semiring-homomorphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/blue-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "416e1eff96e3d175b6a3c3e9bf1d9cc0ab65a049c72d7988f3d02a81d8d01d0a",
+      "evidence": "Read the complete source and its defining core. A **blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] \\(X\\) that admits an [[topology/open-cover|open cover]] by [[algebraic-geometry-foundations/affine-blue-scheme|affine blue schemes]] \\[ Prerequisite list matches the stated defining data and constraints; later examples and consequences were not promoted to prerequisites.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/locally-blueprinted-space",
+        "topology/open-cover",
+        "algebraic-geometry-foundations/affine-blue-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/locally-blueprinted-space",
+        "topology/open-cover",
+        "algebraic-geometry-foundations/affine-blue-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e4adb194781b85a80fc5044b54259eca969d426a352690454a128556a3fbfd3",
+      "evidence": "Read the complete source and its defining core. A **blueprint** \\(B=A/\\!/\\mathcal R\\) consists of a [[algebra-groups/commutative-monoid|commutative monoid with zero]] \\(A\\) together with a [[algebraic-geometry-foundations/pre-addition-on-a-monoid|pre-addition]] \\(\\mathcal R\\) on \\(A\\).  Prerequisite list matches the stated defining data and constraints; later examples and consequences were not promoted to prerequisites.",
+      "previous_prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid"
+      ],
+      "prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c8ec520f90508ee17700eed9a51a45051b09281a5e2d722a611249c523e7b0b",
+      "evidence": "Read the complete source and its defining core. Let \\(B=A/\\!/\\mathcal R\\) be a [[algebraic-geometry-foundations/blueprint|blueprint]]. Its associated [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] is \\[ Prerequisite list matches the stated defining data and constraints; later examples and consequences were not promoted to prerequisites.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/blueprint",
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/blueprint",
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/borel-mostow-semisimple-normalizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7fc1bbf7dd87342c3c67aa1cead40a1ea013cade1ffd4d17ccac4cb435801b33",
+      "evidence": "Read the complete source and its defining core. Let \\(H\\) be a complex linear [[algebraic-geometry-foundations/algebraic-group|algebraic group]] whose identity component \\(H^\\circ\\) is reductive. A Prerequisite list matches the stated defining data and constraints; later examples and consequences were not promoted to prerequisites.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "algebra-groups/normalizer"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "algebra-groups/normalizer"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/borel-subgroup",
+      "outcome": "corrected",
+      "source_sha256": "6461a7ae2dbbcfff6e90e3cfd6b738efad7ec052706d42bb1137180f99142fa4",
+      "evidence": "The core defines a Borel subgroup as a maximal connected solvable closed subgroup of a connected linear algebraic group over an algebraically closed field. Reductive structure and positive roots occur only in later sections, so those prerequisites were extraneous and removed.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "lie-groups/positive-root"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/algebraically-closed-field"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/chevalley-lattice-integral-model",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "337071fb6acff6fde1d47d85c3dee4a1c13a95e6c9a7cf768b22373eb52518c7",
+      "evidence": "Read the complete source and its defining core. A [[lie-groups/chevalley-basis|Chevalley basis]] of a split [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] defines a Lie lattice Prerequisite list matches the stated defining data and constraints; later examples and consequences were not promoted to prerequisites.",
+      "previous_prerequisites": [
+        "lie-groups/chevalley-basis",
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/universal-enveloping-algebra",
+        "algebraic-geometry-foundations/group-scheme",
+        "lie-groups/roots-weights-weyl"
+      ],
+      "prerequisites": [
+        "lie-groups/chevalley-basis",
+        "lie-groups/semisimple-lie-algebra",
+        "lie-groups/universal-enveloping-algebra",
+        "algebraic-geometry-foundations/group-scheme",
+        "lie-groups/roots-weights-weyl"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/closed-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "664054ff814f852f01077f5815f8bfecc094073177af688abd18239368276757",
+      "evidence": "The source defines closed points by singleton Zariski closure and gives the affine criterion that a prime ideal is maximal, with scheme and affine-spectrum examples. The retained scheme, affine-scheme, prime-ideal, and maximal-ideal prerequisites support the definition; residue-field and algebraically-closed examples remain contextual.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/maximal-ideal"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/maximal-ideal"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "819b4d2dfa908b968c4dc959b6cda1ee1ae8dd66337eb339036211f2561515d1",
+      "evidence": "The source defines coherence for a sheaf of modules on a ringed space through local finite type and finite-type kernels. The retained ringed-space, sheaf-of-modules, locally-of-finite-type, and quasi-coherent-sheaf prerequisites support the core and its Noetherian comparison.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "algebraic-geometry-foundations/locally-of-finite-type",
+        "algebraic-geometry-foundations/quasi-coherent-sheaf"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "algebraic-geometry-foundations/locally-of-finite-type",
+        "algebraic-geometry-foundations/quasi-coherent-sheaf"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "892d1b0cedb627ed0f5322f78bf81e3c3987951881359b413a48240a6bc40ee9",
+      "evidence": "The construction starts with a commutative monoid with zero, imposes the minimal pre-addition, and identifies its semiring completion. All four retained algebraic prerequisites occur in the construction or displayed completion; full faithfulness is a consequence.",
+      "previous_prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid",
+        "algebraic-geometry-foundations/semiring-completion-of-a-blueprint",
+        "algebra-rings/commutative-semiring"
+      ],
+      "prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid",
+        "algebraic-geometry-foundations/semiring-completion-of-a-blueprint",
+        "algebra-rings/commutative-semiring"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/compactly-supported-etale-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fdb78eb8b1a0c3419d5cc24ea85cdc8b83ac2ac73c731c2c7dd413be8f3b8684",
+      "evidence": "The definition fixes a finite-type separated scheme, an étale-site sheaf or cochain complex, and defines H_c through Rf_!. Scheme, small étale site, and cochain complex are the direct inputs; later Frobenius and Langlands applications are not prerequisites.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/small-etale-site",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/small-etale-site",
+        "algebra-homological/cochain-complex"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/connected-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22f2838038aef343fbac4b08d4af3ff136b07b72e99c6c1eb0792c9c652f35f9",
+      "evidence": "The source defines connectedness of the underlying Zariski topological space and states the affine idempotent criterion. Scheme, topological space, Zariski topology, and connected-set are the direct defining concepts; affine scheme is an example only.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "topology/topological-space",
+        "algebra-commutative/zariski-topology",
+        "topology/connected-set"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "topology/topological-space",
+        "algebra-commutative/zariski-topology",
+        "topology/connected-set"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/constant-finite-group-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "479d4c16e30bc67b06379e50e080dbd67555fddd6a00ad216a3c01cca102feec",
+      "evidence": "The construction forms the disjoint union of one copy of a base scheme for each element of a finite abstract group and equips it with the group law. Scheme, abstract group, and group scheme exactly support the construction.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-groups/group",
+        "algebraic-geometry-foundations/group-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-groups/group",
+        "algebraic-geometry-foundations/group-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/covering-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cce360b439d83bb11d809dc93ed2f7b660b964eedefff05b1e4ec3826ed7803d",
+      "evidence": "The source defines a covering family by the sieve it generates belonging to the site topology. Sieve, Grothendieck topology, and site are precisely the defining inputs; the étale specialization is a later application.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sieve",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/site"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sieve",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/site"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/d-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "020e184e1b52216f5a7248e3556af59b9f641cbc03a649424700738dbc2394bf",
+      "evidence": "The source defines a left D-module as a sheaf of modules over D_X with quasi-coherent underlying O_X-module. The sheaf of differential operators and sheaf-of-modules prerequisites support the stated core; connections and stacks are later refinements.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sheaf-of-differential-operators",
+        "algebraic-geometry-foundations/sheaf-of-modules"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sheaf-of-differential-operators",
+        "algebraic-geometry-foundations/sheaf-of-modules"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/derived-algebraic-stack",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2c5d2945464dc1ebd2dcacee65d9cf31f0788a3fa677dcd60744aa4d7df3b94",
+      "evidence": "The source defines a derived stack via a derived-site stack condition, representable diagonal, and a smooth surjective atlas, and explicitly invokes a chosen Grothendieck topology and surjectivity. The retained topology and surjective-function prerequisites support those inputs; classical truncation is later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/diagonal-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "113b12b5e301f8ea73695b181b54d4562502ad2cc9f32f222d21e21bcfa7a471",
+      "evidence": "The source constructs the unique map Y to Y×_X Y from the two identity maps using the fiber-product universal property. Morphism-of-schemes and fiber-product-of-schemes are exactly the defining inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/fiber-product-of-schemes"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/fiber-product-of-schemes"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/direct-image-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58791ccce297d548517b08dbab94ca98786a5b57c9d3a00954b0d6801fdc1b09",
+      "evidence": "The source defines (f_*F)(V)=F(f^{-1}(V)) for a continuous map and a sheaf, then checks restrictions and ring structure. Continuous-map and sheaf are the direct prerequisites.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/sheaf"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/sheaf"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/etale-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2b6530629a158ee69c44307b37fc6d2ae319d7996e4470db900346c6b0d41d8",
+      "evidence": "The source defines étale as simultaneously flat, unramified, and locally of finite presentation, and gives the affine differential criterion. Scheme plus those three morphism properties are the retained defining prerequisites; local-diffeomorphism is only an analogy.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/flat-morphism",
+        "algebraic-geometry-foundations/unramified-morphism",
+        "algebraic-geometry-foundations/locally-of-finite-presentation"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/flat-morphism",
+        "algebraic-geometry-foundations/unramified-morphism",
+        "algebraic-geometry-foundations/locally-of-finite-presentation"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/etale-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2d62ee9719bab82d872d940881efe6c6ad72a2449dc80decc47ee7efe9a9f3f",
+      "evidence": "The source defines the étale Grothendieck topology on schemes by jointly-surjective families of étale morphisms; the four retained prerequisites directly name the topology, schemes, covering families, and étale maps.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/covering-family",
+        "algebraic-geometry-foundations/etale-morphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/covering-family",
+        "algebraic-geometry-foundations/etale-morphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/fiber-product-of-schemes",
+      "outcome": "corrected",
+      "source_sha256": "5f28655d9e65507ec3296bb8d850f0f8ef034178d4b249c4ecd3a1c66179c07c",
+      "evidence": "The defining universal property quantifies over schemes and morphisms X→S←Y, and its affine formula uses tensor products. Added morphism-of-schemes because those arrows are defining input data.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-modules/tensor-product"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-galois-algebra",
+      "outcome": "corrected",
+      "source_sha256": "e0681e641b80d3d6e7dd3d6d6071b85db1dfea2502c0bd795a2056b8adadfcda",
+      "evidence": "The core combines a field, finite group, finite étale algebra, and a G-action in the displayed torsor map A⊗_F A→∏_g A. Added group-action for that defining datum.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-groups/group",
+        "algebraic-geometry-foundations/finite-etale-algebra"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-groups/group",
+        "algebraic-geometry-foundations/finite-etale-algebra"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-locally-free-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f1e845954acb7cd1bee262289d0587f8c5638a2126b76e9e30bcf8ec314994a",
+      "evidence": "The source defines finite locally free using affine neighborhoods and finite free modules, with finite and flat as the stated equivalent characterization. The retained three morphism prerequisites support that core; base change is later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/finite-morphism",
+        "algebraic-geometry-foundations/flat-morphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/finite-morphism",
+        "algebraic-geometry-foundations/flat-morphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-morphism",
+      "outcome": "corrected",
+      "source_sha256": "ca3f48d86ab272c92079aa03fb123f0c6dfafae0f5b39c5e321ac8e2b9130e33",
+      "evidence": "The core requires affine inverse images Spec B over affine opens Spec A and finite generation as an A-module. Added affine-scheme for the affine-local construction.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-rings/ring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-rings/ring-homomorphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/flag-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2c089727d600a83e9f12d78d5410a8d154d810c6261d267048481bb10975fa3",
+      "evidence": "The source defines G/P for a connected reductive group and parabolic subgroup, while GL_n flags and Weyl decompositions are examples/properties. The two retained prerequisites match the definition.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/parabolic-subgroup"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/parabolic-subgroup"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/flat-morphism",
+      "outcome": "corrected",
+      "source_sha256": "51279948b47cfe7f127d69a25e79483b8f150df67e7c15e57e6e01e4ee93bf9a",
+      "evidence": "The core defines flatness for a morphism of schemes via local-ring maps and flat modules. Added morphism-of-schemes for the morphism datum.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-modules/flat-module"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-modules/flat-module"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/formal-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49ac364b39dbc8cd1123ebd9e32b5999c2f09ed40a0259afffe7195b32b5f014",
+      "evidence": "The source defines formal schemes as locally topologically ringed spaces locally isomorphic to formal spectra of complete adic rings. The retained locally-topologically-ringed-space, formal-spectrum, and adic-ring prerequisites match the core.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/locally-topologically-ringed-space",
+        "algebraic-geometry-foundations/formal-spectrum",
+        "algebra-topological/adic-ring"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/locally-topologically-ringed-space",
+        "algebraic-geometry-foundations/formal-spectrum",
+        "algebra-topological/adic-ring"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/formal-spectrum",
+      "outcome": "corrected",
+      "source_sha256": "510048405b3562bd3173c314ec2d84fdcdcde5345115d91df9f68d970b5161ff",
+      "evidence": "The construction is a locally topologically ringed space from a complete adic ring and ideal of definition, with a structure sheaf. Added locally-topologically-ringed-space for the stated output structure.",
+      "previous_prerequisites": [
+        "algebra-topological/adic-ring",
+        "algebra-topological/ideal-of-definition",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ],
+      "prerequisites": [
+        "algebra-topological/adic-ring",
+        "algebra-topological/ideal-of-definition",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/fundamental-theorem-of-projective-geometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d9fecf7c272238812a75579199699f961ef6bdfa98561ed4aa81c58b3ecdbeb",
+      "evidence": "The theorem assumes vector spaces of dimension at least three, uses projective lines, and concludes existence of a semilinear map. The retained vector-space, projective-line, and semilinear-map prerequisites cover hypotheses and output.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "algebraic-geometry-foundations/projective-line",
+        "linear-algebra/semilinear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "algebraic-geometry-foundations/projective-line",
+        "linear-algebra/semilinear-map"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/g-torsor-on-a-site",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9d0d727d2e5dd8397f17e1d7180397d60582c63804d8ca0e216f45814ae36a5",
+      "evidence": "The source defines a right G-torsor from a site, sheaf of groups, right action, covering family, and the isomorphism P×G→P×P; the retained prerequisites include those defining data and terminal object.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/site",
+        "algebraic-geometry-foundations/sheaf-of-groups",
+        "algebra-groups/group-action",
+        "algebra-category-theory/terminal-object",
+        "algebraic-geometry-foundations/covering-family"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/site",
+        "algebraic-geometry-foundations/sheaf-of-groups",
+        "algebra-groups/group-action",
+        "algebra-category-theory/terminal-object",
+        "algebraic-geometry-foundations/covering-family"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/galois-descent-forms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "742746f2ecdd6a2dd572692364cd7cccfad4f159e14d5c2e130813117808ee4e",
+      "evidence": "The source fixes a finite Galois extension and algebraic group, then defines semilinear descent data and cocycle forms. The retained Galois-extension-and-group and algebraic-group prerequisites support the core; cohomological refinements are later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension-and-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/galois-extension-as-etale-torsor",
+      "outcome": "corrected",
+      "source_sha256": "5d35b1f9530c6a6240ec594844e9c575c1493cd3e4918079b420d1a9cc2ec987",
+      "evidence": "The theorem identifies the displayed torsor isomorphism with the affine Galois tensor splitting and explicitly invokes that identity as its algebraic proof. Added galois-tensor-product-identity.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebraic-geometry-foundations/connected-scheme",
+        "algebraic-geometry-foundations/constant-finite-group-scheme",
+        "algebraic-geometry-foundations/small-etale-site",
+        "algebraic-geometry-foundations/g-torsor-on-a-site"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebraic-geometry-foundations/connected-scheme",
+        "algebraic-geometry-foundations/constant-finite-group-scheme",
+        "algebraic-geometry-foundations/small-etale-site",
+        "algebraic-geometry-foundations/g-torsor-on-a-site"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/galois-tensor-product-identity",
+      "outcome": "corrected",
+      "source_sha256": "406caedd898b5f6734fdee181a03e5d861aa81292f86560300e839d9853c082f",
+      "evidence": "The theorem gives both the tensor-ring isomorphism and its spectrum as a fiber product and coproduct. Added fiber-product-of-schemes for the displayed geometric conclusion.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/galois-extension",
+        "algebra-modules/tensor-product"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/generic-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56b8850626f84c3b03999037f80027c9b1192ffbbdbcf6942c051b7b0678f33b",
+      "evidence": "The source defines a point by closure equal to an irreducible closed subset and states uniqueness for schemes. Scheme and irreducible-space are direct defining prerequisites; the affine-domain example is later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "topology/irreducible-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "topology/irreducible-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/geometric-fiber",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ab786de9509425d34c67ee1670bf634e86ac9c4f0f37aebbaf172bd198ea6e9",
+      "evidence": "The source defines X_{̅s}=X×_S Spec(kappa-bar(s)) from a scheme morphism, residue field, algebraic closure, and fiber product. All four retained prerequisites are direct inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/fiber-product-of-schemes",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/algebraic-closure"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebraic-geometry-foundations/fiber-product-of-schemes",
+        "algebra-commutative/residue-field",
+        "algebra-fields-galois/algebraic-closure"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/grothendieck-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8b83a12fcba6a540ec6acd12025500805ea648e87a4db40008511cea655d315",
+      "evidence": "The source gives the three sieve axioms on a category and uses morphisms and pullback sieves. Category, sieve, and morphism are exactly the defining concepts.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebraic-geometry-foundations/sieve",
+        "algebra-category-theory/morphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebraic-geometry-foundations/sieve",
+        "algebra-category-theory/morphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/group-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74732ee23b634759867d735371ee40c534c019a8fa64ef3fed48e2db199f0d9b",
+      "evidence": "The source defines a group scheme over S using an S-scheme, scheme morphisms m,e,i, a fiber product, and group axioms. The five retained prerequisites cover those data.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/scheme-over-a-base",
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebra-groups/group",
+        "algebraic-geometry-foundations/fiber-product-of-schemes"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/scheme-over-a-base",
+        "algebraic-geometry-foundations/morphism-of-schemes",
+        "algebra-groups/group",
+        "algebraic-geometry-foundations/fiber-product-of-schemes"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/harder-narasimhan-filtration",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "623bb8cfcf99171e4ca27014a2fbedb22f7d7c8ddd617568f274ae67cf247ee1",
+      "evidence": "The theorem assumes a locally free sheaf on a smooth projective geometrically connected curve and concludes a unique filtration with semistable quotients and decreasing slopes. The retained sheaf and curve prerequisites capture the stated geometric hypotheses; later principal-bundle analogies are not prerequisites.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "algebraic-geometry-foundations/smooth-projective-curve"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "algebraic-geometry-foundations/smooth-projective-curve"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/hyperrings-as-ordered-blueprints",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e522753edb5bf07b8c2a30f71718c19ac83c97caa6b77ca28b15daa47c1388ac",
+      "evidence": "The construction starts with a Krasner hyperring and produces an ordered blueprint by monomial inequalities; the retained hyperring and ordered-blueprint prerequisites directly support the construction and its recovery formula.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/hyperring",
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/hyperring",
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/idyll-as-ordered-blue-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6be380893d5ade78ff0856e8f623cf683c1c3a2a326277260aa51cea04fc5e50",
+      "evidence": "The theorem compares a band/idyll with its purely positive ordered-blue-field realization, including unique weak inverses and the inverse construction. The retained band, idyll, ordered-blueprint, ordered-blue-field, and unique-weak-inverse prerequisites are all used in the stated correspondence.",
+      "previous_prerequisites": [
+        "algebra-hyperstructures/band",
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebra-hyperstructures/idyll",
+        "algebraic-geometry-foundations/ordered-blue-field",
+        "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"
+      ],
+      "prerequisites": [
+        "algebra-hyperstructures/band",
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebra-hyperstructures/idyll",
+        "algebraic-geometry-foundations/ordered-blue-field",
+        "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/isocrystal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f1823b82a84e6275dd0e4a5e36a9276e932b71ab3b4cf42ca73ad11faec9a92",
+      "evidence": "The definition fixes a perfect characteristic-p field, K0=W(k)[1/p], and a finite-dimensional K0-vector space with bijective sigma-semilinear Frobenius. The three retained prerequisites directly supply the field, vector-space, and semilinear-map data; slope and G-isocrystal material is later.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/perfect-field",
+        "linear-algebra/vector-space",
+        "linear-algebra/semilinear-map"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/perfect-field",
+        "linear-algebra/vector-space",
+        "linear-algebra/semilinear-map"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/k-ideal-of-a-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d0c3af042e22d1603442cd4bdadf0dc91c3eeac8dda835e9903f1e7ae7cdabe",
+      "evidence": "The core gives the three k-ideal axioms for a blueprint and only afterward identifies prime k-ideals as spectrum points. Blueprint is the sole defining input; spectrum is a consequence.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/blueprint"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/levi-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f95310a442a16ce544c53d8d43f6e7c10e61f0392ef0315dcca60ff9d6ce3942",
+      "evidence": "The definition requires a connected reductive group, parabolic subgroup, semidirect product, and unipotent radical, then states existence and conjugacy. The four retained prerequisites match the displayed Levi decomposition.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebra-groups/semidirect-product",
+        "algebraic-geometry-foundations/unipotent-radical"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/parabolic-subgroup",
+        "algebra-groups/semidirect-product",
+        "algebraic-geometry-foundations/unipotent-radical"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/lisse-ell-adic-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a9fa662d6a5031a579572bfdfaaed586fd6133cd1c409f940c7267e9b0f6cf8",
+      "evidence": "The definition fixes a scheme with ell invertible and an inverse system of finite free sheaves on its small étale site. Scheme and small-etale-site are the direct setting; monodromy and Frobenius discussions are later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/small-etale-site"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/small-etale-site"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/local-diffeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56c76b379f0ed23739c498fa3a8f5d8c719204b258c01dfc0224fb8452a1f7cd",
+      "evidence": "The source defines a smooth map between smooth manifolds locally restricting to a diffeomorphism onto an open set. Diffeomorphism and open-set are the direct prerequisites; the étale comparison is explicitly only an analogy.",
+      "previous_prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/localization-of-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eff11f45e599d45782640589465a8f62ee846034d51a53e11d71922a3a56198f",
+      "evidence": "The construction localizes the multiplicative monoid of a blueprint at a multiplicative subset and transports its pre-addition, with a universal property. Blueprint is the sole direct input; blueprint spectra are a later use.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/blueprint"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-free-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26f192130fc012d02fc39d21b204b931f2ec6aff9d336507d3d696a57075cc48",
+      "evidence": "The source defines an O_X-module sheaf locally isomorphic to finite sums of O_X on a ringed space. Ringed-space and sheaf-of-modules exactly support the core; transition matrices and smooth bundles are later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebraic-geometry-foundations/sheaf-of-modules"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebraic-geometry-foundations/sheaf-of-modules"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-of-finite-presentation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4b8c1a25fa2cfd18ea8c41e600cefa2669db6ec9b16bb56c8b08ec5580aacb23",
+      "evidence": "The definition is a property of a morphism of schemes checked on affine covers using finitely presented algebras. Scheme is the direct setting; the affine presentation is part of the stated criterion.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-of-finite-type",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b5dedee7d4b144858b8c219bb548e2e1015e8f078afdbdcfaf501d22666327c",
+      "evidence": "The definition is a property of a scheme morphism checked by finitely generated affine algebras and an explicit surjection from a polynomial algebra. Scheme, algebra-over-ring, and surjective-function support those data.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-modules/algebra-over-ring",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebra-modules/algebra-over-ring",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-topologically-ringed-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d665fae6d0b7e3a5b7c0daf99d62af56736079e19c53bbd774ea70fd50fe43e",
+      "evidence": "The source defines a topological space with a sheaf of topological rings whose underlying structure is locally ringed, then defines continuous local morphisms. The retained topology and locally-ringed-space prerequisites support the core setting.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/locally-ringed-space"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/locally-ringed-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7d49e98a49b1063e310508fd455cd86850c2892344543bbb048892b57b1d0a5",
+      "evidence": "The source defines a torus and maximal torus over a field, then character/cocharacter lattices and Galois action. Algebraic-group, algebraic-closure, abelian-group, and Galois-extension-and-group are the direct inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-groups/abelian-group",
+        "algebra-fields-galois/galois-extension-and-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-fields-galois/algebraic-closure",
+        "algebra-groups/abelian-group",
+        "algebra-fields-galois/galois-extension-and-group"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "970bdd83e6e90e72fe93def14662f440c6b6e41d8372a477c53f778c5110429e",
+      "evidence": "The source defines Bun_G(X) from a smooth projective curve, connected reductive group, principal bundles, bundle isomorphisms, and proves it is an algebraic stack under the stated hypotheses. All five retained prerequisites are used in the core.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "fiber-bundles/bundle-isomorphism",
+        "algebraic-geometry-foundations/algebraic-stack"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/smooth-projective-curve",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "fiber-bundles/bundle-isomorphism",
+        "algebraic-geometry-foundations/algebraic-stack"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/morphism-of-locally-ringed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad9ebdd09f54a71109371ca168d4738db204c1319bc2f19d150e059d6e359e86",
+      "evidence": "The source defines a continuous map plus a sheaf morphism into a direct image with local maps on stalks. Locally-ringed-space, continuous-map, morphism-of-sheaves, direct-image-sheaf, stalk, and local-ring are all direct inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/direct-image-sheaf",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-commutative/local-ring"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "topology/continuous-map",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/direct-image-sheaf",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-commutative/local-ring"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/morphism-of-sheaves",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "943d993d5f37901ae3bb4ca8fe791c7462d83be34de16452514dbd4aa552e431",
+      "evidence": "The definition gives compatible section maps on a topological space and induced stalk maps; its along-a-map form uses direct images. The retained sheaf, topology, and stalk prerequisites support the core; direct image is introduced as a later target concept.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "topology/topological-space",
+        "algebraic-geometry-foundations/stalk"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "topology/topological-space",
+        "algebraic-geometry-foundations/stalk"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blue-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "909b6ae37b518578587da5e4dbab3154eae3f0ada84876d81f26099acb3ede50",
+      "evidence": "The source defines a nontrivial ordered blueprint whose nonzero monomials are units. Ordered-blueprint is the sole defining prerequisite; idylls and partial fields are later examples/refinements.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blue-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4dd2971edff58f5ae18b75e5e2c4c3ff70e0bcce692a46a351b683bead302da4",
+      "evidence": "The definition is an ordered-blueprinted space locally isomorphic to spectra of ordered blueprints. Ordered-blueprinted-space and ordered-blueprint are exactly the local-model inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprinted-space",
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprinted-space",
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26f1ac375290f0171e8acdb1d3e3749a929fe57bf99111907ff3b63d5b169a4c",
+      "evidence": "The core defines the triple using an ordered semiring and distinguished multiplicative generators, and defines morphisms as order-preserving semiring homomorphisms. Ordered-semiring and semiring-homomorphism are the direct prerequisites; related subcategories are later.",
+      "previous_prerequisites": [
+        "algebra-rings/ordered-semiring",
+        "algebra-rings/semiring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/ordered-semiring",
+        "algebra-rings/semiring-homomorphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4face858af76691ceb836bb8106286727f6bbaa0cc878bef51050401072b5f6b",
+      "evidence": "The source adds the unique weak-inverse condition to an ordered blueprint and displays its F1± formulation. Ordered-blueprint is the direct prerequisite; pasteurization is a later reflector.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blueprinted-space",
+      "outcome": "corrected",
+      "source_sha256": "27f292f2d7eccc412ddead5115e2043fbab496353381799da40fdc3d63cdaf5b",
+      "evidence": "The source defines a topological space with a sheaf of ordered blueprints and its morphisms, then contrasts local blueprinted spaces. Added topology/topological-space because the underlying topological space is defining data; the other retained prerequisites support the sheaf and morphism clauses.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/locally-blueprinted-space",
+        "algebra-rings/maximal-ideal"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebraic-geometry-foundations/morphism-of-sheaves",
+        "algebraic-geometry-foundations/locally-blueprinted-space",
+        "algebra-rings/maximal-ideal"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/parabolic-subgroup",
+      "outcome": "corrected",
+      "source_sha256": "0bc7df8c662705e82a08a18a7a654f8138a91c338d6618252fffe4eedfa85e3a",
+      "evidence": "The core defines parabolicity by properness of G/P for a smooth closed subgroup of a connected reductive group. Algebraically closedness and Borel containment are only an equivalent characterization in the next paragraph, so both were removed from prerequisites.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/borel-subgroup"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/borel-subgroup"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/pasteurization-of-ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "192f7a972efbe55f166d78125dcdba3593b5929b770ab5697cd1379b26a7d764",
+      "evidence": "The construction defines the universal reflection from an ordered blueprint to one with unique weak inverses. Both ordered-blueprint and the target unique-weak-inverse notion are direct inputs to the adjunction.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ordered-blueprint",
+        "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/perfect-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed6afe8e273157bab9809cbfc04caf85e4cd9a763cabd3b2e07db030f09464fe",
+      "evidence": "The source defines a perfect complex locally as a bounded complex of finite-rank locally free sheaves on a ringed space, scheme, or algebraic stack, and gives the projective-module affine form. The retained ringed-space, stack, cochain-complex, sheaf-of-modules, locally-free, and projective-module prerequisites cover the defining settings.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebraic-geometry-foundations/algebraic-stack",
+        "algebra-homological/cochain-complex",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "algebra-modules/projective-module"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebraic-geometry-foundations/algebraic-stack",
+        "algebra-homological/cochain-complex",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "algebraic-geometry-foundations/locally-free-sheaf",
+        "algebra-modules/projective-module"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/perfectoid-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f3cf0c9ebae1d05625cb0335719303e27901730d56613c84bc2ba0a97aa63ea",
+      "evidence": "The source defines a complete nondiscrete rank-one valued field with residue characteristic p and surjective Frobenius on O_K/p. Valuation, Frobenius, perfect-field, and surjectivity are the defining conditions retained.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/perfect-field",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/valuation-on-a-field",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-fields-galois/perfect-field",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/perfectoid-space",
+      "outcome": "corrected",
+      "source_sha256": "2944a55a4705117e7a32fe481d4c3cd22c897eb1ea5b424281ab032d88e39c5b",
+      "evidence": "The core defines an adic space locally modeled on affinoid spaces over a perfectoid field whose Frobenius is surjective on R°/p. Perfectoid-field and adic-space are the defining inputs; surjective-function occurs only in the former metadata without being a standalone core concept and was removed.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/perfectoid-field",
+        "algebraic-geometry-foundations/adic-space",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/perfectoid-field",
+        "algebraic-geometry-foundations/adic-space",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/pinned-automorphisms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b1d12940ee5889f38c596c21195c2a943e0bffb7c3b9e7f45c35910ca09d591",
+      "evidence": "The source defines a pinning by a Borel, maximal torus, and chosen simple-root vectors, then defines automorphisms preserving this data. Reductive group, Borel, maximal torus, simple-root, and based-root-datum prerequisites match the core.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/simple-root",
+        "lie-groups/roots-weights-weyl"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/simple-root",
+        "lie-groups/roots-weights-weyl"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/pointed-algebraic-curve",
+      "outcome": "corrected",
+      "source_sha256": "b63e4115669306eebac7ef7692a92448fae00aed4be9d1e782d4e2a1472698e8",
+      "evidence": "The core defines a family of algebraic curves over a scheme S with sections S→X. Added scheme-over-a-base for the family-over-base datum; later divisor and Langlands applications do not alter the definition.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/pre-addition-on-a-monoid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f3ac85d6549c8de9b3a2a958093555e521c2519b42b3a9a6b88a0e1f416504e",
+      "evidence": "The source defines a proper equivalence relation on finite formal sums of a commutative monoid with zero, with additive and multiplicative compatibility. Commutative-monoid and equivalence-relation are exactly the defining prerequisites.",
+      "previous_prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "shared-foundations/equivalence-relation"
+      ],
+      "prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "shared-foundations/equivalence-relation"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c35d827074c1166dbc9142afecaba58952dc90b8c2750ed5287a59ef2a4747c7",
+      "evidence": "The source defines a principal bundle as a represented torsor under G_X on a specified site and displays its torsor identity. Group-scheme and G-torsor-on-a-site directly provide the defining data.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/group-scheme",
+        "algebraic-geometry-foundations/g-torsor-on-a-site"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/group-scheme",
+        "algebraic-geometry-foundations/g-torsor-on-a-site"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/proj",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80499924c7bc7a45ee3e03ddb023b9f41c8479b094d53a311aeb0c0876e9ad6f",
+      "evidence": "The source defines Proj from a graded ring and homogeneous prime ideals, with standard affine charts Spec((S_f)_0) and a structure sheaf. Graded-ring, prime-ideal, affine-scheme, localization-ring, and structure-sheaf prerequisites support the construction.",
+      "previous_prerequisites": [
+        "algebra-modules/graded-ring",
+        "algebra-rings/prime-ideal",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-commutative/localization-ring",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ],
+      "prerequisites": [
+        "algebra-modules/graded-ring",
+        "algebra-rings/prime-ideal",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-commutative/localization-ring",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-geometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c304eaa392a4554dd91eba0e1ba8b2d939ca54d0b1be38a77fdec181350b2a8",
+      "evidence": "The source constructs the incidence geometry of lines and linear subspaces of a vector space. Vector-space and linear-subspace are the direct inputs; transformation groups are later.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-line",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b852918ef19db1c42be2c687a5267d8880187204550dc0c64f202901f82294de",
+      "evidence": "The source defines P^1 as Proj k[x0,x1], then identifies two affine charts with A^1 and their inversion gluing. Projective-space and affine-line prerequisites match the construction and chart explanation.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/projective-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/projective-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79d92b6b415dda15c7836f55abe8d856c2fd5a95b60832b78d9f048c732e665e",
+      "evidence": "The theorem identifies SL2/B and PGL2/B with P^1 using the first-column orbit map. Borel, projective-line, and flag-variety are the direct theorem concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/borel-subgroup",
+        "algebraic-geometry-foundations/projective-line",
+        "algebraic-geometry-foundations/flag-variety"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/borel-subgroup",
+        "algebraic-geometry-foundations/projective-line",
+        "algebraic-geometry-foundations/flag-variety"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-semilinear-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1743a1c924f61c8c7ee501ef0b6922806bbb9fa23b34b2a06c6fe646f8d51ff",
+      "evidence": "The source defines PΓL(V) as bijective semilinear maps modulo scalar maps and states its exact sequence. Vector-space and semilinear-map are the defining prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/semilinear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/semilinear-map"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "94490072d699b40bce9b3e8ade554f4fa8f786f98c4b6afc92838938669a0399",
+      "evidence": "The source defines projective space as Proj Sym(V∨) for a nonzero finite-dimensional vector space and proves the affine-chart cover. Vector-space, scheme, and Proj are the defining construction inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/proj"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/proj"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2c95ce243fa571a5790e8cd1c01c4f803165ac4cc07d74e14b8f17566e887d14",
+      "evidence": "The source defines the map induced by an invertible linear map on projective space and derives the scalar quotient PGL(V). Vector-space, linear-map, and projective-space are direct prerequisites.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "algebraic-geometry-foundations/projective-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "algebraic-geometry-foundations/projective-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/punctured-algebraic-curve",
+      "outcome": "corrected",
+      "source_sha256": "f5769d0ba7d1dfed593c5cf98d7374baa95f297c4517eda3e7575cd8b8b18b50",
+      "evidence": "The core removes a finite reduced closed subscheme D from an algebraic curve. Pointed curves appear only as a later way to specify D, so pointed-algebraic-curve was removed.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve",
+        "algebraic-geometry-foundations/pointed-algebraic-curve"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve",
+        "algebraic-geometry-foundations/pointed-algebraic-curve"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/quasi-coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ede3b9a329a5553728db223f37593b75d73fe1ff9244eaed91223622fb824441",
+      "evidence": "The source defines quasi-coherence on a scheme by local association to modules on affine opens. Scheme and sheaf-of-modules are the direct defining prerequisites; coherence and vector-bundle examples are later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/sheaf-of-modules"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/sheaf-of-modules"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/quasi-split-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24ebab5322fb5a53bdce7dd82d6bba5b9977e0ee088dad52ab43fb5fc2a89886",
+      "evidence": "The source defines quasi-splitness as existence of a Borel subgroup over the base field inside a connected reductive group. Reductive-algebraic-group and Borel-subgroup are the direct inputs.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/borel-subgroup"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/reductive-algebraic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd680a3af39eef4432c64ac0212435b615ac37ea2226c095cfbd6af13a02cf01",
+      "evidence": "The source defines reductivity as a smooth connected affine algebraic group with trivial geometric unipotent radical. Algebraic-group, algebraic-closure, and unipotent-radical are the defining prerequisites; Borel/parabolic facts are later.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-fields-galois/algebraic-closure",
+        "algebraic-geometry-foundations/unipotent-radical"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-fields-galois/algebraic-closure",
+        "algebraic-geometry-foundations/unipotent-radical"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/regular-local-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcea5ed819084303ec8ae205133576222f941b9be7aa8b29d01774be679fb550",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A [[algebra-commutative/noetherian-ring|Noetherian]] [[algebra-commutative/local-ring|local ring]] \\((R,\\mathfrak m)\\) is **regular** if its maximal ideal can be generated by \\(\\dim R\\) elements, where \\(\\dim R\\) is its [[algebra-commutative/krull-dimension|Krull dimension]]. Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension",
+        "linear-algebra/vector-space",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "algebra-modules/quotient-module",
+        "algebra-commutative/residue-field"
+      ],
+      "prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension",
+        "linear-algebra/vector-space",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "algebra-modules/quotient-module",
+        "algebra-commutative/residue-field"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/regular-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eafa5bb8a4ee3b45cd683807257a052525e28687518fb1f416ec806fa0dfde0",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A [[algebraic-geometry-foundations/scheme|scheme]] \\(X\\) is **regular** if it is locally Noetherian and each local ring \\(\\mathcal O_{X,x}\\) is a [[algebraic-geometry-foundations/regular-local-ring|regular local ring]]. Here locally Noetherian means that every point has an affine open neighborhood with Noetherian coordinate ring. Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/regular-local-ring"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/regular-local-ring"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/relative-kahler-differentials",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec37802a9cc209eb3b83a6e1c5c9fd7c4b0231f251d01950f5374df4c2523527",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: For a homomorphism of [[algebra-rings/commutative-ring|commutative rings]] \\(A\\to B\\), the **module of relative Kähler differentials** \\(\\Omega_{B/A}\\) is the \\(B\\)-module equipped with an \\(A\\)-derivation \\[ d:B\\longrightarrow \\Omega_{B/A} Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/root-vs-weight-lattice-isogeny",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ddad6a7cfc1c730ad5e559982928ad41683b8ea819588f65f5c994bb3c7b5a8",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(G\\) be a [[algebraic-geometry-foundations/split-reductive-group|split semisimple group]] with [[algebraic-geometry-foundations/maximal-torus-weight-lattice|maximal torus]] Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/split-reductive-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/root-lattice",
+        "lie-groups/weight-lattice",
+        "algebraic-geometry-foundations/simply-connected-semisimple-group",
+        "lie-groups/root-system"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/split-reductive-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "lie-groups/root-lattice",
+        "lie-groups/weight-lattice",
+        "algebraic-geometry-foundations/simply-connected-semisimple-group",
+        "lie-groups/root-system"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/scheme-over-a-base",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f984d050851e49aba36fc1d55ce38585d9e16ca3e856617bd47fc23cc4ee7f2",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(S\\) be a [[algebraic-geometry-foundations/scheme|scheme]]. A **scheme over \\(S\\)**, or **\\(S\\)-scheme**, is a scheme \\(X\\) equipped with a specified [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]] \\[ X\\longrightarrow S, Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/morphism-of-schemes"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/morphism-of-schemes"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/semiring-as-a-blueprint",
+      "outcome": "corrected",
+      "source_sha256": "02ff50537ea6d357bd79212ada5a31f87e449d63aeee5aa99da6c3632733affc",
+      "evidence": "The construction records all additive equalities of a commutative semiring as a pre-addition and states that its semiring completion is canonically the original semiring. Added semiring-completion-of-a-blueprint because that displayed recovery result is part of the core.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-semiring",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-semiring",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/semiring-completion-of-a-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34df9f322689b201f3a4d2a178e464d6ceacd1324fdafd446990458dcf708b45",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(B=A/\\!/\\mathcal R\\) be a [[algebraic-geometry-foundations/blueprint|blueprint]]. Its **semiring completion** is the [[algebra-rings/commutative-semiring|commutative semiring]] \\[ B^+=\\mathbb N[A]/\\mathcal R. Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/blueprint",
+        "algebra-rings/commutative-semiring",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/blueprint",
+        "algebra-rings/commutative-semiring",
+        "algebraic-geometry-foundations/pre-addition-on-a-monoid",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/semirings-and-monoids-as-blueprints",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b31ff9ed1a21250b497b6cf391586bb9f766caf6611766235bce69d469569c76",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(R\\) be a [[algebra-rings/commutative-semiring|commutative semiring]]. Its multiplicative monoid with zero \\(R^\\bullet\\) determines a [[algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint|monoid blueprint]] \\[ (R^\\bullet)^{\\mathrm{blpr}}=R^\\bullet/\\!/\\mathcal R_{\\min}, Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-semiring",
+        "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint",
+        "algebraic-geometry-foundations/semiring-as-a-blueprint",
+        "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-semiring",
+        "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint",
+        "algebraic-geometry-foundations/semiring-as-a-blueprint",
+        "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/semisimple-element-and-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ed5cb5f96b9fc66f33c757683ebb5c6cb487cb4713a5b9180e2b88a3f3eb65f",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(G\\) be a linear [[algebraic-geometry-foundations/algebraic-group|algebraic group]] over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]]. An element \\(g\\in G\\) is **semisimple** if its image under one, equivalently every, faithful algebraic representation is a semisimple linear operator. Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "algebra-groups/conjugacy-class"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+        "algebra-groups/conjugacy-class"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25e7d7493c8c7d47a30afa53cc86f6a70917edc9c9dd14abe9e3bd48b6f65bd9",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(X\\) be a [[topology/topological-space|topological space]]. A **sheaf** \\(\\mathcal F\\) on \\(X\\) assigns an object \\(\\mathcal F(U)\\) to every open set \\(U\\subseteq X\\), together with restriction maps \\[ \\mathcal F(U)\\longrightarrow \\mathcal F(V)\\qquad (V\\subseteq U), Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "topology/topological-space"
+      ],
+      "prerequisites": [
+        "topology/topological-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf-of-differential-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d62ab77ee3d41dc348308f1d31480f4310b5f74f510ef0875837299b079b399",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(X\\) be a smooth algebraic variety over a field of characteristic \\(0\\). The **sheaf of differential operators** \\(\\mathcal D_X\\) is the sheaf of associative algebras generated locally by \\(\\mathcal O_X\\) and the tangent Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/tangent-sheaf",
+        "fiber-bundles/vector-field",
+        "lie-groups/universal-enveloping-algebra"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/tangent-sheaf",
+        "fiber-bundles/vector-field",
+        "lie-groups/universal-enveloping-algebra"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf-of-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cfa63407cda4a6eccb5e81499ab5c58bd18165a83fb63edcbb2cfdbf7e45c9b5",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(\\mathcal C\\) be a [[algebraic-geometry-foundations/site|site]]. A **sheaf of groups** on \\(\\mathcal C\\) is a [[algebraic-geometry-foundations/sheaf|sheaf]] \\(G\\) such that every set of sections \\(G(U)\\) is a [[algebra-groups/group|group]] and every restriction map associated to a morphism \\(V\\to U\\),  \\[ Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/site",
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-groups/group",
+        "algebra-groups/group-action",
+        "algebraic-geometry-foundations/morphism-of-sheaves"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/site",
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-groups/group",
+        "algebra-groups/group-action",
+        "algebraic-geometry-foundations/morphism-of-sheaves"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf-of-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62691ff9c0693eb6493748e34a5b6362c32ad1f8d9db49c83b831ad69440fbb0",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\((X,\\mathcal O_X)\\) be a [[algebraic-geometry-foundations/ringed-space|ringed space]]. A **sheaf of \\(\\mathcal O_X\\)-modules**, or an **\\(\\mathcal O_X\\)-module**, is a sheaf Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebra-groups/abelian-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/ringed-space",
+        "algebra-groups/abelian-group"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/sieve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f94486dd2e61aafd00b60a5b6d0fe4b1087c6a409656ac3f764f5bfb2150b6cd",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(\\mathcal C\\) be a [[algebra-category-theory/category|category]] and let \\(U\\) be an object of \\(\\mathcal C\\). A **sieve on \\(U\\)** is a collection \\(S\\) of [[algebra-category-theory/morphism|morphisms]] with codomain \\(U\\) that is closed under precomposition: if \\(f:V\\to U\\) belongs to \\(S\\) and \\(g:W\\to V\\) is any morphism, then  \\[ Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/simply-connected-semisimple-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "760d481415c7f1db6df079d88fe8d947a11a424b73bc9f74e7e9c3966ee11547",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive algebraic group]] is **semisimple** if its connected [[algebra-groups/center-of-group|center]] is trivial, equivalently if it has no positive-dimensional central Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-groups/center-of-group",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebra-groups/center-of-group",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/site",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1871d210ee00fe0816db2ca02aac33c421c80db6382ae0c516c83618d14c768c",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A **site** is a pair \\((\\mathcal C,J)\\), where \\(\\mathcal C\\) is a [[algebra-category-theory/category|category]] and \\(J\\) is a [[algebraic-geometry-foundations/grothendieck-topology|Grothendieck topology]] on \\(\\mathcal C\\).  The topology determines which [[algebraic-geometry-foundations/sieve|sieves]], or equivalently which [[algebraic-geometry-foundations/covering-family|covering families]], may be used to formula Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/sieve"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebraic-geometry-foundations/grothendieck-topology",
+        "algebraic-geometry-foundations/sieve"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/small-etale-site",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "695c49a54b3ade7a9bfc70975f89db4a21ea6c47d12f1ea4ea3cf52decd44998",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(X\\) be a [[algebraic-geometry-foundations/scheme|scheme]]. The **small étale site** \\(X_{\\acute et}\\) is the [[algebraic-geometry-foundations/site|site]] defined as follows:  - its objects are [[algebraic-geometry-foundations/etale-morphism|étale morphisms]] \\(U\\to X\\); Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/site",
+        "algebraic-geometry-foundations/etale-morphism",
+        "algebraic-geometry-foundations/scheme-over-a-base"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/site",
+        "algebraic-geometry-foundations/etale-morphism",
+        "algebraic-geometry-foundations/scheme-over-a-base"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/smooth-projective-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ff41809a6b264911add3fc12fa3c3e65e0b41ae4847179ef9455fc7d66a4814",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A **smooth projective curve** over a field \\(k\\) is an [[algebraic-geometry-foundations/algebraic-curve|algebraic curve]] \\(X\\) whose structure morphism \\(X\\to\\operatorname{Spec}k\\) is smooth and which admits a Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve",
+        "algebraic-geometry-foundations/smooth-morphism",
+        "algebraic-geometry-foundations/projective-morphism",
+        "algebraic-geometry-foundations/projective-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-curve",
+        "algebraic-geometry-foundations/smooth-morphism",
+        "algebraic-geometry-foundations/projective-morphism",
+        "algebraic-geometry-foundations/projective-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/spectrum-of-blueprint",
+      "outcome": "corrected",
+      "source_sha256": "bbe1cd9b1291efb3bbab585570f2b4d60fc106526ca62060fc2b17d03c50cb36",
+      "evidence": "The construction defines the prime k-ideal spectrum with Zariski topology, structure sheaf, and blueprint localizations. Removed blue-scheme because it is the resulting classification in the later basic-calculation section, not an input.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/blueprint",
+        "algebraic-geometry-foundations/k-ideal-of-a-blueprint",
+        "algebra-commutative/zariski-topology",
+        "algebraic-geometry-foundations/structure-sheaf",
+        "algebraic-geometry-foundations/localization-of-blueprint",
+        "algebraic-geometry-foundations/blue-scheme"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/blueprint",
+        "algebraic-geometry-foundations/k-ideal-of-a-blueprint",
+        "algebra-commutative/zariski-topology",
+        "algebraic-geometry-foundations/structure-sheaf",
+        "algebraic-geometry-foundations/localization-of-blueprint",
+        "algebraic-geometry-foundations/blue-scheme"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/split-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "648a76569a0dcc6dccbc3ae8810ed300fa47e9a8f313c155ca4693b275c1f97a",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A **connected reductive algebraic group** over a field \\(k\\) is a smooth connected affine \\(k\\)-group \\(G\\) whose geometric [[algebraic-geometry-foundations/unipotent-radical|unipotent radical]] is Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/unipotent-radical",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/unipotent-radical",
+        "algebraic-geometry-foundations/maximal-torus-weight-lattice"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/stalk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa8d68cfa6a9a1507b0aa0da354ceb9fdad14fdcf58c1d8d250651a154e6d5a8",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(\\mathcal F\\) be a [[algebraic-geometry-foundations/sheaf|sheaf]] on a [[topology/topological-space|topological space]] \\(X\\), and let \\(x\\in X\\). The **stalk** \\(\\mathcal F_x\\) is the collection of germs of sections of \\(\\mathcal F\\) near \\(x\\). Concretely, a germ is represented by a pair \\((U,s)\\), where \\(U\\) is an open neighborhood of \\(x\\) and \\(s\\in\\mathcal F(U)\\). Two representatives \\((U,s)\\) and \\((V,t) Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "topology/topological-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "topology/topological-space"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/structure-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33614411869f11c48fdc7b3bee403a646328bf3bb573936d9604d8b2bdd79e70",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A **structure sheaf** on a space \\(X\\) is a [[algebraic-geometry-foundations/sheaf|sheaf]] of rings \\(\\mathcal O_X\\) whose sections are regarded as functions on open subsets of \\(X\\). A [[algebraic-geometry-foundations/scheme|scheme]] is not merely its topological space: its structure sheaf carries the local algebra that distinguishes it from other schemes with the same points.  For the [[algebra-commutative/prime-sp Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/localization-ring",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-commutative/local-ring"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/localization-ring",
+        "algebraic-geometry-foundations/stalk",
+        "algebra-commutative/local-ring"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/tangent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aee47d77d821f2dbfd7c3129d386a1af228339fd70a4b945a9cee4542b07dda4",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: For a morphism of schemes \\(X\\to S\\), the **relative tangent sheaf** is \\[ \\mathcal T_{X/S} Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/relative-kahler-differentials"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/relative-kahler-differentials"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/tilt-and-untilt",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be19a0a333b4d74584b180227c23c2fea92a8319fb8f4cbafbcff8d7eecdd0a7",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(K\\) be a [[algebraic-geometry-foundations/perfectoid-field|perfectoid field]] of residue characteristic \\(p\\).  Its **tilt** is the characteristic-\\(p\\) field whose ring of integers has multiplicative Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/perfectoid-field",
+        "algebraic-geometry-foundations/perfectoid-space",
+        "topology/topological-space",
+        "algebra-fields-galois/galois-extension-and-group"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/perfectoid-field",
+        "algebraic-geometry-foundations/perfectoid-space",
+        "topology/topological-space",
+        "algebra-fields-galois/galois-extension-and-group"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/torsor-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86274b10432da01689d6d4349c005f8ce6dc142e65de099b51b8c42990a4e74e",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(G\\to X\\) be a [[algebraic-geometry-foundations/group-scheme|group scheme]] and let \\(P\\to X\\) carry a right [[algebra-groups/group-action|\\(G\\)-action]]. The **torsor condition** is that \\(P\\to X\\) is a cover in the chosen topology and the morphism  \\[ Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/group-scheme",
+        "algebra-groups/group-action",
+        "algebraic-geometry-foundations/fiber-product-of-schemes"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/group-scheme",
+        "algebra-groups/group-action",
+        "algebraic-geometry-foundations/fiber-product-of-schemes"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/unipotent-radical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6052c028408eeff0780e66dd273004e066c078c11ddc8b65967596e0b3437a95",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: For a smooth connected [[algebraic-geometry-foundations/algebraic-group|linear algebraic group]] \\(H\\) over a field \\(k\\), the Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-groups/normal-subgroup"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebra-groups/normal-subgroup"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/unramified-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "875120443f4858c8000ddcf72e3c938251148346401156f7e9a24e3ac60f3e26",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: A [[algebra-category-theory/morphism|morphism]] \\(f:Y\\to X\\) of [[algebraic-geometry-foundations/scheme|schemes]] is **unramified** if it is [[algebraic-geometry-foundations/locally-of-finite-type|locally of finite type]] and its [[algebraic-geometry-foundations/relative-kahler-differentials|sheaf of relative Kähler differentials]] vanishes: \\[ \\Omega_{Y/X}=0. Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/locally-of-finite-type",
+        "algebraic-geometry-foundations/relative-kahler-differentials",
+        "algebraic-geometry-foundations/diagonal-morphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/scheme",
+        "algebraic-geometry-foundations/locally-of-finite-type",
+        "algebraic-geometry-foundations/relative-kahler-differentials",
+        "algebraic-geometry-foundations/diagonal-morphism"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/unramified-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "da53f5344d77846346c6e5a78e2c4066c2fb9b78acb7d07b71bfae776321c593",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(F\\) be a [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]]. A connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-fields-galois/unramified-extension-local"
+      ],
+      "prerequisites": [
+        "algebra-fields-galois/nonarchimedean-local-field",
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebra-fields-galois/unramified-extension-local"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/v-stack",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0fdb995a810039789acf1b1ca8a7f4609e399cec7e9083a1ca81c47b27aa529f",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: The **v-topology** on [[algebraic-geometry-foundations/perfectoid-space|perfectoid spaces]] is the topology whose covers are the Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/perfectoid-space",
+        "algebraic-geometry-foundations/base-change",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/perfectoid-space",
+        "algebraic-geometry-foundations/base-change",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/weil-restriction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5ea82ba98ec52ee040d551afe75fde71707d14887b0d219b27f6eba7b67c98d",
+      "evidence": "Individually read the complete source and checked the definitions named in its prerequisite list. The defining core states: Let \\(S'\\to S\\) be a [[algebraic-geometry-foundations/finite-locally-free-morphism|finite locally free morphism]] and let \\(X\\) be an \\(S'\\)-scheme. The **Weil restriction** \\(\\operatorname{Res}_{S'/S}X\\), when it exists, is the \\(S\\)-scheme representing the functor \\[ T\\longmapsto Prerequisites were retained because they supply the stated hypotheses, construction data, or displayed result concepts.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/finite-locally-free-morphism",
+        "algebraic-geometry-foundations/scheme-over-a-base"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/finite-locally-free-morphism",
+        "algebraic-geometry-foundations/scheme-over-a-base"
+      ]
+    }
+  ],
+  "triage_records": []
+}

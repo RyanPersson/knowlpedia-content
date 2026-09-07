@@ -6,7 +6,7 @@ summary = "A Lie group homomorphism that is a covering map; its kernel is discre
 aliases = ["covering-lie-group", "Covering Lie group"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/covering-lie-group.md"
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/discrete-subgroup"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/discrete-subgroup", "topology/topological-space", "algebra-groups/group-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

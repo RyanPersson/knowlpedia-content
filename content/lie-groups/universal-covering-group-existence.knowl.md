@@ -6,7 +6,7 @@ summary = "Every connected Lie group admits a unique (up to isomorphism) simply 
 aliases = ["universal-covering-group-existence", "Existence of universal covering groups"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/universal-covering-group-existence.md"
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/universal-covering-group", "lie-groups/differential-is-lie-algebra-homomorphism"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-group-homomorphism", "lie-groups/universal-covering-group", "lie-groups/differential-is-lie-algebra-homomorphism", "lie-groups/simply-connected-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

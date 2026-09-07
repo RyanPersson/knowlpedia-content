@@ -1,0 +1,3121 @@
+{
+  "reviews": [
+    {
+      "id": "differential-geometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1752ce5c355acc0ed7c00fc776d8e7a23df6431fd0ab5b2ab8d73d8655f72b22",
+      "evidence": "The file is a navigation section: its headings and linked entries organize the subject but define no mathematical object, so an empty prerequisite list is correct.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "differential-geometry/action-angle-coordinates",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0309b68088587203bcb86c269a7e827870e4d4a19c4af628948cfa288eb915b",
+      "evidence": "The core requires a symplectic manifold, a completely integrable Hamiltonian system, Hamilton equations for the displayed motion, a diffeomorphism to B\u00d7T^n, and Lagrangian invariant tori. The Liouville\u2013Arnold theorem and regular fibers occur only in the existence section, so they are not prerequisites.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/completely-integrable-hamiltonian-system",
+        "differential-geometry/hamiltons-equations",
+        "fiber-bundles/diffeomorphism",
+        "differential-geometry/lagrangian-submanifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/completely-integrable-hamiltonian-system",
+        "differential-geometry/hamiltons-equations",
+        "fiber-bundles/diffeomorphism",
+        "differential-geometry/lagrangian-submanifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/algebra-of-smooth-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc26ec42940eb97ce04efdc955d490718d1613ab1d439d6449e53d123d48711d",
+      "evidence": "The core constructs C\u221e(M) from the smooth manifold M and pointwise function operations. The C\u221e-ring, smooth-map pullback, algebra-homomorphism, vector-bundle modules, and bump-function links appear as later structure or examples; adding them would make derived material prerequisite to the basic algebra.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/almost-complex-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f044e861a93ad45ac04365538482b719af2ac71d961a9347a6a09c6201c54d3f",
+      "evidence": "The definition needs smooth maps between smooth manifolds and almost-complex structures to state df\u2218J_M=J_N\u2218df. Integrability and holomorphic maps are explicitly deferred to the final paragraph, so they are not defining inputs.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "differential-geometry/almost-complex-structure"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "differential-geometry/almost-complex-structure"
+      ]
+    },
+    {
+      "id": "differential-geometry/almost-complex-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc0393ba6bff023ec2611f1000b78c779f2a6ed3d39a38f4a9d0cdcad84f5032",
+      "evidence": "The core is a smooth endomorphism of the tangent bundle over a smooth manifold with J\u00b2=\u2212id; tangent-space and vector-bundle foundations supply the pointwise and bundle data. Complex manifolds, integrability, maps, and symplectic manifolds are later comparisons.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tangent-space",
+        "fiber-bundles/vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tangent-space",
+        "fiber-bundles/vector-bundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/almost-hermitian-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c21a41311c4653ed7ec8a5e996e6a386e0bd2cf819e42277d065793fb029c314",
+      "evidence": "The triple consists of a smooth manifold, an almost-complex structure, and a compatible Hermitian/Riemannian metric on (TM,J). The fundamental form and symplectic, integrable, and K\u00e4hler conditions are consequences or stronger variants.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/almost-complex-structure",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/complex-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/almost-complex-structure",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/complex-vector-bundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/almost-quaternionic-manifold",
+      "outcome": "corrected",
+      "source_sha256": "7bf6dcb09f0b787512fe7d6ce0f337fb884056289ccc42b76778641c9b6fee7e",
+      "evidence": "The defining datum is a rank-three subbundle Q\u2282End_R(TM) with local quaternion frames over a smooth manifold. An almost-complex structure and quaternionic vector-bundle structure are explicitly identified as insufficient or stronger near-misses, so they were removed; vector-bundle supplies the bundle foundation.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/almost-complex-structure",
+        "fiber-bundles/quaternionic-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/almost-symplectic-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e9007c785da44ad4b4dd90dec94cbfec41bfd118cf44d1a99fede9d868edd78",
+      "evidence": "The definition requires a smooth manifold, a smooth 2-form, tangent spaces, and pointwise nondegeneracy modeled by symplectic vector spaces. Closedness and the resulting symplectic manifold, bundle map, and vector field are later consequences.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/tangent-space",
+        "differential-geometry/symplectic-vector-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/tangent-space",
+        "differential-geometry/symplectic-vector-space"
+      ]
+    },
+    {
+      "id": "differential-geometry/ambient-isotopy",
+      "outcome": "corrected",
+      "source_sha256": "3055afdbb3efb9001c501a9fea7a8a3f76b44d170f24a972ff7a96cf22d223a5",
+      "evidence": "The core requires a smooth manifold, diffeomorphism-valued time slices, embedded submanifolds for the subset application, smooth isotopy context, and the smooth map N\u00d7[0,1]\u2192N in the manifold-with-boundary sense. The diffeomorphism-group and vector-field links occur only in the convention/example sections.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/smooth-isotopy"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/smooth-isotopy",
+        "differential-geometry/smooth-map-of-manifolds-with-boundary"
+      ]
+    },
+    {
+      "id": "differential-geometry/anosov-flow",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa7f6e370bba6b31861774fe8b4eaf4badf7f163e7e62d906e88f961f7b4491e",
+      "evidence": "The definition requires a C\u00b9 flow on a compact manifold, its tangent-bundle splitting into vector subbundles, the differential of the flow, and a norm for exponential estimates. The geodesic-flow example is downstream and not a prerequisite.",
+      "previous_prerequisites": [
+        "differential-geometry/differentiable-flow",
+        "fiber-bundles/smooth-manifold",
+        "topology/compact-set",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/direct-sum-vector-bundle",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "linear-algebra/norm"
+      ],
+      "prerequisites": [
+        "differential-geometry/differentiable-flow",
+        "fiber-bundles/smooth-manifold",
+        "topology/compact-set",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/direct-sum-vector-bundle",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "linear-algebra/norm"
+      ]
+    },
+    {
+      "id": "differential-geometry/associated-graded-clifford-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0867b6c7d508ecc031b40ef76650ce7bcc3d780d7c7386467fdee0f5a259fe33",
+      "evidence": "The theorem starts with a quadratic form and Clifford algebra and identifies its filtration\u2019s associated graded algebra with the exterior algebra. The principal-symbol link is explanatory notation in the proof idea, not an additional defining hypothesis.",
+      "previous_prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/clifford-algebra",
+        "algebra-modules/exterior-algebra"
+      ],
+      "prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/clifford-algebra",
+        "algebra-modules/exterior-algebra"
+      ]
+    },
+    {
+      "id": "differential-geometry/atiyah-guillemin-sternberg-convexity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf4243258a1e14e0d68b02973b1b408409eff413105e479fb0a18494527aa550",
+      "evidence": "The hypotheses and conclusion require a Hamiltonian torus action on a compact connected symplectic manifold, a moment map, convex hull, and connected components for fixed sets. The moment polytope and nonabelian/noncompact variants are consequences and scope limits.",
+      "previous_prerequisites": [
+        "differential-geometry/hamiltonian-torus-action",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/moment-map",
+        "convex-analysis/convex-hull",
+        "topology/connected-component"
+      ],
+      "prerequisites": [
+        "differential-geometry/hamiltonian-torus-action",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/moment-map",
+        "convex-analysis/convex-hull",
+        "topology/connected-component"
+      ]
+    },
+    {
+      "id": "differential-geometry/biholomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a932489bd91f52b28b02887859d0b5cdee90ff414cffd114341540dcf3cac87a",
+      "evidence": "The core is a bijective holomorphic map between complex manifolds whose inverse is holomorphic; complex manifolds and holomorphic maps are therefore direct inputs. The category, diffeomorphism, exponential-map example, and local criterion are later context.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-map"
+      ]
+    },
+    {
+      "id": "differential-geometry/biholomorphism-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a310a42d7ab526067a6039bd95a539bef2985ca103ec233b6bb38af3e4969d3",
+      "evidence": "The group is defined as biholomorphisms of a complex manifold, interpreted as automorphisms in the category of complex manifolds. Topologies and Lie-group structure are explicitly optional later additions.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/category-of-complex-manifolds"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/category-of-complex-manifolds"
+      ]
+    },
+    {
+      "id": "differential-geometry/bordism-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f9c9c637ff658710e7df79346ac992afeca76c0e16889dd91558672aadbd273",
+      "evidence": "The group is formed from bordism-equivalence classes of closed manifolds under disjoint union, with the abelian-group laws checked afterward. The chosen tangential structure is part of the stated bordism theory rather than an unmentioned universal prerequisite.",
+      "previous_prerequisites": [
+        "differential-geometry/cobordism-equivalence",
+        "topology/closed-manifold",
+        "differential-geometry/disjoint-union-of-smooth-manifolds",
+        "algebra-groups/abelian-group"
+      ],
+      "prerequisites": [
+        "differential-geometry/cobordism-equivalence",
+        "topology/closed-manifold",
+        "differential-geometry/disjoint-union-of-smooth-manifolds",
+        "algebra-groups/abelian-group"
+      ]
+    },
+    {
+      "id": "differential-geometry/boundary-and-interior-of-a-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40c7a2a35c845de29c1b877e9a3a224a865194adf35670e538d2d18240a9e545",
+      "evidence": "Boundary and interior are defined from the half-space chart condition on a manifold with boundary. The induced boundary smooth structure, diffeomorphism invariance, and ambient-boundary contrast are consequences.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/boundary-chart"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/boundary-chart"
+      ]
+    },
+    {
+      "id": "differential-geometry/boundary-chart",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "28405adf34979f69db6a33a9741707e4689ab28af0eabcb4a7d8646afe95e13e",
+      "evidence": "A boundary chart is a smooth-atlas chart from a manifold with boundary to a relatively open subset of the Euclidean half-space, with smooth extensions of transitions. Subspace topology and ordinary smooth charts are explanatory foundations already represented by the atlas/manifold inputs.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/smooth-atlas"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/smooth-atlas"
+      ]
+    },
+    {
+      "id": "differential-geometry/boundary-defining-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1173d2b02ab2231f96315d8fd1b08f3b3a639e719280636847c0ac6c9c5d620",
+      "evidence": "The definition is a nonnegative smooth function on a manifold with boundary whose zero set is the boundary and for which 0 is a regular value. Boundary charts and collars are used only for the later normal-form/existence discussion.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/regular-value"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/regular-value"
+      ]
+    },
+    {
+      "id": "differential-geometry/boundary-face-of-a-manifold-with-corners",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "451a0562ca213b836c23d40a07eae7edbb46853882eac0cacaf76e7c1b1fcf3a",
+      "evidence": "A boundary face is a connected component of the abstract boundary of a manifold with corners. The connected-component target is direct; corner stratification and incidence at corners are later consequences.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-corners",
+        "topology/connected-component"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-corners",
+        "topology/connected-component"
+      ]
+    },
+    {
+      "id": "differential-geometry/boundary-orientation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a803ecabbfdc7d4667c33a2c8459e857a3039d27fea0afd964cfaa003ab7a109",
+      "evidence": "The orientation is induced on the boundary of an oriented manifold with boundary by the outward-normal-first rule. Stokes\u2019 theorem is an application in a later section, so it is not a prerequisite.",
+      "previous_prerequisites": [
+        "differential-geometry/orientation-of-a-smooth-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/boundary-and-interior-of-a-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/orientation-of-a-smooth-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/boundary-and-interior-of-a-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/bump-function",
+      "outcome": "corrected",
+      "source_sha256": "15c7bea88326be2b463d4ae98db64d3b54c49f1202818c98e86ebdf35718368a",
+      "evidence": "The core defines a bump function as a smooth map whose support is compact; the smooth-manifold, smooth-map, and compact-set targets supply exactly those data. Closed sets and neighborhoods occur only in the optional localized variant, so those edges were removed.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "topology/compact-set",
+        "topology/closed-set",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "topology/compact-set"
+      ]
+    },
+    {
+      "id": "differential-geometry/c-infinity-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2cc00b84ad6b7808a1a997f4484bda533ce7b4ba565cc07209b4e484cdf56b5",
+      "evidence": "The axioms quantify over smooth maps between finite-dimensional Euclidean spaces, with projections, composition, and nullary constants. Euclidean space is the direct setting; the smooth-function algebra is introduced only as a later example.",
+      "previous_prerequisites": [
+        "linear-algebra/euclidean-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/euclidean-space"
+      ]
+    },
+    {
+      "id": "differential-geometry/calabi-yau-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "64c5d296a283150d6e3e60acbbe8a7ce21c34dc58b2a502a2af4f9619314f92f",
+      "evidence": "The selected convention defines the object as a connected compact K\u00e4hler manifold with holomorphically trivial canonical bundle. Metrics, K\u00e4hler classes, holomorphic-symplectic examples, and the Calabi\u2013Yau theorem are later consequences or examples.",
+      "previous_prerequisites": [
+        "differential-geometry/kahler-manifold",
+        "differential-geometry/canonical-bundle-complex-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/kahler-manifold",
+        "differential-geometry/canonical-bundle-complex-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/calabi-yau-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb3552e47c90450c3bab1a754fc1b3ecad187a8f7b034bc70afdaf2f96e991ed",
+      "evidence": "The theorem explicitly assumes a compact K\u00e4hler manifold and K\u00e4hler class and concludes a K\u00e4hler form with prescribed Ricci form; the K\u00e4hler form, Ricci form, and metric targets are direct inputs to the displayed formulation. Hyperk\u00e4hler and full curvature links are scope remarks.",
+      "previous_prerequisites": [
+        "differential-geometry/kahler-manifold",
+        "differential-geometry/kahler-class",
+        "differential-geometry/kahler-form",
+        "differential-geometry/ricci-form",
+        "differential-geometry/kahler-metric"
+      ],
+      "prerequisites": [
+        "differential-geometry/kahler-manifold",
+        "differential-geometry/kahler-class",
+        "differential-geometry/kahler-form",
+        "differential-geometry/ricci-form",
+        "differential-geometry/kahler-metric"
+      ]
+    },
+    {
+      "id": "differential-geometry/canonical-bundle-complex-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c9aaaae7bcf289528460ea7ab63ba4b566dff12a1cee2732ac9828f0b7e83ad",
+      "evidence": "The core constructs the top exterior power of the holomorphic cotangent bundle and identifies it as a holomorphic line bundle over a complex manifold. The three listed targets are therefore the direct construction inputs; sections and trivializations are later.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-cotangent-bundle",
+        "differential-geometry/holomorphic-line-bundle"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-cotangent-bundle",
+        "differential-geometry/holomorphic-line-bundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/canonical-moment-map-cotangent-lift",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2ee9aeebb44c552c9233337c9d9e7cfb17540c70d1e0b2903e9c7f19b3e5bed",
+      "evidence": "The proof uses a smooth action, its cotangent lift, the equivariant moment-map condition, and Hamiltonian Lie-group-action terminology. The moment-map link in the coordinate example is an output/application and need not be an additional edge.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "differential-geometry/cotangent-lift",
+        "differential-geometry/equivariant-moment-map",
+        "differential-geometry/hamiltonian-lie-group-action"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "differential-geometry/cotangent-lift",
+        "differential-geometry/equivariant-moment-map",
+        "differential-geometry/hamiltonian-lie-group-action"
+      ]
+    },
+    {
+      "id": "differential-geometry/canonical-symplectic-form-cotangent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a29ec3abb6b756a36aeffa6fed6ca3f1274c66ea0d0410d9ac61f03e952e8cd",
+      "evidence": "The definition applies the exterior derivative to the tautological one-form on a cotangent bundle over a smooth manifold. Closedness and nondegeneracy establish symplecticity afterward; cotangent naturality and Hamiltonian signs are later applications.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tautological-one-form-cotangent",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-derivative"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tautological-one-form-cotangent",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/exterior-derivative"
+      ]
+    },
+    {
+      "id": "differential-geometry/category-of-complex-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4acf6adc51ee494a6defe8e21aad492521c35aafbaebc00570024999e32a15c",
+      "evidence": "The objects and morphisms are complex manifolds and holomorphic maps, while category/core foundations justify identities, composition, and the maximal subgroupoid. Biholomorphisms and the underlying smooth category are later comparisons.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-map",
+        "algebra-category-theory/category",
+        "algebra-category-theory/core-of-a-category"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-map",
+        "algebra-category-theory/category",
+        "algebra-category-theory/core-of-a-category"
+      ]
+    },
+    {
+      "id": "differential-geometry/category-of-symplectic-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3325f96bab1ee19202515943dbefebe5f5b9a8eba30ffd607a13b6f3fcd96431",
+      "evidence": "The objects and morphisms are symplectic manifolds and pullback-preserving symplectic maps. Category/core foundations justify composition and isomorphisms; immersions, symplectomorphisms, and the subgroupoid are consequences.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/symplectic-map",
+        "algebra-category-theory/category",
+        "algebra-category-theory/core-of-a-category"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/symplectic-map",
+        "algebra-category-theory/category",
+        "algebra-category-theory/core-of-a-category"
+      ]
+    },
+    {
+      "id": "differential-geometry/cauchy-hypersurface",
+      "outcome": "corrected",
+      "source_sha256": "74cd88d268d126354931b4c1b68ae636a5cb7ecaded888ad0b785863c7f8fa82",
+      "evidence": "The core uses the timelike-curve convention retained here. Checked against the cited Geroch and B\u00e4r\u2013Ginoux\u2013Pf\u00e4ffle treatments, which define a Cauchy hypersurface by meeting every inextendible timelike curve exactly once; global hyperbolicity is treated as the later characterization. The causal-curve prerequisite remains useful for the corpus definition of causal/timelike curves.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/globally-hyperbolic-spacetime"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/causal-curve"
+      ]
+    },
+    {
+      "id": "differential-geometry/causal-curve",
+      "outcome": "corrected",
+      "source_sha256": "1f00ccdd0adaf2e6f4f6dcc94174cce1d90bfedd002dc34f06c7cdb39b21175b",
+      "evidence": "The core uses the Lorentzian metric and time orientation to define future/past nonspacelike curves. The timelike clause was corrected to require a nonzero tangent, preventing a constant curve from being timelike by vacuity. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/time-orientation"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/time-orientation"
+      ]
+    },
+    {
+      "id": "differential-geometry/causal-diamond",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd83cc4720efd28de7d6f72ea9c860468b448872d905fca62d5b7a1d2f85c796",
+      "evidence": "The object is exactly J\u207a(p)\u2229J\u207b(q), requiring the Lorentzian setting and causal-future/past definitions. Global hyperbolicity is introduced only as a condition involving compact diamonds and strong causality.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/chronological-and-causal-future"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/chronological-and-causal-future"
+      ]
+    },
+    {
+      "id": "differential-geometry/celestial-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d00edce6804c09fcce35bc6f596b01055afa316f198f10888ec87e51c18a282",
+      "evidence": "The construction starts with the future null cone in Minkowski space and quotients by positive rays. The S\u00b2 and CP\u00b9 identifications and Lorentz/M\u00f6bius interpretations are subsequent descriptions.",
+      "previous_prerequisites": [
+        "linear-algebra/minkowski-vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/minkowski-vector-space"
+      ]
+    },
+    {
+      "id": "differential-geometry/characteristic-distribution-coisotropic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e462fb5c87300d0107e8ca656d8383ab7cebb30f01eb10322f21e78ca38c133b",
+      "evidence": "The distribution is the symplectic orthogonal of tangent spaces to a coisotropic submanifold and is asserted to be a vector subbundle. Foliation, involutivity, Hamiltonian examples, and reduction follow later.",
+      "previous_prerequisites": [
+        "differential-geometry/coisotropic-submanifold",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/vector-subbundle"
+      ],
+      "prerequisites": [
+        "differential-geometry/coisotropic-submanifold",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/vector-subbundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/characteristic-foliation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0723f4508432d3214814255ca31660efaae0f0afba30cd21b25a6920728e7cc5",
+      "evidence": "The foliation integrates the characteristic distribution on a coisotropic submanifold of a symplectic manifold. Frobenius, Lie brackets, Hamiltonian examples, and quotient reduction are explanatory consequences.",
+      "previous_prerequisites": [
+        "differential-geometry/coisotropic-submanifold",
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/characteristic-distribution-coisotropic"
+      ],
+      "prerequisites": [
+        "differential-geometry/coisotropic-submanifold",
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/characteristic-distribution-coisotropic"
+      ]
+    },
+    {
+      "id": "differential-geometry/chirality-operator",
+      "outcome": "corrected",
+      "source_sha256": "fbc0eb9d5b33bd8de335924be3e7999e74572aef795aa06489d7e2b7c207b505",
+      "evidence": "The operator is the normalized Clifford volume element acting on an even-dimensional spinor module, with Clifford anticommutation and half-spin eigenspaces. Gamma matrices occur only in the later matrix-realization paragraph, so that edge was removed.",
+      "previous_prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/spinor-module",
+        "differential-geometry/clifford-algebra",
+        "differential-geometry/clifford-module",
+        "mathematical-physics/gamma-matrices"
+      ],
+      "prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/spinor-module",
+        "differential-geometry/clifford-algebra",
+        "differential-geometry/clifford-module"
+      ]
+    },
+    {
+      "id": "differential-geometry/chronological-and-causal-future",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ccaf4a568a8eb97611eaa8d33114cd4e91c5d5f4237e2a931823b245cdd65a52",
+      "evidence": "The definitions of I\u00b1 and J\u00b1 use a time-oriented Lorentzian manifold and causal/timelike curves. Causal diamonds are a later intersection of these sets, not an input.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/causal-curve"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/causal-curve"
+      ]
+    },
+    {
+      "id": "differential-geometry/classical-phase-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "da21c1c43a7a215211ec19d4df863aeeea3bffe4b92b3825b63835bb42564922",
+      "evidence": "The core packages a symplectic manifold with a Hamiltonian function and its uniquely determined vector field. Cotangent models, Hamiltonian flow/system, Poisson structures, and constrained mechanics are later applications.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/hamiltonian-function",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/hamiltonian-function",
+        "fiber-bundles/vector-field"
+      ]
+    },
+    {
+      "id": "differential-geometry/clean-intersection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2abea9e7bf14ab499bb731687ffc0a924924980afaee11af1dd9d7156dfaf9b8",
+      "evidence": "Clean intersection requires embedded submanifolds of a smooth manifold and the tangent equality T_p(S\u2229T)=T_pS\u2229T_pT. Transversality and connected-component material occurs in later comparison/examples.",
+      "previous_prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tangent-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tangent-space"
+      ]
+    },
+    {
+      "id": "differential-geometry/clifford-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d45327017e4f052e8f9602c7a5cabf7b2a99c4b9e776c327b5943d2abb9b9ac",
+      "evidence": "The quotient requires a module over a commutative ring with 2 invertible, a quadratic form, and the tensor algebra. Inner products, universal properties, Clifford modules, and associated graded results are later specializations or consequences.",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ring",
+        "linear-algebra/quadratic-form",
+        "algebra-modules/tensor-algebra"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-rings/ring",
+        "linear-algebra/quadratic-form",
+        "algebra-modules/tensor-algebra"
+      ]
+    },
+    {
+      "id": "differential-geometry/clifford-algebra-as-super-enveloping-quotient",
+      "outcome": "corrected",
+      "source_sha256": "80d2fa54d82837b1cbd857fcdd89a192510243617129b15552a120126997203d",
+      "evidence": "The theorem builds the Lie superalgebra bracket from the polarization b_q of q and then identifies its central quotient with Cl(V,q); the two supergeometry targets and quadratic-form target are direct inputs.",
+      "previous_prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "supergeometry/universal-enveloping-algebra-of-lie-superalgebra"
+      ],
+      "prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "supergeometry/universal-enveloping-algebra-of-lie-superalgebra",
+        "linear-algebra/quadratic-form"
+      ]
+    },
+    {
+      "id": "differential-geometry/clifford-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d53bfd3543cf5693889e628ce16cf1994f62dcb7c41f0e6144c59765251b7dd1",
+      "evidence": "The definition is a module together with a unital homomorphism from a Clifford algebra, equivalently a linear Clifford multiplication map. Module, algebra-homomorphism, and linear-map targets are used in the core; graded/super and spinor material is later.",
+      "previous_prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "algebra-modules/module",
+        "algebra-modules/algebra-homomorphism",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/clifford-algebra",
+        "algebra-modules/module",
+        "algebra-modules/algebra-homomorphism",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "differential-geometry/coadjoint-orbit",
+      "outcome": "corrected",
+      "source_sha256": "89c9ea1a6655fa1f3dfbbfcb1d23af68eaf11287b509d03ef39371653cda92c1",
+      "evidence": "The orbit is formed from a Lie group, Lie algebra, coadjoint action, orbit, and stabilizer. The core also explicitly equips G/G_lambda\u2192O_lambda with a diffeomorphism, so the diffeomorphism prerequisite is direct; the symplectic/KKS structure is later.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/orbit-lie-group",
+        "fiber-bundles/coadjoint-action-of-a-lie-group",
+        "lie-groups/stabilizer-lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/orbit-lie-group",
+        "fiber-bundles/coadjoint-action-of-a-lie-group",
+        "lie-groups/stabilizer-lie-group",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "differential-geometry/cobordism",
+      "outcome": "corrected",
+      "source_sha256": "11d0d0fa8bae3ec75cbda7077d638368e9c7cf26e51d5af3a1ada74bfce31d92",
+      "evidence": "The core requires closed boundary manifolds, a compact manifold with boundary, and an identification \u2202W\u2245M0\u2294M1. Diffeomorphism and disjoint-union targets were added for that boundary data; equivalence-relation language appears only in later convention material.",
+      "previous_prerequisites": [
+        "topology/closed-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "shared-foundations/equivalence-relation"
+      ],
+      "prerequisites": [
+        "topology/closed-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/diffeomorphism",
+        "differential-geometry/disjoint-union-of-smooth-manifolds"
+      ]
+    },
+    {
+      "id": "differential-geometry/cobordism-category",
+      "outcome": "corrected",
+      "source_sha256": "461b8f6803a86912857c3dbde773cc97959b2983f31f8d996cd8b8a79703180c",
+      "evidence": "The category has closed manifolds as objects, cobordisms with collars as morphisms, and composition by gluing. Category, morphism, identity, cobordism, and collar-neighborhood foundations are all used by the core construction.",
+      "previous_prerequisites": [
+        "topology/closed-manifold",
+        "algebra-category-theory/morphism",
+        "differential-geometry/cobordism",
+        "algebra-category-theory/identity-morphism"
+      ],
+      "prerequisites": [
+        "topology/closed-manifold",
+        "algebra-category-theory/morphism",
+        "differential-geometry/cobordism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/category",
+        "differential-geometry/collar-neighborhood-theorem"
+      ]
+    },
+    {
+      "id": "differential-geometry/cobordism-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f182da78a52418e7dc7cb832dcc8babc29e26b5cba22b09aeff72351f9dc71fa",
+      "evidence": "The relation is defined by existence of a cobordism between closed structured manifolds; the equivalence-relation target and cobordism/closed-manifold targets are used directly, while collar gluing is the proof of transitivity.",
+      "previous_prerequisites": [
+        "topology/closed-manifold",
+        "differential-geometry/cobordism",
+        "shared-foundations/equivalence-relation"
+      ],
+      "prerequisites": [
+        "topology/closed-manifold",
+        "differential-geometry/cobordism",
+        "shared-foundations/equivalence-relation"
+      ]
+    },
+    {
+      "id": "differential-geometry/codifferential",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f03aaae554be6c209a0695bba92ecf06c398a1bd3f3a4775fe99790a406889a",
+      "evidence": "The codifferential is the formal adjoint of the exterior derivative on forms over an oriented Riemannian manifold, with the Hodge-star formula. Riemannian manifold, formal adjoint, exterior derivative, and Hodge star are all used in the core; Laplacian and integration-by-parts issues are later.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/formal-adjoint-differential-operator",
+        "fiber-bundles/exterior-derivative",
+        "differential-geometry/hodge-star-operator"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/formal-adjoint-differential-operator",
+        "fiber-bundles/exterior-derivative",
+        "differential-geometry/hodge-star-operator"
+      ]
+    },
+    {
+      "id": "differential-geometry/coisotropic-reduction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "896b253c762787f8084c05c322f4364bdfe1fa3efd2b5c47e0eb444f68e5b901",
+      "evidence": "The theorem assumes a coisotropic submanifold whose characteristic foliation has a smooth leaf-space quotient and concludes the descended symplectic form. Coisotropic submanifold, characteristic foliation, smooth manifold, and symplectic manifold are the direct hypotheses/conclusion data.",
+      "previous_prerequisites": [
+        "differential-geometry/coisotropic-submanifold",
+        "differential-geometry/characteristic-foliation",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/symplectic-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/coisotropic-submanifold",
+        "differential-geometry/characteristic-foliation",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/symplectic-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/coisotropic-submanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f3db12f80386d6a200683fee765bc4fd94a68049a45ed900a92457edc635124",
+      "evidence": "The definition imposes (T_pC)^\u03c9\u2282T_pC for an embedded submanifold of a symplectic manifold. Symplectic manifold, embedded submanifold, coisotropic subspace, and smooth embedding provide the ambient and pointwise inputs; characteristic reduction is later.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/coisotropic-subspace",
+        "fiber-bundles/smooth-embedding"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/coisotropic-subspace",
+        "fiber-bundles/smooth-embedding"
+      ]
+    },
+    {
+      "id": "differential-geometry/coisotropic-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d6f504650bad9fa6ac74cdef3880863fe5d61e1309b2f624bb4492cbc7dc3564",
+      "evidence": "The core defines W^\u03c9\u2282W inside a symplectic vector space and immediately constructs the quotient form. Symplectic vector space, linear subspace, and symplectic orthogonal complement are direct inputs; global reduction and related subspaces are later.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "convex-analysis/linear-subspace",
+        "differential-geometry/symplectic-orthogonal-complement"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "convex-analysis/linear-subspace",
+        "differential-geometry/symplectic-orthogonal-complement"
+      ]
+    },
+    {
+      "id": "differential-geometry/collar-neighborhood-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4273f46ff09f3c392a4ee348e935bd0c130e78df01bf7504c6e07e4353cd3d78",
+      "evidence": "The theorem constructs a smooth embedding of \u2202M\u00d7[0,1) into a manifold with boundary and identifies it diffeomorphically with an open neighborhood. Manifold-with-boundary, smooth embedding, product manifold, and boundary-smooth-map notions are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/product-manifold",
+        "differential-geometry/smooth-map-of-manifolds-with-boundary"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/product-manifold",
+        "differential-geometry/smooth-map-of-manifolds-with-boundary"
+      ]
+    },
+    {
+      "id": "differential-geometry/comoment-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd94b8bcf6a77005b001d8aa364f154c2ebb89c3dad36d21b7d4db16ab8962ab",
+      "evidence": "The definition is a linear assignment from the Lie algebra to smooth functions satisfying the moment-map differential identity and Poisson bracket condition. Symplectic action, Lie algebra, linear map/homomorphism, Poisson algebra, infinitesimal generator, and vector field are all used in the core.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-lie-group-action",
+        "lie-groups/lie-algebra",
+        "linear-algebra/linear-map",
+        "lie-groups/lie-algebra-homomorphism",
+        "differential-geometry/poisson-algebra-smooth-functions",
+        "differential-geometry/infinitesimal-generator-lie-action",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-lie-group-action",
+        "lie-groups/lie-algebra",
+        "linear-algebra/linear-map",
+        "lie-groups/lie-algebra-homomorphism",
+        "differential-geometry/poisson-algebra-smooth-functions",
+        "differential-geometry/infinitesimal-generator-lie-action",
+        "fiber-bundles/vector-field"
+      ]
+    },
+    {
+      "id": "differential-geometry/compactly-supported-de-rham-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e1661d2a4194bf09e3d5ddcd85392cc3c8ae4ed5c69814e1c13132c321c8119",
+      "evidence": "The complex restricts the de Rham differential to compactly supported forms and takes its cohomology. Smooth manifold, exterior derivative, compactly supported form, and de Rham complex are direct; proper pullback and duality are later.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/exterior-derivative",
+        "differential-geometry/compactly-supported-differential-form",
+        "differential-geometry/de-rham-complex"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/exterior-derivative",
+        "differential-geometry/compactly-supported-differential-form",
+        "differential-geometry/de-rham-complex"
+      ]
+    },
+    {
+      "id": "differential-geometry/compactly-supported-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1815a9b80c6be96af81546a249d50aee70eb232c5cb45c109f60ad2fdea5baf2",
+      "evidence": "The definition takes the compact support of a differential form on a smooth manifold and records the resulting vector space. Smooth manifold, differential k-form, compact set, and vector-space foundations are direct; integration and cohomology are later.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "topology/compact-set",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "topology/compact-set",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "differential-geometry/compatible-almost-complex-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "481c84d0effecda3a08031517ec93ff6fe48fd40c128696e7bbd8579d48caad2",
+      "evidence": "The compatible almost-complex source was outside this batch and remains triaged.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/almost-complex-structure"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/almost-complex-structure"
+      ]
+    },
+    {
+      "id": "differential-geometry/completely-integrable-hamiltonian-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5c9258c6a353c8a830ab336295d73736eaaa6d8527a12e7975b3146fe73faee",
+      "evidence": "The core requires a Hamiltonian system and an involutive family of n functions, with functional independence on an open dense set. Regular values, action-angle coordinates, and Hamiltonian vector fields occur in later theorem/example sections.",
+      "previous_prerequisites": [
+        "differential-geometry/hamiltonian-system",
+        "differential-geometry/functions-in-involution"
+      ],
+      "prerequisites": [
+        "differential-geometry/hamiltonian-system",
+        "differential-geometry/functions-in-involution"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-atlas",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ba6661dd0dc9f6d92051b52e42e42c0226f73e8192a62ea4ad1925106ddae2b",
+      "evidence": "A complex atlas is a covering family of complex-coordinate charts with holomorphic transitions, modulo the stated equivalence relation. The four listed targets supply the chart, manifold, transition-map, and equivalence data; complex-manifold is a later result.",
+      "previous_prerequisites": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-coordinate-chart",
+        "shared-foundations/equivalence-class",
+        "differential-geometry/holomorphic-map"
+      ],
+      "prerequisites": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-coordinate-chart",
+        "shared-foundations/equivalence-class",
+        "differential-geometry/holomorphic-map"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-clifford-module-classification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ad9444df7d9a722a7157522ceba28fe1c0ae26d27ede08ef5b6f14ae7203f3e",
+      "evidence": "The theorem assumes a finite-dimensional complex vector space with nondegenerate quadratic form and classifies its Clifford algebra modules. Quadratic form, Clifford algebra, and Clifford module are the direct theorem inputs; spin-group restriction is later.",
+      "previous_prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/clifford-algebra",
+        "differential-geometry/clifford-module"
+      ],
+      "prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/clifford-algebra",
+        "differential-geometry/clifford-module"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-coordinate-chart",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3c1ad20bcf400845b7dcf94ed2c09ba3fa953b0870e5e16f230315ddd754061",
+      "evidence": "The chart is a homeomorphism from an open subset of a topological manifold to an open subset of C^n. Topological-manifold and homeomorphism foundations are exactly the core data; holomorphic compatibility is deferred to atlases.",
+      "previous_prerequisites": [
+        "topology/topological-manifold",
+        "topology/homeomorphism"
+      ],
+      "prerequisites": [
+        "topology/topological-manifold",
+        "topology/homeomorphism"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "08bdb0b1dd10249ffe857254e997a32c63e5731778eed49548b697a9c62751eb",
+      "evidence": "The definition uses a topological manifold with a compatible complex atlas and the underlying smooth-manifold structure. Holomorphic-map links occur in the transition condition and later morphism discussion, but adding holomorphic-map as a prerequisite would create the complex-manifold/holomorphic-map definition cycle.",
+      "previous_prerequisites": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-atlas",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "topology/topological-manifold",
+        "differential-geometry/complex-atlas",
+        "fiber-bundles/smooth-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/de-rham-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "baee5643338b4c5570bd0d668c31b3c880802d72783c83185b0b3532e0c50e52",
+      "evidence": "The theorem identifies de Rham cohomology with real singular cohomology via integration; the four listed foundations are direct theorem data, while naturality and proof tools are later.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/integration-of-differential-forms",
+        "differential-geometry/de-rham-complex",
+        "topology/singular-cohomology-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/integration-of-differential-forms",
+        "differential-geometry/de-rham-complex",
+        "topology/singular-cohomology-group"
+      ]
+    },
+    {
+      "id": "differential-geometry/degree-of-a-smooth-map",
+      "outcome": "corrected",
+      "source_sha256": "d33781a44c5b0509a9f8ac23591222973e99ad5df80e360e8f021cb519714c16",
+      "evidence": "The definition counts orientation signs over a regular fiber of a proper smooth map; orientation, properness, and regular value are direct, while integration is later.",
+      "previous_prerequisites": [
+        "differential-geometry/orientation-of-a-smooth-manifold",
+        "differential-geometry/proper-smooth-map",
+        "fiber-bundles/regular-value",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/integration-of-differential-forms"
+      ],
+      "prerequisites": [
+        "differential-geometry/orientation-of-a-smooth-manifold",
+        "differential-geometry/proper-smooth-map",
+        "fiber-bundles/regular-value"
+      ]
+    },
+    {
+      "id": "differential-geometry/del-j-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "918ac2dd8052db648bc0d59c577052ef0537f7fc39a26c0991f75f9325ffa7cb",
+      "evidence": "The operator is defined by conjugating Dolbeault with J on a hypercomplex manifold; that structure is the direct input and applications are later.",
+      "previous_prerequisites": [
+        "differential-geometry/hypercomplex-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/hypercomplex-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/depth-of-a-point-in-a-manifold-with-corners",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ebc69ca9ef316980de93d3be7c15ee9a7b10a5be8b612d5f4e987f984cf1066",
+      "evidence": "Depth counts vanishing boundary coordinates in a corner chart; manifold-with-corners is the sole direct input.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-corners"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-corners"
+      ]
+    },
+    {
+      "id": "differential-geometry/diagonal-transversality-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70240719ae3ffb88a1ee7dbb993738594de2e43b3a14b8b1db75a18184c649e8",
+      "evidence": "The criterion compares map transversality with product transversality to the embedded diagonal; all five listed notions occur in the theorem statement.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/product-manifold",
+        "differential-geometry/transverse-smooth-maps",
+        "differential-geometry/embedded-submanifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/product-manifold",
+        "differential-geometry/transverse-smooth-maps",
+        "differential-geometry/embedded-submanifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/diffeomorphism-groupoid-of-smooth-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf97d8054250a92c2f7832cfc0110cda2894fdc3f08a32e8de18e31607b5ba11",
+      "evidence": "The definition uses smooth manifolds, diffeomorphisms, groupoids, cores, and the smooth-manifold category directly.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism",
+        "algebra-category-theory/groupoid",
+        "algebra-category-theory/core-of-a-category",
+        "differential-geometry/category-of-smooth-manifolds"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/diffeomorphism",
+        "algebra-category-theory/groupoid",
+        "algebra-category-theory/core-of-a-category",
+        "differential-geometry/category-of-smooth-manifolds"
+      ]
+    },
+    {
+      "id": "differential-geometry/differentiable-flow",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ada316f49f6d4a397f4df82a2b837ac3abbe62b7f3fbda4d1088a2ea5cd8ad36",
+      "evidence": "A flow is a C1 map from the real line times a smooth manifold satisfying composition laws; all four listed foundations are direct definition data.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "real-analysis/differentiable-map",
+        "shared-foundations/real-numbers",
+        "shared-foundations/composition"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "real-analysis/differentiable-map",
+        "shared-foundations/real-numbers",
+        "shared-foundations/composition"
+      ]
+    },
+    {
+      "id": "differential-geometry/differential-form-of-type-pq",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac9a39d2845ed9defac3f721667c3d0f65909be8079e6185cdb4e851d0bde47f",
+      "evidence": "A (p,q)-form is a smooth section of the type-decomposed complexified cotangent bundle; manifold, splitting, section, and wedge are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/complexified-tangent-bundle-splitting",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/complexified-tangent-bundle-splitting",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "differential-geometry/differential-operator-vector-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23de64daab660fbfd4e72684f81b8a7378e9acc44faaa9f13ea810f9ae49277a",
+      "evidence": "The definition gives a linear differential operator between vector-bundle sections over a smooth manifold; the three listed foundations are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "differential-geometry/dirac-spinor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca10bc3e0e5858118a301e9e5e34f02f4aa3edc24b9b2c336a6c91c57d27f8b1",
+      "evidence": "A Dirac spinor uses a spinor module and immediately defines the associated spinor-bundle field; both are direct representations, with chirality later.",
+      "previous_prerequisites": [
+        "differential-geometry/spinor-module",
+        "differential-geometry/spinor-bundle"
+      ],
+      "prerequisites": [
+        "differential-geometry/spinor-module",
+        "differential-geometry/spinor-bundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/disjoint-union-of-smooth-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ce82d23b6a7e0d19076c17349d3d410ea66b2aa94e5587d12581fbc7f731612e",
+      "evidence": "The construction uses component smooth manifolds and atlas, smooth embeddings, and the coproduct property in the smooth-manifold category directly.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-embedding",
+        "algebra-category-theory/coproduct",
+        "differential-geometry/category-of-smooth-manifolds"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-atlas",
+        "fiber-bundles/smooth-embedding",
+        "algebra-category-theory/coproduct",
+        "differential-geometry/category-of-smooth-manifolds"
+      ]
+    },
+    {
+      "id": "differential-geometry/dolbeault-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a522cb6557607f4fe2eb564e4b6821e9db7e2216491a1e57af7a2c387a817737",
+      "evidence": "Dolbeault cohomology is cohomology of the Dolbeault complex and a complex vector space; those four foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "algebra-homological/cohomology-module",
+        "differential-geometry/dolbeault-complex",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "algebra-homological/cohomology-module",
+        "differential-geometry/dolbeault-complex",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "differential-geometry/dolbeault-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6aee00d30bdd3edb602bcf7fddad31685408aff41421a53732a132f16c558b6e",
+      "evidence": "The complex consists of vector spaces of forms with Dolbeault differential; complex manifold, cochain complex, vector space, and operators are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "algebra-homological/cochain-complex",
+        "linear-algebra/vector-space",
+        "differential-geometry/dolbeault-operators"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "algebra-homological/cochain-complex",
+        "linear-algebra/vector-space",
+        "differential-geometry/dolbeault-operators"
+      ]
+    },
+    {
+      "id": "differential-geometry/dolbeault-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a6f49635a02e232fa2d1d5ac5bfe4e4cb7707b0f89c9d01f1b12e809645d0de4",
+      "evidence": "The operators are bidegree components of exterior derivative on a complex manifold; the three listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/differential-form-of-type-pq",
+        "fiber-bundles/exterior-derivative"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/differential-form-of-type-pq",
+        "fiber-bundles/exterior-derivative"
+      ]
+    },
+    {
+      "id": "differential-geometry/double-of-a-manifold-with-boundary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "986d43fcebe679c0deb4fcebac69a53999e14e6345db555adee8afa0176d6e49",
+      "evidence": "The double glues two boundary manifolds using a collar to produce a smooth manifold; all three listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/collar-neighborhood-theorem",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/collar-neighborhood-theorem",
+        "fiber-bundles/smooth-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/einstein-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1a52bb932792e4ab0da2eeede120445fa580f0a9bb566e84a4b39a529a596b9c",
+      "evidence": "The definition is Ricci equal to a scalar multiple of the metric on a Riemannian manifold; both listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/ricci-curvature"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/ricci-curvature"
+      ]
+    },
+    {
+      "id": "differential-geometry/elliptic-differential-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "214ba2e4d9ae928a57c03298256ac9a66a9785b2069033587c0d87304d83f85b",
+      "evidence": "Ellipticity is invertibility of the principal symbol of a differential operator between vector bundles; all four listed foundations are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "differential-geometry/differential-operator-vector-bundles",
+        "differential-geometry/principal-symbol",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "differential-geometry/differential-operator-vector-bundles",
+        "differential-geometry/principal-symbol",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ]
+    },
+    {
+      "id": "differential-geometry/equivariant-moment-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3fb2dad0a5562e1b612a0f4cd0de2bcfd3305e38860498418af06293e2da90b",
+      "evidence": "An equivariant moment map intertwines a Lie-group moment map with the coadjoint action; all three listed foundations are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/moment-map",
+        "fiber-bundles/coadjoint-action-of-a-lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/moment-map",
+        "fiber-bundles/coadjoint-action-of-a-lie-group"
+      ]
+    },
+    {
+      "id": "differential-geometry/exact-symplectic-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0d4914297da88f6b93e8c28b4a88132541bdea34546d57adc20b212e7906d83",
+      "evidence": "The definition is a symplectic manifold whose form is exact; both listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/exact-differential-form"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/exact-differential-form"
+      ]
+    },
+    {
+      "id": "differential-geometry/fine-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e32317e74fadf4e8186e65e3c80c5ae654a9db83383ff8963d532718e6f0fc7",
+      "evidence": "Fineness uses sheaves of abelian groups, open covers, and stalk support on a topological space; all five listed foundations are direct.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-groups/abelian-group",
+        "topology/topological-space",
+        "topology/open-cover",
+        "algebraic-geometry-foundations/stalk"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-groups/abelian-group",
+        "topology/topological-space",
+        "topology/open-cover",
+        "algebraic-geometry-foundations/stalk"
+      ]
+    },
+    {
+      "id": "differential-geometry/first-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "175618e0ad854abe9400f7f869d14522c9582963c8bbf5b13404cb92e5444bd4",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/hamiltonian-system",
+        "differential-geometry/hamiltonian-vector-field",
+        "differential-geometry/hamiltonian-flow"
+      ],
+      "prerequisites": [
+        "differential-geometry/hamiltonian-system",
+        "differential-geometry/hamiltonian-vector-field",
+        "differential-geometry/hamiltonian-flow"
+      ]
+    },
+    {
+      "id": "differential-geometry/flux-group",
+      "outcome": "corrected",
+      "source_sha256": "94e399ce0fd11d11909fd41547c23d3444429bd77cca7bbfa2b4675820bb8d8d",
+      "evidence": "The flux group is defined from a symplectic manifold, de Rham classes, and the flux homomorphism; Hamiltonian diffeomorphisms occur only in the later kernel exact sequence.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/de-rham-cohomology-group",
+        "differential-geometry/flux-homomorphism",
+        "differential-geometry/hamiltonian-diffeomorphism"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/de-rham-cohomology-group",
+        "differential-geometry/flux-homomorphism"
+      ]
+    },
+    {
+      "id": "differential-geometry/flux-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f2d1bb79dcf61def9946c5d5de0172fca531a5e1592cf7f49f1ed888c1a2857",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/symplectic-isotopy",
+        "fiber-bundles/de-rham-cohomology-group",
+        "lie-groups/universal-covering-group",
+        "differential-geometry/symplectomorphism-group"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/symplectic-isotopy",
+        "fiber-bundles/de-rham-cohomology-group",
+        "lie-groups/universal-covering-group",
+        "differential-geometry/symplectomorphism-group"
+      ]
+    },
+    {
+      "id": "differential-geometry/formal-adjoint-differential-operator",
+      "outcome": "corrected",
+      "source_sha256": "55d7368c72dc5cc721d1fc386d9281aab8e65cd8eb36f6334f225a5aa5d16baf",
+      "evidence": "The formal adjoint core uses a Riemannian manifold, vector bundles with bundle metrics, a differential operator, smooth sections, and integration by parts; all six are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "differential-geometry/differential-operator-vector-bundles"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "differential-geometry/differential-operator-vector-bundles",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "real-analysis/integration-by-parts"
+      ]
+    },
+    {
+      "id": "differential-geometry/frolicher-spectral-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ae683d3fd98f40447ba50df0161094b99b4ec092bb31e12aeee3bfd8e93c2fed",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/de-rham-complex",
+        "differential-geometry/dolbeault-cohomology"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/de-rham-complex",
+        "differential-geometry/dolbeault-cohomology"
+      ]
+    },
+    {
+      "id": "differential-geometry/fubini-study-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ed285687ccb0f81fb3b4f24e3e16b5327d7967945a5818cb0121f3785724d65",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/projective-space",
+        "differential-geometry/kahler-metric",
+        "differential-geometry/kahler-form"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/projective-space",
+        "differential-geometry/kahler-metric",
+        "differential-geometry/kahler-form"
+      ]
+    },
+    {
+      "id": "differential-geometry/functions-in-involution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "599d39250d6e5f3f88b9af9f22760009d5edf672862c76587ef7dc7775659ae5",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/poisson-bracket-symplectic"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/poisson-bracket-symplectic"
+      ]
+    },
+    {
+      "id": "differential-geometry/fundamental-form-almost-hermitian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0df49de056934073729ac716006978fa888ee0c1bbc957f936e46b54cd0ab5c2",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/almost-hermitian-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/differential-k-form"
+      ],
+      "prerequisites": [
+        "differential-geometry/almost-hermitian-manifold",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/differential-k-form"
+      ]
+    },
+    {
+      "id": "differential-geometry/gaussian-curvature",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d9ec9d8192db1f9287736ff26fe6606495c16a3b20f2e86110fdc10af256828b",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/sectional-curvature"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/sectional-curvature"
+      ]
+    },
+    {
+      "id": "differential-geometry/geodesic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4081929d0772bd55c1c009efb597949fc14fe047f9a3e0f16e48a71179b9f117",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/levicivita-connection-connection",
+        "fiber-bundles/covariant-derivative-of-a-section"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/levicivita-connection-connection",
+        "fiber-bundles/covariant-derivative-of-a-section"
+      ]
+    },
+    {
+      "id": "differential-geometry/geodesic-flow",
+      "outcome": "corrected",
+      "source_sha256": "3fef3a3c6eed3a8631fb8432f4d3ac0dcd02d00c4f039c806107d0b3ae402f0b",
+      "evidence": "The flow is built from geodesics on the unit tangent bundle and is a differentiable flow; all four listed prerequisites are direct core data.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/geodesic",
+        "fiber-bundles/unit-tangent-bundle",
+        "differential-geometry/differentiable-flow"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/geodesic",
+        "fiber-bundles/unit-tangent-bundle",
+        "differential-geometry/differentiable-flow"
+      ]
+    },
+    {
+      "id": "differential-geometry/global-hyperbolicity-and-cauchy-hypersurfaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "edc7c18241a6992b9946400fa1af20dd1e9b519b5732f4164ee3be6c84751a76",
+      "evidence": "The equivalence directly relates Lorentzian manifolds, global hyperbolicity, and Cauchy hypersurfaces; splitting consequences are later.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface"
+      ]
+    },
+    {
+      "id": "differential-geometry/globally-hyperbolic-spacetime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83788eef2192490ce2b41eb0bc2575e63fcb35ea7f1c72115c34453d53a61a6c",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/strong-causality",
+        "differential-geometry/causal-diamond"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/strong-causality",
+        "differential-geometry/causal-diamond"
+      ]
+    },
+    {
+      "id": "differential-geometry/grassmannian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb424b170197a619d562c159b3bb8406a75aa6330f0d4d7daf0288b90f1d0771",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace"
+      ]
+    },
+    {
+      "id": "differential-geometry/hamiltonian-diffeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "751ce3bbe9553c3cd6c01e1bd6df84d752d1ebf8630fa8148e0a711e632838d1",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/time-dependent-hamiltonian-system",
+        "differential-geometry/hamiltonian-isotopy"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/time-dependent-hamiltonian-system",
+        "differential-geometry/hamiltonian-isotopy"
+      ]
+    },
+    {
+      "id": "differential-geometry/hamiltonian-flow",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f02751a87f292dc2aa9467924c6d39e0b3819bbe3ce82df18edc293fd6c49c2",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/hamiltonian-function",
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/hamiltonian-vector-field"
+      ],
+      "prerequisites": [
+        "differential-geometry/hamiltonian-function",
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/hamiltonian-vector-field"
+      ]
+    },
+    {
+      "id": "differential-geometry/hamiltonian-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1a1cc31658897cf3186425ec8619644e678067627b6817c57a47f32270412ac",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/vector-field"
+      ]
+    },
+    {
+      "id": "differential-geometry/hamiltonian-isotopy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e195d050677c425f9d22b98fbe78b8dd3780470280b9e5d9afc8251bc2c1f695",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/symplectic-isotopy",
+        "differential-geometry/time-dependent-hamiltonian-system"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/symplectic-isotopy",
+        "differential-geometry/time-dependent-hamiltonian-system"
+      ]
+    },
+    {
+      "id": "differential-geometry/hamiltonian-lie-group-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ecf2bef828bc885e339239284bc328f57f5380fa6e4da0e215a33d0387ef167d",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "differential-geometry/symplectic-lie-group-action",
+        "fiber-bundles/moment-map",
+        "algebra-groups/group-action"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "differential-geometry/symplectic-lie-group-action",
+        "fiber-bundles/moment-map",
+        "algebra-groups/group-action"
+      ]
+    },
+    {
+      "id": "differential-geometry/hamiltonian-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ffae0a200a31f06e37a817924e3066914ebf7e4462252c9d3c8d6e9a526ac62",
+      "evidence": "Full source and direct target definitions were inspected. The listed prerequisites capture the concepts used by the definition or theorem core; later examples, consequences, and applications are excluded.",
+      "previous_prerequisites": [
+        "differential-geometry/classical-phase-space",
+        "differential-geometry/hamiltonian-function",
+        "differential-geometry/hamiltonian-vector-field"
+      ],
+      "prerequisites": [
+        "differential-geometry/classical-phase-space",
+        "differential-geometry/hamiltonian-function",
+        "differential-geometry/hamiltonian-vector-field"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-projective-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ded461f20d0d7229921ea7310c45645a91f406f9067b76b2571d407e88c8dae",
+      "evidence": "The quotient construction, quotient topology, affine ratio charts, and holomorphic transitions define CPn; the listed vector-space, complex-number, quotient-topology, and complex-manifold construction foundations were checked.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-numbers-c",
+        "topology/quotient-topology",
+        "differential-geometry/complex-manifold"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "shared-foundations/complex-numbers-c",
+        "topology/quotient-topology",
+        "differential-geometry/complex-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-submanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8d6b04f6a9a7113772a47e8e8b8f30d2927e27e58a1462b0c1101055a1dd8e7",
+      "evidence": "The local coordinate normal form directly uses complex manifolds, complex charts, holomorphic maps, embedded submanifolds, and the underlying smooth manifold.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/complex-coordinate-chart",
+        "differential-geometry/holomorphic-map",
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/complex-coordinate-chart",
+        "differential-geometry/holomorphic-map",
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/complex-torus",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f8e593d9f8f85fa765e25586b28b438b012c98c2280e51aa1323df8279db5a5",
+      "evidence": "The quotient V/Lambda directly requires a complex vector space, a discrete lattice, complex-manifold quotient structure, and the descended Lie-group structure.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "lie-groups/discrete-subgroup",
+        "differential-geometry/complex-manifold",
+        "fiber-bundles/lie-group"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "lie-groups/discrete-subgroup",
+        "differential-geometry/complex-manifold",
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "differential-geometry/complexified-tangent-bundle-splitting",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c0f6e21a4b856c6a075f4a860b87ccc7fb464300fee540753f14b50c22600f5",
+      "evidence": "The eigenspace splitting is defined from an almost-complex structure on the tangent bundle; both listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/almost-complex-structure",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites": [
+        "differential-geometry/almost-complex-structure",
+        "fiber-bundles/tangent-bundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/conformal-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2836545572deb65e7c77f27f8efc67d11e0c828418568c8fbcfc52c63ffe1451",
+      "evidence": "The defining pullback equation is for a smooth map between Riemannian manifolds; both listed prerequisites are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "differential-geometry/constant-rank-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efe9bc374f37dbb66cc59cd41736fd72f676de89e4c1e20849cbc6324aca581e",
+      "evidence": "The theorem assumes a smooth map and constant rank and concludes local normal form; both listed prerequisites are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "differential-geometry/rank-of-a-smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "differential-geometry/rank-of-a-smooth-map"
+      ]
+    },
+    {
+      "id": "differential-geometry/coordinate-transformation-law-riemannian-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "455c2812cdb42354c47f8d57f2462b85d404085437028b8e9c05861b705b02aa",
+      "evidence": "The congruence formula directly uses a Riemannian metric and matrices of its coordinate representations.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "differential-geometry/corner-stratification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efbbddd667682288e5a36911bb81ea283c85ffb31690f07386496540b8c148d2",
+      "evidence": "The strata are defined from a manifold-with-corners and point depth and are asserted to be smooth manifolds; all listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-corners",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/depth-of-a-point-in-a-manifold-with-corners"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-corners",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/depth-of-a-point-in-a-manifold-with-corners"
+      ]
+    },
+    {
+      "id": "differential-geometry/cotangent-lift",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99f86d5fd0db06bff131196e17380268060528bc93e8a1e3a7b4bb39944bc429",
+      "evidence": "The lift is defined from a diffeomorphism by contravariant pullback of covectors; both listed prerequisites are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/pullback-of-covectors"
+      ],
+      "prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/pullback-of-covectors"
+      ]
+    },
+    {
+      "id": "differential-geometry/critical-value-of-a-smooth-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49fc00d93c1481bdc3cc2a35389499b8aa753616527b20b0e92bff5d037368db",
+      "evidence": "A critical value is defined via critical points in a smooth-map fiber and contrasted with regular values; all three listed foundations are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "differential-geometry/critical-point-of-a-smooth-map",
+        "fiber-bundles/regular-value"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "differential-geometry/critical-point-of-a-smooth-map",
+        "fiber-bundles/regular-value"
+      ]
+    },
+    {
+      "id": "differential-geometry/crossing-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1516be735c66542787e336ae577cf9972bd4f737a176f171edea0bfeda311f6",
+      "evidence": "The crossing form is defined for a path of Lagrangian subspaces in a symplectic vector space; both listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "differential-geometry/lagrangian-subspace"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "differential-geometry/lagrangian-subspace"
+      ]
+    },
+    {
+      "id": "differential-geometry/d-c-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70f9819a28803b23d49f3138a75d9b728bc6da6f5fa112795638c5b820eebd02",
+      "evidence": "The d-c operator is defined from the Dolbeault decomposition on a complex manifold and the tangent-bundle complex structure; all three listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/dolbeault-operators",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/dolbeault-operators",
+        "fiber-bundles/tangent-bundle"
+      ]
+    },
+    {
+      "id": "differential-geometry/darboux-theorem-symplectic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c635283a1802c92bc864fd06283223cb43d2951cc173a0c5041a4c8a0312963e",
+      "evidence": "The theorem directly relates a symplectic manifold to local coordinate charts, symplectomorphisms, and the standard symplectic vector space.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "differential-geometry/symplectomorphism",
+        "differential-geometry/symplectic-vector-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "differential-geometry/symplectomorphism",
+        "differential-geometry/symplectic-vector-space"
+      ]
+    },
+    {
+      "id": "differential-geometry/ddbar-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "296ff0f530a27b15674e364b3385059a8082c10596c98d9a31662d96a39f4d4a",
+      "evidence": "The lemma directly assumes a compact Kahler manifold, hence the listed Kahler and complex-manifold prerequisites are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/kahler-manifold",
+        "differential-geometry/complex-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/kahler-manifold",
+        "differential-geometry/complex-manifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/de-rham-homotopy-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42290469f1680f68f5a7f70a8cb12e76b0cab7134151d0e10502791681899834",
+      "evidence": "The operator formula directly uses a smooth homotopy, linear map, pullback of forms, and chain homotopy; all four listed prerequisites are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/smooth-homotopy",
+        "linear-algebra/linear-map",
+        "fiber-bundles/pullback-of-differential-forms",
+        "algebra-homological/chain-homotopy"
+      ],
+      "prerequisites": [
+        "differential-geometry/smooth-homotopy",
+        "linear-algebra/linear-map",
+        "fiber-bundles/pullback-of-differential-forms",
+        "algebra-homological/chain-homotopy"
+      ]
+    }
+  ],
+  "triage_records": [
+    {
+      "id": "differential-geometry/hamiltonian-torus-action",
+      "source_sha256": "6094a24f0b369d484eafc2e332ff40cd019b459f6583f4820a99dd81eb3e51fd",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hamiltonian-vector-field",
+      "source_sha256": "2e60f73e33697cabf087b043982b0479896ceabd0027455f2057b7e3e47d4c2c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hamiltons-equations",
+      "source_sha256": "b01e8988f236f532c9af03ae77406aab6c529916d949b8483aba78845f78c1bb",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hard-lefschetz-theorem",
+      "source_sha256": "10b56348119693b4958f43131146215430d26f94462840366ffe730ce8d140c8",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/harmonic-differential-form",
+      "source_sha256": "af2f3d5587d754cec4121abe0e6b7f2fd4bbfdfb0197e814e2f6c3023c50b0ce",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hermitian-manifold",
+      "source_sha256": "8c6aea8d6c729fe6a39bf3b8a99f71f96ae1b6624316c89463c2e0678200f1e9",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hkt-metric",
+      "source_sha256": "96620e94329bf485c16d69acbc8fc639e01de11446d87f3bd80706a5a604c240",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-decomposition-kahler",
+      "source_sha256": "25fba8a1867485b207a30d441edcfc92e73a08c63628bc3225038f25e2d42f95",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-decomposition-riemannian",
+      "source_sha256": "b79c7c90271c7ecb7644e877e621a25a1731bdec404d5a7c4ca37a91b07d972c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-filtration",
+      "source_sha256": "b67f4e33b81fe3e49e349fda77f3ee0387efc8c967e8e3ee6feab0cc1944d7cd",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-laplacian",
+      "source_sha256": "b45ef15120f7fda5bdcb2f41365ce5d0209406e337f94137b1d7102893cf7b26",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-numbers",
+      "source_sha256": "9f7c70473eb4e33a1a33f6757abfbb674b7edf8e33bf52014d24a9a20477809f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-riemann-bilinear-relations",
+      "source_sha256": "601c110935797ef8b07dcbdc618c70cb8efbda4318dd9c24f25bfa544028e4b7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-star-operator",
+      "source_sha256": "8130cb950a1d47dbddc40270c1b25cc201fdd08994831b9601dd597cd85242b8",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hodge-theorem",
+      "source_sha256": "afae7b4b233985a90c043d27f00679ea2c72ed908a1d0c6cbed6daac6cae459b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-cotangent-bundle",
+      "source_sha256": "be6b11a55f05d17f25ec9b3bb61333c6c7cc3974545cc5af710bc93460dbaef0",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-isometric-immersion",
+      "source_sha256": "875e69e5c5eeb8c88843ffbca9ab154c12f456be0b5b0480a8f864ffbfacdc5e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-line-bundle",
+      "source_sha256": "801d283bfc9911718f7b17261eb38e7b88ba6f1f4c2f6d11f4fc48ddb9570add",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-map",
+      "source_sha256": "d285616da0639955f9464734c7eeb12797bd1cd28a7f0235d1761ea22eb37bb3",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-section",
+      "source_sha256": "4578ed97827f7d86ec1c72ad59467c615b77ad569048809c83a9389401b83d5b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-symplectic-form",
+      "source_sha256": "013d0bda1f1ce6252be5a6e4d93ce23895bb7ee57dbcbf63d35827b06528f14f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-symplectic-manifold",
+      "source_sha256": "57f3d33850b64f3e5c0a1234186cfa89f45eeed1b3a80770902b040ce66bcef4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-tangent-bundle",
+      "source_sha256": "1b0388453f8462e068e5e46c5c280261fd38a3394260d944d02fcaeda2241780",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-vector-bundle",
+      "source_sha256": "5ad2e84bdc62c7b5c400d32724384eb7bb56c9d869742a10e2f0dfa440ab91f1",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/holomorphic-vector-bundle-morphism",
+      "source_sha256": "150bfecce38f72caf7e85485f5f58e7bca17e8427d61a15ce81ba8ec7c954da3",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/homotopy-invariance-of-de-rham-cohomology",
+      "source_sha256": "2f79ce5b6909819c321683d9637537a47211449690fb4f944fb183667c16dd12",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/horocycle-flow",
+      "source_sha256": "24b646d4385c4264b8c969e0355e1331e68729b2ada95318d2e4e13059fe3429",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hyperbolic-three-space",
+      "source_sha256": "aa2099249c73e6f44bcb1a65063bc82b3830c0cc43bd3f4b5fa442d4decd3f57",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hypercomplex-manifold",
+      "source_sha256": "bebbb221e35f6743ae7b331653efe5a787a393d080f566a609343cc8c32de428",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hyperhermitian-manifold",
+      "source_sha256": "c72b8dc48745686dda4c121cddbc55450b560f41125ea29c5e221414287b21ad",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hyperkahler-isometric-immersion",
+      "source_sha256": "f6c2c035950b9b811b50744afd28afef20bc589b25b10e8781c11a8cdb394b4c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hyperkahler-isometry",
+      "source_sha256": "c0d87ff6b72ea4aad87886c18c521b81480ef75e37d2cc229f59ae3cb14432b9",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/hyperkahler-manifold",
+      "source_sha256": "8bd80a49885329e4ba604c18505e27981e2f96327abbe02c7e0823803ead09a5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/immersed-submanifold",
+      "source_sha256": "f36aa330e5a1e66d409b38b9d811e375e5d2698f00fb6e4dab7454199bbf1cc7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/infinitesimal-generator-lie-action",
+      "source_sha256": "6c23710210ee0c80f92c10ece416fc3691c3acc350ea7859a2ff7e2a056a5bee",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/integrable-almost-complex-structure",
+      "source_sha256": "ca86aded5d3ad749bbcdb2ac0d0c0692640b357bd176fb9a5b6b9d400a9e34c8",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/integration-of-differential-forms",
+      "source_sha256": "95a0f427e2e33a13ee53cd4ea0f208200c19864f840fc0c3e2fc40bbc96667fa",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/inverse-function-theorem-for-manifolds",
+      "source_sha256": "af14d3cc7e92b97defe280ca5fc67573d814c3b289c1fea8780fb0741f420872",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/irreducible-holomorphic-symplectic-manifold",
+      "source_sha256": "a35f597a499cac0032fabe1f71f7d3e2167c1981b66f63f3bac7f17b9e28b89b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/isotopy-extension-theorem",
+      "source_sha256": "2953ca6e7b1fc22e78a330fefd3f7f954c0fb42286644654af13603b59b4eb90",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/isotropic-grassmannian",
+      "source_sha256": "456f6e5f5d23b4777009624969cd0c253cf5fa3b4e41ebedbae10e18a399bd55",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/isotropic-submanifold",
+      "source_sha256": "5979403eceee02dc4758d8ccc69ee1e3300d12dd9efd47f040136bc4d2142ca7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/isotropic-subspace",
+      "source_sha256": "c30652f239cdac896da372ffc8ab74063da56cec19bb95efa82b9f59868a230a",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/iterated-tangent-bundle",
+      "source_sha256": "07c2d1a9dfa0d3b5cd7496a0bf6f01acbdfe2182b836f7b9a5d7abe4ca233ec4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/jet-of-a-smooth-map",
+      "source_sha256": "a973068b815c2d0706893be950e7283fca856554538218b74288855a40e6de54",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/kahler-class",
+      "source_sha256": "8d1e81043ddfc32446ff0dfa928692a5a7feb0acdc8b0fc8721b7d723400af54",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/kahler-form",
+      "source_sha256": "b86f16917004bcd2d55537ba999943a1cf0ae2b33b7e120866b3e56a4b35b0d7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/kahler-identities",
+      "source_sha256": "9336e18a77a519d5d6908301717d65e52a081ff3a90d7f95143f73b49c0cc93b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/kahler-manifold",
+      "source_sha256": "8a45244694be33e763521390b8e858a32319192897bc939e4759ca7c88a2caac",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/kahler-metric",
+      "source_sha256": "d2e0ee0c28a98ab58c14f6ccaaa2778c366b0ff44f134747d07ed1a4af731599",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/kirillov-kostant-souriau-form",
+      "source_sha256": "379d2cdb8fb68ac03969f539f2a9824af8cf9fe6ce18105e43b74980f11b410b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lagrangian-gauss-map",
+      "source_sha256": "7b632c3d87a2e537cf988df809b4fdb935a77614c34b53436f0592c54ea6f6ba",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lagrangian-grassmannian",
+      "source_sha256": "53ff1d4bb91cc7fe3be7c6bfcc9923f00d63ab92c3dd8edb43cf4689b9bf2070",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lagrangian-neighborhood-theorem",
+      "source_sha256": "cd18afec9968cc1bb71d38f2ac6c60a41501366efbc9c0a22fa5ee5b8aadef29",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lagrangian-submanifold",
+      "source_sha256": "9e999ec321bfbff8146f39e3452ad83cfdc8dfc22d3d663b227c9bb04bbb59a7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lagrangian-subspace",
+      "source_sha256": "03d7bd48f5f48fe972857af17664a11c3a887bd10f3e2531a46a8faf19861939",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/laplace-beltrami-operator",
+      "source_sha256": "32c0b3ca64d828e1d6b6836824bac12951d9dbac0d92bde288b3b093a4cd3b89",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lefschetz-operator",
+      "source_sha256": "bc4931319cd5bebd45ab0f8fc275c1d909c64608b0c2c9210fcd889afe417d7c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/linear-coisotropic-reduction",
+      "source_sha256": "b36095b32d0cde85ca25420af41658551cef7233b76577afc9ee65440c044108",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/linear-symplectomorphism",
+      "source_sha256": "0dd44fc03115e45475a3df1ae4564dcc8717e53a291a71966330c19971355961",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/liouville-arnold-theorem",
+      "source_sha256": "1423aa437f250f86250df43bb5dd0b02434b73b83f339d0a5ee1683dc1d15b3e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/liouville-vector-field",
+      "source_sha256": "0cd9e90b5e613033bed8e8799a18f005270dcd01d128a4cf9d72332ffd1b701d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/local-hkt-potential",
+      "source_sha256": "57397895a7d9a6209cc80cd22018c51c3720d389310f8b0939ef75ed30cf3187",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/local-kahler-potential",
+      "source_sha256": "7399bb8a69819a484623aeb5ebebe8a024a93480340a210e94172e9e87cac002",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/locally-c-infinity-ringed-space",
+      "source_sha256": "e615f16138b68f0bf1cdde93f4be22009eddfe3dea299b93ac599fe8ec1a8bbe",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lorentzian-dirac-operator",
+      "source_sha256": "508025271be0734317e131df062971a2172b8077885b9c4d079e839214fee905",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lorentzian-manifold",
+      "source_sha256": "5e59ea625743598687870a3d5091175ccf80e43e6cf678f2d08ec97ca721a5db",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lorentzian-spin-structure",
+      "source_sha256": "65f75308fe31f2856494331425d3eade2ec0fc47bcc7e15c3f1104e2f1c5d1ec",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/lorentzian-spinor-bundle",
+      "source_sha256": "dcf84b5d01164fdb0b3845c2fe95ec3250a2ac526a72581505ecb171df804004",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/majorana-spinor",
+      "source_sha256": "0937a167da9a2d0fea267f7bfb55eea6f43587a32ede5bca1a3f79c21032edae",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/majorana-weyl-spinor",
+      "source_sha256": "eda64edd252873eaecd25ae7dff7fcb7f82e727f8f6b4e3a1a1fd53cd7581b22",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/manifold-with-boundary",
+      "source_sha256": "a530df3607fb60b36f2543ddcf40dd450573b3fd3e72bac5d95fcb10348fd288",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/manifold-with-corners",
+      "source_sha256": "d5e74514a97d1f1ba60af9f557d913946be52cf719d2214247bc66fbaebe47b0",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/map-transverse-to-a-submanifold",
+      "source_sha256": "09e408cb5b20cea26e496da18109fc98d7e264e77e17de4e3105a9a193c707a7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/mapping-class-group-of-a-smooth-manifold",
+      "source_sha256": "b28a81ba952961a51935877c261fd00ae360bd442deda593e08a77c37a51015f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/marsden-weinstein-meyer-reduction-theorem",
+      "source_sha256": "6da0c136b2a8970e0b2d59c3213cc9a74142f263d3e863fca9e45b7baba46f43",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/maslov-class-lagrangian-grassmannian",
+      "source_sha256": "df065da89621795035f52db21d7a85933b76d895a11d638898a4e3253efc6518",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/maslov-class-lagrangian-submanifold",
+      "source_sha256": "7d1a4c32bb0f9d1539a620af46986e6ce6d32ca2aef1e3680b62ef350577610d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/maslov-cycle",
+      "source_sha256": "b71acb7dfbd1a5b7a43291ec2a31412bb6dad88bebc369cb632f345c09699527",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/maslov-index",
+      "source_sha256": "29ebf4f4e7921bb6f4536f4dd1122ae60ac1fbc2fa1f607591f40405fde0590c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/mayer-vietoris-sequence-for-de-rham-cohomology",
+      "source_sha256": "e9d02a8ecb0f38593e8da717610f82c755be466a576eeff8ddc76f68b2c06f29",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/moment-map-ambiguity",
+      "source_sha256": "790ecbd078fb822062f27b8e1d96c3e381e018d1d5dad9f289232d42349928b2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/moment-map-component",
+      "source_sha256": "e7925f60c4b51e04707c5f95622323be7b2ce67cf583052f3a0d0f6364bb5a07",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/moment-map-is-poisson",
+      "source_sha256": "f68d9232861c5a0d0652ad998186781763d08ddc410a8c4db756a738af6bb81b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/moment-polytope",
+      "source_sha256": "f8e77beca92800b37fa7e1a208d11ecccac37c5ff60b996830d291e093e2fc7f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/moser-stability-theorem",
+      "source_sha256": "17818c7061ff9042b3c37fa44c5c36503daf78ca2089af9396ac88e850a2222f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/neat-embedding",
+      "source_sha256": "b52468b7d66183b9a6553268349564d7c6037a13b7f0493d76e9fd124d432b94",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/neat-submanifold",
+      "source_sha256": "f3ecda91c972a3d20ebb410c489890fc301c95960745a95f0656366f8b0c005c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/newlander-nirenberg-theorem",
+      "source_sha256": "e46aea9bed011011d45b593b45890c114c740aa6ab5218838ff8f8ccee66baa3",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/nijenhuis-tensor",
+      "source_sha256": "a4f90681f102da5019195534c1350eaa8f7df4cef09c947023fb398f1e8e4f1f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/normal-bundle",
+      "source_sha256": "ccf4e0141c9239bbbb2c40dbc9a5c2ba42bf51d94155c051bccf59feea24f4d2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/obata-connection",
+      "source_sha256": "c115325d79421acd03ce7ad33bb46e9345b33c2f0a736f5ce8c5d055e2ae80b7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/octonionic-projective-line",
+      "source_sha256": "5087da5115e6b5c30ad773327f12b195ab7f9fd631787bf055c604400960b0b6",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/open-submanifold",
+      "source_sha256": "6c5ae9b232bcbeacda2f182244ebb9bbe1529ffc627365c31734080ca9873cde",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/orientability-of-a-smooth-manifold",
+      "source_sha256": "3e9d1a5cda63297e01f5c135050083d8a5ab588d2bfd73bb38e828284df9acaa",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/orientation-of-a-smooth-manifold",
+      "source_sha256": "a1ebaba2e2ba46a07fdef8abc0028c50f9a739c183d6b44b2553650802bb7e22",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/oriented-cobordism",
+      "source_sha256": "ec05d8e5963c596238790705ffbfc9566711ef4bcb65f2c4fcddd6d62447da68",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/oriented-grassmannian",
+      "source_sha256": "982175495bf5315851b23f2503dc2380b99812e3919ed4bbd4c8083ae4550c7a",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/parametric-transversality-theorem",
+      "source_sha256": "2838f4ec9a31a425b436bfcd0e73da320bfeebf1fdd19727972aae3d36bf2106",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/poincare-disk-model",
+      "source_sha256": "2f9f656677895d947adec3c3ecdeb20fefa021624e20395bb819e87932fe0f8e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/poincare-lemma",
+      "source_sha256": "1ca74222c294edf8232faf47cd9376ab8463af3f5f51ecb1603c7a6bc818759a",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/poisson-algebra-smooth-functions",
+      "source_sha256": "cc9f5dce091f723525742ea71e3b0c0238b0e5f0ec1518841292a9c35e4ef245",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/poisson-bracket-symplectic",
+      "source_sha256": "05de4c61e5bd8493e886bf4a8f5bded78337240bef4602c3e6d049c4a13c7b24",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/poisson-manifold",
+      "source_sha256": "04cea3c45926bf247c5cc545f10a3483b35834d1ab1c8a1d8ecb45d50f7c0d27",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/poisson-map",
+      "source_sha256": "0d6573eaa9e4abfa312991de1a81bae93fa3e87d48a0020d6fa09d135de79027",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/polarized-hodge-structure",
+      "source_sha256": "092a2585d63085e86489533d092e8fb075d1e790c82a00bded1b5d75d15ad610",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/primitive-cohomology",
+      "source_sha256": "1c812ed9f668fa4bc893bf85bd568f4287355ec7da9e84fe2537f9a07b9f2b90",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/principal-symbol",
+      "source_sha256": "b6379a704b7c9dd6990cd38ed0da58dbdc3fd40c94241fcf90acfbeb9e638c95",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/proper-injective-immersion-is-an-embedding",
+      "source_sha256": "075f4f1886cc0ed908b9d74b6caf77031a7262af7d1bcbefd2e8af43b12c305e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/proper-smooth-map",
+      "source_sha256": "8dac154618ed99486b51b8c405ea9a21c1030fac64b57e1f7aa544d0efe617ed",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/pseudo-riemannian-manifold",
+      "source_sha256": "719fdb2da850fc8a5c3e927aad1fca908ee4e445be20d6a7257afae0c811b684",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/pure-hodge-structure",
+      "source_sha256": "d19142243726ae83402adcf31935acd06d91bc989b5ae2d65178fc25ee897953",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/quaternion-kahler-einstein-property",
+      "source_sha256": "508146972030c632963a0dcb2d84815b2c7006431097e23e5c81c903b2c203d2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/quaternion-kahler-manifold",
+      "source_sha256": "0298be7a880b8c3339c7750e4209ee6257fcf7ded7c3f4c1c1e43f46b5891272",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/quaternionic-hermitian-manifold",
+      "source_sha256": "f28e7f6ee3265964db80f8c43444d498e9c2716005b2859e65fbd5835b294d84",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/quaternionic-manifold",
+      "source_sha256": "294c26f87dd9dd09e3e342d5cce4e4a5cb557bf320be0023f9885c168cefe955",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/quaternionic-plurisubharmonic-function-hypercomplex",
+      "source_sha256": "b21ef736928823539f84c8e180dc3f714c72fa4b658bcc3e1f526a39725bb80b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/rank-of-a-smooth-map",
+      "source_sha256": "603922c61ba4cb9c85c7fcd19e324ebd078206350fcc01a8dcc51eb8c1248bb1",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/real-projective-space",
+      "source_sha256": "5f6816b18239ae6f5f91e8c63c1540dc48bbca35f6542dd0d6aefd83a6f813c3",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/reduction-at-nonzero-momentum",
+      "source_sha256": "9bbd53dfb3eb78cdceb19300531321df63f3e7743c1387debfbff05c348d273d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/regular-level-set",
+      "source_sha256": "4875a8c2bc9885194f6f646e51cedff334d7f90ced6a3187795a1ae8d1ecbbab",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/relative-maslov-index",
+      "source_sha256": "2dacabc2ccbba3a5eec36ee5bbd78135b5b415a09dfd6e7540cbc78aa0ade88f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/ricci-curvature",
+      "source_sha256": "f43798c00404473b3d150fca8a9fe7e8e82fb3c088e500d34b7dc9097e578718",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/ricci-form",
+      "source_sha256": "741f0ac837e77ff5776778b3b925848278812ba394d4a320600654a93554f8be",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/riemann-curvature-tensor",
+      "source_sha256": "e46c09bf0b3831c02f45ce941ba518b9680a1f01b7f0102a1caa58dc3d489550",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/riemann-surface",
+      "source_sha256": "b8c012c71475dbf994f59e408d5864b465d6493040eb7da6eda048a760e15835",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/riemannian-isometric-immersion",
+      "source_sha256": "482d316fd13919a4f9191de5dd6f0f3d35b5bbc5a84a4c9a75ab4c8662c5bd49",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/riemannian-manifold",
+      "source_sha256": "0b25d36f58c8c81672c84c7ca3aaf65ece5b0e238d9f5e00d53e5fb75781a925",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/rotating-hyperkahler-isometry",
+      "source_sha256": "7b042a88796cf370b6cc20363e11502601cee07de4a39e4a9bb444d474b2c99b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/sards-theorem",
+      "source_sha256": "aae88e09a7ec43a7b5364c079a6b9a3cc4d2b0553e0e2e7438cc6b2cd7034a7c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/scalar-curvature",
+      "source_sha256": "f298dc1624943573c0f3b6c3b92e12be4efbf78525ae0d28b3b6a314c83ad6e5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/sectional-curvature",
+      "source_sha256": "4f466fb28051963144fddfdbb4052211fb942f914247b3f5abaee05e2288abc7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/sheaf-of-holomorphic-functions",
+      "source_sha256": "00063ae38b721806d254c494f4a1466279d6aaa1e332d487f9e82923e134646f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/sheaf-of-smooth-functions",
+      "source_sha256": "e3ed7358142ad442a2029feea13780ad02718640ec03c14fb085c29a15f458bb",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/shifting-trick",
+      "source_sha256": "c6e3dfdbe1540669a647630ef3e15e83c43ed3fcf4360153c21f0676a7834373",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/singular-symplectic-reduction",
+      "source_sha256": "067e63fdb94aefb2f8926e92f36dad3232093bef90b9d267eef38ab6bc3f32be",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-exhaustion-function",
+      "source_sha256": "c583e1400bcef90c87879d13a24abafc86942c4edaa773818d23207fd0d096eb",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-fiber-product",
+      "source_sha256": "3fa7bcad16e28cea29657d83b867d33f877ab882df56ab42e2bbccf6a13273e2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-homotopy",
+      "source_sha256": "4fd1b667c283264f33ce2087df2a776142efa766af55e662c97e62649a3df9a4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-isotopy",
+      "source_sha256": "843c983f97cc6511568a20b3b186e395a232eb799ed8c1b374784decf0cca081",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-map-of-manifolds-with-boundary",
+      "source_sha256": "421b15a34d2627d353b180784af015b5ded45b2911b59df1fd0c49bbeb4f055e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-map-of-manifolds-with-corners",
+      "source_sha256": "531e2c99eb2e44994526a600d1abda7267175013ce17609978a71b326de6b89b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-mapping-space",
+      "source_sha256": "f23f044e39342d4f31b51c5863b995c00e4e15ad32193b44ed147670ae43d89c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-maps-from-smooth-function-algebras",
+      "source_sha256": "faf1630fbd86f42f9c383083274d469a55514f0b353c9922cc1cefd34d61a0a7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes",
+      "source_sha256": "a7e9c9a11cc7cbe58052489bab52a4dc8a3ba2f6c93955d9d770e2e0babb6c8b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/smooth-urysohn-lemma",
+      "source_sha256": "9b93fa2d162c37c858c1db4a850772915c34003b62852823b80689436f1d6077",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/spinor-bundle",
+      "source_sha256": "f1ded774d405c2c29d264b63721b6ae24e1cb741e73385e1ed194e1167790053",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/spinor-module",
+      "source_sha256": "67843d3c957f1ec50399c43647f933ec55d1363a800cfd8466b079a70ea8db2c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/stokes-theorem",
+      "source_sha256": "015df19a0a9117b7eae177d7ee9ea309a36b0390ff74df6ec7eef477bced840e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/strong-causality",
+      "source_sha256": "eb53ea21bbe44b3a46c293a8302d3fd6c68d29a338b59b69ed30492f2c69dbe6",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/submanifold-chart",
+      "source_sha256": "44c1f8aff22f425f45591cc1c7f0b297c94365d6f4b599085854ab5c807c9d5a",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symmetric-monoidal-structure-on-the-cobordism-category",
+      "source_sha256": "4f7203669165665f6c26107fa41c53799a6e66d2f7cc2f44eef6f27f0c0deaf9",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-basis",
+      "source_sha256": "f36673341341475c8980da367e4c2ee24c42462f6a3e5e165f588240d8b94c30",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-basis-theorem",
+      "source_sha256": "6fb4a9a4195128ef44ac9097c4c65359ecc133ffdc75dfa400f9a6a2678d35e7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-embedding",
+      "source_sha256": "9d89570ca623211eeac1b899028b320744426f9a653a6f470b974a465f5d7dc5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-isotopy",
+      "source_sha256": "0cca31c830b32a0a9a03a86555316032741e1a1454f75e9a071c9812b3cb39d8",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-leaf",
+      "source_sha256": "90455af2f9aecb1c54e5afd8312cc4db43f133ca1d906f47090b1d1a17dbfb8d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-lie-group-action",
+      "source_sha256": "467c99c863c7e94f5e1cf635b3016363b14d3ae012764acc4dc1f714c6071ffd",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-linear-map",
+      "source_sha256": "e545a7e2a32d4337ed033435d1a25040ea416659097ea94f1053e4921f280dc7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-manifold",
+      "source_sha256": "8015ea82ee72e41cbcdba1a2ce81584dbcb6dabe58aefd702db2cceb2f774103",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-map",
+      "source_sha256": "8ca448688b14d6c3f0237f56e3bb8a8219fba855832b86dcf811e791b216fb26",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-orthogonal-complement",
+      "source_sha256": "e791441ed41b6632f5003a6275b2bea026a72d0ebb3185ff120a0fad56a4eb0f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-quotient",
+      "source_sha256": "64991fc03affbba11420bab9d63d2ef60437049f2dec3e2e6e11cbb93f30ef6d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-submanifold",
+      "source_sha256": "63b2ca45a2e66065e716af2be1f53a4048414d0eb244b2289c13952a85c844bd",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-subspace",
+      "source_sha256": "178434fe823f8b37948a87ff8102b3cbf822edab2aa49e2b04df6fb6a9c8b795",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-vector-field",
+      "source_sha256": "98b6317528c6b3e5247f9b9e1d8e60278dd5d28571b23058c3de189844596eb5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectic-vector-space",
+      "source_sha256": "e24619eb4b8fda7e4d54c82b736a6728b5a188f6545c61f002e1365ab89d9603",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectomorphism",
+      "source_sha256": "100280dce825f57c692bc5169e3962f34588715cb359f4901be1405ada3a5c48",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/symplectomorphism-group",
+      "source_sha256": "72fdd2155d0f46fa743c6ac894cef83a7f9d3e579ea57889b1058d7302d0c05d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/tangent-functor",
+      "source_sha256": "09b6b50ddfa58d150156fd94ad86ebde62b1d2eeeb7ab501690803fe32cca8ea",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/tangent-space-of-grassmannian",
+      "source_sha256": "3d2db58d785ac4d2b180934af6496d3a80c07f69275497a219d27be9954a0819",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/tautological-bundle-grassmannian",
+      "source_sha256": "d2bdb0fe423bfe776e790fb8666da89aff1f177611bf9775b289501162f88fe4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/tautological-one-form-cotangent",
+      "source_sha256": "9c3852a4050e7272d764bf3486fc5c96a0649e6c3363e7da458fa86e716c7a73",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/thom-transversality-theorem",
+      "source_sha256": "2eba0d09d03a03cfe55be1d39f2e487a111611fc945066d61347f043da7d4997",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/time-dependent-hamiltonian-system",
+      "source_sha256": "f35be7d5075b06e631cd5d72a85756609612167217fcf4272cdc039b3fa351e5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/time-orientation",
+      "source_sha256": "7176ce255c0c7efa8b587edca00988ad09d1641d388d0aa2f1cc541952d32ad1",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/transverse-intersection-theorem",
+      "source_sha256": "67cdb19c63763158df406d4d7be8401771eb800c7c4cada940096e766b14c73e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/transverse-preimage-theorem",
+      "source_sha256": "569b0048820be64b99e41c0c37a040f005e86f6637deab0a600ceccc9ce8587c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/transverse-smooth-maps",
+      "source_sha256": "1ab678329afb8f989c799c91ac21d960f880bf300e0c37ff8f2405ab8bb0f605",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/transverse-submanifolds",
+      "source_sha256": "d62934f15e7d17e51715cb39f48bb8cd06660db90b604a2779d8b9bf27595116",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/triholomorphic-map",
+      "source_sha256": "3a4c38889c92c9f70e1f80959d4d0c6d30eec67ad75098143b08d6b8a1af49e2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/tubular-neighborhood",
+      "source_sha256": "41bb4d8f007766c105c88a3eaedc03c655b9cc735cb87a91c7a380a815afbcb9",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/tubular-neighborhood-theorem",
+      "source_sha256": "01904fb4af67012964694978ce133aa541fe06ce3e92d6961fca08bda5047e8d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/twistor-space-quaternionic-manifold",
+      "source_sha256": "c6653b88c7de6135ab5bfa2f92fec56e9e1918e7be8b54938f6a6c77045cad93",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/variation-of-hodge-structure",
+      "source_sha256": "0d11ba469141157299f5feaca37c32060d7072bff817ace4f9181aa98d40f805",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/volume-form",
+      "source_sha256": "2a56a8f658fb02d68a9949763bfc32e021955dff80f1c2cec7b584c28a66cbe6",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/weyl-spinor",
+      "source_sha256": "a48a09e10355f415f9f939c8e4900cea5ec35f3d3fd360535506e930fee09d2f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/whitney-c-infinity-topology",
+      "source_sha256": "d1f5206a7d3ef31a3a3d6722fdd87d7bf7879cc16236c71dd941e5d644dec883",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/whitney-embedding-theorem",
+      "source_sha256": "c47ff672b07963b1fcb0b4cdd488b48a626cd2273bc7a932810fdfa3b8741120",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+    },
+    {
+      "id": "differential-geometry/connection-laplacian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d88a42bac615ce6d60197b4dd6f738157816d47ba68da5e7d89be628d94c4566",
+      "evidence": "The trace formula directly uses a vector bundle, pseudo-Riemannian metric, Levi-Civita connection, and covariant derivative; a bundle connection is also an omitted direct input.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "differential-geometry/pseudo-riemannian-manifold",
+        "fiber-bundles/levicivita-connection-connection",
+        "fiber-bundles/covariant-derivative-of-a-section"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "differential-geometry/pseudo-riemannian-manifold",
+        "fiber-bundles/levicivita-connection-connection",
+        "fiber-bundles/covariant-derivative-of-a-section"
+      ]
+    },
+    {
+      "id": "differential-geometry/conormal-bundle-lagrangian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca51e60ddb679eec74eb02650e1a95250a03b392d638e62092d0e3064b3abd60",
+      "evidence": "The conormal construction directly uses an embedded submanifold, cotangent bundle, canonical symplectic form, Lagrangian condition, and explicitly the zero-section case.",
+      "previous_prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/cotangent-bundle",
+        "differential-geometry/canonical-symplectic-form-cotangent",
+        "differential-geometry/lagrangian-submanifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/cotangent-bundle",
+        "differential-geometry/canonical-symplectic-form-cotangent",
+        "differential-geometry/lagrangian-submanifold"
+      ]
+    },
+    {
+      "id": "differential-geometry/coordinate-chart-isomorphism-in-smooth-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49aa22227fa3845460e61d6490e2ce3544d17cac33d0bd64bf098409fa163fe7",
+      "evidence": "The chart is a diffeomorphism from an open submanifold to an open Euclidean set and is explicitly an isomorphism in the smooth-manifold category; all listed foundations are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "differential-geometry/critical-point-of-a-smooth-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86b1f11ad95e9be3f13bbd5c6501b13a4c1cc338fb6fb5bad5c9dd90de3b785c",
+      "evidence": "Criticality is failure of surjectivity of the differential and rank; matrix/Jacobian discussion is later explanatory material.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "differential-geometry/rank-of-a-smooth-map",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "differential-geometry/rank-of-a-smooth-map",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "differential-geometry/de-rham-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "def16a8ca75d360a06283e78f9b523a2934f3d9add701462415b81ef9cc7a6dd",
+      "evidence": "The opening complex uses smooth manifolds, cochain complexes, vector spaces, differential forms, and exterior derivative; wedge product appears only in the later DGA section.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-homological/cochain-complex",
+        "linear-algebra/vector-space",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-homological/cochain-complex",
+        "linear-algebra/vector-space",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    }
+  ]
+}

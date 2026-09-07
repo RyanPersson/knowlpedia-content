@@ -6,7 +6,7 @@ summary = "A topological space equipped with a sheaf of ordered blueprints."
 aliases = ["OBlpr-space", "ordered blueprint space"]
 domains = ["algebraic-geometry-foundations", "algebra-hyperstructures"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/locally-blueprinted-space", "algebra-rings/maximal-ideal"]
+prerequisites = ["topology/topological-space", "algebraic-geometry-foundations/ordered-blueprint", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/locally-blueprinted-space", "algebra-rings/maximal-ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

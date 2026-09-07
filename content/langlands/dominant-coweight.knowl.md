@@ -6,7 +6,7 @@ summary = "A cocharacter pairing nonnegatively with every positive root determin
 aliases = ["dominant cocharacter"]
 domains = ["langlands", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "lie-groups/positive-root", "langlands/affine-grassmannian"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/borel-subgroup", "lie-groups/positive-root"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -44,7 +44,7 @@ This is a complex-analytic presentation of [[algebra-representation-theory/masch
    is also \(S_3\)-stable and \(V=U\oplus W\). Moreover, \(W\) is the \(2\)-dimensional irreducible (standard) representation.
 
 2. **Any representation of a cyclic group \(C_n\).**
-   If \(C_n=\langle g\rangle\) and \(\rho(g)^n=I\), then the minimal polynomial of \(\rho(g)\) divides \(x^n-1\), which has distinct roots over \(\mathbb C\). Hence \(\rho(g)\) is diagonalizable, and \(V\) decomposes as a direct sum of eigenspaces. Each eigenspace is a \(1\)-dimensional subrepresentation on which \(g\) acts by an \(n\)th root of unity (a character of \(C_n\)).
+   If \(C_n=\langle g\rangle\) and \(\rho(g)^n=I\), then the minimal polynomial of \(\rho(g)\) divides \(x^n-1\), which has distinct roots over \(\mathbb C\). Hence \(\rho(g)\) is diagonalizable, and \(V\) decomposes as a direct sum of eigenspaces. Each eigenspace is a subrepresentation on which \(g\) acts by an \(n\)th root of unity; choosing a basis in each eigenspace then decomposes it into \(1\)-dimensional subrepresentations (characters of \(C_n\)).
 
 3. **The swap representation of \(C_2\) on \(\mathbb C^2\).**
    Let \(C_2=\{1,s\}\) act on \(V=\mathbb C^2\) by \(s(x,y)=(y,x)\). Then

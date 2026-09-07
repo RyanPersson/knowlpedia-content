@@ -6,7 +6,7 @@ summary = "Matrix of first partial derivatives of a multivariable map"
 aliases = ["jacobian-matrix", "Jacobian matrix"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/jacobian-matrix.md"
-prerequisites = ["real-analysis/partial-derivative", "real-analysis/differentiable-map", "real-analysis/frechet-derivative", "real-analysis/gradient", "linear-algebra/matrix"]
+prerequisites = ["real-analysis/partial-derivative", "linear-algebra/matrix"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

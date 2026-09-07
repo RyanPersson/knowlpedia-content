@@ -6,12 +6,12 @@ summary = "Any principal bundle over a smooth manifold admits at least one princ
 aliases = ["corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection", "Every principal bundle admits a connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/paracompact-topological-space"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-Let \(M\) be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], where \(G\) is a Lie group. Then \(P\) admits a [[fiber-bundles/principal-connection|principal connection]].
+Let \(M\) be a [[fiber-bundles/paracompact-topological-space|paracompact]] [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], where \(G\) is a Lie group. Then \(P\) admits a [[fiber-bundles/principal-connection|principal connection]].
 
 In particular, the affine space \(\mathrm{Conn}(P)\) is nonempty.
 

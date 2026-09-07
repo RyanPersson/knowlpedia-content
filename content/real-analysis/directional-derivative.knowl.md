@@ -6,7 +6,7 @@ summary = "The derivative of a function along a line through a point in a specif
 aliases = ["directional-derivative", "Directional derivative"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/directional-derivative.md"
-prerequisites = ["real-analysis/differentiable-map", "real-analysis/frechet-derivative"]
+prerequisites = ["topology/open-set", "real-analysis/differentiable-map", "real-analysis/frechet-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

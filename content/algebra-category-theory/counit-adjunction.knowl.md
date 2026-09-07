@@ -6,7 +6,7 @@ summary = "For F ⊣ G, the counit ε: F∘G ⇒ Id_D is the natural transformat
 aliases = ["counit-adjunction", "Counit of an adjunction"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/counit-adjunction.md"
-prerequisites = ["algebra-category-theory/functor", "algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation", "shared-foundations/bijective-function"]
+prerequisites = ["algebra-category-theory/functor", "algebra-category-theory/adjoint-functors", "algebra-category-theory/natural-transformation", "algebra-category-theory/identity-morphism", "shared-foundations/bijective-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

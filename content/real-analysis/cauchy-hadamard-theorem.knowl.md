@@ -6,9 +6,9 @@ summary = "A formula for the radius of convergence of a power series using a lim
 aliases = ["cauchy-hadamard-theorem", "Cauchy–Hadamard theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/cauchy-hadamard-theorem.md"
-prerequisites = ["real-analysis/power-series"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["real-analysis/power-series", "real-analysis/limit-superior", "real-analysis/absolutely-convergent-series", "real-analysis/divergent-series"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 **Cauchy–Hadamard theorem:** For a [[real-analysis/power-series|power series]] \(\sum_{n=0}^\infty a_n (x-x_0)^n\) (real or complex), define

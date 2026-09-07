@@ -6,7 +6,7 @@ summary = "The derivative of a composition is the composition (product) of deriv
 aliases = ["chain-rule-multivariable", "Chain rule (multivariable)"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/chain-rule-multivariable.md"
-prerequisites = ["real-analysis/differentiable-map", "real-analysis/jacobian-matrix"]
+prerequisites = ["topology/open-set", "real-analysis/differentiable-map", "real-analysis/jacobian-matrix", "shared-foundations/composition"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

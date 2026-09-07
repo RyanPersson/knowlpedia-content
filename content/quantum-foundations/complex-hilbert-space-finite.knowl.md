@@ -6,7 +6,7 @@ summary = "A finite-dimensional complex [[linear-algebra/inner-product|inner pro
 aliases = ["complex-hilbert-space-finite", "Finite-Dimensional Complex Hilbert Space"]
 domains = ["quantum-foundations"]
 legacy_source_path = "quantum-foundations/complex-hilbert-space-finite.md"
-prerequisites = ["quantum-foundations/density-operator"]
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/inner-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

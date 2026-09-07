@@ -6,7 +6,7 @@ summary = "The kernel of a ring homomorphism is always a two-sided ideal."
 aliases = ["kernels-are-ideals", "Kernels are two-sided ideals"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/kernels-are-ideals.md"
-prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/kernel-ring", "algebra-rings/two-sided-ideal", "algebra-rings/quotient-ring", "algebra-rings/first-isomorphism-theorem-rings"]
+prerequisites = ["algebra-rings/ring-homomorphism", "algebra-rings/kernel-ring", "algebra-rings/two-sided-ideal"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

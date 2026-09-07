@@ -6,15 +6,16 @@ summary = "Any smooth vector bundle over a smooth manifold admits at least one c
 aliases = ["corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection", "Every vector bundle admits a connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(E\to M\) be a smooth [[fiber-bundles/vector-bundle|vector bundle]].
 
-## Corollary (existence of vector bundle connections)
 There exists at least one [[fiber-bundles/connection-on-a-vector-bundle|connection on the vector bundle]] \(E\to M\), i.e. a covariant derivative \(\nabla:\Gamma(E)\to \Omega^1(M;E)\) satisfying the Leibniz rule.
+
+## Construction
 
 One proof strategy is to pass to the frame bundle \(\mathrm{Fr}(E)\to M\), use the existence of connections on principal bundles (see [[fiber-bundles/corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection|existence of principal connections]]), and then induce a connection on \(E\) from a principal connection on \(\mathrm{Fr}(E)\).
 

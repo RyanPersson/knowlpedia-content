@@ -6,7 +6,7 @@ summary = "The Lie algebra of a compact Lie group splits as center ⊕ semisimpl
 aliases = ["lie-algebra-compact-is-reductive", "Compact Lie algebra is reductive"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/lie-algebra-compact-is-reductive.md"
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/center-of-a-lie-algebra", "lie-groups/abelian-lie-algebra", "lie-groups/semisimple-lie-algebra", "lie-groups/killing-form", "lie-groups/killing-form-nondegenerate-iff-semisimple"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/center-of-a-lie-algebra", "lie-groups/abelian-lie-algebra", "lie-groups/semisimple-lie-algebra", "lie-groups/reductive-lie-algebra", "lie-groups/killing-form", "lie-groups/killing-form-nondegenerate-iff-semisimple"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

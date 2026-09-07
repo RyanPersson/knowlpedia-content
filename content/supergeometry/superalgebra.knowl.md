@@ -6,7 +6,7 @@ summary = "An associative algebra whose multiplication preserves Z/2-degree."
 aliases = ["Z/2-graded algebra", "associative superalgebra"]
 domains = ["supergeometry", "algebra-rings"]
 section_mode = "progressive"
-prerequisites = ["algebra-category-theory/algebra-object", "supergeometry/super-vector-space", "supergeometry/lie-superalgebra", "linear-algebra/vector-space"]
+prerequisites = ["algebra-category-theory/algebra-object", "supergeometry/super-vector-space", "linear-algebra/vector-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

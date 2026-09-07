@@ -6,7 +6,7 @@ summary = "In a pointed category, the kernel of f:A→B is the equalizer of f an
 aliases = ["kernel-categorical", "Kernel (categorical)"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/kernel-categorical.md"
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/zero-object", "algebra-category-theory/additive-category"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/morphism", "algebra-category-theory/composition-category", "algebra-category-theory/zero-object"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

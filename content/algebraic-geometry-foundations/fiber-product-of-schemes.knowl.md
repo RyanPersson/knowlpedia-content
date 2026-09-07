@@ -5,7 +5,7 @@ kind = "definition"
 summary = "The scheme representing pairs of points or maps with the same image over a base."
 aliases = ["fiber product of schemes", "scheme fiber product", "pullback of schemes"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/affine-scheme", "algebra-modules/tensor-product"]
+prerequisites = ["algebraic-geometry-foundations/scheme", "algebraic-geometry-foundations/morphism-of-schemes", "algebraic-geometry-foundations/affine-scheme", "algebra-modules/tensor-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

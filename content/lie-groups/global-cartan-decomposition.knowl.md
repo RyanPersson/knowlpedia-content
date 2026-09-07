@@ -6,7 +6,7 @@ summary = "The decomposition of a real reductive group as K exp(p), refined to t
 aliases = ["KAK decomposition", "polar decomposition of G"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/cartan-decomposition-real-reductive-lie-algebra"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "lie-groups/exponential-map-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

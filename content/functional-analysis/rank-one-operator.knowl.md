@@ -6,9 +6,9 @@ summary = "A bounded linear operator whose range is a one-dimensional vector spa
 aliases = ["operator of rank one"]
 domains = ["functional-analysis", "linear-algebra"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/bounded-linear-operator", "linear-algebra/linear-map", "linear-algebra/normed-vector-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["functional-analysis/bounded-linear-operator", "linear-algebra/linear-map", "linear-algebra/normed-vector-space", "convex-analysis/basis-hamel-basis-and-dimension"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(X\) and \(Y\) be [[linear-algebra/normed-vector-space|normed vector spaces]] over the same field, \(\mathbb R\) or \(\mathbb C\). A **rank-one operator** is a [[functional-analysis/bounded-linear-operator|bounded linear operator]] \(T:X\to Y\) such that \(\dim T(X)=1\).

@@ -6,7 +6,7 @@ summary = "An orbit of a Lie group acting on the dual of its Lie algebra by the 
 aliases = ["co-adjoint orbit"]
 domains = ["differential-geometry", "lie-groups"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/orbit-lie-group", "fiber-bundles/coadjoint-action-of-a-lie-group", "lie-groups/stabilizer-lie-group"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/orbit-lie-group", "fiber-bundles/coadjoint-action-of-a-lie-group", "lie-groups/stabilizer-lie-group", "fiber-bundles/diffeomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

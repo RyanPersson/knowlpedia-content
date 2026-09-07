@@ -6,7 +6,7 @@ summary = "The largest limit point of a bounded sequence, or equivalently the in
 aliases = ["limit-superior-lim-sup", "Limit superior (lim sup)"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/limit-superior-lim-sup.md"
-prerequisites = []
+prerequisites = ["shared-foundations/sequence", "real-analysis/supremum"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

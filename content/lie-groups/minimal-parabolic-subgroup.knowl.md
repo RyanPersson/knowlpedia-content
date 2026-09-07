@@ -6,7 +6,7 @@ summary = "A parabolic subgroup minimal under inclusion, constructed from a choi
 aliases = ["minimal P", "MAN subgroup"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/lie-algebra"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/parabolic-subgroup-real-reductive-group", "lie-groups/lie-algebra", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "lie-groups/exponential-map-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

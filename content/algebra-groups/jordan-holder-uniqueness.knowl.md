@@ -6,7 +6,7 @@ summary = "Any two composition series of a group have the same simple compositio
 aliases = ["jordan-holder-uniqueness", "Jordan-Hölder Uniqueness"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/jordan-holder-uniqueness.md"
-prerequisites = ["algebra-groups/composition-series-group", "algebra-groups/quotient-group", "algebra-groups/simple-group", "algebra-groups/jordan-holder-theorem-groups", "algebra-groups/schreier-refinement-theorem"]
+prerequisites = ["algebra-groups/composition-series-group", "algebra-groups/quotient-group", "algebra-groups/simple-group", "algebra-groups/group-isomorphism", "algebra-groups/jordan-holder-theorem-groups", "algebra-groups/schreier-refinement-theorem"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

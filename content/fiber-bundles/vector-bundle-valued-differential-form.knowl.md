@@ -6,9 +6,9 @@ summary = "A differential form whose value at each point lies in a specified vec
 aliases = ["E-valued differential form", "bundle-valued differential form"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/differential-k-form"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/differential-k-form", "fiber-bundles/tensor-product-vector-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/cotangent-bundle"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(E\to M\) be a smooth real or complex [[fiber-bundles/vector-bundle|vector bundle]] and let \(k\geq 0\). An **\(E\)-valued differential \(k\)-form** is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]]
@@ -16,13 +16,15 @@ Let \(E\to M\) be a smooth real or complex [[fiber-bundles/vector-bundle|vector 
 \omega\in\Omega^k(M;E):=
 \Gamma\!\left(\Lambda^kT^*M\otimes E\right).
 \]
+Here the coefficient bundle is the [[fiber-bundles/tensor-product-vector-bundle|tensor product]] of the [[fiber-bundles/exterior-power-bundle|exterior power]] of the [[fiber-bundles/cotangent-bundle|cotangent bundle]] with \(E\).
+
 Equivalently, \(\omega\) assigns to [[fiber-bundles/vector-field|vector fields]] \(X_1,\ldots,X_k\) a section \(\omega(X_1,\ldots,X_k)\) of \(E\), alternatingly and \(C^\infty(M)\)-multilinearly. When \(k=0\), this is simply a [[fiber-bundles/section-of-a-vector-bundle|smooth section of \(E\)]]. When \(E=M\times\mathbb R\), the definition reduces to an ordinary [[fiber-bundles/differential-k-form|differential \(k\)-form]].
 
 ## Algebraic structure
 
-A scalar form \(\alpha\in\Omega^p(M)\) and an \(E\)-valued form \(\omega\in\Omega^q(M;E)\) have a wedge product \(\alpha\wedge\omega\in\Omega^{p+q}(M;E)\), obtained by alternating the tensor product. Thus \(\Omega^\bullet(M;E)\) is a [[algebra-modules/graded-module|graded module]] over the algebra \(\Omega^\bullet(M)\).
+A scalar form \(\alpha\in\Omega^p(M)\) and an \(E\)-valued form \(\omega\in\Omega^q(M;E)\) have a wedge product \(\alpha\wedge\omega\in\Omega^{p+q}(M;E)\), defined in local frames using the [[fiber-bundles/wedge-product-of-differential-forms|scalar wedge product]] on coefficient forms. Thus \(\Omega^\bullet(M;E)\) is a [[algebra-modules/graded-module|graded module]] over the algebra \(\Omega^\bullet(M)\).
 
-A [[fiber-bundles/connection-on-a-vector-bundle|connection on \(E\)]] extends the [[fiber-bundles/exterior-derivative|exterior derivative]] to a covariant exterior derivative
+A [[fiber-bundles/connection-on-a-vector-bundle|connection on \(E\)]] extends the [[fiber-bundles/exterior-derivative|exterior derivative]] to the [[fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle|exterior covariant derivative]]
 \[
 d_\nabla:\Omega^k(M;E)\longrightarrow\Omega^{k+1}(M;E).
 \]
@@ -30,11 +32,11 @@ Unlike the scalar exterior derivative, this operator depends on the chosen conne
 
 ## Local form and pullback
 
-In a local frame \(e_1,\ldots,e_r\) of \(E\), every bundle-valued form has a unique expression
+In a local frame \(e_1,\ldots,e_r\) of \(E|_U\), every bundle-valued form has a unique expression
 \[
 \omega=\sum_{a=1}^r\omega^a\otimes e_a,
 \qquad
-\omega^a\in\Omega^k(M).
+\omega^a\in\Omega^k(U).
 \]
 The coefficient forms change with the frame, while \(\omega\) does not. If \(f:N\to M\) is smooth, then ordinary pullback on the form factor and bundle pullback on the value factor give
 \[
@@ -44,7 +46,7 @@ The codomain is \(f^*E\), not \(E\), unless additional bundle data identify them
 
 ## Examples and scope
 
-The [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature of a vector-bundle connection]] is an \(\operatorname{End}(E)\)-valued \(2\)-form. On a principal bundle, tensorial adjoint-valued forms descend to forms on the base with values in the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]]. These are instances of the same construction, but a Lie-algebra-valued form on the total space is not automatically a bundle-valued form on the base.
+The [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature of a vector-bundle connection]] is an \(\operatorname{End}(E)\)-valued \(2\)-form. On a principal bundle, tensorial adjoint-valued forms descend to forms on the base with values in the [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint Lie algebra bundle]]. These are instances of the same construction, but a Lie-algebra-valued form on the total space is not automatically a bundle-valued form on the base.
 
 **Warning.** For a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a real manifold, authors may write either \(\Lambda^kT^*M\otimes_{\mathbb R}E\) or its canonically equivalent complexified formulation. The scalar convention should be stated when complex conjugation or forms of type \((p,q)\) enter.
 

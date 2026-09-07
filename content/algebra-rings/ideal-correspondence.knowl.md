@@ -6,7 +6,7 @@ summary = "Ideals of R containing I are in bijection with ideals of the quotient
 aliases = ["ideal-correspondence", "Ideal correspondence for quotients"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/ideal-correspondence.md"
-prerequisites = ["algebra-rings/correspondence-theorem-rings", "algebra-rings/ring-epimorphism", "algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/bijective-function"]
+prerequisites = ["algebra-rings/ideal", "algebra-rings/quotient-ring", "shared-foundations/bijective-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

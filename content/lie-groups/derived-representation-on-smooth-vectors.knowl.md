@@ -6,7 +6,7 @@ summary = "The Lie-algebra representation obtained by differentiating a strongly
 aliases = ["infinitesimal representation", "differential of a unitary representation"]
 domains = ["lie-groups", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "lie-groups/smooth-vector-unitary-representation", "lie-groups/representation-of-a-lie-algebra"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/strongly-continuous-unitary-representation", "linear-algebra/hilbert-space", "lie-groups/smooth-vector-unitary-representation", "lie-groups/representation-of-a-lie-algebra", "linear-algebra/operator-invariant-subspace", "lie-groups/exponential-map-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

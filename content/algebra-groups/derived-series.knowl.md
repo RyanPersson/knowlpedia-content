@@ -6,7 +6,7 @@ summary = "The descending series obtained by repeatedly taking commutator subgro
 aliases = ["derived-series", "Derived series"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/derived-series.md"
-prerequisites = ["algebra-groups/group", "algebra-groups/commutator-subgroup", "algebra-groups/normal-subgroup"]
+prerequisites = ["algebra-groups/group", "algebra-groups/commutator-subgroup", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "In a unique factorization domain, any two elements admit a gcd unique
 aliases = ["ufd-implies-gcd-exists", "UFD implies GCDs exist"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/ufd-implies-gcd-exists.md"
-prerequisites = ["algebra-rings/ufd", "algebra-rings/gcd", "algebra-rings/prime-element", "algebra-rings/associated-elements"]
+prerequisites = ["algebra-rings/ufd", "algebra-rings/gcd", "algebra-rings/unit"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "A differential form on a Lie group fixed by all right translations, d
 aliases = ["right-invariant-differential-form", "Right-invariant differential form"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/right-invariant-differential-form.md"
-prerequisites = ["lie-groups/right-translation", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/maurer-cartan-equation", "lie-groups/left-invariant-differential-form", "lie-groups/bi-invariant-differential-form"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/right-translation", "lie-groups/lie-algebra-of-a-lie-group", "lie-groups/maurer-cartan-equation", "lie-groups/left-invariant-differential-form", "lie-groups/bi-invariant-differential-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

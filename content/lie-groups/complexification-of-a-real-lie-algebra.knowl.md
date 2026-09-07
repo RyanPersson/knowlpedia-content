@@ -6,7 +6,7 @@ summary = "The complex Lie algebra obtained by extending scalars from the real n
 aliases = ["complexified Lie algebra"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/lie-subalgebra", "algebra-modules/tensor-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

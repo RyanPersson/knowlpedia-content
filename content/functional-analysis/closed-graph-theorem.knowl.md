@@ -6,7 +6,7 @@ summary = "An everywhere-defined linear operator between Banach spaces is bounde
 aliases = ["closed graph theorem for Banach spaces"]
 domains = ["functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/banach-space", "functional-analysis/closed-linear-operator"]
+prerequisites = ["linear-algebra/banach-space", "functional-analysis/closed-linear-operator", "functional-analysis/open-mapping-theorem"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

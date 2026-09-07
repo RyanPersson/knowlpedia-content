@@ -6,7 +6,7 @@ summary = "If char(k) does not divide |G|, then every finite-dimensional k-repre
 aliases = ["maschkes-theorem", "Maschke's theorem"]
 domains = ["algebra-representation-theory"]
 legacy_source_path = "algebra-representation-theory/maschkes-theorem.md"
-prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/subrepresentation", "algebra-modules/semisimple-module", "algebra-representation-theory/completely-reducible-representation", "algebra-modules/module-homomorphism"]
+prerequisites = ["algebra-representation-theory/group-representation", "algebra-representation-theory/subrepresentation", "algebra-modules/semisimple-module", "algebra-modules/module-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

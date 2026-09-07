@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "The subgroup of even permutations in the symmetric group, equivalently the kernel of the sign homomorphism."
 aliases = ["alternating-group", "Alternating Group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/kernel-group", "shared-foundations/permutation-sign"]
+prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/kernel-group", "shared-foundations/finite-permutation", "shared-foundations/permutation-sign"]
 dependency_heuristic = "component-dependency-review-v1"
 dependency_review_count = 1
 +++

@@ -1,0 +1,1833 @@
+{
+  "reviews": [
+    {
+      "id": "convex-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2a5e63c83b3b1349e2c1f2501e529aeeea884486eeb46357bb8334bb32f00b9",
+      "evidence": "Section index only; no mathematical object or theorem, so empty prerequisites are correct.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "convex-analysis/affine-hull-affine-combination",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2bde33beb968a910c05c99f5713b4e6106a1f0e5348f30a0900dd5446dd302fd",
+      "evidence": "Affine hull is an intersection of affine supersets and affine combinations have coefficients summing to 1; vector-space and affine-set are direct inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/affine-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/affine-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/affine-images-and-preimages-of-convex-sets-are-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd2e3ce9b2fd33e968dcd5e723647a88ebd0701678605a357ca959baace16365",
+      "evidence": "Images and inverse images preserve convex combinations through the affine-map identity; affine-mapping and convex-set are required.",
+      "previous_prerequisites": [
+        "convex-analysis/affine-mapping",
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "convex-analysis/affine-mapping",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/affine-mapping",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5943c5e2734954f5ceb5bf33ae6e3cd8ef243ff0ab830f412503119146084aae",
+      "evidence": "B=A+b with A linear and b in Y; the linear-map definition is the only direct input.",
+      "previous_prerequisites": [
+        "convex-analysis/linear-operator-linear-transformation"
+      ],
+      "prerequisites": [
+        "convex-analysis/linear-operator-linear-transformation"
+      ]
+    },
+    {
+      "id": "convex-analysis/affine-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60dc7e73c52b5f6a7e56d0eb42eec8c71a5478e64be413e67e0dddef654e7b6a",
+      "evidence": "Line containment is defined in a vector space using the two-point line; vector-space and line definition are required.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/line-connecting-two-points"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/line-connecting-two-points"
+      ]
+    },
+    {
+      "id": "convex-analysis/affine-sets-are-translates-of-subspaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebb73c6bcea974db3fcbaf3c3dd77bb2be6d63fa430ea39e7a81ece3aea21ddd",
+      "evidence": "The translate characterization uses affine sets, subtraction, and linear subspaces in a vector space.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/affine-set",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/affine-set",
+        "convex-analysis/linear-subspace"
+      ]
+    },
+    {
+      "id": "convex-analysis/algebra-of-limits-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "584fc92df9141f6603060377f2eb04b24081b8bd2f7e60c7b886dfbfdec7de8f",
+      "evidence": "Limit laws use the norm triangle inequality and scalar multiplication; normed-space and norm convergence are required.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convergence-in-normed-spaces"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convergence-in-normed-spaces"
+      ]
+    },
+    {
+      "id": "convex-analysis/algebraic-interior-core",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e138db7a44a74f970fd4df36cbc71d347f4e4a3a2dd47e3b8268ed19a73e4f68",
+      "evidence": "The core quantifies over all vector directions and compares with metric interior; vector-space, normed-space, and interior are needed.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/interior-of-a-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/interior-of-a-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/auxiliary-separation-lemma-for-disjoint-convex-sets-with-nonempty-core",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38e3f1a806755acc7595666a0e1f489e5804c2ea91447590afda4b20b90a9ccc",
+      "evidence": "The lemma assumes disjoint convex sets and nonempty core and reduces to point-set and hyperplane separation; all listed inputs are used.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core",
+        "convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core",
+        "convex-analysis/separation-by-a-hyperplane"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core",
+        "convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core",
+        "convex-analysis/separation-by-a-hyperplane"
+      ]
+    },
+    {
+      "id": "convex-analysis/balanced-and-absorbing-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f02dcf260fad04a22f0e63ed435f66fb7309f7a85626a651e1fc4bb6a212d331",
+      "evidence": "Balanced and absorbing are scalar properties of subsets of a vector space; vector-space alone defines them.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/basic-operations-preserving-convexity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee3ac4a280694875f4e9e24ae5343227aed926dcfeabda22309199c0c0e6d575",
+      "evidence": "Scaling, sums, and maxima are proved termwise from Jensen for extended-real convex functions; listed function inputs are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/equivalent-characterizations-of-convex-functions"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/equivalent-characterizations-of-convex-functions"
+      ]
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-closed-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2d1a9aa18e127797346325d7a16235089d8e9b918d7b82bae9a18a6c02d7619",
+      "evidence": "Closed-set laws use metric complements and closed subsets; metric, closed-set, and ambient topology definitions are required.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-open-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "369e4087088136bd801e1c5e883748276ec28330289d1a2c681fa0e320ea1bd7",
+      "evidence": "Open-set laws use metric balls and open subsets; metric, open-subset, and ambient topology definitions are required.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/open-subset",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/open-subset",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-the-closure-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8cf5e821cd436e23e709d801410132873d3190f8b563bb15cfb80a158d53801",
+      "evidence": "Closure monotonicity, idempotence, and union properties require metric, closed-set, closure, and topology definitions.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "convex-analysis/closure-of-a-set",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "convex-analysis/closure-of-a-set",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-the-interior-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac31c13c3898b6ba292111bf355397db78d4ac8404091d5af238d0e9214783c9",
+      "evidence": "Interior monotonicity and intersection properties require metric, open-set, interior, and topology definitions.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/open-subset",
+        "convex-analysis/interior-of-a-set",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/open-subset",
+        "convex-analysis/interior-of-a-set",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/basis-characterized-by-maximal-linear-independence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a282479c5f1685aeb498605ebbd0b504d54e1af1f9a0db1eefecf74379c8d795",
+      "evidence": "The basis criterion compares a Hamel basis with linear independence; both definitions are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets"
+      ],
+      "prerequisites": [
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets"
+      ]
+    },
+    {
+      "id": "convex-analysis/biconjugate",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98117d131e71905bea1f8469883f6cd0d9c64c41c5645b3390c45ade0191958e",
+      "evidence": "The biconjugate is (f*)* and later requires closed convexity; function, conjugate, and closed-convex definitions are used.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "convex-analysis/closed-convex-function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "convex-analysis/closed-convex-function"
+      ]
+    },
+    {
+      "id": "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "424ca19dca86f63c6c7d86a6ba042370b27c01fd5d2d59e602a91a16d14406ec",
+      "evidence": "The functional norm is a supremum; normed space, linear map, absolute value, and supremum are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/linear-operator-linear-transformation",
+        "real-analysis/absolute-value",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/linear-operator-linear-transformation",
+        "real-analysis/absolute-value",
+        "real-analysis/supremum"
+      ]
+    },
+    {
+      "id": "convex-analysis/bounded-set-and-bounded-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e54dd8aeb0936e67426130a54f0bf9acfc67588a8eb3b9807e0246e19fd3d76",
+      "evidence": "Boundedness uses metric balls for a set and sequence range; balls and metric-space definitions are required.",
+      "previous_prerequisites": [
+        "convex-analysis/open-and-closed-balls-in-a-metric-space",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/open-and-closed-balls-in-a-metric-space",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/convexity-characterized-by-positive-semidefinite-hessian",
+      "outcome": "corrected",
+      "source_sha256": "a082185010bfbaaf98f5b84a9257b86f3d2d0b309713a6c0b2f70b43d46258e2",
+      "evidence": "The Hessian theorem displays a Hessian matrix and tests its quadratic form; replaced the generic matrix edge with the exact Hessian definition.",
+      "previous_prerequisites": [
+        "convex-analysis/nonnegative-positive-semidefinite-operator",
+        "convex-analysis/convexity-via-nonnegative-second-derivative",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "convex-analysis/nonnegative-positive-semidefinite-operator",
+        "convex-analysis/convexity-via-nonnegative-second-derivative",
+        "real-analysis/hessian-matrix"
+      ]
+    },
+    {
+      "id": "convex-analysis/domain-of-a-convex-function-is-convex",
+      "outcome": "corrected",
+      "source_sha256": "8588923cac62fa08de4f80976d8cc3a1a862df6601f95bf9913c3696a4e94902",
+      "evidence": "The theorem explicitly sets X as a real vector space; added that ambient setting.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/domain-and-epigraph-proper-function",
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/domain-and-epigraph-proper-function",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/weighted-arithmeticgeometric-mean-inequality",
+      "outcome": "corrected",
+      "source_sha256": "da1d4914272f99514cd5f1c42afadc466f818a92f84572f80e27253d917a571f",
+      "evidence": "The proof explicitly invokes convexity of -ln; added the convex-function input.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "convex-analysis/convex-function-via-epigraph"
+      ]
+    },
+    {
+      "id": "convex-analysis/cartesian-product-of-convex-sets-is-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e569970944e2964d642d5134301f24e6b85548bace6e2f668f4b012c82e9e4f",
+      "evidence": "The proposition assumes convex factors and concludes convexity in the Cartesian product; the componentwise convex-combination proof uses convex-set and product-space.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-set",
+        "convex-analysis/product-space-cartesian-product"
+      ],
+      "prerequisites": [
+        "convex-analysis/convex-set",
+        "convex-analysis/product-space-cartesian-product"
+      ]
+    },
+    {
+      "id": "convex-analysis/cauchy-sequence-with-a-convergent-subsequence-converges",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df21ef3541cd5648fd27ea5ac5c5ac0c28dd9d451878d9dc79726738277358d6",
+      "evidence": "The epsilon proof combines the Cauchy condition with a convergent subsequence in a metric space; all four listed concepts are explicit hypotheses or proof inputs.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/cauchy-sequence",
+        "real-analysis/subsequence",
+        "convex-analysis/convergence-of-a-sequence"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/cauchy-sequence",
+        "real-analysis/subsequence",
+        "convex-analysis/convergence-of-a-sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/cauchy-sequences-are-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "107d8efecd1f3d073bcf54ca7399b08bbb5fd75a2e95a1cf912e46dd74547250",
+      "evidence": "Taking epsilon=1 bounds the tail in one metric ball, then finitely many initial terms give a global ball; metric, Cauchy sequence, and boundedness definitions are required.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/cauchy-sequence",
+        "convex-analysis/bounded-set-and-bounded-sequence"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/cauchy-sequence",
+        "convex-analysis/bounded-set-and-bounded-sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/characterization-of-affine-mappings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10fb45e0f8258ee78187704287918b0e168118ca20fb317dac73d26047e8057a",
+      "evidence": "The iff proof expands B=A+b and reconstructs A(x)=B(x)-B(0); affine-mapping is the sole direct concept.",
+      "previous_prerequisites": [
+        "convex-analysis/affine-mapping"
+      ],
+      "prerequisites": [
+        "convex-analysis/affine-mapping"
+      ]
+    },
+    {
+      "id": "convex-analysis/characterization-of-direct-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "310b47de26168ea6eeb933838ac556d7055c650ee696a5fbbb2c4a2311accf8f",
+      "evidence": "The theorem proves unique decomposition equivalent to Y=M+N and M intersection N={0}; vector-space supplies the ambient algebra.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closed-balls-are-closed-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe05db1b49f1815dc2f98443215c23ab759bca3fd7dc3890c836f20970927d66",
+      "evidence": "The proof uses the reverse triangle inequality to put an open ball around every point outside the closed ball; metric, closed-set, and topology definitions are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closed-convex-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f43e2e0bf18f499031cfab4325ab71f334970256f4bc59efdc3f628910df89f",
+      "evidence": "The core defines an extended-real function with convex and closed epigraph; function, convex-function, and convex-set supply those ingredients.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/closed-sets-characterized-by-sequences-version-i",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e89b8c2ce22123d76788611caa657c99619d43a8c37484879aebd3fdf121ed9d",
+      "evidence": "The proof invokes closure via convergent sequences in both directions, with metric and closed-set definitions; the listed closure theorem is a proof prerequisite.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "convex-analysis/closure-characterized-by-convergent-sequences",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "convex-analysis/closure-characterized-by-convergent-sequences",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closed-sets-characterized-by-sequences-version-ii",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3fefc8546cb0172603787a868ce6feca5e639a480d2ed5d3fce2188e877d2244",
+      "evidence": "The complement-openness proof uses metric convergence, open complements, and the closed-set definition; the listed topology targets are required.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "topology/convergent-sequence",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closed-subset",
+        "topology/convergent-sequence",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closed-subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3c9017f416ee7c95a69259033ca26c247cce9a329fa995d2c941daa8f847aad",
+      "evidence": "Closedness is defined as openness of the complement in a metric space; metric-space, open-subset, and topology definitions are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/open-subset",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/open-subset",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closure-characterized-by-ball-intersections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f639147c12a3f62e119638d207dc8ec582a80977ebfbef57d460dda280e0b019",
+      "evidence": "The equivalence translates closure into every metric ball meeting E; metric-space, closure, and ambient topology are required.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closure-of-a-set",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closure-of-a-set",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closure-characterized-by-convergent-sequences",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2a769a3d579caa68219039a3822b6bf3e9a2abd5fdac9ad88ea2cc496acc0f9",
+      "evidence": "The proof selects points in balls of radius 1/n and uses metric convergence; closure, ball characterization, sequence convergence, and topology are used.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closure-of-a-set",
+        "convex-analysis/closure-characterized-by-ball-intersections",
+        "topology/convergent-sequence",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/closure-of-a-set",
+        "convex-analysis/closure-characterized-by-ball-intersections",
+        "topology/convergent-sequence",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closure-of-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e99bbbe6d3ddd01dd126461fe4237c61573c2aaab83f3b0df5ffb2d27d6171e1",
+      "evidence": "The closure is an intersection of closed supersets in a metric space; metric and topology support the construction, while closed-set is only equivalent characterization.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/closure-of-intersections-under-interior-point-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2c3daa0282e3e9df4ea164a2a46ad953062184f949a2fcfe402f84cea27693df",
+      "evidence": "The theorem needs normed convex sets, interiors and closures, and interior-segment geometry to approximate common closure points; all six listed inputs are substantive.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/closure-of-a-set",
+        "convex-analysis/segments-from-interior-points-stay-in-the-interior"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/closure-of-a-set",
+        "convex-analysis/segments-from-interior-points-stay-in-the-interior"
+      ]
+    },
+    {
+      "id": "convex-analysis/codimension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c753c46b4a57386987f4260104740e889f3ba40e65d24f33c7a9da8a4590ad6",
+      "evidence": "Codimension is dim(X/L), so vector-space, linear-subspace, and quotient-space definitions are exactly required.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/quotient-vector-space-codimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/quotient-vector-space-codimension"
+      ]
+    },
+    {
+      "id": "convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "938a339b7d06b81a139713661384cf5d929d3fd66848cd46bd2b2ae2cea18464",
+      "evidence": "The result assumes codim(L)=1 and concludes X=L direct-sum span{x0}; vector-space, subspace, codimension, and direct-sum notions are used.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/codimension",
+        "convex-analysis/direct-sum-of-subspaces"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/codimension",
+        "convex-analysis/direct-sum-of-subspaces"
+      ]
+    },
+    {
+      "id": "convex-analysis/complete-metric-space-complete-subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd00b42d81a748e5fe16140574281ebdf773d2cc9f126245a1c4c24a4d732bb9",
+      "evidence": "Completeness is defined for an ambient metric and restricted subset through Cauchy sequences converging in the subset; all three listed concepts are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/cauchy-sequence",
+        "convex-analysis/convergence-of-a-sequence"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "topology/cauchy-sequence",
+        "convex-analysis/convergence-of-a-sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7c301918d163a81b2e19317e715a06018de0318ca1e5c0e739017c75b6a79da",
+      "evidence": "Part one uses convergent-implies-Cauchy and uniqueness; part two uses completeness plus closedness, so each listed input is used.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/complete-metric-space-complete-subset",
+        "convex-analysis/closed-subset",
+        "convex-analysis/convergent-sequences-are-cauchy",
+        "convex-analysis/uniqueness-of-limits-in-metric-spaces"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space",
+        "convex-analysis/complete-metric-space-complete-subset",
+        "convex-analysis/closed-subset",
+        "convex-analysis/convergent-sequences-are-cauchy",
+        "convex-analysis/uniqueness-of-limits-in-metric-spaces"
+      ]
+    },
+    {
+      "id": "convex-analysis/completeness-of-rk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ab6d5dd710f37f5d1662e7a3238ad4bb65954acb781cb346f285803072c731c",
+      "evidence": "The coordinate proof reduces Euclidean Cauchy sequences to coordinate convergence and invokes complete-metric and convergence definitions; all listed prerequisites are relevant.",
+      "previous_prerequisites": [
+        "convex-analysis/complete-metric-space-complete-subset",
+        "topology/cauchy-sequence",
+        "convex-analysis/convergence-of-a-sequence"
+      ],
+      "prerequisites": [
+        "convex-analysis/complete-metric-space-complete-subset",
+        "topology/cauchy-sequence",
+        "convex-analysis/convergence-of-a-sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/complex-separation-theorem-real-parts",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc2379d7282f4ceb990f826bb322aa70fa1dbc442cb5164721dd0c1d1605cbf3",
+      "evidence": "The theorem applies real separation to the underlying real vector space and packages the separator via its real part; vector-space, convex-set, core, and real separation are required.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core",
+        "convex-analysis/separation-of-two-convex-sets-via-the-core-condition"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core",
+        "convex-analysis/separation-of-two-convex-sets-via-the-core-condition"
+      ]
+    },
+    {
+      "id": "convex-analysis/continuity-and-level-sets-of-the-minkowski-functional",
+      "outcome": "corrected",
+      "source_sha256": "bdb15e01cada70dfd398444da47541e28afd7995a5da09c4b49ce46a9910a9db",
+      "evidence": "Read the complete source and every direct prerequisite target. The gauge continuity and strict/closed level-set identities use a normed space, convexity, interior, gauge, closure, and the solid-set closure theorem.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/minkowski-function-gauge-of-a-set",
+        "convex-analysis/closure-of-a-set"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/minkowski-function-gauge-of-a-set",
+        "convex-analysis/closure-of-a-set",
+        "convex-analysis/linear-closure-equals-closure-for-solid-convex-sets"
+      ]
+    },
+    {
+      "id": "convex-analysis/continuity-of-linear-functionals-via-closed-level-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0140b12455e3500758849172c2b7d4b73dbdfa70ad9ac3282f3d04a0a3fbea3",
+      "evidence": "Read the complete source and every direct prerequisite target. The iff theorem relates continuity of a nonzero linear functional to closed affine level sets; normed-space and closed-set definitions are the direct inputs.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/closed-subset"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/closed-subset"
+      ]
+    },
+    {
+      "id": "convex-analysis/convergence-implies-convergence-of-norms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2aafd0c87714c16f727dfb623a49bdfc7b2995578edecd26e4865e7fa7073ab6",
+      "evidence": "Read the complete source and every direct prerequisite target. The reverse triangle inequality directly proves norm convergence from norm convergence.",
+      "previous_prerequisites": [
+        "convex-analysis/convergence-in-normed-spaces",
+        "real-analysis/reverse-triangle-inequality"
+      ],
+      "prerequisites": [
+        "convex-analysis/convergence-in-normed-spaces",
+        "real-analysis/reverse-triangle-inequality"
+      ]
+    },
+    {
+      "id": "convex-analysis/convergence-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25012e65e9f07be228cf2629620b8c0bac0951619961390e6c9481b63e146796",
+      "evidence": "Read the complete source and every direct prerequisite target. Norm convergence is defined by a normed space and a sequence, with the associated metric convergence as the stated equivalence.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convergence-of-a-sequence"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convergence-of-a-sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/convergence-of-a-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cdd771dad72f3f3b1dcb92cc904fa599d37341dafcb7cf6cdc4e9601ac29070",
+      "evidence": "Read the complete source and every direct prerequisite target. Metric epsilon-N convergence is the complete definition; metric-space is the sole prerequisite.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/convergent-sequences-are-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "920845c83af4e211f07a9705c747ccb6282a157408a5cb0cd43f0e8ade8f6987",
+      "evidence": "Read the complete source and every direct prerequisite target. The proof bounds a tail near its limit and finitely many initial terms; convergence and bounded-set definitions are required.",
+      "previous_prerequisites": [
+        "convex-analysis/convergence-of-a-sequence"
+      ],
+      "prerequisites": [
+        "convex-analysis/convergence-of-a-sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/convergent-sequences-are-cauchy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3bab7c66d711709fdb348997375949edd4105d2235f30da947afa4e26efb3f36",
+      "evidence": "Read the complete source and every direct prerequisite target. The triangle-inequality epsilon proof converts convergence to the Cauchy condition; convergence and Cauchy concepts are used.",
+      "previous_prerequisites": [
+        "convex-analysis/convergence-of-a-sequence",
+        "topology/cauchy-sequence"
+      ],
+      "prerequisites": [
+        "convex-analysis/convergence-of-a-sequence",
+        "topology/cauchy-sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-body",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b724bb0b72e108ae25b34ad283d828ba3c52840125cf8ad24e501f024680662",
+      "evidence": "Read the complete source and every direct prerequisite target. A convex body is nonempty compact convex in finite-dimensional real vector space; vector-space, compactness, and convexity are defining inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "topology/compact-set",
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "topology/compact-set",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-combination",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25604c30953d7862d994fe2f6da39f515288b53bd5821cecd223a93b4e241483",
+      "evidence": "Read the complete source and every direct prerequisite target. The definition requires a real vector space and nonnegative coefficients summing to one; vector-space is sufficient.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-conjugate-fenchel",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b424e118ad36501bdcdda1ba9146168fed33b5016f6b8eda354f79c7e906235",
+      "evidence": "Read the complete source and every direct prerequisite target. The conjugate is a supremum using the Euclidean inner product and extended-real conventions; function, extended reals, supremum, and inner product are direct.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum",
+        "linear-algebra/inner-product"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-duality-primal-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50694e3427577ca2d981ae377412b2bc4d6cae856e3d2b3d5e8323e0e81091bb",
+      "evidence": "Read the complete source and every direct prerequisite target. The displayed primal/dual pair uses functions, linear map, conjugates, infimum/supremum, and Fenchel-Young weak duality; all listed inputs are used.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "linear-algebra/linear-map",
+        "convex-analysis/convex-conjugate-fenchel",
+        "real-analysis/infimum",
+        "real-analysis/supremum",
+        "convex-analysis/fenchel-young-inequality"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "linear-algebra/linear-map",
+        "convex-analysis/convex-conjugate-fenchel",
+        "real-analysis/infimum",
+        "real-analysis/supremum",
+        "convex-analysis/fenchel-young-inequality"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-function-via-epigraph",
+      "outcome": "corrected",
+      "source_sha256": "5fde620a462ad18f2f8dfd4bf8d7291aacaffb5238041a0eb89772b80a90758c",
+      "evidence": "Read the complete source and every direct prerequisite target. Convexity is defined by convexity of the epigraph in X times R; vector-space, extended reals, epigraph, and convex-set are required.",
+      "previous_prerequisites": [
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "convex-analysis/domain-and-epigraph-proper-function",
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "convex-analysis/domain-and-epigraph-proper-function",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-hull",
+      "outcome": "corrected",
+      "source_sha256": "dd2419205a91448eb7dfbec60ac4586768e84e9a2c3d756504226ad8c9d0f8fb",
+      "evidence": "Read the complete source and every direct prerequisite target. The hull is an intersection of convex supersets in a real vector space; vector-space, convex-set, and intersection stability are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-set",
+        "convex-analysis/intersections-of-convex-sets-are-convex"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/intersections-of-convex-sets-are-convex"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-hull-is-the-smallest-convex-set-containing",
+      "outcome": "corrected",
+      "source_sha256": "57a2ea961f254c89996677bc555c0a74bd913e92466d9af2f0434c8f5b93d1df",
+      "evidence": "Read the complete source and every direct prerequisite target. Minimality follows from the intersection construction and convexity under intersections; vector-space, hull, and convex-set are used.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-hull",
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-hull",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-hull-via-convex-combinations",
+      "outcome": "corrected",
+      "source_sha256": "ea733e3e677498a6394b1a6d092ed936986733164cc17f36a4ec240cae8d3f91",
+      "evidence": "Read the complete source and every direct prerequisite target. The finite-combination characterization uses a real vector space, hull minimality, convex combinations, and closure under them.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-hull",
+        "convex-analysis/convex-sets-characterized-by-closure-under-convex-combinations",
+        "convex-analysis/convex-combination"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-hull",
+        "convex-analysis/convex-sets-characterized-by-closure-under-convex-combinations",
+        "convex-analysis/convex-combination"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-lecture-notes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f79b99ed191d932ad35d6f6382504bd425d5a43797b29b35e66199b873f0b0b",
+      "evidence": "Read the complete source and every direct prerequisite target. This is a contents/navigation page with no standalone definition or theorem; empty prerequisites are appropriate.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "convex-analysis/convex-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e5a4697245fd3ad53565df91f5c5de31d80228869690994f6ad8aecf5604acb",
+      "evidence": "Read the complete source and every direct prerequisite target. Convexity is defined by two-point combinations in a vector space; vector-space and line-segment equivalence are the direct inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/line-segments-in-a-vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/line-segments-in-a-vector-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/convex-sets-characterized-by-closure-under-convex-combinations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c1fcf33f37957314dfd11d6225be2d4d8cbe3e911e26d09750d0c5907e2f365",
+      "evidence": "Read the complete source and every direct prerequisite target. The iff proof uses the two-point convex definition and finite convex combinations; both listed concepts are necessary.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-set",
+        "convex-analysis/convex-combination"
+      ],
+      "prerequisites": [
+        "convex-analysis/convex-set",
+        "convex-analysis/convex-combination"
+      ]
+    },
+    {
+      "id": "convex-analysis/convexity-characterized-by-monotonicity-of-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c934a3473bda8095d4b39d46ec2965b8db64ef974bb56cb8dd2777d89d93cbe",
+      "evidence": "Read the complete source and every direct prerequisite target. The theorem uses convexity, slope inequalities, differentiability, and monotonic derivative on an open interval; listed prerequisites cover the convex proof inputs.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/slope-inequalities-for-convex-functions"
+      ],
+      "prerequisites": [
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/slope-inequalities-for-convex-functions"
+      ]
+    },
+    {
+      "id": "convex-analysis/convexity-of-the-marginal-optimal-value-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47100eae810fb539107e6100f9d475e921c82edd9ed223471ac960f10c493099",
+      "evidence": "Read the complete source and every direct prerequisite target. Partial infimum uses joint convexity, vector-space structure, and a convex feasible graph supplied by the set-valued mapping definition.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/marginal-optimal-value-function"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/marginal-optimal-value-function"
+      ]
+    },
+    {
+      "id": "convex-analysis/convexity-on-a-convex-subset-via-extension",
+      "outcome": "corrected",
+      "source_sha256": "a250b2ee79e5b7ff6db0104cc271c6cb3951e8f45e19719f139f38652dd81368",
+      "evidence": "Read the complete source and every direct prerequisite target. The extension uses a real vector space, convex domain, and extended-real convexity; all three are required.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-set",
+        "convex-analysis/convex-function-via-epigraph"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/convex-function-via-epigraph"
+      ]
+    },
+    {
+      "id": "convex-analysis/convexity-preserved-under-affine-composition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cf204785497f94879905597b15f4fbb3d824b5951da5f3808f6f57c45fad7af",
+      "evidence": "Read the complete source and every direct prerequisite target. The proof substitutes the affine combination identity into Jensen; affine map, vector-space, and convex-function definitions are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/affine-mapping",
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph"
+      ],
+      "prerequisites": [
+        "convex-analysis/affine-mapping",
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph"
+      ]
+    },
+    {
+      "id": "convex-analysis/convexity-preserved-under-monotone-convex-composition",
+      "outcome": "corrected",
+      "source_sha256": "8437e3777695f1629ce826a846f1e208601186475b9a329cea53fef5b3e8346f",
+      "evidence": "Read the complete source and every direct prerequisite target. The proof uses Jensen for f and phi plus monotonicity on a convex range; vector-space, convex function, and convex-set inputs are needed.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/convexity-via-nonnegative-second-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2de4e76bff8e1c880d5391a180e5f22dfa7d39a1773b74796072b36e443226a",
+      "evidence": "Read the complete source and every direct prerequisite target. The corollary combines monotone derivative characterization with f twice differentiable and f second derivative nonnegative.",
+      "previous_prerequisites": [
+        "convex-analysis/convexity-characterized-by-monotonicity-of-derivative"
+      ],
+      "prerequisites": [
+        "convex-analysis/convexity-characterized-by-monotonicity-of-derivative"
+      ]
+    },
+    {
+      "id": "convex-analysis/core-characterized-by-absorbing-translations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "125aed3344af27a384a3d555232f973689654b8d38e6a2fde844cb528d52e736",
+      "evidence": "Read the complete source and every direct prerequisite target. The equivalence rewrites every direction through Omega minus x and the absorbing scaling condition; vector-space, set translation, core, and absorbing definitions are used.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/set-operations-sum-scalar-multiple-difference",
+        "convex-analysis/algebraic-interior-core",
+        "convex-analysis/balanced-and-absorbing-sets"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/set-operations-sum-scalar-multiple-difference",
+        "convex-analysis/algebraic-interior-core",
+        "convex-analysis/balanced-and-absorbing-sets"
+      ]
+    },
+    {
+      "id": "convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf2799be4b3b9b4fa09733b92f24b0d826b77f64cafa8a33ee74cede69509733",
+      "evidence": "Read the complete source and every direct prerequisite target. The equality theorem uses normed-space topology, convexity, interior, core, and the interior-segment lemma in the reverse inclusion.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/algebraic-interior-core"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/algebraic-interior-core"
+      ]
+    },
+    {
+      "id": "convex-analysis/core-of-a-convex-set-is-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be047b04f450c0e2b0e03508165596593885e8c1d816e6ee6cec1042ccbcac34",
+      "evidence": "Read the complete source and every direct prerequisite target. Convexity of the core uses the vector-direction definition together with convexity of Omega; vector-space, convex-set, and core are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core"
+      ]
+    },
+    {
+      "id": "convex-analysis/direct-sum-of-subspaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd5a4324811885d5ba0c169e0c389f6cabb6b416fd493e4c53a0b7a1cd34ae1b",
+      "evidence": "Read the complete source and every direct prerequisite target. Direct sum is defined by subspaces M,N, their set sum, and zero intersection; linear-subspace is the needed prerequisite.",
+      "previous_prerequisites": [
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "convex-analysis/linear-subspace"
+      ]
+    },
+    {
+      "id": "convex-analysis/distance-function-to-a-set",
+      "outcome": "corrected",
+      "source_sha256": "e6ce2bc73e3d627b22057d4605213594f3929142b2943781aa01157c4aa33889",
+      "evidence": "Read the complete source and every direct prerequisite target. The distance is an infimum of norm distances; normed-space and infimum are required, while convexity/closure are property claims.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "real-analysis/infimum"
+      ]
+    },
+    {
+      "id": "convex-analysis/domain-and-epigraph-proper-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "398803823099eccd1fd546da8624cd69f26cd6da46957b8a7a823db9ea4daf91",
+      "evidence": "Read the complete source and every direct prerequisite target. Domain, epigraph, and properness require a vector space and extended-real arithmetic; both listed concepts are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/dual-space-and-duality-pairing",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9f86c28369172676d454ef7843d636240be3621ca123d033969dfe61467afad",
+      "evidence": "Read the complete source and every direct prerequisite target. The continuous dual is bounded linear functionals on a normed space and pairing is evaluation; normed-space, bounded-functional, and continuity definitions are used.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "topology/continuous-map"
+      ]
+    },
+    {
+      "id": "convex-analysis/equivalent-characterizations-of-convex-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "003446c34920bf978f7430c4a1fb09f9d8a3b21006287366b0f2eff95c326e03",
+      "evidence": "Read the complete source and every direct prerequisite target. The equivalence proves epigraph convexity iff Jensen and finite combinations; convex function, vector-space, and convex-combination notions are direct.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/convex-combination"
+      ],
+      "prerequisites": [
+        "convex-analysis/convex-function-via-epigraph",
+        "convex-analysis/convex-combination"
+      ]
+    },
+    {
+      "id": "convex-analysis/existence-of-a-basis-hamel-basis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "337de87330de8867b9f7cc534a746a3c8c6eae6715a0be9b2e2059f1abfc6dc1",
+      "evidence": "Read the complete source and every direct prerequisite target. The theorem requires a basis definition and the extension theorem, with the axiom-of-choice assumption stated explicitly.",
+      "previous_prerequisites": [
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "convex-analysis/existence-of-a-functional-attaining-its-norm-at-a-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d5a6b9b0652b8fd8a3008127ebc9438b01367daa501553832b7fec2cc7407e83",
+      "evidence": "Read the complete source and every direct prerequisite target. The corollary applies point-subspace separation to z0/norm(z0); normed space, bounded functional, and separation are substantive.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "convex-analysis/separation-of-a-point-and-a-subspace"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "convex-analysis/separation-of-a-point-and-a-subspace"
+      ]
+    },
+    {
+      "id": "convex-analysis/extended-real-number-system-and-conventions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a33d9df602c43351795977d7c8394593678a96b0c9b2ff83b26215aba2c37b24",
+      "evidence": "Read the complete source and every direct prerequisite target. This entry defines the extended reals and empty-set infimum/supremum conventions; it has no prerequisite.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "convex-analysis/extension-of-a-linearly-independent-set-to-a-basis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "adea78869fe83cdf127eb7fb78ec01ed12cfda9e0c01ac7c7285c9f874d9dd97",
+      "evidence": "Read the complete source and every direct prerequisite target. Zorn extension starts from a linearly independent set and concludes a Hamel basis; independence and basis definitions are required.",
+      "previous_prerequisites": [
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ],
+      "prerequisites": [
+        "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+        "convex-analysis/basis-hamel-basis-and-dimension"
+      ]
+    },
+    {
+      "id": "convex-analysis/fenchel-moreau-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "141f49a9d9282439fd5210eb62d227315822210a50ce4b0c959bccba63bbc8eb",
+      "evidence": "Read the complete source and every direct prerequisite target. The theorem compares f and its biconjugate and characterizes closed convex functions; function, conjugate, biconjugate, and closed-convex inputs are used.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "convex-analysis/biconjugate",
+        "convex-analysis/closed-convex-function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "convex-analysis/biconjugate",
+        "convex-analysis/closed-convex-function"
+      ]
+    },
+    {
+      "id": "convex-analysis/fenchel-young-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b39ce49d9640bffc0edf737b4bb5aab67877575cadeb514c14b2c69f9caa4454",
+      "evidence": "Read the complete source and every direct prerequisite target. The inequality follows from the conjugate definition, while equality cases require subdifferential; all listed inputs are used.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "convex-analysis/subdifferential"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "convex-analysis/subdifferential"
+      ]
+    },
+    {
+      "id": "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1598c4b0eb61ccbd91432ec08440804271832b5131136ff1a0d9d0cd5a8b3ff1",
+      "evidence": "Read the complete source and every direct prerequisite target. The extension theorem assumes a real vector space, subspace, and seminorm and invokes sublinear Hahn-Banach domination.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/seminorm"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/seminorm"
+      ]
+    },
+    {
+      "id": "convex-analysis/hahn-banach-theorem-in-complex-vector-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e54a105c13e160ef797a8efc36222fabaf96ab9bff39ed2b6d4a72d3fce3b67",
+      "evidence": "Read the complete source and every direct prerequisite target. The complex extension reduces to the real seminorm theorem while preserving complex linearity; vector-space, subspace, seminorm, and real extension are required.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/seminorm",
+        "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/seminorm",
+        "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case"
+      ]
+    },
+    {
+      "id": "convex-analysis/hahn-banach-theorem-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ccdacbf83f122a1b5cf5595090c698fd6aa23b667216bf2b06d54df3bedefd42",
+      "evidence": "Hahn\u2013Banach in normed spaces assumes a normed space, subspace, and bounded functional and concludes a norm-preserving bounded extension; the listed prerequisites match those hypotheses and the stated seminorm theorem.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+        "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case"
+      ]
+    },
+    {
+      "id": "convex-analysis/hahn-banach-theorem-in-real-vector-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c60086347fa37f71d1549520dad4cc3785d0ad7deb33dbe6925b848080e8a7e6",
+      "evidence": "The real Hahn\u2013Banach theorem assumes a real vector space, subspace, sublinear majorant, and linear functional and concludes an extension dominated by that majorant; all listed inputs occur in the statement.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions",
+        "convex-analysis/linear-operator-linear-transformation"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions",
+        "convex-analysis/linear-operator-linear-transformation"
+      ]
+    },
+    {
+      "id": "convex-analysis/holder-inequality-finite-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "761f46c5884ccca89097bad49e071932298e1bc5179eecf3e23e993ff6a7e2e1",
+      "evidence": "Finite H\u00f6lder assumes real finite families and conjugate exponents; the listed weighted AM\u2013GM is the cited scalar inequality used termwise in the proof.",
+      "previous_prerequisites": [
+        "convex-analysis/weighted-arithmeticgeometric-mean-inequality"
+      ],
+      "prerequisites": [
+        "convex-analysis/weighted-arithmeticgeometric-mean-inequality"
+      ]
+    },
+    {
+      "id": "convex-analysis/holder-inequality-integrals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fdcf5988b84dc68a29117e096a85ee81695f2395994cc706bc2b7227e76e54ce",
+      "evidence": "Integral H\u00f6lder assumes measurable functions in conjugate Lp spaces; measurable-function, Lp-space, and weighted AM\u2013GM supply the stated hypotheses and pointwise inequality.",
+      "previous_prerequisites": [
+        "measure-theory/measurable-function",
+        "measure-theory/lp-space",
+        "convex-analysis/weighted-arithmeticgeometric-mean-inequality"
+      ],
+      "prerequisites": [
+        "measure-theory/measurable-function",
+        "measure-theory/lp-space",
+        "convex-analysis/weighted-arithmeticgeometric-mean-inequality"
+      ]
+    },
+    {
+      "id": "convex-analysis/hyperplane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2079028c3ec463927b192d90c356ccb8cce9916349e4a2382422315fc91253ab",
+      "evidence": "A hyperplane is defined as an affine set of codimension one, with its direction subspace supplied by the parallel-subspace construction; the four listed algebraic inputs are defining.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/affine-set",
+        "convex-analysis/codimension",
+        "convex-analysis/parallel-subspace-to-an-affine-set-is"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/affine-set",
+        "convex-analysis/codimension",
+        "convex-analysis/parallel-subspace-to-an-affine-set-is"
+      ]
+    },
+    {
+      "id": "convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "006d751d9a3f2491a877fcde1a13eafbea0556b8a4d6563a5272bf030f5f3c2f",
+      "evidence": "The level-set characterization assumes a real vector space and proves both directions using hyperplanes, kernels of nonzero functionals, and codimension one; each listed concept is part of the theorem structure.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/hyperplane",
+        "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/hyperplane",
+        "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one"
+      ]
+    },
+    {
+      "id": "convex-analysis/idempotence-of-the-core-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "155a0507b53619895ce869471c72fc5ced47d6cc32f8fd2868a521282b63691d",
+      "evidence": "Core idempotence is stated for a convex subset of a vector space and uses the algebraic-interior operator; vector-space, convex-set, and core are the direct inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/algebraic-interior-core"
+      ]
+    },
+    {
+      "id": "convex-analysis/image-and-kernel-linear-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c973c806cb4933f09e18a22c7450d4b36c2b3f828408352eac967dce5ca6a3b6",
+      "evidence": "The entry defines image, kernel, and linear isomorphism for a linear operator; linear operator, subspace, image/preimage, and bijection definitions supply each named construction.",
+      "previous_prerequisites": [
+        "convex-analysis/linear-operator-linear-transformation",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/image",
+        "shared-foundations/preimage",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "convex-analysis/linear-operator-linear-transformation",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/image",
+        "shared-foundations/preimage",
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "convex-analysis/images-and-preimages-of-subspaces-under-linear-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d0f6ad7fe3b85e0b00ebb05cad03375b40877cb6a3cd5d92eeab524856602aa",
+      "evidence": "Images and preimages of subspaces are proved closed under addition and scalar multiplication for a linear operator; operator, subspace, image, and preimage are exact hypotheses/results.",
+      "previous_prerequisites": [
+        "convex-analysis/linear-operator-linear-transformation",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/image",
+        "shared-foundations/preimage"
+      ],
+      "prerequisites": [
+        "convex-analysis/linear-operator-linear-transformation",
+        "convex-analysis/linear-subspace",
+        "shared-foundations/image",
+        "shared-foundations/preimage"
+      ]
+    },
+    {
+      "id": "convex-analysis/indicator-function-of-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f4e1865ab14efb6c7f1e17e3245db134e61d8ae04c64c24cdc1031d6b52d390",
+      "evidence": "The indicator definition maps a subset to extended reals and explicitly identifies its domain and epigraph; extended-real, domain, and epigraph definitions are required.",
+      "previous_prerequisites": [
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "convex-analysis/domain-and-epigraph-proper-function"
+      ],
+      "prerequisites": [
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "convex-analysis/domain-and-epigraph-proper-function"
+      ]
+    },
+    {
+      "id": "convex-analysis/interior-and-closure-of-a-convex-set-are-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "922e0a3febb864487b3c0c96019492faf6ee172b7a32ada0f89a8da7a102794b",
+      "evidence": "The theorem states that interior and closure of a convex set in a normed space are convex; normed-space, convex-set, interior, and closure are all output or hypothesis concepts.",
+      "previous_prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/closure-of-a-set"
+      ],
+      "prerequisites": [
+        "convex-analysis/norm-normed-vector-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/interior-of-a-set",
+        "convex-analysis/closure-of-a-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/isomorphism-theorem-and-dimension-formula-for-linear-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "caaec8366270e7ff20788cb142110728d1e186622e944258ddd4f42a3e836689",
+      "evidence": "The first isomorphism theorem constructs X/ker(T) to im(T), with finite-dimensional codimension equality; image/kernel isomorphism, quotient, and linear map are the named inputs.",
+      "previous_prerequisites": [
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/quotient-vector-space-codimension",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/quotient-vector-space-codimension",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "11e8e149f777e13afbfe66e34837d2fa37c20fa7b5e45e498957685173bd3295",
+      "evidence": "A nonzero linear functional has a kernel of codimension one; vector-space, linear-map, kernel/image, and quotient definitions supply the theorem statement.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/quotient-vector-space-codimension"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map",
+        "convex-analysis/image-and-kernel-linear-isomorphism",
+        "convex-analysis/quotient-vector-space-codimension"
+      ]
+    },
+    {
+      "id": "convex-analysis/legendre-fenchel-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99f42cf6976691dad3e9b7fe97136c264a71dc4a446cc5fbeef7efe9efdc5e91",
+      "evidence": "The Legendre\u2013Fenchel transform is the supremum pairing for an extended-real function; function, extended reals, supremum, and inner product are direct definition inputs.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "convex-analysis/extended-real-number-system-and-conventions",
+        "real-analysis/supremum",
+        "linear-algebra/inner-product"
+      ]
+    }
+  ],
+  "triage_records": [
+    {
+      "id": "convex-analysis/line-connecting-two-points",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/line-segments-in-a-vector-space",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/linear-closure",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/linear-closure-equals-closure-for-solid-convex-sets",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/linear-closure-of-a-convex-set-is-convex",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/linear-operator-linear-transformation",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/marginal-optimal-value-function",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/metric-metric-space",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/minkowski-function-gauge-of-a-set",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/minkowski-sum",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/mixed-volume",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/nonnegative-positive-semidefinite-operator",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/nonnegative-real-less-than-every-0-must-be-zero",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/norm-induces-a-metric-and-conversely",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/norm-normed-vector-space",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/octonionic-pseudovolume",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/open-and-closed-balls-in-a-metric-space",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/open-balls-are-open-sets",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/open-subset",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/parallel-affine-set",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/parallel-subspace-to-an-affine-set-is",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/piecewise-polynomial-function",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/pluripotential-valuation-construction",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/product-space-cartesian-product",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/properties-of-affine-sets-and-affine-hulls",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/quasiconvex-function",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/quasiconvexity-characterized-by-convex-sublevel-sets",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/quotient-vector-space-codimension",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/segments-from-core-points-stay-in-the-core",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/segments-from-interior-points-stay-in-the-interior",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/self-adjoint-linear-operator",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/semialgebraic-set",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/seminorm",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/separation-by-a-closed-hyperplane",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/separation-by-a-hyperplane",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/separation-by-closed-hyperplane-under-interior-condition",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/separation-by-hyperplanes-via-supinf-inequality",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/separation-of-a-point-and-a-subspace",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/separation-of-two-convex-sets-via-the-core-condition",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/set-operations-sum-scalar-multiple-difference",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/slope-inequalities-for-convex-functions",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/span-equals-the-set-of-all-finite-linear-combinations",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/strict-separation-by-a-closed-hyperplane",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/strict-separation-of-compact-and-closed-convex-sets",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/strict-separation-with-an-open-convex-set",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/strictly-convex-function",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/subdifferential",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/subgradient",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/subsequence-index-bound-n_k-k",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/subsequences-of-convergent-sequences-converge-to-the-same-limit",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/subspace-test-closure-under-addition-and-scalar-multiplication",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/sum-of-subspaces-equals-span-of-the-union",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/sums-and-scalar-multiples-of-convex-sets-are-convex",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/support-function",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/supporting-hyperplane-convex-function",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/supremum-of-convex-functions-is-convex",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/uniqueness-of-limits-and-boundedness-in-normed-spaces",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/uniqueness-of-limits-in-metric-spaces",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/valuation-on-convex-bodies",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/youngs-inequality",
+      "reason": "Pending individual full source and direct prerequisite semantic review."
+    },
+    {
+      "id": "convex-analysis/interior-and-closure-relations-for-convex-sets-with-nonempty-interior",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1357476fb1f7a0d572bd0eecae3d782b091459e2ecb589eb654781435eb0630f",
+      "evidence": "The theorem compares closure of interior with closure and interior of closure for a normed convex set with nonempty interior; normed-space, convex-set, interior, and closure are required. Added those omitted statement concepts.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/interior-characterized-by-existence-of-a-ball",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df8ba42a3f22be951f448978b429b31dd8448114120d664c436127a6a6a693e6",
+      "evidence": "The ball characterization states membership in the interior iff a metric ball is contained in the set; metric-space and interior are the two defining concepts. Added interior for the theorem output.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/interior-of-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "991b557e86fe55fd38cfb24db67fbecbb694d557d311a93385a68bdabced4d2b",
+      "evidence": "Interior is defined as the union of open subsets of a metric space; metric-space and open-subset are both defining inputs. Added open-subset.",
+      "previous_prerequisites": [
+        "convex-analysis/metric-metric-space"
+      ],
+      "prerequisites": [
+        "convex-analysis/metric-metric-space"
+      ]
+    },
+    {
+      "id": "convex-analysis/intersection-of-subspaces-is-a-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22ca5fb0f2d6ca6a4fb8f17ad20d40f4eea9b563ff3334eac465105ebe911449",
+      "evidence": "The intersection of any family of linear subspaces is a subspace; vector-space is the ambient setting and linear-subspace is the family/result concept. Added vector-space.",
+      "previous_prerequisites": [
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "convex-analysis/linear-subspace"
+      ]
+    },
+    {
+      "id": "convex-analysis/intersections-of-convex-sets-are-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7a74cab0bea254b8e5aabf9b8c110b9018fd4bc1ae3b8b47ee9103f1ecf9570",
+      "evidence": "The intersection of convex subsets is convex by applying the two-point definition in a vector space; vector-space and convex-set are direct inputs. Added vector-space.",
+      "previous_prerequisites": [
+        "convex-analysis/convex-set"
+      ],
+      "prerequisites": [
+        "convex-analysis/convex-set"
+      ]
+    },
+    {
+      "id": "convex-analysis/legendre-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e083da41a44d93baa737e450e3cd8a5290c90aefd5001aa9566ce816f7919715",
+      "evidence": "The Legendre transform is defined for a differentiable strictly convex function on an open convex set and uses the gradient and Fenchel conjugate; added convex-set for the explicit domain hypothesis.",
+      "previous_prerequisites": [
+        "convex-analysis/strictly-convex-function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "real-analysis/derivative",
+        "real-analysis/differentiable-map"
+      ],
+      "prerequisites": [
+        "convex-analysis/strictly-convex-function",
+        "convex-analysis/convex-conjugate-fenchel",
+        "real-analysis/derivative",
+        "real-analysis/differentiable-map"
+      ]
+    }
+  ]
+}

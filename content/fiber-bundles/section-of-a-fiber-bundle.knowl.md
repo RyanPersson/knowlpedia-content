@@ -7,15 +7,15 @@ aliases = ["smooth section", "global section", "cross-section", "section of a sm
 domains = ["fiber-bundles"]
 section_mode = "progressive"
 prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-map"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. A **smooth global section** of \(\pi\) is a [[fiber-bundles/smooth-map|smooth map]] \(s:M\to E\) satisfying
 \[
 \pi\circ s=\operatorname{id}_M.
 \]
-Equivalently, \(s(x)\in E_x=\pi^{-1}(x)\) for every \(x\), and this choice varies smoothly with \(x\). A **local section over** an open set \(U\subseteq M\) is a smooth map \(s:U\to E\) with \(\pi\circ s=\operatorname{id}_U\). A fiber bundle always has local sections near each base point, but it need not have a global section.
+Equivalently, \(s(x)\in E_x=\pi^{-1}(x)\) for every \(x\), and this choice varies smoothly with \(x\). A **local section over** an open set \(U\subseteq M\) is a smooth map \(s:U\to E\) with \(\pi\circ s=\iota_U\), where \(\iota_U:U\hookrightarrow M\) is the inclusion. A fiber bundle always has local sections near each base point, but it need not have a global section.
 
 ## Local description and constructions
 

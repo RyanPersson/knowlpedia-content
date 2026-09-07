@@ -7,13 +7,15 @@ aliases = ["infimum"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/infimum.md"
 prerequisites = ["real-analysis/bounded-below", "shared-foundations/lower-bound", "shared-foundations/subset"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 An **infimum** of a nonempty set \(A\subseteq\mathbb R\) that is [[real-analysis/bounded-below|bounded below]] is a real number \(t\in\mathbb R\) such that:
 1. \(t\) is a lower bound of \(A\) (i.e., \(t\le x\) for all \(x\in A\)), and
 2. for every lower bound \(\ell\) of \(A\), one has \(\ell\le t\).
+
+## Existence and comparison
 
 The infimum is the “greatest lower bound” and may exist even when \(A\) has no [[real-analysis/minimum|minimum]]. Using the [[real-analysis/completeness-axiom|completeness axiom]], every nonempty bounded-below set of real numbers has an infimum.
 

@@ -1,0 +1,1902 @@
+{
+  "reviews": [
+    {
+      "id": "algebra-category-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "390b24821ff6a53f1778306f5ea806c120ff8c8a146aa89b3672e192f5176233",
+      "evidence": "Navigation section only; it groups canonical category-theory knowls and has no defining mathematical prerequisite. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "algebra-category-theory/abelian-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9551206ba7c700457bbff01ebee46c121402369f532c1ad037084482f347019f",
+      "evidence": "The definition requires an additive category, kernels and cokernels for every morphism, and normal mono/epi conditions; category, additive, kernel, cokernel, mono, and epi are exactly the stated inputs. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical",
+        "algebra-category-theory/monomorphism-category",
+        "algebra-category-theory/epimorphism-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical",
+        "algebra-category-theory/monomorphism-category",
+        "algebra-category-theory/epimorphism-category"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/abelian-category-axioms",
+      "outcome": "corrected",
+      "source_sha256": "e07bb8cece69fc5176f21f480ae3d10a904513bd3279c3da19df5cb116c3447a",
+      "evidence": "The opening equivalence explicitly uses category, additive structure, kernels, cokernels, monomorphisms, epimorphisms, and arrow isomorphisms; all listed prerequisites are therefore direct. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical",
+        "algebra-category-theory/monomorphism-category",
+        "algebra-category-theory/epimorphism-category",
+        "algebra-category-theory/isomorphism-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical",
+        "algebra-category-theory/monomorphism-category",
+        "algebra-category-theory/epimorphism-category",
+        "algebra-category-theory/isomorphism-category"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/additive-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "921b0b3631196d736c0814b4f6b2c4415f3a8c7472af1454aba9c377df2c5c51",
+      "evidence": "The core requires preadditivity, a zero object, and binary product/coproduct biproduct data; the five listed prerequisites supply those structures without introducing a category cycle. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/preadditive-category",
+        "algebra-category-theory/categorical-product",
+        "algebra-category-theory/coproduct",
+        "algebra-category-theory/zero-object"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/preadditive-category",
+        "algebra-category-theory/categorical-product",
+        "algebra-category-theory/coproduct",
+        "algebra-category-theory/zero-object"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/adjoint-functors",
+      "outcome": "corrected",
+      "source_sha256": "f2b2cf44bc2255c486e330d85ae97ff8aed6f116cb67c7a89243f1d6ad83ce65",
+      "evidence": "The definition is a natural bijection between two hom sets for functors F and G; category, functor, natural transformation/isomorphism, and bijective function are direct inputs. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/natural-isomorphism",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/natural-isomorphism",
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/algebra-object",
+      "outcome": "corrected",
+      "source_sha256": "67090da32b0a68e3cf8d9519cba802f527f9ea55a238df7bc0219e864a2a82cf",
+      "evidence": "The core only requires a monoidal category with associator and unitors for associative unital multiplication; symmetric monoidal structure appears only in the optional commutative section and was removed. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/monoidal-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/monoidal-category"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/automorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d703d68573b78e76d152db2e22cd6f49022ce046bffc7406f2425e716c0a339",
+      "evidence": "An automorphism is an isomorphism A\u2192A for an object in a category; category, object, and isomorphism are direct. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/isomorphism-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/isomorphism-category"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/categorical-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "30ecd18275a26cf9cbd09430d5dfd61622ed171297845e7d06a960346ebea074",
+      "evidence": "The universal property quantifies over objects and morphisms and uses composition, so category, object, morphism, and composition are direct. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/category-axioms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd4471b97a7238ef826b153469d61d2c73f30de959350137099f2e39ef7ccb0e",
+      "evidence": "The axioms spell out objects, hom-set morphisms, composition, and identities; those four component concepts are prerequisites while category itself is not added to avoid self-reference. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category",
+        "algebra-category-theory/identity-morphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category",
+        "algebra-category-theory/identity-morphism"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/coequalizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95265ea3d2432d267c4c0256b63191eca19dc941c9c19dda7fd8a4c118366a24",
+      "evidence": "The definition takes parallel morphisms and a universal morphism out of their codomain, with equality under composition; category, morphism, and composition are direct. Full source and each listed prerequisite target were read, including the universal-property equations and examples.",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/counit-adjunction",
+      "outcome": "corrected",
+      "source_sha256": "f9151552c63ea199eaf3b9180be6a272507f67cd3e34c384e371641677d8ddfa",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor",
+        "algebra-category-theory/adjoint-functors",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/identity-morphism",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor",
+        "algebra-category-theory/adjoint-functors",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/identity-morphism",
+        "shared-foundations/bijective-function"
+      ],
+      "evidence": "The counit component \u03b5_d:F(Gd)\u2192d is the unique transpose of id_Gd under the adjunction bijection; functors, adjunction, natural transformation, identity, and bijection are all direct. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/exact-functor",
+      "outcome": "corrected",
+      "source_sha256": "6fbada80fd434f5dbfba3159b6d25a00f6d67ac3180c323f1482e8b98855d05d",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/functor"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/functor"
+      ],
+      "evidence": "The source and target are abelian categories and F is explicitly additive; preserving both ends of every short exact sequence is the defining condition. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/kernel-categorical",
+      "outcome": "corrected",
+      "source_sha256": "28bae2306f3b8d1d6b2925c9f0644ed2289ab42452c6f8904fd8d1bcb6718161",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category",
+        "algebra-category-theory/zero-object"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category",
+        "algebra-category-theory/zero-object"
+      ],
+      "evidence": "The universal kernel condition uses a pointed category\u2019s zero morphism and composition; additive category is only an example, so zero-object is the minimal ambient prerequisite. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/left-exact-functor",
+      "outcome": "corrected",
+      "source_sha256": "f6657da827b645722653791d4fb9198fccff20f641ce75831a09f922fdfbd981",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/limit",
+        "algebra-category-theory/kernel-categorical"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/limit",
+        "algebra-category-theory/kernel-categorical"
+      ],
+      "evidence": "The definition assumes an additive functor between abelian categories and preservation of finite limits/equivalently kernels; additive-category is direct. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/pretriangulated-category",
+      "outcome": "corrected",
+      "source_sha256": "e89c4ac5ebf4be9e8a7dd171e183e3de7414c0a1f65d2bb756fb4da91534209b",
+      "previous_prerequisites": [
+        "algebra-category-theory/preadditive-category",
+        "algebra-category-theory/zero-object",
+        "algebra-category-theory/shift-functor",
+        "algebra-category-theory/triangle",
+        "algebra-category-theory/distinguished-triangle"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/preadditive-category",
+        "algebra-category-theory/zero-object",
+        "algebra-category-theory/shift-functor",
+        "algebra-category-theory/triangle",
+        "algebra-category-theory/distinguished-triangle"
+      ],
+      "evidence": "The axioms require preadditivity, zero object, additive shift, and a class of triangles; triangle was added for the explicit \u0394 datum. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/tannakian-category",
+      "outcome": "corrected",
+      "source_sha256": "7cae5e7a20a1ce7ade0bae39d8a7bde6b86ff3275486628aeb52b819e70d46d6",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/symmetric-monoidal-category",
+        "algebra-category-theory/exact-functor",
+        "algebra-category-theory/faithful-functor"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/symmetric-monoidal-category",
+        "algebra-category-theory/exact-functor",
+        "algebra-category-theory/faithful-functor"
+      ],
+      "evidence": "The core requires a field, abelian rigid symmetric monoidal category, and an exact faithful tensor fiber functor; each listed dependency supplies a defining condition. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/unit-adjunction",
+      "outcome": "corrected",
+      "source_sha256": "98839ec3497f2ea6cf5ac9644c0d786d612c37be62486100dcaa471acbab1de9",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor",
+        "algebra-category-theory/adjoint-functors",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/identity-morphism",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor",
+        "algebra-category-theory/adjoint-functors",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/identity-morphism",
+        "shared-foundations/bijective-function"
+      ],
+      "evidence": "The unit component \u03b7_c is the transpose of id_Fc under the adjunction bijection and is a natural transformation; listed targets supply these data. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/yoneda-embedding",
+      "outcome": "corrected",
+      "source_sha256": "ac534e2208864b5e2b587ad119ce6cc91da3546b84c1972d1246d82cb024f19e",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/representable-functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/opposite-category",
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/representable-functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/opposite-category",
+        "shared-foundations/set"
+      ],
+      "evidence": "The embedding uses locally small Set-valued presheaves, representable functors, opposite categories, and natural transformations; all listed targets occur in the construction. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-homological/chain-map",
+      "outcome": "corrected",
+      "source_sha256": "8aff52ae56bedf9b73ec62bca6ae9a26ff5da9e9da705ef05472a4d88201b5bd",
+      "previous_prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-homological/chain-complex",
+        "algebra-modules/module-homomorphism"
+      ],
+      "evidence": "The core is a degreewise module map commuting with differentials; induced homology maps are under a later heading. The central-element condition in Example 3 is necessary for f_n(ac)=a f_n(c). Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-homological/injective-resolutions-exist",
+      "outcome": "corrected",
+      "source_sha256": "192ee5ced38ab9909f41550dc65b95e486817fff9a8b340ef88e340f029c4ca0",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/injective-module",
+        "algebra-homological/injective-resolution",
+        "algebra-homological/cochain-complex",
+        "algebra-homological/exact-complex"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/injective-module",
+        "algebra-homological/injective-resolution",
+        "algebra-homological/cochain-complex",
+        "algebra-homological/exact-complex"
+      ],
+      "evidence": "The theorem constructs an exact augmented cochain complex of injectives by iterating embeddings; resolution, cochain, and exact-complex targets are direct. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-homological/projective-resolutions-exist",
+      "outcome": "corrected",
+      "source_sha256": "18e002ca24f091b7ba7501c2394ebc002b6df92fe64d6494fbff0b72a294950e",
+      "previous_prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/projective-module",
+        "algebra-modules/free-module",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/chain-complex",
+        "algebra-homological/exact-complex"
+      ],
+      "prerequisites": [
+        "algebra-modules/module",
+        "algebra-modules/projective-module",
+        "algebra-modules/free-module",
+        "algebra-homological/projective-resolution",
+        "algebra-homological/chain-complex",
+        "algebra-homological/exact-complex"
+      ],
+      "evidence": "The theorem constructs an exact augmented chain complex of free/projective modules by iterated surjections; resolution, chain, and exact-complex targets are direct. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-modules/tensor-preserves-direct-sums",
+      "outcome": "corrected",
+      "source_sha256": "7d7eed480fc158f3d7abb37b9c7a11eeb47702d5ed1e4884f932c91d9fafcc70",
+      "previous_prerequisites": [
+        "algebra-modules/tensor-product",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-modules/tensor-product",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "evidence": "The displayed maps are canonical tensor/direct-sum isomorphisms; the Hom adjunction appears only as an optional viewpoint and was removed. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-modules/torsion-element",
+      "outcome": "corrected",
+      "source_sha256": "3cbe8f183ee50ef32c994e40ed92357f95f314a130b8e60c6ca13ccfd12abf7e",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-modules/module"
+      ],
+      "evidence": "The core definition is rm=0 for a nonzero r over an integral domain; annihilator is only in the later equivalent-characterization section, so it is not a core prerequisite. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-modules/vector-space-axioms",
+      "outcome": "corrected",
+      "source_sha256": "505bd39054beb2e7749b775675721d7976f6a0a6bf904a7454b4934e86d5b292",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-rings/field"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-rings/field"
+      ],
+      "evidence": "The core starts with an abelian group and field scalar action and states the four laws; vector-space/module-axioms would reverse or duplicate the definition, so abelian-group and field are direct. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-coalgebras/bialgebra",
+      "outcome": "corrected",
+      "source_sha256": "3ea9e9c120fdc267b2d8840c45754b25c10ea8e3db3f923c34e78fd176021a1d",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/algebra-over-ring",
+        "algebra-modules/algebra-homomorphism",
+        "algebra-modules/tensor-product",
+        "algebra-coalgebras/coalgebra"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/algebra-over-ring",
+        "algebra-modules/algebra-homomorphism",
+        "algebra-modules/tensor-product",
+        "algebra-coalgebras/coalgebra"
+      ],
+      "evidence": "The core combines a commutative-ring algebra and coalgebra on one module; \u0394 and \u03b5 are algebra maps into the tensor-product algebra, requiring the added homomorphism and tensor targets. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-coalgebras/coalgebra",
+      "outcome": "corrected",
+      "source_sha256": "79ae337ed7d66ef4445dd59813df83912f94f0adfb7806c87553b0d2196fe66b",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product",
+        "algebra-category-theory/monoidal-category"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-modules/module",
+        "algebra-modules/tensor-product",
+        "algebra-category-theory/monoidal-category"
+      ],
+      "evidence": "The defining comultiplication \u0394:C\u2192C\u2297_kC makes tensor-product a direct input, while monoidal category explains the comonoid formulation. Full source, examples, and every listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/cokernel-categorical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc21cffd4b6a0e46b7a70ceb216b0cc43ebe880e205b6d37ded7458e56d59283",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category",
+        "algebra-category-theory/zero-object"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category",
+        "algebra-category-theory/zero-object"
+      ],
+      "evidence": "For f:A\u2192B in a category with zero morphisms, the core defines q:B\u2192Q by qf=0 and the universal factorization of every s annihilating f; category, morphism, composition, and zero-object are direct. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/colimit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24015c512009f69d9680d2a25a479aa66cadf99758ba19fd89b77b70a9725309",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "A colimit is a universal cocone for a functor D:J\u2192C; the equation \u03ba_kD(\u03b1)=\u03ba_j and unique map out of the cocone justify category, functor, and composition. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/composition-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f200edc5a6468bbe06f8471148b0cf785986e551fcfa0bd74fff3dd65faedcc1",
+      "previous_prerequisites": [
+        "shared-foundations/composition",
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism"
+      ],
+      "prerequisites": [
+        "shared-foundations/composition",
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism"
+      ],
+      "evidence": "The core defines g\u2218f:X\u2192Z for composable category morphisms and states associativity/unit equations; category, morphism, and function composition are direct. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/contravariant-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1cfc5a963092cd11fe03b38c915e462b8f3e763b6dd813a945924c8f60a8c3dd",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The definition maps f:X\u2192Y to F(f):F(Y)\u2192F(X), preserves identities, and reverses composition F(gf)=F(f)F(g); all listed arrow-data targets are direct. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/coproduct",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9cb744e725d69a33b69eb237340834eedfab20dcf1224d95badf7535b692e667",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The universal property uses injections A,B\u2192A\u2294B and a unique [f,g] out to any X with two composition equations; category, object, morphism, composition are direct. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/core-of-a-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49752b73191ccb60cb8183d373ec2acdebf47391ceefb15e0a130e77cbd63fa2",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/groupoid"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/groupoid"
+      ],
+      "evidence": "The core retains all objects and exactly invertible morphisms, yielding a groupoid; category and groupoid are the defining construction inputs, while functoriality is later. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/distinguished-triangle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38b2824da2bbd5d715bf460cdfe198fd575b8649cf4641925db70a966b4b664d",
+      "previous_prerequisites": [
+        "algebra-category-theory/triangle",
+        "algebra-homological/mapping-cone"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/triangle",
+        "algebra-homological/mapping-cone"
+      ],
+      "evidence": "A distinguished triangle is a selected shifted triangle with closure/extension axioms and mapping-cone motivation; triangle and mapping-cone are direct, while abelian/short-exact remarks are optional. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/endomorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33b2629109a2a86b743ffd5d130d4179a55c8e8b7ae2465f576a7c7ea5e1f6a2",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "An endomorphism is a morphism A\u2192A; the later monoid law uses composition and identity, so category, object, morphism, and composition are appropriate. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/epimorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a70a4250883ff26bdf3f7874d956760280de1f4004de3968125ca0a08e212e54",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The core defines an epi by right cancellation g\u2218f=h\u2218f\u21d2g=h; category, morphism, and composition are exactly the needed data. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/equalizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5fb3aef6daa622ac9f11a4cede73cfd2cce270e04a8d72e053278b70d22213a9",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The equalizer e:E\u2192A satisfies f\u2218e=g\u2218e and a unique factorization e\u2218u=h for every equalizing h; category, morphism, and composition support both equations. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/equivalence-of-categories",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a359677d561785e0fa132e6d94d63f758914cbe2bc0e3a03d3070612865a5d2c",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "evidence": "The definition requires functors F,G and natural isomorphisms Id_C\u21d2GF and FG\u21d2Id_D; category, functor, and natural-isomorphism are all essential. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/exact-sequence-categorical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9125dab3481ea153da1b83c1b3d5c8013ddf06061fe02b7055739f9bd2fcd1a",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical"
+      ],
+      "evidence": "Exactness at B is im(f)=ker(g), with image defined as ker(coker(f)) in an abelian category; abelian, kernel, and cokernel are direct. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/faithful-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b06134a7e540e81e9324b22e5d20e575ccb9ad3a629ad81ade1a6fe73151cfe8",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "evidence": "Faithfulness is injectivity of each induced Hom_C(X,Y)\u2192Hom_D(FX,FY), so functor is the sole direct prerequisite. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/full-subcategory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ad0de12e57ff3be5226b42aa32c0e9d58cd1dd4fa434c3655c56b2251817425",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/subcategory"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/subcategory"
+      ],
+      "evidence": "Fullness is equality Hom_D(A,B)=Hom_C(A,B) inside a subcategory; category and subcategory are the ambient construction inputs. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/fully-faithful-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "64410b9241ded769f57f170c3145b0c6df16f10b15b1defde20e864cdc530c4f",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "evidence": "The core condition is bijectivity on every induced hom-set map for a functor; fullness and faithfulness are correctly left as consequences. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2c14b5c8460921ce83b0a1d69391545178df19dba9cb07cd8378fd87f93e513",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The definition assigns objects/morphisms and preserves identity and composition; category, object, morphism, identity, and composition are all direct. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/group-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc6b89fe149c0a316881c68f9f5a793bca235a9f52b16e2b52603b34ae30b683",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/categorical-product",
+        "algebra-category-theory/terminal-object"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/categorical-product",
+        "algebra-category-theory/terminal-object"
+      ],
+      "evidence": "The core needs finite products and terminal object for m:G\u00d7G\u2192G, e:1\u2192G, i:G\u2192G and generalized-element group equations; listed prerequisites match. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/groupoid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71b58208b14f1aa2ac3db6ab61ffc93b510a4a9fe1529dbd0b061616ae937f95",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/isomorphism-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/isomorphism-category"
+      ],
+      "evidence": "A groupoid is a category in which every morphism has a two-sided inverse/isomorphism; category and isomorphism are direct. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/identity-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4034bfba4dcb0c630e41c73731017e0b148e3eacedd0565df5dfee5b8d5de029",
+      "previous_prerequisites": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/composition-category",
+        "shared-foundations/identity-function",
+        "algebra-category-theory/category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/composition-category",
+        "shared-foundations/identity-function",
+        "algebra-category-theory/category"
+      ],
+      "evidence": "The identity on X is characterized by f\u22181_X=f and 1_X\u2218g=g; object, category, and composition are direct, with set identity only an example. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/initial-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72b0b47b3d07674d068dd4a8a7baa3591157fd32a7f3e48433e33e312729c813",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/terminal-object"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/terminal-object"
+      ],
+      "evidence": "An initial object has exactly one arrow 0\u2192X for every X; category is core, while terminal/zero targets support the explicitly stated dual remarks. Full source, examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/isomorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "775e15ff1ffc353930e462475c683cf1144416c442b13110a5ad24d783dda48a",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The core defines f:X\u2192Y by a two-sided inverse g, explicitly requiring identity morphisms and composition; category, morphism, identity, and composition are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/limit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "015e7677c6647c72102bb2c6d3f05cf25fd16a7fc4f9777b7f847e3a68ab7278",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The universal cone equations D(\u03b1)\u03bb_j=\u03bb_k and unique factor N\u2192L require a functor-shaped diagram in a category and composition; listed inputs match. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/monoidal-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e77e0c54f5abba993614771e78826eaaef3f97e8d88d73b95bcec5f163a5bf28",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "evidence": "The core is a category with tensor bifunctor, unit object, and associator/unit natural isomorphisms satisfying pentagon/triangle coherence; both prerequisites are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/monomorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a6722d690e928143b137a645403af8df387cb9142e4076c87c4b7ca6c54b5cc9",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The definition is left cancellation f\u2218g1=f\u2218g2\u21d2g1=g2 for a category morphism; category, morphism, and composition are sufficient. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "751d13e664f34de62f84272ddf3ef648330b3042b42550b1ab3003e4d65ed359",
+      "previous_prerequisites": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/object",
+        "algebra-category-theory/category"
+      ],
+      "evidence": "A morphism is an element of Hom_C(X,Y) for objects X,Y in a category; category and object are the defining prerequisites. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/natural-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1978524e37e4deea8565837933cc8c4ac979fa184f56dfa0ad5077d9a4379126",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/isomorphism-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/isomorphism-category"
+      ],
+      "evidence": "The core requires functors, a natural transformation, and invertible component morphisms; the three listed targets match exactly. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/natural-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9642b3d97d420ca25df590455e2007cfcc6c0c63eaaa236e2937e571be6701f5",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The component maps \u03b7_X and naturality equation G(f)\u03b7_X=\u03b7_YF(f) require category, functor, object, morphism, and composition. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e76e3c4f19172cab2156ae968ecdc54c62451d601b6537101ceaa3ebd6a61988",
+      "previous_prerequisites": [
+        "algebra-category-theory/category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category"
+      ],
+      "evidence": "An object is an element of Ob(C); category is the only defining input, with morphisms discussed only as interpretation. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/octahedral-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6794bb461bd4394825dfe67407b274e0fa46a39508933881edcdbba5573ac7c",
+      "previous_prerequisites": [
+        "algebra-category-theory/pretriangulated-category",
+        "algebra-category-theory/distinguished-triangle"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/pretriangulated-category",
+        "algebra-category-theory/distinguished-triangle"
+      ],
+      "evidence": "The axiom starts with a pretriangulated category and distinguished completions of f,g,gf, then concludes a distinguished triangle; both targets are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/opposite-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70b6e79ea66c290febacf9b503f74ebcec52bde126c60e8c4e689d39b9263561",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The construction reverses Hom_C(B,A), then explicitly reuses identities and reverses composition; all listed prerequisites are used. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/preadditive-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "606b525daa5b5943e2557c11039493c80ae9aa2f2e3bfc28af361e975adba29c",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "Preadditivity imposes abelian-group structure on every hom set and bilinearity of composition; category and composition are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/pullback",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "73b287ba1de5b7d09b76538b376a2cd12509a29bf1c9f9879475b056d70e9a63",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The cospan universal property uses morphisms p_X,p_Y and equations f p_X=g p_Y plus unique compatible factorization; listed targets are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/pushout",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0efdf8bf43854486886d1501f346f32b51c88b01b4371e64c0ba3e82d4d01b64",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The span universal property uses morphisms i_X,i_Y and equations i_X f=i_Y g plus unique map out; listed targets are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/representable-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40b0fe64978a9c697f09ebe733f81581834642f66973557e0336c477b7401776",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "shared-foundations/set",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-isomorphism",
+        "algebra-category-theory/contravariant-functor",
+        "algebra-category-theory/opposite-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "shared-foundations/set",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/natural-isomorphism",
+        "algebra-category-theory/contravariant-functor",
+        "algebra-category-theory/opposite-category"
+      ],
+      "evidence": "Representability requires local smallness, a Set-valued covariant/contravariant functor, and a natural isomorphism to a Hom functor; every listed dependency is used. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/shift-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "944a1979f85fe2524fcc4bf7bc64fc198df209dffe2b2b7add2a76261d110d59",
+      "previous_prerequisites": [
+        "algebra-category-theory/equivalence-of-categories"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/equivalence-of-categories"
+      ],
+      "evidence": "A shift is an autoequivalence [1]:C\u2192C with inverse and integer iterates; equivalence-of-categories supplies this exact structure. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/subcategory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d30cdb6bc51cc111f5faa30273fb9614aa3742ac06fa46e22294d951dc5f6ca",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism",
+        "algebra-category-theory/identity-morphism",
+        "algebra-category-theory/composition-category"
+      ],
+      "evidence": "The core selects objects and Hom subsets closed under inherited identities and composition; category, object, morphism, identity, and composition are all explicit. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/symmetric-monoidal-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88fdb7389b65e3499498f661d42ac1ffdf4fd71d909356d1793f6831375e9d5c",
+      "previous_prerequisites": [
+        "algebra-category-theory/monoidal-category",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/monoidal-category",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "evidence": "The core adds an involutive symmetry \u03b2 to a monoidal category and imposes hexagon coherence; monoidal and natural-isomorphism targets are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/terminal-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb5a5d4d78f39f26bba325100e98e3180d077ccc8e790be59b9d80521fce6c62",
+      "previous_prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/object",
+        "algebra-category-theory/morphism"
+      ],
+      "evidence": "A terminal object is an object 1 receiving exactly one morphism X\u21921 from every X; category, object, and morphism are direct. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    },
+    {
+      "id": "algebra-category-theory/triangle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a46e5096a49a2638885ef184f36c3e0decaecdfe3ff718b0bc590506314ce76b",
+      "previous_prerequisites": [
+        "algebra-category-theory/shift-functor"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/shift-functor"
+      ],
+      "evidence": "A triangle is the shifted diagram X\u2192Y\u2192Z\u2192X[1]; shift-functor is the only special structure required in the core. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    }
+  ],
+  "triage_records": [
+    {
+      "id": "algebra-category-theory/triangulated-category",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-category-theory/triangulated-category",
+        "outcome": "pending",
+        "source_sha256": "d0933db7f0a6f8c537e461a0ae1813f983e371eb2670d4407d9ad8f57fd7ee8a",
+        "previous_prerequisites": [
+          "algebra-category-theory/pretriangulated-category",
+          "algebra-category-theory/distinguished-triangle",
+          "algebra-category-theory/octahedral-axiom"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/pretriangulated-category",
+          "algebra-category-theory/distinguished-triangle",
+          "algebra-category-theory/octahedral-axiom"
+        ]
+      }
+    },
+    {
+      "id": "algebra-category-theory/yoneda-lemma",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-category-theory/yoneda-lemma",
+        "outcome": "pending",
+        "source_sha256": "d0caa685b27e3faa9d22e7c5f60dd0fddaf6fe69bbe79108dfee0c185094df6a",
+        "previous_prerequisites": [
+          "algebra-category-theory/category",
+          "algebra-category-theory/object",
+          "algebra-category-theory/functor",
+          "algebra-category-theory/representable-functor",
+          "algebra-category-theory/natural-transformation",
+          "algebra-category-theory/identity-morphism",
+          "algebra-category-theory/composition-category",
+          "shared-foundations/bijective-function"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/category",
+          "algebra-category-theory/object",
+          "algebra-category-theory/functor",
+          "algebra-category-theory/representable-functor",
+          "algebra-category-theory/natural-transformation",
+          "algebra-category-theory/identity-morphism",
+          "algebra-category-theory/composition-category",
+          "shared-foundations/bijective-function"
+        ]
+      }
+    },
+    {
+      "id": "algebra-category-theory/zero-object",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-category-theory/zero-object",
+        "outcome": "pending",
+        "source_sha256": "60ffd9f856a584168ae763ab9f4a612f6b7145fec3d4abaaa38e65ed59bf8a12",
+        "previous_prerequisites": [
+          "algebra-category-theory/category",
+          "algebra-category-theory/initial-object",
+          "algebra-category-theory/terminal-object"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/category",
+          "algebra-category-theory/initial-object",
+          "algebra-category-theory/terminal-object"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological",
+        "outcome": "pending",
+        "source_sha256": "5d112acc76bb2ae272cae2e870992948b5b569da5d65f01182e30241e0cfb208",
+        "previous_prerequisites": [],
+        "prerequisites": []
+      }
+    },
+    {
+      "id": "algebra-homological/chain-complex",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/chain-complex",
+        "outcome": "pending",
+        "source_sha256": "a61ae02d50f67acfc7893864cec1535ca79ff15925f1a4f7904e00f7eb6eb8bf",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/chain-homotopy",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/chain-homotopy",
+        "outcome": "pending",
+        "source_sha256": "ce58372e0fa4d260a0ed233778158822eda24005368a4ce0f483886a395edf8b",
+        "previous_prerequisites": [
+          "algebra-homological/chain-map",
+          "algebra-homological/chain-complex"
+        ],
+        "prerequisites": [
+          "algebra-homological/chain-map",
+          "algebra-homological/chain-complex"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/cochain-complex",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/cochain-complex",
+        "outcome": "pending",
+        "source_sha256": "110a3c33e8f46077c5fdac9c350ebd9a433d5ea37a0932b814a7a0d057e31c8c",
+        "previous_prerequisites": [
+          "algebra-modules/module",
+          "algebra-modules/module-homomorphism"
+        ],
+        "prerequisites": [
+          "algebra-modules/module",
+          "algebra-modules/module-homomorphism"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/connecting-homomorphism-lemma",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/connecting-homomorphism-lemma",
+        "outcome": "pending",
+        "source_sha256": "70d4f46cc52b2b7aa9e42e44d8edcae0fad747753cca7477167dfd9683b358fc",
+        "previous_prerequisites": [
+          "algebra-homological/chain-complex",
+          "algebra-category-theory/abelian-category",
+          "algebra-homological/homology-module",
+          "algebra-modules/short-exact-sequence"
+        ],
+        "prerequisites": [
+          "algebra-homological/chain-complex",
+          "algebra-category-theory/abelian-category",
+          "algebra-homological/homology-module",
+          "algebra-modules/short-exact-sequence"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/derived-functor",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/derived-functor",
+        "outcome": "pending",
+        "source_sha256": "16a0eff427aaa48c2255f31cedcd047dd0503dff01ea922f5eaecf5a43abd273",
+        "previous_prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-category-theory/left-exact-functor",
+          "algebra-category-theory/right-exact-functor",
+          "algebra-homological/injective-resolution",
+          "algebra-homological/projective-resolution",
+          "algebra-homological/cohomology-module",
+          "algebra-homological/homology-module"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-category-theory/left-exact-functor",
+          "algebra-category-theory/right-exact-functor",
+          "algebra-homological/injective-resolution",
+          "algebra-homological/projective-resolution",
+          "algebra-homological/cohomology-module",
+          "algebra-homological/homology-module"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/exact-complex",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/exact-complex",
+        "outcome": "pending",
+        "source_sha256": "93b04ba94c9d8f45c608f6472f690a512c9e25f9a8c70eb71381371b02789013",
+        "previous_prerequisites": [
+          "algebra-homological/chain-complex",
+          "algebra-homological/homology-module",
+          "algebra-modules/exactness-via-kernels-images",
+          "algebra-category-theory/abelian-category"
+        ],
+        "prerequisites": [
+          "algebra-homological/chain-complex",
+          "algebra-homological/homology-module",
+          "algebra-modules/exactness-via-kernels-images",
+          "algebra-category-theory/abelian-category"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/ext",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/ext",
+        "outcome": "pending",
+        "source_sha256": "d33b31ae9d4122a2b1d660bca00a8f78c6b2ee4fee76db69cf0ddd5d4b77e9c0",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/derived-functor",
+          "algebra-homological/projective-resolution",
+          "algebra-modules/hom-module",
+          "algebra-homological/cochain-complex"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/derived-functor",
+          "algebra-homological/projective-resolution",
+          "algebra-modules/hom-module",
+          "algebra-homological/cochain-complex"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/ext-tor-derived-functors",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/ext-tor-derived-functors",
+        "outcome": "pending",
+        "source_sha256": "2f4013b97fcfcc646ffc1f41788998b59863b36a7e4fabd79ba52234fff09993",
+        "previous_prerequisites": [
+          "algebra-homological/hom-left-exact",
+          "algebra-homological/tensor-right-exact",
+          "algebra-homological/ext",
+          "algebra-homological/tor"
+        ],
+        "prerequisites": [
+          "algebra-homological/hom-left-exact",
+          "algebra-homological/tensor-right-exact",
+          "algebra-homological/ext",
+          "algebra-homological/tor"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/ext1-classifies-extensions",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/ext1-classifies-extensions",
+        "outcome": "pending",
+        "source_sha256": "2649dd2ee31db5a1444b3338b0040bb2da6906f9fcf1bc9c103080a5ff096e45",
+        "previous_prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-homological/ext",
+          "algebra-modules/hom-module",
+          "algebra-homological/derived-functor"
+        ],
+        "prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-homological/ext",
+          "algebra-modules/hom-module",
+          "algebra-homological/derived-functor"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/five-lemma",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/five-lemma",
+        "outcome": "pending",
+        "source_sha256": "6c61a67f2880a44932aa9d6666349505902ba08a0a48ccd0b8717fd375f0b2d3",
+        "previous_prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-homological/four-lemma"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-homological/four-lemma"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/five-lemma-corollary",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/five-lemma-corollary",
+        "outcome": "pending",
+        "source_sha256": "f4ec28dfff9fb75bae37654806637350870da44e5183b7b25d1647f6cbe92f48",
+        "previous_prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-homological/five-lemma"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-homological/five-lemma"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/four-lemma",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/four-lemma",
+        "outcome": "pending",
+        "source_sha256": "d77e0c4c94ec423a5723d1276c1cf5a389b76746b387a2f94ef93e6847ce0afd",
+        "previous_prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-modules/exact-sequence-modules",
+          "shared-foundations/surjective-function",
+          "shared-foundations/injective-function"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-modules/exact-sequence-modules",
+          "shared-foundations/surjective-function",
+          "shared-foundations/injective-function"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/hom-left-exact",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/hom-left-exact",
+        "outcome": "pending",
+        "source_sha256": "40540c30743250f44a5b58664b894951e19caba06a9576d56b32783b72f8ad08",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/hom-module",
+          "algebra-modules/short-exact-sequence"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/hom-module",
+          "algebra-modules/short-exact-sequence"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/hom-tensor-exactness",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/hom-tensor-exactness",
+        "outcome": "pending",
+        "source_sha256": "953e8c22eff89f2492299ef777f8b4f36ea6db4f6cbbbb1301197d6db487284f",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/hom-left-exact",
+          "algebra-homological/tensor-right-exact",
+          "algebra-modules/projective-module",
+          "algebra-modules/injective-module",
+          "algebra-modules/flat-module"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/hom-left-exact",
+          "algebra-homological/tensor-right-exact",
+          "algebra-modules/projective-module",
+          "algebra-modules/injective-module",
+          "algebra-modules/flat-module"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/horseshoe-lemma",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/horseshoe-lemma",
+        "outcome": "pending",
+        "source_sha256": "9f420a294df00c85a4d3ed12a8baa257f666f75d4a957e6065555264a7c35788",
+        "previous_prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-modules/projective-module",
+          "algebra-homological/projective-resolution",
+          "algebra-homological/chain-complex"
+        ],
+        "prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-modules/projective-module",
+          "algebra-homological/projective-resolution",
+          "algebra-homological/chain-complex"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/injective-resolution",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/injective-resolution",
+        "outcome": "pending",
+        "source_sha256": "2d276dd1086992e5a040fcdf27b04952404de04dbd11316129364675c4e76eca",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/cochain-complex",
+          "algebra-modules/injective-module",
+          "algebra-homological/exact-complex"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/cochain-complex",
+          "algebra-modules/injective-module",
+          "algebra-homological/exact-complex"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/long-exact-sequence-derived",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/long-exact-sequence-derived",
+        "outcome": "pending",
+        "source_sha256": "95e025c6beeb43bb1ca131217a4ed651b3e2e6e071d7a174932d22a400c3e743",
+        "previous_prerequisites": [
+          "algebra-homological/derived-functor",
+          "algebra-homological/snake-lemma",
+          "algebra-homological/connecting-homomorphism-lemma",
+          "algebra-modules/short-exact-sequence"
+        ],
+        "prerequisites": [
+          "algebra-homological/derived-functor",
+          "algebra-homological/snake-lemma",
+          "algebra-homological/connecting-homomorphism-lemma",
+          "algebra-modules/short-exact-sequence"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/long-exact-sequence-ext",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/long-exact-sequence-ext",
+        "outcome": "pending",
+        "source_sha256": "08671ff6638bc4c9df4e0bed36b5b153ce7c81e20e80df4b015b10801225d45c",
+        "previous_prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-homological/ext",
+          "algebra-homological/hom-left-exact"
+        ],
+        "prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-homological/ext",
+          "algebra-homological/hom-left-exact"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/long-exact-sequence-tor",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/long-exact-sequence-tor",
+        "outcome": "pending",
+        "source_sha256": "a92c8a8d0ee206f1f089057c806833d07a7c2bb46ed610bddb1e07f740db303c",
+        "previous_prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-homological/connecting-homomorphism-lemma",
+          "algebra-homological/derived-functor",
+          "algebra-homological/tor"
+        ],
+        "prerequisites": [
+          "algebra-modules/short-exact-sequence",
+          "algebra-homological/connecting-homomorphism-lemma",
+          "algebra-homological/derived-functor",
+          "algebra-homological/tor"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/mapping-cone",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/mapping-cone",
+        "outcome": "pending",
+        "source_sha256": "e586c4291b3dcb361cbb26963d53798de8d0905ef43a33c9609509f23828fa80",
+        "previous_prerequisites": [
+          "algebra-homological/chain-map",
+          "algebra-homological/cochain-complex"
+        ],
+        "prerequisites": [
+          "algebra-homological/chain-map",
+          "algebra-homological/cochain-complex"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/nine-lemma",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/nine-lemma",
+        "outcome": "pending",
+        "source_sha256": "a28cf10750439b1a4af357631592aa42637296f7c8260123cec007a98331818d",
+        "previous_prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-category-theory/exact-sequence-categorical"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-category-theory/exact-sequence-categorical"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/projective-resolution",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/projective-resolution",
+        "outcome": "pending",
+        "source_sha256": "a209ce261459145322b3828a199472bedcd55a7ae43a34740429763773a1f22a",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/chain-complex",
+          "algebra-modules/projective-module",
+          "algebra-homological/exact-complex"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/module",
+          "algebra-homological/chain-complex",
+          "algebra-modules/projective-module",
+          "algebra-homological/exact-complex"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/snake-lemma",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/snake-lemma",
+        "outcome": "pending",
+        "source_sha256": "d8059aa5e454e6be3de4cf97f39dcd25b106fb471cf8c984b170476dd3b4a5d7",
+        "previous_prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-category-theory/kernel-categorical",
+          "algebra-category-theory/cokernel-categorical",
+          "algebra-modules/cokernel-module",
+          "algebra-modules/exact-sequence-modules"
+        ],
+        "prerequisites": [
+          "algebra-category-theory/abelian-category",
+          "algebra-category-theory/kernel-categorical",
+          "algebra-category-theory/cokernel-categorical",
+          "algebra-modules/cokernel-module",
+          "algebra-modules/exact-sequence-modules"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/snake-lemma-corollary",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/snake-lemma-corollary",
+        "outcome": "pending",
+        "source_sha256": "1df59d9a2b8d3b922cf13ceb3707437df9e5f17dca625925febdba5ba1a84282",
+        "previous_prerequisites": [
+          "algebra-homological/chain-complex",
+          "algebra-modules/exact-sequence-modules",
+          "algebra-homological/homology-module",
+          "algebra-homological/snake-lemma",
+          "algebra-homological/connecting-homomorphism-lemma"
+        ],
+        "prerequisites": [
+          "algebra-homological/chain-complex",
+          "algebra-modules/exact-sequence-modules",
+          "algebra-homological/homology-module",
+          "algebra-homological/snake-lemma",
+          "algebra-homological/connecting-homomorphism-lemma"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/tensor-right-exact",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/tensor-right-exact",
+        "outcome": "pending",
+        "source_sha256": "83cf850c5dbac540caddd3f63666eb3c59b607b1a68756458e9c67b0869edf94",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/tensor-product",
+          "algebra-modules/short-exact-sequence"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/tensor-product",
+          "algebra-modules/short-exact-sequence"
+        ]
+      }
+    },
+    {
+      "id": "algebra-homological/tor",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-homological/tor",
+        "outcome": "pending",
+        "source_sha256": "c0bb18ef573aa34ec2bec82005ba991a12ccbcb893758224b1719393aad55208",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/tensor-product",
+          "algebra-homological/projective-resolution",
+          "algebra-homological/chain-complex",
+          "algebra-homological/homology-module"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/tensor-product",
+          "algebra-homological/projective-resolution",
+          "algebra-homological/chain-complex",
+          "algebra-homological/homology-module"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules",
+        "outcome": "pending",
+        "source_sha256": "75334f6788eab1e815b63c39051f1c18700b1475251eb43d20b506dde707a05e",
+        "previous_prerequisites": [],
+        "prerequisites": []
+      }
+    },
+    {
+      "id": "algebra-modules/tensor-hom-adjunction",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/tensor-hom-adjunction",
+        "outcome": "pending",
+        "source_sha256": "9a198c2ecfb5d9b97c9efc89d0204142bf08374bc0e7f7d78218efacbfaddef1",
+        "previous_prerequisites": [
+          "algebra-modules/tensor-product",
+          "algebra-modules/hom-module",
+          "algebra-modules/tensor-product-universal-property"
+        ],
+        "prerequisites": [
+          "algebra-modules/tensor-product",
+          "algebra-modules/hom-module",
+          "algebra-modules/tensor-product-universal-property"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules/tensor-product",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/tensor-product",
+        "outcome": "pending",
+        "source_sha256": "e0f81acc45af6db7359e893752c53976d150ad7fe55096ad39486fda114ec9c6",
+        "previous_prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/bilinear-map",
+          "algebra-modules/module",
+          "algebra-modules/tensor-product-universal-property"
+        ],
+        "prerequisites": [
+          "algebra-rings/ring",
+          "algebra-modules/bilinear-map",
+          "algebra-modules/module",
+          "algebra-modules/tensor-product-universal-property"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules/tensor-product-algebras",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/tensor-product-algebras",
+        "outcome": "pending",
+        "source_sha256": "0022cdde9e20fce7bc3e73320a1f293bf0131ed9e2949125f7c512542728d5ca",
+        "previous_prerequisites": [
+          "algebra-rings/commutative-ring",
+          "algebra-modules/tensor-product"
+        ],
+        "prerequisites": [
+          "algebra-rings/commutative-ring",
+          "algebra-modules/tensor-product"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules/tensor-product-universal-property",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/tensor-product-universal-property",
+        "outcome": "pending",
+        "source_sha256": "b350897b3ce52e924ce34de65109b2d11b011b5b7022ae57a10f65fcbdf2c5aa",
+        "previous_prerequisites": [
+          "algebra-modules/bilinear-map",
+          "algebra-modules/module-homomorphism"
+        ],
+        "prerequisites": [
+          "algebra-modules/bilinear-map",
+          "algebra-modules/module-homomorphism"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules/tensor-product-universal-property-prop",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/tensor-product-universal-property-prop",
+        "outcome": "pending",
+        "source_sha256": "9c6bfd0ad7717b51e9a5c8b9f539b127e9935871bb3c31bf82919195260afdd6",
+        "previous_prerequisites": [
+          "algebra-modules/tensor-product",
+          "algebra-modules/bilinear-map",
+          "algebra-modules/tensor-product-universal-property"
+        ],
+        "prerequisites": [
+          "algebra-modules/tensor-product",
+          "algebra-modules/bilinear-map",
+          "algebra-modules/tensor-product-universal-property"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules/third-isomorphism-theorem-modules",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/third-isomorphism-theorem-modules",
+        "outcome": "pending",
+        "source_sha256": "211c1674b8cfdac928907068edefca575a6786be14909e596596b4f2fede8478",
+        "previous_prerequisites": [
+          "algebra-modules/submodule",
+          "algebra-modules/quotient-module"
+        ],
+        "prerequisites": [
+          "algebra-modules/submodule",
+          "algebra-modules/quotient-module"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules/torsion-free-module",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/torsion-free-module",
+        "outcome": "pending",
+        "source_sha256": "9324251dca1422cce6c9b0b821e53e4fe3bf4030aadfac27c49a5a52f6fb2cdb",
+        "previous_prerequisites": [
+          "algebra-rings/integral-domain",
+          "algebra-modules/module",
+          "algebra-modules/torsion-element"
+        ],
+        "prerequisites": [
+          "algebra-rings/integral-domain",
+          "algebra-modules/module",
+          "algebra-modules/torsion-element"
+        ]
+      }
+    },
+    {
+      "id": "algebra-modules/torsion-module",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-modules/torsion-module",
+        "outcome": "pending",
+        "source_sha256": "7cd8f76f350ec23d07f880e8870cb6ed2d2120b59a47262d9897998bbe385793",
+        "previous_prerequisites": [
+          "algebra-rings/integral-domain",
+          "algebra-modules/module",
+          "algebra-modules/torsion-element"
+        ],
+        "prerequisites": [
+          "algebra-rings/integral-domain",
+          "algebra-modules/module",
+          "algebra-modules/torsion-element"
+        ]
+      }
+    },
+    {
+      "id": "algebra-coalgebras/hopf-algebra",
+      "reason": "Not individually checked to completion yet; retained for substantive review.",
+      "provisional_record": {
+        "id": "algebra-coalgebras/hopf-algebra",
+        "outcome": "pending",
+        "source_sha256": "9099f5e7e030e0b0cfc3b94418b3e2009d0f7d78f7838a3d19463092937af0d5",
+        "previous_prerequisites": [
+          "algebra-rings/commutative-ring",
+          "algebra-coalgebras/bialgebra",
+          "linear-algebra/linear-map"
+        ],
+        "prerequisites": [
+          "algebra-rings/commutative-ring",
+          "algebra-coalgebras/bialgebra",
+          "linear-algebra/linear-map"
+        ]
+      }
+    },
+    {
+      "id": "algebra-category-theory/right-exact-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62069cbb3499acb212a3a9e658282576439a1c1bfd0c32e509af972daa9522a1",
+      "previous_prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/colimit",
+        "algebra-category-theory/cokernel-categorical"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/colimit",
+        "algebra-category-theory/cokernel-categorical"
+      ],
+      "evidence": "The definition assumes abelian categories and an additive functor preserving finite colimits/cokernels; category, functor, colimit, and cokernel are direct, with additivity inherited from the stated context. Full source, mathematical examples, and each listed prerequisite target were read and checked."
+    }
+  ]
+}

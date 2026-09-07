@@ -6,7 +6,7 @@ summary = "The self-adjoint Stone generator associated with a one-parameter subg
 aliases = ["Stone generator", "generator dπ(X)"]
 domains = ["lie-groups", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/stone-theorem-one-parameter-unitary-groups"]
+prerequisites = ["lie-groups/strongly-continuous-unitary-representation", "fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/stone-theorem-one-parameter-unitary-groups", "lie-groups/exponential-map-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

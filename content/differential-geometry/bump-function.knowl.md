@@ -6,16 +6,16 @@ summary = "A smooth function with compact support, often chosen to equal one on 
 aliases = ["smooth bump function", "smooth cutoff function"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/closed-set", "topology/neighborhood"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/closed-set", "topology/neighborhood", "topology/closure"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **bump function** is a [[fiber-bundles/smooth-map|smooth map]] \(\varphi:M\to\mathbb R\) whose support
 \[
 \operatorname{supp}\varphi=\overline{\{p\in M:\varphi(p)\ne0\}}
 \]
-is a [[topology/compact-set|compact set]]. In localized constructions one usually requires more: for a [[topology/closed-set|closed set]] \(A\subseteq M\) and an open set \(U\supseteq A\), a bump function **for \(A\) supported in \(U\)** satisfies \(0\le\varphi\le1\), equals \(1\) on a [[topology/neighborhood|neighborhood]] of \(A\), and has \(\operatorname{supp}\varphi\subseteq U\).
+is a [[topology/compact-set|compact set]], where the bar denotes [[topology/closure|closure]]. In localized constructions one usually requires more: for a [[topology/closed-set|closed set]] \(A\subseteq M\) and an open set \(U\supseteq A\), a bump function **for \(A\) supported in \(U\)** satisfies \(0\le\varphi\le1\), equals \(1\) on a [[topology/neighborhood|neighborhood]] of \(A\), and has \(\operatorname{supp}\varphi\subseteq U\).
 
 ## Existence on smooth manifolds
 

@@ -6,7 +6,7 @@ summary = "The fully faithful functor sending an object to its Hom functor (a re
 aliases = ["yoneda-embedding", "Yoneda embedding"]
 domains = ["algebra-category-theory"]
 legacy_source_path = "algebra-category-theory/yoneda-embedding.md"
-prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/representable-functor", "algebra-category-theory/natural-transformation", "algebra-category-theory/opposite-category"]
+prerequisites = ["algebra-category-theory/category", "algebra-category-theory/functor", "algebra-category-theory/representable-functor", "algebra-category-theory/natural-transformation", "algebra-category-theory/opposite-category", "shared-foundations/set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

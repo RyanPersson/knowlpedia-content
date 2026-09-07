@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "A shifted preadditive category with distinguished triangles satisfying the first triangle axioms."
 aliases = ["pretriangulated category", "pretriangulated"]
 domains = ["algebra-category-theory", "algebra-homological"]
-prerequisites = ["algebra-category-theory/preadditive-category", "algebra-category-theory/zero-object", "algebra-category-theory/shift-functor", "algebra-category-theory/distinguished-triangle"]
+prerequisites = ["algebra-category-theory/preadditive-category", "algebra-category-theory/zero-object", "algebra-category-theory/shift-functor", "algebra-category-theory/triangle", "algebra-category-theory/distinguished-triangle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "Invertible operators whose positive part differs from I by a Hilbertâ
 aliases = ["restricted-general-linear-group-rgl", "Restricted General Linear Group rGL(H)"]
 domains = ["lie-groups"]
 legacy_source_path = "shale-paper/restricted-general-linear-group-rgl.md"
-prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/polar-decomposition", "functional-analysis/trace-class-operator"]
+prerequisites = ["linear-algebra/hilbert-space", "lie-groups/general-linear-group", "functional-analysis/polar-decomposition", "functional-analysis/trace-class-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

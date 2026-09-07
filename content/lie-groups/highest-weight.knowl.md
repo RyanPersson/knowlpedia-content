@@ -6,7 +6,7 @@ summary = "A dominant maximal weight that labels irreducible representations of 
 aliases = ["highest-weight", "Highest weight"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/highest-weight.md"
-prerequisites = ["lie-groups/lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-space-decomposition", "lie-groups/weight-of-a-representation", "lie-groups/positive-root"]
+prerequisites = ["lie-groups/lie-algebra", "lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/root-space-decomposition", "lie-groups/weight-of-a-representation", "lie-groups/positive-root"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,7 +6,7 @@ summary = "A pointed tuple of formal series is compositionally invertible exactl
 aliases = ["inverse function theorem for formal power series", "formal inverse mapping theorem"]
 domains = ["algebra-rings", "formal-groups"]
 section_mode = "progressive"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/substitution-of-formal-power-series", "linear-algebra/matrix"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/formal-power-series-ring", "algebra-rings/substitution-of-formal-power-series", "linear-algebra/matrix"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

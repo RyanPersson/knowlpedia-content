@@ -6,7 +6,7 @@ summary = "A boundary limit theorem relating a convergent series to its associat
 aliases = ["abels-theorem", "Abel's theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/abels-theorem.md"
-prerequisites = ["real-analysis/convergent-series", "real-analysis/power-series", "real-analysis/limit-of-a-function-at-a-point"]
+prerequisites = ["real-analysis/convergent-series", "real-analysis/power-series", "real-analysis/limit-of-a-function-at-a-point", "shared-foundations/complex-numbers-c"]
 dependency_heuristic = "component-dependency-review-v1"
 dependency_review_count = 2
 +++

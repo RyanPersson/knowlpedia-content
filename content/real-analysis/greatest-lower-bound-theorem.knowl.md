@@ -6,7 +6,7 @@ summary = "Every nonempty subset of the real numbers that is bounded below has a
 aliases = ["greatest-lower-bound-theorem", "Greatest Lower Bound Theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/greatest-lower-bound-theorem.md"
-prerequisites = ["real-analysis/bounded-below"]
+prerequisites = ["real-analysis/bounded-below", "real-analysis/infimum", "real-analysis/completeness-axiom"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

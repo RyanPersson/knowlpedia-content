@@ -6,7 +6,7 @@ summary = "An integer measuring the signed number of preimages of a regular valu
 aliases = ["mapping degree", "topological degree of a smooth map"]
 domains = ["differential-geometry", "topology"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/proper-smooth-map", "fiber-bundles/regular-value", "fiber-bundles/smooth-map", "differential-geometry/integration-of-differential-forms"]
+prerequisites = ["differential-geometry/orientation-of-a-smooth-manifold", "differential-geometry/proper-smooth-map", "fiber-bundles/regular-value"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

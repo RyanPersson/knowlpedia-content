@@ -6,17 +6,19 @@ summary = "The decreasing eigenvalue sequence of the absolute value of a compact
 aliases = ["s-numbers", "singular-value sequence", "approximation numbers"]
 domains = ["functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/compact-operator", "linear-algebra/hilbert-space", "real-analysis/absolute-value"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/compact-operator", "linear-algebra/hilbert-space", "functional-analysis/adjoint-bounded-operator", "operator-algebras/positive-square-root", "linear-algebra/eigenvalue", "linear-algebra/operator-norm", "functional-analysis/finite-rank-operator"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(T:H\to K\) be a
 [[linear-algebra/compact-operator|compact operator]] between [[linear-algebra/hilbert-space|Hilbert spaces]].
-Its [[real-analysis/absolute-value|absolute value]] is the positive compact operator
+Its **operator absolute value** is the positive compact operator
 \[
 |T|=(T^*T)^{1/2}\quad\text{on }H.
 \]
+Here \(T^*\) is the [[functional-analysis/adjoint-bounded-operator|Hilbert-space adjoint]] and the exponent \(1/2\) denotes the [[operator-algebras/positive-square-root|positive square root]].
+
 The **singular values** \(s_1(T)\geq s_2(T)\geq\cdots\geq0\) are the nonzero
 eigenvalues of \(|T|\), repeated according to multiplicity and arranged in
 nonincreasing order, followed by zeros when appropriate. Equivalently, for

@@ -6,7 +6,7 @@ summary = "A method for evaluating certain indeterminate limits by comparing der
 aliases = ["lhopitals-rule", "L'Hôpital's rule"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/lhopitals-rule.md"
-prerequisites = ["real-analysis/limit-at-a-point", "real-analysis/differentiability-1d"]
+prerequisites = ["real-analysis/limit-at-a-point", "real-analysis/one-sided-limit", "real-analysis/differentiability-1d", "real-analysis/continuity-on-a-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

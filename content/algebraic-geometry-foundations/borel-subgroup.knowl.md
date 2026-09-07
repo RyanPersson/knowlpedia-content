@@ -6,7 +6,7 @@ summary = "A maximal connected solvable subgroup of a connected linear algebraic
 aliases = ["Borel subgroup"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/reductive-algebraic-group", "lie-groups/positive-root"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/algebraically-closed-field"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

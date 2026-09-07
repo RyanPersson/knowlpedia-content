@@ -6,7 +6,7 @@ summary = "If a function is Riemann integrable then so is its absolute value, wi
 aliases = ["absolute-value-preserves-integrability", "Absolute value preserves integrability"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/absolute-value-preserves-integrability.md"
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/absolute-value"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/interval", "real-analysis/absolute-value", "real-analysis/triangle-inequality"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

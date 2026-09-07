@@ -6,7 +6,7 @@ summary = "Nonempty subsets of R that are bounded above have a supremum in R"
 aliases = ["least-upper-bound-theorem", "Least Upper Bound Theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/least-upper-bound-theorem.md"
-prerequisites = ["real-analysis/bounded-above"]
+prerequisites = ["real-analysis/bounded-above", "real-analysis/supremum", "real-analysis/completeness-axiom"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

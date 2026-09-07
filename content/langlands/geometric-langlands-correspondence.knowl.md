@@ -6,7 +6,7 @@ summary = "In characteristic zero, the automorphic category of half-twisted D-mo
 aliases = ["geometric Langlands conjecture", "categorical geometric Langlands"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/langlands-dual-group", "algebraic-geometry-foundations/d-module", "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve", "langlands/ind-coherent-sheaves-with-nilpotent-singular-support", "langlands/moduli-stack-of-g-local-systems", "langlands/global-nilpotent-cone"]
+prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/langlands-dual-group", "algebraic-geometry-foundations/d-module", "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve", "langlands/ind-coherent-sheaves-with-nilpotent-singular-support", "langlands/moduli-stack-of-g-local-systems", "langlands/global-nilpotent-cone"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

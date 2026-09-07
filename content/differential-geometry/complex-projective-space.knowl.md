@@ -6,29 +6,31 @@ summary = "The compact complex manifold of complex lines in complex Euclidean sp
 aliases = ["CPn", "complex projective n-space", "complex projective manifold"]
 domains = ["differential-geometry", "algebraic-geometry-foundations", "complex-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/projective-space", "differential-geometry/complex-manifold"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/vector-space", "shared-foundations/complex-numbers-c", "topology/quotient-topology", "differential-geometry/complex-manifold"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-For \(n\ge0\), **complex projective \(n\)-space** is the set of one-dimensional complex linear subspaces of \(\mathbb C^{n+1}\):
+For \(n\ge0\), **complex projective \(n\)-space** is the quotient
 \[
-\mathbb{CP}^n=\mathbb P(\mathbb C^{n+1}).
+\mathbb{CP}^n=(\mathbb C^{n+1}\setminus\{0\})/\mathbb C^\times,
 \]
-This is the complex-analytic manifold associated with the
-[[algebraic-geometry-foundations/projective-space|scheme-theoretic projective
-space]] \(\mathbb P_{\mathbb C}^n\). Its affine projective charts have
-holomorphic transition maps, making it a
-[[differential-geometry/complex-manifold|complex manifold]] of complex
-dimension \(n\) and underlying real dimension \(2n\).
+where \(\mathbb C^\times\) acts by scalar multiplication and the quotient
+has the [[topology/quotient-topology|quotient topology]]. Equivalently, its
+points are one-dimensional complex linear subspaces of \(\mathbb C^{n+1}\).
+For each \(i\), the sets \(U_i=\{[z_0:\cdots:z_n]:z_i\ne0\}\) are identified
+with \(\mathbb C^n\) by the coordinate ratios \(z_j/z_i\) for \(j\ne i\).
+On overlaps these ratios give holomorphic transition maps, so the charts
+define a [[differential-geometry/complex-manifold|complex manifold]] of
+complex dimension \(n\) and real dimension \(2n\).
+
+## Comparison with algebraic geometry
+
+This complex manifold is also the analytification associated with the
+[[algebraic-geometry-foundations/projective-space|scheme-theoretic projective space]] \(\mathbb P^n_{\mathbb C}\), via the usual complex points and their analytic structure.
 
 ## Quotient and homogeneous-space descriptions
 
-Scalar multiplication gives
-\[
-\mathbb{CP}^n\cong
-(\mathbb C^{n+1}\setminus\{0\})/\mathbb C^\times.
-\]
 Every complex line meets the unit sphere in a circle, so there is also the Hopf quotient
 \[
 \mathbb{CP}^n\cong S^{2n+1}/U(1).

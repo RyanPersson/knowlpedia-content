@@ -6,7 +6,7 @@ summary = "A subgroup of a reductive algebraic group whose homogeneous quotient 
 aliases = ["parabolic algebraic subgroup", "parabolic subgroup"]
 domains = ["algebraic-geometry-foundations", "langlands"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/borel-subgroup"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

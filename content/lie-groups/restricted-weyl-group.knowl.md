@@ -6,7 +6,7 @@ summary = "The finite group obtained by normalizing a maximal split abelian subs
 aliases = ["little Weyl group", "Weyl group of (g,a)"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/restricted-root-system"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "lie-groups/restricted-root-system"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

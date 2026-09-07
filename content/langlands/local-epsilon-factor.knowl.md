@@ -6,7 +6,7 @@ summary = "The normalization-sensitive local constant in the functional equation
 aliases = ["epsilon factor", "local epsilon constant", "epsilon(s,V,psi)"]
 domains = ["langlands", "number-theory", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/local-field", "langlands/weil-deligne-representation", "algebra-representation-theory/character", "langlands/euler-product-and-local-factor", "harmonic-analysis/haar-measure", "langlands/local-gamma-factor", "algebra-representation-theory/contragredient-representation", "langlands/artin-conductor"]
+prerequisites = ["algebra-fields-galois/local-field", "langlands/weil-deligne-representation", "algebra-representation-theory/character", "langlands/euler-product-and-local-factor", "harmonic-analysis/haar-measure", "algebra-representation-theory/contragredient-representation", "langlands/artin-conductor"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

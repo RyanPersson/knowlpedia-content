@@ -6,7 +6,7 @@ summary = "A real manifold whose tangent bundle carries a rank-three family of e
 aliases = ["almost quaternionic structure"]
 domains = ["differential-geometry", "fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/almost-complex-structure", "fiber-bundles/quaternionic-vector-bundle"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

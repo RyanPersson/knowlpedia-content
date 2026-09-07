@@ -6,14 +6,14 @@ summary = "A smooth alternating covariant k-tensor field; equivalently, a smooth
 aliases = ["differential-k-form", "Differential k-form"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/differential-k-form.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/cotangent-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/section-of-a-fiber-bundle"]
-dependency_heuristic = "semantic-spotcheck-review-v1"
-dependency_review_count = 2
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/cotangent-bundle", "fiber-bundles/exterior-power-bundle", "fiber-bundles/section-of-a-fiber-bundle", "linear-algebra/alternating-multilinear-map"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 5
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:T^*M\to M\) be its [[fiber-bundles/cotangent-bundle|cotangent bundle]].
 
-**Definition.** A **differential \(k\)-form** on \(M\) is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the [[fiber-bundles/vector-bundle|vector bundle]] \(\Lambda^k T^*M\to M\). Concretely, it is a rule that assigns to each \(p\in M\) an alternating \(k\)-linear map
+**Definition.** A **differential \(k\)-form** on \(M\) is a [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] of the [[fiber-bundles/exterior-power-bundle|exterior power bundle]] \(\Lambda^k T^*M\to M\). For \(k\ge1\), concretely it is a rule that assigns to each \(p\in M\) an [[linear-algebra/alternating-multilinear-map|alternating \(k\)-linear map]]
 \[
 \omega_p:(T_pM)^k\to \mathbb{R},
 \]
@@ -21,7 +21,9 @@ depending smoothly on \(p\) (here \(T_pM\) is the [[fiber-bundles/tangent-space-
 
 The set of all smooth \(k\)-forms is denoted \(\Omega^k(M)\). For \(k=0\), one has \(\Omega^0(M)=C^\infty(M)\). For \(k=1\), a \(1\)-form is the same thing as a smooth covector field (a smooth section of \(T^*M\)), and its behavior under smooth maps is governed by the [[fiber-bundles/pullback-of-covectors|pullback of covectors]] (more generally by the [[fiber-bundles/pullback-of-differential-forms|pullback of differential forms]]).
 
-**Local expression.** In a [[fiber-bundles/smooth-chart-coordinate-chart|smooth chart]] \((U,x^1,\dots,x^n)\), every \(k\)-form can be written uniquely as
+## Local expression
+
+In a [[fiber-bundles/smooth-chart|smooth chart]] \((U,x^1,\dots,x^n)\), every \(k\)-form can be written uniquely as
 \[
 \omega = \sum_{1\le i_1<\cdots<i_k\le n} a_{i_1\cdots i_k}\, dx^{i_1}\wedge\cdots\wedge dx^{i_k}
 \quad\text{on }U,

@@ -6,7 +6,7 @@ summary = "The theorem representing invariant eigendistributions by locally inte
 aliases = ["regularity of invariant eigendistributions", "character regularity theorem"]
 domains = ["lie-groups", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/lie-group", "functional-analysis/distribution", "algebra-groups/centralizer"]
+prerequisites = ["fiber-bundles/lie-group", "functional-analysis/distribution", "algebra-groups/centralizer", "lie-groups/center-of-universal-enveloping-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

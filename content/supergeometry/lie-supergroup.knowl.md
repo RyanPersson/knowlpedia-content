@@ -6,7 +6,7 @@ summary = "A group object in the category of finite-dimensional smooth real supe
 aliases = ["smooth Lie supergroup", "super Lie group"]
 domains = ["supergeometry", "lie-groups"]
 section_mode = "progressive"
-prerequisites = ["algebra-category-theory/group-object", "supergeometry/supermanifold", "fiber-bundles/lie-group", "supergeometry/functor-of-points-of-supermanifold", "supergeometry/super-harish-chandra-pair"]
+prerequisites = ["algebra-category-theory/group-object", "supergeometry/supermanifold", "fiber-bundles/lie-group", "supergeometry/functor-of-points-of-supermanifold"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

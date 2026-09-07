@@ -1,0 +1,1612 @@
+{
+  "reviews": [
+    {
+      "id": "functional-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa26a4107b5f099b23336458a4958a50a09c6a5cbf56a2abc1e1cc7446bd54ce",
+      "evidence": "Section index links only to existing functional-analysis concepts; no prerequisite edges are required.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "functional-analysis/adjoint-bounded-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5facbd1f755342bdc4b246b649fd47eabe806423db77861968db655815d9af16",
+      "evidence": "Complex Hilbert spaces with first-slot-linear inner products and bounded T are exactly the inputs for the Riesz-defined unique bounded T*; operator-norm and finite-dimensional remarks are consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "functional-analysis/bounded-linear-operator",
+        "functional-analysis/riesz-representation-hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "functional-analysis/bounded-linear-operator",
+        "functional-analysis/riesz-representation-hilbert-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/adjoint-unbounded-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3aefc9bfe9df0567fa3880801d1fb9557a52713481aed65c4e94906793a86872",
+      "evidence": "Dense domain makes the inner-product representing vector unique; Hilbert structure and Riesz give T*, while closure/T** statements retain their domain qualifications.",
+      "previous_prerequisites": [
+        "functional-analysis/densely-defined-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/riesz-representation-hilbert-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/densely-defined-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/riesz-representation-hilbert-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/banach-alaoglu-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ad54458e4a3821af22399a01a2dbce7989374a97c2737776fe181b35e8842fd",
+      "evidence": "Normed X and its continuous dual support the evaluation embedding; weak-star topology is precisely pointwise evaluation, and completeness is correctly excluded.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/weak-star-topology"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/weak-star-topology"
+      ]
+    },
+    {
+      "id": "functional-analysis/banach-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e631f88415e0d76570d15b19f7adb9a3347b98e87ce4fe1bc0321bf1b8e0d684",
+      "evidence": "Vector-space, norm, and Banach-space structures support associative bilinear multiplication plus submultiplicativity; unitality is explicitly optional.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/norm",
+        "linear-algebra/banach-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/norm",
+        "linear-algebra/banach-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/banach-algebra-invertible-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2aa877820e03b2c905213e9f3c97d5b3a6b2d8b8f7afb853074133583a9d28d",
+      "evidence": "Unital Banach algebra supplies two-sided inverses and the Neumann series; unitization is used only for the stated nonunital convention.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "operator-algebras/unitization"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "operator-algebras/unitization"
+      ]
+    },
+    {
+      "id": "functional-analysis/banach-algebra-resolvent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3efe0d7fc4e37a9f5a6552b466e7e9cda5c89300bbdbe28b1f165d531e26613f",
+      "evidence": "Banach algebra, invertibility, spectrum, and unitization exactly support the shifted inverse; the resolvent identity target matches the displayed sign convention.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-invertible-element",
+        "functional-analysis/banach-algebra-spectrum",
+        "operator-algebras/unitization"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-invertible-element",
+        "functional-analysis/banach-algebra-spectrum",
+        "operator-algebras/unitization"
+      ]
+    },
+    {
+      "id": "functional-analysis/banach-algebra-spectral-radius",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dda596b440a2d3279b2d56d9c550014b83cab1bd760409fcd33c1f650e1e35d6",
+      "evidence": "Complex unital Banach algebra and spectrum support the sup modulus; supremum is the only external operation needed for the definition.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "real-analysis/supremum"
+      ]
+    },
+    {
+      "id": "functional-analysis/banach-algebra-spectral-radius-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "700019f430a3440bde1c422933dd39b9f5b4e1b82bf55d6738afee047cc48bc2",
+      "evidence": "Banach algebra and spectral-radius definition provide the hypotheses and left side of the Gelfand formula; spectral mapping is used only in the proof consequence.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectral-radius"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectral-radius"
+      ]
+    },
+    {
+      "id": "functional-analysis/banach-algebra-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "894d71839c2b1e9aa52ebcb11b8e6575aac08b48c95c43eeab55c5c1af337fe1",
+      "evidence": "Complex unital Banach algebra, invertibility, and unitization support the shifted-invertibility definition; radius and C*-calculus material are consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-invertible-element",
+        "operator-algebras/unitization"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-invertible-element",
+        "operator-algebras/unitization"
+      ]
+    },
+    {
+      "id": "functional-analysis/barreled-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6b79ce986d65d9b4b5b8cb53d8c3590346e4b6eb6a233f8370aebcf6f1c04fa",
+      "evidence": "Locally convex structure, convex balanced absorbing sets, closedness, and neighborhoods are exactly the barrel definition; dual/equicontinuity equivalences are consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/balanced-and-absorbing-sets",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "convex-analysis/convex-set",
+        "convex-analysis/balanced-and-absorbing-sets",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "functional-analysis/borel-functional-calculus",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d87d71375b7e4e66b6af89d64f7f9619fc476e12c6c56e5498859fa1e604fc56",
+      "evidence": "Hilbert spectral measures, spectral integrals, and the unbounded self-adjoint spectral theorem support f(T), with bounded/unbounded domain distinctions stated.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/projection-valued-measure",
+        "functional-analysis/spectral-theorem-unbounded-self-adjoint",
+        "functional-analysis/spectral-integral"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/projection-valued-measure",
+        "functional-analysis/spectral-theorem-unbounded-self-adjoint",
+        "functional-analysis/spectral-integral"
+      ]
+    },
+    {
+      "id": "functional-analysis/bornological-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a2b6c04173f7e48f33823f0af436124cdcbd3ec2d925becd441170386ca239a",
+      "evidence": "Locally convex topology and TVS-bounded subsets support bornivorous sets; linear maps are needed for the bounded-map characterization.",
+      "previous_prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/bounded-subset-tvs",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/bounded-subset-tvs",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/bounded-commutator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6668fbaa64c3f9aa7b4ee06d3f0b70e83f352addafa068153e03d42a9230044",
+      "evidence": "Hilbert-space operators, the possibly unbounded commutator, and bounded operators support the dense-domain commutator extension definition.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/operator-commutator",
+        "functional-analysis/bounded-linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/operator-commutator",
+        "functional-analysis/bounded-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/bounded-linear-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "65b452491f96f126b99722d868f458d6f6aa1a5438b27bad0984fcdac28f4206",
+      "evidence": "Normed spaces, linear maps, and operator norm are exactly the data for the bounded-operator inequality; continuity/Banach algebra remarks are consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "linear-algebra/linear-map",
+        "linear-algebra/operator-norm"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "linear-algebra/linear-map",
+        "linear-algebra/operator-norm"
+      ]
+    },
+    {
+      "id": "functional-analysis/bounded-subset-tvs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44fac260384106eadbe7dc90b82dc4cc30903cd0ec40691ee71ce0f291c8d1ce",
+      "evidence": "TVS neighborhoods and balanced absorbing sets support intrinsic boundedness; norm and seminorm criteria are correctly specialized consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "topology/neighborhood",
+        "convex-analysis/balanced-and-absorbing-sets"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "topology/neighborhood",
+        "convex-analysis/balanced-and-absorbing-sets"
+      ]
+    },
+    {
+      "id": "functional-analysis/closable-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a5890f56a77054bf474a30ac3438361579d42cec3d1a39f482e03edd2fb4a9c",
+      "evidence": "Hilbert graph topology and closed operators support graph closability; dense-domain adjoint criteria are explicitly conditional consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/graph-of-operator",
+        "functional-analysis/closed-linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/graph-of-operator",
+        "functional-analysis/closed-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/closed-graph-theorem",
+      "outcome": "corrected",
+      "source_sha256": "1ccfb710489b2f7f0af70bec05cb50a8caf457f0d914fd3bfd602075843a9d8c",
+      "evidence": "Banach spaces and closed full-domain operators are the theorem hypotheses; the proof explicitly applies open mapping to the graph projection.",
+      "previous_prerequisites": [
+        "linear-algebra/banach-space",
+        "functional-analysis/closed-linear-operator",
+        "functional-analysis/open-mapping-theorem"
+      ],
+      "prerequisites": [
+        "linear-algebra/banach-space",
+        "functional-analysis/closed-linear-operator",
+        "functional-analysis/open-mapping-theorem"
+      ]
+    },
+    {
+      "id": "functional-analysis/closed-linear-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd55a9cc1380ac9b48fa42d1d3bc59c9b88281e6763a7b185b407e30318dc217",
+      "evidence": "Normed spaces, linear subspaces, graphs, and closed sets support the graph definition; closed-graph theorem is a consequence rather than a defining input.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "convex-analysis/linear-subspace",
+        "functional-analysis/graph-of-operator",
+        "topology/closed-set"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "convex-analysis/linear-subspace",
+        "functional-analysis/graph-of-operator",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "functional-analysis/closed-quadratic-form",
+      "outcome": "corrected",
+      "source_sha256": "1fac95007cc645b5c1dc8545432af19b45b8c98c2b00744fdad74764c1af8479",
+      "evidence": "Hilbert space, lower bound, and shifted form norm define closedness; the form is first-slot linear, matching the displayed inner-product representation.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "shared-foundations/lower-bound",
+        "functional-analysis/closed-linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "shared-foundations/lower-bound",
+        "functional-analysis/closed-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/closure-of-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e563f480a9d0d2edc95b5dab658316984af1abc8c62b85ccb09807c9473b366",
+      "evidence": "Banach graph closure of a closable operator yields the minimal closed extension; graph, closed-operator, and closability targets match the definition, while Hilbert adjoint statements are conditional.",
+      "previous_prerequisites": [
+        "functional-analysis/closable-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/graph-of-operator",
+        "functional-analysis/closed-linear-operator"
+      ],
+      "prerequisites": [
+        "functional-analysis/closable-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/graph-of-operator",
+        "functional-analysis/closed-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/compact-resolvent",
+      "outcome": "corrected",
+      "source_sha256": "944cd073d6c984aefcac6cd90928bbe4fe7d1cf5c1614521a5cd3a6340516d6c",
+      "evidence": "Closed densely defined operator with nonempty resolvent, compact operators, resolvent identity, and graph norm support the one-point compactness definition and equivalent compact embedding. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/resolvent-set-closed-operator",
+        "linear-algebra/compact-operator",
+        "functional-analysis/resolvent-identity",
+        "functional-analysis/graph-norm"
+      ],
+      "prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/resolvent-set-closed-operator",
+        "linear-algebra/compact-operator",
+        "functional-analysis/resolvent-identity",
+        "functional-analysis/graph-norm"
+      ]
+    },
+    {
+      "id": "functional-analysis/compactly-supported-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "948b5aeff9792a8b69396212f22e286ffbefca0dd02550da83bd3d71c1ec83d9",
+      "evidence": "Distribution and its support define compact support inside Omega; bump cutoff, test-space topology, and continuous dual target justify extension to smooth functions.",
+      "previous_prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/support-of-distribution",
+        "differential-geometry/bump-function",
+        "functional-analysis/test-function-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/support-of-distribution",
+        "differential-geometry/bump-function",
+        "functional-analysis/test-function-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/complex-structure-lambda",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48746d08e16beea0950429e6feef276940f99c44b16a54a37a9a17725c877592",
+      "evidence": "A real Hilbert space supplies the bounded real-linear setting and inner product; Lambda^2=-I defines complex scalars, with orthogonality correctly stated as compatibility condition.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/continuous-linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c7f8a5e21f592072847ba8972feeed0baaf6bca4b057d7861da3b9854f1656bc",
+      "evidence": "Topological vector spaces, algebraic linear maps, and zero neighborhoods exactly support continuity at zero and its translated equivalent; norm/seminorm criteria are specializations.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "linear-algebra/linear-map",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "linear-algebra/linear-map",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "functional-analysis/convolution-of-distributions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f90c72cfb2071ef2dbfcf3c70ce7cfe99165e57aa55ced6a5d78689bff5bb3cc",
+      "evidence": "Distributional convolution requires two distributions plus compact support of one; test functions support the always-defined smoothing convolution and displayed pairing.",
+      "previous_prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/compactly-supported-distribution",
+        "functional-analysis/test-function-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/compactly-supported-distribution",
+        "functional-analysis/test-function-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/core-of-closed-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54b6875506a20373e426b9cf91d59df0453938a259d7611d170fdc3bb3b996e6",
+      "evidence": "A closed operator, linear subdomain, and graph norm exactly define a core; closability is used only in the equivalent restriction characterization.",
+      "previous_prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "convex-analysis/linear-subspace",
+        "functional-analysis/graph-norm"
+      ],
+      "prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "convex-analysis/linear-subspace",
+        "functional-analysis/graph-norm"
+      ]
+    },
+    {
+      "id": "functional-analysis/decomposable-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abc8323c229ecf71fe8947a5225ccc5321e41e47b75a24b33f692e00cf247971",
+      "evidence": "Direct-integral Hilbert spaces and measurable a.e. fields support fiberwise bounded operators; bounded-linear-operator is needed for the global operator and norm.",
+      "previous_prerequisites": [
+        "functional-analysis/direct-integral-hilbert-spaces",
+        "measure-theory/almost-everywhere",
+        "functional-analysis/bounded-linear-operator"
+      ],
+      "prerequisites": [
+        "functional-analysis/direct-integral-hilbert-spaces",
+        "measure-theory/almost-everywhere",
+        "functional-analysis/bounded-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/deficiency-indices",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "610a013e218fadd56025aea0bcc102c7e9732f9e59a18a0ec9688bee45eb6243",
+      "evidence": "Closed symmetric densely defined Hilbert operators have adjoints and deficiency kernels; self-adjointness/extension targets match the stated von Neumann criteria.",
+      "previous_prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/adjoint-unbounded-operator",
+        "shared-foundations/ordered-pair"
+      ],
+      "prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/adjoint-unbounded-operator",
+        "shared-foundations/ordered-pair"
+      ]
+    },
+    {
+      "id": "functional-analysis/densely-defined-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a94077b7e8917c4df0dad9404870624aaa0d4443509ed29ac885bcca7256bf06",
+      "evidence": "Hilbert spaces, linear subspaces, density, and linear maps define an operator with domain data; graph/adjoint material is explicitly subsequent structure.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "convex-analysis/linear-subspace",
+        "topology/dense-set",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "convex-analysis/linear-subspace",
+        "topology/dense-set",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/direct-integral-hilbert-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd0a1e60b967c7f5bd9084769c0de9114339ca3e1d962db53aac39ccc7d27017",
+      "evidence": "A measure space, measurable Hilbert field, a.e. quotient, Lebesgue integration, and Hilbert structure are precisely the direct-integral construction inputs.",
+      "previous_prerequisites": [
+        "measure-theory/measure-space",
+        "functional-analysis/measurable-field-hilbert-spaces",
+        "measure-theory/almost-everywhere",
+        "measure-theory/lebesgue-integral",
+        "linear-algebra/hilbert-space"
+      ],
+      "prerequisites": [
+        "measure-theory/measure-space",
+        "functional-analysis/measurable-field-hilbert-spaces",
+        "measure-theory/almost-everywhere",
+        "measure-theory/lebesgue-integral",
+        "linear-algebra/hilbert-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/direct-integral-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a16670b031e45036a3a2f918c4b71e59d3a0aae22c91a5a94aa6d157668ba49",
+      "evidence": "Measurable Hilbert fields and a.e. measurable densely defined fiber operators define the maximal square-integrable domain; direct-integral and closed-operator targets support its claims.",
+      "previous_prerequisites": [
+        "functional-analysis/measurable-field-hilbert-spaces",
+        "functional-analysis/densely-defined-operator",
+        "measure-theory/almost-everywhere",
+        "functional-analysis/direct-integral-hilbert-spaces",
+        "functional-analysis/closed-linear-operator"
+      ],
+      "prerequisites": [
+        "functional-analysis/measurable-field-hilbert-spaces",
+        "functional-analysis/densely-defined-operator",
+        "measure-theory/almost-everywhere",
+        "functional-analysis/direct-integral-hilbert-spaces",
+        "functional-analysis/closed-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6944555cfa11a86388512818acec3d9907f51920fc1f0fa4adfc74e59c4557ce",
+      "evidence": "The test-function LF space and its continuous topological dual define distributions; derivative and support operations are consequences linked afterward.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-dual",
+        "functional-analysis/test-function-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-dual",
+        "functional-analysis/test-function-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/distributional-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "81139a9f87b4f454f762f7d76564c9493fc173da54906d4ed3ec578c97d5a15c",
+      "evidence": "A distribution on an open set and test functions support the integration-by-parts derivative; integration-by-parts and partial-derivative targets justify sign and classical agreement.",
+      "previous_prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space",
+        "real-analysis/integration-by-parts",
+        "real-analysis/partial-derivative"
+      ],
+      "prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space",
+        "real-analysis/integration-by-parts",
+        "real-analysis/partial-derivative"
+      ]
+    },
+    {
+      "id": "functional-analysis/equicontinuous-family-linear-maps",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77ba518e869599e3e95db55e06aaac1fa63a17953fd4883e9d85505c6169c21d",
+      "evidence": "TVS structure, continuous linear maps, neighborhoods, and linearity support the uniform zero-neighborhood definition; locally convex seminorm criteria are conditional.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "functional-analysis/continuous-linear-map",
+        "topology/neighborhood",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "functional-analysis/continuous-linear-map",
+        "topology/neighborhood",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/essentially-self-adjoint-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2a253d30c5e97e20146e1845559ac5607f949d2f642179cf58e0c85a9cb310f",
+      "evidence": "Symmetric densely defined Hilbert operator plus closure and self-adjoint notions define essential self-adjointness; extension target supports the equivalent uniqueness clause.",
+      "previous_prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/closure-of-operator",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/self-adjoint-extension"
+      ],
+      "prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/closure-of-operator",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/self-adjoint-extension"
+      ]
+    },
+    {
+      "id": "functional-analysis/finite-rank-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bf306a06d8a1977278e4e76c2071b3e1bd8d73d2ed0e36de74d6072b5eed36e2",
+      "evidence": "Normed spaces and bounded linear maps define finite-dimensional range; dimension/basis and linear-map targets support rank and decomposition claims.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/bounded-linear-operator",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/bounded-linear-operator",
+        "convex-analysis/basis-hamel-basis-and-dimension",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/fourier-inversion-schwartz-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "748db9f23cf4e74dd9859f441ef3cb3e79e9c664f2042e66430e1728a3007361",
+      "evidence": "Schwartz space and its Fourier automorphism supply the theorem\u2019s exact hypotheses and normalization; inversion is checked pointwise and in Schwartz topology.",
+      "previous_prerequisites": [
+        "functional-analysis/fourier-transform-schwartz-space",
+        "functional-analysis/schwartz-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/fourier-transform-schwartz-space",
+        "functional-analysis/schwartz-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/fourier-transform-schwartz-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a4be85df554f1cd793f06214d1a90a700067317c3dde422c581146cc981c0db",
+      "evidence": "Schwartz functions, Lebesgue integration/integrability, and the displayed kernel support the Fourier map; integration by parts is a proof operation.",
+      "previous_prerequisites": [
+        "functional-analysis/schwartz-space",
+        "measure-theory/lebesgue-integral",
+        "measure-theory/lebesgue-integrable-function"
+      ],
+      "prerequisites": [
+        "functional-analysis/schwartz-space",
+        "measure-theory/lebesgue-integral",
+        "measure-theory/lebesgue-integrable-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/fourier-transform-tempered-distributions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77a60c228f6a3fd0c54ed47fdba1a868f2d8c983b912ee48cc4c004a65f9aed7",
+      "evidence": "Tempered distributions plus the Schwartz Fourier automorphism support the transposed definition; derivative/multiplication signs agree with the chosen kernel.",
+      "previous_prerequisites": [
+        "functional-analysis/tempered-distribution",
+        "functional-analysis/fourier-transform-schwartz-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/tempered-distribution",
+        "functional-analysis/fourier-transform-schwartz-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/frechet-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84fa2e9e5c125b794e113781815a0507ed59ba86b2723479656a760a78eecbf1",
+      "evidence": "Locally convex topology plus complete compatible translation-invariant metric define Frechet space; the seminorm metric and completeness scope are correct.",
+      "previous_prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "convex-analysis/complete-metric-space-complete-subset"
+      ],
+      "prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "convex-analysis/complete-metric-space-complete-subset"
+      ]
+    },
+    {
+      "id": "functional-analysis/fredholm-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7513744dd2416c822b04a1300bf8527289ba2fc3a2c23c21ff3cb4b43eeb2ee4",
+      "evidence": "Hilbert spaces and bounded operators support closed range, finite kernel/cokernel, adjoint index, and the stated unilateral-shift example.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/bounded-linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/bounded-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/friedrichs-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5c4777a31493d1192a680c791ea0452fa03aa50f8599de4d01a2ba384efc023c",
+      "evidence": "Semibounded symmetric Hilbert operator, closed quadratic form, and self-adjoint extension notions support the Friedrichs construction and lower-bound preservation.",
+      "previous_prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/closed-quadratic-form",
+        "functional-analysis/self-adjoint-extension"
+      ],
+      "prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/closed-quadratic-form",
+        "functional-analysis/self-adjoint-extension"
+      ]
+    },
+    {
+      "id": "functional-analysis/graph-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9caaba65ae266bf59577475c4e71f16ba97244bdac285caed0e3fcb7ff7ffe9e",
+      "evidence": "Normed spaces and graph of T support the sum norm on D(T); Banach completeness and core statements correctly use graph convergence.",
+      "previous_prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/graph-of-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/graph-of-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/graph-of-operator",
+      "outcome": "corrected",
+      "source_sha256": "3df1fade76df86e777a1c9fa7872fb582c78acc8d0bead08f3d68e2adb3fdbb5",
+      "evidence": "Vector spaces and linear subspaces define the graph in a product; product topology supports closure, while dense domains are only a conditional application.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "topology/product-topology"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/linear-subspace",
+        "topology/product-topology"
+      ]
+    },
+    {
+      "id": "functional-analysis/hilbert-schmidt-operator",
+      "outcome": "corrected",
+      "source_sha256": "d4b367bb87bfeda48834208e1e41768fd4ef4ebce231c773bb32e67d1eaf7ab9",
+      "evidence": "Hilbert spaces, bounded T, orthonormal bases, singular values, compactness, and Schatten class match the basis definition and equivalent characterizations.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/orthonormal-basis",
+        "functional-analysis/schatten-class-operator",
+        "functional-analysis/singular-values",
+        "linear-algebra/compact-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/orthonormal-basis",
+        "functional-analysis/schatten-class-operator",
+        "functional-analysis/singular-values",
+        "linear-algebra/compact-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/holomorphic-functional-calculus-banach-algebra",
+      "outcome": "corrected",
+      "source_sha256": "00239d884dd5951b6c5e835af3cfc4c3f683e2686a515b8eff9c82757c0a1343",
+      "evidence": "Complex unital Banach algebra, compact spectrum, resolvent, and spectral mapping support the contour calculus and its displayed mapping law.",
+      "previous_prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "functional-analysis/banach-algebra-resolvent",
+        "operator-algebras/spectral-mapping-theorem"
+      ],
+      "prerequisites": [
+        "functional-analysis/banach-algebra",
+        "functional-analysis/banach-algebra-spectrum",
+        "functional-analysis/banach-algebra-resolvent",
+        "operator-algebras/spectral-mapping-theorem"
+      ]
+    },
+    {
+      "id": "functional-analysis/inductive-limit-locally-convex-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ead183b7b7298d55fbad85368bec85b0f725d7ac72e5dda2b775fc1c1aec7c3d",
+      "evidence": "Directed locally convex spaces and continuous maps define the finest locally convex final topology; LF examples and Hausdorff caveats are separated consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/continuous-linear-map",
+        "linear-algebra/linear-map",
+        "topology/topological-space",
+        "functional-analysis/topological-vector-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/continuous-linear-map",
+        "linear-algebra/linear-map",
+        "topology/topological-space",
+        "functional-analysis/topological-vector-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/lf-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "302709ef854c48bb2857d20a365fdcb1792fd4a131e6aa4e6b55626f6bcfe21b",
+      "evidence": "Countable locally convex inductive limit of Frechet stages defines LF-space; strictness, Hausdorffness, and bounded-set behavior are explicitly distinguished.",
+      "previous_prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/inductive-limit-locally-convex-spaces",
+        "functional-analysis/frechet-space",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/inductive-limit-locally-convex-spaces",
+        "functional-analysis/frechet-space",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/locally-convex-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7264560d4d594c7652564f87f02d7a6f616e3537d9f3d4b27080ce09e9eff6ef",
+      "evidence": "TVS, neighborhoods, convex sets, and seminorms support the equivalent locally convex definitions; Hausdorff separation is stated as corpus convention.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "topology/neighborhood",
+        "convex-analysis/convex-set",
+        "convex-analysis/seminorm"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "topology/neighborhood",
+        "convex-analysis/convex-set",
+        "convex-analysis/seminorm"
+      ]
+    },
+    {
+      "id": "functional-analysis/measurable-field-hilbert-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f57e2f0eaae1a83a39a32b143a764c0c0cb7605e301336407ca98d58820f9ce",
+      "evidence": "Measurable base, Hilbert fibers, and linear subspaces support the fundamental-sequence measurable-field definition; a.e. and bundle comparisons are contextual.",
+      "previous_prerequisites": [
+        "measure-theory/measurable-space",
+        "linear-algebra/hilbert-space",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "measure-theory/measurable-space",
+        "linear-algebra/hilbert-space",
+        "convex-analysis/linear-subspace"
+      ]
+    },
+    {
+      "id": "functional-analysis/montel-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e3aa39d190fc667446618efadfbab1ae25ff4a2bd452c7edca9eb58aa8002c0",
+      "evidence": "Barreled locally convex space and bounded subsets define Montel compactness; completeness, reflexivity, and examples are consequences with correct scope.",
+      "previous_prerequisites": [
+        "functional-analysis/barreled-space",
+        "functional-analysis/bounded-subset-tvs",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/barreled-space",
+        "functional-analysis/bounded-subset-tvs",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/open-mapping-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0738c297513e57bf3e14aeb6fe4a703677b4fb7473afaefaf757a90cb77c100b",
+      "evidence": "Banach spaces, bounded linearity, surjectivity, linear subspaces, and Baire category support the open-map theorem and quantitative ball inclusion.",
+      "previous_prerequisites": [
+        "linear-algebra/banach-space",
+        "functional-analysis/bounded-linear-operator",
+        "convex-analysis/linear-subspace",
+        "topology/baire-category-theorem",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "linear-algebra/banach-space",
+        "functional-analysis/bounded-linear-operator",
+        "convex-analysis/linear-subspace",
+        "topology/baire-category-theorem",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/operator-commutator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95f11cfde84ca0ea81194bad49bc9c1d4c0fcf6945ed52a89dc4cc15fe2510e3",
+      "evidence": "Hilbert-space operators with domain data and linear maps support product domains and commutator; bounded-operator/spectral-triple material is conditional.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/densely-defined-operator",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/densely-defined-operator",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/order-of-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6de9d9a87ef76eb2c61119edfe1568ac0a4e96bbcd93c37a2effbfed4ebf33e6",
+      "evidence": "Distribution continuity on test functions supports local finite-order estimates; test-function topology supplies the compact-support seminorms.",
+      "previous_prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space"
+      ],
+      "prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/partial-isometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3551d2dd883defb8c812c082ed8f8188c3be89d29218b4b623c408781aa2055f",
+      "evidence": "Hilbert spaces, bounded operators, orthogonal complements/projections, and adjoints support the norm-preserving initial-space definition and polar factor.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/orthogonal-complement",
+        "linear-algebra/closed-linear-subspace",
+        "functional-analysis/adjoint-bounded-operator",
+        "linear-algebra/orthogonal-projection"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/orthogonal-complement",
+        "linear-algebra/closed-linear-subspace",
+        "functional-analysis/adjoint-bounded-operator",
+        "linear-algebra/orthogonal-projection"
+      ]
+    },
+    {
+      "id": "functional-analysis/point-continuous-residual-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9de6ca0b9ede1aa28abe882599b6084dfbd275ff40772685c801e138a9f0e5a4",
+      "evidence": "Closed densely defined Banach operator and spectrum support the injective/range-density partition; eigenvalue and injective-function targets match the tests.",
+      "previous_prerequisites": [
+        "functional-analysis/densely-defined-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/closed-linear-operator",
+        "functional-analysis/spectrum-closed-operator",
+        "linear-algebra/eigenvalue",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "functional-analysis/densely-defined-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/closed-linear-operator",
+        "functional-analysis/spectrum-closed-operator",
+        "linear-algebra/eigenvalue",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/projection-valued-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33d9f884f775d4ae417087b828728b9c8ade4783b7abab2e66a801ba1fd91121",
+      "evidence": "Measurable space, Hilbert space, projections, strong operator topology, and scalar measures support normalized strong countable additivity.",
+      "previous_prerequisites": [
+        "measure-theory/measurable-space",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthogonal-projection",
+        "operator-algebras/strong-operator-topology",
+        "measure-theory/measure",
+        "measure-theory/measurable-function",
+        "measure-theory/indicator-function"
+      ],
+      "prerequisites": [
+        "measure-theory/measurable-space",
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthogonal-projection",
+        "operator-algebras/strong-operator-topology",
+        "measure-theory/measure",
+        "measure-theory/measurable-function",
+        "measure-theory/indicator-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/projective-limit-locally-convex-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afa5e29d8acf63c16453435c588fb5ddaade4f3680d4bb9f949810f8ee19896e",
+      "evidence": "Locally convex system with continuous linear bonding maps, product, and subspace topology gives compatible tuples and the universal limit property.",
+      "previous_prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "topology/subspace-topology",
+        "topology/product-topology",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "topology/subspace-topology",
+        "topology/product-topology",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/rank-one-operator",
+      "outcome": "corrected",
+      "source_sha256": "5ac2bf07b0a6c7c27194001a5b2f4bfaae4a0b9d8dbb6e88a3441d59d8f86b16",
+      "evidence": "Normed spaces and bounded linear maps define one-dimensional range; bounded functionals support the displayed rank-one representation.",
+      "previous_prerequisites": [
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/linear-map",
+        "linear-algebra/normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional"
+      ],
+      "prerequisites": [
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/linear-map",
+        "linear-algebra/normed-vector-space",
+        "convex-analysis/bounded-linear-functional-norm-of-a-functional"
+      ]
+    },
+    {
+      "id": "functional-analysis/reflexive-banach-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f144ed9e23a8c4d18a5f1b1dbec7d637af468ab1b74262fa8e949bf7e1c6612f",
+      "evidence": "The canonical bidual embedding is defined for Banach spaces; weak compactness and Eberlein\u2013\u0160mulian are stated as consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/banach-space",
+        "functional-analysis/topological-dual",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "linear-algebra/banach-space",
+        "functional-analysis/topological-dual",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/regular-tempered-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39c40f65f40f9b643263b8baa4f212c3fbd5230e62d1aa28da3215d3d0bdbe14",
+      "evidence": "Tempered distributions, Schwartz test functions, local Lebesgue integrability, compact sets, and almost-everywhere equality support the regular representation and growth criterion.",
+      "previous_prerequisites": [
+        "functional-analysis/tempered-distribution",
+        "functional-analysis/schwartz-space",
+        "measure-theory/lebesgue-integrable-function",
+        "topology/compact-set",
+        "measure-theory/almost-everywhere"
+      ],
+      "prerequisites": [
+        "functional-analysis/tempered-distribution",
+        "functional-analysis/schwartz-space",
+        "measure-theory/lebesgue-integrable-function",
+        "topology/compact-set",
+        "measure-theory/almost-everywhere"
+      ]
+    },
+    {
+      "id": "functional-analysis/resolvent-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "01583b8b905867491c6646294e405a4eba187c5e95d4a2b013164ad7ce140073",
+      "evidence": "Closed operators on complex Banach spaces and bounded resolvents are exactly the inputs for the displayed first and second resolvent identities.",
+      "previous_prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/resolvent-set-closed-operator",
+        "functional-analysis/bounded-linear-operator"
+      ],
+      "prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/resolvent-set-closed-operator",
+        "functional-analysis/bounded-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/resolvent-set-closed-operator",
+      "outcome": "corrected",
+      "source_sha256": "73546335d71f3b633c33e78d53eed1f3bd006a76d95ad835a85a134837794820",
+      "evidence": "Closed operators on Banach spaces define the resolvent set; bounded inverse and the closed-graph theorem are correctly included, while identity and spectrum remain consequences. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/bounded-linear-operator",
+        "functional-analysis/closed-graph-theorem",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/bounded-linear-operator",
+        "functional-analysis/closed-graph-theorem",
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/riesz-representation-hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0760ddceb3ec215e0416de446909e261f8bdd9173a55eb3a61af84e993595fd0",
+      "evidence": "Hilbert and inner-product structure plus the continuous dual support the unique representing vector and norm identity.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "functional-analysis/topological-dual"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/inner-product",
+        "functional-analysis/topological-dual"
+      ]
+    },
+    {
+      "id": "functional-analysis/rigged-hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60357734de443e6b21f5803ad7744e0dc90d8bcb1e4aed85d93a90d83b96b7ac",
+      "evidence": "Hilbert, nuclear, and strong-dual structures define the Gelfand triple; inner-product convention supports the second embedding, with examples as consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/nuclear-space",
+        "functional-analysis/strong-dual",
+        "linear-algebra/inner-product",
+        "functional-analysis/densely-defined-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/nuclear-space",
+        "functional-analysis/strong-dual",
+        "linear-algebra/inner-product",
+        "functional-analysis/densely-defined-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/schatten-class-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98b69e3efdac42e642b043bad984f4618c4a406917029473661b9e5ffa223a41",
+      "evidence": "Hilbert spaces, compact operators, singular values, and two-sided ideals support the Schatten definition and ideal properties.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/compact-operator",
+        "functional-analysis/singular-values",
+        "algebra-rings/two-sided-ideal"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/compact-operator",
+        "functional-analysis/singular-values",
+        "algebra-rings/two-sided-ideal"
+      ]
+    },
+    {
+      "id": "functional-analysis/schwartz-kernel-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bafa25e7089ea7997e5785210c8cc8620b5d54566f1f21889a69f63e799b6857",
+      "evidence": "Continuous linear maps, test functions, distributions, and continuity support the operator/kernel correspondence; nuclearity is used only in the proof context.",
+      "previous_prerequisites": [
+        "functional-analysis/continuous-linear-map",
+        "functional-analysis/test-function-space",
+        "functional-analysis/distribution",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "functional-analysis/continuous-linear-map",
+        "functional-analysis/test-function-space",
+        "functional-analysis/distribution",
+        "topology/continuous-map"
+      ]
+    },
+    {
+      "id": "functional-analysis/schwartz-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c3a520874f5e609953c823ba0fb6aa65fd887f3521f51f80ef67e813a4eedb57",
+      "evidence": "Partial derivatives, seminorms, generated topology, and Fr\u00e9chet structure define Schwartz space; distributional applications are consequences.",
+      "previous_prerequisites": [
+        "real-analysis/partial-derivative",
+        "convex-analysis/seminorm",
+        "functional-analysis/topology-generated-by-seminorms",
+        "functional-analysis/frechet-space"
+      ],
+      "prerequisites": [
+        "real-analysis/partial-derivative",
+        "convex-analysis/seminorm",
+        "functional-analysis/topology-generated-by-seminorms",
+        "functional-analysis/frechet-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/self-adjoint-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ce50fd7f5d129205573e7ef469a6a5a4ae1acfaae2399ba21dcd9419c7d9c901",
+      "evidence": "A symmetric operator on Hilbert space and a self-adjoint operator define extension; deficiency indices and boundary examples are theorem-level consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/closed-linear-operator"
+      ],
+      "prerequisites": [
+        "functional-analysis/symmetric-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/closed-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/self-adjoint-unbounded-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2856e25e5ed2e8c4f6efe7799f1bcdb710ca2b03615192e09dabc4ba9589c5ff",
+      "evidence": "Hilbert adjoints and closed operators support the equality of action and domain in the self-adjoint definition; symmetry is an immediate consequence.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/adjoint-unbounded-operator",
+        "functional-analysis/closed-linear-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/adjoint-unbounded-operator",
+        "functional-analysis/closed-linear-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/singular-support",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "210d1ca2804c3585a166a61ff374cc89b03dd9db1fe1e4f1a1f6b2389120243b",
+      "evidence": "Distribution, test-function, support, and compact support notions define singular support; wavefront projection is a consequence.",
+      "previous_prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space",
+        "functional-analysis/support-of-distribution"
+      ],
+      "prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space",
+        "functional-analysis/support-of-distribution"
+      ]
+    },
+    {
+      "id": "functional-analysis/singular-values",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60885208fea3034c4474e753c4d68e80f934a9c0e598bab53db1c796ab4ae322",
+      "evidence": "Compact operators on Hilbert spaces and absolute values define eigenvalues of |T| and the singular-value sequence.",
+      "previous_prerequisites": [
+        "linear-algebra/compact-operator",
+        "linear-algebra/hilbert-space",
+        "real-analysis/absolute-value"
+      ],
+      "prerequisites": [
+        "linear-algebra/compact-operator",
+        "linear-algebra/hilbert-space",
+        "real-analysis/absolute-value"
+      ]
+    },
+    {
+      "id": "functional-analysis/sobolev-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd54fd0d9ba1569b7cbcfe3180559423703fc1f575d0ab1f5555712042109bde",
+      "evidence": "Equivalence classes, weak derivatives, and Banach spaces support the W^{k,p} definition and its norm.",
+      "previous_prerequisites": [
+        "shared-foundations/equivalence-class",
+        "functional-analysis/weak-derivative",
+        "linear-algebra/banach-space"
+      ],
+      "prerequisites": [
+        "shared-foundations/equivalence-class",
+        "functional-analysis/weak-derivative",
+        "linear-algebra/banach-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/spectral-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0a655afecd743698ba2592dc83bd811dd167b0d9277e777624c3d251caf9720",
+      "evidence": "Projection-valued measures, measurable functions, and Lebesgue integration are exactly the data for the spectral integral; Borel calculus is a consequence.",
+      "previous_prerequisites": [
+        "functional-analysis/projection-valued-measure",
+        "measure-theory/measurable-function",
+        "measure-theory/lebesgue-integral"
+      ],
+      "prerequisites": [
+        "functional-analysis/projection-valued-measure",
+        "measure-theory/measurable-function",
+        "measure-theory/lebesgue-integral"
+      ]
+    },
+    {
+      "id": "functional-analysis/spectral-projection",
+      "outcome": "corrected",
+      "source_sha256": "2bd1920abee6c7d9f64fbbfc33ce0dd7adede59bf45c051439d970a20eb135d2",
+      "evidence": "Normal operators, Borel functional calculus, orthogonal projections, and projection-valued-measure laws support the spectral projection definition.",
+      "previous_prerequisites": [
+        "quantum-foundations/normal-operator",
+        "functional-analysis/borel-functional-calculus",
+        "linear-algebra/orthogonal-projection",
+        "functional-analysis/projection-valued-measure"
+      ],
+      "prerequisites": [
+        "quantum-foundations/normal-operator",
+        "functional-analysis/borel-functional-calculus",
+        "linear-algebra/orthogonal-projection",
+        "functional-analysis/projection-valued-measure",
+        "functional-analysis/projection-valued-measure"
+      ]
+    },
+    {
+      "id": "functional-analysis/spectral-theorem-unbounded-self-adjoint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85932d0e47f49ab79bde17e1099f5c65b1dde13671dbecb880df04b68f9f4c94",
+      "evidence": "Self-adjoint operators, Hilbert spaces, projection-valued measures, and spectral integrals support the unbounded spectral theorem; projections and calculus are consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/projection-valued-measure",
+        "functional-analysis/spectral-integral"
+      ],
+      "prerequisites": [
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "linear-algebra/hilbert-space",
+        "functional-analysis/projection-valued-measure",
+        "functional-analysis/spectral-integral"
+      ]
+    },
+    {
+      "id": "functional-analysis/spectrum-closed-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27d96979a84c16542086760df6390c6a1b75c4f671e7108163fd1d93ed989167",
+      "evidence": "Closed operators, Banach spaces, resolvent sets, and the closed-graph theorem support the spectrum definition; self-adjoint examples are consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/resolvent-set-closed-operator",
+        "functional-analysis/closed-graph-theorem",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "functional-analysis/closed-linear-operator",
+        "linear-algebra/banach-space",
+        "functional-analysis/resolvent-set-closed-operator",
+        "functional-analysis/closed-graph-theorem",
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/strong-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b801e29983fbd78d887c8f8cee02270c82a80bb4cee1b818d6c11c2a8d791bd9",
+      "evidence": "Locally convex spaces, their duals, bounded subsets, and uniform convergence support the strong-dual topology; examples are consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/topological-dual",
+        "real-analysis/uniform-convergence",
+        "functional-analysis/bounded-subset-tvs"
+      ],
+      "prerequisites": [
+        "functional-analysis/locally-convex-space",
+        "functional-analysis/topological-dual",
+        "real-analysis/uniform-convergence",
+        "functional-analysis/bounded-subset-tvs"
+      ]
+    },
+    {
+      "id": "functional-analysis/support-of-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "168f9853c2f35c5fd878d4202566cc1724920f399d50034a6f47f3524e6788af",
+      "evidence": "Distributions, test functions, and closed sets define distributional support; compactly supported distributions are a consequence.",
+      "previous_prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space",
+        "topology/closed-set"
+      ],
+      "prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/test-function-space",
+        "topology/closed-set"
+      ]
+    },
+    {
+      "id": "functional-analysis/symmetric-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c37fd39b4eb1d440988929cadb9044ad06493a6e026fc95c446fb24e5bf52c4b",
+      "evidence": "Dense Hilbert-space operators and their adjoints support the inner-product symmetry condition; self-adjointness and extensions are consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/densely-defined-operator",
+        "functional-analysis/adjoint-unbounded-operator"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "functional-analysis/densely-defined-operator",
+        "functional-analysis/adjoint-unbounded-operator"
+      ]
+    },
+    {
+      "id": "functional-analysis/symmetric-tensor-product",
+      "outcome": "corrected",
+      "source_sha256": "c355db4b126468fa92657994d75e39366003341e1b8b475734adc25d5685554a",
+      "evidence": "Hilbert spaces and the algebraic tensor product support symmetrization over permutations; the displayed construction and Fock-space remarks are correctly scoped. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "algebra-modules/tensor-product"
+      ]
+    },
+    {
+      "id": "functional-analysis/tempered-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5378cc5e2c40c0eaa37fb7af32ed6235388b975c42ac51d84031a765eccb4a61",
+      "evidence": "Test functions, Schwartz space, and continuous duality define tempered distributions and their Fourier-transform consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/schwartz-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/test-function-space",
+        "functional-analysis/distribution"
+      ],
+      "prerequisites": [
+        "functional-analysis/schwartz-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/test-function-space",
+        "functional-analysis/distribution"
+      ]
+    },
+    {
+      "id": "functional-analysis/test-function-space",
+      "outcome": "corrected",
+      "source_sha256": "be42db2cd7db6c6d70b476bef1642291af979c91e4fdb2bfd73cf94ab65d2252",
+      "evidence": "Vector spaces, compact sets, smooth partial derivatives, LF spaces, and inductive limits define the test-function topology and convergence. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "topology/compact-set",
+        "functional-analysis/lf-space",
+        "functional-analysis/inductive-limit-locally-convex-spaces"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "topology/compact-set",
+        "functional-analysis/lf-space",
+        "functional-analysis/inductive-limit-locally-convex-spaces"
+      ]
+    },
+    {
+      "id": "functional-analysis/topological-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87757c163e14d8055e7552d52b380c28e00d1eb002a15685f77adb3beea42603",
+      "evidence": "Topological vector spaces, vector spaces, and duality pairing define the continuous dual; normed and locally convex criteria are consequences.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "linear-algebra/vector-space",
+        "convex-analysis/dual-space-and-duality-pairing"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "linear-algebra/vector-space",
+        "convex-analysis/dual-space-and-duality-pairing"
+      ]
+    },
+    {
+      "id": "functional-analysis/topological-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2f3a011dffd99a11ad00cd5b878645479c0efb3ed86df0d5001ca9e12727691",
+      "evidence": "Vector spaces, topological spaces, continuous maps, products, and neighborhoods define the Hausdorff topological-vector-space structure.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/product-topology",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/product-topology",
+        "topology/neighborhood"
+      ]
+    },
+    {
+      "id": "functional-analysis/topology-generated-by-seminorms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eb26177ef715cd98987532c104ba5c48990608569da660eac865a24a492776c",
+      "evidence": "Vector spaces, seminorms, and locally convex spaces define the generated topology; Hausdorffness and metrizability are consequences.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/seminorm",
+        "functional-analysis/locally-convex-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "convex-analysis/seminorm",
+        "functional-analysis/locally-convex-space"
+      ]
+    },
+    {
+      "id": "functional-analysis/uniform-boundedness-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "529a5bab9f92917bb05512b8d063e81728f2e3842dfb25f6bc45b5715a8c8ec1",
+      "evidence": "Banach domain, normed codomain, bounded operators, and operator norm are the theorem inputs; Baire category is the proof mechanism.",
+      "previous_prerequisites": [
+        "linear-algebra/banach-space",
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/operator-norm"
+      ],
+      "prerequisites": [
+        "linear-algebra/banach-space",
+        "linear-algebra/normed-vector-space",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/operator-norm"
+      ]
+    },
+    {
+      "id": "functional-analysis/unitary-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46e06fb44360f0bf9e050d9dac70f373c57af7a8c3599730705abe35d3abd078",
+      "evidence": "Complex Hilbert spaces, linear maps, inner products, and adjoints support the surjective inner-product-preserving definition.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/linear-map",
+        "linear-algebra/inner-product",
+        "functional-analysis/adjoint-bounded-operator",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/linear-map",
+        "linear-algebra/inner-product",
+        "functional-analysis/adjoint-bounded-operator",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "functional-analysis/wavefront-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a42c2c2fdeb25454f7828d7abc95fe75300df09c6af663b75ddf7fc61680175f",
+      "evidence": "Distributions, compactly supported distributions, and Fourier transforms of tempered distributions support the microlocal decay definition.",
+      "previous_prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/compactly-supported-distribution",
+        "functional-analysis/fourier-transform-tempered-distributions"
+      ],
+      "prerequisites": [
+        "functional-analysis/distribution",
+        "functional-analysis/compactly-supported-distribution",
+        "functional-analysis/fourier-transform-tempered-distributions"
+      ]
+    },
+    {
+      "id": "functional-analysis/weak-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76f65dc51c055b7471568fdc52776c6271d5aae92061abf5707e836c22236c20",
+      "evidence": "Local Lebesgue integrability and distributional derivatives define weak derivatives; almost-everywhere uniqueness is correctly stated.",
+      "previous_prerequisites": [
+        "measure-theory/lebesgue-integrable-function",
+        "functional-analysis/distributional-derivative",
+        "measure-theory/almost-everywhere"
+      ],
+      "prerequisites": [
+        "measure-theory/lebesgue-integrable-function",
+        "functional-analysis/distributional-derivative",
+        "measure-theory/almost-everywhere"
+      ]
+    },
+    {
+      "id": "functional-analysis/weak-star-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42bc1a9d7c553128872651ff38e7e2b7e0458f2c10aca14ad2cdd2bb700193cf",
+      "evidence": "Topological vector spaces, continuous duals, and seminorm-generated topologies define pointwise weak-star convergence.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/topology-generated-by-seminorms"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/topology-generated-by-seminorms"
+      ]
+    },
+    {
+      "id": "functional-analysis/weak-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ec087093e9ef491ae7bb2a7fa7fba0fde2267bf9838014e3244793f877c8b13",
+      "evidence": "Topological vector spaces, continuous duals, and seminorm-generated topologies define the weak topology and net convergence.",
+      "previous_prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/topology-generated-by-seminorms"
+      ],
+      "prerequisites": [
+        "functional-analysis/topological-vector-space",
+        "functional-analysis/topological-dual",
+        "functional-analysis/topology-generated-by-seminorms"
+      ]
+    },
+    {
+      "id": "functional-analysis/z2-graded-hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8aba1b82d21c2fa72629472e36193a728285e7241b93cb4aa8feaa7228a462c",
+      "evidence": "Hilbert spaces and graded modules support the orthogonal even/odd decomposition and grading-operator equivalence.",
+      "previous_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "algebra-modules/graded-module"
+      ],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "algebra-modules/graded-module"
+      ]
+    }
+  ],
+  "triage_records": []
+}

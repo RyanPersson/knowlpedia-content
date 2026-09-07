@@ -6,7 +6,7 @@ summary = "A rigid abelian tensor category reconstructed as representations of a
 aliases = ["neutral Tannakian category", "Tannaka category", "Tannakian fiber functor", "fiber functor"]
 domains = ["algebra-category-theory", "algebra-representation-theory", "langlands"]
 section_mode = "progressive"
-prerequisites = ["algebra-rings/field", "algebra-category-theory/abelian-category", "algebra-category-theory/symmetric-monoidal-category", "algebra-category-theory/exact-functor"]
+prerequisites = ["algebra-rings/field", "algebra-category-theory/abelian-category", "algebra-category-theory/symmetric-monoidal-category", "algebra-category-theory/exact-functor", "algebra-category-theory/faithful-functor"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

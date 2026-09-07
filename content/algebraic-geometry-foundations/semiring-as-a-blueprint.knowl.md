@@ -6,7 +6,7 @@ summary = "The blueprint whose additive relations record every equality in a com
 aliases = ["canonical blueprint of a semiring", "semiring blueprint"]
 domains = ["algebraic-geometry-foundations", "algebra-rings"]
 section_mode = "progressive"
-prerequisites = ["algebra-rings/commutative-semiring", "algebraic-geometry-foundations/pre-addition-on-a-monoid"]
+prerequisites = ["algebra-rings/commutative-semiring", "algebraic-geometry-foundations/pre-addition-on-a-monoid", "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

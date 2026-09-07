@@ -1,0 +1,2771 @@
+{
+  "reviews": [
+    {
+      "id": "algebra-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18d4b25a4779cac0d94103a34fdcc47c9d527eff58e2ed879f17d59bf8d5a83c",
+      "evidence": "Read the complete 190-line navigation section. It only catalogs ring definitions, constructions, axioms, theorems, lemmas, propositions, and corollaries through ordinary links; it has no standalone mathematical statement requiring prerequisite edges.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "algebra-rings/annihilator-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c096cea7925dce6f2c1f177988ca0ef64b3ce7d34b975301ae213f5106631a65",
+      "evidence": "Read the complete source and the subset and ideal definitions. The core quantifies over a subset S of a ring and defines left/right annihilators; closure in the stated left/right ideals is the direct ideal input. The later commutative and example claims are consequences.",
+      "previous_prerequisites": [
+        "shared-foundations/subset",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "shared-foundations/subset",
+        "algebra-rings/ideal"
+      ]
+    },
+    {
+      "id": "algebra-rings/artin-wedderburn-theorem",
+      "outcome": "corrected",
+      "source_sha256": "fc5cf1038ff949362b099147e5aedee6c5e3ed5eac7155929caa69f7909093f8",
+      "evidence": "Read the complete source and the semisimple-Artinian, division-ring, matrix-ring, and simple-ring definitions. The iff statement classifies semisimple Artinian rings as finite products of matrix rings over division rings, with the simple-Artinian specialization; these four concepts are direct statement inputs. The generic linear-algebra matrix page is not needed because matrix-ring supplies the construction; that edge was removed.",
+      "previous_prerequisites": [
+        "algebra-rings/artinian-semisimple-ring",
+        "algebra-rings/division-ring",
+        "algebra-rings/matrix-ring",
+        "algebra-rings/simple-ring",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "algebra-rings/artinian-semisimple-ring",
+        "algebra-rings/division-ring",
+        "algebra-rings/matrix-ring",
+        "algebra-rings/simple-ring"
+      ],
+      "changes": [
+        "Removed generic linear-algebra/matrix prerequisite; matrix-ring directly supplies the matrix construction used in the theorem."
+      ]
+    },
+    {
+      "id": "algebra-rings/artinian-semisimple-ring",
+      "outcome": "corrected",
+      "source_sha256": "93e6a11c086e2c39d83fdd160ab1047c2125439c17236578559345de89d290b9",
+      "evidence": "Read the complete source and semisimple-ring definition. The core is exactly the conjunction of semisimplicity and the descending-chain condition on left ideals, so semisimple-ring is the sole direct prerequisite. The commutative Artinian page appeared only as an unjustified overdependency and was removed; the Artin–Wedderburn reference is a later consequence.",
+      "previous_prerequisites": [
+        "algebra-rings/semisimple-ring",
+        "algebra-commutative/artinian-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/semisimple-ring"
+      ],
+      "changes": [
+        "Removed prerequisite edges that occurred only in explanatory remarks or were consequences of the stated result; retained the direct defining inputs."
+      ]
+    },
+    {
+      "id": "algebra-rings/associated-elements",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9baed992579fe13c4edcf35f66cde7fbba1d95ced39add732e24dda57f228940",
+      "evidence": "Read the complete source and integral-domain and unit definitions. The core requires an integral domain and defines associates through multiplication by a unit; both edges are direct. Gcd and factorization discussion is confined to remarks/examples.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/unit"
+      ]
+    },
+    {
+      "id": "algebra-rings/boolean-semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "398fbf184dc4201fdac14292be452b425bec628e58efe21d73fcc8c839229c3d",
+      "evidence": "Read the complete source and idempotent-semifield definition. The carrier and max/min operations are explicit, and the classification as an idempotent semifield is the direct structural input; universal-map and hyperfield comparisons are later sections.",
+      "previous_prerequisites": [
+        "algebra-rings/idempotent-semifield"
+      ],
+      "prerequisites": [
+        "algebra-rings/idempotent-semifield"
+      ]
+    },
+    {
+      "id": "algebra-rings/cancellation-integral-domain",
+      "outcome": "corrected",
+      "source_sha256": "4dd3ff12170d4dbde2b6bd69bc56de6cd04ce394e47f84444e5200aaeafdc464",
+      "evidence": "Read the complete source and integral-domain definition. The theorem follows directly from the no-zero-divisor property: a(b−c)=0 with a nonzero forces b=c, and the right version is analogous. Regular elements, zero divisors, and fraction fields occurred only in explanatory material and were removed as prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/regular-element",
+        "algebra-rings/zero-divisor",
+        "algebra-rings/fraction-field"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain"
+      ],
+      "changes": [
+        "Removed regular-element, zero-divisor, and fraction-field edges because they occur only in explanatory prose; the cancellation proof directly uses the integral-domain property."
+      ]
+    },
+    {
+      "id": "algebra-rings/center-of-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef6fb339f1a9f7109af12b2866793a19f4d352f65da4b1c24f3f30791563d21b",
+      "evidence": "Read the complete source and ring, subring, and commutative-ring definitions. The core defines the center inside a ring and explicitly states that it is a subring and a commutative ring; these result concepts are required to read the full stated result, while the later opposite-ring and matrix examples are remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/subring",
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/subring",
+        "algebra-rings/commutative-ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/characteristic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9bd04a1f6e392b5e6d5388decf871f96a9e273228b4c09179ad32d15fc29a4f",
+      "evidence": "Read the complete source and unital-ring definition. The core needs an identity to define the least positive n with n·1=0, with 0 for no such n; the prime-subring and integral-domain dichotomy are later remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/unital-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/unital-ring"
+      ]
+    },
+    {
+      "id": "algebra-rings/characteristic-zero-or-prime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "764a5294d8185224202637f5ac15ff279d9ca112b685165a5d5ff990e3825dac",
+      "evidence": "Read the complete source and integral-domain, characteristic, and kernel-is-ideal definitions. The statement concerns the characteristic of an integral domain; the kernel of Z→D supplies the proof mechanism, so all three listed edges are justified. Prime-subfield discussion is a consequence.",
+      "previous_prerequisites": [
+        "algebra-rings/characteristic",
+        "algebra-rings/integral-domain",
+        "algebra-rings/kernel-is-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/characteristic",
+        "algebra-rings/integral-domain",
+        "algebra-rings/kernel-is-ideal"
+      ]
+    },
+    {
+      "id": "algebra-rings/chinese-remainder-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "598c22e11103882c83bac5e5b6c5cbd115263c9ba23a7282ce2f7cb364acdd0c",
+      "evidence": "Read the complete source and the commutative-ring, ideal, sum, intersection, quotient, and Cartesian-product definitions. The core explicitly uses pairwise comaximal ideals, their intersection, quotient rings, and the finite product, so each listed edge supplies data or an operation in the displayed isomorphism. The CRT and idempotent references are consequences.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/sum-of-ideals",
+        "algebra-rings/intersection-of-ideals",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/cartesian-product"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/sum-of-ideals",
+        "algebra-rings/intersection-of-ideals",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/cartesian-product"
+      ]
+    },
+    {
+      "id": "algebra-rings/chinese-remainder-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2afa3f5e39237e68c19a2e57ab18b8a6672e2874c7779403e3e86eb5b41331d9",
+      "evidence": "Read the complete source and all seven direct target definitions. The core states a map to a Cartesian product of quotient rings, identifies its kernel as an intersection, assumes pairwise sums equal the ring, and asserts surjectivity; each listed edge is therefore used by the theorem statement. No later consequence was promoted.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/sum-of-ideals",
+        "algebra-rings/intersection-of-ideals",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/cartesian-product",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/sum-of-ideals",
+        "algebra-rings/intersection-of-ideals",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/cartesian-product",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebra-rings/commutative-ring-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99d7038a774ac924644a94384560d094f10f5997220c7010dd2447a2d460a009",
+      "evidence": "Read the complete source and ring and commutative-ring definitions. The core isolates ab=ba as the additional axiom and explains that a commutative ring is a ring satisfying it; both edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ring"
+      ]
+    },
+    {
+      "id": "algebra-rings/commutative-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b3b2eca152f4a13ecc50b0ec1f99d935af3418c0433192d2f273c9faf0313434",
+      "evidence": "Read the complete source and semiring definition. The core adds commutativity of multiplication to the semiring structure; examples and convention comparisons are later material, so semiring is the only prerequisite.",
+      "previous_prerequisites": [
+        "algebra-rings/semiring"
+      ],
+      "prerequisites": [
+        "algebra-rings/semiring"
+      ]
+    },
+    {
+      "id": "algebra-rings/content-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4f5aad931a24d6d412fe33a82402f094c10f3aae1d0dcd60fe5a2da8da36099",
+      "evidence": "Read the complete source and UFD, polynomial-ring, content, and primitive-polynomial definitions. The displayed formula requires a UFD and polynomials, uses coefficient contents, and states the primitive-product consequence; all four listed concepts are direct inputs or explicitly named statement data. The later Gauss-lemma reference is explanatory.",
+      "previous_prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/content-polynomial",
+        "algebra-rings/primitive-polynomial"
+      ],
+      "prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/content-polynomial",
+        "algebra-rings/primitive-polynomial"
+      ]
+    },
+    {
+      "id": "algebra-rings/content-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06ecda60ecfee8e2c704d2a93174ace0bc55071f529fdd0480b4fda5afd68649",
+      "evidence": "Read the complete source and ideal and ideal-generated definitions. The core defines coefficient content as the generated ideal in a commutative ring with one; those ideal notions are direct. GCD, associates, and UFD material is later context.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/ideal-generated"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/ideal-generated"
+      ]
+    },
+    {
+      "id": "algebra-rings/correspondence-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb1cf882bffc5b1c80fe2ad5841a23078e46a48318bf9559afafd81a82412bbe",
+      "evidence": "Read the complete source and ideal, quotient-ring, preimage, and bijection definitions. The core gives a bijection between ideals of R containing I and ideals of R/I, with inverse a preimage, so each listed edge is required by the statement. Prime/maximal correspondence is a later remark.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/preimage",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/preimage",
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "algebra-rings/division-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "05da8867f5acb02497b81dbd304c51ff48562e1f35d908fb3191afb34c2cf7a8",
+      "evidence": "Read the complete source and unital-ring and unit definitions. The core requires a unital nonzero ring and that each nonzero element be a unit; the group-of-units equivalence is part of the same definition and is covered by the unit notion. Field and matrix examples are later.",
+      "previous_prerequisites": [
+        "algebra-rings/unital-ring",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/unital-ring",
+        "algebra-rings/unit"
+      ]
+    },
+    {
+      "id": "algebra-rings/eisensteins-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcf0db7c80bdec6c3d41c70b81b4add35da046419ac15a78eb6e45db8bffcc2b",
+      "evidence": "Read the complete source and UFD, prime-element, polynomial-ring, irreducible-polynomial, and fraction-field definitions. The hypotheses and conclusion explicitly quantify over these structures, including irreducibility over the fraction field; the Gauss-lemma sentence is an optional final clause but the named primitive implication remains within the statement context.",
+      "previous_prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/prime-element",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/irreducible-polynomial",
+        "algebra-rings/fraction-field"
+      ],
+      "prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/prime-element",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/irreducible-polynomial",
+        "algebra-rings/fraction-field"
+      ]
+    },
+    {
+      "id": "algebra-rings/euclidean-algorithm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "05a1544cbdf850280ab2ec1ecaf11712010cd15ee1b5b0bfe6bf0cd1985f9929",
+      "evidence": "Read the complete source and Euclidean-domain, gcd, ideal-generated, and principal-ideal definitions. The core asserts the algorithm’s gcd and Bézout identity and the equivalent generated ideal equality, so all four listed concepts are direct statement inputs/outputs.",
+      "previous_prerequisites": [
+        "algebra-rings/euclidean-domain",
+        "algebra-rings/gcd",
+        "algebra-rings/ideal-generated",
+        "algebra-rings/principal-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/euclidean-domain",
+        "algebra-rings/gcd",
+        "algebra-rings/ideal-generated",
+        "algebra-rings/principal-ideal"
+      ]
+    },
+    {
+      "id": "algebra-rings/euclidean-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "187ce9d7f918e05022d3a3fce7a96c43491504f17357df659357a8d37e59179e",
+      "evidence": "Read the complete source and the integral-domain definition. The core adds a Euclidean function on nonzero elements and the division-with-remainder condition to an integral domain; the algorithm and PID facts are later consequences.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain"
+      ]
+    },
+    {
+      "id": "algebra-rings/euclidean-implies-pid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "572381de171e907061f1ec7929ce5ced83021ad20fd491bd9d02b9f4fe6be064",
+      "evidence": "Read the complete source and Euclidean-domain, PID, ideal, and principal-ideal definitions. The theorem states that every ideal in a Euclidean domain is principal, so each listed concept is part of its hypotheses, conclusion, or ideal formulation.",
+      "previous_prerequisites": [
+        "algebra-rings/euclidean-domain",
+        "algebra-rings/pid",
+        "algebra-rings/ideal",
+        "algebra-rings/principal-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/euclidean-domain",
+        "algebra-rings/pid",
+        "algebra-rings/ideal",
+        "algebra-rings/principal-ideal"
+      ]
+    },
+    {
+      "id": "algebra-rings/existence-of-maximal-ideals",
+      "outcome": "corrected",
+      "source_sha256": "5a1853471ff973adc880cfe00fda90a4ee6204255ab879a0162951a079fed8f8",
+      "evidence": "Read the complete source and commutative-ring, unital-ring, and maximal-ideal definitions. The core assumes a nonzero commutative unital ring and asserts a maximal ideal; the commutative-ring edge was added to record an explicit hypothesis. Zorn discussion is explanatory.",
+      "previous_prerequisites": [
+        "algebra-rings/unital-ring",
+        "algebra-rings/maximal-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/maximal-ideal"
+      ],
+      "changes": [
+        "Added a prerequisite edge for an explicit core hypothesis or construction input that was missing from the previous metadata."
+      ]
+    },
+    {
+      "id": "algebra-rings/field-axioms-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85b8637c1a390d31129fc07ad0515b51677c2a18f4e78a6ae8360ccf150c9fef",
+      "evidence": "Read the complete source and commutative-ring, unital-ring, and unit definitions. The three numbered clauses explicitly require commutative ring structure, an identity distinct from zero, and invertibility of each nonzero element; all listed edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/unit"
+      ]
+    },
+    {
+      "id": "algebra-rings/field-iff-trivial-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "472f61072c1482d46ad2bb3bedd13eca2a2c31ddf220ad77cf6016f023fec4e8",
+      "evidence": "Read the complete source and commutative-ring, field, ideal, and unit definitions. The iff statement explicitly uses the nonzero commutative unital setting, classifies the only ideals as zero and the whole ring, and gives the unit equivalent, so all four edges are direct statement notions.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/field",
+        "algebra-rings/ideal",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/field",
+        "algebra-rings/ideal",
+        "algebra-rings/unit"
+      ]
+    },
+    {
+      "id": "algebra-rings/fields-are-division-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8a52716cf598580958cbdecf840864a9f5547e75a851ca33312054767484d79",
+      "evidence": "Read the complete source and field, division-ring, and commutative-ring definitions. The lemma is exactly the equivalence between fields and commutative division rings; each listed edge names one side or its commutativity condition.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/division-ring",
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/division-ring",
+        "algebra-rings/commutative-ring"
+      ]
+    },
+    {
+      "id": "algebra-rings/finite-division-ring-commutative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "317b3ac23239b13279087e64299b98c474af4268404acc80bcb7133e698e7b8a",
+      "evidence": "Read the complete source and division-ring definition. The conclusion is that every finite division ring has commutative multiplication; Wedderburn’s little theorem is the cited proof theorem and division-ring is the stated subject. The field equivalence is a consequence.",
+      "previous_prerequisites": [
+        "algebra-rings/wedderburns-little-theorem",
+        "algebra-rings/division-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/wedderburns-little-theorem",
+        "algebra-rings/division-ring"
+      ]
+    },
+    {
+      "id": "algebra-rings/finite-integral-domain-is-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22bd1b25632c8cc2998ceb3141fee858e4b024410277d9bb1eec55aae7baa67d",
+      "evidence": "Read the complete source and integral-domain, cancellation, and unit definitions. Finiteness plus injectivity of multiplication by each nonzero element (cancellation) yields a unit, so the three listed notions supply the hypothesis, proof input, and conclusion.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/cancellation-integral-domain",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/cancellation-integral-domain",
+        "algebra-rings/unit"
+      ]
+    },
+    {
+      "id": "algebra-rings/first-isomorphism-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8bd7b58e0578878c7758c78eba78174a3d2108a9403d969d5da9889491b1d636",
+      "evidence": "Read the complete source and ring-homomorphism, ring-isomorphism, kernel, image, and quotient-ring definitions. The displayed induced map has exactly these domain, codomain, kernel, image, and isomorphism structures; every listed edge is direct.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ring-isomorphism",
+        "algebra-rings/kernel-ring",
+        "algebra-rings/image-ring",
+        "algebra-rings/quotient-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ring-isomorphism",
+        "algebra-rings/kernel-ring",
+        "algebra-rings/image-ring",
+        "algebra-rings/quotient-ring"
+      ]
+    },
+    {
+      "id": "algebra-rings/formal-inverse-function-theorem",
+      "outcome": "corrected",
+      "source_sha256": "d4f5916ff64680372801b7b39007ad07465a505a512f29452cb66b29c6405272",
+      "evidence": "Read the complete source and commutative-ring, formal-power-series-ring, substitution, and matrix definitions. The core works over a commutative ring in multivariable formal series, compares the linear-coefficient matrix with a substitution automorphism, and recursively solves coefficients; the formal-power-series edge was added because R[[X]] is essential core data.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/substitution-of-formal-power-series",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/formal-power-series-ring",
+        "algebra-rings/substitution-of-formal-power-series",
+        "linear-algebra/matrix"
+      ],
+      "changes": [
+        "Added a prerequisite edge for an explicit core hypothesis or construction input that was missing from the previous metadata."
+      ]
+    },
+    {
+      "id": "algebra-rings/formal-power-series-ring",
+      "outcome": "corrected",
+      "source_sha256": "5a80404411198541834b8749d5c0523fe80c47f3d0b44bc25c5d954543c1af96",
+      "evidence": "Read the complete source and commutative-ring and unital-ring definitions. The core constructs R[[x]] over a commutative ring with 1 and defines coefficientwise operations and Cauchy multiplication; the polynomial, local, and multivariable material follows in later sections. The unital-ring edge records the explicit 1 hypothesis.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring"
+      ],
+      "changes": [
+        "Added a prerequisite edge for an explicit core hypothesis or construction input that was missing from the previous metadata."
+      ]
+    },
+    {
+      "id": "algebra-rings/fraction-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2a8b7b27923f685cdad3c57f7fd60ea2b46b965d53e66ecc87c31f1e12ebeb6",
+      "evidence": "Read the complete source and integral-domain, field, and ring-monomorphism definitions. The construction uses the domain equivalence relation to make fractions, asserts the result is a field, and states the universal property for injective maps into fields; all listed edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/field",
+        "algebra-rings/ring-monomorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/field",
+        "algebra-rings/ring-monomorphism"
+      ]
+    },
+    {
+      "id": "algebra-rings/gauss-content-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12f9a111d466ecd3e7b54de8ebffbe36b14e40f64f14e478aa2669b4377222b5",
+      "evidence": "Read the complete source and UFD, polynomial-ring, content, associates, and primitive-polynomial definitions. The core formula explicitly uses coefficient contents and equality up to associates, and includes the primitive-product equivalent, so each listed edge is a named statement notion.",
+      "previous_prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/content-polynomial",
+        "algebra-rings/associated-elements",
+        "algebra-rings/primitive-polynomial"
+      ],
+      "prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/content-polynomial",
+        "algebra-rings/associated-elements",
+        "algebra-rings/primitive-polynomial"
+      ]
+    },
+    {
+      "id": "algebra-rings/gauss-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a38b51b34b630893a2a2e61836e46d6fa6558e073a0881c81ba0df72ae129eac",
+      "evidence": "Read the complete source and UFD, fraction-field, primitive-polynomial, polynomial-ring, and irreducible-polynomial definitions. The theorem compares factorizations and irreducibility over R[x] and K[x] under primitivity; every listed edge supplies a hypothesis or conclusion notion.",
+      "previous_prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/fraction-field",
+        "algebra-rings/primitive-polynomial",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/irreducible-polynomial"
+      ],
+      "prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/fraction-field",
+        "algebra-rings/primitive-polynomial",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/irreducible-polynomial"
+      ]
+    },
+    {
+      "id": "algebra-rings/gcd",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7808be69f3b12b149ecf4ee07309bbba5edf59edcbf754cf52f39d73d39212a4",
+      "evidence": "Read the complete source and integral-domain definition. The core defines a gcd using divisibility and common divisors in an integral domain; associates and lcm are later uniqueness/context remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain"
+      ]
+    },
+    {
+      "id": "algebra-rings/group-of-units",
+      "outcome": "corrected",
+      "source_sha256": "a9f992a61c41b9a2376ef78f80ebf52072a6fa23ae19f23e801bad2dc4e13c74",
+      "evidence": "Read the complete source and group, unital-ring, and unit definitions. The core forms R^× from units in a unital ring and asserts multiplication makes it a group; the unital-ring edge was added for the explicit setting.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-rings/unital-ring",
+        "algebra-rings/unit"
+      ],
+      "changes": [
+        "Added a prerequisite edge for an explicit core hypothesis or construction input that was missing from the previous metadata."
+      ]
+    },
+    {
+      "id": "algebra-rings/hilbert-basis-theorem",
+      "outcome": "corrected",
+      "source_sha256": "237544d3c166cbfc516d048cb5547e3174a7b9c912da33cb5411932e1798803e",
+      "evidence": "Read the complete source and commutative-ring, Noetherian-ring, ideal, and polynomial-ring definitions. The theorem assumes a commutative Noetherian ring, names ideals in the Noetherian condition, and concludes R[x] is Noetherian; the Noetherian-ring edge was added to record the explicit hypothesis.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/polynomial-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/polynomial-ring"
+      ],
+      "changes": [
+        "Added a prerequisite edge for an explicit core hypothesis or construction input that was missing from the previous metadata."
+      ]
+    },
+    {
+      "id": "algebra-rings/ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9b35d42d22243cd2dcc6ce0f711c4761f39f4bd2190fcae939605dd2a6a9b44",
+      "evidence": "Read the complete source and ring and subgroup definitions. The core starts with an additive subgroup of a ring and imposes left/right absorption, so both listed edges are direct; quotient and kernel facts are remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-groups/subgroup"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "algebra-rings/ideal-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "81c0bfba5fce548e03b8243c539d8cdb76daeb5d24cb089c3b3dae2afa4189a9",
+      "evidence": "Read the complete source and ideal, quotient-ring, and bijective-function definitions. The core gives a bijection between two-sided ideals above I and ideals of R/I with an explicit inverse, so all three listed edges are direct. Correspondence-theorem and epimorphism references are remarks and were removed. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "algebra-rings/correspondence-theorem-rings",
+        "algebra-rings/ring-epimorphism",
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring",
+        "shared-foundations/bijective-function"
+      ],
+      "changes": [
+        "Removed prerequisite edges that occurred only in explanatory remarks or were consequences of the stated result; retained the direct defining inputs."
+      ]
+    },
+    {
+      "id": "algebra-rings/ideal-generated",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12704d00997ffff7f02d68fbc684235183a715dfc18eb75889b834ead87de9e4",
+      "evidence": "Read the complete source and subset, ring, two-sided-ideal, and unital-ring definitions. The core defines the smallest two-sided ideal containing A in a ring and gives the finite-sum formula in the unital case; all four listed edges supply explicit data or structure.",
+      "previous_prerequisites": [
+        "shared-foundations/subset",
+        "algebra-rings/ring",
+        "algebra-rings/two-sided-ideal",
+        "algebra-rings/unital-ring"
+      ],
+      "prerequisites": [
+        "shared-foundations/subset",
+        "algebra-rings/ring",
+        "algebra-rings/two-sided-ideal",
+        "algebra-rings/unital-ring"
+      ]
+    },
+    {
+      "id": "algebra-rings/idempotent-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8bbbac1c310d181d569430731f5a9d44c4acbb5ce9a6e324328a2b52c6d33cfd",
+      "evidence": "Read the complete source and ring definition. The core defines e²=e for an element of a ring; ring is the only direct input, while product decompositions and examples are remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/idempotent-product-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "7ccbf2611a4a6cc8de37ce6a72bca923d6b402a2c29208e8134ec945aedfdd2c",
+      "evidence": "Read the complete source and ring, idempotent, Cartesian-product, and ideal definitions. The core assumes a central idempotent, constructs two two-sided ideals, and gives an isomorphism to their product; all listed concepts are explicit construction data or results.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/idempotent-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/idempotent-element",
+        "shared-foundations/cartesian-product",
+        "algebra-rings/ideal"
+      ],
+      "changes": [
+        "Added explicit core hypothesis or construction/result prerequisite identified during full review."
+      ]
+    },
+    {
+      "id": "algebra-rings/idempotent-semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc0df8831e9ed0487efc41bd69e540e29cd9336ac94f9fac82a228e765689494",
+      "evidence": "Read the complete source and semifield and idempotent-semiring definitions. The core is their conjunction, including invertibility of every nonzero element and idempotent addition; both edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/semifield",
+        "algebra-rings/idempotent-semiring"
+      ],
+      "prerequisites": [
+        "algebra-rings/semifield",
+        "algebra-rings/idempotent-semiring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/idempotent-semifields-and-lattice-ordered-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e63dc92277bb5517ee9a59e92be7599377f4492fc3537687e89d7602feb32327",
+      "evidence": "Read the complete source and the idempotent-semifield, semiring-homomorphism, and lattice-ordered-group definitions. The core states an equivalence of categories and specifies both functors and morphisms, so all three edges are direct category data.",
+      "previous_prerequisites": [
+        "algebra-rings/idempotent-semifield",
+        "algebra-rings/semiring-homomorphism",
+        "algebra-groups/lattice-ordered-abelian-group"
+      ],
+      "prerequisites": [
+        "algebra-rings/idempotent-semifield",
+        "algebra-rings/semiring-homomorphism",
+        "algebra-groups/lattice-ordered-abelian-group"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/idempotent-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21d720d7304294bc0d7f7f0ed9953b29adca3811996ff687d691661e6f5bcb41",
+      "evidence": "Read the complete source and semiring definition. The core adds a+a=a to semiring structure; the commutativity convention and examples are later context.",
+      "previous_prerequisites": [
+        "algebra-rings/semiring"
+      ],
+      "prerequisites": [
+        "algebra-rings/semiring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/image-is-subring",
+      "outcome": "corrected",
+      "source_sha256": "930ee3808602a63d9a813025a22f2d0b95c2a3d65ee3b7208decf0e875a8dd70",
+      "evidence": "Read the complete source and image-ring, ring-homomorphism, and subring definitions. The core identifies im(phi) and explicitly states it is a subring, so image-ring and subring are required result concepts as well as the map input.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/image-ring",
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/subring"
+      ],
+      "changes": [
+        "Added explicit core hypothesis or construction/result prerequisite identified during full review."
+      ]
+    },
+    {
+      "id": "algebra-rings/image-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59e488f99f3773690f00d3c56872b201876adef1adb84d4875039556bebbebf7",
+      "evidence": "Read the complete source and ring-homomorphism, image, and subring definitions. The core defines the image set of a ring map and states its inherited subring structure; all listed edges are explicit notions.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/image",
+        "algebra-rings/subring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/image",
+        "algebra-rings/subring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/integral-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16503b20cbecbae53c71147efb9c911bf581e5f637c72d89c4c0b7f6f2b549b8",
+      "evidence": "Read the complete source and commutative-ring, unital-ring, and zero-divisor definitions. The core requires commutativity, 1≠0, and absence of zero divisors; every listed edge is a defining hypothesis/equivalent condition.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/zero-divisor"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/zero-divisor"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/intersection-of-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6dbdb67468ac31c4de6cdc930827cb7c6664b24b64c8ae68ad84eea6dce5227",
+      "evidence": "Read the complete source and ring and set-intersection definitions. The core forms the set-theoretic intersection of ideals in a ring; both listed targets directly supply the construction.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "shared-foundations/intersection"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "shared-foundations/intersection"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/irreducible-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ac293b357284a2c166a9013a35c9b8b4ebf75daf4930baf1590b853de0632d9",
+      "evidence": "Read the complete source and integral-domain and unit definitions. The core defines irreducibility using nonzero, nonunit, and factorization conditions in an integral domain; both edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/unit"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/irreducible-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c05a69939448980aea7b790c5477f40275c25c13875f5113285e83137d44ca18",
+      "evidence": "Read the complete source and integral-domain and unit definitions. The core defines polynomial irreducibility with nonunit and factorization conditions over an integral domain; both edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/unit"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/jacobson-radical",
+      "outcome": "corrected",
+      "source_sha256": "fb1f1382d7752b130bc8e268b8568d0ca660b32a38729648fd6849276186d43b",
+      "evidence": "Read the complete source and ring, maximal-ideal, unit, and ideal definitions. The core gives the maximal-ideal intersection, simple-module alternative, unit criterion, and ideal result; all four concepts occur in the stated definition. Added ring for the explicit ambient hypothesis.",
+      "previous_prerequisites": [
+        "algebra-rings/maximal-ideal",
+        "algebra-rings/unit",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/maximal-ideal",
+        "algebra-rings/unit",
+        "algebra-rings/ideal"
+      ],
+      "changes": [
+        "Added explicit core hypothesis or construction/result prerequisite identified during full review."
+      ]
+    },
+    {
+      "id": "algebra-rings/kernel-is-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aef42d97f9627d9831a3bfd6631e17ee1f9577023e92932c16f27a8e3318a3af",
+      "evidence": "Read the complete source and ring-homomorphism and ideal definitions. The core states the kernel of a ring map is a two-sided ideal; both are direct. Quotient and first-isomorphism references are consequences.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/kernel-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "682959ec7add2264ba027e97af57d833deda78c7f45db483ee7a44f7d184979e",
+      "evidence": "Read the complete source and ring-homomorphism and preimage definitions. The core defines the kernel as the preimage of zero under a ring homomorphism; both edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/preimage"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/preimage"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/kernels-are-ideals",
+      "outcome": "corrected",
+      "source_sha256": "ad99beee78de69ee9135a4c31a261827a1c5b7f61ae52b11218cb01b058cfe03",
+      "evidence": "Read the complete source and ring-homomorphism, kernel, and two-sided-ideal definitions. The core proves the kernel is a two-sided ideal; quotient and first-isomorphism statements are explanatory uses and remain excluded to avoid reverse theorem edges. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/kernel-ring",
+        "algebra-rings/two-sided-ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/first-isomorphism-theorem-rings"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/kernel-ring",
+        "algebra-rings/two-sided-ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/laurent-polynomial-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62d806206bc35a4f24741a3fcf50b5513584477fe61feae6d18b8a7af4294cfa",
+      "evidence": "Read the complete source and polynomial-ring definition. The core extends finite polynomial sums to allow negative powers over a commutative unital ring, with polynomial-ring supplying the base construction.",
+      "previous_prerequisites": [
+        "algebra-rings/polynomial-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/polynomial-ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/lcm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "502d6e42b4f3a92826a717d4b9a28aab80434e811ea8fe941edbd958c2e00788",
+      "evidence": "Read the complete source and integral-domain definition. The core defines a least common multiple by divisibility in an integral domain; uniqueness and gcd relations are later remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/matrix-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8739dcc5c1e89767dc6e8a27e00b58eec95ac048999323242dd151f183023195",
+      "evidence": "Read the complete source and ring and matrix definitions. The core constructs M_n(R) using rectangular matrices and matrix multiplication over a ring; both edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "linear-algebra/matrix"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/maximal-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8873b1c92df40518414a60b186150bbe452e9ef5e3dcb2538282ba2d90b94ab0",
+      "evidence": "Read the complete source and commutative-ring, unital-ring, and ideal definitions. The core assumes a nonzero commutative unital ring and defines a proper ideal maximal under inclusion; all three are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/maximal-ideal-existence-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32bd0dca4857faf770b2fbcb68428b2bc2b30be390f97df5f1b9ce2c98554b34",
+      "evidence": "Read the complete source and existence theorem, commutative-ring, ideal, and maximal-ideal definitions. The core asserts a maximal ideal in a nontrivial commutative unital ring; these edges supply the hypothesis, result, and theorem basis.",
+      "previous_prerequisites": [
+        "algebra-rings/existence-of-maximal-ideals",
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/maximal-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/existence-of-maximal-ideals",
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/maximal-ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/maximal-ideals-are-prime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed26fce79c92f24c63faac9f98f1a809862ec54d56e169038e30d79dc2e92cbd",
+      "evidence": "Read the complete source and commutative-ring, maximal-ideal, prime-ideal, and quotient-ring definitions. The theorem’s hypothesis and conclusion use the first three, and its stated quotient-field/domain proof uses quotient-ring; all listed edges are justified.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/maximal-ideal",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/quotient-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/maximal-ideal",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/quotient-ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/maximal-iff-quotient-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3c46ca74039a95fb40b8ebf3e443ea9858b31bdf9f2c59b9ff9887c5f613800e",
+      "evidence": "Read the complete source and ideal, maximal-ideal, quotient-ring, and field definitions. The iff statement explicitly relates maximal ideals to field quotients, so every listed concept is part of the theorem.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/maximal-ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/field"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/maximal-ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/field"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/minimal-polynomial-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcb87d7938b33c8e559d1924ce7c8a78571dc5cd8a56c41e223377a35adb1881",
+      "evidence": "Read the complete source and irreducible-polynomial definition. The core defines the unique monic irreducible polynomial annihilating an algebraic element; irreducible-polynomial is the direct result notion.",
+      "previous_prerequisites": [
+        "algebra-rings/irreducible-polynomial"
+      ],
+      "prerequisites": [
+        "algebra-rings/irreducible-polynomial"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/multivariable-formal-power-series-ring",
+      "outcome": "corrected",
+      "source_sha256": "24025a2704281a20a537a930d1d18f507ca44e607f32975af9ae1ba1ba7f1eb2",
+      "evidence": "Read the complete source and commutative-ring and unital-ring definitions. The core constructs formal sums over N^n over a commutative ring with 1; unital-ring records the explicit identity hypothesis.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring"
+      ],
+      "changes": [
+        "Added explicit core hypothesis or construction/result prerequisite identified during full review."
+      ]
+    },
+    {
+      "id": "algebra-rings/natural-order-of-idempotent-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee76c2d8347e1457f7e9041119be9bd663ff6aaf58b3ec8c1a853b977892d5f9",
+      "evidence": "Read the complete source and idempotent-semiring and partial-order definitions. The core defines a+b=b as an order and proves join/monotonicity properties; both listed notions are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/idempotent-semiring",
+        "shared-foundations/partial-order"
+      ],
+      "prerequisites": [
+        "algebra-rings/idempotent-semiring",
+        "shared-foundations/partial-order"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/nil-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3fbb8801dda35ed587e49458af839206e8e74ca17d9f9e83f55656f9842f6da",
+      "evidence": "Read the complete source and ideal and nilpotent-element definitions. The core defines a nil ideal as an ideal all of whose elements are nilpotent; both edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/nilpotent-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/nilpotent-element"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/nilpotent-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dabe282162270fdcfa98700c32cd338e67c6c89bc86aa80ff17737c3e1358750",
+      "evidence": "Read the complete source and ring definition. The core defines a ring element whose positive power is zero; ring is the sole ambient prerequisite.",
+      "previous_prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/nilradical",
+      "outcome": "corrected",
+      "source_sha256": "9514f51e489fc969bc366c45957454f1fce3d0ff78856390da1f6c895b2004bc",
+      "evidence": "Read the complete source and commutative-ring, nilpotent-element, and radical-of-ideal definitions. The core defines Nil(R) as nilpotent elements and identifies it with the radical of zero; all three are explicit.",
+      "previous_prerequisites": [
+        "algebra-rings/nilpotent-element",
+        "algebra-rings/radical-of-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/nilpotent-element",
+        "algebra-rings/radical-of-ideal"
+      ],
+      "changes": [
+        "Added explicit core hypothesis or construction/result prerequisite identified during full review."
+      ]
+    },
+    {
+      "id": "algebra-rings/nilradical-intersection-primes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "de3d58e89759c951563f35ac4c00b1f994d8b8b8e9dca31f8c317214fc344f41",
+      "evidence": "Read the complete source and commutative-ring, nilradical, nilpotent-element, radical, and prime-ideal definitions. The displayed equality identifies nilpotents/radical of zero with an intersection over prime ideals; each listed notion is statement data.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/nilradical",
+        "algebra-rings/nilpotent-element",
+        "algebra-rings/radical-of-ideal",
+        "algebra-rings/prime-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/nilradical",
+        "algebra-rings/nilpotent-element",
+        "algebra-rings/radical-of-ideal",
+        "algebra-rings/prime-ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/nullstellensatz-strong",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0c1dbf7ac48621c02fe0c97bb96523cf16841af4394ba1adfa2c3fa71dfe829",
+      "evidence": "Read the complete source and field, ideal, polynomial-ring, and radical definitions. The theorem assumes an algebraically closed field and ideal in a polynomial ring and identifies its vanishing ideal with the radical; all four edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/ideal",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/radical-of-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/ideal",
+        "algebra-rings/polynomial-ring",
+        "algebra-rings/radical-of-ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/nullstellensatz-weak",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5bb72bbb4f5745a9bc1a9984f3c59b424117cb62a4bc592af9efd994ddfbad88",
+      "evidence": "Read the complete source and field, ideal, and polynomial-ring definitions. The theorem assumes an algebraically closed field and proper ideal in a polynomial ring and concludes nonempty zero locus; all listed edges are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/ideal",
+        "algebra-rings/polynomial-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/ideal",
+        "algebra-rings/polynomial-ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/opposite-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8720116a9f4a0535f1eb9dcbd3eb5debb0d244c7ff6b91def9e03d3993df9267",
+      "evidence": "Read the complete source and ring definition. The core keeps the additive group and reverses multiplication, so ring is the only direct prerequisite.",
+      "previous_prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/ordered-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "993e6f9b0a475111501f5899c6455e63b15428bcdd00c8dfabdaaa02d6a59f4d",
+      "evidence": "Read the complete source and semiring and partial-order definitions. The core equips a semiring with an order compatible with addition and multiplication; both listed notions are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/semiring",
+        "shared-foundations/partial-order"
+      ],
+      "prerequisites": [
+        "algebra-rings/semiring",
+        "shared-foundations/partial-order"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/parasemifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b406d9a131948830cd7fbf7b1cedb9288a8e63a8227630935e412b4a7e0297b",
+      "evidence": "Read the complete source and abelian-group and semifield definitions. The core specifies an abelian multiplicative group and contrasts the structure with a semifield; both listed notions are needed to state it.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-rings/semifield"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-rings/semifield"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/pid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8752eac698f0e7da6e4f9b881c6c85bcc37cc924b89027ea46a2b33ae1bf34ed",
+      "evidence": "Read the complete source and integral-domain, ideal, and principal-ideal definitions. The core defines a PID as an integral domain whose ideals are principal; those three are direct. Euclidean/UFD implications are later consequences.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/ideal",
+        "algebra-rings/principal-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/ideal",
+        "algebra-rings/principal-ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/pid-implies-ufd",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db4a5d8734a648ec991e3a10ce426b6c7c688dcff517382a510bada55fe4b112",
+      "evidence": "Read the complete source and PID, UFD, irreducible-element, and prime-element definitions. The theorem asserts PID implies UFD and uses irreducible-to-prime plus factorization arguments; all four listed concepts are explicit.",
+      "previous_prerequisites": [
+        "algebra-rings/pid",
+        "algebra-rings/ufd",
+        "algebra-rings/irreducible-element",
+        "algebra-rings/prime-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/pid",
+        "algebra-rings/ufd",
+        "algebra-rings/irreducible-element",
+        "algebra-rings/prime-element"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/polynomial-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a167fe7797f4ff56aea3bd2ad18a01a252175b772d7b038896792913aa77a1b",
+      "evidence": "Read the complete source and commutative-ring and unital-ring definitions. The core constructs finite polynomial sums over a commutative ring with 1; both edges record explicit setting hypotheses.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/primary-ideal",
+      "outcome": "corrected",
+      "source_sha256": "df087c58afa76aed77769ef8a5ed53ef24260625430cc29e85be58579df815c0",
+      "evidence": "Read the complete source and commutative-ring and ideal definitions. The core defines a proper ideal Q in a commutative ring by the primary implication; both are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal"
+      ],
+      "changes": [
+        "Added explicit core hypothesis or construction/result prerequisite identified during full review."
+      ]
+    },
+    {
+      "id": "algebra-rings/prime-element",
+      "outcome": "corrected",
+      "source_sha256": "2f336ca65075ae56fe942d49f86151ea648b231c03d5989bd05542105c106359",
+      "evidence": "Read the complete source and integral-domain and unit definitions. The core defines a nonzero nonunit satisfying prime divisibility in an integral domain; unit is an explicit condition and was added.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/unit"
+      ],
+      "changes": [
+        "Added explicit core hypothesis or construction/result prerequisite identified during full review."
+      ]
+    },
+    {
+      "id": "algebra-rings/prime-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "964c7e44fd63d9f3498f4981dce6c130f700db29e6e2c4ff6ec7bd51b4a9602d",
+      "evidence": "Read the complete source and commutative-ring, unital-ring, and ideal definitions. The core defines a proper ideal in a commutative unital ring by the product condition; all three are direct.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal"
+      ],
+      "changes": []
+    },
+    {
+      "id": "algebra-rings/ufd-implies-gcd-exists",
+      "outcome": "corrected",
+      "source_sha256": "190994b12fdcc2f7826d89e3016eaea0eb1bd75a1fb9e621603312a1bcc55d01",
+      "evidence": "Read the complete current source and every direct prerequisite target. The core states a UFD hypothesis, defines a gcd, and explicitly says uniqueness is up to multiplication by a unit; unit is therefore a required result notion, while prime/associate discussion is only a remark.",
+      "previous_prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/gcd"
+      ],
+      "prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/gcd",
+        "algebra-rings/unit"
+      ],
+      "changes": [
+        "Restored the explicit core result concept omitted by the earlier metadata pass."
+      ]
+    },
+    {
+      "id": "algebra-rings/units-map-to-units",
+      "outcome": "corrected",
+      "source_sha256": "1018645aa4a628bd256b34f5e18251215eda4bb4a6f5c14f3ef8cfecf872dc2f",
+      "evidence": "Read the complete current source and unital-ring, ring-homomorphism, unit, and group-of-units targets. The core assumes a unital homomorphism, sends a unit to a unit with the inverse identity, and explicitly gives the induced homomorphism on unit groups; all four edges are required.",
+      "previous_prerequisites": [
+        "algebra-rings/unital-ring",
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/unital-ring",
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/unit",
+        "algebra-rings/group-of-units"
+      ],
+      "changes": [
+        "Restored the explicit core result concept omitted by the earlier metadata pass."
+      ]
+    }
+  ],
+  "triage_records": [
+    {
+      "id": "algebra-rings/prime-iff-quotient-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9edeef83dabc143361c9df58ebb0f29061611fe4a998289d3974e092e773b2c",
+      "evidence": "Read the complete source (18 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Prime ideal iff quotient is integral domain**: Let \\(R\\) be a commutative ring with \\(1\\), and let \\(P\\triangleleft R\\) be an [[algebra-rings/ideal|ideal]]. Then \\(P\\) is a [[algebra-rings/prime-ideal|prime ideal]] if and only if the [[algebra-rings/quotient-ring|quotient ring]] \\(R/P\\) is an [[algebra-rings/integral-domain|integral domain]]. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/integral-domain"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/prime-ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/integral-domain"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/prime-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36d2ddced4ab3ab680ef01396751b5d657d10768847c822a9301c6cc8b6caf2c",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **prime ring** is a [[algebra-rings/ring|ring]] \\(R\\) such that for any nonzero [[algebra-rings/two-sided-ideal|two-sided ideals]] \\(A,B\\subseteq R\\), one has \\(AB\\neq 0\\), where \\(AB\\) denotes the [[algebra-rings/product-of-ideals|product of ideals]]. Equivalently: if \\(A\\) and \\(B\\) are ideals with \\(AB=0\\), then \\(A=0\\) or \\(B=0\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/two-sided-ideal",
+        "algebra-rings/product-of-ideals"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/two-sided-ideal",
+        "algebra-rings/product-of-ideals"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/prime-subfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d5576a13db0a6a119b8ebe70138e5c17e8b65e5205dbe7f9f3749c128f69dc2",
+      "evidence": "Read the complete source (18 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Prime subfield**: Let \\(K\\) be a field. The subfield of \\(K\\) generated by \\(1\\) is isomorphic to \\(\\mathbb Q\\) if \\(\\operatorname{char}(K)=0\\), and is isomorphic to \\(\\mathbb F_p\\) if \\(\\operatorname{char}(K)=p>0\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/characteristic"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-rings/characteristic"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/primitive-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a074e0d56206b4a4deddec8407b44271a9052e31bf0611cbe4f353da86db162c",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be an [[algebra-rings/integral-domain|integral domain]] and let \\(f\\in R[x]\\) be nonzero. The polynomial \\(f\\) is **primitive** if its [[algebra-rings/content-polynomial|content]] is the whole ring, i.e. \\(c(f)=R\\) (equivalently, the coefficients generate the unit ideal). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/content-polynomial"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/content-polynomial"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/principal-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd6dbaa0566a2c27fc2d97f03b3489480ea491076f3106194c2575e7264639cf",
+      "evidence": "Read the complete source (28 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **principal ideal** in a [[algebra-rings/commutative-ring|commutative]] [[algebra-rings/unital-ring|unital ring]] \\(R\\) is an [[algebra-rings/ideal|ideal]] of the form \\[ (a)=\\{ra:r\\in R\\} \\] for some \\(a\\in R\\), i.e. an instance of an [[algebra-rings/ideal-generated|ideal generated]] by one element. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/ideal-generated"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/unital-ring",
+        "algebra-rings/ideal",
+        "algebra-rings/ideal-generated"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/product-of-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b722640f90d236802ab54236c78a1eca73e331fd7c983145e3e96213c69a1825",
+      "evidence": "Read the complete source (28 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Given two-sided ideals \\(I,J\\) in a [[algebra-rings/ring|ring]] \\(R\\), their **product** \\(IJ\\) is the [[algebra-rings/ideal-generated|ideal generated]] by the set \\(\\{ij:i\\in I,\\ j\\in J\\}\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal-generated"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal-generated"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/quotient-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b4b292cffae6f99598dbc5143b842be1d872e43911c7a08b0abf38fbd9bf9e5",
+      "evidence": "Read the complete source (26 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a ring and let \\(I\\) be a [[algebra-rings/two-sided-ideal|two-sided ideal]] of \\(R\\). The **quotient ring** \\(R/I\\) is the [[shared-foundations/quotient-set|quotient set]] of \\(R\\) by the [[shared-foundations/equivalence-relation|equivalence relation]] \\(r\\sim s\\) iff \\(r-s\\in I\\), with addition and multiplication on [[algebra-groups/coset|coset The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/two-sided-ideal",
+        "shared-foundations/quotient-set",
+        "shared-foundations/equivalence-relation",
+        "algebra-groups/coset"
+      ],
+      "prerequisites": [
+        "algebra-rings/two-sided-ideal",
+        "shared-foundations/quotient-set",
+        "shared-foundations/equivalence-relation",
+        "algebra-groups/coset"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/quotient-ring-universal-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb147ec76364e7a03b5fff63105a4b7a375ce7bd30f4fe4d1e363785d1540cfb",
+      "evidence": "Read the complete source (21 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Universal property of quotient rings**: Let \\(R\\) be a ring, let \\(I\\triangleleft R\\) be a two-sided [[algebra-rings/ideal|ideal]], and let \\(\\pi:R\\to R/I\\) be the canonical projection onto the [[algebra-rings/quotient-ring|quotient ring]]. For any [[algebra-rings/ring-homomorphism|ring homomorphism]] \\(f:R\\to S\\) such that \\(I\\subseteq \\ker(f)\\) (where \\( The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/kernel-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring",
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/kernel-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/radical-of-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e13b819f475b97cab1387a33dec908ca11170124c7c2929fadc8608a84c67ac",
+      "evidence": "Read the complete source (28 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a commutative ring and let \\(I\\subseteq R\\) be an ideal. The **radical of \\(I\\)** is \\[ \\sqrt{I}=\\{\\,r\\in R:\\exists n\\ge 1\\text{ with }r^n\\in I\\,\\}. \\] Then \\(\\sqrt{I}\\) is an [[algebra-rings/ideal|ideal]] containing \\(I\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/reduced-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7be35f9b4374708f7fe9c047cbcabe75b84ace3c77c5432bd0641357cd08515",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **reduced ring** is a [[algebra-rings/commutative-ring|commutative ring]] \\(R\\) such that the only [[algebra-rings/nilpotent-element|nilpotent element]] of \\(R\\) is \\(0\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/nilpotent-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/nilpotent-element"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/regular-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e533798e8587fe7a5f59da1c50f4631e099c6e31896305bdee4936459aad1b03",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a ring. An element \\(a\\in R\\) is **left regular** if \\(ax=ay\\) implies \\(x=y\\) for all \\(x,y\\in R\\), and **right regular** if \\(xa=ya\\) implies \\(x=y\\) for all \\(x,y\\in R\\). It is **regular** if it is both left and right regular. In a commutative ring, this is equivalent to saying \\(a\\) is not a [[algebra-rings/zero-divisor|zero divisor]], i.e. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/zero-divisor"
+      ],
+      "prerequisites": [
+        "algebra-rings/zero-divisor"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/ring-epimorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa9df563e601d88ff447671b15c920048d356f75bdcc2e59acaa42f407107964",
+      "evidence": "Read the complete source (28 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **ring epimorphism** is a [[algebra-rings/ring-homomorphism|ring homomorphism]] \\(\\varphi:R\\to S\\) such that for every ring \\(T\\) and homomorphisms \\(g,h:S\\to T\\), \\[ g\\circ\\varphi=h\\circ\\varphi\\quad\\Longrightarrow\\quad g=h. \\] Thus \\(\\varphi\\) is an epimorphism in the category of rings. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/ring-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00cb76889456d9c3c769d8cbd111e086ca60458fd898011aef34a30ceb5e00a8",
+      "evidence": "Read the complete source (32 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **ring homomorphism** is a [[shared-foundations/function|function]] \\(\\varphi:R\\to S\\) between [[algebra-rings/ring|rings]] such that for all \\(a,b\\in R\\), \\[ \\varphi(a+b)=\\varphi(a)+\\varphi(b),\\qquad \\varphi(ab)=\\varphi(a)\\varphi(b). \\] The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "algebra-rings/ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/ring-homomorphism-properties",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "17d4d80177cd131a1173f61b782684ea5e89ef5df3620b668d2d60da1240c35d",
+      "evidence": "Read the complete source (22 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Ring homomorphisms preserve structure**: Let \\(\\varphi:R\\to S\\) be a ring homomorphism. Then for all \\(a,b\\in R\\), \\[ \\varphi(a+b)=\\varphi(a)+\\varphi(b),\\qquad \\varphi(ab)=\\varphi(a)\\varphi(b),\\qquad \\varphi(0_R)=0_S. \\] If \\(\\varphi\\) is unital, then \\(\\varphi(1_R)=1_S\\). In particular, \\(\\varphi(-a)=-\\varphi(a)\\) for all \\(a\\in R\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ring",
+        "algebra-rings/unital-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "algebra-rings/ring",
+        "algebra-rings/unital-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/ring-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0702993c571b328957ba26f553013b03dad6ae3753fb060135d8fc58211716c6",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **ring isomorphism** is a bijective [[algebra-rings/ring-homomorphism|ring homomorphism]] \\(\\varphi:R\\to S\\). Its inverse function \\(\\varphi^{-1}:S\\to R\\) is then automatically a ring homomorphism. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/bijective-function"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/ring-monomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "14834bbee373e586a9c28adce8650b59fa63f683cd95dca30d991426d762964e",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **ring monomorphism** is a [[algebra-rings/ring-homomorphism|ring homomorphism]] \\(\\varphi:R\\to S\\) that is [[shared-foundations/injective-function|injective]] as a function. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring-homomorphism",
+        "shared-foundations/injective-function"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/second-isomorphism-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3dc7e855cede4c2cd077b940da7f8c9613a2ba825d1164eac3ca026b6f5e382e",
+      "evidence": "Read the complete source (22 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Second isomorphism theorem (rings)**: Let \\(R\\) be a ring, let \\(A\\subseteq R\\) be a [[algebra-rings/subring|subring]], and let \\(I\\triangleleft R\\) be a two-sided [[algebra-rings/ideal|ideal]]. Then \\(A\\cap I\\triangleleft A\\), \\(A+I:=\\{a+i:a\\in A,\\ i\\in I\\}\\) is a subring of \\(R\\), and there is a natural isomorphism \\[ A/(A\\cap I)\\ \\cong\\ (A+I)/I \\] of [[ The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/subring",
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/subring",
+        "algebra-rings/ideal",
+        "algebra-rings/quotient-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2b759e1bc315bb954211e27fb50d833b0cb9f62c19d6615c7a5118cb52a733d",
+      "evidence": "Read the complete source (37 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **semifield** is a [[algebra-rings/commutative-semiring|commutative semiring]] \\(S\\) with \\(0\\ne1\\) such that \\(S^\\times=S\\setminus\\{0\\}\\). Equivalently, the nonzero elements form an abelian group under multiplication. Additive inverses are not required. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-semiring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-semiring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/semiprime-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d334e5ce80dd257226b145f9d7509a03bf7d680382d94180642beb34e779697a",
+      "evidence": "Read the complete source (27 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a ring and let \\(I\\) be a [[algebra-rings/two-sided-ideal|two-sided ideal]]. The ideal \\(I\\) is **semiprime** if, for every two-sided ideal \\(J\\subseteq R\\), \\[ J^2\\subseteq I\\quad\\Longrightarrow\\quad J\\subseteq I. \\] The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/two-sided-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/two-sided-ideal"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb6498c4fd57d7b3ef876aeafb05479954a548bd16f389da4af89d8332d148b6",
+      "evidence": "Read the complete source (44 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **semiring** is a set \\(S\\) with operations \\(+\\) and \\(\\cdot\\) and elements \\(0,1\\) such that \\((S,+,0)\\) is a [[algebra-groups/commutative-monoid|commutative monoid]], \\((S,\\cdot,1)\\) is a [[algebra-groups/monoid|monoid]], multiplication distributes over addition on both sides, and \\(0s=s0=0\\) for every \\(s\\in S\\). The house convention includes a multipl The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "algebra-groups/monoid"
+      ],
+      "prerequisites": [
+        "algebra-groups/commutative-monoid",
+        "algebra-groups/monoid"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/semiring-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "619d8f5b07fb66262bfca58b3ed227f439b3e9cbde4a6df311eecab4f904b214",
+      "evidence": "Read the complete source (39 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: For [[algebra-rings/semiring|semirings]] \\(S\\) and \\(T\\), a **semiring homomorphism** is a function \\(f:S\\to T\\) satisfying \\[ f(0)=0,\\qquad f(1)=1,\\qquad f(a+b)=f(a)+f(b),\\qquad f(ab)=f(a)f(b) \\] for all \\(a,b\\in S\\). In particular, semiring homomorphisms are unit-preserving in the house convention. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/semiring"
+      ],
+      "prerequisites": [
+        "algebra-rings/semiring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/semisimple-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7dc038ac88a045b9727d480526e15b98d0e5c979b813f7b36318fd1e86c8f49a",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **semisimple ring** is a unital ring \\(R\\) such that every left \\(R\\)-module is semisimple (i.e. a direct sum of simple modules). Equivalently, the left regular module \\({}_RR\\) is a direct sum of minimal left ideals. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-modules/semisimple-module"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "algebra-modules/semisimple-module"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/simple-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "185d7b1d7601b283a6a1db05db7fe0665c22f043bab94693b1c287a747837fe1",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **simple ring** is a nonzero [[algebra-rings/ring|ring]] \\(R\\) whose only [[algebra-rings/two-sided-ideal|two-sided ideals]] are \\(0\\) and \\(R\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/two-sided-ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/two-sided-ideal"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/subring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c62c611d9205db6175ec9e2c5d9f4d0d8e574d924c8cb8fc6224bcfe8fe7b258",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **subring** of a [[algebra-rings/ring|ring]] \\(R\\) is a nonempty [[shared-foundations/subset|subset]] \\(S\\subseteq R\\) such that, with the operations induced from \\(R\\), the triple \\((S,+,\\cdot)\\) is a ring. Equivalently, \\(S\\) is closed under addition, additive inverses, and multiplication (and hence contains \\(0\\)). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "shared-foundations/subset"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/substitution-of-formal-power-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b843dab4137d2a63f27dcdea6e27bdfe0a778729d6005cfc519a47bac208bc65",
+      "evidence": "Read the complete source (70 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a commutative ring, \\(f\\in R[[X_1,\\ldots,X_n]]\\), and \\[ g_i\\in(Y_1,\\ldots,Y_m)R[[Y_1,\\ldots,Y_m]] \\qquad(1\\leq i\\leq n). \\] The **substitution of formal power series** is \\[ f(g_1,\\ldots,g_n) := \\sum_{\\alpha\\in\\mathbb N^n}a_\\alpha g_1^{\\alpha_1}\\cdots g_n^{\\alpha_n}, \\qquad f=\\sum_\\alpha a_\\alpha X^\\alpha. \\] It is a well-defined element of \\(R The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/formal-power-series-ring",
+        "algebra-rings/multivariable-formal-power-series-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/formal-power-series-ring",
+        "algebra-rings/multivariable-formal-power-series-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/sum-of-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f7feb9db3a188a586de757c1106146c67226aafafa1325e18e06bd65be5e1f2",
+      "evidence": "Read the complete source (28 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Given ideals \\(I,J\\) in a [[algebra-rings/ring|ring]] \\(R\\), their **sum** is \\[ I+J=\\{\\,i+j : i\\in I,\\ j\\in J\\,\\}. \\] It is the smallest [[algebra-rings/ideal|ideal]] of \\(R\\) containing both \\(I\\) and \\(J\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/third-isomorphism-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89f611a66fad0db3976a9400ac5d6fb4aa56b569e202561d513680ae030c6d6e",
+      "evidence": "Read the complete source (22 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Third isomorphism theorem (rings)**: Let \\(R\\) be a ring and let \\(I\\subseteq J\\) be [[algebra-rings/ideal|ideals]] of \\(R\\). Then \\(J/I\\) is an ideal of \\(R/I\\), and there is a natural [[algebra-rings/ring-isomorphism|ring isomorphism]] \\[ (R/I)/(J/I)\\ \\cong\\ R/J \\] of [[algebra-rings/quotient-ring|quotient rings]]. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/ring-isomorphism",
+        "algebra-rings/quotient-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ideal",
+        "algebra-rings/ring-isomorphism",
+        "algebra-rings/quotient-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/total-ring-of-fractions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80c1f50b0708a83e9c36f035fa4032357b277639f6e8f3bf9860dbe7d9b55e70",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] (with \\(1\\)). Let \\(S\\subseteq R\\) be the multiplicative set of [[algebra-rings/regular-element|regular elements]] (equivalently: elements that are not a [[algebra-rings/zero-divisor|zero-divisor]]). The **total ring of fractions** of \\(R\\) is the localization \\[ Q(R):=S^{-1}R. \\] The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/regular-element",
+        "algebra-rings/zero-divisor",
+        "algebra-rings/unit"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/regular-element",
+        "algebra-rings/zero-divisor",
+        "algebra-rings/unit"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/tropical-semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9316e4f1df33d8b1a76b685a1e7a0dcfabd5efe7f08aff374e86b89d7071d8e8",
+      "evidence": "Read the complete source (53 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: The **tropical semifield** in the house max-plus convention is \\[ \\mathbb T_{\\max}=\\mathbb R\\cup\\{-\\infty\\},\\qquad x\\oplus y=\\max\\{x,y\\},\\qquad x\\odot y=x+y. \\] Its additive zero is \\(-\\infty\\), its multiplicative one is the real number \\(0\\), and the multiplicative inverse of a finite \\(x\\) is \\(-x\\). Hence it is an [[algebra-rings/idempotent-semifield|idem The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/idempotent-semifield"
+      ],
+      "prerequisites": [
+        "algebra-rings/idempotent-semifield"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/two-sided-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3325f8f4a1d20e94b7609cf05ecc95fb9e7daf3542b49258f57ef76e309d4ab6",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **two-sided ideal** of a [[algebra-rings/ring|ring]] \\(R\\) is an [[algebra-rings/ideal|ideal]] \\(I\\subseteq R\\) such that \\(rI\\subseteq I\\) and \\(Ir\\subseteq I\\) for all \\(r\\in R\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/ideal"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/ufd",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23c32e7d83426464a25717a931ad9ebf1ce933bc827c76fd6a21bac8a62fffa3",
+      "evidence": "Read the complete source (27 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **unique factorization domain (UFD)** is an [[algebra-rings/integral-domain|integral domain]] \\(R\\) such that: 1. every nonzero nonunit is a finite product of [[algebra-rings/irreducible-element|irreducible elements]]; and 2. any two such factorizations differ only by reordering the factors and replacing factors by [[algebra-rings/associated-elements|assoc The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/irreducible-element",
+        "algebra-rings/associated-elements"
+      ],
+      "prerequisites": [
+        "algebra-rings/integral-domain",
+        "algebra-rings/irreducible-element",
+        "algebra-rings/associated-elements"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/ufd-polynomial-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b64498511c390c37277b082f170bd48259236221f0281c43a14cce57bb2df42",
+      "evidence": "Read the complete source (14 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Gauss's theorem**: If \\(R\\) is a [[algebra-rings/ufd|UFD]], then the [[algebra-rings/polynomial-ring|polynomial ring]] \\(R[x]\\) is a UFD. More generally, \\(R[x_1,\\dots,x_n]\\) is a UFD for all \\(n\\ge 1\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/polynomial-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/polynomial-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/unique-factorization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9310592fdaf407b4d8695e86997482ca6c2aa421b55003d6e12288f330d79a68",
+      "evidence": "Read the complete source (22 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Unique factorization theorem**: Let \\(R\\) be a [[algebra-rings/ufd|unique factorization domain]]. Every nonzero element of \\(R\\) that is not a [[algebra-rings/unit|unit]] can be written as a finite product of [[algebra-rings/irreducible-element|irreducible elements]]. Moreover, if \\[ r = u\\,p_1\\cdots p_m = v\\,q_1\\cdots q_n \\] with \\(u,v\\) units and \\(p_i,q The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/unit",
+        "algebra-rings/irreducible-element",
+        "algebra-rings/associated-elements",
+        "algebra-rings/prime-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/ufd",
+        "algebra-rings/unit",
+        "algebra-rings/irreducible-element",
+        "algebra-rings/associated-elements",
+        "algebra-rings/prime-element"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/unital-ring-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e141913add97d536e099ff5e77fde83bf3ffcf0d4fce99d191b7f31574553df",
+      "evidence": "Read the complete source (21 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: The **unital ring axiom** asserts that a ring \\(R\\) has an element \\(1\\in R\\) such that \\[ 1\\cdot a=a\\cdot 1=a\\qquad\\text{for all }a\\in R. \\] The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/wedderburns-little-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d1cf3e4527e003e03e9b280259c3786f9bb64dc062e56a95426758fe6a3bad5",
+      "evidence": "Read the complete source (18 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Wedderburn's little theorem**: Every finite [[algebra-rings/division-ring|division ring]] is commutative. Equivalently, every finite division ring is a [[algebra-rings/field|field]]. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/division-ring",
+        "algebra-rings/field"
+      ],
+      "prerequisites": [
+        "algebra-rings/division-ring",
+        "algebra-rings/field"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-rings/zero-divisor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2523dce4f80641ab80103b62ed1b60a436cefccb9cec817a39a9b28bf1af6c68",
+      "evidence": "Read the complete source (24 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a ring. A nonzero element \\(a\\in R\\) is a **left zero divisor** if there exists \\(b\\ne 0\\) with \\(ab=0\\), and a **right zero divisor** if there exists \\(c\\ne 0\\) with \\(ca=0\\). In a [[algebra-rings/commutative-ring|commutative ring]], these notions coincide and one simply says *zero divisor*. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/ring",
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "173665bf48a4bd96d4f444aea788a5768912b6edaaa0baa5a03d9cf3327690e5",
+      "evidence": "Read the complete section source (92 lines); it is a navigation section with no standalone definition or theorem, so it has no prerequisite edges.",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/artinian-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "669e5fbbdc44a07a2fbd949841ea4c0f421f92982e456d88c4322a86128ed2d8",
+      "evidence": "Read the complete source (41 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. \\(R\\) is **Artinian** if it satisfies the *descending chain condition* (DCC) on [[algebra-rings/ideal|ideals]]: for every chain \\[ I_1 \\supseteq I_2 \\supseteq I_3 \\supseteq \\cdots \\] there exists \\(N\\) such that \\(I_n=I_N\\) for all \\(n\\ge N\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension",
+        "algebra-commutative/maximal-spectrum",
+        "algebra-commutative/jacobson-radical-intersection-maximals"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension",
+        "algebra-commutative/maximal-spectrum",
+        "algebra-commutative/jacobson-radical-intersection-maximals"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/dedekind-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "45d1be651dde7906a56fa8aa163af719a97c2d8394311e0506a961eebb3ac8e0",
+      "evidence": "Read the complete source (39 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **Dedekind domain** is a central object in commutative algebra and algebraic number theory. An [[algebra-rings/integral-domain|integral domain]] \\(R\\) is a **Dedekind domain** if: 1. \\(R\\) is a [[algebra-commutative/noetherian-ring|Noetherian ring]]; 2. \\(R\\) is an [[algebra-commutative/integrally-closed-domain|integrally closed domain]]; 3. \\(R\\) has [[al The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/integrally-closed-domain",
+        "algebra-commutative/krull-dimension",
+        "algebra-commutative/height-of-prime"
+      ],
+      "prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/integrally-closed-domain",
+        "algebra-commutative/krull-dimension",
+        "algebra-commutative/height-of-prime"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/dvr",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71a77281b47fd98ff4a7c0dd46d2b046b99da96587e02851c8c8531cc33ee576",
+      "evidence": "Read the complete source (48 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A **discrete valuation ring (DVR)** is the basic local building block of dimension-one commutative algebra. A DVR is a local ring \\((R,\\mathfrak m)\\) (see [[algebra-commutative/local-ring|local ring]] and [[algebra-commutative/maximal-ideal-local-ring|its maximal ideal]]) such that: - \\(R\\) is a [[shared-foundations/domain|domain]], - \\(R\\) is [[algebra-comm The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/maximal-ideal-local-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension"
+      ],
+      "prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/maximal-ideal-local-ring",
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/krull-dimension"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/extension-of-scalars",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ea8b35763c05340f6188af97d6f34e2ba64564ac2a65f6952b3772ee4a55303",
+      "evidence": "Read the complete source (56 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(f:R\\to S\\) be a homomorphism of [[algebra-rings/commutative-ring|commutative rings]], and let \\(M\\) be an \\(R\\)-module. The **extension of scalars** (or **base change**) of \\(M\\) along \\(f\\) is the \\(S\\)-module \\[ S\\otimes_R M, \\] where \\(S\\) acts on the left tensor factor by \\[ s\\cdot(s'\\otimes m)=(ss')\\otimes m. \\] There is a canonical \\(R\\)-linear m The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "linear-algebra/linear-map"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/going-down-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa19157f606389b2275527f335d56b47a8bd1029f5730360c7f4acf3d2dd2777",
+      "evidence": "Read the complete source (40 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Theorem (Going down).** Let \\(A\\subseteq B\\) be an [[algebra-commutative/integral-extension|integral extension]] of [[algebra-rings/integral-domain|integral domains]], and assume that \\(A\\) is [[algebra-commutative/integrally-closed-domain|integrally closed]]. Let \\(\\mathfrak p\\subseteq \\mathfrak p'\\) be [[algebra-rings/prime-ideal|prime ideals]] of \\(A\\), The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/integral-extension",
+        "algebra-commutative/integrally-closed-domain"
+      ],
+      "prerequisites": [
+        "algebra-commutative/integral-extension",
+        "algebra-commutative/integrally-closed-domain"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/going-up-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b96342cd2825f64c8cec1d4c01810cb2fac696a80410b27594d1acd27815015d",
+      "evidence": "Read the complete source (35 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(A\\subseteq B\\) be an [[algebra-commutative/integral-extension|integral extension]] of [[algebra-rings/commutative-ring|commutative rings]]. The [[algebra-commutative/lying-over-theorem|lying-over theorem]] ensures that primes of \\(A\\) occur as contractions of primes of \\(B\\); going-up strengthens this by lifting *inclusions* of primes. **Theorem (Going The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/integral-extension",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/lying-over-theorem",
+        "algebra-commutative/prime-spectrum"
+      ],
+      "prerequisites": [
+        "algebra-commutative/integral-extension",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/lying-over-theorem",
+        "algebra-commutative/prime-spectrum"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/height-of-prime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0f106c62490ca554bdb87bc6de5f0a9289ccd8ed009c465081fa055a4a6925ab",
+      "evidence": "Read the complete source (47 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \\(\\mathfrak p\\) be a [[algebra-rings/prime-ideal|prime ideal]] (i.e., \\(\\mathfrak p\\in\\operatorname{Spec}(R)\\), the [[algebra-commutative/prime-spectrum|prime spectrum]]). The **height** of \\(\\mathfrak p\\), denoted \\(\\operatorname{ht}(\\mathfrak p)\\), is the supremum of integers \\(n\\ge The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/localization-at-prime",
+        "algebra-commutative/krull-dimension",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/localization-at-prime",
+        "algebra-commutative/krull-dimension",
+        "real-analysis/supremum"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/hilbert-basis-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4996585b4daa309cddcdd1cc22ab1159a46ab1597927a0e3826b873e45004414",
+      "evidence": "Read the complete source (26 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Hilbert basis theorem (iterated form).** Let \\(R\\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]]. For every integer \\(n\\ge 0\\), the polynomial ring \\(R[x_1,\\ldots,x_n]\\) is Noetherian. Hence every [[algebra-rings/ideal|ideal]] in this ring is finitely generated. Moreover, every finitely generated \\(R\\)-algebra is Noetherian, because it is a The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/noetherian-ring"
+      ],
+      "prerequisites": [
+        "algebra-commutative/noetherian-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/i-adic-completion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b29c8c91caa9ebe89a8353ce07a6b1fd09a1d10bf786ffc9c2daf92d76400d50",
+      "evidence": "Read the complete source (67 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(A\\) be a [[algebra-rings/commutative-ring|commutative ring]] and \\(I\\subseteq A\\) an [[algebra-rings/ideal|ideal]]. Its **\\(I\\)-adic completion** is the [[algebra-category-theory/limit|inverse limit]] \\[ \\widehat A^{\\,I}:=\\varprojlim_{n\\geq1}A/I^n \\] with respect to the quotient maps \\(A/I^{n+1}\\to A/I^n\\). The canonical map \\[ A\\longrightarrow\\widehat The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/i-adic-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90a43698c572aa755852f9c0c7c9ac31d7799c915ac4f431fdb4a356479561f3",
+      "evidence": "Read the complete source (62 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(A\\) be a [[algebra-rings/commutative-ring|commutative ring]] and \\(I\\subseteq A\\) an [[algebra-rings/ideal|ideal]]. The **\\(I\\)-adic topology** on \\(A\\) is the ring topology for which \\[ A\\supseteq I\\supseteq I^2\\supseteq\\cdots \\] is a neighborhood basis of \\(0\\). Thus a sequence \\(a_j\\) converges to \\(0\\) exactly when, for every \\(N\\), it eventually l The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/ideal"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/integral-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f61ee85bcdbbd9dcae8c084542f649bede340e1c25b6d3bdcc5c323c5990403b",
+      "evidence": "Read the complete source (41 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]], and let \\(A\\) be a commutative \\(R\\)-algebra. An element \\(a\\in A\\) is [[algebra-commutative/integral-element|integral]] over \\(R\\) if it satisfies a monic polynomial equation \\[ a^n + r_{n-1}a^{n-1}+\\cdots + r_1 a + r_0 = 0 \\quad \\text{with } r_i\\in R. \\] The **integral closure of \\(R\\) in The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/integral-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/integral-element"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/integral-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1b0e2ae6653259660b208741cb9db0e48ad95e5b9292a2803b9069c6c8d453d",
+      "evidence": "Read the complete source (39 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(A\\to B\\) be a homomorphism of [[algebra-rings/commutative-ring|commutative rings]] (often viewed as an inclusion \\(A\\subseteq B\\)). An element \\(b\\in B\\) is **integral over \\(A\\)** if there exists a monic polynomial \\[ T^n + a_{n-1}T^{n-1}+\\cdots + a_1T + a_0 \\in A[T] \\] such that \\(b\\) is a root, i.e. \\[ b^n + a_{n-1}b^{n-1}+\\cdots + a_1b + a_0 = 0 \\q The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/integral-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7cb402e0591796e4087f7403db34b7af7008becc45bb248d5cc44cb16603b8f3",
+      "evidence": "Read the complete source (36 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(A\\to B\\) be a homomorphism of [[algebra-rings/commutative-ring|commutative rings]]. The map (or extension) is **integral** if every \\(b\\in B\\) is [[algebra-commutative/integral-element|integral over \\(A\\)]]: for each \\(b\\), some monic polynomial in \\(A[T]\\) has \\(b\\) as a root. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/integral-element"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/integral-element"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/integrally-closed-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ef1d1094b442573136df84430d17e7717a27e7eae7847e2bff4acf6ce52bd5f",
+      "evidence": "Read the complete source (49 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be an integral domain with fraction field \\(K\\). The domain \\(R\\) is **integrally closed** if every \\(x\\in K\\) that is [[algebra-commutative/integral-element|integral over \\(R\\)]] already lies in \\(R\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/integral-element",
+        "algebra-commutative/integral-closure",
+        "algebra-commutative/localization-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/integral-element",
+        "algebra-commutative/integral-closure",
+        "algebra-commutative/localization-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/jacobson-annihilates-simples",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8684b8c7f9b61b327616e554a5e34e536156cea588ca2e46e50d6a439104443b",
+      "evidence": "Read the complete source (45 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a ring, let \\(J(R)\\) be its [[algebra-rings/jacobson-radical|Jacobson radical]], and let \\(S\\) be a simple right [[algebra-modules/module|\\(R\\)-module]]. Then \\[ S J(R)=0. \\] The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/jacobson-radical",
+        "algebra-modules/module"
+      ],
+      "prerequisites": [
+        "algebra-rings/jacobson-radical",
+        "algebra-modules/module"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/jacobson-radical-intersection-maximals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5496932762ab6d166f91ab2bd865bcd5bd2d5672a72f03ddfcc8cfd0f61ef336",
+      "evidence": "Read the complete source (45 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. Its **Jacobson radical** is \\[ J(R)=\\bigcap_{\\mathfrak m\\in\\operatorname{MaxSpec}(R)} \\mathfrak m, \\] the intersection of all maximal ideals of \\(R\\). Here \\(\\operatorname{MaxSpec}(R)\\) denotes the [[algebra-commutative/maximal-spectrum|maximal spectrum]]. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/maximal-spectrum"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/maximal-spectrum"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/krull-dimension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "736505aff2e4a0bb26c6226106de11a48754c44dd37dc7fd613219aad8ee15a8",
+      "evidence": "Read the complete source (45 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a nonzero [[algebra-rings/commutative-ring|commutative ring]]. The **Krull dimension** of \\(R\\), denoted \\(\\dim R\\), is the supremum of the integers \\(n\\ge 0\\) for which there exists a strictly increasing chain of prime ideals \\[ \\mathfrak p_0 \\subsetneq \\mathfrak p_1 \\subsetneq \\cdots \\subsetneq \\mathfrak p_n \\] in \\(R\\). If these lengths are u The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum",
+        "real-analysis/supremum"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/krull-principal-ideal-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca90d588f54bacf1de224c0584f5eafc2e966a64dabe7bb07b9f7f5fd6b5846d",
+      "evidence": "Read the complete source (31 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(A\\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and \\(f\\in A\\). If a prime ideal \\(\\mathfrak p\\) is minimal among the prime ideals containing \\((f)\\), then \\[ \\operatorname{ht}(\\mathfrak p)\\le 1. \\] Here \\(\\operatorname{ht}(\\mathfrak p)\\) is the [[algebra-commutative/height-of-prime|height]] of \\(\\mathfrak p\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/height-of-prime"
+      ],
+      "prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/height-of-prime"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/lasker-noether-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98951b752de80d50ccfab7274774bfc5f1f89fdb6a409535155a4d03d3d018fe",
+      "evidence": "Read the complete source (51 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Lasker–Noether theorem.** Let \\(A\\) be a [[algebra-commutative/noetherian-ring|Noetherian]] [[algebra-rings/commutative-ring|commutative ring]], and let \\(I\\subseteq A\\) be an ideal. Then there are primary ideals \\(Q_1,\\dots,Q_r\\subseteq A\\) such that \\[ I=\\bigcap_{i=1}^r Q_i. \\] The decomposition may be chosen irredundant with distinct radicals \\(\\mathfra The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/primary-decomposition"
+      ],
+      "prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/primary-decomposition"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/local-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2c8f02498c4d87870927ce95e4672629c52dce88d04b9a33526d6d7d8d24fa1c",
+      "evidence": "Read the complete source (36 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: A [[algebra-rings/commutative-ring|commutative ring]] \\(R\\) is a **local ring** if it has a unique [[algebra-rings/maximal-ideal|maximal ideal]]. One often records this ideal and writes \\((R,\\mathfrak m)\\). The unique maximal ideal of a local ring is closely tied to units; see [[algebra-commutative/maximal-ideal-local-ring|maximal ideal of a local ring]]. Th The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-at-prime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c39368f4088134de78a39315389b6d274445ae60136afdfbabcc8a0fa7989d20",
+      "evidence": "Read the complete source (53 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \\(\\mathfrak p\\subset R\\) be a [[algebra-rings/prime-ideal|prime ideal]]. The complement \\[ S=R\\setminus \\mathfrak p \\] is a [[algebra-commutative/multiplicative-set|multiplicative set]]. The **localization of \\(R\\) at \\(\\mathfrak p\\)** is the ring \\[ R_{\\mathfrak p} := S^{-1}R, \\] i.e The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/local-ring",
+        "algebra-commutative/localization-prime-correspondence",
+        "algebra-commutative/prime-spectrum"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/local-ring",
+        "algebra-commutative/localization-prime-correspondence",
+        "algebra-commutative/prime-spectrum"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-exact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34d487920c53f5332cdb6cf5801cfb264dc69e2224275a08364ab5b5f50eb1cf",
+      "evidence": "Read the complete source (71 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Localization is not just a way to invert elements in a ring [[algebra-commutative/localization-ring|(localization of rings)]]; it is also a well-behaved operation on modules [[algebra-commutative/localization-module|(localization of modules)]]. One of its most important formal properties is that it preserves exact sequences. Let \\(R\\) be a [[algebra-rings/co The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/localization-module",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-modules/exact-sequence-modules"
+      ],
+      "prerequisites": [
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/localization-module",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-modules/exact-sequence-modules"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-inverts-multiplicative-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33052b1c969dae5dde0f8c11194fed3dfd6d54a1ffc0b43b0e2a9f77a4440d5a",
+      "evidence": "Read the complete source (41 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \\(S\\subseteq R\\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. The [[algebra-commutative/localization-ring|localization]] \\(S^{-1}R\\) comes with a canonical ring homomorphism \\[ \\iota:R\\to S^{-1}R,\\qquad r\\mapsto \\frac{r}{1}. \\] **Theorem (elements of \\(S\\) becom The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/localization-at-prime",
+        "algebra-commutative/local-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/localization-at-prime",
+        "algebra-commutative/local-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc70a62dd4a9baaac41fce9308d876ade5bb042f0034dea127ad506956f7f45f",
+      "evidence": "Read the complete source (66 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]], let \\(S\\subseteq R\\) be a [[algebra-commutative/multiplicative-set|multiplicative set]], and let \\(M\\) be an \\(R\\)-module. The **localization of \\(M\\) at \\(S\\)** is the \\(S^{-1}R\\)-module \\(S^{-1}M\\) whose elements and operations are described below. Every \\(s\\in S\\) acts invertibly on this The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-noetherian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40525e63eb4c8d915d8a848ec7e75d217ca45c02b539b815112cd583219521e9",
+      "evidence": "Read the complete source (33 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \\(S\\subseteq R\\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. Then the localized ring \\[ S^{-1}R \\] is Noetherian. More generally, if \\(M\\) is a Noetherian \\(R\\)-module, then \\(S^{-1}M\\) is a Noetherian \\(S^{-1}R\\)-module. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/multiplicative-set"
+      ],
+      "prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/multiplicative-set"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-noetherian-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "569b99f8f23680688aa297a94efead1aeefa6ec528d6352414226cb50cae8393",
+      "evidence": "Read the complete source (31 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \\(S \\subset R\\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. Then the localization \\(S^{-1}R\\) is Noetherian. In particular, for any prime ideal \\(\\mathfrak p\\), the [[algebra-commutative/localization-at-prime|localization at \\(\\mathfrak p\\)]] is Noetherian: The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-at-prime",
+        "algebra-commutative/local-ring",
+        "algebra-commutative/maximal-ideal-local-ring"
+      ],
+      "prerequisites": [
+        "algebra-commutative/noetherian-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-at-prime",
+        "algebra-commutative/local-ring",
+        "algebra-commutative/maximal-ideal-local-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-preserves-primality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d8dfcd569b221255251cccc0f97acc8e4bf3fb70bb4a143a10c416fc91c4398",
+      "evidence": "Read the complete source (51 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Prime ideals behave well under [[algebra-commutative/localization-ring|localization]]: if a prime ideal does not meet the elements being inverted, then it stays prime after localization. This is one half of the [[algebra-commutative/localization-prime-correspondence|prime correspondence under localization]]. Let \\(R\\) be a [[algebra-rings/commutative-ring|co The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/localization-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set"
+      ],
+      "prerequisites": [
+        "algebra-commutative/localization-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-prime-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d805502b338aa3a43a68c8f605414fa2957c1c680b31a585dd9a3f3d572ec006",
+      "evidence": "Read the complete source (51 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \\(S\\subseteq R\\) be a [[algebra-commutative/multiplicative-set|multiplicative set]]. Write \\(S^{-1}R\\) for the [[algebra-commutative/localization-ring|localization]]. The map \\[ \\mathfrak p \\longmapsto S^{-1}\\mathfrak p \\] induces an inclusion-preserving bijection between: - prime ide The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/localization-preserves-primality",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set",
+        "algebra-commutative/localization-ring",
+        "algebra-commutative/localization-preserves-primality",
+        "shared-foundations/bijective-function"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/localization-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "206e08cc3fedf1f9cd5f0a0d46d53049484c76e91ae5390a425ceac23ab4eb44",
+      "evidence": "Read the complete source (60 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] and \\(S\\subseteq R\\) a [[algebra-commutative/multiplicative-set|multiplicative set]]. A **localization of \\(R\\) at \\(S\\)** is a commutative ring \\(S^{-1}R\\) with a homomorphism \\[ \\iota:R\\longrightarrow S^{-1}R \\] such that every \\(\\iota(s)\\), for \\(s\\in S\\), is a unit and the following unive The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/multiplicative-set"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/lying-over-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77834ddb63167e41596e10a74372a23f058db1726451b6d851019e68ec9065f9",
+      "evidence": "Read the complete source (40 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Theorem (Lying over).** Let \\(A\\subseteq B\\) be an [[algebra-commutative/integral-extension|integral extension]] of [[algebra-rings/commutative-ring|commutative rings]]. For every prime ideal \\(\\mathfrak p\\subseteq A\\), there exists a prime ideal \\(\\mathfrak q\\subseteq B\\) such that \\[ \\mathfrak q\\cap A=\\mathfrak p. \\] The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/integral-extension",
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-commutative/integral-extension",
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/maximal-ideal-local-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "96e615dfdee80afb73047d3304d1682113cfed4deae49bf0001485f1dba104f5",
+      "evidence": "Read the complete source (37 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. Write \\(R^\\times\\) for its group of units and set \\[ \\mathfrak m := R\\setminus R^\\times \\] for the set of nonunits. Then the following are equivalent: 1. \\(R\\) is a [[algebra-commutative/local-ring|local ring]]. 2. The set \\(\\mathfrak m\\) is an ideal of \\(R\\). When these conditions hold, \\(\\ The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/local-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/local-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/maximal-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8963e3e3f3be7db6b5a55a5f0f13a080d2cfd89ce93575a05ff55368cb96f0a1",
+      "evidence": "Read the complete source (45 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. A **maximal ideal** of \\(R\\) is a proper [[algebra-rings/ideal|ideal]] \\(\\mathfrak m\\subsetneq R\\) such that there is no ideal strictly between \\(\\mathfrak m\\) and \\(R\\); equivalently, \\(R/\\mathfrak m\\) is a [[algebra-rings/field|field]]. The **maximal spectrum** of \\(R\\) is the set \\[ \\oper The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/field",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/zariski-topology",
+        "algebra-commutative/residue-field"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-rings/field",
+        "algebra-commutative/prime-spectrum",
+        "algebra-commutative/zariski-topology",
+        "algebra-commutative/residue-field"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/multiplicative-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d45d1d51ee980f8bf4c7b925ab2a9ed2076225e8b20927e91ddd1a61acd301ed",
+      "evidence": "Read the complete source (37 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. A subset \\(S\\subseteq R\\) is a **multiplicative set** if 1. \\(1\\in S\\), and 2. \\(s,t\\in S\\) implies \\(st\\in S\\). The definition permits \\(0\\in S\\). In that case the [[algebra-commutative/localization-ring|localization]] \\(S^{-1}R\\) is the zero ring. A key source of multiplicative sets is com The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/nakayama-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2e03a4564861aa86d553203b531db2ea367784ba70c50fda0987483b272fb07",
+      "evidence": "Read the complete source (38 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\((R,\\mathfrak m)\\) be a [[algebra-commutative/local-ring|local ring]], let \\(M\\) be a finitely generated \\(R\\)-module, and let \\(k=R/\\mathfrak m\\) be the [[algebra-commutative/residue-field|residue field]]. The following are consequences of [[algebra-commutative/nakayama-lemma|Nakayama's lemma]]: 1. **Generators lift.** If \\(m_1,\\dots,m_r \\in M\\) map to The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/residue-field",
+        "algebra-commutative/nakayama-lemma",
+        "algebra-modules/cyclic-module",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-commutative/residue-field",
+        "algebra-commutative/nakayama-lemma",
+        "algebra-modules/cyclic-module",
+        "linear-algebra/vector-space"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/nakayama-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25f2fb7c064744f2014ce1f6a8c3120387b8aa15b679682b90a993ce37fd299e",
+      "evidence": "Read the complete source (47 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Nakayama's lemma is a fundamental tool for finitely generated modules over rings with large Jacobson radical, especially [[algebra-commutative/local-ring|local rings]]. **Lemma (Nakayama, Jacobson-radical form).** Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]], let \\(M\\) be a finitely generated \\(R\\)-module, and let \\(I\\subseteq R\\) be an The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/jacobson-radical-intersection-maximals"
+      ],
+      "prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/jacobson-radical-intersection-maximals"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/noether-normalization-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d458a57147e20c026649ab800350bff1251d246748f02830292593d4e727ba7",
+      "evidence": "Read the complete source (57 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Noether normalization lemma.** Let \\(k\\) be a [[algebra-rings/field|field]], and let \\(A\\) be a finitely generated \\(k\\)-algebra. Then there exist algebraically independent elements \\[ y_1,\\dots,y_d \\in A \\] such that \\(A\\) is [[algebra-commutative/integral-extension|integral]] over the polynomial subalgebra \\(k[y_1,\\dots,y_d]\\). Equivalently, \\(A\\) is a f The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-commutative/integral-extension"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-commutative/integral-extension"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/noetherian-primary-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef319546b12754550d36cc867119c3accdf5b9fb0ad752a7ebd0597ca3ed3711",
+      "evidence": "Read the complete source (49 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Lasker–Noether theorem.** Let \\(R\\) be a commutative [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \\(I\\subsetneq R\\) be a proper [[algebra-rings/ideal|ideal]]. Then there exist [[algebra-rings/primary-ideal|primary ideals]] \\(Q_1,\\dots,Q_r\\) such that \\[ I = Q_1 \\cap \\cdots \\cap Q_r . \\] One may choose the decomposition to be minimal: no The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/noetherian-ring"
+      ],
+      "prerequisites": [
+        "algebra-commutative/noetherian-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/noetherian-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "beb02244fa498b959b687dfefa273f410d1d1bb66fa37cc0d622f232513d3d0d",
+      "evidence": "Read the complete source (52 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. \\(R\\) is **Noetherian** if it satisfies the *ascending chain condition* (ACC) on [[algebra-rings/ideal|ideals]]: for every chain \\[ I_1 \\subseteq I_2 \\subseteq I_3 \\subseteq \\cdots \\] there exists \\(N\\) such that \\(I_n=I_N\\) for all \\(n\\ge N\\). The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/nullstellensatz-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1a4b367d8d0cd242736610f02231c7efc4f53030e00917e9580669a0a5ae2ced",
+      "evidence": "Read the complete source (32 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(k\\) be an algebraically closed [[algebra-rings/field|field]]. The weak Nullstellensatz states that every maximal ideal \\(\\mathfrak m\\subset k[x_1,\\dots,x_n]\\) has the form \\[ \\mathfrak m = (x_1-a_1,\\dots,x_n-a_n). \\] for a unique point \\(a=(a_1,\\dots,a_n)\\in k^n\\). Thus the [[algebra-commutative/maximal-spectrum|maximal spectrum]] of \\(k[x_1,\\dots,x_n] The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-commutative/maximal-spectrum",
+        "algebra-commutative/residue-field"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-commutative/maximal-spectrum",
+        "algebra-commutative/residue-field"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/nullstellensatz-variety-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "609a05cf4a91ba267f486dc0709846b6c3db29d0c90692b3599df9eb69eac732",
+      "evidence": "Read the complete source (58 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(k\\) be an algebraically closed [[algebra-rings/field|field]] and let \\(A=k[x_1,\\dots,x_n]\\). For an [[algebra-rings/ideal|ideal]] \\(I\\subseteq A\\), define its zero set \\[ V(I)=\\{a\\in k^n : f(a)=0 \\text{ for all } f\\in I\\}. \\] For a [[shared-foundations/subset|subset]] \\(X\\subseteq k^n\\), define the ideal of [[shared-foundations/function|functions]] van The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/field",
+        "algebra-commutative/zariski-topology",
+        "algebra-commutative/maximal-spectrum",
+        "algebra-commutative/residue-field"
+      ],
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-commutative/zariski-topology",
+        "algebra-commutative/maximal-spectrum",
+        "algebra-commutative/residue-field"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/primary-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9cdbd7002fcbc2cff4041ea456371b2c036c77e552d3538c6e8aba9e52d039a4",
+      "evidence": "Read the complete source (56 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \\(I\\subseteq R\\) be an ideal. The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/prime-avoidance-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebe88d4826534f26218d69cea1c5d3d973bd1805f616b5ecf812bc22417d9a5f",
+      "evidence": "Read the complete source (57 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: **Prime avoidance lemma.** Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]], and let \\(I,\\mathfrak a_1,\\dots,\\mathfrak a_n\\) be ideals of \\(R\\). Assume that \\(\\mathfrak a_2,\\dots,\\mathfrak a_n\\) are prime. If \\[ I \\subseteq \\mathfrak a_1 \\cup \\mathfrak a_2 \\cup \\cdots \\cup \\mathfrak a_n, \\] then \\(I\\subseteq\\mathfrak a_j\\) for some \\(j\\in\\{ The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/prime-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "444a0292ec578f30b436526e0d8ba0919d05c0ecda83303d751a8111ac418875",
+      "evidence": "Read the complete source (41 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. A **prime ideal** of \\(R\\) is a proper ideal \\(\\mathfrak p\\subsetneq R\\) such that whenever \\(ab\\in\\mathfrak p\\) (with \\(a,b\\in R\\)), then \\(a\\in\\mathfrak p\\) or \\(b\\in\\mathfrak p\\). The **prime spectrum** of \\(R\\) is the set \\[ \\operatorname{Spec}(R) := \\{\\mathfrak p \\subset R \\mid \\mathfra The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/localization-ring"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/localization-ring"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/residue-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5f9fd07604fc25419dfe7778a682e89cacd0fb87b02a85ec28beab78c27d3162",
+      "evidence": "Read the complete source (45 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\((R,\\mathfrak m)\\) be a [[algebra-commutative/local-ring|local ring]]. The **residue field** of \\(R\\) is \\[ k(R):=R/\\mathfrak m. \\] It is a [[algebra-rings/field|field]] because \\(\\mathfrak m\\) is [[algebra-commutative/maximal-ideal-local-ring|maximal]]. The canonical surjection \\[ R \\twoheadrightarrow R/\\mathfrak m \\] is sometimes called the **residue The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-rings/field",
+        "algebra-commutative/maximal-ideal-local-ring",
+        "algebra-commutative/localization-at-prime"
+      ],
+      "prerequisites": [
+        "algebra-commutative/local-ring",
+        "algebra-rings/field",
+        "algebra-commutative/maximal-ideal-local-ring",
+        "algebra-commutative/localization-at-prime"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/restriction-of-scalars",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52d19d3e8f0187027c30058481b893cb6344f4e8115ff884ea4ea92d238d4d75",
+      "evidence": "Read the complete source (44 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) and \\(S\\) be [[algebra-rings/commutative-ring|commutative rings]], and let \\(\\varphi: R \\to S\\) be a ring homomorphism. If \\(M\\) is an \\(S\\)-module, the **restriction of scalars** of \\(M\\) along \\(\\varphi\\) is the \\(R\\)-module \\[ \\operatorname{Res}_\\varphi(M), \\] defined as follows: - As an abelian group, \\(\\operatorname{Res}_\\varphi(M)\\) is the sa The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/extension-of-scalars"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/extension-of-scalars"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/semisimple-artinian-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e421f447eef3e5ef07bde3b08554207f2ac2f4be43d70359dfc70b57e3cbe09",
+      "evidence": "Read the complete source (40 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/artinian-semisimple-ring|semisimple Artinian ring]], not necessarily commutative. Then there exist simple Artinian rings \\(R_1,\\dots,R_t\\) such that \\[ R \\cong R_1 \\times \\cdots \\times R_t . \\] Moreover, each \\(R_i\\) is a matrix ring over a division ring: \\(R_i \\cong M_{n_i}(D_i)\\). This refinement is exactly the content of the The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/artinian-semisimple-ring",
+        "algebra-rings/artin-wedderburn-theorem",
+        "algebra-commutative/simple-artinian-matrix-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-rings/field",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "algebra-rings/artinian-semisimple-ring",
+        "algebra-rings/artin-wedderburn-theorem",
+        "algebra-commutative/simple-artinian-matrix-ring",
+        "algebra-rings/commutative-ring",
+        "algebra-rings/field",
+        "linear-algebra/matrix"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/simple-artinian-matrix-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ba05f2b83d3fde25a8d987f3cc1684a177da2e1234454a91888c48b7ea1fa0d",
+      "evidence": "Read the complete source (35 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a nonzero ring, not necessarily commutative. If \\(R\\) is **simple**, meaning that it has no nonzero proper two-sided ideals, and **left Artinian**, meaning that every descending chain of left ideals stabilizes, then there are an integer \\(n\\ge 1\\) and a [[algebra-rings/division-ring|division ring]] \\(D\\) such that \\[ R\\cong M_n(D) \\] as rings. C The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-commutative/artinian-ring",
+        "algebra-rings/division-ring",
+        "algebra-rings/artin-wedderburn-theorem",
+        "algebra-rings/field",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "algebra-commutative/artinian-ring",
+        "algebra-rings/division-ring",
+        "algebra-rings/artin-wedderburn-theorem",
+        "algebra-rings/field",
+        "linear-algebra/matrix"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-commutative/zariski-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8eec2b633ad2cfccd03bd8eb3aa6b480a817ea38e1608332d5301fad4a6ba9cd",
+      "evidence": "Read the complete source (44 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]], and consider its [[algebra-commutative/prime-spectrum|prime spectrum \\(\\operatorname{Spec}(R)\\)]]. For an [[algebra-rings/ideal|ideal]] \\(I\\subseteq R\\), define \\[ V(I) := \\{\\mathfrak p \\in \\operatorname{Spec}(R)\\mid I\\subseteq \\mathfrak p\\}. \\] The **Zariski [[topology/topology|topology]]** The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum"
+      ],
+      "prerequisites": [
+        "algebra-rings/commutative-ring",
+        "algebra-commutative/prime-spectrum"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-topological/adic-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d889d538c69d6a4af635972f9e1d5a25e8850177664cd72a455cb4a50858b63c",
+      "evidence": "Read the complete source (56 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: An **adic ring** is a commutative topological ring \\(A\\) whose topology is the \\(I\\)-adic topology for some finitely generated [[algebra-topological/ideal-of-definition|ideal of definition]] \\(I\\subseteq A\\). Thus the powers \\(I^n\\) form a neighborhood basis of \\(0\\). The ring is **separated** if \\[ \\bigcap_{n\\geq 1} I^n=0, \\] and it is **complete** if every The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-topological/ideal-of-definition"
+      ],
+      "prerequisites": [
+        "algebra-topological/ideal-of-definition"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-topological/completed-tensor-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ae9aa0ef858ba3c7dec44444f399314164c6f355f0054b6e140bc86af0cd482",
+      "evidence": "Read the complete source (91 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(k\\) be a commutative ring, let \\(M\\) have a decreasing filtration \\(M=M_0\\supseteq M_1\\supseteq\\cdots\\), and let \\(N\\) have a decreasing filtration \\(N=N_0\\supseteq N_1\\supseteq\\cdots\\). Their **completed tensor product** for these filtrations is \\[ M\\mathbin{\\widehat\\otimes}_k N := \\varprojlim_{r,s} \\bigl(M/M_r\\bigr)\\otimes_k\\bigl(N/N_s\\bigr). \\] It r The listed edges supply the ring, algebraic structures, hypotheses, or named input/output notions used by the core; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [
+        "algebra-modules/tensor-product"
+      ],
+      "prerequisites": [
+        "algebra-modules/tensor-product"
+      ],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    },
+    {
+      "id": "algebra-topological/ideal-of-definition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80bf84a70a130264dfa8b60cf747cad0ff7456ebf3c37dba8a42ded19282701d",
+      "evidence": "Read the complete source (39 lines), including displayed formulas, and checked the direct prerequisite bodies. Core evidence: Let \\(A\\) be a commutative topological ring. An open ideal \\(I\\subseteq A\\) is an **ideal of definition** if \\[ I,\\ I^2,\\ I^3,\\ldots \\] is a neighborhood basis of \\(0\\). Equivalently, the given topology on \\(A\\) is the \\(I\\)-adic topology. In the classical adic convention used for [[algebraic-geometry-foundations/formal-scheme|formal schemes]], an ideal of d The core is self-contained from its stated hypotheses and notation; later sections were checked as consequences, examples, or remarks.",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "triage_reason": "Scripted extraction retained for later full source/target review; excluded from accepted dependency-review progress."
+    }
+  ]
+}

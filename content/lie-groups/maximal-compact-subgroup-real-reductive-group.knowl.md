@@ -6,7 +6,7 @@ summary = "A compact subgroup maximal by inclusion, canonically associated up to
 aliases = ["maximal compact K", "maximal compact subgroup"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/lie-algebra", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "algebra-groups/conjugacy-class"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/lie-algebra", "lie-groups/cartan-involution-real-lie-algebra", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "algebra-groups/conjugacy-class"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

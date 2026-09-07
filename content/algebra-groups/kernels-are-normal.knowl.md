@@ -6,7 +6,7 @@ summary = "The kernel of a group homomorphism is invariant under conjugation"
 aliases = ["kernels-are-normal", "Kernels are Normal Subgroups"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/kernels-are-normal.md"
-prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup", "algebra-groups/quotient-group", "algebra-groups/first-isomorphism-theorem-groups"]
+prerequisites = ["algebra-groups/group-homomorphism", "algebra-groups/kernel-group", "algebra-groups/normal-subgroup"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

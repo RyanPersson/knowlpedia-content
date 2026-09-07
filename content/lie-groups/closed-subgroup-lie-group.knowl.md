@@ -6,7 +6,7 @@ summary = "A subgroup that is closed in the topology of the ambient Lie group."
 aliases = ["closed-subgroup-lie-group", "Closed subgroup of a Lie group"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/closed-subgroup-lie-group.md"
-prerequisites = ["fiber-bundles/lie-group", "algebra-groups/subgroup", "topology/closed-set"]
+prerequisites = ["fiber-bundles/lie-group", "algebra-groups/subgroup", "topology/closed-set", "topology/topological-space"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++

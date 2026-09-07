@@ -6,7 +6,7 @@ summary = "The supremum of the infima of the tails of an extended-real sequence.
 aliases = ["limit-inferior", "Limit inferior"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/limit-inferior.md"
-prerequisites = ["real-analysis/supremum"]
+prerequisites = ["shared-foundations/sequence", "shared-foundations/real-numbers", "real-analysis/supremum", "real-analysis/infimum"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

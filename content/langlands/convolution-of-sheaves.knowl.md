@@ -6,7 +6,7 @@ summary = "The sheaf obtained by external product on the convolution Grassmannia
 aliases = ["spherical convolution", "convolution product of spherical sheaves"]
 domains = ["langlands", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands/perverse-sheaf", "langlands/geometric-satake-equivalence"]
+prerequisites = ["langlands/perverse-sheaf"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

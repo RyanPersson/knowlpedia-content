@@ -6,7 +6,7 @@ summary = "A subgroup whose Lie algebra contains a minimal parabolic subalgebra 
 aliases = ["real parabolic subgroup", "parabolic P"]
 domains = ["lie-groups"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/lie-algebra"]
+prerequisites = ["lie-groups/real-reductive-lie-group", "lie-groups/lie-algebra", "lie-groups/cartan-decomposition-real-reductive-lie-algebra", "lie-groups/restricted-root-system"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

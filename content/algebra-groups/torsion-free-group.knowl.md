@@ -5,7 +5,7 @@ kind = "knowl"
 summary = "A group in which the identity is the only element of finite order."
 aliases = ["torsion-free group", "torsion free group"]
 domains = ["algebra-groups"]
-prerequisites = ["algebra-groups/group", "algebra-groups/free-group"]
+prerequisites = ["algebra-groups/group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

@@ -6,12 +6,12 @@ summary = "A linear operator whose unit ball image has compact closure."
 aliases = ["compact-operator", "Compact operator"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/compact-operator.md"
-prerequisites = ["linear-algebra/linear-operator", "linear-algebra/normed-vector-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/linear-map", "linear-algebra/normed-vector-space", "topology/compact-set", "topology/closure"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **compact operator** is a [[linear-algebra/linear-operator|linear operator]] \(T:X\to Y\) between [[linear-algebra/normed-vector-space|normed vector spaces]] such that the image of the closed unit ball
+A **compact operator** is a [[linear-algebra/linear-map|linear map]] \(T:X\to Y\) between [[linear-algebra/normed-vector-space|normed vector spaces]] such that the image of the closed unit ball
 \[
 B_X=\{x\in X:\|x\|\le 1\}
 \]
@@ -27,5 +27,5 @@ In finite-dimensional normed spaces, every linear operator is compact; compactne
 
 ## Examples
 
-- Any operator with finite-dimensional range (a “finite-rank” operator) is compact; for instance, a projection onto the span of finitely many vectors in a [[linear-algebra/hilbert-space|Hilbert space]] is compact.
+- Any bounded linear operator with finite-dimensional range (a “finite-rank” operator) is compact; for instance, a projection onto the span of finitely many vectors in a [[linear-algebra/hilbert-space|Hilbert space]] is compact.
 - Any [[linear-algebra/linear-map|linear map]] between finite-dimensional normed vector spaces is compact.

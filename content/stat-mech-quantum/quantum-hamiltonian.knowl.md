@@ -6,12 +6,12 @@ summary = "A self-adjoint energy operator that generates time evolution and dete
 aliases = ["quantum-hamiltonian", "Quantum Hamiltonian"]
 domains = ["stat-mech-quantum"]
 legacy_source_path = "stat-mech-quantum/quantum-hamiltonian.md"
-prerequisites = ["stat-mech-quantum/observable-algebra"]
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/self-adjoint-unbounded-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **quantum Hamiltonian** is a densely defined self-adjoint operator \(H\) on the system Hilbert space \(\mathcal H\), representing the system's energy. In finite dimension, \(H\) is a self-adjoint element of the [[stat-mech-quantum/observable-algebra|observable algebra]] and has a spectral decomposition
+A **quantum Hamiltonian** is a densely defined self-adjoint operator \(H\) on a nonzero complex [[linear-algebra/hilbert-space|Hilbert space]] \(\mathcal H\), representing the system's energy. When \(H\) is bounded and belongs to an [[stat-mech-quantum/observable-algebra|observable algebra]], it is an observable; in finite dimension it has a spectral decomposition
 \[
 H=\sum_n E_nP_n,
 \]
@@ -27,10 +27,10 @@ States and observables evolve by \(\rho(t)=U_t\rho(0)U_t^*\) and \(A(t)=U_t^*A(0
 
 ## Equilibrium
 
-At inverse temperature \(\beta>0\), \(H\) determines the [[stat-mech-quantum/quantum-partition-function|quantum partition function]] and [[stat-mech-quantum/gibbs-state-quantum|quantum Gibbs state]]:
+When \(e^{-\beta H}\) is trace-class for \(\beta>0\), \(H\) determines the [[stat-mech-quantum/quantum-partition-function|quantum partition function]] and [[stat-mech-quantum/gibbs-state-quantum|quantum Gibbs state]]:
 \[
 Z(\beta)=\operatorname{Tr}(e^{-\beta H}),
 \qquad
 \rho_\beta=\frac{e^{-\beta H}}{Z(\beta)}.
 \]
-Replacing \(H\) by \(H+cI\) changes \(Z\) by the factor \(e^{-\beta c}\) but leaves \(\rho_\beta\) unchanged.
+Replacing \(H\) by \(H+cI\) changes \(Z\) by the factor \(e^{-\beta c}\) but leaves \(\rho_\beta\) unchanged whenever the Gibbs state exists. In infinite dimension, trace-class and domain hypotheses cannot be omitted.

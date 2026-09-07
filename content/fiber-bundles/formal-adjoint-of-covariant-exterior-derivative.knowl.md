@@ -6,9 +6,9 @@ summary = "The covariant codifferential is the formal adjoint of the covariant e
 aliases = ["covariant codifferential", "d_A star"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/exterior-covariant-derivative", "fiber-bundles/l2-inner-product-on-bundle-valued-forms", "differential-geometry/hodge-star-operator", "real-analysis/integration-by-parts"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle", "fiber-bundles/l2-inner-product-on-bundle-valued-forms", "differential-geometry/hodge-star-operator", "real-analysis/integration-by-parts"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be an oriented \(n\)-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]] without boundary, and let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/bundle-metric|bundle metric]] and compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(A\). The **formal adjoint of the covariant exterior derivative** is the operator
@@ -20,7 +20,7 @@ characterized by
 \langle d_A\alpha,\beta\rangle_{L^2}
 =\langle\alpha,d_A^*\beta\rangle_{L^2}
 \]
-for all compactly supported smooth forms of the appropriate degrees. Here \(d_A\) is the [[fiber-bundles/exterior-covariant-derivative|exterior covariant derivative]] and the pairing is the [[fiber-bundles/l2-inner-product-on-bundle-valued-forms|\(L^2\) pairing]]. This identity defines a differential expression, not a Hilbert-space adjoint with a specified domain.
+for all compactly supported smooth forms of the appropriate degrees. Here \(d_A\) is the [[fiber-bundles/exterior-covariant-derivative-on-a-vector-bundle|exterior covariant derivative]] and the pairing is the [[fiber-bundles/l2-inner-product-on-bundle-valued-forms|\(L^2\) pairing]]. This identity defines a differential expression, not a Hilbert-space adjoint with a specified domain.
 
 ## Hodge-star formula
 

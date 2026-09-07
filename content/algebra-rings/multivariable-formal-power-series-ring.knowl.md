@@ -6,7 +6,7 @@ summary = "The complete augmentation-adic ring of formal series in finitely many
 aliases = ["formal power series in several variables", "R[[X_1,...,X_n]]", "multivariate formal power series ring"]
 domains = ["algebra-rings", "formal-groups"]
 section_mode = "progressive"
-prerequisites = ["algebra-rings/commutative-ring"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

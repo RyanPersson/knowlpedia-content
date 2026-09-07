@@ -5,7 +5,7 @@ kind = "definition"
 summary = "A finite étale algebra with a group action satisfying the Galois torsor identity."
 aliases = ["finite Galois algebra", "G-Galois algebra", "Galois algebra"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = ["algebra-rings/field", "algebra-groups/group", "algebraic-geometry-foundations/finite-etale-algebra"]
+prerequisites = ["algebra-rings/field", "algebra-groups/group", "algebra-groups/group-action", "algebraic-geometry-foundations/finite-etale-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

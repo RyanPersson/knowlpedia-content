@@ -7,7 +7,7 @@ aliases = ["formal-power-series-ring", "Formal power series ring"]
 domains = ["algebra-rings"]
 legacy_source_path = "algebra-rings/formal-power-series-ring.md"
 section_mode = "progressive"
-prerequisites = ["algebra-rings/commutative-ring"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-rings/unital-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

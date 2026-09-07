@@ -6,7 +6,7 @@ summary = "A program relating irreducible unitary representations of a Lie group
 aliases = ["Kirillov orbit method", "method of coadjoint orbits"]
 domains = ["lie-groups", "representation-theory", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/irreducible-unitary-representation", "fiber-bundles/lie-group", "differential-geometry/coadjoint-orbit", "lie-groups/polarization-of-a-coadjoint-orbit"]
+prerequisites = ["lie-groups/irreducible-unitary-representation", "fiber-bundles/lie-group", "lie-groups/simply-connected-lie-group", "lie-groups/nilpotent-lie-algebra", "differential-geometry/coadjoint-orbit", "lie-groups/polarization-of-a-coadjoint-orbit"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

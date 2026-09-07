@@ -6,7 +6,7 @@ summary = "A rate function whose sublevel sets are compact."
 aliases = ["good-rate-function", "Good rate function"]
 domains = ["large-deviations"]
 legacy_source_path = "large-deviations/good-rate-function.md"
-prerequisites = ["large-deviations/rate-function", "topology/topological-space"]
+prerequisites = ["large-deviations/rate-function", "topology/topological-space", "topology/compact-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

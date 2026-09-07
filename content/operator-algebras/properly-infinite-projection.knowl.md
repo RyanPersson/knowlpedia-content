@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(p\) be a projection in a
+Let \(p\ne0\) be a nonzero projection in a
 [[operator-algebras/cstar-algebra|\(C^*\)-algebra]] \(A\). The projection
 \(p\) is
 **properly infinite** if there are [[linear-algebra/orthogonal-projection|orthogonal projections]] \(p_1,p_2\leq p\)

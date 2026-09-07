@@ -6,7 +6,7 @@ summary = "An algebraic connection whose curvature vanishes."
 aliases = ["flat algebraic connection", "integrable connection"]
 domains = ["algebraic-geometry-foundations", "fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/linear-map"]
+prerequisites = ["linear-algebra/linear-map", "algebraic-geometry-foundations/relative-kahler-differentials"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

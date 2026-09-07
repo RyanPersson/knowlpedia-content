@@ -6,7 +6,7 @@ summary = "A simply connected Riemannian symmetric space with nonpositive curvat
 aliases = ["noncompact symmetric space", "G/K symmetric space"]
 domains = ["lie-groups", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/homogeneous-space"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/lie-group", "lie-groups/maximal-compact-subgroup-real-reductive-group", "lie-groups/homogeneous-space", "differential-geometry/sectional-curvature"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

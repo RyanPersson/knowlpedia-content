@@ -6,7 +6,7 @@ summary = "The determinant-1 subgroup of the orthogonal group preserving a quadr
 aliases = ["special-orthogonal-group", "Special orthogonal group"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/special-orthogonal-group.md"
-prerequisites = ["lie-groups/orthogonal-group", "lie-groups/closed-subgroup-lie-group", "lie-groups/spin-group", "lie-groups/lorentz-group", "lie-groups/orthogonal-lie-algebra", "lie-groups/compact-lie-group"]
+prerequisites = ["lie-groups/orthogonal-group", "linear-algebra/inner-product", "linear-algebra/determinant"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,9 +15,11 @@ Let \(\langle\cdot,\cdot\rangle\) be the standard [[linear-algebra/inner-product
 \[
 SO(n)=\{A\in GL(n,\mathbb R): A^T A=I,\ \det(A)=1\}.
 \]
+## Structure and variants
+
 It is a closed Lie subgroup of the [[lie-groups/orthogonal-group|orthogonal group]], hence a Lie group (see [[lie-groups/closed-subgroup-lie-group|closed subgroup]]). For \(n\ge 2\), \(SO(n)\) is connected, and for \(n\ge 3\) it is not simply connected; its universal cover is the [[lie-groups/spin-group|spin group]].
 
-More generally, one defines \(SO(p,q)\) as the determinant-1 subgroup of the group preserving a nondegenerate bilinear form of signature \((p,q)\); these are basic noncompact matrix Lie groups (compare [[lie-groups/lorentz-group|Lorentz group]] for the \((n-1,1)\) case).
+More generally, one defines \(SO(p,q)\) as the determinant-1 subgroup of the group preserving a nondegenerate bilinear form of signature \((p,q)\); when \(p,q>0\), these are basic noncompact matrix Lie groups (compare [[lie-groups/lorentz-group|Lorentz group]] for the \((n-1,1)\) case).
 
 The Lie algebra of \(SO(n)\) is
 the [[lie-groups/orthogonal-lie-algebra|orthogonal Lie algebra]] \(\mathfrak{so}(n)\), consisting of skew-symmetric matrices:

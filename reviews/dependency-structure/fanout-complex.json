@@ -1,0 +1,1268 @@
+{
+  "reviews": [
+    {
+      "id": "complex-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35c48345a6c661d0794020a98673c9e8d0b61684ff9d93086dc52d011e6f1458",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "complex-analysis/analytic-continuation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e5643834161ada8cdf675ff7e14d1717cf5e6218775798925f99605173444cc",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "topology/connected-component",
+        "complex-analysis/identity-theorem"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "topology/connected-component",
+        "complex-analysis/identity-theorem"
+      ]
+    },
+    {
+      "id": "complex-analysis/anti-mobius-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "273ce53bee37cd248c18ca0594f4968cfb9a7c8967de52403ad4bccb9f5862f8",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation"
+      ],
+      "prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation"
+      ]
+    },
+    {
+      "id": "complex-analysis/argument-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6541d423aab2478cefbaae4996e41357ce6bf72df7734c9a56a2e3b58df312c",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/complex-contour-integral",
+        "complex-analysis/winding-number",
+        "complex-analysis/logarithmic-derivative",
+        "complex-analysis/residue-theorem"
+      ],
+      "prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/complex-contour-integral",
+        "complex-analysis/winding-number",
+        "complex-analysis/logarithmic-derivative",
+        "complex-analysis/residue-theorem"
+      ]
+    },
+    {
+      "id": "complex-analysis/automorphisms-of-riemann-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cbc6aa634665f905157c7c2ce3e6644f79ea06fd8a9451f98abc5057c8b12cc9",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation",
+        "differential-geometry/holomorphic-map"
+      ],
+      "prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation",
+        "differential-geometry/holomorphic-map"
+      ]
+    },
+    {
+      "id": "complex-analysis/casorati-weierstrass-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2540c9945db324f45181515a3e616c11cdb33f35686579a6a26dd0065c957fed",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/isolated-singularity-classification",
+        "complex-analysis/holomorphic-functions-are-analytic"
+      ],
+      "prerequisites": [
+        "complex-analysis/isolated-singularity-classification",
+        "complex-analysis/holomorphic-functions-are-analytic"
+      ]
+    },
+    {
+      "id": "complex-analysis/cauchy-fueter-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33b4d851f10919da2cd6c8b87fb039eaa822b2df5b94ae20b73989f082faf526",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "prerequisites": [
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "complex-analysis/cauchy-integral-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2889769b04b2df06f54a60d8a444680c4ae09bf34f099892af51be476229b8b6",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-contour-integral",
+        "complex-analysis/winding-number",
+        "complex-analysis/complex-derivative"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-contour-integral",
+        "complex-analysis/winding-number",
+        "complex-analysis/complex-derivative"
+      ]
+    },
+    {
+      "id": "complex-analysis/cauchy-integral-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "732b192d3c01a0ebc93a047c23976ee41e7b31ce6af2f9b05d75fff6bfc04635",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/complex-contour-integral",
+        "topology/simply-connected-space"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/complex-contour-integral",
+        "topology/simply-connected-space"
+      ]
+    },
+    {
+      "id": "complex-analysis/cauchy-riemann-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0dfe2355972b641687bd659e075fc2205341aae1ee688394eb9a0d0857e5889",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/cauchy-riemann-equations",
+        "complex-analysis/complex-derivative",
+        "differential-geometry/holomorphic-map"
+      ],
+      "prerequisites": [
+        "complex-analysis/cauchy-riemann-equations",
+        "complex-analysis/complex-derivative",
+        "differential-geometry/holomorphic-map"
+      ]
+    },
+    {
+      "id": "complex-analysis/cauchy-riemann-equations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a83433b79e71cc0e81d9907427627c4fdc8a9593a07c13a558460089ed00f34f",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "real-analysis/partial-derivative",
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "real-analysis/partial-derivative",
+        "shared-foundations/complex-numbers-c",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "complex-analysis/complex-contour-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e69c771c1f0beba3e04ef16d212800ba18618943b698b506d58d6dc525ff1ab",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/riemann-integrable-function"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/riemann-integrable-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/complex-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dda9538e00b41f641cebe81ca07c85f1841ae10270f284a25711a9e770a88c17",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/complex-numbers-c"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "complex-analysis/complex-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26da351e4751cf3c30fd527f18b1cdaa1e240bdff106794fa4eacda9384e51b8",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "topology/open-set",
+        "shared-foundations/complex-numbers-c"
+      ],
+      "prerequisites": [
+        "topology/open-set",
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "complex-analysis/complex-monge-ampere-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec15b44168ad03bc28518d6a666230fdce9432912450fa3ee74d74a75f96d9fe",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/levi-form",
+        "complex-analysis/plurisubharmonic-function",
+        "real-analysis/hessian-matrix",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "complex-analysis/levi-form",
+        "complex-analysis/plurisubharmonic-function",
+        "real-analysis/hessian-matrix",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "complex-analysis/complex-projective-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d8abcfdae9408a792bc58e409b17cd7d3c284c4678f77134c1881ba518f5b83",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "differential-geometry/riemann-surface",
+        "differential-geometry/complex-atlas",
+        "complex-analysis/mobius-transformation"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemann-surface",
+        "differential-geometry/complex-atlas",
+        "complex-analysis/mobius-transformation"
+      ]
+    },
+    {
+      "id": "complex-analysis/cross-ratio",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e9974309b8073be244166f6138c85251efdca30823ff32b988acf3d1163d7a7",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "shared-foundations/ordered-pair",
+        "shared-foundations/function"
+      ],
+      "prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "shared-foundations/ordered-pair",
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "complex-analysis/cross-ratio-invariance-under-mobius-transformations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "605606f91204dc11a6f37dd0d96b2c8376ea4dd22d6fc43e82f4426f057edc3d",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/cross-ratio"
+      ],
+      "prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/cross-ratio"
+      ]
+    },
+    {
+      "id": "complex-analysis/cross-ratio-preserving-bijections-are-mobius",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ea29a96fa578a74859ca023277e19051002c603148ee3b18ac45e1eef0b4e2fb",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/cross-ratio",
+        "complex-analysis/mobius-transformation",
+        "shared-foundations/bijective-function"
+      ],
+      "prerequisites": [
+        "complex-analysis/cross-ratio",
+        "complex-analysis/mobius-transformation",
+        "shared-foundations/bijective-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/entire-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48c711c3f81dac457bb201c3eceb13f6f264e0a3e026980d07b7084025077635",
+      "evidence": "Full source and direct prerequisite review completed. The core hypotheses, displayed formulas, and each listed prerequisite target were checked for mathematical fit and edge direction; no correction was required.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-derivative",
+        "differential-geometry/holomorphic-map"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-derivative",
+        "differential-geometry/holomorphic-map"
+      ]
+    },
+    {
+      "id": "complex-analysis/harmonic-subharmonic-pluriharmonic-relations",
+      "outcome": "corrected",
+      "source_sha256": "ce6476d053ed768499209ae87ede96338af2ed74473d12de05d6a35b80e288f2",
+      "evidence": "Full source and direct prerequisite review: corrected H \u2286 SH to follow from the zero real Laplacian and PSH \u2286 SH from the positive Levi trace; restriction of a real-harmonic function to a complex line is not generally harmonic. Under the displayed Wirtinger convention, four times the Levi trace is the real Laplacian, and this normalization is retained. Harmonic, subharmonic, PSH, pluriharmonic, Hermitian matrix, and Levi form inputs were checked.",
+      "previous_prerequisites": [
+        "complex-analysis/harmonic-function",
+        "complex-analysis/subharmonic-function",
+        "complex-analysis/plurisubharmonic-function",
+        "complex-analysis/pluriharmonic-function",
+        "linear-algebra/hermitian-matrix"
+      ],
+      "prerequisites": [
+        "complex-analysis/harmonic-function",
+        "complex-analysis/subharmonic-function",
+        "complex-analysis/plurisubharmonic-function",
+        "complex-analysis/pluriharmonic-function",
+        "linear-algebra/hermitian-matrix"
+      ]
+    },
+    {
+      "id": "complex-analysis/subharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "29091ea7c9308c5d75eda99c82c811e122daf1cf82622e90f6e13fea2cdec788",
+      "evidence": "Full source and direct prerequisite review: the one-point spike is upper-semicontinuous (at the spike limsup is 0 \u2264 1, elsewhere nearby spike values make limsup 1 > 0), yet fails the sub-mean inequality at the spike. Its distributional Laplacian is zero because changing one point does not change an L1loc representative.",
+      "previous_prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "topology/closed-ball"
+      ],
+      "prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "topology/closed-ball"
+      ]
+    },
+    {
+      "id": "complex-analysis/entire-function-several-variables",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cbbe8385be46a4752c4dca5526064c532081b6908b24afb2811afc6235e956f9",
+      "evidence": "The core defines an entire function on C^d and states the global power-series and affine-line properties. Complex derivative, power-series, and entire-function targets provide holomorphicity and the one-variable/power-series inputs; the Paley-Wiener paragraph is an optional application.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-derivative",
+        "real-analysis/power-series",
+        "complex-analysis/entire-function"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-derivative",
+        "real-analysis/power-series",
+        "complex-analysis/entire-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/equal-schwarzians-differ-by-mobius",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39194d7d665e15c82e7691fc68d025dcd04235de299f302a32010fad3b5dc013",
+      "evidence": "The theorem assumes connected D and locally univalent meromorphic f,g and concludes f=T\u2218g when Schwarzians agree. M\u00f6bius, vanishing-Schwarzian characterization, and chain-rule targets directly support the conclusion and proof; connectedness is retained in the core hypothesis.",
+      "previous_prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/mobius-characterization-by-schwarzian",
+        "complex-analysis/schwarzian-chain-rule"
+      ],
+      "prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/mobius-characterization-by-schwarzian",
+        "complex-analysis/schwarzian-chain-rule"
+      ]
+    },
+    {
+      "id": "complex-analysis/fundamental-theorem-of-algebra-complex-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2ba90124b49da7e6c120e955ec1ea40c7d9e2350f2fdfed06eb35aaff2d8e02",
+      "evidence": "The core states existence and multiplicity factorization of roots for nonconstant complex polynomials. Liouville is the direct analytic input used by the reciprocal proof; algebraic-closure and radicals remarks are consequences or scope notes.",
+      "previous_prerequisites": [
+        "complex-analysis/liouville-theorem"
+      ],
+      "prerequisites": [
+        "complex-analysis/liouville-theorem"
+      ]
+    },
+    {
+      "id": "complex-analysis/generalized-circle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df7b194d6488522ded373004c82f64d4af3880ac34f4115f2971d489ff31ad34",
+      "evidence": "The definition distinguishes Euclidean circles from lines plus infinity on the Riemann sphere. Sphere and M\u00f6bius targets support the ambient space and invariance claim; stereographic and cross-ratio paragraphs are consequences.",
+      "previous_prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation"
+      ],
+      "prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation"
+      ]
+    },
+    {
+      "id": "complex-analysis/great-picard-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c40b3261b1a7d60d6eec5b34da747eb3b19d4723b810b959da6062479f15483",
+      "evidence": "The theorem assumes an essential isolated singularity and asserts all but at most one value infinitely often in each punctured neighborhood. Casorati-Weierstrass and isolated-singularity targets support the comparison and singularity hypothesis; Little Picard is downstream.",
+      "previous_prerequisites": [
+        "complex-analysis/casorati-weierstrass-theorem",
+        "complex-analysis/isolated-singularity-classification"
+      ],
+      "prerequisites": [
+        "complex-analysis/casorati-weierstrass-theorem",
+        "complex-analysis/isolated-singularity-classification"
+      ]
+    },
+    {
+      "id": "complex-analysis/harmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9fb4c0ca1564b9cf1160230c085191cc7a54d23aec0cca8f9e0d9dfe5390781e",
+      "evidence": "The core defines C2 harmonic functions on an open real domain by \u0394u=0. Open-set supplies the domain condition; closed-ball, simply-connected, and holomorphic links occur in later characterizations and are not needed as defining inputs.",
+      "previous_prerequisites": [
+        "topology/open-set"
+      ],
+      "prerequisites": [
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "complex-analysis/harmonic-maximum-principle",
+      "outcome": "corrected",
+      "source_sha256": "f8d88c50b092cb2c69ea20d5919f6d15342db0f342420db6634a3091cd9d3944",
+      "evidence": "The core requires connected U and harmonic u, then gives the interior and boundary maximum principles. Harmonic-function is the direct analytic input; the existing simply-connected-space edge is unused by the source and was removed.",
+      "previous_prerequisites": [
+        "complex-analysis/harmonic-function",
+        "topology/simply-connected-space"
+      ],
+      "prerequisites": [
+        "complex-analysis/harmonic-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/holomorphic-functions-are-analytic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "298e8dffe757295dfcd42c8c104b46b32ee051af6c95a20c9bd41824f5a5876c",
+      "evidence": "The theorem assumes holomorphic f on an open planar set and gives a local Taylor expansion. Complex derivative and Cauchy integral formula supply holomorphicity and the proof mechanism; power-series supplies the displayed expansion.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-derivative",
+        "complex-analysis/cauchy-integral-formula",
+        "real-analysis/power-series"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-derivative",
+        "complex-analysis/cauchy-integral-formula",
+        "real-analysis/power-series"
+      ]
+    },
+    {
+      "id": "complex-analysis/holomorphic-germ",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3852dd303136e56a528c6f90a56a6ea1a7e14ca19728c02e5fde3376e4670784",
+      "evidence": "The core defines a germ as an equivalence class of holomorphic functions near a point of a complex manifold. Complex-manifold and holomorphic-map targets supply the ambient space and maps; local-ring and continuation material is later structure.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-map"
+      ]
+    },
+    {
+      "id": "complex-analysis/holomorphic-l2-mean-value-estimate",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "425ccb938e80f2748ecc4091e129a91b6c481d8f45b9b978cfdb4d11da5e1c33",
+      "evidence": "The core derives the pointwise L2 estimate for holomorphic f on a ball in C^d from subharmonicity of |f|^2. PSH and harmonic-function targets supply the mean-value route and underlying subharmonic comparison.",
+      "previous_prerequisites": [
+        "complex-analysis/plurisubharmonic-function",
+        "complex-analysis/harmonic-function"
+      ],
+      "prerequisites": [
+        "complex-analysis/plurisubharmonic-function",
+        "complex-analysis/harmonic-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/hormander-l2-dbar-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "de82a1809d773445901523b68a0040ead311d97f0420c9384496950d2b63c415",
+      "evidence": "The theorem assumes a PSH weight with Levi lower bound \u03ba>0 and a closed (0,1)-form \u03b7 satisfying the weighted integrability condition, then gives a distributional solution and estimate. Levi form, PSH, and Dolbeault targets supply the positivity, weight class, and operator.",
+      "previous_prerequisites": [
+        "complex-analysis/levi-form",
+        "complex-analysis/plurisubharmonic-function",
+        "differential-geometry/dolbeault-operators"
+      ],
+      "prerequisites": [
+        "complex-analysis/levi-form",
+        "complex-analysis/plurisubharmonic-function",
+        "differential-geometry/dolbeault-operators"
+      ]
+    },
+    {
+      "id": "complex-analysis/identity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef90d558981cd3deae562e00605c80e08af801203e2aaba45e20a1f66090000c",
+      "evidence": "The theorem assumes holomorphic f,g on a connected complex domain and an interior accumulation point of their equality set. Complex-domain is the direct setting and holomorphic-analyticity supplies the local zero argument; order-of-zero is a proof-level local tool retained in the existing list.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/holomorphic-functions-are-analytic",
+        "complex-analysis/order-of-zero-or-pole"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/holomorphic-functions-are-analytic",
+        "complex-analysis/order-of-zero-or-pole"
+      ]
+    },
+    {
+      "id": "complex-analysis/isolated-singularity-classification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "884b0ed760114f714bd65c09c77228b11c232b88ef484498b87426e6ff74984f",
+      "evidence": "The core classifies a punctured-disc singularity as removable, pole, or essential and matches these with Laurent principal parts. Laurent-series and holomorphic-analyticity targets supply the expansion and local analytic behavior; meromorphic discussion is downstream.",
+      "previous_prerequisites": [
+        "complex-analysis/laurent-series",
+        "complex-analysis/holomorphic-functions-are-analytic"
+      ],
+      "prerequisites": [
+        "complex-analysis/laurent-series",
+        "complex-analysis/holomorphic-functions-are-analytic"
+      ]
+    },
+    {
+      "id": "complex-analysis/laurent-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b76f283ef26cab30c2d31f9a1c27d8f1b3a336c8dfd37f2dcb895157df4452f4",
+      "evidence": "The core states existence, uniqueness, convergence, and coefficient integrals for a holomorphic function on an annulus. Contour-integral and power-series targets directly supply the coefficient formula and two-sided convergence.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-contour-integral",
+        "real-analysis/power-series"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-contour-integral",
+        "real-analysis/power-series"
+      ]
+    },
+    {
+      "id": "complex-analysis/levi-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a8243c89b1f5b3670e1ff22551ea8ca65c9dd0f681e82bdcb32dc8ce3394607",
+      "evidence": "The core defines the Hermitian Levi form of a real C2 function on an open subset of C^d. Hessian and complex-number targets provide the real second derivatives and Wirtinger coordinate convention; PSH positivity is a later characterization.",
+      "previous_prerequisites": [
+        "real-analysis/hessian-matrix",
+        "shared-foundations/complex-numbers-c"
+      ],
+      "prerequisites": [
+        "real-analysis/hessian-matrix",
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "complex-analysis/liouville-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afc4582c1b1e006b665da9491a3d23f88f9d3be7404e1c37eb18a67dcdf9186d",
+      "evidence": "The core states that a bounded entire function is constant and proves it with Cauchy derivative estimates. Entire-function and Cauchy-integral-formula targets are direct inputs; the polynomial-growth result is a consequence.",
+      "previous_prerequisites": [
+        "complex-analysis/entire-function",
+        "complex-analysis/cauchy-integral-formula"
+      ],
+      "prerequisites": [
+        "complex-analysis/entire-function",
+        "complex-analysis/cauchy-integral-formula"
+      ]
+    },
+    {
+      "id": "complex-analysis/little-picard-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9cc35dda76aa46f5b78f408883592822ef5b22b42d0aef267fd12d19dbfa4e6",
+      "evidence": "The theorem assumes a nonconstant entire function and concludes that at most one complex value is omitted. Entire-function, Great Picard, and the fundamental theorem supply the transcendental and polynomial cases exactly as used in the derivation.",
+      "previous_prerequisites": [
+        "complex-analysis/entire-function",
+        "complex-analysis/great-picard-theorem",
+        "complex-analysis/fundamental-theorem-of-algebra-complex-analysis"
+      ],
+      "prerequisites": [
+        "complex-analysis/entire-function",
+        "complex-analysis/great-picard-theorem",
+        "complex-analysis/fundamental-theorem-of-algebra-complex-analysis"
+      ]
+    },
+    {
+      "id": "complex-analysis/log-modulus-subharmonic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f942c9975a3cfbe4c4277da882cbcdb3accad4a090b4be9c5f20873a301d4136",
+      "evidence": "The core assumes a nonzero holomorphic function on a planar domain and identifies log|f| as subharmonic with Laplacian equal to the zero divisor. Subharmonic, distributions, holomorphic analyticity, and order targets support the representative, distributional formula, and multiplicity.",
+      "previous_prerequisites": [
+        "complex-analysis/subharmonic-function",
+        "functional-analysis/distribution",
+        "complex-analysis/holomorphic-functions-are-analytic",
+        "complex-analysis/order-of-zero-or-pole"
+      ],
+      "prerequisites": [
+        "complex-analysis/subharmonic-function",
+        "functional-analysis/distribution",
+        "complex-analysis/holomorphic-functions-are-analytic",
+        "complex-analysis/order-of-zero-or-pole"
+      ]
+    },
+    {
+      "id": "complex-analysis/logarithmic-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3c62f536df99089efa66d24fb6b7af7480b4b83669d83a18f050961a357e77b",
+      "evidence": "The definition and local formula concern a nonzero meromorphic function and f\u2032/f, with residues at zeros and poles. Meromorphic, complex derivative, and residue targets directly support these ingredients; argument principle is an application.",
+      "previous_prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/complex-derivative",
+        "complex-analysis/residue"
+      ],
+      "prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/complex-derivative",
+        "complex-analysis/residue"
+      ]
+    },
+    {
+      "id": "complex-analysis/maximum-modulus-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "693b8c4d58eabe31c2b4d8f105132e7f2d1abea22272c4fcbc57088553e2a35d",
+      "evidence": "The core assumes a holomorphic function on a connected domain and states the interior local-maximum conclusion plus boundary and minimum variants. Complex-domain and Cauchy-integral-formula targets supply the domain and averaging proof; nonvanishing is explicitly retained for the minimum statement.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/cauchy-integral-formula"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/cauchy-integral-formula"
+      ]
+    },
+    {
+      "id": "complex-analysis/meromorphic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e41a82868db7b94b18a8eaa87437ed441d08536152824f437b6b60aa273ed86e",
+      "evidence": "Core defines a meromorphic function on a complex domain as holomorphic off a discrete pole set, with the sphere-valued map formulation and field structure afterward. Complex-domain and holomorphic-map are direct ambient and morphism inputs.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "differential-geometry/holomorphic-map"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "differential-geometry/holomorphic-map"
+      ]
+    },
+    {
+      "id": "complex-analysis/mixed-quaternionic-monge-ampere-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4790e8d7720710dee6507629f864b9b8a0a8e6ab40a799113075785ae8f0200",
+      "evidence": "Core defines the mixed measure from quaternionic PSH potentials, their quaternionic Hessians, and the mixed discriminant. The four listed targets supply the potential class, Hessian, multilinear determinant, and matrix setting; the diagonal case is explicitly linked downstream.",
+      "previous_prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/quaternionic-hessian",
+        "linear-algebra/mixed-discriminant",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/quaternionic-hessian",
+        "linear-algebra/mixed-discriminant",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "complex-analysis/mobius-characterization-by-schwarzian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b4af7a6c484bdb3538c717221a292612670703c51488d3c80413eead32fb05c",
+      "evidence": "Core assumes a connected domain and locally univalent meromorphic map and characterizes vanishing Schwarzian as M\u00f6bius. M\u00f6bius, Schwarzian, and chain-rule targets directly support the equation and proof.",
+      "previous_prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/schwarzian-derivative",
+        "complex-analysis/schwarzian-chain-rule"
+      ],
+      "prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/schwarzian-derivative",
+        "complex-analysis/schwarzian-chain-rule"
+      ]
+    },
+    {
+      "id": "complex-analysis/mobius-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4f217af2bfddcf13e58a04d4d2fa02e74d491d9df5008430bd61989e57bfd54",
+      "evidence": "Core defines the fractional-linear sphere map with nonzero determinant and identifies its projective matrix origin. Riemann sphere and complex-number targets supply the ambient map and coefficients; geometry and generators are consequences.",
+      "previous_prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "shared-foundations/complex-numbers-c"
+      ],
+      "prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "complex-analysis/mobius-transformation-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b0915a797a507b012ba70499cda91d38cff6ef0f08d7efc452bf10acd55bb860",
+      "evidence": "Core forms the group of M\u00f6bius maps under composition and identifies PGL2 and PSL2. M\u00f6bius and group targets are direct; cross-ratio is used in the later triple-action discussion.",
+      "previous_prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "algebra-groups/group",
+        "complex-analysis/cross-ratio"
+      ],
+      "prerequisites": [
+        "complex-analysis/mobius-transformation",
+        "algebra-groups/group",
+        "complex-analysis/cross-ratio"
+      ]
+    },
+    {
+      "id": "complex-analysis/monodromy-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6d9e768cc21934efea1b19f34ae7bf07ba761c52a9a8c9cc03c2b594ee295e1",
+      "evidence": "Core assumes a simply connected domain, a holomorphic germ, and continuation along every path, then glues a single-valued function. Simply-connected, germ, and analytic-continuation targets match each hypothesis and construction.",
+      "previous_prerequisites": [
+        "topology/simply-connected-space",
+        "complex-analysis/holomorphic-germ",
+        "complex-analysis/analytic-continuation"
+      ],
+      "prerequisites": [
+        "topology/simply-connected-space",
+        "complex-analysis/holomorphic-germ",
+        "complex-analysis/analytic-continuation"
+      ]
+    },
+    {
+      "id": "complex-analysis/montel-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a50f0dc67be0284a9ea18cb8d121a56a4215f4ea8b1b30e30bac093691c9ae10",
+      "evidence": "Core assumes a locally uniformly bounded family of holomorphic maps on a domain and concludes normality. Domain, normal-family, Cauchy-formula, and Arzela-Ascoli targets supply the setting, conclusion, derivative bounds, and diagonal compactness proof.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/normal-family",
+        "complex-analysis/cauchy-integral-formula",
+        "real-analysis/arzela-ascoli-theorem"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/normal-family",
+        "complex-analysis/cauchy-integral-formula",
+        "real-analysis/arzela-ascoli-theorem"
+      ]
+    },
+    {
+      "id": "complex-analysis/normal-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "124993d8390704b4fcf584f71e7c5e4559273734f5562e3469e0aeab7833c1d6",
+      "evidence": "Core defines normality for holomorphic C-valued families by compact convergence or escape to infinity. Complex-domain and Riemann-sphere targets supply the domain and spherical formulation; Montel and Riemann mapping are applications.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/riemann-sphere"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/riemann-sphere"
+      ]
+    },
+    {
+      "id": "complex-analysis/octonionic-affine-line",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad5a44d782f30212cdd0e6ed630c53e800d04e91316739f1d447c4723e0ddcce",
+      "evidence": "Core defines affine octonionic lines as translates of the eight-dimensional subspaces parametrized by OP1. The octonionic projective-line target supplies exactly the direction parameter; Radon and PSH links are uses.",
+      "previous_prerequisites": [
+        "differential-geometry/octonionic-projective-line"
+      ],
+      "prerequisites": [
+        "differential-geometry/octonionic-projective-line"
+      ]
+    },
+    {
+      "id": "complex-analysis/octonionic-hessian",
+      "outcome": "corrected",
+      "source_sha256": "fa2b6d33e697bc4b59ba379b9241d3076d16808cf483e733d8466224877c5f48",
+      "evidence": "Core fixes octonionic coordinate derivatives and the 2x2 Hermitian Hessian on O2, then states its PSH positivity criterion. Octonionic spin-factor and matrix targets supply the codomain and matrix language; the quaternionic Cauchy-Fueter target was removed because these are independently defined octonionic operators. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "nonassociative-algebra/octonionic-spin-factor",
+        "complex-analysis/cauchy-fueter-operators",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "nonassociative-algebra/octonionic-spin-factor",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "complex-analysis/octonionic-monge-ampere-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d1b145a4d22eeb0ec8efa9e76f9388fae633cf3dc4ae26a24f8d286882b0615",
+      "evidence": "Core defines the O2 Monge-Ampere measure from the octonionic Hessian and quadratic 2x2 determinant, with continuity for continuous PSH functions. The three listed targets are direct construction and regularity inputs.",
+      "previous_prerequisites": [
+        "complex-analysis/octonionic-plurisubharmonic-function",
+        "complex-analysis/octonionic-hessian",
+        "nonassociative-algebra/octonionic-two-by-two-determinant"
+      ],
+      "prerequisites": [
+        "complex-analysis/octonionic-plurisubharmonic-function",
+        "complex-analysis/octonionic-hessian",
+        "nonassociative-algebra/octonionic-two-by-two-determinant"
+      ]
+    },
+    {
+      "id": "complex-analysis/octonionic-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e55d5c81590a34dd62b5f8aeb123099a17dc6de0c46b35237e357d1124041f7d",
+      "evidence": "Core defines octonionic PSH by upper semicontinuity and subharmonic restrictions to every affine octonionic line. Those two targets and the line definition are direct; Hessian supplies the displayed smooth criterion.",
+      "previous_prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/octonionic-affine-line",
+        "complex-analysis/subharmonic-function",
+        "complex-analysis/octonionic-hessian"
+      ],
+      "prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/octonionic-affine-line",
+        "complex-analysis/subharmonic-function",
+        "complex-analysis/octonionic-hessian"
+      ]
+    },
+    {
+      "id": "complex-analysis/octonionic-radon-transform",
+      "outcome": "corrected",
+      "source_sha256": "7ebeba03197be1fc8d6ab8f17434b7a25ea940bce720eeabae0d423c718eb57e",
+      "evidence": "Core defines the transform by integrating compactly supported smooth functions over affine octonionic lines and states injectivity. Test-function-space and affine-line targets are direct; octonionic Hessian occurs only in the later application paragraph and was removed as a prerequisite. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "functional-analysis/test-function-space",
+        "complex-analysis/octonionic-affine-line",
+        "complex-analysis/octonionic-hessian"
+      ],
+      "prerequisites": [
+        "functional-analysis/test-function-space",
+        "complex-analysis/octonionic-affine-line"
+      ]
+    },
+    {
+      "id": "complex-analysis/open-mapping-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3205d8653fede32783526480891b3a58765d6e7561afae69333678632f427a57",
+      "evidence": "Core assumes a nonconstant holomorphic map on a complex domain and concludes openness. Complex-domain, complex-derivative, and holomorphic-analyticity targets support the setting and local factorization mechanism.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/complex-derivative",
+        "complex-analysis/holomorphic-functions-are-analytic"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain",
+        "complex-analysis/complex-derivative",
+        "complex-analysis/holomorphic-functions-are-analytic"
+      ]
+    },
+    {
+      "id": "complex-analysis/order-of-zero-or-pole",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47c5188a0e3ccc82d913073074096a1a040a0b4f0bffa4b9407c321ee6ad2d21",
+      "evidence": "Core factors a nonzero meromorphic germ as (z-a)^m u with u(a) nonzero and defines the integer order. Meromorphic and Laurent targets directly supply the germ class and factorization data.",
+      "previous_prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/laurent-series"
+      ],
+      "prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/laurent-series"
+      ]
+    },
+    {
+      "id": "complex-analysis/pluriharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "723dd873a69fb0ed5202fc5d2cc7fe2414f951e806e879f9a9802b3783a811be",
+      "evidence": "Core defines pluriharmonicity by harmonic restrictions to affine complex lines, then gives the C2 Levi characterization and local real-part representation. Harmonic and Levi targets supply the two defining formulations.",
+      "previous_prerequisites": [
+        "complex-analysis/harmonic-function",
+        "complex-analysis/levi-form"
+      ],
+      "prerequisites": [
+        "complex-analysis/harmonic-function",
+        "complex-analysis/levi-form"
+      ]
+    },
+    {
+      "id": "complex-analysis/plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60cf28ddde13465b8dd30a420a0a4bc6be397e8f78187757b9c77a8f588badfd",
+      "evidence": "Core defines PSH through upper semicontinuity and subharmonic restrictions to affine complex lines, with the smooth Levi criterion displayed immediately afterward. USC, subharmonic, and Levi targets match these conditions.",
+      "previous_prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/subharmonic-function",
+        "complex-analysis/levi-form"
+      ],
+      "prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/subharmonic-function",
+        "complex-analysis/levi-form"
+      ]
+    },
+    {
+      "id": "complex-analysis/projective-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3119ce9ac4142a67eef5d865e016398461885ea93f793f782d4a79f008bd947a",
+      "evidence": "Core defines local holomorphic coefficients with the Schwarzian coordinate-change law on a Riemann surface. Riemann-surface, Schwarzian, and chain-rule targets directly supply the object and transformation law.",
+      "previous_prerequisites": [
+        "differential-geometry/riemann-surface",
+        "complex-analysis/schwarzian-derivative",
+        "complex-analysis/schwarzian-chain-rule"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemann-surface",
+        "complex-analysis/schwarzian-derivative",
+        "complex-analysis/schwarzian-chain-rule"
+      ]
+    },
+    {
+      "id": "complex-analysis/projective-connections-form-an-affine-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1ab42a492cf57ac3982ec0bc60b480bb9fda40826c1deb21609b63bdc49256c",
+      "evidence": "Core proves that the nonempty set of projective connections is a torsor for holomorphic quadratic differentials by cancellation of Schwarzian terms. Riemann-surface, projective-connection, and vector-space targets supply the setting, objects, and affine model.",
+      "previous_prerequisites": [
+        "differential-geometry/riemann-surface",
+        "complex-analysis/projective-connection",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemann-surface",
+        "complex-analysis/projective-connection",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "complex-analysis/quaternionic-blocki-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87975ece33c562710efac13c3137726b01db858ef138f080da22abbc67e30ae5",
+      "evidence": "Core states the max-min inclusion-exclusion identity for continuous quaternionic PSH functions, explicitly requiring the minimum to remain PSH. Quaternionic PSH and mixed-measure targets supply the potentials and polarized extension; the minimum hypothesis is preserved.",
+      "previous_prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/mixed-quaternionic-monge-ampere-measure"
+      ],
+      "prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/mixed-quaternionic-monge-ampere-measure"
+      ]
+    },
+    {
+      "id": "complex-analysis/quaternionic-hessian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "396b29203379a45d87a05dd73b4c11f5214492b67bf32de57db50fea11257796",
+      "evidence": "Core defines the quaternionic Hessian from the fixed Cauchy-Fueter convention and states hyperhermitian symmetry and PSH positivity. Cauchy-Fueter, hyperhermitian-form, and matrix targets directly supply the differential convention, codomain, and matrix operations.",
+      "previous_prerequisites": [
+        "complex-analysis/cauchy-fueter-operators",
+        "linear-algebra/hyperhermitian-form",
+        "linear-algebra/matrix"
+      ],
+      "prerequisites": [
+        "complex-analysis/cauchy-fueter-operators",
+        "linear-algebra/hyperhermitian-form",
+        "linear-algebra/matrix"
+      ]
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-continuity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b23341f5e3f33f1ba0801e4a24acd8d69969254e9031c497f55a3b147d86bb1",
+      "evidence": "The theorem assumes continuous quaternionic PSH potentials converging locally uniformly and concludes weak convergence of their Monge-Ampere measures, including mixed polarization. Quaternionic PSH, mixed measure, and uniform-convergence targets match the hypotheses and conclusion.",
+      "previous_prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/mixed-quaternionic-monge-ampere-measure",
+        "real-analysis/uniform-convergence-on-compact-sets"
+      ],
+      "prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/mixed-quaternionic-monge-ampere-measure",
+        "real-analysis/uniform-convergence-on-compact-sets"
+      ]
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-dirichlet-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87ba4ad1fc5b03488b4d83f742c98a3b37784c0dda9b58db81d26ce32e431a1a",
+      "evidence": "The core states existence and uniqueness for continuous PSH solutions on bounded strictly quaternionically pseudoconvex domains with nonnegative continuous density and continuous boundary data. Domain, PSH, and Monge-Ampere measure targets supply the geometric hypothesis, solution class, and equation.",
+      "previous_prerequisites": [
+        "complex-analysis/strictly-quaternionically-pseudoconvex-domain",
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/quaternionic-monge-ampere-measure"
+      ],
+      "prerequisites": [
+        "complex-analysis/strictly-quaternionically-pseudoconvex-domain",
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/quaternionic-monge-ampere-measure"
+      ]
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa324513f7afee651f778eae6f59fdf274bb6be479a260b9e69f9cccaf9fa485",
+      "evidence": "Core defines the quaternionic Monge-Ampere equation by prescribing the Moore determinant measure of a PSH unknown, then identifies the elliptic branch and Dirichlet problem. Measure, PSH, and Hessian targets are direct inputs.",
+      "previous_prerequisites": [
+        "complex-analysis/quaternionic-monge-ampere-measure",
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/quaternionic-hessian"
+      ],
+      "prerequisites": [
+        "complex-analysis/quaternionic-monge-ampere-measure",
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "complex-analysis/quaternionic-hessian"
+      ]
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5008d6dca09b79ce50846db34ad23874bc8933b24a6601708e1e3597e0a7ba80",
+      "evidence": "Core defines the smooth quaternionic Monge-Ampere measure using the quaternionic Hessian, Moore determinant, and Lebesgue volume, then extends it to continuous PSH functions. Those three targets are exactly the construction inputs.",
+      "previous_prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "linear-algebra/moore-determinant",
+        "measure-theory/lebesgue-measure"
+      ],
+      "prerequisites": [
+        "complex-analysis/quaternionic-plurisubharmonic-function",
+        "linear-algebra/moore-determinant",
+        "measure-theory/lebesgue-measure"
+      ]
+    },
+    {
+      "id": "complex-analysis/quaternionic-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc61fa4ad65370139acdf622c87406d25e8cc6cc1bbd97c6034fdb09b2ac8174",
+      "evidence": "Core defines quaternionic PSH using upper semicontinuity and subharmonicity on affine right quaternionic lines, then gives the C2 Hessian criterion. USC, subharmonic, and Hessian targets supply the defining and smooth formulations.",
+      "previous_prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/subharmonic-function"
+      ],
+      "prerequisites": [
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/subharmonic-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/rational-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41c0270cfb7f3808bc37e15e1672ef4b90317d566773aaead304f7277a054e03",
+      "evidence": "Core defines rational functions as polynomial quotients and extends them to holomorphic sphere maps, with degree and infinity behavior. Meromorphic, holomorphic-map, and Riemann-sphere targets supply the function class and extension setting.",
+      "previous_prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "differential-geometry/holomorphic-map",
+        "complex-analysis/riemann-sphere"
+      ],
+      "prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "differential-geometry/holomorphic-map",
+        "complex-analysis/riemann-sphere"
+      ]
+    },
+    {
+      "id": "complex-analysis/residue",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0073fc8fd322a2a22d7027d09901b1174c7ddcec30239ed2557fc46fa7f93b7e",
+      "evidence": "Core defines the residue as the c_-1 Laurent coefficient and its contour integral, with pole formulas. Laurent-series and contour-integral targets directly support both displayed definitions.",
+      "previous_prerequisites": [
+        "complex-analysis/laurent-series",
+        "complex-analysis/complex-contour-integral"
+      ],
+      "prerequisites": [
+        "complex-analysis/laurent-series",
+        "complex-analysis/complex-contour-integral"
+      ]
+    },
+    {
+      "id": "complex-analysis/residue-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8b9a75c336c7cbdef17673401f6324ea14d31b5ddc5537245319c0756e7735c",
+      "evidence": "Core assumes a meromorphic function, closed contour avoiding poles, zero exterior index, and finitely many indexed poles, then sums residues. Meromorphic, winding, residue, and contour targets match each required object.",
+      "previous_prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/winding-number",
+        "complex-analysis/residue",
+        "complex-analysis/complex-contour-integral"
+      ],
+      "prerequisites": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/winding-number",
+        "complex-analysis/residue",
+        "complex-analysis/complex-contour-integral"
+      ]
+    },
+    {
+      "id": "complex-analysis/riemann-mapping-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4d085ff7d64ab255188e3e340822fb95e4f1cc570be65851c9f5f7f6850d38b",
+      "evidence": "Core assumes a proper simply connected plane domain and concludes a biholomorphism to the disc, with normalized uniqueness. Simply-connected, complex-domain, biholomorphism, and normal-family targets support hypotheses, conclusion, and proof architecture.",
+      "previous_prerequisites": [
+        "topology/simply-connected-space",
+        "complex-analysis/complex-domain",
+        "differential-geometry/biholomorphism",
+        "complex-analysis/normal-family"
+      ],
+      "prerequisites": [
+        "topology/simply-connected-space",
+        "complex-analysis/complex-domain",
+        "differential-geometry/biholomorphism",
+        "complex-analysis/normal-family"
+      ]
+    },
+    {
+      "id": "complex-analysis/riemann-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4d1fdb8065691e11d5c9ea67deb45326f662e2163094c86c51ad62b9cab42d2",
+      "evidence": "Core constructs the one-point compactification with the reciprocal complex chart and identifies it as a compact Riemann surface. Complex-atlas and Riemann-surface targets supply the analytic structure; projective and meromorphic links are later viewpoints.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-atlas",
+        "differential-geometry/riemann-surface"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-atlas",
+        "differential-geometry/riemann-surface"
+      ]
+    },
+    {
+      "id": "complex-analysis/rouche-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70674610d581fed5cf6eb0e7552e7516dfbbf42d66ee67b4c9f60cbd82201534",
+      "evidence": "Core assumes holomorphic f,g near a positively oriented simple closed contour and strict boundary inequality, then preserves zero count. Winding and argument-principle targets supply the homotopy/counting proof mechanism.",
+      "previous_prerequisites": [
+        "complex-analysis/winding-number",
+        "complex-analysis/argument-principle"
+      ],
+      "prerequisites": [
+        "complex-analysis/winding-number",
+        "complex-analysis/argument-principle"
+      ]
+    },
+    {
+      "id": "complex-analysis/schwarzian-and-second-order-linear-odes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db1d91bbf5003d12ab95b2bff26d863d29d23d1c9a0dd644db3ee93fee8c0ca4",
+      "evidence": "Core assumes simply connected D, holomorphic q, and independent solutions of y\u2033+q y/2=0, and proves their ratio has Schwarzian q. Simply-connected, Schwarzian, chain-rule, meromorphic, and M\u00f6bius targets support the ratio, equation, and basis-independence claims.",
+      "previous_prerequisites": [
+        "topology/simply-connected-space",
+        "complex-analysis/schwarzian-derivative",
+        "complex-analysis/schwarzian-chain-rule",
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/mobius-transformation"
+      ],
+      "prerequisites": [
+        "topology/simply-connected-space",
+        "complex-analysis/schwarzian-derivative",
+        "complex-analysis/schwarzian-chain-rule",
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/mobius-transformation"
+      ]
+    },
+    {
+      "id": "complex-analysis/schwarzian-chain-rule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af4af0d39ae60832da4b848d429a2911087d410e2d4c5f1978bdd6a0b83e8e70",
+      "evidence": "Core states the composition law for locally univalent holomorphic maps and its M\u00f6bius postcomposition consequence. Schwarzian derivative is the direct prerequisite; projective-connection discussion is downstream.",
+      "previous_prerequisites": [
+        "complex-analysis/schwarzian-derivative"
+      ],
+      "prerequisites": [
+        "complex-analysis/schwarzian-derivative"
+      ]
+    },
+    {
+      "id": "complex-analysis/schwarzian-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3449c51dec4569511086c0dfeb71e077ed6970ec579f1cbe32d947ab9423a0d2",
+      "evidence": "Core defines S(f) for a holomorphic locally univalent map on a plane domain and gives the derivative formula. Complex-domain supplies the setting; later chain rule and characterization are consequences.",
+      "previous_prerequisites": [
+        "complex-analysis/complex-domain"
+      ],
+      "prerequisites": [
+        "complex-analysis/complex-domain"
+      ]
+    },
+    {
+      "id": "complex-analysis/sharp-three-transitivity-of-mobius-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "07ea105aebe4d856aaaa02c1dba0f5c30433879d505584ab89bb6c3307b31b0f",
+      "evidence": "Core states existence and uniqueness of a M\u00f6bius map carrying any ordered distinct triple to another. Sphere, M\u00f6bius, and group targets supply the action; cross-ratio targets support the proof and quadruple consequence.",
+      "previous_prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/mobius-transformation-group",
+        "complex-analysis/cross-ratio",
+        "complex-analysis/cross-ratio-invariance-under-mobius-transformations"
+      ],
+      "prerequisites": [
+        "complex-analysis/riemann-sphere",
+        "complex-analysis/mobius-transformation",
+        "complex-analysis/mobius-transformation-group",
+        "complex-analysis/cross-ratio",
+        "complex-analysis/cross-ratio-invariance-under-mobius-transformations"
+      ]
+    },
+    {
+      "id": "complex-analysis/strictly-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33878a2b076520dabf7bafa0754de7f20bfe1d2c6a10e70be93fc0a81051fea7",
+      "evidence": "Core defines strict PSH by positive-definite Levi form and records quantitative and nonsmooth variants. Levi, USC, PSH, and Hormander targets supply the smooth definition, convention, and application.",
+      "previous_prerequisites": [
+        "complex-analysis/levi-form",
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/plurisubharmonic-function"
+      ],
+      "prerequisites": [
+        "complex-analysis/levi-form",
+        "complex-analysis/upper-semicontinuous-function",
+        "complex-analysis/plurisubharmonic-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/strictly-quaternionic-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e60d4df358c930d57deb7a05c0d0ce5a2f2977194b70adb2f63a38d379b62429",
+      "evidence": "Core defines strict quaternionic PSH by positive-definite Hessian and equivalently strict line subharmonicity. Quaternionic Hessian and PSH targets supply both formulations; pseudoconvex and HKT uses are later.",
+      "previous_prerequisites": [
+        "complex-analysis/quaternionic-hessian",
+        "complex-analysis/quaternionic-plurisubharmonic-function"
+      ],
+      "prerequisites": [
+        "complex-analysis/quaternionic-hessian",
+        "complex-analysis/quaternionic-plurisubharmonic-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/strictly-quaternionically-pseudoconvex-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b6ccbe1a702f62322decf0b77c65165ce9c0aacb3aaa691ad1e66c156421e40",
+      "evidence": "Core defines a bounded smooth-boundary quaternionic domain by local strict PSH defining functions with nonzero differential. Strict quaternionic PSH is the direct prerequisite; the defining-function hypotheses remain explicit.",
+      "previous_prerequisites": [
+        "complex-analysis/strictly-quaternionic-plurisubharmonic-function"
+      ],
+      "prerequisites": [
+        "complex-analysis/strictly-quaternionic-plurisubharmonic-function"
+      ]
+    },
+    {
+      "id": "complex-analysis/upper-semicontinuous-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc5728e3549dd99e3f369a44567966443491f08bb56cd8465cd8ffd07a9f3c2a",
+      "evidence": "Core defines USC on a topological space and gives the metric sequential equivalent and potential-theory role. Topological-space and metric-space targets directly support the two formulations.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "complex-analysis/winding-number",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d638bc1f78e48952fbfd0e4684235500f6631912b957777c02eb726f92a04169",
+      "evidence": "Core defines the index of a closed piecewise C1 contour by the integral of 1/(z-a), then gives integer, homotopy, and orientation properties. Connected-component and contour-integral targets directly support the domain decomposition and integral.",
+      "previous_prerequisites": [
+        "topology/connected-component",
+        "complex-analysis/complex-contour-integral"
+      ],
+      "prerequisites": [
+        "topology/connected-component",
+        "complex-analysis/complex-contour-integral"
+      ]
+    }
+  ],
+  "triage_records": [],
+  "reviewed": 83,
+  "corrected": 1,
+  "triage_count": 0,
+  "review_status_note": "All assigned entries have individually reasoned full-source and prerequisite-target reviews."
+}

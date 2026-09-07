@@ -6,7 +6,7 @@ summary = "The Lie group of linear transformations preserving a nondegenerate sy
 aliases = ["orthogonal-group", "Orthogonal group"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/orthogonal-group.md"
-prerequisites = ["linear-algebra/signature-of-symmetric-bilinear-form", "lie-groups/general-linear-group", "lie-groups/closed-subgroup-theorem", "fiber-bundles/lie-group"]
+prerequisites = ["linear-algebra/signature-of-symmetric-bilinear-form", "linear-algebra/inner-product-space", "lie-groups/general-linear-group", "lie-groups/closed-subgroup-theorem", "fiber-bundles/lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

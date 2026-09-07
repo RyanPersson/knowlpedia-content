@@ -6,7 +6,7 @@ summary = "An absolutely convergent series has Cauchy partial sums."
 aliases = ["absolute-convergence-implies-cauchy", "Absolute convergence implies Cauchy"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/absolute-convergence-implies-cauchy.md"
-prerequisites = ["real-analysis/partial-sums"]
+prerequisites = ["real-analysis/partial-sums", "topology/cauchy-sequence", "shared-foundations/complex-numbers-c"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

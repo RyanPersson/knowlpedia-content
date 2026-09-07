@@ -6,7 +6,7 @@ summary = "The subgroup of first cohomology realized as fluxes of loops of sympl
 aliases = ["symplectic flux group", "Gamma_omega"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/de-rham-cohomology-group", "differential-geometry/flux-homomorphism", "differential-geometry/hamiltonian-diffeomorphism"]
+prerequisites = ["differential-geometry/symplectic-manifold", "fiber-bundles/de-rham-cohomology-group", "differential-geometry/flux-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

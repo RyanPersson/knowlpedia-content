@@ -6,7 +6,7 @@ summary = "The injective transform integrating a function on the octonionic plan
 aliases = ["Radon transform on O^2", "octonionic line transform"]
 domains = ["complex-analysis", "octonionic-analysis", "integral-geometry"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/test-function-space", "complex-analysis/octonionic-affine-line", "complex-analysis/octonionic-hessian"]
+prerequisites = ["functional-analysis/test-function-space", "complex-analysis/octonionic-affine-line"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

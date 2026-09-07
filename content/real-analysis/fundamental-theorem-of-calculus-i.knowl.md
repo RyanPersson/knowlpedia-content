@@ -6,7 +6,7 @@ summary = "The integral defines an antiderivative at points where the integrand 
 aliases = ["fundamental-theorem-of-calculus-i", "Fundamental theorem of calculus I"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/fundamental-theorem-of-calculus-i.md"
-prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/differentiability-1d"]
+prerequisites = ["real-analysis/riemann-integrable-function", "real-analysis/riemann-integral", "real-analysis/differentiability-1d", "real-analysis/continuity-on-a-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

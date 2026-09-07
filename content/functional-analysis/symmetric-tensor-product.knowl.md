@@ -6,7 +6,7 @@ summary = "The symmetrization of a pure tensor, obtained by averaging over all p
 aliases = ["symmetric-tensor-product", "Symmetric Tensor Product (·)_s"]
 domains = ["functional-analysis"]
 legacy_source_path = "shale-paper/symmetric-tensor-product.md"
-prerequisites = ["linear-algebra/hilbert-space"]
+prerequisites = ["linear-algebra/hilbert-space", "algebra-modules/tensor-product"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

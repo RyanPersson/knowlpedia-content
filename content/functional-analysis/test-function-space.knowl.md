@@ -35,8 +35,8 @@ only the underlying set, is part of the definition.
 ## Convergence
 
 A sequence \(\varphi_\nu\) converges to \(0\) in
-\(\mathcal D(\Omega)\) exactly when all its supports lie in one fixed compact
-\(K\Subset\Omega\) and every
+\(\mathcal D(\Omega)\) exactly when its supports are eventually contained in
+one fixed compact \(K\Subset\Omega\) and every
 [[real-analysis/partial-derivative|partial derivative]] converges uniformly
 to \(0\) there. Supports that drift toward infinity or toward the boundary do
 not converge in the test-function topology merely because the functions and

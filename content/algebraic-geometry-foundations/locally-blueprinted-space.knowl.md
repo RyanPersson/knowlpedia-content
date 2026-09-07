@@ -6,7 +6,7 @@ summary = "A topological space with a sheaf of blueprints whose stalks are local
 aliases = ["locally blueprint ringed space", "LocBlpr-space"]
 domains = ["algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/blueprint", "algebra-rings/maximal-ideal", "algebraic-geometry-foundations/morphism-of-sheaves"]
+prerequisites = ["topology/topological-space", "algebraic-geometry-foundations/blueprint", "algebra-rings/maximal-ideal", "algebraic-geometry-foundations/morphism-of-sheaves", "algebraic-geometry-foundations/stalk"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

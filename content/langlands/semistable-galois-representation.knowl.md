@@ -6,7 +6,7 @@ summary = "A p-adic Galois representation whose semistable period module has ful
 aliases = ["semistable p-adic representation", "potentially semistable representation", "semistable representation in p-adic Hodge theory"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/galois-extension-and-group", "langlands/fontaine-period-rings"]
+prerequisites = ["algebra-fields-galois/p-adic-field", "algebra-fields-galois/galois-extension-and-group", "langlands/fontaine-period-rings"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

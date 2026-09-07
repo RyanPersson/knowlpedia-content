@@ -6,7 +6,7 @@ summary = "On a compact metric space, equicontinuity plus pointwise boundedness 
 aliases = ["equicontinuity-boundedness-criterion", "Equicontinuity–boundedness criterion"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/equicontinuity-boundedness-criterion.md"
-prerequisites = ["topology/metric-space", "real-analysis/equicontinuous-family", "real-analysis/pointwise-bounded-family", "real-analysis/uniformly-bounded-family"]
+prerequisites = ["topology/metric-space", "topology/compact-set", "real-analysis/equicontinuous-family", "real-analysis/pointwise-bounded-family", "real-analysis/uniformly-bounded-family"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

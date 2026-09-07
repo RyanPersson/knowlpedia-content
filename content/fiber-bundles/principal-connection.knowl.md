@@ -6,19 +6,21 @@ summary = "A G-invariant choice of horizontal subspaces complementing the vertic
 aliases = ["principal-connection", "Principal connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/principal-connection.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/differential-pushforward-of-a-smooth-map", "convex-analysis/direct-sum-of-subspaces"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure [[fiber-bundles/lie-group|Lie group]] \(G\). For each \(p\in P\), define the **vertical subspace**
 \[
-V_p \coloneqq \ker(d\pi_p)\subset T_pP.
+V_p \coloneqq \{v\in T_pP:d\pi_p(v)=0\}.
 \]
+
+Here \(T_pP\) is a [[fiber-bundles/tangent-space-at-a-point|tangent space]] and \(d\pi_p\) is the [[fiber-bundles/differential-pushforward-of-a-smooth-map|differential]] of the projection.
 
 A **principal connection** on \(P\) is a smooth assignment of a subspace \(H_p\subset T_pP\) (the **horizontal subspace**) for every \(p\in P\) such that:
 
-1. (**Horizontal–vertical splitting**) \(T_pP = H_p \oplus V_p\) for all \(p\in P\).
+1. (**Horizontal–vertical splitting**) The sum is a [[convex-analysis/direct-sum-of-subspaces|direct sum]]: \(T_pP = H_p \oplus V_p\) for all \(p\in P\).
 2. (**Right-invariance**) For every \(g\in G\), the differential of the right action \(R_g:P\to P\) satisfies
    \[
    (R_g)_*(H_p)=H_{p\cdot g}.

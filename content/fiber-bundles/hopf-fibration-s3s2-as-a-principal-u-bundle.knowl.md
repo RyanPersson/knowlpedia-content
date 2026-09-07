@@ -6,9 +6,9 @@ summary = "The classic circle bundle with total space the 3-sphere and base the 
 aliases = ["hopf-fibration-s3s2-as-a-principal-u-bundle", "Hopf fibration as a principal U(1)-bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "differential-geometry/complex-projective-space"]
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(S^3=\{(z_1,z_2)\in\mathbb C^2:|z_1|^2+|z_2|^2=1\}\) and let \(U(1)\subset\mathbb C^\times\) act on \(S^3\) by scalar multiplication:
@@ -23,6 +23,8 @@ The **Hopf fibration** is the quotient map
 With this action, \(\pi\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(U(1)\) (a [[fiber-bundles/lie-group|Lie group]]), i.e. a principal circle bundle over \(S^2\).
 
 Concretely, one can take \(\pi(z_1,z_2)=[z_1:z_2]\in\mathbb{CP}^1\), and the fiber over a point is exactly the \(U(1)\)-orbit of any representative.
+
+## Nontriviality
 
 This bundle is nontrivial; in particular it has no global [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] (compare [[fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section|the section criterion for triviality]]).
 

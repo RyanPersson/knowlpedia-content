@@ -1,0 +1,1457 @@
+{
+  "reviews": [
+    {
+      "id": "algebra-groups/alternating-group",
+      "outcome": "corrected",
+      "source_sha256": "ab31edd3acb455e915622580fe43724964d9ba8cb0223e8f31c5475f41681d17",
+      "evidence": "The definition is the kernel of the sign map on S_n. Reading the target definitions confirms finite-permutation supplies S_n and permutation-sign supplies inversion-parity sign; kernel, group, and subgroup supply the construction and subgroup scope.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/kernel-group",
+        "shared-foundations/permutation-sign"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/kernel-group",
+        "shared-foundations/finite-permutation",
+        "shared-foundations/permutation-sign"
+      ]
+    },
+    {
+      "id": "algebra-groups/conjugacy-class-size-lemma",
+      "outcome": "corrected",
+      "source_sha256": "2e753870675882f43f8ecd0b9c6126863c6c55e13bb0539011715ac97a9b2dd6",
+      "evidence": "The finite-group class-size formula is orbit-stabilizer for the conjugation action: the class is the orbit and C_G(g) the stabilizer, whose index is computed. Conjugation-action is required with group, class, centralizer, index, and orbit-stabilizer.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/conjugacy-class",
+        "algebra-groups/centralizer",
+        "algebra-groups/index-of-subgroup",
+        "algebra-groups/orbit-stabilizer-theorem"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/conjugacy-class",
+        "algebra-groups/centralizer",
+        "algebra-groups/index-of-subgroup",
+        "algebra-groups/orbit-stabilizer-theorem",
+        "algebra-groups/conjugation-action"
+      ]
+    },
+    {
+      "id": "algebra-groups/correspondence-theorem-groups",
+      "outcome": "corrected",
+      "source_sha256": "43ecf691d1b7d285a22c1618575e37fbff91722bf89b0baf34eb2e259ccdee3c",
+      "evidence": "The assignments A↦A/N and B↦π⁻¹(B) operate between subgroups of G and G/N. Quotient-group is a direct prerequisite alongside group, normal-subgroup, subgroup, and preimage.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/subgroup",
+        "shared-foundations/preimage"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/subgroup",
+        "algebra-groups/quotient-group",
+        "shared-foundations/preimage"
+      ]
+    },
+    {
+      "id": "algebra-groups/derived-series",
+      "outcome": "corrected",
+      "source_sha256": "cffc966e10468a104afe56f7d1365fccbad829dc6ca2b327c70bed19a9035195",
+      "evidence": "The recursion uses commutator subgroups, while the core explicitly asserts each term is normal and each factor G^(n)/G^(n+1) is abelian. Group, commutator-subgroup, normal-subgroup, and quotient-group are all required.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/commutator-subgroup",
+        "algebra-groups/normal-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/commutator-subgroup",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/quotient-group"
+      ]
+    },
+    {
+      "id": "algebra-groups/eulers-theorem",
+      "outcome": "corrected",
+      "source_sha256": "00f739c47d0af9afefe5dc631bcd733eac7d7e3335435d069cbf6122484bef89",
+      "evidence": "The theorem’s actual hypotheses and conclusion concern integers, gcd, φ(n), and modular congruence. Group-of-units and Lagrange are only the proof route in Remarks and are not prerequisites.",
+      "previous_prerequisites": [
+        "algebra-rings/gcd",
+        "shared-foundations/integers",
+        "algebra-rings/group-of-units",
+        "algebra-groups/lagranges-theorem"
+      ],
+      "prerequisites": [
+        "algebra-rings/gcd",
+        "shared-foundations/integers"
+      ]
+    },
+    {
+      "id": "algebra-groups/exact-sequence-groups",
+      "outcome": "corrected",
+      "source_sha256": "99721b4d1290a429f5484eceacaaa246c6ed9bc22d3dac10fbff4d4bdca4c8df",
+      "evidence": "The short exact sequence explicitly encodes injective and surjective maps, image/kernel equality, normal kernel, quotient identification, and isomorphisms. Group-isomorphism is required for the stated identifications.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/image-group",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/quotient-group",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/image-group",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/quotient-group",
+        "algebra-groups/group-isomorphism",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "algebra-groups/fermats-little-theorem",
+      "outcome": "corrected",
+      "source_sha256": "b5244d35b22d349286631d7f3b6324b9b9ccaf14e9f1f2c3850d23085c9efccc",
+      "evidence": "Both displayed forms are arithmetic statements for an integer modulo a prime. The unit-group/Lagrange derivation is in Remarks and is not a defining input, so only integers remains.",
+      "previous_prerequisites": [
+        "shared-foundations/integers",
+        "algebra-rings/group-of-units",
+        "algebra-groups/lagranges-theorem"
+      ],
+      "prerequisites": [
+        "shared-foundations/integers"
+      ]
+    },
+    {
+      "id": "algebra-groups/finite-cyclic-isomorphic-zn",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88b2a9e5c627f394c2744e04e908d0a42ced54ffe067025924ac1dd325be34d2",
+      "evidence": "The proposition assumes a finite cyclic group and constructs φ(k̄)=g^k as an isomorphism. Group, cyclic-subgroup, and group-isomorphism match the hypothesis, powers, and conclusion.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/cyclic-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/cyclic-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/first-isomorphism-consequence-groups",
+      "outcome": "corrected",
+      "source_sha256": "f0d49f35f481327ea06c564f3ad10c445762aea888a0be0d4062c5196c246a13",
+      "evidence": "The core concludes with a unique group isomorphism G/ker(f)→im(f), making group-isomorphism an explicit output concept in addition to homomorphism, quotient, kernel, and image.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/quotient-group",
+        "algebra-groups/kernel-group",
+        "algebra-groups/image-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/quotient-group",
+        "algebra-groups/kernel-group",
+        "algebra-groups/image-group",
+        "algebra-groups/group-isomorphism"
+      ]
+    },
+    {
+      "id": "algebra-groups/first-isomorphism-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e24e093d3ed5e79c9edf08fa118eabb691c6ca09a8534cea7cdc3b96521ad012",
+      "evidence": "The theorem identifies the kernel as normal and induces an isomorphism from the quotient to the image. All six listed targets occur in the displayed statement and its surjective specialization.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/quotient-group",
+        "algebra-groups/image-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/quotient-group",
+        "algebra-groups/image-group"
+      ]
+    },
+    {
+      "id": "algebra-groups/fixed-point-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44898cd75c88bc721d32c334e26e4d09391c084796c52b4e79e40b98968ad464",
+      "evidence": "The core defines X^G for a given group action as points fixed by every group element. Group-action is the sole defining prerequisite; stabilizer and center appear only in equivalent/examples sections.",
+      "previous_prerequisites": [
+        "algebra-groups/group-action"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-action"
+      ]
+    },
+    {
+      "id": "algebra-groups/frattini-argument",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a2d441d968e888eaa12e7ba8dee123dc188bfa72c2a513e8ce11ed63480ddff",
+      "evidence": "The finite group G, normal subgroup N, Sylow p-subgroup P of N, and normalizer N_G(P) are explicit hypotheses and terms of G=NN_G(P). The four listed targets directly define them.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/sylow-subgroup",
+        "algebra-groups/normalizer"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/sylow-subgroup",
+        "algebra-groups/normalizer"
+      ]
+    },
+    {
+      "id": "algebra-groups/free-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d916fb7c5d448effda60755547ca1677f7f8a0fc1bc50ce49e5f7bcb4a004ccc",
+      "evidence": "Freeness is defined by every stabilizer G_x being trivial. Group-action and stabilizer supply the action and fixed-point subgroup; regular-action is a later consequence only.",
+      "previous_prerequisites": [
+        "algebra-groups/group-action",
+        "algebra-groups/stabilizer"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-action",
+        "algebra-groups/stabilizer"
+      ]
+    },
+    {
+      "id": "algebra-groups/free-group",
+      "outcome": "corrected",
+      "source_sha256": "907d5b5dbfbde1dbbb06df3db64a7104b9961bb0d3ffb3bbd1a8a331369f5327",
+      "evidence": "The universal property explicitly quantifies a set, functions i and f, groups, and a unique homomorphism. Function was added to the existing set, group, and homomorphism prerequisites.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/group"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/function",
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/group"
+      ]
+    },
+    {
+      "id": "algebra-groups/fundamental-theorem-fg-abelian-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b451e125589ee61d7c8cc7738302619a56a77fb6940fe0faeef412da71bfb9f",
+      "evidence": "The theorem assumes a finitely generated abelian group and displays a direct-sum decomposition. Abelian-group and direct-sum-groups supply exactly the hypothesis and construction; PID material is a remark.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-groups/direct-sum-groups"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-groups/direct-sum-groups"
+      ]
+    },
+    {
+      "id": "algebra-groups/generated-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ee3a51dffbd11e5bac3cf22b5860bea1aa9707d0da202257011d8dcf91a3ef7",
+      "evidence": "The core defines ⟨S⟩ as an intersection of subgroups containing a subset S. Group, subset, intersection, and subgroup are all required for that displayed definition.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/subset",
+        "shared-foundations/intersection",
+        "algebra-groups/subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/subset",
+        "shared-foundations/intersection",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/generating-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d1ca7460ebb5e86b25ec8a3226dd8c0ca10ea48fdce248389c4b771a34b18b99",
+      "evidence": "The core defines S generating G by ⟨S⟩=G. Group, subgroup, and generated-subgroup provide the ambient object, containment notion, and displayed construction.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/generated-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/generated-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/group-epimorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eaefcb6c07f8aec57d452332fe7052d79a15e1bb38c654779484b6405ffde70f",
+      "evidence": "An epimorphism is a group homomorphism that is surjective as a function. Those two listed targets state the complete definition; image/quotient occur in optional material.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "algebra-groups/group-extension",
+      "outcome": "corrected",
+      "source_sha256": "5df99a09b8c3059235bad71aacb453f9ef6dc996d3a5dafaab31308c99d2aa87",
+      "evidence": "The definition is a short exact sequence and explicitly identifies N as normal and Q canonically isomorphic to E/N. Group-isomorphism was added for that stated quotient identification.",
+      "previous_prerequisites": [
+        "algebra-groups/exact-sequence-groups",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/quotient-group",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebra-groups/exact-sequence-groups",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/quotient-group",
+        "algebra-groups/group-isomorphism",
+        "shared-foundations/surjective-function",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "algebra-groups/group-monomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02933ee496f1d994508f72e23911b3e05d6c89b66892d5d10db620c10c317d6c",
+      "evidence": "A monomorphism is defined as a group homomorphism that is injective. The two listed targets exactly supply the definition; kernel/image are later equivalent-characterization consequences.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/injective-function"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "algebra-groups/group-presentation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b89177c672ce148a337474d383bc6f1586d870af47577bd0b6602523fb98137f",
+      "evidence": "The displayed presentation is F(S) modulo the normal closure of R and requires S as a set. Free-group, normal-closure, quotient-group, and set directly support each construction.",
+      "previous_prerequisites": [
+        "algebra-groups/free-group",
+        "algebra-groups/normal-closure",
+        "algebra-groups/quotient-group",
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "algebra-groups/free-group",
+        "algebra-groups/normal-closure",
+        "algebra-groups/quotient-group",
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "algebra-groups/hall-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47014e4a01ff99f7f559dff9b2cf95b520ed4866bbc9f9597fe93ab40cfdeb88",
+      "evidence": "The definition assumes a finite group and subgroup and sets gcd(|H|,[G:H])=1. Group, subgroup, index, and gcd are direct; Sylow/solvable material is explanatory context retained as linked content.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/index-of-subgroup",
+        "algebra-groups/sylow-subgroup",
+        "algebra-groups/solvable-group",
+        "algebra-rings/gcd"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/index-of-subgroup",
+        "algebra-groups/sylow-subgroup",
+        "algebra-groups/solvable-group",
+        "algebra-rings/gcd"
+      ]
+    },
+    {
+      "id": "algebra-groups/inner-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6c8e57d27b55bad9fceb997013f6d6a96976b41dc44a8734d2a68a70a206dac",
+      "evidence": "The core defines c_g(x)=gxg⁻¹ as an automorphism and Inn(G) as a subgroup of Aut(G). Group, automorphism-group, and subgroup supply the exact ambient and containment notions; quotient/center facts are later remarks.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/automorphism-group",
+        "algebra-groups/subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/automorphism-group",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/internal-direct-product",
+      "outcome": "corrected",
+      "source_sha256": "91d13a0dd6423dc5b6ef5d73acdf2639ebca853d6dd7683025506a0eeea90d30",
+      "evidence": "The definition requires N,H subgroups, both normal, trivial intersection, and NH=G, then concludes the multiplication map is an isomorphism to a direct product. Intersection-of-subgroups was added for the explicit N∩H condition.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/trivial-subgroup",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/direct-product-groups"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/trivial-subgroup",
+        "algebra-groups/intersection-of-subgroups",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/direct-product-groups"
+      ]
+    },
+    {
+      "id": "algebra-groups/internal-semidirect-product",
+      "outcome": "corrected",
+      "source_sha256": "7c990edf26e550bff5e2954fa8c8671d1448afac9fa52227ff3f955825df9fef",
+      "evidence": "The definition requires N normal, N∩H={e}, NH=G, and uses conjugation H→Aut(N) to identify G with N⋊H. Intersection-of-subgroups was added for the explicit intersection condition.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/conjugation-action",
+        "algebra-groups/semidirect-product",
+        "algebra-groups/trivial-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/intersection-of-subgroups",
+        "algebra-groups/conjugation-action",
+        "algebra-groups/semidirect-product",
+        "algebra-groups/trivial-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/intersection-of-subgroups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "490cd3759434fc9d211671897804867ae8ab2e2f5124cbc76117f647d70bf24a",
+      "evidence": "The proposition defines the intersection of a family of subgroups and proves it is a subgroup, including the empty-intersection=G edge case. Group, subgroup, and set support the quantified family and construction.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "shared-foundations/set"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "shared-foundations/set"
+      ]
+    },
+    {
+      "id": "algebra-groups/jordan-holder-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b36f2d91f4902eb181829493d04d0e811c32167fae71b0055f33f922a3f943a",
+      "evidence": "The theorem assumes a group with a finite composition series and concludes equal lengths and isomorphic factor multisets. Composition-series, simple-group, and group-isomorphism supply the hypotheses and conclusion.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/composition-series-group",
+        "algebra-groups/simple-group",
+        "algebra-groups/group-isomorphism"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/composition-series-group",
+        "algebra-groups/simple-group",
+        "algebra-groups/group-isomorphism"
+      ]
+    },
+    {
+      "id": "algebra-groups/jordan-holder-uniqueness",
+      "outcome": "corrected",
+      "source_sha256": "6d1d55200360da9e24d6dab8191da36984a76fff6cf1b06162759d3a58420f91",
+      "evidence": "The core compares two composition series, explicitly quantifies quotient factors and an isomorphism permutation. Group-isomorphism was added for the displayed factor equivalences; quotient and simple-group support each factor.",
+      "previous_prerequisites": [
+        "algebra-groups/composition-series-group",
+        "algebra-groups/quotient-group",
+        "algebra-groups/simple-group",
+        "algebra-groups/jordan-holder-theorem-groups",
+        "algebra-groups/schreier-refinement-theorem"
+      ],
+      "prerequisites": [
+        "algebra-groups/composition-series-group",
+        "algebra-groups/quotient-group",
+        "algebra-groups/simple-group",
+        "algebra-groups/group-isomorphism",
+        "algebra-groups/jordan-holder-theorem-groups",
+        "algebra-groups/schreier-refinement-theorem"
+      ]
+    },
+    {
+      "id": "algebra-groups/kernel-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d227ec98c3967840acbc06c2b9f60cda0e5625c085c7312d43164288d09c275e",
+      "evidence": "The kernel is defined as the subgroup φ⁻¹({e_H}) of a homomorphism. Group-homomorphism and subgroup directly support the map and claimed subgroup; normality and quotient are remarks.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/kernel-is-normal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb41b6b396d5189964b2ab863afab8e538758f482ad222c0d4bcda7252f3c22c",
+      "evidence": "The proposition takes a homomorphism and its kernel and concludes normality. The three listed targets exactly supply map, kernel, and conjugation-invariant subgroup conclusion.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/kernel-of-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bffd15eca55015a0ee57c264fe2511f0d39822700271aca2f9ced7ddce7a7ed8",
+      "evidence": "The core defines the action kernel as elements fixing every x. Group-action is the direct prerequisite; normality, permutation homomorphism, and faithfulness are consequences stated afterward.",
+      "previous_prerequisites": [
+        "algebra-groups/group-action"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-action"
+      ]
+    },
+    {
+      "id": "algebra-groups/kernels-are-normal",
+      "outcome": "corrected",
+      "source_sha256": "ca8c3fe4ffbd74f334d9fa566d9a65a6a1621a6f424097aa337ead93f84a8dcf",
+      "evidence": "The core proves a homomorphism kernel is normal. Homomorphism, kernel, and normal-subgroup are the only direct terms; quotient and first-isomorphism links are explanatory consequences. Integration classification: the reviewed current source includes a repair relative to the preceding validated commit.",
+      "previous_prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/kernel-group",
+        "algebra-groups/normal-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/krull-remak-schmidt-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca77c6d241fd0de356925aa0e8db9dfb4c09d6befc1451671e801ff45da3adab",
+      "evidence": "The theorem assumes chain conditions on normal subgroups and compares direct-product decompositions into directly indecomposable factors, concluding isomorphism after permutation. Group, normal-subgroup, direct-product, and group-isomorphism match the statement.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/direct-product-groups",
+        "algebra-groups/group-isomorphism"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/direct-product-groups",
+        "algebra-groups/group-isomorphism"
+      ]
+    },
+    {
+      "id": "algebra-groups/lagranges-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b0b7dc3a17e7a0a134d14ced98b392cfbfcf3a9ccea2cd8d98ed4e6a016135e6",
+      "evidence": "The finite-group theorem partitions G into equal-cardinality cosets and states |G|=[G:H]|H|. Group, subgroup, coset, cardinality, partition, and index each occur in the displayed conclusion.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/coset",
+        "shared-foundations/cardinality",
+        "shared-foundations/partition",
+        "algebra-groups/index-of-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/coset",
+        "shared-foundations/cardinality",
+        "shared-foundations/partition",
+        "algebra-groups/index-of-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/lattice-ordered-abelian-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe350125486fcba2a547679a0afc348d0e8a388bef895f0c199d7313be681cd4",
+      "evidence": "The definition combines an abelian group, partial order, lattice joins/meets, and translation invariance. The three listed targets provide precisely these structures; homomorphisms are a later morphism section.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "shared-foundations/partial-order",
+        "shared-foundations/lattice"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "shared-foundations/partial-order",
+        "shared-foundations/lattice"
+      ]
+    },
+    {
+      "id": "algebra-groups/left-multiplication-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70e006806aa72664ba62f33d77c84082da5079bfb6449dbf66835b379df69ab3",
+      "evidence": "The proposition defines g·x=gx and explicitly concludes the action is transitive and free, hence regular. Group, group-action, and regular-action are therefore all justified by the theorem statement.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-action",
+        "algebra-groups/regular-action"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-action",
+        "algebra-groups/regular-action"
+      ]
+    },
+    {
+      "id": "algebra-groups/loop",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e4039611e78c19e5c80cf03a691f8e248913d315d79116697652fa9550bdf53",
+      "evidence": "A loop is defined as a quasigroup with an identity; the unique left/right division conditions are inherited from quasigroup and identity is stated locally. Quasigroup is the direct prerequisite.",
+      "previous_prerequisites": [
+        "algebra-groups/quasigroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/quasigroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/lower-central-series",
+      "outcome": "corrected",
+      "source_sha256": "45d8eb64fc436cd842a3a1b41b14f05c69985d549ee4d2ffd509fd98fe070ad5",
+      "evidence": "The recursion defines γₙ₊₁=[γₙ,G] using the subgroup generated by explicit commutators. Group, commutator, and generated-subgroup supply the displayed construction; nilpotence examples are optional.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/commutator"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/commutator",
+        "algebra-groups/generated-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/magma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3e8942747d95e1ad78d23b0dcafb259c72d762b04248e7ce07d395f6f3953e5",
+      "evidence": "The core is exactly a set with a binary operation and no further axioms. Set and binary-operation directly provide both defining ingredients.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "shared-foundations/binary-operation"
+      ]
+    },
+    {
+      "id": "algebra-groups/nielsen-schreier-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be46531d175f3bf4c6c223b6d3f7adbca1671df5390678b1d0a63d66b617e311",
+      "evidence": "The theorem assumes a free group and subgroup, then gives freeness and, under finite rank/index, the formula rank(H)=1+[F:H](n−1). Free-group, subgroup, and index support the hypotheses and equation.",
+      "previous_prerequisites": [
+        "algebra-groups/free-group",
+        "algebra-groups/subgroup",
+        "algebra-groups/index-of-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/free-group",
+        "algebra-groups/subgroup",
+        "algebra-groups/index-of-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/nilpotent-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f5fe376b2913fe3f1ce918bf36b2101b13f9df1cb89e35e16dc9123b1f5eb8c",
+      "evidence": "Nilpotence is defined by termination of the lower central series at {e}; group and lower-central-series are the direct defining prerequisites. p-group, quaternion, upper-central, and solvability statements are examples/equivalences.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/lower-central-series"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/lower-central-series"
+      ]
+    },
+    {
+      "id": "algebra-groups/normal-closure",
+      "outcome": "corrected",
+      "source_sha256": "0da4ed0607feb87688cbd1bb88b22e978035c48b89733c7093c39cecad9a945f",
+      "evidence": "The core takes a subset A and defines the intersection of all normal subgroups containing it, equivalently the subgroup generated by conjugates. Subset and intersection-of-subgroups were added alongside group, normal-subgroup, and generated-subgroup.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/generated-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/subset",
+        "algebra-groups/normal-subgroup",
+        "algebra-groups/intersection-of-subgroups",
+        "algebra-groups/generated-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/normal-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bea54c7812062a98001e396ee6e6dcc0eb2dc3ed1d7fc827ad6f1ef91729157d",
+      "evidence": "The core defines H◁G by gHg⁻¹=H for every g, with G and H≤G as hypotheses. Group and subgroup are the direct defining inputs; coset, quotient, and conjugation references are explanatory consequences.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/normal-subgroup-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ab84700991fb2b9b8c0e1e8cf725cf965253e108002f30e057b571017318321",
+      "evidence": "The criterion assumes G and N≤G and concludes normality exactly when gng⁻¹∈N. Group, subgroup, and normal-subgroup provide the stated hypotheses and output.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/normal-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/normal-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/normalizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f56dbcc838c84955582da9f1535098cf5593255b305deaa23954a4d5c1e252d7",
+      "evidence": "The core defines N_G(H)={g:gHg⁻¹=H} and proves it is a subgroup containing H. Group and subgroup supply the ambient operation and H; normality appears only as an equivalent interpretation.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/orbit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2d62d1c347d02daa82a33413f0460df62e69d16b6acac00aa63f043188982d7",
+      "evidence": "Given a group action, the core defines G·x={g·x:g∈G}⊂X. Group-action is the direct prerequisite; partition and stabilizer are later consequences.",
+      "previous_prerequisites": [
+        "algebra-groups/group-action"
+      ],
+      "prerequisites": [
+        "algebra-groups/group-action"
+      ]
+    },
+    {
+      "id": "algebra-groups/orbit-decomposition-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "654ea0b1f5fb37d249b1cf58ca4f4ac4b45d61cfb256741ff950e3b46a304b33",
+      "evidence": "The lemma assumes a group acting on a set and concludes its distinct orbits partition X. Group, set, orbit, and partition correspond exactly to the hypotheses and output.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/set",
+        "algebra-groups/orbit",
+        "shared-foundations/partition"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/set",
+        "algebra-groups/orbit",
+        "shared-foundations/partition"
+      ]
+    },
+    {
+      "id": "algebra-groups/order-divides-group-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9da83a942dfcd4bf1dc9081b2197f5d7531dfe570c95fce11760d1d705f467b0",
+      "evidence": "For finite G, the theorem defines ord(g) as least n with gⁿ=e and concludes ord(g)| |G|. The only defining ambient input is a finite group; cyclic-subgroup and Lagrange are explanatory equivalent/corollary links.",
+      "previous_prerequisites": [
+        "algebra-groups/group"
+      ],
+      "prerequisites": [
+        "algebra-groups/group"
+      ]
+    },
+    {
+      "id": "algebra-groups/ordered-abelian-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe825e6db89f8aaf6b88ad6a5445aee7dc4f912424a6a2b3c42ba10cd462f669",
+      "evidence": "The definition combines an abelian group with a translation-invariant total order. Abelian-group and total-order directly provide both structures; positive-cone details are equivalent characterization prose.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "shared-foundations/total-order"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "shared-foundations/total-order"
+      ]
+    },
+    {
+      "id": "algebra-groups/p-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "45fc693919d6f71ed43896797f8f0a2deed0ec644bfffc80049dd8fb67133d19",
+      "evidence": "A p-group is defined by element orders p^k, equivalently finite cardinality p^n. Group and cardinality supply the two formulations; center and Sylow links are later remarks.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/cardinality"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/cardinality"
+      ]
+    },
+    {
+      "id": "algebra-groups/p-group-nontrivial-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "051a39c2a2d588569aeab484d582d5658ed49a4404f12b9584692b585dafc092",
+      "evidence": "The theorem assumes a finite p-group of order p^n with n≥1 and concludes its center has size divisible by p. P-group and center are the exact hypothesis/output concepts.",
+      "previous_prerequisites": [
+        "algebra-groups/p-group",
+        "algebra-groups/center-of-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/p-group",
+        "algebra-groups/center-of-group"
+      ]
+    },
+    {
+      "id": "algebra-groups/p-group-nontrivial-center-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4edce25f00af769023e19cb4cb9a0c62bfc2d8b1b5c7e656d44eb7b74c1c2c24",
+      "evidence": "The corollary states p|Z(G)| for a finite p-group and illustrates D₈. P-group and center directly supply the hypothesis and conclusion; the class-equation proof is a remark.",
+      "previous_prerequisites": [
+        "algebra-groups/p-group",
+        "algebra-groups/center-of-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/p-group",
+        "algebra-groups/center-of-group"
+      ]
+    },
+    {
+      "id": "algebra-groups/p-group-subgroups-all-orders",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bbfcd0fafa6d360a984f2bc408942488de4d0e27d42761f755ccb80abd61452e",
+      "evidence": "The proposition assumes a finite p-group |G|=p^n and concludes a subgroup of every order p^k, including k=0,n. P-group and subgroup match the structural hypothesis and output.",
+      "previous_prerequisites": [
+        "algebra-groups/p-group",
+        "algebra-groups/subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/p-group",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/perfect-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6852a01737699816fb47a3bfbae9bb16efe684540ed9d129804ee3a2f29f96c0",
+      "evidence": "The definition is [G,G]=G, with commutator-subgroup supplying the derived subgroup and group the ambient object. Abelian/simple consequences are examples/equivalences.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/commutator-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/commutator-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/permutation-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed2c1dcb36215ee6edf616beb8f20a4f582a9d89f0c6ad811fc8325def8cd32d",
+      "evidence": "The definition is a homomorphism G→Sym(X), equivalently an action, with Sym(X) consisting of bijections. Group, group-homomorphism, bijective-function, and group-action are all direct ingredients.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/bijective-function",
+        "algebra-groups/group-action"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/group-homomorphism",
+        "shared-foundations/bijective-function",
+        "algebra-groups/group-action"
+      ]
+    },
+    {
+      "id": "algebra-groups/pgl-psl-comparison",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7833d019ab38b99281a41fdefab9c1f5a2b8305aac308fa4453b6dca43b530fb",
+      "evidence": "The theorem defines determinant modulo nth powers on PGL and identifies kernel PSL in a short exact sequence. Projective groups, determinant, and exact-sequence targets support each displayed term and the field-specific examples.",
+      "previous_prerequisites": [
+        "algebra-groups/projective-general-linear-group",
+        "algebra-groups/projective-special-linear-group",
+        "linear-algebra/determinant",
+        "algebra-groups/exact-sequence-groups"
+      ],
+      "prerequisites": [
+        "algebra-groups/projective-general-linear-group",
+        "algebra-groups/projective-special-linear-group",
+        "linear-algebra/determinant",
+        "algebra-groups/exact-sequence-groups"
+      ]
+    },
+    {
+      "id": "algebra-groups/prime-order-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd30255287eae46a256b57bd30196e4d8185845d0a7e3fd30a4c4ba1c038b937",
+      "evidence": "A finite group of prime order has every nonidentity element generate G. Group is the direct hypothesis; Lagrange and cyclic-subgroup occur only in context/conclusion notation.",
+      "previous_prerequisites": [
+        "algebra-groups/group"
+      ],
+      "prerequisites": [
+        "algebra-groups/group"
+      ]
+    },
+    {
+      "id": "algebra-groups/product-of-normal-subgroups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "576a89ed57cc0f8665b3dcec2a0b8aabc565d584dd1fc104db0f79b27b822189",
+      "evidence": "The proposition assumes two normal subgroups and proves NM=MN and normality using conjugation. Group and normal-subgroup are the exact inputs to the displayed set and proof.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/normal-subgroup"
+      ]
+    },
+    {
+      "id": "algebra-groups/projective-general-linear-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d4aaba432c8ec4165fc16d16ac3eb2b834bb8a8d4997661e5723f11fed95120",
+      "evidence": "PGL(V)=GL(V)/(k×I) requires a nonzero finite-dimensional vector space, the general linear group, and quotient group. The projective-space action and PSL comparison are later sections.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "lie-groups/general-linear-group",
+        "algebra-groups/quotient-group"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "lie-groups/general-linear-group",
+        "algebra-groups/quotient-group"
+      ]
+    },
+    {
+      "id": "algebra-groups/torsion-free-group",
+      "outcome": "corrected",
+      "source_sha256": "f256369775f8c0f1b9a367c0829e8b5ffa8bd186f1561e1954f89682bf1c9056",
+      "evidence": "The definition quantifies powers g^n=e and concludes g=e, so group is the only prerequisite. Free groups appear as an example of torsion-free groups, not a defining input.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/free-group"
+      ],
+      "prerequisites": [
+        "algebra-groups/group"
+      ]
+    }
+  ],
+  "triage_records": [
+    {
+      "id": "algebra-groups/orbit-stabilizer-theorem",
+      "source_sha256": "38c05551cac76c721c48c6c46e40117babc9466ca3d41a3c76e9f85355e25b4c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/outer-automorphism-group",
+      "source_sha256": "e0b0a1f7c3ca49f010d65834f6331fb522f1889c67019bf85ed37839326d363d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/p-squared-abelian",
+      "source_sha256": "0146f405057a0f40818990c880f23a0f1965f8326f18867a7b3e0f74b477cbcc",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/projective-special-linear-group",
+      "source_sha256": "854c56411d7f787a7fbb1163eaae75152bc1cf889c026824392fe4086207547f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/proper-subgroup",
+      "source_sha256": "f398e36501f11e1a951b63598eb6b91720c4ce0504fdb18abc8d685e243e78b4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/quasigroup",
+      "source_sha256": "21d8a2c9775ddb6f7a4590d4d5e3a5700640eb26a2b5b1889dfdf29c6225d338",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/quaternion-group",
+      "source_sha256": "f1240e2321aaa311fadee63abb899df222114694a8491b67ca57564adfd901c6",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/quotient-group",
+      "source_sha256": "fb2435c70d57b332059c56d7abfa4bc8df63982c45fd91d6b6e005cbc93a57d0",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/quotient-group-universal-property",
+      "source_sha256": "d0607bf6b317fd1d60bf1c11710d9a45e7cd98c3c5b2f5960ee4d5b881273a10",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/regular-action",
+      "source_sha256": "76be92b71eb9cf1fd30f0c44c0fd8d706ae643d6e0c330eca499e396259c18c4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/schreier-refinement-theorem",
+      "source_sha256": "bb79478e5f4b554c9d92d5f2170fa4efffe5dcb4e4392e68453fbd9c23324344",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/schreiers-lemma",
+      "source_sha256": "89674da289b3b1fcd1b86ff358ee7aeb8785348d14ed732068c9cf2196fe77de",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/schur-zassenhaus-theorem",
+      "source_sha256": "86f8952d03f5917e08c1fbda34832530c07bf7119d1f5a88eee159b207ab7d45",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/second-isomorphism-theorem-groups",
+      "source_sha256": "62991bd925ba856906d99b3d0a2b4f54307fcd35df856545c1b7750eb71d868e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/semidirect-product",
+      "source_sha256": "7d710c239bd0920b0b51afffae129cb9a1519c97c273d8d201e58430f23f0de5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/semidirect-product-splitting",
+      "source_sha256": "a488a261358983dd7ee8ed86ab65ef67cdddf965e637989148d12461a1d7ade0",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/simple-group",
+      "source_sha256": "6609a5f889323db5adf4d602c5dcf491ca3391d80924ab34e84bd215c3c85396",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/solvable-group",
+      "source_sha256": "36e659243d45c7d67a6c3e6d074e620799b0d66907368d6999bb561d97647ed9",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/split-extension",
+      "source_sha256": "23a38c2863c0307a39298bf21f48616e2e2ea0cbec33b1470372e703f2facda8",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/stabilizer",
+      "source_sha256": "4fd2645c829b451558907cfd79d419d45e320e07658532abff7589e76f95a52e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/subgroup",
+      "source_sha256": "7da1f4f529c9837a62c741bf3b73541e00786fe4f97dc20773bd17ca7fc6a939",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/subgroup-test-one-step",
+      "source_sha256": "e7849d3361f38f3e423f853d60166286637d68cac543884822793b89d4f27be8",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/subgroup-test-two-step",
+      "source_sha256": "ea52de5e84c57101c4379daa838a4ddd5f604bf6907bd6c675133a16db733914",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/subgroups-closed",
+      "source_sha256": "da50d0818e4fa863961ce53dac61bc7b31046a8221461fec702cf972c75253c7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/subgroups-of-cyclic-are-cyclic",
+      "source_sha256": "b3bae00c8c2099ac1f61d0e9945f885cb2bb235d54153d2f1e1df2707a6c0900",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/subnormal-series",
+      "source_sha256": "32e34509214eda7a6522d8f72db4884ca1845f1b4fb2a49518c14d0de7dff9da",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/sylow-congruence",
+      "source_sha256": "c2874e6390f9f50c0e5924908ea1629c45038c80e40d3d97db192456b8a78155",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/sylow-conjugacy-lemma",
+      "source_sha256": "74930e4aac6dfc5e6deb0ce3a6ae07aada8f534a889cca1d260efe34fdc9d5e4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/sylow-normal-criterion",
+      "source_sha256": "b42f7a8016eec2a1f350804fb2691543dcd245fe20cb4af6202cd61bf301aa7f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/sylow-subgroup",
+      "source_sha256": "eeb49d7b95a5c751c5fe4f1c2f10a924eff775437827b3d5a98f4babb197693e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/sylows-first-theorem",
+      "source_sha256": "15c6a9e9a7f554138eac8a58a6fb22b6a5a5ec73b5647b495201684896a806da",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/sylows-second-theorem",
+      "source_sha256": "37e6e27298cc0e2479db310ecc4ce669ef1fbc053c530c18167e8c98a2337f2c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/sylows-third-theorem",
+      "source_sha256": "dfb2deaea61e7abd77383cf474006afbbf03b23dfb694414505016449d1c7f60",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/third-isomorphism-theorem-groups",
+      "source_sha256": "5599c84529e4795b78ebb392217703ae6c5895bf6cbafc22a5c4a3867649da51",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/transitive-action",
+      "source_sha256": "57f4f7caeea7a3408e1e36bdb7e5a2c06fd7b586ac4119ef15bc579a6409b6c1",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/trivial-subgroup",
+      "source_sha256": "80606dc88524fa96327bb415a2925133827a9cd3cd8c5481d61f5f2dd305fff2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/uniqueness-of-identity-group",
+      "source_sha256": "478425de05a0c8e12a9c9d973756f2d8c29e41c179ee82a55c1cbef8023a29ba",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/uniqueness-of-inverses-group",
+      "source_sha256": "0aaa6b3f688783432cc244a403985b36b3f057a8bd9074bc9a8dc7074f9f9d7f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/unital-magma",
+      "source_sha256": "f73a611b6842d0b142b770537f2e4387a30c98fb776ad0fcfc8c8c14175341b5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/upper-central-series",
+      "source_sha256": "c300df8f9649de6293a2c9f1a752dc46faf7778b28b39a8a15fd29809b47e136",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups",
+      "source_sha256": "0267cdb004716701ee6efc0dc8d0546898d15bbf2308b549b44522077d7cd1df",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/abelian-all-subgroups-normal",
+      "source_sha256": "f95291fde643fcf219ce9bd31771a08c65d9b92fe5cd789ef2771949f2018dc1",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/automorphism-group-cyclic",
+      "source_sha256": "456e489bb1794bf3a4df30987f67f4f7df0abdb3674cfc47beb7afd61ddfd2f7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/burnsides-lemma",
+      "source_sha256": "fd48421a90b13a16d841da4af12bf6b1f7036327d7581ef55c573c611f2942a8",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/burnsides-pq-theorem",
+      "source_sha256": "989c07f166f74bceafed3e189c16179e854aba7d4da265e2fc863aa1208aaed6",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/cancellation-laws-group",
+      "source_sha256": "9d2a5ccce914d6b05c6acffdd62cbd067de3efdd0366ed788fbc4f41db030856",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/cauchys-theorem-groups",
+      "source_sha256": "20cf6afc5c4084e90bba5b3a2567814e6358304e0b4d00d6b0932c2b66d1cf2f",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/cayleys-theorem",
+      "source_sha256": "aee66fc01c3be58252e999c3598ff1c2d2a48370394ca52780052575b1698634",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/center-is-characteristic",
+      "source_sha256": "98a8496bbd5b42d7ddecf13b0b00e49af604d67105407c317c3289d99db030b2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/center-of-group",
+      "source_sha256": "b836ae0a36f4dbd5f8d4ffe7c5d7dfba0696a87640e31d607a9dc914f7d43938",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/central-extension",
+      "source_sha256": "fbcbb961930f52345f7291a730140bf40bf7dbf12547c28d4eff2529ac0e1541",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/centralizer",
+      "source_sha256": "b7b39c5b8d13672d10e139aef6ce91e164b7fcb421acf5e5f98caead5b8c434c",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/characteristic-subgroup",
+      "source_sha256": "095789f028420917015aa7983df44606ed03e77c5041af0f97a75cf9ac4c3ef1",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/chief-series",
+      "source_sha256": "48787e7126e24472d3e6c0059d01742a7a59eb9297cf301b0c4320f364478a94",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/class-equation",
+      "source_sha256": "b19eb05a04f4b9e52780e19415607cbc93a6d14e52e8dd8d366056ecb2ed1cde",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/class-equation-decomposition",
+      "source_sha256": "e662b85d611029c28ed94d626247abddfe0b91fd07be862da1223207af0882d1",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/class-function",
+      "source_sha256": "3756451e2d3017212e3ad999aa08f3df1a8d02e603a9bd6b80e5965e26a4c08d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/classification-finite-abelian-groups",
+      "source_sha256": "a99e19a9f96e3ef306ed59260a15391ffa739c15773ea5f6c4bd0739dde2690e",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/commutative-monoid",
+      "source_sha256": "e02611ad1e04f58c05a7f7db49532132b521cd28b54e93c106cfb901bde3e7ec",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/commutator",
+      "source_sha256": "16da00fbed910599cc4f4bcfb3db6091fadcdde5afcccb13d00d7e8e4c61dc4a",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/commutator-subgroup",
+      "source_sha256": "2d92cbc96462d94e9f3161007220e0c4a2ff68038b22a1bcd5255ed94e133bdc",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/composition-series-group",
+      "source_sha256": "f2a31d06d69f8a2d123c51b978e807b1d3a0dea1f4c8c8e5e320b1afca6ecd19",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/conjugacy-class",
+      "source_sha256": "0339b933c5a06a7c3ca8439479b28bbc1805435bf5b1247e9bad3d7c1eb6d117",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/conjugate-element",
+      "source_sha256": "fd1520db81b0934be242718c3dbec0b062273fc0804dab2afeb557b5d9804fb4",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/conjugation-action",
+      "source_sha256": "4ca251fa1e2f0a4d1c82139f02f6fd5b9a9a6723c36934bd9d4e840bb4e3bee7",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/conjugation-action-self",
+      "source_sha256": "b8c2360dc4bb2183edcfd1fac5a4b4180cd719aed33b827cd20f84e90780e0f6",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/conjugation-preserves-order",
+      "source_sha256": "8728de14a61d46e08c94c9ef6ed7fc5dfa727a1e2339ed304a12982a770b5f64",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/coset",
+      "source_sha256": "f53859a14033b211ba1b1b62a98546d444f5c3d70f62cbf66e91199568ff4ece",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/cosets-partition",
+      "source_sha256": "909a2815343ade0254a276dd4395f0f67371666aa0259d7fa916c1219d5f61c2",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/cyclic-subgroup",
+      "source_sha256": "53acff01955bc5acfe8bd75325239350a82d561dc9ccc4624e147c456c75c872",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/decomposition",
+      "source_sha256": "43635ea91b0bed4b53d323713c65ae931ad5028fb4993760ad892742b2dac0f5",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/direct-product-groups",
+      "source_sha256": "49b8d8a27909e38eca67dbd8a65c3a6eb92084ffa7a37148ec765fe22986f791",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/direct-sum-groups",
+      "source_sha256": "3804a1d9d6951ee92d69a33f34d5ed53dcf8204160eb23c58287fc6f53b0d36b",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/faithful-action",
+      "source_sha256": "fe49c20beb0727e6d675f5eb5d73b9df5be74a9edd456092d345ec44b9320ddb",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/image-group",
+      "source_sha256": "785fe6db61fc5d20774f7ebc6cb06c39bb879c1b30705357db291b68c023150a",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/image-is-subgroup",
+      "source_sha256": "27146095cdc0656861ff775a8d14b8eb5ce9f3b692e8a0a0617691c180e626aa",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/index-2-normal",
+      "source_sha256": "57822556860d70d6f515782f6d579cbd51385f368ef851fd23daf01f1e7a968a",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    },
+    {
+      "id": "algebra-groups/index-of-subgroup",
+      "source_sha256": "e1437a6e4ef6bb9a05d70f507e047e1d09520e3ad1204d296d0d74f78ec0c47d",
+      "status": "pending_full_semantic_review",
+      "reason": "Prior scripted record withdrawn: full source and direct prerequisite targets have not yet been individually semantically reviewed."
+    }
+  ]
+}

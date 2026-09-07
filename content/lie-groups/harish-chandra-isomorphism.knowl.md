@@ -6,7 +6,7 @@ summary = "The theorem identifying the center of a semisimple enveloping algebra
 aliases = ["radial component isomorphism for Z(U(g))", "Harish-Chandra homomorphism"]
 domains = ["lie-groups", "algebra-representation-theory"]
 section_mode = "progressive"
-prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/weyl-group"]
+prerequisites = ["lie-groups/semisimple-lie-algebra", "lie-groups/cartan-subalgebra", "lie-groups/positive-root", "lie-groups/center-of-universal-enveloping-algebra", "lie-groups/weyl-group", "lie-groups/pbw-theorem"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

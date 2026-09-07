@@ -6,7 +6,7 @@ summary = "How a large deviation principle transfers through a continuous mappin
 aliases = ["contraction-principle-ldp", "Contraction principle"]
 domains = ["large-deviations"]
 legacy_source_path = "large-deviations/contraction-principle-ldp.md"
-prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "probability/random-variable"]
+prerequisites = ["probability/probability-measure", "large-deviations/large-deviation-principle", "large-deviations/rate-function", "topology/continuous-map", "measure-theory/pushforward-measure"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

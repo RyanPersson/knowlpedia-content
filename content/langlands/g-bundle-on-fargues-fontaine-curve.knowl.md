@@ -6,7 +6,7 @@ summary = "A principal G-bundle on a Fargues-Fontaine curve, classified on geome
 aliases = ["G-bundle on the Fargues–Fontaine curve", "Fargues G-bundle", "Bun_G on the Fargues-Fontaine curve"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "algebra-category-theory/tannakian-category", "algebraic-geometry-foundations/perfectoid-space", "algebraic-geometry-foundations/v-stack"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/nonarchimedean-local-field", "langlands/fargues-fontaine-curve", "algebraic-geometry-foundations/principal-g-bundle-on-scheme", "algebra-category-theory/tannakian-category", "algebraic-geometry-foundations/perfectoid-space", "algebraic-geometry-foundations/v-stack"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

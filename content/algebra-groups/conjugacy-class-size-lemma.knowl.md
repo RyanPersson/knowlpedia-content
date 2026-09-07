@@ -6,7 +6,7 @@ summary = "The size of a conjugacy class equals the index of the centralizer."
 aliases = ["conjugacy-class-size-lemma", "Conjugacy Class Size Lemma"]
 domains = ["algebra-groups"]
 legacy_source_path = "algebra-groups/conjugacy-class-size-lemma.md"
-prerequisites = ["algebra-groups/group", "algebra-groups/conjugacy-class", "algebra-groups/centralizer", "algebra-groups/index-of-subgroup", "algebra-groups/orbit-stabilizer-theorem"]
+prerequisites = ["algebra-groups/group", "algebra-groups/conjugacy-class", "algebra-groups/centralizer", "algebra-groups/index-of-subgroup", "algebra-groups/orbit-stabilizer-theorem", "algebra-groups/conjugation-action"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

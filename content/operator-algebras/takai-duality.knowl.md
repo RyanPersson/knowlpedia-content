@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system| \(C^*\)-dynamical system]] with \(G\) [[topology/locally-compact-space|locally compact]] abelian, and let
+Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system| \(C^*\)-dynamical system]] with \(G\) [[topology/locally-compact-group|locally compact]] abelian, and let
 \(\widehat\alpha\) be the [[operator-algebras/dual-action-crossed-product| dual action]] on \(A\rtimes_\alpha G\). **Takai duality** gives a canonical
 \(*\)-isomorphism
 \[

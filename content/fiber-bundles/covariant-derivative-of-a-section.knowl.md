@@ -7,8 +7,8 @@ aliases = ["covariant-derivative-of-a-section", "Covariant derivative of a secti
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/covariant-derivative-of-a-section.md"
 prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/leibniz-rule-for-a-connection"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_heuristic = "axiomatic-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\). For a [[fiber-bundles/vector-field|vector field]] \(X\) on \(M\) and a section \(s\in\Gamma(E)\), the connection produces another section \(\nabla_X s\).
@@ -20,7 +20,7 @@ Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with a [[fiber
 defined by the connection’s bilinear map \(\nabla:\mathfrak X(M)\times\Gamma(E)\to\Gamma(E)\). It is characterized by:
 - \(C^\infty(M)\)-linearity in \(X\): \(\nabla_{fX}s=f\,\nabla_X s\),
 - \(\mathbb R\)-linearity in \(s\), and
-- the Leibniz rule in the section slot (see [[fiber-bundles/leibniz-rule-for-a-connection|Leibniz rule for a connection]]).
+- the [[fiber-bundles/leibniz-rule-for-a-connection|Leibniz rule]] \(\nabla_X(fs)=X(f)s+f\nabla_Xs\) in the section slot.
 
 ## Equivalent characterizations
 

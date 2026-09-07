@@ -6,7 +6,7 @@ summary = "For a connected Lie group, ker(Ad) equals the center."
 aliases = ["kernel-of-ad-is-center-lemma", "Kernel of the group adjoint representation"]
 domains = ["lie-groups"]
 legacy_source_path = "lie-groups/kernel-of-ad-is-center-lemma.md"
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/adjoint-action-of-a-lie-group", "lie-groups/center-of-a-lie-group"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/adjoint-action-of-a-lie-group", "lie-groups/center-of-a-lie-group", "lie-groups/connected-lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

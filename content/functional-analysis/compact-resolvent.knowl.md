@@ -6,7 +6,7 @@ summary = "A closed operator whose resolvent is compact at one, equivalently eve
 aliases = ["compact-resolvent operator", "compact resolvent"]
 domains = ["functional-analysis", "operator-theory", "spectral-theory"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "linear-algebra/compact-operator", "functional-analysis/resolvent-identity"]
+prerequisites = ["functional-analysis/closed-linear-operator", "linear-algebra/banach-space", "functional-analysis/resolvent-set-closed-operator", "linear-algebra/compact-operator", "functional-analysis/resolvent-identity", "functional-analysis/graph-norm"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

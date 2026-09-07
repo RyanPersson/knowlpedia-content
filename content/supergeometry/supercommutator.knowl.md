@@ -6,7 +6,7 @@ summary = "The graded commutator ab - (-1)^(|a||b|)ba in an associative superalg
 aliases = ["graded commutator", "super bracket of an associative superalgebra"]
 domains = ["supergeometry", "algebra-rings"]
 section_mode = "progressive"
-prerequisites = ["supergeometry/superalgebra", "supergeometry/lie-superalgebra"]
+prerequisites = ["supergeometry/superalgebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

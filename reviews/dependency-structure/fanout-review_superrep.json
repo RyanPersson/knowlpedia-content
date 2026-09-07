@@ -1,0 +1,886 @@
+{
+  "reviews": [
+    {
+      "id": "supergeometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab0d98122ad18b585be90b6317422b830fa135abed2a55fdcd99aa0ff078779e",
+      "evidence": "Full source and direct targets checked: navigation section; no defining prerequisites",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "supergeometry/batchelor-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6fcd121eb4bcabef229ac345f3297f24c7c04a200602e761daedf089742f6fd3",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "supergeometry/supermanifold",
+        "fiber-bundles/vector-bundle"
+      ],
+      "prerequisites": [
+        "supergeometry/supermanifold",
+        "fiber-bundles/vector-bundle"
+      ]
+    },
+    {
+      "id": "supergeometry/category-of-super-vector-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e65086eb345ef9941fd80c1a5743fff6d550d98f8b27350162e93cbc516f6aa",
+      "evidence": "Full source and direct targets checked: tensor grading and Koszul braiding checked",
+      "previous_prerequisites": [
+        "supergeometry/super-vector-space",
+        "algebra-category-theory/symmetric-monoidal-category",
+        "supergeometry/koszul-sign-rule",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/super-vector-space",
+        "algebra-category-theory/symmetric-monoidal-category",
+        "supergeometry/koszul-sign-rule",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/functor-of-points-of-supermanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc7d23f023798abf38b0e379fd2e368312fbebad8a96f3dcc2597b21b38b222b",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "supergeometry/supermanifold",
+        "algebra-category-theory/contravariant-functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/yoneda-lemma"
+      ],
+      "prerequisites": [
+        "supergeometry/supermanifold",
+        "algebra-category-theory/contravariant-functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/yoneda-lemma"
+      ]
+    },
+    {
+      "id": "supergeometry/koszul-sign-rule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2cd305effea5dafa2bcdca0378a775321b0bc04d1b9800b1047a4e5e8b006f4",
+      "evidence": "Full source and direct targets checked: interchange and tensor-map signs checked",
+      "previous_prerequisites": [
+        "algebra-category-theory/symmetric-monoidal-category",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/symmetric-monoidal-category",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/lie-superalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16faa7c963526aa7df3ea76d1c92707e4a8fd246439f12d9c9ec2607e77623bd",
+      "evidence": "Full source and direct targets checked: graded skew and super-Jacobi identities checked",
+      "previous_prerequisites": [
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/lie-superalgebra-of-lie-supergroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37f91725ded5d419f0c587f7f928fb602a4785e16005385bda1ac749239f295a",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "supergeometry/lie-supergroup",
+        "supergeometry/super-vector-space",
+        "lie-groups/left-invariant-vector-field",
+        "supergeometry/lie-superalgebra",
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "supergeometry/lie-supergroup",
+        "supergeometry/super-vector-space",
+        "lie-groups/left-invariant-vector-field",
+        "supergeometry/lie-superalgebra",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "supergeometry/lie-supergroup",
+      "outcome": "corrected",
+      "source_sha256": "e3e02d36abe5a2e5ae2d28b59f7b74b51e4a7fd5927b6abe7d27a28902a8ca64",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "algebra-category-theory/group-object",
+        "supergeometry/supermanifold",
+        "fiber-bundles/lie-group",
+        "supergeometry/functor-of-points-of-supermanifold"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/group-object",
+        "supergeometry/supermanifold",
+        "fiber-bundles/lie-group",
+        "supergeometry/functor-of-points-of-supermanifold"
+      ]
+    },
+    {
+      "id": "supergeometry/lie-supergroups-and-super-harish-chandra-pairs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "66e0e7289259edb0f0c9f644d296e91f463978987f25b9d275bd32009e01fc17",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "algebra-category-theory/equivalence-of-categories",
+        "supergeometry/lie-supergroup",
+        "algebra-groups/conjugation-action",
+        "supergeometry/lie-superalgebra-of-lie-supergroup",
+        "supergeometry/super-harish-chandra-pair"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/equivalence-of-categories",
+        "supergeometry/lie-supergroup",
+        "algebra-groups/conjugation-action",
+        "supergeometry/lie-superalgebra-of-lie-supergroup",
+        "supergeometry/super-harish-chandra-pair"
+      ]
+    },
+    {
+      "id": "supergeometry/parity-shift",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "819712e2b676378aa24d788055cffdff454e8e1660c51b3bd0838febab4fa3d8",
+      "evidence": "Full source and direct targets checked: Pi swaps degrees and shifts odd maps checked",
+      "previous_prerequisites": [
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/representation-of-a-lie-superalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1d4792792bea4de019860e92e4d5e5da758899ae92a8a34a66cf5a39b8ce4d8",
+      "evidence": "Full source and direct targets checked: even rho and graded commutator checked",
+      "previous_prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "supergeometry/super-vector-space",
+        "supergeometry/super-internal-hom",
+        "supergeometry/supercommutator",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "supergeometry/super-vector-space",
+        "supergeometry/super-internal-hom",
+        "supergeometry/supercommutator",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/split-supermanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74e8b05135a83a21e5437cb494f361f3763e449d2a53a7faba008e8e00ec5ce1",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle"
+      ]
+    },
+    {
+      "id": "supergeometry/super-harish-chandra-pair",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57f0cf286a6e0c180c158c96b3a4d3874ee71f82b75c0783803d0345adad8f27",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "supergeometry/lie-superalgebra",
+        "algebra-groups/group-action",
+        "lie-groups/harish-chandra-module"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "supergeometry/lie-superalgebra",
+        "algebra-groups/group-action",
+        "lie-groups/harish-chandra-module"
+      ]
+    },
+    {
+      "id": "supergeometry/super-internal-hom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c024d66d50a4bebf8b61b12ce72fb6f06407d384118fcdc705e0a4845103f0a2",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "supergeometry/super-vector-space",
+        "supergeometry/koszul-sign-rule",
+        "supergeometry/category-of-super-vector-spaces",
+        "supergeometry/parity-shift",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/super-vector-space",
+        "supergeometry/koszul-sign-rule",
+        "supergeometry/category-of-super-vector-spaces",
+        "supergeometry/parity-shift",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/super-minkowski-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b761f3cc0374cf9796a17b9cffe7abd77642ed11dc649c2e89d9e284a814f8d8",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "supergeometry/lie-supergroup",
+        "mathematical-physics/supertranslation-algebra",
+        "lie-groups/baker-campbell-hausdorff-formula"
+      ],
+      "prerequisites": [
+        "supergeometry/lie-supergroup",
+        "mathematical-physics/supertranslation-algebra",
+        "lie-groups/baker-campbell-hausdorff-formula"
+      ]
+    },
+    {
+      "id": "supergeometry/super-pbw-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f8419831b21d5d3c2d7c0998a4c6e0c8487bb2594e6d675b9afe8929fc31ddf",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "supergeometry/universal-enveloping-algebra-of-lie-superalgebra",
+        "lie-groups/pbw-theorem",
+        "supergeometry/symmetric-algebra-of-a-super-vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "supergeometry/universal-enveloping-algebra-of-lie-superalgebra",
+        "lie-groups/pbw-theorem",
+        "supergeometry/symmetric-algebra-of-a-super-vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/super-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b784eb053939c898fe49c24a828e17e21328736922caa301d8823e639a22e4fe",
+      "evidence": "Full source and direct targets checked: graded decomposition and parity map rule checked",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/superalgebra",
+      "outcome": "corrected",
+      "source_sha256": "41bb24124d4166d028a6c5f5e0697bcdbb2557e289ce91cd3fafe53bac3401ac",
+      "evidence": "Full source and direct targets checked: defining data, hypotheses, displayed maps, and category scope checked",
+      "previous_prerequisites": [
+        "algebra-category-theory/algebra-object",
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/algebra-object",
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/supercommutative-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7426fc1eb71a2e8ec720db19d71473e0e8e162fdeecb5fec7c1f0813d3d4e748",
+      "evidence": "Full source and direct targets checked: Koszul commutativity and odd-square implication checked",
+      "previous_prerequisites": [
+        "supergeometry/superalgebra",
+        "algebra-category-theory/algebra-object",
+        "supergeometry/category-of-super-vector-spaces"
+      ],
+      "prerequisites": [
+        "supergeometry/superalgebra",
+        "algebra-category-theory/algebra-object",
+        "supergeometry/category-of-super-vector-spaces"
+      ]
+    },
+    {
+      "id": "supergeometry/supercommutator",
+      "outcome": "corrected",
+      "source_sha256": "ff682358f50886cc73d163b2e9e42a3d8036e41910a44a6ff014b73a49f0113b",
+      "evidence": "Full source and direct targets checked: graded commutator and odd anticommutator checked",
+      "previous_prerequisites": [
+        "supergeometry/superalgebra"
+      ],
+      "prerequisites": [
+        "supergeometry/superalgebra"
+      ]
+    },
+    {
+      "id": "supergeometry/universal-enveloping-algebra-of-lie-superalgebra",
+      "outcome": "corrected",
+      "source_sha256": "0fceb800a6c5e8906a57608b96704737a600a6c1dc9d6c1644a64478a707c060",
+      "evidence": "Full source checked; corrected prerequisite direction or the stated cyclic-group multiplicity error, preserving the mathematical core.",
+      "previous_prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "algebra-modules/tensor-algebra"
+      ],
+      "prerequisites": [
+        "supergeometry/lie-superalgebra",
+        "algebra-modules/tensor-algebra"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/character-orthogonality",
+      "outcome": "corrected",
+      "source_sha256": "b67d182e5e08275a929b81810cbd3755b502a8b43ceb4831bbc68723aa59fd64",
+      "evidence": "Full source checked; corrected prerequisite direction or the stated cyclic-group multiplicity error, preserving the mathematical core.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/character",
+        "algebra-groups/class-function",
+        "algebra-groups/conjugacy-class",
+        "linear-algebra/inner-product",
+        "linear-algebra/orthogonality",
+        "algebra-groups/centralizer",
+        "algebra-representation-theory/maschkes-theorem",
+        "algebra-representation-theory/schurs-lemma"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/character",
+        "algebra-groups/class-function",
+        "algebra-groups/conjugacy-class",
+        "linear-algebra/inner-product",
+        "linear-algebra/orthogonality",
+        "algebra-groups/centralizer",
+        "algebra-representation-theory/maschkes-theorem",
+        "algebra-representation-theory/schurs-lemma"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/complete-reducibility-complex",
+      "outcome": "corrected",
+      "source_sha256": "35f15b13afe3ec9d13f02e8a68c7a35fa16ce45de9de7177172f390d2784f0b5",
+      "evidence": "Full source checked; corrected prerequisite direction or the stated cyclic-group multiplicity error, preserving the mathematical core.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/completely-reducible-representation",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/subrepresentation"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/completely-reducible-representation",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/subrepresentation"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/maschkes-theorem",
+      "outcome": "corrected",
+      "source_sha256": "8c5eea7a5e565206975bafb82c35ba9f7c008cf56aa281e80bbaf2e871b130fa",
+      "evidence": "Full source checked; corrected prerequisite direction or the stated cyclic-group multiplicity error, preserving the mathematical core.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/subrepresentation",
+        "algebra-modules/semisimple-module",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/subrepresentation",
+        "algebra-modules/semisimple-module",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/number-irreducibles-conjugacy-classes",
+      "outcome": "corrected",
+      "source_sha256": "07c5b56474d01ef7c6b05a8247c5f3da2f7d42dbb83649bc2f08784f9dd2dc4a",
+      "evidence": "Full source checked; corrected prerequisite direction or the stated cyclic-group multiplicity error, preserving the mathematical core.",
+      "previous_prerequisites": [
+        "algebra-groups/class-function",
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/irreducible-character",
+        "algebra-groups/conjugacy-class"
+      ],
+      "prerequisites": [
+        "algebra-groups/class-function",
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/irreducible-character",
+        "algebra-groups/conjugacy-class"
+      ]
+    },
+    {
+      "id": "supergeometry/superdomain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9856ee7b76df0f022bd1f1af60b6c6632bef7f07cd81a2a8c69597a12055152",
+      "evidence": "Checked U^{p|q} sheaf C∞(W)⊗Λ((R^q)*) and coordinate pullbacks; superspace/structure-sheaf targets supply local model.",
+      "previous_prerequisites": [
+        "supergeometry/superspace",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ],
+      "prerequisites": [
+        "supergeometry/superspace",
+        "algebraic-geometry-foundations/structure-sheaf"
+      ]
+    },
+    {
+      "id": "supergeometry/supermanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8bf3fdceb29da41dfbe5247cd6c48b92cb506b6b4ee933df8934eebed271556",
+      "evidence": "Checked locally U^{p|q}, morphisms of locally superringed spaces, reduction O/J≅C∞, and rank J/J²; superspace/domain/nilpotent inputs fit.",
+      "previous_prerequisites": [
+        "supergeometry/superspace",
+        "supergeometry/superdomain",
+        "algebra-rings/nilpotent-element"
+      ],
+      "prerequisites": [
+        "supergeometry/superspace",
+        "supergeometry/superdomain",
+        "algebra-rings/nilpotent-element"
+      ]
+    },
+    {
+      "id": "supergeometry/supermodule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "caac746c405500ac06edf86c24094b5201ace2e66d0be73afb56bfd63592cece",
+      "evidence": "Checked graded action AiMj⊂Mi+j and internal map sign f(am)=(-1)^{ε|a|}af(m); superalgebra/vector-space inputs are direct.",
+      "previous_prerequisites": [
+        "supergeometry/superalgebra",
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/superalgebra",
+        "supergeometry/super-vector-space",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "supergeometry/superspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38613e36dc299183ce4054469f3188e2c41263363d8e07ab5dce779783b8d578",
+      "evidence": "Checked locally supercommutative stalks, residue R, and contravariant sheaf morphism f♯:OY→f*OX; continuous map and residue-field inputs fit.",
+      "previous_prerequisites": [
+        "supergeometry/supercommutative-algebra",
+        "algebra-commutative/residue-field",
+        "topology/continuous-map"
+      ],
+      "prerequisites": [
+        "supergeometry/supercommutative-algebra",
+        "algebra-commutative/residue-field",
+        "topology/continuous-map"
+      ]
+    },
+    {
+      "id": "supergeometry/supertranslation-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1b74e426eb548620c84f1c337f48541948ac1698899e93c403e122f486d08af",
+      "evidence": "Checked D spanned by odd left-invariant fields and Levi bracket mapping to Γ:S²S→V; Minkowski, left-invariant-field, and supertranslation inputs are used.",
+      "previous_prerequisites": [
+        "supergeometry/super-minkowski-space",
+        "lie-groups/left-invariant-vector-field",
+        "supergeometry/supermanifold",
+        "mathematical-physics/supertranslation-algebra"
+      ],
+      "prerequisites": [
+        "supergeometry/super-minkowski-space",
+        "lie-groups/left-invariant-vector-field",
+        "supergeometry/supermanifold",
+        "mathematical-physics/supertranslation-algebra"
+      ]
+    },
+    {
+      "id": "supergeometry/symmetric-algebra-of-a-super-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d857858b68028fbde02a2b31c2bbce881511acc81bee550c0606b19a853e1cd",
+      "evidence": "Checked tensor quotient relation v⊗w-(-1)^{|v||w|}w⊗v, free supercommutative property, and Sym(V0)⊗Λ(V1) decomposition.",
+      "previous_prerequisites": [
+        "supergeometry/super-vector-space",
+        "algebra-modules/tensor-algebra",
+        "supergeometry/supercommutative-algebra",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "supergeometry/super-vector-space",
+        "algebra-modules/tensor-algebra",
+        "supergeometry/supercommutative-algebra",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b49c753358048b6b0c9bc24828d1a20831172719568a5e498c6ca1250126270",
+      "evidence": "Navigation section only; links representation concepts and has no defining prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": []
+    },
+    {
+      "id": "algebra-representation-theory/central-character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84718eba4b2931748b6c9ce07c46710747a7e34244d956d4ac7b454a9a4fd491",
+      "evidence": "Checked scalar action π(z)=ωπ(z)Id for central z, with existence tied to irreducibility/Schur and algebraic-closed field; arbitrary reps are not incorrectly claimed to have one.",
+      "previous_prerequisites": [
+        "algebra-groups/center-of-group",
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/irreducible-representation",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebra-representation-theory/schurs-lemma"
+      ],
+      "prerequisites": [
+        "algebra-groups/center-of-group",
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/irreducible-representation",
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebra-representation-theory/schurs-lemma"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "feb26d32ba3a63f080b5fcfacc624d264bec34f8262cb0f75b5fdc86831a71eb",
+      "evidence": "Checked χρ(g)=trρ(g), conjugacy invariance, direct-sum/tensor formulas, and finite complex representation hypotheses.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "linear-algebra/trace"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "linear-algebra/trace"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/character-direct-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d10a626b80f91a098294ca2bb582fc0d977b73467b701e5de452834516ef946",
+      "evidence": "Checked block-diagonal action and trace additivity, including finite direct-sum and S3 examples.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/character",
+        "linear-algebra/trace",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/character",
+        "linear-algebra/trace",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/character-orthonormality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1e8bfe0bc467d25718b23e36f8b3d9cc01cc97bd7cca0053cc2189d23a626455",
+      "evidence": "Checked Hermitian inner product 1/|G|Σf(x)overline(g(x)) and irreducible row orthonormality; basis/multiplicity consequences retain complex finite-group scope.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/character",
+        "algebra-groups/class-function",
+        "linear-algebra/inner-product",
+        "algebra-groups/conjugacy-class"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/character",
+        "algebra-groups/class-function",
+        "linear-algebra/inner-product",
+        "algebra-groups/conjugacy-class"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/character-tensor-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25fe09c064719a70d755c341f09102fec928e4d9f9df8c6a045d5e2b284755f4",
+      "evidence": "Checked diagonal tensor action and tr(A⊗B)=tr(A)tr(B), including Cn and S3 examples.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/tensor-product",
+        "algebra-representation-theory/character",
+        "linear-algebra/trace"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/tensor-product",
+        "algebra-representation-theory/character",
+        "linear-algebra/trace"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/characters-separate-semisimple-classes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2976ffd6a6997ae87f882331e6e7db2f1014f336d7db93160ee91f7583fcfe40",
+      "evidence": "Checked connected complex reductive hypothesis, traces on semisimple elements, Weyl-invariant explanation, and disconnected/twisted warning.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-representation-theory/irreducible-representation"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/reductive-algebraic-group",
+        "algebraic-geometry-foundations/semisimple-element-and-class",
+        "algebra-representation-theory/irreducible-representation"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/completely-reducible-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a6caa86c7f400f41260187b61ecd61687bd6ec59e33dd410b293f6d478bd38ec",
+      "evidence": "Checked direct-sum definition, invariant-complement equivalence, semisimple module formulation, and modular C_p counterexample.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/direct-sum-modules"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/direct-sum-modules"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/group-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0de7e9eee5bdea745d4be887fe3dad288b423a40dc94461837f7f6d4cb6e4d5b",
+      "evidence": "Checked k[G] basis multiplication and algebra structure for a group over field k; group/vector-space prerequisites are direct.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/group-algebra-of-lattice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1092eb5b2e2eeea66c51cf7f5ea1e520c3941c68243050041acecacec2f181b3",
+      "evidence": "Checked abelian lattice group algebra identification with Laurent polynomial structure and field/group-algebra dependencies.",
+      "previous_prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-representation-theory/group-algebra",
+        "algebra-rings/laurent-polynomial-ring"
+      ],
+      "prerequisites": [
+        "algebra-groups/abelian-group",
+        "algebra-representation-theory/group-algebra",
+        "algebra-rings/laurent-polynomial-ring"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/group-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6773d27b1f144752ca2c529c0434899791294986102e5c57e8b88cc490f97582",
+      "evidence": "Checked pair (V,ρ), homomorphism G→GL(V), action axioms, morphisms, and k[G]-module equivalence.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/vector-space",
+        "linear-algebra/linear-map"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/induced-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1315a13328fb734a458adb3b0b714a72dd152ab48039c1322e400ad5e21579b0",
+      "evidence": "Checked C[G]⊗_{C[H]}W, function covariance f(gh)=σ(h)^{-1}f(g), left action, dimension, and Frobenius reciprocity.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/tensor-product",
+        "algebra-modules/module-homomorphism",
+        "algebra-groups/coset"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/tensor-product",
+        "algebra-modules/module-homomorphism",
+        "algebra-groups/coset"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/irreducible-character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd1214f86560975e792ca121e7d6ada44a1e238995540c5570ac71e47cf67a69",
+      "evidence": "Checked definition as character of irreducible complex rep and simple C[G]-module equivalence; orthogonality, degree sum, and examples are consequences.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-modules/simple-module",
+        "algebra-representation-theory/group-algebra",
+        "algebra-groups/class-function",
+        "algebra-groups/conjugacy-class"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-modules/simple-module",
+        "algebra-representation-theory/group-algebra",
+        "algebra-groups/class-function",
+        "algebra-groups/conjugacy-class"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/irreducible-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "647af968c87b3bce66b4616ba3092fd4671fe5f5720a47658c1c003ede59ff97",
+      "evidence": "Checked nonzero representation with only 0,V invariant subspaces, equivalence to simple k[G]-module, and field-dependent C3 example.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/subrepresentation",
+        "algebra-modules/simple-module"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/subrepresentation",
+        "algebra-modules/simple-module"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/maschke-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e09f480ec5c28a3b1194bcf9ea4e129b97bb3668a1adb272fef1d3bbef71258",
+      "evidence": "Checked algebraically closed char(k)∤|G| hypothesis, regular decomposition k[G]≅⊕d_iV_i, Wedderburn explanation, and dimension sum.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/regular-representation",
+        "algebra-representation-theory/maschkes-theorem",
+        "algebra-representation-theory/group-algebra"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/regular-representation",
+        "algebra-representation-theory/maschkes-theorem",
+        "algebra-representation-theory/group-algebra"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/regular-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7d02a194743531ef5b0d7e46d193c8fba7336bd61cb8731fae00f5da22fa048",
+      "evidence": "Checked left action λ(h)e_g=e_hg, character δ_{g,1}, and complex decomposition with multiplicity dim(V_i).",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/group-algebra",
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/irreducible-representation"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/group-algebra",
+        "algebra-representation-theory/character",
+        "algebra-representation-theory/irreducible-representation"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/representation-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99d7b625d960542ba32cb6a7eb7239a66e927aad82e678afdbd8310908db8e05",
+      "evidence": "Checked Grothendieck relations [V]=[V']+[V''] for short exact sequences, tensor multiplication, dual/λ structure, and scope caveat for topological/algebraic groups.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "topology/topological-group",
+        "algebra-rings/field",
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/tensor-product",
+        "linear-algebra/trace",
+        "algebra-rings/ring-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "topology/topological-group",
+        "algebra-rings/field",
+        "algebra-representation-theory/group-representation",
+        "algebra-modules/short-exact-sequence",
+        "algebra-modules/tensor-product",
+        "linear-algebra/trace",
+        "algebra-rings/ring-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/restricted-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12c144181241f9e433521ca36ce13f1f62c00a860d4e435a94300259ce08a9fb",
+      "evidence": "Checked restriction ρ|_H, k[H]-module scalar restriction, subrepresentation/character properties, and S3/A3 and regular examples.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/group-algebra",
+        "algebra-representation-theory/subrepresentation",
+        "algebra-representation-theory/character"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/group-algebra",
+        "algebra-representation-theory/subrepresentation",
+        "algebra-representation-theory/character"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/schur-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6872a499c700eb89affe0ba2d25b8a0fbf0e28d661ce80cf8fc89c57e2bc82b2",
+      "evidence": "Checked central z acting by ρ(z)=λ_zId via Schur, central group-algebra elements, and algebraically closed field/irreducibility hypotheses.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/schurs-lemma",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-groups/center-of-group",
+        "algebra-representation-theory/group-algebra"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/schurs-lemma",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-groups/center-of-group",
+        "algebra-representation-theory/group-algebra"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/schurs-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49616df3e391b8234c3f87de073c7632b0fca07cc0456234dd7b9c289c937af6",
+      "evidence": "Checked nonzero intertwiner between irreducibles is isomorphism, End_G division ring, scalar conclusion over algebraically closed fields, and real C3 example.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-modules/module-homomorphism"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation",
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/subrepresentation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b82b7de2b430963042dd082a1f53311e39f87bc92994438207210f26a08645cf",
+      "evidence": "Checked G-stable subspace criterion, induced quotient action, k[G]-submodule equivalence, and modular C_p invariant-line example.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/group-representation"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/group-representation"
+      ]
+    },
+    {
+      "id": "algebra-representation-theory/sum-squares-degrees",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48e1b5180cc80dcd53ab1d09ca572c78f680d873dfde24b227b0cb33b5098a96",
+      "evidence": "Checked algebraically closed char(k)∤|G| assumptions, regular multiplicity d_i, and dimension identity Σd_i²=|G| with examples.",
+      "previous_prerequisites": [
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/maschkes-theorem",
+        "algebra-representation-theory/schurs-lemma"
+      ],
+      "prerequisites": [
+        "algebra-representation-theory/irreducible-representation",
+        "algebra-representation-theory/maschkes-theorem",
+        "algebra-representation-theory/schurs-lemma"
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ summary = "An algebra and coalgebra whose multiplication and comultiplication ar
 aliases = ["bialgebra over a ring"]
 domains = ["algebra-coalgebras", "algebra-rings"]
 section_mode = "progressive"
-prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/algebra-over-ring", "algebra-coalgebras/coalgebra"]
+prerequisites = ["algebra-rings/commutative-ring", "algebra-modules/algebra-over-ring", "algebra-modules/algebra-homomorphism", "algebra-modules/tensor-product", "algebra-coalgebras/coalgebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
