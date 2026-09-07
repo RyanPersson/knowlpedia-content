@@ -11,11 +11,11 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mu\) and \(\nu\) be \(\sigma\)-finite positive measures on the same measurable space. If \(\nu\ll\mu\), the **Radon–Nikodym derivative** \(d\nu/d\mu\) is the \(\mu\)-almost-everywhere unique measurable function \(X\geq 0\) such that
+Let \(\mu\) and \(\nu\) be \(\sigma\)-finite positive measures on the same [[measure-theory/measurable-space|measurable space]]. If \(\nu\ll\mu\), the **Radon–Nikodym derivative** \(d\nu/d\mu\) is the \(\mu\)-almost-everywhere unique [[measure-theory/measurable-function|measurable function]] \(X\geq 0\) such that
 \[
 \nu(S)=\int_S X\,d\mu
 \]
-for every measurable set \(S\).
+for every [[measure-theory/measurable-set|measurable set]] \(S\).
 
 ## Remarks
 

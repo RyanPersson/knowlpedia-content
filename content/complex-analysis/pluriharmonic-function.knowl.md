@@ -31,7 +31,7 @@ dimension greater than one.
 
 ## Local holomorphic representation
 
-Locally, a pluriharmonic function is the real part of a holomorphic function:
+Locally, a pluriharmonic function is the real part of a [[differential-geometry/holomorphic-map|holomorphic function]]:
 near every point there is a holomorphic \(F\) with \(u=\operatorname{Re}F\).
 On a non-simply-connected domain these local conjugates can have nontrivial
 periods, so a single global \(F\) need not exist.

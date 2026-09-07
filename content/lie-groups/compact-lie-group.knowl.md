@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Definition.** A [[fiber-bundles/lie-group|Lie group]] \(G\) is **compact** if its underlying topological space is compact.
+**Definition.** A [[fiber-bundles/lie-group|Lie group]] \(G\) is **compact** if its underlying [[topology/topological-space|topological space]] is compact.
 
 ## Remarks
 

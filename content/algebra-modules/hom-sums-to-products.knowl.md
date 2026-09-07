@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Hom turns sums into products**: Let \(\{M_i\}_{i\in I}\) be a family of \(R\)-modules and let \(N\) be an \(R\)-module. Restriction along the canonical maps \(\iota_i:M_i\to \bigoplus_{i\in I}M_i\) induces a natural isomorphism
+**Hom turns sums into products**: Let \(\{M_i\}_{i\in I}\) be a family of \(R\)-modules and let \(N\) be an \(R\)-module. Restriction along the canonical maps \(\iota_i:M_i\to \bigoplus_{i\in I}M_i\) induces a [[algebra-category-theory/natural-isomorphism|natural isomorphism]]
 \[
 \operatorname{Hom}_R\Bigl(\bigoplus_{i\in I} M_i,\,N\Bigr)\;\cong\;\prod_{i\in I}\operatorname{Hom}_R(M_i,N).
 \]

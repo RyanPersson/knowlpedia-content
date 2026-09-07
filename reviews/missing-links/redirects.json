@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "redirects": [
+    {
+      "id": "shared-foundations/composition-of-functions",
+      "source_sha256": "c38641a029ada48a7929c4cb14a9800009a2869a5b623ffc7f6d5c4cb1e48874",
+      "target": "shared-foundations/composition",
+      "sections": {
+        "remarks": "remarks",
+        "examples": "examples"
+      },
+      "outcome": "reviewed_unchanged",
+      "evidence": "Read redirect metadata and verified canonical target and each forwarded section exist. No independent body to review."
+    },
+    {
+      "id": "fiber-bundles/orthonormal-frame-bundle-o-of-a-riemannian-manifold",
+      "source_sha256": "dce884e0f7fd19b36c74caadd9e84e020a3250873cb3b712cc6806405b32869a",
+      "target": "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+      "sections": {
+        "examples": "examples"
+      },
+      "outcome": "reviewed_unchanged",
+      "evidence": "Read redirect metadata and verified canonical target and each forwarded section exist. No independent body to review."
+    }
+  ]
+}

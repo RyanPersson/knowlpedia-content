@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathfrak{g}\) be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]] over an algebraically closed field of characteristic \(0\) (typically \(\mathbb{C}\)).
+Let \(\mathfrak{g}\) be a finite-dimensional [[lie-groups/lie-algebra|Lie algebra]] over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] of [[algebra-rings/characteristic|characteristic]] \(0\) (typically \(\mathbb{C}\)).
 
 **Definition.** A subalgebra \(\mathfrak{h}\subset \mathfrak{g}\) is a **Cartan subalgebra** if:
 1. \(\mathfrak{h}\) is [[lie-groups/nilpotent-lie-algebra|nilpotent]] as a Lie algebra, and

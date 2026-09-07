@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Nonassociative algebra studies [[linear-algebra/vector-space|vector spaces]] with bilinear multiplication
+Nonassociative algebra studies [[linear-algebra/vector-space|vector spaces]] with [[algebra-modules/bilinear-map|bilinear multiplication]]
 without assuming the associative law. This section develops the structures
 needed for the octonions, Jordan algebras, and their exceptional symmetry
 groups, from general definitions through the Albert algebra and Peirce theory.

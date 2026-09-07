@@ -24,8 +24,8 @@ Thus a net \((T_i)\) converges **strongly** to \(T\) exactly when
 \[
 \|T_i\xi-T\xi\|\longrightarrow 0
 \]
-for every \(\xi\in H\). Equivalently, it is the topology of pointwise
-convergence when \(\mathcal B(H)\) is viewed as a space of functions
+for every \(\xi\in H\). Equivalently, it is the topology of [[real-analysis/pointwise-convergence|pointwise
+convergence]] when \(\mathcal B(H)\) is viewed as a space of functions
 \(H\to H\) and the target \(H\) carries its norm topology. The use of nets is
 essential when the topology is not first countable.
 
@@ -53,8 +53,8 @@ strongly continuous in general: for the unilateral shift \(S\) on
 
 ## Operator-algebraic role
 
-For a unital \(*\)-subalgebra \(A\subseteq\mathcal B(H)\), the von Neumann
-bicommutant theorem identifies the strong-operator closure of \(A\) with its
+For a unital \(*\)-subalgebra \(A\subseteq\mathcal B(H)\), the [[operator-algebras/von-neumann-bicommutant-theorem|von Neumann
+bicommutant theorem]] identifies the strong-operator closure of \(A\) with its
 weak-operator closure and its bicommutant \(A''\). Consequently,
 [[operator-algebras/von-neumann-algebra|von Neumann algebras]] may be
 characterized as strongly closed unital \(*\)-subalgebras of

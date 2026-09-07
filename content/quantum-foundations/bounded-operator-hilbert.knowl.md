@@ -1,8 +1,8 @@
 +++
 id = "quantum-foundations/bounded-operator-hilbert"
-title = "Bounded Operator on a Hilbert Space"
+title = "Bounded Operator on a [[linear-algebra/hilbert-space|Hilbert Space]]"
 kind = "knowl"
-summary = "A linear operator whose action does not increase vector norms by more than a fixed constant; equivalently, a continuous linear map."
+summary = "A [[convex-analysis/linear-operator-linear-transformation|linear operator]] whose action does not increase vector norms by more than a fixed constant; equivalently, a continuous linear map."
 aliases = ["bounded-operator-hilbert", "Bounded Operator on a Hilbert Space"]
 domains = ["quantum-foundations"]
 legacy_source_path = "quantum-foundations/bounded-operator-hilbert.md"
@@ -15,13 +15,13 @@ Let \(H\) be a (complex) Hilbert space. A linear operator \(A:H\to H\) is **boun
 \[
 \|Ax\|\le C\|x\| \quad \text{for all } x\in H.
 \]
-The smallest such constant is the **operator norm**
+The smallest such constant is the **[[linear-algebra/operator-norm|operator norm]]**
 \[
 \|A\| := \sup_{\|x\|=1}\|Ax\|.
 \]
 
 ## Equivalent characterizations
-For linear maps between normed vector spaces (in particular, Hilbert spaces), the following are equivalent:
+For linear maps between [[linear-algebra/normed-vector-space|normed vector spaces]] (in particular, [[linear-algebra/hilbert-space|Hilbert spaces]]), the following are equivalent:
 
 - \(A\) is bounded.
 - \(A\) is continuous (everywhere).

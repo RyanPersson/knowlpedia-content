@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 An **abelian category** is a [[algebra-category-theory/category|category]] \(\mathcal A\) such that:
 
-1. \(\mathcal A\) is an [[algebra-category-theory/additive-category|additive category]] (in particular, hom-sets are abelian groups and finite biproducts exist);
+1. \(\mathcal A\) is an [[algebra-category-theory/additive-category|additive category]] (in particular, hom-sets are [[algebra-groups/abelian-group|abelian groups]] and finite biproducts exist);
 2. every morphism has a [[algebra-category-theory/kernel-categorical|kernel]] and a [[algebra-category-theory/cokernel-categorical|cokernel]];
 3. every [[algebra-category-theory/monomorphism-category|monomorphism]] is a kernel of its cokernel, and every [[algebra-category-theory/epimorphism-category|epimorphism]] is a cokernel of its kernel.
 

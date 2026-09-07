@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **limit superior** of a real sequence \((a_n)_{n\ge 1}\) is the extended real number
+A **limit superior** of a [[shared-foundations/sequence|real sequence]] \((a_n)_{n\ge 1}\) is the extended real number
 \[
 \limsup_{n\to\infty} a_n \;=\; \inf_{n\ge 1}\,\sup_{k\ge n} a_k,
 \]

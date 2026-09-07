@@ -17,7 +17,7 @@ A [[algebra-fields-galois/finite-field|finite field]] is a field with finitely m
 1. (**Existence**) There exists a field \(\mathbb{F}_q\) with exactly \(q\) elements. It has [[algebra-rings/characteristic|characteristic]] \(p\).
 2. (**Uniqueness up to isomorphism**) Any two fields with \(q\) elements are isomorphic.
 
-For existence, choose an irreducible polynomial \(f(x)\in\mathbb F_p[x]\) of degree \(n\). Then \(\mathbb F_p[x]/(f)\) is a field of order \(p^n\).
+For existence, choose an [[algebra-rings/irreducible-polynomial|irreducible polynomial]] \(f(x)\in\mathbb F_p[x]\) of degree \(n\). Then \(\mathbb F_p[x]/(f)\) is a field of order \(p^n\).
 
 ## Remarks
 

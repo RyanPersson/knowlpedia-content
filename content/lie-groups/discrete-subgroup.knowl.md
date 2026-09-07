@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]].
 
-A subgroup \(\Gamma\le G\) is **discrete** if it is a discrete subset in the subspace topology (equivalently, every \(\gamma\in\Gamma\) is isolated in \(G\)).
+A subgroup \(\Gamma\le G\) is **discrete** if it is a discrete subset in the [[topology/subspace-topology|subspace topology]] (equivalently, every \(\gamma\in\Gamma\) is isolated in \(G\)).
 
 ## Basic Lie-theoretic consequences
 - Any discrete subgroup is automatically closed; hence by the [[lie-groups/closed-subgroup-theorem|Closed Subgroup Theorem]] it is an embedded [[lie-groups/lie-subgroup|Lie subgroup]].
@@ -29,4 +29,4 @@ If \(\Gamma\) is also [[lie-groups/normal-lie-subgroup|normal]], then \(G/\Gamma
 - \(\mathbb Z^n\) is a discrete subgroup of \(\mathbb R^n\) (additively).
 - The subgroup \(\{\pm I\}\) is discrete in [[lie-groups/example-su2|\(SU(2)\)]] and is the kernel of the standard covering \(SU(2)\to SO(3)\) (compare [[lie-groups/example-so3|\(SO(3)\)]]).
 
-**Context.** Discrete subgroups appear as “global” corrections to Lie-algebraic data: different discrete central quotients of a simply connected group yield different Lie groups with the same Lie algebra.
+**Context.** Discrete subgroups appear as “global” corrections to Lie-algebraic data: different discrete [[lie-groups/central-quotient-of-a-lie-group|central quotients]] of a simply connected group yield different Lie groups with the same Lie algebra.

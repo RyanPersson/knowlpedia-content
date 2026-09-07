@@ -52,7 +52,7 @@ If \(x\in H^2(\mathbb{CP}^n;\mathbb Z)\) is the standard generator, then
 \[
 H^*(\mathbb{CP}^n;\mathbb Z)\cong\mathbb Z[x]/(x^{n+1}).
 \]
-By contrast, all positive-degree products vanish in the reduced cohomology ring of a suspension.
+By contrast, all positive-degree products vanish in the [[topology/reduced-cohomology|reduced cohomology]] ring of a suspension.
 
 **Warning.** The coefficient ring is part of the structure: signs, torsion, and even whether odd-degree squares vanish can change with \(R\).
 

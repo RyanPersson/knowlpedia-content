@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be an oriented smooth \(n\)-manifold with (possibly empty) boundary \(\partial M\), and let \(\iota:\partial M \hookrightarrow M\) be the inclusion. If \(\alpha \in \Omega^{n-1}(M)\) is smooth up to the boundary and compactly supported, then **Stokes' theorem** states
+Let \(M\) be an oriented [[fiber-bundles/smooth-manifold|smooth \(n\)-manifold]] with (possibly empty) [[differential-geometry/manifold-with-boundary|boundary]] \(\partial M\), and let \(\iota:\partial M \hookrightarrow M\) be the inclusion. If \(\alpha \in \Omega^{n-1}(M)\) is smooth up to the boundary and compactly supported, then **Stokes' theorem** states
 \[
 \int_M d\alpha \;=\; \int_{\partial M} \iota^*\alpha .
 \]

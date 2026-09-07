@@ -76,7 +76,7 @@ summands.
 ## Exact scope
 
 This is the automorphic-to-Galois direction for arbitrary [[algebraic-geometry-foundations/reductive-algebraic-group|reductive groups]]
-over global function fields. It is stronger than merely attaching
+over [[algebra-fields-galois/global-function-field|global function fields]]. It is stronger than merely attaching
 almost-all [[langlands/satake-parameter|Satake classes]], but it is not a
 general bijection between
 individual [[langlands/automorphic-representation|automorphic representations]] and parameters and does not provide

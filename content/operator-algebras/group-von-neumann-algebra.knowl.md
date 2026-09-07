@@ -40,8 +40,8 @@ normal trace
 \[
 \tau(x)=\langle x\delta_e,\delta_e\rangle.
 \]
-In this case \(L(G)\) is a factor exactly when every nonidentity conjugacy
-class of \(G\) is infinite.
+In this case \(L(G)\) is a factor exactly when every nonidentity
+[[algebra-groups/conjugacy-class|conjugacy class]] of \(G\) is infinite.
 If \(G\) is abelian, Fourier transformation
 identifies \(\operatorname{VN}(G)\) with the multiplication algebra
 \(L^\infty(\widehat G)\); thus the group von Neumann algebra is commutative.

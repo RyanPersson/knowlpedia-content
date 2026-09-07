@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "fiber-bundles/thom-isomorphism-theorem",
+      "outcome": "corrected",
+      "source_sha256": "f0e4be6d9fc8278e97b3f75e0c901f77a452eedd0f51dbb4f2c6a117392c31d0",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"topology/reduced-cohomology\", \"removed_inner_targets\": [\"topology/reduced-cohomology\"]}]"
+    },
+    {
+      "id": "operator-algebras/stinespring-dilation-theorem",
+      "outcome": "corrected",
+      "source_sha256": "3cbc478fda8c8d72b64215971f93abf0f22e40d10dff873e9d17c3425ed10f98",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"linear-algebra/hilbert-space\", \"removed_inner_targets\": [\"linear-algebra/hilbert-space\"]}]"
+    },
+    {
+      "id": "operator-algebras/strict-topology",
+      "outcome": "corrected",
+      "source_sha256": "aa393e7ac8c10cc1fa0b9042b495a28573ad2960c69f40011413fa478c31fe0a",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/approximate-identity\", \"removed_inner_targets\": [\"operator-algebras/approximate-identity\"]}]"
+    },
+    {
+      "id": "operator-algebras/takai-duality",
+      "outcome": "corrected",
+      "source_sha256": "8483851c9b051a7ea3389bcc15520b62ac3b59de3fd7b64dec39253feddafa59",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"algebra-representation-theory/regular-representation\", \"removed_inner_targets\": [\"algebra-representation-theory/regular-representation\"]}]"
+    },
+    {
+      "id": "operator-algebras/toeplitz-representation-cstar-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "d6c5a1485c5748fddfd7deb70a3e66b916fb23f3ead3bf54f333b6235f4489f8",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"linear-algebra/linear-map\", \"removed_inner_targets\": [\"linear-algebra/linear-map\"]}]"
+    },
+    {
+      "id": "operator-algebras/tomita-takesaki-theorem",
+      "outcome": "corrected",
+      "source_sha256": "5cbe8509e71e25c8df163f7c36f65b5701fef63c2c8669daf11362481baadc88",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/separating-vector\", \"removed_inner_targets\": [\"operator-algebras/separating-vector\"]}]"
+    },
+    {
+      "id": "operator-algebras/trace-cstar-algebra",
+      "outcome": "corrected",
+      "source_sha256": "85aecea9cd0f4382b084f5706c0df79ab61b9ed41fd8888aff80109a3c99a573",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/tracial-state\", \"removed_inner_targets\": [\"operator-algebras/tracial-state\"]}]"
+    },
+    {
+      "id": "operator-algebras/transformation-group-cstar-algebra",
+      "outcome": "corrected",
+      "source_sha256": "17688eec66c883f03b4f451fdeab55a0c3b6a2a20268e40298d07784d1febb7c",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/full-crossed-product\", \"removed_inner_targets\": [\"operator-algebras/full-crossed-product\"]}]"
+    },
+    {
+      "id": "operator-algebras/type-i-factor",
+      "outcome": "corrected",
+      "source_sha256": "c7596268e934ee869ff2c4c3f94bf97ca79218f44dfada4ec68e51b9db3c6fe6",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/type-i-von-neumann-algebra\", \"removed_inner_targets\": [\"operator-algebras/von-neumann-algebra\"]}, {\"outer_target\": \"linear-algebra/hilbert-space\", \"removed_inner_targets\": [\"linear-algebra/hilbert-space\"]}]"
+    },
+    {
+      "id": "operator-algebras/type-i-infinity-factor",
+      "outcome": "corrected",
+      "source_sha256": "84f7ec0748165e00ecca5ecff5d81bbe92822d6e91fb51a53c8cc7e9b2ffaa38",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/minimal-projection\", \"removed_inner_targets\": [\"operator-algebras/minimal-projection\"]}]"
+    },
+    {
+      "id": "operator-algebras/type-ii-infinity-factor",
+      "outcome": "corrected",
+      "source_sha256": "89840ba3d6439c1abf5badc1cb0aba08cdddf9dfa10995fe825d6171602bf5a7",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/finite-projection\", \"removed_inner_targets\": [\"operator-algebras/finite-projection\"]}, {\"outer_target\": \"operator-algebras/minimal-projection\", \"removed_inner_targets\": [\"operator-algebras/minimal-projection\"]}]"
+    },
+    {
+      "id": "operator-algebras/type-ii-von-neumann-algebra",
+      "outcome": "corrected",
+      "source_sha256": "ad47c8e1bfe5a5df6381478082b0d60e21414c965f851d5cd96fc649c9f5f186",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/finite-projection\", \"removed_inner_targets\": [\"operator-algebras/finite-projection\"]}, {\"outer_target\": \"operator-algebras/faithful-normal-semifinite-trace\", \"removed_inner_targets\": [\"operator-algebras/faithful-normal-semifinite-trace\"]}]"
+    },
+    {
+      "id": "operator-algebras/type-iii-von-neumann-algebra",
+      "outcome": "corrected",
+      "source_sha256": "06cf450690411e7d0bc8d81044ba69c95baa1a1777fb857921f577c24abda3c9",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/finite-projection\", \"removed_inner_targets\": [\"operator-algebras/finite-projection\"]}]"
+    },
+    {
+      "id": "operator-algebras/ultrastrong-topology",
+      "outcome": "corrected",
+      "source_sha256": "f369720ef7a9e708e39e423f77f90d7ac8f881e122bb745b16f3736e741fd41d",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/von-neumann-algebra\", \"removed_inner_targets\": [\"operator-algebras/von-neumann-algebra\"]}]"
+    },
+    {
+      "id": "operator-algebras/ultraweak-topology",
+      "outcome": "corrected",
+      "source_sha256": "fe6dec8e68e0552dea49204f808326b552d72d011b84b407b7f7b68a7f3e0b4d",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"shale-paper/trace-class-operator\", \"removed_inner_targets\": [\"shale-paper/trace-class-operator\"]}]"
+    },
+    {
+      "id": "operator-algebras/unique-predual-theorem",
+      "outcome": "corrected",
+      "source_sha256": "e0505e962acaccd63e2a9bd9ea32fdbff4d6b6fbd639885142b318b9c464892e",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"linear-algebra/banach-space\", \"removed_inner_targets\": [\"linear-algebra/banach-space\"]}, {\"outer_target\": \"functional-analysis/weak-star-topology\", \"removed_inner_targets\": [\"functional-analysis/weak-star-topology\"]}]"
+    },
+    {
+      "id": "operator-algebras/unital-cstar-algebra",
+      "outcome": "corrected",
+      "source_sha256": "2616cda5ad19240820ea6765f5c30e8658011da5898782cf2d9cace7f7ed0f62",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/closed-two-sided-ideal\", \"removed_inner_targets\": [\"operator-algebras/closed-two-sided-ideal\"]}]"
+    },
+    {
+      "id": "operator-algebras/unitary-element",
+      "outcome": "corrected",
+      "source_sha256": "78681520a4cdddd340e61b173ee2849dd20ecc31f78edd5fd05197da876f2a41",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/multiplier-algebra\", \"removed_inner_targets\": [\"operator-algebras/multiplier-algebra\"]}]"
+    },
+    {
+      "id": "operator-algebras/unitization",
+      "outcome": "corrected",
+      "source_sha256": "390c2eccdfb0944c76ea4d34b2a1a5402514c98271a69a328d16a552bc50b310",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/multiplier-algebra\", \"removed_inner_targets\": [\"operator-algebras/multiplier-algebra\"]}]"
+    },
+    {
+      "id": "operator-algebras/vector-functional",
+      "outcome": "corrected",
+      "source_sha256": "4adf208fcea7695a91584b738f451f8b68860a9d0b6e39f5951677a953e1224e",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"linear-algebra/inner-product\", \"removed_inner_targets\": [\"linear-algebra/inner-product\"]}, {\"outer_target\": \"operator-algebras/vector-state\", \"removed_inner_targets\": [\"operator-algebras/vector-state\"]}, {\"outer_target\": \"operator-algebras/normal-functional\", \"removed_inner_targets\": [\"operator-algebras/normal-functional\"]}]"
+    },
+    {
+      "id": "operator-algebras/von-neumann-crossed-product",
+      "outcome": "corrected",
+      "source_sha256": "c78232c41c39ad51586f313b6cd29da689aedcb5243f7987f63dcd5e46fd1df2",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"topology/locally-compact-group\", \"removed_inner_targets\": [\"topology/locally-compact-group\"]}]"
+    },
+    {
+      "id": "operator-algebras/weight-on-von-neumann-algebra",
+      "outcome": "corrected",
+      "source_sha256": "fd5d67159c7651d50f4f70a66aa0445ad5c89d0c9dc991085492b4c156c23c68",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"operator-algebras/positive-linear-functional\", \"removed_inner_targets\": [\"operator-algebras/positive-linear-functional\"]}]"
+    },
+    {
+      "id": "probability/chernoff-bound",
+      "outcome": "corrected",
+      "source_sha256": "41aa7031fce503f2ad0b2d10a4e34f267057d020de701c155644028c2408114e",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"probability/random-variable\", \"removed_inner_targets\": [\"probability/random-variable\"]}]"
+    },
+    {
+      "id": "probability/conditional-probability",
+      "outcome": "corrected",
+      "source_sha256": "afc09c214f59b3c0bbd4c57631953a5eb6190191f0687894125cfe18a2704934",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"probability/random-variable\", \"removed_inner_targets\": [\"probability/random-variable\"]}]"
+    },
+    {
+      "id": "quantum-foundations/antiunitary-operator",
+      "outcome": "corrected",
+      "source_sha256": "b7b3bb963801453649139994f048e97259352f62ea29fd86d8215a9b2b59fcdb",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"linear-algebra/inner-product\", \"removed_inner_targets\": [\"linear-algebra/inner-product\"]}]"
+    },
+    {
+      "id": "real-analysis/uniform-convergence-on-compact-sets",
+      "outcome": "corrected",
+      "source_sha256": "64e9f433646f0f386ef5d6300e8a095ff3b17f16a0c237856ef1457156bee4a3",
+      "evidence": "Retained prior full linking review; root inspected rendered failure and source syntax. Removed only nested inner link wrappers, retaining every outer target and visible label, so existing clickable concepts render normally. No mathematical text or prerequisites changed. Syntax repairs: [{\"outer_target\": \"real-analysis/power-series-uniform-convergence-on-compacts\", \"removed_inner_targets\": [\"real-analysis/power-series\"]}]"
+    }
+  ]
+}

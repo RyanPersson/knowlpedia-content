@@ -23,5 +23,5 @@ Concretely, a map \(f\colon M\otimes_R N\to P\) corresponds to the map \(\Phi(f)
 
 ## Examples
 
-- Bilinear pairings \(M\times N\to P\) correspond to linear maps \(M\to \mathrm{Hom}_R(N,P)\).
-- Taking \(P=R\) identifies bilinear forms \(M\times N\to R\) with linear maps \(M\to N^\vee\).
+- [[algebra-modules/bilinear-map|Bilinear pairings]] \(M\times N\to P\) correspond to linear maps \(M\to \mathrm{Hom}_R(N,P)\).
+- Taking \(P=R\) identifies [[linear-algebra/bilinear-form|bilinear forms]] \(M\times N\to R\) with linear maps \(M\to N^\vee\).

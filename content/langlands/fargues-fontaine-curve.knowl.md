@@ -49,7 +49,7 @@ extension of \(E\) produces a
 [[algebraic-geometry-foundations/locally-free-sheaf|vector bundle]]
 \(\mathcal E(D,\varphi_D)\) on the curve. Over an
 [[algebraic-geometry-foundations/algebraically-closed-field|algebraically
-closed]] perfectoid base, every vector bundle
+closed]] perfectoid base, every [[fiber-bundles/vector-bundle|vector bundle]]
 decomposes uniquely into
 [[algebraic-geometry-foundations/harder-narasimhan-filtration|slope bundles]]
 

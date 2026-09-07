@@ -26,7 +26,7 @@ C^\infty(-):
 \mathbf{Man}^{\mathrm{op}}
 \longrightarrow C^\infty\mathbf{Ring}
 \]
-is a covariant fully faithful functor from the
+is a covariant [[algebra-category-theory/fully-faithful-functor|fully faithful functor]] from the
 [[algebra-category-theory/opposite-category|opposite category]] of the
 [[differential-geometry/category-of-smooth-manifolds|smooth-manifold
 category]]. Equivalently, \(M\mapsto C^\infty(M)\) is a fully faithful

@@ -1,8 +1,8 @@
 +++
 id = "operator-algebras/type-i-factor-representation"
-title = "Type I factor representation"
+title = "[[operator-algebras/type-i-factor|Type I factor]] representation"
 kind = "definition"
-summary = "A factor representation whose generated von Neumann algebra is a type I factor."
+summary = "A [[operator-algebras/factorial-representation|factor representation]] whose generated von Neumann algebra is a type I factor."
 aliases = ["type I representation", "factor representation of type I"]
 domains = ["operator-algebras"]
 section_mode = "progressive"

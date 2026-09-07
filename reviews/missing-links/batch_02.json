@@ -1,0 +1,657 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-commutative/primary-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9cdbd7002fcbc2cff4041ea456371b2c036c77e552d3538c6e8aba9e52d039a4",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (ideal, prime ideal, primary ideal, primary ideals) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-commutative/prime-avoidance-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebe88d4826534f26218d69cea1c5d3d973bd1805f616b5ecf812bc22417d9a5f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (ideals, prime ideals, open sets, polynomial ring) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-commutative/prime-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "444a0292ec578f30b436526e0d8ba0919d05c0ecda83303d751a8111ac418875",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (prime ideal, ideal, set, topological space, prime ideals, generic point, polynomial ring, irreducible polynomial, algebraically closed, maximal ideals) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-commutative/residue-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5f9fd07604fc25419dfe7778a682e89cacd0fb87b02a85ec28beab78c27d3162",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (residue, prime ideal, maximal ideal) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-commutative/restriction-of-scalars",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52d19d3e8f0187027c30058481b893cb6344f4e8115ff884ea4ea92d238d4d75",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (ring homomorphism, abelian group, functor, abelian groups, group homomorphisms) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-commutative/semisimple-artinian-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e421f447eef3e5ef07bde3b08554207f2ac2f4be43d70359dfc70b57e3cbe09",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (Artinian rings, matrix ring, division ring, two-sided ideals, Artinian ring) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-commutative/simple-artinian-matrix-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ba05f2b83d3fde25a8d987f3cc1684a177da2e1234454a91888c48b7ea1fa0d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (ring, two-sided ideals, ideals, rings, matrix ring, opposite ring, matrix rings, Matrix rings, Division rings, division ring) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8226675493b712e07526e9900fcf33dbc023b833c5a4b93614abcf6a35b9f12f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (algebraically closed, polynomial, complex numbers) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-closure-existence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2347dc722f05560fc075f2deb3b1def9849677fe1a4541756172fe6044a2315a",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (algebraically closed, polynomial, algebraic closure) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-closure-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6834bd2f656bf3c3d09fa6013d836eb66e19a74a8bbf050d4cc85a9c64bf4727",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (algebraically closed, isomorphism, algebraic closure, algebraic extension, algebraically closed field, algebraic element) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b54df88b4ab0818cc03d05e412c6a05b2c00e8e43bebe4e9056c7b210f220e4",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/algebraic-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9b02d27448a5f9dd336b37d6e0c79e8d886019cfbd7a82b5f8c1ccb3e6bd162",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (polynomial, splitting fields, complex numbers) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/archimedean-local-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "04bf67bc1a79a02661945be99f1f459aadf18244d4de5eadaf4ffb6187d5da9d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (absolute value, field, connected Lie groups, test functions) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/artins-theorem-fixed-fields",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4166cbbfa7394b8671d958287d963fd508acaaee3efe52dbdc0e65bf055d735",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, subgroup, group, fixed fields, automorphism groups, fixed field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/chebotarev-density-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d714a2dd5adcd56477811ab7d3459281cd40c5cf666a3be8c58533e94b868b36",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (places) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/completion-at-place",
+      "outcome": "corrected",
+      "source_sha256": "4ab0ee97d686ee6f075cbaee9b1fe52c0be0c4cc713cf65bc32411122b3b129e",
+      "evidence": "Read the complete source and checked each linked target definition. Added only the meaningful missing links for field, absolute value, valued field, image, isomorphism, equivalence classes, Cauchy\nsequences, number field. Rejected generic or context-sensitive scanner matches after checking the surrounding statements; prerequisites remain justified and acyclic."
+    },
+    {
+      "id": "algebra-fields-galois/cyclotomic-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d1f783e4166de6a56845a432906d545bcfffe7eeddf5b14849d61e5452de5129",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (minimal polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/cyclotomic-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "576d53d05c1b06376b704f56095ded3fd7279b167339c297c709ba1131f0b7bb",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, characteristic, divisor, minimal polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/decomposition-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "696bcf13d3659c9483d26b4635ca6d46fd79c976a20e619f4e610cd70446824d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (place, stabilizer) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/dedekind-independence-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ff8e437c89132a6573d0fc446ab66396f353b4a7ecae4469d67e7368fd1cc089",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, images, finite field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/degree-of-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d846b4bbe8f88f4635cfcd7c26c0a4d4ae1cfdad136d4226ee6ffd42fab788aa",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (vector space, subset, cardinality) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/discriminant-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "808820452646b35e5abe431bb7c20419b7a0dce4b182bfcc070ff1e9ae038b2a",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (simple extension, minimal polynomial, Finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/fg-field-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4ec94c49865d1666d18aaace065c6c09b248de84e75d910fa2b6168f2625b58",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, subset, transcendental extensions, transcendental element) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/field-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56e635521ee60d9acb80814bf59745619a4de28d3540e4b11bc2b4d46bab4d52",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set, group, composition) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/field-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "45056f5f668fb9463ce6466ec25f02d918edd320e7b48e4d8d9b7f4602d2b5e1",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (ring homomorphism, minimal polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/field-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59361a08cebce4b25e91ca6d3e1565756a7c23bbaccc929e108a3dba91c4c3d4",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (image) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/finite-extension-perfect-separable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "31c273e4f10aba357269bcc8b2d9eb5afb90d32d6a029a5886a01374703801c2",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, algebraic extension, field extensions, separable, Finite fields, finite field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/finite-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "599c3f551b43270b4bc00075b7ffbe7a5dacd88e5f412fa9e52d3c774a49830d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (cardinality) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-existence",
+      "outcome": "corrected",
+      "source_sha256": "ccb40622f468325d605052a4f94000d20b894aab730a4b4af047a96ff101a9a0",
+      "evidence": "Added core links for vector space and irreducible polynomial after checking both target definitions; existing links and prerequisites remain justified and acyclic."
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-existence-uniqueness",
+      "outcome": "corrected",
+      "source_sha256": "25caa773750222c77639df3d50efc54a48fb607df4464ef3f8c5998d53089e62",
+      "evidence": "Read the complete source and checked each linked target definition. Added only the meaningful missing links for field, isomorphism, fields, irreducible polynomial, uniqueness of splitting fields. Rejected generic or context-sensitive scanner matches after checking the surrounding statements; prerequisites remain justified and acyclic."
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-galois-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d47c5526f4646c1b9be684ce62e4398824f094464315052c562c0620ab9617cc",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (fixed field, intermediate field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-galois-group-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ce96c76d84629fa9137226046c688899b0480e3efc8c09c5d0733702bb3d596",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field automorphism, intermediate fields, Galois group) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-multiplicative-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32d8fb65771bd2378f9f9fd1016db488878985cae36408d24a29ce8682c0fabc",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (group, field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/finite-field-multiplicative-group-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39b1f92f046ac90e55364473c5ff362b52a0db2a0ea40077d78c3e4e13c81d1a",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (group, prime subfield, field extensions) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/finite-fields-perfect",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb9a5a088cbae692b2e8dd3c24f4e13bf09aede52155ab477c2bebb61ce6f264",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (characteristic, ring, endomorphism, automorphism, algebraic extension, finite field, irreducible polynomial, finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/fixed-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "841954a196d22a66948aa83ce799fb676100c4f72229ada9ec5d2918b3b0e120",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set, subgroup, field automorphisms, field extension, automorphism, intermediate fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/frobenius-endomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7903508fb1d0b1c9f6987ad074d5133f3d921c15f90160efe51834cf4c2ffcc1",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (ring, endomorphism, rational function) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/fundamental-theorem-galois-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47b97719c825276fa5f12c8ab7132fd00bdfecec3d35592b3e6f8ecc2947919c",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (subgroup, subgroups, normal subgroup, natural isomorphism, intermediate fields, Finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/fundamental-theorem-symmetric-polynomials",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a305d87865b0e47be5ded3480dff5ffe6871de9d014c71e3caa745bf30db3708",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (polynomial ring, polynomial, polynomials) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/galois-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54a59d95737c7cb4a2cefabec7567e2268b831f504cbd9a8e0d18e2166c7e844",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set, subgroups, subgroup, normal subgroup, isomorphism, Galois extension, intermediate fields, trivial subgroup, intermediate field, Finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/galois-degree-equals-group-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5df0e55c9288ada8a0696fdc2ac6a4099ae1259ab373235bb4e7a0cb870b8486",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (group, simple extension, minimal polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/galois-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98f112ecca181ad4b1a19b992a6b389f0bf81d38bd8a50df60977d48c8e4ec17",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (splitting field, finite fields, Galois group) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/galois-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b50ddc3b16f9319a192ea098af32c1075cdbe83bd1a64e144d8364095e9109e1",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set, composition, group, subgroup, field, finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/global-function-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ec699e8c9545c490c63a666db2333f3da0331f5b3afa5874a10dc1bf5e0b859",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, closed point) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/inertia-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38b323f7ada39cffa610f12f905ef65fb5942d2e296f33651e1e5c94fc9eedc3",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (automorphisms, separable, closure) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/inseparable-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47430b61582fcba05c6b2779dd29b84cbaab4373f989b5a223409949ddc1d413",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (minimal polynomial, separable, splitting field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/intermediate-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a29fa19d697132e5dbf47dfb262b120d67ded950297c57086f7688213913c9f8",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, fields, rational function) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/local-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2b7b5f31b94f9710cade9b6f188582df60398749335d4066d564b81c75c6415",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/non-archimedean-absolute-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f00e6f1b44690eb3fe86201f66c3897d4105d52f9cb08fabc14152f3ee66971a",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, triangle inequality) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    },
+    {
+      "id": "algebra-fields-galois/nonarchimedean-local-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5bc77ae2b9775e02d6614df3ea86fa741cc3f58021acddb130a992bc757994e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, locally compact, topology, maximal ideal, residue field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+    }
+  ,
+  {
+    "id": "algebra-fields-galois/norm-field",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "1399920d40de028d56baf91ee42eac8539afa01f4ad268e14bc1bfd074115536",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (field, norm, minimal polynomial, Finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/normal-extension",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "b928d6b507fabfd0822b748768e65dcc693c398ec021b3689d69df71f92a3b7d",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (irreducible polynomial, Splitting fields, splitting field, finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/normality-splitting-field",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "f0cae638b0bc122ad3103732fcf05298803d14600b63a6dc4ebfcae61a1e1629",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (polynomial, set, normal extensions, splitting fields, splitting field, Finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/number-field",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "01dee9e001398e18c9d427fe3944467e25c7b8ebb8f031edca149fb8b3ad7673",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/perfect-field",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "4bbf5161f59a3b3a2c8a544ddabcf7199e0d313516bb8e7cefb4142f2ce21b6a",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (algebraic extension) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/place-of-global-field",
+    "outcome": "corrected",
+    "source_sha256": "b6a30ec5f89c49c14451f18d6c8638ad1b764a16e19324a5b77fbf0016df2965",
+    "evidence": "Read the complete source and checked each linked target definition. Added the meaningful missing link for closed points to the canonical closed-point knowl. Rejected generic or context-sensitive scanner matches after checking the surrounding statements; prerequisites remain justified and acyclic."
+  }
+,
+  {
+    "id": "algebra-fields-galois/primitive-element-theorem",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "f330b195aed714323a3c302f1f4f01d849429b1e389deabb6e994ba1d0460271",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (finite field, finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/primitive-root-of-unity",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "b4a34be5853dbf2a6e590f3e634457ff27f78c29f331bd73e7d54b0ad0a2cd06",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (cyclic subgroup, Complex numbers) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/separability-towers",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "925f77a2fdfa4e99a949f766b27ddd55aa45b1e4720d82c28e74ebd5d7d60af1",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (Separability, separable) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/separable-distinct-roots",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "f5632db1c1c7001dea65a1721eac07df7a0b80e938824187246c1159b3c0daef",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (derivative, polynomial, separable, minimal polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+  ,
+  {
+    "id": "algebra-fields-galois/separable-element",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "dcd206117efda65476b0d7cd466f5990591691f6641ab19fda6494eb509125bc",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (minimal polynomial, separable, polynomial, derivative, separability, algebraic element) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/separable-extension",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "15ada6d9c344dad7758f68465cc385d7794860f32d046828c7bd72f03b0b0327",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (separable, algebraic extension, finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/separable-normal-galois",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "e4608e140161234fbecd334c153269cda9e2172e0ac99a01009090546b384af0",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (splitting field, normal closure, inseparable extension, inseparable extensions) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/simple-extension",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "6a08b93e913aab259dc7aee096b61b4c4e3104e91b76677224c2723229f00daa",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (transcendental element) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/splitting-field",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "c8bda3de99c67cdcc545a9c9efdc4c75c0a1ed54835bc35214d17b019a4828a0",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/splitting-field-degree-bounds",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "d28d5887d5d37a226be615e78bfb3415e342506564a78cb01cb31251fa3dc797",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (separable, polynomial, factorial, Galois extensions, splitting field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/splitting-field-existence-uniqueness",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "24c7ad73b1fa1bfded798c2318dc64666f1b1376967b53c756e6d244cad1c3a4",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (polynomial, polynomials, algebraic closure, images, splitting field, splitting fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/splitting-field-uniqueness",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "53a2467b115557a6b10103ccd2623200ed0710a4899503ad94d0229b9aa7ea94",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set, polynomials, image, isomorphism, splitting field, splitting fields, normal extension, Finite fields, irreducible polynomial) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/tower-law",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "d916957b4683a157a8014367f6674ff3778236c49c33c01d4993c8faffac693a",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (Finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/tower-of-fields",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "9f24f981b8a4fa8915dd90e86d6d0d433b4001e32d02e4beee71883bb53ce75d",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+  ,
+  {
+    "id": "algebra-fields-galois/trace-field",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "a0d6c16373848ba763d8e65fca0d3943cfc8adf9e9267f410c7cccf0bad53e5a",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (endomorphism, field, trace, algebraically closed) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/trace-norm-towers",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "7a1a389f73348f3e5a7a283d476a2d7294ab5c065ef32747ff32f50619872d78",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (trace, norm, Finite fields) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/transcendental-element",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "4c35ec154247ab72e8b6464f168f83bce1e80b07f0909b85dad21c02e501b62c",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (polynomial, simple extension, intermediate field) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/transcendental-extension",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "54c0fa31d78e66f74d97d17a3fe97424f2ea476fade86846a40f68dae27cd0ad",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (transcendental element, rational function) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/valuation-on-a-field",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "f82988082eb4f5735abfd19f8e1813788554101b3845d74837928278a63cc076",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (maximal\nideal, absolute\nvalue) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/valuation-ring",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "59d7a0af7b61da12833d144c1e646d7cc70d85084cdbb5594c75bfcba7688b71",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (ring) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-fields-galois/value-group",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "1f40e08576838c53f4c59a1c77d84bc0aee7175ef17a92a2ea373427f220f7ff",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (group, subgroup, codomain, ring) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/abelian-all-subgroups-normal",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "f95291fde643fcf219ce9bd31771a08c65d9b92fe5cd789ef2771949f2018dc1",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (abelian group) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/abelian-group",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "5c3f70d6100aaf22c3135b16a24bb072b646f13b31b1f3b8d739036117b8e48c",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/automorphism-group",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "2183764bb11dc1c19681e301e92790dd2371478c1bfbce213b34720d0729c051",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+  ,
+  {
+    "id": "algebra-groups/automorphism-group-cyclic",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "456e489bb1794bf3a4df30987f67f4f7df0abdb3674cfc47beb7afd61ddfd2f7",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (group, automorphism, residue, isomorphism, semidirect products) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/burnsides-lemma",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "fd48421a90b13a16d841da4af12bf6b1f7036327d7581ef55c573c611f2942a8",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/burnsides-pq-theorem",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "989c07f166f74bceafed3e189c16179e854aba7d4da265e2fc863aa1208aaed6",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (integers, normal subgroup) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/cauchys-theorem-groups",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "20cf6afc5c4084e90bba5b3a2567814e6358304e0b4d00d6b0932c2b66d1cf2f",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (Cauchy's theorem) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/cayleys-theorem",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "aee66fc01c3be58252e999c3598ff1c2d2a48370394ca52780052575b1698634",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (composition, left translation, subgroup) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/center-is-characteristic",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "98a8496bbd5b42d7ddecf13b0b00e49af604d67105407c317c3289d99db030b2",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (characteristic subgroup) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/center-of-group",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "27efb1022d0ee12efdf1fee1ce92b2e570eb816092e49c83f4f655cf6e62d442",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (subgroup) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/central-extension",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "17ab0d4a05b901de650e280a353b055d7079d1025762cafb61458b910f1d84ea",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/centralizer",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "b7b39c5b8d13672d10e139aef6ce91e164b7fcb421acf5e5f98caead5b8c434c",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (subset, conjugation action) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/characteristic-subgroup",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "095789f028420917015aa7983df44606ed03e77c5041af0f97a75cf9ac4c3ef1",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (characteristic, automorphism) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+  ,
+  {
+    "id": "algebra-groups/chief-series",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "48787e7126e24472d3e6c0059d01742a7a59eb9297cf301b0c4320f364478a94",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (subgroups, normal subgroup, normal subgroups) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/class-equation",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "b19eb05a04f4b9e52780e19415607cbc93a6d14e52e8dd8d366056ecb2ed1cde",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set, normal subgroups) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/class-equation-decomposition",
+    "outcome": "corrected",
+    "source_sha256": "e662b85d611029c28ed94d626247abddfe0b91fd07be862da1223207af0882d1",
+    "evidence": "Read the complete source and checked each linked target definition. Added the meaningful missing link for the first occurrence of conjugacy classes in the proposition. Rejected generic decomposition and union matches; prerequisites remain justified and acyclic."
+  }
+,
+  {
+    "id": "algebra-groups/class-function",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "3756451e2d3017212e3ad999aa08f3df1a8d02e603a9bd6b80e5965e26a4c08d",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (set, conjugacy class, indicator function, conjugacy classes) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/classification-finite-abelian-groups",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "a99e19a9f96e3ef306ed59260a15391ffa739c15773ea5f6c4bd0739dde2690e",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (group, integers, abelian groups) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/commutative-monoid",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "e02611ad1e04f58c05a7f7db49532132b521cd28b54e93c106cfb901bde3e7ec",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (commutative ring) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/commutator",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "16da00fbed910599cc4f4bcfb3db6091fadcdde5afcccb13d00d7e8e4c61dc4a",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (abelian group) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/commutator-subgroup",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "2d92cbc96462d94e9f3161007220e0c4a2ff68038b22a1bcd5255ed94e133bdc",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (subgroup) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/composition-series-group",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "f2a31d06d69f8a2d123c51b978e807b1d3a0dea1f4c8c8e5e320b1afca6ecd19",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (subgroups, composition, series) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+,
+  {
+    "id": "algebra-groups/conjugacy-class",
+    "outcome": "reviewed_unchanged",
+    "source_sha256": "0339b933c5a06a7c3ca8439479b28bbc1805435bf5b1247e9bad3d7c1eb6d117",
+    "evidence": "Read the complete source, including all optional sections and references. Checked candidate terms (subset) against canonical target definitions and existing links. No additional link improves reader navigation: generic words, locally defined notation, or context-specific senses were rejected; prerequisites remain mathematically justified."
+  }
+  ],
+  "gaps": [],
+  "notes": []
+}

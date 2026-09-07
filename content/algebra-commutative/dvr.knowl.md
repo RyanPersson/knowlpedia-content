@@ -14,9 +14,9 @@ dependency_review_count = 1
 A **discrete valuation ring (DVR)** is the basic local building block of dimension-one commutative algebra.
 
 A DVR is a local ring \((R,\mathfrak m)\) (see [[algebra-commutative/local-ring|local ring]] and [[algebra-commutative/maximal-ideal-local-ring|its maximal ideal]]) such that:
-- \(R\) is a domain,
+- \(R\) is a [[shared-foundations/domain|domain]],
 - \(R\) is [[algebra-commutative/noetherian-ring|Noetherian]],
-- the maximal ideal \(\mathfrak m\) is principal: \(\mathfrak m=(\pi)\) for some \(\pi\in \mathfrak m\),
+- the [[algebra-rings/maximal-ideal|maximal ideal]] \(\mathfrak m\) is principal: \(\mathfrak m=(\pi)\) for some \(\pi\in \mathfrak m\),
 - and \(R\) has [[algebra-commutative/krull-dimension|Krull dimension]] \(1\).
 
 Any generator \(\pi\) of \(\mathfrak m\) is called a **uniformizer**.

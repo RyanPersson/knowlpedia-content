@@ -11,9 +11,9 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((M,J_M)\) and \((N,J_N)\) be smooth manifolds with
+Let \((M,J_M)\) and \((N,J_N)\) be [[fiber-bundles/smooth-manifold|smooth manifolds]] with
 [[differential-geometry/almost-complex-structure|almost-complex
-structures]]. A smooth map \(f:M\to N\) is an **almost-complex map**, also
+structures]]. A [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) is an **almost-complex map**, also
 called a **\(J\)-holomorphic map** or **pseudoholomorphic map**, if
 \[
 df\circ J_M=J_N\circ df.

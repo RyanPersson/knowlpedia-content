@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(k\) be a field and let \(B\) be the split upper-triangular
 [[algebraic-geometry-foundations/borel-subgroup|Borel subgroup]] over \(k\).
-The orbit map that sends a matrix to the line spanned by its first column
+The orbit map that sends a [[linear-algebra/matrix|matrix]] to the line spanned by its first column
 induces
 \[
 SL_2/B_{SL_2}\;\simeq\;\mathbb P^1_k

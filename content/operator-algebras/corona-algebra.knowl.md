@@ -32,7 +32,7 @@ For an infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]]
 \[
 Q(\mathcal K(H))\cong\mathcal B(H)/\mathcal K(H),
 \]
-the Calkin algebra, because
+the [[operator-algebras/calkin-algebra|Calkin algebra]], because
 \(M(\mathcal K(H))\cong\mathcal B(H)\), with
 [[operator-algebras/compact-operator-cstar-algebra|\(\mathcal K(H)\)]] the
 [[linear-algebra/compact-operator|compact operators]] and

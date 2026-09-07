@@ -24,7 +24,7 @@ In this case \(G\) is called a **quasi-inverse** (or weak inverse) of \(F\), and
 ## Equivalent characterizations
 
 Equivalently, \(F\) is an equivalence iff:
-1. (**Fully faithful**) for all objects \(X,Y\in\mathcal C\), the induced map on hom-sets
+1. (**[[algebra-category-theory/fully-faithful-functor|Fully faithful]]**) for all objects \(X,Y\in\mathcal C\), the induced map on hom-sets
    \[
    \mathrm{Hom}_{\mathcal C}(X,Y)\longrightarrow \mathrm{Hom}_{\mathcal D}(F(X),F(Y))
    \]

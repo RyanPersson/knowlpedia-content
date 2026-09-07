@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Pointwise convergence** of a sequence of functions \((f_n)\) to a function \(f\) on a set \(X\) means: for every \(x\in X\), the real sequence \((f_n(x))\) converges to \(f(x)\), i.e.
+**Pointwise convergence** of a sequence of functions \((f_n)\) to a function \(f\) on a set \(X\) means: for every \(x\in X\), the [[shared-foundations/sequence|real sequence]] \((f_n(x))\) converges to \(f(x)\), i.e.
 \[
 \forall x\in X,\quad \lim_{n\to\infty} f_n(x)=f(x).
 \]

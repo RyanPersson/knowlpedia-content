@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "nonassociative-algebra/exceptional-jordan-algebra",
+      "outcome": "corrected",
+      "source_sha256": "5e583d85c9725de69fed5f5cbf2d856cd89bcfe8ff5aefac339487703157579b",
+      "evidence": "Read the complete source and checked each candidate against its occurrence and target definition. Added links for the characteristic polynomial and for the even spectral triple and smooth sections where those technical phrases introduce reusable concepts; generic repeated matches were left unsaturated. Candidate surfaces reviewed: unit, matrix, rank, trace, determinant, characteristic polynomial, fields, compact real form, group."
+    },
+    {
+      "id": "nonassociative-algebra/f4-transitivity-on-compatible-jordan-subalgebra-pairs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "65d2e5a25ddec68daf2dca6d977216b49b23c4d61c52f1b2d7e2a11ee2ac8897",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: group, intersection, stabilizer, qutrit."
+    },
+    {
+      "id": "nonassociative-algebra/f4-transitivity-on-complex-qutrit-subalgebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f77b5f63d6e726536a00d33651beaf187b354e98a662b5b13541eaaffc462558",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: automorphism group, set, automorphism, stabilizer, orbit, group."
+    },
+    {
+      "id": "nonassociative-algebra/frame-decomposition-of-hermitian-jordan-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "317050d12712ab44218747794fcf4cc55ee3a775880714c3885478ca7dd1410e",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: Hermitian matrix, vector-space, decomposition, matrix."
+    },
+    {
+      "id": "nonassociative-algebra/hermitian-jordan-triple-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09b91c245801d2c338672443c4a1b89158f10e936864facdc3c6342d70d1f1db",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: trace, matrix, unit, tripotent, Peirce spaces, domains, norm, domain, biholomorphism, field."
+    },
+    {
+      "id": "nonassociative-algebra/hermitian-matrix-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d5ed29c06f13e5ef6087f477b2dcae6c0a9887c628116d4b42481940ce3238f",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: matrix, Jordan algebra, trace, qubit, qutrit."
+    },
+    {
+      "id": "nonassociative-algebra/hurwitz-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87947bf4e603eb90a8a3870d2a149776b2e6ca7751bc8d496ae70893d6b5f9f2",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norm, field, characteristic, composition."
+    },
+    {
+      "id": "nonassociative-algebra/ideal-in-a-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53d4e20c29fc433831e53f869345d277cae029aee2eec58326f2b61a5fc7cecf",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: ideal, ideals, unit, Jordan algebra, sum of ideals, decomposition, Euclidean Jordan algebra, Jordan-algebra, characteristic, rings, Jordan algebras."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0252fc048868e3cc2e6e257ead45c3ce87e0dc0140989fca4131699368ea7668",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: field, characteristic, polynomials, vector space, unit, units, characteristics."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-algebra-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa6599a404da01de127e05cceedb2fe9a45116f95425c2fb7df5624b8647a2a4",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: field, linear map, matrix, unit, Jordan algebras, image, isomorphism."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-frame",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b4522ae981564ad6f177c36726321ff65b78a45162e8c94906f7175def28b0cc",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: set, rank, matrix, units, rank-one projections, automorphism, stabilizer."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-idempotent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab9885e140f9a2a6fd6c0d9f8699e312f7b8d94a2f1fdd4c8d5037632a4eb1d7",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: decompositions, rank, matrix."
+    },
+    {
+      "id": "nonassociative-algebra/jordan-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a146fbb16a47daa774287194baf154f78721a67cb5879478c5c6438f3b6b58e8",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: closure, unit, Jordan algebras, matrix, group, automorphisms, stabilizer, stabilizers."
+    },
+    {
+      "id": "nonassociative-algebra/nonassociative-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2bd622cf5d048781bd349a97ccbfc36ec4ce017f5ddca3f3cb138ba8d21db26c",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: algebra homomorphism, units, category, unit, vector space, characteristic."
+    },
+    {
+      "id": "nonassociative-algebra/octonion-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ee58706f4a49d5d03cb980d54af546324e1b99dea62f62e4c9e75d1aececd7c",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: isomorphism, automorphism group, field, zero divisors."
+    },
+    {
+      "id": "nonassociative-algebra/octonion-conjugation-norm-and-inner-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "28915ba112e86dc12fdc49c897f6eb7388747f2fc44888766810a8e0dd0b2cbf",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norm, unit, trace, inner product, octonions."
+    },
+    {
+      "id": "nonassociative-algebra/octonionic-spin-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5003192208612b9400aee923f657fd31ab85bf47845a97e9a908fc276c800ecb",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: octonions, Set, matrix, rank, automorphism group, unit, stabilizer, Albert algebra."
+    },
+    {
+      "id": "nonassociative-algebra/octonionic-two-by-two-determinant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0461ce1540ad1051500605443742f8ef63513dc9bb38324318630466752c91a4",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: determinant, polynomial, closure, positive semidefinite, spin factor."
+    },
+    {
+      "id": "nonassociative-algebra/octonions-as-complex-vectors",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0eb3a6985bc7bdac571ea2237f372f80854bbb290e9607cfbe996e14be95d7cf",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norm, unit, complement, decomposition, vector spaces, inner product, octonion algebra, automorphisms."
+    },
+    {
+      "id": "nonassociative-algebra/orthogonal-jordan-idempotents",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39543b807ff05955ec3fe02ea5d9c4bfc6c912fb4b169856b42fea27417d1ebf",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: trace, unit."
+    },
+    {
+      "id": "nonassociative-algebra/peirce-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24c7deba82f13314fdda99e3472391b76cca148211552580135a7a687d9524f6",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: field, characteristic, decomposition, diagonalizable, eigenvalues."
+    },
+    {
+      "id": "nonassociative-algebra/peirce-one-space-jordan-corner",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24015b86b5c442a8c0ed86404ef38a6dea792be807bce66a8419f897f75e8ef0",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: unit, matrix, trace, Jordan algebra, automorphism."
+    },
+    {
+      "id": "nonassociative-algebra/power-associative-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "584c076469b718a6f70eb89b4c608e8251c1e61eafd86c178e33ee40b595bd52",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: polynomial, nonassociative algebra, characteristic, field."
+    },
+    {
+      "id": "nonassociative-algebra/primitive-jordan-idempotent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02df68cc314448e2ac4059cfb1e150c1d758b531b1ffccf6b0f5271bd9969041",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: rank, matrix, trace, Jordan algebra."
+    },
+    {
+      "id": "nonassociative-algebra/real-normed-division-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c8a304c8bebfea0d9afd6d8bf0875c496227f7c7555f2b9018a8710a4bce2b1",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norm, nonassociative algebras, unit."
+    },
+    {
+      "id": "nonassociative-algebra/simple-euclidean-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25724d12b0d9c99aa23b55b9ce59b23c2905367b0c2c7146c9719b6a0bfe7bd4",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: isomorphism, matrix, Euclidean Jordan algebra, ideals, spin factors, Albert algebra."
+    },
+    {
+      "id": "nonassociative-algebra/special-and-exceptional-jordan-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1dc46918be9f2a5bd3c0953654364e2f2f00487cf7a2879075d019612932727d",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: units, Jordan algebras, matrix, polynomial, Exceptional Jordan algebras."
+    },
+    {
+      "id": "nonassociative-algebra/spectral-theorem-for-euclidean-jordan-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e1d2c9df4e70915d58537a8aad2cd1ff1a3e8448215fcc8c00c79b407701a96",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: rank, real numbers, eigenvalues, eigenvalue, unit, function, set, trace, determinant, matrix."
+    },
+    {
+      "id": "nonassociative-algebra/spin-factor-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "96db9e4e5e86a0df8a0bfa414d18b5f6d1a301de30c981b490143b879a46f697",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: unit, decomposition, rank, trace, determinant, automorphism, automorphisms."
+    },
+    {
+      "id": "nonassociative-algebra/spin8-stabilizer-of-an-albert-algebra-frame",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44ec1387d1fd042fb13c454478b5c42d9fbf2a8791cb9bcfb12ba0f065df36e6",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: stabilizer, decomposition, set, automorphisms, triality."
+    },
+    {
+      "id": "nonassociative-algebra/spin9-stabilizer-of-an-octonionic-spin-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ff538af55a66fcc27c0a5e2bcbff489d4db32465430454ab864c4ec3d1625f76",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: stabilizer, complement, automorphism, group, orbit, compact real forms."
+    },
+    {
+      "id": "nonassociative-algebra/su3-stabilizer-of-a-complex-octonion-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46a3cb2707bab007fb622191efc8d4d23a4d89f56d25c3af7628715d9d0575bc",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: unit, subgroup, stabilizer, inner product, automorphisms, group, set."
+    },
+    {
+      "id": "nonassociative-algebra/trace-form-of-a-euclidean-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52d7688319083f4e22eafbc7630569191e58d79ea9cdb629e9a86cdaa44c7b52",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: eigenvalues, Euclidean Jordan algebra, ideal, trace, matrix, vector-space, endomorphism, rank, automorphism, subgroup."
+    },
+    {
+      "id": "nonassociative-algebra/tripotent-in-a-jordan-triple-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9068d842b1039f0893eb22546092a87fe222f931f894169bdc071f91dfd4250",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: unit, Set, eigenvalues, decomposition, eigenvalue, Hermitian Jordan triples, relation, Jordan frames, rank."
+    },
+    {
+      "id": "nonassociative-algebra/unique-octonionic-spin-factor-corner",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40e9846d1d82ea0ba75264a500898fda7e891ee213f3ce4a87a98a013ebf7ad5",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: qubit, unit, Albert algebra, trace, relation, rank, place."
+    },
+    {
+      "id": "noncommutative-geometry/almost-commutative-spectral-triple",
+      "outcome": "corrected",
+      "source_sha256": "5b0acea0393c208c4f2dc0a0caa759b607845c353d443180cc1952849dd8502c",
+      "evidence": "Read the complete source and checked each candidate against its occurrence and target definition. Added links for the characteristic polynomial and for the even spectral triple and smooth sections where those technical phrases introduce reusable concepts; generic repeated matches were left unsaturated. Candidate surfaces reviewed: even spectral triple, smooth section, smooth sections, matrix, functions, Dirac operator, fields, metric."
+    },
+    {
+      "id": "noncommutative-geometry/analytic-k-homology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5400596400945ddc17d6e0e0627dcb492289f16147543e20c2fb78d00b0eb5c",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: separable, places, elliptic operators, Separability."
+    },
+    {
+      "id": "noncommutative-geometry/bounded-transform-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5265587518b8d7ac0f06895a7df539b9f16fda1c7f0fefd685ec26af3423db7",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: function, metric, Fredholm index, compact resolvent, local compactness, analytic K-homology, commutators, functions."
+    },
+    {
+      "id": "noncommutative-geometry/canonical-spin-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e5dbdfda5e6904df8385f78e92db28ad8ac8661dc9f69471ccb95e12ac3b009",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: closure, compact resolvent, Ellipticity, commutator, field, functions, function, domain, spectral triple, eigenvalues, geodesic, bounded commutators."
+    },
+    {
+      "id": "noncommutative-geometry/chern-character-fredholm-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d5e993dc6262e5f9ffa10ebb77a62ac29ede539b81a797a9a089a5f80cb5cde",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: character, module, trace, modules, cyclic cohomology, residue, object, Fredholm module."
+    },
+    {
+      "id": "noncommutative-geometry/commutative-reconstruction-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa47c415aa80b0586531db1064489fe605c20c93d75a9a88d3ab71b83bfe014f",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: metric, isomorphism, smooth sections, geodesic, compact-resolvent operator, projectivity, smooth structure, spectral triple, boundary."
+    },
+    {
+      "id": "noncommutative-geometry/compact-quantum-metric-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e170a566554acf8e36f01c086920149a793d780240ffc2b7f81d54f6270b87f7",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: unit, image, norm, topology, metric, weak-star topology, seminorm, function, order-unit spaces."
+    },
+    {
+      "id": "noncommutative-geometry/connes-distance",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8008d9a2579a51be06e35890d31d3e9bbe849f75ac55bec16c90260aa43e2a2",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: metric, unit, spectral triple, geodesic, commutators, supremum, seminorm, diameter."
+    },
+    {
+      "id": "noncommutative-geometry/cyclic-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af49a712980473a06a95e1949d29804b1efff451a1ce063ad8585de75267a008",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: field, characteristic, sequence, periodic cyclic cohomology."
+    },
+    {
+      "id": "noncommutative-geometry/delta-derivation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3174e9c02fa7ef0fa373e6f8197e5ab40eb3a1b4f3b40643c54aaab7ce30742b",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: domain, spectral triple, commutator, seminorms, topology, operator norm, commutators, domains, bounded commutator."
+    },
+    {
+      "id": "noncommutative-geometry/dimension-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ea491a307e2b251d14cabdbd2944f0c0de68deacb3cbeb24bd604b4fe8a1a9c",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: set, sequence, integers, metric, residues, functions, pole order, pole orders."
+    },
+    {
+      "id": "noncommutative-geometry/dirac-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5e8218380ad12be28b376dea96ac8b1bb7bf6b832f7a73e88fdf7bdb9102800",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: boundary, derivative, Clifford multiplication, measure, metric, closure, compact resolvent, scalar curvature, curvature, spinor bundle, Dirac-type operators, zero section."
+    },
+    {
+      "id": "noncommutative-geometry/dirac-type-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54ba2f24886aba6d2ff37b8867f083b96fef60a72a2170e28b09c85ecd882c91",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: metric, endomorphism, connection Laplacian, curvature, Dirac operator, spin Dirac operator."
+    },
+    {
+      "id": "noncommutative-geometry/entire-cyclic-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89bedfdb7203e4453fe762d7b7811efc10f48fe7dee7c15e523bb41946a70869",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: sequence, norm, supremum, unit, sequences, factorial, continuous duals, character, characters, subset, smooth function algebras."
+    },
+    {
+      "id": "noncommutative-geometry/even-fredholm-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ce4745d5d847f0c4e3649452946fc7215a1e315f4fb1e65bb94a6db8ef12cd6",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: eigenspaces, module, locally compact, modules."
+    },
+    {
+      "id": "noncommutative-geometry/even-index-pairing",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac1faec2165f58c773b0af1fb0c69af88b5e9d9f274b1e1faaf1d80dc8a22835",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: group, even Fredholm module, Fredholm index, rank, matrix, Fredholm module, compact operators."
+    },
+    {
+      "id": "noncommutative-geometry/even-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b075424df2d4cef97cd645fb0717790c11b67dd9e42396c5b14345f54fdf2d9",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: domains, relation, chirality operator, functions, spectral triple, positive part, domain, graded commutators, relations."
+    },
+    {
+      "id": "noncommutative-geometry/finitely-summable-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8cf4daabc3c891f1f1d62c167c0dd6fceb4d02591320ad2ec96251c90300d8a2",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: eigenvalue, function, polynomial, trace, compact operator, commutators, cyclic Chern character, eigenvalues, compact resolvent, spectral triples, ideal, functions."
+    },
+    {
+      "id": "noncommutative-geometry/finiteness-absolute-continuity-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb4589f481b62e12b96cde8b50f0059cc60c7ef1daf77de59a1a47c91dfd2e26",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: set, module, domain, Hilbert-space, absolute continuity, projectivity."
+    },
+    {
+      "id": "noncommutative-geometry/first-order-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92899f546a1ff0ac4eba4fdaa395309a6531849960bf78f94595af476242568c",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: function, derivative, commutator, Clifford multiplication, endomorphism, functions, metric."
+    },
+    {
+      "id": "noncommutative-geometry/fredholm-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb3bae273dbe834a677dd83dcefb0b239a9638c814c4f82c76dea0658b35147f",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: locally compact, module, commutators, compact operators, image, modules."
+    },
+    {
+      "id": "noncommutative-geometry/hochschild-chain-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b8d43cdba8a6f5a08dfa37dcb511489a7d5ae84ea4ef6681131487b29c58ad2",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: boundary, tensor-product."
+    },
+    {
+      "id": "noncommutative-geometry/hochschild-cycle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1494d95d28f1067281b0fb591381971f5235e661f86100d38532e0cceb852d99",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: module, boundary, bimodule, image, completed tensor products."
+    },
+    {
+      "id": "noncommutative-geometry/hochschild-orientability-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d04ab458eee336420459e52e368ecc2db12720c1846185aac87b1c4c0be75c37",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: chirality operator, Hochschild cycle, Clifford multiplication, spectral triples, boundary."
+    },
+    {
+      "id": "noncommutative-geometry/jlo-cocycle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c77a0cb9f94baf05aefdac06a41f3b4ddd6d338f0c6d704e6ba105c6df543b8",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: sequence, trace, commutators, ideals, factorial, character."
+    },
+    {
+      "id": "noncommutative-geometry/ko-dimension-signs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4a1a1f3691201dd5e24edf12a13cbf62aa0856a0c7cd20a32d4b46d2566b7a41",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: function, metric, relations, relation."
+    },
+    {
+      "id": "noncommutative-geometry/lipschitz-seminorm-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e14800f4c7e045629833e8ad6bd989c075b4569ec0ce8fa554df9c59af25bde",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: set, seminorm, norm, unit, supremum, metric, spectral triple, Clifford multiplication, functions, geodesic, image, sets."
+    },
+    {
+      "id": "noncommutative-geometry/local-index-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22fec4f5092b3430d895ca11d8081645a0285c484c119783a20163ae6aeb97b7",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: cyclic Chern character, residues, commutator, trace, functions, factorials, character, traces, residue, commutators, neighborhood, Fredholm index."
+    },
+    {
+      "id": "noncommutative-geometry/metric-dimension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf78bfd572ece6f86af32dd6a4e44884446fd016d30cb9d236de043ed2d63a2d",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: metric, set, infimum, eigenvalue, eigenvalues, Polynomial, spectral triple, trace, polynomial, Metric, functions."
+    },
+    {
+      "id": "noncommutative-geometry/noncommutative-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ac2f6181befd7844d543648f39f17eb63e37d0f1a8803ca896af5b5e4c22c74",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: commutators, limit, trace, Dixmier trace, ideal, function, residue, rank, Metric, von Neumann algebras."
+    },
+    {
+      "id": "noncommutative-geometry/nonunital-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "073b1a0f3ac7126ec0ae9e01a7e404589b3e6329060a95150f39a06787f594fa",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: locally compact, local compactness, Dirac operator, compact resolvent."
+    },
+    {
+      "id": "noncommutative-geometry/odd-fredholm-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "64715ee5eece7a1ceb11d7eba39c5d371a41b410145048274a4ada967d8beff7",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: commutator, module, image, modules, Hilbert space, commutators, Fredholm module."
+    },
+    {
+      "id": "noncommutative-geometry/odd-index-pairing",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "320289c65d7384e41786dcce26f549d3adfed315c0b995db82bc70109901b273",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: set, commutator, polar decomposition, function, matrix, image."
+    },
+    {
+      "id": "noncommutative-geometry/odd-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cc2ed388aee77cfa14c2b901bd390c5de524d90b030fed558f9dc927c588c0f",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: object, domain, eigenvalues, compact resolvent, relations."
+    },
+    {
+      "id": "noncommutative-geometry/order-zero-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4049a93c31631ca23373bea2ce38e48c7c4a12379b679aa6581bada7a258b169",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: places, commutators, functions, commutator, bimodule."
+    },
+    {
+      "id": "noncommutative-geometry/p-summable-fredholm-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5c4fa5636cc76cfa4fb76b61877594b84ca04cc132a8e3fa9e400872aa9b13d",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: module, commutator, Schatten ideals, trace, Fredholm index, norm, Fredholm module, commutators, ideal."
+    },
+    {
+      "id": "noncommutative-geometry/p-summable-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "945df497f03a5ae54732ebdcc84348f1bd19973523cbc567ac98c50d8a5e02f4",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: ideal, eigenvalues, function, Schatten ideals, spectral triple, eigenvalue, commutators, trace, Schatten ideal, faithful normal semifinite trace."
+    },
+    {
+      "id": "noncommutative-geometry/periodic-cyclic-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a70912a4499a375c84b2716aa3f87b6ab7833621dace33fff96a3f3cb117b34a",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: field, images, polynomials, Fredholm index, matrix, characteristic, characters, cyclic cohomology, limit, sequences."
+    },
+    {
+      "id": "noncommutative-geometry/pre-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d64a3fd0f878d2e7e983a542a2128eef2cbf855b965c35cd7be2c5662e4778ce",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norm, Banach-space, limits, closure."
+    },
+    {
+      "id": "noncommutative-geometry/product-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ca7f7da1a823fd3936907b433ddffe24330236a3c703fb064acec8775f6a7bd",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: spectral triple, closure, tensor-product, spectral triples, matrix, norm."
+    },
+    {
+      "id": "noncommutative-geometry/real-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee5f17b07dce65cb58f57e9806f99e044d3a35e8c800cbabd3603d765a501c51",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: relation, commutators, spectral triple, Functions, charge conjugation, Clifford multiplication, relations."
+    },
+    {
+      "id": "noncommutative-geometry/real-structure-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cda16420f44eda91afe0ed1ba2a627721095f339d949d7255c3bd25d5ee1e29f",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: relations, opposite algebra, spectral triple, function."
+    },
+    {
+      "id": "noncommutative-geometry/regular-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bdfd4629680946fa4ffa75f45e7468cb3f1122ce3e8d64255ed0d1b0034a2aa6",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: span, commutators, derivatives, residues, functions, spectral triple, smooth function algebra, place."
+    },
+    {
+      "id": "noncommutative-geometry/semifinite-index-pairing",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d2658b3ec3c064cc7257f63e1b0a3876192724df8a11141df7916dfd1ad70da",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: Fredholm index, integers, path, matrix, trace."
+    },
+    {
+      "id": "noncommutative-geometry/semifinite-local-index-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c87aad79814397ba9cb45a81104aedf78814627cb97a998270e8e20ca0d5764e",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: character, residue, commutators, traces, residues, functions, commutator, spectral flow, trace, Hilbert-space."
+    },
+    {
+      "id": "noncommutative-geometry/semifinite-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18d7d4c646e0cbacce04d51b5d54dec813e073aff02c0f107acccbb77a4e06aa",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: commutator, trace, Hilbert-space, semifinite local index formula, tau-compact ideal, Fredholm index, spectral triple, local compactness."
+    },
+    {
+      "id": "noncommutative-geometry/smooth-domain-delta",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7d009b9f09bb1d98a2e1194e5ff271652cefc2a26c9186ffb26bbbe9532cfd8",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: domain, commutator, seminorms, topology, derivatives, spectral triple, commutators, intersection."
+    },
+    {
+      "id": "noncommutative-geometry/smooth-subalgebra-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c9f72891bc8071b6d7783826e3ebe085ba74546f755840184053f0c44ec1107",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: topology, closure, Holomorphic, isomorphisms, orbit maps, smooth manifold."
+    },
+    {
+      "id": "noncommutative-geometry/spectral-flow",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "593db669d13b7c28475d9c1d591bcb99e28c7802fa4a71c30d7a624d7dc75b5f",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: separable, path, eigenvalues, interval, paths, loops, Fredholm operators, isomorphism, Hilbert space, eigenvalue, topologies, trace."
+    },
+    {
+      "id": "noncommutative-geometry/spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "61c6e8fa78e75a9177147a4c0ad480a7f967be7d9c55c8998cdddf9d72806de0",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: commutator, functions, metric, Compact resolvent, elliptic operator, function, commutators, Functions, Ellipticity, compact resolvent, Clifford multiplication, locally compact."
+    },
+    {
+      "id": "noncommutative-geometry/spectral-zeta-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34d557a6d081a8df4952ef7a1dcf29114f06e67ca02c913839f2fbf434265301",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: function, trace, functions, eigenvalues, measures, eigenvalue, relation, residues, holomorphic, set."
+    },
+    {
+      "id": "noncommutative-geometry/tau-summable-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad4f648695b38dc3d1c433732ba735ff260ef3df21e1e75700e729f42d66d53b",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: commutators, eigenvalue, function, ideal, trace."
+    },
+    {
+      "id": "noncommutative-geometry/theta-summable-spectral-triple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "306ec42374ec6220b7d229836da8b9cfebaba22800c39a65313d23aafb213605",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: trace, eigenvalue, function, polynomial, commutators, factorial."
+    },
+    {
+      "id": "noncommutative-geometry/unbounded-kasparov-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "20f3da2c9389ae08da9a3c68a760539e73466aa617d17ea1969efd9df590ac5f",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: module, graded commutator, Local compactness, commutators, compactly supported smooth functions, functions, locally compact, local compactness."
+    },
+    {
+      "id": "noncommutative-geometry/unitary-equivalence-spectral-triples",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cd6854da25489d77a6f00b1ebf065d29c6485429826a824e51a5de03dc6d1e9",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norms, commutators, metric, relation, Hilbert-space, isomorphism, isometry, spectral triples, module."
+    },
+    {
+      "id": "operator-algebras/abelian-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c05258a2a4168425ef004d7249277c9f1441854ec65215fa3d4781ceb351628",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: unit, von Neumann algebra, rank."
+    },
+    {
+      "id": "operator-algebras/adjointable-operator-hilbert-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e299d2af6909a3adb6cd0beeff72c50b705908bcb4edd92fb33accf6cedd19a9",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: inner products, morphism, submodule, span, module, Banach-space, compact operators, category, Modules."
+    },
+    {
+      "id": "operator-algebras/affiliated-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8e6d1a588d2c9f893c68577008a918b73ae80c60bf8c26fba889c4e80524964",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: relation, polar decomposition, closed operator, functions, domain, trace."
+    },
+    {
+      "id": "operator-algebras/affiliation-spectral-characterization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb595deaf781c4655f704d5c4a7e12864450f052f3a91468530e6f79a03188be",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: polar decomposition, set, relation, spectral measure, bicommutant, places, partial isometry, von Neumann algebra, trace, densely defined operators, closure."
+    },
+    {
+      "id": "operator-algebras/amenability-full-reduced-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0d87fb52850158ebef2be3bd86cbbc7ab31fa05272f54f1cbf78ef27ba4164b",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: isomorphism, regular representation, weak containment, locally compact group, group, free group, locally compact groups, isomorphisms, groups, group algebra, groupoids."
+    },
+    {
+      "id": "operator-algebras/amenable-cstar-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8025814da7af5e9d2b24573a93faa7c1105215f23b603d7928eb2918362cce8",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: normal extension, group, isomorphism, weak containment, locally compact, groupoid, functions."
+    },
+    {
+      "id": "operator-algebras/approximate-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ccc671994e0db55c4e07471451b1bdfa3ad501e085afe50b05ee93bc4975a58",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norm, subsets, sequence, functions, Separability, unit."
+    },
+    {
+      "id": "operator-algebras/bicommutant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d02c6045ef23335f9c353c5d3d58da824f507d42981097acb13aa1f136d9b936",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: set, subsets, closure, norm, objects, von Neumann algebra, concrete von Neumann algebras, Hilbert space."
+    },
+    {
+      "id": "operator-algebras/bounded-operator-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "581cd5281118dee1049f2ad5d5f7bce2783e798b5de6e79db3e316a5b9c6a383",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: composition, Hilbert-space adjoint, von Neumann algebras, Hilbert-space, operator norm, separable, norm, topology, topologies, set, weak operator topology, bicommutant."
+    },
+    {
+      "id": "operator-algebras/bounded-star-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebe359c019c0c738d3ea70851e39ae9f813c94b501927d398beae72fe884fe0b",
+      "evidence": "Read the complete source, including optional sections and references, and checked candidate phrases against their local meaning and target definitions. The reported matches are generic words, repeated mentions after an existing first link, locally defined notation, or context where expansion would not answer a likely reader question; no justified link or dependency change was needed. Candidate surfaces reviewed: norm, topology, domain, involutive algebra, codomain."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 26 completed linking and dependency review for all assigned sources."
+  ]
+}

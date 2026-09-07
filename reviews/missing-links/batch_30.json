@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "quantum-foundations/positive-operator-valued-measure",
+      "outcome": "corrected",
+      "source_sha256": "6c4f71db1cd835da93559d3ca72fd7d93e0382072a1aff496b5076537d334d8a",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: measurable space (linked, target measure-theory/measurable-space); sequence (unlinked, target shared-foundations/sequence); weak operator topology (linked, target operator-algebras/weak-operator-topology); measure (unlinked, target measure-theory/measure); distribution (unlinked, target functional-analysis/distribution); set (unlinked, target shared-foundations/set); positive operators (linked, target quantum-foundations/positive-semidefinite-operator); projection-valued measure (unlinked, target functional-analysis/projection-valued-measure). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "quantum-foundations/positive-semidefinite-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ffc8bc0357f4d222a338c4fedbbf27766d701be3df271265ad008ed4c28e18e",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: linear operator (unlinked, ambiguous targets); eigenvalue (unlinked, target linear-algebra/eigenvalue); bounded above (unlinked, target real-analysis/bounded-above); trace-class operators (unlinked, target shale-paper/trace-class-operator); trace (unlinked, target linear-algebra/trace). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "quantum-foundations/pure-state-quantum",
+      "outcome": "corrected",
+      "source_sha256": "0e0c6bec977ca8a02a30e46f54128a183d6a9dfa93770072aaff4ceee9e9c9e7",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: Hilbert space (unlinked, target linear-algebra/hilbert-space); unit (unlinked, target algebra-rings/unit); positive semidefinite (linked, target quantum-foundations/positive-semidefinite-operator); trace (unlinked, target linear-algebra/trace); density operator (linked, target quantum-foundations/density-operator); rank (unlinked, target linear-algebra/rank); eigenvalues (unlinked, target linear-algebra/eigenvalue); convex set (unlinked, target convex-analysis/convex-set). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "quantum-foundations/quantum-relative-entropy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "297bd4f35a529421d4a9c86b608af92b354d4a3d69df92af4bdf6f75f15fb09e",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: Hilbert space (unlinked, target linear-algebra/hilbert-space); diagonalizable (unlinked, target algebra-modules/diagonalizable); eigenvalue (unlinked, target linear-algebra/eigenvalue); distributions (unlinked, target functional-analysis/distribution); metric (unlinked, target topology/metric). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "quantum-foundations/qubit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7e567ac76e5556169ecdcbb7e55af99d2e3526c75175eb5ee3c673f34386884",
+      "evidence": "Read the complete source body, including all optional sections. Verified 8 authored body links; candidate phrases checked: density operator (linked, target quantum-foundations/density-operator); boundary (unlinked, target topology/boundary); stabilizer (unlinked, target algebra-groups/stabilizer); observable algebra (unlinked, target stat-mech-quantum/observable-algebra); qutrit (unlinked, target quantum-foundations/qutrit). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "quantum-foundations/qutrit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e364ded118d62708d08192eb130c4aab95763fed887d4269f1d552d92e4af65a",
+      "evidence": "Read the complete source body, including all optional sections. Verified 8 authored body links; candidate phrases checked: observable algebra (unlinked, target stat-mech-quantum/observable-algebra). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "quantum-foundations/rank-one-projector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a03f99d4c35b5fab66575a7b13a9850678bced42f8c16bfbd375ff64c5df8c7c",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: Hilbert space (unlinked, target linear-algebra/hilbert-space); span (unlinked, target convex-analysis/subspace-generated-by-a-set-span); trace (unlinked, target linear-algebra/trace). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "quantum-foundations/self-adjoint-operator-observable",
+      "outcome": "corrected",
+      "source_sha256": "d35a1a196e2985281b59deb8a995dccfcdc5bdb2507a2049335fe27f09bfd87b",
+      "evidence": "Read the complete source body, including all optional sections. Verified 6 authored body links; candidate phrases checked: Hilbert space (linked, target linear-algebra/hilbert-space); eigenvalues (unlinked, target linear-algebra/eigenvalue); Eigenvectors (unlinked, target linear-algebra/eigenvector); diagonalizable (unlinked, target algebra-modules/diagonalizable); orthonormal basis (unlinked, target linear-algebra/orthonormal-basis); decomposition (unlinked, target algebra-groups/decomposition); expectation (unlinked, target probability/expectation); trace (unlinked, target linear-algebra/trace). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "quantum-foundations/spectrum-self-adjoint-finite",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f7d4a5d491c94602feeed7ad311c968feaea5962d1044950bd589476675cfddd",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: set (unlinked, target shared-foundations/set); eigenvalues (linked, target linear-algebra/eigenvalue); orthogonal projections (unlinked, target linear-algebra/orthogonal-projection); eigenspaces (unlinked, target linear-algebra/eigenspace); function (unlinked, target shared-foundations/function); trace (unlinked, target linear-algebra/trace). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "quantum-foundations/trace-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56c4abb5c6871869193c83fa86a15592241d7336be77c140ca51fb48c432bbb0",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: finite-dimensional complex Hilbert space (unlinked, target quantum-foundations/complex-hilbert-space-finite); linear operator (unlinked, ambiguous targets); orthonormal basis (unlinked, target linear-algebra/orthonormal-basis); matrix (unlinked, target linear-algebra/matrix); eigenvalues (unlinked, target linear-algebra/eigenvalue); positive semidefinite (unlinked, target quantum-foundations/positive-semidefinite-operator); Hilbert space (unlinked, target linear-algebra/hilbert-space); trace (linked, target linear-algebra/trace). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "quantum-foundations/von-neumann-entropy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c4ee9ae2ebfe6611df6f1eb87edb0626bba3b3032c103d17553123900230a5fd",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: Hilbert space (unlinked, target linear-algebra/hilbert-space); decomposition (unlinked, target algebra-groups/decomposition); eigenvalues (unlinked, target linear-algebra/eigenvalue); orthonormal basis (unlinked, target linear-algebra/orthonormal-basis); Shannon entropy (unlinked, target probability/shannon-entropy). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/abel-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f6e7c821c4603dd98c1b32991cf4b8cb34cf290875d99bb19578c8160960571a",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: series (unlinked, target real-analysis/series); complex numbers (unlinked, target shared-foundations/complex-numbers-c); sequence (unlinked, target shared-foundations/sequence). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/abels-theorem",
+      "outcome": "corrected",
+      "source_sha256": "b16ddbb2a0d7ee6eed1f14b7785a1e1e05a695dd582c1d8a386108f7c64e9011",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: convergent series (linked, target real-analysis/convergent-series); complex numbers (linked, target shared-foundations/complex-numbers-c); boundary (unlinked, target topology/boundary); complements (unlinked, target shared-foundations/complement). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "real-analysis/absolute-convergence-implies-cauchy",
+      "outcome": "corrected",
+      "source_sha256": "f873e138b995913430fce7ec59f5e36aa40eced1add42d357bf8d17d562feb4c",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: series (unlinked, target real-analysis/series); complex numbers (linked, target shared-foundations/complex-numbers-c); Cauchy sequence (linked, target topology/cauchy-sequence); integers (unlinked, target shared-foundations/integers). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "real-analysis/absolute-convergence-implies-convergence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd3c2c0e4178841cb4ba33b3c62fbbeb783ddbbd97ae7af053e0901b3db4b588",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: series (linked, target real-analysis/series); absolutely convergent series (linked, target real-analysis/absolutely-convergent-series). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/absolute-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ea7a30320487e040e9b6903685c3e545ef5f783d0d862d566444f706e8b83acd",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/absolute-value-preserves-integrability",
+      "outcome": "corrected",
+      "source_sha256": "bd33bc02ec017dd881a4ee56616b0b58413851ac3bd1657fe640dff6741076b1",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); triangle inequality (linked, target real-analysis/triangle-inequality); functions (unlinked, target shared-foundations/function). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "real-analysis/absolutely-convergent-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a81bdcf4b12051cdc41fb33f3668decf32fa465b821feba1b90be97b70b25fac",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: series (unlinked, target real-analysis/series); absolute values (unlinked, target real-analysis/absolute-value). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/algebraic-properties-sup-inf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21bb58b84f7daaadc9f07276e525251edfda4c1510210129b4bf7717dd7c91b9",
+      "evidence": "Read the complete source body, including all optional sections. Verified 0 authored body links; candidate phrases checked: bounded above (unlinked, target real-analysis/bounded-above); sets (unlinked, target shared-foundations/set); bounded below (unlinked, target real-analysis/bounded-below). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/alternating-series-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97f826218a1c127467389d92bf0323f8d0d0b98d6f09a015ddfd40aa9d6e47a5",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence); real numbers (unlinked, target shared-foundations/real-numbers); limit (unlinked, target algebra-category-theory/limit). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/antiderivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c9345718779553d7dfba1d8010dad5045e4ac6e271523d37caff460b95e408d",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); interval (unlinked, target real-analysis/interval). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/archimedean-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "062d7427811920e29867c6a9f830b74c1101be2537e4563153e2fac30828a51f",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/arzela-ascoli-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7d328bd1c8c210be0039eb05a350dfa5100907a82f46151421ed33c70007b00",
+      "evidence": "Read the complete source body, including all optional sections. Verified 8 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence); function (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/banach-fixed-point-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9ca3ad8439929291684c1bba65ae22e1e369321bd6a319810fe21defb21b4bb",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/basic-properties-of-lim-sup-and-lim-inf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ea756614e2ae9f948251db2c9e098b0587ebff3b808f1de715120a31c56c508",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence); limits (unlinked, target algebra-category-theory/limit); oscillation (unlinked, target real-analysis/oscillation). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/bounded-above",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afac27b43a2f1818da73391e7696f80c02764c7e025fa8e2030866ad80afa0f1",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: set (unlinked, target shared-foundations/set); upper bound (unlinked, target shared-foundations/upper-bound). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/bounded-below",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85510c7fa2175d118e62b6067cccdef218d3c6d32b91d0a3d1338da914559956",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: set (unlinked, target shared-foundations/set); lower bound (unlinked, target shared-foundations/lower-bound). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/bounded-derivative-implies-uniform-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5efc3be3ccc3108e62963cd2b39d49072f5c0216e20febaffe9998c6696234ed",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: differentiable maps (unlinked, target real-analysis/differentiable-map). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/bounded-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34cb41ff34f7559553616423c54c6c188062dd52b606465285d1a78e4e0c4c4c",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence); bounded above (unlinked, target real-analysis/bounded-above); bounded below (unlinked, target real-analysis/bounded-below); monotone sequence (unlinked, target real-analysis/monotone-sequence). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/bounded-sequence-has-convergent-subsequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b01cba43c4c1be61cf3b90d4d182550e8f2797d54982c3ff1d286bedab794f72",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/bounded-variation-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b7472285533eae8b993acdbbe7338a4be3991ce8d1c43855661df3e8792a7e93",
+      "evidence": "Read the complete source body, including all optional sections. Verified 6 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); supremum (unlinked, target real-analysis/supremum); Functions (unlinked, target shared-foundations/function); decompositions (unlinked, target algebra-groups/decomposition). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/c2-implies-equal-mixed-partials",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b207711f9c39066ef0dc6c46f15c26ab8d50b10bf754470b47f54890d9886886",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/cauchy-condensation-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "81a3763a68d3803f318dc77adcd8f869a42c9342a52ae59a6f3b31fbc3035311",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence); real numbers (unlinked, target shared-foundations/real-numbers). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/cauchy-criterion-in-rk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "13452ae06ef3de0c63166d840190f5b9efd9665d1dbc7e9e3a617193b620ccd1",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence); metric (unlinked, target topology/metric); Euclidean space (unlinked, target linear-algebra/euclidean-space). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/cauchy-hadamard-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1532dfc2eaa9acc64480fb02e1a336697a94db12621aef864f4e4112f13f3ae",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: Set (unlinked, target shared-foundations/set); series (unlinked, target real-analysis/series). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/cauchy-mean-value-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "96dbf91fb991594cb4b5fc1496b252ff9d9204bb83a8fdea9a240df13530e169",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: limits (unlinked, target algebra-category-theory/limit). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/cauchy-principal-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8af90561e09a4f02bd0cb025dadd81577f7c94ad9fcfd814ba5030b7e0544a78",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); limit (unlinked, target algebra-category-theory/limit). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/cauchy-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52b3f36f677a96d87d122a31e48f474f5aaf35d713edb5ec15b0a3eb39cb7e86",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: series (unlinked, target real-analysis/series); divergent series (unlinked, target real-analysis/divergent-series). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/chain-rule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7dcedfe223d35c521cd5e35c5b1054d8290c77c7389a6a58e761580fe65f8cda",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/chain-rule-multivariable",
+      "outcome": "corrected",
+      "source_sha256": "57e080f942f1a4500962cf621d7bcdc32ba524d71fa01d5b7edd1374d82c90ea",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: matrix (unlinked, target linear-algebra/matrix); chain rule (linked, target real-analysis/chain-rule); coordinate changes (unlinked, target fiber-bundles/coordinate-transition-map). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "real-analysis/change-of-variables-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "903e9ea207986bd79262eea26186ed25966a66df2c6b33ce3b876db17abc35ba",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: coordinate changes (unlinked, target fiber-bundles/coordinate-transition-map). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/class-ck-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a009f1501d023f53c722cdc5261bc70af5631b2ab154df1eb7dcacb6dc2e3a16",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: interval (unlinked, target real-analysis/interval); function (linked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/class-ck-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d454e31721a2bbb5a22e8889b822dd60e61b33fc17001ec015da22f66bd6636c",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: open set (unlinked, ambiguous targets); partial derivatives (unlinked, target real-analysis/partial-derivative); total order (unlinked, target shared-foundations/total-order); derivative (unlinked, target real-analysis/derivative); derivatives (unlinked, target real-analysis/derivative). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/comparison-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76530956c67fe3d88e79e85e127166932d7c87dbc98f86da959402a38a8b92be",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: series (linked, target real-analysis/series). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/completeness-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7159e0974d14c5dd011ea4dbe33ffe907867f66226116e7104439db52aac0e4",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: upper bound (unlinked, target shared-foundations/upper-bound); fields (unlinked, target algebra-rings/field). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/completeness-equivalences",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf5994eef8a3d934c8697d86332d115a8f19190551f3be821e3b005b797ff9a8",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: field (unlinked, target algebra-rings/field); subset (unlinked, target shared-foundations/subset); sequence (unlinked, target shared-foundations/sequence); fields (unlinked, target algebra-rings/field). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/composition-preserves-riemann-integrability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a2b899c5db064e974bcb187fd905b679ba85e608d55bc3f9c869ff75b5bcbb0",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: interval (unlinked, target real-analysis/interval). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/conditionally-convergent-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bfcef61e7765d878bd1ae2189fd3371d020c1f00d57c953a9ad04c3a1a0bc792",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: series (unlinked, target real-analysis/series). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/constraint-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4233b6de587ef99ed385cf480119dcd37d09953c51fc2f74a14698b09c9d55ce",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: subset (unlinked, target shared-foundations/subset); domain (unlinked, target shared-foundations/domain); set (unlinked, target shared-foundations/set); unit (unlinked, target algebra-rings/unit). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/continuity-at-a-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "55e20a8155a2f0ec455c80fbc17b15a88a6a68bcf8d40086c240b2bfbedbf318",
+      "evidence": "Read the complete source body, including all optional sections. Verified 1 authored body links; candidate phrases checked: step function (unlinked, target real-analysis/step-function); set (unlinked, target shared-foundations/set); metric spaces (unlinked, target topology/metric-space). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/continuity-on-a-set",
+      "outcome": "corrected",
+      "source_sha256": "a26aebdd89894eeadf4684f4ff5e99f826fe4667271fb859443da42a42b44b45",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); metric spaces (linked, target topology/metric-space); metric (unlinked, target topology/metric); Open-set (unlinked, target topology/open-set); preimage (unlinked, target shared-foundations/preimage); polynomial (unlinked, target real-analysis/polynomial); subset (unlinked, target shared-foundations/subset); domain (unlinked, target shared-foundations/domain). Added links only at first useful occurrences where target definitions matched the mathematical sense; repeated or context-dependent occurrences were left plain."
+    },
+    {
+      "id": "real-analysis/continuity-via-sequences",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69a0575106ed1c5db18a7962791dae3f25cae8be5d1757c559132625eb6aaf49",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/convergent-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97bd3d0aed7f877641950fd562e9079e9550104c931eb979f72165b48f84f282",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: limit (unlinked, target algebra-category-theory/limit); series (linked, target real-analysis/series); partial sums (linked, target real-analysis/partial-sums). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/convergent-series-terms-go-to-zero",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36869c75ba074cc71fd3279314d4b04f0c3ade104cd5e71a9886f5df8d6ade52",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: series (unlinked, target real-analysis/series). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/critical-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c91d7613d35a2e608ccb6f872262993a53cf59264b5bde38156d31d7f749aae2",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); linear map (unlinked, target linear-algebra/linear-map); maximum (unlinked, target real-analysis/maximum); minimum (unlinked, target real-analysis/minimum). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/critical-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25c3e6158d45568ee1bbce85ef53f124d135842b5b51b88b740e696a52accf83",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: differentiable map (unlinked, target real-analysis/differentiable-map); derivative (unlinked, target real-analysis/derivative); rank (unlinked, target linear-algebra/rank). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/darboux-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abd9ecddd04a384c5c2dded50847a314707966fc4baa274ab791a805d2fa9a9c",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: interior (unlinked, ambiguous targets); function (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/density-of-irrationals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3c2d1c0f5a678c7c98a0b087a7f34ad9ee5f5918bf5c38acdd712a456c870b57",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: real numbers (unlinked, target shared-foundations/real-numbers). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/density-of-q",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4370aabd556ff132bc5609d1df1a2575ae12ff8866945bf4e8e2573fec1f3d0f",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: real numbers (unlinked, target shared-foundations/real-numbers). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/density-of-r-minus-q-in-r",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eac6451c3d2033bd175290cb36b3efa6559f6096a5473b19de5a0975d5efb97e",
+      "evidence": "Read the complete source body, including all optional sections. Verified 0 authored body links; candidate phrases checked: real numbers (unlinked, target shared-foundations/real-numbers); sequences (unlinked, target shared-foundations/sequence). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efd7c89c1fe4306d09014eb8a4ff9487e286e9caf2200fb906ad56fb432fa05a",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: interval (unlinked, target real-analysis/interval); limit (unlinked, target algebra-category-theory/limit); difference quotient (unlinked, target real-analysis/difference-quotient). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/derivative-sign-implies-monotonicity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9430d8bc7907bb6c9965c461f5ccc4db844e7e572af5456d2a82b72da0b47a81",
+      "evidence": "Read the complete source body, including all optional sections. Verified 6 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/derivative-zero-implies-constant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f52f66c816466d2af3f675e8c94ab5a762b1034b7781c38cf5cde533726dcaa3",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: derivative (unlinked, target real-analysis/derivative); intervals (linked, target real-analysis/interval). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/difference-quotient",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c149438a5d96f6edc59935bcc0799c2ac40396091ec1ae1ffb2bc96ca02b5e7",
+      "evidence": "Read the complete source body, including all optional sections. Verified 0 authored body links; candidate phrases checked: derivative (unlinked, target real-analysis/derivative); limit (unlinked, target algebra-category-theory/limit). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/differentiability-1d",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "68ed62a814fc656265bc4c7698443549b3818b438d51d52cbf113af2ddf30e75",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: limit (unlinked, target algebra-category-theory/limit); one-sided limits (unlinked, target real-analysis/one-sided-limit); interval (unlinked, target real-analysis/interval); function (linked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/differentiability-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ece54fd74d4f63e9e8e81b9fc4953b4a6f75e3c0ff5a83cb9ef291fb8356b22",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/differentiability-implies-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa99c527d28875cccc3d295356647e6550edcc13a89e722070d7e3054307e17a",
+      "evidence": "Read the complete source body, including all optional sections. Verified 8 authored body links; candidate phrases checked: interior point (unlinked, target differential-geometry/boundary-and-interior-of-a-manifold). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/differentiability-one-variable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87c6fc4b408f8e1ca32c8f2539d5ab7412420d6f7516c56d97d42cae44d25b60",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); limit (unlinked, target algebra-category-theory/limit); derivatives (linked, target real-analysis/derivative). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/differentiable-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6402d1bf0d9ad02ecedfd20b221949204d929e076f5b6abfec8305694c2d0f8",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: linear map (unlinked, target linear-algebra/linear-map); derivative (unlinked, target real-analysis/derivative). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/differentiation-rules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92acfce10ec766462db0cdf7a68be379742f2bc11658d54d1757043198c3ba88",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: functions (unlinked, target shared-foundations/function); interior point (unlinked, target differential-geometry/boundary-and-interior-of-a-manifold); Chain rule (linked, target real-analysis/chain-rule); differentiable maps (unlinked, target real-analysis/differentiable-map); Euclidean spaces (unlinked, target linear-algebra/euclidean-space). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/dinis-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d18d8f0288b5658882444df6e85d67712e3614d9e5c8e9086fcf7403357f1d61",
+      "evidence": "Read the complete source body, including all optional sections. Verified 7 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/directional-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "adbeb058450aeb15f238e75404b8e1c403e72166fa4bd66315c1363c09a7b9dd",
+      "evidence": "Read the complete source body, including all optional sections. Verified 2 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); limit (unlinked, target algebra-category-theory/limit). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/dirichlet-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "215226706a472d8a7a986ff15d327447fc399f1596e1365537c7ed2209f43e3c",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: series (unlinked, target real-analysis/series); sequence (unlinked, target shared-foundations/sequence). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/discontinuity-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8fb0e59a4f52d42edb8819a6027ee390e2b495f59c1361edda3589999cf8c004",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: limits (unlinked, target algebra-category-theory/limit); function (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/divergent-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8aa04fd102cfbb040a4336f55b5c650659ad3b00d1bce31a337d3704a7b51bf",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: limit (unlinked, target algebra-category-theory/limit); series (linked, target real-analysis/series); partial sums (linked, target real-analysis/partial-sums). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/equicontinuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46e08bd32c5b17fb6fdbfda59daecce8333775dc69f45fdc03ac7550ff7a1929",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: functions (unlinked, target shared-foundations/function); oscillations (unlinked, target real-analysis/oscillation). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/equicontinuity-boundedness-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cc3b0c37f146d58dc1bfb2f808f777682d7d4b6c88f1dad2a6d976db05b19955",
+      "evidence": "Read the complete source body, including all optional sections. Verified 6 authored body links; candidate phrases checked: functions (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/equicontinuity-dense-set-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9aea29220a0dc1be73b9d17df175b94b5fbce4925f83c3518865791796e80dbf",
+      "evidence": "Read the complete source body, including all optional sections. Verified 6 authored body links; candidate phrases checked: sequence (unlinked, target shared-foundations/sequence); functions (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/equicontinuity-pointwise-bounded-uniform-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "14fc09e6a9854988fa6f9b9fa197f95917e0252add38ba76ee550ae312261069",
+      "evidence": "Read the complete source body, including all optional sections. Verified 6 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/equicontinuous-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b15365fdea24d718a4069cf000111d17d1d435ad95f85b851df5365b112d5e74",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: functions (unlinked, target shared-foundations/function); metric space (unlinked, target topology/metric-space); Equicontinuity (unlinked, target real-analysis/equicontinuity); subsets (unlinked, target shared-foundations/subset). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/equivalent-definitions-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b747680ef5896641cb18f66e6acb08677820880700b6c65ba0d1e178ad2868ce",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: Neighborhood (unlinked, target topology/neighborhood); set (unlinked, target shared-foundations/set); preimages (unlinked, target shared-foundations/preimage); open sets (unlinked, ambiguous targets). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/existence-of-riemann-integral-for-continuous-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3332c814c82c30b4ba60840540b10612b4fe3a7b514c7bf12df536526b9e47f0",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: covers (unlinked, target topology/cover); functions (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/field-axioms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7677fe99642549dab7a07cecbe25d5df2d7ae4a2dae75be38022808de59755a5",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: binary operations (unlinked, target shared-foundations/binary-operation); isomorphism (unlinked, target algebra-category-theory/isomorphism-category). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/finite-subcover-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "112b5b24a67074a86cb901c22d45d42e052374b9148a8b19f421443c4393e295",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: cover (unlinked, target topology/cover); open cover (unlinked, target topology/open-cover). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/fixed-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9983fc9fcab7399f992726d7305b363c63e12ca6e70a5c4bec78c27ff56bf752",
+      "evidence": "Read the complete source body, including all optional sections. Verified 0 authored body links; candidate phrases checked: set (unlinked, target shared-foundations/set); function (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/frechet-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d67d76e4283cab8973c5ce180496e26c0c3e37edbedf16ffc4e45cddacd22e2a",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: partial derivatives (unlinked, target real-analysis/partial-derivative); matrix (unlinked, target linear-algebra/matrix); derivative (unlinked, target real-analysis/derivative); linear map (linked, target linear-algebra/linear-map). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/fubini-theorem-riemann",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "902df1444c140f565a06cb1e523a2752f6c731f45ad003f073d501cc82fb4d44",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/fundamental-theorem-of-calculus-i",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef1fa112708e41aa73b8bb72e55efae4f14e4fc299f528bf774744fb4fa9f7e2",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: antiderivative (unlinked, target real-analysis/antiderivative). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/fundamental-theorem-of-calculus-ii",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa23afe80e837de80fee2581a45b95857f8d561c765b9810904d32f776d4561e",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: differentiation rules (unlinked, target real-analysis/differentiation-rules); antiderivatives (unlinked, target real-analysis/antiderivative). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/global-extrema",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4e76033567ac54b5e683e7630a055c2519867d9f243af58d319b8a878638fc9",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; no scanner candidate was accepted without a contextual match. Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/global-maximum-global-minimum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9f0b71eaa24cd277e5801482d3797a9086ad90d518e3b81a199d041ac570d63",
+      "evidence": "Read the complete source body, including all optional sections. Verified 1 authored body links; candidate phrases checked: maximum (unlinked, target real-analysis/maximum); minimum (unlinked, target real-analysis/minimum); Global extrema (unlinked, target real-analysis/global-extrema); functions (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/gradient",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ac394c74d14bcb2619bff8b2fcd7318e37717120492d1b502102404a858ca5b",
+      "evidence": "Read the complete source body, including all optional sections. Verified 5 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/greatest-lower-bound-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "78005aab6a4649cf011ca517e6db066cfc7c8d17af84baa82402ea1b869cf5d4",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: lower bound (unlinked, target shared-foundations/lower-bound). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/hessian-matrix",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d1f073dee0e1749d1827815721c53f0b8d408f52aec53e0b27c4c2fad280be81",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); matrix (unlinked, target linear-algebra/matrix); partial derivatives (unlinked, target real-analysis/partial-derivative). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/higher-derivatives",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b05092ef289ba1447c474513e85baca6822cfa72053d3f5fbd733729b1680fce",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/image-range",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f5d9ede8c637d3aae73cec0cb8bcaf3ab980f476b52859b2918298b4496bfbb",
+      "evidence": "Read the complete source body, including all optional sections. Verified 0 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); image (unlinked, target shared-foundations/image); subset (unlinked, target shared-foundations/subset); codomain (unlinked, target shared-foundations/codomain). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/implicit-function-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9934a1210924c464980e00a7fb4570ef4351de8ef96c1f330aabfbb473d2abd9",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: neighborhoods (unlinked, target topology/neighborhood); differentiable map (unlinked, target real-analysis/differentiable-map). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/implicitly-defined-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "05ff8a4f169f0c3dfe464b80086f7216196210b626db0779eca3d28c838386d2",
+      "evidence": "Read the complete source body, including all optional sections. Verified 1 authored body links; candidate phrases checked: function (unlinked, target shared-foundations/function); subset (unlinked, target shared-foundations/subset); derivative (unlinked, target real-analysis/derivative). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/infimum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58db48483529a5667a8268e6972aabe89a8b52f9c2c68052f8aeb34ce08ae944",
+      "evidence": "Read the complete source body, including all optional sections. Verified 3 authored body links; candidate phrases checked: set (unlinked, target shared-foundations/set); lower bound (unlinked, target shared-foundations/lower-bound); real numbers (unlinked, target shared-foundations/real-numbers). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    },
+    {
+      "id": "real-analysis/integral-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d515fa221867e4d175b5e9a0b9c90dc0b08acc1f48befc14d75c91b0fbf18d11",
+      "evidence": "Read the complete source body, including all optional sections. Verified 4 authored body links; candidate phrases checked: complements (unlinked, target shared-foundations/complement); series (linked, target real-analysis/series). Existing links were checked against target definitions; generic, repeated, locally defined, and field-dependent phrases were retained when linking would add noise or ambiguity. Prerequisite metadata was not changed because body linkage alone does not establish a dependency."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 30: 100 complete source-level linking and dependency reviews. Candidate reports were treated as hints; decisions were based on current body text and target definitions."
+  ]
+}

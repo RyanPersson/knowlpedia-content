@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] for a [[fiber-bundles/lie-group|Lie group]] \(G\). Let \(G\) act on itself on the left by conjugation: \(g\cdot h := ghg^{-1}\).
 
-**Construction (adjoint bundle).** The adjoint bundle is the associated bundle
+**Construction (adjoint bundle).** The adjoint bundle is the [[fiber-bundles/associated-bundle|associated bundle]]
 \[
 \mathrm{Ad}(P) := P\times_G G,
 \]

@@ -11,9 +11,9 @@ dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(\pi:E\to M\) be a surjective submersion between smooth manifolds (a fibered manifold). The map \(\pi\) is a [[fiber-bundles/smooth-map|smooth map]], so it has a differential \(d\pi:TE\to TM\) between the [[fiber-bundles/tangent-bundle|tangent bundles]].
+Let \(\pi:E\to M\) be a surjective submersion between [[fiber-bundles/smooth-manifold|smooth manifolds]] (a [[fiber-bundles/fibered-manifold|fibered manifold]]). The map \(\pi\) is a [[fiber-bundles/smooth-map|smooth map]], so it has a differential \(d\pi:TE\to TM\) between the [[fiber-bundles/tangent-bundle|tangent bundles]].
 
-Define the **vertical subbundle**
+Define the **[[fiber-bundles/vertical-subbundle|vertical subbundle]]**
 \[
 VE:=\ker(d\pi)\subset TE.
 \]

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H\) be a complex Hilbert space and let \(A:H\to H\) be a bounded operator (see [[quantum-foundations/bounded-operator-hilbert|Bounded Operator Hilbert]]). The operator \(A\) is **self-adjoint** (or **Hermitian**) if
+Let \(H\) be a complex [[linear-algebra/hilbert-space|Hilbert space]] and let \(A:H\to H\) be a bounded operator (see [[quantum-foundations/bounded-operator-hilbert|Bounded Operator Hilbert]]). The operator \(A\) is **self-adjoint** (or **Hermitian**) if
 \[
 A = A^\ast,
 \]

@@ -29,4 +29,4 @@ Every left-invariant \(k\)-form is determined by its value \(\omega_e\in\bigwedg
 
 ## Remarks
 
-**Motivation.** Bi-invariant forms capture intrinsic geometry on \(G\) compatible with both left and right symmetries. For example, a [[lie-groups/bi-invariant-metric|bi-invariant metric]] determines a bi-invariant volume form, and Ad-invariant forms on \(\mathfrak{g}\) are the starting point for Chern–Weil constructions on homogeneous spaces.
+**Motivation.** Bi-invariant forms capture intrinsic geometry on \(G\) compatible with both left and right symmetries. For example, a [[lie-groups/bi-invariant-metric|bi-invariant metric]] determines a bi-invariant [[differential-geometry/volume-form|volume form]], and Ad-invariant forms on \(\mathfrak{g}\) are the starting point for Chern–Weil constructions on homogeneous spaces.

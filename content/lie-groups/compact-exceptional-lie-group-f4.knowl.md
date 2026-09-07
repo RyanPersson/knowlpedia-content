@@ -21,7 +21,7 @@ Let
 \[
 H_3(\mathbb O)=\{x\in M_3(\mathbb O):x=x^*\}
 \]
-with Jordan product \(x\circ y=(xy+yx)/2\). Although octonionic matrix multiplication is not associative, this symmetrized product makes \(H_3(\mathbb O)\) a \(27\)-dimensional real [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. There is a natural isomorphism
+with Jordan product \(x\circ y=(xy+yx)/2\). Although octonionic matrix multiplication is not associative, this symmetrized product makes \(H_3(\mathbb O)\) a \(27\)-dimensional real [[nonassociative-algebra/jordan-algebra|Jordan algebra]]. There is a [[algebra-category-theory/natural-isomorphism|natural isomorphism]]
 \[
 F_4\cong\operatorname{Aut}(H_3(\mathbb O)).
 \]
@@ -40,7 +40,7 @@ one obtains
 \operatorname{Stab}_{F_4}(X)\cap\operatorname{Stab}_{F_4}(B)^0
 \cong S(U(2)\times U(3)).
 \]
-The identity-component superscript is essential: the full stabilizer of \(B\) has an additional disconnected component induced by complex conjugation.
+The identity-component superscript is essential: the full [[algebra-groups/stabilizer|stabilizer]] of \(B\) has an additional disconnected component induced by complex conjugation.
 
 ## References
 

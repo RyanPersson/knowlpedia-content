@@ -21,7 +21,7 @@ A **nilpotent group** is a [[algebra-groups/group|group]] \(G\) such that its [[
 
 - Every abelian group is nilpotent (of class \(1\)).
 - Every finite [[algebra-groups/p-group|p-group]] is nilpotent.
-- The dihedral group of order \(8\) and the quaternion group \(Q_8\) are nilpotent.
+- The dihedral group of order \(8\) and the [[algebra-groups/quaternion-group|quaternion group]] \(Q_8\) are nilpotent.
 - *(Non-example)* \(S_3\) is not nilpotent.
 
 ## Equivalent characterizations

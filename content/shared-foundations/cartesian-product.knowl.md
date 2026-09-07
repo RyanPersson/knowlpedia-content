@@ -25,4 +25,4 @@ Cartesian products provide the ambient sets in which [[shared-foundations/relati
 ## Examples
 
 - If \(A=\{0,1\}\) and \(B=\{a,b\}\), then \(A\times B=\{(0,a),(0,b),(1,a),(1,b)\}\).
-- \(\mathbb{N}\times\mathbb{N}\) is the set of all ordered pairs of natural numbers.
+- \(\mathbb{N}\times\mathbb{N}\) is the set of all [[shared-foundations/ordered-pair|ordered pairs]] of [[shared-foundations/natural-numbers|natural numbers]].

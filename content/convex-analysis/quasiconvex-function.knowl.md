@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(X\) be a real vector space and let \(f:X\to(-\infty,\infty]\) be an extended-real-valued function. The function \(f\) is **quasiconvex** if, for all \(x,y\in X\) and \(\lambda\in[0,1]\),
+Let \(X\) be a real [[linear-algebra/vector-space|vector space]] and let \(f:X\to(-\infty,\infty]\) be an extended-real-valued function. The function \(f\) is **quasiconvex** if, for all \(x,y\in X\) and \(\lambda\in[0,1]\),
 \[
 f(\lambda x+(1-\lambda)y)\le \max\{f(x),f(y)\}.
 \]

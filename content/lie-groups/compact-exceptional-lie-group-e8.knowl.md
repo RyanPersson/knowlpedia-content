@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **compact exceptional Lie group \(E_8\)** is the compact connected simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_8\). It has rank \(8\) and real dimension \(248\). It is both [[lie-groups/simply-connected-lie-group|simply connected]] and centerless, so its simply connected and adjoint forms coincide. Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose complexification is [[lie-groups/exceptional-lie-algebra-e8|\(\mathfrak e_8\)]].
+The **compact exceptional Lie group \(E_8\)** is the compact connected simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_8\). It has rank \(8\) and real dimension \(248\). It is both [[lie-groups/simply-connected-lie-group|simply connected]] and centerless, so its simply connected and adjoint forms coincide. Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose [[linear-algebra/complexification|complexification]] is [[lie-groups/exceptional-lie-algebra-e8|\(\mathfrak e_8\)]].
 
 The smallest nontrivial complex representation is the complexified adjoint representation, of dimension \(248\). The absence of a nontrivial center agrees with the equality of the \(E_8\) root and [[lie-groups/weight-lattice|weight lattices]].
 

@@ -2,7 +2,7 @@
 id = "probability/event-probability"
 title = "Probability of an event"
 kind = "knowl"
-summary = "The number assigned by a probability measure to an event."
+summary = "The number assigned by a [[probability/probability-measure|probability measure]] to an event."
 aliases = ["event-probability", "Probability of an event"]
 domains = ["probability"]
 legacy_source_path = "probability/event-probability.md"

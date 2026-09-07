@@ -2,7 +2,7 @@
 id = "operator-algebras/type-i-factor"
 title = "Type I factor"
 kind = "definition"
-summary = "A von Neumann factor containing a nonzero abelian projection."
+summary = "A von Neumann factor containing a nonzero [[operator-algebras/abelian-projection|abelian projection]]."
 aliases = ["type I von Neumann factor"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
@@ -40,7 +40,7 @@ denoted type \(\mathrm{I}_\infty\).
 The algebra \(\mathbb C=B(\mathbb C)\) is the type \(\mathrm{I}_1\) factor.
 Every [[operator-algebras/matrix-cstar-algebra|full matrix algebra]] is a type
 I factor. The algebra \(B(\ell^2)\) is an [[operator-algebras/type-i-infinity-factor|infinite type I factor]]: it contains
-rank-one abelian projections, although its identity is infinite.
+rank-one [[operator-algebras/abelian-projection|abelian projections]], although its identity is infinite.
 
 An abelian [[operator-algebras/von-neumann-algebra|von Neumann algebra]] with more than one point in its spectrum is type
 I but is not a factor, because its center is larger than the scalars. A type
@@ -49,7 +49,7 @@ projection and hence is not type I.
 
 ## Conventions and scope
 
-**Warning.** “Type I factor,” “type I von Neumann algebra,” and “type I
+**Warning.** “Type I factor,” “[[operator-algebras/type-i-von-neumann-algebra|type I von Neumann algebra]],” and “type I
 \(C^*\)-algebra” are different levels of structure. A general type I von
 Neumann algebra may have nontrivial center and need not be isomorphic to a
 single \(B(K)\).

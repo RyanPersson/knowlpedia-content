@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "shale-paper/schrodinger-representation",
+      "outcome": "corrected",
+      "source_sha256": "31edaf2332b13f5b5544a004cb5c5781dc117dee23739c8ec20a50abddb1e887",
+      "evidence": "Corpus search found no canonical Schrödinger representation knowl; existing callers only described the model inline or named it without a target. Added the standard translation-modulation formula on L²(Rⁿ), with q as the modulation coordinate and p as the translation coordinate. Direct composition gives the phase exp(-i B/2) for B((q,p),(q',p'))=q·p'-p·q', matching shale-paper/weyl-ccr-quantization. The core contains only the representation and Weyl relation; operator generators, continuity, uniqueness, and normalization evidence are expandable. Checked Folland, Harmonic Analysis in Phase Space, Chapter 1 §1.2 (electronic edition DOI 10.1515/9781400882427). Root re-read source and Lp-space/unitary-operator targets: added exact defining body links and measure specification, moved the derived Weyl identity after the core; checked phase directly as (q-prime dot p minus q dot p-prime)/2. Removed fictitious legacy source path.",
+      "reference_check": "Root checked publisher-supplied preview table of contents: Folland Chapter 1 §3 begins p.21, not §2. Phase normalization verified by the explicit multiplication in this knowl; preview is bibliographic verification, not evidence of checking the full section."
+    }
+  ],
+  "gaps": [],
+  "calibration": {
+    "lessons": [
+      "A repeated inline model becomes a missing canonical definition when it has a convention-sensitive Weyl phase that callers need to reference."
+    ]
+  }
+}

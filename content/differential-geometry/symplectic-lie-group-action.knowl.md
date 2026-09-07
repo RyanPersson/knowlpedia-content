@@ -23,7 +23,7 @@ a [[differential-geometry/symplectic-manifold|symplectic manifold]]. A
 Equivalently, the action homomorphism sends \(G\) into the group of
 symplectomorphisms of \((M,\omega)\). The definition requires preservation of
 the specified symplectic form, not merely of its cohomology class or of the
-associated volume form.
+associated [[differential-geometry/volume-form|volume form]].
 
 ## Infinitesimal criterion
 

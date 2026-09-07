@@ -52,7 +52,7 @@ Lie series whose terms of bracket length \(n\) lie in \(F^n\mathfrak g\)
 can be evaluated in \(\mathfrak g\).
 
 This makes the [[lie-groups/baker-campbell-hausdorff-formula|Baker–Campbell–Hausdorff
-series]] convergent when \(k\) has characteristic zero, producing the
+series]] convergent when \(k\) has [[algebra-rings/characteristic|characteristic]] zero, producing the
 associated [[formal-groups/complete-filtered-lie-algebra-bch-group|BCH group]].
 
 ## Morphisms

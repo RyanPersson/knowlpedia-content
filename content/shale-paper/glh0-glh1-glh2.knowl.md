@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-For a Hilbert space \(H\), let \(\mathcal I_0\), \(\mathcal I_1\), and \(\mathcal I_2\) denote respectively the elementary, trace-class, and Hilbert–Schmidt operator ideals. Shale's subgroups are
+For a [[linear-algebra/hilbert-space|Hilbert space]] \(H\), let \(\mathcal I_0\), \(\mathcal I_1\), and \(\mathcal I_2\) denote respectively the elementary, trace-class, and Hilbert–Schmidt operator ideals. Shale's subgroups are
 \[
 GL(H)_i=\{I+X\in GL(H):X\in\mathcal I_i\},\qquad i=0,1,2.
 \]

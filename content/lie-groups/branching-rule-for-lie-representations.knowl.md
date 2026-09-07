@@ -27,7 +27,7 @@ The same terminology applies to a homomorphism of [[lie-groups/lie-algebra|Lie a
 
 ## Typical settings
 
-Complete reducibility holds, for example, for finite-dimensional representations of compact groups and for finite-dimensional representations of complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebras]]. For a complex [[lie-groups/reductive-lie-algebra|reductive Lie algebra]], one must additionally require the center to act semisimply. In a highest-weight setting a branching rule is often presented as a formula
+Complete reducibility holds, for example, for finite-dimensional representations of compact groups and for finite-dimensional representations of complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebras]]. For a complex [[lie-groups/reductive-lie-algebra|reductive Lie algebra]], one must additionally require the center to act semisimply. In a [[lie-groups/highest-weight|highest-weight]] setting a branching rule is often presented as a formula
 \[
 V_\lambda\big|_H\cong\bigoplus_\mu m_{\lambda\mu}W_\mu
 \]
@@ -45,7 +45,7 @@ where the last summand is the trivial representation carried by the fixed coordi
 
 ## Global and infinitesimal cautions
 
-A Lie-group branching rule differentiates to the corresponding Lie-algebra restriction, but the converse need not determine the group-level rule. A Lie algebra cannot see disconnected components, and a representation of a Lie algebra may integrate only to a covering group rather than to the chosen global form of \(G\). [[lie-groups/central-quotient-of-a-lie-group|Central quotients]] can therefore remove representations that are allowed infinitesimally.
+A Lie-group branching rule differentiates to the corresponding Lie-algebra restriction, but the converse need not determine the group-level rule. A Lie algebra cannot see disconnected components, and a [[lie-groups/representation-of-a-lie-algebra|representation of a Lie algebra]] may integrate only to a covering group rather than to the chosen global form of \(G\). [[lie-groups/central-quotient-of-a-lie-group|Central quotients]] can therefore remove representations that are allowed infinitesimally.
 
 If the restricted representation is not semisimple, a direct-sum branching formula may not exist. One must then specify whether the desired data are composition-factor multiplicities, a filtration, or a decomposition into indecomposable modules.
 

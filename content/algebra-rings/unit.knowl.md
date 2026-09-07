@@ -15,7 +15,7 @@ Let \(R\) be a [[algebra-rings/unital-ring|unital ring]]. An element \(u\in R\) 
 
 ## Remarks
 
-Units control invertibility of scalars in algebraic constructions and determine the [[algebra-rings/group-of-units|group of units]]. In commutative rings, units are precisely the elements that generate the whole ring as a principal ideal.
+Units control invertibility of scalars in algebraic constructions and determine the [[algebra-rings/group-of-units|group of units]]. In [[algebra-rings/commutative-ring|commutative rings]], units are precisely the elements that generate the whole ring as a [[algebra-rings/principal-ideal|principal ideal]].
 
 ## Examples
 

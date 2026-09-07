@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "differential-geometry/moser-stability-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "17818c7061ff9042b3c37fa44c5c36503daf78ca2089af9396ac88e850a2222f",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/neat-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b52468b7d66183b9a6553268349564d7c6037a13b7f0493d76e9fd124d432b94",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/neat-submanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3ecda91c972a3d20ebb410c489890fc301c95960745a95f0656366f8b0c005c",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/newlander-nirenberg-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e46aea9bed011011d45b593b45890c114c740aa6ab5218838ff8f8ccee66baa3",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/nijenhuis-tensor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4f90681f102da5019195534c1350eaa8f7df4cef09c947023fb398f1e8e4f1f",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/normal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ccf4e0141c9239bbbb2c40dbc9a5c2ba42bf51d94155c051bccf59feea24f4d2",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/obata-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c115325d79421acd03ce7ad33bb46e9345b33c2f0a736f5ce8c5d055e2ae80b7",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/octonionic-projective-line",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5087da5115e6b5c30ad773327f12b195ab7f9fd631787bf055c604400960b0b6",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/open-submanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c5ae9b232bcbeacda2f182244ebb9bbe1529ffc627365c31734080ca9873cde",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/orientability-of-a-smooth-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e9d1a5cda63297e01f5c135050083d8a5ab588d2bfd73bb38e828284df9acaa",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/orientation-of-a-smooth-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1ebaba2e2ba46a07fdef8abc0028c50f9a739c183d6b44b2553650802bb7e22",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/oriented-cobordism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec05d8e5963c596238790705ffbfc9566711ef4bcb65f2c4fcddd6d62447da68",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/oriented-grassmannian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "982175495bf5315851b23f2503dc2380b99812e3919ed4bbd4c8083ae4550c7a",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/parametric-transversality-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2838f4ec9a31a425b436bfcd0e73da320bfeebf1fdd19727972aae3d36bf2106",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/poincare-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ca74222c294edf8232faf47cd9376ab8463af3f5f51ecb1603c7a6bc818759a",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/poisson-algebra-smooth-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cc9f5dce091f723525742ea71e3b0c0238b0e5f0ec1518841292a9c35e4ef245",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/poisson-bracket-symplectic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "05de4c61e5bd8493e886bf4a8f5bded78337240bef4602c3e6d049c4a13c7b24",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/poisson-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "04cea3c45926bf247c5cc545f10a3483b35834d1ab1c8a1d8ecb45d50f7c0d27",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/poisson-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d6573eaa9e4abfa312991de1a81bae93fa3e87d48a0020d6fa09d135de79027",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/polarized-hodge-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "092a2585d63085e86489533d092e8fb075d1e790c82a00bded1b5d75d15ad610",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/primitive-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c812ed9f668fa4bc893bf85bd568f4287355ec7da9e84fe2537f9a07b9f2b90",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/principal-symbol",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6379a704b7c9dd6990cd38ed0da58dbdc3fd40c94241fcf90acfbeb9e638c95",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/product-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb720c840779c87808c4860ad5ca26c6115fe658676576fd4f8225886c825d57",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/proper-injective-immersion-is-an-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "075f4f1886cc0ed908b9d74b6caf77031a7262af7d1bcbefd2e8af43b12c305e",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/proper-smooth-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8dac154618ed99486b51b8c405ea9a21c1030fac64b57e1f7aa544d0efe617ed",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/pseudo-riemannian-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "719fdb2da850fc8a5c3e927aad1fca908ee4e445be20d6a7257afae0c811b684",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/pure-hodge-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d19142243726ae83402adcf31935acd06d91bc989b5ae2d65178fc25ee897953",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/quaternion-kahler-einstein-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "508146972030c632963a0dcb2d84815b2c7006431097e23e5c81c903b2c203d2",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/quaternion-kahler-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0298be7a880b8c3339c7750e4209ee6257fcf7ded7c3f4c1c1e43f46b5891272",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/quaternionic-hermitian-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f28e7f6ee3265964db80f8c43444d498e9c2716005b2859e65fbd5835b294d84",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/quaternionic-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "294c26f87dd9dd09e3e342d5cce4e4a5cb557bf320be0023f9885c168cefe955",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/quaternionic-plurisubharmonic-function-hypercomplex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b21ef736928823539f84c8e180dc3f714c72fa4b658bcc3e1f526a39725bb80b",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/rank-of-a-smooth-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "603922c61ba4cb9c85c7fcd19e324ebd078206350fcc01a8dcc51eb8c1248bb1",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/real-projective-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5f6816b18239ae6f5f91e8c63c1540dc48bbca35f6542dd0d6aefd83a6f813c3",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/reduction-at-nonzero-momentum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9bbd53dfb3eb78cdceb19300531321df63f3e7743c1387debfbff05c348d273d",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/regular-level-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4875a8c2bc9885194f6f646e51cedff334d7f90ced6a3187795a1ae8d1ecbbab",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/relative-maslov-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77f5de828f5ffad1b386f15b5d84d37782d50a7e37031c2231019267b3268be6",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/ricci-curvature",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb5e855da2a9a0e291e02b807400a448d543460a71313e3ee1f740cd7f13250b",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/ricci-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "741f0ac837e77ff5776778b3b925848278812ba394d4a320600654a93554f8be",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/riemann-curvature-tensor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac91a0fafd72376411cc1dd0059983764bc0b7c47b29f521863c4b21b7470cfa",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/riemann-surface",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8c012c71475dbf994f59e408d5864b465d6493040eb7da6eda048a760e15835",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/riemannian-isometric-immersion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "482d316fd13919a4f9191de5dd6f0f3d35b5bbc5a84a4c9a75ab4c8662c5bd49",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/riemannian-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48bf37ec325693a74b8783bdc9e8fb01171dc5319723643692e6177f8f66da39",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/rotating-hyperkahler-isometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b042a88796cf370b6cc20363e11502601cee07de4a39e4a9bb444d474b2c99b",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/sards-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "17f975cabacd4a257e65d0c01dde136eae5f20bfc4dd2b377495a19f787ce53b",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/scalar-curvature",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f298dc1624943573c0f3b6c3b92e12be4efbf78525ae0d28b3b6a314c83ad6e5",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/sheaf-of-holomorphic-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00063ae38b721806d254c494f4a1466279d6aaa1e332d487f9e82923e134646f",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/sheaf-of-smooth-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3ed7358142ad442a2029feea13780ad02718640ec03c14fb085c29a15f458bb",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/shifting-trick",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6e3dfdbe1540669a647630ef3e15e83c43ed3fcf4360153c21f0676a7834373",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/singular-symplectic-reduction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "067e63fdb94aefb2f8926e92f36dad3232093bef90b9d267eef38ab6bc3f32be",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-exhaustion-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c583e1400bcef90c87879d13a24abafc86942c4edaa773818d23207fd0d096eb",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-fiber-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3fa7bcad16e28cea29657d83b867d33f877ab882df56ab42e2bbccf6a13273e2",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-homotopy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4fd1b667c283264f33ce2087df2a776142efa766af55e662c97e62649a3df9a4",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-isotopy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "843c983f97cc6511568a20b3b186e395a232eb799ed8c1b374784decf0cca081",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-map-of-manifolds-with-boundary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "421b15a34d2627d353b180784af015b5ded45b2911b59df1fd0c49bbeb4f055e",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-map-of-manifolds-with-corners",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "531e2c99eb2e44994526a600d1abda7267175013ce17609978a71b326de6b89b",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-mapping-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f23f044e39342d4f31b51c5863b995c00e4e15ad32193b44ed147670ae43d89c",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-maps-from-smooth-function-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9cb24049a97e1d61b41b3ae376aa870a56934ff5de5b6de8e6c6458b79347d2c",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7e9c9a11cc7cbe58052489bab52a4dc8a3ba2f6c93955d9d770e2e0babb6c8b",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/smooth-urysohn-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9b93fa2d162c37c858c1db4a850772915c34003b62852823b80689436f1d6077",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/spinor-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1ded774d405c2c29d264b63721b6ae24e1cb741e73385e1ed194e1167790053",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/spinor-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "67843d3c957f1ec50399c43647f933ec55d1363a800cfd8466b079a70ea8db2c",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/stokes-theorem",
+      "outcome": "corrected",
+      "source_sha256": "8a771301c393c6e5e7936142377ac824d5011bbf785327790e87d0ccfebac3c6",
+      "evidence": "Read the complete source, including optional sections and references. Added a contextual link for a defining prerequisite term. Checked authored prerequisite targets and rejected generic scanner matches as too broad or locally defined."
+    },
+    {
+      "id": "differential-geometry/strong-causality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb53ea21bbe44b3a46c293a8302d3fd6c68d29a338b59b69ed30492f2c69dbe6",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/submanifold-chart",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44c1f8aff22f425f45591cc1c7f0b297c94365d6f4b599085854ab5c807c9d5a",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symmetric-monoidal-structure-on-the-cobordism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f7203669165665f6c26107fa41c53799a6e66d2f7cc2f44eef6f27f0c0deaf9",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-basis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f36673341341475c8980da367e4c2ee24c42462f6a3e5e165f588240d8b94c30",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-basis-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6fb4a9a4195128ef44ac9097c4c65359ecc133ffdc75dfa400f9a6a2678d35e7",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d89570ca623211eeac1b899028b320744426f9a653a6f470b974a465f5d7dc5",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-isotopy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0cca31c830b32a0a9a03a86555316032741e1a1454f75e9a071c9812b3cb39d8",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-leaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90455af2f9aecb1c54e5afd8312cc4db43f133ca1d906f47090b1d1a17dbfb8d",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-lie-group-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0cd9cfd05150df1b7d0217181a6fe5aa8c4aedff47b3394105ae37ed27e0fc48",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e545a7e2a32d4337ed033435d1a25040ea416659097ea94f1053e4921f280dc7",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-manifold",
+      "outcome": "corrected",
+      "source_sha256": "aefb85cfc06dcb0ecc310238175fe7a8d233112e894dbfb3b687728ab4bb5919",
+      "evidence": "Read complete source and target bilinear-form definition. Added the core defining link for bilinear form and verified all remaining candidates and prerequisites in context."
+    },
+    {
+      "id": "differential-geometry/symplectic-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ca448688b14d6c3f0237f56e3bb8a8219fba855832b86dcf811e791b216fb26",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-orthogonal-complement",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e791441ed41b6632f5003a6275b2bea026a72d0ebb3185ff120a0fad56a4eb0f",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-quotient",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "64991fc03affbba11420bab9d63d2ef60437049f2dec3e2e6e11cbb93f30ef6d",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-submanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "63b2ca45a2e66065e716af2be1f53a4048414d0eb244b2289c13952a85c844bd",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "178434fe823f8b37948a87ff8102b3cbf822edab2aa49e2b04df6fb6a9c8b795",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98b6317528c6b3e5247f9b9e1d8e60278dd5d28571b23058c3de189844596eb5",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectic-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e24619eb4b8fda7e4d54c82b736a6728b5a188f6545c61f002e1365ab89d9603",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "100280dce825f57c692bc5169e3962f34588715cb359f4901be1405ada3a5c48",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/symplectomorphism-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72fdd2155d0f46fa743c6ac894cef83a7f9d3e579ea57889b1058d7302d0c05d",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/tangent-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09b6b50ddfa58d150156fd94ad86ebde62b1d2eeeb7ab501690803fe32cca8ea",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/tangent-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb6ddb41655b7ccc6b1f4e32b27db45f4be549acd61e1fabec2d92ff592c8e6e",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/tangent-space-of-grassmannian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3d2db58d785ac4d2b180934af6496d3a80c07f69275497a219d27be9954a0819",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/tautological-bundle-grassmannian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2bdb0fe423bfe776e790fb8666da89aff1f177611bf9775b289501162f88fe4",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/tautological-one-form-cotangent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c3852a4050e7272d764bf3486fc5c96a0649e6c3363e7da458fa86e716c7a73",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/thom-transversality-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2eba0d09d03a03cfe55be1d39f2e487a111611fc945066d61347f043da7d4997",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/time-dependent-hamiltonian-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f35be7d5075b06e631cd5d72a85756609612167217fcf4272cdc039b3fa351e5",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/time-orientation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7176ce255c0c7efa8b587edca00988ad09d1641d388d0aa2f1cc541952d32ad1",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/transverse-intersection-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "67cdb19c63763158df406d4d7be8401771eb800c7c4cada940096e766b14c73e",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/transverse-preimage-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "569b0048820be64b99e41c0c37a040f005e86f6637deab0a600ceccc9ce8587c",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/transverse-smooth-maps",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ab678329afb8f989c799c91ac21d960f880bf300e0c37ff8f2405ab8bb0f605",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/transverse-submanifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d62934f15e7d17e51715cb39f48bb8cd06660db90b604a2779d8b9bf27595116",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/triholomorphic-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a4c38889c92c9f70e1f80959d4d0c6d30eec67ad75098143b08d6b8a1af49e2",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/tubular-neighborhood",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41bb4d8f007766c105c88a3eaedc03c655b9cc735cb87a91c7a380a815afbcb9",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/tubular-neighborhood-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "01904fb4af67012964694978ce133aa541fe06ce3e92d6961fca08bda5047e8d",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/twistor-space-quaternionic-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6653b88c7de6135ab5bfa2f92fec56e9e1918e7be8b54938f6a6c77045cad93",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    },
+    {
+      "id": "differential-geometry/variation-of-hodge-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d11ba469141157299f5feaca37c32060d7072bff817ace4f9181aa98d40f805",
+      "evidence": "Read the complete source, including optional sections and references. Checked every authored internal link and prerequisite target against relevant definitions and conventions; generic scanner matches were rejected where they were ordinary language, notation, or too broad for this context. No justified linking change or dependency correction found."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 13: differential-geometry sources reviewed for linking and dependency scope."
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "convex-analysis/domain-of-a-convex-function-is-convex",
+      "outcome": "corrected",
+      "source_sha256": "6c4961418b91e73eef643a254263a081a00773a2341f27bdd85e408260d10d84",
+      "evidence": "Added the core linear-algebra/vector-space link after checking the target definition; existing links remain appropriate, with no redundant prerequisite edge added."
+    },
+    {
+      "id": "convex-analysis/dual-space-and-duality-pairing",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9f86c28369172676d454ef7843d636240be3621ca123d033969dfe61467afad",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/bounded-linear-functional-norm-of-a-functional, convex-analysis/separation-by-a-closed-hyperplane, convex-analysis/strict-separation-by-a-closed-hyperplane). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/equivalent-characterizations-of-convex-functions",
+      "outcome": "corrected",
+      "source_sha256": "003446c34920bf978f7430c4a1fb09f9d8a3b21006287366b0f2eff95c326e03",
+      "evidence": "Added the core linear-algebra/vector-space link after checking the target definition; existing links remain appropriate, with no redundant prerequisite edge added."
+    },
+    {
+      "id": "convex-analysis/existence-of-a-basis-hamel-basis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "337de87330de8867b9f7cc534a746a3c8c6eae6715a0be9b2e2059f1abfc6dc1",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/basis-hamel-basis-and-dimension, convex-analysis/extension-of-a-linearly-independent-set-to-a-basis). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/existence-of-a-functional-attaining-its-norm-at-a-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d5a6b9b0652b8fd8a3008127ebc9438b01367daa501553832b7fec2cc7407e83",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/bounded-linear-functional-norm-of-a-functional, convex-analysis/separation-of-a-point-and-a-subspace). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/extended-real-number-system-and-conventions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a33d9df602c43351795977d7c8394593678a96b0c9b2ff83b26215aba2c37b24",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/indicator-function-of-a-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/extension-of-a-linearly-independent-set-to-a-basis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "adea78869fe83cdf127eb7fb78ec01ed12cfda9e0c01ac7c7285c9f874d9dd97",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linearly-independent-and-linearly-dependent-sets, convex-analysis/basis-hamel-basis-and-dimension, convex-analysis/basis-characterized-by-maximal-linear-independence). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/fenchel-moreau-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "141f49a9d9282439fd5210eb62d227315822210a50ce4b0c959bccba63bbc8eb",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (shared-foundations/function, convex-analysis/biconjugate, convex-analysis/convex-conjugate-fenchel, convex-analysis/closed-convex-function, convex-analysis/convex-duality-primal-dual). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/fenchel-young-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b39ce49d9640bffc0edf737b4bb5aab67877575cadeb514c14b2c69f9caa4454",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (shared-foundations/function, convex-analysis/convex-conjugate-fenchel, convex-analysis/subdifferential, convex-analysis/convex-duality-primal-dual). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1598c4b0eb61ccbd91432ec08440804271832b5131136ff1a0d9d0cd5a8b3ff1",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/linear-subspace, convex-analysis/seminorm, convex-analysis/hahn-banach-theorem-in-real-vector-spaces). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/hahn-banach-theorem-in-complex-vector-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e54a105c13e160ef797a8efc36222fabaf96ab9bff39ed2b6d4a72d3fce3b67",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/linear-subspace, convex-analysis/seminorm, convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/hahn-banach-theorem-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ccdacbf83f122a1b5cf5595090c698fd6aa23b667216bf2b06d54df3bedefd42",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/linear-subspace, convex-analysis/bounded-linear-functional-norm-of-a-functional, convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case, convex-analysis/seminorm). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/hahn-banach-theorem-in-real-vector-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c60086347fa37f71d1549520dad4cc3785d0ad7deb33dbe6925b848080e8a7e6",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/linear-subspace, convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions, convex-analysis/linear-operator-linear-transformation, convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/holder-inequality-finite-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "761f46c5884ccca89097bad49e071932298e1bc5179eecf3e23e993ff6a7e2e1",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/weighted-arithmeticgeometric-mean-inequality). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/holder-inequality-integrals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fdcf5988b84dc68a29117e096a85ee81695f2395994cc706bc2b7227e76e54ce",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/holder-inequality-finite-sums, convex-analysis/weighted-arithmeticgeometric-mean-inequality). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/hyperplane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2079028c3ec463927b192d90c356ccb8cce9916349e4a2382422315fc91253ab",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/affine-set, convex-analysis/codimension, convex-analysis/parallel-subspace-to-an-affine-set-is, convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "006d751d9a3f2491a877fcde1a13eafbea0556b8a4d6563a5272bf030f5f3c2f",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/hyperplane, convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions, convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/idempotence-of-the-core-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "155a0507b53619895ce869471c72fc5ced47d6cc32f8fd2868a521282b63691d",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/convex-set, convex-analysis/algebraic-interior-core, convex-analysis/segments-from-core-points-stay-in-the-core). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/image-and-kernel-linear-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c973c806cb4933f09e18a22c7450d4b36c2b3f828408352eac967dce5ca6a3b6",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-operator-linear-transformation, convex-analysis/linear-subspace, convex-analysis/images-and-preimages-of-subspaces-under-linear-operators, convex-analysis/isomorphism-theorem-and-dimension-formula-for-linear-operators). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/images-and-preimages-of-subspaces-under-linear-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d0f6ad7fe3b85e0b00ebb05cad03375b40877cb6a3cd5d92eeab524856602aa",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-subspace, convex-analysis/image-and-kernel-linear-isomorphism). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/indicator-function-of-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f4e1865ab14efb6c7f1e17e3245db134e61d8ae04c64c24cdc1031d6b52d390",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/extended-real-number-system-and-conventions, convex-analysis/domain-and-epigraph-proper-function, convex-analysis/convex-function-via-epigraph, convex-analysis/convex-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/interior-and-closure-of-a-convex-set-are-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "922e0a3febb864487b3c0c96019492faf6ee172b7a32ada0f89a8da7a102794b",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/convex-set, convex-analysis/interior-of-a-set, convex-analysis/closure-of-a-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/interior-and-closure-relations-for-convex-sets-with-nonempty-interior",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1357476fb1f7a0d572bd0eecae3d782b091459e2ecb589eb654781435eb0630f",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-set, convex-analysis/segments-from-interior-points-stay-in-the-interior). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/interior-characterized-by-existence-of-a-ball",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df8ba42a3f22be951f448978b429b31dd8448114120d664c436127a6a6a693e6",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/interior-of-a-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/interior-of-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "991b557e86fe55fd38cfb24db67fbecbb694d557d311a93385a68bdabced4d2b",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/open-subset, convex-analysis/interior-characterized-by-existence-of-a-ball). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/intersection-of-subspaces-is-a-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22ca5fb0f2d6ca6a4fb8f17ad20d40f4eea9b563ff3334eac465105ebe911449",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-subspace, convex-analysis/subspace-generated-by-a-set-span). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/intersections-of-convex-sets-are-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7a74cab0bea254b8e5aabf9b8c110b9018fd4bc1ae3b8b47ee9103f1ecf9570",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-set, convex-analysis/convex-hull). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/isomorphism-theorem-and-dimension-formula-for-linear-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "caaec8366270e7ff20788cb142110728d1e186622e944258ddd4f42a3e836689",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/image-and-kernel-linear-isomorphism, convex-analysis/quotient-vector-space-codimension). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/kernel-of-a-nonzero-linear-functional-has-codimension-one",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "11e8e149f777e13afbfe66e34837d2fa37c20fa7b5e45e498957685173bd3295",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/image-and-kernel-linear-isomorphism, convex-analysis/hyperplane, convex-analysis/hyperplanes-are-level-sets-of-nonzero-linear-functionals). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/legendre-fenchel-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99f42cf6976691dad3e9b7fe97136c264a71dc4a446cc5fbeef7efe9efdc5e91",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (shared-foundations/function, linear-algebra/inner-product, convex-analysis/convex-conjugate-fenchel, convex-analysis/fenchel-young-inequality, convex-analysis/biconjugate, convex-analysis/legendre-transform). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/legendre-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e083da41a44d93baa737e450e3cd8a5290c90aefd5001aa9566ce816f7919715",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/strictly-convex-function, convex-analysis/convex-conjugate-fenchel, real-analysis/derivative, real-analysis/differentiable-map). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/line-connecting-two-points",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33109ee61cd8cb40351b8a0d775aea84efc471d92b2d2aafc290d3a02dc44798",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/affine-set, convex-analysis/line-segments-in-a-vector-space). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/line-segments-in-a-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a03a693577eb476b2e7b8f1f956f6076177f341a69cde29d6a2813b29b78514e",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/convex-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/linear-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5c888f9ccf940842174ed5a6c9bb110023a7d33beeff97da475b96e39084df1c",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/line-segments-in-a-vector-space, convex-analysis/norm-normed-vector-space, convex-analysis/convex-set, convex-analysis/closure-of-a-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/linear-closure-equals-closure-for-solid-convex-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9a12886e31b34efe55e4d7d36c6430fbd40d8e2e30c3f7cfa3cc90e9ded0ce5",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/convex-set, convex-analysis/interior-of-a-set, convex-analysis/closure-of-a-set, convex-analysis/linear-closure, convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/linear-closure-of-a-convex-set-is-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "701c68a8b6cfcb47897dd80d21a02061c5e0fb44e411dd48c357d63493e81c8c",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/convex-set, convex-analysis/linear-closure, convex-analysis/line-segments-in-a-vector-space, convex-analysis/convex-combination). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/linear-combination",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c497ac81d4be2935d2ca8c7fe1711676027339a73809b4798c677536173b7e2e",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/subspace-generated-by-a-set-span, convex-analysis/basis-hamel-basis-and-dimension). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/linear-operator-linear-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f823925949acb426a1d7efd9764d669dc779dc3134c2cda5b8bd885a5174113c",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/image-and-kernel-linear-isomorphism). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/linear-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27dbdb16770869531dd64aeface337efba5c48413366d84716fbfd65f34f48a0",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/linearly-independent-and-linearly-dependent-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "07494d410c4efa4fd6979bdac57490ea48718581565be3b11eec7a717a0eb293",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/linear-combination, convex-analysis/basis-hamel-basis-and-dimension). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/marginal-optimal-value-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c0ee5754a3d77d4d431b19029e34239e486f27928584385538c2e75d420f35e",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping, convex-analysis/convexity-of-the-marginal-optimal-value-function). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/metric-metric-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e6f8993c60446138b23fdf9a9c67322ebad12c3bd9fbe75896e68d32c843133",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/open-and-closed-balls-in-a-metric-space, convex-analysis/open-subset, convex-analysis/convergence-of-a-sequence). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/minkowski-function-gauge-of-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1575064d54dadb358bc6b1b22088db8ca2285eea03523141c4509f682ea6431",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/balanced-and-absorbing-sets, convex-analysis/convex-set, convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions, convex-analysis/algebraic-interior-core, convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set, convex-analysis/norm-normed-vector-space). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/minkowski-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33fd3f676c9158ad1564a4b2fd46173685ff93775a2522fa462c493ed62c5a9e",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, analysis/minkowski-thickening). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/mixed-volume",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b8ed965df15b9022ad44e74c8a48d8844fb8c4bae56153c05ad7330a68a94c3",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-body, convex-analysis/minkowski-sum, convex-analysis/valuation-on-convex-bodies, linear-algebra/mixed-discriminant). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/nonnegative-positive-semidefinite-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e103fe160f7a92ae38aa9d55fcb5f96b32062713747a2981bf2b247cbce3c799",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/self-adjoint-linear-operator). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/nonnegative-real-less-than-every-0-must-be-zero",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97fef27c6f59d19709aab9dacdbc3ac2e5965c4fb68489bc188d21f83acf5311",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/uniqueness-of-limits-in-metric-spaces). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/norm-induces-a-metric-and-conversely",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "614a4d94ef3ea61715b510ab0242ca8c0dd0955dbdcc611878c1befe2ad413fb",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/metric-metric-space). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/norm-normed-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3eefca3a7d6461b9ca6ecb8ea4c928ece1107120c15abc628e1d5de7649a8318",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/norm-induces-a-metric-and-conversely). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/octonionic-pseudovolume",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8d7cb3531ab84dda8046c51d905b63758515858a1808d3fd3b231738f828a4a",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-body, convex-analysis/support-function, complex-analysis/octonionic-monge-ampere-measure, convex-analysis/valuation-on-convex-bodies, lie-groups/spin9-spin-representation, topology/hausdorff-distance, real-analysis/uniform-convergence, complex-analysis/octonionic-monge-ampere-measure). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/open-and-closed-balls-in-a-metric-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1969d62313ba3e177b9e1c449bad346ba4cd9f5b40fa25e4c691320c78aeba8c",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/metric-metric-space, convex-analysis/open-subset). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/open-balls-are-open-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d4dddc9908e272efdaf819e8f5810e6c42d0269f2712b653f55701b5e0859e3",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/metric-metric-space, convex-analysis/open-subset). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/open-subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "575bc5a6e7e50724504dae5346a7ae2d664fdb5531e262a1012a6be6dc93eff9",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/basic-properties-of-open-sets, convex-analysis/closed-subset). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/parallel-affine-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18298a2e3753c6606ef3f845883005ae720c530ae0e8d3fdf9991f707a4062c9",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/affine-set, convex-analysis/linear-subspace, convex-analysis/affine-sets-are-translates-of-subspaces, convex-analysis/parallel-subspace-to-an-affine-set-is). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/parallel-subspace-to-an-affine-set-is",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4884a835f6fd9e6295d429eef283035b80b8f597b72e2f1fdbe47518d1ebd0b7",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/affine-set, convex-analysis/linear-subspace, convex-analysis/hyperplane, convex-analysis/codimension). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/piecewise-polynomial-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1cd3b68bed6f4f806c8e15d9f877ce98cd8060f72abf9ffe8254f4a6925f03f8",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/semialgebraic-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/pluripotential-valuation-construction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dfc91754444c5446bcecb8dd149ae673f7da0efa5adcda72101b272befd42462",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/support-function, convex-analysis/valuation-on-convex-bodies, topology/hausdorff-distance, real-analysis/uniform-convergence, complex-analysis/quaternionic-monge-ampere-continuity-theorem, complex-analysis/quaternionic-blocki-formula, linear-algebra/mixed-discriminant, convex-analysis/octonionic-pseudovolume). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/product-space-cartesian-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9f1ef9af39819c50378e16d0be889a788d1fa05a7c1687982218e58eddc384e",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/properties-of-affine-sets-and-affine-hulls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2dce7c60d85f8e0ac034a25219ecc0ec439beb0aef9a0ccc11628d17fa48b1da",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/affine-set, convex-analysis/affine-hull-affine-combination, convex-analysis/affine-mapping, convex-analysis/linear-subspace, convex-analysis/convex-set, convex-analysis/convex-hull). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/properties-of-the-minkowski-functional-of-a-convex-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "feee8ae0824772ecf6376d99222ebb4ea02d7073e8bac5bee4898a04a11a532e",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/balanced-and-absorbing-sets, convex-analysis/convex-set, convex-analysis/minkowski-function-gauge-of-a-set, convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions, convex-analysis/algebraic-interior-core, convex-analysis/linear-closure, convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/quasiconvex-function",
+      "outcome": "corrected",
+      "source_sha256": "3f507242b76b1793a52c65c032749916da62403e23f09293d0e6c8a1c3c5bae6",
+      "evidence": "Read the complete source including all optional sections and checked each authored target definition. Linked the ambient real vector space in the definition to linear-algebra/vector-space. Existing links and prerequisites were checked for semantic fit; no unrelated phrase or dependency was altered."
+    },
+    {
+      "id": "convex-analysis/quasiconvexity-characterized-by-convex-sublevel-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60f08db2c63cfa193ac7c65ed172ad4466e019d9f4746ed0b0b1793dc78ed2ba",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/quasiconvex-function, convex-analysis/convex-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/quotient-vector-space-codimension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b993b28a92518c298fd25022bbd383f194fae1d9e083f484b1fb17d13cfaf618",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-subspace). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/segments-from-core-points-stay-in-the-core",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4531f389ade83c07ae40a91725336bb48135d6cd23ff67932578fbe3769a052",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/convex-set, convex-analysis/algebraic-interior-core, convex-analysis/line-segments-in-a-vector-space, convex-analysis/segments-from-interior-points-stay-in-the-interior). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/segments-from-interior-points-stay-in-the-interior",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f2f7e52c6324287a9e4c4c3a8cd51f9eb064d54a2704ba271279df5a83d9885",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/convex-set, convex-analysis/line-segments-in-a-vector-space). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/self-adjoint-linear-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37eb70ec6a919ca6a1290a7bb909291b5a72534c1ee5337858b28877e37e99b6",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-operator-linear-transformation). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/semialgebraic-set",
+      "outcome": "corrected",
+      "source_sha256": "197a5692017f848d95abbe6cb1466554ed87c92474df049a732d2bd84cbcfb73",
+      "evidence": "Read the complete source including all optional sections and checked each authored target definition. Added links for the subset and polynomial objects used in the defining Boolean conditions. Existing links and prerequisites were checked for semantic fit; no unrelated phrase or dependency was altered."
+    },
+    {
+      "id": "convex-analysis/seminorm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3dba0c61ed8e5b9e5475c04b9123b9fe3e793b7240af06ecdfa6ffa0ca15fe3b",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/norm-normed-vector-space, convex-analysis/hahn-banach-extension-dominated-by-a-seminorm-real-case, convex-analysis/hahn-banach-theorem-in-complex-vector-spaces). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/separation-by-a-closed-hyperplane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "08398110c7d6aa671c5a327b8aaee3a9b703c9547919ead4aababccf7aef7418",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/dual-space-and-duality-pairing, convex-analysis/hyperplane, convex-analysis/closed-subset, convex-analysis/continuity-of-linear-functionals-via-closed-level-sets). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/separation-by-a-hyperplane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e277afb7daf5494116a4485660b09f7cce2d7b81d3c171bf6083fb6de1c5f9f9",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/hyperplane). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/separation-by-closed-hyperplane-under-interior-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "853dd63928296fcfb721da1fe628cf5db30480e97fe7dcb37fb54f22cc5d6892",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/convex-set, convex-analysis/interior-of-a-set, convex-analysis/separation-by-a-closed-hyperplane, convex-analysis/separation-of-two-convex-sets-via-the-core-condition, convex-analysis/continuity-of-linear-functionals-via-closed-level-sets). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/separation-by-hyperplanes-via-supinf-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d09497bc729a0907e47cc66e3e5ced14ce47f64060810bb0f9686862a20027c9",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/separation-by-a-hyperplane). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/separation-of-a-point-and-a-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71af8b43d84ae24ae83e4da93c4d030c4476aafcbc9a12bef594ba12fb39fe1d",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-subspace, convex-analysis/bounded-linear-functional-norm-of-a-functional, convex-analysis/hahn-banach-theorem-in-normed-spaces). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/separation-of-a-point-from-a-convex-set-via-the-core",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6968febf326d01de99f65c33185240e67d7447b1199f70df2a2f1e3e087813eb",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/convex-set, convex-analysis/algebraic-interior-core, convex-analysis/separation-by-a-hyperplane, convex-analysis/hahn-banach-theorem-in-real-vector-spaces, convex-analysis/minkowski-function-gauge-of-a-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/separation-of-two-convex-sets-via-the-core-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5dabd033271ad98e29dbc8831b75346e80acd9c18653e0180d36a640bb11829c",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/convex-set, convex-analysis/algebraic-interior-core, convex-analysis/separation-by-a-hyperplane, convex-analysis/idempotence-of-the-core-operator, convex-analysis/auxiliary-separation-lemma-for-disjoint-convex-sets-with-nonempty-core). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/set-operations-sum-scalar-multiple-difference",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c39c04a65c4c9cf1dfb4f375808e0e2198721abb55c233d0bfdcb2f9c1ba8e72",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/linear-subspace). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d920fc6eb14083042c4fed2905a5711f23040099d8c331f500dce396a564dec",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/product-space-cartesian-product, convex-analysis/convex-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/slope-inequalities-for-convex-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e27c4fa61e00ea7fe531872bd750c7307fbd699d0a9b1e93c3407748428cdbac",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-function-via-epigraph). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/span-equals-the-set-of-all-finite-linear-combinations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd1bc0fc6b8a0c7aa0a2839062c3e324c42803665b3165192b6ca38980820e41",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/subspace-generated-by-a-set-span, convex-analysis/linear-combination). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/strict-separation-by-a-closed-hyperplane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8bdec72a8599ca5ec277f4e493e380589b1beebbc6b196ca45a0fcced37de75",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/dual-space-and-duality-pairing, convex-analysis/separation-by-a-closed-hyperplane). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/strict-separation-of-compact-and-closed-convex-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abcc036d63b4e6a2006a98989c0fcafd237d14358da393d5cf4d8364ddec3403",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/convex-set, convex-analysis/closed-subset, convex-analysis/strict-separation-by-a-closed-hyperplane, convex-analysis/dual-space-and-duality-pairing, convex-analysis/separation-by-closed-hyperplane-under-interior-condition). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/strict-separation-with-an-open-convex-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "91565abb76c9810a80f6600517ef6eea4e459f6afaf04573d0f1fdb216ed4b38",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/norm-normed-vector-space, convex-analysis/convex-set, convex-analysis/open-subset, convex-analysis/dual-space-and-duality-pairing, convex-analysis/separation-by-closed-hyperplane-under-interior-condition). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/strictly-convex-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0127a7f25352f3254889967762ebc57525189ee7a5c51d652069de910c32e121",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-function-via-epigraph). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/subadditive-positively-homogeneous-and-sublinear-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b688be15a0d808b342034b50b7853f3a5b5723a5f0b9bb2c77ec010d04cc8259",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/hahn-banach-theorem-in-real-vector-spaces, convex-analysis/minkowski-function-gauge-of-a-set, convex-analysis/balanced-and-absorbing-sets, convex-analysis/convex-set). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/subdifferential",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abb76a1afba1c79cb9171649081ab7438920980db93c0146f63b2c6997104a60",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-function-via-epigraph, convex-analysis/domain-and-epigraph-proper-function, convex-analysis/subgradient, convex-analysis/supporting-hyperplane-convex-function, convex-analysis/hyperplane, real-analysis/derivative, real-analysis/differentiable-map). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/subgradient",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "55bafcbab566e272e8b2de881254ea76a270575e2b8ede4e7dfe7815b22f7b09",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-function-via-epigraph, convex-analysis/domain-and-epigraph-proper-function, real-analysis/derivative, convex-analysis/subdifferential, convex-analysis/supporting-hyperplane-convex-function). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/subsequence-index-bound-n_k-k",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "051577b46267c4ff22bfeada5b88cc8380bc45d644299c439d43cdcafff390f3",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (real-analysis/subsequence). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/subsequences-of-convergent-sequences-converge-to-the-same-limit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "233fa89378628a935615ee55ea96f7064bb03120923102e7f0137cbdeccf2193",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/metric-metric-space, convex-analysis/convergence-of-a-sequence, real-analysis/subsequence). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/subspace-generated-by-a-set-span",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2c8c6f2ddef61e2715710cc07f8c2c84f89adb548c3b3767d437197661b4f89",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-subspace, convex-analysis/span-equals-the-set-of-all-finite-linear-combinations, convex-analysis/linear-combination). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/subspace-test-closure-under-addition-and-scalar-multiplication",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e94b19cf4983984002d1cfdd35e70dfa7dc4883937f375be17790b575255896",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-subspace). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/sum-of-subspaces-equals-span-of-the-union",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e610ea5104c32b3af1500c21486af78902db00c42f6471aeb58f906a8f2301a7",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/linear-subspace, convex-analysis/set-operations-sum-scalar-multiple-difference). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/sums-and-scalar-multiples-of-convex-sets-are-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf9bff460623c288c57a2ca2bf8d81b273fde3b060a980688ad24dc627e42d09",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-set, convex-analysis/set-operations-sum-scalar-multiple-difference). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/support-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "78a11bc76797de2c3beb0e3815ad94804cdf954266f7087d75a596aaa56ad6d8",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-body, linear-algebra/inner-product, convex-analysis/valuation-on-convex-bodies, convex-analysis/pluripotential-valuation-construction). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/supporting-hyperplane-convex-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f0ad51c3bec2a50dc29c24cc8fe6f407d34c573aa864be8c2ff2141572ee27e",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/domain-and-epigraph-proper-function, convex-analysis/hyperplane, convex-analysis/domain-and-epigraph-proper-function, convex-analysis/convex-set, convex-analysis/subgradient, convex-analysis/subdifferential). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/supremum-of-convex-functions-is-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62db4e2971b30774eda7ae881e06785af7c97f61df7776f96c0da95712b28e9f",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (linear-algebra/vector-space, convex-analysis/convex-function-via-epigraph, convex-analysis/basic-operations-preserving-convexity). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/uniqueness-of-limits-and-boundedness-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1fae02d84362e4a4cd4cf4d5ea304a1094f6b09c609f5fa86ef04fc64a80a3f7",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convergence-in-normed-spaces, convex-analysis/bounded-set-and-bounded-sequence). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/uniqueness-of-limits-in-metric-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d9daa28cfdd7f8678bb6d132a114e4cc4726b0e5ad2518f5ef3e815f566f78c4",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/metric-metric-space, convex-analysis/nonnegative-real-less-than-every-0-must-be-zero). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/valuation-on-convex-bodies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8cce916b21075e20def78d646cc0cfad3cd9759fd34825aa4637d4fdf940d9e4",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/convex-body, linear-algebra/vector-space, algebra-groups/abelian-group, topology/hausdorff-distance, convex-analysis/mixed-volume, convex-analysis/support-function, linear-algebra/unit-sphere). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    },
+    {
+      "id": "convex-analysis/weighted-arithmeticgeometric-mean-inequality",
+      "outcome": "corrected",
+      "source_sha256": "9aa7f08fb971fb90f01b1ed59c1bddec4bbe303b9f8f617bf125678857aed9d3",
+      "evidence": "Read the complete source including all optional sections and checked each authored target definition. Linked the convexity invoked in the proof sketch to convex-analysis/convex-function-via-epigraph. Existing links and prerequisites were checked for semantic fit; no unrelated phrase or dependency was altered."
+    },
+    {
+      "id": "convex-analysis/youngs-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2548afdf9e0a75869128b0d3e5de4d814b537b0625206391329864b67336800",
+      "evidence": "Read the complete source including all optional sections and checked the authored targets (convex-analysis/holder-inequality-finite-sums, convex-analysis/holder-inequality-integrals, convex-analysis, convex-analysis/weighted-arithmeticgeometric-mean-inequality). Existing links match the local mathematical senses; no additional canonical target was justified by the unlinked phrases, and prerequisites were retained after checking the dependency scope."
+    }
+  ],
+  "gaps": [],
+  "notes": []
+}

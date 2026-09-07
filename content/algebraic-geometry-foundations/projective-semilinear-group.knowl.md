@@ -15,7 +15,7 @@ Let \(V\ne0\) be a finite-dimensional [[linear-algebra/vector-space|vector space
 \[
 \operatorname{P\Gamma L}(V):=\Gamma L(V)/(k^\times I).
 \]
-The scalar subgroup is normal because a \(\sigma\)-semilinear map conjugates \(\lambda I\) to \(\sigma(\lambda)I\).
+The scalar subgroup is normal because a \(\sigma\)-[[linear-algebra/semilinear-map|semilinear map]] conjugates \(\lambda I\) to \(\sigma(\lambda)I\).
 
 ## Action and exact sequence
 

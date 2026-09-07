@@ -15,11 +15,11 @@ Let \(H\) be a (finite-dimensional) complex Hilbert space (see [[quantum-foundat
 
 1. **State vector (ray):** a unit vector \(\psi \in H\) with \(\|\psi\|=1\), where \(\psi\) and \(e^{i\theta}\psi\) represent the same physical state (global phase is unobservable).
 
-2. **Density operator (projector):** the rank-one operator
+2. **Density operator (projector):** the [[quantum-foundations/rank-one-projector|rank-one projector]]
 \[
 \rho_\psi = |\psi\rangle\langle\psi|,
 \]
-which is a [[quantum-foundations/density-operator|density-operator]] (positive semidefinite with trace \(1\)).
+which is a [[quantum-foundations/density-operator|density-operator]] ([[quantum-foundations/positive-semidefinite-operator|positive semidefinite]] with trace \(1\)).
 
 ## Equivalent characterizations
 

@@ -15,7 +15,7 @@ Let \(M\) be a smooth \(n\)-manifold and let \(G\subseteq\mathrm{GL}(n,\mathbb R
 
 ## Geometric examples
 
-An orientation is a \(\mathrm{GL}^+(n,\mathbb R)\)-structure, and a Riemannian metric is equivalently an \(\mathrm O(n)\)-structure. On a \(2m\)-manifold, an almost complex structure gives a \(\mathrm{GL}(m,\mathbb C)\)-structure, while a fiberwise nondegenerate alternating form gives an \(\mathrm{Sp}(2m,\mathbb R)\)-structure.
+An orientation is a \(\mathrm{GL}^+(n,\mathbb R)\)-structure, and a Riemannian metric is equivalently an \(\mathrm O(n)\)-structure. On a \(2m\)-manifold, an [[differential-geometry/almost-complex-structure|almost complex structure]] gives a \(\mathrm{GL}(m,\mathbb C)\)-structure, while a fiberwise nondegenerate alternating form gives an \(\mathrm{Sp}(2m,\mathbb R)\)-structure.
 
 ## Integrability and connections
 

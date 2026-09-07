@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **graded module** over a graded ring \(R=\bigoplus_{n}R_n\) is an \(R\)-[[algebra-modules/module|module]] \(M\) together with a direct-sum decomposition
+A **graded module** over a [[algebra-modules/graded-ring|graded ring]] \(R=\bigoplus_{n}R_n\) is an \(R\)-[[algebra-modules/module|module]] \(M\) together with a direct-sum decomposition
 \[
 M=\bigoplus_{n\in\mathbb Z} M_n
 \]

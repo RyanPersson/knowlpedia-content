@@ -18,7 +18,7 @@ A:=s^*\omega\in\Omega^1(U;\mathfrak g).
 
 Let \(g:U\to G\) be a [[fiber-bundles/smooth-map|smooth map]] and define a new local section by \(s':=s\cdot g\) (right action of \(G\) on \(P\)).
 
-**Lemma (Local gauge transformation law).** The local connection form \(A':=(s')^*\omega\) satisfies
+**Lemma ([[fiber-bundles/local-gauge-transformation|Local gauge transformation law]]).** The local connection form \(A':=(s')^*\omega\) satisfies
 \[
 A'=\mathrm{Ad}(g^{-1})A + g^{-1}dg.
 \]

@@ -33,7 +33,7 @@ For \(\mathcal M=B(H)\) with the usual trace, \(\mathcal K(\mathcal M,\tau)\) is
 
 ## Role in semifinite geometry
 
-An unbounded [[operator-algebras/affiliated-operator|affiliated operator]] \(D\) is said to have tau-compact resolvent when a bounded transform such as \((1+D^2)^{-1/2}\) lies in \(\mathcal K(\mathcal M,\tau)\). This replaces ordinary compact resolvent in [[noncommutative-geometry/spectral-triple|semifinite spectral triples]] and underlies the associated Breuer–Fredholm theory.
+An unbounded [[operator-algebras/affiliated-operator|affiliated operator]] \(D\) is said to have tau-[[functional-analysis/compact-resolvent|compact resolvent]] when a bounded transform such as \((1+D^2)^{-1/2}\) lies in \(\mathcal K(\mathcal M,\tau)\). This replaces ordinary compact resolvent in [[noncommutative-geometry/spectral-triple|semifinite spectral triples]] and underlies the associated Breuer–Fredholm theory.
 
 ## References
 

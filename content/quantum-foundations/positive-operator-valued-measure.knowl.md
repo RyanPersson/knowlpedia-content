@@ -10,7 +10,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((\Omega,\Sigma)\) be a measurable space and \(H\) a complex [[linear-algebra/hilbert-space|Hilbert space]]. A **positive operator-valued measure** or **POVM** is a map
+Let \((\Omega,\Sigma)\) be a [[measure-theory/measurable-space|measurable space]] and \(H\) a complex [[linear-algebra/hilbert-space|Hilbert space]]. A **positive operator-valued measure** or **POVM** is a map
 \[
 E:\Sigma\longrightarrow B(H)
 \]
@@ -26,7 +26,7 @@ such that:
    \qquad(x,y\in H).
    \]
 
-The third condition is countable additivity in the weak operator topology.
+The third condition is countable additivity in the [[operator-algebras/weak-operator-topology|weak operator topology]].
 
 ## Born rule
 

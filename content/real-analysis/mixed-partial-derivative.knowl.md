@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **mixed partial derivative** of a scalar function \(f:U\to \mathbb{R}\) (with \(U\subseteq \mathbb{R}^n\)) at \(a\in U\) is a second-order partial derivative of the form
+A **mixed partial derivative** of a scalar function \(f:U\to \mathbb{R}\) (with \(U\subseteq \mathbb{R}^n\)) at \(a\in U\) is a second-order [[real-analysis/partial-derivative|partial derivative]] of the form
 \[
 \frac{\partial^2 f}{\partial x_i\,\partial x_j}(a)
 =\frac{\partial}{\partial x_i}\left(\frac{\partial f}{\partial x_j}\right)(a),

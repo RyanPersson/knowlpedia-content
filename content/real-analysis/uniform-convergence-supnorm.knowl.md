@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-**Uniform convergence in supremum norm:** Let \(E\) be a set and let \(f_n,f:E\to\mathbb{R}\) be bounded functions. Then \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]] on \(E\) if and only if
+**Uniform convergence in [[real-analysis/supremum-norm|supremum norm]]:** Let \(E\) be a set and let \(f_n,f:E\to\mathbb{R}\) be bounded functions. Then \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]] on \(E\) if and only if
 \[
 \|f_n-f\|_\infty \longrightarrow 0,
 \]
@@ -19,4 +19,4 @@ where \(\|g\|_\infty=\sup_{x\in E}|g(x)|\) is the [[real-analysis/supremum-norm|
 
 ## Remarks
 
-In particular, uniform convergence is exactly convergence in the metric induced by the supremum norm, which underlies the [[real-analysis/space-of-continuous-functions|space of continuous functions]] equipped with \(\|\cdot\|_\infty\).
+In particular, [[real-analysis/uniform-convergence|uniform convergence]] is exactly convergence in the metric induced by the supremum norm, which underlies the [[real-analysis/space-of-continuous-functions|space of continuous functions]] equipped with \(\|\cdot\|_\infty\).

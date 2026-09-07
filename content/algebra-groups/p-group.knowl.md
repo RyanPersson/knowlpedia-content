@@ -16,7 +16,7 @@ Fix a prime number \(p\). A **\(p\)-group** is a [[algebra-groups/group|group]] 
 ## Examples
 
 - The additive group \(\mathbb{Z}/p^n\mathbb{Z}\) is a finite \(p\)-group of order \(p^n\).
-- The quaternion group \(Q_8=\{\pm1,\pm i,\pm j,\pm k\}\) is a \(2\)-group (every element has order \(1\), \(2\), or \(4\)).
+- The [[algebra-groups/quaternion-group|quaternion group]] \(Q_8=\{\pm1,\pm i,\pm j,\pm k\}\) is a \(2\)-group (every element has order \(1\), \(2\), or \(4\)).
 - The trivial group \(\{e\}\) is a \(p\)-group for every prime \(p\) (it has order \(p^0=1\)).
 
 ## Remarks

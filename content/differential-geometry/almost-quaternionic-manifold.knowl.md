@@ -28,7 +28,7 @@ At each point, \(Q_x\) is the copy of the imaginary quaternions acting on \(T_xM
 
 ## Nearby stronger structures
 
-A global frame \(I,J,K\) of \(Q\) satisfying the quaternion relations is an almost hypercomplex structure, which is strictly stronger. Adding a Riemannian metric for which every local \(I,J,K\) is orthogonal reduces the structure group further to [[lie-groups/compact-symplectic-product-group|\(\operatorname{Sp}(n)\operatorname{Sp}(1)\)]] and gives an almost quaternionic Hermitian manifold. A torsion-free connection preserving \(Q\) makes the structure quaternionic for \(n>1\); this is an integrability condition, not part of “almost quaternionic.”
+A global frame \(I,J,K\) of \(Q\) satisfying the quaternion relations is an [[differential-geometry/hypercomplex-manifold|almost hypercomplex structure]], which is strictly stronger. Adding a Riemannian metric for which every local \(I,J,K\) is orthogonal reduces the structure group further to [[lie-groups/compact-symplectic-product-group|\(\operatorname{Sp}(n)\operatorname{Sp}(1)\)]] and gives an almost quaternionic Hermitian manifold. A torsion-free connection preserving \(Q\) makes the structure quaternionic for \(n>1\); this is an integrability condition, not part of “almost quaternionic.”
 
 ## Examples and near-misses
 

@@ -21,7 +21,7 @@ for the right \(G\)-action on \(P\times F\) defined by
 \[
 (p,f)\cdot g := (p\cdot g,\; g^{-1}\cdot f).
 \]
-When this action is free and proper (as it is in the principal-bundle setting with smooth \(F\)), the orbit space is a [[fiber-bundles/smooth-manifold|smooth manifold]] and the natural projection
+When this action is free and proper (as it is in the principal-bundle setting with smooth \(F\)), the [[lie-groups/orbit-space|orbit space]] is a [[fiber-bundles/smooth-manifold|smooth manifold]] and the natural projection
 \[
 [(p,f)] \longmapsto \pi(p)
 \]

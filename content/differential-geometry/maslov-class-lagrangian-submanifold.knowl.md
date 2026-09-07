@@ -15,7 +15,7 @@ Let \(f:L^n\to(V^{2n},\omega)\) be a Lagrangian immersion into a real [[differen
 \[
 \mu_L=\gamma_f^*\mu_\Lambda\in H^1(L;\mathbb Z),
 \]
-where \(\gamma_f:L\to\Lambda(V)\) is the [[differential-geometry/lagrangian-gauss-map|Lagrangian Gauss map]] and \(\mu_\Lambda\) is the [[differential-geometry/maslov-class-lagrangian-grassmannian|universal Maslov class]]. More generally, the same formula applies after choosing a symplectic trivialization of \(f^*TM\) for an immersion into a [[differential-geometry/symplectic-manifold|symplectic manifold]] \(M\), or after supplying equivalent Maslov-covering data. For a loop \(c:S^1\to L\), the integer \(\langle\mu_L,[c]\rangle\) is the Maslov index of the loop of tangent Lagrangian planes \(df_{c(t)}(T_{c(t)}L)\).
+where \(\gamma_f:L\to\Lambda(V)\) is the [[differential-geometry/lagrangian-gauss-map|Lagrangian Gauss map]] and \(\mu_\Lambda\) is the [[differential-geometry/maslov-class-lagrangian-grassmannian|universal Maslov class]]. More generally, the same formula applies after choosing a symplectic trivialization of \(f^*TM\) for an immersion into a [[differential-geometry/symplectic-manifold|symplectic manifold]] \(M\), or after supplying equivalent Maslov-covering data. For a loop \(c:S^1\to L\), the integer \(\langle\mu_L,[c]\rangle\) is the [[differential-geometry/maslov-index|Maslov index]] of the loop of tangent Lagrangian planes \(df_{c(t)}(T_{c(t)}L)\).
 
 ## Geometric interpretation
 

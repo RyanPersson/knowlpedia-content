@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "fiber-bundles/levicivita-connection-connection",
+      "outcome": "corrected",
+      "source_sha256": "44851630b187f27c7831293e3f3020057031195f1a482790a94a3fe2ee457af6",
+      "evidence": "Read complete source and checked core and supporting occurrences against canonical target definitions; added justified links for the orthonormal frame bundle, vector space, pullback/diffeomorphism, and left Maurer–Cartan form. Generic matches were rejected."
+    },
+    {
+      "id": "fiber-bundles/lie-algebra-valued-k-form",
+      "outcome": "corrected",
+      "source_sha256": "150b7045ee28903c0d81b1f043b53d07230f22fc4e45dd1538812cf9bf32010d",
+      "evidence": "Read complete source and checked core and supporting occurrences against canonical target definitions; added justified links for the orthonormal frame bundle, vector space, pullback/diffeomorphism, and left Maurer–Cartan form. Generic matches were rejected."
+    },
+    {
+      "id": "fiber-bundles/lie-bracket",
+      "outcome": "corrected",
+      "source_sha256": "746d1579bd189ba77253c5f7c528efa2b2d9dc617819b3d61d65439f29530fd1",
+      "evidence": "Read complete source and checked core and supporting occurrences against canonical target definitions; added justified links for the orthonormal frame bundle, vector space, pullback/diffeomorphism, and left Maurer–Cartan form. Generic matches were rejected."
+    },
+    {
+      "id": "fiber-bundles/lie-derivative",
+      "outcome": "corrected",
+      "source_sha256": "f72c3ba8786692fbf0b96acf00f5460e68d0943f342e0d52daf560ec005f987c",
+      "evidence": "Read complete source and checked core and supporting occurrences against canonical target definitions; added justified links for the orthonormal frame bundle, vector space, pullback/diffeomorphism, and left Maurer–Cartan form. Generic matches were rejected."
+    },
+    {
+      "id": "fiber-bundles/lie-derivative-of-a-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "acd427dddbdefa2b67763033f57bd57a7697a06fb3225392f0f2b6bf66b42e44",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4c4f63d90f759e884368440d611fea35fd1976768ab48816561707dfcdaa5ad",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/line-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "849176bb058360baa1964dad9ab800ca855ffe78e96fcbe81f5038ba2ec94af7",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/local-connection-1-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2322ec10d8a425e7afccd17402033f302782218e2287c94a21e8da4acc6b0477",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/local-curvature-2-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad298f3c48b1a1ad2bfcb0c8e6b9caf644983de3b5a7c74eddfa3dda042e6d5f",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/local-curvature-formula-f-da-aa",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40e95b98e168eaafa3f0d12703b5559b1c20e0edd5c3991aa9eee893c3e22c9c",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/local-frame-of-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d811cb8ee76c9b355ee48ee4358d0f9aad6370720bd97b8a5ec7a6bb8665527",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/local-gauge-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0de5300f9f5bffc84b1dce3344ff25470d1804d3f4504a4bc441c412d0c7d244",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/local-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d7de17e353983d0247128a0279e48b1e2cd6e4118df787ce4650231537fa49e",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/local-trivialization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4efe9bf348bb220732103624b0fdcb02c7b09bf58b49f86d8ebef8b27a95d06",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/maximal-smooth-atlas",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02e0b8ea3d9c95f8e8fd9a43675c6b465e63a34f7b29592a1987b144404d5606",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/module-of-smooth-sections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06cbd6eae03479012cb7e24c6f0de8abe4d8d83b71da1f6bcb9dfaec246b07b7",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/moduli-space-of-flat-connections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90be4527a45b94bffef27341b4067595c863749770ad957929914f8313708e7e",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/moduli-stack-of-connections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9551b759d764a5534e03b4a5fb4fa216e18bb7752a2baebb72aed50af9f43b32",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/moment-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4a597778b7bbc2200e79f111eb1e174341ccc93ff3faa14747b8d3833c60b6d",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/naturality-of-chernweil-classes-under-pullback",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b124622a6d3e0692a1ac31f94270c2b10257e50200cae83a3a80c5fb9ac19f2",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/nonabelian-cech-h1-principal-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efba93c96d2746898ce441ea63cb26ff16ea15529d73902f3e51d0b6274654ad",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/nowhere-vanishing-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "325a43aa5b0f01162dc4ac2d2236ad35c3855fba489ed2a6d1cac5ece19e680c",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/orbit-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cbb7c4f0141062ea367c4b68ba0d1a307ab85d4317003f0cb5bbbbb69a7899c3",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/orbit-of-a-group-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0cd68176fc486da7bdb57ad6b234813119acea887cfb7798d7fd3c8222664dba",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/orientation-of-a-real-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c46412d1722a3dc29ac782423e742b46098fc2dd7f41b02bf92a9dff208dce8",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/oriented-frame",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e3447e48398c5482e7de7adca466386a639d8e16a6a64ecfb7ffeef71f66b05",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f45470375cf15aa1dbfb0003d220514114cdc3f98bf918bc0e1a9b28584c7958",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/paracompact-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cab91d808b6ccbec5d14d1d37857e82d5d4b278a735fe49cf73ed83549ce8d3d",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/paracompact-topological-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4b4afa8715f4651c8d9609a91c43b1c4b086566f152b7b089f5715cf08b937f",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/parallel-section-along-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47fb3ef8a7bf648df5348d62fc080ad803588d32a94c6529918a437f2de2b57f",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d9e5c08f18f277dfbb5a49da50390c32baa93c12d99ddf2add354b6f4d54428",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/parallel-transport-defines-a-g-equivariant-map-between-fibers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2134193424825bafe9db249862603c1c079692d925e37f711d1e8e1c417267e7",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "30e3639cb0420f36fca1481e7305266ea4da94a320b3640087512cdc158ac591",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pontryagin-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2338cb5dab2513aa362c1d144adeaf5832b3e0181369956200113f9c13e9e56a",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pontryagin-number",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb2f9c337b0da04c59179a60f4b4fd1da15d14f080a28daf6665702afdb08980",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0741b99c943290ca5c8903e7a67e87f57aedd6c8fa8cc2d9b9f6381307e0fe15",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef2c74bfcfb619c85359dc776e04f79894bab6eab5137d631d482e38a05f72a5",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bcfa24ccc05630f1a494d455b34d3c70841ade0a661e4024b357736b960b1573",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71a9bc1d43917d743942954f482c7ec98e5221ff34adf2770e90e28bb6b18bbb",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74e5fc54fa95f9698c2b129901b58d0daea268a43242a556d9569699eefd6d5d",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-bundle-transition-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2d1105a148c6ec2969e084f115d8029758e7b30dd985c918995ce7ed56dedc3",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ceba202eaebb0f400f19e181b445e40d5193a9ac68b5e5a49c11d1f93b09dcd2",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-g-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "610c7f79a6c59f45a7088ee2fa4dd57e15ae14ab383ad93a7b65ed9371baed11",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/principal-h-subbundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97c06f892f98b8dec563601a6e4cdaa2696cc13d6afea4f887cee8510bcae5a9",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/projective-module-bundle-reconstruction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a301e34031b227348c6820830a6cf9493418aa69cc82ec87c0ee738af83ea421",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/proposition-flatness-implies-holonomy-depends-only-on-homotopy-class-of-loops",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "427a2ecb75d786311c4f5fde7320baefb5ce85715048d3800f5fbb637a00d92e",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/proposition-flatness-implies-path-independence-on-simply-connected-domains",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "463b042030b3504d503cc2e4ce0ca8ebf318af1ca80ac0507698ff4b8695ee58",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22e481695a914935297ee21569e3480b02a018312a4675b3a5e1b7b6b32a5c5b",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f7a3af982958889b60e73cfbf3963c729aba7a0bff2dc7ac74bd562ae3646b5e",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/proposition-parallel-transport-respects-concatenation-of-paths",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "da76dc6e6273b9cfb292f3e18898c80f28b4c609713577c3882b73fd7f0b935d",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pullback-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb08a2e36fc1f3656b0a10aa076bde7927d6666642dcb5e743ae7ae2d8cd13be",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pullback-connection-on-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6115d8ba19199b19ea3f2d86fc0480644fc57e87fe399c775041a273d64dede6",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "047d4b9a24a398986e230a3e0ab1974652a169d30912f8a954436ce4315df3b5",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pullback-functoriality-pullback-of-a-principal-connection-is-a-principal-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ecb98c32cb0e499e9d7b830f16dfe99a7967a08a99be837edc201ceb7a67689b",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pullback-of-covectors",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "502aed2b2cea11d01a700fe0550068c28ce6cf8a0e69c1e7c362ac8126bd3667",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pullback-of-differential-forms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb8fa420563da9cf6240c693673e600cf27a79d6fa2074a1e842edc24c2f24ce",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/pure-gauge-connection-ag-1dg-on-a-trivial-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bf98aee36f04f458734640641a0feff0d4ab75291af52ff09e967fc38b7da3a6",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/quaternionic-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5424c262b64665e0fd33bdee0fde1a9127f7d8879d9ca459585afcc8852172af",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/quotient-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "82bf359d5ed2e6a77a673229ac6026fab0786faf7c74a79e3303cbbeac7cd10e",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/quotient-space-of-an-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d713066ee4f724cae87854ab2d4fad8eea61f7591cbd56b5014d5f1ec49b80b3",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/quotient-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "14ba2272d79d0405a5bce3cd169c7e224e18f09352bc76c1f7c496c56f0ff4f7",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/rank-of-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69fe8f50f4baccf11326951edb572e5ae1aa14df2bf2a93153fc53d9a7d9d091",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/reducible-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7d605e67b0f8e80b24b5876fd90f3715b632faa9aee4830caba449c79d5719a",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/reduction-by-cocycle-structure-group-reduces-to-h-iff-transition-functions-can-be-chosen-h-valued",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c8e44fc158cd0cee3ac92b747e001800be7aeeaf4ab71e424d3c2244c1b6775",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/reduction-of-structure-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0c34588ded151a3f9a0218122e8a3e7538906e951a3cc01f88b0d8c0b8fdc451",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/regular-asd-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "997952263cd92206a79677084e9bb32fd3cb35b109724ac28b7ec6be1e61d34c",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/regular-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52d642b8480059f671438fcd7dc5fcede15602293a8ac960c9aa76a205dec898",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/representation-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4a5cf02f2254f5bacae3257c77d33e15dbc503208a25d16fa2872f219a54bfa",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/reproduction-property-x",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86368177d65939294ead8fc5bd9c74a627903eac7749273e65d036d11054ae28",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/restricted-holonomy-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab19e82c4cb2157a5a058a08f3f744debd4acb063ae5fa3da1bbc9a7e6d47a03",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/right-principal-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a4d5a91a25c096152e2fad56cb1c87b4b6152421dbdb5a3f1ab1c2d6dbab376",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/right-translation-r-g",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ae2ebc443eaa9ecb76cc70e30a08b4b0ac596afe1f8f438563d5b22983e3cb7",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/section-module-is-finitely-generated-projective",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "979eccdc929c61ae02c26f5357bc7814edc413396dae071372695b0357cecf48",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/section-of-a-fiber-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a133644791aee30314015671abe199144e065d82efda250ed3dfa3ec627846f",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/section-of-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1abe29b496511f75bc29ac32842e6b7f6f3f819886cd32577ef3a7e97472373",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/section-of-ad",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d784fda50e933bd2aa5b74e7ad001210832a1a0d836d1b724e2e2979c02d55c8",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/self-dual-and-anti-self-dual-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cfb57def41ab8ae387b873a9127eb60226dd675e1077c5db9668981450f289d",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/serre-swan-idempotent-construction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a786a55cae1d4aa952e89ebf988bf8f4c3f8f52d66fe7523bc2ba00da66a35f2",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/sheaf-of-smooth-sections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a297466b6fca4d3124e81d7267fa9e725ea9e0506c6271672621ed970ee542d",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/short-exact-sequence-of-vector-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d1604f92904ecf8c2066b1a3ffc4eee2d09382ad6794381835b2e14e7a227e8",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/slice-theorem-for-the-gauge-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc1b50c0d61bb39a1bf0ecf74626f8f19ec96bf8b0366fa7f3b731074f177d9c",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e626d77fef8d3991edcbfb46ebeddca2e549f06332530dfd23c611dbc0ff2dea",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-atlas",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "51f045c946dbf1c80e3ce5281741ad0a8a3577dd0b51ba552e006e6fcbfdc08c",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-chart",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b575e965daa3161839c3279e5c1bcf4d6a948ec2c1f6f68b275dfabc97fcabb7",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-chart-coordinate-chart",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "55ebd26a30fd77ebbb137f91ce2ef9ac7e8505b09726113054581c5d8b6994f1",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-compatibility-of-charts-and-atlases",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "080c11eb79a71a51bd3127ca0286128b3ed626465187e1cc3563fa76aa69107c",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34b96d749f2d390eae2502404db2ce1ca3c6108975ed10e60493b2f612c981b5",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-fiber-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db5bf376c827f4f4eb7b008ba76a2f00892a063d365651b7433a23a805113eb5",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b3810021e29829a703bdba6cc2016166e97341d5c170fd65b321691634595fa7",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-immersion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90669285292a62cc7c5e24c8d9debeae221b85cbc39bd70fd2eccfc1b7bb82dc",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "449fa6f3568cfd824ba7c3a7694aff986534392c1651edb1d4bd664f05546f40",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2b4a219f03cebd48a380ba4e4c9605ac5b2bac5cf37d2c8955e24453e3dd2a0",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb49263b1a69f625abbdaa4b4d6ab6648ec05d289b6ce615176c1cddad3a85d1",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/smooth-submersion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3f0e6cc8e0c2dc2f6eed779d642274d25f4d65feddcc03315823ffedb37ec55",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb4ecfd353b8e51a8c038f03b6587b82d1920a8c686127dfdef27864d7194b0f",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/solder-form-on-the-frame-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4355656f9a2046f131d0f97937a1483c68ac3db61c19e68d30d27d29ec0b990",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/special-orthonormal-frame-bundle-reduction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d3f70c1edffa2df6a8830cb8f53bef7c9e8d99fba0b08988be77a8a7e3b1734",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/special-unitary-frame-bundle-reduction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "158606ded266fc52ffaa096764bcd1a271b8835e6e14a8935b2037e8f33cb003",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/sphere-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d5b33663cf52ed04a25a0bc74120e20bd1cb4aed553f5bb7142c808355596942",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    },
+    {
+      "id": "fiber-bundles/spin-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36a90ab82628b6dea9f22670d6aef64767fb0d3d2bf488f1055f736f121a01c5",
+      "evidence": "Read complete source including optional sections and checked candidate phrases against canonical targets and existing links. No additional link was justified: remaining matches are generic, locally defined notation, repeated occurrences, titles, or context-sensitive phrases; prerequisites were left unchanged."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 16: complete linking/dependency review of all assigned fiber-bundles sources."
+  ]
+}

@@ -15,7 +15,7 @@ Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. A **Lie subgroup** of \(G\
 \[
 i:H\hookrightarrow G
 \]
-is a [[fiber-bundles/smooth-immersion|smooth immersion]] and a group homomorphism.
+is a [[fiber-bundles/smooth-immersion|smooth immersion]] and a [[algebra-groups/group-homomorphism|group homomorphism]].
 
 ## Embedded Lie subgroups
 

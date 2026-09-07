@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **(reduced) root system** is a finite subset \(\Phi\subset V\setminus\{0\}\) of a real finite-dimensional inner product space \((V,\langle\cdot,\cdot\rangle)\) such that:
+A **(reduced) root system** is a finite subset \(\Phi\subset V\setminus\{0\}\) of a real finite-dimensional [[linear-algebra/inner-product-space|inner product space]] \((V,\langle\cdot,\cdot\rangle)\) such that:
 
 1. \(\Phi\) spans \(V\).
 2. If \(\alpha\in\Phi\), then the only scalar multiples of \(\alpha\) in \(\Phi\) are \(\pm\alpha\).

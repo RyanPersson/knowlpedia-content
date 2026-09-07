@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **relative entropy (Kullback–Leibler divergence)** is an extended real number \(D_{\mathrm{KL}}(P\|Q)\) associated to two [[probability/probability-measure|probability measures]] \(P\) and \(Q\) on the same measurable space, defined (when \(P\) is absolutely continuous with respect to \(Q\)) by
+A **relative entropy (Kullback–Leibler divergence)** is an extended real number \(D_{\mathrm{KL}}(P\|Q)\) associated to two [[probability/probability-measure|probability measures]] \(P\) and \(Q\) on the same [[measure-theory/measurable-space|measurable space]], defined (when \(P\) is absolutely continuous with respect to \(Q\)) by
 \[
 D_{\mathrm{KL}}(P\|Q)\;=\;\int \log\!\Big(\frac{dP}{dQ}\Big)\,dP,
 \]
@@ -19,7 +19,7 @@ where \(\frac{dP}{dQ}\) is the Radon–Nikodym derivative (see the [[probability
 
 ## Examples
 
-In the discrete case with mass functions \(p,q\) on a countable set, this becomes
+In the discrete case with mass [[shared-foundations/function|functions]] \(p,q\) on a [[shared-foundations/countable-set|countable set]], this becomes
 \[
 D_{\mathrm{KL}}(P\|Q)=\sum_x p(x)\,\log\frac{p(x)}{q(x)},
 \]
@@ -28,7 +28,7 @@ with the convention that terms with \(p(x)=0\) contribute \(0\), and any \(x\) w
   \[
   D_{\mathrm{KL}}(P\|Q)=p\log\frac{p}{q}+(1-p)\log\frac{1-p}{1-q}.
   \]
-- If \(P=\mathcal{N}(\mu_1,\sigma^2)\) and \(Q=\mathcal{N}(\mu_2,\sigma^2)\) with the same variance \(\sigma^2>0\), then
+- If \(P=\mathcal{N}(\mu_1,\sigma^2)\) and \(Q=\mathcal{N}(\mu_2,\sigma^2)\) with the same [[probability/variance|variance]] \(\sigma^2>0\), then
   \[
   D_{\mathrm{KL}}(P\|Q)=\frac{(\mu_1-\mu_2)^2}{2\sigma^2}.
   \]

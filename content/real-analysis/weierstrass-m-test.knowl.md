@@ -19,4 +19,4 @@ and the numerical series \(\sum_{n=1}^\infty M_n\) is a [[real-analysis/converge
 
 ## Remarks
 
-This is a standard sufficient condition for uniform convergence, phrased in terms of bounding the tails of the [[real-analysis/partial-sums|partial sums]] by an ordinary numerical series.
+This is a standard sufficient condition for [[real-analysis/uniform-convergence|uniform convergence]], phrased in terms of bounding the tails of the [[real-analysis/partial-sums|partial sums]] by an ordinary numerical series.

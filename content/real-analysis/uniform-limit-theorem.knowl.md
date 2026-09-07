@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-**Uniform limit theorem.** Let \(X\) be a topological space and \(Y\) a [[topology/metric-space|metric space]]. If \(f_n:X\to Y\) are [[topology/continuous-map|continuous functions]] and \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]], then \(f:X\to Y\) is continuous. Uniform convergence means that for every \(\varepsilon>0\) there exists \(N\) such that
+**Uniform limit theorem.** Let \(X\) be a [[topology/topological-space|topological space]] and \(Y\) a [[topology/metric-space|metric space]]. If \(f_n:X\to Y\) are [[topology/continuous-map|continuous functions]] and \(f_n\to f\) [[real-analysis/uniform-convergence|uniformly]], then \(f:X\to Y\) is continuous. Uniform convergence means that for every \(\varepsilon>0\) there exists \(N\) such that
 \[
 n\ge N\quad\Longrightarrow\quad
 d_Y\bigl(f_n(x),f(x)\bigr)<\varepsilon

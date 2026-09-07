@@ -1,0 +1,610 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "complex-analysis/octonionic-affine-line",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad5a44d782f30212cdd0e6ed630c53e800d04e91316739f1d447c4723e0ddcce",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/octonionic-hessian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7bb4307207d3c7156b72af7fa76ebee3eb3094127953fb9eba3b0f0bec5f1d29",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/octonionic-monge-ampere-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d6d78ff04eddd52f34d76855218ef1a87fb47fbf3074dc6a1e6001f127ce03c",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/octonionic-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e55d5c81590a34dd62b5f8aeb123099a17dc6de0c46b35237e357d1124041f7d",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/octonionic-radon-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e09c0f1fc44d7270f4a4c1255cc95e210018447782d2845296561c3976252965",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/open-mapping-theorem",
+      "outcome": "corrected",
+      "source_sha256": "3205d8653fede32783526480891b3a58765d6e7561afae69333678632f427a57",
+      "evidence": "linked holomorphic in the core and holomorphic map in consequences to differential-geometry/holomorphic-map"
+    },
+    {
+      "id": "complex-analysis/order-of-zero-or-pole",
+      "outcome": "corrected",
+      "source_sha256": "47c5188a0e3ccc82d913073074096a1a040a0b4f0bffa4b9407c321ee6ad2d21",
+      "evidence": "linked holomorphic function in the local factorization to differential-geometry/holomorphic-map"
+    },
+    {
+      "id": "complex-analysis/pluriharmonic-function",
+      "outcome": "corrected",
+      "source_sha256": "723dd873a69fb0ed5202fc5d2cc7fe2414f951e806e879f9a9802b3783a811be",
+      "evidence": "linked holomorphic function in the local representation to differential-geometry/holomorphic-map"
+    },
+    {
+      "id": "complex-analysis/plurisubharmonic-function",
+      "outcome": "corrected",
+      "source_sha256": "60cf28ddde13465b8dd30a420a0a4bc6be397e8f78187757b9c77a8f588badfd",
+      "evidence": "linked holomorphic in the logarithm example to differential-geometry/holomorphic-map"
+    },
+    {
+      "id": "complex-analysis/projective-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3119ce9ac4142a67eef5d865e016398461885ea93f793f782d4a79f008bd947a",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/projective-connections-form-an-affine-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1ab42a492cf57ac3982ec0bc60b480bb9fda40826c1deb21609b63bdc49256c",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/quaternionic-blocki-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87975ece33c562710efac13c3137726b01db858ef138f080da22abbc67e30ae5",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/quaternionic-hessian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "396b29203379a45d87a05dd73b4c11f5214492b67bf32de57db50fea11257796",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-continuity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "822333db0f4cdfae552f8b6f4e9c37f9309642afc226c59d0f58dfa939d5d3cc",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-dirichlet-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87ba4ad1fc5b03488b4d83f742c98a3b37784c0dda9b58db81d26ce32e431a1a",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa324513f7afee651f778eae6f59fdf274bb6be479a260b9e69f9cccaf9fa485",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/quaternionic-monge-ampere-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6711fef3db124392f3b9492d8b5777cdaaece332aafc88213bcc0b9c5eba2fa8",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/quaternionic-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc61fa4ad65370139acdf622c87406d25e8cc6cc1bbd97c6034fdb09b2ac8174",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/rational-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41c0270cfb7f3808bc37e15e1672ef4b90317d566773aaead304f7277a054e03",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/residue",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0073fc8fd322a2a22d7027d09901b1174c7ddcec30239ed2557fc46fa7f93b7e",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/residue-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8b9a75c336c7cbdef17673401f6324ea14d31b5ddc5537245319c0756e7735c",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/riemann-mapping-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4d085ff7d64ab255188e3e340822fb95e4f1cc570be65851c9f5f7f6850d38b",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/riemann-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4d1fdb8065691e11d5c9ea67deb45326f662e2163094c86c51ad62b9cab42d2",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/rouche-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70674610d581fed5cf6eb0e7552e7516dfbbf42d66ee67b4c9f60cbd82201534",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/schwarzian-and-second-order-linear-odes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db1d91bbf5003d12ab95b2bff26d863d29d23d1c9a0dd644db3ee93fee8c0ca4",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/schwarzian-chain-rule",
+      "outcome": "corrected",
+      "source_sha256": "af4af0d39ae60832da4b848d429a2911087d410e2d4c5f1978bdd6a0b83e8e70",
+      "evidence": "linked holomorphic maps in the core to differential-geometry/holomorphic-map"
+    },
+    {
+      "id": "complex-analysis/schwarzian-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3449c51dec4569511086c0dfeb71e077ed6970ec579f1cbe32d947ab9423a0d2",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/sharp-three-transitivity-of-mobius-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "07ea105aebe4d856aaaa02c1dba0f5c30433879d505584ab89bb6c3307b31b0f",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/strictly-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33878a2b076520dabf7bafa0754de7f20bfe1d2c6a10e70be93fc0a81051fea7",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/strictly-quaternionic-plurisubharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e60d4df358c930d57deb7a05c0d0ce5a2f2977194b70adb2f63a38d379b62429",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/strictly-quaternionically-pseudoconvex-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b6ccbe1a702f62322decf0b77c65165ce9c0aacb3aaa691ad1e66c156421e40",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/subharmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "29091ea7c9308c5d75eda99c82c811e122daf1cf82622e90f6e13fea2cdec788",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "complex-analysis/upper-semicontinuous-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc5728e3549dd99e3f369a44567966443491f08bb56cd8465cd8ffd07a9f3c2a",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/affine-hull-affine-combination",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2bde33beb968a910c05c99f5713b4e6106a1f0e5348f30a0900dd5446dd302fd",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/affine-images-and-preimages-of-convex-sets-are-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd2e3ce9b2fd33e968dcd5e723647a88ebd0701678605a357ca959baace16365",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/affine-mapping",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5943c5e2734954f5ceb5bf33ae6e3cd8ef243ff0ab830f412503119146084aae",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/affine-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60dc7e73c52b5f6a7e56d0eb42eec8c71a5478e64be413e67e0dddef654e7b6a",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/algebra-of-limits-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "584fc92df9141f6603060377f2eb04b24081b8bd2f7e60c7b886dfbfdec7de8f",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/algebraic-interior-core",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e138db7a44a74f970fd4df36cbc71d347f4e4a3a2dd47e3b8268ed19a73e4f68",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/auxiliary-separation-lemma-for-disjoint-convex-sets-with-nonempty-core",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38e3f1a806755acc7595666a0e1f489e5804c2ea91447590afda4b20b90a9ccc",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/balanced-and-absorbing-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f02dcf260fad04a22f0e63ed435f66fb7309f7a85626a651e1fc4bb6a212d331",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/basic-operations-preserving-convexity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee3ac4a280694875f4e9e24ae5343227aed926dcfeabda22309199c0c0e6d575",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-closed-sets",
+      "outcome": "corrected",
+      "source_sha256": "a2d1a9aa18e127797346325d7a16235089d8e9b918d7b82bae9a18a6c02d7619",
+      "evidence": "linked metric space in the proposition statement to topology/metric-space"
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-open-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "369e4087088136bd801e1c5e883748276ec28330289d1a2c681fa0e320ea1bd7",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-the-closure-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8cf5e821cd436e23e709d801410132873d3190f8b563bb15cfb80a158d53801",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/basic-properties-of-the-interior-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac31c13c3898b6ba292111bf355397db78d4ac8404091d5af238d0e9214783c9",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/basis-characterized-by-maximal-linear-independence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a282479c5f1685aeb498605ebbd0b504d54e1af1f9a0db1eefecf74379c8d795",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/basis-hamel-basis-and-dimension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9c8ddca3208f600d48572ab67f984d34f311d0da560ed290b5ddb897410d166",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/biconjugate",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98117d131e71905bea1f8469883f6cd0d9c64c41c5645b3390c45ade0191958e",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/bounded-linear-functional-norm-of-a-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "424ca19dca86f63c6c7d86a6ba042370b27c01fd5d2d59e602a91a16d14406ec",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/bounded-set-and-bounded-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e54dd8aeb0936e67426130a54f0bf9acfc67588a8eb3b9807e0246e19fd3d76",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/cartesian-product-of-convex-sets-is-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e569970944e2964d642d5134301f24e6b85548bace6e2f668f4b012c82e9e4f",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/cauchy-sequence-with-a-convergent-subsequence-converges",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df21ef3541cd5648fd27ea5ac5c5ac0c28dd9d451878d9dc79726738277358d6",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/cauchy-sequences-are-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "107d8efecd1f3d073bcf54ca7399b08bbb5fd75a2e95a1cf912e46dd74547250",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/characterization-of-affine-mappings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10fb45e0f8258ee78187704287918b0e168118ca20fb317dac73d26047e8057a",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/characterization-of-direct-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "310b47de26168ea6eeb933838ac556d7055c650ee696a5fbbb2c4a2311accf8f",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/closed-balls-are-closed-sets",
+      "outcome": "corrected",
+      "source_sha256": "fe05db1b49f1815dc2f98443215c23ab759bca3fd7dc3890c836f20970927d66",
+      "evidence": "linked metric space and closed ball in the proposition statement to topology/metric-space and topology/closed-ball"
+    },
+    {
+      "id": "convex-analysis/closed-convex-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f43e2e0bf18f499031cfab4325ab71f334970256f4bc59efdc3f628910df89f",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/closed-sets-characterized-by-sequences-version-i",
+      "outcome": "corrected",
+      "source_sha256": "e89b8c2ce22123d76788611caa657c99619d43a8c37484879aebd3fdf121ed9d",
+      "evidence": "linked metric space in the theorem statement; existing closed-set target retained"
+    },
+    {
+      "id": "convex-analysis/closed-sets-characterized-by-sequences-version-ii",
+      "outcome": "corrected",
+      "source_sha256": "3fefc8546cb0172603787a868ce6feca5e639a480d2ed5d3fce2188e877d2244",
+      "evidence": "linked metric space and closed set in the theorem statement"
+    },
+    {
+      "id": "convex-analysis/closed-subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3c9017f416ee7c95a69259033ca26c247cce9a329fa995d2c941daa8f847aad",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/closure-characterized-by-ball-intersections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f639147c12a3f62e119638d207dc8ec582a80977ebfbef57d460dda280e0b019",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/closure-characterized-by-convergent-sequences",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2a769a3d579caa68219039a3822b6bf3e9a2abd5fdac9ad88ea2cc496acc0f9",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/closure-of-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e99bbbe6d3ddd01dd126461fe4237c61573c2aaab83f3b0df5ffb2d27d6171e1",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/closure-of-intersections-under-interior-point-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2c3daa0282e3e9df4ea164a2a46ad953062184f949a2fcfe402f84cea27693df",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/codimension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c753c46b4a57386987f4260104740e889f3ba40e65d24f33c7a9da8a4590ad6",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "938a339b7d06b81a139713661384cf5d929d3fd66848cd46bd2b2ae2cea18464",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/complete-metric-space-complete-subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd00b42d81a748e5fe16140574281ebdf773d2cc9f126245a1c4c24a4d732bb9",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7c301918d163a81b2e19317e715a06018de0318ca1e5c0e739017c75b6a79da",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/completeness-of-rk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ab6d5dd710f37f5d1662e7a3238ad4bb65954acb781cb346f285803072c731c",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/complex-separation-theorem-real-parts",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc2379d7282f4ceb990f826bb322aa70fa1dbc442cb5164721dd0c1d1605cbf3",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/continuity-and-level-sets-of-the-minkowski-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f01f2a0f174700d6a8bc0debcbd9e708bba6b658c9cfa3a09ece4b3591ecf82",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/continuity-of-linear-functionals-via-closed-level-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0140b12455e3500758849172c2b7d4b73dbdfa70ad9ac3282f3d04a0a3fbea3",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convergence-implies-convergence-of-norms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2aafd0c87714c16f727dfb623a49bdfc7b2995578edecd26e4865e7fa7073ab6",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convergence-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25012e65e9f07be228cf2629620b8c0bac0951619961390e6c9481b63e146796",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convergence-of-a-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cdd771dad72f3f3b1dcb92cc904fa599d37341dafcb7cf6cdc4e9601ac29070",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convergent-sequences-are-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "920845c83af4e211f07a9705c747ccb6282a157408a5cb0cd43f0e8ade8f6987",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convergent-sequences-are-cauchy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3bab7c66d711709fdb348997375949edd4105d2235f30da947afa4e26efb3f36",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-body",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b724bb0b72e108ae25b34ad283d828ba3c52840125cf8ad24e501f024680662",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-combination",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25604c30953d7862d994fe2f6da39f515288b53bd5821cecd223a93b4e241483",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-conjugate-fenchel",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b424e118ad36501bdcdda1ba9146168fed33b5016f6b8eda354f79c7e906235",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-duality-primal-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50694e3427577ca2d981ae377412b2bc4d6cae856e3d2b3d5e8323e0e81091bb",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-function-via-epigraph",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d6db5079cb710aa4ab07b0ac57ffb4d3c460d4ddf0a8d798a19e350dcaadb926",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-hull",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bfd4bc6ebcccfe7e684bd6312937ebe6d273d52c281aad6b958a5156dc3c5082",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-hull-is-the-smallest-convex-set-containing",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c04fafcc014e34907362ebf4b6eb26241141a447cf510f83d7e2970e4f623c89",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-hull-via-convex-combinations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6b2a2631b72be9f29d7448212e89e5514941e4bb5be7d2c9fcf058d0983808d7",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e5a4697245fd3ad53565df91f5c5de31d80228869690994f6ad8aecf5604acb",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convex-sets-characterized-by-closure-under-convex-combinations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c1fcf33f37957314dfd11d6225be2d4d8cbe3e911e26d09750d0c5907e2f365",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convexity-characterized-by-monotonicity-of-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c934a3473bda8095d4b39d46ec2965b8db64ef974bb56cb8dd2777d89d93cbe",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convexity-characterized-by-positive-semidefinite-hessian",
+      "outcome": "corrected",
+      "source_sha256": "907bbe70ab76a54ba015c9bff31fcf4030bb632ed008db38f28e7ce6ac669ff3",
+      "evidence": "linked convex set and Hessian matrix in the theorem statement; retained the existing repository-specific positive-semidefinite target"
+    },
+    {
+      "id": "convex-analysis/convexity-of-the-marginal-optimal-value-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47100eae810fb539107e6100f9d475e921c82edd9ed223471ac960f10c493099",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convexity-on-a-convex-subset-via-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02901bf04c588c622f297654774891b2817bbf93bae242d092bec4f8192c3732",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convexity-preserved-under-monotone-convex-composition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "07646ff29efb649cad15b9a183307d88d8d6e92f90a95305cc08cf328ea5acff",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/convexity-via-nonnegative-second-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2de4e76bff8e1c880d5391a180e5f22dfa7d39a1773b74796072b36e443226a",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/core-characterized-by-absorbing-translations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "125aed3344af27a384a3d555232f973689654b8d38e6a2fde844cb528d52e736",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf2799be4b3b9b4fa09733b92f24b0d826b77f64cafa8a33ee74cede69509733",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/core-of-a-convex-set-is-convex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be047b04f450c0e2b0e03508165596593885e8c1d816e6ee6cec1042ccbcac34",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/direct-sum-of-subspaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd5a4324811885d5ba0c169e0c389f6cabb6b416fd493e4c53a0b7a1cd34ae1b",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/distance-function-to-a-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "61af0275bd0e413371a1cccef22f8717ec964a46c87b71ecff4a5a281ef3939d",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    },
+    {
+      "id": "convex-analysis/domain-and-epigraph-proper-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "398803823099eccd1fd546da8624cd69f26cd6da46957b8a7a823db9ea4daf91",
+      "evidence": "Read the complete source including all optional sections and references. Checked each scanner candidate against the local mathematical context and target definition; generic words such as function, set, boundary, unit, image, and measure were rejected where they do not answer a plausible dependency question. Existing field-specific links and prerequisite metadata were checked and no justified edit was needed."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 09 reviewed in full; generic scanner matches were manually rejected where context did not warrant links."
+  ]
+}
+

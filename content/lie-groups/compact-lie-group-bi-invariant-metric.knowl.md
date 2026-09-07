@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\).
 
-**Theorem.** \(G\) admits a [[lie-groups/bi-invariant-metric|bi-invariant Riemannian metric]]. Equivalently, there exists an inner product on \(\mathfrak{g}\) invariant under the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]] of \(G\).
+**Theorem.** \(G\) admits a [[lie-groups/bi-invariant-metric|bi-invariant Riemannian metric]]. Equivalently, there exists an [[linear-algebra/inner-product|inner product]] on \(\mathfrak{g}\) invariant under the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]] of \(G\).
 
 ## Remarks
 
@@ -22,6 +22,6 @@ Let \(G\) be a [[lie-groups/compact-lie-group|compact Lie group]] with [[lie-gro
 \langle X,Y\rangle := \int_G \langle \mathrm{Ad}_g X,\, \mathrm{Ad}_g Y\rangle_0 \, dg.
 \]
 
-This averaged form is \(\mathrm{Ad}(G)\)-invariant by construction, and it induces a bi-invariant metric on \(G\) via left translation.
+This averaged form is \(\mathrm{Ad}(G)\)-invariant by construction, and it induces a [[lie-groups/bi-invariant-metric|bi-invariant metric]] on \(G\) via [[lie-groups/left-translation|left translation]].
 
-**Consequences.** With a bi-invariant metric, geodesics through the identity are exactly [[lie-groups/one-parameter-subgroup|one-parameter subgroups]], making the [[lie-groups/exponential-map-lie-group|exponential map]] geometrically canonical. This also provides natural bi-invariant volume forms and simplifies curvature computations.
+**Consequences.** With a bi-invariant metric, geodesics through the identity are exactly [[lie-groups/one-parameter-subgroup|one-parameter subgroups]], making the [[lie-groups/exponential-map-lie-group|exponential map]] geometrically canonical. This also provides natural bi-invariant [[differential-geometry/volume-form|volume forms]] and simplifies curvature computations.

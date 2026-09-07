@@ -44,7 +44,7 @@ Under the decomposition, a central element \(z\) acts on \(H_x\) as
 multiplication by a scalar \(f_z(x)\). Conversely, every essentially bounded
 measurable scalar field gives a central
 [[functional-analysis/decomposable-operator|decomposable operator]]. The
-fiber algebras have trivial centers almost everywhere, so the variation that
+fiber algebras have trivial centers [[measure-theory/almost-everywhere|almost everywhere]], so the variation that
 remains in \(Z(M)\) has been transferred to the parameter space.
 
 ## Examples and scope

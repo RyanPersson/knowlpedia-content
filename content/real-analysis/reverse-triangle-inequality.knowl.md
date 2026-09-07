@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Reverse triangle inequality**: In a normed vector space \((V,\|\cdot\|)\), for all \(u,v\in V\),
+**Reverse triangle inequality**: In a [[linear-algebra/normed-vector-space|normed vector space]] \((V,\|\cdot\|)\), for all \(u,v\in V\),
 \[
 \bigl|\|u\|-\|v\|\bigr|\le \|u-v\|.
 \]
@@ -27,4 +27,4 @@ This inequality is frequently used to show [[real-analysis/continuity-on-a-set|c
 ## Examples
 
 - In \(\mathbb{R}\), the inequality becomes \(\bigl||a|-|b|\bigr|\le |a-b|\).
-- If \(u_n\to u\) in a normed space, then \(\|u_n\|\to \|u\|\) by the reverse [[real-analysis/triangle-inequality|triangle inequality]].
+- If \(u_n\to u\) in a [[linear-algebra/normed-vector-space|normed space]], then \(\|u_n\|\to \|u\|\) by the reverse [[real-analysis/triangle-inequality|triangle inequality]].

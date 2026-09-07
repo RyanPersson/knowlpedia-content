@@ -16,7 +16,7 @@ Let \(\Lambda_0,\Lambda_1:[a,b]\to\Lambda(V)\) be continuous paths of [[differen
 \mu(\Lambda_0,\Lambda_1)
 =\mu\bigl(\Delta,\Lambda_0\times\Lambda_1\bigr)
 \]
-in \((V\oplus V,-\omega\oplus\omega)\), where \(\Delta=\{(v,v):v\in V\}\) is the diagonal Lagrangian. This convention orders the two paths and fixes the sign. For smooth pairs with only regular crossings, where \(\Lambda_0(t)\cap\Lambda_1(t)\neq0\), the index is the sum of signatures of the relative crossing forms, with one-half of the endpoint signatures. Continuous pairs are defined by regular perturbation or homotopy.
+in \((V\oplus V,-\omega\oplus\omega)\), where \(\Delta=\{(v,v):v\in V\}\) is the diagonal Lagrangian. This convention orders the two paths and fixes the sign. For smooth pairs with only regular crossings, where \(\Lambda_0(t)\cap\Lambda_1(t)\neq0\), the index is the sum of signatures of the relative [[differential-geometry/crossing-form|crossing forms]], with one-half of the endpoint signatures. Continuous pairs are defined by regular perturbation or homotopy.
 
 ## Relative crossing form
 

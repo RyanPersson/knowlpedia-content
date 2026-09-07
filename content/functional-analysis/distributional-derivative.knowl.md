@@ -11,8 +11,8 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(T\) be a [[functional-analysis/distribution|distribution]] on an open
-set \(\Omega\subseteq\mathbb R^n\). For a multi-index \(\alpha\), its
+Let \(T\) be a [[functional-analysis/distribution|distribution]] on an [[topology/open-set|open set]]
+\(\Omega\subseteq\mathbb R^n\). For a multi-index \(\alpha\), its
 **distributional derivative** \(\partial^\alpha T\) is the distribution
 defined by
 \[
@@ -40,7 +40,7 @@ derivatives where those derivatives exist.
 ## Singular derivatives
 
 Distributional differentiation can detect jumps. On \(\mathbb R\), the
-Heaviside function \(H\) defines a regular distribution and satisfies
+[[real-analysis/step-function|Heaviside function]] \(H\) defines a regular distribution and satisfies
 \(H'=\delta_0\). More generally, differentiating a piecewise smooth function
 produces its ordinary derivative away from jumps together with delta terms
 whose coefficients are the jump sizes.

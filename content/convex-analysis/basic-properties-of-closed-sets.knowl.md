@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 **Proposition.**
-Let \((X,d)\) be a metric space. Then:
+Let \((X,d)\) be a [[topology/metric-space|metric space]]. Then:
 
 1. \(\emptyset\) is closed.
 2. \(X\) is closed.

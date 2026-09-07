@@ -16,7 +16,7 @@ Let \(f:X\to Y\) be a function and let \(B\subseteq Y\). The **preimage** (or **
 f^{-1}(B):=\{x\in X:f(x)\in B\}\subseteq X.
 \]
 
-The notation \(f^{-1}(B)\) does not require \(f\) to be invertible; it is defined for every function. Preimages interact well with set operations and are central in topology (continuity via preimages of open sets) and measure theory (measurability via preimages of measurable sets).
+The notation \(f^{-1}(B)\) does not require \(f\) to be invertible; it is defined for every function. Preimages interact well with set operations and are central in topology (continuity via preimages of open sets) and measure theory (measurability via preimages of [[measure-theory/measurable-set|measurable sets]]).
 
 ## Examples
 

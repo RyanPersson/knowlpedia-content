@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-If \(D\subseteq\mathbb C\) is a [[complex-analysis/complex-domain|domain]] and \(f:D\to\mathbb C\) is nonconstant and holomorphic, then \(f\) is an open map: \(f(U)\) is open in \(\mathbb C\) for every open \(U\subseteq D\).
+If \(D\subseteq\mathbb C\) is a [[complex-analysis/complex-domain|domain]] and \(f:D\to\mathbb C\) is nonconstant and [[differential-geometry/holomorphic-map|holomorphic]], then \(f\) is an open map: \(f(U)\) is open in \(\mathbb C\) for every open \(U\subseteq D\).
 
 ## Local mechanism
 
@@ -23,7 +23,7 @@ Small circles around \(a\) therefore wind \(m\) times around \(f(a)\), forcing t
 
 ## Consequences
 
-A bijective holomorphic map between plane domains has holomorphic inverse: continuity of the inverse follows because the map is open, and local [[complex-analysis/complex-derivative|complex differentiability]] follows away from critical points; injectivity rules those out. The theorem also gives a short proof of the [[complex-analysis/maximum-modulus-principle|maximum modulus principle]].
+A bijective [[differential-geometry/holomorphic-map|holomorphic map]] between plane domains has holomorphic inverse: continuity of the inverse follows because the map is open, and local [[complex-analysis/complex-derivative|complex differentiability]] follows away from critical points; injectivity rules those out. The theorem also gives a short proof of the [[complex-analysis/maximum-modulus-principle|maximum modulus principle]].
 
 ## Disambiguation
 

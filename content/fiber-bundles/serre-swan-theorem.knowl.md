@@ -14,14 +14,14 @@ dependency_review_count = 1
 Let \(M\) be a connected finite-dimensional Hausdorff second-countable
 [[fiber-bundles/smooth-manifold|smooth manifold]], and let
 \(\mathbb F\in\{\mathbb R,\mathbb C\}\). The **smooth Serre–Swan theorem**
-states that the functor
+states that the [[algebra-category-theory/functor|functor]]
 \[
 E\longmapsto\Gamma^\infty(M,E)
 \]
 from the
 [[fiber-bundles/category-of-vector-bundles-over-a-manifold|fixed-base
 category \(\mathbf{Vect}_{\mathbb F}(M)\)]] of finite-rank smooth
-[[fiber-bundles/vector-bundle|\(\mathbb F\)-vector bundles]] and bundle maps
+[[fiber-bundles/vector-bundle|\(\mathbb F\)-vector bundles]] and [[fiber-bundles/bundle-map|bundle maps]]
 covering \(\operatorname{id}_M\) to the
 [[algebra-modules/category-of-finitely-generated-projective-modules|category
 \(\mathbf{Proj}(C^\infty(M,\mathbb F))\)]] is an
@@ -30,7 +30,7 @@ categories]]. Thus every
 [[fiber-bundles/section-module-is-finitely-generated-projective|section
 module is finitely generated projective]], every such module is the
 [[fiber-bundles/module-of-smooth-sections|module of smooth sections]] of a
-vector bundle, and module homomorphisms arise uniquely from vector-bundle maps
+vector bundle, and [[algebra-modules/module-homomorphism|module homomorphisms]] arise uniquely from vector-bundle maps
 over \(M\). No compactness hypothesis is needed for this smooth formulation
 over the algebra of all smooth functions.
 
@@ -41,7 +41,7 @@ Finite dimensionality and paracompactness imply that a finite-rank bundle
 \[
 E\oplus F\cong M\times\mathbb F^N
 \]
-for some finite \(N\). Equivalently, finitely many global sections generate
+for some finite \(N\). Equivalently, finitely many [[fiber-bundles/section-of-a-fiber-bundle|global sections]] generate
 every fiber of \(E\). This uses the finite-dimensional vector-bundle
 embedding/global-generator theorem, not a finite trivializing cover.
 Taking sections expresses \(\Gamma^\infty(M,E)\) as a direct summand of the

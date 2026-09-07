@@ -27,6 +27,6 @@ Equivalently,
 \mathrm{tr}(\mathrm{ad}_X\circ \mathrm{ad}_Y)=0 \quad \text{for all } X\in \mathfrak{g},\; Y\in [\mathfrak{g},\mathfrak{g}].
 \]
 
-**Motivation.** Solvability is defined in terms of the [[lie-groups/derived-series-lie-algebra|derived series]], but Cartan’s criterion replaces an iterative bracket computation with a single trace-vanishing condition. It is particularly effective when \(\mathfrak{g}\) is presented as a subalgebra of \(\mathfrak{gl}(V)\), where traces can be computed concretely.
+**Motivation.** Solvability is defined in terms of the [[lie-groups/derived-series-lie-algebra|derived series]], but Cartan’s criterion replaces an iterative bracket computation with a single trace-vanishing condition. It is particularly effective when \(\mathfrak{g}\) is presented as a subalgebra of \(\mathfrak{gl}(V)\), where [[linear-algebra/trace|traces]] can be computed concretely.
 
 **Remark.** The criterion is compatible with the heuristic that “brackets measure noncommutativity”: the condition tests how far commutators act nontrivially through \(\mathrm{ad}\). Compare also [[lie-groups/cartans-criterion-semisimplicity|Cartan’s semisimplicity criterion]].

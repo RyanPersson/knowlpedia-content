@@ -11,8 +11,9 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Segal's **duality transform** \(D: S(H)\to L_2(M,n)\) is a unitary identifying the Fock space picture
-with the Gaussian \(L_2\) picture.
+Segal's **duality transform** \(D: S(H)\to L_2(M,n)\) is a unitary identifying the
+[[shale-paper/symmetric-fock-space|Fock space]] picture with the
+[[shale-paper/gaussian-measure-hilbert-space|Gaussian \(L_2\) picture]].
 
 ## Remarks
 

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "scope": "Independent spot audit: two corrected and three unchanged records per batch (five unchanged for batch 19), batches 13-24.",
+  "checked": {
+    "13": ["differential-geometry/stokes-theorem", "differential-geometry/symplectic-manifold", "differential-geometry/moser-stability-theorem", "differential-geometry/neat-embedding", "differential-geometry/neat-submanifold"],
+    "14": ["differential-geometry/weyl-spinor", "differential-geometry/whitney-c-infinity-topology", "discrete-structures/boundary-finite-region", "discrete-structures/finite-box-lattice", "discrete-structures/finite-graph"],
+    "15": ["fiber-bundles/curvature-as-a-moment-map", "fiber-bundles/differential-of-a-smooth-map", "fiber-bundles/cotangent-bundle", "fiber-bundles/coulomb-gauge", "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section"],
+    "16": ["fiber-bundles/levicivita-connection-connection", "fiber-bundles/lie-algebra-valued-k-form", "fiber-bundles/lie-derivative-of-a-differential-form", "fiber-bundles/lie-group", "fiber-bundles/line-bundle"],
+    "17": ["fiber-bundles/splitting-of-the-atiyah-sequence", "fiber-bundles/spin-structure", "fiber-bundles/splitting-principle", "fiber-bundles/splitting-theorem-for-vector-bundles"],
+    "18": ["functional-analysis/distributional-derivative", "functional-analysis/core-of-closed-operator", "functional-analysis/decomposable-operator", "functional-analysis/deficiency-indices"],
+    "19": ["harmonic-analysis/haar-integral", "harmonic-analysis/haar-measure", "harmonic-analysis/harish-chandra-character-p-adic-group", "harmonic-analysis/harish-chandra-schwartz-algebra", "harmonic-analysis/harish-chandra-schwartz-space"],
+    "20": ["langlands/arthur-multiplicity-formula", "langlands/excursion-algebra", "langlands/affine-springer-fiber", "langlands/algebraic-automorphic-representation", "langlands/arthur-parameter"],
+    "21": ["langlands/strong-multiplicity-one-theorem", "langlands/strongly-regular-semisimple-element", "langlands/twisted-conjugacy", "langlands/weighted-orbital-integral", "langlands/weil-deligne-representation"],
+    "22": ["lie-groups/distribution-vectors-of-a-representation", "lie-groups/dynkin-diagram", "lie-groups/dixmier-malliavin-factorization-theorem", "lie-groups/dual-representation-lie", "lie-groups/dynkin-diagram-automorphisms-and-dual-representations"],
+    "23": ["lie-groups/lie-group-homomorphism", "lie-groups/lie-subgroup", "lie-groups/lie-algebra-homomorphism", "lie-groups/lie-algebra-isomorphism", "lie-groups/lie-algebra-of-a-lie-group"],
+    "24": ["lie-groups/solvable-lie-algebra", "lie-groups/special-orthogonal-group", "lie-groups/special-block-unitary-group", "lie-groups/special-linear-group", "lie-groups/special-linear-lie-algebra"]
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "source": "differential-geometry/weyl-spinor",
+      "batch": 14,
+      "status": "resolved",
+      "evidence": "Resolved: removed the unmatched closing bracket and refreshed the batch hash/evidence."
+    },
+    {
+      "severity": "medium",
+      "source": "fiber-bundles/differential-of-a-smooth-map",
+      "batch": 15,
+      "status": "resolved",
+      "evidence": "Resolved: linked the core phrase to linear-algebra/linear-map and refreshed the batch hash/evidence."
+    },
+    {
+      "severity": "medium",
+      "source": "differential-geometry/symplectic-manifold",
+      "batch": 13,
+      "status": "resolved",
+      "evidence": "Resolved: linked the core phrase to linear-algebra/bilinear-form and refreshed the batch hash/evidence."
+    },
+    {
+      "severity": "low",
+      "source": "functional-analysis/distributional-derivative",
+      "batch": 18,
+      "status": "resolved",
+      "evidence": "Resolved: removed the duplicated word and refreshed the batch hash/evidence."
+    }
+  ],
+  "notes": [
+    "The spot checks compared complete source files and candidate contexts; generic single-word findings were not treated as defects merely because they remained unlinked.",
+    "Some batch JSON files were being rewritten concurrently during this audit and at points were temporarily invalid JSON; the checked source files and review records were still inspected where readable.",
+    "No content files were edited by this audit."
+  ]
+}

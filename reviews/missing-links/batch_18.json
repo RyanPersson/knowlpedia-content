@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "functional-analysis/core-of-closed-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54b6875506a20373e426b9cf91d59df0453938a259d7611d170fdc3bb3b996e6",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/closed-linear-operator, linear-algebra/banach-space, convex-analysis/linear-subspace, functional-analysis/graph-norm) against their canonical definitions. Assessed candidate occurrences individually: closed operator; invariant subspace. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/decomposable-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abc8323c229ecf71fe8947a5225ccc5321e41e47b75a24b33f692e00cf247971",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/direct-integral-hilbert-spaces, measure-theory/almost-everywhere, functional-analysis/bounded-linear-operator) against their canonical definitions. Assessed candidate occurrences individually: almost everywhere; commutant condition; matrix coefficient. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/deficiency-indices",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "610a013e218fadd56025aea0bcc102c7e9732f9e59a18a0ec9688bee45eb6243",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/symmetric-operator, linear-algebra/hilbert-space, functional-analysis/adjoint-unbounded-operator, shared-foundations/ordered-pair) against their canonical definitions. Assessed candidate occurrences individually: Hilbert space; symmetric operator. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/densely-defined-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a94077b7e8917c4df0dad9404870624aaa0d4443509ed29ac885bcca7256bf06",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, convex-analysis/linear-subspace, topology/dense-set, linear-algebra/linear-map) against their canonical definitions. Assessed candidate occurrences individually: linear subspace; closed operator; closed operators. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/direct-integral-hilbert-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd0a1e60b967c7f5bd9084769c0de9114339ca3e1d962db53aac39ccc7d27017",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (measure-theory/measure-space, functional-analysis/measurable-field-hilbert-spaces, measure-theory/almost-everywhere, measure-theory/lebesgue-integral, linear-algebra/hilbert-space) against their canonical definitions. Assessed candidate occurrences individually: Hilbert spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/direct-integral-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a16670b031e45036a3a2f918c4b71e59d3a0aae22c91a5a94aa6d157668ba49",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/measurable-field-hilbert-spaces, functional-analysis/densely-defined-operator, measure-theory/almost-everywhere, functional-analysis/direct-integral-hilbert-spaces, functional-analysis/closed-linear-operator) against their canonical definitions. Assessed candidate occurrences individually: almost everywhere; bounded Borel functional calculus; measurable function; closed operators. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6944555cfa11a86388512818acec3d9907f51920fc1f0fa4adfc74e59c4557ce",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/topological-dual, functional-analysis/test-function-space) against their canonical definitions. Assessed candidate occurrences individually: open set; test functions. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/distributional-derivative",
+      "outcome": "corrected",
+      "source_sha256": "81139a9f87b4f454f762f7d76564c9493fc173da54906d4ed3ec578c97d5a15c",
+      "evidence": "Read complete source and optional sections. Corrected the duplicated word in the opening definition, then verified open-set, integration-by-parts, test-function-space, and prerequisite links in context."
+    },
+    {
+      "id": "functional-analysis/equicontinuous-family-linear-maps",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77ba518e869599e3e95db55e06aaac1fa63a17953fd4883e9d85505c6169c21d",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/topological-vector-space, functional-analysis/continuous-linear-map, topology/neighborhood, linear-algebra/linear-map) against their canonical definitions. Assessed candidate occurrences individually: linear maps; locally convex space; linear map. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/essentially-self-adjoint-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2a253d30c5e97e20146e1845559ac5607f949d2f642179cf58e0c85a9cb310f",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/symmetric-operator, linear-algebra/hilbert-space, functional-analysis/closure-of-operator, functional-analysis/self-adjoint-unbounded-operator, functional-analysis/self-adjoint-extension) against their canonical definitions. Assessed candidate occurrences individually: self-adjoint extensions; formal adjoint. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/finite-rank-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "61655b257b2f4633e6aefbeb848b6aaf89c4e39cb51cb4f2ea2a190dbf73eb32",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/normed-vector-space, functional-analysis/bounded-linear-operator, convex-analysis/basis-hamel-basis-and-dimension, linear-algebra/linear-map) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/fourier-inversion-schwartz-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "748db9f23cf4e74dd9859f441ef3cb3e79e9c664f2042e66430e1728a3007361",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/fourier-transform-schwartz-space, functional-analysis/schwartz-space) against their canonical definitions. Assessed candidate occurrences individually: approximate identity. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/fourier-transform-schwartz-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a4be85df554f1cd793f06214d1a90a700067317c3dde422c581146cc981c0db",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/schwartz-space, measure-theory/lebesgue-integral, measure-theory/lebesgue-integrable-function) against their canonical definitions. Assessed candidate occurrences individually: Schwartz topology. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/fourier-transform-tempered-distributions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77a60c228f6a3fd0c54ed47fdba1a868f2d8c983b912ee48cc4c004a65f9aed7",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/tempered-distribution, functional-analysis/fourier-transform-schwartz-space) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/frechet-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84fa2e9e5c125b794e113781815a0507ed59ba86b2723479656a760a78eecbf1",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/locally-convex-space, convex-analysis/complete-metric-space-complete-subset) against their canonical definitions. Assessed candidate occurrences individually: open sets; locally convex space; locally convex spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/fredholm-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c7cd57bf5a60c046bc988b11414e5cd593cd55cff2905dde18def7ceab66dfae",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, functional-analysis/bounded-linear-operator) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/friedrichs-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5c4777a31493d1192a680c791ea0452fa03aa50f8599de4d01a2ba384efc023c",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/symmetric-operator, linear-algebra/hilbert-space, functional-analysis/closed-quadratic-form, functional-analysis/self-adjoint-extension) against their canonical definitions. Assessed candidate occurrences individually: lower bound; symmetric operator; self-adjoint extension; self-adjoint extensions; quadratic form. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/graph-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9caaba65ae266bf59577475c4e71f16ba97244bdac285caed0e3fcb7ff7ffe9e",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/normed-vector-space, functional-analysis/graph-of-operator) against their canonical definitions. Assessed candidate occurrences individually: linear operator. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/graph-of-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df7a8a49da4b8e5183b359e94eb6e68a6a19bf5dba4b7712e915fff5c1eb9cc5",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/vector-space, convex-analysis/linear-subspace, functional-analysis/densely-defined-operator, topology/product-topology) against their canonical definitions. Assessed candidate occurrences individually: linear operator; Banach spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/hilbert-schmidt-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1230f7780c26e5036be3d44739d99e1500b2c5400aef33662035ec69bfa9678f",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, functional-analysis/bounded-linear-operator, linear-algebra/orthonormal-basis, functional-analysis/schatten-class-operator, linear-algebra/compact-operator) against their canonical definitions. Assessed candidate occurrences individually: positive operator; Hilbert space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/holomorphic-functional-calculus-banach-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10a012002aa4d2a0c5f1fcde75d90b6f2e274cd782e83086f8e34b7469aa8350",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/banach-algebra, functional-analysis/banach-algebra-spectrum, functional-analysis/banach-algebra-resolvent) against their canonical definitions. Assessed candidate occurrences individually: contour integral; resolvent identity; Cauchy integral formula. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/inductive-limit-locally-convex-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ead183b7b7298d55fbad85368bec85b0f725d7ac72e5dda2b775fc1c1aec7c3d",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/locally-convex-space, functional-analysis/continuous-linear-map, linear-algebra/linear-map, topology/topological-space, functional-analysis/topological-vector-space) against their canonical definitions. Assessed candidate occurrences individually: locally convex space; linear map; locally convex spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/lf-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "302709ef854c48bb2857d20a365fdcb1792fd4a131e6aa4e6b55626f6bcfe21b",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/locally-convex-space, functional-analysis/inductive-limit-locally-convex-spaces, functional-analysis/frechet-space, linear-algebra/linear-map) against their canonical definitions. Assessed candidate occurrences individually: linear map; locally convex space; locally convex inductive limit; Fréchet spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/locally-convex-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7264560d4d594c7652564f87f02d7a6f616e3537d9f3d4b27080ce09e9eff6ef",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/topological-vector-space, topology/neighborhood, convex-analysis/convex-set, convex-analysis/seminorm) against their canonical definitions. Assessed candidate occurrences individually: seminorm topology; topological vector spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/measurable-field-hilbert-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f57e2f0eaae1a83a39a32b143a764c0c0cb7605e301336407ca98d58820f9ce",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (measure-theory/measurable-space, linear-algebra/hilbert-space, convex-analysis/linear-subspace) against their canonical definitions. Assessed candidate occurrences individually: Hilbert space; orthonormal basis. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/montel-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e3aa39d190fc667446618efadfbab1ae25ff4a2bd452c7edca9eb58aa8002c0",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/barreled-space, functional-analysis/bounded-subset-tvs, linear-algebra/vector-space) against their canonical definitions. Assessed candidate occurrences individually: bounded sets; Bounded sets; locally convex spaces; locally convex space; bounded set. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/nuclear-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d3803ffb2d8e64e8bb43f33c4a99dfd6fae701713038926de68d7aed214f6bbf",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/locally-convex-space, linear-algebra/vector-space, functional-analysis/topological-dual) against their canonical definitions. Assessed candidate occurrences individually: locally convex spaces; smooth manifold; locally convex space; continuous duals; vector space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/open-mapping-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0738c297513e57bf3e14aeb6fe4a703677b4fb7473afaefaf757a90cb77c100b",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/banach-space, functional-analysis/bounded-linear-operator, convex-analysis/linear-subspace, topology/baire-category-theorem, shared-foundations/surjective-function) against their canonical definitions. Assessed candidate occurrences individually: Banach spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/operator-commutator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95f11cfde84ca0ea81194bad49bc9c1d4c0fcf6945ed52a89dc4cc15fe2510e3",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, functional-analysis/densely-defined-operator, linear-algebra/linear-map) against their canonical definitions. Assessed candidate occurrences individually: linear operators. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/order-of-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6de9d9a87ef76eb2c61119edfe1568ac0a4e96bbcd93c37a2effbfed4ebf33e6",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/distribution, functional-analysis/test-function-space) against their canonical definitions. Assessed candidate occurrences individually: open set; test-function space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/partial-isometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3551d2dd883defb8c812c082ed8f8188c3be89d29218b4b623c408781aa2055f",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, functional-analysis/bounded-linear-operator, linear-algebra/orthogonal-complement, linear-algebra/closed-linear-subspace, functional-analysis/adjoint-bounded-operator, linear-algebra/orthogonal-projection) against their canonical definitions. Assessed candidate occurrences individually: polar decomposition; orthogonal projection; Hilbert space; orthogonal complement. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/point-continuous-residual-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9de6ca0b9ede1aa28abe882599b6084dfbd275ff40772685c801e138a9f0e5a4",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/densely-defined-operator, linear-algebra/banach-space, functional-analysis/closed-linear-operator, functional-analysis/spectrum-closed-operator, linear-algebra/eigenvalue, shared-foundations/injective-function) against their canonical definitions. Assessed candidate occurrences individually: densely defined operator. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/projection-valued-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33d9f884f775d4ae417087b828728b9c8ade4783b7abab2e66a801ba1fd91121",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (measure-theory/measurable-space, linear-algebra/hilbert-space, linear-algebra/orthogonal-projection, operator-algebras/strong-operator-topology, measure-theory/measure, measure-theory/measurable-function, measure-theory/indicator-function) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/projective-limit-locally-convex-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afa5e29d8acf63c16453435c588fb5ddaade4f3680d4bb9f949810f8ee19896e",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/locally-convex-space, topology/subspace-topology, topology/product-topology, linear-algebra/linear-map) against their canonical definitions. Assessed candidate occurrences individually: linear maps; linear map; locally convex spaces; closed subspace. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/reflexive-banach-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f144ed9e23a8c4d18a5f1b1dbec7d637af468ab1b74262fa8e949bf7e1c6612f",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/banach-space, functional-analysis/topological-dual, shared-foundations/surjective-function) against their canonical definitions. Assessed candidate occurrences individually: Banach space; measure space; Closed subspaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/regular-tempered-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39c40f65f40f9b643263b8baa4f212c3fbd5230e62d1aa28da3215d3d0bdbe14",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/tempered-distribution, functional-analysis/schwartz-space, measure-theory/lebesgue-integrable-function, topology/compact-set, measure-theory/almost-everywhere) against their canonical definitions. Assessed candidate occurrences individually: almost everywhere; Schwartz functions; tempered distributions. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/resolvent-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "01583b8b905867491c6646294e405a4eba187c5e95d4a2b013164ad7ce140073",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/closed-linear-operator, linear-algebra/banach-space, functional-analysis/resolvent-set-closed-operator, functional-analysis/bounded-linear-operator) against their canonical definitions. Assessed candidate occurrences individually: resolvent set; resolvent sets. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/resolvent-set-closed-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e4b1e4c1be88250404817a5359a311e0ef5a988d2518b23fe21e1cd98525560",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/closed-linear-operator, linear-algebra/banach-space, functional-analysis/bounded-linear-operator, shared-foundations/bijective-function) against their canonical definitions. Assessed candidate occurrences individually: resolvent set; closed graph theorem. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/riesz-representation-hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0760ddceb3ec215e0416de446909e261f8bdd9173a55eb3a61af84e993595fd0",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, linear-algebra/inner-product, functional-analysis/topological-dual) against their canonical definitions. Assessed candidate occurrences individually: closed subspaces; inner products; fixed vectors; adjoint of a bounded operator; inner product. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/rigged-hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60357734de443e6b21f5803ad7744e0dc90d8bcb1e4aed85d93a90d83b96b7ac",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, functional-analysis/nuclear-space, functional-analysis/strong-dual, linear-algebra/inner-product, functional-analysis/densely-defined-operator) against their canonical definitions. Assessed candidate occurrences individually: generalized vectors; Hilbert space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/schatten-class-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98b69e3efdac42e642b043bad984f4618c4a406917029473661b9e5ffa223a41",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, linear-algebra/compact-operator, functional-analysis/singular-values, algebra-rings/two-sided-ideal) against their canonical definitions. Assessed candidate occurrences individually: compact operator. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/schwartz-kernel-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bafa25e7089ea7997e5785210c8cc8620b5d54566f1f21889a69f63e799b6857",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/continuous-linear-map, functional-analysis/test-function-space, functional-analysis/distribution, topology/continuous-map) against their canonical definitions. Assessed candidate occurrences individually: test-function spaces; test-function space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/schwartz-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c3a520874f5e609953c823ba0fb6aa65fd887f3521f51f80ef67e813a4eedb57",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (real-analysis/partial-derivative, convex-analysis/seminorm, functional-analysis/topology-generated-by-seminorms, functional-analysis/frechet-space) against their canonical definitions. Assessed candidate occurrences individually: Fréchet space; tempered distributions. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/self-adjoint-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ce50fd7f5d129205573e7ef469a6a5a4ae1acfaae2399ba21dcd9419c7d9c901",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/symmetric-operator, linear-algebra/hilbert-space, functional-analysis/self-adjoint-unbounded-operator, functional-analysis/closed-linear-operator) against their canonical definitions. Assessed candidate occurrences individually: deficiency indices; Hilbert space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/self-adjoint-unbounded-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2856e25e5ed2e8c4f6efe7799f1bcdb710ca2b03615192e09dabc4ba9589c5ff",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, functional-analysis/adjoint-unbounded-operator, functional-analysis/closed-linear-operator) against their canonical definitions. Assessed candidate occurrences individually: symmetric operator. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/singular-support",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "210d1ca2804c3585a166a61ff374cc89b03dd9db1fe1e4f1a1f6b2389120243b",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/distribution, functional-analysis/test-function-space, functional-analysis/support-of-distribution) against their canonical definitions. Assessed candidate occurrences individually: open set; regular points; coordinate changes. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/singular-values",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60885208fea3034c4474e753c4d68e80f934a9c0e598bab53db1c796ab4ae322",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/compact-operator, linear-algebra/hilbert-space, real-analysis/absolute-value) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/sobolev-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd54fd0d9ba1569b7cbcfe3180559423703fc1f575d0ab1f5555712042109bde",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (shared-foundations/equivalence-class, functional-analysis/weak-derivative, linear-algebra/banach-space) against their canonical definitions. Assessed candidate occurrences individually: open set; weak derivative; distributional derivative; equivalence classes; vector bundles. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/spectral-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0a655afecd743698ba2592dc83bd811dd167b0d9277e777624c3d251caf9720",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/projection-valued-measure, measure-theory/measurable-function, measure-theory/lebesgue-integral) against their canonical definitions. Assessed candidate occurrences individually: measurable functions; spectral measure. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/spectral-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c19c43ab3ab05e298def3107b6764a917a8f438da164c3a6cb7750609d7fcf60",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (quantum-foundations/normal-operator, functional-analysis/borel-functional-calculus, linear-algebra/orthogonal-projection) against their canonical definitions. Assessed candidate occurrences individually: spectral measure; atomic projection; resolution of the identity. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/spectral-theorem-unbounded-self-adjoint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85932d0e47f49ab79bde17e1099f5c65b1dde13671dbecb880df04b68f9f4c94",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/self-adjoint-unbounded-operator, linear-algebra/hilbert-space, functional-analysis/projection-valued-measure, functional-analysis/spectral-integral) against their canonical definitions. Assessed candidate occurrences individually: open set. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/spectrum-closed-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27d96979a84c16542086760df6390c6a1b75c4f671e7108163fd1d93ed989167",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/closed-linear-operator, linear-algebra/banach-space, functional-analysis/resolvent-set-closed-operator, functional-analysis/closed-graph-theorem, shared-foundations/bijective-function) against their canonical definitions. Assessed candidate occurrences individually: resolvent set; Hilbert space; closed operator. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/strong-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b801e29983fbd78d887c8f8cee02270c82a80bb4cee1b818d6c11c2a8d791bd9",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/locally-convex-space, functional-analysis/topological-dual, real-analysis/uniform-convergence, functional-analysis/bounded-subset-tvs) against their canonical definitions. Assessed candidate occurrences individually: bounded sets; uniform convergence; bounded set; locally convex space; continuous dual. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/support-of-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "168f9853c2f35c5fd878d4202566cc1724920f399d50034a6f47f3524e6788af",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/distribution, functional-analysis/test-function-space, topology/closed-set) against their canonical definitions. Assessed candidate occurrences individually: open set; closed set; test function; test functions. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/symmetric-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c37fd39b4eb1d440988929cadb9044ad06493a6e026fc95c446fb24e5bf52c4b",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, functional-analysis/densely-defined-operator, functional-analysis/adjoint-unbounded-operator) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/tempered-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5378cc5e2c40c0eaa37fb7af32ed6235388b975c42ac51d84031a765eccb4a61",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/schwartz-space, functional-analysis/topological-dual, functional-analysis/test-function-space, functional-analysis/distribution) against their canonical definitions. Assessed candidate occurrences individually: Schwartz functions; continuous dual. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/test-function-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ef2776169deb643c11052eebb32e25f08c371ae50152777930ce5a714f9b2bb",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/vector-space, topology/compact-set, functional-analysis/lf-space, functional-analysis/inductive-limit-locally-convex-spaces) against their canonical definitions. Assessed candidate occurrences individually: open set. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/topological-dual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87757c163e14d8055e7552d52b380c28e00d1eb002a15685f77adb3beea42603",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/topological-vector-space, linear-algebra/vector-space, convex-analysis/dual-space-and-duality-pairing) against their canonical definitions. Assessed candidate occurrences individually: locally convex space; topological vector spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/topological-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2f3a011dffd99a11ad00cd5b878645479c0efb3ed86df0d5001ca9e12727691",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/vector-space, topology/topological-space, topology/continuous-map, topology/product-topology, topology/neighborhood) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/topology-generated-by-seminorms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eb26177ef715cd98987532c104ba5c48990608569da660eac865a24a492776c",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/vector-space, convex-analysis/seminorm, functional-analysis/locally-convex-space) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/uniform-boundedness-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "529a5bab9f92917bb05512b8d063e81728f2e3842dfb25f6bc45b5715a8c8ec1",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/banach-space, linear-algebra/normed-vector-space, functional-analysis/bounded-linear-operator, linear-algebra/operator-norm) against their canonical definitions. Assessed candidate occurrences individually: supremum norm. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/unitary-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46e06fb44360f0bf9e050d9dac70f373c57af7a8c3599730705abe35d3abd078",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, linear-algebra/linear-map, linear-algebra/inner-product, functional-analysis/adjoint-bounded-operator, shared-foundations/surjective-function) against their canonical definitions. Assessed candidate occurrences individually: linear map; almost everywhere. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/wavefront-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a42c2c2fdeb25454f7828d7abc95fe75300df09c6af663b75ddf7fc61680175f",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/distribution, functional-analysis/compactly-supported-distribution, functional-analysis/fourier-transform-tempered-distributions) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/weak-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76f65dc51c055b7471568fdc52776c6271d5aae92061abf5707e836c22236c20",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (measure-theory/lebesgue-integrable-function, functional-analysis/distributional-derivative, measure-theory/almost-everywhere) against their canonical definitions. Assessed candidate occurrences individually: partial derivative; almost everywhere; distributional derivative. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/weak-star-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42bc1a9d7c553128872651ff38e7e2b7e0458f2c10aca14ad2cdd2bb700193cf",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/topological-vector-space, functional-analysis/topological-dual, functional-analysis/topology-generated-by-seminorms) against their canonical definitions. Assessed candidate occurrences individually: Banach spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/weak-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ec087093e9ef491ae7bb2a7fa7fba0fde2267bf9838014e3244793f877c8b13",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (functional-analysis/topological-vector-space, functional-analysis/topological-dual, functional-analysis/topology-generated-by-seminorms) against their canonical definitions. Assessed candidate occurrences individually: topological vector spaces; continuous dual. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "functional-analysis/z2-graded-hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8aba1b82d21c2fa72629472e36193a728285e7241b93cb4aa8feaa7228a462c",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (linear-algebra/hilbert-space, algebra-modules/graded-module) against their canonical definitions. Assessed candidate occurrences individually: closed subspaces; Hilbert spaces; Hilbert space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/admissible-representation-p-adic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f41544d368a15c93e968e0d9c8f65c5948fe2f4f297e93aa466e06c215b9a74c",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-profinite-group, harmonic-analysis/smooth-representation-totally-disconnected-group, algebraic-geometry-foundations/reductive-algebraic-group, algebra-fields-galois/nonarchimedean-local-field) against their canonical definitions. Assessed candidate occurrences individually: admissible representations; reductive groups; locally profinite groups. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/amenability-trivial-representation-weak-containment",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1c74c382e9ad9f38b7fa0b98fa9ef756bd8d7e50c6b2446c00e713a7a2babb9",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/regular-representations-locally-compact-group, harmonic-analysis/weak-containment-unitary-representations, algebra-representation-theory/regular-representation) against their canonical definitions. Assessed candidate occurrences individually: weak containment; Weak containment; amenable groups; locally compact group; regular representation. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/amenable-locally-compact-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f03278a98b9c28106584e392ccc09686248b8e6dbbb0ec5f0d973e023474e7c8",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/invariant-mean, harmonic-analysis/haar-measure) against their canonical definitions. Assessed candidate occurrences individually: fixed point; invariant mean; Locally compact; locally compact groups. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/approximate-identity-l1-group-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "257ffba94a642ef04ad95d7caed71255187440966de049cbb3327c044d471383",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/l1-group-algebra, topology/neighborhood) against their canonical definitions. Assessed candidate occurrences individually: approximate identity; two-sided approximate identity. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/bernstein-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "19a2b90f12f48c74bca9a79d0715311f49fe19aac335d230edbe987aa9ceb987",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (algebraic-geometry-foundations/reductive-algebraic-group, harmonic-analysis/smooth-representation-totally-disconnected-group, algebra-representation-theory/irreducible-representation, algebra-representation-theory/schurs-lemma) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/bernstein-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "11cda8a639c7f884ceb91662eb22067ec6a9126f4f315cb00e46af48bfdffcdf",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (algebraic-geometry-foundations/reductive-algebraic-group, algebra-fields-galois/nonarchimedean-local-field, algebraic-geometry-foundations/levi-subgroup, harmonic-analysis/supercuspidal-representation, algebra-representation-theory/character, harmonic-analysis/smooth-representation-totally-disconnected-group, algebra-category-theory/full-subcategory) against their canonical definitions. Assessed candidate occurrences individually: irreducible representation; complex torus. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/beurling-malliavin-extension-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2fc50d64e56317fda3224e99541f7fd6d2cf2e9c3a33a05c8c08330ac418127c",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (harmonic-analysis/poisson-extension-upper-half-plane, complex-analysis/levi-form, harmonic-analysis/x-ray-transform, harmonic-analysis/radial-line-growth-functional) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/beurling-malliavin-multiplier-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abc2376d66dd2e5d38b67bf832cbe81391406fcf58c7fd9ac1e3fdf40108b121",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/lipschitz-continuity, harmonic-analysis/bounded-fourier-support, complex-analysis/entire-function, harmonic-analysis/paley-wiener-bounded-fourier-support) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/bochner-theorem-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5c50df16144340776aa671a5aa1ca3482dff1b9ebd0c9c56718a32159c6a543",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (algebra-groups/abelian-group, topology/locally-compact-group, harmonic-analysis/pontryagin-dual, harmonic-analysis/positive-definite-function, probability/probability-measure) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/bounded-fourier-support",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afb161518a719e9820f8aa6a87029d59f4e540604fbb034243e8c410d9f89c21",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (measure-theory/almost-everywhere, topology/bounded-set) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/coefficient-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fefc2f4b44a8043d2418409c5d3bf141ff106551e0efbfa01422a7a7d17a03e5",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (lie-groups/strongly-continuous-unitary-representation, linear-algebra/hilbert-space, linear-algebra/inner-product, harmonic-analysis/positive-definite-function) against their canonical definitions. Assessed candidate occurrences individually: inner product. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/conjugate-and-contragredient-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58da0f5c4a30863a13a809622fc20365690f56082ef523eb9e54f31c548a658f",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (lie-groups/strongly-continuous-unitary-representation, linear-algebra/hilbert-space, linear-algebra/inner-product) against their canonical definitions. Assessed candidate occurrences individually: contragredient representation; continuous linear dual; Hilbert spaces. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/convolution-involution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00ea37711dd2b5a0c43f927acc898c501d336ffc69d5b54033eaab38562f1a93",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/haar-measure, harmonic-analysis/modular-function) against their canonical definitions. Assessed candidate occurrences individually: left Haar measure; integrated representations. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/convolution-on-locally-compact-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "94c1477ee22a8f56c056fb97731dd2578f1430c1b7f6d29ef673235a8f27ca83",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/haar-measure, measure-theory/lebesgue-integral, measure-theory/ae-equality) against their canonical definitions. Assessed candidate occurrences individually: Haar measure; left Haar measure. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/damping-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50aa75dc9aa71c3fbb0baee1592a351d4e2afca2c6a9119e215a9afb611e42f8",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (harmonic-analysis/bounded-fourier-support, analysis/quantitative-unique-continuation) against their canonical definitions. Assessed candidate occurrences individually: lower bound; band-limited function. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/damping-function-fup-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0519f6da69bc7c3a7e966e5b9b5b83c78ac8008815bc92f6a5548e42d5bb867a",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (analysis/porosity-on-balls, harmonic-analysis/damping-function) against their canonical definitions. Assessed candidate occurrences individually: Damping functions. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/direct-integral-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d2720accf09ad9571869692764da6b5a7603b9c86680878ee9c2a1cbd0a701d",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, measure-theory/measure-space, functional-analysis/measurable-field-hilbert-spaces, lie-groups/strongly-continuous-unitary-representation, functional-analysis/direct-integral-hilbert-spaces, measure-theory/almost-everywhere) against their canonical definitions. Assessed candidate occurrences individually: type I groups; factor representations; Continuous direct sum. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/dirichlet-to-neumann-upper-half-plane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0cc72b0c825efbde905dab71b673eaccb269979b811e5d451dfe9221d575551e",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (harmonic-analysis/poisson-extension-upper-half-plane, harmonic-analysis/hilbert-transform) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/discrete-and-continuous-spectrum-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d87af0edd2cf44794dd1d4a133712ee41f26358dd3a35829a93cd8e8c2a4fa6d",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (lie-groups/strongly-continuous-unitary-representation, topology/locally-compact-group, linear-algebra/hilbert-space) against their canonical definitions. Assessed candidate occurrences individually: irreducible representations; type I groups. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/distribution-local-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc900712abf6e00f1f303f40d7ebe8f954db8fe9f050623eac90c4092eb275cc",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (algebra-fields-galois/local-field, harmonic-analysis/test-function-space-local-group) against their canonical definitions. Assessed candidate occurrences individually: orbital integrals. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/dual-haar-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33381694c12d4322d7e11bf764cdae911567eb4a9b814ce6119771ebd101a038",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, algebra-groups/abelian-group, harmonic-analysis/haar-measure, harmonic-analysis/pontryagin-dual, harmonic-analysis/fourier-transform-lca, functional-analysis/unitary-operator) against their canonical definitions. Assessed candidate occurrences individually: Haar measure. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/exact-plurisubharmonic-beurling-malliavin-proposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "623532b47e8c87eb688a0e247d51f747986a23ddb6848dc2aaa9b336e70b77ec",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (complex-analysis/plurisubharmonic-function) against their canonical definitions. Assessed candidate occurrences individually: affine line. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fell-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d333044d93905804ca09f15a1c9cee2556f9d7b101ee070631e4e759828d2411",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/unitary-dual, operator-algebras/full-group-cstar-algebra, harmonic-analysis/weak-containment-unitary-representations) against their canonical definitions. Assessed candidate occurrences individually: type I groups. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fell-topology-kernel-description",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d235050e378ac5d634c85f4d98c5e00d8bac7edb60397718d9f430485833c3fd",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, operator-algebras/full-group-cstar-algebra, algebra-representation-theory/irreducible-representation, harmonic-analysis/unitary-dual, harmonic-analysis/fell-topology) against their canonical definitions. Assessed candidate occurrences individually: closed sets; irreducible representations; primitive ideal space; Fell topology. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/folner-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "108ad4326e56e691dc7f39b2d0711c6bfb4e9b4eed93517c74beb31279ca5d51",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/haar-measure) against their canonical definitions. Assessed candidate occurrences individually: locally compact; left Haar measure. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fourier-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "831c9e0c755793dd58cc6f7b752785ae1b8788b5f03053b2ab421b3ab3feb723",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/regular-representations-locally-compact-group, harmonic-analysis/coefficient-function) against their canonical definitions. Assessed candidate occurrences individually: Banach algebra; continuous functions vanishing at infinity; normal functional; locally compact; coefficient functions; continuous unitary representations; closed ideal; matrix coefficients; irreducible representations. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fourier-convolution-theorem-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d58e3f9207026cbd231b312f37a792a129bce64eb6627992ae008f740fbb128",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, algebra-groups/abelian-group, harmonic-analysis/haar-measure, harmonic-analysis/convolution-on-locally-compact-group, harmonic-analysis/fourier-transform-lca, harmonic-analysis/pontryagin-dual, algebra-modules/algebra-homomorphism) against their canonical definitions. Assessed candidate occurrences individually: Haar measure; dual Haar measure. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fourier-inversion-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41f1c18244ed72af7b2104c669e11d1ebd30b090325f212e5949a90b48410f0b",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (algebra-groups/abelian-group, topology/locally-compact-group, harmonic-analysis/haar-measure, harmonic-analysis/pontryagin-dual, harmonic-analysis/dual-haar-measure, harmonic-analysis/fourier-transform-lca, measure-theory/almost-everywhere) against their canonical definitions. Assessed candidate occurrences individually: abelian group. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fourier-stieltjes-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1a5decbf96f73448ee754515034f9ff502b16eb0227b18da56378cd5681b1638",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/coefficient-function, lie-groups/strongly-continuous-unitary-representation, linear-algebra/hilbert-space, linear-algebra/vector-space) against their canonical definitions. Assessed candidate occurrences individually: Banach algebra; locally compact; closed ideal. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fourier-transform-lca",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a963c18a8f5327a6dff0de4ab28efef812bcb48e966d715a4c3466486a855cf",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, algebra-groups/abelian-group, harmonic-analysis/pontryagin-dual, harmonic-analysis/haar-measure, measure-theory/l1-function) against their canonical definitions. Assessed candidate occurrences individually: Haar measure. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/fractal-uncertainty-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e52f785d94c62d9d345499f5ec7af33d7327f09ece377a7a4f69f30fbc61d760",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (analysis/porosity-on-balls, analysis/porosity-on-lines, harmonic-analysis/higher-dimensional-line-porous-fup) against their canonical definitions. No remaining multiword candidate findings; existing links and local notation were checked section by section. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/gns-construction-positive-definite-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8737cff638591d4e056645bb43ac2a5605df9c76ada41abbc983d9b6e0f64f45",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/topological-group, harmonic-analysis/positive-definite-function, linear-algebra/hilbert-space, lie-groups/strongly-continuous-unitary-representation, lie-groups/cyclic-vector-and-cyclic-representation) against their canonical definitions. Assessed candidate occurrences individually: GNS construction; positive semidefinite; inner products; Gelfand–Naimark–Segal construction; Hilbert space. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    },
+    {
+      "id": "harmonic-analysis/group-fourier-transform-nonabelian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd674dd47a4289596b0a9d5fa8f289747bc94aaa0e74471278870522491ab2e0",
+      "evidence": "Read the complete source and its optional sections. Checked declared prerequisites (topology/locally-compact-group, harmonic-analysis/haar-measure, harmonic-analysis/unitary-dual, harmonic-analysis/integrated-form-unitary-representation, linear-algebra/operator-norm, lie-groups/type-i-locally-compact-group) against their canonical definitions. Assessed candidate occurrences individually: type I group; unitary isomorphism. Existing canonical links were retained where they expose the needed concept; remaining occurrences are generic, repeated, locally defined, or context-mismatched. No prerequisite metadata changes are mathematically justified."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "batch_18: complete linking/dependency review of 100 functional-analysis and harmonic-analysis sources; findings assessed in context."
+  ]
+}

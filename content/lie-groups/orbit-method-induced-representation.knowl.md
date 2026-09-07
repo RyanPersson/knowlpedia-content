@@ -33,7 +33,7 @@ Different polarizations at the same \(\ell\) yield unitarily equivalent represen
 
 ## Heisenberg example
 
-For the three-dimensional [[lie-groups/heisenberg-group|Heisenberg group]], take \(\ell(Z)=\lambda\ne0\) on the central generator and choose \(\mathfrak p=\operatorname{span}\{Y,Z\}\). The construction induces the character \(e^{i(\eta y+\lambda z)}\) of \(P\) to the Schrödinger representation with central character \(e^{i\lambda z}\). Changing the polarization to \(\operatorname{span}\{X,Z\}\) gives its Fourier-equivalent model.
+For the three-dimensional [[lie-groups/heisenberg-group|Heisenberg group]], take \(\ell(Z)=\lambda\ne0\) on the central generator and choose \(\mathfrak p=\operatorname{span}\{Y,Z\}\). The construction induces the character \(e^{i(\eta y+\lambda z)}\) of \(P\) to the [[shale-paper/schrodinger-representation|Schrödinger representation]] with central character \(e^{i\lambda z}\). Changing the polarization to \(\operatorname{span}\{X,Z\}\) gives its Fourier-equivalent model.
 
 ## Scope
 

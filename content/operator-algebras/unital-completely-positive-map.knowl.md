@@ -1,6 +1,6 @@
 +++
 id = "operator-algebras/unital-completely-positive-map"
-title = "Unital completely positive map"
+title = "Unital [[operator-algebras/completely-positive-map|completely positive map]]"
 kind = "definition"
 summary = "A unital completely positive map preserves the identity and is positive at every matrix level."
 aliases = ["UCP map"]

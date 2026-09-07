@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "lie-groups/lie-algebra-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2781185fce0907091c9e60bf946c6fafdcd7b4b5d0c36362a185e1ec9d3be61",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'field', 'morphism', 'category', 'image', 'isomorphism', 'Lie algebras', 'group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-algebra-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6fc81014823e4ad19e99ed8734df44d5149828ead9bc54da54ce62f0cd8420cf",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'isomorphism', 'set', 'group', 'composition', 'equivalence relation', 'Lie algebras', 'simply connected Lie groups'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-algebra-of-a-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b4c83df06ba75cf5956b70f4fb476c8e042abe1348aa630ef9cce6d07b3a8d3e",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'left-invariant vector fields', 'vector-field', 'Lie bracket', 'commutator'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-algebra-of-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b29ef3af7dea2d2f855e8f1ec4cb66ea26165cf862ae2b86b43a19a73e95ae01",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra isomorphism', 'Lie bracket', 'left-invariant vector fields', 'matrix', 'groups', 'commutators'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-algebra-of-subgroup-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b4f636aee76207c6946a168c8ac783dfe081430808d104b9947892baeea99688",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'image', 'Lie algebra', 'Lie subgroup', 'tangent space', 'subgroup'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a8f2ea19e963cb5707e4973968672bf94d5a9a83839315dc972b141294fc5af",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'subgroup', 'subgroups', 'Lie subalgebra', 'Lie group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-functor-commutes-with-realification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c1c2368531a27846e623efc80d14f8ab94d83a60b3b653e5bb7d2fc94570d94b",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebras', 'holomorphic', 'Lie algebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-group-homomorphism",
+      "outcome": "corrected",
+      "source_sha256": "1034522ed0886204303c7a6a5d38e9bb559837b2dcc2b4f175a568917f25997a",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group homomorphism', 'subgroup', 'image', 'local diffeomorphism', 'morphisms', 'category'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/lie-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2191ecc369af94e858789cb344e26b78a76da441e6fffbd156ffadea46c1579",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'ideals', 'Lie algebra homomorphisms'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lie-subgroup",
+      "outcome": "corrected",
+      "source_sha256": "105245ac090c5da9d66793d5e9f67f5a3f1da32e4cd49c8a4c32b8f7a6c15525",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'subgroup', 'group homomorphism', 'subset', 'Lie algebra', 'coset space', 'smooth structure'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/lies-third-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5262984f08ce151a53ae05aa78bf0856b44808a503df4abe1ed63b3a4b0876f2",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'simply connected', 'isomorphism', 'connected Lie group', 'Lie group', 'Lie algebras', 'central quotients', 'connected Lie groups', 'Lie subalgebras', 'Lie subgroups'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/limit-of-discrete-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc9fb14437e090b94e47153774261bbe1d0e17a742f821e4a18ce028cedc72e5",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'closure', 'character', 'subgroup', 'limit', 'limits', 'series', 'Limit', 'reductive groups', 'central character'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/logarithm-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b596294492d99c2b37252b8ced7a8cf5855bb01004dd8aa0b808d981524d304",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'smooth map', 'neighborhood', 'groups', 'matrix', 'Lie group', 'convergent power series', 'group', 'Lie bracket'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lorentz-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f46e227dcc49f0ba7961dcae41ee415c8957b2a825ab125cc7a6db2a609fca67",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'bilinear form', 'determinant', 'subgroup', 'subgroups', 'identity component', 'Lie algebra', 'isometry', 'group', 'Minkowski spacetime', 'isomorphism', 'connected components', 'cover'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/lower-central-series-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18f2ee7454b8e844c28d8669ef452461b998e2752efc646b45b9a0bf5f18c636",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'lower central series', 'sequence', 'ideals', 'Lie algebra', 'Lie-algebra', 'group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/maurer-cartan-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e52617a87b23c84dcee4545f908a514e5c0c79ff26ffc4b549e3955dc2242bd",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'vector fields', 'group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/maximal-compact-subgroup-real-reductive-group",
+      "outcome": "corrected",
+      "source_sha256": "f1807e2c131f32027dc8b1e8ee99ac592d6aa2f1cca2f782b86199685e97c7ba",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'subgroup', 'Cartan involution', 'fixed-point', 'continuous unitary representation', 'group', 'decompositions'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/maximal-connected-closed-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e91dc0fbcd193b90cbadd3905511b40a138baa8c0265009f10ea81adc3cb2b42",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'subgroup', 'subgroups', 'stabilizer'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/maximal-levi-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a6d72bd358ef1879605737fff888af821e008a5bd5a41e6b89fe37a253ed217",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Levi subalgebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/maximal-lie-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "959c0c5a663e9a4c35cc4679cb446c6ab8e58520c1b1305db5379471f392458e",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Rank', 'vector-space', 'Lie subalgebra', 'invariant subspace'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/maximal-rank-lie-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "792434c65865e02613ee08e2937bebf417828b0af0e292f15803a186911c6027",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'rank', 'span', 'ranks', 'Cartan subalgebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/maximal-torus-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2187d1a11ce86fa5540f50ec5120f24d6a4e8427f82cec5aa2870329ec4d1fed",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'Lie subgroup', 'subgroup', 'Lie algebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/metaplectic-group",
+      "outcome": "corrected",
+      "source_sha256": "c99aa4055533cdea4688d8d5e6366c71064cf0d1a4105d1eb00204a516fc9b7e",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'central extension', 'symplectic group', 'fundamental group', 'groups', 'subgroups', 'subgroup'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/metaplectic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12f3178d5aea46112b6d453edda61ca93ec6a0f85d3ebad89687a423546923bc",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'strongly continuous unitary representation', 'Heisenberg group', 'functions', 'matrix', 'group', 'Hamiltonians', 'polynomial', 'real numbers', 'metaplectic group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/minimal-parabolic-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d9935d937dbbb90b08f3f4a47aae734a896ca330e7d11654ceeed93cc563a106",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'parabolic subgroup', 'decomposition', 'diffeomorphism', 'centralizer', 'subgroup', 'determinant', 'projective line', 'parabolic subgroups', 'subgroups'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/multiplicity-of-an-irreducible-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2e1c54aa12eb4cbe017ab0658f22fd983f989273d516430c80f51deec663fdf",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'Lie-algebra', 'place', 'subrepresentations', 'image', 'groups', 'character', 'composition', 'field'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/mutual-centralizers-in-a-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d0f124c4196c2e6dbe542df480f4123226fbb08fdda22230d6eb14279d34e34",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'centralizers', 'intersection'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/nelson-analytic-vector-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "083756b961407f80599d2eff10c878b80b110f739ef65505242ec5e4b1462731",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'domain', 'closure', 'Essential self-adjointness', 'dense set', 'essential self-adjointness', 'domains', 'power-series', 'Lie-algebra', 'analytic vectors'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/nelson-laplacian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d499969da47e85f3c0eacf03e584f1389d4c46b1bf6b7cef8ceb948cf7d84bac",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'domain', 'closure', 'elliptic operator', 'topology', 'Lie algebra', 'enveloping algebra', 'Lie group', 'Lie-algebra', 'Laplace–Beltrami operator'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/nilpotent-implies-solvable-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e6b5656ec280814bf4ab43259bf33d6eb3ebe764929b93a335ead1ddda7c0f2",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'nilpotent Lie algebras'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/nilpotent-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c0f7995562c4b7c3eba831b268b13a8c62b03c505b25481801a53184fb5fd25",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'lower central series', 'commutators', 'Lie algebra', 'commutator', 'simply connected', 'Lie groups'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/normal-lie-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db502acafd9ed51489f6cd4fe6de85224cedbfddda74258227f5017c6d91cb2e",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'ideal', 'Lie subgroup', 'Lie algebra', 'Lie-group', 'ideals'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/normalized-parabolic-induction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0c62585836a2373bb44ac65392b63b8da83531e3060d5f86e590e6512c9bf7c4",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'function', 'functions', 'norm', 'modules', 'functor'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/octonionic-special-linear-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4a23afa164b6ad9b34d3e2f499f05e794ff2834df8bc9cea03aae12a74d43a13",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'matrix', 'endomorphism', 'endomorphisms', 'subgroup', 'Lie algebra', 'isomorphisms', 'commutators', 'set', 'determinant', 'group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/one-parameter-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9321dbb7aef5ee2247667eaf5cb08b8d18e50bde283c14873190d69928f417bd",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'curve', 'derivative'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/one-parameter-subgroups-integral-curves",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "735fff93f26c3b541c275a9029ddef9094d5929170c8572cb808f55cda7768d3",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'curve', 'one-parameter subgroup', 'curves', 'commutators', 'Lie bracket'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/orbit-lie-group",
+      "outcome": "corrected",
+      "source_sha256": "a8f5cffda5e98fe102fbf14379bf0e164ec50cd00c814eaf8fb2c8ba11f6180f",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'orbit', 'orbit map', 'stabilizer', 'group', 'subgroup', 'smooth map', 'image', 'infinitesimal action', 'fundamental vector fields', 'Orbit'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/orbit-method",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b3cc190f4a9d9745fe8c809f7f5ed0af76617ae250894fb53922a4cf8cbdafba",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'orbit', 'phase space', 'simply connected', 'equivalence class', 'character', 'subgroup', 'diffeomorphism', 'coadjoint orbit', 'irreducible unitary representation', 'homeomorphism', 'stabilizers', 'unitary characters'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/orbit-method-induced-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f08141f502b0676dd5f9d736cd48847a16667fd76f435644d7eed294cd683ba4",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'simply connected', 'diffeomorphism', 'subgroup', 'unitary character', 'induced representation', 'Lie algebra', 'commutator', 'orbit', 'character', 'central character', 'Lie groups', 'unitary dual'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/orbit-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a310b9749caea8c3e1db7c53f3a5a00b3cc581e0651289b908df4428ce364aba",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'set', 'quotient topology', 'smooth manifold structure', 'smooth submersion', 'orbit', 'object', 'left translation', 'orbits', 'conjugacy classes'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/orthogonal-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d59ec240b1ea5b37525770c0e90c730968a9103f4e9ef60679adeae0276fdfa",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'inner product space', 'orthonormal basis', 'subgroup', 'Lie group', 'determinant', 'connected components', 'identity component', 'bilinear form', 'group', 'Lie algebra', 'orthogonality'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/orthogonal-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7457cc08be4e7a7cc26b568576bb16f52f358967447425ae471cd36c6c673420",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'commutator', 'matrix', 'Lie algebras', 'semisimple Lie algebras'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/outer-derivation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9320d0248117173a453f0d56a32ea9f4e2a0a6e6b872f437b8d75e8b84345a8d",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'linear map', 'commutator', 'set', 'ideal', 'quotient Lie algebra', 'measures', 'Lie algebras'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/parabolic-subgroup-real-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e758cac4f263fe8b9b149c1f1246897b7d90b4fd5064983488de076c65b5c292",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'parabolic subgroup', 'subgroup', 'decomposition', 'parabolic subgroups', 'Subsets', 'Lie subalgebras', 'subgroups', 'simple roots', 'reductive groups', 'Lie algebra', 'normalizer'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/pbw-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c4b73123bf1f57d470521d3d305efea7497a29907aca14985203d41148ea543c",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'field', 'image', 'isomorphism', 'characteristic', 'vector-space', 'symmetric algebra', 'Lie-algebra', 'ring', 'projectivity', 'module'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/peter-weyl-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b59b8087231ab36a20c55c815e4bbeecee4d59c47c975d1cb56cd8e6c988afb1",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'matrix coefficients', 'vector space', 'norm', 'Hilbert space', 'decomposition', 'set', 'isomorphism', 'Orthogonality', 'compact Lie group', 'highest weights', 'series', 'irreducible representations'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/poincare-group",
+      "outcome": "corrected",
+      "source_sha256": "50713486e03e6d39ab6f514996c096b9078d4af7ca2cc05daf9823bafe6e9d29",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'bilinear form', 'group', 'isometries', 'semidirect product', 'matrix', 'Lie algebra', 'Stabilizers'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/polarization-of-a-coadjoint-orbit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1cc0cbfbabafc33e95a853daf523600db52a26916d3f49c81d46942a001f2fef",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Set', 'isotropic subspace', 'stabilizer', 'Lie algebra', 'subgroup', 'simply connected', 'coadjoint orbit'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/positive-root",
+      "outcome": "corrected",
+      "source_sha256": "a22500777bcd4e5641aca63520e0ea9696cf7d761167ab2faa99a6921d09406e",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'inner product space', 'set', 'subset', 'union', 'Lie algebra', 'semisimple Lie algebra', 'decomposition', 'highest-weight', 'hyperplane'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/principal-homogeneous-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "65a38486bef871e99f78ed10e1e56cbdf63543f33d229ea03f32bbeee17647ae",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'diffeomorphism', 'transitive action', 'stabilizer', 'homogeneous space'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/principal-series-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f887f25f767e8cae385f73a20993f9b6f63c471f9fafe27f492f2e3f537c976",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'character', 'functions', 'induced\\nrepresentation', 'groups', 'modules', 'subgroup', 'characters', 'set'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/product-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2988f817902575e978980f82a8e482dad0b4336d200114b09cde2783a47021a6",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'smooth structure', 'group homomorphisms', 'Lie algebra', 'exponential map'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/projective-general-linear-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c842479f4739141ed50ba98a53d122aa7a47d2ae6e4eb91fdd1a12c449e84306",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'subgroup', 'group', 'characteristic', 'determinant', 'identity component', 'image'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/projective-special-linear-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2e70f6b7f1d9184257f29a7e5aff1330272c4a50e0177a043093653eae49dce",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'groups', 'identity component', 'Lie algebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/projective-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "261f28498d7be56bcd2d29fcdfb1dde492bbb7633e51b14e110b005230eddd2b",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'category'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/proper-action-lie",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c390ff925c3be7f898cf44b1c2bd48865ec061ee98283f8fdf94221d3e07bd3a",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'preimages', 'compact sets', 'subsets', 'set', 'objects', 'stabilizer', 'orbit', 'quotient topology', 'smooth submersion', 'smooth manifold structure'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/proper-orthochronous-lorentz-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35d3cac6954df6ce797d54cd1e8c510be9735546c061a019de98a7f35d4f1f73",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'identity component', 'determinant', 'group', 'isomorphism', 'Lie group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/psl2-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df35b6e028eb0c136f327fd15feaa8b553d328cfb61fd93fc8c915bc38bb86f0",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'fields', 'determinant'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/psl2c-action-on-hyperbolic-three-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86b5c4134d793e5a246281495ff24661cbb1042dac58dde3fa8eab6727c12d67",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'isomorphism', 'Lie groups', 'isomorphisms', 'category', 'automorphic forms'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/psl2c-proper-lorentz-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60c638dca4911e9d24074b0808ce4adab85029c49772ae3af0072805e0c67d84",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'isomorphism', 'category', 'Lie groups', 'identity component'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/quotient-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e43320e4a182d09d65c4119287ef6ab14308b3279702ccf062cd114f843eb09c",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'ideal', 'vector space', 'group', 'normal subgroups'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/quotient-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a6a50efb3918ded9de331d8fbe96595308788ca78f92e1a3303a57da0f0bebc8",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'quotient set', 'smooth manifold structure', 'smooth submersion', 'group', 'ideal', 'Lie algebras'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/rank-of-a-semisimple-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18c91849e7d4ce5cc7371b7b7958b4244e3625cfac6abe1c1a5f829f03845ff3",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'characteristic', 'rank', 'Cartan\\nsubalgebra', 'ranks', 'Lie algebra', 'complexification', 'decomposition', 'root-system', 'Cartan subalgebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/real-rank-of-a-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "098ed5e04b0ac7d4c93cbc54c50df7dfc515fc7907b93c626f2668998ea922a5",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie\\nalgebra', 'rank', 'algebraic group', 'Lie-group', 'subgroup', 'group', 'groups', 'reductive group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/real-reductive-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e416c2a0e41cb92be0ccd6ff218816720ff33d8c992f810a53b745f6c77493a0",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'subgroup', 'Lie algebra', 'topology', 'groups', 'Cartan involution', 'fixed-point', 'reductive group', 'algebraic groups', 'matrix', 'Lie groups'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/reductive-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5641e4d6eabba2441812a9fd6756a5206ef21cf5c6e3ed3f53a0907f3829528a",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'field', 'characteristic', 'ideal', 'abelian Lie algebras', 'Semisimple Lie algebras', 'Abelian Lie algebras', 'Lie algebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/regular-lie-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e64477c3e2958cf961fa6b0f063506240d38ce11c44f394fbc4789808a5a64de",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'decomposition', 'subset', 'closure', 'vector space', 'Lie subalgebra', 'span', 'rank', 'isomorphism', 'root-system', 'matrix', 'centralizers'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/relative-lie-algebra-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "971cfc1ee6adfc793da34a346e0b13d604bff852b1fcd3651362083f136ac17a",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'reductive group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/removing-a-simple-root",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c146384d86eaabbf740db73d563f04e136aa831532d5fcd3d89fb44f2b14f018",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'set', 'span', 'rank', 'Cartan subalgebra', 'simple root', 'simple roots', 'subset'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/representation-of-a-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6bdebcac10973c20d9d09c535f78fff33b159a87da24619c5e7715e31af9e636",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/representation-of-a-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cc0bdc9509089dd033a5999190832c25ceea5d07fef949f4ec5ddba9ee3048d",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'Lie algebra', 'isomorphisms'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/restricted-root-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7beb27f13804a3f43fde05eb44071bb00ec6e7f9ccaf7871c300760cb01cd7eb",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'set', 'diagonalizable', 'complement', 'hyperplanes', 'closures', 'decomposition'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/restricted-spin-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b363360a244815eb6018daddba2e300dc5e7d6936a020919d0ac22dde9830b53",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'preimage', 'identity component', 'group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/restricted-weyl-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "973c1b94e8a9fda8a3f765151ed5f205183858edbb5c8e88d5461db548be894b",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'decomposition', 'group', 'hyperplanes', 'domain', 'cosets', 'determinant', 'centralizer'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/riemannian-symmetric-space-noncompact-type",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8df31eeb5a03b1da4e23faaae5b384bb37d6100dc3305cf184cb25f67313f31",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'simply\\nconnected', 'fixed point', 'isometry', 'curvatures', 'isometries', 'metric', 'relation', 'curvature', 'geodesic', 'rank', 'spherical\\nfunctions'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/right-invariant-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60e5522a4dd1180be1f241803376b44b7f3d220a303ab7e372811b8695f6d7d9",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'vector space', 'isomorphism'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/right-invariant-vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87296b0583399e08e820cf9d006053dd96a448e820eb4e2e4e201aa67d5c8cc1",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'fields', 'vector space', 'commutator'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/right-maurer-cartan-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "437472f68e10b940b27929d465cf67e988f94857c99b6906ce8362337377424b",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'Lie algebra', 'left translation', 'vector fields'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/right-translation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a091adb27be73627d941895eac9ea53787ba0e805c51b16e48b0e99f766553f8",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'diffeomorphism', 'isomorphism', 'composition'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/root-lattice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "75808bae40b559001b60d0d6a46fd90aae9cef101d358d5a98e412894723d35e",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'subgroup', 'group', 'character', 'measure', 'subgroups', 'simple roots', 'module', 'coset', 'hyperplane', 'root system', 'Lie algebra', 'lattice'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/root-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac088026467460764dae87fcdabc2d61b621fa13c65e7a90a2eb4cec2bfbc479",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'set', 'inner product'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/root-sl2-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "590fdfe1e3174b995a79a9a0507619260a4336cd8db93fda1d666fab47d8f5c2",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Cartan subalgebra', 'nilpotent element'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/root-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6b0ca56be3752a5f6b8857c63864e0d28c24611b0e4e13a0478770888995357a",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'semisimple Lie algebra', 'Lie bracket', 'decomposition'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/root-space-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "865445fc18bca7754753bd895c1c1736b6a03d843e0ac73fd50bc2d54e050c2c",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'set', 'decomposition', 'eigenspace', 'relations', 'inner product'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/root-subsystem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b4354496b0f0c719a85cdedbd9ac663f3a3a506a1a74cc7799bf481b7423472c",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'subset', 'spans', 'hyperplane', 'span'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/root-system",
+      "outcome": "corrected",
+      "source_sha256": "b647a1537b3348abe61f6cecc8b88e1887fe0dccfb90022b81ae07aac2d9e645",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'subset', 'inner product space', 'spans', 'subgroup', 'semisimple Lie algebra', 'span', 'Euclidean space', 'compact real form', 'Lie algebra'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/schur-lemma-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49ff53a8f5612e93c53dab96dd3cefb3b98ca3880455a458476d8e4410842485",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'group', 'commutant', 'invariant subspace', 'local compactness', 'closed subspace', 'orthogonal\\nprojection', 'irreducible unitary representations', 'Hilbert space'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/schur-orthogonality-lie-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92e7fefde10aeac56a027517299e602d9fc7543f6c6c04c8ca277aeac978f06f",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'continuous unitary representations', 'orthonormal bases', 'matrix', 'orthogonality', 'intertwiner', 'groups', 'matrix coefficients', 'irreducible representation'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/semisimple-direct-sum-simple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b0955410afb9bf4d5d04fa218c0af74235a4f8ea36c2aa2f5537e40ba0b9adf",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'field', 'characteristic', 'ideals', 'Lie algebras', 'ideal', 'decomposition', 'orthogonal complements'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/semisimple-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cc459a4f1d9fa3dc2f0c0a817d55a93ed4547015d1a1a513832d53f20d5353e",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'field', 'characteristic', 'ideals', 'Lie algebras', 'semidirect product'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/simple-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b169af9d3fab8dc2a69c12153976ce9066c97f129001328fc493b991a79a777",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie algebra', 'field', 'characteristic', 'ideals', 'Lie-algebra', 'normal subgroups', 'group', 'invariant subspaces'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/simple-lie-algebra-trivial-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb24164bb786ff6bdf68949f6d93cb4916922d99bd6c9ef557484bc4aa884199",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'ideal', 'simple Lie algebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/simple-root",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f4bd8fe2d519368584bea1ca40a3e628212207160654f6331e2ad19037b5bd7",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'set'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/simply-connected-determined-by-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a4f52833e45391954308f087d94f23fecf0e59899370467e57067c6e97a9381",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'Lie algebra homomorphism', 'Lie group homomorphism', 'simply connected', 'Lie algebras', 'Lie groups', 'Lie algebra'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/simply-connected-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f9a9c679a8cdd3f8b77fb0f6cf07a5b96bb86c16648320d701bce03c0612cfe",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'simply connected', 'topological space', 'objects', 'Lie algebra', 'topology', 'isomorphism', 'Lie algebras', 'group homomorphisms'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/simply-laced-root-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32387d79c763d424b0135ff4a5be2ae25668a57c28194335db2abba707cac5bb",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'root systems', 'root system', 'orthogonality', 'centralizers'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/sl2-complex-as-real-and-complex-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5dc70aefb8e0456e0d16956ce3a8405644baefa38f9a68d19da385c24d38f6c6",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'matrix', 'group', 'Lie group'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/sl2c-spin-cover-of-lorentz-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44a5e8b910f58e7437ae157dc9dd2c076705b7fd32d35e9cd7b32c29d0bd9b62",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'full matrix algebra', 'determinant', 'image', 'identity component', 'isomorphism'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    },
+    {
+      "id": "lie-groups/smooth-action-lie-group",
+      "outcome": "corrected",
+      "source_sha256": "0148780f2f0da978374692f8436797bedbae20511eddd83a0da0f53e35cb31bf",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'Lie group', 'smooth manifold', 'smooth map', 'orbit', 'stabilizer', 'subgroup', 'infinitesimal action', 'vector field', 'measures'. Added only contextually useful canonical prerequisite links; retained generic or field-dependent matches as unlinked."
+    },
+    {
+      "id": "lie-groups/smooth-vector-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56fb67eb2eadef626bb6f01d71b9d6e0a436516b630f5919a233a72f1d8bf6f4",
+      "evidence": "Read the complete source including all sections and references; checked internal targets and prerequisite metadata against relevant definitions. Reviewed scanner candidates 'norm', 'topology', 'derivative', 'domain', 'Approximate identities', 'functions', 'infinitesimal action'. Existing links cover useful occurrences; remaining matches are generic, notation-local, already linked, or do not justify a new target."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 23: complete linking review of the 100 assigned Lie groups sources."
+  ]
+}

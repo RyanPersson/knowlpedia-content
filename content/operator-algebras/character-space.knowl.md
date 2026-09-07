@@ -31,7 +31,7 @@ All characters have norm one. For a nonunital algebra, adjoining the zero
 functional compactifies \(\Delta(A)\) inside the weak-star compact dual unit
 ball; this compactification agrees with the character space of the
 [[operator-algebras/unitization|unitization]], with the new character as the
-point at infinity. These facts
+[[topology/one-point-compactification|point at infinity]]. These facts
 explain why local compactness, rather than compactness, is the natural general
 setting.
 

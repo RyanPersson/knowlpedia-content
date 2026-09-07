@@ -20,10 +20,10 @@ be a linear [[differential-geometry/differential-operator-vector-bundles|differe
 \int_M\langle Pu,v\rangle_F\,\operatorname{vol}_g
 =\int_M\langle u,P^\dagger v\rangle_E\,\operatorname{vol}_g
 \]
-for all compactly supported smooth sections \(u\) and \(v\). In the complex
+for all compactly supported [[fiber-bundles/section-of-a-fiber-bundle|smooth sections]] \(u\) and \(v\). In the complex
 case the bundle pairings are Hermitian, conjugate-linear in the first
-argument, and linear in the second. The identity is algebraic integration by
-parts and specifies no Hilbert-space domain.
+argument, and linear in the second. The identity is algebraic [[real-analysis/integration-by-parts|integration by
+parts]] and specifies no Hilbert-space domain.
 
 ## Construction and properties
 

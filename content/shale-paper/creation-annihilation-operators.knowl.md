@@ -16,7 +16,7 @@ For \(z\in H\), the **creation operator** on the algebraic finite-particle subsp
 C(z)(x_1\otimes\cdots\otimes x_n)_s
 =\sqrt{n+1}\,(z\otimes x_1\otimes\cdots\otimes x_n)_s.
 \]
-Its Hilbert-space adjoint \(C(z)^*\), on its natural domain, is the **annihilation operator**. These operators are generally unbounded.
+Its [[linear-algebra/hilbert-space|Hilbert-space]] adjoint \(C(z)^*\), on its natural domain, is the **annihilation operator**. These operators are generally unbounded.
 
 ## Field operator
 

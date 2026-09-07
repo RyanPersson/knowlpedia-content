@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented surface, with compact structure group \(G\) and an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. Give \(\mathcal A(P)\) the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott symplectic form]]. Identify the dual of the gauge Lie algebra \(\Omega^0(\Sigma;\operatorname{ad}P)\) with \(\Omega^2(\Sigma;\operatorname{ad}P)\) by integration. Then **curvature is a moment map** for the [[fiber-bundles/gauge-group|gauge-group]] action:
+Let \(P\to\Sigma\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented surface, with compact structure group \(G\) and an \(\operatorname{Ad}\)-invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. Give \(\mathcal A(P)\) the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott symplectic form]]. Identify the dual of the gauge Lie algebra \(\Omega^0(\Sigma;\operatorname{ad}P)\) with \(\Omega^2(\Sigma;\operatorname{ad}P)\) by integration. Then **curvature is a [[fiber-bundles/moment-map|moment map]]** for the [[fiber-bundles/gauge-group|gauge-group]] action:
 \[
 \mu\colon\mathcal A(P)\longrightarrow
 \Omega^2(\Sigma;\operatorname{ad}P),\qquad
@@ -41,7 +41,7 @@ The zero level is the set of flat connections:
 \]
 Consequently, the [[fiber-bundles/moduli-space-of-flat-connections|flat moduli space]] is formally the [[differential-geometry/symplectic-quotient|symplectic quotient]] \(\mathcal A(P)\mathbin{/\mkern-6mu/}\mathcal G(P)\). At regular irreducible points this produces the familiar finite-dimensional symplectic structure; stabilizers and obstructions can make the quotient singular.
 
-After a Riemannian metric is chosen on \(\Sigma\), the [[fiber-bundles/yangmills-functional|Yang–Mills functional]] is, up to normalization, the squared \(L^2\)-norm \(\|\mu(A)\|^2\). This is why equivariant Morse theory for a norm-square of a moment map enters the Atiyah–Bott analysis.
+After a [[differential-geometry/riemannian-manifold|Riemannian metric]] is chosen on \(\Sigma\), the [[fiber-bundles/yangmills-functional|Yang–Mills functional]] is, up to normalization, the squared \(L^2\)-norm \(\|\mu(A)\|^2\). This is why equivariant Morse theory for a norm-square of a moment map enters the Atiyah–Bott analysis.
 
 ## Conventions and scope
 

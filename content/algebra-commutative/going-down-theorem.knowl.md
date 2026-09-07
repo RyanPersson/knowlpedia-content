@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 **Theorem (Going down).**
-Let \(A\subseteq B\) be an [[algebra-commutative/integral-extension|integral extension]] of integral domains, and assume that \(A\) is [[algebra-commutative/integrally-closed-domain|integrally closed]]. Let \(\mathfrak p\subseteq \mathfrak p'\) be prime ideals of \(A\), and let \(\mathfrak q'\in \operatorname{Spec}(B)\) satisfy \(\mathfrak q'\cap A=\mathfrak p'\). Then there exists a prime ideal \(\mathfrak q\) of \(B\) such that
+Let \(A\subseteq B\) be an [[algebra-commutative/integral-extension|integral extension]] of [[algebra-rings/integral-domain|integral domains]], and assume that \(A\) is [[algebra-commutative/integrally-closed-domain|integrally closed]]. Let \(\mathfrak p\subseteq \mathfrak p'\) be [[algebra-rings/prime-ideal|prime ideals]] of \(A\), and let \(\mathfrak q'\in \operatorname{Spec}(B)\) satisfy \(\mathfrak q'\cap A=\mathfrak p'\). Then there exists a prime ideal \(\mathfrak q\) of \(B\) such that
 \[
 \mathfrak q\subseteq \mathfrak q'
 \qquad\text{and}\qquad

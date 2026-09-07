@@ -27,7 +27,7 @@ Conversely, constant scalar curvature alone does not imply the Einstein equation
 
 ## Examples and non-examples
 
-An \(n\)-manifold of constant sectional curvature \(k\) is Einstein with \(\lambda=(n-1)k\). Hence the round sphere is Einstein, while [[linear-algebra/euclidean-space|Euclidean space]] and flat tori are Ricci-flat. In dimension two, \(\operatorname{Ric}=Kg\), so an Einstein surface is exactly a surface of constant Gaussian curvature.
+An \(n\)-manifold of constant [[differential-geometry/sectional-curvature|sectional curvature]] \(k\) is Einstein with \(\lambda=(n-1)k\). Hence the round sphere is Einstein, while [[linear-algebra/euclidean-space|Euclidean space]] and flat tori are Ricci-flat. In dimension two, \(\operatorname{Ric}=Kg\), so an Einstein surface is exactly a surface of constant [[differential-geometry/gaussian-curvature|Gaussian curvature]].
 
 A product of two Einstein manifolds with the product metric is Einstein when their Einstein constants agree. If the constants differ, the product has different Ricci eigenvalues along the two factors and is a decisive non-example.
 

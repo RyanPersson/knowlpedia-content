@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Under the fully faithful realization of
+Under the [[algebra-category-theory/fully-faithful-functor|fully faithful]] realization of
 [[algebra-hyperstructures/band|bands]] as
 [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprints]], an
 [[algebra-hyperstructures/idyll|idyll]] \(B\) becomes a purely positive

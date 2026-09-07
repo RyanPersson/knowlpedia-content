@@ -2,7 +2,7 @@
 id = "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action"
 title = "Adjoint bundle"
 kind = "knowl"
-summary = "The associated bundle with fiber G where the structure group acts on G by conjugation, yielding a bundle of groups over the base."
+summary = "The associated bundle] with fiber G where the structure group acts on G by conjugation, yielding a bundle of groups over the base."
 aliases = ["adjoint-bundle-p-g-g-with-conjugation-action", "Adjoint bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action.md"

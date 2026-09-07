@@ -1,0 +1,1377 @@
+{
+  "version": 1,
+  "phrases": [
+    {
+      "phrase": "tensor product",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-homological/tensor-right-exact",
+        "algebra-modules/tensor-preserves-direct-sums",
+        "algebra-modules/tensor-product",
+        "algebra-modules/tensor-product-algebras",
+        "algebra-modules/tensor-product-universal-property",
+        "algebra-modules/tensor-product-universal-property-prop",
+        "algebra-representation-theory/character-tensor-product",
+        "algebra-topological/completed-tensor-product"
+      ],
+      "evidence": "Read the phrase in 49 source knowls (21 core occurrences), including algebra-category-theory/monoidal-category, algebra-homological/tor, algebra-modules/tensor-product. First occurrence: algebra-category-theory/monoidal-category / Why coherence matters; context: satisfy Mac Lane's pentagon and triangle coherence axioms.  ## Why coherence matters  The tensor product need not be literally associative or unital. The coherence axioms ensure that every canonical composite built from asso This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "canonical map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 37 source knowls (17 core occurrences), including algebra-category-theory/abelian-category, algebra-commutative/i-adic-completion, algebra-commutative/localization-preserves-primality. First occurrence: algebra-category-theory/abelian-category / Consequences; context: homological algebra; - every morphism \\(f\\) admits an “image–coimage” comparison, and the canonical map \\(\\mathrm{coim}(f)\\to \\mathrm{im}(f)\\) is an isomorphism; - kernels are monomorphisms and cokernels are epimorphisms, m The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "adjoint representation",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/adjoint-faithful-iff-discrete-center",
+        "lie-groups/adjoint-representation-of-a-lie-algebra",
+        "lie-groups/coadjoint-representation-of-a-lie-algebra",
+        "lie-groups/kernel-of-ad-is-center-lemma",
+        "lie-groups/kernel-of-ad-small-is-center-lemma"
+      ],
+      "evidence": "Read the phrase in 27 source knowls (16 core occurrences), including fiber-bundles/associated-vector-bundle, fiber-bundles/construction-adjoint-lie-algebra-bundle-ad, fiber-bundles/construction-curvature-of-an-induced-associated-connection-via-representation. First occurrence: fiber-bundles/associated-vector-bundle / Examples; context: athbb{CP}^1\\).  3. **Adjoint (Lie algebra) bundle**    Taking \\(V=\\mathfrak{g}\\) with the adjoint representation gives the associated bundle    \\[    \\mathrm{Ad}(P)=P\\times_G \\mathfrak{g},    \\]    which is the usual adjoint Lie alg This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "unique morphism",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 14 source knowls (13 core occurrences), including algebra-category-theory/coequalizer, algebra-category-theory/cokernel-categorical, algebra-category-theory/colimit. First occurrence: algebra-category-theory/coequalizer / core; context: every object \\(X\\) and morphism \\(h:B\\to X\\) with \\(h\\circ f = h\\circ g\\), there exists a unique morphism \\(u:Q\\to X\\) such that    \\[    u\\circ q = h.    \\]  ## Equivalent characterizations  Equivalently, \\(q\\) is **universa The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "convex topology",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 15 source knowls (11 core occurrences), including functional-analysis/bornological-space, functional-analysis/distribution, functional-analysis/montel-space. First occurrence: functional-analysis/bornological-space / core; context: ery bornivorous convex balanced set is a neighborhood of \\(0\\). Equivalently, the locally convex topology of \\(E\\) is the finest locally convex topology having the same bounded subsets.  ## Mapping characterization  The defin The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "finite-dimensional vector space",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/vector-space"
+      ],
+      "evidence": "Read the phrase in 13 source knowls (10 core occurrences), including algebra-fields-galois/finite-field-existence, algebra-modules/artinian-module, algebra-modules/dual-module. First occurrence: algebra-fields-galois/finite-field-existence / core; context:     Concretely, \\(K\\) contains a copy of the prime field \\(\\mathbb{F}_p\\), and \\(K\\) is a finite-dimensional vector space over \\(\\mathbb{F}_p\\) of dimension \\(n\\), so \\(|K|=p^n\\).  2. Conversely, for every prime \\(p\\) and integer \\(n\\ge 1\\)  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "finite-dimensional representation",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-representation-theory/completely-reducible-representation"
+      ],
+      "evidence": "Read the phrase in 16 source knowls (9 core occurrences), including fiber-bundles/lemma-covariant-exterior-derivative-preserves-tensoriality, langlands-letter/knowls/contragredient-representation, langlands/artin-conductor. First occurrence: fiber-bundles/lemma-covariant-exterior-derivative-preserves-tensoriality / core; context: al G-bundle]] with right action \\(R_g:P\\to P\\), and let \\(\\rho:G\\to \\mathrm{GL}(V)\\) be a finite-dimensional representation with differential \\(\\rho_*:\\mathfrak g\\to \\mathfrak{gl}(V)\\) (see [[lie-groups/representation-of-a-lie-group|representa This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "ambient algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 21 source knowls (8 core occurrences), including functional-analysis/banach-algebra-resolvent, functional-analysis/banach-algebra-spectrum, lie-groups/compatible-cartan-subalgebras. First occurrence: functional-analysis/banach-algebra-resolvent / Conventions and scope; context:  convention used here. The identity and derivative formulas change signs accordingly. The ambient algebra matters: an element can become invertible in a larger algebra, changing both its spectrum and resolvent.  ## References The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "smooth complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 12 source knowls (8 core occurrences), including differential-geometry/canonical-bundle-complex-manifold, differential-geometry/holomorphic-vector-bundle, fiber-bundles/complex-vector-bundle. First occurrence: differential-geometry/canonical-bundle-complex-manifold / Examples and scope; context: bundle should not be conflated with a canonical module of a singular ring or scheme. On a smooth complex algebraic variety, analytification of the algebraic canonical [[fiber-bundles/line-bundle|line bundle]] gives the bundl The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "rham cohomology",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/compactly-supported-de-rham-cohomology",
+        "differential-geometry/homotopy-invariance-of-de-rham-cohomology",
+        "differential-geometry/mayer-vietoris-sequence-for-de-rham-cohomology",
+        "fiber-bundles/de-rham-cohomology-group"
+      ],
+      "evidence": "Read the phrase in 31 source knowls (7 core occurrences), including differential-geometry/compactly-supported-de-rham-cohomology, differential-geometry/de-rham-complex, differential-geometry/de-rham-homotopy-operator. First occurrence: differential-geometry/compactly-supported-de-rham-cohomology / Duality and examples; context: upport form of Poincaré duality. If \\(M\\) is compact, compactly supported and ordinary de Rham cohomology coincide. For \\(\\mathbb R^n\\), only the top-degree compactly supported group is nonzero, and integration identifies it  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "multiplicative group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-fields-galois/finite-field-multiplicative-cyclic",
+        "algebra-fields-galois/finite-field-multiplicative-group-cyclic",
+        "formal-groups/additive-and-multiplicative-formal-group-laws"
+      ],
+      "evidence": "Read the phrase in 14 source knowls (7 core occurrences), including algebra-fields-galois/finite-field, algebra-fields-galois/finite-field-multiplicative-cyclic, algebra-fields-galois/finite-field-multiplicative-group-cyclic. First occurrence: algebra-fields-galois/finite-field / Remarks; context: te-field-existence-uniqueness|existence and uniqueness of finite fields]]). Moreover, the multiplicative group \\(F^\\times\\) is cyclic (see [[algebra-fields-galois/finite-field-multiplicative-group-cyclic|finite-field multiplicativ This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "smooth vector bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/vector-bundle"
+      ],
+      "evidence": "Read the phrase in 8 source knowls (7 core occurrences), including fiber-bundles/construction-adjoint-lie-algebra-bundle-ad, fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection, fiber-bundles/cotangent-bundle. First occurrence: fiber-bundles/construction-adjoint-lie-algebra-bundle-ad / core; context: nt Lie algebra bundle).** Define \\[ \\mathrm{ad}(P) := P\\times_G \\mathfrak g. \\] This is a smooth vector bundle over \\(M\\). Moreover, each fiber \\(\\mathrm{ad}(P)_x\\) carries a Lie bracket induced from the [[fiber-bundles/lie-bracke This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "norm topology",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/topology-generated-by-seminorms",
+        "operator-algebras/strong-operator-topology"
+      ],
+      "evidence": "Read the phrase in 14 source knowls (6 core occurrences), including functional-analysis/banach-alaoglu-theorem, functional-analysis/open-mapping-theorem, functional-analysis/rigged-hilbert-space. First occurrence: functional-analysis/banach-alaoglu-theorem / core; context: star compactness; in an infinite-dimensional setting, the same ball is not compact in its norm topology.  ## Proof mechanism  Evaluation embeds \\(B_{X'}\\) into the product \\[ \\prod_{x\\in X}\\{z:|z|\\leq\\lVert x\\rVert\\}. \\] Ea This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "projection map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 7 source knowls (6 core occurrences), including fiber-bundles/associated-bundle, fiber-bundles/associated-vector-bundle, fiber-bundles/cotangent-bundle. First occurrence: fiber-bundles/associated-bundle / core; context: in P,\\; f\\in F,\\; g\\in G). \\] Write \\([p,f]\\) for the equivalence class of \\((p,f)\\). The projection map \\[ \\pi_F:P\\times_G F \\to M,\\qquad \\pi_F([p,f])=\\pi(p) \\] is well-defined, and \\(P\\times_G F\\) is a [[fiber-bundles/smoo The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "nonunital algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 20 source knowls (5 core occurrences), including functional-analysis/banach-algebra-spectrum, functional-analysis/holomorphic-functional-calculus-banach-algebra, noncommutative-geometry/cyclic-cohomology. First occurrence: functional-analysis/banach-algebra-spectrum / Ambient-algebra conventions; context: , an element may acquire additional inverses after the ambient algebra is enlarged. For a nonunital algebra, authors sometimes record whether zero is included separately; the unitization convention above fixes that choice.  ##  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "local connection",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/gauge-transform-of-a-local-connection-form",
+        "fiber-bundles/local-connection-1-form"
+      ],
+      "evidence": "Read the phrase in 15 source knowls (5 core occurrences), including fiber-bundles/connection-on-exterior-and-symmetric-powers, fiber-bundles/construction-gauge-transformation-of-local-data-via-gug, fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections. First occurrence: fiber-bundles/connection-on-exterior-and-symmetric-powers / Important special cases; context: .  For a line bundle \\(L\\), \\(\\operatorname{Sym}^kL\\cong L^{\\otimes k}\\), and the induced local connection one-form is \\(k\\) times that of \\(L\\). A connection chosen independently on \\(\\Lambda^kE\\) is a near miss: it need not  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "component group",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 12 source knowls (5 core occurrences), including fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg, fiber-bundles/classifying-space-bg, langlands-letter/knowls/borel-mostow-semisimple-normalizer. First occurrence: fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg / Examples; context: i_0(G)\\), principal \\(G\\)-bundles over \\(S^1\\) are classified by conjugacy classes in the component group \\(\\pi_0(G)\\). In particular, they are all trivial when \\(G\\) is connected. For instance, with \\(G=O(1)\\cong \\{\\pm 1\\}\\) The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "closed form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 9 source knowls (5 core occurrences), including differential-geometry/de-rham-homotopy-operator, differential-geometry/dolbeault-cohomology, differential-geometry/mayer-vietoris-sequence-for-de-rham-cohomology. First occurrence: differential-geometry/de-rham-homotopy-operator / Canonical contraction example; context: radial homotopy \\(F(x,t)=tx\\) joins the constant map at the origin to the identity. For a closed form \\(\\omega\\) of positive degree, \\[ \\omega=d(K_F\\omega), \\] because pullback by the constant endpoint vanishes in positiv The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "exceptional complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 7 source knowls (5 core occurrences), including lie-groups/exceptional-e-root-systems, lie-groups/exceptional-lie-algebra-e6, lie-groups/exceptional-lie-algebra-e7. First occurrence: lie-groups/exceptional-e-root-systems / A coordinate model for E8; context: ssification-simple-lie-algebras|classification theorem]], these systems correspond to the exceptional complex simple Lie algebras \\(\\mathfrak e_6,\\mathfrak e_7,\\mathfrak e_8\\). In particular, root subsystems inside \\(E_7\\) organi The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "exceptional lie group",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/lie-group",
+        "lie-groups/compact-exceptional-lie-group-e6",
+        "lie-groups/compact-exceptional-lie-group-e7",
+        "lie-groups/compact-exceptional-lie-group-e8",
+        "lie-groups/compact-exceptional-lie-group-f4",
+        "lie-groups/compact-exceptional-lie-group-g2"
+      ],
+      "evidence": "Read the phrase in 6 source knowls (5 core occurrences), including lie-groups/compact-exceptional-lie-group-e6, lie-groups/compact-exceptional-lie-group-e7, lie-groups/compact-exceptional-lie-group-e8. First occurrence: lie-groups/compact-exceptional-lie-group-e6 / core; context: ency_heuristic = \"semantic-full-review-v1\" dependency_review_count = 1 +++  The **compact exceptional Lie group \\(E_6\\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] wit This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "between metric",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (5 core occurrences), including real-analysis/continuity-on-a-set, topology/holder-continuity, topology/isometry. First occurrence: real-analysis/continuity-on-a-set / core; context: ull-review-v1\" dependency_review_count = 1 +++  Let \\(f:(X,d_X)\\to(Y,d_Y)\\) be a function between metric spaces, and let \\(A\\subseteq X\\). We say \\(f\\) is **continuous on \\(A\\)** if the restriction \\(f|_A:A\\to Y\\), with \\(A\\ The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "spin manifold",
+      "disposition": "existing_target",
+      "targets": [
+        "noncommutative-geometry/canonical-spin-spectral-triple"
+      ],
+      "evidence": "Read the phrase in 23 source knowls (4 core occurrences), including differential-geometry/dirac-spinor, differential-geometry/lorentzian-dirac-operator, differential-geometry/weyl-spinor. First occurrence: differential-geometry/dirac-spinor / core; context: metry/spinor-module|spinor module]]. A **Dirac spinor** is an element of \\(\\Delta\\). On a spin manifold, a **Dirac spinor field** is a section of the corresponding complex [[differential-geometry/spinor-bundle|spinor bundle This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "normed space",
+      "disposition": "existing_target",
+      "targets": [
+        "convex-analysis/algebra-of-limits-in-normed-spaces",
+        "convex-analysis/convergence-in-normed-spaces",
+        "convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces",
+        "convex-analysis/hahn-banach-theorem-in-normed-spaces",
+        "convex-analysis/uniqueness-of-limits-and-boundedness-in-normed-spaces",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/unit-sphere"
+      ],
+      "evidence": "Read the phrase in 18 source knowls (4 core occurrences), including convex-analysis/algebra-of-limits-in-normed-spaces, convex-analysis/algebraic-interior-core, convex-analysis/balanced-and-absorbing-sets. First occurrence: convex-analysis/algebra-of-limits-in-normed-spaces / core; context: l-review-v1\" dependency_review_count = 1 +++  **Proposition.** Let \\((X,\\|\\cdot\\|)\\) be a normed space.  1. If \\(x_n\\to x\\) and \\(y_n\\to y\\), then \\(x_n+y_n\\to x+y\\). 2. If \\(x_n\\to x\\) and \\(\\alpha_n\\to \\alpha\\) (in \\(\\ma This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "hermitian form",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/hyperhermitian-form"
+      ],
+      "evidence": "Read the phrase in 12 source knowls (4 core occurrences), including complex-analysis/levi-form, differential-geometry/kahler-metric, differential-geometry/polarized-hodge-structure. First occurrence: complex-analysis/levi-form / core; context: \\) function \\(u\\) on an open subset of \\(\\mathbb C^d\\), the **Levi form** at \\(z\\) is the Hermitian form \\[ \\mathcal L_u(z;v)= \\sum_{j,k=1}^d \\frac{\\partial^2u}{\\partial z_j\\partial\\bar z_k}(z) v_j\\overline{v_k}, \\qquad v\\in This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "left ideal",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/left-ideal-of-weight"
+      ],
+      "evidence": "Read the phrase in 11 source knowls (4 core occurrences), including algebra-modules/baers-criterion, algebra-modules/cyclic-module, algebra-rings/ideal. First occurrence: algebra-modules/baers-criterion / core; context: ng and let \\(Q\\) be a left \\(R\\)-module. Then \\(Q\\) is injective if and only if for every left ideal \\(I\\subseteq R\\) and every \\(R\\)-linear map \\(f:I\\to Q\\), there exists an \\(R\\)-linear map \\(F:R\\to Q\\) such that \\(F|_ This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "curvature form",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/local-curvature-formula-f-da-aa"
+      ],
+      "evidence": "Read the phrase in 9 source knowls (4 core occurrences), including differential-geometry/ricci-form, fiber-bundles/ambrosesinger-holonomy-theorem, fiber-bundles/characteristic-class. First occurrence: differential-geometry/ricci-form / Curvature interpretation; context: angent bundle]], with the conventional factor of \\(i\\). Equivalently, its negative is the curvature form of the canonical bundle with its metric induced by \\(g\\). The local determinant formula follows by taking the trace of  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "integrated form",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/integrated-form-unitary-representation",
+        "operator-algebras/integrated-form-covariant-representation"
+      ],
+      "evidence": "Read the phrase in 8 source knowls (4 core occurrences), including harmonic-analysis/convolution-involution, harmonic-analysis/harish-chandra-schwartz-algebra, harmonic-analysis/integrated-form-unitary-representation. First occurrence: harmonic-analysis/convolution-involution / Why the modular factor is present; context: ly the Radon–Nikodym correction that compensates for this change of measure. It makes the integrated form of a [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] satisfy \\(\\pi This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "ambient space",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 6 source knowls (4 core occurrences), including convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete, differential-geometry/ambient-isotopy, differential-geometry/boundary-and-interior-of-a-manifold. First occurrence: convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete / Remarks; context: ks  **Context.** This gives a practical way to recognize complete sets: inside a complete ambient space, \"closed\" and \"complete\" coincide.  **Proof sketch.** 1. Take a sequence \\((x_n)\\subset E\\) converging in \\(X\\) to \\(x\\ The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "dimensional topological manifold",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (4 core occurrences), including fiber-bundles/paracompact-manifold, fiber-bundles/smooth-atlas, fiber-bundles/smooth-chart-coordinate-chart. First occurrence: fiber-bundles/paracompact-manifold / Examples; context:  topological level).  3. **A standard nonexample (topological).**    The long line is a 1-dimensional topological manifold that is not second countable and is not paracompact; it illustrates why paracompactness (or a countability hypothesis)  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "second-countable space",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (4 core occurrences), including differential-geometry/complex-manifold, differential-geometry/manifold-with-boundary, differential-geometry/manifold-with-corners. First occurrence: differential-geometry/complex-manifold / core; context: y_review_count = 2 +++  A **complex manifold of complex dimension \\(n\\)** is a Hausdorff, second-countable space covered by coordinate charts \\(\\varphi_i:U_i\\to V_i\\subseteq\\mathbb C^n\\) such that each transition map \\(\\varphi_j\\cir The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "usual topology",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 26 source knowls (3 core occurrences), including fiber-bundles/paracompact-topological-space, measure-theory/borel-sigma-algebra, measure-theory/measurable-function. First occurrence: fiber-bundles/paracompact-topological-space / Examples; context: is paracompact. In particular, all smooth manifolds modeled on \\(\\mathbb R^n\\) with their usual topology are paracompact when they satisfy the standard countability hypotheses.  2. **Compact Hausdorff spaces.**      Every co The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "euclidean metric",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 16 source knowls (3 core occurrences), including convex-analysis/metric-metric-space, differential-geometry/almost-hermitian-manifold, differential-geometry/harmonic-differential-form. First occurrence: convex-analysis/metric-metric-space / Examples; context: ce-of-a-sequence|convergence]] and completeness.  ## Examples  - On \\(\\mathbb{R}^n\\), the Euclidean metric \\(d(x,y)=\\|x-y\\|_2\\). - The discrete metric: \\(d(x,y)=0\\) if \\(x=y\\) and \\(d(x,y)=1\\) otherwise. - On a normed vector s The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "evaluation map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 13 source knowls (3 core occurrences), including algebra-category-theory/counit-adjunction, algebra-category-theory/natural-transformation, algebra-fields-galois/transcendental-element. First occurrence: algebra-category-theory/counit-adjunction / Examples; context: (Set).** For \\((-)\\times X \\dashv (-)^X\\) in \\(\\mathbf{Set}\\), the counit at \\(B\\) is the evaluation map    \\[    \\varepsilon_B: B^X \\times X \\to B,    \\qquad    \\varepsilon_B(f,x)=f(x).    \\]  3. **Abelianization–inclusion  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "restricted form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 12 source knowls (3 core occurrences), including differential-geometry/characteristic-distribution-coisotropic, differential-geometry/characteristic-foliation, differential-geometry/coisotropic-reduction. First occurrence: differential-geometry/characteristic-distribution-coisotropic / core; context: stant rank and form a smooth distribution. It is also called the null distribution of the restricted form.  ## Involutivity  The characteristic distribution is involutive. If \\(X\\) and \\(Y\\) are [[fiber-bundles/vector-field|v The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "graded algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 10 source knowls (3 core occurrences), including algebraic-geometry-foundations/sheaf-of-differential-operators, differential-geometry/de-rham-complex, fiber-bundles/equivariant-cohomology. First occurrence: algebraic-geometry-foundations/sheaf-of-differential-operators / core; context:  \\(\\mathcal D_X^{\\leq0}\\subseteq\\mathcal D_X^{\\leq1}\\subseteq\\cdots\\), and the associated graded algebra is canonically \\(\\operatorname{Sym}_{\\mathcal O_X}\\mathcal T_X\\).  ## Left and right conventions  Left and right \\(\\mat The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "long exact sequence",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 8 source knowls (3 core occurrences), including algebra-homological/connecting-homomorphism-lemma, algebra-homological/long-exact-sequence-derived, algebra-homological/long-exact-sequence-ext. First occurrence: algebra-homological/connecting-homomorphism-lemma / core; context: abelian category]] (in particular, this holds for \\(R\\)-modules). Then there is a natural long exact sequence in [[algebra-homological/homology-module|homology]]: \\[ \\cdots \\to H_n(A) \\to H_n(B) \\to H_n(C) \\xrightarrow{\\ \\delta\\  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "increasing sequence",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 7 source knowls (3 core occurrences), including convex-analysis/subsequence-index-bound-n_k-k, functional-analysis/inductive-limit-locally-convex-spaces, operator-algebras/hyperfinite-ii-one-factor. First occurrence: convex-analysis/subsequence-index-bound-n_k-k / core; context: c-full-review-v1\" dependency_review_count = 1 +++  **Lemma.** Let \\((n_k)\\) be a strictly increasing sequence of positive integers, i.e., \\(n_1<n_2<\\cdots\\). Then \\[ n_k\\ge k \\quad\\text{for all }k\\in\\mathbb{N}. \\]  **Proof.** By  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "structure equation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 7 source knowls (3 core occurrences), including fiber-bundles/cartans-first-structure-equation, fiber-bundles/cartans-second-structure-equation, fiber-bundles/convention-local-curvature-convention-f-da-aa. First occurrence: fiber-bundles/cartans-first-structure-equation / Statement (frame bundle formulation); context: ant exterior derivative of \\(\\theta\\): \\[ \\Theta \\;:=\\; D\\theta. \\] Then **Cartan’s first structure equation** is the identity \\[ \\boxed{\\;\\Theta \\;=\\; d\\theta \\;+\\; \\omega\\wedge \\theta\\;} \\] where the \\(\\mathfrak{gl}(n,\\mathbb{ The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "finite measure",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 6 source knowls (3 core occurrences), including functional-analysis/order-of-distribution, harmonic-analysis/quasi-invariant-measure, measure-theory/fubinis-theorem. First occurrence: functional-analysis/order-of-distribution / Examples and differentiation; context: e distribution.  ## Examples and differentiation  A distribution represented by a locally finite measure has order \\(0\\). The Dirac distribution \\(\\delta_a\\) has order \\(0\\), while \\(\\partial^\\alpha\\delta_a\\) has order \\(|\\a The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "no metric",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 6 source knowls (3 core occurrences), including differential-geometry/cotangent-lift, differential-geometry/normal-bundle, differential-geometry/transverse-intersection-theorem. First occurrence: differential-geometry/cotangent-lift / core; context: tion as \\(f\\). The lift is a diffeomorphism with inverse \\(T^*(f^{-1})\\), and it requires no metric, connection, or other auxiliary choice.  ## Functoriality  For composable diffeomorphisms \\(f\\) and \\(g\\), \\[ T^*(g\\cir The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "dual space",
+      "disposition": "existing_target",
+      "targets": [
+        "convex-analysis/dual-space-and-duality-pairing"
+      ],
+      "evidence": "Read the phrase in 5 source knowls (3 core occurrences), including algebra-modules/dual-module, convex-analysis/dual-space-and-duality-pairing, fiber-bundles/cotangent-bundle. First occurrence: algebra-modules/dual-module / Examples; context: al vector space over a [[algebra-rings/field|field]], then \\(V^\\vee\\) is the usual linear dual space.  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "nondegenerate form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (3 core occurrences), including differential-geometry/kahler-manifold, differential-geometry/polarized-hodge-structure, langlands/global-nilpotent-cone. First occurrence: differential-geometry/kahler-manifold / Structure and consequences; context: \\(J\\), so the holonomy acts through \\(U(n)\\).  ## Structure and consequences  The closed, nondegenerate form \\(\\omega\\) makes \\(M\\) a [[differential-geometry/symplectic-manifold|symplectic manifold]]. In complex dimension \\(n\\), The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "unique self-adjoint operator",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (3 core occurrences), including functional-analysis/closed-quadratic-form, functional-analysis/friedrichs-extension, lie-groups/infinitesimal-generator-unitary-representation. First occurrence: functional-analysis/closed-quadratic-form / Representation by an operator; context: eorem associates to every densely defined closed lower-semibounded form \\(\\mathfrak a\\) a unique self-adjoint operator \\(A\\) with \\(A\\geq m\\). For any \\(\\lambda<m\\), \\[ D(\\mathfrak a)=D\\bigl((A-\\lambda)^{1/2}\\bigr) \\] \\[ \\mathfrak a[u,v]  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "crossed-product norm",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (3 core occurrences), including operator-algebras/canonical-map-full-to-reduced-crossed-product, operator-algebras/dual-action-crossed-product, operator-algebras/integrated-form-covariant-representation. First occurrence: operator-algebras/canonical-map-full-to-reduced-crossed-product / core; context: ecause the reduced norm is [[real-analysis/bounded-above|bounded above]] by the universal crossed-product norm. Equivalently, \\(\\Lambda_A\\) is the quotient associated with a faithful [[operator-algebras/regular-covariant-represent The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "nonzero elements form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (3 core occurrences), including algebra-fields-galois/finite-field-multiplicative-group-cyclic, algebra-rings/idempotent-semifield, algebra-rings/parasemifield. First occurrence: algebra-fields-galois/finite-field-multiplicative-group-cyclic / core; context: {F}_q\\) be a [[algebra-fields-galois/finite-field|finite field]] with \\(q\\) elements. Its nonzero elements form a group under multiplication, \\[ \\mathbb{F}_q^\\times=\\mathbb{F}_q\\setminus\\{0\\}, \\] which is an [[algebra-groups/abelia The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "real-linear map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (3 core occurrences), including linear-algebra/complexification, linear-algebra/realification-of-a-complex-vector-space, mathematical-physics/quantization-map. First occurrence: linear-algebra/complexification / core; context:  numbers]] to the [[shared-foundations/complex-numbers-c|complex numbers]]. The canonical real-linear map \\(V\\to V_{\\mathbb C}\\) sends \\(v\\) to \\(v\\otimes1\\). Every element has a unique expression \\[ v\\otimes1+w\\otimes i, \\qq The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "data form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (3 core occurrences), including differential-geometry/category-of-complex-manifolds, differential-geometry/category-of-smooth-manifolds, langlands/crystalline-galois-representation. First occurrence: differential-geometry/category-of-complex-manifolds / core; context:  as morphisms. Identity maps and composites of holomorphic maps are holomorphic, so these data form a [[algebra-category-theory/category|category]]. This is the house convention; disconnected objects are allowed when th The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "inductive-limit topology",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (3 core occurrences), including functional-analysis/inductive-limit-locally-convex-spaces, harmonic-analysis/schwartz-bruhat-space-lca, harmonic-analysis/test-function-space-local-group. First occurrence: functional-analysis/inductive-limit-locally-convex-spaces / core; context: ical [[linear-algebra/linear-map|linear maps]] \\(\\iota_i:E_i\\to E\\). The **locally convex inductive-limit topology** on \\(E\\) is the finest locally convex vector topology for which every \\(\\iota_i\\) is continuous. The resulting locall The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "real inner product",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/inner-product"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (3 core occurrences), including lie-groups/orthogonal-group, lie-groups/positive-root, linear-algebra/euclidean-space. First occurrence: lie-groups/orthogonal-group / core; context:  dependency_review_count = 1 +++  Let \\((V,\\langle\\ ,\\ \\rangle)\\) be a finite-dimensional real inner product space.  ## Definition (Euclidean case) The **orthogonal group** is \\[ O(V)=\\{A\\in \\mathrm{GL}(V)\\mid \\langle Av,Aw\\rang This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "solvable ideal",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (3 core occurrences), including lie-groups/levi-decomposition-theorem, lie-groups/solvable-lie-algebra, lie-groups/tfae-semisimplicity-lie-algebra. First occurrence: lie-groups/levi-decomposition-theorem / core; context:  field of characteristic \\(0\\).  **Theorem (Levi decomposition).** There exists a largest solvable ideal \\(\\mathfrak r\\subseteq \\mathfrak g\\), called the **radical** (a notion built from [[lie-groups/solvable-lie-algebra|sol The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "trivial representation",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/amenability-trivial-representation-weak-containment"
+      ],
+      "evidence": "Read the phrase in 28 source knowls (2 core occurrences), including algebra-representation-theory/character, algebra-representation-theory/complete-reducibility-complex, algebra-representation-theory/group-representation. First occurrence: algebra-representation-theory/character / Example 1: Trivial representation; context: ality relations]].  ## Examples  ### Example 1: Trivial representation If \\(\\rho\\) is the trivial representation on \\(V\\) (every \\(g\\) acts as \\(\\mathrm{id}_V\\)), then \\[ \\chi_\\rho(g)=\\mathrm{tr}(\\mathrm{id}_V)=\\dim V \\] for all \\(g This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "product connection",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 11 source knowls (2 core occurrences), including fiber-bundles/ambrosesinger-holonomy-theorem, fiber-bundles/coulomb-gauge, fiber-bundles/ehresmann-connection. First occurrence: fiber-bundles/ambrosesinger-holonomy-theorem / Examples; context: holonomy algebras.**    For a direct-sum connection on a bundle \\(E=E_1\\oplus E_2\\) (or a product connection on a product manifold), the curvature is block-diagonal, so the generated holonomy Lie algebra is (at most) a direct su The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "finite product",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 9 source knowls (2 core occurrences), including algebra-commutative/artinian-ring, algebra-commutative/semisimple-artinian-product, algebra-groups/generating-set. First occurrence: algebra-commutative/artinian-ring / Key consequences in the commutative case; context: ection-maximals|intersection of maximal ideals]]) is nilpotent, and \\(R\\) decomposes as a finite product of Artinian local rings; this is closely related to the [[algebra-rings/chinese-remainder-theorem|Chinese remainder the The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "irreducible complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 8 source knowls (2 core occurrences), including algebra-representation-theory/character-orthonormality, algebra-representation-theory/number-irreducibles-conjugacy-classes, algebra-representation-theory/schur-corollary. First occurrence: algebra-representation-theory/character-orthonormality / core; context: in G} f(x)\\,\\overline{g(x)}. \\]  **Orthonormality theorem.** If \\(\\chi\\) and \\(\\psi\\) are irreducible complex characters of \\(G\\), then \\[ \\langle\\chi,\\psi\\rangle=\\delta_{\\chi,\\psi}. \\]  Equivalently, summing over [[algebra-group The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "they form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 8 source knowls (2 core occurrences), including algebra-groups/conjugacy-class, algebra-rings/unital-ring, convex-analysis/semialgebraic-set. First occurrence: algebra-groups/conjugacy-class / Remarks; context: ts of the [[algebra-groups/conjugation-action|conjugation action]] of \\(G\\) on itself, so they form a [[shared-foundations/partition|partition]] of \\(G\\). An element lies in the [[algebra-groups/center-of-group|center]] The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "dual action",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/dual-action-crossed-product",
+        "operator-algebras/dual-action-von-neumann-crossed-product"
+      ],
+      "evidence": "Read the phrase in 7 source knowls (2 core occurrences), including harmonic-analysis/conjugate-and-contragredient-unitary-representations, operator-algebras/continuous-core-von-neumann-algebra, operator-algebras/dual-action-crossed-product. First occurrence: harmonic-analysis/conjugate-and-contragredient-unitary-representations / Conventions and scope; context: same dimension.  ## Conventions and scope  For a general Banach-space representation, the dual action naturally lives on the Banach dual and need not share the Hilbert-space properties used above. In finite-dimensional al This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "moduli space",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/anti-self-dual-moduli-space",
+        "fiber-bundles/moduli-space-of-flat-connections",
+        "fiber-bundles/yang-mills-moduli-space",
+        "langlands/local-shtuka"
+      ],
+      "evidence": "Read the phrase in 7 source knowls (2 core occurrences), including algebraic-geometry-foundations/algebraic-stack, fiber-bundles/anti-self-dual-moduli-space, fiber-bundles/character-variety. First occurrence: algebraic-geometry-foundations/algebraic-stack / core; context: al separation or finiteness conditions, which must be stated separately.  Unlike a coarse moduli space, a stack retains the [[algebra-groups/automorphism-group|automorphism group]] of every object. This is essential for [[ This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "trivial group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 7 source knowls (2 core occurrences), including algebra-category-theory/initial-object, algebra-groups/classification-finite-abelian-groups, algebra-groups/exact-sequence-groups. First occurrence: algebra-category-theory/initial-object / core; context: ry/zero-object|zero object]]. The empty set is initial in the category of sets, while the trivial group is both initial and terminal in the category of groups.  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "covariant representation",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/covariant-representation-cstar-dynamical-system",
+        "operator-algebras/integrated-form-covariant-representation",
+        "operator-algebras/regular-covariant-representation",
+        "operator-algebras/toeplitz-representation-cstar-correspondence"
+      ],
+      "evidence": "Read the phrase in 6 source knowls (2 core occurrences), including harmonic-analysis/system-of-imprimitivity, operator-algebras/canonical-map-full-to-reduced-crossed-product, operator-algebras/covariant-representation-cstar-dynamical-system. First occurrence: harmonic-analysis/system-of-imprimitivity / Function-algebra formulation; context: -1}=M_P(f\\circ g^{-1}). \\] Thus a system of imprimitivity can equivalently be viewed as a covariant representation of the action on functions. The projection-valued and function-algebra formulations contain the same information.  ## T This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "restricted tensor product",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/restricted-tensor-product-test-functions",
+        "harmonic-analysis/schwartz-bruhat-space-adeles",
+        "langlands/restricted-tensor-product-automorphic-representation"
+      ],
+      "evidence": "Read the phrase in 6 source knowls (2 core occurrences), including harmonic-analysis/restricted-tensor-product-test-functions, harmonic-analysis/schwartz-bruhat-space-adeles, harmonic-analysis/test-function-space-local-group. First occurrence: harmonic-analysis/restricted-tensor-product-test-functions / core; context: himedean local Schwartz spaces. For each finite place set \\(e_v=1_{\\mathcal O_v}\\). The **restricted tensor product of the local [[functional-analysis/test-function-space|test-function spaces]]** is \\[ \\mathcal S(F_\\infty)\\,\\widehat\\ot This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "weak topology",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/weak-topology",
+        "operator-algebras/ultraweak-topology"
+      ],
+      "evidence": "Read the phrase in 6 source knowls (2 core occurrences), including differential-geometry/whitney-c-infinity-topology, functional-analysis/weak-star-topology, functional-analysis/weak-topology. First occurrence: differential-geometry/whitney-c-infinity-topology / Role in differential topology; context: ual]], dense, or open in an appropriate Whitney topology; the precise choice of strong or weak topology matters on noncompact source manifolds.  ## Conventions and scope  **Warning.** Authors do not use “Whitney topology” u This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "compatible complex",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (2 core occurrences), including differential-geometry/compatible-almost-complex-structure, differential-geometry/holomorphic-map, differential-geometry/lagrangian-grassmannian. First occurrence: differential-geometry/compatible-almost-complex-structure / Existence and deformation; context: ce and deformation  Every symplectic [[fiber-bundles/vector-bundle|vector bundle]] admits compatible complex structures. Consequently every symplectic manifold has compatible almost-complex structures, and the space of all such  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "derived algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (2 core occurrences), including lie-groups/cartan-involution-real-lie-algebra, lie-groups/levi-subalgebra, lie-groups/maximal-levi-subalgebra. First occurrence: lie-groups/cartan-involution-real-lie-algebra / core; context: =1\\) such that \\[ B_\\theta(X,Y)=-B(X,\\theta Y) \\] is positive definite. On the semisimple derived algebra one may take \\(B\\) to be the [[lie-groups/killing-form|Killing form]]. The qualification concerning the center is neces The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "inverse function theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-rings/formal-inverse-function-theorem",
+        "differential-geometry/inverse-function-theorem-for-manifolds",
+        "real-analysis/inverse-function-theorem-1d",
+        "real-analysis/inverse-function-theorem-rk",
+        "shared-foundations/inverse-function"
+      ],
+      "evidence": "Read the phrase in 5 source knowls (2 core occurrences), including algebraic-geometry-foundations/local-diffeomorphism, differential-geometry/riemann-surface, lie-groups/exponential-local-diffeomorphism. First occurrence: algebraic-geometry-foundations/local-diffeomorphism / Characterization; context: local diffeomorphism even though it is not globally one-to-one.  ## Characterization  The inverse function theorem says that a smooth map between manifolds of equal dimension is a local diffeomorphism exactly when its derivative is in This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "quotient space",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/quotient-space-of-an-action"
+      ],
+      "evidence": "Read the phrase in 5 source knowls (2 core occurrences), including algebra-category-theory/pushout, fiber-bundles/quotient-space-of-an-action, lie-groups/orbit-space. First occurrence: algebra-category-theory/pushout / Example (Top); context: (Top) In \\(\\mathbf{Top}\\), the pushout of \\(X \\xleftarrow{f} Z \\xrightarrow{g} Y\\) is the quotient space \\[ P = (X\\amalg Y)/{\\sim}, \\] where \\(\\sim\\) identifies \\(f(z)\\) with \\(g(z)\\) for each \\(z\\in Z\\), and the topology is This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "smooth group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (2 core occurrences), including fiber-bundles/coadjoint-action-of-a-lie-group, fiber-bundles/lie-group, lie-groups/complex-lie-group. First occurrence: fiber-bundles/coadjoint-action-of-a-lie-group / Equivalent characterizations; context: n\\mathfrak{g}^*,\\, X\\in\\mathfrak{g}). \\] The assignment \\(g\\mapsto \\mathrm{Ad}^*_g\\) is a smooth group homomorphism \\(G\\to \\mathrm{GL}(\\mathfrak{g}^*)\\).  ## Examples 1. **Abelian groups.** If \\(G\\) is abelian, then \\(\\mat The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "whole algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (2 core occurrences), including operator-algebras/continuous-trace-cstar-algebra, operator-algebras/elementary-cstar-algebra, operator-algebras/type-iii-von-neumann-algebra. First occurrence: operator-algebras/continuous-trace-cstar-algebra / core; context: representation|irreducible representation]], while density makes such elements detect the whole algebra. This is a property of \\(A\\), not one representation.  ## Local compact-operator structure  Continuous-trace algebras a The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "closed two-sided ideal",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-rings/two-sided-ideal",
+        "operator-algebras/closed-two-sided-ideal"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (2 core occurrences), including operator-algebras/closed-two-sided-ideal, operator-algebras/essential-ideal, operator-algebras/multiplier-algebra. First occurrence: operator-algebras/closed-two-sided-ideal / core; context: ew_count = 1 +++  Let \\(A\\) be a [[operator-algebras/cstar-algebra|\\(C^*\\)-algebra]]. A **closed two-sided ideal** of \\(A\\) is a norm-closed [[convex-analysis/linear-subspace|linear subspace]] \\(I\\subseteq A\\) satisfying \\[ a x\\in I This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "differential equation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (2 core occurrences), including complex-analysis/mobius-characterization-by-schwarzian, differential-geometry/hamiltonian-function, differential-geometry/hamiltonian-vector-field. First occurrence: complex-analysis/mobius-characterization-by-schwarzian / Proof idea; context:   Every Möbius transformation has zero Schwarzian by direct substitution. Conversely, the differential equation \\(S(f)=0\\) has local solutions \\[ f(z)=\\frac{az+b}{cz+d}, \\qquad ad-bc\\ne0. \\] These local Möbius transformations agree The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "integral form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (2 core occurrences), including functional-analysis/decomposable-operator, langlands-letter/knowls/chevalley-lattice-integral-model, measure-theory/jensen-inequality-integral. First occurrence: functional-analysis/decomposable-operator / Algebraic operations; context: T^*)_x=T_x^* \\] almost everywhere. Consequently, decomposable operators on a fixed direct integral form a [[operator-algebras/von-neumann-algebra|von Neumann algebra]]. Fiberwise properties such as self-adjointness, positiv The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "normed algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/banach-algebra"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (2 core occurrences), including functional-analysis/banach-algebra, functional-analysis/bounded-linear-operator, noncommutative-geometry/pre-cstar-algebra. First occurrence: functional-analysis/banach-algebra / Conventions and scope; context: malization \\(\\lVert1\\rVert=1\\), submultiplicativity only forces \\(\\lVert1\\rVert\\geq1\\). A normed algebra need not be a Banach algebra unless it is complete. A \\(C^*\\)-algebra is a complex Banach algebra with an involution sa This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "ordinary integral",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (2 core occurrences), including complex-analysis/complex-contour-integral, fiber-bundles/euler-class-obstruction-to-nonzero-section, fiber-bundles/pontryagin-number. First occurrence: complex-analysis/complex-contour-integral / core; context: g \\(\\gamma\\) is \\[ \\int_\\gamma f(z)\\,dz =\\int_a^b f(\\gamma(t))\\gamma'(t)\\,dt, \\] with the ordinary integral taken separately in real and imaginary parts on each smooth piece.  ## Invariance and orientation  The integral is inva The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "schrödinger representation",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/stone-von-neumann-theorem"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (2 core occurrences), including lie-groups/metaplectic-representation, lie-groups/orbit-method-induced-representation, lie-groups/stone-von-neumann-theorem. First occurrence: lie-groups/metaplectic-representation / core; context: at implements the action of the [[lie-groups/metaplectic-group|metaplectic group]] on the Schrödinger representation of the Heisenberg group. Equivalently, its operators intertwine Weyl operators according to the underlying symplectic t This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "tangent map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (2 core occurrences), including algebra-rings/formal-inverse-function-theorem, differential-geometry/almost-complex-map, differential-geometry/conformal-map. First occurrence: algebra-rings/formal-inverse-function-theorem / Consequences; context:  solution.  ## Consequences  A pointed formal map is a coordinate change exactly when its tangent map is an isomorphism. In particular, a [[formal-groups/formal-group-law-morphism|morphism of formal group laws]] whose lin The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "canonical form",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-modules/jcf-from-rcf",
+        "algebra-modules/jordan-canonical-form-theorem",
+        "algebra-modules/rational-canonical-form-theorem",
+        "algebra-modules/rcf-from-structure-theorem"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including algebra-modules/jcf-from-rcf, algebra-modules/rcf-from-structure-theorem, differential-geometry/conormal-bundle-lagrangian. First occurrence: algebra-modules/jcf-from-rcf / core; context: over \\(F\\). Then there exists a basis of \\(V\\) for which the matrix of \\(T\\) is in Jordan canonical form.  This follows by refining the invariant-factor decomposition in [[algebra-modules/rcf-from-structure-theorem|rational  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "connected complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including langlands-letter/knowls/characters-separate-semisimple-classes, langlands-letter/knowls/langlands-dual-group, langlands/l-group. First occurrence: langlands-letter/knowls/characters-separate-semisimple-classes / core; context: ncy_heuristic = \"semantic-full-review-v1\" dependency_review_count = 1 +++  Let \\(H\\) be a connected complex [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]. If \\(h,h'\\in H\\) are [[langlands-letter/k The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "fock space",
+      "disposition": "existing_target",
+      "targets": [
+        "shale-paper/symmetric-fock-space"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including operator-algebras/fock-module-cstar-correspondence, shale-paper/duality-transform-D, shale-paper/symmetric-fock-space. First occurrence: operator-algebras/fock-module-cstar-correspondence / Examples and scope; context: thbb C^d\\), \\(\\mathcal F(X)=\\bigoplus_{n\\geq0}(\\mathbb C^d)^{\\otimes n}\\), the usual full Fock space. If \\(X=A\\) with its standard correspondence structure, every tensor power is canonically \\(A\\), so the Fock module is  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "local complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including differential-geometry/complex-coordinate-chart, differential-geometry/newlander-nirenberg-theorem, differential-geometry/twistor-space-quaternionic-manifold. First occurrence: differential-geometry/complex-coordinate-chart / core; context: nctions \\(z^j\\) are the complex coordinates of the chart. A single complex chart supplies local complex coordinates but not a complex structure on all of \\(M\\); that requires an atlas of such charts whose overlap maps are h The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "multilinear map",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/linear-map"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including fiber-bundles/lie-algebra-valued-k-form, fiber-bundles/transgression-form, noncommutative-geometry/cyclic-cohomology. First occurrence: fiber-bundles/lie-algebra-valued-k-form / Equivalent characterizations; context: )\\).  ## Equivalent characterizations  Equivalently, it is a smoothly varying alternating multilinear map \\[ \\alpha_x : (T_xM)^k \\to \\mathfrak{g} \\quad\\text{for each }x\\in M. \\] The space of such forms is commonly denoted \\(\\ This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "pimsner algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/cuntz-pimsner-algebra",
+        "operator-algebras/toeplitz-pimsner-algebra"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including operator-algebras/cuntz-pimsner-algebra, operator-algebras/fock-module-cstar-correspondence, operator-algebras/toeplitz-pimsner-algebra. First occurrence: operator-algebras/cuntz-pimsner-algebra / core; context: , \\] where \\(t^{(1)}\\) is its representation of the compact module operators. The **Cuntz–Pimsner algebra** \\(\\mathcal O_X\\) is the universal \\(C^*\\)-algebra generated by such a covariant representation. Here \\((\\ker\\varphi_X This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "restricted metric",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including convex-analysis/complete-metric-space-complete-subset, convex-analysis/completeness-implies-closedness-closed-subsets-of-complete-spaces-are-complete, topology/isometry. First occurrence: convex-analysis/complete-metric-space-complete-subset / core; context: verges]] to some point \\(x\\in X\\).  A subset \\(E\\subset X\\) is called **complete** if the restricted metric space \\((E,d|_{E\\times E})\\) is complete; equivalently, every Cauchy sequence in \\(E\\) converges to a point of \\(E\\).   The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "symmetric bilinear form",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/bilinear-form",
+        "linear-algebra/signature-of-symmetric-bilinear-form"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including fiber-bundles/bundle-metric, lie-groups/killing-form, lie-groups/orthogonal-group. First occurrence: fiber-bundles/bundle-metric / core; context: each \\(x\\in M\\) such that:  - Each \\(\\langle\\cdot,\\cdot\\rangle_x\\) is a positive-definite symmetric bilinear form on the real vector space \\(E_x\\). - For any smooth local sections \\(s,t:U\\to E\\) (defined on an open set \\(U\\subseteq M This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "unique map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (2 core occurrences), including fiber-bundles/smooth-g-valued-cech-1-cocycle, fiber-bundles/transition-matrix-of-a-local-frame, harmonic-analysis/modular-function. First occurrence: fiber-bundles/smooth-g-valued-cech-1-cocycle / From local sections; context: i:U_i\\to P\\) of a [[fiber-bundles/principal-g-bundle|principal \\(G\\)-bundle]]. There is a unique map \\(g_{ij}\\) on each double overlap such that  \\[ s_j(x)=s_i(x)g_{ij}(x). \\]  Associativity of the action gives \\(g_{ik}= The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "trivial action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 19 source knowls (1 core occurrences), including algebra-groups/fixed-point-set, algebra-groups/kernel-of-action, algebra-groups/split-extension. First occurrence: algebra-groups/fixed-point-set / Examples; context: a-groups/stabilizer|stabilizer]] is all of \\(G\\), i.e. \\(G_x=G\\).  ## Examples  - For the trivial action \\(g\\cdot x=x\\) for all \\(g,x\\), one has \\(X^G=X\\). - For the conjugation action of \\(G\\) on itself, the fixed-point set The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "noncompact manifold",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 13 source knowls (1 core occurrences), including differential-geometry/elliptic-differential-operator, differential-geometry/flux-homomorphism, differential-geometry/hamiltonian-flow. First occurrence: differential-geometry/elliptic-differential-operator / Conventions and scope; context: n; ellipticity of the interior operator alone does not make such a problem Fredholm. On a noncompact manifold, ellipticity alone likewise need not give a Fredholm operator or discrete spectrum.  ## References  1. R. O. Wells Jr., This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "canonical bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/canonical-bundle-complex-manifold"
+      ],
+      "evidence": "Read the phrase in 9 source knowls (1 core occurrences), including differential-geometry/calabi-yau-manifold, differential-geometry/canonical-bundle-complex-manifold, differential-geometry/holomorphic-symplectic-form. First occurrence: differential-geometry/calabi-yau-manifold / Examples; context: plex projective \\(4\\)-space]] is a Calabi–Yau threefold. The adjunction formula makes its canonical bundle trivial, while projectivity supplies a Kähler metric. This example belongs to the full-\\(SU(3)\\) class rather than the  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "character lattice",
+      "disposition": "existing_target",
+      "targets": [
+        "langlands-letter/knowls/maximal-torus-weight-lattice"
+      ],
+      "evidence": "Read the phrase in 8 source knowls (1 core occurrences), including langlands-letter/knowls/dual-lattice, langlands-letter/knowls/maximal-torus-weight-lattice, langlands-letter/knowls/root-vs-weight-lattice-isogeny. First occurrence: langlands-letter/knowls/dual-lattice / Torus lattices; context: he evaluation pairing is Galois-equivariant.  The coordinate ring of a complex torus with character lattice \\(L\\) is the [[algebra-representation-theory/group-algebra|group algebra]] \\(\\mathbb C[L]\\). Thus passing to a dual tor This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "jordan product",
+      "disposition": "existing_target",
+      "targets": [
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ],
+      "evidence": "Read the phrase in 8 source knowls (1 core occurrences), including lie-groups/compact-exceptional-lie-group-f4, lie-groups/exceptional-lie-algebra-f4, nonassociative-algebra/derivation-of-a-jordan-algebra. First occurrence: lie-groups/compact-exceptional-lie-group-f4 / Automorphisms of the Albert algebra; context: phisms of the Albert algebra  Let \\[ H_3(\\mathbb O)=\\{x\\in M_3(\\mathbb O):x=x^*\\} \\] with Jordan product \\(x\\circ y=(xy+yx)/2\\). Although octonionic matrix multiplication is not associative, this symmetrized product makes \\( This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "spectral theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/spectral-theorem-unbounded-self-adjoint",
+        "nonassociative-algebra/spectral-theorem-for-euclidean-jordan-algebras",
+        "shale-paper/spectral-theorem-compact-selfadjoint"
+      ],
+      "evidence": "Read the phrase in 8 source knowls (1 core occurrences), including functional-analysis/compact-resolvent, functional-analysis/self-adjoint-unbounded-operator, harmonic-analysis/discrete-and-continuous-spectrum-unitary-representation. First occurrence: functional-analysis/compact-resolvent / Self-adjoint case and examples; context: ilbert space]], compact resolvent is equivalent to compactness of \\((1+D^2)^{-1/2}\\). The spectral theorem then provides an [[linear-algebra/orthonormal-basis|orthonormal basis]] of eigenvectors, with eigenvalues of finite mul This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "division algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/quaternion-division-algebra",
+        "nonassociative-algebra/hurwitz-theorem",
+        "nonassociative-algebra/real-normed-division-algebra"
+      ],
+      "evidence": "Read the phrase in 7 source knowls (1 core occurrences), including algebra-rings/semifield, linear-algebra/quaternion-division-algebra, nonassociative-algebra/alternative-algebra. First occurrence: algebra-rings/semifield / Convention warning; context: noncommutative division semiring; in finite geometry it can instead mean a nonassociative division algebra. Neither broader usage is intended here: multiplication is commutative and associative. A hyperfield is a different obj This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "regular distribution",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/regular-tempered-distribution",
+        "functional-analysis/distribution"
+      ],
+      "evidence": "Read the phrase in 7 source knowls (1 core occurrences), including functional-analysis/compactly-supported-distribution, functional-analysis/distribution, functional-analysis/distributional-derivative. First occurrence: functional-analysis/compactly-supported-distribution / Operations and examples; context: ed, with singleton support. A nonzero constant function on \\(\\mathbb R^n\\), regarded as a regular distribution, is not compactly supported.  For distributions on \\(\\mathbb R^n\\), convolution of two arbitrary distributions need not This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "free abelian group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-groups/abelian-group"
+      ],
+      "evidence": "Read the phrase in 6 source knowls (1 core occurrences), including algebra-category-theory/functor, algebra-groups/direct-product-groups, algebra-groups/direct-sum-groups. First occurrence: algebra-category-theory/functor / Examples; context: (G)\\to U(H)\\).    This preserves identity maps and composition, hence is a functor.  2. **Free abelian group functor \\(\\mathbf{Set}\\to\\mathbf{Ab}\\):**    Send a set \\(X\\) to the free abelian group \\(\\mathbb Z[X]\\) generated by \\ This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "local form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 6 source knowls (1 core occurrences), including differential-geometry/constant-rank-theorem, fiber-bundles/chernsimons-gauge-transformation-behavior, fiber-bundles/connection-1-form-on-a-principal-bundle. First occurrence: differential-geometry/constant-rank-theorem / Conventions and scope; context: # Conventions and scope  Some texts call this result simply the “rank theorem.” A related local form remains available when the rank is only known to be \\(r\\) at \\(p\\), provided a suitable \\(r\\times r\\) minor stays nonze The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "abstract algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (1 core occurrences), including operator-algebras/bicommutant, operator-algebras/concrete-cstar-algebra, operator-algebras/takai-duality. First occurrence: operator-algebras/bicommutant / Ambient representation; context: representation  The notation \\(S''\\) is relative to the inclusion \\(S\\subseteq B(H)\\). An abstract algebra can have inequivalent concrete representations, and taking the bicommutant after representing it may produce different  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "complex spin representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (1 core occurrences), including differential-geometry/dirac-spinor, differential-geometry/spinor-bundle, fiber-bundles/spin-connection. First occurrence: differential-geometry/dirac-spinor / core; context: and is a [[differential-geometry/weyl-spinor|Weyl spinor]].  “Dirac spinor” specifies the complex spin representation in which the spinor takes values; it does not assert that the spinor satisfies the [[mathematical-physics/dirac-equatio The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "identity functor",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (1 core occurrences), including algebra-category-theory/representable-functor, algebra-homological/hom-left-exact, algebra-homological/tensor-right-exact. First occurrence: algebra-category-theory/representable-functor / Example (Set: the identity functor); context: n \\(F(A)\\).  ## Examples ### Example (Set: the identity functor) In \\(\\mathbf{Set}\\), the identity functor \\(\\mathrm{Id}:\\mathbf{Set}\\to \\mathbf{Set}\\) is representable by the one-point set \\(1\\): \\[ \\mathrm{Hom}_{\\mathbf{Set} This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "one-dimensional representation",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (1 core occurrences), including harmonic-analysis/quasi-regular-representation, lie-groups/cyclic-vector-and-cyclic-representation, lie-groups/fixed-vector-subspace. First occurrence: harmonic-analysis/quasi-regular-representation / Relationship to induction; context: analysis/unitary-induced-representation|unitary representation induced]] from the trivial one-dimensional representation of \\(H\\). This interpretation explains why it is central to harmonic analysis on quotients: its [[harmonic-analysis/coe This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "sheaf category",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (1 core occurrences), including langlands/affine-grassmannian, langlands/level-structure-on-g-bundle, langlands/moduli-stack-of-g-local-systems. First occurrence: langlands/affine-grassmannian / Langlands role; context: of [[langlands/geometric-satake-equivalence|geometric Satake]], the spherical equivariant sheaf category on \\(\\operatorname{Gr}_G\\) is identified with representations of the [[langlands-letter/knowls/langlands-dual-group|Lan This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "zero module",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (1 core occurrences), including algebra-modules/category-of-finitely-generated-projective-modules, algebra-modules/cyclic-module, algebra-modules/direct-sum-modules. First occurrence: algebra-modules/category-of-finitely-generated-projective-modules / core; context: full-subcategory|full subcategory]] of the category of \\(A\\)-modules. It is additive: the zero module is a [[algebra-category-theory/zero-object|zero object]] and finite direct sums are biproducts. Every object is isomorp This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "canonical integral",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including differential-geometry/complex-projective-space, fiber-bundles/chern-class, fiber-bundles/euler-class. First occurrence: differential-geometry/complex-projective-space / Complex, symplectic, and Kähler structure; context:  [[differential-geometry/kahler-class|Kähler class]] lies on the positive ray through the canonical integral generator of \\(H^2(\\mathbb{CP}^n;\\mathbb Z)\\). With the normalization \\(\\omega_{\\mathrm{FS}}=i\\partial\\bar\\partial\\log( The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "closed disk",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including differential-geometry/manifold-with-corners, differential-geometry/neat-submanifold, fiber-bundles/sphere-bundle. First occurrence: differential-geometry/manifold-with-corners / Products and examples; context: h}_N(y). \\] The cube \\([0,1]^n\\), a product of compact intervals, is the basic example. A closed disk is a manifold with boundary and hence also a manifold with corners, but its [[differential-geometry/boundary-and-interi The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "concrete operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including functional-analysis/partial-isometry, operator-algebras/cyclic-vector, operator-algebras/normal-representation. First occurrence: functional-analysis/partial-isometry / Operator-algebra formulation; context: jection-cstar-algebra|projection]]; this implies that \\(vv^*\\) is also a projection. In a concrete operator algebra the two projections record the initial and final spaces. Partial isometries therefore implement [[operator-alge The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "creation operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including operator-algebras/fock-module-cstar-correspondence, operator-algebras/toeplitz-pimsner-algebra, operator-algebras/toeplitz-representation-cstar-correspondence. First occurrence: operator-algebras/fock-module-cstar-correspondence / Creation operators; context: or-degree summands are mutually orthogonal.  ## Creation operators  For \\(\\xi\\in X\\), the creation operator \\(T_\\xi\\) raises tensor degree by one: \\[ T_\\xi(a)=\\xi a,\\qquad T_\\xi(\\eta_1\\otimes\\cdots\\otimes\\eta_n) =\\xi\\otimes\\eta The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "essential ideal",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/essential-ideal"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including operator-algebras/cstar-exact-sequence, operator-algebras/double-centralizer, operator-algebras/essential-ideal. First occurrence: operator-algebras/cstar-exact-sequence / Multiplier example; context: nce from them.  ## Multiplier example  For any \\(C^*\\)-algebra \\(I\\), its embedding as an essential ideal in [[operator-algebras/multiplier-algebra|the multiplier algebra]] yields \\[ 0\\longrightarrow I\\longrightarrow M(I) \\lo This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "forgetful functor",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including algebra-category-theory/adjoint-functors, algebra-category-theory/functor, algebra-category-theory/representable-functor. First occurrence: algebra-category-theory/adjoint-functors / Examples; context: t–Grp).** The free group functor \\(F:\\mathbf{Set}\\to\\mathbf{Grp}\\) is left adjoint to the forgetful functor \\(U:\\mathbf{Grp}\\to\\mathbf{Set}\\). Concretely,    \\[    \\operatorname{Hom}_{\\mathbf{Grp}}(F(X),\\,H)\\cong \\operatorname{ This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "ground field",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including algebra-groups/pgl-psl-comparison, algebraic-geometry-foundations/projective-space, lie-groups/compatible-cartan-subalgebras. First occurrence: algebra-groups/pgl-psl-comparison / Important fields; context:  since \\(\\mathbb F_q^\\times\\) is cyclic. Thus equality is controlled by arithmetic in the ground field, not by notation.  ## Scope warning  This exact sequence concerns groups of \\(k\\)-valued matrices modulo scalar matrice This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "invariant inner product",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including fiber-bundles/atiyah-bott-symplectic-form, lie-groups/cartan-matrix, lie-groups/lie-algebra-compact-is-reductive. First occurrence: fiber-bundles/atiyah-bott-symplectic-form / Conventions and scope; context: try/symplectic-quotient|symplectic quotient]].  ## Conventions and scope  Multiplying the invariant inner product by a positive constant rescales \\(\\omega\\). A sign may also be inserted, especially when authors choose the opposite co The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "nontrivial kernel",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including algebra-groups/group-monomorphism, differential-geometry/symplectic-subspace, linear-algebra/positive-semidefinite-matrix. First occurrence: algebra-groups/group-monomorphism / Examples; context: L_m(\\mathbb{R})\\to\\mathbb{R}^\\times\\) is not a monomorphism for \\(m\\ge 2\\) because it has nontrivial kernel \\(SL_m(\\mathbb{R})\\).  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "primitive ideal",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/primitive-ideal",
+        "operator-algebras/primitive-ideal-space"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including operator-algebras/glimm-type-i-theorem, operator-algebras/hull-kernel-topology, operator-algebras/irreducible-cstar-representation. First occurrence: operator-algebras/glimm-type-i-theorem / Meaning of the kernel condition; context: lways surjective. Its injectivity says that two irreducible representations with the same primitive ideal are unitarily equivalent. Because \\(\\operatorname{Prim}(A)\\) is always \\(T_0\\), failure of the theorem's conditions mea This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "residual spectrum",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/point-continuous-residual-spectrum",
+        "langlands/residual-automorphic-spectrum"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including functional-analysis/point-continuous-residual-spectrum, functional-analysis/spectrum-closed-operator, harmonic-analysis/discrete-and-continuous-spectrum-unitary-representation. First occurrence: functional-analysis/point-continuous-residual-spectrum / core; context: to the **continuous spectrum** when its range is dense but not all of \\(X\\), and to the **residual spectrum** when its range is not dense. With this disjoint convention, these three sets partition the spectrum of a closed opera This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "structure theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-modules/rcf-from-structure-theorem",
+        "algebra-modules/structure-theorem-pid"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including algebra-modules/fg-projective-locally-free, fiber-bundles/chern-number, operator-algebras/finite-von-neumann-algebra. First occurrence: algebra-modules/fg-projective-locally-free / core; context: mathfrak p}\\) is a free \\(R_{\\mathfrak p}\\)-module of finite rank.  This is a fundamental structure theorem for [[algebra-modules/projective-module|projective modules]] over a [[algebra-rings/commutative-ring|commutative ring]] This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "underlying manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including differential-geometry/time-orientation, lie-groups/closed-subgroup-lie-group, lie-groups/compact-symplectic-group. First occurrence: differential-geometry/time-orientation / Transformations; context: chronous Lorentz group]].  Time orientation is additional structure: orientability of the underlying manifold does not imply time-orientability, nor conversely.  ## References  1. Barrett O'Neill, *Semi-Riemannian Geometry With A The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "zero ring",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (1 core occurrences), including algebra-commutative/localization-ring, algebra-commutative/multiplicative-set, algebra-rings/quotient-ring. First occurrence: algebra-commutative/localization-ring / Construction by fractions; context: \\] The canonical map is \\(\\iota(r)=\\frac{r}{1}\\).  If \\(0\\in S\\), then \\(S^{-1}R\\) is the zero ring.  ## Universal map  The homomorphism supplied by the universal property is explicitly \\[ \\widetilde\\varphi\\!\\left(\\frac This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "algebra bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "operator-algebras/upper-semicontinuous-cstar-bundle"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including fiber-bundles/associated-vector-bundle, fiber-bundles/construction-adjoint-lie-algebra-bundle-ad, fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1. First occurrence: fiber-bundles/associated-vector-bundle / Examples; context: e    \\[    \\mathrm{Ad}(P)=P\\times_G \\mathfrak{g},    \\]    which is the usual adjoint Lie algebra bundle (see [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|construction of the adjoint Lie algebra bundle]]).  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "binary product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including algebra-modules/direct-product-modules, nonassociative-algebra/hermitian-jordan-triple-system, nonassociative-algebra/tripotent-in-a-jordan-triple-system. First occurrence: algebra-modules/direct-product-modules / Examples; context:  no finiteness restriction. - For modules \\(M,N\\), the product \\(M\\times N\\) is the usual binary product with projections. - If each \\(M_i=0\\), then the product is \\(0\\), even if \\(I\\) is infinite.  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "chosen complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including differential-geometry/dirac-spinor, fiber-bundles/chern-number, lie-groups/complex-lie-algebra-sl3. First occurrence: differential-geometry/dirac-spinor / core; context: euristic = \"semantic-full-review-v1\" dependency_review_count = 1 +++  Let \\(\\Delta\\) be a chosen complex [[differential-geometry/spinor-module|spinor module]]. A **Dirac spinor** is an element of \\(\\Delta\\). On a spin manifo The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "commutative model",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including operator-algebras/c0-function-algebra, operator-algebras/left-ideal-of-weight, operator-algebras/support-projection-of-functional. First occurrence: operator-algebras/c0-function-algebra / Why it is canonical; context: , generally nonunital counterpart of the compact-space algebra \\(C(X)\\), and is the basic commutative model for ideals, spectra, and [[operator-algebras/multiplier-algebra|multiplier algebras]].  ## References  1. Gerard J. Mur The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "continuous linear map",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/continuous-linear-map",
+        "functional-analysis/equicontinuous-family-linear-maps",
+        "linear-algebra/linear-map"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including functional-analysis/continuous-linear-map, functional-analysis/equicontinuous-family-linear-maps, functional-analysis/projective-limit-locally-convex-spaces. First occurrence: functional-analysis/continuous-linear-map / core; context: al-analysis/topological-vector-space|topological vector spaces]] over the same field. A **continuous linear map** \\(T:E\\to F\\) is a [[linear-algebra/linear-map|linear map]] that is continuous for the given topologies. Linearity mak This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "decomposition theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including nonassociative-algebra/peirce-decomposition, operator-algebras/central-decomposition, operator-algebras/completely-bounded-map. First occurrence: nonassociative-algebra/peirce-decomposition / core; context: {x\\in J:e\\circ x=\\lambda x\\}, \\qquad \\lambda\\in\\left\\{0,\\tfrac12,1\\right\\}. \\] The Peirce decomposition theorem says that multiplication by \\(e\\) is diagonalizable with these possible eigenvalues and gives the direct sum \\[ J=J_0(e The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "equivariant horizontal distribution",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/horizontal-distribution"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including fiber-bundles/existence-of-principal-connections-on-smooth-manifolds, fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback, fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em. First occurrence: fiber-bundles/existence-of-principal-connections-on-smooth-manifolds / Equivalent characterizations; context: acterizations  Equivalently: every principal bundle over a smooth manifold admits a \\(G\\)-equivariant horizontal distribution \\(H\\subset TP\\) complementary to the vertical subbundle.  ## Examples  1. **Trivial bundle.** On \\(P=M\\times G\\), the p This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "finite-to-one map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including langlands/local-langlands-compatibilities, langlands/local-langlands-correspondence, langlands/local-langlands-correspondence-for-gln. First occurrence: langlands/local-langlands-compatibilities / Refined compatibilities; context: d endoscopic character identities. These data distinguish parametrizations that the basic finite-to-one map cannot distinguish.  ## Normalization discipline  The displayed principles do not remove normalization choices. Recipro The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "fock module",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/fock-module-cstar-correspondence"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including operator-algebras/fock-module-cstar-correspondence, operator-algebras/toeplitz-pimsner-algebra, operator-algebras/toeplitz-representation-cstar-correspondence. First occurrence: operator-algebras/fock-module-cstar-correspondence / core; context: perator-algebras/internal-tensor-product-correspondences|internal tensor product]]. The **Fock module** of \\(X\\) is the [[operator-algebras/hilbert-cstar-module|Hilbert \\(A\\)-module]] \\[ \\mathcal F(X)=\\bigoplus_{n=0}^{\\in This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "hilbert-space inner product",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/inner-product"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including operator-algebras/vector-functional, quantum-foundations/antiunitary-operator, shale-paper/complex-structure-lambda. First occurrence: operator-algebras/vector-functional / Dependence on representation and conventions; context: s/natural-positive-cone|natural positive cone]]. With the alternative convention that the Hilbert-space inner product is linear in the second variable, authors reverse the vector order in the notation so that \\(x\\mapsto\\omega_{\\xi,\\eta}( This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "langlands group",
+      "disposition": "existing_target",
+      "targets": [
+        "langlands/l-group",
+        "langlands/weil-deligne-group"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including langlands/automorphic-galois-correspondence, langlands/global-langlands-parameter, langlands/l-group. First occurrence: langlands/automorphic-galois-correspondence / Not a naive bijection; context: on captures the algebraic part of the automorphic spectrum, whereas a hypothetical global Langlands group is meant to parameterize more general automorphic representations.  ## References  1. Kevin Buzzard and Toby Gee, “The  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "lie-algebra representation",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including lie-groups/exterior-power-representation, lie-groups/garding-density-theorem, lie-groups/pbw-theorem. First occurrence: lie-groups/exterior-power-representation / Group versus Lie algebra; context:  group formula gives the displayed derivation formula. Conversely, an exterior power of a Lie-algebra representation integrates whenever the original representation does, but the global representation still belongs naturally to the same This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "minkowski space",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/hermitian-matrix-model-of-minkowski-space",
+        "mathematical-physics/minkowski-spacetime",
+        "supergeometry/super-minkowski-space"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including differential-geometry/celestial-sphere, lie-groups/lorentz-group, lie-groups/poincare-group. First occurrence: differential-geometry/celestial-sphere / Geometric meaning; context: lestial sphere with its standard complex structure.  ## Geometric meaning  At an event in Minkowski space, future null directions are possible directions of incoming or outgoing light. A choice of inertial observer identifies This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "nonarchimedean field",
+      "disposition": "existing_target",
+      "targets": [
+        "algebraic-geometry-foundations/perfectoid-field"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including algebraic-geometry-foundations/perfectoid-field, langlands-letter/knowls/simply-connected-semisimple-group, langlands/local-langlands-correspondence. First occurrence: algebraic-geometry-foundations/perfectoid-field / core; context: tic-full-review-v1\" dependency_review_count = 1 +++  A **perfectoid field** is a complete nonarchimedean field \\(K\\) with a nondiscrete rank-one [[algebra-fields-galois/valuation-on-a-field|valuation]], residue characteristic \\(p> This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "principal circle bundle",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including fiber-bundles/construction-product-principal-bundle-when-defined, fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle, fiber-bundles/section-of-a-fiber-bundle. First occurrence: fiber-bundles/construction-product-principal-bundle-when-defined / Examples; context: dle of a [[differential-geometry/riemannian-manifold|Riemannian manifold]] and \\(Q\\) is a principal circle bundle over the same base, then \\(P\\times_M Q\\) is a principal \\((\\mathrm{SO}(n)\\times S^1)\\)-bundle encoding both structures  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "real manifold",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including differential-geometry/lagrangian-grassmannian, fiber-bundles/vector-bundle-valued-differential-form, lie-groups/underlying-real-lie-group. First occurrence: differential-geometry/lagrangian-grassmannian / Conventions and scope; context: tic vector space is a different homogeneous variety and should not be conflated with this real manifold.  ## References  1. V. I. Arnol'd, “On a characteristic class entering into conditions of quantization,” *Functional An This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "regular module",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including algebra-category-theory/representable-functor, algebra-modules/cyclic-module, algebra-rings/semisimple-ring. First occurrence: algebra-category-theory/representable-functor / Example (\\(R\\)-Mod: the forgetful functor); context: athbf{Mod}\\to \\mathbf{Set}\\) be the forgetful functor. Then \\(U\\) is representable by the regular module \\(R\\): \\[ \\mathrm{Hom}_{R}(R,M)\\cong U(M), \\] via \\(\\varphi\\mapsto \\varphi(1)\\). This is natural in \\(M\\).  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "set form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including algebra-category-theory/monoidal-category, shared-foundations/bounded-infinite-set-has-limit-point, shared-foundations/lattice. First occurrence: algebra-category-theory/monoidal-category / Examples; context: out making arbitrary choices.  ## Examples  - Sets with Cartesian product and a one-point set form a monoidal category. - Modules over a commutative ring form a monoidal category under [[algebra-modules/tensor-product| The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "standard action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function, lie-groups/example-sphere-homogeneous, nonassociative-algebra/octonions-as-complex-vectors. First occurrence: fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function / Examples; context: ^1\\) are exactly the ones above. The nontrivial principal \\(O(1)\\)-bundle yields, via the standard action on \\(\\mathbb R\\), the Möbius real line bundle as an associated vector bundle (compare [[fiber-bundles/associated-vector The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "supported group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including differential-geometry/compactly-supported-de-rham-cohomology, differential-geometry/hamiltonian-diffeomorphism, operator-algebras/amenability-full-reduced-equivalence. First occurrence: differential-geometry/compactly-supported-de-rham-cohomology / Duality and examples; context:  ordinary de Rham cohomology coincide. For \\(\\mathbb R^n\\), only the top-degree compactly supported group is nonzero, and integration identifies it with \\(\\mathbb R\\).  ## References  1. Raoul Bott and Loring W. Tu, *Differen The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "topological category",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including differential-geometry/cobordism-category, fiber-bundles/nowhere-vanishing-section, lie-groups/infinitesimal-equivalence-of-representations. First occurrence: differential-geometry/cobordism-category / Why collars enter; context: akes composition associative. Keeping embeddings and collars instead leads naturally to a topological category.  ## Structured variants  The oriented cobordism category uses oriented objects and [[differential-geometry/oriented-co This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "underlying bundle",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections, fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric, fiber-bundles/moduli-space-of-flat-connections. First occurrence: fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections / Basic identities; context: j}\\) by an [[fiber-bundles/equivalence-of-cocycles|equivalence of cocycles]], leaving the underlying bundle unchanged.  ## Examples 1. **Trivial bundle.** For \\(P=M\\times G\\) with [[fiber-bundles/section-of-a-fiber-bundle|globa This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "unit ideal",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including algebra-commutative/localization-preserves-primality, algebra-modules/fg-projective-locally-free, algebra-rings/primitive-polynomial. First occurrence: algebra-commutative/localization-preserves-primality / Examples; context: \\(q\\neq p\\), then \\((q)\\cap S\\neq\\varnothing\\) (since \\(q\\in S\\)), so \\((q)\\) becomes the unit ideal after localization.    - Also \\((0)\\cap S=\\varnothing\\), so \\((0)\\) extends to \\((0)\\) in \\(\\mathbb Z_{(p)}\\).  2. **In This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "vectors form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (1 core occurrences), including algebra-modules/noetherian-module, lie-groups/dixmier-malliavin-factorization-theorem, lie-groups/k-finite-vector. First occurrence: algebra-modules/noetherian-module / Examples; context: _{n\\ge 1}\\mathbb Z\\) is not Noetherian: the submodules generated by the first \\(k\\) basis vectors form a strictly increasing chain.  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "poincaré disk",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/poincare-disk-model"
+      ],
+      "evidence": "Read the phrase in 2 source knowls (1 core occurrences), including mathematical-physics/compact-hyperbolic-surface, mathematical-physics/hyperbolic-plane-wave. First occurrence: mathematical-physics/compact-hyperbolic-surface / Disk model; context: s of the hyperbolic plane.  ## Disk model  The hyperbolic plane may be represented by the Poincaré disk \\(\\mathbb D=\\{z\\in\\mathbb C:|z|<1\\}\\). Its ideal boundary is \\(S^1\\), and each complete geodesic has two endpoints ther This is an established reusable concept already represented in the corpus. The dedicated model target is canonical; its metric and boundary convention matches the reported use. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "unbounded operator",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/operator-commutator",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/spectrum-closed-operator",
+        "operator-algebras/regular-operator-hilbert-cstar-module"
+      ],
+      "evidence": "Read the phrase in 14 source knowls (0 core occurrences), including differential-geometry/formal-adjoint-differential-operator, functional-analysis/compact-resolvent, functional-analysis/core-of-closed-operator. First occurrence: differential-geometry/formal-adjoint-differential-operator / Boundary terms and analytic adjoints; context: et, Neumann, or other domains.  The formal adjoint is not automatically the adjoint of an unbounded operator on an \\(L^2\\) [[linear-algebra/hilbert-space|Hilbert space]]. The latter depends on a specified dense domain and on com This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "matrices form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 12 source knowls (0 core occurrences), including algebra-rings/nil-ideal, algebra-rings/subring, algebra-rings/two-sided-ideal. First occurrence: algebra-rings/nil-ideal / Examples; context: e ring of upper triangular \\(n\\times n\\) matrices over a field, strictly upper triangular matrices form a nil ideal. - The zero ideal \\(\\{0\\}\\) is nil in every ring.  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "dual group",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/pontryagin-dual",
+        "langlands-letter/knowls/langlands-dual-group"
+      ],
+      "evidence": "Read the phrase in 9 source knowls (0 core occurrences), including algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety, harmonic-analysis/fourier-transform-lca, harmonic-analysis/pontryagin-dual. First occurrence: algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety / What this does and does not identify; context: lysis/riemann-sphere|Riemann sphere]], while in Langlands duality \\(PGL_2\\) occurs as the dual group of \\(SL_2\\). These are different roles of the same algebraic group.  ## References  1. T. A. Springer, *Linear Algebrai This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "arbitrary representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 7 source knowls (0 core occurrences), including fiber-bundles/wilson-loop, harmonic-analysis/amenability-trivial-representation-weak-containment, operator-algebras/cstar-representation. First occurrence: fiber-bundles/wilson-loop / Geometric meaning; context: gl(\\rho(h_{A,\\gamma,p}^{-1})\\bigr), \\] which need not equal \\(W_{\\rho,\\gamma}(A)\\) for an arbitrary representation.  ## Conventions  Some authors normalize the trace by \\(\\dim V\\), insert a sign or coupling constant in the exponential The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "linear connection",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/principal-connection"
+      ],
+      "evidence": "Read the phrase in 7 source knowls (0 core occurrences), including fiber-bundles/cartans-first-structure-equation, fiber-bundles/ehresmann-connection, fiber-bundles/horizontal-lift-of-a-curve. First occurrence: fiber-bundles/cartans-first-structure-equation / Remarks; context:  is horizontal and \\(G\\)-equivariant; it corresponds to the torsion tensor of the induced linear connection \\(\\nabla\\) on \\(TM\\), namely \\[ T_\\nabla(X,Y)=\\nabla_XY-\\nabla_YX-[X,Y], \\] where \\([X,Y]\\) is the [[fiber-bundles/lie- This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "reduction map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 7 source knowls (0 core occurrences), including algebra-groups/group-epimorphism, algebra-groups/group-homomorphism, algebra-groups/kernel-group. First occurrence: algebra-groups/group-epimorphism / Examples; context: algebra-groups/quotient-group|quotient group]] \\(G/N\\) is surjective.  ## Examples  - The reduction map \\(\\mathbb{Z}\\to\\mathbb{Z}/n\\mathbb{Z}\\) is an epimorphism of additive groups. - The projection \\(G\\times H\\to G\\) is a  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "discrete space",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 6 source knowls (0 core occurrences), including algebra-commutative/artinian-ring, operator-algebras/commutative-cstar-algebra, operator-algebras/sigma-unital-cstar-algebra. First occurrence: algebra-commutative/artinian-ring / Key consequences in the commutative case; context: every prime ideal is maximal. In terms of spectra, \\(\\operatorname{Spec}(R)\\) is a finite discrete space and coincides with the [[algebra-commutative/maximal-spectrum|maximal spectrum]]. - The Jacobson radical (the [[algebra This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "nonunimodular group",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/unimodular-group",
+        "operator-algebras/modular-automorphism-group"
+      ],
+      "evidence": "Read the phrase in 6 source knowls (0 core occurrences), including harmonic-analysis/convolution-involution, harmonic-analysis/haar-measure, harmonic-analysis/integrated-form-unitary-representation. First occurrence: harmonic-analysis/convolution-involution / The unimodular case; context:  the formula reduces to \\(f^*(x)=\\overline{f(x^{-1})}\\). Dropping the modular factor on a nonunimodular group generally destroys both the \\(L^1\\)-isometry and the adjoint identity for integrated representations.  ## Conventions a This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "bundle connection",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "fiber-bundles/flat-vector-bundle-connection",
+        "fiber-bundles/hom-bundle-connection"
+      ],
+      "evidence": "Read the phrase in 5 source knowls (0 core occurrences), including fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles, fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection, fiber-bundles/construction-curvature-of-an-induced-associated-connection-via-representation. First occurrence: fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles / Remarks; context: ssociated vector bundle]], and the induced Ehresmann connection is equivalent to a vector bundle connection \\(\\nabla\\) on \\(E\\) (compare [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]]). One concre This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "global form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (0 core occurrences), including fiber-bundles/partition-of-unity-subordinate-to-an-open-cover, lie-groups/borel-de-siebenthal-theory, lie-groups/branching-rule-for-lie-representations. First occurrence: fiber-bundles/partition-of-unity-subordinate-to-an-open-cover / Examples; context:  are differential forms defined on \\(U_i\\), then \\(\\sum_i \\varphi_i\\,\\alpha_i\\) defines a global form when the \\(\\alpha_i\\) agree on overlaps in the appropriate sense; local finiteness ensures the sum is pointwise finite. The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "normalized haar measure",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/dual-haar-measure",
+        "harmonic-analysis/haar-measure"
+      ],
+      "evidence": "Read the phrase in 5 source knowls (0 core occurrences), including harmonic-analysis/dual-haar-measure, harmonic-analysis/plancherel-theorem-lca, harmonic-analysis/reiter-condition. First occurrence: harmonic-analysis/dual-haar-measure / Standard normalizations; context:  has normalized Haar [[probability/probability-measure|probability measure]]. Conversely, normalized Haar measure on the circle is dual to counting measure on \\(\\mathbb Z\\).  **Warning.** Changing the exponential from \\(e^{2\\pi i x\\c This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "quaternion group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-groups/quaternion-group"
+      ],
+      "evidence": "Read the phrase in 5 source knowls (0 core occurrences), including algebra-groups/center-of-group, algebra-groups/central-extension, algebra-groups/nilpotent-group. First occurrence: algebra-groups/center-of-group / Examples; context: xamples  - If \\(G\\) is abelian, then \\(Z(G)=G\\). - In \\(S_3\\), \\(Z(S_3)=\\{e\\}\\). - In the quaternion group \\(Q_8\\), the center is \\(\\{\\pm 1\\}\\).  No existing canonical target supplies this independently reusable concept; the occurrences refer to finite quaternion group Q_8 and its presentation. Proposed ID algebra-groups/quaternion-group. Creation requires checking the local convention and adding a minimal definition before linking uses.",
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "second-countable manifold",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 5 source knowls (0 core occurrences), including differential-geometry/smooth-exhaustion-function, fiber-bundles/module-of-smooth-sections, fiber-bundles/serre-swan-idempotent-construction. First occurrence: differential-geometry/smooth-exhaustion-function / Existence and construction; context: sulting locally finite sum becomes proper. This is a smooth refinement of the fact that a second-countable manifold is \\(\\sigma\\)-compact.  Moreover, one can arrange additional properties, such as agreement with a prescribed function o This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "symmetry group",
+      "disposition": "existing_target",
+      "targets": [
+        "mathematical-physics/standard-model-gauge-group"
+      ],
+      "evidence": "Read the phrase in 5 source knowls (0 core occurrences), including lie-groups/compact-exceptional-lie-group-e8, lie-groups/restricted-weyl-group, lie-groups/symplectic-group. First occurrence: lie-groups/compact-exceptional-lie-group-e8 / Paper context; context: ed subgroups.  ## Paper context  Neither construction uses compact \\(E_8\\) as its ambient symmetry group: the three-generation construction uses complex \\(\\mathfrak e_7\\), and the exceptional-Jordan-algebra construction uses This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "all complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including complex-analysis/cross-ratio, differential-geometry/category-of-complex-manifolds, mathematical-physics/gamma-matrices. First occurrence: complex-analysis/cross-ratio / Projective meaning; context: ations|cross-ratio invariance theorem]]. Conversely, a bijection of the sphere preserving all complex cross-ratios is [[complex-analysis/cross-ratio-preserving-bijections-are-mobius|necessarily Möbius]].  ## Ordering conv The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "chern form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including fiber-bundles/chern-class, fiber-bundles/chernweil-form, fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection. First occurrence: fiber-bundles/chern-class / Definition (Chern forms and Chern classes); context: bundles/curvature|curvature]].  ## Definition (Chern forms and Chern classes) The **total Chern form** of \\(\\nabla\\) is the even differential form \\[ c(\\nabla)\\;:=\\;\\det\\!\\Big(I+\\frac{i}{2\\pi}F_\\nabla\\Big)\\;\\in\\;\\Omega^{ The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "dimensional standard representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including algebra-representation-theory/induced-representation, algebra-representation-theory/maschke-corollary, algebra-representation-theory/number-irreducibles-conjugacy-classes. First occurrence: algebra-representation-theory/induced-representation / Example 2: \\(S_3\\) induced from an \\(S_2\\) subgroup; context: }, \\] i.e. a \\(1\\)-dimensional invariant subspace (spanned by \\((1,1,1)\\)) plus the \\(2\\)-dimensional standard representation (compare [[algebra-representation-theory/completely-reducible-representation|complete reducibility]]).  ### Example 3:  The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "flat model",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including differential-geometry/lorentzian-dirac-operator, fiber-bundles/cartan-connection, fiber-bundles/g-structure. First occurrence: differential-geometry/lorentzian-dirac-operator / Scope; context: utative-geometry/dirac-operator|Dirac operator]], but their analytic theories differ. The flat model is the [[mathematical-physics/minkowski-dirac-operator|Minkowski Dirac operator]]. Choices of invariant spinor pairing  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "holomorphic bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/holomorphic-line-bundle",
+        "differential-geometry/holomorphic-section",
+        "differential-geometry/holomorphic-vector-bundle-morphism",
+        "fiber-bundles/chern-connection"
+      ],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including differential-geometry/holomorphic-cotangent-bundle, differential-geometry/holomorphic-tangent-bundle, fiber-bundles/chern-curvature. First occurrence: differential-geometry/holomorphic-cotangent-bundle / Exterior powers; context: rightarrow\\Omega_X^1 \\] by precomposition with its differential.  ## Exterior powers  The holomorphic bundle of \\(p\\)-forms is \\(\\Omega_X^p=\\Lambda^p\\Omega_X^1\\). Its local sections are holomorphic \\((p,0)\\)-forms. If \\(n=\\dim_{ This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "invariant quotient",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including harmonic-analysis/locally-compact-homogeneous-space, harmonic-analysis/quasi-regular-representation, harmonic-analysis/weil-integration-formula. First occurrence: harmonic-analysis/locally-compact-homogeneous-space / Measures on the quotient; context: erms of integration along \\(H\\) and over \\(G/H\\), including the correction needed when an invariant quotient measure does not exist.  ## Lie-group specialization  When \\(G\\) is a Lie group, every closed subgroup \\(H\\) is a [[lie This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "nonzero ideal",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including algebra-commutative/dvr, algebra-modules/torsion-element, operator-algebras/essential-ideal. First occurrence: algebra-commutative/dvr / Equivalent characterizations; context: me ideal (namely \\(\\mathfrak m\\)). 3. There exists \\(\\pi\\in \\mathfrak m\\) such that every nonzero ideal of \\(R\\) is of the form \\((\\pi^n)\\) for a unique \\(n\\ge 0\\).  In particular, in a DVR the ideals form a totally ordered This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "rational function field",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including algebra-commutative/integral-closure, algebra-fields-galois/frobenius-endomorphism, algebra-fields-galois/intermediate-field. First occurrence: algebra-commutative/integral-closure / Examples; context: k\\) be a [[algebra-rings/field|field]] and consider \\(R=k[x^2,x^3]\\subseteq A=k(x)\\) (the rational function field in \\(x\\)). The element \\(x\\in k(x)\\) satisfies the monic equation \\(T^2-x^2=0\\) with \\(x^2\\in R\\), so \\(x\\) is integral The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "simply connected form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including langlands-letter/knowls/root-vs-weight-lattice-isogeny, lie-groups/compact-exceptional-lie-group-e7, lie-groups/root-lattice. First occurrence: langlands-letter/knowls/root-vs-weight-lattice-isogeny / Dual statement; context: the coweight lattice—not the integral duals of \\(Q\\) and \\(P\\) with the same symbols. The simply connected form has \\(X_*(T)=Q^\\vee\\), while the adjoint form has the full coweight lattice. The [[langlands-letter/knowls/langlands-du The phrase is grammatical prose, a modifier plus locally defined notation, or a field-dependent description; it does not name one independently reusable object. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "standard model algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including lie-groups/complex-lie-algebra-sl3, lie-groups/en-series-of-lie-algebras, lie-groups/exceptional-lie-algebra-e7. First occurrence: lie-groups/complex-lie-algebra-sl3 / Paper context; context: t  In the three-generation construction, one copy is the color factor in the complexified Standard Model algebra \\(\\mathbb C\\oplus\\mathfrak{sl}_2\\oplus\\mathfrak{sl}_3\\), while a commuting copy \\(\\mathfrak{sl}_3^{\\mathrm{gen}}\\) rela The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "trivial oriented bundle",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 4 source knowls (0 core occurrences), including fiber-bundles/euler-class-as-zero-section, fiber-bundles/special-orthonormal-frame-bundle-reduction, fiber-bundles/thom-class. First occurrence: fiber-bundles/euler-class-as-zero-section / Examples and conventions; context: he cohomological form of the Poincaré–Hopf theorem.  ## Examples and conventions  For the trivial oriented bundle \\(B\\times\\mathbb R^r\\) with \\(r>0\\), a constant nonzero section shows that \\(e(E)=0\\). For the tangent bundle of the or This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "anti-self-dual curvature",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including fiber-bundles/instanton, fiber-bundles/yangmills-equation, fiber-bundles/yangmills-functional. First occurrence: fiber-bundles/instanton / Relation to the Yang–Mills equation; context: lls connection]]. The converse fails: a Yang–Mills connection can have both self-dual and anti-self-dual curvature components.  On a compact four-manifold, the orthogonal decomposition \\(F_A=F_A^++F_A^-\\) rewrites the Yang–Mills actio This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "bijective holomorphic map",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/holomorphic-map"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including complex-analysis/open-mapping-theorem, differential-geometry/holomorphic-map, differential-geometry/riemann-surface. First occurrence: complex-analysis/open-mapping-theorem / Consequences; context:  image of a small neighborhood to contain a neighborhood of \\(f(a)\\).  ## Consequences  A bijective holomorphic map between plane domains has holomorphic inverse: continuity of the inverse follows because the map is open, and local [[c This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "characters form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including algebra-representation-theory/character-orthonormality, algebra-representation-theory/irreducible-character, harmonic-analysis/unitary-character. First occurrence: algebra-representation-theory/character-orthonormality / Consequences; context: \\).  2. **Orthonormal basis of class functions (over \\(\\mathbb C\\)).**    The irreducible characters form an orthonormal basis of \\(\\mathrm{Cl}(G;\\mathbb C)\\). In particular, every class function \\(f\\) has a unique expansion  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "common kernel",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including lie-groups/langlands-decomposition-of-a-parabolic, operator-algebras/cstar-algebra-generators-relations, operator-algebras/universal-cstar-algebra. First occurrence: lie-groups/langlands-decomposition-of-a-parabolic / Construction from restricted roots; context: roots defining \\(P\\). The [[lie-groups/lie-algebra|Lie algebra]] \\(\\mathfrak a_P\\) is the common kernel in \\(\\mathfrak a\\) of those roots, \\(A=\\exp(\\mathfrak a_P)\\), and \\(\\mathfrak n\\) is the sum of the positive restricted The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "connects representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including harmonic-analysis/tempered-unitary-representation, lie-groups/maximal-compact-subgroup-real-reductive-group, lie-groups/relative-lie-algebra-cohomology. First occurrence: harmonic-analysis/tempered-unitary-representation / Role in harmonic analysis; context: nalysis/unitary-dual|unitary dual]] detected by \\(C_r^*(G)\\), explaining why temperedness connects representation theory with reduced group \\(C^*\\)-algebras.  ## References  1. Michael Cowling, Uffe Haagerup, and Roger Howe, “Almost  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "coordinate map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including differential-geometry/coordinate-chart-isomorphism-in-smooth-manifolds, fiber-bundles/smooth-manifold, supergeometry/superdomain. First occurrence: differential-geometry/coordinate-chart-isomorphism-in-smooth-manifolds / What the chart itself is; context: lf is  Strictly, a chart is the pair \\((U,\\varphi)\\), not only the arrow \\(\\varphi\\). The coordinate map is generally not a morphism with domain all of \\(M\\); its domain is the open submanifold \\(U\\). It sits beside the smoo The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "determinant measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including complex-analysis/complex-monge-ampere-operator, complex-analysis/quaternionic-monge-ampere-measure, convex-analysis/pluripotential-valuation-construction. First occurrence: complex-analysis/complex-monge-ampere-operator / Nonsmooth extension; context: ic functions by iterated products of positive currents. The result agrees with the smooth determinant measure and is continuous under appropriate monotone limits. For arbitrary unbounded PSH functions the operator is not automati The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "disconnected group",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/smooth-representation-totally-disconnected-group"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including fiber-bundles/invariant-polynomial-on-a-lie-algebra, langlands-letter/knowls/borel-mostow-semisimple-normalizer, lie-groups/commutator-subgroup-of-a-lie-group. First occurrence: fiber-bundles/invariant-polynomial-on-a-lie-algebra / Infinitesimal characterization; context: n\\mathfrak g\\). This is obtained by differentiating the group invariance condition. For a disconnected group it tests only invariance under the identity component, so the remaining components must be checked separately.  The inv This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "fixed norm",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including lie-groups/weak-strong-continuity-equivalence-unitary-representations, lie-groups/weakly-continuous-unitary-representation, topology/hausdorff-distance. First occurrence: lie-groups/weak-strong-continuity-equivalence-unitary-representations / Why unitarity matters; context:  Translation then gives continuity at every group element.  ## Why unitarity matters  The fixed norm \\(\\lVert\\pi(g)\\xi\\rVert=\\lVert\\xi\\rVert\\) turns weak convergence of an orbit to \\(\\xi\\) into norm convergence through t The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "hessian measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including complex-analysis/quaternionic-monge-ampere-measure, convex-analysis/octonionic-pseudovolume, convex-analysis/support-function. First occurrence: complex-analysis/quaternionic-monge-ampere-measure / Continuous potentials; context: onvergence|uniform convergence]]. This is the quaternionic analogue of Aleksandrov's real Hessian measure and the Chern–Levine–Nirenberg/Bedford–Taylor [[complex-analysis/complex-monge-ampere-operator|complex Monge–Ampère mea The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "indiscrete topology",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including topology/closed-set, topology/open-set, topology/topology. First occurrence: topology/closed-set / Examples; context: is closed. - In the discrete topology on \\(X\\), every subset of \\(X\\) is closed. - In the indiscrete topology on \\(X\\), the only closed sets are \\(\\varnothing\\) and \\(X\\).  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "irreducible complex representation",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including algebra-representation-theory/schur-corollary, lie-groups/casimir-element-and-casimir-operator, lie-groups/dynkin-diagram-automorphisms-and-dual-representations. First occurrence: algebra-representation-theory/schur-corollary / Examples; context: \\(k\\) has \\(\\dim(V)=1\\).  ## Examples  1. **\\(C_n\\).**    Since \\(C_n\\) is abelian, every irreducible complex representation is \\(1\\)-dimensional. Concretely, if \\(C_n=\\langle g\\rangle\\) and \\(\\zeta=e^{2\\pi i/n}\\), the irreducibles are the char This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "larger category",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including differential-geometry/diffeomorphism-groupoid-of-smooth-manifolds, differential-geometry/product-manifold, lie-groups/lie-algebra. First occurrence: differential-geometry/diffeomorphism-groupoid-of-smooth-manifolds / What the core forgets; context: ions and the [[differential-geometry/tangent-functor|tangent functor]] are defined on the larger category.  ## Automorphisms  The automorphism group of \\(M\\) in \\(\\mathbf{Man}^{\\simeq}\\) is its [[differential-geometry/diffeom The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "monic equation",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including algebra-commutative/integral-closure, algebra-commutative/integral-element, algebra-commutative/noether-normalization-lemma. First occurrence: algebra-commutative/integral-closure / Examples; context:  A=k(x)\\) (the rational function field in \\(x\\)). The element \\(x\\in k(x)\\) satisfies the monic equation \\(T^2-x^2=0\\) with \\(x^2\\in R\\), so \\(x\\) is integral over \\(R\\). Thus the integral closure contains \\(k[x]\\). In fact  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "nonorientable bundle",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including fiber-bundles/euler-class-as-zero-section, fiber-bundles/euler-class-obstruction-to-nonzero-section, fiber-bundles/thom-isomorphism-theorem. First occurrence: fiber-bundles/euler-class-as-zero-section / Examples and conventions; context: nonzero. Reversing the orientation of \\(E\\) changes the sign of \\(e(E)\\).  **Warning.** A nonorientable bundle requires local coefficients; with \\(\\mathbb Z/2\\)-coefficients the analogous construction yields its top [[fiber-bundle This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "one group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including algebra-category-theory/tannakian-category, algebraic-geometry-foundations/g-torsor-on-a-site, langlands/l-packet. First occurrence: algebra-category-theory/tannakian-category / Tannaka reconstruction; context: not necessarily neutral over \\(k\\); its fiber functors form a gerbe rather than selecting one group scheme over \\(k\\).  ## Langlands examples  The [[langlands/geometric-satake-equivalence|geometric Satake category]] is  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "ordinary operator",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including noncommutative-geometry/local-index-formula, noncommutative-geometry/semifinite-index-pairing, noncommutative-geometry/theta-summable-spectral-triple. First occurrence: noncommutative-geometry/local-index-formula / Meaning of locality; context: f locality  The bounded-transform character is global: it involves the phase of \\(D\\) and ordinary operator traces. The residue cocycle instead uses finitely many iterated commutators and coefficients extracted from spectral as This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "positive measure",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including differential-geometry/sards-theorem, harmonic-analysis/bochner-theorem-lca, harmonic-analysis/haar-measure. First occurrence: differential-geometry/sards-theorem / Differentiability threshold; context:  threshold is essential in general; lower-regularity maps can have critical value sets of positive measure.  ## Consequences and examples  If the target is nonempty, regular values are dense because a measure-zero subset canno This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "real derivative",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including complex-analysis/cauchy-riemann-equations, complex-analysis/complex-derivative, differential-geometry/holomorphic-map. First occurrence: complex-analysis/cauchy-riemann-equations / Derivative matrix; context: ix  When \\(f\\) is real-differentiable at the point, these equations are equivalent to the real derivative matrix having the form \\[ Df=\\begin{pmatrix}a&-b\\\\ b&a\\end{pmatrix}, \\] so it represents multiplication by \\(a+ib\\).  # This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "removable singularity theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/uhlenbeck-removable-singularity-theorem"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including complex-analysis/casorati-weierstrass-theorem, complex-analysis/isolated-singularity-classification, fiber-bundles/uhlenbeck-removable-singularity-theorem. First occurrence: complex-analysis/casorati-weierstrass-theorem / Proof idea; context:  around \\(w\\) were omitted near \\(a\\), then \\(1/(f-w)\\) would be bounded there. Riemann's removable singularity theorem would extend that reciprocal across \\(a\\). Its value at \\(a\\) would either be nonzero, making \\(f\\) removable, or zero  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "semisimple algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "langlands-letter/knowls/simply-connected-semisimple-group"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including lie-groups/centralizer-of-a-lie-subalgebra, lie-groups/rank-of-a-semisimple-lie-algebra, lie-groups/removing-a-simple-root. First occurrence: lie-groups/centralizer-of-a-lie-subalgebra / Matrix interpretation; context: athfrak k\\). For [[lie-groups/regular-lie-subalgebra|regular reductive subalgebras]] of a semisimple algebra, the centralizer can often be read directly from roots.  ## References  1. Anthony W. Knapp, *Lie Groups Beyond an Intr This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "singularity theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including complex-analysis/casorati-weierstrass-theorem, complex-analysis/isolated-singularity-classification, fiber-bundles/uhlenbeck-removable-singularity-theorem. First occurrence: complex-analysis/casorati-weierstrass-theorem / Proof idea; context: w\\) were omitted near \\(a\\), then \\(1/(f-w)\\) would be bounded there. Riemann's removable singularity theorem would extend that reciprocal across \\(a\\). Its value at \\(a\\) would either be nonzero, making \\(f\\) removable, or zero  The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "standard volume form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including differential-geometry/compactly-supported-differential-form, fiber-bundles/differential-k-form, fiber-bundles/invariant-differential-form. First occurrence: differential-geometry/compactly-supported-differential-form / Examples and boundary cases; context: ] and \\(\\eta\\) is any differential form, then \\(\\varphi\\eta\\) is compactly supported. The standard volume form on \\(\\mathbb R^n\\) is not compactly supported. On the manifold \\(M=(0,1)\\), the form \\(dx\\) is not compactly supported: The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "term complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including algebra-homological/chain-complex, algebra-homological/chain-homotopy, algebra-homological/exact-complex. First occurrence: algebra-homological/chain-complex / Examples; context: complex. Its homology is \\(H_0\\cong M\\) and \\(H_n=0\\) for \\(n\\neq 0\\).  2. **A map as a 2-term complex.**    Any \\(R\\)-linear map \\(f:M\\to N\\) gives a chain complex    \\[    0 \\longrightarrow M \\xrightarrow{\\,f\\,} N \\longr The phrase is a scanner artefact or generic wording, not a mathematical term requiring a knowl. Existing broad or umbrella pages were checked and rejected as link targets because they do not define this exact phrase."
+    },
+    {
+      "phrase": "torsion-free metric connection",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including differential-geometry/obata-connection, fiber-bundles/connection-on-a-vector-bundle, fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection. First occurrence: differential-geometry/obata-connection / Relation to a compatible metric; context: ld|hyper-Hermitian metric]] \\(g\\) has \\(\\nabla^{\\mathrm{Ob}}g=0\\), then uniqueness of the torsion-free metric connection identifies \\(\\nabla^{\\mathrm{Ob}}\\) with the [[fiber-bundles/levicivita-connection-connection|Levi-Civita connection]]  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "uniform distribution",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including probability/independence-random-variables, probability/maximum-entropy-principle, probability/random-vector. First occurrence: probability/independence-random-variables / Examples; context: and set \\(X(u,v)=u\\), \\(Y(u,v)=v\\). Then \\(X\\) and \\(Y\\) are independent and each has the uniform distribution on \\([0,1]\\).  This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "unrestricted direct product",
+      "disposition": "existing_target",
+      "targets": [],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including langlands-letter/knowls/adeles-restricted-product, noncommutative-geometry/entire-cyclic-cohomology, noncommutative-geometry/periodic-cyclic-cohomology. First occurrence: langlands-letter/knowls/adeles-restricted-product / Restricted-product topology; context: l ring. It is not the [[topology/subspace-topology|subspace topology]] inherited from the unrestricted direct product.  ## Global diagonal  The diagonal embedding \\(F\\hookrightarrow\\mathbb A_F\\) has discrete image, and the additive quoti This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    },
+    {
+      "phrase": "weil action",
+      "disposition": "existing_target",
+      "targets": [
+        "langlands/weil-group",
+        "langlands/weil-deligne-group"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including langlands-letter/knowls/l-group-satake-parameter, langlands-letter/knowls/split-reductive-group, and langlands/weil-deligne-group. The phrase denotes the action of the already defined Weil group on a dual group or parameter; it is field and representation dependent and does not require a standalone Weil-action knowl."
+    },
+    {
+      "phrase": "étale cohomology",
+      "disposition": "existing_target",
+      "targets": [
+        "algebraic-geometry-foundations/compactly-supported-etale-cohomology"
+      ],
+      "evidence": "Read the phrase in 3 source knowls (0 core occurrences), including algebraic-geometry-foundations/compactly-supported-etale-cohomology, langlands/crystalline-galois-representation, langlands/de-rham-galois-representation. First occurrence: algebraic-geometry-foundations/compactly-supported-etale-cohomology / Compactification description; context: the chosen compactification.  If \\(X\\) itself is proper, compactly supported and ordinary étale cohomology agree.  ## Arithmetic role  For a variety over a [[algebra-fields-galois/finite-field|finite field]], [[algebra-fields- This is an established reusable concept already represented in the corpus. The related suggestions were treated as candidate evidence only; the exact target must be chosen by occurrence. A phrase occurrence still needs a separate linking review when its mathematical sense agrees; no new definition is warranted."
+    }
+  ]
+}

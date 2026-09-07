@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Positive derivative implies increasing.** Let \(I\subseteq\mathbb R\) be an [[real-analysis/interval|interval]], and let \(f:I\to\mathbb R\) be continuous on \(I\) and [[real-analysis/differentiability-1d|differentiable]] at every interior point. If
+**Positive derivative implies increasing.** Let \(I\subseteq\mathbb R\) be an [[real-analysis/interval|interval]], and let \(f:I\to\mathbb R\) be continuous on \(I\) and [[real-analysis/differentiability-1d|differentiable]] at every [[differential-geometry/boundary-and-interior-of-a-manifold|interior point]]. If
 \[
 f'(x)>0
 \]

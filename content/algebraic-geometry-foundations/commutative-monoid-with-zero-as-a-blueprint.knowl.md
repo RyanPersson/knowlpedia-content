@@ -17,7 +17,7 @@ A^{\mathrm{blpr}}=A/\!/\mathcal R_{\min},
 \]
 where \(\mathcal R_{\min}\) is the smallest [[algebraic-geometry-foundations/pre-addition-on-a-monoid|pre-addition]] on \(A\): apart from the blueprint axioms, it imposes no additive relations.
 
-This construction defines a fully faithful functor
+This construction defines a [[algebra-category-theory/fully-faithful-functor|fully faithful functor]]
 \[
 \mathbf{CMon}_0\hookrightarrow\mathbf{Blpr}.
 \]

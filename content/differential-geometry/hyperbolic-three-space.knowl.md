@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Hyperbolic three-space** \(\mathbb H^3\) is the [[topology/simply-connected-space|simply connected]] complete \(3\)-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]] of constant sectional curvature \(-1\), unique up to isometry.
+**Hyperbolic three-space** \(\mathbb H^3\) is the [[topology/simply-connected-space|simply connected]] complete \(3\)-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]] of constant [[differential-geometry/sectional-curvature|sectional curvature]] \(-1\), unique up to isometry.
 
 ## Standard models
 

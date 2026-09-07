@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "topology/reduced-cohomology",
+      "outcome": "corrected",
+      "source_sha256": "a16b925ede7c08783e248aceefaa2a76a3b02347920dd013f416b54db7e66561",
+      "evidence": "Read the complete triaged callers in Thom isomorphism, cup product, and singular cohomology. All use reduced cohomology as a reusable theory, but the corpus only mentions it and has no target defining the pointed or augmented convention. Added a minimal source defining it as H^k(X,{x0};A), relating it to ordinary cohomology, and recording the one-point and sphere examples. The source keeps the basepoint/augmentation assumption explicit and does not assert a universal unpointed convention."
+    },
+    {
+      "id": "operator-algebras/calkin-algebra",
+      "outcome": "corrected",
+      "source_sha256": "3f6c3066d21c63fa20f8ad6f5e9608dea1a44cc4edb2b1c20d2ddeb1ed39b337",
+      "evidence": "Read the complete Fredholm-operator caller and the existing quotient, bounded-operator, and compact-operator targets. The corpus names B(H)/K(H) repeatedly but has no canonical target for the Calkin algebra or its central Fredholm-invertibility relationship. Added a minimal definition for infinite-dimensional Hilbert spaces, with compact perturbation and finite-dimensional boundary cases explicit."
+    },
+    {
+      "id": "functional-analysis/rank-one-operator",
+      "outcome": "corrected",
+      "source_sha256": "6d43f0159d1646abb734686d61d0a1af2c51c64f5731b7573d414996268f3ad3",
+      "evidence": "Added a minimal definition for bounded T:X->Y with one-dimensional range, including the equivalent phi(x)y form. The source links the operator, linear-map, and normed-space prerequisites and explicitly distinguishes Hilbert-module rank-one operators, whose module rank need not equal literal range dimension. Root independent review checked precise scalar-field and measurable-domain conventions, moved consequences out of the core, and checked relevant target bodies. Rank-one factorization follows by choosing nonzero y in the one-dimensional range and applying its bounded coordinate functional; Borel measure makes no regularity assumptions."
+    },
+    {
+      "id": "measure-theory/borel-measure",
+      "outcome": "corrected",
+      "source_sha256": "2a6cabf97300ab8fa06b50651a19ffa558393a9ff321668e1005f19e0551c7e4",
+      "evidence": "Added a minimal definition of a measure on the Borel sigma-algebra of a topological space. The source links the topological-space, Borel-sigma-algebra, and measure prerequisites and states explicitly that regularity, finiteness, and local finiteness are additional hypotheses. Root independent review checked precise scalar-field and measurable-domain conventions, moved consequences out of the core, and checked relevant target bodies. Rank-one factorization follows by choosing nonzero y in the one-dimensional range and applying its bounded coordinate functional; Borel measure makes no regularity assumptions."
+    }
+  ],
+  "gaps": [
+    {
+      "phrase": "represented algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/bounded-star-representation",
+        "operator-algebras/cstar-representation"
+      ],
+      "evidence": "The four callers abbreviate A together with pi:A->B(H), already defined by the bounded star-representation and C*-representation targets. A generic target would duplicate them and lose setting-specific assumptions."
+    },
+    {
+      "phrase": "rank-one operator",
+      "disposition": "added_definition",
+      "target": "functional-analysis/rank-one-operator",
+      "evidence": "The finite-rank source only introduces rank-one maps in a later explanatory section, while the corpus has reusable literal rank-one operator occurrences. Added a bounded-operator definition with the range-dimension convention and an explicit Hilbert-module distinction."
+    },
+    {
+      "phrase": "Borel measure",
+      "disposition": "added_definition",
+      "target": "measure-theory/borel-measure",
+      "evidence": "The corpus repeatedly uses Borel measure as a named reusable measurable object. Added the minimal measure-on-Borel-sigma-algebra definition without silently imposing regularity, finiteness, or local finiteness."
+    },
+    {
+      "phrase": "Calkin algebra",
+      "disposition": "added_definition",
+      "target": "operator-algebras/calkin-algebra",
+      "evidence": "The quotient target only mentions the Calkin algebra in an example, while the Fredholm target uses its defining invertibility criterion. A dedicated reusable target is justified."
+    }
+  ],
+  "calibration": "Phrase matching over-reports gaps when a phrase is compositional or has multiple setting-specific meanings. Add a knowl only when a reusable concept and its assumptions are absent from existing targets."
+}

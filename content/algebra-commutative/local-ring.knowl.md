@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A [[algebra-rings/commutative-ring|commutative ring]] \(R\) is a **local ring** if it has a unique maximal ideal. One often records this ideal and writes \((R,\mathfrak m)\).
+A [[algebra-rings/commutative-ring|commutative ring]] \(R\) is a **local ring** if it has a unique [[algebra-rings/maximal-ideal|maximal ideal]]. One often records this ideal and writes \((R,\mathfrak m)\).
 
 The unique maximal ideal of a local ring is closely tied to units; see [[algebra-commutative/maximal-ideal-local-ring|maximal ideal of a local ring]]. The quotient \(R/\mathfrak m\) is the [[algebra-commutative/residue-field|residue field]] of \(R\).
 

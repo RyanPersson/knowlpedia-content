@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(u:\mathbb C^d\to\mathbb R\) be plurisubharmonic, with \(u|_{\mathbb R^d}
+Let \(u:\mathbb C^d\to\mathbb R\) be [[complex-analysis/plurisubharmonic-function|plurisubharmonic]], with \(u|_{\mathbb R^d}
 \le0\), \(u=0\) on the real ball \(B_2\), Lipschitz constant
 \(C_{\mathrm{Lip}}\) on \(\mathbb R^d\), and
 \[

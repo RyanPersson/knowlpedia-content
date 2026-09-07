@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-groups/conjugate-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd1520db81b0934be242718c3dbec0b062273fc0804dab2afeb557b5d9804fb4",
+      "evidence": "Read the complete source and references; checked candidate phrases equivalence classes, equivalence relation, group, linear operator, matrix, orbits, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/conjugation-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ca251fa1e2f0a4d1c82139f02f6fd5b9a9a6723c36934bd9d4e840bb4e3bee7",
+      "evidence": "Read the complete source and references; checked candidate phrases conjugacy class, conjugacy classes, orbit, orbits, stabilizer, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/conjugation-action-self",
+      "outcome": "corrected",
+      "source_sha256": "b8c2360dc4bb2183edcfd1fac5a4b4180cd719aed33b827cd20f84e90780e0f6",
+      "evidence": "Read the complete source and prerequisite definitions; added context-appropriate links and checked repeated and generic matches."
+    },
+    {
+      "id": "algebra-groups/correspondence-theorem-groups",
+      "outcome": "corrected",
+      "source_sha256": "d3d25ae88ed3439b96021c424006f2d6c2f3c0551ab7f4df45984a1ea9c96c13",
+      "evidence": "Read the complete source and prerequisite definitions; added context-appropriate links and checked repeated and generic matches."
+    },
+    {
+      "id": "algebra-groups/coset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f53859a14033b211ba1b1b62a98546d444f5c3d70f62cbf66e91199568ff4ece",
+      "evidence": "Read the complete source and references; checked candidate phrases group, set, subset against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/cosets-partition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "909a2815343ade0254a276dd4395f0f67371666aa0259d7fa916c1219d5f61c2",
+      "evidence": "Read the complete source and references; checked candidate phrases set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/cyclic-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53acff01955bc5acfe8bd75325239350a82d561dc9ccc4624e147c456c75c872",
+      "evidence": "Read the complete source and references; checked candidate phrases subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ca48a5ab183bd63b77a669786b5b460dcde42366c5cbd3f1faa8423010adf11",
+      "evidence": "Read the complete source and references; checked candidate phrases group, groups, intersection, normal subgroups, sequence, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/derived-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "11d54c5950de95553a4777518be0741949ba322f9537e1db1899d402d37ff845",
+      "evidence": "Read the complete source and references; checked candidate phrases group, measures, normal subgroup, sequence, simple group, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/direct-product-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49b8d8a27909e38eca67dbd8a65c3a6eb92084ffa7a37148ec765fe22986f791",
+      "evidence": "Read the complete source and references; checked candidate phrases abelian group, rank, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/direct-sum-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3804a1d9d6951ee92d69a33f34d5ed53dcf8204160eb23c58287fc6f53b0d36b",
+      "evidence": "Read the complete source and references; checked candidate phrases abelian group, group, groups, sequences, sets, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/eulers-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c31f383f8913749cb0b3add96a7c09c1909bc9bccf53ec0fb38eb733ef6de434",
+      "evidence": "Read the complete source and references; checked candidate phrases divides, function against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/exact-sequence-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0bc7d6cd048f185f6aef62ad8d57e0b79438622d060433cefa9987a4ceec0bb3",
+      "evidence": "Read the complete source and references; checked candidate phrases group, sequence, sequences, short exact sequence against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/faithful-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe49c20beb0727e6d675f5eb5d73b9df5be74a9edd456092d345ec44b9320ddb",
+      "evidence": "Read the complete source and references; checked candidate phrases conjugation action, group, left translation, set, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/fermats-little-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c64d207251fbdf788f4427d28faae127f30b20eb4381b28780aa06d8558b2c24",
+      "evidence": "Read the complete source and references; checked candidate phrases covers against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/finite-cyclic-isomorphic-zn",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88b2a9e5c627f394c2744e04e908d0a42ced54ffe067025924ac1dd325be34d2",
+      "evidence": "Read the complete source and references; checked candidate phrases groups, isomorphism against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/first-isomorphism-consequence-groups",
+      "outcome": "corrected",
+      "source_sha256": "e856e2e4031c59633e5c99f0c33fb7105cd3aa3acc5a22e9852e4d3db678a336",
+      "evidence": "Read the complete source and prerequisite definitions; added context-appropriate links and checked repeated and generic matches."
+    },
+    {
+      "id": "algebra-groups/first-isomorphism-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e24e093d3ed5e79c9edf08fa118eabb691c6ca09a8534cea7cdc3b96521ad012",
+      "evidence": "Read the complete source and references; checked candidate phrases image against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/fixed-point-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44898cd75c88bc721d32c334e26e4d09391c084796c52b4e79e40b98968ad464",
+      "evidence": "Read the complete source and references; checked candidate phrases conjugation action, group, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/frattini-argument",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a2d441d968e888eaa12e7ba8dee123dc188bfa72c2a513e8ce11ed63480ddff",
+      "evidence": "Read the complete source and references; checked candidate phrases divides against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/free-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d916fb7c5d448effda60755547ca1677f7f8a0fc1bc50ce49e5f7bcb4a004ccc",
+      "evidence": "Read the complete source and references; checked candidate phrases coset space, group, left translation, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/free-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99098a3622a86ae5abc81ed39fe621c2b1e2a27b8e74a42e45684a25ad557f33",
+      "evidence": "Read the complete source and references; checked candidate phrases function, group, relations against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/fundamental-theorem-fg-abelian-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b451e125589ee61d7c8cc7738302619a56a77fb6940fe0faeef412da71bfb9f",
+      "evidence": "Read the complete source and references; checked candidate phrases PID, groups, integers, rank, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/generated-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ee3a51dffbd11e5bac3cf22b5860bea1aa9707d0da202257011d8dcf91a3ef7",
+      "evidence": "Read the complete source and references; checked candidate phrases set, subset against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/generating-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d1ca7460ebb5e86b25ec8a3226dd8c0ca10ea48fdce248389c4b771a34b18b99",
+      "evidence": "Read the complete source and references; checked candidate phrases measure, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef1aa8cc35b8c1200463bd20d2860c161ac735fe51b6349cf4249fe0fbb586b6",
+      "evidence": "Read the complete source and references; checked candidate phrases composition, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cee6310a4900e0adde46d87e8afeb56f88a2762434de6ee931042d6da9cc195e",
+      "evidence": "Read the complete source and references; checked candidate phrases Left translation, cosets, group, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group-epimorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eaefcb6c07f8aec57d452332fe7052d79a15e1bb38c654779484b6405ffde70f",
+      "evidence": "Read the complete source and references; checked candidate phrases epimorphism, epimorphisms, groups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2941ac56087874c668de18ebf4cb15fa3dcbc2274c7458b6001b41aad415a54",
+      "evidence": "Read the complete source and references; checked candidate phrases group, groups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87074a7ce85a39c3b6d4af6d22c4214e3597e5b7ed2defcd8de0448b19b1d495",
+      "evidence": "Read the complete source and references; checked candidate phrases determinant, groups, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "55b9ce73127d124edb8fd2c8c465e590de773c71bd62ea51d1bcca7d3f62efc1",
+      "evidence": "Read the complete source and references; checked candidate phrases group, groups, inner automorphism, isomorphism against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group-monomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02933ee496f1d994508f72e23911b3e05d6c89b66892d5d10db620c10c317d6c",
+      "evidence": "Read the complete source and references; checked candidate phrases determinant, groups, monomorphism against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/group-presentation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b89177c672ce148a337474d383bc6f1586d870af47577bd0b6602523fb98137f",
+      "evidence": "Read the complete source and references; checked candidate phrases abelian group, group, groups, rank, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/hall-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47014e4a01ff99f7f559dff9b2cf95b520ed4866bbc9f9597fe93ab40cfdeb88",
+      "evidence": "Read the complete source and references; checked candidate phrases greatest common divisor, group, sets, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/image-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "785fe6db61fc5d20774f7ebc6cb06c39bb879c1b30705357db291b68c023150a",
+      "evidence": "Read the complete source and references; checked candidate phrases groups, image, subgroup, subset against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/image-is-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27146095cdc0656861ff775a8d14b8eb5ce9f3b692e8a0a0617691c180e626aa",
+      "evidence": "Read the complete source and references; checked candidate phrases kernel is normal against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/index-of-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1437a6e4ef6bb9a05d70f507e047e1d09520e3ad1204d296d0d74f78ec0c47d",
+      "evidence": "Read the complete source and references; checked candidate phrases divides, group, normal subgroup, residue, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/inner-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6c8e57d27b55bad9fceb997013f6d6a96976b41dc44a8734d2a68a70a206dac",
+      "evidence": "Read the complete source and references; checked candidate phrases automorphism, natural isomorphism, set, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/internal-direct-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "04f9c4d2bfb83af01ee33fb93f567ddd7f761c660434423dfea3cce8819dfa57",
+      "evidence": "Read the complete source and references; checked candidate phrases group, subgroup, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/internal-semidirect-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "814d83e495040a8f2998a81f2a795df96804907299ca4b8ad99e9ebe38cc6804",
+      "evidence": "Read the complete source and references; checked candidate phrases isomorphism, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/intersection-of-subgroups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "490cd3759434fc9d211671897804867ae8ab2e2f5124cbc76117f647d70bf24a",
+      "evidence": "Read the complete source and references; checked candidate phrases Intersection, intersection, subgroup, subgroups, subset against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/jordan-holder-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b36f2d91f4902eb181829493d04d0e811c32167fae71b0055f33f922a3f943a",
+      "evidence": "Read the complete source and references; checked candidate phrases composition, composition series, group, isomorphism against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/jordan-holder-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "baafd9fbb3bce6ab8dc8ab0355d7c2c07cb5a982002d899946e3dbb285fea52f",
+      "evidence": "Read the complete source and references; checked candidate phrases composition series, group, subnormal series against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/kernel-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d227ec98c3967840acbc06c2b9f60cda0e5625c085c7312d43164288d09c275e",
+      "evidence": "Read the complete source and references; checked candidate phrases image, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/kernel-is-normal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb41b6b396d5189964b2ab863afab8e538758f482ad222c0d4bcda7252f3c22c",
+      "evidence": "Read the complete source and references; checked candidate phrases Normal subgroups, normal subgroup, quotient group against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/kernel-of-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bffd15eca55015a0ee57c264fe2511f0d39822700271aca2f9ced7ddce7a7ed8",
+      "evidence": "Read the complete source and references; checked candidate phrases group, left translation, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/kernels-are-normal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "87d68810f22ca19ce580692f40ed71347fd98f91d892dd3a19f03b7d14f24891",
+      "evidence": "Read the complete source and references; checked candidate phrases groups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/krull-remak-schmidt-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca77c6d241fd0de356925aa0e8db9dfb4c09d6befc1451671e801ff45da3adab",
+      "evidence": "Read the complete source and references; checked candidate phrases decomposition, group, isomorphism against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/lagranges-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b0b7dc3a17e7a0a134d14ced98b392cfbfcf3a9ccea2cd8d98ed4e6a016135e6",
+      "evidence": "Read the complete source and references; checked candidate phrases divides, divisibility, groups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/lattice-ordered-abelian-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe350125486fcba2a547679a0afc348d0e8a388bef895f0c199d7313be681cd4",
+      "evidence": "Read the complete source and references; checked candidate phrases decompositions, lattice against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/left-multiplication-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70e006806aa72664ba62f33d77c84082da5079bfb6449dbf66835b379df69ab3",
+      "evidence": "Read the complete source and references; checked candidate phrases group, orbit, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/loop",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e4039611e78c19e5c80cf03a691f8e248913d315d79116697652fa9550bdf53",
+      "evidence": "Read the complete source and references; checked candidate phrases Divisibility, Unit, binary operation, groups, octonions, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/lower-central-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e07d65babcd52ebedb91d17bb5ab802d9faf8ea0ba113654652c367805d0abca",
+      "evidence": "Read the complete source and references; checked candidate phrases group, sequence, series, subgroup, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/magma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3e8942747d95e1ad78d23b0dcafb259c72d762b04248e7ce07d395f6f3953e5",
+      "evidence": "Read the complete source and references; checked candidate phrases binary operation, integers, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/monoid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ae5180fee45dcee86e56ebb58ddf575bbc291946778e5306486de808d0b20a2",
+      "evidence": "Read the complete source and references; checked candidate phrases composition, endomorphisms, group, matrix, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/nielsen-schreier-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be46531d175f3bf4c6c223b6d3f7adbca1671df5390678b1d0a63d66b617e311",
+      "evidence": "Read the complete source and references; checked candidate phrases cosets, generating set, group, rank against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/nilpotent-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c5c46fd33bf79a35e25aa4f1de87de501c6c5674f5cfce4348355ac8289154c",
+      "evidence": "Read the complete source and references; checked candidate phrases abelian group, commutators, group, subgroup, trivial subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/normal-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79295b5b75209c8c4214bfae7ee6672cf588948365eb8a2d7335382805a64ddb",
+      "evidence": "Read the complete source and references; checked candidate phrases intersection, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/normal-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bea54c7812062a98001e396ee6e6dcc0eb2dc3ed1d7fc827ad6f1ef91729157d",
+      "evidence": "Read the complete source and references; checked candidate phrases subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/normal-subgroup-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ab84700991fb2b9b8c0e1e8cf725cf965253e108002f30e057b571017318321",
+      "evidence": "Read the complete source and references; checked prose for missing canonical links and prerequisite metadata. No additional target was justified."
+    },
+    {
+      "id": "algebra-groups/normalizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f56dbcc838c84955582da9f1535098cf5593255b305deaa23954a4d5c1e252d7",
+      "evidence": "Read the complete source and references; checked candidate phrases group, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/orbit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2d62d1c347d02daa82a33413f0460df62e69d16b6acac00aa63f043188982d7",
+      "evidence": "Read the complete source and references; checked candidate phrases equivalence classes, group, relation, set, subset against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/orbit-decomposition-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "654ea0b1f5fb37d249b1cf58ca4f4ac4b45d61cfb256741ff950e3b46a304b33",
+      "evidence": "Read the complete source and references; checked candidate phrases orbits against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/orbit-stabilizer-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38c05551cac76c721c48c6c46e40117babc9466ca3d41a3c76e9f85355e25b4c",
+      "evidence": "Read the complete source and references; checked candidate phrases orbits, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/order-divides-group-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9da83a942dfcd4bf1dc9081b2197f5d7531dfe570c95fce11760d1d705f467b0",
+      "evidence": "Read the complete source and references; checked candidate phrases cardinality, divides, group against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/ordered-abelian-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe825e6db89f8aaf6b88ad6a5445aee7dc4f912424a6a2b3c42ba10cd462f669",
+      "evidence": "Read the complete source and references; checked candidate phrases codomain, group, groups, total-order against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/outer-automorphism-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0b0a1f7c3ca49f010d65834f6331fb522f1889c67019bf85ed37839326d363d",
+      "evidence": "Read the complete source and references; checked candidate phrases automorphism, automorphisms, group, measures, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/p-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8d8d480e90f2bd0c9a1276c7ae680bcc0b53dc7f52e271caf8d744501e29f3f",
+      "evidence": "Read the complete source and references; checked candidate phrases group against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/p-group-nontrivial-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "051a39c2a2d588569aeab484d582d5658ed49a4404f12b9584692b585dafc092",
+      "evidence": "Read the complete source and references; checked candidate phrases conjugacy classes against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/p-group-nontrivial-center-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4edce25f00af769023e19cb4cb9a0c62bfc2d8b1b5c7e656d44eb7b74c1c2c24",
+      "evidence": "Read the complete source and references; checked candidate phrases cardinality against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/p-group-subgroups-all-orders",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bbfcd0fafa6d360a984f2bc408942488de4d0e27d42761f755ccb80abd61452e",
+      "evidence": "Read the complete source and references; checked candidate phrases Lagrange's theorem, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/p-squared-abelian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0146f405057a0f40818990c880f23a0f1965f8326f18867a7b3e0f74b477cbcc",
+      "evidence": "Read the complete source and references; checked candidate phrases group, groups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/perfect-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aef2084e89c18d1f26e8fdd0944a0c68a19c081694425feca9eb37609f7ae5dd",
+      "evidence": "Read the complete source and references; checked candidate phrases abelian group, commutator subgroup, group against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/permutation-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed2c1dcb36215ee6edf616beb8f20a4f582a9d89f0c6ad811fc8325def8cd32d",
+      "evidence": "Read the complete source and references; checked candidate phrases composition, conjugation action, cosets, group, regular representation, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/pgl-psl-comparison",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7833d019ab38b99281a41fdefab9c1f5a2b8305aac308fa4453b6dca43b530fb",
+      "evidence": "Read the complete source and references; checked candidate phrases Determinant, determinant, field, groups, sequence, short exact sequence against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/prime-order-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd30255287eae46a256b57bd30196e4d8185845d0a7e3fd30a4c4ba1c038b937",
+      "evidence": "Read the complete source and references; checked candidate phrases group, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/product-of-normal-subgroups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "576a89ed57cc0f8665b3dcec2a0b8aabc565d584dd1fc104db0f79b27b822189",
+      "evidence": "Read the complete source and references; checked candidate phrases set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/projective-general-linear-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d4aaba432c8ec4165fc16d16ac3eb2b834bb8a8d4997661e5723f11fed95120",
+      "evidence": "Read the complete source and references; checked candidate phrases determinant, faithful action, field, group, image, linear maps, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/projective-special-linear-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "854c56411d7f787a7fbb1163eaae75152bc1cf889c026824392fe4086207547f",
+      "evidence": "Read the complete source and references; checked candidate phrases central quotient, field, fields, group, projective transformations, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/proper-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f398e36501f11e1a951b63598eb6b91720c4ce0504fdb18abc8d685e243e78b4",
+      "evidence": "Read the complete source and references; checked candidate phrases group, normal subgroups, trivial subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/quasigroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21d8a2c9775ddb6f7a4590d4d5e3a5700640eb26a2b5b1889dfdf29c6225d338",
+      "evidence": "Read the complete source and references; checked candidate phrases binary operation, integers, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/quotient-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb2435c70d57b332059c56d7abfa4bc8df63982c45fd91d6b6e005cbc93a57d0",
+      "evidence": "Read the complete source and references; checked candidate phrases cosets, objects, residue, set, subgroup, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/quotient-group-universal-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0607bf6b317fd1d60bf1c11710d9a45e7cd98c3c5b2f5960ee4d5b881273a10",
+      "evidence": "Read the complete source and references; checked candidate phrases composition against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/regular-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76be92b71eb9cf1fd30f0c44c0fd8d706ae643d6e0c330eca499e396259c18c4",
+      "evidence": "Read the complete source and references; checked candidate phrases group, left translation, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/schreier-refinement-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb79478e5f4b554c9d92d5f2170fa4efffe5dcb4e4392e68453fbd9c23324344",
+      "evidence": "Read the complete source and references; checked candidate phrases series, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/schreiers-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89674da289b3b1fcd1b86ff358ee7aeb8785348d14ed732068c9cf2196fe77de",
+      "evidence": "Read the complete source and references; checked candidate phrases coset, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/schur-zassenhaus-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86f8952d03f5917e08c1fbda34832530c07bf7119d1f5a88eee159b207ab7d45",
+      "evidence": "Read the complete source and references; checked candidate phrases complements, group, orbit, short exact sequence, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/second-isomorphism-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62991bd925ba856906d99b3d0a2b4f54307fcd35df856545c1b7750eb71d868e",
+      "evidence": "Read the complete source and references; checked candidate phrases group, image, isomorphism, subgroup, subset against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/semidirect-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d710c239bd0920b0b51afffae129cb9a1519c97c273d8d201e58430f23f0de5",
+      "evidence": "Read the complete source and references; checked candidate phrases automorphism, automorphisms, field, group, set, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/semidirect-product-splitting",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a488a261358983dd7ee8ed86ab65ef67cdddf965e637989148d12461a1d7ade0",
+      "evidence": "Read the complete source and references; checked candidate phrases isomorphism, normal subgroup, semidirect products, sequence, split exact sequences against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/semigroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f223b6b6d927c88892d350cb431644d4640686f8015d015703266326875cf82",
+      "evidence": "Read the complete source and references; checked candidate phrases binary operation, empty set, matrix, monoid, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/simple-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f58edb39ebe8cd0364964cf3fd8121de7627acc04f6831f492aa32abd595336",
+      "evidence": "Read the complete source and references; checked candidate phrases group, groups, normal subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/solvable-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36e659243d45c7d67a6c3e6d074e620799b0d66907368d6999bb561d97647ed9",
+      "evidence": "Read the complete source and references; checked candidate phrases abelian group against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/split-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23a38c2863c0307a39298bf21f48616e2e2ea0cbec33b1470372e703f2facda8",
+      "evidence": "Read the complete source and references; checked candidate phrases internal semidirect product, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/stabilizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4fd2645c829b451558907cfd79d419d45e320e07658532abff7589e76f95a52e",
+      "evidence": "Read the complete source and references; checked candidate phrases conjugation action, group, left translation, set, subgroup against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e46628824837f295caa7bf39ec69a8485b3b04006e513134d523d3a45efa9f9c",
+      "evidence": "Read the complete source and references; checked candidate phrases group, groups, set against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/subgroup-test-one-step",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7849d3361f38f3e423f853d60166286637d68cac543884822793b89d4f27be8",
+      "evidence": "Read the complete source and references; checked candidate phrases closure against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/subgroup-test-two-step",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ea52de5e84c57101c4379daa838a4ddd5f604bf6907bd6c675133a16db733914",
+      "evidence": "Read the complete source and references; checked candidate phrases closure against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/subgroups-closed",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "da50d0818e4fa863961ce53dac61bc7b31046a8221461fec702cf972c75253c7",
+      "evidence": "Read the complete source and references; checked candidate phrases Closure, subgroup, subset against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    },
+    {
+      "id": "algebra-groups/subgroups-of-cyclic-are-cyclic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b3bae00c8c2099ac1f61d0e9945f885cb2bb235d54153d2f1e1df2707a6c0900",
+      "evidence": "Read the complete source and references; checked candidate phrases divisibility, divisor, group, groups, subgroups against proposed targets. Existing links cover defining dependencies; remaining matches are generic, contextual, repeated, or ambiguous. Prerequisite metadata was checked."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 03 algebra-groups linking review."
+  ]
+}

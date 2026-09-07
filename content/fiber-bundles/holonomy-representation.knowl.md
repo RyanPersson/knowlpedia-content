@@ -21,7 +21,7 @@ Flatness implies \(g_\gamma\) depends only on the homotopy class \([\gamma]\in \
 \[
 \rho_p:\pi_1(M,x)\longrightarrow  G,\qquad \rho_p([\gamma])\coloneqq g_\gamma
 \]
-is a group homomorphism. This homomorphism is the **holonomy representation** (also called the monodromy representation) of the flat connection based at \(p\).
+is a [[algebra-groups/group-homomorphism|group homomorphism]]. This homomorphism is the **holonomy representation** (also called the monodromy representation) of the flat connection based at \(p\).
 
 If one replaces \(p\) by \(p\cdot h\) for \(h\in G\), then \(\rho_{p\cdot h}=h^{-1}\rho_p\,h\); thus the holonomy representation is well-defined up to conjugation in \(G\). Conversely, a homomorphism \(\rho:\pi_1(M,x)\to G\) determines a flat principal bundle with connection via the standard \((\widetilde M\times G)/\pi_1(M,x)\) construction.
 

@@ -30,7 +30,7 @@ complex embeddings. Every other place is represented by a
 value]], equivalently by a discrete valuation after normalization.
 
 For a [[algebra-fields-galois/global-function-field|global function field]],
-the places correspond to closed points of its smooth projective curve.
+the places correspond to [[algebraic-geometry-foundations/closed-point|closed points]] of its smooth projective curve.
 
 ## Normalization
 

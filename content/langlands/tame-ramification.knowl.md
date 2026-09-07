@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(K\) be a discretely [[algebra-fields-galois/valuation-on-a-field|valued field]] with inertia subgroup \(I_K\) and wild
+Let \(K\) be a discretely [[algebra-fields-galois/valuation-on-a-field|valued field]] with [[algebra-fields-galois/inertia-subgroup|inertia subgroup]] \(I_K\) and wild
 inertia subgroup \(P_K\). An étale representation, or the corresponding
 étale [[fiber-bundles/local-system|local system]], is **tamely ramified** if
 \[

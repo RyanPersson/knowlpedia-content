@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a Lie group with Lie algebra \(\mathfrak{g}\). The [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]] assigns to each \(g\in G\) an automorphism \(\mathrm{Ad}_g:\mathfrak{g}\to\mathfrak{g}\). The **coadjoint action** is the action of \(G\) on the dual vector space \(\mathfrak{g}^*\) (canonically analogous to a fiber of a [[fiber-bundles/cotangent-bundle|cotangent bundle]]) defined by
+Let \(G\) be a Lie group with Lie algebra \(\mathfrak{g}\). The [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]] assigns to each \(g\in G\) an automorphism \(\mathrm{Ad}_g:\mathfrak{g}\to\mathfrak{g}\). The **coadjoint action** is the action of \(G\) on the dual [[linear-algebra/vector-space|vector space]] \(\mathfrak{g}^*\) (canonically analogous to a fiber of a [[fiber-bundles/cotangent-bundle|cotangent bundle]]) defined by
 \[
 \mathrm{Ad}^*_g:\mathfrak{g}^*\to\mathfrak{g}^*,
 \qquad

@@ -24,4 +24,4 @@ If at least one of the two series [[real-analysis/absolutely-convergent-series|c
 
 ## Remarks
 
-This result justifies multiplying power series and many other formal series manipulations when absolute convergence is present.
+This result justifies multiplying [[real-analysis/power-series|power series]] and many other formal series manipulations when absolute convergence is present.

@@ -15,7 +15,7 @@ Let \(M\) be a Hausdorff, second-countable [[fiber-bundles/smooth-manifold|smoot
 \[
 M\hookrightarrow\mathbb R^{2n}.
 \]
-Consequently every abstract smooth manifold can be realized as an [[differential-geometry/embedded-submanifold|embedded submanifold]] of a finite-dimensional [[linear-algebra/euclidean-space|Euclidean space]], with its original topology and smooth structure. The dimension bound depends only on \(n\), not on compactness or on auxiliary geometric choices. Separate versions handle zero-dimensional manifolds and manifolds with boundary.
+Consequently every abstract smooth manifold can be realized as an [[differential-geometry/embedded-submanifold|embedded submanifold]] of a finite-dimensional [[linear-algebra/euclidean-space|Euclidean space]], with its original topology and [[fiber-bundles/smooth-structure|smooth structure]]. The dimension bound depends only on \(n\), not on compactness or on auxiliary geometric choices. Separate versions handle zero-dimensional manifolds and manifolds with boundary.
 
 ## Significance
 

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H\) be a complex Hilbert space and let \(x_1,\dots,x_n\in H\). Their **symmetric tensor** is the symmetrization
+Let \(H\) be a complex [[linear-algebra/hilbert-space|Hilbert space]] and let \(x_1,\dots,x_n\in H\). Their **symmetric tensor** is the symmetrization
 \[
 (x_1\otimes\cdots\otimes x_n)_s=\frac1{n!}\sum_{\pi\in S_n} x_{\pi(1)}\otimes\cdots\otimes x_{\pi(n)}.
 \]
@@ -19,7 +19,7 @@ It belongs to the subspace of \(H^{\otimes n}\) fixed by permutations of the ten
 
 ## Remarks
 
-Symmetric tensors span the \(n\)-particle symmetric tensor power; these powers form the [[shale-paper/symmetric-fock-space|symmetric Fock space \(S(H)\)]] used for Fock–Cook quantization.
+Symmetric tensors span the \(n\)-particle symmetric tensor power; these powers form the [[shale-paper/symmetric-fock-space|symmetric Fock space \(S(H)\)]] used for [[shale-paper/fock-cook-quantization|Fock–Cook quantization]].
 
 ## Examples
 

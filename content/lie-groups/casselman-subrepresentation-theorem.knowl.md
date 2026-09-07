@@ -41,7 +41,7 @@ arbitrary Hilbert completions.
 
 Casselman’s Jacquet-module construction produces a nonzero exponent and
 finite-dimensional \(MA\)-data. Frobenius reciprocity then converts the
-resulting quotient of a Jacquet module into an embedding of \(V\) into induced
+resulting quotient of a [[harmonic-analysis/jacquet-module|Jacquet module]] into an embedding of \(V\) into induced
 representation data. This connects asymptotic expansions of matrix
 coefficients with principal series and underlies comparison results for
 globalizations.

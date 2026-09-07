@@ -23,7 +23,7 @@ d\Phi_e([X,Y]) = [\,d\Phi_e(X),\, d\Phi_e(Y)\,]
 \qquad\text{for all }X,Y\in\mathfrak g.
 \]
 
-Moreover, \(\Phi\) intertwines exponential maps:
+Moreover, \(\Phi\) intertwines [[fiber-bundles/exponential-map|exponential maps]]:
 \[
 \Phi(\exp_G X) \;=\; \exp_H\!\bigl(d\Phi_e(X)\bigr)
 \quad\text{for all }X\in\mathfrak g,
@@ -31,6 +31,6 @@ Moreover, \(\Phi\) intertwines exponential maps:
 where \(\exp_G\) and \(\exp_H\) are the [[lie-groups/exponential-map-lie-group|exponential maps]] of \(G\) and \(H\).
 
 ## Idea of proof
-Identify \(\mathfrak g\) and \(\mathfrak h\) with [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] using [[lie-groups/left-invariant-fields-lie-algebra-lemma|the left-invariant fields Lie algebra lemma]]. The pushforward \(\Phi_*\) carries left-invariant vector fields on \(G\) to left-invariant vector fields on \(H\), and pushforwards preserve Lie brackets of vector fields. Evaluating at \(e\) yields bracket preservation for \(d\Phi_e\).
+Identify \(\mathfrak g\) and \(\mathfrak h\) with [[lie-groups/left-invariant-vector-field|left-invariant vector fields]] using [[lie-groups/left-invariant-fields-lie-algebra-lemma|the left-invariant fields Lie algebra lemma]]. The pushforward \(\Phi_*\) carries left-invariant vector fields on \(G\) to left-invariant vector fields on \(H\), and pushforwards preserve [[fiber-bundles/lie-bracket|Lie brackets]] of vector fields. Evaluating at \(e\) yields bracket preservation for \(d\Phi_e\).
 
 **Context.** This is the functorial bridge from global group maps to infinitesimal algebra maps; it is the starting point for studying [[lie-groups/representation-of-a-lie-group|representations of Lie groups]] via their differentiated [[lie-groups/representation-of-a-lie-algebra|Lie algebra representations]].

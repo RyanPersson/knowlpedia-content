@@ -55,7 +55,7 @@ Some authors call this simply a “representation” of \(X\), reserving
 “covariant representation” for a pair satisfying an additional quotient
 relation. Others use “Toeplitz-covariant representation” for the definition
 above. The phrase “covariant representation” alone is therefore ambiguous.
-The three displayed relations encode the module actions and inner product;
+The three displayed relations encode the module actions and [[linear-algebra/inner-product|inner product]];
 they should not be replaced by the weaker requirement that \(t\) is merely a
 bounded linear map.
 

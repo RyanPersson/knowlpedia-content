@@ -2,8 +2,8 @@
 id = "operator-algebras/type-i-infinity-factor"
 title = "Type I∞ factor"
 kind = "definition"
-summary = "A type I-infinity factor is a type I von Neumann factor acting on an infinite-dimensional Hilbert space."
-aliases = ["infinite type I factor"]
+summary = "A type I-infinity factor is a type I von Neumann factor acting on an infinite-dimensional [[linear-algebra/hilbert-space|Hilbert space]]."
+aliases = ["infinite [[operator-algebras/type-i-factor|type I factor]]"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
 prerequisites = ["operator-algebras/type-i-factor", "linear-algebra/hilbert-space", "operator-algebras/infinite-projection", "operator-algebras/minimal-projection"]
@@ -12,8 +12,8 @@ dependency_review_count = 1
 +++
 
 A **type \(\mathrm I_\infty\) factor** is a
-[[operator-algebras/type-i-factor|type I factor]] that is isomorphic, as a von
-Neumann algebra, to \(B(H)\) for an infinite-dimensional complex
+[[operator-algebras/type-i-factor|type I factor]] that is isomorphic, as a [[operator-algebras/von-neumann-algebra|von
+Neumann algebra]], to \(B(H)\) for an infinite-dimensional complex
 [[linear-algebra/hilbert-space|Hilbert space]] \(H\). Equivalently, it is a
 type I factor whose identity is an
 [[operator-algebras/infinite-projection|infinite projection]], or whose
@@ -27,8 +27,8 @@ cardinal.
 ## Classification and projection structure
 
 Every type I factor is \(B(H)\) for a Hilbert space \(H\), unique up to
-dimension. Minimal projections in \(B(H)\) are precisely rank-one
-projections, and a maximal orthogonal family of them corresponds to an
+dimension. Minimal projections in \(B(H)\) are precisely [[quantum-foundations/rank-one-projector|rank-one
+projections]], and a maximal orthogonal family of them corresponds to an
 [[linear-algebra/orthonormal-basis|orthonormal basis]]. Thus the cardinality of such a family recovers
 \(\dim H\), and the infinite cardinals distinguish the nonseparable
 isomorphism classes.

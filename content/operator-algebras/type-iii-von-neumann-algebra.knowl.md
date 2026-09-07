@@ -2,7 +2,7 @@
 id = "operator-algebras/type-iii-von-neumann-algebra"
 title = "Type III von Neumann algebra"
 kind = "definition"
-summary = "A von Neumann algebra with no nonzero finite projections."
+summary = "A von Neumann algebra with no nonzero [[operator-algebras/finite-projection|finite projections]]."
 aliases = ["type III W*-algebra"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
@@ -19,8 +19,8 @@ This condition applies to the whole algebra, not only to its center. A general
 von Neumann algebra has a unique largest type III central summand, while
 saying that \(M\) is type III means that this summand has central support
 \(1\). If \(M\) is also a
-[[operator-algebras/von-neumann-factor|factor]], it is called a type III
-factor.
+[[operator-algebras/von-neumann-factor|factor]], it is called a [[operator-algebras/type-iii-factor|type III
+factor]].
 
 ## Consequences
 

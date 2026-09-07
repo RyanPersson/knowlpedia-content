@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **limit inferior** of a sequence \((a_n)_{n\ge1}\) of extended real numbers is
+The **limit inferior** of a sequence \((a_n)_{n\ge1}\) of extended [[shared-foundations/real-numbers|real numbers]] is
 \[
 \liminf_{n\to\infty} a_n \;=\; \sup_{n\ge 1}\,\inf_{k\ge n} a_k,
 \]

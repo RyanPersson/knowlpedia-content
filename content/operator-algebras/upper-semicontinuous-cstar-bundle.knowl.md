@@ -14,7 +14,7 @@ dependency_review_count = 1
 An **upper-semicontinuous \(C^*\)-bundle** over a [[topology/topological-space|topological space]] \(X\) is an open continuous surjection \(p\colon\mathcal A\to X\) whose fiber \(\mathcal A_x=p^{-1}(x)\) is a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. Fiberwise addition, scalar multiplication, multiplication, and involution are continuous, while \(a\mapsto\lVert a\rVert\) is upper semicontinuous. The zero elements satisfy the convergence axiom: if \(p(a_i)\to x\) and \(\lVert a_i\rVert\to0\), then \(a_i\to0_x\).
 These axioms relate the fiber topologies without requiring local product charts or a fixed model fiber.
 
-## Upper semicontinuity
+## [[complex-analysis/upper-semicontinuous-function|Upper semicontinuity]]
 
 Upper semicontinuity of the norm means that
 \[

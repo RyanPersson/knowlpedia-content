@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H\) be a [[stat-mech-quantum/quantum-hamiltonian|Hamiltonian]] on a finite-dimensional Hilbert space and let \(\beta>0\). The **quantum Gibbs state** at inverse temperature \(\beta\) is
+Let \(H\) be a [[stat-mech-quantum/quantum-hamiltonian|Hamiltonian]] on a finite-dimensional [[linear-algebra/hilbert-space|Hilbert space]] and let \(\beta>0\). The **quantum Gibbs state** at inverse temperature \(\beta\) is
 \[
 \rho_\beta=\frac{e^{-\beta H}}{Z(\beta)},
 \qquad

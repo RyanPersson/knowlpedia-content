@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "mathematical-physics/hyperbolic-plane-wave",
+      "outcome": "corrected",
+      "source_sha256": "f3bdca35a27e9a8487a840d290ad45a39aad5ba1fbf35ed7f28ed66de4726197",
+      "evidence": "Full linking and dependency review. The Poincar\u00e9 disk mention now links to differential-geometry/poincare-disk-model. The Laplace\u2013Beltrami link and eigenvalue sign agree with the nonnegative convention declared by differential-geometry/laplace-beltrami-operator. Kapovich, Curves, Surfaces, and Hyperbolic Geometry, \u00a71.1.2, pp. 19\u201320, gives the disk metric, orthogonal-circle geodesics, and ideal boundary. Helgason, Groups and Geometric Analysis, Ch. I, \u00a73, supports the hyperbolic Poisson/plane-wave construction."
+    },
+    {
+      "id": "differential-geometry/poincare-disk-model",
+      "outcome": "corrected",
+      "source_sha256": "db3c02b60cc5ccd6baaf3442621270579bbfe78801f3f015557a5a2f7960cff9",
+      "evidence": "Full definition review. Farb and Margalit, A Primer on Mapping Class Groups, Chapter 1, \u00a71.1.2, pp. 19\u201320, explicitly presents the open unit disk with metric 4(dx\u00b2+dy\u00b2)/(1\u2212|z|\u00b2)\u00b2, identifies its geodesics and unit-circle ideal boundary, and states its isometry with the upper-half-plane model. Prerequisite and link targets parse and resolve."
+    }
+  ],
+  "gaps": [],
+  "erratum": "The original plane-wave review misattributed the disk-model chapter to Kapovich. Root verified Farb and Margalit, A Primer on Mapping Class Groups, Chapter 1 \u00a71.1.2 pp.19\u201321, and corrected the source and accepted review in final-diff-review.json. Earlier records are retained as history, not current evidence."
+}

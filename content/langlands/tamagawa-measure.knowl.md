@@ -52,7 +52,7 @@ anisotropic.
 
 Tamagawa measure gives a coherent global normalization for automorphic
 quotients, [[langlands/automorphic-constant-term|constant terms]], and
-[[langlands/arthur-selberg-trace-formula|trace formulas]]. Local Haar measures
+[[langlands/arthur-selberg-trace-formula|trace formulas]]. Local [[harmonic-analysis/haar-measure|Haar measures]]
 still have to be disintegrated compatibly when forming
 [[langlands/orbital-integral|orbital integrals]] or quotient measures.
 

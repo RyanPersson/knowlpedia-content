@@ -1,0 +1,737 @@
+{
+  "reviewer": "final-target-qa-b",
+  "scope": "middle third of final-target-paths-b.json",
+  "checked_path_manifest": "final-target-paths-b.json",
+  "checked_path_count": 173,
+  "target_existence_check": {
+    "added_links_checked": 419,
+    "missing_added_targets": 0,
+    "nested_added_links": 0
+  },
+  "findings": [
+    {
+      "severity": "actionable",
+      "source": "content/lie-groups/center-of-a-lie-group.knowl.md",
+      "detail": "The phrase 'characteristic' means characteristic subgroup, but it links to algebra-rings/characteristic (ring/field characteristic). Use algebra-groups/characteristic-subgroup or the dedicated center-is-characteristic knowl.",
+      "status": "resolved",
+      "resolution": "Root corrected the source and recorded the current hash/evidence in final-diff-review.json."
+    },
+    {
+      "severity": "actionable",
+      "source": "content/lie-groups/derived-subalgebra-is-ideal-lemma.knowl.md",
+      "detail": "The phrase 'characteristic ideals' links to algebra-rings/characteristic, which is the unrelated ring/field characteristic concept. Remove the link or add/use a Lie-algebra characteristic-ideal target.",
+      "status": "resolved",
+      "resolution": "Root corrected the source and recorded the current hash/evidence in final-diff-review.json."
+    },
+    {
+      "severity": "review",
+      "source": "content/fiber-bundles/euler-class.knowl.md",
+      "detail": "In the surface example, 'Gauss curvature form normalized by 2pi' is imprecise: the Euler form is K times the Riemannian volume form divided by 2pi. The Gaussian-curvature link itself is appropriate.",
+      "status": "resolved",
+      "resolution": "Root corrected the source and recorded the current hash/evidence in final-diff-review.json."
+    },
+    {
+      "severity": "review",
+      "source": "content/mathematical-physics/hyperbolic-plane-wave.knowl.md",
+      "detail": "The current review metadata still names Kapovich for the Poincare-disk citation; the verified source/citation should be used when the pending root correction is applied.",
+      "status": "resolved",
+      "resolution": "Root corrected the source and recorded the current hash/evidence in final-diff-review.json."
+    }
+  ],
+  "notes": "All 173 manifest paths were read at current working-tree state. The four pre-existing/non-added parser-looking targets (metadata issues and math notation) were not counted as added-link failures. No source files or git state were modified by this QA pass.",
+  "checked_sources": [
+    {
+      "path": "content/fiber-bundles/ehresmann-connection.knowl.md",
+      "source_sha256": "89b64734d5fdc2131d84f26ea47cadb0a436a6bd875aa9c6212b50cd8bc47f5b"
+    },
+    {
+      "path": "content/fiber-bundles/euler-class.knowl.md",
+      "source_sha256": "f420f13f434dbc6878ac01e4d04d87fe2f26ebe93dc40e80a3f40789a8e095ad"
+    },
+    {
+      "path": "content/fiber-bundles/g-structure.knowl.md",
+      "source_sha256": "d79b74578a1d7a17d19890a5a10cccd68eca89e43e182108dfdf2c07c9bca6f7"
+    },
+    {
+      "path": "content/fiber-bundles/holonomy-representation.knowl.md",
+      "source_sha256": "a5a2fcbdad245ae4fa6e773157e57440470d6689cff61d0f62870d0f36e97fa1"
+    },
+    {
+      "path": "content/fiber-bundles/instanton-number.knowl.md",
+      "source_sha256": "301fd6b0c6087c6a23241a60e53f3ea8a53d474c5bc755d90d6e2e9c6ec57b8a"
+    },
+    {
+      "path": "content/fiber-bundles/interior-product.knowl.md",
+      "source_sha256": "13280e0c65fc28fdcf5b650a08de6951db3958e1a1c49ff35ce876d36e046231"
+    },
+    {
+      "path": "content/fiber-bundles/invariant-differential-form.knowl.md",
+      "source_sha256": "1c97cb83c2162a43828c6f70a89597986409f6fca5687c96163d0124fb537e4f"
+    },
+    {
+      "path": "content/fiber-bundles/irreducible-connection.knowl.md",
+      "source_sha256": "162d01b6467c34a880513dfea9580bad5ccaa9c600eaa612664f69967d5aeb28"
+    },
+    {
+      "path": "content/fiber-bundles/jet-bundle.knowl.md",
+      "source_sha256": "a29d7ae3250f8e67e7041afc55b5a96d18f6e149f44fe5a04080bc3edf10e146"
+    },
+    {
+      "path": "content/fiber-bundles/l2-inner-product-on-bundle-valued-forms.knowl.md",
+      "source_sha256": "8186fbddf1248ff318d7560bc8065783941ea4e0aa4f6d70951a8be7e010f3bf"
+    },
+    {
+      "path": "content/fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg.knowl.md",
+      "source_sha256": "0a1fdbabd3aff3428084b3b4d9dc340ea2e5702f8f55a8dcb5f3dab7e7d9725e"
+    },
+    {
+      "path": "content/fiber-bundles/lemma-maurercartan-equation-for-the-left-maurercartan-form.knowl.md",
+      "source_sha256": "3f89f6e98870ff67bdc1beeccc1528672aef2310a0c2be68c85c4b896c06b61b"
+    },
+    {
+      "path": "content/fiber-bundles/levicivita-connection-connection.knowl.md",
+      "source_sha256": "44851630b187f27c7831293e3f3020057031195f1a482790a94a3fe2ee457af6"
+    },
+    {
+      "path": "content/fiber-bundles/lie-bracket.knowl.md",
+      "source_sha256": "746d1579bd189ba77253c5f7c528efa2b2d9dc617819b3d61d65439f29530fd1"
+    },
+    {
+      "path": "content/fiber-bundles/lie-derivative.knowl.md",
+      "source_sha256": "f72c3ba8786692fbf0b96acf00f5460e68d0943f342e0d52daf560ec005f987c"
+    },
+    {
+      "path": "content/fiber-bundles/serre-swan-theorem.knowl.md",
+      "source_sha256": "01c6b863af6135c0e36c658743c007964f15c17c7788f5a9412ed7e4440dcc74"
+    },
+    {
+      "path": "content/fiber-bundles/splitting-of-the-atiyah-sequence.knowl.md",
+      "source_sha256": "98b6274fa62a12ea72f5c7a81a2db7b320755b53b3637b19990df7909bcadd4f"
+    },
+    {
+      "path": "content/fiber-bundles/thom-isomorphism-theorem.knowl.md",
+      "source_sha256": "f0e4be6d9fc8278e97b3f75e0c901f77a452eedd0f51dbb4f2c6a117392c31d0"
+    },
+    {
+      "path": "content/formal-groups.knowl.md",
+      "source_sha256": "79ea37741432287a4dd963ba1cd7035e227ee7b1d80b6361aef2e0521b46987d"
+    },
+    {
+      "path": "content/functional-analysis/distributional-derivative.knowl.md",
+      "source_sha256": "81139a9f87b4f454f762f7d76564c9493fc173da54906d4ed3ec578c97d5a15c"
+    },
+    {
+      "path": "content/functional-analysis/finite-rank-operator.knowl.md",
+      "source_sha256": "bf306a06d8a1977278e4e76c2071b3e1bd8d73d2ed0e36de74d6072b5eed36e2"
+    },
+    {
+      "path": "content/functional-analysis/fredholm-operator.knowl.md",
+      "source_sha256": "7513744dd2416c822b04a1300bf8527289ba2fc3a2c23c21ff3cb4b43eeb2ee4"
+    },
+    {
+      "path": "content/harmonic-analysis/analytic-beurling-malliavin-proposition.knowl.md",
+      "source_sha256": "eec44e2089220f95cf0477dbd0eec459ae1dafa1cca4c8698dfcb2909bfb31f0"
+    },
+    {
+      "path": "content/harmonic-analysis/bochner-theorem-lca.knowl.md",
+      "source_sha256": "8f991863fb544a4dd0a757986e4b623a2b13f5bdaf9c2c9ca12115874f9e157e"
+    },
+    {
+      "path": "content/harmonic-analysis/haar-measure.knowl.md",
+      "source_sha256": "dd2329a3a609a2743818ac73234d8a381a4c0349ccefc772fea7c258001a6dea"
+    },
+    {
+      "path": "content/harmonic-analysis/locally-compact-homogeneous-space.knowl.md",
+      "source_sha256": "b97b6d37e626bbbd9cb4b6f6389d4446377a608037c5479a4cd1d4c341bc55e5"
+    },
+    {
+      "path": "content/harmonic-analysis/measure-algebra.knowl.md",
+      "source_sha256": "822b026aff7bdb81e20f2a71d4a4646489c4c85cb2a7343a55e37cbf4cc1473e"
+    },
+    {
+      "path": "content/harmonic-analysis/plancherel-measure-nonabelian.knowl.md",
+      "source_sha256": "305c5238379fee105fa6d44e1b374409028c700d2ba2f0c067cee0dfd78b55e1"
+    },
+    {
+      "path": "content/harmonic-analysis/schwartz-bruhat-space-adeles.knowl.md",
+      "source_sha256": "30031f61b2784d06f6986c3a2327681c7ae78ad55ec387f835bce6453ca0b702"
+    },
+    {
+      "path": "content/langlands/arthur-multiplicity-formula.knowl.md",
+      "source_sha256": "cde8ab6b24dbefeb72882992f08176120021b37801dc848be36696c9d6411d66"
+    },
+    {
+      "path": "content/langlands/excursion-algebra.knowl.md",
+      "source_sha256": "07927b7cc25453acab727c14a99cd4a8f166f18d234579bafad0e7c60a73407a"
+    },
+    {
+      "path": "content/langlands/excursion-operator.knowl.md",
+      "source_sha256": "e0bf6a5818f1c986f9eb89efabd323312c1e32b14105119dacd3c91d9e04f6f1"
+    },
+    {
+      "path": "content/langlands/fargues-fontaine-curve.knowl.md",
+      "source_sha256": "2a7b3f95f4571218814863432479958fc8d4cf363ad4122e37a5296b873a5d51"
+    },
+    {
+      "path": "content/langlands/g-bundle-on-fargues-fontaine-curve.knowl.md",
+      "source_sha256": "11d9549b49156b1cacfebf1db55e744b5d6ea0cb04094f8ddf02cd73c4897ab9"
+    },
+    {
+      "path": "content/langlands/global-langlands-parameter.knowl.md",
+      "source_sha256": "63d39491a924a9a1d02137f2251583a3a0d76e866e8982531dedb460950f7dbd"
+    },
+    {
+      "path": "content/langlands/global-langlands-reciprocity.knowl.md",
+      "source_sha256": "d501da6ac8ebd8a8f6c816a4bee88f9e71bcce741b2f4cd1c2f56f3ae9d9474f"
+    },
+    {
+      "path": "content/langlands/hitchin-fibration.knowl.md",
+      "source_sha256": "d7b84b45f8f99fbf0754461c8cec29a67a8ef624593c799b24c7e09a7c5ff303"
+    },
+    {
+      "path": "content/langlands/lafforgue-global-parameterization.knowl.md",
+      "source_sha256": "ec07a34e5a4aefa13ac8785e634bebe5069a6e66239e71d640a346ab151a13d2"
+    },
+    {
+      "path": "content/langlands/moduli-stack-of-g-local-systems.knowl.md",
+      "source_sha256": "83598e4a65b80ab1cb86102bef39c5f6eb0144b80e1ce81d7cc88228e3b44a57"
+    },
+    {
+      "path": "content/langlands/ramified-geometric-langlands.knowl.md",
+      "source_sha256": "9532ee549b9899949d94b78b73c385650e2e71fe7844ceadd22fb042aeeca79c"
+    },
+    {
+      "path": "content/langlands/root-number.knowl.md",
+      "source_sha256": "3508ba6b215afda5794ccf7c3fb3a7f11b0e86680bb52ae3114c69841f8c6914"
+    },
+    {
+      "path": "content/langlands/spectral-action.knowl.md",
+      "source_sha256": "8342f0a36ac31fb47be6d650387b826454e3c4a3fd255f3f30aabc002ffb0079"
+    },
+    {
+      "path": "content/langlands/strong-multiplicity-one-theorem.knowl.md",
+      "source_sha256": "b5937f7fd24d4bac846594aad4f6a768136aa08c8de290d6bb4d9177ff602683"
+    },
+    {
+      "path": "content/langlands/strongly-regular-semisimple-element.knowl.md",
+      "source_sha256": "daf6d52930f2d2d830a9f44b2677aa1b765bbb97d59c87960d92d77d2c41f0d3"
+    },
+    {
+      "path": "content/langlands/tamagawa-measure.knowl.md",
+      "source_sha256": "1a1b713d0dcc44b52fbefc748add7d1e0e7c3d76f4b48c60c5ff7ba48ef3735e"
+    },
+    {
+      "path": "content/langlands/tame-ramification.knowl.md",
+      "source_sha256": "636cf726ef2e993316f969a24fa667f213997e92f0376811f36fff683f79cc0f"
+    },
+    {
+      "path": "content/langlands/tate-nakayama-duality.knowl.md",
+      "source_sha256": "8e225ada2f87e393788b755609c0b5bbb41b82adfe38c32437f3c8e9cabc90c6"
+    },
+    {
+      "path": "content/langlands/weil-deligne-group.knowl.md",
+      "source_sha256": "130a62aa2fbd0393cb913c001e8605c0509ab9bc4991e6c7e41e902df52e186e"
+    },
+    {
+      "path": "content/langlands/weil-group.knowl.md",
+      "source_sha256": "77e886251855819fb126c0980614a6f7b36689ca0d1436c36b82273213dc6de1"
+    },
+    {
+      "path": "content/large-deviations/contraction-principle-ldp.knowl.md",
+      "source_sha256": "8cb832d4d6311d322c655ddb9566e13b98feb60728cad363da76fa7199e84a5d"
+    },
+    {
+      "path": "content/large-deviations/cramer-transform.knowl.md",
+      "source_sha256": "1b6748321253dbfce7ca3d9e369827dbb1c1e7f3bad0f0f479000da39160db6b"
+    },
+    {
+      "path": "content/large-deviations/exponential-tightness.knowl.md",
+      "source_sha256": "d93b7e1432c3d98f79b835b624a981c244ce359ae55d16939e53e88f30ec9a23"
+    },
+    {
+      "path": "content/large-deviations/good-rate-function.knowl.md",
+      "source_sha256": "95b74109297445752964f93666985c3c84656816fe9cdd1a2b36c7c10fe74231"
+    },
+    {
+      "path": "content/large-deviations/large-deviation-principle.knowl.md",
+      "source_sha256": "716df2a7428fd9f142738b8cbc37f5cc5215b3c974d6960b620a0cbb2b4a2cf1"
+    },
+    {
+      "path": "content/large-deviations/log-moment-generating-function.knowl.md",
+      "source_sha256": "0bce40198edc86f995719e073ffeec27bf5a7d4f4ae9f710217ef1e1c371721f"
+    },
+    {
+      "path": "content/large-deviations/rate-function.knowl.md",
+      "source_sha256": "47501cf40bff43224475a14c332cc686009cf96554ab007b0ecfbd26d71a1b21"
+    },
+    {
+      "path": "content/large-deviations/sanovs-theorem.knowl.md",
+      "source_sha256": "a0b3fcfaa3d528c32c54da7acfe7344d0571e2985ae474c53356490654e60f37"
+    },
+    {
+      "path": "content/lie-groups/adjoint-faithful-iff-discrete-center.knowl.md",
+      "source_sha256": "6c34882bb479d6334969e69a540a189bef591ec5da7231afbacd27a26bcbcee2"
+    },
+    {
+      "path": "content/lie-groups/analytic-vector-unitary-representation.knowl.md",
+      "source_sha256": "16fcda9cf2a292ff0a84fdc9a48757e2f3d86805df2ef7beb80aeb42ddb036d0"
+    },
+    {
+      "path": "content/lie-groups/baker-campbell-hausdorff-formula.knowl.md",
+      "source_sha256": "fe5e6036ac2457fa7b9a82ae414258128a82c7648d049455342a1d55bdb03cbc"
+    },
+    {
+      "path": "content/lie-groups/bi-invariant-differential-form.knowl.md",
+      "source_sha256": "62ef283facbfddb57685fa39023a22154fde213edfeb956f9648c3921ba6d691"
+    },
+    {
+      "path": "content/lie-groups/bi-invariant-metric.knowl.md",
+      "source_sha256": "7a296be08e719fc06bd4ee4a207b5c7a59720f7b31e39f5782aa9c7edf1a9eb4"
+    },
+    {
+      "path": "content/lie-groups/borel-de-siebenthal-theory.knowl.md",
+      "source_sha256": "c45df4f2eac1a56d1f346f34b243639db74ceaab071c74e4c3479abe4be5b526"
+    },
+    {
+      "path": "content/lie-groups/branching-rule-for-lie-representations.knowl.md",
+      "source_sha256": "1b23f7d89d1b3f76899a8673b8719a7f4fc32499600f50f357eeec3a8ea987fd"
+    },
+    {
+      "path": "content/lie-groups/cartan-decomposition-real-reductive-lie-algebra.knowl.md",
+      "source_sha256": "17bc34abba513da5a8df8579fe9db8f0a78797b323280018cbad3e18c8231ed5"
+    },
+    {
+      "path": "content/lie-groups/cartan-involution-real-lie-algebra.knowl.md",
+      "source_sha256": "7521ff5ce7e8f83949eba3761c2efb49f36908447293818cfaafa83fcdae6601"
+    },
+    {
+      "path": "content/lie-groups/cartan-matrix.knowl.md",
+      "source_sha256": "8cdbafee6a75601bd7b51915eff7ed08691d83dcd538acfca26d54104fbb0804"
+    },
+    {
+      "path": "content/lie-groups/cartan-subalgebra-self-normalizing-lemma.knowl.md",
+      "source_sha256": "a700278002254ef0ce657dd07f0d1c1f0d8a5a2a01cf6d91f51e3b42843527db"
+    },
+    {
+      "path": "content/lie-groups/cartan-subalgebra.knowl.md",
+      "source_sha256": "c033c44e4d44bc41f07fdd84fadb866bf1650926523a912cd3d167af0ebc37fe"
+    },
+    {
+      "path": "content/lie-groups/cartans-criterion-semisimplicity.knowl.md",
+      "source_sha256": "e5742be9feef9582e37747acb7f2509a550d0936b224e6547c60b2e568e86b4e"
+    },
+    {
+      "path": "content/lie-groups/cartans-criterion-solvability.knowl.md",
+      "source_sha256": "1261cf87445c5bb5cf4121cd29f3475df72627301ad7df81877be4d538fe4b72"
+    },
+    {
+      "path": "content/lie-groups/casselman-subrepresentation-theorem.knowl.md",
+      "source_sha256": "423b3ac95a3293c9a293d17433f7ceeb8cee9bcde6878e10711c4f8ce9d015a0"
+    },
+    {
+      "path": "content/lie-groups/casselman-wallach-globalization-theorem.knowl.md",
+      "source_sha256": "559771a63f6cd113630d73613fc1b730d8ff2c6faa218fa1d298d2192db3c375"
+    },
+    {
+      "path": "content/lie-groups/casselman-wallach-representation.knowl.md",
+      "source_sha256": "67bb97c9548bf6d63391d288e82031f88919b212f5dd337c188dcd0b86a2333a"
+    },
+    {
+      "path": "content/lie-groups/center-of-a-lie-group.knowl.md",
+      "source_sha256": "2104581a0b08314ae20a398c3fbb09858dffc9de1735a9b3524ff56aedff8f84"
+    },
+    {
+      "path": "content/lie-groups/centralizer-of-a-regular-reductive-subalgebra.knowl.md",
+      "source_sha256": "eb50b80353b2cfb653df3141b0f0d0fc603f84ba701c9e811dc855400f2d2f5a"
+    },
+    {
+      "path": "content/lie-groups/classification-simple-lie-algebras.knowl.md",
+      "source_sha256": "38bedbbe257af4f0de72140f78a1afd9d57717c23a58a65aa6bea6fa52c87c02"
+    },
+    {
+      "path": "content/lie-groups/closed-subgroup-lie-group.knowl.md",
+      "source_sha256": "ff05a974b40defe1b85f2e6f4b07a66b83ae369e1f289a893cbfe1ad86191607"
+    },
+    {
+      "path": "content/lie-groups/closed-subgroup-theorem.knowl.md",
+      "source_sha256": "8067d06d6ca52a9532c2e01208f65d0bd3aa423877840f8a8d69c517a9e175f7"
+    },
+    {
+      "path": "content/lie-groups/coadjoint-representation-of-a-lie-algebra.knowl.md",
+      "source_sha256": "d44bb73e6c54659545e4f706370adbf9b3908b2b3f1ff5992644ad58e5f149e1"
+    },
+    {
+      "path": "content/lie-groups/commutator-subgroup-of-a-lie-group.knowl.md",
+      "source_sha256": "cbfffd965ac22077a66f9714f9a2cfdc915699329bbe0d9b9769e8e1c01f8662"
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-e6.knowl.md",
+      "source_sha256": "2447cfdfcb17f52ef7ee4e122465d1ac9bbdef2082a59d4484d557fa8394c47c"
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-e7.knowl.md",
+      "source_sha256": "20e6634a700e99eb4aff7732a2a9ee43821ea08b98ede5886a40261df76818e5"
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-e8.knowl.md",
+      "source_sha256": "8863f44283a98c519bc64768431f511a95f91fb0f2fac9c91d462348007d8951"
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-f4.knowl.md",
+      "source_sha256": "485856fe883aa186a02afa8ae971f23a53121287be53d7efca36e496c867d130"
+    },
+    {
+      "path": "content/lie-groups/compact-exceptional-lie-group-g2.knowl.md",
+      "source_sha256": "f6ed34bc6ca539dfbf3287c0bda8adb269c23d5722b27d50707006b9a8a55d6f"
+    },
+    {
+      "path": "content/lie-groups/compact-lie-group-bi-invariant-metric.knowl.md",
+      "source_sha256": "8dedc07ecf737c276f2a4f8d957bd639224e044cd2208b6daf89879bfdd7fc57"
+    },
+    {
+      "path": "content/lie-groups/compact-lie-group-structure.knowl.md",
+      "source_sha256": "0a7dbd20b4bded92047a5f75d17990929bf0bd95cd4846c83b370470a83ea387"
+    },
+    {
+      "path": "content/lie-groups/compact-lie-group.knowl.md",
+      "source_sha256": "5f98c07a20fad0439ca79d22c976c28bf16e8988f37e1cd63c2fd84fc46ed93a"
+    },
+    {
+      "path": "content/lie-groups/complete-filtered-lie-algebra.knowl.md",
+      "source_sha256": "4e12b4e7517ece16915a8d0d4300c83e16ee244a87396ade3d2027740b3e740a"
+    },
+    {
+      "path": "content/lie-groups/completely-reducible-representation-lie.knowl.md",
+      "source_sha256": "d84d53997f74a4c7ee8f4da6a10bb84d29a2bcc1fe9230a183228f4bbf1515d9"
+    },
+    {
+      "path": "content/lie-groups/complex-lie-algebra-sl3.knowl.md",
+      "source_sha256": "11f7d4b0b52d011e21534471f7487141bcc279a6742d211ab7a29831ca407fbe"
+    },
+    {
+      "path": "content/lie-groups/complex-lie-algebra-sl5.knowl.md",
+      "source_sha256": "25bae4d0a6663c0eddbb45423cdfb805a7b05bd1d94735f5423be1a735cd5948"
+    },
+    {
+      "path": "content/lie-groups/complex-lie-algebra-so10.knowl.md",
+      "source_sha256": "fb72dcc6cfbc13e0ea782f5f06a965ec413349c22d922c3e7d182affeae91476"
+    },
+    {
+      "path": "content/lie-groups/complex-lie-group.knowl.md",
+      "source_sha256": "f0b48d7811bfa97f8507092baee3805c13889238770e4ccabc417182c2795cbc"
+    },
+    {
+      "path": "content/lie-groups/conjugation-action-of-a-lie-group.knowl.md",
+      "source_sha256": "49e9950ac762e3285cae075dcfd6c9b270e16722ebe8c0f04f84d2b7f343291c"
+    },
+    {
+      "path": "content/lie-groups/connected-lie-group.knowl.md",
+      "source_sha256": "dafce5f4d67e73e25c2840aa7bbba40f5faa443adbc8f82b4433f5bd834a8b29"
+    },
+    {
+      "path": "content/lie-groups/connected-subgroup-determined-by-algebra.knowl.md",
+      "source_sha256": "0668de8be0ffcf2320a4dcc6a687e99da55de4160ec5cbdf6abc1d8960c81308"
+    },
+    {
+      "path": "content/lie-groups/coset-space.knowl.md",
+      "source_sha256": "67d0709530cb8b6bc9c81629bb0979a07f90931716f8b33a41d4403b8ff2b7f0"
+    },
+    {
+      "path": "content/lie-groups/covering-lie-group.knowl.md",
+      "source_sha256": "4eaccdbbc32d4c7f0303ca7fc83c368f2790a255d3dfa383d84374b05c8220e4"
+    },
+    {
+      "path": "content/lie-groups/derived-representation-on-smooth-vectors.knowl.md",
+      "source_sha256": "2f512751374efc3defdd4a7df83e1a0b0f96e2eab3dc27e239ed8cec49ef53e3"
+    },
+    {
+      "path": "content/lie-groups/derived-series-lie-algebra.knowl.md",
+      "source_sha256": "359af66fbb375d0ac1b15a3575a4d3366d22d08a09867dbab146ca802603575e"
+    },
+    {
+      "path": "content/lie-groups/derived-subalgebra-is-ideal-lemma.knowl.md",
+      "source_sha256": "2e86aa589b4ee14f4526ccffb9ff7aa31411115483e7f832bba21403e376d4f2"
+    },
+    {
+      "path": "content/lie-groups/differential-is-lie-algebra-homomorphism.knowl.md",
+      "source_sha256": "cb1d589278c20db62366e13fe1dc2756397e5368ea12d5a2fe4d287d7722b68f"
+    },
+    {
+      "path": "content/lie-groups/direct-sum-of-lie-algebras.knowl.md",
+      "source_sha256": "340399db4dc68242f5b4e8c315c906aba38dcff14a6b93e29761655c84ce44ef"
+    },
+    {
+      "path": "content/lie-groups/discrete-series-representation.knowl.md",
+      "source_sha256": "bea15f0e05ab69ef052341971070337565a2f4f1eee2adad01f25e0beb4dec6b"
+    },
+    {
+      "path": "content/lie-groups/discrete-subgroup.knowl.md",
+      "source_sha256": "e3bcd6be37e7fe105196e2804c7a58baac601e9564e565527265d3ba130cf607"
+    },
+    {
+      "path": "content/lie-groups/distribution-vectors-of-a-representation.knowl.md",
+      "source_sha256": "f64b230e63d62992112b84198fe0fbf3f0c7dbc144bbcf91c73804df874fdb12"
+    },
+    {
+      "path": "content/lie-groups/dynkin-diagram.knowl.md",
+      "source_sha256": "1b2663b5906cca452065bf1561d95282cc6d9e51fd53380776660803e27c570f"
+    },
+    {
+      "path": "content/lie-groups/effective-action.knowl.md",
+      "source_sha256": "8378d8e6bbc823cd6423af9751362270a212e6ee9f61074ee61fa39c49d05771"
+    },
+    {
+      "path": "content/lie-groups/kirillov-correspondence-nilpotent-lie-groups.knowl.md",
+      "source_sha256": "fb526c73aa5ccd3edd2c4cc44581c3908d70c55d5b66fe9ea9439e793b53e61e"
+    },
+    {
+      "path": "content/lie-groups/lie-group-homomorphism.knowl.md",
+      "source_sha256": "1034522ed0886204303c7a6a5d38e9bb559837b2dcc2b4f175a568917f25997a"
+    },
+    {
+      "path": "content/lie-groups/lie-subgroup.knowl.md",
+      "source_sha256": "105245ac090c5da9d66793d5e9f67f5a3f1da32e4cd49c8a4c32b8f7a6c15525"
+    },
+    {
+      "path": "content/lie-groups/maximal-compact-subgroup-real-reductive-group.knowl.md",
+      "source_sha256": "f1807e2c131f32027dc8b1e8ee99ac592d6aa2f1cca2f782b86199685e97c7ba"
+    },
+    {
+      "path": "content/lie-groups/metaplectic-group.knowl.md",
+      "source_sha256": "c99aa4055533cdea4688d8d5e6366c71064cf0d1a4105d1eb00204a516fc9b7e"
+    },
+    {
+      "path": "content/lie-groups/metaplectic-representation.knowl.md",
+      "source_sha256": "8bcbf3ec9a41473315ff416301c51b44cd84e254d74757c742cb87e41f750f81"
+    },
+    {
+      "path": "content/lie-groups/orbit-lie-group.knowl.md",
+      "source_sha256": "9af8eaeadb0caee9845229020c1f23734ab9b6daefd62f17b21fec8963bd7c15"
+    },
+    {
+      "path": "content/lie-groups/orbit-method-induced-representation.knowl.md",
+      "source_sha256": "cbf4a66d85d5ae9e0d9ee055a8ffd24540eab552b2d29a9f16d7d232ddedf6be"
+    },
+    {
+      "path": "content/lie-groups/orbit-method.knowl.md",
+      "source_sha256": "bd13f9b36f4d7e7f7a8c62f189c7fe1c5f14918337752c6eff236322b9e763f9"
+    },
+    {
+      "path": "content/lie-groups/poincare-group.knowl.md",
+      "source_sha256": "50713486e03e6d39ab6f514996c096b9078d4af7ca2cc05daf9823bafe6e9d29"
+    },
+    {
+      "path": "content/lie-groups/positive-root.knowl.md",
+      "source_sha256": "a22500777bcd4e5641aca63520e0ea9696cf7d761167ab2faa99a6921d09406e"
+    },
+    {
+      "path": "content/lie-groups/riemannian-symmetric-space-noncompact-type.knowl.md",
+      "source_sha256": "257c4eb50ab0b239bd358ea9fd73d7f519019972cb233c7530d59ca68df789d1"
+    },
+    {
+      "path": "content/lie-groups/root-space-decomposition.knowl.md",
+      "source_sha256": "865445fc18bca7754753bd895c1c1736b6a03d843e0ac73fd50bc2d54e050c2c"
+    },
+    {
+      "path": "content/lie-groups/root-system.knowl.md",
+      "source_sha256": "b647a1537b3348abe61f6cecc8b88e1887fe0dccfb90022b81ae07aac2d9e645"
+    },
+    {
+      "path": "content/lie-groups/smooth-action-lie-group.knowl.md",
+      "source_sha256": "0148780f2f0da978374692f8436797bedbae20511eddd83a0da0f53e35cb31bf"
+    },
+    {
+      "path": "content/lie-groups/solvable-lie-algebra.knowl.md",
+      "source_sha256": "fa69139915e1c3ad2e45f82081b83ef90ab86487a174e9fdeb07f8cd16f602ed"
+    },
+    {
+      "path": "content/lie-groups/special-orthogonal-group.knowl.md",
+      "source_sha256": "9ed39c425057ecfcf63180decee67a567a7e9976f8fd9257b819e5119786661d"
+    },
+    {
+      "path": "content/lie-groups/stone-von-neumann-theorem.knowl.md",
+      "source_sha256": "4e3898492847ba3e908b488c046f64244af056a22a43afbecc40606c0f2c8f96"
+    },
+    {
+      "path": "content/lie-groups/weights-of-the-defining-sl3-representation.knowl.md",
+      "source_sha256": "2e1dbf24e4db1f86f4dd0f153512aed8ad9d392c101dad0cd3783e0e32fbfa84"
+    },
+    {
+      "path": "content/linear-algebra/quaternion-division-algebra.knowl.md",
+      "source_sha256": "02a001744e79f8702b9a2f9821454a7975e31c230d79cb182343e0657ff67b43"
+    },
+    {
+      "path": "content/linear-algebra/symmetric-positive-definite-matrix.knowl.md",
+      "source_sha256": "f400bf24f7cfaf970b13e319692d22499fbd0778a61288ce044630dd8803e67c"
+    },
+    {
+      "path": "content/mathematical-physics.knowl.md",
+      "source_sha256": "4be0055c92e58351ca79a09db916c6af798f2f9a96a5fb5e6ccd0c679ea72428"
+    },
+    {
+      "path": "content/mathematical-physics/compact-hyperbolic-surface.knowl.md",
+      "source_sha256": "434a522257584ccf60c28f4314ce3fd9c4727b2af62c9b5a13dcd39abecefced"
+    },
+    {
+      "path": "content/mathematical-physics/hyperbolic-plane-wave.knowl.md",
+      "source_sha256": "8a8cb0a6c9dc352f1cd424e3533958195ab0c3787ba547b52f9ddfc11fecafbd"
+    },
+    {
+      "path": "content/mathematical-physics/hypercharge.knowl.md",
+      "source_sha256": "d074bdcd3624834198df0f1ef92af1007180d52086f31f454bb203c5df2b99b6"
+    },
+    {
+      "path": "content/mathematical-physics/standard-model-exterior-algebra-representation.knowl.md",
+      "source_sha256": "6875c8c514bf580209824ead9e8c128589a7925c05df2dde7c959208cb48afbb"
+    },
+    {
+      "path": "content/nonassociative-algebra.knowl.md",
+      "source_sha256": "bad5ec31930d893946c9d7565fa2f5fdf8e4cdb12a37f5bbf1d5cf1e8eaec816"
+    },
+    {
+      "path": "content/nonassociative-algebra/exceptional-jordan-algebra.knowl.md",
+      "source_sha256": "5e583d85c9725de69fed5f5cbf2d856cd89bcfe8ff5aefac339487703157579b"
+    },
+    {
+      "path": "content/nonassociative-algebra/su3-stabilizer-of-a-complex-octonion-subalgebra.knowl.md",
+      "source_sha256": "8751220732e5d7bb2fa106930541a00efed0f6f5b049559faca77918c3ad6191"
+    },
+    {
+      "path": "content/noncommutative-geometry/almost-commutative-spectral-triple.knowl.md",
+      "source_sha256": "5b0acea0393c208c4f2dc0a0caa759b607845c353d443180cc1952849dd8502c"
+    },
+    {
+      "path": "content/noncommutative-geometry/fredholm-module.knowl.md",
+      "source_sha256": "b7b8aa45f6a2742f2af7d843a0f5fb7dd0d0c935ee12960bde6573a0e2791342"
+    },
+    {
+      "path": "content/noncommutative-geometry/odd-fredholm-module.knowl.md",
+      "source_sha256": "6006d143bf7fa9d28373a364edb9bdf277dc52815cc0ff1b560ed3c6629b6767"
+    },
+    {
+      "path": "content/operator-algebras/breuer-fredholm-operator.knowl.md",
+      "source_sha256": "0c092a5461c240ea321004a3d1e028e48229fae5a04117660c51de1c55e06daf"
+    },
+    {
+      "path": "content/operator-algebras/c0-function-algebra.knowl.md",
+      "source_sha256": "ccf39e95725b4ae606783306b963e2be28a067ef0f3ef97f124a778e24649869"
+    },
+    {
+      "path": "content/operator-algebras/canonical-map-full-to-reduced-crossed-product.knowl.md",
+      "source_sha256": "0459325133c3b1ab4566e01ab32d1aa5bfd65d63630cdea9a0834d49648938ca"
+    },
+    {
+      "path": "content/operator-algebras/cauchy-schwarz-hilbert-cstar-module.knowl.md",
+      "source_sha256": "ccffafec2d09ca1bba00e24520deb77bafc4edfdc0c522a1b6bad17223f7d8f7"
+    },
+    {
+      "path": "content/operator-algebras/central-decomposition.knowl.md",
+      "source_sha256": "716d8fe9526a2accac7af3301c2a5a66038df736fe348b4db4b85433b8f404c4"
+    },
+    {
+      "path": "content/operator-algebras/centralizer-of-weight.knowl.md",
+      "source_sha256": "231a50a301676b521c2836aaf3911060fb9da10ca9f5a0746536a1d59c6dc18e"
+    },
+    {
+      "path": "content/operator-algebras/character-space.knowl.md",
+      "source_sha256": "e43bdf04d4c8fddcbc13fb57e7d42d01d248aa06856f4d58ced679e66729ba0a"
+    },
+    {
+      "path": "content/operator-algebras/compact-operator-cstar-algebra.knowl.md",
+      "source_sha256": "962afe4482ff95a6a049cadceefe68e7cdbd41e8fd8779c69714aa1dbd2a3e91"
+    },
+    {
+      "path": "content/operator-algebras/continuous-trace-cstar-algebra.knowl.md",
+      "source_sha256": "c10f9cc950dbb3ff4b7fe2f7df06726b155e3515495ef712243a33ba1c50f9ba"
+    },
+    {
+      "path": "content/operator-algebras/corona-algebra.knowl.md",
+      "source_sha256": "8be5a1e22ddab00ee9ebdb2cdfdf97939d72a08f966fa31ffc3ac81d51b94491"
+    },
+    {
+      "path": "content/operator-algebras/full-crossed-product.knowl.md",
+      "source_sha256": "ef78b7f006ac832cb002b3dd6f76c6dea37638b31abb3cf12b37116ea72581f2"
+    },
+    {
+      "path": "content/operator-algebras/gelfand-duality.knowl.md",
+      "source_sha256": "b794fc3e1889f910fc3a2bed0aa681d1bed26f510b3ce24c5113713d1aa2c10e"
+    },
+    {
+      "path": "content/operator-algebras/group-von-neumann-algebra.knowl.md",
+      "source_sha256": "86691539c9c3496c2efedc0a1193ae4c1b72d5102c5ad20c6d27ae0724ae4724"
+    },
+    {
+      "path": "content/operator-algebras/k1-cstar-algebra.knowl.md",
+      "source_sha256": "f392fd8c9a41041f18bec88ad705a7a8c251504531b82cb57588e343570c09eb"
+    },
+    {
+      "path": "content/operator-algebras/positive-linear-functional.knowl.md",
+      "source_sha256": "33b7a0de32c6c57f20caad45cb7ea74322a033530fb3315beafb2b6b78d5700b"
+    },
+    {
+      "path": "content/operator-algebras/quotient-cstar-algebra.knowl.md",
+      "source_sha256": "29b442b0ec3a46eae49ed54dbcbd4703fad54c34458021672d73e4ea442c9ae6"
+    },
+    {
+      "path": "content/operator-algebras/star-isomorphism.knowl.md",
+      "source_sha256": "ce75cc4aa3e869df0dee18163f3e13eeb2b76df15daabf9e8b1c95a86d9f2863"
+    },
+    {
+      "path": "content/operator-algebras/state-cstar-algebra.knowl.md",
+      "source_sha256": "a6975701660b3120f3882bc41bbdce83b630ace9418040588f9ee6d4edd1a16e"
+    },
+    {
+      "path": "content/operator-algebras/states-separate-positive-elements.knowl.md",
+      "source_sha256": "fd4b6b7299fd77aa7443d6941829c2e0e0376ae52cee9cdc756f9c5dad4f0fab"
+    },
+    {
+      "path": "content/operator-algebras/stinespring-dilation-theorem.knowl.md",
+      "source_sha256": "3cbc478fda8c8d72b64215971f93abf0f22e40d10dff873e9d17c3425ed10f98"
+    },
+    {
+      "path": "content/operator-algebras/strict-topology.knowl.md",
+      "source_sha256": "aa393e7ac8c10cc1fa0b9042b495a28573ad2960c69f40011413fa478c31fe0a"
+    },
+    {
+      "path": "content/operator-algebras/strictly-positive-element.knowl.md",
+      "source_sha256": "e3a7b12f27fed41d903d60e88ee00dd1b3a6b2645b60361e69984ab66d70d34e"
+    },
+    {
+      "path": "content/operator-algebras/strong-morita-equivalence.knowl.md",
+      "source_sha256": "43300676289ad70ed78d53de79411d68db042ad3d928d0e9fbfdfe852b33ddf6"
+    },
+    {
+      "path": "content/operator-algebras/strong-operator-topology.knowl.md",
+      "source_sha256": "614915a21377cb5d2007215d3fea6dfc1160f1863038d0bfd3a5cadc702cc75e"
+    },
+    {
+      "path": "content/operator-algebras/strong-star-operator-topology.knowl.md",
+      "source_sha256": "a8181efd773b4e3d273d34ad243380dd6806548cb350d7fa070cabf2fee9ae20"
+    },
+    {
+      "path": "content/operator-algebras/support-projection-of-functional.knowl.md",
+      "source_sha256": "b343059e73434343e0709ff5d0edc1783f51a3f4947bcd77344b183a50d2e931"
+    },
+    {
+      "path": "content/operator-algebras/takai-duality.knowl.md",
+      "source_sha256": "8483851c9b051a7ea3389bcc15520b62ac3b59de3fd7b64dec39253feddafa59"
+    },
+    {
+      "path": "content/operator-algebras/tau-compact-operator.knowl.md",
+      "source_sha256": "3bfdbb76c7196ce1c6030e26431e306b8d59d072831e6533243119a5d6cefac4"
+    },
+    {
+      "path": "content/operator-algebras/tau-measurable-operator.knowl.md",
+      "source_sha256": "866850816d27e7024a000bb80b09fd870bf08e921db7e116376b0923a269d5ea"
+    },
+    {
+      "path": "content/operator-algebras/toeplitz-representation-cstar-correspondence.knowl.md",
+      "source_sha256": "d6c5a1485c5748fddfd7deb70a3e66b916fb23f3ead3bf54f333b6235f4489f8"
+    },
+    {
+      "path": "content/operator-algebras/tomita-operator.knowl.md",
+      "source_sha256": "d04d4e8e49b35949384e30287fd9b250b13012d91a07d25983d4d0fedf0f1f9d"
+    }
+  ],
+  "integration_note": "Hashes identify the final sources after root resolved findings; original reviewer findings and root resolutions retained."
+}

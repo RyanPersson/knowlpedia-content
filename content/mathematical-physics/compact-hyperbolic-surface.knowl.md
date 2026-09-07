@@ -22,7 +22,7 @@ preserving isometries of the hyperbolic plane.
 
 ## Disk model
 
-The hyperbolic plane may be represented by the Poincaré disk
+The hyperbolic plane may be represented by the [[differential-geometry/poincare-disk-model|Poincaré disk]]
 \(\mathbb D=\{z\in\mathbb C:|z|<1\}\). Its ideal boundary is \(S^1\), and each
 complete geodesic has two endpoints there.
 

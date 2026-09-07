@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H\) be a complex Hilbert space, let \(S(H)\) be its [[shale-paper/symmetric-fock-space|symmetric Fock space]], and let \(C(z)\) and \(C^*(z)\) be the [[shale-paper/creation-annihilation-operators|creation and annihilation operators]] associated with \(z\in H\). The **Fock–Cook field operator** is the closure
+Let \(H\) be a complex [[linear-algebra/hilbert-space|Hilbert space]], let \(S(H)\) be its [[shale-paper/symmetric-fock-space|symmetric Fock space]], and let \(C(z)\) and \(C^*(z)\) be the [[shale-paper/creation-annihilation-operators|creation and annihilation operators]] associated with \(z\in H\). The **Fock–Cook field operator** is the closure
 \[
 R(z)=\frac1{\sqrt2}\,(C(z)+C^*(z))^{\sim},
 \]

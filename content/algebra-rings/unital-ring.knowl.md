@@ -19,7 +19,7 @@ Since rings in this collection are not required to be unital, constructions and 
 
 ## Remarks
 
-In a unital ring, elements that admit multiplicative inverses are [[algebra-rings/unit|units]], and they form the [[algebra-rings/group-of-units|group of units]]. Many constructions (e.g. polynomial rings) and many definitions of [[algebra-rings/ring-homomorphism|ring homomorphisms]] are most natural in the unital setting.
+In a unital ring, elements that admit multiplicative inverses are [[algebra-rings/unit|units]], and they form the [[algebra-rings/group-of-units|group of units]]. Many constructions (e.g. [[algebra-rings/polynomial-ring|polynomial rings]]) and many definitions of [[algebra-rings/ring-homomorphism|ring homomorphisms]] are most natural in the unital setting.
 
 ## Examples
 

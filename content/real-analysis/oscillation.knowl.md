@@ -27,4 +27,4 @@ Oscillation is used in the [[real-analysis/oscillation-criterion|oscillation cri
 ## Examples
 
 - For \(f(x)=x\) on \([0,1]\), one has \(\operatorname{osc}(f;[0,1])=1\).
-- If \(f\) is the indicator function of \(\mathbb Q\cap[a,b]\), then \(\operatorname{osc}(f;I)=1\) on every nontrivial subinterval \(I\subseteq[a,b]\).
+- If \(f\) is the [[measure-theory/indicator-function|indicator function]] of \(\mathbb Q\cap[a,b]\), then \(\operatorname{osc}(f;I)=1\) on every nontrivial subinterval \(I\subseteq[a,b]\).

@@ -10,7 +10,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A morphism \(f:Y\to X\) of [[algebraic-geometry-foundations/scheme|schemes]] is **unramified** if it is [[algebraic-geometry-foundations/locally-of-finite-type|locally of finite type]] and its [[algebraic-geometry-foundations/relative-kahler-differentials|sheaf of relative Kähler differentials]] vanishes:
+A [[algebra-category-theory/morphism|morphism]] \(f:Y\to X\) of [[algebraic-geometry-foundations/scheme|schemes]] is **unramified** if it is [[algebraic-geometry-foundations/locally-of-finite-type|locally of finite type]] and its [[algebraic-geometry-foundations/relative-kahler-differentials|sheaf of relative Kähler differentials]] vanishes:
 \[
 \Omega_{Y/X}=0.
 \]

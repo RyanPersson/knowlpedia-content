@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(E\) be a right
 [[operator-algebras/hilbert-cstar-module|Hilbert \(C^*\)-module]] over a
-\(C^*\)-algebra \(A\), with inner product linear in the second variable. For
+\(C^*\)-algebra \(A\), with [[linear-algebra/inner-product|inner product]] linear in the second variable. For
 all \(x,y\in E\),
 \[
 \langle x,y\rangle_A^*\langle x,y\rangle_A

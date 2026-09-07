@@ -22,6 +22,6 @@ B(X,Y)=\mathrm{tr}(\mathrm{ad}_X\circ \mathrm{ad}_Y).
 
 ## Remarks
 
-**Context.** This criterion is a practical test for semisimplicity: it converts the intrinsic condition “\(\mathfrak{g}\) has no nonzero solvable ideals” into a bilinear-algebra statement. It is complementary to [[lie-groups/cartans-criterion-solvability|Cartan’s criterion for solvability]], which detects when a Lie algebra is solvable via vanishing of certain traces.
+**Context.** This criterion is a practical test for semisimplicity: it converts the intrinsic condition “\(\mathfrak{g}\) has no nonzero solvable ideals” into a bilinear-algebra statement. It is complementary to [[lie-groups/cartans-criterion-solvability|Cartan’s criterion for solvability]], which detects when a Lie algebra is solvable via vanishing of certain [[linear-algebra/trace|traces]].
 
-**Remark.** Nondegeneracy of \(B\) implies strong structure results, including the decomposition of any semisimple Lie algebra into a [[lie-groups/semisimple-direct-sum-simple|direct sum of simple ideals]].
+**Remark.** Nondegeneracy of \(B\) implies strong structure results, including the decomposition of any [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]] into a [[lie-groups/semisimple-direct-sum-simple|direct sum of simple ideals]].

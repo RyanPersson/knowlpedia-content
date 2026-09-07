@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 Let \(A\) be a [[algebra-rings/commutative-ring|commutative ring]] and
-\(I\subseteq A\) an ideal. Its **\(I\)-adic completion** is the inverse limit
+\(I\subseteq A\) an [[algebra-rings/ideal|ideal]]. Its **\(I\)-adic completion** is the [[algebra-category-theory/limit|inverse limit]]
 \[
 \widehat A^{\,I}:=\varprojlim_{n\geq1}A/I^n
 \]

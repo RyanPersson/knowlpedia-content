@@ -19,4 +19,4 @@ then for each \(x_0\in U\) there are neighborhoods \(A\) of \(x_0\) and \(B\) of
 
 ## Remarks
 
-This is the [[real-analysis/inverse-function-theorem-rk|inverse function theorem]] applied at each point. In this situation, \(f\) is called a local diffeomorphism.
+This is the [[real-analysis/inverse-function-theorem-rk|inverse function theorem]] applied at each point. In this situation, \(f\) is called a [[algebraic-geometry-foundations/local-diffeomorphism|local diffeomorphism]].

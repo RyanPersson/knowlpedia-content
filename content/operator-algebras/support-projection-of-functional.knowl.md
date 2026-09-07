@@ -43,8 +43,8 @@ For \(M=B(H)\) and
 trace class, \(s(\varphi)\) is the
 [[linear-algebra/orthogonal-projection|orthogonal projection]] onto
 \(\overline{\operatorname{ran}\rho}\). In particular, the support of the
-vector functional \(x\mapsto\langle x\xi,\xi\rangle\) is the rank-one
-projection onto \(\mathbb C\xi\). In a commutative model \(M=L^\infty(X,\mu)\),
+vector functional \(x\mapsto\langle x\xi,\xi\rangle\) is the [[quantum-foundations/rank-one-projector|rank-one
+projection]] onto \(\mathbb C\xi\). In a commutative model \(M=L^\infty(X,\mu)\),
 the support is multiplication by the essential support of the density
 representing \(\varphi\).
 

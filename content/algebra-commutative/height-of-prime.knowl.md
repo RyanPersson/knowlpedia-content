@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(\mathfrak p\) be a prime ideal (i.e., \(\mathfrak p\in\operatorname{Spec}(R)\), the [[algebra-commutative/prime-spectrum|prime spectrum]]).
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(\mathfrak p\) be a [[algebra-rings/prime-ideal|prime ideal]] (i.e., \(\mathfrak p\in\operatorname{Spec}(R)\), the [[algebra-commutative/prime-spectrum|prime spectrum]]).
 
 The **height** of \(\mathfrak p\), denoted \(\operatorname{ht}(\mathfrak p)\), is the supremum of integers \(n\ge 0\) such that there exists a strictly increasing chain of prime ideals
 \[

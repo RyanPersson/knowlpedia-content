@@ -22,4 +22,4 @@ dependency_review_count = 1
 
 ## Remarks
 
-A field equipped with such an order is an ordered field; the real numbers form the standard example. The order interacts with the [[real-analysis/absolute-value|absolute value]] and underlies definitions of [[real-analysis/interval|intervals]], bounds, and \(\varepsilon\)–\(\delta\) limits.
+A field equipped with such an order is an ordered field; the [[shared-foundations/real-numbers|real numbers]] form the standard example. The order interacts with the [[real-analysis/absolute-value|absolute value]] and underlies definitions of [[real-analysis/interval|intervals]], bounds, and \(\varepsilon\)–\(\delta\) limits.

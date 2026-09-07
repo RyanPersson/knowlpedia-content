@@ -14,7 +14,7 @@ dependency_review_count = 1
 A **Riemannian symmetric space of noncompact type** is a connected, simply
 connected, complete [[differential-geometry/riemannian-manifold|Riemannian
 manifold]] \(X\) such that every point is an isolated fixed point of an
-involutive isometry, all sectional curvatures are nonpositive, and \(X\) has
+involutive isometry, all [[differential-geometry/sectional-curvature|sectional curvatures]] are nonpositive, and \(X\) has
 no nontrivial Euclidean de Rham factor. Equivalently,
 \[
 X\cong G/K,

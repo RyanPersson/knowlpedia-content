@@ -1,6 +1,6 @@
 +++
 id = "operator-algebras/type-i-composition-series"
-title = "Type I composition series"
+title = "Type I [[algebra-groups/composition-series-group|composition series]]"
 kind = "definition"
 summary = "A transfinite ideal filtration whose successive quotients are continuous-trace C*-algebras."
 aliases = ["composition series with continuous-trace quotients", "CCR composition series"]
@@ -32,7 +32,7 @@ Every [[operator-algebras/type-i-cstar-algebra|type I \(C^*\)-algebra]]
 admits such an ascending series.
 The construction repeatedly passes to a quotient and selects a nonzero
 continuous-trace ideal, then takes closures at limit stages. The process ends
-because a strictly increasing chain of closed ideals cannot contain more
+because a strictly increasing chain of [[operator-algebras/closed-two-sided-ideal|closed ideals]] cannot contain more
 members than the [[shared-foundations/power-set|power set]] of the underlying algebra.
 
 ## How the filtration is used

@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "linear-algebra/surjective-linear-isometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5db22587d519992c78473415680ac8a95992b4ce0e63c62d799c1883f822c15",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: Norm, isometry, group, composition. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "linear-algebra/symmetric-positive-definite-matrix",
+      "outcome": "corrected",
+      "source_sha256": "f400bf24f7cfaf970b13e319692d22499fbd0778a61288ce044630dd8803e67c",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: matrix, set, eigenvalues, vector space, metric. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "linear-algebra/trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b313e8e4d284bb27477aaa700ed76134bf6c283a409eb3a316274077f5df03a8",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: matrix, field. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "linear-algebra/unit-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f1109808dfc622519229f2d126210a9d0a078a532ef9fcd9c6287f6f2d7ac4d",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: boundary, unit, norm. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "linear-algebra/vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc5e1d2bd11087f0151fa620451f125aa6f138616f894812a228abd88b54b847",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: objects, field, group, set, polynomials. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/advanced-and-retarded-green-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8675d4241abd793b0c9c7635ac53763588814702093bfd2334bedcf04ac1aea0",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: linear maps, smooth section. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/cauchy-problem-for-normally-hyperbolic-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "feefe478af0496e628815e9dea25260c903f91c68d3f032a9746a8f1d5d736f0",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: vector bundle, unit. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/cauchy-problem-for-the-lorentzian-dirac-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52b459a41a5615d05289a7394a37fa97470f26a1278ab85e606d89d1261abd87",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: spinor bundle, trace, traces, Dirac operators. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/clifford-slash-notation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c3aa40a769b15b2dc699a6eb28ae7780381cbbe38600d967daf1c7ec99975512",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: metric, isomorphism, quadratic form. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/compact-hyperbolic-surface",
+      "outcome": "corrected",
+      "source_sha256": "434a522257584ccf60c28f4314ce3fd9c4727b2af62c9b5a13dcd39abecefced",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: curvature, group, isometries, Poincaré disk, ideal, boundary, geodesic, unit, sets, geodesics, region. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/conformal-coupling-of-a-scalar-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef34bdf5e3d81cf759d09c85f9446dd23971c111afb2eb9df626b3d5f9627303",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: function, covariance. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/connection-form-of-a-normally-hyperbolic-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aaa88eadbd1539f2274eff0681c6e6d75c8a0af5effe5d7ccc639478961ba769",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: vector bundle, trace. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/dalembert-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47b4f22d9de135fecf259e4cf85d71f0527515bbe755bc6e5623163a2979d74b",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: characteristic, metric. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/dirac-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eec01820bff1453815a8cc245f254fb43c6e7455d8b0b2a7cf2e19531672c585",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: field, decomposition, curvature, metric, relation. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/dirac-klein-gordon-factorization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3387837f131441d18286684e0f4990bbe3cb635c72eb45b1623f4d49644e33e",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: relation, partial derivatives, Dirac equation, field, curvature. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/existence-of-advanced-and-retarded-green-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "279968bba56992e20307567b9945773233369324e464ec064f9591ff000bd5fd",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: vector bundle, compactly supported sections. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/gamma-matrices",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a212544ec85b91c5d0f8c4192f66f8f5632d8ade2eee5bf5fb944605af168e6",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: objects, matrix, set, metric, relations, spinor module, Clifford representations. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/geometric-quantization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "071f52a138be24ff7a00d4a58dab0aacd34e57eef3c196232c2ddd3a040dd111",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: Hilbert space, Hamiltonian flows, real polarization, distribution, tangent bundle, complex polarization, holomorphic sections, line bundle, measure, group. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/georgi-glashow-su5-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7446615eccb9363c924bc4ab9df9ccc0b2019c5cdfefe846314b328616febcb8",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: image, determinant, Lie-algebra, matrix. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/groenewold-van-hove-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f45f5112f93dc4bcf366ed2073f2fe3caa77f32aa05b22959d89d2b51d6d2d5",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: polynomial, domain, polynomials, Lie algebra, limit, schemes, commutator. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/hyperbolic-poisson-kernel",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b569b282df739f2a3dcd74d9839ff529423db366b9de81eb522ffe97c2a76ba5",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: boundary, measure, eigenvalue. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/klein-gordon-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15fd2f8057ad1fce60789b5ec003ad8dab182994246dc7277c771d2c0d4735e6",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: field, metric, Klein–Gordon operator, characteristics, Curvature, Dirac operator. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/klein-gordon-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d3b07388ddcd1687cee917526df83cffd09bd380dfc4bce9bdf451ce47dcc28",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: curvature, characteristic, wave operator. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/laplace-beltrami-eigenfunction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d71d2d8c098646d85890528f871d784f613da22ad04a85585c3a8873018080fa",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: function, eigenvalue, boundary, eigenspace, functions, distributions, objects. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/minkowski-dirac-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86921923f730c7234cd0f514c768356779778b7d6514dd039786bbbb7f6ed0cb",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: module, fields, partial derivatives, metric, matrix, relation, curvature. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/minkowski-spacetime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cbc4d3957dd5fc3a4e2f56ed974842ea009cea6cedbf1b5bded729fa4368040",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: affine space, field, isometry, group, identity component, time orientation, curvature, vector space. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/normally-hyperbolic-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ee17acab347bdb72a7f5ecdc95eb307d91ecdcf7195146e02113c919eccb646",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: vector bundle, endomorphism, Lorentzian manifold. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/poincare-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a9fa3550e082b6f7552a2b172409c5713f1ef18769abd45f6d5eea5579490bb",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: semidirect-product, identity component, ideal. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/prequantization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80078b18163a4b75970514e5fb665281926b04934beaa0b3ac6370de4d92563d",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: curvature, smooth sections, domain, line bundle, image, symplectic form, line bundles, Hilbert space, group. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/quantization-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27f2d00d63bb7fd5de9a58fffa5b616781902519d770cd19522f90ef99b7299b",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: domain, linear symplectic space, polynomial, codomain. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/right-handed-neutrino-gauge-singlet",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "55e62ca5aa95974506a1da058d36bd00b9518b24b3afbad9a7161a29bfb57a84",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: hypercharge. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/semiclassical-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76914b82dcf5abdde794d5c4232701da61e732323cbbe33afa900b6af7ec0d98",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measure, subsequence, limit, eigenvalue, characteristic. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/standard-model-exterior-algebra-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12d073b72c9f9859c3493cf843f732b5f51550bff63eb6c5eb824ef75ef105a2",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: right-handed neutrino, isomorphism. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/standard-model-fermion-generation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b900de0866896365c2ab1ec43bf1fe8054bb22e74df7b99a11168d71fad24001",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: field, fields, hypercharges. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/standard-model-gauge-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52fef82f4ba392b31360c536ed0dc7e4162ed0b9732bacbc87b859a870a8f86b",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: subgroup, group, topology, codomain, automorphisms, groups. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/standard-model-gauge-group-as-f4-stabilizer-intersection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ce9a9f3e9839cce1787e7398c15cf08f2fd527e92443c9d98ea3dbf36884f88",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: stabilizers, group, stabilizer, Standard Model group, observable algebras, octonionic qutrit. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/standard-model-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8fa909f4824b57cec4b8aa8348936ee22af6ba41cc7fe62bc63b6fd71390a1e6",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: compact real form, field, trace, image. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/super-poincare-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58921fd17d72bfc9ed6d0edae15cf534600e631b74f24fbe9f585082521e779e",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: group. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/supertranslation-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "241b8759bbce840767cd99ad12388744e918eed344acb9b6b2ef722154209f21",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: vector space, automorphisms, bilinear maps, group. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/uniform-eigenfunction-mass-lower-bound",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "28d08ff673d67984aaaaf05076e28c18369b2b2194bd0e647e0e8bd6450d77d1",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: open set, eigenvalue, sequence, Boundary, set, geodesic, relation. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "mathematical-physics/wave-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5eae5a5509fd02264bb44b29aa16766144e40a0a5cb9131fa582db9ee1c04188",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: field, vector bundle, derivatives. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/ae-equality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e6ed202d9eb5f7f34cdb9084323a1c00d2c1c4f5df6b43b3096122c3d5f8883",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: relation, functions, set, measure, null set, function. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/almost-everywhere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4528007be6d22177e7f690d5e041bf363b426a70c410ecc5353563d52007a20c",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measure, function, sets, functions, null set, measurable sets, indicator functions. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/borel-sigma-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7fe11085881b440335965dcda23514c22bb15b793af3e87df53e99531d3dc39c",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: subset, topology, functions, sets. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/caratheodory-construction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24bfae201df7bec083adc053ad78bc07c1f614e64a97b9cae420bb65788e163d",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: set, sets. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/caratheodory-measurable-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4a69345d4a66d737e714d9ee7fe3cb0f14456e5772cad4fdb2ebee529c049707",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: outer measure, subset, set, measure, sigma-algebra, infimum, sets. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/change-of-variables-pushforward",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e4b9257ca90f1fa290929941c21d94eabd4e743d0db800b34ed3f11839683ed",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: pushforward measure. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/characteristic-function-indicator-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83130a7dc2d440c0df3204ac5d6b41e0d0215145b2b3322f7c8fc2f8a856b4f1",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: set, characteristic function, indicator function, function, Indicator functions, measure, simple functions, linear combinations. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/continuity-from-above-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef6347e2503e35f350032f0bae8a1b0d6aebefa1024e33e15c03af5d7447da65",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: complements. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/continuity-from-below-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0f7472786e54c8da8a1d232648fa6287e44dca5d06f784ebea4ebc5b1d17f1d8",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: unions, intersections. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/convergence-almost-everywhere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "61ded63f42636a63843a770a54a19f04babcd521f1628e1226c512cc189260c0",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: almost everywhere, function, sequence, functions. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/convergence-in-lp",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ff856f1d08c411f93325b50e3c8f7e906d863a9a2ad05f1eaa299fdfbc4cb629",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: norm, functions, measure. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/convergence-in-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb55422902ed67ffa5a47a9f26f8d9cefc5fd203cec09266399066820fac4a21",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measure, functions, set. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/dominated-convergence-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72361b7c8d66002ebe29005c12ea04d034985db64008bb39006a7fdf8847d10c",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: limits, pointwise convergence. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/essential-supremum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9798ba38843ac9b1e9c10f88c6ae69629211ed1d60555553cbfa94104c50059",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: real numbers, null set, norm, function. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/fatous-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebaf688bc53e990372e82144dd76f3fb9f605c6efff1b57be2bece65983b47ab",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: sequence, limit, measure. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/fubinis-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5172eec55e2c357ac11ecb4c2a32e810de8729c9e1fe5846760fbcb4df8cf262",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measure spaces, iterated integrals, functions. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/indicator-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a14759460857f0c287ea2662f829f1ab7d828d9405e2abb01a7beb2c9b5b7051",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: subset, function, set, power-set, sigma-algebra, measure space. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/jensen-inequality-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c1e9f453360c55cdaf3cf1f3a38e8207f6633df27ca10ad07a1aa3ac71d14828",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: interval. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/jordan-content",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4214056d525ffecc8cb13d5863a7f3adfa0673c9214453f2e8409dc9cf148499",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: bounded set, sets, interval, union, set, cover. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/l-infinity-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1db001d6f94253f2e53625365e1d24f0571c07fac6b6361cc149d6d96fdd8267",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: function, equivalence class, equivalence classes, indicator function. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/l1-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d0eb03391edd5fc8c831fef551cc9e6abc4c8c3aa916b21c816ee27ea189c1f",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: function, equivalence class, functions, set. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lebesgue-criterion-for-riemann-integrability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0384e34b842476febc4956c3aae30f05b1eb542ea7a47bcf9d2b470ad66f467",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: function, set. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lebesgue-integrable-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b78327b611672f1dc1087a45d4c6ad1a9ae1583bfc57a92e64020821231641d",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: equivalence classes, function. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3149e5600b63f8a0d3d83baee0bbc3796fa0dcc5d3f0614684a6d56fbb8bc883",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: negative parts, function. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lebesgue-integral-nonnegative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3821dfe23235fc9ed031c80f52a7d6d0883cc4b653931c1d8e14d16dd651ec25",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: functions, function, negative parts. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lebesgue-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39e45941ff5bdd5bb32357b341e9b5c49632af6253baed973928314cb7af54a3",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: set, measurable sets, subset. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lebesgue-number-lemma-auxiliary-refinement",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79bafe53994aa5e2ea0db1d449383051c39f4d3eb295d2b140c55ef21a557c85",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: cover. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lp-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a19289688771566feb6f2b65fa64eff89c6c5874db7da35a48578b16167e710",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: norm, function. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/lp-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2dd68a4832b9beecf5c938354b91979062b1285c019b7d5dd5d6a6093494a033",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: norm, seminorm, function. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/measurable-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d6aed44e6abf8897e12bd04ebc07ead04545dbb28ac0ff0acd9c4c6d4a391455",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measurable spaces, sigma-algebras, domain, codomain, topology, topological spaces, power-set, sigma-algebra. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/measurable-rectangle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d9036eceb2118373be3e418999cda5b1ecff779c7a396afe79d7ed9fb4d4757a",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measurable spaces, set, sigma-algebra, product-measure, Borel sigma-algebra. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/measurable-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59ce3e212da3f7d0ad61d15ef4df185964167a5fe60d33bbec192efc608be5a6",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measurable space, subset, subsets, preimages. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/measurable-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8476a4de3d60a725ca651a5f5390daf9ed6d83defbd3d894affec955dda69098",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: domains, codomains. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "419d9d6618f900d9861f3743c5434ddce9e97ccb70bed028716b88099d578d98",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measurable space, function, sequence, Sets, subset. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/measure-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00d032433d591f0d54d2e91fa285404c6c0d367066841b7868c65e6d5927604a",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: set, measure, unit, sets. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/minkowski-inequality-lp",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62699cc4088c9557235fdb56e4d0ebf44c9349240fa1fd94383c9af0951cbdf5",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measure space, triangle inequality, norm. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/monotone-convergence-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6b60cba2c4b5511ca7f74953f955049136ed2ceff1a487e12758439629f48477",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: limit, functions, limits. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/null-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "078db0bf8f05f841e62844f9686d5a98a728d5115056a298b32a7070697e3f24",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measure space, functions, subset. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/outer-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0d0dc5f1d37f3fc16fda27385f41a30fa2ce477a8c305ac9fbfdc7587e68002",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: set, function, sequence, sigma-algebra. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/premeasure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "43175eaaf18549aafadfb3c230491326c9a69ad656c566e91ffb5b493e0684e3",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: function, sequence, union, sigma-algebra, set algebra, unions, set, power set. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/product-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0b777b5af9219efd11acddbd1fa4b0fec87a14517b02d810a412e273bf70d4c",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measures, measure, measurable rectangles, set. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/pushforward-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25c523fba003f00c9b18ab2d9fdb50a9de970037b7bb41f6a973c50d305a4589",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: subsets, Lebesgue measure, probability measure. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/set-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8ed89991ff3b36c7b3b1b98b6ba8398ab7ab10a73feffd99d5af8f4d0ab3d6a",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: Closure, complements, unions, domain, set, subsets, complement. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/set-of-measure-zero-in-rk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4594618f421529a1e0c9d63b4b7ea72d0c25551511d5f8dcabdc5d4edddedab",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: set, Lebesgue measure, null set, open balls, place, Measure, function, set of discontinuities, subset, measure, hyperplane. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/sigma-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a95fc673ce486a58fb75dd93dfc8048c2d800602ed44a5621071867bff45075",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: set, sequence, union, complements, domains, topology. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/simple-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8e36bcd10deec45533c4046e436d06df0c5ea03a19b492c04e7a35b9e4487f6",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measurable space, real numbers, linear combinations, sequences, step function, Borel sigma-algebra, measurable sets. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/tonellis-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f4848c5aeda661ac3c2fd6e85d640a2f5c7a584892d3c57258bb1c3a7e879b2",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: measure spaces, functions. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "measure-theory/uniform-integrability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c4b7a96ce9bc92c3d6665aac9b433cfb38a46573506c5e5b0c1df916b8297371",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: limits, almost everywhere, functions, supremum. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/albert-algebra-complex-subalgebra-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7b5711611381f15435fa99d4196c33bb7e6c268cd7918d2f0f6c8b4c2e6fd9b",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: decomposition, closure, relations, subgroup, half-spin representations, automorphism, unit, octonions. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/alternative-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1586e052ee64beaa1d75b9b96540108d4b5bca98ad953e1420fbb2973a7a73b3",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: field, characteristic, ring. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/automorphism-group-of-a-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0d34a449c7e256dff753dd99356b41dcfd0f58c326d7d5dd573007b12a6708f",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: automorphism group, group, composition, automorphism, unit, image, Automorphisms, rank, characteristic polynomial, Lie group, stabilizer. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/automorphism-transitivity-on-jordan-frames",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10aad67fce69cff9a1d635c04d7db2c24c62f978479fae4fa8c000169ad1c05f",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: automorphism group, stabilizer, set, group, identity component, Euclidean Jordan algebra, ideals, automorphisms, ideal. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/complex-qubit-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b50b272bdbb42f8ef3a723e994645c5a2f33b9cda3dcb55d078ac08d585b5072",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: relations, rank, eigenvalues, matrix. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/complex-qutrit-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0cf1e1ec1efbc1c206b5cfff2a2e959f4f56d077ee653427afcb1f9268f50f02",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: unit, rank, trace, determinant, matrix, qutrit, automorphism, automorphism group, stabilizers, group, stabilizer. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/complex-qutrit-stabilizer-in-f4",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52c8263bb4675d391d0b2009cccb922e202288c04c172bf2e62940dfc87b3000",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: stabilizer, subgroup, vector-space, decomposition, qutrit, intersection, group. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/composition-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8de7001799a00f91c381280de162dc31ca246dd7538dcc937260ff8cb3080e8",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: field, characteristic, trace, norm, zero divisors. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/conjugated-cross-product-on-c3",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e507120c8a90d0bea04ee4eb94086b09d451880cf5faeaa658d1bc2afa999ab9",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: inner product, norm. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/derivation-of-a-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e312e1e004c4370bdc8d396bbd530aa70ef0e73d936e737e3f7b56c523df9155",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: commutator, Jordan algebra, curve, automorphisms, group, unit, span, commutators, inner derivations, Jordan algebras, field, characteristic, automorphism group. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    },
+    {
+      "id": "nonassociative-algebra/euclidean-jordan-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf6c30b2e6efd77e840daa41b82fece84bc3c6b4993a056d963c54fd85e439f3",
+      "evidence": "Read the complete source including optional sections and metadata. Reviewed scanner candidates: Jordan algebra, inner product, decomposition, unit, cardinality, rank, trace, determinant, interior, quaternionic Hermitian matrix. Accepted only context-specific canonical concepts already linked or suitable for linking; rejected generic or field-dependent matches (for example set, field, group, function, metric, boundary, and algebraic “characteristic”) where a link would add ambiguity or interrupt the minimal exposition. Checked prerequisite IDs as metadata separately from body links."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 25 covers linear algebra, mathematical physics, measure theory, and nonassociative algebra. Scanner candidates were reviewed against local context; generic single-word matches were not promoted to links."
+  ]
+}

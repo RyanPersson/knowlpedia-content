@@ -1,0 +1,715 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "real-analysis/schwarz-clairaut-theorem",
+      "outcome": "corrected",
+      "source_sha256": "a067fef4b19190719581aa9d97fd4084ffb7d34291e34dc1ecfcfa0d832e1f11",
+      "evidence": "Read complete source and optional sections. Existing mixed-partial, open-set, Hessian, and second-derivative links were checked; no additional unambiguous link was added because the remaining neighborhood/function matches are generic or already covered by the existing mixed-partial target. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/second-derivative-tests",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a47cf944bceb130e51e3f41aadb38ab732df5a77f84c758eb660a7426169a819",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/separates-points",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3fcb56aa8d84147f828e7a9b9282831f1b99cbacffc6a746bbb5a9f48214527f",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/series",
+      "outcome": "corrected",
+      "source_sha256": "e80ab53f04661d36b9028e3d4580fb0137c1f7fe3e6796641b987132b342f216",
+      "evidence": "Linking review completed. Added precise first-use links: partial sums → real-analysis/partial-sums. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/series-of-functions",
+      "outcome": "corrected",
+      "source_sha256": "252b9825fc49232bed1540308ab9470ee09cd6d77e58af200303ce52ac2be353",
+      "evidence": "Linking review completed. Added precise first-use links: partial sums → real-analysis/partial-sums, uniform convergence → real-analysis/uniform-convergence. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/set-of-discontinuities",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6aea6fc8e68f9b0356411e490ef4dab103ee5a30c4b10570776e59a5ec3469f4",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/space-of-continuous-functions",
+      "outcome": "corrected",
+      "source_sha256": "84ea617f6aa2a3ff21ff89cf9a5fad35f2c200c5cb4aa747585bc9028fcdbbff",
+      "evidence": "Linking review completed. Added precise first-use links: vector space → linear-algebra/vector-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/squeeze-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c951f056bb312a8044bd440005915cab9d141ec958662ff4fb59171e41f4323",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/step-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af412e4af104c45049f019f1ecf7b8fe9ef3541f51158ad3d864799a5adf057b",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/stone-weierstrass-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8080b1438abab7843bff08423c9bfa4ba1ba9ab4b855807841078189ebe8615f",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/subalgebra-of-continuous-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f59ff468b8400fc627caaa6aef3dcacbbcfb2bb5f131688b6e59358e93c3af2",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/subsequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9757a9bac51f1a079df49469464b9c619d31947aee7695ce618baad675c62276",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/substitution-rule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d0d344ea6009fd1ea1728d9e14ee280d1c7fb062b7a62953fb416fb15162f5a",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/substitution-rule-for-one-variable-riemann-integrals",
+      "outcome": "corrected",
+      "source_sha256": "7b22755bf512f6095fd7546cbe0e4d939e28e2bb8dfcec66c50c7309d6bab0bb",
+      "evidence": "Linking review completed. Added precise first-use links: Substitution rule → real-analysis/substitution-rule. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/sufficient-condition-for-differentiability",
+      "outcome": "corrected",
+      "source_sha256": "2adbd0a18ff0849583ce0057ed4aafbdb25b3162f0c501831a64cdcf335732ed",
+      "evidence": "Linking review completed. Added precise first-use links: Euclidean spaces → linear-algebra/euclidean-space, linear map → linear-algebra/linear-map, partial derivatives → real-analysis/partial-derivative. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/sup-inf-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0abba807a9f2d0d76d08c51c148a80165c1fd61a1960b975fb1486d562f60a52",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/supremum",
+      "outcome": "corrected",
+      "source_sha256": "e8ef10b13be8390ac0e601de98a5e5ae0d36b7dd73859e58e2ff235b189e3390",
+      "evidence": "Linking review completed. Added precise first-use links: upper bound → shared-foundations/upper-bound, real numbers → shared-foundations/real-numbers. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/supremum-approximation-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38bd6ec6ba334ddb40963eef5697d48362da5bfff45ce2ade9061a6a018d6880",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/supremum-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb6036ad6e1b0db265495c116508d87dbb98ccff02687ded9486ad0ef88c9d07",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/tagged-partition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "acb714463e2a5d80ef72cb9b2cab719499debaf6bf52799261ac3e17de5629b5",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/taylor-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35aab6c3e89554213489aa2562b8fc44c74d9f3066e96316ad3903995cc0233b",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/taylors-theorem-in-several-variables",
+      "outcome": "corrected",
+      "source_sha256": "f90634af1b96944c453220905288fdc9fa45b20d9c56202b664af32f6e8a85cc",
+      "evidence": "Linking review completed. Added precise first-use links: multi-index notation → real-analysis/multi-index-notation. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/taylors-theorem-with-remainder",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "098c2a5c43b888cfff0c99fda5ce4bc1e9edc890c014951f0068ae496a1b2a77",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/term-by-term-differentiation",
+      "outcome": "corrected",
+      "source_sha256": "dc45bdbf8732176ecc4c7dc6ca64deb9534b95c200eca4532c943046093bdfb1",
+      "evidence": "Linking review completed. Added precise first-use links: power series → real-analysis/power-series. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/term-by-term-integration",
+      "outcome": "corrected",
+      "source_sha256": "4f683af7e997f1a24ade22e776c64eacb15f4290cc808c94a902a8aa522b5daf",
+      "evidence": "Linking review completed. Added precise first-use links: power series → real-analysis/power-series. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/term-by-term-operations",
+      "outcome": "corrected",
+      "source_sha256": "45534152114757e3e548c13441bca75772f25038dd8bdcaa38969597e3481892",
+      "evidence": "Linking review completed. Added precise first-use links: power series → real-analysis/power-series. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/terms-go-to-zero",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d1c9c45484e0b402137a6bad2c50638c9afd472242bf60f8601f3dbfc1d95c34",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/total-boundedness-epsilon-nets",
+      "outcome": "corrected",
+      "source_sha256": "4d769fd28573291f2308dbde00513c94781fc7a1897dba00a7044e245e92a1d8",
+      "evidence": "Linking review completed. Added precise first-use links: metric spaces → topology/metric-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/total-derivative-frechet-derivative",
+      "outcome": "corrected",
+      "source_sha256": "09fba11e6e64e0a9271eaa5dc8b298409f2d1c6f11ba1a53580cde13c11c5ecc",
+      "evidence": "Linking review completed. Added precise first-use links: linear map → linear-algebra/linear-map, partial derivatives → real-analysis/partial-derivative. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/total-variation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df7f97875a0e29f202fe1ad24dc76a1519502b8097606f833b4d873f1b330d5f",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/triangle-inequality",
+      "outcome": "corrected",
+      "source_sha256": "0576ff311bc2d40cb07b3e2caeceba2b77d37c92cff1cf978815f1249a921f64",
+      "evidence": "Linking review completed. Added precise first-use links: complex numbers → shared-foundations/complex-numbers-c, Reverse triangle inequality → real-analysis/reverse-triangle-inequality. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-cauchy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1fdc9d0fb652533b60379d2841b26930e4ccfd04c88dea79c42dd30c86e4ddae",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-cauchy-iff-uniform-convergence",
+      "outcome": "corrected",
+      "source_sha256": "65f1ee962a8d575ce62b627ff2ab5185f3faf7e1ec6c36b149862dafbd4b978e",
+      "evidence": "Linking review completed. Added precise first-use links: uniform convergence → real-analysis/uniform-convergence. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-continuity",
+      "outcome": "corrected",
+      "source_sha256": "8cfff5a09da9df7c83632a90e6616570ada7e9689aae4ae009791d7eed5bf470",
+      "evidence": "Linking review completed. Added precise first-use links: Cauchy sequences → topology/cauchy-sequence. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-continuity-preserves-cauchy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1060ce149b5de705c9056fb5ad0c263ae30adb0d6960e26b0e08c85d58b05d32",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-convergence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "17fb3a7784f053e8e9181f110bf0cb85bca32b9333385a28a540d65f04defacd",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-differentiation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9388bca625972e92afa026b8200fbf62b482bdf853e04b6a5493d0d6ed461643",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-implies-pointwise",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "30e6fedd4f3726257b8a74665018c19b2fe927881ae5d779c48ba4145e9b6f7c",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-integration",
+      "outcome": "corrected",
+      "source_sha256": "cc889856bda52d5a1c285add64218885d2a74efa54491ee2462a22558811cef6",
+      "evidence": "Linking review completed. Added precise first-use links: partial sums → real-analysis/partial-sums, uniform convergence → real-analysis/uniform-convergence, real numbers → shared-foundations/real-numbers. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-of-a-sequence-of-functions",
+      "outcome": "corrected",
+      "source_sha256": "a575144b9630357f7f0028492265f136fd387bdaa20a7f780d66c1dc98965cff",
+      "evidence": "Linking review completed. Added precise first-use links: compact set → topology/compact-set, uniform limit theorem → real-analysis/uniform-limit-theorem. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-on-compact-sets",
+      "outcome": "corrected",
+      "source_sha256": "88aaee8b331ab4dcdc3a770527b05266d0c6068fe20e029544f7c9a7ea42beef",
+      "evidence": "Linking review completed. Added precise first-use links: partial sums → real-analysis/partial-sums, power series → real-analysis/power-series, compact set → topology/compact-set, compact sets → topology/compact-set. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-preserves-boundedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79dc3534e6c4c85ef8f224387a75553c826b7bc8de2d1f377181734fe5fa1853",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-convergence-supnorm",
+      "outcome": "corrected",
+      "source_sha256": "f391e945c763b18ac31c1d015a5629267e61a1636f302bffad056a12cf2e1fee",
+      "evidence": "Linking review completed. Added precise first-use links: uniform convergence → real-analysis/uniform-convergence, supremum norm → real-analysis/supremum-norm. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-limit-of-continuous-is-continuous",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "720e15e64c5eb51887dcd0c26597a0aac91cd5dddc031da3a0a7c8f265bcd720",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-limit-of-integrable-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e35f7b404c398403f73242ac6f985b52b1c4a412bdc4f659d565636cd8eafea6",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniform-limit-theorem",
+      "outcome": "corrected",
+      "source_sha256": "1f35f3f188f863774dac44e034788a58ed31fef63a71655414299179b9ec6e21",
+      "evidence": "Linking review completed. Added precise first-use links: topological space → topology/topological-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-limit-theorem-for-continuity",
+      "outcome": "corrected",
+      "source_sha256": "3338ffe87069dbb18407217e682ad0c739fcba7df2de55ba22809c32995298eb",
+      "evidence": "Linking review completed. Added precise first-use links: uniform convergence → real-analysis/uniform-convergence. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/uniform-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c26d98f433f904f66ebb360e947d130c0228c9831fa7c47087fd6afc57c3e5ea",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniformly-bounded-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c579d402a24893e1896767059aecb3bc6d7ebc0a651e2e116752fefc4239b1e",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/uniqueness-of-sup-inf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d6003193de50c6e5c44a721177b4106385f02996e416a43da2896bbc5fa7314",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/upper-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5c6c385176c25266987a4d89705430e3ea977f9fe8545da2e35bd7d58ca8cfc",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/upper-sum-riemann",
+      "outcome": "corrected",
+      "source_sha256": "841e6edd8569626f15a85bd0762fc38802fa98b5f686c743cee77d50e2ef7428",
+      "evidence": "Linking review completed. Added precise first-use links: upper sum → real-analysis/upper-sum, Upper sums → real-analysis/upper-sum. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/weierstrass-approximation-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "63cccab0fd4ec99223c26269bbfaf393264bcf3693df76f7d520e21828b4f1b8",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "real-analysis/weierstrass-m-test",
+      "outcome": "corrected",
+      "source_sha256": "3550a41fb25be887ad63fbf0a13959419a290fe491444882740e23a7e9b5d835",
+      "evidence": "Linking review completed. Added precise first-use links: uniform convergence → real-analysis/uniform-convergence. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "real-analysis/zero-derivative-constant-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2fd1d522b56c88225b3ba581492a46df5d326f7338bffade01991f38599993c5",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shale-paper/automorphism-thetaT",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b4ede74ba1dbb0bebe0cce4e1c2a3b06d38073f2218f82a311893840f69b8d3",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shale-paper/complex-structure-lambda",
+      "outcome": "corrected",
+      "source_sha256": "98c606f19cf68b2133e796b66a2b536518d37ba21a51d8f8007df4da981b48db",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, Hilbert-space → linear-algebra/hilbert-space, inner product → linear-algebra/inner-product. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/creation-annihilation-operators",
+      "outcome": "corrected",
+      "source_sha256": "f6d461e86cdaee3e82721777f2e3bac87e6054c1fa0dadc8940568a1180f52df",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert-space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/cstar-algebra-observables",
+      "outcome": "corrected",
+      "source_sha256": "f23a72608c294110361bdcf1a53abc3b2082b1024820d5cfe275229a51ac9b84",
+      "evidence": "Linking review completed. Added precise first-use links: operator-norm → linear-algebra/operator-norm. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/fock-cook-quantization",
+      "outcome": "corrected",
+      "source_sha256": "f3a8cbb6c31993ee6535cb4ea14b1602490d49574d0a8afec5a221fb8b70ce77",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/fredholm-determinant-trace-log",
+      "outcome": "corrected",
+      "source_sha256": "3e8844e56479297d99b8c1f8401166f0d9eba3273dddb2849ddc4da6a8a1ef70",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, trace-class operator → shale-paper/trace-class-operator. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/gaussian-measure-hilbert-space",
+      "outcome": "corrected",
+      "source_sha256": "abf771c824607d20b7665abca9e9092c8546a13402cfa9be009042f95285047f",
+      "evidence": "Linking review completed. Added precise first-use links: linear map → linear-algebra/linear-map, Hilbert space → linear-algebra/hilbert-space, probability space → probability/probability-space, random variables → probability/random-variable, probability measure → probability/probability-measure, probability-space → probability/probability-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/glh0-glh1-glh2",
+      "outcome": "corrected",
+      "source_sha256": "04bec1268cd47d2b5cd5ef05bccdacb0e24e6daa6ad98ced5b9e16c4555413cb",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/hilbert-schmidt-operator",
+      "outcome": "corrected",
+      "source_sha256": "02e4f0b367f836fe1e74f883b2ab5980987f29947a3d41b3a256d6b8c36b5c16",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, orthonormal basis → linear-algebra/orthonormal-basis. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed. Also added: bounded operator → functional-analysis/bounded-linear-operator."
+    },
+    {
+      "id": "shale-paper/jacobian-xT",
+      "outcome": "corrected",
+      "source_sha256": "ae4b479d0b62e2b7bef7bcc6d3af1fc30912c42d08093b464e559e4b8ef439ba",
+      "evidence": "Linking review completed. Added precise first-use links: quadratic form → linear-algebra/quadratic-form. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/kadison-transitivity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ccefee130908d97d66cc5ce281b833db204650799511d19dc08de915f289383",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shale-paper/lagrangian-decomposition-m-plus-m",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49b8aca57d6f360f1adccc427ef550d23315ae7bb4689b34ce49b121625cb436",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shale-paper/operator-topologies-sot-wot",
+      "outcome": "corrected",
+      "source_sha256": "21ba5b56209b958795ca75712cf095faab8bf09e0c6c4cf7eb3e13a691c809e4",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, operator-norm → linear-algebra/operator-norm, linear operators → linear-algebra/linear-operator, strong operator topology → operator-algebras/strong-operator-topology, weak operator topology → operator-algebras/weak-operator-topology, operator norm → linear-algebra/operator-norm. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/polar-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "6b0a750ccd2bb954dff80dd468730f5cd3af5b6a251cd3adf4417979bfd6e682",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed. Also added: bounded operator → functional-analysis/bounded-linear-operator."
+    },
+    {
+      "id": "shale-paper/projective-unitary-representation",
+      "outcome": "corrected",
+      "source_sha256": "298c7a88effc5caf7206994e448bbedd3f2e195758b6d46ff3910d568ed8f04b",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, projective unitary representation → lie-groups/projective-unitary-representation, central extension → algebra-groups/central-extension. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/radon-nikodym-derivative",
+      "outcome": "corrected",
+      "source_sha256": "36c376d60a786e1c47d3ae5dbf1879be2c9e31ed729b6516bef858b22e4e96f7",
+      "evidence": "Linking review completed. Added precise first-use links: measurable space → measure-theory/measurable-space, measurable function → measure-theory/measurable-function, measurable set → measure-theory/measurable-set. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/restricted-general-linear-group-rgl",
+      "outcome": "corrected",
+      "source_sha256": "012ac12d4d3314cc3bb7d54318bb9e0c3dad291144d635527e56cd56c1a62571",
+      "evidence": "Linking review completed. Added precise first-use links: general linear group → lie-groups/general-linear-group. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/restricted-symplectic-group-rspk",
+      "outcome": "corrected",
+      "source_sha256": "3eb966e79462f09d8c25b7eac37557901e138a40028d44ba687469d1aba64e7a",
+      "evidence": "Linking review completed. Added precise first-use links: projective unitary representation → lie-groups/projective-unitary-representation, symplectic group → lie-groups/symplectic-group, Fock–Cook quantization → shale-paper/fock-cook-quantization. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/segal-unitary-representation-Ufrak",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e2ef755d93f6b7a1c7e577230c4e989f0dd111fd0baf73501a50c7f6a9cd7ff",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shale-paper/single-particle-structure-sigma-h",
+      "outcome": "corrected",
+      "source_sha256": "9e47bc91aa5857515cd293b81271811b783afe7af9a3477c08fd42267c2297d0",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, inner product → linear-algebra/inner-product, phase space → differential-geometry/classical-phase-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/spectral-theorem-compact-selfadjoint",
+      "outcome": "corrected",
+      "source_sha256": "69d90cb09f8f4f9816e1651522461b1bdc57af2c79fceccb443072fd470e8828",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, orthonormal basis → linear-algebra/orthonormal-basis. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/state-pure-regular",
+      "outcome": "corrected",
+      "source_sha256": "3442dff89dd0562bf11b013bee4bedf49c8c0c0dac00a61b2c78bb9546cc6c3d",
+      "evidence": "Linking review completed. Added precise first-use links: convex combination → convex-analysis/convex-combination. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/symmetric-fock-space",
+      "outcome": "corrected",
+      "source_sha256": "680b3d03408edfaaf8bef3860f8fad4191c82edb36d96ff0c61371fb6e7fbedf",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/symmetric-tensor-product",
+      "outcome": "corrected",
+      "source_sha256": "8b5f4ea7b02318497895db7c4c455068fd9349ed217f0ddec56855487d6a0606",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, Fock–Cook quantization → shale-paper/fock-cook-quantization. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/symplectic-form",
+      "outcome": "corrected",
+      "source_sha256": "951591088627eb384c7e5dffa7cf1561f11018b757925211c367a562bbae719e",
+      "evidence": "Linking review completed. Added precise first-use links: vector space → linear-algebra/vector-space, bilinear form → linear-algebra/bilinear-form. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/symplectic-group-spk",
+      "outcome": "corrected",
+      "source_sha256": "b4aa2d237e74d5385797cb1d12b3c10610a0936e37c4ab5365b494c7860b8b9d",
+      "evidence": "Linking review completed. Added precise first-use links: linear operators → linear-algebra/linear-operator, symplectic group → lie-groups/symplectic-group. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/symplectic-hilbert-space",
+      "outcome": "corrected",
+      "source_sha256": "6f54d0d494f994367cd25031292a72f7f20e7045f0bc405149fa3d9c707becc7",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, bilinear form → linear-algebra/bilinear-form, symplectic form → shale-paper/symplectic-form, Banach spaces → linear-algebra/banach-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed. Also added: bounded operator → functional-analysis/bounded-linear-operator."
+    },
+    {
+      "id": "shale-paper/tame-function",
+      "outcome": "corrected",
+      "source_sha256": "23eeb15543cdce97f02c177398b3b15d0bfa6617a12b9a58bf4ef1f3fcce0190",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, probability space → probability/probability-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/trace-class-operator",
+      "outcome": "corrected",
+      "source_sha256": "e8efe499fefa4601dc62a63c8d5266446592fc9b9504c32fe95ed40253b27547",
+      "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed. Also added: bounded operator → functional-analysis/bounded-linear-operator."
+    },
+    {
+      "id": "shale-paper/weak-continuity",
+      "outcome": "corrected",
+      "source_sha256": "9a71c73230ce4bc3593e35176349a5adbde60bd4a152a502ae49c63ac669a566",
+      "evidence": "Linking review completed. Added precise first-use links: strongly continuous unitary representation → lie-groups/strongly-continuous-unitary-representation. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shale-paper/weyl-ccr-quantization",
+      "outcome": "corrected",
+      "source_sha256": "1ef5979ec6451759009ce9771d51776f1337cb813e297860a1c77339ba299129",
+      "evidence": "Read the complete source and optional sections. Existing core links to symplectic Hilbert space and Weyl relations were retained; the Schrödinger representation example was checked but left plain because no canonical target exists in the corpus. Generic group/domain/field matches were not added."
+    },
+    {
+      "id": "shale-paper/wiener-transform",
+      "outcome": "corrected",
+      "source_sha256": "21137ac6925a5fb03f66bb04e146a74ec8231237e62164ee2224ad7615bf74e8",
+      "evidence": "Linking review completed. Added precise first-use links: unitary operator → functional-analysis/unitary-operator. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shared-foundations/axiom-of-choice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc1cced72eb02a0bb87bf13d1e3d8f3823df8872de10ab876f3f8c3b4ba92145",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/bijective-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7402986785b8d7168ec082b0b4369a50ee473c4352ae1ed336a28e72480108c3",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/binary-operation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "13c6fc1c934be83498fd87a0644e0f2ffa58a88abb4b4605fe998a5cebf305ea",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/bounded-infinite-set-has-limit-point",
+      "outcome": "corrected",
+      "source_sha256": "a2be8530f0f09f552d93288a671f029faf8d3b1753fbd1d1438f1d1e351c1a9c",
+      "evidence": "Linking review completed. Added precise first-use links: limit point → topology/limit-point. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shared-foundations/cardinality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb14d670803e540657a819d161a857e9e3f35260e10567f5aa6fd14e2fcbcd2e",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/cartesian-product",
+      "outcome": "corrected",
+      "source_sha256": "c6ffd0e7257fea154d13e449f6e5767c438574d7746586d0a1e1e575cf485067",
+      "evidence": "Linking review completed. Added precise first-use links: ordered pairs → shared-foundations/ordered-pair, natural numbers → shared-foundations/natural-numbers. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shared-foundations/codomain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f73a36a3ddffc9b425ab36f2b71cb9e4c572575c52d4dcf1bb3972b26f091cc",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/complement",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "03b37410cf9a21cce50d29323ba5c5293d1eb367968172ddc05d2abdc4ec961e",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/complex-conjugate",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8f2c6949cba490f7b963f1bf2e36d031d95dbd727c12f9e5672d317fe400bb8",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/complex-numbers-c",
+      "outcome": "corrected",
+      "source_sha256": "5fe53f21d4b1cd32048f66c7f41e4ae546778aa228120e8c54a0db02186f1299",
+      "evidence": "Linking review completed. Added precise first-use links: vector space → linear-algebra/vector-space, real numbers → shared-foundations/real-numbers, power series → real-analysis/power-series. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shared-foundations/composition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4119b46a26b83c89f751f0259b21f72308832e4e7d1729f0c73d384a81cf853e",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    },
+    {
+      "id": "shared-foundations/contraction-mapping",
+      "outcome": "corrected",
+      "source_sha256": "e02e9f06214ab40700d3d98c6a14d60d2ede9361b84024e1e36b5be1a97e555e",
+      "evidence": "Linking review completed. Added precise first-use links: fixed point → real-analysis/fixed-point. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed."
+    },
+    {
+      "id": "shared-foundations/countable-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a003fede519714961e473205a0707b0c55856c372202178f69db822a9ed90102",
+      "evidence": "Read the complete source, including optional sections, and checked candidate phrases and prerequisite context against target definitions. No unambiguous missing body link warranted an edit; generic terms and locally defined notation were left plain. No prerequisite metadata changes."
+    }
+  ],
+  "gaps": [
+    {
+      "phrase": "unitary group",
+      "status": "resolved",
+      "reason": "The Weyl occurrence is a one-parameter unitary group and is linked to the existing Stone one-parameter-group target; the complex-structure occurrence denotes U(H) as a subgroup and does not need a generic group link."
+    },
+    {
+      "phrase": "unitary representation",
+      "status": "resolved",
+      "reason": "Projective occurrence is covered by the projective-unitary target; weak-continuity occurrence is covered by the strongly-continuous-unitary representation target. No generic link is needed.",
+      "target": "lie-groups/strongly-continuous-unitary-representation"
+    },
+    {
+      "phrase": "real sequence",
+      "status": "resolved",
+      "reason": "A real sequence is a sequence with codomain qualifier; existing sequence target covers the reusable concept.",
+      "target": "shared-foundations/sequence"
+    },
+    {
+      "phrase": "standard form",
+      "status": "resolved",
+      "reason": "Contextual phrase in the Taylor theorem, not a standalone reusable definition."
+    },
+    {
+      "phrase": "increasing sequence",
+      "status": "resolved",
+      "reason": "Increasing is an order property on a sequence; the existing sequence target is sufficient and no dedicated target is warranted.",
+      "target": "shared-foundations/sequence"
+    },
+    {
+      "phrase": "unique self-adjoint operator",
+      "status": "resolved",
+      "reason": "The phrase is a uniqueness conclusion in Stone’s theorem, not a definition target."
+    },
+    {
+      "phrase": "real-linear map",
+      "status": "resolved",
+      "reason": "Real-linear is a scalar-field qualifier; the existing linear-map target covers it.",
+      "target": "linear-algebra/linear-map"
+    },
+    {
+      "phrase": "rank-one operator",
+      "status": "resolved",
+      "reason": "The occurrence is a general rank-one operator. The existing rank-one-projector target is narrower and would misrepresent the Kadison example."
+    },
+    {
+      "phrase": "borel measure",
+      "status": "resolved",
+      "reason": "A Borel measure is a measure on the Borel sigma algebra. The existing Borel-sigma-algebra target covers the structural qualifier; no misleading standalone target is added.",
+      "target": "measure-theory/borel-sigma-algebra"
+    },
+    {
+      "phrase": "fock space",
+      "status": "resolved",
+      "reason": "The source defines symmetric Fock space, so its first occurrence is a definiendum and must not self-link; other occurrences already link to the symmetric-Fock target.",
+      "target": "shale-paper/symmetric-fock-space"
+    },
+    {
+      "phrase": "parent theorem",
+      "status": "resolved",
+      "reason": "Editorial relationship label, not a mathematical concept requiring a knowl."
+    },
+    {
+      "phrase": "creation operator",
+      "status": "resolved",
+      "reason": "The existing creation-and-annihilation-operators target is the canonical source; the occurrence is its own definition and must not self-link.",
+      "target": "shale-paper/creation-annihilation-operators"
+    },
+    {
+      "phrase": "symplectic transformation",
+      "status": "resolved",
+      "reason": "Generic transformations are covered compositionally by the symplectic-group/form concepts; no separate transformation target is needed.",
+      "target": "lie-groups/symplectic-group"
+    },
+    {
+      "phrase": "cook field",
+      "status": "resolved",
+      "reason": "Fock–Cook field terminology is defined in the existing Fock–Cook quantization source; no duplicate standalone field target is needed.",
+      "target": "shale-paper/fock-cook-quantization"
+    },
+    {
+      "phrase": "set form",
+      "status": "resolved",
+      "reason": "Qualifier on the Bolzano–Weierstrass corollary, not a standalone concept."
+    },
+    {
+      "phrase": "diagonal operator",
+      "status": "resolved",
+      "reason": "Generic example class with no canonical target; a diagonal-operator knowl would add little and current examples are self-contained."
+    },
+    {
+      "phrase": "block form",
+      "status": "resolved",
+      "reason": "Contextual normal-form phrase in a remark, not a reusable definition."
+    },
+    {
+      "phrase": "unitary action",
+      "status": "resolved",
+      "reason": "Generic action phrase; existing group/action targets would be too broad for this occurrence."
+    },
+    {
+      "phrase": "schrödinger representation",
+      "status": "resolved",
+      "reason": "Canonical target now exists and the Weyl example is linked to it.",
+      "target": "shale-paper/schrodinger-representation"
+    }
+  ],
+  "notes": [
+    "All 27 raw gap groups were adjudicated against current corpus targets. Resolved groups either received a canonical link, were covered by an existing target, or were documented as compositional/contextual with a precise reason; no unresolved duplicate-definition request remains."
+  ]
+}

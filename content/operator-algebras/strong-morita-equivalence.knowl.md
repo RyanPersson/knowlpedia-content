@@ -2,7 +2,7 @@
 id = "operator-algebras/strong-morita-equivalence"
 title = "Strong Morita equivalence of C*-algebras"
 kind = "definition"
-summary = "An equivalence of C*-algebras witnessed by a full imprimitivity bimodule."
+summary = "An equivalence of C*-algebras witnessed by a full [[operator-algebras/imprimitivity-bimodule|imprimitivity bimodule]]."
 aliases = ["C*-Morita equivalence", "Rieffel Morita equivalence"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
@@ -19,7 +19,7 @@ Concretely, \(X\) is a full right Hilbert \(B\)-module with a nondegenerate \(*\
 \[
 A\cong\mathcal K_B(X)\subseteq\mathcal L_B(X)
 \]
-whose image is exactly \(\mathcal K_B(X)\), the \(C^*\)-algebra of compact adjointable operators on \(X\). Equivalently, \(X\) carries compatible full \(A\)- and \(B\)-valued inner products satisfying
+whose image is exactly \(\mathcal K_B(X)\), the \(C^*\)-algebra of compact adjointable operators on \(X\). Equivalently, \(X\) carries compatible full \(A\)- and \(B\)-valued [[linear-algebra/inner-product|inner products]] satisfying
 \[
 {}_A\langle x,y\rangle z=x\langle y,z\rangle_B.
 \]

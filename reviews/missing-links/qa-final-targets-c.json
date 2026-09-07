@@ -1,0 +1,711 @@
+{
+  "reviewer": "final-target-qa-c",
+  "scope_manifest": "tmp/missing-links/final-target-paths-c.json",
+  "checked_path_count": 171,
+  "checked_all_paths": true,
+  "method": "Read every current diff in the manifest, validated every added wikilink target against the corpus, and inspected the changed context for scope and notation.",
+  "missing_targets": 0,
+  "actionable_findings": [
+    {
+      "source": "content/quantum-foundations/normal-operator.knowl.md",
+      "approx_line": 16,
+      "severity": "medium",
+      "issue": "The sentence says self-adjoint operators are normal but links Self-adjoint to functional-analysis/self-adjoint-unbounded-operator. That knowl is specifically about unbounded operators, so the link misleadingly narrows the general statement; use a general self-adjoint-operator knowl if one exists, or leave the generic term unlinked.",
+      "evidence": "A bounded self-adjoint operator is the immediate case in this knowl, while the linked target is explicitly scoped to unbounded self-adjoint operators.",
+      "suggested_fix": "Replace the added wikilink with the appropriate general self-adjoint operator target, if available; otherwise remove it.",
+      "status": "resolved",
+      "resolution": "Root retargeted to quantum-foundations/self-adjoint-operator-observable. The old target technically includes bounded operators, but the replacement matches the source scope directly."
+    }
+  ],
+  "notes": [
+    "All 437 added wikilinks in the assigned diffs resolved to existing corpus files.",
+    "No additional broken targets, nested wrappers, or notation/scope errors were found in the assigned 171 paths."
+  ],
+  "checked_sources": [
+    {
+      "path": "content/operator-algebras/tomita-takesaki-theorem.knowl.md",
+      "source_sha256": "5cbe8509e71e25c8df163f7c36f65b5701fef63c2c8669daf11362481baadc88"
+    },
+    {
+      "path": "content/operator-algebras/trace-cstar-algebra.knowl.md",
+      "source_sha256": "85aecea9cd0f4382b084f5706c0df79ab61b9ed41fd8888aff80109a3c99a573"
+    },
+    {
+      "path": "content/operator-algebras/type-classification-theorem.knowl.md",
+      "source_sha256": "968d9f8c5f80e8e515aa61c98be08af2a64e8525dea0bc31812873d2eaebc03a"
+    },
+    {
+      "path": "content/operator-algebras/type-i-composition-series.knowl.md",
+      "source_sha256": "ae703e6947ab660a67afcc195d00ca2bd7331ebe1ae0a6dc06bf9bc104b92711"
+    },
+    {
+      "path": "content/operator-algebras/type-i-cstar-algebra.knowl.md",
+      "source_sha256": "ece6d03fc9bd4a4ca715efb38e386a7918ec2ad31441b48ed9b68174e0f29086"
+    },
+    {
+      "path": "content/operator-algebras/type-i-factor-representation.knowl.md",
+      "source_sha256": "14108f3e63b56e35fdf3baeb8e25a35075894c4253293639194082be0bda6071"
+    },
+    {
+      "path": "content/operator-algebras/type-i-factor.knowl.md",
+      "source_sha256": "c7596268e934ee869ff2c4c3f94bf97ca79218f44dfada4ec68e51b9db3c6fe6"
+    },
+    {
+      "path": "content/operator-algebras/type-i-ideal-quotient-stability.knowl.md",
+      "source_sha256": "646fa16c5bc5a45e3ab666cc76b4ad20945a1af4832a8766dd7a46621cecea3e"
+    },
+    {
+      "path": "content/operator-algebras/type-i-infinity-factor.knowl.md",
+      "source_sha256": "84f7ec0748165e00ecca5ecff5d81bbe92822d6e91fb51a53c8cc7e9b2ffaa38"
+    },
+    {
+      "path": "content/operator-algebras/type-i-n-factor.knowl.md",
+      "source_sha256": "81bf6b344ace8cead547154a13d3951a72226374a2da70a71763d136eedecd84"
+    },
+    {
+      "path": "content/operator-algebras/type-i-von-neumann-algebra.knowl.md",
+      "source_sha256": "9caa43dc42b59a67ba4b3053debe1483fb41ce6692997a8e05764714b84802e7"
+    },
+    {
+      "path": "content/operator-algebras/type-ii-infinity-factor.knowl.md",
+      "source_sha256": "89840ba3d6439c1abf5badc1cb0aba08cdddf9dfa10995fe825d6171602bf5a7"
+    },
+    {
+      "path": "content/operator-algebras/type-ii-one-factor.knowl.md",
+      "source_sha256": "2f2241eb97e7c1b0277a7b5198f79835fb71b882804fe2e5142819c5d83cf603"
+    },
+    {
+      "path": "content/operator-algebras/type-ii-von-neumann-algebra.knowl.md",
+      "source_sha256": "ad47c8e1bfe5a5df6381478082b0d60e21414c965f851d5cd96fc649c9f5f186"
+    },
+    {
+      "path": "content/operator-algebras/type-iii-factor.knowl.md",
+      "source_sha256": "c95865d428ac4a62008fc2e73fd220ea9be3fc7cf0d13e1bf03ad3d200fd5eaf"
+    },
+    {
+      "path": "content/operator-algebras/type-iii-von-neumann-algebra.knowl.md",
+      "source_sha256": "06cf450690411e7d0bc8d81044ba69c95baa1a1777fb857921f577c24abda3c9"
+    },
+    {
+      "path": "content/operator-algebras/ultrastrong-topology.knowl.md",
+      "source_sha256": "f369720ef7a9e708e39e423f77f90d7ac8f881e122bb745b16f3736e741fd41d"
+    },
+    {
+      "path": "content/operator-algebras/ultraweak-topology.knowl.md",
+      "source_sha256": "fe6dec8e68e0552dea49204f808326b552d72d011b84b407b7f7b68a7f3e0b4d"
+    },
+    {
+      "path": "content/operator-algebras/unique-predual-theorem.knowl.md",
+      "source_sha256": "e0505e962acaccd63e2a9bd9ea32fdbff4d6b6fbd639885142b318b9c464892e"
+    },
+    {
+      "path": "content/operator-algebras/unital-completely-positive-map.knowl.md",
+      "source_sha256": "74db6095789c2f482b03e1e3dda7a8c6ff445ecd8d113e882225662a8805c68a"
+    },
+    {
+      "path": "content/operator-algebras/unital-star-homomorphism.knowl.md",
+      "source_sha256": "27a21c76fc4de6243f4c87774404fe188f01cc3a6f8f07410d482af009c0aa0f"
+    },
+    {
+      "path": "content/operator-algebras/universal-representation.knowl.md",
+      "source_sha256": "42e4b9fe94b856a97d5dc03f8f2801bf7039aad6d7657748a5c9ffea09391d02"
+    },
+    {
+      "path": "content/operator-algebras/upper-semicontinuous-cstar-bundle.knowl.md",
+      "source_sha256": "8e06aeec3b7c81050e2cd12e33fccc4d878de65ddc69f61468a667ba662e5e63"
+    },
+    {
+      "path": "content/operator-algebras/vector-state.knowl.md",
+      "source_sha256": "939974ce80c26d705439526333735dc45ec14218e6294e4aa9061ad11dcac764"
+    },
+    {
+      "path": "content/operator-algebras/von-neumann-algebra-generated-by-representation.knowl.md",
+      "source_sha256": "e5b9e0ff759ee358d26fb619ae9db89866563bc031dd2654bbe0163941b8d4c8"
+    },
+    {
+      "path": "content/operator-algebras/von-neumann-algebra.knowl.md",
+      "source_sha256": "aa0c0fb8afbc6d76e64f4ad1ecc5a85023c3300e2f4bdc25d2b88f63bf560a72"
+    },
+    {
+      "path": "content/operator-algebras/von-neumann-bicommutant-theorem.knowl.md",
+      "source_sha256": "504f6541a3dd0e1b74bf7b79dfb89b092e4a891b2549d6e2648658db56c54ce6"
+    },
+    {
+      "path": "content/operator-algebras/von-neumann-crossed-product.knowl.md",
+      "source_sha256": "c78232c41c39ad51586f313b6cd29da689aedcb5243f7987f63dcd5e46fd1df2"
+    },
+    {
+      "path": "content/operator-algebras/von-neumann-factor.knowl.md",
+      "source_sha256": "64d67a1a9017b78d8d8b4dc1682a76ee5b5f4292aa574d2465d59a38d28287f3"
+    },
+    {
+      "path": "content/operator-algebras/weak-schatten-ideal.knowl.md",
+      "source_sha256": "8ff4d71d4e4342b4b8c4de95731a7047dddf30aad29f69b58771df26406a0bda"
+    },
+    {
+      "path": "content/probability/conditional-probability.knowl.md",
+      "source_sha256": "afc09c214f59b3c0bbd4c57631953a5eb6190191f0687894125cfe18a2704934"
+    },
+    {
+      "path": "content/probability/differential-entropy.knowl.md",
+      "source_sha256": "4ccaff4b007f14493c3da0d18fbaee0d89476002226a59225a0111b91b75774d"
+    },
+    {
+      "path": "content/probability/distribution-law.knowl.md",
+      "source_sha256": "76947fead00e7eec14cb32e2c8bb79c47b105091883c057abe769872e567b501"
+    },
+    {
+      "path": "content/probability/event-probability.knowl.md",
+      "source_sha256": "448ba40ee7c60d6016662da7827f7e6114aa85b7b18355abeb04fc88211550a7"
+    },
+    {
+      "path": "content/probability/gibbs-inequality-kl.knowl.md",
+      "source_sha256": "64fe6a0dfee30ff66bb1e3c3794d0712bea62321cb0a248471539fc71ec9d820"
+    },
+    {
+      "path": "content/probability/identically-distributed.knowl.md",
+      "source_sha256": "c06d3fa10a223f309abeb74fba627119b0de4e2cb66f9eff8bdba9f5dabbcfba"
+    },
+    {
+      "path": "content/probability/iid-sequence.knowl.md",
+      "source_sha256": "9156739b560bd9aa778e044c399eb722c6ddeb4f86e490f8f754f30b40fa0a3a"
+    },
+    {
+      "path": "content/probability/independence-random-variables.knowl.md",
+      "source_sha256": "772618f397b9438322bbb234eeb5e90d1f06648f34c03348c31bed6347d4d225"
+    },
+    {
+      "path": "content/probability/maximum-entropy-principle.knowl.md",
+      "source_sha256": "4db0e64ac065494c07b1f00f6e39232896e99e6092b38ce28613b24b4f06f984"
+    },
+    {
+      "path": "content/probability/probability-measure.knowl.md",
+      "source_sha256": "7bc00be33650734183e6bbf165a4eb9621435866509361376c44217d1fa0381c"
+    },
+    {
+      "path": "content/probability/probability-space.knowl.md",
+      "source_sha256": "a65b079d3b42642ed78dbb2a719512c4937ba51438c8fccf89fb104d650988a0"
+    },
+    {
+      "path": "content/probability/radon-nikodym-theorem.knowl.md",
+      "source_sha256": "deab637fe27294bca3cb4c0908d7be1c328ffc26bdc75612f4435bed693189fe"
+    },
+    {
+      "path": "content/probability/random-vector.knowl.md",
+      "source_sha256": "cc19675ff2e0ba207519e6018759db2950726eec54c67b6ee65325fd170e757c"
+    },
+    {
+      "path": "content/probability/relative-entropy-kl-divergence.knowl.md",
+      "source_sha256": "41c7c01b8e986832c1be752eee6e95783a662a66a517dc89107e464e566036ec"
+    },
+    {
+      "path": "content/probability/total-variation-distance.knowl.md",
+      "source_sha256": "9e2fcae30ebce403c2459d43ccd392e9d4d8cf3b484c39a7d9dda312028a3477"
+    },
+    {
+      "path": "content/quantum-foundations/antiunitary-operator.knowl.md",
+      "source_sha256": "b7b3bb963801453649139994f048e97259352f62ea29fd86d8215a9b2b59fcdb"
+    },
+    {
+      "path": "content/quantum-foundations/bounded-operator-hilbert.knowl.md",
+      "source_sha256": "851ba5a52e529b60372b74a5e26a8baca02004047d5dd5b4456fabb7499acaec"
+    },
+    {
+      "path": "content/quantum-foundations/complex-hilbert-space-finite.knowl.md",
+      "source_sha256": "b378e55aa20e21ee9457d7e7fe4c2080fe725608977302f33fbe3391150ea071"
+    },
+    {
+      "path": "content/quantum-foundations/density-operator.knowl.md",
+      "source_sha256": "a169ff07d1e3b7ead574f18d17ca15177d4badfa941a641d2ddec1b40b24dfda"
+    },
+    {
+      "path": "content/quantum-foundations/mixed-state-quantum.knowl.md",
+      "source_sha256": "69f8224d66c462e89877587bd7304b8d9badb562fb23e85ab86e85858c6b501b"
+    },
+    {
+      "path": "content/quantum-foundations/normal-operator.knowl.md",
+      "source_sha256": "1b828717e915774973e9afbe1542e6cfd2a93fd9e19c366de34a11f81493cb89"
+    },
+    {
+      "path": "content/quantum-foundations/partial-trace.knowl.md",
+      "source_sha256": "63998632bd6cae6b343b4a13798bbe4b6ee7b2756fb6ecf0bd8efa6fe21cc370"
+    },
+    {
+      "path": "content/quantum-foundations/positive-operator-valued-measure.knowl.md",
+      "source_sha256": "6c4f71db1cd835da93559d3ca72fd7d93e0382072a1aff496b5076537d334d8a"
+    },
+    {
+      "path": "content/quantum-foundations/pure-state-quantum.knowl.md",
+      "source_sha256": "44e23447258ab2ea60604802083333aecf80a3f4fa10710153f06afd659029ce"
+    },
+    {
+      "path": "content/quantum-foundations/self-adjoint-operator-observable.knowl.md",
+      "source_sha256": "d35a1a196e2985281b59deb8a995dccfcdc5bdb2507a2049335fe27f09bfd87b"
+    },
+    {
+      "path": "content/real-analysis/abels-theorem.knowl.md",
+      "source_sha256": "b16ddbb2a0d7ee6eed1f14b7785a1e1e05a695dd582c1d8a386108f7c64e9011"
+    },
+    {
+      "path": "content/real-analysis/absolute-convergence-implies-cauchy.knowl.md",
+      "source_sha256": "f873e138b995913430fce7ec59f5e36aa40eced1add42d357bf8d17d562feb4c"
+    },
+    {
+      "path": "content/real-analysis/absolute-value-preserves-integrability.knowl.md",
+      "source_sha256": "bd33bc02ec017dd881a4ee56616b0b58413851ac3bd1657fe640dff6741076b1"
+    },
+    {
+      "path": "content/real-analysis/chain-rule-multivariable.knowl.md",
+      "source_sha256": "57e080f942f1a4500962cf621d7bcdc32ba524d71fa01d5b7edd1374d82c90ea"
+    },
+    {
+      "path": "content/real-analysis/continuity-on-a-set.knowl.md",
+      "source_sha256": "a26aebdd89894eeadf4684f4ff5e99f826fe4667271fb859443da42a42b44b45"
+    },
+    {
+      "path": "content/real-analysis/integration-by-parts-riemann-stieltjes.knowl.md",
+      "source_sha256": "1b052a24e5f30efc1a2ed38b11e9ce362ec88b1926a20bd9f78fbc87a2b86fd5"
+    },
+    {
+      "path": "content/real-analysis/isolated-point.knowl.md",
+      "source_sha256": "5ef578f6a4bef5f000e4d34b09dfecd56ae993e03d13bcaf7a472acc8b9278c0"
+    },
+    {
+      "path": "content/real-analysis/jacobian-determinant.knowl.md",
+      "source_sha256": "b8230c4d2ad0480189cf8b90bdf7b527acc2b867f56cc59402379c2409e9d530"
+    },
+    {
+      "path": "content/real-analysis/jacobian-matrix.knowl.md",
+      "source_sha256": "c2e56f2aa151a389fd8a4bbc53ade6ff65850857767735ad35c2738083c2c612"
+    },
+    {
+      "path": "content/real-analysis/lagrange-multipliers-theorem.knowl.md",
+      "source_sha256": "a909715171031fcc8b4f5465dac018cdbfeceeaccf8aebd6e3705d84d4ff8148"
+    },
+    {
+      "path": "content/real-analysis/limit-inferior.knowl.md",
+      "source_sha256": "44045001aed06c4680a43642449303a15fab3e862dac557e2351d16422abcfbc"
+    },
+    {
+      "path": "content/real-analysis/limit-point-accumulation-point-cluster-point.knowl.md",
+      "source_sha256": "ae1d49e19b41a4b6546a5f5c59f2ed45cc425d8bafb06da20d1cef43359bcc29"
+    },
+    {
+      "path": "content/real-analysis/limit-superior.knowl.md",
+      "source_sha256": "fdae4d588d1d71de7ee50e03dc83c3a944dac3a2fa6498eb5b7889bd87fddaa7"
+    },
+    {
+      "path": "content/real-analysis/limsup-liminf-properties.knowl.md",
+      "source_sha256": "9f006090b20772a3830af08a307e25fd9549e83ad857c17d0c76160797a1c21f"
+    },
+    {
+      "path": "content/real-analysis/local-diffeomorphism-corollary.knowl.md",
+      "source_sha256": "aa1c2053ccae6c8ff7c2dfe85f8b615c0fa80f1f41d0cf958804fb915b488035"
+    },
+    {
+      "path": "content/real-analysis/local-implicit-function-parameterization.knowl.md",
+      "source_sha256": "025e83a32dd59efab38e91e8d0d51a0bd2e204b715dfde68e71334eb2ff611d2"
+    },
+    {
+      "path": "content/real-analysis/lower-sum-riemann.knowl.md",
+      "source_sha256": "e95ecd0716383e24593e6945bfc697764d8e9a3abce9ceba8194b5971df707d4"
+    },
+    {
+      "path": "content/real-analysis/m-test-continuity-integration-corollary.knowl.md",
+      "source_sha256": "c78a7d4d16da34714649a93749444b7c9044402266cebbb19fa248281eec5d0b"
+    },
+    {
+      "path": "content/real-analysis/mertens-theorem-on-cauchy-products.knowl.md",
+      "source_sha256": "f292114136c07c1d69e7418bf10bf70611c8fbd52eb7f4da2a62fb151d5817ef"
+    },
+    {
+      "path": "content/real-analysis/mixed-partial-derivative.knowl.md",
+      "source_sha256": "7ba680099793630fd2db371c03db0b48b0ff3ce6ee732b8944449802e3e93361"
+    },
+    {
+      "path": "content/real-analysis/modulus-on-c.knowl.md",
+      "source_sha256": "a45a3f469841da89b8a4698b9d03f50c19343d8e5e4436e5f355221396d8f872"
+    },
+    {
+      "path": "content/real-analysis/monotone-sequence-convergence-theorem.knowl.md",
+      "source_sha256": "b5228496abb21cc27e100735f0eb483a39e95ff5664950f577ab025e1c1e32e7"
+    },
+    {
+      "path": "content/real-analysis/monotone-sequence-of-functions.knowl.md",
+      "source_sha256": "74b3aeefbaf4d99b2034542a16ac1b17f6dce2a280c4f124997d0bf2eb578392"
+    },
+    {
+      "path": "content/real-analysis/monotone-sequence.knowl.md",
+      "source_sha256": "04781c2629c66ee7ab342d115c1082336f604d19334082408e65b8f223dcb87f"
+    },
+    {
+      "path": "content/real-analysis/monotone-subsequence-lemma.knowl.md",
+      "source_sha256": "88ebd642d1031b978f03dc48b5ebc2422a05c8fdcdd5aafa4ac3bf1badbdc3f2"
+    },
+    {
+      "path": "content/real-analysis/multiple-riemann-integral.knowl.md",
+      "source_sha256": "e225fea371b8fe3911f444ff4a7e0456f7cfe26378b16c4e1b5ee81a1ff98a9f"
+    },
+    {
+      "path": "content/real-analysis/neumann-series-lemma.knowl.md",
+      "source_sha256": "d4d0148cf849a2d256c58172240c936f10d372e9dcd37b5e4d9fc5b4a1414de7"
+    },
+    {
+      "path": "content/real-analysis/one-sided-limit.knowl.md",
+      "source_sha256": "888075912d73687f3f44c99c6ef1e23d957e9f35e2ac7817ef852e75bc9abfa8"
+    },
+    {
+      "path": "content/real-analysis/order-axioms.knowl.md",
+      "source_sha256": "a1f8008dcb3d45934f7664bac7d832ffcc3ba35ad0c3810c37c4e5508f1df6f3"
+    },
+    {
+      "path": "content/real-analysis/oscillation.knowl.md",
+      "source_sha256": "eb157f30c40e103a88ffddfeb42c14967cd6984e716a933942c60eb4793cd8e3"
+    },
+    {
+      "path": "content/real-analysis/partition-of-an-interval.knowl.md",
+      "source_sha256": "7b033e2e08f80d1ddb2b1056bad91dbf390b3f3a85f1478ded8c060ba040c42f"
+    },
+    {
+      "path": "content/real-analysis/pointwise-convergence.knowl.md",
+      "source_sha256": "58e8119e500eb4515ffd92da193a360a49d0e71880075fe1497d52feba17e37d"
+    },
+    {
+      "path": "content/real-analysis/positive-derivative-implies-increasing.knowl.md",
+      "source_sha256": "74616034604b535e8a8a8e117cfc59de928abc169484af8a2681314af9b1c892"
+    },
+    {
+      "path": "content/real-analysis/power-series-analytic-on-disk.knowl.md",
+      "source_sha256": "3536b8d7683b8a4c8d924eb76cef0f9b53474bacbd1a2acc6c273427376dd6cd"
+    },
+    {
+      "path": "content/real-analysis/power-series.knowl.md",
+      "source_sha256": "61eb95e38540b9f1699ea1fea0e028e64d264fcfcd838c437c7447da516288aa"
+    },
+    {
+      "path": "content/real-analysis/preimage-inverse-image.knowl.md",
+      "source_sha256": "9b31e9198ad4c948ec3768e645485f9b769d0bcc6112fefff3d33582d164731a"
+    },
+    {
+      "path": "content/real-analysis/rearrangement-theorem-absolute.knowl.md",
+      "source_sha256": "20cf76e4c074348d0d0e517973a2fb611a30d8002130e49b59df97a7b0712a2b"
+    },
+    {
+      "path": "content/real-analysis/regular-point-critical-point-multivariable.knowl.md",
+      "source_sha256": "3d95dbea33f50444d295d9df5e135d2c55579e43e37424720b4e6506330e2865"
+    },
+    {
+      "path": "content/real-analysis/regular-point.knowl.md",
+      "source_sha256": "83d42e5b350b25af1fd1ad5d58bdf3b63e4e03da1a4059ea4192fbb9b2f7b4cc"
+    },
+    {
+      "path": "content/real-analysis/regular-value-critical-value-multivariable.knowl.md",
+      "source_sha256": "8b722631faab47e97f4583ed060e1701f6c822a464bd74152f1ee99551251c76"
+    },
+    {
+      "path": "content/real-analysis/remainder-term-in-taylors-theorem.knowl.md",
+      "source_sha256": "fd659c2ffda4e96e15df94604467f598fe6a003f3e61805cab12dccaac08f3e9"
+    },
+    {
+      "path": "content/real-analysis/reverse-triangle-inequality.knowl.md",
+      "source_sha256": "2433a0291c4aa025077415fa831d3bcadf77e266bbf2cee8f2b6aa335cb6d970"
+    },
+    {
+      "path": "content/real-analysis/riemann-integrable-function.knowl.md",
+      "source_sha256": "618ff8dd7617042e06285c9b8177a8b08542c3f49554c9c1c28962e8bbe40113"
+    },
+    {
+      "path": "content/real-analysis/riemann-stieltjes-additivity-over-subintervals.knowl.md",
+      "source_sha256": "81bd7859369738c181488d4668cf93abadaa3a30f4ec3800bb2a58ad82b78db2"
+    },
+    {
+      "path": "content/real-analysis/right-derivative-left-derivative.knowl.md",
+      "source_sha256": "f45f717cd7f50040ff1f12019685e76eeed36e9618479b9e0397eeec03cbd5cc"
+    },
+    {
+      "path": "content/real-analysis/root-test.knowl.md",
+      "source_sha256": "830144c254eb9aed9242283bbad3376fadbc89a935fee535351a368a343520e8"
+    },
+    {
+      "path": "content/real-analysis/series-of-functions.knowl.md",
+      "source_sha256": "252b9825fc49232bed1540308ab9470ee09cd6d77e58af200303ce52ac2be353"
+    },
+    {
+      "path": "content/real-analysis/series.knowl.md",
+      "source_sha256": "e80ab53f04661d36b9028e3d4580fb0137c1f7fe3e6796641b987132b342f216"
+    },
+    {
+      "path": "content/real-analysis/space-of-continuous-functions.knowl.md",
+      "source_sha256": "84ea617f6aa2a3ff21ff89cf9a5fad35f2c200c5cb4aa747585bc9028fcdbbff"
+    },
+    {
+      "path": "content/real-analysis/substitution-rule-for-one-variable-riemann-integrals.knowl.md",
+      "source_sha256": "7b22755bf512f6095fd7546cbe0e4d939e28e2bb8dfcec66c50c7309d6bab0bb"
+    },
+    {
+      "path": "content/real-analysis/sufficient-condition-for-differentiability.knowl.md",
+      "source_sha256": "2adbd0a18ff0849583ce0057ed4aafbdb25b3162f0c501831a64cdcf335732ed"
+    },
+    {
+      "path": "content/real-analysis/supremum.knowl.md",
+      "source_sha256": "e8ef10b13be8390ac0e601de98a5e5ae0d36b7dd73859e58e2ff235b189e3390"
+    },
+    {
+      "path": "content/real-analysis/taylors-theorem-in-several-variables.knowl.md",
+      "source_sha256": "f90634af1b96944c453220905288fdc9fa45b20d9c56202b664af32f6e8a85cc"
+    },
+    {
+      "path": "content/real-analysis/term-by-term-differentiation.knowl.md",
+      "source_sha256": "dc45bdbf8732176ecc4c7dc6ca64deb9534b95c200eca4532c943046093bdfb1"
+    },
+    {
+      "path": "content/real-analysis/term-by-term-integration.knowl.md",
+      "source_sha256": "4f683af7e997f1a24ade22e776c64eacb15f4290cc808c94a902a8aa522b5daf"
+    },
+    {
+      "path": "content/real-analysis/term-by-term-operations.knowl.md",
+      "source_sha256": "45534152114757e3e548c13441bca75772f25038dd8bdcaa38969597e3481892"
+    },
+    {
+      "path": "content/real-analysis/total-boundedness-epsilon-nets.knowl.md",
+      "source_sha256": "4d769fd28573291f2308dbde00513c94781fc7a1897dba00a7044e245e92a1d8"
+    },
+    {
+      "path": "content/real-analysis/total-derivative-frechet-derivative.knowl.md",
+      "source_sha256": "09fba11e6e64e0a9271eaa5dc8b298409f2d1c6f11ba1a53580cde13c11c5ecc"
+    },
+    {
+      "path": "content/real-analysis/triangle-inequality.knowl.md",
+      "source_sha256": "0576ff311bc2d40cb07b3e2caeceba2b77d37c92cff1cf978815f1249a921f64"
+    },
+    {
+      "path": "content/real-analysis/uniform-cauchy-iff-uniform-convergence.knowl.md",
+      "source_sha256": "65f1ee962a8d575ce62b627ff2ab5185f3faf7e1ec6c36b149862dafbd4b978e"
+    },
+    {
+      "path": "content/real-analysis/uniform-continuity.knowl.md",
+      "source_sha256": "8cfff5a09da9df7c83632a90e6616570ada7e9689aae4ae009791d7eed5bf470"
+    },
+    {
+      "path": "content/real-analysis/uniform-convergence-integration.knowl.md",
+      "source_sha256": "cc889856bda52d5a1c285add64218885d2a74efa54491ee2462a22558811cef6"
+    },
+    {
+      "path": "content/real-analysis/uniform-convergence-of-a-sequence-of-functions.knowl.md",
+      "source_sha256": "a575144b9630357f7f0028492265f136fd387bdaa20a7f780d66c1dc98965cff"
+    },
+    {
+      "path": "content/real-analysis/uniform-convergence-on-compact-sets.knowl.md",
+      "source_sha256": "64e9f433646f0f386ef5d6300e8a095ff3b17f16a0c237856ef1457156bee4a3"
+    },
+    {
+      "path": "content/real-analysis/uniform-convergence-supnorm.knowl.md",
+      "source_sha256": "f391e945c763b18ac31c1d015a5629267e61a1636f302bffad056a12cf2e1fee"
+    },
+    {
+      "path": "content/real-analysis/uniform-limit-theorem-for-continuity.knowl.md",
+      "source_sha256": "3338ffe87069dbb18407217e682ad0c739fcba7df2de55ba22809c32995298eb"
+    },
+    {
+      "path": "content/real-analysis/uniform-limit-theorem.knowl.md",
+      "source_sha256": "1f35f3f188f863774dac44e034788a58ed31fef63a71655414299179b9ec6e21"
+    },
+    {
+      "path": "content/real-analysis/upper-sum-riemann.knowl.md",
+      "source_sha256": "841e6edd8569626f15a85bd0762fc38802fa98b5f686c743cee77d50e2ef7428"
+    },
+    {
+      "path": "content/real-analysis/weierstrass-m-test.knowl.md",
+      "source_sha256": "3550a41fb25be887ad63fbf0a13959419a290fe491444882740e23a7e9b5d835"
+    },
+    {
+      "path": "content/shale-paper/complex-structure-lambda.knowl.md",
+      "source_sha256": "98c606f19cf68b2133e796b66a2b536518d37ba21a51d8f8007df4da981b48db"
+    },
+    {
+      "path": "content/shale-paper/creation-annihilation-operators.knowl.md",
+      "source_sha256": "f6d461e86cdaee3e82721777f2e3bac87e6054c1fa0dadc8940568a1180f52df"
+    },
+    {
+      "path": "content/shale-paper/cstar-algebra-observables.knowl.md",
+      "source_sha256": "f23a72608c294110361bdcf1a53abc3b2082b1024820d5cfe275229a51ac9b84"
+    },
+    {
+      "path": "content/shale-paper/duality-transform-D.knowl.md",
+      "source_sha256": "bfaddb8ab9591ae67e0e70536e61a9499389c862dacc935c21511ab1036b985d"
+    },
+    {
+      "path": "content/shale-paper/fock-cook-quantization.knowl.md",
+      "source_sha256": "f3a8cbb6c31993ee6535cb4ea14b1602490d49574d0a8afec5a221fb8b70ce77"
+    },
+    {
+      "path": "content/shale-paper/fredholm-determinant-trace-log.knowl.md",
+      "source_sha256": "3e8844e56479297d99b8c1f8401166f0d9eba3273dddb2849ddc4da6a8a1ef70"
+    },
+    {
+      "path": "content/shale-paper/gaussian-measure-hilbert-space.knowl.md",
+      "source_sha256": "760668bdf14eb44ed4a7cf78eb3be6d37f3bca2f4193a44a8fc573bc61b387d4"
+    },
+    {
+      "path": "content/shale-paper/glh0-glh1-glh2.knowl.md",
+      "source_sha256": "04bec1268cd47d2b5cd5ef05bccdacb0e24e6daa6ad98ced5b9e16c4555413cb"
+    },
+    {
+      "path": "content/shale-paper/hilbert-schmidt-operator.knowl.md",
+      "source_sha256": "02e4f0b367f836fe1e74f883b2ab5980987f29947a3d41b3a256d6b8c36b5c16"
+    },
+    {
+      "path": "content/shale-paper/jacobian-xT.knowl.md",
+      "source_sha256": "ae4b479d0b62e2b7bef7bcc6d3af1fc30912c42d08093b464e559e4b8ef439ba"
+    },
+    {
+      "path": "content/shale-paper/kadison-transitivity.knowl.md",
+      "source_sha256": "3b35ccd803bc3ab5987af809516835c7df37592471396ae41b0250702948432d"
+    },
+    {
+      "path": "content/shale-paper/operator-topologies-sot-wot.knowl.md",
+      "source_sha256": "21ba5b56209b958795ca75712cf095faab8bf09e0c6c4cf7eb3e13a691c809e4"
+    },
+    {
+      "path": "content/shale-paper/polar-decomposition.knowl.md",
+      "source_sha256": "6b0a750ccd2bb954dff80dd468730f5cd3af5b6a251cd3adf4417979bfd6e682"
+    },
+    {
+      "path": "content/shale-paper/projective-unitary-representation.knowl.md",
+      "source_sha256": "298c7a88effc5caf7206994e448bbedd3f2e195758b6d46ff3910d568ed8f04b"
+    },
+    {
+      "path": "content/shale-paper/radon-nikodym-derivative.knowl.md",
+      "source_sha256": "36c376d60a786e1c47d3ae5dbf1879be2c9e31ed729b6516bef858b22e4e96f7"
+    },
+    {
+      "path": "content/shale-paper/restricted-general-linear-group-rgl.knowl.md",
+      "source_sha256": "012ac12d4d3314cc3bb7d54318bb9e0c3dad291144d635527e56cd56c1a62571"
+    },
+    {
+      "path": "content/shale-paper/restricted-symplectic-group-rspk.knowl.md",
+      "source_sha256": "3eb966e79462f09d8c25b7eac37557901e138a40028d44ba687469d1aba64e7a"
+    },
+    {
+      "path": "content/shale-paper/single-particle-structure-sigma-h.knowl.md",
+      "source_sha256": "9e47bc91aa5857515cd293b81271811b783afe7af9a3477c08fd42267c2297d0"
+    },
+    {
+      "path": "content/shale-paper/spectral-theorem-compact-selfadjoint.knowl.md",
+      "source_sha256": "69d90cb09f8f4f9816e1651522461b1bdc57af2c79fceccb443072fd470e8828"
+    },
+    {
+      "path": "content/shale-paper/state-pure-regular.knowl.md",
+      "source_sha256": "3442dff89dd0562bf11b013bee4bedf49c8c0c0dac00a61b2c78bb9546cc6c3d"
+    },
+    {
+      "path": "content/shale-paper/symmetric-fock-space.knowl.md",
+      "source_sha256": "680b3d03408edfaaf8bef3860f8fad4191c82edb36d96ff0c61371fb6e7fbedf"
+    },
+    {
+      "path": "content/shale-paper/symmetric-tensor-product.knowl.md",
+      "source_sha256": "8b5f4ea7b02318497895db7c4c455068fd9349ed217f0ddec56855487d6a0606"
+    },
+    {
+      "path": "content/shale-paper/symplectic-form.knowl.md",
+      "source_sha256": "951591088627eb384c7e5dffa7cf1561f11018b757925211c367a562bbae719e"
+    },
+    {
+      "path": "content/shale-paper/symplectic-group-spk.knowl.md",
+      "source_sha256": "b4aa2d237e74d5385797cb1d12b3c10610a0936e37c4ab5365b494c7860b8b9d"
+    },
+    {
+      "path": "content/shale-paper/symplectic-hilbert-space.knowl.md",
+      "source_sha256": "6f54d0d494f994367cd25031292a72f7f20e7045f0bc405149fa3d9c707becc7"
+    },
+    {
+      "path": "content/shale-paper/tame-function.knowl.md",
+      "source_sha256": "23eeb15543cdce97f02c177398b3b15d0bfa6617a12b9a58bf4ef1f3fcce0190"
+    },
+    {
+      "path": "content/shale-paper/trace-class-operator.knowl.md",
+      "source_sha256": "e8efe499fefa4601dc62a63c8d5266446592fc9b9504c32fe95ed40253b27547"
+    },
+    {
+      "path": "content/shale-paper/weak-continuity.knowl.md",
+      "source_sha256": "9a71c73230ce4bc3593e35176349a5adbde60bd4a152a502ae49c63ac669a566"
+    },
+    {
+      "path": "content/shale-paper/weyl-ccr-quantization.knowl.md",
+      "source_sha256": "1ef5979ec6451759009ce9771d51776f1337cb813e297860a1c77339ba299129"
+    },
+    {
+      "path": "content/shale-paper/wiener-transform.knowl.md",
+      "source_sha256": "21137ac6925a5fb03f66bb04e146a74ec8231237e62164ee2224ad7615bf74e8"
+    },
+    {
+      "path": "content/shared-foundations/bounded-infinite-set-has-limit-point.knowl.md",
+      "source_sha256": "a2be8530f0f09f552d93288a671f029faf8d3b1753fbd1d1438f1d1e351c1a9c"
+    },
+    {
+      "path": "content/shared-foundations/cartesian-product.knowl.md",
+      "source_sha256": "c6ffd0e7257fea154d13e449f6e5767c438574d7746586d0a1e1e575cf485067"
+    },
+    {
+      "path": "content/shared-foundations/complex-numbers-c.knowl.md",
+      "source_sha256": "5fe53f21d4b1cd32048f66c7f41e4ae546778aa228120e8c54a0db02186f1299"
+    },
+    {
+      "path": "content/shared-foundations/contraction-mapping.knowl.md",
+      "source_sha256": "e02e9f06214ab40700d3d98c6a14d60d2ede9361b84024e1e36b5be1a97e555e"
+    },
+    {
+      "path": "content/shared-foundations/lower-bound.knowl.md",
+      "source_sha256": "2af0b32dd4a8b0a1058398c0b41ccb124444c3e8791a4e833ec1afc1f759cf90"
+    },
+    {
+      "path": "content/shared-foundations/quotient-set.knowl.md",
+      "source_sha256": "480c054d20a73bde0601fa3c015cd160e7796e624ddd4c3b6dbb9def8fc43200"
+    },
+    {
+      "path": "content/shared-foundations/total-order-linear-order.knowl.md",
+      "source_sha256": "049f5f737f58d798627acddae8c51b09ea8f273f5caa5b4c67f24113b2a829b2"
+    },
+    {
+      "path": "content/shared-foundations/upper-bound.knowl.md",
+      "source_sha256": "823f953c643ed978899db40423ae73bba1b441269e00a6f85c6193b8e7046176"
+    },
+    {
+      "path": "content/stat-mech-quantum/gibbs-state-quantum.knowl.md",
+      "source_sha256": "69aa78d8a7a1beba80d57762834d1c6341cb367556a95d445bb68cbc7097be04"
+    },
+    {
+      "path": "content/stat-mech-quantum/kms-condition-finite.knowl.md",
+      "source_sha256": "f272cb4735f58c7bf17c1c64df63c1be33865b182e035c95794fdd9b0485dc29"
+    },
+    {
+      "path": "content/stat-mech-quantum/quantum-partition-function.knowl.md",
+      "source_sha256": "c4d56142d00a0031a59c88109baacf5e5e35bb5d5aa963f17be8f1f0d41a6f5a"
+    },
+    {
+      "path": "content/supergeometry/functor-of-points-of-supermanifold.knowl.md",
+      "source_sha256": "dc7d23f023798abf38b0e379fd2e368312fbebad8a96f3dcc2597b21b38b222b"
+    },
+    {
+      "path": "content/supergeometry/koszul-sign-rule.knowl.md",
+      "source_sha256": "f2cd305effea5dafa2bcdca0378a775321b0bc04d1b9800b1047a4e5e8b006f4"
+    },
+    {
+      "path": "content/topology/cup-product-and-cohomology-ring.knowl.md",
+      "source_sha256": "167b6130f31ce03011a874f529ee42cf8c912a9215bf78d55f688d72cb71df4d"
+    },
+    {
+      "path": "content/topology/locally-finite-family.knowl.md",
+      "source_sha256": "17a607f3e12782f248d1928b478763f8f9082c1198915b6771e8d8879a1b9fa6"
+    },
+    {
+      "path": "content/topology/singular-cohomology-group.knowl.md",
+      "source_sha256": "11e0dd48520ebed6e367ff8712f36382980b636aa9ddb9e1ecb1931067ed736f"
+    },
+    {
+      "path": "content/topology/uniqueness-of-limits-hausdorff.knowl.md",
+      "source_sha256": "7eb3b103c582110d82476b036544a5c82ab8db8a16f409c67c2ea96311a0d91e"
+    }
+  ],
+  "integration_note": "Hashes identify the final sources after root resolved findings; original reviewer findings and root resolutions retained."
+}

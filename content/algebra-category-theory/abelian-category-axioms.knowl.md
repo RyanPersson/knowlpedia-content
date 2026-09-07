@@ -11,13 +11,13 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-An **[[algebra-category-theory/abelian-category|abelian category]]** is an [[algebra-category-theory/additive-category|additive category]] \(\mathcal A\) in which every morphism has a [[algebra-category-theory/kernel-categorical|kernel]] and a [[algebra-category-theory/cokernel-categorical|cokernel]], every [[algebra-category-theory/monomorphism-category|monomorphism]] is a kernel, and every [[algebra-category-theory/epimorphism-category|epimorphism]] is a cokernel. Equivalently, for each monomorphism \(m\) and epimorphism \(e\),
+An **[[algebra-category-theory/abelian-category|abelian category]]** is an [[algebra-category-theory/additive-category|additive category]] \(\mathcal A\) in which every [[algebra-category-theory/morphism|morphism]] has a [[algebra-category-theory/kernel-categorical|kernel]] and a [[algebra-category-theory/cokernel-categorical|cokernel]], every [[algebra-category-theory/monomorphism-category|monomorphism]] is a kernel, and every [[algebra-category-theory/epimorphism-category|epimorphism]] is a cokernel. Equivalently, for each monomorphism \(m\) and epimorphism \(e\),
 \[
 m\cong\ker(\operatorname{coker}m),
 \qquad
 e\cong\operatorname{coker}(\ker e).
 \]
-The isomorphisms here are isomorphisms of arrows with the same domain and codomain.
+The [[algebra-category-theory/isomorphism-category|isomorphisms]] here are isomorphisms of arrows with the same domain and codomain.
 
 ## Axiom list
 

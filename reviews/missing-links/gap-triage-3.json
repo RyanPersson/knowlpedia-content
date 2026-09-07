@@ -1,0 +1,1220 @@
+{
+  "version": 1,
+  "phrases": [
+    {
+      "phrase": "bounded operator",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/bounded-linear-operator"
+      ],
+      "evidence": "Read the reported occurrences, including functional-analysis/adjoint-bounded-operator, functional-analysis/borel-functional-calculus, functional-analysis/decomposable-operator; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "quotient map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the occurrences across coequalizers, group/ring/module quotients, quotient topology, orbit and symplectic reductions, Hopf fibrations, and bundle constructions. “Quotient map” is a generic role whose definition depends on the quotient category; existing specific knowls such as shared-foundations/quotient-set, topology/quotient-topology, algebra-rings/quotient-ring, and fiber-bundles/quotient-manifold cover the reusable meanings. Add context-specific links where they answer a reader question; do not create a universal quotient-map knowl."
+    },
+    {
+      "phrase": "finite-dimensional complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/class-function, algebra-representation-theory/character, algebra-representation-theory/character-direct-sum. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "compact structure group",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/compact-lie-group"
+      ],
+      "evidence": "Read all 16 occurrences, including gauge-theory, instanton, monopole, and moduli-space cores. In each, “compact structure group” is a hypothesis on the principal-bundle group; where the group is a Lie group, the existing lie-groups/compact-lie-group target supplies the definition. Link this target in suitable contexts, with the caveat that compactness alone does not assert Lie structure; no separate compound knowl is needed."
+    },
+    {
+      "phrase": "exact sequence",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-category-theory/exact-sequence-categorical"
+      ],
+      "evidence": "Read the reported occurrences, including algebra-category-theory/left-exact-functor, algebra-category-theory/left-exact-functor, algebra-category-theory/right-exact-functor; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "scalar field",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read occurrences in smooth-function, spinor-bundle/module, normed-space, representation, and Klein–Gordon contexts. The phrase has distinct meanings: a coefficient field (usually R or C), a scalar-valued field in physics, and a pointwise scalar function. Existing field, function, and scalar-field-in-physics contexts should be linked specifically when useful; a universal scalar-field knowl would conflate these meanings."
+    },
+    {
+      "phrase": "finite-dimensional lie algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in formal-groups/complete-filtered-lie-algebra-bch-group, formal-groups/formal-group-law-morphism, formal-groups/lie-algebra-formal-group-equivalence. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "connection form",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/connection-1-form-on-a-principal-bundle"
+      ],
+      "evidence": "Read the reported occurrences, including fiber-bundles/ambrosesinger-curvature-span, fiber-bundles/connection-compatible-with-a-reduction, fiber-bundles/construction-atiyah-algebroid-tpg-and-its-anchor-map-to-tm; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "differential form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including differential-geometry/compactly-supported-differential-form, differential-geometry/compactly-supported-differential-form, differential-geometry/differential-form-of-type-pq; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "de rham cohomology",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/de-rham-cohomology-group"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/compactly-supported-de-rham-cohomology, differential-geometry/de-rham-complex, differential-geometry/de-rham-complex; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "real vector bundle",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including fiber-bundles/bundle-metric, fiber-bundles/chernweil-form, fiber-bundles/clutching-function; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "underlying topological space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebraic-geometry-foundations/fiber-product-of-schemes, algebraic-geometry-foundations/formal-spectrum, algebraic-geometry-foundations/ordered-blue-scheme. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "additive group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/coset, algebra-groups/finite-cyclic-isomorphic-zn, algebra-groups/order-divides-group-order. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "elements form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-fields-galois/finite-field-multiplicative-group-cyclic, algebra-rings/idempotent-semifield, algebra-rings/nilpotent-element. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "coefficient algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/projective-module-bundle-reconstruction, fiber-bundles/serre-swan-theorem, nonassociative-algebra/octonion-algebra. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "linear algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-category-theory/abelian-category, algebra-modules/basis-module, algebra-modules/semisimple-module. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "algebraic representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in langlands-letter/knowls/characters-separate-semisimple-classes, langlands-letter/knowls/euler-product-and-local-factor, langlands-letter/knowls/l-group-satake-parameter. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "algebraic variety",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebraic-geometry-foundations/d-module, algebraic-geometry-foundations/principal-g-bundle-on-scheme, algebraic-geometry-foundations/sheaf-of-differential-operators. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "multiplication map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-category-theory/exact-sequence-categorical, algebra-groups/internal-direct-product, algebra-modules/algebra-over-ring. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "base map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/bundle-morphism, fiber-bundles/category-of-vector-bundles-over-a-manifold, fiber-bundles/fiber-preserving-map. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "unique connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/dual-connection, fiber-bundles/hom-bundle-connection, fiber-bundles/levicivita-connection-connection. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "trivial bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/trivial-fiber-bundle"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/almost-quaternionic-manifold, differential-geometry/holomorphic-line-bundle, differential-geometry/holomorphic-line-bundle; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "compact manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/anosov-flow, differential-geometry/cobordism, differential-geometry/cobordism-equivalence. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "standard form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/hamiltons-equations, differential-geometry/kahler-form, differential-geometry/local-kahler-potential. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "complex representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/class-function, algebra-representation-theory/character-orthonormality, algebra-representation-theory/schur-corollary. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "coefficient ring",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/polarized-hodge-structure, differential-geometry/pure-hodge-structure, fiber-bundles/characteristic-number. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "hermitian inner product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-representation-theory/character-orthogonality, differential-geometry/grassmannian, fiber-bundles/hermitian-metric. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "fiber bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/smooth-fiber-bundle"
+      ],
+      "evidence": "Read the reported occurrences, including fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f, fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p, fiber-bundles/fiber-coordinates; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "decreasing filtration",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-topological/completed-tensor-product, differential-geometry/frolicher-spectral-sequence, differential-geometry/hodge-filtration and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "nonunital banach algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/banach-algebra-invertible-element, functional-analysis/banach-algebra-resolvent, functional-analysis/banach-algebra-spectral-radius and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "zero morphism",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-category-theory/additive-category, algebra-category-theory/kernel-categorical, algebra-category-theory/kernel-categorical. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "full group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-fields-galois/galois-correspondence, algebraic-geometry-foundations/projective-semilinear-group, differential-geometry/reduction-at-nonzero-momentum. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "matrix algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in nonassociative-algebra/special-and-exceptional-jordan-algebras, noncommutative-geometry/odd-index-pairing, operator-algebras/character-cstar-algebra. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "operator algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/partial-isometry, functional-analysis/strong-dual, noncommutative-geometry/smooth-domain-delta and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "faithful representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/conditional-expectation-reduced-crossed-product, operator-algebras/connes-cocycle-derivative, operator-algebras/cstar-representation and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "classes form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebraic-geometry-foundations/isocrystal, differential-geometry/cobordism-equivalence, differential-geometry/holomorphic-line-bundle. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "covering map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including differential-geometry/riemannian-isometric-immersion, fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle, lie-groups/connected-abelian-lie-group-structure; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "smooth category",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/complex-manifold, differential-geometry/holomorphic-vector-bundle-morphism, differential-geometry/nijenhuis-tensor and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "ambient form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-hyperstructures/partial-field, algebra-hyperstructures/partial-hyperfield, differential-geometry/coisotropic-submanifold. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "local curvature",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/chernsimons-form, fiber-bundles/connection-1-form-on-a-principal-bundle, fiber-bundles/flat-principal-connection. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "complex algebraic variety",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebraic-geometry-foundations/principal-g-bundle-on-scheme, differential-geometry/canonical-bundle-complex-manifold, langlands/intersection-cohomology-complex. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "fréchet topology",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/projective-limit-locally-convex-spaces, lie-groups/derived-representation-on-smooth-vectors, lie-groups/distribution-vectors-of-a-representation. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "topological ring",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-topological/adic-ring, algebra-topological/ideal-of-definition, algebraic-geometry-foundations/adic-space. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "zero operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/differential-operator-vector-bundles, functional-analysis/finite-rank-operator, functional-analysis/partial-isometry. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "local product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/fibered-manifold, fiber-bundles/local-gauge-transformation, fiber-bundles/trivial-fiber-bundle. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "pullback connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes, fiber-bundles/parallel-section-along-a-curve, fiber-bundles/pullback-connection-on-a-vector-bundle. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "continuous one-parameter group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/entire-analytic-element-one-parameter-automorphism, operator-algebras/modular-automorphism-group, operator-algebras/tomita-takesaki-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "free right action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle, fiber-bundles/special-orthonormal-frame-bundle-reduction, fiber-bundles/unitary-frame-bundle-reduction. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "product representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/tensor-product-vector-bundle, harmonic-analysis/tensor-product-unitary-representations, harmonic-analysis/tensor-product-unitary-representations. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "smooth right action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/principal-g-bundle, fiber-bundles/right-principal-action, fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "unique lie group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/simply-connected-determined-by-algebra, lie-groups/universal-covering-group, lie-groups/universal-covering-group-existence. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "trivial connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/connection-laplacian, fiber-bundles/connection-on-a-vector-bundle, fiber-bundles/connection-on-exterior-and-symmetric-powers. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "coadjoint action",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/coadjoint-action-of-a-lie-group"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/coisotropic-submanifold, differential-geometry/equivariant-moment-map, differential-geometry/equivariant-moment-map; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "global topology",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/proper-injective-immersion-is-an-embedding, fiber-bundles/gauge-fixing-condition, lie-groups/central-quotient-of-a-lie-group. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "standard inner product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-representation-theory/irreducible-character, algebra-representation-theory/number-irreducibles-conjugacy-classes, convex-analysis/self-adjoint-linear-operator. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "connected manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/comoment-map, differential-geometry/hamiltonian-diffeomorphism, differential-geometry/hamiltonian-diffeomorphism. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "matrix group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/conjugate-element, fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection, fiber-bundles/gauge-transform-of-a-local-connection-form. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "section algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in noncommutative-geometry/almost-commutative-spectral-triple, operator-algebras/c0-x-algebra-bundle-equivalence, operator-algebras/c0-x-algebra-bundle-equivalence. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "covariant exterior derivative",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles, fiber-bundles/cartans-first-structure-equation, fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "measurable field",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/decomposable-operator, functional-analysis/direct-integral-hilbert-spaces, functional-analysis/direct-integral-hilbert-spaces. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "valued form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/bianchi-identity, fiber-bundles/connection-compatible-with-a-reduction, fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "classification theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/classifying-space-bg, lie-groups/langlands-quotient, lie-groups/standard-module-real-reductive-group. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "continuous spectrum",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/point-continuous-residual-spectrum, functional-analysis/point-continuous-residual-spectrum, functional-analysis/spectrum-closed-operator and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "inner form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in langlands-letter/knowls/galois-descent-forms, langlands/component-group-of-l-parameter, langlands/l-packet. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "poisson algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/poisson-algebra-smooth-functions"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/functions-in-involution, differential-geometry/poisson-algebra-smooth-functions, differential-geometry/poisson-bracket-symplectic; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "sesquilinear form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including differential-geometry/hermitian-manifold, fiber-bundles/hermitian-metric, functional-analysis/closed-quadratic-form; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "universal representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/disjoint-representations, operator-algebras/states-separate-positive-elements, operator-algebras/universal-representation and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "chosen category",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/disjoint-union-of-smooth-manifolds, differential-geometry/smooth-fiber-product, nonassociative-algebra/nonassociative-algebra. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "diagonal action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/shifting-trick, fiber-bundles/construction-product-principal-bundle-when-defined, fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "grothendieck group",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-representation-theory/representation-ring, lie-groups/global-character-of-an-admissible-representation, noncommutative-geometry/even-index-pairing and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "nontrivial action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in langlands/ramification-of-g-local-system, langlands/tame-ramification, operator-algebras/conditional-expectation-reduced-crossed-product. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "operator topology",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/strong-operator-topology",
+        "operator-algebras/weak-operator-topology"
+      ],
+      "evidence": "Read the reported occurrences, including operator-algebras/commutant, operator-algebras/strict-topology, operator-algebras/strong-star-operator-topology; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "restricted product",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/restricted-tensor-product-test-functions"
+      ],
+      "evidence": "Read the reported occurrences, including harmonic-analysis/restricted-tensor-product-test-functions, harmonic-analysis/restricted-tensor-product-test-functions, langlands-letter/knowls/adeles-restricted-product; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "tangent lie algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in formal-groups/additive-and-multiplicative-formal-group-laws, formal-groups/lie-algebra-formal-group-equivalence, formal-groups/positive-characteristic-warning. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "bochner integral",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including harmonic-analysis/integrated-form-unitary-representation, harmonic-analysis/integrated-operator-continuous-representation, operator-algebras/entire-analytic-element-one-parameter-automorphism; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "complex algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/sheaf-of-holomorphic-functions, noncommutative-geometry/chern-character-fredholm-module, noncommutative-geometry/lipschitz-seminorm-spectral-triple. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "flat principal bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/holonomy-correspondence-for-flat-connections, fiber-bundles/holonomy-representation, fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "integral representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in harmonic-analysis/direct-integral-unitary-representations, langlands-letter/knowls/chevalley-lattice-integral-model, real-analysis/remainder-term-in-taylors-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "morphisms form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebraic-geometry-foundations/ordered-blueprinted-space, differential-geometry/holomorphic-vector-bundle-morphism, supergeometry/supermanifold. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "operator ideal",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/hilbert-schmidt-operator"
+      ],
+      "evidence": "Read the reported occurrences, including functional-analysis/hilbert-schmidt-operator, operator-algebras/marcinkiewicz-macaev-ideal, operator-algebras/weak-schatten-ideal; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "reduced norm",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/canonical-map-full-to-reduced-crossed-product, operator-algebras/reduced-group-cstar-algebra, operator-algebras/reduced-group-cstar-algebra. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "surjective map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebraic-geometry-foundations/v-stack, fiber-bundles/complex-vector-bundle, operator-algebras/maximal-cstar-tensor-product. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "underlying topological manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/smooth-structure, topology/closed-manifold, topology/topological-manifold. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "vertical space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/reproduction-property-x, fiber-bundles/splitting-of-the-atiyah-sequence, fiber-bundles/vertical-tangent-space. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "complex group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in langlands-letter/knowls/split-reductive-group, langlands/hecke-functor, lie-groups/compact-exceptional-lie-group-e6. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "null space",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in harmonic-analysis/gns-construction-positive-definite-function, linear-algebra/rank, operator-algebras/cauchy-schwarz-positive-functional and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "abstract group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/cayleys-theorem, algebra-groups/projective-special-linear-group, algebraic-geometry-foundations/algebraic-group. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "fourier transformation",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/fourier-transform-schwartz-space"
+      ],
+      "evidence": "Read the reported occurrences, including functional-analysis/fourier-transform-schwartz-space, harmonic-analysis/discrete-and-continuous-spectrum-unitary-representation, harmonic-analysis/fourier-convolution-theorem-lca; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "representation theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/closed-quadratic-form, functional-analysis/friedrichs-extension, functional-analysis/friedrichs-extension. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "circle bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/associated-bundle, fiber-bundles/characteristic-class, fiber-bundles/construction-product-principal-bundle-when-defined. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "metric connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/connection-laplacian, differential-geometry/obata-connection, differential-geometry/spinor-module. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "compact hausdorff space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/paracompact-topological-space, fiber-bundles/serre-swan-theorem, operator-algebras/character-space. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "invariant measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in analysis/unique-ergodicity, harmonic-analysis/quasi-invariant-measure, harmonic-analysis/quasi-invariant-measure. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "nonzero kernel",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-fields-galois/algebraic-element, differential-geometry/symplectic-submanifold, operator-algebras/amenability-full-reduced-equivalence. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "compatible connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/clifford-module, fiber-bundles/chernweil-form, fiber-bundles/intrinsic-torsion-of-a-g-structure. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "finite quotient",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-rings/substitution-of-formal-power-series, langlands-letter/knowls/frobenius-unramified, langlands-letter/knowls/l-group-satake-parameter. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "not form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-rings/nilpotent-element, differential-geometry/normal-bundle, differential-geometry/symplectic-orthogonal-complement. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "quotient measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in harmonic-analysis/locally-compact-homogeneous-space, harmonic-analysis/quasi-regular-representation, harmonic-analysis/weil-integration-formula. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "whole group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/internal-direct-product, algebra-groups/proper-subgroup, harmonic-analysis/integrated-operator-continuous-representation. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "base manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/elliptic-differential-operator, fiber-bundles/characteristic-class, fiber-bundles/coordinate-transition-map. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "classifying map",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/classifying-map-of-a-principal-bundle"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/tautological-bundle-grassmannian, fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg, fiber-bundles/classifying-map-of-a-principal-bundle; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "concrete model",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in harmonic-analysis/hausdorff-young-inequality-lca, operator-algebras/commutative-von-neumann-algebra, operator-algebras/strict-topology. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "covering group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/branching-rule-for-lie-representations, lie-groups/dynkin-diagram-automorphisms-and-dual-representations, lie-groups/exterior-power-representation. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "dominant integral",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/dynkin-diagram-automorphisms-and-dual-representations, lie-groups/highest-weight, lie-groups/highest-weight-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "finite-dimensional operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in harmonic-analysis/plancherel-theorem-unimodular-type-i-groups, operator-algebras/completely-bounded-map, operator-algebras/local-lifting-property. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "good standard model",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/e7-root-projection-trichotomy, lie-groups/good-standard-model-embedding-in-e7, lie-groups/intersection-of-three-a1-plus-d6-subalgebras. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "integral lattice",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/hamiltonian-torus-action, differential-geometry/pure-hodge-structure, langlands/c-algebraic-automorphic-representation. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "no norm",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-rings/formal-inverse-function-theorem, formal-groups/complete-filtered-lie-algebra-bch-group, operator-algebras/bounded-star-representation. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "prime field",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-rings/prime-subfield"
+      ],
+      "evidence": "The occurrences refer to the prime subfield of a field; existing algebra-rings/prime-subfield is the canonical definition, so no new target is needed."
+    },
+    {
+      "phrase": "reduced manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/marsden-weinstein-meyer-reduction-theorem, differential-geometry/symplectic-quotient, supergeometry/batchelor-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "single norm",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/frechet-space, functional-analysis/schwartz-space, functional-analysis/topological-vector-space. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "trivial kernel",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/adjoint-faithful-iff-discrete-center, operator-algebras/faithful-normal-state, operator-algebras/modular-operator. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "zero map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/abelian-lie-algebra, operator-algebras/faithful-star-homomorphism, operator-algebras/nondegenerate-star-homomorphism. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "adjoint lie algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/associated-vector-bundle, fiber-bundles/construction-adjoint-lie-algebra-bundle-ad, fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "automorphic sheaf category",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in langlands/level-structure-on-g-bundle, langlands/ramified-geometric-langlands, langlands/spectral-action. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "characteristic distribution",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/characteristic-distribution-coisotropic"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/characteristic-distribution-coisotropic, differential-geometry/characteristic-distribution-coisotropic, differential-geometry/linear-coisotropic-reduction; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "classifying space",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/classifying-space-bg"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/cobordism-category, fiber-bundles/classifying-space-bg, fiber-bundles/homotopy-class-mbg; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "concrete operator algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/partial-isometry, operator-algebras/cyclic-vector, operator-algebras/projection-cstar-algebra. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "curvature operator",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/riemann-curvature-tensor"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/riemann-curvature-tensor, fiber-bundles/curvature-2-form-in-a-frame, fiber-bundles/hom-bundle-connection; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "empirical measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in large-deviations/laplace-principle, large-deviations/large-deviation-principle, large-deviations/sanovs-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "finite-dimensional space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-category-theory/equivalence-of-categories, langlands/lafforgue-global-parameterization, linear-algebra/quaternionic-vector-space. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "fixed-point algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/centralizer-of-weight, operator-algebras/conditional-expectation, operator-algebras/normal-conditional-expectation. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "heisenberg lie algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including lie-groups/heisenberg-group, lie-groups/lower-central-series-lie-algebra, lie-groups/nilpotent-lie-algebra; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "jet bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/jet-bundle"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/jet-of-a-smooth-map, differential-geometry/thom-transversality-theorem, differential-geometry/thom-transversality-theorem; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "lie algebra bundle",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/associated-vector-bundle, fiber-bundles/construction-adjoint-lie-algebra-bundle-ad, fiber-bundles/construction-adjoint-lie-algebra-bundle-ad and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "lorentzian metric",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/lorentzian-manifold"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/connection-laplacian, differential-geometry/lorentzian-manifold, differential-geometry/lorentzian-spinor-bundle; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "nilpotent monodromy operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in langlands/fontaine-period-rings, langlands/semistable-galois-representation, langlands/weil-deligne-group. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "original action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/canonical-moment-map-cotangent-lift, lie-groups/distribution-vectors-of-a-representation, operator-algebras/dual-action-von-neumann-crossed-product. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "radon measure",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including harmonic-analysis/locally-compact-homogeneous-space, mathematical-physics/semiclassical-measure, operator-algebras/lower-semicontinuous-trace; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "reference measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/spatial-derivative, probability/differential-entropy, probability/maximum-entropy-principle. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "roots form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/generation-plane, lie-groups/maximal-rank-lie-subalgebra, lie-groups/root-system. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "split group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in langlands-letter/knowls/galois-descent-forms, langlands/l-group, langlands/stable-conjugacy. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "strong-star topology",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/strong-star-operator-topology"
+      ],
+      "evidence": "Read the reported occurrences, including operator-algebras/strong-operator-topology, operator-algebras/strong-star-operator-topology, operator-algebras/ultrastrong-star-topology; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "time-dependent vector field",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/isotopy-extension-theorem, differential-geometry/moser-stability-theorem, differential-geometry/symplectic-isotopy. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "two-sided operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/hilbert-schmidt-operator, functional-analysis/singular-values, operator-algebras/weak-schatten-ideal. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "uniqueness theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/positive-negative-parts, operator-algebras/predual, operator-algebras/standard-form. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "valued inner product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/cstar-correspondence, operator-algebras/cstar-correspondence, operator-algebras/imprimitivity-bimodule. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "zero ideal",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-rings/nil-ideal, algebra-rings/nilradical, operator-algebras/primitive-ideal. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "constant map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-category-theory/kernel-categorical, complex-analysis/rational-function, convex-analysis/set-valued-mapping-multifunction-domain-and-graph-convex-set-valued-mapping. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "gns representation",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/gns-construction-positive-definite-function"
+      ],
+      "evidence": "Read the reported occurrences, including harmonic-analysis/gns-construction-positive-definite-function, operator-algebras/factorial-representation, operator-algebras/faithful-state-cstar-algebra; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "dimensional representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-representation-theory/induced-representation, algebra-representation-theory/irreducible-representation, algebra-representation-theory/maschkes-theorem and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "translation action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/faithful-action, algebra-groups/free-action, algebra-groups/kernel-of-action. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "dot product",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/inner-product"
+      ],
+      "evidence": "The sampled occurrences use the standard dot product as an inner product or bilinear form; linear-algebra/inner-product already defines it and is the appropriate target."
+    },
+    {
+      "phrase": "real cohomology",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/calabi-yau-manifold, differential-geometry/calabi-yau-theorem, differential-geometry/degree-of-a-smooth-map and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "dirac distribution",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/convolution-of-distributions, functional-analysis/distribution, functional-analysis/fourier-transform-tempered-distributions and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "möbius bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg, fiber-bundles/classifying-space-bg, fiber-bundles/clutching-function. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "adjoint group",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/stabilizer-of-a-connection, langlands-letter/knowls/simply-connected-semisimple-group, lie-groups/compact-exceptional-lie-group-e6 and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "exterior product",
+      "disposition": "local_or_compositional",
+      "targets": [
+        "algebra-modules/exterior-algebra"
+      ],
+      "evidence": "The sampled occurrences use exterior product in exterior algebra or differential-form constructions; algebra-modules/exterior-algebra is the available broader construction, and a universal product target would conflate wedge, tensor, and cohomological exterior products."
+    },
+    {
+      "phrase": "irreducible admissible representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in harmonic-analysis/normalized-parabolic-induction-p-adic-group, langlands/restricted-tensor-product-automorphic-representation, lie-groups/harish-chandra-module and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "product metric",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/einstein-manifold, differential-geometry/lorentzian-manifold, fiber-bundles/bogomolny-monopole-equation and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "rotation action",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including differential-geometry/hamiltonian-lie-group-action, differential-geometry/symplectic-lie-group-action, fiber-bundles/coadjoint-action-of-a-lie-group; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "standard symplectic form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read the reported occurrences, including differential-geometry/symplectic-leaf, differential-geometry/symplectic-orthogonal-complement, differential-geometry/symplectic-quotient; the phrase is a related suggestions were inspected but no canonical target covers this generic phrase; Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "affine quotient",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/character-variety, fiber-bundles/representation-variety, langlands-letter/knowls/characters-separate-semisimple-classes. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "cartan form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/cartan-connection, fiber-bundles/curvature-2-form-of-a-principal-connection, fiber-bundles/lie-algebra-valued-k-form. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "connecting map",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-homological/connecting-homomorphism-lemma"
+      ],
+      "evidence": "Read the reported occurrences, including algebra-homological/connecting-homomorphism-lemma, algebra-homological/snake-lemma, differential-geometry/mayer-vietoris-sequence-for-de-rham-cohomology; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "finite-dimensional manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/serre-swan-theorem, fiber-bundles/yang-mills-moduli-space, lie-groups/identity-component-of-a-lie-group. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "hausdorff second-countable manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/module-of-smooth-sections, fiber-bundles/serre-swan-idempotent-construction, fiber-bundles/serre-swan-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "integral model",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebraic-geometry-foundations/unramified-reductive-group, harmonic-analysis/unramified-representation-p-adic-group, langlands-letter/knowls/chevalley-lattice-integral-model. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "nontrivial bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/chernsimons-gauge-transformation-behavior, fiber-bundles/clutching-function, fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "quotient norm",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in functional-analysis/open-mapping-theorem, operator-algebras/exterior-tensor-product-hilbert-modules, operator-algebras/fiber-c0-x-algebra. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "round metric",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/fubini-study-metric, fiber-bundles/existence-of-principal-connections-on-smooth-manifolds, fiber-bundles/levicivita-connection-connection. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "standard connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection, fiber-bundles/existence-of-principal-connections-on-smooth-manifolds, fiber-bundles/holonomy-group. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "triangular matrices form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-rings/nil-ideal, algebra-rings/two-sided-ideal, lie-groups/minimal-parabolic-subgroup. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "alternating group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-groups/alternating-group"
+      ],
+      "evidence": "A standalone target was absent. Created algebra-groups/alternating-group with the minimal kernel-of-sign definition and deferred properties.",
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "banach-space weak topology",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/weakly-continuous-unitary-representation, operator-algebras/ultraweak-topology, operator-algebras/weak-operator-topology. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "bundle model",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm, harmonic-analysis/unitary-induced-representation, operator-algebras/upper-semicontinuous-cstar-bundle. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "closed spin manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in noncommutative-geometry/analytic-k-homology, noncommutative-geometry/first-order-condition, noncommutative-geometry/odd-spectral-triple. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "complementary bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/module-of-smooth-sections, fiber-bundles/section-module-is-finitely-generated-projective, fiber-bundles/serre-swan-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "coordinate algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-topological/completed-tensor-product, algebraic-geometry-foundations/ordered-blue-scheme, noncommutative-geometry/smooth-subalgebra-cstar-algebra and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "determinant map",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/determinant"
+      ],
+      "evidence": "Read the reported occurrences, including algebra-groups/group-monomorphism, fiber-bundles/smooth-submersion, lie-groups/unitary-group; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "different bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric, fiber-bundles/sphere-bundle, fiber-bundles/splitting-theorem-for-vector-bundles. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "fixed algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/cartan-involution-real-lie-algebra, lie-groups/compact-real-form, operator-algebras/upper-semicontinuous-cstar-bundle. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "generated projective module",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/projective-module-bundle-reconstruction, fiber-bundles/serre-swan-idempotent-construction, fiber-bundles/serre-swan-theorem and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "implicit-function theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "real-analysis/implicit-function-theorem"
+      ],
+      "evidence": "Read the reported occurrences, including fiber-bundles/asd-deformation-complex, fiber-bundles/regular-asd-connection, fiber-bundles/slice-theorem-for-the-gauge-action; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "invariant quotient measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in harmonic-analysis/locally-compact-homogeneous-space, harmonic-analysis/quasi-regular-representation, harmonic-analysis/weil-integration-formula. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "isomorphism classes form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/holomorphic-line-bundle, differential-geometry/lorentzian-spin-structure, fiber-bundles/spin-structure. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "moment-map equation",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/equivariant-moment-map"
+      ],
+      "evidence": "Read the reported occurrences, including differential-geometry/equivariant-moment-map, differential-geometry/moment-map-component, fiber-bundles/atiyah-bott-symplectic-form; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "noncommutative ring",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "The phrase means a ring whose multiplication need not commute and is used as a qualifier in module and operator-algebra contexts. It is a property of the ambient ring, not a missing specialized dependency; link ring or specific noncommutative constructions when needed."
+    },
+    {
+      "phrase": "odd-dimensional manifold",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/almost-complex-structure, differential-geometry/almost-symplectic-manifold, fiber-bundles/chern-gauss-bonnet-theorem. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "ordinary field",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-hyperstructures/hyperfield, algebra-hyperstructures/hyperfield-of-a-field-quotient, algebra-hyperstructures/stringent-hyperfield and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "permutation group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-category-theory/automorphism-category, algebra-groups/faithful-action, algebra-groups/trivial-subgroup. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "rational cohomology",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Occurrences mean cohomology with rational coefficients in characteristic-class and topology contexts. The phrase is coefficient qualification rather than a single universal object here; link the relevant cohomology theory or characteristic-class knowl in context."
+    },
+    {
+      "phrase": "relative compact ideal",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/breuer-fredholm-operator, operator-algebras/faithful-normal-semifinite-trace, operator-algebras/tau-compact-operator. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "semifinite algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/semifinite-von-neumann-algebra"
+      ],
+      "evidence": "Read the reported occurrences, including noncommutative-geometry/semifinite-spectral-triple, operator-algebras/breuer-fredholm-operator, operator-algebras/semifinite-von-neumann-algebra; the phrase is a standard dependency already represented by the canonical target(s). Some uses are setting-specific, so link wording may need a convention alias rather than a new knowl."
+    },
+    {
+      "phrase": "sign map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in algebra-groups/class-function, algebra-groups/group-epimorphism, algebra-hyperstructures/sign-hyperfield and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "standard rotation action",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/symplectic-lie-group-action, fiber-bundles/moment-map, lie-groups/compact-symplectic-product-group and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "symmetrized product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in lie-groups/compact-exceptional-lie-group-f4, nonassociative-algebra/exceptional-jordan-algebra, nonassociative-algebra/jordan-algebra. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "torsion-free metric",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/obata-connection, fiber-bundles/connection-on-a-vector-bundle, fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "trivial flat connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/holonomy-group, fiber-bundles/holonomy-representation, fiber-bundles/proposition-flatness-implies-holonomy-depends-only-on-homotopy-class-of-loops. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "unitary action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in differential-geometry/complex-projective-space, lie-groups/essentially-skew-adjoint-derived-operators, shale-paper/symmetric-fock-space. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    },
+    {
+      "phrase": "vector-bundle embedding theorem",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Read representative occurrences in fiber-bundles/section-module-is-finitely-generated-projective, fiber-bundles/serre-swan-theorem, fiber-bundles/vector-bundles-and-locally-free-sheaves and checked related target suggestions. In context this is ordinary mathematical composition, a qualifier, or notation defined by the host knowl; no independently reusable dependency is missing."
+    },
+    {
+      "phrase": "zero representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Read representative occurrences in operator-algebras/gns-construction, operator-algebras/nondegenerate-cstar-representation, operator-algebras/normal-representation. The scanner is grouping compositional qualifiers, ordinary nouns, or sentence fragments; meanings are supplied by the surrounding definition and do not warrant an independent knowl."
+    }
+  ]
+}

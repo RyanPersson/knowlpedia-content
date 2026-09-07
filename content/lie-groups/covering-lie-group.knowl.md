@@ -15,7 +15,7 @@ A **covering Lie group map** is a smooth homomorphism of [[fiber-bundles/lie-gro
 \[
 p:\widetilde G \longrightarrow G
 \]
-such that, as a map of topological spaces, \(p\) is a covering map.
+such that, as a map of [[topology/topological-space|topological spaces]], \(p\) is a covering map.
 
 ## Properties
 Assume \(\widetilde G\) is connected.
@@ -33,6 +33,6 @@ Assume \(\widetilde G\) is connected.
 Thus a covering homomorphism is a very rigid kind of quotient: it is (up to isomorphism) a quotient by a discrete central subgroup.
 
 ## Universal covers
-For every connected Lie group \(G\), there exists a simply connected Lie group \(\widetilde G\) and a covering homomorphism \(\widetilde G\to G\); this is the [[lie-groups/universal-covering-group-existence|existence of the universal covering group]]. The resulting [[lie-groups/universal-covering-group|universal covering group]] is unique up to unique isomorphism over \(G\), and it is characterized by being [[lie-groups/simply-connected-lie-group|simply connected]] with \(\mathrm{Lie}(\widetilde G)\cong \mathrm{Lie}(G)\).
+For every [[lie-groups/connected-lie-group|connected Lie group]] \(G\), there exists a simply connected Lie group \(\widetilde G\) and a covering homomorphism \(\widetilde G\to G\); this is the [[lie-groups/universal-covering-group-existence|existence of the universal covering group]]. The resulting [[lie-groups/universal-covering-group|universal covering group]] is unique up to unique isomorphism over \(G\), and it is characterized by being [[lie-groups/simply-connected-lie-group|simply connected]] with \(\mathrm{Lie}(\widetilde G)\cong \mathrm{Lie}(G)\).
 
-**Context.** Many global topological features ([[topology/fundamental-group|fundamental group]], discrete central quotients) are invisible to the Lie algebra. Covering maps are the standard way to pass between Lie-algebraic data and different global forms of the “same” local Lie group.
+**Context.** Many global topological features ([[topology/fundamental-group|fundamental group]], discrete [[lie-groups/central-quotient-of-a-lie-group|central quotients]]) are invisible to the Lie algebra. Covering maps are the standard way to pass between Lie-algebraic data and different global forms of the “same” local Lie group.

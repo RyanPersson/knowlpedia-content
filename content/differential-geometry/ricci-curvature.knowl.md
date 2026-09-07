@@ -37,7 +37,7 @@ For a unit tangent vector \(X\), extend \(X\) to an [[linear-algebra/orthonormal
 \[
 \operatorname{Ric}(X,X)=\sum_{i=2}^n K(X,e_i),
 \]
-so Ricci curvature averages the sectional curvatures of planes containing
+so Ricci curvature averages the [[differential-geometry/sectional-curvature|sectional curvatures]] of planes containing
 \(X\). It retains less directional information than the full Riemann tensor
 but controls volume distortion, geodesic focusing, and the Bochner formula.
 
@@ -60,7 +60,7 @@ On an \(n\)-manifold of constant sectional curvature \(k\),
 \]
 Thus the unit round sphere has positive Ricci curvature and [[linear-algebra/euclidean-space|Euclidean space]] has
 zero Ricci curvature. In dimension two,
-\(\operatorname{Ric}=K g\), so Ricci curvature and Gaussian curvature contain
+\(\operatorname{Ric}=K g\), so Ricci curvature and [[differential-geometry/gaussian-curvature|Gaussian curvature]] contain
 the same information.
 
 **Warning.** Reversing the sign convention for \(R\) reverses

@@ -54,7 +54,7 @@ If \(\mathfrak k\) has a nontrivial center, then \(\mathfrak t\) can be strictly
 
 ## General root-system caution
 
-The bracket condition in the definition of \(\Omega\) is the general criterion. In a crystallographic root system, once \(\beta\) vanishes on \(\mathfrak t\) and \(\mathfrak t\) contains the coroots of \(\Psi\), orthogonality to every \(\alpha\in\Psi\) forces \(\beta\pm\alpha\notin\Phi\) by the root-string property, so the simply-laced simplification extends to this setting. Orthogonality to \(\Psi\) alone remains insufficient when \(\mathfrak t\) has extra central directions.
+The bracket condition in the definition of \(\Omega\) is the general criterion. In a crystallographic [[lie-groups/root-system|root system]], once \(\beta\) vanishes on \(\mathfrak t\) and \(\mathfrak t\) contains the coroots of \(\Psi\), orthogonality to every \(\alpha\in\Psi\) forces \(\beta\pm\alpha\notin\Phi\) by the root-string property, so the simply-laced simplification extends to this setting. Orthogonality to \(\Psi\) alone remains insufficient when \(\mathfrak t\) has extra central directions.
 
 ## References
 

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Fix an open cover \(\mathcal U=\{U_i\}\) and a Lie group \(G\). The **Čech
+Fix an [[topology/open-cover|open cover]] \(\mathcal U=\{U_i\}\) and a Lie group \(G\). The **Čech
 cocycle groupoid** has [[fiber-bundles/smooth-g-valued-cech-1-cocycle|smooth
 \(G\)-valued Čech \(1\)-cocycles]] \(g=\{g_{ij}\}\) as objects. A morphism
 \(g\to g'\) is a family of smooth maps \(h_i:U_i\to G\) such that

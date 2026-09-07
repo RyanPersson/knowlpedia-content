@@ -11,8 +11,8 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A family \(\{A_i\}_{i\in I}\) of subsets of a topological space \(X\) is
-**locally finite** if every point \(x\in X\) has a neighborhood that meets
+A [[shared-foundations/indexed-family-of-sets|family]] \(\{A_i\}_{i\in I}\) of subsets of a [[topology/topological-space|topological space]] \(X\) is
+**locally finite** if every point \(x\in X\) has a [[topology/neighborhood|neighborhood]] that meets
 only finitely many of the sets \(A_i\).
 
 ## Consequences
@@ -23,9 +23,10 @@ the union of the closures satisfies
 \[
 \overline{\bigcup_i A_i}=\bigcup_i\overline{A_i}.
 \]
+where the bars denote [[topology/closure|closures]].
 
 Local finiteness lets constructions indexed by \(I\) reduce to finite ones
-near each point. In particular, a partition of unity is locally a finite sum
+near each point. In particular, a [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|partition of unity]] is locally a finite sum
 because the family of supports of its functions is locally finite.
 
 ## Distinction from point finiteness

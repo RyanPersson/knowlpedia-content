@@ -36,7 +36,7 @@ their local indices sum to the Euler characteristic.
 
 ## Surface case
 
-For an oriented closed Riemannian surface, the curvature matrix has Pfaffian \(K\,dA\), where \(K\) is Gaussian curvature. The theorem becomes the classical formula
+For an oriented closed Riemannian surface, the curvature matrix has Pfaffian \(K\,dA\), where \(K\) is [[differential-geometry/gaussian-curvature|Gaussian curvature]]. The theorem becomes the classical formula
 \[
 \frac{1}{2\pi}\int_M K\,dA=\chi(M).
 \]

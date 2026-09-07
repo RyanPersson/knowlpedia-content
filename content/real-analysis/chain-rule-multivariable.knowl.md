@@ -20,4 +20,4 @@ In matrix form (with [[real-analysis/jacobian-matrix|Jacobians]]),
 J_{g\circ f}(a)=J_g(f(a))\,J_f(a).
 \]
 
-The chain rule is the main computational law of multivariable differentiation and underlies coordinate changes, implicit differentiation, and optimization.
+The [[real-analysis/chain-rule|chain rule]] is the main computational law of multivariable differentiation and underlies coordinate changes, implicit differentiation, and optimization.

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(X\) be a real vector space and let \(f:X\to(-\infty,+\infty]\) be a [[convex-analysis/convex-function-via-epigraph|convex function]]. Then its effective [[convex-analysis/domain-and-epigraph-proper-function|domain]]
+Let \(X\) be a real [[linear-algebra/vector-space|vector space]] and let \(f:X\to(-\infty,+\infty]\) be a [[convex-analysis/convex-function-via-epigraph|convex function]]. Then its effective [[convex-analysis/domain-and-epigraph-proper-function|domain]]
 \[
 \operatorname{dom}(f)=\{x\in X:f(x)<+\infty\}
 \]

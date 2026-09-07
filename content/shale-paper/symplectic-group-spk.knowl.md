@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-For a [[shale-paper/symplectic-hilbert-space|symplectic Hilbert space]] \((K,B)\), let \(\operatorname{GL}_{\mathbb R}(K)\) denote the group of bounded invertible real-linear operators on \(K\). The **symplectic group** is
+For a [[shale-paper/symplectic-hilbert-space|symplectic Hilbert space]] \((K,B)\), let \(\operatorname{GL}_{\mathbb R}(K)\) denote the group of bounded invertible real-[[linear-algebra/linear-operator|linear operators]] on \(K\). The **[[lie-groups/symplectic-group|symplectic group]]** is
 \[
 \operatorname{Sp}(K)
 =\{T\in\operatorname{GL}_{\mathbb R}(K):B(Tx,Ty)=B(x,y)

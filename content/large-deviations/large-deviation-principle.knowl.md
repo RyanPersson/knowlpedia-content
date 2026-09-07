@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **large deviation principle (LDP)** for a sequence of probability measures \((\mu_n)_{n\ge 1}\) on a topological space \(E\) (with its Borel \(\sigma\)-algebra) consists of a **speed** \((a_n)_{n\ge 1}\) with \(a_n\to\infty\) and a [[large-deviations/rate-function|rate function]] \(I:E\to[0,\infty]\) such that:
+A **large deviation principle (LDP)** for a sequence of [[probability/probability-measure|probability measures]] \((\mu_n)_{n\ge 1}\) on a [[topology/topological-space|topological space]] \(E\) (with its Borel \(\sigma\)-algebra) consists of a **speed** \((a_n)_{n\ge 1}\) with \(a_n\to\infty\) and a [[large-deviations/rate-function|rate function]] \(I:E\to[0,\infty]\) such that:
 - for every closed set \(F\subseteq E\),
   \[
   \limsup_{n\to\infty}\frac{1}{a_n}\log \mu_n(F)\le -\inf_{x\in F} I(x),

@@ -15,7 +15,7 @@ Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. The **diffeomo
 
 ## Actions and important subgroups
 
-The group acts on points, tensor fields, [[fiber-bundles/differential-k-form|differential forms]], and geometric structures by pushforward or pullback. Common subgroups preserve an [[differential-geometry/orientation-of-a-smooth-manifold|orientation]], a volume form, a Riemannian metric, or a symplectic form. The quotient by the identity component gives a mapping class group when the chosen topology makes that component meaningful.
+The group acts on points, tensor fields, [[fiber-bundles/differential-k-form|differential forms]], and geometric structures by pushforward or pullback. Common subgroups preserve an [[differential-geometry/orientation-of-a-smooth-manifold|orientation]], a [[differential-geometry/volume-form|volume form]], a Riemannian metric, or a symplectic form. The quotient by the identity component gives a mapping class group when the chosen topology makes that component meaningful.
 
 ## Topological and smooth structures
 

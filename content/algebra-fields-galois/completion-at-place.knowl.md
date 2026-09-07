@@ -23,9 +23,9 @@ having dense image. It is unique up to a unique isometric isomorphism fixing
 
 ## Construction
 
-The field \(F_v\) is obtained by taking equivalence classes of Cauchy
-sequences for the metric \(d_v(x,y)=|x-y|_v\). Addition, multiplication, and
-the absolute value extend continuously from \(F\).
+The field \(F_v\) is obtained by taking equivalence classes of [[topology/cauchy-sequence|Cauchy
+sequences]] for the metric \(d_v(x,y)=|x-y|_v\). Addition, multiplication, and
+the [[real-analysis/absolute-value|absolute value]] extend continuously from \(F\).
 
 ## Global-field cases
 

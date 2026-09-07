@@ -17,7 +17,7 @@ Let \(D\subseteq\mathbb C\) be a [[topology/simply-connected-space|simply connec
 
 More generally, [[complex-analysis/analytic-continuation|analytic continuations]] along two paths with the same endpoints give the same terminal germ when the paths are homotopic relative to their endpoints and continuation exists throughout the homotopy. Simple connectivity makes every two such paths homotopic, which yields the core statement.
 
-The homotopy assertion follows by subdividing the homotopy square into small rectangles on which continuation is represented by one convergent power series. Uniqueness of a power-series germ makes the terminal germ unchanged across adjacent rectangles. Thus it depends only on the homotopy class; simple connectivity makes all paths with fixed endpoints equivalent, so the local germs glue to \(F\).
+The homotopy assertion follows by subdividing the homotopy square into small rectangles on which continuation is represented by one convergent [[real-analysis/power-series|power series]]. Uniqueness of a power-series germ makes the terminal germ unchanged across adjacent rectangles. Thus it depends only on the homotopy class; simple connectivity makes all paths with fixed endpoints equivalent, so the local germs glue to \(F\).
 
 ## Why the hypotheses matter
 

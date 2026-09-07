@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(f\) and \(g\) be locally univalent holomorphic maps for which the composite \(f\circ g\) is defined. Their [[complex-analysis/schwarzian-derivative|Schwarzian derivatives]] satisfy
+Let \(f\) and \(g\) be locally univalent [[differential-geometry/holomorphic-map|holomorphic maps]] for which the composite \(f\circ g\) is defined. Their [[complex-analysis/schwarzian-derivative|Schwarzian derivatives]] satisfy
 \[
 S(f\circ g)
 =\bigl(S(f)\circ g\bigr)(g')^2+S(g).

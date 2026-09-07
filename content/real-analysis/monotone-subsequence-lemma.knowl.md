@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Monotone subsequence lemma:** Every real sequence \((a_n)\) has a [[real-analysis/subsequence|subsequence]] that is [[real-analysis/monotone-sequence|monotone]] (either nondecreasing or nonincreasing).
+**Monotone subsequence lemma:** Every [[shared-foundations/sequence|real sequence]] \((a_n)\) has a [[real-analysis/subsequence|subsequence]] that is [[real-analysis/monotone-sequence|monotone]] (either nondecreasing or nonincreasing).
 
 ## Remarks
 

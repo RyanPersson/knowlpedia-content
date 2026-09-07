@@ -27,7 +27,7 @@ For a Hermitian manifold, the Kähler condition is equivalent to \(\nabla J=0\),
 
 ## Structure and consequences
 
-The closed, nondegenerate form \(\omega\) makes \(M\) a [[differential-geometry/symplectic-manifold|symplectic manifold]]. In complex dimension \(n\), the form \(\omega^n/n!\) is the Riemannian volume form for the compatible orientation. Kähler geometry therefore ties together complex, Riemannian, and symplectic structures without making those structures identical.
+The closed, nondegenerate form \(\omega\) makes \(M\) a [[differential-geometry/symplectic-manifold|symplectic manifold]]. In complex dimension \(n\), the form \(\omega^n/n!\) is the Riemannian [[differential-geometry/volume-form|volume form]] for the compatible orientation. Kähler geometry therefore ties together complex, Riemannian, and symplectic structures without making those structures identical.
 
 ## Morphisms
 

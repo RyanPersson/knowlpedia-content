@@ -54,7 +54,7 @@ The second exterior power has weights
 \quad
 \varepsilon_2+\varepsilon_3=-\varepsilon_1.
 \]
-The determinant volume form identifies
+The determinant [[differential-geometry/volume-form|volume form]] identifies
 \[
 \Lambda^2V\cong V^*,
 \]

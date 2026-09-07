@@ -18,7 +18,7 @@ For every invariant polynomial \(p\), the corresponding [[fiber-bundles/corollar
 \mathrm{cw}_p(P)=\mathrm{cw}_p(P') \in H^{*}_{\mathrm{dR}}(M).
 \]
 
-Equivalently: choosing any connection \(\omega\) on \(P\), the pullback connection \((\Phi^{-1})^*\omega\) on \(P'\) has the property that the Chern–Weil forms produced from \(\omega\) and \((\Phi^{-1})^*\omega\) represent the same de Rham class, so the classes coincide.
+Equivalently: choosing any connection \(\omega\) on \(P\), the pullback connection \((\Phi^{-1})^*\omega\) on \(P'\) has the property that the [[fiber-bundles/chernweil-form|Chern–Weil forms]] produced from \(\omega\) and \((\Phi^{-1})^*\omega\) represent the same de Rham class, so the classes coincide.
 
 ## Examples
 1. **Same bundle via different constructions.** If a principal bundle is presented using two different atlases or two different cocycles related by a coboundary, the resulting bundles are isomorphic; their Chern–Weil classes coincide.

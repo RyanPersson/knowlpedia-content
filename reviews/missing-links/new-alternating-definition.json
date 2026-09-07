@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-groups/alternating-group",
+      "outcome": "corrected",
+      "source_sha256": "157f8142de34d54439dfe8c1628c7dd93dbc2c0e63c345d74652612bb8aed62e",
+      "evidence": "Created and checked a minimal definition of A_n as the kernel of the sign homomorphism on S_n, linking the permutation-sign, subgroup, kernel, and normal-subgroup knowls. Optional index and simplicity properties are deferred to an expandable section."
+    }
+  ],
+  "gaps": []
+}

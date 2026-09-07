@@ -13,7 +13,7 @@ dependency_review_count = 2
 
 The **tensor product of modules** of a right \(R\)-module \(M\) and a left \(R\)-module \(N\) (for a [[algebra-rings/ring|ring]] \(R\)) is an abelian group \(M\otimes_R N\) equipped with a canonical [[algebra-modules/bilinear-map|balanced bilinear map]] \(M\times N\to M\otimes_R N\), \((m,n)\mapsto m\otimes n\), satisfying the [[algebra-modules/tensor-product-universal-property|universal property]]: every balanced bilinear map out of \(M\times N\) factors uniquely through a homomorphism out of \(M\otimes_R N\).
 
-This construction is functorial in both variables and is central for “extension of scalars” and for measuring non-exactness via derived functors. Over commutative rings it specializes to the tensor product of left [[algebra-modules/module|modules]].
+This construction is functorial in both variables and is central for [[algebra-commutative/extension-of-scalars|extension of scalars]] and for measuring non-exactness via [[algebra-homological/derived-functor|derived functors]]. Over commutative rings it specializes to the tensor product of left [[algebra-modules/module|modules]].
 
 ## Examples
 

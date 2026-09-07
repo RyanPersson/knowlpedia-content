@@ -18,7 +18,7 @@ A point \(a\in U\) is a **critical point** of \(f\) if \(\operatorname{rank} Df(
 
 ## Remarks
 
-Regular points are where \(f\) behaves locally like a projection (after smooth changes of coordinates). Critical points are where local geometry can "pinch" or change dimension; they govern where the implicit function theorem can fail.
+[[real-analysis/regular-point|Regular points]] are where \(f\) behaves locally like a projection (after smooth changes of coordinates). [[real-analysis/critical-point|Critical points]] are where local geometry can "pinch" or change dimension; they govern where the [[real-analysis/implicit-function-theorem|implicit function theorem]] can fail.
 
 ## Examples
 

@@ -17,7 +17,7 @@ For all \(a,b\ge 0\) and all \(\theta\in(0,1)\),
 a^\theta b^{1-\theta}\le \theta a+(1-\theta)b.
 \]
 
-**Proof sketch.** Assume \(a,b>0\). Convexity of \(-\ln\) implies
+**Proof sketch.** Assume \(a,b>0\). [[convex-analysis/convex-function-via-epigraph|Convexity]] of \(-\ln\) implies
 \[
 -\ln(\theta a+(1-\theta)b)\le -\theta\ln(a)-(1-\theta)\ln(b).
 \]

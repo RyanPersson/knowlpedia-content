@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-A **family of random variables** \((X_i)_{i\in I}\) on a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\) is **independent** if for every finite choice of distinct indices \(i_1,\dots,i_k\in I\) and every choice of Borel sets \(A_1,\dots,A_k\subseteq\mathbb R\),
+A **family of [[probability/random-variable|random variables]]** \((X_i)_{i\in I}\) on a [[probability/probability-space|probability space]] \((\Omega,\mathcal F,\mathbb P)\) is **independent** if for every finite choice of distinct indices \(i_1,\dots,i_k\in I\) and every choice of Borel sets \(A_1,\dots,A_k\subseteq\mathbb R\),
 \[
 \mathbb P\big(X_{i_1}\in A_1,\dots,X_{i_k}\in A_k\big)=\prod_{j=1}^k \mathbb P\big(X_{i_j}\in A_j\big).
 \]
@@ -27,4 +27,4 @@ This says that all events of the form \(\{X_i\in A\}\) behave like [[probability
 ## Examples
 
 - Let \(\Omega=\{0,1\}^2\) with \(\mathbb P\) uniform, and define \(X(\omega_1,\omega_2)=\omega_1\), \(Y(\omega_1,\omega_2)=\omega_2\). Then \(X\) and \(Y\) are independent [[probability/random-variable|random variables]].
-- Let \(\Omega=[0,1]^2\) with the product [[measure-theory/lebesgue-measure|Lebesgue measure]] (normalized to a probability measure), and set \(X(u,v)=u\), \(Y(u,v)=v\). Then \(X\) and \(Y\) are independent and each has the uniform distribution on \([0,1]\).
+- Let \(\Omega=[0,1]^2\) with the product [[measure-theory/lebesgue-measure|Lebesgue measure]] (normalized to a [[probability/probability-measure|probability measure]]), and set \(X(u,v)=u\), \(Y(u,v)=v\). Then \(X\) and \(Y\) are independent and each has the [[probability/uniform-distribution|uniform distribution]] on \([0,1]\).

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]] with [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]] \(K\). The **Casselman–Wallach globalization theorem** states that the functor
+Let \(G\) be a [[lie-groups/real-reductive-lie-group|real reductive group]] with [[lie-groups/maximal-compact-subgroup-real-reductive-group|maximal compact subgroup]] \(K\). The **Casselman–Wallach globalization theorem** states that the [[algebra-category-theory/functor|functor]]
 \[
 E\longmapsto E_K
 \]

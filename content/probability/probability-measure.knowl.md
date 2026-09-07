@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 A **probability measure** is a function \(\mathbb{P}:\mathcal{F}\to[0,1]\) defined on a [[measure-theory/sigma-algebra|sigma-algebra]] \(\mathcal{F}\) of subsets of a [[shared-foundations/set|set]] \(\Omega\) such that \(\mathbb{P}(\varnothing)=0\), \(\mathbb{P}\!\left(\bigcup_{n=1}^\infty A_n\right)=\sum_{n=1}^\infty \mathbb{P}(A_n)\) for every pairwise disjoint sequence \((A_n)_{n\ge1}\subseteq\mathcal{F}\), and \(\mathbb{P}(\Omega)=1\).
 
-A probability measure is a special case of a [[measure-theory/measure|measure]] and is the key ingredient in a [[probability/probability-space|probability space]]; it assigns [[probability/event-probability|probabilities to events]] (measurable sets).
+A probability measure is a special case of a [[measure-theory/measure|measure]] and is the key ingredient in a [[probability/probability-space|probability space]]; it assigns [[probability/event-probability|probabilities to events]] ([[measure-theory/measurable-set|measurable sets]]).
 
 ## Examples
 

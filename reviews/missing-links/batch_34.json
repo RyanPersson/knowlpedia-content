@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "topology/compact-iff-complete-totally-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c33882684aa3d4242eab0577da3805ad703447135308335f0da89d32d27f04ce",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, topology/complete-metric-space, topology/totally-bounded-set, topology/subspace-topology, topology/compactness-implies-completeness, topology/compactness-implies-total-boundedness, topology/open-cover. Scanner suggestions (subset) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compact-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5af3b3523fc164edbce36b93d4b1ccf363b4bb0a88b4a0468a7cf78362505485",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/open-cover, topology/finite-intersection-property, topology/closed-set, topology/continuous-map, topology/continuous-image-of-compact-set-is-compact. Scanner suggestions (subset, open sets, topological space, topology, interval) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compact-subset-of-hausdorff-is-closed",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efe5138942977c0bb8755364dfda4a773af3062ec38494fd69d8c3df96dc6c49",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/hausdorff-space, topology/compact-set, topology/closed-set, topology/compact-to-hausdorff-homeomorphism-criterion, topology/uniqueness-of-limits-hausdorff. Scanner suggestions (Hausdorff spaces) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compact-to-hausdorff-homeomorphism-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5233be17ba6a41dba6b89d5b1995d29d152fcb01b5d6a725b9299bf20cb4cf33",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/hausdorff-space, topology/homeomorphism, topology/compact-subset-of-hausdorff-is-closed. Scanner suggestions (subset, image) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compactness-implies-boundedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "841b4b2b48e8c923190e9277c2db656c58ff3f285ab48ba0d17a649831ff3b4f",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, topology/bounded-set, topology/diameter, topology/compactness-implies-total-boundedness. Scanner suggestions (compact sets, sets, metric, complements) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compactness-implies-closedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53887859b29c9a3f6fad7519a8ff6659e547f417537818134159f67204a33f9c",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/hausdorff-space, topology/compact-set, topology/closed-set, topology/metric-space. Scanner suggestions (subsets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compactness-implies-completeness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f88337d4aeb2b147b6dd215007805de005e06da1c6d9252a04243d2a1bf1eee5",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, topology/complete-metric-space, topology/cauchy-sequence, topology/compactness-implies-total-boundedness, topology/compact-iff-complete-totally-bounded. Scanner suggestions (metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compactness-implies-total-boundedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8dff565025bab295661035e88fe5a64f39202260525683fb799d312ae0902e5e",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, topology/totally-bounded-set, topology/open-ball, topology/compact-iff-complete-totally-bounded, topology/compactness-implies-completeness, topology/epsilon-net. Scanner suggestions (set, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/compactness-of-graphs-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f2d2bcb5cefdea6b1c34aff7d8f23da69b9720afd0113179a0a01b04232905d",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/continuous-map, topology/product-topology, topology/compact-set, topology/hausdorff-space, topology/closed-set, topology/compact-subset-of-hausdorff-is-closed, topology/homeomorphism. Scanner suggestions (topological spaces, subset, subsets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/complete-metric-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e23fa1fd378418e368bc867208d6240f1daba1c184bb1d77d3d0f33bb4c9c4a9",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/cauchy-sequence, topology/convergent-sequence, topology/compact-set, topology/compact-iff-complete-totally-bounded, topology/baire-category-theorem, topology/complete-metric-space-is-baire. Scanner suggestions (metric space, sequence, limit, metric, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/complete-metric-space-is-baire",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85ed110a5887b08474dc94bd1686e4e1370ef6cc4187eb8ec472b3f808401d18",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/complete-metric-space, topology/baire-space, topology/dense-set, topology/open-set, topology/baire-category-theorem, topology/meager-set, topology/nowhere-dense-set. Scanner suggestions (intersection, Baire spaces) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/connected-component",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf6882a62a6dd80d87f4e3076431d13980a570a7998ce7e944fb6659ef92ad21",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/connected-set, topology/path-connected-set, topology/path. Scanner suggestions (subset, decomposition, topology, topological space) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/connected-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bbcbe2541e986ab62484b6354ea2fd1a44ff611adf27aceddd8f7bf27d705db8",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/open-set, topology/subspace-topology, topology/closed-set, topology/continuous-map, topology/continuous-image-of-connected-set-is-connected, topology/connected-component, real-analysis/interval. Scanner suggestions (subset, sets, subsets, subspace topology, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/connected-subsets-of-r-are-intervals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5beeadd4833fcc8b11c4dd9c8537bce0fceb37daf7a67593d13b51cc8434e5f",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/connected-set, real-analysis/interval, topology/continuous-image-of-connected-set-is-connected. Scanner suggestions (subsets, topology, images, functions, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/connectedness-criteria-r",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "760fcf52838b188e0d12887d40db42a01ec6c324f7d22ff1ee1267e8d4b6e937",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/connected-set, real-analysis/interval, topology/continuous-image-of-connected-set-is-connected. Scanner suggestions (subspace topology, empty set, sets, images) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuity-via-open-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be75bf84120815fd4e86c7f12ae1e88271408b545851f60d6d9a7a505d014951",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, real-analysis/continuity-on-a-set, topology/open-set, real-analysis/preimage-inverse-image, shared-foundations/composition-of-functions. Scanner suggestions (topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-attains-max-min-compact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e02baa64b88b079b479b7ade0a8c8c5d52a2c3326f1ee32a3aeb37706702eb81",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks. Existing links cover the source-specific concepts: topology/compact-set, topology/continuous-map, real-analysis/minimum, real-analysis/maximum, topology/continuous-image-of-compact-set-is-compact. Scanner suggestions (subset, subsets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-bijection-from-compact-homeomorphism-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72900c2e4791aee6c5bcf1264031fabdc4eae5b3d64aba4107f038b693c3d70d",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: shared-foundations/bijective-function, topology/homeomorphism, topology/metric-space. Scanner suggestions (Compact-to-Hausdorff homeomorphism criterion, topological space, Hausdorff space) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-group-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a781e2f8d730474500e86e3357bd64a89d5d2fc92ea0051db09db63d937af133",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-group, topology/topological-space, algebra-groups/group-action, topology/continuous-map, topology/product-topology, topology/homeomorphism, algebra-groups/faithful-action. No additional phrase candidate was supplied by the scanner, and no unlinked reusable concept warranted introducing a new edge. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-image-of-compact-set-is-compact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "217482f0e4e1c07569b61778c113ce9a02a86818b852b18be30c940ffaeb0675",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/continuous-map, topology/topological-space, topology/compact-set, shared-foundations/image, topology/continuous-attains-max-min-compact. Scanner suggestions (topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-image-of-connected-set-is-connected",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0f2f7ff5f215693dc79475abbb62512d8d35e81f5a3dba54cdb25796f4115cd",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/continuous-map, topology/connected-set, topology/connected-subsets-of-r-are-intervals. Scanner suggestions (topological spaces, images, domains, intervals) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb8f36e596b7b924968f500c1c6cdd404d7d355f8747620341f95d5cf612b188",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, shared-foundations/function, topology/open-set, shared-foundations/preimage, topology/closed-set, topology/basis-of-topology, topology/subbasis-of-topology, topology/subspace-topology. Scanner suggestions (preimage, topology, topological space) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-on-compact-bounded-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ea8c018198b33a6a427c448fd8bfbb746fc53a196ed6f7b91076fbe6d894bf3",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/compact-set, topology/metric-space, topology/continuous-map, topology/continuous-attains-max-min-compact. Scanner suggestions (maximum, minimum) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/continuous-on-compact-is-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "30fb46fdbd678718b614b3d35ba4d91616a19f3fe526b220199c91c3f3df901e",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, real-analysis/continuity-on-a-set, topology/bounded-set. Scanner suggestions (function) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/convergence-in-product-metric-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bf7806ff771cd152aff5b385014b85abc3921d769ec4b9e208ea5865f86154a1",
+      "evidence": "Read the complete source body including sections Remarks. Existing links cover the source-specific concepts: topology/metric-space, shared-foundations/cartesian-product, topology/cauchy-sequence, topology/convergent-sequence. Scanner suggestions (metric, sequence) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/convergent-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00a717fd60c49c54934b3220bf12b34abbed8ffa556f3cc61b4e2f165f22434c",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/neighborhood, topology/metric-space, topology/hausdorff-space. Scanner suggestions (sequence, limits, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/convergent-sequence-is-cauchy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ad367a2d45d54a2236edddff4e5330c61c2d6a4d78b85b6d52d0aa63e2e2af0",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, topology/convergent-sequence, topology/cauchy-sequence, topology/complete-metric-space. Scanner suggestions (limits, sequence) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/cover",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c08273b0cbc3f47f1e995be74e1a54922718910b05bda543e548f1efa43cd01",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: shared-foundations/indexed-family-of-sets, shared-foundations/union, topology/open-cover. Scanner suggestions (subset, subsets, topology, sets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/cup-product-and-cohomology-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57c9687d7d3cbbf5523d891ef5c95c71e60119af8e8d428cbd93a02439663577",
+      "evidence": "Read the complete source body including sections Cochain construction, Algebraic properties, Examples and scope, References. Existing links cover the source-specific concepts: topology/topological-space, algebra-rings/commutative-ring, topology/singular-cohomology-group, algebra-modules/graded-module, algebra-modules/graded-ring. Scanner suggestions (pullback, ring, groups) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4cb291a7fdf3f857b07f170a3a52b1a81276acb0ebb273b695fcacef61cb319",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/continuous-map, real-analysis/interval, topology/path. Scanner suggestions (topology, domain, path) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/dense-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7fa104bb5bf14401e84fb22f985082ac7ea99aa78a22f4c220dc59db71c66266",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/closure, topology/open-set. Scanner suggestions (subset, region, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/derived-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24b6ad8425bd94c657d971f1bc32e0b350c41427268df6d62f14ccdc50d18d60",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/limit-point, topology/closure. Scanner suggestions (subset, set) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/diameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b07e2ce5ef18d52cedba8d8fcbeff7e1f5e27fcc5c01624daa8974290c0c4a3",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: real-analysis/supremum, topology/metric, topology/bounded-set. Scanner suggestions (subset, metric space, measures, set, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/epsilon-net",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06dae320257702022342775c71a16913c892f486789b19843c1753b101e61449",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/metric-space, topology/open-ball, topology/totally-bounded-set. Scanner suggestions (subset, objects, set, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/equivalent-metrics",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c347f9d6629132cfe642e24bfeca4ce7b74fa0642f657f7d2900a1f91b9c069a",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/metric-induced-topology, topology/homeomorphism, topology/cauchy-sequence, topology/complete-metric-space. Scanner suggestions (metrics, set, open sets, convergent sequences, sequences) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/extreme-value-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2c43adb93e351931c9f9e011dab0a1324ca91cef436c68654495981fd95d21f",
+      "evidence": "Read the complete source body including sections Classical version, Why compactness matters. Existing links cover the source-specific concepts: topology/compact-set, topology/continuous-map. Scanner suggestions (maximum, minimum, function) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/finite-intersection-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d6efa13c2207f76e9e0f6398fe1ec2d6342d8a8d1412b47a264dd423642e12e1",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/closed-set, topology/compact-set. Scanner suggestions (subsets, set, intersection, topology, closed sets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/finite-intersection-property-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a843e8bfc9358318e6fccc0f1c9cbef77710abb08f5645f30299b9854212ea5",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-space, topology/subspace-topology, topology/compact-set, topology/closed-set, topology/finite-intersection-property, topology/open-cover. Scanner suggestions (subsets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/fundamental-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "520c5abc52d55fe9d3f9abc606fbc1080aa758900e6115b06a296155acc2e984",
+      "evidence": "Read the complete source body including sections Existence and variants, Pairings and consequences, Examples and orientation dependence, References. Existing links cover the source-specific concepts: topology/closed-manifold, fiber-bundles/smooth-manifold, fiber-bundles/orientation-of-a-real-vector-bundle, fiber-bundles/characteristic-class, fiber-bundles/characteristic-number. Scanner suggestions (ring, image, closed manifold, boundary, object) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/fundamental-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "559af485ac733e402fc53dd656ab4f67a5d5446ae1ff5883b92c7666f0fceed7",
+      "evidence": "Read the complete source body including sections Basepoint dependence, Functoriality, Examples, Interpretation, References. Existing links cover the source-specific concepts: topology/topological-space, topology/path, shared-foundations/equivalence-class, algebra-groups/group, algebra-groups/inner-automorphism, topology/continuous-map, algebra-groups/group-homomorphism, topology/homotopy-equivalence. Scanner suggestions (loop, loops, set, path, isomorphism) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/hausdorff-distance",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3314987d7b4f6841289f390d8983c2a83c2e8c59c760710f8fea4b7d030f7e6e",
+      "evidence": "Read the complete source body including sections Neighborhood form, Convex bodies, References. Existing links cover the source-specific concepts: topology/metric-space, convex-analysis/convex-body, linear-algebra/vector-space, linear-algebra/euclidean-norm, real-analysis/uniform-convergence, convex-analysis/support-function. Scanner suggestions (subsets, metric, topology, norm, unit sphere) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/hausdorff-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5ff25a439dc303c9ba8e546f857a0d43a052f9ff682ca8cdf144d2ed8df7ddb",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/neighborhood, topology/open-set, topology/t1-space, topology/uniqueness-of-limits-hausdorff, topology/convergent-sequence, topology/compact-subset-of-hausdorff-is-closed, topology/metric-space. Scanner suggestions (set, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/heine-borel-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59a527fcca367a6867e28ca65216ba42b001902cfd27a3ddf516189bf52f08e7",
+      "evidence": "Read the complete source body including sections Context. Existing links cover the source-specific concepts: topology/compact-set, topology/closed-set, topology/bounded-set, topology/compactness-implies-boundedness, topology/compactness-implies-closedness, topology/bolzano-weierstrass-theorem, topology/sequentially-compact-set. Scanner suggestions (metric, topology, set) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/heine-cantor-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80380468bc9c10ce35d432cb5162aa207445e63b3b2afa8347e95fc249ef3035",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, real-analysis/uniform-continuity. Scanner suggestions (continuous map) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/heine-cantor-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d1eb6f2e4ce3de22c150139ca6fb77bf638e8b65db61a3de2199f3dea9ea1cd",
+      "evidence": "Read the complete source body including sections Classical case, Failure without compactness. Existing links cover the source-specific concepts: topology/continuous-map, topology/compact-set, topology/metric-space, real-analysis/uniform-continuity. Scanner suggestions (function, domain) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/holder-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e66cdf916649b07bb1ed2ca9c63efbc1967047e7296ab5d93be6cd8d7a49b72",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/lipschitz-continuity, topology/uniformly-continuous-map. Scanner suggestions (continuous map, metric spaces, function) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/homeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "867880d8b4f7b81be8c26e72cc850927c06da082561ab5a2a68d7f7068974970",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, shared-foundations/bijective-function, topology/continuous-map, shared-foundations/inverse-function, topology/compact-set, topology/connected-set. Scanner suggestions (open sets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/homotopy-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a16f8fd79516c1c906a0b2529ddc6bbb672be0483d954aea140385ddd046f6b",
+      "evidence": "Read the complete source body including sections Consequences. Existing links cover the source-specific concepts: topology/topological-space, topology/continuous-map, topology/homeomorphism. Scanner suggestions (groups, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/homotopy-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97e949219bc2826dd7ca949cbc370ffefe06a89af2f13011db607826c46c05d1",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/closed-manifold, topology/topological-manifold, topology/homotopy-equivalence, topology/metric-sphere, fiber-bundles/smooth-manifold, fiber-bundles/diffeomorphism. Scanner suggestions (smooth structure) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/image-compact-connected-is-interval",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "440addc3651e449acd58bb7b97b118923c2f21eea89fa771b4eaf5ab428dd7cc",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks. Existing links cover the source-specific concepts: topology/compact-set, topology/connected-set, topology/continuous-map, real-analysis/interval, topology/continuous-image-of-compact-set-is-compact, topology/continuous-image-of-connected-set-is-connected, topology/connected-subsets-of-r-are-intervals, topology/continuous-attains-max-min-compact. Scanner suggestions (Image, interval, topological space, real numbers) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/interior",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8a2c7ea8e51f0b97071d3db1d52b57146884c48b10fc1fcab1c8e913b456b37",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/open-set, topology/neighborhood, topology/closure. Scanner suggestions (subset, complements, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/intersection-of-dense-open-is-dense",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92b697ba9539686deb481c22ddd71035419bc8ef8003f5d3438ecc0823d24ca1",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-space, topology/open-set, topology/dense-set, topology/topology, shared-foundations/intersection, topology/baire-category-theorem. No additional phrase candidate was supplied by the scanner, and no unlinked reusable concept warranted introducing a new edge. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/irreducible-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4259e716ce2e5869b794d4e8860fa29bd5c4b42f168300a5540d495db3d9a2e3",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-space, topology/closed-set, topology/subspace-topology, topology/closure, algebraic-geometry-foundations/generic-point, algebra-rings/integral-domain, algebra-commutative/prime-spectrum, topology/connected-set. Scanner suggestions (union, subsets, subset) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/isometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e55d0747e5b877fc91f97951830cfdf64e951ad0d1ceb2dc9c485261732ce3c5",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/uniformly-continuous-map, topology/lipschitz-continuity, topology/homeomorphism. Scanner suggestions (metric spaces, metric, image) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/lebesgue-number-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50d88a2735dbf93fabf7cbe4bc7c19a07f60020f6765e6363d03370e8a846584",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, topology/open-cover, topology/open-ball, topology/diameter, topology/uniformly-continuous-map, topology/refinement-of-open-cover. Scanner suggestions (subset, cover) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/limit-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "138aec1357f60d9c5120afad628980726c2b206172ad133150e279f07298bc92",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/neighborhood, topology/derived-set, topology/closure. Scanner suggestions (subset, set, topological space, neighborhood) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/lipschitz-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca01dfa88e0c6db804bdc5c6438d08176b6e18d52e9bafe2af3aa8792728fdc3",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/uniformly-continuous-map, topology/diameter. Scanner suggestions (continuous map, metric spaces, images, sets, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/locally-compact-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "954460e595e99082ff1dee2b2048638c97a75f06247760f436123c8967ddabbb",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-group, topology/locally-compact-space, topology/homeomorphism, shared-foundations/p-adic-integers. Scanner suggestions (neighborhood, closure, right translations, Lie groups, groups) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/locally-compact-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca1de0544e087282f52efc3afd93f013c0bb04aedc958d5bee6c8a3250774970",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-space, topology/compact-set, topology/hausdorff-space, topology/topological-group. Scanner suggestions (neighborhood, closure, neighborhoods, Euclidean space) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/locally-finite-family",
+      "outcome": "corrected",
+      "source_sha256": "17a607f3e12782f248d1928b478763f8f9082c1198915b6771e8d8879a1b9fa6",
+      "evidence": "Read the complete definition, consequences, distinction, and references. Added links for the core topological space and neighborhood, the indexed family notation, closure in the displayed identity, and the partition-of-unity consequence. The point-finiteness distinction remains intentionally unlinked because it is a comparison phrase rather than a defined target here."
+    },
+    {
+      "id": "topology/locally-profinite-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "29e31c9f8c940f12713206a07bda1d02e6897e592f7f78473858370c7acf9c0b",
+      "evidence": "Read the complete source body including sections Examples, Representation theory, References. Existing links cover the source-specific concepts: topology/topological-group, topology/locally-compact-group, algebra-fields-galois/nonarchimedean-local-field, algebraic-geometry-foundations/algebraic-group, algebra-groups/trivial-subgroup, linear-algebra/vector-space, harmonic-analysis/smooth-representation-totally-disconnected-group, harmonic-analysis/admissible-representation-p-adic-group. Scanner suggestions (neighborhood, subgroups, group, groups, field) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/meager-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8ba0c3933e9a3eea907fa6698c5495d40e2bdf655884870af9f3305f403bbd9",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, shared-foundations/subset, shared-foundations/union, topology/nowhere-dense-set, shared-foundations/complement, topology/residual-set, topology/baire-space. Scanner suggestions (sets, category, subset, topology, union) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0988615530fcac2dc4615cff8e8c307159150377236b37883940ef9cb41afc71",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: shared-foundations/set, shared-foundations/function, topology/metric-space, topology/open-ball, topology/metric-induced-topology. Scanner suggestions (Triangle inequality, set) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/metric-induced-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9acadfca8e80e0931e2158b3b2b8ccdaacf5527770c5dd7e8c09ad70603d9be0",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/open-ball, topology/basis-of-topology, topology/open-set. Scanner suggestions (metric space, subsets, unions, metric, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/metric-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3565d5cd9b835d94e3ba2d700ad55c5a40a2f47208a1b507f2561411a1e535c6",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: shared-foundations/set, topology/metric, topology/topological-space, topology/metric-induced-topology, topology/open-ball. Scanner suggestions (neighborhoods, set, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/metric-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0591e1ae5f105f54f2b68014f90adde027dd25c240a363773f8ac0603092739d",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/open-ball, topology/closed-ball. Scanner suggestions (metric space, set, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/neighborhood",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "330ad705a297df340c47435eb41aa22dcee13d36f8508468113440aa0bf723fa",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/open-set, topology/interior, topology/limit-point, topology/continuous-map, topology/metric-space, topology/open-ball. Scanner suggestions (subset, open sets, topology, interval) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/nested-interval-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6541173357f51bbe647155d2eb3ac0816f1581721c315b90e8afbe29e89ba27f",
+      "evidence": "Read the complete source body including sections Why boundedness matters. Existing links cover the source-specific concepts: real-analysis/interval, real-analysis/supremum, real-analysis/infimum, topology/cantor-intersection-theorem. Scanner suggestions (sequence, intersection, intervals, subset, finite intersection property) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/nowhere-dense-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1a9b2f5be52ac15dad9fc5402d09fa47437784f13e661dca098e31809dff516a",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, shared-foundations/subset, topology/interior, topology/closure, shared-foundations/empty-set, topology/open-set, topology/meager-set, topology/baire-space. Scanner suggestions (set, integers, topology, interior, closure) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/one-point-compactification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d4a1fd7ee832a6525db8ef1134f2a7cba67a68fa0ecc847ae09c71e086b8c16",
+      "evidence": "Read the complete source body including sections Characterization, Examples, Convention, References. Existing links cover the source-specific concepts: topology/locally-compact-space, topology/hausdorff-space, complex-analysis/riemann-sphere. Scanner suggestions (set, subsets, neighborhoods, topology, homeomorphism) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/open-ball",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef09d62dcd5f4e536933a4034d0bbf474c2ba7b7a08bfd1a637bb4551bc27e38",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/open-set, topology/metric-induced-topology, topology/basis-of-topology, topology/neighborhood. Scanner suggestions (metric space, set, topology, metric spaces, metric) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/open-cover",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8034649b0bf1d33c95a072310c03cb33f6362a3499ddb09f6b3299d08248dd0",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/open-set, topology/compact-set. Scanner suggestions (subset, cover, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/open-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57f620e6dfec56267857bc0e78020548f4a8d400ca25a6093725907c3ffbfe3a",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, shared-foundations/subset, topology/neighborhood, topology/interior, topology/closure, topology/continuous-map. Scanner suggestions (sets, topology, preimages, subset) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/open-sets-form-a-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5e7d11513f3c809972bde747ee6bc66f8265e6f83e5ae35ce06d2a7cf4b6697",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, topology/open-set, topology/metric. Scanner suggestions (closure, open sets, objects) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/path",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5ff41aaceddca90f0f4bdadd74ba3981b972d4470d050bf340d525295629f49",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/continuous-map, real-analysis/interval, topology/path-connected-set, topology/curve. Scanner suggestions (topology, objects, unit, loop) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/path-connected-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "481323e62be3cfcac01193bc2453b9460aae6db8c5ca99c4378a6034eacd6c7a",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/path, topology/connected-set, topology/connected-component, real-analysis/interval. Scanner suggestions (subset, decomposition, set) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/product-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57925678e1802741e8402cd119cc120fe19b6e8ea5d0d8bcba3dbff6b50cb3be",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/continuous-map, topology/basis-of-topology. Scanner suggestions (topology, sets, open set) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/quotient-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d5c45937e44d7a8ba661b5a08231b93fd493c3567d0cf08a809702b8b026307",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: shared-foundations/surjective-function, topology/topological-space, topology/open-set, topology/continuous-map, shared-foundations/quotient-set, shared-foundations/equivalence-relation, topology/homeomorphism. Scanner suggestions (set, subset, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/refinement-of-open-cover",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52c23cadbbd9c03e1632507b3546d8fb94bc45328f30da3a2a05f5bf59f95e8f",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/open-cover, topology/basis-of-topology. Scanner suggestions (cover, set, covers, open sets, open cover) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/relatively-compact-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5c79c6fcc25af0551c004b62fefb518ef8b8d67da9ada54e57d1d3b13f19c54",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/closure, topology/compact-set, topology/totally-bounded-set. Scanner suggestions (set, subset, topology, metric spaces, closure) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/residual-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad7917edc161ad8e7a1f2369bba797e9aafa7c1057c3b12caa07ca17688944b7",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, shared-foundations/subset, shared-foundations/complement, topology/meager-set, shared-foundations/intersection, topology/open-set, topology/dense-set, topology/baire-space. Scanner suggestions (sets, subset, Baire space, intersection, open sets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/separable-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d0fc274a56f1826700b9e709cd4bf47f53000a5c86f576adaaa1579bce9b976",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-space, topology/metric-space. Scanner suggestions (subset, countable set, closure, Hilbert space, topology) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/separated-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f224a8e58919edfe786647ad252da03589cf57089d9ee349b78799fce4c2c7e4",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/closure, topology/connected-set. Scanner suggestions (subsets, union, topology, closure) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/sequential-characterization-closed",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70418de332eeade2318a413b6da3a3846e874a8bbd57c51c4c12754f529d5da4",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, topology/closed-set, topology/convergent-sequence, topology/sequential-characterization-closure. No additional phrase candidate was supplied by the scanner, and no unlinked reusable concept warranted introducing a new edge. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/sequential-characterization-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5dd5292ba612a64886620e4f3b202b50940e6a6ec93062c4024203d8f230fea",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, topology/closure, topology/sequential-characterization-closed. Scanner suggestions (closure, complements) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/sequential-compactness-equals-compactness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "263c3b9c0e7f84032a2ee886c6d897540f25c741bde3325e5d26abfef41607b2",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, topology/compact-set, topology/sequentially-compact-set, real-analysis/subsequence, topology/convergent-sequence, topology/topological-space. Scanner suggestions (sequence, metric, topology, sequences) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/sequentially-compact-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76ac305a05b45419cf73c708ce54f89d6ecc909445956349246dc5e2eda1c419",
+      "evidence": "Read the complete source body including sections Relation to compactness. Existing links cover the source-specific concepts: topology/topological-space, real-analysis/subsequence, topology/convergent-sequence, topology/metric-space, topology/compact-set. Scanner suggestions (subset, sequence, topological spaces) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/simply-connected-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e98021074f8f11aaeeefdaebb62d164f2ea6fa21cb087b884c4d7c8035bb6a8",
+      "evidence": "Read the complete source body including sections Basepoint and hypotheses, Examples, References. Existing links cover the source-specific concepts: topology/topological-space, topology/fundamental-group. Scanner suggestions (loop, fundamental groups, subsets, vector spaces, Euclidean spaces) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/singular-cohomology-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9db6c1233ba69132dab7bf6f44214292f7aa51bdbe88227c9ab9657e73e1d1e",
+      "evidence": "Read the complete source body including sections Functoriality and invariance, Examples, Coefficients and variants, References. Existing links cover the source-specific concepts: topology/topological-space, algebra-groups/abelian-group, topology/continuous-map, algebra-homological/cohomology-module, algebra-homological/cochain-complex, topology/homotopy-equivalence, algebra-rings/commutative-ring, topology/cup-product-and-cohomology-ring. Scanner suggestions (boundary, continuous map, pullback, groups, ring) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/subbasis-of-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a6cc249eb1a53edcecffd0e577abc768708f59a74cf6d3266695f677efbb034",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/basis-of-topology, topology/product-topology, topology/continuous-map. Scanner suggestions (topology, set, union, intersections, intersection) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/subspace-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3bba20c9a078c90378fcb2709d6c08a3115e1378b79ad943389ed6d88d7afd38",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/open-set, topology/continuous-map. Scanner suggestions (subset, topology, intersection, open set, open sets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/t0-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2fb5745e623a0eb81b7bc5b44d6768e0abe8a8a5de8042de4293a5f755928c67",
+      "evidence": "Read the complete source body including sections Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/open-set, topology/t1-space, topology/hausdorff-space, topology/metric-space. Scanner suggestions (open sets) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/t1-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dfa7b16373ceb6d53fe19ac67b4b5e3b9892bb02734f6654ac8f7250a22c67e5",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Remarks, Examples. Existing links cover the source-specific concepts: topology/topological-space, topology/closed-set, topology/open-set, topology/t0-space, topology/hausdorff-space, topology/metric-space. Scanner suggestions (open set, set, topology, open sets, complements) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/topological-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b86b044b21db087e07c77ebb928774e5b5ac1154d7b6cf4719386e67748cdce3",
+      "evidence": "Read the complete source body including sections Equivalent characterizations, Properties, Examples, Relation to Lie groups. Existing links cover the source-specific concepts: algebra-groups/group, topology/topological-space, topology/continuous-map, topology/homeomorphism, algebra-groups/normal-subgroup, fiber-bundles/lie-group, fiber-bundles/smooth-manifold. Scanner suggestions (topology, neighborhoods, connected component of the identity, subspace topology, group) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/topological-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dab67d565f170030ab49d108f0ad509b558cfe08e17b873560349eb7ac2549a8",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/topological-space, topology/homeomorphism, fiber-bundles/smooth-manifold. Scanner suggestions (neighborhood, subset, covers) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/topological-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e7fa08c2faee7b86c26628ed5fe20632a3189cfcefdc25638e91891c850a91d",
+      "evidence": "Read the complete source body including sections Constructions, Examples. Existing links cover the source-specific concepts: shared-foundations/ordered-pair, shared-foundations/set, topology/topology, shared-foundations/power-set, topology/open-set, topology/closed-set, topology/subspace-topology, topology/product-topology. Scanner suggestions (complements, topology, open sets, unions, intervals) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a0f4db6bf4536175a539bb58e62ed903f6b0cd311dc862850bbdeea9e184f484",
+      "evidence": "Read the complete source body including sections Related notions, Examples. Existing links cover the source-specific concepts: shared-foundations/set, topology/open-set, topology/closed-set, topology/neighborhood, topology/interior, topology/closure, topology/continuous-map, topology/topological-space. Scanner suggestions (set) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/totally-bounded-cauchy-subsequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f7d4fb828323dbc47a59fddea45cece790c3f555ff97126bb74b5c384515aa0",
+      "evidence": "Read the complete source body. Existing links cover the source-specific concepts: topology/metric-space, topology/totally-bounded-set, real-analysis/subsequence, topology/cauchy-sequence, topology/epsilon-net. Scanner suggestions (sequence) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/totally-bounded-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb2d6a8599a6b0e6ca7ade6300179d60f357b97261e967ccee6862984d355b6c",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/metric-space, topology/open-ball, topology/epsilon-net, topology/complete-metric-space, topology/compact-set. Scanner suggestions (subset, metric spaces, metric, interval, set) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    },
+    {
+      "id": "topology/uniformly-continuous-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "907a8170384ae306fc453bb55573928491f46aa83126392b89f5c0796ef10544",
+      "evidence": "Read the complete source body including sections Remarks, Examples. Existing links cover the source-specific concepts: topology/continuous-map, topology/lipschitz-continuity, topology/cauchy-sequence. Scanner suggestions (metric spaces, Uniform continuity, interval) were checked in context; they are generic, repeated, already represented by the nearby canonical links, or lack a target whose convention matches this occurrence. Prerequisite metadata was inspected separately and left unchanged."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 34 covers the 100 assigned topology sources. One source received targeted linking edits; the other 99 were reviewed in full and retained."
+  ]
+}

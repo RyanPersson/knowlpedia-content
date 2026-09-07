@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((a_n)\) and \((b_n)\) be real sequences. Their [[real-analysis/limit-superior|limit superior]] and [[real-analysis/limit-inferior|limit inferior]], regarded as extended real numbers, satisfy:
+Let \((a_n)\) and \((b_n)\) be real sequences. Their [[real-analysis/limit-superior|limit superior]] and [[real-analysis/limit-inferior|limit inferior]], regarded as extended [[shared-foundations/real-numbers|real numbers]], satisfy:
 
 1. \(\liminf_{n\to\infty}a_n\le \limsup_{n\to\infty}a_n\).
 2. If \(a_n\le b_n\) eventually, then

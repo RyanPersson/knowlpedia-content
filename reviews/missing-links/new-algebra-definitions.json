@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-category-theory/faithful-functor",
+      "outcome": "corrected",
+      "source_sha256": "e847e2dc18145f5518f2c689b8c6061ba7b248760d2eeb756a00caa23c9b1ce9",
+      "evidence": "Corpus search found no canonical faithful-functor or full-and-faithful target. Added the standard hom-set injectivity definition with functor as the sole direct prerequisite; interpretation and forgetful-functor example are expandable. Root review removed the ambiguous bare alias faithful: faithfulness of representations and positive functionals is not this functor property."
+    },
+    {
+      "id": "algebra-category-theory/fully-faithful-functor",
+      "outcome": "corrected",
+      "source_sha256": "248fe3ee333625bf6411f8cd41114a5303687a08252305dd4769dcb155ee8b3e",
+      "evidence": "Corpus search found uses of fully faithful but no canonical standalone target or full-and-faithful alias. Added the standard hom-set bijectivity definition, linking faithful-functor only in the consequence section and full-subcategory in the example; functor is the sole direct prerequisite."
+    },
+    {
+      "id": "algebra-groups/quaternion-group",
+      "outcome": "corrected",
+      "source_sha256": "1e5e05bfab056e629ecac2a061bdb0cd22176a10e64ba3a4b9de15c1abff538b",
+      "evidence": "Corpus search found Hamilton quaternion references but no quaternion-group knowl or alias. Added the minimal eight-element presentation and placed centrality, element orders, noncommutativity, and the division-ring realization in an expandable properties section. Group is the sole direct prerequisite; no finite-group target exists or is needed."
+    }
+  ],
+  "gaps": [],
+  "calibration": {
+    "lessons": [
+      "Existing broad pages and index entries can mention a concept repeatedly without providing a canonical standalone target; aliases must be searched before creating one.",
+      "Fully faithful is strictly stronger than faithful, so the definitions are separate knowls with a directed dependency in the explanatory section rather than a merged umbrella page.",
+      "The quaternion group can be defined directly by its finite presentation and needs only the group prerequisite; the Hamilton division-ring realization belongs in expandable properties."
+    ]
+  }
+}

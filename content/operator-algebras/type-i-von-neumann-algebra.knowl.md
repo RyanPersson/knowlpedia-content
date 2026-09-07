@@ -1,8 +1,8 @@
 +++
 id = "operator-algebras/type-i-von-neumann-algebra"
-title = "Type I von Neumann algebra"
+title = "Type I [[operator-algebras/von-neumann-algebra|von Neumann algebra]]"
 kind = "definition"
-summary = "A von Neumann algebra in which every nonzero central summand contains a nonzero abelian projection."
+summary = "A von Neumann algebra in which every nonzero central summand contains a nonzero [[operator-algebras/abelian-projection|abelian projection]]."
 aliases = ["type I W*-algebra", "discrete von Neumann algebra"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
@@ -36,8 +36,8 @@ pieces; the dimensions of the factor fibers need not be constant.
 Every [[operator-algebras/commutative-von-neumann-algebra|abelian von Neumann algebra]] is type I because each projection \(p\)
 has an abelian corner \(pMp\). Matrix algebras \(M_n(\mathbb C)\) and full
 operator algebras \(B(H)\) are [[operator-algebras/type-i-factor|type I factors]]. By contrast, a type II factor
-has no nonzero abelian projection, and a [[operator-algebras/type-iii-factor|type III factor]] has no nonzero finite
-projection. These contrasts concern factor types; a general von Neumann
+has no nonzero abelian projection, and a [[operator-algebras/type-iii-factor|type III factor]] has no nonzero [[operator-algebras/finite-projection|finite
+projection]]. These contrasts concern factor types; a general von Neumann
 algebra may have nonzero central summands of several types.
 
 ## Classification convention

@@ -15,8 +15,7 @@ Let \(k\) be a [[algebra-rings/commutative-ring|commutative ring]]. A
 **\(k\)-bialgebra** is a unital associative \(k\)-[[algebra-modules/algebra-over-ring|algebra]]
 \((H,m,u)\) and a [[algebra-coalgebras/coalgebra|\(k\)-coalgebra]]
 \((H,\Delta,\varepsilon)\) on the same module such that
-\(\Delta:H\to H\otimes_k H\) and \(\varepsilon:H\to k\) are unital algebra
-homomorphisms. The tensor-product algebra structure used here is
+\(\Delta:H\to H\otimes_k H\) and \(\varepsilon:H\to k\) are unital [[algebra-modules/algebra-homomorphism|algebra homomorphisms]]. The [[algebra-modules/tensor-product|tensor product]] algebra structure used here is
 \[
 (a\otimes b)(c\otimes d)=ac\otimes bd.
 \]

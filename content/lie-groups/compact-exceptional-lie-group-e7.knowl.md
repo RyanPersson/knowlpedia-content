@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **compact exceptional Lie group \(E_7\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_7\). It has rank \(7\), real dimension \(133\), and center isomorphic to \(\mathbb Z/2\mathbb Z\). Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose complexification is [[lie-groups/exceptional-lie-algebra-e7|\(\mathfrak e_7\)]].
+The **compact exceptional Lie group \(E_7\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_7\). It has rank \(7\), real dimension \(133\), and center isomorphic to \(\mathbb Z/2\mathbb Z\). Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose [[linear-algebra/complexification|complexification]] is [[lie-groups/exceptional-lie-algebra-e7|\(\mathfrak e_7\)]].
 
 Its smallest nontrivial complex representation is the faithful \(56\)-dimensional module \(\mathbf{56}\), which preserves a nondegenerate alternating form. The adjoint representation has dimension \(133\) and factors through the centerless adjoint quotient \(E_7/(\mathbb Z/2\mathbb Z)\).
 
@@ -19,7 +19,7 @@ Its smallest nontrivial complex representation is the faithful \(56\)-dimensiona
 
 Some sources use “compact \(E_7\)” for the adjoint group. The [[lie-groups/simply-connected-lie-group|simply connected]] and adjoint forms have the same Lie algebra, dimension, and local geometry, but the \(\mathbf{56}\) does not descend to the adjoint form. This knowl consistently uses the simply connected form.
 
-Compact \(E_7\) is not the [[lie-groups/complex-lie-group|complex Lie group]] \(E_7(\mathbb C)\), nor a noncompact real form such as split \(E_{7(7)}\). Statements proved by complex root-space calculations must be translated carefully when global topology or disconnected stabilizers matter.
+Compact \(E_7\) is not the [[lie-groups/complex-lie-group|complex Lie group]] \(E_7(\mathbb C)\), nor a noncompact real form such as split \(E_{7(7)}\). Statements proved by complex [[lie-groups/root-space|root-space]] calculations must be translated carefully when global topology or disconnected stabilizers matter.
 
 ## Translation of the three-generation construction
 

@@ -39,7 +39,7 @@ Breuer index is
 \operatorname{Ind}_\tau(T)
 =\tau(P_{\ker T})-\tau(P_{\ker T^*}).
 \]
-Unlike the classical Fredholm index, this value may be any real number because
+Unlike the classical [[functional-analysis/fredholm-operator|Fredholm index]], this value may be any real number because
 the trace of a projection in a semifinite algebra need not be integral.
 
 ## Stability and examples
@@ -66,7 +66,7 @@ transform, such as
 T(1+T^2)^{-1/2},
 \]
 is Breuer–Fredholm. Equivalent formulations use invertibility modulo
-tau-compact operators for the resolvent or spectral projections near zero.
+[[operator-algebras/tau-compact-operator|tau-compact operators]] for the resolvent or spectral projections near zero.
 This unbounded form is the one used in
 [[noncommutative-geometry/semifinite-spectral-triple|semifinite spectral
 triples]] and [[noncommutative-geometry/spectral-flow|spectral flow]].

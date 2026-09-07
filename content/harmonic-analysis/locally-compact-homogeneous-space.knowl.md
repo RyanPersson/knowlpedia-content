@@ -12,8 +12,9 @@ dependency_review_count = 1
 +++
 
 Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff
-group]] and \(H\leq G\) a closed subgroup. The **locally compact homogeneous
-space** \(G/H\) is the set of left cosets \(gH\), equipped with the
+group]] and \(H\leq G\) a closed [[algebra-groups/subgroup|subgroup]]. The
+**locally compact homogeneous space** \(G/H\) is the set of left
+[[algebra-groups/coset|cosets]] \(gH\), equipped with the
 [[topology/quotient-topology|quotient topology]] and the
 [[topology/continuous-group-action|continuous action]]
 \[

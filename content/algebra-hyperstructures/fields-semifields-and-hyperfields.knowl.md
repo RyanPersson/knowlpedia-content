@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-There are fully faithful embeddings
+There are [[algebra-category-theory/fully-faithful-functor|fully faithful]] embeddings
 \[
 \mathbf{Field}\hookrightarrow\mathbf{SemiField},
 \qquad

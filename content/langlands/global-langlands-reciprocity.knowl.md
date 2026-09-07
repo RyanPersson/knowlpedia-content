@@ -40,9 +40,9 @@ abelian model for the general principle.
 
 For \(\operatorname{GL}_n\), the expected primitive correspondence relates
 [[langlands/cuspidal-automorphic-representation|cuspidal automorphic representations]] to irreducible \(n\)-dimensional global
-parameters. Over number fields this includes several different coefficient
-realizations and is known only in important families. Over global function
-fields, Drinfeld and Laurent Lafforgue proved the correspondence for
+parameters. Over [[algebra-fields-galois/number-field|number fields]] this includes several different coefficient
+realizations and is known only in important families. Over [[algebra-fields-galois/global-function-field|global function
+fields]], Drinfeld and Laurent Lafforgue proved the correspondence for
 \(\operatorname{GL}_n\), and Vincent Lafforgue constructed a broad
 automorphic-to-Galois parameterization for reductive groups.
 

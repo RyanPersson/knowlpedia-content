@@ -35,12 +35,12 @@ It also obeys the first [[fiber-bundles/bianchi-identity|Bianchi identity]]: the
 
 ## Geometric information
 
-For a two-plane spanned by linearly independent \(u,v\), the sectional curvature is
+For a two-plane spanned by linearly independent \(u,v\), the [[differential-geometry/sectional-curvature|sectional curvature]] is
 \[
 K(u,v)=\frac{\operatorname{Rm}(u,v,v,u)}
 {g(u,u)g(v,v)-g(u,v)^2}.
 \]
-Contractions of \(\operatorname{Rm}\) produce the [[differential-geometry/ricci-curvature|Ricci tensor]] and scalar curvature. Thus the Riemann tensor contains all sectional curvatures, while its contractions retain progressively less directional information.
+Contractions of \(\operatorname{Rm}\) produce the [[differential-geometry/ricci-curvature|Ricci tensor]] and scalar curvature. Thus the Riemann tensor contains all [[differential-geometry/sectional-curvature|sectional curvatures]], while its contractions retain progressively less directional information.
 
 Parallel transport around a small loop differs from the identity to first order in the enclosed area by the curvature operator. This gives the tensor its interpretation as infinitesimal holonomy.
 

@@ -14,7 +14,7 @@ dependency_review_count = 1
 **Proposition (Decomposition underlying the class equation).**
 Let \(G\) be a finite [[algebra-groups/group|group]], acting on itself by [[algebra-groups/conjugation-action-self|conjugation]]. Then:
 
-1. \(G\) is a disjoint union of its conjugacy classes.
+1. \(G\) is a disjoint union of its [[algebra-groups/conjugacy-class|conjugacy classes]].
 2. The elements with singleton conjugacy class are exactly the [[algebra-groups/center-of-group|center]] \(Z(G)\).
 3. For each \(x\in G\), the conjugacy class of \(x\) has size \([G:C_G(x)]\), where \(C_G(x)\) is the [[algebra-groups/centralizer|centralizer]].
 

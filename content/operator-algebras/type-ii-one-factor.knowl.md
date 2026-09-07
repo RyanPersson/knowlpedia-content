@@ -16,8 +16,8 @@ A **type \(\mathrm{II}_1\) factor** is a
 [[operator-algebras/type-ii-von-neumann-algebra|type II]] and whose identity
 is a [[operator-algebras/finite-projection|finite projection]]. Equivalently,
 it is a type II [[operator-algebras/finite-von-neumann-algebra|finite von
-Neumann algebra]] with trivial center. Thus \(M\) has no nonzero abelian
-projection, but all its projections are finite. It possesses a unique
+Neumann algebra]] with trivial center. Thus \(M\) has no nonzero [[operator-algebras/abelian-projection|abelian
+projection]], but all its projections are finite. It possesses a unique
 normalized faithful normal trace \(\tau\), characterized by
 \(\tau(1_M)=1\) and \(\tau(xy)=\tau(yx)\). Infinite-dimensionality is automatic:
 a finite-dimensional factor is a matrix algebra and hence type I.
@@ -51,7 +51,7 @@ identity is infinite.
 ## Conventions and scope
 
 **Warning.** Some authors define a finite factor first and then call it type
-\(\mathrm{II}_1\) only after excluding matrix factors. Both the type II
+\(\mathrm{II}_1\) only after excluding [[operator-algebras/type-i-n-factor|matrix factors]]. Both the type II
 condition and finiteness of the identity are essential. The trace is unique
 only after normalization; positive scalar multiples are also faithful normal
 traces.

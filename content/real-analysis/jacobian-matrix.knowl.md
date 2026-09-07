@@ -17,7 +17,7 @@ Jf(a)=\left(\frac{\partial f_i}{\partial x_j}(a)\right)_{1\le i\le m,\;1\le j\le
 \]
 provided these [[real-analysis/partial-derivative|partial derivatives]] exist.
 
-When \(f\) is [[real-analysis/differentiable-map|differentiable]] at \(a\), the [[real-analysis/frechet-derivative|Fréchet derivative]] \(Df(a)\) is a linear map, and \(Jf(a)\) is the matrix that represents \(Df(a)\) in the standard bases of \(\mathbb{R}^n\) and \(\mathbb{R}^m\). For scalar-valued \(f\), \(Jf(a)\) is closely related (up to transpose conventions) to the [[real-analysis/gradient|gradient]].
+When \(f\) is [[real-analysis/differentiable-map|differentiable]] at \(a\), the [[real-analysis/frechet-derivative|Fréchet derivative]] \(Df(a)\) is a [[linear-algebra/linear-map|linear map]], and \(Jf(a)\) is the matrix that represents \(Df(a)\) in the standard bases of \(\mathbb{R}^n\) and \(\mathbb{R}^m\). For scalar-valued \(f\), \(Jf(a)\) is closely related (up to transpose conventions) to the [[real-analysis/gradient|gradient]].
 
 ## Examples
 

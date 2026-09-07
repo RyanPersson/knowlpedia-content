@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **(simple, undirected) graph** is an ordered pair \(G=(V,E)\) where:
+A **(simple, undirected) graph** is an [[shared-foundations/ordered-pair|ordered pair]] \(G=(V,E)\) where:
 
 - \(V\) is a [[shared-foundations/set|set]] of **vertices** (or **nodes**).
 - \(E\) is a set of **edges**, where each edge is a 2-element subset \(\{u,v\}\subseteq V\).

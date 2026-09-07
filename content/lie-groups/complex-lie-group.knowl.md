@@ -19,7 +19,7 @@ and \(\iota:G\to G,\ g\mapsto g^{-1}\), are [[differential-geometry/holomorphic-
 
 ## Tangent Lie algebra
 
-The complex [[differential-geometry/tangent-space|tangent space]] \(T_eG\) carries a complex-bilinear Lie bracket obtained from left-invariant holomorphic vector fields. Thus the [[lie-groups/lie-algebra|Lie algebra]] \(\operatorname{Lie}_{\mathbb C}(G)\) is a complex Lie algebra of complex dimension \(\dim_{\mathbb C}G\). Forgetting the complex structure gives the [[lie-groups/underlying-real-lie-group|underlying real Lie group]] and doubles the manifold dimension; it does not produce a second complex Lie group.
+The complex [[differential-geometry/tangent-space|tangent space]] \(T_eG\) carries a complex-bilinear [[fiber-bundles/lie-bracket|Lie bracket]] obtained from left-invariant holomorphic [[fiber-bundles/vector-field|vector fields]]. Thus the [[lie-groups/lie-algebra|Lie algebra]] \(\operatorname{Lie}_{\mathbb C}(G)\) is a complex Lie algebra of complex dimension \(\dim_{\mathbb C}G\). Forgetting the complex structure gives the [[lie-groups/underlying-real-lie-group|underlying real Lie group]] and doubles the manifold dimension; it does not produce a second complex Lie group.
 
 ## Examples
 

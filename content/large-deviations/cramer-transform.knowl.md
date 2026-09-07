@@ -20,7 +20,7 @@ This is the [[convex-analysis/legendre-fenchel-transform|Legendre–Fenchel tran
 
 ## Remarks
 
-In large deviations, when \(\Lambda\) is the [[large-deviations/log-moment-generating-function|log moment generating function]] of a random variable, \(I\) is the canonical candidate [[large-deviations/rate-function|rate function]] for the LDP of empirical means; this is made precise by [[large-deviations/cramers-theorem|Cramér's theorem]] and, in broader settings, by the [[large-deviations/gartner-ellis-theorem|Gärtner–Ellis theorem]].
+In large deviations, when \(\Lambda\) is the [[large-deviations/log-moment-generating-function|log moment generating function]] of a [[probability/random-variable|random variable]], \(I\) is the canonical candidate [[large-deviations/rate-function|rate function]] for the LDP of empirical means; this is made precise by [[large-deviations/cramers-theorem|Cramér's theorem]] and, in broader settings, by the [[large-deviations/gartner-ellis-theorem|Gärtner–Ellis theorem]].
 
 ## Examples
 

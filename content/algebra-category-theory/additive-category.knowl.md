@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-An **additive category** is a [[algebra-category-theory/category|category]] in which morphisms can be added and finite direct sums exist.
+An **additive category** is a [[algebra-category-theory/category|category]] in which [[algebra-category-theory/morphism|morphisms]] can be added and finite direct sums exist.
 
 A category \(\mathcal A\) is **preadditive** if:
 1. For all objects \(A,B\), the set \(\operatorname{Hom}_{\mathcal A}(A,B)\) is an abelian group (written additively).
@@ -20,8 +20,8 @@ A category \(\mathcal A\) is **preadditive** if:
    g\circ (f+f') = g\circ f + g\circ f', \qquad (g+g')\circ f = g\circ f + g'\circ f.
    \]
 
-A preadditive category \(\mathcal A\) is **additive** if, in addition:
-3. \(\mathcal A\) has a **zero object** \(0\) (both initial and terminal), hence a distinguished **zero morphism**
+A [[algebra-category-theory/preadditive-category|preadditive category]] \(\mathcal A\) is **additive** if, in addition:
+3. \(\mathcal A\) has a **[[algebra-category-theory/zero-object|zero object]]** \(0\) (both initial and terminal), hence a distinguished **zero morphism**
    \(0_{A,B}:A\to B\) for all \(A,B\).
 4. \(\mathcal A\) has **binary biproducts**: for all objects \(A,B\) there exists an object \(A\oplus B\) with morphisms
    \[

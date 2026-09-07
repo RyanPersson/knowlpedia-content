@@ -17,7 +17,7 @@ Let \(\pi:P\to M\) be a principal \(G\)-bundle with Atiyah sequence
 \]
 as in [[fiber-bundles/atiyah-sequence-tpgtm0|the Atiyah sequence]].
 
-A **splitting** of the Atiyah sequence is a vector bundle map
+A **splitting** of the Atiyah sequence is a [[fiber-bundles/vector-bundle|vector bundle]] map
 \[
 \sigma:TM\to TP/G
 \]

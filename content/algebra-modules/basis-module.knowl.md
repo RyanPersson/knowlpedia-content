@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(F\) be a [[algebra-modules/free-module|free]] \(R\)-[[algebra-modules/module|module]]. A **basis** of \(F\) is a subset \(B\subseteq F\) such that every \(x\in F\) can be written uniquely as a finite sum
+Let \(F\) be a [[algebra-modules/free-module|free]] \(R\)-[[algebra-modules/module|module]]. A **basis** of \(F\) is a [[shared-foundations/subset|subset]] \(B\subseteq F\) such that every \(x\in F\) can be written uniquely as a finite sum
 \[
 x=\sum_{b\in B} r_b\, b
 \]

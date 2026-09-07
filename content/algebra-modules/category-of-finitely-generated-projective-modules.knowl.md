@@ -11,13 +11,13 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A\) be a commutative unital ring. The **category of finitely generated
+Let \(A\) be a commutative [[algebra-rings/unital-ring|unital ring]]. The **[[algebra-category-theory/category|category]] of finitely generated
 projective \(A\)-modules**, denoted \(\mathbf{Proj}(A)\), has
 [[algebra-modules/projective-module|finitely generated projective
-\(A\)-modules]] as objects and
-[[algebra-modules/module-homomorphism|\(A\)-linear maps]] as morphisms.
+\(A\)-modules]] as [[algebra-category-theory/object|objects]] and
+[[algebra-modules/module-homomorphism|\(A\)-linear maps]] as [[algebra-category-theory/morphism|morphisms]].
 
-This is a [[algebra-category-theory/full-subcategory|full subcategory]] of the category of \(A\)-modules. It is additive:
+This is a [[algebra-category-theory/full-subcategory|full subcategory]] of the [[algebra-category-theory/category|category]] of \(A\)-[[algebra-modules/module|modules]]. It is additive:
 the zero module is a [[algebra-category-theory/zero-object|zero object]] and finite direct sums are biproducts. Every
 object is isomorphic to the image of an idempotent matrix
 \(p\in M_n(A)\), or equivalently to a direct summand of \(A^n\).

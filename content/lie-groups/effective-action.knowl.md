@@ -23,4 +23,4 @@ The action is **effective** if \(\ker(G\curvearrowright M)=\{e\}\).
   the induced action of \(G/\ker(G\curvearrowright M)\) on \(M\) is effective and has the same [[lie-groups/orbit-lie-group|orbits]].
 
 ## Motivation
-An ineffective action contains group elements that are invisible on \(M\); passing to the quotient by the kernel removes this redundancy.
+An ineffective action contains group elements that are invisible on \(M\); passing to the [[algebra-groups/quotient-group|quotient group]] by the kernel removes this redundancy.

@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]].
 
-**Definition.** The **conjugation action** is the map
+**Definition.** The **[[algebra-groups/conjugation-action|conjugation action]]** is the map
 \[
 G\times G \to G,\quad (g,h)\mapsto ghg^{-1}.
 \]
@@ -22,8 +22,8 @@ This is a [[lie-groups/smooth-action-lie-group|smooth action]] of \(G\) on the m
 
 ## Remarks
 
-**Orbits and stabilizers.**
-- The orbit of \(h\in G\) is its conjugacy class, an example of an [[lie-groups/orbit-lie-group|orbit]] of a Lie group action.
+**Orbits and [[algebra-groups/stabilizer|stabilizer]]s.**
+- The [[algebra-groups/orbit|orbit]] of \(h\in G\) is its [[algebra-groups/conjugacy-class|conjugacy class]], an example of an [[lie-groups/orbit-lie-group|orbit]] of a Lie group action.
 - The stabilizer of \(h\) is its centralizer \(C_G(h)=\{g\in G:gh=hg\}\), a closed subgroup; compare [[lie-groups/stabilizer-lie-group|stabilizers]] and the [[lie-groups/closed-subgroup-theorem|closed subgroup theorem]].
 - The kernel of the action is the [[lie-groups/center-of-a-lie-group|center]] \(Z(G)\).
 

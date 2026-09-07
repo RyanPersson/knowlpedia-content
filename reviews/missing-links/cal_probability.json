@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "probability/chebyshev-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8f0bca32ee558cd25d4930fc79892aedf3a40b85c1ccd907e02fbcff9a3150b",
+      "evidence": "Read the core, equivalent form, and remarks and checked random variable, expectation, variance, probability measure, probability space, Markov inequality, and weak law targets. All definition dependencies are already linked; generic deviation, finite, and consequence wording does not warrant links. Candidate-free source had no missed prerequisite."
+    },
+    {
+      "id": "probability/conditional-expectation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54757d5a2f6d89a7e261146a8777c90b5cab10671feb0e27b73ccfde46fce43c",
+      "evidence": "Read the definition, uniqueness statement, remark, and all examples and checked random variable, probability space, measurable function, conditional probability, expectation, sigma-algebra, and indicator targets. Existing links cover the concepts needed to read the knowl; integrable and almost-sure are meaningful technical phrases here but no assigned canonical target was identified. Candidate-free source had no missed prerequisite."
+    },
+    {
+      "id": "probability/markov-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ec47cd8181b85af71d1b1af7dad3f7d8ef39f4e5357f681a64a9ad084066933",
+      "evidence": "Read the inequality and consequences and checked random variable, expectation, event probability, Chebyshev inequality, and Chernoff bound targets. The core already links the only defining prerequisite; nonnegative, tail, and exponential are contextual modifiers rather than missing concept links. Candidate-free source had no missed prerequisite."
+    },
+    {
+      "id": "probability/strong-law-large-numbers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a6a17990416615a667acfdf6eb584739efed18dc06cfed8bd280bc35cc396c21",
+      "evidence": "Read the theorem and comparison paragraph and checked iid sequence, random variable, expectation, weak law, almost-sure convergence, almost-everywhere convergence, and probability measure targets. Existing links expose the theorem's notation and comparison; sample mean, finite expectation, and convergence wording do not identify additional assigned definitions. Candidate-free source had no missed prerequisite."
+    },
+    {
+      "id": "probability/maximum-entropy-principle",
+      "outcome": "corrected",
+      "source_sha256": "4db0e64ac065494c07b1f00f6e39232896e99e6092b38ce28613b24b4f06f984",
+      "evidence": "Read the core, guiding explanation, and examples. Linked probability distribution to distribution-law, reference measure to measure, moment to moment, variance to variance, normal distribution to the new probability/normal-distribution knowl, and uniform distribution to the new probability/uniform-distribution knowl. Shannon and differential entropy were already linked. Rejected generic set and repeated distribution matches."
+    },
+    {
+      "id": "probability/differential-entropy",
+      "outcome": "corrected",
+      "source_sha256": "4ccaff4b007f14493c3da0d18fbaee0d89476002226a59225a0111b91b75774d",
+      "evidence": "Read definition, coordinate dependence, examples, and reference. Added diffeomorphism, covariance, measurable set, and reference measure links after checking their target definitions and conventions. Lebesgue measure and random variable were already linked. Rejected positive/negative parts because the assigned target is the C*-algebraic self-adjoint decomposition rather than the scalar integrability context."
+    },
+    {
+      "id": "probability/relative-entropy-kl-divergence",
+      "outcome": "corrected",
+      "source_sha256": "41c7c01b8e986832c1be752eee6e95783a662a66a517dc89107e464e566036ec",
+      "evidence": "Read the definition and all examples and checked measurable space, probability measure, Radon-Nikodym derivative/theorem, function, countable set, Gibbs inequality, total variation, Pinsker inequality, and variance targets. Added measurable space in the core, function and countable set in the discrete example, and variance in the Gaussian example. Rejected generic sets and the generic functions candidate as a broad plural match; the mass-functions phrase is a meaningful function dependency in this discrete construction."
+    },
+    {
+      "id": "probability/independence-random-variables",
+      "outcome": "corrected",
+      "source_sha256": "772618f397b9438322bbb234eeb5e90d1f06648f34c03348c31bed6347d4d225",
+      "evidence": "Read the definition, equivalent characterization, remarks, and examples and checked probability space, random variable, sigma-algebra, independent events, event probability, Lebesgue measure, and probability measure targets. Added the random-variable link to the core family phrase, probability-measure link in the normalized product-measure example, and uniform-distribution link in the continuous example. Rejected generic set and distribution matches."
+    },
+    {
+      "id": "probability/normal-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99865b882f6f3063eebb399938534c07001827b947d444b29c3927f675f96539",
+      "evidence": "New minimal definition reviewed: parameters mu in R and sigma>0, Gaussian density with respect to Lebesgue measure. Checked that the core states all assumptions and that the optional section contains only parameter interpretation and affine behavior. No further link is needed in the core; the Lebesgue target is linked.",
+      "root_followup": "Root read probability-measure, Lebesgue-measure and Radon–Nikodym-derivative definitions. Added exact body links for distribution as measure and density, and recorded these actual defining prerequisites; both probability densities integrate to one and are absolutely continuous with respect to sigma-finite Lebesgue measure."
+    },
+    {
+      "id": "probability/uniform-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6178416e373e224966c560aef0549016fed8b09e7f221ce5a01e2d396dc0d996",
+      "evidence": "New minimal definition reviewed: a<b and constant density 1/(b-a) on [a,b] with respect to Lebesgue measure. Checked that the optional section distinguishes the finite-set convention without pretending to define it here. No further link is needed in the core; the Lebesgue target is linked.",
+      "root_followup": "Root read probability-measure, Lebesgue-measure and Radon–Nikodym-derivative definitions. Added exact body links for distribution as measure and density, and recorded these actual defining prerequisites; both probability densities integrate to one and are absolutely continuous with respect to sigma-finite Lebesgue measure."
+    }
+  ],
+  "gaps": [],
+  "calibration": {
+    "domain": "probability",
+    "lessons": [
+      "Multiword phrases whose target is a genuine prerequisite should be linked even in examples, while isolated generic nouns such as set, measure, and distribution remain false positives.",
+      "Distribution is ambiguous across probability and functional analysis; a probability distribution can link to distribution-law only when the surrounding probability context establishes that meaning.",
+      "A specialized recurring phrase such as normal distribution or uniform distribution is a definition-gap signal, not permission to link to a broad distribution-law target.",
+      "A target already linked in the core may be omitted on later repetitions unless the later occurrence introduces a distinct construction where expansion is useful.",
+      "The link audit does not by itself justify rewriting prerequisite metadata: theorem consequences and contextual comparisons should remain ordinary links unless the target is required to parse the definition."
+    ]
+  }
+}

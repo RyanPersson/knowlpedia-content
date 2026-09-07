@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Finite division rings are commutative**: Every finite division ring is commutative; equivalently, every finite division ring is a field.
+**Finite [[algebra-rings/division-ring|division rings]] are commutative**: Every finite division ring is commutative; equivalently, every finite division ring is a field.
 
 ## Remarks
 

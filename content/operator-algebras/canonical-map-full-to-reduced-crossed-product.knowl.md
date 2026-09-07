@@ -12,8 +12,7 @@ dependency_review_count = 1
 +++
 
 For a [[operator-algebras/cstar-dynamical-system|\(C^*\)-dynamical system]]
-\((A,G,\alpha)\), the **canonical map from the full to the reduced crossed
-product** is the surjective [[operator-algebras/star-homomorphism|
+\((A,G,\alpha)\), the **canonical map from the full to the [[operator-algebras/reduced-crossed-product|reduced crossed product]]** is the surjective [[operator-algebras/star-homomorphism|
 \(*\)-homomorphism]]
 \[
 \Lambda_A:A\rtimes_\alpha G\longrightarrow A\rtimes_{\alpha,r}G

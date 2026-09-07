@@ -35,7 +35,7 @@ defined as follows:
 Here \(\mathcal{C}^{op}\) is the [[algebra-category-theory/opposite-category|opposite category]] and \(\mathbf{Set}^{\mathcal{C}^{op}}\) is the functor category of presheaves on \(\mathcal{C}\).
 
 ## Fundamental property (fully faithful)
-By the [[algebra-category-theory/yoneda-lemma|Yoneda lemma]], the functor \(y\) is **fully faithful**: for all objects \(A,B\in\mathcal{C}\),
+By the [[algebra-category-theory/yoneda-lemma|Yoneda lemma]], the functor \(y\) is **[[algebra-category-theory/fully-faithful-functor|fully faithful]]**: for all objects \(A,B\in\mathcal{C}\),
 \[
 \mathrm{Hom}_{\mathcal{C}}(A,B)\;\cong\;\mathrm{Nat}\big(\mathrm{Hom}_{\mathcal{C}}(-,A),\,\mathrm{Hom}_{\mathcal{C}}(-,B)\big).
 \]

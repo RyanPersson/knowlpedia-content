@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Finite integral domains are fields**: If \(D\) is a finite integral domain, then \(D\) is a field.
+**Finite [[algebra-rings/integral-domain|integral domains]] are fields**: If \(D\) is a finite integral domain, then \(D\) is a field.
 
 ## Remarks
 

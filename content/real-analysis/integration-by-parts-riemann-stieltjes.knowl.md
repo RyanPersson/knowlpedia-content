@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(a<b\). If \(f,g:[a,b]\to\mathbb R\) are [[real-analysis/bounded-variation-function|of bounded variation]] and at least one is continuous, then both Riemann–Stieltjes integrals exist and
+Let \(a<b\). If \(f,g:[a,b]\to\mathbb R\) are [[real-analysis/bounded-variation-function|of bounded variation]] and at least one is continuous, then both [[real-analysis/riemann-stieltjes-integral|Riemann–Stieltjes integrals]] exist and
 \[
 \int_a^b f\,dg \;+\; \int_a^b g\,df \;=\; f(b)g(b)-f(a)g(a).
 \]

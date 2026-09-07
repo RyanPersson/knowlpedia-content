@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **multiple Riemann integral** of a bounded function \(f:R\to\mathbb{R}\) over a rectangle \(R=\prod_{i=1}^n [a_i,b_i]\subset \mathbb{R}^n\) is a number \(I\in\mathbb{R}\) such that for every \(\varepsilon>0\) there exists \(\delta>0\) with the property that for every rectangular partition of \(R\) with mesh \(<\delta\) and every choice of tags (sample points) \(\xi_j\) in each subrectangle \(R_j\), the corresponding Riemann sum
+A **multiple Riemann integral** of a bounded function \(f:R\to\mathbb{R}\) over a rectangle \(R=\prod_{i=1}^n [a_i,b_i]\subset \mathbb{R}^n\) is a number \(I\in\mathbb{R}\) such that for every \(\varepsilon>0\) there exists \(\delta>0\) with the property that for every rectangular partition of \(R\) with mesh \(<\delta\) and every choice of tags (sample points) \(\xi_j\) in each subrectangle \(R_j\), the corresponding [[real-analysis/riemann-sum|Riemann sum]]
 \[
 S(f)=\sum_j f(\xi_j)\,\operatorname{vol}(R_j)
 \]

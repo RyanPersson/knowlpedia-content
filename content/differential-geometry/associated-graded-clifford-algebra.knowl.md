@@ -33,7 +33,7 @@ vw+wv=-b_q(v,w)1,
 b_q(v,w)=q(v+w)-q(v)-q(w).
 \]
 The right side has filtration degree \(0\), while the left side has degree
-\(2\). Passing to the leading symbols therefore gives
+\(2\). Passing to the [[differential-geometry/principal-symbol|leading symbols]] therefore gives
 \[
 \sigma(v)\sigma(w)+\sigma(w)\sigma(v)=0.
 \]

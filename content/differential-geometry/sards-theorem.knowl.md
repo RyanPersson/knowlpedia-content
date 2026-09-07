@@ -19,8 +19,8 @@ of [[differential-geometry/critical-value-of-a-smooth-map|critical values]] of
 \(f\) has measure zero in \(N\): in every smooth coordinate chart of \(N\),
 its image has [[measure-theory/lebesgue-measure|Lebesgue measure]] zero.
 Consequently, almost every \(y\in N\) is a
-[[fiber-bundles/regular-value|regular value]] of \(f\). No measure or volume
-form is part of the data; the
+[[fiber-bundles/regular-value|regular value]] of \(f\). No measure or [[differential-geometry/volume-form|volume
+form]] is part of the data; the
 measure-zero conclusion is invariant under smooth coordinate changes.
 
 ## Differentiability threshold

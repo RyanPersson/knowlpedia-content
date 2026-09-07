@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H\) be a Hilbert space and \(X:H\to H\) a bounded operator. The operator \(X\) is **trace-class** if
+Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]] and \(X:H\to H\) a [[functional-analysis/bounded-linear-operator|bounded operator]]. The operator \(X\) is **trace-class** if
 \[
 \lVert X\rVert_1:=\operatorname{tr}(|X|)<\infty,
 \]

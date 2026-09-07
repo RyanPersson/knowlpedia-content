@@ -58,7 +58,7 @@ for \(n>0\).
 
 ## Coefficients and variants
 
-The notation \(H^k(X)\) often means \(H^k(X;\mathbb Z)\), but coefficients should be stated when ambiguity matters. Integral, rational, real, and finite-field coefficients can reveal different information. Reduced cohomology modifies degree zero so that a point has zero cohomology in every degree. Relative cohomology \(H^k(X,B;A)\) records the topology of a pair \(B\subseteq X\) and participates in a long exact sequence.
+The notation \(H^k(X)\) often means \(H^k(X;\mathbb Z)\), but coefficients should be stated when ambiguity matters. Integral, rational, real, and finite-field coefficients can reveal different information. [[topology/reduced-cohomology|Reduced cohomology]] modifies degree zero so that a point has zero cohomology in every degree. Relative cohomology \(H^k(X,B;A)\) records the topology of a pair \(B\subseteq X\) and participates in a long exact sequence.
 
 For a [[fiber-bundles/smooth-manifold|smooth manifold]], [[differential-geometry/integration-of-differential-forms|integration of differential forms]] gives the de Rham comparison isomorphism
 \[

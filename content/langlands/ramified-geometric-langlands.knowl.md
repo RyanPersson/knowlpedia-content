@@ -23,14 +23,14 @@ Langlands problem** consists of:
 3. the equivariance or character condition imposed on automorphic sheaves.
 
 The ramified correspondence is the resulting comparison between the
-spectral sheaf category on the moduli of such local systems and the
+spectral sheaf category on the moduli of such [[fiber-bundles/local-system|local systems]] and the
 automorphic sheaf category on the moduli of bundles with those level
 structures. The local data are part of the definition: “ramified geometric
 Langlands” does not name a single pair of categories without them.
 
 ## Tame examples
 
-For [[langlands/regular-singular-connection|regular-singular]] local systems,
+For [[langlands/regular-singular-connection|regular-singular]] [[fiber-bundles/local-system|local systems]],
 one may prescribe monodromy [[algebra-groups/conjugacy-class|conjugacy classes]] at punctures. Borel or Iwahori
 level structures are common automorphic counterparts. The precise
 correspondence depends on whether monodromy is semisimple, unipotent, or
@@ -44,7 +44,7 @@ counterparts use deeper level structures and character sheaves.
 
 ## The projective line
 
-An ordinary complex local system on unmarked \(\mathbb P^1\) has trivial
+An ordinary complex [[fiber-bundles/local-system|local system]] on unmarked \(\mathbb P^1\) has trivial
 monodromy because the analytic sphere is [[topology/simply-connected-space|simply connected]]. If
 \(U=\mathbb P^1\setminus\{x_1,\ldots,x_n\}\), then
 \[

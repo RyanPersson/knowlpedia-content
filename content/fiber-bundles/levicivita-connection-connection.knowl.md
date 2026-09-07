@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((M,g)\) be a Riemannian [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(n\). Denote by \(O(M)\to M\) the orthonormal frame bundle, a principal \(O(n)\)-bundle.
+Let \((M,g)\) be a Riemannian [[fiber-bundles/smooth-manifold|smooth manifold]] of dimension \(n\). Denote by \(O(M)\to M\) the [[fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle|orthonormal frame bundle]], a principal \(O(n)\)-bundle.
 
 ## Theorem (Levi–Civita connection; principal-bundle formulation)
 There exists a unique covariant derivative

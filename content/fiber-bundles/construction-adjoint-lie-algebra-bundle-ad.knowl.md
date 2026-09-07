@@ -17,7 +17,7 @@ Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra [[lie-grou
 \[
 \mathrm{ad}(P) := P\times_G \mathfrak g.
 \]
-This is a smooth vector bundle over \(M\). Moreover, each fiber \(\mathrm{ad}(P)_x\) carries a Lie bracket induced from the [[fiber-bundles/lie-bracket|Lie bracket]] on \(\mathfrak g\):
+This is a smooth [[fiber-bundles/vector-bundle|vector bundle]] over \(M\). Moreover, each fiber \(\mathrm{ad}(P)_x\) carries a Lie bracket induced from the [[fiber-bundles/lie-bracket|Lie bracket]] on \(\mathfrak g\):
 \[
 [p,X]\ \text{ and }\ [p,Y] \ \mapsto\ [p,[X,Y]].
 \]

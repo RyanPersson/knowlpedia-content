@@ -18,7 +18,7 @@ Let \(f:(X,d_X)\to(Y,d_Y)\) and \(A\subseteq X\). The function \(f\) is **unifor
 Compared to [[real-analysis/continuity-on-a-set|ordinary continuity on \(A\)]], the key point is that \(\delta\) depends only on \(\varepsilon\), not on the location in \(A\).
 
 Useful properties:
-- Uniformly continuous functions send Cauchy sequences to Cauchy sequences; this links naturally with [[topology/complete-metric-space|completeness]].
+- Uniformly continuous functions send [[topology/cauchy-sequence|Cauchy sequences]] to Cauchy sequences; this links naturally with [[topology/complete-metric-space|completeness]].
 - If \(f\) is continuous on a [[topology/compact-set|compact set]] \(K\), then \(f\) is uniformly continuous on \(K\) (Heine–Cantor).
 - Every Lipschitz function (i.e., \(d_Y(f(x),f(y))\le L\,d_X(x,y)\)) is uniformly continuous.
 

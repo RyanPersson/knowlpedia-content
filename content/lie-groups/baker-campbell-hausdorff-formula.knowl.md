@@ -14,7 +14,7 @@ dependency_review_count = 1
 
 Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra \(\mathfrak{g}\) and [[lie-groups/exponential-map-lie-group|exponential map]] \(\exp:\mathfrak{g}\to G\). For \(X,Y\in\mathfrak{g}\) sufficiently small, there is a unique \(Z\in\mathfrak{g}\) near \(0\) such that \(\exp(X)\exp(Y)=\exp(Z)\); write \(Z=\mathrm{BCH}(X,Y)\).
 
-**Theorem (BCH).** In a neighborhood of \(0\in\mathfrak{g}\),
+**Theorem (BCH).** In a [[topology/neighborhood|neighborhood]] of \(0\in\mathfrak{g}\),
 \[
 \mathrm{BCH}(X,Y)
 = X+Y+\frac12[X,Y]+\frac1{12}[X,[X,Y]]-\frac1{12}[Y,[X,Y]]+\cdots,
@@ -41,7 +41,7 @@ of any fixed degree is a finite rational linear combination of iterated
 brackets, so it can be evaluated degree by degree in formal coordinates on
 every finite-dimensional Lie algebra over a characteristic-zero field.
 
-More generally, the series evaluates in a complete filtered Lie algebra when
+More generally, the series evaluates in a [[lie-groups/complete-filtered-lie-algebra|complete filtered Lie algebra]] when
 brackets raise filtration and \(X,Y\) lie in the positive filtration. In that
 setting “convergence” means convergence in the filtration, not convergence of
 real or complex numbers.
@@ -54,7 +54,7 @@ Associativity of multiplication of exponentials implies the formal identity
 \]
 Together with identity \(0\) and inverse \(-X\), this makes BCH a
 [[formal-groups/formal-group-law|formal group law]] and supplies the
-integration functor in the
+integration [[algebra-category-theory/functor|functor]] in the
 [[formal-groups/lie-algebra-formal-group-equivalence|characteristic-zero
 formal Lie correspondence]].
 

@@ -2,7 +2,7 @@
 id = "operator-algebras/ultraweak-topology"
 title = "Ultraweak operator topology"
 kind = "definition"
-summary = "The weak-star topology on the bounded operators induced by their trace-class predual."
+summary = "The [[functional-analysis/weak-star-topology|weak-star topology]] on the bounded operators induced by their trace-class predual."
 aliases = ["sigma-weak topology", "weak-star operator topology"]
 domains = ["operator-algebras", "functional-analysis"]
 section_mode = "progressive"
@@ -27,7 +27,7 @@ where \((\xi_n)\) and \((\eta_n)\) are square-summable sequences in \(\mathcal H
 
 ## Comparison with other operator topologies
 
-Ultraweak convergence implies [[operator-algebras/weak-operator-topology|weak-operator convergence]] because vector functionals correspond to rank-one trace-class operators. On norm-bounded subsets of \(\mathcal B(\mathcal H)\), the two topologies agree, but they differ globally. The ultraweak topology is generally much weaker than the operator-norm topology and is not the Banach-space weak topology \(\sigma(\mathcal B(\mathcal H),\mathcal B(\mathcal H)^*)\).
+Ultraweak convergence implies [[operator-algebras/weak-operator-topology|weak-operator convergence]] because vector functionals correspond to rank-one [[shale-paper/trace-class-operator|trace-class operators]]. On norm-bounded subsets of \(\mathcal B(\mathcal H)\), the two topologies agree, but they differ globally. The ultraweak topology is generally much weaker than the operator-norm topology and is not the Banach-space weak topology \(\sigma(\mathcal B(\mathcal H),\mathcal B(\mathcal H)^*)\).
 
 ## Von Neumann algebras
 

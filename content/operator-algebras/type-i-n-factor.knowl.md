@@ -2,7 +2,7 @@
 id = "operator-algebras/type-i-n-factor"
 title = "Type Iₙ factor"
 kind = "definition"
-summary = "A type I factor isomorphic to the algebra of complex n by n matrices for a positive integer n."
+summary = "A [[operator-algebras/type-i-factor|type I factor]] isomorphic to the algebra of complex n by n matrices for a positive integer n."
 aliases = ["finite type I factor", "matrix factor", "Type I_n factor"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
@@ -12,8 +12,8 @@ dependency_review_count = 1
 +++
 
 Let \(n\geq 1\) be an integer. A **type \(\mathrm{I}_n\) factor** is a
-[[operator-algebras/type-i-factor|type I factor]] isomorphic, as a von Neumann
-algebra, to the matrix algebra \(M_n(\mathbb C)\). Equivalently, it is a type I
+[[operator-algebras/type-i-factor|type I factor]] isomorphic, as a [[operator-algebras/von-neumann-algebra|von Neumann
+algebra]], to the matrix algebra \(M_n(\mathbb C)\). Equivalently, it is a type I
 factor whose maximal families of nonzero mutually orthogonal equivalent
 [[operator-algebras/minimal-projection|minimal projections]] have exactly
 \(n\) members. Its identity is finite, so it is a

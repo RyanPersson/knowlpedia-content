@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Chinese remainder decomposition**: Let \(R\) be a commutative ring and let \(I_1,\dots,I_n\) be ideals that are pairwise comaximal. Then the natural homomorphism \(R\to \prod_{i=1}^n R/I_i\) induces an isomorphism
+**Chinese remainder decomposition**: Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(I_1,\dots,I_n\) be ideals that are pairwise comaximal. Then the natural homomorphism \(R\to \prod_{i=1}^n R/I_i\) induces an isomorphism
 \[
 R\Big/\bigcap_{i=1}^n I_i \;\cong\; \prod_{i=1}^n R/I_i.
 \]

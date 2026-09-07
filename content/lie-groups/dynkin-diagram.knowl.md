@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]. Fix a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\) and a choice of positive roots in its [[lie-groups/root-system|root system]]. Let \(\Delta=\{\alpha_1,\dots,\alpha_\ell\}\) be the corresponding set of [[lie-groups/simple-root|simple roots]].
+Let \(\mathfrak g\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]]. Fix a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak h\) and a choice of [[lie-groups/positive-root|positive roots]] in its [[lie-groups/root-system|root system]]. Let \(\Delta=\{\alpha_1,\dots,\alpha_\ell\}\) be the corresponding set of [[lie-groups/simple-root|simple roots]].
 
 The **Cartan matrix** \(A=(a_{ij})\) (see [[lie-groups/cartan-matrix|Cartan matrix]]) is defined by
 \[

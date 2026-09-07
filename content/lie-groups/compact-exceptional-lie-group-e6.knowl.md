@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **compact exceptional Lie group \(E_6\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_6\). It has rank \(6\), real dimension \(78\), and center isomorphic to \(\mathbb Z/3\mathbb Z\). Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose complexification is [[lie-groups/exceptional-lie-algebra-e6|\(\mathfrak e_6\)]].
+The **compact exceptional Lie group \(E_6\)** means here the compact, connected, **simply connected** simple [[lie-groups/compact-lie-group|Lie group]] with [[lie-groups/root-system|root system]] of Dynkin type \(E_6\). It has rank \(6\), real dimension \(78\), and center isomorphic to \(\mathbb Z/3\mathbb Z\). Its [[lie-groups/lie-algebra|Lie algebra]] is the [[lie-groups/compact-real-form|compact real form]] whose [[linear-algebra/complexification|complexification]] is [[lie-groups/exceptional-lie-algebra-e6|\(\mathfrak e_6\)]].
 
 Its distinguished smallest complex representations are the dual \(27\)-dimensional modules \(\mathbf{27}\) and \(\mathbf{27}^*\); the center acts on them by nontrivial cube roots of unity. The adjoint representation has dimension \(78\) and factors through the centerless adjoint quotient \(E_6/(\mathbb Z/3\mathbb Z)\).
 

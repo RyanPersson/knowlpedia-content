@@ -24,13 +24,13 @@ For vectors in a [[linear-algebra/normed-vector-space|normed space]]:
 \|x + y\| \leq \|x\| + \|y\|.
 \]
 
-For real or complex numbers:
+For real or [[shared-foundations/complex-numbers-c|complex numbers]]:
 \[
 |a + b| \leq |a| + |b|.
 \]
 
 ## Consequences
-- **Reverse triangle inequality**: \(\bigl| d(x,y) - d(y,z) \bigr| \leq d(x,z)\).
+- **[[real-analysis/reverse-triangle-inequality|Reverse triangle inequality]]**: \(\bigl| d(x,y) - d(y,z) \bigr| \leq d(x,z)\).
 - **Polygon inequality**: \(d(x_1, x_n) \leq \sum_{i=1}^{n-1} d(x_i, x_{i+1})\).
 
 The name comes from Euclidean geometry: the length of one side of a triangle is at most the sum of the other two sides.

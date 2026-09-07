@@ -11,11 +11,11 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **complex structure** on a real Hilbert space \(K\) is a bounded real-linear operator \(\Lambda:K\to K\) satisfying \(\Lambda^2=-I\). It defines complex scalar multiplication by
+A **complex structure** on a real [[linear-algebra/hilbert-space|Hilbert space]] \(K\) is a bounded real-linear operator \(\Lambda:K\to K\) satisfying \(\Lambda^2=-I\). It defines complex scalar multiplication by
 \[
 (a+ib)z=az+b\Lambda z.
 \]
-When \(\Lambda\) is orthogonal, this complex structure is compatible with the real Hilbert-space inner product.
+When \(\Lambda\) is orthogonal, this complex structure is compatible with the real [[linear-algebra/hilbert-space|Hilbert-space]] [[linear-algebra/inner-product|inner product]].
 
 ## Remarks
 

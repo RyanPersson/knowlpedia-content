@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "scope": ["batch_35", "batch_36"],
+  "checks": [
+    {
+      "batch": "batch_35",
+      "id": "topology/uniqueness-of-limits-hausdorff",
+      "sha256": "7eb3b103c582110d82476b036544a5c82ab8db8a16f409c67c2ea96311a0d91e",
+      "status": "accepted",
+      "checked": ["shared-foundations/sequence", "topology/metric-space"],
+      "note": "Read the complete source and both target definitions. Both added links identify the mathematical phrases in their local context; the existing Hausdorff, convergence, and compact-closed links remain appropriate. The sequence link is a useful dependency in the theorem hypothesis rather than generic word saturation."
+    },
+    {
+      "batch": "batch_36",
+      "id": "algebra-category-theory/abelian-category",
+      "sha256": "9551206ba7c700457bbff01ebee46c121402369f532c1ad037084482f347019f",
+      "status": "accepted",
+      "checked": ["algebra-groups/abelian-group", "algebra-category-theory/additive-category"],
+      "note": "Read the complete source and target definitions. The abelian-group link clarifies the hom-set clause and is mathematically precise; the additive-category link is already the defining structural dependency."
+    },
+    {
+      "batch": "batch_36",
+      "id": "algebra-commutative/artinian-ring",
+      "sha256": "669e5fbbdc44a07a2fbd949841ea4c0f421f92982e456d88c4322a86128ed2d8",
+      "status": "accepted",
+      "checked": ["algebra-rings/ideal", "algebra-commutative/noetherian-ring", "algebra-commutative/krull-dimension"],
+      "note": "Read the complete source and target definitions. The ideal link occurs in the defining descending-chain condition; the later Noetherian and Krull-dimension links are exact theorem concepts and belong in expandable material."
+    },
+    {
+      "batch": "batch_36",
+      "id": "complex-analysis/maximum-modulus-principle",
+      "sha256": "693b8c4d58eabe31c2b4d8f105132e7f2d1abea22272c4fcbc57088553e2a35d",
+      "status": "accepted",
+      "checked": ["differential-geometry/holomorphic-map", "complex-analysis/cauchy-integral-formula", "complex-analysis/identity-theorem"],
+      "note": "Read the complete source and target definitions. The holomorphic-map target correctly covers the hypothesis; Cauchy integral formula and identity theorem are used in the proof. The minimum-modulus discussion remains expandable detail."
+    },
+    {
+      "batch": "batch_36",
+      "id": "fiber-bundles/associated-bundle",
+      "sha256": "955934d822aae58bcd2089801adaa6a594139007c0bfa302d4dc6aa3f7f497ee",
+      "status": "accepted",
+      "checked": ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "shared-foundations/equivalence-class"],
+      "note": "Read the complete source and target definitions. The added links name the principal bundle, smooth manifold, Lie group, equivalence class, and associated constructions exactly where used; no generic-word overlinking was found in this sample."
+    },
+    {
+      "batch": "batch_36",
+      "id": "lie-groups/compact-lie-group",
+      "sha256": "5f98c07a20fad0439ca79d22c976c28bf16e8988f37e1cd63c2fd84fc46ed93a",
+      "status": "accepted",
+      "checked": ["fiber-bundles/lie-group", "topology/topological-space"],
+      "note": "Read the complete source and target definitions. The two links in the minimal definition are exact and do not add optional detail to the opening sentence."
+    }
+  ],
+  "batch_samples": {
+    "batch_25": [
+      {"id":"linear-algebra/surjective-linear-isometry","outcome":"unchanged","decision":"Read source and target; generic norm/isometry/group matches were either already linked or context-dependent."},
+      {"id":"linear-algebra/symmetric-positive-definite-matrix","outcome":"corrected","decision":"Read source and matrix/eigenvalue/vector-space targets; accepted links identify the definition's actual linear-algebra concepts."},
+      {"id":"linear-algebra/trace","outcome":"unchanged","decision":"Read source and trace/matrix targets; repeated formula vocabulary did not justify additional links."},
+      {"id":"linear-algebra/unit-sphere","outcome":"unchanged","decision":"Read source and sphere/metric targets; the remaining candidates were generic or already covered."},
+      {"id":"linear-algebra/vector-space","outcome":"unchanged","decision":"Read source and set/field/addition targets; axioms and locally introduced notation were not mechanically linked."}
+    ],
+    "batch_26": [
+      {"id":"nonassociative-algebra/exceptional-jordan-algebra","outcome":"corrected","decision":"Read source and characteristic-polynomial/spectral-triple targets; accepted links name concepts used in the argument."},
+      {"id":"nonassociative-algebra/f4-transitivity-on-compatible-jordan-subalgebra-pairs","outcome":"unchanged","decision":"Read source and candidate targets; matches were generic terms or local notation."},
+      {"id":"nonassociative-algebra/f4-transitivity-on-complex-qutrit-subalgebras","outcome":"unchanged","decision":"Read source and target definitions; no unlinked reusable phrase survived contextual review."},
+      {"id":"nonassociative-algebra/frame-decomposition-of-hermitian-jordan-algebras","outcome":"unchanged","decision":"Read source and frame/Jordan targets; existing links cover the technical dependencies."},
+      {"id":"nonassociative-algebra/hermitian-jordan-triple-system","outcome":"unchanged","decision":"Read source and triple-system targets; formula terms and locally defined operations were appropriately left alone."}
+    ],
+    "batch_27": [
+      {"id":"operator-algebras/breuer-fredholm-operator","outcome":"corrected","decision":"Read source and Fredholm-index/tau-compact targets; both added links are precise operator-algebra concepts."},
+      {"id":"operator-algebras/brown-green-rieffel-stabilization-theorem","outcome":"unchanged","decision":"Read source and separability/matrix targets; remaining matches were generic or already linked."},
+      {"id":"operator-algebras/c0-function-algebra","outcome":"corrected","decision":"Read source and function-algebra targets; accepted links identify the construction's reusable objects."},
+      {"id":"operator-algebras/c0-x-algebra","outcome":"unchanged","decision":"Read source and C0-algebra targets; repeated terminology did not warrant extra links."},
+      {"id":"operator-algebras/c0-x-algebra-bundle-equivalence","outcome":"unchanged","decision":"Read source and bundle-equivalence targets; candidates were either existing links or context-specific wording."}
+    ],
+    "batch_28": [
+      {"id":"operator-algebras/group-von-neumann-algebra","outcome":"corrected","decision":"Read complete source and locally compact group/Haar/regular-representation targets; additions match explicit dependencies."},
+      {"id":"operator-algebras/hereditary-cstar-subalgebra","outcome":"unchanged","decision":"Read source and hereditary/C-star targets; existing links cover the defining notions."},
+      {"id":"operator-algebras/hilbert-cstar-module","outcome":"unchanged","decision":"Read source and Hilbert-module targets; remaining candidates were generic module vocabulary."},
+      {"id":"operator-algebras/hull-kernel-topology","outcome":"unchanged","decision":"Read source and topology targets; no additional link was more specific than the existing ones."},
+      {"id":"operator-algebras/hyperfinite-ii-one-factor","outcome":"unchanged","decision":"Read source and factor/von-Neumann targets; repeated standard terms were not link-worthy occurrences."}
+    ],
+    "batch_29": [
+      {"id":"operator-algebras/star-homomorphism","outcome":"corrected","decision":"Read source and C*-algebra target; the defining involution-preserving map is correctly linked, while automatic norm facts remain expandable."},
+      {"id":"operator-algebras/star-isomorphism","outcome":"corrected","decision":"Read source and star-homomorphism target; the added link names the exact parent notion and the normed-space comparison is contextually appropriate."},
+      {"id":"operator-algebras/state-cstar-algebra","outcome":"corrected","decision":"Read source and positive-linear-functional target; the state definition links its central functional concept without saturating generic positivity language."},
+      {"id":"operator-algebras/state-space","outcome":"corrected","decision":"Read source and state/convex-set/weak-star targets; each link names a concept used in the definition or topology statement."},
+      {"id":"operator-algebras/states-separate-positive-elements","outcome":"corrected","decision":"Read source and state-space/positive-element targets; links support the theorem statement and its hypotheses."}
+    ],
+    "batch_30": [
+      {"id":"quantum-foundations/positive-operator-valued-measure","outcome":"corrected","decision":"Read source and measurable-space/Hilbert-space/positive-operator targets; the three defining clauses are linked to exact concepts, with weak operator topology deferred to the explanatory clause."},
+      {"id":"quantum-foundations/positive-semidefinite-operator","outcome":"corrected","decision":"Read source and Hilbert-space/POVM/density-operator targets; links identify the definition and later applications while retaining the opening as a compact definition."},
+      {"id":"quantum-foundations/pure-state-quantum","outcome":"corrected","decision":"Read source and finite Hilbert-space/density-operator/positive-operator targets; the state-vector and projector formulations are linked to their precise concepts."},
+      {"id":"quantum-foundations/quantum-relative-entropy","outcome":"corrected","decision":"Read source and density-operator/spectral-calculus/KL targets; links match the formula's inputs, functional calculus, and classical specialization."},
+      {"id":"quantum-foundations/qubit","outcome":"corrected","decision":"Read source and Hilbert-space/orthonormal-basis/normalized-state-vector/pure-state/density-operator targets; all are exact dependencies of the definition or expandable state discussion."}
+    ],
+    "batch_31": [
+      {"id":"real-analysis/integration-by-parts","outcome":"unchanged","decision":"Read source and integration/derivative targets; standard formula words were generic or already linked."},
+      {"id":"real-analysis/integration-by-parts-riemann-stieltjes","outcome":"corrected","decision":"Read source and Riemann–Stieltjes/integrator targets; additions identify the theorem's actual machinery."},
+      {"id":"real-analysis/integrator-function","outcome":"unchanged","decision":"Read source and integrator/function targets; defining notation did not need saturation."},
+      {"id":"real-analysis/interchange-limit-integral","outcome":"unchanged","decision":"Read source and limit/integral targets; existing links and generic calculus vocabulary were sufficient."},
+      {"id":"real-analysis/intermediate-value-theorem","outcome":"unchanged","decision":"Read source and continuity/order targets; no missing specific concept remained."}
+    ],
+    "batch_32": [
+      {"id":"real-analysis/schwarz-clairaut-theorem","outcome":"corrected","decision":"Read source and mixed-partial/derivative targets; accepted links identify the theorem hypotheses."},
+      {"id":"real-analysis/second-derivative-tests","outcome":"unchanged","decision":"Read source and derivative/critical-point targets; candidates were already covered or generic."},
+      {"id":"real-analysis/separates-points","outcome":"unchanged","decision":"Read source and function/separation targets; local terminology was not overlinked."},
+      {"id":"real-analysis/series","outcome":"corrected","decision":"Read source and sequence/convergence targets; additions are relevant to the definition and tests."},
+      {"id":"real-analysis/series-of-functions","outcome":"corrected","decision":"Read source and uniform-convergence/function-sequence targets; links match the central concepts."}
+    ],
+    "batch_33": [
+      {"id":"shared-foundations/divisibility","outcome":"unchanged","decision":"Read source and divisibility/integers targets; the defining relation is already adequately linked."},
+      {"id":"shared-foundations/domain","outcome":"unchanged","decision":"Read source and function targets; uses of domain in definitions were not mechanically saturated."},
+      {"id":"shared-foundations/empty-set","outcome":"unchanged","decision":"Read source and set targets; no additional precise phrase was justified."},
+      {"id":"shared-foundations/equivalence-class","outcome":"unchanged","decision":"Read source and equivalence-relation targets; existing links cover the dependency."},
+      {"id":"shared-foundations/equivalence-relation","outcome":"unchanged","decision":"Read source and relation targets; generic relation vocabulary was appropriately left unlinked."}
+    ],
+    "batch_34": [
+      {"id":"topology/compact-iff-complete-totally-bounded","outcome":"unchanged","decision":"Read source and compactness/completeness targets; theorem terms were already linked or appropriately retained as generic context."},
+      {"id":"topology/compact-set","outcome":"unchanged","decision":"Read source and topological-space targets; no additional specific phrase was justified."},
+      {"id":"topology/compact-subset-of-hausdorff-is-closed","outcome":"unchanged","decision":"Read source and Hausdorff/closed-set targets; the proof's standard words did not need links."},
+      {"id":"topology/compact-to-hausdorff-homeomorphism-criterion","outcome":"unchanged","decision":"Read source and homeomorphism targets; existing dependency links cover the criterion."},
+      {"id":"topology/compactness-implies-boundedness","outcome":"unchanged","decision":"Read source and boundedness/metric targets; remaining matches were context-dependent."}
+    ]
+  },
+  "issues": [
+    {
+      "batch": "batch_36",
+      "source": "shale-paper/weyl-ccr-quantization",
+      "target": "shale-paper/schrodinger-representation",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "The target was initially absent. A canonical content/shale-paper/schrodinger-representation.knowl.md now exists and defines the representation with prerequisites; the compiler canonical resolver maps the link successfully. The new target should receive its own independent review before production merge."
+    }
+  ]
+}

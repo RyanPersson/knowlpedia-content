@@ -15,7 +15,7 @@ Let \(G\) be a finite-dimensional real [[fiber-bundles/lie-group|Lie group]] and
 \[
 G\longrightarrow\mathcal H,\qquad g\longmapsto\pi(g)v,
 \]
-is real analytic in a neighborhood of the identity, as a Hilbert-space-valued map. Equivalently, in local exponential coordinates its Taylor series, formed from iterated operators of the [[lie-groups/derived-representation-on-smooth-vectors|derived representation]], converges in norm to the orbit map near \(0\). Every analytic vector is smooth, but a smooth vector need not be analytic.
+is real analytic in a [[topology/neighborhood|neighborhood]] of the identity, as a Hilbert-space-valued map. Equivalently, in local exponential coordinates its Taylor series, formed from iterated operators of the [[lie-groups/derived-representation-on-smooth-vectors|derived representation]], converges in norm to the orbit map near \(0\). Every analytic vector is smooth, but a smooth vector need not be analytic.
 
 ## Operator criterion
 

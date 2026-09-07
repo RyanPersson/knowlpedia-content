@@ -19,7 +19,7 @@ defined as the quotient
 \[
 \mathcal{C}(P) := J^1P / G,
 \]
-where \(J^1P\) is the [[fiber-bundles/jet-bundle|1-jet bundle]] of \(P\) and \(G\) acts by prolongation of the principal right action. Its smooth sections are naturally in bijection with principal connections on \(P\).
+where \(J^1P\) is the [[fiber-bundles/jet-bundle|1-jet bundle]] of \(P\) and \(G\) acts by prolongation of the principal right action. Its smooth sections are naturally in bijection with [[fiber-bundles/principal-connection|principal connections]] on \(P\).
 
 ## Affine structure
 

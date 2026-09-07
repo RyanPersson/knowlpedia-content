@@ -21,7 +21,7 @@ The **lower sum** of \(f\) with respect to \(P\) is
 L(f,P) := \sum_{i=1}^n m_i\, (x_i-x_{i-1}).
 \]
 
-Lower sums approximate the integral from below. As the partition is refined, lower sums increase (or stay the same).
+[[real-analysis/lower-sum|Lower sums]] approximate the integral from below. As the partition is refined, lower sums increase (or stay the same).
 
 ## Examples
 

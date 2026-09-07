@@ -22,7 +22,7 @@ An **excursion operator** is indexed by
 
 where \(I\) is a finite set,
 \(f\in\mathcal O(\widehat G\backslash\widehat G^I/\widehat G)\) is an
-invariant function on powers of the
+[[fiber-bundles/invariant-function|invariant function]] on powers of the
 [[langlands-letter/knowls/langlands-dual-group|dual group]], invariant
 under diagonal left and [[lie-groups/right-translation|right translation]], and
 \(\gamma_i\) lies in the
@@ -63,7 +63,7 @@ depends only on \(I,f,(\gamma_i)\), not on the chosen realization
 [[langlands-letter/knowls/characters-separate-semisimple-classes|Characters
 of single dual-group elements do not distinguish all semisimple
 homomorphisms]] into a general reductive group. Simultaneous
-invariant functions on \(\widehat G^I\) for all finite \(I\) retain the
+[[fiber-bundles/invariant-function|invariant functions]] on \(\widehat G^I\) for all finite \(I\) retain the
 pseudocharacter data needed to reconstruct a semisimple
 \(\widehat G\)-valued Galois parameter.
 

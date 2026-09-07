@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "fiber-bundles/cotangent-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74242fede988355ccc475996bbfa98d7f4e75d15f9d97c37e1aa288060e53d1e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/coulomb-gauge",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6b022ceeffeabb7bfda761dd71e124aebb322e8e3278b2528b49f1c6923c1e8",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/counterexample-nontrivial-principal-bundle-admitting-no-global-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a003ff602b06e7251f3de2f92d5a2f956bef1f184b45743306ef1dabaa632b9",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/covariant-derivative-of-a-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d5ed926d82c7327ebfee37d2a756e7f44bf7a117c429c37d15382150d6ad834f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47ed78f44b6c62976bac8a7bee4c670f78efd401fff1fa669abf493124ed567a",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/covariant-hodge-laplacian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d6859584290ba039ca93fc8a991bec819f7a62b64d6a9da8ebff3651a58f4e3",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/curvature",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3534a388b2c00eef56e52f2f4fb3133ccd52914c2a2be1f04650c8ea878eac99",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-in-a-frame",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1bd8ed045e25bbbbdd20a16e6e30ccf2c8a7f6c1ec97e10136d0eab3bd4b4546",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/curvature-2-form-of-a-principal-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d6b5ba7e7bbf3ab0a242b82d9cfea5bb4b99ee359ebc0c27b604d46f767f56f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/curvature-as-a-moment-map",
+      "outcome": "corrected",
+      "source_sha256": "03c765f66e4f94431da240a9e65e00efb26b269ce7a431bcf5a519a9facecbb4",
+      "evidence": "linked the moment-map phrase to fiber-bundles/moment-map and the Riemannian metric phrase to differential-geometry/riemannian-manifold; existing gauge and symplectic targets were checked."
+    },
+    {
+      "id": "fiber-bundles/curvature-of-a-vector-bundle-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5da89726c8b7d7a538b6931bd0a421a19ad0f2a5ff8420cce62050a2d5460457",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/de-rham-cohomology-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8da8cf8248c3a3a4f7d78ad3e3cd0359730a1ef2765d9dd4f5730c299709994d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/deformation-complex-of-a-flat-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18ba64c639c72d9e258006ed2f827bc14c24da4083173b95d4438a1f519ede56",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/diffeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1e4351acf3d6d8e0210b7c50ac938bd81a184b014d1cc7d69bc5a0e7fdce14e1",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd0a12ebf4aa85d4250e0e6bbed691b958ddbd97bf7c58f4c237c0395cbfebd8",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/differential-of-a-smooth-map",
+      "outcome": "corrected",
+      "source_sha256": "792bb326e6fce281cdb574c3fac4c9bbdf5be394a7c72c2c3eb8d04aaf032ea4",
+      "evidence": "Read complete source and target linear-map definition. Added the core defining link for linear map; verified tangent-space, smooth-map, tangent-bundle, and left-translation links and rejected generic candidates."
+    },
+    {
+      "id": "fiber-bundles/differential-pushforward-of-a-smooth-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c498df1a7900760cae478574002962a6c5e6cc728ae18261c9529393ab85d27e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/dirac-monopole-connection-on-the-hopf-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd327bb6bfb3c48458ed2edce183eef9ccc646851ac53e83cdb302da6cdb54eb",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/direct-sum-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1eb5806156f9e9e126bb66b239beb6b1bd771c24edd1f85a61ffb46a05dcf53e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/donaldson-uhlenbeck-yau-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23e80d8d0642fd9912e22877453bae702cc6587d8e3a63d150dc63985ed96255",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/dual-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15861a495bb73bb45b542b97dc01c56170226675bd7d442e794ca107f3069838",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/dual-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2353bc6c48be6a067390a151fdbdabbbd0b89df87041cfa7c79ffa39e3906bb3",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/ehresmann-connection",
+      "outcome": "corrected",
+      "source_sha256": "89b64734d5fdc2131d84f26ea47cadb0a436a6bd875aa9c6212b50cd8bc47f5b",
+      "evidence": "linked smooth manifolds, fibered manifold, and vertical subbundle to their canonical fiber-bundles targets; checked the horizontal-subbundle definition and splitting."
+    },
+    {
+      "id": "fiber-bundles/equivalence-of-cocycles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bf33d68b1ce63e11ace0105d392aadb3f4c9ea79c6b5577a7a5280f08f3ed321",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/equivalence-principal-connections-splittings-of-the-atiyah-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "94e23e9ee23673fba9ec712dc92199df2117edbf625514eee22d552b42d2374e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/equivalent-bundle-atlases",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a24618c79f69abf9b5fd937f8d8d30173cae5e9112abb417fb38606225179d6",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/equivariant-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4bc713539d7a0b042b87a9153fdc7fbafe63f9e55ed6795f745e1b477172ff1e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/equivariant-local-trivialization",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27d829cfb5bf8eb9ac310238615d5b011006d96600e7ea2a84da41afde4ee1e0",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/equivariant-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef6a68817d9a57794881f89db87e86fc096c39b4a41071b7ce5d231aeccc240b",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/equivariant-map-pf-associated-to-a-section-of-p-g-f",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2331e6797be1d95e52e3ea04f4a288d104cd2701402e9ecbdf619eab5758ea02",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/euler-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4aa9b11a60bb17d48f2e6ab780baddb9c1f3ab406fea3a45843e24a5d096cc9b",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/euler-class-as-zero-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5e416e2b8c86e8f80dbc5537fefc2f694cee85ba1398420424521057c7d86f6",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/euler-class-obstruction-to-nonzero-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c2dc93ba0012adf4feeedff509d81e89b77edd11964830779c37bf4d3d95e4c",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/exact-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f73ff9d2b31fec067f29e49667852de8651598d655182b2b73cc9d9d2bfc800",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa7b54d08bb2249e2bcc791cc014eda54d8dd0444da1a6068ed8737df987439f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/existence-of-partitions-of-unity-on-paracompact-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5209e02d7f796edcc34c9b0a7f591dcaa8c6261d824cbfdf8e959f24718c9216",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/existence-of-principal-connections-on-smooth-manifolds",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "da6ae35689e2355424ef5977931837e899e47c2c9dce1a9d86d6ba12b7f8c988",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a6f72ad1fac8237277b418bee6350b6480e07cd86cd3e734bad379c8919957d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/exponential-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "05ff9af268751a39fd56c4068d1cd1485bc1f3d7002a432c5cd04f2866ce8f06",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/extension-of-structure-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "859febbf0b6b4176d7e31de17e0c94c5475004e94575d84bb365eb9215cd80af",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/exterior-covariant-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6e17d4e0cd93589da66b41ba51dcb312d29b7f6e5dbb0c04d25363b5313293f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/exterior-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60d87196cda8576f9588ed46d3beb0aa46658d44bef00facb29393f03c2fb0cc",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/exterior-power-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e332555bc1324720439c1f702cd6f56141a46bd05254c52c38de0c60d08a9c9f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/fiber-coordinates",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d7904f409dbde57ad0caeacabc9fc34cceccc92500999096f1d0bbd25f5eb77",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/fiber-of-a-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b465c812ea36d7105942a1055598f40581c703403676bd1fbf71e2fb61013ec",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/fiber-preserving-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9877355ac6e95b73de65fe540e708a1de4d260cf127b4d368b0255127324999e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/fibered-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c54c94fe081e30234a478124ff2b2387b8c284339d311fcf66d432e19a426c5",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/flat-connection-a0-on-a-trivial-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a061406712fe72b1d56ffff5e1888d46c3d45ebc415a522135bca58d617905e0",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/flat-principal-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "845fa897ed1abbf4cf44004ac5ea213bd85814f76f1ffdbf5ffdfd947bea4886",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/flat-vector-bundle-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7efb854837cee8668f8984031fe896a47bffd0aa4fac5e480b0d02586cffb6c1",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "865d3ec90cdb77bbaf4a12e1f37a6d831b46365296bcc7383a5448df438a1771",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/frame-bundle-fr-of-a-manifold-m",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a43a7553a591d27649d14ef44f4efd183fda4ff05596649342eb78830c3a4080",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8e3cdb3a97e70aa57e42ad6b74488127f0696b6d3d78bf378a86646b0669084",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/g-structure",
+      "outcome": "corrected",
+      "source_sha256": "d79b74578a1d7a17d19890a5a10cccd68eca89e43e182108dfdf2c07c9bca6f7",
+      "evidence": "linked the geometric example almost complex structure to differential-geometry/almost-complex-structure."
+    },
+    {
+      "id": "fiber-bundles/g-torsor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cda04615c28314fae911cb7814961ab6d4b247a335fa4a161eec764809975cd",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/gauge-fixing-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a7f1f994a94bac95c522af0f8e9ee9de7290a038f866f459052dcfb8e4dd2ee",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/gauge-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afedd2153666b7b76c51d0f5d97189c1167bf1c5a7d6c869d58cdc909a3cece2",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/gauge-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f026cf9dd05e45f238efb3e3102b059286e8d5010644b5aac59916d742e5c3b",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/gauge-transform-of-a-local-connection-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d1f94f915f3462c902708413a231c90f123d82b23f8efbce7249b9eaa38f6c7b",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/gauge-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52cf50d1c5e89ce98994961cd67f72ec055b5b93fafd4f9831c095e89e264af0",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/good-cover",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f763f44b4bb61538a7eb352df5ac27e1eb27376c8a606d76f201443aeaa63348",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/hermitian-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0594ce1a7fcb119034302cb093c27405b8043efbfecbb9df1022e52a9c85e7e",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/hermitian-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d81ce5c19e763d247792616fbbbd08b8e36dea0c221f64e2c8a360664e3001a9",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/hermitian-yang-mills-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a83a750ea6530a3358474754f6a161ae2a0b66f5ba328014a6a0c728341961c",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/holonomy-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d405a2b39af2a7b9bc158d0a42916e63b2d6463832cce3ce95dc3ab16c1b85f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/holonomy-correspondence-for-flat-connections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f4674d3c32bcfe1671537f7059e3e967be54adaff7afdb5c6abfae286dbaea4",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/holonomy-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9ad08066b4e6a914f96e4398d730a6a124e56732bde3a91676287b31e983c8f",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/holonomy-reduction-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f62fba5b7ca7ab717acaae48e51ed6de272791cd4d4285c9f034cf2bde32cb09",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/holonomy-representation",
+      "outcome": "corrected",
+      "source_sha256": "a5a2fcbdad245ae4fa6e773157e57440470d6689cff61d0f62870d0f36e97fa1",
+      "evidence": "linked group homomorphism to algebra-groups/group-homomorphism after checking the representation’s domain and codomain."
+    },
+    {
+      "id": "fiber-bundles/hom-bundle-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f02bf41cf2c7e7d952e5fb490b49c38e7534ab5c12e86c25ed15285abb12c01a",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/homotopy-class-mbg",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52a8fb36a56154ee554411915ff222e54fab9024ad49339475dcfd9bef3b824a",
+      "evidence": "Read the complete source, including optional sections and references. The only candidate phrase, continuous maps, was checked in context and is generic supporting language here; no body link was needed because the source’s existing canonical dependencies already provide the reusable concepts. Metadata remains plain text."
+    },
+    {
+      "id": "fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ff09945dd0dd3cf91bd0dd8f235589a60cda9d7c5541030a4f6897a974be0fcd",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/horizontal-differential-form-on-a-principal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f18d2701689a3e9d00a9bb9a4d6242afc0b565370e4a40d638143ab1af23f6cc",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/horizontal-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7719fdc03d319ba1f61346fc3def7ffae3a6f3f3197026c1058f08d9b6464a1d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "112edb69f236d2c3937744a6a515b79ae0d14468acb209683530ccf421f6e97d",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-tangent-vector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f00cd97d3ffc70f657c27e4d351fb9be22e182352901d4154d47a7808222199",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2e104a003ae008a65a3c0b7bd18771990fb9b3bad4eb6e72c0fa9efa52e54c8",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/horizontal-subbundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f51da3a190aeaf237cb7665aaba489b16541e67eecd0e21e0b8c9005e0514ee",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/instanton",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5161e819575610533c68431cc89637305734dae621d33d1c77beefb34861fe6c",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/instanton-number",
+      "outcome": "corrected",
+      "source_sha256": "301fd6b0c6087c6a23241a60e53f3ea8a53d474c5bc755d90d6e2e9c6ec57b8a",
+      "evidence": "linked quadratic form and Hodge star to their canonical linear-algebra and differential-geometry definitions."
+    },
+    {
+      "id": "fiber-bundles/integrable-horizontal-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e548e40ca6a984caccdf8695193dc327812762589d0272e545640793fd3dbfba",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/integrality-of-chern-classes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18b20d0fb92322a95fb5fa5d47ac5944aaf9c65f4af686849c6983e815528bba",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/interior-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ca99b9f0a34148036ffc767ee879bd05915b9d3c6ca7f8aaab8e18201a54ea8",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/interior-product-contraction-x",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c6204ee183fd93b83fcbf275f0f8311b3ea89f90a49815bdb43a0946a807f5a",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/intrinsic-torsion-of-a-g-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10b88ca77dbf1c5a40fc884d19f129406e0ed88703146a251d47b7987e69d8b3",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/invariant-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be4cb08cf5ce88126996f48d77f385d7ff13fdb4c732e9a45e145fb36800e81c",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/invariant-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f78299552d9360d894d1280f31fa2cedda086233edc12041aa98591b40d08f43",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3644121955937e8e0412acc2aac735a0afe2c33696906d1def40340c895c9a58",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/irreducible-connection",
+      "outcome": "corrected",
+      "source_sha256": "162d01b6467c34a880513dfea9580bad5ccaa9c600eaa612664f69967d5aeb28",
+      "evidence": "linked reducible connections to fiber-bundles/reducible-connection in the moduli-space discussion."
+    },
+    {
+      "id": "fiber-bundles/jet-bundle",
+      "outcome": "corrected",
+      "source_sha256": "a29d7ae3250f8e67e7041afc55b5a96d18f6e149f44fe5a04080bc3edf10e146",
+      "evidence": "linked fiber coordinates and partial derivatives to their canonical definitions in the local-coordinate example."
+    },
+    {
+      "id": "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9179705743833383d57ffee7a076a95c9ab67b0e27813ac458a4cfbe051787b",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/l2-inner-product-on-bundle-valued-forms",
+      "outcome": "corrected",
+      "source_sha256": "8186fbddf1248ff318d7560bc8065783941ea4e0aa4f6d70951a8be7e010f3bf",
+      "evidence": "linked formal adjoints to differential-geometry/formal-adjoint-differential-operator as the section heading."
+    },
+    {
+      "id": "fiber-bundles/left-translation-l-g",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "219cc416c1f85a69fcb72e783a5d9f66f71829d7b9ecb59cf50efbafb231d378",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/leibniz-rule-for-a-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ecf5a70ac6e62cfd3ff9a2db5648e5cd4c2e44a91ccf8ed17fba2ca375c74fdc",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/lemma-chernweil-forms-are-basic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d425e04f84d7ec589297638a950efc9132f2df54007399e5ad3d743cf6ce69b8",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/lemma-covariant-exterior-derivative-preserves-tensoriality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "921dac92a0e017c2e9f0ac319143ea1e0284f8278a55a8e70eff889447e45e62",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a1fe8a264a0f400c32e5e8ca9117c68ec0a4915b357e84cc81e7105f5806a3c",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/lemma-local-curvature-transformation-law-fg-g-1fg",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5810004deab9a3da186304d8310a02d6631dd1427e7378573574c50d9a2d9d7",
+      "evidence": "Read the complete source, including all optional sections and references. Checked scanner candidates against the local mathematical context and canonical target definitions; generic words, locally introduced notation, repeated occurrences, and ambiguous open-set/closure matches were rejected where they would not help a reader. Existing prerequisite metadata was inspected and no justified edge change was needed."
+    },
+    {
+      "id": "fiber-bundles/lemma-local-gauge-transformation-law-ag-g-1ag-g-1dg",
+      "outcome": "corrected",
+      "source_sha256": "0a1fdbabd3aff3428084b3b4d9dc340ea2e5702f8f55a8dcb5f3dab7e7d9725e",
+      "evidence": "linked the named local gauge transformation law to fiber-bundles/local-gauge-transformation while retaining the smooth-map and Maurer–Cartan dependencies."
+    },
+    {
+      "id": "fiber-bundles/lemma-maurercartan-equation-for-the-left-maurercartan-form",
+      "outcome": "corrected",
+      "source_sha256": "3f89f6e98870ff67bdc1beeccc1528672aef2310a0c2be68c85c4b896c06b61b",
+      "evidence": "linked left Maurer–Cartan form and Maurer–Cartan equation to their lie-groups definitions; retained exterior-derivative and Lie-bracket links."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 15 covers the fiber-bundles packet. Candidate phrases were reviewed conservatively; no genuinely missing reusable dependency definition was established."
+  ]
+}

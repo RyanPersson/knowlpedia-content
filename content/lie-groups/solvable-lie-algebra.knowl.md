@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathfrak g\) be a Lie algebra. Define its derived series (see [[lie-groups/derived-series-lie-algebra|derived series]]) by
+Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]]. Define its [[algebra-groups/derived-series|derived series]] (see [[lie-groups/derived-series-lie-algebra|derived series]]) by
 \[
 \mathfrak g^{(0)}=\mathfrak g,\qquad \mathfrak g^{(k+1)}=[\mathfrak g^{(k)},\mathfrak g^{(k)}],
 \]

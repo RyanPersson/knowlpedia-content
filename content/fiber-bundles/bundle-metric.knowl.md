@@ -17,7 +17,7 @@ Let \(\pi:E\to M\) be a smooth real vector bundle over a [[fiber-bundles/smooth-
 \]
 for each \(x\in M\) such that:
 
-- Each \(\langle\cdot,\cdot\rangle_x\) is a positive-definite symmetric bilinear form on the real vector space \(E_x\).
+- Each \(\langle\cdot,\cdot\rangle_x\) is a positive-definite symmetric [[linear-algebra/bilinear-form|bilinear form]] on the real vector space \(E_x\).
 - For any smooth local sections \(s,t:U\to E\) (defined on an open set \(U\subseteq M\)), the function
   \[
   U\to\mathbb R,\qquad x\mapsto \langle s(x),t(x)\rangle_x

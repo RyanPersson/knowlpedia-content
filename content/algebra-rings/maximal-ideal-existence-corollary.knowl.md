@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Every nontrivial commutative ring has a maximal ideal**: If \(R\) is a commutative ring with \(1\) and \(1\neq 0\), then there exists a maximal ideal \(\mathfrak m\lhd R\).
+**Every nontrivial [[algebra-rings/commutative-ring|commutative ring]] has a [[algebra-rings/maximal-ideal|maximal ideal]]**: If \(R\) is a commutative ring with \(1\) and \(1\neq 0\), then there exists a maximal ideal \(\mathfrak m\lhd R\).
 
 ## Remarks
 

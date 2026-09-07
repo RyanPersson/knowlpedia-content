@@ -1,0 +1,134 @@
+{
+  "auditor": "qa-01-12",
+  "scope": "Five records per batch (two corrected where available and three unchanged), with source bodies and referenced target definitions inspected.",
+  "checked": {
+    "batch_01": [
+      "algebra-category-theory/abelian-category",
+      "algebra-category-theory/additive-category",
+      "algebra-category-theory/algebra-object",
+      "algebra-category-theory/automorphism-category",
+      "algebra-category-theory/categorical-product"
+    ],
+    "batch_02": [
+      "algebra-fields-galois/completion-at-place",
+      "algebra-fields-galois/finite-field-existence",
+      "algebra-commutative/primary-decomposition",
+      "algebra-commutative/prime-avoidance-lemma",
+      "algebra-commutative/prime-spectrum"
+    ],
+    "batch_03": [
+      "algebra-groups/conjugation-action-self",
+      "algebra-groups/correspondence-theorem-groups",
+      "algebra-groups/conjugate-element",
+      "algebra-groups/conjugation-action",
+      "algebra-groups/coset"
+    ],
+    "batch_04": [
+      "algebra-groups/sylow-conjugacy-lemma",
+      "algebra-groups/sylows-second-theorem",
+      "algebra-groups/subnormal-series",
+      "algebra-groups/sylow-congruence",
+      "algebra-groups/sylow-normal-criterion"
+    ],
+    "batch_05": [
+      "algebra-modules/direct-sum-universal-property",
+      "algebra-modules/dual-module",
+      "algebra-modules/exact-sequence-modules",
+      "algebra-modules/exactness-via-kernels-images",
+      "algebra-modules/exterior-algebra"
+    ],
+    "batch_06": [
+      "algebra-rings/characteristic-zero-or-prime",
+      "algebra-rings/chinese-remainder-decomposition",
+      "algebra-rings/chinese-remainder-theorem",
+      "algebra-rings/commutative-ring",
+      "algebra-rings/commutative-ring-axiom"
+    ],
+    "batch_07": [
+      "algebra-rings/ufd",
+      "algebra-rings/unique-factorization-theorem",
+      "algebra-rings/sum-of-ideals",
+      "algebra-rings/third-isomorphism-theorem-rings",
+      "algebra-rings/total-ring-of-fractions"
+    ],
+    "batch_08": [
+      "algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety",
+      "algebraic-geometry-foundations/projective-morphism",
+      "algebraic-geometry-foundations/projective-line",
+      "algebraic-geometry-foundations/projective-semilinear-group",
+      "algebraic-geometry-foundations/projective-space"
+    ],
+    "batch_09": [
+      "complex-analysis/open-mapping-theorem",
+      "complex-analysis/order-of-zero-or-pole",
+      "complex-analysis/octonionic-affine-line",
+      "complex-analysis/octonionic-hessian",
+      "complex-analysis/octonionic-monge-ampere-measure"
+    ],
+    "batch_10": [
+      "convex-analysis/quasiconvex-function",
+      "convex-analysis/semialgebraic-set",
+      "convex-analysis/domain-of-a-convex-function-is-convex",
+      "convex-analysis/dual-space-and-duality-pairing",
+      "convex-analysis/equivalent-characterizations-of-convex-functions"
+    ],
+    "batch_11": [
+      "differential-geometry/action-angle-coordinates",
+      "differential-geometry/almost-complex-map",
+      "differential-geometry/algebra-of-smooth-functions",
+      "differential-geometry/almost-hermitian-manifold",
+      "differential-geometry/almost-symplectic-manifold"
+    ],
+    "batch_12": [
+      "differential-geometry/formal-adjoint-differential-operator",
+      "differential-geometry/frolicher-spectral-sequence",
+      "differential-geometry/functions-in-involution",
+      "differential-geometry/fundamental-form-almost-hermitian",
+      "differential-geometry/geodesic"
+    ]
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "batch": "batch_02",
+      "source": "algebra-fields-galois/finite-field-existence",
+      "finding": "The corrected record claims the source was fully checked, and prerequisites include linear-algebra/vector-space and algebra-rings/irreducible-polynomial, but the body\u2019s core still says only \u2018finite-dimensional vector space\u2019 and \u2018irreducible polynomial\u2019 in plain text. Neither occurrence is linked. Both are central dependencies in the theorem, not optional exposition.",
+      "action": "Add links in the core (at least the first occurrence of each), then update the review hash/evidence.",
+      "status": "resolved"
+    },
+    {
+      "severity": "high",
+      "batch": "batch_05",
+      "source": "algebra-modules/direct-sum-universal-property",
+      "finding": "The corrected record says source-specific links were added, but the core premise still contains an unlinked family of R-modules and the conclusion uses unlinked homomorphisms before the later linked phrase \u2018module homomorphisms\u2019. The target algebra-modules/module-homomorphism exists and is already a prerequisite-adjacent concept.",
+      "action": "Link the first defining occurrence(s) in the core, preserving the later explanatory link.",
+      "status": "resolved"
+    },
+    {
+      "severity": "high",
+      "batch": "batch_10",
+      "source": "convex-analysis/domain-of-a-convex-function-is-convex",
+      "finding": "The unchanged record says existing links cover genuine dependencies, but the core begins \u2018Let X be a real vector space\u2019 with no link to linear-algebra/vector-space. The target exists and vector-space is necessary context for the definition; the record\u2019s prerequisites omit it.",
+      "action": "Link the core vector space and add linear-algebra/vector-space to prerequisites if the project\u2019s dependency convention treats defining ambient structures as prerequisites.",
+      "status": "resolved"
+    },
+    {
+      "severity": "medium",
+      "batch": "batch_10",
+      "source": "convex-analysis/equivalent-characterizations-of-convex-functions",
+      "finding": "The unchanged record claims no additional canonical target, yet the theorem\u2019s opening phrase \u2018real vector space X\u2019 is unlinked while linear-algebra/vector-space is a canonical target. This is the same core ambient-structure omission as the preceding knowl and should be handled consistently.",
+      "action": "Add the vector-space link (and review prerequisite metadata consistently with the domain theorem).",
+      "status": "resolved"
+    },
+    {
+      "severity": "medium",
+      "batch": "batch_11",
+      "source": "differential-geometry/almost-complex-map",
+      "finding": "The corrected record says smooth-map linking was handled, but the defining premise still says \u2018smooth manifolds\u2019 in plain text. fiber-bundles/smooth-manifold is a canonical target and the notion is used as the ambient structure, not merely generic prose. Existing prerequisites omit it.",
+      "action": "Link the first smooth-manifold occurrence and add the ambient prerequisite if consistent with nearby almost-Hermitian records.",
+      "status": "resolved"
+    }
+  ],
+  "resolved_issues": "All five findings were fixed in the source bodies above; shard outcomes and hashes were updated. Rechecked each link target exists and each edited phrase is in the core or first defining statement.",
+  "passes": "The remaining sampled records had links at the first useful occurrences and prerequisites matching their defining dependencies. In particular, the orbit-map candidate in projective-line-as-rank-one-flag-variety is correctly rejected because its target is a different smooth Lie-group sense; the affine-line candidate in octonionic-affine-line is correctly rejected because the available target is the scheme-theoretic affine line; integration-by-parts and smooth-sections in formal-adjoint-differential-operator are linked. These are spot-check passes, not certification of the unexamined records."
+}

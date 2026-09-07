@@ -11,6 +11,6 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Uniqueness of limits in Hausdorff spaces:** Let \(X\) be a [[topology/hausdorff-space|Hausdorff space]] and let \((x_n)\) be a sequence in \(X\). If \((x_n)\) [[topology/convergent-sequence|converges]] to both \(x\in X\) and \(y\in X\), then \(x=y\).
+**Uniqueness of limits in Hausdorff spaces:** Let \(X\) be a [[topology/hausdorff-space|Hausdorff space]] and let \((x_n)\) be a [[shared-foundations/sequence|sequence]] in \(X\). If \((x_n)\) [[topology/convergent-sequence|converges]] to both \(x\in X\) and \(y\in X\), then \(x=y\).
 
-This property is a key reason Hausdorff spaces behave like metric spaces with respect to convergence, and it is closely aligned with results like [[topology/compact-subset-of-hausdorff-is-closed|compact subsets are closed]].
+This property is a key reason Hausdorff spaces behave like [[topology/metric-space|metric spaces]] with respect to convergence, and it is closely aligned with results like [[topology/compact-subset-of-hausdorff-is-closed|compact subsets are closed]].

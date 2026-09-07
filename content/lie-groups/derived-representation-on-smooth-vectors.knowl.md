@@ -15,7 +15,7 @@ Let \(G\) be a finite-dimensional [[fiber-bundles/lie-group|Lie group]] with
 [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), and let \(\pi\) be a
 [[lie-groups/strongly-continuous-unitary-representation|strongly continuous
 unitary representation]] on a [[linear-algebra/hilbert-space|Hilbert space]]
-\(\mathcal H\). On the common dense invariant subspace \(\mathcal H^\infty\)
+\(\mathcal H\). On the common dense [[linear-algebra/operator-invariant-subspace|invariant subspace]] \(\mathcal H^\infty\)
 of [[lie-groups/smooth-vector-unitary-representation|smooth vectors]], its
 **derived representation** is
 \[

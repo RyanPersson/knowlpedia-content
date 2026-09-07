@@ -25,7 +25,7 @@ where \(g_s(p)\in G\) is the unique element satisfying \(p=s(\pi(p))\cdot g_s(p)
 
 Moreover, \(\Phi_s\) is \(G\)-equivariant for the right action on \(\pi^{-1}(U)\) and the right action on \(U\times G\) given by \((x,g)\cdot h=(x,gh)\).
 
-This is the standard way local trivializations are produced and is the starting point for defining local connection forms and curvature.
+This is the standard way [[fiber-bundles/local-trivialization|local trivializations]] are produced and is the starting point for defining local connection forms and curvature.
 
 ## Examples
 1. **Trivial bundle.** For \(P=M\times G\) with section \(s(x)=(x,e)\), the map \(\Phi_s\) is the identity \(U\times G\to U\times G\).

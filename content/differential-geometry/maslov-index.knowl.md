@@ -19,7 +19,7 @@ Equivalently, fix \(L_0\in\Lambda(V)\) and perturb \(\ell\) to meet the [[differ
 
 ## Crossing-form formula
 
-For a smooth path \(\ell:[a,b]\to\Lambda(V)\), a crossing time satisfies \(\ell(t)\cap L_0\neq0\). Its crossing form is the quadratic form on that intersection obtained by differentiating the moving plane. If all crossings are regular and the endpoints are transverse, then
+For a smooth path \(\ell:[a,b]\to\Lambda(V)\), a crossing time satisfies \(\ell(t)\cap L_0\neq0\). Its [[differential-geometry/crossing-form|crossing form]] is the quadratic form on that intersection obtained by differentiating the moving plane. If all crossings are regular and the endpoints are transverse, then
 \[
 \mu(\ell,L_0)=\sum_{a<t<b}\operatorname{sign}\Gamma(\ell,L_0,t).
 \]

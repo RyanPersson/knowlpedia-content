@@ -2,7 +2,7 @@
 id = "probability/conditional-probability"
 title = "Conditional probability"
 kind = "knowl"
-summary = "Probability of an event given another event or a sigma-algebra representing available information"
+summary = "[[probability/event-probability|Probability of an event]] given another event or a sigma-algebra representing available information"
 aliases = ["conditional-probability", "Conditional probability"]
 domains = ["probability"]
 legacy_source_path = "probability/conditional-probability.md"

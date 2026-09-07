@@ -27,4 +27,4 @@ When \(f\) is Riemann integrable, the common value is the [[real-analysis/rieman
 ## Examples
 
 - Any function that is continuous on \([a,b]\) is Riemann integrable.
-- The indicator function of \(\mathbb Q\cap[a,b]\) is not Riemann integrable on \([a,b]\).
+- The [[measure-theory/indicator-function|indicator function]] of \(\mathbb Q\cap[a,b]\) is not Riemann integrable on \([a,b]\).

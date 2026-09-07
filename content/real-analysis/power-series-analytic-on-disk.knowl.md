@@ -23,4 +23,4 @@ f'(z)=\sum_{n=1}^\infty n\,a_n (z-z_0)^{n-1}.
 
 ## Remarks
 
-This is the fundamental analytic regularity of [[real-analysis/power-series|power series]] and is typically established via [[real-analysis/term-by-term-differentiation|term-by-term differentiation]] together with uniform convergence on compact subsets (see [[real-analysis/power-series-uniform-convergence-on-compacts|uniform convergence on compacts for power series]]).
+This is the fundamental analytic regularity of [[real-analysis/power-series|power series]] and is typically established via [[real-analysis/term-by-term-differentiation|term-by-term differentiation]] together with [[real-analysis/uniform-convergence|uniform convergence]] on compact subsets (see [[real-analysis/power-series-uniform-convergence-on-compacts|uniform convergence on compacts for power series]]).

@@ -15,7 +15,7 @@ A **Lie group homomorphism** is a map \(\varphi:G\to H\) between [[fiber-bundles
 - \(\varphi(gh)=\varphi(g)\varphi(h)\) for all \(g,h\in G\), and
 - \(\varphi\) is a [[fiber-bundles/smooth-map|smooth map]].
 
-Equivalently, \(\varphi\) is a group homomorphism that is smooth as a map of manifolds.
+Equivalently, \(\varphi\) is a [[algebra-groups/group-homomorphism|group homomorphism]] that is smooth as a map of manifolds.
 
 ## Differential at the identity
 The [[fiber-bundles/differential-of-a-smooth-map|differential]] at the identity,

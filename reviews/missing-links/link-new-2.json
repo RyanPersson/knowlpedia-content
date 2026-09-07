@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "differential-geometry/compactly-supported-differential-form",
+      "outcome": "corrected",
+      "source_sha256": "1815a9b80c6be96af81546a249d50aee70eb232c5cb45c109f60ad2fdea5baf2",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/diffeomorphism-group",
+      "outcome": "corrected",
+      "source_sha256": "18fd5fd7faa58c0a3d59c234f0c6d98777726a0eba124446c139b5e2fcdb54ea",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/einstein-manifold",
+      "outcome": "corrected",
+      "source_sha256": "1a52bb932792e4ab0da2eeede120445fa580f0a9bb566e84a4b39a529a596b9c",
+      "evidence": "Read complete source and sectional-curvature target; linked sectional curvature in the stated Riemannian sense and Gaussian curvature where the two-dimensional identification is explicit. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/exact-symplectic-manifold",
+      "outcome": "corrected",
+      "source_sha256": "c0d4914297da88f6b93e8c28b4a88132541bdea34546d57adc20b212e7906d83",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/fubini-study-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ed285687ccb0f81fb3b4f24e3e16b5327d7967945a5818cb0121f3785724d65",
+      "evidence": "Read complete source and target definitions. Rejected linking holomorphic sectional curvature to the ordinary sectional-curvature knowl because the qualifier changes the mathematical notion. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/geodesic-flow",
+      "outcome": "corrected",
+      "source_sha256": "3fef3a3c6eed3a8631fb8432f4d3ac0dcd02d00c4f039c806107d0b3ae402f0b",
+      "evidence": "Read complete source and sectional-curvature target; linked sectional curvature in the stated Riemannian sense and Gaussian curvature where the two-dimensional identification is explicit. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/hodge-star-operator",
+      "outcome": "corrected",
+      "source_sha256": "8130cb950a1d47dbddc40270c1b25cc201fdd08994831b9601dd597cd85242b8",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/hyperbolic-three-space",
+      "outcome": "corrected",
+      "source_sha256": "aa2099249c73e6f44bcb1a65063bc82b3830c0cc43bd3f4b5fa442d4decd3f57",
+      "evidence": "Read complete source and sectional-curvature target; linked sectional curvature in the stated Riemannian sense and Gaussian curvature where the two-dimensional identification is explicit. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/kahler-manifold",
+      "outcome": "corrected",
+      "source_sha256": "8a45244694be33e763521390b8e858a32319192897bc939e4759ca7c88a2caac",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/maslov-cycle",
+      "outcome": "corrected",
+      "source_sha256": "b71acb7dfbd1a5b7a43291ec2a31412bb6dad88bebc369cb632f345c09699527",
+      "evidence": "Read complete source and crossing-form target; linked crossing form(s) where the Maslov crossing construction is being invoked. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/maslov-index",
+      "outcome": "corrected",
+      "source_sha256": "29ebf4f4e7921bb6f4536f4dd1122ae60ac1fbc2fa1f607591f40405fde0590c",
+      "evidence": "Read complete source and crossing-form target; linked crossing form(s) where the Maslov crossing construction is being invoked. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/relative-maslov-index",
+      "outcome": "corrected",
+      "source_sha256": "2dacabc2ccbba3a5eec36ee5bbd78135b5b415a09dfd6e7540cbc78aa0ade88f",
+      "evidence": "Read complete source and crossing-form target; linked crossing form(s) where the Maslov crossing construction is being invoked. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/ricci-curvature",
+      "outcome": "corrected",
+      "source_sha256": "f43798c00404473b3d150fca8a9fe7e8e82fb3c088e500d34b7dc9097e578718",
+      "evidence": "Read complete source and sectional-curvature target; linked sectional curvature in the stated Riemannian sense and Gaussian curvature where the two-dimensional identification is explicit. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/riemann-curvature-tensor",
+      "outcome": "corrected",
+      "source_sha256": "e46c09bf0b3831c02f45ce941ba518b9680a1f01b7f0102a1caa58dc3d489550",
+      "evidence": "Read complete source and sectional-curvature target; linked sectional curvature in the stated Riemannian sense and Gaussian curvature where the two-dimensional identification is explicit. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/riemannian-manifold",
+      "outcome": "corrected",
+      "source_sha256": "0b25d36f58c8c81672c84c7ca3aaf65ece5b0e238d9f5e00d53e5fb75781a925",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/sards-theorem",
+      "outcome": "corrected",
+      "source_sha256": "aae88e09a7ec43a7b5364c079a6b9a3cc4d2b0553e0e2e7438cc6b2cd7034a7c",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/smooth-maps-from-smooth-function-algebras",
+      "outcome": "corrected",
+      "source_sha256": "faf1630fbd86f42f9c383083274d469a55514f0b353c9922cc1cefd34d61a0a7",
+      "evidence": "Read complete source and fully-faithful-functor target; linked the categorical property in the theorem core and rejected the broader faithful-functor lookalike. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/symplectic-lie-group-action",
+      "outcome": "corrected",
+      "source_sha256": "467c99c863c7e94f5e1cf635b3016363b14d3ae012764acc4dc1f714c6071ffd",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "differential-geometry/symplectic-manifold",
+      "outcome": "corrected",
+      "source_sha256": "ea5f222368be5998895bf7e200e5fd3b98b9fbab0ae233d73dc3d5a4e8c9cbdf",
+      "evidence": "Read complete source and volume-form target; linked the ordinary volume form occurrence while preserving surrounding negation or explanatory context. Generic or merely incidental matches were not saturated."
+    },
+    {
+      "id": "fiber-bundles/cartans-second-structure-equation",
+      "outcome": "corrected",
+      "source_sha256": "deb5b3bfc0e0fd6fa8a39c2064852508ab3e8e3ff4704b42a6752a89414e4533",
+      "evidence": "Read complete source and sectional-curvature target; linked sectional curvature in the stated Riemannian sense and Gaussian curvature where the two-dimensional identification is explicit. Generic or merely incidental matches were not saturated."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Canonical-definition integration pass link-new-2: differential geometry targets reviewed against complete sources and target conventions."
+  ]
+}
+

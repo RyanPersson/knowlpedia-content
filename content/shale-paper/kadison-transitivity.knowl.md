@@ -21,4 +21,4 @@ then there exists \(A\in\mathfrak A\) with \(Ax=y\).
 
 ## Examples
 
-- In \(B(\mathcal H)\), take \(A\) to be a rank-one operator sending \(x\) to \(y\).
+- In \(B(\mathcal H)\), take \(A\) to be a [[functional-analysis/rank-one-operator|rank-one operator]] sending \(x\) to \(y\).

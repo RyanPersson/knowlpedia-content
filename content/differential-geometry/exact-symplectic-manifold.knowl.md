@@ -31,7 +31,7 @@ A positive-dimensional compact symplectic manifold without boundary cannot be ex
 \[
 \omega^n=d(\lambda\wedge\omega^{n-1}),
 \]
-so [[differential-geometry/stokes-theorem|Stokes' theorem]] would force \(\int_M\omega^n=0\), contradicting that \(\omega^n\) is a volume form. Compact exact symplectic manifolds are consequently studied with boundary and additional behavior of the primitive near that boundary.
+so [[differential-geometry/stokes-theorem|Stokes' theorem]] would force \(\int_M\omega^n=0\), contradicting that \(\omega^n\) is a [[differential-geometry/volume-form|volume form]]. Compact exact symplectic manifolds are consequently studied with boundary and additional behavior of the primitive near that boundary.
 
 ## References
 

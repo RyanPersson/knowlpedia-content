@@ -31,7 +31,7 @@ The [[differential-geometry/local-kahler-potential|local potential]] \(\log(1+\l
 
 The Fubini–Study metric has positive constant holomorphic sectional curvature, with the numerical value depending on normalization. Its [[differential-geometry/kahler-class|Kähler class]] generates \(H^2(\mathbb{CP}^n;\mathbb Z)\) after the standard integral normalization \([\omega_{\mathrm{FS}}/(2\pi)]\). On \(\mathbb{CP}^1\), it is a constant multiple of the round metric under the identification with the two-sphere.
 
-The metric is also obtained by Kähler reduction of the unit sphere in \(\mathbb C^{n+1}\) by the scalar \(S^1\)-action.
+The metric is also obtained by Kähler reduction of the [[linear-algebra/unit-sphere|unit sphere]] in \(\mathbb C^{n+1}\) by the scalar \(S^1\)-action.
 
 ## References
 

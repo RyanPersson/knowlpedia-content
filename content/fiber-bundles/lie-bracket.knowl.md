@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
 
-A **Lie bracket** on a vector space \(\mathfrak{g}\) over a field \(k\) is a \(k\)-bilinear map
+A **Lie bracket** on a [[linear-algebra/vector-space|vector space]] \(\mathfrak{g}\) over a field \(k\) is a \(k\)-bilinear map
 \[
 [\,,\,]:\mathfrak{g}\times\mathfrak{g}\to\mathfrak{g}
 \]

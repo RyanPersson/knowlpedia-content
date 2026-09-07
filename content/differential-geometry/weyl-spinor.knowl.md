@@ -28,8 +28,7 @@ vector reverses chirality:
 c(v):\Delta^\pm\longrightarrow\Delta^\mp.
 \]
 
-The definition requires even dimension and a complex chiral spin
-representation. A compatible reality condition is separate data; when one
+The definition requires even dimension and a complex [[lie-groups/half-spin-representation|chiral spin representation]]. A compatible reality condition is separate data; when one
 exists and preserves a half-spin representation, it defines
 [[differential-geometry/majorana-weyl-spinor|Majorana–Weyl spinors]].
 

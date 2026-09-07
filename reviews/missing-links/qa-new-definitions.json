@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "scope": "all 16 new production definitions, including final root corrections",
+  "entries": [
+    {
+      "id": "algebra-category-theory/faithful-functor",
+      "source_sha256": "e847e2dc18145f5518f2c689b8c6061ba7b248760d2eeb756a00caa23c9b1ce9",
+      "status": "verified",
+      "residual_issues": []
+    },
+    {
+      "id": "algebra-category-theory/fully-faithful-functor",
+      "source_sha256": "248fe3ee333625bf6411f8cd41114a5303687a08252305dd4769dcb155ee8b3e",
+      "status": "verified",
+      "residual_issues": []
+    },
+    {
+      "id": "algebra-groups/alternating-group",
+      "source_sha256": "5f198a2d7aa11da968c7e58d0314ab584b3a1c968d5e12162eae4977b3b3b245",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root read finite-permutation and kernel-group definitions. Chose the sign-kernel formula as the single core definition, explained S_n via the existing permutation target, and moved the even-permutation restatement into Properties."
+    },
+    {
+      "id": "algebra-groups/quaternion-group",
+      "source_sha256": "a2f814ad9c3794fb764694f952b494c044243c68fbe33995a9178863f2b56c2a",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root re-read complete source: eight elements and defining multiplication relations remain in the core; derived pairwise multiplication rules now unfold separately."
+    },
+    {
+      "id": "differential-geometry/crossing-form",
+      "source_sha256": "ffd2ce5757fe6d2cca989416df89350a82e5bd923d18d22fcc57fd057193d901",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root re-read the graph-chart definition: kept the hypotheses and quadratic form in the core, moved attribution and complement independence to the supporting graph-formula section."
+    },
+    {
+      "id": "differential-geometry/gaussian-curvature",
+      "source_sha256": "339866e07975ced26c47473e5fb98039543743756959f5628b478bd3f195e4b7",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root re-read the complete definition: moved the equivalent curvature-tensor formula from the minimal core into an expandable section; linked the supporting sectional-curvature occurrence. Removed inconsistent edition wording in the 1976 reference."
+    },
+    {
+      "id": "differential-geometry/poincare-disk-model",
+      "source_sha256": "db3c02b60cc5ccd6baaf3442621270579bbfe78801f3f015557a5a2f7960cff9",
+      "status": "verified",
+      "residual_issues": []
+    },
+    {
+      "id": "differential-geometry/sectional-curvature",
+      "source_sha256": "533a008334e5aa6a2d0289949673959c7b4ba1057994ecfb848af42cdcf3dddf",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root re-read the complete source: defining formula and sign convention remain in the core; basis-independence explanation now unfolds separately."
+    },
+    {
+      "id": "differential-geometry/volume-form",
+      "source_sha256": "2f322155d56838f3283e2e00b510ccba5733818c1cf56862dfee09b9360b90c5",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root read smooth-manifold, orientation and differential-k-form targets and linked the defining occurrences. Deleted the redundant informal volume gloss from the core; retained the precise positive top-form definition and optional metric/existence discussion."
+    },
+    {
+      "id": "operator-algebras/calkin-algebra",
+      "source_sha256": "1c13598726b212a38f37eec497c08e9aed528bdd269b7b5bb4c20b272efa3551",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root read quotient-C*-algebra target and linked the core quotient; moved the equivalence-class explanation into the essential-information section. The core now consists of the quotient and definitions of its two terms."
+    },
+    {
+      "id": "probability/normal-distribution",
+      "source_sha256": "99865b882f6f3063eebb399938534c07001827b947d444b29c3927f675f96539",
+      "status": "verified",
+      "residual_issues": [],
+      "root_followup": "Root read probability-measure, Lebesgue-measure and Radon\u2013Nikodym-derivative definitions. Added exact body links for distribution as measure and density, and recorded these actual defining prerequisites; both probability densities integrate to one and are absolutely continuous with respect to sigma-finite Lebesgue measure."
+    },
+    {
+      "id": "probability/uniform-distribution",
+      "source_sha256": "6178416e373e224966c560aef0549016fed8b09e7f221ce5a01e2d396dc0d996",
+      "status": "verified",
+      "residual_issues": [],
+      "root_followup": "Root read probability-measure, Lebesgue-measure and Radon\u2013Nikodym-derivative definitions. Added exact body links for distribution as measure and density, and recorded these actual defining prerequisites; both probability densities integrate to one and are absolutely continuous with respect to sigma-finite Lebesgue measure."
+    },
+    {
+      "id": "shale-paper/schrodinger-representation",
+      "source_sha256": "31edaf2332b13f5b5544a004cb5c5781dc117dee23739c8ec20a50abddb1e887",
+      "status": "verified",
+      "residual_issues": [],
+      "root_followup": "Read source and unitary/Lp targets, checked phase multiplication and added defining body links; core is now formula only, Weyl identity expandable.",
+      "reference_check": "Root checked publisher-supplied preview table of contents: Folland Chapter 1 \u00a73 begins p.21, not \u00a72. Phase normalization verified by the explicit multiplication in this knowl; preview is bibliographic verification, not evidence of checking the full section."
+    },
+    {
+      "id": "topology/reduced-cohomology",
+      "source_sha256": "5499c5862d666e2b71d6f1be9bbd44b2a67b1aeb394b5f71525648f4f859e1a6",
+      "status": "verified",
+      "residual_issues": [],
+      "root_final_review": "Root checked Hatcher \u00a73.1 pp.199\u2013200 directly: quotient by constant zero-cocycles, reduction map direction H\u2192reduced H, and relative-to-a-point identification without connectedness. Replaced the incorrect reversed natural map and connectedness warning; clarified path components/product. Linked ordinary cohomology and quotient targets; kept one core definition with cochain construction expandable."
+    },
+    {
+      "id": "functional-analysis/rank-one-operator",
+      "status": "pass",
+      "source_sha256": "6d43f0159d1646abb734686d61d0a1af2c51c64f5731b7573d414996268f3ad3",
+      "issues": [],
+      "evidence": "Root read complete source and target definitions; minimal core checked, optional implications and examples consistent with stated scope."
+    },
+    {
+      "id": "measure-theory/borel-measure",
+      "status": "pass",
+      "source_sha256": "2a6cabf97300ab8fa06b50651a19ffa558393a9ff321668e1005f19e0551c7e4",
+      "issues": [],
+      "evidence": "Root read complete source and target definitions; minimal core checked, optional implications and examples consistent with stated scope."
+    }
+  ]
+}

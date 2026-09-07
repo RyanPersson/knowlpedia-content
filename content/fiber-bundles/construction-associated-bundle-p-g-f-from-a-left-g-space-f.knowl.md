@@ -21,11 +21,11 @@ Define the associated bundle as the quotient
 \[
 P\times_G F := (P\times F)/G,
 \]
-and write \([p,f]\) for the equivalence class of \((p,f)\). The projection
+and write \([p,f]\) for the [[shared-foundations/equivalence-class|equivalence class]] of \((p,f)\). The projection
 \[
 \pi_F: P\times_G F \to M,\qquad \pi_F([p,f])=\pi(p),
 \]
-is well-defined and makes \(P\times_G F\) into a smooth fiber bundle with typical fiber \(F\).
+is well-defined and makes \(P\times_G F\) into a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] with typical fiber \(F\).
 
 ## Remarks
 

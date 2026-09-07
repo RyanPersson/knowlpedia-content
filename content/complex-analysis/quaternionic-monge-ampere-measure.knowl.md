@@ -25,7 +25,7 @@ and \(dV\) is [[measure-theory/lebesgue-measure|Lebesgue measure]].
 ## Continuous potentials
 
 For a continuous quaternionic PSH function, this expression has a unique
-extension as a nonnegative Borel measure characterized by agreement with the
+extension as a nonnegative [[measure-theory/borel-measure|Borel measure]] characterized by agreement with the
 smooth formula and continuity under locally
 [[real-analysis/uniform-convergence|uniform convergence]]. This is the
 quaternionic analogue of Aleksandrov's real Hessian measure and the

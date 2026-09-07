@@ -27,7 +27,7 @@ where \(B(x,\varepsilon)\) denotes the [[topology/open-ball|open ball]] of radiu
 
 ## Remarks
 
-Total boundedness is stronger than [[topology/bounded-set|boundedness]] and is one of the two metric ingredients (the other is [[topology/complete-metric-space|completeness]]) that together characterize [[topology/compact-set|compactness]] in metric spaces.
+Total boundedness is stronger than [[topology/bounded-set|boundedness]] and is one of the two metric ingredients (the other is [[topology/complete-metric-space|completeness]]) that together characterize [[topology/compact-set|compactness]] in [[topology/metric-space|metric spaces]].
 
 ## Examples
 

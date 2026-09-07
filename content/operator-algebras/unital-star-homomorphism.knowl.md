@@ -32,8 +32,8 @@ Every unital \(*\)-homomorphism is positive, completely positive, and
 contractive, with norm and completely bounded norm equal to one when the
 codomain is nonzero. It preserves spectra in the one-sided sense
 \(\sigma_B(\phi(a))\subseteq\sigma_A(a)\); equality holds when \(\phi\) is
-injective. It also commutes with continuous and holomorphic functional
-calculus. These are consequences of the \(C^*\)-identity, not extra axioms.
+injective. It also commutes with continuous and [[functional-analysis/holomorphic-functional-calculus-banach-algebra|holomorphic functional
+calculus]]. These are consequences of the \(C^*\)-identity, not extra axioms.
 
 ## Examples and near-misses
 

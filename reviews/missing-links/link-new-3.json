@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "fiber-bundles/chern-gauss-bonnet-theorem",
+      "outcome": "corrected",
+      "source_sha256": "7628c83a75e3bb954fe2323ff4183f87c14c95e4ba582107f925a19467d23d4f",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "fiber-bundles/curvature-of-a-vector-bundle-connection",
+      "outcome": "corrected",
+      "source_sha256": "601d93685e296740b8049a713e2c27a901f80bc5edb50e6ee18f541a1e056a13",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "fiber-bundles/differential-k-form",
+      "outcome": "corrected",
+      "source_sha256": "3379d901b9494b359277f6e2b936a0763b670330ea06e904b7a3e54491bf6514",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "fiber-bundles/euler-class",
+      "outcome": "corrected",
+      "source_sha256": "63b1f771c64ed2049755788f162b18f6fbdaaa54abec09282164dca9050ba92f",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "fiber-bundles/interior-product",
+      "outcome": "corrected",
+      "source_sha256": "13280e0c65fc28fdcf5b650a08de6951db3958e1a1c49ff35ce876d36e046231",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "fiber-bundles/invariant-differential-form",
+      "outcome": "corrected",
+      "source_sha256": "1c97cb83c2162a43828c6f70a89597986409f6fca5687c96163d0124fb537e4f",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "fiber-bundles/thom-isomorphism-theorem",
+      "outcome": "corrected",
+      "source_sha256": "f0e4be6d9fc8278e97b3f75e0c901f77a452eedd0f51dbb4f2c6a117392c31d0",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "functional-analysis/fredholm-operator",
+      "outcome": "corrected",
+      "source_sha256": "7513744dd2416c822b04a1300bf8527289ba2fc3a2c23c21ff3cb4b43eeb2ee4",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "langlands/spectral-action",
+      "outcome": "corrected",
+      "source_sha256": "8342f0a36ac31fb47be6d650387b826454e3c4a3fd255f3f30aabc002ffb0079",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/bi-invariant-differential-form",
+      "outcome": "corrected",
+      "source_sha256": "62ef283facbfddb57685fa39023a22154fde213edfeb956f9648c3921ba6d691",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/compact-lie-group-bi-invariant-metric",
+      "outcome": "corrected",
+      "source_sha256": "8dedc07ecf737c276f2a4f8d957bd639224e044cd2208b6daf89879bfdd7fc57",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/complex-lie-algebra-sl5",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25bae4d0a6663c0eddbb45423cdfb805a7b05bd1d94735f5423be1a735cd5948",
+      "evidence": "Read the complete source and proposed target. Rejected the proposed link: The phrase refers to an algebraic volume form on the vector space, not a differential-geometric volume form on a manifold."
+    },
+    {
+      "id": "lie-groups/defining-representation-of-a-classical-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "689b7eb264c397f5b9f0f1e6d9c6b0b43bbd1e00996d1555192a2e434bcaeebc",
+      "evidence": "Read the complete source and proposed target. Rejected the proposed link: The phrase is a volume form on the representation space; the proposed differential-geometric target has the wrong mathematical qualifier."
+    },
+    {
+      "id": "lie-groups/half-spin-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "82be75f551672bb7b0ce02d78199fffccce2686fe0dcf07bf9755794cc4c6c0a",
+      "evidence": "Read the complete source and proposed target. Rejected the proposed link: \u201cVolume element\u201d here is the Clifford volume element, not a differential-geometric volume form; linking would conflate distinct objects."
+    },
+    {
+      "id": "lie-groups/kirillov-correspondence-nilpotent-lie-groups",
+      "outcome": "corrected",
+      "source_sha256": "fb526c73aa5ccd3edd2c4cc44581c3908d70c55d5b66fe9ea9439e793b53e61e",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/metaplectic-representation",
+      "outcome": "corrected",
+      "source_sha256": "8bcbf3ec9a41473315ff416301c51b44cd84e254d74757c742cb87e41f750f81",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/orbit-method",
+      "outcome": "corrected",
+      "source_sha256": "bd13f9b36f4d7e7f7a8c62f189c7fe1c5f14918337752c6eff236322b9e763f9",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/orbit-method-induced-representation",
+      "outcome": "corrected",
+      "source_sha256": "cbf4a66d85d5ae9e0d9ee055a8ffd24540eab552b2d29a9f16d7d232ddedf6be",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/riemannian-symmetric-space-noncompact-type",
+      "outcome": "corrected",
+      "source_sha256": "257c4eb50ab0b239bd358ea9fd73d7f519019972cb233c7530d59ca68df789d1",
+      "evidence": "Read the complete source and proposed target definition; linked the exact occurrence of the new canonical concept in its explanatory or example section. The target definition matches the source meaning and conventions; minimal core and prerequisites were preserved."
+    },
+    {
+      "id": "lie-groups/spin6-su4-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cef865793ea50fa28f6014f398a990d5f2e064c021fc4f489d071981d5e5bb5d",
+      "evidence": "Read the complete source and proposed target. Rejected the proposed link: The phrase is a complex volume form on a vector space, not a differential-geometric volume form on a manifold."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "New canonical definitions integration pass 3: 16 exact links added; 4 lookalike volume-form candidates rejected on semantic grounds."
+  ]
+}
+

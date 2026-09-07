@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]].
 
-\(R\) is **Artinian** if it satisfies the *descending chain condition* (DCC) on ideals: for every chain
+\(R\) is **Artinian** if it satisfies the *descending chain condition* (DCC) on [[algebra-rings/ideal|ideals]]: for every chain
 \[
 I_1 \supseteq I_2 \supseteq I_3 \supseteq \cdots
 \]

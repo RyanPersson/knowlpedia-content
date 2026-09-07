@@ -33,4 +33,4 @@ A [[algebraic-geometry-foundations/grothendieck-topology|Grothendieck topology]]
 
 ## Why sieves are useful
 
-A covering family is a chosen list of local charts. Its generated sieve also includes every chart obtained by refining one of them, so it is independent of redundant choices in the original list. This makes sieves the natural categorical form of “all local probes compatible with this cover.”
+A [[algebraic-geometry-foundations/covering-family|covering family]] is a chosen list of local charts. Its generated sieve also includes every chart obtained by refining one of them, so it is independent of redundant choices in the original list. This makes sieves the natural categorical form of “all local probes compatible with this cover.”

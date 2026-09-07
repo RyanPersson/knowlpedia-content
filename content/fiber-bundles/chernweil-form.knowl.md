@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] and let \(\omega\in\Omega^1(P;\mathfrak{g})\) be a [[fiber-bundles/principal-connection|principal connection]] with curvature \(\Omega\in\Omega^2(P;\mathfrak{g})\) (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form of a principal connection]]).
 
-Let \(P\) (unfortunately the same letter is standard) also denote an \(\mathrm{Ad}\)-invariant symmetric multilinear polynomial of degree \(k\) on the Lie algebra \(\mathfrak{g}\), i.e. an element of \((\mathrm{Sym}^k\mathfrak{g}^*)^G\).
+Let \(P\) (unfortunately the same letter is standard) also denote an \(\mathrm{Ad}\)-invariant symmetric multilinear polynomial of degree \(k\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\), i.e. an element of \((\mathrm{Sym}^k\mathfrak{g}^*)^G\).
 
 The **Chern–Weil form** associated to the invariant polynomial \(P\) and the connection \(\omega\) is the \((2k)\)-form on \(P\)
 \[

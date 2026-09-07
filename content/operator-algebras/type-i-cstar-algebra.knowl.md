@@ -23,7 +23,7 @@ Equivalently, every [[operator-algebras/factorial-representation|factor represen
 
 ## Examples and contrasts
 
-Every commutative \(C^*\)-algebra and every compact-operator algebra \(K(H)\) is type I. The stronger CCR, or liminal, condition requires \(\pi(A)=K(H_\pi)\) for every irreducible \(\pi\); type I only requires containment. Group \(C^*\)-algebras of type I groups supply important noncommutative examples, while many discrete groups have non-type-I full group algebras.
+Every commutative \(C^*\)-algebra and every compact-operator algebra \(K(H)\) is type I. The stronger CCR, or liminal, condition requires \(\pi(A)=K(H_\pi)\) for every irreducible \(\pi\); type I only requires containment. Group \(C^*\)-algebras of [[lie-groups/type-i-locally-compact-group|type I groups]] supply important noncommutative examples, while many discrete groups have non-type-I full [[algebra-representation-theory/group-algebra|group algebras]].
 
 ## References
 

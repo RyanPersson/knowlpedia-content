@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be an [[algebra-groups/abelian-group|abelian]] [[topology/locally-compact-group|locally compact group]] and \(\widehat G\) its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]]. **Bochner's theorem** states that a function \(\varphi:G\to\mathbb C\) is continuous and [[harmonic-analysis/positive-definite-function|positive definite]] if and only if there is a unique finite positive regular Borel measure \(\nu\) on \(\widehat G\) such that
+Let \(G\) be an [[algebra-groups/abelian-group|abelian]] [[topology/locally-compact-group|locally compact group]] and \(\widehat G\) its [[harmonic-analysis/pontryagin-dual|Pontryagin dual]]. **Bochner's theorem** states that a function \(\varphi:G\to\mathbb C\) is continuous and [[harmonic-analysis/positive-definite-function|positive definite]] if and only if there is a unique finite positive regular [[measure-theory/borel-measure|Borel measure]] \(\nu\) on \(\widehat G\) such that
 \[
 \varphi(x)=\int_{\widehat G}\gamma(x)\,d\nu(\gamma)
 \qquad (x\in G).

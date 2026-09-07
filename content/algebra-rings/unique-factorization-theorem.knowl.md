@@ -19,4 +19,4 @@ with \(u,v\) units and \(p_i,q_j\) irreducible, then \(m=n\) and after reorderin
 
 ## Remarks
 
-This theorem is the foundational reason gcd/lcm notions behave well in UFDs and underlies factorization results in polynomial rings via Gauss-type arguments.
+This theorem is the foundational reason gcd/lcm notions behave well in UFDs and underlies factorization results in [[algebra-rings/polynomial-ring|polynomial rings]] via Gauss-type arguments.

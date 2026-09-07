@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Taylor's Theorem (several variables, one standard form)**: Let \(U\subseteq\mathbb{R}^n\) be open and let \(f:U\to\mathbb{R}\) be of [[real-analysis/class-ck-map|class]] \(C^{k+1}\) on a [[topology/neighborhood|neighborhood]] of \(a\in U\). Using multi-index notation, there exists a remainder \(R_k(h)\) such that for \(h\) sufficiently small (with \(a+h\in U\)),
+**Taylor's Theorem (several variables, one standard form)**: Let \(U\subseteq\mathbb{R}^n\) be open and let \(f:U\to\mathbb{R}\) be of [[real-analysis/class-ck-map|class]] \(C^{k+1}\) on a [[topology/neighborhood|neighborhood]] of \(a\in U\). Using [[real-analysis/multi-index-notation|multi-index notation]], there exists a remainder \(R_k(h)\) such that for \(h\) sufficiently small (with \(a+h\in U\)),
 \[
 f(a+h)=\sum_{|\alpha|\le k}\frac{D^\alpha f(a)}{\alpha!}\,h^\alpha + R_k(h),
 \]

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle with Lie algebra \(\mathfrak{g}\). Its [[fiber-bundles/atiyah-algebroid-of-a-principal-bundle|Atiyah algebroid]] is \(A(P)=TP/G\to M\), equipped with the anchor \(a:A(P)\to TM\) induced by \(d\pi\).
+Let \(\pi:P\to M\) be a principal \(G\)-bundle with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\). Its [[fiber-bundles/atiyah-algebroid-of-a-principal-bundle|Atiyah algebroid]] is \(A(P)=TP/G\to M\), equipped with the anchor \(a:A(P)\to TM\) induced by \(d\pi\).
 
 Define the **[[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint bundle]]** \(\mathrm{ad}(P)=P\times_{\mathrm{Ad}}\mathfrak{g}\to M\). There is a natural injection
 \[

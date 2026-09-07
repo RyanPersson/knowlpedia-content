@@ -13,16 +13,16 @@ dependency_review_count = 1
 
 A **Dedekind domain** is a central object in commutative algebra and algebraic number theory.
 
-An integral domain \(R\) is a **Dedekind domain** if:
+An [[algebra-rings/integral-domain|integral domain]] \(R\) is a **Dedekind domain** if:
 1. \(R\) is a [[algebra-commutative/noetherian-ring|Noetherian ring]];
 2. \(R\) is an [[algebra-commutative/integrally-closed-domain|integrally closed domain]];
-3. \(R\) has [[algebra-commutative/krull-dimension|Krull dimension]] \(1\) (equivalently, every nonzero prime ideal has [[algebra-commutative/height-of-prime|height]] \(1\), hence is maximal).
+3. \(R\) has [[algebra-commutative/krull-dimension|Krull dimension]] \(1\) (equivalently, every nonzero [[algebra-rings/prime-ideal|prime ideal]] has [[algebra-commutative/height-of-prime|height]] \(1\), hence is maximal).
 
 Condition (3) can be read as: “the only prime ideals properly contained in a nonzero prime are \((0)\).”
 
 ## Equivalent and characteristic properties
 For a domain \(R\), the following are standard characterizations of Dedekind domains:
-- Every nonzero proper ideal factors as a product of prime ideals, and this factorization is unique up to ordering.
+- Every nonzero proper [[algebra-rings/ideal|ideal]] factors as a product of [[algebra-rings/prime-ideal|prime ideals]], and this factorization is unique up to ordering.
 - For every nonzero prime ideal \(\mathfrak p\), the localization \(R_\mathfrak p\) (see [[algebra-commutative/localization-at-prime|localization at a prime]]) is a [[algebra-commutative/dvr|discrete valuation ring]]. In fact, this local DVR structure controls the prime-power factorization of ideals.
 
 ## Examples

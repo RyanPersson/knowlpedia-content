@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. A **maximal ideal** of \(R\) is a proper ideal \(\mathfrak m\subsetneq R\) such that there is no ideal strictly between \(\mathfrak m\) and \(R\); equivalently, \(R/\mathfrak m\) is a [[algebra-rings/field|field]].
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]]. A **maximal ideal** of \(R\) is a proper [[algebra-rings/ideal|ideal]] \(\mathfrak m\subsetneq R\) such that there is no ideal strictly between \(\mathfrak m\) and \(R\); equivalently, \(R/\mathfrak m\) is a [[algebra-rings/field|field]].
 
 The **maximal spectrum** of \(R\) is the set
 \[

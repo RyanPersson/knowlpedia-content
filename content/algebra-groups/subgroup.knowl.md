@@ -20,7 +20,7 @@ Let \(G\) be a [[algebra-groups/group|group]] with operation \(\cdot\). A **subg
 ## Examples
 
 - For \(n\in\mathbb{Z}\), the set \(n\mathbb{Z}=\{nk:k\in\mathbb{Z}\}\) is a subgroup of \((\mathbb{Z},+)\).
-- The alternating group \(A_n\) is a subgroup of \(S_n\).
+- The [[algebra-groups/alternating-group|alternating group]] \(A_n\) is a subgroup of \(S_n\).
 - The set of diagonal invertible matrices is a subgroup of the group of invertible matrices under multiplication.
 
 ## Equivalent characterizations

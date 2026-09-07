@@ -23,7 +23,7 @@ where
 \]
 Thus its [[algebraic-geometry-foundations/pre-addition-on-a-monoid|pre-addition]] records all and only the formal additive equalities that hold in \(R\).
 
-Its [[algebraic-geometry-foundations/semiring-completion-of-a-blueprint|semiring completion]] is canonically isomorphic to \(R\). Moreover, the construction defines a fully faithful functor
+Its [[algebraic-geometry-foundations/semiring-completion-of-a-blueprint|semiring completion]] is canonically isomorphic to \(R\). Moreover, the construction defines a [[algebra-category-theory/fully-faithful-functor|fully faithful functor]]
 \[
 \mathbf{CSRng}\hookrightarrow\mathbf{Blpr},
 \]

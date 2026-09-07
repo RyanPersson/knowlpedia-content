@@ -2,7 +2,7 @@
 id = "operator-algebras/von-neumann-factor"
 title = "Von Neumann factor"
 kind = "definition"
-summary = "A von Neumann algebra whose center consists only of scalar multiples of its identity."
+summary = "A [[operator-algebras/von-neumann-algebra|von Neumann algebra]] whose center consists only of scalar multiples of its identity."
 aliases = ["primary von Neumann algebra"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
@@ -29,7 +29,7 @@ Being a factor does not mean having no proper norm-closed ideals as a \(C^*\)-al
 
 Ultraweakly closed [[algebra-rings/two-sided-ideal|two-sided ideals]] in a von Neumann algebra have the form
 \(Mz\) for central projections \(z\). Hence a factor has no nonzero proper
-ultraweakly closed two-sided ideals. General von Neumann algebras can often be
+ultraweakly closed two-sided ideals. General [[operator-algebras/von-neumann-algebra|von Neumann algebras]] can often be
 analyzed as direct integrals of factors, with their centers supplying the
 measurable parameter algebra.
 
@@ -41,8 +41,8 @@ behavior of their projections.
 [[operator-algebras/type-i-von-neumann-algebra|Type I]] factors are precisely
 the algebras \(B(H)\). Type II factors have
 [[operator-algebras/finite-projection|finite projections]] but no nonzero
-[[operator-algebras/abelian-projection|abelian projections]], while type III
-factors have no nonzero finite
+[[operator-algebras/abelian-projection|abelian projections]], while [[operator-algebras/type-iii-factor|type III
+factors]] have no nonzero finite
 projections.
 
 ## Representations and factorial states

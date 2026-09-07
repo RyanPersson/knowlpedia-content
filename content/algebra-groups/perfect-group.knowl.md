@@ -19,7 +19,7 @@ where \([G,G]\) is its [[algebra-groups/commutator-subgroup|commutator subgroup]
 
 ## Examples
 
-- The alternating group \(A_n\) is perfect for \(n\ge 5\).
+- The [[algebra-groups/alternating-group|alternating group]] \(A_n\) is perfect for \(n\ge 5\).
 - The trivial group is perfect.
 - A nontrivial abelian group is not perfect because its commutator subgroup is trivial.
 

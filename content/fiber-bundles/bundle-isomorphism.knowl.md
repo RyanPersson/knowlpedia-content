@@ -11,13 +11,13 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:E\to M\) and \(\pi':E'\to M'\) be smooth fiber bundles. A **bundle isomorphism** is a [[fiber-bundles/bundle-morphism|bundle morphism]] \((\Phi,f)\) where:
+Let \(\pi:E\to M\) and \(\pi':E'\to M'\) be [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundles]]. A **bundle isomorphism** is a [[fiber-bundles/bundle-morphism|bundle morphism]] \((\Phi,f)\) where:
 
 - \(f:M\to M'\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]],
 - \(\Phi:E\to E'\) is a diffeomorphism,
 - and the projections commute: \(\pi'\circ \Phi=f\circ \pi\).
 
-In local trivializations, a bundle isomorphism is locally a diffeomorphism of products that preserves the base coordinate: over \(U\subset M\), it is represented as \((x,u)\mapsto (f(x),\psi(x,u))\) with each \(\psi(x,\cdot)\) a diffeomorphism of the typical fiber.
+In local trivializations, a bundle isomorphism is locally a diffeomorphism of products that preserves the base coordinate: over \(U\subset M\), it is represented as \((x,u)\mapsto (f(x),\psi(x,u))\) with each \(\psi(x,\cdot)\) a diffeomorphism of the [[fiber-bundles/typical-fiber|typical fiber]].
 
 ## Equivalent characterizations
 

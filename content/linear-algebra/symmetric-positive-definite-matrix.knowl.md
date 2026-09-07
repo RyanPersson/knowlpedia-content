@@ -31,7 +31,7 @@ principal minors.
 ## Geometry of the cone
 
 The symmetric positive-definite matrices form an open convex cone in the
-vector space of real symmetric matrices. A Riemannian metric in local
+[[linear-algebra/vector-space|vector space]] of real symmetric matrices. A Riemannian metric in local
 coordinates is a smoothly varying matrix with values in this cone.
 
 ## References

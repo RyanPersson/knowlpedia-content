@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]]. Its **measure algebra** \(M(G)\) is the [[linear-algebra/vector-space|vector space]] of bounded regular complex Borel measures on \(G\), equipped with the total-variation norm and convolution determined by
+Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]]. Its **measure algebra** \(M(G)\) is the [[linear-algebra/vector-space|vector space]] of bounded regular complex [[measure-theory/borel-measure|Borel measures]] on \(G\), equipped with the total-variation norm and convolution determined by
 \[
 \int_G f(z)\,d(\mu*\nu)(z)
 =\int_G\int_G f(xy)\,d\mu(x)\,d\nu(y)

@@ -25,7 +25,7 @@ For a compact [[differential-geometry/complex-manifold|complex manifold]], the H
 
 ## Recovering the decomposition
 
-A decreasing filtration on the complexification of a real [[linear-algebra/vector-space|vector space]] comes from a pure Hodge structure of weight \(n\) precisely when
+A decreasing filtration on the complexification of a real [[linear-algebra/vector-space|vector space]] comes from a [[differential-geometry/pure-hodge-structure|pure Hodge structure]] of weight \(n\) precisely when
 \[
 V_{\mathbb C}=F^p\oplus\overline{F^{\,n-p+1}}
 \]

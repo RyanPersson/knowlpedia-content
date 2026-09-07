@@ -18,7 +18,7 @@ A **unique factorization domain (UFD)** is an [[algebra-rings/integral-domain|in
 
 ## Remarks
 
-In a UFD, every irreducible element is [[algebra-rings/prime-element|prime]]. If \(R\) is a UFD, then \(R[x]\) is a UFD; by iteration, so is \(R[x_1,\dots,x_n]\).
+In a UFD, every [[algebra-rings/irreducible-element|irreducible element]] is [[algebra-rings/prime-element|prime]]. If \(R\) is a UFD, then \(R[x]\) is a UFD; by iteration, so is \(R[x_1,\dots,x_n]\).
 
 ## Examples
 

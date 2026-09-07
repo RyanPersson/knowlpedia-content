@@ -1,0 +1,607 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "differential-geometry/weyl-spinor",
+      "outcome": "corrected",
+      "source_sha256": "a48a09e10355f415f9f939c8e4900cea5ec35f3d3fd360535506e930fee09d2f",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (eigenspaces, field, chiral spin\nrepresentation, half-spin representation) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "differential-geometry/whitney-c-infinity-topology",
+      "outcome": "corrected",
+      "source_sha256": "d1f5206a7d3ef31a3a3d6722fdd87d7bf7879cc16236c71dd941e5d644dec883",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (topology, derivatives, subset, locally finite family, compact sets, neighborhood, topologies, compact set) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "differential-geometry/whitney-embedding-theorem",
+      "outcome": "corrected",
+      "source_sha256": "28b5cb0741c2f80efb3d72c13d1658775f310ca43a05bc6d9d54ff4648a54a55",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (boundary, topology, smooth structure, cobordism, characteristic-class, Euclidean space, image) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "discrete-structures/boundary-finite-region",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3f51e9186216ce31289247034d62d481aa06a91225ad8da1ccce66b5644d56b",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (subset, lattice, boundary, set) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "discrete-structures/finite-box-lattice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd7cdf1f00bef6809b3c6cb7146e36b8c7db5a7365214a16a26373ca71af9376",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (region, lattice, units, cardinality, regions, sites, complement) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "discrete-structures/finite-graph",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d50efea98c98e337b47cba23e772c0a820a32da24a06f7502d313ed7f4b64588",
+      "evidence": "Read complete source and reviewed 3 scanner findings across core and expandable sections. Checked candidate phrases (set, regions, lattice) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "discrete-structures/graph-vertex-edge",
+      "outcome": "corrected",
+      "source_sha256": "7372fc56f4f24a246a1e99d1bec9d7e6354fe30deb1d0a696052496768072987",
+      "evidence": "Read complete source and reviewed 3 scanner findings across core and expandable sections. Checked candidate phrases (ordered pair, subset, loops) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "discrete-structures/lattice-zd",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9df49787b3d68c2000c71cd1414bb9c279eda554fc053988f64adf21bad8ac15",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (lattice, sites, relation) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "discrete-structures/nearest-neighbor-zd",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26a02cf86d1ac228cc8383e94ad7d2b4249cf95195ef17bab18a67ab6092b2b7",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (sites, norm, site, relation, lattice) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action",
+      "outcome": "corrected",
+      "source_sha256": "0bb4b917166f6d4265c15a9fbccb98d44196c4240a14b7752be7e6eecf9a6632",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (associated bundle, group, groups, smooth sections, function, Abelian groups, conjugation action, vector bundle, automorphisms) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/ambrosesinger-curvature-span",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "266ec20a6b09370bf5a506ac8923db246bfd7ade8675fba430261f8f5da39e4b",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (Lie subalgebra, paths, Curvature, holonomy algebra, metrics, endomorphisms, span, group, subgroup) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/ambrosesinger-holonomy-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59462cf4326f44bbb7e22856cbf35dccc378c320747cc3b4456ae2122e532a5d",
+      "evidence": "Read complete source and reviewed 21 scanner findings across core and expandable sections. Checked candidate phrases (group, curvature, identity component, curve, Lie subalgebra, Lie algebra, associated vector bundle, associated bundle, endomorphisms, generating set, restricted holonomy group, tangent bundle, spans, holonomy algebras, product manifold, Lie algebras) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/anti-self-dual-moduli-space",
+      "outcome": "corrected",
+      "source_sha256": "26ec79103aefbb96af88e1ea40855fd9720c17a7773e51b3be5fa8d88efa4f5e",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (group, curvature, anti-self-dual connections, stabilizers, neighborhood, stabilizer, sequences, ideal, instantons, ASD connection) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/asd-deformation-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e08771b105df9e2653223a4fe5ed807ba3f4961f05832df79465f30dc06d2f6",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (groups, stabilizers, sequence, elliptic operator, stabilizer, cokernel, self-dual connections) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/associated-bundle",
+      "outcome": "corrected",
+      "source_sha256": "955934d822aae58bcd2089801adaa6a594139007c0bfa302d4dc6aa3f7f497ee",
+      "evidence": "Read complete source and reviewed 7 scanner findings across core and expandable sections. Checked candidate phrases (equivalence relation, equivalence class, vector space, unit, Adjoint bundle, conjugation action, groups) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0fc9ba239e2dd3136eb11c65890c8e114095116d4d8aa068183e4fa4c956147d",
+      "evidence": "Read complete source and reviewed 13 scanner findings across core and expandable sections. Checked candidate phrases (group, Ehresmann connection, vector space, vector bundle, derivative, curvature, standard representation, associated vector bundle, associated bundle, exterior derivative, principal connection) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/associated-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "fc1c8432b6f73d2b8652e0f5f650914ba3292fe5fb540469497a20f47196c995",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (vector space, group, equivalence relation, equivalence class, vector bundle, principal bundle transition functions, Tangent bundle, associated bundle, standard representation, character, Lie algebra) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/atiyah-algebroid-of-a-principal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9666c4b954200a3e75e1388fdc60c30c8d3ea14beffe4e43c739a4bd60822811",
+      "evidence": "Read complete source and reviewed 13 scanner findings across core and expandable sections. Checked candidate phrases (vector fields, group, Lie-algebra, Atiyah sequence, right translation, right-invariant vector fields, vector bundle, isomorphism, field, adjoint bundle, curvature) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/atiyah-bott-symplectic-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ac55adabb935ca42115e8cef80644fd06a5b9e0c51e81ba719de4dff9b3d51d",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (metric, symplectic form, tangent space, continuous dual, inner product, curvature, Lie algebra, gauge group, moment-map) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/atiyah-sequence-tpgtm0",
+      "outcome": "corrected",
+      "source_sha256": "416e1cfc3411cad4953f1f9add991c1420bae40525b355c0ae259d59243a4471",
+      "evidence": "Read complete source and reviewed 3 scanner findings across core and expandable sections. Checked candidate phrases (Lie algebra, image, sequence) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/based-gauge-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f98976e4b94a4d706fa65c1d876609d2885448fdde642abaaa8c948380599ae",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (subgroup, function, group, pullback, gauge transformation, stabilizer, boundary) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8c3961099b88e202297b63268503954bbdb515ef1ac377707651113609fccf7",
+      "evidence": "Read complete source and reviewed 3 scanner findings across core and expandable sections. Checked candidate phrases (pullback, Pullbacks) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/basic-forms-theorem",
+      "outcome": "corrected",
+      "source_sha256": "00edc834577f9a4f35b3a8a5123ae2a8e2294186c0daab597462d8b8fe680e67",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (vertical vector field, gauge transformation, curvature, polynomial) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/bianchi-identity",
+      "outcome": "corrected",
+      "source_sha256": "59856c6d38d6685290fdf6695d35c64607c23c58bd79ea2bd680cf0fc7cced6e",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (curvature, Lie bracket, derivative, characteristic) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/bogomolny-monopole-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5a32aa41f7985566d588bf8ea4061740e4f6cea81ca7ebbd2f203892ab17f8b",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (group, field, derivative, domain, boundary, topological charge, metric, curvature, ellipticity, instantons) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/bundle-atlas",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d101b7e2680ec0e48b98d2ec376721ea92c62037eaa9b00e9022f88aee798822",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (open cover, diffeomorphism, diffeomorphisms, local trivializations) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/bundle-isomorphism",
+      "outcome": "corrected",
+      "source_sha256": "58b92cd47cadc93af22bc69d5fc80fa35f80c83944e0da51cf8c79ed36e7f683",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (smooth fiber bundles, local trivializations, typical fiber, diffeomorphism, automorphism, isomorphism, Tangent bundles, Gauge transformations) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/bundle-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2567090f0992887bf8cb0a4049c22098d97f2ef3646ad69959c3298962164c63",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (morphism, smooth maps, vertical subbundles, Differential of a smooth map, Composition) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/bundle-metric",
+      "outcome": "corrected",
+      "source_sha256": "5b92c7a6fbef88c832ae70ed914b5bb5b1687c5347f15047bf6ee1d0828e459f",
+      "evidence": "Read complete source and reviewed 14 scanner findings across core and expandable sections. Checked candidate phrases (vector bundle, inner product, bilinear form, vector space, open set, function, general linear group, orthogonal group, smooth map, metric, matrix, metrics) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/bundle-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bcacf58bd3255b5802bf5f07b711446eb8b07be073a9ef7fea2ed8d2e6c8b2a3",
+      "evidence": "Read complete source and reviewed 6 scanner findings across core and expandable sections. Checked candidate phrases (domain, codomain, isomorphism, diffeomorphism, smooth map, Pullback) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/bundle-of-connections",
+      "outcome": "corrected",
+      "source_sha256": "b9a608b2c5edd1cd3cde9844f2480b06d256f943fbd56bab40e21554324bbe0f",
+      "evidence": "Read complete source and reviewed 9 scanner findings across core and expandable sections. Checked candidate phrases (smooth sections, principal connections, vector bundle, Lie-algebra, set, affine space, Trivial principal bundle, orthonormal frame bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/bundle-of-orbits",
+      "outcome": "corrected",
+      "source_sha256": "3b72308c9338a7fa14c305f73e0c1083def178bb18f063a71bdadf3eef621350",
+      "evidence": "Read complete source and reviewed 6 scanner findings across core and expandable sections. Checked candidate phrases (orbit space, smooth fiber bundle, orbit, relation, Trivial principal bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/cartan-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d28cfb73b997e378926d0e77e199bd60455f810066b8215b8c0b162a0e5769f",
+      "evidence": "Read complete source and reviewed 13 scanner findings across core and expandable sections. Checked candidate phrases (subgroup, smooth manifold, isomorphism, vertical vector field, curvature, tangent space, orthonormal frame bundle, Euclidean space, group, stabilizer, homogeneous spaces, measures) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/cartans-first-structure-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab25e9aebca32cfcaa76294340a129bbd6841aaf61015dd19b40c4104f984196",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (group, isomorphism, exterior derivative, vector fields, Euclidean space) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/cartans-second-structure-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a717fb74424368cc333c372c7a123100befe57125f95417e1c46281ff8e5e7c2",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (group, vector fields, principal connections, curvature) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/cech-cocycle-groupoid",
+      "outcome": "corrected",
+      "source_sha256": "bdaa23752e9684154b5fdf45501a208e7e4444b3df08edbc4e96e224b5d3b23c",
+      "evidence": "Read complete source and reviewed 13 scanner findings across core and expandable sections. Checked candidate phrases (open cover, Lie group, objects, morphism, smooth maps, Composition, isomorphism, groupoid, automorphisms, gauge transformations, covers) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/character-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb03ef7b7dd9ff532896e7862e4827559e2498d0819c39a582ea41164ce70dc9",
+      "evidence": "Read complete source and reviewed 12 scanner findings across core and expandable sections. Checked candidate phrases (characteristic, group, algebraic group, functions, orbits, orbit, closure, groups, symplectic structure, traces, images, topology) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/characteristic-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "623dfa703f0785d3eb787144301a528354191f3776590237142476cd44485249",
+      "evidence": "Read complete source and reviewed 7 scanner findings across core and expandable sections. Checked candidate phrases (Lie algebra, polynomial, pullback, curvature, Ad-invariant polynomials, traces) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/characteristic-number",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d69f92a6dc9be527b44b06aaee21c32c690587e3c1dfb684ec1067b5d682f7b",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (polynomial, rank, tangent bundles, diffeomorphisms, cobordism, ring, characteristic class) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2be24fb791c26bbb206022e902be20f62310eeaf43f6407ac008bc3e95e4b6d3",
+      "evidence": "Read complete source and reviewed 6 scanner findings across core and expandable sections. Checked candidate phrases (character, power series, trace, image, pullback, Rank) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c32e8efc27cc4620a592c1faaecfa2ee9e406e83d367a8b5a49c14e19782ff7d",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (rank, determinant, integral cohomology, image, Chern–Weil form, characteristic class, group, polynomial, function, eigenvalues, pullback) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0e15592f1b03628468ccd493486144e05d8ef52745bd66b2b4a1695146c81ec",
+      "evidence": "Read complete source and reviewed 9 scanner findings across core and expandable sections. Checked candidate phrases (derivative, metric, holomorphic, Hermitian metric, matrix, curvature, holomorphic vector bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-curvature",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d28fc010c909d3e48242494f9ae1a73d19592c1edb2cea177554affaa9dcc6e",
+      "evidence": "Read complete source and reviewed 15 scanner findings across core and expandable sections. Checked candidate phrases (holomorphic, metric, matrix, Chern connection, curvature, polynomials, endomorphism, Hermitian metric, holomorphic line bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-gauss-bonnet-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c78b6f89ce07af7438e83d7d0b0dfef01ccf4e91650bbd4105fa06dcd9fe97fc",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (curvature, matrix, characteristic, polynomial, metric, unit, boundary) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-number",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2f511d2bca835120583559befafe9dd9209a5038b82edd81c3963d62503d369",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (partition, integers, sequence, tangent bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-roots",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "128416b3628f8bcfb1d75f590792b9d052be0d430a6c23dfbbda64b0be07dc1d",
+      "evidence": "Read complete source and reviewed 9 scanner findings across core and expandable sections. Checked candidate phrases (polynomial, characteristic-class, functions, line bundles, complex line bundle, sequence, ring) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chern-weil-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e443619be59d1b4d39b034731fbb20997343592f0b1bcf5cf6746e74840ae971",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (curvature, polynomial, polynomials, images, Trace, factorials) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chernsimons-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d937c2612014c05ac8bbb4e0f25aab3ef3e83b69bd9613f29b086d53fe18840",
+      "evidence": "Read complete source and reviewed 15 scanner findings across core and expandable sections. Checked candidate phrases (measure, curvatures, polynomial, path, curvature, Chern–Weil forms, gauge theory, characteristic, matrix, Lie group, local trivialization, principal connections) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chernsimons-gauge-transformation-behavior",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0cec7825bd2855b264688152f98f6431bcfc0958594b42197d0fa455536eed6",
+      "evidence": "Read complete source and reviewed 18 scanner findings across core and expandable sections. Checked candidate phrases (group, polynomial, local trivialization, gauge transformation, smooth map, Chern–Simons form, closed manifold, characteristic class, gauge transformations, integers, object, function, loop, measures) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/chernweil-form",
+      "outcome": "corrected",
+      "source_sha256": "0a7499062f0513cc020402dfaad0863f0c2b03e2656558cbfc49e12d7db8fb9a",
+      "evidence": "Read complete source and reviewed 13 scanner findings across core and expandable sections. Checked candidate phrases (curvature, polynomial, Lie algebra, closed differential forms, principal connection, polynomials, complex vector bundle, matrix, vector bundle, group) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3dcf35194c91b7ec507a0b61717ba3a602b7e49db53c9b8bf7119aa7e616b989",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (group, Lie algebra, polynomial, curvature, character, matrix, characteristic class, polynomials, traces) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e56d8e6026980c6e6096c4251a852228744f872e2fcb3859109997398eac21d4",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (set, isomorphism, isomorphisms, continuous map, pullback, group, conjugacy classes) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/classifying-map-of-a-principal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5c0cbc574cc60e2a130372a3d9442c659fb633a25dbc50919c2603b25f4e716f",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (continuous map, isomorphism, orthonormal frame bundle, characteristic classes) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/classifying-space-bg",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "142deabb6a2020e37412bd0e3e1670a4bbfdeadf0da713686126330def4d0358",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (topological group, smooth manifold, isomorphism, pullback bundle, pullback, transition functions, group, conjugacy classes) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/closed-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6fff3832f5e42fecd81b05eeb1899bbb32d319a7912c896d8abbe3feb9334e6",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (vector space, pullback, symplectic form, unit) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/clutching-function",
+      "outcome": "corrected",
+      "source_sha256": "83a55ed0abbdbafee17d5a4de051fa1d7909fffd20e1ca712dfc9cf89ce8b9b5",
+      "evidence": "Read complete source and reviewed 12 scanner findings across core and expandable sections. Checked candidate phrases (open cover, Lie group, smooth map, cover, vector bundle, group, open sets, intersections, tangent bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/coadjoint-action-of-a-lie-group",
+      "outcome": "corrected",
+      "source_sha256": "ab607f90a2605a56e1b02a661f801260ff035ea31aa947e3c99b59b1f5b8c6c5",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (Lie group, Lie algebra, automorphism, vector space, group homomorphism, Abelian groups, inner product, Matrix, groups, trace) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/cocycle-condition-for-transition-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "249fff7113c0d1f369cf2e9bbf60670b1ccc1d0031a09af942ff58fdc48bda46",
+      "evidence": "Read complete source and reviewed 3 scanner findings across core and expandable sections. Checked candidate phrases (Tangent bundle, chain rule, coordinate changes) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/compactly-supported-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9bafc9e77b0601446649c137b638f53cc788cd0dbaaa87edc44cffe9d497bcd",
+      "evidence": "Read complete source and reviewed 14 scanner findings across core and expandable sections. Checked candidate phrases (smooth sections, topology, metric, module, vector-bundle, morphisms, boundary, open set, function, Partitions, compact set, closure, set) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/complex-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "f455fd23e9fb57128daa19e4bac8ce974c5ef1e18e4638d3108ab84e1920daef",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (rank, vector space, open cover, smooth maps, local trivializations, ranks, connected components, function, smooth map, smooth sections) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/conjugation-action-of-a-lie-group-on-itself",
+      "outcome": "corrected",
+      "source_sha256": "d9c7acd73f218367061143fec6dc244548e0e383921fd4ea45c27f45c945f05e",
+      "evidence": "Read complete source and reviewed 9 scanner findings across core and expandable sections. Checked candidate phrases (conjugation action, Lie algebra, Abelian groups, conjugacy class, orbits, algebraically closed fields, Normal subgroups, subgroup) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/connection-1-form-on-a-principal-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "027ab18304dd812a9015f358d19c163b055957eec9555a35188f36dc0202e233",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (pullback, curvature, right translation, group) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/connection-compatible-with-a-reduction",
+      "outcome": "corrected",
+      "source_sha256": "018add73a251b0e1452be4bf759ff3b44a170293a5c630f459b1d1ef2df6a194",
+      "evidence": "Read complete source and reviewed 2 scanner findings across core and expandable sections. Checked candidate phrases (Lie algebra, isomorphism) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/connection-on-a-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bf8ce8b7ea5e37e4008b22d3c014e2b803fdb137ae353f31db5b856291f6860e",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (associated vector bundles, function, metric, matrix, open set) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/connection-on-exterior-and-symmetric-powers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca35dc2c7ed700e6bb8077af73c77949e42c794d1bc2e2dc381b7a061412e9f2",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (field, metric, Curvature, rank, determinant, trace, matrix, curvature) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-adjoint-bundle-ad",
+      "outcome": "corrected",
+      "source_sha256": "0ff8efd02b5c725883f5fafa4b3d2718e8c375689aa65776ece7ca107334e0dd",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (adjoint bundle, associated bundle, conjugation action, group, automorphisms, groups, vector bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+      "outcome": "corrected",
+      "source_sha256": "67da614008fc408fd7843073601c9e84bf41151793fcb7df8f5a744038e63800",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (vector bundle, Lie algebra automorphism, Lie algebra, endomorphisms) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f",
+      "outcome": "corrected",
+      "source_sha256": "a44df1556098e45ef4459bb028798d72b1bbf6c33efc89ffa812f86015e45abd",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (smooth manifold, associated bundle, equivalence class, smooth fiber bundle, typical fiber, transition functions, groups, homogeneous space, group) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-atiyah-algebroid-tpg-and-its-anchor-map-to-tm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "221736e7eee0bcad90fc3cd888291771bfc0f26c69fb60ec63cc271832f6660b",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (group, set, fields, principal connection, sequence, abelian group, semidirect product) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-change-of-connection-formula-for-characteristic-forms-p",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "939297e80e7c17a2edfaf677963e1d71e4637ea8069b93078777fbd53918dc1c",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (curvature, polynomial, path, transgression form, characteristic, trace, matrix, Lie algebra, vector bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-connection-on-fr-induced-by-a-vector-bundle-connection",
+      "outcome": "corrected",
+      "source_sha256": "81cf11cbefa41cb2a0396d18ad640da12ba02d4b893646710be2f3a95edc2e4b",
+      "evidence": "Read complete source and reviewed 13 scanner findings across core and expandable sections. Checked candidate phrases (vector bundle, curve, span, principal connection, associated bundle, derivative, associated vector bundle, principal connections, metric) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-curvature-of-an-induced-associated-connection-via-representation",
+      "outcome": "corrected",
+      "source_sha256": "252478a2c5854bc47b3898a0eea57140659965979dfd6aea9bef88e9af02d562",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (curvature, associated vector bundle, derivative, infinitesimal representation, vector bundle, principal connection) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-frame-bundle-fr-of-a-vector-bundle-e",
+      "outcome": "corrected",
+      "source_sha256": "4fce10958b09b6700ee5008266eec74599a3357040f83cd187a8c5aa89848c37",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (vector bundle, rank, set, isomorphisms, isomorphism, general linear group, Local trivializations, Oriented frames) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-gauge-transformation-of-local-data-via-gug",
+      "outcome": "corrected",
+      "source_sha256": "5781394c2b4e9c8f2458961234a9937f3b9ce948bdbb3ce60edd14e99fb155a7",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (open cover, transition functions, smooth maps, local curvature 2-form, function, abelian group, gauge transformation, transition function, cover, isomorphism) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-holonomy-element-from-parallel-transport-around-a-loop",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9265f628eebf032522c34b1a608323ac858df635f70127056fe0950bb39d3d0",
+      "evidence": "Read complete source and reviewed 7 scanner findings across core and expandable sections. Checked candidate phrases (loop, loops, subgroup, conjugacy class, simply connected, group) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "042f2c49a10c2bfcaf56b4d80efaa1da8c207c8c85d0cfd8e6cf41085d1730a9",
+      "evidence": "Read complete source and reviewed 4 scanner findings across core and expandable sections. Checked candidate phrases (curve, associated bundles, orthonormal frame bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-induced-connection-on-an-associated-bundle-using-horizontals",
+      "outcome": "corrected",
+      "source_sha256": "b31fef9212211ce26edfc603e0ff1d34b52d49684b7ba814a9c15b05d1693d86",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (vector bundle, vector space, principal connection, adjoint bundle, infinitesimal action) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5e0976b13cc80e2c1e58c3b397cf398f507fd146ac2ccd9014efa9c80cfe4e7",
+      "evidence": "Read complete source and reviewed 12 scanner findings across core and expandable sections. Checked candidate phrases (group, vector space, vector field, horizontal distribution, Lie algebra, derivative, local trivialization, Tangent bundle, standard representation, principal connection, vector fields, orthonormal frame bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-induced-map-on-associated-bundles-from-a-principal-bundle-morphism",
+      "outcome": "corrected",
+      "source_sha256": "78c30e098c7b8c6c0fd81d35f10d44dd4894c645aa2ecf05c0ec5007ea2ab670",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (principal bundle morphism, bundle map, associated bundle, Pullback, gauge transformation, automorphism, Vector bundle, linear map, vector bundle morphism, morphism) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-local-trivialization-from-a-local-section",
+      "outcome": "corrected",
+      "source_sha256": "9ee3844e66bc7c5914d485b0adb58a0a0442092714ae48dda4148756fb152f3b",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (local trivialization, diffeomorphism, local trivializations, curvature, vector bundle, Local connection 1-form, principal connection) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-parallel-transport-map-along-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b54427814e134a6d551acf47df90ae2795fef3a76b6962b77e1bae7fa2077030",
+      "evidence": "Read complete source and reviewed 12 scanner findings across core and expandable sections. Checked candidate phrases (curve, isomorphism, vector-bundle, associated bundle, loops, endomorphisms, tangent bundle, unit sphere, geodesic, triangle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-product-principal-bundle-when-defined",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3ca1f8cafc3a777f5bbab7468285900d6d9e9c7842cfea917946d3d8b169211",
+      "evidence": "Read complete source and reviewed 2 scanner findings across core and expandable sections. Checked candidate phrases (orthonormal frame bundle, groups) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-pullback-principal-bundle-fp-along-fnm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db64fdadaf46185bb833513ccd4abc4d2da141c38b6261ae3ea8890ddcbb837f",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (smooth manifold, smooth submersion, smooth map, open set, Pullback, local trivializations, transition functions, cover) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/construction-quotient-manifold-pg-for-a-free-proper-g-action",
+      "outcome": "corrected",
+      "source_sha256": "61f12b49c7aa91626ac1ba6ad33ade7201a69cafb5786c1f23dee4e2167beaf3",
+      "evidence": "Read complete source and reviewed 10 scanner findings across core and expandable sections. Checked candidate phrases (orbit space, smooth manifold structure, smooth submersion, smooth structure, vertical tangent space, fundamental vector field, free action, complex projective space, group) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-reduction-of-structure-group-to-h-via-transition-functions-valued-in-h",
+      "outcome": "corrected",
+      "source_sha256": "bd7faa48f9ece0071c76498dad46708c657c56ae0652b3a7e5705c9ce551e1fa",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (open cover, transition functions, subset, subsets, smooth submanifold, Metric, vector bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection",
+      "outcome": "corrected",
+      "source_sha256": "03a2b6d1c67a4759fa89aca13f0302977065339e169b5757fe7f7f363913ef80",
+      "evidence": "Read complete source and reviewed 14 scanner findings across core and expandable sections. Checked candidate phrases (vector-bundle, vertical subbundle, fundamental vector fields, adjoint bundle, bundle map, short exact sequence, horizontal distribution, Set, right translation, splitting of the Atiyah sequence, vector bundle, principal connection, orthogonal complements) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a88b12bd641900d8b9b357d0222e3b3dc06a01be00da88185a16c121e9a173b8",
+      "evidence": "Read complete source and reviewed 7 scanner findings across core and expandable sections. Checked candidate phrases (open cover, smooth map, transition function, functions, cover, group) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83f4afb970a2b28d6f59329ac3c13660d12708b14f33a739ea747e7d7065cbd7",
+      "evidence": "Read complete source and reviewed 15 scanner findings across core and expandable sections. Checked candidate phrases (group, adjoint bundle, right principal action, Lie algebra, automorphisms, Lie groups, smooth sections, Trivial principal bundle, groups, rank, vector bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f",
+      "outcome": "corrected",
+      "source_sha256": "2f8ae8c3e0a887a35972f7dd246626e93abd9fc7c16d8166240bd5ff0abecaa6",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (Associated bundles, equivalence relation, equivalence class, transition functions, local trivializations, vector bundle, rank, associated bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ebbac75e8a6b4104580498bc6ef5fc0e439df8b7200499212a3a4ebbec66eb3",
+      "evidence": "Read complete source and reviewed 7 scanner findings across core and expandable sections. Checked candidate phrases (fundamental vector field, Right translation, fields, curvature, field, left-invariant vector field) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/convention-local-curvature-convention-f-da-aa",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe96d9d045fdd03f7744b7d8db0f0c2fa9e72719f94bd0388ecdbafdcc58e4e3",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (Lie algebra, curvature, open set, group, smooth map, Lie bracket) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/convention-manifolds-are-smooth-hausdorff-and-second-countable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e3cb8dfddacf4f7a93442f353b0ef72615b0b5c9851d27089c7cbec5829fa12",
+      "evidence": "Read complete source and reviewed 9 scanner findings across core and expandable sections. Checked candidate phrases (open sets, topology, partitions, vector bundles, topological manifold, uniqueness of limits, subsets, group actions) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3a0a6be0a44dd807f02f4c7335efd451d2b5f343e36b81ee1826c05352d99af",
+      "evidence": "Read complete source and reviewed 6 scanner findings across core and expandable sections. Checked candidate phrases (fundamental vector fields, curvature, vector bundle, Transition functions from local sections, Gauge transformations, gauge transformation) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/converse-triviality-criterion-trivial-principal-bundle-admits-a-global-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "280951ab859278759a4787563aa634843d1b0b56410928f69d1b877949916e9d",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (global section, gauge transformations, Pullback, pullback bundle) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/coordinate-transition-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "deaf42076eaad6436688d837fe7b4072c4439185dc2a0cfda6f77c78001fffbd",
+      "evidence": "Read complete source and reviewed 8 scanner findings across core and expandable sections. Checked candidate phrases (homeomorphism, subsets, derivatives, transition functions, Euclidean space, local trivializations, fiber coordinates) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle",
+      "outcome": "corrected",
+      "source_sha256": "50ea1657d4a3ceb2dfec4473e035f0c129f787bc49d5f2e6ae85cf2ea24951a4",
+      "evidence": "Read complete source and reviewed 11 scanner findings across core and expandable sections. Checked candidate phrases (polynomial, Lie algebra, principal connection, Chern–Weil form, characteristic classes, polynomials, traces, curvature, metric) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    },
+    {
+      "id": "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0d9ccfa3344460d09c0f5c93d18110b150b3ea9bb3127144aef9ca863320d67",
+      "evidence": "Read complete source and reviewed 7 scanner findings across core and expandable sections. Checked candidate phrases (set, Pullback, orbit, relation, Lie algebra, gauge group, conjugacy classes) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/corollary-every-principal-g-bundle-over-a-smooth-manifold-admits-a-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ed40b1dfc3e7e8794d36c512b826b6f63295711e0b4d5eea468e05dda1fd6a5",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (Lie group, affine space, horizontal distribution, principal connection, distribution) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/corollary-every-vector-bundle-over-a-smooth-manifold-admits-a-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80b00a89a678411d3994d6a3589297f4b806747e0426c21d1d524f961e75cd20",
+      "evidence": "Read complete source and reviewed 5 scanner findings across core and expandable sections. Checked candidate phrases (derivative, principal connection, Tangent bundle, Hermitian metric, holomorphic line bundles) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies."
+    },
+    {
+      "id": "fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes",
+      "outcome": "corrected",
+      "source_sha256": "35d34e1d50fae3cea0dc476d2ac45e003c8f6cc9732caa372fc804eb332de430",
+      "evidence": "Read complete source and reviewed 9 scanner findings across core and expandable sections. Checked candidate phrases (isomorphism, polynomial, pullback, Chern–Weil forms, Vector bundle, vector bundles, Pullback, diffeomorphism) against their canonical targets and existing links; retained generic/repeated terms where expansion would not answer a reader question, and checked prerequisite metadata for semantic dependencies. Added targeted internal links for genuine multiword prerequisites in the core; preserved wording, hypotheses, and math delimiters."
+    }
+  ],
+  "gaps": [],
+  "notes": []
+}

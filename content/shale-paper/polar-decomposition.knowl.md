@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Any invertible bounded operator \(T\) on a Hilbert space has a **polar decomposition**
+Any invertible [[functional-analysis/bounded-linear-operator|bounded operator]] \(T\) on a [[linear-algebra/hilbert-space|Hilbert space]] has a **polar decomposition**
 \[
 T=u(T)\,|T|,\quad |T|=(T^*T)^{1/2}\ge 0,
 \]

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-A **distribution (law)** of a [[probability/random-variable|random variable]] \(X:\Omega\to S\) (more generally, a measurable map into a measurable space \((S,\mathcal S)\)) is the [[probability/probability-measure|probability measure]] \(\mu_X\) on \((S,\mathcal S)\) defined by
+A **distribution (law)** of a [[probability/random-variable|random variable]] \(X:\Omega\to S\) (more generally, a measurable map into a [[measure-theory/measurable-space|measurable space]] \((S,\mathcal S)\)) is the [[probability/probability-measure|probability measure]] \(\mu_X\) on \((S,\mathcal S)\) defined by
 \[
 \mu_X(A)=\mathbb P(X\in A)\qquad\text{for all }A\in\mathcal S,
 \]

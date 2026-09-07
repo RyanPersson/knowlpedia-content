@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]].
 
-\(R\) is **Noetherian** if it satisfies the *ascending chain condition* (ACC) on ideals: for every chain
+\(R\) is **Noetherian** if it satisfies the *ascending chain condition* (ACC) on [[algebra-rings/ideal|ideals]]: for every chain
 \[
 I_1 \subseteq I_2 \subseteq I_3 \subseteq \cdots
 \]

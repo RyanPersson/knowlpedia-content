@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "differential-geometry/causal-diamond",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd83cc4720efd28de7d6f72ea9c860468b448872d905fca62d5b7a1d2f85c796",
+      "evidence": "Read the complete definition and checked both Lorentzian manifold and causal future/past targets. The displayed intersection is already linked through its two defining prerequisites; the globally hyperbolic consequence and strong causality link are explanatory rather than missing core links. No candidate findings or source changes needed."
+    },
+    {
+      "id": "differential-geometry/celestial-sphere",
+      "outcome": "corrected",
+      "source_sha256": "2d00edce6804c09fcce35bc6f596b01055afa316f198f10888ec87e51c18a282",
+      "evidence": "Read the full construction and checked the Minkowski vector-space, Hermitian matrix model, Möbius transformation, and Lorentz group targets. Added existing Minkowski vector-space and Lorentz group links to the later geometric-meaning occurrence, where the ambient space and observer transformation are introduced. The Lorentz group knowl defines the linear transformations preserving the Minkowski form, so no new Lorentz-transformation knowl is needed. Standard complex structure is local terminology, not a separate dependency."
+    },
+    {
+      "id": "differential-geometry/isotropic-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c30652f239cdac896da372ffc8ab74063da56cec19bb95efa82b9f59868a230a",
+      "evidence": "Read the complete definition, examples, and quotient discussion. Checked symplectic vector space, linear subspace, symplectic orthogonal complement, symplectic basis/subspace, tangent space, and isotropic submanifold references. The defining data are already linked and the possible missing phrase nondegenerate alternating form is the locally stated property of the descended form, not an independently needed target."
+    },
+    {
+      "id": "lie-groups/kernel-of-ad-small-is-center-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f59239ab77bcf3663017d4fd03193c3dec1c8987f81f747220d48f1667e78e5e",
+      "evidence": "Read the full lemma and proof. The Lie algebra, adjoint representation, and center targets are already linked exactly where they supply the hypotheses and conclusion. Bracket, kernel, and quotient language is standard local notation in this short proof; no unlinked dependency is required."
+    },
+    {
+      "id": "fiber-bundles/serre-swan-theorem",
+      "outcome": "corrected",
+      "source_sha256": "01c6b863af6135c0e36c658743c007964f15c17c7788f5a9412ed7e4440dcc74",
+      "evidence": "Read the entire theorem, constructions, variants, and sheaf discussion. Checked existing category, vector bundle, finitely generated projective module, equivalence, section-module, and reconstruction targets. Added links for the central functor, bundle maps, module homomorphisms, and global sections; rejected generic candidates such as functions, matrix, cover, images, morphisms, isomorphisms, rank, complement, and sheaf where they are ordinary prose or repeated already-linked concepts. No source wording or core hypotheses changed."
+    },
+    {
+      "id": "differential-geometry/cobordism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9b375e8f678124a70ea78153b2fd22cf9874281ebaf813f640ccc5cfe92ce41d",
+      "evidence": "Read the full category definition and all explanatory sections. Existing links cover closed manifolds, morphisms, cobordisms, identity morphisms, collars, smooth manifolds, structured cobordisms, vector spaces, and linear maps. Rejected generic scanner matches for objects, boundary, composition, union, category, diffeomorphism, loop, field, and functor because they define the category's operations or repeat concepts already established by the linked terms."
+    },
+    {
+      "id": "differential-geometry/atiyah-guillemin-sternberg-convexity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf4243258a1e14e0d68b02973b1b408409eff413105e479fb0a18494527aa550",
+      "evidence": "Read the complete theorem, proof idea, consequences, and scope caveats. Checked Hamiltonian torus action, symplectic manifold, moment map, convex hull, connected component, Hamiltonian Lie-group action, and moment polytope targets. Rejected generic image, fixed point, function, set, maximum, minimum, group, intersection, and moment matches: these are ordinary theorem language, local notation, or already represented by the defining links; adding them would saturate the statement without helping expansion."
+    },
+    {
+      "id": "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+      "outcome": "corrected",
+      "source_sha256": "0921e3293989b9947714b9c8bd647fd9d3561b7d063d760f1ff6b94347574b81",
+      "evidence": "Read the full category definition, fixed-base explanation, and sheaf formulation. Checked vector bundle, vector-bundle morphism, bundle isomorphism, connected component, Serre–Swan, section module, full subcategory, and the smooth-map target. Added links for smooth map and the fixed coefficient ring in the explanatory section. Rejected generic category, objects, rank, function, composition, set, cover, morphisms, and categories because they are defining prose or repeated context; no prerequisite edge was added."
+    }
+  ],
+  "gaps": [],
+  "calibration": "This shard confirms that the audit is useful for surfacing genuinely expandable multiword terms, but it overproduces generic single-word matches (image, set, function, category, composition, and similar words) and repeats links already present elsewhere in a knowl. Add a link when the target answers a plausible reader question at that occurrence; do not link every mathematical noun or every repeated occurrence. Core definitions already have stronger coverage because their prerequisite metadata and first-use links were reviewed earlier."
+}

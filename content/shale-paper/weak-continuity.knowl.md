@@ -24,4 +24,4 @@ For a **projective** representation \(\overline{\pi}\), Shale uses:
 
 ## Examples
 
-- Any strongly continuous unitary representation is weakly continuous.
+- Any [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] is weakly continuous.

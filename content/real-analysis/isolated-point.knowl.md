@@ -11,10 +11,10 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((X,d)\) be a metric space and let \(A\subseteq X\). A point \(x\in A\) is an **isolated point** of \(A\) if there exists \(r>0\) such that
+Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X\). A point \(x\in A\) is an **isolated point** of \(A\) if there exists \(r>0\) such that
 \[B(x,r)\cap A=\{x\}.\]
 
-Isolated points are the opposite of limit points: near an isolated point there are no other points of the set. Sets can have both isolated points and limit points.
+Isolated points are the opposite of [[topology/limit-point|limit points]]: near an isolated point there are no other points of the set. Sets can have both isolated points and limit points.
 
 ## Examples
 

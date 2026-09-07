@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(f:(X,d_X)\to(Y,d_Y)\) be a function between metric spaces, and let \(A\subseteq X\).
+Let \(f:(X,d_X)\to(Y,d_Y)\) be a function between [[topology/metric-space|metric spaces]], and let \(A\subseteq X\).
 We say \(f\) is **continuous on \(A\)** if the restriction \(f|_A:A\to Y\), with \(A\) carrying the subspace metric, is continuous. Equivalently, \(f|_A\) is [[real-analysis/continuity-at-a-point|continuous at every point]] \(a\in A\).
 
 Spelled out: for every \(a\in A\) and every \(\varepsilon>0\), there exists \(\delta>0\) such that for all \(x\in A\),

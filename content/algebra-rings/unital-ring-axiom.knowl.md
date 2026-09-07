@@ -18,4 +18,4 @@ The **unital ring axiom** asserts that a ring \(R\) has an element \(1\in R\) su
 
 ## Consequences
 
-A [[algebra-rings/unital-ring|unital ring]] is a [[algebra-rings/ring|ring]] satisfying this axiom. The presence of \(1\) allows one to define [[algebra-rings/unit|units]] (and hence the [[algebra-rings/group-of-units|group of units]]) and is typically assumed when discussing standard constructions such as polynomial rings and quotients.
+A [[algebra-rings/unital-ring|unital ring]] is a [[algebra-rings/ring|ring]] satisfying this axiom. The presence of \(1\) allows one to define [[algebra-rings/unit|units]] (and hence the [[algebra-rings/group-of-units|group of units]]) and is typically assumed when discussing standard constructions such as [[algebra-rings/polynomial-ring|polynomial rings]] and quotients.

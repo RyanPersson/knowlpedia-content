@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "differential-geometry/crossing-form",
+      "outcome": "corrected",
+      "source_sha256": "bc258ec50d9b42772b86db6ceb6a693efd84efa2bac04e2703c9567c9d95a9d5",
+      "evidence": "Corpus search found no canonical crossing-form target or alias. The definition isolates the quadratic form on the intersection at a Lagrangian crossing, states the graph interpretation, regularity criterion, signature contribution, endpoint convention, and explicit sign convention. It supplies the missing reusable dependency for the Maslov-cycle, Maslov-index, and relative-Maslov-index knowls."
+    },
+    {
+      "id": "differential-geometry/volume-form",
+      "outcome": "corrected",
+      "source_sha256": "8620d253c5b98f0422581ef789fceff86a9316191602d79d7086afeac2c484e2",
+      "evidence": "Corpus search found no canonical volume-form target or alias. Added the minimal top-degree nowhere-vanishing form definition, the orientability equivalence, and the Riemannian construction in expandable sections. Existing smooth-manifold, differential-k-form, and orientation targets are the direct prerequisites."
+    },
+    {
+      "id": "differential-geometry/sectional-curvature",
+      "outcome": "corrected",
+      "source_sha256": "0f8c83a31c044efd3d6880e475c736dbcc1f60e61ee64576702dc0c66baf8210",
+      "evidence": "Corpus search found no canonical sectional-curvature target or alias. Added the basis-independent Riemann-tensor quotient for a tangent 2-plane, with the adopted curvature sign, Ricci relation, and dimension-two specialization in later sections. Riemannian manifold and Riemann curvature tensor are sufficient direct prerequisites."
+    },
+    {
+      "id": "differential-geometry/gaussian-curvature",
+      "outcome": "corrected",
+      "source_sha256": "60dc0dffeee9df8b647dfb5b8b9611a0a589f90ac92e6e93eb749f2c258fd53a",
+      "evidence": "Corpus search found repeated uses but no canonical Gaussian-curvature target or alias. Although some scanner occurrences are modifiers or examples, the term is independently reusable in surface geometry and Gauss–Bonnet. Added the intrinsic surface definition and placed the embedding, examples, and integral theorem in expandable sections."
+    }
+  ],
+  "gaps": [
+    {
+      "phrase": "constant sectional curvature",
+      "disposition": "local_or_compositional",
+      "evidence": "The phrase is a property of a metric, not a distinct dependency from sectional curvature; the new sectional-curvature knowl defines the underlying object."
+    },
+    {
+      "phrase": "standard volume form",
+      "disposition": "false_positive",
+      "evidence": "Occurrences are generic examples or contrastive wording; volume form now has a canonical target, but the adjective does not denote a separate object."
+    }
+  ],
+  "calibration": {
+    "lessons": [
+      "A concept can be independently reusable even when some scanner occurrences are compositional; Gaussian curvature was retained because it is the canonical surface specialization and occurs in Gauss–Bonnet.",
+      "A volume form is distinct from a Riemannian volume density: the former requires an orientation, while the metric alone supplies only an unoriented density.",
+      "Crossing-form sign conventions must be stated alongside the Riemannian curvature convention; the Maslov literature also requires an explicit endpoint convention."
+    ]
+  }
+}

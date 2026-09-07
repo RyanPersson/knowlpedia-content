@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-A **quotient set** is the set of equivalence classes determined by an equivalence relation: if \(A\) is a [[shared-foundations/set|set]] and \(\sim\) is an [[shared-foundations/equivalence-relation|equivalence relation]] on \(A\), then the quotient set \(A/{\sim}\) is
+A **quotient set** is the set of [[shared-foundations/equivalence-class|equivalence classes]] determined by an [[shared-foundations/equivalence-relation|equivalence relation]]: if \(A\) is a [[shared-foundations/set|set]] and \(\sim\) is an equivalence relation on \(A\), then the quotient set \(A/{\sim}\) is
 \[
 A/{\sim}=\{[a]_{\sim}: a\in A\},\qquad [a]_{\sim}=\{x\in A: x\sim a\}.
 \]

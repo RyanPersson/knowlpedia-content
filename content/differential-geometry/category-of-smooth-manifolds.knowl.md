@@ -28,7 +28,7 @@ manifold is terminal.
 ## Related structures
 
 The [[differential-geometry/category-of-complex-manifolds|category of complex
-manifolds]] forgets complex charts to give a faithful functor to \(\mathbf{Man}\),
+manifolds]] forgets complex charts to give a [[algebra-category-theory/faithful-functor|faithful functor]] to \(\mathbf{Man}\),
 while the [[differential-geometry/category-of-symplectic-manifolds|category of
 symplectic manifolds]] uses smooth manifolds with symplectic forms as objects
 and form-preserving smooth maps as morphisms. The maximal subgroupoid of

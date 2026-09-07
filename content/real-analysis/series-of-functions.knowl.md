@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **series of functions** on a set \(X\) is an expression \(\sum_{n=0}^\infty f_n\) where each \(f_n:X\to\mathbb{R}\) (or \(X\to\mathbb{C}\)). Its **partial sums** are the functions
+A **series of functions** on a set \(X\) is an expression \(\sum_{n=0}^\infty f_n\) where each \(f_n:X\to\mathbb{R}\) (or \(X\to\mathbb{C}\)). Its **[[real-analysis/partial-sums|partial sums]]** are the functions
 \[
 s_N(x)=\sum_{n=0}^N f_n(x).
 \]
@@ -19,7 +19,7 @@ The series is said to converge (pointwise or uniformly) if the sequence \((s_N)\
 
 ## Remarks
 
-This is the function-level analogue of a numerical [[real-analysis/series|series]], with [[real-analysis/partial-sums|partial sums]] taken pointwise in \(x\). Many criteria for uniform convergence of series are packaged as theorems about sequences \((s_N)\), such as the [[real-analysis/weierstrass-m-test|Weierstrass M-test]].
+This is the function-level analogue of a numerical [[real-analysis/series|series]], with [[real-analysis/partial-sums|partial sums]] taken pointwise in \(x\). Many criteria for [[real-analysis/uniform-convergence|uniform convergence]] of series are packaged as theorems about sequences \((s_N)\), such as the [[real-analysis/weierstrass-m-test|Weierstrass M-test]].
 
 ## Examples
 

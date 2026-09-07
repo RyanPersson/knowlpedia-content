@@ -15,7 +15,7 @@ The **space of continuous functions** on a [[topology/topological-space|topologi
 \[
 C(X)=\{f:X\to\mathbb{R} \mid f \text{ is continuous}\},
 \]
-where continuity is in the sense of a [[topology/continuous-map|continuous map]]. It is naturally a vector space under pointwise addition and scalar multiplication.
+where continuity is in the sense of a [[topology/continuous-map|continuous map]]. It is naturally a [[linear-algebra/vector-space|vector space]] under pointwise addition and scalar multiplication.
 
 ## Remarks
 

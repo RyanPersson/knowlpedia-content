@@ -12,10 +12,10 @@ dependency_review_count = 1
 +++
 
 A **supremum** of a nonempty set \(A\subseteq\mathbb R\) that is [[real-analysis/bounded-above|bounded above]] is a real number \(s\in\mathbb R\) such that:
-1. \(s\) is an upper bound of \(A\) (i.e., \(x\le s\) for all \(x\in A\)), and
+1. \(s\) is an [[shared-foundations/upper-bound|upper bound]] of \(A\) (i.e., \(x\le s\) for all \(x\in A\)), and
 2. for every upper bound \(u\) of \(A\), one has \(s\le u\).
 
-The supremum is the “least upper bound” and may exist even when \(A\) has no [[real-analysis/maximum|maximum]]. The [[real-analysis/completeness-axiom|completeness axiom]] asserts that every nonempty bounded-above set of real numbers has a supremum.
+The supremum is the “least upper bound” and may exist even when \(A\) has no [[real-analysis/maximum|maximum]]. The [[real-analysis/completeness-axiom|completeness axiom]] asserts that every nonempty bounded-above set of [[shared-foundations/real-numbers|real numbers]] has a supremum.
 
 ## Examples
 

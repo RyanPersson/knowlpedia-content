@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(R\) be a [[algebra-rings/pid|principal ideal domain]] and \(M\) a finitely generated \(R\)-module. Then there are an integer \(r\ge0\), prime elements \(p_1,\ldots,p_t\in R\), and positive integers \(e_1,\ldots,e_t\) such that
+Let \(R\) be a [[algebra-rings/pid|principal ideal domain]] and \(M\) a finitely generated \(R\)-module. Then there are an integer \(r\ge0\), [[algebra-rings/prime-element|prime elements]] \(p_1,\ldots,p_t\in R\), and positive integers \(e_1,\ldots,e_t\) such that
 \[
 M \;\cong\; R^{\,r}\;\oplus\;\bigoplus_i R/(p_i^{e_i}),
 \]

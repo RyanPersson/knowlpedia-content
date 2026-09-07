@@ -30,7 +30,7 @@ ST-I_{H_0}
 \quad\text{and}\quad
 TS-I_{H_1}
 \]
-are compact. Such an \(S\) is called a parametrix modulo compact operators. When \(H_0=H_1=H\), the image of \(T\) is therefore invertible in the Calkin algebra \(B(H)/K(H)\).
+are compact. Such an \(S\) is called a parametrix modulo compact operators. When \(H_0=H_1=H\), the image of \(T\) is therefore invertible in the [[operator-algebras/calkin-algebra|Calkin algebra]] \(B(H)/K(H)\).
 
 ## Stability and index
 

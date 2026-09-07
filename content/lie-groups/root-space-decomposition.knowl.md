@@ -28,4 +28,4 @@ Two structural bracket relations are fundamental:
 - \([\mathfrak h,\mathfrak g_\alpha]\subseteq\mathfrak g_\alpha\), with \([H,X]=\alpha(H)X\);
 - \([\mathfrak g_\alpha,\mathfrak g_\beta]\subseteq\mathfrak g_{\alpha+\beta}\), where \(\mathfrak g_\gamma=0\) if \(\gamma\) is not a weight, as explained in [[lie-groups/root-space|root spaces]].
 
-With the inner product induced by the [[lie-groups/killing-form|Killing form]], \(\Phi\) is a [[lie-groups/root-system|root system]]. Choosing a [[lie-groups/positive-root|positive system]] yields a triangular decomposition and leads to [[lie-groups/dynkin-diagram|Dynkin diagrams]].
+With the [[linear-algebra/inner-product|inner product]] induced by the [[lie-groups/killing-form|Killing form]], \(\Phi\) is a [[lie-groups/root-system|root system]]. Choosing a [[lie-groups/positive-root|positive system]] yields a triangular decomposition and leads to [[lie-groups/dynkin-diagram|Dynkin diagrams]].

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A sequence of probability measures \((\mu_n)_{n\ge1}\) on a topological space \(E\) is **exponentially tight at speed** \((a_n)_{n\ge1}\) with \(a_n\to\infty\) if for every \(M>0\) there exists a compact set \(K_M\subseteq E\) such that
+A sequence of probability measures \((\mu_n)_{n\ge1}\) on a [[topology/topological-space|topological space]] \(E\) is **exponentially tight at speed** \((a_n)_{n\ge1}\) with \(a_n\to\infty\) if for every \(M>0\) there exists a [[topology/compact-set|compact set]] \(K_M\subseteq E\) such that
 \[
 \limsup_{n\to\infty}\frac{1}{a_n}\log \mu_n(K_M^{\,c}) \le -M.
 \]
@@ -20,5 +20,5 @@ Exponential tightness is a strengthened form of ordinary tightness for [[probabi
 
 ## Examples
 
-- Let \(X_1,X_2,\ldots\) be independent, identically distributed real random variables. If their [[probability/moment-generating-function|moment generating function]] is finite on an open interval containing \(0\), then the laws of \(\overline X_n=n^{-1}\sum_{i=1}^nX_i\) are exponentially tight at speed \(n\); Chernoff bounds give exponential decay of both tails.
+- Let \(X_1,X_2,\ldots\) be independent, identically distributed real [[probability/random-variable|random variables]]. If their [[probability/moment-generating-function|moment generating function]] is finite on an open interval containing \(0\), then the laws of \(\overline X_n=n^{-1}\sum_{i=1}^nX_i\) are exponentially tight at speed \(n\); Chernoff bounds give exponential decay of both tails.
 - If \(E\) itself is compact, then any sequence \((\mu_n)\) is exponentially tight at any speed, since one can take \(K_M=E\) for all \(M\).

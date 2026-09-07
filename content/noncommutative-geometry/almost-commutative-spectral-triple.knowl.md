@@ -14,8 +14,8 @@ dependency_review_count = 1
 Let \(M\) be a closed even-dimensional Riemannian spin manifold with
 [[noncommutative-geometry/canonical-spin-spectral-triple|canonical spin spectral triple]]
 \((C^\infty(M),L^2(M,S),\not D_M,\Gamma_M)\), and let
-\((\mathcal A_F,H_F,D_F,\Gamma_F)\) be a finite-dimensional even spectral
-triple. Their [[noncommutative-geometry/product-spectral-triple|product]]
+\((\mathcal A_F,H_F,D_F,\Gamma_F)\) be a finite-dimensional [[noncommutative-geometry/even-spectral-triple|even spectral
+triple]]. Their [[noncommutative-geometry/product-spectral-triple|product]]
 \[
 \left(
 C^\infty(M)\odot\mathcal A_F,\,
@@ -32,7 +32,7 @@ degrees of freedom.
 
 For a trivial finite factor, the algebra is the smooth section algebra of the
 trivial bundle \(M\times\mathcal A_F\). More general globally
-almost-commutative geometries replace it by smooth sections of a locally
+almost-commutative geometries replace it by [[fiber-bundles/section-of-a-fiber-bundle|smooth sections]] of a locally
 trivial bundle of finite-dimensional star-algebras and replace the product
 [[noncommutative-geometry/dirac-operator|Dirac operator]] by a compatible twisted
 [[noncommutative-geometry/dirac-type-operator|Dirac-type operator]]. This

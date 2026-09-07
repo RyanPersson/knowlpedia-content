@@ -14,13 +14,13 @@ dependency_review_count = 2
 
 A **symplectic manifold** is a pair \((M,\omega)\) where \(M\) is a [[fiber-bundles/smooth-manifold|smooth manifold]] and \(\omega\in\Omega^2(M)\) is a differential \(2\)-form satisfying:
 
-1. **Nondegeneracy:** for every \(p\in M\), the bilinear form \(\omega_p:T_pM\times T_pM\to\mathbb R\) is nondegenerate. Equivalently,
+1. **Nondegeneracy:** for every \(p\in M\), the [[linear-algebra/bilinear-form|bilinear form]] \(\omega_p:T_pM\times T_pM\to\mathbb R\) is nondegenerate. Equivalently,
    \[
    \iota_v\omega_p=0\quad\Longrightarrow\quad v=0,
    \]
    so \(v\mapsto\iota_v\omega_p\) identifies \(T_pM\) with \(T_p^*M\).
 
-2. **Closedness:** \(d\omega=0\).
+2. **[[fiber-bundles/closed-differential-form|Closedness]]:** \(d\omega=0\).
 
 Nondegeneracy is pointwise linear algebra, while closedness is a differential condition. A nondegenerate two-form that is not closed defines only an [[differential-geometry/almost-symplectic-manifold|almost-symplectic manifold]].
 
@@ -37,7 +37,7 @@ The dimension of \(M\) is even, say \(2n\), and
 \[
 \frac{\omega^n}{n!}
 \]
-is a nowhere-vanishing top-degree form. It supplies a canonical orientation and volume form. The [[differential-geometry/darboux-theorem-symplectic|symplectic Darboux theorem]] says that every point has local coordinates \((q_1,\ldots,q_n,p_1,\ldots,p_n)\) in which
+is a nowhere-vanishing top-degree form. It supplies a canonical orientation and [[differential-geometry/volume-form|volume form]]. The [[differential-geometry/darboux-theorem-symplectic|symplectic Darboux theorem]] says that every point has local coordinates \((q_1,\ldots,q_n,p_1,\ldots,p_n)\) in which
 \[
 \omega=\sum_{i=1}^n dq_i\wedge dp_i.
 \]

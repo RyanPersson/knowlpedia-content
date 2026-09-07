@@ -28,8 +28,8 @@ algebra.
 
 ## Closure and the bicommutant theorem
 
-For a unital self-adjoint subalgebra \(A\subseteq B(H)\), the von Neumann
-bicommutant theorem identifies its weak-operator closure, strong-operator
+For a unital self-adjoint subalgebra \(A\subseteq B(H)\), the [[operator-algebras/von-neumann-bicommutant-theorem|von Neumann
+bicommutant theorem]] identifies its weak-operator closure, strong-operator
 closure, and [[operator-algebras/bicommutant|double commutant]] \(A''\).
 The hypotheses matter: an arbitrary weakly closed nonself-adjoint operator
 algebra is not a von Neumann algebra. Norm closure alone produces only a

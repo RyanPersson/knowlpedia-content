@@ -15,7 +15,7 @@ dependency_review_count = 1
 \[
 c(fg)\sim c(f)c(g),
 \]
-i.e., the chosen generator of the content ideal of \(fg\) is associate to the product of the chosen generators for \(f\) and \(g\). In particular, the product of primitive polynomials is primitive.
+i.e., the chosen generator of the content ideal of \(fg\) is associate to the product of the chosen generators for \(f\) and \(g\). In particular, the product of [[algebra-rings/primitive-polynomial|primitive polynomials]] is primitive.
 
 ## Remarks
 

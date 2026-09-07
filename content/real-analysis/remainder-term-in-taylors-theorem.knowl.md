@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Suppose \(f\) has derivatives through order \(k\) at \(a\). Its Taylor polynomial of degree at most \(k\) about \(a\) is
+Suppose \(f\) has derivatives through order \(k\) at \(a\). Its [[real-analysis/taylor-polynomial|Taylor polynomial]] of degree at most \(k\) about \(a\) is
 \[
 T_kf(x;a)=\sum_{j=0}^k\frac{f^{(j)}(a)}{j!}(x-a)^j.
 \]

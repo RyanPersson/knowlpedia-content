@@ -6,12 +6,12 @@ summary = "A nonzero regular Borel measure on a locally compact group that is in
 aliases = ["left Haar measure", "right Haar measure", "Haar measure on a locally compact group"]
 domains = ["harmonic-analysis", "topology", "measure-theory"]
 section_mode = "progressive"
-prerequisites = ["topology/locally-compact-group", "measure-theory/measure", "topology/compact-set"]
+prerequisites = ["topology/locally-compact-group", "measure-theory/borel-measure", "topology/compact-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]]. A **left Haar measure** on \(G\) is a nonzero [[measure-theory/measure|Borel measure]] \(\mu\) that is finite on [[topology/compact-set|compact sets]], inner regular on open sets, outer regular on Borel sets, and left invariant:
+Let \(G\) be a [[topology/locally-compact-group|locally compact Hausdorff group]]. A **left Haar measure** on \(G\) is a nonzero [[measure-theory/borel-measure|Borel measure]] \(\mu\) that is finite on [[topology/compact-set|compact sets]], inner regular on open sets, outer regular on Borel sets, and left invariant:
 \[
 \mu(gE)=\mu(E)
 \]

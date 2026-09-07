@@ -11,8 +11,8 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A bounded operator \(X\) on a Hilbert space is **Hilbert–Schmidt** if
-\(\|X\|_2^2=\sum_\alpha \|Xe_\alpha\|^2<\infty\) for some (hence any) orthonormal basis \(\{e_\alpha\}\).
+A [[functional-analysis/bounded-linear-operator|bounded operator]] \(X\) on a [[linear-algebra/hilbert-space|Hilbert space]] is **Hilbert–Schmidt** if
+\(\|X\|_2^2=\sum_\alpha \|Xe_\alpha\|^2<\infty\) for some (hence any) [[linear-algebra/orthonormal-basis|orthonormal basis]] \(\{e_\alpha\}\).
 
 ## Remarks
 

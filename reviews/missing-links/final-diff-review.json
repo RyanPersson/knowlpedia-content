@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-modules/elementary-divisor-theorem",
+      "outcome": "corrected",
+      "source_sha256": "6ccbc20dd0c2658c38da5a2afd5bffd2ace0afc3e2286c983d13f6ead14f19ab",
+      "evidence": "Root checked source and target: primary decomposition of ideals is not the primary direct-summand decomposition of a PID module. Removed this incorrect match and its added wording; retained prime-element link."
+    },
+    {
+      "id": "algebra-modules/kernel-image-submodules",
+      "outcome": "corrected",
+      "source_sha256": "886a8ef93f820ef4d103c9e01032d6688fc63798a58b32de1b2cdd70d03ef1f5",
+      "evidence": "Root reviewed the complete short theorem: moved submodule link to existing wording and deleted redundant added conclusion. Preserved all mathematical notation."
+    },
+    {
+      "id": "convex-analysis/semialgebraic-set",
+      "outcome": "corrected",
+      "source_sha256": "6ee0d0acd1b4c40e5ac78092800abb627bbdafe2e7da3c3962ba1e2cd2989bb8",
+      "evidence": "Root checked polynomial target: it is restricted to one real variable and cannot define the multivariate polynomials here. Removed the inappropriate match and added gloss; retained subset link. Multivariable ring notation is local in this source."
+    },
+    {
+      "id": "differential-geometry/stokes-theorem",
+      "outcome": "corrected",
+      "source_sha256": "015df19a0a9117b7eae177d7ee9ea309a36b0390ff74df6ec7eef477bced840e",
+      "evidence": "Root compared the source before/after link insertion and restored the lost dimension n in the displayed label. Stokes degree n-1 again has its explicit ambient dimension."
+    },
+    {
+      "id": "differential-geometry/whitney-embedding-theorem",
+      "outcome": "corrected",
+      "source_sha256": "c47ff672b07963b1fcb0b4cdd488b48a626cd2273bc7a932810fdfa3b8741120",
+      "evidence": "Root compared visible wording and removed the extra closing bracket left by link insertion; target and original mathematical text preserved."
+    },
+    {
+      "id": "discrete-structures/graph-vertex-edge",
+      "outcome": "corrected",
+      "source_sha256": "e832c8599a9a5efa2f862057a7a082c7e4df2cd797bdf78f7987c90af0fb6243",
+      "evidence": "Root compared visible wording and removed an extra closing bracket after ordered-pair link; definition otherwise unchanged."
+    },
+    {
+      "id": "langlands/global-langlands-reciprocity",
+      "outcome": "corrected",
+      "source_sha256": "d501da6ac8ebd8a8f6c816a4bee88f9e71bcce741b2f4cd1c2f56f3ae9d9474f",
+      "evidence": "Root removed the duplicated fields after a multiline global-function-field link; original claim and linked target preserved."
+    },
+    {
+      "id": "operator-algebras/group-von-neumann-algebra",
+      "outcome": "corrected",
+      "source_sha256": "86691539c9c3496c2efedc0a1193ae4c1b72d5102c5ad20c6d27ae0724ae4724",
+      "evidence": "Root removed duplicate conjugacy before the new conjugacy-class link, preserving the original infinite-conjugacy-class criterion."
+    },
+    {
+      "id": "mathematical-physics/hypercharge",
+      "outcome": "corrected",
+      "source_sha256": "d074bdcd3624834198df0f1ef92af1007180d52086f31f454bb203c5df2b99b6",
+      "evidence": "Root restored the original hypercharge factor subscript Y, which link insertion had dropped. The circle-group target is appropriate to that factor; no added explanatory text in core."
+    },
+    {
+      "id": "lie-groups/orbit-lie-group",
+      "outcome": "corrected",
+      "source_sha256": "9af8eaeadb0caee9845229020c1f23734ab9b6daefd62f17b21fec8963bd7c15",
+      "evidence": "Root read Lie-group orbit-map target: linked the existing term directly and removed the redundant added see-also wording."
+    },
+    {
+      "id": "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+      "outcome": "corrected",
+      "source_sha256": "a4cba5a677e6d3cad65ef960dcf94f223ee17c0425cc7b5b706b72ef3d264941",
+      "evidence": "Root removed unnecessary prose added solely to attach a ring link; C-infinity(M)-linearity already specifies the coefficient ring. Retained the appropriate smooth-map link."
+    },
+    {
+      "id": "harmonic-analysis/bochner-theorem-lca",
+      "outcome": "corrected",
+      "source_sha256": "8f991863fb544a4dd0a757986e4b623a2b13f5bdaf9c2c9ca12115874f9e157e",
+      "evidence": "Root moved Borel-measure link into the first defining occurrence and deleted the redundant sentence inserted after the theorem. Finiteness, positivity and regularity hypotheses preserved."
+    },
+    {
+      "id": "differential-geometry/symplectic-manifold",
+      "outcome": "corrected",
+      "source_sha256": "8015ea82ee72e41cbcdba1a2ce81584dbcb6dabe58aefd702db2cceb2f774103",
+      "evidence": "Root linked the existing closedness axiom and removed the added repeated explanation. Bilinear-form and volume-form links retained."
+    },
+    {
+      "id": "shared-foundations/lower-bound",
+      "outcome": "corrected",
+      "source_sha256": "2af0b32dd4a8b0a1058398c0b41ccb124444c3e8791a4e833ec1afc1f759cf90",
+      "evidence": "Root read real-analysis target and rejected it: this source defines bounds in an arbitrary partial order, while the suggested target is restricted to subsets of R. Restored the original locally defined term. No valid source correction remains."
+    },
+    {
+      "id": "shared-foundations/upper-bound",
+      "outcome": "corrected",
+      "source_sha256": "823f953c643ed978899db40423ae73bba1b441269e00a6f85c6193b8e7046176",
+      "evidence": "Root read real-analysis target and rejected it: this source defines bounds in an arbitrary partial order, while the suggested target is restricted to subsets of R. Restored the original locally defined term. No valid source correction remains."
+    },
+    {
+      "id": "mathematical-physics/hyperbolic-plane-wave",
+      "outcome": "corrected",
+      "source_sha256": "8a8cb0a6c9dc352f1cd424e3533958195ab0c3787ba547b52f9ddfc11fecafbd",
+      "evidence": "Root corrected the issue-resolution citation attribution to Farb and Margalit after verifying the publisher chapter PDF pp.19\u201321. Disk link and nonnegative Laplace\u2013Beltrami sign checked against canonical targets; original feedback report preserved."
+    },
+    {
+      "id": "quantum-foundations/normal-operator",
+      "outcome": "corrected",
+      "source_sha256": "1b828717e915774973e9afbe1542e6cfd2a93fd9e19c366de34a11f81493cb89",
+      "evidence": "Root read bounded and densely-defined self-adjoint targets: the latter includes bounded operators but introduces unnecessary domain machinery. Retargeted to the exact bounded-observable definition; linked defining bounded operator/adjoint and unitary example to their checked canonical targets."
+    },
+    {
+      "id": "lie-groups/center-of-a-lie-group",
+      "outcome": "corrected",
+      "source_sha256": "2104581a0b08314ae20a398c3fbb09858dffc9de1735a9b3524ff56aedff8f84",
+      "evidence": "Root checked characteristic-subgroup and ring-characteristic definitions. Retargeted the group-center property to characteristic-subgroup, or removed the unrelated ring-characteristic match from Lie ideals; ring/field characteristic is a different notion. Read full source and retained its existing appropriate links."
+    },
+    {
+      "id": "lie-groups/derived-subalgebra-is-ideal-lemma",
+      "outcome": "corrected",
+      "source_sha256": "2e86aa589b4ee14f4526ccffb9ff7aa31411115483e7f832bba21403e376d4f2",
+      "evidence": "Root checked characteristic-subgroup and ring-characteristic definitions. Retargeted the group-center property to characteristic-subgroup, or removed the unrelated ring-characteristic match from Lie ideals; ring/field characteristic is a different notion. Read full source and retained its existing appropriate links."
+    },
+    {
+      "id": "lie-groups/derived-series-lie-algebra",
+      "outcome": "corrected",
+      "source_sha256": "359af66fbb375d0ac1b15a3575a4d3366d22d08a09867dbab146ca802603575e",
+      "evidence": "Root checked characteristic-subgroup and ring-characteristic definitions. Retargeted the group-center property to characteristic-subgroup, or removed the unrelated ring-characteristic match from Lie ideals; ring/field characteristic is a different notion. Read full source and retained its existing appropriate links."
+    },
+    {
+      "id": "fiber-bundles/euler-class",
+      "outcome": "corrected",
+      "source_sha256": "f420f13f434dbc6878ac01e4d04d87fe2f26ebe93dc40e80a3f40789a8e095ad",
+      "evidence": "Root checked Gaussian-curvature and volume-form targets. Clarified the supporting oriented-surface Euler-form example as K vol_g/(2pi), distinguishing scalar curvature from a differential form. Added both exact links; main Euler-class definition unchanged."
+    }
+  ]
+}

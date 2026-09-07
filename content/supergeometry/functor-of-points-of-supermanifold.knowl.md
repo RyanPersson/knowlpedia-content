@@ -23,7 +23,7 @@ An element of \(h_X(S)\) is an **\(S\)-point** of \(X\), or equivalently a
 family of points of \(X\) parametrized by the test supermanifold \(S\).
 A morphism \(X\to Y\) induces a [[algebra-category-theory/natural-transformation|natural transformation]] \(h_X\to h_Y\).
 
-By the [[algebra-category-theory/yoneda-lemma|Yoneda lemma]], \(X\mapsto h_X\) is fully faithful. Consequently, a
+By the [[algebra-category-theory/yoneda-lemma|Yoneda lemma]], \(X\mapsto h_X\) is [[algebra-category-theory/fully-faithful-functor|fully faithful]]. Consequently, a
 supermanifold and every one of its morphisms can be characterized by all
 \(S\)-points and their naturality in \(S\).
 

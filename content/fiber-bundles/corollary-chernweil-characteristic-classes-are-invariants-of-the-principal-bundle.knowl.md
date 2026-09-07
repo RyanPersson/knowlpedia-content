@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(p\) be an \(\mathrm{Ad}\)-invariant polynomial on the Lie algebra. Given a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) with [[fiber-bundles/curvature|curvature]] \(\Omega\), the Chern–Weil construction produces a differential form on \(M\) by applying \(p\) to \(\Omega\) and using the fact that the resulting form is basic.
+Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(p\) be an \(\mathrm{Ad}\)-invariant polynomial on the [[lie-groups/lie-algebra|Lie algebra]]. Given a [[fiber-bundles/principal-connection|principal connection]] \(\omega\) with [[fiber-bundles/curvature|curvature]] \(\Omega\), the Chern–Weil construction produces a differential form on \(M\) by applying \(p\) to \(\Omega\) and using the fact that the resulting form is basic.
 
 ## Corollary (independence of connection)
 For each invariant polynomial \(p\) of degree \(k\), there is a canonically defined de Rham cohomology class

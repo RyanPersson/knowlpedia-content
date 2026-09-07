@@ -25,5 +25,5 @@ Invariant forms form a subcomplex of the [[differential-geometry/de-rham-complex
 
 ## Examples
 1. **Left-invariant forms on a Lie group.** For \(M=G\) with the left translation action, any left-invariant 1-form (and its wedge products) is \(G\)-invariant.
-2. **Volume on the sphere.** The standard volume form on \(S^n\) is invariant under the natural \(SO(n+1)\)-action.
+2. **Volume on the sphere.** The standard [[differential-geometry/volume-form|volume form]] on \(S^n\) is invariant under the natural \(SO(n+1)\)-action.
 3. **Basic forms are invariant.** Any [[fiber-bundles/basic-differential-form-on-a-principal-bundle|basic form]] on a principal bundle is invariant under the principal right action by definition.

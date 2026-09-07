@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "langlands/affine-springer-fiber",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1996843786c04b1907855550eb652892f574c6dd1b7b92c678b24e09c7c4c014",
+      "evidence": "Read complete source and checked target definitions: Lie-algebra\ncentralizer -> lie-groups/centralizer-of-a-lie-subalgebra. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/algebraic-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "200f0799f992ae35ca65b4b41f9f683cf8bd929e238a5b0a865e795d90043417",
+      "evidence": "Read complete source and checked target definitions: reductive group -> algebraic-geometry-foundations/reductive-algebraic-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/arthur-multiplicity-formula",
+      "outcome": "corrected",
+      "source_sha256": "cde8ab6b24dbefeb72882992f08176120021b37801dc848be36696c9d6411d66",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: Cartesian product -> shared-foundations/cartesian-product; Central quotients -> lie-groups/central-quotient-of-a-lie-group. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/arthur-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "296dd7c84c681172967c24c857b156a66e6fc8a5bdb68f53a231eecbd94ca729",
+      "evidence": "Read complete source and checked target definitions: general linear groups -> lie-groups/general-linear-group; automorphic\nrepresentations -> langlands/automorphic-representation. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/arthur-selberg-trace-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5067418e87226669df4a8e30ac98cd0f44c9a9f40d4ed8c51114c4531f833f12",
+      "evidence": "Read complete source and checked target definitions: automorphic representations -> langlands/automorphic-representation; reductive group -> algebraic-geometry-foundations/reductive-algebraic-group; Levi subgroups -> algebraic-geometry-foundations/levi-subgroup; orbital integrals -> langlands/orbital-integral; Levi subgroups -> algebraic-geometry-foundations/levi-subgroup; automorphic representations -> langlands/automorphic-representation. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/arthur-truncation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ef9637e4a99d339f7f9c8a0a53c3a68292f6707af2b5e46dc84507a9307b83e",
+      "evidence": "Read complete source and checked target definitions: regular point -> real-analysis/regular-point; characteristic functions -> probability/characteristic-function-probability. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/artin-conductor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ffc0161b7017cfa798ab7d45a18ad6bf0052cfb267b5e363cd0083bde3b1c882",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/automorphic-constant-term",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "93ba7e928eec8753041f03b392952a4345bc8e1c4071166ddd7bc3a9042e4e1d",
+      "evidence": "Read complete source and checked target definitions: automorphic form -> langlands/automorphic-form; parabolic subgroup -> algebraic-geometry-foundations/parabolic-subgroup; Levi subgroups -> algebraic-geometry-foundations/levi-subgroup; standard intertwining operators -> lie-groups/knapp-stein-intertwining-operator. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/automorphic-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42ec47e58fc7e75b818de9e6623d73f0b6ed1fe0957dd063e96490e27ccf7c10",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/automorphic-galois-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0f14af674c4f348557135a6e910a6ea0093ed1d7db0a3d9714d3b41ae8b52f71",
+      "evidence": "Read complete source and checked target definitions: Galois correspondence -> algebra-fields-galois/galois-correspondence; almost everywhere -> measure-theory/almost-everywhere; general linear groups -> lie-groups/general-linear-group; reductive groups -> algebraic-geometry-foundations/reductive-algebraic-group; automorphic representations -> langlands/automorphic-representation. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c748b18c26d704ff69ed7dad2d74813b4c00377acbd54fec8051bd7a43f4355",
+      "evidence": "Read complete source and checked target definitions: automorphic form -> langlands/automorphic-form. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/c-algebraic-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a8b6895dcd27b8ceb31b9c9c4a6579ab61d49efd43baa47671d282b94ebbf6a",
+      "evidence": "Read complete source and checked target definitions: positive roots -> lie-groups/positive-root; central\nextension -> algebra-groups/central-extension. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/coalescence-of-shtuka-legs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f0555e6f0a3d318f263ad365057dfc140345046d1602457c2e3e0ecf0477065",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/cohomological-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b5342c3709f03c0f3e8ba20f44eb97a18cec2dc02dfcaa2964ff361cfcfe260",
+      "evidence": "Read complete source and checked target definitions: automorphic representations -> langlands/automorphic-representation; reductive groups -> algebraic-geometry-foundations/reductive-algebraic-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/compatible-system-of-galois-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f732bac3f5c2b5ee5aac742de5ed484dc97a0491f5bd596a7615689adf9c742d",
+      "evidence": "Read complete source and checked target definitions: general linear\ngroups -> lie-groups/general-linear-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/component-group-of-l-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9771fdece2bb2f043f4841372056c7951840286fc38dca0105f41d29050880ed",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/continuous-automorphic-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a603beefd31b01fa57a7b10ecf63a030bea4a962e4196292db33734e4f80fb8e",
+      "evidence": "Read complete source and checked target definitions: regular\nrepresentation -> algebra-representation-theory/regular-representation. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/convolution-of-sheaves",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84da57c1e903f18b18b91cb3d41d7be91c55a65ab7429f6c415e66c146934457",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/crystalline-galois-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e3a434376bc296cde12f9c85528eaddb535ea7e4a6459d367df3c2e0aca4ca6",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/cuspidal-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a70c4266e5d21934b9bddb536f64b38dd416f7de0e060cc2c7c59a6d60d16bd",
+      "evidence": "Read complete source and checked target definitions: parabolic\nsubgroups -> algebraic-geometry-foundations/parabolic-subgroup; automorphic form -> langlands/automorphic-form; principal\nseries -> lie-groups/principal-series-representation; Levi subgroups -> algebraic-geometry-foundations/levi-subgroup. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/de-rham-galois-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e71df4252a021e100d18fe0ab71a7aa59451d316ecb9e79cb0019544f7c6202",
+      "evidence": "Read complete source and checked target definitions: Hodge filtration -> differential-geometry/hodge-filtration; monodromy theorem -> complex-analysis/monodromy-theorem. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/discrete-automorphic-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a31f7d0e522c7f2ada1f74cc1e40a7338d1006ad2ba05d6770781c65483d13db",
+      "evidence": "Read complete source and checked target definitions: central character -> algebra-representation-theory/central-character. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/dominant-coweight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5bc2b5c23f22b9990e5fd5ab8e0e9abe61ad070355611197cae602b13a0ac5b2",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/drinfeld-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0de22972f284fb847299c88b420de7bc011de21496159d2e9fb1dd827c76b541",
+      "evidence": "Read complete source and checked target definitions: Weil group -> langlands/weil-group; fundamental groups -> topology/fundamental-group; Galois\ngroups -> algebra-fields-galois/galois-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/endoscopic-datum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8bfe6b71451a1f4c15da8643aabbe3ccf07d5fd66b07833018e314296bc918ad",
+      "evidence": "Read complete source and checked target definitions: identity component -> lie-groups/identity-component-of-a-lie-group; connected component -> topology/connected-component; general linear groups -> lie-groups/general-linear-group; transfer factors -> langlands/transfer-factor. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/endoscopic-transfer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9575f9e595408d90d811c965aa9143b3d5c2263dd291ac89c1ebef6d5bbe6dbd",
+      "evidence": "Read complete source and checked target definitions: test function -> functional-analysis/test-function-space; linear combinations -> convex-analysis/linear-combination. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/excursion-algebra",
+      "outcome": "corrected",
+      "source_sha256": "07927b7cc25453acab727c14a99cd4a8f166f18d234579bafad0e7c60a73407a",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: excursion operator -> langlands/excursion-operator; automorphic\nrepresentations -> langlands/automorphic-representation. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/excursion-operator",
+      "outcome": "corrected",
+      "source_sha256": "e0bf6a5818f1c986f9eb89efabd323312c1e32b14105119dacd3c91d9e04f6f1",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: invariant function -> fiber-bundles/invariant-function; reductive group -> algebraic-geometry-foundations/reductive-algebraic-group; invariant functions -> fiber-bundles/invariant-function; invariant functions -> fiber-bundles/invariant-function. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/fargues-fontaine-curve",
+      "outcome": "corrected",
+      "source_sha256": "2a7b3f95f4571218814863432479958fc8d4cf363ad4122e37a5296b873a5d51",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: vector bundle -> fiber-bundles/vector-bundle. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/fargues-scholze-parameter-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1685ac4c6cb2b141791c78a6a6314b668c2069badace75b20caf8ba5f00076ef",
+      "evidence": "Read complete source and checked target definitions: irreducible\nrepresentation -> algebra-representation-theory/irreducible-representation; refined local Langlands\ncorrespondence -> langlands/refined-local-langlands-correspondence. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/fontaine-period-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8845ee48a562261d939646ee2500cbba60787d2df66bd8fcf1454bc7e1cf372e",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/fundamental-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9cc30155a861a409bd8f06f9ef8f6c8a37cda979cef5303c04defbce570de85",
+      "evidence": "Read complete source and checked target definitions: stable orbital\nintegrals -> langlands/stable-orbital-integral; orbital\nintegrals -> langlands/orbital-integral; function field -> algebra-fields-galois/global-function-field; orbital integrals -> langlands/orbital-integral; Hitchin fibration -> langlands/hitchin-fibration. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/g-bundle-on-fargues-fontaine-curve",
+      "outcome": "corrected",
+      "source_sha256": "11d9549b49156b1cacfebf1db55e744b5d6ea0cb04094f8ddf02cd73c4897ab9",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: Fargues–Fontaine curve -> langlands/fargues-fontaine-curve; vector bundles -> fiber-bundles/vector-bundle. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/g-local-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98547ab86913955e8a9719f8b8d8dfd2dcc2960fcfbd9b97d3ce5bd77b8a33a6",
+      "evidence": "Read complete source and checked target definitions: complex curve -> differential-geometry/riemann-surface; local system -> fiber-bundles/local-system; local systems -> fiber-bundles/local-system; local system -> fiber-bundles/local-system. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/g-shtuka",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd5a0298e766ef0d75ff0921f260d2064f5a520ed73e1934f544a45b41941fe6",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/geometric-langlands-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a9df1e6d104989a674d3cbecff96433a57f7419362a42bbfe2b2204ef58c5e4",
+      "evidence": "Read complete source and checked target definitions: algebraically closed\nfield -> algebraic-geometry-foundations/algebraically-closed-field; de Rham theorem -> differential-geometry/de-rham-theorem; local systems -> fiber-bundles/local-system. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/geometric-satake-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77355c820f91066e122632b5e696a59201d7535472e3250ee1d06f6d332d27fe",
+      "evidence": "Read complete source and checked target definitions: reductive\ngroup -> algebraic-geometry-foundations/reductive-algebraic-group; highest\nweight -> lie-groups/highest-weight; fiber functor -> algebra-category-theory/tannakian-category. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/global-langlands-parameter",
+      "outcome": "corrected",
+      "source_sha256": "63d39491a924a9a1d02137f2251583a3a0d76e866e8982531dedb460950f7dbd",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: number field -> algebra-fields-galois/number-field; Galois\ngroups -> algebra-fields-galois/galois-group; global function field -> algebra-fields-galois/global-function-field. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/global-langlands-reciprocity",
+      "outcome": "corrected",
+      "source_sha256": "b022529150e714afd7271f6b96a3c4410c0546bd7ecc6129394f878b70860398",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: number fields -> algebra-fields-galois/number-field; global function\nfields -> algebra-fields-galois/global-function-field; reductive groups -> algebraic-geometry-foundations/reductive-algebraic-group. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/global-nilpotent-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a814f033f693776e37d967ffb6e26471641a23f2bd3352a6dffb95d362f06726",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/hecke-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "122d47a26f871af25f02f9d5d5c7093ce3050ba105bb03134c4845266004f353",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/hecke-eigensheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd9810e2690c7fde103454a571544b73ec1196b6cbb881422f1a8fdc4029caf2",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/hecke-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "79228cb4eea67c1f29ab62f67d73aa7b74e8103c2c5ab01dcf3f64f09b3182a7",
+      "evidence": "Read complete source and checked target definitions: complex curve -> differential-geometry/riemann-surface; vector\nbundles -> fiber-bundles/vector-bundle. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/hecke-modification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "798b57c5438cd65e65b5f9ca585b9a85bef295b86d67196a87e1d5c86a72d0ad",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/hitchin-fibration",
+      "outcome": "corrected",
+      "source_sha256": "d7b84b45f8f99fbf0754461c8cec29a67a8ef624593c799b24c7e09a7c5ff303",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: line bundle -> fiber-bundles/line-bundle. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/hodge-tate-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39f8d5709ba7d778fd8dafdb2c20b20d3f50491b12977346a1612c4732214e60",
+      "evidence": "Read complete source and checked target definitions: automorphic\nGalois representations -> langlands/automorphic-galois-correspondence. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/ind-coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd837223e06ab07be0b4f39a71f6e0e7df3fde869fb4781dad5c0ca3fbe9f780",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/ind-coherent-sheaves-with-nilpotent-singular-support",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5e59e243139ba71252b979dc63ffb68db3b581e74efd5dd492d2066c0510bb8",
+      "evidence": "Read complete source and checked target definitions: full subcategory -> algebra-category-theory/full-subcategory; local systems -> fiber-bundles/local-system; singular support -> functional-analysis/singular-support. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/ind-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37886e287cd0938e9c70c75946eae0cb58c3217a04be9d989314441d8d78b49f",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/intersection-cohomology-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "344f378b5658938dde0da35270024ab756d6d98c7f64ada5ec49b6cd8da1af88",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/irregular-singular-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7e4ce45b3f0b4629e3d5ca6325ea29822e9c253c751495f25d63dbe7950b9c3",
+      "evidence": "Read complete source and checked target definitions: complex curve -> differential-geometry/riemann-surface. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/isobaric-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8bcd0b67aa652b5f6308c08d0c9e7aa23478227724af5283ccc24bb1e88ec38",
+      "evidence": "Read complete source and checked target definitions: Langlands quotient -> lie-groups/langlands-quotient; normalized parabolic induction -> lie-groups/normalized-parabolic-induction; general\nlinear groups -> lie-groups/general-linear-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/iwahori-level-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9bc1c79bb86cc957ab9827e3897398d63c97857b4c32fa85fc2a1f63265689a",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/kappa-orbital-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "324cb987917ae2aab057dae6498df2100fcd15299f051fe473eef3052cb6e1e0",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/kottwitz-set-b-g",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec2488c024f251a82e4050ee7d6f7be4a955d75f1446dddf385c9b2e70b73c49",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/l-algebraic-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70eedd588f76cf47714cd140498abd709a7fbde9b9a3f3de671aa7a495844766",
+      "evidence": "Read complete source and checked target definitions: reductive group -> algebraic-geometry-foundations/reductive-algebraic-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/l-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d3bfeccf32aaf5ca2c3dc3e899425fbe021493c7d9cf64f7d2f38c6d67865b67",
+      "evidence": "Read complete source and checked target definitions: Weil group -> langlands/weil-group; Weil group -> langlands/weil-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/l-packet",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ae2051e675e38aa3b0a5b0b27a13c054a728c5eb79a167b92bd1018bee853c4",
+      "evidence": "Read complete source and checked target definitions: linear combinations -> convex-analysis/linear-combination. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/lafforgue-global-parameterization",
+      "outcome": "corrected",
+      "source_sha256": "ec07a34e5a4aefa13ac8785e634bebe5069a6e66239e71d640a346ab151a13d2",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: global function fields -> algebra-fields-galois/global-function-field. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/level-structure-on-g-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0d58a1324732b264b5cfa7f39dbab45feac35428a1f97e2cac118f8281f0c27",
+      "evidence": "Read complete source and checked target definitions: positive loop\ngroup -> langlands/positive-loop-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-class-field-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b702d10a54cc381f843dda6dcfa55e21598ad77eed8c7415560c6f7e29287a5",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-epsilon-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca2a39750473e6f317afe0fc454cfde1baddaecd4c50e166d81b3341f45e500b",
+      "evidence": "Read complete source and checked target definitions: Weil–Deligne representation -> langlands/weil-deligne-representation; reductive\ngroup -> algebraic-geometry-foundations/reductive-algebraic-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-gamma-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ff1bad2c433dc804955497bf7bebb1eaba1a9163cdfc29d169be17bf918c030",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-global-compatibility",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0f3b791fcd47bab8cf27f2a28d9b2c764c6b82b4b393a782c902d5b535398235",
+      "evidence": "Read complete source and checked target definitions: algebraic automorphic representation -> langlands/algebraic-automorphic-representation; number field -> algebra-fields-galois/number-field. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-l-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12de3fcd00432a848b37391200233741735b5ee017aa7e0df4558239d0f547b1",
+      "evidence": "Read complete source and checked target definitions: local Langlands group -> langlands/weil-deligne-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-langlands-compatibilities",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0fd9e6aa0db89fee4f155d06c27eb590aa7d89b8d7b03ec93d937eda3de1b82",
+      "evidence": "Read complete source and checked target definitions: normalized induction -> lie-groups/normalized-parabolic-induction; Whittaker data -> langlands/whittaker-datum. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-langlands-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e46f14ab1feb49617f6504df6412cc9085795f29d14f15e656035902d4c6d5b",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-langlands-correspondence-for-gln",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d81c5ee15b832d626b8439fdd55054ba6c907c8017579ca4c7dfff76b03c749",
+      "evidence": "Read complete source and checked target definitions: local class field theory -> langlands/local-class-field-theory; Weil–Deligne representations -> langlands/weil-deligne-representation. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-shimura-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69aff42893b08cd147af4f6962561d9910a6b00c6f5e97341624ae845aea196c",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/local-shtuka",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9746c67ebd0d43e959c00bd1569db871849cfbc48fd3a67ad6ddfb72d4aea924",
+      "evidence": "Read complete source and checked target definitions: loop\ngroups -> langlands/loop-group; formal discs -> formal-groups/formal-affine-space. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/loop-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7d7f9c8375e14e65f105e68426059c47485400aed4d338fb3277569c9cb14a0",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/moduli-stack-of-g-local-systems",
+      "outcome": "corrected",
+      "source_sha256": "83598e4a65b80ab1cb86102bef39c5f6eb0144b80e1ce81d7cc88228e3b44a57",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: smooth projective curve -> algebraic-geometry-foundations/smooth-projective-curve. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/orbital-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c40ff23a9440e5a9f84ae1119a838c19ac1c0085a3e6b96948b97aa5301a99a7",
+      "evidence": "Read complete source and checked target definitions: test function -> functional-analysis/test-function-space; test function -> functional-analysis/test-function-space. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/parahoric-level-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a90d9c540a862a6acd897e78be34499f259b5e398a4f27e5fc249e3c648bce80",
+      "evidence": "Read complete source and checked target definitions: local field -> algebra-fields-galois/local-field. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/partial-frobenius-on-shtukas",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d3a1b8d2bb5ed5cc58e6ab91df67a69e8992040931ea76015d1e0c067160bc37",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/perverse-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "046662367205818c2fef73d10f80981daa3fdd5e8e480a5b1a74297e13f9189d",
+      "evidence": "Read complete source and checked target definitions. The phrase ordinary cohomology sheaves refers to derived cohomology sheaves, not the singular cohomology group target; no link was added. Generic matches were rejected and no prerequisite edge change was justified."
+    },
+    {
+      "id": "langlands/positive-loop-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a80a205f94012bff81e93bb0dcbaa64eecfbf9d27a7604a764117a604d9ca0f5",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/ramification-of-g-local-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "900fe4fcd7464b40227ae71cdad89cb2e27a7ad336467774d92aa401ec5f8d22",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/ramified-geometric-langlands",
+      "outcome": "corrected",
+      "source_sha256": "9532ee549b9899949d94b78b73c385650e2e71fe7844ceadd22fb042aeeca79c",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: local systems -> fiber-bundles/local-system; local systems -> fiber-bundles/local-system; Iwahori\nlevel structures -> langlands/iwahori-level-structure; local system -> fiber-bundles/local-system. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/rapoport-zink-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99b62bd65e808803f41af8cbbf38739112dae23f06d66da6ae71a88f601f0459",
+      "evidence": "Read complete source and checked target definitions: compatible system -> langlands/compatible-system-of-galois-representations; group\nschemes -> algebraic-geometry-foundations/group-scheme. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/refined-local-langlands-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "203c040dd90008f91b3a7e8773e7200ebe99727a8b8eeb9bdb699b33da349797",
+      "evidence": "Read complete source and checked target definitions: rigid inner twists -> langlands/rigid-inner-twist; reductive groups -> algebraic-geometry-foundations/reductive-algebraic-group; Whittaker datum -> langlands/whittaker-datum; rigidifying\ncocycle -> langlands/rigid-inner-twist; reductive group -> algebraic-geometry-foundations/reductive-algebraic-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/regular-algebraic-cuspidal-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e700a26b18f4bdb004945667ef87fbe798856f5e41448d30edc1b5d3521672d",
+      "evidence": "Read complete source and checked target definitions: infinitesimal character -> lie-groups/infinitesimal-character. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/regular-singular-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "735a670a27b76ebcfb8356ab1586e7784e75144a72621d4f3c4b30e48e26f768",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/residual-automorphic-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83ff32ad0a71f7e1b29eed6ed3e14f59e35f1a750367fcfed2595058e6c56968",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/restricted-tensor-product-automorphic-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3476ff43f6372d1b0faa70510d9ce1332f5914eac4b3bcbcf0f01b8ef5a42dc3",
+      "evidence": "Read complete source and checked target definitions: admissible representations -> lie-groups/admissible-representation-real-reductive-group; admissible representations -> lie-groups/admissible-representation-real-reductive-group; admissible representation -> lie-groups/admissible-representation-real-reductive-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/riemann-hilbert-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "66ff411bcb43fd887c537580cb751c95ee9c5bc3fc39f4ffcec62dd6033bb3cb",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/rigid-inner-twist",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32469c1cb71c7d5ee8d184d75ea0b0057b0e511dabccd20b5748d12d4a9cc83f",
+      "evidence": "Read complete source and checked target definitions: quasi-split groups -> algebraic-geometry-foundations/quasi-split-reductive-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/root-number",
+      "outcome": "corrected",
+      "source_sha256": "3508ba6b215afda5794ccf7c3fb3a7f11b0e86680bb52ae3114c69841f8c6914",
+      "evidence": "Read complete source and checked target definitions. Added semantically useful links for: absolute value -> real-analysis/absolute-value. Rejected generic or contextually unrelated matches; prerequisite metadata checked with no edge changes."
+    },
+    {
+      "id": "langlands/satake-parameter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49a4f2bbaede58be31f5a7e67ccaf4efa6b6d0afa0ce8e29d2a0cc0c68f389c1",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/semistable-galois-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4fed5ffc65a0cb387e2db3eec24182e933bb741a1c7d6b1d4508d75508c4c57",
+      "evidence": "Read complete source and checked target definitions: monodromy theorem -> complex-analysis/monodromy-theorem. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/shtuka",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9c120554f0660e5c85a03fb2ba564cfca1d9d71c4b9cd10f3096f4b638a7e5b",
+      "evidence": "Read complete source and checked target definitions: vector bundles -> fiber-bundles/vector-bundle; Hecke\ncorrespondences -> langlands/hecke-correspondence. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/singular-support-of-coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "93fadcdb505930196dcef9f46ea0729ea6b784a8a43e043268f45009bb632c85",
+      "evidence": "Read complete source and checked target definitions: singular support -> functional-analysis/singular-support; full\nsubcategory -> algebra-category-theory/full-subcategory; singular support of a\ndistribution -> functional-analysis/singular-support. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/spectral-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "52a84ee01221a1aaa02cfea0e574c37e8c619303082907ea10dac5393f8c2297",
+      "evidence": "Read complete source and checked target definitions: perfect complexes -> algebraic-geometry-foundations/perfect-complex; connected components -> topology/connected-component. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/spectral-bernstein-center",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e29a2e55540bb541f07b1f1ae24c825dc3d88eeaa874c628528fb20ee1bb1670",
+      "evidence": "Read complete source and checked target definitions: Bernstein center -> harmonic-analysis/bernstein-center. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/stable-conjugacy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4377366782abc18c38cd5550e8079b548fc0bb521224eecb68dfca907246d111",
+      "evidence": "Read complete source and checked target definitions: identity component -> lie-groups/identity-component-of-a-lie-group. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/stable-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7cfffecfd2f016e28af61402c80404691531d3f12fb2f10dda60ba36f0f0ec34",
+      "evidence": "Read complete source and checked target definitions: test functions -> functional-analysis/test-function-space; strongly regular semisimple -> langlands/strongly-regular-semisimple-element; singular support -> functional-analysis/singular-support. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/stable-orbital-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a593942af7e7f8e8dbdabfd0e6c015aa7ed2c55b5a536d02e2fa08a8df956692",
+      "evidence": "Read complete source and checked target definitions: orbital integral -> langlands/orbital-integral; stable conjugacy class -> langlands/stable-conjugacy; test\nfunctions -> functional-analysis/test-function-space. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/stable-trace-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97e169622f2bd469c6aae44e3258cfbe98fd101a854e09e7d0fa972512deef28",
+      "evidence": "Read complete source and checked target definitions: stable conjugacy -> langlands/stable-conjugacy; invariant trace formula -> langlands/arthur-selberg-trace-formula; conjugacy\nclasses -> algebra-groups/conjugacy-class; Endoscopic transfer -> langlands/endoscopic-transfer; stable distribution -> langlands/stable-distribution; invariant trace formula -> langlands/arthur-selberg-trace-formula; fundamental lemmas -> langlands/fundamental-lemma. Existing links or context made additions unnecessary; generic matches rejected and no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/stack-of-l-parameters",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f176456b41e72abfe921c37bec3c8a1b518785de16dff5890d12dd6544814cd",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    },
+    {
+      "id": "langlands/stokes-data",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6f3f64ed272088b5ec159cbb2575aaebb3620f72544f9ebc4f0ae81c019f6ff",
+      "evidence": "Read complete source, including core and expandable sections, and checked titles, aliases, and prerequisites. No useful missing link; generic matches and local notation rejected, with no prerequisite edge change justified."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 20 covers the 100 assigned Langlands sources."
+  ]
+}

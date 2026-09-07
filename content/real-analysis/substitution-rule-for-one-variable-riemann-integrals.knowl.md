@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Substitution rule.** Let \(f:[a,b]\to\mathbb R\) be [[real-analysis/continuity-on-a-set|continuous]], and let \(\varphi:[\alpha,\beta]\to[a,b]\) be continuously [[real-analysis/differentiability-one-variable|differentiable]]. Then
+**[[real-analysis/substitution-rule|Substitution rule]].** Let \(f:[a,b]\to\mathbb R\) be [[real-analysis/continuity-on-a-set|continuous]], and let \(\varphi:[\alpha,\beta]\to[a,b]\) be continuously [[real-analysis/differentiability-one-variable|differentiable]]. Then
 \[
 \int_\alpha^\beta f(\varphi(t))\,\varphi'(t)\,dt=\int_{\varphi(\alpha)}^{\varphi(\beta)} f(u)\,du.
 \]

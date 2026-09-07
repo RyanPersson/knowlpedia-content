@@ -24,4 +24,4 @@ Uniform convergence is strong enough to pass many properties to the limit (e.g.,
 
 - \(f_n(x)=\frac{1}{n}\sin x\) converges uniformly to \(0\) on \(\mathbb{R}\).
 - On \([0,1]\), \(f_n(x)=x^n\) converges pointwise to \(f\) (as above) but not uniformly (since \(\sup_{x\in[0,1]}|x^n-f(x)|=1\) for all \(n\)).
-- If \(f_n\) are continuous on a compact set and converge uniformly, then the limit is continuous (uniform limit theorem).
+- If \(f_n\) are continuous on a [[topology/compact-set|compact set]] and converge uniformly, then the limit is continuous ([[real-analysis/uniform-limit-theorem|uniform limit theorem]]).

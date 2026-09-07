@@ -19,7 +19,7 @@ with the usual Fréchet topology. The space of **distribution vectors** is
 \mathcal H^{-\infty}=(\mathcal H^\infty)'_{\mathrm{anti}},
 \]
 the continuous antilinear dual of \(\mathcal H^\infty\), equipped usually
-with its strong dual topology. The Hilbert-space pairing gives continuous
+with its [[functional-analysis/strong-dual|strong dual topology]]. The Hilbert-space pairing gives continuous
 dense inclusions
 \[
 \mathcal H^\infty\subseteq\mathcal H\subseteq\mathcal H^{-\infty}.

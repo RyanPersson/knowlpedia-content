@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **total order** (or **linear order**) on a set \(X\) is a partial order \(\le\) on \(X\) such that for all \(x,y\in X\),
+A **total order** (or **linear order**) on a set \(X\) is a [[shared-foundations/partial-order|partial order]] \(\le\) on \(X\) such that for all \(x,y\in X\),
 \[x\le y\ \text{or}\ y\le x.\]
 This property is called **comparability** (or **trichotomy** when strengthened appropriately).
 

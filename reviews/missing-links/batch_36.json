@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-category-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "390b24821ff6a53f1778306f5ea806c120ff8c8a146aa89b3672e192f5176233",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-commutative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "173665bf48a4bd96d4f444aea788a5768912b6edaaa0baa5a03d9cf3327690e5",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-fields-galois",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d996c3eb8fc4c7bf991d90ad175b3d2bef9970442c34c3128bffa85adc970b2",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0267cdb004716701ee6efc0dc8d0546898d15bbf2308b549b44522077d7cd1df",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-homological",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d112acc76bb2ae272cae2e870992948b5b569da5d65f01182e30241e0cfb208",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-hyperstructures",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afde86dd6d345077fa8c51a3f90d4fee5d0bb56f657a5849f33c73065b06a81e",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "75334f6788eab1e815b63c39051f1c18700b1475251eb43d20b506dde707a05e",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-representation-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b49c753358048b6b0c9bc24828d1a20831172719568a5e498c6ca1250126270",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "algebra-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18d4b25a4779cac0d94103a34fdcc47c9d527eff58e2ed879f17d59bf8d5a83c",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "412ab84ad8cbc491a73b3d38794dce32b450c8ad9a6ae6379fc6c071d997bedb",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "asymptotics",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c72d88add54c8e5a124761a69aa344570e1f39783ff5b14521b59724cd7c0494",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "complex-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35c48345a6c661d0794020a98673c9e8d0b61684ff9d93086dc52d011e6f1458",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "convex-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2a5e63c83b3b1349e2c1f2501e529aeeea884486eeb46357bb8334bb32f00b9",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "convex-analysis/convex-lecture-notes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f79b99ed191d932ad35d6f6382504bd425d5a43797b29b35e66199b873f0b0b",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "differential-geometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1752ce5c355acc0ed7c00fc776d8e7a23df6431fd0ab5b2ab8d73d8655f72b22",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "discrete-structures",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9eaa9ea8c96c92fee33bad006867f0aa78a092f7ef7d4be5a17c2343bd14f67c",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "fiber-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af0c6a0eae98eb16905c06e8e2b34f012379e4cf51c832d239df5eced117b5d6",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "formal-groups",
+      "outcome": "corrected",
+      "source_sha256": "79ea37741432287a4dd963ba1cd7035e227ee7b1d80b6361aef2e0521b46987d",
+      "evidence": "Reviewed complete section; linked the power-series phrase to the canonical formal power series ring definition, while retaining the section index links and characteristic convention."
+    },
+    {
+      "id": "functional-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa26a4107b5f099b23336458a4958a50a09c6a5cbf56a2abc1e1cc7446bd54ce",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "harmonic-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3abb348e22626873260e6787c1b7c18eef41108dab0d469d15af79f3678ec8e3",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/baez-e7-jordan-paper-expansion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ae275f0310ea5eae54eb6ef6f804402dfa9c089e2e44d6c77accadf67cd10d9a",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/charts-bundle-cocycles-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9bb2cdc64908d55619d3f2da501e063a470430a2260b9c7c4216940a9708c4d5",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/conjectures-new-knowls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "392c9059889e4bd37c1cb08ca2d5412840d0c90b29648e8f85921b279f232501",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/galois-extensions-and-bundles-new-knowls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e4ea497a844d20231f32a4341ecc9d33df8e42f1725a11a35ce84256df59b06",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/galois-extensions-and-bundles-transcript",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36355171bfd3be80000e8fc2d77ea5b2618e8b4ca6f88128593f6216215d570c",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/july-26-additions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0dc7628c7d8f8f05562e508487a8248c7af493fbdab49c59b22f707d16eadcbc",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/july-30-additions-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6981476310bb88f8f5755174905f2417d7f456e20ff8bc82754a1286eb31f7f1",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/quantum-chaos-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f549dd517d41dea2526ca90575ed2cd4b00b154ec23804aad0b63342c3cf928",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/quaternionic-psh-convexity-expansion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d59338f1d789951d208e11f9410f555e23e1dff1e86c021c2897ebd8d466895f",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "knowlification/representation-theoretic-quantization-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "691fd668e51ae31e022b53ceabdc4a3eb987d8acdf1e5401142f2fb096ca8cd1",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "langlands",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b74bdd948c40af667465e454f6c1f35fd73bfd8a58e11a93ec7a6c3733aee79d",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "langlands-letter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26fad170700743b219b816dba86dbb5facb30560df38db43b71abc2789b61d82",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "langlands-letter/knowls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1286d9816a99aa394550871720266ead22b2e340a309b76324b7c7e99188e1a",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "langlands-letter/letter/letter",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86f52a8ff1b4d57d3c2503b3c81a6f863abdf049a2a200b3b2d3d7f683c628c5",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "langlands/geometric-langlands-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1dce7961d1f5caf113c134dab055dcead6dabfe36ad918f544c5188f43d9a7d",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "langlands/modern-langlands-dependency-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "23d00615493bee9f0685d7966b015fb8df23ced732a87b459165b7cf49daa62f",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "langlands/modern-langlands-index",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac08fc86444673123962c87bed08759738445ddc961b793abe2e3c14a59ffbc0",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "large-deviations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "012b55a0838de82914d9e9112e0ad520d4923669e5de8d88aa887ba4eb9cf798",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "lie-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b81b5b50423a0dcae3b24af3108d79eb012fe39e90722b3657dd370568893b1e",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "linear-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9fd0d96630e0b5dbd13a670484b15677cc87bfdfcc3d426ea07d090bd6fd74ee",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "mathematical-physics",
+      "outcome": "corrected",
+      "source_sha256": "4be0055c92e58351ca79a09db916c6af798f2f9a96a5fb5e6ccd0c679ea72428",
+      "evidence": "Reviewed complete section; linked normally hyperbolic, Riemannian geometry, and global hyperbolicity in the analytic boundary to their canonical definitions; retained sign conventions and index links."
+    },
+    {
+      "id": "measure-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a69bf7f80e5d14493877da42d6f2a3e5c71fece1a6e6790e3ea86b073212b12",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "nonassociative-algebra",
+      "outcome": "corrected",
+      "source_sha256": "bad5ec31930d893946c9d7565fa2f5fdf8e4cdb12a37f5bbf1d5cf1e8eaec816",
+      "evidence": "Reviewed complete section; linked bilinear multiplication to the canonical bilinear map definition, retaining the vector-space prerequisite and G2/Lie algebra links."
+    },
+    {
+      "id": "noncommutative-geometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a40866476526364e259623a873a7de06898852b17d100df063efdc8780d1f352",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "operator-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ec450390b66afd9a9f6c81f03f8b6c9a7f77d2362743cc5c262fade2367999d",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "posts/research-advice-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8906f4f5ab06ddae6d2528affbcb96cdb849cad0d00ad0e04cf487ebe1a44ab5",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "posts/semigroup-quasigroup-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa5a208cfa2168d23fc17ccc16217be885c152d63f88ee18781fc517c42cd340",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "probability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db8a8f973a14de80af4b5a2329d53ca64ad02ab914b729db6f9dec9c742df5fa",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "quantum-foundations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca941c75a5fb6cc53946bc8397b3847a04e313a65c020ebc60b44300e0f00171",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "real-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c36404476a24ab6476e24209872ef08e728a36c442093c6359e81de26ff8929",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "real-analysis/additivity-linearity-riemann-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35ae3f5e238f0856cf3636fe7276d2ee479ad9748baa28f837a379d84a0899bf",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "search",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b0c8a4f7361e17f8e2b1deebc273aac9bd85f09e3250ed5d6a7bce52df36dff",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "shale-paper",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2abecd9c7de274149a260a2b7664ef824a8e8c9f037cfbc0358eb66d95565f10",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "shared-foundations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8251294a33064e0d02748fe48af75b58d0c5257e2825498e4e36a4ab2e10b17c",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "stat-mech-quantum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "417ae7925f6df9ace3c4f5511a3cdfd58812cf55c9d9467f8d9b1fa95c961649",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "supergeometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab0d98122ad18b585be90b6317422b830fa135abed2a55fdcd99aa0ff078779e",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    },
+    {
+      "id": "topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "190462714f2150d3a809c1b47541e9043c41c3d5777740fba41dc3117d39cf09",
+      "evidence": "Read the complete source and checked its links, headings, and relevant target definitions; no additional context-appropriate body link or dependency correction was needed."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 36 covers section maps, indexes, source documents, and retained article/page containers. Existing navigation links were checked against canonical target definitions; no reusable prerequisite definition was missing in this shard."
+  ]
+}

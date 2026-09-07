@@ -18,10 +18,10 @@ A [[algebra-fields-galois/finite-field|finite field]] is a finite [[algebra-ring
    \[
    |K|=p^n.
    \]
-   Concretely, \(K\) contains a copy of the prime field \(\mathbb{F}_p\), and \(K\) is a finite-dimensional vector space over \(\mathbb{F}_p\) of dimension \(n\), so \(|K|=p^n\).
+   Concretely, \(K\) contains a copy of the prime field \(\mathbb{F}_p\), and \(K\) is a finite-dimensional [[linear-algebra/vector-space|vector space]] over \(\mathbb{F}_p\) of dimension \(n\), so \(|K|=p^n\).
 
 2. Conversely, for every prime \(p\) and integer \(n\ge 1\) there exists a field of order \(p^n\), usually denoted \(\mathbb{F}_{p^n}\). One construction is:
-   choose an irreducible polynomial \(f(x)\in \mathbb{F}_p[x]\) of degree \(n\) and set
+   choose an [[algebra-rings/irreducible-polynomial|irreducible polynomial]] \(f(x)\in \mathbb{F}_p[x]\) of degree \(n\) and set
    \[
    \mathbb{F}_{p^n}\ \cong\ \mathbb{F}_p[x]/(f).
    \]
@@ -33,7 +33,7 @@ A deeper refinement is that \(\mathbb{F}_{p^n}\) is unique up to isomorphism (se
 
 ### Examples
 1. **The prime fields \(\mathbb{F}_p\).**
-   For any prime \(p\), the quotient ring \(\mathbb{Z}/p\mathbb{Z}\) is a field, denoted \(\mathbb{F}_p\), and has \(p\) elements.
+   For any prime \(p\), the [[algebra-rings/quotient-ring|quotient ring]] \(\mathbb{Z}/p\mathbb{Z}\) is a field, denoted \(\mathbb{F}_p\), and has \(p\) elements.
 
 2. **A quadratic extension: \(\mathbb{F}_4\).**
    Over \(\mathbb{F}_2\), the polynomial \(x^2+x+1\) has no root (so it is irreducible). Thus

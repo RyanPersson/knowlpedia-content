@@ -21,13 +21,13 @@ where the equivalence relation is
 \[
 (p\cdot g,\, f)\sim (p,\, g\cdot f)\qquad (p\in P,\; f\in F,\; g\in G).
 \]
-Write \([p,f]\) for the equivalence class of \((p,f)\). The projection map
+Write \([p,f]\) for the [[shared-foundations/equivalence-class|equivalence class]] of \((p,f)\). The projection map
 \[
 \pi_F:P\times_G F \to M,\qquad \pi_F([p,f])=\pi(p)
 \]
 is well-defined, and \(P\times_G F\) is a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] over \(M\) with [[fiber-bundles/typical-fiber|typical fiber]] \(F\).
 
-Concretely, \(P\times_G F\) is a [[fiber-bundles/bundle-of-orbits|bundle of orbits]]: it is obtained from the product \(P\times F\) by dividing out the diagonal \(G\)-action determined by the right action on \(P\) and the left action on \(F\). When \(F\) is a vector space with a linear action, this specializes to an [[fiber-bundles/associated-vector-bundle|associated vector bundle]].
+Concretely, \(P\times_G F\) is a [[fiber-bundles/bundle-of-orbits|bundle of orbits]]: it is obtained from the product \(P\times F\) by dividing out the diagonal \(G\)-action determined by the right action on \(P\) and the left action on \(F\). When \(F\) is a [[linear-algebra/vector-space|vector space]] with a linear action, this specializes to an [[fiber-bundles/associated-vector-bundle|associated vector bundle]].
 
 ## Examples
 1. **Tangent bundle from frames.** If \(P=\mathrm{Fr}(M)\) and \(F=\mathbb{R}^n\) with the standard left action of \(GL(n)\), then \(P\times_G F\) is canonically isomorphic to the [[fiber-bundles/tangent-bundle|tangent bundle]] \(TM\).

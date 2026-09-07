@@ -24,4 +24,4 @@ The group \(G\) is abelian if and only if \(Z(G)=G\). Moreover, \(Z(G)\) is alwa
 
 - If \(G\) is abelian, then \(Z(G)=G\).
 - In \(S_3\), \(Z(S_3)=\{e\}\).
-- In the quaternion group \(Q_8\), the center is \(\{\pm 1\}\).
+- In the [[algebra-groups/quaternion-group|quaternion group]] \(Q_8\), the center is \(\{\pm 1\}\).

@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "lie-groups/solvable-lie-algebra",
+      "outcome": "corrected",
+      "source_sha256": "fa69139915e1c3ad2e45f82081b83ef90ab86487a174e9fdeb07f8cd16f602ed",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/special-block-unitary-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "378fe6e83892a0b82b87dd9f6c6d2edfbd0e2ff424a20da37c196dc84db41e64",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/special-linear-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b7d21a411552f4e02dcbc5dbd787020958b1f480d469554b4f7c2c9ecc964010",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/special-linear-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "43f9cbb3562de8dcc34da6a4f63b24ff4022c89d8a25f6424b2ad44d0afa1c21",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/special-orthogonal-group",
+      "outcome": "corrected",
+      "source_sha256": "9ed39c425057ecfcf63180decee67a567a7e9976f8fd9257b819e5119786661d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/special-unitary-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5ada43a768b1ca9b06658e57f1d25bd6d03fc075807f376f799bea7cb3abb95d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/special-unitary-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3afd3c6606d34b831a7264678ec9492af691bde8718c3aea242f69b645f6c419",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/spherical-plancherel-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2348715cb8bbd2f53b1fefb6e679d181ca3c528f956d06d289226d7e0d7732c",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/spherical-principal-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc5b60b81bd73b43f2611810faab2b8371cb1f4dc98d65e4e17b59b32e36262d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/spherical-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6778f6382568a470f5c9e15d54f66059ee0b4b478281240c57aefbc08ffe333",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/spin-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "742912f5d9a416e36b85461f0f811d97aab33a8259a5597341ee306499f63729",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/spin6-su4-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cef865793ea50fa28f6014f398a990d5f2e064c021fc4f489d071981d5e5bb5d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/spin8-triality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "96feb81fcbed31c8d07050576d2517b48440e4b25b9ebd1f074f542d7333e889",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/spin9-spin-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dfda6d934928421a11d9f7703ec7bba373d8d3071de9c2abd9e4c154e6dee0cf",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/square-integrable-modulo-center-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ab65d4fc42e0e802a3051da3d4eb315d73fb9044abdfb8547a07381473494de",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/stabilizer-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b02884ebeaf7699e49708d1bd52faa181e2002e90ca706033ddbe8400973429",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/standard-module-real-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d52f91a517c331bd9c8360242d808b7416ea00319ee9e5b111384fd36d595da0",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/standard-sl5-in-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a313c6c2221906973586e58eff59f28178f9c384758c450b9bddfd93b4a634a4",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/standard-sl6-in-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9e5e1b2ca12b37d641ebac4cd9560027f72ff4eb2947d9bd883caa4da7dc809",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/stone-theorem-one-parameter-unitary-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50dc83a09fbffb8b0c29fed2d5a6ae71e815e964ac451dc58d1f9f04833c3484",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/stone-von-neumann-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06bd79c8f5cbd000afdbe703b942632ef6c4518e4625e6e3bc48d4fd0c821fc7",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/strongly-continuous-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "660cf66d5cf371e261761b6239db0e7421c725313ba750c5e567c2d347234cdf",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/subrepresentation-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c537ba0c5271d85233404bcc44af0778505563ef0b689387963d879a35f2701d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/symplectic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "19bad7f6bc5f3501d5231903b2ae1ca48f7b536f283b1c9eca50af7210a79a07",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/symplectic-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "de3b26639f8235a48a4fbca132911902ebd75726af9bbf75e6f27e4e2ab4ab68",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/tensor-product-of-representations-lie",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e4b47098acf8148774a7addf7d92603a05a5257733e7a5f4c739a7ba5ec957a",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/tfae-nilpotency-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "691887fcf2d30684f7060626dcaf3861684d29ef54d3f568a00a908cbb78a523",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/tfae-semisimplicity-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12dfcffb2d0bdd3916ef640194401638c499cc49e176e977d7153435e432ccf7",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/tfae-solvability-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7cf1d3da486fca78e1eccc5d115b471cb506b6b7bcc4aaf7594b3f60e6f52a9",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/thirty-dimensional-generation-module-in-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "124fef558eefa8e94535e63ba90d50142851a1cafdcd2d822b398facf4e41693",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/three-d6-subsystems-in-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9d7be4ab34c43c8aed0a912197aeea15b2203efb14d87ea91dbd5aedc39ece2",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/three-generation-decomposition-of-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "07a3c464d5a5c0f1be882c972fed4c667818299c588786a9a7c2e30140aa5b43",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/transitive-action-lie",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c15abbd614902d81c690de43d84d10282e27f262c2a76c25119606bf30617eda",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/transitivity-on-real-grassmannians",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ac3ffdcf43f9147e99ab71e32b5108f34184273ce22e3d407f7eeaeda586d8f",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/type-a-root-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d62b44745ef2fc76fa59c4c4f4ac52b475a31f443e691a306bb30df73159bd48",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/type-d-root-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e549970436417907209c2035d94db64865db51d071e384c6e61d2a26dd7eaa0a",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/type-i-locally-compact-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9a287c842f38f06f5862c9e243e8968f99c8c9ec7956dca86d59648e0da8afa3",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/underlying-real-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8558d11bb15af8b3bb877986496aa0fe4e898c90d72cde858cc2b088902b899d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/underlying-real-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72c612027c1723abebb83c36e4c5983f59c3138165d9425c25566171e3249c3c",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/unitary-dual-of-an-abelian-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d31f6919a602ebd287c37a30b434b6f9e683a3af4d7a1cdb2d3b1ab2ccbe2d6f",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/unitary-equivalence-of-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2359ce18db9be5647128e068208d3393adfec39e4b858b9ed37770a7c10c988",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/unitary-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38e279b2baf76da6af29d557d466a719c97ce8f449e10050b3c5c9f03292f1d5",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/unitary-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1baf157e6968ad09cb4fef3aa0de0b9cd3bbd908917c2a41ba5d842aa092580",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/universal-covering-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1db290aa966e98eb9ca65bb7a60d696610e0be8abe18338d38d30f59bd7c0a8b",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/universal-covering-group-existence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a00282b92c5165fa87918515833e121e50718d1a37006158ed3004eae12d630",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/universal-enveloping-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5f603cd36262e754b4ba2db2bd4343aa8fa455173226dd3236acfc88e2f38fa0",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/universal-enveloping-algebra-action-on-smooth-vectors",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2fc28201549526e95928be43dbddf94c357479bfeea85ce92263e5a3d28f680",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weak-strong-continuity-equivalence-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10568f347dc4ae050e21716155025c11ba547286f514d8e0ab87e2c6f50840aa",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weakly-continuous-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b91bf44a6904e3962378b004971a282200abf5cbb612755e2b8452a3ab9d40ad",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weight-lattice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "81d1f07f83de154bebecd8c94a191c556576d0966073b474a5bcc2bb8720330a",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weight-of-a-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "033feecfdd13a97cc071b62509ad4ca953e4b49ae265d6715cb7aa8f87508499",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weight-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5644d8a2e86c94a622d73ab41c5240f31588c160a616fb794e9d274b0d62020b",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weights-in-dual-cartan",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "93c78baf94f55100a75594edc6faa38de79a3f3304226d1a6c0efdbbed617439",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weights-of-the-defining-sl3-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c86daa6bcac17653cda723efdfc6d17b1f7ec3b59f11aaf5a7d1e7ead8a817e",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weyl-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "917a0f56d9210d1694ab05ea98d5c7c2435f63001f0c4fe90f4598471634a8e0",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "lie-groups/weyls-theorem-complete-reducibility",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c0711e395e27daa2355b50b28c01e66dd3330cbea124820ce71734d927a7f1a",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/banach-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d5b19b3a4322377f7a9ff5f586e5931b3d58c142ba677ec582ae2c219ec40267",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/basis-existence-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f655c98605900bffbf07a7fe55810e1b55ec7e4f664a9582e6216dff9962d34f",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/bilinear-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aeacd894060c229dfd614e88bce73d81de3388f72d56052e6eab5df48cfa25be",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/cauchy-schwarz-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3fb917fb162ec8c76987f36252e785ec91779c09268c8f7aeeceade3c243da7",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/cayley-hamilton-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db730f7d53f8364e3713426af5280fbf3f94e8fce68284223b647deb04f24729",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/characteristic-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a5297fa7e8042384521ba2a004d0ca64fc7186fdd57596df6bc0a408ac05a43",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/closed-linear-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2380bc03b67c07bdbb0f5a44df88667b6f8a0131b584b37d8a51aa36a8592b19",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/compact-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b84be019d81cdd9daf0ab54e99fa6c0439818357f8f11f7a3975d9a96d355f4d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/complexification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d46f7827e3e40c68f979674be252e1a656b01e49dbcd6323f88c0723f0577f8d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/determinant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f129bc4fbe7d0b790d1efc99f6fe40084cccb7941cf44e34021dbf951b90713d",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/eigenspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ecfc30cde55e40df8e937651f95db9a1a0dcec19e7153542f31280dea412feb",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/eigenvalue",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3b0911254bb075d2d4ae3bbd2ce456552c8e49bdb3c0d97af874b3576f68790b",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/eigenvector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d2100561cc25e31a559fa9645e53cda371caec6b2959df33042aa3034769a50",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/euclidean-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8658f314608ceda99bc5dd91702f0f3e85418714a7063bdfb090ee37ff82c0c",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/euclidean-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16772c052857c0a348d7638f8cb7523df14e307c66c88da0f9005b0aa47f08d7",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/hermitian-matrix",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2ba4015fbae771952238676a8f3db52a3d969d5054af1c7733988d93baf7018",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/hilbert-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c3ad5948b01f246f6c4ebdbb9e1c5ee2ace32a4fd80d507c9c0587a230ca362",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/hyperhermitian-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8581fee6dac58c045a16e7872b2aac9dbbac8ff3f12b30d9aa29b964fb2db11",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/inner-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83eaee321b81d86929d2e35390898f4e33dcb50852a63bfa929e57f36d3233cc",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/inner-product-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d0930cb551333693b97c96212ec023df6758997c23b32f8f8637efeaa8b6acf",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02195eb1350f3fc07843b75e0c5a68d47165c9df1056320cefd46ab32fc7f6c5",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/linear-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3b00c908f42b664ef3e8c194a68d5d42343c68c5bdb501bb5d73fcc97f474d2",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/matrix",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ce0395c4344fc0be4ac3efc9e7fe4fa7a3d03dda00c5f6bb39088aa283e787a",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/minimal-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "160539e0025cc066bf4015f9cd946d04467b0f51d5687475a8f35871238228f0",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/minkowski-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9dd475c0512d696c666d1311f9f4ac355a98bcf49c6dffead5e630b383addd73",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/mixed-discriminant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cfabc3ce4c264f71dc8ee130e500d192b98f0d5a7743c691f6f34b5ab642bc98",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/moore-determinant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd663e24157cce98c33830e54fcadbf6e50daa5b757e0e0e26f818ebafa920de",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f43129c324a2367ea3e1f6f35cbd2c47a5256015ade99328c46602b2e7779a86",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/normed-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e53e909bd30a6d7318263af62ecafc13d44cd04bce2b5d5e3cde6892f2114104",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/operator-invariant-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "313d4324d2d225de704e8fda8a6aa01b9c80bdcee8ba80c3631084ba8fc352c6",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/operator-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ccf5fd080660e9e9674fcabf33c7e1d40ccbb494c596e26375e90f451d716aab",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/orthogonal-complement",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e24dc637623a42f3920a2f54c12bfe890ba30d942ad199c4f6451a3657ef3b97",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/orthogonal-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "652f6042cddf4ca3fb0728527036ac62c4fdfed969da9ccd2b9d44ed69802b0e",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/orthogonality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f43b1008d906e44aa9d3ef2656d0df5bef256040fdfd28b9cf04add5693a6c58",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/orthonormal-basis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e1252d7d36018f85646a7eb5920a72239dde1971c39c354fc0636314b644d13",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/positive-semidefinite-matrix",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1a53040551d01a2dc4c32c57cdaeadc62e2dffb749073f942cd0c4881e7e50f",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/quadratic-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9ad11c12eb5c08bea30c9dd8c6f4c3b7873ea5032a90a1c0b0cc350a101aa95",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/quaternion-division-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ba1df9c4fb8342c08d0b195fd3bb975968f5d6ceb836ba6246aed182be256961",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/quaternionic-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "643b90fe7116fdfe50805fb03c181f2ed92477b6ec70ff8214066de1e69f4de9",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/rank",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d264b60f6e717e1621e9b53779fcee31a9e51fe2f8f563df88cde34782cdfb94",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/rank-nullity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1cceee56a7947a68fa23ff317cc6d1e7a95d55c702b402957003e5e65e18eef3",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/realification-of-a-complex-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86402007de687a3bbe8808179d3617989bf76639af93b59e33d4b8367f3ea6ee",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/semilinear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8cf6441cf24278eb39127219a371fe0e2dac1991f2565e9bb8b0fbc591073ac1",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    },
+    {
+      "id": "linear-algebra/signature-of-symmetric-bilinear-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1caff0ffc2a800154a83d7a3d85e5b9f6fba8433835442ddf2ac7981f449068",
+      "evidence": "Full source linking review: checked core and expandable sections, existing internal links, candidate target definitions, and prerequisite semantics; rejected generic/context-mismatched candidates."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 24 review completed; two meaningful core links added."
+  ]
+}

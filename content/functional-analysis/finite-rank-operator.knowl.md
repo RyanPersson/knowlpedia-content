@@ -36,7 +36,7 @@ Tx=\sum_{j=1}^{n}\varphi_j(x)y_j
 for finitely many continuous linear functionals \(\varphi_j\in X'\) and
 vectors \(y_j\in Y\). Choosing the \(y_j\) as a basis for \(T(X)\) gives such
 a representation, while every displayed sum has range contained in their
-span. Rank-one operators \(x\mapsto\varphi(x)y\) are the elementary building
+span. [[functional-analysis/rank-one-operator|Rank-one operators]] \(x\mapsto\varphi(x)y\) are the elementary building
 blocks.
 
 ## Approximation and examples
@@ -52,7 +52,7 @@ in every
 [[functional-analysis/schatten-class-operator|Schatten class]].
 
 The identity on \(X\) is finite-rank exactly when \(X\) is finite-dimensional.
-A nonzero functional \(\varphi\in X'\) and vector \(y\in Y\) give a rank-one
+A nonzero functional \(\varphi\in X'\) and vector \(y\in Y\) give a [[functional-analysis/rank-one-operator|rank-one]]
 operator \(x\mapsto\varphi(x)y\).
 
 ## References

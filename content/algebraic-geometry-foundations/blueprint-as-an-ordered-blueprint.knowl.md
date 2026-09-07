@@ -26,7 +26,7 @@ Equivalently, each additive relation \(\sum a_i\equiv\sum b_j\) may be encoded b
 
 ## Fully faithful embedding
 
-The assignment \(B\mapsto B^{\mathrm{ord}}\) defines a fully faithful functor
+The assignment \(B\mapsto B^{\mathrm{ord}}\) defines a [[algebra-category-theory/fully-faithful-functor|fully faithful functor]]
 \[
 \mathbf{Blpr}\hookrightarrow\mathbf{OBlpr}.
 \]

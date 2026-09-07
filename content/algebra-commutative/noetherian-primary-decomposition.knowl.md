@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Lasker–Noether theorem.** Let \(R\) be a commutative [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \(I\subsetneq R\) be a proper ideal. Then there exist primary ideals \(Q_1,\dots,Q_r\) such that
+**Lasker–Noether theorem.** Let \(R\) be a commutative [[algebra-commutative/noetherian-ring|Noetherian ring]] and let \(I\subsetneq R\) be a proper [[algebra-rings/ideal|ideal]]. Then there exist [[algebra-rings/primary-ideal|primary ideals]] \(Q_1,\dots,Q_r\) such that
 \[
 I = Q_1 \cap \cdots \cap Q_r .
 \]

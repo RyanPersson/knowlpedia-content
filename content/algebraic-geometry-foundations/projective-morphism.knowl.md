@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A morphism of schemes \(f:X\to S\) is **projective** if there is an integer
+A [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]] \(f:X\to S\) is **projective** if there is an integer
 \(n\geq0\) and a factorization
 \[
 X\hookrightarrow\mathbb P^n_S\longrightarrow S

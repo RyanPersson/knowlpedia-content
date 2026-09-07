@@ -26,4 +26,4 @@ Moreover:
 
 ## Remarks
 
-This theorem explains how the subgroup lattice of a [[algebra-groups/quotient-group|quotient group]] \(G/N\) is "the same as" the lattice of subgroups of \(G\) containing \(N\). It is a standard tool for building and comparing chains of subgroups, especially in the study of normal series.
+This theorem explains how the subgroup lattice of a [[algebra-groups/quotient-group|quotient group]] \(G/N\) is "the same as" the [[shared-foundations/lattice|lattice]] of [[algebra-groups/subgroup|subgroups]] of \(G\) containing \(N\). It is a standard tool for building and comparing chains of subgroups, especially in the study of normal series.

@@ -52,7 +52,7 @@ Local packets supply many possible
 tensor products]]. The formula
 is a global reciprocity constraint: local component-group labels must
 multiply to the distinguished global sign. It therefore explains why a
-global packet is not simply the Cartesian product of its local packets.
+global packet is not simply the [[shared-foundations/cartesian-product|Cartesian product]] of its local packets.
 
 ## Source of the sign
 
@@ -69,7 +69,7 @@ packets.
 The displayed formula is the clean form for the
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
 classical
-settings of Arthur's classification. Central quotients, even orthogonal
+settings of Arthur's classification. [[lie-groups/central-quotient-of-a-lie-group|Central quotients]], even orthogonal
 outer automorphisms, non-quasi-split
 [[langlands/rigid-inner-twist|inner forms]], and parameters with
 multiplicity require refinements of the packet and coefficient conventions.

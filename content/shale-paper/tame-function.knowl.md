@@ -11,13 +11,13 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A function \(f\) on a real Hilbert space \(M\) is **tame** if
+A function \(f\) on a real [[linear-algebra/hilbert-space|Hilbert space]] \(M\) is **tame** if
 \(f(x)=\bar f(Px)\) for some finite-dimensional subspace \(M'\) and projection \(P:M\to M'\).
 
 ## Remarks
 
 **Key properties (paper use):**
-- Tame functions generate the σ-algebra \(\mathfrak R\) of the Gaussian probability space.
+- Tame functions generate the σ-algebra \(\mathfrak R\) of the Gaussian [[probability/probability-space|probability space]].
 - Integrals are defined first on tame functions via finite-dimensional Gaussian integrals.
 
 ## Examples

@@ -31,7 +31,7 @@ isomorphisms in this category.
 
 ## Why the base is fixed
 
-A general vector-bundle morphism may cover a smooth map \(f:M\to N\). Such
+A general vector-bundle morphism may cover a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\). Such
 morphisms belong to a larger varying-base category. They cannot all be
 placed in \(\mathbf{Vect}_{\mathbb F}(M)\), because their source and target
 have different bases.

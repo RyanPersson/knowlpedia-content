@@ -17,7 +17,7 @@ Let \(\pi:P\to M\) be a principal \(G\)-bundle with right action \(R_g:P\to P\).
    \[
    R_g^*\alpha = \alpha \quad \text{for all } g\in G.
    \]
-2. **Horizontality:** for every \(X\in \mathfrak{g}\), letting \(X^\#\) denote the corresponding fundamental vertical vector field on \(P\),
+2. **Horizontality:** for every \(X\in \mathfrak{g}\), letting \(X^\#\) denote the corresponding fundamental [[fiber-bundles/vertical-vector-field|vertical vector field]] on \(P\),
    \[
    \iota_{X^\#}\alpha = 0.
    \]

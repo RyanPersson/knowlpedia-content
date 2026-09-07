@@ -15,7 +15,7 @@ Let \(M\subseteq B(H)\) be a
 [[operator-algebras/von-neumann-algebra|von Neumann algebra]] with
 [[operator-algebras/cyclic-vector|cyclic]]
 [[operator-algebras/separating-vector|separating vector]] \(\Omega\). Write
-\(S=J\Delta^{1/2}\) for the polar decomposition of its
+\(S=J\Delta^{1/2}\) for the [[shale-paper/polar-decomposition|polar decomposition]] of its
 [[operator-algebras/tomita-operator|Tomita operator]]. The
 **Tomita–Takesaki theorem** asserts
 \[
@@ -40,7 +40,7 @@ Cyclicity makes \(M\Omega\) dense, while separatingness makes
 \(S_0(x\Omega)=x^*\Omega\) well-defined and ensures that \(M'\Omega\) is
 dense. These are exactly the vector hypotheses used to construct the two
 closed antilinear operators whose polar factors appear in the theorem.
-General von Neumann algebras are treated by faithful normal [[operator-algebras/semifinite-weight|semifinite weights]],
+General [[operator-algebras/von-neumann-algebra|von Neumann algebras]] are treated by faithful normal [[operator-algebras/semifinite-weight|semifinite weights]],
 standard forms, or reduction to supports rather than by assuming that a cyclic
 separating vector exists in an arbitrary representation.
 
@@ -48,7 +48,7 @@ separating vector exists in an arbitrary representation.
 
 The proof first compares the closures of
 \(S_0(x\Omega)=x^*\Omega\) and
-\(F_0(x'\Omega)=x'^*\Omega\). Analytic continuation of matrix coefficients,
+\(F_0(x'\Omega)=x'^*\Omega\). [[complex-analysis/analytic-continuation|Analytic continuation]] of matrix coefficients,
 together with the polar decomposition, gives the inclusions
 \(JMJ\subseteq M'\) and
 \(\Delta^{it}M\Delta^{-it}\subseteq M\). Applying the same argument to the
@@ -70,7 +70,7 @@ algebras.
 
 **Warning.** Replacing \(\Delta^{it}x\Delta^{-it}\) by
 \(\Delta^{-it}x\Delta^{it}\) reverses the time parameter. Both conventions
-occur when modular operators or [[linear-algebra/inner-product|inner products]] are normalized differently;
+occur when [[operator-algebras/modular-operator|modular operators]] or [[linear-algebra/inner-product|inner products]] are normalized differently;
 formulas involving KMS boundary values must use one convention consistently.
 
 ## References

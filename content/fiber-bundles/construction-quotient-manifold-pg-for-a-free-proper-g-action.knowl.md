@@ -21,7 +21,7 @@ Assume the action is:
 
 Then:
 
-1. The orbit space \(P/G\) carries a unique smooth manifold structure such that the projection
+1. The orbit space \(P/G\) carries a unique [[fiber-bundles/smooth-structure|smooth manifold structure]] such that the projection
    \[
    \pi:P\to P/G
    \]
@@ -33,7 +33,7 @@ Then:
    \[
    \ker(d\pi)_p \;=\; \{X^\#_p: X\in\mathfrak g\},
    \]
-   where \(X^\#\) is the fundamental vector field defined using [[fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action|the right-action convention]].
+   where \(X^\#\) is the [[differential-geometry/infinitesimal-generator-lie-action|fundamental vector field]] defined using [[fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action|the right-action convention]].
 
 This construction is the standard way principal bundles arise from symmetry.
 

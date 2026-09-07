@@ -19,7 +19,7 @@ M_\varphi=\{x\in M:\sigma_t^\varphi(x)=x\text{ for every }t\in\mathbb R\},
 \]
 where \(\sigma^\varphi\) is the
 [[operator-algebras/modular-automorphism-group|modular automorphism group]].
-It is therefore the fixed-point algebra of the modular flow. In particular,
+It is therefore the fixed-point algebra of the [[operator-algebras/modular-automorphism-group|modular flow]]. In particular,
 \(M_\varphi\) is a von Neumann subalgebra of \(M\). The notation records the
 chosen weight: different weights on the same algebra can have different
 centralizers.

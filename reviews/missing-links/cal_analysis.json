@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "complex-analysis/logarithmic-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3c62f536df99089efa66d24fb6b7af7480b4b83669d83a18f050961a357e77b",
+      "evidence": "Read the complete definition and all sections. The core links meromorphic function, and the residue and contour-integral links support the zero/pole and argument-principle sections. The argument principle, complex derivative, and residue are genuine prerequisites. No additional candidate-free phrase required a reusable definition link; local logarithm and order notation are explanatory details."
+    },
+    {
+      "id": "complex-analysis/winding-number",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d638bc1f78e48952fbfd0e4684235500f6631912b957777c02eb726f92a04169",
+      "evidence": "Read the complete definition and interpretation and homotopy sections. Connected component and complex contour integral are the stated defining setting and are linked through prerequisites; the Cauchy formula and residue theorem are already linked where they become applications. No candidate-free phrase exposed a missing reusable definition, and orientation/argument language is standard local explanation."
+    },
+    {
+      "id": "convex-analysis/affine-sets-are-translates-of-subspaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebb73c6bcea974db3fcbaf3c3dd77bb2be6d63fa430ea39e7a81ece3aea21ddd",
+      "evidence": "Read the full theorem. Vector space, affine set, and linear subspace are all linked at their first mathematically meaningful occurrences, and the equivalence is self-contained. The second occurrence of affine and subspace does not need repeated links. No missing dependency edge was found."
+    },
+    {
+      "id": "convex-analysis/convexity-preserved-under-affine-composition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cf204785497f94879905597b15f4fbb3d824b5951da5f3808f6f57c45fad7af",
+      "evidence": "Read the theorem and proof idea. Affine mapping, real vector space, and convex function are linked in the core; the proof only expands the hypotheses already stated. Convexity and composition are ordinary words here and no separate target is needed. Prerequisites match the theorem's data and no additional dependency was identified."
+    },
+    {
+      "id": "complex-analysis/harmonic-subharmonic-pluriharmonic-relations",
+      "outcome": "corrected",
+      "source_sha256": "609f9b1d3a50c87a5d4a2c7adac97766d67f0ac9af3b10850114daaece89005d",
+      "evidence": "Read the core, diagram, proof, and examples and checked the target definitions for domain, trace, Hermitian matrix, Levi form, harmonic, subharmonic, and plurisubharmonic. Added links for domain in the core, trace in the Levi-matrix argument, and holomorphic in the local real-part characterization. Rejected generic function/matrix hits, the positive-semidefinite-operator target (wrong context for a Levi matrix), and repeated harmonic/subharmonic/plurisubharmonic terms already linked or used as class names. No new prerequisite edge is justified."
+    },
+    {
+      "id": "complex-analysis/maximum-modulus-principle",
+      "outcome": "corrected",
+      "source_sha256": "693b8c4d58eabe31c2b4d8f105132e7f2d1abea22272c4fcbc57088553e2a35d",
+      "evidence": "Read the complete theorem, proof, boundary form, and minimum-modulus section and checked Cauchy integral formula and identity theorem definitions. Linked holomorphic in the core, Cauchy integral formula in the proof, and identity theorem at the global-constancy step. Rejected generic maximum/function/neighborhood hits and the manifold-interior target for the complex-analysis phrase interior point; boundary is setting-sensitive and does not need the unrelated manifold-boundary target. Prerequisites remain semantically correct."
+    },
+    {
+      "id": "complex-analysis/normal-family",
+      "outcome": "corrected",
+      "source_sha256": "124993d8390704b4fcf584f71e7c5e4559273734f5562e3469e0aeab7833c1d6",
+      "evidence": "Read the full definition and spherical, compactness, and conformal-mapping sections and checked holomorphic-map and uniformly-bounded-family targets. Linked holomorphic in the core and the locally uniformly bounded family in Montel's criterion. Rejected generic domain/function/sequence/limit/derivative matches and metric as a generic word because the spherical metric is already explained by the Riemann-sphere context. Montel theorem and Riemann mapping theorem links were already present."
+    },
+    {
+      "id": "real-analysis/power-series",
+      "outcome": "corrected",
+      "source_sha256": "61eb95e38540b9f1699ea1fea0e028e64d264fcfcd838c437c7447da516288aa",
+      "evidence": "Read the entire definition, radius, calculus, formal-series, analyticity, and examples sections and checked series, interval, neighborhood, formal power series, and holomorphic-analytic targets. Linked series and interval in the radius statement and neighborhood in the convergent-versus-formal comparison. Rejected generic function/sequence/series repetitions and the manifold-boundary target for boundary points; the existing holomorphic-functions-are-analytic link covers the later analytic claim. No new prerequisite beyond series was found."
+    }
+  ],
+  "gaps": [],
+  "calibration": "Phrase matching is useful for discovery but over-reports generic nouns and can select a semantically wrong target when a phrase is overloaded across domains. A candidate should be accepted only when expanding the target answers a concrete question raised by that exact sentence. Existing links should not be repeated in later explanatory prose, and a prerequisite list does not require every occurrence of its name to be linked. In this shard, the strongest corrections were context-specific links to domain, trace, holomorphicity, Cauchy integral formula, identity theorem, uniformly bounded family, series, interval, and neighborhood. No independent missing definition or missing dependency was confirmed."
+}

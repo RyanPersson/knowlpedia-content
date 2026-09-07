@@ -2,7 +2,7 @@
 id = "quantum-foundations/antiunitary-operator"
 title = "Antiunitary operator"
 kind = "definition"
-summary = "A conjugate-linear surjective isometry of a complex Hilbert space."
+summary = "A conjugate-linear surjective isometry of a complex [[linear-algebra/hilbert-space|Hilbert space]]."
 aliases = ["antiunitary transformation", "anti-unitary operator"]
 domains = ["quantum-foundations", "functional-analysis"]
 section_mode = "progressive"
@@ -49,8 +49,8 @@ real-linear.
 Wigner's theorem says that a bijection of rays preserving transition
 probabilities is induced by either a unitary or an antiunitary operator, unique
 up to a phase. The antiunitary possibility is essential for time-reversal and
-related discrete symmetries. Such symmetries need not belong to the identity
-component of a continuously acting gauge group.
+related discrete symmetries. Such symmetries need not belong to the [[lie-groups/identity-component-of-a-lie-group|identity
+component]] of a continuously acting [[fiber-bundles/gauge-group|gauge group]].
 
 ## Convention warning
 

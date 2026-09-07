@@ -1,0 +1,2404 @@
+{
+  "version": 1,
+  "phrases": [
+    {
+      "phrase": "right action",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "evidence": "Reviewed algebraic-geometry-foundations/principal-g-bundle-on-scheme, differential-geometry/infinitesimal-generator-lie-action, fiber-bundles/associated-bundle, fiber-bundles/associated-vector-bundle in core, Left and right action conventions; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "differential-geometry/infinitesimal-generator-lie-action",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/associated-vector-bundle"
+      ]
+    },
+    {
+      "phrase": "principal bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "evidence": "Reviewed algebraic-geometry-foundations/algebraic-stack, algebraic-geometry-foundations/g-torsor-on-a-site, algebraic-geometry-foundations/galois-extension-as-etale-torsor in core, Remarks, Interpretation, Warning; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/algebraic-stack",
+        "algebraic-geometry-foundations/g-torsor-on-a-site",
+        "algebraic-geometry-foundations/galois-extension-as-etale-torsor"
+      ]
+    },
+    {
+      "phrase": "left action",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ],
+      "evidence": "Reviewed differential-geometry/infinitesimal-generator-lie-action, fiber-bundles/associated-bundle in core, Left and right action conventions, Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/infinitesimal-generator-lie-action",
+        "fiber-bundles/associated-bundle"
+      ]
+    },
+    {
+      "phrase": "frame bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/frame-bundle-fr-of-a-manifold-m"
+      ],
+      "evidence": "Reviewed differential-geometry/almost-quaternionic-manifold, differential-geometry/coordinate-transformation-law-riemannian-metric, differential-geometry/quaternionic-hermitian-manifold, fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action in core, Relation to the frame bundle, Structure-group interpretation, Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/almost-quaternionic-manifold",
+        "differential-geometry/coordinate-transformation-law-riemannian-metric",
+        "differential-geometry/quaternionic-hermitian-manifold",
+        "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action"
+      ]
+    },
+    {
+      "phrase": "complex lie algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/complex-lie-algebra-sl3"
+      ],
+      "evidence": "Reviewed lie-groups/compact-exceptional-lie-group-e6, lie-groups/compact-exceptional-lie-group-e7, lie-groups/compact-exceptional-lie-group-e8, lie-groups/compact-real-form in Relation to the E-series chain, Translation of the three-generation construction, Distinguishing the forms, Existence and uniqueness; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "lie-groups/compact-exceptional-lie-group-e6",
+        "lie-groups/compact-exceptional-lie-group-e7",
+        "lie-groups/compact-exceptional-lie-group-e8",
+        "lie-groups/compact-real-form"
+      ]
+    },
+    {
+      "phrase": "flat connection",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/holonomy-correspondence-for-flat-connections"
+      ],
+      "evidence": "Reviewed differential-geometry/hodge-filtration, differential-geometry/obata-connection, fiber-bundles/cartans-first-structure-equation, fiber-bundles/cartans-second-structure-equation in Geometric role, Relation to a compatible metric, Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/hodge-filtration",
+        "differential-geometry/obata-connection",
+        "fiber-bundles/cartans-first-structure-equation",
+        "fiber-bundles/cartans-second-structure-equation"
+      ]
+    },
+    {
+      "phrase": "covariant derivative",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/covariant-derivative-of-a-section"
+      ],
+      "evidence": "Reviewed differential-geometry/lorentzian-dirac-operator, differential-geometry/lorentzian-spinor-bundle, differential-geometry/spinor-bundle, fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles in core, Associated connection, Connection and Dirac operator, Remarks; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/lorentzian-dirac-operator",
+        "differential-geometry/lorentzian-spinor-bundle",
+        "differential-geometry/spinor-bundle",
+        "fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles"
+      ]
+    },
+    {
+      "phrase": "adjoint action",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/adjoint-action-of-a-lie-group"
+      ],
+      "evidence": "Reviewed fiber-bundles/ambrosesinger-curvature-span, fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles, fiber-bundles/atiyah-algebroid-of-a-principal-bundle, fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action in Remarks, Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/ambrosesinger-curvature-span",
+        "fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles",
+        "fiber-bundles/atiyah-algebroid-of-a-principal-bundle",
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"
+      ]
+    },
+    {
+      "phrase": "wedge product",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ],
+      "evidence": "Reviewed differential-geometry/compactly-supported-de-rham-cohomology, differential-geometry/differential-form-of-type-pq, differential-geometry/dolbeault-cohomology, differential-geometry/dolbeault-complex in Duality and examples, Type decomposition, Products and functoriality, Structure and examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/compactly-supported-de-rham-cohomology",
+        "differential-geometry/differential-form-of-type-pq",
+        "differential-geometry/dolbeault-cohomology",
+        "differential-geometry/dolbeault-complex"
+      ]
+    },
+    {
+      "phrase": "isomorphism theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-modules/first-isomorphism-theorem-modules"
+      ],
+      "evidence": "Reviewed algebra-modules/first-isomorphism-theorem-modules, algebra-modules/second-isomorphism-theorem-modules, algebra-modules/third-isomorphism-theorem-modules, algebra-rings/first-isomorphism-theorem-rings in core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-modules/first-isomorphism-theorem-modules",
+        "algebra-modules/second-isomorphism-theorem-modules",
+        "algebra-modules/third-isomorphism-theorem-modules",
+        "algebra-rings/first-isomorphism-theorem-rings"
+      ]
+    },
+    {
+      "phrase": "differential operator",
+      "disposition": "existing_target",
+      "targets": [
+        "algebraic-geometry-foundations/sheaf-of-differential-operators"
+      ],
+      "evidence": "Reviewed differential-geometry/clifford-module, differential-geometry/d-c-operator, differential-geometry/differential-operator-vector-bundles, differential-geometry/elliptic-differential-operator in Role in Dirac operators, core, Conventions and scope; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/clifford-module",
+        "differential-geometry/d-c-operator",
+        "differential-geometry/differential-operator-vector-bundles",
+        "differential-geometry/elliptic-differential-operator"
+      ]
+    },
+    {
+      "phrase": "represented algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/bounded-star-representation",
+        "operator-algebras/cstar-representation"
+      ],
+      "proposed_id": "noncommutative-geometry/represented-algebra",
+      "need": "Define a representation of an algebra on a vector space or Hilbert space, including the action map and the setting-dependent unital or *-conditions.",
+      "evidence": "Reviewed occurrences in functional-analysis/z2-graded-hilbert-space, noncommutative-geometry/noncommutative-integral, noncommutative-geometry/odd-fredholm-module, noncommutative-geometry/real-structure-spectral-triple (Spectral-triple convention, core, Projection picture, Meaning of the data). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "functional-analysis/z2-graded-hilbert-space",
+        "noncommutative-geometry/noncommutative-integral",
+        "noncommutative-geometry/odd-fredholm-module",
+        "noncommutative-geometry/real-structure-spectral-triple"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "No new umbrella definition: use the existing bounded-star/C*-representation definition in the actual source setting, whose image is the represented algebra."
+    },
+    {
+      "phrase": "discrete group",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/group-cstar-algebra-discrete-group"
+      ],
+      "evidence": "Reviewed fiber-bundles/classifying-space-bg, fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function, harmonic-analysis/folner-condition, harmonic-analysis/fourier-algebra in Examples, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/principal-bundle-over-s1-defined-by-a-clutching-function",
+        "harmonic-analysis/folner-condition",
+        "harmonic-analysis/fourier-algebra"
+      ]
+    },
+    {
+      "phrase": "transition map",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/coordinate-transition-map"
+      ],
+      "evidence": "Reviewed complex-analysis/complex-projective-structure, differential-geometry/complex-atlas, differential-geometry/complex-coordinate-chart, differential-geometry/complex-manifold in core, Compatibility of charts; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "complex-analysis/complex-projective-structure",
+        "differential-geometry/complex-atlas",
+        "differential-geometry/complex-coordinate-chart",
+        "differential-geometry/complex-manifold"
+      ]
+    },
+    {
+      "phrase": "identity map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-fields-galois/field-embedding, algebra-fields-galois/finite-fields-perfect, algebra-fields-galois/frobenius-endomorphism, algebra-homological/exact-complex (core, Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-fields-galois/field-embedding",
+        "algebra-fields-galois/finite-fields-perfect",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-homological/exact-complex"
+      ]
+    },
+    {
+      "phrase": "direct product",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-groups/direct-product-groups"
+      ],
+      "evidence": "Reviewed algebra-category-theory/categorical-product, algebra-groups/direct-product-groups, algebra-groups/direct-sum-groups, algebra-groups/internal-direct-product in Examples, core, Remarks; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-category-theory/categorical-product",
+        "algebra-groups/direct-product-groups",
+        "algebra-groups/direct-sum-groups",
+        "algebra-groups/internal-direct-product"
+      ]
+    },
+    {
+      "phrase": "real lie algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/underlying-real-lie-algebra"
+      ],
+      "evidence": "Reviewed lie-groups/compact-exceptional-lie-group-e8, lie-groups/example-heisenberg-algebra, lie-groups/example-sl2c, lie-groups/example-so3 in Distinguishing the forms, core, Groups and real forms, A concrete basis and bracket computation; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "lie-groups/compact-exceptional-lie-group-e8",
+        "lie-groups/example-heisenberg-algebra",
+        "lie-groups/example-sl2c",
+        "lie-groups/example-so3"
+      ]
+    },
+    {
+      "phrase": "direct integral",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/direct-integral-hilbert-spaces"
+      ],
+      "evidence": "Reviewed functional-analysis/decomposable-operator, functional-analysis/direct-integral-hilbert-spaces in Algebraic operations, Examples and scope, core, Constant fields and direct sums; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "functional-analysis/decomposable-operator",
+        "functional-analysis/direct-integral-hilbert-spaces"
+      ]
+    },
+    {
+      "phrase": "faithful functor",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-category-theory/faithful-functor"
+      ],
+      "proposed_id": "algebra-category-theory/faithful-functor",
+      "need": "Define a functor injective on every hom-set, with the categorical context stated and fullness kept distinct.",
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/band-as-an-ordered-blueprint, algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint, algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint, algebraic-geometry-foundations/hyperrings-as-ordered-blueprints (core, Fully faithful embedding). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/band-as-an-ordered-blueprint",
+        "algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint",
+        "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint",
+        "algebraic-geometry-foundations/hyperrings-as-ordered-blueprints"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "smooth action",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ],
+      "evidence": "Reviewed fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f, fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p, lie-groups/adjoint-action-of-a-lie-group, lie-groups/principal-homogeneous-space in Convention, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f",
+        "fiber-bundles/convention-principal-bundles-use-a-right-g-action-on-p",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "lie-groups/principal-homogeneous-space"
+      ]
+    },
+    {
+      "phrase": "underlying space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-fields-galois/local-field, fiber-bundles/smooth-chart-coordinate-chart, harmonic-analysis/unitary-induced-representation, supergeometry/superdomain (core, Conventions and scope). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-fields-galois/local-field",
+        "fiber-bundles/smooth-chart-coordinate-chart",
+        "harmonic-analysis/unitary-induced-representation",
+        "supergeometry/superdomain"
+      ]
+    },
+    {
+      "phrase": "pairwise disjoint sequence",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in functional-analysis/projection-valued-measure, measure-theory/measure, measure-theory/premeasure, probability/probability-measure (core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "functional-analysis/projection-valued-measure",
+        "measure-theory/measure",
+        "measure-theory/premeasure",
+        "probability/probability-measure"
+      ]
+    },
+    {
+      "phrase": "volume form",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/volume-form"
+      ],
+      "proposed_id": "differential-geometry/volume-form",
+      "need": "Define a nowhere-vanishing top-degree differential form on an n-manifold and state the orientability relationship.",
+      "evidence": "Reviewed occurrences in differential-geometry/calabi-yau-manifold, differential-geometry/compactly-supported-differential-form, differential-geometry/diffeomorphism-group, differential-geometry/exact-symplectic-manifold (Ricci-flat metrics and holonomy, Examples and boundary cases, Actions and important subgroups, Global restriction). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "differential-geometry/calabi-yau-manifold",
+        "differential-geometry/compactly-supported-differential-form",
+        "differential-geometry/diffeomorphism-group",
+        "differential-geometry/exact-symplectic-manifold"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "spin representation",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/half-spin-representation"
+      ],
+      "evidence": "Reviewed differential-geometry/clifford-module, differential-geometry/complex-clifford-module-classification, differential-geometry/dirac-spinor, differential-geometry/lorentzian-spinor-bundle in Spinor modules and representations, Restriction to the spin group, core, Representation choices; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/clifford-module",
+        "differential-geometry/complex-clifford-module-classification",
+        "differential-geometry/dirac-spinor",
+        "differential-geometry/lorentzian-spinor-bundle"
+      ]
+    },
+    {
+      "phrase": "associative algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/clifford-algebra, differential-geometry/poisson-algebra-smooth-functions, lie-groups/lie-algebra, lie-groups/pbw-theorem (core, Examples). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "differential-geometry/clifford-algebra",
+        "differential-geometry/poisson-algebra-smooth-functions",
+        "lie-groups/lie-algebra",
+        "lie-groups/pbw-theorem"
+      ]
+    },
+    {
+      "phrase": "smooth bundle",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/principal-g-bundle-on-scheme, differential-geometry/complexified-tangent-bundle-splitting, differential-geometry/differential-operator-vector-bundles, differential-geometry/holomorphic-cotangent-bundle (Relation to differential geometry, Projection operators, Intrinsic characterization, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+        "differential-geometry/complexified-tangent-bundle-splitting",
+        "differential-geometry/differential-operator-vector-bundles",
+        "differential-geometry/holomorphic-cotangent-bundle"
+      ]
+    },
+    {
+      "phrase": "nondegenerate alternating form",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/coisotropic-subspace, differential-geometry/isotropic-grassmannian, differential-geometry/isotropic-subspace, differential-geometry/lagrangian-subspace (core, Conventions and scope, Quotients and geometry). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "differential-geometry/coisotropic-subspace",
+        "differential-geometry/isotropic-grassmannian",
+        "differential-geometry/isotropic-subspace",
+        "differential-geometry/lagrangian-subspace"
+      ]
+    },
+    {
+      "phrase": "connected reductive group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebraic-geometry-foundations/reductive-algebraic-group"
+      ],
+      "evidence": "Reviewed algebraic-geometry-foundations/quasi-split-reductive-group, algebraic-geometry-foundations/unipotent-radical, langlands-letter/knowls/l-group-satake-parameter, langlands/a-packet in core, Parabolic subgroups, Status; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/quasi-split-reductive-group",
+        "algebraic-geometry-foundations/unipotent-radical",
+        "langlands-letter/knowls/l-group-satake-parameter",
+        "langlands/a-packet"
+      ]
+    },
+    {
+      "phrase": "derived category",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/d-module, algebraic-geometry-foundations/perfect-complex, algebraic-geometry-foundations/quasi-coherent-sheaf, langlands/geometric-langlands-correspondence (Stacks and derived categories, Characterizations, core). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/d-module",
+        "algebraic-geometry-foundations/perfect-complex",
+        "algebraic-geometry-foundations/quasi-coherent-sheaf",
+        "langlands/geometric-langlands-correspondence"
+      ]
+    },
+    {
+      "phrase": "generating vector field",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/vector-field"
+      ],
+      "evidence": "Reviewed differential-geometry/anosov-flow, differential-geometry/flux-homomorphism, differential-geometry/hamiltonian-isotopy, differential-geometry/symplectic-isotopy in core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/anosov-flow",
+        "differential-geometry/flux-homomorphism",
+        "differential-geometry/hamiltonian-isotopy",
+        "differential-geometry/symplectic-isotopy"
+      ]
+    },
+    {
+      "phrase": "weakest topology",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/weak-topology"
+      ],
+      "evidence": "Reviewed functional-analysis/weak-star-topology, functional-analysis/weak-topology, operator-algebras/character-space, operator-algebras/weak-operator-topology in core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "functional-analysis/weak-star-topology",
+        "functional-analysis/weak-topology",
+        "operator-algebras/character-space",
+        "operator-algebras/weak-operator-topology"
+      ]
+    },
+    {
+      "phrase": "real form",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/compact-real-form"
+      ],
+      "evidence": "Reviewed differential-geometry/complex-clifford-module-classification, differential-geometry/majorana-spinor, lie-groups/cartan-involution-real-lie-algebra, lie-groups/compact-exceptional-lie-group-e7 in Scope, core, Matrix example and terminology, Global and real-form caveat; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/complex-clifford-module-classification",
+        "differential-geometry/majorana-spinor",
+        "lie-groups/cartan-involution-real-lie-algebra",
+        "lie-groups/compact-exceptional-lie-group-e7"
+      ]
+    },
+    {
+      "phrase": "discrete topology",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-topological/ideal-of-definition, algebraic-geometry-foundations/formal-scheme, algebraic-geometry-foundations/formal-spectrum, lie-groups/simply-connected-lie-group (Choice of ideal, Ordinary schemes and formal completions, Relation to ordinary spectra, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebra-topological/ideal-of-definition",
+        "algebraic-geometry-foundations/formal-scheme",
+        "algebraic-geometry-foundations/formal-spectrum",
+        "lie-groups/simply-connected-lie-group"
+      ]
+    },
+    {
+      "phrase": "inclusion map",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-fields-galois/field-embedding, algebra-groups/group-homomorphism, fiber-bundles/vector-bundle-morphism, lie-groups/lie-algebra-of-subgroup-lemma (Examples, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebra-fields-galois/field-embedding",
+        "algebra-groups/group-homomorphism",
+        "fiber-bundles/vector-bundle-morphism",
+        "lie-groups/lie-algebra-of-subgroup-lemma"
+      ]
+    },
+    {
+      "phrase": "characteristic-zero field",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in formal-groups/complete-filtered-lie-algebra-bch-group, formal-groups/formal-completion-at-identity, formal-groups/formal-group-law, formal-groups/formal-group-law-morphism (Functorial form, Tangent algebra, Tangent bracket, Tangent functor). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "formal-groups/complete-filtered-lie-algebra-bch-group",
+        "formal-groups/formal-completion-at-identity",
+        "formal-groups/formal-group-law",
+        "formal-groups/formal-group-law-morphism"
+      ]
+    },
+    {
+      "phrase": "circle group",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/example-u1-circle"
+      ],
+      "evidence": "Reviewed fiber-bundles/exponential-map, fiber-bundles/left-translation-l-g, fiber-bundles/lie-group, fiber-bundles/right-translation-r-g in Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/exponential-map",
+        "fiber-bundles/left-translation-l-g",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/right-translation-r-g"
+      ]
+    },
+    {
+      "phrase": "adjoint module",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/complex-lie-algebra-sl6, lie-groups/complex-lie-algebra-so10, lie-groups/e7-branching-under-a2-plus-a5 (core, Paper context, What the decomposition means). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "lie-groups/complex-lie-algebra-sl6",
+        "lie-groups/complex-lie-algebra-so10",
+        "lie-groups/e7-branching-under-a2-plus-a5"
+      ]
+    },
+    {
+      "phrase": "local group",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/lie-group, harmonic-analysis/distribution-local-group, harmonic-analysis/test-function-space-local-group, lie-groups/baker-campbell-hausdorff-formula (core, Analytic interpretation). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/lie-group",
+        "harmonic-analysis/distribution-local-group",
+        "harmonic-analysis/test-function-space-local-group",
+        "lie-groups/baker-campbell-hausdorff-formula"
+      ]
+    },
+    {
+      "phrase": "acting group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/finite-galois-algebra, fiber-bundles/invariant-polynomial-on-a-lie-algebra, lie-groups/transitivity-on-real-grassmannians, nonassociative-algebra/automorphism-transitivity-on-jordan-frames (Remarks, core, Connected versus full stabilizers, Ordered, unordered, and connected stabilizers). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/finite-galois-algebra",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "lie-groups/transitivity-on-real-grassmannians",
+        "nonassociative-algebra/automorphism-transitivity-on-jordan-frames"
+      ]
+    },
+    {
+      "phrase": "grading operator",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in functional-analysis/z2-graded-hilbert-space, noncommutative-geometry/chern-character-fredholm-module, noncommutative-geometry/jlo-cocycle (core, Spectral-triple convention, Odd case and conventions). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "functional-analysis/z2-graded-hilbert-space",
+        "noncommutative-geometry/chern-character-fredholm-module",
+        "noncommutative-geometry/jlo-cocycle"
+      ]
+    },
+    {
+      "phrase": "blueprint morphism",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint, algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint, algebraic-geometry-foundations/localization-of-blueprint, algebraic-geometry-foundations/semiring-completion-of-a-blueprint (Fully faithful embedding, core, Functoriality). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint",
+        "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint",
+        "algebraic-geometry-foundations/localization-of-blueprint",
+        "algebraic-geometry-foundations/semiring-completion-of-a-blueprint"
+      ]
+    },
+    {
+      "phrase": "finite-dimensional algebraic representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands-letter/knowls/characters-separate-semisimple-classes, langlands-letter/knowls/euler-product-and-local-factor, langlands/algebraic-automorphic-representation, langlands/c-algebraic-automorphic-representation (core, Classical convention for general linear groups, Meaning of the letter C). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "langlands-letter/knowls/characters-separate-semisimple-classes",
+        "langlands-letter/knowls/euler-product-and-local-factor",
+        "langlands/algebraic-automorphic-representation",
+        "langlands/c-algebraic-automorphic-representation"
+      ]
+    },
+    {
+      "phrase": "tensor norm",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/cstar-tensor-norm"
+      ],
+      "evidence": "Reviewed noncommutative-geometry/product-spectral-triple, operator-algebras/cstar-tensor-norm in Parity and conventions, core, Extremal norms, Why the algebraic tensor product is insufficient; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "noncommutative-geometry/product-spectral-triple",
+        "operator-algebras/cstar-tensor-norm"
+      ]
+    },
+    {
+      "phrase": "unitary map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in functional-analysis/self-adjoint-extension, harmonic-analysis/fourier-transform-lca, harmonic-analysis/plancherel-measure-nonabelian, harmonic-analysis/plancherel-theorem-unimodular-type-i-groups (Von Neumann parametrization, Inversion and Plancherel normalization, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "functional-analysis/self-adjoint-extension",
+        "harmonic-analysis/fourier-transform-lca",
+        "harmonic-analysis/plancherel-measure-nonabelian",
+        "harmonic-analysis/plancherel-theorem-unimodular-type-i-groups"
+      ]
+    },
+    {
+      "phrase": "fusion ideal",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-hyperstructures/fusion-band, algebra-hyperstructures/fusion-rule-for-bands, algebra-hyperstructures/idyll (core, Interpretation, Equivalent realization). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebra-hyperstructures/fusion-band",
+        "algebra-hyperstructures/fusion-rule-for-bands",
+        "algebra-hyperstructures/idyll"
+      ]
+    },
+    {
+      "phrase": "proper ideal",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-commutative/dedekind-domain, algebra-commutative/maximal-spectrum, algebra-commutative/noetherian-primary-decomposition, algebra-commutative/prime-spectrum (Equivalent and characteristic properties, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebra-commutative/dedekind-domain",
+        "algebra-commutative/maximal-spectrum",
+        "algebra-commutative/noetherian-primary-decomposition",
+        "algebra-commutative/prime-spectrum"
+      ]
+    },
+    {
+      "phrase": "canonical smooth manifold",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/cotangent-bundle, fiber-bundles/tangent-bundle, lie-groups/coset-space (core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/tangent-bundle",
+        "lie-groups/coset-space"
+      ]
+    },
+    {
+      "phrase": "first map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-category-theory/distinguished-triangle, algebraic-geometry-foundations/projective-morphism, operator-algebras/exact-cstar-algebra (core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-category-theory/distinguished-triangle",
+        "algebraic-geometry-foundations/projective-morphism",
+        "operator-algebras/exact-cstar-algebra"
+      ]
+    },
+    {
+      "phrase": "no topology",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in harmonic-analysis/smooth-representation-totally-disconnected-group, operator-algebras/character-space, operator-algebras/star-automorphism (core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/smooth-representation-totally-disconnected-group",
+        "operator-algebras/character-space",
+        "operator-algebras/star-automorphism"
+      ]
+    },
+    {
+      "phrase": "separable complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in harmonic-analysis/multiplicity-function-direct-integral-representation, noncommutative-geometry/analytic-k-homology, noncommutative-geometry/spectral-flow (core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/multiplicity-function-direct-integral-representation",
+        "noncommutative-geometry/analytic-k-homology",
+        "noncommutative-geometry/spectral-flow"
+      ]
+    },
+    {
+      "phrase": "tensor product representation",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/tensor-product-unitary-representations"
+      ],
+      "evidence": "Reviewed fiber-bundles/tensor-product-vector-bundle, harmonic-analysis/tensor-product-unitary-representations, lie-groups/tensor-product-of-representations-lie in core, Conventions and scope; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/tensor-product-vector-bundle",
+        "harmonic-analysis/tensor-product-unitary-representations",
+        "lie-groups/tensor-product-of-representations-lie"
+      ]
+    },
+    {
+      "phrase": "cyclic group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-groups/cyclic-group"
+      ],
+      "evidence": "Reviewed algebra-fields-galois/finite-field-galois-cyclic, algebra-fields-galois/fundamental-theorem-galois-theory, algebra-fields-galois/galois-correspondence, algebra-fields-galois/primitive-element-theorem in Remarks, Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-fields-galois/finite-field-galois-cyclic",
+        "algebra-fields-galois/fundamental-theorem-galois-theory",
+        "algebra-fields-galois/galois-correspondence",
+        "algebra-fields-galois/primitive-element-theorem"
+      ]
+    },
+    {
+      "phrase": "smooth representation",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/smooth-representation-totally-disconnected-group"
+      ],
+      "evidence": "Reviewed harmonic-analysis/bernstein-center, harmonic-analysis/harish-chandra-schwartz-algebra, harmonic-analysis/jacquet-module, harmonic-analysis/smooth-representation-totally-disconnected-group in core, Representation-theoretic role, Hecke action; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/bernstein-center",
+        "harmonic-analysis/harish-chandra-schwartz-algebra",
+        "harmonic-analysis/jacquet-module",
+        "harmonic-analysis/smooth-representation-totally-disconnected-group"
+      ]
+    },
+    {
+      "phrase": "sectional curvature",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/sectional-curvature"
+      ],
+      "proposed_id": "differential-geometry/sectional-curvature",
+      "need": "Define sectional curvature from the Riemann tensor for a 2-plane and state the metric and sign convention.",
+      "evidence": "Reviewed occurrences in differential-geometry/einstein-manifold, differential-geometry/fubini-study-metric, differential-geometry/geodesic-flow (Examples and non-examples, Structure and scope, Geometry and normalization, Negative curvature). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "differential-geometry/einstein-manifold",
+        "differential-geometry/fubini-study-metric",
+        "differential-geometry/geodesic-flow"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "real algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/algebra-of-smooth-functions, differential-geometry/sheaf-of-smooth-functions, lie-groups/compact-real-form, lie-groups/complexification-of-a-real-lie-algebra (Canonical smooth functional calculus, core, Existence and uniqueness, Universal property and conjugation). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/algebra-of-smooth-functions",
+        "differential-geometry/sheaf-of-smooth-functions",
+        "lie-groups/compact-real-form",
+        "lie-groups/complexification-of-a-real-lie-algebra"
+      ]
+    },
+    {
+      "phrase": "canonical quotient",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/full-to-reduced-group-cstar-quotient"
+      ],
+      "evidence": "Reviewed algebra-category-theory/unit-adjunction, operator-algebras/amenability-full-reduced-equivalence, operator-algebras/full-group-cstar-algebra in Examples, core, Consequences and examples, Full versus reduced; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-category-theory/unit-adjunction",
+        "operator-algebras/amenability-full-reduced-equivalence",
+        "operator-algebras/full-group-cstar-algebra"
+      ]
+    },
+    {
+      "phrase": "identity operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in linear-algebra/eigenspace, linear-algebra/eigenvalue, linear-algebra/minimal-polynomial (Equivalent characterizations, Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "linear-algebra/eigenspace",
+        "linear-algebra/eigenvalue",
+        "linear-algebra/minimal-polynomial"
+      ]
+    },
+    {
+      "phrase": "rank-one operator",
+      "disposition": "existing_target",
+      "targets": [
+        "functional-analysis/rank-one-operator"
+      ],
+      "proposed_id": "functional-analysis/rank-one-operator",
+      "need": "Define an operator of the form x ↦ φ(x)y, including the ambient vector or normed spaces and the finite-rank relationship.",
+      "evidence": "Reviewed occurrences in functional-analysis/finite-rank-operator, operator-algebras/adjointable-operator-hilbert-module, operator-algebras/compact-operator-cstar-algebra, operator-algebras/compact-operator-hilbert-module (Approximation and examples, Compact operators and composition, Rank-one generators and approximate units, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "functional-analysis/finite-rank-operator",
+        "operator-algebras/adjointable-operator-hilbert-module",
+        "operator-algebras/compact-operator-cstar-algebra",
+        "operator-algebras/compact-operator-hilbert-module"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "borel measure",
+      "disposition": "existing_target",
+      "targets": [
+        "measure-theory/borel-measure"
+      ],
+      "proposed_id": "measure-theory/borel-measure",
+      "need": "Define a measure on the Borel σ-algebra of a topological space and state any regularity or finiteness assumptions used.",
+      "evidence": "Reviewed occurrences in complex-analysis/octonionic-monge-ampere-measure, complex-analysis/quaternionic-monge-ampere-measure, harmonic-analysis/bochner-theorem-lca, harmonic-analysis/plancherel-measure-nonabelian (Continuous potentials, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "complex-analysis/octonionic-monge-ampere-measure",
+        "complex-analysis/quaternionic-monge-ampere-measure",
+        "harmonic-analysis/bochner-theorem-lca",
+        "harmonic-analysis/plancherel-measure-nonabelian"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "levi form",
+      "disposition": "existing_target",
+      "targets": [
+        "complex-analysis/levi-form"
+      ],
+      "evidence": "Reviewed complex-analysis/harmonic-subharmonic-pluriharmonic-relations, complex-analysis/hormander-l2-dbar-theorem, complex-analysis/levi-form in Why the intersection is pluriharmonic, core, Positivity; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "complex-analysis/harmonic-subharmonic-pluriharmonic-relations",
+        "complex-analysis/hormander-l2-dbar-theorem",
+        "complex-analysis/levi-form"
+      ]
+    },
+    {
+      "phrase": "uniform norm",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/peter-weyl-theorem, lie-groups/strongly-continuous-unitary-representation, operator-algebras/c0-function-algebra, operator-algebras/completely-positive-approximation-property (Theorem (Peter–Weyl), Equivalent continuity tests, Relation to compact support, Conventions and scope). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "lie-groups/peter-weyl-theorem",
+        "lie-groups/strongly-continuous-unitary-representation",
+        "operator-algebras/c0-function-algebra",
+        "operator-algebras/completely-positive-approximation-property"
+      ]
+    },
+    {
+      "phrase": "algebra representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/clifford-module, fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections, lie-groups/representation-of-a-lie-group (Graded modules, Local formula, Differentiating a representation, Examples). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "differential-geometry/clifford-module",
+        "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections",
+        "lie-groups/representation-of-a-lie-group"
+      ]
+    },
+    {
+      "phrase": "constant sectional curvature",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/einstein-manifold, differential-geometry/hyperbolic-three-space, differential-geometry/ricci-curvature (Examples and non-examples, Structure and scope, core, Examples and conventions). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "differential-geometry/einstein-manifold",
+        "differential-geometry/hyperbolic-three-space",
+        "differential-geometry/ricci-curvature"
+      ]
+    },
+    {
+      "phrase": "function theorem",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/local-diffeomorphism, differential-geometry/riemann-surface, lie-groups/exponential-local-diffeomorphism, real-analysis/inverse-function-theorem-1d (Characterization, Holomorphic structure, Key points, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/local-diffeomorphism",
+        "differential-geometry/riemann-surface",
+        "lie-groups/exponential-local-diffeomorphism",
+        "real-analysis/inverse-function-theorem-1d"
+      ]
+    },
+    {
+      "phrase": "original topology",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/whitney-embedding-theorem, functional-analysis/weak-topology, harmonic-analysis/integrated-operator-continuous-representation, operator-algebras/character-space (core, Convolution and smoothing, Function-algebra model). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/whitney-embedding-theorem",
+        "functional-analysis/weak-topology",
+        "harmonic-analysis/integrated-operator-continuous-representation",
+        "operator-algebras/character-space"
+      ]
+    },
+    {
+      "phrase": "scalar quotient",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/k0-cstar-algebra, operator-algebras/k1-cstar-algebra, operator-algebras/projection-cstar-algebra, operator-algebras/unitary-element (core, Role in K-theory, Stable homotopy and K-theory). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/k0-cstar-algebra",
+        "operator-algebras/k1-cstar-algebra",
+        "operator-algebras/projection-cstar-algebra",
+        "operator-algebras/unitary-element"
+      ]
+    },
+    {
+      "phrase": "unique irreducible quotient",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/langlands-quotient"
+      ],
+      "evidence": "Reviewed harmonic-analysis/langlands-classification-p-adic-group, harmonic-analysis/normalized-parabolic-induction-p-adic-group, lie-groups/langlands-classification-real-reductive-groups, lie-groups/langlands-quotient in core, Role in the Langlands classification, Content of the classification; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/langlands-classification-p-adic-group",
+        "harmonic-analysis/normalized-parabolic-induction-p-adic-group",
+        "lie-groups/langlands-classification-real-reductive-groups",
+        "lie-groups/langlands-quotient"
+      ]
+    },
+    {
+      "phrase": "canonical group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/spin-group, operator-algebras/dual-action-crossed-product, operator-algebras/dual-action-von-neumann-crossed-product, operator-algebras/full-crossed-product (Covering map to \\(SO(n)\\), core, Conventions and scope). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "lie-groups/spin-group",
+        "operator-algebras/dual-action-crossed-product",
+        "operator-algebras/dual-action-von-neumann-crossed-product",
+        "operator-algebras/full-crossed-product"
+      ]
+    },
+    {
+      "phrase": "compact-open topology",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in harmonic-analysis/pontryagin-dual, harmonic-analysis/pontryagin-duality-theorem (core, Biduality, Hypotheses and naturality). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/pontryagin-dual",
+        "harmonic-analysis/pontryagin-duality-theorem"
+      ]
+    },
+    {
+      "phrase": "even map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in supergeometry/category-of-super-vector-spaces, supergeometry/parity-shift, supergeometry/super-internal-hom, supergeometry/supermodule (Odd maps, Odd maps as even maps, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "supergeometry/category-of-super-vector-spaces",
+        "supergeometry/parity-shift",
+        "supergeometry/super-internal-hom",
+        "supergeometry/supermodule"
+      ]
+    },
+    {
+      "phrase": "measure algebra",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/measure-algebra"
+      ],
+      "evidence": "Reviewed harmonic-analysis/approximate-identity-l1-group-algebra, harmonic-analysis/fourier-stieltjes-algebra, harmonic-analysis/measure-algebra, operator-algebras/commutative-von-neumann-algebra in Distinctions and conventions, Positive-definite functions and examples, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/approximate-identity-l1-group-algebra",
+        "harmonic-analysis/fourier-stieltjes-algebra",
+        "harmonic-analysis/measure-algebra",
+        "operator-algebras/commutative-von-neumann-algebra"
+      ]
+    },
+    {
+      "phrase": "one representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in harmonic-analysis/hilbert-direct-sum-unitary-representations, langlands/hecke-eigensheaf, operator-algebras/continuous-trace-cstar-algebra, operator-algebras/unitary-equivalence-cstar-representations (Examples and decomposition, core, Preserved structure). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/hilbert-direct-sum-unitary-representations",
+        "langlands/hecke-eigensheaf",
+        "operator-algebras/continuous-trace-cstar-algebra",
+        "operator-algebras/unitary-equivalence-cstar-representations"
+      ]
+    },
+    {
+      "phrase": "quotient vector space",
+      "disposition": "existing_target",
+      "targets": [
+        "convex-analysis/quotient-vector-space-codimension"
+      ],
+      "evidence": "Reviewed algebra-representation-theory/subrepresentation, convex-analysis/quotient-vector-space-codimension, fiber-bundles/de-rham-cohomology-group, lie-groups/ideal-lie-algebra in Basic properties, core, Remarks; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-representation-theory/subrepresentation",
+        "convex-analysis/quotient-vector-space-codimension",
+        "fiber-bundles/de-rham-cohomology-group",
+        "lie-groups/ideal-lie-algebra"
+      ]
+    },
+    {
+      "phrase": "strict topology",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/strict-topology"
+      ],
+      "evidence": "Reviewed operator-algebras/extension-to-multiplier-algebras, operator-algebras/multiplier-algebra, operator-algebras/multiplier-module, operator-algebras/strict-topology in core, Strict versus norm approximation, Embedding and strict completion; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "operator-algebras/extension-to-multiplier-algebras",
+        "operator-algebras/multiplier-algebra",
+        "operator-algebras/multiplier-module",
+        "operator-algebras/strict-topology"
+      ]
+    },
+    {
+      "phrase": "affine complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in complex-analysis/entire-function-several-variables, complex-analysis/pluriharmonic-function, complex-analysis/plurisubharmonic-function (Relation to complex lines, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "complex-analysis/entire-function-several-variables",
+        "complex-analysis/pluriharmonic-function",
+        "complex-analysis/plurisubharmonic-function"
+      ]
+    },
+    {
+      "phrase": "commutative unital ring",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-rings/unital-ring"
+      ],
+      "evidence": "Reviewed algebra-modules/category-of-finitely-generated-projective-modules, algebra-rings/field, algebra-rings/prime-ideal in core, Remarks; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-modules/category-of-finitely-generated-projective-modules",
+        "algebra-rings/field",
+        "algebra-rings/prime-ideal"
+      ]
+    },
+    {
+      "phrase": "dual vector space",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/vector-space"
+      ],
+      "evidence": "Reviewed algebra-coalgebras/coalgebra, fiber-bundles/coadjoint-action-of-a-lie-group, lie-groups/coadjoint-representation-of-a-lie-algebra in Examples, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-coalgebras/coalgebra",
+        "fiber-bundles/coadjoint-action-of-a-lie-group",
+        "lie-groups/coadjoint-representation-of-a-lie-algebra"
+      ]
+    },
+    {
+      "phrase": "frobenius theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/characteristic-distribution-coisotropic, differential-geometry/characteristic-foliation, fiber-bundles/integrable-horizontal-distribution (Involutivity, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/characteristic-distribution-coisotropic",
+        "differential-geometry/characteristic-foliation",
+        "fiber-bundles/integrable-horizontal-distribution"
+      ]
+    },
+    {
+      "phrase": "monodromy representation",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/holonomy-representation"
+      ],
+      "evidence": "Reviewed occurrences in fiber-bundles/holonomy-representation, fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm, langlands/g-local-system (core, Comparison). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/holonomy-representation",
+        "fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm",
+        "langlands/g-local-system"
+      ]
+    },
+    {
+      "phrase": "one morphism",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-category-theory/initial-object, algebra-category-theory/yoneda-embedding, algebra-category-theory/zero-object (core, Example (Posets)). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-category-theory/initial-object",
+        "algebra-category-theory/yoneda-embedding",
+        "algebra-category-theory/zero-object"
+      ]
+    },
+    {
+      "phrase": "quotient manifold",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/quotient-manifold"
+      ],
+      "evidence": "Reviewed fiber-bundles/construction-quotient-manifold-pg-for-a-free-proper-g-action, fiber-bundles/quotient-manifold, lie-groups/projective-general-linear-lie-group in core, Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/construction-quotient-manifold-pg-for-a-free-proper-g-action",
+        "fiber-bundles/quotient-manifold",
+        "lie-groups/projective-general-linear-lie-group"
+      ]
+    },
+    {
+      "phrase": "submersion theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/regular-level-set, fiber-bundles/fibered-manifold, fiber-bundles/vertical-tangent-space (Local normal form, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/regular-level-set",
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/vertical-tangent-space"
+      ]
+    },
+    {
+      "phrase": "toeplitz representation",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/toeplitz-representation-cstar-correspondence"
+      ],
+      "evidence": "Reviewed operator-algebras/fock-module-cstar-correspondence, operator-algebras/toeplitz-pimsner-algebra, operator-algebras/toeplitz-representation-cstar-correspondence in Creation operators, core, The induced compact-operator representation; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "operator-algebras/fock-module-cstar-correspondence",
+        "operator-algebras/toeplitz-pimsner-algebra",
+        "operator-algebras/toeplitz-representation-cstar-correspondence"
+      ]
+    },
+    {
+      "phrase": "valuation ring",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-fields-galois/valuation-ring"
+      ],
+      "evidence": "Reviewed algebra-fields-galois/valuation-ring, algebra-fields-galois/value-group, harmonic-analysis/schwartz-bruhat-space-local-field in core, Characterizing property, Basic nonarchimedean examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-fields-galois/valuation-ring",
+        "algebra-fields-galois/value-group",
+        "harmonic-analysis/schwartz-bruhat-space-local-field"
+      ]
+    },
+    {
+      "phrase": "standard metric",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/quaternion-kahler-einstein-property, differential-geometry/quaternion-kahler-manifold, differential-geometry/quaternionic-manifold, differential-geometry/riemann-curvature-tensor (Sign and examples, Examples and nearby structures, Examples and non-examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/quaternion-kahler-einstein-property",
+        "differential-geometry/quaternion-kahler-manifold",
+        "differential-geometry/quaternionic-manifold",
+        "differential-geometry/riemann-curvature-tensor"
+      ]
+    },
+    {
+      "phrase": "product bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/bundle-isomorphism, fiber-bundles/connection-on-a-vector-bundle, fiber-bundles/ehresmann-connection, fiber-bundles/horizontal-lift-of-a-curve (Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/bundle-isomorphism",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ]
+    },
+    {
+      "phrase": "symmetric group",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-groups/abelian-group, algebra-groups/group, algebra-groups/left-multiplication-action, algebra-groups/order-divides-group-order (Examples, Remarks). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebra-groups/abelian-group",
+        "algebra-groups/group",
+        "algebra-groups/left-multiplication-action",
+        "algebra-groups/order-divides-group-order"
+      ]
+    },
+    {
+      "phrase": "discrete spectrum",
+      "disposition": "existing_target",
+      "targets": [
+        "langlands/discrete-automorphic-spectrum"
+      ],
+      "evidence": "Reviewed differential-geometry/elliptic-differential-operator, harmonic-analysis/discrete-and-continuous-spectrum-unitary-representation, langlands/arthur-multiplicity-formula, langlands/arthur-selberg-trace-formula in Conventions and scope, core, Source of the sign, Spectral side; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/elliptic-differential-operator",
+        "harmonic-analysis/discrete-and-continuous-spectrum-unitary-representation",
+        "langlands/arthur-multiplicity-formula",
+        "langlands/arthur-selberg-trace-formula"
+      ]
+    },
+    {
+      "phrase": "one complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in complex-analysis/cauchy-riemann-criterion, complex-analysis/complex-derivative, complex-analysis/harmonic-subharmonic-pluriharmonic-relations, differential-geometry/almost-quaternionic-manifold (Pointwise form, Real-linear interpretation, Why the intersection is pluriharmonic, Examples and near-misses). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "complex-analysis/cauchy-riemann-criterion",
+        "complex-analysis/complex-derivative",
+        "complex-analysis/harmonic-subharmonic-pluriharmonic-relations",
+        "differential-geometry/almost-quaternionic-manifold"
+      ]
+    },
+    {
+      "phrase": "canonical symplectic form",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/canonical-symplectic-form-cotangent"
+      ],
+      "evidence": "Reviewed differential-geometry/canonical-moment-map-cotangent-lift, differential-geometry/canonical-symplectic-form-cotangent, differential-geometry/classical-phase-space, differential-geometry/conormal-bundle-lagrangian in Conventions and scope, core, Cotangent-bundle model, Proof mechanism; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/canonical-moment-map-cotangent-lift",
+        "differential-geometry/canonical-symplectic-form-cotangent",
+        "differential-geometry/classical-phase-space",
+        "differential-geometry/conormal-bundle-lagrangian"
+      ]
+    },
+    {
+      "phrase": "functions form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/sheaf, differential-geometry/riemann-surface, differential-geometry/sheaf-of-smooth-functions, functional-analysis/banach-algebra (Examples, Holomorphic structure, Conventions and scope, Standard examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/sheaf",
+        "differential-geometry/riemann-surface",
+        "differential-geometry/sheaf-of-smooth-functions",
+        "functional-analysis/banach-algebra"
+      ]
+    },
+    {
+      "phrase": "adjoint form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands-letter/knowls/root-vs-weight-lattice-isogeny, lie-groups/center-of-a-lie-group, lie-groups/compact-exceptional-lie-group-e7 (core, Dual statement, Remarks, Global and real-form caveat). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "langlands-letter/knowls/root-vs-weight-lattice-isogeny",
+        "lie-groups/center-of-a-lie-group",
+        "lie-groups/compact-exceptional-lie-group-e7"
+      ]
+    },
+    {
+      "phrase": "hilbert-space representation",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in harmonic-analysis/hilbert-direct-sum-unitary-representations, lie-groups/distribution-vectors-of-a-representation, lie-groups/harish-chandra-admissibility-theorem, operator-algebras/cstar-dynamical-system (Examples and decomposition, Use in representation theory, Algebraic consequence, Conventions and scope). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/hilbert-direct-sum-unitary-representations",
+        "lie-groups/distribution-vectors-of-a-representation",
+        "lie-groups/harish-chandra-admissibility-theorem",
+        "operator-algebras/cstar-dynamical-system"
+      ]
+    },
+    {
+      "phrase": "monodromy operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands/crystalline-galois-representation, langlands/fontaine-period-rings, langlands/local-global-compatibility, langlands/semistable-galois-representation (Relation to reduction and monodromy, Structures carried by the rings, Away from ell, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "langlands/crystalline-galois-representation",
+        "langlands/fontaine-period-rings",
+        "langlands/local-global-compatibility",
+        "langlands/semistable-galois-representation"
+      ]
+    },
+    {
+      "phrase": "character space",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/character-space"
+      ],
+      "evidence": "Reviewed operator-algebras/c0-function-algebra, operator-algebras/character-cstar-algebra, operator-algebras/character-space in Spectrum and unitization, Multiplicativity and purity, core, Topological structure; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "operator-algebras/c0-function-algebra",
+        "operator-algebras/character-cstar-algebra",
+        "operator-algebras/character-space"
+      ]
+    },
+    {
+      "phrase": "euclidean inner product",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/inner-product"
+      ],
+      "evidence": "Reviewed fiber-bundles/bundle-metric, fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric, large-deviations/log-moment-generating-function, nonassociative-algebra/euclidean-jordan-algebra in Examples, core, Euclidean versus formally real; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/example-reduction-of-gl-structure-to-o-using-a-bundle-metric",
+        "large-deviations/log-moment-generating-function",
+        "nonassociative-algebra/euclidean-jordan-algebra"
+      ]
+    },
+    {
+      "phrase": "noncommutative integral",
+      "disposition": "existing_target",
+      "targets": [
+        "noncommutative-geometry/noncommutative-integral"
+      ],
+      "evidence": "Reviewed noncommutative-geometry/finiteness-absolute-continuity-axiom, noncommutative-geometry/metric-dimension, noncommutative-geometry/noncommutative-integral in Normalization and sidedness, Canonical manifold case, core, Conventions and scope; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "noncommutative-geometry/finiteness-absolute-continuity-axiom",
+        "noncommutative-geometry/metric-dimension",
+        "noncommutative-geometry/noncommutative-integral"
+      ]
+    },
+    {
+      "phrase": "pulled-back form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/isotropic-submanifold, differential-geometry/poincare-lemma, differential-geometry/symplectic-embedding, differential-geometry/symplectic-submanifold (Examples and non-examples, Homotopy operator, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/isotropic-submanifold",
+        "differential-geometry/poincare-lemma",
+        "differential-geometry/symplectic-embedding",
+        "differential-geometry/symplectic-submanifold"
+      ]
+    },
+    {
+      "phrase": "usual metric",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in topology/cauchy-sequence, topology/convergent-sequence, topology/heine-borel-theorem, topology/lipschitz-continuity (Examples, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "topology/cauchy-sequence",
+        "topology/convergent-sequence",
+        "topology/heine-borel-theorem",
+        "topology/lipschitz-continuity"
+      ]
+    },
+    {
+      "phrase": "ambient ring",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-hyperstructures/partial-field, algebra-hyperstructures/partial-field-as-a-tract, algebra-hyperstructures/partial-hyperfield, algebra-hyperstructures/partial-hyperfield-as-a-tract (Convention warning, What the construction retains, Two independent weakenings, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-hyperstructures/partial-field",
+        "algebra-hyperstructures/partial-field-as-a-tract",
+        "algebra-hyperstructures/partial-hyperfield",
+        "algebra-hyperstructures/partial-hyperfield-as-a-tract"
+      ]
+    },
+    {
+      "phrase": "class group",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/mapping-class-group-of-a-smooth-manifold"
+      ],
+      "evidence": "Reviewed differential-geometry/diffeomorphism-group, differential-geometry/mapping-class-group-of-a-smooth-manifold, langlands-letter/knowls/ideles-artin-reciprocity-hecke-character in Actions and important subgroups, Relation to the topology of the diffeomorphism group, Examples and scope, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/diffeomorphism-group",
+        "differential-geometry/mapping-class-group-of-a-smooth-manifold",
+        "langlands-letter/knowls/ideles-artin-reciprocity-hecke-character"
+      ]
+    },
+    {
+      "phrase": "commutative base ring",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-modules/exterior-algebra, algebra-rings/formal-inverse-function-theorem, formal-groups/affine-formal-groups-and-complete-hopf-algebras, lie-groups/pbw-theorem (Signs, Formal, not analytic, core, Structural consequences). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-modules/exterior-algebra",
+        "algebra-rings/formal-inverse-function-theorem",
+        "formal-groups/affine-formal-groups-and-complete-hopf-algebras",
+        "lie-groups/pbw-theorem"
+      ]
+    },
+    {
+      "phrase": "constant field",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-fields-galois/chebotarev-density-theorem, algebra-fields-galois/global-function-field, functional-analysis/direct-integral-hilbert-spaces, functional-analysis/measurable-field-hilbert-spaces (Function fields, core, Constant fields and direct sums, Examples and conventions). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-fields-galois/chebotarev-density-theorem",
+        "algebra-fields-galois/global-function-field",
+        "functional-analysis/direct-integral-hilbert-spaces",
+        "functional-analysis/measurable-field-hilbert-spaces"
+      ]
+    },
+    {
+      "phrase": "dolbeault operator",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/dolbeault-operators"
+      ],
+      "evidence": "Reviewed complex-analysis/hormander-l2-dbar-theorem, differential-geometry/del-j-operator, differential-geometry/hypercomplex-manifold, fiber-bundles/chern-connection in Geometric input, Convention warning, Quaternionic potential theory, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "complex-analysis/hormander-l2-dbar-theorem",
+        "differential-geometry/del-j-operator",
+        "differential-geometry/hypercomplex-manifold",
+        "fiber-bundles/chern-connection"
+      ]
+    },
+    {
+      "phrase": "euler form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/chern-gauss-bonnet-theorem, fiber-bundles/chernweil-form, fiber-bundles/euler-class (Why the equality is topological, Conventions and scope, Examples, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/chern-gauss-bonnet-theorem",
+        "fiber-bundles/chernweil-form",
+        "fiber-bundles/euler-class"
+      ]
+    },
+    {
+      "phrase": "generated algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/factorial-representation, operator-algebras/generated-cstar-subalgebra, operator-algebras/type-i-factor-representation (Comparison with irreducibility, Functional calculus and examples, core, Spatial form). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/factorial-representation",
+        "operator-algebras/generated-cstar-subalgebra",
+        "operator-algebras/type-i-factor-representation"
+      ]
+    },
+    {
+      "phrase": "hermitian product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in linear-algebra/inner-product, linear-algebra/inner-product-space, nonassociative-algebra/octonions-as-complex-vectors, noncommutative-geometry/finiteness-absolute-continuity-axiom (Examples, core, Geometric meaning). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "linear-algebra/inner-product",
+        "linear-algebra/inner-product-space",
+        "nonassociative-algebra/octonions-as-complex-vectors",
+        "noncommutative-geometry/finiteness-absolute-continuity-axiom"
+      ]
+    },
+    {
+      "phrase": "matrix lie algebra",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/construction-change-of-connection-formula-for-characteristic-forms-p, fiber-bundles/lie-bracket, lie-groups/ados-theorem, lie-groups/tfae-solvability-lie-algebra (Examples, Equivalent characterizations, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/construction-change-of-connection-formula-for-characteristic-forms-p",
+        "fiber-bundles/lie-bracket",
+        "lie-groups/ados-theorem",
+        "lie-groups/tfae-solvability-lie-algebra"
+      ]
+    },
+    {
+      "phrase": "plancherel measure",
+      "disposition": "existing_target",
+      "targets": [
+        "harmonic-analysis/plancherel-measure-nonabelian"
+      ],
+      "evidence": "Reviewed harmonic-analysis/plancherel-measure-nonabelian, harmonic-analysis/spherical-transform, harmonic-analysis/tempered-dual in core, Conventions and nonunimodular groups, Inversion and Plancherel measure, Conventions and scope; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/plancherel-measure-nonabelian",
+        "harmonic-analysis/spherical-transform",
+        "harmonic-analysis/tempered-dual"
+      ]
+    },
+    {
+      "phrase": "reconstruction theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "noncommutative-geometry/commutative-reconstruction-theorem"
+      ],
+      "evidence": "Reviewed langlands/excursion-algebra, noncommutative-geometry/canonical-spin-spectral-triple, noncommutative-geometry/commutative-reconstruction-theorem in Characters and parameters, Geometry recovered from the triple, core, Hypotheses are a package; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "langlands/excursion-algebra",
+        "noncommutative-geometry/canonical-spin-spectral-triple",
+        "noncommutative-geometry/commutative-reconstruction-theorem"
+      ]
+    },
+    {
+      "phrase": "scalar operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-representation-theory/schur-corollary, differential-geometry/laplace-beltrami-operator, mathematical-physics/conformal-coupling-of-a-scalar-field (Corollary of [[algebra-representation-theory/schurs-lemma|Schur's lemma]], Examples, Related operators, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-representation-theory/schur-corollary",
+        "differential-geometry/laplace-beltrami-operator",
+        "mathematical-physics/conformal-coupling-of-a-scalar-field"
+      ]
+    },
+    {
+      "phrase": "symplectic transformation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/lagrangian-gauss-map, lie-groups/metaplectic-representation, shale-paper/cstar-algebra-observables, shale-paper/fock-cook-quantization (Trivialized form, core, Remarks). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/lagrangian-gauss-map",
+        "lie-groups/metaplectic-representation",
+        "shale-paper/cstar-algebra-observables",
+        "shale-paper/fock-cook-quantization"
+      ]
+    },
+    {
+      "phrase": "values form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/critical-value-of-a-smooth-map, fiber-bundles/vector-subbundle, operator-algebras/tracial-noncommutative-lp-space, operator-algebras/type-i-n-factor (core, Local criteria, Canonical examples, Trace and examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/critical-value-of-a-smooth-map",
+        "fiber-bundles/vector-subbundle",
+        "operator-algebras/tracial-noncommutative-lp-space",
+        "operator-algebras/type-i-n-factor"
+      ]
+    },
+    {
+      "phrase": "actual character lattice",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands-letter/knowls/maximal-torus-weight-lattice, langlands-letter/knowls/root-vs-weight-lattice-isogeny, lie-groups/weight-lattice (Weights, core, Which weights belong to a Lie group?). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "langlands-letter/knowls/maximal-torus-weight-lattice",
+        "langlands-letter/knowls/root-vs-weight-lattice-isogeny",
+        "lie-groups/weight-lattice"
+      ]
+    },
+    {
+      "phrase": "automorphic sheaf",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands/level-structure-on-g-bundle, langlands/ramified-geometric-langlands, langlands/spectral-action (Automorphic moduli, core, Theorem versus categorical conjecture). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "langlands/level-structure-on-g-bundle",
+        "langlands/ramified-geometric-langlands",
+        "langlands/spectral-action"
+      ]
+    },
+    {
+      "phrase": "central action",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/infinitesimal-character, lie-groups/stone-von-neumann-theorem, operator-algebras/c0-x-algebra (Existence and generalized characters, core, Geometric meaning). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "lie-groups/infinitesimal-character",
+        "lie-groups/stone-von-neumann-theorem",
+        "operator-algebras/c0-x-algebra"
+      ]
+    },
+    {
+      "phrase": "chosen measure",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in analysis/unique-ergodicity, harmonic-analysis/multiplicity-function-direct-integral-representation, harmonic-analysis/unitary-induced-representation (Warning, core, Explicit action and measure independence). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "analysis/unique-ergodicity",
+        "harmonic-analysis/multiplicity-function-direct-integral-representation",
+        "harmonic-analysis/unitary-induced-representation"
+      ]
+    },
+    {
+      "phrase": "comparison theorem",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/character-variety, langlands/tame-ramification, operator-algebras/murray-von-neumann-subequivalence (Examples and scope, core, Central obstruction). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/character-variety",
+        "langlands/tame-ramification",
+        "operator-algebras/murray-von-neumann-subequivalence"
+      ]
+    },
+    {
+      "phrase": "cook field",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in shale-paper/fock-cook-quantization, shale-paper/symmetric-fock-space, shale-paper/wiener-transform (core, Remarks, Intertwining properties). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "shale-paper/fock-cook-quantization",
+        "shale-paper/symmetric-fock-space",
+        "shale-paper/wiener-transform"
+      ]
+    },
+    {
+      "phrase": "dual bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/dual-connection"
+      ],
+      "evidence": "Reviewed fiber-bundles/chern-roots, fiber-bundles/cotangent-bundle, fiber-bundles/tangent-bundle in Formal-root calculus, core, Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/chern-roots",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/tangent-bundle"
+      ]
+    },
+    {
+      "phrase": "finite-dimensional kernel",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/hodge-decomposition-riemannian, functional-analysis/fredholm-operator, noncommutative-geometry/p-summable-spectral-triple (Orthogonality and uniqueness, core, Unbounded convention, Equivalent spectral tests). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/hodge-decomposition-riemannian",
+        "functional-analysis/fredholm-operator",
+        "noncommutative-geometry/p-summable-spectral-triple"
+      ]
+    },
+    {
+      "phrase": "fixed space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in harmonic-analysis/smooth-representation-totally-disconnected-group, lie-groups/fixed-vector-subspace, lie-groups/unitary-equivalence-of-representations (Hecke action, Universal description, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/smooth-representation-totally-disconnected-group",
+        "lie-groups/fixed-vector-subspace",
+        "lie-groups/unitary-equivalence-of-representations"
+      ]
+    },
+    {
+      "phrase": "global langlands group",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands/automorphic-galois-correspondence, langlands/global-langlands-parameter, langlands/l-group (Not a naive bijection, core, Galois and global variants). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "langlands/automorphic-galois-correspondence",
+        "langlands/global-langlands-parameter",
+        "langlands/l-group"
+      ]
+    },
+    {
+      "phrase": "isotropy group",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/stabilizer-of-a-connection"
+      ],
+      "evidence": "Reviewed lie-groups/orbit-lie-group, nonassociative-algebra/f4-transitivity-on-complex-qutrit-subalgebras, nonassociative-algebra/spin9-stabilizer-of-an-octonionic-spin-factor in core, Orbit and stabilizer, Reduction to a primitive idempotent; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "lie-groups/orbit-lie-group",
+        "nonassociative-algebra/f4-transitivity-on-complex-qutrit-subalgebras",
+        "nonassociative-algebra/spin9-stabilizer-of-an-octonionic-spin-factor"
+      ]
+    },
+    {
+      "phrase": "left module",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-modules/annihilator-module, algebra-representation-theory/group-representation, noncommutative-geometry/finiteness-absolute-continuity-axiom (core, Examples, Module and group-algebra viewpoint, Normalization and sidedness). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-modules/annihilator-module",
+        "algebra-representation-theory/group-representation",
+        "noncommutative-geometry/finiteness-absolute-continuity-axiom"
+      ]
+    },
+    {
+      "phrase": "linear representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/infinitesimal-generator-lie-action, langlands/regular-singular-connection, lie-groups/irreducible-unitary-representation (Examples, core, Conventions and scope). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/infinitesimal-generator-lie-action",
+        "langlands/regular-singular-connection",
+        "lie-groups/irreducible-unitary-representation"
+      ]
+    },
+    {
+      "phrase": "need not form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-rings/nilpotent-element, differential-geometry/normal-bundle, differential-geometry/symplectic-orthogonal-complement (Remarks, Examples and non-examples, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-rings/nilpotent-element",
+        "differential-geometry/normal-bundle",
+        "differential-geometry/symplectic-orthogonal-complement"
+      ]
+    },
+    {
+      "phrase": "ordinary tensor product",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-topological/completed-tensor-product, formal-groups/coordinate-hopf-algebra, operator-algebras/graded-cstar-algebra (Continuous bilinear maps, core, Graded signs and tensor products). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-topological/completed-tensor-product",
+        "formal-groups/coordinate-hopf-algebra",
+        "operator-algebras/graded-cstar-algebra"
+      ]
+    },
+    {
+      "phrase": "quadratic vector space",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/vector-space"
+      ],
+      "evidence": "Reviewed differential-geometry/clifford-algebra, differential-geometry/clifford-algebra-as-super-enveloping-quotient, mathematical-physics/minkowski-spacetime in Filtration and exterior algebra, core, Dimension and notation; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/clifford-algebra",
+        "differential-geometry/clifford-algebra-as-super-enveloping-quotient",
+        "mathematical-physics/minkowski-spacetime"
+      ]
+    },
+    {
+      "phrase": "reduced lie group",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/lie-group"
+      ],
+      "evidence": "Reviewed supergeometry/lie-superalgebra-of-lie-supergroup, supergeometry/lie-supergroups-and-super-harish-chandra-pairs, supergeometry/super-minkowski-space in Functoriality, Exact scope, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "supergeometry/lie-superalgebra-of-lie-supergroup",
+        "supergeometry/lie-supergroups-and-super-harish-chandra-pairs",
+        "supergeometry/super-minkowski-space"
+      ]
+    },
+    {
+      "phrase": "ring map",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-rings/semiring-homomorphism"
+      ],
+      "evidence": "Reviewed algebra-category-theory/right-exact-functor, algebra-commutative/localization-exact, algebra-rings/fraction-field in Examples, Remarks, core; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-category-theory/right-exact-functor",
+        "algebra-commutative/localization-exact",
+        "algebra-rings/fraction-field"
+      ]
+    },
+    {
+      "phrase": "spectral category",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands/geometric-langlands-correspondence, langlands/ind-coherent-sheaves-with-nilpotent-singular-support, langlands/spectral-action (Necessary spectral enlargement, core, Theorem versus categorical conjecture). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "langlands/geometric-langlands-correspondence",
+        "langlands/ind-coherent-sheaves-with-nilpotent-singular-support",
+        "langlands/spectral-action"
+      ]
+    },
+    {
+      "phrase": "strong topology",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/ultrastrong-topology"
+      ],
+      "evidence": "Reviewed differential-geometry/whitney-c-infinity-topology, functional-analysis/strong-dual in Conventions and scope, Relation to other dual topologies, Boundedness governs the topology, Conventions and cautions; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/whitney-c-infinity-topology",
+        "functional-analysis/strong-dual"
+      ]
+    },
+    {
+      "phrase": "tensor functor",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-modules/projective-implies-flat, algebraic-geometry-foundations/isocrystal, langlands/g-bundle-on-fargues-fontaine-curve (Proof idea, G-isocrystals, core). The phrase is supplied by the surrounding construction, is a generic qualifier, or is context-dependent; no independent definition is required.",
+      "reviewed_source_contexts": [
+        "algebra-modules/projective-implies-flat",
+        "algebraic-geometry-foundations/isocrystal",
+        "langlands/g-bundle-on-fargues-fontaine-curve"
+      ]
+    },
+    {
+      "phrase": "trivial line bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/line-bundle"
+      ],
+      "evidence": "Reviewed differential-geometry/connection-laplacian, fiber-bundles/exterior-power-bundle, fiber-bundles/line-bundle in core, Examples, Examples and non-examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/connection-laplacian",
+        "fiber-bundles/exterior-power-bundle",
+        "fiber-bundles/line-bundle"
+      ]
+    },
+    {
+      "phrase": "underlying smooth manifold",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/smooth-manifold"
+      ],
+      "evidence": "Reviewed differential-geometry/almost-hermitian-manifold, differential-geometry/biholomorphism-group, differential-geometry/holomorphic-symplectic-manifold in Examples and conventions, core, Structural consequences; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/almost-hermitian-manifold",
+        "differential-geometry/biholomorphism-group",
+        "differential-geometry/holomorphic-symplectic-manifold"
+      ]
+    },
+    {
+      "phrase": "universal norm",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/fell-bundle, operator-algebras/full-crossed-product, operator-algebras/full-to-reduced-group-cstar-quotient (Cross-sectional algebras, Relation to the reduced completion, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/fell-bundle",
+        "operator-algebras/full-crossed-product",
+        "operator-algebras/full-to-reduced-group-cstar-quotient"
+      ]
+    },
+    {
+      "phrase": "whole space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions, differential-geometry/coisotropic-subspace, topology/separable-space (Remarks, Examples and boundary cases, core). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "convex-analysis/codimension-one-subspaces-yield-direct-sum-decompositions",
+        "differential-geometry/coisotropic-subspace",
+        "topology/separable-space"
+      ]
+    },
+    {
+      "phrase": "levi-civita connection",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/levicivita-connection-connection"
+      ],
+      "need": "Define the unique connection on a Riemannian manifold that is torsion-free and metric-compatible.",
+      "evidence": "Reviewed occurrences in differential-geometry/hkt-metric, differential-geometry/hypercomplex-manifold, differential-geometry/obata-connection, differential-geometry/quaternion-kahler-manifold (Relation to hyperkähler geometry, Relationship to quaternionic geometry, Relation to a compatible metric, Structure and consequences). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "differential-geometry/hkt-metric",
+        "differential-geometry/hypercomplex-manifold",
+        "differential-geometry/obata-connection",
+        "differential-geometry/quaternion-kahler-manifold"
+      ]
+    },
+    {
+      "phrase": "hopf bundle",
+      "disposition": "existing_target",
+      "targets": [
+        "fiber-bundles/dirac-monopole-connection-on-the-hopf-bundle"
+      ],
+      "evidence": "Reviewed fiber-bundles/basic-differential-form-on-a-principal-bundle, fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg, fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection, fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f in Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+        "fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg",
+        "fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection",
+        "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f"
+      ]
+    },
+    {
+      "phrase": "abelian structure group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/construction-holonomy-element-from-parallel-transport-around-a-loop, fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1, fiber-bundles/convention-local-curvature-convention-f-da-aa, fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms (Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/construction-holonomy-element-from-parallel-transport-around-a-loop",
+        "fiber-bundles/convention-ad-p-g-g-uses-conjugation-action-gh-ghg-1",
+        "fiber-bundles/convention-local-curvature-convention-f-da-aa",
+        "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms"
+      ]
+    },
+    {
+      "phrase": "split real form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/complex-lie-algebra-sl3, lie-groups/complex-lie-algebra-so10, lie-groups/complex-lie-algebra-so12, lie-groups/example-sl2c (Groups and real forms, Spin representations and global groups). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "lie-groups/complex-lie-algebra-sl3",
+        "lie-groups/complex-lie-algebra-so10",
+        "lie-groups/complex-lie-algebra-so12",
+        "lie-groups/example-sl2c"
+      ]
+    },
+    {
+      "phrase": "diagonal operator",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in functional-analysis/hilbert-schmidt-operator, functional-analysis/singular-values, noncommutative-geometry/finitely-summable-spectral-triple, operator-algebras/dixmier-trace (Examples and near misses, Examples and boundary cases, Examples and non-examples, Measurable operators). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "functional-analysis/hilbert-schmidt-operator",
+        "functional-analysis/singular-values",
+        "noncommutative-geometry/finitely-summable-spectral-triple",
+        "operator-algebras/dixmier-trace"
+      ]
+    },
+    {
+      "phrase": "oriented manifold",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/orientation-of-a-smooth-manifold"
+      ],
+      "evidence": "Reviewed differential-geometry/mapping-class-group-of-a-smooth-manifold, differential-geometry/orientation-of-a-smooth-manifold, fiber-bundles/characteristic-number, fiber-bundles/euler-class-as-zero-section in Variants, Examples and scope, Standard families, Relation to other definitions; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/mapping-class-group-of-a-smooth-manifold",
+        "differential-geometry/orientation-of-a-smooth-manifold",
+        "fiber-bundles/characteristic-number",
+        "fiber-bundles/euler-class-as-zero-section"
+      ]
+    },
+    {
+      "phrase": "concrete representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/double-centralizer, operator-algebras/spatial-derivative, operator-algebras/strong-star-operator-topology, operator-algebras/unique-predual-theorem (Concrete model and distinction, Why the commutant appears, Conventions and scope, Consequences for normality). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/double-centralizer",
+        "operator-algebras/spatial-derivative",
+        "operator-algebras/strong-star-operator-topology",
+        "operator-algebras/unique-predual-theorem"
+      ]
+    },
+    {
+      "phrase": "left translation action",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/left-translation"
+      ],
+      "evidence": "Reviewed algebra-groups/faithful-action, algebra-groups/free-action, algebra-groups/kernel-of-action, algebra-groups/regular-action in Examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-groups/faithful-action",
+        "algebra-groups/free-action",
+        "algebra-groups/kernel-of-action",
+        "algebra-groups/regular-action"
+      ]
+    },
+    {
+      "phrase": "quaternionic projective space",
+      "disposition": "existing_target",
+      "targets": [
+        "algebraic-geometry-foundations/projective-space"
+      ],
+      "evidence": "Reviewed differential-geometry/almost-quaternionic-manifold, differential-geometry/quaternion-kahler-einstein-property, differential-geometry/quaternion-kahler-manifold, differential-geometry/quaternionic-manifold in Examples and near-misses, Sign and examples, Examples and nearby structures, Examples and non-examples; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/almost-quaternionic-manifold",
+        "differential-geometry/quaternion-kahler-einstein-property",
+        "differential-geometry/quaternion-kahler-manifold",
+        "differential-geometry/quaternionic-manifold"
+      ]
+    },
+    {
+      "phrase": "connected group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands-letter/knowls/borel-mostow-semisimple-normalizer, langlands-letter/knowls/characters-separate-semisimple-classes, lie-groups/covering-lie-group, lie-groups/discrete-subgroup (Based data, Disconnected and twisted scope, Properties, Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "langlands-letter/knowls/borel-mostow-semisimple-normalizer",
+        "langlands-letter/knowls/characters-separate-semisimple-classes",
+        "lie-groups/covering-lie-group",
+        "lie-groups/discrete-subgroup"
+      ]
+    },
+    {
+      "phrase": "identity representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/cstar-representation, operator-algebras/cyclic-cstar-representation, operator-algebras/liminal-cstar-algebra, operator-algebras/vector-functional (Degenerate and essential subspaces, Examples and limits, Relation to type I, Concrete examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/cstar-representation",
+        "operator-algebras/cyclic-cstar-representation",
+        "operator-algebras/liminal-cstar-algebra",
+        "operator-algebras/vector-functional"
+      ]
+    },
+    {
+      "phrase": "parameter space",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebraic-geometry-foundations/tilt-and-untilt, harmonic-analysis/harish-chandra-schwartz-algebra, harmonic-analysis/spherical-transform, lie-groups/knapp-stein-intertwining-operator (Untilts and the Fargues–Fontaine curve, Spherical subalgebra, Inversion and Plancherel measure, Integral and continuation). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebraic-geometry-foundations/tilt-and-untilt",
+        "harmonic-analysis/harish-chandra-schwartz-algebra",
+        "harmonic-analysis/spherical-transform",
+        "lie-groups/knapp-stein-intertwining-operator"
+      ]
+    },
+    {
+      "phrase": "real reductive group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebraic-geometry-foundations/reductive-algebraic-group"
+      ],
+      "evidence": "Reviewed harmonic-analysis/harish-chandra-schwartz-space, langlands-letter/knowls/maximal-compact-hyperspecial, lie-groups/real-reductive-lie-group, lie-groups/relative-lie-algebra-cohomology in Conventions and scope, Archimedean distinction, Conventions and examples, Geometric interpretation; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "harmonic-analysis/harish-chandra-schwartz-space",
+        "langlands-letter/knowls/maximal-compact-hyperspecial",
+        "lie-groups/real-reductive-lie-group",
+        "lie-groups/relative-lie-algebra-cohomology"
+      ]
+    },
+    {
+      "phrase": "smooth form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/compactly-supported-differential-form, differential-geometry/harmonic-differential-form, fiber-bundles/covariant-hodge-laplacian, fiber-bundles/l2-inner-product-on-bundle-valued-forms (Operations preserving compact support, Examples and near-misses, Energy identity and kernel, Completion and formal adjoints). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/compactly-supported-differential-form",
+        "differential-geometry/harmonic-differential-form",
+        "fiber-bundles/covariant-hodge-laplacian",
+        "fiber-bundles/l2-inner-product-on-bundle-valued-forms"
+      ]
+    },
+    {
+      "phrase": "adjoint complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/exceptional-lie-algebra-e7, lie-groups/exceptional-lie-algebra-e8, lie-groups/exceptional-lie-algebra-f4, lie-groups/exceptional-lie-algebra-g2 (Groups and real forms, Root lattice and groups). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "lie-groups/exceptional-lie-algebra-e7",
+        "lie-groups/exceptional-lie-algebra-e8",
+        "lie-groups/exceptional-lie-algebra-f4",
+        "lie-groups/exceptional-lie-algebra-g2"
+      ]
+    },
+    {
+      "phrase": "automorphic quotient",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands/arthur-selberg-trace-formula, langlands/continuous-automorphic-spectrum, langlands/residual-automorphic-spectrum, lie-groups/discrete-series-representation (Kernel heuristic, Trace-formula role, Simple example, Relationship to relative discrete series). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "langlands/arthur-selberg-trace-formula",
+        "langlands/continuous-automorphic-spectrum",
+        "langlands/residual-automorphic-spectrum",
+        "lie-groups/discrete-series-representation"
+      ]
+    },
+    {
+      "phrase": "connected form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands-letter/knowls/root-vs-weight-lattice-isogeny, lie-groups/compact-exceptional-lie-group-e7, lie-groups/root-lattice, lie-groups/weight-lattice (Dual statement, Global and real-form caveat, Lie algebra and group data, Which weights belong to a Lie group?). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "langlands-letter/knowls/root-vs-weight-lattice-isogeny",
+        "lie-groups/compact-exceptional-lie-group-e7",
+        "lie-groups/root-lattice",
+        "lie-groups/weight-lattice"
+      ]
+    },
+    {
+      "phrase": "existence theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-commutative/lasker-noether-theorem"
+      ],
+      "evidence": "Reviewed algebra-commutative/primary-decomposition, fiber-bundles/hermitian-yang-mills-connection, operator-algebras/quasicentral-approximate-identity, supergeometry/batchelor-theorem in Existence in Noetherian rings, Examples and consequences, Examples and a near-miss, Noncanonical is essential; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-commutative/primary-decomposition",
+        "fiber-bundles/hermitian-yang-mills-connection",
+        "operator-algebras/quasicentral-approximate-identity",
+        "supergeometry/batchelor-theorem"
+      ]
+    },
+    {
+      "phrase": "global group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/differential-is-lie-algebra-homomorphism, lie-groups/dynkin-diagram-automorphisms-and-dual-representations, lie-groups/left-invariant-fields-lie-algebra-lemma, lie-groups/lie-algebra-homomorphism (Idea of proof, Group-level caution, Remarks). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "lie-groups/differential-is-lie-algebra-homomorphism",
+        "lie-groups/dynkin-diagram-automorphisms-and-dual-representations",
+        "lie-groups/left-invariant-fields-lie-algebra-lemma",
+        "lie-groups/lie-algebra-homomorphism"
+      ]
+    },
+    {
+      "phrase": "injective map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-category-theory/epimorphism-category, algebra-fields-galois/frobenius-endomorphism, algebra-homological/tensor-right-exact, lie-groups/sl2c-spin-cover-of-lorentz-group (Equivalent characterizations, Remarks, Example 1: Tensor is not left exact over \\(\\mathbb Z\\), Kernel, image, and differential). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-category-theory/epimorphism-category",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-homological/tensor-right-exact",
+        "lie-groups/sl2c-spin-cover-of-lorentz-group"
+      ]
+    },
+    {
+      "phrase": "model algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in lie-groups/complex-lie-algebra-sl3, lie-groups/en-series-of-lie-algebras, lie-groups/exceptional-lie-algebra-e7, lie-groups/standard-sl6-in-e7 (Paper context, Three generations, Intrinsic status). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "lie-groups/complex-lie-algebra-sl3",
+        "lie-groups/en-series-of-lie-algebras",
+        "lie-groups/exceptional-lie-algebra-e7",
+        "lie-groups/standard-sl6-in-e7"
+      ]
+    },
+    {
+      "phrase": "polynomial algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-coalgebras/bialgebra, algebra-commutative/restriction-of-scalars, lie-groups/center-of-universal-enveloping-algebra, lie-groups/universal-enveloping-algebra (Examples, Semisimple structure, Examples and conventions). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-coalgebras/bialgebra",
+        "algebra-commutative/restriction-of-scalars",
+        "lie-groups/center-of-universal-enveloping-algebra",
+        "lie-groups/universal-enveloping-algebra"
+      ]
+    },
+    {
+      "phrase": "reference connection",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/chernsimons-form, fiber-bundles/gauge-fixing-condition, fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations, fiber-bundles/transgression-form (A common special case, Local slices and analytical role, Geometry of the completion, Definition (transgression form)). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/chernsimons-form",
+        "fiber-bundles/gauge-fixing-condition",
+        "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+        "fiber-bundles/transgression-form"
+      ]
+    },
+    {
+      "phrase": "standard complex",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/almost-hermitian-manifold, differential-geometry/celestial-sphere, differential-geometry/twistor-space-quaternionic-manifold, fiber-bundles/quaternionic-vector-bundle (Examples and conventions, Complex projective description, Canonical almost-complex structure, Equivalent complex description). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/almost-hermitian-manifold",
+        "differential-geometry/celestial-sphere",
+        "differential-geometry/twistor-space-quaternionic-manifold",
+        "fiber-bundles/quaternionic-vector-bundle"
+      ]
+    },
+    {
+      "phrase": "top-degree form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/almost-symplectic-manifold, differential-geometry/orientation-of-a-smooth-manifold, differential-geometry/symplectic-manifold, fiber-bundles/atiyah-bott-symplectic-form (Structure and consequences, Equivalent descriptions, Dimension, orientation, and local form, Role in gauge theory). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/almost-symplectic-manifold",
+        "differential-geometry/orientation-of-a-smooth-manifold",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/atiyah-bott-symplectic-form"
+      ]
+    },
+    {
+      "phrase": "abelian quotient",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-groups/commutator-subgroup, lie-groups/commutator-subgroup-of-a-lie-group, lie-groups/stone-von-neumann-theorem (Remarks, Why the hypotheses matter). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-groups/commutator-subgroup",
+        "lie-groups/commutator-subgroup-of-a-lie-group",
+        "lie-groups/stone-von-neumann-theorem"
+      ]
+    },
+    {
+      "phrase": "at infinity form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/commutative-cstar-algebra, operator-algebras/continuous-field-cstar-algebra, operator-algebras/upper-semicontinuous-cstar-bundle (Function-algebra model, Field and bundle presentations, Continuous sections). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/commutative-cstar-algebra",
+        "operator-algebras/continuous-field-cstar-algebra",
+        "operator-algebras/upper-semicontinuous-cstar-bundle"
+      ]
+    },
+    {
+      "phrase": "bounded linear map",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/linear-map"
+      ],
+      "evidence": "Reviewed functional-analysis/unitary-operator, operator-algebras/normal-linear-map, operator-algebras/toeplitz-representation-cstar-correspondence in Equivalent characterizations, Conventions and scope, Conventions and nearby notions; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "functional-analysis/unitary-operator",
+        "operator-algebras/normal-linear-map",
+        "operator-algebras/toeplitz-representation-cstar-correspondence"
+      ]
+    },
+    {
+      "phrase": "closed map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/proper-injective-immersion-is-an-embedding, differential-geometry/proper-smooth-map, topology/compact-to-hausdorff-homeomorphism-criterion (Proof mechanism, Equivalent characterizations, Remarks). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/proper-injective-immersion-is-an-embedding",
+        "differential-geometry/proper-smooth-map",
+        "topology/compact-to-hausdorff-homeomorphism-criterion"
+      ]
+    },
+    {
+      "phrase": "compact ideal",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/tau-compact-operator"
+      ],
+      "evidence": "Reviewed operator-algebras/breuer-fredholm-operator, operator-algebras/faithful-normal-semifinite-trace, operator-algebras/tau-compact-operator in Stability and examples, Finite-trace approximation, Equivalent characterizations; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "operator-algebras/breuer-fredholm-operator",
+        "operator-algebras/faithful-normal-semifinite-trace",
+        "operator-algebras/tau-compact-operator"
+      ]
+    },
+    {
+      "phrase": "constant-rank theorem",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/complex-submanifold, differential-geometry/immersed-submanifold, differential-geometry/rank-of-a-smooth-map (Equivalent formulation, Local form, Constant-rank normal form). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/complex-submanifold",
+        "differential-geometry/immersed-submanifold",
+        "differential-geometry/rank-of-a-smooth-map"
+      ]
+    },
+    {
+      "phrase": "descended form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/characteristic-distribution-coisotropic, differential-geometry/marsden-weinstein-meyer-reduction-theorem, fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection (Role in reduction, Roles of the hypotheses, Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/characteristic-distribution-coisotropic",
+        "differential-geometry/marsden-weinstein-meyer-reduction-theorem",
+        "fiber-bundles/chernweil-theorem-p-is-closed-and-its-de-rham-class-is-independent-of-connection"
+      ]
+    },
+    {
+      "phrase": "diagram automorphism group",
+      "disposition": "existing_target",
+      "targets": [
+        "algebra-groups/automorphism-group"
+      ],
+      "evidence": "Reviewed lie-groups/dynkin-diagram-automorphisms-and-dual-representations, lie-groups/exceptional-lie-algebra-f4, lie-groups/spin8-triality in Other diagram symmetries, Groups and real forms, Dynkin-diagram origin; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "lie-groups/dynkin-diagram-automorphisms-and-dual-representations",
+        "lie-groups/exceptional-lie-algebra-f4",
+        "lie-groups/spin8-triality"
+      ]
+    },
+    {
+      "phrase": "finite-rank bundle",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/section-module-is-finitely-generated-projective, fiber-bundles/serre-swan-theorem, fiber-bundles/vector-bundles-and-locally-free-sheaves (Proof by a complementary bundle, Examples and scope, The two constructions, No compactness requirement). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/section-module-is-finitely-generated-projective",
+        "fiber-bundles/serre-swan-theorem",
+        "fiber-bundles/vector-bundles-and-locally-free-sheaves"
+      ]
+    },
+    {
+      "phrase": "gaussian curvature",
+      "disposition": "existing_target",
+      "targets": [
+        "differential-geometry/gaussian-curvature"
+      ],
+      "proposed_id": "differential-geometry/gaussian-curvature",
+      "need": "Define Gaussian curvature for a Riemannian surface, including its relation to sectional curvature and the adopted sign convention.",
+      "evidence": "Reviewed occurrences in differential-geometry/einstein-manifold, differential-geometry/ricci-curvature, fiber-bundles/chern-gauss-bonnet-theorem (Examples and non-examples, Examples and conventions, Surface case). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/einstein-manifold",
+        "differential-geometry/ricci-curvature",
+        "fiber-bundles/chern-gauss-bonnet-theorem"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "hilbert norm",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in functional-analysis/rigged-hilbert-space, lie-groups/garding-density-theorem, lie-groups/normalized-parabolic-induction (Test vectors and generalized vectors, Conventions and scope, Compact picture and unitarity). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "functional-analysis/rigged-hilbert-space",
+        "lie-groups/garding-density-theorem",
+        "lie-groups/normalized-parabolic-induction"
+      ]
+    },
+    {
+      "phrase": "intermediate lattice",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in langlands-letter/knowls/maximal-torus-weight-lattice, langlands-letter/knowls/root-vs-weight-lattice-isogeny, lie-groups/weight-lattice (Weights, Relation to the letter, Dominant weights and representations). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "langlands-letter/knowls/maximal-torus-weight-lattice",
+        "langlands-letter/knowls/root-vs-weight-lattice-isogeny",
+        "lie-groups/weight-lattice"
+      ]
+    },
+    {
+      "phrase": "isometry group",
+      "disposition": "existing_target",
+      "targets": [
+        "linear-algebra/surjective-linear-isometry"
+      ],
+      "evidence": "Reviewed differential-geometry/hyperbolic-three-space, lie-groups/lorentz-group, mathematical-physics/minkowski-spacetime in Boundary and symmetry, Remarks, Symmetry; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "differential-geometry/hyperbolic-three-space",
+        "lie-groups/lorentz-group",
+        "mathematical-physics/minkowski-spacetime"
+      ]
+    },
+    {
+      "phrase": "lorentz transformation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/celestial-sphere, differential-geometry/time-orientation, lie-groups/hermitian-matrix-model-of-minkowski-space (Geometric meaning, Transformations, The SL(2,C) action). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/celestial-sphere",
+        "differential-geometry/time-orientation",
+        "lie-groups/hermitian-matrix-model-of-minkowski-space"
+      ]
+    },
+    {
+      "phrase": "naimark representation theorem",
+      "disposition": "existing_target",
+      "targets": [
+        "operator-algebras/gelfand-naimark-theorem"
+      ],
+      "evidence": "Reviewed operator-algebras/concrete-cstar-algebra, operator-algebras/cstar-algebra, operator-algebras/gelfand-duality in Relation to abstract \\(C^*\\)-algebras, Abstract and concrete forms, Conventions and scope; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "operator-algebras/concrete-cstar-algebra",
+        "operator-algebras/cstar-algebra",
+        "operator-algebras/gelfand-duality"
+      ]
+    },
+    {
+      "phrase": "norm-closed algebra",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in functional-analysis/borel-functional-calculus, operator-algebras/von-neumann-algebra, operator-algebras/weak-expectation-property (Relation to continuous functional calculus, Examples and scope, Interpretation and distinctions). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "functional-analysis/borel-functional-calculus",
+        "operator-algebras/von-neumann-algebra",
+        "operator-algebras/weak-expectation-property"
+      ]
+    },
+    {
+      "phrase": "operator representation",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/gelfand-naimark-theorem, operator-algebras/involutive-algebra, operator-algebras/normal-representation (Consequences and scope, Morphisms and distinguished elements, Coefficient-functional criterion). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/gelfand-naimark-theorem",
+        "operator-algebras/involutive-algebra",
+        "operator-algebras/normal-representation"
+      ]
+    },
+    {
+      "phrase": "overlap map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/complex-atlas, fiber-bundles/bundle-atlas, fiber-bundles/clutching-function (Examples and non-examples, Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/complex-atlas",
+        "fiber-bundles/bundle-atlas",
+        "fiber-bundles/clutching-function"
+      ]
+    },
+    {
+      "phrase": "quantum field",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/cobordism-category, differential-geometry/symmetric-monoidal-structure-on-the-cobordism-category, operator-algebras/type-iii-factor (Relation to field theory, Role in field theory, Examples and scope). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "differential-geometry/cobordism-category",
+        "differential-geometry/symmetric-monoidal-structure-on-the-cobordism-category",
+        "operator-algebras/type-iii-factor"
+      ]
+    },
+    {
+      "phrase": "reduced cohomology",
+      "disposition": "existing_target",
+      "targets": [
+        "topology/reduced-cohomology"
+      ],
+      "proposed_id": "topology/reduced-cohomology",
+      "need": "Define reduced cohomology as the cohomology theory with the basepoint or augmentation contribution removed, specifying pointed or augmented conventions.",
+      "evidence": "Reviewed occurrences in fiber-bundles/thom-isomorphism-theorem, topology/cup-product-and-cohomology-ring, topology/singular-cohomology-group (Equivalent models, Examples and scope, Coefficients and variants). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/thom-isomorphism-theorem",
+        "topology/cup-product-and-cohomology-ring",
+        "topology/singular-cohomology-group"
+      ],
+      "initial_disposition": "missing_definition",
+      "resolution": "Closed after the dedicated definition review and integration pass. Use these canonical targets only in their stated mathematical setting; original evidence records the discovery stage."
+    },
+    {
+      "phrase": "ring morphism",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/algebra-of-smooth-functions, differential-geometry/c-infinity-ring, differential-geometry/smooth-maps-from-smooth-function-algebras (Pullback and modules, Underlying ordinary algebra, Why a homomorphism determines a map). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "differential-geometry/algebra-of-smooth-functions",
+        "differential-geometry/c-infinity-ring",
+        "differential-geometry/smooth-maps-from-smooth-function-algebras"
+      ]
+    },
+    {
+      "phrase": "several complex",
+      "disposition": "existing_target",
+      "targets": [
+        "complex-analysis/entire-function-several-variables"
+      ],
+      "evidence": "Reviewed complex-analysis/meromorphic-function, complex-analysis/strictly-quaternionically-pseudoconvex-domain, lie-groups/restricted-root-system in Warning, Examples and comparison, Example and comparison; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "complex-analysis/meromorphic-function",
+        "complex-analysis/strictly-quaternionically-pseudoconvex-domain",
+        "lie-groups/restricted-root-system"
+      ]
+    },
+    {
+      "phrase": "standard hermitian form",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/hermitian-metric, fiber-bundles/unitary-frame-bundle-reduction, lie-groups/compact-symplectic-group (Examples, Complex matrix realization). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/unitary-frame-bundle-reduction",
+        "lie-groups/compact-symplectic-group"
+      ]
+    },
+    {
+      "phrase": "symmetric space",
+      "disposition": "existing_target",
+      "targets": [
+        "lie-groups/riemannian-symmetric-space-noncompact-type"
+      ],
+      "evidence": "Reviewed lie-groups/furstenberg-boundary, lie-groups/relative-lie-algebra-cohomology, lie-groups/spherical-principal-series in Role in representation theory, Geometric interpretation, Spherical vector and functions; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "lie-groups/furstenberg-boundary",
+        "lie-groups/relative-lie-algebra-cohomology",
+        "lie-groups/spherical-principal-series"
+      ]
+    },
+    {
+      "phrase": "torsion-free connection",
+      "disposition": "local_or_compositional",
+      "targets": [],
+      "evidence": "Reviewed occurrences in differential-geometry/almost-quaternionic-manifold, differential-geometry/obata-connection, differential-geometry/quaternionic-manifold (Nearby stronger structures, Characterization and holonomy, Integrability and intrinsic torsion). This names an independently reusable object/result; no canonical knowl with the needed scope was found. Recurring uses warrant a definition with proposed slug, after checking notation and field-dependent conventions.",
+      "reviewed_source_contexts": [
+        "differential-geometry/almost-quaternionic-manifold",
+        "differential-geometry/obata-connection",
+        "differential-geometry/quaternionic-manifold"
+      ]
+    },
+    {
+      "phrase": "transpose map",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in operator-algebras/completely-bounded-map, operator-algebras/positive-linear-map, operator-algebras/star-isomorphism (Bounded versus completely bounded, Standard example and counterexample, Examples and non-examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "operator-algebras/completely-bounded-map",
+        "operator-algebras/positive-linear-map",
+        "operator-algebras/star-isomorphism"
+      ]
+    },
+    {
+      "phrase": "unit group",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in algebra-hyperstructures/idyll, algebra-hyperstructures/tract-as-an-ordered-blueprint, algebra-rings/group-of-units (Associated tract, Adjunction and its restriction, Remarks). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "algebra-hyperstructures/idyll",
+        "algebra-hyperstructures/tract-as-an-ordered-blueprint",
+        "algebra-rings/group-of-units"
+      ]
+    },
+    {
+      "phrase": "usual covariant derivative",
+      "disposition": "false_positive",
+      "targets": [],
+      "evidence": "Reviewed occurrences in fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles, fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections, fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms (Examples). The words are ordinary prose, a modifier, an example-specific label, or a fragment of a longer expression; an independent link would mislead.",
+      "reviewed_source_contexts": [
+        "fiber-bundles/associated-connection-theorem-a-principal-connection-induces-connections-on-all-associated-bundles",
+        "fiber-bundles/construction-induced-covariant-derivative-on-associated-vector-bundle-sections",
+        "fiber-bundles/covariant-exterior-derivative-on-ad-valued-forms"
+      ]
+    },
+    {
+      "phrase": "zero derivative",
+      "disposition": "existing_target",
+      "targets": [
+        "real-analysis/zero-derivative-constant-corollary"
+      ],
+      "evidence": "Reviewed algebra-fields-galois/finite-extension-perfect-separable, algebra-fields-galois/separable-distinct-roots, algebra-fields-galois/separable-normal-galois in Examples, Remarks; standard concept represented by canonical target. Link only where context needs the definition; specialized conventions still require qualification.",
+      "reviewed_source_contexts": [
+        "algebra-fields-galois/finite-extension-perfect-separable",
+        "algebra-fields-galois/separable-distinct-roots",
+        "algebra-fields-galois/separable-normal-galois"
+      ]
+    }
+  ]
+}

@@ -23,7 +23,7 @@ eH\subseteq\operatorname{dom}(T)
 \]
 Thus the domain may omit a subspace, but the omitted projection can be made
 arbitrarily small according to the chosen trace. The definition depends on
-\(\tau\), not only on the underlying von Neumann algebra.
+\(\tau\), not only on the underlying [[operator-algebras/von-neumann-algebra|von Neumann algebra]].
 
 ## Distribution-function characterization
 
@@ -54,8 +54,8 @@ numbers turn [[measure-theory/convergence-in-measure|convergence in measure]] in
 ## Examples and distinctions
 
 For \(M=L^\infty(X,\mu)\) with the integration trace,
-\(S(M,\tau)\) identifies with the almost-everywhere finite measurable
-functions, acting by multiplication. For \(B(H)\) with the usual operator
+\(S(M,\tau)\) identifies with the almost-everywhere finite [[measure-theory/measurable-function|measurable
+functions]], acting by multiplication. For \(B(H)\) with the usual operator
 trace, every nonzero projection has trace at least one; taking
 \(\varepsilon<1\) forces \(e=1\), so the \(\tau\)-measurable operators are
 precisely the bounded operators.

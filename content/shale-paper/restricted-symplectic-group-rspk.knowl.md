@@ -11,20 +11,20 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **restricted symplectic group** is
+The **restricted [[lie-groups/symplectic-group|symplectic group]]** is
 \[
 \mathrm{rSp}(K)=\mathrm{Sp}(K)\cap \mathrm{rGL}(K),
 \]
 where \(\mathrm{rGL}(K)\) is the [[shale-paper/restricted-general-linear-group-rgl|restricted general linear group]].
 
-In Shale's Theorem 4.1 (Fock–Cook quantization), \(T\) is unitarily implementable iff \(T\in rSp(K)\),
+In Shale's Theorem 4.1 ([[shale-paper/fock-cook-quantization|Fock–Cook quantization]]), \(T\) is unitarily implementable iff \(T\in rSp(K)\),
 equivalently \((T^*T)^{1/2}-I\) is [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]].
 
 ## Remarks
 
 **Key properties:**
 - Closed under [[shale-paper/polar-decomposition|polar decomposition]].
-- Carries a continuous projective unitary representation \(\overline{Y}\).
+- Carries a continuous [[lie-groups/projective-unitary-representation|projective unitary representation]] \(\overline{Y}\).
 
 ## Examples
 

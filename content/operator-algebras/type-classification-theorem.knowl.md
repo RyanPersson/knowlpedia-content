@@ -1,8 +1,8 @@
 +++
 id = "operator-algebras/type-classification-theorem"
-title = "Type decomposition of von Neumann algebras"
+title = "Type decomposition of [[operator-algebras/von-neumann-algebra|von Neumann algebras]]"
 kind = "theorem"
-summary = "Every von Neumann algebra decomposes uniquely into central summands of types I, II, and III."
+summary = "Every [[operator-algebras/von-neumann-algebra|von Neumann algebra]] decomposes uniquely into central summands of types I, II, and III."
 aliases = ["Murray–von Neumann type classification", "I-II-III decomposition"]
 domains = ["operator-algebras"]
 section_mode = "progressive"

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Term-by-term integration (power series):** Let \(\sum_{n=0}^\infty a_n(x-x_0)^n\) be a [[real-analysis/power-series|power series]] with radius of convergence \(R>0\), and define
+**Term-by-term integration ([[real-analysis/power-series|power series]]):** Let \(\sum_{n=0}^\infty a_n(x-x_0)^n\) be a [[real-analysis/power-series|power series]] with radius of convergence \(R>0\), and define
 \[
 f(x)=\sum_{n=0}^\infty a_n(x-x_0)^n \qquad (|x-x_0|<R).
 \]

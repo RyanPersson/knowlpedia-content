@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "harmonic-analysis/analytic-beurling-malliavin-proposition",
+      "outcome": "corrected",
+      "source_sha256": "eec44e2089220f95cf0477dbd0eec459ae1dafa1cca4c8698dfcb2909bfb31f0",
+      "evidence": "Read the full proposition and its construction and checked complex-analysis/plurisubharmonic-function. Linked the defining plurisubharmonic hypothesis in the core; retained the existing entire-function link. The Hörmander and mean-value links in the construction sections are appropriate. Rejected generic matches such as function, ball, and constants."
+    },
+    {
+      "id": "harmonic-analysis/plurisubharmonic-beurling-malliavin-proposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f27f109eaf76ffe73297abe31b24802fb5778952909114cedc2d22e38c1bb713",
+      "evidence": "Read the full proposition and checked the radial-line-growth, higher-dimensional BM, plurisubharmonic-function, exact PSH-BM, and entire-function targets. Core and supporting links cover the actual hypotheses and role; remaining phrase matches are generic or locally explained."
+    },
+    {
+      "id": "mathematical-physics/hypercharge",
+      "outcome": "corrected",
+      "source_sha256": "833de16313461ee7c742a73f4588a474922660b9c8409c2e04762aae27a3156b",
+      "evidence": "Read the complete definition, normalization, SU(5), and quotient sections; checked the Standard Model gauge group and lie-groups/example-u1-circle targets. Linked the U(1) factor to the circle-group definition. The weak-isospin generator and charge notation are context-dependent physics notation with no suitable canonical target; generic matches were rejected."
+    },
+    {
+      "id": "shale-paper/duality-transform-D",
+      "outcome": "corrected",
+      "source_sha256": "bfaddb8ab9591ae67e0e70536e61a9499389c862dacc935c21511ab1036b985d",
+      "evidence": "Read the full knowl and checked shale-paper/symmetric-fock-space and shale-paper/gaussian-measure-hilbert-space. Linked both named pictures in the minimal core. The operator notation and Hermite example do not require additional links."
+    },
+    {
+      "id": "harmonic-analysis/test-function-space-local-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e87711fc22f06f49dab60f8d80cf43958ef9a0dac7bd42d15dd93327645b2cbe",
+      "evidence": "Read all sections and checked local-field, Lie-group, locally-profinite-group, distribution, Hecke-algebra, Haar-measure, orbital-integral, restricted-tensor-product, and Euclidean test-function targets. Existing links cover meaningful dependencies. Generic matches (group, functions, topology, derivatives, category, subgroup) were rejected in context."
+    },
+    {
+      "id": "harmonic-analysis/multiplicity-function-direct-integral-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5054da01dfff991b6cf7b53d4f2384f77aa8eb092866a1dac121c56c3002a843",
+      "evidence": "Read the complete knowl and checked the locally-compact-group, Hilbert-space, direct-integral, unitary-dual, measurable-function, almost-everywhere, direct-integral-Hilbert-space, equivalence-class, null-set, and irreducible-representation targets. Existing links express the true dependencies; generic field, function, measure, set, subset, and decomposition matches were rejected."
+    },
+    {
+      "id": "harmonic-analysis/schwartz-bruhat-space-adeles",
+      "outcome": "corrected",
+      "source_sha256": "30031f61b2784d06f6986c3a2327681c7ae78ad55ec387f835bce6453ca0b702",
+      "evidence": "Read every section and checked number-field, Schwartz-space, vector-space, restricted-tensor-product, local Schwartz-Bruhat, Haar-measure, global-function-field, and test-function targets. Linked number field and Schwartz space in the core. Ring, places, functions, character, automorphism, topology, and tensor-product matches were assessed as generic or already sufficiently represented by the surrounding definitions."
+    },
+    {
+      "id": "harmonic-analysis/locally-compact-homogeneous-space",
+      "outcome": "corrected",
+      "source_sha256": "b97b6d37e626bbbd9cb4b6f6389d4446377a608037c5479a4cd1d4c341bc55e5",
+      "evidence": "Read the full quotient, stabilizer, measure, and Lie-group sections; checked locally-compact-group, quotient-topology, continuous-group-action, Hausdorff-space, subgroup, coset, orbit-map, quasi-invariant-measure, Weil-formula, Lie-subgroup, homogeneous-space, and smooth-structure targets. Linked subgroup and cosets in the core because they are ingredients of G/H. Generic set, measure, functions, groups, neighborhoods, homeomorphism, and repeated locally-compact matches were rejected or already covered by explicit prerequisite links."
+    }
+  ],
+  "gaps": [],
+  "calibration": "This shard confirms that the audit's single-word candidates are mostly generic prose matches. Accept links when a phrase names a defining ingredient or a named mathematical object whose target is read and convention-compatible; reject ordinary words, notation, and concepts already supplied by the source's own definition. Core links should expose prerequisites needed to parse the displayed definition, while supporting links can remain selective. No independently reusable missing definition was found in these eight sources."
+}

@@ -23,7 +23,7 @@ Its distinguished irreducible modules include the vector module \(\mathbf{10}\),
 
 The half-spin modules are representations of the [[lie-groups/spin-group|spin group]] \(\operatorname{Spin}(10,\mathbb C)\), the [[lie-groups/simply-connected-lie-group|simply connected]] complex group with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{so}_{10}(\mathbb C)\). They do not descend to the ordinary matrix group \(SO(10,\mathbb C)\). Thus the notation “\(SO(10)\) grand unified theory” commonly refers globally to \(\operatorname{Spin}(10)\) when a \(\mathbf{16}\) of fermions is present.
 
-The [[lie-groups/compact-real-form|compact real form]] integrates to compact \(\operatorname{Spin}(10)\); the split real form is \(\mathfrak{so}(5,5)\). Other real forms, such as \(\mathfrak{so}(p,10-p)\), have the same complexification but different real-group representation theory.
+The [[lie-groups/compact-real-form|compact real form]] integrates to compact \(\operatorname{Spin}(10)\); the split real form is \(\mathfrak{so}(5,5)\). Other real forms, such as \(\mathfrak{so}(p,10-p)\), have the same [[linear-algebra/complexification|complexification]] but different real-group representation theory.
 
 ## Role in the E-series chain
 

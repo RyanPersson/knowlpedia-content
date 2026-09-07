@@ -23,4 +23,4 @@ Identical distribution compares only marginal behavior and does not impose [[pro
 ## Examples
 
 - If \(X\) is the indicator of “heads” on the first fair coin toss and \(Y\) is the indicator of “heads” on the second toss, then \(X\) and \(Y\) are identically distributed (both are Bernoulli\((1/2)\)).
-- If \(U\) is uniform on \([0,1]\) and \(Y=1-U\) on the same probability space, then \(U\) and \(Y\) are identically distributed even though they are completely dependent.
+- If \(U\) is uniform on \([0,1]\) and \(Y=1-U\) on the same [[probability/probability-space|probability space]], then \(U\) and \(Y\) are identically distributed even though they are completely dependent.

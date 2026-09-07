@@ -13,9 +13,9 @@ dependency_review_count = 1
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **smooth complex vector bundle of rank \(r\)** over \(M\) is a smooth surjective map \(\pi:E\to M\) with the following properties:
 
-1. For each \(x\in M\), the fiber \(E_x:=\pi^{-1}(x)\) is a finite-dimensional complex vector space.
+1. For each \(x\in M\), the fiber \(E_x:=\pi^{-1}(x)\) is a finite-dimensional complex [[linear-algebra/vector-space|vector space]].
 
-2. There is an open cover \(\{U_\alpha\}\) of \(M\) and smooth maps (local trivializations)
+2. There is an open cover \(\{U_\alpha\}\) of \(M\) and smooth maps ([[fiber-bundles/local-trivialization|local trivializations]])
    \[
    \Phi_\alpha:\pi^{-1}(U_\alpha)\to U_\alpha\times \mathbb C^r
    \]
@@ -23,7 +23,7 @@ Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **smooth com
    - \(\mathrm{pr}_1\circ \Phi_\alpha=\pi\) on \(\pi^{-1}(U_\alpha)\), and
    - for each \(x\in U_\alpha\), the induced map \((\Phi_\alpha)_x:E_x\to \{x\}\times\mathbb C^r\cong \mathbb C^r\) is complex linear.
 
-The integer \(r\) is the complex rank. More generally, allowing different ranks on different connected components gives a locally constant rank function (see [[fiber-bundles/rank-of-a-vector-bundle|rank of a vector bundle]]).
+The integer \(r\) is the complex rank. More generally, allowing different ranks on different [[topology/connected-component|connected components]] gives a locally constant rank function (see [[fiber-bundles/rank-of-a-vector-bundle|rank of a vector bundle]]).
 
 ## Equivalent characterizations
 

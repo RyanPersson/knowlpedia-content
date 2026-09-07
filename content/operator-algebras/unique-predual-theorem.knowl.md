@@ -43,8 +43,8 @@ intrinsic notions rather than artifacts of a concrete representation on a
 
 ## Context and caution
 
-Many dual Banach spaces have inequivalent preduals, so uniqueness is a
-special rigidity property of von Neumann algebras. The theorem concerns
+Many dual [[linear-algebra/banach-space|Banach spaces]] have inequivalent preduals, so uniqueness is a
+special rigidity property of [[operator-algebras/von-neumann-algebra|von Neumann algebras]]. The theorem concerns
 isometric dual realizations. It should not be weakened to a claim that every
 Banach space merely isomorphic to \(M\) as a Banach space carries the same
 predual or weak-star topology.

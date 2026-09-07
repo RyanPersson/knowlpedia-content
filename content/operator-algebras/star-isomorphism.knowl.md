@@ -60,8 +60,8 @@ Unitary conjugation,
 is a \(*\)-isomorphism between operator \(C^*\)-algebras carried into one
 another by a unitary \(U\). The transpose map on \(M_n(\mathbb C)\) is a
 linear isometry preserving the involution, but it reverses multiplication,
-so for \(n>1\) it is not a \(*\)-isomorphism. A bijective algebra
-homomorphism that does not preserve involution is likewise not a
+so for \(n>1\) it is not a \(*\)-isomorphism. A bijective [[algebra-modules/algebra-homomorphism|algebra
+homomorphism]] that does not preserve involution is likewise not a
 \(C^*\)-isomorphism under this definition.
 
 ## References

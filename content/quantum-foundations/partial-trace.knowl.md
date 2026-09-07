@@ -2,7 +2,7 @@
 id = "quantum-foundations/partial-trace"
 title = "Partial trace"
 kind = "knowl"
-summary = "Linear map that traces out one tensor factor to produce a reduced operator."
+summary = "[[linear-algebra/linear-map|Linear map]] that traces out one tensor factor to produce a reduced operator."
 aliases = ["partial-trace", "Partial trace"]
 domains = ["quantum-foundations"]
 legacy_source_path = "quantum-foundations/partial-trace.md"
@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H_A\) and \(H_B\) be finite-dimensional complex Hilbert spaces, and let \(X\) be an operator on the tensor product \(H_A\otimes H_B\). The **partial trace over \(B\)** is the unique linear map
+Let \(H_A\) and \(H_B\) be [[quantum-foundations/complex-hilbert-space-finite|finite-dimensional complex Hilbert spaces]], and let \(X\) be an operator on the [[algebra-modules/tensor-product|tensor product]] \(H_A\otimes H_B\). The **partial trace over \(B\)** is the unique linear map
 \[
 \operatorname{Tr}_B:\ \mathcal{L}(H_A\otimes H_B)\to \mathcal{L}(H_A)
 \]
@@ -25,7 +25,7 @@ where \(\operatorname{Tr}\) is the usual trace (see [[quantum-foundations/trace-
 ## Equivalent characterizations
 
 ### Basis formula
-If \(\{\,|j\rangle\,\}\) is any orthonormal basis of \(H_B\), then
+If \(\{\,|j\rangle\,\}\) is any [[linear-algebra/orthonormal-basis|orthonormal basis]] of \(H_B\), then
 \[
 \operatorname{Tr}_B(X)=\sum_j (I_A\otimes \langle j|)\,X\,(I_A\otimes |j\rangle).
 \]

@@ -24,7 +24,7 @@ The identities \(d=\partial+\bar\partial\), \(\partial^2=\bar\partial^2=0\), and
 
 ## Degeneration and the Kähler case
 
-The sequence **degenerates at \(E_r\)** when all differentials from page \(r\) onward vanish, so \(E_r=E_\infty\). If \(X\) is a compact [[differential-geometry/kahler-manifold|Kähler manifold]], Hodge theory gives degeneration already at \(E_1\) and identifies de Rham cohomology with the direct sum of its \((p,q)\)-pieces. General compact complex manifolds need not have \(E_1\)-degeneration.
+The sequence **degenerates at \(E_r\)** when all differentials from page \(r\) onward vanish, so \(E_r=E_\infty\). If \(X\) is a compact [[differential-geometry/kahler-manifold|Kähler manifold]], Hodge theory gives degeneration already at \(E_1\) and identifies de Rham cohomology with the direct sum of its \((p,q)\)-pieces. General compact [[differential-geometry/complex-manifold|complex manifolds]] need not have \(E_1\)-degeneration.
 
 ## Conventions and scope
 

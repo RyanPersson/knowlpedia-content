@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Absolute value preserves integrability:** Let \(f:[a,b]\to\mathbb R\) be [[real-analysis/riemann-integrable-function|Riemann integrable]] on the [[real-analysis/interval|interval]] \([a,b]\). Then the [[real-analysis/absolute-value|absolute value]] function \(|f|\) is Riemann integrable on \([a,b]\), and the triangle inequality holds:
+**Absolute value preserves integrability:** Let \(f:[a,b]\to\mathbb R\) be [[real-analysis/riemann-integrable-function|Riemann integrable]] on the [[real-analysis/interval|interval]] \([a,b]\). Then the [[real-analysis/absolute-value|absolute value]] function \(|f|\) is Riemann integrable on \([a,b]\), and the [[real-analysis/triangle-inequality|triangle inequality]] holds:
 \[
 \left|\int_a^b f\right|\le \int_a^b |f|.
 \]

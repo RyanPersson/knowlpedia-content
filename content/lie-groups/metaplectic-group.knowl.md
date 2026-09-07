@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **metaplectic group** \(\operatorname{Mp}(2n,\mathbb R)\) is the connected two-sheeted covering group of the [[lie-groups/symplectic-group|real symplectic group]] \(\operatorname{Sp}(2n,\mathbb R)\). It fits into the central extension
+The **metaplectic group** \(\operatorname{Mp}(2n,\mathbb R)\) is the connected two-sheeted covering group of the [[lie-groups/symplectic-group|real symplectic group]] \(\operatorname{Sp}(2n,\mathbb R)\). It fits into the [[algebra-groups/central-extension|central extension]]
 \[
 1\longrightarrow \{\pm1\}
 \longrightarrow \operatorname{Mp}(2n,\mathbb R)

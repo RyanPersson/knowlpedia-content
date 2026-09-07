@@ -15,7 +15,7 @@ dependency_review_count = 1
 \[
 L_n=\frac{1}{n}\sum_{i=1}^n \delta_{X_i},
 \]
-viewed as a random element of \(\mathcal{P}(E)\) (Borel probability measures on \(E\)) equipped with the topology of weak convergence. Then \((L_n)\) satisfies a [[large-deviations/large-deviation-principle|large deviation principle]] on \(\mathcal{P}(E)\) with speed \(n\) and [[large-deviations/good-rate-function|good rate function]]
+viewed as a random element of \(\mathcal{P}(E)\) (Borel [[probability/probability-measure|probability measures]] on \(E\)) equipped with the topology of weak convergence. Then \((L_n)\) satisfies a [[large-deviations/large-deviation-principle|large deviation principle]] on \(\mathcal{P}(E)\) with speed \(n\) and [[large-deviations/good-rate-function|good rate function]]
 \[
 I(\nu)=H(\nu\|\mu)=
 \begin{cases}

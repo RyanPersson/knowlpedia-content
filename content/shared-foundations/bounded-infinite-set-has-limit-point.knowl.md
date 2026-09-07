@@ -18,4 +18,4 @@ dependency_review_count = 1
 This is the set-theoretic form of [[topology/bolzano-weierstrass-theorem|Bolzano–Weierstrass]] and is a key [[topology/compact-set|compactness]] phenomenon: boundedness plus infinitude forces clustering.
 
 **Connection to parent theorem**:
-Choose a sequence of distinct points in \(E\). By Bolzano–Weierstrass, it has a [[topology/convergent-sequence|convergent]] [[real-analysis/subsequence|subsequence]]. The subsequential limit is a limit point of \(E\).
+Choose a sequence of distinct points in \(E\). By Bolzano–Weierstrass, it has a [[topology/convergent-sequence|convergent]] [[real-analysis/subsequence|subsequence]]. The subsequential limit is a [[topology/limit-point|limit point]] of \(E\).

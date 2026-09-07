@@ -26,7 +26,7 @@ determinant]] on [[nonassociative-algebra/octonionic-spin-factor|
 ## Continuous potentials
 
 For continuous octonionic PSH functions, the smooth expression extends
-uniquely to a nonnegative Borel measure such that locally
+uniquely to a nonnegative [[measure-theory/borel-measure|Borel measure]] such that locally
 [[real-analysis/uniform-convergence|uniform convergence]]
 of potentials implies weak convergence of measures. This is the octonionic
 analogue of the Aleksandrov and Chern–Levine–Nirenberg continuity theorems.

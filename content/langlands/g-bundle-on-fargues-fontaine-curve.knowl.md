@@ -37,7 +37,7 @@ For \(b\in G(\breve E)\), every representation
 \((V\otimes_E\breve E,\rho(b)\sigma)\), hence a
 [[algebraic-geometry-foundations/locally-free-sheaf|vector bundle]] on the
 curve.
-The compatible family of these vector bundles defines a \(G\)-bundle
+The compatible family of these [[fiber-bundles/vector-bundle|vector bundles]] defines a \(G\)-bundle
 \(\mathcal E_b\). Its isomorphism class depends only on
 \([b]\in B(G)\).
 

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A\) be a unital \(C^*\)-algebra, \(H\) a [[linear-algebra/hilbert-space|Hilbert space]], and \(\Phi:A\to B(H)\) a [[operator-algebras/completely-positive-map|completely positive map]]. The **Stinespring dilation theorem** provides a Hilbert space \(K\), a unital [[operator-algebras/cstar-representation|\(*\)-representation]] \(\pi:A\to B(K)\), and a bounded operator \(V:H\to K\) such that
+Let \(A\) be a unital \(C^*\)-algebra, \(H\) a [[linear-algebra/hilbert-space|Hilbert space]], and \(\Phi:A\to B(H)\) a [[operator-algebras/completely-positive-map|completely positive map]]. The **Stinespring dilation theorem** provides a Hilbert space \(K\), a unital [[operator-algebras/cstar-representation|\(*\)-representation]] \(\pi:A\to B(K)\), and a [[functional-analysis/bounded-linear-operator|bounded operator]] \(V:H\to K\) such that
 \[
 \Phi(a)=V^*\pi(a)V\qquad(a\in A).
 \]
@@ -19,7 +19,7 @@ One may require minimality, \(K=\overline{\pi(A)VH}\); then the triple \((K,\pi,
 
 ## Construction
 
-On the algebraic tensor product \(A\odot H\), define
+On the [[algebra-modules/tensor-product|algebraic tensor product]] \(A\odot H\), define
 \[
 \left\langle\sum_i a_i\otimes\xi_i,\sum_j b_j\otimes\eta_j\right\rangle
 =\sum_{i,j}\langle\xi_i,\Phi(a_i^*b_j)\eta_j\rangle.
@@ -41,9 +41,9 @@ case in which the compression is unnecessary.
 
 ## Conventions and scope
 
-For a nonunital \(A\), an analogous theorem uses a nondegenerate
-representation after passing through an [[operator-algebras/approximate-identity|approximate identity]] or a suitable
-unitization. For completely positive maps \(A\to B\) with abstract
+For a nonunital \(A\), an analogous theorem uses a [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate
+representation]] after passing through an [[operator-algebras/approximate-identity|approximate identity]] or a suitable
+unitization. For [[operator-algebras/completely-positive-map|completely positive maps]] \(A\to B\) with abstract
 \(C^*\)-algebra codomain, representing \(B\) faithfully on a Hilbert space
 produces the operator-valued form above; Hilbert-module versions require a
 separate module formulation.

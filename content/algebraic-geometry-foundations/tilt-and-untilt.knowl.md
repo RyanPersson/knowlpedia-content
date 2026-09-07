@@ -26,8 +26,8 @@ system.  The map
 \(x\mapsto x^\sharp\) sends a compatible sequence to its multiplicative limit
 in \(K\); it is multiplicative but generally not additive.
 
-An **untilt** of a perfectoid field \(L\) of characteristic \(p\) is a
-perfectoid field \(K\), often of characteristic \(0\), equipped with an
+An **untilt** of a [[algebraic-geometry-foundations/perfectoid-field|perfectoid field]] \(L\) of characteristic \(p\) is a
+[[algebraic-geometry-foundations/perfectoid-field|perfectoid field]] \(K\), often of characteristic \(0\), equipped with an
 identification \(K^\flat\simeq L\).
 
 ## Nonuniqueness

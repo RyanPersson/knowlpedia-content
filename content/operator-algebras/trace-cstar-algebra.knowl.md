@@ -2,7 +2,7 @@
 id = "operator-algebras/trace-cstar-algebra"
 title = "Trace on a C*-algebra"
 kind = "definition"
-summary = "A bounded positive linear functional on a C*-algebra that is invariant under cyclic permutation of two factors."
+summary = "A bounded [[operator-algebras/positive-linear-functional|positive linear functional]] on a C*-algebra that is invariant under cyclic permutation of two factors."
 aliases = ["C*-trace", "positive trace", "tracial functional"]
 domains = ["operator-algebras"]
 section_mode = "progressive"
@@ -19,7 +19,7 @@ Let \(A\) be a [[operator-algebras/cstar-algebra|\(C^*\)-algebra]]. A
 \tau(ab)=\tau(ba)\qquad(a,b\in A).
 \]
 Equivalently, \(\tau(x^*x)=\tau(xx^*)\) for every \(x\in A\). Boundedness and
-norm continuity are included here because \(\tau\) is a positive functional
+norm continuity are included here because \(\tau\) is a [[operator-algebras/positive-linear-functional|positive functional]]
 on all of \(A\). A [[operator-algebras/tracial-state|tracial state]] is a trace
 of norm one. Some sources also call an extended-valued [[operator-algebras/tracial-weight|tracial weight]] on
 \(A_+\) a trace; such an object must have its domain,
@@ -45,8 +45,8 @@ on \(A_+\).
 The normalized matrix trace \(a\mapsto n^{-1}\operatorname{Tr}(a)\) is the
 unique tracial state on \(M_n(\mathbb C)\). For a commutative \(C^*\)-algebra,
 every positive linear functional is automatically tracial. In contrast,
-\(B(H)\) for infinite-dimensional \(H\) has no tracial state: its canonical
-operator trace is unbounded and takes \(+\infty\) at the identity. Thus the
+\(B(H)\) for infinite-dimensional \(H\) has no tracial state: its [[operator-algebras/operator-trace|canonical
+operator trace]] is unbounded and takes \(+\infty\) at the identity. Thus the
 existence of a tracial state is a genuine restriction on a \(C^*\)-algebra.
 
 ## Extended traces and scope

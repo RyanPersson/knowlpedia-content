@@ -15,7 +15,7 @@ For [[fiber-bundles/smooth-manifold|smooth manifolds]] \(M\) and \(N\), the **Wh
 
 ## Neighborhoods and convergence
 
-Using charts and a locally finite family of compact sets, a basic neighborhood constrains finitely many derivatives on every member of that family, with bounds that may depend on the member. When \(M\) is compact, the strong and weak \(C^\infty\) topologies agree. For noncompact \(M\), convergence uniformly on each compact set generally does not imply strong Whitney convergence.
+Using charts and a [[topology/locally-finite-family|locally finite family]] of compact sets, a basic neighborhood constrains finitely many derivatives on every member of that family, with bounds that may depend on the member. When \(M\) is compact, the strong and weak \(C^\infty\) topologies agree. For noncompact \(M\), convergence uniformly on each compact set generally does not imply strong Whitney convergence.
 
 ## Role in differential topology
 

@@ -17,7 +17,7 @@ The **direct sum Lie algebra** \(\mathfrak g\oplus \mathfrak h\) is the direct s
 \[
 [(X_1,Y_1),(X_2,Y_2)] := \bigl([X_1,X_2]_{\mathfrak g},\; [Y_1,Y_2]_{\mathfrak h}\bigr).
 \]
-With this bracket, the inclusions \(\mathfrak g\hookrightarrow \mathfrak g\oplus\mathfrak h\) and \(\mathfrak h\hookrightarrow \mathfrak g\oplus\mathfrak h\) are Lie algebra homomorphisms, and \(\mathfrak g\) and \(\mathfrak h\) commute inside the sum.
+With this bracket, the inclusions \(\mathfrak g\hookrightarrow \mathfrak g\oplus\mathfrak h\) and \(\mathfrak h\hookrightarrow \mathfrak g\oplus\mathfrak h\) are [[lie-groups/lie-algebra-homomorphism|Lie algebra homomorphisms]], and \(\mathfrak g\) and \(\mathfrak h\) commute inside the sum.
 
 ## Universal property
 Giving a Lie algebra homomorphism \(\mathfrak g\oplus\mathfrak h\to\mathfrak k\) is equivalent to giving homomorphisms \(\mathfrak g\to\mathfrak k\) and \(\mathfrak h\to\mathfrak k\) whose images commute.
@@ -29,4 +29,4 @@ If \(G\) and \(H\) are Lie groups, then the Lie algebra of the [[lie-groups/prod
 \]
 as recorded in [[lie-groups/lie-algebra-of-product|Lie algebra of a product]].
 
-**Context.** Many decomposition results (e.g. [[lie-groups/semisimple-direct-sum-simple|semisimple as a direct sum of simples]]) are literally statements that a Lie algebra splits as a direct sum of ideals.
+**Context.** Many decomposition results (e.g. [[lie-groups/semisimple-direct-sum-simple|semisimple as a direct sum of simples]]) are literally statements that a Lie algebra splits as a direct [[algebra-rings/sum-of-ideals|sum of ideals]].

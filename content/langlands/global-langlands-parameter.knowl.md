@@ -33,7 +33,7 @@ localization should produce a
 
 ## Number-field status
 
-For a number field, the required group \(\mathcal L_F\) has not been
+For a [[algebra-fields-galois/number-field|number field]], the required group \(\mathcal L_F\) has not been
 constructed in the generality demanded by the program. The display is
 therefore a conjectural organizing language, not an available definition of
 a concrete [[topology/topological-group|topological group]].
@@ -45,7 +45,7 @@ related but are not interchangeable without hypotheses.
 
 ## Function-field status
 
-For a global function field, the
+For a [[algebra-fields-galois/global-function-field|global function field]], the
 [[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
 is concrete.
 Vincent Lafforgue's [[langlands/excursion-operator|excursion operators]] attach semisimple

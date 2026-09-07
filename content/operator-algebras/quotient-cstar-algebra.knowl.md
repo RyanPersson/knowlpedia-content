@@ -48,7 +48,7 @@ When \(A\) is unital and \(I\) is proper, \(A/I\) is unital with identity
 \(A=C(X)\) and a closed subset \(F\subseteq X\), the ideal of functions
 vanishing on \(F\) has quotient canonically isomorphic to \(C(F)\). For bounded
 operators on a [[linear-algebra/hilbert-space|Hilbert space]], the quotient by the [[linear-algebra/compact-operator|compact operators]] is the
-Calkin algebra.
+[[operator-algebras/calkin-algebra|Calkin algebra]].
 
 ## Conventions and boundary cases
 

@@ -10,7 +10,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A subset \(S\subseteq\mathbb R^n\) is **semialgebraic** if it can be obtained from finitely many sets of the form
+A [[shared-foundations/subset|subset]] \(S\subseteq\mathbb R^n\) is **semialgebraic** if it can be obtained from finitely many sets of the form
 \[
 \{x:p(x)=0\}\quad\text{and}\quad\{x:q(x)>0\},
 \]

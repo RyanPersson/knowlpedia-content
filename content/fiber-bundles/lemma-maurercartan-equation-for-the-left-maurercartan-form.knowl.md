@@ -11,12 +11,12 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). The **left Maurer–Cartan form** is the \(\mathfrak g\)-valued \(1\)-form \(\theta_L\in\Omega^1(G;\mathfrak g)\) defined by
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). The **[[lie-groups/left-maurer-cartan-form|left Maurer–Cartan form]]** is the \(\mathfrak g\)-valued \(1\)-form \(\theta_L\in\Omega^1(G;\mathfrak g)\) defined by
 \[
 (\theta_L)_g := (dL_{g^{-1}})_g : T_gG \to T_eG\cong \mathfrak g.
 \]
 
-**Lemma (Maurer–Cartan equation).** The form \(\theta_L\) satisfies
+**Lemma ([[lie-groups/maurer-cartan-equation|Maurer–Cartan equation]]).** The form \(\theta_L\) satisfies
 \[
 d\theta_L + \tfrac12[\theta_L\wedge\theta_L]=0,
 \]

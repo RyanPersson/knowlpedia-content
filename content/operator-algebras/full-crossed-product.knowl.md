@@ -20,7 +20,7 @@ where the supremum ranges over all [[operator-algebras/covariant-representation-
 
 ## Universal property
 
-There are canonical nondegenerate maps \(i_A:A\to M(A\rtimes_\alpha G)\) and \(i_G:G\to\mathcal U(M(A\rtimes_\alpha G))\) forming a covariant pair, and the linear span of
+There are canonical nondegenerate maps \(i_A:A\to M(A\rtimes_\alpha G)\) and \(i_G:G\to\mathcal U(M(A\rtimes_\alpha G))\) forming a [[operator-algebras/covariant-representation-cstar-dynamical-system|covariant pair]], and the linear span of
 \[
 i_A(a)\int_G f(s)i_G(s)\,ds
 \]

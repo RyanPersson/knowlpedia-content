@@ -29,7 +29,7 @@ where \(h(\alpha\wedge *\beta)\) means pair the coefficient factors and wedge th
 
 This formulation explains why orientation enters the displayed integral. An equivalent definition using the Riemannian density does not require an orientation.
 
-## Completion and formal adjoints
+## Completion and [[differential-geometry/formal-adjoint-differential-operator|formal adjoints]]
 
 Completing compactly supported smooth \(E\)-valued forms in this norm gives the [[linear-algebra/hilbert-space|Hilbert space]] \(L^2\Omega^k(M;E)\). On a compact manifold every smooth form has finite \(L^2\)-norm; on a noncompact manifold finite norm is an additional condition.
 

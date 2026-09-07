@@ -51,7 +51,7 @@ For \(\mathfrak{gl}_n(\mathbb R)\), the map
 \(\mathfrak{so}(n)\), and its \(-1\)-eigenspace consists of symmetric
 matrices. A Cartan involution is not a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] and should not be
 confused with complex conjugation defining an arbitrary real form; it singles
-out a compact real form after complexification.
+out a compact real form after [[linear-algebra/complexification|complexification]].
 
 ## References
 

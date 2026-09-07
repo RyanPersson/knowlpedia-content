@@ -28,7 +28,7 @@ used in the [[nonassociative-algebra/octonions-as-complex-vectors|complex-vector
 
 ## Why the action preserves multiplication
 
-In the \(\mathbb C\oplus\mathbb C^3\) model, \(SU(3)\) preserves the Hermitian inner product and the complex volume form. It therefore preserves the [[nonassociative-algebra/conjugated-cross-product-on-c3|conjugated cross product]], and hence every term in the octonion multiplication. The action
+In the \(\mathbb C\oplus\mathbb C^3\) model, \(SU(3)\) preserves the Hermitian inner product and the complex [[differential-geometry/volume-form|volume form]]. It therefore preserves the [[nonassociative-algebra/conjugated-cross-product-on-c3|conjugated cross product]], and hence every term in the octonion multiplication. The action
 \[
  g(a,u)=(a,gu)
 \]

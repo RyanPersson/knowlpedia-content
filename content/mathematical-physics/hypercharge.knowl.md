@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Weak hypercharge** \(Y\) is the weight labeling a one-dimensional representation of the \(U(1)_Y\) factor of the [[mathematical-physics/standard-model-gauge-group|Standard Model internal symmetry group]]. In the convention used here,
+**Weak hypercharge** \(Y\) is the weight labeling a one-dimensional representation of the [[lie-groups/example-u1-circle|\(U(1)_Y\)]] factor of the [[mathematical-physics/standard-model-gauge-group|Standard Model internal symmetry group]]. In the convention used here,
 \[
 Q=T_3+\frac{Y}{2},
 \]

@@ -31,8 +31,8 @@ topologies, not operator-norm closure.
 ## Why the closures agree
 
 Commutants are weak-operator closed, so both operator-topology closures of
-\(A\) lie in \(A''\). For the converse, fix \(\xi\in H\). The orthogonal
-projection onto \(\overline{A\xi}\) belongs to \(A'\). This makes it possible
+\(A\) lie in \(A''\). For the converse, fix \(\xi\in H\). The [[linear-algebra/orthogonal-projection|orthogonal
+projection]] onto \(\overline{A\xi}\) belongs to \(A'\). This makes it possible
 to approximate \(T\xi\) by vectors \(a\xi\), with \(a\in A\), for every
 \(T\in A''\). Applying the same argument to finite direct sums of \(H\)
 simultaneously approximates \(T\) on any finite set of vectors, which is

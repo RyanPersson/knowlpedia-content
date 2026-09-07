@@ -23,5 +23,5 @@ For each \(X,Y\), the operator \(R^\nabla(X,Y):\Gamma(E)\to\Gamma(E)\) is \(C^\i
 
 ## Examples
 1. **Trivial connection is flat.** For the trivial connection on \(M\times\mathbb R^r\), mixed derivatives commute and \(R^\nabla=0\).
-2. **Levi-Civita curvature.** For the Levi-Civita connection on \(TM\), \(R^\nabla\) is the [[differential-geometry/riemann-curvature-tensor|Riemann curvature tensor]] (in \((1,3)\) form), encoding sectional curvature and holonomy phenomena.
+2. **Levi-Civita curvature.** For the Levi-Civita connection on \(TM\), \(R^\nabla\) is the [[differential-geometry/riemann-curvature-tensor|Riemann curvature tensor]] (in \((1,3)\) form), encoding [[differential-geometry/sectional-curvature|sectional curvature]] and holonomy phenomena.
 3. **Constant matrix connection on a trivial bundle.** On \(U\subset\mathbb R^n\), take \(\nabla = d + \sum_k A_k\,dx^k\) with constant matrices \(A_k\). Then \(R^\nabla\) corresponds to the commutators \([A_k,A_\ell]\); it vanishes exactly when the matrices \(A_k\) pairwise commute.

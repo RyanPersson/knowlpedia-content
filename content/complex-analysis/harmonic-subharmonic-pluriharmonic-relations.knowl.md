@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-On a domain \(U\subseteq\mathbb C^d\), let \(H\), \(SH\), \(PSH\), and
+On a [[shared-foundations/domain|domain]] \(U\subseteq\mathbb C^d\), let \(H\), \(SH\), \(PSH\), and
 \(PH\) denote the [[complex-analysis/harmonic-function|harmonic]],
 [[complex-analysis/subharmonic-function|subharmonic]],
 [[complex-analysis/plurisubharmonic-function|plurisubharmonic]], and
@@ -38,7 +38,7 @@ Neither \(H\subseteq PSH\) nor \(PSH\subseteq H\) holds in general.
 ## Why the intersection is pluriharmonic
 
 For a smooth function, \(PSH\) means that the Levi matrix is positive
-semidefinite, while harmonicity says that its trace is zero because
+semidefinite, while harmonicity says that its [[linear-algebra/trace|trace]] is zero because
 \[
 \Delta u=4\sum_{j=1}^d
 \frac{\partial^2u}{\partial z_j\partial\bar z_j}.
@@ -48,7 +48,7 @@ with zero trace is zero. Hence a harmonic PSH function has vanishing
 [[complex-analysis/levi-form|Levi form]] and is pluriharmonic. The same
 conclusion holds without smoothness by distributional regularity.
 
-For the inclusions, restrict a harmonic or plurisubharmonic function to each complex line. The restriction of a harmonic function is subharmonic, giving \(H\subseteq SH\), while the definition of PSH requires subharmonicity on every such line, giving \(PSH\subseteq SH\). Vanishing Levi form is locally equivalent to \(u=\operatorname{Re}h\) for holomorphic \(h\), which is pluriharmonic; mollification gives the distributional version. In one complex dimension the Levi trace is the planar Laplacian, so the classes collapse as stated.
+For the inclusions, restrict a harmonic or plurisubharmonic function to each complex line. The restriction of a harmonic function is subharmonic, giving \(H\subseteq SH\), while the definition of PSH requires subharmonicity on every such line, giving \(PSH\subseteq SH\). Vanishing Levi form is locally equivalent to \(u=\operatorname{Re}h\) for [[differential-geometry/holomorphic-map|holomorphic]] \(h\), which is pluriharmonic; mollification gives the distributional version. In one complex dimension the Levi trace is the planar Laplacian, so the classes collapse as stated.
 
 ## Separating examples
 

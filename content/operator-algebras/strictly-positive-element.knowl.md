@@ -2,7 +2,7 @@
 id = "operator-algebras/strictly-positive-element"
 title = "Strictly positive element of a C*-algebra"
 kind = "definition"
-summary = "A strictly positive element is a positive element whose generated hereditary subalgebra is the whole C*-algebra."
+summary = "A strictly positive element is a positive element whose generated [[operator-algebras/hereditary-cstar-subalgebra|hereditary subalgebra]] is the whole C*-algebra."
 aliases = ["strictly positive C*-element"]
 domains = ["operator-algebras"]
 section_mode = "progressive"

@@ -46,7 +46,7 @@ comparison theorem]].
 
 ## Holomorphic logarithms
 
-If \(F:U\to\mathbb C\) is holomorphic and not identically zero, then
+If \(F:U\to\mathbb C\) is [[differential-geometry/holomorphic-map|holomorphic]] and not identically zero, then
 \(\log|F|\) is plurisubharmonic. This makes plurisubharmonic functions the
 natural potential-theoretic models for magnitudes of
 [[complex-analysis/entire-function-several-variables|entire functions of

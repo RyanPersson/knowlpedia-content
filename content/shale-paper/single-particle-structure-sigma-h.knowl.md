@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 Given a complex [[linear-algebra/hilbert-space|Hilbert space]] \(H\), its **single particle structure** is
-\(\Sigma(H)=(K,B)\), where \(K\) is \(H\) viewed as a *real* Hilbert space with inner product \(\Re(\cdot,\cdot)_c\),
+\(\Sigma(H)=(K,B)\), where \(K\) is \(H\) viewed as a *real* [[linear-algebra/hilbert-space|Hilbert space]] with [[linear-algebra/inner-product|inner product]] \(\Re(\cdot,\cdot)_c\),
 and \(B(z_1,z_2)=\Im(z_1,z_2)_c\).
 
 ## Remarks
@@ -23,4 +23,4 @@ and \(B(z_1,z_2)=\Im(z_1,z_2)_c\).
 
 ## Examples
 
-- \(H=L^2(\mathbb R^d)\) gives a real phase space \(K\) with \(B=\Im(\cdot,\cdot)\).
+- \(H=L^2(\mathbb R^d)\) gives a real [[differential-geometry/classical-phase-space|phase space]] \(K\) with \(B=\Im(\cdot,\cdot)\).

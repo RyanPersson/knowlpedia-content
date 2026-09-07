@@ -54,7 +54,7 @@ decomposition and is a model for the
 ## Terminological distinction
 
 This \( \mathfrak k\oplus\mathfrak p\) decomposition should not be confused
-with a root-space decomposition relative to a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. A maximal
+with a [[lie-groups/root-space|root-space]] decomposition relative to a [[lie-groups/cartan-subalgebra|Cartan subalgebra]]. A maximal
 abelian subspace \(\mathfrak a\subseteq\mathfrak p\) instead gives the
 [[lie-groups/restricted-root-system|restricted root system]], which records
 how the noncompact directions decompose under \(\operatorname{ad}\mathfrak a\).

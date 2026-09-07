@@ -17,15 +17,15 @@ Write \(TP\) for the [[fiber-bundles/tangent-bundle|tangent bundle]] of \(P\). T
 \[
 \mathrm{At}(P)\;:=\;TP/G \;\longrightarrow\; M
 \]
-is the **Atiyah algebroid** of \(P\). The differential \(d\pi:TP\to TM\) is \(G\)-equivariant, hence descends to a vector-bundle map (the **anchor**)
+is the **Atiyah algebroid** of \(P\). The differential \(d\pi:TP\to TM\) is \(G\)-equivariant, hence descends to a vector-[[fiber-bundles/bundle-map|bundle map]] (the **anchor**)
 \[
 a:\mathrm{At}(P)\longrightarrow TM.
 \]
-The vertical subbundle \(\ker(d\pi)\subset TP\) identifies (via fundamental vector fields) with \(P\times\mathfrak g\), and after dividing by \(G\) one obtains the **adjoint bundle**
+The [[fiber-bundles/vertical-subbundle|vertical subbundle]] \(\ker(d\pi)\subset TP\) identifies (via [[differential-geometry/infinitesimal-generator-lie-action|fundamental vector fields]]) with \(P\times\mathfrak g\), and after dividing by \(G\) one obtains the **adjoint bundle**
 \[
 \operatorname{ad}(P):=P\times_{\mathrm{Ad}}\mathfrak g,
 \]
-together with an injective bundle map \(\operatorname{ad}(P)\hookrightarrow \mathrm{At}(P)\). This yields the **Atiyah short exact sequence**
+together with an injective bundle map \(\operatorname{ad}(P)\hookrightarrow \mathrm{At}(P)\). This yields the **Atiyah [[algebra-modules/short-exact-sequence|short exact sequence]]**
 \[
 0\longrightarrow \operatorname{ad}(P)\longrightarrow \mathrm{At}(P)\xrightarrow{\,a\,} TM\longrightarrow 0.
 \]

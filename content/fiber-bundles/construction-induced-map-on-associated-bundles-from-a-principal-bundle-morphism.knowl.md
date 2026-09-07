@@ -21,11 +21,11 @@ Let \(F\) and \(F'\) be left \(G\)-spaces, and let \(\psi:F\to F'\) be \(G\)-equ
 \[
 \Phi\times_G \psi : P\times_G F \to P'\times_G F',\qquad [p,u]\mapsto [\Phi(p),\psi(u)].
 \]
-This is well-defined (independent of the representative \((p,u)\)) and is a smooth bundle map covering \(f\):
+This is well-defined (independent of the representative \((p,u)\)) and is a smooth [[fiber-bundles/bundle-map|bundle map]] covering \(f\):
 \[
 \pi_{F'}\circ (\Phi\times_G\psi) = f\circ \pi_F.
 \]
-When \(F=F'\) and \(\psi=\mathrm{id}\), one gets the induced map on a fixed associated bundle functorially from \(\Phi\).
+When \(F=F'\) and \(\psi=\mathrm{id}\), one gets the induced map on a fixed [[fiber-bundles/associated-bundle|associated bundle]] functorially from \(\Phi\).
 
 ## Examples
 1. (Pullback trivialization maps) If \(P'=P\) and \(f=\mathrm{id}_M\), then a gauge transformation \(\Phi\) induces a bundle automorphism of any [[fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f|associated bundle]] \(P\times_G F\) by \([p,u]\mapsto [\Phi(p),u]\).

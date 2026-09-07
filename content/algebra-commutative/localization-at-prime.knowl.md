@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(\mathfrak p\subset R\) be a prime ideal. The complement
+Let \(R\) be a [[algebra-rings/commutative-ring|commutative ring]] and let \(\mathfrak p\subset R\) be a [[algebra-rings/prime-ideal|prime ideal]]. The complement
 \[
 S=R\setminus \mathfrak p
 \]

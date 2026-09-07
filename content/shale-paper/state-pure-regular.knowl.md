@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 A **state** on a \(C^*\)-algebra \(\mathfrak A\) is a linear functional \(E\) with \(E(I)=1\) and \(E(A^*A)\ge0\).
 
-**Pure** means not a nontrivial convex combination of other states.
+**Pure** means not a nontrivial [[convex-analysis/convex-combination|convex combination]] of other states.
 
 In Shale's CCR setting, **regular** means \(z\mapsto E(A^*e^{iR(z)}B)\) is continuous on each finite-dimensional subspace.
 

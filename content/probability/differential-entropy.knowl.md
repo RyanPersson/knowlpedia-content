@@ -21,11 +21,11 @@ The value may be \(+\infty\) or \(-\infty\). It is undefined if the positive and
 
 ## Dependence on coordinates
 
-Differential entropy is entropy relative to a chosen reference measure, here Lebesgue measure. It is therefore not invariant under changes of coordinates. If \(A\in\mathrm{GL}_d(\mathbb R)\), \(b\in\mathbb R^d\), and the entropies are defined, then
+Differential entropy is entropy relative to a chosen [[measure-theory/measure|reference measure]], here Lebesgue measure. It is therefore not invariant under changes of coordinates. If \(A\in\mathrm{GL}_d(\mathbb R)\), \(b\in\mathbb R^d\), and the entropies are defined, then
 \[
 h(AX+b)=h(X)+\log|\det A|.
 \]
-More generally, for a sufficiently regular diffeomorphism \(g\),
+More generally, for a sufficiently regular [[fiber-bundles/diffeomorphism|diffeomorphism]] \(g\),
 \[
 h(g(X))
 =
@@ -37,11 +37,11 @@ Unlike [[probability/shannon-entropy|Shannon entropy]], differential entropy can
 
 ## Examples
 
-- If \(X\sim\mathcal N(\mu,\Sigma)\) on \(\mathbb R^d\) with positive-definite covariance \(\Sigma\), then
+- If \(X\sim\mathcal N(\mu,\Sigma)\) on \(\mathbb R^d\) with positive-definite [[probability/covariance|covariance]] \(\Sigma\), then
   \[
   h(X)=\frac12\log\!\bigl((2\pi e)^d\det\Sigma\bigr).
   \]
-- If \(X\) is uniform on a measurable set \(A\subset\mathbb R^d\) with \(0<\lambda(A)<\infty\), then \(h(X)=\log\lambda(A)\).
+- If \(X\) is uniform on a [[measure-theory/measurable-set|measurable set]] \(A\subset\mathbb R^d\) with \(0<\lambda(A)<\infty\), then \(h(X)=\log\lambda(A)\).
 
 ## References
 

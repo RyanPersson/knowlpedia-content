@@ -1,0 +1,1745 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "shared-foundations/divisibility",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "82af2a07b370411b4af56dd35b3d2b446923391bf2f33068dbbc8e4afe2a2923",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7812a25a5ce95e389cf54d9427397179a97dc51c831b5cc2bc2a5fca200f7254",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/empty-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "627770123b89de5c0f7bada724a6a1cad7e501a1c67af3292d43f5c7a5742d16",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/equivalence-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8e601d7fd7b339e5ef527f1d1626075083d12cc429184e93c7e2ed8f47386456",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/equivalence-relation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb4e17f00383b56170300297700358585a7b61e515981c078d8413f9b0629517",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/factorial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0998838912197510718c8145262f1e39f7e2bf6ea0cfaecaaee2405b55a1a2b0",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/finite-permutation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15b105b684806423fe8351784d69de3f9e01971d6b38dfeb273cefdf9e73ffc8",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ba92dc0c64dea8235d88d0cfa3e0eb8684289f4653b150e7e8d489afa52c600",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/graph-of-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39cec84639ae3f97ba06bf382cea564637ab7fa6475fc9d12be28ff58ba9a68b",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/identity-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "927cedca06bb0fb60f726e09af556b42d1d4b843602f8c0b35eab718ddc78f60",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/image",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a287e72853bd2d257e5b0fbe2faa716d9768fee93485c1b6e8149d9d8f3e4a8",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/indexed-family-of-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9d4e5546f01816fb4cca45fddf1b8f209ef9af3b7291a279c05fb912b384d0a",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/injective-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5fb4a0e58b8b00255fc6bfa13b1c85028084b7e9c3d6d1183b50d053fd63778",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/integers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "841328531f0e6bb2d016a99790f7bcf8714cd1d6b0ad4adda8226b9eced1ee8b",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/intersection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9e970f44835391a9de9049554939d0999a80876249c6b3efaf5f82e9abfb78a",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/inverse-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5fc33ba57c1e9f09b35f84b074ab40cef10ced16e177d05c62e29b5167a8fde6",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/lattice",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c1005dbc1680ecab814061aad2d6af7a175af41af47957d037d847287399bda6",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/lower-bound",
+      "outcome": "corrected",
+      "source_sha256": "5c111b0a109cc81858f88e76a280b57a6e1da2c37b53c3b68b5b15cde4afce11",
+      "evidence": "Linked the first prose occurrence of bounded below to real-analysis/bounded-below; the lower-bound definition and partial-order dependency remain minimal."
+    },
+    {
+      "id": "shared-foundations/mathematical-induction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f27563a4326aa2b86841ded6bfbb6eb7475fe3d48dc333a3c078c1ac3afdb962",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/natural-numbers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cb55106c5c9996963b1fa4a05af50a2a92094210b1fe30635f4926ce11a8b2a",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/ordered-pair",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72ca87f13bd63801d508a9eafd83921ccd0fd1e2d50ee1e52f627e229dfd7496",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/p-adic-integers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "05f0951e925e0b3d90ad4f5c64d5665892dbde5a9fb809b815ae845b36fffa13",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/p-adic-valuation",
+      "outcome": "corrected",
+      "source_sha256": "ec003733cf7b2bdea9d3dd077da8752f2a6418ffe72060e6fef9a35bce888e63",
+      "evidence": "Linked absolute value to real-analysis/absolute-value in the explanatory sentence; p-adic valuation/divisibility targets remain the actual definition dependencies."
+    },
+    {
+      "id": "shared-foundations/partial-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f592c6511a5dd9af9e0007fcb44466780eed695e701805ed221583fb23cd91ba",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/partition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb2447e51679f3fc60cc008c9b51f285f5842c770d972c0feb01665536795456",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/permutation-sign",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d572a82bf4a62a23dad71412374c173f762d7d33e8d2c78aee46d6f236c112f",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/pointed-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57f6363c5a4c95949a83b3ca9830c181055cfcac5b77847bda8bd7722c31850c",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/power-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1fc7e0677688e02afe647791092ad0eb5efc1eeb88a2c445ac6f820d54111b6",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/preimage",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec57dcde9aace8bd2376a788a685f13857c9e192dadc9fcc8ebabacd7091a2aa",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/proper-subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b388a4485f689b9cae8ce7d8b3fdfd81f1c3a1cc97735f61d3aa8479faac9c4e",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/quotient-set",
+      "outcome": "corrected",
+      "source_sha256": "480c054d20a73bde0601fa3c015cd160e7796e624ddd4c3b6dbb9def8fc43200",
+      "evidence": "Linked equivalence classes and the defining equivalence relation in the core; checked that the class target matches the displayed quotient construction."
+    },
+    {
+      "id": "shared-foundations/rational-numbers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fea660e3ef9c0a8c9848ac6d2566b84684c1567bb120784490d11e869958e866",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/real-numbers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8c55a447ace355fa79b56a659e240a6b17a62b2a53b6b31e2b9c81e7ead788d",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/relation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25a42a9e7f79aeb211d22697c8947935a95b51f1cd5a13badfa9f84a13874524",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/restriction-of-a-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b62d5c83a09a4d223e7bce0bf9d36abce4eff35c64e38d6b6b9bddc8d222e76",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c7ab1393189e57918cc78f9a7bf02e8b2148386404a78c8586ec4576fa895a5",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8b78db13e97c6a4e84290d284009439e7f946e13a36e6de420b2c47b44ccb7e7",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/set-difference",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d37482a1d1c5ecc6ca2503960ba05d73eeb26e37017c2247c3a2c65cb067bc09",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/subset",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "146556af4ce44bb04cb6e5ee7e5fa41bc2f81d97923371be7f5329b32a172636",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/support-of-a-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b624f6b0555202d599431f4ee3932f793a0f7c1d6c8bdb2c88a8a8b0e642f72f",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/surjective-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "155685148529c5012d2dfbd5ad737ee6f11f64f82180ba6a886626f9eba4e979",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/symmetric-difference",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "45f076e1aec59a7c8c53c89f6a5a9ad630179e20e1994084b3d06f5954d9a3ee",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/total-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4864133d252820871745202f6bd0666f8863f4c8521fd3e27182c578113a940",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/total-order-linear-order",
+      "outcome": "corrected",
+      "source_sha256": "049f5f737f58d798627acddae8c51b09ea8f273f5caa5b4c67f24113b2a829b2",
+      "evidence": "Linked partial order in the core; the repeated total-order matches are the subject itself or a duplicate canonical knowl and were left unsaturated."
+    },
+    {
+      "id": "shared-foundations/union",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5eac8bb34471eb4ead4fa2719c1c375295222d9e27415a7f5d856e4bc38f580",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/upper-bound",
+      "outcome": "corrected",
+      "source_sha256": "b399515aaa62becbb35f2550523bfb9e15a135a8c3203fe96b87ca15fc09ceb8",
+      "evidence": "Linked bounded above to real-analysis/bounded-above; verified the partial-order convention and retained the separate supremum reference."
+    },
+    {
+      "id": "shared-foundations/well-ordered-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "31d62f46f563188342932a20feda755a27304de673c83316ad8140ff998553d7",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/well-ordering-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4fce9a7069a3dc17c7a54f32f7a93d199e452eace31e7a124813d46c24d1e648",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/well-ordering-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d94706e2bfa7d1295436f540004405be0a39f9226c9ca718e0db7e757987d763",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/zfc-axioms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b126077a15d038840215710a4b69b8b38d3dbc2bf4234704f22d8c959fb3d46",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "shared-foundations/zorns-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec3bff637dea80468437875387f1691ee82535f24463a0079683a85f9473bf79",
+      "evidence": "Read the complete definition, remarks, examples, and metadata. Candidate hits are generic local set/function/relation/number language or are already linked in the independently expandable defining section; no additional canonical target improves this source, and prerequisite metadata already states its genuine definitions."
+    },
+    {
+      "id": "stat-mech-quantum/gibbs-state-quantum",
+      "outcome": "corrected",
+      "source_sha256": "69aa78d8a7a1beba80d57762834d1c6341cb367556a95d445bb68cbc7097be04",
+      "evidence": "Linked the first useful Hilbert space phrase to linear-algebra/hilbert-space in the finite-dimensional setting; checked the complete source, existing Hamiltonian/observable/density links, and left generic operator and algebra matches alone."
+    },
+    {
+      "id": "stat-mech-quantum/kms-condition-finite",
+      "outcome": "corrected",
+      "source_sha256": "f272cb4735f58c7bf17c1c64df63c1be33865b182e035c95794fdd9b0485dc29",
+      "evidence": "Linked the first useful Hilbert space phrase to linear-algebra/hilbert-space in the finite-dimensional setting; checked the complete source, existing Hamiltonian/observable/density links, and left generic operator and algebra matches alone."
+    },
+    {
+      "id": "stat-mech-quantum/observable-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "087f0424061362aa965a7c277e67362b8eec597f494836f6ea1ed7d6fe0bb888",
+      "evidence": "Read the complete source and checked its Hilbert-space, observable-algebra, density-operator, Hamiltonian, Gibbs/KMS, and partition-function conventions against the target definitions. Generic mathematical prose and already-linked domain terms were left unchanged."
+    },
+    {
+      "id": "stat-mech-quantum/quantum-expectation-value",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1cadd7af8cc6fec134bd30f6647baff0f44468ec383c6dd0aa29ce39d036f47",
+      "evidence": "Read the complete source and checked its Hilbert-space, observable-algebra, density-operator, Hamiltonian, Gibbs/KMS, and partition-function conventions against the target definitions. Generic mathematical prose and already-linked domain terms were left unchanged."
+    },
+    {
+      "id": "stat-mech-quantum/quantum-hamiltonian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2300e55824485d912bcae34df9bf986358343ab46f2fe4f2d9c17c72bdf7d894",
+      "evidence": "Read the complete source and checked its Hilbert-space, observable-algebra, density-operator, Hamiltonian, Gibbs/KMS, and partition-function conventions against the target definitions. Generic mathematical prose and already-linked domain terms were left unchanged."
+    },
+    {
+      "id": "stat-mech-quantum/quantum-partition-function",
+      "outcome": "corrected",
+      "source_sha256": "c4d56142d00a0031a59c88109baacf5e5e35bb5d5aa963f17be8f1f0d41a6f5a",
+      "evidence": "Linked the first useful Hilbert space phrase to linear-algebra/hilbert-space in the finite-dimensional setting; checked the complete source, existing Hamiltonian/observable/density links, and left generic operator and algebra matches alone."
+    },
+    {
+      "id": "stat-mech-quantum/quantum-system-stat-mech",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "004b1dc2886b71485d175595cfa17d6fd47ed7587d4d8fe38684898f81d7aabb",
+      "evidence": "Read the complete source and checked its Hilbert-space, observable-algebra, density-operator, Hamiltonian, Gibbs/KMS, and partition-function conventions against the target definitions. Generic mathematical prose and already-linked domain terms were left unchanged."
+    },
+    {
+      "id": "supergeometry/batchelor-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6fcd121eb4bcabef229ac345f3297f24c7c04a200602e761daedf089742f6fd3",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/category-of-super-vector-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e65086eb345ef9941fd80c1a5743fff6d550d98f8b27350162e93cbc516f6aa",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/functor-of-points-of-supermanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "73ed0774af7178eb1eac5bb246de20d2299b5286238567f9a5d01f2c5378d757",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/koszul-sign-rule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2cd305effea5dafa2bcdca0378a775321b0bc04d1b9800b1047a4e5e8b006f4",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/lie-superalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16faa7c963526aa7df3ea76d1c92707e4a8fd246439f12d9c9ec2607e77623bd",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/lie-superalgebra-of-lie-supergroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37f91725ded5d419f0c587f7f928fb602a4785e16005385bda1ac749239f295a",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/lie-supergroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e85d2e9132e487225610f924136e81f09fcffb39b28cfc217072a6c889f9c02",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/lie-supergroups-and-super-harish-chandra-pairs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "66e0e7289259edb0f0c9f644d296e91f463978987f25b9d275bd32009e01fc17",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/parity-shift",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "819712e2b676378aa24d788055cffdff454e8e1660c51b3bd0838febab4fa3d8",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/representation-of-a-lie-superalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1d4792792bea4de019860e92e4d5e5da758899ae92a8a34a66cf5a39b8ce4d8",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/split-supermanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74e8b05135a83a21e5437cb494f361f3763e449d2a53a7faba008e8e00ec5ce1",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/super-harish-chandra-pair",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57f0cf286a6e0c180c158c96b3a4d3874ee71f82b75c0783803d0345adad8f27",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/super-internal-hom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c024d66d50a4bebf8b61b12ce72fb6f06407d384118fcdc705e0a4845103f0a2",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/super-minkowski-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b761f3cc0374cf9796a17b9cffe7abd77642ed11dc649c2e89d9e284a814f8d8",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/super-pbw-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f8419831b21d5d3c2d7c0998a4c6e0c8487bb2594e6d675b9afe8929fc31ddf",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/super-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b784eb053939c898fe49c24a828e17e21328736922caa301d8823e639a22e4fe",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/superalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "024355866e1eaa9dbb6bf44b6364bee63abd8d15433d5161eefed67dcaffc3f2",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/supercommutative-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7426fc1eb71a2e8ec720db19d71473e0e8e162fdeecb5fec7c1f0813d3d4e748",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/supercommutator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d7ab0f58331c37b83ee081cee055dbb0cc056f970d2dd2c3cadedee953c0eb8",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/superdomain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9856ee7b76df0f022bd1f1af60b6c6632bef7f07cd81a2a8c69597a12055152",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/supermanifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8bf3fdceb29da41dfbe5247cd6c48b92cb506b6b4ee933df8934eebed271556",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/supermodule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "caac746c405500ac06edf86c24094b5201ace2e66d0be73afb56bfd63592cece",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/superspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38613e36dc299183ce4054469f3188e2c41263363d8e07ab5dce779783b8d578",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/supertranslation-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1b74e426eb548620c84f1c337f48541948ac1698899e93c403e122f486d08af",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/symmetric-algebra-of-a-super-vector-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d857858b68028fbde02a2b31c2bbce881511acc81bee550c0606b19a853e1cd",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "supergeometry/universal-enveloping-algebra-of-lie-superalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d47468a40c97d3d49bbbe8af0aa36989d9a745618f081e8335902d767dd1a930",
+      "evidence": "Read the complete source including progressive sections and references. Checked candidate super/vector/linear-map, manifold, sheaf, Lie, and algebra targets against their definitions; existing links cover genuine dependencies, while locally introduced notation and generic category language were left unlinked."
+    },
+    {
+      "id": "topology/baire-category-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92775f8b531710b715bc9f33418fdae80ed3b5857273574a59b7af7735937730",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/baire-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca83baea172e58c66a56124773b2217e35239776acc7d50b8ac2b7278d8af6b8",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/basis-of-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4b3946d081012e8456cd47a2154f992e1676b4c0f49592f0c927439545aeee94",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/bolzano-weierstrass-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "963678b0aeae8e0ee10b0ee5e9731a10d2aa19e10b6fd5c83567519dfc04924f",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/boundary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d492e326b893fdcb31de03c0d1dad2fe62661648c1d45f76dad23ee0abe37b4",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/bounded-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abf35754a023bac0b53ae6a927f34fd1ef97cf2edbb6fb29ad42ce45b87d0f65",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/cantor-intersection-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c224e6d1cd27678775c9111c4532cd28da19b5e939955ea8e8179e158d7007d0",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/category-argument-template",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a06e8c8a8f59425f559ae020a4dd3a698986c8e6b81b4da6332e3a0d153c7ae5",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/cauchy-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2f225377b7944367bbb606ae6630bb079ad466c05f294913f562b1ad706c169",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/cauchy-sequence-is-bounded",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f33a7407c9399a5910ed14acc28cd3e9b8e7094bbafdf9cb9c367093f18c0027",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/closed-ball",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f20552edc91d94d8908b32b936130f559f287253366d3a4b3b423854729cfba",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/closed-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76b58d54dbcb92e93bc64b635bf0a50368fcd501e42e35bb238be826c026e1c4",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/closed-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "facb8ce1e435456caf8c7f55a762da936b50dd8049be0bf6588f16fc6fac0cad",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/closed-sets-are-complements-of-open-sets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60380b52807f249dbc6f86f19a3354b14629239a3e5d635ab3a9ac63fbce04d2",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/closed-subset-of-compact-set-is-compact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3659519dc4713af0f4f2246db31a4bbd26eb3de7312e2cb3f2a2254313810fd8",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    },
+    {
+      "id": "topology/closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2b6a4d8dc1cd6b05592f244314e05269cdb0d31b0557b01641a97cee3d0c41d",
+      "evidence": "Read the complete source including all sections and references. Checked candidate topology terms against target definitions and conventions; existing links cover genuine dependencies, while generic or locally defined phrases were left unchanged."
+    }
+  ],
+  "gaps": [
+    {
+      "phrase": "right action",
+      "related_targets": [
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/supermodule",
+          "source_path": "content/supergeometry/supermodule.knowl.md",
+          "source_sha256": "caac746c405500ac06edf86c24094b5201ace2e66d0be73afb56bfd63592cece",
+          "section": "Left and right modules",
+          "line": 36,
+          "column": 59,
+          "surface": "right action",
+          "context": "ps.\n\n## Left and right modules\n\nKoszul signs enter when one converts a left action into a right action. If\n\\(A\\) is supercommutative and \\(M\\) is a left \\(A\\)-supermodule, the compatible\nright action is\n\\[\nm a=(-1)^{|m||a|",
+          "signal": "noun_phrase",
+          "candidate_id": "a9236c0d6017f7b499d76fdc"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The right action is introduced by the source’s explicit Koszul sign formula; no standalone target is needed."
+    },
+    {
+      "phrase": "tensor product",
+      "related_targets": [
+        "algebra-homological/tensor-right-exact",
+        "algebra-modules/tensor-preserves-direct-sums",
+        "algebra-modules/tensor-product",
+        "algebra-modules/tensor-product-algebras",
+        "algebra-modules/tensor-product-universal-property",
+        "algebra-modules/tensor-product-universal-property-prop",
+        "algebra-representation-theory/character-tensor-product",
+        "algebra-topological/completed-tensor-product",
+        "fiber-bundles/tensor-product-connection",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "harmonic-analysis/restricted-tensor-product-test-functions",
+        "harmonic-analysis/schwartz-bruhat-space-adeles"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/category-of-super-vector-spaces",
+          "source_path": "content/supergeometry/category-of-super-vector-spaces.knowl.md",
+          "source_sha256": "6e65086eb345ef9941fd80c1a5743fff6d550d98f8b27350162e93cbc516f6aa",
+          "section": "core",
+          "line": 17,
+          "column": 31,
+          "surface": "tensor product",
+          "context": "uper-vector-space|super vector spaces]] as objects and even\nlinear maps as morphisms. Its tensor product is graded by\n\\[\n(V\\otimes W)_{\\bar r}\n=\\bigoplus_{\\bar i+\\bar j=\\bar r}V_{\\bar i}\\otimes W_{\\bar j},\n\\]\nand its symmetr",
+          "signal": "noun_phrase",
+          "candidate_id": "c15bb7eee52bd02fb1e11c53"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/koszul-sign-rule",
+          "source_path": "content/supergeometry/koszul-sign-rule.knowl.md",
+          "source_sha256": "7eb856c46fcb689b5762c4c4900406e613eb59296e7df7a71462f12b372bd26b",
+          "section": "core",
+          "line": 27,
+          "column": 59,
+          "surface": "tensor product",
+          "context": "ion added after a\ncalculation.\n\nFor homogeneous maps \\(f:V\\to V'\\) and \\(g:W\\to W'\\), the tensor product is\ntherefore evaluated by\n\\[\n(f\\otimes g)(v\\otimes w)\n=(-1)^{|g||v|}f(v)\\otimes g(w).\n\\]\nIn particular, two odd pieces ",
+          "signal": "noun_phrase",
+          "candidate_id": "1622ccf7ec7eff10cb0b23a7"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The phrase names the standard tensor product, and algebra-modules/tensor-product is the applicable target; one occurrence is now linked, while the displayed formula occurrence is mathematical notation."
+    },
+    {
+      "phrase": "canonical map",
+      "related_targets": [
+        "operator-algebras/canonical-map-full-to-reduced-crossed-product"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/universal-enveloping-algebra-of-lie-superalgebra",
+          "source_path": "content/supergeometry/universal-enveloping-algebra-of-lie-superalgebra.knowl.md",
+          "source_sha256": "d47468a40c97d3d49bbbe8af0aa36989d9a745618f081e8335902d767dd1a930",
+          "section": "core",
+          "line": 26,
+          "column": 5,
+          "surface": "canonical map",
+          "context": "ents and\n\\(T(\\mathfrak g)\\) is the [[algebra-modules/tensor-algebra|tensor algebra]].\nThe canonical map \\(\\mathfrak g\\to U(\\mathfrak g)\\) sends the [[fiber-bundles/lie-bracket|Lie bracket]] to\nthe supercommutator.\n\n## Unive",
+          "signal": "noun_phrase",
+          "candidate_id": "eea3354bf2ace33dad4b60e0"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The canonical map is the specific map from the Lie superalgebra into its enveloping algebra introduced immediately in this source."
+    },
+    {
+      "phrase": "left action",
+      "related_targets": [
+        "fiber-bundles/convention-associated-bundles-use-a-left-g-action-on-the-fiber-f"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/supermodule",
+          "source_path": "content/supergeometry/supermodule.knowl.md",
+          "source_sha256": "caac746c405500ac06edf86c24094b5201ace2e66d0be73afb56bfd63592cece",
+          "section": "Left and right modules",
+          "line": 36,
+          "column": 40,
+          "surface": "left action",
+          "context": "s are odd module maps.\n\n## Left and right modules\n\nKoszul signs enter when one converts a left action into a right action. If\n\\(A\\) is supercommutative and \\(M\\) is a left \\(A\\)-supermodule, the compatible\nright action is",
+          "signal": "noun_phrase",
+          "candidate_id": "dedb2b01c65eb8d943150a32"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "Left action is part of the source’s left/right module setup and is defined by the surrounding module structure."
+    },
+    {
+      "phrase": "adjoint representation",
+      "related_targets": [
+        "lie-groups/adjoint-faithful-iff-discrete-center",
+        "lie-groups/adjoint-representation-of-a-lie-algebra",
+        "lie-groups/coadjoint-representation-of-a-lie-algebra",
+        "lie-groups/kernel-of-ad-is-center-lemma",
+        "lie-groups/kernel-of-ad-small-is-center-lemma"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/representation-of-a-lie-superalgebra",
+          "source_path": "content/supergeometry/representation-of-a-lie-superalgebra.knowl.md",
+          "source_sha256": "e1d4792792bea4de019860e92e4d5e5da758899ae92a8a34a66cf5a39b8ce4d8",
+          "section": "core",
+          "line": 33,
+          "column": 7,
+          "surface": "adjoint representation",
+          "context": "\nparity \\(|x|\\), and\n\\[\n\\rho([x,y])\n=\\rho(x)\\rho(y)-(-1)^{|x||y|}\\rho(y)\\rho(x).\n\\]\nThe **adjoint representation** is the action on \\(\\mathfrak g\\) given by\n\\(\\operatorname{ad}_x(y)=[x,y]\\). The super Jacobi identity is exactly the\n",
+          "signal": "noun_phrase",
+          "candidate_id": "7b1bced4968a9a5a7a1a7a06"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "An adjoint-representation target exists, but this occurrence defines the super version on the source Lie superalgebra; linking requires a convention-specific target and is deferred."
+    },
+    {
+      "phrase": "self-adjoint operator",
+      "related_targets": [
+        "functional-analysis/essentially-self-adjoint-operator",
+        "functional-analysis/self-adjoint-extension",
+        "functional-analysis/self-adjoint-unbounded-operator",
+        "functional-analysis/spectral-theorem-unbounded-self-adjoint",
+        "quantum-foundations/self-adjoint-operator-observable",
+        "quantum-foundations/spectrum-self-adjoint-finite"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "stat-mech-quantum/quantum-hamiltonian",
+          "source_path": "content/stat-mech-quantum/quantum-hamiltonian.knowl.md",
+          "source_sha256": "2300e55824485d912bcae34df9bf986358343ab46f2fe4f2d9c17c72bdf7d894",
+          "section": "core",
+          "line": 14,
+          "column": 48,
+          "surface": "self-adjoint operator",
+          "context": "eview-v1\"\ndependency_review_count = 1\n+++\n\nA **quantum Hamiltonian** is a densely defined self-adjoint operator \\(H\\) on the system Hilbert space \\(\\mathcal H\\), representing the system's energy. In finite dimension, \\(H\\) is a sel",
+          "signal": "noun_phrase",
+          "candidate_id": "684ab937a90f2fc2e80340f8"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "A quantum-foundations self-adjoint-operator target exists; this is a genuine dependency, though the source line is concurrently being linked in the shared worktree."
+    },
+    {
+      "phrase": "adjoint action",
+      "related_targets": [
+        "fiber-bundles/coadjoint-action-of-a-lie-group",
+        "lie-groups/adjoint-action-of-a-lie-group"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/super-harish-chandra-pair",
+          "source_path": "content/supergeometry/super-harish-chandra-pair.knowl.md",
+          "source_sha256": "57f0cf286a6e0c180c158c96b3a4d3874ee71f82b75c0783803d0345adad8f27",
+          "section": "core",
+          "line": 27,
+          "column": 65,
+          "surface": "adjoint\naction",
+          "context": "eralgebra automorphisms.\n\nThe action restricts on \\(\\mathfrak g_{\\bar0}\\) to the ordinary adjoint\naction of \\(G_0\\), and its differential at the identity is the adjoint action\nof \\(\\mathfrak g_{\\bar0}\\) on all of \\(\\mathfrak",
+          "signal": "noun_phrase",
+          "candidate_id": "be5bc8c87ec2c2447a543170"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The ordinary adjoint-action target exists, but this occurrence compares the differentiated super Harish-Chandra action and needs convention checking."
+    },
+    {
+      "phrase": "underlying topological space",
+      "related_targets": [
+        "topology/topological-space"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/split-supermanifold",
+          "source_path": "content/supergeometry/split-supermanifold.knowl.md",
+          "source_sha256": "74e8b05135a83a21e5437cb494f361f3763e449d2a53a7faba008e8e00ec5ce1",
+          "section": "core",
+          "line": 32,
+          "column": 24,
+          "surface": "underlying topological space",
+          "context": "n \\(\\Pi E\\) indicates that fiber-linear functions have odd parity;\nit does not change the underlying topological space, which remains \\(M\\).\n\n## What a splitting chooses\n\nA splitting of a [[supergeometry/supermanifold|supermanifold]] \\(X\\",
+          "signal": "noun_phrase",
+          "candidate_id": "9f6fe82f442c65b2c4cd1ddb"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/supermanifold",
+          "source_path": "content/supergeometry/supermanifold.knowl.md",
+          "source_sha256": "f8bf3fdceb29da41dfbe5247cd6c48b92cb506b6b4ee933df8934eebed271556",
+          "section": "core",
+          "line": 28,
+          "column": 1,
+          "surface": "underlying topological space",
+          "context": "_{\\mathrm{red}}},\n\\]\nwhere \\(X_{\\mathrm{red}}\\) is an ordinary smooth \\(p\\)-manifold with\nunderlying topological space \\(|X|\\). The odd dimension \\(q\\) records the\nrank of \\(\\mathcal J_X/\\mathcal J_X^2\\).\n\n## Local versus global structure",
+          "signal": "noun_phrase",
+          "candidate_id": "ab198c7da7581460046008bf"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "topology/topological-space is the applicable target; these occurrences describe the underlying space explicitly and are useful links."
+    },
+    {
+      "phrase": "finite-dimensional hilbert space",
+      "related_targets": [
+        "linear-algebra/hilbert-space"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "stat-mech-quantum/gibbs-state-quantum",
+          "source_path": "content/stat-mech-quantum/gibbs-state-quantum.knowl.md",
+          "source_sha256": "6fb9054d8296631608d46973d8a3bc681ce7c0bc89139f94b5281132be4cd383",
+          "section": "core",
+          "line": 14,
+          "column": 75,
+          "surface": "finite-dimensional Hilbert space",
+          "context": "_count = 1\n+++\n\nLet \\(H\\) be a [[stat-mech-quantum/quantum-hamiltonian|Hamiltonian]] on a finite-dimensional Hilbert space and let \\(\\beta>0\\). The **quantum Gibbs state** at inverse temperature \\(\\beta\\) is\n\\[\n\\rho_\\beta=\\frac{e^{-\\beta H}}{",
+          "signal": "noun_phrase",
+          "candidate_id": "db9628cb99e005feb772bb4b"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "stat-mech-quantum/kms-condition-finite",
+          "source_path": "content/stat-mech-quantum/kms-condition-finite.knowl.md",
+          "source_sha256": "a0da2b228e9aee9a815cf6155eda4aa70370dad923e888106760066848829bfa",
+          "section": "core",
+          "line": 14,
+          "column": 49,
+          "surface": "finite-dimensional Hilbert space",
+          "context": "view-v1\"\ndependency_review_count = 1\n+++\n\nLet \\(\\mathcal A=\\mathcal B(\\mathcal H)\\) for a finite-dimensional Hilbert space, let \\(H=H^*\\), fix \\(\\beta>0\\), and use units with \\(\\hbar=1\\). Write\n\\[\n\\tau_t(A)=e^{itH}Ae^{-itH}.\n\\]\nA state \\(\\ome",
+          "signal": "noun_phrase",
+          "candidate_id": "7be79745af5efa9368003392"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "stat-mech-quantum/quantum-expectation-value",
+          "source_path": "content/stat-mech-quantum/quantum-expectation-value.knowl.md",
+          "source_sha256": "a1cadd7af8cc6fec134bd30f6647baff0f44468ec383c6dd0aa29ce39d036f47",
+          "section": "core",
+          "line": 14,
+          "column": 82,
+          "surface": "finite-dimensional Hilbert space",
+          "context": "= 1\n+++\n\nLet \\(\\rho\\) be a [[quantum-foundations/density-operator|density operator]] on a finite-dimensional Hilbert space and \\(A\\) a self-adjoint element of the [[stat-mech-quantum/observable-algebra|observable algebra]]. The **expectation ",
+          "signal": "noun_phrase",
+          "candidate_id": "ab37a2521688bcc35d9d6bdb"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "stat-mech-quantum/quantum-partition-function",
+          "source_path": "content/stat-mech-quantum/quantum-partition-function.knowl.md",
+          "source_sha256": "9b1428a0994dfeec9c722197cf1646785ab7126f1ed638605631b9e161c28ded",
+          "section": "core",
+          "line": 14,
+          "column": 75,
+          "surface": "finite-dimensional Hilbert space",
+          "context": "_count = 1\n+++\n\nLet \\(H\\) be a [[stat-mech-quantum/quantum-hamiltonian|Hamiltonian]] on a finite-dimensional Hilbert space and let \\(\\beta>0\\). The **quantum partition function** is\n\\[\nZ(\\beta)=\\operatorname{Tr}(e^{-\\beta H}).\n\\]\nIf the eigen",
+          "signal": "noun_phrase",
+          "candidate_id": "eb271cf95159d437fadfef46"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "linear-algebra/hilbert-space and the finite-dimensional complex-Hilbert target exist; finite dimensionality is a qualifier, not a missing definition."
+    },
+    {
+      "phrase": "smooth action",
+      "related_targets": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "lie-groups/smooth-action-lie-group"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/super-harish-chandra-pair",
+          "source_path": "content/supergeometry/super-harish-chandra-pair.knowl.md",
+          "source_sha256": "57f0cf286a6e0c180c158c96b3a4d3874ee71f82b75c0783803d0345adad8f27",
+          "section": "core",
+          "line": 23,
+          "column": 6,
+          "surface": "smooth action",
+          "context": "ar1}\\);\n3. an identification\n   \\(\\mathfrak g_{\\bar0}\\cong\\operatorname{Lie}(G_0)\\);\n4. a smooth action\n   \\(\\operatorname{Ad}:G_0\\to\\operatorname{Aut}_{\\bar0}(\\mathfrak g)\\)\n   by even Lie-superalgebra automorphisms.\n\nThe ",
+          "signal": "noun_phrase",
+          "candidate_id": "edf3262e1ca0a490759a0329"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "Existing smooth-action targets cover the ordinary Lie-group action; the super Harish-Chandra structure adds a convention-specific action and is left for targeted review."
+    },
+    {
+      "phrase": "underlying space",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/superdomain",
+          "source_path": "content/supergeometry/superdomain.knowl.md",
+          "source_sha256": "b9856ee7b76df0f022bd1f1af60b6c6632bef7f07cd81a2a8c69597a12055152",
+          "section": "core",
+          "line": 15,
+          "column": 53,
+          "surface": "underlying space",
+          "context": "open. The **superdomain** \\(U^{p|q}\\)\nis the [[supergeometry/superspace|superspace]] with underlying space \\(U\\)\nand [[algebraic-geometry-foundations/structure-sheaf|structure sheaf]]\n\\[\n\\mathcal O_{U^{p|q}}(W)\n  =C^\\infty(W)\\",
+          "signal": "noun_phrase",
+          "candidate_id": "a54234de447c4ed9bd9db614"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The phrase refers to the underlying space of this superdomain and is explanatory rather than a separately defined object."
+    },
+    {
+      "phrase": "trivial bundle",
+      "related_targets": [
+        "fiber-bundles/flat-connection-a0-on-a-trivial-bundle",
+        "fiber-bundles/pure-gauge-connection-ag-1dg-on-a-trivial-bundle"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/pointed-set",
+          "source_path": "content/shared-foundations/pointed-set.knowl.md",
+          "source_sha256": "57f6363c5a4c95949a83b3ca9830c181055cfcac5b77847bda8bd7722c31850c",
+          "section": "Examples",
+          "line": 23,
+          "column": 48,
+          "surface": "trivial bundle",
+          "context": "n. Nonabelian cohomology sets are commonly\npointed by the class of the trivial cocycle or trivial bundle.\n\n## Categorical description\n\nThe category of pointed sets is equivalent to the coslice category\n\\(\\{*\\}\\!\\downarrow\\!\\",
+          "signal": "noun_phrase",
+          "candidate_id": "45ee77fd51d0e7dcf489723c"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The pointed-set example uses trivial bundle as an informal example; no bundle construction is being defined."
+    },
+    {
+      "phrase": "reduced group",
+      "related_targets": [
+        "operator-algebras/amenability-full-reduced-equivalence",
+        "operator-algebras/full-to-reduced-group-cstar-quotient",
+        "operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability",
+        "operator-algebras/reduced-group-cstar-algebra"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/lie-superalgebra-of-lie-supergroup",
+          "source_path": "content/supergeometry/lie-superalgebra-of-lie-supergroup.knowl.md",
+          "source_sha256": "37f91725ded5d419f0c587f7f928fb602a4785e16005385bda1ac749239f295a",
+          "section": "core",
+          "line": 24,
+          "column": 89,
+          "surface": "reduced group",
+          "context": "\n\nThe even part is canonically the ordinary [[lie-groups/lie-algebra|Lie algebra]] of the reduced group:\n\\[\n\\operatorname{Lie}(G)_{\\bar 0}\n\\cong \\operatorname{Lie}(G_{\\mathrm{red}}).\n\\]\nThe odd tangent space supplies the ge",
+          "signal": "noun_phrase",
+          "candidate_id": "1688cd5baaaf11c33ae76cbb"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/lie-supergroups-and-super-harish-chandra-pairs",
+          "source_path": "content/supergeometry/lie-supergroups-and-super-harish-chandra-pairs.knowl.md",
+          "source_sha256": "66e0e7289259edb0f0c9f644d296e91f463978987f25b9d275bd32009e01fc17",
+          "section": "core",
+          "line": 40,
+          "column": 1,
+          "surface": "reduced group",
+          "context": "-pair|super\nHarish–Chandra pair]] \\((G_0,\\mathfrak g)\\) determines a Lie supergroup whose\nreduced group is \\(G_0\\) and whose infinitesimal superalgebra is\n\\(\\mathfrak g\\). One sheaf-level construction uses\n\\[\n\\mathcal O_G(U",
+          "signal": "noun_phrase",
+          "candidate_id": "a192366d0d1d8fa10cbb659f"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The reduced Lie group is the ordinary group underlying a Lie supergroup; existing Lie-group targets cover it, but the phrase is used as a qualifier."
+    },
+    {
+      "phrase": "spin representation",
+      "related_targets": [
+        "lie-groups/half-spin-representation",
+        "lie-groups/spin9-spin-representation"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/super-minkowski-space",
+          "source_path": "content/supergeometry/super-minkowski-space.knowl.md",
+          "source_sha256": "b761f3cc0374cf9796a17b9cffe7abd77642ed11dc649c2e89d9e284a814f8d8",
+          "section": "Distinctions",
+          "line": 50,
+          "column": 33,
+          "surface": "spin representation",
+          "context": "nged space. Even an affine superdomain \\(V^{d|s}\\) is not\nsuper-Minkowski space until the spin representation, [[algebra-modules/bilinear-map|bilinear map]]\n\\(\\Gamma\\), and corresponding supertranslation structure have been chose",
+          "signal": "noun_phrase",
+          "candidate_id": "e5846b8142de355732548b1f"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "A spin-representation target exists, but the super-Minkowski distinction requires the specific representation convention; no automatic link inserted."
+    },
+    {
+      "phrase": "associative algebra",
+      "related_targets": [
+        "algebra-category-theory/algebra-object",
+        "algebra-modules/tensor-algebra",
+        "nonassociative-algebra/nonassociative-algebra",
+        "nonassociative-algebra/power-associative-algebra"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/superalgebra",
+          "source_path": "content/supergeometry/superalgebra.knowl.md",
+          "source_sha256": "024355866e1eaa9dbb6bf44b6364bee63abd8d15433d5161eefed67dcaffc3f2",
+          "section": "Examples and non-examples",
+          "line": 31,
+          "column": 13,
+          "surface": "associative algebra",
+          "context": "rgeometry/lie-superalgebra|Lie superalgebra]].\n\n## Examples and non-examples\n\nAn ordinary associative algebra placed entirely in even degree is a\nsuperalgebra. The [[differential-geometry/clifford-algebra|Clifford algebra]]\nhas i",
+          "signal": "noun_phrase",
+          "candidate_id": "10a94eb8bbf55293915f3ebc"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The phrase is a standard algebraic condition and existing algebra targets are convention-sensitive; this sentence contrasts examples rather than defining an algebra."
+    },
+    {
+      "phrase": "usual topology",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/basis-of-topology",
+          "source_path": "content/topology/basis-of-topology.knowl.md",
+          "source_sha256": "4b3946d081012e8456cd47a2154f992e1676b4c0f49592f0c927439545aeee94",
+          "section": "Examples",
+          "line": 22,
+          "column": 30,
+          "surface": "usual topology",
+          "context": "s-map|continuity]] using only basic open sets.\n\n## Examples\n\n- In \\(\\mathbb{R}\\) with the usual topology, the open intervals \\((a,b)\\) form a basis.\n- In a [[topology/metric-space|metric space]], the family of [[topology/ope",
+          "signal": "noun_phrase",
+          "candidate_id": "4e5a6785f61c71e4a25c58c2"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/closed-set",
+          "source_path": "content/topology/closed-set.knowl.md",
+          "source_sha256": "facb8ce1e435456caf8c7f55a762da936b50dd8049be0bf6588f16fc6fac0cad",
+          "section": "Examples",
+          "line": 20,
+          "column": 29,
+          "surface": "usual topology",
+          "context": " if the preimage of every closed set is closed.\n\n## Examples\n\n- In \\(\\mathbb R\\) with its usual topology, \\([0,1]\\) is closed.\n- In the discrete topology on \\(X\\), every subset of \\(X\\) is closed.\n- In the indiscrete topolog",
+          "signal": "noun_phrase",
+          "candidate_id": "0bccfb00f25aa806d1b9764c"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/closure",
+          "source_path": "content/topology/closure.knowl.md",
+          "source_sha256": "f2b6a4d8dc1cd6b05592f244314e05269cdb0d31b0557b01641a97cee3d0c41d",
+          "section": "Examples",
+          "line": 28,
+          "column": 30,
+          "surface": "usual topology",
+          "context": " and the [[topology/derived-set|derived set]].\n\n## Examples\n\n- In \\(\\mathbb{R}\\) with the usual topology, \\(\\overline{(0,1)}=[0,1]\\).\n- In \\(\\mathbb{R}\\) with the usual topology, \\(\\overline{\\mathbb{Q}}=\\mathbb{R}\\).\n- \\(\\ov",
+          "signal": "noun_phrase",
+          "candidate_id": "afe42ffaca5d662d3fcf21b7"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "This names the familiar topology on R, not a reusable construction in these examples."
+    },
+    {
+      "phrase": "discrete topology",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/closed-set",
+          "source_path": "content/topology/closed-set.knowl.md",
+          "source_sha256": "facb8ce1e435456caf8c7f55a762da936b50dd8049be0bf6588f16fc6fac0cad",
+          "section": "Examples",
+          "line": 21,
+          "column": 10,
+          "surface": "discrete topology",
+          "context": ".\n\n## Examples\n\n- In \\(\\mathbb R\\) with its usual topology, \\([0,1]\\) is closed.\n- In the discrete topology on \\(X\\), every subset of \\(X\\) is closed.\n- In the indiscrete topology on \\(X\\), the only closed sets are \\(\\varnothin",
+          "signal": "noun_phrase",
+          "candidate_id": "733e67337af3f7872e417751"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "A discrete-topology target could be linked, but the example only invokes the standard topology as context; no dependency is needed."
+    },
+    {
+      "phrase": "inclusion map",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/domain",
+          "source_path": "content/shared-foundations/domain.knowl.md",
+          "source_sha256": "7812a25a5ce95e389cf54d9427397179a97dc51c831b5cc2bc2a5fca200f7254",
+          "section": "Examples",
+          "line": 23,
+          "column": 11,
+          "surface": "inclusion map",
+          "context": "omain is \\(\\mathbb{R}\\) (the [[shared-foundations/real-numbers|real numbers]]).\n- For the inclusion map \\(i:S\\to A\\) with \\(S\\subseteq A\\), the domain is \\(S\\).\n",
+          "signal": "noun_phrase",
+          "candidate_id": "948ad1b8c53df9077b0f3f5d"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/function",
+          "source_path": "content/shared-foundations/function.knowl.md",
+          "source_sha256": "6ba92dc0c64dea8235d88d0cfa3e0eb8684289f4653b150e7e8d489afa52c600",
+          "section": "Examples",
+          "line": 23,
+          "column": 74,
+          "surface": "inclusion map",
+          "context": "tural numbers]].\n- If \\(S\\) is a [[shared-foundations/subset|subset]] of a set \\(A\\), the inclusion map \\(i:S\\to A\\) defined by \\(i(s)=s\\) is a function.\n",
+          "signal": "noun_phrase",
+          "candidate_id": "6329dc2cd4cf296f5b007f1d"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/injective-function",
+          "source_path": "content/shared-foundations/injective-function.knowl.md",
+          "source_sha256": "a5fb4a0e58b8b00255fc6bfa13b1c85028084b7e9c3d6d1183b50d053fd63778",
+          "section": "Examples",
+          "line": 22,
+          "column": 7,
+          "surface": "inclusion map",
+          "context": "from \\(A\\) to \\(B\\) is evidence that \\(A\\) is “no larger than” \\(B\\).\n\n## Examples\n\n- The inclusion map \\(i:S\\to A\\) of a [[shared-foundations/subset|subset]] is injective, since \\(i(s)=i(s')\\) implies \\(s=s'\\).\n- The funct",
+          "signal": "noun_phrase",
+          "candidate_id": "3cdd2130f4ca4de3cf6b8d66"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/restriction-of-a-function",
+          "source_path": "content/shared-foundations/restriction-of-a-function.knowl.md",
+          "source_sha256": "7b62d5c83a09a4d223e7bce0bf9d36abce4eff35c64e38d6b6b9bddc8d222e76",
+          "section": "Examples",
+          "line": 26,
+          "column": 83,
+          "surface": "inclusion map",
+          "context": "tegers.\n- If \\(A\\) is a set and \\(S\\subseteq A\\), then \\(\\mathrm{id}_A|_S:S\\to A\\) is the inclusion map \\(s\\mapsto s\\).\n",
+          "signal": "noun_phrase",
+          "candidate_id": "bf3f925f495c1b6c75ed216b"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The inclusion map is a standard map and is already characterized by the surrounding function/subset definitions; it is not a missing source definition."
+    },
+    {
+      "phrase": "graded algebra",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/symmetric-algebra-of-a-super-vector-space",
+          "source_path": "content/supergeometry/symmetric-algebra-of-a-super-vector-space.knowl.md",
+          "source_sha256": "0d857858b68028fbde02a2b31c2bbce881511acc81bee550c0606b19a853e1cd",
+          "section": "Relation to Lie superalgebras",
+          "line": 57,
+          "column": 54,
+          "surface": "graded algebra",
+          "context": ".\n\n## Relation to Lie superalgebras\n\nThe symmetric superalgebra appears as the associated graded algebra in the\n[[lie-groups/pbw-theorem|Poincaré–Birkhoff–Witt theorem]] for the\n[[supergeometry/universal-enveloping-algebra-o",
+          "signal": "noun_phrase",
+          "candidate_id": "55a37d134d5e59ee3da65648"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The source refers to the graded algebra structure associated with a symmetric algebra; no single target captures the required super sign convention."
+    },
+    {
+      "phrase": "smooth category",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/batchelor-theorem",
+          "source_path": "content/supergeometry/batchelor-theorem.knowl.md",
+          "source_sha256": "6fcd121eb4bcabef229ac345f3297f24c7c04a200602e761daedf089742f6fd3",
+          "section": "Noncanonical is essential",
+          "line": 34,
+          "column": 59,
+          "surface": "smooth category",
+          "context": "is generally neither unique nor\nnatural with respect to supermanifold morphisms. Thus the smooth category is\nnot obtained by simply declaring that vector bundles and their exterior\nalgebras are the morphism-free data of all s",
+          "signal": "noun_phrase",
+          "candidate_id": "bb42ea3bb30cd134a37d6300"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "This is a broad categorical qualifier in the Batchelor theorem scope, not an independently needed definition."
+    },
+    {
+      "phrase": "global topology",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/lie-supergroups-and-super-harish-chandra-pairs",
+          "source_path": "content/supergeometry/lie-supergroups-and-super-harish-chandra-pairs.knowl.md",
+          "source_sha256": "66e0e7289259edb0f0c9f644d296e91f463978987f25b9d275bd32009e01fc17",
+          "section": "Exact scope",
+          "line": 55,
+          "column": 89,
+          "surface": "global topology",
+          "context": "s\nwhy a [[supergeometry/lie-superalgebra|Lie superalgebra]] by itself does not choose the global topology of the\nreduced Lie group.\n\n## References\n\n1. B. Kostant, “Graded manifolds, graded Lie theory, and prequantization,” in",
+          "signal": "noun_phrase",
+          "candidate_id": "4e48812cfaaa597a388045ce"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "This phrase contrasts local and global structure and is not a canonical mathematical object."
+    },
+    {
+      "phrase": "they form",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/integers",
+          "source_path": "content/shared-foundations/integers.knowl.md",
+          "source_sha256": "841328531f0e6bb2d016a99790f7bcf8714cd1d6b0ad4adda8226b9eced1ee8b",
+          "section": "Remarks",
+          "line": 18,
+          "column": 253,
+          "surface": "they form",
+          "context": "al-numbers|rational numbers]] via the identification \\(n = n/1\\). With the usual \\(\\le\\), they form a [[shared-foundations/total-order|totally ordered]] set.\n\n## Examples\n\n- \\(-3\\), \\(0\\), and \\(14\\) are integers.\n- The",
+          "signal": "noun_phrase",
+          "candidate_id": "cebb602e2eabeb49c612c69e"
+        }
+      ],
+      "classification": "false_positive",
+      "adjudication": "The scanner matched ordinary prose; the phrase itself is not a mathematical term."
+    },
+    {
+      "phrase": "even map",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/category-of-super-vector-spaces",
+          "source_path": "content/supergeometry/category-of-super-vector-spaces.knowl.md",
+          "source_sha256": "6e65086eb345ef9941fd80c1a5743fff6d550d98f8b27350162e93cbc516f6aa",
+          "section": "Odd maps",
+          "line": 37,
+          "column": 70,
+          "surface": "even map",
+          "context": " internal Hom]]. The\n[[supergeometry/parity-shift|parity shift]] turns an odd map into an even map\nto or from a shifted object.\n\n## Why the morphism convention matters\n\nAllowing all homogeneous maps as ungraded morphis",
+          "signal": "noun_phrase",
+          "candidate_id": "68064d8ef2d647a6a5b0b33a"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/parity-shift",
+          "source_path": "content/supergeometry/parity-shift.knowl.md",
+          "source_sha256": "819712e2b676378aa24d788055cffdff454e8e1660c51b3bd0838febab4fa3d8",
+          "section": "Odd maps as even maps",
+          "line": 28,
+          "column": 54,
+          "surface": "even map",
+          "context": "me{id}\\).\n\n## Odd maps as even maps\n\nAn odd linear map \\(f:V\\to W\\) can be regarded as an even map\n\\[\nV\\longrightarrow\\Pi W\n\\qquad\\text{or}\\qquad\n\\Pi V\\longrightarrow W.\n\\]\nThis is one reason parity shift is useful: it",
+          "signal": "noun_phrase",
+          "candidate_id": "0541af3bf58b4dad4f0c51a3"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/super-internal-hom",
+          "source_path": "content/supergeometry/super-internal-hom.knowl.md",
+          "source_sha256": "c024d66d50a4bebf8b61b12ce72fb6f06407d384118fcdc705e0a4845103f0a2",
+          "section": "core",
+          "line": 28,
+          "column": 18,
+          "surface": "even map",
+          "context": "hbf{SuperVect}}(V,W)\\). Its odd part consists of\nparity-reversing maps.\n\nEvaluation is an even map\n\\[\n\\underline{\\operatorname{Hom}}(V,W)\\otimes V\\longrightarrow W,\n\\qquad f\\otimes v\\longmapsto f(v).\n\\]\nTogether with t",
+          "signal": "noun_phrase",
+          "candidate_id": "2ab75b6c4cdefd828edfcac8"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/supermodule",
+          "source_path": "content/supergeometry/supermodule.knowl.md",
+          "source_sha256": "caac746c405500ac06edf86c24094b5201ace2e66d0be73afb56bfd63592cece",
+          "section": "core",
+          "line": 21,
+          "column": 52,
+          "surface": "even map",
+          "context": "\\bar j}\\subseteq M_{\\bar i+\\bar j}.\n\\]\nEquivalently, the action \\(A\\otimes M\\to M\\) is an even map in\n\\(\\mathbf{SuperVect}\\).\n\n## Morphisms and internal maps\n\nMorphisms of supermodules are usually even \\(A\\)-linear map",
+          "signal": "noun_phrase",
+          "candidate_id": "9f5c14d91c7f3a55a13809f9"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "Even map is defined by the super vector-space morphism convention in the source; existing linear-map targets do not encode parity without additional context."
+    },
+    {
+      "phrase": "morphisms form",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/supermanifold",
+          "source_path": "content/supergeometry/supermanifold.knowl.md",
+          "source_sha256": "f8bf3fdceb29da41dfbe5247cd6c48b92cb506b6b4ee933df8934eebed271556",
+          "section": "core",
+          "line": 18,
+          "column": 19,
+          "surface": "morphisms form",
+          "context": "\\(U^{p|q}\\). Its morphisms are morphisms of locally superringed spaces.\nThese objects and morphisms form the category\n\\(\\mathbf{SMan}_{\\mathbb R}^{\\mathrm{sm}}\\).\n\nLet \\(\\mathcal J_X\\subseteq\\mathcal O_X\\) be the sheaf of [[",
+          "signal": "noun_phrase",
+          "candidate_id": "957ff6850aac8bc632e23489"
+        }
+      ],
+      "classification": "false_positive",
+      "adjudication": "The scanner matched ordinary grammatical prose, not a noun phrase naming a knowl."
+    },
+    {
+      "phrase": "underlying topological manifold",
+      "related_targets": [
+        "topology/topological-manifold"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/closed-manifold",
+          "source_path": "content/topology/closed-manifold.knowl.md",
+          "source_sha256": "76b58d54dbcb92e93bc64b635bf0a50368fcd501e42e35bb238be826c026e1c4",
+          "section": "core",
+          "line": 13,
+          "column": 206,
+          "surface": "underlying topological manifold",
+          "context": "ry. A closed smooth manifold is a [[fiber-bundles/smooth-manifold|smooth manifold]] whose underlying topological manifold is closed.\n\nHere “closed” does not merely mean closed as a subset of some ambient Euclidean space; it is intrinsic shor",
+          "signal": "noun_phrase",
+          "candidate_id": "5ff993c73b1cc0c09fb2c068"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "topology/topological-manifold is the relevant target, while the phrase is an explanatory qualifier in the closed-manifold definition."
+    },
+    {
+      "phrase": "universal enveloping algebra",
+      "related_targets": [
+        "formal-groups/distribution-algebra-and-universal-enveloping-algebra",
+        "lie-groups/center-of-universal-enveloping-algebra",
+        "lie-groups/universal-enveloping-algebra",
+        "lie-groups/universal-enveloping-algebra-action-on-smooth-vectors",
+        "supergeometry/universal-enveloping-algebra-of-lie-superalgebra"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/universal-enveloping-algebra-of-lie-superalgebra",
+          "source_path": "content/supergeometry/universal-enveloping-algebra-of-lie-superalgebra.knowl.md",
+          "source_sha256": "d47468a40c97d3d49bbbe8af0aa36989d9a745618f081e8335902d767dd1a930",
+          "section": "core",
+          "line": 15,
+          "column": 45,
+          "surface": "universal enveloping algebra",
+          "context": "rgeometry/lie-superalgebra|Lie superalgebra]]\nover a field of characteristic \\(0\\). Its **universal enveloping algebra** is\nthe superalgebra\n\\[\nU(\\mathfrak g)\n=T(\\mathfrak g)\\Big/\n\\left\\langle\nx\\otimes y-(-1)^{|x||y|}y\\otimes x-[x,y]\n\\rig",
+          "signal": "noun_phrase",
+          "candidate_id": "31ccdf08cf26cdf476e3b0d3"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The source’s exact object has a dedicated universal-enveloping-algebra target; this is a genuine link candidate."
+    },
+    {
+      "phrase": "standard metric",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/bolzano-weierstrass-theorem",
+          "source_path": "content/topology/bolzano-weierstrass-theorem.knowl.md",
+          "source_sha256": "963678b0aeae8e0ee10b0ee5e9731a10d2aa19e10b6fd5c83567519dfc04924f",
+          "section": "core",
+          "line": 14,
+          "column": 114,
+          "surface": "standard metric",
+          "context": "heorem:** In [[linear-algebra/euclidean-space|Euclidean space]] \\(\\mathbb{R}^n\\) with its standard metric, every [[topology/bounded-set|bounded]] sequence \\((x_k)\\) has a [[real-analysis/subsequence|subsequence]] that is [[to",
+          "signal": "noun_phrase",
+          "candidate_id": "0a951aa86f961a1128c1a9dc"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The phrase means Euclidean space’s familiar metric in this theorem statement, not a separate construction."
+    },
+    {
+      "phrase": "local model",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/superspace",
+          "source_path": "content/supergeometry/superspace.knowl.md",
+          "source_sha256": "38613e36dc299183ce4054469f3188e2c41263363d8e07ab5dce779783b8d578",
+          "section": "Scope of the term",
+          "line": 37,
+          "column": 20,
+          "surface": "local model",
+          "context": "pergeometry/supermanifold|supermanifold]] is a superspace satisfying a\nfinite-dimensional local model condition. In physics, “superspace” often\nmeans an affine supermanifold carrying a supersymmetry action, and especially",
+          "signal": "noun_phrase",
+          "candidate_id": "ff21cdf016f7f14dbe0d5d53"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The source uses local model as an explanatory description of charts, not a distinct dependency."
+    },
+    {
+      "phrase": "underlying vector space",
+      "related_targets": [
+        "linear-algebra/vector-space"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/parity-shift",
+          "source_path": "content/supergeometry/parity-shift.knowl.md",
+          "source_sha256": "819712e2b676378aa24d788055cffdff454e8e1660c51b3bd0838febab4fa3d8",
+          "section": "No canonical even identification",
+          "line": 42,
+          "column": 22,
+          "surface": "underlying vector space",
+          "context": "ying ungraded vector spaces of \\(V\\) and \\(\\Pi V\\) are the same, but\nthe identity of that underlying vector space is odd, not even. Consequently\nthere is generally no canonical isomorphism \\(V\\cong\\Pi V\\) in the\n[[supergeometry/categ",
+          "signal": "noun_phrase",
+          "candidate_id": "cf12d126e4d39dbf54ea47fc"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "Parity shift deliberately reuses the underlying vector space; this is part of the construction, not a separate target."
+    },
+    {
+      "phrase": "usual metric",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/cauchy-sequence",
+          "source_path": "content/topology/cauchy-sequence.knowl.md",
+          "source_sha256": "f2f225377b7944367bbb606ae6630bb079ad466c05f294913f562b1ad706c169",
+          "section": "Examples",
+          "line": 26,
+          "column": 30,
+          "surface": "usual metric",
+          "context": "es\n\n- In \\(\\mathbb{R}\\), the sequence \\(x_n=1/n\\) is Cauchy.\n- In \\(\\mathbb{Q}\\) with the usual metric, a sequence of rational approximations to \\(\\sqrt{2}\\) is Cauchy in \\(\\mathbb{Q}\\) but does not converge in \\(\\mathbb{Q",
+          "signal": "noun_phrase",
+          "candidate_id": "ea7eb40202bc98a073cfa84b"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The phrase refers to the familiar metric on Q in an example."
+    },
+    {
+      "phrase": "closed disk",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/closed-manifold",
+          "source_path": "content/topology/closed-manifold.knowl.md",
+          "source_sha256": "76b58d54dbcb92e93bc64b635bf0a50368fcd501e42e35bb238be826c026e1c4",
+          "section": "core",
+          "line": 15,
+          "column": 201,
+          "surface": "closed disk",
+          "context": "nd for compact without boundary. Spheres and tori are closed, while Euclidean space and a closed disk are not—the former is noncompact and the latter has boundary.\n",
+          "signal": "noun_phrase",
+          "candidate_id": "3ac12a0f4874e3ca6aefacf0"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The closed disk is an example of a manifold with boundary; it is not the closed-manifold definition and needs no dependency link."
+    },
+    {
+      "phrase": "reduced manifold",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/batchelor-theorem",
+          "source_path": "content/supergeometry/batchelor-theorem.knowl.md",
+          "source_sha256": "6fcd121eb4bcabef229ac345f3297f24c7c04a200602e761daedf089742f6fd3",
+          "section": "core",
+          "line": 15,
+          "column": 53,
+          "surface": "reduced manifold",
+          "context": ") be a finite-dimensional smooth real\n[[supergeometry/supermanifold|supermanifold]] whose reduced manifold is\nHausdorff and paracompact. The **Batchelor theorem** states that there is a\n[[fiber-bundles/vector-bundle|vector bun",
+          "signal": "noun_phrase",
+          "candidate_id": "d83f756d303a2ca06e2bcb51"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/split-supermanifold",
+          "source_path": "content/supergeometry/split-supermanifold.knowl.md",
+          "source_sha256": "74e8b05135a83a21e5437cb494f361f3763e449d2a53a7faba008e8e00ec5ce1",
+          "section": "What a splitting chooses",
+          "line": 45,
+          "column": 33,
+          "surface": "reduced manifold",
+          "context": "of the degree-one part. Such an isomorphism contains more\ninformation than the underlying reduced manifold and odd vector bundle.\n\nThe [[supergeometry/batchelor-theorem|Batchelor theorem]] supplies such a\nsplitting in the fini",
+          "signal": "noun_phrase",
+          "candidate_id": "e4f51d4b846229ff0dab30cd"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The reduced manifold is a standard smooth-manifold target and is a genuine structural component, but the supermanifold convention should be preserved."
+    },
+    {
+      "phrase": "reduced lie group",
+      "related_targets": [
+        "fiber-bundles/lie-group"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/lie-superalgebra-of-lie-supergroup",
+          "source_path": "content/supergeometry/lie-superalgebra-of-lie-supergroup.knowl.md",
+          "source_sha256": "37f91725ded5d419f0c587f7f928fb602a4785e16005385bda1ac749239f295a",
+          "section": "Functoriality",
+          "line": 41,
+          "column": 71,
+          "surface": "reduced\nLie group",
+          "context": "nnected integration\nstatement, a Lie superalgebra alone does not record the chosen global reduced\nLie group; the missing global data is organized by a\n[[supergeometry/super-harish-chandra-pair|super Harish–Chandra pair]].\n\n## R",
+          "signal": "noun_phrase",
+          "candidate_id": "194c3d0b1e946f8b6bfcfb26"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/lie-supergroups-and-super-harish-chandra-pairs",
+          "source_path": "content/supergeometry/lie-supergroups-and-super-harish-chandra-pairs.knowl.md",
+          "source_sha256": "66e0e7289259edb0f0c9f644d296e91f463978987f25b9d275bd32009e01fc17",
+          "section": "Exact scope",
+          "line": 56,
+          "column": 1,
+          "surface": "reduced Lie group",
+          "context": "/lie-superalgebra|Lie superalgebra]] by itself does not choose the global topology of the\nreduced Lie group.\n\n## References\n\n1. B. Kostant, “Graded manifolds, graded Lie theory, and prequantization,” in *Differential Geometrica",
+          "signal": "noun_phrase",
+          "candidate_id": "da5925abf97941986a3dde93"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/super-minkowski-space",
+          "source_path": "content/supergeometry/super-minkowski-space.knowl.md",
+          "source_sha256": "b761f3cc0374cf9796a17b9cffe7abd77642ed11dc649c2e89d9e284a814f8d8",
+          "section": "core",
+          "line": 40,
+          "column": 16,
+          "surface": "reduced Lie group",
+          "context": "induced bracket fixes the scalar sign convention in the displayed formula.\nThe underlying reduced Lie group is the additive translation group of \\(V\\).\n\nIts odd left-invariant directions form the\n[[supergeometry/supertranslatio",
+          "signal": "noun_phrase",
+          "candidate_id": "e447ef47e559a50a6d70494b"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The ordinary Lie-group target exists; occurrences are qualifiers of the super object and should be linked only where expansion helps."
+    },
+    {
+      "phrase": "set form",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/lattice",
+          "source_path": "content/shared-foundations/lattice.knowl.md",
+          "source_sha256": "c1005dbc1680ecab814061aad2d6af7a175af41af47957d037d847287399bda6",
+          "section": "Examples and scope",
+          "line": 36,
+          "column": 18,
+          "surface": "set form",
+          "context": "gebraic definitions of a lattice are equivalent.\n\n## Examples and scope\n\nThe subsets of a set form a lattice under inclusion, with union as join and\nintersection as meet. Every [[shared-foundations/total-order|total or",
+          "signal": "noun_phrase",
+          "candidate_id": "52e938581dffb144fee0e5b6"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The scanner matched prose “set form,” not a reusable concept."
+    },
+    {
+      "phrase": "discrete metric",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/closed-ball",
+          "source_path": "content/topology/closed-ball.knowl.md",
+          "source_sha256": "2f20552edc91d94d8908b32b936130f559f287253366d3a4b3b423854729cfba",
+          "section": "Examples",
+          "line": 25,
+          "column": 10,
+          "surface": "discrete metric",
+          "context": "].\n\n## Examples\n\n- In \\((\\mathbb{R},|\\cdot|)\\), \\(\\overline{B}(x,r)=[x-r,x+r]\\).\n- In the discrete metric on \\(X\\), \\(\\overline{B}(x,0)=\\{x\\}\\) and \\(\\overline{B}(x,1)=X\\).\n",
+          "signal": "noun_phrase",
+          "candidate_id": "598140349352d31de6127b9c"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The phrase names a standard metric example, but no dedicated target is needed to understand the closed-ball example."
+    },
+    {
+      "phrase": "existence theorem",
+      "related_targets": [
+        "complex-analysis/hormander-l2-dbar-theorem",
+        "differential-geometry/tubular-neighborhood-theorem",
+        "linear-algebra/basis-existence-theorem"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/batchelor-theorem",
+          "source_path": "content/supergeometry/batchelor-theorem.knowl.md",
+          "source_sha256": "6fcd121eb4bcabef229ac345f3297f24c7c04a200602e761daedf089742f6fd3",
+          "section": "Noncanonical is essential",
+          "line": 32,
+          "column": 19,
+          "surface": "existence theorem",
+          "context": "athcal J_X^2\\) with sections of \\(E^*\\).\n\n## Noncanonical is essential\n\nThe theorem is an existence theorem. A splitting requires choices, commonly\nconstructed using partitions of unity, and is generally neither unique nor\nnatu",
+          "signal": "noun_phrase",
+          "candidate_id": "16a22b4e217d6076521ab8cc"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "This is a generic classification of Batchelor’s result, not a dependency."
+    },
+    {
+      "phrase": "constant sequence",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "shared-foundations/sequence",
+          "source_path": "content/shared-foundations/sequence.knowl.md",
+          "source_sha256": "8c7ab1393189e57918cc78f9a7bf02e8b2148386404a78c8586ec4576fa895a5",
+          "section": "Examples",
+          "line": 23,
+          "column": 59,
+          "surface": "constant sequence",
+          "context": "nal-numbers|rational numbers]].\n- The rule \\(a_n=7\\) for all \\(n\\in\\mathbb{N}\\) defines a constant sequence in \\(\\mathbb{Z}\\) (the [[shared-foundations/integers|integers]]).\n",
+          "signal": "noun_phrase",
+          "candidate_id": "f403d8cda407cda66c599751"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The constant sequence is an elementary example already explained by the sequence definition; no separate expansion is needed."
+    },
+    {
+      "phrase": "coordinate map",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "supergeometry/superdomain",
+          "source_path": "content/supergeometry/superdomain.knowl.md",
+          "source_sha256": "b9856ee7b76df0f022bd1f1af60b6c6632bef7f07cd81a2a8c69597a12055152",
+          "section": "Morphisms in coordinates",
+          "line": 42,
+          "column": 48,
+          "surface": "coordinate map",
+          "context": "nd odd target coordinates to odd sections,\nsubject to the condition that the reduced even coordinate map lands in the\ntarget domain.\n\nFor \\(q=0\\), \\(U^{p|0}\\) is the superspace associated to the ordinary smooth\ndomain \\(U\\).",
+          "signal": "noun_phrase",
+          "candidate_id": "7c5644f2898b79b011f6ec82"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The coordinate map is local notation in the superdomain morphism formula, not a missing canonical definition."
+    },
+    {
+      "phrase": "indiscrete topology",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/closed-set",
+          "source_path": "content/topology/closed-set.knowl.md",
+          "source_sha256": "facb8ce1e435456caf8c7f55a762da936b50dd8049be0bf6588f16fc6fac0cad",
+          "section": "Examples",
+          "line": 22,
+          "column": 10,
+          "surface": "indiscrete topology",
+          "context": "is closed.\n- In the discrete topology on \\(X\\), every subset of \\(X\\) is closed.\n- In the indiscrete topology on \\(X\\), the only closed sets are \\(\\varnothing\\) and \\(X\\).\n",
+          "signal": "noun_phrase",
+          "candidate_id": "a1dff567adadc93f5db37e63"
+        }
+      ],
+      "classification": "existing_target",
+      "adjudication": "The indiscrete topology is a standard example but not required to parse the closed-set definition."
+    },
+    {
+      "phrase": "unit disk",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "topology/boundary",
+          "source_path": "content/topology/boundary.knowl.md",
+          "source_sha256": "1d492e326b893fdcb31de03c0d1dad2fe62661648c1d45f76dad23ee0abe37b4",
+          "section": "Examples",
+          "line": 31,
+          "column": 49,
+          "surface": "unit disk",
+          "context": "(\\mathbb{R}\\), \\(\\partial(0,1)=\\{0,1\\}\\).\n- In \\(\\mathbb{R}^2\\), the boundary of the open unit disk \\(B(0,1)\\) is the unit circle \\(S(0,1)\\).\n- If \\(A=\\mathbb{Q}\\subseteq\\mathbb{R}\\), then \\(\\partial A=\\mathbb{R}\\) (eve",
+          "signal": "noun_phrase",
+          "candidate_id": "d5744eef904fc53086079d25"
+        }
+      ],
+      "classification": "local_compositional",
+      "adjudication": "The unit disk is an elementary example in R^2, not a missing dependency knowl."
+    }
+  ],
+  "notes": [
+    "Full linking and dependency-scope review completed for all 100 assigned sources; phrase matches were checked against source context and target bodies."
+  ]
+}

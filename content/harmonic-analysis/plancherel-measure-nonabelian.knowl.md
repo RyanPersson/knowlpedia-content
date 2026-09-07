@@ -17,7 +17,7 @@ Let \(G\) be a second-countable, unimodular, type I
 \(\widehat G\) be its [[harmonic-analysis/unitary-dual|unitary dual]]. For
 \(f\in L^1(G)\cap L^2(G)\), set
 \(\pi(f)=\int_G f(g)\pi(g)\,dg\). The **Plancherel measure**
-\(\mu_{\mathrm{Pl}}\) is the unique positive Borel measure on \(\widehat G\)
+\(\mu_{\mathrm{Pl}}\) is the unique positive [[measure-theory/borel-measure|Borel measure]] on \(\widehat G\)
 for which
 \[
 \lVert f\rVert_2^2

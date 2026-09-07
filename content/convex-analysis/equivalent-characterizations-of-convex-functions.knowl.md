@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 **Theorem.**
-Let \(f:X\to\mathbb{R}\) be a real-valued function on a real vector space \(X\). The following are equivalent:
+Let \(f:X\to\mathbb{R}\) be a real-valued function on a real [[linear-algebra/vector-space|vector space]] \(X\). The following are equivalent:
 
 1. \(f\) is [[convex-analysis/convex-function-via-epigraph|convex]] (i.e., \(\mathrm{epi}(f)\) is convex).
 2. (**Jensen inequality**) For all \(x,y\in X\) and \(\lambda\in(0,1)\),

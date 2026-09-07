@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A morphism of schemes \(f:X\to S\) is **smooth** if it is locally of finite
+A [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]] \(f:X\to S\) is **smooth** if it is locally of finite
 presentation, [[algebraic-geometry-foundations/flat-morphism|flat]], and every
 geometric fiber \(X_{\overline s}\) is regular.
 

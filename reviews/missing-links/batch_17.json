@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "fiber-bundles/spin-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb243521b785699da0698f31a5e6731c88578f124b827e0b33c54412b9b39609",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/splitting-of-the-atiyah-sequence",
+      "outcome": "corrected",
+      "source_sha256": "98b6274fa62a12ea72f5c7a81a2db7b320755b53b3637b19990df7909bcadd4f",
+      "evidence": "Read complete source and target definitions for vector bundle and horizontal distribution; linked the core occurrence of \u201cvector bundle\u201d to fiber-bundles/vector-bundle. Other candidate phrases were checked and rejected where generic or explanatory, and prerequisites were retained as semantically justified."
+    },
+    {
+      "id": "fiber-bundles/splitting-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b6cc7c5f2dcfa43ffa859289693abe53d31c9a6c35f910527dea92732166c85",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/splitting-theorem-for-vector-bundles",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21f2f7355a2463559e9b747a125feec5526d8fb7c91ea836ae330480749d4ca8",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/stabilizer-of-a-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5fcc2ae2d8ada3ec40654498fdaf20c5200d0ed08da3000723625ff8857252de",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/stiefel-whitney-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "095f3a66a60c4e635c5004a0fc613d55536ea084ca5d5324305897afcd611ba5",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/support-of-a-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "551fc839bfb18221a8d596e76925142cc6652d02786ac20f7eaf87247445664d",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/symmetric-power-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "656762fe7cc28b763b53908d1bbeb3a40df8f467f742a093fb73aaa27582794b",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d101959b2e407e91ec0d79f2618d4049e71284cba1a7d4d830af781155a39f8e",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle-cocycle-from-coordinate-changes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a06da8a382252cecf0c9394adbf6db55f7d5e3bd5141254f13d56cb708a11479",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85f7eea2a9572685a3954402847d98085726a4259f8593bc67f8203ffa6413dd",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tangent-space-at-a-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "658740265e4dea02ae577d1853d73a577d4013bf179c6089091a9514ddd9d4a2",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tangent-space-to-flat-connection-moduli",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "730b4e05c4cd1e527115a1b1a4fa5d95c962303cf189dc763271660fc9b72d3a",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tensor-product-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5ad8c59dacaa8c2725576b2ea23eab4ceaf0f7ec914850548d209fda518b6db",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tensor-product-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06bfe1ed0e9954056a03a1983eba9650985e0845db281b283a49fedba2813c5b",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6976b1cfb75e6dab54d7d74827299a2381d8e79b44ae03115e06f447f10ecf9",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tfae-metric-compatible-connections-on-a-metric-vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3460c5a1eb3114f2b4b121d1db23967c250031d38ac12f0d096495d27417f71e",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tfae-principal-connection-data-principal-g-bundle-pm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af0d8d12368347848a8219403780170b1639ae24f1e2b365cd9c4040435f08d6",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc6fa97688306303a67f37872646bfc47408558e69866363b52bae3f871f4465",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tfae-tensorial-forms-vs-ad-valued-forms-principal-g-bundle-pm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c91eaff9f050420f691577136c2e9af5f154fcaecdd1e78d782a1b22b09c99e",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aff2727d5cf10061da352332e4293528642178b4b7388a607b0d8b7a827659d6",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "815372fc75d9d06f6108f8653fe8579c1eadb5a4ab1d59af529ff2011cfc0fe9",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/thom-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39599548106fdd063bbf02f8fef033dfe71773891342ae3ce27c4974119eea6d",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/thom-isomorphism-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90d512b77bd9e831425ec564781a89e5f26d1a5180c77eedffc492bb82049753",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/torsion-2-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1979332d1cb41e34c38ceeeab27a99e05a17f654c30e02bae8d9d6420ead26e",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/transgression-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7098c455ac51b9c1dbf0c3432562605e48d1f03e5433d8478ca8e6aaab7ef2cb",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/transgression-theorem-p-p-is-exact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d9266ff5e399c29c6a125680cf40d3b845098a81625d172eb7883568cea9eb3",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/transition-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "174c356b63ef887a41ba5d8e5e5530bba4f3eb6d31a2a8b71ba266dc2f9a9e9d",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/transition-matrix-of-a-local-frame",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c62d1fa1e7f05714ee6ae900d026ba8b6faac91c78ec308c9cd9eb75ca6fdb77",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/trivial-fiber-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca416ed35df6ccc6461c8ccc018bbe0f16b4c2253c7bbcc5b4fa67b919e12b95",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e797a6d9ef25ea6207d5814073aded80ab55d063c81f7ca6de0ecd57c2ee455d",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/trivial-principal-bundle-mgm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9754b0b6e92436d8e7ef88fd53a8fab4b600681081621b8e0a592fa531a4e5be",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/trivial-vector-bundle-mvm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "68f6789f183d50d35db73a8dd350f9b91b866341e903f72a245f0b5230e4db79",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/typical-fiber",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "042223d5defab6c842dd2291f38296972fbf7f44050b7bf358db76ef39f6b8a5",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/uhlenbeck-compactness-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb76c7c4eb11e2906cc6801f9311ec4f7f89ffa3e62ac9f1f3ef5be4d35998e8",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/uhlenbeck-removable-singularity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcbf0ac1fc2165ebf52ec4132c8f7175823040a768235d90ad372bc7b3776f5a",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/unit-tangent-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8c85df2a98d776243ec8cf6aa9d5eab3ab79d4798950e72b92a4a4a2dd665cf",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/unitary-frame-bundle-reduction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a111dc08c151a5a10a1ae77a56c23ee7aac863f7f9e1f1e8d3792b40a267b5b",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/universal-characteristic-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e8934f67f9ccc6db7d6cb87ad09c3b8c86528a0f1e11759e97c50f6d32a5432",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/universal-principal-bundle-egbg",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e1621da76d2e5e327eddf8851ebe633350c726d62e390db40d9d9c410676ac39",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vector-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ba6672f7570092644e9ab3780ff7a0393d641432734401e20a602249db4cfa7",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vector-bundle-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "839f56479ad0b539c404aef78424acd45ccb7e748a8bf0b41bf842503fae0ee1",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vector-bundle-valued-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9b555a276eee45145badace106ef5d071f018d404548db5451f9bb57c0d29217",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vector-bundles-and-locally-free-sheaves",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b8606231329b3f8e55c4f516a515af4df17f837d940f681dde7d48e175246666",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f33091f6895465017cbc0c6c7f91664d7c91ebbb8776a9d119b428200f1e8124",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vector-subbundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "befbd6aaf062d5ac0bcf934a113d801a6493e67dddb513516c3b51506cb24604",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vertical-subbundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2ad222a7fb69e98c30ba426d4e709923f30f83b1a77eec2f3c2d8aac1f7b5028",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vertical-tangent-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb7a97dca35bb6c2e151138a460f7815c67af6240ba090b9ef2c03bb63d60c41",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/vertical-vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "916fd158c3ad1df42f031a52e899d95f2fdb0e076a0109508dc3afa31ba6dd34",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/wedge-product-of-differential-forms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d972723aa076bc86838a04d28b40f6e1f219659ce14228a447f9c9ce3bc90114",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/whitney-sum-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab81ae4f536a66b38ffdfc7e626eef9b8a20fda5668d7b625db8b7d20fe57a5e",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/wilson-loop",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1329f775b1411829b912031fcfbfd440f02200a7dd67a684b921272fe05ff214",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/yang-mills-energy-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc8c435230f158b8ab42e2d2bf742848156d763be35f55db7963adf0771426ea",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/yang-mills-moduli-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d94a943a1bc7154c7564ecb80036c9aa29f3ab982ce10583220c0168c633f8d6",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/yangmills-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2bb80ef41c6ba0c44438d53cd937f13c0a3afa4508f8e51780ce3f7450e5a70",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/yangmills-equation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1917caa55d25a9b7bbfb4db5165d19a177b6865822b88566bff72ac552f9c031",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/yangmills-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac8a29f7baee0bbb94f5ccb670283f20ad68317964b4682a09e5b166a7f9d340",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "fiber-bundles/zero-section",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8606c4875d773f059f70d138f17c010bd5a1a9ddf3b6bad8b583c7538488dea3",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/additive-and-multiplicative-formal-group-laws",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "efef024caaeb61ca59731719b174e57d223dcd647a7e6185e7a3ac845f22459c",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/affine-formal-groups-and-complete-hopf-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e2d2da89d350d4ce2b340cda56c83d3538cc57b280f19bb5646682ab8b475f2",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/complete-filtered-lie-algebra-bch-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8b2f483ef072d9c20554d9922c8a5bc300661e3c43e412cb498f4110c858b5d7",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/coordinate-hopf-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c1f49362c46d221cfbf7597ea38e429cfa04a823f09154cd02f315afb70ee4be",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/distribution-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b866121ac069fb197ec35c4c79eec7e17bc262067997af0a06adb39d8e56131f",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/distribution-algebra-and-universal-enveloping-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4a809171ae000520cc49e2506161ba0d16e37bedd8a0de44ff1e1eebdbacbdb3",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/formal-affine-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3782fce7ca3366a0a9de6973f1d5d7c08e64a45cbebcc6d0aed320c69494c931",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/formal-completion-at-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39760c9ed294257135cde1d9c4469540d083bd37f2039540f82517d74d3bfa36",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/formal-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3e73cc72b4cc66f5369403992f1b3d64b4d20c8aece9ef1405c6752d73ce7786",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/formal-group-law",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed1d48dc8e11361809f55f3d29bcebfabb501321ee513e6f40b051cf3e5568d9",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/formal-group-law-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "462aacf6e3cc6d7697f34de15462e2db833b332073a5f14f6da98750e153055f",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/formal-group-laws-as-coordinates",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0bc3957e5a602b442e6d59416457e5915416fdcf6bf43a4e6a3b7ee92bbb1709",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/formal-group-logarithm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f4733ac13c2cf869336b7c39f61f96a41815ac94a47ec0f1a7bd81cf688b222",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/height-of-one-dimensional-formal-group-law",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09604a68abbdb22c49a2c30273d9cc89571db811ee9cffff9e6626a20135d73c",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/lie-algebra-formal-group-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e31a6e46172b086cc8d7ed56e910f917b8b153e14de12c0007e08ceec1b0f739",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/one-dimensional-formal-group-law",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cb5a987a2b66a4861655f67918193bf1e3fcf37af5812c5a2297239ba478c99",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/positive-characteristic-warning",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4984aaa1447c94d6284990fbbb066b40eb795c6a2b905936fbb90b03fc1eea90",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "formal-groups/tangent-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a89ab6a0168e2968011e57a11069c6034690f23eec07f085e04356eb06c4c6f8",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/adjoint-bounded-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5facbd1f755342bdc4b246b649fd47eabe806423db77861968db655815d9af16",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/adjoint-unbounded-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3aefc9bfe9df0567fa3880801d1fb9557a52713481aed65c4e94906793a86872",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/banach-alaoglu-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ad54458e4a3821af22399a01a2dbce7989374a97c2737776fe181b35e8842fd",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/banach-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e631f88415e0d76570d15b19f7adb9a3347b98e87ce4fe1bc0321bf1b8e0d684",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/banach-algebra-invertible-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2aa877820e03b2c905213e9f3c97d5b3a6b2d8b8f7afb853074133583a9d28d",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/banach-algebra-resolvent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3efe0d7fc4e37a9f5a6552b466e7e9cda5c89300bbdbe28b1f165d531e26613f",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/banach-algebra-spectral-radius",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dda596b440a2d3279b2d56d9c550014b83cab1bd760409fcd33c1f650e1e35d6",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/banach-algebra-spectral-radius-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "700019f430a3440bde1c422933dd39b9f5b4e1b82bf55d6738afee047cc48bc2",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/banach-algebra-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "894d71839c2b1e9aa52ebcb11b8e6575aac08b48c95c43eeab55c5c1af337fe1",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/barreled-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6b79ce986d65d9b4b5b8cb53d8c3590346e4b6eb6a233f8370aebcf6f1c04fa",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/borel-functional-calculus",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d87d71375b7e4e66b6af89d64f7f9619fc476e12c6c56e5498859fa1e604fc56",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/bornological-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a2b6c04173f7e48f33823f0af436124cdcbd3ec2d925becd441170386ca239a",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/bounded-commutator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6668fbaa64c3f9aa7b4ee06d3f0b70e83f352addafa068153e03d42a9230044",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/bounded-linear-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "65b452491f96f126b99722d868f458d6f6aa1a5438b27bad0984fcdac28f4206",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/bounded-subset-tvs",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "44fac260384106eadbe7dc90b82dc4cc30903cd0ec40691ee71ce0f291c8d1ce",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/closable-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a5890f56a77054bf474a30ac3438361579d42cec3d1a39f482e03edd2fb4a9c",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/closed-graph-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09c60038cf6c27363ef3a0da3952ec2d63744f0aa9e64895ab231d32191e40a0",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/closed-linear-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd55a9cc1380ac9b48fa42d1d3bc59c9b88281e6763a7b185b407e30318dc217",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/closed-quadratic-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3dec6ea51a28a8fe62fec07f7960eda1c9377c82355a42b144a95bfc206d0bb",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/closure-of-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e563f480a9d0d2edc95b5dab658316984af1abc8c62b85ccb09807c9473b366",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/compact-resolvent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "488fd14503aa0153b7280af60ae8efa828b6272e4526754fef34f270c9c71a08",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/compactly-supported-distribution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "948b5aeff9792a8b69396212f22e286ffbefca0dd02550da83bd3d71c1ec83d9",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/continuous-linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c7f8a5e21f592072847ba8972feeed0baaf6bca4b057d7861da3b9854f1656bc",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    },
+    {
+      "id": "functional-analysis/convolution-of-distributions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f90c72cfb2071ef2dbfcf3c70ce7cfe99165e57aa55ced6a5d78689bff5bb3cc",
+      "evidence": "Read complete source including core and all optional sections; checked existing internal links, candidate target definitions, and prerequisite metadata. Candidate matches were reviewed in context; generic single-word matches and locally defined notation were rejected. No missing reusable definition or dependency edge identified."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 17: 100 complete linking reviews across fiber-bundles, formal-groups, and functional-analysis."
+  ]
+}

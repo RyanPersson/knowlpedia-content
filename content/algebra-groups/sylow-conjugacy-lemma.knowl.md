@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Sylow Conjugacy Lemma**: Let \(G\) be a finite [[algebra-groups/group|group]], let \(p\) be a prime, and let \(P\) be a [[algebra-groups/sylow-subgroup|Sylow p-subgroup]] of \(G\). If \(Q\le G\) is a subgroup whose order is a power of \(p\) (equivalently, \(Q\) is a finite [[algebra-groups/p-group|p-group]]), then there exists \(g\in G\) such that \(Q\le gPg^{-1}\).
+**Sylow Conjugacy Lemma**: Let \(G\) be a finite [[algebra-groups/group|group]], let \(p\) be a prime, and let \(P\) be a [[algebra-groups/sylow-subgroup|Sylow p-subgroup]] of \(G\). If \(Q\le G\) is a [[algebra-groups/subgroup|subgroup]] whose order is a power of \(p\) (equivalently, \(Q\) is a finite [[algebra-groups/p-group|p-group]]), then there exists \(g\in G\) such that \(Q\le gPg^{-1}\).
 
 ## Remarks
 

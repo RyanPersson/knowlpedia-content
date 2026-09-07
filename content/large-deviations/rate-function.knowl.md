@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **rate function** on a topological space \(E\) is a lower semicontinuous function \(I:E\to[0,\infty]\) that is not identically \(+\infty\). Equivalently, for every \(\alpha\in\mathbb R\), its sublevel set
+A **rate function** on a [[topology/topological-space|topological space]] \(E\) is a lower semicontinuous function \(I:E\to[0,\infty]\) that is not identically \(+\infty\). Equivalently, for every \(\alpha\in\mathbb R\), its sublevel set
 \[
 \{x\in E:I(x)\le \alpha\}
 \]

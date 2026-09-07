@@ -67,7 +67,7 @@ For a nonsplit group, the parameter is valued in the appropriate
 At an unramified place, a
 [[langlands-letter/knowls/spherical-hecke-algebra-satake|spherical Hecke
 operator]] is recovered as a
-particular excursion operator. Therefore the excursion decomposition
+particular [[langlands/excursion-operator|excursion operator]]. Therefore the excursion decomposition
 refines the simultaneous Hecke eigenspace decomposition and determines the
 unramified [[langlands/satake-parameter|Satake classes]].
 

@@ -32,7 +32,7 @@ This inequality controls continuity and identifies the null space used in the [[
 ## Example: integration
 
 For a compact Hausdorff space \(X\), integration against a finite positive
-Borel measure \(\mu\) gives a positive functional on \(C(X)\):
+[[measure-theory/borel-measure|Borel measure]] \(\mu\) gives a positive functional on \(C(X)\):
 \(\varphi(f)=\int_X f\,d\mu\). Point evaluation is the special case
 \(\mu=\delta_{x_0}\); its one-dimensional GNS representation is worked out
 in the [[operator-algebras/gns-construction|GNS construction]].

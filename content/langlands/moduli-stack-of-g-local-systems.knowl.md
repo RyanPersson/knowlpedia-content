@@ -34,7 +34,7 @@ de Rham and Betti stacks; it does not identify their algebraic structures.
 ## Why the derived stack matters
 
 Automorphisms and deformation-obstruction groups are part of the moduli
-problem. The derived enhancement records them. For a smooth projective curve,
+problem. The derived enhancement records them. For a [[algebraic-geometry-foundations/smooth-projective-curve|smooth projective curve]],
 \(\operatorname{LocSys}^{\mathrm{dR}}_G(X)\) is quasi-smooth, so coherent
 sheaves on it have a
 [[langlands/singular-support-of-coherent-sheaf|singular support]].

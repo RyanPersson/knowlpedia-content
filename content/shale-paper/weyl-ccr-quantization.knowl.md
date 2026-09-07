@@ -21,7 +21,7 @@ satisfying the **Weyl relations**
 \[
 V(z_1)V(z_2)=e^{-iB(z_1,z_2)/2}\,V(z_1+z_2).
 \]
-It is **regular** if, for every \(z\in K\), the one-parameter unitary group
+It is **regular** if, for every \(z\in K\), the [[lie-groups/stone-theorem-one-parameter-unitary-groups|one-parameter unitary group]]
 \(t\mapsto V(tz)\) is strongly continuous. A regular Weyl representation is
 the exponentiated form of a quantization of the canonical commutation
 relations.
@@ -48,7 +48,7 @@ this setting is equivalent to, the one-parameter condition above. Compare
 
 ## Examples
 
-For the Schrödinger representation on \(L^2(\mathbb R)\), let \(Q\) be
+For the [[shale-paper/schrodinger-representation|Schrödinger representation]] on \(L^2(\mathbb R)\), let \(Q\) be
 multiplication by \(x\) and let \(P=-i\,d/dx\). With
 \[
 B\bigl((q,p),(q',p')\bigr)=q p'-p q',

@@ -15,7 +15,7 @@ dependency_review_count = 1
 \[
 L=\limsup_{n\to\infty}\sqrt[n]{|a_n|},
 \]
-where the limit superior is allowed to take the value \(+\infty\).
+where the [[real-analysis/limit-superior|limit superior]] is allowed to take the value \(+\infty\).
 
 - If \(L<1\), the series is [[real-analysis/absolutely-convergent-series|absolutely convergent]].
 - If \(L>1\), including \(L=+\infty\), the series [[real-analysis/divergent-series|diverges]].

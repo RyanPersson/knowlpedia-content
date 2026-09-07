@@ -29,7 +29,7 @@ Uniqueness for the geodesic equation gives
 
 ## Negative curvature
 
-On a compact manifold of strictly negative sectional curvature, the geodesic
+On a compact manifold of strictly negative [[differential-geometry/sectional-curvature|sectional curvature]], the geodesic
 flow is an [[differential-geometry/anosov-flow|Anosov flow]]. Exponential
 stable and unstable behavior is the dynamical source of the fractal sets used
 in quantum-chaos uncertainty arguments.

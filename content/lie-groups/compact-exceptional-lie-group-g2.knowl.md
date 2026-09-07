@@ -17,17 +17,17 @@ Its distinguished representation is the faithful irreducible action on the seven
 
 ## Octonion automorphisms
 
-There is a natural isomorphism
+There is a [[algebra-category-theory/natural-isomorphism|natural isomorphism]]
 \[
 G_2\cong\operatorname{Aut}_{\mathbb R\text{-alg}}(\mathbb O).
 \]
-Every automorphism fixes \(1\), preserves [[nonassociative-algebra/octonion-conjugation-norm-and-inner-product|octonion conjugation]] and the norm, and hence acts orthogonally on \(\operatorname{Im}\mathbb O\). This realizes \(G_2\) as a closed subgroup of \(SO(7)\). Equivalently, it is the stabilizer of the alternating three-form
+Every automorphism fixes \(1\), preserves [[nonassociative-algebra/octonion-conjugation-norm-and-inner-product|octonion conjugation]] and the norm, and hence acts orthogonally on \(\operatorname{Im}\mathbb O\). This realizes \(G_2\) as a closed subgroup of \(SO(7)\). Equivalently, it is the [[algebra-groups/stabilizer|stabilizer]] of the alternating three-form
 \[
 \varphi(x,y,z)=\langle xy,z\rangle
 \]
 on \(\operatorname{Im}\mathbb O\), with a consistent choice of sign convention.
 
-The use of the division octonions selects the compact form. Automorphisms of the split octonions form the split real group \(G_{2(2)}\), while complexification gives the complex [[algebraic-geometry-foundations/algebraic-group|algebraic group]] of type \(G_2\).
+The use of the division octonions selects the compact form. Automorphisms of the split octonions form the split real group \(G_{2(2)}\), while [[linear-algebra/complexification|complexification]] gives the complex [[algebraic-geometry-foundations/algebraic-group|algebraic group]] of type \(G_2\).
 
 ## The SU(3) stabilizer
 

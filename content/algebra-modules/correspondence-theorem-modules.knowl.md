@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Correspondence theorem (modules)**: Let \(M\) be an \(R\)-module and \(N\subseteq M\) a submodule. Let \(\pi\colon M\to M/N\) be the quotient map. Then the assignments
+**Correspondence theorem (modules)**: Let \(M\) be an \(R\)-module and \(N\subseteq M\) a [[algebra-modules/submodule|submodule]]. Let \(\pi\colon M\to M/N\) be the quotient map. Then the assignments
 - \(L \mapsto L/N\) (for submodules \(L\subseteq M\) with \(N\subseteq L\)),
 - \(K \mapsto \pi^{-1}(K)\) (for submodules \(K\subseteq M/N\)),
 define inverse, inclusion-preserving bijections between the set of [[algebra-modules/submodule|submodules]] of \(M\) containing \(N\) and the set of submodules of the [[algebra-modules/quotient-module|quotient module]] \(M/N\). The inverse image operation uses the notion of [[shared-foundations/preimage|preimage]] under \(\pi\).

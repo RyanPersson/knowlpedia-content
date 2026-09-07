@@ -38,7 +38,7 @@ The sum is direct, so \(\alpha(H)X_\alpha=0\) for every \(H\). For each root
 ## Convention outside the semisimple case
 
 For a general finite-dimensional Lie algebra over an algebraically closed
-field of characteristic \(0\), a common definition says that a Cartan
+field of [[algebra-rings/characteristic|characteristic]] \(0\), a common definition says that a Cartan
 subalgebra is a nilpotent, self-normalizing subalgebra. Under that convention,
 the displayed equality is part of the definition rather than a separate
 lemma. The substantive semisimple statement above is that the alternative

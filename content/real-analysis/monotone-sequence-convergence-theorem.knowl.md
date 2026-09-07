@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Monotone sequence convergence theorem:** Let \((a_n)\) be a [[real-analysis/monotone-sequence|monotone sequence]] of real numbers.
+**Monotone sequence convergence theorem:** Let \((a_n)\) be a [[real-analysis/monotone-sequence|monotone sequence]] of [[shared-foundations/real-numbers|real numbers]].
 
 - If \((a_n)\) is increasing and [[real-analysis/bounded-above|bounded above]], then \((a_n)\) converges and
 \[

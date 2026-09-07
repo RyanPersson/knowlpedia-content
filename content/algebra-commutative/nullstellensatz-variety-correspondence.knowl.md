@@ -11,15 +11,15 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(k\) be an algebraically closed [[algebra-rings/field|field]] and let \(A=k[x_1,\dots,x_n]\). For an ideal \(I\subseteq A\), define its zero set
+Let \(k\) be an algebraically closed [[algebra-rings/field|field]] and let \(A=k[x_1,\dots,x_n]\). For an [[algebra-rings/ideal|ideal]] \(I\subseteq A\), define its zero set
 \[
 V(I)=\{a\in k^n : f(a)=0 \text{ for all } f\in I\}.
 \]
-For a subset \(X\subseteq k^n\), define the ideal of functions vanishing on \(X\) by
+For a [[shared-foundations/subset|subset]] \(X\subseteq k^n\), define the ideal of [[shared-foundations/function|functions]] vanishing on \(X\) by
 \[
 I(X)=\{f\in A : f(a)=0 \text{ for all } a\in X\}.
 \]
-The sets \(V(I)\) are exactly the closed sets of the [[algebra-commutative/zariski-topology|Zariski topology]] on \(k^n\).
+The sets \(V(I)\) are exactly the [[topology/closed-set|closed sets]] of the [[algebra-commutative/zariski-topology|Zariski topology]] on \(k^n\).
 
 **Theorem (Nullstellensatz, variety–ideal correspondence).**
 With \(k\) and \(A\) as above, the following hold:

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **symplectic form** on a real vector space \(K\) is a bilinear form \(B:K\times K\to\mathbb R\) with
+A **symplectic form** on a real [[linear-algebra/vector-space|vector space]] \(K\) is a [[linear-algebra/bilinear-form|bilinear form]] \(B:K\times K\to\mathbb R\) with
 \(B(x,y)=-B(y,x)\) and **nondegeneracy**: \(B(x,\cdot)=0\Rightarrow x=0\).
 
 ## Remarks

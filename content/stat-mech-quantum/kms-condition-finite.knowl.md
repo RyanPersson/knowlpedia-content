@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathcal A=\mathcal B(\mathcal H)\) for a finite-dimensional Hilbert space, let \(H=H^*\), fix \(\beta>0\), and use units with \(\hbar=1\). Write
+Let \(\mathcal A=\mathcal B(\mathcal H)\) for a finite-dimensional [[linear-algebra/hilbert-space|Hilbert space]], let \(H=H^*\), fix \(\beta>0\), and use units with \(\hbar=1\). Write
 \[
 \tau_t(A)=e^{itH}Ae^{-itH}.
 \]

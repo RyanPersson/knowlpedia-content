@@ -11,13 +11,13 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **projective unitary representation** assigns each \(g\in G\) a **unitary ray**
+A **[[lie-groups/projective-unitary-representation|projective unitary representation]]** assigns each \(g\in G\) a **unitary ray**
 \(\overline{U}(g)=\{\alpha U(g):|\alpha|=1\}\), with multiplication holding up to a phase (a cocycle).
 Equivalently, it is a homomorphism
 \[
 \overline U:G\longrightarrow PU(H)=U(H)/U(1)
 \]
-for a complex Hilbert space \(H\). After choosing a unitary representative \(U_g\) of each projective class, there is a function \(\omega:G\times G\to U(1)\) such that
+for a complex [[linear-algebra/hilbert-space|Hilbert space]] \(H\). After choosing a unitary representative \(U_g\) of each projective class, there is a function \(\omega:G\times G\to U(1)\) such that
 \[
 U_gU_h=\omega(g,h)U_{gh}.
 \]
@@ -32,7 +32,7 @@ Changing the representatives \(U_g\) changes \(\omega\) by a coboundary but leav
 **Key properties (paper use):**
 - Shale's implementers \(Y(T)\) are unique only up to phase, so \(\overline{Y}\) is projective.
 - In finite dimensions, \(\overline{Y}\) lifts to a genuine double-valued unitary representation (§5).
-- More generally, a projective representation lifts to an ordinary unitary representation precisely when its multiplier class is trivial; it may instead lift after passing to a central extension of \(G\).
+- More generally, a projective representation lifts to an ordinary unitary representation precisely when its multiplier class is trivial; it may instead lift after passing to a [[algebra-groups/central-extension|central extension]] of \(G\).
 
 ## Examples
 

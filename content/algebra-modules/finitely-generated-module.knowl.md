@@ -17,7 +17,7 @@ m=r_1m_1+\cdots+r_nm_n
 \]
 for some \(r_1,\dots,r_n\in R\).
 
-Finiteness hypotheses are central for structure theorems (e.g. over a PID) and for Noetherian conditions.
+Finiteness hypotheses are central for structure theorems (e.g. over a [[algebra-rings/pid|PID]]) and for Noetherian conditions.
 
 ## Remarks
 

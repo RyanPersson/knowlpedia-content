@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Shale's **restricted general linear group** is
+Shale's **restricted [[lie-groups/general-linear-group|general linear group]]** is
 \[
 rGL(H)=\{T\in GL(H): |T|=(T^*T)^{1/2}\in GL(H)_2\}.
 \]

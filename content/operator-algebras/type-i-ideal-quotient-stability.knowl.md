@@ -28,7 +28,7 @@ unitality assumptions.
 
 An
 [[operator-algebras/irreducible-cstar-representation|irreducible representation]]
-of \(A/I\) lifts along the quotient map to an [[algebra-representation-theory/irreducible-representation|irreducible representation]] of
+of \(A/I\) lifts along the [[operator-algebras/quotient-cstar-algebra|quotient map]] to an [[algebra-representation-theory/irreducible-representation|irreducible representation]] of
 \(A\), so its image contains the
 [[operator-algebras/compact-operator-cstar-algebra|compact operators]]. For an
 irreducible representation of \(I\), the standard extension to \(A\)

@@ -30,7 +30,7 @@ whole algebra. This is a property of \(A\), not one representation.
 
 Continuous-trace algebras are [[operator-algebras/type-i-cstar-algebra|type I]] and, locally over their spectrum, are strongly Morita equivalent to commutative algebras \(C_0(U)\). Under the usual separability and paracompactness hypotheses, their stabilizations are section algebras of locally trivial bundles of [[operator-algebras/compact-operator-cstar-algebra|compact-operator algebras]].
 
-Consequently a continuous-trace algebra is a particularly regular [[operator-algebras/continuous-field-cstar-algebra|continuous field of \(C^*\)-algebras]]. Its fibers in irreducible representations are [[linear-algebra/compact-operator|compact operators]] rather than arbitrary type I algebras.
+Consequently a continuous-trace algebra is a particularly regular [[operator-algebras/continuous-field-cstar-algebra|continuous field of \(C^*\)-algebras]]. Its fibers in [[algebra-representation-theory/irreducible-representation|irreducible representations]] are [[linear-algebra/compact-operator|compact operators]] rather than arbitrary type I algebras.
 
 ## Morita invariance
 

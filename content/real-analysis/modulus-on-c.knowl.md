@@ -18,7 +18,7 @@ For \(z=a+bi\in\mathbb{C}\), the **modulus** (or **absolute value**) of \(z\) is
 
 ## Remarks
 
-The modulus makes \(\mathbb{C}\) into a normed space and induces the standard metric \(d(z,w)=|z-w|\). It is the complex analogue of absolute value and is crucial for convergence of complex sequences and series.
+The modulus makes \(\mathbb{C}\) into a [[linear-algebra/normed-vector-space|normed space]] and induces the standard [[topology/metric|metric]] \(d(z,w)=|z-w|\). It is the complex analogue of [[real-analysis/absolute-value|absolute value]] and is crucial for convergence of complex sequences and series.
 
 ## Examples
 

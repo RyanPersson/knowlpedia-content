@@ -44,7 +44,7 @@ identity.
 
 The Albert algebra has rank \(3\). Its Jordan trace is
 \(\alpha+\beta+\gamma\), and it has a cubic Jordan determinant. Its
-characteristic polynomial is
+[[linear-algebra/characteristic-polynomial|characteristic polynomial]] is
 \[
 t^3-\operatorname{tr}_J(X)t^2+s(X)t-\det_J(X).
 \]

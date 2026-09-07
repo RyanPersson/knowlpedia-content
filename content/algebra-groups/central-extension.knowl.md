@@ -24,6 +24,6 @@ Central extensions are a special case of [[algebra-groups/group-extension|group 
 
 ## Examples
 
-- The quaternion group fits into a central extension \(1\to \{\pm 1\}\to Q_8\to Q_8/\{\pm1\}\to 1\).
+- The [[algebra-groups/quaternion-group|quaternion group]] fits into a central extension \(1\to \{\pm 1\}\to Q_8\to Q_8/\{\pm1\}\to 1\).
 - If \(E\) is abelian, then every extension \(1\to A\to E\to Q\to 1\) is central.
 - For any group \(G\), the quotient map \(G\to G/Z(G)\) exhibits \(G\) as a central extension of \(G/Z(G)\) by \(Z(G)\).

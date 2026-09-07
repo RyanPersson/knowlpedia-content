@@ -26,11 +26,11 @@ The four-form
 \]
 represents \(c_2(E)\) because \(c_1(E)=0\) for an \(SU(r)\)-bundle. Replacing \(A\) by another connection changes this form by an exact [[fiber-bundles/transgression-form|transgression form]], whose integral over closed \(M\) vanishes. Thus the number depends on the bundle and orientation, not on the chosen representative connection.
 
-For a general compact structure group, an “instanton number” requires choosing an invariant quadratic form normalized to represent an integral [[fiber-bundles/characteristic-class|characteristic class]]. The resulting charge need not use the displayed trace normalization.
+For a general compact structure group, an “instanton number” requires choosing an invariant [[linear-algebra/quadratic-form|quadratic form]] normalized to represent an integral [[fiber-bundles/characteristic-class|characteristic class]]. The resulting charge need not use the displayed trace normalization.
 
 ## Energy and self-duality
 
-In four dimensions, decompose \(F_A=F_A^++F_A^-\) using the Hodge star. The Chern–Weil integral is proportional to
+In four dimensions, decompose \(F_A=F_A^++F_A^-\) using the [[differential-geometry/hodge-star-operator|Hodge star]]. The Chern–Weil integral is proportional to
 \[
 \|F_A^-\|_{L^2}^2-\|F_A^+\|_{L^2}^2
 \]

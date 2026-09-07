@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "topology/uniqueness-of-limits-hausdorff",
+      "outcome": "corrected",
+      "source_sha256": "7eb3b103c582110d82476b036544a5c82ab8db8a16f409c67c2ea96311a0d91e",
+      "evidence": "Read the complete uniqueness statement and commentary together with topology/hausdorff-space, topology/convergent-sequence, topology/metric-space, shared-foundations/sequence and topology/compact-subset-of-hausdorff-is-closed. Linked sequence in the hypothesis to the natural-number-indexed function definition, and metric spaces in the comparison to the metric-space definition. Existing Hausdorff/convergence links match neighborhood-based convergence; the compact-closed link is a related theorem, not a prerequisite. Retained the existing two direct prerequisites: convergence supplies sequences transitively, while metric spaces and compactness are commentary only. No unresolved independent definition needed for this sequence theorem; no claim about nets was added."
+    }
+  ],
+  "gaps": []
+}

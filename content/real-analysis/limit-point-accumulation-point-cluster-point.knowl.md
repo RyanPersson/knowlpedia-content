@@ -15,7 +15,7 @@ Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subseteq X
 \[\forall r>0,\ \bigl(B(x,r)\setminus\{x\}\bigr)\cap A \neq \varnothing\]
 (see [[topology/open-ball|open ball]]).
 
-Limit points are the points that can be approached by elements of \(A\) distinct from the point itself. They determine closedness (a set is [[topology/closed-set|closed]] iff it contains all its limit points) and appear throughout analysis. Compare with [[real-analysis/isolated-point|isolated points]].
+[[topology/limit-point|Limit points]] are the points that can be approached by elements of \(A\) distinct from the point itself. They determine closedness (a set is [[topology/closed-set|closed]] iff it contains all its limit points) and appear throughout analysis. Compare with [[real-analysis/isolated-point|isolated points]].
 
 ## Examples
 

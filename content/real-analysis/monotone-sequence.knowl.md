@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **monotone sequence** is a sequence \((a_n)_{n\ge 1}\) of real numbers such that either
+A **monotone sequence** is a sequence \((a_n)_{n\ge 1}\) of [[shared-foundations/real-numbers|real numbers]] such that either
 - \(a_n\le a_{n+1}\) for all \(n\) (monotone increasing), or
 - \(a_n\ge a_{n+1}\) for all \(n\) (monotone decreasing).
 

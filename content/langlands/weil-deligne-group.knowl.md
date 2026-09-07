@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(F\) be a
 [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]]. The **Weil–Deligne group** is the
-semidirect-product [[algebraic-geometry-foundations/group-scheme|group scheme]]
+[[algebra-groups/semidirect-product|semidirect-product]] [[algebraic-geometry-foundations/group-scheme|group scheme]]
 
 \[
 W'_F=W_F\ltimes\mathbb G_a,
@@ -42,7 +42,7 @@ merely restricting a parameter to \(W_F\).
 
 ## Scope
 
-For \(F=\mathbb R\) or \(\mathbb C\), local Langlands parameters use the
+For \(F=\mathbb R\) or \(\mathbb C\), [[langlands/local-l-parameter|local Langlands parameters]] use the
 archimedean Weil group itself; the auxiliary \(\mathrm{SL}_2\) factor is a
 nonarchimedean feature. [[langlands/arthur-parameter|Arthur parameters]] introduce a different
 \(\mathrm{SL}_2\) factor and must not be conflated with Deligne monodromy.

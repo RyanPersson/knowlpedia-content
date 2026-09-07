@@ -18,7 +18,7 @@ We say **\(F\) is left adjoint to \(G\)**, and write \(F \dashv G\), if for ever
 \[
 \Phi_{c,d}:\operatorname{Hom}_{\mathcal D}(F c,\, d)\;\xrightarrow{\;\cong\;}\;\operatorname{Hom}_{\mathcal C}(c,\, G d),
 \]
-which is **natural in \(c\) and \(d\)** (i.e. it is a natural isomorphism of bifunctors
+which is **natural in \(c\) and \(d\)** (i.e. it is a [[algebra-category-theory/natural-isomorphism|natural isomorphism]] of bifunctors
 \(\operatorname{Hom}_{\mathcal D}(F-, -)\cong \operatorname{Hom}_{\mathcal C}(-, G-)\)).
 
 ## Naturality

@@ -25,10 +25,10 @@ Addition and multiplication are defined by
 
 ## Remarks
 
-The field \(\mathbb{C}\) is a two-dimensional real vector space and can be identified with \(\mathbb{R}^2\) via \(a+bi\leftrightarrow(a,b)\). Complex numbers are the natural setting for Fourier analysis, power series, and many aspects of analysis and geometry.
+The field \(\mathbb{C}\) is a two-dimensional real [[linear-algebra/vector-space|vector space]] and can be identified with \(\mathbb{R}^2\) via \(a+bi\leftrightarrow(a,b)\). Complex numbers are the natural setting for Fourier analysis, [[real-analysis/power-series|power series]], and many aspects of analysis and geometry.
 
 ## Examples
 
 - \(z=3-2i\) has real part \(3\) and imaginary part \(-2\).
 - \((1+i)^2 = 1+2i+i^2 = 2i\).
-- The real numbers embed into \(\mathbb{C}\) via \(a\mapsto a+0i\).
+- The [[shared-foundations/real-numbers|real numbers]] embed into \(\mathbb{C}\) via \(a\mapsto a+0i\).

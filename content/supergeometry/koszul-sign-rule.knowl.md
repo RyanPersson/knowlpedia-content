@@ -24,7 +24,7 @@ v\otimes w\longmapsto(-1)^{|v||w|}w\otimes v
 of the [[algebra-category-theory/symmetric-monoidal-category|symmetric monoidal category]], rather than a correction added after a
 calculation.
 
-For homogeneous maps \(f:V\to V'\) and \(g:W\to W'\), the tensor product is
+For homogeneous maps \(f:V\to V'\) and \(g:W\to W'\), the [[algebra-modules/tensor-product|tensor product]] is
 therefore evaluated by
 \[
 (f\otimes g)(v\otimes w)

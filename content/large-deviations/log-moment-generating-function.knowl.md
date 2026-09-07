@@ -16,7 +16,7 @@ A **log moment generating function** (log-MGF) of an \(\mathbb R^d\)-valued [[pr
 \Lambda(\theta)=\log \mathbb E\big[e^{\langle \theta, X\rangle}\big],
 \]
 
-where \(\langle\theta,X\rangle\) is the Euclidean inner product and the expectation is taken in the sense of [[probability/expectation|expectation]].
+where \(\langle\theta,X\rangle\) is the Euclidean [[linear-algebra/inner-product|inner product]] and the expectation is taken in the sense of [[probability/expectation|expectation]].
 
 ## Equivalent characterizations
 

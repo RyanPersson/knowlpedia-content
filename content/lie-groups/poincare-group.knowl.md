@@ -11,9 +11,9 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\Bbb R^{1,3}\) denote Minkowski space with its standard bilinear form of signature \((1,3)\).
+Let \(\Bbb R^{1,3}\) denote Minkowski space with its standard [[linear-algebra/bilinear-form|bilinear form]] of signature \((1,3)\).
 
-The **Poincaré group** is the group of affine isometries of Minkowski space. Concretely, it is the semidirect product
+The **Poincaré group** is the group of affine isometries of Minkowski space. Concretely, it is the [[algebra-groups/semidirect-product|semidirect product]]
 \[
 \mathrm{ISO}(1,3)=\Bbb R^{1,3}\rtimes O(1,3),
 \]

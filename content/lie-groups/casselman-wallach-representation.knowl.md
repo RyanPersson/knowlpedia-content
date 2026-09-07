@@ -23,7 +23,7 @@ Smoothness requires every [[fiber-bundles/orbit-map|orbit map]] \(g\mapsto\pi(g)
 
 ## Structure and consequences
 
-The underlying Fréchet space of a Casselman–Wallach representation is nuclear, and continuous \(G\)-maps between such representations are controlled by their restrictions to \(K\)-finite vectors. The category is closed under kernels and cokernels in the form dictated by the corresponding exact operations on Harish–Chandra modules. Most importantly, the [[lie-groups/casselman-wallach-globalization-theorem|Casselman–Wallach globalization theorem]] says that taking \(K\)-finite vectors loses no categorical information.
+The underlying Fréchet space of a Casselman–Wallach representation is nuclear, and continuous \(G\)-maps between such representations are controlled by their restrictions to \(K\)-finite vectors. The category is closed under kernels and cokernels in the form dictated by the corresponding exact operations on [[lie-groups/harish-chandra-module|Harish–Chandra modules]]. Most importantly, the [[lie-groups/casselman-wallach-globalization-theorem|Casselman–Wallach globalization theorem]] says that taking \(K\)-finite vectors loses no categorical information.
 
 ## Examples and near-misses
 

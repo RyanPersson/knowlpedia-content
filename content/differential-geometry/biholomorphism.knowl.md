@@ -15,7 +15,7 @@ Let \(X\) and \(Y\) be [[differential-geometry/complex-manifold|complex manifold
 \[
 f:X\to Y
 \]
-whose set-theoretic inverse \(f^{-1}:Y\to X\) is also holomorphic. Two complex manifolds are **biholomorphic** if a biholomorphism exists between them. Biholomorphisms are precisely the isomorphisms in the category of complex manifolds and holomorphic maps; they preserve complex dimension, holomorphic functions, and the holomorphic-coordinate structure.
+whose set-theoretic inverse \(f^{-1}:Y\to X\) is also holomorphic. Two complex manifolds are **biholomorphic** if a biholomorphism exists between them. Biholomorphisms are precisely the isomorphisms in the [[differential-geometry/category-of-complex-manifolds|category of complex manifolds and holomorphic maps]]; they preserve complex dimension, holomorphic functions, and the holomorphic-coordinate structure.
 
 ## Local criterion
 

@@ -15,7 +15,7 @@ Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(\omega \in \Omega^1(P;
 \[
 \Omega \;=\; d\omega \;+\; \frac{1}{2}[\omega \wedge \omega],
 \]
-where \([\omega\wedge\omega]\) denotes the wedge product combined with the Lie bracket on \(\mathfrak{g}\).
+where \([\omega\wedge\omega]\) denotes the wedge product combined with the [[fiber-bundles/lie-bracket|Lie bracket]] on \(\mathfrak{g}\).
 
 For a \(\mathfrak g\)-valued form \(\eta\), define
 \[

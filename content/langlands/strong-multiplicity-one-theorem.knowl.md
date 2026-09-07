@@ -27,7 +27,7 @@ for all but finitely many places \(v\) of \(F\), then
 \(\pi\simeq\pi'\).  This is the **strong multiplicity one theorem**.
 
 Thus a cuspidal representation of \(\operatorname{GL}_n\) is determined by
-its almost-everywhere unramified
+its [[measure-theory/almost-everywhere|almost-everywhere]] unramified
 [[langlands/satake-parameter|Satake parameters]].
 
 ## Strength and scope

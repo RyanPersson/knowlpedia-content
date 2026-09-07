@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H\) be a complex Hilbert space. Its **symmetric (bosonic) Fock space** is the Hilbert direct sum
+Let \(H\) be a complex [[linear-algebra/hilbert-space|Hilbert space]]. Its **symmetric (bosonic) Fock space** is the Hilbert direct sum
 \[
 S(H)=\widehat{\bigoplus}_{n=0}^\infty \operatorname{Sym}^n(H),
 \]

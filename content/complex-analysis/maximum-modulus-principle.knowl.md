@@ -11,11 +11,11 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(D\subseteq\mathbb C\) be a [[complex-analysis/complex-domain|domain]] and let \(f:D\to\mathbb C\) be holomorphic. If \(|f|\) has a local maximum at an interior point of \(D\), then \(f\) is constant on \(D\).
+Let \(D\subseteq\mathbb C\) be a [[complex-analysis/complex-domain|domain]] and let \(f:D\to\mathbb C\) be [[differential-geometry/holomorphic-map|holomorphic]]. If \(|f|\) has a local maximum at an interior point of \(D\), then \(f\) is constant on \(D\).
 
 ## Proof
 
-For a closed disc around the maximum point, Cauchy's formula expresses \(f(a)\) as the average of its boundary values. The triangle inequality gives \(|f(a)|\) at most the boundary maximum. Equality forces all boundary values to have the same argument and modulus; applying the same argument on smaller discs makes \(f\) constant on a neighborhood of \(a\). The identity theorem then makes it constant on the connected domain.
+For a closed disc around the maximum point, the [[complex-analysis/cauchy-integral-formula|Cauchy integral formula]] expresses \(f(a)\) as the average of its boundary values. The triangle inequality gives \(|f(a)|\) at most the boundary maximum. Equality forces all boundary values to have the same argument and modulus; applying the same argument on smaller discs makes \(f\) constant on a neighborhood of \(a\). The [[complex-analysis/identity-theorem|identity theorem]] then makes it constant on the connected domain.
 
 ## Boundary form
 

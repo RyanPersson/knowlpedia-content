@@ -16,7 +16,7 @@ A **power series** over \(\mathbb K=\mathbb R\) or \(\mathbb C\), with coefficie
 \[
 \sum_{n=0}^\infty c_n(z-a)^n.
 \]
-There is a radius \(R\in[0,\infty]\) such that the series converges absolutely for \(|z-a|<R\) and diverges for \(|z-a|>R\). It defines a function on the interval \((a-R,a+R)\) over \(\mathbb R\), or on the open disc \(\{z:|z-a|<R\}\) over \(\mathbb C\).
+There is a radius \(R\in[0,\infty]\) such that the [[real-analysis/series|series]] converges absolutely for \(|z-a|<R\) and diverges for \(|z-a|>R\). It defines a function on the [[real-analysis/interval|interval]] \((a-R,a+R)\) over \(\mathbb R\), or on the open disc \(\{z:|z-a|<R\}\) over \(\mathbb C\).
 
 ## Radius and boundary
 
@@ -37,7 +37,7 @@ The differentiated series has the same radius. Convergence is uniform on every s
 
 ## Convergent versus formal
 
-A convergent power series is both a coefficient sequence and a function on a neighborhood of its center. A [[algebra-rings/formal-power-series-ring|formal power series]] is instead an algebraic object whose coefficients are manipulated without any convergence requirement. Two convergent complex power series centered at the same point define the same germ exactly when their coefficients agree, but this analytic uniqueness does not erase the distinction between the two settings.
+A convergent power series is both a coefficient sequence and a function on a [[topology/neighborhood|neighborhood]] of its center. A [[algebra-rings/formal-power-series-ring|formal power series]] is instead an algebraic object whose coefficients are manipulated without any convergence requirement. Two convergent complex power series centered at the same point define the same germ exactly when their coefficients agree, but this analytic uniqueness does not erase the distinction between the two settings.
 
 ## Complex analyticity
 

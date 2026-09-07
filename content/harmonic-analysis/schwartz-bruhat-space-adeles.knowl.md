@@ -11,13 +11,13 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(F\) be a number field and \(\mathbb A_F\) its ring of adeles. The **Schwartz–Bruhat space on the adeles** is
+Let \(F\) be a [[algebra-fields-galois/number-field|number field]] and \(\mathbb A_F\) its ring of adeles. The **Schwartz–Bruhat space on the adeles** is
 \[
 \mathcal S(\mathbb A_F)
 =\mathcal S(F_\infty)\,\widehat\otimes\!
 \bigotimes_{v\nmid\infty}'\mathcal S(F_v),
 \]
-where \(\mathcal S(F_\infty)\) is the Schwartz space of the
+where \(\mathcal S(F_\infty)\) is the [[functional-analysis/schwartz-space|Schwartz space]] of the
 finite-dimensional real [[linear-algebra/vector-space|vector space]]
 \(F_\infty=\prod_{v\mid\infty}F_v\). The finite-place factor is the
 [[harmonic-analysis/restricted-tensor-product-test-functions|restricted

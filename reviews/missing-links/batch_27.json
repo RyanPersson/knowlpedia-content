@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "operator-algebras/breuer-fredholm-operator",
+      "outcome": "corrected",
+      "source_sha256": "0c092a5461c240ea321004a3d1e028e48229fae5a04117660c51de1c55e06daf",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: Fredholm index, tau-compact operators. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/brown-green-rieffel-stabilization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9c9010e8dfb9a731bb642b6440c37f38baef1c0190d2651e4808d8acb14c01a",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (separable, places, matrix, units, isomorphism). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/c0-function-algebra",
+      "outcome": "corrected",
+      "source_sha256": "ccf39e95725b4ae606783306b963e2be28a067ef0f3ef97f124a778e24649869",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: one-point compactification. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/c0-x-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed2f635bbe5cb20ab1c866b0a2dbcdd6ee4f70b941307394f8fcedeceec65737",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (span, region). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/c0-x-algebra-bundle-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa3552a0cf806de0c67c0e8f8e7c846d119d7895f25aef42a84d152b5a5abefc",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (union, topology, norms, functions, norm, function). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/canonical-map-full-to-reduced-crossed-product",
+      "outcome": "corrected",
+      "source_sha256": "0459325133c3b1ab4566e01ab32d1aa5bfd65d63630cdea9a0834d49648938ca",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: reduced crossed product. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/cauchy-schwarz-hilbert-cstar-module",
+      "outcome": "corrected",
+      "source_sha256": "ccffafec2d09ca1bba00e24520deb77bafc4edfdc0c522a1b6bad17223f7d8f7",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: inner product. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/cauchy-schwarz-positive-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d71d3840309c39c7ea75c795e0596f7515129b7a6a49f7054cd8f9d872fd52a",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (positive semidefinite, ideal, Hilbert-space, Cauchy–Schwarz inequality). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/center-of-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9db7c9aaec73f3d72b7d9966d8da051ec58285372791ea12ccf7a55233e2f5d",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (decompositions, factorial, decomposition, von Neumann algebra, separability, commutant, type I factor). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/central-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "716d8fe9526a2accac7af3301c2a5a66038df736fe348b4db4b85433b8f404c4",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: almost everywhere. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/central-support",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c55cbb38a0a98a1d40322a753cbab6ab26f553b117c634bf662c09221dc1ad2",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (ranks). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/centralizer-of-weight",
+      "outcome": "corrected",
+      "source_sha256": "231a50a301676b521c2836aaf3911060fb9da10ca9f5a0746536a1d59c6dc18e",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: modular flow. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/character-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1306463e6a1a8af4484c6292ac462d36ab81c37ba03ee958f2b5bc0dff8f3c1",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (character, norm, matrix, characters, group-representation, Lie algebra, objects). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/character-space",
+      "outcome": "corrected",
+      "source_sha256": "e43bdf04d4c8fddcbc13fb57e7d42d01d248aa06856f4d58ced679e66729ba0a",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: point at infinity. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/closed-two-sided-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "666eb23ca40e6386398f79604b27b59b10bd983ad086a80429f7e5216383e608",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, ideal, two-sided ideal, ideals, ring, subset, functions, two-sided ideals). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/commutant",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3dca7f273d97ec97ccc317ae508f992821c8c048d4ca42df2056f7968ba5b448",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (subset, set, topology, bicommutant, closures, relations, closure). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/commutative-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e97c22caf9fc59aaa19d1429a5f2483b2ea6904233569d40e11a03fdb5564c2b",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, functions, supremum norm, characters, Gelfand transform, character). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/commutative-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ed2a09cf0ef6f58b51ce979be84b7e93dbe1e51baa6a0495c271a34e8014737",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (measure, sets, complements, lattice, functions, topology). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/compact-operator-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f208bed5eaddebf05386afc3b9eca689037a8558573203464670b8533816ab3",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (linear combinations, norm, orthogonal projections, compact-operator, compact operators, sequences). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/compact-operator-hilbert-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f06124d58fd455b2bbe2299d2db9059670e1363d1338236cebad3ba2b2281ad",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (compact operators, closure, span, bounded sets, composition, modules, module). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/comparison-theorem-for-projections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85f4f6c9d48fcf9439e756a54c47a80ef04ce772c2bdab72d538e3ea2376368e",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (functions, von Neumann algebra, decomposition). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/completely-bounded-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b0b3c38821122a0a4145db4940721a9e03de5973a7ae51cab925bf69bd057c82",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (matrix, domain, codomain, norms, norm, measures, Compositions, morphisms, category, decomposition, completely positive maps, operator norm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/completely-positive-approximation-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f61c734d6d790aecb7c3a5a48b9a8229b5fc27e3c617960ca02eec1f63832a0e",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (integers, separability, set, unit, completely positive contractions, matrix, norms, partitions, metric, norm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/completely-positive-contraction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8ed13951b4bf9448108cda7156e2c43f40a02ebfcccb5792ee8c98c59434ad6",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (matrix, unital completely positive map, domain, isometry, norms, composition). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/completely-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5fdbb5e3e35f91b500d8e5582670bdff0e6ec9767e372de0ed67202630522e0a",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (matrix, von Neumann algebras, Compositions, Matrix). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/concrete-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9717fa9b338273d09216175ddec7efed47df7386d02a3af9405e0f409a0128e1",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (Hilbert spaces, unit, functions, norm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/conditional-expectation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebe34c9d90d46d847d1260ae1df5b7830f5d28ed61ebe9d50c6eb5a7b6523218",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (conditional expectation, expectation, Conditional expectations, composition, group, fixed-point, image, bimodule, norm, expectations, limits). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/conditional-expectation-reduced-crossed-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7bced99b43d30e85d9a6b0b0e2b158cefc25faa1454508457f9095f7364fffb",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (group, automorphisms, conditional expectation, trace, reduced crossed product, multiplier algebra). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/connes-cocycle-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d94f2f304bdd32d8efe35620c53a0cf182c4a1b552b01f198b0f9204af512496",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (Radon–Nikodym theorem, derivative, group, normal semifinite faithful weight, derivatives, modular automorphism groups). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/connes-type-iii-classification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21e40d29ad42a6ba5599f89645e324889dac28770447cef2803ccd80c1e84a1a",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (trace, modular operator, intersection, group, isomorphism, boundary, set). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/continuous-c0-x-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0b07b839a17ffca3a0f3d150dff70d2e2791f3cae7f92a636305f121d615967d",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (locally compact, image, functions, norm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/continuous-core-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b281bf3154a6d604d61a8846f344aed71f293d195cba66b7088797326801700",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (isomorphism, faithful normal semifinite trace, character, domain). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/continuous-field-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d51b96e7306bedf8405d0a46b608dbe7967892ccd19e8f04b7de4e8d54114bbc",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (locally compact, field, topology, norm, union, functions, fields, isomorphism, function). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/continuous-functional-calculus",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38b5b15f9078d2f1a311667d29cbece2addd3f24d030e3eb7071add9404bee86",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (function, image, limits, functions, norm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/continuous-trace-cstar-algebra",
+      "outcome": "corrected",
+      "source_sha256": "c10f9cc950dbb3ff4b7fe2f7df06726b155e3515495ef712243a33ba1c50f9ba",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: irreducible representations. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/corona-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f0c191f37bd844816494716c9a528e53b9dae650f25baf083dba2fbb3297c9d",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (pullback, multiplier algebra, separability). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/countably-generated-hilbert-cstar-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e4f0738d7b29ae0cbbdbc545980beb544a51c7cdbc88fb64d1b8fda36ce7f31",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (module, sequence, closure, norm, submodule). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/covariant-representation-cstar-dynamical-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2619cb01500761489cda29b892be99d98f0eaf5d6c77934057d0a39b0ef6a088",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (covariance, nondegenerate representations, Hilbert space, relations). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/crossed-product-convolution-star-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e013e3d7fcae729cdf0efa215c831d087c52f136e50a5c2912578ec4e6da2fb",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (functions, group, left Haar measure, right Haar measure, norms). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39563f5db92c464761029b7200d918d79846b364041b75d1e080837430538d44",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, Morphisms, category, operator norm, operator-norm, closed operator, field, matrix, locally compact). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-algebra-generators-relations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9de9cfacb0f54878a003aad3248f45adc92d4e2d5dde38a3ede9e58e58fae09",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (relations, norm, supremum, relation, isometry, admissible representation, units, involutive algebra, maximal representation seminorm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa64799eefd2ed1d44c32c8bafe363b24bc1d9a650c7eb9fef84c5d9019e1f38",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (span, endomorphisms, inner product, ideal, covariance, imprimitivity bimodule). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-dynamical-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8664b7b65e939bb50e3d4936c6ed094f035cbcf2e67ba36af27ce9e7c9e5b13f",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (orbit map, norm, topology, locally compact, continuous action, automorphisms, Hilbert-space). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-exact-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f83471bb8e576cb1737e0ed3fe128529081e19b09a4bfa2be173fa43fabeb197",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (short exact sequence, image, sequence, ideal, vector-space, module, norms, ideals, sequences). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "64b60baf1a87ee1af2f25fbde4c6615f8fa81e98a1a3e6a2153e6d4efaff499b",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f47d82a0b1fb95ea7b01369d8f4459f368393f2dc021cf4b7487d00e911945d0",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (functions, domains, eigenvalue). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7196fd758e7407da2c422c525d6805f936f07eaa107be5eb70d9f50e08ee564",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (Hilbert space, matrix, closed subspace, approximate identity, invariant subspaces, cyclic representations, group representation, group). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1262408bbc898976c0415778c4acdad49c1b97f7f67ad95926c2886b63da9028",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, subset, intersection, closure, Norm, units, ideals, ideal, Polynomial, functions). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cstar-tensor-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6eb1685a1725517f9b6a47f89ed6fb87a277732b2a0589b00f506e149d9e8b9d",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, norms, supremum, Banach-space). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cuntz-pimsner-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db1d8822b0e5001a7fd754a9652db27884cce183a4a60cc958b65c3c74d91e60",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (module, ideal, covariance, relation, relations, automorphism). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cyclic-cstar-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06f478afb09f9962f0995886a7d2a20a603f749b2b97fdf26bf580338eaea6ca",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (closure, span, orbit, cyclic representation, cyclic vector, unit, function, functions, cyclic representations). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cyclic-separating-duality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d33845e53af60d54e71aa41a6fadd7747e491f8a53aa20a172e28bd64abf0f3",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (measure, function, commutant, bicommutant, places). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/cyclic-vector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1213193ed35d54bb07a47b4a7d0b6ec042e65c3ff5ccb835b267a9967dc7f60",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (closed subspace, cyclic subspace, reducing subspace, commutant). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/dimension-function-on-projections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "68f3ede7d13fc7827e58fe820bb998fa925437a3ad29a6603cbeef16b0d06c87",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (separable, matrix, rank, function, trace). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/direct-sum-cstar-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9177f0ff02927391245eec32a697faea7aeae8e233d5fa6c2d58816338e4cf0d",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (reducing subspace, intertwiners, intertwiner, characters, matrix representation, measure, fields). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/disjoint-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "da14eeea7b753048c0b17491d8f81dfcad3b3abaf3282523cd5bc7292409affd",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (subrepresentations, relation, image, intertwiner, polar decomposition, normal extension, decompositions, Hilbert-space, subrepresentation). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/dixmier-douady-class",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7e84ef89c956e93a32844acb700afc3f260a613f9f189262e90753fc4c591099",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (separable, field, compact-operator, automorphisms, image, transition functions, measures, functions, separability). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/dixmier-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89a3b3a3dfe2823e26198868b5132018ed9d0067b4b062577f39e38aadd77f31",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (separable, limit, positive operator, positive operators, trace-class operators, sequence, trace, eigenvalues, ideal, logarithmic Marcinkiewicz ideal). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/double-centralizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84fc6ab8b343922deb060d8c443b35f9e01129981eadd66534ebe51d6372be29",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (centralizer, centralizers, image, ideal, Hilbert space, endomorphism). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/dual-action-crossed-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd480dba571b707fcce828e65ac559b6978de83359dc94065649693aa40d1255",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (locally compact, continuous action, group, character, covariance, relation, automorphism, Character, norm, complex conjugate). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/dual-action-von-neumann-crossed-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97b16854af927045bb7793b2e499f3931157fa9839695ee31cf7147a6ae7a569",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (continuous action, group, character, covariance, relation, automorphisms, Character, topology, Pontryagin dual group). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/elementary-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d5749e3e077d4bf7d5ea17c9c78c68a9679f83491b643e599082e3c683af050",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (rank-one projections, matrix, separable, image, irreducible representation). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/entire-analytic-element-one-parameter-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5c7d54894a7bb87c0c6a574f2505b63b473dbd7a78f9aacddd561d39537cb90d",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (group, orbit map, function, norm, orbit, neighborhood, topology). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/enveloping-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f77cd7f82f0c1b78632133ad6c06bde23949995b9ded06b9590c59559172b228",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (Hilbert-space, norm, image, intersection, algebraic group, group, involutive algebra, supremum, boundary, universal enveloping algebra of a Lie algebra). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/essential-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af890e9675ab37fd7b8062953c9476de238ae9a6f856b6a98b8324b4bb6c35ca",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (closed ideal, ideal, locally compact, intersection). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/exact-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "041710188d585a4ac1196870bd71f8f327d8e3b2477e338fa3a9b98f9096cb26",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (image, ideal, sequences, limits, norms, functor, vector spaces). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/extended-positive-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1886ceed7c114f6b088848e7b1b6a3bc246e71f3ae7b2a6a917bacc97f094c5",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, topology, codomain, object). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/extension-to-multiplier-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7343ebaa7cca490ef4f88c552331203f42882b0ab723f425f5550c3de5c7ea40",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (topology, relation, category, norm, limits, approximate identities, unit). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/exterior-tensor-product-hilbert-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16aadb0f95b16b64298b6908d3681814e61715447531ffffb5e5806f73fb579e",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, submodule, module, modules, Hilbert-space, relations, composition). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/factorial-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e0e80e190f76a000768619834c4e45f6f8dd5dc00a10ad3110403ae68507e5fe",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (decompositions, closure, factorial, invariant subspaces, reducing subspaces). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/faithful-cstar-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88a70d5075700430e4b2e0922b021e4babd60cfa8c5471aebcb98e52452db71a",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (relations, image, norm, Hilbert space, norms). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/faithful-normal-semifinite-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "257bd3c97655e58fda9d8cca96aa4a90d3ff88077545988108fb820f72289af8",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (supremum, trace, ideal, measure, von Neumann algebra, matrix). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/faithful-normal-state",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a267a89357e299ab9de99adfc48d594d3bd7422bab2013784af31b6faa862a14",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (normal state, von Neumann algebra, separable, trace-class operator). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/faithful-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4cb3547ffc662a0e2403d4d1501836938c74ee51deb3daa08106cec51a2fefdb",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (isometry, measures). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/faithful-state-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0f86bed86af99d85ffefb5666c9edaca5ef67c3d094e63661998002155299fe7",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (expectation, matrix, trace, measures, measure, separable, von Neumann algebra). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/faithful-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "de67e695529c40303e01618c154696b11b0f1a6ad6a974023999da873ac2c8f9",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (domain, set, ideal, positive operator, trace). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/fell-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eba7be56b0b2f636b510925dc7248a213f4c2db10323c02e9d88c7ce9b2b8c0",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (unit, function, norm). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/fiber-c0-x-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "312dbc99160f84d71c499b63b97458dcccdde271bd21c239169398f4881b6463",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (image, preimage, norm, function, isomorphism, union, topology). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/finite-normal-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "733c10cb3c9d2365fc12dbb825c3deece7021b09921f8ce8b880eae72e4d7bab",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (trace, positive linear functional, norm, matrix, measure, canonical operator trace). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/finite-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "829b53c33d148b76c6f9a17bc23e1fc364a01b15ff82a7d7fcefdba2d27ea309",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (von Neumann algebra, Hilbert-space). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/finite-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5f66c2a28428f41334562f5915183302969066f74c1623598f45397d0df535f",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (isometry, trace, traces, matrix, Hilbert space). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/flow-of-weights",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97db4e7f97a25269192b19a3c835c9d049dd1254262085d558bb591061c5f3b6",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (separable, conjugacy class, isomorphism, continuous core, automorphisms). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/fock-module-cstar-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "abbe59b5e14b792cc09ee924859e91c06704a9de1710a0f466dd4b9b0977b8f4",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (module, unit, submodule). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/full-crossed-product",
+      "outcome": "corrected",
+      "source_sha256": "ef78b7f006ac832cb002b3dd6f76c6dea37638b31abb3cf12b37116ea72581f2",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: covariant pair. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/full-group-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "30f197923b405bc09801180292ad4bb0560d27ec8a2f0083e2eb157a7bd7312c",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (group, norm, strongly continuous unitary representation, isomorphism, relations, locally compact). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/full-hereditary-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8dc9ebd7fe19b1c84b66ee207d7e332fb3f240260b8b90f0a8da0a5de7e952c6",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (ideal, hereditary subalgebra, module, isomorphism). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/full-to-reduced-group-cstar-quotient",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "13c51c6bb96a6824896b4eb7ba4bd147d24cd51f2ee657d314d8167c4cb7c99e",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (norm, regular representation, isomorphism, group). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/gelfand-duality",
+      "outcome": "corrected",
+      "source_sha256": "b794fc3e1889f910fc3a2bed0aa681d1bed26f510b3ce24c5113713d1aa2c10e",
+      "evidence": "Read the complete knowl and its optional sections. Added justified links for: homeomorphism. Checked each target definition and retained the source wording, formulas, hypotheses, and existing prerequisite metadata. Rejected remaining scanner matches as generic terms, notation, or context-dependent senses; no new dependency edge was warranted."
+    },
+    {
+      "id": "operator-algebras/gelfand-naimark-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4b4cd15b99faf809010d8b7f4c3c22fa89023905cb74dba611abdf78af57587f",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (Hilbert space, image, cyclic representation, Hilbert spaces, functions, GNS construction). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/gelfand-transform",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f163e51f75c907909ece3162df7bb5c603218d7dba601723d52958c3df337381",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (function, norm, characters, character, Banach algebras). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/generated-cstar-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b9a69ddd5be2eb50b9baf9310c4b0b377ab6f20b720d5765025310bede541ac",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (intersection, norm, closure, relations, matrix, units, set). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/glimm-type-i-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "538140e5a0c1c89d24accce1902b2234b146ee091f3fc205da04ae9bfb227776",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (separable, unitary dual, Fell topology, subset, irreducible representations, ideal, measures, composition series, Separability). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/gns-construction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d68b2c666d6ad190f253263e70131367bec24875bb120a01ddc6e9ee59026ea9",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (Set, Hausdorff space, positive functional, inner products, cyclic vector, functions, cyclic representation, Hilbert space, unit, ideal). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/gns-construction-for-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58486377e0f88af347675ec92a751b4d2cd1be5905020ae1a6edeeb4d009194a",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (set, GNS construction, Hilbert-space, domain, trace, Hilbert–Schmidt class, normal semifinite faithful weight). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/gns-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "07b1a44c147d174e54b57b1b56b7e6e630967c545943236ace178165a3d0f5ec",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (cyclic representation, cyclic vector, cyclic subspace, inner products, positive functionals). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/graded-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ce9680292edd24bbbc8dffa50584d816d4760d9acdaa1e9df90b5e3d1044911",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (closed linear subspaces, decomposition, graded commutator, groups). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/graded-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ccd95d59884ffef5acf00f0f8947afe8b6b3286b8ca05ce0d581c6878b0b446",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (graded commutator, commutator, domain). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/green-imprimitivity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d564a232ca6ac6da3a2fe509ad48fec1230b22809d4f2953f3e9ee6a2602454",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (subgroup, bimodule, categories, full crossed products, covariance). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/group-cstar-algebra-discrete-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "29821319568c15e02f8f93df72e20a6b307085831c4892f43382b1506c1b0b94",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (group, norm, regular representation, function, supremum, isomorphism, groups, matrix, unit). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    },
+    {
+      "id": "operator-algebras/group-cstar-representation-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f2ce9750058c97b25b7b1787ea08cf5134f1089a0b74c960b1e4c7ced2d148a",
+      "evidence": "Read the complete knowl, including optional sections and references, and checked the candidate target definitions. Reviewed candidate surfaces (invariant subspaces, group). Existing links already cover the specific operator-algebra dependencies; remaining matches are generic words, locally defined notation, formula vocabulary, or context-sensitive terms whose expansion would not answer a likely reader question here. Prerequisite metadata was inspected and no mathematically justified edge change was found."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 27: complete linking/dependency-scope review of 100 operator-algebra knowls. Ten sources received targeted links; no reusable missing prerequisite definition was established."
+  ]
+}

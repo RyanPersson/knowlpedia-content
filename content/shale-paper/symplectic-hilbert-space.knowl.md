@@ -11,9 +11,9 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **weak symplectic Hilbert space** is a real
+A **weak symplectic [[linear-algebra/hilbert-space|Hilbert space]]** is a real
 [[linear-algebra/hilbert-space|Hilbert space]] \(K\) equipped with a continuous,
-skew-symmetric bilinear form \(B:K\times K\to\mathbb R\) such that
+skew-symmetric [[linear-algebra/bilinear-form|bilinear form]] \(B:K\times K\to\mathbb R\) such that
 \[
 B(x,y)=0\ \text{for every }y\in K\quad\Longrightarrow\quad x=0.
 \]
@@ -22,13 +22,13 @@ the algebraic sense.
 
 ## Strong versus weak nondegeneracy
 
-The form defines a bounded operator
+The form defines a [[functional-analysis/bounded-linear-operator|bounded operator]]
 \[
 B^\flat:K\longrightarrow K^*,\qquad
 B^\flat(x)=B(x,\mathord{-}).
 \]
-Weak nondegeneracy says that \(B^\flat\) is injective. The symplectic form is
-**strong** if \(B^\flat\) is an isomorphism of Banach spaces. These conditions
+Weak nondegeneracy says that \(B^\flat\) is injective. The [[shale-paper/symplectic-form|symplectic form]] is
+**strong** if \(B^\flat\) is an isomorphism of [[linear-algebra/banach-space|Banach spaces]]. These conditions
 coincide in finite dimensions but not in infinite dimensions. Authors who use
 “symplectic Hilbert space” without a qualifier may mean either the weak or the
 strong notion, so the convention must be stated.

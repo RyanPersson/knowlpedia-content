@@ -49,7 +49,7 @@ local factors must state which convention is in force.
 
 ## Archimedean Weil groups
 
-For the archimedean local fields,
+For the [[algebra-fields-galois/archimedean-local-field|archimedean local fields]],
 
 \[
 W_{\mathbb C}=\mathbb C^\times,

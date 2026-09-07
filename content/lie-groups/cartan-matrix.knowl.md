@@ -13,7 +13,7 @@ dependency_review_count = 1
 
 Let \(\mathfrak{g}\) be a complex [[lie-groups/semisimple-lie-algebra|semisimple Lie algebra]], choose a [[lie-groups/cartan-subalgebra|Cartan subalgebra]] \(\mathfrak{h}\), and let \(\Phi\subset \mathfrak{h}^*\) be the associated [[lie-groups/root-system|root system]]. Fix a set of [[lie-groups/simple-root|simple roots]] \(\Delta=\{\alpha_1,\dots,\alpha_\ell\}\).
 
-Choose any \(W\)-invariant inner product on the real span of \(\Phi\).
+Choose any \(W\)-invariant [[linear-algebra/inner-product|inner product]] on the real span of \(\Phi\).
 
 **Definition.** The **Cartan matrix** \(A=(a_{ij})_{1\le i,j\le \ell}\) is defined by
 \[
@@ -33,4 +33,4 @@ The [[lie-groups/killing-form|Killing form]] induces a standard \(W\)-invariant 
 
 ## Remarks
 
-**Context.** The Cartan matrix is the combinatorial input for the [[lie-groups/classification-simple-lie-algebras|classification of complex simple Lie algebras]]: connected Dynkin diagrams (or indecomposable Cartan matrices) correspond to simple Lie algebras, while disjoint unions correspond to direct sums.
+**Context.** The Cartan matrix is the combinatorial input for the [[lie-groups/classification-simple-lie-algebras|classification of complex simple Lie algebras]]: connected [[lie-groups/dynkin-diagram|Dynkin diagrams]] (or indecomposable Cartan matrices) correspond to simple Lie algebras, while disjoint unions correspond to direct sums.

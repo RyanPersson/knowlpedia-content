@@ -16,7 +16,7 @@ Let \(X\) be a
 curve]], let \(G\) be a
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
 with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\), and let \(D\) be a
-line bundle on \(X\). A \(D\)-valued \(G\)-Higgs bundle is a pair
+[[fiber-bundles/line-bundle|line bundle]] on \(X\). A \(D\)-valued \(G\)-Higgs bundle is a pair
 \((E,\varphi)\) consisting of an
 [[algebraic-geometry-foundations/principal-g-bundle-on-scheme|algebraic
 principal \(G\)-bundle]] and a section

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **total variation distance** between probability measures \(P\) and \(Q\) on the same measurable space \((\Omega,\mathcal F)\) is
+A **total variation distance** between [[probability/probability-measure|probability measures]] \(P\) and \(Q\) on the same [[measure-theory/measurable-space|measurable space]] \((\Omega,\mathcal F)\) is
 \[
 d_{\mathrm{TV}}(P,Q)\;=\;\sup_{A\in\mathcal F}\,\bigl|P(A)-Q(A)\bigr|
 \]

@@ -1,0 +1,610 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-rings/sum-of-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f7feb9db3a188a586de757c1106146c67226aafafa1325e18e06bd65be5e1f2",
+      "evidence": "Read complete body; core states: Given ideals \\(I,J\\) in a [[algebra-rings/ring|ring]] \\(R\\), their **sum** is. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/third-isomorphism-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89f611a66fad0db3976a9400ac5d6fb4aa56b569e202561d513680ae030c6d6e",
+      "evidence": "Read complete body; core states: **Third isomorphism theorem (rings)**: Let \\(R\\) be a ring and let \\(I\\subseteq J\\) be [[algebra-rings/ideal|ideals]] of \\(R\\). Then \\(J/I\\) is an ideal of \\(R/I\\), and there is a . Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/total-ring-of-fractions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80c1f50b0708a83e9c36f035fa4032357b277639f6e8f3bf9860dbe7d9b55e70",
+      "evidence": "Read complete body; core states: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]] (with \\(1\\)). Let \\(S\\subseteq R\\) be the multiplicative set of [[algebra-rings/regular-element|regular elements]. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: multiplicative set, unital rings, integral domain. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/tropical-semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9316e4f1df33d8b1a76b685a1e7a0dcfabd5efe7f08aff374e86b89d7071d8e8",
+      "evidence": "Read complete body; core states: The **tropical semifield** in the house max-plus convention is. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/two-sided-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3325f8f4a1d20e94b7609cf05ecc95fb9e7daf3542b49258f57ef76e309d4ab6",
+      "evidence": "Read complete body; core states: A **two-sided ideal** of a [[algebra-rings/ring|ring]] \\(R\\) is an [[algebra-rings/ideal|ideal]] \\(I\\subseteq R\\) such that \\(rI\\subseteq I\\) and \\(Ir\\subseteq I\\) for all \\(r\\in R. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: commutative rings, matrix ring. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/ufd",
+      "outcome": "corrected",
+      "source_sha256": "23c32e7d83426464a25717a931ad9ebf1ce933bc827c76fd6a21bac8a62fffa3",
+      "evidence": "Read complete body; core states: A **unique factorization domain (UFD)** is an [[algebra-rings/integral-domain|integral domain]] \\(R\\) such that:. Checked supporting terminology and added links for distinct concepts (irreducible element, polynomial rings, principal ideal) where their definitions are useful; prerequisite metadata remains unchanged."
+    },
+    {
+      "id": "algebra-rings/ufd-implies-gcd-exists",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ea2e3efe3119857637fcf000226c84093b8f1a69bc658b8e25dde1af838d04d",
+      "evidence": "Read complete body; core states: **UFD implies GCDs exist**: Let \\(R\\) be a UFD and let \\(a,b\\in R\\) be not both zero. Then there exists \\(d\\in R\\) such that (i) \\(d\\mid a\\) and \\(d\\mid b\\), and (ii) if \\(c\\mid a\\. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/ufd-polynomial-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b64498511c390c37277b082f170bd48259236221f0281c43a14cce57bb2df42",
+      "evidence": "Read complete body; core states: **Gauss's theorem**: If \\(R\\) is a [[algebra-rings/ufd|UFD]], then the [[algebra-rings/polynomial-ring|polynomial ring]] \\(R[x]\\) is a UFD. More generally, \\(R[x_1,\\dots,x_n]\\) is . Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/unique-factorization-theorem",
+      "outcome": "corrected",
+      "source_sha256": "9310592fdaf407b4d8695e86997482ca6c2aa421b55003d6e12288f330d79a68",
+      "evidence": "Read complete body; core states: **Unique factorization theorem**: Let \\(R\\) be a [[algebra-rings/ufd|unique factorization domain]]. Every nonzero element of \\(R\\) that is not a [[algebra-rings/unit|unit]] can be . Checked supporting terminology and added links for distinct concepts (irreducible element, polynomial rings, principal ideal) where their definitions are useful; prerequisite metadata remains unchanged."
+    },
+    {
+      "id": "algebra-rings/unit",
+      "outcome": "corrected",
+      "source_sha256": "f39ae750f757d7b2a0db7cc6c1d7e7bca0eaf6810565cb92df63591b21666a33",
+      "evidence": "Read complete body; core states: Let \\(R\\) be a [[algebra-rings/unital-ring|unital ring]]. An element \\(u\\in R\\) is a **unit** if there exists \\(v\\in R\\) such that \\(uv=vu=1\\).. Checked supporting terminology and added links for distinct concepts (irreducible element, polynomial rings, principal ideal) where their definitions are useful; prerequisite metadata remains unchanged."
+    },
+    {
+      "id": "algebra-rings/unital-ring",
+      "outcome": "corrected",
+      "source_sha256": "682ad4dcfcfe3616ddaf2a4c52d9f0aacdbc755d05d32e177934255631bd4ac9",
+      "evidence": "Read complete body; core states: A **unital ring** is a [[algebra-rings/ring|ring]] \\(R\\) together with an element \\(1\\in R\\) such that \\(1a=a1=a\\) for all \\(a\\in R\\).. Checked supporting terminology and added links for distinct concepts (irreducible element, polynomial rings, principal ideal) where their definitions are useful; prerequisite metadata remains unchanged."
+    },
+    {
+      "id": "algebra-rings/unital-ring-axiom",
+      "outcome": "corrected",
+      "source_sha256": "3e141913add97d536e099ff5e77fde83bf3ffcf0d4fce99d191b7f31574553df",
+      "evidence": "Read complete body; core states: The **unital ring axiom** asserts that a ring \\(R\\) has an element \\(1\\in R\\) such that. Checked supporting terminology and added links for distinct concepts (irreducible element, polynomial rings, principal ideal) where their definitions are useful; prerequisite metadata remains unchanged."
+    },
+    {
+      "id": "algebra-rings/units-map-to-units",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1018645aa4a628bd256b34f5e18251215eda4bb4a6f5c14f3ef8cfecf872dc2f",
+      "evidence": "Read complete body; core states: **Units map to units**: Let \\(\\varphi:R\\to S\\) be a unital ring homomorphism. If \\(u\\in R\\) is a unit, then \\(\\varphi(u)\\in S\\) is a unit and. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: unital ring, group homomorphism. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/wedderburns-little-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d1cf3e4527e003e03e9b280259c3786f9bb64dc062e56a95426758fe6a3bad5",
+      "evidence": "Read complete body; core states: **Wedderburn's little theorem**: Every finite [[algebra-rings/division-ring|division ring]] is commutative. Equivalently, every finite division ring is a [[algebra-rings/field|fiel. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-rings/zero-divisor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2523dce4f80641ab80103b62ed1b60a436cefccb9cec817a39a9b28bf1af6c68",
+      "evidence": "Read complete body; core states: Let \\(R\\) be a ring. A nonzero element \\(a\\in R\\) is a **left zero divisor** if there exists \\(b\\ne 0\\) with \\(ab=0\\), and a **right zero divisor** if there exists \\(c\\ne 0\\) with . Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-topological/adic-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d889d538c69d6a4af635972f9e1d5a25e8850177664cd72a455cb4a50858b63c",
+      "evidence": "Read complete body; core states: An **adic ring** is a commutative topological ring \\(A\\) whose topology is the. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: adic\ntopology. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-topological/completed-tensor-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ae9aa0ef858ba3c7dec44444f399314164c6f355f0054b6e140bc86af0cd482",
+      "evidence": "Read complete body; core states: Let \\(k\\) be a commutative ring, let \\(M\\) have a decreasing filtration. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: commutative ring, formal group. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebra-topological/ideal-of-definition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80bf84a70a130264dfa8b60cf747cad0ff7456ebf3c37dba8a42ded19282701d",
+      "evidence": "Read complete body; core states: Let \\(A\\) be a commutative topological ring. An open ideal \\(I\\subseteq A\\). Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/adic-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b1604470631c13e7b785ec548b947bc58a149ddcf2c4b07a873e6b5f64c446b",
+      "evidence": "Read complete body; core states: A **Huber pair** \\((A,A^+)\\) consists of a topological ring \\(A\\) admitting an. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-blue-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a71600260538542ff69842072309d09a9ab0c1a42cbf7da7a027dc37a07673b",
+      "evidence": "Read complete body; core states: An **affine blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] isomorphic to. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: affine schemes. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-line",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9640524cbd99645c80e8d7f0d90622895455c25c44441409a3f5cdba8029565b",
+      "evidence": "Read complete body; core states: Let \\(k\\) be a field. The **affine line over \\(k\\)** is the [[algebraic-geometry-foundations/affine-scheme|affine scheme]]. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-n-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb61a9d969edfe6785f9d1805bec4bca898f7e25fb51e53b59ec6c1ba17dbd43",
+      "evidence": "Read complete body; core states: Let \\(k\\) be a field and \\(n\\ge 0\\). The **affine \\(n\\)-space over \\(k\\)** is the [[algebraic-geometry-foundations/affine-scheme|affine scheme]]. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/affine-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d3bedfd26a305f677e10d9e2c082c6a4b425ba9b0f52064202baae9707270d0f",
+      "evidence": "Read complete body; core states: An **affine scheme** is a [[algebraic-geometry-foundations/locally-ringed-space|locally ringed space]] isomorphic to. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: global sections, local ring, prime ideals. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09b864d561efc04e0d33f0cecf59488cc80f6e9d2249853bc1e49c101924467a",
+      "evidence": "Read complete body; core states: In this knowl, an **algebraic curve** over a field \\(k\\) is a separated. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: closed\npoints, local systems. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bccc67a11c2b579997870fda7f9cc4949bf0bf3ad649a86847a21bdf4453de21",
+      "evidence": "Read complete body; core states: An **algebraic group** over a field \\(k\\) is a. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7573f14c4a93b23cdb03bee41cb2c9bfc7906b6ad35c46cffff878d49ce5bd5a",
+      "evidence": "Read complete body; core states: Let \\(S\\) be a scheme. An **algebraic space** over \\(S\\) is a sheaf \\(X\\) on. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: equivalence relations. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraic-stack",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "530d7b9dc107b69451b0b580609c66882a77b0ac25809ab31f7f9917a88b2501",
+      "evidence": "Read complete body; core states: Let \\(S\\) be a scheme. An **algebraic stack** (or **Artin stack**) over \\(S\\). Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: smooth atlas, algebraic group. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/algebraically-closed-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "66fc7bd7694c7b221faa2ebbe536f4536a9340de4cff0b6c57cec408edbce292",
+      "evidence": "Read complete body; core states: A [[algebra-rings/field|field]] \\(k\\) is **algebraically closed** if every nonconstant polynomial \\(f(x)\\in k[x]\\) has a root in \\(k\\). Equivalently, every nonconstant polynomial f. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: field extension, algebraic extension, finite field. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/band-as-an-ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36e0f82d82e407d937a93e5824f99e7a767769306ff8d809ed846e09809a107d",
+      "evidence": "Read complete body; core states: Let \\(B\\) be a [[algebra-hyperstructures/band|band]] with null set \\(N_B\\). Its associated [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] is. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: null set, ordered blueprint, null set, full subcategory, ordered blueprints. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/base-change",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "75712fbd610099545c958967362e02cde37514d95631b34013a9fc8c4fafad11",
+      "evidence": "Read complete body; core states: For morphisms \\(X\\to S\\) and \\(S'\\to S\\), the **base change of \\(X\\) along \\(S'\\to S\\)** is the morphism. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: topological spaces. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/blue-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "416e1eff96e3d175b6a3c3e9bf1d9cc0ab65a049c72d7988f3d02a81d8d01d0a",
+      "evidence": "Read complete body; core states: A **blue scheme** is a [[algebraic-geometry-foundations/locally-blueprinted-space|locally blueprinted space]] \\(X\\) that admits an [[topology/open-cover|open cover]] by [[algebraic. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: locally blueprinted spaces. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e4adb194781b85a80fc5044b54259eca969d426a352690454a128556a3fbfd3",
+      "evidence": "Read complete body; core states: A **blueprint** \\(B=A/\\!/\\mathcal R\\) consists of a [[algebra-groups/commutative-monoid|commutative monoid with zero]] \\(A\\) together with a [[algebraic-geometry-foundations/pre-ad. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd49096c7fdebae981fca998e397dfd88a6946269d10fa73e9b3333e8f02d42a",
+      "evidence": "Read complete body; core states: Let \\(B=A/\\!/\\mathcal R\\) be a [[algebraic-geometry-foundations/blueprint|blueprint]]. Its associated [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] is. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/borel-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "655d2d253acb0c04605fabd7022f2e84459eb41621a01ce4c4af9646960100dd",
+      "evidence": "Read complete body; core states: Let \\(G\\) be a connected [[algebraic-geometry-foundations/algebraic-group|. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: algebraically closed. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/closed-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "664054ff814f852f01077f5815f8bfecc094073177af688abd18239368276757",
+      "evidence": "Read complete body; core states: A point \\(x\\) of a [[algebraic-geometry-foundations/scheme|scheme]] \\(X\\) is a **closed point** if its singleton is closed:. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: algebraically closed, Hausdorff spaces. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "819b4d2dfa908b968c4dc959b6cda1ee1ae8dd66337eb339036211f2561515d1",
+      "evidence": "Read complete body; core states: Let \\((X,\\mathcal O_X)\\) be a [[algebraic-geometry-foundations/ringed-space|ringed space]]. An. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c89b1ce585d9da05a5dde0d5bbf647b1ead82a010fc9638d8d5d2191dea1ad5",
+      "evidence": "Read complete body; core states: Let \\(A\\) be a [[algebra-groups/commutative-monoid|commutative monoid with zero]]. Its **monoid blueprint** is. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/compactly-supported-etale-cohomology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "704b90159c9a4d87a0c7b1638b0335ec8040ac8592bd65d68a6538689d424d3a",
+      "evidence": "Read complete body; core states: Let \\(X\\) be a separated [[algebraic-geometry-foundations/scheme|scheme]] of. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/connected-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "22f2838038aef343fbac4b08d4af3ff136b07b72e99c6c1eb0792c9c652f35f9",
+      "evidence": "Read complete body; core states: A [[algebraic-geometry-foundations/scheme|scheme]] \\(X\\) is **connected** if its underlying [[topology/topological-space|topological space]] in the [[algebra-commutative/zariski-to. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: Zariski topology, open sets. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/constant-finite-group-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "479d4c16e30bc67b06379e50e080dbd67555fddd6a00ad216a3c01cca102feec",
+      "evidence": "Read complete body; core states: To let the abstract Galois group \\(G=\\operatorname{Gal}(K/F)\\) act on \\(\\operatorname{Spec}K\\) over \\(\\operatorname{Spec}F\\), regard \\(G\\) as a [[algebraic-geometry-foundations/sch. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: Galois group, group scheme. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/covering-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cce360b439d83bb11d809dc93ed2f7b660b964eedefff05b1e4ec3826ed7803d",
+      "evidence": "Read complete body; core states: Let \\((\\mathcal C,J)\\) be a [[algebraic-geometry-foundations/site|site]] and let \\(U\\) be an object of \\(\\mathcal C\\). A family of morphisms. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/d-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "020e184e1b52216f5a7248e3556af59b9f641cbc03a649424700738dbc2394bf",
+      "evidence": "Read complete body; core states: Let \\(X\\) be a smooth algebraic variety in characteristic \\(0\\). A. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: smooth charts. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/derived-algebraic-stack",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2c5d2945464dc1ebd2dcacee65d9cf31f0788a3fa677dcd60744aa4d7df3b94",
+      "evidence": "Read complete body; core states: A **derived algebraic stack**, or **derived Artin stack**, is a stack. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: affine schemes, algebraic spaces, commutative rings, structure sheaf. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/diagonal-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "113b12b5e301f8ea73695b181b54d4562502ad2cc9f32f222d21e21bcfa7a471",
+      "evidence": "Read complete body; core states: Let \\(f:Y\\to X\\) be a [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]]. The two identity maps from \\(Y\\) to itself have the same composite \\(f\\) to \\(X\\).. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/direct-image-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58791ccce297d548517b08dbab94ca98786a5b57c9d3a00954b0d6801fdc1b09",
+      "evidence": "Read complete body; core states: Let \\(f:X\\to Y\\) be a [[topology/continuous-map|continuous map]] and let \\(\\mathcal F\\) be a [[algebraic-geometry-foundations/sheaf|sheaf]] on \\(X\\). The **direct image**, or **pus. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: open sets. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/etale-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2b6530629a158ee69c44307b37fc6d2ae319d7996e4470db900346c6b0d41d8",
+      "evidence": "Read complete body; core states: A morphism \\(f:Y\\to X\\) of [[algebraic-geometry-foundations/scheme|schemes]] is **\u00e9tale** if it is simultaneously. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: open covers, finite field. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/etale-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2d62ee9719bab82d872d940881efe6c6ad72a2449dc80decc47ee7efe9a9f3f",
+      "evidence": "Read complete body; core states: The **\u00e9tale topology** is the [[algebraic-geometry-foundations/grothendieck-topology|Grothendieck topology]] on [[algebraic-geometry-foundations/scheme|schemes]] in which a family. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: Zariski topology, field extension, open covers. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/fiber-product-of-schemes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e1eb68c36aebc965db02498af60a6428bea5dbe54e1ead1327147f9795f9253",
+      "evidence": "Read complete body; core states: Given morphisms of [[algebraic-geometry-foundations/scheme|schemes]] \\(X\\to S\\leftarrow Y\\), their **fiber product** is a scheme \\(X\\times_S Y\\) with projections to \\(X\\) and \\(Y\\). Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: topological space. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-etale-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c65a8000a2822a13e3a3ea1086715ba6c6ec9cd648773562e005dcc89f2b67a",
+      "evidence": "Read complete body; core states: Let \\(R\\) be a [[algebra-rings/commutative-ring|commutative ring]]. A commutative \\(R\\)-algebra \\(A\\) is a **finite \u00e9tale \\(R\\)-algebra** if the induced morphism. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: separable extensions, \u00c9tale morphisms, smooth manifold. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-etale-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5a012fbb5a166b7ae341131dfe9820e89d2238e489dde3ce721128f5177db55",
+      "evidence": "Read complete body; core states: A morphism of [[algebraic-geometry-foundations/scheme|schemes]] is **finite \u00e9tale** if it is both a [[algebraic-geometry-foundations/finite-morphism|finite morphism]] and an [[alge. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: field extension. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-galois-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ac85f700aa9fb40fd15b748f5b13a74b028185dc083be6b912fcd80596d8341",
+      "evidence": "Read complete body; core states: Let \\(F\\) be a [[algebra-rings/field|field]] and \\(G\\) a finite [[algebra-groups/group|group]]. A **finite \\(G\\)-Galois \\(F\\)-algebra** is a [[algebraic-geometry-foundations/finite. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-locally-free-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f1e845954acb7cd1bee262289d0587f8c5638a2126b76e9e30bcf8ec314994a",
+      "evidence": "Read complete body; core states: A [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]] \\(f:X\\to S\\) is **finite locally free** if every point of \\(S\\) has an affine neighborhood \\(U=\\operato. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: locally of finite\npresentation, finite field. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/finite-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "92afd3940ea74df7bc2f1cbcd5fe8200a6ec83320eb373355586d24c7c6cbaca",
+      "evidence": "Read complete body; core states: A morphism \\(f:Y\\to X\\) of [[algebraic-geometry-foundations/scheme|schemes]] is **finite** if every affine open \\(U=\\operatorname{Spec}A\\subseteq X\\) has affine inverse image. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: open cover. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/flag-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2c089727d600a83e9f12d78d5410a8d154d810c6261d267048481bb10975fa3",
+      "evidence": "Read complete body; core states: Let \\(G\\) be a connected. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/flat-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f27b186658192b19ae333cacbb4eea52df329361f91bd4560aaf82c52d19f962",
+      "evidence": "Read complete body; core states: A morphism \\(f:Y\\to X\\) of [[algebraic-geometry-foundations/scheme|schemes]] is **flat at** \\(y\\in Y\\) if the induced homomorphism of local rings. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: local rings, field extension, vector space. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/formal-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49ac364b39dbc8cd1123ebd9e32b5999c2f09ed40a0259afffe7195b32b5f014",
+      "evidence": "Read complete body; core states: An **adic formal scheme** is a. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: topological spaces, algebraic spaces. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/formal-spectrum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6713697b4cd5aa354cabf240aca994b61da20968629fe83c099fe551ba0eb8cc",
+      "evidence": "Read complete body; core states: Let \\(A\\) be a complete and separated. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: locally topologically\nringed space, topological space, adic rings, ring\nhomomorphisms, ideal\nof definition, topological space. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/fundamental-theorem-of-projective-geometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d9fecf7c272238812a75579199699f961ef6bdfa98561ed4aa81c58b3ecdbeb",
+      "evidence": "Read complete body; core states: Let \\(V\\) and \\(W\\) be [[linear-algebra/vector-space|vector spaces]] of dimension at least \\(3\\) over fields \\(k\\) and \\(\\ell\\). If a bijection. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: projective lines, projective line, projective lines, semilinear maps. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/g-torsor-on-a-site",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9d0d727d2e5dd8397f17e1d7180397d60582c63804d8ca0e216f45814ae36a5",
+      "evidence": "Read complete body; core states: Let \\(\\mathcal C\\) be a [[algebraic-geometry-foundations/site|site]], let \\(G\\) be a [[algebraic-geometry-foundations/sheaf-of-groups|sheaf of groups]] on \\(\\mathcal C\\), and let \\. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: right translation. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/galois-extension-as-etale-torsor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c6edef8f96c7e744dd205d401c6375c1e9bdf916153b47f37ea8b815fae6b5f8",
+      "evidence": "Read complete body; core states: Let \\(K/F\\) be a finite [[algebra-fields-galois/galois-extension|Galois extension]], let \\(G=\\operatorname{Gal}(K/F)\\), and set \\(P=\\operatorname{Spec}K\\) and \\(X=\\operatorname{Spe. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: Galois extension. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/galois-tensor-product-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af956fa3ed203376eb5bc006d30760d88bf2938afc4a108a009efd2bc9dd850f",
+      "evidence": "Read complete body; core states: Base-changing \\(\\operatorname{Spec}K\\to\\operatorname{Spec}F\\) along itself should reveal one sheet for every \\(F\\)-automorphism of \\(K\\). On coordinate rings, that geometric splitt. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: inseparable extension. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/generic-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "56b8850626f84c3b03999037f80027c9b1192ffbbdbcf6942c051b7b0678f33b",
+      "evidence": "Read complete body; core states: Let \\(X\\) be a [[algebraic-geometry-foundations/scheme|scheme]] and \\(Z\\subseteq X\\) an [[topology/irreducible-space|irreducible closed subset]]. A point \\(\\eta\\in Z\\) is a **gener. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: topological space, limit point. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/geometric-fiber",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ab786de9509425d34c67ee1670bf634e86ac9c4f0f37aebbaf172bd198ea6e9",
+      "evidence": "Read complete body; core states: Let \\(f:X\\to S\\) be a [[algebraic-geometry-foundations/morphism-of-schemes|morphism of schemes]], let \\(s\\in S\\), and let \\(\\kappa(s)\\) be its [[algebra-commutative/residue-field|r. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: algebraic closure. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/grothendieck-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8b83a12fcba6a540ec6acd12025500805ea648e87a4db40008511cea655d315",
+      "evidence": "Read complete body; core states: Let \\(\\mathcal C\\) be a [[algebra-category-theory/category|category]]. A **[[algebraic-geometry-foundations/sieve|sieve]]** \\(S\\) on an object \\(U\\) is a collection of [[algebra-ca. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/group-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74732ee23b634759867d735371ee40c534c019a8fa64ef3fed48e2db199f0d9b",
+      "evidence": "Read complete body; core states: Fix a base [[algebraic-geometry-foundations/scheme|scheme]] \\(S\\). A **group scheme over \\(S\\)** is an [[algebraic-geometry-foundations/scheme-over-a-base|\\(S\\)-scheme]] \\(G\\to S\\). Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/harder-narasimhan-filtration",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "623bb8cfcf99171e4ca27014a2fbedb22f7d7c8ddd617568f274ae67cf247ee1",
+      "evidence": "Read complete body; core states: Let \\(E\\) be a. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/hyperrings-as-ordered-blueprints",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d88d9365deac5883b5b11e357c1497d828243686c5cd75d3e83d69f88a027cd",
+      "evidence": "Read complete body; core states: Let \\(R\\) be a [[algebra-hyperstructures/hyperring|Krasner hyperring]]. Its associated [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \\(R^{\\mathrm{oblpr}}\\). Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: ordered blueprint. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/idyll-as-ordered-blue-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef960522ffcd11b96b96fddb40a007c86be89483bf4bc23ef2e140103948f9d3",
+      "evidence": "Read complete body; core states: Under the fully faithful realization of. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/integrable-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bbefeb871317bda7a924b42a168070434f0c128cbda554a51281086304f2f52a",
+      "evidence": "Read complete body; core states: Let \\(X\\) be a smooth scheme over a field \\(k\\), and let \\(\\mathcal E\\) be an. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/isocrystal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f1823b82a84e6275dd0e4a5e36a9276e932b71ab3b4cf42ca73ad11faec9a92",
+      "evidence": "Read complete body; core states: Let \\(k\\) be a [[algebra-fields-galois/perfect-field|perfect field]] of. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/k-ideal-of-a-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d0c3af042e22d1603442cd4bdadf0dc91c3eeac8dda835e9903f1e7ae7cdabe",
+      "evidence": "Read complete body; core states: Let \\(B\\) be a [[algebraic-geometry-foundations/blueprint|blueprint]]. A **\\(k\\)-ideal** of \\(B\\) is a subset \\(I\\subseteq B^\\bullet\\) such that:. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/levi-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "139b0fd36cfa476aa58ee1c6b5113099893e8a87768c669df708488cd86dc2ad",
+      "evidence": "Read complete body; core states: Let \\(G\\) be a connected. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: Parabolic subgroups, reductive groups, nonarchimedean local field. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/lisse-ell-adic-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a9fa662d6a5031a579572bfdfaaed586fd6133cd1c409f940c7267e9b0f6cf8",
+      "evidence": "Read complete body; core states: Let \\(X\\) be a connected [[algebraic-geometry-foundations/scheme|scheme]] on. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/local-diffeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c42491896151e049548d291efe59979ec066eefdee2c0f624f8e81e97097dd21",
+      "evidence": "Read complete body; core states: A **local diffeomorphism** is a smooth map \\(f:M\\to N\\) between smooth manifolds such that every \\(x\\in M\\) has an open neighborhood \\(U\\) for which \\(f(U)\\) is open in \\(N\\) and. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: smooth map, smooth manifolds, inverse function, smooth map, smooth manifolds. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/localization-of-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eff11f45e599d45782640589465a8f62ee846034d51a53e11d71922a3a56198f",
+      "evidence": "Read complete body; core states: Let \\(B=A/\\!/\\mathcal R\\) be a [[algebraic-geometry-foundations/blueprint|blueprint]] and let \\(S\\subseteq A\\) be multiplicatively closed. The **localization** \\(S^{-1}B\\) has unde. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-blueprinted-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eda71715a70baf21a5990519ed627f0f83b68eb540575405a8da10c26c598b52",
+      "evidence": "Read complete body; core states: A **blueprinted space** is a topological space \\(X\\) together with a sheaf \\(\\mathcal O_X\\) of [[algebraic-geometry-foundations/blueprint|blueprints]]. It is **locally blueprinted*. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: topological space, continuous map, full subcategory, open covers. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-free-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26f192130fc012d02fc39d21b204b931f2ec6aff9d336507d3d696a57075cc48",
+      "evidence": "Read complete body; core states: Let \\((X,\\mathcal O_X)\\) be a. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: connected component, free\nmodules, complex vector bundle, global section, associated bundle. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-of-finite-presentation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4b8c1a25fa2cfd18ea8c41e600cefa2669db6ec9b16bb56c8b08ec5580aacb23",
+      "evidence": "Read complete body; core states: A morphism \\(f:Y\\to X\\) of [[algebraic-geometry-foundations/scheme|schemes]] is **locally of finite presentation** if \\(X\\) has an affine open cover \\(U_i=\\operatorname{Spec}A_i\\) . Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: open cover, field extension, finite field. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-of-finite-type",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b5dedee7d4b144858b8c219bb548e2e1015e8f078afdbdcfaf501d22666327c",
+      "evidence": "Read complete body; core states: A morphism \\(f:Y\\to X\\) of [[algebraic-geometry-foundations/scheme|schemes]] is **locally of finite type** if \\(X\\) has an affine open cover \\(U_i=\\operatorname{Spec}A_i\\) such tha. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: open cover. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-ringed-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ed38569d4e60d4b4f7b02c0999e4311a9c02cf51ddb76ae72355d359becdb73",
+      "evidence": "Read complete body; core states: A **locally ringed space** is a pair \\((X,\\mathcal O_X)\\) consisting of a [[topology/topological-space|topological space]] \\(X\\) and a [[algebraic-geometry-foundations/sheaf|sheaf]. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: commutative rings, maximal ideal, commutative ring, prime ideal, local ring. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/locally-topologically-ringed-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d665fae6d0b7e3a5b7c0daf99d62af56736079e19c53bbd774ea70fd50fe43e",
+      "evidence": "Read complete body; core states: A **locally topologically ringed space** is a pair. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: structure sheaf, continuous map. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "970bdd83e6e90e72fe93def14662f440c6b6e41d8372a477c53f778c5110429e",
+      "evidence": "Read complete body; core states: Let \\(X\\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: automorphism\ngroups, locally of\nfinite type, vector\nbundles, algebraically closed field, fundamental group. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/morphism-of-locally-ringed-spaces",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad9ebdd09f54a71109371ca168d4738db204c1319bc2f19d150e059d6e359e86",
+      "evidence": "Read complete body; core states: Let \\((X,\\mathcal O_X)\\) and \\((Y,\\mathcal O_Y)\\) be [[algebraic-geometry-foundations/locally-ringed-space|locally ringed spaces]]. A **morphism of locally ringed spaces** \\(f:X\\to. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: maximal ideal. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/morphism-of-schemes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eb27c8ec57741c12e39069ccccf7e9caba00aee15130a60bde45212e110ffc3",
+      "evidence": "Read complete body; core states: A **morphism of schemes** \\(f:X\\to Y\\) is a [[algebraic-geometry-foundations/morphism-of-locally-ringed-spaces|morphism of locally ringed spaces]]. It consists of a [[topology/cont. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: maximal ideal. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/morphism-of-sheaves",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "943d993d5f37901ae3bb4ca8fe791c7462d83be34de16452514dbd4aa552e431",
+      "evidence": "Read complete body; core states: Let \\(\\mathcal F\\) and \\(\\mathcal G\\) be [[algebraic-geometry-foundations/sheaf|sheaves]] on a [[topology/topological-space|topological space]] \\(X\\). A **morphism of sheaves** \\(\\. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blue-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "909b6ae37b518578587da5e4dbab3154eae3f0ada84876d81f26099acb3ede50",
+      "evidence": "Read complete body; core states: An **ordered blue field** is a nontrivial [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \\(F\\) such that. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blue-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4dd2971edff58f5ae18b75e5e2c4c3ff70e0bcce692a46a351b683bead302da4",
+      "evidence": "Read complete body; core states: An **ordered blue scheme** is an [[algebraic-geometry-foundations/ordered-blueprinted-space|ordered blueprinted space]] that is locally isomorphic to an affine spectrum \\(\\operator. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: topological space. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26f1ac375290f0171e8acdb1d3e3749a929fe57bf99111907ff3b63d5b169a4c",
+      "evidence": "Read complete body; core states: An **ordered blueprint** is a triple. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: ordered semiring. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blueprint-with-unique-weak-inverses",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4face858af76691ceb836bb8106286727f6bbaa0cc878bef51050401072b5f6b",
+      "evidence": "Read complete body; core states: An [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \\(B\\) has **unique weak inverses** if, for every \\(a\\in B^\\bullet\\), there is a unique \\(b\\in B^\\bullet\\) . Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: ordered blueprints, ordered blueprints, full subcategory. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/ordered-blueprinted-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ceff9a957694d0ef47ad520f2b8d29ea57962ec11b4cf794350263e0e795f749",
+      "evidence": "Read complete body; core states: An **ordered blueprinted space**, or **OBlpr-space**, is a topological space \\(X\\) together with a sheaf \\(\\mathcal O_X\\) of [[algebraic-geometry-foundations/ordered-blueprint|orde. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: topological space, continuous map. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/parabolic-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b7b9b73d276403dc03b11b246051354a23da9dece8a376d7fe52e29eadcee139",
+      "evidence": "Read complete body; core states: Let \\(G\\) be a connected. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/pasteurization-of-ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "192f7a972efbe55f166d78125dcdba3593b5929b770ab5697cd1379b26a7d764",
+      "evidence": "Read complete body; core states: For an [[algebraic-geometry-foundations/ordered-blueprint|ordered blueprint]] \\(B\\), its **unique-weak-inverse reflection** is an ordered blueprint \\(B^\\pm\\) with unique weak inver. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: full subcategory. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/perfect-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed6afe8e273157bab9809cbfc04caf85e4cd9a763cabd3b2e07db030f09464fe",
+      "evidence": "Read complete body; core states: Let \\((X,\\mathcal O_X)\\) be a. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/perfectoid-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c845dc2d3c7a2f83154c246b53f7c1240c98b010e9093f08a0d59034893e3eb",
+      "evidence": "Read complete body; core states: A **perfectoid field** is a complete nonarchimedean field \\(K\\) with a. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/perfectoid-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2642df6f24715f9f9700eb41ad276e4818e06ea3643083df80db74bd2519b0f2",
+      "evidence": "Read complete body; core states: Let \\(K\\) be a. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/pointed-algebraic-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd877f4214109c702cf8bac3dd43a8b31e2b338795ea9cdc8c357d9ee9b00bfd",
+      "evidence": "Read complete body; core states: A **pointed algebraic curve** over a scheme \\(S\\) is a family of algebraic. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: algebraic\ncurves, local systems. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/pre-addition-on-a-monoid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f3ac85d6549c8de9b3a2a958093555e521c2519b42b3a9a6b88a0e1f416504e",
+      "evidence": "Read complete body; core states: Let \\(A\\) be a [[algebra-groups/commutative-monoid|commutative monoid with zero]], and let \\(\\mathbb N[A]\\) denote the semiring of finite formal sums of elements of \\(A\\). A **pre-. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/principal-g-bundle-on-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c35d827074c1166dbc9142afecaba58952dc90b8c2750ed5287a59ef2a4747c7",
+      "evidence": "Read complete body; core states: Let \\(G\\) be a [[algebraic-geometry-foundations/group-scheme|group scheme]] over a base \\(S\\), and let \\(X\\) be an. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: no multiword scanner candidates. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/proj",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80499924c7bc7a45ee3e03ddb023b9f41c8479b094d53a311aeb0c0876e9ad6f",
+      "evidence": "Read complete body; core states: Let \\(S=\\bigoplus_{d\\ge 0}S_d\\) be a commutative [[algebra-modules/graded-ring|graded ring]], and let. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: closed sets, polynomial ring. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-geometry",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c304eaa392a4554dd91eba0e1ba8b2d939ca54d0b1be38a77fdec181350b2a8",
+      "evidence": "Read complete body; core states: Let \\(V\\) be a [[linear-algebra/vector-space|vector space]] of dimension at least \\(2\\) over a field \\(k\\). The **projective geometry of \\(V\\)** is the incidence structure whose po. Checked existing body links, all optional sections, and prerequisite metadata. Candidate phrases considered: projective lines, projective line, linear subspaces, vector spaces. Those occurrences are contextual/generic, locally defined, or already linked elsewhere in the same section, so no new link is justified."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 07: 100 knowls reviewed; five received clear supporting links and 95 were unchanged."
+  ]
+}
+

@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-groups/cancellation-laws-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d2a5ccce914d6b05c6acffdd62cbd067de3efdd0366ed788fbc4f41db030856",
+      "evidence": "Read the complete proposition, equivalent characterization, and remarks. The group hypothesis is linked and is the only genuine prerequisite; cancellation and translations are explained locally. No additional link is needed."
+    },
+    {
+      "id": "algebra-groups/conjugacy-class-size-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48d4671559f55f60d363c66b8cbd786da51d22edff654b038484f65c953d0933",
+      "evidence": "Read the complete statement and orbit-stabilizer remark, checking group, conjugacy class, centralizer, index, orbit-stabilizer, and conjugation-action targets. All terms needed to parse the formula are already linked; no generic notation links were added."
+    },
+    {
+      "id": "algebra-groups/conjugation-preserves-order",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8728de14a61d46e08c94c9ef6ed7fc5dfa727a1e2339ed304a12982a770b5f64",
+      "evidence": "Read the full proposition and proof. Group and conjugate-element prerequisites are linked, and the proof directly establishes the order claim. Integers, powers, identity, and infinity are ordinary local notation here."
+    },
+    {
+      "id": "algebra-groups/index-2-normal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57822556860d70d6f515782f6d579cbd51385f368ef851fd23daf01f1e7a968a",
+      "evidence": "Read the theorem and equivalent characterization. Group, subgroup, index, and normal-subgroup are linked in the core; the existing coset link covers the supporting explanation. No further meaningful link was required."
+    },
+    {
+      "id": "algebra-category-theory/abelian-category-axioms",
+      "outcome": "corrected",
+      "source_sha256": "d0fb91045b8e351d2b452ee87f25bf539d78aae91d02269be653d550bc22c1fa",
+      "evidence": "Read the complete axiom list, examples, and non-examples, and checked additive category, kernel, categorical cokernel, mono, epi, category, zero object, exact sequence, module, chain complex, and abelian group targets. Added links for morphism and isomorphism in the minimal definition because both are used in its arrow-level equivalences. Rejected links for repeated generic words such as domain, codomain, objects, composition, and modules where nearby linked definitions or ordinary notation already suffice; the scanner's modules→module and cokernel→module matches are semantically wrong for this categorical page."
+    },
+    {
+      "id": "algebra-modules/category-of-finitely-generated-projective-modules",
+      "outcome": "corrected",
+      "source_sha256": "7ef0d8132ffd00ca8c5f7f331496d70ef59b40698105092391443921f6e7d78c",
+      "evidence": "Read the full definition, exactness discussion, geometric example, and references. Checked projective module, module homomorphism, full subcategory, zero object, category, module, unital ring, matrix, restriction of scalars, and Serre–Swan targets. Added links for unital ring, category, objects, morphisms, and the category/module phrase in the core; these are genuine ingredients of the categorical definition. Rejected generic supporting matches for ring, module, matrix, rank, and morphism where the prose is contextual or the term is already linked at the defining occurrence."
+    },
+    {
+      "id": "algebra-commutative/dedekind-domain",
+      "outcome": "corrected",
+      "source_sha256": "45d1be651dde7906a56fa8aa163af719a97c2d8394311e0506a961eebb3ac8e0",
+      "evidence": "Read the full definition, equivalent characterizations, examples, and non-example, checking integral domain, Noetherian ring, integrally closed domain, Krull dimension, height, localization, DVR, PID, field, polynomial ring, number field, and prime ideal targets. Added links for integral domain and prime ideal in the core and ideal/prime ideal in the ideal-factorization characterization. The candidate phrase commutative algebra is a field of study, not a missing dependency; proper ideal and nonzero prime ideal are compositional qualifiers, not separate definitions required by this knowl."
+    },
+    {
+      "id": "algebra-commutative/zariski-topology",
+      "outcome": "corrected",
+      "source_sha256": "8eec2b633ad2cfccd03bd8eb3aa6b480a817ea38e1608332d5301fad4a6ba9cd",
+      "evidence": "Read the complete definition, basis description, localization comparison, intuition, and examples. Checked commutative ring, prime spectrum, ideal, topology, open set, closed set, homeomorphism, localization, generic point, divisibility, complement, and PID targets. Added links for ideal, topology, closed subsets, subset, open sets, and homeomorphism at their first mathematically substantive uses. Chose topology/open-set and topology/closed-set over ambiguous convex-analysis candidates; rejected repeated links and generic set vocabulary after the first defining use."
+    }
+  ],
+  "gaps": [
+    {
+      "phrase": "commutative algebra",
+      "status": "false_positive_or_field_of_study",
+      "sources": ["algebra-commutative/dedekind-domain"],
+      "reason": "Introductory subject-area phrase; no independently required definition for the Dedekind-domain core."
+    },
+    {
+      "phrase": "homological algebra",
+      "status": "optional_missing_concept",
+      "sources": ["algebra-category-theory/abelian-category-axioms"],
+      "reason": "A later motivation, not a prerequisite. A future standalone knowl could be useful, but no target should be created or linked in this batch."
+    },
+    {
+      "phrase": "proper ideal",
+      "status": "compositional_phrase",
+      "sources": ["algebra-commutative/dedekind-domain"],
+      "reason": "The existing ideal and prime-ideal definitions provide the needed meaning; the qualifier is part of the theorem statement."
+    },
+    {
+      "phrase": "zero module",
+      "status": "existing_target_via_zero_object",
+      "sources": ["algebra-modules/category-of-finitely-generated-projective-modules"],
+      "reason": "The phrase identifies the zero object in this module category; a separate target is unnecessary here."
+    },
+    {
+      "phrase": "nonzero prime ideal",
+      "status": "compositional_phrase",
+      "sources": ["algebra-commutative/dedekind-domain"],
+      "reason": "Prime ideal is linked at the defining occurrence; nonzero is a hypothesis qualifier."
+    },
+    {
+      "phrase": "noncommutative ring",
+      "status": "existing_target_insufficient_alias",
+      "sources": ["algebra-modules/category-of-finitely-generated-projective-modules"],
+      "reason": "The corpus has commutative-ring but no suitable standalone noncommutative-ring target; this is a scope warning in a later remark, not needed for the core."
+    }
+  ],
+  "calibration": {
+    "subject": "algebra",
+    "lessons": [
+      "Candidate-rich scans overlink ordinary mathematical vocabulary and repeated occurrences; review must prioritize first defining uses and reader questions.",
+      "A target with a misleading lexical match can be worse than leaving a phrase unlinked: categorical cokernel must not resolve to module cokernel.",
+      "Core links should expose prerequisites of the minimal definition, while examples and motivational subject-area phrases generally remain unlinked.",
+      "Ambiguous topology targets should be selected by mathematical context; convex-analysis/open-subset is inappropriate for Zariski topology."
+    ]
+  }
+}

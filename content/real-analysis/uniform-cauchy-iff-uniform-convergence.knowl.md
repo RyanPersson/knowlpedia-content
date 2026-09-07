@@ -16,4 +16,4 @@ dependency_review_count = 1
 \rho\bigl(f_n(x),f_m(x)\bigr)<\varepsilon.
 \]
 
-Equivalently, uniform convergence is exactly convergence in the [[real-analysis/uniform-metric|uniform metric]] (and, for bounded real-valued functions, in the [[real-analysis/supremum-norm|supremum norm]]).
+Equivalently, [[real-analysis/uniform-convergence|uniform convergence]] is exactly convergence in the [[real-analysis/uniform-metric|uniform metric]] (and, for bounded real-valued functions, in the [[real-analysis/supremum-norm|supremum norm]]).

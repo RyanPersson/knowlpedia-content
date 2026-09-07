@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **regular point** of a differentiable map \(F:U\to \mathbb{R}^m\), where \(U\subseteq\mathbb R^n\) is open, is a point \(a\in U\) such that the [[real-analysis/frechet-derivative|Fréchet derivative]] \(DF(a):\mathbb{R}^n\to \mathbb{R}^m\) is surjective.
+A **regular point** of a [[real-analysis/differentiable-map|differentiable map]] \(F:U\to \mathbb{R}^m\), where \(U\subseteq\mathbb R^n\) is open, is a point \(a\in U\) such that the [[real-analysis/frechet-derivative|Fréchet derivative]] \(DF(a):\mathbb{R}^n\to \mathbb{R}^m\) is surjective.
 
 ## Equivalent characterizations
 

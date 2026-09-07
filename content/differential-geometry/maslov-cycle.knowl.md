@@ -27,7 +27,7 @@ The stratum \(\Sigma_k(L_0)\) has codimension \(k(k+1)/2\) in \(\Lambda(V)\). Th
 
 ## Coorientation and crossings
 
-At \(L\in\Sigma_1(L_0)\), a tangent vector to \(\Lambda(V)\) is represented by a quadratic form on \(L\). Restricting it to the line \(L\cap L_0\) gives a scalar; its sign distinguishes the two normal directions and defines the coorientation. For a smooth path \(L(t)\), the corresponding restriction is the crossing form. A nondegenerate crossing is isolated, and its signature gives the local intersection contribution.
+At \(L\in\Sigma_1(L_0)\), a tangent vector to \(\Lambda(V)\) is represented by a quadratic form on \(L\). Restricting it to the line \(L\cap L_0\) gives a scalar; its sign distinguishes the two normal directions and defines the coorientation. For a smooth path \(L(t)\), the corresponding restriction is the [[differential-geometry/crossing-form|crossing form]]. A nondegenerate crossing is isolated, and its signature gives the local intersection contribution.
 
 ## Example in dimension two
 

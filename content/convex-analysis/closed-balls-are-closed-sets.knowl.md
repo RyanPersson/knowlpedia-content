@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-In a metric space \((X,d)\), every closed ball
+In a [[topology/metric-space|metric space]] \((X,d)\), every [[topology/closed-ball|closed ball]]
 \[
 \overline B(x_0,r)=\{x\in X:d(x,x_0)\le r\},
 \qquad r\ge0,

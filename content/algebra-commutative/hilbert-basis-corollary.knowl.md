@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Hilbert basis theorem (iterated form).** Let \(R\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]]. For every integer \(n\ge 0\), the polynomial ring \(R[x_1,\ldots,x_n]\) is Noetherian. Hence every ideal in this ring is finitely generated. Moreover, every finitely generated \(R\)-algebra is Noetherian, because it is a quotient of some \(R[x_1,\ldots,x_n]\).
+**Hilbert basis theorem (iterated form).** Let \(R\) be a [[algebra-commutative/noetherian-ring|Noetherian ring]]. For every integer \(n\ge 0\), the polynomial ring \(R[x_1,\ldots,x_n]\) is Noetherian. Hence every [[algebra-rings/ideal|ideal]] in this ring is finitely generated. Moreover, every finitely generated \(R\)-algebra is Noetherian, because it is a quotient of some \(R[x_1,\ldots,x_n]\).
 
 In particular, if \(k\) is a [[algebra-rings/field|field]], then \(k[x_1,\ldots,x_n]\) and each quotient \(k[x_1,\ldots,x_n]/I\) are Noetherian.
 

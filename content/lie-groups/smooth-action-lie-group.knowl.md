@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(G\) be a Lie group and \(M\) a smooth manifold. A **smooth (left) action** of \(G\) on \(M\) is a smooth map
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] and \(M\) a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **smooth (left) action** of \(G\) on \(M\) is a [[fiber-bundles/smooth-map|smooth map]]
 \[
 a: G\times M \longrightarrow M,\qquad (g,m)\mapsto g\cdot m,
 \]

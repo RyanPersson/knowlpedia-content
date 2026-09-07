@@ -40,7 +40,7 @@ The form \(\Omega\) is horizontal and \(G\)-equivariant. Under the usual corresp
    \[
    \Omega^i{}_j = K\,\theta^i\wedge\theta^j,
    \]
-   reflecting constant sectional curvature \(K>0\).
+   reflecting constant [[differential-geometry/sectional-curvature|sectional curvature]] \(K>0\).
 
 3. **Product connections.**  
    If \(M=M_1\times M_2\) and the connection on \(TM\cong TM_1\oplus TM_2\) is the product of connections on the factors, then \(\Omega\) is block-diagonal with blocks given by the curvature forms from each factor, and there are no mixed curvature terms.

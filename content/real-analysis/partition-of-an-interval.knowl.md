@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **partition of an interval** \([a,b]\) is a finite sequence of real numbers
+A **partition of an interval** \([a,b]\) is a finite sequence of [[shared-foundations/real-numbers|real numbers]]
 \[
 P=\{x_0,x_1,\dots,x_n\}\quad\text{with}\quad a=x_0<x_1<\cdots<x_n=b.
 \]

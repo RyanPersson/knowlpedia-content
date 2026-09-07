@@ -41,9 +41,9 @@ representation is unitarily equivalent to the GNS representation of
 
 For \(A=\mathcal B(H)\) with its identity representation, every unit vector
 defines a vector state. This state is normal, and its [[quantum-foundations/density-operator|density operator]] is the
-rank-one projection onto \(\mathbb C\xi\). A general
+[[quantum-foundations/rank-one-projector|rank-one projection]] onto \(\mathbb C\xi\). A general
 [[operator-algebras/normal-state|normal state]] on \(\mathcal B(H)\) is instead
-represented by a positive trace-class operator of trace one, and need not be a
+represented by a positive [[shale-paper/trace-class-operator|trace-class operator]] of trace one, and need not be a
 single vector state.
 
 ## Dependence on representation

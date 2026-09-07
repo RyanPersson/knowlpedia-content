@@ -11,13 +11,13 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a real [[linear-algebra/hilbert-space|Hilbert space]]. A **normal
-distribution over \(M\)** in Segal's sense is a probability space
-\((N,\mathfrak R,n)\) carrying a real-linear map
+Let \(M\) be a real [[linear-algebra/hilbert-space|Hilbert space]]. A **[[probability/normal-distribution|normal
+distribution]] over \(M\)** in Segal's sense is a [[probability/probability-space|probability space]]
+\((N,\mathfrak R,n)\) carrying a real-[[linear-algebra/linear-map|linear map]]
 \[
 W:M\longrightarrow L^2(N,n)
 \]
-such that the random variables \(W(x)\) are jointly centered Gaussian and
+such that the [[probability/random-variable|random variables]] \(W(x)\) are jointly centered Gaussian and
 \[
 \int_N W(x)W(y)\,dn=\langle x,y\rangle_M
 \qquad(x,y\in M).
@@ -45,10 +45,10 @@ integration rule for [[shale-paper/tame-function|tame functions]]. A covariance
 ## Why the sample space is not \(M\)
 
 If \(M\) is infinite-dimensional, there is no countably additive Gaussian
-Borel probability measure on \(M\) having covariance \(I\): the covariance
-operator of a Gaussian Borel measure on a Hilbert space must be trace class,
+Borel [[probability/probability-measure|probability measure]] on \(M\) having covariance \(I\): the covariance
+operator of a Gaussian [[measure-theory/borel-measure|Borel measure]] on a [[linear-algebra/hilbert-space|Hilbert space]] must be trace class,
 whereas \(I\) is not. The notation \(L^p(M,n)\) used in this context therefore
-refers to the Gaussian probability-space realization, not literally to a
+refers to the Gaussian [[probability/probability-space|probability-space]] realization, not literally to a
 standard Gaussian measure supported on \(M\).
 
 ## Shale's setting

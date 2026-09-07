@@ -23,7 +23,7 @@ Every irreducible unitary representation of a compact group is discrete series a
 
 ## Relationship to relative discrete series
 
-If the center is noncompact, central characters make a nonzero coefficient constant in modulus along central cosets, obstructing membership in \(L^2(G)\). The corresponding notion is then a [[lie-groups/square-integrable-modulo-center-representation|square-integrable representation modulo the center]]. Neither notion should be confused with the discrete spectrum of an automorphic quotient, where occurrence is measured in a different \(L^2\)-representation.
+If the center is noncompact, [[algebra-representation-theory/central-character|central characters]] make a nonzero coefficient constant in modulus along central cosets, obstructing membership in \(L^2(G)\). The corresponding notion is then a [[lie-groups/square-integrable-modulo-center-representation|square-integrable representation modulo the center]]. Neither notion should be confused with the discrete spectrum of an automorphic quotient, where occurrence is measured in a different \(L^2\)-representation.
 
 ## References
 

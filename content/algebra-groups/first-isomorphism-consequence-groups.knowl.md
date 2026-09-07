@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 **Proposition (Quotient by the kernel).**
-Let \(f:G\to H\) be a [[algebra-groups/group-homomorphism|group homomorphism]]. Then there exists a unique group isomorphism
+Let \(f:G\to H\) be a [[algebra-groups/group-homomorphism|group homomorphism]]. Then there exists a unique [[algebra-groups/group-isomorphism|group isomorphism]]
 \[
 \overline f:\; G/\ker(f)\ \longrightarrow\ \mathrm{im}(f)
 \]

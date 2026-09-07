@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-category-theory/equivalence-of-categories",
+      "outcome": "corrected",
+      "source_sha256": "a359677d561785e0fa132e6d94d63f758914cbe2bc0e3a03d3070612865a5d2c",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: Fully faithful -> algebra-category-theory/fully-faithful-functor, fully faithful -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebra-category-theory/yoneda-embedding",
+      "outcome": "corrected",
+      "source_sha256": "84e6498035d7170d05d827062350d4f2c91c011fc4361695653773ff6e388373",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebra-groups/center-of-group",
+      "outcome": "corrected",
+      "source_sha256": "b836ae0a36f4dbd5f8d4ffe7c5d7dfba0696a87640e31d607a9dc914f7d43938",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: quaternion group -> algebra-groups/quaternion-group"
+    },
+    {
+      "id": "algebra-groups/central-extension",
+      "outcome": "corrected",
+      "source_sha256": "fbcbb961930f52345f7291a730140bf40bf7dbf12547c28d4eff2529ac0e1541",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: quaternion group -> algebra-groups/quaternion-group"
+    },
+    {
+      "id": "algebra-groups/nilpotent-group",
+      "outcome": "corrected",
+      "source_sha256": "6f5fe376b2913fe3f1ce918bf36b2101b13f9df1cb89e35e16dc9123b1f5eb8c",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: quaternion group -> algebra-groups/quaternion-group"
+    },
+    {
+      "id": "algebra-groups/p-group",
+      "outcome": "corrected",
+      "source_sha256": "45fc693919d6f71ed43896797f8f0a2deed0ec644bfffc80049dd8fb67133d19",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: quaternion group -> algebra-groups/quaternion-group"
+    },
+    {
+      "id": "algebra-groups/perfect-group",
+      "outcome": "corrected",
+      "source_sha256": "6852a01737699816fb47a3bfbae9bb16efe684540ed9d129804ee3a2f29f96c0",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: alternating group -> algebra-groups/alternating-group"
+    },
+    {
+      "id": "algebra-groups/simple-group",
+      "outcome": "corrected",
+      "source_sha256": "6609a5f889323db5adf4d602c5dcf491ca3391d80924ab34e84bd215c3c85396",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: alternating group -> algebra-groups/alternating-group"
+    },
+    {
+      "id": "algebra-groups/subgroup",
+      "outcome": "corrected",
+      "source_sha256": "7da1f4f529c9837a62c741bf3b73541e00786fe4f97dc20773bd17ca7fc6a939",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: alternating group -> algebra-groups/alternating-group"
+    },
+    {
+      "id": "algebra-hyperstructures/fields-semifields-and-hyperfields",
+      "outcome": "corrected",
+      "source_sha256": "c0483b786ad5a8dc9ccaad42c4fb451053cca9c3cb2b09b55854791180764222",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebraic-geometry-foundations/band-as-an-ordered-blueprint",
+      "outcome": "corrected",
+      "source_sha256": "9bdebf0f1c284d46d44084d7b92b68cfd16801e8fb223d5e4f6608e908b237ca",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful functor -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebraic-geometry-foundations/blueprint",
+      "outcome": "corrected",
+      "source_sha256": "6e4adb194781b85a80fc5044b54259eca969d426a352690454a128556a3fbfd3",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint",
+      "outcome": "corrected",
+      "source_sha256": "8c8ec520f90508ee17700eed9a51a45051b09281a5e2d722a611249c523e7b0b",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful functor -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint",
+      "outcome": "corrected",
+      "source_sha256": "892d1b0cedb627ed0f5322f78bf81e3c3987951881359b413a48240a6bc40ee9",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful functor -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebraic-geometry-foundations/hyperrings-as-ordered-blueprints",
+      "outcome": "corrected",
+      "source_sha256": "e522753edb5bf07b8c2a30f71718c19ac83c97caa6b77ca28b15daa47c1388ac",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful functor -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebraic-geometry-foundations/idyll-as-ordered-blue-field",
+      "outcome": "corrected",
+      "source_sha256": "6be380893d5ade78ff0856e8f623cf683c1c3a2a326277260aa51cea04fc5e50",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "algebraic-geometry-foundations/semiring-as-a-blueprint",
+      "outcome": "corrected",
+      "source_sha256": "71c5ecc896ed7d81d48127d9597cb282a17ee892c42c51b5c9b78e7d1197d731",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: fully faithful functor -> algebra-category-theory/fully-faithful-functor"
+    },
+    {
+      "id": "differential-geometry/calabi-yau-manifold",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "64c5d296a283150d6e3e60acbbe8a7ce21c34dc58b2a502a2af4f9619314f92f",
+      "evidence": "Read the complete source and inspected the proposed new target. The phrase \u201cvolume form\u201d is a holomorphic volume form in this Calabi\u2013Yau context, while the target defines an oriented real top-degree differential form; \u201cvolume element\u201d is a Clifford algebra element, not a differential volume form. Both lookalikes were rejected to avoid a mathematically wrong link."
+    },
+    {
+      "id": "differential-geometry/category-of-smooth-manifolds",
+      "outcome": "corrected",
+      "source_sha256": "426052c31ab366c9b0af6abd15cf2e8cc156f1408f4951e837ec7a758600b4ee",
+      "evidence": "Read the complete source and the new canonical target. Added a link at the first mathematically meaningful occurrence of the new definition: faithful functor -> algebra-category-theory/faithful-functor"
+    },
+    {
+      "id": "differential-geometry/chirality-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "230d4e30b558d6803116ba42f9e385b9f9fde8ebeafa88a11d7228b8e059f3f9",
+      "evidence": "Read the complete source and inspected the proposed new target. The phrase \u201cvolume form\u201d is a holomorphic volume form in this Calabi\u2013Yau context, while the target defines an oriented real top-degree differential form; \u201cvolume element\u201d is a Clifford algebra element, not a differential volume form. Both lookalikes were rejected to avoid a mathematically wrong link."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "New canonical definitions integration pass: all 20 assigned sources reviewed. Fully faithful/faithful functor, quaternion group, alternating group links were added where the source occurrence matched exactly. Calabi\u2013Yau holomorphic volume form and Clifford volume element were rejected as conventionally distinct from the proposed real differential volume-form target."
+  ]
+}

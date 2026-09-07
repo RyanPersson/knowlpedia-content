@@ -18,7 +18,7 @@ The **orbit** of \(x\) is
 G\cdot x=\{g\cdot x \mid g\in G\}\subseteq M.
 \]
 
-The **orbit map** is \(\Phi_x:G\to M\), \(\Phi_x(g)=g\cdot x\).
+The **[[fiber-bundles/orbit-map|orbit map]]** is \(\Phi_x:G\to M\), \(\Phi_x(g)=g\cdot x\).
 
 The **stabilizer** (isotropy group) is
 \[

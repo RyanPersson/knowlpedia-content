@@ -35,13 +35,13 @@ Here \(H^1(F,T)\) is
 [[langlands-letter/knowls/nonabelian-h1-galois-cohomology|Galois cohomology]]
 (an [[algebra-groups/abelian-group|abelian group]] in this torus case), and
 \(\pi_0(\widehat T^{\Gamma_F})\) is the
-[[topology/connected-component|component group]] of the fixed-point subgroup
+[[topology/connected-component|component group]] of the [[real-analysis/fixed-point|fixed-point]] subgroup
 of the dual torus.
 
 ## Cohomological origin
 
-For a finite Galois splitting extension \(L/F\), cup product with the local
-fundamental class relates Tate cohomology of the
+For a finite Galois splitting extension \(L/F\), [[topology/cup-product-and-cohomology-ring|cup product]] with the local
+[[topology/fundamental-class|fundamental class]] relates Tate cohomology of the
 [[langlands-letter/knowls/maximal-torus-weight-lattice|character lattice]] to
 Tate cohomology of \(L^\times\). Passing through the
 character/cocharacter duality

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\Phi\) be a root system in a real inner product space \(V\) (see [[lie-groups/root-system|root system]]). A **positive system** (or set of **positive roots**) is a subset \(\Phi^+ \subset \Phi\) such that:
+Let \(\Phi\) be a root system in a real [[linear-algebra/inner-product-space|inner product space]] \(V\) (see [[lie-groups/root-system|root system]]). A **positive system** (or set of **positive roots**) is a subset \(\Phi^+ \subset \Phi\) such that:
 
 1. \(\Phi\) is the disjoint union \(\Phi = \Phi^+ \sqcup (-\Phi^+)\), and
 2. if \(\alpha,\beta \in \Phi^+\) and \(\alpha+\beta \in \Phi\), then \(\alpha+\beta \in \Phi^+\).

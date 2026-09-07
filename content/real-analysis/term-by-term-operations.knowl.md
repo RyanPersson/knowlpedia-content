@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Term-by-term operations for power series:** Let
+**Term-by-term operations for [[real-analysis/power-series|power series]]:** Let
 \[
 \sum_{n=0}^\infty a_n (x-x_0)^n
 \quad\text{and}\quad

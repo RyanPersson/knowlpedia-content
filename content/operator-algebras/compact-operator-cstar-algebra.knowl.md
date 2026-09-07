@@ -28,7 +28,7 @@ It is unital exactly when \(\mathcal H\) is finite-dimensional.
 
 ## Rank-one generators and approximate units
 
-For \(\xi,\eta\in\mathcal H\), the rank-one operator
+For \(\xi,\eta\in\mathcal H\), the [[functional-analysis/rank-one-operator|rank-one operator]]
 \(\theta_{\xi,\eta}\) is given by
 \(\theta_{\xi,\eta}\zeta=\xi\langle\eta,\zeta\rangle\). Finite linear
 combinations of these operators are the [[functional-analysis/finite-rank-operator|finite-rank operators]] and are norm

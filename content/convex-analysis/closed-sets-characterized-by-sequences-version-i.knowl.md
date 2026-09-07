@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 **Proposition (Sequential characterization of closed sets, proof I).**
-Let \((X,d)\) be a metric space and let \(A\subset X\). Then \(A\) is [[convex-analysis/closed-subset|closed]] if and only if whenever \((a_n)\) is a sequence in \(A\) and \(a_n\to a\), we have \(a\in A\).
+Let \((X,d)\) be a [[topology/metric-space|metric space]] and let \(A\subset X\). Then \(A\) is [[convex-analysis/closed-subset|closed]] if and only if whenever \((a_n)\) is a sequence in \(A\) and \(a_n\to a\), we have \(a\in A\).
 
 ## Remarks
 

@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebraic-geometry-foundations/projective-line",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b852918ef19db1c42be2c687a5267d8880187204550dc0c64f202901f82294de",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; open set -> convex-analysis/open-subset/topology/open-set; matrix -> linear-algebra/matrix; complement -> shared-foundations/complement; fractional linear transformations -> complex-analysis/mobius-transformation. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety",
+      "outcome": "corrected",
+      "source_sha256": "79d92b6b415dda15c7836f55abe8d856c2fd5a95b60832b78d9f048c732e665e",
+      "evidence": "Read complete source including all optional sections; checked the arbitrary-field orbit-map construction, matrix terminology, isomorphisms, group, holomorphic automorphism group, and algebraic group. The fiber-bundles/orbit-map target is specifically a smooth Lie-group-to-manifold map, so the apparent orbit-map match was rejected and removed. Kept the matrix link because it is a linear-algebra matrix in the displayed algebraic construction; existing prerequisites cover the actual scheme-theoretic dependencies."
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-morphism",
+      "outcome": "corrected",
+      "source_sha256": "2f67d1b0236c54f06f96562ab5451db2bf83307be61e51836e87f7115ba5c40e",
+      "evidence": "Read complete source including all optional sections; checked morphism of schemes -> algebraic-geometry-foundations/morphism-of-schemes; composition -> shared-foundations/composition; projectivity -> algebraic-geometry-foundations/projective-transformation; sheaf -> algebraic-geometry-foundations/sheaf. Added only context-specific links whose target definitions and conventions match; retained existing mathematical wording and prerequisites."
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-semilinear-group",
+      "outcome": "corrected",
+      "source_sha256": "a1743a1c924f61c8c7ee501ef0b6922806bbb9fa23b34b2a06c6fe646f8d51ff",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; group -> algebra-groups/group; automorphism -> algebra-category-theory/automorphism-category; subgroup -> algebra-groups/subgroup; automorphism -> algebra-category-theory/automorphism-category; semilinear map -> linear-algebra/semilinear-map; sequence -> shared-foundations/sequence; group -> algebra-groups/group. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "94490072d699b40bce9b3e8ade554f4fa8f786f98c4b6afc92838938669a0399",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; linear subspaces -> convex-analysis/linear-subspace; spans -> convex-analysis/subspace-generated-by-a-set-span; scheme -> algebraic-geometry-foundations/scheme; field -> algebra-rings/field; subset -> shared-foundations/subset; isomorphism -> algebra-category-theory/isomorphism-category; Grassmannian -> differential-geometry/grassmannian. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/projective-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2c95ce243fa571a5790e8cd1c01c4f803165ac4cc07d74e14b8f17566e887d14",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; isomorphism -> algebra-category-theory/isomorphism-category; linear maps -> linear-algebra/linear-map; group -> algebra-groups/group; field -> algebra-rings/field; automorphisms -> algebra-category-theory/automorphism-category. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/punctured-algebraic-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "968d88adb4f0fccd3dfc02a432a827dde2dcf01a98db026e861e3f2b363fe6fe",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; curve -> topology/curve; divisor -> shared-foundations/divisibility; boundary -> topology/boundary. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/quasi-coherent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ede3b9a329a5553728db223f37593b75d73fe1ff9244eaed91223622fb824441",
+      "evidence": "Read complete source including all optional sections; checked scheme -> algebraic-geometry-foundations/scheme; sheaf -> algebraic-geometry-foundations/sheaf; category -> algebra-category-theory/category; structure sheaf -> algebraic-geometry-foundations/structure-sheaf; modules -> algebra-modules/module; affine scheme -> algebraic-geometry-foundations/affine-scheme; category -> algebra-category-theory/category. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/quasi-split-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49058f5b1a1ccb51ddd6bcbab7e907f36a69d0d9abffb045f8d0722ecea0392b",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; group -> algebra-groups/group; isomorphism -> algebra-category-theory/isomorphism-category. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/reductive-algebraic-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd680a3af39eef4432c64ac0212435b615ac37ea2226c095cfbd6af13a02cf01",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; unipotent radical -> algebraic-geometry-foundations/unipotent-radical; group -> algebra-groups/group; algebraic closure -> algebra-fields-galois/algebraic-closure. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/regular-local-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcea5ed819084303ec8ae205133576222f941b9be7aa8b29d01774be679fb550",
+      "evidence": "Read complete source including all optional sections; checked maximal ideal -> algebra-rings/maximal-ideal; regular scheme -> algebraic-geometry-foundations/regular-scheme; Schemes -> algebraic-geometry-foundations/scheme. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/regular-scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7eafa5bb8a4ee3b45cd683807257a052525e28687518fb1f416ec806fa0dfde0",
+      "evidence": "Read complete source including all optional sections; checked local ring -> algebra-commutative/local-ring; neighborhood -> topology/neighborhood; ring -> algebra-rings/ring; local rings -> algebra-commutative/local-ring; stalks -> algebraic-geometry-foundations/stalk; structure sheaf -> algebraic-geometry-foundations/structure-sheaf; scheme -> algebraic-geometry-foundations/scheme; field -> algebra-rings/field. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/relative-kahler-differentials",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec37802a9cc209eb3b83a6e1c5c9fd7c4b0231f251d01950f5374df4c2523527",
+      "evidence": "Read complete source including all optional sections; checked module -> algebra-modules/module; module -> algebra-modules/module; relation -> shared-foundations/relation; modules -> algebra-modules/module; sheaf -> algebraic-geometry-foundations/sheaf. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/ringed-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "75d6fc3cc07979f1cae98f4b378f642cca328221fdc2fe694affac6d78cb5aa1",
+      "evidence": "Read complete source including all optional sections; checked morphism -> algebra-category-theory/morphism; rings -> algebra-rings/ring; functions -> shared-foundations/function; function -> shared-foundations/function; sheaf morphism -> algebraic-geometry-foundations/morphism-of-sheaves; Composition -> shared-foundations/composition; continuous maps -> topology/continuous-map; pullback -> algebra-category-theory/pullback. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/scheme",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c30ad1cbeab8e4aab5fec4420912595a893026c87434f40426cc4ae2bf7282c4",
+      "evidence": "Read complete source including all optional sections; checked commutative rings -> algebra-rings/commutative-ring; functions -> shared-foundations/function; topological space -> topology/topological-space; sheaf -> algebraic-geometry-foundations/sheaf; functions -> shared-foundations/function; open set -> convex-analysis/open-subset/topology/open-set; commutative rings -> algebra-rings/commutative-ring; continuous maps -> topology/continuous-map. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/scheme-over-a-base",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f984d050851e49aba36fc1d55ce38585d9e16ca3e856617bd47fc23cc4ee7f2",
+      "evidence": "Read complete source including all optional sections; checked morphism -> algebra-category-theory/morphism; category -> algebra-category-theory/category; ring homomorphism -> algebra-rings/ring-homomorphism; scheme -> algebraic-geometry-foundations/scheme. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/semiring-as-a-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "29cbf09de462acef3feabfd7aad473ddcbc72b72f928aa0d64f3ce4f5582d3bc",
+      "evidence": "Read complete source including all optional sections; checked monoid, blueprint, functor, and morphisms in the core against their algebraic targets. The semiring and pre-addition prerequisites supply the defining dependencies; no unlinked supporting phrase denotes a separately reusable concept."
+    },
+    {
+      "id": "algebraic-geometry-foundations/semiring-completion-of-a-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34df9f322689b201f3a4d2a178e464d6ceacd1324fdafd446990458dcf708b45",
+      "evidence": "Read complete source including all optional sections; checked semiring -> algebra-rings/semiring; monoid -> algebra-groups/monoid; image -> shared-foundations/image; subset -> shared-foundations/subset; blueprint -> algebraic-geometry-foundations/blueprint; morphism -> algebra-category-theory/morphism; functor -> algebra-category-theory/functor; blueprints -> algebraic-geometry-foundations/blueprint. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/semirings-and-monoids-as-blueprints",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b31ff9ed1a21250b497b6cf391586bb9f766caf6611766235bce69d469569c76",
+      "evidence": "Read complete source including all optional sections; checked monoid -> algebra-groups/monoid; blueprint -> algebraic-geometry-foundations/blueprint; morphism -> algebra-category-theory/morphism; isomorphism -> algebra-category-theory/isomorphism-category. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25e7d7493c8c7d47a30afa53cc86f6a70917edc9c9dd14abe9e3bd48b6f65bd9",
+      "evidence": "Read complete source including all optional sections; checked object -> algebra-category-theory/object; open set -> convex-analysis/open-subset/topology/open-set; functions -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf-of-differential-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d62ab77ee3d41dc348308f1d31480f4310b5f74f510ef0875837299b079b399",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; characteristic -> algebra-rings/characteristic; sheaf -> algebraic-geometry-foundations/sheaf; relations -> shared-foundations/relation; functions -> shared-foundations/function; pullback -> algebra-category-theory/pullback. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf-of-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cfa63407cda4a6eccb5e81499ab5c58bd18165a83fb63edcbb2cfdbf7e45c9b5",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; morphism -> algebra-category-theory/morphism; group homomorphism -> algebra-groups/group-homomorphism; group object -> algebra-category-theory/group-object; category -> algebra-category-theory/category; morphisms -> algebra-category-theory/morphism; sets -> shared-foundations/set. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/sheaf-of-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62691ff9c0693eb6493748e34a5b6362c32ad1f8d9db49c83b831ad69440fbb0",
+      "evidence": "Read complete source including all optional sections; checked sheaf -> algebraic-geometry-foundations/sheaf; module -> algebra-modules/module; object -> algebra-category-theory/object; ring -> algebra-rings/ring; morphism -> algebra-category-theory/morphism; morphism of sheaves -> algebraic-geometry-foundations/morphism-of-sheaves; open set -> convex-analysis/open-subset/topology/open-set; stalk -> algebraic-geometry-foundations/stalk. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/sieve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f94486dd2e61aafd00b60a5b6d0fe4b1087c6a409656ac3f764f5bfb2150b6cd",
+      "evidence": "Complete source reviewed including generated/maximal sieves, pullback, and the explanatory section. Linked the supporting covering-family occurrence to its exact Grothendieck-topology target; no generic object or morphism links were added."
+    },
+    {
+      "id": "algebraic-geometry-foundations/site",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1871d210ee00fe0816db2ca02aac33c421c80db6382ae0c516c83618d14c768c",
+      "evidence": "Read complete source including all optional sections; checked topology -> topology/topology; objects -> algebra-category-theory/object; subsets -> shared-foundations/subset; topological space -> topology/topological-space. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/small-etale-site",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "695c49a54b3ade7a9bfc70975f89db4a21ea6c47d12f1ea4ea3cf52decd44998",
+      "evidence": "Read complete source including all optional sections; checked objects -> algebra-category-theory/object; morphism -> algebra-category-theory/morphism; field -> algebra-rings/field; separable extension -> algebra-fields-galois/separable-extension; object -> algebra-category-theory/object; Galois extension -> algebra-fields-galois/galois-extension. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/smooth-morphism",
+      "outcome": "corrected",
+      "source_sha256": "8588f327a4d6c7a74e9a43d0e422a401bd0cb8ea4665e55d180c4d12811258dd",
+      "evidence": "Read complete source including all optional sections; checked morphism of schemes -> algebraic-geometry-foundations/morphism-of-schemes; locally of finite\npresentation -> algebraic-geometry-foundations/locally-of-finite-presentation; geometric fiber -> algebraic-geometry-foundations/geometric-fiber; base\nchange -> algebraic-geometry-foundations/base-change; composition -> shared-foundations/composition; étale\ntopology -> algebraic-geometry-foundations/etale-topology; morphisms -> algebra-category-theory/morphism. Added only context-specific links whose target definitions and conventions match; retained existing mathematical wording and prerequisites."
+    },
+    {
+      "id": "algebraic-geometry-foundations/smooth-projective-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8ff41809a6b264911add3fc12fa3c3e65e0b41ae4847179ef9455fc7d66a4814",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; morphism -> algebra-category-theory/morphism; characteristic -> algebra-rings/characteristic; curve -> topology/curve; connected component -> topology/connected-component; categories -> algebra-category-theory/category. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/spectrum-of-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e3d46d45f8c991a7a4479e6187e8e35fb63ce5f238dd311e60a84bfea79f3d2d",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; structure sheaf -> algebraic-geometry-foundations/structure-sheaf; blueprint -> algebraic-geometry-foundations/blueprint; blue schemes -> algebraic-geometry-foundations/blue-scheme. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/stalk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa8d68cfa6a9a1507b0aa0da354ceb9fdad14fdcf58c1d8d250651a154e6d5a8",
+      "evidence": "Read complete source including all optional sections; checked neighborhood -> topology/neighborhood; functions -> shared-foundations/function; local ring -> algebra-commutative/local-ring. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/structure-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33614411869f11c48fdc7b3bee403a646328bf3bb573936d9604d8b2bdd79e70",
+      "evidence": "Read complete source including all optional sections; checked rings -> algebra-rings/ring; functions -> shared-foundations/function; subsets -> shared-foundations/subset; topological space -> topology/topological-space; open set -> convex-analysis/open-subset/topology/open-set; polynomial -> real-analysis/polynomial. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/tangent-sheaf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aee47d77d821f2dbfd7c3129d386a1af228339fd70a4b945a9cee4542b07dda4",
+      "evidence": "Read complete source including all optional sections; checked morphism of schemes -> algebraic-geometry-foundations/morphism-of-schemes; sheaf -> algebraic-geometry-foundations/sheaf; rank -> linear-algebra/rank; commutator -> algebra-groups/commutator; field -> algebra-rings/field; characteristic -> algebra-rings/characteristic; sheaf -> algebraic-geometry-foundations/sheaf. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/tilt-and-untilt",
+      "outcome": "corrected",
+      "source_sha256": "1f2e4de9d87f9e4c436d6e4a54858dce5a26dbec315c2999bece7cb0b8ac87a7",
+      "evidence": "Read complete source including all optional sections; checked residue -> complex-analysis/residue; characteristic -> algebra-rings/characteristic; field -> algebra-rings/field; ring -> algebra-rings/ring; integers -> shared-foundations/integers; limits -> algebra-category-theory/limit; sequence -> shared-foundations/sequence; limit -> algebra-category-theory/limit. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/torsor-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "86274b10432da01689d6d4349c005f8ce6dc142e65de099b51b8c42990a4e74e",
+      "evidence": "Read complete source including all optional sections; checked cover -> topology/cover; topology -> topology/topology; morphism -> algebra-category-theory/morphism; isomorphism -> algebra-category-theory/isomorphism-category; ordered pair -> shared-foundations/ordered-pair; group -> algebra-groups/group; isomorphism -> algebra-category-theory/isomorphism-category; Scheme -> algebraic-geometry-foundations/scheme. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/unipotent-radical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1293156258d7079f72166d3ed0953bad8e231922823a8a297d5f45f3e6a7a69b",
+      "evidence": "Read complete source including all optional sections; checked field -> algebra-rings/field; fields -> algebra-rings/field; subgroup -> algebra-groups/subgroup; reductive group -> algebraic-geometry-foundations/reductive-algebraic-group; field -> algebra-rings/field; global\nfield -> langlands-letter/knowls/global-local-fields-completions. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/unramified-morphism",
+      "outcome": "corrected",
+      "source_sha256": "875120443f4858c8000ddcf72e3c938251148346401156f7e9a24e3ac60f3e26",
+      "evidence": "Read complete source including all optional sections; checked morphism -> algebra-category-theory/morphism; finite field -> algebra-fields-galois/finite-field. Added only context-specific links whose target definitions and conventions match; retained existing mathematical wording and prerequisites."
+    },
+    {
+      "id": "algebraic-geometry-foundations/unramified-reductive-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00cda2420ac0f09af27bc4a749484a7575b96b026ad4f4119f9d6e93d41fe077",
+      "evidence": "Read complete source including all optional sections; checked subgroup -> algebra-groups/subgroup; subgroup -> algebra-groups/subgroup; spherical\nHecke algebra -> harmonic-analysis/hecke-algebra-locally-compact-group-pair. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/v-stack",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0fdb995a810039789acf1b1ca8a7f4609e399cec7e9083a1ca81c47b27aa529f",
+      "evidence": "Read complete source including all optional sections; checked topology -> topology/topology; covers -> topology/cover; sheaf -> algebraic-geometry-foundations/sheaf; sets -> shared-foundations/set; groupoids -> algebra-category-theory/groupoid; perfectoid space -> algebraic-geometry-foundations/perfectoid-space; stabilizers -> algebra-groups/stabilizer; functors -> algebra-category-theory/functor. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "algebraic-geometry-foundations/weil-restriction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5ea82ba98ec52ee040d551afe75fde71707d14887b0d219b27f6eba7b67c98d",
+      "evidence": "Read complete source including all optional sections; checked functor -> algebra-category-theory/functor; group -> algebra-groups/group; group scheme -> algebraic-geometry-foundations/group-scheme. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/absolute-continuity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "10486661928b408e598bf6769ea770d04e3236c1db0ec069e15d41720a7fdb11",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; function -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/ahlfors-david-regular-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "feb76e2c9e1f728a9b9e28a52d285c8f5775a0f8b42e29cbe8a435f2da7f772f",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; diameter -> topology/diameter; upper bound -> shared-foundations/upper-bound; lower bound -> shared-foundations/lower-bound; subset -> shared-foundations/subset; regular set -> functional-analysis/resolvent-set-closed-operator. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/box-porosity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aaecc5a0870c450f5c83f9daa726f83771975efd21f01e842cba470f8b6ad8e0",
+      "evidence": "Read complete source including all optional sections; checked Partition -> shared-foundations/partition; set -> shared-foundations/set; set -> shared-foundations/set. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/dyadic-annulus",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e9b1937f232df31897cbaa24a503f3dd99de1a91b257fa1601d35eb1af09c3d",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; cover -> topology/cover; partition -> shared-foundations/partition; Derivatives -> real-analysis/derivative. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/finitely-overlapping-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bcb72b7580dd953205b37b152d18b6af6b17a58dab6f9736ea36fb3c4269e663",
+      "evidence": "Read complete source including all optional sections; checked sets -> shared-foundations/set; sets -> shared-foundations/set. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/line-porous-section-measure-decay",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06b03baf7241caddc867f8d1d1c290934d504e8fb38923551a905fd2cf1a63e2",
+      "evidence": "Read complete source including all optional sections; checked intersection -> shared-foundations/intersection. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/minkowski-thickening",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "068d7ce79a3235610df5572fb2f83965f4b4ef4e5cfe36d6e6182a132738b64e",
+      "evidence": "Read complete source including all optional sections; checked boundary -> topology/boundary. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/porosity-on-balls",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95a158326f71549cfe130695478d36807ca23d14692908f3837b21afc6e673db",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; diameter -> topology/diameter; diameter -> topology/diameter. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/porosity-on-lines",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ffae0c1817b5c35853b5ed49cc9445c13a2bbd55091b71900b71a53dc659a34",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; set -> shared-foundations/set; set -> shared-foundations/set. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/porous-set-measure-decay",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd73377a8372447ec9a24a6f963ab20c7e4caedff697f83bdcfca4446a598e77",
+      "evidence": "Read complete source including all optional sections; checked no scanner candidates. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/quantitative-unique-continuation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2c64fb4410ebb11a533e20f38189bbfca7dc156b6952dc735f3c876ee95d7d6",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; functions -> shared-foundations/function; set -> shared-foundations/set; sets -> shared-foundations/set; unit -> algebra-rings/unit; lower\nbound -> shared-foundations/lower-bound; covers -> topology/cover. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "analysis/unique-ergodicity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d931e92df4eca78a99305440b4bf9a1544a839c66c74bc7205b7a87a90fcc5f",
+      "evidence": "Read complete source including all optional sections; checked measure -> measure-theory/measure; measure -> measure-theory/measure; probability measures -> probability/probability-measure. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "asymptotics/entropy-multinomial-coefficients",
+      "outcome": "corrected",
+      "source_sha256": "8516d70ee4747905d65b2153fc58de3c08135508bf4a26f1e26f5a4e61f445d5",
+      "evidence": "Read complete source including all optional sections; checked integers -> shared-foundations/integers; factorial -> shared-foundations/factorial; Shannon entropy -> probability/shannon-entropy; categories -> algebra-category-theory/category; sequences -> shared-foundations/sequence; polynomial -> real-analysis/polynomial. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "asymptotics/laplaces-method",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88fa9ec0c3327833d18d10db10602c1b36a363914c17cd2be2d54c7176fd5afd",
+      "evidence": "Read complete source including all optional sections; checked neighborhood -> topology/neighborhood; interior -> convex-analysis/interior-of-a-set/topology/interior; maximum -> real-analysis/maximum; derivative -> real-analysis/derivative; limit -> algebra-category-theory/limit. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "asymptotics/method-of-types",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb6acd9a4b43872dbee7ad1ce077787cbb3a9710147ef196539380d52de230ee",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set; sequences -> shared-foundations/sequence; distribution -> functional-analysis/distribution; function -> shared-foundations/function; integers -> shared-foundations/integers; distribution -> functional-analysis/distribution; sequence -> shared-foundations/sequence; characteristic -> algebra-rings/characteristic. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "asymptotics/saddle-point-method",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b550d5f554e05f840b10a8e0496514aa91291a9b808fde2be11d2a40dd68ce2",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; maximum -> real-analysis/maximum; path -> topology/path. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "asymptotics/stirlings-approximation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71987813665e1605b6668139fd7f7fb30292b1499e95aa954fb68208b6bd080d",
+      "evidence": "Read complete source including all optional sections; checked integers -> shared-foundations/integers. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/analytic-continuation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e5643834161ada8cdf675ff7e14d1717cf5e6218775798925f99605173444cc",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; subset -> shared-foundations/subset; path -> topology/path; holomorphic -> differential-geometry/holomorphic-map; functions -> shared-foundations/function; domain -> shared-foundations/domain; equivalence class -> shared-foundations/equivalence-class. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/anti-mobius-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "273ce53bee37cd248c18ca0594f4968cfb9a7c8967de52403ad4bccb9f5862f8",
+      "evidence": "Read complete source including all optional sections; checked Riemann surfaces -> differential-geometry/riemann-surface; automorphism -> algebra-category-theory/automorphism-category; automorphism group -> algebra-groups/automorphism-group; subgroup -> algebra-groups/subgroup; Möbius transformations -> complex-analysis/mobius-transformation; holomorphic -> differential-geometry/holomorphic-map; cross-ratio -> complex-analysis/cross-ratio. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/argument-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6541d423aab2478cefbaae4996e41357ce6bf72df7734c9a56a2e3b58df312c",
+      "evidence": "Read complete source including all optional sections; checked domain -> shared-foundations/domain; interior -> convex-analysis/interior-of-a-set/topology/interior; image -> shared-foundations/image. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/automorphisms-of-riemann-sphere",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cbc6aa634665f905157c7c2ce3e6644f79ea06fd8a9451f98abc5057c8b12cc9",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; automorphism -> algebra-category-theory/automorphism-category; holomorphic -> differential-geometry/holomorphic-map; polynomials -> real-analysis/polynomial; determinant -> linear-algebra/determinant; automorphism -> algebra-category-theory/automorphism-category; Holomorphic -> differential-geometry/holomorphic-map; automorphisms -> algebra-category-theory/automorphism-category. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/casorati-weierstrass-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2540c9945db324f45181515a3e616c11cdb33f35686579a6a26dd0065c957fed",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; set -> shared-foundations/set; sequence -> shared-foundations/sequence; neighborhood -> topology/neighborhood. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cauchy-fueter-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33b4d851f10919da2cd6c8b87fb039eaa822b2df5b94ae20b73989f082faf526",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; functions -> shared-foundations/function; compositions -> shared-foundations/composition; derivatives -> real-analysis/derivative; units -> algebra-rings/unit. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cauchy-integral-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2889769b04b2df06f54a60d8a444680c4ae09bf34f099892af51be476229b8b6",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; image -> shared-foundations/image; interior -> convex-analysis/interior-of-a-set/topology/interior; derivative -> real-analysis/derivative; holomorphic -> differential-geometry/holomorphic-map; functions -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cauchy-integral-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "732b192d3c01a0ebc93a047c23976ee41e7b31ce6af2f9b05d75fff6bfc04635",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; domains -> shared-foundations/domain; domain -> shared-foundations/domain; holomorphic -> differential-geometry/holomorphic-map. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cauchy-riemann-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0dfe2355972b641687bd659e075fc2205341aae1ee688394eb9a0d0857e5889",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; functions -> shared-foundations/function; Cauchy–Riemann equations -> complex-analysis/cauchy-riemann-equations; difference quotient -> real-analysis/difference-quotient; limit -> algebra-category-theory/limit; partial derivatives -> real-analysis/partial-derivative. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cauchy-riemann-equations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a83433b79e71cc0e81d9907427627c4fdc8a9593a07c13a558460089ed00f34f",
+      "evidence": "Read complete source including all optional sections; checked derivative -> real-analysis/derivative; matrix -> linear-algebra/matrix. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/complex-contour-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e69c771c1f0beba3e04ef16d212800ba18618943b698b506d58d6dc525ff1ab",
+      "evidence": "Read complete source including all optional sections; checked image -> shared-foundations/image; curves -> topology/curve; image -> shared-foundations/image; derivative -> real-analysis/derivative. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/complex-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dda9538e00b41f641cebe81ca07c85f1841ae10270f284a25711a9e770a88c17",
+      "evidence": "Read complete source including all optional sections; checked limit -> algebra-category-theory/limit; derivative -> real-analysis/derivative; function -> shared-foundations/function; derivative -> real-analysis/derivative. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/complex-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "26da351e4751cf3c30fd527f18b1cdaa1e240bdff106794fa4eacda9384e51b8",
+      "evidence": "Read complete source including all optional sections; checked domain -> shared-foundations/domain; subset -> shared-foundations/subset; open set -> convex-analysis/open-subset/topology/open-set; connected component -> topology/connected-component; domain -> shared-foundations/domain; domain -> shared-foundations/domain; function -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/complex-monge-ampere-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec15b44168ad03bc28518d6a666230fdce9432912450fa3ee74d74a75f96d9fe",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; determinant -> linear-algebra/determinant; measure -> measure-theory/measure; plurisubharmonic functions -> complex-analysis/plurisubharmonic-function; determinant -> linear-algebra/determinant; measure -> measure-theory/measure; limits -> algebra-category-theory/limit; PSH functions -> complex-analysis/plurisubharmonic-function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/complex-projective-structure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d8abcfdae9408a792bc58e409b17cd7d3c284c4678f77134c1881ba518f5b83",
+      "evidence": "Read complete source including all optional sections; checked maximal atlas -> fiber-bundles/maximal-smooth-atlas; Möbius transformations -> complex-analysis/mobius-transformation; Riemann surface -> differential-geometry/riemann-surface; cover -> topology/cover; Möbius transformation -> complex-analysis/mobius-transformation; holomorphic -> differential-geometry/holomorphic-map. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cross-ratio",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e9974309b8073be244166f6138c85251efdca30823ff32b988acf3d1163d7a7",
+      "evidence": "Read complete source including all optional sections; checked limits -> algebra-category-theory/limit; Möbius transformations -> complex-analysis/mobius-transformation. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cross-ratio-invariance-under-mobius-transformations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "605606f91204dc11a6f37dd0d96b2c8376ea4dd22d6fc43e82f4426f057edc3d",
+      "evidence": "Read complete source including all optional sections; checked cross-ratio -> complex-analysis/cross-ratio; cross-ratios -> complex-analysis/cross-ratio; orbit -> algebra-groups/orbit. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/cross-ratio-preserving-bijections-are-mobius",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ea29a96fa578a74859ca023277e19051002c603148ee3b18ac45e1eef0b4e2fb",
+      "evidence": "Read complete source including all optional sections; checked Möbius transformation -> complex-analysis/mobius-transformation; cross-ratio -> complex-analysis/cross-ratio. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/entire-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48c711c3f81dac457bb201c3eceb13f6f264e0a3e026980d07b7084025077635",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; Polynomials -> real-analysis/polynomial; polynomial -> real-analysis/polynomial; polynomial -> real-analysis/polynomial. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/entire-function-several-variables",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cbbe8385be46a4752c4dca5526064c532081b6908b24afb2811afc6235e956f9",
+      "evidence": "Read complete source including all optional sections; checked entire function -> complex-analysis/entire-function; function -> shared-foundations/function; holomorphic -> differential-geometry/holomorphic-map; series -> real-analysis/series; domain -> shared-foundations/domain; function -> shared-foundations/function; holomorphic -> differential-geometry/holomorphic-map; supremum -> real-analysis/supremum. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/equal-schwarzians-differ-by-mobius",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39194d7d665e15c82e7691fc68d025dcd04235de299f302a32010fad3b5dc013",
+      "evidence": "Read complete source including all optional sections; checked domain -> shared-foundations/domain; chain rule -> real-analysis/chain-rule; Schwarzian -> complex-analysis/schwarzian-derivative; Möbius transformations -> complex-analysis/mobius-transformation; domain -> shared-foundations/domain. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/fundamental-theorem-of-algebra-complex-analysis",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2ba90124b49da7e6c120e955ec1ea40c7d9e2350f2fdfed06eb35aaff2d8e02",
+      "evidence": "Read complete source including all optional sections; checked polynomial -> real-analysis/polynomial; complex numbers -> shared-foundations/complex-numbers-c; polynomial -> real-analysis/polynomial. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/generalized-circle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df7b194d6488522ded373004c82f64d4af3880ac34f4115f2971d489ff31ad34",
+      "evidence": "Read complete source including all optional sections; checked set -> shared-foundations/set. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/great-picard-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c40b3261b1a7d60d6eec5b34da747eb3b19d4723b810b959da6062479f15483",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; neighborhood -> topology/neighborhood; image -> shared-foundations/image; function -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/harmonic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9fb4c0ca1564b9cf1160230c085191cc7a54d23aec0cca8f9e0d9dfe5390781e",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; function -> shared-foundations/function; boundary -> topology/boundary; holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; domain -> shared-foundations/domain. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/harmonic-maximum-principle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f8d88c50b092cb2c69ea20d5919f6d15342db0f342420db6634a3091cd9d3944",
+      "evidence": "Read complete source including all optional sections; checked maximum -> real-analysis/maximum; minimum -> real-analysis/minimum; interior point -> differential-geometry/boundary-and-interior-of-a-manifold; interior -> convex-analysis/interior-of-a-set/topology/interior; domain -> shared-foundations/domain; boundary -> topology/boundary; derivatives -> real-analysis/derivative; harmonic functions -> complex-analysis/harmonic-function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/holomorphic-functions-are-analytic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "298e8dffe757295dfcd42c8c104b46b32ee051af6c95a20c9bd41824f5a5876c",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; open set -> convex-analysis/open-subset/topology/open-set; boundary -> topology/boundary; function -> shared-foundations/function; series -> real-analysis/series. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/holomorphic-germ",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3852dd303136e56a528c6f90a56a6ea1a7e14ca19728c02e5fde3376e4670784",
+      "evidence": "Read complete source including all optional sections; checked complex manifold -> differential-geometry/complex-manifold; holomorphic -> differential-geometry/holomorphic-map; functions -> shared-foundations/function; neighborhoods -> topology/neighborhood; neighborhood -> topology/neighborhood; equivalence class -> shared-foundations/equivalence-class; unit -> algebra-rings/unit; plane domain -> complex-analysis/complex-domain. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/holomorphic-l2-mean-value-estimate",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "425ccb938e80f2748ecc4091e129a91b6c481d8f45b9b978cfdb4d11da5e1c33",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; upper bounds -> shared-foundations/upper-bound. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/hormander-l2-dbar-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "de82a1809d773445901523b68a0040ead311d97f0420c9384496950d2b63c415",
+      "evidence": "Read complete source including all optional sections; checked bounded\nbelow -> real-analysis/bounded-below; curvature -> fiber-bundles/curvature. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/identity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ef90d558981cd3deae562e00605c80e08af801203e2aaba45e20a1f66090000c",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; set -> shared-foundations/set; holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; domain -> shared-foundations/domain; series -> real-analysis/series; neighborhood -> topology/neighborhood; set -> shared-foundations/set. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/isolated-singularity-classification",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "884b0ed760114f714bd65c09c77228b11c232b88ef484498b87426e6ff74984f",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; series -> real-analysis/series; image -> shared-foundations/image; neighborhood -> topology/neighborhood; function -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/laurent-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b76f283ef26cab30c2d31f9a1c27d8f1b3a336c8dfd37f2dcb895157df4452f4",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; domain -> shared-foundations/domain; series -> real-analysis/series. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/levi-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a8243c89b1f5b3670e1ff22551ea8ca65c9dd0f681e82bdcb32dc8ce3394607",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; subset -> shared-foundations/subset; matrix -> linear-algebra/matrix; matrix -> linear-algebra/matrix; function -> shared-foundations/function; lower bound -> shared-foundations/lower-bound. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/liouville-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afc4582c1b1e006b665da9491a3d23f88f9d3be7404e1c37eb18a67dcdf9186d",
+      "evidence": "Read complete source including all optional sections; checked derivative -> real-analysis/derivative; entire function -> complex-analysis/entire-function; polynomial -> real-analysis/polynomial; Hamiltonian -> differential-geometry/hamiltonian-function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/little-picard-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9cc35dda76aa46f5b78f408883592822ef5b22b42d0aef267fd12d19dbfa4e6",
+      "evidence": "Read complete source including all optional sections; checked complement -> shared-foundations/complement; entire function -> complex-analysis/entire-function; polynomial -> real-analysis/polynomial; function -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/log-modulus-subharmonic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f942c9975a3cfbe4c4277da882cbcdb3accad4a090b4be9c5f20873a301d4136",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; domain -> shared-foundations/domain; holomorphic -> differential-geometry/holomorphic-map; measure -> measure-theory/measure. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/meromorphic-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e41a82868db7b94b18a8eaa87437ed441d08536152824f437b6b60aa273ed86e",
+      "evidence": "Read complete source including all optional sections; checked function -> shared-foundations/function; holomorphic -> differential-geometry/holomorphic-map; subset -> shared-foundations/subset; functions -> shared-foundations/function; Riemann surfaces -> differential-geometry/riemann-surface; Riemann surface -> differential-geometry/riemann-surface; field -> algebra-rings/field; function -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/mixed-quaternionic-monge-ampere-measure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4790e8d7720710dee6507629f864b9b8a0a8e6ab40a799113075785ae8f0200",
+      "evidence": "Read complete source including all optional sections; checked measure -> measure-theory/measure. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/mobius-characterization-by-schwarzian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b4af7a6c484bdb3538c717221a292612670703c51488d3c80413eead32fb05c",
+      "evidence": "Read complete source including all optional sections; checked domain -> shared-foundations/domain; Möbius transformation -> complex-analysis/mobius-transformation; Schwarzian -> complex-analysis/schwarzian-derivative; Möbius transformations -> complex-analysis/mobius-transformation. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/mobius-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e4f217af2bfddcf13e58a04d4d2fa02e74d491d9df5008430bd61989e57bfd54",
+      "evidence": "Read complete source including all optional sections; checked matrix -> linear-algebra/matrix; Composition -> shared-foundations/composition; holomorphic -> differential-geometry/holomorphic-map. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/mobius-transformation-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b0915a797a507b012ba70499cda91d38cff6ef0f08d7efc452bf10acd55bb860",
+      "evidence": "Read complete source including all optional sections; checked group -> algebra-groups/group; composition -> shared-foundations/composition; isomorphisms -> algebra-category-theory/isomorphism-category; isomorphism -> algebra-category-theory/isomorphism-category; Möbius transformation -> complex-analysis/mobius-transformation; fixed points -> real-analysis/fixed-point; matrix -> linear-algebra/matrix; composition -> shared-foundations/composition. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/monodromy-theorem",
+      "outcome": "corrected",
+      "source_sha256": "b6d9e768cc21934efea1b19f34ae7bf07ba761c52a9a8c9cc03c2b594ee295e1",
+      "evidence": "Read complete source including all optional sections; checked domain -> shared-foundations/domain; path -> topology/path; holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function; paths -> topology/path; Simple connectivity -> topology/simply-connected-space; convergent power series -> real-analysis/power-series; power-series -> real-analysis/power-series. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    },
+    {
+      "id": "complex-analysis/montel-theorem",
+      "outcome": "corrected",
+      "source_sha256": "a50f0dc67be0284a9ea18cb8d121a56a4215f4ea8b1b30e30bac093691c9ae10",
+      "evidence": "Read complete source including all optional sections; checked holomorphic -> differential-geometry/holomorphic-map; functions -> shared-foundations/function; compact set -> topology/compact-set; sequence -> shared-foundations/sequence; subsequence -> real-analysis/subsequence; subsets -> shared-foundations/subset; holomorphic -> differential-geometry/holomorphic-map; function -> shared-foundations/function. Existing links cover genuine dependencies; remaining matches were generic vocabulary, locally defined notation, or context-sensitive terms where a link would mislead or saturate the prose."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 08: complete linking/dependency review of all 100 assigned production sources. Four sources received targeted link corrections; no reusable prerequisite definition gaps identified."
+  ]
+}

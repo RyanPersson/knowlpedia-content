@@ -38,7 +38,7 @@ the exterior degrees decompose as
 \Lambda^5 &: (1,1)_0.
 \end{aligned}
 \]
-The summands in complementary degrees are dual, as follows from the \(SU(5)\)-invariant volume form.
+The summands in complementary degrees are dual, as follows from the \(SU(5)\)-invariant [[differential-geometry/volume-form|volume form]].
 
 ## Role of the two trivial summands
 

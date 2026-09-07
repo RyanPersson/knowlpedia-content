@@ -12,7 +12,7 @@ dependency_review_count = 1
 +++
 
 **Theorem.**
-Let \(f:\Omega\to\mathbb{R}\) be twice continuously differentiable on a nonempty open convex set \(\Omega\subset\mathbb{R}^n\). Then \(f\) is convex on \(\Omega\) if and only if for every \(x\in\Omega\) its Hessian matrix \(\nabla^2 f(x)\) is **positive semidefinite** (in the sense of [[convex-analysis/nonnegative-positive-semidefinite-operator|nonnegative operators]]), i.e.,
+Let \(f:\Omega\to\mathbb{R}\) be twice continuously differentiable on a nonempty open [[convex-analysis/convex-set|convex set]] \(\Omega\subset\mathbb{R}^n\). Then \(f\) is convex on \(\Omega\) if and only if for every \(x\in\Omega\) its [[real-analysis/hessian-matrix|Hessian matrix]] \(\nabla^2 f(x)\) is **positive semidefinite** (in the sense of [[convex-analysis/nonnegative-positive-semidefinite-operator|nonnegative operators]]), i.e.,
 \[
 \langle v,\nabla^2 f(x)\,v\rangle \ge 0 \quad \text{for all } v\in\mathbb{R}^n.
 \]

@@ -29,7 +29,7 @@ definition.
 Every nonzero corner \(pMp\) of a type III factor is again a type III factor.
 Indeed, its center remains scalar and any [[operator-algebras/finite-projection|finite projection]] in the corner
 would be finite in \(M\). Nonzero projections have central support \(1\), and
-the absence of finite projections makes them properly infinite. These
+the absence of [[operator-algebras/finite-projection|finite projections]] makes them properly infinite. These
 projection properties distinguish type III factors from both finite factors
 and [[operator-algebras/type-ii-infinity-factor|semifinite infinite factors]].
 
@@ -45,8 +45,8 @@ underlie Connes's finer classification.
 
 ## Examples and scope
 
-Type III factors arise from infinite tensor products, nonsingular group
-actions, and local algebras in algebraic quantum field theory. Merely being
+Type III factors arise from infinite tensor products, nonsingular [[algebra-groups/group-action|group
+actions]], and local algebras in algebraic quantum field theory. Merely being
 infinite-dimensional is not enough: \(B(\ell^2)\) is an infinite-dimensional
 [[operator-algebras/type-i-factor|type I factor]], and the hyperfinite
 \(\mathrm{II}_1\) factor is infinite-dimensional but finite.

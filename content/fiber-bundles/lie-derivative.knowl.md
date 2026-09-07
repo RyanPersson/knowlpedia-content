@@ -16,7 +16,7 @@ Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(X\) b
 \mathcal{L}_X\omega = \left.\frac{d}{dt}\right|_{t=0}\Phi_t^*\omega,
 \]
 
-where \(\Phi_t^*\) denotes pullback by the diffeomorphism \(\Phi_t\).
+where \(\Phi_t^*\) denotes [[algebra-category-theory/pullback|pullback]] by the [[fiber-bundles/diffeomorphism|diffeomorphism]] \(\Phi_t\).
 
 The Lie derivative is characterized by **Cartan's formula**:
 \[

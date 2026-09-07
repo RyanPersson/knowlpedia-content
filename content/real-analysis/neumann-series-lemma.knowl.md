@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A:\mathbb{R}^n\to\mathbb{R}^n\) be an invertible [[linear-algebra/linear-map|linear map]], and equip the space of linear maps with an operator norm.
+Let \(A:\mathbb{R}^n\to\mathbb{R}^n\) be an invertible [[linear-algebra/linear-map|linear map]], and equip the space of linear maps with an [[linear-algebra/operator-norm|operator norm]].
 
 **Neumann series lemma.** If \(B:\mathbb R^n\to\mathbb R^n\) satisfies
 \[

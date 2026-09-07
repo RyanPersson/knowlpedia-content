@@ -48,7 +48,7 @@ group. Consequently a subgroup identified infinitesimally as
 \(\mathfrak h_1\oplus\mathfrak h_2\) may be globally a finite central quotient
 of \(H_1\times H_2\). Moreover, “[[lie-groups/maximal-connected-closed-subgroup|maximal connected subgroup]]” does not imply
 maximal among all closed subgroups: a disconnected normalizer may be larger.
-Both distinctions are essential in applications involving stabilizer identity
+Both distinctions are essential in applications involving [[algebra-groups/stabilizer|stabilizer]] identity
 components.
 
 ## Example in \(F_4\)

@@ -16,7 +16,7 @@ A **simple group** is a [[algebra-groups/group|group]] \(G\neq\{e\}\) whose only
 ## Examples
 
 - Any cyclic group of prime order is simple.
-- The alternating group \(A_5\) is a finite nonabelian simple group.
+- The [[algebra-groups/alternating-group|alternating group]] \(A_5\) is a finite nonabelian simple group.
 - *(Non-example)* \(\mathbb{Z}\) is not simple: for instance, \(2\mathbb{Z}\) is a nontrivial normal subgroup.
 
 ## Remarks

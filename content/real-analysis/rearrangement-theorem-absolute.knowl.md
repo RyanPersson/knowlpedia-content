@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Rearrangement theorem (absolute convergence):** Let \(\sum_{n=1}^\infty a_n\) be an [[real-analysis/absolutely-convergent-series|absolutely convergent series]] of real or complex numbers, and let \(\pi:\mathbb{N}\to\mathbb{N}\) be a bijection. Then the rearranged series
+**Rearrangement theorem (absolute convergence):** Let \(\sum_{n=1}^\infty a_n\) be an [[real-analysis/absolutely-convergent-series|absolutely convergent series]] of real or [[shared-foundations/complex-numbers-c|complex numbers]], and let \(\pi:\mathbb{N}\to\mathbb{N}\) be a bijection. Then the rearranged series
 \[
 \sum_{n=1}^\infty a_{\pi(n)}
 \]

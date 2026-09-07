@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Image is a subring**: Let \(\varphi:R\to S\) be a ring homomorphism. Then
+**Image is a subring**: Let \(\varphi:R\to S\) be a [[algebra-rings/ring-homomorphism|ring homomorphism]]. Then
 \[
 \operatorname{im}(\varphi)=\{\varphi(r):r\in R\}
 \]

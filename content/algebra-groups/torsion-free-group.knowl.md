@@ -16,4 +16,4 @@ g^n=e\text{ for some }n\ge1\quad\Longrightarrow\quad g=e.
 \]
 Equivalently, every nonidentity element has infinite order. The additive groups \(\mathbb Z\) and \(\mathbb Q\), and every [[algebra-groups/free-group|free group]], are torsion-free; a nontrivial finite group is not.
 
-This condition is inherited by subgroups. It is weaker than being orderable, although an orderable group is necessarily torsion-free.
+This condition is inherited by [[algebra-groups/subgroup|subgroups]]. It is weaker than being orderable, although an orderable group is necessarily torsion-free.

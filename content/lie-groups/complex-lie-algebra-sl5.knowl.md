@@ -26,7 +26,7 @@ For the diagonal [[lie-groups/cartan-subalgebra|Cartan subalgebra]], the roots a
 
 ## Groups and real forms
 
-The [[lie-groups/simply-connected-lie-group|simply connected]] complex group is \(SL(5,\mathbb C)\), whose center is \(\mu_5\); its adjoint quotient is \(PSL(5,\mathbb C)\). The [[lie-groups/compact-real-form|compact real form]] integrates to \(SU(5)\). The finite-dimensional complex representations of the compact and complex forms share the same highest-weight classification, but the groups and their real [[lie-groups/lie-algebra|Lie algebras]] are different objects.
+The [[lie-groups/simply-connected-lie-group|simply connected]] complex group is \(SL(5,\mathbb C)\), whose center is \(\mu_5\); its adjoint quotient is \(PSL(5,\mathbb C)\). The [[lie-groups/compact-real-form|compact real form]] integrates to \(SU(5)\). The finite-dimensional complex representations of the compact and complex forms share the same [[lie-groups/highest-weight|highest-weight]] classification, but the groups and their real [[lie-groups/lie-algebra|Lie algebras]] are different objects.
 
 ## Paper context
 

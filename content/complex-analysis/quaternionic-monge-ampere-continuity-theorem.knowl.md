@@ -19,7 +19,7 @@ plurisubharmonic functions]] on \(\Omega\subseteq\mathbb H^n\). If
 \operatorname{MA}_{\mathbb H}(u_m)
 \rightharpoonup \operatorname{MA}_{\mathbb H}(u)
 \]
-weakly as Borel measures. The same statement holds for
+weakly as [[measure-theory/borel-measure|Borel measures]]. The same statement holds for
 [[complex-analysis/mixed-quaternionic-monge-ampere-measure|mixed measures]]
 when each potential converges locally uniformly.
 

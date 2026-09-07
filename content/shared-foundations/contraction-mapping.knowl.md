@@ -23,7 +23,7 @@ The constant \(c\) is called a **contraction constant**.
 
 A contraction is a special case of a [[topology/lipschitz-continuity|Lipschitz]] map: \(T\) is Lipschitz with constant \(L\) if \(d(Tx,Ty)\le L d(x,y)\) for all \(x,y\). Contractions are exactly Lipschitz maps with \(L<1\).
 
-Contractions are important because on [[topology/complete-metric-space|complete metric spaces]] they have unique [[real-analysis/fixed-point|fixed points]] and the fixed point can be found by iteration ([[real-analysis/banach-fixed-point-theorem|Banach fixed point theorem]]).
+Contractions are important because on [[topology/complete-metric-space|complete metric spaces]] they have unique [[real-analysis/fixed-point|fixed points]] and the [[real-analysis/fixed-point|fixed point]] can be found by iteration ([[real-analysis/banach-fixed-point-theorem|Banach fixed point theorem]]).
 
 ## Examples
 

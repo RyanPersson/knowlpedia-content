@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-The **Wiener transform** \(W\) is the unitary operator on the Gaussian space \(L_2(M,n)\) whose action on the polynomial subspace is
+The **Wiener transform** \(W\) is the [[functional-analysis/unitary-operator|unitary operator]] on the Gaussian space \(L_2(M,n)\) whose action on the polynomial subspace is
 \[
 (Wf)(x)=\int f(\sqrt2\,y+i x)\,dn(y).
 \]

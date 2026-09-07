@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\langle\cdot,\cdot\rangle\) be the standard inner product on \(\mathbb R^n\). The **special orthogonal group** is
+Let \(\langle\cdot,\cdot\rangle\) be the standard [[linear-algebra/inner-product|inner product]] on \(\mathbb R^n\). The **special orthogonal group** is
 \[
 SO(n)=\{A\in GL(n,\mathbb R): A^T A=I,\ \det(A)=1\}.
 \]

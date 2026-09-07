@@ -1,0 +1,607 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-category-theory/abelian-category",
+      "outcome": "corrected",
+      "source_sha256": "9551206ba7c700457bbff01ebee46c121402369f532c1ad037084482f347019f",
+      "evidence": "Added the abelian-group link in the additive-category axiom; all other core ingredients already link to category, additive category, kernel, cokernel, monomorphism, and epimorphism."
+    },
+    {
+      "id": "algebra-category-theory/additive-category",
+      "outcome": "corrected",
+      "source_sha256": "921b0b3631196d736c0814b4f6b2c4415f3a8c7472af1454aba9c377df2c5c51",
+      "evidence": "Added links for the defining morphisms, abelian group, preadditive category, and zero object occurrences after reading the full source; product/coproduct links remain at the biproduct definition and generic repeated terms remain unsaturated."
+    },
+    {
+      "id": "algebra-category-theory/adjoint-functors",
+      "outcome": "corrected",
+      "source_sha256": "8b53c6ebb56dc9e5b6c76b1500017c359fcbe62fc16425c18b3e94326dbc7a3c",
+      "evidence": "Added the natural-isomorphism link in the core hom-set bijection definition; later unit, counit, identity, and equivalence links were checked and retained."
+    },
+    {
+      "id": "algebra-category-theory/algebra-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd10dd789bed930eb148fdef66910a706164e5db3230045f13db653572a9887b",
+      "evidence": "Read complete source. Monoidal category and symmetric monoidal category links are present at the defining occurrences, with commutative algebra examples linked later; locally introduced multiplication and unit notation was not linked. Prerequisites match the definition."
+    },
+    {
+      "id": "algebra-category-theory/automorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d703d68573b78e76d152db2e22cd6f49022ce046bffc7406f2425e716c0a339",
+      "evidence": "Read complete source. Category, object, isomorphism, endomorphism, identity, and composition are linked at useful occurrences. Group-isomorphism wording in examples is descriptive and repeated; no dependency edge is missing."
+    },
+    {
+      "id": "algebra-category-theory/categorical-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "30ecd18275a26cf9cbd09430d5dfd61622ed171297845e7d06a960346ebea074",
+      "evidence": "Read complete source. Category, objects, morphisms, composition, isomorphism, and limit links correctly expose the universal-property ingredients; product topology in an example is a setting-specific phrase and was not forced into a link. Prerequisites are justified."
+    },
+    {
+      "id": "algebra-category-theory/category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5a1a198e42301058d67e79bd83bdc65486a54db0d60f835cf0b71f18273bb92f",
+      "evidence": "Read complete source. The minimal definition links objects, morphisms, composition, identity morphisms, and category axioms; examples intentionally keep common group/topology terminology readable without saturation. No prerequisite is required."
+    },
+    {
+      "id": "algebra-category-theory/category-axioms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd4471b97a7238ef826b153469d61d2c73f30de959350137099f2e39ef7ccb0e",
+      "evidence": "Read complete source. Category, object, morphism, composition, and identity links occur in the axiom statement. Set and group examples are explanatory repetitions, and no additional dependency edge is mathematically required."
+    },
+    {
+      "id": "algebra-category-theory/coequalizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95265ea3d2432d267c4c0256b63191eca19dc941c9c19dda7fd8a4c118366a24",
+      "evidence": "Read complete source. Category, morphism, composition, isomorphism, colimit, equalizer, and cokernel links expose the universal property and duality; domain/codomain are locally used terminology. Example normal-subgroup wording is not a defining dependency."
+    },
+    {
+      "id": "algebra-category-theory/cokernel-categorical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc21cffd4b6a0e46b7a70ceb216b0cc43ebe880e205b6d37ded7458e56d59283",
+      "evidence": "Read complete source. Category, morphism, composition, zero object, coequalizer, kernel, isomorphism, and epimorphism links are present at the relevant definitions. Group normal-closure terminology belongs to the example and does not require a core link; prerequisites are sound."
+    },
+    {
+      "id": "algebra-category-theory/colimit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "24015c512009f69d9680d2a25a479aa66cadf99758ba19fd89b77b70a9725309",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/functor, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/composition-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f200edc5a6468bbe06f8471148b0cf785986e551fcfa0bd74fff3dd65faedcc1",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: shared-foundations/composition, algebra-category-theory/category, algebra-category-theory/morphism."
+    },
+    {
+      "id": "algebra-category-theory/contravariant-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1cfc5a963092cd11fe03b38c915e462b8f3e763b6dd813a945924c8f60a8c3dd",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/object, algebra-category-theory/morphism, algebra-category-theory/identity-morphis."
+    },
+    {
+      "id": "algebra-category-theory/coproduct",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9cb744e725d69a33b69eb237340834eedfab20dcf1224d95badf7535b692e667",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/object, algebra-category-theory/morphism, algebra-category-theory/composition-cate."
+    },
+    {
+      "id": "algebra-category-theory/core-of-a-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49752b73191ccb60cb8183d373ec2acdebf47391ceefb15e0a130e77cbd63fa2",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/groupoid."
+    },
+    {
+      "id": "algebra-category-theory/counit-adjunction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "31c67390e91cb87197b46816975128fc7633465ca0d5ec0cd5400982316d8355",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/functor, algebra-category-theory/adjoint-functors, algebra-category-theory/natural-transformation, shared-foundation."
+    },
+    {
+      "id": "algebra-category-theory/distinguished-triangle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38b2824da2bbd5d715bf460cdfe198fd575b8649cf4641925db70a966b4b664d",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/triangle, algebra-homological/mapping-cone."
+    },
+    {
+      "id": "algebra-category-theory/endomorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33b2629109a2a86b743ffd5d130d4179a55c8e8b7ae2465f576a7c7ea5e1f6a2",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/object, algebra-category-theory/morphism, algebra-category-theory/composition-cate."
+    },
+    {
+      "id": "algebra-category-theory/epimorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a70a4250883ff26bdf3f7874d956760280de1f4004de3968125ca0a08e212e54",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/equalizer",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5fb3aef6daa622ac9f11a4cede73cfd2cce270e04a8d72e053278b70d22213a9",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/equivalence-of-categories",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5bbb276e17af5d4f8aed16e66f6c0e5a9aebb82ed52e4c4e6cfb80470f50e315",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/functor, algebra-category-theory/natural-isomorphism."
+    },
+    {
+      "id": "algebra-category-theory/exact-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ecd5b436a0694d3b6aa5365208830659a98aa77dbce2b7862f8c1aa1ef4235d9",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/abelian-category, algebra-category-theory/functor."
+    },
+    {
+      "id": "algebra-category-theory/exact-sequence-categorical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9125dab3481ea153da1b83c1b3d5c8013ddf06061fe02b7055739f9bd2fcd1a",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/abelian-category, algebra-category-theory/kernel-categorical, algebra-category-theory/cokernel-categorical."
+    },
+    {
+      "id": "algebra-category-theory/full-subcategory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ad0de12e57ff3be5226b42aa32c0e9d58cd1dd4fa434c3655c56b2251817425",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/subcategory."
+    },
+    {
+      "id": "algebra-category-theory/functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e2c14b5c8460921ce83b0a1d69391545178df19dba9cb07cd8378fd87f93e513",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/object, algebra-category-theory/morphism, algebra-category-theory/identity-morphis."
+    },
+    {
+      "id": "algebra-category-theory/group-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc6b89fe149c0a316881c68f9f5a793bca235a9f52b16e2b52603b34ae30b683",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/categorical-product, algebra-category-theory/terminal-object."
+    },
+    {
+      "id": "algebra-category-theory/groupoid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71b58208b14f1aa2ac3db6ab61ffc93b510a4a9fe1529dbd0b061616ae937f95",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/isomorphism-category."
+    },
+    {
+      "id": "algebra-category-theory/identity-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4034bfba4dcb0c630e41c73731017e0b148e3eacedd0565df5dfee5b8d5de029",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/object, algebra-category-theory/composition-category, shared-foundations/identity-function, algebra-category-theory/."
+    },
+    {
+      "id": "algebra-category-theory/initial-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72b0b47b3d07674d068dd4a8a7baa3591157fd32a7f3e48433e33e312729c813",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/terminal-object."
+    },
+    {
+      "id": "algebra-category-theory/isomorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "775e15ff1ffc353930e462475c683cf1144416c442b13110a5ad24d783dda48a",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/identity-morphism, algebra-category-theory/compo."
+    },
+    {
+      "id": "algebra-category-theory/kernel-categorical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "274d8dd0fbb5010df235f936ea9348d2d506be1c30f4a8cb050abae6a5f3b053",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/composition-category, algebra-category-theory/ze."
+    },
+    {
+      "id": "algebra-category-theory/left-exact-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "104adf8db6b086e7848e2efb3f2e8d9717f161e233d016bb963fd11e41efcf57",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/abelian-category, algebra-category-theory/functor, algebra-category-theory/limit, algebra-category-theory/kernel-cat."
+    },
+    {
+      "id": "algebra-category-theory/limit",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "015e7677c6647c72102bb2c6d3f05cf25fd16a7fc4f9777b7f847e3a68ab7278",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/functor, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/monoidal-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e77e0c54f5abba993614771e78826eaaef3f97e8d88d73b95bcec5f163a5bf28",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/natural-isomorphism."
+    },
+    {
+      "id": "algebra-category-theory/monomorphism-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a6722d690e928143b137a645403af8df387cb9142e4076c87c4b7ca6c54b5cc9",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "751d13e664f34de62f84272ddf3ef648330b3042b42550b1ab3003e4d65ed359",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/object, algebra-category-theory/category."
+    },
+    {
+      "id": "algebra-category-theory/natural-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1978524e37e4deea8565837933cc8c4ac979fa184f56dfa0ad5077d9a4379126",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/functor, algebra-category-theory/natural-transformation, algebra-category-theory/isomorphism-category."
+    },
+    {
+      "id": "algebra-category-theory/natural-transformation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9642b3d97d420ca25df590455e2007cfcc6c0c63eaaa236e2937e571be6701f5",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/functor, algebra-category-theory/object, algebra-category-theory/morphism, algebra."
+    },
+    {
+      "id": "algebra-category-theory/object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e76e3c4f19172cab2156ae968ecdc54c62451d601b6537101ceaa3ebd6a61988",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category."
+    },
+    {
+      "id": "algebra-category-theory/octahedral-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6794bb461bd4394825dfe67407b274e0fa46a39508933881edcdbba5573ac7c",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/pretriangulated-category, algebra-category-theory/distinguished-triangle."
+    },
+    {
+      "id": "algebra-category-theory/opposite-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70b6e79ea66c290febacf9b503f74ebcec52bde126c60e8c4e689d39b9263561",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/identity-morphism, algebra-category-theory/compo."
+    },
+    {
+      "id": "algebra-category-theory/preadditive-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "606b525daa5b5943e2557c11039493c80ae9aa2f2e3bfc28af361e975adba29c",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/pretriangulated-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "08c5ff1e43ba32dde269e92d7ec9330d7048a805921050bac9d6c7f045641972",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/preadditive-category, algebra-category-theory/zero-object, algebra-category-theory/shift-functor, algebra-category-t."
+    },
+    {
+      "id": "algebra-category-theory/pullback",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "73b287ba1de5b7d09b76538b376a2cd12509a29bf1c9f9879475b056d70e9a63",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/pushout",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0efdf8bf43854486886d1501f346f32b51c88b01b4371e64c0ba3e82d4d01b64",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/morphism, algebra-category-theory/composition-category."
+    },
+    {
+      "id": "algebra-category-theory/representable-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40b0fe64978a9c697f09ebe733f81581834642f66973557e0336c477b7401776",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, shared-foundations/set, algebra-category-theory/functor, algebra-category-theory/natural-isomorphism, alge."
+    },
+    {
+      "id": "algebra-category-theory/right-exact-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62069cbb3499acb212a3a9e658282576439a1c1bfd0c32e509af972daa9522a1",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/abelian-category, algebra-category-theory/functor, algebra-category-theory/colimit, algebra-category-theory/cokernel."
+    },
+    {
+      "id": "algebra-category-theory/shift-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "944a1979f85fe2524fcc4bf7bc64fc198df209dffe2b2b7add2a76261d110d59",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/equivalence-of-categories."
+    },
+    {
+      "id": "algebra-category-theory/subcategory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d30cdb6bc51cc111f5faa30273fb9614aa3742ac06fa46e22294d951dc5f6ca",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/object, algebra-category-theory/morphism, algebra-category-theory/identity-morphis."
+    },
+    {
+      "id": "algebra-category-theory/symmetric-monoidal-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88fdb7389b65e3499498f661d42ac1ffdf4fd71d909356d1793f6831375e9d5c",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/monoidal-category, algebra-category-theory/natural-isomorphism."
+    },
+    {
+      "id": "algebra-category-theory/tannakian-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9ce5f959abf616d89d9120b6e99ebf3e21a7629d50ddcd411e013d8c100fc5cd",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/field, algebra-category-theory/abelian-category, algebra-category-theory/symmetric-monoidal-category, algebra-category-theory/."
+    },
+    {
+      "id": "algebra-category-theory/terminal-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb5a5d4d78f39f26bba325100e98e3180d077ccc8e790be59b9d80521fce6c62",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/object, algebra-category-theory/morphism."
+    },
+    {
+      "id": "algebra-category-theory/triangle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a46e5096a49a2638885ef184f36c3e0decaecdfe3ff718b0bc590506314ce76b",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/shift-functor."
+    },
+    {
+      "id": "algebra-category-theory/triangulated-category",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0933db7f0a6f8c537e461a0ae1813f983e371eb2670d4407d9ad8f57fd7ee8a",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/pretriangulated-category, algebra-category-theory/distinguished-triangle, algebra-category-theory/octahedral-axiom."
+    },
+    {
+      "id": "algebra-category-theory/unit-adjunction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7df65799fff8125a063a298d007bd50f18a610a1844a0f75347ced172558563",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/functor, algebra-category-theory/adjoint-functors, algebra-category-theory/natural-transformation, shared-foundation."
+    },
+    {
+      "id": "algebra-category-theory/yoneda-embedding",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d77354a2124abbcdac3baf8081c076e666d0956a0df3d7dae2597e011d30685",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/functor, algebra-category-theory/representable-functor, algebra-category-theory/na."
+    },
+    {
+      "id": "algebra-category-theory/yoneda-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0caa685b27e3faa9d22e7c5f60dd0fddaf6fe69bbe79108dfee0c185094df6a",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/object, algebra-category-theory/functor, algebra-category-theory/representable-fun."
+    },
+    {
+      "id": "algebra-category-theory/zero-object",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60ffd9f856a584168ae763ab9f4a612f6b7145fec3d4abaaa38e65ed59bf8a12",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-category-theory/category, algebra-category-theory/initial-object, algebra-category-theory/terminal-object."
+    },
+    {
+      "id": "algebra-coalgebras/bialgebra",
+      "outcome": "corrected",
+      "source_sha256": "003ae85fd2df86005fad402bf1be47a53c52ea2a89c954440d677f3c42107a6c",
+      "evidence": "Added algebra-homomorphism and tensor-product links in the defining compatibility statement; commutative ring, algebra, and coalgebra links were already present."
+    },
+    {
+      "id": "algebra-coalgebras/coalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42c93f1a408c77b6f0eaf3b2f5085946ccc4a7cd303185086cc647221891dbae",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-modules/module, algebra-category-theory/monoidal-category."
+    },
+    {
+      "id": "algebra-coalgebras/hopf-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9099f5e7e030e0b0cfc3b94418b3e2009d0f7d78f7838a3d19463092937af0d5",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-coalgebras/bialgebra, linear-algebra/linear-map."
+    },
+    {
+      "id": "algebra-commutative/artinian-ring",
+      "outcome": "corrected",
+      "source_sha256": "669e5fbbdc44a07a2fbd949841ea4c0f421f92982e456d88c4322a86128ed2d8",
+      "evidence": "Added the ideal link in the defining DCC sentence; the complete source and equivalent characterizations were checked for further meaningful links."
+    },
+    {
+      "id": "algebra-commutative/dvr",
+      "outcome": "corrected",
+      "source_sha256": "71a77281b47fd98ff4a7c0dd46d2b046b99da96587e02851c8c8531cc33ee576",
+      "evidence": "Added domain and maximal-ideal links in the defining bullets; local ring, Noetherian, and Krull dimension links were already present."
+    },
+    {
+      "id": "algebra-commutative/extension-of-scalars",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ea8b35763c05340f6188af97d6f34e2ba64564ac2a65f6952b3772ee4a55303",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, linear-algebra/linear-map."
+    },
+    {
+      "id": "algebra-commutative/going-down-theorem",
+      "outcome": "corrected",
+      "source_sha256": "aa19157f606389b2275527f335d56b47a8bd1029f5730360c7f4acf3d2dd2777",
+      "evidence": "Added integral-domain and prime-ideal links to the theorem hypotheses; integral extension and integrally closed domain links were already present."
+    },
+    {
+      "id": "algebra-commutative/going-up-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b96342cd2825f64c8cec1d4c01810cb2fac696a80410b27594d1acd27815015d",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/integral-extension, algebra-rings/commutative-ring, algebra-commutative/lying-over-theorem, algebra-commutative/prime-sp."
+    },
+    {
+      "id": "algebra-commutative/height-of-prime",
+      "outcome": "corrected",
+      "source_sha256": "0f106c62490ca554bdb87bc6de5f0a9289ccd8ed009c465081fa055a4a6925ab",
+      "evidence": "Added the prime-ideal link in the core definition; prime spectrum, localization, and Krull dimension links were already present."
+    },
+    {
+      "id": "algebra-commutative/hilbert-basis-corollary",
+      "outcome": "corrected",
+      "source_sha256": "4996585b4daa309cddcdd1cc22ab1159a46ab1597927a0e3826b873e45004414",
+      "evidence": "Added polynomial-ring and ideal links in the theorem statement; Noetherian and field links were already present."
+    },
+    {
+      "id": "algebra-commutative/i-adic-completion",
+      "outcome": "corrected",
+      "source_sha256": "b29c8c91caa9ebe89a8353ce07a6b1fd09a1d10bf786ffc9c2daf92d76400d50",
+      "evidence": "Added ideal and inverse-limit links in the core construction; quotient maps and ring links were checked in the remaining sections."
+    },
+    {
+      "id": "algebra-commutative/i-adic-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90a43698c572aa755852f9c0c7c9ac31d7799c915ac4f431fdb4a356479561f3",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-rings/ideal."
+    },
+    {
+      "id": "algebra-commutative/integral-closure",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f61ee85bcdbbd9dcae8c084542f649bede340e1c25b6d3bdcc5c323c5990403b",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/integral-element."
+    },
+    {
+      "id": "algebra-commutative/integral-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a1b0e2ae6653259660b208741cb9db0e48ad95e5b9292a2803b9069c6c8d453d",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring."
+    },
+    {
+      "id": "algebra-commutative/integral-extension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7cb402e0591796e4087f7403db34b7af7008becc45bb248d5cc44cb16603b8f3",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/integral-element."
+    },
+    {
+      "id": "algebra-commutative/integrally-closed-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ef1d1094b442573136df84430d17e7717a27e7eae7847e2bff4acf6ce52bd5f",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/integral-element, algebra-commutative/integral-closure, algebra-commutative/localization."
+    },
+    {
+      "id": "algebra-commutative/jacobson-annihilates-simples",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cca6a609903b737a10e55159fbb9edb592ca119c7e7da2e18cdd922ea2354472",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: ."
+    },
+    {
+      "id": "algebra-commutative/jacobson-radical-intersection-maximals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5496932762ab6d166f91ab2bd865bcd5bd2d5672a72f03ddfcc8cfd0f61ef336",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/maximal-spectrum."
+    },
+    {
+      "id": "algebra-commutative/krull-dimension",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "736505aff2e4a0bb26c6226106de11a48754c44dd37dc7fd613219aad8ee15a8",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/prime-spectrum, real-analysis/supremum."
+    },
+    {
+      "id": "algebra-commutative/krull-principal-ideal-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca90d588f54bacf1de224c0584f5eafc2e966a64dabe7bb07b9f7f5fd6b5846d",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/noetherian-ring, algebra-commutative/height-of-prime."
+    },
+    {
+      "id": "algebra-commutative/lasker-noether-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "98951b752de80d50ccfab7274774bfc5f1f89fdb6a409535155a4d03d3d018fe",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/noetherian-ring, algebra-rings/commutative-ring, algebra-commutative/primary-decomposition."
+    },
+    {
+      "id": "algebra-commutative/local-ring",
+      "outcome": "corrected",
+      "source_sha256": "2c8f02498c4d87870927ce95e4672629c52dce88d04b9a33526d6d7d8d24fa1c",
+      "evidence": "Added the maximal-ideal link in the core definition; commutative ring, localization, residue field, and Nakayama links were checked."
+    },
+    {
+      "id": "algebra-commutative/localization-at-prime",
+      "outcome": "corrected",
+      "source_sha256": "c39368f4088134de78a39315389b6d274445ae60136afdfbabcc8a0fa7989d20",
+      "evidence": "Added the prime-ideal link in the core construction; multiplicative set, localization, and local ring links were already present."
+    },
+    {
+      "id": "algebra-commutative/localization-exact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34d487920c53f5332cdb6cf5801cfb264dc69e2224275a08364ab5b5f50eb1cf",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/localization-ring, algebra-commutative/localization-module, algebra-rings/commutative-ring, algebra-commutative/multipli."
+    },
+    {
+      "id": "algebra-commutative/localization-inverts-multiplicative-set",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "33052b1c969dae5dde0f8c11194fed3dfd6d54a1ffc0b43b0e2a9f77a4440d5a",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/multiplicative-set, algebra-commutative/localization-ring, algebra-commutative/localizat."
+    },
+    {
+      "id": "algebra-commutative/localization-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc70a62dd4a9baaac41fce9308d876ade5bb042f0034dea127ad506956f7f45f",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/multiplicative-set, algebra-commutative/localization-ring."
+    },
+    {
+      "id": "algebra-commutative/localization-noetherian",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40525e63eb4c8d915d8a848ec7e75d217ca45c02b539b815112cd583219521e9",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/noetherian-ring, algebra-commutative/multiplicative-set."
+    },
+    {
+      "id": "algebra-commutative/localization-noetherian-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "569b99f8f23680688aa297a94efead1aeefa6ec528d6352414226cb50cae8393",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/noetherian-ring, algebra-commutative/multiplicative-set, algebra-commutative/localization-at-prime, algebra-commutative/."
+    },
+    {
+      "id": "algebra-commutative/localization-preserves-primality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d8dfcd569b221255251cccc0f97acc8e4bf3fb70bb4a143a10c416fc91c4398",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/localization-ring, algebra-rings/commutative-ring, algebra-commutative/multiplicative-set."
+    },
+    {
+      "id": "algebra-commutative/localization-prime-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d805502b338aa3a43a68c8f605414fa2957c1c680b31a585dd9a3f3d572ec006",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/multiplicative-set, algebra-commutative/localization-ring, algebra-commutative/localizat."
+    },
+    {
+      "id": "algebra-commutative/localization-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "206e08cc3fedf1f9cd5f0a0d46d53049484c76e91ae5390a425ceac23ab4eb44",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/multiplicative-set."
+    },
+    {
+      "id": "algebra-commutative/lying-over-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77834ddb63167e41596e10a74372a23f058db1726451b6d851019e68ec9065f9",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/integral-extension, algebra-rings/commutative-ring."
+    },
+    {
+      "id": "algebra-commutative/maximal-ideal-local-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "96e615dfdee80afb73047d3304d1682113cfed4deae49bf0001485f1dba104f5",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/commutative-ring, algebra-commutative/local-ring."
+    },
+    {
+      "id": "algebra-commutative/maximal-spectrum",
+      "outcome": "corrected",
+      "source_sha256": "8963e3e3f3be7db6b5a55a5f0f13a080d2cfd89ce93575a05ff55368cb96f0a1",
+      "evidence": "Added the ideal link in the maximal-ideal definition; field, prime spectrum, Zariski topology, and residue-field links were checked."
+    },
+    {
+      "id": "algebra-commutative/multiplicative-set",
+      "outcome": "corrected",
+      "source_sha256": "d45d1d51ee980f8bf4c7b925ab2a9ed2076225e8b20927e91ddd1a61acd301ed",
+      "evidence": "Added the subset link in the core definition; commutative ring and localization links were already present."
+    },
+    {
+      "id": "algebra-commutative/nakayama-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2e03a4564861aa86d553203b531db2ea367784ba70c50fda0987483b272fb07",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/local-ring, algebra-commutative/residue-field, algebra-commutative/nakayama-lemma, algebra-modules/cyclic-module, linear."
+    },
+    {
+      "id": "algebra-commutative/nakayama-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25f2fb7c064744f2014ce1f6a8c3120387b8aa15b679682b90a993ce37fd299e",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-commutative/local-ring, algebra-rings/commutative-ring, algebra-commutative/jacobson-radical-intersection-maximals."
+    },
+    {
+      "id": "algebra-commutative/noether-normalization-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d458a57147e20c026649ab800350bff1251d246748f02830292593d4e727ba7",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/field, algebra-commutative/integral-extension."
+    },
+    {
+      "id": "algebra-commutative/noetherian-primary-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "ef319546b12754550d36cc867119c3accdf5b9fb0ad752a7ebd0597ca3ed3711",
+      "evidence": "Added ideal and primary-ideal links in the theorem statement; the Noetherian link and later prime-ideal discussion were checked."
+    },
+    {
+      "id": "algebra-commutative/noetherian-ring",
+      "outcome": "corrected",
+      "source_sha256": "beb02244fa498b959b687dfefa273f410d1d1bb66fa37cc0d622f232513d3d0d",
+      "evidence": "Added the ideal link in the defining ACC sentence; the complete source and equivalent characterizations were checked for further meaningful links."
+    },
+    {
+      "id": "algebra-commutative/nullstellensatz-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1a4b367d8d0cd242736610f02231c7efc4f53030e00917e9580669a0a5ae2ced",
+      "evidence": "Read the complete source including optional sections. Checked authored links and scanner matches in context; generic/repeated terms, local notation, and context-specific example language were rejected. Checked genuine defining prerequisites: algebra-rings/field, algebra-commutative/maximal-spectrum, algebra-commutative/residue-field."
+    },
+    {
+      "id": "algebra-commutative/nullstellensatz-variety-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "609a05cf4a91ba267f486dc0709846b6c3db29d0c90692b3599df9eb69eac732",
+      "evidence": "Added ideal, subset, function, and topology/closed-set links in the core correspondence statement; Zariski topology and later maximal-ideal links were checked."
+    }
+  ],
+  "gaps": [],
+  "notes": []
+}

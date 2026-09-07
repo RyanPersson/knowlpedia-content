@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-An **almost-complex structure** on a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is a smooth vector-bundle endomorphism
+An **almost-complex structure** on a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is a smooth [[fiber-bundles/vector-bundle|vector-bundle]] endomorphism
 \[
 J:TM\to TM
 \]
@@ -19,7 +19,7 @@ such that
 \[
 J^2=-\operatorname{id}_{TM}.
 \]
-Thus each real [[differential-geometry/tangent-space|tangent space]] becomes a complex vector space by declaring multiplication by \(i\) to be \(J\). In particular, \(M\) must have even real dimension. This is pointwise linear-algebraic data varying smoothly; no coordinate integrability is included.
+Thus each real [[differential-geometry/tangent-space|tangent space]] becomes a complex [[linear-algebra/vector-space|vector space]] by declaring multiplication by \(i\) to be \(J\). In particular, \(M\) must have even real dimension. This is pointwise linear-algebraic data varying smoothly; no coordinate integrability is included.
 
 Every [[differential-geometry/complex-manifold|complex manifold]] has a canonical almost-complex structure. An arbitrary almost-complex structure need not come from [[differential-geometry/complex-coordinate-chart|complex coordinate charts]]; when it does, it is [[differential-geometry/integrable-almost-complex-structure|integrable]].
 

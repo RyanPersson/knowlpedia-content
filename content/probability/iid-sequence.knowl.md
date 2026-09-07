@@ -20,4 +20,4 @@ i.i.d. sequences formalize repeated sampling and are the basic setting for the [
 ## Examples
 
 - Let \(X_n\) be the indicator that the \(n\)th fair coin toss is heads. Then \((X_n)_{n\ge 1}\) is i.i.d. Bernoulli\((1/2)\).
-- Let \(X_1,X_2,\dots\) be independent samples from a normal distribution \(N(0,1)\). Then \((X_n)_{n\ge 1}\) is an i.i.d. sequence with that common law.
+- Let \(X_1,X_2,\dots\) be independent samples from a [[probability/normal-distribution|normal distribution]] \(N(0,1)\). Then \((X_n)_{n\ge 1}\) is an i.i.d. sequence with that common law.

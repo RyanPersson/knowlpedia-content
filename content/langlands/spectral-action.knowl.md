@@ -61,7 +61,7 @@ members of an [[langlands/l-packet|\(L\)-packet]] across the groups
 ## Theorem versus categorical conjecture
 
 The spectral action itself is constructed. A much stronger conjecture says
-that acting on a Whittaker sheaf gives a fully faithful functor from
+that acting on a Whittaker sheaf gives a [[algebra-category-theory/fully-faithful-functor|fully faithful functor]] from
 [[algebraic-geometry-foundations/perfect-complex|perfect complexes]] on the
 parameter stack and extends to an equivalence between an
 appropriate coherent spectral category and the automorphic sheaf category.

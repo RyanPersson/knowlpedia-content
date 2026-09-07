@@ -27,7 +27,7 @@ where the equivalence relation is
 \[
 (p\cdot g,\; v)\sim (p,\; g\cdot v)\qquad\text{for all }p\in P,\ g\in G,\ v\in V.
 \]
-Write the equivalence class of \((p,v)\) as \([p,v]\).
+Write the [[shared-foundations/equivalence-class|equivalence class]] of \((p,v)\) as \([p,v]\).
 
 The projection map \(\pi_E:E\to M\) is defined by
 \[

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-For a unital ring \(R\), the **group of units** is
+For a [[algebra-rings/unital-ring|unital ring]] \(R\), the **group of units** is
 \[
 R^\times=\{u\in R: u \text{ is a unit}\}
 \]

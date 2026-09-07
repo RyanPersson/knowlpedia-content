@@ -1,0 +1,907 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "real-analysis/integration-by-parts",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6853a467eceba5cd5fc0e53854d27b600bca1de080afe7729f1d941da084d6ea",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates; possible definition-gap phrases: integral form against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/integration-by-parts-riemann-stieltjes",
+      "outcome": "corrected",
+      "source_sha256": "1b052a24e5f30efc1a2ed38b11e9ce362ec88b1926a20bd9f78fbc87a2b86fd5",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for Riemann–Stieltjes integrals → real-analysis/riemann-stieltjes-integral. Other candidates (Riemann–Stieltjes integrals) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/integrator-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1d717708ec79b5d312d51d6fd27e22e300de9fed0fd175e88bf7943d748ab88e",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases Riemann–Stieltjes integral against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/interchange-limit-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cb984d3f4723f291507e77c57392130b4800afe46c4c97b5cfa04b088347907",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases uniform convergence against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/intermediate-value-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b543f15258bf13935a0cb3f21e27ebfc4f064565634bdbc1afe20c4347fdade9",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/interval",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e822127e76bb9a6019d059d520d7ed09f676c0555156ce79e8a85daec9d546e",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates; possible definition-gap phrases: usual topology against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/inverse-function-theorem-1d",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5ef06129b60ffdd87979f8e3831a9ba40d4c5b3df7ff53b40a70d2b81392d23",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates; possible definition-gap phrases: function theorem, inverse function theorem against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/inverse-function-theorem-rk",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4694cb068addda3a6306821c1a587cf0563cac99bb336f36bc0089cc292d74f0",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases Inverse function; possible definition-gap phrases: function theorem, inverse function theorem against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/isolated-point",
+      "outcome": "corrected",
+      "source_sha256": "5ef578f6a4bef5f000e4d34b09dfecd56ae993e03d13bcaf7a472acc8b9278c0",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for metric space → topology/metric-space, limit points → topology/limit-point. Other candidates (metric space, limit points) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/iterated-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ea463c8d4d990146e6a93fda3cb0f7347146e868d6871f72096e61eb88f7085b",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/jacobian-determinant",
+      "outcome": "corrected",
+      "source_sha256": "b8230c4d2ad0480189cf8b90bdf7b527acc2b867f56cc59402379c2409e9d530",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for differentiable map → real-analysis/differentiable-map, linear map → linear-algebra/linear-map. Other candidates (differentiable map, linear map) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/jacobian-matrix",
+      "outcome": "corrected",
+      "source_sha256": "c2e56f2aa151a389fd8a4bbc53ade6ff65850857767735ad35c2738083c2c612",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for linear map → linear-algebra/linear-map. Other candidates (linear map) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/japanese-bracket",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d0d21237e1813af46d14e2824381ee50cbb8d3beab5e553ccbe28382ee918f19",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/jordan-decomposition-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eceedfce8071d3d1f36aba35f4de4d224e9f4eab8a238f443ee2346ea5284f28",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/lagrange-multiplier-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f6b6d1c7ac4d0d89b69c6261bb0fb87166be2bce9d6b48e25046181a9131021",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/lagrange-multipliers-theorem",
+      "outcome": "corrected",
+      "source_sha256": "a909715171031fcc8b4f5465dac018cdbfeceeaccf8aebd6e3705d84d4ff8148",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for local extremum → real-analysis/local-extremum. Other candidates (local extremum) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/least-upper-bound-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df56c18de029f4dc203326ec5bff2229952a3e7d456a5db6dfc3bfd65399c344",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/lhopitals-rule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "14ec6821b5739c8bc6a162573f921ef495a7948a5be864fdf55785abdd8eb0b4",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-algebra-for-sequences",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa33ff36ce263155fd23598caff8561ff079c549d8ebec2e85d3e663b66caa9e",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-at-a-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9a60524e9f100b9cf3ce17f61da3f8522de3ffa90711adfa353647232db587f",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-at-infinity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f435c3392445092a76623a1a70da4791ad23868b22aa438c1e60f77c28c9ac5d",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-comparison-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c11713886284d25ffabc51dfbfe815eb9c26d703d371fc31e06005a269409b96",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-inferior",
+      "outcome": "corrected",
+      "source_sha256": "44045001aed06c4680a43642449303a15fab3e862dac557e2351d16422abcfbc",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for real numbers → shared-foundations/real-numbers. Other candidates (real numbers) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/limit-inferior-lim-inf",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c89772579841f5ac6474535c52023fc53f9eec6126ccc6e57e35e0339f3f27df",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases limit inferior, bounded sequence against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-of-a-function-at-a-point",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca7777f258a22418b919f6cfcbee945eee52b71bb32191da1a3c140953668f0e",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-of-a-sequence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5b3515b279683a2dade91a454260f67a9997f90ea51e8883d35815fc6d6e262",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-point-accumulation-point-cluster-point",
+      "outcome": "corrected",
+      "source_sha256": "ae1d49e19b41a4b6546a5f5c59f2ed45cc425d8bafb06da20d1cef43359bcc29",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for Limit points → topology/limit-point. Other candidates (limit point, Limit points, limit points) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/limit-superior",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fdae4d588d1d71de7ee50e03dc83c3a944dac3a2fa6498eb5b7889bd87fddaa7",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates; possible definition-gap phrases: real sequence against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limit-superior-lim-sup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d482180964f3b934966eb5d352611e7676fbc6db2ea3b84ff9bc4dc2173023e0",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases limit superior, bounded sequence against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/limsup-liminf-properties",
+      "outcome": "corrected",
+      "source_sha256": "9f006090b20772a3830af08a307e25fd9549e83ad857c17d0c76160797a1c21f",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for real numbers → shared-foundations/real-numbers. Other candidates (real numbers) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/local-diffeomorphism-corollary",
+      "outcome": "corrected",
+      "source_sha256": "aa1c2053ccae6c8ff7c2dfe85f8b615c0fa80f1f41d0cf958804fb915b488035",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for local diffeomorphism → algebraic-geometry-foundations/local-diffeomorphism. Other candidates (local diffeomorphism) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/local-extremum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b4a47e01a4737dfe1e8dc72c90b412629d83f253be2f768a420d3e2c05803f9a",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/local-implicit-function-parameterization",
+      "outcome": "corrected",
+      "source_sha256": "025e83a32dd59efab38e91e8d0d51a0bd2e204b715dfde68e71334eb2ff611d2",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for differentiable map → real-analysis/differentiable-map, constraint set → real-analysis/constraint-set. Other candidates (differentiable map, regular point, constraint set) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/local-maximum-local-minimum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "432bc67e0aa170752a4bd1c49c25399fff6d53f69b646cabec21939cb8efc32b",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/lower-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2931b828b4a9b515bb8b636a8272cdede28db883aef3ad0327e4e691b5b0a88e",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/lower-sum-riemann",
+      "outcome": "corrected",
+      "source_sha256": "e95ecd0716383e24593e6945bfc697764d8e9a3abce9ceba8194b5971df707d4",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for Lower sums → real-analysis/lower-sum. Other candidates (lower sum, Lower sums) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/m-test-continuity-integration-corollary",
+      "outcome": "corrected",
+      "source_sha256": "c78a7d4d16da34714649a93749444b7c9044402266cebbb19fa248281eec5d0b",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for uniform limit theorem for continuity → real-analysis/uniform-limit-theorem-for-continuity. Other candidates (Weierstrass M-test, uniform limit theorem for continuity) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/m-test-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95dc8875347b9b9f993f6603fa7972c698e4971d40f09a581214e58934917c0a",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/maximum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "428aa1f4845c24068b4b1a3636c1cb2181350fbce31476bc292e32cd84ba38fa",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/mean-value-estimate-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "946ae8d7c5ada27d8e5b490ec7348bf226661f815d7f400dbeacee9561e8af7d",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/mean-value-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2cbd725e17824c3244d6b986346b3a5acb70f50d321b963d4a64a6a2d0d05e7",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/mean-value-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2b9c2204f1270e1a7f5dbec25e556d698890cc5fe477e2c412bca54c65add348",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/mean-value-theorem-for-integrals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40799ce9d0e95e937ffb3e6e34fbc0587fba82dbcb4268f27827403305af7b28",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/mertens-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5c539955a09ed3f8448e2470ee7511d3eea49965dfbe1fb9b3858f6a757a4a58",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases Cauchy products against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/mertens-theorem-on-cauchy-products",
+      "outcome": "corrected",
+      "source_sha256": "f292114136c07c1d69e7418bf10bf70611c8fbd52eb7f4da2a62fb151d5817ef",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for power series → real-analysis/power-series. Other candidates (power series) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/mesh-of-a-partition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e580a3ebd18e5be14216c0982569f2e249907300e3eb638ff450fb58d7577831",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/minimum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3c2333081e324e46e20127b58a2691175b01f4cc77f9c8f6b17ac9995a2ae662",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/mixed-partial-derivative",
+      "outcome": "corrected",
+      "source_sha256": "7ba680099793630fd2db371c03db0b48b0ff3ce6ee732b8944449802e3e93361",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for partial derivative → real-analysis/partial-derivative. Other candidates (partial derivative, partial derivatives) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/modulus-on-c",
+      "outcome": "corrected",
+      "source_sha256": "a45a3f469841da89b8a4698b9d03f50c19343d8e5e4436e5f355221396d8f872",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for absolute value → real-analysis/absolute-value. Other candidates (absolute value) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/monotone-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b279af1595e49a45cfa4d25a3cad5faf689d88bb0702fd742d4eb6b003c36dfc",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/monotone-sequence",
+      "outcome": "corrected",
+      "source_sha256": "04781c2629c66ee7ab342d115c1082336f604d19334082408e65b8f223dcb87f",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for real numbers → shared-foundations/real-numbers. Other candidates (real numbers) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/monotone-sequence-convergence-theorem",
+      "outcome": "corrected",
+      "source_sha256": "b5228496abb21cc27e100735f0eb483a39e95ff5664950f577ab025e1c1e32e7",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for real numbers → shared-foundations/real-numbers. Other candidates (real numbers) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/monotone-sequence-of-functions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "74b3aeefbaf4d99b2034542a16ac1b17f6dce2a280c4f124997d0bf2eb578392",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases Monotone sequences; possible definition-gap phrases: increasing sequence against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/monotone-subsequence-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "88ebd642d1031b978f03dc48b5ebc2422a05c8fdcdd5aafa4ac3bf1badbdc3f2",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates; possible definition-gap phrases: real sequence against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/multi-index-notation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "623a52172fd15ecc119acd07bcc12c52e5ed4a1898742201ff0df54d55ef5fdc",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/multiple-riemann-integral",
+      "outcome": "corrected",
+      "source_sha256": "e225fea371b8fe3911f444ff4a7e0456f7cfe26378b16c4e1b5ee81a1ff98a9f",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for Riemann sum → real-analysis/riemann-sum. Other candidates (Riemann sum) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/neumann-series-lemma",
+      "outcome": "corrected",
+      "source_sha256": "d4d0148cf849a2d256c58172240c936f10d372e9dcd37b5e4d9fc5b4a1414de7",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for operator norm → linear-algebra/operator-norm. Other candidates (operator norm) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/newton-leibniz-formula",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4aaaf0d2bbdb0fd6c8f346951570a5bb36716ae07b8bc91444759de6737985b6",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/one-sided-limit",
+      "outcome": "corrected",
+      "source_sha256": "888075912d73687f3f44c99c6ef1e23d957e9f35e2ac7817ef852e75bc9abfa8",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for limit point → topology/limit-point. Other candidates (limit point) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/order-axioms",
+      "outcome": "corrected",
+      "source_sha256": "a1f8008dcb3d45934f7664bac7d832ffcc3ba35ad0c3810c37c4e5508f1df6f3",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for real numbers → shared-foundations/real-numbers. Other candidates (real numbers) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/oscillation",
+      "outcome": "corrected",
+      "source_sha256": "eb157f30c40e103a88ffddfeb42c14967cd6984e716a933942c60eb4793cd8e3",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for indicator function → measure-theory/indicator-function. Other candidates (indicator function) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/oscillation-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "49f09f45bbae1b95256c5f2b3c81c6d46f06cb8b5275117b183ba8afd83265ec",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/partial-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "639ebaf2df108d8ddcc17064fe5539cb328a10d9545cc8739f89fcdc2da0b1b9",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/partial-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e972736ebc4dc2a7b1530c43c824bc8df9afd2ed5adf3f28e953cfd123f6160b",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/partition-of-an-interval",
+      "outcome": "corrected",
+      "source_sha256": "7b033e2e08f80d1ddb2b1056bad91dbf390b3f3a85f1478ded8c060ba040c42f",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for real numbers → shared-foundations/real-numbers. Other candidates (real numbers) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/pointwise-bounded-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "077c2d7e30c9e44dafca384aeef9101b29e31863dfa9891f127feb39d06ab7e4",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/pointwise-convergence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "58e8119e500eb4515ffd92da193a360a49d0e71880075fe1497d52feba17e37d",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates; possible definition-gap phrases: real sequence against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "708c9b2157097b65f12fbe01edc6923d046200cf95a3a3ab69ba5ac9ef3dac8f",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/positive-derivative-implies-increasing",
+      "outcome": "corrected",
+      "source_sha256": "74616034604b535e8a8a8e117cfc59de928abc169484af8a2681314af9b1c892",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for interior point → differential-geometry/boundary-and-interior-of-a-manifold. Other candidates (interior point) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/power-series-analytic-on-disk",
+      "outcome": "corrected",
+      "source_sha256": "3536b8d7683b8a4c8d924eb76cef0f9b53474bacbd1a2acc6c273427376dd6cd",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for uniform convergence → real-analysis/uniform-convergence. Other candidates (uniform convergence) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/power-series-uniform-convergence-on-compacts",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "baea0c0d4eceba0afee58e54108b1b73ac21f2cf97f55a1e57b535025dd2ca35",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases Uniform convergence, power series against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/preimage-inverse-image",
+      "outcome": "corrected",
+      "source_sha256": "9b31e9198ad4c948ec3768e645485f9b769d0bcc6112fefff3d33582d164731a",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for measurable sets → measure-theory/measurable-set. Other candidates (open sets, measurable sets) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/ratio-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b099613b64a147df1671e5b7d832c38020dfabaa7a31b32f4ac9ea77e94c9d54",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/rearrangement-of-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "002395931cf1b63bb3bd9de6d35bac0e2c8a6ed01b785eac372e905f367566ac",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/rearrangement-theorem-absolute",
+      "outcome": "corrected",
+      "source_sha256": "20cf76e4c074348d0d0e517973a2fb611a30d8002130e49b59df97a7b0712a2b",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for complex numbers → shared-foundations/complex-numbers-c. Other candidates (complex numbers) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/refinement-lemma-upper-lower-sums",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99319e24d345a911750d10f7cbe95dafdbc1b640ffdb11b86de506f862df375f",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases upper sums, lower sums against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/refinement-of-a-partition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a644341f7f2cd1b5245807aef7bc2b2266d94780dc4a8350a4a82b2f3423cff9",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/regular-point",
+      "outcome": "corrected",
+      "source_sha256": "83d42e5b350b25af1fd1ad5d58bdf3b63e4e03da1a4059ea4192fbb9b2f7b4cc",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for differentiable map → real-analysis/differentiable-map. Other candidates (differentiable map) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/regular-point-critical-point-multivariable",
+      "outcome": "corrected",
+      "source_sha256": "3d95dbea33f50444d295d9df5e135d2c55579e43e37424720b4e6506330e2865",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for Regular points → real-analysis/regular-point, Critical points → real-analysis/critical-point, implicit function theorem → real-analysis/implicit-function-theorem. Other candidates (regular point, critical point, Regular points, Critical points, implicit function theorem) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/regular-value-critical-value-multivariable",
+      "outcome": "corrected",
+      "source_sha256": "8b722631faab47e97f4583ed060e1701f6c822a464bd74152f1ee99551251c76",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for regular value → fiber-bundles/regular-value, Critical values → real-analysis/critical-value, critical point → real-analysis/critical-point. Other candidates (regular value, critical value, Regular values, Critical values, critical point) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/remainder-term-in-taylors-theorem",
+      "outcome": "corrected",
+      "source_sha256": "fd659c2ffda4e96e15df94604467f598fe6a003f3e61805cab12dccaac08f3e9",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for Taylor polynomial → real-analysis/taylor-polynomial. Other candidates (Taylor polynomial) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/reverse-triangle-inequality",
+      "outcome": "corrected",
+      "source_sha256": "2433a0291c4aa025077415fa831d3bcadf77e266bbf2cee8f2b6aa335cb6d970",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for normed vector space → linear-algebra/normed-vector-space. Other candidates (normed vector space) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/riemann-additivity-over-subintervals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3be06eaed9771d40f1d6685d6df0405f213e943cb5558c5d3a06b6378a990fc5",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f5576f28a076ff965192cae93a0bea756cc54dd5e6002375a4237f50f15fb07",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-integrability-finite-discontinuities",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2482dc0384e086c76ce1284c800e99daaacb88cd04ba5e2afa3a94d62ef63eb8",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-integrability-implies-boundedness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dbda798e4913d6f74ad044ef0fcdd906942905195bf54f7d12401751940b06fc",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-integrability-monotone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b2fedd6e79f7ca5ba083bc8405f452651901dd9bd60499c8986090b4439051e1",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-integrable-function",
+      "outcome": "corrected",
+      "source_sha256": "618ff8dd7617042e06285c9b8177a8b08542c3f49554c9c1c28962e8bbe40113",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for indicator function → measure-theory/indicator-function. Other candidates (indicator function) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/riemann-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e39c76af5d70ad08d8c89c49e3bcc2045e5d83799dd7277980b6ff90ecf2a0db",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-integral-continuous-exists",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f5280ebdfe66b1c6d9cc9f87608f6cf7ad563607c5842e2434a80bdbf8592962",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-linearity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f4e02f5be2f79bbb4724803b7f86a4d453502d0ba19aa315a9e3fa80c583a9f",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-rearrangement-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "39b79b98af07b74f7be5d38c23a33b830e4e0ebe8be03b57813b7ed5535f5f1e",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-additivity-over-subintervals",
+      "outcome": "corrected",
+      "source_sha256": "81bd7859369738c181488d4668cf93abadaa3a30f4ec3800bb2a58ad82b78db2",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for tagged partitions → real-analysis/tagged-partition, lower sums → real-analysis/lower-sum. Other candidates (tagged partitions, lower sums) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-integrability-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5928cad670cee065a30cc2ec9ddcca74cbc3461cca0eef9d5aa26ecf042b3cdc",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-integral",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3cbc14f27bce828336dda7f3555b19512d2c6c0dfe6bf6ff5a4b3592de1a6ab8",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-stieltjes-linearity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7bdd5dfb773f1178d66338d5f708a476d0718c658c19e3768ab69be01399760",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/riemann-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9e8c96bcb096e5045085ca48ab6edb701f542cee6ba33b2ebf2ed98e927827d",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/right-derivative-left-derivative",
+      "outcome": "corrected",
+      "source_sha256": "f45f717cd7f50040ff1f12019685e76eeed36e9618479b9e0397eeec03cbd5cc",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for limit point → topology/limit-point, step function → real-analysis/step-function, difference quotient → real-analysis/difference-quotient. Other candidates (limit point, step function, difference quotient) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    },
+    {
+      "id": "real-analysis/rolles-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e8e2b21a4075fed8ff6ea1fb4f2a07bbfc9dd4800846f29de77fbfa31953758",
+      "evidence": "Read the complete source, including its core and expandable sections. Checked the candidate phrases no multiword scanner candidates against the actual prose, canonical target bodies, and existing links. The remaining matches are generic, already covered, or context-dependent in this source, so no body link or dependency edge was justified."
+    },
+    {
+      "id": "real-analysis/root-test",
+      "outcome": "corrected",
+      "source_sha256": "830144c254eb9aed9242283bbad3376fadbc89a935fee535351a368a343520e8",
+      "evidence": "Read the complete source, including its core and expandable sections. Added the first useful occurrences for limit superior → real-analysis/limit-superior. Other candidates (limit superior) were checked against surrounding prose and existing links; generic or context-dependent matches were left untouched."
+    }
+  ],
+  "gaps": [
+    {
+      "phrase": "real sequence",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/limit-superior",
+          "source_path": "content/real-analysis/limit-superior.knowl.md",
+          "source_sha256": "0ba8c3cdc939f74fa71c446bb987e0d683202bdb96cc55ba3fd40c89f2932d57",
+          "section": "core",
+          "line": 14,
+          "column": 27,
+          "surface": "real sequence",
+          "context": "ic = \"semantic-full-review-v1\"\ndependency_review_count = 1\n+++\n\nA **limit superior** of a real sequence \\((a_n)_{n\\ge 1}\\) is the extended real number\n\\[\n\\limsup_{n\\to\\infty} a_n \\;=\\; \\inf_{n\\ge 1}\\,\\sup_{k\\ge n} a_k,\n\\]\np",
+          "signal": "noun_phrase",
+          "candidate_id": "56154c297044c350e826396e"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/monotone-subsequence-lemma",
+          "source_path": "content/real-analysis/monotone-subsequence-lemma.knowl.md",
+          "source_sha256": "177610dd6ec3531fcea14aa6d35f1f2cf2ac1ec008650a43bea6cae058d0ecd2",
+          "section": "core",
+          "line": 14,
+          "column": 39,
+          "surface": "real sequence",
+          "context": "ic-full-review-v1\"\ndependency_review_count = 1\n+++\n\n**Monotone subsequence lemma:** Every real sequence \\((a_n)\\) has a [[real-analysis/subsequence|subsequence]] that is [[real-analysis/monotone-sequence|monotone]] (either ",
+          "signal": "noun_phrase",
+          "candidate_id": "dc87f11603e62b74cf36cfd9"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/pointwise-convergence",
+          "source_path": "content/real-analysis/pointwise-convergence.knowl.md",
+          "source_sha256": "c2dac8759cba36de6a19ae77132724a66c27f824363e85b901b881af83178adb",
+          "section": "core",
+          "line": 14,
+          "column": 132,
+          "surface": "real sequence",
+          "context": "f functions \\((f_n)\\) to a function \\(f\\) on a set \\(X\\) means: for every \\(x\\in X\\), the real sequence \\((f_n(x))\\) converges to \\(f(x)\\), i.e.\n\\[\n\\forall x\\in X,\\quad \\lim_{n\\to\\infty} f_n(x)=f(x).\n\\]\n\nThis is a basic mod",
+          "signal": "noun_phrase",
+          "candidate_id": "1035ae482b9128c3161952d6"
+        }
+      ],
+      "status": "resolved_existing_target",
+      "canonical_target": "shared-foundations/sequence",
+      "disposition": "The phrase denotes a sequence whose values are real numbers. The canonical Sequence knowl gives the required function from natural numbers; no real-sequence-specific definition is needed. Added links at the first occurrences in limit-superior, monotone-subsequence-lemma, and pointwise-convergence."
+    },
+    {
+      "phrase": "normed space",
+      "related_targets": [
+        "convex-analysis/algebra-of-limits-in-normed-spaces",
+        "convex-analysis/convergence-in-normed-spaces",
+        "convex-analysis/core-equals-interior-for-convex-sets-in-normed-spaces",
+        "convex-analysis/hahn-banach-theorem-in-normed-spaces",
+        "convex-analysis/uniqueness-of-limits-and-boundedness-in-normed-spaces",
+        "functional-analysis/bounded-linear-operator",
+        "linear-algebra/unit-sphere"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/modulus-on-c",
+          "source_path": "content/real-analysis/modulus-on-c.knowl.md",
+          "source_sha256": "56d0fb5156ae80b9fb775212bc9de42b0e52c57564c59a75088d7fdd50906ee6",
+          "section": "Remarks",
+          "line": 21,
+          "column": 41,
+          "surface": "normed space",
+          "context": "rt{a^2+b^2}=\\sqrt{z\\overline{z}}.\n\\]\n\n## Remarks\n\nThe modulus makes \\(\\mathbb{C}\\) into a normed space and induces the standard metric \\(d(z,w)=|z-w|\\). It is the complex analogue of absolute value and is crucial for conve",
+          "signal": "noun_phrase",
+          "candidate_id": "754681b0c749821999de7487"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/reverse-triangle-inequality",
+          "source_path": "content/real-analysis/reverse-triangle-inequality.knowl.md",
+          "source_sha256": "2760121c99db861fe6d2c4bdd7019fa5219862f5717926faed770dcf64384adc",
+          "section": "Examples",
+          "line": 30,
+          "column": 24,
+          "surface": "normed space",
+          "context": "hbb{R}\\), the inequality becomes \\(\\bigl||a|-|b|\\bigr|\\le |a-b|\\).\n- If \\(u_n\\to u\\) in a normed space, then \\(\\|u_n\\|\\to \\|u\\|\\) by the reverse [[real-analysis/triangle-inequality|triangle inequality]].\n",
+          "signal": "noun_phrase",
+          "candidate_id": "e72de0f2b45ede2c27fece65"
+        }
+      ],
+      "status": "resolved_existing_target",
+      "canonical_target": "linear-algebra/normed-vector-space",
+      "disposition": "The existing Normed vector space knowl is the right definition; the two occurrences describe normed spaces in exactly that sense. Added links in the modulus remarks and reverse-triangle-inequality example. No separate normed-space definition is needed."
+    },
+    {
+      "phrase": "usual topology",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/interval",
+          "source_path": "content/real-analysis/interval.knowl.md",
+          "source_sha256": "2e822127e76bb9a6019d059d520d7ed09f676c0555156ce79e8a85daec9d546e",
+          "section": "Remarks",
+          "line": 18,
+          "column": 133,
+          "surface": "usual topology",
+          "context": " of the ordered real line (using the [[real-analysis/order-axioms|order axioms]]). In the usual topology on \\(\\mathbb R\\) coming from the [[topology/metric|metric]] \\(d(x,y)=|x-y|\\), open intervals are fundamental examples o",
+          "signal": "noun_phrase",
+          "candidate_id": "c225d8aee3923c618bf79288"
+        }
+      ],
+      "status": "closed_contextual_phrase",
+      "canonical_target": "topology/topology",
+      "disposition": "This is a conventional modifier for the topology induced by the displayed absolute-value metric, and the sentence already links the metric. The phrase does not introduce a distinct dependency concept, so no new definition or link is warranted."
+    },
+    {
+      "phrase": "increasing sequence",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/monotone-sequence-of-functions",
+          "source_path": "content/real-analysis/monotone-sequence-of-functions.knowl.md",
+          "source_sha256": "5417b33c422f6b61a3f82b26e67c3b3902f0dfa51ae18e069833eaf8abfa8cb2",
+          "section": "core",
+          "line": 14,
+          "column": 78,
+          "surface": "increasing sequence",
+          "context": "unt = 1\n+++\n\nA sequence of real-valued functions \\((f_n)\\) on a set \\(X\\) is a **monotone increasing sequence of functions** if\n\\[\nf_n(x)\\le f_{n+1}(x)\\quad \\text{for all } x\\in X \\text{ and all } n,\n\\]\nand it is **monotone decre",
+          "signal": "noun_phrase",
+          "candidate_id": "d3d2fa8587d37eda67cac393"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/monotone-sequence-of-functions",
+          "source_path": "content/real-analysis/monotone-sequence-of-functions.knowl.md",
+          "source_sha256": "5417b33c422f6b61a3f82b26e67c3b3902f0dfa51ae18e069833eaf8abfa8cb2",
+          "section": "Examples",
+          "line": 26,
+          "column": 87,
+          "surface": "increasing sequence",
+          "context": "es\n\n- On any \\(X\\subseteq\\mathbb{R}\\), the functions \\(f_n(x)=x-\\frac1n\\) form a monotone increasing sequence (pointwise) with limit \\(f(x)=x\\).\n- On \\([0,1]\\), the functions \\(f_n(x)=x^n\\) form a monotone decreasing sequence (po",
+          "signal": "noun_phrase",
+          "candidate_id": "3181e627997fd07ca8432bac"
+        }
+      ],
+      "status": "resolved_existing_target",
+      "canonical_target": "real-analysis/monotone-sequence-of-functions",
+      "disposition": "In both occurrences the phrase is part of “monotone increasing sequence of functions,” which is the source knowl’s own subject; the core now links that self-description only conceptually through the knowl title and the example is explanatory repetition. No separate increasing-sequence definition is needed."
+    },
+    {
+      "phrase": "function theorem",
+      "related_targets": [
+        "algebra-rings/formal-inverse-function-theorem",
+        "differential-geometry/inverse-function-theorem-for-manifolds",
+        "real-analysis/implicit-function-theorem",
+        "real-analysis/inverse-function-theorem-1d",
+        "real-analysis/inverse-function-theorem-rk"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/inverse-function-theorem-1d",
+          "source_path": "content/real-analysis/inverse-function-theorem-1d.knowl.md",
+          "source_sha256": "c5ef06129b60ffdd87979f8e3831a9ba40d4c5b3df7ff53b40a70d2b81392d23",
+          "section": "core",
+          "line": 14,
+          "column": 11,
+          "surface": "function theorem",
+          "context": "pendency_heuristic = \"semantic-full-review-v1\"\ndependency_review_count = 1\n+++\n\n**Inverse function theorem (one dimension).** Let \\(I\\subseteq\\mathbb R\\) be an open interval and let \\(f:I\\to\\mathbb R\\) be continuously differen",
+          "signal": "noun_phrase",
+          "candidate_id": "1dbb1cec16417a9eb480f78c"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/inverse-function-theorem-rk",
+          "source_path": "content/real-analysis/inverse-function-theorem-rk.knowl.md",
+          "source_sha256": "4694cb068addda3a6306821c1a587cf0563cac99bb336f36bc0089cc292d74f0",
+          "section": "core",
+          "line": 14,
+          "column": 11,
+          "surface": "function theorem",
+          "context": "pendency_heuristic = \"semantic-full-review-v1\"\ndependency_review_count = 1\n+++\n\n**Inverse function theorem in \\(\\mathbb R^k\\):** Let \\(U\\subseteq\\mathbb R^k\\) be an [[topology/open-set|open set]] and let \\(f:U\\to\\mathbb R^k\\) ",
+          "signal": "noun_phrase",
+          "candidate_id": "69276981771644046dde7cf7"
+        }
+      ],
+      "status": "closed_contextual_phrase",
+      "canonical_target": "real-analysis/inverse-function-theorem-1d",
+      "disposition": "The occurrences are the headings and opening definitions of the two inverse-function-theorem knowls themselves. Linking a source to its own theorem, or choosing between the one-dimensional and R^k targets from the truncated phrase “function theorem,” would be misleading. Existing prerequisite metadata points to the inverse-function concept."
+    },
+    {
+      "phrase": "inverse function theorem",
+      "related_targets": [
+        "algebra-rings/formal-inverse-function-theorem",
+        "differential-geometry/inverse-function-theorem-for-manifolds",
+        "real-analysis/inverse-function-theorem-1d",
+        "real-analysis/inverse-function-theorem-rk",
+        "shared-foundations/inverse-function"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/inverse-function-theorem-1d",
+          "source_path": "content/real-analysis/inverse-function-theorem-1d.knowl.md",
+          "source_sha256": "c5ef06129b60ffdd87979f8e3831a9ba40d4c5b3df7ff53b40a70d2b81392d23",
+          "section": "core",
+          "line": 14,
+          "column": 3,
+          "surface": "Inverse function theorem",
+          "context": "ive\"]\ndependency_heuristic = \"semantic-full-review-v1\"\ndependency_review_count = 1\n+++\n\n**Inverse function theorem (one dimension).** Let \\(I\\subseteq\\mathbb R\\) be an open interval and let \\(f:I\\to\\mathbb R\\) be continuously differen",
+          "signal": "noun_phrase",
+          "candidate_id": "b06dde9625d8bb9d67e5d676"
+        },
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/inverse-function-theorem-rk",
+          "source_path": "content/real-analysis/inverse-function-theorem-rk.knowl.md",
+          "source_sha256": "4694cb068addda3a6306821c1a587cf0563cac99bb336f36bc0089cc292d74f0",
+          "section": "core",
+          "line": 14,
+          "column": 3,
+          "surface": "Inverse function theorem",
+          "context": "ism\"]\ndependency_heuristic = \"semantic-full-review-v1\"\ndependency_review_count = 1\n+++\n\n**Inverse function theorem in \\(\\mathbb R^k\\):** Let \\(U\\subseteq\\mathbb R^k\\) be an [[topology/open-set|open set]] and let \\(f:U\\to\\mathbb R^k\\) ",
+          "signal": "noun_phrase",
+          "candidate_id": "9b3515b920f00b516c752074"
+        }
+      ],
+      "status": "resolved_existing_target",
+      "canonical_target": "real-analysis/inverse-function-theorem-1d",
+      "disposition": "The two occurrences are each the source knowl’s own opening theorem statement (one-dimensional and R^k variants). They are not missing dependency links; the relevant theorem definitions are the current pages, and the one-dimensional page already links the inverse-function concept in its body."
+    },
+    {
+      "phrase": "integral form",
+      "related_targets": [
+        "complex-analysis/cauchy-integral-formula",
+        "harmonic-analysis/weil-integration-formula"
+      ],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/integration-by-parts",
+          "source_path": "content/real-analysis/integration-by-parts.knowl.md",
+          "source_sha256": "6853a467eceba5cd5fc0e53854d27b600bca1de080afe7729f1d941da084d6ea",
+          "section": "Remarks",
+          "line": 21,
+          "column": 13,
+          "surface": "integral form",
+          "context": "x)\\,v'(x)\\,dx = u(b)v(b)-u(a)v(a) - \\int_a^b u'(x)\\,v(x)\\,dx.\n\\]\n\n## Remarks\n\nThis is the integral form of the product rule: apply the [[real-analysis/fundamental-theorem-of-calculus-ii|fundamental theorem of calculus]] to ",
+          "signal": "noun_phrase",
+          "candidate_id": "272bcf0398960996613463ba"
+        }
+      ],
+      "status": "closed_contextual_phrase",
+      "canonical_target": "real-analysis/fundamental-theorem-of-calculus-ii",
+      "disposition": "Here “integral form of the product rule” describes the displayed identity, with the immediately following sentence already linking the Fundamental theorem of calculus. No standalone integral-form concept is being introduced."
+    },
+    {
+      "phrase": "integral representation",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/remainder-term-in-taylors-theorem",
+          "source_path": "content/real-analysis/remainder-term-in-taylors-theorem.knowl.md",
+          "source_sha256": "5e81236e16c6df753447bfe5ba0cea506c6369185529215d3552073554fab703",
+          "section": "core",
+          "line": 24,
+          "column": 92,
+          "surface": "integral representation",
+          "context": "aylor's theorem supplies additional hypotheses under which \\(R_k(x;a)\\) has a Lagrange or integral representation, and hence can be estimated.\n\n## Examples\n\n- If \\(f\\) is a polynomial of degree \\(\\le k\\), then \\(R_k(x;a)\\equiv 0\\) fo",
+          "signal": "noun_phrase",
+          "candidate_id": "ce8fbc436cd2cff350222d67"
+        }
+      ],
+      "status": "closed_contextual_phrase",
+      "canonical_target": null,
+      "disposition": "“Integral representation” is a broad method phrase in the Taylor remainder discussion, not a named object or dependency. The sentence already identifies the Lagrange alternative and gives enough context; creating a new knowl from this noun phrase would add noise."
+    },
+    {
+      "phrase": "standard metric",
+      "related_targets": [],
+      "occurrences": [
+        {
+          "kind": "possible_missing_definition",
+          "source_id": "real-analysis/modulus-on-c",
+          "source_path": "content/real-analysis/modulus-on-c.knowl.md",
+          "source_sha256": "56d0fb5156ae80b9fb775212bc9de42b0e52c57564c59a75088d7fdd50906ee6",
+          "section": "Remarks",
+          "line": 21,
+          "column": 70,
+          "surface": "standard metric",
+          "context": "z}}.\n\\]\n\n## Remarks\n\nThe modulus makes \\(\\mathbb{C}\\) into a normed space and induces the standard metric \\(d(z,w)=|z-w|\\). It is the complex analogue of absolute value and is crucial for convergence of complex sequences and ",
+          "signal": "noun_phrase",
+          "candidate_id": "d42496e1099ac2285a20f222"
+        }
+      ],
+      "status": "resolved_existing_target",
+      "canonical_target": "topology/metric",
+      "disposition": "The phrase names the usual metric d(z,w)=|z-w| induced by the modulus. Added a link on “metric” to the canonical Metric knowl; “standard” remains an unlinked qualifier."
+    }
+  ],
+  "notes": "Batch 31: real-analysis sources reviewed against complete source bodies and canonical target knowls. Multiword links were added only where the first occurrence was unambiguous; generic single-word matches remain audit candidates."
+}

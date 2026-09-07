@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Characteristic of an integral domain is 0 or prime**: If \(D\) is an integral domain, then \(\operatorname{char}(D)\) is either \(0\) or a prime number \(p\).
+**Characteristic of an [[algebra-rings/integral-domain|integral domain]] is 0 or prime**: If \(D\) is an integral domain, then \(\operatorname{char}(D)\) is either \(0\) or a prime number \(p\).
 
 ## Remarks
 

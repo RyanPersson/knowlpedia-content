@@ -16,7 +16,7 @@ Let \(G\) be a [[fiber-bundles/lie-group|Lie group]]. Its **commutator subgroup*
 [G,G]=\langle ghg^{-1}h^{-1}:g,h\in G\rangle.
 \]
 
-It is the smallest normal subgroup \(N\triangleleft G\) for which \(G/N\) is abelian; equivalently, \(G/[G,G]\) is the algebraic abelianization of \(G\).
+It is the smallest [[algebra-groups/normal-subgroup|normal subgroup]] \(N\triangleleft G\) for which \(G/N\) is abelian; equivalently, \(G/[G,G]\) is the algebraic abelianization of \(G\).
 
 ## Remarks
 

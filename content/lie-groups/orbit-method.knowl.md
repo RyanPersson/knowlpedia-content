@@ -28,7 +28,7 @@ Each orbit carries the [[differential-geometry/kirillov-kostant-souriau-form|Kir
 
 ## Examples and limitations
 
-For an [[lie-groups/abelian-lie-group|abelian Lie group]], every coadjoint orbit is a point and the method reduces to the classification by unitary characters. For the [[lie-groups/heisenberg-group|Heisenberg group]], nonzero central values give the familiar infinite-dimensional Schrödinger representations. For compact or noncompact semisimple groups, however, raw coadjoint orbits do not stand in a simple bijection with the [[harmonic-analysis/unitary-dual|unitary dual]]: integrality, admissible orbit data, coverings, and choices of quantization intervene. Kirillov’s survey explicitly separates the nilpotent success from these later obstacles.
+For an [[lie-groups/abelian-lie-group|abelian Lie group]], every coadjoint orbit is a point and the method reduces to the classification by unitary characters. For the [[lie-groups/heisenberg-group|Heisenberg group]], nonzero central values give the familiar infinite-dimensional [[shale-paper/schrodinger-representation|Schrödinger representations]]. For compact or noncompact semisimple groups, however, raw coadjoint orbits do not stand in a simple bijection with the [[harmonic-analysis/unitary-dual|unitary dual]]: integrality, admissible orbit data, coverings, and choices of quantization intervene. Kirillov’s survey explicitly separates the nilpotent success from these later obstacles.
 
 ## Conventions and scope
 

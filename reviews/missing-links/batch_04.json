@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-groups/subnormal-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "32e34509214eda7a6522d8f72db4884ca1845f1b4fb2a49518c14d0de7dff9da",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates group (Examples; candidate algebra-groups/group). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/sylow-congruence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2874e6390f9f50c0e5924908ea1629c45038c80e40d3d97db192456b8a78155",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates orbit (Remarks; candidate algebra-groups/orbit), decomposition (Remarks; candidate algebra-groups/decomposition). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/sylow-conjugacy-lemma",
+      "outcome": "corrected",
+      "source_sha256": "74930e4aac6dfc5e6deb0ce3a6ae07aada8f534a889cca1d260efe34fdc9d5e4",
+      "evidence": "Read complete source and relevant target definitions. Added justified links in the core or first useful occurrence: subgroup (core; candidate algebra-groups/subgroup); retained generic/repeated matches without links."
+    },
+    {
+      "id": "algebra-groups/sylow-normal-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b42f7a8016eec2a1f350804fb2691543dcd245fe20cb4af6202cd61bf301aa7f",
+      "evidence": "Read complete source including all optional sections and checked its prerequisite target definitions separately. No actionable missing body link or unresolved prerequisite was found; terminology is locally defined or links already occur at the useful occurrence."
+    },
+    {
+      "id": "algebra-groups/sylow-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eeb49d7b95a5c751c5fe4f1c2f10a924eff775437827b3d5a98f4babb197693e",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates divides (Remarks; candidate shared-foundations/divisibility), subgroups (Remarks; candidate algebra-groups/subgroup). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/sylows-first-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15c6a9e9a7f554138eac8a58a6fb22b6a5a5ec73b5647b495201684896a806da",
+      "evidence": "Read complete source including all optional sections and checked its prerequisite target definitions separately. No actionable missing body link or unresolved prerequisite was found; terminology is locally defined or links already occur at the useful occurrence."
+    },
+    {
+      "id": "algebra-groups/sylows-second-theorem",
+      "outcome": "corrected",
+      "source_sha256": "37e6e27298cc0e2479db310ecc4ce669ef1fbc053c530c18167e8c98a2337f2c",
+      "evidence": "Read complete source and relevant target definitions. Added justified links in the core or first useful occurrence: orbit (core; candidate algebra-groups/orbit), cosets (Remarks; candidate algebra-groups/coset); retained generic/repeated matches without links."
+    },
+    {
+      "id": "algebra-groups/sylows-third-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dfb2deaea61e7abd77383cf474006afbbf03b23dfb694414505016449d1c7f60",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (Remarks; candidate shared-foundations/set). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/third-isomorphism-theorem-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5599c84529e4795b78ebb392217703ae6c5895bf6cbafc22a5c4a3867649da51",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates isomorphism (core; candidate algebra-category-theory/isomorphism-category). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/torsion-free-group",
+      "outcome": "corrected",
+      "source_sha256": "9af927a414ce1d7d7cf5da62ece01e061420ffde1126e258b519522cbe4547f8",
+      "evidence": "Read complete source and relevant target definitions. Added justified links in the core or first useful occurrence: subgroups (core; candidate algebra-groups/subgroup); retained generic/repeated matches without links."
+    },
+    {
+      "id": "algebra-groups/transitive-action",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "57f4f7caeea7a3408e1e36bdb7e5a2c06fd7b586ac4119ef15bc579a6409b6c1",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates group (core; candidate algebra-groups/group), set (core; candidate shared-foundations/set), subgroup (Examples; candidate algebra-groups/subgroup), conjugation action (Examples; candidate algebra-groups/conjugation-action), group (Examples; candidate algebra-groups/group), conjugacy classes (Examples; candidate algebra-groups/conjugacy-class), coset (Remarks; candidate algebra-groups/coset). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/trivial-subgroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80606dc88524fa96327bb415a2925133827a9cd3cd8c5481d61f5f2dd305fff2",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates group (Examples; candidate algebra-groups/group), subgroup (Remarks; candidate algebra-groups/subgroup). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/uniqueness-of-identity-group",
+      "outcome": "corrected",
+      "source_sha256": "478425de05a0c8e12a9c9d973756f2d8c29e41c179ee82a55c1cbef8023a29ba",
+      "evidence": "Read complete source and relevant target definitions. Added justified links in the core or first useful occurrence: binary operation (core; candidate shared-foundations/binary-operation); retained generic/repeated matches without links."
+    },
+    {
+      "id": "algebra-groups/uniqueness-of-inverses-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0aaa6b3f688783432cc244a403985b36b3f057a8bd9074bc9a8dc7074f9f9d7f",
+      "evidence": "Read complete source including all optional sections and checked its prerequisite target definitions separately. No actionable missing body link or unresolved prerequisite was found; terminology is locally defined or links already occur at the useful occurrence."
+    },
+    {
+      "id": "algebra-groups/unital-magma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f73a611b6842d0b142b770537f2e4387a30c98fb776ad0fcfc8c8c14175341b5",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates monoid (Examples; candidate algebra-groups/monoid), loop (Examples; candidate algebra-groups/loop), group (Examples; candidate algebra-groups/group). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-groups/upper-central-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c300df8f9649de6293a2c9f1a752dc46faf7778b28b39a8a15fd29809b47e136",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates sequence (core; candidate shared-foundations/sequence), subgroups (core; candidate algebra-groups/subgroup), preimage (core; candidate shared-foundations/preimage), group (Remarks; candidate algebra-groups/group). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/chain-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a61ae02d50f67acfc7893864cec1535ca79ff15925f1a4f7904e00f7eb6eb8bf",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), Morphisms (Remarks; candidate algebra-category-theory/morphism), images (Remarks; candidate shared-foundations/image), commutative ring (Examples; candidate algebra-rings/commutative-ring), domain (Examples; candidate shared-foundations/domain). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/chain-homotopy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ce58372e0fa4d260a0ed233778158822eda24005368a4ce0f483886a395edf8b",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates equivalence relation (Remarks; candidate shared-foundations/equivalence-relation), categories (Remarks; candidate algebra-category-theory/category), chain complex (Examples; candidate algebra-homological/chain-complex), short exact sequence (Examples; candidate algebra-modules/short-exact-sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/chain-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d53ef806634fa41e591eb3c33b9ace23404aca0a41d191bcbd46e0a94d6f41c",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates morphisms (Remarks; candidate algebra-category-theory/morphism), category (Remarks; candidate algebra-category-theory/category), module homomorphism (Examples; candidate algebra-modules/module-homomorphism), modules (Examples; candidate algebra-modules/module), endomorphism (Examples; candidate algebra-category-theory/endomorphism-category). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/cochain-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "110a3c33e8f46077c5fdac9c350ebd9a433d5ea37a0932b814a7a0d057e31c8c",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), set (Examples; candidate shared-foundations/set), commutative ring (Examples; candidate algebra-rings/commutative-ring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/cohomology-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "255317de08fc0970e9f4238d7f406d255f906ef06751e0e14be4feb09f7e322a",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates sequence (core; candidate shared-foundations/sequence), cochain complex (Example 2: \\(\\mathrm{Ext}\\) as cohomology (concrete computation); candidate algebra-homological/cochain-complex), field (Example 3: Vanishing over a field; candidate algebra-rings/field), cochain complex (Example 3: Vanishing over a field; candidate algebra-homological/cochain-complex). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/connecting-homomorphism-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "70d4f46cc52b2b7aa9e42e44d8edcae0fad747753cca7477167dfd9683b358fc",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates short exact sequence (core; candidate algebra-modules/short-exact-sequence), sequence (core; candidate shared-foundations/sequence), morphisms (core; candidate algebra-category-theory/morphism), short exact sequences (core; candidate algebra-modules/short-exact-sequence), sequences (Construction of the connecting map; candidate shared-foundations/sequence), sequence (Example 1 (Tor: identifying the connecting map with a kernel); candidate shared-foundations/sequence), short exact sequence (Example 2 (Ext: boundary map from a short exact sequence in the second variable); candidate algebra-modules/short-exact-sequence), left exact functor (Example 2 (Ext: boundary map from a short exact sequence in the second variable); candidate algebra-category-theory/left-exact-functor), pullback (Example 2 (Ext: boundary map from a short exact sequence in the second variable); candidate algebra-category-theory/pullback), chain map (Example 3 (homology of a mapping cone short exact sequence); candidate algebra-homological/chain-map). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/derived-functor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16a0eff427aaa48c2255f31cedcd047dd0503dff01ea922f5eaecf5a43abd273",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates functor (core; candidate algebra-category-theory/functor), objects (core; candidate algebra-category-theory/object), cochain complex (Right derived functors (from injective resolutions); candidate algebra-homological/cochain-complex), isomorphism (Right derived functors (from injective resolutions); candidate algebra-category-theory/isomorphism-category), short exact sequence (Right derived functors (from injective resolutions); candidate algebra-modules/short-exact-sequence), chain complex (Left derived functors (from projective resolutions); candidate algebra-homological/chain-complex), isomorphism (Left derived functors (from projective resolutions); candidate algebra-category-theory/isomorphism-category), Short exact sequences (Left derived functors (from projective resolutions); candidate algebra-modules/short-exact-sequence), sequences (Left derived functors (from projective resolutions); candidate shared-foundations/sequence), functor (Fundamental examples: Ext and Tor; candidate algebra-category-theory/functor). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/exact-complex",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "93b04ba94c9d8f45c608f6472f690a512c9e25f9a8c70eb71381371b02789013",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates sequence (core; candidate shared-foundations/sequence), images (core; candidate shared-foundations/image), sequences (Remarks; candidate shared-foundations/sequence), short exact sequence (Examples; candidate algebra-modules/short-exact-sequence), sequence (Examples; candidate shared-foundations/sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/ext",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d33b31ae9d4122a2b1d660bca00a8f78c6b2ee4fee76db69cf0ddd5d4b77e9c0",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates group (core; candidate algebra-groups/group), derived functor (core; candidate algebra-homological/derived-functor), projective resolution (Computation by a projective resolution; candidate algebra-homological/projective-resolution), isomorphism (Computation from a projective resolution; candidate algebra-category-theory/isomorphism-category), set (Equivalent definition (via an injective resolution); candidate shared-foundations/set), equivalence relation (Conceptual meaning; candidate shared-foundations/equivalence-relation), groups (Conceptual meaning; candidate algebra-groups/group), field (Example 1: Vector spaces over a field; candidate algebra-rings/field), projective resolution (Example 1: Vector spaces over a field; candidate algebra-homological/projective-resolution), projective resolution (Example 2: \\(\\operatorname{Ext}^1_{\\mathbb Z}(\\mathbb Z/n,A)\\cong A/nA\\); candidate algebra-homological/projective-resolution). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/ext-tor-derived-functors",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2f4013b97fcfcc646ffc1f41788998b59863b36a7e4fabd79ba52234fff09993",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates commutative ring (core; candidate algebra-rings/commutative-ring), functors (core; candidate algebra-category-theory/functor), derived functors (core; candidate algebra-homological/derived-functor), cochain complex (Ext via resolutions; candidate algebra-homological/cochain-complex), set (Ext via resolutions; candidate shared-foundations/set), isomorphism (Ext via resolutions; candidate algebra-category-theory/isomorphism-category), chain complex (Tor via resolutions; candidate algebra-homological/chain-complex), Short exact sequences (Functorial consequences; candidate algebra-modules/short-exact-sequence), sequences (Functorial consequences; candidate shared-foundations/sequence), derived functors (Functorial consequences; candidate algebra-homological/derived-functor). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/ext1-classifies-extensions",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2649dd2ee31db5a1444b3338b0040bb2da6906f9fcf1bc9c103080a5ff096e45",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), isomorphism (core; candidate algebra-category-theory/isomorphism-category), set (core; candidate shared-foundations/set), equivalence classes (core; candidate shared-foundations/equivalence-class), group (core; candidate algebra-groups/group), abelian group (Remarks; candidate algebra-groups/abelian-group), pullback (Remarks; candidate algebra-category-theory/pullback), pushout (Remarks; candidate algebra-category-theory/pushout), category (Remarks; candidate algebra-category-theory/category), modules (Remarks; candidate algebra-modules/module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/five-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c61a67f2880a44932aa9d6666349505902ba08a0a48ccd0b8717fd375f0b2d3",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates epimorphism (core; candidate algebra-category-theory/epimorphism-category), isomorphisms (core; candidate algebra-category-theory/isomorphism-category), monomorphism (core; candidate algebra-category-theory/monomorphism-category), isomorphism (core; candidate algebra-category-theory/isomorphism-category), modules (Remarks; candidate algebra-modules/module), epimorphism (Remarks; candidate algebra-category-theory/epimorphism-category), monomorphism (Remarks; candidate algebra-category-theory/monomorphism-category), short exact sequence (Remarks; candidate algebra-modules/short-exact-sequence), short exact sequence (Examples; candidate algebra-modules/short-exact-sequence), short exact sequences (Examples; candidate algebra-modules/short-exact-sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/five-lemma-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4ec28dfff9fb75bae37654806637350870da44e5183b7b25d1647f6cbe92f48",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates abelian category (core; candidate algebra-category-theory/abelian-category), isomorphisms (core; candidate algebra-category-theory/isomorphism-category), isomorphism (core; candidate algebra-category-theory/isomorphism-category), sequences (Relation to the five lemma; candidate shared-foundations/sequence), short exact sequences (Example 1: Multiplication-by-2 identifies \\(\\mathbb Z \\cong 2\\mathbb Z\\); candidate algebra-modules/short-exact-sequence), abelian groups (Example 1: Multiplication-by-2 identifies \\(\\mathbb Z \\cong 2\\mathbb Z\\); candidate algebra-groups/abelian-group), morphism (Example 1: Multiplication-by-2 identifies \\(\\mathbb Z \\cong 2\\mathbb Z\\); candidate algebra-category-theory/morphism), isomorphism (Example 1: Multiplication-by-2 identifies \\(\\mathbb Z \\cong 2\\mathbb Z\\); candidate algebra-category-theory/isomorphism-category), isomorphisms (Example 1: Multiplication-by-2 identifies \\(\\mathbb Z \\cong 2\\mathbb Z\\); candidate algebra-category-theory/isomorphism-category), five lemma (Example 1: Multiplication-by-2 identifies \\(\\mathbb Z \\cong 2\\mathbb Z\\); candidate algebra-homological/five-lemma). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/four-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d77e0c4c94ec423a5723d1276c1cf5a389b76746b387a2f94ef93e6847ce0afd",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates modules (Remarks; candidate algebra-modules/module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/hom-left-exact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40540c30743250f44a5b58664b894951e19caba06a9576d56b32783b72f8ad08",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates functor (core; candidate algebra-category-theory/functor), sequence (Statement (covariant in the second variable); candidate shared-foundations/sequence), monomorphisms (Statement (covariant in the second variable); candidate algebra-category-theory/monomorphism-category), cokernels (Statement (covariant in the second variable); candidate algebra-modules/cokernel-module), epimorphisms (Statement (covariant in the second variable); candidate algebra-category-theory/epimorphism-category), sequence (Statement (contravariant in the first variable); candidate shared-foundations/sequence), short exact sequence (Example 1: Hom need not be right exact (over \\(\\mathbb Z\\)); candidate algebra-modules/short-exact-sequence), cokernel (Example 1: Hom need not be right exact (over \\(\\mathbb Z\\)); candidate algebra-modules/cokernel-module), rank (Example 2: If \\(M\\) is free, then Hom is exact; candidate linear-algebra/rank), functor (Example 2: If \\(M\\) is free, then Hom is exact; candidate algebra-category-theory/functor). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/hom-tensor-exactness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "953e8c22eff89f2492299ef777f8b4f36ea6db4f6cbbbb1301197d6db487284f",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates commutative ring (core; candidate algebra-rings/commutative-ring), functors (core; candidate algebra-category-theory/functor), functor (core; candidate algebra-category-theory/functor), functor (Hom is left exact; candidate algebra-category-theory/functor), short exact sequence (Hom is left exact; candidate algebra-modules/short-exact-sequence), sequence (Hom is left exact; candidate shared-foundations/sequence), Projectivity (Hom is left exact; candidate algebraic-geometry-foundations/projective-transformation), functor (Tensor is right exact; candidate algebra-category-theory/functor), functor (Contravariant Hom is left exact (in the contravariant sense); candidate algebra-category-theory/functor), short exact sequences (Contravariant Hom is left exact (in the contravariant sense); candidate algebra-modules/short-exact-sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/homology-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f1dd0b1d8fbdab87cba3c570452ed08fcea0921b8daee5422cfcea5b1f4755d",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates boundaries (core; candidate topology/boundary), submodules (core; candidate algebra-modules/submodule), chain complex (Example 1: Two-term complex over \\(\\mathbb Z\\); candidate algebra-homological/chain-complex), chain complex (Example 2: Detecting exactness; candidate algebra-homological/chain-complex), sequence (Example 2: Detecting exactness; candidate shared-foundations/sequence), chain complex (Example 3: \\(\\mathrm{Tor}\\) as homology (concrete computation); candidate algebra-homological/chain-complex). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/horseshoe-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f420a294df00c85a4d3ed12a8baa257f666f75d4a957e6065555264a7c35788",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), projective resolutions (core; candidate algebra-homological/projective-resolution), projective resolution (core; candidate algebra-homological/projective-resolution), chain complexes (core; candidate algebra-homological/chain-complex), short exact sequence (Projective construction; candidate algebra-modules/short-exact-sequence), short exact sequence (Injective version; candidate algebra-modules/short-exact-sequence), cochain complexes (Injective version; candidate algebra-homological/cochain-complex), sequences (Why it matters; candidate shared-foundations/sequence), sequence (Example; candidate shared-foundations/sequence), projective resolutions (Example; candidate algebra-homological/projective-resolution). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/injective-resolution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2d276dd1086992e5a040fcdf27b04952404de04dbd11316129364675c4e76eca",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates sequence (core; candidate shared-foundations/sequence), categories (core; candidate algebra-category-theory/category), functor (What resolutions are for; candidate algebra-category-theory/functor), cochain complex (What resolutions are for; candidate algebra-homological/cochain-complex), field (Example 1: Over a field, injective resolutions are trivial; candidate algebra-rings/field), category (Example 2: An injective resolution of \\(\\mathbb Z\\); candidate algebra-category-theory/category), abelian groups (Example 2: An injective resolution of \\(\\mathbb Z\\); candidate algebra-groups/abelian-group), groups (Example 2: An injective resolution of \\(\\mathbb Z\\); candidate algebra-groups/group), sequence (Example 2: An injective resolution of \\(\\mathbb Z\\); candidate shared-foundations/sequence), subgroup (Example 3: An injective resolution of \\(\\mathbb Z/n\\mathbb Z\\) and \\(\\mathrm{Ext}^1\\) between cyclic groups; candidate algebra-groups/subgroup). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/injective-resolutions-exist",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ae6bcd7f4998242fe59bb61fd3618bb5a1e66bf9e0f93d505c5ae5a94f6c27b1",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), category (Equivalent characterizations; candidate algebra-category-theory/category), module (Equivalent characterizations; candidate algebra-modules/module), injective module (Equivalent characterizations; candidate algebra-modules/injective-module), injective modules (Remarks; candidate algebra-modules/injective-module), character (Remarks; candidate algebra-representation-theory/character), modules (Remarks; candidate algebra-modules/module), monomorphism (Construction (iterating embeddings); candidate algebra-category-theory/monomorphism-category), short exact sequences (Construction (iterating embeddings); candidate algebra-modules/short-exact-sequence), cochain complex (Construction (iterating embeddings); candidate algebra-homological/cochain-complex). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/long-exact-sequence-derived",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95e025c6beeb43bb1ca131217a4ed651b3e2e6e071d7a174932d22a400c3e743",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates short exact sequences (core; candidate algebra-modules/short-exact-sequence), sequences (core; candidate shared-foundations/sequence), boundary (core; candidate topology/boundary), functor (Theorem (left derived functors); candidate algebra-category-theory/functor), derived functors (Theorem (left derived functors); candidate algebra-homological/derived-functor), morphisms (Theorem (left derived functors); candidate algebra-category-theory/morphism), sequence (Theorem (left derived functors); candidate shared-foundations/sequence), derived functors (Theorem (right derived functors); candidate algebra-homological/derived-functor), short exact sequence (Theorem (right derived functors); candidate algebra-modules/short-exact-sequence), sequence (Theorem (right derived functors); candidate shared-foundations/sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/long-exact-sequence-ext",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "08671ff6638bc4c9df4e0bed36b5b153ce7c81e20e80df4b015b10801225d45c",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), sequence (core; candidate shared-foundations/sequence), short exact sequence (Sequence in the second variable; candidate algebra-modules/short-exact-sequence), sequence (Sequence in the second variable; candidate shared-foundations/sequence), sequence (Examples; candidate shared-foundations/sequence), projective resolution (Examples; candidate algebra-homological/projective-resolution), sequences (Remarks; candidate shared-foundations/sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/long-exact-sequence-tor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a92c8a8d0ee206f1f089057c806833d07a7c2bb46ed610bddb1e07f740db303c",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), sequence (core; candidate shared-foundations/sequence), short exact sequence (Examples; candidate algebra-modules/short-exact-sequence), sequence (Examples; candidate shared-foundations/sequence), projective resolution (Examples; candidate algebra-homological/projective-resolution), field (Examples; candidate algebra-rings/field), Tor (Examples; candidate algebra-homological/tor). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/mapping-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e586c4291b3dcb361cbb26963d53798de8d0905ef43a33c9609509f23828fa80",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates object (core; candidate algebra-category-theory/object), cochain complexes (core; candidate algebra-homological/cochain-complex), triangle (core; candidate algebra-category-theory/triangle), triangles (core; candidate algebra-category-theory/triangle), triangulated categories (core; candidate algebra-category-theory/triangulated-category). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/nine-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a28cf10750439b1a4af357631592aa42637296f7c8260123cec007a98331818d",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates cokernel (Remarks; candidate algebra-modules/cokernel-module), abelian category (Remarks; candidate algebra-category-theory/abelian-category). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/projective-resolution",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a209ce261459145322b3828a199472bedcd55a7ae43a34740429763773a1f22a",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates sequence (core; candidate shared-foundations/sequence), chain complex (Equivalent characterizations; candidate algebra-homological/chain-complex), module (Remarks; candidate algebra-modules/module), categories (Remarks; candidate algebra-category-theory/category), derived functors (Applications; candidate algebra-homological/derived-functor), sequence (Example 1: A projective resolution of \\(\\mathbb Z/n\\mathbb Z\\); candidate shared-foundations/sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/projective-resolutions-exist",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "13d7698ef65775997e019861059f4e3f302abd139d5b012d2376a7e633609e2e",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), free module (Construction (standard free resolution); candidate algebra-modules/free-module), set (Construction (standard free resolution); candidate shared-foundations/set), short exact sequences (Construction (standard free resolution); candidate algebra-modules/short-exact-sequence), exact complex (Construction (standard free resolution); candidate algebra-homological/exact-complex), projective resolution (Example 1: A length-1 resolution of \\(\\mathbb Z/n\\mathbb Z\\) over \\(\\mathbb Z\\); candidate algebra-homological/projective-resolution), ring (Example 2: The principal-ideal case \\(R/(f)\\); candidate algebra-rings/ring), sequence (Example 2: The principal-ideal case \\(R/(f)\\); candidate shared-foundations/sequence), zero-divisor (Example 2: The principal-ideal case \\(R/(f)\\); candidate algebra-rings/zero-divisor). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/snake-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8059aa5e454e6be3de4cf97f39dcd25b106fb471cf8c984b170476dd3b4a5d7",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates category (core; candidate algebra-category-theory/category), boundary (Theorem (Snake lemma); candidate topology/boundary), sequence (Theorem (Snake lemma); candidate shared-foundations/sequence), sequences (Theorem (Snake lemma); candidate shared-foundations/sequence), cokernel (Examples; candidate algebra-modules/cokernel-module), sequence (Examples; candidate shared-foundations/sequence), measures (Examples; candidate measure-theory/measure), cokernels (Examples; candidate algebra-modules/cokernel-module), Boundary (Examples; candidate topology/boundary), short exact sequence (Examples; candidate algebra-modules/short-exact-sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/snake-lemma-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1df59d9a2b8d3b922cf13ceb3707437df9e5f17dca625925febdba5ba1a84282",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates short exact sequence (core; candidate algebra-modules/short-exact-sequence), sequence (core; candidate shared-foundations/sequence), morphisms (core; candidate algebra-category-theory/morphism), short exact sequences (core; candidate algebra-modules/short-exact-sequence), sequence (Example 1: Complexes concentrated in degree \\(0\\); candidate shared-foundations/sequence), short exact sequence (Example 1: Complexes concentrated in degree \\(0\\); candidate algebra-modules/short-exact-sequence), modules (Example 1: Complexes concentrated in degree \\(0\\); candidate algebra-modules/module), sequence (Example 2: A nontrivial connecting map \\(\\delta_1\\) detecting reduction mod \\(n\\); candidate shared-foundations/sequence), image (Example 2: A nontrivial connecting map \\(\\delta_1\\) detecting reduction mod \\(n\\); candidate shared-foundations/image), short exact sequence (Example 3: Split short exact sequences give \\(\\delta_n=0\\); candidate algebra-modules/short-exact-sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/tensor-right-exact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "83cf850c5dbac540caddd3f63666eb3c59b607b1a68756458e9c67b0869edf94",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates sequence (core; candidate shared-foundations/sequence), tensor-product (core; candidate algebra-modules/tensor-product), functor (core; candidate algebra-category-theory/functor), colimits (Equivalent characterizations; candidate algebra-category-theory/colimit), cokernels (Equivalent characterizations; candidate algebra-modules/cokernel-module), epimorphisms (Equivalent characterizations; candidate algebra-category-theory/epimorphism-category), functor (Equivalent characterizations; candidate algebra-category-theory/functor), sequence (Failure of left exactness and Tor; candidate shared-foundations/sequence), cokernel (Example 1: Tensor is not left exact over \\(\\mathbb Z\\); candidate algebra-modules/cokernel-module), module (Example 2: Tensor with a flat module is exact; candidate algebra-modules/module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-homological/tor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c0bb18ef573aa34ec2bec82005ba991a12ccbcb893758224b1719393aad55208",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates abelian group (core; candidate algebra-groups/abelian-group), isomorphism (core; candidate algebra-category-theory/isomorphism-category), derived functors (Properties; candidate algebra-homological/derived-functor), measure (Properties; candidate measure-theory/measure), module (Properties; candidate algebra-modules/module), field (Example 1: Vector spaces over a field; candidate algebra-rings/field), projective resolution (Example 2: \\(\\mathrm{Tor}^{\\mathbb Z}_1(\\mathbb Z/n, A)\\cong A[n]\\); candidate algebra-homological/projective-resolution), subgroup (Example 3: \\(\\mathrm{Tor}^{\\mathbb Z}_1(\\mathbb Z/n,\\mathbb Z/m)\\cong \\mathbb Z/\\gcd(n,m)\\); candidate algebra-groups/subgroup), Ext (Example 3: \\(\\mathrm{Tor}^{\\mathbb Z}_1(\\mathbb Z/n,\\mathbb Z/m)\\cong \\mathbb Z/\\gcd(n,m)\\); candidate algebra-homological/ext), cyclic modules (Example 3: \\(\\mathrm{Tor}^{\\mathbb Z}_1(\\mathbb Z/n,\\mathbb Z/m)\\cong \\mathbb Z/\\gcd(n,m)\\); candidate algebra-modules/cyclic-module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/band",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3434e2a66e98aadf02ed9db9d59aa65dd6e4fb1daac6a643001ea6754f582b7a",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates semiring (core; candidate algebra-rings/semiring), monoid (core; candidate algebra-groups/monoid), ideal (core; candidate algebra-rings/ideal), morphism (core; candidate algebra-category-theory/morphism), Rings (Scope; candidate algebra-rings/ring), hyperrings (Scope; candidate algebra-hyperstructures/hyperring), partial\nfields (Scope; candidate algebra-hyperstructures/partial-field). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/canonical-hypergroup",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "31bb8dcfb64239dbcda5f68a5b02b63b8e5d13012c4f0cd1760e01a4f6997f91",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (core; candidate shared-foundations/set), hyperoperation (Reversibility as subtraction; candidate algebra-hyperstructures/hyperoperation), abelian group (Ordinary groups; candidate algebra-groups/abelian-group), objects (Terminology warning; candidate algebra-category-theory/object), probability\nmeasures (Terminology warning; candidate probability/probability-measure), hyperring (Terminology warning; candidate algebra-hyperstructures/hyperring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/classification-of-stringent-hyperfields",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "20bac97eebe7675b1fde8fd614300dfeb3f51da809544b22c13a15f4f024e981",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates residue (core; candidate complex-analysis/residue), hyperfield (core; candidate algebra-hyperstructures/hyperfield), sequence (core; candidate shared-foundations/sequence). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/doubly-distributive-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d464cc2451f4e14c5a6a33ba54ae7c15f3c7efb4005e7938036be0982a68f381",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates subsets (core; candidate shared-foundations/subset). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/doubly-distributive-hyperfields-are-stringent",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2f5f391b78e1353e0a7d8a0b368662b9dd4193fd521acd0c1627c77cb37df3f",
+      "evidence": "Read complete source including all optional sections and checked its prerequisite target definitions separately. No actionable missing body link or unresolved prerequisite was found; terminology is locally defined or links already occur at the useful occurrence."
+    },
+    {
+      "id": "algebra-hyperstructures/fields-semifields-and-hyperfields",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db98cb32de5512d7dd93e6487cda21a1bd33e030dd550ae41e1048d512be8b68",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates image (core; candidate shared-foundations/image), commutative monoid (core; candidate algebra-groups/commutative-monoid), fields (Full faithfulness; candidate algebra-rings/field), field (Full faithfulness; candidate algebra-rings/field), hyperfield (Full faithfulness; candidate algebra-hyperstructures/hyperfield), hyperfields (Full faithfulness; candidate algebra-hyperstructures/hyperfield), category (Scope; candidate algebra-category-theory/category), fields (Scope; candidate algebra-rings/field), semifields (Scope; candidate algebra-rings/semifield), hyperfields (Scope; candidate algebra-hyperstructures/hyperfield). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/fusion-band",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9d11db87e385e5ef8ab79cb797bcacbbff5802ed4d0ba28d0736f88978050d8",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ideal (core; candidate algebra-rings/ideal), relations (core; candidate shared-foundations/relation). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/fusion-rule-for-bands",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a37e98fa40d0860b47f4bc7ca99754dee17a7b177cea412d8dad6a79b6651188",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ideal (core; candidate algebra-rings/ideal), closure (core; candidate convex-analysis/closure-of-a-set, topology/closure), relations (Interpretation; candidate shared-foundations/relation), closure (Interpretation; candidate convex-analysis/closure-of-a-set, topology/closure), band (Interpretation; candidate algebra-hyperstructures/band), ideal (Interpretation; candidate algebra-rings/ideal). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4fb7857f99699b131f69fe70038f27efbed71f17617037ce354cba26bc3902db",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates canonical\nhypergroup (core; candidate algebra-hyperstructures/canonical-hypergroup), field (Fields as a special case; candidate algebra-rings/field), set (What \u201cdivision\u201d means; candidate shared-foundations/set), field (What \u201cdivision\u201d means; candidate algebra-rings/field), tracts (Associated tract; candidate algebra-hyperstructures/tract). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperfield-as-a-tract",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b5303b58919e7cd54af6d43ba028606a0405ecb98ae023bfaa1936cbb76b1de",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates group (core; candidate algebra-groups/group), null set (core; candidate measure-theory/null-set), groups (core; candidate algebra-groups/group), morphism (core; candidate algebra-category-theory/morphism), relations (Scope; candidate shared-foundations/relation), hyperfield (Scope; candidate algebra-hyperstructures/hyperfield), tract (Scope; candidate algebra-hyperstructures/tract), null set (Scope; candidate measure-theory/null-set). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperfield-of-a-field-quotient",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e9f6fd1d79a7eea7385491d7a95bac7932b5e82615ce3fc13bb46c2c04eb55a",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates field (core; candidate algebra-rings/field), subgroup (core; candidate algebra-groups/subgroup), orbit (core; candidate algebra-groups/orbit), set (core; candidate shared-foundations/set), hyperfield (core; candidate algebra-hyperstructures/hyperfield), orbit (Why this is a hyperfield; candidate algebra-groups/orbit), set (Why this is a hyperfield; candidate shared-foundations/set), orbits (Why this is a hyperfield; candidate algebra-groups/orbit), orbit map (Why this is a hyperfield; candidate fiber-bundles/orbit-map), hyperfield (Why this is a hyperfield; candidate algebra-hyperstructures/hyperfield). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperoperation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fda5cbbd7d28142670648f176f111dccb30e3eb79547882c6105eeb46bbea4d5",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (core; candidate shared-foundations/set), subsets (core; candidate shared-foundations/subset), subsets (Extension to subsets; candidate shared-foundations/subset), function (Ordinary operations as a special case; candidate shared-foundations/function). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2076bdb10f0c9f69bcef0c82ac85a2cdec2bbfc57d8497d51d1ac725e157f19a",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (core; candidate shared-foundations/set), subsets (core; candidate shared-foundations/subset), rings (Incomparability with semirings; candidate algebra-rings/ring), Semirings (Incomparability with semirings; candidate algebra-rings/semiring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/hyperring-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2bb44c0af3e0c1007f8251033390ceb8afe5e283e570f2a3a15fc0a0f22cb36",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates function (core; candidate shared-foundations/function), ring (Why the weak convention matters; candidate algebra-rings/ring), hyperring (Why the weak convention matters; candidate algebra-hyperstructures/hyperring), hyperfields (Why the weak convention matters; candidate algebra-hyperstructures/hyperfield), image (Why the weak convention matters; candidate shared-foundations/image), isomorphism (Relations between the notions; candidate algebra-category-theory/isomorphism-category), hyperrings (Relations between the notions; candidate algebra-hyperstructures/hyperring), hyperfields (Convention warning; candidate algebra-hyperstructures/hyperfield), morphism (Convention warning; candidate algebra-category-theory/morphism). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/idyll",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7498d30b17334ef2b80d574ebf0d04482d8e7a7b04b05590ce491a5cfdb8ae4",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates monoid (core; candidate algebra-groups/monoid), unit (core; candidate algebra-rings/unit), Fields (core; candidate algebra-rings/field), hyperfields (core; candidate algebra-hyperstructures/hyperfield), hyperfield (core; candidate algebra-hyperstructures/hyperfield), relations (core; candidate shared-foundations/relation), unit (Associated tract; candidate algebra-rings/unit), group (Associated tract; candidate algebra-groups/group), null set (Associated tract; candidate measure-theory/null-set), ideal (Associated tract; candidate algebra-rings/ideal). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/integral-hyperring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "848ed7b84a503447f4be0dce5e4cd78b8a21f9ffadc9f8d9009b758e3d1cf834",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates hyperfield (Relation to familiar objects; candidate algebra-hyperstructures/hyperfield), commutative ring (Relation to familiar objects; candidate algebra-rings/commutative-ring), hyperring (Relation to familiar objects; candidate algebra-hyperstructures/hyperring), units (Relation to familiar objects; candidate algebra-rings/unit), subgroup (Role in partial hyperfields; candidate algebra-groups/subgroup), units (Role in partial hyperfields; candidate algebra-rings/unit). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/krasner-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc4ed0da24cffe23f3d48c7b32a8ea96a2b84facd8866e415b5a76ed58bbc3a8",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (core; candidate shared-foundations/set), hyperfield (core; candidate algebra-hyperstructures/hyperfield), field (Quotient realization; candidate algebra-rings/field), orbits (Quotient realization; candidate algebra-groups/orbit), orbit (Quotient realization; candidate algebra-groups/orbit). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/null-set-of-a-band",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48ce0ce13c9c0f6e5151507c4b25b3fb4bb57fbcdaeccd63d4f5430628315138",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ideal (core; candidate algebra-rings/ideal), closure (core; candidate convex-analysis/closure-of-a-set, topology/closure), band (Terminology; candidate algebra-hyperstructures/band), ideal (Terminology; candidate algebra-rings/ideal). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f311de92b6e75c362fa53e3e2211a023f37f6ad0e968d6aeb5db4a09c20c9454",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates subgroup (core; candidate algebra-groups/subgroup), ring (core; candidate algebra-rings/ring), pointed\nset (core; candidate shared-foundations/pointed-set), ring (Why addition is partial; candidate algebra-rings/ring), units (Why addition is partial; candidate algebra-rings/unit), hyperfield (Why addition is partial; candidate algebra-hyperstructures/hyperfield), set (Why addition is partial; candidate shared-foundations/set), field (Fields and the regular partial field; candidate algebra-rings/field), relations (Associated tract; candidate shared-foundations/relation), pastures (Associated tract; candidate algebra-hyperstructures/pasture). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-field-as-a-tract",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c635021e8ecae76a8e2546681aec5f3591331170e48e2800a7d6c376ce994c2",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates group (core; candidate algebra-groups/group), null set (core; candidate measure-theory/null-set), morphism (core; candidate algebra-category-theory/morphism), tract (What the construction retains; candidate algebra-hyperstructures/tract), relation (What the construction retains; candidate shared-foundations/relation), relations (What the construction retains; candidate shared-foundations/relation), ring (What the construction retains; candidate algebra-rings/ring), object (What the construction retains; candidate algebra-category-theory/object). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf7935b09dc3ed44cc054e4d9d9acf7beda9491f282912062680b140dcda4e74",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates subgroup (core; candidate algebra-groups/subgroup), hyperfield (Two independent weakenings; candidate algebra-hyperstructures/hyperfield), hyperring (Two independent weakenings; candidate algebra-hyperstructures/hyperring), ring (Two independent weakenings; candidate algebra-rings/ring), subring (Two independent weakenings; candidate algebra-rings/subring), tract (Associated tract; candidate algebra-hyperstructures/tract), partial fields (Associated tract; candidate algebra-hyperstructures/partial-field), hyperfields (Associated tract; candidate algebra-hyperstructures/hyperfield), tracts (Associated tract; candidate algebra-hyperstructures/tract), hyperdomain (Ambient-presentation convention; candidate algebra-hyperstructures/integral-hyperring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/partial-hyperfield-as-a-tract",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "be0a90885a364b56b0c0fecafc0ca5402ce97edd6fe507840856584f76a6c870",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates subgroup (core; candidate algebra-groups/subgroup), units (core; candidate algebra-rings/unit), group (core; candidate algebra-groups/group), null set (core; candidate measure-theory/null-set), partial\nsums (core; candidate real-analysis/partial-sums), relations (core; candidate shared-foundations/relation), set (core; candidate shared-foundations/set), ring (core; candidate algebra-rings/ring), hyperfield (core; candidate algebra-hyperstructures/hyperfield). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/pasture",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2412ccef2122bcb7c1beed5d8af821f5a07c06f9af97c9aa893fbe81e6f3d3c7",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ideal (core; candidate algebra-rings/ideal), relations (core; candidate shared-foundations/relation), closure (core; candidate convex-analysis/closure-of-a-set, topology/closure), Morphisms (core; candidate algebra-category-theory/morphism), band (core; candidate algebra-hyperstructures/band), band (Equivalent terminology; candidate algebra-hyperstructures/band), fusion band (Equivalent terminology; candidate algebra-hyperstructures/fusion-band), idyll (Equivalent terminology; candidate algebra-hyperstructures/idyll), ordered blue\nfield (Equivalent terminology; candidate algebraic-geometry-foundations/ordered-blue-field), tract (Equivalent terminology; candidate algebra-hyperstructures/tract). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/phase-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5ba599ecea5223ebea9005491501d25c563d31eacf84615ae4475a18b956e9a9",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (core; candidate shared-foundations/set), hyperfield (core; candidate algebra-hyperstructures/hyperfield). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/quotient-hyperring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d36528f91c63cbfcb0c61a3a2cd77bb337b8060359aa296aaedbd6e8c778dd9d",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates subgroup (core; candidate algebra-groups/subgroup), set (core; candidate shared-foundations/set), orbits (core; candidate algebra-groups/orbit), place (Why addition is multivalued; candidate algebra-fields-galois/place-of-global-field), orbits (Why addition is multivalued; candidate algebra-groups/orbit), set (Why addition is multivalued; candidate shared-foundations/set), orbit map (The quotient map; candidate fiber-bundles/orbit-map), hyperring (The quotient map; candidate algebra-hyperstructures/hyperring), image (The quotient map; candidate shared-foundations/image), proper subset (The quotient map; candidate shared-foundations/proper-subset). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/sign-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af5a239c9a120e22692901f94f769bcdc5b93611204f49c8fcfada23fa5079bd",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates hyperfield (core; candidate algebra-hyperstructures/hyperfield), partitions (Quotient realization; candidate shared-foundations/partition), orbits (Quotient realization; candidate algebra-groups/orbit), hyperfield (Morphism from the real field; candidate algebra-hyperstructures/hyperfield). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/stringent-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "980adc77efd5f1c0e4d060b060b5a83d8ef8130c5173d7cb9a28260e5f7703c4",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates hyperfields (Examples; candidate algebra-hyperstructures/hyperfield), maximum (Examples; candidate real-analysis/maximum), residue (Related theorems; candidate complex-analysis/residue), field (Related theorems; candidate algebra-rings/field), Krasner hyperfield (Related theorems; candidate algebra-hyperstructures/krasner-hyperfield), sign\n  hyperfield (Related theorems; candidate algebra-hyperstructures/sign-hyperfield). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/tract",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec6778c55902ffd792ba664fbdadf36fd9420bf5426d14e6aef2bdfd5b6254d9",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (core; candidate shared-foundations/set), null set (core; candidate measure-theory/null-set), multiplicative set (core; candidate algebra-commutative/multiplicative-set), morphism (core; candidate algebra-category-theory/morphism), relation (What a tract remembers; candidate shared-foundations/relation), relations (What a tract remembers; candidate shared-foundations/relation), orthogonality (What a tract remembers; candidate linear-algebra/orthogonality), Fields (Examples and inclusions; candidate algebra-rings/field), subcategory (Examples and inclusions; candidate algebra-category-theory/subcategory), relations (Examples and inclusions; candidate shared-foundations/relation). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/tract-as-an-ordered-blueprint",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb4b920c1d5de4ab2dfa60675e93cea37ee4ee5be75b22f323a15ac2d3f51a5c",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates semiring (core; candidate algebra-rings/semiring), set (core; candidate shared-foundations/set), tract (Adjunction and its restriction; candidate algebra-hyperstructures/tract), unit (Adjunction and its restriction; candidate algebra-rings/unit), group (Adjunction and its restriction; candidate algebra-groups/group), tracts (Adjunction and its restriction; candidate algebra-hyperstructures/tract), ordered blueprints (Adjunction and its restriction; candidate algebraic-geometry-foundations/ordered-blueprint), null sets (Adjunction and its restriction; candidate measure-theory/null-set), ideals (Adjunction and its restriction; candidate algebra-rings/ideal), semirings (Adjunction and its restriction; candidate algebra-rings/semiring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/tropical-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f7806cb172f1dc4acc86dfc9ef901f86af72db8d2133c0295121e1bbc2b9276c",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates hyperfield (The tied-sum mechanism; candidate algebra-hyperstructures/hyperfield), morphisms (Other presentations; candidate algebra-category-theory/morphism), non-Archimedean absolute\nvalues (Other presentations; candidate algebra-fields-galois/non-archimedean-absolute-value). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/tropical-hyperfield-versus-semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "43c43dd616cc71ceaff0d46a5ce599dcbf81d7d1f31935edd1f30a2146b0b53d",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates semifield (Idempotence versus cancellation; candidate algebra-rings/semifield), hyperfield (Idempotence versus cancellation; candidate algebra-hyperstructures/hyperfield), semifield (Order warning; candidate algebra-rings/semifield), hyperfield (Order warning; candidate algebra-hyperstructures/hyperfield), semifield (Pointwise inclusion is not structural identity; candidate algebra-rings/semifield), object (Pointwise inclusion is not structural identity; candidate algebra-category-theory/object), power set (Pointwise inclusion is not structural identity; candidate shared-foundations/power-set), categories (Pointwise inclusion is not structural identity; candidate algebra-category-theory/category), hyperfields (Pointwise inclusion is not structural identity; candidate algebra-hyperstructures/hyperfield), hyperfield (Pointwise inclusion is not structural identity; candidate algebra-hyperstructures/hyperfield). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/valuation-as-tropical-hyperfield-morphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c127b2bb9dd57d5accc3e7aae490cd81061349d418ba5ccdd6519b4e409aa67",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates maximum (Verification; candidate real-analysis/maximum), hyperfield (Converse and sign convention; candidate algebra-hyperstructures/hyperfield), additive valuation (Converse and sign convention; candidate algebra-fields-galois/valuation-on-a-field), field (Weak, not usually strong; candidate algebra-rings/field), interval (Weak, not usually strong; candidate real-analysis/interval), image (Weak, not usually strong; candidate shared-foundations/image), proper subset (Weak, not usually strong; candidate shared-foundations/proper-subset). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-hyperstructures/valuative-hyperfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe1e69a5cce4d7e0034e65c292455836a75983af63f72a7c5e24bcc4b56389b4",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates group (core; candidate algebra-groups/group), group (Hyperfield structure; candidate algebra-groups/group), group (Relation to tropical hyperfields; candidate algebra-groups/group), norm (Valuations as morphisms; candidate linear-algebra/norm), hyperfield (Valuations as morphisms; candidate algebra-hyperstructures/hyperfield), additive\nvaluation (Valuations as morphisms; candidate algebra-fields-galois/valuation-on-a-field), orbit (Valuations as morphisms; candidate algebra-groups/orbit), field (Valuations as morphisms; candidate algebra-rings/field), group (Valuations as morphisms; candidate algebra-groups/group). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/algebra-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c412108b6f1710510fe0f1e21c319ab624353b0714c6bc2de61c4b9857b43257",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates morphisms (Remarks; candidate algebra-category-theory/morphism), category (Remarks; candidate algebra-category-theory/category), unital ring (Equivalent characterizations; candidate algebra-rings/unital-ring), ideal (Examples; candidate algebra-rings/ideal). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/algebra-over-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80279999a8b550b813c319f06bba01b5be439e682135af3ed6943945fed58ffc",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates polynomial ring (Examples; candidate algebra-rings/polynomial-ring), matrix ring (Examples; candidate algebra-rings/matrix-ring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/annihilator-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eeb84d997551da49fca95994e2cfe737cad05da9a19dec7bbab8b26472cdc316",
+      "evidence": "Read complete source including all optional sections and checked its prerequisite target definitions separately. No actionable missing body link or unresolved prerequisite was found; terminology is locally defined or links already occur at the useful occurrence."
+    },
+    {
+      "id": "algebra-modules/annihilator-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a113b9f81303665ea9e4b8afa3dcdb9883ee02e91a886bdbd68686017a4ba3f",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates ring (core; candidate algebra-rings/ring), measures (Remarks; candidate measure-theory/measure), commutative ring (Examples; candidate algebra-rings/commutative-ring), ideal (Examples; candidate algebra-rings/ideal), module (Examples; candidate algebra-modules/module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/artinian-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "909ad7d14cf145a458cce02f0916abc8c1c0c54509ef6893e2697855441b744b",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates lattice (core; candidate shared-foundations/lattice), module (Relation to finite length; candidate algebra-modules/module), rings (Relation to finite length; candidate algebra-rings/ring), modules (Relation to finite length; candidate algebra-modules/module), abelian group (Examples; candidate algebra-groups/abelian-group), vector space (Examples; candidate linear-algebra/vector-space), field (Examples; candidate algebra-rings/field). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/artinian-noetherian-finite-length",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c7d3c40b95c02ada5050da23ffb8105f2935553b9f28276346a0610d58e45d74",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates composition series (core; candidate algebra-groups/composition-series-group, algebra-modules/composition-series-module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/associated-graded-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48c0ac26254b4ba0ca443926330a3f2dccf968c1d9eff6e988f2acc199664773",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates groups (core; candidate algebra-groups/group), ring (core; candidate algebra-rings/ring), graded ring (Examples; candidate algebra-modules/graded-ring), graded rings (Examples; candidate algebra-modules/graded-ring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/baers-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e10e275c71861bd7b0de70e6db16715b3ee717eb74831f89d18d6b0c9b360ee",
+      "evidence": "Read complete source including all optional sections and checked its prerequisite target definitions separately. No actionable missing body link or unresolved prerequisite was found; terminology is locally defined or links already occur at the useful occurrence."
+    },
+    {
+      "id": "algebra-modules/basis-module",
+      "outcome": "corrected",
+      "source_sha256": "5b3cd483154862fb4e70b6ff5d72d155416264a8a98563557f4ad3d81438c2d5",
+      "evidence": "Read complete source and relevant target definitions. Added justified links in the core or first useful occurrence: subset (core; candidate shared-foundations/subset), rings (core; candidate algebra-rings/ring), finitely generated modules (core; candidate algebra-modules/finitely-generated-module); retained generic/repeated matches without links."
+    },
+    {
+      "id": "algebra-modules/bilinear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "89d93ca742e53e58633b2ed3271ca65185af4f94e3711ab2fa8accf4e90a3afb",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates function (core; candidate shared-foundations/function), ring (Balanced maps for tensor products; candidate algebra-rings/ring), abelian group (Balanced maps for tensor products; candidate algebra-groups/abelian-group), abelian groups (Balanced maps for tensor products; candidate algebra-groups/abelian-group), commutative ring (Balanced maps for tensor products; candidate algebra-rings/commutative-ring), module (Balanced maps for tensor products; candidate algebra-modules/module), codomain (Examples; candidate shared-foundations/codomain), abelian group (Examples; candidate algebra-groups/abelian-group), commutative ring (Examples; candidate algebra-rings/commutative-ring). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/bimodule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3ebded1506f1d15038d1bc9748dbf468fdb971237999d0aa3aa00dbb207f49fe",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates abelian group (core; candidate algebra-groups/abelian-group), ring (Examples; candidate algebra-rings/ring), abelian-group (Examples; candidate algebra-groups/abelian-group). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/chinese-remainder-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "376417b7114cc62d715061b9302f863a873315686f1d16f8277aa95089c34d3d",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates isomorphism (core; candidate algebra-category-theory/isomorphism-category). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/classification-fg-abelian-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9c88ce3caa2e684f74b637576f1d02389c9c22d5884f0f937bfd8e60eac0c301",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates abelian group (core; candidate algebra-groups/abelian-group), integers (core; candidate shared-foundations/integers). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/cokernel-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "18af9ea22f536dfdc885abee969f1389fd9a2ab87394dd03137cc84e6294ea7e",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates submodule (Examples; candidate algebra-modules/submodule). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/composition-series-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "624d472ddc93d39e0c3dd64200a4f32c769f417c9b985b3873763c41098b9460",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates series (core; candidate real-analysis/series), vector space (Examples; candidate linear-algebra/vector-space), field (Examples; candidate algebra-rings/field). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/correspondence-theorem-modules",
+      "outcome": "corrected",
+      "source_sha256": "ee6ea8b8c671da60d728797e65e96b222486e6cac471a97622c5bc552d1e8492",
+      "evidence": "Read complete source and relevant target definitions. Added justified links in the core or first useful occurrence: modules (core; candidate algebra-modules/module), set (core; candidate shared-foundations/set), image (core; candidate shared-foundations/image), lattice (core; candidate shared-foundations/lattice), intersections (core; candidate shared-foundations/intersection); retained generic/repeated matches without links."
+    },
+    {
+      "id": "algebra-modules/cyclic-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d980ecd05791b54f9483bfbe29e0aa4e67718ac0075f7fd8fc7fcd19b4f6e1df",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates module (Equivalent characterizations; candidate algebra-modules/module), ideal (Examples; candidate algebra-rings/ideal), module (Examples; candidate algebra-modules/module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/diagonalizable",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f3b58b776a76e48cecbe4a692a98042418327ee3016357ba2665e15df435ad4a",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates field (core; candidate algebra-rings/field), eigenspace (Equivalent characterizations; candidate linear-algebra/eigenspace), eigenvalue (Equivalent characterizations; candidate linear-algebra/eigenvalue), eigenvalue (Criteria; candidate linear-algebra/eigenvalue), eigenvalues (Examples; candidate linear-algebra/eigenvalue), inner product spaces (Examples; candidate linear-algebra/inner-product-space), matrix (Non-example; candidate linear-algebra/matrix), eigenvector (Non-example; candidate linear-algebra/eigenvector). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/direct-product-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8248fc1811447da26899674529b8422219dcb65997c3f401a42f19c9f94a39e6",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates set (core; candidate shared-foundations/set), categorical product (core; candidate algebra-category-theory/categorical-product), set (Examples; candidate shared-foundations/set), sequences (Examples; candidate shared-foundations/sequence), modules (Examples; candidate algebra-modules/module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    },
+    {
+      "id": "algebra-modules/direct-sum-modules",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9d82c11fb5d1f3bfe66dfdac21dccc7f5dca851d813f69c82bb787a857548cb",
+      "evidence": "Read complete source and checked relevant target definitions. Reviewed scanner candidates submodule (core; candidate algebra-modules/submodule), sets (core; candidate shared-foundations/set), set (Examples; candidate shared-foundations/set), sequences (Examples; candidate shared-foundations/sequence), module (Examples; candidate algebra-modules/module). Existing body links already cover the mathematically useful occurrences; prerequisite metadata was checked separately generic, repeated, example-only, notation, or convention-sensitive matches were intentionally left unlinked."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 04: complete linking/dependency review of all 100 assigned sources. Scanner findings were treated as hints and generic matches rejected."
+  ]
+}

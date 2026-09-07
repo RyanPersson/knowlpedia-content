@@ -29,5 +29,5 @@ where \(\mathrm{d}\) is the exterior derivative.
 
 ## Examples
 1. **A basic contraction in \(\mathbb{R}^2\).** With \(\omega=\mathrm{d}x\wedge \mathrm{d}y\) and \(X=\partial_x\), one has \(\iota_X\omega=\mathrm{d}y\).
-2. **Volume form in \(\mathbb{R}^3\).** For \(\omega=\mathrm{d}x\wedge\mathrm{d}y\wedge\mathrm{d}z\) and \(X=\partial_z\), one gets \(\iota_X\omega=\mathrm{d}x\wedge\mathrm{d}y\).
+2. **[[differential-geometry/volume-form|Volume form]] in \(\mathbb{R}^3\).** For \(\omega=\mathrm{d}x\wedge\mathrm{d}y\wedge\mathrm{d}z\) and \(X=\partial_z\), one gets \(\iota_X\omega=\mathrm{d}x\wedge\mathrm{d}y\).
 3. **Symplectic geometry viewpoint.** On a symplectic manifold \((M,\omega)\), the assignment \(X\mapsto \iota_X\omega\) identifies vector fields with 1-forms when \(\omega\) is nondegenerate; Hamiltonian vector fields are characterized by \(\iota_X\omega=\mathrm{d}H\) for some function \(H\).

@@ -25,7 +25,7 @@ Nondegeneracy of \(\pi\) is commonly imposed for \(C^*\)-algebras. A degenerate 
 
 ## Structure and consequences
 
-For a unital algebra represented unitally, the compactness conditions say that the image of \(F\) in the Calkin algebra is a self-adjoint involution commuting with the image of \(A\). In the general nonunital convention, self-adjointness and involutivity hold only locally after multiplication by \(\pi(a)\); the defects of \(F\) need not themselves be compact. Thus a Fredholm module is not merely a [[functional-analysis/fredholm-operator|Fredholm operator]]: it is a Fredholm-type operator together with an algebra action that it intertwines modulo compact error.
+For a unital algebra represented unitally, the compactness conditions say that the image of \(F\) in the [[operator-algebras/calkin-algebra|Calkin algebra]] is a self-adjoint involution commuting with the image of \(A\). In the general nonunital convention, self-adjointness and involutivity hold only locally after multiplication by \(\pi(a)\); the defects of \(F\) need not themselves be compact. Thus a Fredholm module is not merely a [[functional-analysis/fredholm-operator|Fredholm operator]]: it is a Fredholm-type operator together with an algebra action that it intertwines modulo compact error.
 
 Direct sums of modules are formed componentwise. Unitary equivalence, norm-continuous operator homotopy, and addition or removal of degenerate modules generate the stable equivalence used in [[noncommutative-geometry/analytic-k-homology|analytic K-homology]]. Under these operations, the index pairings remain unchanged.
 

@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "operator-algebras/group-von-neumann-algebra",
+      "outcome": "corrected",
+      "source_sha256": "70256e385d7061a17c6255bc051d730fc9ee658b88e7e1157fa047c394d65dca",
+      "evidence": "Added a link for the first occurrence of the mathematically specific term conjugacy class in the factor criterion; existing group, locally compact group, Haar measure, regular representation, weak operator topology, bicommutant theorem, and commutant links remain appropriate."
+    },
+    {
+      "id": "operator-algebras/hereditary-cstar-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "03ee030ceff537986d2dd3402bdac3eac8fb50d4050f914a5ef74008036f69c1",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent characterizations, Corners and generated hereditary subalgebras, Examples and distinctions). Existing links cover operator-algebras/cstar-subalgebra, operator-algebras/positive-element, operator-algebras/closed-two-sided-ideal, operator-algebras/projection-cstar-algebra, operator-algebras/von-neumann-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/hilbert-cstar-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e1416e93b7a227bf61264d87b4a029fe2407c04c85644d480c659cb063e4ce7",
+      "evidence": "Read the complete source, including core and expandable sections (Standard examples, Adjointable and compact operators, Conventions and scope). Existing links cover operator-algebras/cstar-algebra, algebra-modules/module, linear-algebra/hilbert-space, linear-algebra/orthonormal-basis, linear-algebra/compact-operator. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/hull-kernel-topology",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "041b60fdd1e605ed7fb19c1cd6bcdff31c56c6a5b396412f7833b65dd6d4061e",
+      "evidence": "Read the complete source, including core and expandable sections (Ideal–open-set correspondence, Separation and specialization, Why “kernel”). Existing links cover operator-algebras/cstar-algebra, algebra-rings/two-sided-ideal, shared-foundations/empty-set, operator-algebras/closed-two-sided-ideal, topology/hausdorff-space. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/hyperfinite-ii-one-factor",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f76a4066e25a226d774d397ca4caf53ec10b02e4ad3b25e923814c3f36eda8a",
+      "evidence": "Read the complete source, including core and expandable sections (Standard construction, Injectivity and uniqueness, Examples and non-examples). Existing links cover operator-algebras/type-ii-one-factor, operator-algebras/strong-operator-topology, operator-algebras/tracial-state, operator-algebras/gns-construction. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/imprimitivity-bimodule",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e853cf537134f6f23a880aeaeed1a4e260bc0fd7df4bc1ab321524309eb3203",
+      "evidence": "Read the complete source, including core and expandable sections (Two-inner-product formulation, Standard examples, Distinction from a correspondence). Existing links cover operator-algebras/cstar-correspondence, algebra-modules/bimodule, operator-algebras/compact-operator-hilbert-module, linear-algebra/hilbert-space. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/infinite-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c03b10db02cf2bd2acd5d3e188a1c8c4cb77e9848fc84cf6fb5bda8585107aad",
+      "evidence": "Read the complete source, including core and expandable sections (Examples and permanence, Proper infiniteness, Type-theoretic role). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/murray-von-neumann-equivalence, functional-analysis/partial-isometry, operator-algebras/finite-projection. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/integrated-form-covariant-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aba901edaa4f736aa0793356df7d130f77fc3bc782702548a88ce3646af1380b",
+      "evidence": "Read the complete source, including core and expandable sections (Representation correspondence, How the formula encodes covariance, Conventions and scope). Existing links cover operator-algebras/covariant-representation-cstar-dynamical-system, harmonic-analysis/haar-measure, operator-algebras/crossed-product-convolution-star-algebra, operator-algebras/nondegenerate-star-homomorphism, operator-algebras/full-crossed-product. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/internal-tensor-product-correspondences",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "668ebd6399c421a8ac18a4a7d105f44098552e7dbffcc8655e1fb284f5d688df",
+      "evidence": "Read the complete source, including core and expandable sections (Construction and positivity, Composition and unit correspondences, Examples and scope). Existing links cover operator-algebras/cstar-correspondence, algebra-modules/tensor-product. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/involutive-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a3528d851c1fc2db70e12141b41c12475ef121c31c6728057aee95453685e2c",
+      "evidence": "Read the complete source, including core and expandable sections (Terminology and unity, Morphisms and distinguished elements, Examples and additional structure, Conventions and scope). Existing links cover linear-algebra/hilbert-space, operator-algebras/cstar-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/irreducible-cstar-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e9ffaffe31648521b79bd8344032630ba3df762520d1d3e83889182b20fba096",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent characterizations, Kernels and states, Examples and non-examples). Existing links cover operator-algebras/cstar-representation, linear-algebra/orthogonal-complement, operator-algebras/commutant, algebra-representation-theory/schurs-lemma, operator-algebras/primitive-ideal. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/k0-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "394bd28187fb3edac87170b886b577ca41abfc9672b4e8ccde25d5c9e2ee1ec9",
+      "evidence": "Read the complete source, including core and expandable sections (Representative calculus, Basic properties, Conventions and scope). Existing links cover operator-algebras/cstar-algebra, operator-algebras/murray-von-neumann-equivalence, operator-algebras/projection-cstar-algebra, operator-algebras/unitization, linear-algebra/compact-operator. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/k1-cstar-algebra",
+      "outcome": "corrected",
+      "source_sha256": "f392fd8c9a41041f18bec88ad705a7a8c251504531b82cb57588e343570c09eb",
+      "evidence": "Added a link for winding number where it explains the circle computation of K1; existing unitary, matrix C*-algebra, unitization, and group homomorphism links remain appropriate, while repeated generic topology terms remain unlinked."
+    },
+    {
+      "id": "operator-algebras/kadison-schwarz-inequality",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7efcfe1714927b6badffb5f908ea57736ab170681fe053437bd362565ffc2c5e",
+      "evidence": "Read the complete source, including core and expandable sections (Matrix proof, Equality and multiplicativity, Conventions and sharpness). Existing links cover operator-algebras/n-positive-map, operator-algebras/unital-completely-positive-map, operator-algebras/positive-element, linear-algebra/cauchy-schwarz-inequality. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/kasparov-stabilization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d90c93d378b8c9f317818eaffa7d56885175379ebc2e8f55e049b11772146463",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent complemented form, Proof mechanism, Consequences). Existing links cover operator-algebras/countably-generated-hilbert-cstar-module, operator-algebras/standard-hilbert-cstar-module, operator-algebras/adjointable-operator-hilbert-module, operator-algebras/compact-operator-hilbert-module, operator-algebras/hilbert-cstar-module. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/kernel-of-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "28497070b051ced6ff355f80f25909e8c48b3e65b8048311b35af265db50426f",
+      "evidence": "Read the complete source, including core and expandable sections (Factorization through the quotient, Universal property, Examples). Existing links cover operator-algebras/star-homomorphism, operator-algebras/cstar-algebra, operator-algebras/closed-two-sided-ideal, linear-algebra/closed-linear-subspace, algebra-rings/two-sided-ideal. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/left-ideal-of-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a298a713856f002f89ca69d963457dea668ff3102a0120808aa4b09ac4f32a66",
+      "evidence": "Read the complete source, including core and expandable sections (Associated finite algebra, Examples and non-examples, Role in the weight GNS construction). Existing links cover operator-algebras/weight-on-von-neumann-algebra, linear-algebra/cauchy-schwarz-inequality, operator-algebras/operator-trace, functional-analysis/hilbert-schmidt-operator, functional-analysis/schatten-class-operator. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/liminal-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "454b7095589515e5589925855781c0d5247d68d740845814e0aee43c31048bd3",
+      "evidence": "Read the complete source, including core and expandable sections (Relation to type I, Examples and permanence, Representation-theoretic meaning). Existing links cover operator-algebras/cstar-algebra, operator-algebras/irreducible-cstar-representation, operator-algebras/compact-operator-cstar-algebra, algebra-representation-theory/irreducible-representation, operator-algebras/elementary-cstar-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/liminal-implies-type-i",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af29ff5433c98ca19649fdb17a11270f21baaa5e84808ce4e0511c19503addb9",
+      "evidence": "Read the complete source, including core and expandable sections (Why the converse fails, Position in the hierarchy). Existing links cover operator-algebras/liminal-cstar-algebra, operator-algebras/type-i-cstar-algebra, operator-algebras/irreducible-cstar-representation, algebra-representation-theory/irreducible-representation, linear-algebra/compact-operator. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/linking-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a13cc9763ee5ac8ffc84804ebe75fa7b7303ad40b61dfdeac2f99f116d69df7f",
+      "evidence": "Read the complete source, including core and expandable sections (Block operations, Full complementary corners, Conventions and scope). Existing links cover operator-algebras/imprimitivity-bimodule, operator-algebras/compact-operator-hilbert-module, operator-algebras/multiplier-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/local-lifting-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9022827a9b15ba11fbf5c198455b0b6efafece5b4398f91bbc3707ee4ddde483",
+      "evidence": "Read the complete source, including core and expandable sections (Local versus global lifting, Tensor-product characterization, Nonunital convention). Existing links cover operator-algebras/cstar-algebra, algebra-rings/two-sided-ideal, operator-algebras/completely-positive-map, convex-analysis/linear-subspace, linear-algebra/hilbert-space. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/local-reflexivity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2a28c625187205333898207320de33553d0245a3da9a88325de9208d7ae2e68d",
+      "evidence": "Read the complete source, including core and expandable sections (Approximation formulation, Relation to exactness, Conventions). Existing links cover operator-algebras/cstar-algebra, linear-algebra/linear-map, operator-algebras/completely-bounded-map, linear-algebra/banach-space, operator-algebras/exact-cstar-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/lower-semicontinuous-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4b721c49d1330f218092b4cc41d938823ef5b83c6fb1f2f7bfbed96f28f05f8e",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent approximation formula, Domains and extra adjectives, Examples). Existing links cover operator-algebras/cstar-algebra, operator-algebras/continuous-functional-calculus, operator-algebras/unitization, operator-algebras/semifinite-weight, operator-algebras/trace-cstar-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/marcinkiewicz-macaev-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f997f57f45ceaf41e7722578fe8ff472ab5aebb2027961ab17690ab38bb6b63",
+      "evidence": "Read the complete source, including core and expandable sections (Comparison with the weak Schatten endpoint, Singular traces, Conventions and scope). Existing links cover linear-algebra/hilbert-space, functional-analysis/singular-values, linear-algebra/compact-operator, real-analysis/partial-sums, operator-algebras/weak-schatten-ideal. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/matrix-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76ba13f16db7e804e3879e2cdca8f20914e706151cdcaea219954375f6c729bd",
+      "evidence": "Read the complete source, including core and expandable sections (Finite-dimensional structure, Matrices over a general algebra, Amplification and convention). Existing links cover operator-algebras/cstar-algebra, linear-algebra/hilbert-space, linear-algebra/operator-norm, operator-algebras/hilbert-cstar-module, algebra-rings/two-sided-ideal. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/maximal-cstar-seminorm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62a5c210b7839e47e23e51c13091cdf076d7ef5ffdee04e3da8f58224c80644b",
+      "evidence": "Read the complete source, including core and expandable sections (Enveloping completion, Existence and failure, Maximality and terminology). Existing links cover operator-algebras/involutive-algebra, operator-algebras/cstar-representation, convex-analysis/seminorm, operator-algebras/cstar-algebra, linear-algebra/hilbert-space. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/maximal-cstar-tensor-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b9e17e5f67916eb3323e66b3b51a34c97364e4ed7eb5427b36da97034d5ee843",
+      "evidence": "Read the complete source, including core and expandable sections (Universal property, Comparison with the minimal product, Functoriality and quotients, Conventions and scope). Existing links cover operator-algebras/cstar-algebra, operator-algebras/cstar-representation, linear-algebra/hilbert-space, operator-algebras/cstar-tensor-norm, operator-algebras/minimal-cstar-tensor-product. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/measurable-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c611f9d0ade2fba40a13f655c3dbad1d9f017ca90c626bdfd9ca1600b1cf5042",
+      "evidence": "Read the complete source, including core and expandable sections (Spectral characterization, Algebra and examples, Conventions and scope). Existing links cover operator-algebras/semifinite-von-neumann-algebra, operator-algebras/affiliated-operator, operator-algebras/finite-projection, operator-algebras/involutive-algebra, measure-theory/measurable-function. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/minimal-cstar-tensor-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c44fbb78abed48263a35525452dc690805acceceed8da8c771eb321ed23d0d98",
+      "evidence": "Read the complete source, including core and expandable sections (Spatial construction, Functoriality and injectivity, Standard models, Conventions and scope). Existing links cover operator-algebras/cstar-algebra, operator-algebras/nondegenerate-star-homomorphism, operator-algebras/cstar-tensor-norm, operator-algebras/star-homomorphism, algebra-modules/short-exact-sequence. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/minimal-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "820f9b53c013bc4ac1e131fdb6feb71fd9e5c17d91ccc69495aa71ffb0ff1325",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent formulations, Relation to factor type, Conventions and scope). Existing links cover operator-algebras/von-neumann-algebra, linear-algebra/orthogonal-projection, operator-algebras/type-i-factor, operator-algebras/type-i-von-neumann-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/modular-automorphism-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a70b2d4abea5ae8a4d097a4213871509f1aa21acce64473be83fdb718245f4d7",
+      "evidence": "Read the complete source, including core and expandable sections (Characterization by the KMS condition, Traces and inner modular flows, Dependence on the weight, Conventions and scope). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/normal-semifinite-faithful-weight, operator-algebras/modular-operator, operator-algebras/gns-construction-for-weight, operator-algebras/standard-form. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/modular-conjugation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "25fcc2f26cb97811b879724d6ab9e3ac580fe483c5c1df41d4db7c0d712a461b",
+      "evidence": "Read the complete source, including core and expandable sections (Relation to the commutant, Interaction with modular time, Example and conventions). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/cyclic-vector, operator-algebras/separating-vector, operator-algebras/tomita-operator, operator-algebras/modular-operator. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/modular-kms-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "201a30aca18226a2c20c343020ed65f52e321d2ab61a85be47881ae641e3fe1b",
+      "evidence": "Read the complete source, including core and expandable sections (Characterization of modular dynamics, Tracial and finite-dimensional cases, Conventions and scope). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/faithful-normal-state, operator-algebras/modular-automorphism-group, operator-algebras/entire-analytic-element-one-parameter-automorphism, algebra-groups/automorphism-group. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/modular-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f1f1badb5c1ce6789dc5d85176ca82bf8357654f6d0d2737c014b6b681e330e",
+      "evidence": "Read the complete source, including core and expandable sections (Modular dynamics, Spectral relations, Finite-dimensional model). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/cyclic-vector, operator-algebras/separating-vector, operator-algebras/tomita-operator, operator-algebras/modular-conjugation. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/multiplier-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41fa4f987cadfbf074a5dc02e31eec33029e1916fdbd0a30cec897f09089ceb9",
+      "evidence": "Read the complete source, including core and expandable sections (Universal role, Fundamental examples, Nondegenerate morphisms, Strict versus norm approximation). Existing links cover operator-algebras/cstar-algebra, operator-algebras/double-centralizer, linear-algebra/linear-map, operator-algebras/essential-ideal, topology/locally-compact-space. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/multiplier-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c49e7dae72804ea641354740c238ff2f1d6d852783f3a13f016e268a4318778c",
+      "evidence": "Read the complete source, including core and expandable sections (Embedding and strict completion, Examples and structure, Conventions and scope). Existing links cover operator-algebras/hilbert-cstar-module, operator-algebras/adjointable-operator-hilbert-module, operator-algebras/multiplier-algebra, operator-algebras/approximate-identity. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/murray-von-neumann-equivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "948c68a75ea7e3c8386a12551c83eb72f64497ff6ff8a8590a61c52927807fe3",
+      "evidence": "Read the complete source, including core and expandable sections (Sub-equivalence and finiteness, Concrete interpretation, Role in classification). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/projection-cstar-algebra, functional-analysis/partial-isometry, operator-algebras/cstar-algebra, shared-foundations/equivalence-class. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/murray-von-neumann-subequivalence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6dbfe7bba8ac4071d8fb4dedc22451ffb82ca28b6342f3c73ef51adfb677952b",
+      "evidence": "Read the complete source, including core and expandable sections (Order properties, Central obstruction, Dimension-theoretic role). Existing links cover operator-algebras/murray-von-neumann-equivalence, functional-analysis/partial-isometry, shared-foundations/equivalence-class, shared-foundations/partial-order, operator-algebras/von-neumann-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/n-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af8ca0a713118b8a6a8b86f16b2cb75cd3cae2fae26671a7b67a8acfe63439c0",
+      "evidence": "Read the complete source, including core and expandable sections (The positivity hierarchy, Schwarz inequality, Examples and non-examples). Existing links cover operator-algebras/cstar-algebra, linear-algebra/linear-map, operator-algebras/positive-linear-map, operator-algebras/matrix-cstar-algebra, operator-algebras/completely-positive-map. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/natural-positive-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b830d097f95d456f1b0244381a64703f349316a9740b54bd60fa53f95596b7dd",
+      "evidence": "Read the complete source, including core and expandable sections (Self-duality and invariance, Relationship to standard form). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/cyclic-vector, operator-algebras/separating-vector, operator-algebras/tomita-operator, operator-algebras/modular-operator. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/noncommutative-lp-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0285e443f590d7e1125f963ada61392376512d1a8576abe47ffbe67b2b502818",
+      "evidence": "Read the complete source, including core and expandable sections (Independence and basic structure, Relation to familiar \\(L^p\\) spaces, Conventions and scope). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/normal-semifinite-faithful-weight, operator-algebras/continuous-core-von-neumann-algebra, operator-algebras/von-neumann-crossed-product, operator-algebras/modular-automorphism-group. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/nondegenerate-cstar-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e563223a91a3008a5fd57032b8df7e189b09dec08ce1238192c41d1c8fdf2882",
+      "evidence": "Read the complete source, including core and expandable sections (Approximate-identity criteria, Essential subspace, Extension to multipliers). Existing links cover operator-algebras/cstar-representation, operator-algebras/nondegenerate-star-homomorphism, operator-algebras/approximate-identity, operator-algebras/multiplier-algebra, operator-algebras/strict-topology. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/nondegenerate-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df45f96b3d35a5c5051d5b6514ff6e56583f3084d0a85ae16c226c66feb8cd6c",
+      "evidence": "Read the complete source, including core and expandable sections (Approximate-identity criteria, Multiplier extension, Unital and degenerate cases). Existing links cover operator-algebras/cstar-algebra, operator-algebras/star-homomorphism, operator-algebras/multiplier-algebra, operator-algebras/approximate-identity, linear-algebra/orthogonal-complement. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-completely-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6f7bd1518bf83b1fcf99e8cb3de60b6a03a3fc8723628e733a18ea48f2719e1b",
+      "evidence": "Read the complete source, including core and expandable sections (Preduals and normality, Examples and closure properties, Distinctions). Existing links cover operator-algebras/von-neumann-algebra, linear-algebra/linear-map, operator-algebras/completely-positive-map, operator-algebras/normal-linear-map, operator-algebras/star-homomorphism. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-conditional-expectation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e9cad033c12bb500cb16c01c33567f09e7a88d06f9f6e70f5d48dd0d9bfba60",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent formulations, Examples and a near-miss, Structure and consequences). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/conditional-expectation, operator-algebras/normal-positive-map, harmonic-analysis/haar-measure, operator-algebras/positive-linear-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d366488620ab6f3eccbd8002c281e1eeb25ea9773383337f6b9c53d7b71c703a",
+      "evidence": "Read the complete source, including core and expandable sections (Order characterization, Positive decomposition and states, Concrete model). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/ultraweak-topology, operator-algebras/predual, operator-algebras/normal-linear-map, convex-analysis/linear-combination. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cdc6048bbea4fc8ced403f717ccc9ef1dbe818c24c89f34c30c14adf923e1875",
+      "evidence": "Read the complete source, including core and expandable sections (Order characterization, Stability and use, Conventions and scope). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/predual, linear-algebra/linear-map, operator-algebras/ultraweak-topology, operator-algebras/positive-linear-map. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "42308af00050f4bcff338f9112649cde9303604bf2fffb1ee06de79ee2ebab9c",
+      "evidence": "Read the complete source, including core and expandable sections (Preadjoint and order criteria, Examples and a non-example, Stability and distinctions). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/positive-linear-map, operator-algebras/normal-linear-map, operator-algebras/normal-functional, operator-algebras/normal-star-homomorphism. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7d3057d0840545c101c4458d09f8fae5ff0109254d352db602833aa2c2eed893",
+      "evidence": "Read the complete source, including core and expandable sections (Coefficient-functional criterion, Examples and a non-example, Decomposition and scope). Existing links cover operator-algebras/von-neumann-algebra, linear-algebra/hilbert-space, operator-algebras/cstar-representation, operator-algebras/normal-star-homomorphism, operator-algebras/ultraweak-topology. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-semifinite-faithful-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0e299acbbd1d0fb51b39afe48b021094a5146880268abbb5c506701f07079992",
+      "evidence": "Read the complete source, including core and expandable sections (The three conditions, Examples, Role and terminology). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/weight-on-von-neumann-algebra, operator-algebras/normal-weight, operator-algebras/semifinite-weight, operator-algebras/faithful-weight. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-star-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99843e19d0b43011d202b1919dd5aa16267d31369f39b4479efd65eaa85a3ba0",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent order criterion, Examples and a non-example, Stability and conventions). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/star-homomorphism, operator-algebras/normal-linear-map. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-state",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dd531052d0715d9076e04f89e7ec0fc3811b26a9421c5a185f13295927b6d370",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent characterizations, Concrete form on \\(B(H)\\), Distinctions). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/state-cstar-algebra, operator-algebras/normal-functional, operator-algebras/predual, operator-algebras/positive-linear-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-unital-completely-positive-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "73ae2457705b1371e0830394fbc4eec83cc58c7bdf568d484ee49db2423eb733",
+      "evidence": "Read the complete source, including core and expandable sections (Basic properties, Examples, Predual interpretation). Existing links cover operator-algebras/von-neumann-algebra, linear-algebra/linear-map, operator-algebras/normal-completely-positive-map, operator-algebras/unital-completely-positive-map, operator-algebras/kadison-schwarz-inequality. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/normal-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76682b8f19c70b0f957db3dcafbdc2e1ceb0092f5bae6f11c0c9856e2618dd99",
+      "evidence": "Read the complete source, including core and expandable sections (Lower semicontinuity, Tests and consequences, Examples and distinctions). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/weight-on-von-neumann-algebra, measure-theory/continuity-from-below-measure, operator-algebras/normal-functional, operator-algebras/positive-linear-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/nuclear-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c3953f3833ffcfa7fea8cdd289fe433d2efa710e5024e428eebc63e6ac0c8498",
+      "evidence": "Read the complete source, including core and expandable sections (Completely positive characterization, Examples and permanence, Structural significance, Conventions and scope). Existing links cover operator-algebras/cstar-algebra, operator-algebras/cstar-tensor-norm, operator-algebras/maximal-cstar-tensor-product, operator-algebras/minimal-cstar-tensor-product, operator-algebras/completely-positive-approximation-property. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/nuclear-implies-exact",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee42dba7234ddc4b6d8a6f851419dada309c8e4d826d67e782cb1eedc4c4f012",
+      "evidence": "Read the complete source, including core and expandable sections (Proof idea, Strictness of the implication, Logical role). Existing links cover operator-algebras/nuclear-cstar-algebra, operator-algebras/exact-cstar-algebra, operator-algebras/cstar-exact-sequence, operator-algebras/maximal-cstar-tensor-product, operator-algebras/completely-positive-contraction. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/nuclearity-reduced-group-cstar-algebra-discrete-amenability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c65a877a70f290129889c25d4c51bc89227ea155a207e088f8fd7194b77f757",
+      "evidence": "Read the complete source, including core and expandable sections (Meaning of nuclearity, Proof directions and scope, Consequences). Existing links cover harmonic-analysis/invariant-mean, operator-algebras/reduced-group-cstar-algebra, algebra-representation-theory/regular-representation, harmonic-analysis/amenable-locally-compact-group, operator-algebras/completely-positive-map. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/operator-trace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "875f7f5e9652304164d1e78e916d293c95ea00c9f830197f3408c667b336c00b",
+      "evidence": "Read the complete source, including core and expandable sections (Relation to singular values, Tracial and continuity properties, Scope and normalizations). Existing links cover linear-algebra/hilbert-space, linear-algebra/orthonormal-basis, real-analysis/partial-sums, linear-algebra/compact-operator, functional-analysis/singular-values. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/operator-valued-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa90e88d0a024ca22abff19f55b282a03570e8084a39bc4d9be33128bd031fed",
+      "evidence": "Read the complete source, including core and expandable sections (Regularity conditions, Conditional expectations, Composition). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/extended-positive-cone, operator-algebras/conditional-expectation, operator-algebras/positive-linear-map. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/opposite-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97db5ae93c077be6728929c53a9eb2e485119222d6a0eddf8399730e85961b4f",
+      "evidence": "Read the complete source, including core and expandable sections (Modules and representations, Real spectral-triple convention, Examples and cautions). Existing links cover operator-algebras/cstar-algebra, linear-algebra/vector-space, algebra-rings/opposite-ring, algebra-modules/algebra-homomorphism, noncommutative-geometry/real-spectral-triple. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/order-unit-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8648aa985f6335b4f136f81aca275d5d6c6c6e343b2829404b62ccead5698b15",
+      "evidence": "Read the complete source, including core and expandable sections (States and the order, C*-algebra example, Conventions and scope). Existing links cover linear-algebra/vector-space, functional-analysis/weak-star-topology, operator-algebras/cstar-algebra, operator-algebras/positive-cone, operator-algebras/state-cstar-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/order-zero-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "451a147dde5cca06285bb5bfd78f5da429a859e38893125e0e17e59d80b351e0",
+      "evidence": "Read the complete source, including core and expandable sections (Structure theorem, Cone correspondence, Examples and near-misses). Existing links cover operator-algebras/cstar-algebra, operator-algebras/completely-positive-map, operator-algebras/multiplier-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/positive-cone",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "04c502e9c05ef52b6c9afd2318bbba8696e4d66060b6d36766396d7abdafd13e",
+      "evidence": "Read the complete source, including core and expandable sections (Square roots and decomposition, Order-theoretic role, Noncommutative caution). Existing links cover operator-algebras/cstar-algebra, convex-analysis/convex-set, operator-algebras/continuous-functional-calculus, operator-algebras/positive-negative-parts, operator-algebras/positive-linear-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/positive-cone-of-predual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5c72e8cada12683bf65fa265a3937e744f2671455ff4581ac07e205da6246f4",
+      "evidence": "Read the complete source, including core and expandable sections (Norm and Jordan decomposition, Concrete realization, Order-theoretic role). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/predual, operator-algebras/positive-cone, operator-algebras/normal-functional, shale-paper/trace-class-operator. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/positive-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6c49b369b24da48f0c1b4d6656f6d66074f04280d4b6598eda8fa473acd96275",
+      "evidence": "Read the complete source, including core and expandable sections (The positive cone and order, Concrete interpretation). Existing links cover operator-algebras/self-adjoint-element, functional-analysis/banach-algebra-spectrum, operator-algebras/continuous-functional-calculus, operator-algebras/positive-linear-functional, operator-algebras/state-cstar-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/positive-linear-functional",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cd885e74df35186fb6a7bec2e54d0b953edfecba1dbc4436520d9294a1716696",
+      "evidence": "Read the complete source, including core and expandable sections (Cauchy–Schwarz inequality, Example: integration, GNS construction, Nearby notions). Existing links cover operator-algebras/cstar-algebra, operator-algebras/positive-cone, operator-algebras/gns-construction, operator-algebras/cyclic-vector, operator-algebras/von-neumann-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/positive-linear-map",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ffdacc587faf4c5993ebcb86f3bdabf7fc2583b9551cb70cf5eb74cfcaed44d4",
+      "evidence": "Read the complete source, including core and expandable sections (Matrix levels, Standard example and counterexample, Order and norm behavior). Existing links cover operator-algebras/cstar-algebra, operator-algebras/positive-cone, operator-algebras/kadison-schwarz-inequality. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/positive-negative-parts",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2631e82d4117a7086a1a4ffa507ca9ddb2007cb9860218d4e65ff6c6cae54a3",
+      "evidence": "Read the complete source, including core and expandable sections (Functional-calculus description, Order and norm consequences, Examples and cautions). Existing links cover operator-algebras/self-adjoint-element, operator-algebras/cstar-algebra, operator-algebras/continuous-functional-calculus. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/positive-square-root",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a69b94b020231afdfb6557c67d6e25f36dba7e79f13310ec71e8eed463ddd5ae",
+      "evidence": "Read the complete source, including core and expandable sections (Basic properties, Examples and a near-miss, Multiplicative caution). Existing links cover operator-algebras/cstar-algebra, operator-algebras/positive-element, operator-algebras/continuous-functional-calculus. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/predual",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7063a136387f37e90542f3ac44b1e0b5bcdb918543941670e265475af31f043",
+      "evidence": "Read the complete source, including core and expandable sections (Concrete realization, Positive and normal functionals, Why the distinction matters). Existing links cover operator-algebras/von-neumann-algebra, linear-algebra/banach-space, functional-analysis/weak-star-topology, operator-algebras/ultraweak-topology, operator-algebras/normal-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/primitive-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fe351f099647e37f5f4fb0bfb4e655b4e72fd6050c0ad8ff7a722dec558b27bd",
+      "evidence": "Read the complete source, including core and expandable sections (Quotients, pure states, and maximal ideals, Prime versus primitive, Examples and interpretation). Existing links cover operator-algebras/cstar-algebra, operator-algebras/closed-two-sided-ideal, operator-algebras/irreducible-cstar-representation, algebra-representation-theory/irreducible-representation, operator-algebras/pure-state-cstar-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/primitive-ideal-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4343ead5e9fa72f96c8bf9fd3aed7a248b11f9ac42266d99583c362bf597f75b",
+      "evidence": "Read the complete source, including core and expandable sections (Ideals and open subsets, Relation to irreducible representations, Commutative case and separation). Existing links cover operator-algebras/cstar-algebra, operator-algebras/primitive-ideal, operator-algebras/hull-kernel-topology, algebra-rings/two-sided-ideal, operator-algebras/irreducible-cstar-representation. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/projection-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "77b97c4a0e50753cef213c29636d139800e5a1b3c214a39839cf092fdefd7f64",
+      "evidence": "Read the complete source, including core and expandable sections (Spectral and geometric properties, Equivalence and stabilization, Role in K-theory). Existing links cover operator-algebras/cstar-algebra, algebra-rings/idempotent-element, linear-algebra/hilbert-space, linear-algebra/orthogonal-projection, operator-algebras/continuous-functional-calculus. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/properly-infinite-projection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "65956a8c79f9421312bae8d5e2b26c1213fec92adeb888cf7ef035a246039939",
+      "evidence": "Read the complete source, including core and expandable sections (Examples, Relation to factors, Permanence and type theory). Existing links cover operator-algebras/cstar-algebra, linear-algebra/orthogonal-projection, operator-algebras/murray-von-neumann-equivalence, operator-algebras/infinite-projection, operator-algebras/finite-von-neumann-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/properly-infinite-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a0b1d2fdf45331b2d47e6cf00383141f4c1762e14867f89c58728c07e05ab46",
+      "evidence": "Read the complete source, including core and expandable sections (Central characterization, Isometries and amplification, Examples and non-examples, Conventions and scope). Existing links cover operator-algebras/von-neumann-algebra, linear-algebra/orthogonal-projection, operator-algebras/murray-von-neumann-equivalence, operator-algebras/infinite-projection, operator-algebras/type-i-infinity-factor. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/pure-state-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fbf16ef49f92bfc7148cd86c25d2156849be96bb6c0f2474aad67e8b89032cab",
+      "evidence": "Read the complete source, including core and expandable sections (GNS characterization, Standard examples, Distinctions). Existing links cover operator-algebras/cstar-algebra, operator-algebras/state-cstar-algebra, operator-algebras/state-space, operator-algebras/gns-construction, operator-algebras/irreducible-cstar-representation. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/pure-state-irreducible-gns",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "daf34598157b3996e4cad6bfea6ddc0f204be8e1ea77c935e997febc19984a0f",
+      "evidence": "Read the complete source, including core and expandable sections (Proof mechanism, Converse realization, Distinctions). Existing links cover operator-algebras/state-cstar-algebra, operator-algebras/gns-construction, operator-algebras/pure-state-cstar-algebra, operator-algebras/irreducible-cstar-representation, operator-algebras/commutant. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/quasi-equivalent-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd1afb97fad3dcb506dd7b07c1523f9c94a1171444114c96d470a127381b0f57",
+      "evidence": "Read the complete source, including core and expandable sections (Relation to unitary equivalence, Normal representation content, Conventions and near misses). Existing links cover operator-algebras/cstar-representation, operator-algebras/von-neumann-algebra-generated-by-representation, operator-algebras/normal-star-homomorphism, operator-algebras/unitary-equivalence-cstar-representations, operator-algebras/nondegenerate-star-homomorphism. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/quasicentral-approximate-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "02ebe33db267860a23f1a776b77e22edf3395a15455a588ead2791f6c41e0f8b",
+      "evidence": "Read the complete source, including core and expandable sections (Existence theorem, Examples and a near-miss, Extension-theoretic role). Existing links cover operator-algebras/closed-two-sided-ideal, operator-algebras/cstar-algebra, operator-algebras/approximate-identity, algebra-rings/two-sided-ideal, convex-analysis/convex-combination. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/quotient-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "023346163a7f3708a5882040be4c720f2eb6949c8aef03806cfc4a52e2dd74bc",
+      "evidence": "Read the complete source, including core and expandable sections (Universal property and exactness, Units and representative examples, Conventions and boundary cases). Existing links cover operator-algebras/cstar-algebra, operator-algebras/closed-two-sided-ideal, operator-algebras/star-homomorphism, algebra-modules/short-exact-sequence, linear-algebra/hilbert-space. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/reduced-crossed-product",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db3b0122d94f1aaa9804fd2e22dfe23e6b31456d22473f41ea9f9a94a02d65be",
+      "evidence": "Read the complete source, including core and expandable sections (Relation to the full crossed product, Standard cases, Conventions and scope). Existing links cover operator-algebras/cstar-dynamical-system, operator-algebras/nondegenerate-star-homomorphism, operator-algebras/regular-covariant-representation, operator-algebras/covariant-representation-cstar-dynamical-system, operator-algebras/full-crossed-product. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/reduced-group-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9544d579194f5afd84097ecf66a67c088613577942cc524c8457b2c09c4ba2ee",
+      "evidence": "Read the complete source, including core and expandable sections (Discrete groups, Relation to the full completion, Abelian and geometric perspectives). Existing links cover topology/locally-compact-group, harmonic-analysis/regular-representations-locally-compact-group, harmonic-analysis/l1-group-algebra, algebra-representation-theory/regular-representation, real-analysis/bounded-above. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/regular-covariant-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "50bdded48fd6a47c808f72bcb75e14a8728586c5a7f09bc76762c6e7e2233f0a",
+      "evidence": "Read the complete source, including core and expandable sections (Integrated regular representation, Dependence on the coefficient representation, Standard cases). Existing links cover operator-algebras/cstar-dynamical-system, operator-algebras/nondegenerate-star-homomorphism, harmonic-analysis/haar-measure, harmonic-analysis/regular-representations-locally-compact-group, operator-algebras/integrated-form-covariant-representation. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/regular-operator-hilbert-cstar-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d610d0cc175f9fa05370f9a78cac8350461a3460c78766ade129c643d47c73b7",
+      "evidence": "Read the complete source, including core and expandable sections (Graph and bounded transform, The self-adjoint case, Comparison with Hilbert spaces). Existing links cover operator-algebras/hilbert-cstar-module, functional-analysis/densely-defined-operator, operator-algebras/adjointable-operator-hilbert-module, functional-analysis/symmetric-operator, linear-algebra/orthogonal-complement. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/rieffel-induction",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69a93eb131408d7c394cfd0904a496696edd29a54416f683b2aa6ede9b93d541",
+      "evidence": "Read the complete source, including core and expandable sections (Action on intertwiners, Imprimitivity theorem, Examples and scope). Existing links cover operator-algebras/cstar-correspondence, operator-algebras/nondegenerate-cstar-representation, operator-algebras/internal-tensor-product-correspondences, linear-algebra/inner-product, algebra-representation-theory/induced-representation. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/sakai-characterization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aeae88f3f332573cf50fa45501718eedd540fab5a3866aa17146c181cab4ef70",
+      "evidence": "Read the complete source, including core and expandable sections (Content of the theorem, Uniqueness and terminology). Existing links cover operator-algebras/cstar-algebra, linear-algebra/banach-space, operator-algebras/predual, operator-algebras/normal-representation, operator-algebras/von-neumann-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/section-algebra-cstar-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e8d333875bbf759f7a6e483068076d8e436d9cfb72996d82ed612f47892c27c3",
+      "evidence": "Read the complete source, including core and expandable sections (Vanishing at infinity, The C_0(X)-action, Examples and reconstruction). Existing links cover operator-algebras/upper-semicontinuous-cstar-bundle, topology/locally-compact-space, topology/hausdorff-space, operator-algebras/cstar-algebra, operator-algebras/c0-x-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/self-adjoint-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cf888dba9fc2f7fe3699758d2c9132baa05fcb2301e227ee3730591fd5595e42",
+      "evidence": "Read the complete source, including core and expandable sections (Spectral characterizations, Order and functional calculus, Examples and boundary cases). Existing links cover operator-algebras/cstar-algebra, linear-algebra/hilbert-space, functional-analysis/banach-algebra, operator-algebras/positive-negative-parts. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/semifinite-von-neumann-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9ab3db89ea2558db3b51ca41df9898b9b49af0e047d395fb874645b4ffa9a40",
+      "evidence": "Read the complete source, including core and expandable sections (Tracial characterization, Examples and boundary cases, Classification convention). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/finite-projection, operator-algebras/finite-von-neumann-algebra, operator-algebras/operator-trace, operator-algebras/semifinite-weight. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/semifinite-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aa6ab92fd4e3d0b52075866df59e8fa2b84855465ea903008800418e88356e84",
+      "evidence": "Read the complete source, including core and expandable sections (Approximation by finite elements, Examples and non-examples, Role in integration). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/weight-on-von-neumann-algebra, operator-algebras/ultraweak-topology, operator-algebras/operator-trace, operator-algebras/positive-linear-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/separating-vector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5d311adf5f44659eea7ba336438c999c6d7f3bc08a66d171d150c60e4d0dfba7",
+      "evidence": "Read the complete source, including core and expandable sections (Duality with cyclicity, Examples and failure, Role in modular theory). Existing links cover operator-algebras/von-neumann-algebra, linear-algebra/hilbert-space, linear-algebra/linear-map, operator-algebras/cyclic-vector, linear-algebra/orthogonal-projection. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/sigma-unital-cstar-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "27977ce550fc02d8b748eb28016421bc925b7dd18b8a05672074bc832b91d625",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent characterizations, Examples and permanence, Why countability matters). Existing links cover operator-algebras/cstar-algebra, operator-algebras/approximate-identity, operator-algebras/strictly-positive-element, operator-algebras/continuous-functional-calculus, topology/locally-compact-space. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/singular-state",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3137566583c251d90b043dd35382f8d0d16aa15b18f8df7e57e4915dbc38a7cd",
+      "evidence": "Read the complete source, including core and expandable sections (Equivalent projection criterion, Normal-singular decomposition, Examples and non-examples). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/state-cstar-algebra, operator-algebras/normal-functional, operator-algebras/normal-state, operator-algebras/positive-linear-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/spatial-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d895ef483ea0c6d67e9d74176af2b5bfd87d99e983facc57b8ed29eaa16cca52",
+      "evidence": "Read the complete source, including core and expandable sections (Why the commutant appears, Relation to modular theory, Commutative model and scope). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/semifinite-weight, operator-algebras/normal-semifinite-faithful-weight, operator-algebras/commutant, functional-analysis/closed-quadratic-form. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/spectral-mapping-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "119ac777cfd85314e19b5c7949c2ae1e494a951acacd87b211127aa1b1bcadd2",
+      "evidence": "Read the complete source, including core and expandable sections (Proof mechanism, Consequences, Conventions and scope). Existing links cover functional-analysis/banach-algebra, functional-analysis/banach-algebra-spectrum, functional-analysis/holomorphic-functional-calculus-banach-algebra, operator-algebras/continuous-functional-calculus, operator-algebras/unitization. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/spectral-permanence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "175b3a2ea6acc336fc4ecbacf400ad1a4023086e8bcf74c53aa32f1c1cf16588",
+      "evidence": "Read the complete source, including core and expandable sections (Proof idea, Consequences, Conventions and scope). Existing links cover operator-algebras/cstar-subalgebra, functional-analysis/banach-algebra-spectrum, real-analysis/bounded-below, operator-algebras/continuous-functional-calculus. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/standard-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "46ddf19d587e761fec0b08ea6e8263691736dc863b6102b1b8be390ad5226dad",
+      "evidence": "Read the complete source, including core and expandable sections (Existence and uniqueness, Positive functionals as vectors, Conventions and scope). Existing links cover operator-algebras/von-neumann-algebra, operator-algebras/natural-positive-cone, operator-algebras/modular-conjugation, linear-algebra/hilbert-space, operator-algebras/normal-functional. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/standard-form-uniqueness",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9f85f2e9072eb2bf5b6340bf812d4f133a63c9fa89bcc64d5ea94abe4aab8cb4",
+      "evidence": "Read the complete source, including core and expandable sections (Canonical consequences, Why the cone condition matters). Existing links cover operator-algebras/standard-form, operator-algebras/von-neumann-algebra, linear-algebra/hilbert-space, algebra-groups/automorphism-group, operator-algebras/normal-representation. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/standard-hilbert-cstar-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1725d29010e5899ebe25d67d331b389618d5ba76b95bc2af97211df53f40d19e",
+      "evidence": "Read the complete source, including core and expandable sections (Coordinates and terminology, Finite and countable standard modules, Role in stabilization). Existing links cover operator-algebras/cstar-algebra, real-analysis/partial-sums, operator-algebras/hilbert-cstar-module, linear-algebra/orthonormal-basis, operator-algebras/kasparov-stabilization-theorem. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    },
+    {
+      "id": "operator-algebras/star-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c9833a6bb78debaf1dca5020a153df79271662fea40bd33379092e4d91cf5e78",
+      "evidence": "Read the complete source, including core and expandable sections (Inner and outer automorphisms, Preserved structure, Dynamical conventions and near-misses). Existing links cover operator-algebras/cstar-algebra, operator-algebras/star-isomorphism, operator-algebras/unitary-element, algebra-groups/inner-automorphism, operator-algebras/multiplier-algebra. Checked mathematical phrases against canonical targets and prerequisite metadata; retained generic or repeated occurrences when the first useful occurrence is already linked, and retained field-dependent terms where scanner targets are ambiguous. No justified new body link or dependency edge was identified."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 28 covers operator-algebras sources. Full linking review completed; scanner candidates were assessed in context rather than accepted mechanically."
+  ]
+}

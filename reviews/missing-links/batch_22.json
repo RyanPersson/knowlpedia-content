@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "lie-groups/distribution-vectors-of-a-representation",
+      "outcome": "corrected",
+      "source_sha256": "f64b230e63d62992112b84198fe0fbf3f0c7dbc144bbcf91c73804df874fdb12",
+      "evidence": "Read complete source; added strong dual topology target functional-analysis/strong-dual after checking definition and retained generic matches."
+    },
+    {
+      "id": "lie-groups/dixmier-malliavin-factorization-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb8d6201d83c15495a59af89f091cd9f0921eaffd0c90ff2f17a062930465084",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/dual-representation-lie",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "15397f73b2dd4a46bacb16f7f1e001fc4b1b3cc2ae88257695451f731d18b5ad",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/dynkin-diagram",
+      "outcome": "corrected",
+      "source_sha256": "1b2663b5906cca452065bf1561d95282cc6d9e51fd53380776660803e27c570f",
+      "evidence": "Read complete source; added positive roots target lie-groups/positive-root after checking root conventions and retained generic matches."
+    },
+    {
+      "id": "lie-groups/dynkin-diagram-automorphisms-and-dual-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40fac535a9ca6bc12dab735e5ca06d72d855023c05c2431f59bba09ba6534c99",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/e7-branching-under-a1-plus-d6",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "51943a433aed6466324729cdff64a00e8aeb7fb55ede9b3e50056049d4155504",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/e7-branching-under-a2-plus-a5",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c45f49598a7c03c48dedb565ad707ed1d0824e06c93336c362e5421785b2a573",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/e7-root-projection-trichotomy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f514f330d65e4abca0983c610f3186c27ffb6f513ed35e222fc1e75c8d18dc5b",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/effective-action",
+      "outcome": "corrected",
+      "source_sha256": "8378d8e6bbc823cd6423af9751362270a212e6ee9f61074ee61fa39c49d05771",
+      "evidence": "Read complete source; added quotient group target algebra-groups/quotient-group after checking quotient-action meaning."
+    },
+    {
+      "id": "lie-groups/en-series-of-lie-algebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4feea3c3f0240cbfe04bf0cafe5a91ce29f38d47b53f462d9ff363acf55743b8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/essentially-skew-adjoint-derived-operators",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b6a4972e006fe0f9e638b017204158fb73cb144c6cd2153fed97c97948765eb",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/even-and-odd-exterior-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a227e722e2c85f005a0f909b9cbb20ae24cca5eefd8bd1b8716602ec4637da35",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-heisenberg-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40c183b90a12a7e7fc1ee91ae2705f03ecf92353689656bb996d698be11ded48",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-sl2c",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c68c1531e7c472812043a080ba226875511d0ef5bbe90b49b58ef8e65b0f2d8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-so3",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6fdae1379e91ea6b0bf3e353a08aee2dc5f8f6dd3a1ded4e2bd2baa6c7e6839f",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-sphere-homogeneous",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2dc9205509e2c480aaa8f003bcd82c296820c023d3f276c998c54370bf4625ee",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-strictly-upper-triangular",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6ce0b2a7c9073bef98f31db5aad4498ffc50e7e2413289a37d8d33abb5ea16e9",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-su2",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "80c71c169d76b338f0b2817f4a9e8268690b35c9994a258afbfffc9bc6082601",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-torus",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f8d19b05e0a9b94a3b17737018d6a258cabf02a7e8ed48bf4ffb707a18fa276",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-u1-circle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37d634bb4fdd97328bbb180bb77d96ad1b04e48d57b4db7fef67cfa2bec3cac1",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/example-upper-triangular",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "94a97012202e2096d07e92ce9250a933c3cbb844c9363dbe4b84d313954c68d0",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exceptional-chain-to-the-standard-model",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6592f7de3d18c188f4faf6ea1ab6d4745299c7b9532568ae026299728dd798b5",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exceptional-e-root-systems",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7e57983d2a86bd9cb4822c30173de4b3a5eb35caacb6488d6a46b55b5caa38e",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e6",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35af039e4f0af957a3b7a079255aa59325f312725dce3ef491050011e527f968",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "34b084508b206e6625e3871cc9dc05c574cd62f45fc611a9e5b2f0e4bfed78f1",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-e8",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7631e57bf3dfb06fa6299a063fec2a8cfe51799dc21b153b21914eb9a1265851",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-f4",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a3fb7564e4fb425567721cf26ae2b12f4383cbfa853eb1539e929239fd780f0",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exceptional-lie-algebra-g2",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "291952fdd59c17c4c576f6e8091fdad6bccd1871199be6c7fec0cd22db02519e",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exponential-local-diffeomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7a07e6ffe6d4a7d5cffecdb7d9a924804b1480bab331211925adbf203674ed0b",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exponential-map-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "707fbee0553b3cf9de66b6f34ba6f7f334ca6f51d690da9e7457aef0d72cf00e",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exponential-one-parameter-subgroup-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "84862aaca08803f1aef859ab9c649604d916057ebeaad07e1a5bfa763c43cbb3",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exterior-algebra-of-a-direct-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "043d47d169b220a03ac74dd9b98187426bc24eb94e840c67f9bd79a7b3a370e2",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/exterior-power-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c07331a05eb12a74aa7207d02ccbe810eb17e7d0bd4bccc726c14c588944198",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/fixed-vector-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e84276a7a5820b704b0bb9a7ea5702eaf8cdda324e100ee6a2911014e102f463",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/free-action-lie",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c306e10588a92a907232a5930b29bab14c70cd39a7e7cd3757b5340e4fcb2ffe",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/fundamental-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7364bc1b17017be6902a7b232c67fab1d424346c4703c64a507bd973ee452e85",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/furstenberg-boundary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bfc096c8a191d181cfd24e853f5ec7243d49e1ba432c893e360c86d6540817a6",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/g-k-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "184f8e1488d8f40bdf7e5ce16c38512ccace142eee51c4b2169a5b73f7882bc3",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/garding-density-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "69107988b80b295b9be4adfb3f6f14449ed9d6d561d4b79723310294632717b6",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/garding-subspace",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ec66ec61e29920fc81b664cd524a498ef4da712813745f518df99305b848367c",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/gelfand-pair",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b5fcda4d5bfb62ee8f2d77614197e546e6a75097c7dd4eb79acda943d927a450",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/general-linear-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "67ba49fe1cb79e6745fc1199b012eed3eb19c694801b86b42ff94014760df7e8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/general-linear-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fde120d4d5fbd4b900b486e73cada3e426a7361e401fcff31f7261aa26a06da8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/generation-module-as-even-exterior-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a22c759ec30862ca1f7521d3b310f9e68cab7b85ca10ab28a4d5aaccdfd75af6",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/generation-plane",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b1b7fc9439f1e242bc4e1c8ae7354f2fd004b897ed4f8c044fbc419ea55db65b",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/generation-sl2-subalgebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d9d2f40fa6ed35c86be6be1de3427b7a19eb0a45a9dd0ae9bfcfcc2a21e3fe3f",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/generation-sl3-in-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "40aa25b184652f1f92accf8fb4f6c03bf98afe86b6716a32e71682513449c8be",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/global-cartan-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "54ef7a0e76094ec3d566f9d631959697b732963dad72918279bd3cbac6ba4501",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/global-character-of-an-admissible-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "91788ad905666ca39555e2639cf72378dfd46782e2ad566c13334b91d2dd2aeb",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/good-standard-model-embedding-in-e7",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "35392d1554637b54b8a6fcb87b3df81aae306ffab7edafc030e3b1cced579dee",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/half-spin-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "82be75f551672bb7b0ce02d78199fffccce2686fe0dcf07bf9755794cc4c6c0a",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/harish-chandra-admissibility-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "deb8c54c9facba26670220ba38a40d4b59499f15bdb91d06a03374daf4193ce8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/harish-chandra-c-function",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b77db5a6f55ee52cdea0602796a4d2a3e21ac26574d3a4c609a4117daa6a9c56",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/harish-chandra-discrete-series-criterion",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b32f411a1b7f02e4a9e2fbc0ab3ece961e0c5b5e05f92afa166420f836096d6b",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/harish-chandra-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1e6cb9c63c3f7410f17014d6e8a9d42484fcef1ed7ff38fbd10760eceea4c7e9",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/harish-chandra-module",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2c02698b2176036b346b362e738d870488e5eebfb93ed46be124353af64faa0f",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/harish-chandra-module-of-k-finite-vectors",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c4e3d10a09729a6133bdbfd90adc4e97ab90d8ff9771d854d967c4a62b5bd743",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/harish-chandra-regularity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c55189b3c3729826859a5db28af087ca65cd1ae5e824f1b4e97cdb4901f5f379",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/heisenberg-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "334bc55296e842ba6942cbb372ae24db5483ce91b1152b3e16274b320578e4c2",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/hermitian-matrix-model-of-minkowski-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "72c0fb7f2fa08f498275d263e542b74d33446f135e95065a61fc008eb04665f7",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/highest-weight",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d8a54a60a9bde48c92f3ed9c4694118a83e650cec75dc35cbe6a9835a0c35d5",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/highest-weight-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "06903e67fe6831fe757fd2b45775b9a26ab5e3d76dd1bb447949056e26a9633c",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/highest-weight-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4c9b72a7d3ec7be928a46c4a3897483be2723e6500f2116bfcaf7062aa095623",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/homogeneous-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a66469021fccd33290a3068a9c40e38649e2e91e91eeb8d83c1a811a8f0353df",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/ideal-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09d62be49887df89900f4b248b89ab78547899081684df39c9816723ac857ee0",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/identity-component-of-a-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bcf445ea9579398754283c5e35c1f06dfc0326f409182872cf689d135018cf84",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/indefinite-pin-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b0d499e1f6067c31a4399e8e7aa06c8ca78907a190e026ca083a07dae11d700",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/indefinite-spin-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "48fa24ea99df6c596403011fb39767a6f11cdaae2133711165109701b29c39f8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/infinitesimal-character",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "af66e5b84c146799255de7b13ab12127082597d37314eaa76fa5c8bef08eed12",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/infinitesimal-equivalence-of-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebc9cb0a866ec95c5176b283e69209578c8d3f05f2104c3395710849ecab348f",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/infinitesimal-generator-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "482b6fdf422eb82314185da74dab4aee733c2a31b2aea26aa8ce4af03c8595ff",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/inner-derivation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5be51d5085b33c83e98d72a3416f9751d6fff0cc00dd8fa653bb57475f3258d8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/intersection-of-three-a1-plus-d6-subalgebras",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c8265f55483a87ca98bad71b642ff75ae5b27ceb869fa2d1c2671c6278b5b4a3",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/intertwining-operator-unitary-representations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6828cb2a69672c741bc3ecf286299b43429d6cf3f8696e8a91752929bd535dba",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/invariant-closed-subspace-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4817e540edc62b76cf35eab157b523691fcf8cfce9353653c1fb89448006c5a2",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/irreducible-representation-lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8bd933cf30a3a411060154244a401ee65605f8e1e6df0d27c894a4af2d329c75",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/irreducible-representation-lie-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b7e9cd09565e4f29dc15d53caf058c865736b211a3203853064bc31bdc815f8",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/irreducible-unitary-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e271d91f996be442d428edf31f823901f75f0644d4963d20250399ce8359726",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/iwasawa-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aece249fa0f7fdfe40312e8708400f7ccfa579ff511c9d09b174cb7fcc8718ac",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/k-finite-vector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90b6e3efb18edf1094d9bf6ead75d12e436bfb175f0b432804211e100688242d",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/k-type",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5e1a06a0b342403abdfea710e0a58e4904918c262e96215053de905907caad90",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/kernel-of-ad-is-center-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0da3c84f1d2c02c9ed0df872db438867f37d1ee3980d06b1b5893d755f2af7fe",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/killing-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f86f9372dd4dec7dfea8f9a8545719ebabe930b1f77a077775fc51b87094cf25",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/killing-form-ad-invariant-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f4aa1f3de16c2f2d2ec5b8274dbd3fb869fe7ec6c9a501a6f2073657424b6328",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/killing-form-nondegenerate-iff-semisimple",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "635b040cd9710c08e8ca031ecc7c6f46d04141b5008323692def16d601cc7fd7",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/kirillov-correspondence-nilpotent-lie-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76c93b7449977e14f883085eac88e24e98353da93b79f2fde7f61e2667db10da",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/knapp-stein-intertwining-operator",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "68b3fbb3dbcce696e2a5cea18b5ac911834d9683fc31d7c6b51b51c5207de286",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/langlands-classification-real-reductive-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "65969e02ba1fa6237377cc382e28479d378744913b6cefeebf6bcc4c1cd50f44",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/langlands-decomposition-of-a-parabolic",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8e57fff5864bfd1b7037235bd0aba2a6837bc4d940263c1a934f2cb843d4dc43",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/langlands-quotient",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b0743f5a843a38b53e6b4a20020f1b67296e929ee169dc3443b6530642deef0a",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/left-invariant-differential-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca22d911a0b1894094ce247a31aaa14c38b78ec58660c574fc1da7aa538d5b96",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/left-invariant-fields-lie-algebra-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d12a1898e60d64168c67e29b6aefa00f60e548c83f3f20fa952aa81c1d302be",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/left-invariant-vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "032fa65b7ff732f3729e3ca5d8c52bbb8930205191191f8d03d39163a889f97c",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/left-maurer-cartan-form",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1794d51b9389cdfe7a420fb7359544ec64dc14af0aada98f54d8ffb954888c63",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/left-translation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8c9957cfe4ab2b9cc74aa88485b420d2e827ff17dcec26dca8be845bf6c7e4f6",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/levi-decomposition-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "052305a65659d7d45ed623bf58ca43b2f0dd7bae59e5d55e455f50576f5d1cd2",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/levi-subalgebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4ee206574dcd204c18eabf17e03de4c019a4dd4294f3e4b7606926fe7c4238f0",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/lie-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c23ac910f4f147fef1eefebb4990e8475595a3acb6f565cd77b93ad9a2729c62",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/lie-algebra-automorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7fb27fedb7457739b51630adb99e181770d74b6289729d254a1dbaec257e66c",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    },
+    {
+      "id": "lie-groups/lie-algebra-compact-is-reductive",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c07e480a87cb842aab592387ce6cf7a504595bcda8618c41d28b0fc97e0158fc",
+      "evidence": "Read complete source and all expandable sections; checked candidate phrases against canonical targets and existing links, rejected generic/local/repeated matches, and checked prerequisite metadata semantically."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 22 Lie groups linking review."
+  ]
+}

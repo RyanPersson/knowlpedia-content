@@ -1,0 +1,19 @@
+{
+  "eligible_knowls": 3515,
+  "reviewed_current": 3515,
+  "corrected_current": 530,
+  "reviewed_unchanged_current": 2985,
+  "blocked_current": 0,
+  "stale_reviews": 0,
+  "remaining_review": 0,
+  "automated_findings": {
+    "unlinked_phrase": 21373,
+    "ambiguous_phrase": 373,
+    "broken_link": 0,
+    "missing_prerequisite_target": 0,
+    "core_multiword_unlinked": 1457,
+    "canonical_knowls": 3515,
+    "eligible_knowls": 3458,
+    "possible_missing_definitions": 739
+  }
+}

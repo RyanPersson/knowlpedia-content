@@ -56,7 +56,7 @@ A [[operator-algebras/nondegenerate-star-homomorphism|nondegenerate
 that is strictly continuous and agrees with \(\phi\) on \(A\). It can be
 recovered from any approximate identity by strict limits. This extension
 theorem is one reason strict, rather than norm, continuity is built into the
-morphism theory of multiplier algebras.
+morphism theory of [[operator-algebras/multiplier-algebra|multiplier algebras]].
 
 ## Concrete model and comparison
 

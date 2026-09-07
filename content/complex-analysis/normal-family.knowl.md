@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(D\subseteq\mathbb C\) be a domain. A family \(\mathcal F\) of holomorphic functions \(D\to\mathbb C\) is a **normal family** if every sequence in \(\mathcal F\) has a subsequence that converges uniformly on each compact subset of \(D\), either to a holomorphic function \(D\to\mathbb C\) or locally uniformly to \(\infty\).
+Let \(D\subseteq\mathbb C\) be a domain. A family \(\mathcal F\) of [[differential-geometry/holomorphic-map|holomorphic]] functions \(D\to\mathbb C\) is a **normal family** if every sequence in \(\mathcal F\) has a subsequence that converges uniformly on each compact subset of \(D\), either to a holomorphic function \(D\to\mathbb C\) or locally uniformly to \(\infty\).
 
 ## Spherical formulation
 
@@ -19,7 +19,7 @@ View each function as a map into the [[complex-analysis/riemann-sphere|Riemann s
 
 ## Compactness criterion
 
-The [[complex-analysis/montel-theorem|Montel theorem]] says that every locally uniformly bounded family of holomorphic functions is normal. It is the central compactness criterion used in many existence proofs.
+The [[complex-analysis/montel-theorem|Montel theorem]] says that every [[real-analysis/uniformly-bounded-family|locally uniformly bounded family]] of holomorphic functions is normal. It is the central compactness criterion used in many existence proofs.
 
 ## Role in conformal mapping
 

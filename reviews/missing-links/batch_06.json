@@ -1,0 +1,610 @@
+{
+  "version": 1,
+  "reviews": [
+    {
+      "id": "algebra-rings/characteristic-zero-or-prime",
+      "outcome": "corrected",
+      "source_sha256": "764a5294d8185224202637f5ac15ff279d9ca112b685165a5d5ff990e3825dac",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/chinese-remainder-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "598c22e11103882c83bac5e5b6c5cbd115263c9ba23a7282ce2f7cb364acdd0c",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/chinese-remainder-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2afa3f5e39237e68c19a2e57ab18b8a6672e2874c7779403e3e86eb5b41331d9",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/commutative-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9e56356dc5ab7fbeb18b455264a660f01a81af23299567ab1d49ab6c805d4acc",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/commutative-ring-axiom",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "99d7038a774ac924644a94384560d094f10f5997220c7010dd2447a2d460a009",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/commutative-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b3b2eca152f4a13ecc50b0ec1f99d935af3418c0433192d2f273c9faf0313434",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/content-formula",
+      "outcome": "corrected",
+      "source_sha256": "a4f5aad931a24d6d412fe33a82402f094c10f3aae1d0dcd60fe5a2da8da36099",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/content-polynomial",
+      "outcome": "corrected",
+      "source_sha256": "06ecda60ecfee8e2c704d2a93174ace0bc55071f529fdd0480b4fda5afd68649",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/correspondence-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fb1cf882bffc5b1c80fe2ad5841a23078e46a48318bf9559afafd81a82412bbe",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/division-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "05da8867f5acb02497b81dbd304c51ff48562e1f35d908fb3191afb34c2cf7a8",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/eisensteins-criterion",
+      "outcome": "corrected",
+      "source_sha256": "dcf0db7c80bdec6c3d41c70b81b4add35da046419ac15a78eb6e45db8bffcc2b",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/euclidean-algorithm",
+      "outcome": "corrected",
+      "source_sha256": "05a1544cbdf850280ab2ec1ecaf11712010cd15ee1b5b0bfe6bf0cd1985f9929",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/euclidean-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "187ce9d7f918e05022d3a3fce7a96c43491504f17357df659357a8d37e59179e",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/euclidean-implies-pid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "572381de171e907061f1ec7929ce5ced83021ad20fd491bd9d02b9f4fe6be064",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/existence-of-maximal-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2efd916b32ecb1a5096d9e910f2bb1a2021fd78c483938306406531a1caceac3",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7d9b78c616d84a7a55caec793f365e19ce68af7ebcad7f000156b497d89ce60",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/field-axioms-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "85b8637c1a390d31129fc07ad0515b51677c2a18f4e78a6ae8360ccf150c9fef",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/field-iff-trivial-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "472f61072c1482d46ad2bb3bedd13eca2a2c31ddf220ad77cf6016f023fec4e8",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/fields-are-division-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d8a52716cf598580958cbdecf840864a9f5547e75a851ca33312054767484d79",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/finite-division-ring-commutative",
+      "outcome": "corrected",
+      "source_sha256": "317b3ac23239b13279087e64299b98c474af4268404acc80bcb7133e698e7b8a",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/finite-integral-domain-is-field",
+      "outcome": "corrected",
+      "source_sha256": "22bd1b25632c8cc2998ceb3141fee858e4b024410277d9bb1eec55aae7baa67d",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/first-isomorphism-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8bd7b58e0578878c7758c78eba78174a3d2108a9403d969d5da9889491b1d636",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/formal-inverse-function-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d82a85467dd4d9efc911807ef30edb9362c737db24e87370dce13330546fa406",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/formal-power-series-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6a88cd478799eef8c606cc39501cd037e9c8849156ef1c9b4f22001894ec0e02",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/fraction-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2a8b7b27923f685cdad3c57f7fd60ea2b46b965d53e66ecc87c31f1e12ebeb6",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/gauss-content-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12f9a111d466ecd3e7b54de8ebffbe36b14e40f64f14e478aa2669b4377222b5",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/gauss-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a38b51b34b630893a2a2e61836e46d6fa6558e073a0881c81ba0df72ae129eac",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/gcd",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7808be69f3b12b149ecf4ee07309bbba5edf59edcbf754cf52f39d73d39212a4",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/group-of-units",
+      "outcome": "corrected",
+      "source_sha256": "88d800995b13b292a5ed0edb4395ba2855b89f86df4dc0f584c24b1de6b3c772",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/hilbert-basis-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7483aef9a63bd18410e92c04e89587017e39696f2fed32654817da5fbff3461b",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9b35d42d22243cd2dcc6ce0f711c4761f39f4bd2190fcae939605dd2a6a9b44",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ideal-correspondence",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f2c9d8da92a6bcef4370cd7cfe879ad05f1f20168d4dc34bdb514af62f228fb4",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ideal-generated",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "12704d00997ffff7f02d68fbc684235183a715dfc18eb75889b834ead87de9e4",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/idempotent-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8bbbac1c310d181d569430731f5a9d44c4acbb5ce9a6e324328a2b52c6d33cfd",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/idempotent-product-decomposition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7ccbf2611a4a6cc8de37ce6a72bca923d6b402a2c29208e8134ec945aedfdd2c",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/idempotent-semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fc0df8831e9ed0487efc41bd69e540e29cd9336ac94f9fac82a228e765689494",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/idempotent-semifields-and-lattice-ordered-groups",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e63dc92277bb5517ee9a59e92be7599377f4492fc3537687e89d7602feb32327",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/idempotent-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "21d720d7304294bc0d7f7f0ed9953b29adca3811996ff687d691661e6f5bcb41",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/image-is-subring",
+      "outcome": "corrected",
+      "source_sha256": "930ee3808602a63d9a813025a22f2d0b95c2a3d65ee3b7208decf0e875a8dd70",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/image-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "59e488f99f3773690f00d3c56872b201876adef1adb84d4875039556bebbebf7",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/integral-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "16503b20cbecbae53c71147efb9c911bf581e5f637c72d89c4c0b7f6f2b549b8",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/intersection-of-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6dbdb67468ac31c4de6cdc930827cb7c6664b24b64c8ae68ad84eea6dce5227",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/irreducible-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ac293b357284a2c166a9013a35c9b8b4ebf75daf4930baf1590b853de0632d9",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/irreducible-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c05a69939448980aea7b790c5477f40275c25c13875f5113285e83137d44ca18",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/jacobson-radical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7ae3c5319aa7aae79ae99078982e6fa2988000cff3d494cda575f97c49297fc",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/kernel-is-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "aef42d97f9627d9831a3bfd6631e17ee1f9577023e92932c16f27a8e3318a3af",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/kernel-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "682959ec7add2264ba027e97af57d833deda78c7f45db483ee7a44f7d184979e",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/kernels-are-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9632c8ad01d9dbad5aaf6881b9b40169d80cdbf2271ce7e863f785c25f07e21a",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/laurent-polynomial-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "62d806206bc35a4f24741a3fcf50b5513584477fe61feae6d18b8a7af4294cfa",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/lcm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "502d6e42b4f3a92826a717d4b9a28aab80434e811ea8fe941edbd958c2e00788",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/matrix-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8739dcc5c1e89767dc6e8a27e00b58eec95ac048999323242dd151f183023195",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/maximal-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8873b1c92df40518414a60b186150bbe452e9ef5e3dcb2538282ba2d90b94ab0",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/maximal-ideal-existence-corollary",
+      "outcome": "corrected",
+      "source_sha256": "32bd0dca4857faf770b2fbcb68428b2bc2b30be390f97df5f1b9ce2c98554b34",
+      "evidence": "Read the complete source and its direct prerequisite definitions; added only the contextually necessary link(s) for a distinctive dependency in the core, preserving the minimal statement and mathematics. Generic one-word scanner matches were rejected as noisy or locally contextual."
+    },
+    {
+      "id": "algebra-rings/maximal-ideals-are-prime",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ed26fce79c92f24c63faac9f98f1a809862ec54d56e169038e30d79dc2e92cbd",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/maximal-iff-quotient-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3c46ca74039a95fb40b8ebf3e443ea9858b31bdf9f2c59b9ff9887c5f613800e",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/minimal-polynomial-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcb87d7938b33c8e559d1924ce7c8a78571dc5cd8a56c41e223377a35adb1881",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/multivariable-formal-power-series-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "108a96d05fb1f0b30bdfcd9035be0d2d5cf331bf2ba329e3e1afd341c57ed8d5",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/natural-order-of-idempotent-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ee76c2d8347e1457f7e9041119be9bd663ff6aaf58b3ec8c1a853b977892d5f9",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/nil-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a3fbb8801dda35ed587e49458af839206e8e74ca17d9f9e83f55656f9842f6da",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/nilpotent-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dabe282162270fdcfa98700c32cd338e67c6c89bc86aa80ff17737c3e1358750",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/nilradical",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "95516843390f7d151243ba55029e8b6398bb087f73ba4129ebb5dd6ddd59078e",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/nilradical-intersection-primes",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "de3d58e89759c951563f35ac4c00b1f994d8b8b8e9dca31f8c317214fc344f41",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/nullstellensatz-strong",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f0c1dbf7ac48621c02fe0c97bb96523cf16841af4394ba1adfa2c3fa71dfe829",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/nullstellensatz-weak",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5bb72bbb4f5745a9bc1a9984f3c59b424117cb62a4bc592af9efd994ddfbad88",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/opposite-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8720116a9f4a0535f1eb9dcbd3eb5debb0d244c7ff6b91def9e03d3993df9267",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ordered-semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "993e6f9b0a475111501f5899c6455e63b15428bcdd00c8dfabdaaa02d6a59f4d",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/parasemifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5b406d9a131948830cd7fbf7b1cedb9288a8e63a8227630935e412b4a7e0297b",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/pid",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8752eac698f0e7da6e4f9b881c6c85bcc37cc924b89027ea46a2b33ae1bf34ed",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/pid-implies-ufd",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "db4a5d8734a648ec991e3a10ce426b6c7c688dcff517382a510bada55fe4b112",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/polynomial-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a167fe7797f4ff56aea3bd2ad18a01a252175b772d7b038896792913aa77a1b",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/primary-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "633eb847e4f093606bbe1e3190983417e5eb7766d70873cb16ca3837976dbade",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/prime-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4a11544c387716f996b404f0011e5953ec2eeefd8bb0d0960f5b0960c977c8f6",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/prime-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "964c7e44fd63d9f3498f4981dce6c130f700db29e6e2c4ff6ec7bd51b4a9602d",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/prime-iff-quotient-domain",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f9edeef83dabc143361c9df58ebb0f29061611fe4a998289d3974e092e773b2c",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/prime-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "36d2ddced4ab3ab680ef01396751b5d657d10768847c822a9301c6cc8b6caf2c",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/prime-subfield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6d5576a13db0a6a119b8ebe70138e5c17e8b65e5205dbe7f9f3749c128f69dc2",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/primitive-polynomial",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a074e0d56206b4a4deddec8407b44271a9052e31bf0611cbe4f353da86db162c",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/principal-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd6dbaa0566a2c27fc2d97f03b3489480ea491076f3106194c2575e7264639cf",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/product-of-ideals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b722640f90d236802ab54236c78a1eca73e331fd7c983145e3e96213c69a1825",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/quotient-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1b4b292cffae6f99598dbc5143b842be1d872e43911c7a08b0abf38fbd9bf9e5",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/quotient-ring-universal-property",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb147ec76364e7a03b5fff63105a4b7a375ce7bd30f4fe4d1e363785d1540cfb",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/radical-of-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2e13b819f475b97cab1387a33dec908ca11170124c7c2929fadc8608a84c67ac",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/reduced-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7be35f9b4374708f7fe9c047cbcabe75b84ace3c77c5432bd0641357cd08515",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/regular-element",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e533798e8587fe7a5f59da1c50f4631e099c6e31896305bdee4936459aad1b03",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f769c98171cbb645623e7e77b25c7da01326af945d4fbceca44adef3d767f023",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ring-axioms",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8514c0406eaadf6bb1b7f5c82bec754a15d72d00425dac6be889b9c147caa991",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ring-epimorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fa9df563e601d88ff447671b15c920048d356f75bdcc2e59acaa42f407107964",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ring-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "00cb76889456d9c3c769d8cbd111e086ca60458fd898011aef34a30ceb5e00a8",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ring-homomorphism-properties",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "17d4d80177cd131a1173f61b782684ea5e89ef5df3620b668d2d60da1240c35d",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ring-isomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0702993c571b328957ba26f553013b03dad6ae3753fb060135d8fc58211716c6",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/ring-monomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "14834bbee373e586a9c28adce8650b59fa63f683cd95dca30d991426d762964e",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/second-isomorphism-theorem-rings",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3dc7e855cede4c2cd077b940da7f8c9613a2ba825d1164eac3ca026b6f5e382e",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/semifield",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c2b759e1bc315bb954211e27fb50d833b0cb9f62c19d6615c7a5118cb52a733d",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/semiprime-ideal",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d334e5ce80dd257226b145f9d7509a03bf7d680382d94180642beb34e779697a",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/semiring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb6498c4fd57d7b3ef876aeafb05479954a548bd16f389da4af89d8332d148b6",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/semiring-homomorphism",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "619d8f5b07fb66262bfca58b3ed227f439b3e9cbde4a6df311eecab4f904b214",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/semisimple-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7dc038ac88a045b9727d480526e15b98d0e5c979b813f7b36318fd1e86c8f49a",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/simple-ring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "185d7b1d7601b283a6a1db05db7fe0665c22f043bab94693b1c287a747837fe1",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/subring",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c62c611d9205db6175ec9e2c5d9f4d0d8e574d924c8cb8fc6224bcfe8fe7b258",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    },
+    {
+      "id": "algebra-rings/substitution-of-formal-power-series",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b843dab4137d2a63f27dcdea6e27bdfe0a778729d6005cfc519a47bac208bc65",
+      "evidence": "Read the complete source, optional sections, existing links, and prerequisite metadata. Checked scanner candidates against canonical targets and rejected generic or context-dependent one-word matches; no linking or dependency correction was justified."
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Batch 06: algebra-rings linking review; distinctive multiword dependencies corrected, generic phrase matches rejected after contextual review."
+  ]
+}
+

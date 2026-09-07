@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system| \(C^*\)-dynamical system]] with \(G\) locally compact abelian, and let
+Let \((A,G,\alpha)\) be a [[operator-algebras/cstar-dynamical-system| \(C^*\)-dynamical system]] with \(G\) [[topology/locally-compact-space|locally compact]] abelian, and let
 \(\widehat\alpha\) be the [[operator-algebras/dual-action-crossed-product| dual action]] on \(A\rtimes_\alpha G\). **Takai duality** gives a canonical
 \(*\)-isomorphism
 \[
@@ -42,8 +42,8 @@ not the stabilized isomorphism class.
 The first crossed product packages the coefficients \(A\) together with the
 \(G\)-action. The dual action then measures the Fourier variable introduced
 by that construction. Crossing by \(\widehat G\) performs the inverse
-Fourier operation, while the regular representation leaves the compact
-operator factor.
+Fourier operation, while the regular representation leaves the [[linear-algebra/compact-operator|compact
+operator]] factor.
 
 Because \(K(L^2(G))\) is Morita equivalent to \(\mathbb C\), Takai duality
 implies that the double crossed product is strongly Morita equivalent to
@@ -52,8 +52,8 @@ those of the coefficient algebra.
 
 ## Full and reduced versions
 
-For abelian \(G\), the group is amenable. Hence full and reduced crossed
-products agree at both stages, so the theorem may be written with either
+For abelian \(G\), the group is amenable. Hence full and [[operator-algebras/reduced-crossed-product|reduced crossed
+products]] agree at both stages, so the theorem may be written with either
 completion. For nonabelian groups, crossed-product duality is formulated
 using coactions rather than a Pontryagin-dual [[algebra-groups/group-action|group action]].
 

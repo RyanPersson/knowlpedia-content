@@ -21,7 +21,7 @@ Let \(n_1,\dots,n_k\) be nonnegative integers with \(\sum_{i=1}^k n_i = n\). The
 
 where \(n! = n(n-1)\cdots 1\) is the factorial.
 
-Define proportions \(p_i = n_i/n\) (so \(\sum_i p_i = 1\)). The (natural-log) Shannon entropy is
+Define proportions \(p_i = n_i/n\) (so \(\sum_i p_i = 1\)). The (natural-log) [[probability/shannon-entropy|Shannon entropy]] is
 \[
 H(p) = -\sum_{i=1}^k p_i \log p_i.
 \]

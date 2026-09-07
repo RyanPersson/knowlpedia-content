@@ -14,7 +14,7 @@ dependency_review_count = 1
 A **maximal compact subgroup** of a
 [[lie-groups/real-reductive-lie-group|real reductive Lie group]] \(G\) is a
 compact subgroup \(K\subseteq G\) not properly contained in any other compact
-subgroup. For a Cartan involution of \(G\), its fixed-point subgroup
+subgroup. For a [[lie-groups/cartan-involution-real-lie-algebra|Cartan involution]] of \(G\), its fixed-point subgroup
 \[
 K=G^\theta=\{g\in G:\theta(g)=g\}
 \]

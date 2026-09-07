@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(f\) be [[complex-analysis/meromorphic-function|meromorphic]] near \(a\) and not identically zero. There is a unique integer \(m\in\mathbb Z\) and a holomorphic function \(u\) near \(a\), with \(u(a)\ne0\), such that
+Let \(f\) be [[complex-analysis/meromorphic-function|meromorphic]] near \(a\) and not identically zero. There is a unique integer \(m\in\mathbb Z\) and a [[differential-geometry/holomorphic-map|holomorphic function]] \(u\) near \(a\), with \(u(a)\ne0\), such that
 \[
 f(z)=(z-a)^m u(z).
 \]

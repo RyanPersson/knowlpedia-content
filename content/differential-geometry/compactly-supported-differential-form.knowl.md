@@ -27,7 +27,7 @@ On an oriented \(n\)-manifold, every \(\omega\in\Omega_c^n(M)\) has a well-defin
 
 ## Examples and boundary cases
 
-If \(\varphi\) is a [[differential-geometry/bump-function|bump function]] and \(\eta\) is any differential form, then \(\varphi\eta\) is compactly supported. The standard volume form on \(\mathbb R^n\) is not compactly supported. On the manifold \(M=(0,1)\), the form \(dx\) is not compactly supported: its support is all of \(M\), which is not compact even though it is bounded as a subset of \(\mathbb R\).
+If \(\varphi\) is a [[differential-geometry/bump-function|bump function]] and \(\eta\) is any differential form, then \(\varphi\eta\) is compactly supported. The standard [[differential-geometry/volume-form|volume form]] on \(\mathbb R^n\) is not compactly supported. On the manifold \(M=(0,1)\), the form \(dx\) is not compactly supported: its support is all of \(M\), which is not compact even though it is bounded as a subset of \(\mathbb R\).
 
 ## References
 

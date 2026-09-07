@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(H\) be a Hilbert space and let \(A\) be a trace-class operator on \(H\). The **Fredholm determinant** of \(I+A\) is
+Let \(H\) be a [[linear-algebra/hilbert-space|Hilbert space]] and let \(A\) be a [[shale-paper/trace-class-operator|trace-class operator]] on \(H\). The **Fredholm determinant** of \(I+A\) is
 \[
 \Delta(I+A)=\det(I+A):=\prod_j(1+\lambda_j(A)),
 \]

@@ -23,7 +23,7 @@ With the weak morphism convention
 \[
 f(a\boxplus b)\subseteq f(a)\boxplus f(b),
 \]
-this construction defines a fully faithful functor from hyperrings to ordered blueprints.
+this construction defines a [[algebra-category-theory/fully-faithful-functor|fully faithful functor]] from hyperrings to ordered blueprints.
 
 ## Recovering the hyperaddition
 

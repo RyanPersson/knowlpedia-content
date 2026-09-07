@@ -17,7 +17,7 @@ Let \(G\) be a finite [[algebra-groups/group|group]], let \(p\) be a prime, and 
 Q \subseteq gPg^{-1}.
 \]
 
-In particular, any two Sylow \(p\)-subgroups of \(G\) are conjugate (they lie in the same orbit under the [[algebra-groups/conjugation-action|conjugation action]]).
+In particular, any two Sylow \(p\)-subgroups of \(G\) are conjugate (they lie in the same [[algebra-groups/orbit|orbit]] under the [[algebra-groups/conjugation-action|conjugation action]]).
 
 ## Remarks
 

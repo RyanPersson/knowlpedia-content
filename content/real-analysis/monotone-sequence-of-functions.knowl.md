@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A sequence of real-valued functions \((f_n)\) on a set \(X\) is a **monotone increasing sequence of functions** if
+A sequence of real-valued functions \((f_n)\) on a set \(X\) is a **[[real-analysis/monotone-sequence-of-functions|monotone increasing sequence of functions]]** if
 \[
 f_n(x)\le f_{n+1}(x)\quad \text{for all } x\in X \text{ and all } n,
 \]

@@ -37,7 +37,7 @@ The characters of \(C_0(X)\) are precisely the evaluation maps
 recovers \(X\) as the character space of \(C_0(X)\). When \(X\) is
 noncompact, the [[operator-algebras/unitization|minimal unitization]] of
 \(C_0(X)\) is naturally isomorphic to the continuous functions on the
-one-point compactification of \(X\).
+[[topology/one-point-compactification|one-point compactification]] of \(X\).
 
 ## Why it is canonical
 

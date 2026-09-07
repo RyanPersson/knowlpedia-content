@@ -1,0 +1,725 @@
+{
+  "checked_manifest": "final-target-paths-a.json",
+  "checked_count": 173,
+  "method": "Inspected every path in the fixed manifest, each added wikilink, and the corresponding target file; all 383 extracted added targets exist.",
+  "findings": [
+    {
+      "severity": "actionable",
+      "path": "content/discrete-structures/graph-vertex-edge.knowl.md",
+      "line": 14,
+      "issue": "The newly inserted ordered-pair link has an extra closing bracket: [[shared-foundations/ordered-pair|ordered pair]]] . This leaves raw markup in rendered text.",
+      "suggested_fix": "Remove the final extra ] so the link ends with ordered pair]].",
+      "status": "resolved",
+      "resolution": "Root removed the extra bracket and recorded the source hash in final-diff-review.json."
+    },
+    {
+      "severity": "actionable",
+      "path": "content/differential-geometry/whitney-embedding-theorem.knowl.md",
+      "line": 18,
+      "issue": "The newly inserted smooth-structure link has an extra closing bracket: [[fiber-bundles/smooth-structure|smooth structure]]. . This leaves a stray ] in rendered text.",
+      "suggested_fix": "Remove the final extra ] so the link ends with smooth structure]].",
+      "status": "resolved",
+      "resolution": "Root removed the extra bracket and recorded the source hash in final-diff-review.json."
+    }
+  ],
+  "notes": [
+    "No missing target IDs were found.",
+    "The apparent [[X,Y]] in the adjoint Lie algebra formula is inside math and is not a wikilink; marker counts there are expected.",
+    "The repeated perfectoid-field links in tilt-and-untilt occur at separate mentions and are semantically appropriate."
+  ],
+  "checked_sources": [
+    {
+      "path": "content/algebra-category-theory/abelian-category-axioms.knowl.md",
+      "source_sha256": "d0fb91045b8e351d2b452ee87f25bf539d78aae91d02269be653d550bc22c1fa"
+    },
+    {
+      "path": "content/algebra-category-theory/abelian-category.knowl.md",
+      "source_sha256": "9551206ba7c700457bbff01ebee46c121402369f532c1ad037084482f347019f"
+    },
+    {
+      "path": "content/algebra-category-theory/additive-category.knowl.md",
+      "source_sha256": "921b0b3631196d736c0814b4f6b2c4415f3a8c7472af1454aba9c377df2c5c51"
+    },
+    {
+      "path": "content/algebra-category-theory/adjoint-functors.knowl.md",
+      "source_sha256": "8b53c6ebb56dc9e5b6c76b1500017c359fcbe62fc16425c18b3e94326dbc7a3c"
+    },
+    {
+      "path": "content/algebra-category-theory/equivalence-of-categories.knowl.md",
+      "source_sha256": "a359677d561785e0fa132e6d94d63f758914cbe2bc0e3a03d3070612865a5d2c"
+    },
+    {
+      "path": "content/algebra-category-theory/yoneda-embedding.knowl.md",
+      "source_sha256": "84e6498035d7170d05d827062350d4f2c91c011fc4361695653773ff6e388373"
+    },
+    {
+      "path": "content/algebra-coalgebras/bialgebra.knowl.md",
+      "source_sha256": "003ae85fd2df86005fad402bf1be47a53c52ea2a89c954440d677f3c42107a6c"
+    },
+    {
+      "path": "content/algebra-commutative/artinian-ring.knowl.md",
+      "source_sha256": "669e5fbbdc44a07a2fbd949841ea4c0f421f92982e456d88c4322a86128ed2d8"
+    },
+    {
+      "path": "content/algebra-commutative/dedekind-domain.knowl.md",
+      "source_sha256": "45d1be651dde7906a56fa8aa163af719a97c2d8394311e0506a961eebb3ac8e0"
+    },
+    {
+      "path": "content/algebra-commutative/dvr.knowl.md",
+      "source_sha256": "71a77281b47fd98ff4a7c0dd46d2b046b99da96587e02851c8c8531cc33ee576"
+    },
+    {
+      "path": "content/algebra-commutative/going-down-theorem.knowl.md",
+      "source_sha256": "aa19157f606389b2275527f335d56b47a8bd1029f5730360c7f4acf3d2dd2777"
+    },
+    {
+      "path": "content/algebra-commutative/height-of-prime.knowl.md",
+      "source_sha256": "0f106c62490ca554bdb87bc6de5f0a9289ccd8ed009c465081fa055a4a6925ab"
+    },
+    {
+      "path": "content/algebra-commutative/hilbert-basis-corollary.knowl.md",
+      "source_sha256": "4996585b4daa309cddcdd1cc22ab1159a46ab1597927a0e3826b873e45004414"
+    },
+    {
+      "path": "content/algebra-commutative/i-adic-completion.knowl.md",
+      "source_sha256": "b29c8c91caa9ebe89a8353ce07a6b1fd09a1d10bf786ffc9c2daf92d76400d50"
+    },
+    {
+      "path": "content/algebra-commutative/local-ring.knowl.md",
+      "source_sha256": "2c8f02498c4d87870927ce95e4672629c52dce88d04b9a33526d6d7d8d24fa1c"
+    },
+    {
+      "path": "content/algebra-commutative/localization-at-prime.knowl.md",
+      "source_sha256": "c39368f4088134de78a39315389b6d274445ae60136afdfbabcc8a0fa7989d20"
+    },
+    {
+      "path": "content/algebra-commutative/maximal-spectrum.knowl.md",
+      "source_sha256": "8963e3e3f3be7db6b5a55a5f0f13a080d2cfd89ce93575a05ff55368cb96f0a1"
+    },
+    {
+      "path": "content/algebra-commutative/noetherian-primary-decomposition.knowl.md",
+      "source_sha256": "ef319546b12754550d36cc867119c3accdf5b9fb0ad752a7ebd0597ca3ed3711"
+    },
+    {
+      "path": "content/algebra-commutative/noetherian-ring.knowl.md",
+      "source_sha256": "beb02244fa498b959b687dfefa273f410d1d1bb66fa37cc0d622f232513d3d0d"
+    },
+    {
+      "path": "content/algebra-commutative/nullstellensatz-variety-correspondence.knowl.md",
+      "source_sha256": "609a05cf4a91ba267f486dc0709846b6c3db29d0c90692b3599df9eb69eac732"
+    },
+    {
+      "path": "content/algebra-commutative/zariski-topology.knowl.md",
+      "source_sha256": "8eec2b633ad2cfccd03bd8eb3aa6b480a817ea38e1608332d5301fad4a6ba9cd"
+    },
+    {
+      "path": "content/algebra-fields-galois/completion-at-place.knowl.md",
+      "source_sha256": "4ab0ee97d686ee6f075cbaee9b1fe52c0be0c4cc713cf65bc32411122b3b129e"
+    },
+    {
+      "path": "content/algebra-fields-galois/finite-field-existence-uniqueness.knowl.md",
+      "source_sha256": "25caa773750222c77639df3d50efc54a48fb607df4464ef3f8c5998d53089e62"
+    },
+    {
+      "path": "content/algebra-fields-galois/finite-field-existence.knowl.md",
+      "source_sha256": "ccb40622f468325d605052a4f94000d20b894aab730a4b4af047a96ff101a9a0"
+    },
+    {
+      "path": "content/algebra-fields-galois/place-of-global-field.knowl.md",
+      "source_sha256": "b6a30ec5f89c49c14451f18d6c8638ad1b764a16e19324a5b77fbf0016df2965"
+    },
+    {
+      "path": "content/algebra-groups/center-of-group.knowl.md",
+      "source_sha256": "b836ae0a36f4dbd5f8d4ffe7c5d7dfba0696a87640e31d607a9dc914f7d43938"
+    },
+    {
+      "path": "content/algebra-groups/central-extension.knowl.md",
+      "source_sha256": "fbcbb961930f52345f7291a730140bf40bf7dbf12547c28d4eff2529ac0e1541"
+    },
+    {
+      "path": "content/algebra-groups/class-equation-decomposition.knowl.md",
+      "source_sha256": "e662b85d611029c28ed94d626247abddfe0b91fd07be862da1223207af0882d1"
+    },
+    {
+      "path": "content/algebra-groups/conjugation-action-self.knowl.md",
+      "source_sha256": "b8c2360dc4bb2183edcfd1fac5a4b4180cd719aed33b827cd20f84e90780e0f6"
+    },
+    {
+      "path": "content/algebra-groups/correspondence-theorem-groups.knowl.md",
+      "source_sha256": "d3d25ae88ed3439b96021c424006f2d6c2f3c0551ab7f4df45984a1ea9c96c13"
+    },
+    {
+      "path": "content/algebra-groups/first-isomorphism-consequence-groups.knowl.md",
+      "source_sha256": "e856e2e4031c59633e5c99f0c33fb7105cd3aa3acc5a22e9852e4d3db678a336"
+    },
+    {
+      "path": "content/algebra-groups/nilpotent-group.knowl.md",
+      "source_sha256": "6f5fe376b2913fe3f1ce918bf36b2101b13f9df1cb89e35e16dc9123b1f5eb8c"
+    },
+    {
+      "path": "content/algebra-groups/p-group.knowl.md",
+      "source_sha256": "45fc693919d6f71ed43896797f8f0a2deed0ec644bfffc80049dd8fb67133d19"
+    },
+    {
+      "path": "content/algebra-groups/perfect-group.knowl.md",
+      "source_sha256": "6852a01737699816fb47a3bfbae9bb16efe684540ed9d129804ee3a2f29f96c0"
+    },
+    {
+      "path": "content/algebra-groups/simple-group.knowl.md",
+      "source_sha256": "6609a5f889323db5adf4d602c5dcf491ca3391d80924ab34e84bd215c3c85396"
+    },
+    {
+      "path": "content/algebra-groups/subgroup.knowl.md",
+      "source_sha256": "7da1f4f529c9837a62c741bf3b73541e00786fe4f97dc20773bd17ca7fc6a939"
+    },
+    {
+      "path": "content/algebra-groups/sylow-conjugacy-lemma.knowl.md",
+      "source_sha256": "74930e4aac6dfc5e6deb0ce3a6ae07aada8f534a889cca1d260efe34fdc9d5e4"
+    },
+    {
+      "path": "content/algebra-groups/sylows-second-theorem.knowl.md",
+      "source_sha256": "37e6e27298cc0e2479db310ecc4ce669ef1fbc053c530c18167e8c98a2337f2c"
+    },
+    {
+      "path": "content/algebra-groups/torsion-free-group.knowl.md",
+      "source_sha256": "9af927a414ce1d7d7cf5da62ece01e061420ffde1126e258b519522cbe4547f8"
+    },
+    {
+      "path": "content/algebra-groups/uniqueness-of-identity-group.knowl.md",
+      "source_sha256": "478425de05a0c8e12a9c9d973756f2d8c29e41c179ee82a55c1cbef8023a29ba"
+    },
+    {
+      "path": "content/algebra-hyperstructures/fields-semifields-and-hyperfields.knowl.md",
+      "source_sha256": "c0483b786ad5a8dc9ccaad42c4fb451053cca9c3cb2b09b55854791180764222"
+    },
+    {
+      "path": "content/algebra-modules/basis-module.knowl.md",
+      "source_sha256": "5b3cd483154862fb4e70b6ff5d72d155416264a8a98563557f4ad3d81438c2d5"
+    },
+    {
+      "path": "content/algebra-modules/category-of-finitely-generated-projective-modules.knowl.md",
+      "source_sha256": "7ef0d8132ffd00ca8c5f7f331496d70ef59b40698105092391443921f6e7d78c"
+    },
+    {
+      "path": "content/algebra-modules/correspondence-theorem-modules.knowl.md",
+      "source_sha256": "ee6ea8b8c671da60d728797e65e96b222486e6cac471a97622c5bc552d1e8492"
+    },
+    {
+      "path": "content/algebra-modules/direct-sum-universal-property.knowl.md",
+      "source_sha256": "3d07042d4c9f2c3edaa829d6c52289a1b335a631f60e6a0b58182aa7cc1e452a"
+    },
+    {
+      "path": "content/algebra-modules/dual-module.knowl.md",
+      "source_sha256": "f33d5925cd7e16c044170350a3d919d492db6d214af54355e04fba31a30f8080"
+    },
+    {
+      "path": "content/algebra-modules/elementary-divisor-theorem.knowl.md",
+      "source_sha256": "6ccbc20dd0c2658c38da5a2afd5bffd2ace0afc3e2286c983d13f6ead14f19ab"
+    },
+    {
+      "path": "content/algebra-modules/finitely-generated-module.knowl.md",
+      "source_sha256": "55fff87e8c8ae02b924f58430ee640e9779a1eb411343350f43f210521a97d9e"
+    },
+    {
+      "path": "content/algebra-modules/graded-module.knowl.md",
+      "source_sha256": "ac54473aed3a583ed7c93a2c4c769cd36819c507a9b68f6034fbb3799d6e08c7"
+    },
+    {
+      "path": "content/algebra-modules/hom-sums-to-products.knowl.md",
+      "source_sha256": "08aa00a0b16a53b7cbf14c863d1c46a30a4268ec8beb07de65e7858fa9724836"
+    },
+    {
+      "path": "content/algebra-modules/kernel-image-submodules.knowl.md",
+      "source_sha256": "886a8ef93f820ef4d103c9e01032d6688fc63798a58b32de1b2cdd70d03ef1f5"
+    },
+    {
+      "path": "content/algebra-modules/tensor-hom-adjunction.knowl.md",
+      "source_sha256": "9a198c2ecfb5d9b97c9efc89d0204142bf08374bc0e7f7d78218efacbfaddef1"
+    },
+    {
+      "path": "content/algebra-modules/tensor-product.knowl.md",
+      "source_sha256": "e0f81acc45af6db7359e893752c53976d150ad7fe55096ad39486fda114ec9c6"
+    },
+    {
+      "path": "content/algebra-rings/characteristic-zero-or-prime.knowl.md",
+      "source_sha256": "764a5294d8185224202637f5ac15ff279d9ca112b685165a5d5ff990e3825dac"
+    },
+    {
+      "path": "content/algebra-rings/chinese-remainder-decomposition.knowl.md",
+      "source_sha256": "598c22e11103882c83bac5e5b6c5cbd115263c9ba23a7282ce2f7cb364acdd0c"
+    },
+    {
+      "path": "content/algebra-rings/content-formula.knowl.md",
+      "source_sha256": "a4f5aad931a24d6d412fe33a82402f094c10f3aae1d0dcd60fe5a2da8da36099"
+    },
+    {
+      "path": "content/algebra-rings/content-polynomial.knowl.md",
+      "source_sha256": "06ecda60ecfee8e2c704d2a93174ace0bc55071f529fdd0480b4fda5afd68649"
+    },
+    {
+      "path": "content/algebra-rings/eisensteins-criterion.knowl.md",
+      "source_sha256": "dcf0db7c80bdec6c3d41c70b81b4add35da046419ac15a78eb6e45db8bffcc2b"
+    },
+    {
+      "path": "content/algebra-rings/finite-division-ring-commutative.knowl.md",
+      "source_sha256": "317b3ac23239b13279087e64299b98c474af4268404acc80bcb7133e698e7b8a"
+    },
+    {
+      "path": "content/algebra-rings/finite-integral-domain-is-field.knowl.md",
+      "source_sha256": "22bd1b25632c8cc2998ceb3141fee858e4b024410277d9bb1eec55aae7baa67d"
+    },
+    {
+      "path": "content/algebra-rings/group-of-units.knowl.md",
+      "source_sha256": "88d800995b13b292a5ed0edb4395ba2855b89f86df4dc0f584c24b1de6b3c772"
+    },
+    {
+      "path": "content/algebra-rings/image-is-subring.knowl.md",
+      "source_sha256": "930ee3808602a63d9a813025a22f2d0b95c2a3d65ee3b7208decf0e875a8dd70"
+    },
+    {
+      "path": "content/algebra-rings/maximal-ideal-existence-corollary.knowl.md",
+      "source_sha256": "32bd0dca4857faf770b2fbcb68428b2bc2b30be390f97df5f1b9ce2c98554b34"
+    },
+    {
+      "path": "content/algebra-rings/ufd.knowl.md",
+      "source_sha256": "23c32e7d83426464a25717a931ad9ebf1ce933bc827c76fd6a21bac8a62fffa3"
+    },
+    {
+      "path": "content/algebra-rings/unique-factorization-theorem.knowl.md",
+      "source_sha256": "9310592fdaf407b4d8695e86997482ca6c2aa421b55003d6e12288f330d79a68"
+    },
+    {
+      "path": "content/algebra-rings/unit.knowl.md",
+      "source_sha256": "f39ae750f757d7b2a0db7cc6c1d7e7bca0eaf6810565cb92df63591b21666a33"
+    },
+    {
+      "path": "content/algebra-rings/unital-ring-axiom.knowl.md",
+      "source_sha256": "3e141913add97d536e099ff5e77fde83bf3ffcf0d4fce99d191b7f31574553df"
+    },
+    {
+      "path": "content/algebra-rings/unital-ring.knowl.md",
+      "source_sha256": "682ad4dcfcfe3616ddaf2a4c52d9f0aacdbc755d05d32e177934255631bd4ac9"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/band-as-an-ordered-blueprint.knowl.md",
+      "source_sha256": "9bdebf0f1c284d46d44084d7b92b68cfd16801e8fb223d5e4f6608e908b237ca"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/blueprint-as-an-ordered-blueprint.knowl.md",
+      "source_sha256": "8c8ec520f90508ee17700eed9a51a45051b09281a5e2d722a611249c523e7b0b"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/commutative-monoid-with-zero-as-a-blueprint.knowl.md",
+      "source_sha256": "892d1b0cedb627ed0f5322f78bf81e3c3987951881359b413a48240a6bc40ee9"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/hyperrings-as-ordered-blueprints.knowl.md",
+      "source_sha256": "e522753edb5bf07b8c2a30f71718c19ac83c97caa6b77ca28b15daa47c1388ac"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/idyll-as-ordered-blue-field.knowl.md",
+      "source_sha256": "6be380893d5ade78ff0856e8f623cf683c1c3a2a326277260aa51cea04fc5e50"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/projective-line-as-rank-one-flag-variety.knowl.md",
+      "source_sha256": "79d92b6b415dda15c7836f55abe8d856c2fd5a95b60832b78d9f048c732e665e"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/projective-morphism.knowl.md",
+      "source_sha256": "2f67d1b0236c54f06f96562ab5451db2bf83307be61e51836e87f7115ba5c40e"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/projective-semilinear-group.knowl.md",
+      "source_sha256": "a1743a1c924f61c8c7ee501ef0b6922806bbb9fa23b34b2a06c6fe646f8d51ff"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/semiring-as-a-blueprint.knowl.md",
+      "source_sha256": "71c5ecc896ed7d81d48127d9597cb282a17ee892c42c51b5c9b78e7d1197d731"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/sieve.knowl.md",
+      "source_sha256": "f94486dd2e61aafd00b60a5b6d0fe4b1087c6a409656ac3f764f5bfb2150b6cd"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/smooth-morphism.knowl.md",
+      "source_sha256": "8588f327a4d6c7a74e9a43d0e422a401bd0cb8ea4665e55d180c4d12811258dd"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/tilt-and-untilt.knowl.md",
+      "source_sha256": "1f2e4de9d87f9e4c436d6e4a54858dce5a26dbec315c2999bece7cb0b8ac87a7"
+    },
+    {
+      "path": "content/algebraic-geometry-foundations/unramified-morphism.knowl.md",
+      "source_sha256": "875120443f4858c8000ddcf72e3c938251148346401156f7e9a24e3ac60f3e26"
+    },
+    {
+      "path": "content/asymptotics/entropy-multinomial-coefficients.knowl.md",
+      "source_sha256": "8516d70ee4747905d65b2153fc58de3c08135508bf4a26f1e26f5a4e61f445d5"
+    },
+    {
+      "path": "content/complex-analysis/harmonic-subharmonic-pluriharmonic-relations.knowl.md",
+      "source_sha256": "609f9b1d3a50c87a5d4a2c7adac97766d67f0ac9af3b10850114daaece89005d"
+    },
+    {
+      "path": "content/complex-analysis/maximum-modulus-principle.knowl.md",
+      "source_sha256": "693b8c4d58eabe31c2b4d8f105132e7f2d1abea22272c4fcbc57088553e2a35d"
+    },
+    {
+      "path": "content/complex-analysis/monodromy-theorem.knowl.md",
+      "source_sha256": "b6d9e768cc21934efea1b19f34ae7bf07ba761c52a9a8c9cc03c2b594ee295e1"
+    },
+    {
+      "path": "content/complex-analysis/montel-theorem.knowl.md",
+      "source_sha256": "a50f0dc67be0284a9ea18cb8d121a56a4215f4ea8b1b30e30bac093691c9ae10"
+    },
+    {
+      "path": "content/complex-analysis/normal-family.knowl.md",
+      "source_sha256": "124993d8390704b4fcf584f71e7c5e4559273734f5562e3469e0aeab7833c1d6"
+    },
+    {
+      "path": "content/complex-analysis/octonionic-monge-ampere-measure.knowl.md",
+      "source_sha256": "5d1b145a4d22eeb0ec8efa9e76f9388fae633cf3dc4ae26a24f8d286882b0615"
+    },
+    {
+      "path": "content/complex-analysis/open-mapping-theorem.knowl.md",
+      "source_sha256": "3205d8653fede32783526480891b3a58765d6e7561afae69333678632f427a57"
+    },
+    {
+      "path": "content/complex-analysis/order-of-zero-or-pole.knowl.md",
+      "source_sha256": "47c5188a0e3ccc82d913073074096a1a040a0b4f0bffa4b9407c321ee6ad2d21"
+    },
+    {
+      "path": "content/complex-analysis/pluriharmonic-function.knowl.md",
+      "source_sha256": "723dd873a69fb0ed5202fc5d2cc7fe2414f951e806e879f9a9802b3783a811be"
+    },
+    {
+      "path": "content/complex-analysis/plurisubharmonic-function.knowl.md",
+      "source_sha256": "60cf28ddde13465b8dd30a420a0a4bc6be397e8f78187757b9c77a8f588badfd"
+    },
+    {
+      "path": "content/complex-analysis/quaternionic-monge-ampere-continuity-theorem.knowl.md",
+      "source_sha256": "0b23341f5e3f33f1ba0801e4a24acd8d69969254e9031c497f55a3b147d86bb1"
+    },
+    {
+      "path": "content/complex-analysis/quaternionic-monge-ampere-measure.knowl.md",
+      "source_sha256": "5008d6dca09b79ce50846db34ad23874bc8933b24a6601708e1e3597e0a7ba80"
+    },
+    {
+      "path": "content/complex-analysis/schwarzian-chain-rule.knowl.md",
+      "source_sha256": "af4af0d39ae60832da4b848d429a2911087d410e2d4c5f1978bdd6a0b83e8e70"
+    },
+    {
+      "path": "content/convex-analysis/basic-properties-of-closed-sets.knowl.md",
+      "source_sha256": "a2d1a9aa18e127797346325d7a16235089d8e9b918d7b82bae9a18a6c02d7619"
+    },
+    {
+      "path": "content/convex-analysis/closed-balls-are-closed-sets.knowl.md",
+      "source_sha256": "fe05db1b49f1815dc2f98443215c23ab759bca3fd7dc3890c836f20970927d66"
+    },
+    {
+      "path": "content/convex-analysis/closed-sets-characterized-by-sequences-version-i.knowl.md",
+      "source_sha256": "e89b8c2ce22123d76788611caa657c99619d43a8c37484879aebd3fdf121ed9d"
+    },
+    {
+      "path": "content/convex-analysis/closed-sets-characterized-by-sequences-version-ii.knowl.md",
+      "source_sha256": "3fefc8546cb0172603787a868ce6feca5e639a480d2ed5d3fce2188e877d2244"
+    },
+    {
+      "path": "content/convex-analysis/convexity-characterized-by-positive-semidefinite-hessian.knowl.md",
+      "source_sha256": "907bbe70ab76a54ba015c9bff31fcf4030bb632ed008db38f28e7ce6ac669ff3"
+    },
+    {
+      "path": "content/convex-analysis/domain-of-a-convex-function-is-convex.knowl.md",
+      "source_sha256": "6c4961418b91e73eef643a254263a081a00773a2341f27bdd85e408260d10d84"
+    },
+    {
+      "path": "content/convex-analysis/equivalent-characterizations-of-convex-functions.knowl.md",
+      "source_sha256": "003446c34920bf978f7430c4a1fb09f9d8a3b21006287366b0f2eff95c326e03"
+    },
+    {
+      "path": "content/convex-analysis/quasiconvex-function.knowl.md",
+      "source_sha256": "3f507242b76b1793a52c65c032749916da62403e23f09293d0e6c8a1c3c5bae6"
+    },
+    {
+      "path": "content/convex-analysis/semialgebraic-set.knowl.md",
+      "source_sha256": "6ee0d0acd1b4c40e5ac78092800abb627bbdafe2e7da3c3962ba1e2cd2989bb8"
+    },
+    {
+      "path": "content/convex-analysis/weighted-arithmeticgeometric-mean-inequality.knowl.md",
+      "source_sha256": "9aa7f08fb971fb90f01b1ed59c1bddec4bbe303b9f8f617bf125678857aed9d3"
+    },
+    {
+      "path": "content/differential-geometry/action-angle-coordinates.knowl.md",
+      "source_sha256": "c7c07076ab51d32110d106b8a76c1a931f4c184a983a7a1c6ee4b57b9360be27"
+    },
+    {
+      "path": "content/differential-geometry/almost-complex-map.knowl.md",
+      "source_sha256": "f044e861a93ad45ac04365538482b719af2ac71d961a9347a6a09c6201c54d3f"
+    },
+    {
+      "path": "content/differential-geometry/almost-complex-structure.knowl.md",
+      "source_sha256": "fc0393ba6bff023ec2611f1000b78c779f2a6ed3d39a38f4a9d0cdcad84f5032"
+    },
+    {
+      "path": "content/differential-geometry/almost-quaternionic-manifold.knowl.md",
+      "source_sha256": "5183be97e4a8bcb34771da7d97f1cbcf2d79a5da94cb06a85b764be2a6672e83"
+    },
+    {
+      "path": "content/differential-geometry/associated-graded-clifford-algebra.knowl.md",
+      "source_sha256": "0867b6c7d508ecc031b40ef76650ce7bcc3d780d7c7386467fdee0f5a259fe33"
+    },
+    {
+      "path": "content/differential-geometry/biholomorphism.knowl.md",
+      "source_sha256": "a932489bd91f52b28b02887859d0b5cdee90ff414cffd114341540dcf3cac87a"
+    },
+    {
+      "path": "content/differential-geometry/category-of-smooth-manifolds.knowl.md",
+      "source_sha256": "426052c31ab366c9b0af6abd15cf2e8cc156f1408f4951e837ec7a758600b4ee"
+    },
+    {
+      "path": "content/differential-geometry/celestial-sphere.knowl.md",
+      "source_sha256": "2d00edce6804c09fcce35bc6f596b01055afa316f198f10888ec87e51c18a282"
+    },
+    {
+      "path": "content/differential-geometry/compactly-supported-differential-form.knowl.md",
+      "source_sha256": "1815a9b80c6be96af81546a249d50aee70eb232c5cb45c109f60ad2fdea5baf2"
+    },
+    {
+      "path": "content/differential-geometry/diffeomorphism-group.knowl.md",
+      "source_sha256": "18fd5fd7faa58c0a3d59c234f0c6d98777726a0eba124446c139b5e2fcdb54ea"
+    },
+    {
+      "path": "content/differential-geometry/einstein-manifold.knowl.md",
+      "source_sha256": "1a52bb932792e4ab0da2eeede120445fa580f0a9bb566e84a4b39a529a596b9c"
+    },
+    {
+      "path": "content/differential-geometry/exact-symplectic-manifold.knowl.md",
+      "source_sha256": "c0d4914297da88f6b93e8c28b4a88132541bdea34546d57adc20b212e7906d83"
+    },
+    {
+      "path": "content/differential-geometry/formal-adjoint-differential-operator.knowl.md",
+      "source_sha256": "15742541de54ce1a98d2a501ac00f02e82c418d24f724bfd80b4deea0a8674a2"
+    },
+    {
+      "path": "content/differential-geometry/frolicher-spectral-sequence.knowl.md",
+      "source_sha256": "ae683d3fd98f40447ba50df0161094b99b4ec092bb31e12aeee3bfd8e93c2fed"
+    },
+    {
+      "path": "content/differential-geometry/fubini-study-metric.knowl.md",
+      "source_sha256": "1ed285687ccb0f81fb3b4f24e3e16b5327d7967945a5818cb0121f3785724d65"
+    },
+    {
+      "path": "content/differential-geometry/geodesic-flow.knowl.md",
+      "source_sha256": "3fef3a3c6eed3a8631fb8432f4d3ac0dcd02d00c4f039c806107d0b3ae402f0b"
+    },
+    {
+      "path": "content/differential-geometry/hermitian-manifold.knowl.md",
+      "source_sha256": "8c6aea8d6c729fe6a39bf3b8a99f71f96ae1b6624316c89463c2e0678200f1e9"
+    },
+    {
+      "path": "content/differential-geometry/hodge-filtration.knowl.md",
+      "source_sha256": "b67f4e33b81fe3e49e349fda77f3ee0387efc8c967e8e3ee6feab0cc1944d7cd"
+    },
+    {
+      "path": "content/differential-geometry/hyperbolic-three-space.knowl.md",
+      "source_sha256": "aa2099249c73e6f44bcb1a65063bc82b3830c0cc43bd3f4b5fa442d4decd3f57"
+    },
+    {
+      "path": "content/differential-geometry/kahler-manifold.knowl.md",
+      "source_sha256": "8a45244694be33e763521390b8e858a32319192897bc939e4759ca7c88a2caac"
+    },
+    {
+      "path": "content/differential-geometry/maslov-class-lagrangian-submanifold.knowl.md",
+      "source_sha256": "7d1a4c32bb0f9d1539a620af46986e6ce6d32ca2aef1e3680b62ef350577610d"
+    },
+    {
+      "path": "content/differential-geometry/maslov-cycle.knowl.md",
+      "source_sha256": "b71acb7dfbd1a5b7a43291ec2a31412bb6dad88bebc369cb632f345c09699527"
+    },
+    {
+      "path": "content/differential-geometry/maslov-index.knowl.md",
+      "source_sha256": "29ebf4f4e7921bb6f4536f4dd1122ae60ac1fbc2fa1f607591f40405fde0590c"
+    },
+    {
+      "path": "content/differential-geometry/relative-maslov-index.knowl.md",
+      "source_sha256": "2dacabc2ccbba3a5eec36ee5bbd78135b5b415a09dfd6e7540cbc78aa0ade88f"
+    },
+    {
+      "path": "content/differential-geometry/ricci-curvature.knowl.md",
+      "source_sha256": "f43798c00404473b3d150fca8a9fe7e8e82fb3c088e500d34b7dc9097e578718"
+    },
+    {
+      "path": "content/differential-geometry/riemann-curvature-tensor.knowl.md",
+      "source_sha256": "e46c09bf0b3831c02f45ce941ba518b9680a1f01b7f0102a1caa58dc3d489550"
+    },
+    {
+      "path": "content/differential-geometry/riemannian-manifold.knowl.md",
+      "source_sha256": "0b25d36f58c8c81672c84c7ca3aaf65ece5b0e238d9f5e00d53e5fb75781a925"
+    },
+    {
+      "path": "content/differential-geometry/sards-theorem.knowl.md",
+      "source_sha256": "aae88e09a7ec43a7b5364c079a6b9a3cc4d2b0553e0e2e7438cc6b2cd7034a7c"
+    },
+    {
+      "path": "content/differential-geometry/smooth-maps-from-smooth-function-algebras.knowl.md",
+      "source_sha256": "faf1630fbd86f42f9c383083274d469a55514f0b353c9922cc1cefd34d61a0a7"
+    },
+    {
+      "path": "content/differential-geometry/stokes-theorem.knowl.md",
+      "source_sha256": "015df19a0a9117b7eae177d7ee9ea309a36b0390ff74df6ec7eef477bced840e"
+    },
+    {
+      "path": "content/differential-geometry/symplectic-lie-group-action.knowl.md",
+      "source_sha256": "467c99c863c7e94f5e1cf635b3016363b14d3ae012764acc4dc1f714c6071ffd"
+    },
+    {
+      "path": "content/differential-geometry/symplectic-manifold.knowl.md",
+      "source_sha256": "8015ea82ee72e41cbcdba1a2ce81584dbcb6dabe58aefd702db2cceb2f774103"
+    },
+    {
+      "path": "content/differential-geometry/weyl-spinor.knowl.md",
+      "source_sha256": "a48a09e10355f415f9f939c8e4900cea5ec35f3d3fd360535506e930fee09d2f"
+    },
+    {
+      "path": "content/differential-geometry/whitney-c-infinity-topology.knowl.md",
+      "source_sha256": "d1f5206a7d3ef31a3a3d6722fdd87d7bf7879cc16236c71dd941e5d644dec883"
+    },
+    {
+      "path": "content/differential-geometry/whitney-embedding-theorem.knowl.md",
+      "source_sha256": "c47ff672b07963b1fcb0b4cdd488b48a626cd2273bc7a932810fdfa3b8741120"
+    },
+    {
+      "path": "content/discrete-structures/graph-vertex-edge.knowl.md",
+      "source_sha256": "e832c8599a9a5efa2f862057a7a082c7e4df2cd797bdf78f7987c90af0fb6243"
+    },
+    {
+      "path": "content/fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action.knowl.md",
+      "source_sha256": "0bb4b917166f6d4265c15a9fbccb98d44196c4240a14b7752be7e6eecf9a6632"
+    },
+    {
+      "path": "content/fiber-bundles/associated-bundle.knowl.md",
+      "source_sha256": "955934d822aae58bcd2089801adaa6a594139007c0bfa302d4dc6aa3f7f497ee"
+    },
+    {
+      "path": "content/fiber-bundles/associated-vector-bundle.knowl.md",
+      "source_sha256": "fc1c8432b6f73d2b8652e0f5f650914ba3292fe5fb540469497a20f47196c995"
+    },
+    {
+      "path": "content/fiber-bundles/atiyah-sequence-tpgtm0.knowl.md",
+      "source_sha256": "416e1cfc3411cad4953f1f9add991c1420bae40525b355c0ae259d59243a4471"
+    },
+    {
+      "path": "content/fiber-bundles/basic-forms-theorem.knowl.md",
+      "source_sha256": "00edc834577f9a4f35b3a8a5123ae2a8e2294186c0daab597462d8b8fe680e67"
+    },
+    {
+      "path": "content/fiber-bundles/bianchi-identity.knowl.md",
+      "source_sha256": "59856c6d38d6685290fdf6695d35c64607c23c58bd79ea2bd680cf0fc7cced6e"
+    },
+    {
+      "path": "content/fiber-bundles/bundle-isomorphism.knowl.md",
+      "source_sha256": "58b92cd47cadc93af22bc69d5fc80fa35f80c83944e0da51cf8c79ed36e7f683"
+    },
+    {
+      "path": "content/fiber-bundles/bundle-metric.knowl.md",
+      "source_sha256": "5b92c7a6fbef88c832ae70ed914b5bb5b1687c5347f15047bf6ee1d0828e459f"
+    },
+    {
+      "path": "content/fiber-bundles/bundle-of-connections.knowl.md",
+      "source_sha256": "b9a608b2c5edd1cd3cde9844f2480b06d256f943fbd56bab40e21554324bbe0f"
+    },
+    {
+      "path": "content/fiber-bundles/bundle-of-orbits.knowl.md",
+      "source_sha256": "3b72308c9338a7fa14c305f73e0c1083def178bb18f063a71bdadf3eef621350"
+    },
+    {
+      "path": "content/fiber-bundles/cartans-second-structure-equation.knowl.md",
+      "source_sha256": "deb5b3bfc0e0fd6fa8a39c2064852508ab3e8e3ff4704b42a6752a89414e4533"
+    },
+    {
+      "path": "content/fiber-bundles/category-of-vector-bundles-over-a-manifold.knowl.md",
+      "source_sha256": "a4cba5a677e6d3cad65ef960dcf94f223ee17c0425cc7b5b706b72ef3d264941"
+    },
+    {
+      "path": "content/fiber-bundles/cech-cocycle-groupoid.knowl.md",
+      "source_sha256": "bdaa23752e9684154b5fdf45501a208e7e4444b3df08edbc4e96e224b5d3b23c"
+    },
+    {
+      "path": "content/fiber-bundles/chern-gauss-bonnet-theorem.knowl.md",
+      "source_sha256": "7628c83a75e3bb954fe2323ff4183f87c14c95e4ba582107f925a19467d23d4f"
+    },
+    {
+      "path": "content/fiber-bundles/chernweil-form.knowl.md",
+      "source_sha256": "0a7499062f0513cc020402dfaad0863f0c2b03e2656558cbfc49e12d7db8fb9a"
+    },
+    {
+      "path": "content/fiber-bundles/clutching-function.knowl.md",
+      "source_sha256": "83a55ed0abbdbafee17d5a4de051fa1d7909fffd20e1ca712dfc9cf89ce8b9b5"
+    },
+    {
+      "path": "content/fiber-bundles/coadjoint-action-of-a-lie-group.knowl.md",
+      "source_sha256": "ab607f90a2605a56e1b02a661f801260ff035ea31aa947e3c99b59b1f5b8c6c5"
+    },
+    {
+      "path": "content/fiber-bundles/complex-vector-bundle.knowl.md",
+      "source_sha256": "f455fd23e9fb57128daa19e4bac8ce974c5ef1e18e4638d3108ab84e1920daef"
+    },
+    {
+      "path": "content/fiber-bundles/connection-compatible-with-a-reduction.knowl.md",
+      "source_sha256": "018add73a251b0e1452be4bf759ff3b44a170293a5c630f459b1d1ef2df6a194"
+    },
+    {
+      "path": "content/fiber-bundles/construction-adjoint-bundle-ad.knowl.md",
+      "source_sha256": "0ff8efd02b5c725883f5fafa4b3d2718e8c375689aa65776ece7ca107334e0dd"
+    },
+    {
+      "path": "content/fiber-bundles/construction-adjoint-lie-algebra-bundle-ad.knowl.md",
+      "source_sha256": "67da614008fc408fd7843073601c9e84bf41151793fcb7df8f5a744038e63800"
+    },
+    {
+      "path": "content/fiber-bundles/construction-associated-bundle-p-g-f-from-a-left-g-space-f.knowl.md",
+      "source_sha256": "a44df1556098e45ef4459bb028798d72b1bbf6c33efc89ffa812f86015e45abd"
+    },
+    {
+      "path": "content/fiber-bundles/construction-induced-map-on-associated-bundles-from-a-principal-bundle-morphism.knowl.md",
+      "source_sha256": "78c30e098c7b8c6c0fd81d35f10d44dd4894c645aa2ecf05c0ec5007ea2ab670"
+    },
+    {
+      "path": "content/fiber-bundles/construction-local-trivialization-from-a-local-section.knowl.md",
+      "source_sha256": "9ee3844e66bc7c5914d485b0adb58a0a0442092714ae48dda4148756fb152f3b"
+    },
+    {
+      "path": "content/fiber-bundles/construction-quotient-manifold-pg-for-a-free-proper-g-action.knowl.md",
+      "source_sha256": "61f12b49c7aa91626ac1ba6ad33ade7201a69cafb5786c1f23dee4e2167beaf3"
+    },
+    {
+      "path": "content/fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection.knowl.md",
+      "source_sha256": "03a2b6d1c67a4759fa89aca13f0302977065339e169b5757fe7f7f363913ef80"
+    },
+    {
+      "path": "content/fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle.knowl.md",
+      "source_sha256": "50ea1657d4a3ceb2dfec4473e035f0c129f787bc49d5f2e6ae85cf2ea24951a4"
+    },
+    {
+      "path": "content/fiber-bundles/corollary-isomorphic-principal-bundles-have-identical-chernweil-characteristic-classes.knowl.md",
+      "source_sha256": "35d34e1d50fae3cea0dc476d2ac45e003c8f6cc9732caa372fc804eb332de430"
+    },
+    {
+      "path": "content/fiber-bundles/curvature-as-a-moment-map.knowl.md",
+      "source_sha256": "03c765f66e4f94431da240a9e65e00efb26b269ce7a431bcf5a519a9facecbb4"
+    },
+    {
+      "path": "content/fiber-bundles/curvature-of-a-vector-bundle-connection.knowl.md",
+      "source_sha256": "601d93685e296740b8049a713e2c27a901f80bc5edb50e6ee18f541a1e056a13"
+    },
+    {
+      "path": "content/fiber-bundles/differential-k-form.knowl.md",
+      "source_sha256": "3379d901b9494b359277f6e2b936a0763b670330ea06e904b7a3e54491bf6514"
+    },
+    {
+      "path": "content/fiber-bundles/differential-of-a-smooth-map.knowl.md",
+      "source_sha256": "792bb326e6fce281cdb574c3fac4c9bbdf5be394a7c72c2c3eb8d04aaf032ea4"
+    }
+  ],
+  "integration_note": "Hashes identify the final sources after root resolved findings; original reviewer findings and root resolutions retained."
+}

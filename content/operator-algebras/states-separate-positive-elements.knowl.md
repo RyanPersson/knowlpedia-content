@@ -63,7 +63,7 @@ eigenvalue defines a [[operator-algebras/vector-state|vector state]] attaining
 \(\|a\|\).
 
 A single faithful state need not recover the norm of every positive element.
-For example, normalized matrix trace assigns \(1/n\) to a rank-one projection,
+For example, normalized matrix trace assigns \(1/n\) to a [[quantum-foundations/rank-one-projector|rank-one projection]],
 although that projection has norm \(1\). The theorem requires the whole state
 space.
 

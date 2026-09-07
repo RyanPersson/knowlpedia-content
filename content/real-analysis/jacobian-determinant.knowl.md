@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-For a differentiable map \(f:U\to\mathbb{R}^n\), where \(U\subseteq\mathbb{R}^n\), the **Jacobian determinant** of \(f\) at \(a\in U\) is the [[linear-algebra/determinant|determinant]] of its [[real-analysis/jacobian-matrix|Jacobian matrix]]:
+For a [[real-analysis/differentiable-map|differentiable map]] \(f:U\to\mathbb{R}^n\), where \(U\subseteq\mathbb{R}^n\), the **Jacobian determinant** of \(f\) at \(a\in U\) is the [[linear-algebra/determinant|determinant]] of its [[real-analysis/jacobian-matrix|Jacobian matrix]]:
 \[
 \det Jf(a).
 \]
@@ -20,5 +20,5 @@ The Jacobian determinant controls local invertibility and local volume scaling: 
 
 ## Examples
 
-- For the linear map \(f(x,y)=(2x,3y)\), one has \(\det Jf(x,y)=6\) for all \((x,y)\).
+- For the [[linear-algebra/linear-map|linear map]] \(f(x,y)=(2x,3y)\), one has \(\det Jf(x,y)=6\) for all \((x,y)\).
 - For \(f(r,\theta)=(r\cos\theta,r\sin\theta)\), the Jacobian determinant is \(\det Jf(r,\theta)=r\).

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Abel's theorem:** Let \(\sum_{n=0}^\infty a_n\) be a convergent series of real or complex numbers, with sum \(s\). For \(0\le x<1\), define
+**Abel's theorem:** Let \(\sum_{n=0}^\infty a_n\) be a [[real-analysis/convergent-series|convergent series]] of real or [[shared-foundations/complex-numbers-c|complex numbers]], with sum \(s\). For \(0\le x<1\), define
 \[
 f(x)=\sum_{n=0}^\infty a_n x^n.
 \]

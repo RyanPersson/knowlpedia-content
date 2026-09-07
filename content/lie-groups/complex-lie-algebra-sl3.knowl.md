@@ -24,13 +24,13 @@ For the [[lie-groups/cartan-subalgebra|Cartan subalgebra]] of diagonal trace-zer
 \[
 \varepsilon_i-\varepsilon_j\qquad(i\ne j),
 \]
-and one may take \(\varepsilon_1-\varepsilon_2\) and \(\varepsilon_2-\varepsilon_3\) as [[lie-groups/simple-root|simple roots]]. The corresponding Dynkin diagram has two nodes joined by one edge.
+and one may take \(\varepsilon_1-\varepsilon_2\) and \(\varepsilon_2-\varepsilon_3\) as [[lie-groups/simple-root|simple roots]]. The corresponding [[lie-groups/dynkin-diagram|Dynkin diagram]] has two nodes joined by one edge.
 
 The tensor products \(\mathbf3\otimes\mathbf3\cong\mathbf6\oplus\mathbf{\bar3}\) and \(\mathbf3\otimes\mathbf{\bar3}\cong\mathbf1\oplus\mathbf8\) are frequently used to recognize \(A_2\)-modules.
 
 ## Groups and real forms
 
-The [[lie-groups/simply-connected-lie-group|simply connected]] complex group is \(SL(3,\mathbb C)\), with center \(\mu_3\); its adjoint form is \(PSL(3,\mathbb C)\). The [[lie-groups/compact-real-form|compact real form]] integrates to \(SU(3)\), while \(SL(3,\mathbb R)\) is the split real form. Thus a paper that writes \(\mathfrak{sl}_3\) over \(\mathbb C\) is not automatically referring to the compact group \(SU(3)\), even though their representation theories are closely related by complexification.
+The [[lie-groups/simply-connected-lie-group|simply connected]] complex group is \(SL(3,\mathbb C)\), with center \(\mu_3\); its adjoint form is \(PSL(3,\mathbb C)\). The [[lie-groups/compact-real-form|compact real form]] integrates to \(SU(3)\), while \(SL(3,\mathbb R)\) is the split real form. Thus a paper that writes \(\mathfrak{sl}_3\) over \(\mathbb C\) is not automatically referring to the compact group \(SU(3)\), even though their representation theories are closely related by [[linear-algebra/complexification|complexification]].
 
 ## Paper context
 

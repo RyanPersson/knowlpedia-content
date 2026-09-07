@@ -26,7 +26,7 @@ Here “dual data” means the appropriate
 parameter or representation. For self-dual data with the usual reality
 conditions, \(w\in\{+1,-1\}\) and
 is often called the **sign of the functional equation**.  Without self-duality
-the root number can be any complex number of absolute value one.
+the root number can be any complex number of [[real-analysis/absolute-value|absolute value]] one.
 
 ## Local root numbers
 

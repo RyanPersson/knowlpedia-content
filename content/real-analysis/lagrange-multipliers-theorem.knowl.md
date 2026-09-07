@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Lagrange multipliers theorem:** Let \(U\subseteq\mathbb R^n\) be an [[topology/open-set|open set]], let \(f:U\to\mathbb R\) and \(g:U\to\mathbb R^m\) be continuously differentiable with \(m<n\), and let \(S=\{x\in U: g(x)=0\}\). Assume \(x^\ast\in S\) is a local extremum of \(f\) on \(S\) and that \(Dg(x^\ast)\) has rank \(m\). Define the Lagrangian
+**Lagrange multipliers theorem:** Let \(U\subseteq\mathbb R^n\) be an [[topology/open-set|open set]], let \(f:U\to\mathbb R\) and \(g:U\to\mathbb R^m\) be continuously differentiable with \(m<n\), and let \(S=\{x\in U: g(x)=0\}\). Assume \(x^\ast\in S\) is a [[real-analysis/local-extremum|local extremum]] of \(f\) on \(S\) and that \(Dg(x^\ast)\) has rank \(m\). Define the Lagrangian
 \[
 L(x,\lambda)=f(x)-\sum_{i=1}^m \lambda_i g_i(x).
 \]

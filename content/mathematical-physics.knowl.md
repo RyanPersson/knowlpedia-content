@@ -110,7 +110,7 @@ Thus on Minkowski spacetime \(\Box=\partial_t^2-\sum_i\partial_i^2\). Every oper
 
 ## Analytic boundary
 
-Riemannian scalar and Dirac operators are elliptic; Lorentzian wave operators are normally hyperbolic, and Lorentzian Dirac operators have the null cone as their characteristic set. Compact-spectrum statements from Riemannian geometry therefore do not transfer to relativistic evolution problems. Conversely, Cauchy evolution and finite propagation speed belong to the Lorentzian setting and require causal hypotheses such as global hyperbolicity.
+Riemannian scalar and Dirac operators are elliptic; Lorentzian wave operators are [[mathematical-physics/normally-hyperbolic-operator|normally hyperbolic]], and Lorentzian Dirac operators have the null cone as their characteristic set. Compact-spectrum statements from [[differential-geometry/riemannian-manifold|Riemannian geometry]] therefore do not transfer to relativistic evolution problems. Conversely, Cauchy evolution and finite propagation speed belong to the Lorentzian setting and require causal hypotheses such as [[differential-geometry/globally-hyperbolic-spacetime|global hyperbolicity]].
 
 ## References
 

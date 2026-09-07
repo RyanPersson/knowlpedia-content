@@ -25,7 +25,7 @@ of \(G\).
 
 ## Regular versus strongly regular
 
-For a connected reductive group in characteristic zero, regular semisimple
+For a connected reductive group in [[algebra-rings/characteristic|characteristic]] zero, regular semisimple
 elements have torus centralizer, so the two phrases are often used
 interchangeably. In greater generality, “regular” can be defined by minimal
 centralizer dimension while “strongly regular” also requires the centralizer

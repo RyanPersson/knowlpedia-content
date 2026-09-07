@@ -19,7 +19,7 @@ A\longrightarrow C_0(\Delta(A)),\qquad a\longmapsto
 (\chi\mapsto\chi(a)),
 \]
 is an isometric \(*\)-isomorphism, while
-evaluation gives a homeomorphism \(X\cong\Delta(C_0(X))\) for every
+evaluation gives a [[topology/homeomorphism|homeomorphism]] \(X\cong\Delta(C_0(X))\) for every
 [[topology/locally-compact-space|locally compact]]
 [[topology/hausdorff-space|Hausdorff space]] \(X\). Moreover, a proper
 [[topology/continuous-map|continuous map]] \(f:X\to Y\) corresponds contravariantly to the

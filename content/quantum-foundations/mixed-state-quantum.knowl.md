@@ -2,7 +2,7 @@
 id = "quantum-foundations/mixed-state-quantum"
 title = "Mixed quantum state"
 kind = "knowl"
-summary = "A quantum state described by a density operator that is not a rank-one projector."
+summary = "A quantum state described by a [[quantum-foundations/density-operator|density operator]] that is not a rank-one projector."
 aliases = ["mixed-state-quantum", "Mixed quantum state"]
 domains = ["quantum-foundations"]
 legacy_source_path = "quantum-foundations/mixed-state-quantum.md"
@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **mixed quantum state** on a finite-dimensional complex Hilbert space \(H\) is a [[quantum-foundations/density-operator|density-operator]] \(\rho\) that is **not** pure (see [[quantum-foundations/pure-state-quantum|pure-state-quantum]]). Concretely, \(\rho\) is mixed iff it cannot be written as \(|\psi\rangle\langle\psi|\) for any unit vector \(\psi\).
+A **mixed quantum state** on a [[quantum-foundations/complex-hilbert-space-finite|finite-dimensional complex Hilbert space]] \(H\) is a [[quantum-foundations/density-operator|density-operator]] \(\rho\) that is **not** pure (see [[quantum-foundations/pure-state-quantum|pure-state-quantum]]). Concretely, \(\rho\) is mixed iff it cannot be written as \(|\psi\rangle\langle\psi|\) for any unit vector \(\psi\).
 
 ## Equivalent characterizations
 For a density operator \(\rho\), the following are equivalent:
@@ -22,7 +22,7 @@ For a density operator \(\rho\), the following are equivalent:
 - The [[quantum-foundations/von-neumann-entropy|von-neumann-entropy]] satisfies \(S(\rho) > 0\).
 
 ## Convex-mixture form
-Every density operator admits a decomposition as a convex combination of pure states:
+Every density operator admits a decomposition as a [[convex-analysis/convex-combination|convex combination]] of pure states:
 \[
 \rho = \sum_i p_i\, |\psi_i\rangle\langle\psi_i|,
 \quad p_i\ge 0,\ \sum_i p_i=1.
@@ -43,4 +43,4 @@ Mixed states appear in (at least) two mathematically distinct ways:
   \[
   \rho_* = \frac{I}{d},
   \]
-  which has the largest von Neumann entropy \(S(\rho_*)=\log d\).
+  which has the largest [[quantum-foundations/von-neumann-entropy|von Neumann entropy]] \(S(\rho_*)=\log d\).
