@@ -6,28 +6,28 @@ summary = "A canonical adelic Haar measure assembled from an invariant different
 aliases = ["Tamagawa measure on an algebraic group", "Tamagawa number", "adelic Tamagawa measure"]
 domains = ["langlands", "number-theory", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "harmonic-analysis/haar-measure", "langlands-letter/knowls/adeles-restricted-product", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/maximal-torus-weight-lattice"]
+prerequisites = ["algebraic-geometry-foundations/algebraic-group", "algebra-fields-galois/global-local-fields-completions", "harmonic-analysis/haar-measure", "algebra-fields-galois/adeles-restricted-product", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/maximal-torus-weight-lattice"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/algebraic-group|linear algebraic group]] over
-a [[langlands-letter/knowls/global-local-fields-completions|global field]]
+a [[algebra-fields-galois/global-local-fields-completions|global field]]
 \(F\).
 Choose a nonzero invariant top-degree differential form \(\omega\) on \(G\).
 At each place \(v\), its absolute value gives a local
 [[harmonic-analysis/haar-measure|Haar measure]]
 \(|\omega|_v\) on \(G(F_v)\).  After inserting the standard local convergence
 factors at almost every place, the
-[[langlands-letter/knowls/adeles-restricted-product|restricted product]] of
+[[algebra-fields-galois/adeles-restricted-product|restricted product]] of
 these measures is the **Tamagawa measure** on \(G(\mathbb A_F)\).
 
 Multiplying \(\omega\) by an element of \(F^\times\) does not change the
 global measure, by the product formula.  The convergence factors are essential
 for [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 groups]] with nontrivial
-[[langlands-letter/knowls/maximal-torus-weight-lattice|characters]]; a bare
+[[algebraic-geometry-foundations/maximal-torus-weight-lattice|characters]]; a bare
 product of local
 differential-form measures need not converge.
 

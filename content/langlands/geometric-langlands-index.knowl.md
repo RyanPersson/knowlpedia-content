@@ -30,7 +30,7 @@ foundations index]].
 - [[algebraic-geometry-foundations/algebraic-stack|Algebraic stack]]
 - [[algebraic-geometry-foundations/principal-g-bundle-on-scheme|Principal \(G\)-bundle on a scheme]]
 - [[algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve|\(\operatorname{Bun}_G(X)\)]]
-- [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]
+- [[langlands/langlands-dual-group|Langlands dual group]]
 - [[langlands/g-local-system|\(G\)-local system]]
 - [[langlands/moduli-stack-of-g-local-systems|\(\operatorname{LocSys}_G(X)\)]]
 - [[langlands/global-nilpotent-cone|Global nilpotent cone]]

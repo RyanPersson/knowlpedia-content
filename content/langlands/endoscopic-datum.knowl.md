@@ -6,13 +6,13 @@ summary = "Dual-group data defining a reductive endoscopic group and its L-embed
 aliases = ["endoscopy datum", "endoscopic data", "elliptic endoscopic datum"]
 domains = ["langlands", "algebraic-geometry-foundations", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/quasi-split-reductive-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/langlands-functoriality-l-homomorphism", "langlands/l-group", "langlands-letter/knowls/langlands-dual-group", "algebra-groups/centralizer", "shared-foundations/equivalence-relation"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "algebra-fields-galois/global-local-fields-completions", "algebraic-geometry-foundations/quasi-split-reductive-group", "algebraic-geometry-foundations/semisimple-element-and-class", "langlands/langlands-functoriality-l-homomorphism", "langlands/l-group", "langlands/langlands-dual-group", "algebra-groups/centralizer", "shared-foundations/equivalence-relation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[algebra-fields-galois/local-field|local]] or [[langlands-letter/knowls/global-local-fields-completions|global field]] \(F\).
+[[algebra-fields-galois/local-field|local]] or [[algebra-fields-galois/global-local-fields-completions|global field]] \(F\).
 An **endoscopic datum** for \(G\) is, in a commonly used shorthand, a triple
 
 \[
@@ -22,16 +22,16 @@ An **endoscopic datum** for \(G\) is, in a commonly used shorthand, a triple
 where \(H\) is a
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
 connected reductive \(F\)-group, \(s\in\widehat G\) is
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]], and
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]], and
 
 \[
 \eta:{}^L H\longrightarrow {}^L G
 \]
 
 \(\eta\) is an
-[[langlands-letter/knowls/langlands-functoriality-l-homomorphism|\(L\)-homomorphism]]
+[[langlands/langlands-functoriality-l-homomorphism|\(L\)-homomorphism]]
 between [[langlands/l-group|\(L\)-groups]], identifying the
-[[langlands-letter/knowls/langlands-dual-group|dual group]] \(\widehat H\)
+[[langlands/langlands-dual-group|dual group]] \(\widehat H\)
 with the identity component
 \(\operatorname{Cent}(s,\widehat G)^\circ\) of a
 [[algebra-groups/centralizer|centralizer]], subject to the

@@ -20,7 +20,7 @@ states that every [[lie-groups/irreducible-unitary-representation|irreducible]]
 \[
 \pi(0,0,z)=e^{i\lambda z}I
 \]
-is unitarily equivalent to the [[shale-paper/schrodinger-representation|Schrödinger representation]] on
+is unitarily equivalent to the [[mathematical-physics/schrodinger-representation|Schrödinger representation]] on
 \(L^2(\mathbb R^n)\). Thus fixing a nontrivial character of the center fixes
 the [[algebra-representation-theory/irreducible-representation|irreducible representation]] up to unitary equivalence; among representations
 with nontrivial central action, varying the character gives the family indexed

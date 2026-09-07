@@ -21,7 +21,7 @@ ds^2=\frac{4(dx^2+dy^2)}{(1-|z|^2)^2}.
 
 ## Properties
 
-This metric has constant Gaussian curvature \(-1\), so \(\mathbb D\) is a
+This metric has constant [[differential-geometry/gaussian-curvature|Gaussian curvature]] \(-1\), so \(\mathbb D\) is a
 model of the hyperbolic plane.
 
 ## Geodesics and boundary

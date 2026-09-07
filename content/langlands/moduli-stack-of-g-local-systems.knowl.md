@@ -43,7 +43,7 @@ sheaves on it have a
 
 Geometric Langlands uses
 \(\operatorname{LocSys}_{\widehat G}(X)\), where \(\widehat G\) is the
-[[langlands-letter/knowls/langlands-dual-group|dual group]]. Its relevant
+[[langlands/langlands-dual-group|dual group]]. Its relevant
 sheaf category is generally
 [[langlands/ind-coherent-sheaves-with-nilpotent-singular-support|\(\operatorname{IndCoh}_{\mathcal N}\)]],
 not merely quasi-coherent sheaves.

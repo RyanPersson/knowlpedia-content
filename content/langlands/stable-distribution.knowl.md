@@ -52,7 +52,7 @@ The [[langlands/stable-trace-formula|stable trace formula]] rewrites invariant
 trace-formula distributions as combinations of stable distributions on
 endoscopic groups. Stability is therefore the distributional language in
 which [[langlands/endoscopic-transfer|packet transfer]] and
-[[langlands-letter/knowls/langlands-functoriality-l-homomorphism|functoriality]]
+[[langlands/langlands-functoriality-l-homomorphism|functoriality]]
 become visible.
 
 ## References

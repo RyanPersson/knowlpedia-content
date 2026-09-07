@@ -6,18 +6,18 @@ summary = "Cuspidal automorphic representations of GL_n are determined by their 
 aliases = ["strong multiplicity one", "multiplicity one for GL_n", "strong multiplicity one for automorphic representations"]
 domains = ["langlands", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "langlands-letter/knowls/adeles-restricted-product", "langlands/satake-parameter"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "algebra-fields-galois/adeles-restricted-product", "langlands/satake-parameter"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global field]], and
+[[algebra-fields-galois/global-local-fields-completions|global field]], and
 let \(\pi\) and \(\pi'\) be
 [[langlands/cuspidal-automorphic-representation|cuspidal automorphic
 representations]] of
 \(\operatorname{GL}_n(\mathbb A_F)\), where \(\mathbb A_F\) is the
-[[langlands-letter/knowls/adeles-restricted-product|adele ring]]. If
+[[algebra-fields-galois/adeles-restricted-product|adele ring]]. If
 
 \[
 \pi_v\simeq\pi'_v
@@ -50,7 +50,7 @@ can be distinct, so the statement is not valid without modification.
 ## Use in reciprocity
 
 If an automorphic construction matches
-[[langlands-letter/knowls/frobenius-unramified|Frobenius]] or Satake data
+[[algebra-fields-galois/frobenius-unramified|Frobenius]] or Satake data
 outside a
 finite set of places, strong multiplicity one identifies the resulting
 general-linear-group representation globally.  On the Galois side,

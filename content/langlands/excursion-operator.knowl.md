@@ -6,7 +6,7 @@ summary = "An operator on cuspidal automorphic forms built by creating shtuka le
 aliases = ["excursion operators", "Lafforgue excursion operator"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/langlands-dual-group", "lie-groups/right-translation", "langlands-letter/knowls/galois-extension-and-group", "langlands/automorphic-form"]
+prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/langlands-dual-group", "lie-groups/right-translation", "algebra-fields-galois/galois-extension-and-group", "langlands/automorphic-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -23,10 +23,10 @@ An **excursion operator** is indexed by
 where \(I\) is a finite set,
 \(f\in\mathcal O(\widehat G\backslash\widehat G^I/\widehat G)\) is an
 [[fiber-bundles/invariant-function|invariant function]] on powers of the
-[[langlands-letter/knowls/langlands-dual-group|dual group]], invariant
+[[langlands/langlands-dual-group|dual group]], invariant
 under diagonal left and [[lie-groups/right-translation|right translation]], and
 \(\gamma_i\) lies in the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 \(\operatorname{Gal}(\overline F/F)\). It defines an endomorphism
 
 \[
@@ -60,7 +60,7 @@ depends only on \(I,f,(\gamma_i)\), not on the chosen realization
 
 ## Why many legs are necessary
 
-[[langlands-letter/knowls/characters-separate-semisimple-classes|Characters
+[[algebra-representation-theory/characters-separate-semisimple-classes|Characters
 of single dual-group elements do not distinguish all semisimple
 homomorphisms]] into a general reductive group. Simultaneous
 [[fiber-bundles/invariant-function|invariant functions]] on \(\widehat G^I\) for all finite \(I\) retain the

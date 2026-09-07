@@ -43,7 +43,7 @@ Twisted conjugacy also appears in the nonidentity components of
 [[algebra-groups/semidirect-product|semidirect products]] such as
 \(\widehat G\rtimes\langle\theta\rangle\): ordinary conjugacy within the
 coset of the
-[[langlands-letter/knowls/langlands-dual-group|dual group]]
+[[langlands/langlands-dual-group|dual group]]
 \(\widehat G\theta\) becomes
 \(\theta\)-conjugacy in \(\widehat G\).
 
@@ -54,7 +54,7 @@ can likewise compare twisted conjugacy over the base field with twisted
 conjugacy over an
 [[algebra-fields-galois/algebraic-closure|algebraic closure]]. The latter gives
 stable twisted classes, whose rational orbits are controlled by Galois
-[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|Galois
+[[algebra-fields-galois/nonabelian-h1-galois-cohomology|Galois
 cohomology]] of the twisted centralizer.
 
 ## References

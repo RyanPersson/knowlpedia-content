@@ -6,9 +6,9 @@ summary = "A symmetric limiting prescription for certain singular or non-absolut
 aliases = ["principal value integral", "p.v. integral", "PV integral"]
 domains = ["real-analysis", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["real-analysis/limit-of-a-function-at-a-point", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 For a function \(g\) singular at \(t=0\), its **Cauchy principal value** is

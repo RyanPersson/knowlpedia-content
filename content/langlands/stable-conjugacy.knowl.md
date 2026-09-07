@@ -6,7 +6,7 @@ summary = "Conjugacy over an algebraic closure, retaining the Galois descent cla
 aliases = ["stably conjugate", "stable conjugacy class"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/strongly-regular-semisimple-element", "algebra-fields-galois/algebraic-closure", "algebra-groups/centralizer", "langlands-letter/knowls/galois-extension-and-group"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands/strongly-regular-semisimple-element", "algebra-fields-galois/algebraic-closure", "algebra-groups/centralizer", "algebra-fields-galois/galois-extension-and-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -26,14 +26,14 @@ For more general semisimple elements, the standard definition additionally
 requires the cocycle \(g^{-1}\sigma(g)\) to lie in the identity component of
 the [[algebra-groups/centralizer|centralizer]] \(G_\gamma\) for every
 \(\sigma\) in the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 \(\operatorname{Gal}(\overline F/F)\).
 
 ## Rational classes inside a stable class
 
 Fix strongly regular \(\gamma\) and write \(T=G_\gamma\). The
 \(G(F)\)-conjugacy classes in its stable class are parametrized by a kernel in
-[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|nonabelian Galois
+[[algebra-fields-galois/nonabelian-h1-galois-cohomology|nonabelian Galois
 cohomology]]:
 
 \[

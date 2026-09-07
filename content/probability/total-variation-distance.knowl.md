@@ -24,8 +24,8 @@ d_{\mathrm{TV}}(P,Q)=\frac12\int_\Omega |p-q|\,d\mu.
 
 ## Examples
 
-- For Bernoulli laws with parameters \(p\) and \(q\), \(d_{\mathrm{TV}}(P,Q)=|p-q|\).
-- For probability mass functions \((p_i)\) and \((q_i)\) on a finite set,
+- For [[probability/bernoulli-distribution|Bernoulli laws]] with parameters \(p\) and \(q\), \(d_{\mathrm{TV}}(P,Q)=|p-q|\).
+- For [[probability/probability-mass-function|probability mass functions]] \((p_i)\) and \((q_i)\) on a finite set,
   \[
   d_{\mathrm{TV}}(P,Q)=\frac12\sum_i|p_i-q_i|.
   \]

@@ -6,7 +6,7 @@ summary = "The finite group of connected components of the dual-group centralize
 aliases = ["Langlands component group", "Arthur component group", "A_phi", "S_phi"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["langlands/local-l-parameter", "algebra-groups/centralizer", "langlands-letter/knowls/langlands-dual-group", "langlands/l-packet"]
+prerequisites = ["langlands/local-l-parameter", "algebra-groups/centralizer", "langlands/langlands-dual-group", "langlands/l-packet"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -27,7 +27,7 @@ A_\varphi=\pi_0(S_\varphi).
 
 Here \(Z_{\widehat G}(\operatorname{im}\varphi)\) is the
 [[algebra-groups/centralizer|centralizer]] of the parameter image in the
-[[langlands-letter/knowls/langlands-dual-group|dual group]]. It measures the
+[[langlands/langlands-dual-group|dual group]]. It measures the
 disconnectedness of the dual-group symmetries that commute
 with the parameter and is the starting point for the internal
 parametrization of the [[langlands/l-packet|\(L\)-packet]].

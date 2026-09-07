@@ -6,7 +6,7 @@ summary = "The normalization-sensitive local constant in the functional equation
 aliases = ["epsilon factor", "local epsilon constant", "epsilon(s,V,psi)"]
 domains = ["langlands", "number-theory", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/local-field", "langlands/weil-deligne-representation", "algebra-representation-theory/character", "langlands-letter/knowls/euler-product-and-local-factor", "harmonic-analysis/haar-measure", "langlands/local-gamma-factor", "langlands-letter/knowls/contragredient-representation", "langlands/artin-conductor"]
+prerequisites = ["algebra-fields-galois/local-field", "langlands/weil-deligne-representation", "algebra-representation-theory/character", "langlands/euler-product-and-local-factor", "harmonic-analysis/haar-measure", "langlands/local-gamma-factor", "algebra-representation-theory/contragredient-representation", "langlands/artin-conductor"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -24,7 +24,7 @@ choose a nontrivial additive
 \]
 
 is the nonzero elementary factor that occurs with the
-[[langlands-letter/knowls/euler-product-and-local-factor|local
+[[langlands/euler-product-and-local-factor|local
 \(L\)-factors]] in the functional equation. With a self-dual
 [[harmonic-analysis/haar-measure|Haar measure]] for \(\psi\), the associated
 [[langlands/local-gamma-factor|gamma factor]] satisfies
@@ -36,7 +36,7 @@ is the nonzero elementary factor that occurs with the
 \]
 
 Here \(V^\vee\) is the
-[[langlands-letter/knowls/contragredient-representation|contragredient]]
+[[algebra-representation-theory/contragredient-representation|contragredient]]
 Weil–Deligne representation. For nonarchimedean \(F\), the epsilon factor is
 a nonzero constant times an integral power of \(q_F^{-s}\). The exponent
 records the [[langlands/artin-conductor|Artin conductor]].
@@ -48,7 +48,7 @@ character and on the Haar-measure convention.  Replacing \(\psi(x)\) by
 \(\psi(ax)\) changes it by an explicit determinant and absolute-value factor.
 Every comparison must therefore fix:
 
-- [[langlands-letter/knowls/frobenius-unramified|arithmetic or geometric
+- [[algebra-fields-galois/frobenius-unramified|arithmetic or geometric
   Frobenius]];
 - the [[langlands/local-class-field-theory|reciprocity-map]] normalization;
 - the additive character; and

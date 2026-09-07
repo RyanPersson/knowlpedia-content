@@ -38,7 +38,7 @@ endomorphism]] of \(S\).
 
 A level structure along a finite subscheme \(N\subset X\), disjoint from the
 legs, trivializes the bundle compatibly with \(\varphi\). If a representation
-\(W\) of the [[langlands-letter/knowls/langlands-dual-group|dual group]]
+\(W\) of the [[langlands/langlands-dual-group|dual group]]
 \(\widehat G^I\) is used instead of a tuple of coweights,
 [[langlands/geometric-satake-equivalence|geometric Satake]] supplies the
 corresponding bound and
@@ -47,7 +47,7 @@ corresponding bound and
 Because the stack is generally not of finite type, one also uses
 [[algebraic-geometry-foundations/harder-narasimhan-filtration|Harder–Narasimhan
 truncations]] and a quotient by a lattice in the
-[[langlands-letter/knowls/adeles-restricted-product|adelic]] center.
+[[algebra-fields-galois/adeles-restricted-product|adelic]] center.
 
 ## Iterated modifications
 

@@ -6,7 +6,7 @@ summary = "In characteristic zero, the automorphic category of half-twisted D-mo
 aliases = ["geometric Langlands conjecture", "categorical geometric Langlands"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/langlands-dual-group", "algebraic-geometry-foundations/d-module", "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve", "langlands/ind-coherent-sheaves-with-nilpotent-singular-support", "langlands/moduli-stack-of-g-local-systems", "langlands/global-nilpotent-cone"]
+prerequisites = ["algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/langlands-dual-group", "algebraic-geometry-foundations/d-module", "algebraic-geometry-foundations/moduli-stack-of-g-bundles-on-a-curve", "langlands/ind-coherent-sheaves-with-nilpotent-singular-support", "langlands/moduli-stack-of-g-local-systems", "langlands/global-nilpotent-cone"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,7 @@ Let \(X\) be a [[algebraic-geometry-foundations/smooth-projective-curve|smooth
 projective connected curve]] over an algebraically closed
 field of characteristic \(0\), let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]], and
 let \(\widehat G\) be its
-[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]. The
+[[langlands/langlands-dual-group|Langlands dual group]]. The
 modern de Rham **categorical geometric Langlands theorem** gives an
 equivalence
 \[

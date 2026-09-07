@@ -45,7 +45,7 @@ spectral side, individual characters inside an \(L\)-packet are likewise
 unstable.
 
 Fourier analysis on the
-[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|cohomological
+[[algebra-fields-galois/nonabelian-h1-galois-cohomology|cohomological
 obstruction groups]] separates these unstable terms into
 [[langlands/kappa-orbital-integral|\(\kappa\)-pieces]]. Endoscopic transfer identifies each
 piece with a stable distribution on an endoscopic group.

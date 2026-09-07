@@ -15,7 +15,7 @@ Let \(\mathcal H\) be a [[linear-algebra/hilbert-space|Hilbert space]]. The **ul
 \[
 \operatorname{Tr}(T_iS)\longrightarrow\operatorname{Tr}(TS)
 \]
-for every [[shale-paper/trace-class-operator|trace-class operator]] \(S\). Equivalently, it is the weakest locally convex topology making all such trace-pairing functionals continuous. This realizes \(\mathcal B(\mathcal H)\) as a dual [[linear-algebra/banach-space|Banach space]].
+for every [[functional-analysis/trace-class-operator|trace-class operator]] \(S\). Equivalently, it is the weakest locally convex topology making all such trace-pairing functionals continuous. This realizes \(\mathcal B(\mathcal H)\) as a dual [[linear-algebra/banach-space|Banach space]].
 
 ## Equivalent seminorm description
 
@@ -27,7 +27,7 @@ where \((\xi_n)\) and \((\eta_n)\) are square-summable sequences in \(\mathcal H
 
 ## Comparison with other operator topologies
 
-Ultraweak convergence implies [[operator-algebras/weak-operator-topology|weak-operator convergence]] because vector functionals correspond to rank-one [[shale-paper/trace-class-operator|trace-class operators]]. On norm-bounded subsets of \(\mathcal B(\mathcal H)\), the two topologies agree, but they differ globally. The ultraweak topology is generally much weaker than the operator-norm topology and is not the Banach-space weak topology \(\sigma(\mathcal B(\mathcal H),\mathcal B(\mathcal H)^*)\).
+Ultraweak convergence implies [[operator-algebras/weak-operator-topology|weak-operator convergence]] because vector functionals correspond to rank-one [[functional-analysis/trace-class-operator|trace-class operators]]. On norm-bounded subsets of \(\mathcal B(\mathcal H)\), the two topologies agree, but they differ globally. The ultraweak topology is generally much weaker than the operator-norm topology and is not the Banach-space weak topology \(\sigma(\mathcal B(\mathcal H),\mathcal B(\mathcal H)^*)\).
 
 ## Von Neumann algebras
 

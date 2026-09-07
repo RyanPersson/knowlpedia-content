@@ -6,7 +6,7 @@ summary = "The theorem attaching a unique semisimple local L-parameter to an irr
 aliases = ["Fargues–Scholze parameter", "Fargues Scholze semisimple local Langlands correspondence", "Fargues-Scholze L-parameter"]
 domains = ["langlands", "representation-theory", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebra-groups/conjugacy-class", "langlands-letter/knowls/semisimple-element-and-class", "langlands/weil-group", "langlands/l-group"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "harmonic-analysis/smooth-representation-totally-disconnected-group", "algebra-groups/conjugacy-class", "algebraic-geometry-foundations/semisimple-element-and-class", "langlands/weil-group", "langlands/l-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -21,7 +21,7 @@ normalizations in Fargues–Scholze theory, every irreducible
 \(\overline{\mathbb Q}_\ell\)-representation \(\pi\) of \(G(E)\) has a
 canonically attached [[algebra-groups/conjugacy-class|conjugacy class]] of
 continuous
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple parameter]]
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple parameter]]
 
 \[
 \varphi_\pi^{\mathrm{FS}}:
@@ -49,7 +49,7 @@ theory]] for tori and, for
 [[langlands/local-langlands-correspondence-for-gln|local Langlands
 correspondence]]. It is compatible with products,
 [[algebra-representation-theory/central-character|central characters]],
-twists, [[langlands-letter/knowls/contragredient-representation|contragredients]],
+twists, [[algebra-representation-theory/contragredient-representation|contragredients]],
 restriction along maps inducing an isomorphism on
 adjoint groups, [[algebraic-geometry-foundations/weil-restriction|Weil
 restriction]], and

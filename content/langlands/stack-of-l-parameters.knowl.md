@@ -6,15 +6,15 @@ summary = "The quotient stack of continuous dual-group-valued Weil cocycles by d
 aliases = ["stack of L-parameters", "moduli stack of Langlands parameters", "spectral parameter stack"]
 domains = ["langlands", "algebraic-geometry-foundations", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands/weil-group", "langlands-letter/knowls/langlands-dual-group", "langlands-letter/knowls/pinned-automorphisms", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/algebraic-stack", "langlands/l-group"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands/weil-group", "langlands/langlands-dual-group", "algebraic-geometry-foundations/pinned-automorphisms", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/algebraic-stack", "langlands/l-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(E\) be a
 [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(W_E\) be its [[langlands/weil-group|Weil group]], and let the
-[[langlands-letter/knowls/langlands-dual-group|dual group]] \(\widehat G\)
-carry the [[langlands-letter/knowls/pinned-automorphisms|pinned]]
+[[langlands/langlands-dual-group|dual group]] \(\widehat G\)
+carry the [[algebraic-geometry-foundations/pinned-automorphisms|pinned]]
 \(W_E\)-action determined by a
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(E\)-group]] \(G\). The **stack of local \(L\)-parameters** is the
@@ -47,7 +47,7 @@ necessary for [[langlands/component-group-of-l-parameter|packet
 enhancements]] and
 categorical actions. The coarse conjugacy-class set loses it, and the
 invariant-function spectrum can identify nonclosed orbits with their
-[[langlands-letter/knowls/semisimple-element-and-class|semisimplifications]].
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimplifications]].
 
 ## Algebraic construction
 

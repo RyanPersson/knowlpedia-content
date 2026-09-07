@@ -6,7 +6,7 @@ summary = "Invertible elementary, trace-class, and Hilbert–Schmidt perturbatio
 aliases = ["glh0-glh1-glh2", "Shale's Subgroups GL(H)₀, GL(H)₁, GL(H)₂"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/glh0-glh1-glh2.md"
-prerequisites = ["shale-paper/trace-class-operator", "shale-paper/hilbert-schmidt-operator"]
+prerequisites = ["functional-analysis/trace-class-operator", "shale-paper/hilbert-schmidt-operator"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -18,7 +18,7 @@ GL(H)_i=\{I+X\in GL(H):X\in\mathcal I_i\},\qquad i=0,1,2.
 Thus:
 
 - \(i=0\): \(X\) **elementary** (finite-rank/finite-dimensional support).
-- \(i=1\): \(X\) [[shale-paper/trace-class-operator|trace-class]].
+- \(i=1\): \(X\) [[functional-analysis/trace-class-operator|trace-class]].
 - \(i=2\): \(X\) [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]].
 
 ## Remarks

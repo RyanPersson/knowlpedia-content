@@ -7,7 +7,8 @@ aliases = ["volume element", "volume differential form"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
 prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/differential-k-form", "differential-geometry/orientation-of-a-smooth-manifold"]
-dependency_heuristic = "semantic-full-review-v1"
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(M\) be an [[differential-geometry/orientation-of-a-smooth-manifold|oriented]] [[fiber-bundles/smooth-manifold|smooth \(n\)-manifold]]. A **volume form** on \(M\) is a smooth nowhere-vanishing [[fiber-bundles/differential-k-form|differential \(n\)-form]] \(\mu\) that is positive on every positively oriented basis of each tangent space.

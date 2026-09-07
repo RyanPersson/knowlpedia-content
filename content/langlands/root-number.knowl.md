@@ -6,13 +6,13 @@ summary = "The unit-modulus constant in a normalized local or global L-function 
 aliases = ["local root number", "global root number", "sign of the functional equation"]
 domains = ["langlands", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/euler-product-and-local-factor", "langlands-letter/knowls/contragredient-representation"]
+prerequisites = ["langlands/euler-product-and-local-factor", "algebra-representation-theory/contragredient-representation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 After an
-[[langlands-letter/knowls/euler-product-and-local-factor|\(L\)-function]] has
+[[langlands/euler-product-and-local-factor|\(L\)-function]] has
 been completed and normalized so that its functional
 equation relates \(s\) to \(1-s\), its **global root number** is the
 unit-modulus constant \(w\) in
@@ -22,7 +22,7 @@ unit-modulus constant \(w\) in
 \]
 
 Here “dual data” means the appropriate
-[[langlands-letter/knowls/contragredient-representation|contragredient]]
+[[algebra-representation-theory/contragredient-representation|contragredient]]
 parameter or representation. For self-dual data with the usual reality
 conditions, \(w\in\{+1,-1\}\) and
 is often called the **sign of the functional equation**.  Without self-duality

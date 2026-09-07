@@ -6,14 +6,14 @@ summary = "An equality between geometric orbital distributions and spectral auto
 aliases = ["Arthur trace formula", "Selberg trace formula for reductive groups", "invariant trace formula"]
 domains = ["langlands", "harmonic-analysis", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "langlands-letter/knowls/adeles-restricted-product", "harmonic-analysis/test-function-space-local-group", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/global-local-fields-completions", "algebra-fields-galois/adeles-restricted-product", "harmonic-analysis/test-function-space-local-group", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 For a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\) over a
-[[langlands-letter/knowls/global-local-fields-completions|global field]]
-\(F\) and a suitable [[langlands-letter/knowls/adeles-restricted-product|adelic]]
+[[algebra-fields-galois/global-local-fields-completions|global field]]
+\(F\) and a suitable [[algebra-fields-galois/adeles-restricted-product|adelic]]
 [[harmonic-analysis/test-function-space-local-group|test function]] \(f\), the
 **Arthur–Selberg trace formula** is an
 identity

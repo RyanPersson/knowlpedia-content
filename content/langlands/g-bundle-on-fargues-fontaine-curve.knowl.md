@@ -69,7 +69,7 @@ The bundle \(\mathcal E_b\) is
 [[algebraic-geometry-foundations/harder-narasimhan-filtration|semistable]]
 exactly when \(b\) is basic,
 meaning that its Newton point is central. On the basic stratum, \(G_b\) is
-an [[langlands-letter/knowls/galois-descent-forms|inner form]] of \(G\). The
+an [[algebraic-geometry-foundations/galois-descent-forms|inner form]] of \(G\). The
 trivial class gives the open stratum
 
 \[

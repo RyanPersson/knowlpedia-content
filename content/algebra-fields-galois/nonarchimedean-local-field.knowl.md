@@ -25,7 +25,7 @@ value]].
 
 In characteristic \(0\), \(F\) is a finite extension of \(\mathbb Q_p\) for a
 unique prime \(p\), hence a
-[[langlands-letter/knowls/p-adic-field|\(p\)-adic field]]. In positive
+[[algebra-fields-galois/p-adic-field|\(p\)-adic field]]. In positive
 characteristic, \(F\) is isomorphic to a finite extension of
 \(\mathbb F_q((t))\).
 

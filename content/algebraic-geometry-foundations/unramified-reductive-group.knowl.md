@@ -6,7 +6,7 @@ summary = "A reductive group over a nonarchimedean local field that is quasi-spl
 aliases = ["unramified group", "unramified connected reductive group"]
 domains = ["algebraic-geometry-foundations", "langlands", "algebra-groups"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/quasi-split-reductive-group", "langlands-letter/knowls/unramified-extension-local"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-fields-galois/unramified-extension-local"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,7 +17,7 @@ Let \(F\) be a
 \(F\)-group]] \(G\) is **unramified** if it is
 [[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]] over
 \(F\) and becomes split over a finite
-[[langlands-letter/knowls/unramified-extension-local|unramified extension]] of
+[[algebra-fields-galois/unramified-extension-local|unramified extension]] of
 \(F\).
 
 This is a property of the
@@ -33,7 +33,7 @@ Equivalently, \(G\) extends to a reductive
 [[algebra-fields-galois/valuation-ring|valuation ring]] \(\mathcal O_F\).
 Then
 \(\mathcal G(\mathcal O_F)\) is a
-[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial maximal
+[[harmonic-analysis/maximal-compact-hyperspecial|hyperspecial maximal
 compact subgroup]] of \(G(F)\).  Conversely, the existence of a hyperspecial
 vertex in the Bruhat–Tits building characterizes unramified \(G\).
 
@@ -44,9 +44,9 @@ even though unramifiedness is intrinsic.
 
 For an unramified group and a chosen hyperspecial subgroup, the spherical
 Hecke algebra has a normalized
-[[langlands-letter/knowls/spherical-hecke-algebra-satake|Satake isomorphism]].
+[[harmonic-analysis/spherical-hecke-algebra-satake|Satake isomorphism]].
 Its [[algebra-representation-theory/character|characters]] correspond to
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]]
 [[algebra-groups/conjugacy-class|conjugacy classes]] in the unramified
 part of the [[langlands/l-group|L-group]].
 

@@ -23,7 +23,7 @@ Equivalently, \(\mathfrak u\) is a real form of \(\mathfrak g\) that is the [[li
 
 Every complex semisimple Lie algebra has a compact real form. Any two compact real forms are conjugate by an [[algebra-groups/inner-automorphism|inner automorphism]] of the complex Lie algebra.
 
-One construction starts from a [[langlands-letter/knowls/chevalley-basis|Chevalley basis]] \(h_i,e_\alpha\) and takes the real span of
+One construction starts from a [[lie-groups/chevalley-basis|Chevalley basis]] \(h_i,e_\alpha\) and takes the real span of
 \[
 i h_i,\qquad e_\alpha-e_{-\alpha},\qquad i(e_\alpha+e_{-\alpha})
 \]

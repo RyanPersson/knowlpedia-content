@@ -6,7 +6,7 @@ summary = "The tensor category of spherical perverse sheaves on Gr_G is equivale
 aliases = ["geometric Satake correspondence"]
 domains = ["langlands", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/perverse-sheaf", "langlands/affine-grassmannian", "langlands-letter/knowls/langlands-dual-group", "langlands/intersection-cohomology-complex", "langlands/affine-schubert-variety", "langlands/dominant-coweight"]
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "langlands/perverse-sheaf", "langlands/affine-grassmannian", "langlands/langlands-dual-group", "langlands/intersection-cohomology-complex", "langlands/affine-schubert-variety", "langlands/dominant-coweight"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -24,7 +24,7 @@ equivalence** identifies the convolution tensor category of
 \]
 the tensor category of finite-dimensional algebraic \(E\)-representations of
 the split reductive \(E\)-group with root datum dual to that of \(G\), the
-[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
+[[langlands/langlands-dual-group|Langlands dual group]].
 
 Under these characteristic-zero hypotheses, the
 [[langlands/intersection-cohomology-complex|intersection-cohomology complex]]

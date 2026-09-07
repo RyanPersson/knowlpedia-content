@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-A **bilinear form** on [[linear-algebra/vector-space|vector spaces]] \(V\) and \(W\) over a field \(\mathbb{F}\) is a map
+A **bilinear form** on [[linear-algebra/vector-space|vector spaces]] \(V\) and \(W\) over a [[algebra-rings/field|field]] \(\mathbb{F}\) is a map
 \[
 B:V\times W\to \mathbb{F}
 \]

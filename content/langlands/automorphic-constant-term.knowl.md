@@ -6,13 +6,13 @@ summary = "The integral of an automorphic form along the unipotent radical of a 
 aliases = ["automorphic constant term", "constant term along a parabolic", "parabolic constant term"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/unipotent-radical", "langlands/automorphic-form", "langlands-letter/knowls/adeles-restricted-product", "harmonic-analysis/haar-measure", "algebraic-geometry-foundations/levi-subgroup", "harmonic-analysis/parabolic-modulus-character"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/parabolic-subgroup", "algebraic-geometry-foundations/unipotent-radical", "langlands/automorphic-form", "algebra-fields-galois/adeles-restricted-product", "harmonic-analysis/haar-measure", "algebraic-geometry-foundations/levi-subgroup", "harmonic-analysis/parabolic-modulus-character"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global field]], let
+[[algebra-fields-galois/global-local-fields-completions|global field]], let
 \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]], and let \(P=MN\) be a
@@ -20,7 +20,7 @@ Let \(F\) be a
 [[algebraic-geometry-foundations/unipotent-radical|unipotent radical]] \(N\).
 For an [[langlands/automorphic-form|automorphic form]] \(\phi\) on
 \(G(F)\backslash G(\mathbb A_F)\), where \(\mathbb A_F\) is the
-[[langlands-letter/knowls/adeles-restricted-product|adele ring]], its
+[[algebra-fields-galois/adeles-restricted-product|adele ring]], its
 **constant term along \(P\)** is
 
 \[
@@ -47,7 +47,7 @@ from lower-rank Levi subgroups.
 
 ## Eisenstein series and truncation
 
-Constant terms of [[langlands-letter/knowls/eisenstein-series|Eisenstein
+Constant terms of [[langlands/eisenstein-series|Eisenstein
 series]] are finite sums involving standard intertwining operators.  Their
 asymptotics control poles,
 [[langlands/residual-automorphic-spectrum|residual representations]], and the

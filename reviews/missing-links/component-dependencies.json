@@ -1,0 +1,521 @@
+{
+  "scope": "All 33 mathematical entries outside the main component with reviewed-only enabled; catalog and organizational pages hidden.",
+  "before": {
+    "all_links_components": 23,
+    "reviewed_links_components": 33
+  },
+  "reviews": [
+    {
+      "id": "convex-analysis/piecewise-polynomial-function",
+      "outcome": "corrected",
+      "source_sha256": "99847985a8d803d0ad737c9dcca892fa7b47f3fe6dd872bc15865fbbcfd30b63",
+      "evidence": "The piecewise formula uses multivariate polynomials, obtained by iterating polynomial rings; the existing semialgebraic-set prerequisite is retained.",
+      "previous_prerequisites": [
+        "convex-analysis/semialgebraic-set"
+      ],
+      "prerequisites": [
+        "convex-analysis/semialgebraic-set",
+        "algebra-rings/polynomial-ring"
+      ],
+      "added_prerequisites": [
+        "algebra-rings/polynomial-ring"
+      ]
+    },
+    {
+      "id": "convex-analysis/semialgebraic-set",
+      "outcome": "corrected",
+      "source_sha256": "c14c2e9fe84dc2a823637fa7eee77ba6df958dee6ac4ef1018932ec7a9eb764a",
+      "evidence": "The defining sets and polynomial sign conditions require subsets and polynomial rings; no link to the one-real-variable polynomial knowl.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/subset",
+        "algebra-rings/polynomial-ring"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/subset",
+        "algebra-rings/polynomial-ring"
+      ]
+    },
+    {
+      "id": "algebra-commutative/jacobson-annihilates-simples",
+      "outcome": "corrected",
+      "source_sha256": "8684b8c7f9b61b327616e554a5e34e536156cea588ca2e46e50d6a439104443b",
+      "evidence": "The theorem names J(R) and a right module. The radical target explicitly covers annihilators of simple right modules; the module target includes right modules, unlike the left-only simple-module target.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "algebra-rings/jacobson-radical",
+        "algebra-modules/module"
+      ],
+      "added_prerequisites": [
+        "algebra-rings/jacobson-radical",
+        "algebra-modules/module"
+      ]
+    },
+    {
+      "id": "algebraic-geometry-foundations/local-diffeomorphism",
+      "outcome": "corrected",
+      "source_sha256": "56c76b379f0ed23739c498fa3a8f5d8c719204b258c01dfc0224fb8452a1f7cd",
+      "evidence": "Its defining restriction must be a diffeomorphism between open neighborhoods; smooth-map/manifold prerequisites are already supplied transitively by diffeomorphism.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "topology/open-set"
+      ],
+      "added_prerequisites": [
+        "fiber-bundles/diffeomorphism",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "analysis/dyadic-annulus",
+      "outcome": "corrected",
+      "source_sha256": "12b5f21511e39a8b417e673c88bcbeb6eaacafe1596bd6f81d36da17c17b71ea",
+      "evidence": "The radial inequalities use the Euclidean norm on R^d. Bump functions occur only in later applications and are not prerequisites of the shell definition.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "linear-algebra/euclidean-norm"
+      ],
+      "added_prerequisites": [
+        "linear-algebra/euclidean-norm"
+      ]
+    },
+    {
+      "id": "analysis/finitely-overlapping-family",
+      "outcome": "corrected",
+      "source_sha256": "bb4ae4417d0c0fc8827a5e5f50bc536f6f482703c2ffa7ae3892ca4ec5a4a9ad",
+      "evidence": "The multiplicity bound sums indicators of an indexed family. Tonelli is a later consequence, not a defining dependency.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/indexed-family-of-sets",
+        "measure-theory/indicator-function"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/indexed-family-of-sets",
+        "measure-theory/indicator-function"
+      ]
+    },
+    {
+      "id": "convex-analysis/subsequence-index-bound-n_k-k",
+      "outcome": "corrected",
+      "source_sha256": "73f5c95d7cca5572c0000bae7e40a365730d13b54835fd49c19da9a4b5c9dc7e",
+      "evidence": "The statement is about a sequence of positive integers. Subsequence is an application, not a prerequisite for this elementary bound.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/sequence"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/sequence"
+      ]
+    },
+    {
+      "id": "convex-analysis/youngs-inequality",
+      "outcome": "corrected",
+      "source_sha256": "8bd6bf26c8ed41acdf981fb27ea43d7f04c41683b07cc71208b0b48d0b201bc9",
+      "evidence": "Absolute value appears in the statement. The supplied derivation applies weighted AM-GM with theta=1/p, a=|x|^p, b=|y|^q. Holder is downstream, not a prerequisite.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/absolute-value",
+        "convex-analysis/weighted-arithmeticgeometric-mean-inequality"
+      ],
+      "added_prerequisites": [
+        "real-analysis/absolute-value",
+        "convex-analysis/weighted-arithmeticgeometric-mean-inequality"
+      ]
+    },
+    {
+      "id": "harmonic-analysis/oscillatory-integral",
+      "outcome": "corrected",
+      "source_sha256": "ac28c08fbf9bab8ec62150a6fa5b466f4498a26d0cea33e72b06c75c716b3101",
+      "evidence": "The displayed expression integrates a complex-valued phase-amplitude function over Euclidean space. Lebesgue integration is the underlying ordinary integration used before any oscillatory regularization; this edge does not assert absolute convergence. Stationary phase and Fourier analysis are not needed to define the displayed expression.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/complex-numbers-c",
+        "measure-theory/lebesgue-integral"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/complex-numbers-c",
+        "measure-theory/lebesgue-integral"
+      ]
+    },
+    {
+      "id": "real-analysis/abels-theorem",
+      "outcome": "corrected",
+      "source_sha256": "df55240dfa19f8362f2b0612f2d0190c37b0744670b198db01527042505f1861",
+      "evidence": "The hypothesis is convergence of the coefficient series, the constructed function is a power series, and the conclusion is a boundary limit. Cauchy-Hadamard is only a related theorem.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/convergent-series",
+        "real-analysis/power-series",
+        "real-analysis/limit-of-a-function-at-a-point"
+      ],
+      "added_prerequisites": [
+        "real-analysis/convergent-series",
+        "real-analysis/power-series",
+        "real-analysis/limit-of-a-function-at-a-point"
+      ]
+    },
+    {
+      "id": "real-analysis/algebraic-properties-sup-inf",
+      "outcome": "corrected",
+      "source_sha256": "66dbb7c191970b60ab9982b6a0d8a668504105806c28fdaae3ba6152dd1a2000",
+      "evidence": "Every stated identity is expressed in supremum/infimum; the previously empty prerequisite list omitted both.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/supremum",
+        "real-analysis/infimum"
+      ],
+      "added_prerequisites": [
+        "real-analysis/supremum",
+        "real-analysis/infimum"
+      ]
+    },
+    {
+      "id": "real-analysis/archimedean-property",
+      "outcome": "corrected",
+      "source_sha256": "f34f8c5c5b0ecda2b805b1abae5678e0425148cdeca9b74affcd75f7e418ce47",
+      "evidence": "The Archimedean theorem for real numbers follows from their ordered-field and least-upper-bound axioms, as its existing Remarks already state. Density of rationals is downstream.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/order-axioms",
+        "real-analysis/completeness-axiom"
+      ],
+      "added_prerequisites": [
+        "real-analysis/order-axioms",
+        "real-analysis/completeness-axiom"
+      ]
+    },
+    {
+      "id": "real-analysis/cauchy-principal-value",
+      "outcome": "corrected",
+      "source_sha256": "77697583e54e8321aa5b7f74b012e85feedd9b82af30197d028395a9834e593d",
+      "evidence": "Principal value is a limit of truncated ordinary integrals. The integration prerequisite does not identify principal value with the Lebesgue integral of the original singular function. Tempered distributions and Hilbert transform are later interpretations.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/limit-of-a-function-at-a-point",
+        "measure-theory/lebesgue-integral"
+      ],
+      "added_prerequisites": [
+        "real-analysis/limit-of-a-function-at-a-point",
+        "measure-theory/lebesgue-integral"
+      ]
+    },
+    {
+      "id": "real-analysis/density-of-r-minus-q-in-r",
+      "outcome": "corrected",
+      "source_sha256": "f56cdfa3b42046bf731f4d692c94ea4f9d4aefde79eebe4193f0a985ddc78fa5",
+      "evidence": "The statement uses the ordered reals and their rational subset. The other density-of-irrationals entry is an equivalent theorem, not a logical prerequisite.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/real-numbers",
+        "shared-foundations/rational-numbers"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/real-numbers",
+        "shared-foundations/rational-numbers"
+      ]
+    },
+    {
+      "id": "real-analysis/global-maximum-global-minimum",
+      "outcome": "corrected",
+      "source_sha256": "cec6d13824fca73eb3e4839b6c51ec7db0640cd2b208d3404d6bb9609ae652e2",
+      "evidence": "Global extrema compare values of a real-valued function using order. Extreme-value theorem gives existence under extra assumptions and is not required to define extrema.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/order-axioms"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/order-axioms"
+      ]
+    },
+    {
+      "id": "real-analysis/japanese-bracket",
+      "outcome": "corrected",
+      "source_sha256": "e4017b5d1ea4914612224315b45308fc34d13bf18a2c51e2077c2583e46983c7",
+      "evidence": "The defining weight is formed from the Euclidean norm. Symbol estimates and Schwartz spaces are applications, not prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "linear-algebra/euclidean-norm"
+      ],
+      "added_prerequisites": [
+        "linear-algebra/euclidean-norm"
+      ]
+    },
+    {
+      "id": "real-analysis/mean-value-theorem-for-integrals",
+      "outcome": "corrected",
+      "source_sha256": "5a9fd74e874851530a8fd2c9cde7d20f8235bde159ce7d9d83e5f2c60b479df1",
+      "evidence": "The theorem concerns a Riemann integral; the existing explanation explicitly derives attainment of the average using intermediate value.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/riemann-integral",
+        "real-analysis/intermediate-value-theorem"
+      ],
+      "added_prerequisites": [
+        "real-analysis/riemann-integral",
+        "real-analysis/intermediate-value-theorem"
+      ]
+    },
+    {
+      "id": "real-analysis/modulus-on-c",
+      "outcome": "corrected",
+      "source_sha256": "2d3c196c1daeca51b26d7823f1f47299c4199985ddb8e8ee460ad6a5720b2449",
+      "evidence": "The formula defines magnitude for a complex number. Normed-space and metric consequences are downstream of this definition.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/complex-numbers-c"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/complex-numbers-c"
+      ]
+    },
+    {
+      "id": "real-analysis/multi-index-notation",
+      "outcome": "corrected",
+      "source_sha256": "6327a3223021f128a5a9986da0344d3dfbea1fdf7d58705716875ec779d76214",
+      "evidence": "The convention bundles nonnegative integer coordinates, coordinate factorials and iterated partial derivatives. Schwartz/distributional derivatives are later applications.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shared-foundations/natural-numbers",
+        "shared-foundations/factorial",
+        "real-analysis/partial-derivative"
+      ],
+      "added_prerequisites": [
+        "shared-foundations/natural-numbers",
+        "shared-foundations/factorial",
+        "real-analysis/partial-derivative"
+      ]
+    },
+    {
+      "id": "real-analysis/right-derivative-left-derivative",
+      "outcome": "corrected",
+      "source_sha256": "9efc07a3846ec7a9d5624dad29574ee2aabbaaf9849c4954b39a9045f4a9f8e3",
+      "evidence": "The definition takes a one-sided restricted limit of a difference quotient, with explicit accumulation-point hypotheses. The metric-space limit target covers both real and complex outputs; the real-only one-sided-limit target is not used as the sole general definition.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "real-analysis/limit-of-a-function-at-a-point",
+        "real-analysis/difference-quotient",
+        "topology/limit-point"
+      ],
+      "added_prerequisites": [
+        "real-analysis/limit-of-a-function-at-a-point",
+        "real-analysis/difference-quotient",
+        "topology/limit-point"
+      ]
+    },
+    {
+      "id": "shale-paper/automorphism-thetaT",
+      "outcome": "corrected",
+      "source_sha256": "7f5b12d9ff2fcb6c64f0f64e604aafa909df60ebab5af5eb4f38e241f5031a30",
+      "evidence": "The definition uses the Hilbert-space symplectic group and a star-automorphism specified on Weyl generators. Preservation of the Weyl relations is the defining input; finite-dimensional Lie symplectic groups are not substituted.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "shale-paper/symplectic-group-spk",
+        "shale-paper/weyl-ccr-quantization",
+        "operator-algebras/star-automorphism"
+      ],
+      "added_prerequisites": [
+        "shale-paper/symplectic-group-spk",
+        "shale-paper/weyl-ccr-quantization",
+        "operator-algebras/star-automorphism"
+      ]
+    },
+    {
+      "id": "shale-paper/tame-function",
+      "outcome": "corrected",
+      "source_sha256": "d8f60d85ddcfb69f59c764127e5f601ed4fd03eb9acc8a3968d14cac587ad324",
+      "evidence": "The cylindrical function is built from a finite-dimensional projection on a real Hilbert space. Gaussian probability appears only in the subsequent construction.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthogonal-projection"
+      ],
+      "added_prerequisites": [
+        "linear-algebra/hilbert-space",
+        "linear-algebra/orthogonal-projection"
+      ]
+    },
+    {
+      "id": "algebra-category-theory/faithful-functor",
+      "outcome": "corrected",
+      "source_sha256": "b06134a7e540e81e9324b22e5d20e575ccb9ad3a629ad81ade1a6fe73151cfe8",
+      "evidence": "Checked the functor prerequisite against injectivity of each induced hom-set map. Its edge existed but had no recorded review.",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "algebra-category-theory/fully-faithful-functor",
+      "outcome": "corrected",
+      "source_sha256": "64410b9241ded769f57f170c3145b0c6df16f10b15b1defde20e864cdc530c4f",
+      "evidence": "Checked the functor prerequisite against bijectivity on hom-sets. Faithfulness is a consequence, not an additional necessary defining dependency.",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "algebra-groups/alternating-group",
+      "outcome": "corrected",
+      "source_sha256": "f4255e7dad86819a63dd531fcdb5bfadcd5312040df2a1aa846cae03634a5f62",
+      "evidence": "Checked group/subgroup/kernel/sign prerequisites against the sign-kernel definition; the review count was zero.",
+      "previous_prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/kernel-group",
+        "shared-foundations/permutation-sign"
+      ],
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/subgroup",
+        "algebra-groups/kernel-group",
+        "shared-foundations/permutation-sign"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "algebra-groups/quaternion-group",
+      "outcome": "corrected",
+      "source_sha256": "f1240e2321aaa311fadee63abb899df222114694a8491b67ca57564adfd901c6",
+      "evidence": "Checked group prerequisite against the eight-element multiplication presentation; the review field was absent.",
+      "previous_prerequisites": [
+        "algebra-groups/group"
+      ],
+      "prerequisites": [
+        "algebra-groups/group"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "differential-geometry/crossing-form",
+      "outcome": "corrected",
+      "source_sha256": "a1516be735c66542787e336ae577cf9972bd4f737a176f171edea0bfeda311f6",
+      "evidence": "Checked symplectic-vector-space and Lagrangian-subspace prerequisites against the graph-chart quadratic form; the count was absent.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "differential-geometry/lagrangian-subspace"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "differential-geometry/lagrangian-subspace"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "differential-geometry/gaussian-curvature",
+      "outcome": "corrected",
+      "source_sha256": "d9ec9d8192db1f9287736ff26fe6606495c16a3b20f2e86110fdc10af256828b",
+      "evidence": "Checked the Riemannian-manifold and sectional-curvature prerequisites against K(p)=K_g(T_pS); the count was absent.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/sectional-curvature"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/sectional-curvature"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "differential-geometry/sectional-curvature",
+      "outcome": "corrected",
+      "source_sha256": "4f466fb28051963144fddfdbb4052211fb942f914247b3f5abaee05e2288abc7",
+      "evidence": "Checked Riemannian-manifold and Riemann-curvature-tensor prerequisites against the defining quotient and its sign convention; the count was absent.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/riemann-curvature-tensor"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/riemann-curvature-tensor"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "differential-geometry/volume-form",
+      "outcome": "corrected",
+      "source_sha256": "2a56a8f658fb02d68a9949763bfc32e021955dff80f1c2cec7b584c28a66cbe6",
+      "evidence": "Checked smooth-manifold, differential-form and orientation prerequisites against the positive nowhere-vanishing top-form definition; the count was absent.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/orientation-of-a-smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/orientation-of-a-smooth-manifold"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "probability/normal-distribution",
+      "outcome": "corrected",
+      "source_sha256": "c5434ccf1bb603615d50515c1583709f52985c183658f455f2ed6a8629ae1e41",
+      "evidence": "Checked probability-measure, Lebesgue-measure and Radon-Nikodym-density prerequisites against the displayed normal density; the count was zero.",
+      "previous_prerequisites": [
+        "probability/probability-measure",
+        "measure-theory/lebesgue-measure",
+        "shale-paper/radon-nikodym-derivative"
+      ],
+      "prerequisites": [
+        "probability/probability-measure",
+        "measure-theory/lebesgue-measure",
+        "shale-paper/radon-nikodym-derivative"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "probability/uniform-distribution",
+      "outcome": "corrected",
+      "source_sha256": "b795ff41b94cc21706ca06ab0d727355a7f12cde01d6e11ebdb8d018e4620791",
+      "evidence": "Checked probability-measure, Lebesgue-measure and Radon-Nikodym-density prerequisites against the interval density; the count was zero.",
+      "previous_prerequisites": [
+        "probability/probability-measure",
+        "measure-theory/lebesgue-measure",
+        "shale-paper/radon-nikodym-derivative"
+      ],
+      "prerequisites": [
+        "probability/probability-measure",
+        "measure-theory/lebesgue-measure",
+        "shale-paper/radon-nikodym-derivative"
+      ],
+      "added_prerequisites": []
+    },
+    {
+      "id": "algebra-groups/decomposition",
+      "outcome": "corrected",
+      "source_sha256": "43635ea91b0bed4b53d323713c65ae931ad5028fb4993760ad892742b2dac0f5",
+      "evidence": "Read the full entry: it surveys direct products, semidirect products and extensions rather than defining one object. Reclassified as index, following EDITORIAL.md container convention, instead of inventing prerequisites just to attach an organizational page.",
+      "previous_prerequisites": [],
+      "prerequisites": [],
+      "added_prerequisites": []
+    }
+  ],
+  "after": {
+    "all_links": {
+      "nodes": 3457,
+      "edges": 10989,
+      "components": 1,
+      "component_sizes": [
+        3457
+      ]
+    },
+    "reviewed_links": {
+      "nodes": 3457,
+      "edges": 10988,
+      "components": 1,
+      "component_sizes": [
+        3457
+      ]
+    }
+  }
+}

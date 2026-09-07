@@ -53,7 +53,7 @@ gerbe rather than selecting one group scheme over \(k\).
 
 The [[langlands/geometric-satake-equivalence|geometric Satake category]] is
 Tannakian, and its Tannaka group is the
-[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
+[[langlands/langlands-dual-group|Langlands dual group]].
 Categories of [[fiber-bundles/local-system|local systems]] or motives, when equipped
 with a suitable fiber functor, similarly produce Galois or motivic groups.
 

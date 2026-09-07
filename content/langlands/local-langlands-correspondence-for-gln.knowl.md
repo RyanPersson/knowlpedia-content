@@ -41,7 +41,7 @@ local correspondence is an actual bijection rather than a finite-to-one map.
 ## Compatibility properties
 
 The correspondence is compatible with twisting by characters and taking
-[[langlands-letter/knowls/contragredient-representation|contragredients]]. The
+[[algebra-representation-theory/contragredient-representation|contragredients]]. The
 determinant of the parameter corresponds, through local class field theory, to
 the [[algebra-representation-theory/central-character|central character]] of
 the representation. Under the

@@ -6,13 +6,13 @@ summary = "A conjectural global admissible homomorphism into an L-group whose lo
 aliases = ["global L-parameter", "global Langlands parameterization"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/l-group", "algebra-groups/conjugacy-class", "algebra-fields-galois/place-of-global-field", "langlands/local-l-parameter"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/l-group", "algebra-groups/conjugacy-class", "algebra-fields-galois/place-of-global-field", "langlands/local-l-parameter"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global field]] and
+[[algebra-fields-galois/global-local-fields-completions|global field]] and
 \(G\) a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]]. In
@@ -46,7 +46,7 @@ related but are not interchangeable without hypotheses.
 ## Function-field status
 
 For a [[algebra-fields-galois/global-function-field|global function field]], the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 is concrete.
 Vincent Lafforgue's [[langlands/excursion-operator|excursion operators]] attach semisimple
 \(\widehat G\)-valued global Galois parameters to

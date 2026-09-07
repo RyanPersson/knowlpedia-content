@@ -6,7 +6,7 @@ summary = "The semisimple dual-group conjugacy class classifying an unramified r
 aliases = ["unramified Langlands parameter", "Hecke parameter", "Satake conjugacy class"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/unramified-reductive-group", "algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/maximal-compact-hyperspecial", "harmonic-analysis/unramified-representation-p-adic-group", "harmonic-analysis/hecke-algebra-locally-compact-group-pair", "algebra-groups/conjugacy-class"]
+prerequisites = ["algebraic-geometry-foundations/unramified-reductive-group", "algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/maximal-compact-hyperspecial", "harmonic-analysis/unramified-representation-p-adic-group", "harmonic-analysis/hecke-algebra-locally-compact-group-pair", "algebra-groups/conjugacy-class"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,7 @@ Let \(G\) be an
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified
 connected reductive group]] over a
 [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\), choose a
-[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial subgroup]]
+[[harmonic-analysis/maximal-compact-hyperspecial|hyperspecial subgroup]]
 \(K\leq G(F)\), and let
 \(\pi\) be an irreducible
 [[harmonic-analysis/unramified-representation-p-adic-group|unramified

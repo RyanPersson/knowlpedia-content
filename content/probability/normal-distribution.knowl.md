@@ -5,12 +5,12 @@ kind = "definition"
 summary = "The probability distribution on the real line with a Gaussian density determined by a mean and positive variance."
 aliases = ["normal-distribution", "Normal distribution", "Gaussian distribution", "Gaussian law"]
 domains = ["probability"]
-prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "shale-paper/radon-nikodym-derivative"]
-dependency_heuristic = "missing-links-calibration-v1"
-dependency_review_count = 0
+prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "measure-theory/radon-nikodym-derivative", "probability/probability-density-function"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-For \(\mu\in\mathbb R\) and \(\sigma>0\), the **normal distribution** \(\mathcal N(\mu,\sigma^2)\) is the [[probability/probability-measure|probability distribution]] on \(\mathbb R\) with [[shale-paper/radon-nikodym-derivative|density]]
+For \(\mu\in\mathbb R\) and \(\sigma>0\), the **normal distribution** \(\mathcal N(\mu,\sigma^2)\) is the [[probability/probability-measure|probability distribution]] on \(\mathbb R\) with [[probability/probability-density-function|density]]
 \[
 f_{\mu,\sigma}(x)=\frac{1}{\sigma\sqrt{2\pi}}
 \exp\!\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)

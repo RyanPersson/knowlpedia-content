@@ -6,7 +6,7 @@ summary = "A locally compact refinement of an absolute Galois group used in loca
 aliases = ["local Weil group", "W_F"]
 domains = ["langlands", "algebra-fields-galois"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/inertia-subgroup", "topology/locally-profinite-group"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebra-fields-galois/galois-extension-and-group", "algebra-fields-galois/inertia-subgroup", "topology/locally-profinite-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -14,7 +14,7 @@ dependency_review_count = 1
 Let \(F\) be a
 [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let
 \(\Gamma_F=\operatorname{Gal}(F^{\mathrm s}/F)\) be its
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]],
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]],
 and let \(I_F\) be its
 [[algebra-fields-galois/inertia-subgroup|inertia subgroup]]. The **Weil group**
 \(W_F\) is the inverse image of

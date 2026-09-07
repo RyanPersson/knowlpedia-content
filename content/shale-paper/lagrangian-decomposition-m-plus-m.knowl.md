@@ -6,7 +6,7 @@ summary = "A choice of real subspace M giving coordinates (x,y) for phase space 
 aliases = ["lagrangian-decomposition-m-plus-m", "Decomposition K = M ⊕ M"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/lagrangian-decomposition-m-plus-m.md"
-prerequisites = ["shale-paper/symplectic-hilbert-space", "shale-paper/complex-structure-lambda"]
+prerequisites = ["functional-analysis/symplectic-hilbert-space", "functional-analysis/complex-structure-lambda"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

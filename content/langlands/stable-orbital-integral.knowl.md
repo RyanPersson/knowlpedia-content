@@ -48,7 +48,7 @@ stated.
 ## Kappa refinements
 
 The rational classes inside the stable class are parametrized by a finite
-[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|cohomological
+[[algebra-fields-galois/nonabelian-h1-galois-cohomology|cohomological
 kernel]] \(A_\gamma\). For a
 [[algebra-representation-theory/character|character]]
 \(\kappa:A_\gamma\to\mathbb C^\times\), the associated

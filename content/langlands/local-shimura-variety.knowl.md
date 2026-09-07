@@ -6,7 +6,7 @@ summary = "A tower of p-adic moduli spaces attached to local Shimura data and pa
 aliases = ["local Shimura space", "local Shimura datum", "local Shimura tower"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/p-adic-field", "langlands/kottwitz-set-b-g", "algebra-groups/conjugacy-class", "langlands/dominant-coweight", "algebraic-geometry-foundations/adic-space", "algebraic-geometry-foundations/v-stack", "langlands/local-shtuka", "langlands/g-bundle-on-fargues-fontaine-curve", "algebraic-geometry-foundations/tilt-and-untilt"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/p-adic-field", "langlands/kottwitz-set-b-g", "algebra-groups/conjugacy-class", "langlands/dominant-coweight", "algebraic-geometry-foundations/adic-space", "algebraic-geometry-foundations/v-stack", "langlands/local-shtuka", "langlands/g-bundle-on-fargues-fontaine-curve", "algebraic-geometry-foundations/tilt-and-untilt"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,7 +19,7 @@ A **local Shimura datum** is, in the standard unramified form, a triple
 
 where \(G\) is a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
-over a [[langlands-letter/knowls/p-adic-field|\(p\)-adic field]] \(F\),
+over a [[algebra-fields-galois/p-adic-field|\(p\)-adic field]] \(F\),
 \([b]\in B(G)\) is a [[langlands/kottwitz-set-b-g|sigma-conjugacy class]], and
 \(\{\mu\}\) is a [[algebra-groups/conjugacy-class|conjugacy class]] of
 [[langlands/dominant-coweight|cocharacters]] satisfying the usual

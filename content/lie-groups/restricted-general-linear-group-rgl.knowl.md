@@ -1,0 +1,33 @@
++++
+id = "lie-groups/restricted-general-linear-group-rgl"
+title = "Restricted General Linear Group rGL(H)"
+kind = "knowl"
+summary = "Invertible operators whose positive part differs from I by a Hilbert–Schmidt operator"
+aliases = ["restricted-general-linear-group-rgl", "Restricted General Linear Group rGL(H)"]
+domains = ["lie-groups"]
+legacy_source_path = "shale-paper/restricted-general-linear-group-rgl.md"
+prerequisites = ["linear-algebra/hilbert-space", "functional-analysis/polar-decomposition", "functional-analysis/trace-class-operator"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
++++
+
+Shale's **restricted [[lie-groups/general-linear-group|general linear group]]** is
+\[
+rGL(H)=\{T\in GL(H): |T|=(T^*T)^{1/2}\in GL(H)_2\}.
+\]
+
+## Equivalent characterizations
+
+Equivalently, \(|T|-I\) is [[shale-paper/hilbert-schmidt-operator|Hilbert–Schmidt]].
+
+## Remarks
+
+This group is exactly where the Gaussian measure in §3 is quasi-invariant.
+
+**Key properties:**
+- Stable under [[functional-analysis/polar-decomposition|polar decomposition]] \(T=u(T)|T|\).
+- Carries the "change-of-variables" unitary rep [[shale-paper/segal-unitary-representation-Ufrak|𝔘(T)]] on \(L_2(M,n)\).
+
+## Examples
+
+- In finite dimensions, \(rGL(H)=GL(H)\).

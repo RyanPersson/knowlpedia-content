@@ -6,8 +6,8 @@ summary = "The subgroup of even permutations in the symmetric group, equivalentl
 aliases = ["alternating-group", "Alternating Group"]
 domains = ["algebra-groups"]
 prerequisites = ["algebra-groups/group", "algebra-groups/subgroup", "algebra-groups/kernel-group", "shared-foundations/permutation-sign"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 0
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 1
 +++
 
 For \(n\geq 2\), the **alternating group** \(A_n\) is the [[algebra-groups/kernel-group|kernel]]

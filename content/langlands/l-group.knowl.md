@@ -6,15 +6,15 @@ summary = "The complex dual group extended by the Weil or Galois action on its b
 aliases = ["L-group", "Langlands group of a reductive group", "{}^L G"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "langlands-letter/knowls/global-local-fields-completions", "langlands-letter/knowls/langlands-dual-group", "langlands/weil-group", "langlands-letter/knowls/pinned-automorphisms", "langlands-letter/knowls/roots-weights-weyl"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/local-field", "algebra-fields-galois/global-local-fields-completions", "langlands/langlands-dual-group", "langlands/weil-group", "algebraic-geometry-foundations/pinned-automorphisms", "lie-groups/roots-weights-weyl"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[algebra-fields-galois/local-field|local]] or [[langlands-letter/knowls/global-local-fields-completions|global field]] \(F\),
+[[algebra-fields-galois/local-field|local]] or [[algebra-fields-galois/global-local-fields-completions|global field]] \(F\),
 and let \(\widehat G\) be its pinned complex
-[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]. The
+[[langlands/langlands-dual-group|Langlands dual group]]. The
 **\(L\)-group** of \(G\) is
 
 \[
@@ -22,8 +22,8 @@ and let \(\widehat G\) be its pinned complex
 \]
 
 where the [[langlands/weil-group|Weil group]] acts on \(\widehat G\) through
-the [[langlands-letter/knowls/pinned-automorphisms|pinned action]] on its
-[[langlands-letter/knowls/roots-weights-weyl|based root datum]]. It comes with
+the [[algebraic-geometry-foundations/pinned-automorphisms|pinned action]] on its
+[[lie-groups/roots-weights-weyl|based root datum]]. It comes with
 an exact sequence
 
 \[
@@ -53,7 +53,7 @@ An \(L\)-homomorphism
 is continuous, is compatible with the projections to the Weil group, and is
 algebraic on the connected complex dual-group part. Such homomorphisms are
 considered up to conjugation by \(\widehat G\) and are the input to
-[[langlands-letter/knowls/langlands-functoriality-l-homomorphism|Langlands
+[[langlands/langlands-functoriality-l-homomorphism|Langlands
 functoriality]].
 
 ## Dependence on pinning

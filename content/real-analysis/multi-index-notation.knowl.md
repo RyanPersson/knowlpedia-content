@@ -6,9 +6,9 @@ summary = "Compact notation for products, factorials, and iterated partial deriv
 aliases = ["multiindex notation", "multi-index derivative"]
 domains = ["real-analysis", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/natural-numbers", "shared-foundations/factorial", "real-analysis/partial-derivative"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 A **multi-index** is a tuple \(\alpha=(\alpha_1,\ldots,\alpha_d)\in\mathbb N_0^d\).

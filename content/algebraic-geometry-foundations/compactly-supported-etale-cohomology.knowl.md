@@ -50,7 +50,7 @@ Grothendieck–Lefschetz trace formula expresses point counts as an alternating
 sum of traces on these groups.  In the Langlands program, compactly supported
 cohomology of [[langlands/shtuka|shtuka]] and
 [[langlands/local-shtuka|local-shtuka]] spaces carries commuting Hecke and
-[[langlands-letter/knowls/galois-extension-and-group|Galois]] actions.
+[[algebra-fields-galois/galois-extension-and-group|Galois]] actions.
 
 ## References
 

@@ -6,7 +6,7 @@ summary = "The local functional-equation factor combining epsilon and the ratio 
 aliases = ["gamma factor", "local gamma factor of a representation", "gamma(s,V,psi)"]
 domains = ["langlands", "number-theory", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["langlands/weil-deligne-representation", "algebra-fields-galois/local-field", "algebra-representation-theory/character", "langlands-letter/knowls/contragredient-representation"]
+prerequisites = ["langlands/weil-deligne-representation", "algebra-fields-galois/local-field", "algebra-representation-theory/character", "algebra-representation-theory/contragredient-representation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -26,7 +26,7 @@ gamma factor** is
 
 where \(\varepsilon(s,V,\psi)\) is the
 [[langlands/local-epsilon-factor|local epsilon factor]] and \(V^\vee\) is the
-[[langlands-letter/knowls/contragredient-representation|dual
+[[algebra-representation-theory/contragredient-representation|dual
 representation]]. This convention places the functional equation around
 \(s=\tfrac12\); shifts occur when an L-function is normalized differently.
 

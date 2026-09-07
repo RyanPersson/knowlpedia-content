@@ -6,13 +6,13 @@ summary = "An irreducible representation occurring as a subquotient of a space o
 aliases = ["automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "harmonic-analysis/regular-representations-locally-compact-group", "langlands/automorphic-form", "algebra-representation-theory/central-character"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions", "harmonic-analysis/regular-representations-locally-compact-group", "langlands/automorphic-form", "algebra-representation-theory/central-character"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global field]] and
+[[algebra-fields-galois/global-local-fields-completions|global field]] and
 \(G\) a connected reductive \(F\)-group. An
 **automorphic representation** of \(G(\mathbb A_F)\) is an irreducible
 subquotient of the

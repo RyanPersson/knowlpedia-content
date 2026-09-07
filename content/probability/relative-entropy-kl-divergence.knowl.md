@@ -6,7 +6,7 @@ summary = "A directed measure of discrepancy between two probability distributio
 aliases = ["relative-entropy-kl-divergence", "Relative entropy (KL divergence)"]
 domains = ["probability"]
 legacy_source_path = "probability/relative-entropy-kl-divergence.md"
-prerequisites = ["probability/probability-measure", "probability/radon-nikodym-theorem", "analysis/absolute-continuity"]
+prerequisites = ["probability/probability-measure", "measure-theory/radon-nikodym-derivative", "analysis/absolute-continuity"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,11 +15,11 @@ A **relative entropy (Kullback–Leibler divergence)** is an extended real numbe
 \[
 D_{\mathrm{KL}}(P\|Q)\;=\;\int \log\!\Big(\frac{dP}{dQ}\Big)\,dP,
 \]
-where \(\frac{dP}{dQ}\) is the Radon–Nikodym derivative (see the [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]). If \(P\) is not absolutely continuous with respect to \(Q\), one sets \(D_{\mathrm{KL}}(P\|Q)=+\infty\).
+where \(\frac{dP}{dQ}\) is the [[measure-theory/radon-nikodym-derivative|Radon–Nikodym derivative]]. If \(P\) is not absolutely continuous with respect to \(Q\), one sets \(D_{\mathrm{KL}}(P\|Q)=+\infty\).
 
 ## Examples
 
-In the discrete case with mass [[shared-foundations/function|functions]] \(p,q\) on a [[shared-foundations/countable-set|countable set]], this becomes
+In the discrete case with [[probability/probability-mass-function|mass functions]] \(p,q\) on a [[shared-foundations/countable-set|countable set]], this becomes
 \[
 D_{\mathrm{KL}}(P\|Q)=\sum_x p(x)\,\log\frac{p(x)}{q(x)},
 \]

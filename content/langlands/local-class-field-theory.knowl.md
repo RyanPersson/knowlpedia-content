@@ -6,7 +6,7 @@ summary = "The reciprocity isomorphism between a local field's multiplicative gr
 aliases = ["local reciprocity", "local Artin reciprocity", "local reciprocity map"]
 domains = ["langlands", "algebra-fields-galois", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands/weil-group", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/frobenius-unramified", "algebra-commutative/dvr", "algebra-fields-galois/inertia-subgroup", "langlands-letter/knowls/euler-product-and-local-factor"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands/weil-group", "algebra-fields-galois/galois-extension-and-group", "algebra-fields-galois/frobenius-unramified", "algebra-commutative/dvr", "algebra-fields-galois/inertia-subgroup", "langlands/euler-product-and-local-factor"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -21,17 +21,17 @@ For a [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local fi
 where \(W_F\) is the [[langlands/weil-group|Weil group]].  Equivalently, after
 profinite completion it identifies
 \(\widehat{F^\times}\) with the abelianization of the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 \(G_F^{\mathrm{ab}}\).
 
 This page uses the
-**[[langlands-letter/knowls/frobenius-unramified|geometric Frobenius
+**[[algebra-fields-galois/frobenius-unramified|geometric Frobenius
 normalization]]**: a [[algebra-commutative/dvr|uniformizer]] maps to geometric
 Frobenius in \(W_F/I_F\), where \(I_F\) is the
 [[algebra-fields-galois/inertia-subgroup|inertia subgroup]]. Authors using
 arithmetic Frobenius take the inverse reciprocity map, so the normalization
 must be checked in formulas for
-[[langlands-letter/knowls/euler-product-and-local-factor|local factors]].
+[[langlands/euler-product-and-local-factor|local factors]].
 
 ## Finite extensions
 
@@ -55,7 +55,7 @@ correspond to
 one-dimensional representations of \(W_F\).  It is the abelian prototype for
 [[langlands/local-langlands-correspondence|local Langlands]].  Its global
 compatibility is recorded by
-[[langlands-letter/knowls/ideles-artin-reciprocity-hecke-character|global Artin
+[[algebra-fields-galois/ideles-artin-reciprocity-hecke-character|global Artin
 reciprocity]].
 
 ## References

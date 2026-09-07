@@ -46,7 +46,7 @@ structures on the two moduli spaces.
 
 For a [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] \(G\), the spectral parameter in geometric Langlands is
 a local system for the
-[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]
+[[langlands/langlands-dual-group|Langlands dual group]]
 \(\widehat G\), not generally for \(G\) itself.
 
 ## References

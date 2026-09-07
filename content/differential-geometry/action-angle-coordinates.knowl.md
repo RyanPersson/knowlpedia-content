@@ -19,7 +19,7 @@ such that \(\omega=\sum_{j=1}^n dI_j\wedge d\theta_j\) and the functions of a sp
 
 ## Geometric meaning
 
-The projection \(B\times\mathbb T^n\to B\) describes a local fibration by invariant [[differential-geometry/lagrangian-submanifold|Lagrangian]] tori. Actions may be obtained by integrating a local primitive of the [[shale-paper/symplectic-form|symplectic form]] around a basis of one-cycles on each torus; changing that integral basis transforms the actions by an integral affine change. Angles then parametrize the commuting flows around the torus.
+The projection \(B\times\mathbb T^n\to B\) describes a local fibration by invariant [[differential-geometry/lagrangian-submanifold|Lagrangian]] tori. Actions may be obtained by integrating a local primitive of the [[linear-algebra/symplectic-form|symplectic form]] around a basis of one-cycles on each torus; changing that integral basis transforms the actions by an integral affine change. Angles then parametrize the commuting flows around the torus.
 
 ## Existence and limitations
 

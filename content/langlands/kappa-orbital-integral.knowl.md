@@ -6,7 +6,7 @@ summary = "A character-weighted sum of orbital integrals inside one stable conju
 aliases = ["κ-orbital integral", "kappa orbital integral", "endoscopic orbital integral"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands/strongly-regular-semisimple-element", "algebra-fields-galois/local-field", "langlands-letter/knowls/nonabelian-h1-galois-cohomology", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
+prerequisites = ["langlands/strongly-regular-semisimple-element", "algebra-fields-galois/local-field", "algebra-fields-galois/nonabelian-h1-galois-cohomology", "algebra-groups/conjugacy-class", "langlands/stable-conjugacy"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -21,7 +21,7 @@ A_\gamma=
 \]
 
 which is a kernel in
-[[langlands-letter/knowls/nonabelian-h1-galois-cohomology|nonabelian Galois
+[[algebra-fields-galois/nonabelian-h1-galois-cohomology|nonabelian Galois
 cohomology]] and parametrizes the rational
 [[algebra-groups/conjugacy-class|conjugacy classes]] in the
 [[langlands/stable-conjugacy|stable class]] of \(\gamma\). Given a character
@@ -54,8 +54,8 @@ For the trivial character \(\kappa=1\), the expression is the
 of the cohomological group \(A_\gamma\) to
 [[langlands/component-group-of-l-parameter|component-group]] data in the dual
 centralizer. The corresponding
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
-[[langlands-letter/knowls/langlands-dual-group|dual-group]] element determines
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]]
+[[langlands/langlands-dual-group|dual-group]] element determines
 an [[langlands/endoscopic-datum|endoscopic group]].
 Thus the Fourier decomposition of ordinary orbital terms across a stable
 class produces the endoscopic pieces of the trace formula.

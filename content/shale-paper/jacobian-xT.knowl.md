@@ -6,7 +6,7 @@ summary = "The Radon–Nikodym derivative of the transformed Gaussian measure n(
 aliases = ["jacobian-xT", "Jacobian X(T) in Shale's Gaussian Setup"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/jacobian-xT.md"
-prerequisites = ["shale-paper/radon-nikodym-derivative"]
+prerequisites = ["measure-theory/radon-nikodym-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -16,7 +16,7 @@ and sets
 \[
 X(T)=\frac{dn(T)}{dn},
 \]
-the [[shale-paper/radon-nikodym-derivative|Radon–Nikodym derivative]].
+the [[measure-theory/radon-nikodym-derivative|Radon–Nikodym derivative]].
 
 ## Remarks
 

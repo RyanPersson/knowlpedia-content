@@ -6,7 +6,7 @@ summary = "An automorphic representation whose archimedean Langlands-parameter e
 aliases = ["L-algebraic representation", "L-algebraic automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands/automorphic-representation", "langlands-letter/knowls/maximal-torus-weight-lattice", "langlands/local-l-parameter"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands/automorphic-representation", "algebraic-geometry-foundations/maximal-torus-weight-lattice", "langlands/local-l-parameter"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,7 +19,7 @@ representation]] of \(G(\mathbb A_F)\). It is **\(L\)-algebraic** if every
 archimedean component \(\pi_v\) is \(L\)-algebraic.
 
 After choosing a
-[[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]], write
+[[algebraic-geometry-foundations/maximal-torus-weight-lattice|maximal torus]], write
 the restriction of the archimedean
 [[langlands/local-l-parameter|Langlands parameter]] to \(\mathbb C^\times\) with exponent
 

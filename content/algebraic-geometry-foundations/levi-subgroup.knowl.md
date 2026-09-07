@@ -36,7 +36,7 @@ a choice, while its [[algebra-groups/conjugacy-class|conjugacy class]] inside
 \(P\) is canonical.
 
 If \(P=P_G(\lambda)\) is defined by a
-[[langlands-letter/knowls/maximal-torus-weight-lattice|cocharacter]]
+[[algebraic-geometry-foundations/maximal-torus-weight-lattice|cocharacter]]
 \(\lambda:\mathbb G_m\to G\), then the
 [[algebra-groups/centralizer|centralizer]]
 \(Z_G(\lambda)\) is a Levi subgroup and \(R_u(P)=U_G(\lambda)\).

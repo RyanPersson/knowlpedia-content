@@ -33,7 +33,7 @@ field]] of positive characteristic.
 ## Position among global fields
 
 Global function fields are precisely the
-[[langlands-letter/knowls/global-local-fields-completions|global fields]] of
+[[algebra-fields-galois/global-local-fields-completions|global fields]] of
 positive characteristic. Their curves supply geometric methods that have no
 literal number-field counterpart.
 

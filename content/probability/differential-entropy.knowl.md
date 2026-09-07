@@ -6,12 +6,12 @@ summary = "The negative integral of a probability density times its logarithm, r
 aliases = ["differential-entropy", "Differential entropy"]
 domains = ["probability"]
 legacy_source_path = "probability/differential-entropy.md"
-prerequisites = ["probability/random-variable", "measure-theory/lebesgue-measure"]
+prerequisites = ["probability/random-variable", "measure-theory/lebesgue-measure", "probability/probability-density-function"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
-Let \(X\) be an \(\mathbb R^d\)-valued [[probability/random-variable|random variable]] whose law has density \(f\) with respect to [[measure-theory/lebesgue-measure|Lebesgue measure]]. If the integral below is well-defined as an extended integral, the **differential entropy** of \(X\) is
+Let \(X\) be an \(\mathbb R^d\)-valued [[probability/random-variable|random variable]] whose law has [[probability/probability-density-function|density]] \(f\) with respect to [[measure-theory/lebesgue-measure|Lebesgue measure]]. If the integral below is well-defined as an extended integral, the **differential entropy** of \(X\) is
 \[
 h(X)=-\int_{\mathbb R^d}f(x)\log f(x)\,dx,
 \]

@@ -34,7 +34,7 @@ are closable. In fact, their closures satisfy \(S^*=F\).
 
 ## Polar decomposition and modular data
 
-The [[shale-paper/polar-decomposition|polar decomposition]] of the closed
+The [[functional-analysis/polar-decomposition|polar decomposition]] of the closed
 antilinear operator is
 \[
 S=J\Delta^{1/2}.

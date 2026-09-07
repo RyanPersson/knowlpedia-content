@@ -30,7 +30,7 @@ objects under discussion.
 ## Relation to global fields
 
 The [[algebra-fields-galois/completion-at-place|completion]] \(F_v\) of a
-[[langlands-letter/knowls/global-local-fields-completions|global field]] at a
+[[algebra-fields-galois/global-local-fields-completions|global field]] at a
 place is a local field. Conversely, every local field arises as such a
 completion, though not canonically from a unique global field.
 

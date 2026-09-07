@@ -6,7 +6,7 @@ summary = "The conjectural and partially proved association between algebraic au
 aliases = ["automorphic to Galois correspondence", "automorphic Galois representation", "Galois representations attached to automorphic representations"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands/l-algebraic-automorphic-representation", "langlands/automorphic-representation", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "langlands-letter/knowls/galois-extension-and-group", "langlands/l-group", "langlands/local-global-compatibility"]
+prerequisites = ["langlands/l-algebraic-automorphic-representation", "langlands/automorphic-representation", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/number-field", "algebra-fields-galois/galois-extension-and-group", "langlands/l-group", "langlands/local-global-compatibility"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -24,7 +24,7 @@ The **automorphic–Galois correspondence** predicts that suitably
 {}^L G(\overline{\mathbb Q}_\ell),
 \]
 
-from the [[langlands-letter/knowls/galois-extension-and-group|absolute Galois
+from the [[algebra-fields-galois/galois-extension-and-group|absolute Galois
 group]] into the [[langlands/l-group|\(L\)-group]], whose projection to the
 Galois factor is the canonical one. The
 representation should be unramified almost everywhere and satisfy
@@ -37,7 +37,7 @@ full generality.
 
 For almost every finite place \(v\nmid\ell\), the
 [[algebra-groups/conjugacy-class|conjugacy class]] of the
-[[langlands-letter/knowls/frobenius-unramified|Frobenius element]]
+[[algebra-fields-galois/frobenius-unramified|Frobenius element]]
 \(\rho_{\pi,\iota}(\operatorname{Frob}_v)\) should equal the image under
 \(\iota\) of the [[langlands/satake-parameter|Satake parameter]] of
 \(\pi_v\). Applying an algebraic representation

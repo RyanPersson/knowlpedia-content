@@ -29,7 +29,7 @@ at any [[algebra-fields-galois/place-of-global-field|place]] produces a
 
 ## Position among global fields
 
-Number fields are precisely the [[langlands-letter/knowls/global-local-fields-completions|global fields]]
+Number fields are precisely the [[algebra-fields-galois/global-local-fields-completions|global fields]]
 of characteristic \(0\). The other global fields are the
 [[algebra-fields-galois/global-function-field|global function fields]], which
 have positive characteristic.

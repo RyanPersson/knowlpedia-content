@@ -6,14 +6,14 @@ summary = "A p-adic Galois representation with the full expected space of de Rha
 aliases = ["de Rham representation", "de Rham p-adic representation"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings", "langlands/hodge-tate-representation"]
+prerequisites = ["algebra-fields-galois/galois-extension-and-group", "langlands/fontaine-period-rings", "langlands/hodge-tate-representation"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(K/\mathbb Q_p\) be finite, let
 \(G_K=\operatorname{Gal}(\overline K/K)\) be its
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]],
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]],
 and let \(V\) be a finite-dimensional \(\mathbb Q_p\)-representation of
 \(G_K\). Its space of **de Rham periods**, defined using the
 [[langlands/fontaine-period-rings|Fontaine period ring]]

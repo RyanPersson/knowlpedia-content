@@ -61,7 +61,7 @@ This is the mechanism by which endoscopy describes packet structure.
 For factorizable functions, compatible local transfers define an adelic
 transfer. Comparing the trace formula for \(G\) with [[langlands/stable-trace-formula|stable trace formulas]]
 for its endoscopic groups yields endoscopic classification and instances of
-[[langlands-letter/knowls/langlands-functoriality-l-homomorphism|Langlands
+[[langlands/langlands-functoriality-l-homomorphism|Langlands
 functoriality]].
 
 ## Scope

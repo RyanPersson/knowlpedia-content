@@ -6,13 +6,13 @@ summary = "An equivalence class of nontrivial absolute values on a global field.
 aliases = ["place", "places", "place of a number field", "place of a function field"]
 domains = ["algebra-fields-galois", "langlands"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global field]]. A
+[[algebra-fields-galois/global-local-fields-completions|global field]]. A
 **place of \(F\)** is an equivalence class of nontrivial absolute values on
 \(F\), where two absolute values are equivalent when they induce the same
 topology on \(F\).

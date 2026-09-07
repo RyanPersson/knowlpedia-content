@@ -36,7 +36,7 @@ Shimura data.
 The [[algebraic-geometry-foundations/adic-space|adic generic fiber]] is a
 rigid-analytic space. Adding level structure on
 the rational Tate module produces a tower with actions by a
-[[langlands-letter/knowls/p-adic-field|\(p\)-adic]]
+[[algebra-fields-galois/p-adic-field|\(p\)-adic]]
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
 and by the group of self-quasi-isogenies of \(\mathbb X\).
 At infinite level many such towers become

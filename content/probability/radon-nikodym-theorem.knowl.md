@@ -15,6 +15,6 @@ dependency_review_count = 1
 \[
 \nu(E)=\int_E f\,d\mu \qquad \text{for all } E\in\mathcal{A}.
 \]
-Moreover, \(f\) is unique up to \(\mu\)-almost everywhere equality, and it is denoted by \(\frac{d\nu}{d\mu}\) (the [[shale-paper/radon-nikodym-derivative|Radon–Nikodym derivative]] of \(\nu\) with respect to \(\mu\)).
+Moreover, \(f\) is unique up to \(\mu\)-almost everywhere equality, and it is denoted by \(\frac{d\nu}{d\mu}\) (the [[measure-theory/radon-nikodym-derivative|Radon–Nikodym derivative]] of \(\nu\) with respect to \(\mu\)).
 
 In probability, applying this to [[probability/probability-measure|probability measure]]s yields the notion of a “density” or likelihood ratio: if \(Q \ll P\) on a [[probability/probability-space|probability space]], then \(L=\frac{dQ}{dP}\) satisfies \(Q(E)=\int_E L\,dP\), and for suitable \(g\) one has \(\mathbb{E}_Q[g]=\mathbb{E}_P[gL]\), linking the theorem to [[probability/expectation|expectation]]. A common structural use is that [[probability/conditional-expectation|conditional expectation]] can be characterized as a Radon–Nikodym derivative with respect to the restriction of a probability measure to a smaller [[measure-theory/sigma-algebra|sigma-algebra]].

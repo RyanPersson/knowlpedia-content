@@ -6,7 +6,7 @@ summary = "An admissible homomorphism from the local Langlands group to the L-gr
 aliases = ["local L-parameter", "Langlands parameter", "admissible L-parameter"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/local-field", "langlands/weil-group", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/l-group", "langlands-letter/knowls/semisimple-element-and-class", "langlands-letter/knowls/langlands-dual-group"]
+prerequisites = ["algebra-fields-galois/local-field", "langlands/weil-group", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/l-group", "algebraic-geometry-foundations/semisimple-element-and-class", "langlands/langlands-dual-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -36,14 +36,14 @@ to the [[langlands/l-group|\(L\)-group]] whose composite with
 \({}^LG\to W_F\) is the natural projection, whose
 restriction to \(\operatorname{SL}_2(\mathbb C)\) is algebraic when that factor
 is present, and whose Weil-group elements have
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]
-[[langlands-letter/knowls/langlands-dual-group|dual-group]] part.
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]]
+[[langlands/langlands-dual-group|dual-group]] part.
 Parameters are considered up to conjugation by \(\widehat G\).
 
 ## Relevance
 
 For a non-[[algebraic-geometry-foundations/quasi-split-reductive-group|quasi-split]]
-[[langlands-letter/knowls/galois-descent-forms|inner form]], not every parameter for the common
+[[algebraic-geometry-foundations/galois-descent-forms|inner form]], not every parameter for the common
 \(L\)-group corresponds to a representation of that particular form. A
 parameter is **relevant** to \(G\) when every [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]] of
 \({}^LG\) containing its image corresponds to a parabolic subgroup defined

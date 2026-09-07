@@ -34,14 +34,14 @@ roots in a valuation-theoretic sense.
 - The completed [[algebra-fields-galois/algebraic-closure|algebraic closure]]
   \(\mathbb C_p\) is perfectoid.
 - A discretely valued
-  [[langlands-letter/knowls/p-adic-field|\(p\)-adic field]] is not perfectoid.
+  [[algebra-fields-galois/p-adic-field|\(p\)-adic field]] is not perfectoid.
 
 ## Tilt
 
 Every perfectoid field \(K\) has a
 [[algebraic-geometry-foundations/tilt-and-untilt|tilt]] \(K^\flat\) of
 characteristic \(p\). Their
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois groups]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois groups]]
 are canonically isomorphic,
 and finite étale extensions correspond.  The tilting operation is the basic
 bridge between mixed- and equal-characteristic perfectoid geometry.

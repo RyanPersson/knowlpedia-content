@@ -24,7 +24,7 @@ It is a program of correspondences rather than one unconditional bijection.
 ## Abelian case
 
 For \(G=\operatorname{GL}_1\),
-[[langlands-letter/knowls/ideles-artin-reciprocity-hecke-character|global
+[[algebra-fields-galois/ideles-artin-reciprocity-hecke-character|global
 class field theory]] identifies characters of the idèle class group
 
 \[
@@ -32,7 +32,7 @@ F^\times\backslash\mathbb A_F^\times
 \]
 
 with one-dimensional representations of the abelianized global
-[[langlands-letter/knowls/galois-extension-and-group|Galois group]],
+[[algebra-fields-galois/galois-extension-and-group|Galois group]],
 subject to the chosen reciprocity and Frobenius normalization. This is the
 abelian model for the general principle.
 
@@ -64,7 +64,7 @@ The conjecture includes more than matching sets. It should preserve:
   factors]];
 - [[algebra-representation-theory/central-character|central characters]] and
   duality;
-- [[langlands-letter/knowls/langlands-functoriality-l-homomorphism|functorial
+- [[langlands/langlands-functoriality-l-homomorphism|functorial
   transfer]] under homomorphisms of \(L\)-groups.
 
 A result proving only one direction or only equality of almost-all

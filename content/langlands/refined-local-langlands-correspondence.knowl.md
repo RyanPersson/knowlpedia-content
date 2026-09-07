@@ -49,7 +49,7 @@ normalize [[langlands/transfer-factor|transfer factors]] and distinguish all pac
 Pure inner twists suffice in some settings; rigid inner twists give a uniform
 framework for general connected reductive groups. The older notions of inner
 and pure inner forms are reviewed in
-[[langlands-letter/knowls/galois-descent-forms|Galois descent and forms]].
+[[algebraic-geometry-foundations/galois-descent-forms|Galois descent and forms]].
 
 ## Character identities
 

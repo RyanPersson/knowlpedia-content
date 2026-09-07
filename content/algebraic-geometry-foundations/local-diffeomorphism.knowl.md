@@ -5,18 +5,18 @@ kind = "knowl"
 summary = "A smooth map that restricts near every point to a diffeomorphism onto an open neighborhood."
 aliases = ["local diffeomorphism", "locally diffeomorphic map"]
 domains = ["algebraic-geometry-foundations"]
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/diffeomorphism", "topology/open-set"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A **local diffeomorphism** is a smooth map \(f:M\to N\) between smooth manifolds such that every \(x\in M\) has an open neighborhood \(U\) for which \(f(U)\) is open in \(N\) and
+A **local diffeomorphism** is a [[fiber-bundles/smooth-map|smooth map]] \(f:M\to N\) between smooth manifolds such that every \(x\in M\) has an open neighborhood \(U\) for which \(f(U)\) is open in \(N\) and
 
 \[
 f|_U:U\longrightarrow f(U)
 \]
 
-is a diffeomorphism. Equivalently, \(f\) has a smooth local inverse around every point of its source.
+is a [[fiber-bundles/diffeomorphism|diffeomorphism]]. Equivalently, \(f\) has a smooth local inverse around every point of its source.
 
 ## Examples
 

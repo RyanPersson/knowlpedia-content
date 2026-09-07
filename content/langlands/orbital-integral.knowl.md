@@ -6,7 +6,7 @@ summary = "The invariant distribution obtained by integrating a test function ov
 aliases = ["orbital integrals", "semisimple orbital integral"]
 domains = ["langlands", "harmonic-analysis", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "harmonic-analysis/test-function-space-local-group", "algebra-groups/centralizer", "harmonic-analysis/haar-measure"]
+prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/semisimple-element-and-class", "harmonic-analysis/test-function-space-local-group", "algebra-groups/centralizer", "harmonic-analysis/haar-measure"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -16,7 +16,7 @@ Let \(F\) be a
 \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]], and let \(\gamma\in G(F)\) be
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]. For a
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]]. For a
 [[harmonic-analysis/test-function-space-local-group|test function]]
 \(f\in C_c^\infty(G(F))\), the **orbital integral** of \(f\) at \(\gamma\)
 is

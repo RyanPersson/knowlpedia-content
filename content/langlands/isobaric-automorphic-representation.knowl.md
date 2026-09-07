@@ -6,18 +6,18 @@ summary = "An automorphic representation of GL_n formed as the Langlands quotien
 aliases = ["isobaric sum", "Langlands isobaric sum", "boxplus of automorphic representations"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "langlands-letter/knowls/adeles-restricted-product", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions", "langlands/cuspidal-automorphic-representation", "algebra-fields-galois/adeles-restricted-product", "langlands/automorphic-representation", "algebraic-geometry-foundations/levi-subgroup"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global field]] and
+[[algebra-fields-galois/global-local-fields-completions|global field]] and
 let \(n=n_1+\cdots+n_r\). Given unitary
 [[langlands/cuspidal-automorphic-representation|cuspidal automorphic
 representations]] \(\pi_i\) of
 \(\operatorname{GL}_{n_i}(\mathbb A_F)\), where \(\mathbb A_F\) is the
-[[langlands-letter/knowls/adeles-restricted-product|adele ring]], their
+[[algebra-fields-galois/adeles-restricted-product|adele ring]], their
 **isobaric sum**
 
 \[
@@ -42,7 +42,7 @@ standard way.
 At every place, the local component is the corresponding
 [[harmonic-analysis/langlands-classification-p-adic-group|local Langlands
 quotient]] at nonarchimedean places. Standard
-[[langlands-letter/knowls/euler-product-and-local-factor|\(L\)-functions]]
+[[langlands/euler-product-and-local-factor|\(L\)-functions]]
 multiply:
 
 \[

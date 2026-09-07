@@ -6,12 +6,12 @@ summary = "The *-automorphism induced by sending Weyl operators V(z) to V(Tz)"
 aliases = ["automorphism-thetaT", "Field Automorphism θ(T) from a Symplectic Map"]
 domains = ["shale-paper"]
 legacy_source_path = "shale-paper/automorphism-thetaT.md"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["lie-groups/symplectic-group-spk", "mathematical-physics/weyl-ccr-quantization", "operator-algebras/star-automorphism"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-For \(T\in Sp(K)\), \(\theta(T)\) is the unique *-automorphism of the CCR \(C^*\)-algebra \(\mathfrak A\) such that
+For [[lie-groups/symplectic-group-spk|\(T\in Sp(K)\)]], \(\theta(T)\) is the unique [[operator-algebras/star-automorphism|*-automorphism]] of the CCR \(C^*\)-algebra \(\mathfrak A\) such that
 \[
 \theta(T)\,e^{iR(z)} = e^{iR(Tz)}.
 \]

@@ -6,12 +6,12 @@ summary = "A measure of uncertainty of a discrete random variable, defined from 
 aliases = ["shannon-entropy", "Shannon entropy"]
 domains = ["probability"]
 legacy_source_path = "probability/shannon-entropy.md"
-prerequisites = ["probability/random-variable"]
+prerequisites = ["probability/random-variable", "probability/probability-mass-function"]
 dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+dependency_review_count = 2
 +++
 
-The **Shannon entropy** of a discrete [[probability/random-variable|random variable]] \(X\) with probability mass function \(p(x)=\mathbb{P}(X=x)\) is
+The **Shannon entropy** of a discrete [[probability/random-variable|random variable]] \(X\) with [[probability/probability-mass-function|probability mass function]] \(p(x)=\mathbb{P}(X=x)\) is
 \[
 H(X) \;=\; -\sum_x p(x)\,\log p(x),
 \]

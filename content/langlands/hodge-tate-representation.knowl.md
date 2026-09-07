@@ -6,13 +6,13 @@ summary = "A p-adic Galois representation that splits over C_p into integral Tat
 aliases = ["Hodge-Tate representation", "Hodge–Tate weights", "Hodge-Tate weights"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group"]
+prerequisites = ["algebra-fields-galois/galois-extension-and-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(K/\mathbb Q_p\) be a finite extension, let \(G_K\) be its
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]],
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]],
 and let \(V\) be a finite-dimensional \(\mathbb Q_p\)-representation of \(G_K\).
 It is **Hodge–Tate** if there is a \(G_K\)-equivariant decomposition
 

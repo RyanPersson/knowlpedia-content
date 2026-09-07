@@ -15,7 +15,7 @@ Let \(M\subseteq B(H)\) be a
 [[operator-algebras/von-neumann-algebra|von Neumann algebra]] with
 [[operator-algebras/cyclic-vector|cyclic]]
 [[operator-algebras/separating-vector|separating vector]] \(\Omega\). Write
-\(S=J\Delta^{1/2}\) for the [[shale-paper/polar-decomposition|polar decomposition]] of its
+\(S=J\Delta^{1/2}\) for the [[functional-analysis/polar-decomposition|polar decomposition]] of its
 [[operator-algebras/tomita-operator|Tomita operator]]. The
 **Tomita–Takesaki theorem** asserts
 \[

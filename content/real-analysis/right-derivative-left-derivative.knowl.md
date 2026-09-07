@@ -6,9 +6,9 @@ summary = "One-sided derivatives defined by one-sided limits of the difference q
 aliases = ["right-derivative-left-derivative", "Right derivative and left derivative"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/right-derivative-left-derivative.md"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["real-analysis/limit-of-a-function-at-a-point", "real-analysis/difference-quotient", "topology/limit-point"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(f:E\to\mathbb{R}\) (or \(\mathbb{C}\)) with \(E\subseteq\mathbb{R}\), and let \(a\in E\). If \(a\) is a [[topology/limit-point|limit point]] of \(E\cap(a,\infty)\), the **right derivative** of \(f\) at \(a\) is

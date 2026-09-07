@@ -6,13 +6,13 @@ summary = "The subgroup of a Galois group that stabilizes a chosen prime above a
 aliases = ["decomposition subgroup", "decomposition group at a place", "D_w"]
 domains = ["algebra-fields-galois", "langlands"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/global-local-fields-completions", "algebra-fields-galois/completion-at-place", "algebra-commutative/residue-field"]
+prerequisites = ["algebra-fields-galois/galois-extension-and-group", "algebra-fields-galois/global-local-fields-completions", "algebra-fields-galois/completion-at-place", "algebra-commutative/residue-field"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(L/K\) be a finite [[langlands-letter/knowls/galois-extension-and-group|Galois extension]] of
-[[langlands-letter/knowls/global-local-fields-completions|global fields]],
+Let \(L/K\) be a finite [[algebra-fields-galois/galois-extension-and-group|Galois extension]] of
+[[algebra-fields-galois/global-local-fields-completions|global fields]],
 let \(v\) be a nonarchimedean place of \(K\), and choose a place
 \(w\) of \(L\) above \(v\).  The **decomposition group at \(w\)** is the
 stabilizer
@@ -45,7 +45,7 @@ to conjugacy.
 For a separable closure \(\overline K/K\) and an extension \(\overline v\) of
 \(v\), the same stabilizer construction gives an absolute decomposition group
 \(D_{\overline v}\subset\operatorname{Gal}(\overline K/K)\), canonically
-isomorphic to the [[langlands-letter/knowls/galois-extension-and-group|absolute
+isomorphic to the [[algebra-fields-galois/galois-extension-and-group|absolute
 Galois group]] of \(K_v\) after the choice of \(\overline v\).
 
 ## References

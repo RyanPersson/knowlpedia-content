@@ -20,7 +20,7 @@ with equality if and only if \(P=Q\) (as measures on \((\Omega,\mathcal F)\)).
 
 ## Equivalent characterizations
 
-Equivalently, in the case \(P\ll Q\), writing \(f=\frac{dP}{dQ}\) for the [[shale-paper/radon-nikodym-derivative|Radon–Nikodym derivative]] (see [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]), one has
+Equivalently, in the case \(P\ll Q\), writing \(f=\frac{dP}{dQ}\) for the [[measure-theory/radon-nikodym-derivative|Radon–Nikodym derivative]] (see [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]), one has
 \[
 D(P\|Q)=\int_\Omega f\log f\,dQ \ge 0,
 \]

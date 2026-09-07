@@ -6,7 +6,7 @@ summary = "The theorem that unramified unit Hecke functions have matching endosc
 aliases = ["fundamental lemma", "Langlands-Shelstad fundamental lemma", "endoscopic fundamental lemma"]
 domains = ["langlands", "harmonic-analysis", "algebraic-geometry"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/unramified-reductive-group", "langlands/endoscopic-datum", "langlands-letter/knowls/maximal-compact-hyperspecial", "langlands/endoscopic-transfer", "langlands/strongly-regular-semisimple-element", "langlands/orbital-integral"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebraic-geometry-foundations/unramified-reductive-group", "langlands/endoscopic-datum", "harmonic-analysis/maximal-compact-hyperspecial", "langlands/endoscopic-transfer", "langlands/strongly-regular-semisimple-element", "langlands/orbital-integral"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -16,7 +16,7 @@ Let \(F\) be a
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified
 reductive group]], and let \(H\) be an unramified
 [[langlands/endoscopic-datum|endoscopic group]]. Choose
-[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial
+[[harmonic-analysis/maximal-compact-hyperspecial|hyperspecial
 subgroups]] \(K\subset G(F)\) and \(K_H\subset H(F)\), with
 volume \(1\). The **fundamental lemma** states that the unit functions
 
@@ -35,7 +35,7 @@ transfer]]. Equivalently, their matching [[langlands/strongly-regular-semisimple
 More generally, the transfer homomorphism between unramified spherical
 [[harmonic-analysis/hecke-algebra-locally-compact-group-pair|Hecke algebras]],
 defined through the
-[[langlands-letter/knowls/spherical-hecke-algebra-satake|Satake isomorphism]],
+[[harmonic-analysis/spherical-hecke-algebra-satake|Satake isomorphism]],
 sends a spherical
 Hecke function on \(G\) to a function on \(H\) with matching stable orbital
 integrals. The unit-element statement is the historically central case.

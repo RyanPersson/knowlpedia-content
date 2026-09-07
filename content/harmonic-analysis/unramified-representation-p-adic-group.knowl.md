@@ -6,7 +6,7 @@ summary = "An irreducible admissible representation with a nonzero hyperspecial-
 aliases = ["unramified p-adic representation", "spherical unramified representation"]
 domains = ["harmonic-analysis", "langlands", "lie-groups"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/unramified-reductive-group", "algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/maximal-compact-hyperspecial", "harmonic-analysis/admissible-representation-p-adic-group"]
+prerequisites = ["algebraic-geometry-foundations/unramified-reductive-group", "algebra-fields-galois/nonarchimedean-local-field", "harmonic-analysis/maximal-compact-hyperspecial", "harmonic-analysis/admissible-representation-p-adic-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,7 @@ Let \(\mathbf G\) be an
 [[algebraic-geometry-foundations/unramified-reductive-group|unramified
 connected reductive group]] over a
 [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]] \(F\), and let \(K\leq G=\mathbf G(F)\) be a
-[[langlands-letter/knowls/maximal-compact-hyperspecial|hyperspecial maximal
+[[harmonic-analysis/maximal-compact-hyperspecial|hyperspecial maximal
 compact subgroup]]. An irreducible
 [[harmonic-analysis/admissible-representation-p-adic-group|admissible smooth
 representation]] \(\pi\) of \(G\) is **unramified with respect to \(K\)** if

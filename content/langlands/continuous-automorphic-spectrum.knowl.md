@@ -6,14 +6,14 @@ summary = "The non-discrete part of the automorphic L2 spectrum, assembled from 
 aliases = ["continuous spectrum of automorphic forms", "continuous automorphic L2 spectrum", "Eisenstein spectrum"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebra-representation-theory/central-character", "linear-algebra/hilbert-space", "langlands/discrete-automorphic-spectrum", "harmonic-analysis/direct-integral-unitary-representations", "algebraic-geometry-foundations/levi-subgroup"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/global-local-fields-completions", "algebra-representation-theory/central-character", "linear-algebra/hilbert-space", "langlands/discrete-automorphic-spectrum", "harmonic-analysis/direct-integral-unitary-representations", "algebraic-geometry-foundations/levi-subgroup"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
-over a [[langlands-letter/knowls/global-local-fields-completions|global field]] \(F\). After fixing a
+over a [[algebra-fields-galois/global-local-fields-completions|global field]] \(F\). After fixing a
 [[algebra-representation-theory/central-character|central-character]] or
 split-center convention, the right regular
 representation on the automorphic
@@ -34,7 +34,7 @@ discrete automorphic data on proper
 
 ## Eisenstein construction
 
-[[langlands-letter/knowls/eisenstein-series|Eisenstein series]] and their
+[[langlands/eisenstein-series|Eisenstein series]] and their
 meromorphic continuation provide generalized eigenfunctions for the
 continuous spectrum. Their
 [[langlands/automorphic-constant-term|constant terms]] and normalized

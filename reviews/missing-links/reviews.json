@@ -15483,148 +15483,166 @@
       "last_pass_outcome": "reviewed_unchanged"
     },
     {
-      "id": "langlands-letter/knowls/adeles-restricted-product",
+      "id": "algebra-fields-galois/adeles-restricted-product",
       "outcome": "reviewed_unchanged",
       "source_sha256": "3cde8359e61475ecc25c061e569d6521cbd3acfa3478021a5bdbad6dc2bd74e4",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/adeles-restricted-product"
     },
     {
-      "id": "langlands-letter/knowls/automorphic-form-hecke-eigen",
+      "id": "langlands/automorphic-form-hecke-eigen",
       "outcome": "reviewed_unchanged",
       "source_sha256": "28d2043460c7421b2e5b7a304c5ca0e64e51c62ef1da74f8430584f2205413e3",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/automorphic-form-hecke-eigen"
     },
     {
-      "id": "langlands-letter/knowls/borel-mostow-semisimple-normalizer",
+      "id": "algebraic-geometry-foundations/borel-mostow-semisimple-normalizer",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5b218fa17a2f260a6002c9f65047a096d6f6f0c7cebfb0f50a7f73a3a69c53e2",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/borel-mostow-semisimple-normalizer"
     },
     {
-      "id": "langlands-letter/knowls/characters-separate-semisimple-classes",
+      "id": "algebra-representation-theory/characters-separate-semisimple-classes",
       "outcome": "reviewed_unchanged",
       "source_sha256": "9e097b303f962a3d1b9b481283d5dc333fe4afc726d3569c7977b9b06bbc4528",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/characters-separate-semisimple-classes"
     },
     {
-      "id": "langlands-letter/knowls/chevalley-basis",
+      "id": "lie-groups/chevalley-basis",
       "outcome": "reviewed_unchanged",
       "source_sha256": "02f64c1e5465701e1824849cd0b1e44b979c30ee764801beaada647c4e90b925",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/chevalley-basis"
     },
     {
-      "id": "langlands-letter/knowls/chevalley-lattice-integral-model",
+      "id": "algebraic-geometry-foundations/chevalley-lattice-integral-model",
       "outcome": "reviewed_unchanged",
       "source_sha256": "c8b5b60ba565bffaa5506835a88f3ce2986ebf1813041cc284d11ed6b873ba04",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/chevalley-lattice-integral-model"
     },
     {
-      "id": "langlands-letter/knowls/contragredient-representation",
+      "id": "algebra-representation-theory/contragredient-representation",
       "outcome": "reviewed_unchanged",
       "source_sha256": "fe6222e3da632b4208f7106deed8d063e4d826d81c15306bc25909b646b0f68b",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/contragredient-representation"
     },
     {
-      "id": "langlands-letter/knowls/coroots-and-pairing",
+      "id": "lie-groups/coroots-and-pairing",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a97b63ac42a470bf5e7ca1af43484cbac7bedc98f9a3984e341318ce0a8e1093",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/coroots-and-pairing"
     },
     {
-      "id": "langlands-letter/knowls/dual-lattice",
+      "id": "algebra-modules/dual-lattice",
       "outcome": "reviewed_unchanged",
       "source_sha256": "88f0a575e5fc826acb8985a2cda4b6000d76a025ce094545e1606a19629d9301",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/dual-lattice"
     },
     {
-      "id": "langlands-letter/knowls/eisenstein-series",
+      "id": "langlands/eisenstein-series",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e3344b9181bc1756373e369eb152892386f41e2c5ca091e93beb0b7898823d3b",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/eisenstein-series"
     },
     {
-      "id": "langlands-letter/knowls/embeddings-qbar-to-q_p",
+      "id": "algebra-fields-galois/embeddings-qbar-to-q_p",
       "outcome": "reviewed_unchanged",
       "source_sha256": "2e4b77cb5037f8273fb1caddca69c0380dc7a3d91980d4a323b14e816b380458",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/embeddings-qbar-to-q_p"
     },
     {
-      "id": "langlands-letter/knowls/euler-product-and-local-factor",
+      "id": "langlands/euler-product-and-local-factor",
       "outcome": "reviewed_unchanged",
       "source_sha256": "244438bbbeee8cb2ad77ed60b74566433c9813a3f7167402aebfda92834e3756",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/euler-product-and-local-factor"
     },
     {
-      "id": "langlands-letter/knowls/frobenius-unramified",
+      "id": "algebra-fields-galois/frobenius-unramified",
       "outcome": "reviewed_unchanged",
       "source_sha256": "123521a49d4a6ff941b8982d112210b4e0c322a89439a1674ebaf1f077329910",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/frobenius-unramified"
     },
     {
-      "id": "langlands-letter/knowls/galois-descent-forms",
+      "id": "algebraic-geometry-foundations/galois-descent-forms",
       "outcome": "reviewed_unchanged",
       "source_sha256": "6bbfe6d79fb8be32b2816c825c3fbb1d8f579218ae723ef415e09bacbc74e9d9",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/galois-descent-forms"
     },
     {
-      "id": "langlands-letter/knowls/galois-extension-and-group",
+      "id": "algebra-fields-galois/galois-extension-and-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "1d180b46bdba00c3df4702ccc244dbf7cd2ebef864587a9b140819ddae78c53b",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/galois-extension-and-group"
     },
     {
-      "id": "langlands-letter/knowls/global-local-fields-completions",
+      "id": "algebra-fields-galois/global-local-fields-completions",
       "outcome": "reviewed_unchanged",
       "source_sha256": "37b75d130360ba40339eb46166842fe9b274dbcdc988d828fea934f4295ee741",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/global-local-fields-completions"
     },
     {
-      "id": "langlands-letter/knowls/group-algebra-of-lattice",
+      "id": "algebra-representation-theory/group-algebra-of-lattice",
       "outcome": "reviewed_unchanged",
       "source_sha256": "ab1b20503b8669cb09ce69fb4fd11522ebffada7933b20dcf7e96f9e49705624",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/group-algebra-of-lattice"
     },
     {
-      "id": "langlands-letter/knowls/ideles-artin-reciprocity-hecke-character",
+      "id": "algebra-fields-galois/ideles-artin-reciprocity-hecke-character",
       "outcome": "reviewed_unchanged",
       "source_sha256": "a3318ce91a7ae9d091768f5fda3a0f90ed36414564cfa69ecdc50bcd46e9a49e",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/ideles-artin-reciprocity-hecke-character"
     },
     {
       "id": "langlands-letter/knowls/l-group-satake-parameter",
@@ -15635,116 +15653,130 @@
       "last_pass_outcome": "reviewed_unchanged"
     },
     {
-      "id": "langlands-letter/knowls/langlands-dual-group",
+      "id": "langlands/langlands-dual-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "9fa5e4fb398404fe1bafb32e441dd1f75dd545d0542418523d05a68fcbe1d0d9",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/langlands-dual-group"
     },
     {
-      "id": "langlands-letter/knowls/langlands-functoriality-l-homomorphism",
+      "id": "langlands/langlands-functoriality-l-homomorphism",
       "outcome": "reviewed_unchanged",
       "source_sha256": "f58882ebf25f63bbddc7d90121ccd953be7ca0b51f913184ff8da5682bbcb151",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/langlands-functoriality-l-homomorphism"
     },
     {
-      "id": "langlands-letter/knowls/maximal-compact-hyperspecial",
+      "id": "harmonic-analysis/maximal-compact-hyperspecial",
       "outcome": "reviewed_unchanged",
       "source_sha256": "d6d6b20363ae6b43de17e0c9b6738d3cb43e99141a128195e8d219f23e7cfe22",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/maximal-compact-hyperspecial"
     },
     {
-      "id": "langlands-letter/knowls/maximal-torus-weight-lattice",
+      "id": "algebraic-geometry-foundations/maximal-torus-weight-lattice",
       "outcome": "reviewed_unchanged",
       "source_sha256": "99d81bc635d2f4eb25ef1b3527ff18d9368cf084c13369b7e4ae76383dcca9fd",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/maximal-torus-weight-lattice"
     },
     {
-      "id": "langlands-letter/knowls/nonabelian-h1-galois-cohomology",
+      "id": "algebra-fields-galois/nonabelian-h1-galois-cohomology",
       "outcome": "reviewed_unchanged",
       "source_sha256": "19912b563ca6ba8c5dab7da291939793f1594e5dcc427ae92a515937d18773e2",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/nonabelian-h1-galois-cohomology"
     },
     {
-      "id": "langlands-letter/knowls/p-adic-field",
+      "id": "algebra-fields-galois/p-adic-field",
       "outcome": "reviewed_unchanged",
       "source_sha256": "3163bb950e67c5f290f9cff4f428b508e48fcd68bb4edb87ccb26dedf4f6ba73",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/p-adic-field"
     },
     {
-      "id": "langlands-letter/knowls/pinned-automorphisms",
+      "id": "algebraic-geometry-foundations/pinned-automorphisms",
       "outcome": "reviewed_unchanged",
       "source_sha256": "bab8b7198ea4af648f3374f7aa8da0883c988ae54ce53ac5d4520f2b3e7217cd",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/pinned-automorphisms"
     },
     {
-      "id": "langlands-letter/knowls/root-vs-weight-lattice-isogeny",
+      "id": "algebraic-geometry-foundations/root-vs-weight-lattice-isogeny",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5d30c37b01edcd96dcbeaa57260ef21fb05c95479bbbf34255f1caabee9459d4",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/root-vs-weight-lattice-isogeny"
     },
     {
-      "id": "langlands-letter/knowls/roots-weights-weyl",
+      "id": "lie-groups/roots-weights-weyl",
       "outcome": "reviewed_unchanged",
       "source_sha256": "fd3dbd0d69b0df34746e4e4fb3138466b501332d421179a7312c435a7dde26a2",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/roots-weights-weyl"
     },
     {
-      "id": "langlands-letter/knowls/semisimple-element-and-class",
+      "id": "algebraic-geometry-foundations/semisimple-element-and-class",
       "outcome": "reviewed_unchanged",
       "source_sha256": "2b0796c839d400ba50f23521901d653ea938a65bca07e2d2e2f25111d48fb4bf",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/semisimple-element-and-class"
     },
     {
-      "id": "langlands-letter/knowls/simply-connected-semisimple-group",
+      "id": "algebraic-geometry-foundations/simply-connected-semisimple-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "c424347873b22dd30ba3a7225c3d88ef3558fd89fcfd325ee376385ab3e972bd",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/simply-connected-semisimple-group"
     },
     {
-      "id": "langlands-letter/knowls/spherical-hecke-algebra-satake",
+      "id": "harmonic-analysis/spherical-hecke-algebra-satake",
       "outcome": "reviewed_unchanged",
       "source_sha256": "2cdf23ae13381a41957ead9c16706819d3585320e7670bae5f6bfb780a47b356",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/spherical-hecke-algebra-satake"
     },
     {
-      "id": "langlands-letter/knowls/split-reductive-group",
+      "id": "algebraic-geometry-foundations/split-reductive-group",
       "outcome": "reviewed_unchanged",
       "source_sha256": "5d8b4f965280ed9491de5c743a4e549794da9b1001d9dabafe1df7de560af212",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/split-reductive-group"
     },
     {
-      "id": "langlands-letter/knowls/unramified-extension-local",
+      "id": "algebra-fields-galois/unramified-extension-local",
       "outcome": "reviewed_unchanged",
       "source_sha256": "e03699781f682ef411244e97ec15ed17e4eaaeb94a93b4a8d7c3ac28c8b1b474",
       "evidence": "Read the complete knowl, including the core and every optional section. Checked internal links against canonical target definitions and rejected generic or context-sensitive scanner matches as unnecessary; no justified link or prerequisite correction was found.",
       "review_batch": "batch_19.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "langlands-letter/knowls/unramified-extension-local"
     },
     {
       "id": "langlands-letter/letter/letter",
@@ -26109,20 +26141,22 @@
       "last_pass_outcome": "reviewed_unchanged"
     },
     {
-      "id": "shale-paper/complex-structure-lambda",
+      "id": "functional-analysis/complex-structure-lambda",
       "outcome": "corrected",
       "source_sha256": "98c606f19cf68b2133e796b66a2b536518d37ba21a51d8f8007df4da981b48db",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, Hilbert-space → linear-algebra/hilbert-space, inner product → linear-algebra/inner-product. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/complex-structure-lambda"
     },
     {
-      "id": "shale-paper/creation-annihilation-operators",
+      "id": "mathematical-physics/creation-annihilation-operators",
       "outcome": "corrected",
       "source_sha256": "f6d461e86cdaee3e82721777f2e3bac87e6054c1fa0dadc8940568a1180f52df",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert-space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/creation-annihilation-operators"
     },
     {
       "id": "shale-paper/cstar-algebra-observables",
@@ -26133,36 +26167,40 @@
       "last_pass_outcome": "corrected"
     },
     {
-      "id": "shale-paper/duality-transform-D",
+      "id": "mathematical-physics/duality-transform-D",
       "outcome": "corrected",
       "source_sha256": "bfaddb8ab9591ae67e0e70536e61a9499389c862dacc935c21511ab1036b985d",
       "evidence": "Read the full knowl and checked shale-paper/symmetric-fock-space and shale-paper/gaussian-measure-hilbert-space. Linked both named pictures in the minimal core. The operator notation and Hermite example do not require additional links.",
       "review_batch": "cal_physics.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/duality-transform-D"
     },
     {
-      "id": "shale-paper/fock-cook-quantization",
+      "id": "mathematical-physics/fock-cook-quantization",
       "outcome": "corrected",
       "source_sha256": "f3a8cbb6c31993ee6535cb4ea14b1602490d49574d0a8afec5a221fb8b70ce77",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/fock-cook-quantization"
     },
     {
-      "id": "shale-paper/fredholm-determinant-trace-log",
+      "id": "functional-analysis/fredholm-determinant-trace-log",
       "outcome": "corrected",
       "source_sha256": "3e8844e56479297d99b8c1f8401166f0d9eba3273dddb2849ddc4da6a8a1ef70",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, trace-class operator → shale-paper/trace-class-operator. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/fredholm-determinant-trace-log"
     },
     {
-      "id": "shale-paper/gaussian-measure-hilbert-space",
+      "id": "probability/gaussian-measure-hilbert-space",
       "outcome": "corrected",
       "source_sha256": "760668bdf14eb44ed4a7cf78eb3be6d37f3bca2f4193a44a8fc573bc61b387d4",
       "evidence": "Linked Gaussian Borel measure to measure-theory/borel-measure; trace-class covariance is an additional condition in this source.",
       "review_batch": "link-new-analysis.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/gaussian-measure-hilbert-space"
     },
     {
       "id": "shale-paper/glh0-glh1-glh2",
@@ -26205,20 +26243,22 @@
       "last_pass_outcome": "reviewed_unchanged"
     },
     {
-      "id": "shale-paper/operator-topologies-sot-wot",
+      "id": "operator-algebras/operator-topologies-sot-wot",
       "outcome": "corrected",
       "source_sha256": "21ba5b56209b958795ca75712cf095faab8bf09e0c6c4cf7eb3e13a691c809e4",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, operator-norm → linear-algebra/operator-norm, linear operators → linear-algebra/linear-operator, strong operator topology → operator-algebras/strong-operator-topology, weak operator topology → operator-algebras/weak-operator-topology, operator norm → linear-algebra/operator-norm. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/operator-topologies-sot-wot"
     },
     {
-      "id": "shale-paper/polar-decomposition",
+      "id": "functional-analysis/polar-decomposition",
       "outcome": "corrected",
       "source_sha256": "6b0a750ccd2bb954dff80dd468730f5cd3af5b6a251cd3adf4417979bfd6e682",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed. Also added: bounded operator → functional-analysis/bounded-linear-operator.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/polar-decomposition"
     },
     {
       "id": "shale-paper/projective-unitary-representation",
@@ -26229,37 +26269,41 @@
       "last_pass_outcome": "corrected"
     },
     {
-      "id": "shale-paper/radon-nikodym-derivative",
+      "id": "measure-theory/radon-nikodym-derivative",
       "outcome": "corrected",
       "source_sha256": "36c376d60a786e1c47d3ae5dbf1879be2c9e31ed729b6516bef858b22e4e96f7",
       "evidence": "Linking review completed. Added precise first-use links: measurable space → measure-theory/measurable-space, measurable function → measure-theory/measurable-function, measurable set → measure-theory/measurable-set. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/radon-nikodym-derivative"
     },
     {
-      "id": "shale-paper/restricted-general-linear-group-rgl",
+      "id": "lie-groups/restricted-general-linear-group-rgl",
       "outcome": "corrected",
       "source_sha256": "012ac12d4d3314cc3bb7d54318bb9e0c3dad291144d635527e56cd56c1a62571",
       "evidence": "Linking review completed. Added precise first-use links: general linear group → lie-groups/general-linear-group. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/restricted-general-linear-group-rgl"
     },
     {
-      "id": "shale-paper/restricted-symplectic-group-rspk",
+      "id": "lie-groups/restricted-symplectic-group-rspk",
       "outcome": "corrected",
       "source_sha256": "3eb966e79462f09d8c25b7eac37557901e138a40028d44ba687469d1aba64e7a",
       "evidence": "Linking review completed. Added precise first-use links: projective unitary representation → lie-groups/projective-unitary-representation, symplectic group → lie-groups/symplectic-group, Fock–Cook quantization → shale-paper/fock-cook-quantization. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/restricted-symplectic-group-rspk"
     },
     {
-      "id": "shale-paper/schrodinger-representation",
+      "id": "mathematical-physics/schrodinger-representation",
       "outcome": "corrected",
       "source_sha256": "31edaf2332b13f5b5544a004cb5c5781dc117dee23739c8ec20a50abddb1e887",
       "evidence": "Corpus search found no canonical Schrödinger representation knowl; existing callers only described the model inline or named it without a target. Added the standard translation-modulation formula on L²(Rⁿ), with q as the modulation coordinate and p as the translation coordinate. Direct composition gives the phase exp(-i B/2) for B((q,p),(q',p'))=q·p'-p·q', matching shale-paper/weyl-ccr-quantization. The core contains only the representation and Weyl relation; operator generators, continuity, uniqueness, and normalization evidence are expandable. Checked Folland, Harmonic Analysis in Phase Space, Chapter 1 §1.2 (electronic edition DOI 10.1515/9781400882427). Root re-read source and Lp-space/unitary-operator targets: added exact defining body links and measure specification, moved the derived Weyl identity after the core; checked phase directly as (q-prime dot p minus q dot p-prime)/2. Removed fictitious legacy source path.",
       "reference_check": "Root checked publisher-supplied preview table of contents: Folland Chapter 1 §3 begins p.21, not §2. Phase normalization verified by the explicit multiplication in this knowl; preview is bibliographic verification, not evidence of checking the full section.",
       "review_batch": "new-schrodinger-definition.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/schrodinger-representation"
     },
     {
       "id": "shale-paper/segal-unitary-representation-Ufrak",
@@ -26270,20 +26314,22 @@
       "last_pass_outcome": "reviewed_unchanged"
     },
     {
-      "id": "shale-paper/single-particle-structure-sigma-h",
+      "id": "mathematical-physics/single-particle-structure-sigma-h",
       "outcome": "corrected",
       "source_sha256": "9e47bc91aa5857515cd293b81271811b783afe7af9a3477c08fd42267c2297d0",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, inner product → linear-algebra/inner-product, phase space → differential-geometry/classical-phase-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/single-particle-structure-sigma-h"
     },
     {
-      "id": "shale-paper/spectral-theorem-compact-selfadjoint",
+      "id": "functional-analysis/spectral-theorem-compact-selfadjoint",
       "outcome": "corrected",
       "source_sha256": "69d90cb09f8f4f9816e1651522461b1bdc57af2c79fceccb443072fd470e8828",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, orthonormal basis → linear-algebra/orthonormal-basis. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/spectral-theorem-compact-selfadjoint"
     },
     {
       "id": "shale-paper/state-pure-regular",
@@ -26294,84 +26340,94 @@
       "last_pass_outcome": "corrected"
     },
     {
-      "id": "shale-paper/symmetric-fock-space",
+      "id": "mathematical-physics/symmetric-fock-space",
       "outcome": "corrected",
       "source_sha256": "680b3d03408edfaaf8bef3860f8fad4191c82edb36d96ff0c61371fb6e7fbedf",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/symmetric-fock-space"
     },
     {
-      "id": "shale-paper/symmetric-tensor-product",
+      "id": "functional-analysis/symmetric-tensor-product",
       "outcome": "corrected",
       "source_sha256": "8b5f4ea7b02318497895db7c4c455068fd9349ed217f0ddec56855487d6a0606",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, Fock–Cook quantization → shale-paper/fock-cook-quantization. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/symmetric-tensor-product"
     },
     {
-      "id": "shale-paper/symplectic-form",
+      "id": "linear-algebra/symplectic-form",
       "outcome": "corrected",
       "source_sha256": "951591088627eb384c7e5dffa7cf1561f11018b757925211c367a562bbae719e",
       "evidence": "Linking review completed. Added precise first-use links: vector space → linear-algebra/vector-space, bilinear form → linear-algebra/bilinear-form. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/symplectic-form"
     },
     {
-      "id": "shale-paper/symplectic-group-spk",
+      "id": "lie-groups/symplectic-group-spk",
       "outcome": "corrected",
       "source_sha256": "b4aa2d237e74d5385797cb1d12b3c10610a0936e37c4ab5365b494c7860b8b9d",
       "evidence": "Linking review completed. Added precise first-use links: linear operators → linear-algebra/linear-operator, symplectic group → lie-groups/symplectic-group. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/symplectic-group-spk"
     },
     {
-      "id": "shale-paper/symplectic-hilbert-space",
+      "id": "functional-analysis/symplectic-hilbert-space",
       "outcome": "corrected",
       "source_sha256": "6f54d0d494f994367cd25031292a72f7f20e7045f0bc405149fa3d9c707becc7",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, bilinear form → linear-algebra/bilinear-form, symplectic form → shale-paper/symplectic-form, Banach spaces → linear-algebra/banach-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed. Also added: bounded operator → functional-analysis/bounded-linear-operator.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/symplectic-hilbert-space"
     },
     {
-      "id": "shale-paper/tame-function",
+      "id": "probability/tame-function",
       "outcome": "corrected",
       "source_sha256": "23eeb15543cdce97f02c177398b3b15d0bfa6617a12b9a58bf4ef1f3fcce0190",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space, probability space → probability/probability-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/tame-function"
     },
     {
-      "id": "shale-paper/trace-class-operator",
+      "id": "functional-analysis/trace-class-operator",
       "outcome": "corrected",
       "source_sha256": "e8efe499fefa4601dc62a63c8d5266446592fc9b9504c32fe95ed40253b27547",
       "evidence": "Linking review completed. Added precise first-use links: Hilbert space → linear-algebra/hilbert-space. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed. Also added: bounded operator → functional-analysis/bounded-linear-operator.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/trace-class-operator"
     },
     {
-      "id": "shale-paper/weak-continuity",
+      "id": "lie-groups/weak-continuity",
       "outcome": "corrected",
       "source_sha256": "9a71c73230ce4bc3593e35176349a5adbde60bd4a152a502ae49c63ac669a566",
       "evidence": "Linking review completed. Added precise first-use links: strongly continuous unitary representation → lie-groups/strongly-continuous-unitary-representation. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/weak-continuity"
     },
     {
-      "id": "shale-paper/weyl-ccr-quantization",
+      "id": "mathematical-physics/weyl-ccr-quantization",
       "outcome": "corrected",
       "source_sha256": "1ef5979ec6451759009ce9771d51776f1337cb813e297860a1c77339ba299129",
       "evidence": "Read the complete source and the canonical target for Schrödinger representation already linked; integrated the exact contextual occurrence and checked that the target's convention matches. Existing unrelated uses and generic matches were left untouched.",
       "review_batch": "link-new-4.json",
-      "last_pass_outcome": "reviewed_unchanged"
+      "last_pass_outcome": "reviewed_unchanged",
+      "original_id": "shale-paper/weyl-ccr-quantization"
     },
     {
-      "id": "shale-paper/wiener-transform",
+      "id": "harmonic-analysis/wiener-transform",
       "outcome": "corrected",
       "source_sha256": "21137ac6925a5fb03f66bb04e146a74ec8231237e62164ee2224ad7615bf74e8",
       "evidence": "Linking review completed. Added precise first-use links: unitary operator → functional-analysis/unitary-operator. Generic matches (set, function, sequence, limit, etc.) were checked and left unlinked where they function as ordinary notation or are too broad; prerequisite metadata was not changed.",
       "review_batch": "batch_32.json",
-      "last_pass_outcome": "corrected"
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/wiener-transform"
     },
     {
       "id": "shared-foundations",
@@ -28124,6 +28180,1559 @@
       "evidence": "Read the complete uniqueness statement and commentary together with topology/hausdorff-space, topology/convergent-sequence, topology/metric-space, shared-foundations/sequence and topology/compact-subset-of-hausdorff-is-closed. Linked sequence in the hypothesis to the natural-number-indexed function definition, and metric spaces in the comparison to the metric-space definition. Existing Hausdorff/convergence links match neighborhood-based convergence; the compact-closed link is a related theorem, not a prerequisite. Retained the existing two direct prerequisites: convergence supplies sequences transitively, while metric spaces and compactness are commentary only. No unresolved independent definition needed for this sequence theorem; no claim about nets was added.",
       "review_batch": "batch_35.json",
       "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "convex-analysis/piecewise-polynomial-function",
+      "outcome": "corrected",
+      "source_sha256": "99847985a8d803d0ad737c9dcca892fa7b47f3fe6dd872bc15865fbbcfd30b63",
+      "evidence": "The piecewise formula uses multivariate polynomials, obtained by iterating polynomial rings; the existing semialgebraic-set prerequisite is retained.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "convex-analysis/semialgebraic-set",
+      "outcome": "corrected",
+      "source_sha256": "c14c2e9fe84dc2a823637fa7eee77ba6df958dee6ac4ef1018932ec7a9eb764a",
+      "evidence": "The defining sets and polynomial sign conditions require subsets and polynomial rings; no link to the one-real-variable polynomial knowl.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "algebra-commutative/jacobson-annihilates-simples",
+      "outcome": "corrected",
+      "source_sha256": "8684b8c7f9b61b327616e554a5e34e536156cea588ca2e46e50d6a439104443b",
+      "evidence": "The theorem names J(R) and a right module. The radical target explicitly covers annihilators of simple right modules; the module target includes right modules, unlike the left-only simple-module target.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "algebraic-geometry-foundations/local-diffeomorphism",
+      "outcome": "corrected",
+      "source_sha256": "56c76b379f0ed23739c498fa3a8f5d8c719204b258c01dfc0224fb8452a1f7cd",
+      "evidence": "Its defining restriction must be a diffeomorphism between open neighborhoods; smooth-map/manifold prerequisites are already supplied transitively by diffeomorphism.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "analysis/dyadic-annulus",
+      "outcome": "corrected",
+      "source_sha256": "12b5f21511e39a8b417e673c88bcbeb6eaacafe1596bd6f81d36da17c17b71ea",
+      "evidence": "The radial inequalities use the Euclidean norm on R^d. Bump functions occur only in later applications and are not prerequisites of the shell definition.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "analysis/finitely-overlapping-family",
+      "outcome": "corrected",
+      "source_sha256": "bb4ae4417d0c0fc8827a5e5f50bc536f6f482703c2ffa7ae3892ca4ec5a4a9ad",
+      "evidence": "The multiplicity bound sums indicators of an indexed family. Tonelli is a later consequence, not a defining dependency.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "convex-analysis/subsequence-index-bound-n_k-k",
+      "outcome": "corrected",
+      "source_sha256": "73f5c95d7cca5572c0000bae7e40a365730d13b54835fd49c19da9a4b5c9dc7e",
+      "evidence": "The statement is about a sequence of positive integers. Subsequence is an application, not a prerequisite for this elementary bound.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "convex-analysis/youngs-inequality",
+      "outcome": "corrected",
+      "source_sha256": "8bd6bf26c8ed41acdf981fb27ea43d7f04c41683b07cc71208b0b48d0b201bc9",
+      "evidence": "Absolute value appears in the statement. The supplied derivation applies weighted AM-GM with theta=1/p, a=|x|^p, b=|y|^q. Holder is downstream, not a prerequisite.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "harmonic-analysis/oscillatory-integral",
+      "outcome": "corrected",
+      "source_sha256": "ac28c08fbf9bab8ec62150a6fa5b466f4498a26d0cea33e72b06c75c716b3101",
+      "evidence": "The displayed expression integrates a complex-valued phase-amplitude function over Euclidean space. Lebesgue integration is the underlying ordinary integration used before any oscillatory regularization; this edge does not assert absolute convergence. Stationary phase and Fourier analysis are not needed to define the displayed expression.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/abels-theorem",
+      "outcome": "corrected",
+      "source_sha256": "df55240dfa19f8362f2b0612f2d0190c37b0744670b198db01527042505f1861",
+      "evidence": "The hypothesis is convergence of the coefficient series, the constructed function is a power series, and the conclusion is a boundary limit. Cauchy-Hadamard is only a related theorem.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/algebraic-properties-sup-inf",
+      "outcome": "corrected",
+      "source_sha256": "66dbb7c191970b60ab9982b6a0d8a668504105806c28fdaae3ba6152dd1a2000",
+      "evidence": "Every stated identity is expressed in supremum/infimum; the previously empty prerequisite list omitted both.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/archimedean-property",
+      "outcome": "corrected",
+      "source_sha256": "f34f8c5c5b0ecda2b805b1abae5678e0425148cdeca9b74affcd75f7e418ce47",
+      "evidence": "The Archimedean theorem for real numbers follows from their ordered-field and least-upper-bound axioms, as its existing Remarks already state. Density of rationals is downstream.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/cauchy-principal-value",
+      "outcome": "corrected",
+      "source_sha256": "77697583e54e8321aa5b7f74b012e85feedd9b82af30197d028395a9834e593d",
+      "evidence": "Principal value is a limit of truncated ordinary integrals. The integration prerequisite does not identify principal value with the Lebesgue integral of the original singular function. Tempered distributions and Hilbert transform are later interpretations.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/density-of-r-minus-q-in-r",
+      "outcome": "corrected",
+      "source_sha256": "f56cdfa3b42046bf731f4d692c94ea4f9d4aefde79eebe4193f0a985ddc78fa5",
+      "evidence": "The statement uses the ordered reals and their rational subset. The other density-of-irrationals entry is an equivalent theorem, not a logical prerequisite.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/global-maximum-global-minimum",
+      "outcome": "corrected",
+      "source_sha256": "cec6d13824fca73eb3e4839b6c51ec7db0640cd2b208d3404d6bb9609ae652e2",
+      "evidence": "Global extrema compare values of a real-valued function using order. Extreme-value theorem gives existence under extra assumptions and is not required to define extrema.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/japanese-bracket",
+      "outcome": "corrected",
+      "source_sha256": "e4017b5d1ea4914612224315b45308fc34d13bf18a2c51e2077c2583e46983c7",
+      "evidence": "The defining weight is formed from the Euclidean norm. Symbol estimates and Schwartz spaces are applications, not prerequisites.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/mean-value-theorem-for-integrals",
+      "outcome": "corrected",
+      "source_sha256": "5a9fd74e874851530a8fd2c9cde7d20f8235bde159ce7d9d83e5f2c60b479df1",
+      "evidence": "The theorem concerns a Riemann integral; the existing explanation explicitly derives attainment of the average using intermediate value.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/modulus-on-c",
+      "outcome": "corrected",
+      "source_sha256": "2d3c196c1daeca51b26d7823f1f47299c4199985ddb8e8ee460ad6a5720b2449",
+      "evidence": "The formula defines magnitude for a complex number. Normed-space and metric consequences are downstream of this definition.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/multi-index-notation",
+      "outcome": "corrected",
+      "source_sha256": "6327a3223021f128a5a9986da0344d3dfbea1fdf7d58705716875ec779d76214",
+      "evidence": "The convention bundles nonnegative integer coordinates, coordinate factorials and iterated partial derivatives. Schwartz/distributional derivatives are later applications.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "real-analysis/right-derivative-left-derivative",
+      "outcome": "corrected",
+      "source_sha256": "9efc07a3846ec7a9d5624dad29574ee2aabbaaf9849c4954b39a9045f4a9f8e3",
+      "evidence": "The definition takes a one-sided restricted limit of a difference quotient, with explicit accumulation-point hypotheses. The metric-space limit target covers both real and complex outputs; the real-only one-sided-limit target is not used as the sole general definition.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "shale-paper/automorphism-thetaT",
+      "outcome": "corrected",
+      "source_sha256": "7f5b12d9ff2fcb6c64f0f64e604aafa909df60ebab5af5eb4f38e241f5031a30",
+      "evidence": "The definition uses the Hilbert-space symplectic group and a star-automorphism specified on Weyl generators. Preservation of the Weyl relations is the defining input; finite-dimensional Lie symplectic groups are not substituted.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "probability/tame-function",
+      "outcome": "corrected",
+      "source_sha256": "d8f60d85ddcfb69f59c764127e5f601ed4fd03eb9acc8a3968d14cac587ad324",
+      "evidence": "The cylindrical function is built from a finite-dimensional projection on a real Hilbert space. Gaussian probability appears only in the subsequent construction.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected",
+      "original_id": "shale-paper/tame-function"
+    },
+    {
+      "id": "algebra-category-theory/faithful-functor",
+      "outcome": "corrected",
+      "source_sha256": "b06134a7e540e81e9324b22e5d20e575ccb9ad3a629ad81ade1a6fe73151cfe8",
+      "evidence": "Checked the functor prerequisite against injectivity of each induced hom-set map. Its edge existed but had no recorded review.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "algebra-category-theory/fully-faithful-functor",
+      "outcome": "corrected",
+      "source_sha256": "64410b9241ded769f57f170c3145b0c6df16f10b15b1defde20e864cdc530c4f",
+      "evidence": "Checked the functor prerequisite against bijectivity on hom-sets. Faithfulness is a consequence, not an additional necessary defining dependency.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "algebra-groups/alternating-group",
+      "outcome": "corrected",
+      "source_sha256": "f4255e7dad86819a63dd531fcdb5bfadcd5312040df2a1aa846cae03634a5f62",
+      "evidence": "Checked group/subgroup/kernel/sign prerequisites against the sign-kernel definition; the review count was zero.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "algebra-groups/quaternion-group",
+      "outcome": "corrected",
+      "source_sha256": "f1240e2321aaa311fadee63abb899df222114694a8491b67ca57564adfd901c6",
+      "evidence": "Checked group prerequisite against the eight-element multiplication presentation; the review field was absent.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "differential-geometry/crossing-form",
+      "outcome": "corrected",
+      "source_sha256": "a1516be735c66542787e336ae577cf9972bd4f737a176f171edea0bfeda311f6",
+      "evidence": "Checked symplectic-vector-space and Lagrangian-subspace prerequisites against the graph-chart quadratic form; the count was absent.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "differential-geometry/gaussian-curvature",
+      "outcome": "corrected",
+      "source_sha256": "d9ec9d8192db1f9287736ff26fe6606495c16a3b20f2e86110fdc10af256828b",
+      "evidence": "Checked the Riemannian-manifold and sectional-curvature prerequisites against K(p)=K_g(T_pS); the count was absent.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "differential-geometry/sectional-curvature",
+      "outcome": "corrected",
+      "source_sha256": "4f466fb28051963144fddfdbb4052211fb942f914247b3f5abaee05e2288abc7",
+      "evidence": "Checked Riemannian-manifold and Riemann-curvature-tensor prerequisites against the defining quotient and its sign convention; the count was absent.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "differential-geometry/volume-form",
+      "outcome": "corrected",
+      "source_sha256": "2a56a8f658fb02d68a9949763bfc32e021955dff80f1c2cec7b584c28a66cbe6",
+      "evidence": "Checked smooth-manifold, differential-form and orientation prerequisites against the positive nowhere-vanishing top-form definition; the count was absent.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "probability/normal-distribution",
+      "outcome": "corrected",
+      "source_sha256": "c5434ccf1bb603615d50515c1583709f52985c183658f455f2ed6a8629ae1e41",
+      "evidence": "Checked probability-measure, Lebesgue-measure and Radon-Nikodym-density prerequisites against the displayed normal density; the count was zero.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "probability/uniform-distribution",
+      "outcome": "corrected",
+      "source_sha256": "b795ff41b94cc21706ca06ab0d727355a7f12cde01d6e11ebdb8d018e4620791",
+      "evidence": "Checked probability-measure, Lebesgue-measure and Radon-Nikodym-density prerequisites against the interval density; the count was zero.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "algebra-groups/decomposition",
+      "outcome": "corrected",
+      "source_sha256": "43635ea91b0bed4b53d323713c65ae931ad5028fb4993760ad892742b2dac0f5",
+      "evidence": "Read the full entry: it surveys direct products, semidirect products and extensions rather than defining one object. Reclassified as index, following EDITORIAL.md container convention, instead of inventing prerequisites just to attach an organizational page.",
+      "review_batch": "component-dependencies.json",
+      "last_pass_outcome": "corrected"
+    },
+    {
+      "id": "differential-geometry/poincare-disk-model",
+      "outcome": "corrected",
+      "source_sha256": "2f9f656677895d947adec3c3ecdeb20fefa021624e20395bb819e87932fe0f8e",
+      "evidence": "Checked the existing working-tree Gaussian-curvature link against its target. It belongs in the properties section; it is not a prerequisite of the metric definition. Preserved the existing content edit.",
+      "review_batch": "component-dependencies-followup"
+    },
+    {
+      "id": "probability/probability-mass-function",
+      "outcome": "corrected",
+      "source_sha256": "899ac1a416ac839733fd49f67b9f122098ef32aca5aab758a7d2e1aa7b34ae8d",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/probability-density-function",
+      "outcome": "corrected",
+      "source_sha256": "90424dab1bf856315f0f697d9ea17a28e79fa10bf214c54ca666d5b4b97b3aa6",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/cumulative-distribution-function",
+      "outcome": "corrected",
+      "source_sha256": "851aad0b81db3d852b0a8ee8834ca6ad35ae507ebfde36f1a951afe577264514",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/bernoulli-distribution",
+      "outcome": "corrected",
+      "source_sha256": "643e47a266a55b8da4ad6066c698d0b20fda10299cfeef8f9b5ec64c2a677ca4",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/relative-entropy-kl-divergence",
+      "outcome": "corrected",
+      "source_sha256": "d24038d303e3b4739c65e2aef0a1fd74fd62f1d8dc92cb695db25e0e5245ac16",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/shannon-entropy",
+      "outcome": "corrected",
+      "source_sha256": "e6272de48525f9a60be9fae0b6dfbdae59377f76f9fe2c9c925d0e24e2c7c479",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/total-variation-distance",
+      "outcome": "corrected",
+      "source_sha256": "9c32c9d9cd87d44958f2c37034d0d5ae871709f9ee14a666832082da3e80a151",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/normal-distribution",
+      "outcome": "corrected",
+      "source_sha256": "0810f36af2bd7a78237bf97ababeb98212fd492dbcc0192e12514ab9835540eb",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/uniform-distribution",
+      "outcome": "corrected",
+      "source_sha256": "fff07bcfefe8db7fb765fac5bdbccc744140288e62a8d4019a7d554dfbf8d9c4",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/differential-entropy",
+      "outcome": "corrected",
+      "source_sha256": "f0b1719a24d370a452c4a6d94e8b6c76cdf4dcb220d0b4b3b61753789f15fa49",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/expectation-function-of-rv",
+      "outcome": "corrected",
+      "source_sha256": "a209ec4515de5a3cde6226980d89e566ea43ff83be5137c3b86ccaae7116ca55",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/distribution-law",
+      "outcome": "corrected",
+      "source_sha256": "f07a2afbe542f2b9b1ab480ded79f5e52c525956909977935bfb43ade1de2a6f",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "shale-paper",
+      "outcome": "corrected",
+      "source_sha256": "3d37505d575c1e5fd6739bd51b6d76a9d2c340756af889f2d938dccfe8744cd9",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois",
+      "outcome": "corrected",
+      "source_sha256": "58ac3af5b1384a14b7c806314137825666d3de94a0fa9e5a9cbd54f807910c16",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands-letter",
+      "outcome": "corrected",
+      "source_sha256": "46db31d0d7ea86063f13d6eb212d25b9301efc2a63251744352852d391798e0f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/predual",
+      "outcome": "corrected",
+      "source_sha256": "a9e95787487b0498e6ca1f3f0b62d175b3a2dd74109095ce00c7d1462b0abf8a",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/positive-cone-of-predual",
+      "outcome": "corrected",
+      "source_sha256": "f11caa31840b03243721501cd6c235250307f97fa0b4f64942153a74102d97fe",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/ultraweak-topology",
+      "outcome": "corrected",
+      "source_sha256": "11f68ce1c86d5e73129609b7e84c3f80f6029b59faf7a9b3bef38e73bd438687",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/vector-state",
+      "outcome": "corrected",
+      "source_sha256": "939ff4890dbd018e963bba2cdebe5c0b807486e463f402d448735c9b81c6f4fd",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/gns-construction-for-weight",
+      "outcome": "corrected",
+      "source_sha256": "1bb0cfcf73da1ce9d7d1b53ed27621a50679015cfc8a459e52cc8e37f6b1b2be",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/tomita-operator",
+      "outcome": "corrected",
+      "source_sha256": "51db70b50018773d4c1c14d9d207eb1a5c3b481cfa7b4dce4bc8f0cc9189fda6",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/tomita-takesaki-theorem",
+      "outcome": "corrected",
+      "source_sha256": "7bf71dfadbdc6e60b7aa6e300474bf0aa85f3ee48fa8cc6a813428c37e33d570",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/vector-functional",
+      "outcome": "corrected",
+      "source_sha256": "9e40bb5e6f9a1a1604357141437768291c1a7af6af3a1931ccda0770d11a440a",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/orbit-method-induced-representation",
+      "outcome": "corrected",
+      "source_sha256": "ca617c58f7590b0226b938393ac7d9e0c1e0e1ae79c1725103aa6bbbbfb88055",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/psl2-complex",
+      "outcome": "corrected",
+      "source_sha256": "6b320fb4a9f35a4b9e70b8c583f59fee1033805e830dd4beb8ec90ec133ca891",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/stone-von-neumann-theorem",
+      "outcome": "corrected",
+      "source_sha256": "25af8fa8671b67dbaf189a67817e34eaf517b498c4cc4c17a27757035e05a48b",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/metaplectic-representation",
+      "outcome": "corrected",
+      "source_sha256": "139c9652af104a27fd1eb7226b0ee20e56c873d1d811f5d2bc02e9da5d82dcfc",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/kirillov-correspondence-nilpotent-lie-groups",
+      "outcome": "corrected",
+      "source_sha256": "d025adb18eaefab1d8933294bdde35755381b40b83124e0040c26eb0aa660000",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/compact-real-form",
+      "outcome": "corrected",
+      "source_sha256": "3874341af4e50cf66765151fc1f531e984623525e2a04f8d1cfa4f0bade19d2f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/orbit-method",
+      "outcome": "corrected",
+      "source_sha256": "35a8c03faeea1a3bd5b74da40855ce35d217338b8241c8880707d5bfd17f0fc7",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/unramified-reductive-group",
+      "outcome": "corrected",
+      "source_sha256": "da53f5344d77846346c6e5a78e2c4066c2fb9b78acb7d07b71bfae776321c593",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/quasi-split-reductive-group",
+      "outcome": "corrected",
+      "source_sha256": "24ebab5322fb5a53bdce7dd82d6bba5b9977e0ee088dad52ab43fb5fc2a89886",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/levi-subgroup",
+      "outcome": "corrected",
+      "source_sha256": "f95310a442a16ce544c53d8d43f6e7c10e61f0392ef0315dcca60ff9d6ce3942",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/perfectoid-field",
+      "outcome": "corrected",
+      "source_sha256": "3f3cf0c9ebae1d05625cb0335719303e27901730d56613c84bc2ba0a97aa63ea",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/tilt-and-untilt",
+      "outcome": "corrected",
+      "source_sha256": "be19a0a333b4d74584b180227c23c2fea92a8319fb8f4cbafbcff8d7eecdd0a7",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/unipotent-radical",
+      "outcome": "corrected",
+      "source_sha256": "6052c028408eeff0780e66dd273004e066c078c11ddc8b65967596e0b3437a95",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/compactly-supported-etale-cohomology",
+      "outcome": "corrected",
+      "source_sha256": "fdb78eb8b1a0c3419d5cc24ea85cdc8b83ac2ac73c731c2c7dd413be8f3b8684",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "mathematical-physics/weyl-ccr-quantization",
+      "outcome": "corrected",
+      "source_sha256": "19c94e49d1059020c475d05f92adb768950e751896f86791c2796e0d3fe8f5a2",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "probability/tame-function",
+      "outcome": "corrected",
+      "source_sha256": "c7c79135f0e3d3f9ca222f0b4856d112a1f55ef4c4d63038685e11f1c1c7c710",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "functional-analysis/symplectic-hilbert-space",
+      "outcome": "corrected",
+      "source_sha256": "9b380c4017e77fee6a95e1ee796ad2c069125c8e323546869229febbc66081a8",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "functional-analysis/spectral-theorem-compact-selfadjoint",
+      "outcome": "corrected",
+      "source_sha256": "516f2e61aa4d1c7ac2a679278407e30b03fffd60e3ebef612dbcc08e51ca9663",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "linear-algebra/symplectic-form",
+      "outcome": "corrected",
+      "source_sha256": "83f41a4c33ba8f2394a9c99869af1df2995ee122fc2b115a704006ef1d91c237",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "mathematical-physics/creation-annihilation-operators",
+      "outcome": "corrected",
+      "source_sha256": "ad5cfbfa5ead08120d692c04dd585388e627f5804228fbc3f6db22f1f1f88904",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "functional-analysis/symmetric-tensor-product",
+      "outcome": "corrected",
+      "source_sha256": "4b83e923f260803966c7cfd80e7748220cb8f779b7d9bab4e4b8cb145d327578",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "harmonic-analysis/wiener-transform",
+      "outcome": "corrected",
+      "source_sha256": "87f307613e74dda1d04b2fef37acd93c7d605ae4c3ab5f15d6d62ec78022994e",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "mathematical-physics/single-particle-structure-sigma-h",
+      "outcome": "corrected",
+      "source_sha256": "50eaec7151ae360a4e453703e4957f1dd2ee698c8f7a481facb7628c1f1f2508",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "functional-analysis/fredholm-determinant-trace-log",
+      "outcome": "corrected",
+      "source_sha256": "05fdf0e872a92cfbb2893dd71bd0409f3daaf7db097acf860647ded49006e546",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "mathematical-physics/schrodinger-representation",
+      "outcome": "corrected",
+      "source_sha256": "f2e652fa38f8d5eb9ef988bce875bb56fe544325b3ca239df108002927e7ca4c",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "mathematical-physics/duality-transform-D",
+      "outcome": "corrected",
+      "source_sha256": "3a7c4cf78ec272a36898a0f4cd2710dad22bbdda4e631b44eee1340fa8bdb770",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "shale-paper/glh0-glh1-glh2",
+      "outcome": "corrected",
+      "source_sha256": "ad4c0f83062624e7558ca1fe9ad90a4c7c16ae91a0d65b58a1aabfb208f2dfc0",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "functional-analysis/complex-structure-lambda",
+      "outcome": "corrected",
+      "source_sha256": "48746d08e16beea0950429e6feef276940f99c44b16a54a37a9a17725c877592",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "functional-analysis/polar-decomposition",
+      "outcome": "corrected",
+      "source_sha256": "3a24dd3128c3fb6d8096ec45578a16596adfbb321dab9704bcba3c4843ad45e7",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "probability/gaussian-measure-hilbert-space",
+      "outcome": "corrected",
+      "source_sha256": "9653d0bd3d7f7ab69a5a2deaf3dac55722914145be6ebede7d5fba33550363e4",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "functional-analysis/trace-class-operator",
+      "outcome": "corrected",
+      "source_sha256": "5ff8066a69854c49b50480cc6a1fb3f559cafb5f99bd13b7eab3870f368b36ad",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "operator-algebras/operator-topologies-sot-wot",
+      "outcome": "corrected",
+      "source_sha256": "1273b97c2ec41848d4e6ae79e60c8c1924ca1e0e922dff15cad21174184eedc9",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/symplectic-group-spk",
+      "outcome": "corrected",
+      "source_sha256": "67cdd3c887eb548995a9e11b90d87ef0eb6d1fb7c4deb3d936b2fc564ab8217a",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/restricted-symplectic-group-rspk",
+      "outcome": "corrected",
+      "source_sha256": "5d2d92e3d18757119bf9b10cb507f8db2ed8a4961755b0aef98fa533ddb52c42",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "shale-paper/automorphism-thetaT",
+      "outcome": "corrected",
+      "source_sha256": "30ac3f19cd72ea23f4d2f27242dcf03f4956684695424a84f70aadd6b2c392d2",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "shale-paper/lagrangian-decomposition-m-plus-m",
+      "outcome": "corrected",
+      "source_sha256": "8166595ba9cb899bac9846f00816b64dc829347840295dfcddf30787977c3097",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/weak-continuity",
+      "outcome": "corrected",
+      "source_sha256": "470c526062daefe971970ca7762113c1b3a38aaefabe39bb35bcbb397ce74cfa",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "mathematical-physics/fock-cook-quantization",
+      "outcome": "corrected",
+      "source_sha256": "306e9409caf0f3800ce052b1e5d7a017bc319680755465a59ccc2c935eff742f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "mathematical-physics/symmetric-fock-space",
+      "outcome": "corrected",
+      "source_sha256": "45801897f403fcec7799698c54381cc0fa9927c21b2159b40ab2f63e86e33872",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/restricted-general-linear-group-rgl",
+      "outcome": "corrected",
+      "source_sha256": "5bb08838ba050a0a3746d93c645dd2bb97d3807ca844a2a2c5608e2ad4dd9d2f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/orbital-integral",
+      "outcome": "corrected",
+      "source_sha256": "abbb69b53a15a7b890a19be81745394aae97aa400340b8f1cd724ceaa58c133d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/hodge-tate-representation",
+      "outcome": "corrected",
+      "source_sha256": "3ea6a61a8f850cbdddec5ad984c437d245a343de8f84a00f1e43d137c5c57d11",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/root-number",
+      "outcome": "corrected",
+      "source_sha256": "a04722e035f5d923419fb98e96a525f8e7190ff8da96c7710ee3a68cdcedab9f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/rigid-inner-twist",
+      "outcome": "corrected",
+      "source_sha256": "a09b9629bac6c88b8027dea2424a165b0b563031c9c5324d1524ad03a0c482d0",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/l-group",
+      "outcome": "corrected",
+      "source_sha256": "075660ae47c19dc9fbfffb3ac58b2874d50540790b8986329dfa4b5728b4a171",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/global-langlands-parameter",
+      "outcome": "corrected",
+      "source_sha256": "213a4e3f11c42e5a99545eead8aed4e22278b40a22c97bc33797c928e111d3d7",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/residual-automorphic-spectrum",
+      "outcome": "corrected",
+      "source_sha256": "21fd75cee9f1cbb74e7b889a5389154349a644865d64c15ad5c3c19617eeab81",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/fargues-scholze-parameter-map",
+      "outcome": "corrected",
+      "source_sha256": "6bd43c59cd97c24f5475e12fb8062df5f24c4132ee3b42ab4b12e8ba7fb83379",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/g-shtuka",
+      "outcome": "corrected",
+      "source_sha256": "c0c400c269884967a8199cbed9bc8c5c17869185ddb88f534f00fcf08216bb80",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/component-group-of-l-parameter",
+      "outcome": "corrected",
+      "source_sha256": "49456417eaf561d586b7bcc3790bebed2c5a5b7c426b62d8c88c9962a83dd9a5",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/cuspidal-automorphic-representation",
+      "outcome": "corrected",
+      "source_sha256": "d405187be5bd77f8a6fc43fc42d614c3e4f3f00134dadb55f23c5c6b75028652",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/arthur-truncation",
+      "outcome": "corrected",
+      "source_sha256": "246fb18d1d948149644064a975419e7d55d6eb06e3bb291b980c25cd96e444e6",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/fundamental-lemma",
+      "outcome": "corrected",
+      "source_sha256": "48a87bd0e12f634ba9135832c619e10763231814182ebf50308696b5d9cdbd19",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/modern-langlands-index",
+      "outcome": "corrected",
+      "source_sha256": "947790b0a5e8da417e289c660bfcc08f2c9d5b2e445f99637990a29aa9c24ab9",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/rapoport-zink-space",
+      "outcome": "corrected",
+      "source_sha256": "1e84282007bf6250160592a2d6502519e84114546f59e0f0eb1add4aa476df50",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/stable-conjugacy",
+      "outcome": "corrected",
+      "source_sha256": "47636c58431be07846a53b7e6dff2ebd081ede37790072ee8325e4debf78747d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/strongly-regular-semisimple-element",
+      "outcome": "corrected",
+      "source_sha256": "171dff94586b75e79509386813f4c923144a485cee6af09da4ce9b6cd1d74e4d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/kappa-orbital-integral",
+      "outcome": "corrected",
+      "source_sha256": "a9083fd356ea73fd7f2d41a71fb47b080a319173fb69a7a0ad8485471c5e8a56",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/l-algebraic-automorphic-representation",
+      "outcome": "corrected",
+      "source_sha256": "91f2a4588c7471b8dee711f99388c4203f844a2d597938a6a07ded4c2754a419",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/fontaine-period-rings",
+      "outcome": "corrected",
+      "source_sha256": "7d50e5ed1f93c66f274b936bb04d214a1c4f6a1a20e0db8edaf3501177eeb2d2",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/crystalline-galois-representation",
+      "outcome": "corrected",
+      "source_sha256": "79dc3908882d6648961460092ba85a11d316c91374c4cc243efc12d49fca934d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/arthur-selberg-trace-formula",
+      "outcome": "corrected",
+      "source_sha256": "5f93ae5b302079bfa8f6050406d7a35a081bb98483f1ecfdff92fd313aa63de8",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/compatible-system-of-galois-representations",
+      "outcome": "corrected",
+      "source_sha256": "3662dd0e8a1bb3c9c6975deaeedd2d9b10511a3a9a812d81e4d1f757f01df2f8",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/isobaric-automorphic-representation",
+      "outcome": "corrected",
+      "source_sha256": "e85e2273f6db7d4ef4b54296ca6853803ec6571791948bd7a2417b50ac1b10fc",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/excursion-operator",
+      "outcome": "corrected",
+      "source_sha256": "43860ad5e3ad5dfb5d132801c47b215b57a71cb4278a81f07b32f4995c56a6f9",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/stable-trace-formula",
+      "outcome": "corrected",
+      "source_sha256": "ae05570500281a997721cb83d34ea74ea680f2c7e79b2f5b9b3cc02849bce709",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/stable-orbital-integral",
+      "outcome": "corrected",
+      "source_sha256": "82f97fdf0f31d824f1fe39d44c222dbff2d983db8d449ceda60913f130ec7f27",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/twisted-conjugacy",
+      "outcome": "corrected",
+      "source_sha256": "60d8f5566cf384a1882edaeefc423df4e5c6842f97e5c41780cab95bb7601179",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-langlands-correspondence-for-gln",
+      "outcome": "corrected",
+      "source_sha256": "a16af8543ffd5c2f1b1536b707d47027a2929912b3c859c621fee052300574a1",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/discrete-automorphic-spectrum",
+      "outcome": "corrected",
+      "source_sha256": "df7c8d7cebd9dc8014dd212f85ba54325e4f739c04d91d660fb7894ef0b7a0f5",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/geometric-satake-equivalence",
+      "outcome": "corrected",
+      "source_sha256": "96c8674244097a7ce407f0568a381e6b0c064f92496f7aecc4e5797900f4bb0f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/weil-deligne-representation",
+      "outcome": "corrected",
+      "source_sha256": "62993b6ab169920b9e3176a0263a510e7b62b12e895b64fc503e83c16d521ff4",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/g-local-system",
+      "outcome": "corrected",
+      "source_sha256": "bd2added42b0511ff837cd45488882761969feb778bdaab656f6c977dfa08f01",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/affine-grassmannian",
+      "outcome": "corrected",
+      "source_sha256": "b8bff60ca4688a950e1d8fd94f26ef784aa4afef737382e7a58c196a31d9bfc2",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/geometric-langlands-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "4d245272fe82675bc64c15a3dd6934d8be09bc23844c06be69328b523f8722c1",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/satake-parameter",
+      "outcome": "corrected",
+      "source_sha256": "b6cb7b94ed01eadc169b9169c59e69b61ede904e4cef53e19ceb6d16d3cd4094",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/automorphic-form",
+      "outcome": "corrected",
+      "source_sha256": "4fb48607975e31bb1bf5dbed143505b94ea5afa3b21e1d70170fb170df209376",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/semistable-galois-representation",
+      "outcome": "corrected",
+      "source_sha256": "b2a93bfe32c10ce22b20c7ffeef3bd4b2b6f5745cba0fc1def6ccd116e1fee78",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/endoscopic-transfer",
+      "outcome": "corrected",
+      "source_sha256": "87771ecd02b3091e74d604deee609c1bc10e8c59926e2c2af79005d870d5da35",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/automorphic-representation",
+      "outcome": "corrected",
+      "source_sha256": "ac65d4348b30179f7be624cb9e46811ba9daf7cdce6c0bee81b93118c1dc4151",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/artin-conductor",
+      "outcome": "corrected",
+      "source_sha256": "a1d8ae812d2ec9d4e521080773adf9de5ef69e13a42d51fa99c4d2661b5e64c7",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/spectral-action",
+      "outcome": "corrected",
+      "source_sha256": "36e3e736cab710ce13b517a73f424920037985368094ab17cd31e50a15ff7f64",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/refined-local-langlands-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "13e98ac05a2049a81907cd28b585f022bea3b80adf90593c124f0278466f6b61",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-shtuka",
+      "outcome": "corrected",
+      "source_sha256": "24f6fe866769b6f2ee0fc9442cb58b4e1ee336bbe5c3b14e45cb97aeafe632da",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/global-langlands-reciprocity",
+      "outcome": "corrected",
+      "source_sha256": "6a64673a18eab23d0c27196e97b7daa59fc7410a8dbec79b5e4ac1ff21d8c0a0",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/c-algebraic-automorphic-representation",
+      "outcome": "corrected",
+      "source_sha256": "43b67e8968f58d0472384b0ea7a878324f9e6c57d7978ed2d1b88f50d2a8354a",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/tamagawa-measure",
+      "outcome": "corrected",
+      "source_sha256": "dd990ed8a4ded19e34a84d4247330e5ec004f2e098c542ddc6accbb837e79685",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-langlands-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "74bdeb36f3b61880ffdbcd66f4e7ca552ba31d971b474ef666b875267b61eb04",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-l-parameter",
+      "outcome": "corrected",
+      "source_sha256": "a5f90ce42665b779fba6563eba480709180bcc494e13096b191ba23468904170",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/geometric-langlands-index",
+      "outcome": "corrected",
+      "source_sha256": "c2f1caf175f0cf20d8d221339d2bccc1706a993af7903b80c699ad127241b491",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/de-rham-galois-representation",
+      "outcome": "corrected",
+      "source_sha256": "5c1961c7cb17eab3bb31a1b56d86716b1b52fb0da8441cdf33e2065ca04e99b6",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-shimura-variety",
+      "outcome": "corrected",
+      "source_sha256": "abaeae3ed88978c60224351f7ad23d7834460e5d2511e8788848ce3b3d78dd3e",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/lafforgue-global-parameterization",
+      "outcome": "corrected",
+      "source_sha256": "95ae25c10fa85fc894fb77d81a190c466a37437c3b67849fbc5f58eeffdb07e9",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/g-bundle-on-fargues-fontaine-curve",
+      "outcome": "corrected",
+      "source_sha256": "fc4651cf1656eb44ee6e1c9ee7e99f8acfa13b9cb4b21264acb8338677cdaf46",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/stable-distribution",
+      "outcome": "corrected",
+      "source_sha256": "f00684d8e9c0c15d1dc23c7358714bc19cf6a4b06670ecf61541c463421cf1b7",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/strong-multiplicity-one-theorem",
+      "outcome": "corrected",
+      "source_sha256": "11fcf28fa20288b59b208ab61210aaee87dabdfa08d7f4ce44c6db42ce5c37c8",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/automorphic-galois-correspondence",
+      "outcome": "corrected",
+      "source_sha256": "68283f1daf64dbd3bed20bbb7b6da140c9850da1d1774568e8d52543fa32021d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-epsilon-factor",
+      "outcome": "corrected",
+      "source_sha256": "d681f0c5f4c95ca836f5a4526e8b0d2a3e753d1a30130e632b4d9e686346a2f2",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/stack-of-l-parameters",
+      "outcome": "corrected",
+      "source_sha256": "3429f15941954e007ea3f9b785301135c261b0df5cc3566c29457ef6d12e9ad9",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/tate-nakayama-duality",
+      "outcome": "corrected",
+      "source_sha256": "45e6d52a559c77011b9d5ca581bb32f71e1ae4ce77f97d80f4f25f2d64a636f6",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/continuous-automorphic-spectrum",
+      "outcome": "corrected",
+      "source_sha256": "271c54801f0d6351556955bac1705c582767208b1185f846114341a7e065de5d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/kottwitz-set-b-g",
+      "outcome": "corrected",
+      "source_sha256": "a306dd5948087b76a48f62d026f9c21563e5146a34b9717283c31eba6add370d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/excursion-algebra",
+      "outcome": "corrected",
+      "source_sha256": "e9c4d13e7e901708dd087cedc380bdef2772f34254795c51e22a47e566d5c218",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-class-field-theory",
+      "outcome": "corrected",
+      "source_sha256": "c62ffdc9bba2320f24438417d23e867eef58434f344a6c336eccecbff551d52e",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/moduli-stack-of-g-local-systems",
+      "outcome": "corrected",
+      "source_sha256": "9415dabf89006be31d3a4059506e96d04ac4811601adf2bb15025a8cfc268eaa",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/endoscopic-datum",
+      "outcome": "corrected",
+      "source_sha256": "9a939c1b7633fd155414f4d899756eb144087caca4505308f8e9ebc91f2ae8bb",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-gamma-factor",
+      "outcome": "corrected",
+      "source_sha256": "dfff9682e9a626fb502dfdb29d9eb1ccdcac28ec6690796f473087ac09f6b2d9",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/automorphic-constant-term",
+      "outcome": "corrected",
+      "source_sha256": "0eb96a79f0b04516caf1525378291e6a6a4213d383633390da4f172405827fad",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/restricted-tensor-product-automorphic-representation",
+      "outcome": "corrected",
+      "source_sha256": "271009369314a4f6336113dbcad97c7a4d6d93393029791b13026cb4ad967c4c",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/weil-group",
+      "outcome": "corrected",
+      "source_sha256": "a2cf226ffd93328ff4f0b3a7e2c630d57c90caa9bb03360620c0eee15ca20bfe",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/coalescence-of-shtuka-legs",
+      "outcome": "corrected",
+      "source_sha256": "2f71c9af42f5b2b937dc3a1b347f7bcd70f62b9f49bdc31424415ee11726f5bc",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/local-langlands-compatibilities",
+      "outcome": "corrected",
+      "source_sha256": "19d2837c460c0c02f3c6ddf64dca27b3e3e8d79cdbe55d9ccdfa35dbd923675a",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "knowlification/july-30-additions-index",
+      "outcome": "corrected",
+      "source_sha256": "5716fd755c489e214b089649e457eacab387860dc198985366811c2165d6597d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "harmonic-analysis/unramified-representation-p-adic-group",
+      "outcome": "corrected",
+      "source_sha256": "e52fec839b5c15ad22abd2bcc8bfed82c7f1c4cc354e00b2c3e3aea762e63581",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "harmonic-analysis/parabolic-modulus-character",
+      "outcome": "corrected",
+      "source_sha256": "727b8299a60a634448ccba316728ba5457986ab423166c1c76c802ffa5b36101",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/chebotarev-density-theorem",
+      "outcome": "corrected",
+      "source_sha256": "e81edb623118def5bb92a44080f1f68854567ce0e85b97c33889112ae18ec048",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/nonarchimedean-local-field",
+      "outcome": "corrected",
+      "source_sha256": "de4d4c40888fdefd8eb908ae725cc5e693475a48e2fc6153352e83b5498f34b6",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/inertia-subgroup",
+      "outcome": "corrected",
+      "source_sha256": "9648f5c13f2609d02ad2fb56cfd2af959f85613816782a01cf0e3f761546588b",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/completion-at-place",
+      "outcome": "corrected",
+      "source_sha256": "48dbaf3ec04820faab10549226e582b3fdec73f521342288b6c126c1f6f8ac6d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/decomposition-group",
+      "outcome": "corrected",
+      "source_sha256": "245fb2825516956e2115f9b4b51d142bb691015b7cea3587462ad9b1dca53a43",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/global-function-field",
+      "outcome": "corrected",
+      "source_sha256": "0adc1760cc3ae2467dedd6c18a896ca466eb2237c9072c09ac4ebb4a3f6803db",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/place-of-global-field",
+      "outcome": "corrected",
+      "source_sha256": "f463f64622661cf64831e993c990a3d81e9b79f48ddd118749319a5d552d2833",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/number-field",
+      "outcome": "corrected",
+      "source_sha256": "d0027462d9a2f452f6219bd1e83397077eaf0a58228555f0c72de2330daf186f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/local-field",
+      "outcome": "corrected",
+      "source_sha256": "63f2077b7b87b79e56c85a2c44ebd6094fc1e4b89e22281bdd9468b6ab945b78",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "differential-geometry/action-angle-coordinates",
+      "outcome": "corrected",
+      "source_sha256": "c0309b68088587203bcb86c269a7e827870e4d4a19c4af628948cfa288eb915b",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-category-theory/tannakian-category",
+      "outcome": "corrected",
+      "source_sha256": "153e12bc7218afca8229081a90ed8a9c8f4d1f88f00217d723f64a09039e955f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands-letter/letter/letter",
+      "outcome": "corrected",
+      "source_sha256": "d813a382a5cd4250dcb7fabb705657b93b76d3ae0d6dbb7751441f0836068b41",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/borel-mostow-semisimple-normalizer",
+      "outcome": "corrected",
+      "source_sha256": "7fc1bbf7dd87342c3c67aa1cead40a1ea013cade1ffd4d17ccac4cb435801b33",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/roots-weights-weyl",
+      "outcome": "corrected",
+      "source_sha256": "7a7a8b702865a8f52ff1e5162fc1326d88138ec205f917a48d94e3d758652546",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/nonabelian-h1-galois-cohomology",
+      "outcome": "corrected",
+      "source_sha256": "b80e35100c2ef843985ade4104dad39525026d94f82a956177ae30d011a0390d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/frobenius-unramified",
+      "outcome": "corrected",
+      "source_sha256": "ab430cadc656fccd47711d72de510036da8264a6f2d2fed560760eb04205beaa",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands-letter/knowls/l-group-satake-parameter",
+      "outcome": "corrected",
+      "source_sha256": "0b712f29ef6237c97dacde1ed3b7cc9f5399853ddcd145c1b62c03b71d8b8d77",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/embeddings-qbar-to-q_p",
+      "outcome": "corrected",
+      "source_sha256": "4841a26bf3139a474abf72d69e0210c4b2cde53287f09b599e095f02b007dc94",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/langlands-dual-group",
+      "outcome": "corrected",
+      "source_sha256": "82929c566152ba6f007a4d15a77f50bc311fe8a6da2b4f9b4816e075b437e025",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/euler-product-and-local-factor",
+      "outcome": "corrected",
+      "source_sha256": "604638c329661f5decd28ce1c3b0e94fcc64147da132a48efc1ee8cd6aaf37e5",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/eisenstein-series",
+      "outcome": "corrected",
+      "source_sha256": "6440f4cd73e02657009f353e17c3702677dd26d44685416302b448331b68567e",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/unramified-extension-local",
+      "outcome": "corrected",
+      "source_sha256": "7864ccc27301db4c7fee3ff96131341b2142f0431ddac674f555161c67322e62",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/split-reductive-group",
+      "outcome": "corrected",
+      "source_sha256": "648a76569a0dcc6dccbc3ae8810ed300fa47e9a8f313c155ca4693b275c1f97a",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/galois-extension-and-group",
+      "outcome": "corrected",
+      "source_sha256": "df649f867b0b8bcb129ddef16768904a48e1b91d6d02cc945def5433cd67bebf",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-representation-theory/contragredient-representation",
+      "outcome": "corrected",
+      "source_sha256": "3ab40de24eeacd6b79412607b810a37e7ae4af348897f3d24e0d6f81730822cc",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/global-local-fields-completions",
+      "outcome": "corrected",
+      "source_sha256": "90415909201c72ccfa1cc8376c6f7763fe3de066b46f27a829b7649e33b3303d",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-modules/dual-lattice",
+      "outcome": "corrected",
+      "source_sha256": "f2b711068b198b18f27f1a1a9c95130ba52177cd3e45d2766c7d170da9eebe51",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/adeles-restricted-product",
+      "outcome": "corrected",
+      "source_sha256": "aa2d71b39455e4621e79e730d5f694a99bef0536ab2e2e556e1b2988f336f43c",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/p-adic-field",
+      "outcome": "corrected",
+      "source_sha256": "cad88a86094fd5d43896c979e6073a3b0d6b80f4c845832e85e8dfece071e8ee",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/chevalley-lattice-integral-model",
+      "outcome": "corrected",
+      "source_sha256": "337071fb6acff6fde1d47d85c3dee4a1c13a95e6c9a7cf768b22373eb52518c7",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/semisimple-element-and-class",
+      "outcome": "corrected",
+      "source_sha256": "9ed5cb5f96b9fc66f33c757683ebb5c6cb487cb4713a5b9180e2b88a3f3eb65f",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/pinned-automorphisms",
+      "outcome": "corrected",
+      "source_sha256": "0b1d12940ee5889f38c596c21195c2a943e0bffb7c3b9e7f45c35910ca09d591",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/coroots-and-pairing",
+      "outcome": "corrected",
+      "source_sha256": "66ebbbb1f73810241797ece28e7912e4135d36a593e52a24075ccfba1e2232bf",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/root-vs-weight-lattice-isogeny",
+      "outcome": "corrected",
+      "source_sha256": "9ddad6a7cfc1c730ad5e559982928ad41683b8ea819588f65f5c994bb3c7b5a8",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/automorphic-form-hecke-eigen",
+      "outcome": "corrected",
+      "source_sha256": "0298ad2e4ca877dd2871c3cc7dfaad25918d9d5a13c2fafc8a090142af8f7ba0",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-representation-theory/group-algebra-of-lattice",
+      "outcome": "corrected",
+      "source_sha256": "1092eb5b2e2eeea66c51cf7f5ea1e520c3941c68243050041acecacec2f181b3",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "harmonic-analysis/maximal-compact-hyperspecial",
+      "outcome": "corrected",
+      "source_sha256": "74035763bd7f45bd78fe257bd13c63b45b9ec17bc6ec377ddd175b8377d56700",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/simply-connected-semisimple-group",
+      "outcome": "corrected",
+      "source_sha256": "760d481415c7f1db6df079d88fe8d947a11a424b73bc9f74e7e9c3966ee11547",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "lie-groups/chevalley-basis",
+      "outcome": "corrected",
+      "source_sha256": "0ce389dc7505f9c59ffcdc5a640f70f60355f9a418ae848243d46681e14c19bc",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "langlands/langlands-functoriality-l-homomorphism",
+      "outcome": "corrected",
+      "source_sha256": "b17359c5edf30f819b7e0651df3551bc840806f1647835a181d762301bc26381",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/maximal-torus-weight-lattice",
+      "outcome": "corrected",
+      "source_sha256": "a7d49e98a49b1063e310508fd455cd86850c2892344543bbb048892b57b1d0a5",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-fields-galois/ideles-artin-reciprocity-hecke-character",
+      "outcome": "corrected",
+      "source_sha256": "0f46aee72eac657bc891f0c4f100439a59c04e0ed2cd7fcfa841bbda8545be44",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebra-representation-theory/characters-separate-semisimple-classes",
+      "outcome": "corrected",
+      "source_sha256": "2976ffd6a6997ae87f882331e6e7db2f1014f336d7db93160ee91f7583fcfe40",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "harmonic-analysis/spherical-hecke-algebra-satake",
+      "outcome": "corrected",
+      "source_sha256": "e77e666217a9f6889ec622e19530ef893f650b9b27294719aadfea4da55f3ad4",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
+    },
+    {
+      "id": "algebraic-geometry-foundations/galois-descent-forms",
+      "outcome": "corrected",
+      "source_sha256": "742746f2ecdd6a2dd572692364cd7cccfad4f159e14d5c2e130813117808ee4e",
+      "review_batch": "subject-relocation.json",
+      "evidence": "Organizational migration: updated canonical subject, links or prerequisites according to the reviewed move map; mathematical statements and historical source paths preserved."
     }
   ]
 }

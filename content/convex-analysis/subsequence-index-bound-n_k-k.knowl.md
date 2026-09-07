@@ -6,13 +6,13 @@ summary = "If n1<n2<… are positive integers, then nk≥k"
 aliases = ["subsequence-index-bound-n_k-k", "Index bound for subsequences"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/subsequence-index-bound-n_k-k.md"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/sequence"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 **Lemma.**
-Let \((n_k)\) be a strictly increasing sequence of positive integers, i.e., \(n_1<n_2<\cdots\). Then
+Let \((n_k)\) be a strictly increasing [[shared-foundations/sequence|sequence]] of positive integers, i.e., \(n_1<n_2<\cdots\). Then
 \[
 n_k\ge k \quad\text{for all }k\in\mathbb{N}.
 \]

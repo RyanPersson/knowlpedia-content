@@ -1,0 +1,27 @@
++++
+id = "lie-groups/weak-continuity"
+title = "Weak Continuity of a Representation"
+kind = "knowl"
+summary = "Continuity of matrix coefficients (π(g)x,y) in the group parameter g"
+aliases = ["weak-continuity", "Weak Continuity of a Representation"]
+domains = ["lie-groups"]
+legacy_source_path = "shale-paper/weak-continuity.md"
+prerequisites = ["linear-algebra/hilbert-space"]
+dependency_heuristic = "semantic-full-review-v1"
+dependency_review_count = 1
++++
+
+A unitary representation \(\pi:G\to U(\mathcal H)\) is **weakly continuous** if
+\(g\mapsto (\pi(g)x,y)\) is continuous for all \(x,y\in\mathcal H\).
+
+For a **projective** representation \(\overline{\pi}\), Shale uses:
+\(g\mapsto |(\overline{\pi}(g)x,y)|\) continuous.
+
+## Remarks
+
+**Key property (paper use):**
+- Theorem 3.1 proves weak continuity of \(\mathfrak U\); Theorem 4.2 lifts this to \(\overline{Y}\).
+
+## Examples
+
+- Any [[lie-groups/strongly-continuous-unitary-representation|strongly continuous unitary representation]] is weakly continuous.

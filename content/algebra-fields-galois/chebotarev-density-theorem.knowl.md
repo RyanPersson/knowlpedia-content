@@ -6,19 +6,19 @@ summary = "Frobenius conjugacy classes of unramified primes are equidistributed 
 aliases = ["Chebotarev theorem", "Chebotarev density"]
 domains = ["algebra-fields-galois", "number-theory", "langlands"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/number-field", "algebra-fields-galois/galois-group", "algebra-groups/conjugacy-class", "langlands-letter/knowls/frobenius-unramified"]
+prerequisites = ["algebra-fields-galois/galois-extension-and-group", "algebra-fields-galois/number-field", "algebra-fields-galois/galois-group", "algebra-groups/conjugacy-class", "algebra-fields-galois/frobenius-unramified"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(L/K\) be a finite
-[[langlands-letter/knowls/galois-extension-and-group|Galois extension]] of
+[[algebra-fields-galois/galois-extension-and-group|Galois extension]] of
 [[algebra-fields-galois/number-field|number fields]]
 with [[algebra-fields-galois/galois-group|Galois group]] \(G\), and let
 \(C\subseteq G\) be a
 [[algebra-groups/conjugacy-class|conjugacy class]]. The **Chebotarev density
 theorem** says that the unramified finite places \(v\) of \(K\) whose
-[[langlands-letter/knowls/frobenius-unramified|Frobenius conjugacy class]]
+[[algebra-fields-galois/frobenius-unramified|Frobenius conjugacy class]]
 \(\operatorname{Frob}_v\) equals \(C\) have natural density
 
 \[
@@ -32,7 +32,7 @@ places.
 
 Frobenius elements at unramified places are dense, up to conjugacy, in the
 finite quotients of the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]].
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]].
 Consequently two continuous semisimple \(\ell\)-adic representations with
 equal [[linear-algebra/characteristic-polynomial|characteristic polynomials]]
 of Frobenius at all but finitely many places are isomorphic. This

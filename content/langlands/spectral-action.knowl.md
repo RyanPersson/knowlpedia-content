@@ -37,7 +37,7 @@ theorem.
 
 [[langlands/geometric-satake-equivalence|Geometric Satake]] supplies
 [[langlands/hecke-functor|Hecke functors]] indexed by representations of the
-[[langlands-letter/knowls/langlands-dual-group|dual group]]
+[[langlands/langlands-dual-group|dual group]]
 \(\widehat G^I\), and the leg divisors carry independent
 [[langlands/weil-group|Weil-group]]
 actions. Their compatibility for all finite sets \(I\) satisfies the

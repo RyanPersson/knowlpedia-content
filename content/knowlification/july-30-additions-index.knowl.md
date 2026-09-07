@@ -576,8 +576,8 @@ reference-placement cleanup.
 
 #### Langlands foundations (2)
 
-- [[langlands-letter/knowls/langlands-dual-group|Langlands Dual Group]]
-- [[langlands-letter/knowls/root-vs-weight-lattice-isogeny|Root Lattice, Weight Lattice, and Isogeny Forms]]
+- [[langlands/langlands-dual-group|Langlands Dual Group]]
+- [[algebraic-geometry-foundations/root-vs-weight-lattice-isogeny|Root Lattice, Weight Lattice, and Isogeny Forms]]
 
 #### Lie groups and Lie algebras (8)
 

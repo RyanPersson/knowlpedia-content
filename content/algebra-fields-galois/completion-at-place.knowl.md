@@ -29,7 +29,7 @@ the [[real-analysis/absolute-value|absolute value]] extend continuously from \(F
 
 ## Global-field cases
 
-If \(F\) is a [[langlands-letter/knowls/global-local-fields-completions|global field]], every \(F_v\) is a [[algebra-fields-galois/local-field|local field]].
+If \(F\) is a [[algebra-fields-galois/global-local-fields-completions|global field]], every \(F_v\) is a [[algebra-fields-galois/local-field|local field]].
 For a number field, an archimedean completion is \(\mathbb R\) or
 \(\mathbb C\), while a nonarchimedean completion is a finite extension of
 \(\mathbb Q_p\). For a global function field, it is a finite extension of a

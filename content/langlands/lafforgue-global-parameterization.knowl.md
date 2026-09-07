@@ -6,7 +6,7 @@ summary = "The canonical decomposition of cuspidal automorphic forms over a func
 aliases = ["Lafforgue parameterization", "global Langlands parameterization for reductive groups over function fields", "Vincent Lafforgue theorem"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/automorphic-form", "algebra-groups/conjugacy-class", "langlands-letter/knowls/semisimple-element-and-class", "langlands/global-langlands-parameter", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/langlands-dual-group", "langlands/l-group", "langlands/rigid-inner-twist"]
+prerequisites = ["algebra-fields-galois/global-function-field", "algebraic-geometry-foundations/smooth-projective-curve", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/automorphic-form", "algebra-groups/conjugacy-class", "algebraic-geometry-foundations/semisimple-element-and-class", "langlands/global-langlands-parameter", "algebra-fields-galois/galois-extension-and-group", "langlands/langlands-dual-group", "langlands/l-group", "langlands/rigid-inner-twist"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -27,7 +27,7 @@ space of cuspidal [[langlands/automorphic-form|automorphic forms]]
 \]
 
 indexed by [[algebra-groups/conjugacy-class|conjugacy classes]] of continuous
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]] global
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]] global
 \(\ell\)-adic [[langlands/global-langlands-parameter|Langlands parameters]]
 \(\sigma\), unramified away from the level.
 
@@ -41,9 +41,9 @@ For split \(G\),
 \]
 
 The source is the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 of \(F\), and \(\widehat G\) is the
-[[langlands-letter/knowls/langlands-dual-group|Langlands dual group]].
+[[langlands/langlands-dual-group|Langlands dual group]].
 
 For nonsplit \(G\), the target and projection condition use the
 [[langlands/l-group|\(L\)-group]]; the automorphic side naturally includes
@@ -60,7 +60,7 @@ of \(\widehat G\), the spherical Hecke operator attached to \(V\) acts on
 \]
 
 with
-[[langlands-letter/knowls/frobenius-unramified|Frobenius]] and
+[[algebra-fields-galois/frobenius-unramified|Frobenius]] and
 [[langlands/satake-parameter|Satake]] normalizations chosen consistently.
 
 ## Construction

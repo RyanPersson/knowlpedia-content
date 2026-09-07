@@ -6,9 +6,9 @@ summary = "An integral with a rapidly varying phase whose cancellation, rather t
 aliases = ["oscillatory integral operator"]
 domains = ["harmonic-analysis", "partial-differential-equations", "microlocal-analysis"]
 section_mode = "progressive"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/complex-numbers-c", "measure-theory/lebesgue-integral"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 An **oscillatory integral** with large parameter \(\lambda\) has the form

@@ -40,7 +40,7 @@ The coweight records the relative position of a
 With a specified sheaf theory and coefficients satisfying the hypotheses of
 [[langlands/geometric-satake-equivalence|geometric Satake]], the spherical
 equivariant sheaf category on \(\operatorname{Gr}_G\) is identified with
-representations of the [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]. This supplies the labels for
+representations of the [[langlands/langlands-dual-group|Langlands dual group]]. This supplies the labels for
 [[langlands/hecke-functor|geometric Hecke functors]].
 
 ## References

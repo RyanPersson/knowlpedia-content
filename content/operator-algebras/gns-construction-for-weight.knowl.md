@@ -59,7 +59,7 @@ allowing genuinely unbounded noncommutative integrals.
 
 For a normal semifinite faithful weight, the dense vectors represented by
 finite products support the [[operator-algebras/tomita-operator|Tomita operator]]. Its
-[[shale-paper/polar-decomposition|polar decomposition]] yields the
+[[functional-analysis/polar-decomposition|polar decomposition]] yields the
 [[operator-algebras/modular-conjugation|modular conjugation]] and
 [[operator-algebras/modular-operator|modular operator]], from which the
 [[operator-algebras/modular-automorphism-group|modular automorphism group]] of

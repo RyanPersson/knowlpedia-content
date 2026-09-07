@@ -40,9 +40,9 @@ construction to be reduced.
 
 Lafforgue's reconstruction theorem associates to every character \(\nu\) a
 unique [[algebra-groups/conjugacy-class|conjugacy class]] of continuous
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]] parameter
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]] parameter
 from the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 
 \[
 \sigma_\nu:
@@ -65,7 +65,7 @@ For a nonsplit group, the parameter is valued in the appropriate
 ## Relation to Hecke operators
 
 At an unramified place, a
-[[langlands-letter/knowls/spherical-hecke-algebra-satake|spherical Hecke
+[[harmonic-analysis/spherical-hecke-algebra-satake|spherical Hecke
 operator]] is recovered as a
 particular [[langlands/excursion-operator|excursion operator]]. Therefore the excursion decomposition
 refines the simultaneous Hecke eigenspace decomposition and determines the

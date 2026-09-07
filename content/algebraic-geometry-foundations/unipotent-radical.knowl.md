@@ -44,7 +44,7 @@ identity diagonal blocks.
 ## In automorphic forms
 
 Integration over \(R_u(P)(F)\backslash R_u(P)(\mathbb A_F)\), using the
-[[langlands-letter/knowls/adeles-restricted-product|adeles]] of the global
+[[algebra-fields-galois/adeles-restricted-product|adeles]] of the global
 field \(F\), defines the
 [[langlands/automorphic-constant-term|constant term]] along \(P\).  Vanishing
 of these terms for every proper parabolic is the

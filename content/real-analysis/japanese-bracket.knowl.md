@@ -6,9 +6,9 @@ summary = "The smooth positive weight (1 + norm-squared)^(1/2) used to combine l
 aliases = ["Peetre bracket", "angle bracket weight"]
 domains = ["real-analysis", "harmonic-analysis", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/euclidean-norm"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 For \(x\in\mathbb R^d\), the **Japanese bracket** is the notation

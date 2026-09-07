@@ -6,7 +6,7 @@ summary = "The structural conditions relating representation operations, local f
 aliases = ["LLC compatibilities", "properties characterizing local Langlands"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["langlands/local-langlands-correspondence", "harmonic-analysis/unramified-representation-p-adic-group", "langlands/satake-parameter", "harmonic-analysis/tempered-representation-p-adic-group", "lie-groups/square-integrable-modulo-center-representation", "algebra-representation-theory/central-character", "langlands/local-class-field-theory", "langlands-letter/knowls/contragredient-representation", "harmonic-analysis/langlands-classification-p-adic-group", "harmonic-analysis/normalized-parabolic-induction-p-adic-group", "algebraic-geometry-foundations/levi-subgroup", "langlands/local-epsilon-factor", "langlands/local-gamma-factor"]
+prerequisites = ["langlands/local-langlands-correspondence", "harmonic-analysis/unramified-representation-p-adic-group", "langlands/satake-parameter", "harmonic-analysis/tempered-representation-p-adic-group", "lie-groups/square-integrable-modulo-center-representation", "algebra-representation-theory/central-character", "langlands/local-class-field-theory", "algebra-representation-theory/contragredient-representation", "harmonic-analysis/langlands-classification-p-adic-group", "harmonic-analysis/normalized-parabolic-induction-p-adic-group", "algebraic-geometry-foundations/levi-subgroup", "langlands/local-epsilon-factor", "langlands/local-gamma-factor"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -28,7 +28,7 @@ standard compatibilities include:
   [[langlands/local-class-field-theory|local class field theory]];
 - twisting \(\pi\) by a character twists \(\varphi_\pi\) by the corresponding
   one-dimensional parameter;
-- [[langlands-letter/knowls/contragredient-representation|contragredients]]
+- [[algebra-representation-theory/contragredient-representation|contragredients]]
   correspond to the dual, or Chevalley-transformed, parameter;
 - [[harmonic-analysis/langlands-classification-p-adic-group|Langlands
   quotients]] of

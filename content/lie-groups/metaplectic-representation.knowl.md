@@ -16,7 +16,7 @@ The **metaplectic representation** is the strongly continuous unitary representa
 \mu:\operatorname{Mp}(2n,\mathbb R)
 \longrightarrow \mathcal U\bigl(L^2(\mathbb R^n)\bigr)
 \]
-that implements the action of the [[lie-groups/metaplectic-group|metaplectic group]] on the [[shale-paper/schrodinger-representation|Schrödinger representation]] of the Heisenberg group. Equivalently, its operators intertwine Weyl operators according to the underlying symplectic transformation. It descends only to a [[lie-groups/projective-unitary-representation|projective unitary representation]] of \(\operatorname{Sp}(2n,\mathbb R)\).
+that implements the action of the [[lie-groups/metaplectic-group|metaplectic group]] on the [[mathematical-physics/schrodinger-representation|Schrödinger representation]] of the Heisenberg group. Equivalently, its operators intertwine Weyl operators according to the underlying symplectic transformation. It descends only to a [[lie-groups/projective-unitary-representation|projective unitary representation]] of \(\operatorname{Sp}(2n,\mathbb R)\).
 
 ## Concrete generators
 

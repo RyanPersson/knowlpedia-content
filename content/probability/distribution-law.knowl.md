@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-curriculum-review-v1"
 dependency_review_count = 1
 +++
 
-A **distribution (law)** of a [[probability/random-variable|random variable]] \(X:\Omega\to S\) (more generally, a measurable map into a [[measure-theory/measurable-space|measurable space]] \((S,\mathcal S)\)) is the [[probability/probability-measure|probability measure]] \(\mu_X\) on \((S,\mathcal S)\) defined by
+A **distribution (law)** of a [[probability/random-variable|random variable]] \(X:\Omega\to S\) (more generally, a [[measure-theory/measurable-function|measurable map]] into a [[measure-theory/measurable-space|measurable space]] \((S,\mathcal S)\)) is the [[probability/probability-measure|probability measure]] \(\mu_X\) on \((S,\mathcal S)\) defined by
 \[
 \mu_X(A)=\mathbb P(X\in A)\qquad\text{for all }A\in\mathcal S,
 \]
@@ -20,9 +20,13 @@ where \(X\in A\) abbreviates the event \(\{\omega\in\Omega: X(\omega)\in A\}\in\
 
 ## Remarks
 
-This is the pushforward of \(\mathbb P\) along \(X\); it packages all probabilities of [[measure-theory/measurable-set|measurable sets]] in the state space into a single measure, and is often written \(\mu_X=\mathbb P\circ X^{-1}\).
+This is the [[measure-theory/pushforward-measure|pushforward]] of \(\mathbb P\) along \(X\); it packages all probabilities of [[measure-theory/measurable-set|measurable sets]] in the state space into a single measure, and is often written \(\mu_X=\mathbb P\circ X^{-1}\).
 
 ## Examples
 
-- If \(X\) is Bernoulli\((p)\) taking values in \(\{0,1\}\), then \(\mu_X(\{1\})=p\) and \(\mu_X(\{0\})=1-p\).
-- If \(X\) is uniform on \([0,1]\), then \(\mu_X((a,b))=b-a\) for \(0\le a<b\le 1\) (equivalently, \(\mu_X\) has density \(1\) with respect to [[measure-theory/lebesgue-measure|Lebesgue measure]] on \([0,1]\)).
+- If \(X\) is [[probability/bernoulli-distribution|Bernoulli]]\((p)\) taking values in \(\{0,1\}\), then \(\mu_X(\{1\})=p\) and \(\mu_X(\{0\})=1-p\).
+- If \(X\) is [[probability/uniform-distribution|uniform]] on \([0,1]\), then \(\mu_X((a,b))=b-a\) for \(0\le a<b\le 1\) (equivalently, \(\mu_X\) has [[probability/probability-density-function|density]] \(1\) with respect to [[measure-theory/lebesgue-measure|Lebesgue measure]] on \([0,1]\)).
+
+## Representations
+
+On a [[shared-foundations/countable-set|countable]] state space a law is described by a [[probability/probability-mass-function|probability mass function]]. A law on the real line is always determined by its [[probability/cumulative-distribution-function|cumulative distribution function]]; when it has a [[probability/probability-density-function|probability density function]], probabilities can also be calculated by [[measure-theory/lebesgue-integral|integration]].

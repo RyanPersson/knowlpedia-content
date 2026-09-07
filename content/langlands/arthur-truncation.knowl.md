@@ -6,7 +6,7 @@ summary = "An alternating subtraction of parabolic constant terms that makes aut
 aliases = ["Arthur truncation operator", "Langlands-Arthur truncation", "Lambda^T truncation"]
 domains = ["langlands", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/parabolic-subgroup", "langlands/automorphic-form", "langlands/automorphic-constant-term"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/global-local-fields-completions", "algebraic-geometry-foundations/parabolic-subgroup", "langlands/automorphic-form", "langlands/automorphic-constant-term"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -14,7 +14,7 @@ dependency_review_count = 1
 Let \(G\) be a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]]
 over a
-[[langlands-letter/knowls/global-local-fields-completions|global field]],
+[[algebra-fields-galois/global-local-fields-completions|global field]],
 choose a minimal
 [[algebraic-geometry-foundations/parabolic-subgroup|parabolic subgroup]], and
 let \(T\) be a sufficiently regular point in the associated real chamber.

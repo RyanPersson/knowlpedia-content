@@ -31,7 +31,7 @@ sphere]], the [[lie-groups/psl2c-proper-lorentz-isomorphism|proper Lorentz
 isomorphism]], and the [[lie-groups/psl2c-action-on-hyperbolic-three-space|
 action on hyperbolic three-space]]. Its separate role as the complex points
 of the adjoint [[algebraic-geometry-foundations/algebraic-group|algebraic group]] of type \(A_1\) is treated in the
-[[langlands-letter/knowls/langlands-dual-group|Langlands-dual-group]]
+[[langlands/langlands-dual-group|Langlands-dual-group]]
 context.
 
 ## References

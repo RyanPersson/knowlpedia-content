@@ -6,7 +6,7 @@ summary = "A family of l-adic Galois representations with coefficient-independen
 aliases = ["compatible system", "weakly compatible system", "compatible family of l-adic representations"]
 domains = ["langlands", "number-theory", "algebraic-geometry"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/number-field", "langlands-letter/knowls/galois-extension-and-group", "algebra-fields-galois/inertia-subgroup"]
+prerequisites = ["algebra-fields-galois/number-field", "algebra-fields-galois/galois-extension-and-group", "algebra-fields-galois/inertia-subgroup"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -24,7 +24,7 @@ semisimple representations
 \operatorname{GL}_n(\overline E_\lambda)
 \]
 
-of the [[langlands-letter/knowls/galois-extension-and-group|absolute Galois
+of the [[algebra-fields-galois/galois-extension-and-group|absolute Galois
 group]], for finite places \(\lambda\) of \(E\), together with a finite set
 \(S\) of
 places of \(F\), such that for every \(v\notin S\) and every
@@ -45,7 +45,7 @@ local coefficient fields.
 
 The polynomial changes by inverting eigenvalues when arithmetic Frobenius
 is replaced by geometric
-[[langlands-letter/knowls/frobenius-unramified|Frobenius]]. A compatible
+[[algebra-fields-galois/frobenius-unramified|Frobenius]]. A compatible
 system must use one
 convention consistently. Many arithmetic sources use geometric Frobenius in
 [[langlands/local-class-field-theory|local class field theory]] but arithmetic

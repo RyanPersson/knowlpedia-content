@@ -45,7 +45,7 @@ parabolic induction]] uses \(\delta_P^{1/2}\sigma\), while the normalized
 \(\delta_P^{-1/2}\). These half-powers make
 [[harmonic-analysis/unitary-induced-representation|unitary induction]] unitary and
 produce symmetric formulas for
-[[langlands-letter/knowls/contragredient-representation|contragredients]]
+[[algebra-representation-theory/contragredient-representation|contragredients]]
 and adjunction.
 
 Some sources call \(\delta_P^{-1}\) the modulus.  A formula involving

@@ -6,9 +6,9 @@ summary = "A boundary limit theorem relating a convergent series to its associat
 aliases = ["abels-theorem", "Abel's theorem"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/abels-theorem.md"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["real-analysis/convergent-series", "real-analysis/power-series", "real-analysis/limit-of-a-function-at-a-point"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 **Abel's theorem:** Let \(\sum_{n=0}^\infty a_n\) be a [[real-analysis/convergent-series|convergent series]] of real or [[shared-foundations/complex-numbers-c|complex numbers]], with sum \(s\). For \(0\le x<1\), define

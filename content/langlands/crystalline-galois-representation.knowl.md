@@ -6,7 +6,7 @@ summary = "A p-adic Galois representation with the full expected space of crysta
 aliases = ["crystalline representation", "crystalline p-adic representation"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/galois-extension-and-group", "langlands/fontaine-period-rings"]
+prerequisites = ["algebra-fields-galois/galois-extension-and-group", "langlands/fontaine-period-rings"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -14,7 +14,7 @@ dependency_review_count = 1
 Let \(K/\mathbb Q_p\) be finite, let \(K_0\) be the maximal unramified
 subfield of \(K\), and let \(V\) be a finite-dimensional
 \(\mathbb Q_p\)-representation of the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 \(G_K=\operatorname{Gal}(\overline K/K)\). Using the
 [[langlands/fontaine-period-rings|Fontaine period ring]]
 \(B_{\mathrm{cris}}\), set

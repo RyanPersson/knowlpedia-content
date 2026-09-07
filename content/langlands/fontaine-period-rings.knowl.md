@@ -6,15 +6,15 @@ summary = "Galois-equivariant p-adic coefficient rings whose invariant periods d
 aliases = ["p-adic period rings", "Fontaine's period rings", "B_HT B_dR B_cris B_st"]
 domains = ["langlands", "algebra-fields-galois", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/p-adic-field", "langlands-letter/knowls/galois-extension-and-group"]
+prerequisites = ["algebra-fields-galois/p-adic-field", "algebra-fields-galois/galois-extension-and-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(K/\mathbb Q_p\) be a
-[[langlands-letter/knowls/p-adic-field|\(p\)-adic field]], let
+[[algebra-fields-galois/p-adic-field|\(p\)-adic field]], let
 \(G_K=\operatorname{Gal}(\overline K/K)\) be its
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]],
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]],
 and let \(K_0\) be the maximal unramified subfield of \(K\).
 **Fontaine's period rings** are topological \(\mathbb Q_p\)-algebras with
 continuous \(G_K\)-actions and additional structures. The four basic rings

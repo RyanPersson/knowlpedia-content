@@ -7,7 +7,8 @@ aliases = ["Maslov crossing form", "Lagrangian crossing form"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
 prerequisites = ["differential-geometry/symplectic-vector-space", "differential-geometry/lagrangian-subspace"]
-dependency_heuristic = "semantic-full-review-v1"
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(V\) be a finite-dimensional real [[differential-geometry/symplectic-vector-space|symplectic vector space]], let \(L_0\) be a fixed [[differential-geometry/lagrangian-subspace|Lagrangian subspace]], and let \(L(t)\) be a smooth path of Lagrangian subspaces. If \(t_0\) is a **crossing**, meaning \(L(t_0)\cap L_0\ne\{0\}\), choose a Lagrangian complement \(L_1\) of \(L(t_0)\) and write nearby \(L(t)\) as the graph of \(A(t):L(t_0)\to L_1\), using \(\omega\) to identify \(L_1\) with \(L(t_0)^*\). Its crossing form is the quadratic form

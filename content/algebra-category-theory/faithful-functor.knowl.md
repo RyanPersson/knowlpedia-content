@@ -6,6 +6,8 @@ summary = "A functor that is injective on every hom-set."
 aliases = ["faithful functor"]
 domains = ["algebra-category-theory"]
 prerequisites = ["algebra-category-theory/functor"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 1
 +++
 
 Let \(F:\mathcal C\to\mathcal D\) be a [[algebra-category-theory/functor|functor]]. It is **faithful** if, for every pair of objects \(X,Y\) in \(\mathcal C\), the induced map

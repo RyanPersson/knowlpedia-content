@@ -6,16 +6,16 @@ summary = "The set of Frobenius-conjugacy classes in a reductive group over the 
 aliases = ["Kottwitz set", "sigma-conjugacy classes in G", "G-isocrystals"]
 domains = ["langlands", "algebraic-geometry-foundations", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/unramified-extension-local", "langlands-letter/knowls/frobenius-unramified", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/twisted-conjugacy", "shared-foundations/pointed-set"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebra-fields-galois/unramified-extension-local", "algebra-fields-galois/frobenius-unramified", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands/twisted-conjugacy", "shared-foundations/pointed-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(E\) be a
 [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], let \(\breve E\) be the completion of its maximal
-[[langlands-letter/knowls/unramified-extension-local|unramified extension]],
+[[algebra-fields-galois/unramified-extension-local|unramified extension]],
 and let \(\sigma\) be
-[[langlands-letter/knowls/frobenius-unramified|Frobenius]]. For a connected
+[[algebra-fields-galois/frobenius-unramified|Frobenius]]. For a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(E\)-group]] \(G\), the **Kottwitz set**
 
@@ -48,9 +48,9 @@ A class \([b]\) has two principal invariants:
 \]
 
 Here \(X_*(T)\) is the
-[[langlands-letter/knowls/maximal-torus-weight-lattice|cocharacter lattice]]
+[[algebraic-geometry-foundations/maximal-torus-weight-lattice|cocharacter lattice]]
 of a maximal torus and \(\Gamma\) is the relevant
-[[langlands-letter/knowls/galois-extension-and-group|Galois group]]. The
+[[algebra-fields-galois/galois-extension-and-group|Galois group]]. The
 Newton point records slopes, while the Kottwitz invariant is the
 generalized degree. Their compatible pair determines \([b]\); more
 precisely, the map \((\nu,\kappa)\) is injective with a characterized image.
@@ -71,7 +71,7 @@ g\,b=b\,\sigma(g)\}
 \]
 
 is then an
-[[langlands-letter/knowls/galois-descent-forms|inner form]] of \(G\). Basic
+[[algebraic-geometry-foundations/galois-descent-forms|inner form]] of \(G\). Basic
 classes correspond to
 [[algebraic-geometry-foundations/harder-narasimhan-filtration|semistable]]
 \(G\)-bundles on the

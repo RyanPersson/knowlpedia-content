@@ -26,7 +26,7 @@ Kirillov's original article proves the classification by induction on the dimens
 
 ## Abelian and Heisenberg cases
 
-If \(G\) is abelian, every coadjoint orbit is a point and the correspondence reduces to Pontryagin duality: \(\ell\) gives the character \(x\mapsto e^{i\ell(x)}\). For the [[lie-groups/heisenberg-group|Heisenberg group]], nonzero values of \(\ell\) on the center label the infinite-dimensional [[shale-paper/schrodinger-representation|Schrödinger representations]], while functionals vanishing on the center give one-dimensional characters.
+If \(G\) is abelian, every coadjoint orbit is a point and the correspondence reduces to Pontryagin duality: \(\ell\) gives the character \(x\mapsto e^{i\ell(x)}\). For the [[lie-groups/heisenberg-group|Heisenberg group]], nonzero values of \(\ell\) on the center label the infinite-dimensional [[mathematical-physics/schrodinger-representation|Schrödinger representations]], while functionals vanishing on the center give one-dimensional characters.
 
 ## Hypotheses and limits
 

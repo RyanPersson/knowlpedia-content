@@ -6,21 +6,21 @@ summary = "A semisimple element of a reductive group whose centralizer is a maxi
 aliases = ["strongly regular semisimple", "strongly regular element", "regular semisimple element with torus centralizer"]
 domains = ["langlands", "algebraic-geometry-foundations", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/semisimple-element-and-class", "algebra-groups/centralizer", "langlands-letter/knowls/maximal-torus-weight-lattice"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebraic-geometry-foundations/semisimple-element-and-class", "algebra-groups/centralizer", "algebraic-geometry-foundations/maximal-torus-weight-lattice"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a field \(F\). An element
 \(\gamma\in G(F)\) is **strongly regular semisimple** if it is
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]] and its
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]] and its
 [[algebra-groups/centralizer|centralizer]]
 
 \[
 G_\gamma=\{g\in G:g\gamma=\gamma g\}
 \]
 
-is a [[langlands-letter/knowls/maximal-torus-weight-lattice|maximal torus]]
+is a [[algebraic-geometry-foundations/maximal-torus-weight-lattice|maximal torus]]
 of \(G\).
 
 ## Regular versus strongly regular
@@ -43,7 +43,7 @@ when it has \(n\) distinct eigenvalues over an [[algebra-fields-galois/algebraic
 A regular diagonal element in a split reductive group is strongly regular
 when no root takes the value \(1\) on it. In the Lie algebra, the analogous
 condition is \(\alpha(X)\neq 0\) for every
-[[langlands-letter/knowls/roots-weights-weyl|root]].
+[[lie-groups/roots-weights-weyl|root]].
 
 ## Why this locus is used
 

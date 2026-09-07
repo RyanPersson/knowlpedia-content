@@ -7,7 +7,8 @@ aliases = ["section curvature"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
 prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/riemann-curvature-tensor"]
-dependency_heuristic = "semantic-full-review-v1"
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((M,g)\) be a [[differential-geometry/riemannian-manifold|Riemannian manifold]] and let \(P=\operatorname{span}(u,v)\subset T_pM\) be a two-dimensional plane in the [[differential-geometry/tangent-space|tangent space]] at \(p\). With the [[differential-geometry/riemann-curvature-tensor|Riemann curvature tensor]] convention

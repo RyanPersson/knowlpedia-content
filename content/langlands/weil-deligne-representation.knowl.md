@@ -37,7 +37,7 @@ group]].
 ## Frobenius semisimplification
 
 The pair is **Frobenius-semisimple** if \(r(\operatorname{Fr}_F)\) is
-[[langlands-letter/knowls/semisimple-element-and-class|semisimple]]. Replacing
+[[algebraic-geometry-foundations/semisimple-element-and-class|semisimple]]. Replacing
 the Frobenius action by its semisimple part gives the
 Frobenius semisimplification. Local Langlands for
 \(\operatorname{GL}_n\) is normally stated using isomorphism classes of

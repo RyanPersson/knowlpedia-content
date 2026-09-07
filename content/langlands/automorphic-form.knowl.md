@@ -6,13 +6,13 @@ summary = "A smooth, finite, moderate-growth function on an adelic automorphic q
 aliases = ["automorphic forms", "adelic automorphic form"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["langlands-letter/knowls/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/adeles-restricted-product", "lie-groups/k-finite-vector", "lie-groups/universal-enveloping-algebra", "algebra-representation-theory/central-character"]
+prerequisites = ["algebra-fields-galois/global-local-fields-completions", "algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/adeles-restricted-product", "lie-groups/k-finite-vector", "lie-groups/universal-enveloping-algebra", "algebra-representation-theory/central-character"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
-[[langlands-letter/knowls/global-local-fields-completions|global field]] and
+[[algebra-fields-galois/global-local-fields-completions|global field]] and
 \(G\) a connected
 [[algebraic-geometry-foundations/reductive-algebraic-group|reductive
 \(F\)-group]]. An
@@ -23,7 +23,7 @@ G(F)\backslash G(\mathbb A_F)
 \]
 
 where \(\mathbb A_F\) is the
-[[langlands-letter/knowls/adeles-restricted-product|adele ring]], and that is
+[[algebra-fields-galois/adeles-restricted-product|adele ring]], and that is
 smooth, of moderate growth, right
 [[lie-groups/k-finite-vector|finite under a maximal compact group]]
 at the archimedean places, right fixed by some compact open subgroup at the
@@ -77,7 +77,7 @@ f_P(g)=
 Its vanishing for every proper parabolic defines a
 [[langlands/cuspidal-automorphic-representation|cuspidal]] automorphic form.
 Nonzero constant terms lead to
-[[langlands-letter/knowls/eisenstein-series|Eisenstein series]] and the
+[[langlands/eisenstein-series|Eisenstein series]] and the
 [[langlands/continuous-automorphic-spectrum|continuous]] or
 [[langlands/residual-automorphic-spectrum|residual]] spectrum.
 

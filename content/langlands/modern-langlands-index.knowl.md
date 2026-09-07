@@ -30,7 +30,7 @@ endoscopy, étale cohomology, and perfectoid geometry.
 
 ### Parameter input
 
-- [[langlands-letter/knowls/langlands-dual-group|Langlands dual group]]
+- [[langlands/langlands-dual-group|Langlands dual group]]
 - [[langlands/l-group|\(L\)-group]]
 - [[langlands/weil-group|Weil group]]
 - [[langlands/weil-deligne-group|Weil–Deligne group]]
@@ -67,14 +67,14 @@ endoscopy, étale cohomology, and perfectoid geometry.
 - [[langlands/cuspidal-automorphic-representation|Cuspidal automorphic representation]]
 - [[langlands/discrete-automorphic-spectrum|Discrete automorphic spectrum]]
 - [[langlands/residual-automorphic-spectrum|Residual automorphic spectrum]]
-- [[langlands-letter/knowls/eisenstein-series|Eisenstein series]]
+- [[langlands/eisenstein-series|Eisenstein series]]
 
 ### Global parameters and reciprocity
 
 - [[langlands/global-langlands-parameter|Global Langlands parameter]]
 - [[langlands/global-langlands-reciprocity|Global Langlands reciprocity]]
-- [[langlands-letter/knowls/langlands-functoriality-l-homomorphism|Langlands functoriality]]
-- [[langlands-letter/knowls/euler-product-and-local-factor|Automorphic \(L\)-factor and Euler product]]
+- [[langlands/langlands-functoriality-l-homomorphism|Langlands functoriality]]
+- [[langlands/euler-product-and-local-factor|Automorphic \(L\)-factor and Euler product]]
 
 ### Algebraicity and Galois representations
 

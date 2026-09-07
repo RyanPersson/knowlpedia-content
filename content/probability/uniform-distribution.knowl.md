@@ -5,12 +5,12 @@ kind = "definition"
 summary = "The probability distribution with constant density on a specified finite interval."
 aliases = ["uniform-distribution", "Uniform distribution", "continuous uniform distribution"]
 domains = ["probability"]
-prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "shale-paper/radon-nikodym-derivative"]
-dependency_heuristic = "missing-links-calibration-v1"
-dependency_review_count = 0
+prerequisites = ["probability/probability-measure", "measure-theory/lebesgue-measure", "measure-theory/radon-nikodym-derivative", "probability/probability-density-function"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-For \(a<b\), the **uniform distribution** on the interval \([a,b]\), written \(\operatorname{Unif}[a,b]\), is the [[probability/probability-measure|probability distribution]] with [[shale-paper/radon-nikodym-derivative|density]]
+For \(a<b\), the **uniform distribution** on the interval \([a,b]\), written \(\operatorname{Unif}[a,b]\), is the [[probability/probability-measure|probability distribution]] with [[probability/probability-density-function|density]]
 \[
 f(x)=\frac{1}{b-a}\mathbf 1_{[a,b]}(x)
 \]

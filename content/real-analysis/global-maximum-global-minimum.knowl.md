@@ -6,9 +6,9 @@ summary = "A point where a function attains its maximum or minimum value on its 
 aliases = ["global-maximum-global-minimum", "Global maximum and global minimum"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/global-maximum-global-minimum.md"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/function", "real-analysis/order-axioms"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(f:E\to\mathbb{R}\) and let \(a\in E\).

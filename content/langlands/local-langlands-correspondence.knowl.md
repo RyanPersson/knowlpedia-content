@@ -65,7 +65,7 @@ must still be distinguished from the existence of that semisimplified map.
 A correspondence is not characterized by cardinality alone. It is expected to
 respect unramified [[langlands/satake-parameter|Satake parameters]],
 [[algebra-representation-theory/central-character|central characters]],
-twists, [[langlands-letter/knowls/contragredient-representation|contragredients]],
+twists, [[algebra-representation-theory/contragredient-representation|contragredients]],
 [[harmonic-analysis/tempered-representation-p-adic-group|temperedness]],
 [[harmonic-analysis/normalized-parabolic-induction-p-adic-group|parabolic
 induction]], local \(L\)- and [[langlands/local-epsilon-factor|epsilon

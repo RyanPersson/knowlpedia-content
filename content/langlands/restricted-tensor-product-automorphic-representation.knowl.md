@@ -6,13 +6,13 @@ summary = "The factorization of an irreducible admissible adelic representation 
 aliases = ["Flath tensor product theorem", "restricted tensor product of local representations", "automorphic tensor product decomposition"]
 domains = ["langlands", "number-theory", "representation-theory"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "langlands-letter/knowls/global-local-fields-completions", "langlands/automorphic-representation", "algebra-fields-galois/completion-at-place", "harmonic-analysis/unramified-representation-p-adic-group"]
+prerequisites = ["algebraic-geometry-foundations/reductive-algebraic-group", "algebra-fields-galois/global-local-fields-completions", "langlands/automorphic-representation", "algebra-fields-galois/completion-at-place", "harmonic-analysis/unramified-representation-p-adic-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(G\) be a connected [[algebraic-geometry-foundations/reductive-algebraic-group|reductive group]] over a
-[[langlands-letter/knowls/global-local-fields-completions|global field]]
+[[algebra-fields-galois/global-local-fields-completions|global field]]
 \(F\). An
 irreducible admissible [[langlands/automorphic-representation|automorphic
 representation]] has a factorization
@@ -69,7 +69,7 @@ all \(v\), the
 \(\pi_v\) has a
 [[langlands/satake-parameter|Satake parameter]]. Applying a representation of
 the [[langlands/l-group|\(L\)-group]] gives the
-[[langlands-letter/knowls/euler-product-and-local-factor|local Euler factor]].
+[[langlands/euler-product-and-local-factor|local Euler factor]].
 The
 resulting Euler product depends on the global representation, not merely on
 an arbitrary collection of local factors.

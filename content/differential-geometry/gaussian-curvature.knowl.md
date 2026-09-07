@@ -7,7 +7,8 @@ aliases = ["curvature of a surface", "Gauss curvature"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
 prerequisites = ["differential-geometry/riemannian-manifold", "differential-geometry/sectional-curvature"]
-dependency_heuristic = "semantic-full-review-v1"
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 1
 +++
 
 Let \((S,g)\) be a two-dimensional [[differential-geometry/riemannian-manifold|Riemannian manifold]]. Its **Gaussian curvature** is the function \(K:S\to\mathbb R\) whose value at \(p\) is the [[differential-geometry/sectional-curvature|sectional curvature]] of the unique two-plane \(T_pS\):

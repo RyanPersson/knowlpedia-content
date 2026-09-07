@@ -1,0 +1,88 @@
+{
+  "reviews": [
+    {
+      "id": "probability/probability-mass-function",
+      "outcome": "corrected",
+      "source_sha256": "899ac1a416ac839733fd49f67b9f122098ef32aca5aab758a7d2e1aa7b34ae8d",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/probability-density-function",
+      "outcome": "corrected",
+      "source_sha256": "90424dab1bf856315f0f697d9ea17a28e79fa10bf214c54ca666d5b4b97b3aa6",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/cumulative-distribution-function",
+      "outcome": "corrected",
+      "source_sha256": "851aad0b81db3d852b0a8ee8834ca6ad35ae507ebfde36f1a951afe577264514",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/bernoulli-distribution",
+      "outcome": "corrected",
+      "source_sha256": "643e47a266a55b8da4ad6066c698d0b20fda10299cfeef8f9b5ec64c2a677ca4",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/relative-entropy-kl-divergence",
+      "outcome": "corrected",
+      "source_sha256": "d24038d303e3b4739c65e2aef0a1fd74fd62f1d8dc92cb695db25e0e5245ac16",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/shannon-entropy",
+      "outcome": "corrected",
+      "source_sha256": "e6272de48525f9a60be9fae0b6dfbdae59377f76f9fe2c9c925d0e24e2c7c479",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/total-variation-distance",
+      "outcome": "corrected",
+      "source_sha256": "9c32c9d9cd87d44958f2c37034d0d5ae871709f9ee14a666832082da3e80a151",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/normal-distribution",
+      "outcome": "corrected",
+      "source_sha256": "0810f36af2bd7a78237bf97ababeb98212fd492dbcc0192e12514ab9835540eb",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/uniform-distribution",
+      "outcome": "corrected",
+      "source_sha256": "fff07bcfefe8db7fb765fac5bdbccc744140288e62a8d4019a7d554dfbf8d9c4",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/differential-entropy",
+      "outcome": "corrected",
+      "source_sha256": "f0b1719a24d370a452c4a6d94e8b6c76cdf4dcb220d0b4b3b61753789f15fa49",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/expectation-function-of-rv",
+      "outcome": "corrected",
+      "source_sha256": "a209ec4515de5a3cde6226980d89e566ea43ff83be5137c3b86ccaae7116ca55",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    },
+    {
+      "id": "probability/distribution-law",
+      "outcome": "corrected",
+      "source_sha256": "f07a2afbe542f2b9b1ab480ded79f5e52c525956909977935bfb43ade1de2a6f",
+      "review_batch": "probability-foundations.json",
+      "evidence": "Reviewed mass/density/law distinctions; added a minimal foundational definition or linked a specific probability concept. Example-only relationships remain body links rather than prerequisites."
+    }
+  ]
+}

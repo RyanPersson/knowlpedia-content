@@ -6,12 +6,12 @@ summary = "A family of sets whose multiplicity function is uniformly bounded."
 aliases = ["bounded overlap family", "uniformly finite overlap"]
 domains = ["analysis", "measure-theory"]
 section_mode = "progressive"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/indexed-family-of-sets", "measure-theory/indicator-function"]
+dependency_heuristic = "component-dependency-review-v1"
+dependency_review_count = 2
 +++
 
-A family of sets \({E_j}_{j\in J}\) is **finitely overlapping with multiplicity
+A [[shared-foundations/indexed-family-of-sets|family of sets]] \({E_j}_{j\in J}\) is **finitely overlapping with multiplicity
 at most \(N\)** if
 \[
 \sum_{j\in J}\mathbf 1_{E_j}(x)\le N

@@ -6,7 +6,7 @@ summary = "An inner twist equipped with a cohomological rigidification used to n
 aliases = ["rigid inner form", "rigidifying cocycle", "rigid inner twist of a reductive group"]
 domains = ["langlands", "algebraic-geometry-foundations"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-groups/center-of-group", "langlands-letter/knowls/galois-extension-and-group", "langlands-letter/knowls/galois-descent-forms"]
+prerequisites = ["algebra-fields-galois/local-field", "algebraic-geometry-foundations/quasi-split-reductive-group", "algebra-groups/center-of-group", "algebra-fields-galois/galois-extension-and-group", "algebraic-geometry-foundations/galois-descent-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -26,10 +26,10 @@ connected reductive group]], and choose a finite
 together with a cocycle \(z\) in Kaletha's rigid cohomology set
 \(Z^1(u\to W,Z\to G^*)\), whose image in
 \(Z^1(\Gamma_F,G^*_{\mathrm{ad}})\), where \(\Gamma_F\) is the
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]],
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]],
 is the cocycle
 \(\sigma\mapsto\psi^{-1}\sigma(\psi)\) defining the underlying
-[[langlands-letter/knowls/galois-descent-forms|inner twist]].
+[[algebraic-geometry-foundations/galois-descent-forms|inner twist]].
 
 The extra cocycle is the **rigidification**.  Forgetting it retains the inner
 form but loses information needed for canonical packet pairings.

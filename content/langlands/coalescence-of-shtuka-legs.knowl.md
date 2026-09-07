@@ -27,7 +27,7 @@ fiber of \(\zeta\) have merged.
 ## Representation-theoretic label
 
 If \(W\) is a representation of the
-[[langlands-letter/knowls/langlands-dual-group|dual group]]
+[[langlands/langlands-dual-group|dual group]]
 \(\widehat G^I\), restriction along
 
 \[

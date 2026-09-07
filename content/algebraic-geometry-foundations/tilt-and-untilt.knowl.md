@@ -6,7 +6,7 @@ summary = "The passage between perfectoid fields of mixed and positive character
 aliases = ["tilting equivalence", "perfectoid tilt", "untilt", "K-flat"]
 domains = ["algebraic-geometry-foundations", "number-theory", "langlands"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/perfectoid-field", "algebraic-geometry-foundations/perfectoid-space", "topology/topological-space", "langlands-letter/knowls/galois-extension-and-group"]
+prerequisites = ["algebraic-geometry-foundations/perfectoid-field", "algebraic-geometry-foundations/perfectoid-space", "topology/topological-space", "algebra-fields-galois/galois-extension-and-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -38,7 +38,7 @@ A field can have many nonisomorphic untilts.
 
 Tilting induces equivalences between finite étale extensions of \(K\) and
 \(K^\flat\), hence an isomorphism of their
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois groups]].
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois groups]].
 It also induces an equivalence between
 [[algebraic-geometry-foundations/perfectoid-space|perfectoid spaces]] over the
 two fields and

@@ -42,7 +42,7 @@ combination of four positive normal functionals.
 ## Concrete realization
 
 For \(M=B(H)\), the predual is the
-[[shale-paper/trace-class-operator|trace-class operators]], with pairing
+[[functional-analysis/trace-class-operator|trace-class operators]], with pairing
 \[
 \varphi_T(x)=\operatorname{Tr}(Tx).
 \]

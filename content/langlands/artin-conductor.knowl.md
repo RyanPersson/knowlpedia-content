@@ -6,14 +6,14 @@ summary = "A nonnegative integer measuring the tame and wild ramification of a l
 aliases = ["Artin conductor exponent", "conductor of a Galois representation", "local Artin conductor"]
 domains = ["langlands", "algebra-fields-galois", "number-theory"]
 section_mode = "progressive"
-prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "langlands-letter/knowls/galois-extension-and-group", "langlands/weil-group", "algebra-fields-galois/galois-extension", "algebra-fields-galois/inertia-subgroup"]
+prerequisites = ["algebra-fields-galois/nonarchimedean-local-field", "algebra-fields-galois/galois-extension-and-group", "langlands/weil-group", "algebra-fields-galois/galois-extension", "algebra-fields-galois/inertia-subgroup"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(F\) be a
 [[algebra-fields-galois/nonarchimedean-local-field|nonarchimedean local field]], and let \(r\) be a finite-dimensional representation of its
-[[langlands-letter/knowls/galois-extension-and-group|absolute Galois group]]
+[[algebra-fields-galois/galois-extension-and-group|absolute Galois group]]
 or [[langlands/weil-group|Weil group]] with finite inertia image. Choose a
 finite [[algebra-fields-galois/galois-extension|Galois extension]] through which the
 [[algebra-fields-galois/inertia-subgroup|inertia action]] factors, and write
@@ -59,7 +59,7 @@ a(r)+\dim V^{I_F}-\dim(\ker N)^{I_F}.
 This is the exponent that appears in the power of \(q_F^{-s}\) in a
 [[langlands/local-epsilon-factor|local epsilon factor]]. It also records the
 ramification contribution of a local parameter to its
-[[langlands-letter/knowls/euler-product-and-local-factor|local
+[[langlands/euler-product-and-local-factor|local
 \(L\)-function]].
 
 ## Global conductor
