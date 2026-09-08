@@ -1,0 +1,202 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles/euler-class-as-zero-section",
+      "scope": "full",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5e416e2b8c86e8f80dbc5537fefc2f694cee85ba1398420424521057c7d86f6",
+      "evidence": "The definition correctly pulls the relative Thom class back along the zero section, with the pair map and orientation hypotheses explicit; the transverse-zero interpretation and local-coefficient warning are consistent.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/thom-class",
+        "fiber-bundles/zero-section"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/euler-class-as-zero-section.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/euler-class-obstruction-to-nonzero-section",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "0b5afe59723b456fd66cd461d3689b22f8b8ae27277fe9d6737d35523dd96085",
+      "evidence": "The CW obstruction argument correctly identifies the first obstruction in H^n(X;Z) for an oriented rank-n bundle and limits completeness to dim X <= n; higher obstructions are appropriately retained above that range.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/sphere-bundle",
+        "fiber-bundles/euler-class-as-zero-section",
+        "fiber-bundles/zero-section"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/euler-class-obstruction-to-nonzero-section.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/homotopy-class-mbg",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "eb52271b101c4374d5a6e3d03e719686aa8ec31656e89617b73bcb9b1d041279",
+      "evidence": "The entry correctly defines unbased [M,BG], distinguishes based sphere classes and the pi_1 action, and connects classifying maps to principal bundles; the prerequisite list now exposes those constructions.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/classifying-map-of-a-principal-bundle",
+        "fiber-bundles/line-bundle"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/homotopy-class-mbg.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/nonabelian-cech-h1-principal-bundles",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "51abcb7e350d6aec42921b1fb6617124e3f1a6527f4198a7230ff4f54485b7bf",
+      "evidence": "The fixed-cover action (h dot g)_ij=h_i^{-1}g_ijh_j and refinement passage correctly classify smooth principal bundles; the pointed-set versus abelian-group distinction is accurate, with cocycle-groupoid prerequisites added.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+        "fiber-bundles/cech-cocycle-groupoid"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/nonabelian-cech-h1-principal-bundles.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/pontryagin-number",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "0048d07a073dfce1b2cc4a0c67715c6f475ec94c75f446ee01eef25a723ee019",
+      "evidence": "The partition-of-k monomial has degree 4k and its evaluation on a closed oriented 4k-manifold is integral; the CP2 calculation and signature formula agree with the stated tangent-bundle convention.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/pontryagin-class",
+        "fiber-bundles/characteristic-number",
+        "topology/cup-product-and-cohomology-ring"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/pontryagin-number.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/projective-module-bundle-reconstruction",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "5584e0f412a706c53f5bab9e4a57e498ab285af96004f21506415032e97bc00c",
+      "evidence": "Evaluation of an idempotent p gives a smooth constant-rank image bundle and Q/I_xQ gives its intrinsic fiber; the reconstruction and section-module claims are supported by explicit section, local-trivialization, and idempotent prerequisites.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-modules/projective-summand-of-free",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/local-trivialization",
+        "fiber-bundles/serre-swan-idempotent-construction"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/projective-module-bundle-reconstruction.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/section-module-is-finitely-generated-projective",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "91217d84adf3d65e0c2c6f33e35365f4d7c69028cad3ab8c7aeac4e3fb44c81c",
+      "evidence": "The complementary-bundle proof correctly embeds E as a summand of a finite trivial bundle on a finite-dimensional manifold; the noncompact and disconnected rank qualifications state the finite-generation boundary.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/vector-subbundle",
+        "fiber-bundles/serre-swan-idempotent-construction",
+        "algebra-modules/projective-module",
+        "differential-geometry/algebra-of-smooth-functions"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/section-module-is-finitely-generated-projective.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/serre-swan-idempotent-construction",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "d8ce5cdd57da1d55892cc441aa535ad53fa504e64cffdfaae7c4c032f11b5fe9",
+      "evidence": "The pointwise idempotent image and complementary 1-p image form smooth subbundles, and their section module is p C-infinity(M)^n; the constant-rank image and tangent-sphere examples are correctly scoped.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/algebra-of-smooth-functions",
+        "fiber-bundles/vector-bundle",
+        "algebra-rings/idempotent-element",
+        "fiber-bundles/vector-subbundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/serre-swan-idempotent-construction.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/serre-swan-theorem",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "a6c5444e9f9a5ef1714a8ad6eb9fe2c37eb3ef759901cd8c323ddcc732ae39c7",
+      "evidence": "The fixed-base smooth section functor is correctly stated as an equivalence, with the finite-dimensional noncompact extension separated from the compact continuous C(X) formulation; prerequisites now expose reconstruction, bundle maps, and sections.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-subbundle",
+        "fiber-bundles/bundle-map",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/projective-module-bundle-reconstruction",
+        "algebra-modules/category-of-finitely-generated-projective-modules",
+        "algebra-category-theory/equivalence-of-categories",
+        "fiber-bundles/section-module-is-finitely-generated-projective",
+        "fiber-bundles/module-of-smooth-sections"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/serre-swan-theorem.knowl.md"
+      ],
+      "unresolved": []
+    }
+  ],
+  "triage_records": []
+}

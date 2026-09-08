@@ -6,7 +6,7 @@ summary = "Equivalence between covariant derivatives on a rank-n vector bundle a
 aliases = ["tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em", "Connections on vector bundles via frame bundles"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle", "fiber-bundles/principal-connection", "fiber-bundles/horizontal-subbundle", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,6 @@ Let \(E\to M\) be a smooth real rank-\(n\) [[fiber-bundles/vector-bundle|vector 
 
 A [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] can be described either by a covariant derivative on sections of \(E\) or by a principal connection on \(\mathrm{Fr}(E)\).
 
-## Theorem (TFAE: vector bundle connections and frame bundle connections)
 The following data are equivalent, naturally and bijectively:
 
 1. A vector bundle connection \(\nabla\) on \(E\) (a covariant derivative satisfying the Leibniz rule).
@@ -28,9 +27,11 @@ The following data are equivalent, naturally and bijectively:
    \]
    for all \(A\in \mathrm{GL}(n,\mathbb R)\), where \(R_A\) is the right action on frames.
 
-4. A connection 1-form \(\omega\in\Omega^1(\mathrm{Fr}(E);\mathfrak{gl}(n,\mathbb R))\) satisfying the standard axioms (reproduces fundamental vertical fields and is equivariant under the right action).
+4. A connection 1-form \(\omega\in\Omega^1(\mathrm{Fr}(E);\mathfrak{gl}(n,\mathbb R))\) satisfying \(\omega(\xi^\#)=\xi\) and \(R_A^*\omega=\operatorname{Ad}_{A^{-1}}\omega\).
 
-Moreover, under this correspondence:
+## The correspondence
+
+Under this correspondence:
 
 - Given a principal connection on \(\mathrm{Fr}(E)\), one obtains \(\nabla\) by declaring that a section of \(E\) is parallel if and only if its equivariant function on \(\mathrm{Fr}(E)\) is constant along horizontal lifts (equivalently, parallel transport in \(\mathrm{Fr}(E)\) induces parallel transport in \(E\)).
 

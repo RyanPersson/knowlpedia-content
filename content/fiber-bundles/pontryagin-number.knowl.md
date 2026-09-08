@@ -6,19 +6,21 @@ summary = "An integer obtained by evaluating a top-degree monomial in Pontryagin
 aliases = ["Pontryagin characteristic number"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/tangent-bundle", "topology/cup-product-and-cohomology-ring"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/pontryagin-class", "topology/cup-product-and-cohomology-ring", "topology/fundamental-class"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a closed oriented \(4k\)-manifold and let \(E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]]. For a partition \(\lambda=(\lambda_1,\ldots,\lambda_\ell)\) of \(k\), the associated **Pontryagin number** is
+Let \(M\) be a closed oriented \(4k\)-manifold and let \(E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]]. For integers \(k\ge1\) and \(\lambda_i\ge1\) with \(\lambda_1+\cdots+\lambda_\ell=k\), the associated **Pontryagin number** is
 \[
 p_\lambda(E)[M]:=
 \left\langle
 p_{\lambda_1}(E)\smile\cdots\smile p_{\lambda_\ell}(E),
 [M]\right\rangle\in\mathbb Z.
 \]
-The monomial has degree \(4k\), since \(p_j(E)\in H^{4j}(M;\mathbb Z)\). A Pontryagin number of an oriented [[fiber-bundles/smooth-manifold|smooth manifold]] conventionally means the number obtained from its [[fiber-bundles/tangent-bundle|tangent bundle]] \(E=TM\).
+The monomial has degree \(4k\), since \(p_j(E)\in H^{4j}(M;\mathbb Z)\). ## Manifold characteristic numbers
+
+A Pontryagin number of an oriented [[fiber-bundles/smooth-manifold|smooth manifold]] conventionally means the number obtained from its [[fiber-bundles/tangent-bundle|tangent bundle]] \(E=TM\).
 The evaluation uses the ordinary integral
 [[topology/cup-product-and-cohomology-ring|cup product]] and the chosen
 orientation of \(M\).

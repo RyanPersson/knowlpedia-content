@@ -6,7 +6,7 @@ summary = "For a flat connection, the induced representation of the fundamental 
 aliases = ["holonomy-representation", "Holonomy representation"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/holonomy-representation.md"
-prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/holonomy-group", "topology/fundamental-group", "fiber-bundles/parallel-transport"]
+prerequisites = ["fiber-bundles/flat-principal-connection", "fiber-bundles/holonomy-group", "topology/fundamental-group", "fiber-bundles/parallel-transport", "algebra-groups/group-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,11 +17,13 @@ For a piecewise smooth loop \(\gamma\) based at \(x\), let \(g_\gamma\in G\) be 
 \[
 \widetilde\gamma(1)=p\cdot g_\gamma.
 \]
-Flatness implies \(g_\gamma\) depends only on the homotopy class \([\gamma]\in \pi_1(M,x)\), and the assignment
+Use the loop-product convention \(\gamma_2*\gamma_1\) for first traversing \(\gamma_1\), then \(\gamma_2\). Equivariance of transport gives \(g_{\gamma_2*\gamma_1}=g_{\gamma_2}g_{\gamma_1}\). Flatness implies \(g_\gamma\) depends only on the homotopy class \([\gamma]\in \pi_1(M,x)\), and the assignment
 \[
 \rho_p:\pi_1(M,x)\longrightarrow  G,\qquad \rho_p([\gamma])\coloneqq g_\gamma
 \]
 is a [[algebra-groups/group-homomorphism|group homomorphism]]. This homomorphism is the **holonomy representation** (also called the monodromy representation) of the flat connection based at \(p\).
+
+## Choice of fiber point and reconstruction
 
 If one replaces \(p\) by \(p\cdot h\) for \(h\in G\), then \(\rho_{p\cdot h}=h^{-1}\rho_p\,h\); thus the holonomy representation is well-defined up to conjugation in \(G\). Conversely, a homomorphism \(\rho:\pi_1(M,x)\to G\) determines a flat principal bundle with connection via the standard \((\widetilde M\times G)/\pi_1(M,x)\) construction.
 

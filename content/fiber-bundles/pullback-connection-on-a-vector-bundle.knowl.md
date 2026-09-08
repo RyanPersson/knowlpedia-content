@@ -6,7 +6,7 @@ summary = "The canonical connection on a pullback vector bundle induced by a con
 aliases = ["pulled-back covariant derivative", "connection on f-star E"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/pullback-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle-valued-differential-form"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/pullback-bundle", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/vector-bundle-valued-differential-form", "fiber-bundles/differential-of-a-smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -16,6 +16,8 @@ Let \(f:N\to M\) be a [[fiber-bundles/smooth-map|smooth map]], let \(E\to M\) be
 (f^*\nabla)(f^*s)=f^*(\nabla s)
 \]
 for every local [[fiber-bundles/section-of-a-fiber-bundle|smooth section]] \(s\) of \(E\). Here the right side is the pullback of the \(E\)-valued \(1\)-form \(\nabla s\), so it is a [[fiber-bundles/vector-bundle-valued-differential-form|\(f^*E\)-valued \(1\)-form]] on \(N\).
+
+Explicitly, for an \(E\)-valued one-form \(\beta\), its pullback is \((f^*\beta)_y(v)=\beta_{f(y)}(df_yv)\), regarded as an element of \((f^*E)_y=E_{f(y)}\).
 
 ## Local construction
 

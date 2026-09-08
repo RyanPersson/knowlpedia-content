@@ -6,16 +6,23 @@ summary = "A canonical mod-2 characteristic class of a real vector bundle."
 aliases = ["total Stiefel-Whitney class"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "topology/singular-cohomology-group"]
+prerequisites = ["fiber-bundles/topological-real-vector-bundle", "topology/singular-cohomology-group", "topology/cup-product-and-cohomology-ring", "fiber-bundles/paracompact-topological-space", "differential-geometry/real-projective-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-For a rank-\(r\) real [[fiber-bundles/vector-bundle|vector bundle]] \(E\to X\), its **Stiefel–Whitney classes** are canonical elements [[topology/singular-cohomology-group|\(w_i(E)\in H^i(X;\mathbb Z/2)\)]], for \(0\leq i\leq r\), with \(w_0(E)=1\) and \(w_i(E)=0\) for \(i>r\). The **total Stiefel–Whitney class** is
+For a rank-\(r\) [[fiber-bundles/topological-real-vector-bundle|topological real vector bundle]] \(E\to X\) over a paracompact Hausdorff space, its **Stiefel–Whitney classes** are classes
 \[
-w(E)=1+w_1(E)+\cdots+w_r(E).
+w_i(E)\in H^i(X;\mathbb Z/2),\qquad i\ge0,
 \]
-The classes are characterized by naturality under pullback, the [[fiber-bundles/whitney-sum-formula|Whitney product formula]] \(w(E\oplus F)=w(E)\smile w(F)\), and the normalization that the first class of the tautological real line bundle over \(\mathbb{RP}^{\infty}\) generates \(H^1(\mathbb{RP}^{\infty};\mathbb Z/2)\).
+depending only on the bundle isomorphism class. As a family over all such bundles and bases they are characterized by all of the following axioms:
+
+1. **Degree and rank normalization:** \(w_0(E)=1\) and \(w_i(E)=0\) for \(i>r\).
+2. **Naturality:** for every continuous \(f:Y\to X\) with \(Y\) paracompact Hausdorff, \(w_i(f^*E)=f^*w_i(E)\).
+3. **Whitney product:** \(w(E\oplus F)=w(E)\smile w(F)\), where \(w(E)=\sum_{i=0}^r w_i(E)\), direct sums are fiberwise direct sums with their local product topology, and multiplication is the mod-\(2\) [[topology/cup-product-and-cohomology-ring|cup product]].
+4. **Line normalization:** the tautological real line bundle \(\gamma^1\) over \(\mathbb{RP}^1\) has \(w_1(\gamma^1)\) equal to the nonzero element of \(H^1(\mathbb{RP}^1;\mathbb Z/2)\). Its fiber over a line \(\ell\subset\mathbb R^2\) is \(\ell\) itself.
+
+The class \(w(E)\) is the **total Stiefel–Whitney class**. These axioms include the normalization that distinguishes this canonical family from other natural mod-\(2\) classes.
 
 ## Basic properties
 
@@ -23,23 +30,23 @@ If \(f:Y\to X\) is continuous, then
 \[
 w_i(f^*E)=f^*w_i(E).
 \]
-The Whitney product formula implies that a [[algebra-modules/short-exact-sequence|short exact sequence]]
+The Whitney product formula implies that a fiberwise exact sequence of real vector bundles
 \[
 0\longrightarrow E'\longrightarrow E\longrightarrow E''\longrightarrow0
 \]
-satisfies \(w(E)=w(E')\smile w(E'')\), since such a sequence of real vector bundles splits after choosing a [[fiber-bundles/bundle-metric|bundle metric]]. Trivial bundles have total class \(1\).
+satisfies \(w(E)=w(E')\smile w(E'')\), since such a sequence of real vector bundles splits after choosing a continuous fiber metric. Trivial bundles have total class \(1\).
 
 These axioms uniquely determine the classes and make them insensitive to choices of metrics, connections, or [[fiber-bundles/local-trivialization|local trivializations]].
 
 ## Geometric meaning
 
-The first class \(w_1(E)\) vanishes exactly when \(E\) is orientable. For an oriented bundle, \(w_2(E)\) is the primary obstruction to a [[fiber-bundles/spin-structure|spin structure]]. More generally, nonzero higher classes obstruct the existence of many everywhere linearly independent sections: if \(E\) has \(k\) pointwise independent sections, then the top \(k\) Stiefel–Whitney classes vanish.
+The first class \(w_1(E)\) vanishes exactly when \(E\) is orientable. For an oriented positive-rank bundle, \(w_2(E)\) obstructs a lift of its oriented orthonormal frame bundle through \(\operatorname{Spin}(r)\to\operatorname{SO}(r)\); for tangent bundles this is a [[fiber-bundles/spin-structure|spin structure]]. More generally, nonzero higher classes obstruct the existence of many everywhere linearly independent sections: if \(E\) has \(k\) pointwise independent sections, then the top \(k\) Stiefel–Whitney classes vanish.
 
 For a closed smooth \(n\)-manifold \(M\), evaluating degree-\(n\) products of the classes of \(TM\) on the mod-2 [[topology/fundamental-class|fundamental class]] gives Stiefel–Whitney numbers. These numbers are central invariants in unoriented cobordism.
 
 ## Examples
 
-For the tautological real [[fiber-bundles/line-bundle|line bundle]] \(\gamma^1\to\mathbb{RP}^n\), \(w(\gamma^1)=1+a\), where \(a\) is the generator of \(H^1(\mathbb{RP}^n;\mathbb Z/2)\). For the [[fiber-bundles/tangent-bundle|tangent bundle]] of the sphere,
+For \(n\ge1\), the tautological real line bundle \(\gamma^1\to\mathbb{RP}^n\), \(w(\gamma^1)=1+a\), where \(a\) is the generator of \(H^1(\mathbb{RP}^n;\mathbb Z/2)\). For the [[fiber-bundles/tangent-bundle|tangent bundle]] of the sphere,
 \[
 TS^n\oplus\underline{\mathbb R}\cong\underline{\mathbb R}^{\,n+1},
 \]

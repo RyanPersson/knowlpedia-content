@@ -6,14 +6,13 @@ summary = "A principal G bundle is trivial exactly when it has a global section,
 aliases = ["tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm", "Equivalent conditions for triviality of a principal bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm.md"
-prerequisites = ["fiber-bundles/principal-g-bundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/trivial-principal-bundle-mgm", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/equivalence-of-cocycles", "fiber-bundles/equivariant-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\).
 
-## Theorem (TFAE: principal bundle triviality)
 The following are equivalent:
 
 1. (**Bundle isomorphism with the product**)
@@ -24,7 +23,7 @@ The following are equivalent:
    commuting with the projections to \(M\) and intertwining the right \(G\)-actions (see [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]]).
 
 2. (**Existence of a [[fiber-bundles/section-of-a-fiber-bundle|global section]]**)
-   \(P\) admits a smooth global section \(s:M\to P\) with \(\pi\circ s=\mathrm{id}_M\) (see [[fiber-bundles/section-of-ad|section]] for the general notion of section, and compare the principal-bundle criterion [[fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial|global section implies triviality]] together with its converse [[fiber-bundles/converse-triviality-criterion-trivial-principal-bundle-admits-a-global-section|trivial bundles admit sections]]).
+   \(P\) admits a smooth global section \(s:M\to P\) with \(\pi\circ s=\mathrm{id}_M\) (see [[fiber-bundles/section-of-a-fiber-bundle|section]] for the general notion of section, and compare the principal-bundle criterion [[fiber-bundles/trivial-principal-bundle-criterion-global-section-principal-bundle-is-trivial|global section implies triviality]] together with its converse [[fiber-bundles/converse-triviality-criterion-trivial-principal-bundle-admits-a-global-section|trivial bundles admit sections]]).
 
 3. (**Transition functions can be made trivial**)
    There exists a bundle atlas for \(P\) whose transition functions are all the identity element of \(G\) on overlaps. Equivalently, the transition cocycle is [[fiber-bundles/equivalence-of-cocycles|equivalent (cohomologous) to the trivial cocycle]] (see [[fiber-bundles/principal-bundle-transition-function|transition functions]] and [[fiber-bundles/cocycle-condition-for-transition-functions|cocycle condition]]).

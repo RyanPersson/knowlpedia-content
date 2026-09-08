@@ -6,7 +6,7 @@ summary = "On a paracompact smooth manifold, every open cover admits a smooth pa
 aliases = ["existence-of-partitions-of-unity-on-paracompact-manifolds", "Existence of partitions of unity on paracompact manifolds"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/existence-of-partitions-of-unity-on-paracompact-manifolds.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/paracompact-manifold", "topology/open-cover"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/paracompact-manifold", "topology/open-cover", "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,7 +17,7 @@ Let \(M\) be a paracompact [[fiber-bundles/smooth-manifold|smooth manifold]] and
 2. \(\operatorname{supp}(\rho_i)\subseteq U_i\) for every \(i\); and
 3. \(\sum_{i\in I}\rho_i(x)=1\) for every \(x\in M\).
 
-Such a family is a smooth partition of unity subordinate to the cover.
+Such a family is a [[fiber-bundles/partition-of-unity-subordinate-to-an-open-cover|smooth partition of unity subordinate to the cover]].
 
 ## Use
 

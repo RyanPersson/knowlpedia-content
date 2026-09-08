@@ -1,30 +1,30 @@
 +++
 id = "fiber-bundles/pontryagin-class"
-title = "Pontryagin class via Chern–Weil theory"
+title = "Pontryagin class"
 kind = "knowl"
-summary = "Characteristic cohomology classes of a real vector bundle defined from curvature, using the complexification in Chern–Weil theory."
+summary = "Integral characteristic classes of a real vector bundle defined from the Chern classes of its complexification."
 aliases = ["pontryagin-class", "Pontryagin class via Chern–Weil theory"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/pontryagin-class.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature-of-a-vector-bundle-connection"]
+prerequisites = ["fiber-bundles/topological-real-vector-bundle", "fiber-bundles/integral-chern-classes", "linear-algebra/complexification", "topology/singular-cohomology-group", "fiber-bundles/paracompact-topological-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\). Choose a [[fiber-bundles/bundle-metric|bundle metric]] on \(E\) and a compatible [[fiber-bundles/connection-on-a-vector-bundle|connection]] \(\nabla\) (so the structure group reduces to \(O(r)\)). Let \(F_\nabla\in\Omega^2(M;\mathfrak{so}(E))\) be its [[fiber-bundles/curvature|curvature]].
-
-## Definition (Pontryagin forms and Pontryagin classes)
-Let \(E^{\mathbb C}:=E\otimes_{\mathbb R}\mathbb C\) be the complexification. The **\(k\)th Pontryagin class** is the integral characteristic class
+Let \(E\to X\) be a rank-\(r\) [[fiber-bundles/topological-real-vector-bundle|topological real vector bundle]] over a paracompact Hausdorff space. Its complexification \(E^{\mathbb C}\) has fibers \(E_x\otimes_{\mathbb R}\mathbb C\), with local trivializations obtained by regarding the real transition matrices as complex matrices. For \(k\ge0\), the **\(k\)th Pontryagin class** is
 \[
-p_k(E):=(-1)^k c_{2k}(E^{\mathbb C})\in H^{4k}(M;\mathbb Z),
+p_k(E)=(-1)^k c_{2k}(E^{\mathbb C})\in H^{4k}(X;\mathbb Z),
 \]
-where \(c_{2k}\) is the \((2k)\)th [[fiber-bundles/chern-class|Chern class]].
+where \(c_{2k}\) is the [[fiber-bundles/integral-chern-classes|integral Chern class]]. Thus \(p_0(E)=1\) and \(p_k(E)=0\) for \(2k>r\). The **total Pontryagin class** is \(p(E)=1+p_1(E)+p_2(E)+\cdots\).
 
-Let \(\nabla^{\mathbb C}\) be the complex connection induced by \(\nabla\). Define the **Pontryagin forms** by
+## Chern–Weil representatives
+
+If \(X=M\) is a smooth manifold and \(E\) is smooth, choose a fiber metric and a compatible connection \(\nabla\) with curvature \(F_\nabla\). Its complexification induces a complex connection \(\nabla^{\mathbb C}\).
+Define the **Pontryagin forms** by
 \[
 p_k(\nabla)\;:=\;(-1)^k\,c_{2k}(\nabla^{\mathbb C})\in \Omega^{4k}(M),
 \]
-where \(c_{2k}(\nabla^{\mathbb C})\) is the corresponding Chern–Weil Chern form.
+where \(c_{2k}(\nabla^{\mathbb C})\) is the corresponding [[fiber-bundles/chern-class|Chern–Weil Chern form]].
 
 Then:
 1. Each \(p_k(\nabla)\) is closed: \(d\,p_k(\nabla)=0\), where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]].
@@ -33,7 +33,9 @@ Then:
 
 The de Rham representative detects only the real image of \(p_k(E)\), not any torsion in the integral class. Equivalently, this real image is the Chern–Weil class associated to the structure group \(O(r)\) (or \(SO(r)\) in the oriented case) by applying an \(Ad\)-invariant polynomial on \(\mathfrak{so}(r)\) corresponding to the \(k\)th elementary symmetric polynomial in the squares of the formal curvature eigenvalues.
 
-Naturality holds: for any [[fiber-bundles/smooth-map|smooth map]] \(f:N\to M\),
+## Naturality
+
+For any continuous map \(f:Y\to X\) between paracompact Hausdorff spaces, the topological classes satisfy
 \[
 p_k(f^*E)=f^*p_k(E).
 \]

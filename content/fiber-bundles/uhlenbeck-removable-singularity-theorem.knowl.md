@@ -6,12 +6,12 @@ summary = "A finite-energy Yang–Mills connection on a punctured four-ball exte
 aliases = ["removable singularity theorem for Yang–Mills connections", "instanton removable singularity theorem"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/yangmills-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/yangmills-equation"]
+prerequisites = ["fiber-bundles/yangmills-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection", "fiber-bundles/yangmills-equation", "fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-transformation", "fiber-bundles/yangmills-functional"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be compact and let \(A\) be a smooth Yang–Mills connection on a principal \(G\)-bundle over the punctured Riemannian four-ball \(B^4\setminus\{0\}\). If its curvature has finite energy,
+Let \(G\) be a compact Lie group, fix an Ad-invariant inner product on its Lie algebra, and let \(A\) be a smooth Yang–Mills connection on a principal \(G\)-bundle over the punctured four-ball \(B^4\setminus\{0\}\), with a Riemannian metric smooth on all of \(B^4\). If its curvature has finite energy,
 \[
 \int_{B^4}|F_A|^2\,d\operatorname{vol}<\infty,
 \]

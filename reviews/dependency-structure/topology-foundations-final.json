@@ -1,0 +1,47 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles/topological-real-vector-bundle",
+      "scope": "foundation",
+      "outcome": "corrected",
+      "source_sha256": "606c9c1d62059919c96974db2b394f26b170832e38c22d855e1d3c14a25f7170",
+      "evidence": "Added the complete topological definition for an arbitrary base: continuous surjection, real vector-space fibers, rank-r local homeomorphisms to U x R^r, and fiberwise linearity. Smoothness is explicitly excluded from the core; bundle maps, pullbacks, and examples are separated into later sections. The listed topology, product, linear-algebra, and linear-isomorphism targets supply the defining structures.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/product-topology",
+        "linear-algebra/vector-space",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/fiber-bundles/topological-real-vector-bundle.knowl.md"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "topology/relative-singular-cohomology-group",
+      "scope": "foundation",
+      "outcome": "corrected",
+      "source_sha256": "b54f411cde7073c86845e27ecdc6a641d9d4dfd278624e22e9b21e31ff98f157",
+      "evidence": "Added the complete relative construction for a pair A subset X: quotient singular chain groups, induced boundary, coefficient-valued relative cochains, coboundary, and the kernel modulo image definition of H^n(X,A;G). Maps of pairs, the ordinary-cohomology special case, and the long exact sequence are stated after the core. The topology, singular-chain, abelian-group, cohomology, and cochain-complex targets supply the defining structures.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/singular-chain-complex",
+        "algebra-groups/abelian-group",
+        "algebra-homological/cohomology-module",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/topology/relative-singular-cohomology-group.knowl.md"
+      ],
+      "unresolved": []
+    }
+  ],
+  "triage_records": [],
+  "excluded_count": 0
+}

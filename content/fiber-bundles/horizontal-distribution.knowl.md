@@ -6,7 +6,7 @@ summary = "A smooth choice of horizontal tangent subspaces complementing the ver
 aliases = ["horizontal-distribution", "Horizontal distribution"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/horizontal-distribution.md"
-prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/horizontal-subbundle"]
+prerequisites = ["fiber-bundles/vector-field", "fiber-bundles/fibered-manifold", "fiber-bundles/vertical-subbundle", "convex-analysis/direct-sum-of-subspaces"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -22,6 +22,8 @@ of a constant-rank subspace such that for every \(e\in E\),
 T_eE = H_eE \oplus V_eE.
 \]
 “Smooth” means that locally there exist smooth [[fiber-bundles/vector-field|vector fields]] on \(E\) whose values span \(H_eE\) at each point.
+
+## Equivalent viewpoints
 
 A horizontal distribution is the pointwise version of a [[fiber-bundles/horizontal-subbundle|horizontal subbundle]]; the two viewpoints are equivalent. The distribution is called integrable precisely when it is involutive, in the sense of [[fiber-bundles/integrable-horizontal-distribution|integrability of horizontals]].
 

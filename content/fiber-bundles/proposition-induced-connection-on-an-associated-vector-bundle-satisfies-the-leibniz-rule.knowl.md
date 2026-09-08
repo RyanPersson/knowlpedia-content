@@ -6,19 +6,18 @@ summary = "The induced covariant derivative on an associated vector bundle is a 
 aliases = ["proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule", "Leibniz rule for induced connections on associated bundles"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/associated-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/associated-vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/exterior-derivative", "fiber-bundles/vector-field", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/vector-bundle-valued-differential-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). Given a representation \(\rho:G\to \mathrm{GL}(V)\), form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] \(E:=P\times_\rho V\to M\). The connection \(\omega\) induces a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (covariant derivative)
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). Given a finite-dimensional smooth representation \(\rho:G\to \mathrm{GL}(V)\), form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] \(E:=P\times_\rho V\to M\). The connection \(\omega\) induces a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (covariant derivative)
 \[
 \nabla:\Gamma(E)\to \Omega^1(M;E),
 \]
 characterized by the usual horizontal-lift construction (or equivalently by local connection 1-forms obtained from \(\omega\) in trivializations).
 
-## Proposition (Leibniz rule)
-For every smooth function \(f\in C^\infty(M)\) and every section \(s\in \Gamma(E)\), the induced covariant derivative satisfies
+For every smooth scalar-valued function \(f\) (real or complex according to \(V\)) and every section \(s\in \Gamma(E)\), the induced covariant derivative satisfies
 \[
 \nabla(fs) \;=\; df\otimes s \;+\; f\,\nabla s.
 \]
@@ -27,7 +26,7 @@ Equivalently, for every [[fiber-bundles/vector-field|vector field]] \(X\) on \(M
 \nabla_X(fs) \;=\; X(f)\,s \;+\; f\,\nabla_X s.
 \]
 
-In particular, the induced \(\nabla\) is a bona fide connection on \(E\) in the standard sense: it is \(\mathbb R\)-linear in \(s\) and is a first-order differential operator over multiplication by functions.
+In particular, the induced \(\nabla\) is a bona fide connection on \(E\) in the standard sense: it is linear in \(s\) over the scalar field of \(V\) and is a first-order differential operator over multiplication by functions.
 
 ## Examples
 1. **Trivial bundle with matrix-valued 1-form.** If \(P=M\times G\) and \(E=M\times V\), the induced connection can be written as \(\nabla = d + \rho_*(A)\) for a \(\mathfrak g\)-valued 1-form \(A\). Then

@@ -1,0 +1,382 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a6f72ad1fac8237277b418bee6350b6480e07cd86cd3e734bad379c8919957d",
+      "evidence": "Checked principal-connection horizontal lifts along compact interval curves: local ODE uniqueness patches to a global lift because principal connection fiber equations are invariant, unlike arbitrary incomplete Ehresmann connections.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/flat-connection-a0-on-a-trivial-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a061406712fe72b1d56ffff5e1888d46c3d45ebc415a522135bca58d617905e0",
+      "evidence": "Checked product horizontals T_xM×{0}, zero gauge potential, zero curvature, constant-coordinate transport, and trivial holonomy.",
+      "previous_prerequisites": [
+        "fiber-bundles/trivial-principal-bundle-mgm",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/trivial-principal-bundle-mgm",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/flat-principal-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "845fa897ed1abbf4cf44004ac5ea213bd85814f76f1ffdbf5ffdfd947bea4886",
+      "evidence": "Checked flatness is exactly Ω=0 and local Maurer–Cartan equation dA+½[A∧A]=0; the stated transport/homotopy and holonomy consequences use the listed connection inputs.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/flat-vector-bundle-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7efb854837cee8668f8984031fe896a47bffd0aa4fac5e480b0d02586cffb6c1",
+      "evidence": "Checked R^∇=0, local parallel frames, and circle example exp(−2πA), with commuting constant matrix convention consistent.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-algebra",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9d405a2b39af2a7b9bc158d0a42916e63b2d6463832cce3ce95dc3ab16c1b85f",
+      "evidence": "Checked Hol_{p·g}=g⁻¹Hol_p g and Lie(Hol) definition; curvature generation is cited as a consequence.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/parallel-transport",
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/parallel-transport",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-correspondence-for-flat-connections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7f4674d3c32bcfe1671537f7059e3e967be54adaff7afdb5c6abfae286dbaea4",
+      "evidence": "Checked connected-base flat bundle/representation correspondence and quotient action (deck transformation with left ρ, residual right G), including conjugacy under changing p.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/holonomy-representation",
+        "algebra-groups/conjugation-action",
+        "fiber-bundles/flat-principal-connection",
+        "topology/fundamental-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/holonomy-representation",
+        "algebra-groups/conjugation-action",
+        "fiber-bundles/flat-principal-connection",
+        "topology/fundamental-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a9ad08066b4e6a914f96e4398d730a6a124e56732bde3a91676287b31e983c8f",
+      "evidence": "Checked loop horizontal lift endpoint p·g defines holonomy and basepoint change conjugates by h⁻¹; examples correctly distinguish nonclosed cyclic subgroups.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-reduction-principle",
+      "outcome": "corrected",
+      "source_sha256": "31ddc3f7dc20df2da6c43123dcddfa9877ee3a9d179f36605a7f10b114c8d263",
+      "evidence": "Checked the full theorem: closed H containing holonomy constructs a horizontal principal H-subbundle, and the equivalent criterion uses a parallel section of the associated P×_G(G/H) bundle; all defining outputs and inputs are explicit prerequisites.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/principal-h-subbundle",
+        "fiber-bundles/associated-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-representation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a5a2fcbdad245ae4fa6e773157e57440470d6689cff61d0f62870d0f36e97fa1",
+      "evidence": "Checked flat transport makes g_γ homotopy invariant and concatenation gives a homomorphism, while changing p conjugates ρ.",
+      "previous_prerequisites": [
+        "fiber-bundles/flat-principal-connection",
+        "fiber-bundles/holonomy-group",
+        "topology/fundamental-group",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/flat-principal-connection",
+        "fiber-bundles/holonomy-group",
+        "topology/fundamental-group",
+        "fiber-bundles/parallel-transport"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "112edb69f236d2c3937744a6a515b79ae0d14468acb209683530ccf421f6e97d",
+      "evidence": "Checked Ehresmann horizontal lift is a local ODE solution on a maximal interval; it correctly avoids claiming global existence for arbitrary incomplete connections.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-tangent-vector",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f00cd97d3ffc70f657c27e4d351fb9be22e182352901d4154d47a7808222199",
+      "evidence": "Checked dπ restricted to H_e is an isomorphism, so each v∈T_xM has a unique horizontal representative.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-subbundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-subbundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-vector-field",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d2e104a003ae008a65a3c0b7bd18771990fb9b3bad4eb6e72c0fa9efa52e54c8",
+      "evidence": "Checked pointwise lift X^h is smooth, horizontal, and π-related to X; principal examples are G-equivariant.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/vector-field"
+      ]
+    },
+    {
+      "id": "fiber-bundles/local-system",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8d7de17e353983d0247128a0279e48b1e2cd6e4118df787ce4650231537fa49e",
+      "evidence": "Checked local-system definition and its monodromy representation require the stated path-connected, locally path-connected, semilocally simply connected hypotheses.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "linear-algebra/vector-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/moduli-space-of-flat-connections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "90be4527a45b94bffef27341b4067595c863749770ad957929914f8313708e7e",
+      "evidence": "Checked moduli is the set of flat connections on fixed P modulo gauge, with singularity and obstruction caveats; representation correspondence is restricted to matching bundle topological type.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/flat-principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/flat-principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/parallel-section-along-a-curve",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47fb3ef8a7bf648df5348d62fc080ad803588d32a94c6529918a437f2de2b57f",
+      "evidence": "Checked parallel section means pullback covariant derivative Ds/dt=0, with uniqueness from the linear ODE and transport interpretation.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0d9e5c08f18f277dfbb5a49da50390c32baa93c12d99ddf2add354b6f4d54428",
+      "evidence": "Checked parallel transport is defined on the domain of globally existing lifts; reversal gives inverse only on corresponding domains, and completeness is correctly required for whole-fiber diffeomorphisms.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ]
+    },
+    {
+      "id": "fiber-bundles/parallel-transport-defines-a-g-equivariant-map-between-fibers",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2134193424825bafe9db249862603c1c079692d925e37f711d1e8e1c417267e7",
+      "evidence": "Checked principal transport is smooth, bijective, and right G-equivariant by uniqueness and right-invariance of the connection; global existence follows from the principal lift theorem.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve",
+        "fiber-bundles/parallel-transport"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-flatness-implies-holonomy-depends-only-on-homotopy-class-of-loops",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "427a2ecb75d786311c4f5fde7320baefb5ce85715048d3800f5fbb637a00d92e",
+      "evidence": "Checked Ω=0 implies based-loop homotopy invariance and hence a π₁ homomorphism; changing p conjugates the representation.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/curvature"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/curvature"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-parallel-transport-respects-concatenation-of-paths",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "da76dc6e6273b9cfb292f3e18898c80f28b4c609713577c3882b73fd7f0b935d",
+      "evidence": "Checked first-then-second concatenation gives PT_{γ₂*γ₁}=PT_{γ₂}∘PT_{γ₁}, including the stated holonomy order.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/parallel-transport"
+      ]
+    },
+    {
+      "id": "fiber-bundles/restricted-holonomy-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab19e82c4cb2157a5a058a08f3f744debd4acb063ae5fa3da1bbc9a7e6d47a03",
+      "evidence": "Checked restricted holonomy from contractible loops is connected Lie subgroup/identity component and is trivial for flat connections; full holonomy may remain discrete.",
+      "previous_prerequisites": [
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/smooth-manifold"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tangent-space-to-flat-connection-moduli",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "730b4e05c4cd1e527115a1b1a4fa5d95c962303cf189dc763271660fc9b72d3a",
+      "evidence": "Checked linearization F_{A+a}=F_A+d_Aa+½[a∧a] yields H_A¹ modulo d_A gauge directions, with irreducibility/unobstructedness caveats for ordinary tangent spaces.",
+      "previous_prerequisites": [
+        "fiber-bundles/deformation-complex-of-a-flat-connection",
+        "fiber-bundles/irreducible-connection",
+        "differential-geometry/tangent-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/deformation-complex-of-a-flat-connection",
+        "fiber-bundles/irreducible-connection",
+        "differential-geometry/tangent-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e6976b1cfb75e6dab54d7d74827299a2381d8e79b44ae03115e06f447f10ecf9",
+      "evidence": "Checked the five flatness characterizations: zero curvature, local horizontal sections, homotopy-invariant transport, trivial restricted holonomy, and universal-cover monodromy quotient, including inverse convention in the S¹ example.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/holonomy-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/holonomy-group"
+      ]
+    }
+  ]
+}

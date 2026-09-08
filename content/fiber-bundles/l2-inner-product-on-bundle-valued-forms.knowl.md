@@ -6,7 +6,7 @@ summary = "The integral inner product on bundle-valued differential forms induce
 aliases = ["L2 pairing on bundle-valued forms", "gauge-theoretic L2 metric"]
 domains = ["fiber-bundles", "differential-geometry", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "linear-algebra/inner-product", "fiber-bundles/vector-bundle-valued-differential-form"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/bundle-metric", "linear-algebra/inner-product", "fiber-bundles/vector-bundle-valued-differential-form", "differential-geometry/integration-of-differential-forms", "fiber-bundles/support-of-a-section"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -37,7 +37,7 @@ The pairing defines formal adjoints of covariant differential operators by [[rea
 
 ## Examples and scope
 
-For the trivial [[fiber-bundles/line-bundle|line bundle]] over \(\mathbb R^n\) and \(k=0\), this is the usual \(L^2\) inner product of compactly supported functions. A smooth form on a noncompact manifold need not belong to \(L^2\); the constant function \(1\) on \(\mathbb R^n\) is the basic near-miss because its squared norm has infinite integral.
+For the trivial [[fiber-bundles/line-bundle|line bundle]] over \(\mathbb R^n\) and \(k=0\), this is the usual \(L^2\) inner product of compactly supported functions. A smooth form on a noncompact manifold need not belong to \(L^2\); for \(n\ge1\), the constant function \(1\) on \(\mathbb R^n\) is the basic near-miss because its squared norm has infinite integral.
 
 ## References
 

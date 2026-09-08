@@ -6,27 +6,28 @@ summary = "The smooth manifold of real lines through the origin in real Euclidea
 aliases = ["RPn", "real projective n-space", "real projective manifold"]
 domains = ["differential-geometry", "algebraic-geometry-foundations", "topology"]
 section_mode = "progressive"
-prerequisites = ["convex-analysis/linear-subspace", "algebraic-geometry-foundations/projective-space"]
+prerequisites = ["convex-analysis/linear-subspace", "topology/quotient-topology"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-For \(n\ge0\), **real projective \(n\)-space** is the set of one-dimensional real [[convex-analysis/linear-subspace|linear subspaces]] of \(\mathbb R^{n+1}\):
+For \(n\ge0\), **real projective \(n\)-space** is the quotient
 \[
-\mathbb{RP}^n=\mathbb P(\mathbb R^{n+1}).
+\mathbb{RP}^n=(\mathbb R^{n+1}\setminus\{0\})/\mathbb R^\times,
 \]
-The standard affine charts of [[algebraic-geometry-foundations/projective-space|projective space]] give it the structure of a smooth manifold of real dimension \(n\).
+where nonzero real scalars act by multiplication and the quotient has the
+[[topology/quotient-topology|quotient topology]]. Equivalently, its points are
+one-dimensional real [[convex-analysis/linear-subspace|linear subspaces]] of
+\(\mathbb R^{n+1}\). The open sets \(U_i=\{[x_0:\cdots:x_n]:x_i\ne0\}\)
+have affine coordinate charts given by the ratios \(x_j/x_i\) for \(j\ne i\).
+Their transition maps are smooth rational maps, so these charts define a
+smooth manifold of real dimension \(n\).
 
 ## Quotient descriptions
 
 Every real line contains exactly two unit vectors, so normalization gives a diffeomorphism
 \[
 \mathbb{RP}^n\cong S^n/\{x\sim -x\}.
-\]
-Equivalently,
-\[
-\mathbb{RP}^n\cong
-(\mathbb R^{n+1}\setminus\{0\})/\mathbb R^\times.
 \]
 The sphere map \(S^n\to\mathbb{RP}^n\) is a two-sheeted covering for \(n\ge1\). These quotient descriptions show that \(\mathbb{RP}^n\) is compact and connected for \(n\ge1\).
 

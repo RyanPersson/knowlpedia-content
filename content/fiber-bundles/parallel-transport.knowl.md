@@ -6,7 +6,7 @@ summary = "Transport along a base curve defined by taking the endpoint of its ho
 aliases = ["parallel-transport", "Parallel transport for an Ehresmann connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/parallel-transport.md"
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-lift-of-a-curve"]
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-lift-of-a-curve", "shared-foundations/function"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++
@@ -30,4 +30,4 @@ For the reversed curve \(\bar\gamma(t)=\gamma(1-t)\), uniqueness of horizontal l
 3. **[[fiber-bundles/line-bundle|Line bundle]] with a local 1-form.** In a trivialization along \(\gamma\) where a complex line-bundle connection is \(\nabla=d+A\), parallel transport multiplies the fiber coordinate by \(\exp(-\int_\gamma A)\). For a Hermitian connection in a unitary frame, \(A\) is imaginary-valued and this multiplier is a phase. A general complex connection can also change its magnitude.
 
 ## Remarks
-For a complete connection, parallel transport along loops based at \(x\in M\) generates the [[fiber-bundles/holonomy-group|holonomy group]] at \(x\), and its failure to be path-independent is governed by [[fiber-bundles/curvature|curvature]].
+For a complete Ehresmann connection, transports around loops based at \(x\) form a subgroup of the diffeomorphism group of the fiber \(E_x\). In the principal-bundle case this gives the [[fiber-bundles/holonomy-group|holonomy subgroup]] of the structure group after choosing a fiber point. Curvature measures local dependence on contractible loops; even a flat connection can have nontrivial monodromy around noncontractible loops.

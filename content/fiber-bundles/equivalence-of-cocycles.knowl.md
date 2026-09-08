@@ -6,7 +6,7 @@ summary = "Two transition function cocycles are equivalent if they differ by a c
 aliases = ["equivalence-of-cocycles", "Equivalence of cocycles"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/equivalence-of-cocycles.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/equivalent-bundle-atlases"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "fiber-bundles/cocycle-condition-for-transition-functions", "topology/open-cover"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,7 +19,6 @@ g_{ii}=e,\quad g_{ji}=g_{ij}^{-1}.
 \]
 Such data defines a principal bundle by gluing trivial bundles, producing the usual notion of [[fiber-bundles/principal-bundle-transition-function|transition functions]] and a corresponding [[fiber-bundles/bundle-atlas|bundle atlas]].
 
-## Definition (equivalent cocycles)
 Two cocycles \(\{g_{ij}\}\) and \(\{g'_{ij}\}\) on the same cover are **equivalent** if there exist smooth maps
 \[
 h_i:U_i\to G
@@ -28,6 +27,8 @@ such that on each overlap \(U_i\cap U_j\),
 \[
 g'_{ij}=h_i^{-1}\,g_{ij}\,h_j.
 \]
+
+## Change of local sections
 
 Equivalently, if \(\{g_{ij}\}\) arises from local sections \(s_i:U_i\to P\) via \(s_j=s_i\,g_{ij}\) (as in [[fiber-bundles/construction-transition-functions-g-iju-iu-jg-from-local-sections|transition functions from local sections]]), then replacing the sections by
 \[
@@ -57,4 +58,4 @@ Equivalent cocycles define isomorphic principal bundles; the corresponding isomo
    \[
    g_{NS}(\theta)=e^{ik\theta}
    \]
-   define complex line bundles with different first [[fiber-bundles/chern-class|Chern class]] (the integer \(k\)). If \(k\neq k'\), there are no \(h_N,h_S\) making \(e^{ik'\theta}=h_N^{-1}e^{ik\theta}h_S\), so the cocycles are not equivalent.
+   define complex line bundles with different first [[fiber-bundles/chern-class|Chern class]] (with sign determined by the chosen orientation and transition convention). If \(k\neq k'\), there are no \(h_N,h_S\) making \(e^{ik'\theta}=h_N^{-1}e^{ik\theta}h_S\), so the cocycles are not equivalent.

@@ -6,7 +6,7 @@ summary = "A locally finite family of smooth functions that sum to one and have 
 aliases = ["partition-of-unity-subordinate-to-an-open-cover", "Partition of unity subordinate to an open cover"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "topology/open-cover"]
+prerequisites = ["fiber-bundles/smooth-manifold", "topology/open-cover", "shared-foundations/support-of-a-function", "fiber-bundles/smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,13 +15,15 @@ Let \(M\) be a smooth manifold and let \(\{U_i\}_{i\in I}\) be an open cover of 
 
 A **smooth partition of unity subordinate to** \(\{U_i\}\) is a family of smooth functions \(\{\varphi_i:M\to[0,1]\}_{i\in I}\) such that:
 
-1. (**Support condition**) For each \(i\), the support \(\mathrm{supp}(\varphi_i)\) is contained in \(U_i\).
+1. (**Support condition**) For each \(i\), the [[shared-foundations/support-of-a-function|support]] \(\mathrm{supp}(\varphi_i)\) is contained in \(U_i\).
 2. (**Local finiteness**) The family \(\{\mathrm{supp}(\varphi_i)\}\) is locally finite: every point of \(M\) has a neighborhood meeting only finitely many supports.
 3. (**Sum to one**) For all \(x\in M\),
    \[
    \sum_{i\in I}\varphi_i(x)=1,
    \]
    where the sum is well-defined because of local finiteness.
+
+## Existence
 
 A fundamental theorem states that if \(M\) is a [[fiber-bundles/paracompact-manifold|paracompact manifold]], then every open cover admits such a partition of unity.
 
@@ -33,4 +35,4 @@ A fundamental theorem states that if \(M\) is a [[fiber-bundles/paracompact-mani
    For an open cover of \(\mathbb R^n\) by (possibly overlapping) balls, choose a locally finite refinement and bump functions supported in the refined sets; normalizing yields a subordinate partition of unity.
 
 3. **Gluing local data.**
-   If \(\alpha_i\) are differential forms defined on \(U_i\), then \(\sum_i \varphi_i\,\alpha_i\) defines a global form when the \(\alpha_i\) agree on overlaps in the appropriate sense; local finiteness ensures the sum is pointwise finite.
+   If \(\alpha_i\) are differential forms defined on \(U_i\), then \(\sum_i \varphi_i\,\alpha_i\) defines a global form after extending each product by zero outside \(U_i\); no agreement of the local forms on overlaps is required for this weighted construction, and local finiteness ensures the sum is pointwise finite.

@@ -6,7 +6,7 @@ summary = "The quotient of the space of flat connections on a fixed principal bu
 aliases = ["flat-connection moduli", "flat gauge moduli"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/gauge-transformation", "fiber-bundles/flat-principal-connection"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/gauge-transformation", "fiber-bundles/flat-principal-connection", "shared-foundations/quotient-set", "fiber-bundles/principal-connection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -29,7 +29,7 @@ Analytic constructions normally complete connections and gauge transformations i
 
 If \(M\) is connected, choosing a basepoint and a point of the fiber assigns to \(A\) its [[fiber-bundles/holonomy-representation|holonomy representation]] \(\pi_1(M)\to G\). Changing the chosen fiber point conjugates the representation. The [[fiber-bundles/holonomy-correspondence-for-flat-connections|holonomy correspondence]] therefore identifies isomorphism classes of flat bundles with [[algebra-groups/conjugacy-class|conjugacy classes]] of representations. Restricting to a fixed \(P\) selects only those representations whose associated flat bundle has the topological type of \(P\).
 
-For a closed oriented surface, the smooth irreducible locus inherits a symplectic form from the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott form]].
+For a closed oriented surface and a compact structure group with a chosen Ad-invariant positive-definite inner product, the smooth irreducible locus inherits a symplectic form from the [[fiber-bundles/atiyah-bott-symplectic-form|Atiyah–Bott form]].
 
 ## Example
 

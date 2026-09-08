@@ -6,12 +6,12 @@ summary = "The derivative of a differential form along the flow of a vector fiel
 aliases = ["lie-derivative-of-a-differential-form", "Lie derivative of a differential form"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lie-derivative-of-a-differential-form.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/pullback-of-differential-forms"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/differential-k-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]], let \(X\) be a [[fiber-bundles/vector-field|smooth vector field]] with local flow \(\varphi_t\), and let \(\omega\in\Omega^k(M)\). The **Lie derivative** of \(\omega\) along \(X\) is
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]], let \(X\) be a [[fiber-bundles/vector-field|smooth vector field]] with local flow \(\varphi_t\), meaning \(\partial_t\varphi_t(p)=X_{\varphi_t(p)}\) and \(\varphi_0(p)=p\) wherever defined near \(t=0\), and let \(\omega\in\Omega^k(M)\). The **Lie derivative** of \(\omega\) along \(X\) is
 \[
 \mathcal{L}_X\omega \coloneqq \left.\frac{d}{dt}\right|_{t=0} \bigl(\varphi_t^*\omega\bigr),
 \]
@@ -39,7 +39,7 @@ For \(\alpha\in\Omega^k(M)\) and \(\beta\in\Omega^\ell(M)\):
 
 ## Examples
 1. **Translation on \(\mathbb{R}^n\).**
-   On \(\mathbb{R}^n\), let \(X=\partial/\partial x^1\). For the 1-form \(\omega=f(x)\,dx^2\),
+   On \(\mathbb{R}^n\), with \(n\ge2\), let \(X=\partial/\partial x^1\). For the 1-form \(\omega=f(x)\,dx^2\),
    \[
    \mathcal{L}_X\omega = \frac{\partial f}{\partial x^1}\,dx^2,
    \]

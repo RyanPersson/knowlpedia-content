@@ -6,14 +6,13 @@ summary = "A principal connection can be specified by a horizontal distribution,
 aliases = ["tfae-principal-connection-data-principal-g-bundle-pm", "Equivalent descriptions of a principal connection"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-principal-connection-data-principal-g-bundle-pm.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/tangent-bundle", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/horizontal-subbundle", "fiber-bundles/vertical-subbundle", "fiber-bundles/pullback-bundle", "fiber-bundles/vector-bundle-morphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\). Write \(V\!P=\ker(d\pi)\subset TP\) for the vertical subbundle, and note that \(d\pi:TP\to \pi^*TM\) relates \(TP\) to the pullback of the [[fiber-bundles/tangent-bundle|tangent bundle]] of \(M\).
 
-## Theorem (TFAE: principal connection data)
 The following are equivalent:
 
 1. **Principal connection.** A [[fiber-bundles/principal-connection|principal connection]] on \(P\).

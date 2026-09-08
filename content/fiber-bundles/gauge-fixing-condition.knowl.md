@@ -6,12 +6,12 @@ summary = "A supplementary condition used to choose local representatives of gau
 aliases = ["gauge fixing", "choice of gauge", "local gauge condition"]
 domains = ["fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/bundle-of-connections", "fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/gauge-group", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space", "fiber-bundles/principal-connection", "fiber-bundles/stabilizer-of-a-connection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathcal A(P)\) be the [[fiber-bundles/bundle-of-connections|space of connections]] on a fixed [[fiber-bundles/principal-g-bundle|principal bundle]] and let the [[fiber-bundles/gauge-group|gauge group]] \(\mathcal G(P)\) act on it. A **gauge-fixing condition** on a region \(U\subseteq\mathcal A(P)\) is an auxiliary equation
+Let \(\mathcal A(P)\) be the space of [[fiber-bundles/principal-connection|principal connections]] on a fixed [[fiber-bundles/principal-g-bundle|principal bundle]] and let the [[fiber-bundles/gauge-group|gauge group]] \(\mathcal G(P)\) act on it. A **gauge-fixing condition** on a region \(U\subseteq\mathcal A(P)\) is an auxiliary equation
 \[
 \chi(A)=0
 \]

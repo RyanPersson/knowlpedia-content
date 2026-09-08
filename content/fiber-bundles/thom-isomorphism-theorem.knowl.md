@@ -6,16 +6,16 @@ summary = "Cup product with the Thom class shifts the cohomology of a bundle bas
 aliases = ["Thom isomorphism", "Thom-Gysin isomorphism"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/thom-class"]
+prerequisites = ["fiber-bundles/topological-real-vector-bundle", "fiber-bundles/thom-class", "topology/relative-singular-cohomology-group", "topology/singular-cohomology-group", "topology/cup-product-and-cohomology-ring", "algebra-rings/commutative-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:E\to B\) be an \(R\)-oriented real [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a paracompact Hausdorff base, and let \(E^\times=E\setminus 0_E(B)\). If
+Let \(R\) be a commutative ring with identity and let \(\pi:E\to B\) be an \(R\)-oriented real [[fiber-bundles/topological-real-vector-bundle|topological vector bundle]] of rank \(r\) over a paracompact Hausdorff base, and let \(E^\times=E\setminus 0_E(B)\). Here \(0_E(b)=0_b\), and an \(R\)-orientation means locally compatible choices of generators in \(H^r(E_b,E_b\setminus\{0_b\};R)\). If
 \[
 u_E\in H^r(E,E^\times;R)
 \]
-is its [[fiber-bundles/thom-class|Thom class]], then for every \(q\) the map
+is its [[fiber-bundles/thom-class|Thom class]], then for every integer \(q\ge0\) the map
 \[
 \Phi_E:H^q(B;R)\longrightarrow H^{q+r}(E,E^\times;R),
 \qquad
@@ -25,19 +25,19 @@ is an isomorphism. This is the **Thom isomorphism theorem**. It is natural for o
 
 ## Equivalent models
 
-After choosing a [[fiber-bundles/bundle-metric|bundle metric]], excision identifies
+After choosing a continuous positive-definite fiber metric, excision identifies
 \[
 H^*(E,E^\times;R)\cong H^*(D(E),S(E);R),
 \]
-where \(D(E)\) and \(S(E)\) are the disk and [[fiber-bundles/sphere-bundle|sphere bundles]]. Collapsing \(S(E)\) gives the [[topology/reduced-cohomology|reduced cohomology]] of the Thom space. These models express the same isomorphism with different support conventions.
+where \(D(E)=\{v:\|v\|\le1\}\) and \(S(E)=\{v:\|v\|=1\}\). Collapsing \(S(E)\) gives the [[topology/reduced-cohomology|reduced cohomology]] of the Thom space. These models express the same isomorphism with different support conventions.
 
 ## Consequences
 
-Pulling \(u_E\) back along the [[fiber-bundles/zero-section|zero section]] gives the [[fiber-bundles/euler-class-as-zero-section|Euler class]]. The theorem also yields Gysin maps and the Gysin long exact sequence of the [[fiber-bundles/sphere-bundle|sphere bundle]]. For the trivial oriented bundle \(B\times\mathbb R^r\), \(\Phi_E\) is the suspension-type degree shift obtained by multiplying with the preferred generator of \(H^r(\mathbb R^r,\mathbb R^r\setminus\{0\};R)\).
+For integral coefficients, pulling \(u_E\) back along the continuous zero section gives the [[fiber-bundles/euler-class-as-zero-section|Euler class]]. The theorem also yields Gysin maps and the Gysin long exact sequence of the [[fiber-bundles/sphere-bundle|sphere bundle]]. For the trivial oriented bundle \(B\times\mathbb R^r\), \(\Phi_E\) is the suspension-type degree shift obtained by multiplying with the preferred generator of \(H^r(\mathbb R^r,\mathbb R^r\setminus\{0\};R)\).
 
 ## Coefficients and scope
 
-Integral coefficients require an orientation. Every real [[fiber-bundles/vector-bundle|vector bundle]] is orientable over \(\mathbb Z/2\), so the mod-\(2\) theorem has no orientability hypothesis. More generally, a nonorientable bundle admits a Thom isomorphism with its orientation local system.
+Integral coefficients require an orientation. Every real topological vector bundle is orientable over \(\mathbb Z/2\), so the mod-\(2\) theorem has no orientability hypothesis. More generally, a nonorientable bundle admits a Thom isomorphism with its orientation local system.
 
 **Warning.** [[topology/singular-cohomology-group|Ordinary cohomology]] of \(E\) does not retain the fiberwise support encoded by the relative group.
 

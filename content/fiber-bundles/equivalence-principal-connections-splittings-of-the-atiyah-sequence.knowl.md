@@ -6,7 +6,7 @@ summary = "A principal connection is the same as a vector bundle splitting of th
 aliases = ["equivalence-principal-connections-splittings-of-the-atiyah-sequence", "Theorem: Principal connections are equivalent to splittings of the Atiyah sequence"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/equivalence-principal-connections-splittings-of-the-atiyah-sequence.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/atiyah-sequence-tpgtm0", "fiber-bundles/short-exact-sequence-of-vector-bundles", "fiber-bundles/principal-connection"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/atiyah-sequence-tpgtm0", "fiber-bundles/short-exact-sequence-of-vector-bundles", "fiber-bundles/principal-connection", "fiber-bundles/splitting-of-the-atiyah-sequence"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,12 +19,12 @@ The [[fiber-bundles/atiyah-sequence-tpgtm0|Atiyah sequence]] is the [[fiber-bund
 \]
 where \(a\) is induced by \(d\pi\).
 
-## Theorem
-
 There is a natural bijection between:
 
 - [[fiber-bundles/principal-connection|principal connections]] on \(P\), and  
 - vector bundle maps \(s:TM\to TP/G\) such that \(a\circ s=\mathrm{id}_{TM}\) (i.e. splittings of the Atiyah sequence).
+
+## The two constructions
 
 Under this bijection:
 
@@ -34,7 +34,7 @@ Under this bijection:
 
 ## Examples
 
-1. **Trivial bundle.** For \(P=M\times G\), the Atiyah algebroid is \(TP/G\cong TM\oplus(M\times\mathfrak g)\). A splitting is a bundle map \(TM\to TM\oplus(M\times\mathfrak g)\) of the form \(v\mapsto (v,-A(v))\), hence corresponds to a \(\mathfrak g\)-valued \(1\)-form \(A\), i.e. a connection.
+1. **Trivial bundle.** For \(P=M\times G\), the Atiyah algebroid is \(TP/G\cong TM\oplus(M\times\mathfrak g)\). A splitting is a bundle map \(TM\to TM\oplus(M\times\mathfrak g)\) of the form \(v\mapsto (v,A(v))\), using the negative vertical coordinate of the linked Atiyah algebroid. This corresponds to a \(\mathfrak g\)-valued \(1\)-form \(A\), i.e. a connection.
 
 2. **Frame bundle.** For \(P=\mathrm{Fr}(E)\), splittings of the Atiyah sequence correspond to covariant derivatives on \(E\) via the equivalence between principal connections on \(\mathrm{Fr}(E)\) and vector bundle connections.
 

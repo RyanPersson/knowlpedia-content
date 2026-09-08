@@ -1,8 +1,8 @@
 {
   "area": "real-analysis",
   "review_scope": "Individualized full-source semantic review through entry 200; later entries retained in triage.",
-  "reviewed": 200,
-  "corrected": 94,
+  "reviewed": 243,
+  "corrected": 113,
   "triage_records": [
     {
       "id": "real-analysis/substitution-rule",
@@ -3595,6 +3595,669 @@
       ],
       "prerequisites": [
         "shared-foundations/sequence"
+      ]
+    },
+    {
+      "id": "real-analysis/substitution-rule",
+      "outcome": "corrected",
+      "source_sha256": "5d0d344ea6009fd1ea1728d9e14ee280d1c7fb062b7a62953fb416fb15162f5a",
+      "evidence": "The formula assumes a continuous integrand and a continuously differentiable increasing substitution; the general change-of-variables, chain-rule, and FTC links explain context rather than supply the displayed hypotheses.",
+      "previous_prerequisites": [
+        "real-analysis/change-of-variables-formula",
+        "real-analysis/chain-rule",
+        "real-analysis/fundamental-theorem-of-calculus-ii"
+      ],
+      "prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/differentiability-one-variable"
+      ]
+    },
+    {
+      "id": "real-analysis/substitution-rule-for-one-variable-riemann-integrals",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7b22755bf512f6095fd7546cbe0e4d939e28e2bb8dfcec66c50c7309d6bab0bb",
+      "evidence": "The statement explicitly invokes the substitution rule, continuity of f, differentiability of the substitution, and the general change-of-variables prototype.",
+      "previous_prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/differentiability-one-variable",
+        "real-analysis/change-of-variables-formula"
+      ],
+      "prerequisites": [
+        "real-analysis/substitution-rule",
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/differentiability-one-variable",
+        "real-analysis/change-of-variables-formula"
+      ]
+    },
+    {
+      "id": "real-analysis/sufficient-condition-for-differentiability",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2adbd0a18ff0849583ce0057ed4aafbdb25b3162f0c501831a64cdcf335732ed",
+      "evidence": "The criterion assumes a function with continuous first partials and concludes Fréchet differentiability with a Jacobian linear map between Euclidean spaces, so each listed concept is part of the statement.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/partial-derivative",
+        "real-analysis/differentiable-map",
+        "real-analysis/frechet-derivative",
+        "real-analysis/jacobian-matrix",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/partial-derivative",
+        "real-analysis/differentiable-map",
+        "real-analysis/frechet-derivative",
+        "real-analysis/jacobian-matrix",
+        "linear-algebra/linear-map",
+        "linear-algebra/euclidean-space"
+      ]
+    },
+    {
+      "id": "real-analysis/sup-inf-algebra",
+      "outcome": "corrected",
+      "source_sha256": "0abba807a9f2d0d76d08c51c148a80165c1fd61a1960b975fb1486d562f60a52",
+      "evidence": "The algebra is stated for nonempty subsets with finite suprema and infima; boundedness and both extremal notions are direct inputs, while the approximation lemma is only a later application.",
+      "previous_prerequisites": [
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "shared-foundations/subset",
+        "real-analysis/bounded-above",
+        "real-analysis/bounded-below",
+        "real-analysis/supremum",
+        "real-analysis/infimum"
+      ]
+    },
+    {
+      "id": "real-analysis/supremum",
+      "outcome": "corrected",
+      "source_sha256": "e8ef10b13be8390ac0e601de98a5e5ae0d36b7dd73859e58e2ff235b189e3390",
+      "evidence": "The definition takes a nonempty set bounded above and specifies its upper bound as the least one; real numbers and upper-bound terminology are explicit, while maximum and completeness are context.",
+      "previous_prerequisites": [
+        "real-analysis/bounded-above",
+        "shared-foundations/upper-bound",
+        "shared-foundations/subset"
+      ],
+      "prerequisites": [
+        "real-analysis/bounded-above",
+        "shared-foundations/upper-bound",
+        "shared-foundations/real-numbers"
+      ]
+    },
+    {
+      "id": "real-analysis/supremum-approximation-lemma",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "38bd6ec6ba334ddb40963eef5697d48362da5bfff45ce2ade9061a6a018d6880",
+      "evidence": "The two epsilon assertions explicitly use bounded-above/supremum and the dual bounded-below/infimum setup.",
+      "previous_prerequisites": [
+        "real-analysis/bounded-above",
+        "real-analysis/supremum",
+        "real-analysis/bounded-below",
+        "real-analysis/infimum"
+      ],
+      "prerequisites": [
+        "real-analysis/bounded-above",
+        "real-analysis/supremum",
+        "real-analysis/bounded-below"
+      ]
+    },
+    {
+      "id": "real-analysis/supremum-norm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cb6036ad6e1b0db265495c116508d87dbb98ccff02687ded9486ad0ef88c9d07",
+      "evidence": "The norm is defined as the supremum of pointwise absolute values, so both listed concepts are exact defining inputs.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/supremum",
+        "real-analysis/absolute-value"
+      ],
+      "prerequisites": [
+        "real-analysis/supremum",
+        "real-analysis/absolute-value"
+      ]
+    },
+    {
+      "id": "real-analysis/tagged-partition",
+      "outcome": "corrected",
+      "source_sha256": "acb714463e2a5d80ef72cb9b2cab719499debaf6bf52799261ac3e17de5629b5",
+      "evidence": "A tagged partition is defined by a partition plus one tag in each subinterval; Riemann and Stieltjes sums are downstream uses.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval"
+      ]
+    },
+    {
+      "id": "real-analysis/taylor-polynomial",
+      "outcome": "corrected",
+      "source_sha256": "35aab6c3e89554213489aa2562b8fc44c74d9f3066e96316ad3903995cc0233b",
+      "evidence": "The displayed finite sum requires derivatives at the base point and defines a polynomial; Taylor remainder is the subsequent approximation theorem.",
+      "previous_prerequisites": [
+        "real-analysis/higher-derivatives",
+        "real-analysis/polynomial"
+      ],
+      "prerequisites": [
+        "real-analysis/higher-derivatives",
+        "real-analysis/polynomial"
+      ]
+    },
+    {
+      "id": "real-analysis/taylors-theorem-in-several-variables",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f90634af1b96944c453220905288fdc9fa45b20d9c56202b664af32f6e8a85cc",
+      "evidence": "The theorem assumes C^{k+1} regularity on a neighborhood and explicitly uses multi-index notation for the multivariable expansion.",
+      "previous_prerequisites": [
+        "real-analysis/class-ck-map",
+        "real-analysis/higher-derivatives",
+        "topology/neighborhood"
+      ],
+      "prerequisites": [
+        "real-analysis/class-ck-map",
+        "topology/neighborhood",
+        "real-analysis/multi-index-notation"
+      ]
+    },
+    {
+      "id": "real-analysis/taylors-theorem-with-remainder",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "098c2a5c43b888cfff0c99fda5ce4bc1e9edc890c014951f0068ae496a1b2a77",
+      "evidence": "The Lagrange remainder theorem explicitly assumes an interval and derivatives through order n+1, and identifies its polynomial part as a Taylor polynomial.",
+      "previous_prerequisites": [
+        "real-analysis/interval",
+        "real-analysis/higher-derivatives",
+        "real-analysis/taylor-polynomial"
+      ],
+      "prerequisites": [
+        "real-analysis/interval",
+        "real-analysis/higher-derivatives",
+        "real-analysis/taylor-polynomial"
+      ]
+    },
+    {
+      "id": "real-analysis/term-by-term-differentiation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dc45bdbf8732176ecc4c7dc6ca64deb9534b95c200eca4532c943046093bdfb1",
+      "evidence": "The theorem starts with a power series and gives its differentiated power series inside the same radius; smoothness remarks are downstream.",
+      "previous_prerequisites": [
+        "real-analysis/power-series"
+      ],
+      "prerequisites": [
+        "real-analysis/power-series"
+      ]
+    },
+    {
+      "id": "real-analysis/term-by-term-integration",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4f683af7e997f1a24ade22e776c64eacb15f4290cc808c94a902a8aa522b5daf",
+      "evidence": "The result integrates a power series and explicitly cites compact uniform convergence, interchange of uniform limits and integration, and the Riemann integral as its justification.",
+      "previous_prerequisites": [
+        "real-analysis/power-series",
+        "real-analysis/power-series-uniform-convergence-on-compacts",
+        "real-analysis/uniform-convergence-integration",
+        "real-analysis/riemann-integral"
+      ],
+      "prerequisites": [
+        "real-analysis/power-series",
+        "real-analysis/power-series-uniform-convergence-on-compacts",
+        "real-analysis/uniform-convergence-integration",
+        "real-analysis/riemann-integral"
+      ]
+    },
+    {
+      "id": "real-analysis/term-by-term-operations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "45534152114757e3e548c13441bca75772f25038dd8bdcaa38969597e3481892",
+      "evidence": "Addition, scaling, and multiplication are stated for power series, with the Cauchy product defining the multiplication coefficients.",
+      "previous_prerequisites": [
+        "real-analysis/power-series",
+        "real-analysis/cauchy-product"
+      ],
+      "prerequisites": [
+        "real-analysis/power-series",
+        "real-analysis/cauchy-product"
+      ]
+    },
+    {
+      "id": "real-analysis/terms-go-to-zero",
+      "outcome": "corrected",
+      "source_sha256": "d1c9c45484e0b402137a6bad2c50638c9afd472242bf60f8601f3dbfc1d95c34",
+      "evidence": "The assertion is the convergence/divergence condition for a series and its terms; root and ratio tests are mentioned only as later tests.",
+      "previous_prerequisites": [
+        "real-analysis/convergent-series",
+        "topology/convergent-sequence"
+      ],
+      "prerequisites": [
+        "real-analysis/series",
+        "real-analysis/convergent-series",
+        "real-analysis/divergent-series"
+      ]
+    },
+    {
+      "id": "real-analysis/total-boundedness-epsilon-nets",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4d769fd28573291f2308dbde00513c94781fc7a1897dba00a7044e245e92a1d8",
+      "evidence": "The equivalence is formulated in a metric space using open balls and the notion of total boundedness.",
+      "previous_prerequisites": [
+        "topology/totally-bounded-set",
+        "topology/open-ball"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/open-ball",
+        "topology/totally-bounded-set"
+      ]
+    },
+    {
+      "id": "real-analysis/total-derivative-frechet-derivative",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "09fba11e6e64e0a9271eaa5dc8b298409f2d1c6f11ba1a53580cde13c11c5ecc",
+      "evidence": "The definition is for a map on an open set, with a linear derivative represented by the Jacobian and related to partial derivatives.",
+      "previous_prerequisites": [
+        "topology/open-set",
+        "linear-algebra/linear-map",
+        "real-analysis/jacobian-matrix",
+        "real-analysis/partial-derivative"
+      ],
+      "prerequisites": [
+        "topology/open-set",
+        "linear-algebra/linear-map",
+        "real-analysis/jacobian-matrix",
+        "real-analysis/partial-derivative"
+      ]
+    },
+    {
+      "id": "real-analysis/total-variation",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df7f97875a0e29f202fe1ad24dc76a1519502b8097606f833b4d873f1b330d5f",
+      "evidence": "Total variation is the supremum of increment sums over interval partitions; bounded variation and monotonicity are remarks.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/supremum",
+        "real-analysis/absolute-value"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval"
+      ]
+    },
+    {
+      "id": "real-analysis/triangle-inequality",
+      "outcome": "corrected",
+      "source_sha256": "0576ff311bc2d40cb07b3e2caeceba2b77d37c92cff1cf978815f1249a921f64",
+      "evidence": "The primary statement is the metric triangle inequality; the normed-space form is an equivalent contextual example.",
+      "previous_prerequisites": [
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-cauchy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1fdc9d0fb652533b60379d2841b26930e4ccfd04c88dea79c42dd30c86e4ddae",
+      "evidence": "The uniform Cauchy condition is defined by distances in the target metric; completeness and uniform convergence occur only in remarks.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-cauchy-iff-uniform-convergence",
+      "outcome": "corrected",
+      "source_sha256": "65f1ee962a8d575ce62b627ff2ab5185f3faf7e1ec6c36b149862dafbd4b978e",
+      "evidence": "The criterion assumes a complete metric target and equates uniform convergence with the uniform Cauchy condition, also stating the equivalent uniform-metric and bounded supremum-norm formulations.",
+      "previous_prerequisites": [
+        "topology/complete-metric-space",
+        "real-analysis/uniform-convergence",
+        "real-analysis/uniform-cauchy"
+      ],
+      "prerequisites": [
+        "topology/complete-metric-space",
+        "real-analysis/uniform-convergence",
+        "real-analysis/uniform-cauchy",
+        "real-analysis/uniform-metric",
+        "real-analysis/supremum-norm"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-continuity",
+      "outcome": "corrected",
+      "source_sha256": "8cfff5a09da9df7c83632a90e6616570ada7e9689aae4ae009791d7eed5bf470",
+      "evidence": "The source contrasts the definition with ordinary continuity on the set; compactness and completeness occur only in the Heine–Cantor and Cauchy-sequence remarks.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/subset",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "real-analysis/continuity-on-a-set"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-continuity-preserves-cauchy",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1060ce149b5de705c9056fb5ad0c263ae30adb0d6960e26b0e08c85d58b05d32",
+      "evidence": "The proposition assumes metric spaces, uniform continuity, and a Cauchy input sequence, then concludes the image sequence is Cauchy.",
+      "previous_prerequisites": [
+        "real-analysis/uniform-continuity",
+        "topology/cauchy-sequence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "real-analysis/uniform-continuity",
+        "topology/cauchy-sequence"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence",
+      "outcome": "corrected",
+      "source_sha256": "17fb3a7784f053e8e9181f110bf0cb85bca32b9333385a28a540d65f04defacd",
+      "evidence": "Uniform convergence is defined for metric-valued functions; pointwise convergence, uniform metric, supremum norm, and continuity preservation are consequences or comparisons.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "shared-foundations/sequence",
+        "topology/metric-space"
+      ],
+      "prerequisites": [
+        "topology/metric-space"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence-differentiation",
+      "outcome": "corrected",
+      "source_sha256": "9388bca625972e92afa026b8200fbf62b482bdf853e04b6a5493d0d6ed461643",
+      "evidence": "The theorem assumes continuity on the closed interval, differentiability inside it, and uniform convergence of derivatives, then identifies the limiting derivative; continuity-preservation links are explanatory.",
+      "previous_prerequisites": [
+        "real-analysis/differentiability-1d",
+        "real-analysis/uniform-convergence",
+        "real-analysis/derivative",
+        "real-analysis/differentiability-implies-continuity",
+        "real-analysis/uniform-limit-of-continuous-is-continuous"
+      ],
+      "prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/differentiability-1d",
+        "real-analysis/uniform-convergence",
+        "real-analysis/derivative"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence-implies-pointwise",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "30e6fedd4f3726257b8a74665018c19b2fe927881ae5d779c48ba4145e9b6f7c",
+      "evidence": "The proposition directly relates the two stated modes of convergence.",
+      "previous_prerequisites": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/pointwise-convergence"
+      ],
+      "prerequisites": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/pointwise-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence-integration",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "cc889856bda52d5a1c285add64218885d2a74efa54491ee2462a22558811cef6",
+      "evidence": "The theorem defines partial sums of Riemann-integrable functions, assumes their uniform convergence, and concludes integrability and convergence of the integrals.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/uniform-convergence"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/partial-sums",
+        "real-analysis/uniform-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence-of-a-sequence-of-functions",
+      "outcome": "corrected",
+      "source_sha256": "a575144b9630357f7f0028492265f136fd387bdaa20a7f780d66c1dc98965cff",
+      "evidence": "The definition requires a domain set, a metric codomain, and the equivalent supremum error expression; continuity and pointwise convergence are comparisons.",
+      "previous_prerequisites": [
+        "shared-foundations/set",
+        "topology/metric-space",
+        "real-analysis/supremum",
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/pointwise-convergence"
+      ],
+      "prerequisites": [
+        "shared-foundations/set",
+        "topology/metric-space",
+        "real-analysis/supremum"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence-on-compact-sets",
+      "outcome": "corrected",
+      "source_sha256": "64e9f433646f0f386ef5d6300e8a095ff3b17f16a0c237856ef1457156bee4a3",
+      "evidence": "The definition quantifies over compact subsets of a metric domain, restricts the functions to each compact set, and requires uniform convergence there; power-series examples are applications.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "real-analysis/uniform-convergence",
+        "shared-foundations/restriction-of-a-function"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/compact-set",
+        "real-analysis/uniform-convergence",
+        "shared-foundations/restriction-of-a-function"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence-preserves-boundedness",
+      "outcome": "corrected",
+      "source_sha256": "79dc3534e6c4c85ef8f224387a75553c826b7bc8de2d1f377181734fe5fa1853",
+      "evidence": "The theorem assumes uniform convergence of bounded functions and concludes a uniformly bounded family; the supremum norm is only a common reformulation.",
+      "previous_prerequisites": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/uniformly-bounded-family",
+        "real-analysis/uniform-convergence-supnorm"
+      ],
+      "prerequisites": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/uniformly-bounded-family"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-convergence-supnorm",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f391e945c763b18ac31c1d015a5629267e61a1636f302bffad056a12cf2e1fee",
+      "evidence": "The equivalence directly identifies uniform convergence with convergence in the supremum norm for bounded real-valued functions.",
+      "previous_prerequisites": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/supremum-norm"
+      ],
+      "prerequisites": [
+        "real-analysis/uniform-convergence",
+        "real-analysis/supremum-norm"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-limit-of-continuous-is-continuous",
+      "outcome": "corrected",
+      "source_sha256": "720e15e64c5eb51887dcd0c26597a0aac91cd5dddc031da3a0a7c8f265bcd720",
+      "evidence": "The theorem assumes metric spaces, continuous component functions, and uniform convergence; pointwise convergence is only the comparison in the explanation.",
+      "previous_prerequisites": [
+        "topology/metric-space",
+        "topology/continuous-map",
+        "real-analysis/uniform-convergence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/continuous-map",
+        "real-analysis/uniform-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-limit-of-integrable-functions",
+      "outcome": "corrected",
+      "source_sha256": "e35f7b404c398403f73242ac6f985b52b1c4a412bdc4f659d565636cd8eafea6",
+      "evidence": "The main result assumes Riemann integrability and uniform convergence and concludes integrability; interchange of limits and integrals is an additional consequence.",
+      "previous_prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/uniform-convergence",
+        "real-analysis/riemann-integral"
+      ],
+      "prerequisites": [
+        "real-analysis/riemann-integrable-function",
+        "real-analysis/uniform-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-limit-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1f35f3f188f863774dac44e034788a58ed31fef63a71655414299179b9ec6e21",
+      "evidence": "The theorem explicitly assumes a metric codomain, continuous functions, and uniform convergence.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "real-analysis/uniform-convergence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "topology/continuous-map",
+        "real-analysis/uniform-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-limit-theorem-for-continuity",
+      "outcome": "corrected",
+      "source_sha256": "3338ffe87069dbb18407217e682ad0c739fcba7df2de55ba22809c32995298eb",
+      "evidence": "The statement assumes metric spaces, continuous functions on the source, and uniform convergence; pointwise convergence is only a comparison.",
+      "previous_prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/uniform-convergence"
+      ],
+      "prerequisites": [
+        "topology/metric-space",
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/uniform-convergence-of-a-sequence-of-functions"
+      ]
+    },
+    {
+      "id": "real-analysis/uniform-metric",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c26d98f433f904f66ebb360e947d130c0228c9831fa7c47087fd6afc57c3e5ea",
+      "evidence": "The uniform metric is defined as the supremum norm of a difference; metric and convergence consequences are explained afterward.",
+      "previous_prerequisites": [
+        "real-analysis/supremum-norm"
+      ],
+      "prerequisites": [
+        "real-analysis/supremum-norm"
+      ]
+    },
+    {
+      "id": "real-analysis/uniformly-bounded-family",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1c579d402a24893e1896767059aecb3bc6d7ebc0a651e2e116752fefc4239b1e",
+      "evidence": "The family definition includes the equivalent supremum-norm bound, making the listed norm concept direct.",
+      "previous_prerequisites": [
+        "shared-foundations/function",
+        "real-analysis/absolute-value"
+      ],
+      "prerequisites": [
+        "real-analysis/supremum-norm"
+      ]
+    },
+    {
+      "id": "real-analysis/uniqueness-of-sup-inf",
+      "outcome": "corrected",
+      "source_sha256": "2d6003193de50c6e5c44a721177b4106385f02996e416a43da2896bbc5fa7314",
+      "evidence": "Uniqueness follows from the definitions of supremum and infimum; completeness only guarantees existence and is not needed for uniqueness.",
+      "previous_prerequisites": [
+        "real-analysis/supremum",
+        "real-analysis/infimum",
+        "real-analysis/completeness-axiom"
+      ],
+      "prerequisites": [
+        "real-analysis/supremum",
+        "real-analysis/infimum"
+      ]
+    },
+    {
+      "id": "real-analysis/upper-sum",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c5c6c385176c25266987a4d89705430e3ea977f9fe8545da2e35bd7d58ca8cfc",
+      "evidence": "The upper sum is defined from a partition and the supremum on each subinterval.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/supremum"
+      ]
+    },
+    {
+      "id": "real-analysis/upper-sum-riemann",
+      "outcome": "corrected",
+      "source_sha256": "841e6edd8569626f15a85bd0762fc38802fa98b5f686c743cee77d50e2ef7428",
+      "evidence": "This duplicate definition explicitly identifies its quantity as the upper sum, so the canonical upper-sum knowl is the direct prerequisite.",
+      "previous_prerequisites": [
+        "real-analysis/partition-of-an-interval",
+        "real-analysis/supremum"
+      ],
+      "prerequisites": [
+        "real-analysis/upper-sum"
+      ]
+    },
+    {
+      "id": "real-analysis/weierstrass-approximation-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "63cccab0fd4ec99223c26269bbfaf393264bcf3693df76f7d520e21828b4f1b8",
+      "evidence": "The theorem states uniform polynomial approximation of a continuous function and gives the equivalent density formulation in the continuous-function space and supremum norm.",
+      "previous_prerequisites": [
+        "topology/continuous-map",
+        "real-analysis/polynomial",
+        "real-analysis/space-of-continuous-functions",
+        "real-analysis/supremum-norm",
+        "real-analysis/uniform-convergence"
+      ],
+      "prerequisites": [
+        "topology/continuous-map",
+        "real-analysis/polynomial",
+        "real-analysis/space-of-continuous-functions",
+        "real-analysis/supremum-norm",
+        "real-analysis/uniform-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/weierstrass-m-test",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3550a41fb25be887ad63fbf0a13959419a290fe491444882740e23a7e9b5d835",
+      "evidence": "The M-test assumes a convergent numerical majorant for a series of functions and concludes uniform convergence.",
+      "previous_prerequisites": [
+        "real-analysis/convergent-series",
+        "real-analysis/series-of-functions",
+        "real-analysis/uniform-convergence"
+      ],
+      "prerequisites": [
+        "real-analysis/convergent-series",
+        "real-analysis/series-of-functions",
+        "real-analysis/uniform-convergence"
+      ]
+    },
+    {
+      "id": "real-analysis/zero-derivative-constant-corollary",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "2fd1d522b56c88225b3ba581492a46df5d326f7338bffade01991f38599993c5",
+      "evidence": "The corollary assumes continuity and differentiability and explicitly derives constancy by applying the mean value theorem.",
+      "previous_prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/differentiability-one-variable",
+        "real-analysis/mean-value-theorem"
+      ],
+      "prerequisites": [
+        "real-analysis/continuity-on-a-set",
+        "real-analysis/differentiability-one-variable",
+        "real-analysis/mean-value-theorem"
       ]
     }
   ]

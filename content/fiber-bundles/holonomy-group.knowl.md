@@ -6,14 +6,14 @@ summary = "The subgroup of the structure group obtained by parallel transport ar
 aliases = ["holonomy-group", "Holonomy group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/holonomy-group.md"
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/horizontal-lift-of-a-curve"]
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/horizontal-lift-of-a-curve", "algebra-groups/subgroup"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a principal \(G\)-bundle equipped with a [[fiber-bundles/principal-connection|principal connection]]. Fix a point \(p\in P\) and set \(x=\pi(p)\in M\).
 
-For a piecewise smooth loop \(\gamma:[0,1]\to M\) with \(\gamma(0)=\gamma(1)=x\), let \(\widetilde\gamma:[0,1]\to P\) be the horizontal lift starting at \(p\) (i.e. \(\widetilde\gamma(0)=p\) and \(\dot{\widetilde\gamma}(t)\in H_{\widetilde\gamma(t)}\) for all \(t\)). Since \(\widetilde\gamma(1)\) lies in the same fiber as \(p\), there is a unique \(g_\gamma\in G\) such that
+For a piecewise smooth loop \(\gamma:[0,1]\to M\) with \(\gamma(0)=\gamma(1)=x\), let \(\widetilde\gamma:[0,1]\to P\) be the horizontal lift starting at \(p\) (i.e. \(\widetilde\gamma(0)=p\) and \(\dot{\widetilde\gamma}(t)\in H_{\widetilde\gamma(t)}\) on each smooth piece). Since \(\widetilde\gamma(1)\) lies in the same fiber as \(p\), there is a unique \(g_\gamma\in G\) such that
 \[
 \widetilde\gamma(1)=p\cdot g_\gamma.
 \]
@@ -24,6 +24,10 @@ The **holonomy group at \(p\)** is
 \]
 
 If \(p' = p\cdot h\) is another point in the same fiber, then \(\mathrm{Hol}_{p'} = h^{-1}\mathrm{Hol}_p\,h\); thus the holonomy group is well-defined up to conjugacy inside \(G\).
+
+## Lie-group structure
+
+The holonomy group has a natural immersed Lie-group structure. It need not be closed in \(G\); this Lie-group structure must not be replaced by the topology of its closure in \(G\). Its identity component in this structure is the restricted holonomy group.
 
 ## Equivalent characterizations
 

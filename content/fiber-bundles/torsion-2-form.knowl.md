@@ -6,7 +6,7 @@ summary = "The R^n-valued 2-form on a frame bundle that measures failure of a co
 aliases = ["torsion-2-form", "Torsion 2-form"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/torsion-2-form.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/solder-form-on-the-frame-bundle", "fiber-bundles/principal-connection"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/solder-form-on-the-frame-bundle", "fiber-bundles/principal-connection", "fiber-bundles/exterior-derivative", "fiber-bundles/wedge-product-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,6 @@ Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifol
 
 Fix a [[fiber-bundles/principal-connection|principal connection]] on \(FM\), with connection 1-form \(\omega\) valued in \(\mathfrak{gl}(n,\mathbb{R})\).
 
-## Definition (Torsion 2-form)
 The **torsion 2-form** of \(\omega\) is the \(\mathbb{R}^n\)-valued 2-form
 \[
 \Theta \in \Omega^2(FM;\mathbb{R}^n)
@@ -25,6 +24,8 @@ defined by the (first) Cartan structure equation
 \Theta := d\theta + \omega \wedge \theta.
 \]
 Here \(\omega\wedge\theta\) denotes the natural action of \(\mathfrak{gl}(n,\mathbb{R})\) on \(\mathbb{R}^n\) combined with the wedge product of differential forms.
+
+## Torsion tensor on the base
 
 This torsion form corresponds on the base to the torsion tensor of the induced connection \(\nabla\) on \(TM\):
 \[

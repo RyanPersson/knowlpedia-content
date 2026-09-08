@@ -6,16 +6,20 @@ summary = "The affine algebraic set parameterizing homomorphisms from a finitely
 aliases = ["homomorphism variety", "G-representation variety"]
 domains = ["fiber-bundles", "algebraic-geometry-foundations", "lie-groups"]
 section_mode = "progressive"
-prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "algebra-groups/group-homomorphism"]
+prerequisites = ["algebraic-geometry-foundations/algebraically-closed-field", "algebraic-geometry-foundations/algebraic-group", "algebraic-geometry-foundations/affine-scheme", "algebra-groups/group-presentation", "algebra-groups/group-homomorphism", "algebra-rings/quotient-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] of characteristic zero, \(\Gamma\) a finitely presented group, and \(G\) an affine algebraic group over \(k\). The **\(G\)-representation variety** of \(\Gamma\) is
+Let \(k\) be an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]] of characteristic zero, \(\Gamma\) a finitely presented group, and \(G\) an affine algebraic group over \(k\). For a finite presentation
 \[
-\operatorname{Hom}(\Gamma,G),
+\Gamma=\langle\gamma_1,\ldots,\gamma_r\mid R_1,\ldots,R_s\rangle,
 \]
-the set of [[algebra-groups/group-homomorphism|group homomorphisms]] \(\rho:\Gamma\to G\), equipped with its natural affine algebraic-set structure.
+the **\(G\)-representation scheme** \(\operatorname{Hom}(\Gamma,G)\) is the closed \(k\)-subscheme of \(G^r\) defined by
+\[
+R_j(g_1,\ldots,g_r)=e_G,\qquad 1\leq j\leq s.
+\]
+For each commutative \(k\)-algebra \(B\), its \(B\)-points are \(\operatorname{Hom}(\Gamma,G(B))\). In particular, its \(k\)-points are the set of [[algebra-groups/group-homomorphism|group homomorphisms]] \(\rho:\Gamma\to G(k)\). If the representing coordinate ring is \(C\), the **representation variety** is the reduced affine scheme \(\operatorname{Spec}(C/\sqrt{(0)})\), with its classical \(k\)-points. The full representation scheme can retain nilpotent structure. Here \(\sqrt{(0)}\) consists of the nilpotent elements of \(C\).
 
 ## Coordinates
 
@@ -25,17 +29,9 @@ After choosing generators \(\gamma_1,\ldots,\gamma_r\), a representation is iden
 \]
 and the relations in \(\Gamma\) cut out \(\operatorname{Hom}(\Gamma,G)\) by polynomial equations.
 
-## Presentation model
+## Independence of presentation
 
-For a finite presentation
-\[
-\Gamma=\langle\gamma_1,\ldots,\gamma_r\mid R_1,\ldots,R_s\rangle,
-\]
-the representation variety is the common zero locus of
-\[
-R_j(g_1,\ldots,g_r)=e_G,\qquad 1\leq j\leq s,
-\]
-inside \(G^r\). Changing the finite presentation changes this embedding but not the represented affine functor.
+Changing the finite presentation changes the embedding into a power of the group, but gives an isomorphic representing scheme: its functor sends a commutative \(k\)-algebra \(B\) to \(\operatorname{Hom}(\Gamma,G(B))\). The reduced variety records the classical reduced geometry; it need not represent the same functor on nonreduced test algebras.
 
 ## Conjugation and moduli
 
@@ -43,11 +39,11 @@ The group \(G\) acts on \(\operatorname{Hom}(\Gamma,G)\) by
 \[
 (g\cdot\rho)(\gamma)=g\rho(\gamma)g^{-1}.
 \]
-Orbits are isomorphism classes of representations with a chosen target \(G\). The affine quotient of this action, under reductivity hypotheses, is the [[fiber-bundles/character-variety|character variety]]. The representation variety itself retains stabilizers, nonclosed orbits, and singularities that a quotient can obscure.
+Orbits are isomorphism classes of representations with a chosen target \(G\). The affine quotient of this action, under reductivity hypotheses, is the [[fiber-bundles/character-variety|character variety]]. The representation variety together with this action records stabilizers and nonclosed orbits that the affine quotient can obscure.
 
 ## Examples and scope
 
-For the [[algebra-groups/free-group|free group]] \(F_r\), there are no relations, so \(\operatorname{Hom}(F_r,G)\cong G^r\). If \(\Gamma=\pi_1(M,x)\), its points include the [[fiber-bundles/holonomy-representation|holonomy representations]] of flat principal \(G\)-connections.
+For the [[algebra-groups/free-group|free group]] \(F_r\), there are no relations, so \(\operatorname{Hom}(F_r,G)\cong G^r\). For \(k=\mathbb C\) and \(\Gamma=\pi_1(M,x)\) finitely presented, its points include the [[fiber-bundles/holonomy-representation|holonomy representations]] of flat principal \(G(\mathbb C)\)-connections.
 
 **Warning.** For a merely topological or [[fiber-bundles/lie-group|Lie group]] \(G\), \(\operatorname{Hom}(\Gamma,G)\) can be given a topology or analytic structure, but it is not automatically an algebraic variety.
 

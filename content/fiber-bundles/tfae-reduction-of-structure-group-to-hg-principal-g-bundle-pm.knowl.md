@@ -6,14 +6,13 @@ summary = "Reduction of a principal G bundle to a subgroup H is equivalent to an
 aliases = ["tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm", "Equivalent conditions for reduction of structure group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/lie-subgroup", "fiber-bundles/reduction-of-structure-group", "fiber-bundles/principal-h-subbundle", "fiber-bundles/extension-of-structure-group", "fiber-bundles/principal-bundle-transition-function", "fiber-bundles/associated-bundle", "fiber-bundles/section-of-a-fiber-bundle", "lie-groups/homogeneous-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(H\subset G\) be a Lie subgroup (see [[lie-groups/lie-subgroup|Lie subgroup]]). A **reduction of structure group to \(H\)** means, informally, that \(P\) can be described using \(H\) as the structure group instead of \(G\) (see [[fiber-bundles/reduction-of-structure-group|reduction of structure group]]).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(H\subset G\) be a closed Lie subgroup (see [[lie-groups/lie-subgroup|Lie subgroup]]). A **reduction of structure group to \(H\)** means, informally, that \(P\) can be described using \(H\) as the structure group instead of \(G\) (see [[fiber-bundles/reduction-of-structure-group|reduction of structure group]]).
 
-## Theorem (TFAE: reduction to H)
 The following are equivalent:
 
 1. (**Principal H-subbundle**)  

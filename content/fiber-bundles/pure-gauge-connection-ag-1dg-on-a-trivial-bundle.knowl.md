@@ -6,7 +6,7 @@ summary = "A flat connection obtained from the zero connection by a global gauge
 aliases = ["pure-gauge-connection-ag-1dg-on-a-trivial-bundle", "Pure gauge connection on a trivial bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/pure-gauge-connection-ag-1dg-on-a-trivial-bundle.md"
-prerequisites = ["fiber-bundles/principal-connection"]
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/trivial-principal-bundle-mgm", "fiber-bundles/smooth-map", "lie-groups/left-maurer-cartan-form", "fiber-bundles/pullback-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -15,7 +15,7 @@ Let \(P=M\times G\to M\) be a trivial principal bundle, where \(G\) is a Lie gro
 \[
 A := g^{-1}dg \in \Omega^1(M;\mathfrak g),
 \]
-the pullback of the left Maurer–Cartan form along \(g\). With the stated gauge convention, it is the transform of the product connection \(A=0\).
+the [[fiber-bundles/pullback-of-differential-forms|pullback]] of the [[lie-groups/left-maurer-cartan-form|left Maurer–Cartan form]] along \(g\). With the stated gauge convention, it is the transform of the product connection \(A=0\).
 
 ## Flatness
 Viewed as the local gauge potential of a [[fiber-bundles/principal-connection|principal connection]] on \(M\times G\), the curvature is
@@ -28,7 +28,7 @@ In particular, their holonomy is trivial up to the natural basepoint identificat
 
 ## Examples
 1. **Abelian case.**
-   For \(G=U(1)\), write \(g=e^{if}\) for a smooth real-valued function \(f\) (locally or globally when possible). Then \(A\) is (up to the conventional factor of \(i\)) the 1-form \(df\), and the curvature vanishes because \(d(df)=0\).
+   For \(G=U(1)\), write \(g=e^{if}\) for a smooth real-valued function \(f\) (locally or globally when possible). Then \(A=i\,df\), and the curvature vanishes because \(d(df)=0\).
 
 2. **Matrix groups.**
    For \(G=\mathrm{GL}(n,\mathbb R)\) and a smooth map \(g:M\to \mathrm{GL}(n,\mathbb R)\), the potential is the matrix-valued 1-form \(A=g^{-1}dg\), flat by the same identity.

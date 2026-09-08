@@ -6,26 +6,15 @@ summary = "A space whose homotopy classes of maps from a base classify principal
 aliases = ["classifying-space-bg", "Classifying space BG"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/classifying-space-bg.md"
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/paracompact-topological-space"]
+prerequisites = ["topology/topological-group", "fiber-bundles/universal-principal-bundle-egbg"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] (more generally, a reasonable topological group).
-
-## Definition (universal bundle and classifying space)
-A **classifying space** \(BG\) for \(G\) is a space equipped with a principal \(G\)-bundle
-\[
-EG \longrightarrow BG
-\]
-such that:
-- \(EG\) is contractible, and
-- \(G\) acts freely on \(EG\) with quotient \(BG=EG/G\).
-
-The bundle \(EG\to BG\) is called the **universal principal \(G\)-bundle**.
+Let \(G\) be a [[topology/topological-group|topological group]]. A **classifying space** \(BG\) for \(G\) is the base of a [[fiber-bundles/universal-principal-bundle-egbg|universal principal bundle]] \(EG\to BG\): the bundle is numerable, \(EG\) is contractible, and pullback classifies numerable principal \(G\)-bundles by continuous maps into \(BG\) up to homotopy. In particular, \(BG=EG/G\) with its quotient topology. The defining bundle data and universal property are those of the linked universal-bundle definition.
 
 ## Classification theorem
-If \(B\) is a [[fiber-bundles/paracompact-topological-space|paracompact topological space]] (in particular, if \(B\) is a paracompact smooth manifold), then isomorphism classes of [[fiber-bundles/principal-g-bundle|principal G-bundles]] over \(B\) are in natural bijection with homotopy classes of maps \([B,BG]\).
+If \(B\) is a [[fiber-bundles/paracompact-topological-space|paracompact topological space]] that is Hausdorff (in particular, if \(B\) is a paracompact smooth manifold), then isomorphism classes of [[fiber-bundles/topological-principal-bundle|topological principal G-bundles]] over \(B\) are in natural bijection with homotopy classes of maps \([B,BG]\).
 
 Concretely:
 - given a map \(f:B\to BG\), the pullback bundle \(f^*(EG)\to B\) is a principal \(G\)-bundle;

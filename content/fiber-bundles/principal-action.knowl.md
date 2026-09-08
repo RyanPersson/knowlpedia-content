@@ -6,14 +6,16 @@ summary = "A smooth action that is both free and proper."
 aliases = ["principal-action", "Principal action"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/principal-action.md"
-prerequisites = ["algebra-groups/free-action", "lie-groups/proper-action-lie"]
+prerequisites = ["algebra-groups/free-action", "lie-groups/proper-action-lie", "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) act smoothly on a manifold \(M\).
+Let a Lie group \(G\) act smoothly on a manifold \(M\).
 
 A **principal action** is an action that is simultaneously a [[algebra-groups/free-action|free action]] and a [[lie-groups/proper-action-lie|proper action]].
+
+For a left action, the associated principal right action is \(x\cdot g=g^{-1}\cdot x\).
 
 ## Equivalent characterizations
 Equivalently, a principal action is precisely the hypothesis under which the orbit space carries a canonical smooth structure making the projection \(M\to M/G\) into a [[fiber-bundles/principal-g-bundle|principal G-bundle]] (see [[fiber-bundles/quotient-manifold|quotient manifold]]).

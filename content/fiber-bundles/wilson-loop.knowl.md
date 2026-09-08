@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with [[fiber-bundles/principal-connection|connection]] \(A\), let \(\rho:G\to\operatorname{GL}(V)\) be a finite-dimensional [[lie-groups/representation-of-a-lie-group|representation]], and let \(\gamma\) be a piecewise smooth closed loop based at \(x\). Choosing \(p\in P_x\), [[fiber-bundles/parallel-transport|parallel transport]] around \(\gamma\) gives a holonomy element \(h_{A,\gamma,p}\in G\). The **Wilson loop in the representation \(\rho\)** is
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with [[fiber-bundles/principal-connection|connection]] \(A\), let \(\rho:G\to\operatorname{GL}(V)\) be a finite-dimensional smooth real or complex [[lie-groups/representation-of-a-lie-group|representation]], and let \(\gamma\) be a piecewise smooth closed loop based at \(x\). Choosing \(p\in P_x\), [[fiber-bundles/parallel-transport|parallel transport]] around \(\gamma\) gives a holonomy element \(h_{A,\gamma,p}\in G\). The **Wilson loop in the representation \(\rho\)** is
 \[
 W_{\rho,\gamma}(A)
 :=

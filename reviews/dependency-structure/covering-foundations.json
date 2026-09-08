@@ -1,0 +1,38 @@
+{
+  "reviews": [
+    {
+      "id": "topology/covering-space",
+      "scope": "foundation",
+      "outcome": "corrected",
+      "source_sha256": "7141d0410eaa69bd82dc704f8a8c12dfe5aaaaddb593048307e04383f4dd69c0",
+      "evidence": "Added the complete covering-space definition with continuous surjection, evenly covered neighborhoods, disjoint open sheets, and sheetwise homeomorphisms. The entry distinguishes coverings from local homeomorphisms and gives the product and exponential examples. Root independent fullsource check: all evenlycovering axioms or simplyconnectedcover definition retainedopening. Consequences separated; nonempty discrete productfiber required forsurjection. Universalexistence localhypotheses anddeckconvention qualification verified.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism"
+      ],
+      "sources": [
+        "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=56"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "topology/universal-cover",
+      "scope": "foundation",
+      "outcome": "corrected",
+      "source_sha256": "43522a8785ead8156698f6b45018bbb37c250263c2ce83838bb8aefa76c7e4d5",
+      "evidence": "Added the universal-cover definition requiring a connected simply connected total space over a covering map, the standard existence hypotheses for connected locally path-connected semilocally simply connected bases, and the smooth-manifold special case. Deck-group identification is explicitly qualified by action and basepoint conventions. Root independent fullsource check: all evenlycovering axioms or simplyconnectedcover definition retainedopening. Consequences separated; nonempty discrete productfiber required forsurjection. Universalexistence localhypotheses anddeckconvention qualification verified.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/covering-space",
+        "topology/simply-connected-space"
+      ],
+      "sources": [
+        "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=60"
+      ],
+      "unresolved": []
+    }
+  ],
+  "triage_records": []
+}

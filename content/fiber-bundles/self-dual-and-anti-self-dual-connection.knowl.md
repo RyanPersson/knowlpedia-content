@@ -6,7 +6,7 @@ summary = "A connection on an oriented Riemannian four-manifold whose curvature 
 aliases = ["self-dual connection", "anti-self-dual connection", "SD connection", "ASD connection"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "differential-geometry/hodge-star-operator", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/vector-bundle-valued-differential-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -21,6 +21,8 @@ and **anti-self-dual** if
 \]
 Equivalently, \(F_A\) lies in the \(+1\) or \(-1\) eigenbundle of the Hodge star. Reversing the orientation interchanges the two conditions.
 
+
+Here \(F_A\) denotes the base-valued curvature: if \(\Omega_A\) is the principal curvature on \(P\), then \(F_A(x)(v,w)=[p,\Omega_A(\widetilde v,\widetilde w)]\in\operatorname{ad}(P)_x\), with \(p\in P_x\) and any lifts of \(v,w\). Horizontality and equivariance make this independent of the choices. The Hodge star acts on the differential-form factor.
 ## Why these connections are Yang–Mills
 
 The [[fiber-bundles/bianchi-identity|Bianchi identity]] gives \(d_AF_A=0\). If \(*F_A=\pm F_A\), it follows that \(d_A(*F_A)=0\), which is the [[fiber-bundles/yangmills-equation|Yang–Mills equation]] in the convention \(d_A(*F_A)=0\). Thus every self-dual or anti-self-dual connection is a [[fiber-bundles/yangmills-connection|Yang–Mills connection]]. The converse is false: the Yang–Mills equation is second order in the connection, whereas the self-duality equations impose the stronger first-order curvature condition.

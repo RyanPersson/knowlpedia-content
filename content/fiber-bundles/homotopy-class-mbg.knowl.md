@@ -6,20 +6,21 @@ summary = "The set of homotopy classes of continuous maps from a manifold M to t
 aliases = ["homotopy-class-mbg", "Homotopy class [M,BG]"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/homotopy-class-mbg.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group"]
+prerequisites = ["fiber-bundles/smooth-manifold", "topology/topological-group", "fiber-bundles/classifying-space-bg", "topology/homotopy", "topology/continuous-map", "shared-foundations/quotient-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(BG\) be the classifying space associated to a [[fiber-bundles/lie-group|Lie group]] \(G\).
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(BG\) be the classifying space associated to a [[topology/topological-group|topological group]] \(G\).
 
-## Definition (Homotopy classes of maps into BG)
 The notation **[M,BG]** denotes the set of (unbased) homotopy classes of continuous maps \(f\colon M\to BG\).
 
 Concretely, two maps \(f_0,f_1\colon M\to BG\) define the same element of [M,BG] if there exists a continuous homotopy
 \[
 H\colon M\times [0,1] \to BG,\qquad H(\cdot,0)=f_0,\; H(\cdot,1)=f_1.
 \]
+
+## Functoriality and bundle classification
 
 If \(\phi\colon M'\to M\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]], then precomposition induces a bijection
 \[

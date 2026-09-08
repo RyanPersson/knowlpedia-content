@@ -6,7 +6,7 @@ summary = "A section along a curve whose covariant derivative along the curve va
 aliases = ["parallel-section-along-a-curve", "Parallel section along a curve"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/parallel-section-along-a-curve.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/smooth-map"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/smooth-map", "fiber-bundles/pullback-connection-on-a-vector-bundle", "fiber-bundles/pullback-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -20,8 +20,8 @@ A section \(s\) along \(\gamma\) is called **parallel along \(\gamma\)** if its 
 \frac{D s}{dt}(t)=0 \quad \text{for all } t\in I.
 \]
 
-## Equivalent characterizations
-Equivalently: given \(t_0\in I\) and \(v_0\in E_{\gamma(t_0)}\), there is a unique parallel section \(s\) along \(\gamma\) with \(s(t_0)=v_0\). The resulting identification of fibers is the [[fiber-bundles/parallel-transport|parallel transport]] determined by \(\nabla\) along \(\gamma\).
+## Existence and uniqueness
+Given \(t_0\in I\) and \(v_0\in E_{\gamma(t_0)}\), there is a unique parallel section \(s\) along \(\gamma\) with \(s(t_0)=v_0\). The resulting identification of fibers is the [[fiber-bundles/parallel-transport|parallel transport]] determined by \(\nabla\) along \(\gamma\).
 
 ## Examples
 1. **Trivial bundle over an interval.** Let \(E=I\times \mathbb{R}^n\to I\) with the standard (componentwise) connection. A section along the identity curve \(\gamma(t)=t\) is a map \(s(t)=(t,v(t))\). The parallel condition is \(v'(t)=0\), so parallel sections are exactly the constant vectors \(v(t)\equiv v_0\).

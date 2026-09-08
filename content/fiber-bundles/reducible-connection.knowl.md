@@ -6,7 +6,7 @@ summary = "A connection whose gauge stabilizer is larger than the unavoidable ce
 aliases = ["reducible gauge field", "connection with noncentral stabilizer"]
 domains = ["fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-transformation"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-transformation", "algebra-groups/center-of-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -19,13 +19,13 @@ Equivalently, there is a [[fiber-bundles/gauge-transformation|gauge transformati
 
 ## Holonomy and preserved reductions
 
-Evaluation at a point identifies the stabilizer with the [[algebra-groups/centralizer|centralizer]] of the [[fiber-bundles/holonomy-group|holonomy group]]. Thus \(A\) is reducible exactly when the holonomy has centralizer larger than \(Z(G)\). For matrix groups this often means that the [[fiber-bundles/holonomy-representation|holonomy representation]] preserves a proper decomposition, so \(A\) is [[fiber-bundles/connection-compatible-with-a-reduction|compatible with a reduction]] to the corresponding [[algebra-groups/proper-subgroup|proper subgroup]].
+Evaluation at a point identifies the stabilizer with the [[algebra-groups/centralizer|centralizer]] of the [[fiber-bundles/holonomy-group|holonomy group]]. Thus \(A\) is reducible exactly when the holonomy has centralizer larger than \(Z(G)\). For matrix groups this often means that the holonomy group in its defining linear representation preserves a proper decomposition, so \(A\) is [[fiber-bundles/connection-compatible-with-a-reduction|compatible with a reduction]] to the corresponding [[algebra-groups/proper-subgroup|proper subgroup]].
 
 For a [[fiber-bundles/hermitian-connection|unitary connection]] on a Hermitian [[fiber-bundles/vector-bundle|vector bundle]], a parallel orthogonal splitting into nonzero subbundles makes the connection reducible. The converse takes this form when the stabilizing element has suitable eigenspace decomposition.
 
 ## Role in gauge quotients
 
-Reducible connections are points with nonminimal isotropy for the gauge action. Their orbits therefore produce singular or lower-dimensional strata in the quotient of the space of connections. Gauge-theoretic moduli problems often impose hypotheses excluding reducibles so that a gauge slice has a manifold-like quotient near a solution.
+Reducible connections are points with nonminimal isotropy for the gauge action. Their local slice quotients retain this isotropy and can have singular or lower-dimensional strata; a nontrivial stabilizer alone does not prove that a coarse quotient is singular. Gauge-theoretic moduli problems often impose hypotheses excluding reducibles so that a gauge slice has a manifold-like quotient near a solution.
 
 For a nonabelian \(G\), the flat product connection with trivial holonomy is reducible because its stabilizer contains all constant \(G\)-valued transformations.
 
@@ -33,9 +33,11 @@ For a nonabelian \(G\), the flat product connection with trivial holonomy is red
 
 For an \(SU(2)\)-connection on a rank-two Hermitian bundle, a preserved splitting \(E=L\oplus L^{-1}\) is the standard reducible situation. By contrast, the central transformations \(\{\pm I\}\) stabilize every \(SU(2)\)-connection and do not by themselves make it reducible.
 
-**Warning.** Terminology changes with the chosen gauge group. A [[fiber-bundles/based-gauge-group|based gauge group]] removes constant central symmetries, and some authors call a connection reducible when the based action has nontrivial stabilizer. In abelian [[fiber-bundles/gauge-theory|gauge theory]] \(Z(G)=G\), so the nonabelian definition above does not provide a useful reducible/irreducible distinction.
+**Warning.** Terminology changes with the chosen gauge group. On a connected base, the [[fiber-bundles/based-gauge-group|based gauge group]] acts freely on every connection, because a stabilizing gauge transformation is parallel and determined by its value at the basepoint. Thus based stabilizers do not distinguish reducible from irreducible connections; the quotient by the constant center does. In abelian [[fiber-bundles/gauge-theory|gauge theory]] \(Z(G)=G\), so the nonabelian definition above does not provide a useful reducible/irreducible distinction.
 
 ## References
 
 1. Simon K. Donaldson and Peter B. Kronheimer, *The Geometry of Four-Manifolds*, Oxford University Press, 1990. [DOI record](https://doi.org/10.1093/oso/9780198535539.001.0001). Relevant: §4.2, reducible connections and gauge-theoretic moduli spaces.
 2. Daniel S. Freed and Karen K. Uhlenbeck, *Instantons and Four-Manifolds*, 2nd ed., Springer, 1991. [DOI record](https://doi.org/10.1007/978-1-4613-9703-8). Relevant: Chapter 3, gauge actions, stabilizers, and irreducibility.
+
+3. Ralph L. Cohen, *The Topology of Fiber Bundles*, Chapter 2, §3, Theorem 2.18 and its proof, pp. 61–62. [Author-hosted notes](https://math.stanford.edu/~ralph/fiber.pdf).

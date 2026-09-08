@@ -17,7 +17,7 @@ Define the **[[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint 
 \[
 \iota:\mathrm{ad}(P)\hookrightarrow TP/G
 \]
-defined fiberwise by sending \([p,X]\in \mathrm{ad}(P)_x\) to the class of the fundamental vertical vector \(X^\#_p\in T_pP\). The anchor \(a\) is surjective, and its kernel is exactly the image of \(\iota\). Thus one obtains the **Atiyah sequence** of [[fiber-bundles/vector-bundle|vector bundles]] over \(M\):
+defined fiberwise by sending \([p,X]\in \mathrm{ad}(P)_x\) to the class of the fundamental vertical vector \(X^\#_p\in T_pP\). This sign agrees with the Lie-algebroid convention in the linked Atiyah algebroid: invariant vertical vector fields along a group fiber are right-invariant, whose bracket is the negative of the usual Lie-algebra bracket. The anchor \(a\) is surjective, and its kernel is exactly the image of \(\iota\). Thus one obtains the **Atiyah sequence** of [[fiber-bundles/vector-bundle|vector bundles]] over \(M\):
 \[
 0 \longrightarrow \mathrm{ad}(P) \xrightarrow{\ \iota\ } TP/G \xrightarrow{\ a\ } \, TM \longrightarrow 0.
 \]
@@ -33,7 +33,7 @@ Exactness means:
    \[
    0\to M\times\mathfrak{g}\to TM\oplus(M\times\mathfrak{g})\to TM\to 0,
    \]
-   split by the obvious projection.
+   split by the inclusion \(v\mapsto(v,0)\).
 
 2. **Bundle over a point.** For \(P=G\to\{\ast\}\), the sequence becomes \(0\to \mathfrak{g}\xrightarrow{=}\mathfrak{g}\to 0\).
 

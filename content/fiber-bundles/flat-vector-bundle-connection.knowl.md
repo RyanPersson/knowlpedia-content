@@ -18,6 +18,8 @@ Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] with connectio
 R^\nabla = 0.
 \]
 
+## Geometric consequences
+
 Flatness has two standard geometric consequences:
 - On sufficiently small contractible open sets, there exist local frames of \(\nabla\)-parallel sections (frames \((e_i)\) with \(\nabla e_i=0\)), so locally the connection looks like the trivial connection in a suitable gauge.
 - The associated [[fiber-bundles/parallel-transport|parallel transport]] along curves depends only on the homotopy class of the curve with fixed endpoints; loops therefore determine a representation of the [[topology/fundamental-group|fundamental group]] into the structure group, and the image is captured by the [[fiber-bundles/holonomy-group|holonomy group]].

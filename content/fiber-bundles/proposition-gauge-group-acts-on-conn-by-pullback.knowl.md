@@ -6,7 +6,7 @@ summary = "Pullback gives a right action of the gauge group on principal connect
 aliases = ["proposition-gauge-group-acts-on-conn-by-pullback", "Gauge group action on connections by pullback"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback.md"
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
+prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -39,5 +39,5 @@ so the gauge group acts on the set of horizontal distributions defining connecti
    \[
    A \longmapsto A + g^{-1}dg,
    \]
-   i.e. gauge transformations act by translation by the closed 1-form (g^{-1}dg) (locally exact; globally it can have nonzero integral periods).
+   i.e. gauge transformations act by translation by the closed Lie-algebra-valued form \(g^{-1}dg\), locally exact. For \(G=U(1)\), its periods lie in \(2\pi i\mathbb Z\).
 3. **Frame bundle viewpoint.** If \(P\) is a frame bundle of a vector bundle, a gauge transformation is a change of frame covering \(\mathrm{id}_M\). Pulling back the connection corresponds to the usual transformation rule for connection matrices under a change of frame.

@@ -13,7 +13,6 @@ dependency_review_count = 1
 
 Let \(P=M\times G\to M\) be the [[fiber-bundles/trivial-principal-bundle-mgm|trivial principal bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\).
 
-## Definition (product connection / zero gauge potential)
 Define a horizontal subspace at \((x,g)\in M\times G\) by
 \[
 H_{(x,g)} := T_xM \times \{0\} \;\subset\; T_xM\oplus T_gG \cong T_{(x,g)}(M\times G).

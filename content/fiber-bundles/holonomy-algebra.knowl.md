@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with a [[fiber-bundles/principal-connection|principal connection]] \(\omega\), and choose \(p\in P_x\). The **holonomy algebra** at \(p\) is
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with a [[fiber-bundles/principal-connection|principal connection]] \(\omega\), and choose \(p\in P_x\). Using the natural immersed Lie-group structure on the holonomy group (not its closure in \(G\)), the **holonomy algebra** at \(p\) is
 \[
 \mathfrak{hol}_p(\omega)
 :=\operatorname{Lie}\bigl(\operatorname{Hol}_p(\omega)\bigr)

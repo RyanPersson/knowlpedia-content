@@ -6,7 +6,7 @@ summary = "The vector bundle whose fibers are obtained by evaluating a finitely 
 aliases = ["fiberwise evaluation reconstruction", "bundle associated to a projective smooth-function module"]
 domains = ["fiber-bundles", "algebra-modules"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "algebra-modules/projective-summand-of-free", "fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-fiber-bundle"]
+prerequisites = ["fiber-bundles/smooth-manifold", "algebra-modules/projective-summand-of-free", "fiber-bundles/vector-bundle", "fiber-bundles/section-of-a-vector-bundle", "fiber-bundles/module-of-smooth-sections", "fiber-bundles/serre-swan-idempotent-construction", "algebra-modules/finitely-generated-module", "differential-geometry/algebra-of-smooth-functions", "algebra-rings/idempotent-element"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -22,7 +22,7 @@ choose \(N\) and an idempotent \(p\in M_N(A)\) with \(Q\cong pA^N\). The
 \[
 E_Q=\coprod_{x\in M}\operatorname{im}p(x)\longrightarrow M.
 \]
-Its fibers have locally constant dimension, and its [[fiber-bundles/section-of-a-fiber-bundle|smooth sections]] satisfy \(\Gamma(E_Q)\cong pA^N\cong Q\). Different choices of the finite free summand and idempotent produce canonically isomorphic bundles up to the module isomorphism chosen.
+Give it the smooth structure of the [[fiber-bundles/serre-swan-idempotent-construction|image bundle of the smooth idempotent]] \(p\). Its fibers have locally constant dimension, and its [[fiber-bundles/section-of-a-fiber-bundle|smooth sections]] satisfy \(\Gamma(E_Q)\cong pA^N\cong Q\). Different choices of the finite free summand and idempotent produce canonically isomorphic bundles up to the module isomorphism chosen.
 
 ## Intrinsic fiberwise description
 

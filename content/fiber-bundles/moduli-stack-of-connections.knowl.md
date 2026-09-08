@@ -6,22 +6,31 @@ summary = "The quotient stack of the space of connections by gauge transformatio
 aliases = ["connection quotient stack", "stack of connections modulo gauge"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/bundle-of-connections", "fiber-bundles/gauge-group", "fiber-bundles/gauge-transformation", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space", "fiber-bundles/stabilizer-of-a-connection"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/gauge-group", "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback", "topology/open-cover", "fiber-bundles/smooth-map", "algebra-category-theory/groupoid", "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space", "fiber-bundles/stabilizer-of-a-connection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], let \(\mathcal A(P)\) be its [[fiber-bundles/bundle-of-connections|space of connections]], and let \(\mathcal G(P)\) be its [[fiber-bundles/gauge-group|gauge group]]. The **moduli stack of connections** is the quotient stack
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], let \(\mathcal A(P)\) be its space of [[fiber-bundles/principal-connection|principal connections]], and let \(\mathcal G(P)\) be its [[fiber-bundles/gauge-group|gauge group]]. Use the left gauge action \(u\cdot A=(u^{-1})^*A\), the inverse-pullback version of the [[fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback|right pullback action]]. The **moduli stack of connections on \(P\)** is the smooth quotient stack
 \[
-\operatorname{Conn}(P):=[\mathcal A(P)/\mathcal G(P)].
+[\mathcal A(P)/\mathcal G(P)],
 \]
-Its presenting action groupoid has connections as objects and, from \(A\) to
-\(A'\), [[fiber-bundles/gauge-transformation|gauge transformations]] \(u\) satisfying \(u\!\cdot\!A=A'\) as
-morphisms. Thus the isomorphism classes of objects form the
-[[fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space|ordinary
-gauge-orbit set]] \(\mathcal A(P)/\mathcal G(P)\), while the automorphism
-group of \(A\) is its
-[[fiber-bundles/stabilizer-of-a-connection|gauge stabilizer]].
+defined by the following families and gluing data.
+
+For a smooth test manifold \(S\), choose an [[topology/open-cover|open cover]] \(\{U_i\}\). An object consists of smooth families of connections \(A_i\) parameterized by \(U_i\), and smooth families of gauge transformations \(u_{ij}\) on overlaps, with
+\[
+A_i=u_{ij}\cdot A_j,\qquad
+u_{ii}=e,\qquad u_{ij}u_{jk}=u_{ik}.
+\]
+A smooth family means that the connection forms (respectively bundle automorphisms) depend smoothly on the parameter in \(U_i\) as well as on the point of \(P\).
+
+A morphism from \((A_i,u_{ij})\) to \((A'_i,u'_{ij})\), after passage to a common refinement, is a family \(v_i\) of gauge transformations such that
+\[
+A'_i=v_i\cdot A_i,\qquad u'_{ij}=v_i u_{ij}v_j^{-1}.
+\]
+Morphisms compose by pointwise group multiplication. Data are identified under restriction to common refinements; compatible local objects and morphisms glue. Pullback along a smooth map of test manifolds is restriction of the parameter families. These rules specify a stack of [[algebra-category-theory/groupoid|groupoids]] on smooth manifolds with the open-cover topology.
+
+Over a point, this is the action groupoid: objects are connections and arrows \(A\to A'\) are gauges \(u\) with \(u\cdot A=A'\). Its isomorphism classes form the [[fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space|gauge-orbit set]], while the automorphism group of \(A\) is its [[fiber-bundles/stabilizer-of-a-connection|stabilizer]].
 
 ## What the stack retains
 
@@ -32,9 +41,7 @@ equivalences and their compositions. In particular,
 \operatorname{Aut}_{\operatorname{Conn}(P)}(A)
 \cong \operatorname{Stab}_{\mathcal G(P)}(A),
 \]
-the [[fiber-bundles/stabilizer-of-a-connection|stabilizer of the connection]]. This retained isotropy is essential at [[fiber-bundles/reducible-connection|reducible connections]], where the gauge action is not free and a coarse quotient develops singular behavior.
-
-Passing from an action groupoid to its associated smooth stack also imposes descent: compatible families of connections and gauge identifications over an [[topology/open-cover|open cover]] glue.
+the [[fiber-bundles/stabilizer-of-a-connection|stabilizer of the connection]]. This retained isotropy is essential at [[fiber-bundles/reducible-connection|reducible connections]], where the gauge action has extra isotropy and a coarse quotient can develop singular behavior.
 
 ## Flat and equation-cut substacks
 
@@ -46,7 +53,7 @@ Its set of isomorphism classes is the familiar [[fiber-bundles/moduli-space-of-f
 
 ## Conventions and scope
 
-**Warning.** The displayed quotient is an infinite-dimensional smooth or differentiable stack, not automatically an algebraic stack. A rigorous analytic model normally replaces the smooth spaces by compatible Sobolev completions.
+**Warning.** The definition uses smooth test manifolds and families of smooth connections. It does not assert that the quotient is a finite-dimensional differentiable or algebraic stack. Sobolev completions provide alternative analytic models, whose regularity must be specified.
 
 Some authors let the bundle \(P\) vary and use “the stack of connections” for a larger stack whose objects are principal bundles equipped with connections. Here \(P\) is fixed. The stack quotient is also different from the homotopy quotient, though their associated homotopy types are closely related.
 

@@ -6,17 +6,19 @@ summary = "The derivative of a differential form along the flow of a vector fiel
 aliases = ["lie-derivative", "Lie derivative"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lie-derivative.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/interior-product", "fiber-bundles/exterior-derivative"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-field", "fiber-bundles/differential-k-form", "fiber-bundles/pullback-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(X\) be a [[fiber-bundles/vector-field|vector field]] on \(M\) with local flow \(\Phi_t\). For a [[fiber-bundles/differential-k-form|differential k-form]] \(\omega\in\Omega^k(M)\), the **Lie derivative of \(\omega\) along \(X\)** is
+Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(X\) be a [[fiber-bundles/vector-field|vector field]] on \(M\) with local flow \(\Phi_t\), defined near \(t=0\) by \(\partial_t\Phi_t(p)=X_{\Phi_t(p)}\) and \(\Phi_0(p)=p\). For a [[fiber-bundles/differential-k-form|differential k-form]] \(\omega\in\Omega^k(M)\), the **Lie derivative of \(\omega\) along \(X\)** is
 \[
 \mathcal{L}_X\omega = \left.\frac{d}{dt}\right|_{t=0}\Phi_t^*\omega,
 \]
 
-where \(\Phi_t^*\) denotes [[algebra-category-theory/pullback|pullback]] by the [[fiber-bundles/diffeomorphism|diffeomorphism]] \(\Phi_t\).
+where \(\Phi_t^*\) denotes [[fiber-bundles/pullback-of-differential-forms|pullback of forms]] by the [[fiber-bundles/diffeomorphism|diffeomorphism]] \(\Phi_t\).
+
+## Cartan formula
 
 The Lie derivative is characterized by **Cartan's formula**:
 \[

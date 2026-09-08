@@ -6,7 +6,7 @@ summary = "A smooth choice of an element in each fiber of the adjoint bundle, eq
 aliases = ["section-of-ad", "Section of Ad(P)"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/section-of-ad.md"
-prerequisites = ["fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/smooth-map", "fiber-bundles/gauge-group"]
+prerequisites = ["fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/smooth-map", "fiber-bundles/section-of-a-fiber-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -18,6 +18,8 @@ A **section of \(\mathrm{Ad}(P)\)** is a [[fiber-bundles/smooth-map|smooth map]]
 s:M\to \mathrm{Ad}(P)
 \]
 such that \(\pi_{\mathrm{Ad}}\circ s=\mathrm{id}_M\), where \(\pi_{\mathrm{Ad}}:\mathrm{Ad}(P)\to M\) is the bundle projection.
+
+## Gauge-group interpretation
 
 Under pointwise multiplication in the fibers, the set of sections \(\Gamma(\mathrm{Ad}(P))\) is a group, canonically isomorphic to the [[fiber-bundles/gauge-group|gauge group]] of \(P\).
 

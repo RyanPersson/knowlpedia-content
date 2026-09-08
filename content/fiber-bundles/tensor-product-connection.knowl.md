@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(E\to M\) and \(F\to M\) be smooth [[fiber-bundles/vector-bundle|real vector bundles]] or [[fiber-bundles/complex-vector-bundle|complex vector bundles]] with [[fiber-bundles/connection-on-a-vector-bundle|connections]] \(\nabla^E\) and \(\nabla^F\). The **tensor product connection** is the unique connection \(\nabla^{E\otimes F}\) on the [[fiber-bundles/tensor-product-vector-bundle|tensor product bundle]] satisfying
+Let \(E\to M\) and \(F\to M\) be smooth [[fiber-bundles/vector-bundle|real vector bundles]] or [[fiber-bundles/complex-vector-bundle|complex vector bundles]] over the same scalar field, with [[fiber-bundles/connection-on-a-vector-bundle|connections]] \(\nabla^E\) and \(\nabla^F\). The **tensor product connection** is the unique connection \(\nabla^{E\otimes F}\) on the [[fiber-bundles/tensor-product-vector-bundle|tensor product bundle]] satisfying
 \[
 \nabla^{E\otimes F}_X(s\otimes t)
 =

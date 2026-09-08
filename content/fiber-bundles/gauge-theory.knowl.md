@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **classical geometric gauge theory** on a manifold \(M\) specifies a [[fiber-bundles/principal-g-bundle|principal bundle]] \(P\to M\), a configuration space containing [[fiber-bundles/principal-connection|principal connections]] on \(P\) and possibly additional matter fields, and an action of the [[fiber-bundles/gauge-group|gauge group]] \(\mathcal G(P)\). Its equations, action functional, and observables are required to be invariant under this action. Configurations related by a [[fiber-bundles/gauge-transformation|gauge transformation]] represent the same physical or geometric state, so solutions are studied through their gauge-equivalence classes. This definition describes the classical bundle-theoretic framework; a particular gauge theory also fixes the structure group, field content, functional, boundary conditions, and regularity class.
+A **classical geometric gauge theory** on a manifold \(M\) specifies a [[fiber-bundles/principal-g-bundle|principal bundle]] \(P\to M\), a configuration space containing [[fiber-bundles/principal-connection|principal connections]] on \(P\) and possibly additional matter fields, and an action of the [[fiber-bundles/gauge-group|gauge group]] \(\mathcal G(P)\). Its solution set and observables are required to be invariant under this action; when an action functional is included, it is gauge invariant in the ordinary variational formulation. Configurations related by a [[fiber-bundles/gauge-transformation|gauge transformation]] represent the same physical or geometric state, so solutions are studied through their gauge-equivalence classes. This definition describes the classical bundle-theoretic framework; a particular gauge theory also fixes the structure group, field content, functional, boundary conditions, and regularity class.
 
 ## Geometric structure
 
@@ -25,7 +25,7 @@ Given a Riemannian metric on \(M\) and an invariant [[linear-algebra/inner-produ
 \[
 \operatorname{YM}(A)=\frac12\int_M \langle F_A,F_A\rangle\,\mathrm{vol}_M.
 \]
-Its critical points are [[fiber-bundles/yangmills-connection|Yang–Mills connections]]. The functional is gauge invariant because curvature transforms by the adjoint action and the inner product is invariant. Coupling sections of [[fiber-bundles/associated-bundle|associated bundles]] to \(A\) produces standard gauge–matter systems.
+On a closed base, or with finite energy and suitable compactly supported variations, its critical points are [[fiber-bundles/yangmills-connection|Yang–Mills connections]]. The functional is gauge invariant because curvature transforms by the adjoint action and the inner product is invariant. Coupling sections of [[fiber-bundles/associated-bundle|associated bundles]] to \(A\) produces standard gauge–matter systems.
 
 ## Conventions and scope
 

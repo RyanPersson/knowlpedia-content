@@ -6,12 +6,12 @@ summary = "The topological Euler class obtained by pulling a vector bundle's Tho
 aliases = ["zero-section definition of Euler class", "Euler class via Thom class"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/thom-class", "fiber-bundles/zero-section"]
+prerequisites = ["fiber-bundles/topological-real-vector-bundle", "fiber-bundles/thom-class", "topology/relative-singular-cohomology-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:E\to B\) be an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented real vector bundle]] of rank \(r\), let \(u_E\in H^r(E,E^\times;\mathbb Z)\) be its [[fiber-bundles/thom-class|Thom class]], and let \(0_E:B\to E\) be the [[fiber-bundles/zero-section|zero section]]. The **Euler class of \(E\)** is
+Let \(\pi:E\to B\) be an oriented [[fiber-bundles/topological-real-vector-bundle|topological real vector bundle]] of rank \(r\) over a paracompact Hausdorff base, let \(u_E\in H^r(E,E^\times;\mathbb Z)\) be its [[fiber-bundles/thom-class|Thom class]], and let \(0_E:B\to E\) be its continuous zero section \(b\mapsto0_b\), and put \(E^\times=E\setminus0_E(B)\). The orientation is the integral orientation used to choose \(u_E\). The **Euler class of \(E\)** is
 \[
 e(E):=0_E^*u_E\in H^r(B;\mathbb Z),
 \]
@@ -19,7 +19,7 @@ where \(0_E\) is regarded as a map of pairs \((B,\varnothing)\to(E,E^\times)\). 
 
 ## Zeros of sections
 
-If a [[fiber-bundles/section-of-a-vector-bundle|smooth section]] \(s:B\to E\) is transverse to the zero section, its zero set is a codimension-\(r\) submanifold whose cohomological dual is \(e(E)\), with the induced orientation. This geometric interpretation follows from the Thom construction.
+If \(B\) is a closed oriented smooth manifold and \(E\) is smooth, a [[fiber-bundles/section-of-a-vector-bundle|smooth section]] \(s:B\to E\) that is transverse to the zero section has a zero set is a codimension-\(r\) submanifold whose Poincaré dual is \(e(E)\), with the induced orientation. This geometric interpretation follows from the Thom construction.
 
 In particular, a [[fiber-bundles/nowhere-vanishing-section|nowhere-zero section]] has empty zero locus and forces \(e(E)=0\). The converse is false in general: vanishing of the primary [[fiber-bundles/euler-class-obstruction-to-nonzero-section|Euler obstruction]] need not produce a nowhere-zero section without additional dimension or obstruction-theoretic hypotheses.
 

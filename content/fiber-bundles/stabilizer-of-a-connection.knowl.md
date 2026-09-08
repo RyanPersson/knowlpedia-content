@@ -17,7 +17,9 @@ Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]],
 :=
 \{u\in\mathcal G(P)\mid u\cdot A=A\},
 \]
-where \(u\cdot A\) denotes the [[fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback|gauge action on connections]]. It is the [[algebra-groups/stabilizer|stabilizer subgroup]] of \(A\) for this action. Its elements are precisely the gauge symmetries of the connection. A connection with stabilizer larger than the unavoidable central [[fiber-bundles/gauge-transformation|gauge transformations]] is called reducible in many gauge-theoretic settings.
+where \(u\cdot A:=(u^{-1})^*A\) denotes the left-action version of the [[fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback|gauge action on connections]]. It is the [[algebra-groups/stabilizer|stabilizer subgroup]] of \(A\) for this action. Its elements are precisely the gauge symmetries of the connection. ## Reducibility terminology
+
+On a connected base, a connection with stabilizer larger than the unavoidable central [[fiber-bundles/gauge-transformation|gauge transformations]] is called reducible in many gauge-theoretic settings.
 
 ## Description by parallel sections
 
@@ -38,8 +40,10 @@ For a connected base, every constant transformation with value in the center \(Z
 
 ## Remarks
 
-The exact terminology depends on the chosen gauge group. Requiring Sobolev regularity, fixing a framing, or fixing the transformation at a basepoint changes the stabilizer. In particular, a [[fiber-bundles/based-gauge-group|based gauge group]] removes constant central symmetries and can make its action free where the full gauge-group action is not.
+The exact terminology depends on the chosen gauge group. Requiring Sobolev regularity, fixing a framing, or fixing the transformation at a basepoint changes the stabilizer. In particular, a [[fiber-bundles/based-gauge-group|based gauge group]] has trivial stabilizer at every connection when the base is connected (or one basepoint is fixed on each component).
 
 ## References
 
 1. Daniel S. Freed and Karen K. Uhlenbeck, *Instantons and Four-Manifolds*, 2nd ed., Springer, 1991. [DOI record](https://doi.org/10.1007/978-1-4613-9703-8). Relevant: Chapter 3, gauge-group actions and their stabilizers.
+
+3. Ralph L. Cohen, *The Topology of Fiber Bundles*, Chapter 2, §3, Theorem 2.18 and its proof, pp. 61–62. [Author-hosted notes](https://math.stanford.edu/~ralph/fiber.pdf).

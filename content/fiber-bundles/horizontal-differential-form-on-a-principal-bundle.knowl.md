@@ -6,7 +6,7 @@ summary = "A differential form on a principal bundle that vanishes whenever any 
 aliases = ["horizontal-differential-form-on-a-principal-bundle", "Horizontal differential form on a principal bundle"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/horizontal-differential-form-on-a-principal-bundle.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/vertical-subbundle", "fiber-bundles/invariant-differential-form", "fiber-bundles/differential-k-form"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/vertical-subbundle", "fiber-bundles/differential-k-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,13 +17,15 @@ V:=\ker(d\pi)\subset TP,
 \]
 as in [[fiber-bundles/vertical-subbundle|vertical subbundle]].
 
-A differential \(k\)-form \(\alpha\in\Omega^k(P)\) is **horizontal** if, for every \(p\in P\),
+For \(k\ge0\), a differential \(k\)-form \(\alpha\in\Omega^k(P)\) is **horizontal** if, for every \(p\in P\),
 \[
 \alpha_p(v_1,\dots,v_k)=0
 \quad\text{whenever at least one }v_i\in V_p.
 \]
 
-Horizontality is only a condition relative to the vertical distribution; it does not require choosing a [[fiber-bundles/horizontal-distribution|horizontal distribution]]. However, once a connection is chosen, horizontal forms can be evaluated on horizontal lifts of tangent vectors (compare [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift]]).
+## Relation to connections and basic forms
+
+For degree zero the condition is vacuous: every smooth function is horizontal. Horizontality is only a condition relative to the vertical distribution; it does not require choosing a [[fiber-bundles/horizontal-distribution|horizontal distribution]]. However, once a connection is chosen, horizontal forms can be evaluated on horizontal lifts of tangent vectors (compare [[fiber-bundles/horizontal-lift-of-a-tangent-vector|horizontal lift]]).
 
 A form on \(P\) is [[fiber-bundles/basic-differential-form-on-a-principal-bundle|basic]] exactly when it is horizontal and \(G\)-invariant (see [[fiber-bundles/invariant-differential-form|invariant differential form]]). Basic forms are precisely pullbacks of forms on \(M\).
 
@@ -40,7 +42,7 @@ where \(X^\#\) is the [[fiber-bundles/convention-fundamental-vector-field-x-is-d
    If \(\beta\in\Omega^k(M)\), then \(\pi^*\beta\) is horizontal (and in fact basic). This is the standard example coming from [[fiber-bundles/pullback-of-differential-forms|pullback of differential forms]].
 
 2. **Curvature is horizontal; the connection form is not.**
-   For a principal connection with connection 1-form \(\omega\), the curvature 2-form \(\Omega\) is horizontal (and \(\operatorname{Ad}\)-equivariant), so it is tensorial. By contrast, \(\omega\) is not horizontal because it reproduces vertical generators: \(\omega(X^\#)=X\) (compare [[fiber-bundles/reproduction-property-x|reproduction property]]). See [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form of a principal connection]] and [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]].
+   For a principal connection with connection 1-form \(\omega\), the curvature 2-form \(\Omega\) is horizontal (and \(\operatorname{Ad}\)-equivariant), so it is tensorial. If the Lie algebra is nonzero, \(\omega\) is not horizontal because it reproduces vertical generators: \(\omega(X^\#)=X\) (compare [[fiber-bundles/reproduction-property-x|reproduction property]]). See [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form of a principal connection]] and [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]].
 
 3. **Solder form on the frame bundle.**
    On the [[fiber-bundles/frame-bundle-fr-of-a-manifold-m|frame bundle]] of a manifold, the [[fiber-bundles/solder-form-on-the-frame-bundle|solder form]] is a canonical horizontal 1-form with values in \(\mathbb R^n\); it vanishes on vertical vectors because it encodes the projection of tangent vectors to the base.

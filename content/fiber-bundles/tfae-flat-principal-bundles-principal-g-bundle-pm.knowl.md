@@ -6,7 +6,7 @@ summary = "Equivalent conditions for a principal bundle connection to be flat, i
 aliases = ["tfae-flat-principal-bundles-principal-g-bundle-pm", "TFAE: Flat principal bundles (principal G-bundle with connection)"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-group"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/lie-group", "fiber-bundles/principal-connection", "fiber-bundles/curvature", "fiber-bundles/parallel-transport", "fiber-bundles/holonomy-group", "fiber-bundles/restricted-holonomy-group", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/pullback-of-differential-forms", "topology/homotopy", "topology/fundamental-group", "topology/universal-cover", "algebra-groups/group-homomorphism", "fiber-bundles/principal-bundle-isomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -23,7 +23,7 @@ Let \(M\) be a connected [[fiber-bundles/smooth-manifold|smooth manifold]] and l
    [[fiber-bundles/parallel-transport|Parallel transport]] along piecewise smooth curves depends only on the endpoint-fixed homotopy class of the curve. In particular, parallel transport around any contractible loop is the identity.
 
 4. **Trivial restricted holonomy.**
-   The identity component of the [[fiber-bundles/holonomy-group|holonomy group]] is trivial: \(\mathrm{Hol}^0_p(\omega)=\{e\}\) for (equivalently, for every) \(p\in P\).
+   The [[fiber-bundles/restricted-holonomy-group|restricted holonomy group]], equivalently the identity component in the natural immersed Lie-group structure of the [[fiber-bundles/holonomy-group|holonomy group]], is trivial: \(\mathrm{Hol}^0_p(\omega)=\{e\}\) for (equivalently, for every) \(p\in P\).
 
 5. **Classification by monodromy representation (when \(M\) is connected).**
    Choosing a basepoint \(x\in M\) and \(p\in P_x\), there is a homomorphism (monodromy)

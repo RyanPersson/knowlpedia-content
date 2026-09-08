@@ -6,12 +6,12 @@ summary = "The topological space obtained by identifying points lying in the sam
 aliases = ["quotient-space-of-an-action", "Quotient space of an action (orbit space)"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/quotient-space-of-an-action.md"
-prerequisites = ["fiber-bundles/orbit-of-a-group-action", "fiber-bundles/principal-action", "fiber-bundles/quotient-manifold"]
+prerequisites = ["fiber-bundles/orbit-of-a-group-action", "topology/quotient-topology"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) act on a manifold \(M\).
+Let a Lie group \(G\) act smoothly on a manifold \(M\).
 
 The **quotient space of the action** (also called the **orbit space**) is the set of [[fiber-bundles/orbit-of-a-group-action|orbits]]
 \[
@@ -22,6 +22,8 @@ equipped with the **quotient topology** for the canonical surjection
 \pi:M\to M/G,\qquad \pi(x)=G\cdot x.
 \]
 Concretely, a subset \(U\subseteq M/G\) is open if and only if \(\pi^{-1}(U)\) is open in \(M\).
+
+## When the quotient is a manifold
 
 In general \(M/G\) need not be a manifold (it may fail to be Hausdorff or locally Euclidean). Under the stronger hypothesis of a [[fiber-bundles/principal-action|principal action]], the orbit space becomes a smooth manifold (see [[fiber-bundles/quotient-manifold|quotient manifold]]).
 

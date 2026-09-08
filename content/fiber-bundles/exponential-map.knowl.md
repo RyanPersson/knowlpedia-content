@@ -11,12 +11,14 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with Lie algebra [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}=T_eG\). For each \(X\in\mathfrak{g}\), let \(X^L\) denote the left-invariant vector field on \(G\) determined by \(X\) (so \(X^L_e=X\)). Let \(\gamma_X(t)\) be the integral curve of \(X^L\) with initial condition \(\gamma_X(0)=e\).
+Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}=T_eG\). For each \(X\in\mathfrak{g}\), let \(X^L\) denote the left-invariant vector field on \(G\) determined by \(X\) (so \(X^L_e=X\)). Let \(\gamma_X:\mathbb R\to G\) be the unique solution of \(\gamma_X\prime(t)=X^L_{\gamma_X(t)}\), \(\gamma_X(0)=e\). A left-invariant vector field is complete, so this curve is defined for every real \(t\).
 
 The **(Lie group) exponential map** is
 \[
 \exp:\mathfrak{g}\to G,\qquad \exp(X)=\gamma_X(1).
 \]
+## Local properties
+
 It satisfies \(\exp(0)=e\) and its differential at \(0\) is the identity map on \(\mathfrak{g}\). Moreover, \(\exp\) is a local diffeomorphism near \(0\in\mathfrak{g}\) (so it provides coordinates near the identity in \(G\)).
 
 ## Examples

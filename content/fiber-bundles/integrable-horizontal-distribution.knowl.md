@@ -6,7 +6,7 @@ summary = "A horizontal distribution closed under Lie brackets, equivalently tan
 aliases = ["integrable-horizontal-distribution", "Integrable horizontal distribution"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/integrable-horizontal-distribution.md"
-prerequisites = ["fiber-bundles/horizontal-distribution", "fiber-bundles/vector-field", "fiber-bundles/lie-bracket", "fiber-bundles/curvature", "fiber-bundles/ehresmann-connection"]
+prerequisites = ["fiber-bundles/horizontal-distribution", "fiber-bundles/vector-field", "fiber-bundles/lie-bracket"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -14,6 +14,8 @@ dependency_review_count = 1
 Let \(\pi:E\to M\) be a surjective submersion and let \(H\subset TE\) be a [[fiber-bundles/horizontal-distribution|horizontal distribution]].
 
 **Definition.** The horizontal distribution \(H\) is *integrable* if it is involutive: for any smooth [[fiber-bundles/vector-field|vector fields]] \(X,Y\) on \(E\) taking values in \(H\) (i.e. horizontal vector fields), their [[fiber-bundles/lie-bracket|Lie bracket]] \([X,Y]\) also takes values in \(H\).
+
+## Frobenius interpretation
 
 By the Frobenius theorem, integrability is equivalent to the existence of a foliation of \(E\) by immersed submanifolds whose tangent spaces equal \(H\). For a horizontal distribution, such leaves are automatically transverse to the fibers, so locally each leaf projects diffeomorphically onto an open subset of \(M\). In many geometric settings, non-integrability is measured by an appropriate notion of [[fiber-bundles/curvature|curvature]] (the “vertical part” of brackets of horizontal fields).
 

@@ -6,7 +6,7 @@ summary = "A curve in the total space projecting to a base curve and whose veloc
 aliases = ["horizontal-lift-of-a-curve", "Horizontal lift of a curve"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-curve.md"
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map"]
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/smooth-map", "fiber-bundles/differential-of-a-smooth-map"]
 dependency_heuristic = "semantic-spotcheck-review-v1"
 dependency_review_count = 2
 +++

@@ -6,7 +6,7 @@ summary = "Every principal bundle over a smooth manifold admits a principal conn
 aliases = ["existence-of-principal-connections-on-smooth-manifolds", "Theorem: Existence of principal connections on smooth manifolds"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/existence-of-principal-connections-on-smooth-manifolds.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

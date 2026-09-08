@@ -6,18 +6,22 @@ summary = "The connection on a homomorphism bundle induced by connections on its
 aliases = ["induced connection on Hom(E,F)", "endomorphism-bundle connection"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/tensor-product-connection", "fiber-bundles/dual-connection"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/vector-field", "fiber-bundles/dual-vector-bundle", "fiber-bundles/tensor-product-vector-bundle", "fiber-bundles/section-of-a-vector-bundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(E,F\to M\) be smooth real or complex [[fiber-bundles/vector-bundle|vector bundles]] with [[fiber-bundles/connection-on-a-vector-bundle|connections]] \(\nabla^E\) and \(\nabla^F\). The **induced connection on \(\operatorname{Hom}(E,F)\)** is the unique connection satisfying
+Let \(E,F\to M\) be smooth real or complex [[fiber-bundles/vector-bundle|vector bundles]] over the same scalar field, with [[fiber-bundles/connection-on-a-vector-bundle|connections]] \(\nabla^E\) and \(\nabla^F\). The homomorphism bundle \(\operatorname{Hom}(E,F)=E^*\otimes F\) is the [[fiber-bundles/tensor-product-vector-bundle|tensor product]] of the [[fiber-bundles/dual-vector-bundle|dual bundle]] of \(E\) with \(F\), with fiber the linear maps \(E_x\to F_x\). The **induced connection on \(\operatorname{Hom}(E,F)\)** is the unique connection satisfying
 \[
 (\nabla^{\operatorname{Hom}}_X T)(s)
 =
 \nabla^F_X(Ts)-T(\nabla^E_Xs)
 \]
-for every [[fiber-bundles/vector-field|vector field]] \(X\), section \(T\) of \(\operatorname{Hom}(E,F)\), and section \(s\) of \(E\). Under the canonical identification \(\operatorname{Hom}(E,F)\cong E^*\otimes F\), it is the [[fiber-bundles/tensor-product-connection|tensor product connection]] formed from the [[fiber-bundles/dual-connection|dual connection]] on \(E^*\) and \(\nabla^F\).
+for every [[fiber-bundles/vector-field|vector field]] \(X\), section \(T\) of \(\operatorname{Hom}(E,F)\), and section \(s\) of \(E\).
+
+## Tensor description
+
+Under the canonical identification \(\operatorname{Hom}(E,F)\cong E^*\otimes F\), it is the [[fiber-bundles/tensor-product-connection|tensor product connection]] formed from the [[fiber-bundles/dual-connection|dual connection]] on \(E^*\) and \(\nabla^F\).
 
 ## Curvature formula
 
@@ -47,7 +51,7 @@ Consequently \(T\) is parallel exactly when it intertwines the two covariant der
 
 ## Conventions and scope
 
-The notation \(\operatorname{End}(E)\) means \(\operatorname{Hom}(E,E)\); no metric is needed. A [[fiber-bundles/hermitian-metric|Hermitian metric]] can identify \(E^*\) with a conjugate-dual bundle, but that identification is additional data and does not alter the defining formula.
+The notation \(\operatorname{End}(E)\) means \(\operatorname{Hom}(E,E)\); no metric is needed. A [[fiber-bundles/hermitian-metric|Hermitian metric]] identifies \(E\) conjugate-linearly with \(E^*\) (equivalently, identifies \(\overline E\) complex-linearly with \(E^*\)), but that identification is additional data and does not alter the defining formula.
 
 **Warning.** Switching to the opposite curvature convention reverses every displayed curvature operator but leaves the difference \(R^F\circ T-T\circ R^E\) in the corresponding convention. The commutator is an ordinary, not graded, commutator because \(T\) has degree zero.
 

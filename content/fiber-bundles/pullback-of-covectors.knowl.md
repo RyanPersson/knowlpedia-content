@@ -6,7 +6,7 @@ summary = "The contravariant map on cotangent spaces induced by a smooth map, de
 aliases = ["pullback-of-covectors", "Pullback of covectors"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/pullback-of-covectors.md"
-prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "fiber-bundles/diffeomorphism"]
+prerequisites = ["fiber-bundles/smooth-map", "fiber-bundles/smooth-manifold", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "algebra-modules/dual-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -27,6 +27,8 @@ defined by
 \quad\text{for }\alpha\in T_{F(p)}^*N,\; v\in T_pM.
 \]
 Thus \(F_p^*\) is the dual map of \(dF_p\) (it is contravariant: it goes in the opposite direction).
+
+## Bundle interpretation and functoriality
 
 This construction is fiberwise for the [[fiber-bundles/cotangent-bundle|cotangent bundle]]: a covector at \(F(p)\) pulls back to a covector at \(p\).
 

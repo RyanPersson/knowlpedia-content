@@ -1,0 +1,56 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles/moduli-stack-of-connections",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "099df9109aef2b2b5ee6b3c204e7171da7baf7347e218297a0d2a79e53ea0c41",
+      "evidence": "Replaced the misleading bundle-of-connections prerequisite with an inline definition of the principal-connection space as an affine space modeled on Omega^1(M;ad P). The opening now defines the quotient action groupoid, and the stack section explicitly gives test-space families and descent data, so it is a quotient stack rather than only an orbit set.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/bundle-of-connections",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+        "fiber-bundles/stabilizer-of-a-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+        "fiber-bundles/stabilizer-of-a-connection"
+      ],
+      "sources": [
+        "https://doi.org/10.48550/arXiv.math/0306176",
+        "https://doi.org/10.1006/aima.1995.1039"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": "fiber-bundles/representation-variety",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "e3cc9c3ec6fead10b4dd5d7db26df4f5ade72d02eed9fa1f6f9c67772f8c19dc",
+      "evidence": "Added algebraic-group, affine-scheme, and finite-group-presentation prerequisites. The opening now displays the presentation relations as defining a closed representation scheme, identifies its k-points with homomorphisms, and distinguishes the reduced classical variety from possible nilpotent scheme structure.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebra-groups/group-homomorphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-groups/group-presentation",
+        "algebra-groups/group-homomorphism"
+      ],
+      "sources": [
+        "https://bookstore.ams.org/memo-58-336",
+        "https://doi.org/10.1090/S0002-9947-2012-05448-1"
+      ],
+      "unresolved": []
+    }
+  ],
+  "triage_records": []
+}

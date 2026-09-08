@@ -6,31 +6,33 @@ summary = "A bundle whose points record the value and first derivative of a loca
 aliases = ["jet-bundle", "Jet bundle (first jets of sections)"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/jet-bundle.md"
-prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold"]
+prerequisites = ["fiber-bundles/smooth-fiber-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/section-of-a-fiber-bundle", "fiber-bundles/differential-of-a-smooth-map", "fiber-bundles/fiber-coordinates", "real-analysis/partial-derivative"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi\colon E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]].
-
-## Definition (1-jet of a section)
-Let \(x\in M\). Two smooth local sections \(s,t\colon U\to E\) (with \(x\in U\)) are **1-jet equivalent at \(x\)** if:
-
-1. \(s(x)=t(x)\), and
-2. in any local trivialization of \(E\) near \(x\), their first derivatives at \(x\) agree.
-
-The equivalence class of \(s\) is denoted \(j_x^1 s\) and is called the **1-jet of \(s\) at \(x\)**.
-
-## Definition (1-jet bundle)
-The **1-jet bundle** \(J^1E\) is the set of all 1-jets \(j_x^1 s\) of local sections, with the smooth structure making the projection
+Let \(\pi:E\to M\) be a [[fiber-bundles/smooth-fiber-bundle|smooth fiber bundle]]. Two [[fiber-bundles/section-of-a-fiber-bundle|smooth local sections]] \(s,t\), defined near \(x\in M\), have the same **first jet at \(x\)** if
 \[
-\pi_{1,0}\colon J^1E \to E,\qquad j_x^1 s \mapsto s(x),
+s(x)=t(x)=e,\qquad ds_x=dt_x:T_xM\longrightarrow T_eE,
 \]
-a smooth fiber bundle over \(E\), and the composite \(\pi\circ \pi_{1,0}\colon J^1E\to M\) a smooth fiber bundle over \(M\).
+where \(ds_x\) and \(dt_x\) are their [[fiber-bundles/differential-of-a-smooth-map|differentials]]. The equivalence class is denoted \(j_x^1s\).
 
-The fiber of \(J^1E\to M\) at \(x\) encodes “value + first derivative” data at \(x\). More precisely, \(J^1E\to E\) is an affine bundle modeled on \(\mathrm{Hom}(T_xM, V_eE)\), where \(T_xM\) is the [[differential-geometry/tangent-space|tangent space]] and \(V_eE\) is the vertical tangent space at \(e\in E_x\).
+The **first jet bundle** \(J^1E\) consists of all such classes, with projections
+\[
+\pi_{1,0}(j_x^1s)=s(x),\qquad \pi_1(j_x^1s)=x.
+\]
+Its smooth structure is defined by the following jet charts. In local bundle coordinates \((x^i,y^\alpha)\), assign to \(j_x^1s\) the coordinates
+\[
+\left(x^i,y^\alpha(s(x)),y_i^\alpha\right),\qquad
+ y_i^\alpha=\frac{\partial(y^\alpha\circ s)}{\partial x^i}(x).
+\]
+The derivative coordinates range freely over real matrices; changes of jet coordinates are the smooth transformations obtained by the chain rule. These charts define the smooth bundle structures \(J^1E\to E\) and \(J^1E\to M\), not merely smooth projections of an unspecified structure.
 
-A fundamental application is that for a principal bundle \(P\to M\), the quotient \(J^1P/G\) is the [[fiber-bundles/bundle-of-connections|bundle of connections]].
+## Affine structure and connections
+
+For fixed \(e\in E_x\), the fiber of \(J^1E\to E\) identifies with linear maps \(L:T_xM\to T_eE\) satisfying \(d\pi_e\circ L=\operatorname{id}\). Such maps are precisely the differentials of local sections with value \(e\). Their differences lie in \(\operatorname{Hom}(T_xM,V_eE)\), so this is an affine space modeled on that vector space. Here \(V_eE=\ker d\pi_e\) is the vertical tangent space.
+
+For a principal bundle \(P\to M\), the quotient \(J^1P/G\) is the [[fiber-bundles/bundle-of-connections|bundle of connections]].
 
 ## Examples
 1. **Jets of functions.** For the trivial [[fiber-bundles/line-bundle|real line bundle]] \(E=M\times \mathbb{R}\), a section is a function \(f\colon M\to \mathbb{R}\), and \(j_x^1 f\) is determined by \((x,f(x),df_x)\). Thus \(J^1(M\times \mathbb{R})\) identifies with \(\mathbb{R}\times T^*M\) over \(M\).

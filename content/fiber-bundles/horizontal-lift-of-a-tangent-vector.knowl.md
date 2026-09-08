@@ -6,7 +6,7 @@ summary = "The unique horizontal vector at a point in the total space that proje
 aliases = ["horizontal-lift-of-a-tangent-vector", "Horizontal lift of a tangent vector"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-tangent-vector.md"
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-subbundle"]
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/horizontal-subbundle", "fiber-bundles/differential-of-a-smooth-map", "differential-geometry/tangent-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

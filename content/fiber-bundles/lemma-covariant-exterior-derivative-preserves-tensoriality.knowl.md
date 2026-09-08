@@ -6,7 +6,7 @@ summary = "For a principal connection, the covariant exterior derivative sends t
 aliases = ["lemma-covariant-exterior-derivative-preserves-tensoriality", "Covariant exterior derivative preserves tensoriality"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/lemma-covariant-exterior-derivative-preserves-tensoriality.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/vertical-subbundle", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/equivariant-map", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "lie-groups/representation-of-a-lie-group", "fiber-bundles/vertical-subbundle", "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action", "fiber-bundles/equivariant-map", "fiber-bundles/principal-connection", "fiber-bundles/connection-1-form-on-a-principal-bundle", "fiber-bundles/exterior-derivative", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/differential-k-form"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -24,22 +24,22 @@ D^\omega:\Omega^k(P;V)\longrightarrow \Omega^{k+1}(P;V),
 (D^\omega\alpha)(v_0,\dots,v_k):=d\alpha(\mathrm{hor}\,v_0,\dots,\mathrm{hor}\,v_k).
 \]
 
-## Equivalent characterizations
-
-Equivalently, on tensorial forms one may write the usual local formula
-\[
-D^\omega\alpha = d\alpha + \rho_*(\omega)\wedge \alpha,
-\]
-where the wedge combines \(\mathfrak{gl}(V)\) acting on \(V\) with the exterior product.
-
-## Lemma
 If \(\alpha\) is tensorial of type \(\rho\), then \(D^\omega\alpha\) is also tensorial of type \(\rho\).
 
 In other words, the covariant exterior derivative restricts to a well-defined map
 \[
 D^\omega:\Omega^k_{\mathrm{tens}}(P;V)\longrightarrow \Omega^{k+1}_{\mathrm{tens}}(P;V),
 \]
-where \(\Omega^k_{\mathrm{tens}}(P;V)\) denotes \(V\)-valued tensorial \(k\)-forms. This is the basic mechanism behind induced connections on [[fiber-bundles/associated-bundle|associated bundles]] and, in the vector bundle case, on [[fiber-bundles/associated-vector-bundle|associated vector bundles]].
+where \(\Omega^k_{\mathrm{tens}}(P;V)\) denotes \(V\)-valued tensorial \(k\)-forms.
+
+
+## Equivalent characterizations
+
+Equivalently, on tensorial forms one may write the global identity on tensorial forms
+\[
+D^\omega\alpha = d\alpha + \rho_*(\omega)\wedge \alpha,
+\]
+where the wedge combines \(\mathfrak{gl}(V)\) acting on \(V\) with the exterior product.
 
 ## Examples
 1. **From equivariant functions to covariant derivatives.**

@@ -6,7 +6,7 @@ summary = "The smooth map from a Lie group to a manifold sending a group element
 aliases = ["orbit-map", "Orbit map"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/orbit-map.md"
-prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/smooth-map", "fiber-bundles/orbit-of-a-group-action", "algebra-groups/stabilizer"]
+prerequisites = ["fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold", "fiber-bundles/smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,6 +17,8 @@ For \(x\in M\), the **orbit map at \(x\)** is the [[fiber-bundles/smooth-map|smo
 \[
 \Phi^x: G \longrightarrow M,\qquad \Phi^x(g)=g\cdot x.
 \]
+## Image and stabilizer
+
 Its image is the [[fiber-bundles/orbit-of-a-group-action|orbit]] \(G\cdot x\).
 
 The fiber \((\Phi^x)^{-1}(x)\) is the

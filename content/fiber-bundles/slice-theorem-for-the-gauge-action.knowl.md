@@ -6,12 +6,12 @@ summary = "A local normal-form theorem modeling a neighborhood of a gauge orbit 
 aliases = ["Coulomb slice theorem", "local slice theorem for gauge transformations"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations", "fiber-bundles/gauge-transformation", "fiber-bundles/coulomb-gauge"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations", "fiber-bundles/gauge-transformation", "fiber-bundles/coulomb-gauge", "fiber-bundles/stabilizer-of-a-connection", "fiber-bundles/gauge-group", "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative", "fiber-bundles/invariant-polynomial-on-a-lie-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed Riemannian \(n\)-manifold. Use the [[fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations|Sobolev completions]] of connections in \(W^{k,p}\) and [[fiber-bundles/gauge-transformation|gauge transformations]] in \(W^{k+1,p}\), with \(kp>n\). For a connection \(A\), there is \(\varepsilon>0\) such that the [[fiber-bundles/coulomb-gauge|Coulomb slice]]
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed Riemannian \(n\)-manifold. Use the [[fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations|Sobolev completions]] of connections in \(W^{k,p}\) and [[fiber-bundles/gauge-transformation|gauge transformations]] in \(W^{k+1,p}\), where \(k\geq1\), \(1<p<\infty\), and \(kp>n\). Fix an Ad-invariant inner product on the Lie algebra and a smooth reference connection \(A\). there is \(\varepsilon>0\) such that the [[fiber-bundles/coulomb-gauge|Coulomb slice]]
 \[
 \mathcal S_{A,\varepsilon}
 =\{A+a\mid d_A^*a=0,\ \|a\|_{W^{k,p}}<\varepsilon\}
@@ -33,7 +33,7 @@ Passing to the quotient gives a local model
 \[
 \mathcal S_{A,\varepsilon}/\operatorname{Stab}(A)
 \]
-for the moduli problem near \([A]\). If the stabilizer acts trivially after central symmetries are removed, this behaves like a Banach-manifold chart. A nontrivial stabilizer produces an orbifold-type or more singular local quotient. Thus the theorem explains why [[fiber-bundles/irreducible-connection|irreducible connections]] form the regular stratum and [[fiber-bundles/reducible-connection|reducible connections]] create singular strata.
+for the moduli problem near \([A]\). If the stabilizer acts trivially after central symmetries are removed, this behaves like a Banach-manifold chart. Nontrivial effective isotropy can produce an orbifold or a more singular quotient; its presence alone does not force singularity of the coarse quotient. This describes the quotient of all connections. For a gauge-invariant differential equation, one must further intersect the slice with its solution set, and regularity of that equation is an additional issue.
 
 ## Conventions and scope
 

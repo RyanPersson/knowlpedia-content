@@ -6,12 +6,12 @@ summary = "A polynomial on a Lie algebra that is unchanged by the adjoint action
 aliases = ["Ad-invariant polynomial", "invariant symmetric polynomial"]
 domains = ["fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/adjoint-action-of-a-lie-group"]
+prerequisites = ["fiber-bundles/lie-group", "lie-groups/lie-algebra", "lie-groups/adjoint-action-of-a-lie-group", "algebra-modules/symmetric-algebra", "linear-algebra/multilinear-map", "algebra-modules/dual-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). A homogeneous **invariant polynomial of degree \(k\)** is an element \(p\in\operatorname{Sym}^k(\mathfrak g^*)\) fixed by the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]]. Equivalently, regarding \(p\) as a symmetric \(k\)-linear form,
+Fix scalar values in \(K=\mathbb R\) or \(K=\mathbb C\) and an integer \(k\ge0\). Let \(G\) be a [[fiber-bundles/lie-group|Lie group]] with [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). A homogeneous **invariant polynomial of degree \(k\)** is an element \(p\in\operatorname{Sym}^k(\mathfrak g^*)\) fixed by the [[lie-groups/adjoint-action-of-a-lie-group|adjoint action]]. Here \(\mathfrak g\) is regarded as a real Lie algebra; for complex values, the symmetric-power notation means \(\operatorname{Sym}^k_{\mathbb R}(\mathfrak g^*)\otimes_{\mathbb R}\mathbb C\). Equivalently, \(p:\mathfrak g^k\to K\) is a symmetric real-multilinear form satisfying
 \[
 p(\operatorname{Ad}_gX_1,\ldots,\operatorname{Ad}_gX_k)=p(X_1,\ldots,X_k)
 \]

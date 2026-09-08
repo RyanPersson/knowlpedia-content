@@ -6,20 +6,20 @@ summary = "A differential form built from the curvature of a principal connectio
 aliases = ["chernweil-form", "Chern–Weil form"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/chernweil-form.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/lemma-chernweil-forms-are-basic"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/lemma-chernweil-forms-are-basic", "fiber-bundles/invariant-polynomial-on-a-lie-algebra", "fiber-bundles/wedge-product-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] and let \(\omega\in\Omega^1(P;\mathfrak{g})\) be a [[fiber-bundles/principal-connection|principal connection]] with curvature \(\Omega\in\Omega^2(P;\mathfrak{g})\) (see [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form of a principal connection]]).
 
-Let \(P\) (unfortunately the same letter is standard) also denote an \(\mathrm{Ad}\)-invariant symmetric multilinear polynomial of degree \(k\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\), i.e. an element of \((\mathrm{Sym}^k\mathfrak{g}^*)^G\).
+Let \(P\) (unfortunately the same letter is standard) also denote a real- or complex-valued [[fiber-bundles/invariant-polynomial-on-a-lie-algebra|\(\mathrm{Ad}\)-invariant symmetric multilinear polynomial]] of degree \(k\ge0\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\), i.e. an element of \((\mathrm{Sym}^k\mathfrak{g}^*)^G\).
 
 The **Chern–Weil form** associated to the invariant polynomial \(P\) and the connection \(\omega\) is the \((2k)\)-form on \(P\)
 \[
 P(\Omega)\;:=\;P(\underbrace{\Omega,\dots,\Omega}_{k\text{ times}})\in\Omega^{2k}(P),
 \]
-where the wedge product of the \(\mathfrak{g}\)-valued 2-forms is understood in the standard multilinear way.
+with the coefficient field of the polynomial, where the wedge product of the \(\mathfrak{g}\)-valued 2-forms is understood in the standard multilinear way.
 
 A fundamental point is that \(P(\Omega)\) is a **basic** form on \(P\) (see [[fiber-bundles/lemma-chernweil-forms-are-basic|the lemma that Chern–Weil forms are basic]]), hence there exists a unique form \(\mathrm{cw}_P(\omega)\in\Omega^{2k}(M)\) such that
 \[

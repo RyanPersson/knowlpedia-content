@@ -6,7 +6,7 @@ summary = "The classification of flat principal bundles by conjugacy classes of 
 aliases = ["Riemann–Hilbert correspondence for smooth flat bundles", "monodromy correspondence"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/holonomy-representation", "algebra-groups/conjugation-action", "fiber-bundles/flat-principal-connection", "topology/fundamental-group"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/lie-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/holonomy-representation", "algebra-groups/conjugation-action", "fiber-bundles/flat-principal-connection", "topology/fundamental-group", "algebra-groups/group-homomorphism", "fiber-bundles/principal-bundle-isomorphism", "topology/universal-cover"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -27,7 +27,7 @@ The right-hand quotient is by the [[algebra-groups/conjugation-action|conjugatio
 
 ## Construction from monodromy
 
-Let \(\pi_1(M,x)\) act on the universal cover by deck transformations and on \(G\) by left multiplication through \(\rho\):
+Use the loop product from the holonomy representation (right factor traversed first). Identify \(\pi_1(M,x)\) with a left deck action so that lifting \(\gamma\) from a chosen \(\widetilde x_0\) ends at \(\gamma^{-1}\widetilde x_0\). Let it act on \(G\) by left multiplication through \(\rho\):
 \[
 \gamma\cdot(\widetilde x,g)
 =
@@ -37,7 +37,7 @@ This action commutes with the principal right \(G\)-action, so
 \[
 P_\rho=(\widetilde M\times G)/\pi_1(M,x)
 \]
-is a principal \(G\)-bundle. The [[fiber-bundles/horizontal-distribution|horizontal distribution]] tangent to \(\widetilde M\) descends and is flat. Its holonomy is \(\rho\), up to the inverse or conjugation dictated by path-lifting conventions. This construction and its converse are the classification content behind the standard equivalences for [[fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm|flat principal bundles]].
+is a principal \(G\)-bundle. The [[fiber-bundles/horizontal-distribution|horizontal distribution]] tangent to \(\widetilde M\) descends and is flat. At the point \([\widetilde x_0,e]\), lifting \(\gamma\) ends at \([\gamma^{-1}\widetilde x_0,e]=[\widetilde x_0,\rho(\gamma)]\), so its holonomy representation is exactly \(\rho\). Changing the chosen fiber point conjugates it. This construction and its converse are the classification content behind the standard equivalences for [[fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm|flat principal bundles]].
 
 ## Passage to moduli
 

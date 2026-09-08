@@ -17,6 +17,8 @@ Let \(M\) be a smooth manifold, let \(X\) be a [[fiber-bundles/vector-field|vect
 \]
 By convention, \(\iota_X\omega=0\) if \(k=0\).
 
+## Identities
+
 The operator \(\iota_X\) is \(\mathbb{R}\)-linear in \(X\) and is a graded derivation of degree \(-1\) on the exterior algebra:
 \[
 \iota_X(\alpha\wedge\beta)=(\iota_X\alpha)\wedge\beta+(-1)^{\deg\alpha}\alpha\wedge(\iota_X\beta).

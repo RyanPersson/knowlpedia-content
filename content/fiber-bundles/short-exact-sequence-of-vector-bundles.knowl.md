@@ -6,27 +6,17 @@ summary = "A pair of bundle morphisms whose induced sequence is exact in every f
 aliases = ["exact sequence of smooth vector bundles"]
 domains = ["fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism", "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism", "fiber-bundles/bundle-isomorphism"]
+prerequisites = ["fiber-bundles/topological-real-vector-bundle", "fiber-bundles/topological-complex-vector-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/vector-bundle-morphism", "shared-foundations/injective-function", "shared-foundations/surjective-function", "convex-analysis/image-and-kernel-linear-isomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-A **short exact sequence of smooth vector bundles** over a manifold \(M\) is a diagram of [[fiber-bundles/vector-bundle|vector bundles]] and [[fiber-bundles/vector-bundle-morphism|bundle morphisms]] over \(M\),
+A **short exact sequence of vector bundles** over a space \(X\) is a diagram of finite-rank real or complex topological vector bundles and continuous fiberwise linear maps over \(X\),
 \[
-0\longrightarrow E'
-\overset{\iota}{\longrightarrow}E
-\overset{q}{\longrightarrow}E''
-\longrightarrow0,
+0\longrightarrow E'\overset{\iota}{\longrightarrow}E
+\overset{q}{\longrightarrow}E''\longrightarrow0,
 \]
-such that for every \(x\in M\) the vector-space sequence
-\[
-0\longrightarrow E'_x
-\overset{\iota_x}{\longrightarrow}E_x
-\overset{q_x}{\longrightarrow}E''_x
-\longrightarrow0
-\]
-is exact. Equivalently, \(\iota\) identifies \(E'\) with the [[fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism|kernel bundle]] of \(q\), and \(q\) induces a [[fiber-bundles/bundle-isomorphism|bundle isomorphism]] \(E/\iota(E')\cong E''\).
-Exactness therefore records both the embedded subbundle and its associated quotient bundle.
+such that for each \(x\in X\), \(\iota_x\) is injective, \(q_x\) is surjective, and \(\operatorname{im}\iota_x=\ker q_x\). These are the full fiberwise exactness conditions. For smooth bundles over a smooth manifold, a **smooth short exact sequence** additionally requires both maps to be smooth.
 
 ## Immediate consequences
 
@@ -34,7 +24,7 @@ Fiberwise exactness implies
 \[
 \operatorname{rank}E=\operatorname{rank}E'+\operatorname{rank}E''.
 \]
-The morphism \(\iota\) has constant rank and realizes \(E'\) as a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(E\); the morphism \(q\) is fiberwise surjective. Conversely, every vector subbundle \(E'\subseteq E\) produces the canonical exact sequence
+In the smooth setting, the morphism \(\iota\) has constant rank and realizes \(E'\) as a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(E\); the morphism \(q\) is fiberwise surjective. In either setting, every vector subbundle \(E'\subseteq E\) produces the canonical exact sequence
 \[
 0\longrightarrow E'\longrightarrow E\longrightarrow E/E'\longrightarrow0.
 \]

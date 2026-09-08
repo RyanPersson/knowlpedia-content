@@ -6,42 +6,18 @@ summary = "Nonabelian Čech 1-cohomology classifies principal G-bundles as a poi
 aliases = ["Čech classification of principal bundles", "nonabelian H1 of a manifold", "principal bundles classified by H1"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/smooth-g-valued-cech-1-cocycle", "fiber-bundles/equivalence-of-cocycles", "fiber-bundles/principal-bundle-isomorphism", "shared-foundations/pointed-set", "topology/open-cover"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a smooth manifold and \(G\) a Lie group. Regard
-\(U\mapsto C^\infty(U,G)\) as a sheaf of groups. Then the nonabelian Čech set
-
+Let \(M\) be a smooth manifold and \(G\) a Lie group. On an open cover \(\mathcal U=\{U_i\}\), let \(Z^1(\mathcal U,G)\) be the set of [[fiber-bundles/smooth-g-valued-cech-1-cocycle|smooth \(G\)-valued Čech \(1\)-cocycles]]. Families \(h_i:U_i\to G\) act from the right by
 \[
-\check H^1\!\left(M,C^\infty(-,G)\right)
+(g\cdot h)_{ij}=h_i^{-1}g_{ij}h_j.
 \]
+The **nonabelian Čech set** \(\check H^1(M,C^\infty(-,G))\) is the set of these cocycles over all open covers, where two are equivalent if their restrictions to some common refinement differ by such a family. It is a pointed set, with the identity cocycle as its distinguished element.
 
-is naturally identified with the set of isomorphism classes of smooth
-[[fiber-bundles/principal-g-bundle|principal \(G\)-bundles]] over \(M\). Its
-distinguished point is the class of the trivial bundle \(M\times G\).
-
-## A fixed cover
-
-On an open cover \(\mathcal U=\{U_i\}\), let \(Z^1(\mathcal U,G)\) be the set
-of [[fiber-bundles/smooth-g-valued-cech-1-cocycle|smooth \(G\)-valued Čech
-\(1\)-cocycles]]. The group of \(0\)-cochains
-
-\[
-C^0(\mathcal U,G)=\prod_i C^\infty(U_i,G)
-\]
-
-acts by
-
-\[
-(h\cdot g)_{ij}=h_i^{-1}g_{ij}h_j.
-\]
-
-The orbit set \(Z^1(\mathcal U,G)/C^0(\mathcal U,G)\) classifies principal
-\(G\)-bundles equipped with trivializations over that cover. Passing through
-common refinements removes the choice of cover and gives the displayed Čech
-set.
+The **Čech classification theorem** identifies this set naturally with isomorphism classes of smooth [[fiber-bundles/principal-g-bundle|principal \(G\)-bundles]] over \(M\), taking the identity cocycle to the trivial bundle. For a fixed cover, the orbit set \(Z^1(\mathcal U,G)/\prod_i C^\infty(U_i,G)\) classifies bundles that are trivializable over that cover; the selected trivializations are forgotten on taking orbits.
 
 ## Why it is usually not a group
 
@@ -62,7 +38,7 @@ If \(G\) is abelian, cocycles and coboundaries form abelian groups, so
 \(\check H^1(M,C^\infty(-,G))\) is an abelian group. For \(G=U(1)\), principal
 \(U(1)\)-bundles correspond to complex [[fiber-bundles/line-bundle|line
 bundles]], the group law is tensor product, and the first
-[[fiber-bundles/chern-class|Chern class]] gives, for a smooth manifold,
+[[fiber-bundles/integral-chern-classes|integral Chern class]] gives, for a smooth manifold,
 
 \[
 \{\text{complex line bundles over }M\}/\cong

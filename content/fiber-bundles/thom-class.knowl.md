@@ -6,30 +6,26 @@ summary = "The relative cohomology class that restricts to the orientation gener
 aliases = ["orientation class of a vector bundle", "Thom cohomology class"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/orientation-of-a-real-vector-bundle", "fiber-bundles/vector-bundle", "fiber-bundles/zero-section", "topology/singular-cohomology-group"]
+prerequisites = ["fiber-bundles/topological-real-vector-bundle", "topology/relative-singular-cohomology-group", "algebra-rings/commutative-ring", "fiber-bundles/paracompact-topological-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:E\to B\) be an [[fiber-bundles/orientation-of-a-real-vector-bundle|oriented]] real [[fiber-bundles/vector-bundle|vector bundle]] of rank \(r\) over a paracompact Hausdorff base, and let \(E^\times=E\setminus 0_E(B)\) be the complement of its [[fiber-bundles/zero-section|zero section]]. The **Thom class** of \(E\) is the unique class
+Let \(\pi:E\to B\) be a rank-\(r\) [[fiber-bundles/topological-real-vector-bundle|topological real vector bundle]] over a paracompact Hausdorff base, let \(R\) be a commutative ring with identity, and write \(E^\times=E\setminus\{0_b:b\in B\}\). An \(R\)-orientation is a choice of generator of the free rank-one \(R\)-module \(H^r(E_b,E_b\setminus\{0_b\};R)\) in each fiber, locally compatible under bundle trivializations.
+
+Given this orientation, the **Thom class** is the unique [[topology/relative-singular-cohomology-group|relative singular cohomology class]]
 \[
-u_E\in H^r(E,E^\times;\mathbb Z)
+u_E\in H^r(E,E^\times;R)
 \]
-whose restriction to every fiber pair
-\[
-(E_b,E_b\setminus\{0_b\})
-\cong
-(\mathbb R^r,\mathbb R^r\setminus\{0\})
-\]
-is the generator determined by the chosen fiber orientation. Thus the local orientation generators fit together into one global [[topology/singular-cohomology-group|relative singular cohomology class]].
+whose restriction to every fiber pair is the chosen generator. For \(R=\mathbb Z\) and \(r>0\), the choice is the ordinary continuous orientation of the real fibers. For \(r=0\), the canonical orientation chooses \(1\), and \(u_E=1\in H^0(B;R)\).
 
 ## Thom isomorphism and naturality
 
 Cup product with \(u_E\) gives the Thom isomorphism
 \[
-H^q(B;\mathbb Z)
+H^q(B;R)
 \longrightarrow
-H^{q+r}(E,E^\times;\mathbb Z),
+H^{q+r}(E,E^\times;R),
 \qquad
 a\longmapsto \pi^*a\smile u_E,
 \]
@@ -37,13 +33,13 @@ If \(f:B'\to B\) is a map from another paracompact Hausdorff base, the pullback 
 \[
 u_{f^*E}=\widetilde f^{\,*}u_E,
 \]
-where \(\widetilde f:f^*E\to E\) is the canonical [[fiber-bundles/bundle-map|bundle map]].
+where \(\widetilde f:f^*E\to E\) is the canonical continuous bundle map, and \(f\) is continuous.
 
 ## Models and examples
 
-After choosing a [[fiber-bundles/bundle-metric|bundle metric]], excision identifies the defining group with \(H^r(D(E),S(E);\mathbb Z)\), where \(D(E)\) and \(S(E)\) are the disk and [[fiber-bundles/sphere-bundle|sphere bundles]]. For the trivial oriented bundle \(B\times\mathbb R^r\), the Thom class is the exterior product of \(1\in H^0(B;\mathbb Z)\) with the preferred generator of \(H^r(\mathbb R^r,\mathbb R^r\setminus\{0\};\mathbb Z)\).
+After choosing a continuous positive-definite fiber metric, excision identifies the defining group with \(H^r(D(E),S(E);R)\), where \(D(E)=\{v:\|v\|\le1\}\) and \(S(E)=\{v:\|v\|=1\}\) are the disk and unit sphere bundles. For the trivial oriented bundle \(B\times\mathbb R^r\), the Thom class is the exterior product of \(1\in H^0(B;R)\) with the preferred generator of \(H^r(\mathbb R^r,\mathbb R^r\setminus\{0\};R)\).
 
-Pulling \(u_E\) back along the zero section produces the Euler class. More generally, transverse sections represent this class geometrically through their zero loci.
+With integral coefficients, pulling \(u_E\) back along the zero section produces the Euler class. More generally, transverse sections represent this class geometrically through their zero loci.
 
 ## Coefficients and orientation
 

@@ -6,7 +6,7 @@ summary = "Parallel transport along a concatenated path equals the composition o
 aliases = ["proposition-parallel-transport-respects-concatenation-of-paths", "Parallel transport respects concatenation of paths"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/proposition-parallel-transport-respects-concatenation-of-paths.md"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/parallel-transport"]
+prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/parallel-transport", "shared-foundations/composition"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,11 +17,12 @@ Let \(E\to M\) be a [[fiber-bundles/vector-bundle|vector bundle]] equipped with 
 \]
 for the [[fiber-bundles/parallel-transport|parallel transport]] map determined by \(\nabla\).
 
-## Proposition (compatibility with concatenation)
 Let \(\gamma_1:[0,1]\to M\) and \(\gamma_2:[0,1]\to M\) be piecewise smooth with \(\gamma_1(1)=\gamma_2(0)\). Let \(\gamma_2\ast \gamma_1\) denote their concatenation (first traverse \(\gamma_1\), then \(\gamma_2\)). Then
 \[
 \mathrm{PT}_{\gamma_2\ast \gamma_1} \;=\; \mathrm{PT}_{\gamma_2}\circ \mathrm{PT}_{\gamma_1}.
 \]
+## Transport in two stages
+
 Equivalently, if \(s(t)\) is a \(\nabla\)-parallel section along \(\gamma_2\ast\gamma_1\) with initial value \(s(0)=v\in E_{\gamma_1(0)}\), then the value at the intermediate point is \(s(1/2)=\mathrm{PT}_{\gamma_1}(v)\) (after reparametrization), and the final value is obtained by transporting further along \(\gamma_2\).
 
 The same statement holds for parallel transport in a principal \(G\)-bundle with a principal connection: transport along a concatenated path is the composition of the two transport maps between fibers.

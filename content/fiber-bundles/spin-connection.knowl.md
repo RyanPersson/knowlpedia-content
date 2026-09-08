@@ -6,12 +6,12 @@ summary = "The lift of the Levi–Civita connection from the oriented orthonorma
 aliases = ["lifted Levi–Civita connection", "connection on a spin bundle"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/spin-structure", "fiber-bundles/principal-connection", "fiber-bundles/levicivita-connection-connection"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/spin-structure", "fiber-bundles/principal-connection", "fiber-bundles/levicivita-connection-connection", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/differential-of-a-smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \((M,g)\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian \(n\)-manifold]] with [[fiber-bundles/spin-structure|spin structure]] \(\Phi:P_{\mathrm{Spin}}\to P_{\mathrm{SO}}\), and let \(\lambda:\mathrm{Spin}(n)\to\mathrm{SO}(n)\) be the double covering. The **spin connection** is the unique [[fiber-bundles/principal-connection|principal connection]] \(\widetilde\omega\) on \(P_{\mathrm{Spin}}\) satisfying
+Let \((M,g)\) be an oriented [[differential-geometry/riemannian-manifold|Riemannian \(n\)-manifold]], \(n\ge1\), with [[fiber-bundles/spin-structure|spin structure]] \(\Phi:P_{\mathrm{Spin}}\to P_{\mathrm{SO}}\), and let \(\lambda:\mathrm{Spin}(n)\to\mathrm{SO}(n)\) be the double covering. The **spin connection** is the unique [[fiber-bundles/principal-connection|principal connection]] \(\widetilde\omega\) on \(P_{\mathrm{Spin}}\) satisfying
 \[
 d\lambda\circ\widetilde\omega=\Phi^*\omega_{\mathrm{LC}},
 \]
@@ -28,7 +28,7 @@ This compatibility is the bridge from Riemannian parallel transport to the [[non
 
 ## Curvature and local form
 
-The curvature of \(\widetilde\omega\) maps under \(d\lambda\) to the pullback of the Riemannian curvature form. In a local oriented orthonormal frame, if \(\omega_{ij}\) are the Levi–Civita connection one-forms, then the induced spinor derivative has the familiar form
+The curvature of \(\widetilde\omega\) maps under \(d\lambda\) to the pullback of the Riemannian curvature form. In a local oriented orthonormal frame, with Clifford convention \(e_i\cdot e_j+e_j\cdot e_i=-2\delta_{ij}\), if \(\omega_{ij}(X)=g(\nabla_Xe_i,e_j)\) are the Levi–Civita connection one-forms, then the induced spinor derivative has the familiar form
 \[
 \nabla^S=d+\frac14\sum_{i,j}\omega_{ij}\,e_i\mathbin{\cdot}e_j.
 \]

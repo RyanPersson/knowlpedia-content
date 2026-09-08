@@ -5058,6 +5058,2753 @@
         "linear-algebra/inner-product",
         "lie-groups/adjoint-action-of-a-lie-group"
       ]
+    },
+    {
+      "id": "fiber-bundles/atiyah-sequence-tpgtm0",
+      "outcome": "corrected",
+      "source_sha256": "77e9feb1b2f9b1668266b82b9a59b55beb43310d9dc09f26c825ab8362073f36",
+      "evidence": "FullAtiyahsequence/algebroid/splitting read jointly. Sequence positivefundamental injection disagreed with linkedalgebroid negative injection necessary for standardadLiebracket; nownegative. Vectorbundle exactness unaffected; rightinvariantfields bracketopposite checksLiecompatibility. Trivial split map mustinclusion notprojection, corrected. Exactnessallfourconditions retainedcore.",
+      "previous_prerequisites": [
+        "fiber-bundles/atiyah-algebroid-of-a-principal-bundle",
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "fiber-bundles/vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/atiyah-algebroid-of-a-principal-bundle",
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "fiber-bundles/vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/splitting-of-the-atiyah-sequence",
+      "outcome": "corrected",
+      "source_sha256": "96b2a607c5d7f1498a8ae63a56aad37ab395b80254c790bf58a496b9198c6c6f",
+      "evidence": "Complete\u03c3 rightinverse definition read. Actualvectorbundlemap inputadded; connectionequivalence andcurvature arederivedlater notreverseprereq. Matchednegativeverticalcoordinate toAtiyahalgebroid: horizontalsat(x,e) vertical-A so\u03c3=(v,A). Undernegativefundamentalinjection bracketdefect+correspondstoF=dA+1/2[A,A], matchingexisting\u03a9\u03c3 formula. Bothflatness examplesconsistent.",
+      "previous_prerequisites": [
+        "fiber-bundles/atiyah-sequence-tpgtm0",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/atiyah-sequence-tpgtm0",
+        "fiber-bundles/vector-bundle-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/equivalence-principal-connections-splittings-of-the-atiyah-sequence",
+      "outcome": "corrected",
+      "source_sha256": "2b1b348674a679ee6571f045c8a70f0ea0c385c940bb6c2122031f249925ff3b",
+      "evidence": "Fullbijection theorem actualstatementhiddenunderfirstheading restoredcore. Addedoutputsplittingdirectconcept. Inverse H_p={v:[v]=s(d\u03c0v)} givesunique G-invariantcomplement; quotientT_pP->At_xiso checkswell-definedness. Trivialcoordinate changed+A withexplicitnegativeverticalconvention toagreealgebroid/sequence.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/atiyah-sequence-tpgtm0",
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/atiyah-sequence-tpgtm0",
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/splitting-of-the-atiyah-sequence"
+      ]
+    },
+    {
+      "id": "fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection",
+      "outcome": "corrected",
+      "source_sha256": "900154a5f05e3752f2f599e6bc343af02a1593dc4191e632d9bce4bc4297bae9",
+      "evidence": "Fullconstruction nowopeningincludinghorizontal lift formula notonlyAtiyahbackground. Wrongmoduleexactsequence targetreplacedbundleexactsequence. Addedliftandoutputsplitting/bundlemap inputs. s\u03c9 definedanypfiber well-definedbyG-equivariance, anchorrightinverse. Trivialcoordinate+A reconcilednegativefundamentalinclusion, nochangeintrinsicconstruction.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/atiyah-sequence-tpgtm0",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/atiyah-sequence-tpgtm0",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/splitting-of-the-atiyah-sequence",
+        "fiber-bundles/horizontal-lift-of-a-tangent-vector",
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/vector-bundle-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover",
+      "outcome": "corrected",
+      "source_sha256": "3a159660e7667343f06a12fea03a3e6183919520b80b076231d15e801a8b7ff6",
+      "evidence": "Full3axioms retainedopening, supportactualclosure definitioninputadded andsmoothfunctiontarget. Existenceconsequence movedlater. Corrected unnecessaryoverlapagreement gluingclaim: each\u03c1i\u03b1i extendszero smoothlybecause supportcontainedUi; locallyfinitesum smooth evenwhen\u03b1i differ. Positivity/sum1 allretained.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "topology/open-cover"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "topology/open-cover",
+        "shared-foundations/support-of-a-function",
+        "real-analysis/smooth-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/existence-of-partitions-of-unity-on-paracompact-manifolds",
+      "outcome": "corrected",
+      "source_sha256": "5655ef18ede928b5f26a59eee11b03cb241401620afcf4b206e2d4898cb5a501",
+      "evidence": "Full3conditionsexistencetheorem checked againstpartitiondefinition. Actualoutputpartition prerequisiteadded; indexedcover mayincludezerofunctions, locallyfinitesupports andsupportcontainment canbeachievedbyshrink+refine thenaggregate. No needglobalfinitecover orcompactness.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/paracompact-manifold",
+        "topology/open-cover"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/paracompact-manifold",
+        "topology/open-cover",
+        "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"
+      ]
+    },
+    {
+      "id": "fiber-bundles/existence-of-principal-connections-on-smooth-manifolds",
+      "outcome": "corrected",
+      "source_sha256": "bfc89e68538f922a728355da6d00e60d50df51bf69f9bc9fe168c6cc03faeab4",
+      "evidence": "Fullprincipalconnectionexistencetheorem read. SmoothmanifoldstandardHausdorffsecondcountable givesparacompactness; partitionsunityproof notdefininginputandnotinbodycore. Addedactualoutputprincipalconnection. Producthorizontal,framebundle,roundHopfexamples checkedvalidforanyLiegroup; no compactGrequired.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover",
+      "outcome": "corrected",
+      "source_sha256": "f210fe5c414f9d80f186ea337b50b8f90d7d2cd58aa544cad77ffd3a82d0c840",
+      "evidence": "Resolved smooth scalarfunction to actual smooth-map manifolddefinition; no nonexistent smooth-functiontarget. Fullpartition/supportaxioms unchanged fromrootcheck.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "topology/open-cover",
+        "shared-foundations/support-of-a-function",
+        "real-analysis/smooth-function"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "topology/open-cover",
+        "shared-foundations/support-of-a-function",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/exponential-map",
+      "outcome": "corrected",
+      "source_sha256": "caa7474fa001781b3e99a2087dadf39c2b4df30a05ab7a8109bf71f10b1ffbf6",
+      "evidence": "Fullsource andleftinvariantfielddefinition checked. ExplicitODEandglobalcompleteness justifytime1construction (notarbitraryfieldflow). exp(tX)oneparam subgroup extendslocalODE globallybytranslation. Localdiffeomorphism/dexp=id areconsequenceslater. Matrix/additive/circle examplesvalid; duplicateLiealgebrawordremoved.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/left-invariant-vector-field"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/left-invariant-vector-field"
+      ]
+    },
+    {
+      "id": "fiber-bundles/exterior-covariant-derivative",
+      "outcome": "corrected",
+      "source_sha256": "13be5980cc0dbc009dc112f51e775f1262d243ef5c3301409a1953c1dee3c3e0",
+      "evidence": "Fulltensorialaxioms andhorizontalprojection d\u03c9definition read; finiteD smoothrepresentationneededforcoefficientdifferentiation and\u03c1*. Addedactualrepresentation/forms/pullback/verticalinputs. dcomponentwiseVvalid; squarecurvature isderivedlater. Horizontality/G-equivariance ensure outputtensorial, adjointlocald+[A,] andBianchi agree withrootbasecovariantoperator.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/exterior-derivative"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/exterior-derivative",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/pullback-of-differential-forms",
+        "fiber-bundles/vertical-subbundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/hermitian-connection",
+      "outcome": "corrected",
+      "source_sha256": "a1a19ae3e47f8b0a8be7d844159223177004db154da82502d7684050c22497c3",
+      "evidence": "Fullmetriccompatibilityidentity andequivalenceschecked. Xreal smoothvectorfield targetmakesconjugatelinearfirstslotformula valid; sectionsinputadded. Differentiating h(s,t)alongparallelfields givesunitarytransport; unitaryframe matrixskewHermitian. Chernuniquenessrequiresfixedholomorphicstructure stated. No falseglobaltransport forlinearconnections.",
+      "previous_prerequisites": [
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "linear-algebra/inner-product"
+      ],
+      "prerequisites": [
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "linear-algebra/inner-product",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/hom-bundle-connection",
+      "outcome": "corrected",
+      "source_sha256": "fd640b6c7a12501695e709e6cf8be5638634498e643ddd048049129660aa98c8",
+      "evidence": "FullHomdefiningevaluationidentity andcurvature/localformulaschecked. HominputnowdefinedviaE*\u2297F samefield andactualbundleprereqs. Tensorconnectionisalternativeconstructionlater, notneededtointerpretdefiningrule. FixedHermitianmetric identification: E->E* conjugatelinear, notcanonicalcomplexlinear E*->conjugatedual. LocaldT+AFT-TAE givesRFT-TRE, validdegreezero.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/tensor-product-connection",
+        "fiber-bundles/dual-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/dual-vector-bundle",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tensor-product-connection",
+      "outcome": "corrected",
+      "source_sha256": "5a9d982a0ae69e6ea37144c15212915afc03dfa75316a732ea3d18153b29f01a",
+      "evidence": "FullLeibnizbalancedconstruction/sourceandtensorbundle targets read. Explicitcommonfield excludesmixedrealcomplexambiguity. Formula forfs\u2297t=s\u2297ft yields dfonceeitherway; curvaturecross terms cancelby1formsign. Flat tensorconversefailsL\u2297L* withnonflatlineconnection asstated. No furtherprereqchanges.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/section-of-a-fiber-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/section-of-a-fiber-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/leibniz-rule-for-a-connection",
+      "outcome": "corrected",
+      "source_sha256": "2fa7aedd12c3d38b35c1858d6c376b3fa3d06821aa6d69ab953daed1e2919de7",
+      "evidence": "Readfullscalar/sectionaxioms. PriorRbilinearoperationdidnotensurecomplexconnectionifEcomplex. NowKlinearsection andC\u221eRlinearrealX, LeibnizforKvaluedf suppliescompletebothfieldaxioms. Exterior derivativeonlyalternativeformlater, removededge. Additivityretained; constantsargumentcorrectKscope.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/module-of-smooth-sections"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/module-of-smooth-sections"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-differential-form-on-a-principal-bundle",
+      "outcome": "corrected",
+      "source_sha256": "0009b453505f81fa031737b1aae76524fb4b02c47ccd0b8c2e23d47b3e259641",
+      "evidence": "Fullannihilationdefinition andexamplesread. HorizontalitydoesnotrequireconnectionnorGinvariance; separatebasicformcomparisonlaterandremoveinvarianceedge. k0vacuousconditionexplicit. Curvature/solder examplesvectorvalued extensionofsameannihilationcondition; connectionformfailsreproduction unlessLiealgebra0 (wordingnothorizontal shouldqualify next).",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/vertical-subbundle",
+        "fiber-bundles/invariant-differential-form",
+        "fiber-bundles/differential-k-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/vertical-subbundle",
+        "fiber-bundles/differential-k-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-distribution",
+      "outcome": "corrected",
+      "source_sha256": "b2faa67b256863880ba852cd48f27d644650d9ebe0425f06311486abfed3dfdc",
+      "evidence": "Fullsmoothlocalspan+directcomplementaxiomschecked. Surjectivesubmersion/vertical/directsum areactualinputs; horizontalsubbundle equivalentviewpointlater. Foliationtransversetofibers dimensionbase impliescomplement, product andEhresmann examplesvalid. No fullcurveexistenceclaim.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-field",
+        "fiber-bundles/horizontal-subbundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-field",
+        "fiber-bundles/fibered-manifold",
+        "fiber-bundles/vertical-subbundle",
+        "convex-analysis/direct-sum-of-subspaces"
+      ]
+    },
+    {
+      "id": "fiber-bundles/integrable-horizontal-distribution",
+      "outcome": "corrected",
+      "source_sha256": "6dec39f5ec9b00a536189b9c518f45ce65ea550cd210b90724b04a508bfc31b9",
+      "evidence": "Fullinvolutivitydefinitionforhorizontalvectorfields retainedopening; Frobeniusfoliationequivalenceandcurvaturemeasurementlater, so optionalcurvature/Ehresmannedgesremoved. Constant-rank horizontals guaranteeFrobeniusconditions; leaveslocallyprojectdiffeomorphicbase. Flatprincipal androundsphere examplescorrect.",
+      "previous_prerequisites": [
+        "fiber-bundles/horizontal-distribution",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/lie-bracket",
+        "fiber-bundles/curvature",
+        "fiber-bundles/ehresmann-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/horizontal-distribution",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/lie-bracket"
+      ]
+    },
+    {
+      "id": "fiber-bundles/interior-product",
+      "outcome": "corrected",
+      "source_sha256": "002b0e9998d098a65edd11e34debf98eb0b08964bb62001d9324ddb6f4088cd6",
+      "evidence": "Fullinsertiondefinitionandk0=0read. Productsign(-1)^degree andCartanidentityarederivedidentitiesmovedlater. Coordinates\u2202z insertedin3form crosses2slots so+dx\u2227dy. Symplecticiso via nondegenerate pairing valid; Hamiltonian signexplicitconvention.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-field",
+        "fiber-bundles/differential-k-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-field",
+        "fiber-bundles/differential-k-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/invariant-differential-form",
+      "outcome": "corrected",
+      "source_sha256": "05a62cac9b97ddb4e8900bf103f7738954e30c914ff750dc87deeb5252838516",
+      "evidence": "FullGinvariancepullbackcriterion checked; addedactualpullbackoperator missing. Lie derivativecriterion needsconnectedG (present), deRhamdcommutationconsequence laterbothnotdefiningdeps. Discretegroupcounterexampleexplainswhyconnectednessneeded. SphereSOorientationpreservation andbasicrightaction examplesvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/lie-derivative",
+        "differential-geometry/de-rham-complex",
+        "fiber-bundles/exterior-derivative"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/pullback-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/invariant-function",
+      "outcome": "corrected",
+      "source_sha256": "8d6fdce081435d7d83222bde0c646b6261baaf1fbefa3c24b02425ccb5deacf9",
+      "evidence": "FullsmoothGinvariancecriterion read; smooth-mapactualinputadded, orbitsonlylatercharacterizationremoved. Fixedfalse smoothnormexample: normnondifferentiableorigin, norm\u00b2smooth. Smoothquotientdescent requiresquotientsubmersion stated; transitivecaseconstantvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/orbit-of-a-group-action"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-differential-form-on-a-principal-bundle",
+      "outcome": "corrected",
+      "source_sha256": "e99e6eddf0672931a9ad30d668fe04e020128cab51e491eb74102407ad4605af",
+      "evidence": "Finished earlierrootreviewedgecase: discreteGhaszeroLiealgebra/zeroconnectionform, hencehorizontal. ReproductionprovesnonhorizontalityonlynonzeroLiealgebra nowexplicit.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/vertical-subbundle",
+        "fiber-bundles/differential-k-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/vertical-subbundle",
+        "fiber-bundles/differential-k-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/hom-bundle-connection",
+      "outcome": "corrected",
+      "source_sha256": "6d855fc1ecd2e3da31ce08abdd75413e8437b3f203ccc1739ee526ca65e4d140",
+      "evidence": "Whitespace-only followup to root fullHomreview, trimsnewsectionboundaryspace withoutalteringmath; samefield/dualtensor/evaluationaxioms retained.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/dual-vector-bundle",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/dual-vector-bundle",
+        "fiber-bundles/tensor-product-vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/intrinsic-torsion-of-a-g-structure",
+      "outcome": "corrected",
+      "source_sha256": "ac30ee5a704ea1729d12aef106692f8ec6a7540e8b48cc541f8a406a1f35a113",
+      "evidence": "Full\u03b4A formulaandquotientdefinitionread. Clarified torsion is globaltensor withframecomponentsnotoneelementoffixedVtensor. Addedactualtorsion/exterior/tensor/dual/quotient/sectioninputs. Change\u2207new=\u2207+A givesTnew=T+A(u)v-A(v)u. \u03b4imageconstant-rankassociatedsubbundle; vanishingclass permitsglobal lifts bysmoothbundlesplitting, kernelparametrizeschoices. O(n)\u03b4isisoandLCtorsionfree; U(n)componentsvalid.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/g-structure",
+        "fiber-bundles/connection-compatible-with-a-reduction",
+        "fiber-bundles/associated-bundle"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/g-structure",
+        "fiber-bundles/connection-compatible-with-a-reduction",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/torsion-2-form",
+        "linear-algebra/exterior-power",
+        "linear-algebra/tensor-product",
+        "linear-algebra/dual-space",
+        "convex-analysis/quotient-vector-space-codimension",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+      "outcome": "corrected",
+      "source_sha256": "86f682ccf1ee61d7ec8bd587c73901dc26c680851194bc997e4d59ca70a17882",
+      "evidence": "FullAdinvariancedefinition andpolarization scopechecked. AddedSym/dual/multilinearactualinputs, k>=0 constantcaseandreal/complexcoefficients explicit. Disconnectedcomponents mustallacttrivially, infinitesimalonlyG0correct. Tracepowers/killing/PfaffianSOexampleschecked; PfaffianchangesunderorientationreverseO notclaimed.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/adjoint-action-of-a-lie-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "algebra-modules/symmetric-algebra",
+        "linear-algebra/dual-space",
+        "linear-algebra/multilinear-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/jet-bundle",
+      "outcome": "corrected",
+      "source_sha256": "e3f442fafc135f76ebdd504c4ae8d041a2da6f1f9bf7da4f666e47134aaad035",
+      "evidence": "Fulltwooriginaldefinitionshiddenbelowheadings andsmoothstructureunspecified. Replacedopeningwithactualjet equivalence(value,differential),set/projections,andjetcoordinateatlas withchainrule transitions. Everylinear splittingd\u03c0 realizedbylocalsectiongraph, derivativesfree, affinefiberHom(TM,V)later. Functionjet R\u00d7T*M andtrivialFexamplesverified. No arbitrarysmoothstructure merelymakingprojectionsbundles used.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-fiber-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "fiber-bundles/fiber-coordinates",
+        "real-analysis/partial-derivative"
+      ]
+    },
+    {
+      "id": "fiber-bundles/l2-inner-product-on-bundle-valued-forms",
+      "outcome": "corrected",
+      "source_sha256": "620904b55a3ee016d0a977e78933b7e60b08069d409028c5633e697020619e84",
+      "evidence": "Fullintegralnorm/Hodge/completionread. Corecompactlysupported formsneedintegration/supportactualinputsadded. CauchySchwarzpointwise+integrability givespairing,positivitysmoothnonzeroonopen givesstrictnorm. Complexsesquilinearconventionstated; densityorientationfreealternativevalid. R0constantisL2, so noncompactR^nexamplequalifiedn>=1.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "linear-algebra/inner-product",
+        "fiber-bundles/vector-bundle-valued-differential-form"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "linear-algebra/inner-product",
+        "fiber-bundles/vector-bundle-valued-differential-form",
+        "differential-geometry/integration-of-differential-forms",
+        "fiber-bundles/support-of-a-section"
+      ]
+    },
+    {
+      "id": "fiber-bundles/left-translation-l-g",
+      "outcome": "corrected",
+      "source_sha256": "ccd492bf23d85ef30f81d86252db3ed387a00b22a2251c6bfa5157919c36412a",
+      "evidence": "FullL_g(h)=ghdefiningmapfirst, smoothness/inverse/differentialpropertieslater. Removedsevenoptionalconsequenceandcomparisondeps (includingreverseleftinvariant/exp). AssociativitygivesL_gL_h=L_gh, derivative matrixAV andadditiveidentitycorrect.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "lie-groups/left-invariant-vector-field",
+        "lie-groups/exponential-map-lie-group",
+        "fiber-bundles/right-translation-r-g"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/lemma-chernweil-forms-are-basic",
+      "outcome": "corrected",
+      "source_sha256": "37bdc9bdcf25e9bdcf5704ddd80ec1758ff038b0854f5c22ee3f9199f229ead8",
+      "evidence": "Fullbasicnessstatement/proof/examples checked. Missinginvariantpoly/CWsubstitution/pullbackinputsadded. Scalarfieldrealcomplexexplicit accommodatesU1identityiR. Correctedtr\u03a9^krepresentsChernclassesfalse: normalizedtracepowersgiveCherncharacter, elementarysymmetriccombinationsgiveChernclasses. Pontryagintrace\u00b2needsnormalization. InvariancefromAdQ,horizfrom\u03a9, uniquedescentviasurjectivesubmersion.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/basic-differential-form-on-a-principal-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/chernweil-form",
+        "fiber-bundles/pullback-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/lemma-covariant-exterior-derivative-preserves-tensoriality",
+      "outcome": "corrected",
+      "source_sha256": "6160c4121ebb30711bccee658a75351bb19d00bac005c636b92b01f5e31cc65d",
+      "evidence": "Entirelemma hiddenaftersecondheading; movedactualtensorialoutputstatement intoopening afterDdefinition. Addedactuald/pullback/forminputs. D=d+\u03c1*\u03c9\u2227 on tensorial forms isglobalonP notmerelylocal, correctedwording. Verticalcontraction cancels because i\u03be#d\u03b1=L\u03be#\u03b1=-\u03c1*\u03be \u03b1; pullbackequivarianceandhorcommutesRg provepreservation. k0vacuumhorizontal valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/vertical-subbundle",
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action",
+        "fiber-bundles/equivariant-map",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/connection-1-form-on-a-principal-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/vertical-subbundle",
+        "fiber-bundles/convention-fundamental-vector-field-x-is-defined-using-the-right-action",
+        "fiber-bundles/equivariant-map",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/connection-1-form-on-a-principal-bundle",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/pullback-of-differential-forms",
+        "fiber-bundles/differential-k-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/lie-derivative",
+      "outcome": "corrected",
+      "source_sha256": "b13b75b172a56b040e6bc3eae5e981fac05e025e266281d03290d5c6f4f67a47",
+      "evidence": "Fullflowdefinition fixedincorrectcategorypullbacktarget toforms. ExplicitlocalODE onlynear0 avoidscompletevectorfieldassumption; Cartan equivalentformula later optionaldepsremoved. Rotationdiv0, leftinvariantform differentiatedbyflowrighttranslationremainsleftinvariantbecauseleft/rightcommute. No claimLie derivativevanishes forbothleftinvariant.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/interior-product",
+        "fiber-bundles/exterior-derivative"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/pullback-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/lie-derivative-of-a-differential-form",
+      "outcome": "corrected",
+      "source_sha256": "9ec19e6486497add58de74326d43dbad041cfdae8a406fb03176085733325aa6",
+      "evidence": "FullsecondLieformdefinition andpropertieschecked. Addedactualforminput andexplicitlocalflowODE. Cartan,dcommutation,degree0Leibniz consistent. Translationexampleusesdx\u00b2so n>=2nowexplicit; radialLiearea2 androtationzero checkedcoordinateformula.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/pullback-of-differential-forms"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/pullback-of-differential-forms",
+        "fiber-bundles/differential-k-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve",
+      "outcome": "corrected",
+      "source_sha256": "b46fb17eba4d0a31c2e5d8c7d75983afc89ce62b74b203e4cf5cdccb7438ff80",
+      "evidence": "Rootreadfulltheorem afteragentmissednonabelianODE error. Standard\u03c9=Adg^-1A+g^-1dg givesdotg g^-1=-A, notg^-1dotg=-A. CorrectedrightlogODE andequivalentAdformula. Compacttimeboundedrightinvariantvelocitycompleteinvariantmetric yieldsglobalprincipal lift withoutcompactG, whereasEhresmann mayblowup. Complete3liftconditionsopening, outputlift/smoothcurveinputsadded.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/flat-connection-a0-on-a-trivial-bundle",
+      "outcome": "corrected",
+      "source_sha256": "fc1329c2ae378911733fd657cfb2a01de18d9d4d206ceb6fb8e843f1d809cbb3",
+      "evidence": "FullproductH=TM\u22950 definitionwasbelowheading, restoredopening. RighttranslationpreservesH; canonicalgaugeA0, MaurerCartanprincipalformflat. Wholeloopscoordinateconstant henceholonomytrivial evenbase\u03c01nonzero; associatedd examplesvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/trivial-principal-bundle-mgm",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/trivial-principal-bundle-mgm",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/flat-principal-connection",
+      "outcome": "corrected",
+      "source_sha256": "62ae8d69aee6c5b1dc424d38036f1e5a79185a9bd2d7e36be90072e7af9349fa",
+      "evidence": "RootfullsourcecheckcaughtquotienttwistRIGHT\u03c1^-1 doesnotcommutewithrightprincipalaction andcanfailactionlaw. Replacedleft\u03c1withcoherentdeckconventionlink. Flatness\u03a90 remainscore, homotopy/holonomyconsequenceslater. ProductMaurerCartan andconstantcommutingtorusA correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/flat-vector-bundle-connection",
+      "outcome": "corrected",
+      "source_sha256": "8386504d3b1d89b50097e3ac4ddf4042f3694a2db617145b9eaca8fef5c081b5",
+      "evidence": "FullR\u22070 definition/all3examplesread. Consequences localparallelframes,homotopytransport,frameintegrability movedlater. CircleODEsprime+As0 givesexp(-2\u03c0A)correct, evenwhenbundletrivial holonomynontrivial. Localssystemwordinginterpretedflatsmoothbundle associatedlocallyconstant sheaf.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-group",
+      "outcome": "corrected",
+      "source_sha256": "f20125e58ea458638e88919486490202f219d6d64b6c251b401e0b75e25e8f50",
+      "evidence": "Fullbasedendpointdefinition andconjugationchecked. Subgroupclosure fromreverseandconcatenation, addedactualsubgroupinput. Piecewisesmoothderivativeonlyonpieces clarified. AddednaturalimmersedLiegroupstructure warning, irrationalcycliccircle examplehaszeroholonomyalgebra despitepositive-dimensionalclosure. HopfcurvaturefluxphasescoverU1.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve",
+        "algebra-groups/subgroup"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-algebra",
+      "outcome": "corrected",
+      "source_sha256": "0dd6bfcc0f190e45f598523ea84d3971263532f4310663094c517d3a84981f71",
+      "evidence": "FullLie(Hol)definition andexampleschecked. Explicitimmersedstructure needednonclosedholonomy; irrationalflatU1monodromy haszeroLiealgebra butclosureU1LiealgebraiR. Curvaturespangivesflatzero, productmetricdirectsumvalid. BasepointchangeAdh^-1 correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/parallel-transport",
+        "lie-groups/lie-algebra"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/parallel-transport",
+        "lie-groups/lie-algebra"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-representation",
+      "outcome": "corrected",
+      "source_sha256": "935ab260bc44fc7966b1ba7be78c0a7facdd94d536a6714abc992ed482d87e59",
+      "evidence": "Rootfullsourcechecksnonabelianorder: PT2(PT1p)=PT2(p g1)=p g2g1, so statedrightfactorfirstloopproductmakes\u03c1=g hom. Addedmissinggroup-homomorphismoutput. Oppositeconcatenationwouldantihom, nowunambiguous. Fiberchangeh givesh^-1\u03c1h; circleexampleandtrivialvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/flat-principal-connection",
+        "fiber-bundles/holonomy-group",
+        "topology/fundamental-group",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/flat-principal-connection",
+        "fiber-bundles/holonomy-group",
+        "topology/fundamental-group",
+        "fiber-bundles/parallel-transport",
+        "algebra-groups/group-homomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-correspondence-for-flat-connections",
+      "outcome": "corrected",
+      "source_sha256": "d3ff4141d1bfa5f50b547f7e3178219bec2de2c1f587e245f7fb8fcda62067e7",
+      "evidence": "Fullclassificationandquotientread. Removedambiguouspointwiseinverseofrepresentation(whichisnotnonabelianhom) byexplicitcompatibledeckleftaction: lift\u03b3ends\u03b3^-1x0 then diagonal\u03c1quotientendpoint\u03c1(\u03b3). LefttwistcommutesrightG. Fixedbundlecomponentqualification andcompactGclosedorbits valid. Actualhom/isom/universalcoverinputsadded core quotientconstruction.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/holonomy-representation",
+        "algebra-groups/conjugation-action",
+        "fiber-bundles/flat-principal-connection",
+        "topology/fundamental-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/holonomy-representation",
+        "algebra-groups/conjugation-action",
+        "fiber-bundles/flat-principal-connection",
+        "topology/fundamental-group",
+        "algebra-groups/group-homomorphism",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "topology/universal-cover"
+      ]
+    },
+    {
+      "id": "fiber-bundles/holonomy-reduction-principle",
+      "outcome": "corrected",
+      "source_sha256": "c6cb9098d65e3c09f137468a7b3edfe525ea5721e2f05472d7225a9025fc556b",
+      "evidence": "RootfulltheoremwasSTILLhiddenafteragent3corrections; restoredhypotheses/conclusion/converseopening. ActualHsubbundleoutputkept; associatedparallelsectionequivalence nowlater sooptionalinputsremoved. ReductionQ=alltransport(p)HclosedembeddedsubbundleviaHol\u2282H; restrictionhvalued. TrivialfullholonomygivesglobalparallelframeonANYconnectedbase, removedunneeded\u03c01hypothesis.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/principal-h-subbundle",
+        "fiber-bundles/associated-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/principal-h-subbundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-curve",
+      "outcome": "corrected",
+      "source_sha256": "1739a82b28c296816b715226a2cf365ec40f4c9944063d1e41f7d673dc7241b8",
+      "evidence": "FullEhresmannlocalcurve definitionread, maximalJonlynotallI correct. Addedactualdifferentialvelocityinput. Counterexample\u2202x+y\u00b2\u2202y onR\u00b2projection yieldsblowup; localexistence holds. Product/principal/linearconnectionexamples consistent.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-of-a-smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-tangent-vector",
+      "outcome": "corrected",
+      "source_sha256": "91a364bd1cf25ac612ea68560f9ba05f8999d8bb0fd0f25cc54d50eda0085823",
+      "evidence": "Fullinverse d\u03c0|Hconstruction andexamplesread. Kernelvertical/complement plus surjectivity provesuniquehorizontalrepresentative, addedactualdifferential/tangentspaceinputs. Smoothbundleinverse ensuresdependencesmooth, nocompletenessneeded.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-subbundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-subbundle",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "differential-geometry/tangent-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/horizontal-lift-of-a-vector-field",
+      "outcome": "corrected",
+      "source_sha256": "3b1a4a64bc8ce8a956a2c9220e95d55b2999e71eed7dfbcaf30376d0cfc97533",
+      "evidence": "FulltwoaxiomsHvaluedand\u03c0related andexampleschecked. d\u03c0|Hsmoothbundleiso definesuniqueglobalsmoothlift; addedactualdifferentialinput. Liftedvectorfieldmaynotcomplete evenXcomplete, nofalseclaim. PrincipalG-equivariance followsuniqueness, product(X,0)correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/differential-of-a-smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/local-system",
+      "outcome": "corrected",
+      "source_sha256": "f3604e932a43bf915017380c10a3a979d3f092ec20b9da31c9a79a9f9801066f",
+      "evidence": "FullgeneralRmodulelocallyconstantsheafdefinitionread. Fixedsmoothflatconnectionclaim onarbitrarytopologicalX ->smoothmanifoldscope. GeneralmodulemonodromyAut_R(L), GLrbasisformonlyfinitefree (finite-ranknotmeaningfuloverarbitraryR). Addedring/module/topology/constant-sheaf actualinputs. Monodromyequivalenceunderlocallypathconn+semilocalsimplyconn hypothesislater.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "linear-algebra/vector-space"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/sheaf",
+        "algebra-rings/ring",
+        "algebra-modules/module",
+        "topology/topological-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/moduli-space-of-flat-connections",
+      "outcome": "corrected",
+      "source_sha256": "1acc36b14c5ba70b2869c981c56e0ed35e18fdc3be0ca76c14498a1ca69ac6ab",
+      "evidence": "FullfixedPquotient andlocaldeformationbodyread. Actualquotientset/principalconnectioninputsadded. AtiyahBott symplecticclaimneedsinvariantnondegeneratepairing, nowcompactG+chosenpositiveAdinnerproduct. U1trivialbundleflatconnections closedreal1forms modulointegralperiodgaugelattice givesH1R/2\u03c0H1Z; missesnontrivialtorsionbundlesintentionallyfixedP.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/flat-principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/flat-principal-connection",
+        "shared-foundations/quotient-set",
+        "fiber-bundles/principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/parallel-section-along-a-curve",
+      "outcome": "corrected",
+      "source_sha256": "b64f873b74c2f3a5b220be2a7e6c5c96e679a7a4d8d38df1a6c6042ea1455ea3",
+      "evidence": "FullparallelD/dt0definitionread. Pullbackbundle/connectionactualinputsadded. Existenceuniqueness isconsequence notlogicalequivalentdefinition, heading/textfixed. LinearODEextendsallinterval, rankoneexponentialminusintegral andEuclideanconstant correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/pullback-connection-on-a-vector-bundle",
+        "fiber-bundles/pullback-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/parallel-transport",
+      "outcome": "corrected",
+      "source_sha256": "a655f4fa292c9b85c2190434724c4fc0ab6ba8e6966b45251f3b5b3b513da28c",
+      "evidence": "FullopenD\u03b3endpointdefinition/inverseequalityDbarread, correctfiniteintervalODEopenness. Forwardcompleteforonepathnotnecessarilyonto appropriatelywarned; vector/principalcomplete. GeneralEhresmann holonomylivesDiff(fiber), notundefinedstructureG; remarkcorrected. Flatmonodromy globalpathdependencenotmeasuredbycurvaturealone, clarified. Lineexp(-\u222bA)rightsign.",
+      "previous_prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve"
+      ],
+      "prerequisites": [
+        "fiber-bundles/ehresmann-connection",
+        "fiber-bundles/horizontal-lift-of-a-curve",
+        "shared-foundations/function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/parallel-transport-defines-a-g-equivariant-map-between-fibers",
+      "outcome": "corrected",
+      "source_sha256": "c009de253d966d045182cdfd03ae86538bc46467edbd334a33b1f04e87d5b004",
+      "evidence": "Fullprincipalendpointtransporttheorem3claimsread. G-equivariancefromtranslateduniquelifts, inversefromreversepath, smoothparameterdependenceODE. Addedactualequivariant/diffeomorphismoutputconcepts. PrincipalgloballiftvalidanyLieG. U1phase andflatcase consistent.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/existenceuniqueness-of-horizontal-lift-of-a-curve",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/equivariant-map",
+        "fiber-bundles/diffeomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-flatness-implies-holonomy-depends-only-on-homotopy-class-of-loops",
+      "outcome": "corrected",
+      "source_sha256": "b5dca0a27d387749474daed0fd69e6f3ce0ebc9485b807a6bf4ef6992c56a543",
+      "evidence": "Fulltheorem hiddenheadingrestoredopening withhomotopy/\u03c01/homoutputsdeps. FixedU1potentialmusti\u03bbd\u03b8 forreal\u03bb andparallelholonomyexp(-2\u03c0i\u03bb), consistentdirac/lineODE. Rightfactorfirstloopproductexplicitnonabelianhom. Endpointfixedflattransport theoremvalid; Mobiusdiscreteholonomy-1correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/curvature"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/curvature",
+        "topology/homotopy",
+        "topology/fundamental-group",
+        "algebra-groups/group-homomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-parallel-transport-respects-concatenation-of-paths",
+      "outcome": "corrected",
+      "source_sha256": "9e0c7bba9664b0bc4b0dd32c95622870e3f5562b7b93aafd134ab4ed41fdbfff",
+      "evidence": "Fullcompositiontheoremstatementrestoredopening. Rightfactorfirst\u03b32*\u03b31 matchesPT2\u2218PT1 andg2g1 endpointmultiplication. Uniqueparallelsolutionpatching proves claim; piecewisesmoothderivativesonlypieces andrescaletime handled. Addedactualcompositioninput.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/parallel-transport",
+        "shared-foundations/composition"
+      ]
+    },
+    {
+      "id": "fiber-bundles/restricted-holonomy-group",
+      "outcome": "corrected",
+      "source_sha256": "d0c59dd28e6a982deaff8f256dbfea46456fcc284feb493b3b2ec45bb027a6b8",
+      "evidence": "Fullcontractibleloopsubgroupdefinition needsbasedhomotopyinputadded. IdentitycomponentrefersnaturalimmersedLiegroupNOTclosure, explicit; connectedbasecanrestrictcomponent. Flatirrationalcyclic subgrouprestrictedidentity despiteclosurecircle. DiscreteG andsimplyconnectedbaseexamplesvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/smooth-manifold",
+        "topology/homotopy"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tangent-space-to-flat-connection-moduli",
+      "outcome": "corrected",
+      "source_sha256": "715d42650c6ac1bfc89cad7c9b94d4fbb9edd27bb88ca52f79c9bc6da5d495a2",
+      "evidence": "FulldeformationtangentH1quotient formula andobstructionparagraphread. Addedactualmoduliproblem/quotientspaceinputs. LinearizationdAa0 andgaugedA\u03be yieldH1; H2containsprimaryquadraticbracket obstruction notguaranteednonzero. Ordinarycoarsetangentonlysmoothirreducibleunobstructedqualified; compactbaseanalyticmodelmentionedlater. Degree1groupcohomcomparisonvalidconnectedmanifold localcoefficients, noasphericityneededforH1.",
+      "previous_prerequisites": [
+        "fiber-bundles/deformation-complex-of-a-flat-connection",
+        "fiber-bundles/irreducible-connection",
+        "differential-geometry/tangent-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/deformation-complex-of-a-flat-connection",
+        "fiber-bundles/irreducible-connection",
+        "differential-geometry/tangent-space",
+        "fiber-bundles/moduli-space-of-flat-connections",
+        "convex-analysis/quotient-vector-space-codimension"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tfae-flat-principal-bundles-principal-g-bundle-pm",
+      "outcome": "corrected",
+      "source_sha256": "abbf3b18df88e380c6f1c363f213d750721e479e4ed900a21853b16d364f39ef",
+      "evidence": "Full5TFAEread: curvature0/localhorizontal/endpointfixedhomotopy/trivialrestricted/reconstructionallneedactualinputs, added. Naturalimmersedholonomycomponent clarifiedavoiddenseclosureerror. Circledeckshift+1left h givesendpoint h^-1 correctlyalreadyexplicit; monodromyparameterconventionsseparate. LocalhorizontalframesF0 byFrobeniusandconverse; restrictedtrivialimpliescurvature0 AmbroseSinger.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/holonomy-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/holonomy-group",
+        "fiber-bundles/restricted-holonomy-group",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/pullback-of-differential-forms",
+        "topology/homotopy",
+        "topology/fundamental-group",
+        "topology/universal-cover",
+        "algebra-groups/group-homomorphism",
+        "fiber-bundles/principal-bundle-isomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pullback-connection-on-a-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "c1ac20bcc85857234380f6e7e83dd27b12e748facfd580fc90f686022507be2e",
+      "evidence": "Fullpullbackconnectionidentityuniquelyspecifiesconnectionbecausepullbacksframegeneratealllocalsections andconnectionLeibnizaxiomsincludedbytarget. AddedexplicitE-valuedoneformpullbackformula anddifferentialinput; avoidsundefinedoperation. Generalf includingconstant worksd f0trivial; curvaturepullback andcomposition valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/pullback-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/vector-bundle-valued-differential-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/pullback-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/vector-bundle-valued-differential-form",
+        "fiber-bundles/differential-of-a-smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pullback-of-covectors",
+      "outcome": "corrected",
+      "source_sha256": "fb5873d2f1b2a1951d7060c1f56f28412b41916c7b3d00efd5ef85d034e755e5",
+      "evidence": "Full\u03b1\u2218dFdefinition andcoordinateexampleschecked. Actualdual-spaceinputneededcovectors; diffeomorphismonlyfunctorialconsequencelater. Contravariance(GF)*=F*G* followscomposition. F(u,v)=(u\u00b2,uv), circle,andconstantderivatives allcorrect.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "linear-algebra/dual-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-flatness-implies-path-independence-on-simply-connected-domains",
+      "outcome": "corrected",
+      "source_sha256": "02ba222fc4db31655208af7c585be526b4a44852fa968e3ec9058d2043eace5c",
+      "evidence": "Fullflatvectorconnection+simplyconnectedUendpointtheoremread. Replacedgenericprincipalcurvaturetarget withactualvectorcurvature, addedsimplyconnected/openinputs. Contractibleloopflattransport identitymakesallpaths same, linearODEglobal. Circlemonodromycounterexample andarc restrictioncorrect; principalextensionlater.",
+      "previous_prerequisites": [
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/curvature",
+        "fiber-bundles/parallel-transport"
+      ],
+      "prerequisites": [
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection",
+        "topology/simply-connected-space",
+        "topology/open-set"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-induced-connection-on-an-associated-vector-bundle-satisfies-the-leibniz-rule",
+      "outcome": "corrected",
+      "source_sha256": "8e9f420c75b049d8b20e6d696b695e14944251232d51ed1c7a1d72dc5e74ad22",
+      "evidence": "FullinducedLeibniztheoremhiddenheadingrestoredopening. AddedactualsmoothfiniteDrepresentation,d,vectorfields,sections,Eformsinputs. Bothrealcomplexscalarlinearity explicit. Locald+\u03c1*A check givesdf\u2297s onceandAcommutesscalar. Associatedline/frameexamples satisfyconstruction.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/associated-vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/associated-vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/vector-bundle-valued-differential-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pure-gauge-connection-ag-1dg-on-a-trivial-bundle",
+      "outcome": "corrected",
+      "source_sha256": "96047a7e577d9692e96619b9af771e2e6c2c7b4575dbb83bec402423d7c6ab8f",
+      "evidence": "FullpureA=g^-1dgdefinitionrequiresMaurerCartan/pullback/trivialbundle/smoothmap, added. Formula intrinsicanyLieG; MaurerCartan dA+1/2[A,A]=0, globalgaugetransformzero=>trivialholonomy. U1exacti df conventionfixed; globalrealphase maynotexist alreadyqualified. Contractiblesetflatpuregauge valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/trivial-principal-bundle-mgm",
+        "fiber-bundles/smooth-map",
+        "lie-groups/left-maurer-cartan-form",
+        "fiber-bundles/pullback-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/orbit-map",
+      "outcome": "corrected",
+      "source_sha256": "78a67593836eefa74ad461352ff8f1d51e91c31705a4cefc7964e64706c16036",
+      "evidence": "Fullorbitmapg\u21a6gx definition andstabilizercosetsread. Orbitimage/stabilizer areconsequences notconstructioninputs, movedlater. ForleftactionbyGonG fixedhmapg\u21a6gh isRIGHTtranslationasfunctionofg butsourcecorrectformula. Rotation/conjugationexamplesvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/orbit-of-a-group-action",
+        "algebra-groups/stabilizer"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/orbit-of-a-group-action",
+      "outcome": "corrected",
+      "source_sha256": "f12f404354e6f7c03f2a01721e3ba5ebd2e3cb2bdadbce198e47db6a42826103",
+      "evidence": "Fullset{gx}definition thenequivalencerelationconsequence movedlater. Addedsubsetoutputfloor; noorbitmapreverseedge. SO2circles+origin andGLnnonzero transitive viaextendbasis valid. Orbitrelationreflexivee symmetricinverse transitiveproduct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "shared-foundations/subset"
+      ]
+    },
+    {
+      "id": "fiber-bundles/paracompact-manifold",
+      "outcome": "corrected",
+      "source_sha256": "cc68302ecdca82cfe94d47952a5418aba7c0a11e5731082d1a7e55b41b79b406",
+      "evidence": "Fullparacompactunderlyingdefinitioncheckedactualparacompacttopologicaltarget. Globalpartitionconsequenceslater. CountablechartgluingneedsHausdorff (doubledoriginotherwise), nowexplicit. Longline broadermanifoldconventiondoesnotcontradictcurrentsecondcountabledefinition; nonparacompactstandardexample retained.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/paracompact-topological-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/paracompact-topological-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/principal-action",
+      "outcome": "corrected",
+      "source_sha256": "14a7a3c6d560b349d8e1ede6e386a7bc658c39ffe502403d245b5b537098daa2",
+      "evidence": "Fullsmoothfreeproperdefinitionread andproper/free targetschecked. Addedactualsmoothactioninput, madeleft->rightconversionexplicit toprincipalGbundleconvention. ClosedquotientHausdorfffreeproper standardtheorem. Integertranslations/Hopf actionfreeproper, principaltotalspaceexampleholds.",
+      "previous_prerequisites": [
+        "algebra-groups/free-action",
+        "lie-groups/proper-action-lie"
+      ],
+      "prerequisites": [
+        "algebra-groups/free-action",
+        "lie-groups/proper-action-lie",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold"
+      ]
+    },
+    {
+      "id": "fiber-bundles/quotient-manifold",
+      "outcome": "corrected",
+      "source_sha256": "a81be4bdfd706e723bdce8065a1d21f19e428db1b89f3ad1f684506e65b548a2",
+      "evidence": "Fullfreeproperquotienttheorem2conclusionsread. Actualsmooth/free/proper/orbitspace/submersioninputs missingalladded. Uniquequotienttopologysmoothstructure withprojectionsubmersion anddimdiffstandard. n>=1positive-rayexampleavoidsS^-1; scalingpropervia sphere\u00d7Rpositive, Hopf/Z examplescorrect.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "algebra-groups/free-action",
+        "lie-groups/proper-action-lie",
+        "fiber-bundles/quotient-space-of-an-action",
+        "differential-geometry/submersion"
+      ]
+    },
+    {
+      "id": "fiber-bundles/quotient-space-of-an-action",
+      "outcome": "corrected",
+      "source_sha256": "6cbfa91205a7123bff59b9c8aa9d81a2f8d1a6914fff0d4a304f27a6374854a1",
+      "evidence": "Fullorbits+quotientopenpreimageaxiomretainedcore. Quotienttopologyactualinputadded; principalaction/manifold arelaterstrongerconsequencenotreversedeps. SO2radius[0,\u221e),Zcircle,noncompactconjugacynonHausdorffexamplesvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/orbit-of-a-group-action",
+        "fiber-bundles/principal-action",
+        "fiber-bundles/quotient-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/orbit-of-a-group-action",
+        "topology/quotient-topology"
+      ]
+    },
+    {
+      "id": "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+      "outcome": "corrected",
+      "source_sha256": "29c112072b4fd1adf6dc1562b3c976378bd522dbc6c6a6e1c0dc20c55b3f7e42",
+      "evidence": "Fullleftandrightidentity/associativityaxiomsretainedopeningtogether; fixedgmapdiffeomorphismconsequenceafterboth. Correctedframeexamplepostcompositionambiguous/wrong: u:Rn->Tx, rightactionu\u2218g isprecompositionof u. Smoothmapproduct andLiegroup/manifoldinputsadequate.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/section-of-ad",
+      "outcome": "corrected",
+      "source_sha256": "fae5cd4a6072c0b1cfa2b651c2aaa9bf19e58eccf832302b01ab194b0e9aaf94",
+      "evidence": "FullAdGROUPbundlesection\u03c0s=iddefinitionread. Sectionactualinputadded; groupisomorphismtogaugeisconsequence laternoreverseedge. Locala_j=gij^-1 a_i gij matchesrightprincipalsectiontransition. AbelianconjugationtrivialgivescanonicalM\u00d7G evenPnontrivial; centralelementssame.",
+      "previous_prerequisites": [
+        "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/gauge-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/section-of-a-fiber-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/spin-connection",
+      "outcome": "corrected",
+      "source_sha256": "62de07c45762a4eef9f291165a0db23f0bd0d5fe3bd50aaeca4e0535ecc1c67f",
+      "evidence": "Fulllift d\u03bb \u03c9tilde=\u03a6*\u03c9LCread. Addedactualpullback/differentialinputs; n>=1fordoublecoverSpin. Localsum+1/4\u03c9ij ei ej requires\u03c9ij=<\u2207ei,ej> andnegativeCliffordrelation, nowexplicit ([ei ej,ek]=2\u03b4ik ej\u22122\u03b4jk ei givescompatibility). Withoutcoefficientconventionssignambiguous; invariantliftunchanged. Metric/Cliffordcompatibility andflatEuclideanexamplesvalid.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/spin-structure",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/levicivita-connection-connection"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/spin-structure",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/levicivita-connection-connection",
+        "fiber-bundles/pullback-of-differential-forms",
+        "fiber-bundles/differential-of-a-smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/torsion-2-form",
+      "outcome": "corrected",
+      "source_sha256": "05c99e37f23a5bfec094d1216179ef1da3374739d5869ca2e690b10fca9fe109",
+      "evidence": "Full\u0398=d\u03b8+\u03c9\u2227\u03b8definitionrestoredopeningfromhiddenheading. Addedactuald/wedgeinputs, coefficientactionexplicit. BasetensorT=\u2207XY\u2212\u2207YX\u2212[X,Y] latercomparison, torsionfree\u03980conditionretainedlaternotneededtointerpret\u0398. LeftparallelLieframeT=-bracket, asymmetric\u0393differencecorrect; LCmetric+torsionfree uniquenessvalid.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/solder-form-on-the-frame-bundle",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/solder-form-on-the-frame-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/intrinsic-torsion-of-a-g-structure",
+      "outcome": "corrected",
+      "source_sha256": "0ecd99d6e7f38d5f72a21e882315088aac55f608d2ca9796f9c5ac73be330904",
+      "evidence": "Follow-up to full source review: inspected actual dual-module definition Hom_R(M,R), which specializes to algebraic vector-space dual over a field. Replaced nonexistent dual-space ID; continuous real normed dual has wrong general scope.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/g-structure",
+        "fiber-bundles/connection-compatible-with-a-reduction",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/torsion-2-form",
+        "linear-algebra/exterior-power",
+        "linear-algebra/tensor-product",
+        "linear-algebra/dual-space",
+        "convex-analysis/quotient-vector-space-codimension",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/g-structure",
+        "fiber-bundles/connection-compatible-with-a-reduction",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/torsion-2-form",
+        "linear-algebra/exterior-power",
+        "linear-algebra/tensor-product",
+        "convex-analysis/quotient-vector-space-codimension",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "algebra-modules/dual-module"
+      ]
+    },
+    {
+      "id": "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+      "outcome": "corrected",
+      "source_sha256": "840293a06b48a088d6dcf5eee360119848ff73646b25deefe02655e019113a01",
+      "evidence": "Follow-up to full source review: inspected actual dual-module definition Hom_R(M,R), which specializes to algebraic vector-space dual over a field. Replaced nonexistent dual-space ID; continuous real normed dual has wrong general scope. Clarified complex-valued polynomials on a real Lie algebra: complexification of the real symmetric power, equivalently real-multilinear maps into C; avoids treating u(n) as a complex vector space.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "algebra-modules/symmetric-algebra",
+        "linear-algebra/dual-space",
+        "linear-algebra/multilinear-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "lie-groups/lie-algebra",
+        "lie-groups/adjoint-action-of-a-lie-group",
+        "algebra-modules/symmetric-algebra",
+        "linear-algebra/multilinear-map",
+        "algebra-modules/dual-module"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pullback-of-covectors",
+      "outcome": "corrected",
+      "source_sha256": "9a8987165fef60d99e92966a2c9422d1df6c94286928446f06b180a5e7428a33",
+      "evidence": "Follow-up to full source review: inspected actual dual-module definition Hom_R(M,R), which specializes to algebraic vector-space dual over a field. Replaced nonexistent dual-space ID; continuous real normed dual has wrong general scope.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "linear-algebra/dual-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "algebra-modules/dual-module"
+      ]
+    },
+    {
+      "id": "fiber-bundles/intrinsic-torsion-of-a-g-structure",
+      "outcome": "corrected",
+      "source_sha256": "c47a93b8f25a98fb79a6d439703d10828342f89f155e3f3274a8c8c5d216cd07",
+      "evidence": "Follow-up full intrinsic-torsion review: module tensor product explicitly covers vector spaces over a field and gives balanced universal property; replaced nonexistent ID. Torsion change delta A is alternating and G-equivariant; quotient section independent of compatible connection.",
+      "previous_prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/g-structure",
+        "fiber-bundles/connection-compatible-with-a-reduction",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/torsion-2-form",
+        "linear-algebra/exterior-power",
+        "linear-algebra/tensor-product",
+        "convex-analysis/quotient-vector-space-codimension",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "algebra-modules/dual-module"
+      ],
+      "prerequisites": [
+        "lie-groups/lie-algebra",
+        "fiber-bundles/g-structure",
+        "fiber-bundles/connection-compatible-with-a-reduction",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/torsion-2-form",
+        "linear-algebra/exterior-power",
+        "convex-analysis/quotient-vector-space-codimension",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "algebra-modules/dual-module",
+        "algebra-modules/tensor-product"
+      ]
+    },
+    {
+      "id": "fiber-bundles/quotient-manifold",
+      "outcome": "corrected",
+      "source_sha256": "53ade581d7dae33d58bdb3980add12ea566142bdf35c2bab1e9fa0e1acf18d28",
+      "evidence": "Follow-up full quotient-manifold review: inspected smooth-submersion definition, surjective differential at each source point is the required theorem output. Replaced nonexistent ID without changing free proper smooth quotient hypotheses.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "algebra-groups/free-action",
+        "lie-groups/proper-action-lie",
+        "fiber-bundles/quotient-space-of-an-action",
+        "differential-geometry/submersion"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "algebra-groups/free-action",
+        "lie-groups/proper-action-lie",
+        "fiber-bundles/quotient-space-of-an-action",
+        "fiber-bundles/smooth-submersion"
+      ]
+    },
+    {
+      "id": "fiber-bundles/lemma-chernweil-forms-are-basic",
+      "outcome": "corrected",
+      "source_sha256": "4158c62b36d55a6e79d87c2dbc2bd81fb3bfb7d0e2b20bd07a56f16979af098d",
+      "evidence": "Full lemma rechecked. Explicit basis-independent wedge substitution now defines Q(Omega) without relying on Chern-Weil form, whose base descent uses this lemma. Curvature horizontal and Ad-equivariant plus invariant Q imply basicness, including degree zero. Thus removed genuine exposition cycle without deleting theorem inputs.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/chernweil-form",
+        "fiber-bundles/pullback-of-differential-forms"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/pullback-of-differential-forms",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/chernweil-form",
+      "outcome": "corrected",
+      "source_sha256": "e9fa4b9cf600f3d909367dc6f89205964b14ac1ec4cbc9e38a861ff48686d388",
+      "evidence": "Full definition and all examples read. Kept basicness and descent in core because base Chern-Weil form requires it; lemma now defines substitution independently. Added actual polynomial/wedge inputs and real/complex coefficient scope. c1=i trF/2pi, p1=-trF\u00b2/8pi\u00b2 agree with skew curvature conventions; Pfaffian needs usual normalization as stated generically.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/lemma-chernweil-forms-are-basic"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/lemma-chernweil-forms-are-basic",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/wedge-product-of-differential-forms"
+      ]
+    },
+    {
+      "id": "topology/contractible-space",
+      "outcome": "corrected",
+      "source_sha256": "267fa861d3622e36872833ab49d56fe73fbdab2d6c0d99cb0468970700aa11bb",
+      "evidence": "Full new foundation: point existence and continuous homotopy endpoint axioms all in opening, with no unnecessary fixed-point requirement. Homotopy target explicitly defines product topology and interval endpoints. Straight-line contraction stays in convex set, verifies both endpoints; empty case excluded by quantifier.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/homotopy"
+      ]
+    },
+    {
+      "id": "fiber-bundles/good-cover",
+      "outcome": "corrected",
+      "source_sha256": "d7729358045d00456aacb5db867aa30e601733f2187866733d3c9f47e382e29b",
+      "evidence": "Full cover source read: added missing contractibility foundation with all homotopy axioms. Open hemispheres neither cover equator nor intersect; corrected to complements of poles, whose intersection retracts to circle. Singletons of cover included finite intersections; convex sets and three arcs valid. Strongly convex neighborhoods yield contractible finite intersections, arbitrary charts do not.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/open-cover"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/open-cover",
+        "topology/contractible-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/regular-value",
+      "outcome": "corrected",
+      "source_sha256": "114632b25cd5290ca7c0aab5f87050eae382a7352f6e524f10db258de3402120",
+      "evidence": "Full regular-value source and actual smooth-submersion/differential targets checked. Surjective differential quantifier is vacuous outside image; clarified empty fiber exception before dimension m-n claim. Squared radius derivative 2(x,y), height critical at poles, projection surjective all correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "shared-foundations/surjective-function"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-pushforward-of-a-smooth-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "shared-foundations/surjective-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tfae-metric-compatible-connections-on-a-metric-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "2adf37160d1114df71e01dccc218b2a3c53d1ee68f721669d65ad29186361b98",
+      "evidence": "Full five equivalences restored opening and each defining input checked. Fixed false holonomy sufficiency for specified metric: trivial d on real line with h=e\u00b2x has trivial holonomy but \u2207h\u22600. Metric Leibniz equivalent to induced tensor derivative zero; orthonormal frame coefficient derivative gives \u03c9+\u03c9\u1d40=0, curve norm derivative yields isometric transport, equivalent O(E) connection. Holonomy consequence now qualified separately. Final source inspection corrected target IDs/grammar and whitespace; actual target scope checked. Final browser inspection: explicit numbered paragraphs avoid display-math list restarts; conditions 3 and 5 state skewness and restriction directly rather than embedding the equivalence claim in a condition.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/dual-connection",
+        "fiber-bundles/tensor-product-connection",
+        "fiber-bundles/orthonormal-frame-bundle-reduction-of-the-frame-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/parallel-transport",
+        "fiber-bundles/local-connection-1-form",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/vector-field"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tfae-principal-connection-data-principal-g-bundle-pm",
+      "outcome": "corrected",
+      "source_sha256": "3e09b9ed67e3ac92a6f8e2f89cc78098a5c5b3814eacd2bfd661921e98a2d2cd",
+      "evidence": "Full TFAE read and all axioms restored core. Inputs now include each compared datum: principal connection, form, horizontal subbundle, vertical and pullback bundles, bundle map. d\u03c0|H inverse gives splitting, positive fundamental vertical projection gives reproducing \u03c9, right equivariance gives Adg^-1 pullback. Trivial product Adg^-1A+g^-1dg has correct sign.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/connection-1-form-on-a-principal-bundle",
+        "fiber-bundles/horizontal-subbundle",
+        "fiber-bundles/vertical-subbundle",
+        "fiber-bundles/pullback-bundle",
+        "fiber-bundles/vector-bundle-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tfae-reduction-of-structure-group-to-hg-principal-g-bundle-pm",
+      "outcome": "corrected",
+      "source_sha256": "4ebca7771b5f4677257a9e421fe05e4e074635d3d2a44543ab4a3ddb831fcad2",
+      "evidence": "Full four reduction equivalences restored core. Closed H needed for Hausdorff smooth G/H and embedded reduction. Added actual H subbundle, extension, cocycle, associated coset and section inputs. Local sections of Q give H-valued transitions; inverse image of section recovers Q; extension [q,g]\u21a6qg bijective local product. O/GL+,SU determinant-unit examples valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/reduction-of-structure-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "lie-groups/lie-subgroup",
+        "fiber-bundles/reduction-of-structure-group",
+        "fiber-bundles/principal-h-subbundle",
+        "fiber-bundles/extension-of-structure-group",
+        "fiber-bundles/principal-bundle-transition-function",
+        "fiber-bundles/associated-bundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "lie-groups/homogeneous-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tfae-triviality-of-a-principal-g-bundle-principal-g-bundle-pm",
+      "outcome": "corrected",
+      "source_sha256": "f838d3c58f424800582d8c99a8ce020742b213d30ef878154b583e7c887f6936",
+      "evidence": "Full triviality equivalences restored core and every output/input added. Fixed misleading Ad-section target. Formula f(pg)=g^-1f(p) is VALID nonabelian right action h\u00b7g=g^-1h: composition g then k gives (gk)^-1h. Section x\u21a6p f(p) independent of p; inverse trivialization coordinate f(p)^-1. Hopf nontrivial and connectedG circle examples checked.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/trivial-principal-bundle-mgm",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/principal-bundle-transition-function",
+        "fiber-bundles/equivalence-of-cocycles",
+        "fiber-bundles/equivariant-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em",
+      "outcome": "corrected",
+      "source_sha256": "1adb8041bafd8fa4d46d62ea92324b75d975dd6e296a615325a65e431e099b78",
+      "evidence": "Full frame-connection TFAE and target definitions checked. All four data and explicit reproducing/equivariance axioms now opening. Added frame/principal/horizontal/form inputs. Parallel transport of ordered basis induces equivariant frame connection and associated standard representation reconstructs \u2207. Rank-one, trivial, and LC reductions valid; explanatory construction moved after theorem without hiding its data.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/connection-on-a-vector-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/horizontal-subbundle",
+        "fiber-bundles/connection-1-form-on-a-principal-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/equivalence-of-cocycles",
+      "outcome": "corrected",
+      "source_sha256": "807c293e0cd8ad48afd98e8ed28687cb08ac8da0a9df467ba28908a12b5fe7ae",
+      "evidence": "Target full-source follow-up found actual equivalence formula hidden; restored h_i^-1 g_ij h_j in opening. Removed atlas/constructed-transition prerequisites: definition operates directly on smooth cocycles and cover, construction interpretation later. Changes s_i h_i derive formula. Coboundary example uses renamed inverses legitimately; Hopf sign qualified while distinct winding classes remain inequivalent.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/cocycle-condition-for-transition-functions",
+        "fiber-bundles/principal-bundle-transition-function",
+        "fiber-bundles/equivalent-bundle-atlases"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/cocycle-condition-for-transition-functions",
+        "topology/open-cover"
+      ]
+    },
+    {
+      "id": "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle",
+      "outcome": "corrected",
+      "source_sha256": "b1595537c2c28562e5ea255e2d0a279c6acac733c7bff9af8cb2abc5a47bbb1d",
+      "evidence": "Full frame bundle target source read; corrected postcomposition to precomposition since u:F^n\u2192E_x and action u\u2218A. Explicit local matrix charts supply defining smooth structure in opening. Transition matrices smooth invertible and action free transitive. Trivialization standard frame only canonical after chosen vector-bundle trivialization as qualified.",
+      "previous_prerequisites": [
+        "fiber-bundles/rank-of-a-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/transition-matrix-of-a-local-frame"
+      ],
+      "prerequisites": [
+        "fiber-bundles/rank-of-a-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/transition-matrix-of-a-local-frame"
+      ]
+    },
+    {
+      "id": "fiber-bundles/transgression-form",
+      "outcome": "corrected",
+      "source_sha256": "e6cd29b4e859e2dbc117ab89793566f5bb2d95b847af7e0a371d13d534a75447",
+      "evidence": "Full definition restored opening with n>=1 and real/complex scalar field. Base versus total-space corrected: pi*T=p(omega1-omega0), derivative equals base cw difference. Product reference has local A0=0, never global principal omega0=0 for positive-dimensional G. Integrand horizontal invariant descends; coordinatewise t-integral defines smooth form. Verified Posthuma Notes \u00a71.2 Theorem1.10 eq1.3 p4 and direct differentiation \u2202t p(Omega_t)=n d p(eta,Omega_t^(n-1)). Final source inspection corrected target IDs/grammar and whitespace; actual target scope checked.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/chernweil-form",
+        "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/chernweil-form",
+        "fiber-bundles/lemma-difference-of-two-principal-connections-is-tensorial",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/wedge-product-of-differential-forms",
+        "fiber-bundles/pullback-of-differential-forms",
+        "fiber-bundles/basic-differential-form-on-a-principal-bundle",
+        "real-analysis/riemann-integral"
+      ]
+    },
+    {
+      "id": "fiber-bundles/transgression-theorem-p-p-is-exact",
+      "outcome": "corrected",
+      "source_sha256": "960032513536b3ee156f71960fd4bb6ae71d86ac27085936d537432dcb6d55b9",
+      "evidence": "Full theorem read: k>=1 avoids negative curvature multiplicity. Restored type consistency by pi*CS on total Q versus dCS=base cw difference. Added exact defining input/output concepts. Degree2 single A formula requires flat zero-local-potential reference, now explicit. Gauge equivalent characteristic forms in fact equal, hence exact difference statement valid. Posthuma \u00a71.2 Thm1.10 eq1.3 p4 checked; Bianchi plus invariant polynomial gives derivative formula and integration gives endpoint difference. Actual target ID verified and corrected in final graph audit.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra",
+        "fiber-bundles/chernweil-form",
+        "fiber-bundles/transgression-form",
+        "fiber-bundles/exterior-derivative",
+        "fiber-bundles/de-rham-cohomology-group",
+        "fiber-bundles/pullback-of-differential-forms"
+      ]
+    },
+    {
+      "id": "fiber-bundles/gauge-fixing-condition",
+      "outcome": "corrected",
+      "source_sha256": "2e3b3204f0e2d82af15d8a095d6232ec3ff6e2435d1526aa90e1e80e51aeaaa4",
+      "evidence": "Full gauge-fixing source read. A(P) set of all connections is not finite-dimensional jet bundle of connections; corrected actual target. Stabilizer is in core uniqueness condition, added. Formal adjoint belongs Coulomb example later, removed core dependency. Local effectiveness/transversality does not claim global section; temporal ODE and Gribov cautions scoped correctly.",
+      "previous_prerequisites": [
+        "fiber-bundles/bundle-of-connections",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/stabilizer-of-a-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/gauge-group",
+      "outcome": "corrected",
+      "source_sha256": "f2325de6beaf999dfdcd19de81fb4af1cb2c248b870709f742d9017c943c5162",
+      "evidence": "Full gauge-group source and automorphism target read. Defining object Aut_G(P) over id and composition sufficient; equivariant map/Ad-group bundle are later descriptions. Composition \u03a6u\u2218\u03a6v(p)=p u(p)v(p) using conjugation equivariance, so pointwise multiplication claim correct. Trivial group functions, abelian canonical Ad and frame automorphism examples valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-automorphism",
+        "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action",
+        "fiber-bundles/conjugation-action-of-a-lie-group-on-itself"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-automorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/gauge-theory",
+      "outcome": "corrected",
+      "source_sha256": "0dc7c3b9f91ee7d152f146fc69ab6251641c29c856602447a86ec37e2f57c5ea",
+      "evidence": "Full gauge-theory framework read. Equation components may transform equivariantly; invariant solution set is intended, clarified. Variational example needs finite energy/closedness or suitable variations, now qualified. Geometric set-up and action invariance under Ad-metric correct. Scope notes generalized higher/discrete theories and quantization not implied.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+      "outcome": "corrected",
+      "source_sha256": "1b1d848d9703ce47cf900ec6b7b3a9fa2a07a1bc18e55ddf97245729a242299d",
+      "evidence": "Full gauge pullback proposition checked. \u03a62*\u03a61*=(\u03a61\u2218\u03a62)* gives RIGHT action with group composition as defined. Form equivariance/reproduction preserved by equivariant diffeomorphism; inverse differential correct horizontals. Added pullback/form inputs. Abelian integral-period claim needed U1 normalization 2pi i rather than arbitrary group integral periods; clarified.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/pullback-of-differential-forms",
+        "fiber-bundles/connection-1-form-on-a-principal-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/irreducible-connection",
+      "outcome": "corrected",
+      "source_sha256": "735d307304c313d7e9d7acbd134387adb32fb7ed6677ad5868268b1c62edf30f",
+      "evidence": "Full source and stabilizer/based targets checked. Fixed false equivalent based-stabilizer criterion: based action FREE on ALL connections connected M, by parallel propagation identity; correct free criterion uses Gcal/Z(G). Nonabelian qualification added flat trivial holonomy example; singularity language qualified. Center actual core input added, reducibility/gauge survey later removed. Cohen Ch2\u00a73 Thm2.18 proof pp61\u201362 independently checked.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/reducible-connection",
+        "fiber-bundles/gauge-theory"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation",
+        "algebra-groups/center-of-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/reducible-connection",
+      "outcome": "corrected",
+      "source_sha256": "6891f924680e7b25a549a6b77df185eccd459c7aa4aa91d4fd24a56f3f69b545",
+      "evidence": "Full reducible source read with actual stabilizer definition. Corrected false based-gauge criterion, cross-checked Cohen Thm2.18 pp61\u201362; base connected necessary. Holonomy representation linked \u03c01-flat-only object inappropriate general curved connection, replaced by holonomy group linear action. Center actual input added. Singular quotient implication softened; U(n) splitting and SU2 L\u2295L^-1 examples follow eigenspaces of unitary stabilizers.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation",
+        "algebra-groups/center-of-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/stabilizer-of-a-connection",
+      "outcome": "corrected",
+      "source_sha256": "f12d0ac3ab2b2df31468c996ed77c09ad2a5e45d6b35ff918b86782f8eceec92",
+      "evidence": "Full stabilizer source read. Explicit inverse-pullback left action reconciles u\u00b7A with linked RIGHT pullback action; fixed sets agree. Parallel section value determines transformation on each connected component; evaluation centralizer follows path-independence iff value commutes all holonomy. Qualified reducibility connected base and strengthened accurate based-freeness statement, Cohen Thm2.18 pp61\u201362.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+        "algebra-groups/stabilizer",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+        "algebra-groups/stabilizer",
+        "fiber-bundles/gauge-transformation"
+      ]
+    },
+    {
+      "id": "fiber-bundles/instanton",
+      "outcome": "corrected",
+      "source_sha256": "e4ffafcc14e20aca095af9fd5b1a263124c5f7405a167b29d7cb359a473ea0f5",
+      "evidence": "Full source and curvature/Hodge targets read. Principal curvature target lives on total P, so explicitly defined descended ad(P)-valued curvature on base using [p,Omega(lifts)] and horizontal equivariance. Correct selfdual splitting star\u00b2=1 in oriented Riemannian dimension4; instanton finite action and flat inclusion scoped. Energy identity algebra: I=||F+||\u00b2\u2212||F-||\u00b2, YM=half sum, hence two formulas and 4pi\u00b2|c2| with -trace and half-energy. Topological invariance requires invariant polynomial, not integral normalization; corrected distinction.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/hodge-star-operator"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/hodge-star-operator",
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "fiber-bundles/vector-bundle-valued-differential-form",
+        "fiber-bundles/yangmills-functional"
+      ]
+    },
+    {
+      "id": "fiber-bundles/self-dual-and-anti-self-dual-connection",
+      "outcome": "corrected",
+      "source_sha256": "897fcecbf6d0d696a4c906955fbe1f9dbe517fb29d76f482d123ceefe9c8f87d",
+      "evidence": "Full source and curvature/Hodge targets read. Principal curvature target lives on total P, so explicitly defined descended ad(P)-valued curvature on base using [p,Omega(lifts)] and horizontal equivariance. Correct selfdual splitting star\u00b2=1 in oriented Riemannian dimension4; instanton finite action and flat inclusion scoped. Energy identity algebra: I=||F+||\u00b2\u2212||F-||\u00b2, YM=half sum, hence two formulas and 4pi\u00b2|c2| with -trace and half-energy. Topological invariance requires invariant polynomial, not integral normalization; corrected distinction.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "differential-geometry/hodge-star-operator"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "differential-geometry/hodge-star-operator",
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "fiber-bundles/vector-bundle-valued-differential-form"
+      ]
+    },
+    {
+      "id": "fiber-bundles/yang-mills-energy-identity",
+      "outcome": "corrected",
+      "source_sha256": "92044bd84de31c98bf728d525574f15c09ce74188b870bdf0dc9d6d849249641",
+      "evidence": "Full source and curvature/Hodge targets read. Principal curvature target lives on total P, so explicitly defined descended ad(P)-valued curvature on base using [p,Omega(lifts)] and horizontal equivariance. Correct selfdual splitting star\u00b2=1 in oriented Riemannian dimension4; instanton finite action and flat inclusion scoped. Energy identity algebra: I=||F+||\u00b2\u2212||F-||\u00b2, YM=half sum, hence two formulas and 4pi\u00b2|c2| with -trace and half-energy. Topological invariance requires invariant polynomial, not integral normalization; corrected distinction.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "shared-foundations/lower-bound"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "shared-foundations/lower-bound",
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "fiber-bundles/vector-bundle-valued-differential-form",
+        "fiber-bundles/yangmills-functional",
+        "fiber-bundles/l2-inner-product-on-bundle-valued-forms",
+        "differential-geometry/hodge-star-operator",
+        "differential-geometry/integration-of-differential-forms",
+        "fiber-bundles/wedge-product-of-differential-forms",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra"
+      ]
+    },
+    {
+      "id": "fiber-bundles/wilson-loop",
+      "outcome": "corrected",
+      "source_sha256": "fb8fb9a64296b8ebfd293af8ecc57d75a9a41c7b9a8c64a85e75b436261425f3",
+      "evidence": "Full Wilson trace source and representation/transport/trace targets checked. Smooth finite-dimensional scalar scope explicit. Change fiber p\u2192pg gives conjugate g^-1hg and trace similarity invariant; gauge inverse convention irrelevant trace. Reverse path holonomy inverse need not same trace, flat homotopy-only and curved dependence correct. Zero-dimensional V trace0 allowed unnormalized definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/parallel-transport",
+        "linear-algebra/trace"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/parallel-transport",
+        "linear-algebra/trace"
+      ]
+    },
+    {
+      "id": "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+      "outcome": "corrected",
+      "source_sha256": "9e1bc5bedc7c2eef268358c990faf99bfdb7e8080a6d5eaf92805c2642e48127",
+      "evidence": "Full Sobolev source and Sobolev/adjoint targets read. Added actual defining coefficient spaces and local weak-derivative norm construction before first heading, distinguishing ad vector vs Ad group sections. kp>d,k>=1,p finite strong threshold gives Wkp algebra/continuous embedding; compact G matrix multiplication/inversion smooth and extra derivative covers du. Closed base avoids unstated boundary conditions. Explicit inverse-pullback LEFT action explains local uAu^-1-duu^-1 versus canonical right action. Actual target ID verified and corrected in final graph audit.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/gauge-group"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "functional-analysis/sobolev-space",
+        "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad",
+        "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action",
+        "fiber-bundles/vector-bundle-valued-differential-form",
+        "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"
+      ]
+    },
+    {
+      "id": "fiber-bundles/slice-theorem-for-the-gauge-action",
+      "outcome": "corrected",
+      "source_sha256": "c50a80482eb202b82a988c522c0140c63fc0fe11790714ec792aa66b896648e0",
+      "evidence": "Full slice theorem reviewed: fixed smooth reference avoids rough-coefficient hidden regularity and added invariant inner product needed formal adjoint, both core inputs. kp>dim and p>1 kept; associated stabilizer slice model standard. Qualified isotropy does not automatically imply singularity and regular stratum of all connections not same as unobstructed PDE solutions. Coulomb kernel complements image dA via dA*dA and residual kernel stabilizer.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/coulomb-gauge",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/coulomb-gauge",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+        "fiber-bundles/invariant-polynomial-on-a-lie-algebra"
+      ]
+    },
+    {
+      "id": "fiber-bundles/yang-mills-moduli-space",
+      "outcome": "corrected",
+      "source_sha256": "66e2f877ae222eb4a004b676a15a891ca446db8c37bc39df7379a6b7b24b9c5f",
+      "evidence": "Full YM moduli source read. Added principal/connection/equation/quotient defining inputs and quotient topology explicit. Finite-dimensional elliptic local models/regularity claim needs closed base; noncompact/boundary extra data now stated instead of blanket completion equivalence. Absolute instanton minimum comparison tied closed four-manifold energy theorem. General YM need not ASD, bubbling paragraph specifically instantons valid.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/yangmills-connection"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/yangmills-connection",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/yangmills-equation",
+        "shared-foundations/quotient-set",
+        "topology/quotient-topology"
+      ]
+    },
+    {
+      "id": "fiber-bundles/yangmills-connection",
+      "outcome": "corrected",
+      "source_sha256": "cc9369e3df8a684e1939cc1d571dcf9b716d9b36deff7b65762d1239a587f668",
+      "evidence": "Full YM connection read. Actual dA*FA definition restored opening; summary corrected critical object is connection, not curvature. Variational equivalence requires Ad-positive metric/closed or finite-energy compact-support hypotheses, now explicit later. Flat/ASD Bianchi reasoning correct; surface *F parallel and irreducible central coefficient follows stabilizer Lie algebra.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/yangmills-equation",
+        "fiber-bundles/curvature"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/yangmills-equation",
+        "fiber-bundles/curvature"
+      ]
+    },
+    {
+      "id": "fiber-bundles/moduli-stack-of-connections",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "433af37d7c9f09c66135fbcf1ec53bba777ec94a6c905f6e25b0a608a6217904",
+      "evidence": "Independent full root read of all paragraphs and groupoid/principal/gauge targets. Replaced still-hidden family definition with complete cocycle-family, morphism, refinement/descent and pullback rules in core. Defined inverse-pullback left action so uij ujk=uik matches A_i=uij A_j. Parameter-smooth forms on P avoid claiming finite-dimensional or algebraic stack. Over point torsors trivial gives action groupoid; automorphisms exactly stabilizer. No incorrect scalar-form target for adjoint-valued affine translations; removed unnecessary affine-space comparison. Source reference checks recorded separately when actually inspected.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/differential-k-form",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+        "fiber-bundles/stabilizer-of-a-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+        "topology/open-cover",
+        "fiber-bundles/smooth-map",
+        "algebra-category-theory/groupoid",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+        "fiber-bundles/stabilizer-of-a-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/representation-variety",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "455db73743f2912e4e7931656790b9beced650e4cca4493848167957c824e40a",
+      "evidence": "Independent root full source and actual algebraic-group/affine-scheme/presentation definitions read. Group law/inverse morphisms make word maps regular and relation fiber over identity closed, represents Hom(Gamma,G(B)) for any k-algebra B. Reduced coordinate quotient explicitly removes nilpotents; classical variety must not be conflated with representing functor. Removed redundant presentation duplicate. Corrected Gamma\u2192G(k), and holonomy example only k=C with Lie group G(C), not arbitrary algebraically closed field where smooth principal bundle lacks meaning.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-groups/group-presentation",
+        "algebra-groups/group-homomorphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebraic-geometry-foundations/algebraic-group",
+        "algebraic-geometry-foundations/affine-scheme",
+        "algebra-groups/group-presentation",
+        "algebra-groups/group-homomorphism",
+        "algebra-rings/quotient-ring"
+      ]
+    },
+    {
+      "id": "fiber-bundles/topological-principal-bundle",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "1155caf7bd18eb798e428bed2627257f86a9f5699b3732eaa23fa9f792141d49",
+      "evidence": "Full new topological-principal foundation: continuous projection/right action with identity/associativity/base preservation and equivariant product charts all core. Product charts imply free transitive fibers and open quotient. Pullback uses subspace fiber product and pulled charts, no smooth-manifold restriction.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-group",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/product-topology",
+        "topology/open-cover"
+      ]
+    },
+    {
+      "id": "fiber-bundles/numerable-principal-bundle",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "c441802b9b3abd7b3f78c4cbcf9d06714875a119f8f2d94f78c020ca3a58ab8c",
+      "evidence": "Full numerable definition: local finite supports, unit sum, cozero subordination and trivializing cover all core. Supports continuous functions and closure correctly scoped; base no smooth requirement. Pullback local finiteness via preimage neighborhoods; paraHausdorff partition gives numerability.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/topological-principal-bundle",
+        "topology/continuous-map",
+        "topology/locally-finite-family",
+        "topology/closure"
+      ]
+    },
+    {
+      "id": "fiber-bundles/universal-principal-bundle-egbg",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "f0333072140d5ade00125d247757df380597467cf516d424d1db39f45a6def0c",
+      "evidence": "Full universal source read. Replaced smooth principal-bundle target for infinite-dimensional EG/BG with topological numerable foundation. Complete classification bijection and contractibility retained opening. Removed reverse homotopy-class/classifying-map dependencies by defining [X,BG] directly via homotopy. Numerable condition distinguishes arbitrary bases from paraHausdorff. Examples S\u221e/U1 and antipodal valid different scalar models. Cohen Ch2 definition2.1 and Thm2.8/2.9 inspected; numerable refinement independently checked in Carr Lecture6.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/homotopy-class-mbg"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "fiber-bundles/numerable-principal-bundle",
+        "topology/contractible-space",
+        "topology/homotopy",
+        "topology/quotient-topology"
+      ]
+    },
+    {
+      "id": "fiber-bundles/classifying-space-bg",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "729adb7d0e12e128bcdb8320a339a82d91c3934b4646cf1f832068a82d0c630a",
+      "evidence": "Full BG source read. Restored definition from hidden heading and made correct topological universal-bundle boundary; all universal axioms explicit by actual target plus short core summary, not definition based only on free action. Classification paraHausdorff and topological scope corrected. Circle conjugacy \u03c00G example and BU1/RP\u221e standard valid; no reverse universal\u2192BG edge.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/paracompact-topological-space"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "fiber-bundles/universal-principal-bundle-egbg"
+      ]
+    },
+    {
+      "id": "fiber-bundles/homotopy-class-mbg",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "c7b96d37fd1ee845db34e9cbd7ab0a264212d6fada4bc4870df3d44a697acc9f",
+      "evidence": "Full homotopy-class source read. Actual equivalence relation H endpoints now opening; classification and line examples later, removed dependencies on classifying-map/principal/line which caused cycle with universal bundle. Actual homotopy/continuous/quotient inputs added. Based sphere classes \u03c0n and unbased \u03c01 action distinction correct; contractible nonempty base unique maps to connected BG. Matched opening group scope to topological-group prerequisite.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/lie-group",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/classifying-map-of-a-principal-bundle",
+        "fiber-bundles/line-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "topology/topological-group",
+        "fiber-bundles/classifying-space-bg",
+        "topology/homotopy",
+        "topology/continuous-map",
+        "shared-foundations/quotient-set"
+      ]
+    },
+    {
+      "id": "fiber-bundles/classifying-map-of-a-principal-bundle",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "76afeae24915e3d5e1dc76097121887c77763d3ee9a25a6a1ff92f0c9e3e74b6",
+      "evidence": "Full classifying-map source read. Defined continuous map with topological pullback isomorphism; linked universal target provides fiber-product construction, not smooth map into nonmanifold BG. Numerability enough existence/uniqueness; CW-type unnecessary restriction removed in later property. Hopf generator sign unspecified because orientation conventions vary. Matched opening group scope to topological-group prerequisite.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/universal-principal-bundle-egbg",
+        "fiber-bundles/smooth-manifold"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "fiber-bundles/universal-principal-bundle-egbg",
+        "fiber-bundles/topological-principal-bundle",
+        "topology/continuous-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/classification-theorem-principal-g-bundles-over-m-are-classified-by-homotopy-classes-mbg",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "078f3a6389c331ba440480f18e2e067adec92306bafa3879e88c1b8a86c50d7d",
+      "evidence": "Full classification source read after target repair. Actual theorem bijection restored core; continuous f into BG gives topological pullback, then smoothing theorem for LieG/manifold supplies smooth class. Removed invalid smooth-pullback constructions needing smooth target base. Homotopy-class actual output added, no reverse cycle. S1 \u03c00 conjugacy and Hopf generator statements correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/universal-principal-bundle-egbg",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/construction-pullback-principal-bundle-fp-along-fnm",
+        "fiber-bundles/pullback-functoriality-pullback-of-a-principal-bundle-is-a-principal-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/universal-principal-bundle-egbg",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/topological-principal-bundle",
+        "fiber-bundles/homotopy-class-mbg"
+      ]
+    },
+    {
+      "id": "fiber-bundles/topological-real-vector-bundle",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "7584a900f9a616f2e128705624173413112a998678db0a12b098da37aa067d59",
+      "evidence": "Independent root full source and target definitions read. Continuous surjection, local product homeomorphisms over base, fiber linearity sufficient all ranks incl0. Rank integer clarified and fibers versus transition maps wording corrected. Pullback fiber product gets subspace topology, local pulled charts valid.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/product-topology",
+        "linear-algebra/vector-space",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/product-topology",
+        "linear-algebra/vector-space",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ]
+    },
+    {
+      "id": "topology/relative-singular-cohomology-group",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "843ede346f3f3af3f2f73bdf7ee7f428fe4a5519a08a8720f80667ee95bb494f",
+      "evidence": "Independent full relative source read, quotient chains and Hom dual coboundary explicit; subgroup C*(A) generated by included simplices makes quotient free and boundary stable. Added quotient-group construction input and n0 negative-degree convention. Maps of pairs descend to quotient chains; cup absolute-relative follows cochains vanishing on A. No smooth-base target.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/singular-chain-complex",
+        "algebra-groups/abelian-group",
+        "algebra-homological/cohomology-module",
+        "algebra-homological/cochain-complex"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/singular-chain-complex",
+        "algebra-groups/abelian-group",
+        "algebra-homological/cohomology-module",
+        "algebra-homological/cochain-complex",
+        "algebra-groups/quotient-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/thom-class",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "2ea3b7e473022fc8041effedf346fac97c6c0b9d5d206d2f3e29c1b8cbd06915",
+      "evidence": "Full Thom source and new relative/topological-real definitions independently checked. Corrected smooth target on arbitrary paraHausdorff base; defined R-orientation as locally compatible fiber generators, thereby supporting general-R theorem rather than only Z. All defining restriction/uniqueness data core. Rank0 canonical1 explicit. Metric disk model uses continuous metric; naturality map continuous. Integral nonorientation needs local system, mod2 sign ambiguity disappears. Independent read-only reviewer checked full source: coefficient R kept in Thom disk/trivial models, Pontryagin continuous naturality separated from smooth forms, positive-dimensional even sphere qualified; findings resolved as applicable.",
+      "previous_prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/zero-section",
+        "topology/singular-cohomology-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "topology/relative-singular-cohomology-group",
+        "algebra-rings/commutative-ring",
+        "fiber-bundles/paracompact-topological-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/euler-class-as-zero-section",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "8226a600e5a533a857c158511fb8a5b05b0dbd97b10699b0506cc5b369345692",
+      "evidence": "Independent full Euler source read. Added paraHausdorff hypotheses needed linked Thom existence; topological real and explicit continuous zero section instead of smooth-only prerequisites. Relative pair map (B,empty)\u2192(E,E\u00d7) valid since empty condition vacuous. Smooth transverse zero-locus PD now closed oriented base to justify ordinary fundamental class; nowherezero gives Euler0 via homotopy tozero and relative restriction. Rank0 canonical Euler1, trivial positive-rank zero, even sphereEuler2 valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/thom-class",
+        "fiber-bundles/zero-section"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "fiber-bundles/thom-class",
+        "topology/relative-singular-cohomology-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/euler-class-obstruction-to-nonzero-section",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "b86486c567dcfe7c15d2b8ffe57bab2ba17649d51001eb5430093b5bfa5814d2",
+      "evidence": "Independent full obstruction source found missing n>=2: \u03c00(S0) is not Z, rank0 sphere negative undefined. Correct theorem primary obstruction n>=2; oriented line trivial and rank0 Euler1 treated separately preserves scope. Replaced smooth bundle/section/metric targets on CW base with topological real input and explicit continuous section/sphere definitions. Euler integral output actual target added; dimX<=n removes higher obstruction degrees. Closed oriented smooth hypothesis added signed zero-count interpretation. Final source inspection corrected target IDs/grammar and whitespace; actual target scope checked. Independent read-only reviewer checked full source: coefficient R kept in Thom disk/trivial models, Pontryagin continuous naturality separated from smooth forms, positive-dimensional even sphere qualified; findings resolved as applicable.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/orientation-of-a-real-vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/sphere-bundle",
+        "fiber-bundles/euler-class-as-zero-section",
+        "fiber-bundles/zero-section"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "topology/cw-complex",
+        "fiber-bundles/euler-class-as-zero-section"
+      ]
+    },
+    {
+      "id": "fiber-bundles/thom-isomorphism-theorem",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "6b614b607fea1391f1064a8fa90abf6669e86e1d750c23f4482345d8bfdd42d4",
+      "evidence": "Full Thom isomorphism source read. General R previously undeclared and target Thom onlyZ; now commutativeR/orientation generators/core pair explicit and generalR Thom target repaired. Added relative/cohom/cup actual output operations. Continuous metrics and topological real category match arbitrary paraHausdorff base. q>=0 sufficient theorem degrees; rank0 map identity. Integral Euler consequence qualified coefficients, mod2 all real bundles oriented.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/thom-class"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "fiber-bundles/thom-class",
+        "topology/relative-singular-cohomology-group",
+        "topology/singular-cohomology-group",
+        "topology/cup-product-and-cohomology-ring",
+        "algebra-rings/commutative-ring"
+      ]
+    },
+    {
+      "id": "fiber-bundles/sheaf-of-smooth-sections",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "64a1a5145e9b5dd34a77cb0fbb9fe4900289997252b389239a07b61dfe80ad69",
+      "evidence": "Full sheaf source read: assigns actual smooth sections with restrictions and pointwise scalar operations; added section input. Agreement glues uniquely because functions/sections smooth locally. Local frame gives free sheaf but global module not necessarily free; complexification coefficient sheaf explicit. Fiberlinear bundle morphism needed for module morphism, target bundle-morphism checked separately.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "differential-geometry/sheaf-of-smooth-functions"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "algebraic-geometry-foundations/sheaf-of-modules",
+        "differential-geometry/sheaf-of-smooth-functions",
+        "fiber-bundles/section-of-a-vector-bundle"
+      ]
+    },
+    {
+      "id": "fiber-bundles/tangent-bundle-ts2-as-a-nontrivial-rank-2-real-vector-bundle",
+      "scope": "full",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "fd69e36464028d0e716d03cf833653222dde8050e33a047cffd372c672e96f7f",
+      "evidence": "Full source checked: hairy-ball statement uses continuousfields, implies no smooth nowherezero and hence noframe. TS2 nottrivial; a hypothetical globalframe provides nonzero first section. Stereographic chart identifies punctured sphere tangent trivial, TS1rotation trivial; framebundle trivial iff vectorbundle trivial. All defining input/output targets present.",
+      "previous_prerequisites": [
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/trivial-vector-bundle-mvm",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/vector-field"
+      ],
+      "prerequisites": [
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/trivial-vector-bundle-mvm",
+        "fiber-bundles/nowhere-vanishing-section",
+        "fiber-bundles/vector-field"
+      ]
+    },
+    {
+      "id": "fiber-bundles/projective-module-bundle-reconstruction",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "a73921f1ffe2c966758e2ae36210165eaadfa460e80cd24068496be25b578187",
+      "evidence": "Root full source and projective/idempotent targets read. Actual smooth structure now explicitly image-bundle construction; p\u00b2p trace locallyconstantinteger ensures local rank. Finite generation/smoothalgebra/idempotent core input added, optionallocaltrivialization removed. Q/IxQ fiber via p evaluated, finite free resolution splits toidentify sections pA^N=Q. Boundedranks acrosscomponents necessary. Isomorphism depends on chosen moduleisomorphism correctly qualified.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-modules/projective-summand-of-free",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/local-trivialization",
+        "fiber-bundles/serre-swan-idempotent-construction"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-modules/projective-summand-of-free",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/section-of-a-vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/serre-swan-idempotent-construction",
+        "algebra-modules/finitely-generated-module",
+        "differential-geometry/algebra-of-smooth-functions",
+        "algebra-rings/idempotent-element"
+      ]
+    },
+    {
+      "id": "fiber-bundles/section-module-is-finitely-generated-projective",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "cc52e7bb4206b9bed46fa46e66aaa9b2de8672ddda5f1a3d030abcbce2ca93e8",
+      "evidence": "Root full source and actual projective/module targets read. Finitelygenerated actual theorem output added, removed proof-onlymetric/morphism/subbundle/idempotent reverse inputs agent added. Finite-dimensional smooth base finite complement no compactness needed; smoothsections of E\u2295F trivial gives projective finite summand. Noncompact extension verified Sardanashvily arXiv math-ph/0102016 Theorem1/proof p1\u20132; disconnected bounded rank scope correct. Moebius section nonfree byframecriterion.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/vector-subbundle",
+        "fiber-bundles/serre-swan-idempotent-construction",
+        "algebra-modules/projective-module",
+        "differential-geometry/algebra-of-smooth-functions"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/module-of-smooth-sections",
+        "algebra-modules/projective-module",
+        "differential-geometry/algebra-of-smooth-functions",
+        "algebra-modules/finitely-generated-module"
+      ]
+    },
+    {
+      "id": "fiber-bundles/serre-swan-idempotent-construction",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "33c4cb43e9e1a6520d838a304c2ef9e39404b001d9a70251fd36ceca3b99ac1d",
+      "evidence": "Root full idempotent source read. All p\u00b2=p/Ep data core plus explicit column frames determines smooth structure; trace integer continuous makes ranklocallyconstant. Kernel/imageconstant-rank actual theorem used retained. Removedsection/tangent laterdeps. (1-p)image=kerp gives complement notrequireorthogonality, q=x rankjump nonidempotent counterexamplevalid; sphereI-xxT tangent valid.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/algebra-of-smooth-functions",
+        "fiber-bundles/vector-bundle",
+        "algebra-rings/idempotent-element",
+        "fiber-bundles/vector-subbundle",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism",
+        "fiber-bundles/tangent-bundle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/algebra-of-smooth-functions",
+        "fiber-bundles/vector-bundle",
+        "algebra-rings/idempotent-element",
+        "fiber-bundles/vector-subbundle",
+        "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/serre-swan-theorem",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "059c44ccfe782e83a82191f009c0c098d2c1e540d95cec465756102cc732ae72",
+      "evidence": "Root full SerreSwan source and category/projective targets read. Category morphisms mustfiberLINEAR notarbitrarybundlemap; correctedtargetandtext, actualfunctor/modulehom inputs added. Proofreconstruction/subbundle/section extraedges removed. Complexidempotentfield Fexplicit; continuouscompact variant nowtopologicalcomplex targetnot smooth. Sardanashvily arXiv math-ph/0102016 Theorem1 p1\u20132 verifies noncompactfiniteD result. Covariantequivalence notcontravariant correct; bounded rankdisconnected qualification correct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-subbundle",
+        "fiber-bundles/bundle-map",
+        "fiber-bundles/section-of-a-fiber-bundle",
+        "fiber-bundles/projective-module-bundle-reconstruction",
+        "algebra-modules/category-of-finitely-generated-projective-modules",
+        "algebra-category-theory/equivalence-of-categories",
+        "fiber-bundles/section-module-is-finitely-generated-projective",
+        "fiber-bundles/module-of-smooth-sections"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/category-of-vector-bundles-over-a-manifold",
+        "fiber-bundles/vector-bundle",
+        "algebra-modules/category-of-finitely-generated-projective-modules",
+        "algebra-category-theory/equivalence-of-categories",
+        "fiber-bundles/section-module-is-finitely-generated-projective",
+        "fiber-bundles/module-of-smooth-sections",
+        "fiber-bundles/vector-bundle-morphism",
+        "algebra-category-theory/functor",
+        "algebra-modules/module-homomorphism"
+      ]
+    },
+    {
+      "id": "topology/cw-complex",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "f6edb8ac0de38f694ba40d9b0cf0656d0f95f9b8300ec4145b583cec1f74a46e",
+      "evidence": "Root full CW source read. Attaching disk interiors homeomorphic, boundary identifications, stages and weak colimit topology plus closurefinite all core. Added explicit coproduct topology toavoid undefined topologyofunion and exact dimension supremum. n0diskpoint/S^-1empty givesdiscrete0skeleton. Intervaltwoendpoints/circleonevertex/sphere examplesvalid.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/quotient-topology"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/quotient-topology"
+      ]
+    },
+    {
+      "id": "fiber-bundles/topological-real-vector-bundle",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "826c89540342f77313494db69448314e0a4a720557742fa493bfbb95d33b8c7c",
+      "evidence": "Root full realbundle foundation followup: added explicit directsum localproduct topology and complexification charts for characteristic-class consumers. Base no smooth hypothesis, tensor extension finite-dimensional same transitionmatrices gives genuinecomplexbundle. Core previousaxioms unchanged; construction later optional notprereqs ofrealbundle.",
+      "previous_prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/product-topology",
+        "linear-algebra/vector-space",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/product-topology",
+        "linear-algebra/vector-space",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pontryagin-class",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "637e33c4fed824d13e4e798c7bafab7ef2cc7b8bfe021be0360bc57189afb79c",
+      "evidence": "Full Pontryagin source found definition hidden and c2k targetdeRham wrongforintegral. Restored integral p_k=(-1)^k c2k(E_C) opening with complexification transition construction and actual integralChern target. No metric/connection needed todefine integralclass; CWforms later. p1realL=c1L\u00b2 fromL\u2295barL; flatrealimageszero doesnotdelete2torsion. Rank anddegreevanishing checked. MilnorStasheff Theorem15.3 searchtext confirms Whitney onlymod2torsion; laterWhitneyentry fixed separately. Independent read-only reviewer checked full source: coefficient R kept in Thom disk/trivial models, Pontryagin continuous naturality separated from smooth forms, positive-dimensional even sphere qualified; findings resolved as applicable.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/bundle-metric",
+        "fiber-bundles/connection-on-a-vector-bundle",
+        "fiber-bundles/curvature-of-a-vector-bundle-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "fiber-bundles/integral-chern-classes",
+        "linear-algebra/complexification",
+        "topology/singular-cohomology-group",
+        "fiber-bundles/paracompact-topological-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pontryagin-number",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "b20aea7cf4e625f71861aedcd43e7a1452f901285ff3676368083873d0d3537c",
+      "evidence": "Full Pontryaginnumber and nowintegralclass target read. Actual p/cupproduct/fundamentalclass inputs; addedfundamentalclass outputevaluation. Defined partition explicitlypositiveintegers sumk, k>=1 usualpositive-dimensionalnumbers (0D emptyproduct conventioncould separatelyinclude). Tangent andgeneralcharacternumber onlyinterpretationlater removed. CP2 c1=3h,c2=3h\u00b2 givesp1=3h\u00b2 andsignature1; orientationreversal negates; cobordism rationaldetection standard.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/pontryagin-class",
+        "fiber-bundles/characteristic-number",
+        "topology/cup-product-and-cohomology-ring"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/pontryagin-class",
+        "topology/cup-product-and-cohomology-ring",
+        "topology/fundamental-class"
+      ]
+    },
+    {
+      "id": "fiber-bundles/stiefel-whitney-class",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "166e03cba39291b2ce258d7c700ae7c2379b5faf14a7d4c68d74627dae2e8d67",
+      "evidence": "Full SW source read; all fourfamilyaxioms nowopening includingexplicitnaturality previouslylater. Real topological instead smooth target givescorrectparaHausdorffscope. RP1 normalization detectsuniversalH1 andavoidsnonexistentinfiniteprojective smoothtarget; tautfiberdefinedinline. Product directsum definedinline notdepWhitneytheorem, avoidsaxiomcycle. Rank0 w1zero, RPn examplen>=1, stable sphereclass1 fromTSn\u2295Rtrivial; spinclaim qualifiedgeneralvectorliftvstangent-spin target.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "topology/singular-cohomology-group"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "topology/singular-cohomology-group",
+        "topology/cup-product-and-cohomology-ring",
+        "fiber-bundles/paracompact-topological-space",
+        "differential-geometry/real-projective-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/whitney-sum-formula",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "b242461d1d7b13c6492929cd08b42098ab7224e18368e3a34232007b5fa7a670",
+      "evidence": "Full Whitney source read. Core exactChern/SW formulas correctedtopological inputs andintegralChern target (CWclasswrongintegral). Fixed FALSEintegralPontryaginmultiplicativity: oddChernclasses ofrealcomplexifications killed2 give2torsioncross terms; rationalidentity valid. E.g tautrealL overRP4, p(L)=1 butp1(L\u2295L)=-c1(L_C)^2\u22600. Eulerproduct validallorientedranks, canonicalproductorientation; stablestiefelvanishing correct. MilnorStasheff Thm15.3 explicitlymatches2torsionqualification.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/characteristic-class",
+        "fiber-bundles/direct-sum-vector-bundle",
+        "fiber-bundles/chern-class",
+        "fiber-bundles/stiefel-whitney-class",
+        "topology/singular-cohomology-group",
+        "topology/cup-product-and-cohomology-ring"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "fiber-bundles/topological-complex-vector-bundle",
+        "fiber-bundles/integral-chern-classes",
+        "fiber-bundles/stiefel-whitney-class",
+        "topology/singular-cohomology-group",
+        "topology/cup-product-and-cohomology-ring"
+      ]
+    },
+    {
+      "id": "fiber-bundles/nonabelian-cech-h1-principal-bundles",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "56a1e29a8ea244df14398ea0c3c86683dc75ecf1b27141c01c2944f62e1a1ecb",
+      "evidence": "Full nonabelianH1 source read. Cocycles/refinement equivalence actuallydefinesH1 nowcore beforetheorem. Fixed left-actionnotation h\u00b7g with h^-1 g h toRIGHTg\u00b7h (twofamilies compositionhk). Fixed fixed-coverorbit interpretation: bundlesTRIVIALIZABLE notwithchosen trivializations. Groupoidcomparisonlater removeddep. Addedactualequivalence/isomorphism/pointedset/cover inputs. AbelianU1 classification usesintegralChern notdeRhamclass losingtorsion.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+        "fiber-bundles/cech-cocycle-groupoid"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+        "fiber-bundles/equivalence-of-cocycles",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "shared-foundations/pointed-set",
+        "topology/open-cover"
+      ]
+    },
+    {
+      "id": "fiber-bundles/cech-cocycle-groupoid",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "13539b14239349db4747260f047af74238ab90b64f23e28797bb15f359c311db",
+      "evidence": "Full target cocyclegroupoid read: formerlycompositionorderunspecified, nowk\u2218h=hk explicit by k^-1(h^-1gh)k=(hk)^-1g(hk), allidentityinverseaxiomscore. Addedgroupoid/cover/smoothmap actualinputs. Correctbundle-equivalence fullsubcategorytrivializableovercover, arbitraryisomorphismsnottrivialization-preserving; gaugeautomorphisms recovered. NoH1reverse dependency. Final source inspection corrected target IDs/grammar and whitespace; actual target scope checked.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-g-valued-cech-1-cocycle"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-g-valued-cech-1-cocycle",
+        "algebra-category-theory/groupoid",
+        "topology/open-cover",
+        "fiber-bundles/smooth-map"
+      ]
+    },
+    {
+      "id": "fiber-bundles/universal-characteristic-class",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "9333b274e1cdf35b08b06b936681ddfb54807b691ea179ea9b771f85c3206c45",
+      "evidence": "Full universalclass source read withnewclassifying targets. TopologicalG nowactualsupportedbyuniversal/numerable definition; c\u2208HnBG andf* c independencehomotopy corevalid. Addedcoefficientring/numerablebundle inputs andcontinuitymaps. Naturalitycomposeclassmaps; allnaturalassignments universality whencategoryincludeschosenuniversalbundle asqualified. ChernWeilcannotseetorsion warningcorrect.",
+      "previous_prerequisites": [
+        "topology/topological-group",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/classifying-map-of-a-principal-bundle",
+        "topology/singular-cohomology-group"
+      ],
+      "prerequisites": [
+        "topology/topological-group",
+        "fiber-bundles/classifying-space-bg",
+        "fiber-bundles/classifying-map-of-a-principal-bundle",
+        "topology/singular-cohomology-group",
+        "fiber-bundles/numerable-principal-bundle",
+        "algebra-rings/commutative-ring"
+      ]
+    },
+    {
+      "id": "fiber-bundles/complete-flag-bundle",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "8a53e9221c41fb3ab8d6ff154322cda79a8542f4f8090e1e50b5d7865f1d0ede",
+      "evidence": "Full new flagbundle definition: nestedsubspaces dimensions andhomogeneous smoothstructureGLnC/B plusassociatedbundle/localcharts allcore, Bcloseduppertriangularstabilizer. GLrightframe andleftflag actionsconsistent. Rank0 oneflag identitybase. Tautologicalsubspaces varysmoothly standardflagcharts; quotientrank1. Actualframe/associated/homogeneous/subspace targetdefinitions inspected. Final source inspection corrected target IDs/grammar and whitespace; actual target scope checked.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/frame-bundle-frame-bundle-of-a-rank-n-vector-bundle",
+        "fiber-bundles/associated-bundle",
+        "lie-groups/homogeneous-space",
+        "convex-analysis/linear-subspace"
+      ]
+    },
+    {
+      "id": "fiber-bundles/short-exact-sequence-of-vector-bundles",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "b2a62cfddc6d7f0d703bafb6bd55b0ad736124fca8b089e3c6059968af0a9c99",
+      "evidence": "Full exactsequence source read: generalized core to actual continuous fiberlinear maps on topological bundles, retainedsmooth specialization explicitly. Complete injective/surjective/imker axioms core ratherthanonlywordexact. Removedderivedkernelbundle/isomorphism dependencies nowconsequences. Smoothconstant-rank facts scoped accordingly; rankadditive fiberlinearexactness andpullback exactness valid; splittinglaterparacompactqualified. Final source inspection corrected target IDs/grammar and whitespace; actual target scope checked.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism",
+        "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism",
+        "fiber-bundles/bundle-isomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/topological-real-vector-bundle",
+        "fiber-bundles/topological-complex-vector-bundle",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism",
+        "shared-foundations/injective-function",
+        "shared-foundations/surjective-function",
+        "convex-analysis/image-and-kernel-linear-isomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/splitting-theorem-for-vector-bundles",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "0efcb8ee9d6da243f5dd3b849f1a6592e416e5c421e2a02abea77b95cf441664",
+      "evidence": "Full splitting theorem and exactsequence targetsread. Topological/smoothcategory scope consistent aftertargetgeneralization, addedHausdorff neededpartitionmetric. s rightinverse gives(u,v)\u21a6i(u)+s(v) fiberisomorphism, continuity andsmoothness viaadaptedcharts. Hermitianmetric forcomplex explicit, notrealbilinearbundlemetric. Complement noncanonical andholomorphiccounterclaim correctlyretained. Proofmetrics notdefinitionprereqs.",
+      "previous_prerequisites": [
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-bundle-morphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/short-exact-sequence-of-vector-bundles",
+        "fiber-bundles/topological-real-vector-bundle",
+        "fiber-bundles/topological-complex-vector-bundle",
+        "fiber-bundles/paracompact-topological-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/splitting-principle",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "22513d1ec49d09bd2d5da287e1263fb9fde42d493a9c7aad0ac6b3b617aa8f41",
+      "evidence": "Full splittingprinciple source read. Actualcompleteflag bundledefinitioncreated (formerlyundefined object), quotientline/directsum/cohom/injective theoremoutputs added; characteristic-class onlyapplicationremoved. Hermitianorthogonalcomplement splitsflagfiltration, LerayHirsch atiteratedprojectivization yieldsintegralpullbackinjection. Chernapplication usesintegralclass target. n0flagidentity handleszero rank. TheoremdoesnotassertsplittingonoriginalX orspaceinjection. Final source inspection corrected target IDs/grammar and whitespace; actual target scope checked.",
+      "previous_prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/pullback-bundle",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/characteristic-class"
+      ],
+      "prerequisites": [
+        "fiber-bundles/complex-vector-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/complete-flag-bundle",
+        "fiber-bundles/pullback-bundle",
+        "fiber-bundles/quotient-vector-bundle",
+        "fiber-bundles/line-bundle",
+        "fiber-bundles/hermitian-metric",
+        "fiber-bundles/direct-sum-vector-bundle",
+        "topology/singular-cohomology-group",
+        "shared-foundations/injective-function"
+      ]
+    },
+    {
+      "id": "fiber-bundles/uhlenbeck-compactness-theorem",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "0cd92010aac1a1058a16139fead89355cf0c21fd50d2d8972ef1f06e50b6881c",
+      "previous_prerequisites": [
+        "fiber-bundles/instanton",
+        "fiber-bundles/bundle-isomorphism",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/yangmills-functional"
+      ],
+      "prerequisites": [
+        "fiber-bundles/instanton",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/yangmills-functional",
+        "fiber-bundles/principal-bundle-isomorphism",
+        "fiber-bundles/pullback-of-differential-forms"
+      ],
+      "evidence": "Root independently reread complete Uhlenbeck source. Compactness requires principal isomorphisms, not arbitrary fiber diffeomorphisms; smooth convergence on neighborhoods ofcompactK clarified. SUr fullcurvature-energy measure8pi\u00b2 quantization matches halfYM4pi\u00b2 normalization; generalG bubbleenergies notuniversalunit. Removable theorem needs smoothmetricthroughpuncture, fixedAdmetric energy and actualgauge/principal inputs, allcore explicit. FiniteenergyYM critical4D conformalinvariance givesR4 infinityapplication; mereL2 connectionwithoutPDE insufficient."
+    },
+    {
+      "id": "fiber-bundles/uhlenbeck-removable-singularity-theorem",
+      "scope": "full",
+      "outcome": "corrected",
+      "source_sha256": "78aa1fd6a534021da6316a7b1f7e06e8161394bf03f8a6b91d19834e717ec88f",
+      "previous_prerequisites": [
+        "fiber-bundles/yangmills-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "fiber-bundles/yangmills-equation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/yangmills-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "fiber-bundles/yangmills-equation",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/yangmills-functional"
+      ],
+      "evidence": "Root independently reread complete Uhlenbeck source. Compactness requires principal isomorphisms, not arbitrary fiber diffeomorphisms; smooth convergence on neighborhoods ofcompactK clarified. SUr fullcurvature-energy measure8pi\u00b2 quantization matches halfYM4pi\u00b2 normalization; generalG bubbleenergies notuniversalunit. Removable theorem needs smoothmetricthroughpuncture, fixedAdmetric energy and actualgauge/principal inputs, allcore explicit. FiniteenergyYM critical4D conformalinvariance givesR4 infinityapplication; mereL2 connectionwithoutPDE insufficient."
     }
   ]
 }

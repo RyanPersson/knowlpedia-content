@@ -6,7 +6,7 @@ summary = "The diffeomorphism of a Lie group given by multiplication by a fixed 
 aliases = ["left-translation-l-g", "Left Translation on a Lie Group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/left-translation-l-g.md"
-prerequisites = ["fiber-bundles/lie-group", "fiber-bundles/smooth-map", "fiber-bundles/diffeomorphism", "fiber-bundles/differential-pushforward-of-a-smooth-map", "fiber-bundles/tangent-space-at-a-point", "lie-groups/left-invariant-vector-field", "lie-groups/exponential-map-lie-group", "fiber-bundles/right-translation-r-g"]
+prerequisites = ["fiber-bundles/lie-group"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,6 +17,8 @@ The **left translation by \(g\)** is the map
 \[
 L_g:G\longrightarrow G,\qquad L_g(h)=gh.
 \]
+## Smoothness and tangent maps
+
 Because group multiplication on a Lie group is a [[fiber-bundles/smooth-map|smooth map]], each \(L_g\) is smooth. Moreover, \(L_g\) is a [[fiber-bundles/diffeomorphism|diffeomorphism]] with inverse \(L_{g^{-1}}\).
 
 Applying the [[fiber-bundles/differential-pushforward-of-a-smooth-map|differential (pushforward)]] gives linear isomorphisms on tangent spaces:

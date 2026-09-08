@@ -6,7 +6,7 @@ summary = "The unique horizontal vector field on the total space that projects t
 aliases = ["horizontal-lift-of-a-vector-field", "Horizontal lift of a vector field"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/horizontal-lift-of-a-vector-field.md"
-prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/vector-field"]
+prerequisites = ["fiber-bundles/ehresmann-connection", "fiber-bundles/vector-field", "fiber-bundles/differential-of-a-smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

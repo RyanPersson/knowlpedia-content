@@ -3997,8 +3997,8 @@
     },
     {
       "id": "differential-geometry/real-projective-space",
-      "outcome": "reviewed_unchanged",
-      "source_sha256": "5f6816b18239ae6f5f91e8c63c1540dc48bbca35f6542dd0d6aefd83a6f813c3",
+      "outcome": "corrected",
+      "source_sha256": "6e1792fefe259f3d1eb0aea222f4ec2b16f7441bf2bbf284eb2a6f3e58bfb78f",
       "evidence": "The space of real lines receives affine projective charts and a smooth-manifold structure; linear subspaces and the projective chart construction are direct, while the shared projective-space target should be checked for foundational direction.",
       "previous_prerequisites": [
         "convex-analysis/linear-subspace",
@@ -4006,7 +4006,7 @@
       ],
       "prerequisites": [
         "convex-analysis/linear-subspace",
-        "algebraic-geometry-foundations/projective-space"
+        "topology/quotient-topology"
       ]
     },
     {
@@ -4192,362 +4192,1003 @@
         "measure-theory/lebesgue-measure",
         "fiber-bundles/regular-value"
       ]
-    }
-  ],
-  "triage_records": [
+    },
     {
       "id": "differential-geometry/scalar-curvature",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "f298dc1624943573c0f3b6c3b92e12be4efbf78525ae0d28b3b6a314c83ad6e5",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Scalar curvature is the metric trace of Ricci curvature, so the pseudo-Riemannian metric and Ricci tensor are the direct inputs; sign and dimension conventions are stated in the source.",
+      "previous_prerequisites": [
+        "differential-geometry/pseudo-riemannian-manifold",
+        "differential-geometry/ricci-curvature",
+        "differential-geometry/riemann-curvature-tensor"
+      ],
+      "prerequisites": [
+        "differential-geometry/pseudo-riemannian-manifold",
+        "differential-geometry/ricci-curvature",
+        "differential-geometry/riemann-curvature-tensor"
+      ]
     },
     {
       "id": "differential-geometry/sectional-curvature",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "4f466fb28051963144fddfdbb4052211fb942f914247b3f5abaee05e2288abc7",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Sectional curvature is computed from the Riemann tensor on a nondegenerate two-plane and normalized by its metric area; Riemannian manifold, tangent plane, and curvature tensor are the defining data.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/riemann-curvature-tensor"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/riemann-curvature-tensor"
+      ]
     },
     {
       "id": "differential-geometry/sheaf-of-holomorphic-functions",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "00063ae38b721806d254c494f4a1466279d6aaa1e332d487f9e82923e134646f",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The presheaf assigning holomorphic functions to complex open sets is a sheaf under restriction and gluing; complex manifold, holomorphic map, and sheaf structure are directly used.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "algebraic-geometry-foundations/sheaf",
+        "algebraic-geometry-foundations/locally-ringed-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "algebraic-geometry-foundations/sheaf",
+        "algebraic-geometry-foundations/locally-ringed-space"
+      ]
     },
     {
       "id": "differential-geometry/sheaf-of-smooth-functions",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "e3ed7358142ad442a2029feea13780ad02718640ec03c14fb085c29a15f458bb",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Smooth functions restrict and glue uniquely across open covers of a smooth manifold, giving a sheaf of real algebras; the manifold and algebra foundations are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebraic-geometry-foundations/sheaf",
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "differential-geometry/c-infinity-ring",
+        "differential-geometry/locally-c-infinity-ringed-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebraic-geometry-foundations/sheaf",
+        "algebraic-geometry-foundations/locally-ringed-space",
+        "differential-geometry/c-infinity-ring",
+        "differential-geometry/locally-c-infinity-ringed-space"
+      ]
     },
     {
       "id": "differential-geometry/shifting-trick",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "c6e3dfdbe1540669a647630ef3e15e83c43ed3fcf4360153c21f0676a7834373",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The shifting trick identifies reduction at a coadjoint value with zero reduction on a product involving the coadjoint orbit; Hamiltonian action, moment map, and orbit data are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/hamiltonian-lie-group-action",
+        "fiber-bundles/moment-map",
+        "differential-geometry/coadjoint-orbit",
+        "differential-geometry/kirillov-kostant-souriau-form",
+        "algebra-groups/group-action"
+      ],
+      "prerequisites": [
+        "differential-geometry/hamiltonian-lie-group-action",
+        "fiber-bundles/moment-map",
+        "differential-geometry/coadjoint-orbit",
+        "differential-geometry/kirillov-kostant-souriau-form",
+        "algebra-groups/group-action"
+      ]
     },
     {
       "id": "differential-geometry/singular-symplectic-reduction",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "067e63fdb94aefb2f8926e92f36dad3232093bef90b9d267eef38ab6bc3f32be",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The quotient at a possibly singular moment value is stratified by orbit type rather than a smooth manifold; compact Hamiltonian action, moment map, and symplectic foundations are direct hypotheses.",
+      "previous_prerequisites": [
+        "lie-groups/compact-lie-group",
+        "differential-geometry/hamiltonian-lie-group-action",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/moment-map",
+        "lie-groups/orbit-space",
+        "fiber-bundles/regular-value",
+        "topology/connected-component",
+        "differential-geometry/shifting-trick"
+      ],
+      "prerequisites": [
+        "lie-groups/compact-lie-group",
+        "differential-geometry/hamiltonian-lie-group-action",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/moment-map",
+        "lie-groups/orbit-space",
+        "fiber-bundles/regular-value",
+        "topology/connected-component",
+        "differential-geometry/shifting-trick"
+      ]
     },
     {
       "id": "differential-geometry/smooth-exhaustion-function",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "c583e1400bcef90c87879d13a24abafc86942c4edaa773818d23207fd0d096eb",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "An exhaustion is a smooth proper map to the nonnegative reals; smooth map and properness are exactly the definition.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/proper-smooth-map",
+        "topology/compact-set"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/proper-smooth-map",
+        "topology/compact-set"
+      ]
     },
     {
       "id": "differential-geometry/smooth-fiber-product",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "3fa7bcad16e28cea29657d83b867d33f877ab882df56ab42e2bbccf6a13273e2",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Transverse maps give a smooth fiber product as the inverse image of the diagonal; smooth maps/manifolds and transversality are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/transverse-smooth-maps",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/product-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/transverse-smooth-maps",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/product-manifold"
+      ]
     },
     {
       "id": "differential-geometry/smooth-homotopy",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "4fd1b667c283264f33ce2087df2a776142efa766af55e662c97e62649a3df9a4",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A smooth homotopy is a smooth map on the product with the interval whose endpoint restrictions are the given maps; all three map/manifold notions are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/smooth-map-of-manifolds-with-boundary",
+        "differential-geometry/product-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "shared-foundations/equivalence-relation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/smooth-map-of-manifolds-with-boundary",
+        "differential-geometry/product-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "shared-foundations/equivalence-relation"
+      ]
     },
     {
       "id": "differential-geometry/smooth-isotopy",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "843c983f97cc6511568a20b3b186e395a232eb799ed8c1b374784decf0cca081",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "An isotopy is a smooth family of embeddings, equivalently a smooth boundary-parameterized map with embedding slices; embeddings, manifolds, and boundary-map smoothness are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-embedding",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/smooth-map-of-manifolds-with-boundary"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-embedding",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/smooth-map-of-manifolds-with-boundary"
+      ]
     },
     {
       "id": "differential-geometry/smooth-map-of-manifolds-with-boundary",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "421b15a34d2627d353b180784af015b5ded45b2911b59df1fd0c49bbeb4f055e",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Smoothness is defined in boundary charts using extensions to Euclidean neighborhoods and compatibility with boundary strata; manifold-with-boundary and boundary charts are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/boundary-chart",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-boundary",
+        "differential-geometry/boundary-chart",
+        "fiber-bundles/smooth-map"
+      ]
     },
     {
       "id": "differential-geometry/smooth-map-of-manifolds-with-corners",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "531e2c99eb2e44994526a600d1abda7267175013ce17609978a71b326de6b89b",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The corner smoothness condition uses local orthant charts, continuous maps, and smooth extensions in the stated convention; those foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/manifold-with-corners",
+        "topology/continuous-map",
+        "differential-geometry/boundary-face-of-a-manifold-with-corners",
+        "differential-geometry/boundary-defining-function"
+      ],
+      "prerequisites": [
+        "differential-geometry/manifold-with-corners",
+        "topology/continuous-map",
+        "differential-geometry/boundary-face-of-a-manifold-with-corners",
+        "differential-geometry/boundary-defining-function"
+      ]
     },
     {
       "id": "differential-geometry/smooth-mapping-space",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "f23f044e39342d4f31b51c5863b995c00e4e15ad32193b44ed147670ae43d89c",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The space is the set of smooth maps between finite-dimensional manifolds, with its chosen compact-open C-infinity topology developed afterward; manifold and smooth-map concepts define the core.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/category-of-smooth-manifolds"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "differential-geometry/category-of-smooth-manifolds"
+      ]
     },
     {
       "id": "differential-geometry/smooth-maps-from-smooth-function-algebras",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "faf1630fbd86f42f9c383083274d469a55514f0b353c9922cc1cefd34d61a0a7",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The theorem characterizes smooth maps by pullback homomorphisms of C-infinity function algebras, under Hausdorff second-countable manifold assumptions; both geometric and algebraic structures are essential.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-category-theory/opposite-category",
+        "differential-geometry/category-of-smooth-manifolds",
+        "algebra-category-theory/contravariant-functor"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "algebra-category-theory/opposite-category",
+        "differential-geometry/category-of-smooth-manifolds",
+        "algebra-category-theory/contravariant-functor"
+      ]
     },
     {
       "id": "differential-geometry/smooth-splitting-of-globally-hyperbolic-spacetimes",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "a7e9c9a11cc7cbe58052489bab52a4dc8a3ba2f6c93955d9d770e2e0babb6c8b",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A temporal function with timelike gradient and Cauchy levels yields a product splitting of a globally hyperbolic spacetime; global hyperbolicity and smooth spacetime structure are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface"
+      ],
+      "prerequisites": [
+        "differential-geometry/globally-hyperbolic-spacetime",
+        "differential-geometry/cauchy-hypersurface"
+      ]
     },
     {
       "id": "differential-geometry/smooth-urysohn-lemma",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "9b93fa2d162c37c858c1db4a850772915c34003b62852823b80689436f1d6077",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Disjoint closed sets in a smooth manifold can be separated by a smooth [0,1]-valued function using smooth bump/partition methods; closed-set, smooth-manifold, and smooth-map data are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "topology/closed-set",
+        "fiber-bundles/smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "topology/closed-set",
+        "fiber-bundles/smooth-map"
+      ]
     },
     {
       "id": "differential-geometry/spinor-bundle",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "f1ded774d405c2c29d264b63721b6ae24e1cb741e73385e1ed194e1167790053",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A spinor bundle is the associated bundle from a spin structure and spinor representation over an oriented Riemannian manifold; all listed spin and bundle structures are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/spin-structure",
+        "differential-geometry/spinor-module",
+        "fiber-bundles/associated-vector-bundle",
+        "differential-geometry/clifford-module"
+      ],
+      "prerequisites": [
+        "fiber-bundles/spin-structure",
+        "differential-geometry/spinor-module",
+        "fiber-bundles/associated-vector-bundle",
+        "differential-geometry/clifford-module"
+      ]
     },
     {
       "id": "differential-geometry/spinor-module",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "67843d3c957f1ec50399c43647f933ec55d1363a800cfd8466b079a70ea8db2c",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A spinor module is a module for a Clifford algebra of a nondegenerate quadratic space; quadratic space, Clifford algebra/module, and spin group representation data are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/clifford-module",
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ],
+      "prerequisites": [
+        "differential-geometry/clifford-module",
+        "differential-geometry/clifford-algebra",
+        "lie-groups/spin-group"
+      ]
     },
     {
       "id": "differential-geometry/stokes-theorem",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "015df19a0a9117b7eae177d7ee9ea309a36b0390ff74df6ec7eef477bced840e",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Integration of an oriented differential form over a manifold with boundary equals integration of its exterior derivative over the boundary, with induced boundary orientation; all listed orientation, boundary, form, and derivative concepts are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/integration-of-differential-forms",
+        "differential-geometry/orientation-of-a-smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/manifold-with-boundary",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/integration-of-differential-forms",
+        "differential-geometry/orientation-of-a-smooth-manifold"
+      ]
     },
     {
       "id": "differential-geometry/strong-causality",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "eb53ea21bbe44b3a46c293a8302d3fd6c68d29a338b59b69ed30492f2c69dbe6",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Strong causality excludes arbitrarily short causal loops in neighborhoods and is formulated using time-oriented Lorentzian manifolds and causal curves; those are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/causal-curve"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "differential-geometry/causal-curve"
+      ]
     },
     {
       "id": "differential-geometry/submanifold-chart",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "44c1f8aff22f425f45591cc1c7f0b297c94365d6f4b599085854ab5c807c9d5a",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The chart normal form identifies an embedded k-submanifold with coordinate plane R^k×0 inside a smooth n-manifold; smooth manifold, chart, and embedding notions are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart",
+        "differential-geometry/embedded-submanifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-chart",
+        "differential-geometry/embedded-submanifold"
+      ]
     },
     {
       "id": "differential-geometry/symmetric-monoidal-structure-on-the-cobordism-category",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "4f7203669165665f6c26107fa41c53799a6e66d2f7cc2f44eef6f27f0c0deaf9",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Disjoint union supplies tensor product on objects and cobordisms, with empty cobordism as unit and symmetry from component exchange; the three listed categorical/geometric structures are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/cobordism-category",
+        "differential-geometry/cobordism",
+        "differential-geometry/disjoint-union-of-smooth-manifolds"
+      ],
+      "prerequisites": [
+        "differential-geometry/cobordism-category",
+        "differential-geometry/cobordism",
+        "differential-geometry/disjoint-union-of-smooth-manifolds"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-basis",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "f36673341341475c8980da367e4c2ee24c42462f6a3e5e165f588240d8b94c30",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The ordered basis is characterized by the standard pairings omega(ei,fj)=deltaij and all same-type pairings zero; the symplectic vector space is the sole foundation.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-basis-theorem",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "6fb4a9a4195128ef44ac9097c4c65359ecc133ffdc75dfa400f9a6a2678d35e7",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Nondegeneracy and induction on symplectic complements produce a basis in paired vectors; the theorem’s hypothesis and conclusion both concern the symplectic vector space and basis.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-embedding",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "9d89570ca623211eeac1b899028b320744426f9a653a6f470b974a465f5d7dc5",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The map is a smooth embedding preserving the symplectic form, with a linear symplectic differential on tangent spaces; the listed embedding/map/subspace concepts support the full definition.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/symplectic-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/symplectic-map",
+        "fiber-bundles/tangent-space-at-a-point",
+        "convex-analysis/linear-subspace"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-isotopy",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "0cca31c830b32a0a9a03a86555316032741e1a1454f75e9a071c9812b3cb39d8",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A path of symplectomorphisms starting at identity has a time-dependent symplectic vector field; symplectic manifold is the ambient structure and the path axioms are stated in the source.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-leaf",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "90455af2f9aecb1c54e5afd8312cc4db43f133ca1d906f47090b1d1a17dbfb8d",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The characteristic distribution of a Poisson tensor integrates to maximal connected immersed leaves carrying nondegenerate restricted forms; Poisson manifold and immersed submanifold are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/poisson-manifold",
+        "differential-geometry/immersed-submanifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/poisson-manifold",
+        "differential-geometry/immersed-submanifold"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-lie-group-action",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "467c99c863c7e94f5e1cf635b3016363b14d3ae012764acc4dc1f714c6071ffd",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A smooth Lie-group action preserves omega pointwise, equivalently every group element acts by symplectomorphism; all four action/manifold prerequisites are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "differential-geometry/symplectomorphism"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-action-of-a-lie-group-on-a-manifold",
+        "differential-geometry/symplectomorphism"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-linear-map",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "e545a7e2a32d4337ed033435d1a25040ea416659097ea94f1053e4921f280dc7",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The pullback identity T*omegaW=omegaV defines a linear symplectic map; symplectic vector spaces and linear maps are exactly the inputs.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "linear-algebra/linear-map"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-manifold",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "8015ea82ee72e41cbcdba1a2ce81584dbcb6dabe58aefd702db2cceb2f774103",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A symplectic form is closed and nondegenerate on a smooth manifold; smooth manifold, almost-symplectic form, and closed-form conditions are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/almost-symplectic-manifold",
+        "fiber-bundles/closed-differential-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/almost-symplectic-manifold",
+        "fiber-bundles/closed-differential-form"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-map",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "8ca448688b14d6c3f0237f56e3bb8a8219fba855832b86dcf811e791b216fb26",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A smooth map preserves symplectic forms by pullback; source/target symplectic manifolds, smooth map, and differential-form pullback are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/pullback-of-differential-forms"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/pullback-of-differential-forms"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-orthogonal-complement",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "e791441ed41b6632f5003a6275b2bea026a72d0ebb3185ff120a0fad56a4eb0f",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The orthogonal complement W^omega is defined by vanishing pairings against a linear subspace in a symplectic vector space; both listed foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "convex-analysis/linear-subspace"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "convex-analysis/linear-subspace"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-quotient",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "64991fc03affbba11420bab9d63d2ef60437049f2dec3e2e6e11cbb93f30ef6d",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The quotient of a regular moment level by the stabilizer inherits a symplectic form; Hamiltonian action, moment map, stabilizer, coadjoint orbit, quotient, and symplectic structures are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/hamiltonian-lie-group-action",
+        "fiber-bundles/moment-map",
+        "algebra-groups/stabilizer",
+        "fiber-bundles/coadjoint-action-of-a-lie-group",
+        "lie-groups/orbit-space",
+        "differential-geometry/symplectic-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/hamiltonian-lie-group-action",
+        "fiber-bundles/moment-map",
+        "algebra-groups/stabilizer",
+        "fiber-bundles/coadjoint-action-of-a-lie-group",
+        "lie-groups/orbit-space",
+        "differential-geometry/symplectic-manifold"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-submanifold",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "63b2ca45a2e66065e716af2be1f53a4048414d0eb244b2289c13952a85c844bd",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A smooth embedded submanifold is symplectic when the pulled-back form is nondegenerate, equivalently its tangent subspaces are symplectic; all three listed notions are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/symplectic-subspace"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/symplectic-subspace"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-subspace",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "178434fe823f8b37948a87ff8102b3cbf822edab2aa49e2b04df6fb6a9c8b795",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A linear subspace is symplectic exactly when the restricted alternating form is nondegenerate; symplectic vector space and linear-subspace foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "convex-analysis/linear-subspace",
+        "differential-geometry/symplectic-orthogonal-complement"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-vector-space",
+        "convex-analysis/linear-subspace",
+        "differential-geometry/symplectic-orthogonal-complement"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-vector-field",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "98b6317528c6b3e5247f9b9e1d8e60278dd5d28571b23058c3de189844596eb5",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A vector field is symplectic when its Lie derivative annihilates omega; symplectic manifold, vector field, and Lie derivative are the defining inputs.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/lie-derivative-of-a-differential-form"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/vector-field",
+        "fiber-bundles/lie-derivative-of-a-differential-form"
+      ]
     },
     {
       "id": "differential-geometry/symplectic-vector-space",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "e24619eb4b8fda7e4d54c82b736a6728b5a188f6545c61f002e1365ab89d9603",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The finite-dimensional vector space with alternating nondegenerate bilinear form supplies the complete linear symplectic axioms; both listed algebraic foundations are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/bilinear-form"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "linear-algebra/bilinear-form"
+      ]
     },
     {
       "id": "differential-geometry/symplectomorphism",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "100280dce825f57c692bc5169e3962f34588715cb359f4901be1405ada3a5c48",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A symplectomorphism is a diffeomorphism whose pullback preserves the symplectic form; manifold, diffeomorphism, pullback, and symplectic-map notions are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/pullback-of-differential-forms",
+        "differential-geometry/symplectic-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "fiber-bundles/diffeomorphism",
+        "fiber-bundles/pullback-of-differential-forms",
+        "differential-geometry/symplectic-map"
+      ]
     },
     {
       "id": "differential-geometry/symplectomorphism-group",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "72fdd2155d0f46fa743c6ac894cef83a7f9d3e579ea57889b1058d7302d0c05d",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The group consists of diffeomorphisms preserving omega under pullback, with composition and inverse inherited from the symplectic-manifold category; both listed structures are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/category-of-symplectic-manifolds"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/category-of-symplectic-manifolds"
+      ]
     },
     {
       "id": "differential-geometry/tangent-functor",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "09b6b50ddfa58d150156fd94ad86ebde62b1d2eeeb7ab501690803fe32cca8ea",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The tangent construction sends smooth manifolds/maps to tangent bundles/maps and respects identity and composition, so functor, manifold category, tangent bundle, differential, and chain rule are direct.",
+      "previous_prerequisites": [
+        "algebra-category-theory/functor",
+        "differential-geometry/category-of-smooth-manifolds",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "real-analysis/chain-rule"
+      ],
+      "prerequisites": [
+        "algebra-category-theory/functor",
+        "differential-geometry/category-of-smooth-manifolds",
+        "fiber-bundles/tangent-bundle",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/differential-of-a-smooth-map",
+        "real-analysis/chain-rule"
+      ]
     },
     {
       "id": "differential-geometry/tangent-space-of-grassmannian",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "3d2db58d785ac4d2b180934af6496d3a80c07f69275497a219d27be9954a0819",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The tangent space at W is identified with Hom(W,V/W), obtained by differentiating graph charts in the Grassmannian; vector-space and Grassmannian foundations directly support this model.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "differential-geometry/grassmannian",
+        "differential-geometry/tangent-space"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "differential-geometry/grassmannian",
+        "differential-geometry/tangent-space"
+      ]
     },
     {
       "id": "differential-geometry/tautological-bundle-grassmannian",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "d2bdb0fe423bfe776e790fb8666da89aff1f177611bf9775b289501162f88fe4",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The tautological bundle consists of pairs (W,v) with v in the Grassmannian plane W, so vector-space and Grassmannian data are the complete construction inputs.",
+      "previous_prerequisites": [
+        "linear-algebra/vector-space",
+        "differential-geometry/grassmannian",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-subbundle"
+      ],
+      "prerequisites": [
+        "linear-algebra/vector-space",
+        "differential-geometry/grassmannian",
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/vector-subbundle"
+      ]
     },
     {
       "id": "differential-geometry/tautological-one-form-cotangent",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "9c3852a4050e7272d764bf3486fc5c96a0649e6c3363e7da458fa86e716c7a73",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "At a covector alpha_x, the tautological form evaluates a tangent vector by alpha_x(dpi(v)); smooth manifold, cotangent bundle, and fiber-bundle section structures are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/differential-k-form"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/cotangent-bundle",
+        "fiber-bundles/differential-k-form"
+      ]
     },
     {
       "id": "differential-geometry/thom-transversality-theorem",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "2eba0d09d03a03cfe55be1d39f2e487a111611fc945066d61347f043da7d4997",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Generic smooth maps are transverse to a submanifold in a jet bundle; manifold, embedded-submanifold, jet, and transversality prerequisites encode the theorem hypotheses and conclusion.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/whitney-c-infinity-topology",
+        "differential-geometry/jet-of-a-smooth-map",
+        "differential-geometry/map-transverse-to-a-submanifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/whitney-c-infinity-topology",
+        "differential-geometry/jet-of-a-smooth-map",
+        "differential-geometry/map-transverse-to-a-submanifold"
+      ]
     },
     {
       "id": "differential-geometry/time-dependent-hamiltonian-system",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "f35be7d5075b06e631cd5d72a85756609612167217fcf4272cdc039b3fa351e5",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A smooth family H(t,x) on a symplectic manifold determines time-dependent Hamiltonian vector fields and their flow; interval, symplectic, Hamiltonian-function, vector-field, and flow data are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/classical-phase-space",
+        "differential-geometry/hamiltonian-vector-field"
+      ],
+      "prerequisites": [
+        "differential-geometry/symplectic-manifold",
+        "differential-geometry/classical-phase-space",
+        "differential-geometry/hamiltonian-vector-field"
+      ]
     },
     {
       "id": "differential-geometry/time-orientation",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "7176ce255c0c7efa8b587edca00988ad09d1641d388d0aa2f1cc541952d32ad1",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A time orientation continuously selects one component of each Lorentzian timelike cone; Lorentzian manifold and connected-component data are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "linear-algebra/minkowski-vector-space"
+      ],
+      "prerequisites": [
+        "differential-geometry/lorentzian-manifold",
+        "linear-algebra/minkowski-vector-space"
+      ]
     },
     {
       "id": "differential-geometry/transverse-intersection-theorem",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "67cdb19c63763158df406d4d7be8401771eb800c7c4cada940096e766b14c73e",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Transverse embedded submanifolds intersect in an embedded submanifold with tangent intersection and expected dimension; manifold, embedding, and transversality foundations are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/transverse-submanifolds"
+      ],
+      "prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/transverse-submanifolds"
+      ]
     },
     {
       "id": "differential-geometry/transverse-preimage-theorem",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "569b0048820be64b99e41c0c37a040f005e86f6637deab0a600ceccc9ce8587c",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The inverse image of an embedded submanifold under a map transverse to it is embedded with tangent kernel condition; all listed smooth-map, manifold, embedding, and transversality notions are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/map-transverse-to-a-submanifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/map-transverse-to-a-submanifold"
+      ]
     },
     {
       "id": "differential-geometry/transverse-smooth-maps",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "1ab678329afb8f989c799c91ac21d960f880bf300e0c37ff8f2405ab8bb0f605",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Two maps are transverse when their differential images span the target tangent space at coincidence points; smooth maps, manifolds, tangent spaces, and linear algebra listed are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-of-a-smooth-map"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-map",
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-of-a-smooth-map"
+      ]
     },
     {
       "id": "differential-geometry/transverse-submanifolds",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "d62934f15e7d17e51715cb39f48bb8cd06660db90b604a2779d8b9bf27595116",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Submanifolds are transverse when their tangent spaces span the ambient tangent space; embedded submanifold and tangent-space notions directly define it.",
+      "previous_prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/linear-map"
+      ],
+      "prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "linear-algebra/linear-map"
+      ]
     },
     {
       "id": "differential-geometry/triholomorphic-map",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "3a4c38889c92c9f70e1f80959d4d0c6d30eec67ad75098143b08d6b8a1af49e2",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The map intertwines all three complex structures of hypercomplex manifolds; hypercomplex structure and smooth-map data are direct and the component equations are checked together.",
+      "previous_prerequisites": [
+        "differential-geometry/hypercomplex-manifold"
+      ],
+      "prerequisites": [
+        "differential-geometry/hypercomplex-manifold"
+      ]
     },
     {
       "id": "differential-geometry/tubular-neighborhood",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "41bb4d8f007766c105c88a3eaedc03c655b9cc735cb87a91c7a380a815afbcb9",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A tubular neighborhood identifies an open neighborhood of an embedded submanifold with its normal bundle via an embedding; embedded submanifold, normal bundle, and smooth embedding are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/normal-bundle",
+        "fiber-bundles/zero-section",
+        "fiber-bundles/smooth-embedding",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "differential-geometry/normal-bundle",
+        "fiber-bundles/zero-section",
+        "fiber-bundles/smooth-embedding",
+        "fiber-bundles/diffeomorphism"
+      ]
     },
     {
       "id": "differential-geometry/tubular-neighborhood-theorem",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "01904fb4af67012964694978ce133aa541fe06ce3e92d6961fca08bda5047e8d",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The theorem constructs a diffeomorphic neighborhood of an embedded submanifold from its normal bundle; smooth manifold, embedding, and normal bundle hypotheses are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tubular-neighborhood",
+        "fiber-bundles/zero-section",
+        "differential-geometry/normal-bundle",
+        "fiber-bundles/diffeomorphism"
+      ],
+      "prerequisites": [
+        "differential-geometry/embedded-submanifold",
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/tubular-neighborhood",
+        "fiber-bundles/zero-section",
+        "differential-geometry/normal-bundle",
+        "fiber-bundles/diffeomorphism"
+      ]
     },
     {
       "id": "differential-geometry/twistor-space-quaternionic-manifold",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "c6653b88c7de6135ab5bfa2f92fec56e9e1918e7be8b54938f6a6c77045cad93",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The twistor space is the sphere bundle of compatible complex structures in a quaternionic tangent bundle; quaternionic manifold and sphere-bundle constructions are direct.",
+      "previous_prerequisites": [
+        "differential-geometry/quaternionic-manifold",
+        "fiber-bundles/sphere-bundle"
+      ],
+      "prerequisites": [
+        "differential-geometry/quaternionic-manifold",
+        "fiber-bundles/sphere-bundle"
+      ]
     },
     {
       "id": "differential-geometry/variation-of-hodge-structure",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "0d11ba469141157299f5feaca37c32060d7072bff817ace4f9181aa98d40f805",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A variation combines a local system, holomorphic filtration, Griffiths transversality, and polarization data over a complex manifold; these are the direct definition ingredients.",
+      "previous_prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-vector-bundle",
+        "fiber-bundles/flat-vector-bundle-connection",
+        "linear-algebra/bilinear-form"
+      ],
+      "prerequisites": [
+        "differential-geometry/complex-manifold",
+        "differential-geometry/holomorphic-vector-bundle",
+        "fiber-bundles/flat-vector-bundle-connection",
+        "linear-algebra/bilinear-form"
+      ]
     },
     {
       "id": "differential-geometry/volume-form",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "2a56a8f658fb02d68a9949763bfc32e021955dff80f1c2cec7b584c28a66cbe6",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A volume form is an oriented smooth manifold’s nowhere-vanishing top-degree form, so orientation, manifold, and differential-form foundations are direct.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/orientation-of-a-smooth-manifold"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/differential-k-form",
+        "differential-geometry/orientation-of-a-smooth-manifold"
+      ]
     },
     {
       "id": "differential-geometry/weyl-spinor",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "a48a09e10355f415f9f939c8e4900cea5ec35f3d3fd360535506e930fee09d2f",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "A Weyl spinor is a vector in one chiral summand of an even-dimensional complex spinor module; quadratic-space orientation and spinor-module data are direct.",
+      "previous_prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/spinor-module",
+        "differential-geometry/chirality-operator",
+        "differential-geometry/clifford-module"
+      ],
+      "prerequisites": [
+        "linear-algebra/quadratic-form",
+        "differential-geometry/spinor-module",
+        "differential-geometry/chirality-operator",
+        "differential-geometry/clifford-module"
+      ]
     },
     {
       "id": "differential-geometry/whitney-c-infinity-topology",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "d1f5206a7d3ef31a3a3d6722fdd87d7bf7879cc16236c71dd941e5d644dec883",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "The topology controls all derivatives of smooth maps on compact subsets, using smooth manifolds, mapping spaces, and locally finite control; those prerequisites define the topology.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/jet-of-a-smooth-map",
+        "fiber-bundles/jet-bundle",
+        "topology/compact-set"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "differential-geometry/jet-of-a-smooth-map",
+        "fiber-bundles/jet-bundle",
+        "topology/compact-set"
+      ]
     },
     {
       "id": "differential-geometry/whitney-embedding-theorem",
+      "outcome": "reviewed_unchanged",
       "source_sha256": "c47ff672b07963b1fcb0b4cdd488b48a626cd2273bc7a932810fdfa3b8741120",
-      "status": "pending_full_semantic_review",
-      "reason": "Prior scripted record was withdrawn; this entry has not yet received an individual full-source and direct-target semantic review."
+      "evidence": "Every positive-dimensional Hausdorff second-countable smooth n-manifold embeds smoothly in R^(2n); smooth manifold and smooth embedding foundations are direct, while dimension hypotheses are explicit.",
+      "previous_prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/embedded-submanifold",
+        "linear-algebra/euclidean-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/smooth-manifold",
+        "fiber-bundles/smooth-embedding",
+        "differential-geometry/embedded-submanifold",
+        "linear-algebra/euclidean-space"
+      ]
     }
-  ]
+  ],
+  "triage_records": []
 }

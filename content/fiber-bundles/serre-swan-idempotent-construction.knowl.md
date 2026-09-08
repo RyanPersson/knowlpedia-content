@@ -6,7 +6,7 @@ summary = "The vector bundle formed by the pointwise images of a smooth idempote
 aliases = ["idempotent projector bundle", "image bundle of a smooth projector"]
 domains = ["fiber-bundles", "algebra-modules"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/algebra-of-smooth-functions", "fiber-bundles/vector-bundle", "algebra-rings/idempotent-element", "fiber-bundles/vector-subbundle"]
+prerequisites = ["fiber-bundles/smooth-manifold", "differential-geometry/algebra-of-smooth-functions", "fiber-bundles/vector-bundle", "algebra-rings/idempotent-element", "fiber-bundles/vector-subbundle", "fiber-bundles/kernel-and-image-bundles-of-a-constant-rank-morphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -25,7 +25,7 @@ E_p:=
 =
 \coprod_{x\in M}\operatorname{im}p(x).
 \]
-Because a smooth [[algebra-rings/idempotent-element|idempotent]] has locally constant rank, these images form a smooth [[fiber-bundles/vector-subbundle|vector subbundle]] of the trivial bundle. Its complementary subbundle is \(E_{1-p}\), and \(E_p\oplus E_{1-p}=M\times\mathbb F^n\).
+Locally choose linearly independent columns of \(p(x_0)\); the corresponding columns of \(p(x)\) remain independent nearby and form a smooth frame for its image. These local frames define the bundle structure. Because a smooth [[algebra-rings/idempotent-element|idempotent]] has locally constant rank, these images form a smooth [[fiber-bundles/vector-subbundle|vector subbundle]] of the trivial bundle. Its complementary subbundle is \(E_{1-p}\), and \(E_p\oplus E_{1-p}=M\times\mathbb F^n\).
 
 ## Sections and projective modules
 

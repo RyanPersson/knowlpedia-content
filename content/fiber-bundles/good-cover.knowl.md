@@ -6,7 +6,7 @@ summary = "An open cover whose nonempty finite intersections are contractible."
 aliases = ["good-cover", "Good cover"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/good-cover.md"
-prerequisites = ["topology/topological-space", "topology/open-cover"]
+prerequisites = ["topology/topological-space", "topology/open-cover", "topology/contractible-space"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -17,9 +17,11 @@ An open cover \(\{U_i\}_{i\in I}\) of \(X\) is a **good cover** if every nonempt
 \[
 U_{i_0}\cap \cdots \cap U_{i_k}
 \]
-is contractible.
+is [[topology/contractible-space|contractible]] (including the intersections consisting of a single cover member).
 
-On a [[fiber-bundles/paracompact-manifold|paracompact manifold]], one can often refine a given cover to a good cover by taking sufficiently small coordinate neighborhoods (or sufficiently small geodesically convex balls when a Riemannian metric is available).
+## Existence on manifolds
+
+A smooth manifold admits good covers subordinate to any prescribed open cover, using sufficiently small strongly geodesically convex neighborhoods for a Riemannian metric. Arbitrary coordinate neighborhoods need not have contractible intersections.
 
 ## Applications
 
@@ -33,4 +35,4 @@ Good covers are especially useful because many global invariants can be computed
    \(S^1\) admits a good cover by three open arcs arranged so that all nonempty intersections are (possibly smaller) open arcs, hence contractible.
 
 3. **A concrete nonexample.**
-   Cover \(S^2\) by the north and south open hemispheres. Their intersection is an open neighborhood of the equator, homotopy equivalent to \(S^1\), so it is not contractible; this two-set cover is not good.
+   Cover \(S^2\) by the complements of the north and south poles. Their intersection is the twice-punctured sphere, homotopy equivalent to \(S^1\), so it is not contractible; this two-set cover is not good.

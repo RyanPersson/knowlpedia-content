@@ -1,0 +1,415 @@
+{
+  "reviews": [
+    {
+      "id": "fiber-bundles/gauge-fixing-condition",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8a7f1f994a94bac95c522af0f8e9ee9de7290a038f866f459052dcfb8e4dd2ee",
+      "evidence": "Definition correctly limits gauge fixing to local effectiveness and transversality; all orbit-space inputs and formal adjoint are substantive.",
+      "previous_prerequisites": [
+        "fiber-bundles/bundle-of-connections",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space"
+      ],
+      "prerequisites": [
+        "fiber-bundles/bundle-of-connections",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/formal-adjoint-of-covariant-exterior-derivative",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space"
+      ]
+    },
+    {
+      "id": "fiber-bundles/gauge-group",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afedd2153666b7b76c51d0f5d97189c1167bf1c5a7d6c869d58cdc909a3cece2",
+      "evidence": "Automorphism, adjoint-bundle, principal-bundle, and conjugation prerequisites match the equivalent gauge-group descriptions.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-automorphism",
+        "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action",
+        "fiber-bundles/conjugation-action-of-a-lie-group-on-itself"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-bundle-automorphism",
+        "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action",
+        "fiber-bundles/conjugation-action-of-a-lie-group-on-itself"
+      ]
+    },
+    {
+      "id": "fiber-bundles/gauge-theory",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f026cf9dd05e45f238efb3e3102b059286e8d5010644b5aac59916d742e5c3b",
+      "evidence": "Bundle, connection, gauge group, and transformation inputs define the classical framework; invariance and quotient statements are consequences.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation"
+      ]
+    },
+    {
+      "id": "fiber-bundles/instanton",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5161e819575610533c68431cc89637305734dae621d33d1c77beefb34861fe6c",
+      "evidence": "Compact group, invariant Lie-algebra metric, curvature, Hodge star, four-manifold, and SD/ASD equations support finite-energy instantons; finite energy is automatic only on compact M.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/hodge-star-operator"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "differential-geometry/riemannian-manifold",
+        "differential-geometry/hodge-star-operator"
+      ]
+    },
+    {
+      "id": "fiber-bundles/instanton-number",
+      "outcome": "corrected",
+      "source_sha256": "f3d6124eff73a330344601a5c21f04a805f21637ee2973ad687fa4559b6b0c3b",
+      "evidence": "Corrected the determinant-preserving connection hypothesis and Chern–Weil sign: under det(I+iF/2π), c2=+tr(F∧F)/(8π²); energy sign paragraph and matching energy identity now agree.",
+      "previous_prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/hermitian-connection",
+        "fiber-bundles/chern-number",
+        "fiber-bundles/instanton"
+      ],
+      "prerequisites": [
+        "fiber-bundles/vector-bundle",
+        "fiber-bundles/hermitian-connection",
+        "fiber-bundles/chern-number",
+        "fiber-bundles/instanton"
+      ]
+    },
+    {
+      "id": "fiber-bundles/irreducible-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "162d01b6467c34a880513dfea9580bad5ccaa9c600eaa612664f69967d5aeb28",
+      "evidence": "Stabilizer equal to the center is the defining condition relative to the full gauge group; connectedness and compactness support the stated holonomy interpretation.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/reducible-connection",
+        "fiber-bundles/gauge-theory"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/reducible-connection",
+        "fiber-bundles/gauge-theory"
+      ]
+    },
+    {
+      "id": "fiber-bundles/moduli-stack-of-connections",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9551b759d764a5534e03b4a5fb4fa216e18bb7752a2baebb72aed50af9f43b32",
+      "evidence": "Quotient-stack definition needs connection space, gauge group/action, orbit set, and stabilizer; all are present and scope distinguishes stack from coarse quotient.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/bundle-of-connections",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+        "fiber-bundles/stabilizer-of-a-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/bundle-of-connections",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/corollary-conn-gauge-is-a-well-defined-orbit-space",
+        "fiber-bundles/stabilizer-of-a-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+      "outcome": "corrected",
+      "source_sha256": "0c8c740d986efd9ff12d4f889a3ef036e08ff191cd5a6ce77b09cb16e23a7732",
+      "evidence": "Added gauge-group prerequisite because the proposition explicitly names Gauge(P) and defines its action; principal bundle, Lie group, and connection remain core inputs.",
+      "previous_prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/lie-group",
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/pure-gauge-connection-ag-1dg-on-a-trivial-bundle",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bf98aee36f04f458734640641a0feff0d4ab75291af52ff09e967fc38b7da3a6",
+      "evidence": "Principal connection is the core geometric input; trivialization, Lie-group map, Maurer–Cartan equation, and flatness are stated in the body.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/reducible-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a7d605e67b0f8e80b24b5876fd90f3715b632faa9aee4830caba449c79d5719a",
+      "evidence": "Reducibility is correctly defined by stabilizer strictly containing central transformations; compactness and connectedness support the convention.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-transformation"
+      ]
+    },
+    {
+      "id": "fiber-bundles/regular-asd-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "997952263cd92206a79677084e9bb32fd3cb35b109724ac28b7ec6be1e61d34c",
+      "evidence": "ASD connection and deformation complex define H² obstruction; irreducibility is correctly separated from regularity and only affects quotient smoothness.",
+      "previous_prerequisites": [
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "fiber-bundles/asd-deformation-complex",
+        "fiber-bundles/irreducible-connection"
+      ],
+      "prerequisites": [
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "fiber-bundles/asd-deformation-complex",
+        "fiber-bundles/irreducible-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/representation-variety",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d4a5cf02f2254f5bacae3257c77d33e15dbc503208a25d16fa2872f219a54bfa",
+      "evidence": "Algebraically closed field, finitely presented group, affine algebraic group, and homomorphisms support the coordinate presentation.",
+      "previous_prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebra-groups/group-homomorphism"
+      ],
+      "prerequisites": [
+        "algebraic-geometry-foundations/algebraically-closed-field",
+        "algebra-groups/group-homomorphism"
+      ]
+    },
+    {
+      "id": "fiber-bundles/self-dual-and-anti-self-dual-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5cfb57def41ab8ae387b873a9127eb60226dd675e1077c5db9668981450f289d",
+      "evidence": "Oriented Riemannian four-manifold, connection curvature, and Hodge star support *F=±F; Yang–Mills consequence is not a prerequisite.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "differential-geometry/hodge-star-operator"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "differential-geometry/hodge-star-operator"
+      ]
+    },
+    {
+      "id": "fiber-bundles/slice-theorem-for-the-gauge-action",
+      "outcome": "corrected",
+      "source_sha256": "4a513dac2e3b410f68b89382978fde72530decbe979bb0eefad268cb61f64440",
+      "evidence": "Added stabilizer and gauge-group prerequisites and explicit k≥1, 1<p<∞, kp>n hypotheses; the local quotient construction and residual stabilizer are now represented.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/coulomb-gauge"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/coulomb-gauge",
+        "fiber-bundles/stabilizer-of-a-connection",
+        "fiber-bundles/gauge-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bb4ecfd353b8e51a8c038f03b6587b82d1920a8c686127dfdef27864d7194b0f",
+      "evidence": "Compact Riemannian manifold, gauge group, and Sobolev hypotheses support Banach completions; the offset W^{k+1,p}/W^{k,p} and kp>d condition are explicit.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/gauge-group"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/gauge-group"
+      ]
+    },
+    {
+      "id": "fiber-bundles/stabilizer-of-a-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5fcc2ae2d8ada3ec40654498fdaf20c5200d0ed08da3000723625ff8857252de",
+      "evidence": "Gauge action, principal bundle, connection, transformation, and subgroup stabilizer support the definition and central-symmetry discussion.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+        "algebra-groups/stabilizer",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/proposition-gauge-group-acts-on-conn-by-pullback",
+        "algebra-groups/stabilizer",
+        "fiber-bundles/gauge-transformation"
+      ]
+    },
+    {
+      "id": "fiber-bundles/uhlenbeck-compactness-theorem",
+      "outcome": "corrected",
+      "source_sha256": "dbde06120e89a56837a6fd3e9511a2972d5379cc933315cac479787a16806bac",
+      "evidence": "Instantons, bundle identifications, gauge transformations, and Yang–Mills energy support smooth convergence off finite bubbling set; added Yang–Mills functional as an energy input.",
+      "previous_prerequisites": [
+        "fiber-bundles/instanton",
+        "fiber-bundles/bundle-isomorphism",
+        "fiber-bundles/gauge-transformation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/instanton",
+        "fiber-bundles/bundle-isomorphism",
+        "fiber-bundles/gauge-transformation",
+        "fiber-bundles/yangmills-functional"
+      ]
+    },
+    {
+      "id": "fiber-bundles/uhlenbeck-removable-singularity-theorem",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "dcbf0ac1fc2165ebf52ec4132c8f7175823040a768235d90ad372bc7b3776f5a",
+      "evidence": "Yang–Mills and SD/ASD equations plus finite curvature energy support extension over puncture; four-ball geometry is explicit in the body.",
+      "previous_prerequisites": [
+        "fiber-bundles/yangmills-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "fiber-bundles/yangmills-equation"
+      ],
+      "prerequisites": [
+        "fiber-bundles/yangmills-connection",
+        "fiber-bundles/self-dual-and-anti-self-dual-connection",
+        "fiber-bundles/yangmills-equation"
+      ]
+    },
+    {
+      "id": "fiber-bundles/wilson-loop",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1329f775b1411829b912031fcfbfd440f02200a7dd67a684b921272fe05ff214",
+      "evidence": "Bundle connection, representation, parallel transport, and trace support the Wilson-loop definition; conjugacy gives basepoint and gauge invariance.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/parallel-transport",
+        "linear-algebra/trace"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "fiber-bundles/principal-connection",
+        "lie-groups/representation-of-a-lie-group",
+        "fiber-bundles/parallel-transport",
+        "linear-algebra/trace"
+      ]
+    },
+    {
+      "id": "fiber-bundles/yang-mills-energy-identity",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0ba13c3c9632ae26dbbdc90f1d09dae82254644e251cd403f0b3b9a250c87ef0",
+      "evidence": "Curvature, invariant inner product, four-dimensional Hodge decomposition, and lower-bound concept support the identity; corrected instanton-number sign to match det(I+iF/2π) convention.",
+      "previous_prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "shared-foundations/lower-bound"
+      ],
+      "prerequisites": [
+        "fiber-bundles/principal-g-bundle",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/curvature-2-form-of-a-principal-connection",
+        "shared-foundations/lower-bound"
+      ]
+    },
+    {
+      "id": "fiber-bundles/yang-mills-moduli-space",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d94a943a1bc7154c7564ecb80036c9aa29f3ab982ce10583220c0168c633f8d6",
+      "evidence": "Riemannian manifold, invariant Lie-algebra inner product, gauge group, and Yang–Mills connection define the quotient moduli space.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/yangmills-connection"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "linear-algebra/inner-product",
+        "lie-groups/lie-algebra",
+        "fiber-bundles/gauge-group",
+        "fiber-bundles/yangmills-connection"
+      ]
+    },
+    {
+      "id": "fiber-bundles/yangmills-connection",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2bb80ef41c6ba0c44438d53cd937f13c0a3afa4508f8e51780ce3f7450e5a70",
+      "evidence": "Riemannian manifold, principal connection, curvature, and Yang–Mills equation define the critical-point equation; ASD examples are consequences.",
+      "previous_prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/yangmills-equation",
+        "fiber-bundles/curvature"
+      ],
+      "prerequisites": [
+        "differential-geometry/riemannian-manifold",
+        "fiber-bundles/principal-connection",
+        "fiber-bundles/yangmills-equation",
+        "fiber-bundles/curvature"
+      ]
+    }
+  ],
+  "triage_records": []
+}

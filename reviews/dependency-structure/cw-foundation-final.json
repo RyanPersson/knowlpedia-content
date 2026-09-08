@@ -1,0 +1,26 @@
+{
+  "reviews": [
+    {
+      "id": "topology/cw-complex",
+      "scope": "foundation",
+      "outcome": "corrected",
+      "source_sha256": "54a4f7cb1932de93312a3a7126f41139fefb8e4b1ef73722153130d894fb0adb",
+      "evidence": "Added the complete CW construction: an inductive skeleton filtration, continuous attaching maps from S^(n-1), quotient topology on each attached stage, explicit n=0 conventions, characteristic-map cell interiors, closure-finiteness, and the weak topology condition. Dimensions, skeleta, finite and bounded-dimensional cases, and standard examples are stated after the defining core.",
+      "previous_prerequisites": [],
+      "prerequisites": [
+        "topology/topological-space",
+        "topology/continuous-map",
+        "topology/homeomorphism",
+        "topology/quotient-topology"
+      ],
+      "prerequisites_read": true,
+      "sources": [
+        "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=5",
+        "/home/codex/code/knowlpedia-root/ab-tests/knowlpedia-content/content/topology/cw-complex.knowl.md"
+      ],
+      "unresolved": []
+    }
+  ],
+  "triage_records": [],
+  "excluded_count": 0
+}

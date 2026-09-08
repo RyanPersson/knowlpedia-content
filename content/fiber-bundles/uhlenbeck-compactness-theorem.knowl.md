@@ -6,12 +6,12 @@ summary = "A compactness theorem giving subsequential convergence of bounded-ene
 aliases = ["Uhlenbeck weak compactness", "bubbling compactness for instantons"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/instanton", "fiber-bundles/bundle-isomorphism", "fiber-bundles/gauge-transformation"]
+prerequisites = ["fiber-bundles/instanton", "fiber-bundles/gauge-transformation", "fiber-bundles/yangmills-functional", "fiber-bundles/principal-bundle-isomorphism", "fiber-bundles/pullback-of-differential-forms"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to X\) be a principal bundle with compact structure group over a closed oriented Riemannian four-manifold. If \((A_i)\) is a sequence of [[fiber-bundles/instanton|instantons]] with uniformly bounded Yang–Mills energy, then a subsequence has a finite set \(S\subset X\), a bundle \(P_\infty\to X\setminus S\), and an instanton \(A_\infty\) such that, for every compact \(K\subset X\setminus S\), there are [[fiber-bundles/bundle-isomorphism|bundle isomorphisms]]
+Let \(P\to X\) be a principal bundle with compact structure group over a closed oriented Riemannian four-manifold. If \((A_i)\) is a sequence of [[fiber-bundles/instanton|instantons]] with uniformly bounded Yang–Mills energy, then a subsequence has a finite set \(S\subset X\), a bundle \(P_\infty\to X\setminus S\), and an instanton \(A_\infty\) such that, for every compact \(K\subset X\setminus S\), there are principal bundle isomorphisms on neighborhoods of \(K\), whose restrictions satisfy
 \[
 u_i:P_\infty|_K\longrightarrow P|_K
 \qquad\text{with}\qquad
@@ -35,7 +35,7 @@ After passage to a subsequence, the curvature-energy measures have the form
 +\sum_{x\in S}\varepsilon_x\delta_x,
 \qquad \varepsilon_x>0.
 \]
-For standard instanton normalizations, each \(\varepsilon_x\) is quantized by the energy of a nontrivial instanton on \(S^4\). Rescaling around a concentration point reveals one or more bubbles; iteration produces a bubble tree.
+For \(G=SU(r)\) with inner product \(-\operatorname{tr}(\xi\eta)\), each \(\varepsilon_x\) is a positive integer multiple of \(8\pi^2\) for the displayed curvature-norm measure. More generally, concentration records the curvature energies of nontrivial instanton bubbles on \(S^4\). Rescaling around a concentration point reveals one or more bubbles; iteration produces a bubble tree.
 
 ## Scope
 

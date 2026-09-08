@@ -6,16 +6,16 @@ summary = "A cohomology class on a classifying space whose pullbacks assign a na
 aliases = ["characteristic class on BG", "universal cohomological characteristic class"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["topology/topological-group", "fiber-bundles/classifying-space-bg", "fiber-bundles/classifying-map-of-a-principal-bundle", "topology/singular-cohomology-group"]
+prerequisites = ["topology/topological-group", "fiber-bundles/classifying-space-bg", "fiber-bundles/classifying-map-of-a-principal-bundle", "topology/singular-cohomology-group", "fiber-bundles/numerable-principal-bundle", "algebra-rings/commutative-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(G\) be a [[topology/topological-group|topological group]], let \(R\) be a coefficient ring, and choose a [[fiber-bundles/classifying-space-bg|classifying space]] \(BG\). A **universal characteristic class of degree \(n\)** is a class
+Let \(G\) be a [[topology/topological-group|topological group]], let \(R\) be a commutative coefficient ring with identity, and choose a [[fiber-bundles/classifying-space-bg|classifying space]] \(BG\). A **universal characteristic class of degree \(n\)** is a class
 \[
 c\in H^n(BG;R).
 \]
-For a principal \(G\)-bundle \(P\to B\) over a paracompact base and a [[fiber-bundles/classifying-map-of-a-principal-bundle|classifying map]] \(f_P:B\to BG\), its associated characteristic class is
+For a [[fiber-bundles/numerable-principal-bundle|numerable topological principal \(G\)-bundle]] \(P\to B\) (in particular, any locally trivial bundle over a paracompact Hausdorff base) and a [[fiber-bundles/classifying-map-of-a-principal-bundle|classifying map]] \(f_P:B\to BG\), its associated characteristic class is
 \[
 c(P):=f_P^*c\in H^n(B;R).
 \]
@@ -23,7 +23,7 @@ Because any two classifying maps for \(P\) are homotopic, \(c(P)\) is independen
 
 ## Naturality and universality
 
-If \(g:B'\to B\), then
+If \(g:B'\to B\) is continuous, then
 \[
 c(g^*P)=g^*c(P),
 \]

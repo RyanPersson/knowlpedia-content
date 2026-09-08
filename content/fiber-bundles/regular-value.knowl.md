@@ -19,6 +19,8 @@ d f_x : T_x M \longrightarrow T_y N
 \]
 is surjective (with [[fiber-bundles/tangent-space-at-a-point|tangent spaces]] understood in the usual sense).
 
+A value outside \(f(M)\) is regular vacuously, since its fiber is empty.
+
 ## Equivalent characterizations
 Equivalently: \(y\) is regular if \(f\) is a [[fiber-bundles/smooth-submersion|submersion]] at every point of the [[fiber-bundles/fiber-of-a-map|fiber]] \(f^{-1}(y)\). Points of \(N\) that are not regular values are called **critical values**.
 
@@ -31,7 +33,7 @@ Equivalently: \(y\) is regular if \(f\) is a [[fiber-bundles/smooth-submersion|s
 
 
 ## Regular value theorem
-If \(y\in N\) is a regular value of \(f:M^m\to N^n\), then the fiber \(f^{-1}(y)\) is an embedded smooth submanifold of \(M\) of codimension \(n\) (and hence of dimension \(m-n\)). Moreover, for each \(x\in f^{-1}(y)\),
+If \(y\in N\) is a regular value of \(f:M^m\to N^n\), then the fiber \(f^{-1}(y)\) is either empty or an embedded smooth submanifold of \(M\) of codimension \(n\) (and hence of dimension \(m-n\)). Moreover, for each \(x\in f^{-1}(y)\),
 \[
 T_x\bigl(f^{-1}(y)\bigr)=\ker(d f_x)\subseteq T_x M.
 \]

@@ -6,12 +6,12 @@ summary = "On a simply connected region where the curvature vanishes, parallel t
 aliases = ["proposition-flatness-implies-path-independence-on-simply-connected-domains", "Flatness implies path-independence on simply connected domains"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/proposition-flatness-implies-path-independence-on-simply-connected-domains.md"
-prerequisites = ["fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/curvature", "fiber-bundles/parallel-transport"]
+prerequisites = ["fiber-bundles/connection-on-a-vector-bundle", "fiber-bundles/parallel-transport", "fiber-bundles/curvature-of-a-vector-bundle-connection", "topology/simply-connected-space", "topology/open-set"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(E\to M\) be a vector bundle with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\), and let \(F_\nabla\) denote its [[fiber-bundles/curvature|curvature]].
+Let \(E\to M\) be a vector bundle with a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] \(\nabla\), and let \(F_\nabla\) denote its [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature]].
 
 **Proposition (endpoint dependence on simply connected sets).**
 Let \(U\subset M\) be a connected, simply connected open set such that \(F_\nabla|_U=0\). Then for any two points \(x,y\in U\), the [[fiber-bundles/parallel-transport|parallel transport]] map
@@ -21,6 +21,8 @@ Let \(U\subset M\) be a connected, simply connected open set such that \(F_\nabl
 depends only on the endpoints \(x,y\), not on the choice of piecewise smooth path \(\gamma\) in \(U\) from \(x\) to \(y\).
 
 Equivalently, if \(\gamma_0,\gamma_1\) are two such paths with the same endpoints, then \(\mathrm{PT}_{\gamma_0}=\mathrm{PT}_{\gamma_1}\).
+
+## Principal bundles
 
 A parallel statement holds for a principal bundle with a flat principal connection: on a simply connected \(U\) where curvature vanishes, the transport \(P_x\to P_y\) is independent of the path in \(U\).
 

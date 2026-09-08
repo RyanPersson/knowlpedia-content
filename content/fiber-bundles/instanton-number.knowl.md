@@ -11,9 +11,9 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(E\to M\) be a rank-\(r\) Hermitian [[fiber-bundles/vector-bundle|vector bundle]] with structure group \(SU(r)\) over a closed oriented four-manifold, and let \(A\) be a [[fiber-bundles/hermitian-connection|unitary connection]] with curvature \(F_A\). Its **instanton number** is
+Let \(E\to M\) be a rank-\(r\) Hermitian [[fiber-bundles/vector-bundle|vector bundle]] with structure group \(SU(r)\) over a closed oriented four-manifold, and let \(A\) be a determinant-preserving [[fiber-bundles/hermitian-connection|unitary connection]] with curvature \(F_A\). Its **instanton number** is
 \[
-k(E)= -\frac{1}{8\pi^2}\int_M\operatorname{tr}(F_A\wedge F_A)
+k(E)= \frac{1}{8\pi^2}\int_M\operatorname{tr}(F_A\wedge F_A)
 =\langle c_2(E),[M]\rangle\in\mathbb Z,
 \]
 using the defining representation and the stated sign convention. It is the [[fiber-bundles/chern-number|second Chern number]] of \(E\), so it is independent of \(A\). When \(A\) is a [[fiber-bundles/instanton|Yang–Mills instanton]], this integer labels its topological sector but is not additional connection data.
@@ -22,9 +22,9 @@ using the defining representation and the stated sign convention. It is the [[fi
 
 The four-form
 \[
--\frac{1}{8\pi^2}\operatorname{tr}(F_A\wedge F_A)
+\frac{1}{8\pi^2}\operatorname{tr}(F_A\wedge F_A)
 \]
-represents \(c_2(E)\) because \(c_1(E)=0\) for an \(SU(r)\)-bundle. Replacing \(A\) by another connection changes this form by an exact [[fiber-bundles/transgression-form|transgression form]], whose integral over closed \(M\) vanishes. Thus the number depends on the bundle and orientation, not on the chosen representative connection.
+represents \(c_2(E)\) because \(c_1(E)=0\) for an \(SU(r)\)-bundle under the convention \(\det(I+iF_A/2\pi)\). Replacing \(A\) by another determinant-preserving connection changes this form by an exact [[fiber-bundles/transgression-form|transgression form]], whose integral over closed \(M\) vanishes. Thus the number depends on the bundle and orientation, not on the chosen representative connection.
 
 For a general compact structure group, an “instanton number” requires choosing an invariant [[linear-algebra/quadratic-form|quadratic form]] normalized to represent an integral [[fiber-bundles/characteristic-class|characteristic class]]. The resulting charge need not use the displayed trace normalization.
 
@@ -32,7 +32,7 @@ For a general compact structure group, an “instanton number” requires choosi
 
 In four dimensions, decompose \(F_A=F_A^++F_A^-\) using the [[differential-geometry/hodge-star-operator|Hodge star]]. The Chern–Weil integral is proportional to
 \[
-\|F_A^-\|_{L^2}^2-\|F_A^+\|_{L^2}^2
+\|F_A^+\|_{L^2}^2-\|F_A^-\|_{L^2}^2
 \]
 with the present orientation and trace conventions. The Yang–Mills energy is the corresponding sum. Hence self-dual or [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connections]] saturate a topological [[shared-foundations/lower-bound|lower bound]] proportional to \(|k(E)|\).
 

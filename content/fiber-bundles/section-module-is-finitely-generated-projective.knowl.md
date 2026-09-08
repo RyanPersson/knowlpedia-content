@@ -6,7 +6,7 @@ summary = "The theorem that smooth sections of a finite-rank vector bundle over 
 aliases = ["finite projectivity of smooth sections", "Gamma E is projective"]
 domains = ["fiber-bundles", "algebra-modules", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/module-of-smooth-sections", "algebra-modules/projective-module", "differential-geometry/algebra-of-smooth-functions"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/vector-bundle", "fiber-bundles/module-of-smooth-sections", "algebra-modules/projective-module", "differential-geometry/algebra-of-smooth-functions", "algebra-modules/finitely-generated-module"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

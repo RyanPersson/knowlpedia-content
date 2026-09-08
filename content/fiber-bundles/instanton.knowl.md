@@ -6,7 +6,7 @@ summary = "A finite-action self-dual or anti-self-dual connection on an oriented
 aliases = ["instanton", "gauge instanton", "ASD instanton"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection", "differential-geometry/riemannian-manifold", "differential-geometry/hodge-star-operator"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/principal-connection", "fiber-bundles/curvature-2-form-of-a-principal-connection", "fiber-bundles/self-dual-and-anti-self-dual-connection", "differential-geometry/riemannian-manifold", "differential-geometry/hodge-star-operator", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/vector-bundle-valued-differential-form", "fiber-bundles/yangmills-functional"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -23,11 +23,13 @@ and satisfies one of the first-order equations
 \]
 Equivalently, \(A\) is a [[fiber-bundles/self-dual-and-anti-self-dual-connection|self-dual or anti-self-dual connection]] of finite energy. On compact \(M\), finiteness is automatic. A common orientation convention reserves “instanton” for the anti-self-dual equation.
 
+
+Here \(F_A\) denotes the base-valued curvature: if \(\Omega_A\) is the principal curvature on \(P\), then \(F_A(x)(v,w)=[p,\Omega_A(\widetilde v,\widetilde w)]\in\operatorname{ad}(P)_x\), with \(p\in P_x\) and any lifts of \(v,w\). Horizontality and equivariance make this independent of the choices. The Hodge star acts on the differential-form factor.
 ## Relation to the Yang–Mills equation
 
 The [[fiber-bundles/bianchi-identity|Bianchi identity]] gives \(d_AF_A=0\). If \(*F_A=\pm F_A\), then \(d_A(*F_A)=0\), so every instanton is a [[fiber-bundles/yangmills-connection|Yang–Mills connection]]. The converse fails: a Yang–Mills connection can have both self-dual and anti-self-dual curvature components.
 
-On a compact four-manifold, the orthogonal decomposition \(F_A=F_A^++F_A^-\) rewrites the Yang–Mills action as a topological Chern–Weil term plus a nonnegative multiple of either \(\|F_A^+\|_{L^2}^2\) or \(\|F_A^-\|_{L^2}^2\). Hence instantons attain the absolute energy bound in their fixed topological class.
+On a closed four-manifold, the orthogonal decomposition \(F_A=F_A^++F_A^-\) rewrites the Yang–Mills action as a topological Chern–Weil term plus a nonnegative multiple of either \(\|F_A^+\|_{L^2}^2\) or \(\|F_A^-\|_{L^2}^2\). Hence instantons attain the absolute energy bound in their fixed topological class.
 
 ## Canonical example
 

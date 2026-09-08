@@ -6,7 +6,7 @@ summary = "On a finite-dimensional smooth manifold, taking smooth sections gives
 aliases = ["Serre-Swan correspondence", "Serre-Swan duality", "vector bundles versus projective modules", "categorical Serre-Swan equivalence"]
 domains = ["fiber-bundles", "algebra-category-theory"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/category-of-vector-bundles-over-a-manifold", "fiber-bundles/vector-bundle", "algebra-modules/category-of-finitely-generated-projective-modules", "algebra-category-theory/equivalence-of-categories", "fiber-bundles/section-module-is-finitely-generated-projective", "fiber-bundles/module-of-smooth-sections"]
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/category-of-vector-bundles-over-a-manifold", "fiber-bundles/vector-bundle", "algebra-modules/category-of-finitely-generated-projective-modules", "algebra-category-theory/equivalence-of-categories", "fiber-bundles/section-module-is-finitely-generated-projective", "fiber-bundles/module-of-smooth-sections", "fiber-bundles/vector-bundle-morphism", "algebra-category-theory/functor", "algebra-modules/module-homomorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -21,7 +21,7 @@ E\longmapsto\Gamma^\infty(M,E)
 from the
 [[fiber-bundles/category-of-vector-bundles-over-a-manifold|fixed-base
 category \(\mathbf{Vect}_{\mathbb F}(M)\)]] of finite-rank smooth
-[[fiber-bundles/vector-bundle|\(\mathbb F\)-vector bundles]] and [[fiber-bundles/bundle-map|bundle maps]]
+[[fiber-bundles/vector-bundle|\(\mathbb F\)-vector bundles]] and [[fiber-bundles/vector-bundle-morphism|fiberwise linear bundle maps]]
 covering \(\operatorname{id}_M\) to the
 [[algebra-modules/category-of-finitely-generated-projective-modules|category
 \(\mathbf{Proj}(C^\infty(M,\mathbb F))\)]] is an
@@ -49,7 +49,7 @@ finite-rank free \(C^\infty(M,\mathbb F)\)-module
 \(C^\infty(M,\mathbb F)^N\), hence as a finitely generated
 [[algebra-modules/projective-module|projective module]].
 
-Conversely, a finitely generated projective module is represented by an idempotent matrix \(p\in M_N(C^\infty(M))\). Evaluating \(p\) pointwise gives a smoothly varying family of projections, whose images form a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(M\times\mathbb F^N\). This [[fiber-bundles/projective-module-bundle-reconstruction|idempotent reconstruction]] is inverse to taking sections up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]].
+Conversely, a finitely generated projective module is represented by an idempotent matrix \(p\in M_N(C^\infty(M,\mathbb F))\). Evaluating \(p\) pointwise gives a smoothly varying family of projections, whose images form a [[fiber-bundles/vector-subbundle|vector subbundle]] of \(M\times\mathbb F^N\). This [[fiber-bundles/projective-module-bundle-reconstruction|idempotent reconstruction]] is inverse to taking sections up to [[algebra-category-theory/natural-isomorphism|natural isomorphism]].
 
 ## Categorical content
 
@@ -82,9 +82,8 @@ section module.
 
 **Warning.** Several results are called the Serre–Swan theorem. For a compact
 Hausdorff space \(X\),
-[[fiber-bundles/complex-vector-bundle|complex vector bundles]] correspond to
-finitely generated projective modules over \(C(X)\). Compactness is essential
-to that formulation with the algebra of continuous functions. It is not
+[[fiber-bundles/topological-complex-vector-bundle|topological complex vector bundles]] correspond to
+finitely generated projective modules over \(C(X)\). The compact Hausdorff theorem does not extend to arbitrary noncompact spaces without additional hypotheses. It is not
 required for the displayed smooth theorem over
 \(C^\infty(M,\mathbb F)\), whose finite-dimensional manifold hypotheses
 supply the needed finite-rank complement.

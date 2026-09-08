@@ -6,12 +6,12 @@ summary = "A differential operator on tensorial forms on a principal bundle obta
 aliases = ["exterior-covariant-derivative", "Exterior covariant derivative"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/exterior-covariant-derivative.md"
-prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/exterior-derivative"]
+prerequisites = ["fiber-bundles/principal-connection", "fiber-bundles/exterior-derivative", "lie-groups/representation-of-a-lie-group", "fiber-bundles/differential-k-form", "fiber-bundles/pullback-of-differential-forms", "fiber-bundles/vertical-subbundle"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Fix a principal \(G\)-bundle \(\pi:P\to M\) with a [[fiber-bundles/principal-connection|principal connection]] and associated connection form \(\omega\). Let \(V\) be a representation of \(G\).
+Fix a principal \(G\)-bundle \(\pi:P\to M\) with a [[fiber-bundles/principal-connection|principal connection]] and associated connection form \(\omega\). Let \(V\) be a finite-dimensional real or complex [[lie-groups/representation-of-a-lie-group|smooth representation]] of \(G\).
 
 A \(V\)-valued \(k\)-form \(\alpha\in \Omega^k(P;V)\) is called **tensorial (of type \(V\))** if:
 - (**Horizontality**) \(\alpha(X_1,\dots,X_k)=0\) whenever one of the \(X_i\) is vertical, and
@@ -26,6 +26,8 @@ defined by
 (d_\omega \alpha)_p(X_0,\dots,X_k)\coloneqq (d\alpha)_p(X_0^H,\dots,X_k^H),
 \]
 where \(d\) is the [[fiber-bundles/exterior-derivative|exterior derivative]] and \(X_i^H\) denotes the horizontal projection of \(X_i\in T_pP\) using the connection (equivalently, the horizontal lift determined by \(\ker\omega\)).
+
+## Tensoriality and curvature
 
 This definition produces another tensorial form. In a local trivialization it becomes the “\(d\) plus connection term” formula. Its square is governed by the curvature:
 \[

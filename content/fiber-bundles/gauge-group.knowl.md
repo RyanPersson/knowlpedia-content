@@ -6,7 +6,7 @@ summary = "The gauge group of a principal G bundle is the group of principal bun
 aliases = ["gauge-group", "Gauge group"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/gauge-group.md"
-prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-automorphism", "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/conjugation-action-of-a-lie-group-on-itself"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "fiber-bundles/principal-bundle-automorphism"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++

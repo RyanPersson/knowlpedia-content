@@ -6,19 +6,21 @@ summary = "The four-dimensional decomposition of Yang–Mills energy into a topo
 aliases = ["topological Yang–Mills energy bound", "instanton energy bound", "Bogomolny decomposition"]
 domains = ["fiber-bundles", "differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/curvature-2-form-of-a-principal-connection", "shared-foundations/lower-bound"]
+prerequisites = ["fiber-bundles/principal-g-bundle", "linear-algebra/inner-product", "lie-groups/lie-algebra", "fiber-bundles/curvature-2-form-of-a-principal-connection", "shared-foundations/lower-bound", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/vector-bundle-valued-differential-form", "fiber-bundles/yangmills-functional", "fiber-bundles/l2-inner-product-on-bundle-valued-forms", "differential-geometry/hodge-star-operator", "differential-geometry/integration-of-differential-forms", "fiber-bundles/wedge-product-of-differential-forms", "fiber-bundles/invariant-polynomial-on-a-lie-algebra"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed oriented Riemannian four-manifold, and choose an invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. For any connection \(A\), write \(F_A=F_A^++F_A^-\) for the Hodge decomposition of its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] and set \(\operatorname{YM}(A)=\tfrac12\|F_A\|_{L^2}^2\). Then
+Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed oriented Riemannian four-manifold, and choose an Ad-invariant [[linear-algebra/inner-product|inner product]] on its [[lie-groups/lie-algebra|Lie algebra]]. For any connection \(A\), write \(F_A=F_A^++F_A^-\) for the Hodge decomposition of its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature]] and set \(\operatorname{YM}(A)=\tfrac12\|F_A\|_{L^2}^2\). Then
 \[
 \operatorname{YM}(A)
 =\frac12\int_X\langle F_A\wedge F_A\rangle+\|F_A^-\|_{L^2}^2
 =-\frac12\int_X\langle F_A\wedge F_A\rangle+\|F_A^+\|_{L^2}^2.
 \]
-The curvature integral is topological after an integral normalization of the inner product. These identities hold for every smooth connection and immediately imply a sharp [[shared-foundations/lower-bound|lower bound]].
+The curvature integral depends only on the bundle and the chosen invariant polynomial, without requiring integral normalization; an integral normalization is needed only to identify it with an integer characteristic number. These identities hold for every smooth connection and immediately imply a sharp [[shared-foundations/lower-bound|lower bound]].
 
+
+Here \(F_A\) denotes the base-valued curvature: if \(\Omega_A\) is the principal curvature on \(P\), then \(F_A(x)(v,w)=[p,\Omega_A(\widetilde v,\widetilde w)]\in\operatorname{ad}(P)_x\), with \(p\in P_x\) and any lifts of \(v,w\). Horizontality and equivariance make this independent of the choices. The Hodge star acts on the differential-form factor.
 ## Derivation
 
 The [[differential-geometry/hodge-star-operator|Hodge star]] is an orthogonal involution on two-forms in dimension four. Consequently,
@@ -41,7 +43,7 @@ Equality holds exactly when \(F_A^-=0\) or \(F_A^+=0\), with the choice determin
 
 For an \(SU(r)\)-bundle with inner product \(\langle\xi,\eta\rangle=-\operatorname{tr}(\xi\eta)\), the [[fiber-bundles/instanton-number|instanton number]] satisfies
 \[
-k=-\frac{1}{8\pi^2}\int_X\operatorname{tr}(F_A\wedge F_A),
+k=\frac{1}{8\pi^2}\int_X\operatorname{tr}(F_A\wedge F_A),
 \]
 so the convention \(\operatorname{YM}(A)=\tfrac12\|F_A\|^2\) gives \(\operatorname{YM}(A)\geq4\pi^2|k|\).
 

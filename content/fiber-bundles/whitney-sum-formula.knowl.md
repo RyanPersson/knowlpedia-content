@@ -6,16 +6,16 @@ summary = "Total characteristic classes multiply when vector bundles are combine
 aliases = ["Whitney product formula", "multiplicativity of total characteristic classes"]
 domains = ["fiber-bundles", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/vector-bundle", "fiber-bundles/characteristic-class", "fiber-bundles/direct-sum-vector-bundle", "fiber-bundles/chern-class", "fiber-bundles/stiefel-whitney-class", "topology/singular-cohomology-group", "topology/cup-product-and-cohomology-ring"]
+prerequisites = ["fiber-bundles/topological-real-vector-bundle", "fiber-bundles/topological-complex-vector-bundle", "fiber-bundles/integral-chern-classes", "fiber-bundles/stiefel-whitney-class", "topology/singular-cohomology-group", "topology/cup-product-and-cohomology-ring"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(E\) and \(F\) be [[fiber-bundles/vector-bundle|vector bundles]] over the same paracompact base \(X\). The **Whitney sum formula** states that total [[fiber-bundles/characteristic-class|characteristic classes]] multiply under the [[fiber-bundles/direct-sum-vector-bundle|direct sum]]:
+Let \(E\) and \(F\) be real or complex topological vector bundles over the same paracompact Hausdorff base \(X\). The **Whitney sum formula** states that total [[fiber-bundles/characteristic-class|characteristic classes]] multiply under the fiberwise direct sum (with its topology defined by product bundle charts):
 \[
 c(E\oplus F)=c(E)\smile c(F)
 \]
-for complex bundles and [[fiber-bundles/chern-class|total Chern classes]], and
+for complex bundles and [[fiber-bundles/integral-chern-classes|total integral Chern classes]], and
 \[
 w(E\oplus F)=w(E)\smile w(F)
 \]
@@ -33,15 +33,17 @@ Thus \(c_1(E\oplus F)=c_1(E)+c_1(F)\), while higher components include mixed pro
 
 ## Related characteristic classes
 
-Total [[fiber-bundles/pontryagin-class|Pontryagin classes]] also satisfy
+Total [[fiber-bundles/pontryagin-class|Pontryagin classes]] satisfy the following identity after passing to rational cohomology:
 \[
 p(E\oplus F)=p(E)\smile p(F).
 \]
-For oriented even-rank real bundles, compatible product orientations give
+Integrally the difference can be nonzero \(2\)-torsion. The extra terms come from products of odd Chern classes of the complexifications, each annihilated by \(2\). Thus one must not assert the integral Pontryagin product formula without a condition eliminating this torsion.
+
+For oriented real bundles, compatible product orientations give
 \[
 e(E\oplus F)=e(E)\smile e(F)
 \]
-for Euler classes. These identities use their own coefficient rings and degree conventions.
+for the [[fiber-bundles/euler-class-as-zero-section|integral Euler classes]]. These identities use their own coefficient rings and degree conventions.
 
 ## Examples and consequences
 

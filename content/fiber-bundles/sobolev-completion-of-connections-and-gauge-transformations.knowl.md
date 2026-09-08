@@ -6,12 +6,12 @@ summary = "The Banach configuration space obtained by completing connections and
 aliases = ["Sobolev gauge group", "completed connection space"]
 domains = ["fiber-bundles", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group"]
+prerequisites = ["differential-geometry/riemannian-manifold", "fiber-bundles/gauge-group", "fiber-bundles/principal-g-bundle", "fiber-bundles/principal-connection", "functional-analysis/sobolev-space", "fiber-bundles/construction-adjoint-lie-algebra-bundle-ad", "fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action", "fiber-bundles/vector-bundle-valued-differential-form", "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be a compact \(d\)-dimensional
+Let \(M\) be a closed \(d\)-dimensional
 [[differential-geometry/riemannian-manifold|Riemannian manifold]], \(P\to M\)
 a principal bundle with compact structure group, and \(A_0\) a smooth
 connection. Choose \(1<p<\infty\) and an integer \(k\geq1\) with \(kp>d\).
@@ -21,6 +21,10 @@ The **Sobolev-completed connection space and gauge group** are
 \qquad
 \mathcal G_{k+1}^p(P)=W^{k+1,p}(\operatorname{Ad}P).
 \]
+Here \(\operatorname{ad}(P)=P\times_G\mathfrak g\) is the [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint Lie algebra bundle]], while \(\operatorname{Ad}(P)=P\times_G G\) is the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint group bundle]]. The notation \(W^{j,p}\) means sections whose local coefficient functions have weak derivatives through order \(j\) in \(L^p\). Use a finite smooth atlas, bundle trivializations, and a subordinate partition of unity to sum the local [[functional-analysis/sobolev-space|Sobolev norms]]. For the group-valued sections, use a faithful matrix embedding of compact \(G\); require values in the corresponding group fibers, and use pointwise multiplication and inversion. The resulting topology is independent of these auxiliary choices. Every element of \(\mathcal A_k^p(P)\) is uniquely \(A_0+a\) with \(a\) in the stated vector-valued Sobolev space.
+
+## Smooth gauge action
+
 The first is a Banach affine space, the second is the completed
 [[fiber-bundles/gauge-group|gauge group]] and a Banach Lie group, and the extra
 derivative makes the usual gauge action
@@ -32,7 +36,7 @@ In a [[fiber-bundles/local-trivialization|local trivialization]] the action of a
 [[fiber-bundles/gauge-transformation|gauge transformation]] contains a
 derivative:
 \[
-u\!\cdot\!A=uAu^{-1}-(du)u^{-1}.
+u\!\cdot\!A=uAu^{-1}-(du)u^{-1},\qquad u\!\cdot\!A:=(\Phi_{u^{-1}})^*A.
 \]
 Thus a \(W^{k+1,p}\) gauge transformation acts on a \(W^{k,p}\) connection without losing the target regularity. The hypothesis \(kp>d\) supplies the Sobolev multiplication and continuity properties needed for nonlinear products and inversion. Using \(W^{k,p}\) for both factors is a near-miss: the \(du\) term generally has only \(W^{k-1,p}\) regularity.
 

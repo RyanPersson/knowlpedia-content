@@ -6,16 +6,16 @@ summary = "A complex vector bundle pulls back to a sum of line bundles on a flag
 aliases = ["splitting principle for characteristic classes", "flag-bundle splitting"]
 domains = ["fiber-bundles"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/pullback-bundle", "fiber-bundles/line-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/characteristic-class"]
+prerequisites = ["fiber-bundles/complex-vector-bundle", "fiber-bundles/smooth-manifold", "fiber-bundles/complete-flag-bundle", "fiber-bundles/pullback-bundle", "fiber-bundles/quotient-vector-bundle", "fiber-bundles/line-bundle", "fiber-bundles/hermitian-metric", "fiber-bundles/direct-sum-vector-bundle", "topology/singular-cohomology-group", "shared-foundations/injective-function"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(E\to X\) be a rank-\(n\) [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]]. There is a complete flag bundle \(p:\operatorname{Fl}(E)\to X\) such that the [[fiber-bundles/pullback-bundle|pullback bundle]] \(p^*E\) has a filtration with [[fiber-bundles/line-bundle|line-bundle]] quotients \(L_1,\ldots,L_n\); after choosing a [[fiber-bundles/hermitian-metric|Hermitian metric]], \(p^*E\cong L_1\oplus\cdots\oplus L_n\). Moreover,
+Let \(E\to X\) be a rank-\(n\) [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a [[fiber-bundles/smooth-manifold|smooth manifold]]. The [[fiber-bundles/complete-flag-bundle|complete flag bundle]] \(p:\operatorname{Fl}(E)\to X\) has the property that the [[fiber-bundles/pullback-bundle|pullback bundle]] \(p^*E\) has a filtration with [[fiber-bundles/line-bundle|line-bundle]] quotients \(L_1,\ldots,L_n\); after choosing a [[fiber-bundles/hermitian-metric|Hermitian metric]], \(p^*E\cong L_1\oplus\cdots\oplus L_n\). Moreover,
 \[
 p^*:H^*(X;\mathbb Z)\longrightarrow H^*(\operatorname{Fl}(E);\mathbb Z)
 \]
-is injective. Consequently, identities among [[fiber-bundles/characteristic-class|characteristic classes]] may be checked after pullback, where the bundle behaves as a sum of line bundles. This is the **splitting principle**.
+is injective. This is the **splitting principle**: the bundle splits after this pullback without losing any integral cohomology classes.
 
 ## Construction and justification
 
@@ -29,7 +29,7 @@ Writing \(x_i=c_1(L_i)\), naturality and the [[fiber-bundles/whitney-sum-formula
 \[
 p^*c(E)=\prod_{i=1}^{n}(1+x_i).
 \]
-The classes \(x_i\) are called [[fiber-bundles/chern-roots|formal Chern roots]]. A symmetric polynomial identity in the \(x_i\) descends uniquely to an identity in the [[fiber-bundles/chern-class|Chern classes]] of \(E\), because \(p^*\) is injective. This turns many calculations with characteristic classes into calculations with elementary symmetric polynomials.
+The classes \(x_i\) are called [[fiber-bundles/chern-roots|formal Chern roots]]. A symmetric polynomial identity in the \(x_i\) descends uniquely to an identity in the [[fiber-bundles/integral-chern-classes|integral Chern classes]] of \(E\), because \(p^*\) is injective. This turns many calculations with characteristic classes into calculations with elementary symmetric polynomials.
 
 The same method applies to identities involving duals, tensor products, exterior powers, and Pontryagin classes after complexification.
 

@@ -6,7 +6,7 @@ summary = "The groupoid whose objects are Čech cocycles and whose morphisms are
 aliases = ["cocycle groupoid", "groupoid of Cech cocycles", "descent cocycle groupoid"]
 domains = ["fiber-bundles", "category-theory", "topology"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-g-valued-cech-1-cocycle"]
+prerequisites = ["fiber-bundles/smooth-g-valued-cech-1-cocycle", "algebra-category-theory/groupoid", "topology/open-cover", "fiber-bundles/smooth-map"]
 dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
@@ -20,8 +20,7 @@ cocycle groupoid** has [[fiber-bundles/smooth-g-valued-cech-1-cocycle|smooth
 g'_{ij}=h_i^{-1}g_{ij}h_j
 \]
 
-on every overlap. Composition is induced by pointwise multiplication of the
-families \(\{h_i\}\), with order determined by this convention.
+on every overlap. If \(h:g\to g'\) and \(k:g'\to g''\), their composite \(k\circ h\) is represented by \((h_i k_i)_i\). The identity has every component \(e\), and the inverse of \(h\) has components \(h_i^{-1}\). Associativity follows from group multiplication.
 
 ## Why it is a groupoid
 
@@ -34,7 +33,7 @@ these automorphisms correspond to its gauge transformations.
 ## Relation to bundle classification
 
 The gluing construction identifies this groupoid with the groupoid of
-principal \(G\)-bundles equipped with trivializations over \(\mathcal U\).
+principal \(G\)-bundles trivializable over \(\mathcal U\), with all bundle isomorphisms; choosing local trivializations gives the cocycle presentation.
 Refining covers gives the cover-independent descent description.
 
 ## References
