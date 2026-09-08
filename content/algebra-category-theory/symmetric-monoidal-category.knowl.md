@@ -15,7 +15,13 @@ A **symmetric monoidal category** is a [[algebra-category-theory/monoidal-catego
 \[
 \beta_{X,Y}:X\otimes Y\overset{\sim}{\longrightarrow}Y\otimes X
 \]
-such that \(\beta_{Y,X}\circ\beta_{X,Y}=\operatorname{id}_{X\otimes Y}\) and the two hexagon coherence diagrams relating \(\beta\) to the associator commute. The maps \(\beta_{X,Y}\) form the **symmetry** or **symmetric braiding**.
+such that \(\beta_{Y,X}\circ\beta_{X,Y}=\operatorname{id}_{X\otimes Y}\) and the hexagon identity
+\[
+\alpha_{Y,Z,X}\circ\beta_{X,Y\otimes Z}\circ\alpha_{X,Y,Z}
+=(\operatorname{id}_Y\otimes\beta_{X,Z})\circ\alpha_{Y,X,Z}\circ
+(\beta_{X,Y}\otimes\operatorname{id}_Z)
+\]
+holds for all objects, with composition read from right to left. Here \(\alpha\) is the monoidal associator. Together with the stated involutivity, this identity implies the second hexagon identity. The maps \(\beta_{X,Y}\) form the **symmetry** or **symmetric braiding**.
 
 ## Examples
 

@@ -12,19 +12,25 @@ dependency_review_count = 1
 +++
 
 Let \(k\) be a [[algebra-rings/field|field]]. A **neutral Tannakian category
-over \(k\)** is a \(k\)-linear
+over \(k\)** is an essentially small (isomorphism classes form a set), \(k\)-linear
 [[algebra-category-theory/abelian-category|abelian]]
 [[algebra-category-theory/symmetric-monoidal-category|rigid
 symmetric monoidal category]] \(\mathcal C\) with
 \(\operatorname{End}(\mathbf 1)=k\), equipped with an exact faithful
-\(k\)-linear tensor [[algebra-category-theory/exact-functor|functor]]
+\(k\)-linear strong symmetric monoidal [[algebra-category-theory/exact-functor|functor]]
 
 \[
 \omega:\mathcal C\longrightarrow\operatorname{Vect}^{\mathrm{fd}}_k.
 \]
 
 The functor \(\omega\) is a **fiber functor**.  “Rigid” means every object has
-a tensor dual.
+a tensor dual: maps \(e:X^\vee\otimes X\to\mathbf1\) and \(i:\mathbf1\to X\otimes X^\vee\) satisfy
+\[
+(\operatorname{id}_X\otimes e)\circ(i\otimes\operatorname{id}_X)=\operatorname{id}_X,
+\qquad
+(e\otimes\operatorname{id}_{X^\vee})\circ(\operatorname{id}_{X^\vee}\otimes i)=\operatorname{id}_{X^\vee},
+\]
+with the canonical associators and unitors inserted. Strong symmetric monoidality means specified natural isomorphisms \(\omega(X)\otimes\omega(Y)\cong\omega(X\otimes Y)\) and \(k\cong\omega(\mathbf1)\), compatible with associators, both unitors, and symmetries. The hom-spaces and composition are \(k\)-linear, and tensor product is \(k\)-bilinear on morphisms.
 
 ## Tannaka reconstruction
 
@@ -41,7 +47,7 @@ and Tannaka duality gives a tensor equivalence
 \mathcal C\simeq\operatorname{Rep}_k(G).
 \]
 
-Thus the group is reconstructed from its category of
+Here \(\operatorname{Rep}_k(G)\) denotes finite-dimensional algebraic representations. Thus the group is reconstructed from its category of
 [[algebra-representation-theory/group-representation|representations]] together
 with the forgetful fiber functor.
 

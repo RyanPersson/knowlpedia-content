@@ -1,8 +1,8 @@
 {
   "counts": {
     "canonical_entries": 3539,
-    "corrected": 827,
-    "reviewed_unchanged": 2712,
+    "corrected": 830,
+    "reviewed_unchanged": 2709,
     "blocked": 0,
     "stale": 0,
     "retired": 4,

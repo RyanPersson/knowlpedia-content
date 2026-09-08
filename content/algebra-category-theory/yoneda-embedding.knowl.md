@@ -39,7 +39,7 @@ By the [[algebra-category-theory/yoneda-lemma|Yoneda lemma]], the functor \(y\) 
 \[
 \mathrm{Hom}_{\mathcal{C}}(A,B)\;\cong\;\mathrm{Nat}\big(\mathrm{Hom}_{\mathcal{C}}(-,A),\,\mathrm{Hom}_{\mathcal{C}}(-,B)\big).
 \]
-Equivalently, \(\mathcal{C}\) identifies with a [[algebra-category-theory/full-subcategory|full subcategory]] of \(\mathbf{Set}^{\mathcal{C}^{op}}\) whose objects are precisely the representables.
+Equivalently, \(\mathcal{C}\) is equivalent to the [[algebra-category-theory/full-subcategory|full subcategory]] of representable presheaves, the essential image of \(y\): presheaves naturally isomorphic to some \(y(A)\).
 
 ## Examples
 ### Example (Set)

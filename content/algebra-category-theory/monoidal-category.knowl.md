@@ -17,11 +17,21 @@ A **monoidal category** is a [[algebra-category-theory/category|category]] \(\ma
 \]
 an object \(\mathbb 1\), and [[algebra-category-theory/natural-isomorphism|natural isomorphisms]]
 \[
-\alpha_{X,Y,Z}:(X\otimes Y)\otimes Z\overset{\sim}{\longrightarrow}X\otimes(Y\otimes Z),\qquad
-\lambda_X:\mathbb 1\otimes X\overset{\sim}{\longrightarrow}X,\qquad
-\rho_X:X\otimes\mathbb 1\overset{\sim}{\longrightarrow}X.
+\begin{aligned}\alpha_{X,Y,Z}&:(X\otimes Y)\otimes Z\overset{\sim}{\longrightarrow}X\otimes(Y\otimes Z),\\
+\lambda_X&:\mathbb 1\otimes X\overset{\sim}{\longrightarrow}X,\\
+\rho_X&:X\otimes\mathbb 1\overset{\sim}{\longrightarrow}X.\end{aligned}
 \]
-The associator \(\alpha\) and unitors \(\lambda,\rho\) must satisfy Mac Lane's pentagon and triangle coherence axioms.
+The associator \(\alpha\) and unitors \(\lambda,\rho\) must satisfy the following equations for all objects, with composition read from right to left:
+\[
+\alpha_{W,X,Y\otimes Z}\circ\alpha_{W\otimes X,Y,Z}
+=(\operatorname{id}_W\otimes\alpha_{X,Y,Z})\circ
+\alpha_{W,X\otimes Y,Z}\circ(\alpha_{W,X,Y}\otimes\operatorname{id}_Z),
+\]
+\[
+(\operatorname{id}_X\otimes\lambda_Y)\circ\alpha_{X,\mathbb1,Y}
+=\rho_X\otimes\operatorname{id}_Y.
+\]
+These are the pentagon and triangle coherence axioms, respectively.
 
 ## Why coherence matters
 

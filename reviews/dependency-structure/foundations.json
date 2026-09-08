@@ -7805,6 +7805,97 @@
         "fiber-bundles/yangmills-functional"
       ],
       "evidence": "Root independently reread complete Uhlenbeck source. Compactness requires principal isomorphisms, not arbitrary fiber diffeomorphisms; smooth convergence on neighborhoods ofcompactK clarified. SUr fullcurvature-energy measure8pi\u00b2 quantization matches halfYM4pi\u00b2 normalization; generalG bubbleenergies notuniversalunit. Removable theorem needs smoothmetricthroughpuncture, fixedAdmetric energy and actualgauge/principal inputs, allcore explicit. FiniteenergyYM critical4D conformalinvariance givesR4 infinityapplication; mereL2 connectionwithoutPDE insufficient."
+    },
+    {
+      "id": "algebra-category-theory/abelian-category-axioms",
+      "outcome": "corrected",
+      "source_sha256": "50996b671f823b04464da8c9490b7c378e154baf43bf979ce5fbfb435d9270b0",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/additive-category",
+        "algebra-category-theory/kernel-categorical",
+        "algebra-category-theory/cokernel-categorical",
+        "algebra-category-theory/monomorphism-category",
+        "algebra-category-theory/epimorphism-category",
+        "algebra-category-theory/isomorphism-category"
+      ],
+      "evidence": "Full source reread. Zero object implies zero morphisms but converse false (preadditive category need not have zero object). Kernel/cokernel normality equivalences retained: universal property proves ker f = ker(coker(ker f)); dual statement likewise. Corrected arrow-isomorphism endpoint wording, since kernel objects are only isomorphic, not literally equal. Independent reviewer reread final changes and checked equations/core/prerequisite meanings with no remaining substantive findings. Root browser inspection checked displayed math; monoidal structure maps split into aligned rows to avoid clipping.",
+      "scope": "full"
+    },
+    {
+      "id": "algebra-category-theory/pretriangulated-category",
+      "outcome": "corrected",
+      "source_sha256": "1b78831134a4f27bd6a3a2f93bf0af4cdb08888e29b5f7d65adc4cd3d4424555",
+      "prerequisites": [
+        "algebra-category-theory/preadditive-category",
+        "algebra-category-theory/zero-object",
+        "algebra-category-theory/shift-functor",
+        "algebra-category-theory/triangle"
+      ],
+      "evidence": "Full source and shift/triangle targets reread. All five pretriangulated axioms in core, additive shift equations and rotation sign explicit; removed distinguished-triangle dependency because selected class is defined here. Checked mathlib Pretriangulated primary docs. Independent reviewer reread final changes and checked equations/core/prerequisite meanings with no remaining substantive findings. Root browser inspection checked displayed math; monoidal structure maps split into aligned rows to avoid clipping.",
+      "scope": "full"
+    },
+    {
+      "id": "algebra-category-theory/distinguished-triangle",
+      "outcome": "corrected",
+      "source_sha256": "94e0a9d2cf80e1b3aaabf3b893511697bbfd110513f98e92ce5842edc210f86c",
+      "prerequisites": [
+        "algebra-category-theory/triangle",
+        "algebra-category-theory/pretriangulated-category"
+      ],
+      "evidence": "Full definition and discussion reread. Selected distinguished class now depends on actual complete pretriangulated axioms; mapping cone is motivating example, moved out of defining core and prerequisites. Reverse dependency removed at pretriangulated definition to keep graph acyclic. Independent reviewer reread final changes and checked equations/core/prerequisite meanings with no remaining substantive findings. Root browser inspection checked displayed math; monoidal structure maps split into aligned rows to avoid clipping.",
+      "scope": "full"
+    },
+    {
+      "id": "algebra-category-theory/yoneda-embedding",
+      "outcome": "corrected",
+      "source_sha256": "6f80eedbc834ddc2a9dc544610ab6bbbace3d27f840e50d5249d451e0aecce18",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/functor",
+        "algebra-category-theory/representable-functor",
+        "algebra-category-theory/natural-transformation",
+        "algebra-category-theory/opposite-category",
+        "shared-foundations/set"
+      ],
+      "evidence": "Full objects/morphisms/formulas/examples reread. Corrected literal identification to equivalence with essential image, which includes all isomorphic representatives. Locally small hypothesis gives Hom sets, Yoneda natural-transformations between representables are sets. Independent reviewer reread final changes and checked equations/core/prerequisite meanings with no remaining substantive findings. Root browser inspection checked displayed math; monoidal structure maps split into aligned rows to avoid clipping.",
+      "scope": "full"
+    },
+    {
+      "id": "algebra-category-theory/monoidal-category",
+      "outcome": "corrected",
+      "source_sha256": "32e6abb55476756fcee970af482d7d2a3be10e8941e34f7616605098a150e994",
+      "prerequisites": [
+        "algebra-category-theory/category",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "evidence": "Full source reread. Replaced only names of pentagon/triangle by complete typed equations in opening core; checked both composites from (((W tensor X) tensor Y) tensor Z) and ((X tensor 1) tensor Y). Bifunctor/naturality already present. Independent reviewer reread final changes and checked equations/core/prerequisite meanings with no remaining substantive findings. Root browser inspection checked displayed math; monoidal structure maps split into aligned rows to avoid clipping.",
+      "scope": "full"
+    },
+    {
+      "id": "algebra-category-theory/symmetric-monoidal-category",
+      "outcome": "corrected",
+      "source_sha256": "f7610467d8aaf52ff3e83de1cf3fac03fe1f8ef1d1d6d0cdaff5ef08255af9ed",
+      "prerequisites": [
+        "algebra-category-theory/monoidal-category",
+        "algebra-category-theory/natural-isomorphism"
+      ],
+      "evidence": "Full source reread including ordinary and super examples. Explicit hexagon equation plus involutivity supplies complete symmetric coherence core; both composites have source (X tensor Y) tensor Z and target Y tensor (Z tensor X). Independent reviewer reread final changes and checked equations/core/prerequisite meanings with no remaining substantive findings. Root browser inspection checked displayed math; monoidal structure maps split into aligned rows to avoid clipping.",
+      "scope": "full"
+    },
+    {
+      "id": "algebra-category-theory/tannakian-category",
+      "outcome": "corrected",
+      "source_sha256": "d9ae46adb4ae04208d06ddf9afc9e1478bea9a9abbaf864a3d77d0757ac46a6a",
+      "prerequisites": [
+        "algebra-rings/field",
+        "algebra-category-theory/abelian-category",
+        "algebra-category-theory/symmetric-monoidal-category",
+        "algebra-category-theory/exact-functor",
+        "algebra-category-theory/faithful-functor"
+      ],
+      "evidence": "Full source and actual prerequisites reread. Explicit essentially-small scope, strong symmetric monoidal structure and constraints for fiber functor, rigid dual data/triangle identities, k-bilinearity, finite-dimensional representations. Deligne-Milne tc2018 Definition2.19/Theorem2.11 and tensor-functor section checked. All defining requirements remain before reconstruction heading. Displayed both evaluation/coevaluation triangle identities explicitly. Independent reviewer reread final changes and checked equations/core/prerequisite meanings with no remaining substantive findings. Root browser inspection checked displayed math; monoidal structure maps split into aligned rows to avoid clipping.",
+      "scope": "full"
     }
   ]
 }

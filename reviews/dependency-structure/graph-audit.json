@@ -1,7 +1,7 @@
 {
   "counts": {
     "cycles": 0,
-    "edges": 11739,
+    "edges": 11738,
     "invalid": 0,
     "missing_targets": 0,
     "nodes": 3539
@@ -837,8 +837,8 @@
     "algebra-category-theory/symmetric-monoidal-category",
     "algebra-category-theory/tannakian-category",
     "algebra-category-theory/triangle",
-    "algebra-category-theory/distinguished-triangle",
     "algebra-category-theory/pretriangulated-category",
+    "algebra-category-theory/distinguished-triangle",
     "algebra-category-theory/octahedral-axiom",
     "algebra-category-theory/triangulated-category",
     "algebra-category-theory/yoneda-embedding",

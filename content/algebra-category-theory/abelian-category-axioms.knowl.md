@@ -17,7 +17,7 @@ m\cong\ker(\operatorname{coker}m),
 \qquad
 e\cong\operatorname{coker}(\ker e).
 \]
-The [[algebra-category-theory/isomorphism-category|isomorphisms]] here are isomorphisms of arrows with the same domain and codomain.
+The [[algebra-category-theory/isomorphism-category|isomorphisms]] here are the canonical isomorphisms over the common target for kernels, and under the common source for cokernels.
 
 ## Axiom list
 
@@ -25,7 +25,7 @@ Let \(\mathcal A\) be a [[algebra-category-theory/category|category]].
 
 1. **Preadditivity.** For all objects \(A,B\), the hom-set \(\operatorname{Hom}_{\mathcal A}(A,B)\) is an abelian group, and composition is bilinear in each variable.
 
-2. **Zero object.** \(\mathcal A\) has a zero object \(0\) (both initial and terminal). Equivalently, for all \(A,B\) there are distinguished zero morphisms \(0_{A,B}:A\to B\).
+2. **Zero object.** \(\mathcal A\) has a zero object \(0\) (both initial and terminal). Consequently, for all \(A,B\) there are distinguished zero morphisms \(0_{A,B}:A\to B\).
 
 3. **Finite biproducts.** \(\mathcal A\) has finite [[algebra-category-theory/categorical-product|products]] and finite [[algebra-category-theory/coproduct|coproducts]], and for each finite family they coincide (so one can write \(A\oplus B\) as both product and coproduct).
 
