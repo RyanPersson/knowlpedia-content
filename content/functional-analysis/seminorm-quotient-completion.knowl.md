@@ -31,6 +31,6 @@ definition of a [[functional-analysis/nuclear-space|nuclear space]].
 
 ## Reference
 
-See Sections 2–3 of [Kazh\-dan's notes on nuclear spaces](https://math.huji.ac.il/~kazhdan/QFT/nuclear.pdf)
+See Sections 2–3 of [Kazhdan's notes on nuclear spaces](https://math.huji.ac.il/~kazhdan/QFT/nuclear.pdf)
 for the seminorm-completion construction and the nuclear linking-map
 criterion.
