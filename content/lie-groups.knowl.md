@@ -409,3 +409,11 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 ### Complete paper expansion
 
 - [[knowlification/baez-e7-jordan-paper-expansion|Complete E7 and exceptional Jordan-algebra paper index]]
+
+## Arithmetic hyperbolic groups
+
+- [[lie-groups/kleinian-group|Kleinian group]]
+- [[lie-groups/lattice-in-lie-group|Lattice in a Lie group]]
+- [[lie-groups/arithmetic-kleinian-group|Arithmetic Kleinian group]]
+- [[lie-groups/noncocompact-arithmetic-kleinian-classification|Noncocompact classification]]
+- [[knowlification/bianchi-index|Complete Bianchi collection]]

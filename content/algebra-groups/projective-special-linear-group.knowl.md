@@ -32,6 +32,10 @@ This is a definition of the abstract group of \(k\)-points. The central quotient
 
 Over an [[algebraic-geometry-foundations/algebraically-closed-field|algebraically closed field]], every nonzero scalar has an \(n\)-th root, and \(\operatorname{PSL}_n(k)=\operatorname{PGL}_n(k)\) as subgroups of projective transformations. Over a general field they may differ; the precise quotient is \(k^\times/(k^\times)^n\).
 
+## Coefficients in a ring
+
+For coefficients in a commutative ring, use [[algebra-groups/projective-special-linear-group-over-ring|the ring-valued projective special linear group]]. In particular, imaginary quadratic rings of integers give [[algebra-groups/bianchi-group|Bianchi groups]].
+
 ## References
 
 1. James S. Milne, *Algebraic Groups: The Theory of Group Schemes of Finite Type over a Field*, Cambridge University Press, 2017. [Author-maintained text](https://www.jmilne.org/math/CourseNotes/ala.html). Relevant: \(\operatorname{SL}_n\), centers, and central quotients.

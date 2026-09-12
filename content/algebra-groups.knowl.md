@@ -237,3 +237,11 @@ This section contains definitions, theorems, lemmas, propositions, and corollari
 ## Torsion
 
 - [[algebra-groups/torsion-free-group|Torsion-free group]]
+
+## Bianchi groups and ring-valued matrices
+
+- [[algebra-groups/special-linear-group-over-ring|Special linear group over a ring]]
+- [[algebra-groups/projective-special-linear-group-over-ring|Projective special linear group over a ring]]
+- [[algebra-groups/bianchi-group|Bianchi group]]
+- [[algebra-groups/commensurable-subgroups|Commensurable subgroups]]
+- [[knowlification/bianchi-index|Complete Bianchi collection]]

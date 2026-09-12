@@ -330,3 +330,11 @@ dependency_review_count = 1
 - [[differential-geometry/principal-symbol|Principal symbol of a differential operator]]
 - [[differential-geometry/riemannian-manifold|Riemannian manifold]]
 - [[differential-geometry/spinor-bundle|Spinor bundle]]
+
+## Bianchi orbifolds
+
+- [[differential-geometry/orbifold|Smooth effective orbifold]]
+- [[differential-geometry/bianchi-orbifold|Bianchi orbifold]]
+- [[differential-geometry/bianchi-cusp-ideal-class-correspondence|Cusps and ideal classes]]
+- [[differential-geometry/bianchi-orbifold-volume-formula|Bianchi volume formula]]
+- [[knowlification/bianchi-index|Complete Bianchi collection]]

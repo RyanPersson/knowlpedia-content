@@ -117,3 +117,13 @@ This section covers field theory and Galois theory: field extensions, algebraic 
 - [[algebra-fields-galois/finite-field-galois-cyclic|Finite field Galois groups are cyclic]]
 - [[algebra-fields-galois/finite-field-existence|Existence and uniqueness of 𝔽_{p^n}]]
 - [[algebra-fields-galois/finite-field-multiplicative-cyclic|Multiplicative group of finite field is cyclic]]
+
+## Imaginary quadratic arithmetic
+
+The [[knowlification/bianchi-index|Bianchi collection]] develops the number-theory prerequisites and their geometric applications.
+
+- [[algebra-fields-galois/imaginary-quadratic-field|Imaginary quadratic field]]
+- [[algebra-fields-galois/ring-of-integers|Ring of integers]]
+- [[algebra-fields-galois/number-field-discriminant|Number-field discriminant]]
+- [[algebra-fields-galois/ideal-class-group|Ideal class group]]
+- [[algebra-fields-galois/dedekind-zeta-function|Dedekind zeta function]]

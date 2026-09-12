@@ -32,6 +32,10 @@ the [[lie-groups/special-linear-lie-algebra|special linear Lie algebra]] \(\math
 
 The groups \(SL(n,\mathbb R)\) and \(SL(n,\mathbb C)\) are basic examples of connected linear Lie groups, and they play a central role in semisimple theory (compare [[lie-groups/semisimple-lie-algebra|semisimple Lie algebras]] and the root-theoretic framework starting at [[lie-groups/root-system|root systems]]).
 
+## Matrices over other rings
+
+For determinant-one matrices over a general commutative ring, use [[algebra-groups/special-linear-group-over-ring|special linear group over a ring]]. The real and complex cases here carry the additional Lie-group structure.
+
 ## References
 
 1. Brian C. Hall, *Lie Groups, Lie Algebras, and Representations*, 2nd ed., Springer, 2015, §§2.1–2.2. [Publisher record](https://doi.org/10.1007/978-3-319-13467-3).

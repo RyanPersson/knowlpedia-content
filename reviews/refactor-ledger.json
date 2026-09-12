@@ -98915,6 +98915,441 @@
           "evidence": "Reviewed opening definition; moved optional explanation behind H2 disclosure or corrected the definition boundary. Vector-space axioms named separately. See application docs/graph-experiments-integration.md."
         }
       ]
+    },
+    {
+      "id": "bianchi-2026-09-12",
+      "entries": [
+        {
+          "id": "shared-foundations/square-free-integer",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "1312ea18ad15a8fcbee2c4290915aabb8ee4e359520ab73f7654cdad222d13c1",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "algebra-fields-galois/imaginary-quadratic-field",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "0c6b128deac2132b9c1bf4657ee949abb7a357fdf48e0e86b34dfc03f0f93362",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), Introduction, quadratic-field examples."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/algebraic-integer",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "b1018f6d74f597bff6bce5f0e6e99ce6df02bc3ac1d0d90aec7280d26831ddb1",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §2, “Integral elements,” especially Proposition 2.11."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/ring-of-integers",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "b9a18d6b2e29e40f9ecb5e8ffd3ed1196d52337ecd756d64d120695c72e8400a",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §2, Proposition 2.29 and Corollary 2.30."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/imaginary-quadratic-ring-of-integers",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "4649abb954ee1790382f84c832ed072023921438ae08f776aaa8945c13e57965",
+          "evidence": "Trace/norm integrality and the parity computation checked; square-free denominator reduction checked.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), Introduction and §2, Remark 2.12."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/integral-basis",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "81cfbd2eb5315a6865684dd1ddd52d69de1307724ccc5b0aa01f72e201cd5ed1",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §2, Proposition 2.29 and Definition 2.32."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/number-field-discriminant",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "ffb54010f7d84b9c65d0b074210263748b682c9ec6a2f441821092cf69d7fa00",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §2, “Discriminants,” and Definition 2.32."
+          ]
+        },
+        {
+          "id": "algebra-commutative/fractional-ideal",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "72892d7f232ecfbb97ec8dfca96bab74aad8e3962b1db5fc9c3b6edc4e93c52c",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §3, “The ideal class group,” Theorem 3.20."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/ideal-class-group",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "4e010f04458b793249d24190e19fd9faec0923b031d817ceff29460ff26d974f",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §3, Theorem 3.20 and definition following Remark 3.21."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/class-number",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "2bd96daf542737e3b61205d9e624a53a622c6ce5b01871579a43530b6ea1e516",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §4, “The Finiteness of the Class Number.”"
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/ideal-norm",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "206ea0860432b518c103a9ba2e496b6c7d0ab43219bbc0a0009093cfb3b1f658",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "J. S. Milne, *Algebraic Number Theory*, v3.08. [Author’s text](https://www.jmilne.org/math/CourseNotes/ANTc.pdf), §4, ideal norm and lattice index."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois/dedekind-zeta-function",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "7847bcdf7bc0b04a8ec6251182cf5637e9f03a1e8f0ad19c2c39026e2a9c1010",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. Paulin, *Regards croisés sur les séries de Poincaré et leurs applications*, Theorem 6, p. 12. [Author’s text](https://www.imo.universite-paris-saclay.fr/~frederic.paulin/preprints/Neuchatel.pdf) Definition immediately before Theorem 6."
+          ]
+        },
+        {
+          "id": "algebra-groups/special-linear-group-over-ring",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "160dd3bee5379cec261c6d95bec304c3e7c675f1b99e19d8a2dff1f8ae472a89",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "algebra-groups/projective-special-linear-group-over-ring",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "f955bd4a7e08e40f49a1bb193e4f873252961dc61fb0f546cc5e5d0c892eb3e9",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "algebra-groups/bianchi-group",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "2a17479efe6383d32f3ebee5ff2bb9d6f32d273d868b41a17b6225ea2fdd6990",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "T. Church, B. Farb, and A. Putman, *Integrality in the Steinberg module and the top-dimensional cohomology of SL_n O_K*, Example 5.6, p. 31 of the linked version. [Author-hosted paper](https://math.uchicago.edu/~farb/papers/Steinberg2.pdf)"
+          ]
+        },
+        {
+          "id": "lie-groups/kleinian-group",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "720e95c05c1830f53a6a759c5f5be41339258284a0bb12cad95d393dfc46cd9f",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §§2–4."
+          ]
+        },
+        {
+          "id": "differential-geometry/orbifold",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "46ff2017df2369c57758e3e221a942ec6769875dcd6cb788116832f958732510",
+          "evidence": "Chart, embedding, overlap-refinement and atlas-equivalence requirements compared with Adem–Klaus §2.",
+          "sources": [
+            "A. Adem and M. Klaus, *Lectures on orbifolds and group cohomology*, §2, Definitions 2.1–2.2. [Author-hosted notes](https://www.math.ubc.ca/~adem/hangzhou.pdf)"
+          ]
+        },
+        {
+          "id": "differential-geometry/hyperbolic-three-orbifold",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "c7e6a2d0bc7acac9993d2d89a36631650d8d393e1a1cc0b0fa9d23283f7da391",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "A. Adem and M. Klaus, *Lectures on orbifolds and group cohomology*, §2, Definitions 2.1–2.2. [Author-hosted notes](https://www.math.ubc.ca/~adem/hangzhou.pdf) See also its quotient-orbifold construction."
+          ]
+        },
+        {
+          "id": "differential-geometry/bianchi-orbifold",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "8c30b4bb7cefdb47afe7dc3efc8012f16c40f1b25f4b56c282e55d7a3a19f128",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "T. Church, B. Farb, and A. Putman, *Integrality in the Steinberg module and the top-dimensional cohomology of SL_n O_K*, Example 5.6, p. 31 of the linked version. [Author-hosted paper](https://math.uchicago.edu/~farb/papers/Steinberg2.pdf)"
+          ]
+        },
+        {
+          "id": "lie-groups/lattice-in-lie-group",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "b0980ec1bc9252873c529a9087286b797cceedd287ced32f9bfb8a241607d2d4",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "T. Church, B. Farb, and A. Putman, *Integrality in the Steinberg module and the top-dimensional cohomology of SL_n O_K*, Example 5.6, p. 31 of the linked version. [Author-hosted paper](https://math.uchicago.edu/~farb/papers/Steinberg2.pdf) Example 5.6 for the Bianchi application."
+          ]
+        },
+        {
+          "id": "lie-groups/uniform-lattice",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "77f1314d565f02a84b1a60b7b3ed03f1e623b68128b0023bd151fb00cb8b4dae",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "lie-groups/bianchi-group-nonuniform-lattice",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "5464d8bac0da6b2427c150d971ded844765723eff1af3f85745fc45d52fb387a",
+          "evidence": "Lattice/noncompactness statement checked in Church–Farb–Putman Example 5.6; direct discreteness argument checked separately.",
+          "sources": [
+            "T. Church, B. Farb, and A. Putman, *Integrality in the Steinberg module and the top-dimensional cohomology of SL_n O_K*, Example 5.6, p. 31 of the linked version. [Author-hosted paper](https://math.uchicago.edu/~farb/papers/Steinberg2.pdf)",
+            "F. Paulin, *Regards croisés sur les séries de Poincaré et leurs applications*, Theorem 6, p. 12. [Author’s text](https://www.imo.universite-paris-saclay.fr/~frederic.paulin/preprints/Neuchatel.pdf)"
+          ]
+        },
+        {
+          "id": "differential-geometry/horosphere",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "8d0120706cafe33b06e8e71cf99acbd16fb430fa954ec2cf534af6433f4c8072",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "differential-geometry/horoball",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "bd77cac5f3aa5d179effa89ba41a76b5227c1fd071175229b16f17e8724abc92",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "lie-groups/parabolic-hyperbolic-isometry",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "b76cac7e8636217286860d2f99fc818ba156687bd343943fbe723493aaabc031",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §2, classification of elements."
+          ]
+        },
+        {
+          "id": "differential-geometry/hyperbolic-orbifold-cusp",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "44c41642c4c87f71a1e9e4e4c5ec3cab0eddc3d162d16335c64ff8b6283fc426",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. Paulin, *Regards croisés sur les séries de Poincaré et leurs applications*, Theorem 6, p. 12. [Author’s text](https://www.imo.universite-paris-saclay.fr/~frederic.paulin/preprints/Neuchatel.pdf) See the cusp coordinates and stabilizer discussion preceding Theorem 6."
+          ]
+        },
+        {
+          "id": "differential-geometry/bianchi-cusp-ideal-class-correspondence",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "b7ebbc9a29160ff3d0a0b0e6dac214d646f1d7d0811439c870cec617514c948e",
+          "evidence": "Bijection checked in Example 5.6; coordinate-ideal invariance verified directly. Full proof not claimed.",
+          "sources": [
+            "T. Church, B. Farb, and A. Putman, *Integrality in the Steinberg module and the top-dimensional cohomology of SL_n O_K*, Example 5.6, p. 31 of the linked version. [Author-hosted paper](https://math.uchicago.edu/~farb/papers/Steinberg2.pdf)"
+          ]
+        },
+        {
+          "id": "differential-geometry/bianchi-orbifold-volume-formula",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "fc3e9de96e7b01c97e775c8998e72591d123246cb429b0a79e1b822a8eaf2d6b",
+          "evidence": "Coefficient, exponent, PSL convention and ideal zeta normalization checked against Paulin Theorem 6.",
+          "sources": [
+            "F. Paulin, *Regards croisés sur les séries de Poincaré et leurs applications*, Theorem 6, p. 12. [Author’s text](https://www.imo.universite-paris-saclay.fr/~frederic.paulin/preprints/Neuchatel.pdf)"
+          ]
+        },
+        {
+          "id": "algebra-groups/commensurable-subgroups",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "ce725b84f5fa8efe35e87e93dc00081038329d4569447f1a2b8500857b444927",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "algebra-rings/quaternion-algebra",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "50f8f336008a8707eba0b71d101f14f817abf12d17782047a27748d6071f6979",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §4, presentation preceding Lemma 4.1."
+          ]
+        },
+        {
+          "id": "algebra-rings/quaternion-conjugation",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "2d4a70927877b89697a6b2a684ecc1690581a7de4c48ab5d703b1406bd535759",
+          "evidence": "Antimultiplicativity checked on i,j and their products; matrix formula is the degree-two adjugate.",
+          "sources": []
+        },
+        {
+          "id": "algebra-rings/quaternion-reduced-norm",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "2cc92aece951df40151a98d987d39cc888c11d4c0d43afb2773b6160de3597a4",
+          "evidence": "Coordinate quadratic form, multiplicativity and inverse identities verified from defining relations.",
+          "sources": []
+        },
+        {
+          "id": "algebra-rings/split-quaternion-algebra",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "749b55cea7df15ca0a2cfa8a7504d59097467566e15857d29971b0ba51e44c0a",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": []
+        },
+        {
+          "id": "algebra-rings/quaternion-order",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "d731e58cdfb17ae8016582e717a4361311c6cfc7f5732cab79683a238d357629",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §4, integral orders used in the arithmetic-group construction."
+          ]
+        },
+        {
+          "id": "algebra-groups/quaternion-order-norm-one-group",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "87ac05463262b0cbc10e1293ab6280bcd95570aa497379c5815190b719e9d432",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §4, definition using O¹."
+          ]
+        },
+        {
+          "id": "algebra-rings/quaternion-real-place-ramification",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "d2970b156e0f0a390d301741131377601a9b8240e1e09ab295795b00d8b22241",
+          "evidence": "Definition and displayed algebra checked directly.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §4, Lemma 4.1."
+          ]
+        },
+        {
+          "id": "lie-groups/arithmetic-kleinian-group",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "b34a238183697887c5b703b2da049a3419c9169d07e22183e4150073321824f7",
+          "evidence": "All number-field, ramification, order, splitting and commensurability conditions checked against the arithmetic definition in §4.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §4, definition on p. 3618."
+          ]
+        },
+        {
+          "id": "lie-groups/bianchi-group-arithmeticity",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "0fa4e7a982e78303c59660a70b0df4e6ce6901f4480863a82146aae79a371f34",
+          "evidence": "Direct substitution of M₂(K) and M₂(O_K) into the checked definition; absence of real places and determinant norm verified.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §4, arithmetic-group construction."
+          ]
+        },
+        {
+          "id": "lie-groups/noncocompact-arithmetic-kleinian-classification",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "a96c52e8adeabde4e90814decebd4dae121f8e3b6c8953aef0575f1317a3431b",
+          "evidence": "Finite-covolume construction, compactness iff division algebra, and commensurability classification by the quaternion algebra checked in Long–Maclachlan–Reid §3.1. Deduction of imaginary quadratic K checked directly.",
+          "sources": [
+            "F. W. Gehring, C. Maclachlan, G. J. Martin, and A. W. Reid, *Arithmeticity, discreteness and volume*, Transactions of the AMS 349 (1997). [Author-hosted paper](https://math.rice.edu/~ar99/ADV.pdf), §4 and the split-algebra criterion used in the proof of Lemma 9.6.",
+            "D. D. Long, C. Maclachlan, and A. W. Reid, *Arithmetic Fuchsian Groups of Genus Zero*, §3.1, p. 5 of the linked version: Kleinian construction and compactness criterion. [Author-hosted paper](https://math.rice.edu/~ar99/genus0_final.pdf)."
+          ]
+        },
+        {
+          "id": "knowlification/bianchi-index",
+          "scope": "targeted",
+          "outcome": "new",
+          "source_sha256": "1b07f9ee355920c2490a7ba84530c234b1a248741eb99f066feab8c0bf56ed61",
+          "evidence": "Index checked against the complete new-knowl manifest; all 39 content IDs linked.",
+          "sources": [
+            "[Bianchi group on Wikipedia](https://en.wikipedia.org/w/index.php?title=Bianchi_group&oldid=1372725401), the starting topic inventory. Individual knowls give mathematical references."
+          ]
+        },
+        {
+          "id": "algebra-fields-galois",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "3d85f952cd61b7549c30e619d9f4ade51998b92e72f53aecf3761864bb15a4a4",
+          "evidence": "Added navigation to the Bianchi collection or ring-valued companion. Existing mathematical core unchanged; full review not claimed.",
+          "sources": []
+        },
+        {
+          "id": "algebra-groups",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "4c1485347946dc2450eaff48628c39ac4b539ce8b903c00dd08dd63d1f4eb6a6",
+          "evidence": "Added navigation to the Bianchi collection or ring-valued companion. Existing mathematical core unchanged; full review not claimed.",
+          "sources": []
+        },
+        {
+          "id": "algebra-groups/projective-special-linear-group",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "fd48af41267d7100f3bb4a92d5ca4368a5e3a17316cf6bdd189b6b200f5d0687",
+          "evidence": "Added navigation to the Bianchi collection or ring-valued companion. Existing mathematical core unchanged; full review not claimed.",
+          "sources": []
+        },
+        {
+          "id": "differential-geometry",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "4a86d16e8f9827c0cb92b473f0f0a160828e2947c89354173a7dd9a9df146a87",
+          "evidence": "Added navigation to the Bianchi collection or ring-valued companion. Existing mathematical core unchanged; full review not claimed.",
+          "sources": []
+        },
+        {
+          "id": "lie-groups",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "f15004c7c18bec2f9c3efa8b79765fcadc938d04e132ba4e70f98355be04b339",
+          "evidence": "Added navigation to the Bianchi collection or ring-valued companion. Existing mathematical core unchanged; full review not claimed.",
+          "sources": []
+        },
+        {
+          "id": "lie-groups/special-linear-group",
+          "scope": "targeted",
+          "outcome": "corrected",
+          "source_sha256": "17c2dc01db232dac70aaed94cee5b27efb6148c2b98e190a87a436f2e2d5f17c",
+          "evidence": "Added navigation to the Bianchi collection or ring-valued companion. Existing mathematical core unchanged; full review not claimed.",
+          "sources": []
+        }
+      ]
     }
   ]
 }
