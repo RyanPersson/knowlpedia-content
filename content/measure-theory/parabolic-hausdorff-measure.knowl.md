@@ -25,3 +25,7 @@ The condition \(\mathcal P^1(E)=0\) says that arbitrarily fine parabolic covers 
 ## References
 
 - [Lenya Ryzhik, Math 256B lecture notes (2024), §9, parabolic Hausdorff measure](https://virtualmath1.stanford.edu/~ryzhik/notes-256B-24.pdf).
+
+## Fluid regularity
+
+The [[fluid-dynamics/caffarelli-kohn-nirenberg-theorem|Caffarelli–Kohn–Nirenberg theorem]] controls the interior singular set of suitable three-dimensional Navier–Stokes solutions using this measure.

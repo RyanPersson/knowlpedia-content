@@ -20,3 +20,7 @@ Its \((i,j)\) entry is the scalar [[probability/covariance|covariance]] \(\opera
 ## Positivity and degeneracy
 
 For every \(a\), \(a^T\operatorname{Cov}(X)a=\operatorname{Var}(a\cdot X)\ge0\). It is positive definite precisely when no nonzero linear combination \(a\cdot X\) is almost surely constant. The deterministic choice of a probability average on a torus gives the same matrix construction for a periodic vector field.
+
+## Velocity fluctuations
+
+[[fluid-dynamics/reynolds-averaging-stress|Reynolds averaging stress]] is the covariance matrix of a fluctuating velocity. Its sign in a momentum equation depends on which side contains the tensor divergence.

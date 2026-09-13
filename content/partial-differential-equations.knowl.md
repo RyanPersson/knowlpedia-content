@@ -65,3 +65,15 @@ These entries introduce the language used to specify and analyze partial differe
 - [[partial-differential-equations/flat-residual-from-asymptotic-summation|Flat residual from asymptotic summation]]
 - [[partial-differential-equations/localized-characteristic-primitive|Localized characteristic primitive with an explicit defect]]
 - [[partial-differential-equations/shifted-characteristic-primitive|Shifted characteristic primitive on a torus]]
+
+## Weak equations, regularity, and relaxed models
+
+- [[partial-differential-equations/backward-uniqueness|Backward uniqueness]]
+- [[partial-differential-equations/convex-integration|Convex integration]]
+- [[partial-differential-equations/differential-inclusion|Differential inclusion]]
+- [[partial-differential-equations/first-order-differential-relation|First-order differential relation]]
+- [[partial-differential-equations/formal-and-holonomic-solution|Formal and holonomic solutions]]
+- [[partial-differential-equations/nonuniqueness|Nonuniqueness for an initial-value problem]]
+- [[partial-differential-equations/partial-regularity|Partial regularity]]
+- [[partial-differential-equations/regularity-criterion|Regularity criterion]]
+- [[partial-differential-equations/weak-formulation|Weak formulation of a differential equation]]

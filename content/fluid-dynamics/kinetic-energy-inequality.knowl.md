@@ -21,3 +21,7 @@ The [[fluid-dynamics/viscous-dissipation|dissipation]] and forcing integrals mus
 ## Inequality versus equality
 
 A smooth solution with justified energy integration satisfies equality, hence also this inequality. In a weak-solution definition the inequality is an additional admissibility condition. A limit can lose equality because norm convergence is weaker than strong convergence. Requiring the inequality from the initial time only is different from requiring it from almost every intermediate time as well.
+
+## Solution classes
+
+The [[fluid-dynamics/leray-hopf-solution|Leray–Hopf definition]] states a particular global time convention. The [[fluid-dynamics/local-energy-inequality|local energy inequality]] uses nonnegative space-time tests and is a separate condition.

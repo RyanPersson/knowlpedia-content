@@ -24,3 +24,7 @@ An evolution problem also specifies initial data and, on a domain with boundary,
 ## References
 
 - [Hunter, The Heat and Schrödinger Equations, §§5.1–5.3](https://www.math.ucdavis.edu/~hunter/pdes/ch5.pdf).
+
+## Uniqueness from terminal data
+
+[[partial-differential-equations/backward-uniqueness|Backward uniqueness]] holds for the L2 heat evolution even though arbitrary terminal data do not yield a well-posed backward problem.

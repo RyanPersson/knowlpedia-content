@@ -30,3 +30,7 @@ A [[partial-differential-equations/classical-solution|classical solution]] satis
 
 - [Lenya Ryzhik, Lecture Notes for Math 256B (2024), Sections 1–3](https://virtualmath1.stanford.edu/~ryzhik/notes-256B-24.pdf).
 - [Charles L. Fefferman, Existence and Smoothness of the Navier–Stokes Equation](https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf).
+
+## Weak solutions and regularity
+
+[[fluid-dynamics/weak-navier-stokes-solution|Weak solutions]] impose distributional momentum and incompressibility. [[fluid-dynamics/leray-hopf-solution|Leray–Hopf solutions]] add energy and time-trace conditions; [[fluid-dynamics/suitable-weak-solution|suitable solutions]] impose the local energy inequality. The [[fluid-dynamics/endpoint-l3-regularity-criterion|endpoint L3 criterion]] is an unforced three-dimensional regularity theorem.

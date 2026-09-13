@@ -29,3 +29,7 @@ Formally setting \(\nu=0\) in the [[fluid-dynamics/navier-stokes-equations|Navie
 ## References
 
 - [Lenya Ryzhik, Lecture Notes for Math 256B (2024), Sections 1–3](https://virtualmath1.stanford.edu/~ryzhik/notes-256B-24.pdf).
+
+## Relaxed formulations
+
+[[fluid-dynamics/reynolds-defect-system|Euler–Reynolds equations]] track a tensor defect. An [[fluid-dynamics/euler-subsolution|Euler subsolution]] expresses a pointwise energy relaxation used in convex integration.

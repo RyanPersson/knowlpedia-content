@@ -60,3 +60,7 @@ in \(\sigma(\,\cdot\,,\,\cdot\,)\) visible prevents this common ambiguity.
 
 1. Helmut H. Schaefer and Manfred P. Wolff, *Topological Vector Spaces*, 2nd ed., Springer, 1999. [Publisher record](https://doi.org/10.1007/978-1-4612-1468-7). Relevant: Chapter IV on dual pairs and weak topologies.
 2. John B. Conway, *A Course in Functional Analysis*, 2nd ed., Springer, 1990. [Publisher record](https://doi.org/10.1007/978-1-4757-4383-8). Relevant: Chapter V on weak convergence and duality.
+
+## Time-dependent functions
+
+A [[functional-analysis/weakly-continuous-path|weakly continuous path]] applies this topology to continuity in time.

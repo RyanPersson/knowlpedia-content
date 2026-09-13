@@ -168,3 +168,7 @@ Click any term to expand its definition inline.
 
 - [[functional-analysis/finite-derivative-bookkeeping-on-a-dag|Derivative requirements on a finite computation graph]]
 - [[functional-analysis/frozen-linear-inverse-residual-update|Residual update with a fixed linear inverse]]
+
+## Weak equations, regularity, and relaxed models
+
+- [[functional-analysis/weakly-continuous-path|Weakly continuous path]]

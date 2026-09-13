@@ -99,3 +99,22 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 - [[fluid-dynamics/solenoidal-integration-cancellation|Integration cancellation for divergence-free transport and pressure]]
 - [[fluid-dynamics/uniqueness-against-compact-reference-flow|Uniqueness against a smooth compactly supported reference flow]]
 - [[fluid-dynamics/viscous-dissipation|Viscous dissipation in the incompressible energy balance]]
+
+## Weak equations, regularity, and relaxed models
+
+- [[fluid-dynamics/active-scalar-equation|Active scalar equation]]
+- [[fluid-dynamics/averaged-navier-stokes-model|Averaged Navier–Stokes model]]
+- [[fluid-dynamics/caffarelli-kohn-nirenberg-theorem|Caffarelli–Kohn–Nirenberg partial regularity theorem]]
+- [[fluid-dynamics/endpoint-l3-regularity-criterion|Endpoint L-infinity-in-time L3 regularity criterion]]
+- [[fluid-dynamics/euler-subsolution|Euler subsolution with prescribed energy]]
+- [[fluid-dynamics/hypodissipative-navier-stokes|Hypodissipative Navier–Stokes equations]]
+- [[fluid-dynamics/incompressible-porous-media-equation|Incompressible porous media equation]]
+- [[fluid-dynamics/leray-hopf-solution|Leray–Hopf solution]]
+- [[fluid-dynamics/leray-projection|Leray projection on Euclidean space]]
+- [[fluid-dynamics/local-energy-inequality|Local energy inequality]]
+- [[fluid-dynamics/navier-stokes-energy-class|Navier–Stokes energy class]]
+- [[fluid-dynamics/reynolds-averaging-stress|Reynolds averaging stress]]
+- [[fluid-dynamics/reynolds-defect-system|Reynolds defect system]]
+- [[fluid-dynamics/singular-set-of-weak-solution|Singular set of a weak velocity]]
+- [[fluid-dynamics/suitable-weak-solution|Suitable weak solution]]
+- [[fluid-dynamics/weak-navier-stokes-solution|Weak Navier–Stokes solution]]

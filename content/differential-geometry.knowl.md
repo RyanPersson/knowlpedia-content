@@ -338,3 +338,7 @@ dependency_review_count = 1
 - [[differential-geometry/bianchi-cusp-ideal-class-correspondence|Cusps and ideal classes]]
 - [[differential-geometry/bianchi-orbifold-volume-formula|Bianchi volume formula]]
 - [[knowlification/bianchi-index|Complete Bianchi collection]]
+
+## Weak equations, regularity, and relaxed models
+
+- [[differential-geometry/h-principle|The h-principle]]

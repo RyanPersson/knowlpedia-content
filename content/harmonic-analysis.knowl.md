@@ -200,3 +200,8 @@ These provide the representation-theoretic input to the
 ## Residual correction and summation
 
 - [[harmonic-analysis/rapid-decay-of-shifted-torus-integral|Rapid decay of a shifted torus integral]]
+
+## Weak equations, regularity, and relaxed models
+
+- [[harmonic-analysis/fractional-laplacian|Fractional Laplacian on Euclidean space]]
+- [[harmonic-analysis/order-zero-fourier-multiplier|Order-zero Fourier multiplier]]

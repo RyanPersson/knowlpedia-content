@@ -1,0 +1,219 @@
+{
+  "batch": "B14",
+  "title": "Convex integration and weak-solution context",
+  "branch": "navier",
+  "status": "content, structure and rendering checked",
+  "new_ids": [
+    "differential-geometry/h-principle",
+    "fluid-dynamics/active-scalar-equation",
+    "fluid-dynamics/averaged-navier-stokes-model",
+    "fluid-dynamics/caffarelli-kohn-nirenberg-theorem",
+    "fluid-dynamics/endpoint-l3-regularity-criterion",
+    "fluid-dynamics/euler-subsolution",
+    "fluid-dynamics/hypodissipative-navier-stokes",
+    "fluid-dynamics/incompressible-porous-media-equation",
+    "fluid-dynamics/leray-hopf-solution",
+    "fluid-dynamics/leray-projection",
+    "fluid-dynamics/local-energy-inequality",
+    "fluid-dynamics/navier-stokes-energy-class",
+    "fluid-dynamics/reynolds-averaging-stress",
+    "fluid-dynamics/reynolds-defect-system",
+    "fluid-dynamics/singular-set-of-weak-solution",
+    "fluid-dynamics/suitable-weak-solution",
+    "fluid-dynamics/weak-navier-stokes-solution",
+    "functional-analysis/weakly-continuous-path",
+    "harmonic-analysis/fractional-laplacian",
+    "harmonic-analysis/order-zero-fourier-multiplier",
+    "partial-differential-equations/backward-uniqueness",
+    "partial-differential-equations/convex-integration",
+    "partial-differential-equations/differential-inclusion",
+    "partial-differential-equations/first-order-differential-relation",
+    "partial-differential-equations/formal-and-holonomic-solution",
+    "partial-differential-equations/nonuniqueness",
+    "partial-differential-equations/partial-regularity",
+    "partial-differential-equations/regularity-criterion",
+    "partial-differential-equations/weak-formulation"
+  ],
+  "modified_ids": [
+    "differential-geometry",
+    "fiber-bundles/jet-bundle",
+    "fluid-dynamics",
+    "fluid-dynamics/euler-equations",
+    "fluid-dynamics/kinetic-energy-inequality",
+    "fluid-dynamics/navier-stokes-equations",
+    "functional-analysis",
+    "functional-analysis/weak-topology",
+    "harmonic-analysis",
+    "measure-theory/parabolic-hausdorff-measure",
+    "partial-differential-equations",
+    "partial-differential-equations/heat-equation",
+    "probability/covariance-matrix"
+  ],
+  "reused_ids": [
+    "fiber-bundles/jet-bundle",
+    "partial-differential-equations/maximal-existence-time",
+    "probability/covariance-matrix",
+    "topology/parabolic-metric"
+  ],
+  "source_references": [
+    {
+      "title": "Ryzhik, Math 256B lecture notes (2024), weak solutions and partial regularity",
+      "url": "https://math.stanford.edu/~ryzhik/notes-256B-24.pdf"
+    },
+    {
+      "title": "Albritton, Brué and Colombo, Non-uniqueness of Leray solutions of the forced Navier–Stokes equations",
+      "url": "https://arxiv.org/abs/2112.03116"
+    },
+    {
+      "title": "Escauriaza, Seregin and Šverák, L3,infinity solutions and backward uniqueness (2003)",
+      "url": "https://www.mathnet.ru/eng/rm609"
+    },
+    {
+      "title": "Caffarelli, Kohn and Nirenberg, Partial regularity of suitable weak solutions (1982)",
+      "url": "https://doi.org/10.1002/cpa.3160350604"
+    },
+    {
+      "title": "De Lellis and Székelyhidi, The Euler equations as a differential inclusion (2009)",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v170-n3-p09-p.pdf"
+    },
+    {
+      "title": "De Lellis and Székelyhidi, The h-principle and the equations of fluid dynamics (2012)",
+      "url": "https://www.math.ias.edu/delellis/sites/math.ias.edu.delellis/files/bull1376.pdf"
+    },
+    {
+      "title": "Massot, h-principle course, Chapters 1–2",
+      "url": "https://www.imo.universite-paris-saclay.fr/~patrick.massot/enseignement/h-principe/poly.pdf"
+    },
+    {
+      "title": "Buckmaster and Vicol, Nonuniqueness of weak solutions to the Navier–Stokes equation (2019)",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v189-n1-p03-s.pdf"
+    },
+    {
+      "title": "Tao, Finite time blowup for an averaged three-dimensional Navier–Stokes equation, §1",
+      "url": "https://arxiv.org/abs/1402.0290"
+    },
+    {
+      "title": "Córdoba, Martínez-Zoroa and Zheng, Finite time blow-up for the hypodissipative Navier Stokes equations with a smooth source",
+      "url": "https://arxiv.org/abs/2407.06776"
+    },
+    {
+      "title": "Córdoba and Martínez-Zoroa, Finite time singularities of smooth solutions for the 2D IPM equation with a smooth source",
+      "url": "https://arxiv.org/abs/2410.22920"
+    }
+  ],
+  "review_decisions": [
+    "Fix time representatives, initial trace, force class, and energy inequality starting times explicitly.",
+    "State the unforced interior CKN theorem and the strong spatial L3 endpoint criterion; do not substitute weak Lorentz L3.",
+    "Use local essential boundedness to define regular points; stronger local smoothness needs its own hypotheses.",
+    "Distinguish covariance stress from the opposite-sign Reynolds defect convention.",
+    "The nonparametric h-principle is a deformation statement; do not assert all parametric forms from it.",
+    "Do not identify finite energy convex-integration weak solutions with the Leray–Hopf class.",
+    "Keep fractional dissipation order beta distinct from its half-order alpha.",
+    "Averaged-model energy cancellation is an additional constraint on the averaging.",
+    "Elastic-solid terminology occurs only in a bibliographic title in the private source; it is not a mathematical prerequisite of the argument.",
+    "Reuse the existing jet bundle, covariance matrix, parabolic geometry, and maximal-time owners.",
+    "Retain one Reynolds defect owner: viscosity zero and positive are parameter cases of the same displayed tensor-defect equation. The scope audit flag was reviewed.",
+    "Keep the heat semigroup example in the backward-uniqueness expansion; its machinery is not a prerequisite of the generic injectivity definition."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 42,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 347,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [
+      {
+        "rule": "multiple_concept_ownership",
+        "severity": "review",
+        "score": 5,
+        "source_id": "fluid-dynamics/reynolds-defect-system",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/fluid-dynamics/reynolds-defect-system.knowl.md",
+        "title": "Reynolds defect system",
+        "kind": "definition",
+        "signals": [
+          "multiple_explicit_definienda"
+        ],
+        "definition_subjects": [
+          {
+            "term": "Reynolds defect system",
+            "normalized": "reynolds defect system",
+            "line": 14,
+            "section": "Core"
+          },
+          {
+            "term": "Navier–Stokes–Reynolds",
+            "normalized": "navier stokes reynold",
+            "line": 19,
+            "section": "Core"
+          }
+        ],
+        "incoming_labels": {
+          "reynolds defect system": 1,
+          "euler reynolds equation": 1
+        },
+        "recommended_action": "semantic_review_only"
+      }
+    ],
+    "rendered_files_checked": 3212,
+    "rendering_findings": [],
+    "source_sha256": {
+      "differential-geometry": "03b76c59234290e12117ee1f93fdac423ddaa0609e5f9b65777316fc4faabb5c",
+      "differential-geometry/h-principle": "24392cd7e475998854cc86702b5afca5faf9334febc29f6dbd9bfcc3bff84dc7",
+      "fiber-bundles/jet-bundle": "3cd624052195b4ed467615b3e55e1e068f7f747e81afcf1654da405d3bd67412",
+      "fluid-dynamics": "2c23d2a946023fa7c43e3d5131b53284fd1a7793fc648330d5b265f72e2e93b3",
+      "fluid-dynamics/active-scalar-equation": "1aea2cfdec853d49419b0d5649d5bf3a85b5fbd465e758e4dc294021f61043d5",
+      "fluid-dynamics/averaged-navier-stokes-model": "b9851f97d51f9082dc0f9018c3eaaa516ca63363728b5a4e6ea180bd51413806",
+      "fluid-dynamics/caffarelli-kohn-nirenberg-theorem": "c752825ef868e7f0d8f77edbcab47aecf78a836349214215c8240fa7c7c91e1a",
+      "fluid-dynamics/endpoint-l3-regularity-criterion": "34199283909442b23f9128894c8f98c023d63ed7837159a0e229f12ba66bebfd",
+      "fluid-dynamics/euler-equations": "1da35fe31ca60cfc552a56f42a6a7947cb95a41c0f130b0caf2b1b3743f914fb",
+      "fluid-dynamics/euler-subsolution": "6410862103d230d8fc9faccf88721f8e5f0259b9ba0a7985de65471a828d7474",
+      "fluid-dynamics/hypodissipative-navier-stokes": "77d57e1ad1efe49c9d72964ee8cf73c776dd15a3d9c7e3ad0119a311dd32492a",
+      "fluid-dynamics/incompressible-porous-media-equation": "199c2b6912a2cbac08fe8931905cfededef6a035789d1656b25941f2072b783f",
+      "fluid-dynamics/kinetic-energy-inequality": "d3730e8c10e22c1d5486f6f7bb393404c5f047c790cf3492dbeaa4a95ad7c021",
+      "fluid-dynamics/leray-hopf-solution": "fcb13fc77e1143af43b8a32785242f460578e2d184aaf01209fde189e0c9edc2",
+      "fluid-dynamics/leray-projection": "69cd81c3d1c76cf55bd3863463ed8e9491a7d32d4446ea7460ad9d619391f87b",
+      "fluid-dynamics/local-energy-inequality": "d564dec26ade3f246c8709c6df77add0d675b0d36f143e2323dbecd194230b58",
+      "fluid-dynamics/navier-stokes-energy-class": "36a0cb4ce61645a0c9f54fe860c643e1c05c2c889c89539731d8e6b864e6a286",
+      "fluid-dynamics/navier-stokes-equations": "3ace381b2e22fe75e78d5350332b0d43996874e8eb326924182ddc47e68c016e",
+      "fluid-dynamics/reynolds-averaging-stress": "e57f8180176e3fe70ad9bfd6625e4f3a0d1df88aeaca2c8e5fe75dedf205a0d4",
+      "fluid-dynamics/reynolds-defect-system": "1c2dcee50f14e6283caa584805285b2383ea2d25d5071611d185bf62b9a17716",
+      "fluid-dynamics/singular-set-of-weak-solution": "f78904bb1728cc7901d3b7dad4d65cfed373c4fd3c8814cf778ef9ae9c1cbad7",
+      "fluid-dynamics/suitable-weak-solution": "0cab6af65420367ae769d2c9379fa3d9d779ef869f975dd9413e28fa7f0cd164",
+      "fluid-dynamics/weak-navier-stokes-solution": "3ea22c3f7a77e0ef0d19910bec217686245fbf7bfbf3c1af318de054771c56a9",
+      "functional-analysis": "014712b07cd58770bc28ff09e169f2b420934ce9828d35afef5b601f4c813bc7",
+      "functional-analysis/weak-topology": "cefa204092fb20655d4aefb3c2e5832756c5fdd7cb75442e5735e53d3c057ffb",
+      "functional-analysis/weakly-continuous-path": "f9388b0282a5b414194820e1c8fec53ea461c0347200cc99bacc80252dc1cd7c",
+      "harmonic-analysis": "ebf6debecbed571e5f8f1734f47a82abc2c9d38a971080ed532d8edd27324a7d",
+      "harmonic-analysis/fractional-laplacian": "50dfcd47187674f4ca00ae796974d7272d4c63af9cf07fc04fb7738c29ef82f5",
+      "harmonic-analysis/order-zero-fourier-multiplier": "a20230a27ccec4ba3e5c06060ac9e782cf801b46a6781f05015e82e34a9136a7",
+      "measure-theory/parabolic-hausdorff-measure": "bf75da8fa2b66603896be03c9bf000204f0ac691d332a4fd10c44b2e8df59634",
+      "partial-differential-equations": "aade73a6acfbd8a99f3f3387f254c538332ebf272d9e4c69102ead3ef908081a",
+      "partial-differential-equations/backward-uniqueness": "95e4dd52f1f4573c8eb52852fe0e1710007000a75ceb34609200950fe05dd1b5",
+      "partial-differential-equations/convex-integration": "0f7b6167ef2f2d1d6a141978202a7db52c388e03575aebb746d29586251b1843",
+      "partial-differential-equations/differential-inclusion": "67502a3371e419af821bf805c666b46905dc87584e13f389135aae0fc2966adc",
+      "partial-differential-equations/first-order-differential-relation": "9e890eac75717aeed06b23b86f735b34c161cfa3f8dd63d399f4fca326636a90",
+      "partial-differential-equations/formal-and-holonomic-solution": "1b4b2889ef26b6b310db6f7f584a642a8bcbfcca769060bb99eedec9d397807c",
+      "partial-differential-equations/heat-equation": "dc699f76ebfad1695bf331dc533fb2ac5340eb9d89727bb1e8a34f05468f23f3",
+      "partial-differential-equations/nonuniqueness": "0a557035f2f25c5d353a33e162f960a3c516b5a461dda88568e7a0bad0a31cf1",
+      "partial-differential-equations/partial-regularity": "8d8a703d16d41df4a1db8d392e7ef6e607b6857670a84df6f3fdb515cb1e8bc2",
+      "partial-differential-equations/regularity-criterion": "e2d476d3e7e13701d0bcd69f57b0c032e5016f878854ef8626dcfd2320ff3689",
+      "partial-differential-equations/weak-formulation": "16f63e8d669e074cd1116d2fef9914b158db669dd25998e1b03488200dd30020",
+      "probability/covariance-matrix": "47620143c96ee7ce54090dd34d131a3c7a5e99f0766183b90681a37dea3c443b"
+    }
+  },
+  "browser_validation": {
+    "routes": 29,
+    "inline_expansions": 29,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "search_entries_present": true,
+    "console_errors": []
+  }
+}
