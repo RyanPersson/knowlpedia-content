@@ -1,0 +1,170 @@
+{
+  "batch": "B11",
+  "title": "Distributions, Sobolev spaces, singular integrals and pressure",
+  "branch": "navier",
+  "status": "content, structure and rendering checked",
+  "new_ids": [
+    "fluid-dynamics/canonical-pressure-from-integrable-stress",
+    "functional-analysis/dirac-delta-distribution",
+    "functional-analysis/fourier-sobolev-space",
+    "functional-analysis/l1-negative-sobolev-bound",
+    "functional-analysis/local-sobolev-space",
+    "functional-analysis/multiplication-operator",
+    "functional-analysis/smooth-density-in-euclidean-sobolev-space",
+    "functional-analysis/sobolev-derivative-bound",
+    "functional-analysis/sobolev-embedding-bounded-derivatives",
+    "functional-analysis/three-dimensional-sobolev-inequality",
+    "functional-analysis/weighted-cutoff-sobolev-estimate",
+    "harmonic-analysis/calderon-zygmund-kernel",
+    "harmonic-analysis/calderon-zygmund-lp-bound",
+    "harmonic-analysis/calderon-zygmund-operator",
+    "harmonic-analysis/double-riesz-kernel-three-dimensions",
+    "harmonic-analysis/euclidean-l2-fourier-multiplier",
+    "harmonic-analysis/multiplication-commutator-kernel",
+    "harmonic-analysis/principal-value-singular-integral",
+    "harmonic-analysis/riesz-transform",
+    "harmonic-analysis/scaled-cutoff-commutator-estimate",
+    "linear-algebra/kronecker-delta",
+    "partial-differential-equations/harmonic-distribution",
+    "partial-differential-equations/harmonic-sobolev-distribution-vanishes",
+    "partial-differential-equations/newtonian-fundamental-solution-three-dimensions",
+    "partial-differential-equations/newtonian-potential",
+    "partial-differential-equations/poisson-equation",
+    "real-analysis/mollifier"
+  ],
+  "modified_ids": [
+    "complex-analysis/harmonic-function",
+    "fluid-dynamics",
+    "functional-analysis",
+    "functional-analysis/distributional-derivative",
+    "functional-analysis/fourier-transform-schwartz-space",
+    "functional-analysis/sobolev-space",
+    "functional-analysis/tempered-distribution",
+    "functional-analysis/test-function-space",
+    "harmonic-analysis",
+    "linear-algebra",
+    "partial-differential-equations",
+    "real-analysis"
+  ],
+  "reused_ids": [
+    "complex-analysis/harmonic-function",
+    "functional-analysis/distribution",
+    "functional-analysis/fourier-transform-schwartz-space",
+    "functional-analysis/operator-commutator",
+    "functional-analysis/weak-derivative",
+    "harmonic-analysis/plancherel-theorem-lca",
+    "harmonic-analysis/young-convolution-inequality",
+    "real-analysis/cauchy-principal-value"
+  ],
+  "source_references": [
+    {
+      "title": "Hunter, Sobolev Spaces, §§3.5–3.7",
+      "url": "https://www.math.ucdavis.edu/~hunter/pdes/ch3.pdf"
+    },
+    {
+      "title": "Hunter, Laplace equation, §2.6",
+      "url": "https://www.math.ucdavis.edu/~hunter/pdes/ch2.pdf"
+    },
+    {
+      "title": "Tao, Fourier analysis lecture notes 4, §§2 and 4",
+      "url": "https://www.math.ucla.edu/~tao/247a.1.06f/notes4.pdf"
+    },
+    {
+      "title": "Tao, Fourier analysis lecture notes 4, §2",
+      "url": "https://www.math.ucla.edu/~tao/247a.1.06f/notes4.pdf"
+    }
+  ],
+  "review_decisions": [
+    "Use the corpus Fourier convention with 2 pi in the exponential.",
+    "Define all real Sobolev orders together and retain the low-frequency integrability condition.",
+    "Whole-space smooth density is asserted only for finite p; cutoff estimates require only local gradient integrability.",
+    "Select the plus-i Riesz convention; its double product has the negative quadratic symbol required by the pressure equation.",
+    "Construct pressure for L1 tensors by a bounded Fourier function, without extending a nonsmooth multiplier to arbitrary tempered distributions.",
+    "Require global Hs membership to eliminate harmonic ambiguities.",
+    "Distinguish the standard off-diagonal kernel from the L2-bounded operator.",
+    "Keep the identity term in the double Riesz formula; it cancels exactly in the cutoff commutator.",
+    "The commutator estimate uses q strictly between 1 and n/(n-1), not either endpoint.",
+    "Reuse and complete the existing distribution, integer Sobolev and harmonic-function prerequisite owners.",
+    "Give local Sobolev membership and the Kronecker delta their own small definitions.",
+    "Reviewed the scope audit finding: the pre-existing subject-index basis-existence label is outside this batch’s new mathematical content."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 39,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 326,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [
+      {
+        "rule": "exact_label_target_mismatch",
+        "severity": "high",
+        "score": 6,
+        "source_id": "linear-algebra",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/linear-algebra.knowl.md",
+        "line": 74,
+        "label": "Existence of a basis",
+        "actual_target": "linear-algebra/basis-existence-theorem",
+        "unique_label_owner": "convex-analysis/existence-of-a-basis-hamel-basis",
+        "recommended_action": "semantic_review_only"
+      }
+    ],
+    "rendered_files_checked": 2522,
+    "rendering_findings": [],
+    "source_sha256": {
+      "complex-analysis/harmonic-function": "7476cd63451f80b4f38b35436f0ca0c0aed932ee722b25fac445d7ace0b0e2af",
+      "fluid-dynamics": "b311545b9bbb33c6df51aed11517dd90798efc1f3d1dd41dc7334d034c00722b",
+      "fluid-dynamics/canonical-pressure-from-integrable-stress": "f38a1107c47b9698d37bb07042c4b93c05efdbdd27a575ea74c9b768650d18e8",
+      "functional-analysis": "bed8008d41d6450269903adb0a81ec50c411c34c760de30a736dd3225f259ad2",
+      "functional-analysis/dirac-delta-distribution": "91a693279b1fad7f10d7a6838c7800f56f7249ab9c41d20423fb6393aa05b5b7",
+      "functional-analysis/distributional-derivative": "d7772a3dff465d114b716bab69cc705cae2a037c16aa9be8da2c9d99d71ba358",
+      "functional-analysis/fourier-sobolev-space": "2998108d13666c0e6d5a51c70de09cc70d8a4c8d26a72e3a7386e5ddece19a16",
+      "functional-analysis/fourier-transform-schwartz-space": "30361900b83072f01ffd33eb8c4ca07f7678c9dbed1dfa506015d21406e6adda",
+      "functional-analysis/l1-negative-sobolev-bound": "92f941c3ce4eee948473507c04851e481f29cd8c3d940c42e4bd4ee86c479fc5",
+      "functional-analysis/local-sobolev-space": "f70ea6ee35a47c214ecc349925861c53d96e4118abd18e9705f80722dd644a28",
+      "functional-analysis/multiplication-operator": "cc3de2eecbfeb07bdc9fa361e4594bd81eda3ec6c2304f680c807e9c4ca5addc",
+      "functional-analysis/smooth-density-in-euclidean-sobolev-space": "689209a7e863ee8d6527ca105ba75cd596a9ff9d0ba2de694931fb955340d8cb",
+      "functional-analysis/sobolev-derivative-bound": "3db9665364a20fe6a7412e5ef3e447d80ce5feccab3d64c086a131b73fc391df",
+      "functional-analysis/sobolev-embedding-bounded-derivatives": "5b8314ed9501bebcd2af96bb97ff44cd88daed0bd26cab90964da09ca6a13fc3",
+      "functional-analysis/sobolev-space": "d94b2718ad7f760ac97fa3772f25be0421cbae34d4714bc011118b3437a4b9eb",
+      "functional-analysis/tempered-distribution": "0c24ad01e05404c2cf2e151aeb87a310c3bd49c85b208b10784caa15381f42f3",
+      "functional-analysis/test-function-space": "c6cf621e56ec95434defcded91cec23b36e33e95c804d343228b3e2d5ac655e0",
+      "functional-analysis/three-dimensional-sobolev-inequality": "e96afcb10dae6f4881edfa4ef907d89a9af6d578c55f09eec4c95651394af15d",
+      "functional-analysis/weighted-cutoff-sobolev-estimate": "8317541c21cb9a017612fc6835b34f89623ecc4306d804c9d3034ae6be05fd7c",
+      "harmonic-analysis": "7a9b65fc39550fba62428e163e94d44b00d0d83febc3506e81c7cb6938b37693",
+      "harmonic-analysis/calderon-zygmund-kernel": "8e90c348c926a35fd797d3e287eeca857eb4d416742e79cbd55d51965175b812",
+      "harmonic-analysis/calderon-zygmund-lp-bound": "cffcffafb26971ba8675aa1c7bd1a1a7b87f09594dc175bfb56e74def6f5023a",
+      "harmonic-analysis/calderon-zygmund-operator": "45981e3b8e90a5442e114d5608bcb3f74c727aa8e5e2629930253f96fddf010c",
+      "harmonic-analysis/double-riesz-kernel-three-dimensions": "3a50f7e7056e3b93518a814cf273e2721b2d3bacca7477c07413982894e3951b",
+      "harmonic-analysis/euclidean-l2-fourier-multiplier": "a03f8f140eef162926ecfd922ad6019c522a334cdc8cabdc3f70682f74677a3d",
+      "harmonic-analysis/multiplication-commutator-kernel": "3da9b805a33686a6bea3739abdd0543cbf4efae6919e9795a0c56ff29656f569",
+      "harmonic-analysis/principal-value-singular-integral": "df440d3080d2c0326585f77656c87ad0ee2c31d66af6ef35fc7fe340ae8fa7e8",
+      "harmonic-analysis/riesz-transform": "7004037d3f29a9acb3e55fdc5d50a67e8d94a83fb7186835ddb3e780b4909ef6",
+      "harmonic-analysis/scaled-cutoff-commutator-estimate": "bff3ae0564c5bf5fb3161cda7522d238c34f1321728aeb760a2ad25424cba55b",
+      "linear-algebra": "6abe04afdc64caa9ecae75e79ee7e80384507125042d85817d5c1813f1107d0a",
+      "linear-algebra/kronecker-delta": "ca50420625005c39189ff6e55cf0ed921e3d4c72040a8c96b21138ac17ca8fea",
+      "partial-differential-equations": "0d23446e23a7e7e210e2331aee0ae515b747b842d5768b9e177544e0833c628f",
+      "partial-differential-equations/harmonic-distribution": "4433158d7a10068ccbc480be9832b1c902cb15aad7f41c44c453d03ec61d101c",
+      "partial-differential-equations/harmonic-sobolev-distribution-vanishes": "829315ed5512821ab2c453a923c1a550223b5bb8da08a23afc053da3ae25d0d4",
+      "partial-differential-equations/newtonian-fundamental-solution-three-dimensions": "d9d2270a9623d53dfd2a01a34d5d76a8577f552ce2371ab8dc2adc6a5c89f865",
+      "partial-differential-equations/newtonian-potential": "40bf1caaf1661e3d44e51b0258f60225fb33b3a2676961f10e60bef921b254d3",
+      "partial-differential-equations/poisson-equation": "69ae199a1469c451b9e3a55da72d7c4a23be5b31a34b659dd681c14fd0764ed2",
+      "real-analysis": "e4575b0133879223712f1ca0c5f30d50c1884c981917722e7f2de0a0221d36ed",
+      "real-analysis/mollifier": "2213ee35322e296bb1a809570b04d106c41d97140199f70ac0818a043aba606b"
+    }
+  },
+  "browser_validation": {
+    "routes": 27,
+    "inline_expansions": 27,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "search_entries_present": true,
+    "console_errors": []
+  }
+}

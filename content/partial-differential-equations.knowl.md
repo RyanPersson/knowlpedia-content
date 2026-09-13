@@ -46,3 +46,11 @@ These entries introduce the language used to specify and analyze partial differe
 - [[partial-differential-equations/heat-kernel-solution|Solution of the heat equation by Gaussian convolution]]
 - [[partial-differential-equations/heat-semigroup|Heat semigroup]]
 - [[partial-differential-equations/heat-smoothing-estimate|Heat smoothing estimate]]
+
+## Sobolev spaces and pressure analysis
+
+- [[partial-differential-equations/harmonic-distribution|Harmonic distribution]]
+- [[partial-differential-equations/harmonic-sobolev-distribution-vanishes|A harmonic global Sobolev distribution vanishes]]
+- [[partial-differential-equations/newtonian-fundamental-solution-three-dimensions|Newtonian fundamental solution in three dimensions]]
+- [[partial-differential-equations/newtonian-potential|Newtonian potential in three dimensions]]
+- [[partial-differential-equations/poisson-equation|Poisson equation]]

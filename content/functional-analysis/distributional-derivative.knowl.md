@@ -6,9 +6,9 @@ summary = "The distributional derivative transfers differentiation to test funct
 aliases = ["weak derivative of a distribution", "derivative of a distribution", "generalized derivative"]
 domains = ["functional-analysis", "distribution-theory", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "real-analysis/integration-by-parts", "real-analysis/partial-derivative"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["functional-analysis/distribution", "functional-analysis/test-function-space", "real-analysis/integration-by-parts", "real-analysis/partial-derivative", "real-analysis/multi-index-notation"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(T\) be a [[functional-analysis/distribution|distribution]] on an [[topology/open-set|open set]]

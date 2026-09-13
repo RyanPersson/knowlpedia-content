@@ -64,3 +64,7 @@ additionally specify the weak-star or [[functional-analysis/strong-dual|strong d
 
 - [Lars Hörmander, *The Analysis of Linear Partial Differential Operators I*, Chapter 7 (Springer, 2003)](https://doi.org/10.1007/978-3-642-61497-2)
 - [Gerald B. Folland, *Real Analysis: Modern Techniques and Their Applications*, 2nd ed., Chapter 9 (Wiley, 1999)](https://www.wiley.com/en-us/Real+Analysis%3A+Modern+Techniques+and+Their+Applications%2C+2nd+Edition-p-9780471317166)
+
+## Point evaluation
+
+The [[functional-analysis/dirac-delta-distribution|Dirac delta distribution]] gives the explicit point-evaluation example.

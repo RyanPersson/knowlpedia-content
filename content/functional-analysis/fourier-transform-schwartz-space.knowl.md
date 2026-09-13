@@ -6,9 +6,9 @@ summary = "The Fourier transform restricts to a continuous linear automorphism o
 aliases = ["Schwartz Fourier transform", "Fourier automorphism of S(R^n)", "Fourier automorphism of S"]
 domains = ["functional-analysis", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["functional-analysis/schwartz-space", "measure-theory/lebesgue-integral", "measure-theory/lebesgue-integrable-function", "real-analysis/exponential-function", "linear-algebra/inner-product"]
+prerequisites = ["functional-analysis/schwartz-space", "measure-theory/lebesgue-integral", "measure-theory/lebesgue-integrable-function", "real-analysis/exponential-function", "linear-algebra/inner-product", "real-analysis/pi"]
 dependency_heuristic = "navier-semantic-review-v1"
-dependency_review_count = 2
+dependency_review_count = 3
 +++
 
 For \(f\) in the [[functional-analysis/schwartz-space|Schwartz space]]

@@ -180,3 +180,15 @@ These provide the representation-theoretic input to the
 - [[harmonic-analysis/torus-cover-preserves-average|Torus coverings preserve normalized averages]]
 
 - [[harmonic-analysis/near-resonant-fourier-mode|Nearly resonant Fourier mode]]
+
+## Sobolev spaces and pressure analysis
+
+- [[harmonic-analysis/calderon-zygmund-kernel|Calderón–Zygmund kernel]]
+- [[harmonic-analysis/calderon-zygmund-lp-bound|Lp boundedness of Calderón–Zygmund operators]]
+- [[harmonic-analysis/calderon-zygmund-operator|Calderón–Zygmund operator]]
+- [[harmonic-analysis/double-riesz-kernel-three-dimensions|Kernel of a double Riesz transform in three dimensions]]
+- [[harmonic-analysis/euclidean-l2-fourier-multiplier|Euclidean L2 Fourier multiplier]]
+- [[harmonic-analysis/multiplication-commutator-kernel|Kernel cancellation in a multiplication commutator]]
+- [[harmonic-analysis/principal-value-singular-integral|Principal-value singular integral]]
+- [[harmonic-analysis/riesz-transform|Riesz transform]]
+- [[harmonic-analysis/scaled-cutoff-commutator-estimate|Scaled cutoff commutator estimate]]

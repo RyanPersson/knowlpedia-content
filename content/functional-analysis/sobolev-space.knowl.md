@@ -6,9 +6,9 @@ summary = "A function space whose weak derivatives through a specified order are
 aliases = ["W^{k,p} space", "H^k space"]
 domains = ["functional-analysis", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = ["shared-foundations/equivalence-class", "functional-analysis/weak-derivative", "linear-algebra/banach-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/equivalence-class", "functional-analysis/weak-derivative", "linear-algebra/banach-space", "measure-theory/lp-space", "real-analysis/multi-index-notation", "shared-foundations/finite-sum"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(\Omega\subseteq\mathbb R^n\) be open, let \(k\) be a nonnegative
@@ -64,3 +64,7 @@ hypotheses such as compactness and bounded geometry.
 
 1. Robert A. Adams and John J. F. Fournier, *Sobolev Spaces*, 2nd ed., Academic Press, 2003. [Publisher record](https://www.sciencedirect.com/book/9780120441433/sobolev-spaces). Relevant: Chapters 3 and 7 on integer-order and fractional Sobolev spaces.
 2. Lawrence C. Evans, *Partial Differential Equations*, 2nd ed., American Mathematical Society, 2010. [DOI record](https://doi.org/10.1090/gsm/019). Relevant: Chapter 5 on Sobolev spaces, approximation, extensions, and traces.
+
+## Whole-space Fourier convention
+
+For arbitrary real order on Euclidean space, see [[functional-analysis/fourier-sobolev-space|Fourier Sobolev space]]. For regularity on relatively compact subdomains, see [[functional-analysis/local-sobolev-space|local Sobolev space]].

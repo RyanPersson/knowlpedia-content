@@ -150,3 +150,16 @@ Click any term to expand its definition inline.
 ## Cones, averages and moment constraints
 
 - [[functional-analysis/small-solution-of-a-quadratic-equation|Small solution of an invertible linear equation with quadratic error]]
+
+## Sobolev spaces and pressure analysis
+
+- [[functional-analysis/dirac-delta-distribution|Dirac delta distribution]]
+- [[functional-analysis/fourier-sobolev-space|Fourier Sobolev space on Euclidean space]]
+- [[functional-analysis/l1-negative-sobolev-bound|Integrable functions in negative Sobolev spaces]]
+- [[functional-analysis/local-sobolev-space|Local Sobolev space]]
+- [[functional-analysis/multiplication-operator|Multiplication operator]]
+- [[functional-analysis/smooth-density-in-euclidean-sobolev-space|Smooth compact-support approximation in Euclidean Sobolev space]]
+- [[functional-analysis/sobolev-derivative-bound|Derivative bound between Fourier Sobolev spaces]]
+- [[functional-analysis/sobolev-embedding-bounded-derivatives|Sobolev embedding into bounded continuous derivatives]]
+- [[functional-analysis/three-dimensional-sobolev-inequality|Three-dimensional Sobolev inequality]]
+- [[functional-analysis/weighted-cutoff-sobolev-estimate|Sobolev estimate with a scaled cutoff]]

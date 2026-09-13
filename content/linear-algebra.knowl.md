@@ -144,3 +144,7 @@ Click any term to expand its definition inline.
 - [[linear-algebra/moment-pairing-matrix|Moment pairing matrix]]
 - [[linear-algebra/positive-quadratic-realization|Positive realization by squared amplitudes]]
 - [[linear-algebra/vandermonde-matrix|Vandermonde matrix]]
+
+## Sobolev spaces and pressure analysis
+
+- [[linear-algebra/kronecker-delta|Kronecker delta]]

@@ -461,3 +461,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/radial-laplacian|Radial Laplacian]]
 - [[real-analysis/smooth-endpoint-of-gamma-average|Smooth nonanalytic endpoint of a Gamma average]]
 - [[real-analysis/tricomi-u-positive-arguments|Tricomi U for positive real arguments]]
+
+## Sobolev spaces and pressure analysis
+
+- [[real-analysis/mollifier|Mollifier]]

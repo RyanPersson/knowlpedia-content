@@ -6,9 +6,9 @@ summary = "A twice differentiable function annihilated by the Laplacian, equival
 aliases = ["harmonicity", "solution of Laplace's equation"]
 domains = ["complex-analysis", "potential-theory", "partial-differential-equations"]
 section_mode = "progressive"
-prerequisites = ["topology/open-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/open-set", "real-analysis/class-ck-function", "real-analysis/laplacian"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(U\subseteq\mathbb R^n\) be open. A \(C^2\) function
@@ -16,7 +16,7 @@ Let \(U\subseteq\mathbb R^n\) be open. A \(C^2\) function
 \[
 \Delta u=\sum_{j=1}^n\partial_{x_j}^2u=0
 \]
-on \(U\).
+on \(U\), where \(\Delta\) is the [[real-analysis/laplacian|Laplacian]].
 
 ## Mean-value characterization
 

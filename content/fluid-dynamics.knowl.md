@@ -75,3 +75,7 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 - [[fluid-dynamics/integral-profile-for-swirl-heat-flow|Integral profile for radial swirl heat flow]]
 - [[fluid-dynamics/pure-swirl-heat-solution|Pure swirl solution from a radial heat flow]]
 - [[fluid-dynamics/swirl-diffusion-operator|Cylindrical swirl diffusion operator]]
+
+## Sobolev spaces and pressure analysis
+
+- [[fluid-dynamics/canonical-pressure-from-integrable-stress|Canonical pressure from an integrable tensor]]
