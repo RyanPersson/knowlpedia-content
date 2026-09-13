@@ -6,9 +6,9 @@ summary = "The norm induced by an inner product on a Euclidean space."
 aliases = ["euclidean-norm", "Euclidean norm"]
 domains = ["linear-algebra"]
 legacy_source_path = "linear-algebra/euclidean-norm.md"
-prerequisites = ["linear-algebra/euclidean-space", "linear-algebra/norm"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/euclidean-space", "linear-algebra/norm", "real-analysis/nonnegative-square-root"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **Euclidean norm** on a [[linear-algebra/euclidean-space|Euclidean space]] \((V,\langle\cdot,\cdot\rangle)\) is the [[linear-algebra/norm|norm]] defined by

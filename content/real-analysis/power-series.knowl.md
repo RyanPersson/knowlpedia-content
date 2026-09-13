@@ -7,9 +7,9 @@ aliases = ["power-series", "Power series", "convergent power series"]
 domains = ["real-analysis", "complex-analysis"]
 legacy_source_path = "real-analysis/power-series.md"
 section_mode = "progressive"
-prerequisites = ["real-analysis/series", "shared-foundations/complex-numbers-c", "real-analysis/interval"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["real-analysis/series", "shared-foundations/complex-numbers-c", "real-analysis/interval", "real-analysis/modulus-on-c"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **power series** over \(\mathbb K=\mathbb R\) or \(\mathbb C\), with coefficients \(c_n\in\mathbb K\) and center \(a\in\mathbb K\), is an expression

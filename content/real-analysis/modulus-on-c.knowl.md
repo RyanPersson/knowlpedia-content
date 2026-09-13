@@ -6,15 +6,17 @@ summary = "The nonnegative magnitude |z| of a complex number z, equal to its dis
 aliases = ["modulus-on-c", "Modulus (absolute value) on ℂ"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/modulus-on-c.md"
-prerequisites = ["shared-foundations/complex-numbers-c"]
-dependency_heuristic = "component-dependency-review-v1"
-dependency_review_count = 2
+prerequisites = ["shared-foundations/complex-numbers-c", "shared-foundations/complex-conjugate", "real-analysis/nonnegative-square-root"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
-For \(z=a+bi\in\mathbb{C}\), the **modulus** (or **absolute value**) of \(z\) is
+For \(z=a+bi\in\mathbb{C}\), writing \(\overline z\) for its [[shared-foundations/complex-conjugate|complex conjugate]], the **modulus** (or **absolute value**) of \(z\) is
 \[
 |z|:=\sqrt{a^2+b^2}=\sqrt{z\overline{z}}.
 \]
+
+The square root is the [[real-analysis/nonnegative-square-root|nonnegative square root]].
 
 ## Remarks
 

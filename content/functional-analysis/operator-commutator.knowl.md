@@ -68,3 +68,11 @@ intersection, possibly one that is not dense.
 
 1. Michael Reed and Barry Simon, *Methods of Modern Mathematical Physics I: Functional Analysis*, Academic Press, 1972. [Publisher record](https://doi.org/10.1016/B978-0-12-585001-8.X5001-6). Relevant: Chapter VIII on unbounded operators and their domains.
 2. José M. Gracia-Bondía, Joseph C. Várilly, and Héctor Figueroa, *Elements of Noncommutative Geometry*, Birkhäuser, 2001. [DOI record](https://doi.org/10.1007/978-1-4612-0005-5). Relevant: §10.1 on spectral triples and bounded commutators.
+
+## Differential operators on a common function space
+
+The same algebraic definition applies to operators on a vector space of smooth functions that is invariant under both operators; no Hilbert-space completion is needed for this calculation. For example, if \(M_a f=af\), the product rule gives
+\[
+[\partial_j,M_a]f=(\partial_j a)f.
+\]
+Thus a derivative and multiplication commute only when the relevant derivative of the coefficient vanishes. Analytic estimates for the commutator require the chosen norms and domains in addition to this identity.

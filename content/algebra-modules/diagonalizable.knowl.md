@@ -36,4 +36,4 @@ If the [[linear-algebra/characteristic-polynomial|characteristic polynomial]] sp
 
 ## Non-example
 
-The matrix \(\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}\) is not diagonalizable (only one eigenvector).
+The matrix \(\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}\) is not diagonalizable (its eigenspace is only one-dimensional).

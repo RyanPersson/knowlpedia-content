@@ -6,9 +6,9 @@ summary = "A radial shell whose outer radius is twice its inner radius, used to 
 aliases = ["dyadic shell"]
 domains = ["analysis", "harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/euclidean-norm"]
-dependency_heuristic = "component-dependency-review-v1"
-dependency_review_count = 2
+prerequisites = ["topology/annulus", "shared-foundations/integers"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 For an integer \(k\), a **dyadic annulus** in \(\mathbb R^d\) is a set of the

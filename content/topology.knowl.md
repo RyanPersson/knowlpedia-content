@@ -188,3 +188,7 @@ Click any term to expand its definition inline.
 - [[topology/fundamental-class|Fundamental class]]
 - [[topology/fundamental-group|Fundamental group]]
 - [[topology/singular-cohomology-group|Singular cohomology group]]
+
+## Coordinates and calculus additions
+
+- [[topology/annulus|Euclidean annulus]]

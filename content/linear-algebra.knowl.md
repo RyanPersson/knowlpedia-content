@@ -105,3 +105,20 @@ Click any term to expand its definition inline.
 - [[linear-algebra/hermitian-matrix|Hermitian matrix]]
 - [[linear-algebra/minkowski-vector-space|Minkowski vector space]]
 - [[linear-algebra/semilinear-map|Semilinear map]]
+
+## Coordinates and calculus additions
+
+- [[linear-algebra/cross-product|Cross product in three-dimensional Euclidean space]]
+- [[linear-algebra/dual-basis|Dual basis]]
+- [[linear-algebra/hadamard-product|Hadamard product]]
+- [[linear-algebra/left-inverse|Left inverse of a linear map]]
+- [[linear-algebra/matrix-inverse|Inverse matrix]]
+- [[linear-algebra/moving-frame|Moving frame for a family of subspaces]]
+- [[linear-algebra/outer-product|Outer product]]
+- [[linear-algebra/quadratic-map|Quadratic map over the real numbers]]
+- [[linear-algebra/reflection|Orthogonal reflection across a hyperplane]]
+- [[linear-algebra/right-inverse|Right inverse of a linear map]]
+- [[linear-algebra/unit-vector|Unit vector]]
+
+- [[linear-algebra/block-matrix|Block matrix]]
+- [[linear-algebra/elementary-row-operation|Elementary row operation]]
