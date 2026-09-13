@@ -6,9 +6,9 @@ summary = "A conjugate-exponent bound: |xy| is controlled by |x|^p/p + |y|^q/q"
 aliases = ["youngs-inequality", "Young's Inequality"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/youngs-inequality.md"
-prerequisites = ["real-analysis/absolute-value", "convex-analysis/weighted-arithmeticgeometric-mean-inequality"]
-dependency_heuristic = "component-dependency-review-v1"
-dependency_review_count = 2
+prerequisites = ["real-analysis/absolute-value", "convex-analysis/weighted-arithmeticgeometric-mean-inequality", "real-analysis/real-power"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 **Young's Inequality**: Let \(p,q>1\) satisfy \(\frac1p+\frac1q=1\). Then for all \(x,y\in\mathbb{R}\),

@@ -465,3 +465,7 @@ Click any term to expand its definition inline.
 ## Sobolev spaces and pressure analysis
 
 - [[real-analysis/mollifier|Mollifier]]
+
+## Energy, continuation and periodization
+
+- [[real-analysis/unbounded-path-prevents-continuous-extension|Unbounded values approaching a point prevent continuous extension]]

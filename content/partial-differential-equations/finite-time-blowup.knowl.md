@@ -24,3 +24,7 @@ Blowup of a derivative norm need not mean blowup of the velocity itself. Convers
 ## Breakdown and extension
 
 Failure to extend a classical solution is often called breakdown. A continuation theorem can relate breakdown to the divergence of a specified norm or space-time integral, but that implication is additional mathematical information.
+
+## Explicit continuation obstructions
+
+An [[real-analysis/unbounded-path-prevents-continuous-extension|unbounded sequence approaching a finite space-time point]] rules out a continuous extension there. A [[partial-differential-equations/sobolev-continuation-obstruction|Sobolev embedding]] can separately rule out continuous extension in a specified Sobolev norm.

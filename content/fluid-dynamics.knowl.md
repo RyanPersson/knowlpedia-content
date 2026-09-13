@@ -79,3 +79,23 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 ## Sobolev spaces and pressure analysis
 
 - [[fluid-dynamics/canonical-pressure-from-integrable-stress|Canonical pressure from an integrable tensor]]
+
+## Energy, continuation and periodization
+
+- [[fluid-dynamics/bounded-kinetic-energy|Uniformly bounded kinetic energy]]
+- [[fluid-dynamics/change-of-viscosity-by-spatial-rescaling|Changing viscosity by spatial rescaling]]
+- [[fluid-dynamics/classical-energy-uniqueness|Classical uniqueness from difference energy]]
+- [[fluid-dynamics/cutoff-pressure-flux-estimate|Cutoff pressure-flux estimate for a velocity difference]]
+- [[fluid-dynamics/delayed-parabolic-rescaling|Delayed parabolic rescaling at a fixed terminal time]]
+- [[fluid-dynamics/energy-bound-from-integrable-forcing|Energy bound from a time-integrable L2 force]]
+- [[fluid-dynamics/kinetic-energy-identity|Global kinetic-energy identity]]
+- [[fluid-dynamics/kinetic-energy-inequality|Kinetic-energy inequality]]
+- [[fluid-dynamics/local-kinetic-energy-balance|Local kinetic-energy balance for smooth incompressible flow]]
+- [[fluid-dynamics/localized-difference-energy-identity|Localized difference-energy identity]]
+- [[fluid-dynamics/navier-stokes-difference-equation|Difference equation for two incompressible flows]]
+- [[fluid-dynamics/periodization-of-separated-navier-stokes-fields|Periodization of separated incompressible flows]]
+- [[fluid-dynamics/pressure-gradient-identification|Identifying pressure gradients without a pressure growth assumption]]
+- [[fluid-dynamics/relative-kinetic-energy|Relative kinetic energy]]
+- [[fluid-dynamics/solenoidal-integration-cancellation|Integration cancellation for divergence-free transport and pressure]]
+- [[fluid-dynamics/uniqueness-against-compact-reference-flow|Uniqueness against a smooth compactly supported reference flow]]
+- [[fluid-dynamics/viscous-dissipation|Viscous dissipation in the incompressible energy balance]]

@@ -54,3 +54,7 @@ These entries introduce the language used to specify and analyze partial differe
 - [[partial-differential-equations/newtonian-fundamental-solution-three-dimensions|Newtonian fundamental solution in three dimensions]]
 - [[partial-differential-equations/newtonian-potential|Newtonian potential in three dimensions]]
 - [[partial-differential-equations/poisson-equation|Poisson equation]]
+
+## Energy, continuation and periodization
+
+- [[partial-differential-equations/sobolev-continuation-obstruction|Supremum growth obstructs continuous Sobolev continuation]]

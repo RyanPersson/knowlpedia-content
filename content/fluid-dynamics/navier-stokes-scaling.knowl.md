@@ -35,3 +35,7 @@ The exponent is zero when \(2/p+d/q=1\); such a norm is called scaling critical.
 ## References
 
 - [Charles Fefferman, Existence and Smoothness of the Navier–Stokes Equation](https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf).
+
+## Related rescalings
+
+A [[fluid-dynamics/delayed-parabolic-rescaling|time shift combined with this dilation]] can retain a fixed terminal time. [[fluid-dynamics/change-of-viscosity-by-spatial-rescaling|Changing viscosity by spatial rescaling]] uses different amplitude factors and leaves time unchanged.

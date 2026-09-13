@@ -148,3 +148,7 @@ Click any term to expand its definition inline.
 ## Sobolev spaces and pressure analysis
 
 - [[linear-algebra/kronecker-delta|Kronecker delta]]
+
+## Energy, continuation and periodization
+
+- [[linear-algebra/frobenius-norm|Frobenius norm]]

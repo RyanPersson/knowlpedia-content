@@ -192,3 +192,7 @@ These provide the representation-theoretic input to the
 - [[harmonic-analysis/principal-value-singular-integral|Principal-value singular integral]]
 - [[harmonic-analysis/riesz-transform|Riesz transform]]
 - [[harmonic-analysis/scaled-cutoff-commutator-estimate|Scaled cutoff commutator estimate]]
+
+## Energy, continuation and periodization
+
+- [[harmonic-analysis/periodization-of-compactly-supported-function|Periodization of a compactly supported smooth function]]

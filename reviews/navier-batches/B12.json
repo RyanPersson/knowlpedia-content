@@ -1,0 +1,143 @@
+{
+  "batch": "B12",
+  "title": "Energy, uniqueness, breakdown and periodization",
+  "branch": "navier",
+  "status": "content, structure and rendering checked",
+  "new_ids": [
+    "convex-analysis/subquadratic-absorption",
+    "fluid-dynamics/bounded-kinetic-energy",
+    "fluid-dynamics/change-of-viscosity-by-spatial-rescaling",
+    "fluid-dynamics/classical-energy-uniqueness",
+    "fluid-dynamics/cutoff-pressure-flux-estimate",
+    "fluid-dynamics/delayed-parabolic-rescaling",
+    "fluid-dynamics/energy-bound-from-integrable-forcing",
+    "fluid-dynamics/kinetic-energy-identity",
+    "fluid-dynamics/kinetic-energy-inequality",
+    "fluid-dynamics/local-kinetic-energy-balance",
+    "fluid-dynamics/localized-difference-energy-identity",
+    "fluid-dynamics/navier-stokes-difference-equation",
+    "fluid-dynamics/periodization-of-separated-navier-stokes-fields",
+    "fluid-dynamics/pressure-gradient-identification",
+    "fluid-dynamics/relative-kinetic-energy",
+    "fluid-dynamics/solenoidal-integration-cancellation",
+    "fluid-dynamics/uniqueness-against-compact-reference-flow",
+    "fluid-dynamics/viscous-dissipation",
+    "harmonic-analysis/periodization-of-compactly-supported-function",
+    "linear-algebra/frobenius-norm",
+    "partial-differential-equations/sobolev-continuation-obstruction",
+    "real-analysis/unbounded-path-prevents-continuous-extension"
+  ],
+  "modified_ids": [
+    "convex-analysis",
+    "convex-analysis/youngs-inequality",
+    "fluid-dynamics",
+    "fluid-dynamics/kinetic-energy",
+    "fluid-dynamics/navier-stokes-scaling",
+    "harmonic-analysis",
+    "linear-algebra",
+    "partial-differential-equations",
+    "partial-differential-equations/finite-time-blowup",
+    "real-analysis"
+  ],
+  "reused_ids": [
+    "differential-equations/gronwall-inequality",
+    "fluid-dynamics/kinetic-energy",
+    "fluid-dynamics/navier-stokes-scaling",
+    "functional-analysis/three-dimensional-sobolev-inequality",
+    "harmonic-analysis/scaled-cutoff-commutator-estimate",
+    "measure-theory/lp-interpolation-inequality",
+    "partial-differential-equations/maximal-existence-time",
+    "real-analysis/borel-jet-extension"
+  ],
+  "source_references": [
+    {
+      "title": "Ryzhik, Lecture notes for Math 256B (2024), §§5–6",
+      "url": "https://math.stanford.edu/~ryzhik/notes-256B-24.pdf"
+    }
+  ],
+  "review_decisions": [
+    "Separate the local balance, global equality, and inequality admissibility condition.",
+    "Keep the whole-space flux hypotheses explicit.",
+    "Prove the forcing estimate with a regularized norm so zero initial data cause no division by zero.",
+    "Separate the general difference identity, pressure-gradient identification and flux estimate before the compact-reference comparison theorem.",
+    "Do not assume a pressure growth bound or global gradient integrability for the smooth L2 competitor.",
+    "Classical H3 uniqueness is stated separately from existence and from weak-solution uniqueness.",
+    "Continuation obstructions are elementary implications, not a claim to prove a Navier–Stokes blowup construction.",
+    "Keep viscosity-changing spatial rescaling distinct from fixed-viscosity parabolic scaling.",
+    "Periodize velocity, pressure and force together and require separated supports to eliminate nonlinear cross terms.",
+    "Link the existing kinetic-energy, norm-blowup and parabolic-scaling owners to the new results without duplicating their definitions.",
+    "Reviewed the scope audit finding: the pre-existing subject-index basis-existence label is outside this batch’s new content."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 32,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 410,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [
+      {
+        "rule": "exact_label_target_mismatch",
+        "severity": "high",
+        "score": 6,
+        "source_id": "linear-algebra",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/linear-algebra.knowl.md",
+        "line": 74,
+        "label": "Existence of a basis",
+        "actual_target": "linear-algebra/basis-existence-theorem",
+        "unique_label_owner": "convex-analysis/existence-of-a-basis-hamel-basis",
+        "recommended_action": "semantic_review_only"
+      }
+    ],
+    "rendered_files_checked": 2370,
+    "rendering_findings": [],
+    "source_sha256": {
+      "convex-analysis": "5f1d7739145587b6dd8f7f5b02b15c88a697f2f62657774f3409f3a4dc4f3460",
+      "convex-analysis/subquadratic-absorption": "96d3493ca1b7f0e7aaad4c52ad507a7f301ba73dee6ff8cdc0833f4ad81fdf4a",
+      "convex-analysis/youngs-inequality": "1127ed094ee5e98b3b3aed141cb889d1e498b43d5d57ddf418cff5059710e2c4",
+      "fluid-dynamics": "779d48905d0ef95e46560ac6f57fc7296c1b022426f4b9162e6013b365b9baf5",
+      "fluid-dynamics/bounded-kinetic-energy": "c66e0e38644c523e7d435df46377d167e316aa2265491272db953356bd8de36e",
+      "fluid-dynamics/change-of-viscosity-by-spatial-rescaling": "7729803984a85f61bfe2c6f96d7c325c0c450075b344b3a434f601823a874dd3",
+      "fluid-dynamics/classical-energy-uniqueness": "af3be545ff212ac9d5272023ac24bdb8c36203b338503c88ffb820b4770d16ec",
+      "fluid-dynamics/cutoff-pressure-flux-estimate": "db988e0b9189b79111e9a19fd969c3e0cf97361326d03d251bb573742a4f6696",
+      "fluid-dynamics/delayed-parabolic-rescaling": "33422777eaf570a4dbc348cb0e458bdf06b0f84902a3d498ec04bb4af8ee733a",
+      "fluid-dynamics/energy-bound-from-integrable-forcing": "12852d44cd437ae566c057db3b4707eafad2a71ec28cce30c3a3a34cbf034a45",
+      "fluid-dynamics/kinetic-energy": "7f0f8010f069fc78df6672cce505e840634b2eb8fa816daa20fb73835f2c5ff1",
+      "fluid-dynamics/kinetic-energy-identity": "a6f1fbf4cd7f6eb4f0446e64da95fa620ac510be7610c62e9c3bf7952104ad16",
+      "fluid-dynamics/kinetic-energy-inequality": "7ddf01e99a9df7db133cad35cc25b6339ea3c84c281b6df4ec994abf253b0890",
+      "fluid-dynamics/local-kinetic-energy-balance": "91e51e6f22da54cef49db8c07f94f3b376688a642d1bb119e358df762fe47a0e",
+      "fluid-dynamics/localized-difference-energy-identity": "88e8d155848054019ad60ac888ce8dca830539d26551259b032af6dbe50df770",
+      "fluid-dynamics/navier-stokes-difference-equation": "9be410443a226e05571d979357b56d3d857e1c5b518fb9c1b37c541e3c13706d",
+      "fluid-dynamics/navier-stokes-scaling": "d5c18279db1f7b76de7571ec7d8251865833b709764388a97c524fa6c777fe53",
+      "fluid-dynamics/periodization-of-separated-navier-stokes-fields": "eca0a1f713852a0d1216868d6ae7517351ccac95c8a4775e8e891f2fc5bb3b59",
+      "fluid-dynamics/pressure-gradient-identification": "6ee34b293fe9338bb143485a87855295b37194c55a0478ae88f312c5935a5d8d",
+      "fluid-dynamics/relative-kinetic-energy": "14090b3be35265b67989bbf3f824e60588644f0ef54baaca406932128a4dd41d",
+      "fluid-dynamics/solenoidal-integration-cancellation": "af5a37ddafdf34f092aec434f784ad5e2ee524581d7100f95243392e6eda9d67",
+      "fluid-dynamics/uniqueness-against-compact-reference-flow": "c5e18b93974e4bac749a210eed131d2a70c53b67897057b8b71bfb798da51d2f",
+      "fluid-dynamics/viscous-dissipation": "48c9b6807feb59f38f8b2b0171a95e8ad0e7f8eee2d3320307c2e8772383da20",
+      "harmonic-analysis": "d45891156736aebf8051505b094ce6dd477d3353399a07f6768ee07b31bd2be4",
+      "harmonic-analysis/periodization-of-compactly-supported-function": "528567128e2ea976fda9df7cad00db4875c72fbf934d757949d3b4430753e67e",
+      "linear-algebra": "bff5d59ee58712ce7eb5b7fd181f0abb4acc7ed09f7baa48c0b36dacd2214694",
+      "linear-algebra/frobenius-norm": "b0b95727ba029ff1c3502f83c1095c0c8a07a86f2aeb592e05f83c4ecede816d",
+      "partial-differential-equations": "439944adb6516cf66a4a7ff641e2a464ef0671c88da7c9b5fc7ee78b248b0935",
+      "partial-differential-equations/finite-time-blowup": "b148cb8e7543c87c762f4b6db4c0b6541fc96f6ea07dc37a23411ac8da1a2c67",
+      "partial-differential-equations/sobolev-continuation-obstruction": "b7d9048e381f95016b346c9eed5dfdef9bbcd36cb365c34e208ea37250833668",
+      "real-analysis": "c79f0d50f1f4b431cae20ba08f1e32320c583d53622113fdf90e1b1f33e7c884",
+      "real-analysis/unbounded-path-prevents-continuous-extension": "4c270d619d98b2da09638cea7a075c5b03149e3e0daeca23f9e4dbcf45b6b5d7"
+    }
+  },
+  "browser_validation": {
+    "routes": 22,
+    "inline_expansions": 22,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "search_entries_present": true,
+    "console_errors": []
+  }
+}

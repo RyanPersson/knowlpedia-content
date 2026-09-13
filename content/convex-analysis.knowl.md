@@ -280,3 +280,7 @@ Click any term to expand its definition inline.
 - [[convex-analysis/positive-span|Positive span]]
 - [[convex-analysis/two-generator-cone-test|Two-generator cone test]]
 - [[convex-analysis/uniform-cone-margin|Uniform directional margin inside a cone]]
+
+## Energy, continuation and periodization
+
+- [[convex-analysis/subquadratic-absorption|Absorbing a subquadratic power]]
