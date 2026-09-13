@@ -49,3 +49,10 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 - [[fluid-dynamics/angular-velocity-equation|Angular-velocity equation in axisymmetric flow]]
 - [[fluid-dynamics/vortex-line|Vortex line]]
 - [[fluid-dynamics/transport-operator|Transport operator along a vector field]]
+
+## Scaling and perturbations
+
+- [[fluid-dynamics/navier-stokes-scaling|Scaling symmetry of Navier–Stokes]]
+- [[fluid-dynamics/viscosity-rescaling|Rescaling unit viscosity to positive viscosity]]
+- [[fluid-dynamics/momentum-residual|Navier–Stokes momentum residual]]
+- [[fluid-dynamics/linearized-navier-stokes|Linearized Navier–Stokes operator]]

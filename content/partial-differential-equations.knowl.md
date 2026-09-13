@@ -26,3 +26,9 @@ These entries introduce the language used to specify and analyze partial differe
 - [[partial-differential-equations/partial-differential-equation|Partial differential equation]]
 - [[partial-differential-equations/principal-part|Principal part of a differential operator]]
 - [[partial-differential-equations/transport-equation|Transport equation]]
+
+## Similarity profiles and differential expressions
+
+- [[partial-differential-equations/self-similar-profile|Self-similar profile]]
+- [[partial-differential-equations/similarity-variables|Similarity variables]]
+- [[partial-differential-equations/differential-polynomial|Differential polynomial]]

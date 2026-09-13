@@ -142,3 +142,7 @@ Click any term to expand its definition inline.
 - [[functional-analysis/factorial-operator-inverse|Operator inversion from summable bounds on powers]]
 - [[functional-analysis/mixed-derivative-radial-estimate|A mixed-derivative estimate after radial inversion]]
 - [[functional-analysis/two-index-analytic-coefficient-space|Two-index analytic coefficient space]]
+
+## Estimates with derivative loss
+
+- [[functional-analysis/derivative-loss|Derivative loss in an estimate]]
