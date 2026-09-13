@@ -6,9 +6,9 @@ summary = "Invertibility is stable under small perturbations, with a quantitativ
 aliases = ["neumann-series-lemma", "Determinant nonvanishing implies local invertibility lemma"]
 domains = ["real-analysis"]
 legacy_source_path = "real-analysis/neumann-series-lemma.md"
-prerequisites = ["linear-algebra/linear-map", "linear-algebra/operator-norm", "real-analysis/series", "real-analysis/convergent-series"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/linear-map", "linear-algebra/operator-norm", "real-analysis/series", "real-analysis/convergent-series", "linear-algebra/matrix-inverse", "functional-analysis/absolutely-convergent-banach-series"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(A:\mathbb{R}^n\to\mathbb{R}^n\) be an invertible [[linear-algebra/linear-map|linear map]], and equip the space of linear maps with an [[linear-algebra/operator-norm|operator norm]].

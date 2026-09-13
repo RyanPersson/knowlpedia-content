@@ -196,3 +196,7 @@ Click any term to expand its definition inline.
 ## Integration and function-space additions
 
 - [[topology/parabolic-metric|Parabolic metric on space-time]]
+
+## Evolution-equation prerequisites
+
+- [[topology/locally-lipschitz-map|Locally Lipschitz map]]

@@ -6,9 +6,9 @@ summary = "A complex-differentiable map between open subsets or complex manifold
 aliases = ["holomorphic", "analytic map"]
 domains = ["differential-geometry", "complex-analysis"]
 section_mode = "progressive"
-prerequisites = ["differential-geometry/complex-coordinate-chart", "fiber-bundles/smooth-map"]
-dependency_heuristic = "semantic-spotcheck-review-v1"
-dependency_review_count = 2
+prerequisites = ["differential-geometry/complex-coordinate-chart", "fiber-bundles/smooth-map", "complex-analysis/complex-derivative"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 A map \(f:U\to\mathbb C^m\), where \(U\subseteq\mathbb C^n\) is open, is **holomorphic** if each component is complex differentiable in every variable in a neighborhood of every point.

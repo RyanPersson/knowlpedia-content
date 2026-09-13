@@ -129,3 +129,16 @@ Click any term to expand its definition inline.
 - [[functional-analysis/bounded-bilinear-map|Bounded bilinear map between normed spaces]]
 - [[functional-analysis/continuous-banach-valued-functions|Continuous Banach-valued functions on a compact space]]
 - [[functional-analysis/integral-operator|Integral operator with a measurable kernel]]
+
+## Evolution-equation prerequisites
+
+- [[functional-analysis/contraction-on-a-closed-ball|Contraction criterion on a closed norm ball]]
+
+## Analytic dependence and coefficient estimates
+
+- [[functional-analysis/analytic-coefficient-algebra|Product estimate in a two-index analytic coefficient space]]
+- [[functional-analysis/analytic-coefficient-radial-estimates|Radial operator bounds in an analytic coefficient norm]]
+- [[functional-analysis/analytic-coefficient-realization|Holomorphic realization of weighted analytic coefficients]]
+- [[functional-analysis/factorial-operator-inverse|Operator inversion from summable bounds on powers]]
+- [[functional-analysis/mixed-derivative-radial-estimate|A mixed-derivative estimate after radial inversion]]
+- [[functional-analysis/two-index-analytic-coefficient-space|Two-index analytic coefficient space]]

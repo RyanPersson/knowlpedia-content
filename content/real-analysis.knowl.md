@@ -380,3 +380,8 @@ Click any term to expand its definition inline.
 ## Further integration prerequisites
 
 - [[real-analysis/nonnegative-extended-series|Sum of nonnegative extended real terms]]
+
+## Analytic dependence and coefficient estimates
+
+- [[real-analysis/radial-averaging-operator|Radial averaging operator from the origin]]
+- [[real-analysis/real-analytic-function|Real-analytic function]]

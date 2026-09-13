@@ -122,3 +122,7 @@ Click any term to expand its definition inline.
 
 - [[linear-algebra/block-matrix|Block matrix]]
 - [[linear-algebra/elementary-row-operation|Elementary row operation]]
+
+## Evolution-equation prerequisites
+
+- [[linear-algebra/matrix-exponential|Matrix exponential]]

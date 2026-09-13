@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-**Banach Fixed Point Theorem (contraction mapping principle)**: Let \((X,d)\) be a [[topology/complete-metric-space|complete metric space]] and let \(T:X\to X\) be a [[shared-foundations/contraction-mapping|contraction]] with contraction constant \(c\in[0,1)\). Then:
+**Banach Fixed Point Theorem (contraction mapping principle)**: Let \((X,d)\) be a nonempty [[topology/complete-metric-space|complete metric space]] and let \(T:X\to X\) be a [[shared-foundations/contraction-mapping|contraction]] with contraction constant \(c\in[0,1)\). Then:
 
 - There exists a unique [[real-analysis/fixed-point|fixed point]] \(x^\ast\in X\) such that \(T(x^\ast)=x^\ast\).
 - For any starting point \(x_0\in X\), the iterates defined by

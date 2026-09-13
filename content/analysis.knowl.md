@@ -31,3 +31,7 @@ dependency_review_count = 1
 
 The complete dependency path is collected in the
 [[knowlification/quantum-chaos-index|fractal uncertainty and quantum chaos batch index]].
+
+## Differential equations
+
+- [[differential-equations|Differential equations]]
