@@ -1,0 +1,130 @@
+{
+  "batch": "B10",
+  "title": "Heat equations and special-function integral profiles",
+  "branch": "navier",
+  "status": "content, structure and rendering checked",
+  "new_ids": [
+    "differential-equations/equation-for-gamma-average",
+    "fluid-dynamics/integrability-of-swirl-heat-tail",
+    "fluid-dynamics/integral-profile-for-swirl-heat-flow",
+    "fluid-dynamics/pure-swirl-heat-solution",
+    "fluid-dynamics/swirl-diffusion-operator",
+    "measure-theory/reference-subtracted-integral",
+    "partial-differential-equations/directional-diffusion",
+    "partial-differential-equations/duhamel-formula-for-heat",
+    "partial-differential-equations/euclidean-heat-kernel",
+    "partial-differential-equations/heat-equation",
+    "partial-differential-equations/heat-kernel-solution",
+    "partial-differential-equations/heat-semigroup",
+    "partial-differential-equations/heat-smoothing-estimate",
+    "real-analysis/gamma-average-profile",
+    "real-analysis/gamma-function",
+    "real-analysis/gaussian-integral",
+    "real-analysis/pi",
+    "real-analysis/radial-laplacian",
+    "real-analysis/smooth-endpoint-of-gamma-average",
+    "real-analysis/tricomi-u-positive-arguments"
+  ],
+  "modified_ids": [
+    "differential-equations",
+    "fluid-dynamics",
+    "harmonic-analysis/fourier-character",
+    "measure-theory",
+    "partial-differential-equations",
+    "real-analysis",
+    "real-analysis/cylindrical-coordinates",
+    "real-analysis/sine-function"
+  ],
+  "reused_ids": [
+    "fluid-dynamics/angular-velocity-equation",
+    "fluid-dynamics/axisymmetric-navier-stokes",
+    "harmonic-analysis/approximate-identity-l1-group-algebra",
+    "harmonic-analysis/convolution-on-locally-compact-group",
+    "harmonic-analysis/young-convolution-inequality",
+    "real-analysis/normalized-flat-primitive",
+    "real-analysis/smooth-zero-extension",
+    "real-analysis/weighted-radial-moment",
+    "shared-foundations/rising-factorial"
+  ],
+  "source_references": [
+    {
+      "title": "Hunter, The Heat and Schrödinger Equations, §§5.1–5.3",
+      "url": "https://www.math.ucdavis.edu/~hunter/pdes/ch5.pdf"
+    },
+    {
+      "title": "NIST DLMF, §5.2(i), Euler’s integral for the Gamma function",
+      "url": "https://dlmf.nist.gov/5.2#i"
+    },
+    {
+      "title": "NIST DLMF, §13.4(i), integral representation of Tricomi U",
+      "url": "https://dlmf.nist.gov/13.4#i"
+    }
+  ],
+  "review_decisions": [
+    "Reuse the general convolution and approximate-identity owners for Euclidean heat evolution.",
+    "Separate scalar radial diffusion from vector swirl diffusion and keep the cylindrical inverse-square term.",
+    "State initial-value and smoothing results in their actual data classes; do not assert uniform time-zero convergence for arbitrary Linfinity data.",
+    "Generalize the positive Gamma integral to two independent positive parameters and identify its standard Tricomi representation.",
+    "Prove one-sided smoothness and finite Taylor remainder estimates without assuming convergence of the endpoint Taylor series.",
+    "Verify the swirl heat equation directly and keep its away-from-axis domain explicit.",
+    "Treat a subtracted moment as the integral of a convergent difference, with separate conditions at the axis and at infinity.",
+    "Give pi its own prerequisite owner and replace the earlier sine-section definition with that link.",
+    "Keep the standard heat semigroup and the exterior swirl integral construction separate: the latter is defined away from the axis and is not a general backward evolution theorem.",
+    "Link the existing cylindrical-coordinate and Fourier-character definitions to the explicit pi prerequisite needed in their core formulas."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 28,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 291,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [],
+    "rendered_files_checked": 1265,
+    "rendering_findings": [],
+    "source_sha256": {
+      "differential-equations": "bb1fc9b54b15a7ddd9c2997bb0d0396cfc785f221a452bff8250ef31c20095fc",
+      "differential-equations/equation-for-gamma-average": "52e02d2afa9da68acee3a7559e8e042ca4e38043cb47b134c03e246f77f08ccf",
+      "fluid-dynamics": "b53f54394233de6acc6d6da6b5a784145ac60b572186100b45dad1f0c53a3b50",
+      "fluid-dynamics/integrability-of-swirl-heat-tail": "1401ecdee671b46d806746615aceabe3198d3ebb1896c502b5b5fb891cf392ab",
+      "fluid-dynamics/integral-profile-for-swirl-heat-flow": "dfb5e0a8e100837b0ae1e635d559a889d347635984f1ecd4ec573a81a041e1a7",
+      "fluid-dynamics/pure-swirl-heat-solution": "ec2715ad4915f851aa54104837725d071105cad09e831290de9fd0d79f9b57a8",
+      "fluid-dynamics/swirl-diffusion-operator": "434d534826761ccfdccc86e11eddcdfa0c6946b04ef088c420e1de6e8db4adbf",
+      "harmonic-analysis/fourier-character": "7d73e0128c0d51b6bb1fbe736c1dfe03b5d849614bf034f27cd56324f8d535c4",
+      "measure-theory": "e2961df5add612946cf71bd5a035ba9d00cb4c64c31ff950b6caffa955c4647a",
+      "measure-theory/reference-subtracted-integral": "b84c4ddb3ef9326e940266dc163a9e6e2876b6aa899cff33cc6b41250ffce5bf",
+      "partial-differential-equations": "0cd4a623199f8ff153d00559182d899063eea779e220748b53502ba33ba7518b",
+      "partial-differential-equations/directional-diffusion": "3f40246f03a4542878a0b8434a791b04f358a6f1747e6b38985d842e05a7dba1",
+      "partial-differential-equations/duhamel-formula-for-heat": "ef9a32e315d190884c114da10b62c9d16d948813cb18cbd74892837e52f22a51",
+      "partial-differential-equations/euclidean-heat-kernel": "239bab06e9480b633b26d6a23400a3d2bd66e26a9cfffce721e5c1bc5327b1dd",
+      "partial-differential-equations/heat-equation": "1800f31aba8cbbb7f18b74d2e1f6babcbcb5f31ab0ee93fba4162b43fd939dcf",
+      "partial-differential-equations/heat-kernel-solution": "89907c84950bbd7b6a75b34a0c44c0cf664aaf58817ff2e86dda9e0e2b755ce5",
+      "partial-differential-equations/heat-semigroup": "364a7ee71621db674291362bb2a666e335d649bd0c93a2add710fb0acaf601ff",
+      "partial-differential-equations/heat-smoothing-estimate": "046627fb01e02c9db3f201f8ed58ae34e018d49a372388f227637b92b224027f",
+      "real-analysis": "667b5b9d6334ca30736dbac0f0daf69a2ca48e40fffb84f28db0e9bf97bd581a",
+      "real-analysis/cylindrical-coordinates": "e7dbadfae5a5a0bc251a7fd5438d23338ad56098256d8d02842f22d8e0301815",
+      "real-analysis/gamma-average-profile": "337ccc17c67206fae87e54b4103e45370366fb25b04a42921dc60d83831865bd",
+      "real-analysis/gamma-function": "60b98e6d3272e345c49b0eb930c3e18867f43ae60281b57ebd8d24c7033e49f5",
+      "real-analysis/gaussian-integral": "0c1dedda5f9071926aa77a957bd9e0b9fe826f506449a0824a8cfdefc8163b71",
+      "real-analysis/pi": "1f2e8419d0592fa019896b70e2766febb5398adbc957bf9d4467fe119abd4003",
+      "real-analysis/radial-laplacian": "db1c61e41976faaa42fe5b6a034a5451308426ed7209b00e5759720bfb994f92",
+      "real-analysis/sine-function": "765bc52ef62e0afb62807c14786e86ceadddd7deeff6a1bdf5018f20a155031f",
+      "real-analysis/smooth-endpoint-of-gamma-average": "8ecf09fd3e208299159b6ab9e51e52ba79151c7ccb30473b0894a2b415d5d0a9",
+      "real-analysis/tricomi-u-positive-arguments": "b3c825ae7667ae92a7a5a19d9b562c4901d543cd4db42e683f236cb444e60bf5"
+    }
+  },
+  "browser_validation": {
+    "routes": 20,
+    "inline_expansions": 20,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "search_entries_present": true,
+    "console_errors": []
+  }
+}

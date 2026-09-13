@@ -451,3 +451,13 @@ Click any term to expand its definition inline.
 - [[real-analysis/weighted-moment-projection|Projection removing one weighted moment]]
 - [[real-analysis/weighted-radial-moment|Weighted radial moment]]
 - [[real-analysis/zero-count-for-distinct-powers|Zero count for distinct real powers]]
+
+## Heat flow and integral profiles
+
+- [[real-analysis/gamma-average-profile|Gamma average of an algebraic factor]]
+- [[real-analysis/gamma-function|Gamma function on positive real arguments]]
+- [[real-analysis/gaussian-integral|Gaussian integral]]
+- [[real-analysis/pi|The constant pi]]
+- [[real-analysis/radial-laplacian|Radial Laplacian]]
+- [[real-analysis/smooth-endpoint-of-gamma-average|Smooth nonanalytic endpoint of a Gamma average]]
+- [[real-analysis/tricomi-u-positive-arguments|Tricomi U for positive real arguments]]

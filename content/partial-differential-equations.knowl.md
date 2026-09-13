@@ -36,3 +36,13 @@ These entries introduce the language used to specify and analyze partial differe
 ## Cones, averages and moment constraints
 
 - [[partial-differential-equations/solvability-compatibility-condition|Solvability compatibility condition]]
+
+## Heat flow and integral profiles
+
+- [[partial-differential-equations/directional-diffusion|Diffusion in a fixed direction]]
+- [[partial-differential-equations/duhamel-formula-for-heat|Duhamel formula for the heat equation]]
+- [[partial-differential-equations/euclidean-heat-kernel|Euclidean heat kernel]]
+- [[partial-differential-equations/heat-equation|Heat equation]]
+- [[partial-differential-equations/heat-kernel-solution|Solution of the heat equation by Gaussian convolution]]
+- [[partial-differential-equations/heat-semigroup|Heat semigroup]]
+- [[partial-differential-equations/heat-smoothing-estimate|Heat smoothing estimate]]

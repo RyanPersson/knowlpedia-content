@@ -46,3 +46,7 @@ The [[partial-differential-equations|PDE subject]] introduces equations for func
 - [[differential-equations/linear-instability|Instability of a linear equilibrium]]
 - [[differential-equations/scalar-damping-factorization|Factoring scalar damping from a matrix evolution]]
 - [[differential-equations/envelope-duhamel-estimate|Duhamel estimate with a common envelope]]
+
+## Heat flow and integral profiles
+
+- [[differential-equations/equation-for-gamma-average|Differential equation for the Gamma average]]

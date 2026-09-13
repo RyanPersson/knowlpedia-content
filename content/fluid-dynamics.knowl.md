@@ -68,3 +68,10 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 ## Cones, averages and moment constraints
 
 - [[fluid-dynamics/radial-tangential-covariance|Radial-tangential velocity covariance]]
+
+## Heat flow and integral profiles
+
+- [[fluid-dynamics/integrability-of-swirl-heat-tail|Integrability of the subtracted swirl heat tail]]
+- [[fluid-dynamics/integral-profile-for-swirl-heat-flow|Integral profile for radial swirl heat flow]]
+- [[fluid-dynamics/pure-swirl-heat-solution|Pure swirl solution from a radial heat flow]]
+- [[fluid-dynamics/swirl-diffusion-operator|Cylindrical swirl diffusion operator]]

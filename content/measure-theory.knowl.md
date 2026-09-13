@@ -127,3 +127,7 @@ dependency_review_count = 1
 ## Cones, averages and moment constraints
 
 - [[measure-theory/averaged-second-moment-matrix|Averaged second-moment matrix]]
+
+## Heat flow and integral profiles
+
+- [[measure-theory/reference-subtracted-integral|Reference-subtracted integral]]

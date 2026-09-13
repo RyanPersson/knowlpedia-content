@@ -6,7 +6,7 @@ summary = "The coordinates x=r cos(theta), y=r sin(theta), z=z and their moving 
 aliases = ["cylindrical frame", "cylindrical basis", "cylindrical coordinate system"]
 domains = ["real-analysis"]
 section_mode = "progressive"
-prerequisites = ["real-analysis/cartesian-coordinates", "real-analysis/sine-function", "real-analysis/cosine-function", "real-analysis/nonnegative-square-root", "real-analysis/chain-rule-multivariable"]
+prerequisites = ["real-analysis/cartesian-coordinates", "real-analysis/sine-function", "real-analysis/cosine-function", "real-analysis/nonnegative-square-root", "real-analysis/chain-rule-multivariable", "real-analysis/pi"]
 dependency_heuristic = "navier-semantic-review-v1"
 dependency_review_count = 1
 +++

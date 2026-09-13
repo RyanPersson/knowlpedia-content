@@ -21,7 +21,7 @@ It is odd, satisfies \(\sin0=0\), and its derivative is the [[real-analysis/cosi
 
 ## Angle convention
 
-The positive number \(\pi\) is the smallest positive zero of sine; the usual trigonometric identities give period \(2\pi\) for sine and cosine. With angles measured in radians, \((\cos\theta,\sin\theta)\) parametrizes the unit circle. Existence of this first zero and the periodicity follow from the addition formulas and continuity; they are properties of the series-defined functions rather than extra choices of scale.
+The constant [[real-analysis/pi|π]] is the least positive zero of sine and fixes its radian angle convention. With this scale, \( (\cos\theta,\sin\theta)\) parametrizes the unit circle and has period \(2\pi\).
 
 ## Derivatives
 

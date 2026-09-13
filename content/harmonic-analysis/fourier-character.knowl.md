@@ -6,7 +6,7 @@ summary = "An integer-frequency periodic complex exponential."
 aliases = []
 domains = ["harmonic-analysis"]
 section_mode = "progressive"
-prerequisites = ["real-analysis/periodic-function", "real-analysis/exponential-function", "linear-algebra/inner-product", "shared-foundations/integers", "shared-foundations/quotient-set"]
+prerequisites = ["real-analysis/periodic-function", "real-analysis/exponential-function", "linear-algebra/inner-product", "shared-foundations/integers", "shared-foundations/quotient-set", "real-analysis/pi"]
 dependency_heuristic = "navier-semantic-review-v1"
 dependency_review_count = 2
 +++
