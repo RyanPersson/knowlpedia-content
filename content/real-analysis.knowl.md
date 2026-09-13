@@ -469,3 +469,11 @@ Click any term to expand its definition inline.
 ## Energy, continuation and periodization
 
 - [[real-analysis/unbounded-path-prevents-continuous-extension|Unbounded values approaching a point prevent continuous extension]]
+
+## Residual correction and summation
+
+- [[real-analysis/cutoff-of-a-controlled-scale|Derivatives of a cutoff composed with a controlled scale]]
+- [[real-analysis/one-sided-jet-limits-from-derivative-bounds|One-sided jet limits from uniform derivative bounds]]
+- [[real-analysis/smooth-extension-from-bounded-endpoint-jets|Smooth extension from bounded endpoint jets]]
+- [[real-analysis/solenoidal-asymptotic-summation|Asymptotic summation preserving divergence freedom]]
+- [[real-analysis/weighted-shifted-radial-primitive|Weighted shifted radial primitive]]

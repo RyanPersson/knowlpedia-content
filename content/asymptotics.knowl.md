@@ -47,3 +47,10 @@ dependency_review_count = 1
 ## Torus covers and support combinatorics
 
 - [[asymptotics/logarithmic-iteration-selection|Logarithmic selection of an iteration level]]
+
+## Residual correction and summation
+
+- [[asymptotics/diagonal-choice-of-shrinking-scales|Diagonal choice of shrinking scales]]
+- [[asymptotics/infinite-order-decay-with-derivatives|Infinite-order decay with derivatives]]
+- [[asymptotics/log-square-exponential-decay|Exponential decay in the square of a logarithm]]
+- [[asymptotics/shrinking-cutoff-asymptotic-summation|Asymptotic summation by shrinking cutoffs]]

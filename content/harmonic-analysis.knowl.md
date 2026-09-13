@@ -196,3 +196,7 @@ These provide the representation-theoretic input to the
 ## Energy, continuation and periodization
 
 - [[harmonic-analysis/periodization-of-compactly-supported-function|Periodization of a compactly supported smooth function]]
+
+## Residual correction and summation
+
+- [[harmonic-analysis/rapid-decay-of-shifted-torus-integral|Rapid decay of a shifted torus integral]]

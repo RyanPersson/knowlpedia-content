@@ -58,3 +58,10 @@ These entries introduce the language used to specify and analyze partial differe
 ## Energy, continuation and periodization
 
 - [[partial-differential-equations/sobolev-continuation-obstruction|Supremum growth obstructs continuous Sobolev continuation]]
+
+## Residual correction and summation
+
+- [[partial-differential-equations/differential-polynomial-difference-estimate|Difference estimate for a differential polynomial]]
+- [[partial-differential-equations/flat-residual-from-asymptotic-summation|Flat residual from asymptotic summation]]
+- [[partial-differential-equations/localized-characteristic-primitive|Localized characteristic primitive with an explicit defect]]
+- [[partial-differential-equations/shifted-characteristic-primitive|Shifted characteristic primitive on a torus]]

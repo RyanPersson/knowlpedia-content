@@ -20,3 +20,7 @@ It must identify the [[linear-algebra/normed-vector-space|norm]] or seminorm, th
 ## Higher order and flat errors
 
 Relative to a nonzero term of order \(\varepsilon^b\), an error bound with \(a>b\) is higher order. An error is flat in the parameter if, for every \(N\), it is \(O(\varepsilon^N)\) in the specified topology. A single positive-order bound does not imply flatness, nor does a value bound imply estimates for derivatives.
+
+## Derivative topology
+
+[[asymptotics/infinite-order-decay-with-derivatives|Infinite-order decay with derivatives]] makes the all-orders meaning precise for a positive scale function.

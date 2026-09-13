@@ -22,3 +22,7 @@ where \(p_{K,k}\) is a [[real-analysis/compact-derivative-seminorm|derivative se
 Differentiation \(D\) obeys \(\|Df\|_{C^k}\le\|f\|_{C^{k+1}}\). An inverse PDE operator may also lose derivatives if its estimate requires more regularity of the forcing than it returns for the solution.
 
 A factor \(\varepsilon^{-r}\) in a parameter estimate is a loss of powers of a small scale, not necessarily a loss of differentiability. Both losses can occur together and must be tracked separately.
+
+## Finite compositions
+
+[[functional-analysis/finite-derivative-bookkeeping-on-a-dag|Derivative requirements on a finite acyclic computation graph]] remain finite at each fixed output order, while possibly growing with the number of stages.

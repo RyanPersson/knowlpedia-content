@@ -3,7 +3,7 @@ id = "real-analysis/borel-jet-extension"
 title = "Borel extension of a prescribed smooth jet"
 kind = "theorem"
 summary = "Arbitrary smooth coefficients can be realized as all normal derivatives of one smooth function."
-aliases = ["Borel's lemma", "shrinking-cutoff summation", "smooth jet realization"]
+aliases = ["Borel's lemma", "smooth jet realization"]
 domains = ["real-analysis"]
 section_mode = "progressive"
 prerequisites = ["real-analysis/cartesian-jet", "real-analysis/cutoff-function", "real-analysis/scaled-cutoff-estimate", "analysis/smooth-series-convergence", "shared-foundations/factorial", "topology/compact-exhaustion"]
@@ -35,3 +35,7 @@ Take \(\varepsilon_0\le1\); then the construction is supported in \(|t|\le1\). I
 ## References
 
 - [Richard Melrose, Lectures on Pseudodifferential Operators, Lecture 2 (Borel summation)](https://math.mit.edu/~rbm/18.157-F05.pdf).
+
+## General increasing-order series
+
+[[asymptotics/shrinking-cutoff-asymptotic-summation|Asymptotic summation by shrinking cutoffs]] allows increasing real decay orders, logarithmic factors, and fixed derivative losses. [[real-analysis/smooth-extension-from-bounded-endpoint-jets|Extension from bounded endpoint jets]] applies this theorem to a function already defined on one side of an endpoint.

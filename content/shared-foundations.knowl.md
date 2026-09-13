@@ -146,3 +146,7 @@ This section contains foundational definitions from set theory and mathematical 
 
 - [[shared-foundations/descent-through-surjection|Descent of a function through a surjection]]
 - [[shared-foundations/strict-partial-order|Strict partial order]]
+
+## Recursive constructions
+
+- [[shared-foundations/recursion-on-natural-numbers|Recursion on the natural numbers]]

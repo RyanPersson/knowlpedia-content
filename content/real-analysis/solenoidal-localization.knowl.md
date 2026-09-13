@@ -25,3 +25,7 @@ Where \(\chi=1\) on a neighborhood, \(v=u\). The term \(\nabla\chi\times A\) is 
 ## Why the potential is needed
 
 Multiplication alone gives \(\nabla\cdot(\chi u)=\nabla\chi\cdot u\), which is not usually zero. The construction assumes a potential on the region being localized; existence of a global potential can depend on the domain.
+
+## Infinite asymptotic correction families
+
+[[real-analysis/solenoidal-asymptotic-summation|Solenoidal asymptotic summation]] applies the same potential construction term by term with shrinking cutoffs and quantitative derivative tails.

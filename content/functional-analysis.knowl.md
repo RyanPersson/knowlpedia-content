@@ -163,3 +163,8 @@ Click any term to expand its definition inline.
 - [[functional-analysis/sobolev-embedding-bounded-derivatives|Sobolev embedding into bounded continuous derivatives]]
 - [[functional-analysis/three-dimensional-sobolev-inequality|Three-dimensional Sobolev inequality]]
 - [[functional-analysis/weighted-cutoff-sobolev-estimate|Sobolev estimate with a scaled cutoff]]
+
+## Residual correction and summation
+
+- [[functional-analysis/finite-derivative-bookkeeping-on-a-dag|Derivative requirements on a finite computation graph]]
+- [[functional-analysis/frozen-linear-inverse-residual-update|Residual update with a fixed linear inverse]]

@@ -20,3 +20,7 @@ where the coefficients \(c\) are prescribed smooth functions, \(I_j\) are [[real
 ## Different order and degree
 
 The expression \(u\,\partial_xu+\partial_x^2u\) has differential order two and polynomial degree two. Substituting formal series determines each coefficient through finitely many terms because the order and degree are finite. A composition such as \(e^u\) is not a differential polynomial in \(u\).
+
+## Residual comparison
+
+The [[partial-differential-equations/differential-polynomial-difference-estimate|difference estimate]] bounds a nonlinear change by the input difference jet. Combined with increasing-order tails, it gives [[partial-differential-equations/flat-residual-from-asymptotic-summation|flat residual realization]].
