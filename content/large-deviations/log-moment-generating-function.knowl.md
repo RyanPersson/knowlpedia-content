@@ -6,9 +6,9 @@ summary = "The logarithm of the moment generating function, viewed as a convex f
 aliases = ["log-moment-generating-function", "Log moment generating function"]
 domains = ["large-deviations"]
 legacy_source_path = "large-deviations/log-moment-generating-function.md"
-prerequisites = ["probability/random-variable", "probability/expectation"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["probability/random-variable", "probability/expectation", "real-analysis/exponential-function", "real-analysis/natural-logarithm", "linear-algebra/inner-product", "probability/random-vector"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **log moment generating function** (log-MGF) of an \(\mathbb R^d\)-valued [[probability/random-variable|random variable]] \(X\) is the function \(\Lambda:\mathbb R^d\to(-\infty,\infty]\) defined by

@@ -64,3 +64,7 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 - [[fluid-dynamics/phase-transport-defect|Phase transport defect]]
 - [[fluid-dynamics/viscous-damping-of-a-mode|Viscous damping of a Fourier mode]]
 - [[fluid-dynamics/shearing-wave|Shearing wave on an affine flow]]
+
+## Cones, averages and moment constraints
+
+- [[fluid-dynamics/radial-tangential-covariance|Radial-tangential velocity covariance]]

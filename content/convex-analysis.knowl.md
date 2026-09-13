@@ -271,3 +271,12 @@ Click any term to expand its definition inline.
 - [[convex-analysis/pluripotential-valuation-construction|Pluripotential construction of convex-body valuations]]
 - [[convex-analysis/octonionic-pseudovolume|Octonionic pseudovolume]]
 - [[knowlification/quaternionic-psh-convexity-expansion|Complete quaternionic PSH and convexity expansion index]]
+
+## Cones, averages and moment constraints
+
+- [[convex-analysis/conical-combination|Conical combination]]
+- [[convex-analysis/convex-cone|Convex cone]]
+- [[convex-analysis/planar-quadratic-cone|Planar cone defined by a quadratic inequality]]
+- [[convex-analysis/positive-span|Positive span]]
+- [[convex-analysis/two-generator-cone-test|Two-generator cone test]]
+- [[convex-analysis/uniform-cone-margin|Uniform directional margin inside a cone]]

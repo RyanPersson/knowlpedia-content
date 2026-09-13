@@ -6,12 +6,12 @@ summary = "Expected power of a random variable, used to summarize features of it
 aliases = ["moment"]
 domains = ["probability"]
 legacy_source_path = "probability/moment.md"
-prerequisites = ["probability/expectation", "probability/random-variable"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["probability/expectation", "probability/random-variable", "shared-foundations/natural-numbers"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
-A **moment** of order \(k\) is an [[probability/expectation|expectation]] of a power of a [[probability/random-variable|random variable]] \(X\), typically the raw moment \(\mathbb{E}[X^k]\) or the central moment \(\mathbb{E}\!\left[(X-\mathbb{E}[X])^k\right]\), whenever these expectations exist (equivalently, when \(\mathbb{E}[|X|^k]<\infty\)).
+For a nonnegative integer \(k\), a **moment** of order \(k\) is an [[probability/expectation|expectation]] of a power of a [[probability/random-variable|random variable]] \(X\), typically the raw moment \(\mathbb{E}[X^k]\) or the central moment \(\mathbb{E}\!\left[(X-\mathbb{E}[X])^k\right]\), whenever these expectations exist (equivalently, when \(\mathbb{E}[|X|^k]<\infty\)).
 
 ## Remarks
 

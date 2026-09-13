@@ -437,3 +437,17 @@ Click any term to expand its definition inline.
 - [[real-analysis/quadratic-algebraic-conjugate|Quadratic algebraic conjugate]]
 - [[real-analysis/quadratic-irrational|Quadratic irrational]]
 - [[real-analysis/quadratic-irrational-lower-bound|Quadratic irrational lower bound]]
+
+## Cones, averages and moment constraints
+
+- [[real-analysis/coalescing-moment-exponents|Inverse loss when two moment exponents coalesce]]
+- [[real-analysis/cumulative-weighted-integral|Cumulative weighted integral]]
+- [[real-analysis/invertible-ordered-bump-moments|Invertibility of moments on ordered bump supports]]
+- [[real-analysis/moment-matching|Matching prescribed integral moments]]
+- [[real-analysis/positive-powers-of-flat-weighted-profiles|Positive powers of flat weighted profiles]]
+- [[real-analysis/preservation-of-exterior-primitives|Preservation of exterior primitives by moment matching]]
+- [[real-analysis/reparametrization-by-positive-circle-density|Circle reparametrization by a positive density]]
+- [[real-analysis/supported-weighted-radial-primitive|Compactly supported weighted radial primitive]]
+- [[real-analysis/weighted-moment-projection|Projection removing one weighted moment]]
+- [[real-analysis/weighted-radial-moment|Weighted radial moment]]
+- [[real-analysis/zero-count-for-distinct-powers|Zero count for distinct real powers]]

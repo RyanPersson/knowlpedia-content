@@ -74,3 +74,10 @@ dependency_review_count = 1
 ## Measure-Theoretic Foundations
 
 - [[probability/radon-nikodym-theorem|Radon–Nikodym theorem]]
+
+## Cones, averages and moment constraints
+
+- [[probability/covariance-matrix|Covariance matrix]]
+- [[probability/derivatives-of-log-mgf|Derivatives of the log moment generating function]]
+- [[probability/exponential-tilt|Exponential tilt]]
+- [[probability/variance-of-normalized-exponential-weight|Variance of a normalized exponential weight]]

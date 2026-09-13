@@ -137,3 +137,10 @@ Click any term to expand its definition inline.
 - [[linear-algebra/euclidean-lattice|Full-rank Euclidean lattice]]
 - [[linear-algebra/integer-lattice-index|Index of an integer sublattice]]
 - [[linear-algebra/lattice-fundamental-domain|Fundamental domain of a Euclidean lattice]]
+
+## Cones, averages and moment constraints
+
+- [[linear-algebra/linearized-squared-amplitude-inverse|Linearized inverse for squared amplitudes]]
+- [[linear-algebra/moment-pairing-matrix|Moment pairing matrix]]
+- [[linear-algebra/positive-quadratic-realization|Positive realization by squared amplitudes]]
+- [[linear-algebra/vandermonde-matrix|Vandermonde matrix]]

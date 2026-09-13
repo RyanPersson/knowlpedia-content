@@ -123,3 +123,7 @@ dependency_review_count = 1
 
 - [[measure-theory/zero-mean-function|Zero-mean function]]
 - [[measure-theory/zero-mean-projection|Projection onto zero-mean functions]]
+
+## Cones, averages and moment constraints
+
+- [[measure-theory/averaged-second-moment-matrix|Averaged second-moment matrix]]

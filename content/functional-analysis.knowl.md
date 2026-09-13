@@ -146,3 +146,7 @@ Click any term to expand its definition inline.
 ## Estimates with derivative loss
 
 - [[functional-analysis/derivative-loss|Derivative loss in an estimate]]
+
+## Cones, averages and moment constraints
+
+- [[functional-analysis/small-solution-of-a-quadratic-equation|Small solution of an invertible linear equation with quadratic error]]

@@ -32,3 +32,7 @@ These entries introduce the language used to specify and analyze partial differe
 - [[partial-differential-equations/self-similar-profile|Self-similar profile]]
 - [[partial-differential-equations/similarity-variables|Similarity variables]]
 - [[partial-differential-equations/differential-polynomial|Differential polynomial]]
+
+## Cones, averages and moment constraints
+
+- [[partial-differential-equations/solvability-compatibility-condition|Solvability compatibility condition]]

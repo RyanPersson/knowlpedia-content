@@ -6,9 +6,9 @@ summary = "The logarithm of the moment generating function, when the latter is f
 aliases = ["cumulant-generating-function", "Cumulant generating function"]
 domains = ["probability"]
 legacy_source_path = "probability/cumulant-generating-function.md"
-prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/moment-generating-function"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/moment-generating-function", "real-analysis/natural-logarithm"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **cumulant generating function** is the real-valued [[shared-foundations/function|function]] \(K_X\) associated to a [[probability/random-variable|random variable]] \(X\) whose [[probability/moment-generating-function|moment generating function]] \(M_X(t)=\mathbb{E}[e^{tX}]\) is finite on an open interval containing \(0\), defined by

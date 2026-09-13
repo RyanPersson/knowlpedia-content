@@ -6,9 +6,9 @@ summary = "Function of a real parameter defined by the expected exponential of t
 aliases = ["moment-generating-function", "Moment generating function"]
 domains = ["probability"]
 legacy_source_path = "probability/moment-generating-function.md"
-prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/expectation"]
-dependency_heuristic = "semantic-spotcheck-review-v1"
-dependency_review_count = 2
+prerequisites = ["shared-foundations/function", "probability/random-variable", "probability/expectation", "real-analysis/exponential-function"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 A **moment generating function** is the [[shared-foundations/function|function]] \(M_X(t)=\mathbb{E}[e^{tX}]\) of a real parameter \(t\) defined for a [[probability/random-variable|random variable]] \(X\) on all values of \(t\) for which the expectation is finite (often an interval containing \(0\)).
