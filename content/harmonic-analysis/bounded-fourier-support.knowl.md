@@ -6,9 +6,9 @@ summary = "The spectral localization condition that a Fourier transform vanish o
 aliases = ["compact Fourier support", "band-limited function", "frequency localization"]
 domains = ["harmonic-analysis", "functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["measure-theory/almost-everywhere", "measure-theory/lp-space", "topology/bounded-set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["measure-theory/almost-everywhere", "measure-theory/lp-space", "topology/bounded-set", "harmonic-analysis/plancherel-theorem-lca"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A function \(f\in L^2(\mathbb R^d)\) has **bounded Fourier support** if its

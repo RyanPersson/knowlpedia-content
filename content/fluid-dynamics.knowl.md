@@ -56,3 +56,11 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 - [[fluid-dynamics/viscosity-rescaling|Rescaling unit viscosity to positive viscosity]]
 - [[fluid-dynamics/momentum-residual|Navier–Stokes momentum residual]]
 - [[fluid-dynamics/linearized-navier-stokes|Linearized Navier–Stokes operator]]
+
+## Angular averages and oscillatory perturbations
+
+- [[fluid-dynamics/angular-average|Angular average in cylindrical components]]
+- [[fluid-dynamics/curl-completion-of-an-oscillatory-wave|Curl completion of a transverse oscillatory wave]]
+- [[fluid-dynamics/phase-transport-defect|Phase transport defect]]
+- [[fluid-dynamics/viscous-damping-of-a-mode|Viscous damping of a Fourier mode]]
+- [[fluid-dynamics/shearing-wave|Shearing wave on an affine flow]]

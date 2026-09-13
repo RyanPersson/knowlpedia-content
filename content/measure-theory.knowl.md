@@ -118,3 +118,8 @@ dependency_review_count = 1
 ## Evolution-equation prerequisites
 
 - [[measure-theory/ordered-integration-simplex|Ordered integration simplex]]
+
+## Normalized means
+
+- [[measure-theory/zero-mean-function|Zero-mean function]]
+- [[measure-theory/zero-mean-projection|Projection onto zero-mean functions]]

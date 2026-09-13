@@ -39,3 +39,10 @@ Differential equations specify relations between unknown functions and their der
 ## Partial differential equations
 
 The [[partial-differential-equations|PDE subject]] introduces equations for functions of several variables. The [[fluid-dynamics|fluid-dynamics subject]] develops incompressible transport and momentum equations.
+
+## Projected evolution, damping, and pulse bounds
+
+- [[differential-equations/moving-normal-constraint|Linear evolution under a moving normal constraint]]
+- [[differential-equations/linear-instability|Instability of a linear equilibrium]]
+- [[differential-equations/scalar-damping-factorization|Factoring scalar damping from a matrix evolution]]
+- [[differential-equations/envelope-duhamel-estimate|Duhamel estimate with a common envelope]]

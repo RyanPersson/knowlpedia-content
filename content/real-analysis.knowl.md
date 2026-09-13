@@ -423,3 +423,9 @@ Click any term to expand its definition inline.
 - [[real-analysis/weighted-coefficient-class|Weighted coefficient class]]
 - [[real-analysis/envelope-controlled-amplitude|Envelope-controlled amplitude]]
 - [[real-analysis/weighted-coefficient-algebra|Product bounds for weighted coefficients and amplitudes]]
+
+## Periodicity
+
+- [[real-analysis/periodic-function|Periodic function]]
+
+- [[real-analysis/auxiliary-variable-evaluation|Evaluation along an auxiliary map]]
