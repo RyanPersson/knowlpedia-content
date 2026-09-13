@@ -205,3 +205,12 @@ Click any term to expand its definition inline.
 
 - [[topology/compact-support-margin]]
 - [[topology/compact-exhaustion]]
+
+## Torus covers and support combinatorics
+
+- [[topology/common-torus-for-iterated-covers|Common torus for iterated integer coverings]]
+- [[topology/deck-transformation|Deck transformation]]
+- [[topology/flat-torus|Flat torus]]
+- [[topology/integer-matrix-torus-cover|Integer-matrix torus covering]]
+- [[topology/local-lifts-of-torus-cells|Local lifts of cells under a torus covering]]
+- [[topology/separated-centers-under-torus-covers|Separated centers under finitely many torus covers]]

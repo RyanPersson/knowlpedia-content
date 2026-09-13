@@ -141,3 +141,8 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/floor-function|Floor]]
 - [[shared-foundations/ceiling-function|Ceiling]]
 - [[shared-foundations/nearest-integer|Nearest integer]]
+
+## Torus covers and support combinatorics
+
+- [[shared-foundations/descent-through-surjection|Descent of a function through a surjection]]
+- [[shared-foundations/strict-partial-order|Strict partial order]]

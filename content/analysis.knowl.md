@@ -41,3 +41,7 @@ The complete dependency path is collected in the
 - [[analysis/locally-finite-smooth-sum]]
 - [[analysis/bounded-overlap-sum-estimate]]
 - [[analysis/smooth-series-convergence]]
+
+## Torus covers and support combinatorics
+
+- [[analysis/separated-support-products|Vanishing products from separated auxiliary supports]]

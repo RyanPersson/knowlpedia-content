@@ -6,9 +6,9 @@ summary = "Defines vertices and edges in a graph, along with incidence and adjac
 aliases = ["graph-vertex-edge", "Graph: vertices and edges"]
 domains = ["discrete-structures"]
 legacy_source_path = "discrete-structures/graph-vertex-edge.md"
-prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/set", "shared-foundations/ordered-pair", "shared-foundations/finite-set"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **(simple, undirected) graph** is an [[shared-foundations/ordered-pair|ordered pair]] \(G=(V,E)\) where:
@@ -26,10 +26,7 @@ If \(\{u,v\}\in E\), then:
 
 **Common notation.** In a simple undirected graph, the edge \(\{u,v\}\) is often written as \(uv\).
 
-**Degree.** The **degree** of a vertex \(u\) is
-\[
-\deg(u)=\bigl|\{v\in V : \{u,v\}\in E\}\bigr|.
-\]
+The [[discrete-structures/vertex-degree|degree]] of a vertex counts its neighbors.
 
 **Variants.** Depending on context, one may also allow:
 - **Directed edges** \((u,v)\) (a directed graph),

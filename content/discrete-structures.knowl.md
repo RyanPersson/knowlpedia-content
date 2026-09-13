@@ -22,3 +22,15 @@ dependency_review_count = 1
 - [[discrete-structures/finite-box-lattice|Finite box in a lattice]]
 - [[discrete-structures/boundary-finite-region|Boundary of a finite region]]
 - [[discrete-structures/nearest-neighbor-zd|Nearest-neighbor relation]]
+
+## Torus covers and support combinatorics
+
+- [[discrete-structures/countable-graph|Countable graph]]
+- [[discrete-structures/directed-acyclic-graph|Directed acyclic graph]]
+- [[discrete-structures/directed-cycle|Directed cycle]]
+- [[discrete-structures/directed-graph|Directed graph]]
+- [[discrete-structures/directed-path|Directed path]]
+- [[discrete-structures/greedy-coloring-bounded-degree|Greedy coloring of a countable bounded-degree graph]]
+- [[discrete-structures/proper-graph-coloring|Proper graph coloring]]
+- [[discrete-structures/support-intersection-graph|Support intersection graph]]
+- [[discrete-structures/vertex-degree|Vertex degree]]

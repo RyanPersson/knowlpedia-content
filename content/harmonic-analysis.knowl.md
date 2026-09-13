@@ -168,3 +168,15 @@ These provide the representation-theoretic input to the
 - [[harmonic-analysis/wavevector|Local wavevector]]
 - [[harmonic-analysis/zero-fourier-mode|Zero Fourier mode]]
 - [[harmonic-analysis/gaussian-pulse-envelope|Gaussian bound from a decreasing net growth rate]]
+
+## Torus covers and support combinatorics
+
+- [[harmonic-analysis/diophantine-direction|Diophantine direction]]
+- [[harmonic-analysis/diophantine-directional-inverse|Directional inverse with a Diophantine bound]]
+- [[harmonic-analysis/normalized-torus-average|Normalized torus average]]
+- [[harmonic-analysis/resonant-fourier-mode|Resonant mode of a directional derivative]]
+- [[harmonic-analysis/small-divisor|Small divisor]]
+- [[harmonic-analysis/torus-cover-fourier-descent|Fourier criterion for descent under a torus covering]]
+- [[harmonic-analysis/torus-cover-preserves-average|Torus coverings preserve normalized averages]]
+
+- [[harmonic-analysis/near-resonant-fourier-mode|Nearly resonant Fourier mode]]

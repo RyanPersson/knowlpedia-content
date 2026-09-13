@@ -1,0 +1,235 @@
+{
+  "batch": "B08",
+  "title": "Tori, coverings, small divisors and support combinatorics",
+  "branch": "navier",
+  "status": "content, structure and rendering checked",
+  "new_ids": [
+    "analysis/separated-support-products",
+    "asymptotics/logarithmic-iteration-selection",
+    "discrete-structures/countable-graph",
+    "discrete-structures/directed-acyclic-graph",
+    "discrete-structures/directed-cycle",
+    "discrete-structures/directed-graph",
+    "discrete-structures/directed-path",
+    "discrete-structures/greedy-coloring-bounded-degree",
+    "discrete-structures/proper-graph-coloring",
+    "discrete-structures/support-intersection-graph",
+    "discrete-structures/vertex-degree",
+    "harmonic-analysis/diophantine-direction",
+    "harmonic-analysis/diophantine-directional-inverse",
+    "harmonic-analysis/near-resonant-fourier-mode",
+    "harmonic-analysis/normalized-torus-average",
+    "harmonic-analysis/resonant-fourier-mode",
+    "harmonic-analysis/small-divisor",
+    "harmonic-analysis/torus-cover-fourier-descent",
+    "harmonic-analysis/torus-cover-preserves-average",
+    "linear-algebra/euclidean-lattice",
+    "linear-algebra/integer-lattice-index",
+    "linear-algebra/lattice-fundamental-domain",
+    "real-analysis/chain-rule-for-iterated-torus-variables",
+    "real-analysis/irrational-number",
+    "real-analysis/quadratic-algebraic-conjugate",
+    "real-analysis/quadratic-irrational",
+    "real-analysis/quadratic-irrational-lower-bound",
+    "shared-foundations/descent-through-surjection",
+    "shared-foundations/strict-partial-order",
+    "topology/common-torus-for-iterated-covers",
+    "topology/deck-transformation",
+    "topology/flat-torus",
+    "topology/integer-matrix-torus-cover",
+    "topology/local-lifts-of-torus-cells",
+    "topology/separated-centers-under-torus-covers"
+  ],
+  "modified_ids": [
+    "analysis",
+    "asymptotics",
+    "discrete-structures",
+    "discrete-structures/graph-vertex-edge",
+    "harmonic-analysis",
+    "linear-algebra",
+    "real-analysis",
+    "real-analysis/polynomial",
+    "shared-foundations",
+    "topology"
+  ],
+  "reused_ids": [
+    "discrete-structures/lattice-zd",
+    "harmonic-analysis/haar-measure",
+    "harmonic-analysis/smooth-fourier-coefficient-decay",
+    "lie-groups/example-torus",
+    "real-analysis/auxiliary-variable-evaluation",
+    "real-analysis/density-of-q",
+    "topology/covering-space"
+  ],
+  "source_references": [
+    {
+      "title": "Hatcher, Algebraic Topology, §1.3 (covering spaces and deck transformations)",
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf"
+    },
+    {
+      "title": "Fukshansky, Diophantine Approximation, §3 (quadratic irrationals)",
+      "url": "https://www1.cmc.edu/pages/faculty/lenny/classes/spring_2015/m195/m195_lectures.pdf"
+    },
+    {
+      "title": "Tait, Introduction to Combinatorics, Proposition 3.1.10 (greedy coloring)",
+      "url": "https://www.math.cmu.edu/users/math/mtait/301/Notes.pdf"
+    }
+  ],
+  "review_decisions": [
+    "Use a flat-torus entry for metric and local Euclidean structure; reuse the existing Lie-torus and general covering-space definitions.",
+    "Separate fiberwise descent from representation on a common cover; use probability-normalized torus averages.",
+    "Distinguish algebraic conjugation from complex conjugation, and dot-product Diophantine bounds from rotation bounds modulo integers.",
+    "Prove the directional inverse with a fixed finite derivative loss; do not infer a uniform estimate from nonresonance alone.",
+    "Separate bounded degree from pointwise overlap multiplicity, and countability from a degree bound.",
+    "Include directed acyclic dependency graphs, with an explicit warning that acyclicity of an infinite graph does not prove termination.",
+    "State support-product vanishing only for global smooth extensions and distinct labels; same-label harmonics remain coupled.",
+    "Separate directed paths and cycles so the DAG definition has expandable prerequisites.",
+    "Keep integer cover levels and sheet labels fixed under differentiation; derive logarithmic level comparability separately.",
+    "Repair the existing real-polynomial prerequisite list to include real coefficients, finite sums, and natural exponents.",
+    "Split near resonance from exact directional resonance following the scope audit; retain their distinct inversion consequences.",
+    "Two topology subject-index label findings predate this batch and concern related existing theorem owners; leave those unrelated labels unchanged.",
+    "Retain the unit torus as the standard-lattice normalization of the flat-torus definition; the scope signal marks a specialization, not an independent concept.",
+    "The linear-algebra subject-index basis label finding also predates this batch; its related existing theorem owners are outside this batch scope."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 45,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 261,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [
+      {
+        "rule": "multiple_concept_ownership",
+        "severity": "high",
+        "score": 8,
+        "source_id": "topology/flat-torus",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/topology/flat-torus.knowl.md",
+        "title": "Flat torus",
+        "kind": "definition",
+        "signals": [
+          "multiple_explicit_definienda",
+          "independent_section_definition"
+        ],
+        "definition_subjects": [
+          {
+            "term": "flat torus",
+            "normalized": "flat torus",
+            "line": 14,
+            "section": "Core"
+          },
+          {
+            "term": "unit torus",
+            "normalized": "unit torus",
+            "line": 22,
+            "section": "Local coordinates and normalization"
+          }
+        ],
+        "incoming_labels": {
+          "flat torus": 2,
+          "unit flat torus": 1
+        },
+        "recommended_action": "semantic_review_only"
+      },
+      {
+        "rule": "exact_label_target_mismatch",
+        "severity": "high",
+        "score": 6,
+        "source_id": "linear-algebra",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/linear-algebra.knowl.md",
+        "line": 74,
+        "label": "Existence of a basis",
+        "actual_target": "linear-algebra/basis-existence-theorem",
+        "unique_label_owner": "convex-analysis/existence-of-a-basis-hamel-basis",
+        "recommended_action": "semantic_review_only"
+      },
+      {
+        "rule": "exact_label_target_mismatch",
+        "severity": "high",
+        "score": 6,
+        "source_id": "topology",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/topology.knowl.md",
+        "line": 164,
+        "label": "Continuous bijection from compact is a homeomorphism criterion",
+        "actual_target": "topology/compact-to-hausdorff-homeomorphism-criterion",
+        "unique_label_owner": "topology/continuous-bijection-from-compact-homeomorphism-criterion",
+        "recommended_action": "semantic_review_only"
+      },
+      {
+        "rule": "exact_label_target_mismatch",
+        "severity": "high",
+        "score": 6,
+        "source_id": "topology",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/topology.knowl.md",
+        "line": 168,
+        "label": "Continuous function on a compact set is uniformly continuous",
+        "actual_target": "topology/heine-cantor-theorem",
+        "unique_label_owner": "topology/heine-cantor-corollary",
+        "recommended_action": "semantic_review_only"
+      }
+    ],
+    "rendered_files_checked": 2482,
+    "rendering_findings": [],
+    "source_sha256": {
+      "analysis": "fe90d9b7161e84196897c6ad2d678af4d34beb89eb88707b0769b30c80aeaa4f",
+      "analysis/separated-support-products": "a81f5413df2634945c789675e0ca7910d55cc2a676e1d6b541256df6a0ad7823",
+      "asymptotics": "d2391ae971e76b863ca643126f08a4a597d201cb944c1ec836ad3dfc12c46225",
+      "asymptotics/logarithmic-iteration-selection": "74fa52a56b43762ad1538c34c16196ceb6ad0bf7692c1f6adace324bd4eee964",
+      "discrete-structures": "7a7f7bbabbd7263a1b6834a0756e7d9c6e5c50db47cec8c71464aa7a6edee594",
+      "discrete-structures/countable-graph": "650f7ac04c0540cda42c9ba3e2f0fc004c7076aa0ab1401a71d15abe5b602458",
+      "discrete-structures/directed-acyclic-graph": "6c117af85c2aaa1e5c7fab6cd70f9fdc4e9eeae77899a0ba20ef75bb902f400c",
+      "discrete-structures/directed-cycle": "92057d2997c6c37af5ac08995566957a2cde54717f5623af00391c33f81b8928",
+      "discrete-structures/directed-graph": "84b6eabd62788f39d04e530c6957f36788067ccb62c05ea81b7905a2648382b4",
+      "discrete-structures/directed-path": "136d40b63c374049f2993b14eaf8bc2f597e14c8d7ab44d3a7bbfd7b521dd7d5",
+      "discrete-structures/graph-vertex-edge": "f75545c1b905cdfa344ec3cd0b3ac17f5f7af37f7a4f6a493c026a0fda6c1750",
+      "discrete-structures/greedy-coloring-bounded-degree": "4e05b07d7db0098ed031d4220828c86e9b631ce9920c354c577a01a9c6d1cf10",
+      "discrete-structures/proper-graph-coloring": "c9f55407f7dc9125f0ad69f1af57bf4a07f0ba9261239cac67e07b649ab858cf",
+      "discrete-structures/support-intersection-graph": "49680bfff6695ec93bf5be00d969c9d631b67a19ac3f1b81eae6fd1241a0b16e",
+      "discrete-structures/vertex-degree": "11c2a33ee57198dc9e4f1d7336edd0fb7e516baf8da447243050b2cfabb1b55b",
+      "harmonic-analysis": "086deaa7b05356c18403f8cb8de1cd823ca455de1844625306bae64e871ff27e",
+      "harmonic-analysis/diophantine-direction": "94f5979b639fbe7ff3ec802e6e1e046a685adbd612083e072de599d04c463c9a",
+      "harmonic-analysis/diophantine-directional-inverse": "3ac725675ed2ef5c790d899035e917fd393be71f15ef8383e0746f408ca01f43",
+      "harmonic-analysis/near-resonant-fourier-mode": "a39799b7348f7513deca0f2a93e2894655dcccd17fb5bc3f0f8d175e2c6dfa57",
+      "harmonic-analysis/normalized-torus-average": "484ad83330cd896f6e389eea37cadb3a82cc2363fe955f072011c9e7afd2ed6a",
+      "harmonic-analysis/resonant-fourier-mode": "2f9c59724529c6338af5f824e1970de3dd76100bc15b9420298cf0fb304b6c41",
+      "harmonic-analysis/small-divisor": "11d2efe44b742b9e1b49534316bc93db70e7c7d0d227317521852c2d5ac3ed50",
+      "harmonic-analysis/torus-cover-fourier-descent": "7337bbccb1b771a8bf49e5485a085f8b757eb47d5bb3f93408ace2d0ded4b5f5",
+      "harmonic-analysis/torus-cover-preserves-average": "3291ba9d623db1c5d93e2d80c9d4a8a1ff5027f3467126e25c5371f6fd1e7258",
+      "linear-algebra": "ba37f5c0dd03d2a6388ca6d1c9207afc5515ce0d4bf2e713ac6264e7754ceefd",
+      "linear-algebra/euclidean-lattice": "262b2b08d99176ba092635a97e149ab9581a50e144babfd1540dcec9f2d01947",
+      "linear-algebra/integer-lattice-index": "9e04f480917b16ef916e390c3946d72991a4476232a55d2e8c65e7eb39af5da4",
+      "linear-algebra/lattice-fundamental-domain": "75093fb9d8ce56efcfa143e0d63b8bedfd92652ffd1e1638e997da4bec3f095f",
+      "real-analysis": "fb64046b7ce1c9e69dd18d3fcf8ab33b55c52392ee289a7ee638c8422cffc5d9",
+      "real-analysis/chain-rule-for-iterated-torus-variables": "e66bf4680640a52896459c965bfece64f8dee9b1e05dedf6b1a0d6b34b57a981",
+      "real-analysis/irrational-number": "4f66f9cbfb1ca649e3ac46b4485396c7b169ce6146cd3b97aad0db80e65f3815",
+      "real-analysis/polynomial": "b468a6f1cdedd3dd2d71e07fe97724556e388f72e601819922d6a4d140368d5f",
+      "real-analysis/quadratic-algebraic-conjugate": "64f62293e9694be49d3ee06badf9649e22f65d85b374842c81a7bb78d6020955",
+      "real-analysis/quadratic-irrational": "b714b0cb6c29eb42eca9800482f02c6eb785ebe44f96e200fe639186731ae3ed",
+      "real-analysis/quadratic-irrational-lower-bound": "4bac168e7e670bb059d6c9adf91cef8afd2da947071f20d2c3551cd6c1efd8df",
+      "shared-foundations": "f56be41ad97c3e59d90b81861c3eee791c2597b4c1201d982b0aed16254cee8f",
+      "shared-foundations/descent-through-surjection": "36dc0762c95728a5e6e90338d32618e95c06fe35f15b9365932cec1443e97d08",
+      "shared-foundations/strict-partial-order": "0aa9d857ba9e46f70778561993c84be9310ecc1eb56d0ef6293e3a7efe5b4d44",
+      "topology": "2df1fc6fd8e4d1b721ac6ca94f44a2fde931df5b362abec8b2fed480cd0caf78",
+      "topology/common-torus-for-iterated-covers": "9091c5bd0608603c771c4e0500548328e458bb6013b1bbcab50d7a8016d90f2c",
+      "topology/deck-transformation": "1d03b5b39b4724d92376bea4a7cc1a1541cc9fade9cb2fb10ba05499cca18379",
+      "topology/flat-torus": "c503b561cbb12e11c451ed953aa1aadd76fbed3204784820f42d1ca421160e53",
+      "topology/integer-matrix-torus-cover": "4cd7f1d4959f0c68677e59d4aaabf4f91a68b9c87701978e87023a1c200ef5f1",
+      "topology/local-lifts-of-torus-cells": "aab481bb0cb7b1fb4ba6aa82e79e0ddd347ba2c2a93f7eff94e19fcf3967e1d1",
+      "topology/separated-centers-under-torus-covers": "2768876a2b1bc0d1c39dd93d96f27f50cffe8abe80abf1fdbed001f547393843"
+    }
+  },
+  "browser_validation": {
+    "routes": 35,
+    "inline_expansions": 35,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "search_entries_present": true,
+    "console_errors": []
+  }
+}

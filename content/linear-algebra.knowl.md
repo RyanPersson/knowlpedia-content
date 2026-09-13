@@ -131,3 +131,9 @@ Click any term to expand its definition inline.
 
 - [[linear-algebra/matrix-transpose|Transpose of a matrix]]
 - [[linear-algebra/symmetric-matrix|Symmetric matrix]]
+
+## Torus covers and support combinatorics
+
+- [[linear-algebra/euclidean-lattice|Full-rank Euclidean lattice]]
+- [[linear-algebra/integer-lattice-index|Index of an integer sublattice]]
+- [[linear-algebra/lattice-fundamental-domain|Fundamental domain of a Euclidean lattice]]

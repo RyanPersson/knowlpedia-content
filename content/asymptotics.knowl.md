@@ -43,3 +43,7 @@ dependency_review_count = 1
 - [[asymptotics/remainder-estimate|Remainder estimate]]
 
 - [[asymptotics/leading-term|Leading term of an asymptotic expansion]]
+
+## Torus covers and support combinatorics
+
+- [[asymptotics/logarithmic-iteration-selection|Logarithmic selection of an iteration level]]
