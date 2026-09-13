@@ -6,9 +6,9 @@ summary = "The set of elements that belong to at least one of the given sets."
 aliases = ["union"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/union.md"
-prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+prerequisites = ["shared-foundations/set", "shared-foundations/zfc-axioms"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 The **union** of a set \(\mathcal A\) of [[shared-foundations/set|sets]] is

@@ -1,0 +1,137 @@
+{
+  "batch": "B00",
+  "title": "Shared foundations and indexing notation",
+  "branch": "navier",
+  "status": "complete",
+  "new_ids": [
+    "shared-foundations/binomial-coefficient",
+    "shared-foundations/ceiling-function",
+    "shared-foundations/finite-product",
+    "shared-foundations/finite-set",
+    "shared-foundations/finite-sum",
+    "shared-foundations/first-order-logic",
+    "shared-foundations/floor-function",
+    "shared-foundations/mathematical-axiom",
+    "shared-foundations/mathematical-proof",
+    "shared-foundations/mathematical-proposition",
+    "shared-foundations/mathematical-theorem",
+    "shared-foundations/nearest-integer",
+    "shared-foundations/rising-factorial",
+    "shared-foundations/telescoping-sum"
+  ],
+  "modified_ids": [
+    "convex-analysis/extended-real-number-system-and-conventions",
+    "shared-foundations",
+    "shared-foundations/complex-conjugate",
+    "shared-foundations/complex-numbers-c",
+    "shared-foundations/empty-set",
+    "shared-foundations/ordered-pair",
+    "shared-foundations/power-set",
+    "shared-foundations/set",
+    "shared-foundations/union",
+    "shared-foundations/zfc-axioms"
+  ],
+  "reused_ids": [
+    "real-analysis/archimedean-property",
+    "real-analysis/multi-index-notation",
+    "shared-foundations/cartesian-product",
+    "shared-foundations/countable-set",
+    "shared-foundations/factorial",
+    "shared-foundations/function",
+    "shared-foundations/integers",
+    "shared-foundations/mathematical-induction",
+    "shared-foundations/natural-numbers",
+    "shared-foundations/rational-numbers",
+    "shared-foundations/real-numbers",
+    "shared-foundations/relation",
+    "shared-foundations/sequence",
+    "shared-foundations/set",
+    "shared-foundations/subset",
+    "topology/convergent-sequence"
+  ],
+  "source_references": [
+    {
+      "title": "Jonathan Pila, Set Theory, Sections 2–9 and 15",
+      "url": "https://www.maths.ox.ac.uk/system/files/attachments/SetTheoryHT18.pdf"
+    },
+    {
+      "title": "Dan Romik, Complex Analysis, Chapter 1",
+      "url": "https://math.ucdavis.edu/~romik/data/uploads/notes/complex-analysis.pdf"
+    },
+    {
+      "title": "John Stalker, Natural deduction for first-order logic",
+      "url": "https://www.maths.tcd.ie/~stalker/2023-2024/11602/notes/5.9-natural-deduction-for-first-order-logic.html"
+    }
+  ],
+  "review_decisions": [
+    "Complex numbers, conjugation and extended reals are not primitive leaves; explicit prerequisites were added.",
+    "The set-theory axiom statement no longer depends on the set constructions it supplies; full axiom data and foundational inference rules are explicit.",
+    "Existing multi-index, sequence and number-system definitions are reused; finite sums are not treated as infinite-series convergence.",
+    "New statements and short counting arguments are independently worded; the private manuscript is not copied into the public corpus.",
+    "Scope-audit findings were resolved by splitting statements/axioms/proofs/theorems and floor/ceiling/rounding into separate entries; finite sums, products and telescoping were also separated.",
+    "Extended-real bounds were clarified relative to the real line; every subset has extended endpoints as bounds."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 24,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 86,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [],
+    "rendered_files_checked": 337,
+    "rendering_findings": [],
+    "source_sha256": {
+      "convex-analysis/extended-real-number-system-and-conventions": "cf0028c7fab9dc188c864309e558d2abeae55a7a48525e30d5edb7456eb6344b",
+      "shared-foundations": "38b905a0f1173dabfd20e544cee5f664c8e60397f1144e778b2097ee35b70c9b",
+      "shared-foundations/binomial-coefficient": "ba3262e5e1bdb7a551983b4e497f4f035a6f2f1a4ccb2a0e6b74e90c34ca7c29",
+      "shared-foundations/ceiling-function": "b30b4627798c4436ce7b7e2030e357980d4f689649f0fb4028bf83f12a41f040",
+      "shared-foundations/complex-conjugate": "719030b6249d681a4c89b9032fe87e42b0cdc97607aa39bed9a904d3c9ba26c1",
+      "shared-foundations/complex-numbers-c": "8cae825ba4bfff317cb1e4f332f4dff2c566b465c779c953040daedb11d35875",
+      "shared-foundations/empty-set": "528d44faf8b6de0da8e427682ee6896b96945ac43eb16ba30f7a6f10b4193fe8",
+      "shared-foundations/finite-product": "6179ed0e193ee78bf1a1ace08dec0ca6a92dcfb1f32084b02192846050da87d2",
+      "shared-foundations/finite-set": "60b40fa21b7a461d57f2a3c2ab34b8565ce84955cd04ae2f496ac9192866d9a8",
+      "shared-foundations/finite-sum": "d4d4cb45259a72007d3d304c359a419299b9a96f8108c0fc3203993a9fd00161",
+      "shared-foundations/first-order-logic": "f5f112e3e09cb3847c90bb24a7da509a1f67e356fdd2382cc32f0af8e8e93a2d",
+      "shared-foundations/floor-function": "08230ad0cef7862c1f6c291978309c084006104084a81cd14cf5b88f2d554502",
+      "shared-foundations/mathematical-axiom": "f1c3678c4e8804d3e36e6e17ac2b93ddc6b6f84116e2ed387a2d05ffb3baa694",
+      "shared-foundations/mathematical-proof": "5d78414b208cc385cda5519826b3761b0bfcc19d49fe7e53d8d47c1d99142426",
+      "shared-foundations/mathematical-proposition": "6cfccbf08d241ff67abebb8d20e43cdf43d26a5066736942d3516e063b1f7e8b",
+      "shared-foundations/mathematical-theorem": "c207a4529cae5900c13c113ee85e8c0d171139d02c5639c117e120d800b1bc51",
+      "shared-foundations/nearest-integer": "9e473c056da890ca73c9fc7d2d15a5638b2a4aedd67b6685fbfdba5188576bd5",
+      "shared-foundations/ordered-pair": "cb7fdd761a417816517c3a6355045da46646cba19ff76d43b52caa6e7a8e4aac",
+      "shared-foundations/power-set": "8a4497198a84de9dfdf628bfa9ac93521f85468ecabe6400b3c0ec3f2a88da21",
+      "shared-foundations/rising-factorial": "c34838d9ae428c7911f82de345211d229e07f332dd8ee5573fe20c1dff4be8bb",
+      "shared-foundations/set": "dc669ab170cf0c7e4f15112b110ea14bcce195ce7485aaba8b3ca09a431b18b9",
+      "shared-foundations/telescoping-sum": "fd9297f66e6e085fafbdd29606c45e1931b4e166c3d6ee5be2255356c9364ab3",
+      "shared-foundations/union": "705d0ab553941d6a8b86788b206f0d85f7dad3b894489ab8809ef43529061dab",
+      "shared-foundations/zfc-axioms": "6b3a2de34fc31b2d412a2791bfcccb641eba14a26500b1ebb13ae290f9ed4d1e"
+    },
+    "unit_tests": {
+      "passed": 177
+    },
+    "full_development_build": {
+      "canonical_knowls": 4780,
+      "errors": 0
+    },
+    "broad_audits": {
+      "external_links": "pass: 3655 main files and 10 testing files",
+      "section_fidelity": "one unchanged baseline mismatch in fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection",
+      "scope": "168 existing findings; zero findings in B00 changed entries"
+    }
+  },
+  "browser_validation": {
+    "routes": 14,
+    "inline_expansions": 11,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "search_entries_present": true,
+    "console_errors": []
+  }
+}

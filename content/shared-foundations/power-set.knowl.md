@@ -6,9 +6,9 @@ summary = "The set of all subsets of a given set."
 aliases = ["power-set", "Power set"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/power-set.md"
-prerequisites = ["shared-foundations/set", "shared-foundations/subset"]
-dependency_heuristic = "semantic-foundations-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/subset", "shared-foundations/zfc-axioms"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **power set** of a set \(A\) is the set

@@ -6,9 +6,9 @@ summary = "A two-component object where order matters."
 aliases = ["ordered-pair", "Ordered pair"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/ordered-pair.md"
-prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+prerequisites = ["shared-foundations/set", "shared-foundations/zfc-axioms"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 An **ordered pair** is a two-component object \((a,b)\) whose equality is componentwise:

@@ -124,3 +124,20 @@ This section contains foundational definitions from set theory and mathematical 
 - [[shared-foundations/factorial|Factorial]]
 - [[shared-foundations/p-adic-valuation|\(p\)-adic valuation]]
 - [[shared-foundations/p-adic-integers|\(p\)-adic integers]]
+
+## Logical language and finite indexing
+
+- [[shared-foundations/first-order-logic|First-order logic and inference rules]]
+- [[shared-foundations/mathematical-proposition|Mathematical propositions]]
+- [[shared-foundations/mathematical-axiom|Mathematical axioms]]
+- [[shared-foundations/mathematical-proof|Mathematical proofs]]
+- [[shared-foundations/mathematical-theorem|Theorems, lemmas, and corollaries]]
+- [[shared-foundations/finite-set|Finite sets]]
+- [[shared-foundations/finite-sum|Finite sums]]
+- [[shared-foundations/finite-product|Finite products]]
+- [[shared-foundations/telescoping-sum|Telescoping sums]]
+- [[shared-foundations/binomial-coefficient|Binomial coefficients]]
+- [[shared-foundations/rising-factorial|Rising factorials]]
+- [[shared-foundations/floor-function|Floor]]
+- [[shared-foundations/ceiling-function|Ceiling]]
+- [[shared-foundations/nearest-integer|Nearest integer]]

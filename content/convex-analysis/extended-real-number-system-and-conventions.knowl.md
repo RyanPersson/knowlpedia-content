@@ -6,12 +6,12 @@ summary = "The ordered real line with positive and negative infinity, together w
 aliases = ["extended-real-number-system-and-conventions", "Extended real number system and conventions"]
 domains = ["convex-analysis"]
 legacy_source_path = "convex-analysis/extended-real-number-system-and-conventions.md"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/real-numbers", "shared-foundations/total-order", "shared-foundations/upper-bound", "shared-foundations/lower-bound", "real-analysis/infimum", "real-analysis/supremum"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
-The **extended real number system** is
+The **extended real number system** adjoins two formal endpoints to the [[shared-foundations/real-numbers|real numbers]]:
 \[
 \overline{\mathbb R}=\mathbb R\cup\{-\infty,+\infty\},
 \]
@@ -23,7 +23,7 @@ for functions that encode infeasible points by the value \(+\infty\).
 
 ## Infimum and supremum conventions
 
-For \(A\subseteq\overline{\mathbb R}\), an unbounded-below nonempty set has \(\inf A=-\infty\), and an unbounded-above nonempty set has \(\sup A=+\infty\). For the empty set, the conventions are
+Every nonempty \(A\subseteq\overline{\mathbb R}\) has a greatest lower bound and a least upper bound in the extended order, extending the real [[real-analysis/infimum|infimum]] and [[real-analysis/supremum|supremum]]. If \(A\) has no real lower bound then \(\inf A=-\infty\); if it has no real upper bound then \(\sup A=+\infty\). The distinction between real and extended bounds matters: \(-\infty\) is an extended lower bound for every subset. For the empty set, the conventions are
 \[
 \inf\varnothing=+\infty,
 \qquad

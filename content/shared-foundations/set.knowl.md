@@ -6,9 +6,9 @@ summary = "A fundamental object determined entirely by which elements it contain
 aliases = ["set"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/set.md"
-prerequisites = []
-dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+prerequisites = ["shared-foundations/first-order-logic"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 In axiomatic set theory, **set** and the membership relation \(\in\) are primitive notions. The axiom of **extensionality** determines equality by membership: for sets \(A,B\),

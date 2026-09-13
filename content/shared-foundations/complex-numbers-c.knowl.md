@@ -6,12 +6,12 @@ summary = "Numbers of the form a+bi with i^2=-1, forming a field extending the r
 aliases = ["complex-numbers-c", "Complex numbers"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/complex-numbers-c.md"
-prerequisites = []
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/real-numbers", "shared-foundations/cartesian-product"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
-The **complex numbers** are
+The **complex numbers** are ordered pairs of [[shared-foundations/real-numbers|real numbers]], written \(a+bi\) for the pair \((a,b)\). With the operations below, this notation gives
 \[
 \mathbb{C}:=\{a+bi : a,b\in\mathbb{R},\ i^2=-1\}.
 \]

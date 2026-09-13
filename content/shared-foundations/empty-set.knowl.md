@@ -6,9 +6,9 @@ summary = "The unique set that contains no elements."
 aliases = ["empty-set", "Empty set"]
 domains = ["shared-foundations"]
 legacy_source_path = "shared-foundations/empty-set.md"
-prerequisites = ["shared-foundations/set"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/set", "shared-foundations/zfc-axioms"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 The **empty set**, denoted \(\varnothing\), is the set with no elements:
