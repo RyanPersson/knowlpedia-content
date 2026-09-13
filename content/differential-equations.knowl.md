@@ -35,3 +35,7 @@ Differential equations specify relations between unknown functions and their der
 ## Analytic dependence and coefficient estimates
 
 - [[differential-equations/holomorphic-parameter-dependence|Holomorphic dependence of local ODE solutions]]
+
+## Partial differential equations
+
+The [[partial-differential-equations|PDE subject]] introduces equations for functions of several variables. The [[fluid-dynamics|fluid-dynamics subject]] develops incompressible transport and momentum equations.

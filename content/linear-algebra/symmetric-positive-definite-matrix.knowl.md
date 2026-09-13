@@ -6,12 +6,12 @@ summary = "A real symmetric matrix whose quadratic form is strictly positive on 
 aliases = ["positive-definite symmetric matrix", "SPD matrix", "Sym++(n,R)", "positive-definite cone"]
 domains = ["linear-algebra"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/matrix"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["linear-algebra/matrix", "linear-algebra/symmetric-matrix", "linear-algebra/quadratic-form", "shared-foundations/real-numbers"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
-A real \(n\times n\) matrix \(A\) is **symmetric positive definite** if
+A real \(n\times n\) [[linear-algebra/matrix|matrix]] \(A\) is **symmetric positive definite** if
 \(A^T=A\) and
 
 \[
@@ -23,7 +23,7 @@ denoted \(\operatorname{Sym}_{++}(n,\mathbb R)\).
 
 ## Equivalent characterizations
 
-For a real symmetric matrix, positive definiteness is equivalent to all
+For a real [[linear-algebra/symmetric-matrix|symmetric matrix]], positive definiteness is equivalent to all
 eigenvalues being positive. It is also equivalent to the existence of an
 invertible matrix \(B\) with \(A=B^TB\), and to positivity of all leading
 principal minors.

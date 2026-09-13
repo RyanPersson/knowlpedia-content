@@ -25,3 +25,7 @@ The azimuthal potential \(A=(S/r)e_\theta\) has curl \(u_re_r+u_ze_z\). If \(S=r
 A=(-y\,a(x^2+y^2,z),\ x\,a(x^2+y^2,z),\ 0)
 \]
 is smooth at the axis, so its curl is smooth there too. An arbitrary smooth function of \((r,z)\) need not have this property. Authors sometimes choose the opposite sign for \(S\); the component formulas fix the convention.
+
+## Meridional motion
+
+In an [[fluid-dynamics/axisymmetric-field|axisymmetric fluid]], the streamfunction represents the [[fluid-dynamics/meridional-velocity|meridional velocity]]. The [[fluid-dynamics/swirl|swirl component]] is additional velocity data.

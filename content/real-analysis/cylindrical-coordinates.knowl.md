@@ -40,3 +40,7 @@ At \(r=0\), the angle and horizontal frame vectors are not defined. A field may 
 ## References
 
 - [MIT 6.013, Differential operators in cylindrical and spherical coordinates](https://ocw.mit.edu/courses/6-013-electromagnetics-and-applications-fall-2005/59e100001186c03a19ca3361dcd3b240_formula_sheet2.pdf).
+
+## Fluid components
+
+In fluid mechanics these coordinates distinguish [[fluid-dynamics/radial-velocity|radial velocity]], [[fluid-dynamics/swirl|swirl]], and [[fluid-dynamics/axial-velocity|axial velocity]]. [[fluid-dynamics/axisymmetric-field|Axisymmetry]] means that the cylindrical components are independent of the angle, even though their moving basis is not.

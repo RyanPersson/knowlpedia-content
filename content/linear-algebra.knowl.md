@@ -126,3 +126,8 @@ Click any term to expand its definition inline.
 ## Evolution-equation prerequisites
 
 - [[linear-algebra/matrix-exponential|Matrix exponential]]
+
+## Matrix symmetry in differential equations
+
+- [[linear-algebra/matrix-transpose|Transpose of a matrix]]
+- [[linear-algebra/symmetric-matrix|Symmetric matrix]]

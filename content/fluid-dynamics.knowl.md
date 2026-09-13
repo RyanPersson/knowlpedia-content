@@ -1,0 +1,51 @@
++++
+id = "fluid-dynamics"
+title = "Fluid dynamics"
+kind = "section"
+summary = "Velocity, transport, incompressible momentum equations, and cylindrical fluid geometry."
+aliases = []
+domains = ["fluid-dynamics"]
+section_mode = "progressive"
+prerequisites = []
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 1
++++
+
+These entries introduce incompressible fluid motion and its geometric and analytic quantities.
+
+## Definitions and equations
+
+- [[fluid-dynamics/affine-flow|Affine velocity field]]
+- [[fluid-dynamics/conservative-momentum-equation|Conservative incompressible momentum equation]]
+- [[fluid-dynamics/diffusion-time|Viscous diffusion time scale]]
+- [[fluid-dynamics/euler-equations|Incompressible Euler equations]]
+- [[fluid-dynamics/external-force|External force in a normalized fluid equation]]
+- [[fluid-dynamics/incompressible-flow|Incompressible velocity field]]
+- [[fluid-dynamics/kinetic-energy|Kinetic energy of an incompressible velocity field]]
+- [[fluid-dynamics/material-derivative|Material derivative]]
+- [[fluid-dynamics/momentum-flux|Momentum flux tensor in an incompressible fluid]]
+- [[fluid-dynamics/navier-stokes-equations|Incompressible Navier–Stokes equations]]
+- [[fluid-dynamics/particle-trajectory|Particle trajectory of a velocity field]]
+- [[fluid-dynamics/pressure-field|Pressure in incompressible flow]]
+- [[fluid-dynamics/quadratic-advection|Quadratic advection of a velocity field]]
+- [[fluid-dynamics/rate-of-strain|Rate-of-strain tensor]]
+- [[fluid-dynamics/reynolds-number|Reynolds number]]
+- [[fluid-dynamics/shear-flow|Parallel shear flow]]
+- [[fluid-dynamics/transport-time|Advective transport time scale]]
+- [[fluid-dynamics/velocity-field|Fluid velocity field]]
+- [[fluid-dynamics/viscosity|Viscosity in the incompressible Newtonian model]]
+- [[fluid-dynamics/vorticity|Vorticity of a velocity field]]
+- [[fluid-dynamics/vorticity-equation|Vorticity equation for incompressible flow]]
+- [[fluid-dynamics/axisymmetric-field|Axisymmetric vector field]]
+- [[fluid-dynamics/radial-velocity|Radial velocity in cylindrical coordinates]]
+- [[fluid-dynamics/axial-velocity|Axial velocity]]
+- [[fluid-dynamics/meridional-velocity|Meridional velocity]]
+- [[fluid-dynamics/swirl|Swirl component of a cylindrical velocity]]
+- [[fluid-dynamics/angular-velocity|Angular velocity about an axis]]
+- [[fluid-dynamics/specific-angular-momentum|Specific angular momentum about an axis]]
+- [[fluid-dynamics/centripetal-acceleration|Centripetal acceleration for circular motion]]
+- [[fluid-dynamics/rotating-flow|Rotating flow about a fixed axis]]
+- [[fluid-dynamics/axisymmetric-navier-stokes|Axisymmetric Navier–Stokes component equations]]
+- [[fluid-dynamics/angular-velocity-equation|Angular-velocity equation in axisymmetric flow]]
+- [[fluid-dynamics/vortex-line|Vortex line]]
+- [[fluid-dynamics/transport-operator|Transport operator along a vector field]]

@@ -404,3 +404,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/squared-partition-of-unity]]
 - [[real-analysis/solenoidal-localization]]
 - [[real-analysis/borel-jet-extension]]
+
+## Endpoint bounds for evolution equations
+
+- [[real-analysis/limit-superior-at-an-endpoint|Limit superior of a function at an endpoint]]

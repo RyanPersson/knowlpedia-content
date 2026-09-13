@@ -35,3 +35,7 @@ The entry in row \(i\) and column \(j\) is denoted \(a_{ij}\) or \(A_{ij}\).
 ## Remarks
 
 Matrices represent [[linear-algebra/linear-map|linear maps]] between finite-dimensional [[linear-algebra/vector-space|vector spaces]] once bases are chosen.
+
+## Transposition and symmetry
+
+The [[linear-algebra/matrix-transpose|transpose]] interchanges row and column indices. A [[linear-algebra/symmetric-matrix|symmetric matrix]] equals its transpose.
