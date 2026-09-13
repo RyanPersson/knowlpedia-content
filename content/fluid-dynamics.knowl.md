@@ -118,3 +118,7 @@ These entries introduce incompressible fluid motion and its geometric and analyt
 - [[fluid-dynamics/singular-set-of-weak-solution|Singular set of a weak velocity]]
 - [[fluid-dynamics/suitable-weak-solution|Suitable weak solution]]
 - [[fluid-dynamics/weak-navier-stokes-solution|Weak Navier–Stokes solution]]
+
+## Prerequisite collection
+
+[[knowlification/navier-stokes-index|Navier–Stokes: 433 new knowls grouped by batch and subject]] brings together the foundations, analysis, geometry, and fluid equations developed in batches B00–B14.
