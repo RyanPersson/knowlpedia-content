@@ -2,7 +2,7 @@
 id = "knowlification/navier-stokes-index"
 title = "Navier–Stokes: new knowl collection"
 kind = "index"
-summary = "All 433 new knowls from batches B00–B14, grouped by batch and mathematical subject."
+summary = "The 433 knowls from batches B00–B14 plus one document-integration addition, grouped by batch and subject."
 aliases = ["Navier prerequisite collection", "Navier–Stokes batch index"]
 domains = ["knowlification"]
 section_mode = "progressive"
@@ -11,7 +11,7 @@ dependency_heuristic = "navier-semantic-review-v1"
 dependency_review_count = 1
 +++
 
-This collection contains **433 new knowls in 15 batches**, from shared foundations to fluid equations, oscillatory constructions, and energy methods. Open a batch below, then unfold any entry and its prerequisites. Each entry appears in its original batch and is grouped by mathematical subject.
+This collection contains **434 new knowls: 433 in 15 batches and one document-integration addition**, from shared foundations to fluid equations, oscillatory constructions, and energy methods. Open a batch below, then unfold any entry and its prerequisites. Each entry appears in its original batch and is grouped by mathematical subject.
 
 The batch order is a suggested route through the material. The prerequisite links inside each knowl give the actual dependencies; earlier batch numbers alone do not define that graph.
 
@@ -735,3 +735,9 @@ The batch order is a suggested route through the material. The prerequisite link
 - [[partial-differential-equations/partial-regularity|Partial regularity]]
 - [[partial-differential-equations/regularity-criterion|Regularity criterion]]
 - [[partial-differential-equations/weak-formulation|Weak formulation of a differential equation]]
+
+## Additional document integration
+
+### Real and multivariable analysis
+
+- [[real-analysis/geometric-series|Geometric series]] — added while connecting the complete paper to the batch collection.

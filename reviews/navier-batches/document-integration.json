@@ -1,0 +1,78 @@
+{
+  "batch": "document-integration",
+  "title": "Additional concepts found during document integration",
+  "branch": "navier",
+  "status": "content, structure and rendering checked",
+  "new_ids": [
+    "real-analysis/geometric-series"
+  ],
+  "modified_ids": [
+    "knowlification/navier-stokes-index",
+    "real-analysis/convergent-series",
+    "real-analysis/right-derivative-left-derivative",
+    "real-analysis/series"
+  ],
+  "reused_ids": [],
+  "source_references": [],
+  "review_decisions": [
+    "B00–B14 remain the historical 433-entry batch collection. This follow-up supplies the missing standalone geometric-series owner.",
+    "Corrected the step-function one-sided derivative and clarified relative-domain increments; no delimiter normalization.",
+    "Retain the conventional paired definition of left and right derivative: the automatic scope finding concerns opposite one-sided versions of one construction, and their comparison is intrinsic to differentiability."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 5,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 50,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [
+      {
+        "rule": "multiple_concept_ownership",
+        "severity": "high",
+        "score": 6,
+        "source_id": "real-analysis/right-derivative-left-derivative",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/real-analysis/right-derivative-left-derivative.knowl.md",
+        "title": "Right derivative and left derivative",
+        "kind": "knowl",
+        "signals": [
+          "multiple_explicit_definienda",
+          "bundled_title"
+        ],
+        "definition_subjects": [
+          {
+            "term": "right derivative",
+            "normalized": "right derivative",
+            "line": 14,
+            "section": "Core"
+          },
+          {
+            "term": "left derivative",
+            "normalized": "left derivative",
+            "line": 16,
+            "section": "Core"
+          }
+        ],
+        "incoming_labels": {
+          "right derivative and left derivative": 1
+        },
+        "recommended_action": "semantic_review_only"
+      }
+    ],
+    "rendered_files_checked": 34,
+    "rendering_findings": [],
+    "source_sha256": {
+      "knowlification/navier-stokes-index": "8f8b7a66091cc14c2b149a26258ba97ea3ee62f91a72911010e4bd85f814aab8",
+      "real-analysis/convergent-series": "dff71f2af4a830d5660cefa62aee8918e925242f97373d12bf7a07254fe23f89",
+      "real-analysis/geometric-series": "df215fd107ff491277d1cd4bbe7ad42d01cd648a941dcf728f58e52d8e4ce0a2",
+      "real-analysis/right-derivative-left-derivative": "f18211da001a7d4670e0d47734daeebedc1e63a75482a0fedac44c3be01f8a34",
+      "real-analysis/series": "c0ab33ef3c3920b69566a05b9a9675c4e42bfaf141d72dac389cf23fd50d2d7e"
+    }
+  }
+}

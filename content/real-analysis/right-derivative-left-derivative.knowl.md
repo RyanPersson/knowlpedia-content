@@ -13,9 +13,9 @@ dependency_review_count = 2
 
 Let \(f:E\to\mathbb{R}\) (or \(\mathbb{C}\)) with \(E\subseteq\mathbb{R}\), and let \(a\in E\). If \(a\) is a [[topology/limit-point|limit point]] of \(E\cap(a,\infty)\), the **right derivative** of \(f\) at \(a\) is
 \[f'_+(a):=\lim_{h\downarrow 0}\frac{f(a+h)-f(a)}{h},\]
-provided the limit exists. If \(a\) is a limit point of \(E\cap(-\infty,a)\), the **left derivative** is
+provided the limit exists as a finite number; the limit is taken only over increments with \(a+h\in E\). If \(a\) is a limit point of \(E\cap(-\infty,a)\), the **left derivative** is
 \[f'_-(a):=\lim_{h\uparrow 0}\frac{f(a+h)-f(a)}{h},\]
-provided the limit exists.
+provided the limit exists as a finite number; the limit is taken only over increments with \(a+h\in E\).
 
 ## Relation to differentiability
 
@@ -25,4 +25,4 @@ If both one-sided derivatives exist and are equal, then \(f\) is differentiable 
 
 - For \(f(x)=|x|\), one has \(f'_+(0)=1\) and \(f'_-(0)=-1\), so \(f'(0)\) does not exist.
 - For \(f(x)=x^2\), \(f'_+(a)=f'_-(a)=2a\) for all \(a\).
-- For the [[real-analysis/step-function|step function]] \(\mathbf{1}_{[0,\infty)}\), the one-sided derivatives at \(0\) do not exist ([[real-analysis/difference-quotient|difference quotient]] blows up).
+- For the [[real-analysis/step-function|step function]] \(\mathbf{1}_{[0,\infty)}\), the right derivative at \(0\) is \(0\). From the left, the [[real-analysis/difference-quotient|difference quotient]] is \(1/h\to-\infty\), so no finite left derivative exists.

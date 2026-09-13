@@ -452,7 +452,11 @@
       "partial-differential-equations/partial-regularity",
       "partial-differential-equations/regularity-criterion",
       "partial-differential-equations/weak-formulation"
-    ]
+    ],
+    "additional_document_integration_ids": [
+      "real-analysis/geometric-series"
+    ],
+    "total_new_knowl_count": 434
   },
   "validation": {
     "global_compiler_errors": 0,
@@ -465,17 +469,18 @@
     "cycle_check": "pass",
     "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
     "scope_findings_for_changed_entries": [],
-    "rendered_files_checked": 255,
+    "rendered_files_checked": 256,
     "rendering_findings": [],
     "source_sha256": {
       "fluid-dynamics": "80fab4b61e8dee8937df9411300558b987648ebe43dfc7c5b68a407fcd0dc7db",
-      "knowlification/navier-stokes-index": "b8695ac82de619fc4f9e1db2d35a712c98196f7e7f8c6aca15b53ee51d7235f8"
+      "knowlification/navier-stokes-index": "8f8b7a66091cc14c2b149a26258ba97ea3ee62f91a72911010e4bd85f814aab8"
     }
   },
   "browser_validation": {
     "batch_sections": 15,
-    "unique_new_knowl_links": 433,
-    "inline_expansions": 15,
+    "document_integration_sections": 1,
+    "unique_new_knowl_links": 434,
+    "inline_expansions": 16,
     "mobile_width": 390,
     "horizontal_overflow": false,
     "search_entry_present": true,

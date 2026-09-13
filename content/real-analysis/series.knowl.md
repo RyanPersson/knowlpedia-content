@@ -19,5 +19,5 @@ Whether a series has a value is determined by the behavior of its [[real-analysi
 
 ## Examples
 
-- The geometric series \(\sum_{n=0}^\infty r^n\).
+- The [[real-analysis/geometric-series|geometric series]] \(\sum_{n=0}^\infty r^n\).
 - The harmonic series \(\sum_{n=1}^\infty \frac{1}{n}\).
