@@ -24,3 +24,13 @@ dependency_review_count = 2
 ## Remarks
 
 This inequality is a standard tool behind [[convex-analysis/holder-inequality-finite-sums|Hölder's inequality]], [[convex-analysis/holder-inequality-integrals|Hölder's inequality for integrals]], and many estimates in [[convex-analysis|convex analysis]]. In the lecture notes it is obtained from the [[convex-analysis/weighted-arithmeticgeometric-mean-inequality|weighted AM–GM inequality]] applied to \(a=|x|^p\) and \(b=|y|^q\).
+
+## A small coefficient for absorption
+
+Replacing \(x\) by \(\varepsilon^{1/p}x\) and \(y\) by \(\varepsilon^{-1/p}y\) gives, for \(\varepsilon>0\),
+\[
+|xy|\le\frac{\varepsilon}{p}|x|^p+
+\frac{\varepsilon^{-q/p}}q|y|^q.
+\]
+For quadratic estimates one often writes the equivalent form
+\(|xy|\le\varepsilon x^2+y^2/(4\varepsilon)\), which also follows by expanding \((\sqrt\varepsilon |x|-|y|/(2\sqrt\varepsilon))^2\ge0\).

@@ -192,3 +192,7 @@ Click any term to expand its definition inline.
 ## Coordinates and calculus additions
 
 - [[topology/annulus|Euclidean annulus]]
+
+## Integration and function-space additions
+
+- [[topology/parabolic-metric|Parabolic metric on space-time]]

@@ -39,3 +39,11 @@ For non-unimodular groups, inversion does not preserve a left Haar measure. The 
 
 1. Gerald B. Folland, *A Course in Abstract Harmonic Analysis*, 2nd ed., CRC Press, 2016. [Routledge publisher record](https://www.routledge.com/A-Course-in-Abstract-Harmonic-Analysis/Folland/p/book/9781032922218). Relevant: Chapter 2, “Convolutions.”
 2. Edwin Hewitt and Kenneth A. Ross, *Abstract Harmonic Analysis*, Volume I, Springer, 1963. [Springer DOI record](https://doi.org/10.1007/978-3-662-40409-6). Relevant: “Convolutions and Group Representations.”
+
+## Euclidean and one-sided conventions
+
+On the additive group \(\mathbb R^n\), Lebesgue measure gives
+\[
+(f*g)(x)=\int_{\mathbb R^n}f(y)g(x-y)\,dy.
+\]
+For functions on the positive time axis extended by zero to negative times, the same formula becomes \((f*g)(t)=\int_0^t f(s)g(t-s)\,ds\) for \(t>0\). The choice of zero extension is part of this one-sided convention.

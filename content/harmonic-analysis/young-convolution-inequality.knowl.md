@@ -19,7 +19,7 @@ For \(f\in L^p(G)\) and \(g\in L^q(G)\), their [[harmonic-analysis/convolution-o
 \[
 \lVert f*g\rVert_r\leq \lVert f\rVert_p\lVert g\rVert_q.
 \]
-Consequently convolution extends uniquely to a bounded [[algebra-modules/bilinear-map|bilinear map]] \(L^p(G)\times L^q(G)\to L^r(G)\).
+Consequently the integral defines a bounded [[algebra-modules/bilinear-map|bilinear map]] \(L^p(G)\times L^q(G)\to L^r(G)\).
 
 ## Endpoint estimates
 
@@ -27,7 +27,7 @@ The case \(p=1\) and \(q=r\) says that averaging left translates of \(g\) agains
 
 ## Proof mechanism and extension
 
-For compactly supported continuous functions, translation invariance of Haar measure, Hölder's inequality, and [[measure-theory/tonellis-theorem|Tonelli's theorem]] give the endpoint bounds. Interpolation and density yield the remaining exponent range. The extension is independent of the approximating functions because the displayed estimate makes convolution jointly continuous in the indicated norms.
+For compactly supported continuous functions, translation invariance of Haar measure, Hölder's inequality, and [[measure-theory/tonellis-theorem|Tonelli's theorem]] give the endpoint bounds. Hölder and Tonelli give the full range by splitting the integrand into factors with the prescribed powers; interpolation is another route. Density justifies extensions from compactly supported functions when the input exponents are finite. At an infinite input exponent, use the integral and its direct bound: compactly supported continuous functions are not norm-dense in general in \(L^\infty\), so density alone does not give uniqueness of an extension there.
 
 ## Scope and nonunimodular groups
 

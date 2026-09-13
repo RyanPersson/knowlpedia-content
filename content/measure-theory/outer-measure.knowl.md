@@ -6,9 +6,9 @@ summary = "A monotone, countably subadditive set function defined on all subsets
 aliases = ["outer-measure", "Outer measure"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/outer-measure.md"
-prerequisites = ["shared-foundations/empty-set", "shared-foundations/power-set", "shared-foundations/subset", "shared-foundations/function", "shared-foundations/sequence", "shared-foundations/union"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["shared-foundations/empty-set", "shared-foundations/power-set", "shared-foundations/subset", "shared-foundations/function", "shared-foundations/sequence", "shared-foundations/union", "convex-analysis/extended-real-number-system-and-conventions", "real-analysis/series", "real-analysis/nonnegative-extended-series"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 An **outer measure** on a set \(X\) is a function \(\mu^*:\mathcal P(X)\to[0,\infty]\) such that \(\mu^*(\varnothing)=0\), \(\mu^*(A)\le \mu^*(B)\) whenever \(A\subseteq B\), and for every sequence \((A_n)_{n\ge 1}\),

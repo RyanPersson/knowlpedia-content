@@ -122,3 +122,10 @@ Click any term to expand its definition inline.
 - [[functional-analysis/direct-integral-hilbert-spaces|Direct integral of Hilbert spaces]]
 - [[functional-analysis/direct-integral-operators|Direct integral of operators]]
 - [[functional-analysis/measurable-field-hilbert-spaces|Measurable field of Hilbert spaces]]
+
+## Integration and function-space additions
+
+- [[functional-analysis/absolutely-convergent-banach-series|Absolutely convergent series in a Banach space]]
+- [[functional-analysis/bounded-bilinear-map|Bounded bilinear map between normed spaces]]
+- [[functional-analysis/continuous-banach-valued-functions|Continuous Banach-valued functions on a compact space]]
+- [[functional-analysis/integral-operator|Integral operator with a measurable kernel]]

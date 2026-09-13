@@ -6,9 +6,9 @@ summary = "Norm from integrating the pth power of absolute value, or essential s
 aliases = ["lp-norm", "L^p norm"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/lp-norm.md"
-prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "real-analysis/absolute-value", "measure-theory/essential-supremum"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["measure-theory/measure-space", "measure-theory/measurable-function", "measure-theory/lebesgue-integral-nonnegative", "real-analysis/absolute-value", "measure-theory/essential-supremum", "real-analysis/real-power", "real-analysis/modulus-on-c"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **\(L^p\) norm** on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) (for \(1\le p<\infty\)) assigns to a [[measure-theory/measurable-function|measurable function]] \(f:X\to\mathbb{R}\) the value
@@ -27,3 +27,7 @@ If \(f\) and \(g\) are [[measure-theory/ae-equality|equal almost everywhere]], t
 
 - On \(([0,1],\mathcal{B},\lambda)\), the constant function \(f(x)=1\) satisfies \(\|f\|_p=1\) for every \(1\le p\le\infty\).
 - On \(([0,1],\mathcal{B},\lambda)\), for \(f(x)=x\) one has \(\|f\|_p=(1/(p+1))^{1/p}\) for \(1\le p<\infty\), and \(\|f\|_\infty=1\).
+
+## Complex and vector-valued functions
+
+The same formulas apply to complex functions using the [[real-analysis/modulus-on-c|complex modulus]], and to finite-dimensional vector-valued functions using their Euclidean norm. Allowing the displayed integral to be infinite defines an extended size on all measurable functions; the finite-size classes are the Lebesgue spaces.

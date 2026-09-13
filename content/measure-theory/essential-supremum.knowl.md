@@ -6,9 +6,9 @@ summary = "Least upper bound of a measurable function after ignoring a null set.
 aliases = ["essential-supremum", "Essential supremum"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/essential-supremum.md"
-prerequisites = ["measure-theory/measurable-function", "measure-theory/measure-space", "measure-theory/almost-everywhere"]
-dependency_heuristic = "dependency-structure-review-v1"
-dependency_review_count = 2
+prerequisites = ["measure-theory/measurable-function", "measure-theory/measure-space", "measure-theory/almost-everywhere", "convex-analysis/extended-real-number-system-and-conventions", "real-analysis/infimum"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 The **essential supremum** of a [[measure-theory/measurable-function|measurable function]] \(f:X\to\overline{\mathbb R}\) on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) is the extended real number

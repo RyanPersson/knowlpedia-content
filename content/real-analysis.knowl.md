@@ -376,3 +376,7 @@ Click any term to expand its definition inline.
 - [[real-analysis/divergence-free-field|Divergence-free field]]
 - [[real-analysis/even-and-odd-functions|Even and odd parity of a function]]
 - [[real-analysis/completing-the-square|Completing the square]]
+
+## Further integration prerequisites
+
+- [[real-analysis/nonnegative-extended-series|Sum of nonnegative extended real terms]]

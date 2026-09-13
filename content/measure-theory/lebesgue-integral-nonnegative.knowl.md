@@ -6,9 +6,9 @@ summary = "Definition of the Lebesgue integral for nonnegative measurable functi
 aliases = ["lebesgue-integral-nonnegative", "Lebesgue integral of a nonnegative function"]
 domains = ["measure-theory"]
 legacy_source_path = "measure-theory/lebesgue-integral-nonnegative.md"
-prerequisites = ["measure-theory/measure-space", "measure-theory/simple-function", "measure-theory/indicator-function", "measure-theory/measurable-function", "real-analysis/supremum"]
-dependency_heuristic = "semantic-curriculum-review-v1"
-dependency_review_count = 1
+prerequisites = ["measure-theory/measure-space", "measure-theory/simple-function", "measure-theory/indicator-function", "measure-theory/measurable-function", "real-analysis/supremum", "convex-analysis/extended-real-number-system-and-conventions"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **Lebesgue integral of a nonnegative measurable function** on a [[measure-theory/measure-space|measure space]] \((X,\Sigma,\mu)\) is defined as follows. For a nonnegative [[measure-theory/simple-function|simple function]] of the form
@@ -31,3 +31,7 @@ This is the starting point for the [[measure-theory/lebesgue-integral|Lebesgue i
 
 - If \(E\) is a [[measure-theory/measurable-set|measurable set]], then \(\int_X \mathbf{1}_E\,d\mu=\mu(E)\).
 - On \(\mathbb R\) with [[measure-theory/lebesgue-measure|Lebesgue measure]], if \(f(x)=x\) for \(x\) in the [[real-analysis/interval|interval]] \([0,1]\) and \(f(x)=0\) otherwise, then \(\int_{\mathbb R} f\,dx=\tfrac12\).
+
+## Zero times infinity
+
+In this nonnegative integral convention, \(0\cdot\infty=0\). Thus a zero coefficient on an infinite-measure set contributes zero, and an infinite nonnegative function on a null set has integral zero. This convention is specific to nonnegative measure arithmetic; it does not define indeterminate limits of products.

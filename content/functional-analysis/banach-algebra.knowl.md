@@ -6,9 +6,9 @@ summary = "A complete normed algebra whose norm is submultiplicative."
 aliases = ["complete normed algebra"]
 domains = ["functional-analysis"]
 section_mode = "progressive"
-prerequisites = ["linear-algebra/vector-space", "linear-algebra/norm", "linear-algebra/banach-space"]
-dependency_heuristic = "semantic-spotcheck-review-v1"
-dependency_review_count = 2
+prerequisites = ["linear-algebra/vector-space", "linear-algebra/norm", "linear-algebra/banach-space", "algebra-modules/bilinear-map"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 Let \(\mathbb F=\mathbb R\) or \(\mathbb C\). A **Banach algebra over \(\mathbb F\)** is a vector space \(A\) over \(\mathbb F\) equipped with an associative \(\mathbb F\)-bilinear multiplication \(A\times A\to A\) and a [[linear-algebra/norm|norm]] such that \(A\) is a [[linear-algebra/banach-space|Banach space]] and

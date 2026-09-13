@@ -6,9 +6,9 @@ summary = "A condition controlling how fast a function can change, generalizing 
 aliases = ["holder-continuity", "Hölder continuity"]
 domains = ["topology"]
 legacy_source_path = "topology/holder-continuity.md"
-prerequisites = ["topology/metric-space"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["topology/metric-space", "real-analysis/real-power"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 A **Hölder continuous map** between metric spaces \((X,d_X)\) and \((Y,d_Y)\) is a map \(f\colon X\to Y\) such that there exist constants \(C\ge 0\) and \(\alpha\in(0,1]\) with

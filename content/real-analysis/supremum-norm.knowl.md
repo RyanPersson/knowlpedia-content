@@ -25,3 +25,7 @@ The supremum norm is the standard way to measure uniform size of functions and u
 
 - For \(f(x)=\sin x\) on \(\mathbb{R}\), \(\|f\|_\infty=1\).
 - For \(f(x)=x^2\) on \([-1,1]\), \(\|f\|_\infty=1\) (the maximum is attained at \(x=\pm 1\)).
+
+## Comparison with an essential supremum
+
+If \(f\) is continuous on a space where every nonempty open set has positive measure, then \(\sup|f|=\operatorname*{ess\,sup}|f|\), including when both are infinite. Indeed, if \(|f(x)|>a\) at a point, continuity gives a nonempty open set where \(|f|>a\), so an almost-everywhere bound by \(a\) is impossible. Without continuity or this measure hypothesis, the two notions can differ.
