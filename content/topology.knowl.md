@@ -200,3 +200,8 @@ Click any term to expand its definition inline.
 ## Evolution-equation prerequisites
 
 - [[topology/locally-lipschitz-map|Locally Lipschitz map]]
+
+## Compact localization
+
+- [[topology/compact-support-margin]]
+- [[topology/compact-exhaustion]]

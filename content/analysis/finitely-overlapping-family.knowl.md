@@ -7,8 +7,8 @@ aliases = ["bounded overlap family", "uniformly finite overlap"]
 domains = ["analysis", "measure-theory"]
 section_mode = "progressive"
 prerequisites = ["shared-foundations/indexed-family-of-sets", "measure-theory/indicator-function"]
-dependency_heuristic = "component-dependency-review-v1"
-dependency_review_count = 2
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 A [[shared-foundations/indexed-family-of-sets|family of sets]] \({E_j}_{j\in J}\) is **finitely overlapping with multiplicity
@@ -22,7 +22,7 @@ and location of the family members.
 
 ## Integral consequence
 
-For nonnegative measurable \(g\), [[measure-theory/tonellis-theorem|Tonelli's theorem]] gives
+For a countable family of measurable sets and nonnegative measurable \(g\), [[measure-theory/tonellis-theorem|Tonelli's theorem]] gives
 \[
 \sum_j\int_{E_j}g\le N\int_{\bigcup_jE_j}g.
 \]

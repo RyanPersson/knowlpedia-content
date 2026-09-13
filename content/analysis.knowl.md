@@ -35,3 +35,9 @@ The complete dependency path is collected in the
 ## Differential equations
 
 - [[differential-equations|Differential equations]]
+
+## Localization and smooth summation
+
+- [[analysis/locally-finite-smooth-sum]]
+- [[analysis/bounded-overlap-sum-estimate]]
+- [[analysis/smooth-series-convergence]]

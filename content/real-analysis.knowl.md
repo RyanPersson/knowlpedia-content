@@ -385,3 +385,22 @@ Click any term to expand its definition inline.
 
 - [[real-analysis/radial-averaging-operator|Radial averaging operator from the origin]]
 - [[real-analysis/real-analytic-function|Real-analytic function]]
+
+## Smooth localization and extension
+
+- [[real-analysis/compactly-supported-function]]
+- [[real-analysis/cutoff-function]]
+- [[real-analysis/cartesian-jet]]
+- [[real-analysis/flat-function]]
+- [[real-analysis/multi-index-leibniz-rule]]
+- [[real-analysis/flat-exponential]]
+- [[real-analysis/smooth-extension]]
+- [[real-analysis/smooth-zero-extension]]
+- [[real-analysis/hadamard-division-lemma]]
+- [[real-analysis/flat-factor-product]]
+- [[real-analysis/normalized-flat-primitive]]
+- [[real-analysis/scaled-cutoff-estimate]]
+- [[real-analysis/compact-derivative-seminorm]]
+- [[real-analysis/squared-partition-of-unity]]
+- [[real-analysis/solenoidal-localization]]
+- [[real-analysis/borel-jet-extension]]

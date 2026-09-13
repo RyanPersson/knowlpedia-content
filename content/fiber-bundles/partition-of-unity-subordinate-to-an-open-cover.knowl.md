@@ -6,9 +6,9 @@ summary = "A locally finite family of smooth functions that sum to one and have 
 aliases = ["partition-of-unity-subordinate-to-an-open-cover", "Partition of unity subordinate to an open cover"]
 domains = ["fiber-bundles"]
 legacy_source_path = "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover.md"
-prerequisites = ["fiber-bundles/smooth-manifold", "topology/open-cover", "shared-foundations/support-of-a-function", "fiber-bundles/smooth-map"]
-dependency_heuristic = "semantic-full-review-v1"
-dependency_review_count = 1
+prerequisites = ["fiber-bundles/smooth-manifold", "topology/open-cover", "shared-foundations/support-of-a-function", "fiber-bundles/smooth-map", "topology/locally-finite-family"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 2
 +++
 
 Let \(M\) be a smooth manifold and let \(\{U_i\}_{i\in I}\) be an open cover of \(M\).
@@ -36,3 +36,7 @@ A fundamental theorem states that if \(M\) is a [[fiber-bundles/paracompact-mani
 
 3. **Gluing local data.**
    If \(\alpha_i\) are differential forms defined on \(U_i\), then \(\sum_i \varphi_i\,\alpha_i\) defines a global form after extending each product by zero outside \(U_i\); no agreement of the local forms on overlaps is required for this weighted construction, and local finiteness ensures the sum is pointwise finite.
+
+## Quadratic normalization
+
+When a decomposition requires the squares of its coefficients to sum to one, use a [[real-analysis/squared-partition-of-unity|squared partition of unity]]. Normalizing a smooth family by the square root of its positive sum of squares preserves smoothness.

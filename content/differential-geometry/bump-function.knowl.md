@@ -3,12 +3,12 @@ id = "differential-geometry/bump-function"
 title = "Bump function"
 kind = "definition"
 summary = "A smooth function with compact support, often chosen to equal one on a prescribed closed set."
-aliases = ["smooth bump function", "smooth cutoff function"]
+aliases = ["smooth bump function"]
 domains = ["differential-geometry"]
 section_mode = "progressive"
-prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/closed-set", "topology/neighborhood", "topology/closure"]
-dependency_heuristic = "axiomatic-dependency-review-v1"
-dependency_review_count = 2
+prerequisites = ["fiber-bundles/smooth-manifold", "fiber-bundles/smooth-map", "topology/compact-set", "topology/closed-set", "topology/neighborhood", "topology/closure", "shared-foundations/support-of-a-function"]
+dependency_heuristic = "navier-semantic-review-v1"
+dependency_review_count = 3
 +++
 
 Let \(M\) be a [[fiber-bundles/smooth-manifold|smooth manifold]]. A **bump function** is a [[fiber-bundles/smooth-map|smooth map]] \(\varphi:M\to\mathbb R\) whose support
@@ -33,3 +33,7 @@ Some authors use “cutoff function” for the more specific \(0\)-to-\(1\) func
 
 1. John M. Lee, *Introduction to Smooth Manifolds*, 2nd ed., Springer, 2012. [DOI record](https://doi.org/10.1007/978-1-4419-9982-5). Relevant: smooth functions, bump functions, and partitions of unity.
 2. Jet Nestruev, *Smooth Manifolds and Observables*, Springer, 2003. [DOI record](https://doi.org/10.1007/b98871). Relevant: “Cutoff and Other Special Smooth Functions.”
+
+## Euclidean cutoff conventions
+
+A [[real-analysis/cutoff-function|smooth cutoff]] specifies a plateau and a surrounding support region; compact support is imposed separately when needed. [[real-analysis/flat-exponential|Flat exponentials]] give explicit Euclidean examples.

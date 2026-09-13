@@ -1,0 +1,154 @@
+{
+  "batch": "B04",
+  "title": "Smooth localization and extension",
+  "branch": "navier",
+  "status": "content, structure and rendering checked",
+  "new_ids": [
+    "analysis/bounded-overlap-sum-estimate",
+    "analysis/locally-finite-smooth-sum",
+    "analysis/smooth-series-convergence",
+    "real-analysis/borel-jet-extension",
+    "real-analysis/cartesian-jet",
+    "real-analysis/compact-derivative-seminorm",
+    "real-analysis/compactly-supported-function",
+    "real-analysis/cutoff-function",
+    "real-analysis/flat-exponential",
+    "real-analysis/flat-factor-product",
+    "real-analysis/flat-function",
+    "real-analysis/hadamard-division-lemma",
+    "real-analysis/multi-index-leibniz-rule",
+    "real-analysis/normalized-flat-primitive",
+    "real-analysis/scaled-cutoff-estimate",
+    "real-analysis/smooth-extension",
+    "real-analysis/smooth-zero-extension",
+    "real-analysis/solenoidal-localization",
+    "real-analysis/squared-partition-of-unity",
+    "topology/compact-exhaustion",
+    "topology/compact-support-margin"
+  ],
+  "modified_ids": [
+    "analysis",
+    "analysis/finitely-overlapping-family",
+    "differential-geometry/bump-function",
+    "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover",
+    "real-analysis",
+    "topology"
+  ],
+  "reused_ids": [
+    "analysis/finitely-overlapping-family",
+    "convex-analysis/distance-function-to-a-set",
+    "differential-geometry/bump-function",
+    "differential-geometry/collar-neighborhood-theorem",
+    "differential-geometry/jet-of-a-smooth-map",
+    "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover",
+    "functional-analysis/frechet-space",
+    "real-analysis/class-ck-map",
+    "real-analysis/curl",
+    "real-analysis/multi-index-notation",
+    "real-analysis/taylors-theorem-with-remainder",
+    "real-analysis/uniform-convergence-differentiation",
+    "real-analysis/vector-potential",
+    "shared-foundations/support-of-a-function",
+    "topology/locally-finite-family"
+  ],
+  "source_references": [
+    {
+      "title": "Richard Melrose, Lectures on Pseudodifferential Operators, Lecture 2 (Borel summation)",
+      "url": "https://math.mit.edu/~rbm/18.157-F05.pdf"
+    },
+    {
+      "title": "Richard Schwartz, Partitions of Unity (Brown lecture notes)",
+      "url": "https://www.math.brown.edu/reschwar/M114B/notes9.pdf"
+    }
+  ],
+  "review_decisions": [
+    "Separate bounded overlap from local finiteness; require a countable measurable family for the integral consequence.",
+    "Separate general cutoffs from compactly supported bump functions; reuse the manifold-level partition and jet definitions.",
+    "The Cartesian jet is an elementary Euclidean specialization; its core does not require the jet-bundle construction.",
+    "Zero extension requires all mixed derivative limits locally uniformly in the tangential variables.",
+    "Smooth division is justified for finite coordinate powers; the exponential normalized-primitive lemma has its own fixed-domain integral proof.",
+    "Borel summation uses summable bounds for every fixed derivative order on compact sets; local finiteness away from the endpoint is insufficient.",
+    "Generic collar geometry is reused; the manuscript-specific slow support and time-dependent physical margins belong to B06.",
+    "Public content contains independently written reusable mathematics; manuscript-specific endpoint notation stays in the private reading work.",
+    "The two topology subject-page label findings predate B04 and concern unchanged navigation entries; no new mathematical-entry scope findings were reported."
+  ],
+  "review_scope": "Definitions, hypotheses, selected derivations and semantic prerequisites reviewed; not a formal proof certification.",
+  "validation": {
+    "global_compiler_errors": 0,
+    "changed_source_count": 27,
+    "section_fidelity": "pass",
+    "external_link_conventions": "pass",
+    "prerequisite_closure_nodes": 257,
+    "axiomatic_leaves": [
+      "shared-foundations/first-order-logic"
+    ],
+    "unresolved_prerequisite_leaves": [],
+    "cycle_check": "pass",
+    "prerequisite_review_scope": "Unbounded structural traversal plus explicit leaf review; individual mathematical statements are reviewed during authoring/reuse, not formally certified.",
+    "scope_findings_for_changed_entries": [
+      {
+        "rule": "exact_label_target_mismatch",
+        "severity": "high",
+        "score": 6,
+        "source_id": "topology",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/topology.knowl.md",
+        "line": 164,
+        "label": "Continuous bijection from compact is a homeomorphism criterion",
+        "actual_target": "topology/compact-to-hausdorff-homeomorphism-criterion",
+        "unique_label_owner": "topology/continuous-bijection-from-compact-homeomorphism-criterion",
+        "recommended_action": "semantic_review_only"
+      },
+      {
+        "rule": "exact_label_target_mismatch",
+        "severity": "high",
+        "score": 6,
+        "source_id": "topology",
+        "source_path": "/home/codex/code/knowlpedia-root/knowlpedia-content/content/topology.knowl.md",
+        "line": 168,
+        "label": "Continuous function on a compact set is uniformly continuous",
+        "actual_target": "topology/heine-cantor-theorem",
+        "unique_label_owner": "topology/heine-cantor-corollary",
+        "recommended_action": "semantic_review_only"
+      }
+    ],
+    "rendered_files_checked": 1229,
+    "rendering_findings": [],
+    "source_sha256": {
+      "analysis": "b610f631f3d4f6d4a1eae9ae207eae66b8f0d75e984071de80f37b7519be3f4e",
+      "analysis/bounded-overlap-sum-estimate": "363149e74854cb445287995c6701ab2da19dce7749fbee416362d6d7eac4102e",
+      "analysis/finitely-overlapping-family": "75f27f1db09127e49c6c9fc0834eb08fffdc335517b970104f4c7a16e9fb0860",
+      "analysis/locally-finite-smooth-sum": "4a4a35ab2218e007c2eea86e46cd63481ddef194885e11b6d0a9eb829f56570d",
+      "analysis/smooth-series-convergence": "d793eb82ca9afe21b397ccf66aa6c3d27a21bbcd673dfdc35c1a611aede4ef17",
+      "differential-geometry/bump-function": "f2fe8b5bf161d41b5a5af8c8c7e7f5c73fa3b553f33d70334c8d66c36d910c08",
+      "fiber-bundles/partition-of-unity-subordinate-to-an-open-cover": "a133f6304a1a182158738d8b10ccf9b051773e1f98d04617cce907f77edaea18",
+      "real-analysis": "63a5310143b8b9127eebd2e954ed7678cf49569ffa43066356b58804ac4274d8",
+      "real-analysis/borel-jet-extension": "799173d992d5706c0beb3b2a4eec862889f73846fe452ad40b00686a19896995",
+      "real-analysis/cartesian-jet": "16bc3d9d6ef42792cc1c77a103af0378f126877c70e986d8db79a209bf44185f",
+      "real-analysis/compact-derivative-seminorm": "07b8291527ec1d4f03c33009675e5758b0bd84a95c23600e505f7aa8e4a778f2",
+      "real-analysis/compactly-supported-function": "eccb646ca635069715e4a3b0ff3ad311bee9b77cc3af3a4fbf7ae1872a888391",
+      "real-analysis/cutoff-function": "92f8f43e736892b87575891e2fc450225005870463b184cb20f2cc0cfdeff8ae",
+      "real-analysis/flat-exponential": "9abe2d96ff6b3345dd1c031f996e2d0758a1cc1f36b11987c2beab7d829d9ccd",
+      "real-analysis/flat-factor-product": "c5c55f2d2b988714af88646e1187c8a893d46bbf173c379d8010d9db2a8a2e1c",
+      "real-analysis/flat-function": "2c48cf0b8a8f3e22bdf7581f619807e5c9f1b268c68a5a469bcdfe742b34f0fc",
+      "real-analysis/hadamard-division-lemma": "5bdcd533d6361fc45687e870f4447a1d3047b1c81d866ee98adb6b87a07a8bb3",
+      "real-analysis/multi-index-leibniz-rule": "90d22a51b967908eb5f6e7e0e033864f4f568cbbae3a6aed16153cf2438bc1c0",
+      "real-analysis/normalized-flat-primitive": "f94242e8a2e208b9d97559ca1518c0bcdb47e40caa64bfbefe10ce9b96c2bb62",
+      "real-analysis/scaled-cutoff-estimate": "c61cc24e5f934376cfe4da13e9b5ecb0c14331a35086c9d0f411fe276aa2bbe3",
+      "real-analysis/smooth-extension": "52ca70dea7d8de04b3e2cfdef809337fbc7f25c16512af20d19b7fb874bad2ab",
+      "real-analysis/smooth-zero-extension": "88351cf07cd0bf5beb953c198f677de23dc3baf09be2d5b78c21ad76ef8598b6",
+      "real-analysis/solenoidal-localization": "3ea81c0442dfa7ae5b7409deb1f56ac03c60838952c8230e758169ef1169fd23",
+      "real-analysis/squared-partition-of-unity": "f8d2c4c747ca1d97e2900f2c607c0e42df49247b3ebfa6f41688759d0e43c9e3",
+      "topology": "26733909ceaa00ec40c68e10a064738d756d37677be0fcb4fb8f20529422e846",
+      "topology/compact-exhaustion": "2e5fa871ea2f965eff1c1e1e8eddbac4f3d48754afb4c74ba2937701596d0644",
+      "topology/compact-support-margin": "95385c40f6bba9e34e1be23432bc9867ecd0f7940a0b3c669bf62222b4e8a01c"
+    }
+  },
+  "browser_validation": {
+    "routes": 21,
+    "inline_expansions": 14,
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "search_entries_present": true,
+    "console_errors": []
+  }
+}
