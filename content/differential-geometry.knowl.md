@@ -342,3 +342,11 @@ dependency_review_count = 1
 ## Weak equations, regularity, and relaxed models
 
 - [[differential-geometry/h-principle|The h-principle]]
+
+## Connections with ergodic theory
+
+- [[differential-geometry/foliation|Smooth foliation]]
+- [[differential-geometry/kronecker-foliation|Kronecker foliation of the two-torus]]
+- [[differential-geometry/liouville-volume-theorem|Liouville theorem for Hamiltonian volume]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

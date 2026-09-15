@@ -81,3 +81,10 @@ dependency_review_count = 1
 - [[probability/derivatives-of-log-mgf|Derivatives of the log moment generating function]]
 - [[probability/exponential-tilt|Exponential tilt]]
 - [[probability/variance-of-normalized-exponential-weight|Variance of a normalized exponential weight]]
+
+## Connections with ergodic theory
+
+- [[probability/standard-gaussian-probability-space|Standard Gaussian probability space]]
+- [[probability/probability-integral-transform|Probability integral transform]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

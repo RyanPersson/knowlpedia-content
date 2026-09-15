@@ -205,3 +205,13 @@ These provide the representation-theoretic input to the
 
 - [[harmonic-analysis/fractional-laplacian|Fractional Laplacian on Euclidean space]]
 - [[harmonic-analysis/order-zero-fourier-multiplier|Order-zero Fourier multiplier]]
+
+## Connections with ergodic theory
+
+- [[harmonic-analysis/characters-compact-abelian-fourier-basis|Fourier basis on a compact abelian group]]
+- [[harmonic-analysis/number-field-torus-characters|Characters of a number-field torus]]
+- [[harmonic-analysis/invariant-vector|Invariant vector of a unitary representation]]
+- [[harmonic-analysis/almost-invariant-vectors|Almost-invariant vectors]]
+- [[harmonic-analysis/kazhdan-property-t|Kazhdan property (T)]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

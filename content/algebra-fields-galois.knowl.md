@@ -127,3 +127,12 @@ The [[knowlification/bianchi-index|Bianchi collection]] develops the number-theo
 - [[algebra-fields-galois/number-field-discriminant|Number-field discriminant]]
 - [[algebra-fields-galois/ideal-class-group|Ideal class group]]
 - [[algebra-fields-galois/dedekind-zeta-function|Dedekind zeta function]]
+
+## Connections with ergodic theory
+
+- [[algebra-fields-galois/archimedean-algebra|Archimedean algebra of a number field]]
+- [[algebra-fields-galois/minkowski-embedding|Minkowski embedding of a number field]]
+- [[algebra-fields-galois/archimedean-trace-pairing|Archimedean trace pairing]]
+- [[algebra-fields-galois/codifferent|Codifferent of a number field]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

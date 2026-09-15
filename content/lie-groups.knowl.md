@@ -417,3 +417,9 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/arithmetic-kleinian-group|Arithmetic Kleinian group]]
 - [[lie-groups/noncocompact-arithmetic-kleinian-classification|Noncocompact classification]]
 - [[knowlification/bianchi-index|Complete Bianchi collection]]
+
+## Connections with ergodic theory
+
+- [[lie-groups/howe-moore-theorem|Howe–Moore theorem]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.
