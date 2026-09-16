@@ -46,3 +46,7 @@ Translate dynamics into linear operators. Follow fixed vectors to ergodicity, th
 - [[ergodic-theory/nonsingular-koopman-representation|Koopman representation of a nonsingular action]]
 
 Return to [[ergodic-theory|Ergodic theory]].
+
+## Differentiating representations
+
+Continue to [[lie-groups/smooth-unitary-representations-index|smooth and distribution vectors]] for common generator domains, the smooth-vector Fréchet topology, nuclearity, and the Heisenberg example.

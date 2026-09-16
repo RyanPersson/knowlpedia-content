@@ -32,6 +32,8 @@ The theorem makes the [[lie-groups/derived-representation-on-smooth-vectors|deri
 
 ## Conventions and scope
 
+Neither irreducibility nor the type I property is required: the smoothing and approximation argument applies to every strongly continuous unitary representation of a finite-dimensional Lie group.
+
 The theorem is sometimes stated for continuous representations on [[linear-algebra/banach-space|Banach spaces]] or more general complete [[functional-analysis/locally-convex-space|locally convex spaces]]; additional integration and equicontinuity hypotheses then enter. The Hilbert-unitary version stated here needs only strong continuity. It proves density, not that the smooth-vector space is closed in the Hilbert norm; except in special cases, it is not.
 
 ## References

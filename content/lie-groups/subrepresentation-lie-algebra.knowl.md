@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathfrak g\) be a Lie algebra and let \(\rho:\mathfrak g\to \mathfrak{gl}(V)\) be a [[lie-groups/representation-of-a-lie-algebra|representation of \(\mathfrak g\)]] on a finite-dimensional vector space \(V\). A linear subspace \(W\subseteq V\) is a **subrepresentation** (or **\(\mathfrak g\)-submodule**) if it is invariant under the action:
+Let \(\mathfrak g\) be a Lie algebra and let \(\rho:\mathfrak g\to \mathfrak{gl}(V)\) be a [[lie-groups/representation-of-a-lie-algebra|representation of \(\mathfrak g\)]] on a vector space \(V\), possibly infinite-dimensional. A linear subspace \(W\subseteq V\) is a **subrepresentation** (or **\(\mathfrak g\)-submodule**) if it is invariant under the action:
 \[
 \rho(X)(W)\subseteq W \quad \text{for all } X\in\mathfrak g.
 \]
@@ -27,4 +27,4 @@ X\cdot (v+W) = (X\cdot v)+W,
 well-defined precisely because \(W\) is invariant. A representation is **irreducible** (see [[lie-groups/irreducible-representation-lie-algebra|irreducible representations]]) if its only subrepresentations are \(\{0\}\) and \(V\).
 
 ## Why this matters
-Subrepresentations are the “building blocks” for decomposing representations. When \(\mathfrak g\) is semisimple, Weyl’s complete reducibility theorem (see [[lie-groups/weyls-theorem-complete-reducibility|Weyl’s theorem on complete reducibility]]) says every subrepresentation has an invariant complement, so finite-dimensional representations split as direct sums rather than forming nontrivial extensions.
+Subrepresentations are the “building blocks” for decomposing representations. For a finite-dimensional representation of a semisimple Lie algebra over a field of characteristic zero, [[lie-groups/weyls-theorem-complete-reducibility|Weyl’s complete reducibility theorem]] says every subrepresentation has an invariant complement. This conclusion does not extend to arbitrary infinite-dimensional modules.

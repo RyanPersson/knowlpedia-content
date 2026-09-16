@@ -215,3 +215,9 @@ These provide the representation-theoretic input to the
 - [[harmonic-analysis/kazhdan-property-t|Kazhdan property (T)]]
 
 See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.
+
+## Smooth vectors and representation derivatives
+
+- [[lie-groups/smooth-unitary-representations-index|Smooth and distribution vectors: a reading path]]
+- [[lie-groups/trace-class-representation|Trace-class unitary representation]]
+- [[lie-groups/nuclear-smooth-vectors-trace-class|Nuclear smooth vectors and trace-class representations]]

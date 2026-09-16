@@ -15,6 +15,15 @@ relations]] on [[measure-theory/lp-space|\(L^2(\mathbb R^n)\)]] (with Lebesgue m
 \[
  [V(q,p)f](x)=\exp\!\left(i\left(q\mathbin{\cdot}x+\tfrac12q\mathbin{\cdot}p\right)\right)f(x+p).
 \]
+## As a Heisenberg-group representation
+
+For the symmetric coordinates \((a,b,z)\) of the [[lie-groups/heisenberg-group|Heisenberg group]],
+\[
+\pi(a,b,z)=e^{iz}V(b,a),\qquad
+(\pi(a,b,z)f)(x)=e^{i(z+b\cdot x+a\cdot b/2)}f(x+a).
+\]
+The central coordinate supplies the phase needed for an ordinary group representation. Its [[lie-groups/schrodinger-smooth-vectors|smooth vectors are Schwartz functions]]; in one dimension the [[lie-groups/heisenberg-derived-representation|derived operators]] are \(d/dx\), multiplication by \(ix\), and \(iI\).
+
 ## Weyl relation
 
 With \(B((q,p),(q',p'))=q\mathbin{\cdot}p'-p\mathbin{\cdot}q'\), it satisfies

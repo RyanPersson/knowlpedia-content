@@ -24,6 +24,8 @@ Lf=df(V)=V\cdot\nabla f
 \]
 in local coordinates. Consequently \(u(t,x)=f(\Phi^t x)\) solves the linear equation \(\partial_tu=Lu\). The inverse-pullback representation has generator \(-L\).
 
+This is the flow case of the [[lie-groups/derived-pullback-representation|derived pullback representation]]. For general Lie-group actions, the [[lie-groups/smooth-unitary-representations-index|smooth-vector reading path]] explains the common domain, its Fréchet topology, and the relation to distribution vectors.
+
 ## Domain matters
 
 For noncompact spaces or nonsmooth observables the displayed derivative need not belong to \(L^2\). Formal differentiation alone does not specify the domain or establish skew-adjointness.

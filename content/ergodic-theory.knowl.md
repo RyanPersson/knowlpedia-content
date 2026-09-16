@@ -32,6 +32,8 @@ prerequisites = []
 
 ## Three conventions to keep in view
 
+For the regularity and domain questions behind Lie-group generators, see [[lie-groups/smooth-unitary-representations-index|Smooth and distribution vectors: a reading path]].
+
 - For forward time averages use \(U_Tf=f\circ T\). A left group representation uses \(\kappa(g)f=f\circ T_{g^{-1}}\). The inverse makes the order of group multiplication correct.
 - A [[ergodic-theory/number-field-translation-ergodicity|single number-field translation]] has a trace-integrality criterion. The [[ergodic-theory/ring-of-integers-translation-action|joint ring-of-integers action]] has a different invariant-character test.
 - The [[operator-algebras/ergodicity-factor-criterion|factor criterion for crossed products]] requires essential freeness. The regular crossed product uses an additional group-coordinate Hilbert space.
