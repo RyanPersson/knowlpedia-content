@@ -342,3 +342,18 @@ dependency_review_count = 1
 ## Weak equations, regularity, and relaxed models
 
 - [[differential-geometry/h-principle|The h-principle]]
+
+## Connections with ergodic theory
+
+- [[differential-geometry/foliation|Smooth foliation]]
+- [[differential-geometry/kronecker-foliation|Kronecker foliation of the two-torus]]
+- [[differential-geometry/liouville-volume-theorem|Liouville theorem for Hamiltonian volume]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.
+
+## Banach manifolds and infinitesimal actions
+
+- [[differential-geometry/banach-manifold|Smooth Banach manifold]]
+- [[lie-groups/banach-lie-group|Banach–Lie group]]
+- [[lie-groups/fundamental-vector-field-left-action|Fundamental vector field of a left action]]
+- [[lie-groups/derived-pullback-representation|Derived inverse-pullback representation]]

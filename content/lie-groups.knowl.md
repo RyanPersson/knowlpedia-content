@@ -417,3 +417,26 @@ This module covers the foundations of Lie group and Lie algebra theory, includin
 - [[lie-groups/arithmetic-kleinian-group|Arithmetic Kleinian group]]
 - [[lie-groups/noncocompact-arithmetic-kleinian-classification|Noncocompact classification]]
 - [[knowlification/bianchi-index|Complete Bianchi collection]]
+
+## Connections with ergodic theory
+
+- [[lie-groups/howe-moore-theorem|Howe–Moore theorem]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.
+
+## Smooth and distribution vectors
+
+- [[lie-groups/banach-lie-group|Banach–Lie group]]
+- [[lie-groups/norm-unitary-group|Unitary group with operator-norm topology]]
+- [[lie-groups/ck-vector-unitary-representation|Differentiable vector of order k]]
+- [[lie-groups/smooth-vector-frechet-topology|Fréchet topology on smooth vectors]]
+- [[lie-groups/smooth-vectors-iterated-generator-domains|Smooth vectors as iterated generator domains]]
+- [[lie-groups/trace-class-representation|Trace-class unitary representation]]
+- [[lie-groups/nuclear-smooth-vectors-trace-class|Nuclear smooth vectors and trace-class representations]]
+- [[lie-groups/noncompact-finite-dimensional-unitary-example|A finite-dimensional irreducible representation of a noncompact group]]
+- [[lie-groups/modulation-unitary-group|Modulation as a strongly continuous unitary group]]
+- [[lie-groups/schrodinger-smooth-vectors|Smooth vectors of the Schrödinger representation]]
+- [[lie-groups/heisenberg-derived-representation|Derived Heisenberg representation on Schwartz space]]
+- [[lie-groups/fundamental-vector-field-left-action|Fundamental vector field of a left action]]
+- [[lie-groups/derived-pullback-representation|Derived inverse-pullback representation]]
+- [[lie-groups/smooth-unitary-representations-index|Smooth and distribution vectors: a reading path]]

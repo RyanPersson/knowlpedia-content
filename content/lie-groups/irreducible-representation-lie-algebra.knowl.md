@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] and let \(\rho:\mathfrak g\to \mathfrak{gl}(V)\) be a [[lie-groups/representation-of-a-lie-algebra|representation]] on a finite-dimensional vector space \(V\).
+Let \(\mathfrak g\) be a [[lie-groups/lie-algebra|Lie algebra]] and let \(\rho:\mathfrak g\to \mathfrak{gl}(V)\) be a [[lie-groups/representation-of-a-lie-algebra|representation]] on a nonzero vector space \(V\), possibly infinite-dimensional.
 
 **Definition (Irreducible).**
 The representation \((\rho,V)\) is **irreducible** if the only \(\mathfrak g\)-invariant subspaces of \(V\) are \(\{0\}\) and \(V\). Equivalently, \(V\) is a simple \(\mathfrak g\)-module.
@@ -19,6 +19,8 @@ The representation \((\rho,V)\) is **irreducible** if the only \(\mathfrak g\)-i
 A subspace \(W\subseteq V\) is \(\mathfrak g\)-invariant precisely when \(\rho(x)W\subseteq W\) for all \(x\in\mathfrak g\); such a \(W\) is a [[lie-groups/subrepresentation-lie-algebra|subrepresentation]].
 
 ## Remarks
+
+This is algebraic irreducibility: no topology or closedness condition is imposed on invariant subspaces. An [[lie-groups/irreducible-unitary-representation|irreducible unitary representation]] can have an algebraically reducible derived action on its smooth vectors, as the [[lie-groups/heisenberg-derived-representation|Heisenberg example]] demonstrates.
 
 **Context.**
 Irreducibles are the building blocks for representation theory. For semisimple \(\mathfrak g\), every finite-dimensional representation is completely reducible (see [[lie-groups/weyls-theorem-complete-reducibility|Weyl's theorem]] and [[lie-groups/completely-reducible-representation-lie|complete reducibility]]), and irreducibles are classified by the [[lie-groups/highest-weight-theorem|highest-weight theorem]].

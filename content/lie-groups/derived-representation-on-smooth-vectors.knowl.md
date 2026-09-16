@@ -23,6 +23,7 @@ d\pi(X)v=\left.\frac{d}{dt}\right|_{t=0}\pi(\exp(tX))v,
 \qquad X\in\mathfrak g,\quad v\in\mathcal H^\infty.
 \]
 The map \(X\mapsto d\pi(X)\) is a [[lie-groups/representation-of-a-lie-algebra|Lie-algebra representation]] by generally unbounded operators sharing the domain \(\mathcal H^\infty\).
+Here \(\mathfrak g\) is real: dependence on \(X\) is real-linear, while each \(d\pi(X)\) is complex-linear on \(\mathcal H^\infty\).
 
 ## Domain and invariance
 
@@ -30,7 +31,7 @@ The smooth-vector space is preserved both by \(\pi(G)\) and by every
 \(d\pi(X)\). Thus iterated expressions such as
 \(d\pi(X_1)\cdots d\pi(X_k)v\) are defined on one canonical domain, rather
 than on an intersection chosen separately for each product. With its standard
-Fréchet topology, \(\mathcal H^\infty\) is a continuous
+[[lie-groups/smooth-vector-frechet-topology|Fréchet topology]], each \(d\pi(X)\) is a continuous endomorphism of \(\mathcal H^\infty\). The space is a continuous
 [[algebra-modules/module|module]] over the
 [[lie-groups/universal-enveloping-algebra|universal enveloping algebra]]
 \(U(\mathfrak g_{\mathbb C})\). The density and invariance of this space are
@@ -64,6 +65,10 @@ These identities hold on the smooth domain; treating the operators as
 everywhere-defined bounded operators is generally incorrect. If the original
 representation is finite-dimensional and smooth, this construction reduces to
 the ordinary differential of a Lie-group representation.
+
+## Concrete and geometric realizations
+
+The [[lie-groups/heisenberg-derived-representation|Heisenberg example]] gives differentiation and multiplication by \(ix\) on Schwartz space, with their commutator equal to \(iI\). For functions transported by inverse pullback along a smooth action, the derivative is [[lie-groups/derived-pullback-representation|minus the Lie derivative]] along the positive-exponential fundamental field.
 
 ## References
 

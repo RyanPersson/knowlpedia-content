@@ -95,3 +95,11 @@ Click any term to expand its definition inline.
 - [[noncommutative-geometry/semifinite-local-index-formula|Semifinite local index formula]]
 - [[noncommutative-geometry/semifinite-spectral-triple|Semifinite spectral triple]]
 - [[noncommutative-geometry/tau-summable-spectral-triple|Tau-summable semifinite spectral triple]]
+
+## Connections with ergodic theory
+
+- [[noncommutative-geometry/rotation-algebra|Noncommutative two-torus]]
+- [[noncommutative-geometry/rotation-algebra-derivations|Canonical derivations of the noncommutative torus]]
+- [[noncommutative-geometry/smooth-noncommutative-torus|Smooth noncommutative torus]]
+
+See the [[ergodic-theory|ergodic theory reading paths]] for the surrounding constructions and theorems.

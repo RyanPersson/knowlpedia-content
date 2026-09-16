@@ -116,3 +116,10 @@ Riemannian scalar and Dirac operators are elliptic; Lorentzian wave operators ar
 
 1. Christian Bär, Nicolas Ginoux, and Frank Pfäffle, *Wave Equations on Lorentzian Manifolds and Quantization*, European Mathematical Society, 2007. [Publisher record](https://doi.org/10.4171/037).
 2. H. Blaine Lawson Jr. and Marie-Louise Michelsohn, *Spin Geometry*, Princeton University Press, 1989. [Publisher record](https://doi.org/10.1515/9781400883912).
+
+## Smooth domains for the Schrödinger representation
+
+- [[lie-groups/schrodinger-smooth-vectors|Smooth vectors of the Schrödinger representation]]
+- [[lie-groups/heisenberg-derived-representation|Derived Heisenberg representation on Schwartz space]]
+- [[lie-groups/modulation-unitary-group|Modulation as a strongly continuous unitary group]]
+- [[lie-groups/smooth-unitary-representations-index|Smooth and distribution vectors: a reading path]]

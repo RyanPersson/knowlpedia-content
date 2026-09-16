@@ -27,6 +27,8 @@ Every norm-continuous homomorphism \(G\to\mathcal U(\mathcal H)\) is strongly co
 
 ## Conventions and scope
 
+The [[lie-groups/modulation-unitary-group|modulation example]] satisfies \(\|M_t-I\|_{\mathrm{op}}=2\) for every \(t\ne0\), despite strong continuity. A smooth map into the [[lie-groups/norm-unitary-group|operator-norm unitary group]] imposes a stronger condition and has bounded infinitesimal operators.
+
 Some authors say simply “unitary representation” and include strong continuity in the term. For a discrete group the condition is automatic. A finite-dimensional [[lie-groups/representation-of-a-lie-group|representation of a Lie group]] is often formulated using smoothness; the present notion is designed to include infinite-dimensional Hilbert spaces and does not assert operator-norm continuity.
 
 ## References
