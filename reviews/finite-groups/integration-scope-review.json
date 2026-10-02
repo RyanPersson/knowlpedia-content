@@ -1,0 +1,19 @@
+{
+  "findings": [
+    {
+      "id": "algebra-groups/finite-group",
+      "decision": "retain",
+      "reason": "Order is the cardinality notation of the finite group being defined, an indispensable numerical attribute rather than a second independently developed construction. The underlying finite-set knowl already owns cardinality."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-2-3",
+      "decision": "retain",
+      "reason": "The phrase general linear group here is explicitly GL_2(F_3); the linked finite GL_2(3) construction is the intended owner. The audit’s suggested real/complex Lie-group owner has the wrong scalar setting."
+    }
+  ],
+  "preexisting_section_audit_finding": {
+    "id": "fiber-bundles/construction-splitting-of-atiyah-sequence-from-a-principal-connection",
+    "unchanged_from": "8ce039be",
+    "action": "Out of this finite-group task; source is byte-identical to baseline."
+  }
+}

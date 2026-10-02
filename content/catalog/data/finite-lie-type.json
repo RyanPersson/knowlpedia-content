@@ -1,0 +1,3940 @@
+{
+  "schema_version": 1,
+  "objects": [
+    {
+      "id": "fg-psl-n-q",
+      "name": "PSL(n,q)",
+      "notation": "\\operatorname{PSL}_{n}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": "n",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n ≥ 2",
+        "q is a prime power",
+        "(n,q) ≠ (2,2),(2,3)"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{n(n-1)/2}\\prod_{i=2}^{n}(q^i-1)}{\\gcd(n,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every admitted parameter: n ≥ 2, with (n,q) different from (2,2) and (2,3).",
+          "parameter_summary": "n ≥ 2; q is a prime power; (n,q) ≠ (2,2),(2,3)",
+          "construction_summary": "Determinant-one n by n matrices over F_q, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank n − 1",
+          "display_order": 0
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-n-q",
+      "name": "PSU(n,q)",
+      "notation": "\\operatorname{PSU}_{n}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": "n",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n ≥ 3",
+        "q is a prime power",
+        "(n,q) ≠ (3,2)"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{n(n-1)/2}\\prod_{i=2}^{n}(q^i-(-1)^i)}{\\gcd(n,q+1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every admitted parameter: n ≥ 3 and (n,q) ≠ (3,2).",
+          "parameter_summary": "n ≥ 3; q is a prime power; (n,q) ≠ (3,2)",
+          "construction_summary": "Special unitary n by n matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter.",
+          "rank_label": "Absolute rank n − 1",
+          "display_order": 1
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-1-q",
+      "name": "PSL(1,q)",
+      "notation": "\\operatorname{PSL}_{1}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 1,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-1-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "1",
+          "order_decimal": "1",
+          "simple": false,
+          "simple_condition": "It is the trivial group, so it is not simple under the nontrivial-group convention.",
+          "parameter_summary": "q is a prime power",
+          "construction_summary": "Determinant-one 1 by 1 matrices over F_q, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 0"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-q",
+      "name": "PSL(2,q)",
+      "notation": "\\operatorname{PSL}_{2}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q(q^{2}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "It is simple exactly when q ≥ 4; q = 2 and q = 3 are the two nonsimple cases.",
+          "parameter_summary": "n = 2; q is a prime power",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_q, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-3-q",
+      "name": "PSL(3,q)",
+      "notation": "\\operatorname{PSL}_{3}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 3,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-3-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{3}(q^{2}-1)(q^{3}-1)}{\\gcd(3,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every prime power q.",
+          "parameter_summary": "n = 3; q is a prime power",
+          "construction_summary": "Determinant-one 3 by 3 matrices over F_q, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-4-q",
+      "name": "PSL(4,q)",
+      "notation": "\\operatorname{PSL}_{4}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 4,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 4",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{6}(q^{2}-1)(q^{3}-1)(q^{4}-1)}{\\gcd(4,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every prime power q.",
+          "parameter_summary": "n = 4; q is a prime power",
+          "construction_summary": "Determinant-one 4 by 4 matrices over F_q, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 3"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-1-q",
+      "name": "PSU(1,q)",
+      "notation": "\\operatorname{PSU}_{1}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": 1,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-1-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "abelian-groups"
+      ],
+      "constraints": [
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "1",
+          "order_decimal": "1",
+          "simple": false,
+          "simple_condition": "It is the trivial group, so it is not simple under the nontrivial-group convention.",
+          "parameter_summary": "q is a prime power",
+          "construction_summary": "Special unitary 1 by 1 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter.",
+          "rank_label": "Absolute rank 0"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-2-q",
+      "name": "PSU(2,q)",
+      "notation": "\\operatorname{PSU}_{2}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": 2,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q(q^{2}-1)}{\\gcd(2,q+1)}",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "It is simple exactly when q ≥ 4, since PSU(2,q) is isomorphic to PSL(2,q).",
+          "parameter_summary": "n = 2; q is a prime power",
+          "construction_summary": "Special unitary 2 by 2 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-3-q",
+      "name": "PSU(3,q)",
+      "notation": "\\operatorname{PSU}_{3}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": 3,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-3-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{3}(q^{2}-1)(q^{3}+1)}{\\gcd(3,q+1)}",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "It is simple exactly when q ≥ 3.",
+          "parameter_summary": "n = 3; q is a prime power",
+          "construction_summary": "Special unitary 3 by 3 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-4-q",
+      "name": "PSU(4,q)",
+      "notation": "\\operatorname{PSU}_{4}(q)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": 4,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 4",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{6}(q^{2}-1)(q^{3}+1)(q^{4}-1)}{\\gcd(4,q+1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every prime power q.",
+          "parameter_summary": "n = 4; q is a prime power",
+          "construction_summary": "Special unitary 4 by 4 matrices over F_(q²), modulo their scalar center; q is the fixed-field parameter.",
+          "rank_label": "Absolute rank 3"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-2",
+      "name": "PSL(2,2)",
+      "notation": "\\operatorname{PSL}_{2}(2)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "6",
+          "order_decimal": "6",
+          "simple": false,
+          "simple_condition": "It is not simple: PSL(2,2) is isomorphic to S₃.",
+          "parameter_summary": "n = 2; q = 2",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_2, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-3",
+      "name": "PSL(2,3)",
+      "notation": "\\operatorname{PSL}_{2}(3)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": 3
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "12",
+          "order_decimal": "12",
+          "simple": false,
+          "simple_condition": "It is not simple: PSL(2,3) is isomorphic to A₄.",
+          "parameter_summary": "n = 2; q = 3",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_3, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-4",
+      "name": "PSL(2,4)",
+      "notation": "\\operatorname{PSL}_{2}(4)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": 4
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-4",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 4"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "60",
+          "order_decimal": "60",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 2; q = 4",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_4, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-5",
+      "name": "PSL(2,5)",
+      "notation": "\\operatorname{PSL}_{2}(5)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": 5
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-5",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 5"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "60",
+          "order_decimal": "60",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 2; q = 5",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_5, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-7",
+      "name": "PSL(2,7)",
+      "notation": "\\operatorname{PSL}_{2}(7)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": 7
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-7",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 7"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "168",
+          "order_decimal": "168",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 2; q = 7",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_7, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-8",
+      "name": "PSL(2,8)",
+      "notation": "\\operatorname{PSL}_{2}(8)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": 8
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-8",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 8"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "504",
+          "order_decimal": "504",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 2; q = 8",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_8, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-9",
+      "name": "PSL(2,9)",
+      "notation": "\\operatorname{PSL}_{2}(9)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": 9
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-9",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 9"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "360",
+          "order_decimal": "360",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 2; q = 9",
+          "construction_summary": "Determinant-one 2 by 2 matrices over F_9, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 1"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-3-2",
+      "name": "PSL(3,2)",
+      "notation": "\\operatorname{PSL}_{3}(2)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 3,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-3-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "168",
+          "order_decimal": "168",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 3; q = 2",
+          "construction_summary": "Determinant-one 3 by 3 matrices over F_2, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-3-4",
+      "name": "PSL(3,4)",
+      "notation": "\\operatorname{PSL}_{3}(4)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 3,
+        "q": 4
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-3-4",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q = 4"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "20160",
+          "order_decimal": "20160",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 3; q = 4",
+          "construction_summary": "Determinant-one 3 by 3 matrices over F_4, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-4-2",
+      "name": "PSL(4,2)",
+      "notation": "\\operatorname{PSL}_{4}(2)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 4,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-4-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 4",
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "20160",
+          "order_decimal": "20160",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 4; q = 2",
+          "construction_summary": "Determinant-one 4 by 4 matrices over F_2, modulo scalar matrices of determinant one.",
+          "rank_label": "Absolute rank 3"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-3-2",
+      "name": "PSU(3,2)",
+      "notation": "\\operatorname{PSU}_{3}(2)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": 3,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-3-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "72",
+          "order_decimal": "72",
+          "simple": false,
+          "simple_condition": "It is not simple: PSU(3,2) is a solvable group of order 72.",
+          "parameter_summary": "n = 3; q = 2",
+          "construction_summary": "Special unitary 3 by 3 matrices over F_(2²), modulo their scalar center; 2 is the fixed-field parameter.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-3-3",
+      "name": "PSU(3,3)",
+      "notation": "\\operatorname{PSU}_{3}(3)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": 3,
+        "q": 3
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-3-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q = 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "6048",
+          "order_decimal": "6048",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 3; q = 3",
+          "construction_summary": "Special unitary 3 by 3 matrices over F_(3²), modulo their scalar center; 3 is the fixed-field parameter.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "fg-psu-4-2",
+      "name": "PSU(4,2)",
+      "notation": "\\operatorname{PSU}_{4}(2)",
+      "kind": "finite-group",
+      "family": "projective-special-unitary-group",
+      "parameters": {
+        "n": 4,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/psu-4-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 4",
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "25920",
+          "order_decimal": "25920",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 4; q = 2",
+          "construction_summary": "Special unitary 4 by 4 matrices over F_(2²), modulo their scalar center; 2 is the fixed-field parameter.",
+          "rank_label": "Absolute rank 3"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psp-2n-q",
+      "name": "PSp(2n,q)",
+      "notation": "\\operatorname{PSp}_{2n}(q)",
+      "kind": "finite-group",
+      "family": "projective-symplectic-group",
+      "parameters": {
+        "n": "n",
+        "matrix_dimension": "2n",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psp-2n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n ≥ 2",
+        "q is a prime power",
+        "(n,q) ≠ (2,2)"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{n^2}\\prod_{i=1}^{n}(q^{2i}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every admitted parameter: n ≥ 2 and (n,q) ≠ (2,2).",
+          "parameter_summary": "n ≥ 2; q is a prime power; (n,q) ≠ (2,2)",
+          "construction_summary": "Symplectic matrices of size 2n over F_q, modulo the scalar center.",
+          "rank_label": "Rank n; matrix dimension 2n",
+          "display_order": 2
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "fg-psp-2-q",
+      "name": "PSp(2,q)",
+      "notation": "\\operatorname{PSp}_{2}(q)",
+      "kind": "finite-group",
+      "family": "projective-symplectic-group",
+      "parameters": {
+        "n": 1,
+        "matrix_dimension": 2,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psp-2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 1",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q(q^{2}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "It is simple exactly when q ≥ 4.",
+          "parameter_summary": "n = 1; q is a prime power",
+          "construction_summary": "Symplectic matrices of size 2 over F_q, modulo the scalar center.",
+          "rank_label": "Rank 1; matrix dimension 2"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "fg-psp-4-q",
+      "name": "PSp(4,q)",
+      "notation": "\\operatorname{PSp}_{4}(q)",
+      "kind": "finite-group",
+      "family": "projective-symplectic-group",
+      "parameters": {
+        "n": 2,
+        "matrix_dimension": 4,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psp-4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{4}(q^{2}-1)(q^{4}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": null,
+          "simple_condition": "It is simple exactly when q ≥ 3.",
+          "parameter_summary": "n = 2; q is a prime power",
+          "construction_summary": "Symplectic matrices of size 4 over F_q, modulo the scalar center.",
+          "rank_label": "Rank 2; matrix dimension 4"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "fg-psp-6-q",
+      "name": "PSp(6,q)",
+      "notation": "\\operatorname{PSp}_{6}(q)",
+      "kind": "finite-group",
+      "family": "projective-symplectic-group",
+      "parameters": {
+        "n": 3,
+        "matrix_dimension": 6,
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psp-6-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{9}(q^{2}-1)(q^{4}-1)(q^{6}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every prime power q.",
+          "parameter_summary": "n = 3; q is a prime power",
+          "construction_summary": "Symplectic matrices of size 6 over F_q, modulo the scalar center.",
+          "rank_label": "Rank 3; matrix dimension 6"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "fg-psp-4-2",
+      "name": "PSp(4,2)",
+      "notation": "\\operatorname{PSp}_{4}(2)",
+      "kind": "finite-group",
+      "family": "projective-symplectic-group",
+      "parameters": {
+        "n": 2,
+        "matrix_dimension": 4,
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/psp-4-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "720",
+          "order_decimal": "720",
+          "simple": false,
+          "simple_condition": "It is not simple: PSp(4,2) is isomorphic to S₆.",
+          "parameter_summary": "n = 2; q = 2",
+          "construction_summary": "Symplectic matrices of size 4 over F_2, modulo the scalar center.",
+          "rank_label": "Rank 2; matrix dimension 4"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "fg-psp-4-3",
+      "name": "PSp(4,3)",
+      "notation": "\\operatorname{PSp}_{4}(3)",
+      "kind": "finite-group",
+      "family": "projective-symplectic-group",
+      "parameters": {
+        "n": 2,
+        "matrix_dimension": 4,
+        "q": 3
+      },
+      "knowl": "catalog/finite-groups/lie-type/psp-4-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q = 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "25920",
+          "order_decimal": "25920",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "n = 2; q = 3",
+          "construction_summary": "Symplectic matrices of size 4 over F_3, modulo the scalar center.",
+          "rank_label": "Rank 2; matrix dimension 4"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-odd-n-q",
+      "name": "PΩ(2n+1,q)",
+      "notation": "\\operatorname{P}\\Omega_{2n+1}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": "n",
+        "matrix_dimension": "2n+1",
+        "q": "q",
+        "type": "odd"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n ≥ 3",
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{n^2}\\prod_{i=1}^{n}(q^{2i}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n ≥ 3; q is a prime power with q ≥ 2",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 2n+1.",
+          "rank_label": "Rank n; quadratic dimension 2n+1",
+          "display_order": 3
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-plus-2n-q",
+      "name": "PΩ+(2n,q)",
+      "notation": "\\operatorname{P}\\Omega_{2n}^{+}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": "n",
+        "matrix_dimension": "2n",
+        "q": "q",
+        "type": "plus"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n ≥ 4",
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{n(n-1)}(q^{n}-1)\\prod_{i=1}^{n-1}(q^{2i}-1)}{\\gcd(4,q^{n}-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n ≥ 4; q is a prime power with q ≥ 2",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a plus-type quadratic form in dimension 2n.",
+          "rank_label": "Rank n; quadratic dimension 2n",
+          "display_order": 4
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-minus-2n-q",
+      "name": "PΩ-(2n,q)",
+      "notation": "\\operatorname{P}\\Omega_{2n}^{-}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": "n",
+        "matrix_dimension": "2n",
+        "q": "q",
+        "type": "minus"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n ≥ 4",
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{n(n-1)}(q^{n}+1)\\prod_{i=1}^{n-1}(q^{2i}-1)}{\\gcd(4,q^{n}+1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n ≥ 4; q is a prime power with q ≥ 2",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a minus-type quadratic form in dimension 2n.",
+          "rank_label": "Rank n; quadratic dimension 2n",
+          "display_order": 5
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-3-q",
+      "name": "PΩ(3,q)",
+      "notation": "\\operatorname{P}\\Omega_{3}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": 1,
+        "matrix_dimension": 3,
+        "q": "q",
+        "type": "odd"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-3-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 1",
+        "q is a prime power with q ≥ 4"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{1^2}\\prod_{i=1}^{1}(q^{2i}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n = 1; q is a prime power with q ≥ 4",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 3.",
+          "rank_label": "Rank 1; quadratic dimension 3"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-5-q",
+      "name": "PΩ(5,q)",
+      "notation": "\\operatorname{P}\\Omega_{5}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": 2,
+        "matrix_dimension": 5,
+        "q": "q",
+        "type": "odd"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-5-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q is a prime power with q ≥ 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{2^2}\\prod_{i=1}^{2}(q^{2i}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n = 2; q is a prime power with q ≥ 3",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 5.",
+          "rank_label": "Rank 2; quadratic dimension 5"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-7-q",
+      "name": "PΩ(7,q)",
+      "notation": "\\operatorname{P}\\Omega_{7}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": 3,
+        "matrix_dimension": 7,
+        "q": "q",
+        "type": "odd"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-7-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{3^2}\\prod_{i=1}^{3}(q^{2i}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n = 3; q is a prime power with q ≥ 2",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a odd-type quadratic form in dimension 7.",
+          "rank_label": "Rank 3; quadratic dimension 7"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-plus-4-q",
+      "name": "PΩ+(4,q)",
+      "notation": "\\operatorname{P}\\Omega_{4}^{+}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": 2,
+        "matrix_dimension": 4,
+        "q": "q",
+        "type": "plus"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-plus-4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q is a prime power with q ≥ 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{2(2-1)}(q^{2}-1)\\prod_{i=1}^{2-1}(q^{2i}-1)}{\\gcd(4,q^{2}-1)}",
+          "order_decimal": null,
+          "simple": false,
+          "simple_condition": "It is never simple: it is a direct product of two nontrivial copies of PSL(2,q).",
+          "parameter_summary": "n = 2; q is a prime power with q ≥ 3",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a plus-type quadratic form in dimension 4.",
+          "rank_label": "Rank 2; quadratic dimension 4"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-plus-6-q",
+      "name": "PΩ+(6,q)",
+      "notation": "\\operatorname{P}\\Omega_{6}^{+}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": 3,
+        "matrix_dimension": 6,
+        "q": "q",
+        "type": "plus"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{3(3-1)}(q^{3}-1)\\prod_{i=1}^{3-1}(q^{2i}-1)}{\\gcd(4,q^{3}-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n = 3; q is a prime power with q ≥ 2",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a plus-type quadratic form in dimension 6.",
+          "rank_label": "Rank 3; quadratic dimension 6"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-minus-4-q",
+      "name": "PΩ-(4,q)",
+      "notation": "\\operatorname{P}\\Omega_{4}^{-}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": 2,
+        "matrix_dimension": 4,
+        "q": "q",
+        "type": "minus"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 2",
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{2(2-1)}(q^{2}+1)\\prod_{i=1}^{2-1}(q^{2i}-1)}{\\gcd(4,q^{2}+1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n = 2; q is a prime power with q ≥ 2",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a minus-type quadratic form in dimension 4.",
+          "rank_label": "Rank 2; quadratic dimension 4"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-omega-minus-6-q",
+      "name": "PΩ-(6,q)",
+      "notation": "\\operatorname{P}\\Omega_{6}^{-}(q)",
+      "kind": "finite-group",
+      "family": "finite-projective-orthogonal-group",
+      "parameters": {
+        "n": 3,
+        "matrix_dimension": 6,
+        "q": "q",
+        "type": "minus"
+      },
+      "knowl": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "n = 3",
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^{3(3-1)}(q^{3}+1)\\prod_{i=1}^{3-1}(q^{2i}-1)}{\\gcd(4,q^{3}+1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "n = 3; q is a prime power with q ≥ 2",
+          "construction_summary": "Projective commutator subgroup of the isometry group of a minus-type quadratic form in dimension 6.",
+          "rank_label": "Rank 3; quadratic dimension 6"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/FSG/notes3.pdf",
+          "title": "Robert A. Wilson, Classical groups (lecture notes)",
+          "locator": "§3.1.7, pp. 5–6; §§3.2–3.4, pp. 7–17"
+        }
+      ]
+    },
+    {
+      "id": "fg-psl-2-q2",
+      "name": "PSL(2,q²)",
+      "notation": "\\operatorname{PSL}_2(q^2)",
+      "kind": "finite-group",
+      "family": "projective-special-linear-group",
+      "parameters": {
+        "n": 2,
+        "q": "q²"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psl-2-q2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "family",
+          "section": "classical",
+          "order_tex": "\\frac{q^2(q^4-1)}{\\gcd(2,q^2-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is simple for every admitted prime power q, since q² ≥ 4.",
+          "parameter_summary": "q is a prime power",
+          "construction_summary": "Determinant-one two by two matrices over F_(q²), modulo scalar matrices.",
+          "rank_label": "Rank 1 over the matrix field F_(q²)"
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+        },
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+        }
+      ]
+    },
+    {
+      "id": "fg-g2-q",
+      "name": "G₂(q)",
+      "notation": "G_2(q)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "G_2",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/g2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power with q ≥ 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "q^{6}(q^{2}-1)(q^{6}-1)",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted prime power q.",
+          "parameter_summary": "q is a prime power with q ≥ 3",
+          "construction_summary": "The finite Chevalley group of type G₂, with its finite center divided out.",
+          "rank_label": "Absolute rank 2",
+          "display_order": 0
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "fg-f4-q",
+      "name": "F₄(q)",
+      "notation": "F_4(q)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "F_4",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/f4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "q^{24}(q^{2}-1)(q^{6}-1)(q^{8}-1)(q^{12}-1)",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted prime power q.",
+          "parameter_summary": "q is a prime power with q ≥ 2",
+          "construction_summary": "The finite Chevalley group of type F₄, with its finite center divided out.",
+          "rank_label": "Absolute rank 4",
+          "display_order": 1
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-e6-q",
+      "name": "E₆(q)",
+      "notation": "E_6(q)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "E_6",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/e6-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "\\frac{q^{36}(q^{2}-1)(q^{5}-1)(q^{6}-1)(q^{8}-1)(q^{9}-1)(q^{12}-1)}{\\gcd(3,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted prime power q.",
+          "parameter_summary": "q is a prime power with q ≥ 2",
+          "construction_summary": "The finite Chevalley group of type E₆, with its finite center divided out.",
+          "rank_label": "Absolute rank 6",
+          "display_order": 2
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-e7-q",
+      "name": "E₇(q)",
+      "notation": "E_7(q)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "E_7",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/e7-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "\\frac{q^{63}(q^{2}-1)(q^{6}-1)(q^{8}-1)(q^{10}-1)(q^{12}-1)(q^{14}-1)(q^{18}-1)}{\\gcd(2,q-1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted prime power q.",
+          "parameter_summary": "q is a prime power with q ≥ 2",
+          "construction_summary": "The finite Chevalley group of type E₇, with its finite center divided out.",
+          "rank_label": "Absolute rank 7",
+          "display_order": 3
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-e8-q",
+      "name": "E₈(q)",
+      "notation": "E_8(q)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "E_8",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/e8-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power with q ≥ 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "q^{120}(q^{2}-1)(q^{8}-1)(q^{12}-1)(q^{14}-1)(q^{18}-1)(q^{20}-1)(q^{24}-1)(q^{30}-1)",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted prime power q.",
+          "parameter_summary": "q is a prime power with q ≥ 2",
+          "construction_summary": "The finite Chevalley group of type E₈, with its finite center divided out.",
+          "rank_label": "Absolute rank 8",
+          "display_order": 4
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-g2-2",
+      "name": "G₂(2)",
+      "notation": "G_2(2)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "G_2",
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/g2-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "12096",
+          "order_decimal": "12096",
+          "simple": false,
+          "simple_condition": "It is not simple: its commutator subgroup has index two and is isomorphic to PSU(3,3).",
+          "parameter_summary": "q = 2",
+          "construction_summary": "The finite Chevalley group of type G₂, with its finite center divided out.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "fg-f4-2",
+      "name": "F₄(2)",
+      "notation": "F_4(2)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "F_4",
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/f4-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "3311126603366400",
+          "order_decimal": "3311126603366400",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "q = 2",
+          "construction_summary": "The finite Chevalley group of type F₄, with its finite center divided out.",
+          "rank_label": "Absolute rank 4"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/F42/",
+          "title": "ATLAS of Finite Group Representations: F₄(2)",
+          "locator": "Group heading: exact order 3311126603366400"
+        }
+      ]
+    },
+    {
+      "id": "fg-e6-2",
+      "name": "E₆(2)",
+      "notation": "E_6(2)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "E_6",
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/e6-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "214841575522005575270400",
+          "order_decimal": "214841575522005575270400",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "q = 2",
+          "construction_summary": "The finite Chevalley group of type E₆, with its finite center divided out.",
+          "rank_label": "Absolute rank 6"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-e7-2",
+      "name": "E₇(2)",
+      "notation": "E_7(2)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "E_7",
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/e7-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "7997476042075799759100487262680802918400",
+          "order_decimal": "7997476042075799759100487262680802918400",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "q = 2",
+          "construction_summary": "The finite Chevalley group of type E₇, with its finite center divided out.",
+          "rank_label": "Absolute rank 7"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/E72/",
+          "title": "ATLAS of Finite Group Representations: E₇(2)",
+          "locator": "Group heading: exact order 7997476042075799759100487262680802918400"
+        }
+      ]
+    },
+    {
+      "id": "fg-e8-2",
+      "name": "E₈(2)",
+      "notation": "E_8(2)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "E_8",
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/e8-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "337804753143634806261388190614085595079991692242467651576160959909068800000",
+          "order_decimal": "337804753143634806261388190614085595079991692242467651576160959909068800000",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "q = 2",
+          "construction_summary": "The finite Chevalley group of type E₈, with its finite center divided out.",
+          "rank_label": "Absolute rank 8"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/E82/",
+          "title": "ATLAS of Finite Group Representations: E₈(2)",
+          "locator": "Group heading: exact order 337804753143634806261388190614085595079991692242467651576160959909068800000"
+        }
+      ]
+    },
+    {
+      "id": "fg-g2-3",
+      "name": "G₂(3)",
+      "notation": "G_2(3)",
+      "kind": "finite-group",
+      "family": "finite-exceptional-chevalley-group",
+      "parameters": {
+        "type": "G_2",
+        "q": 3
+      },
+      "knowl": "catalog/finite-groups/lie-type/g2-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 3"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "4245696",
+          "order_decimal": "4245696",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "q = 3",
+          "construction_summary": "The finite Chevalley group of type G₂, with its finite center divided out.",
+          "rank_label": "Absolute rank 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        }
+      ]
+    },
+    {
+      "id": "fg-triality-d4-q",
+      "name": "³D₄(q)",
+      "notation": "{}^3D_4(q)",
+      "kind": "finite-group",
+      "family": "finite-graph-twisted-group",
+      "parameters": {
+        "type": "3D4",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/triality-d4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "q^{12}(q^8+q^4+1)(q^6-1)(q^2-1)",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q is a prime power",
+          "construction_summary": "Fixed points of a diagram automorphism of order 3 composed with q-power Frobenius, modulo the finite center.",
+          "rank_label": "Absolute rank 4; graph twist order 3",
+          "display_order": 8
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-triality-d4-2",
+      "name": "³D₄(2)",
+      "notation": "{}^3D_4(2)",
+      "kind": "finite-group",
+      "family": "finite-graph-twisted-group",
+      "parameters": {
+        "type": "3D4",
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/triality-d4-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "211341312",
+          "order_decimal": "211341312",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 2",
+          "construction_summary": "Fixed points of a diagram automorphism of order 3 composed with q-power Frobenius, modulo the finite center.",
+          "rank_label": "Absolute rank 4; graph twist order 3"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/TD42/",
+          "title": "ATLAS of Finite Group Representations: ³D₄(2)",
+          "locator": "Group heading: exact order 211341312"
+        }
+      ]
+    },
+    {
+      "id": "fg-twisted-e6-q",
+      "name": "²E₆(q)",
+      "notation": "{}^2E_6(q)",
+      "kind": "finite-group",
+      "family": "finite-graph-twisted-group",
+      "parameters": {
+        "type": "2E6",
+        "q": "q"
+      },
+      "knowl": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q is a prime power"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "\\frac{q^{36}(q^{12}-1)(q^9+1)(q^8-1)(q^6-1)(q^5+1)(q^2-1)}{\\gcd(3,q+1)}",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q is a prime power",
+          "construction_summary": "Fixed points of a diagram automorphism of order 2 composed with q-power Frobenius, modulo the finite center.",
+          "rank_label": "Absolute rank 6; graph twist order 2",
+          "display_order": 9
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-twisted-e6-2",
+      "name": "²E₆(2)",
+      "notation": "{}^2E_6(2)",
+      "kind": "finite-group",
+      "family": "finite-graph-twisted-group",
+      "parameters": {
+        "type": "2E6",
+        "q": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "76532479683774853939200",
+          "order_decimal": "76532479683774853939200",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 2",
+          "construction_summary": "Fixed points of a diagram automorphism of order 2 composed with q-power Frobenius, modulo the finite center.",
+          "rank_label": "Absolute rank 6; graph twist order 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/TE62/",
+          "title": "ATLAS of Finite Group Representations: ²E₆(2)",
+          "locator": "Group heading: exact order 76532479683774853939200"
+        }
+      ]
+    },
+    {
+      "id": "fg-sz-q",
+      "name": "Sz(q)",
+      "notation": "{}^2B_2(q)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2B2",
+        "q": "q",
+        "characteristic": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/sz-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2^(2m+1)",
+        "m is an integer ≥ 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "q^2(q^2+1)(q-1)",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 2^(2m+1); m is an integer ≥ 1",
+          "construction_summary": "Fixed points of the exceptional B2 endomorphism composed with Frobenius in characteristic 2.",
+          "rank_label": "Absolute rank 2; exceptional twist in characteristic 2",
+          "display_order": 5
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-sz-2",
+      "name": "Sz(2)",
+      "notation": "{}^2B_2(2)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2B2",
+        "q": 2,
+        "characteristic": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/sz-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "q = 2",
+        "m = 0"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "20",
+          "order_decimal": "20",
+          "simple": false,
+          "simple_condition": "It is not simple: Sz(2) is a solvable Frobenius group of order 20.",
+          "parameter_summary": "q = 2; m = 0",
+          "construction_summary": "Fixed points of the exceptional B2 endomorphism composed with Frobenius in characteristic 2.",
+          "rank_label": "Absolute rank 2; exceptional twist in characteristic 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-sz-8",
+      "name": "Sz(8)",
+      "notation": "{}^2B_2(8)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2B2",
+        "q": 8,
+        "characteristic": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/sz-8",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 8",
+        "m = 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "29120",
+          "order_decimal": "29120",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 8; m = 1",
+          "construction_summary": "Fixed points of the exceptional B2 endomorphism composed with Frobenius in characteristic 2.",
+          "rank_label": "Absolute rank 2; exceptional twist in characteristic 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-ree-g2-q",
+      "name": "²G₂(q)",
+      "notation": "{}^2G_2(q)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2G2",
+        "q": "q",
+        "characteristic": 3
+      },
+      "knowl": "catalog/finite-groups/lie-type/ree-g2-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 3^(2m+1)",
+        "m is an integer ≥ 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "q^3(q^3+1)(q-1)",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 3^(2m+1); m is an integer ≥ 1",
+          "construction_summary": "Fixed points of the exceptional G2 endomorphism composed with Frobenius in characteristic 3.",
+          "rank_label": "Absolute rank 2; exceptional twist in characteristic 3",
+          "display_order": 6
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-ree-g2-3",
+      "name": "²G₂(3)",
+      "notation": "{}^2G_2(3)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2G2",
+        "q": 3,
+        "characteristic": 3
+      },
+      "knowl": "catalog/finite-groups/lie-type/ree-g2-3",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "q = 3",
+        "m = 0"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "1512",
+          "order_decimal": "1512",
+          "simple": false,
+          "simple_condition": "It is not simple: its commutator subgroup is PSL(2,8), of index three.",
+          "parameter_summary": "q = 3; m = 0",
+          "construction_summary": "Fixed points of the exceptional G2 endomorphism composed with Frobenius in characteristic 3.",
+          "rank_label": "Absolute rank 2; exceptional twist in characteristic 3"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-ree-g2-27",
+      "name": "²G₂(27)",
+      "notation": "{}^2G_2(27)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2G2",
+        "q": 27,
+        "characteristic": 3
+      },
+      "knowl": "catalog/finite-groups/lie-type/ree-g2-27",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 27",
+        "m = 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "10073444472",
+          "order_decimal": "10073444472",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 27; m = 1",
+          "construction_summary": "Fixed points of the exceptional G2 endomorphism composed with Frobenius in characteristic 3.",
+          "rank_label": "Absolute rank 2; exceptional twist in characteristic 3"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/exc/R27/",
+          "title": "ATLAS of Finite Group Representations: ²G₂(27)",
+          "locator": "Group heading: exact order 10073444472"
+        }
+      ]
+    },
+    {
+      "id": "fg-ree-f4-q",
+      "name": "²F₄(q)",
+      "notation": "{}^2F_4(q)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2F4",
+        "q": "q",
+        "characteristic": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/ree-f4-q",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 2^(2m+1)",
+        "m is an integer ≥ 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "simple-family",
+          "section": "exceptional",
+          "order_tex": "q^{12}(q^6+1)(q^4-1)(q^3+1)(q-1)",
+          "order_decimal": null,
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 2^(2m+1); m is an integer ≥ 1",
+          "construction_summary": "Fixed points of the exceptional F4 endomorphism composed with Frobenius in characteristic 2.",
+          "rank_label": "Absolute rank 4; exceptional twist in characteristic 2",
+          "display_order": 7
+        }
+      },
+      "status": "family",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-ree-f4-2",
+      "name": "²F₄(2)",
+      "notation": "{}^2F_4(2)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2F4",
+        "q": 2,
+        "characteristic": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/ree-f4-2",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups"
+      ],
+      "constraints": [
+        "q = 2",
+        "m = 0"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "35942400",
+          "order_decimal": "35942400",
+          "simple": false,
+          "simple_condition": "It is not simple: its commutator subgroup is the simple Tits group, of index two.",
+          "parameter_summary": "q = 2; m = 0",
+          "construction_summary": "Fixed points of the exceptional F4 endomorphism composed with Frobenius in characteristic 2.",
+          "rank_label": "Absolute rank 4; exceptional twist in characteristic 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-ree-f4-8",
+      "name": "²F₄(8)",
+      "notation": "{}^2F_4(8)",
+      "kind": "finite-group",
+      "family": "finite-suzuki-ree-group",
+      "parameters": {
+        "type": "2F4",
+        "q": 8,
+        "characteristic": 2
+      },
+      "knowl": "catalog/finite-groups/lie-type/ree-f4-8",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "q = 8",
+        "m = 1"
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "264905352699586176614400",
+          "order_decimal": "264905352699586176614400",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group for every admitted parameter.",
+          "parameter_summary": "q = 8; m = 1",
+          "construction_summary": "Fixed points of the exceptional F4 endomorphism composed with Frobenius in characteristic 2.",
+          "rank_label": "Absolute rank 4; exceptional twist in characteristic 2"
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://www.ieja.net/files/papers/volume-24/8-V24-2018.pdf",
+          "title": "B. Akbari, ODs-characterization of some low-dimensional finite classical groups",
+          "locator": "Table 2, p. 85: order column only; its additional Restrictions concern a separate invariant"
+        }
+      ]
+    },
+    {
+      "id": "fg-psp-4-2-derived",
+      "name": "PSp(4,2) derived subgroup",
+      "notation": "\\operatorname{PSp}_4(2)'",
+      "kind": "finite-group",
+      "family": "finite-derived-group",
+      "parameters": {
+        "base": "fg-psp-4-2"
+      },
+      "knowl": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "The commutator subgroup of \\(\\operatorname{PSp}_{4}(2)\\)."
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "classical",
+          "order_tex": "360",
+          "order_decimal": "360",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "The commutator subgroup of \\(\\operatorname{PSp}_{4}(2)\\).",
+          "construction_summary": "The commutator subgroup of PSp(4,2), of index 2."
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+          "title": "Peter J. Cameron, Notes on Classical Groups",
+          "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+        }
+      ]
+    },
+    {
+      "id": "fg-g2-2-derived",
+      "name": "G₂(2) derived subgroup",
+      "notation": "G_2(2)'",
+      "kind": "finite-group",
+      "family": "finite-derived-group",
+      "parameters": {
+        "base": "fg-g2-2"
+      },
+      "knowl": "catalog/finite-groups/lie-type/g2-2-derived",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "The commutator subgroup of \\(G_2(2)\\)."
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "6048",
+          "order_decimal": "6048",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "The commutator subgroup of \\(G_2(2)\\).",
+          "construction_summary": "The commutator subgroup of G₂(2), of index 2."
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+          "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+          "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+        }
+      ]
+    },
+    {
+      "id": "fg-ree-g2-3-derived",
+      "name": "²G₂(3) derived subgroup",
+      "notation": "{}^2G_2(3)'",
+      "kind": "finite-group",
+      "family": "finite-derived-group",
+      "parameters": {
+        "base": "fg-ree-g2-3"
+      },
+      "knowl": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "The commutator subgroup of \\({}^2G_2(3)\\)."
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "example",
+          "section": "exceptional",
+          "order_tex": "504",
+          "order_decimal": "504",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "The commutator subgroup of \\({}^2G_2(3)\\).",
+          "construction_summary": "The commutator subgroup of ²G₂(3), of index 3."
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        }
+      ]
+    },
+    {
+      "id": "fg-tits",
+      "name": "Tits group",
+      "notation": "{}^2F_4(2)'",
+      "kind": "finite-group",
+      "family": "finite-derived-group",
+      "parameters": {
+        "base": "fg-ree-f4-2"
+      },
+      "knowl": "catalog/finite-groups/lie-type/tits",
+      "dimensions": {},
+      "category_ids": [
+        "sets",
+        "groups",
+        "finite-groups",
+        "finite-simple-groups"
+      ],
+      "constraints": [
+        "The commutator subgroup of \\({}^2F_4(2)\\)."
+      ],
+      "properties": {
+        "finite_group": {
+          "table_role": "tits",
+          "section": "exceptional",
+          "order_tex": "17971200",
+          "order_decimal": "17971200",
+          "simple": true,
+          "simple_condition": "It is a nonabelian simple group.",
+          "parameter_summary": "The commutator subgroup of \\({}^2F_4(2)\\).",
+          "construction_summary": "The commutator subgroup of ²F₄(2), of index 2.",
+          "order_factors": [
+            [
+              2,
+              11
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              13,
+              1
+            ]
+          ]
+        }
+      },
+      "status": "defined",
+      "references": [
+        {
+          "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+          "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+          "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+        },
+        {
+          "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+          "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+          "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+        },
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/group/TF42/",
+          "title": "ATLAS of Finite Group Representations: Tits group",
+          "locator": "Group heading: order 17,971,200 = 2^11·3^3·5^2·13; extension 2F4(2)′.2"
+        }
+      ]
+    }
+  ],
+  "categories": [],
+  "views": [],
+  "relationships": [
+    {
+      "id": "fg-psp-4-2-derived-into-fg-psp-4-2",
+      "source": "fg-psp-4-2-derived",
+      "target": "fg-psp-4-2",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The commutator subgroup includes as a normal subgroup of index 2.",
+      "knowl": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The derived-subgroup definition gives the inclusion; the cited small-parameter calculation gives its index.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-g2-2-derived-into-fg-g2-2",
+      "source": "fg-g2-2-derived",
+      "target": "fg-g2-2",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The commutator subgroup includes as a normal subgroup of index 2.",
+      "knowl": "catalog/finite-groups/lie-type/g2-2-derived",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The derived-subgroup definition gives the inclusion; the cited small-parameter calculation gives its index.",
+        "references": [
+          {
+            "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+            "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+            "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+          },
+          {
+            "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+            "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+            "locator": "§3 construction; §4 Theorem 5, PDF pp. 52–54; §9 Theorems 24–25, PDF pp. 136–138"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-ree-g2-3-derived-into-fg-ree-g2-3",
+      "source": "fg-ree-g2-3-derived",
+      "target": "fg-ree-g2-3",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The commutator subgroup includes as a normal subgroup of index 3.",
+      "knowl": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The derived-subgroup definition gives the inclusion; the cited small-parameter calculation gives its index.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+            "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+            "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+          },
+          {
+            "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+            "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+            "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-tits-into-fg-ree-f4-2",
+      "source": "fg-tits",
+      "target": "fg-ree-f4-2",
+      "kind": "embedding",
+      "category_id": "finite-groups",
+      "statement": "The commutator subgroup includes as a normal subgroup of index 2.",
+      "knowl": "catalog/finite-groups/lie-type/tits",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The derived-subgroup definition gives the inclusion; the cited small-parameter calculation gives its index.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+            "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+            "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+          },
+          {
+            "url": "https://www.math.utah.edu/~ptrapa/math-library/steinberg/steinberg-yale-notes.pdf",
+            "title": "Robert Steinberg, Lectures on Chevalley Groups (Yale, 1967)",
+            "locator": "§11, especially Theorems 34–35, PDF pp. 193–196; notation for field and twisting parameters differs"
+          },
+          {
+            "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/group/TF42/",
+            "title": "ATLAS of Finite Group Representations: Tits group",
+            "locator": "Group heading: order 17,971,200 = 2^11·3^3·5^2·13; extension 2F4(2)′.2"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psl-2-2-iso-fg-sym-3",
+      "source": "fg-psl-2-2",
+      "target": "fg-sym-3",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSL(2,2) is isomorphic to S₃.",
+      "knowl": "catalog/finite-groups/lie-type/psl-2-2",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psl-2-3-iso-fg-alt-4",
+      "source": "fg-psl-2-3",
+      "target": "fg-alt-4",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSL(2,3) is isomorphic to A₄.",
+      "knowl": "catalog/finite-groups/lie-type/psl-2-3",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psl-2-4-iso-fg-alt-5",
+      "source": "fg-psl-2-4",
+      "target": "fg-alt-5",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSL(2,4) is isomorphic to A₅.",
+      "knowl": "catalog/finite-groups/lie-type/psl-2-4",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psl-2-5-iso-fg-alt-5",
+      "source": "fg-psl-2-5",
+      "target": "fg-alt-5",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSL(2,5) is isomorphic to A₅.",
+      "knowl": "catalog/finite-groups/lie-type/psl-2-5",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psl-2-9-iso-fg-alt-6",
+      "source": "fg-psl-2-9",
+      "target": "fg-alt-6",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSL(2,9) is isomorphic to A₆.",
+      "knowl": "catalog/finite-groups/lie-type/psl-2-9",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psl-4-2-iso-fg-alt-8",
+      "source": "fg-psl-4-2",
+      "target": "fg-alt-8",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSL(4,2) is isomorphic to A₈.",
+      "knowl": "catalog/finite-groups/lie-type/psl-4-2",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psl-2-7-iso-fg-psl-3-2",
+      "source": "fg-psl-2-7",
+      "target": "fg-psl-3-2",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSL(2,7) is isomorphic to PSL(3,2).",
+      "knowl": "catalog/finite-groups/lie-type/psl-2-7",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§2.4–2.5, pp. 19–21; Theorem 2.11"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psp-4-2-iso-fg-sym-6",
+      "source": "fg-psp-4-2",
+      "target": "fg-sym-6",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSp(4,2) is isomorphic to S₆.",
+      "knowl": "catalog/finite-groups/lie-type/psp-4-2",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psp-4-2-derived-iso-fg-alt-6",
+      "source": "fg-psp-4-2-derived",
+      "target": "fg-alt-6",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "The commutator subgroup of PSp(4,2) is isomorphic to A₆.",
+      "knowl": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psp-4-3-iso-fg-psu-4-2",
+      "source": "fg-psp-4-3",
+      "target": "fg-psu-4-2",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSp(4,3) is isomorphic to PSU(4,2).",
+      "knowl": "catalog/finite-groups/lie-type/psp-4-3",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-g2-2-derived-iso-fg-psu-3-3",
+      "source": "fg-g2-2-derived",
+      "target": "fg-psu-3-3",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "The commutator subgroup of G₂(2) is isomorphic to PSU(3,3).",
+      "knowl": "catalog/finite-groups/lie-type/g2-2-derived",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/U33/",
+            "title": "ATLAS of Finite Group Representations: U3(3) and G2(2) derived group",
+            "locator": "Heading and Standard generators: U3(3) = G2(2)′ has order 6048; U3(3):2 = G2(2)"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-ree-g2-3-derived-iso-fg-psl-2-8",
+      "source": "fg-ree-g2-3-derived",
+      "target": "fg-psl-2-8",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "The commutator subgroup of ²G₂(3) is isomorphic to PSL(2,8).",
+      "knowl": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "conditions": [],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/SuzRee0.pdf",
+            "title": "Robert A. Wilson, On the simple groups of Suzuki and Ree (24 April 2010)",
+            "locator": "Introduction; §5.1 orders, §5.2 simplicity, and §5.3 the groups over the prime fields, pp. 24–30"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psu-2-q-iso-fg-psl-2-q",
+      "source": "fg-psu-2-q",
+      "target": "fg-psl-2-q",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSU(2,q) is isomorphic to PSL(2,q).",
+      "knowl": "catalog/finite-groups/lie-type/psu-2-q",
+      "conditions": [
+        "q is any prime power"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§5.2–5.3, pp. 59–63; PSU(2,q), PSU(3,2), and the PSU(4,2) identification"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-psp-2-q-iso-fg-psl-2-q",
+      "source": "fg-psp-2-q",
+      "target": "fg-psl-2-q",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PSp(2,q) is isomorphic to PSL(2,q).",
+      "knowl": "catalog/finite-groups/lie-type/psp-2-q",
+      "conditions": [
+        "q is any prime power"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§§4.2–4.3, pp. 49–54; the Sp(4,2) action on six quadratic forms, p. 51"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-omega-3-q-iso-fg-psl-2-q",
+      "source": "fg-omega-3-q",
+      "target": "fg-psl-2-q",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PΩ(3,q) is isomorphic to PSL(2,q).",
+      "knowl": "catalog/finite-groups/lie-type/omega-3-q",
+      "conditions": [
+        "q is a prime power ≥ 4"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-omega-5-q-iso-fg-psp-4-q",
+      "source": "fg-omega-5-q",
+      "target": "fg-psp-4-q",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PΩ(5,q) is isomorphic to PSp(4,q).",
+      "knowl": "catalog/finite-groups/lie-type/omega-5-q",
+      "conditions": [
+        "q is a prime power ≥ 3"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-omega-plus-6-q-iso-fg-psl-4-q",
+      "source": "fg-omega-plus-6-q",
+      "target": "fg-psl-4-q",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PΩ⁺(6,q) is isomorphic to PSL(4,q).",
+      "knowl": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "conditions": [
+        "q is any prime power"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-omega-minus-6-q-iso-fg-psu-4-q",
+      "source": "fg-omega-minus-6-q",
+      "target": "fg-psu-4-q",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PΩ⁻(6,q) is isomorphic to PSU(4,q).",
+      "knowl": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "conditions": [
+        "q is any prime power"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-omega-minus-4-q-iso-fg-psl-2-q2",
+      "source": "fg-omega-minus-4-q",
+      "target": "fg-psl-2-q2",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "PΩ⁻(4,q) is isomorphic to PSL(2,q²).",
+      "knowl": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "conditions": [
+        "q is any prime power"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+          }
+        ],
+        "lean": null
+      }
+    },
+    {
+      "id": "fg-omega-odd-n-q-iso-fg-psp-2n-q",
+      "source": "fg-omega-odd-n-q",
+      "target": "fg-psp-2n-q",
+      "kind": "isomorphism",
+      "category_id": "finite-groups",
+      "statement": "For even q, PΩ(2n+1,q) is isomorphic to PSp(2n,q).",
+      "knowl": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "conditions": [
+        "n ≥ 3",
+        "q is a power of 2"
+      ],
+      "evidence": {
+        "status": "literature",
+        "method": "The cited classical-group identification, with the displayed parameter restrictions.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§6, pp. 64–74, especially Theorems 6.3 and 6.6; §7 introduction, p. 75"
+          }
+        ],
+        "lean": null
+      }
+    }
+  ],
+  "morphism_spaces": []
+}

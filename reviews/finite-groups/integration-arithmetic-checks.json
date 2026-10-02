@@ -1,0 +1,413 @@
+{
+  "finite_objects": 144,
+  "roles": {
+    "example": 59,
+    "simple-family": 18,
+    "family": 40,
+    "tits": 1,
+    "sporadic": 26
+  },
+  "simple_family_regions": {
+    "cyclic": 1,
+    "alternating": 1,
+    "classical": 6,
+    "exceptional": 10
+  },
+  "sporadic_clusters": {
+    "mathieu": 5,
+    "monster": 8,
+    "leech": 7,
+    "pariah": 6
+  },
+  "checks": [
+    {
+      "object": "fg-cyclic-2",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-cyclic-3",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-sym-2",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-sym-3",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-sym-4",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-sym-6",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-alt-3",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-alt-4",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-alt-5",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-alt-6",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-alt-7",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-alt-8",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-dihedral-2",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-dihedral-4",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-dihedral-6",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-quaternion-8",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-quaternion-16",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-quaternion-32",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-klein-4",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-gl-2-2",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-sl-2-2",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-gl-2-3",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-sl-2-3",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-tits",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-m11",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-m12",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-m22",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-m23",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-m24",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-he",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-hn",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-th",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-fi22",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-fi23",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-fi24-prime",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-baby-monster",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-monster",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-hs",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-j2",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-co1",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-co2",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-co3",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-mcl",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-suz",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-j1",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-on",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-j3",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-ru",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-j4",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "object": "fg-ly",
+      "check": "Prime bases and exact factor-product equality when an order is provided."
+    },
+    {
+      "relationship": "fg-rel-sym-1-isomorphism-cyclic-1",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-1-isomorphism-cyclic-1",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-2-isomorphism-cyclic-1",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-sym-2-isomorphism-cyclic-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-3-isomorphism-cyclic-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-dihedral-2-isomorphism-cyclic-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-dihedral-4-isomorphism-klein-4",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-dihedral-6-isomorphism-sym-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-klein-4-embedding-alt-4",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-klein-4-embedding-sym-4",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-1-embedding-sym-1",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-2-embedding-sym-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-3-embedding-sym-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-4-embedding-sym-4",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-alt-6-embedding-sym-6",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-sl-1-q-isomorphism-cyclic-1",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-gl-2-2-isomorphism-sym-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-sl-2-2-isomorphism-gl-2-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-rel-sl-2-3-embedding-gl-2-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psp-4-2-derived-into-fg-psp-4-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-g2-2-derived-into-fg-g2-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-ree-g2-3-derived-into-fg-ree-g2-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-tits-into-fg-ree-f4-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psl-2-2-iso-fg-sym-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psl-2-3-iso-fg-alt-4",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psl-2-4-iso-fg-alt-5",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psl-2-5-iso-fg-alt-5",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psl-2-9-iso-fg-alt-6",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psl-4-2-iso-fg-alt-8",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psl-2-7-iso-fg-psl-3-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psp-4-2-iso-fg-sym-6",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psp-4-2-derived-iso-fg-alt-6",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-psp-4-3-iso-fg-psu-4-2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-g2-2-derived-iso-fg-psu-3-3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-ree-g2-3-derived-iso-fg-psl-2-8",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-m11-embeds-m12",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-m22-embeds-m23",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-m23-embeds-m24",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-fi23-embeds-baby-monster",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-th-embeds-baby-monster",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-co2-embeds-co1",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-co3-embeds-co1",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-mcl-embeds-co2",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-hs-embeds-co3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-mcl-embeds-co3",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-j2-embeds-suz",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    },
+    {
+      "relationship": "fg-j1-embeds-on",
+      "check": "Equal orders for an isomorphism or divisible orders for an embedding; consistency only, not a proof of the map."
+    }
+  ],
+  "limitation": "Exact arithmetic and metadata consistency checks do not prove group order, simplicity, or subgroup existence. Those claims are separately source-reviewed."
+}

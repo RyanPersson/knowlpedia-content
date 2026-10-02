@@ -1,0 +1,204 @@
+{
+  "lane": "sporadic",
+  "schema_version": 1,
+  "inventory": {
+    "searches": [
+      "sporadic",
+      "mathieu group",
+      "janko group",
+      "monster group",
+      "conway group",
+      "higman.sims",
+      "mclaughlin group",
+      "fischer group",
+      "rudvalis",
+      "suzuki sporadic",
+      "harada.norton",
+      "held group",
+      "o.nan group",
+      "lyons group",
+      "thompson group"
+    ],
+    "decision": "No existing canonical exact owners found. 26 individual new knowls and objects; Tits excluded."
+  },
+  "objects": [
+    {
+      "id": "fg-m11",
+      "knowl": "catalog/finite-groups/sporadic/m11",
+      "decision": "new",
+      "sporadic_cluster": "mathieu"
+    },
+    {
+      "id": "fg-m12",
+      "knowl": "catalog/finite-groups/sporadic/m12",
+      "decision": "new",
+      "sporadic_cluster": "mathieu"
+    },
+    {
+      "id": "fg-m22",
+      "knowl": "catalog/finite-groups/sporadic/m22",
+      "decision": "new",
+      "sporadic_cluster": "mathieu"
+    },
+    {
+      "id": "fg-m23",
+      "knowl": "catalog/finite-groups/sporadic/m23",
+      "decision": "new",
+      "sporadic_cluster": "mathieu"
+    },
+    {
+      "id": "fg-m24",
+      "knowl": "catalog/finite-groups/sporadic/m24",
+      "decision": "new",
+      "sporadic_cluster": "mathieu"
+    },
+    {
+      "id": "fg-hs",
+      "knowl": "catalog/finite-groups/sporadic/hs",
+      "decision": "new",
+      "sporadic_cluster": "leech"
+    },
+    {
+      "id": "fg-j2",
+      "knowl": "catalog/finite-groups/sporadic/j2",
+      "decision": "new",
+      "sporadic_cluster": "leech"
+    },
+    {
+      "id": "fg-co1",
+      "knowl": "catalog/finite-groups/sporadic/co1",
+      "decision": "new",
+      "sporadic_cluster": "leech"
+    },
+    {
+      "id": "fg-co2",
+      "knowl": "catalog/finite-groups/sporadic/co2",
+      "decision": "new",
+      "sporadic_cluster": "leech"
+    },
+    {
+      "id": "fg-co3",
+      "knowl": "catalog/finite-groups/sporadic/co3",
+      "decision": "new",
+      "sporadic_cluster": "leech"
+    },
+    {
+      "id": "fg-mcl",
+      "knowl": "catalog/finite-groups/sporadic/mcl",
+      "decision": "new",
+      "sporadic_cluster": "leech"
+    },
+    {
+      "id": "fg-suz",
+      "knowl": "catalog/finite-groups/sporadic/suz",
+      "decision": "new",
+      "sporadic_cluster": "leech"
+    },
+    {
+      "id": "fg-he",
+      "knowl": "catalog/finite-groups/sporadic/he",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-hn",
+      "knowl": "catalog/finite-groups/sporadic/hn",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-th",
+      "knowl": "catalog/finite-groups/sporadic/th",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-fi22",
+      "knowl": "catalog/finite-groups/sporadic/fi22",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-fi23",
+      "knowl": "catalog/finite-groups/sporadic/fi23",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-fi24-prime",
+      "knowl": "catalog/finite-groups/sporadic/fi24-prime",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-baby-monster",
+      "knowl": "catalog/finite-groups/sporadic/baby-monster",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-monster",
+      "knowl": "catalog/finite-groups/sporadic/monster",
+      "decision": "new",
+      "sporadic_cluster": "monster"
+    },
+    {
+      "id": "fg-j1",
+      "knowl": "catalog/finite-groups/sporadic/j1",
+      "decision": "new",
+      "sporadic_cluster": "pariah"
+    },
+    {
+      "id": "fg-on",
+      "knowl": "catalog/finite-groups/sporadic/on",
+      "decision": "new",
+      "sporadic_cluster": "pariah"
+    },
+    {
+      "id": "fg-j3",
+      "knowl": "catalog/finite-groups/sporadic/j3",
+      "decision": "new",
+      "sporadic_cluster": "pariah"
+    },
+    {
+      "id": "fg-ru",
+      "knowl": "catalog/finite-groups/sporadic/ru",
+      "decision": "new",
+      "sporadic_cluster": "pariah"
+    },
+    {
+      "id": "fg-j4",
+      "knowl": "catalog/finite-groups/sporadic/j4",
+      "decision": "new",
+      "sporadic_cluster": "pariah"
+    },
+    {
+      "id": "fg-ly",
+      "knowl": "catalog/finite-groups/sporadic/ly",
+      "decision": "new",
+      "sporadic_cluster": "pariah"
+    }
+  ],
+  "source": {
+    "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+    "locator": "Four display blocks: Mathieu groups, Leech lattice groups, Monster sections, Pariahs"
+  },
+  "scope": "ATLAS grouping is a display partition, not a chain of direct embeddings.",
+  "supporting_knowls": [
+    {
+      "id": "catalog/finite-groups/sporadic/leech-lattice",
+      "decision": "new prerequisite",
+      "reason": "No exact Leech owner; ordinary Euclidean lattice is reused as prerequisite."
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/mathieu-point-stabilizers",
+      "decision": "new theorem",
+      "reason": "Owns the three natural-action stabilizer identifications; group constructions remain in their individual owners."
+    },
+    {
+      "id": "catalog/finite-groups/sporadic/baby-monster-sporadic-subgroups",
+      "decision": "new theorem",
+      "reason": "Owns two sourced maximal-subgroup existence results; distinct from the group definitions."
+    }
+  ]
+}

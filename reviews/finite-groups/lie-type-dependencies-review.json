@@ -1,0 +1,847 @@
+{
+  "id": "finite-lie-type-dependencies",
+  "sample_seed": 20260827,
+  "sample_size": 20,
+  "entries": [
+    {
+      "id": "catalog/finite-groups/lie-type/e6-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8fdd042b594a396239ba45f3c0cc4be231daafa3e85654ee5181c529508982cc",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e6-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41982649dc22bbe1320a530191025bbb7e5724e623821983c52ec6eb7aaea3d3",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e7-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "31bc995e9a271902729d25389499c807675a48ee9309d29ccc0f2802543f4d0e",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e7-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4509d1fe7eb2413f67eebd76710000c5f41b66b92d1cf279146af9e38f98e566",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e8-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d526eb151f6cd27f60e7afdfeba1cc0bdc22f785bb7bf36b26297c0e51ab74da",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/e8-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "327d21b360b6b2b6c1f51a171bd6aa8f0ee182fccef6707017ac4ea21250fbed",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/f4-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "7c6ed78ffc8df24380047d860142b093377cacb843c9daa89fbda673857b0aa7",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/f4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "51bfb182d2d0cf88a11507ff07eca7fb42fc49b4a0ac747d42ee2ea1a9ee5e34",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8387862b5e661c903631826af9487a32f254b931fb83d458c57f9f24c99ed4a1",
+      "prerequisites": [
+        "lie-groups/root-system",
+        "algebraic-geometry-foundations/simply-connected-semisimple-group",
+        "algebraic-geometry-foundations/chevalley-lattice-integral-model",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-groups/center-of-group",
+        "algebra-groups/finite-group",
+        "algebra-groups/quotient-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "78591eefc3a4776147e0462916e78d8cc669811bdc3086849693f2f1d10434ab",
+      "prerequisites": [
+        "linear-algebra/quadratic-form",
+        "algebra-groups/commutator-subgroup"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope.",
+      "integration_review": "Root reviewed the same orthogonal isometry/derived/projective construction after moving the long O(V,Q) formula to display for phone layout. Added the explicit finite-dimensional hypothesis on V: a finite base field alone does not make its general linear or orthogonal group finite. This matches the finite-dimensional setting of the cited classical-group sources. Prerequisites and all other formulas are unchanged."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-2-derived",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a8754de72433b0b63007fa17d017f4dd4d4518b39c0a449f5e512435dca46887",
+      "prerequisites": [
+        "algebra-groups/commutator-subgroup",
+        "catalog/finite-groups/lie-type/g2-2",
+        "algebra-groups/finite-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8b9ea56b93873f7c9e54e3e7d5009692fb87b28c1185ecb890ea34f16f26aa95",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "afcc177e45f395a68e08d56af1b92b34ad10c50b3d0e0f34e93f4f5e25a2d22f",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/g2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "71a6a7e916714b285810a0c328cf945667c5ebe4bebe5e4aa22b9d69df650b94",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-3-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6538e6b210e6062b3ec2bfac5d6975918f13fab8179586bf097ea1b11113195c",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-5-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "41c4bf4199ed43afef8c274776a90ae723bd37fa95dad529909e6befc473ae17",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-7-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "561bf4bcf5ea416a3391d6b38e8e9b96049cce44af791969f985ec83830e2665",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4e4044786889cc90d62c352fdeec84ded309015f667fbf4ab6742878bc55f03c",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8dd3e7ba78667a4da596a3c03ce721912ae3af9347103bf4efdcf73a4824acc7",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "47f99ea173c66f6013b7351c4b24c774f46b39a1228d77b7f43abc037525fb43",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c95961acd18efde066ef1599108382f6b2dcc4859a44862276bc3acaed2f9547",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5797e04476f15d676eab40591c03c8e436a155d98cc232eaccf25a6629e9c2f5",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-plus-4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3f14ad7233061c32daddbdfb088d1a00c0b6d36f03a0ecb6fc0efead74933c89",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b6eb5dcb1be2a3632463d1b96492ddaf5914ad39b0cb64eda385c74586c91ea2",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+        "linear-algebra/linear-map",
+        "algebra-groups/commutator-subgroup",
+        "linear-algebra/quadratic-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-1-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eb48e6077977928b9f4d461c40362c366c9b68c8fed5448272e6c2fe60e9c50c",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "977598a47384715949032df84e622ed7d33b5b31e203bbb06121dee2d68089ae",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9baff4c1a55924a0484957ddce37b61b437745ec53f02681d9d3db1fbd796e19",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8e9a41847acbbeb51a9a120c646bc74146952fa33d6bf4f1bcbac8f2a155b0e7",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-5",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "112bdabdf769a7095f196e060e05175e2523ce7a3ee40d75d79eccc41be06ba7",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-7",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c498f5fc739e5d2b8cf01a2b3cf8c95e57a1288beebaffb5b3752eda97d6b80a",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-8",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e003a9c0f833df07e3f833a2cc1103e4ac8480109a991c5bb4b77ba71ba751ac",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-9",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6e312b36a05abf689c033673b930ef23a6bcedc285f9f5eaf4dcbd119b209d4d",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c35fceebd8c34748dfc11dfb2dc1be010d72274c23c7a15ad60cf694825fba99",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-2-q2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "4687060e99829c229bc2dd9648818f2144ebee1673e0e9f6d8363f782ebb48d5",
+      "prerequisites": [
+        "algebra-groups/projective-special-linear-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-3-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "b3acc54bf96bc3ea43c635356f568f1c9171b11842d261e9b3e6b0056fb16c18",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-3-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bfecdb85f1bf46b401526f99ef689a09d2b849fc17202a0f15cc987cd72edbe2",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-3-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "111e115ecb178ae0615ebbf9c8feeb4598cb148c7a93751e4c565447d0092cf3",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-4-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8511dc24a7086012c0d5fd3997df7b38de8e99db6f8fab3b46deec43aee150c6",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bec1b9a5381e987dc28f444887cf6a1534856533ca2c6ad265a890c636db6729",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psl-n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "37fbcf24a5166bfb8e8fff6d501e6fcf557abec1c90f4bcde1e7ad8a43a80487",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/projective-special-linear-group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "060b0c0cb0208d385d6711e15b7f57067658bbffec42c5272ea691f40378e36f",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-2n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "eeb5ef14b9c50a9f2a1e2b692134d4dfd6a056236e43c010ad0888b681eee31e",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f82fd07129dd7ce1f395af16672471c40fa4351d211d4c80029738e8b02aa6d6",
+      "prerequisites": [
+        "algebra-groups/commutator-subgroup",
+        "catalog/finite-groups/lie-type/psp-4-2",
+        "algebra-groups/finite-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "5ce51f83b9c5316cdc2eac08fa0ff2a3e471bca7558a8caa3db1bbe2927be6f5",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e56ad1a962a9c6072a76520961da2e31e8392d0e3b134c7cb2f014f07f948ae0",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c1523d4ed15fa9b51b9842ce6631a40a25fcf090de6d0b4f8c483467346ff931",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psp-6-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "9b9774d5d6fa45765054c6503d269c139cfd8d937b32787dbba631e23429818a",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "linear-algebra/bilinear-form"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-1-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60aeeedad2e44ba3091be9a8616d3a00291dce6e18442aff08bf3cc0e27a48c8",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "76c2974b661ae8ad7ec6a17ee91438e290d3a900686c545f6cd34de401979b2e",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-3-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "60911efa0ded60af0896599ea7ca67fecc74b304370e2fb120e3984892826014",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-3-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "6fdb5bb6a2c97b35813363b0ebba6d78962f11c9dc3c9f7a1f99155aa46cc5b1",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-3-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "97d4b30350309e597849c21c7cff41dc875a0f25f24afbe106e8469d6e5c171a",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-4-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bc1197715190acdd4574ec17a2f9d16a4af486c8f7202d0b5a04cbd4ea8ee2a6",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "0a31d34ba7d29009da1bfcd7129d5e1f9ced373336ac5aa6dfdde18f98ee98d2",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/psu-n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "bd3ae78a5a3d2a468b83fc8abd25fb915e55420844f39c31449ee0e79bca365c",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-fields-galois/finite-field",
+        "algebra-fields-galois/fixed-field"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-f4-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e5a712e1c38de4522274f63292a721da71b99539d752eec5bb7072a2df232328",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-f4-8",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8146ccbe0e7f23e2b2b917f853dd0df955c053101968bd07d2bbdc294abf6c03",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-f4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "060c44dcfdd3bf5c375065f572cb6a167ad6657bdec1df94a358bb38da085f4e",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-27",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8f3c8648aee63600e4040ad1d8d6db62bca4101e3f2ca2d14d11992925c72ae7",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ac3eca5e56332fcf67ceb54ed834fd7f174064dd2d5965a70129aa584942087e",
+      "prerequisites": [
+        "algebra-groups/commutator-subgroup",
+        "catalog/finite-groups/lie-type/ree-g2-3",
+        "algebra-groups/finite-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a4f1913c22a23e5711d31608954f553047a1752ad1b12fd65e748c90d16ba354",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/ree-g2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ab146f963edfc3265567b62a8667b96a00d90d5e09080b8e8e304395f411cabc",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "d7faa8c9f78cac0203ce9e4d00cf931dcd166faf5b87981d22d2089fc9c02916",
+      "prerequisites": [
+        "algebraic-geometry-foundations/simply-connected-semisimple-group",
+        "algebra-fields-galois/frobenius-endomorphism",
+        "algebra-groups/center-of-group",
+        "algebra-groups/finite-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/sz-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8dc9ac241e5ad4d6b87c94eb56258c6ba13d6e9146bfbf182a1e9e698c95a382",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/sz-8",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ebc6c252db19ac0e8211b3afff83dcfa3b0a076fc06024ca118f2b09bceb2813",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/sz-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "53d3e2f2f94cd83da69e22af0aa51c4c83e124e1b529ca37730ce4b975ddef81",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/tits",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f1fcd711a2288864532a66617e16e3a47c4fb5dc2eacdfb6f1d5f01942af3a33",
+      "prerequisites": [
+        "algebra-groups/commutator-subgroup",
+        "catalog/finite-groups/lie-type/ree-f4-2",
+        "algebra-groups/finite-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/triality-d4-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ad10eee72c634f9efb50273987f95d180cfb330fdfa6db2ab426abbdcaf55963",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/triality-d4-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "f6dce911343b99854400a3e5403a51a04fbd37cab4cfb9a6e876ab996c5e2824",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "c80283dc3aa30a74c98cfd4bff9d9499863bc220f2f887a702edf6bb19d7ec31",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    },
+    {
+      "id": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "e7e61cfd9836f8329f5989b4ca5cfe81f7c8a73d440be75e1c0d8a6d31465fa6",
+      "prerequisites": [
+        "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+        "algebraic-geometry-foundations/algebraic-group"
+      ],
+      "evidence": "Read the complete prerequisite list and its defining-core occurrences. Every retained target supplies a defining ingredient in the stated finite-field category. Property and low-rank comparison links outside the core were not promoted. Real-only symplectic forms, topological simple connectedness, tensor fields, and Lie-group central quotients were excluded from this finite-group scope."
+    }
+  ]
+}

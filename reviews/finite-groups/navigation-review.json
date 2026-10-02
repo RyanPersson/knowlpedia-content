@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "id": "catalog",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "862e92d9b31c895a92fa1c78abdcc803734e158b949c9dcba527a7564b783093",
+      "evidence": "Reviewed generated object counts, navigation targets, exact order/formula columns and explicit family-versus-object labels against the validated canonical catalogue. The cumulative catalogue-new-pages inventory still uses original baseline d1ad541e; no classification or group-order proof is claimed by the generator.",
+      "sources": []
+    },
+    {
+      "id": "catalog/created-knowls",
+      "scope": "targeted",
+      "outcome": "corrected",
+      "source_sha256": "f45b2aece17b117963464c4b048081d0b4c2d2b364643ec98bb2516b09cf524e",
+      "evidence": "Reviewed generated object counts, navigation targets, exact order/formula columns and explicit family-versus-object labels against the validated canonical catalogue. The cumulative catalogue-new-pages inventory still uses original baseline d1ad541e; no classification or group-order proof is claimed by the generator.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-elementary-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "775de3202f258de6752f23f84d3a470ef17c3e889241d729beb7cfa8b2c21835",
+      "evidence": "Reviewed generated object counts, navigation targets, exact order/formula columns and explicit family-versus-object labels against the validated canonical catalogue. The cumulative catalogue-new-pages inventory still uses original baseline d1ad541e; no classification or group-order proof is claimed by the generator.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-lie-type-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "651ba354a7baeb04fb99a8b319280684e8a5a331dbee83a29a372838efd2dfe3",
+      "evidence": "Reviewed generated object counts, navigation targets, exact order/formula columns and explicit family-versus-object labels against the validated canonical catalogue. The cumulative catalogue-new-pages inventory still uses original baseline d1ad541e; no classification or group-order proof is claimed by the generator.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-sporadic-index",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "4fbbb9df7874f561129087378da1800982c761d39eb2f6b5d8afc7d6418b5aa1",
+      "evidence": "Reviewed generated object counts, navigation targets, exact order/formula columns and explicit family-versus-object labels against the validated canonical catalogue. The cumulative catalogue-new-pages inventory still uses original baseline d1ad541e; no classification or group-order proof is claimed by the generator.",
+      "sources": []
+    }
+  ]
+}

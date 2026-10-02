@@ -1,0 +1,260 @@
+{
+  "review_type": "finite-group table layout and browser review",
+  "updated_at": "2026-10-02T22:08:07.446099+00:00",
+  "preview_url": "https://optiplex.taildb538a.ts.net:8443/catalog/finite-groups/table/",
+  "status": "passed",
+  "canonical_data_source": "indexes/catalog.json generated from existing catalogue records",
+  "viewport_widths": [
+    390,
+    1440
+  ],
+  "table_counts": {
+    "simple_families": 18,
+    "sporadic_groups": 26,
+    "tits_groups": 1,
+    "all_entries": 144
+  },
+  "layout_comparison": {
+    "default": "classification",
+    "classification": "The simple-family blocks make the classification hierarchy legible. Cyclic and alternating families precede six classical and ten exceptional families; the Tits group has a separate boundary panel, followed by the 26 sporadics.",
+    "all_groups": "Equally prominent family tiles are retained as the alternate. It makes low-rank and familiar variants easier to compare, but is less clear as the initial classification map. Families remain separate from individual groups; only individual groups are numerically ordered.",
+    "sporadic_default": "ATLAS grouping",
+    "sporadic_alternative": "Increasing exact order offers a denser size comparison. ATLAS grouping is the more informative default despite the additional vertical space.",
+    "mathematical_cautions": [
+      "Presentation ranks are not displayed as atomic numbers.",
+      "ATLAS display groups do not assert direct subgroup containment.",
+      "The Tits group is not counted as a sporadic.",
+      "Distinct tiles may denote low-dimensional isomorphic groups.",
+      "Large displayed orders are marked approximate; exact decimal orders remain available in details."
+    ],
+    "iterations": [
+      "Compared both fixture layouts at 390 and 1440 pixels.",
+      "Reduced mobile hero and control height, aligned tile header rows, and moved long tile products into the detail panel.",
+      "Compared both layouts and sporadic arrangements using the actual 144-record catalogue.",
+      "Inspected final HTTPS screenshots with the actual site shell in light and dark themes."
+    ]
+  },
+  "main_https_suite": {
+    "result": "passed",
+    "command": "PREVIEW_URL=https://optiplex.taildb538a.ts.net:8443 LAYOUT_LABEL=final-https node tests/finite_groups_browser_smoke.mjs",
+    "checks": [
+      "All 144 details at phone width, including exact order and definition/explorer links.",
+      "Visible starts and horizontal scrolling for long detail order formulas.",
+      "Both complete table layouts at 390 and 1440 pixels.",
+      "Both sporadic arrangements at 390 and 1440 pixels.",
+      "Huge integer ordering above JavaScript Number precision.",
+      "Optional missing sporadic cluster does not drop a record.",
+      "Search, region filter, URL state, keyboard grid navigation, detail navigation, Escape focus restoration.",
+      "UTF-8 text, no page or modal overflow, no KaTeX errors, no browser exceptions."
+    ],
+    "reader_ids": [
+      "catalog/finite-groups",
+      "algebra-groups/classification-finite-simple-groups",
+      "catalog/finite-groups/sporadic/monster",
+      "catalog/finite-groups/sporadic/m24",
+      "catalog/finite-groups/sporadic/fi22",
+      "catalog/finite-groups/sporadic/baby-monster",
+      "catalog/finite-groups/lie-type/psl-n-q",
+      "catalog/finite-groups/lie-type/tits",
+      "catalog/finite-groups/elementary/cyclic-p"
+    ],
+    "reader_checks": "At both widths: one heading, all sections opened, no missing knowls or math errors, no page overflow, long display formulas contained in horizontal scrollers.",
+    "permanent_reader_coverage": "The permanent browser test now includes all 16 checked reader pages, including the orthogonal-helper regression."
+  },
+  "additional_reader_pass": [
+    {
+      "id": "psu-n-q",
+      "width": 390,
+      "result": "passed",
+      "page_width": 390,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "finite-orthogonal-derived-group",
+      "width": 390,
+      "result": "passed after targeted correction",
+      "page_width": 390,
+      "math_or_link_errors": 0,
+      "finite_dimensional_hypothesis_visible": true
+    },
+    {
+      "id": "omega-odd-n-q",
+      "width": 390,
+      "result": "passed",
+      "page_width": 390,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "steinberg-fixed-point-group",
+      "width": 390,
+      "result": "passed",
+      "page_width": 390,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "sz-q",
+      "width": 390,
+      "result": "passed",
+      "page_width": 390,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "ree-g2-q",
+      "width": 390,
+      "result": "passed",
+      "page_width": 390,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "triality-d4-q",
+      "width": 390,
+      "result": "passed",
+      "page_width": 390,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "psu-n-q",
+      "width": 1440,
+      "result": "passed",
+      "page_width": 1440,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "finite-orthogonal-derived-group",
+      "width": 1440,
+      "result": "passed after targeted correction",
+      "page_width": 1440,
+      "math_or_link_errors": 0,
+      "finite_dimensional_hypothesis_visible": true
+    },
+    {
+      "id": "omega-odd-n-q",
+      "width": 1440,
+      "result": "passed",
+      "page_width": 1440,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "steinberg-fixed-point-group",
+      "width": 1440,
+      "result": "passed",
+      "page_width": 1440,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "sz-q",
+      "width": 1440,
+      "result": "passed",
+      "page_width": 1440,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "ree-g2-q",
+      "width": 1440,
+      "result": "passed",
+      "page_width": 1440,
+      "math_or_link_errors": 0
+    },
+    {
+      "id": "triality-d4-q",
+      "width": 1440,
+      "result": "passed",
+      "page_width": 1440,
+      "math_or_link_errors": 0
+    }
+  ],
+  "content_layout_fix": {
+    "path": "content/catalog/finite-groups/lie-type/finite-orthogonal-derived-group.knowl.md",
+    "finding": "At 390 pixels, the 399.25-pixel inline isometry-group set-builder formula widened the page to 414 pixels.",
+    "change": "Moved only that formula into a display in the same core. All symbols, conditions, and surrounding hypotheses were preserved.",
+    "regression": "The helper is included in the permanent reader checks in tests/finite_groups_browser_smoke.mjs.",
+    "final_retest": "Passed over the stable HTTPS preview at 390 and 1440 pixels. Both long formulas start visibly at scrollLeft 0 and scroll horizontally at phone width; the page remains exactly 390 pixels wide.",
+    "hypothesis_followup": "Integration review also made the finite-dimensional vector-space hypothesis explicit, ensuring that the finite base field yields a finite isometry group. The updated hypothesis was verified in the live reader at both widths."
+  },
+  "screenshot_directory": "/home/codex/code/knowlpedia-root/knowlpedia/tmp/finite-groups-layouts",
+  "visually_inspected": [
+    "final-https-classification-1440.png",
+    "final-https-classification-390-viewport.png",
+    "final-https-all-1440-viewport.png",
+    "final-https-all-390-viewport.png",
+    "final-https-classification-dark.png",
+    "final-https-sporadics-cluster-390.png",
+    "final-https-reader-monster-390.png",
+    "final-https-reader-monster-1440.png",
+    "final-https-reader-m24-390.png",
+    "final-https-reader-m24-1440.png",
+    "final-https-reader-fi22-390.png",
+    "final-https-reader-fi22-1440.png",
+    "final-https-reader-baby-monster-390.png",
+    "final-https-reader-baby-monster-1440.png",
+    "extra-diagnostic-psu-n-q-390.png",
+    "extra-diagnostic-finite-orthogonal-derived-group-390.png",
+    "extra-diagnostic-omega-odd-n-q-390.png",
+    "extra-diagnostic-steinberg-fixed-point-group-390.png",
+    "extra-diagnostic-sz-q-390.png",
+    "extra-diagnostic-ree-g2-q-390.png",
+    "extra-diagnostic-triality-d4-q-390.png",
+    "final-https-reader-finite-orthogonal-derived-group-390.png",
+    "final-https-detail-fg-psl-n-q-390.png",
+    "final-https-detail-fg-monster-390.png"
+  ],
+  "final_summary": {
+    "table_detail_panels_checked": 144,
+    "reader_pages_checked": 16,
+    "reader_viewport_widths": [
+      390,
+      1440
+    ],
+    "remaining_browser_findings": []
+  },
+  "final_orthogonal_retest": {
+    "base": "https://optiplex.taildb538a.ts.net:8443",
+    "errors": [],
+    "results": [
+      {
+        "id": "finite-orthogonal-derived-group",
+        "width": 390,
+        "page_width": 390,
+        "result": "passed",
+        "finite_dimensional_hypothesis_visible": true,
+        "formulas": [
+          {
+            "wide": true,
+            "overflow": "auto",
+            "scrollable": true,
+            "left": 0
+          },
+          {
+            "wide": true,
+            "overflow": "auto",
+            "scrollable": true,
+            "left": 0
+          }
+        ],
+        "screenshot": "/home/codex/code/knowlpedia-root/knowlpedia/tmp/finite-groups-layouts/final-https-reader-finite-orthogonal-derived-group-390.png"
+      },
+      {
+        "id": "finite-orthogonal-derived-group",
+        "width": 1440,
+        "page_width": 1440,
+        "result": "passed",
+        "finite_dimensional_hypothesis_visible": true,
+        "formulas": [
+          {
+            "wide": false,
+            "overflow": "auto",
+            "scrollable": false,
+            "left": 0
+          },
+          {
+            "wide": false,
+            "overflow": "auto",
+            "scrollable": false,
+            "left": 0
+          }
+        ],
+        "screenshot": "/home/codex/code/knowlpedia-root/knowlpedia/tmp/finite-groups-layouts/final-https-reader-finite-orthogonal-derived-group-1440.png"
+      }
+    ]
+  }
+}

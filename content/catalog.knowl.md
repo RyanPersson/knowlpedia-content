@@ -10,9 +10,9 @@ prerequisites = []
 generated_by = "scripts/generate_catalog_indexes.py"
 +++
 
-This catalogue contains **514 separately identified objects and parameterized families**, **40 category conventions**, **622 recorded relationships**, and **153 Hom/End/Aut records**. Real and complex versions, split and compact forms, and the requested small sizes are explicit entries. A family entry states its parameter restrictions; it does not silently treat every parameter value as the same object.
+This catalogue contains **658 separately identified objects and parameterized families**, **42 category conventions**, **688 recorded relationships**, and **175 Hom/End/Aut records**. Real and complex versions, split and compact forms, and the requested small sizes are explicit entries. A family entry states its parameter restrictions; it does not silently treat every parameter value as the same object.
 
-[Open the category explorer](/catalog/explorer/) · [[catalog/created-knowls|List of newly created knowls]]
+[Open the category explorer](/catalog/explorer/) · [[catalog/created-knowls|List of newly created knowls]] · [Explore the finite-group table](/catalog/finite-groups/table/)
 
 ## Long lists of objects
 
@@ -21,6 +21,9 @@ This catalogue contains **514 separately identified objects and parameterized fa
 - [[catalog/algebras-index|Scalar, associative, and Jordan algebras catalogue]] — 109 entries.
 - [[catalog/arithmetic-index|Fields, local objects, and orders catalogue]] — 69 entries.
 - [[catalog/magic-square-index|Magic-square outputs and triality representations catalogue]] — 5 entries.
+- [[catalog/finite-sporadic-index|Sporadic finite simple groups catalogue]] — 26 entries.
+- [[catalog/finite-lie-type-index|Finite groups of Lie type catalogue]] — 68 entries.
+- [[catalog/finite-elementary-index|Elementary finite groups and families catalogue]] — 50 entries.
 
 ## How to compare objects
 
@@ -52,6 +55,8 @@ The low-dimensional entries retain their own identities even when isomorphic. Th
 - [[catalog/categories/associative-algebras|Category of associative algebras with arbitrary homomorphisms]] — R-associative algebras; arbitrary maps; C-associative algebras; arbitrary maps; Q-associative algebras; arbitrary maps; F-associative algebras; arbitrary maps; K-associative algebras; arbitrary maps.
 - [[catalog/categories/complex-lie-groups|Category of complex Lie groups]] — C Lie groups.
 - [[catalog/categories/fields|Category of fields]] — Fields.
+- [[catalog/categories/finite-groups|Category of finite groups]] — Finite groups.
+- [[catalog/categories/finite-simple-groups|Category of finite simple groups]] — Finite simple groups.
 - [[catalog/categories/groups|Category of groups]] — Groups.
 - [[catalog/categories/jordan-algebras|Category Jord of Jordan algebras]] — Jord over R; Jord over C.
 - [[catalog/categories/lie-algebras|Category of Lie algebras over a field]] — R-Lie algebras; C-Lie algebras.

@@ -1,0 +1,17 @@
+{
+  "catalogue_validation": "passed with all current shards: 632 objects, 676 relationships, 3180 views",
+  "section_audit": "passed: 47 files, 133 sections",
+  "external_link_audit": "passed: 47 files",
+  "scope_audit": "no findings in 47 lane files",
+  "internal_links": "all lane wikilinks and prerequisites resolve",
+  "display_delimiters": "all display math open/close delimiters occupy their own lines",
+  "git_diff_check": "passed",
+  "interlinking": {
+    "initial": 56,
+    "accepted": 37,
+    "rejected": 19,
+    "final_candidates": 11,
+    "final_decision": "all rejected after semantic review; wrong setting or different concept"
+  },
+  "production_rendering": "deferred to root integration/browser lane; not claimed as complete here"
+}

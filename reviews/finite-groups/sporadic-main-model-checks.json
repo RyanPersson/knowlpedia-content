@@ -1,0 +1,142 @@
+{
+  "matrix_file_checks": [
+    {
+      "dataset": "HNG1-f5r133B0",
+      "generator": 1,
+      "field": 5,
+      "rows": 133,
+      "columns": 133,
+      "entry_count": 17689,
+      "sha256": "a771e96ffbc69b01e4cb8c89b3be9189e6cd9bf46f410c5b417177cadffbca35",
+      "passed": true
+    },
+    {
+      "dataset": "HNG1-f5r133B0",
+      "generator": 2,
+      "field": 5,
+      "rows": 133,
+      "columns": 133,
+      "entry_count": 17689,
+      "sha256": "8c61afada719e9bfb27d9ce276ac5948f2f5b38cda4bc1e968fc75cd91c58525",
+      "passed": true
+    },
+    {
+      "dataset": "ThG1-f2r248B0",
+      "generator": 1,
+      "field": 2,
+      "rows": 248,
+      "columns": 248,
+      "entry_count": 61504,
+      "sha256": "3c3a9b23d1b43bb6ef3ab84edcd37dbed66563d66b738a8fe29563a2538a33cd",
+      "passed": true
+    },
+    {
+      "dataset": "ThG1-f2r248B0",
+      "generator": 2,
+      "field": 2,
+      "rows": 248,
+      "columns": 248,
+      "entry_count": 61504,
+      "sha256": "a705b8861f254b964a2996c5cc74cc97a16be90f5136dec1ad87943353c2e9f1",
+      "passed": true
+    },
+    {
+      "dataset": "F23G1-f3r253B0",
+      "generator": 1,
+      "field": 3,
+      "rows": 253,
+      "columns": 253,
+      "entry_count": 64009,
+      "sha256": "ef54233606dd1a04e4d0e5a607bdf1f106bfa0a8fd074b54f4c2f956954bbacc",
+      "passed": true
+    },
+    {
+      "dataset": "F23G1-f3r253B0",
+      "generator": 2,
+      "field": 3,
+      "rows": 253,
+      "columns": 253,
+      "entry_count": 64009,
+      "sha256": "5a348011641b24f3222b8754dfb0bdaf834c7dc99c6001881c9663c80364b452",
+      "passed": true
+    },
+    {
+      "dataset": "F24G1-f3r781B0",
+      "generator": 1,
+      "field": 3,
+      "rows": 781,
+      "columns": 781,
+      "entry_count": 609961,
+      "sha256": "e08394c82cd0eb3077aad9eca544b2a401694bb40e678adb9d79ec6a5d73fca5",
+      "passed": true
+    },
+    {
+      "dataset": "F24G1-f3r781B0",
+      "generator": 2,
+      "field": 3,
+      "rows": 781,
+      "columns": 781,
+      "entry_count": 609961,
+      "sha256": "e6909e9566cfff9ff8d0cdf358e972a974b6c95e75213dd7b12377d0d7c2e1a0",
+      "passed": true
+    },
+    {
+      "dataset": "BG1-f2r4370B0",
+      "generator": 1,
+      "field": 2,
+      "rows": 4370,
+      "columns": 4370,
+      "entry_count": 19096900,
+      "sha256": "ec144ec6e65b63031fa9146521b7fc6c813cd9103fea60bed842359811f41061",
+      "passed": true
+    },
+    {
+      "dataset": "BG1-f2r4370B0",
+      "generator": 2,
+      "field": 2,
+      "rows": 4370,
+      "columns": 4370,
+      "entry_count": 19096900,
+      "sha256": "29045b85f2c55f6c582bf90ef99438bea4d0308316a0e51c1d9cd93ddde26bc3",
+      "passed": true
+    }
+  ],
+  "permutation_design_checks": [
+    {
+      "group": "m11",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 66,
+      "subsets_checked": 330,
+      "passed": true
+    },
+    {
+      "group": "m12",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 132,
+      "subsets_checked": 792,
+      "passed": true
+    },
+    {
+      "group": "m22",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 77,
+      "subsets_checked": 1540,
+      "passed": true
+    },
+    {
+      "group": "m23",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 253,
+      "subsets_checked": 8855,
+      "passed": true
+    },
+    {
+      "group": "m24",
+      "check": "Orbit of displayed block under displayed permutation pair forms the stated Steiner system.",
+      "block_count": 759,
+      "subsets_checked": 42504,
+      "passed": true
+    }
+  ],
+  "scope": "Headers, entry counts, coefficient ranges, file hashes and preserved block designs only. Group orders and simplicity are literature claims."
+}

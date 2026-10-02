@@ -1,0 +1,165 @@
+{
+  "entries": [
+    {
+      "id": "algebra-groups/finite-group",
+      "scope": "full",
+      "outcome": "new",
+      "source_sha256": "adc5197a972a1ba5e1ffc5853ca5052da4c3954d62744218bbc8e1cacc95c15d",
+      "evidence": "Definition is precisely finiteness of the underlying group set. Identity supplies at least one element; Z/nZ has n residues and permutations give n! elements.",
+      "sources": [
+        {
+          "url": "https://maths.qmul.ac.uk/~pjc/MTHM024/gtrev.pdf",
+          "locator": "§1.1, printed p.2, definition of order of a finite group",
+          "checked": "Underlying finite set and order convention."
+        }
+      ]
+    },
+    {
+      "id": "algebra-groups/finite-group",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "adc5197a972a1ba5e1ffc5853ca5052da4c3954d62744218bbc8e1cacc95c15d",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/finite-set"
+      ],
+      "evidence": "Read the complete prerequisite list and definitions. The classification theorem and table are consequences/navigation, not prerequisites of the finite-group definition. Endomorphism proofs use the normal-kernel theorem; category definitions use full subcategories."
+    },
+    {
+      "id": "algebra-groups/classification-finite-simple-groups",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "1ece370959b4dea9aef37e043fa537d39f41f6d590f89f1a53bd913c8511db3c",
+      "evidence": "Checked the classification statement against Cameron §5.4 p26 and Solomon p648; only the statement is reviewed, not the classification proof. C4 and C2×C2 each have two C2 factors, distinguished by existence of an element of order four. Family-count and Tits details also cross-checked against the separately source-reviewed Lie-type lane.",
+      "sources": [
+        {
+          "url": "https://maths.qmul.ac.uk/~pjc/MTHM024/gtrev.pdf",
+          "locator": "§5.4, printed p.26, four-part classification list",
+          "checked": "Cyclic prime-order, alternating n>=5, Lie type, 26 sporadic groups."
+        },
+        {
+          "url": "https://www.ams.org/journals/notices/201806/rnoti-p646.pdf",
+          "locator": "Printed p.648, classification theorem (indexed source excerpt)",
+          "checked": "Four-part classification theorem; proof is not claimed checked."
+        }
+      ]
+    },
+    {
+      "id": "algebra-groups/classification-finite-simple-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "1ece370959b4dea9aef37e043fa537d39f41f6d590f89f1a53bd913c8511db3c",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/simple-group",
+        "algebra-groups/group-isomorphism"
+      ],
+      "evidence": "Read the complete prerequisite list and definitions. The classification theorem and table are consequences/navigation, not prerequisites of the finite-group definition. Endomorphism proofs use the normal-kernel theorem; category definitions use full subcategories."
+    },
+    {
+      "id": "catalog/categories/finite-groups",
+      "scope": "full",
+      "outcome": "new",
+      "source_sha256": "3a1d3764445ab7973501b5692ab0d13e2c7e98d7f7f57aac1bc96b8dea7e7ad3",
+      "evidence": "Full-subcategory construction preserves all group homomorphisms and composition. Finiteness restricts objects only.",
+      "sources": []
+    },
+    {
+      "id": "catalog/categories/finite-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "3a1d3764445ab7973501b5692ab0d13e2c7e98d7f7f57aac1bc96b8dea7e7ad3",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "catalog/categories/groups",
+        "algebra-category-theory/full-subcategory",
+        "algebra-groups/group-homomorphism"
+      ],
+      "evidence": "Read the complete prerequisite list and definitions. The classification theorem and table are consequences/navigation, not prerequisites of the finite-group definition. Endomorphism proofs use the normal-kernel theorem; category definitions use full subcategories."
+    },
+    {
+      "id": "catalog/categories/finite-simple-groups",
+      "scope": "full",
+      "outcome": "new",
+      "source_sha256": "8cc1d55c3c49618ebcd7fea5778e95ef09d59d2c050926f62c9e4d0467a10d2b",
+      "evidence": "Full-subcategory construction preserves trivial maps. For simple source, a normal kernel is either the full group or trivial; finite equal source/target upgrades injectivity to bijectivity.",
+      "sources": []
+    },
+    {
+      "id": "catalog/categories/finite-simple-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "8cc1d55c3c49618ebcd7fea5778e95ef09d59d2c050926f62c9e4d0467a10d2b",
+      "prerequisites": [
+        "catalog/categories/finite-groups",
+        "algebra-groups/simple-group",
+        "algebra-category-theory/full-subcategory",
+        "algebra-groups/group-homomorphism"
+      ],
+      "evidence": "Read the complete prerequisite list and definitions. The classification theorem and table are consequences/navigation, not prerequisites of the finite-group definition. Endomorphism proofs use the normal-kernel theorem; category definitions use full subcategories."
+    },
+    {
+      "id": "catalog/finite-groups",
+      "scope": "targeted",
+      "outcome": "new",
+      "source_sha256": "df0384813363da793e39f512e1a7c96588d669b1ef58be61137e3e4c9f91f213",
+      "evidence": "Navigation and display-convention review. Family tiles versus individual groups are explicit; exceptional Lie-type and sporadic meanings are distinguished; composition factors do not classify all finite groups. ATLAS cluster headings are organizing labels, not direct-containment edges.",
+      "sources": [
+        {
+          "url": "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/",
+          "locator": "Sporadic landing page, four display headings",
+          "checked": "Mathieu / Leech lattice / Monster sections / pariahs are source navigation groupings."
+        }
+      ]
+    },
+    {
+      "id": "catalog/finite-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "df0384813363da793e39f512e1a7c96588d669b1ef58be61137e3e4c9f91f213",
+      "prerequisites": [],
+      "evidence": "Read the complete prerequisite list and definitions. The classification theorem and table are consequences/navigation, not prerequisites of the finite-group definition. Endomorphism proofs use the normal-kernel theorem; category definitions use full subcategories."
+    },
+    {
+      "id": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "scope": "full",
+      "outcome": "new",
+      "source_sha256": "ca0e0e7b5bf04c47510a3d9c1df74c192d6203645ec2361d23329fa9d1b464a0",
+      "evidence": "Checked f_a([k])=[ka] is well-defined iff n divides ma; dividing by gcd yields exactly gcd(m,n) solutions. Composition multiplies residues and invertibility is gcd(a,n)=1, including n=1. Counted arbitrary functions and permutations independently.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "ca0e0e7b5bf04c47510a3d9c1df74c192d6203645ec2361d23329fa9d1b464a0",
+      "prerequisites": [
+        "algebra-groups/group-homomorphism",
+        "algebra-groups/finite-cyclic-isomorphic-zn",
+        "algebra-groups/automorphism-group-cyclic"
+      ],
+      "evidence": "Read the complete prerequisite list and definitions. The classification theorem and table are consequences/navigation, not prerequisites of the finite-group definition. Endomorphism proofs use the normal-kernel theorem; category definitions use full subcategories."
+    },
+    {
+      "id": "catalog/finite-groups/relationships/endomorphisms-of-finite-simple-groups",
+      "scope": "full",
+      "outcome": "new",
+      "source_sha256": "a2a41b8107ea46cfb958adb82f58037dc0ca1c30cbfa20d21450da663b80f2c9",
+      "evidence": "Normal kernel has two possibilities by simplicity. Trivial kernel gives injectivity, finite equal cardinalities give bijectivity, and inverse of a bijective homomorphism preserves products. Zero map is distinct from all automorphisms because the group is nontrivial.",
+      "sources": []
+    },
+    {
+      "id": "catalog/finite-groups/relationships/endomorphisms-of-finite-simple-groups",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "source_sha256": "a2a41b8107ea46cfb958adb82f58037dc0ca1c30cbfa20d21450da663b80f2c9",
+      "prerequisites": [
+        "algebra-groups/finite-group",
+        "algebra-groups/simple-group",
+        "algebra-groups/kernel-is-normal",
+        "algebra-groups/automorphism-group"
+      ],
+      "evidence": "Read the complete prerequisite list and definitions. The classification theorem and table are consequences/navigation, not prerequisites of the finite-group definition. Endomorphism proofs use the normal-kernel theorem; category definitions use full subcategories."
+    }
+  ]
+}

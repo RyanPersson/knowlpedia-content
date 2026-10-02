@@ -1,0 +1,1415 @@
+{
+  "id": "finite-lie-type-interlink",
+  "candidates": 176,
+  "accepted": 136,
+  "decisions": [
+    {
+      "candidate_id": "9249fa90a51d4be0795d",
+      "source_id": "catalog/finite-groups/lie-type/e6-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "161f492edf3b0982ab86",
+      "source_id": "catalog/finite-groups/lie-type/e6-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "2464c937097bfe6c2b0c",
+      "source_id": "catalog/finite-groups/lie-type/e6-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "32280c564dc113f84a25",
+      "source_id": "catalog/finite-groups/lie-type/e6-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "3063e274f1496cbc5f8e",
+      "source_id": "catalog/finite-groups/lie-type/e6-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "2c1d0e7d2281b78df503",
+      "source_id": "catalog/finite-groups/lie-type/e6-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "144ee93c2395ef73d6a4",
+      "source_id": "catalog/finite-groups/lie-type/e7-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "f1007b73f07e1254a0b8",
+      "source_id": "catalog/finite-groups/lie-type/e7-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e471a1f16778dc4e1eae",
+      "source_id": "catalog/finite-groups/lie-type/e7-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "535df8b4820907a82b1f",
+      "source_id": "catalog/finite-groups/lie-type/e7-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "c87c3def0fa1913a6c70",
+      "source_id": "catalog/finite-groups/lie-type/e7-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d25d93733f0de7741dd9",
+      "source_id": "catalog/finite-groups/lie-type/e7-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d4e43daf94d3d5ef197b",
+      "source_id": "catalog/finite-groups/lie-type/e8-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "3ff904c18cd10a931272",
+      "source_id": "catalog/finite-groups/lie-type/e8-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e2b024f0a5e6b6b5b081",
+      "source_id": "catalog/finite-groups/lie-type/e8-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "9e7a8e64e5b4021519e0",
+      "source_id": "catalog/finite-groups/lie-type/e8-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "b98ea1f332d8cd02a324",
+      "source_id": "catalog/finite-groups/lie-type/e8-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "b040ce44fcb074b47a2f",
+      "source_id": "catalog/finite-groups/lie-type/e8-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "61d85a5a907a6d28ce08",
+      "source_id": "catalog/finite-groups/lie-type/f4-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "70c3c293be950204dda2",
+      "source_id": "catalog/finite-groups/lie-type/f4-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "88ac5f5f05d27a7d018a",
+      "source_id": "catalog/finite-groups/lie-type/f4-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "fda3ab69f80d9870962a",
+      "source_id": "catalog/finite-groups/lie-type/f4-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "05a774f072caf1a5089c",
+      "source_id": "catalog/finite-groups/lie-type/f4-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "a1658b877d03e78e46fd",
+      "source_id": "catalog/finite-groups/lie-type/f4-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "f60c1af9ec11ecbfe080",
+      "source_id": "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+      "surface": "root system",
+      "target": "lie-groups/root-system",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e3c3505f86e148469e85",
+      "source_id": "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+      "surface": "fixed points",
+      "target": "real-analysis/fixed-point",
+      "decision": "reject",
+      "reason": "The local fixed-point equation already defines the required meaning; a general fixed-point detour is unnecessary."
+    },
+    {
+      "candidate_id": "48ca154efd5bbb5430ab",
+      "source_id": "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+      "surface": "finite group",
+      "target": "algebra-groups/finite-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "7b1190482f8b8c7a0ba3",
+      "source_id": "catalog/finite-groups/lie-type/finite-chevalley-central-quotient",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "7c8a09ffb15e136b6ac9",
+      "source_id": "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+      "surface": "orthogonal group",
+      "target": "lie-groups/orthogonal-group",
+      "decision": "reject",
+      "reason": "The finite quadratic-form isometry group is defined locally, including characteristic two; this real/complex Lie-group owner is not its definition."
+    },
+    {
+      "candidate_id": "04609aace0c68aacac0a",
+      "source_id": "catalog/finite-groups/lie-type/finite-orthogonal-derived-group",
+      "surface": "symplectic group",
+      "target": "lie-groups/symplectic-group",
+      "decision": "reject",
+      "reason": "The intended group is over a finite field, not the real/complex Lie-group convention."
+    },
+    {
+      "candidate_id": "ac992500d361c395b143",
+      "source_id": "catalog/finite-groups/lie-type/g2-2-derived",
+      "surface": "finite group",
+      "target": "algebra-groups/finite-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "14159af437856619bbdb",
+      "source_id": "catalog/finite-groups/lie-type/g2-2-derived",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d2965327b520c7f6a182",
+      "source_id": "catalog/finite-groups/lie-type/g2-2-derived",
+      "surface": "normal subgroup",
+      "target": "algebra-groups/normal-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "b03083ab4e64b7df1d65",
+      "source_id": "catalog/finite-groups/lie-type/g2-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "e4c8af02254c9caafd2f",
+      "source_id": "catalog/finite-groups/lie-type/g2-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "778072d8a9773967abf0",
+      "source_id": "catalog/finite-groups/lie-type/g2-2",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "7093a8b0d21f58391e6c",
+      "source_id": "catalog/finite-groups/lie-type/g2-3",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "18718873d3863e339b11",
+      "source_id": "catalog/finite-groups/lie-type/g2-3",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "4b9f15847948820d8870",
+      "source_id": "catalog/finite-groups/lie-type/g2-3",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "5a5e204eb235b21da8d9",
+      "source_id": "catalog/finite-groups/lie-type/g2-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "519a63af92d2ceb25d2e",
+      "source_id": "catalog/finite-groups/lie-type/g2-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "ae49d79fe3da7ac3575c",
+      "source_id": "catalog/finite-groups/lie-type/g2-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "fb4a3b331482f036ef7d",
+      "source_id": "catalog/finite-groups/lie-type/omega-3-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "68c1548332d094242698",
+      "source_id": "catalog/finite-groups/lie-type/omega-3-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "fec204e8ca86caa03da4",
+      "source_id": "catalog/finite-groups/lie-type/omega-3-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "ab0edc6ca91ce02ab619",
+      "source_id": "catalog/finite-groups/lie-type/omega-3-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e4f44f335151e788013d",
+      "source_id": "catalog/finite-groups/lie-type/omega-5-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "57f38db47776cff53882",
+      "source_id": "catalog/finite-groups/lie-type/omega-5-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "3a74995cc494c1845242",
+      "source_id": "catalog/finite-groups/lie-type/omega-5-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "f4a506ef56b360025551",
+      "source_id": "catalog/finite-groups/lie-type/omega-5-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "72765494b84214fa6ced",
+      "source_id": "catalog/finite-groups/lie-type/omega-7-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "0e46cb2e37c2cdec2e4e",
+      "source_id": "catalog/finite-groups/lie-type/omega-7-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "1a2fc72e90ef34af69cb",
+      "source_id": "catalog/finite-groups/lie-type/omega-7-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "67ef097faca21d003a4d",
+      "source_id": "catalog/finite-groups/lie-type/omega-7-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "15b6c68d452389a199b9",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "fb29040f7fa0613e458c",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "3926e6ecf3c288d41c9b",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "4b64454bc8188dd0e874",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-2n-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d7d337ae1e9b06f2dbc4",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "8b2a2122ede282ceaf34",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "135a684d632dac71d4b8",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "aa96cc691688ee16642a",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-4-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "9e6a3f03d4ec434d5786",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d0129dfb23fd9e2c0b47",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "b05bd3eb4d5f1125c45a",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "46d5e4ffd3b75365ada4",
+      "source_id": "catalog/finite-groups/lie-type/omega-minus-6-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "3ce31322c38eac059221",
+      "source_id": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "0190dcb3615fa387d68c",
+      "source_id": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "3a8c4debc9f5319bc98a",
+      "source_id": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "b98ad2b8f02b67f547a8",
+      "source_id": "catalog/finite-groups/lie-type/omega-odd-n-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "7c95f128a21068eeb561",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "eae03f495716e6bf2c2c",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "a0e21da8dbc84d2a2ec4",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "3e2091489921f8be363b",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-2n-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "43617e92074a53e497a1",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-4-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "0ab244cfbc8160b525b0",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-4-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "867cab4702f2653a0872",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-4-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "57402f98cb6215221a47",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "surface": "linear maps",
+      "target": "linear-algebra/linear-map",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "2131626f35fe70927b7e",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "f37de5a98b53752c80fc",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "surface": "quadratic form",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "039bf4dbb0450256a498",
+      "source_id": "catalog/finite-groups/lie-type/omega-plus-6-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "b5956c1282e31152fc84",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-2",
+      "surface": "faithful action",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "f683019f7d5e46128bfd",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-2",
+      "surface": "projective line",
+      "target": "algebraic-geometry-foundations/projective-line",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "13516a5497048ecbacf7",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-4",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "a1fb3248266dd958eb33",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-5",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "eee59ae2c02a464ebe6d",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-7",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "5cc12fb8c84b5b1981ab",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-8",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "38239619f079d1a45539",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-9",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "42458f6134ad2624be60",
+      "source_id": "catalog/finite-groups/lie-type/psl-2-q2",
+      "surface": "matrix field",
+      "target": "real-analysis/tensor-field",
+      "decision": "reject",
+      "reason": "Matrix field here is a finite scalar field, not a field of tensors on a domain."
+    },
+    {
+      "candidate_id": "117be62ba517108b376f",
+      "source_id": "catalog/finite-groups/lie-type/psl-3-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "812f607ef3ab542bdd63",
+      "source_id": "catalog/finite-groups/lie-type/psl-3-2",
+      "surface": "invertible matrix",
+      "target": "linear-algebra/matrix-inverse",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "6f6b5de920de66f07d03",
+      "source_id": "catalog/finite-groups/lie-type/psl-3-4",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "af0844b72885b6a77f1e",
+      "source_id": "catalog/finite-groups/lie-type/psl-3-4",
+      "surface": "group isomorphism",
+      "target": "algebra-groups/group-isomorphism",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "afc320b9acb1d52eca91",
+      "source_id": "catalog/finite-groups/lie-type/psl-4-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "977d677e5b5baf5e0be2",
+      "source_id": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "surface": "finite group",
+      "target": "algebra-groups/finite-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "267417c746c10a79ac66",
+      "source_id": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "3b426faa9bac861d0122",
+      "source_id": "catalog/finite-groups/lie-type/psp-4-2-derived",
+      "surface": "normal subgroup",
+      "target": "algebra-groups/normal-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "173cf0458c52560313ad",
+      "source_id": "catalog/finite-groups/lie-type/psp-4-2",
+      "surface": "quadratic forms",
+      "target": "linear-algebra/quadratic-form",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e99ff7eb61e3f609a30a",
+      "source_id": "catalog/finite-groups/lie-type/psp-4-2",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "4678f5ca38f639867429",
+      "source_id": "catalog/finite-groups/lie-type/psp-4-3",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d419fa9a6ac8a2a71657",
+      "source_id": "catalog/finite-groups/lie-type/psu-1-q",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "fc29a75bcd639b36046c",
+      "source_id": "catalog/finite-groups/lie-type/psu-2-q",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e0ca4b162e8fecef8656",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-2",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e6795ef83e120fa2bf8e",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-2",
+      "surface": "solvable group",
+      "target": "algebra-groups/solvable-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "4672ede1533ade1feed8",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-2",
+      "surface": "complex numbers",
+      "target": "shared-foundations/complex-numbers-c",
+      "decision": "reject",
+      "reason": "Comparison-only mention of complex numbers does not add a useful prerequisite."
+    },
+    {
+      "candidate_id": "003f51a13cac983fca92",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-3",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d9d48b39d11027f74c25",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-3",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "462674d35ef19356b08a",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-3",
+      "surface": "complex numbers",
+      "target": "shared-foundations/complex-numbers-c",
+      "decision": "reject",
+      "reason": "Comparison-only mention of complex numbers does not add a useful prerequisite."
+    },
+    {
+      "candidate_id": "ec4926e11dc3ba7a1882",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-3",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "ec2d125ce7ddbbba3fd4",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-q",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "ac29ac0b30da07e66b66",
+      "source_id": "catalog/finite-groups/lie-type/psu-3-q",
+      "surface": "complex numbers",
+      "target": "shared-foundations/complex-numbers-c",
+      "decision": "reject",
+      "reason": "Comparison-only mention of complex numbers does not add a useful prerequisite."
+    },
+    {
+      "candidate_id": "db938e002ddd546b193d",
+      "source_id": "catalog/finite-groups/lie-type/psu-4-2",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "beae4fc074f9b73ac2f4",
+      "source_id": "catalog/finite-groups/lie-type/psu-4-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e3f4755f32d3a260b873",
+      "source_id": "catalog/finite-groups/lie-type/psu-4-2",
+      "surface": "complex numbers",
+      "target": "shared-foundations/complex-numbers-c",
+      "decision": "reject",
+      "reason": "Comparison-only mention of complex numbers does not add a useful prerequisite."
+    },
+    {
+      "candidate_id": "6378fb5917899baf5ae4",
+      "source_id": "catalog/finite-groups/lie-type/psu-4-q",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "46ef3084e8e401ed29e3",
+      "source_id": "catalog/finite-groups/lie-type/psu-4-q",
+      "surface": "complex numbers",
+      "target": "shared-foundations/complex-numbers-c",
+      "decision": "reject",
+      "reason": "Comparison-only mention of complex numbers does not add a useful prerequisite."
+    },
+    {
+      "candidate_id": "5d3821832d6271de97dd",
+      "source_id": "catalog/finite-groups/lie-type/psu-n-q",
+      "surface": "fixed field",
+      "target": "algebra-fields-galois/fixed-field",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "ebe00dc07ec4bf49e59b",
+      "source_id": "catalog/finite-groups/lie-type/psu-n-q",
+      "surface": "complex numbers",
+      "target": "shared-foundations/complex-numbers-c",
+      "decision": "reject",
+      "reason": "Comparison-only mention of complex numbers does not add a useful prerequisite."
+    },
+    {
+      "candidate_id": "d2a7eb7530163c527b12",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "38a80f9a810922558b74",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "c4d2766dfdb02becd754",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-2",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "8a772770b7411c122c0e",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-8",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "fe49fc32b33b38d1cbc1",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-8",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "f35065bd28795f7ad1f3",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-8",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "6d6c8ee488c07621e346",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-8",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "cc79a1879e8689341cde",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "c33a0257963cf13e97fc",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "46b1ee0b2d80d841f92a",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "354d24ef9cc8259740cd",
+      "source_id": "catalog/finite-groups/lie-type/ree-f4-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "066be13c1fa4c7d47d05",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-27",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "035b3e638eed72582a1a",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-27",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "9793ad4b59f85b836278",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-27",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "0b8ad25e705ad957e14c",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-27",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "ccdae3d68401df2fd462",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "surface": "finite group",
+      "target": "algebra-groups/finite-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "6ad89d6b26430ad082fd",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "766823dc84fe5b8a6888",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-3-derived",
+      "surface": "normal subgroup",
+      "target": "algebra-groups/normal-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e28c35da8c36487d232a",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-3",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "943d7db82063f99d4344",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-3",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "06eb3bbbefcaf4c2ac7e",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-3",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "65003acf63f268cf51b1",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "4a3f88382560678d317f",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "f0ccb6221017908d3722",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "7e1e13ac71059056f5b5",
+      "source_id": "catalog/finite-groups/lie-type/ree-g2-q",
+      "surface": "commutator subgroup",
+      "target": "algebra-groups/commutator-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "5be9b687645a42c37a0f",
+      "source_id": "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+      "surface": "central quotient",
+      "target": "lie-groups/central-quotient-of-a-lie-group",
+      "decision": "reject",
+      "reason": "The finite-group central quotient is defined here; a Lie-group quotient is the wrong category."
+    },
+    {
+      "candidate_id": "9e54aeea05186a51818a",
+      "source_id": "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+      "surface": "fixed points",
+      "target": "real-analysis/fixed-point",
+      "decision": "reject",
+      "reason": "The local fixed-point equation already defines the required meaning; a general fixed-point detour is unnecessary."
+    },
+    {
+      "candidate_id": "1958a0f5d9d824765925",
+      "source_id": "catalog/finite-groups/lie-type/steinberg-fixed-point-group",
+      "surface": "finite group",
+      "target": "algebra-groups/finite-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "04cbf0ddc52ab0bea058",
+      "source_id": "catalog/finite-groups/lie-type/sz-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "203db43a8d0325c045eb",
+      "source_id": "catalog/finite-groups/lie-type/sz-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "74d485dc58938478967d",
+      "source_id": "catalog/finite-groups/lie-type/sz-2",
+      "surface": "faithful action",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "c0dd662edbdeba5df8a4",
+      "source_id": "catalog/finite-groups/lie-type/sz-8",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "8dfabec392923e323e85",
+      "source_id": "catalog/finite-groups/lie-type/sz-8",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "032b0a0d65645a78dbc6",
+      "source_id": "catalog/finite-groups/lie-type/sz-8",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "27caab3b1c05a84a52a0",
+      "source_id": "catalog/finite-groups/lie-type/sz-8",
+      "surface": "faithful action",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "163c1de06cedaf42f38a",
+      "source_id": "catalog/finite-groups/lie-type/sz-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "d1036c159284ff20ba3d",
+      "source_id": "catalog/finite-groups/lie-type/sz-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "27db2ac5bd873733a9a2",
+      "source_id": "catalog/finite-groups/lie-type/sz-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "8d6c480177ee4f306d9e",
+      "source_id": "catalog/finite-groups/lie-type/sz-q",
+      "surface": "faithful action",
+      "target": "algebra-groups/faithful-action",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "afa625d7d5a16236fa9d",
+      "source_id": "catalog/finite-groups/lie-type/tits",
+      "surface": "finite group",
+      "target": "algebra-groups/finite-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "b9fcbba539b5026f626e",
+      "source_id": "catalog/finite-groups/lie-type/tits",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "37276b0cdf57e176ccd0",
+      "source_id": "catalog/finite-groups/lie-type/tits",
+      "surface": "normal subgroup",
+      "target": "algebra-groups/normal-subgroup",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "28c5be40ea451036b6cf",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-2",
+      "surface": "central quotient",
+      "target": "lie-groups/central-quotient-of-a-lie-group",
+      "decision": "reject",
+      "reason": "The finite-group central quotient is defined here; a Lie-group quotient is the wrong category."
+    },
+    {
+      "candidate_id": "dcde87f83e2871179884",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "81e171f767dada1a5d73",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "6013d94dfcac77a722ae",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "e6fb7e64a5b41e6e5d5a",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-q",
+      "surface": "central quotient",
+      "target": "lie-groups/central-quotient-of-a-lie-group",
+      "decision": "reject",
+      "reason": "The finite-group central quotient is defined here; a Lie-group quotient is the wrong category."
+    },
+    {
+      "candidate_id": "c9acfd3002b81184427c",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "9fadeb54fdd7b5d0c227",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "f6623342db8a3d570089",
+      "source_id": "catalog/finite-groups/lie-type/triality-d4-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "2e28a9ad9bd206d05d29",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "surface": "central quotient",
+      "target": "lie-groups/central-quotient-of-a-lie-group",
+      "decision": "reject",
+      "reason": "The finite-group central quotient is defined here; a Lie-group quotient is the wrong category."
+    },
+    {
+      "candidate_id": "0206eae6540665115ae9",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "d5db232e14d3072dca38",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "f9d10944318ba0f7dcd4",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-2",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "3f3af4e39acc61cdeb0e",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "surface": "central quotient",
+      "target": "lie-groups/central-quotient-of-a-lie-group",
+      "decision": "reject",
+      "reason": "The finite-group central quotient is defined here; a Lie-group quotient is the wrong category."
+    },
+    {
+      "candidate_id": "53e082cb222021616afb",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "surface": "algebraic group",
+      "target": "algebraic-geometry-foundations/algebraic-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    },
+    {
+      "candidate_id": "97c69b57b0dd1c416bcb",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "surface": "simply connected",
+      "target": "topology/simply-connected-space",
+      "decision": "reject",
+      "reason": "Algebraic simple connectedness is not topological simple connectedness."
+    },
+    {
+      "candidate_id": "45da676f648ec58dac16",
+      "source_id": "catalog/finite-groups/lie-type/twisted-e6-q",
+      "surface": "simple group",
+      "target": "algebra-groups/simple-group",
+      "decision": "accept",
+      "reason": "The term has this exact meaning in the finite-group definition or stated property."
+    }
+  ]
+}

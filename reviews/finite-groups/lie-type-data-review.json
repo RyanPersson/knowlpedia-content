@@ -1,0 +1,34 @@
+{
+  "id": "finite-lie-type-data",
+  "source_path": "content/catalog/data/finite-lie-type.json",
+  "source_sha256": "d3784114099da0b0cafc8ed9cac22423f12c42eff247c49d3b80d75483ae9334",
+  "scope": "targeted",
+  "evidence": "Checked all68 objects and24 typed relationships. Exactly16 simple-family tiles; finite-simple-groups membership only for uniform true simplicity; Tits is role=tits, section=exceptional. Exact orders are decimal strings. display_order records presentation only. Every isomorphism has cited source and explicit range, no equal-order inference. Derived subgroup inclusions have the stated index. No Lean proof or exhaustive subgroup/Hom classification is claimed.",
+  "role_counts": {
+    "simple-family": 16,
+    "family": 19,
+    "example": 32,
+    "tits": 1
+  },
+  "exception_ids": [
+    "fg-psl-2-2",
+    "fg-psl-2-3",
+    "fg-psl-2-4",
+    "fg-psl-2-5",
+    "fg-psl-2-7",
+    "fg-psl-2-9",
+    "fg-psl-3-4",
+    "fg-psl-4-2",
+    "fg-psu-3-2",
+    "fg-psp-4-2",
+    "fg-g2-2",
+    "fg-g2-2-derived",
+    "fg-sz-2",
+    "fg-ree-g2-3",
+    "fg-ree-g2-3-derived",
+    "fg-ree-f4-2",
+    "fg-tits",
+    "fg-omega-plus-4-q",
+    "fg-omega-odd-n-q"
+  ]
+}

@@ -1,0 +1,6 @@
+content/catalog/finite-groups/sporadic/j1.knowl.md
+content/catalog/finite-groups/sporadic/on.knowl.md
+content/catalog/finite-groups/sporadic/j3.knowl.md
+content/catalog/finite-groups/sporadic/ru.knowl.md
+content/catalog/finite-groups/sporadic/j4.knowl.md
+content/catalog/finite-groups/sporadic/ly.knowl.md

@@ -1,0 +1,22 @@
+{
+  "owner": "root",
+  "knowls": [
+    "algebra-groups/finite-group",
+    "algebra-groups/classification-finite-simple-groups",
+    "catalog/categories/finite-groups",
+    "catalog/categories/finite-simple-groups",
+    "catalog/finite-groups",
+    "catalog/finite-groups/relationships/cyclic-group-homomorphisms",
+    "catalog/finite-groups/relationships/endomorphisms-of-finite-simple-groups"
+  ],
+  "catalogue_categories": [
+    "finite-groups",
+    "finite-simple-groups"
+  ],
+  "reuse": [
+    "algebra-groups/simple-group",
+    "algebra-groups/automorphism-group-cyclic",
+    "algebra-groups/jordan-holder-theorem-groups"
+  ],
+  "review_scope": "Definitions and direct arguments; source-checked classification statement, not a proof of CFSG."
+}

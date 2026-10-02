@@ -1,0 +1,1833 @@
+{
+  "lane": "finite-elementary",
+  "scope": "targeted",
+  "reviews": [
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-1",
+      "object_id": "fg-cyclic-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "c92f6e68c419d5e7adda2bdec3ced949070cc393ec21a7d7ad1329029d78c3c0",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Residue addition gives a group of the stated order; Lagrange excludes nontrivial proper subgroups at prime order, while a proper divisor supplies one at composite order. The identity-only case is excluded from simplicity.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-2",
+      "object_id": "fg-cyclic-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "06d0e51f00d2f8f1b34050f9d35309cfea373bdf9db02b4220227983c71a60bd",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Residue addition gives a group of the stated order; Lagrange excludes nontrivial proper subgroups at prime order, while a proper divisor supplies one at composite order. The identity-only case is excluded from simplicity.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-3",
+      "object_id": "fg-cyclic-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "8140addcab0d71c1596613d900370b5d7988526a83b7d19b477ca2692db27090",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Residue addition gives a group of the stated order; Lagrange excludes nontrivial proper subgroups at prime order, while a proper divisor supplies one at composite order. The identity-only case is excluded from simplicity.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-p",
+      "object_id": "fg-cyclic-p",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "a21115f6c8ae1b51158534a580fa6e26ff23a1df2e9640381182f97d6dc6ad70",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Residue addition gives a group of the stated order; Lagrange excludes nontrivial proper subgroups at prime order, while a proper divisor supplies one at composite order. The identity-only case is excluded from simplicity.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-n",
+      "object_id": "fg-cyclic-n",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "5218fbbf8119b5728485b574fd773d549f98b479c1dd6d56e1f03a523eceae25",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Residue addition gives a group of the stated order; Lagrange excludes nontrivial proper subgroups at prime order, while a proper divisor supplies one at composite order. The identity-only case is excluded from simplicity.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.16, p. 13: finite cyclic groups; §1, Lagrange theorem"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-1",
+      "object_id": "fg-sym-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "7d7a4f3ea745fe11647e468848a7d7fe6683a463f2e9e5be1069a49049538a18",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count bijections by successive images to obtain n!. For n >= 3, the sign kernel A_n is proper nontrivial normal. S_1 is trivial and S_2 is cyclic of prime order.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-2",
+      "object_id": "fg-sym-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "1ee3def46fb273625de79a03ec8c9a06df25cedc0a9ffb5b93bb1effeb011448",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count bijections by successive images to obtain n!. For n >= 3, the sign kernel A_n is proper nontrivial normal. S_1 is trivial and S_2 is cyclic of prime order.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-3",
+      "object_id": "fg-sym-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "70f040dfc9ab85f684530a8aac17ebec9daf5aed6c4b34a8a0ae5fce0d8e45d3",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count bijections by successive images to obtain n!. For n >= 3, the sign kernel A_n is proper nontrivial normal. S_1 is trivial and S_2 is cyclic of prime order.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-4",
+      "object_id": "fg-sym-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "9eb465791a461c72117ca8f7dd25277aa4630a56b434b78e16c109f7d7080a43",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count bijections by successive images to obtain n!. For n >= 3, the sign kernel A_n is proper nontrivial normal. S_1 is trivial and S_2 is cyclic of prime order.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-6",
+      "object_id": "fg-sym-6",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "33f89f79a5abb6cd3e4dcbabf9f071d6e98ae4582e79d40df288ce551615431d",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count bijections by successive images to obtain n!. For n >= 3, the sign kernel A_n is proper nontrivial normal. S_1 is trivial and S_2 is cyclic of prime order.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "algebra-groups/symmetric-group",
+      "object_id": "fg-sym-n",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f2a1081e5a6a1e414cd7090c2b41a44ffa1b224e0aac184ccd3d5050323ad342",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count bijections by successive images to obtain n!. For n >= 3, the sign kernel A_n is proper nontrivial normal. S_1 is trivial and S_2 is cyclic of prime order.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-1",
+      "object_id": "fg-alt-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "38004341a197b5dafd8ab664801b036da24d6a4880ecc248fc888673e9cb522e",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-2",
+      "object_id": "fg-alt-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "72a10916473963d56a99da46a36c90eb90baf62931fadb3f9d9d6cc699af931f",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-3",
+      "object_id": "fg-alt-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "63fb0569e8fc2eec25491fb15cf655c642c66a1ecc4a0fbb3c0e5a617a635482",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-4",
+      "object_id": "fg-alt-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "79c93146b5a0fb3676ed8ce08b6b6a9c26b3395e8c58c1c3d915bb59ff5b5d77",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-5",
+      "object_id": "fg-alt-5",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "b744aeb4e3e68df2bd50708dbf03bf9738cc21e68d870e28559b6fc81277cf52",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-6",
+      "object_id": "fg-alt-6",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "8649a321a6562d843d1c8dfd8bf18b4bd50cfe70ef505d3488a2516dc29a354b",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-7",
+      "object_id": "fg-alt-7",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "60046f8aea20bb3ce34a0220722a814741d33d7d5a1d83c2d73f510716938d17",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-8",
+      "object_id": "fg-alt-8",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "7b714cfd7a5f74223243748222a32e3a88b6a32794b4c0af87c84ab559028d03",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "algebra-groups/alternating-group",
+      "object_id": "fg-alt-n",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "ab31edd3acb455e915622580fe43724964d9ba8cb0223e8f31c5475f41681d17",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "For n >= 2, the sign map is onto and gives order n!/2; handle A_1 separately. List A_3 explicitly, verify the double-transposition subgroup in A_4, and apply the inspected alternating simplicity theorem for n >= 5.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-2",
+      "object_id": "fg-dihedral-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "5e20f9772f6e8a21b863586a15de845f6836e0748694799b20fa1b55a105d8bf",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The pair law is C_n semidirect C_2 with inversion; its set has size 2n. The rotation kernel has index two. At n=1 it is trivial and at n=2 inversion is the identity. Pair laws also enumerated at n=1,2,3.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-4",
+      "object_id": "fg-dihedral-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "5790e9f3d66757e586108e635d362f1ca44487b5eccc5f649459a5bb7a0519f3",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The pair law is C_n semidirect C_2 with inversion; its set has size 2n. The rotation kernel has index two. At n=1 it is trivial and at n=2 inversion is the identity. Pair laws also enumerated at n=1,2,3.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-6",
+      "object_id": "fg-dihedral-6",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "b75cb89a7a7eeb23822d2b0904ef3ecc942b3fd9b896cd8da992cc0bd651fcac",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The pair law is C_n semidirect C_2 with inversion; its set has size 2n. The rotation kernel has index two. At n=1 it is trivial and at n=2 inversion is the identity. Pair laws also enumerated at n=1,2,3.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-2n",
+      "object_id": "fg-dihedral-2n",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "aecab20d3198a16dcfd41ea85c8a5a22f36ff7514eb937096df7dbbcf93c640c",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The pair law is C_n semidirect C_2 with inversion; its set has size 2n. The rotation kernel has index two. At n=1 it is trivial and at n=2 inversion is the identity. Pair laws also enumerated at n=1,2,3.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.17, pp. 13–14: dihedral groups (there denoted D_n with order 2n)"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "algebra-groups/quaternion-group",
+      "object_id": "fg-quaternion-8",
+      "scope": "targeted",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f1240e2321aaa311fadee63abb899df222114694a8491b67ca57564adfd901c6",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The cited presentation gives the 2^n normal forms a^j and a^j b. The central involution generates a proper normal subgroup. Pair models checked exhaustively at orders 8,16,32.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/quaternion-16",
+      "object_id": "fg-quaternion-16",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "8d5c4b51405369e11ca79771602fb07ef88b0dbce8de856f342a27fd054df258",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The cited presentation gives the 2^n normal forms a^j and a^j b. The central involution generates a proper normal subgroup. Pair models checked exhaustively at orders 8,16,32.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/quaternion-32",
+      "object_id": "fg-quaternion-32",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "7e249cec8ab8072c492106ed93993e7f02cc1fb9fa893412b1cd230747b78b6c",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The cited presentation gives the 2^n normal forms a^j and a^j b. The central involution generates a proper normal subgroup. Pair models checked exhaustively at orders 8,16,32.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/quaternion-2n",
+      "object_id": "fg-quaternion-2n",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "709b3f3dfc373ff074e028b1feac54905fa331e78a5044385b6609b390508457",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "The cited presentation gives the 2^n normal forms a^j and a^j b. The central involution generates a proper normal subgroup. Pair models checked exhaustively at orders 8,16,32.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§1.18, p. 14; Example 2.7(b), p. 35: generalized quaternion groups"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-1",
+      "object_id": "fg-elementary-abelian-1",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "2f4e6cd4c0fb497f3a1edd7e227934335336b812d8d7d0b4e9ed2a58a7fde823",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Coordinate addition gives p^rank elements. Every nonzero vector has additive order p. For rank > 1 a coordinate subgroup is proper nontrivial normal; for rank=1 use the prime-order argument.",
+        "references": []
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-2",
+      "object_id": "fg-elementary-abelian-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "a4b7f7184c6d9f69a1f8491825281ef534e4a56d04f79ed7ab43379396bdb245",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Coordinate addition gives p^rank elements. Every nonzero vector has additive order p. For rank > 1 a coordinate subgroup is proper nontrivial normal; for rank=1 use the prime-order argument.",
+        "references": []
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-3",
+      "object_id": "fg-elementary-abelian-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "d27b3b34409b11d700b5df284abd03598fde7b6214d1bf261b6a84c33fa9ed62",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Coordinate addition gives p^rank elements. Every nonzero vector has additive order p. For rank > 1 a coordinate subgroup is proper nontrivial normal; for rank=1 use the prime-order argument.",
+        "references": []
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-n",
+      "object_id": "fg-elementary-abelian-n",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "cc034ff5ef8ac7317210695bfb23e2b89c4a2a02afeb0d0f0213811855851df2",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Coordinate addition gives p^rank elements. Every nonzero vector has additive order p. For rank > 1 a coordinate subgroup is proper nontrivial normal; for rank=1 use the prime-order argument.",
+        "references": []
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/abelian-invariant-factors",
+      "object_id": "fg-abelian-invariant-factors",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "49130eaa468738cee006a1ca4a2fab359cc48c8d094d39811c4c55ca60377cba",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Order is the product of specified cyclic-factor orders; the empty product has one element. A coordinate factor obstructs simplicity when r>=2, leaving a prime-order cyclic group as the only simple case. The inspected invariant-factor theorem establishes parametrization, not a new operation.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "Theorem 1.57, p. 26: invariant-factor classification of finite abelian groups"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/klein-4",
+      "object_id": "fg-klein-4",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "cce025ad4c2aa126d2c0204b128f2830a1e19f527a1aca6b59b8e8ebfe926b00",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Enumerate C_2 × C_2. Multiplication of distinct double transpositions gives the third; conjugation preserves that set. Every order-two subgroup is normal because V_4 is abelian.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§4, symmetric and alternating groups; Theorem 4.33 and Remark 4.34, p. 69"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-1-q",
+      "object_id": "fg-gl-1-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "6a498e1254233845ce110dcf0561e087d48bd0100b5812af34066841cb3c4ce7",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count successive independent columns. The determinant is onto F_q^× with kernel SL. For q>2 and matrix size>=2, this kernel is proper nontrivial. At q=2, GL=SL=PSL; exclude size2=S3, use the inspected PSL simplicity theorem in size>=3. Size1 uses cyclicity of F_q^×.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-2-q",
+      "object_id": "fg-gl-2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "a9dac342ede5bd26c03925c6f3cc8eaadedf8074162e1bcadf81afbd8cd7d9c4",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count successive independent columns. The determinant is onto F_q^× with kernel SL. For q>2 and matrix size>=2, this kernel is proper nontrivial. At q=2, GL=SL=PSL; exclude size2=S3, use the inspected PSL simplicity theorem in size>=3. Size1 uses cyclicity of F_q^×.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-3-q",
+      "object_id": "fg-gl-3-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "b8aea15866658755c6ad943a6ff82f54f4129db68ff89ec82e1e4fdba0ad89a4",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count successive independent columns. The determinant is onto F_q^× with kernel SL. For q>2 and matrix size>=2, this kernel is proper nontrivial. At q=2, GL=SL=PSL; exclude size2=S3, use the inspected PSL simplicity theorem in size>=3. Size1 uses cyclicity of F_q^×.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-n-q",
+      "object_id": "fg-gl-n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "5909e77d236f944bd942b0b7488296ad72ff9e4dd7fe3bea086ddeca3454668d",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count successive independent columns. The determinant is onto F_q^× with kernel SL. For q>2 and matrix size>=2, this kernel is proper nontrivial. At q=2, GL=SL=PSL; exclude size2=S3, use the inspected PSL simplicity theorem in size>=3. Size1 uses cyclicity of F_q^×.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-1-q",
+      "object_id": "fg-sl-1-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "b7a47056aa86094d7c61bd6b23bfdef1fe793d25534fa9fc459b8f03288d714a",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Use the determinant kernel and quotient of GL order by q-1. The scalar center has gcd(n,q-1) elements. Combine its obstruction with PSL simplicity and the (2,2),(2,3) exceptions; size1 is trivial. Enumerate SL2 over F2 and F3 as checks.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-2-q",
+      "object_id": "fg-sl-2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "1dc262158934189398d07462269248a78f608a6a641060b0dd4cc38caeead27b",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Use the determinant kernel and quotient of GL order by q-1. The scalar center has gcd(n,q-1) elements. Combine its obstruction with PSL simplicity and the (2,2),(2,3) exceptions; size1 is trivial. Enumerate SL2 over F2 and F3 as checks.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-3-q",
+      "object_id": "fg-sl-3-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "99b44a67e3807ea5162cc728a1d23a100006bad3dfe5a63188bffcb13e37235e",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Use the determinant kernel and quotient of GL order by q-1. The scalar center has gcd(n,q-1) elements. Combine its obstruction with PSL simplicity and the (2,2),(2,3) exceptions; size1 is trivial. Enumerate SL2 over F2 and F3 as checks.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-n-q",
+      "object_id": "fg-sl-n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "d7ed5c5374ea212ee1f8acc276d595fe4f61374495ad6ac50e054d94e2b9fa19",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Use the determinant kernel and quotient of GL order by q-1. The scalar center has gcd(n,q-1) elements. Combine its obstruction with PSL simplicity and the (2,2),(2,3) exceptions; size1 is trivial. Enumerate SL2 over F2 and F3 as checks.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-2-2",
+      "object_id": "fg-gl-2-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "8b698abd4342593dfaff9f5510790d400419587e1821fe5f7310314be0c457cc",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count successive independent columns. The determinant is onto F_q^× with kernel SL. For q>2 and matrix size>=2, this kernel is proper nontrivial. At q=2, GL=SL=PSL; exclude size2=S3, use the inspected PSL simplicity theorem in size>=3. Size1 uses cyclicity of F_q^×.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-2-2",
+      "object_id": "fg-sl-2-2",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "3dae2af97a35e8346fe23877dea927cc7f28be7d90f228d5a8c0e1945ccfcec4",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Use the determinant kernel and quotient of GL order by q-1. The scalar center has gcd(n,q-1) elements. Combine its obstruction with PSL simplicity and the (2,2),(2,3) exceptions; size1 is trivial. Enumerate SL2 over F2 and F3 as checks.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-2-3",
+      "object_id": "fg-gl-2-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "cddfadd1061f32c80220a1d865b8cc18dcac355200650e2c2d8cd0a6c440e10b",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Count successive independent columns. The determinant is onto F_q^× with kernel SL. For q>2 and matrix size>=2, this kernel is proper nontrivial. At q=2, GL=SL=PSL; exclude size2=S3, use the inspected PSL simplicity theorem in size>=3. Size1 uses cyclicity of F_q^×.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-2-3",
+      "object_id": "fg-sl-2-3",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f5c7cdb1571ffb673b170527c5bedf636afd10c3f6220fd33a30a0b2c7bcd20e",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Use the determinant kernel and quotient of GL order by q-1. The scalar center has gcd(n,q-1) elements. Combine its obstruction with PSL simplicity and the (2,2),(2,3) exceptions; size1 is trivial. Enumerate SL2 over F2 and F3 as checks.",
+        "references": [
+          {
+            "url": "https://webspace.maths.qmul.ac.uk/p.j.cameron/class_gps/cg.pdf",
+            "title": "Peter J. Cameron, Notes on Classical Groups",
+            "locator": "§2.1, Theorems 2.2–2.3, pp. 15–16: orders, determinant and scalar kernels; §2.4, Theorem 2.10, pp. 20–22: simplicity"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-1-q",
+      "object_id": "fg-heisenberg-1-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "0a608c74f69b00882911cf97d09cfc67be988d9d0aace5d8a8d38c8834d936c6",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Bilinearity makes the two associations differ by equal sums x·y′+x·y″+x′·y″. The given inverse cancels that cocycle. Direct commutator calculation gives x·y′−x′·y; nondegeneracy forces the center to be the final coordinate. Vary one coordinate to obtain every central commutator. Selected finite cases are computational checks, not a proof for all fields.",
+        "references": [
+          {
+            "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+            "title": "J. S. Milne, Group Theory, v4.01",
+            "locator": "§6.12(b), p. 93: upper-unitriangular 3 by 3 example; higher-rank formulas are verified directly here"
+          }
+        ]
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-2-q",
+      "object_id": "fg-heisenberg-2-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "79182468cd68e9847ea57f1ae810e574f305aaf827d8143b0b6ba09ee347b705",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Bilinearity makes the two associations differ by equal sums x·y′+x·y″+x′·y″. The given inverse cancels that cocycle. Direct commutator calculation gives x·y′−x′·y; nondegeneracy forces the center to be the final coordinate. Vary one coordinate to obtain every central commutator. Selected finite cases are computational checks, not a proof for all fields.",
+        "references": []
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-3-q",
+      "object_id": "fg-heisenberg-3-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "f58e11b842f792556f894e3dfc5127bc49bfb3e1744c501f65f526deaf2acc1b",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Bilinearity makes the two associations differ by equal sums x·y′+x·y″+x′·y″. The given inverse cancels that cocycle. Direct commutator calculation gives x·y′−x′·y; nondegeneracy forces the center to be the final coordinate. Vary one coordinate to obtain every central commutator. Selected finite cases are computational checks, not a proof for all fields.",
+        "references": []
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-n-q",
+      "object_id": "fg-heisenberg-n-q",
+      "scope": "targeted",
+      "outcome": "new",
+      "reviewed_at": "2026-10-02",
+      "source_sha256": "ed3d530dab816d1bc00b5c1ba87e1595d01cbbb8735af02c0cbc65578c763791",
+      "claims_reviewed": [
+        "Object construction and order formula; parameter restrictions; abelian and finite-simple category memberships; exact simplicity condition.",
+        "Authored elementary-lane relationships attached to this object."
+      ],
+      "evidence": {
+        "method": "Bilinearity makes the two associations differ by equal sums x·y′+x·y″+x′·y″. The given inverse cancels that cocycle. Direct commutator calculation gives x·y′−x′·y; nondegeneracy forces the center to be the final coordinate. Vary one coordinate to obtain every central commutator. Selected finite cases are computational checks, not a proof for all fields.",
+        "references": []
+      },
+      "limitations": "Targeted author review of the catalogue claims and construction. No full independent knowl/prerequisite review or Lean certification is claimed."
+    }
+  ],
+  "dependency_reviews": [
+    {
+      "id": "catalog/finite-groups/elementary/sym-6",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/bijective-function"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/direct-product-groups",
+        "catalog/finite-groups/elementary/cyclic-p"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/matrix-inverse"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-2n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/semidirect-product"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/direct-product-groups",
+        "catalog/finite-groups/elementary/cyclic-p"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/bijective-function"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/quaternion-16",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group-presentation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/direct-product-groups",
+        "catalog/finite-groups/elementary/cyclic-p"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-p",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/bijective-function"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-1-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/matrix-inverse"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-5",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-2-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/determinant",
+        "catalog/arithmetic/f3"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-2-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/matrix-inverse",
+        "catalog/arithmetic/f2"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/elementary-abelian-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-groups/direct-product-groups",
+        "catalog/finite-groups/elementary/cyclic-p"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-8",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-6",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/semidirect-product"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/quaternion-2n",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group-presentation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/determinant"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-2-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/matrix-inverse",
+        "catalog/arithmetic/f3"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-6",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-7",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/klein-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/direct-product-groups"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/alt-3",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/permutation-sign",
+        "shared-foundations/finite-permutation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-2-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "linear-algebra/determinant",
+        "catalog/arithmetic/f2"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/cyclic-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-2",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/semidirect-product"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/bijective-function"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-1-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/determinant"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/abelian-invariant-factors",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/direct-product-groups"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-3-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/determinant"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-3-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-1-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/matrix-inverse"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/quaternion-32",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group-presentation"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/heisenberg-2-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "algebra-fields-galois/finite-field"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/dihedral-4",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/semidirect-product"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sym-1",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-groups/group",
+        "shared-foundations/bijective-function"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/sl-n-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/determinant"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    },
+    {
+      "id": "catalog/finite-groups/elementary/gl-3-q",
+      "scope": "dependencies",
+      "outcome": "reviewed_unchanged",
+      "reviewed_at": "2026-10-02",
+      "prerequisites": [
+        "algebra-fields-galois/finite-field",
+        "algebra-groups/group",
+        "linear-algebra/matrix-inverse"
+      ],
+      "dependency_review_count": 1,
+      "evidence": {
+        "method": "Reviewed the complete prerequisite list against the explicit core construction. Group background is included for implicit uses; field, matrix inverse/determinant, permutation parity, group presentation, or product definitions match the construction. All comparison/isomorphism links remain outside the core.",
+        "references": []
+      }
+    }
+  ],
+  "data_sha256": "d77eac61774bb028b692ff7cc1be849c9d6148f95d0de7e56a65bc63cf380041",
+  "integration_note": "Root added display_order=0 to the cyclic-prime and alternating simple-family tiles. This field changes only presentation order; all mathematical data and reviewed knowl bytes are unchanged."
+}
