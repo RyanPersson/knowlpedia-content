@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle equipped with a [[fiber-bundles/principal-connection|principal connection]] and curvature \(\Omega\in \Omega^2(P;\mathfrak{g})\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] equipped with a [[fiber-bundles/principal-connection|principal connection]] and curvature \(\Omega\in \Omega^2(P;\mathfrak{g})\).
 
 The connection is called **flat** if its [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] vanishes:
 \[

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M=U\cup V\) be an [[topology/open-cover|open cover]], and let \(G\) be a Lie group. A **clutching function** is a smooth map \(g:U\cap V\to G\) used to construct a principal \(G\)-bundle by identifying the two trivial bundles \(U\times G\) and \(V\times G\) according to
+Let \(M=U\cup V\) be an [[topology/open-cover|open cover]], and let \(G\) be a Lie group. A **clutching function** is a smooth map \(g:U\cap V\to G\) used to construct a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] by identifying the two trivial bundles \(U\times G\) and \(V\times G\) according to
 \[
 (x,h)_U\sim(x,g(x)h)_V
 \qquad (x\in U\cap V,\ h\in G).
@@ -20,7 +20,7 @@ It is the [[fiber-bundles/principal-bundle-transition-function|transition functi
 
 ## Variants
 
-For a vector bundle with fiber \(F\) and structure group \(G\subseteq\operatorname{GL}(F)\), one instead glues \(U\times F\) to \(V\times F\) by
+For a vector bundle with fiber \(F\) and [[fiber-bundles/structure-group|structure group]] \(G\subseteq\operatorname{GL}(F)\), one instead glues \(U\times F\) to \(V\times F\) by
 \[
 (x,v)_U \sim (x, g(x)\cdot v)_V .
 \]

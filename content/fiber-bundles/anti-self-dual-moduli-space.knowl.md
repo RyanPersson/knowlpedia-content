@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over an oriented [[differential-geometry/riemannian-manifold|Riemannian]] four-manifold. Write \(\mathcal A(P)\) for its connections and \(\mathcal G(P)\) for its [[fiber-bundles/gauge-group|gauge group]]. The **anti-self-dual moduli space** is
+Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]] over an oriented [[differential-geometry/riemannian-manifold|Riemannian]] four-manifold. Write \(\mathcal A(P)\) for its connections and \(\mathcal G(P)\) for its [[fiber-bundles/gauge-group|gauge group]]. The **anti-self-dual moduli space** is
 \[
 \mathcal M_{\mathrm{ASD}}(P)
 =\{A\in\mathcal A(P):F_A^+=0\}/\mathcal G(P),

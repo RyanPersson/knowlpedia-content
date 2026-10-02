@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:F(M)\to M\) denote its (linear) frame bundle, viewed as a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G=\mathrm{GL}(n,\mathbb{R})\). Write a point \(u\in F(M)\) over \(x=\pi(u)\) as a linear isomorphism \(u:\mathbb{R}^n\to T_xM\), where \(T_xM\) is the fiber of the [[fiber-bundles/tangent-bundle|tangent bundle]].
+Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:F(M)\to M\) denote its (linear) frame bundle, viewed as a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G=\mathrm{GL}(n,\mathbb{R})\). Write a point \(u\in F(M)\) over \(x=\pi(u)\) as a linear isomorphism \(u:\mathbb{R}^n\to T_xM\), where \(T_xM\) is the fiber of the [[fiber-bundles/tangent-bundle|tangent bundle]].
 
 ## Statement (frame bundle formulation)
 

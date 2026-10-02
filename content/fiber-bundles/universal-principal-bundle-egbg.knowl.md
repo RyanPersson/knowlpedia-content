@@ -21,7 +21,7 @@ Here \([X,BG]\) means continuous maps modulo unbased [[topology/homotopy|homotop
 
 ## Existence and scope
 
-Universal bundles exist for topological groups, using the Milnor construction and the numerable classification theorem. Equivalently, a numerable principal bundle with contractible total space has the stated classification property. Models are unique up to equivariant homotopy equivalence, with bases unique up to homotopy equivalence.
+Universal bundles exist for topological groups, using the Milnor construction and the numerable classification theorem. Equivalently, a numerable [[fiber-bundles/topological-principal-bundle|principal bundle]] with contractible total space has the stated classification property. Models are unique up to equivariant homotopy equivalence, with bases unique up to homotopy equivalence.
 
 On a paracompact Hausdorff base every locally trivial principal bundle is numerable, so the theorem classifies all such bundles. For a Lie group and a smooth manifold, continuous principal bundles admit compatible smooth structures unique up to smooth bundle isomorphism. The spaces \(EG\) and \(BG\) themselves need not be finite-dimensional manifolds.
 

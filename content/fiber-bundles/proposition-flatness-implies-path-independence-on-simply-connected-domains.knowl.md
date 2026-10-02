@@ -24,7 +24,7 @@ Equivalently, if \(\gamma_0,\gamma_1\) are two such paths with the same endpoint
 
 ## Principal bundles
 
-A parallel statement holds for a principal bundle with a flat principal connection: on a simply connected \(U\) where curvature vanishes, the transport \(P_x\to P_y\) is independent of the path in \(U\).
+A parallel statement holds for a [[fiber-bundles/principal-g-bundle|principal bundle]] with a flat principal connection: on a simply connected \(U\) where curvature vanishes, the transport \(P_x\to P_y\) is independent of the path in \(U\).
 
 ## Examples
 1. **Euclidean space.** On \(U=\mathbb R^n\) with the trivial bundle \(U\times V\) and \(\nabla=d\), curvature vanishes and parallel transport is the identity, hence depends only on endpoints.

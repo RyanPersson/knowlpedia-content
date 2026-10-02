@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(F_A\). Fix an \(\mathrm{Ad}\)-invariant homogeneous polynomial \(P\) of degree \(k\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] a [[fiber-bundles/lie-group|Lie group]] \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(F_A\). Fix an \(\mathrm{Ad}\)-invariant homogeneous polynomial \(P\) of degree \(k\) on the [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak{g}\).
 
 ## Statement (name-level, with standard formula)
 

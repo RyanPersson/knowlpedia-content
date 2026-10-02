@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Associated vector bundles are a special case of [[fiber-bundles/associated-bundle|associated bundles]] where the fiber is a vector space and the structure group acts linearly.
+Associated vector bundles are a special case of [[fiber-bundles/associated-bundle|associated bundles]] where the fiber is a vector space and the [[fiber-bundles/structure-group|structure group]] acts linearly.
 
 Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with right action \((p,g)\mapsto p\cdot g\). Let \(\rho:G\to GL(V)\) be a [[lie-groups/representation-of-a-lie-group|representation of a Lie group]]. View this as a left action of \(G\) on \(V\) via
 \[

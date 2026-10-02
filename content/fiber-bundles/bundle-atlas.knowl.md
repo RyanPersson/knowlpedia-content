@@ -25,4 +25,4 @@ The associated maps \(t_{ij}\) are the [[fiber-bundles/transition-function|trans
 ## Examples
 1. **From a manifold atlas:** the usual coordinate charts on \(M\) induce a bundle atlas for \(TM\to M\) by identifying \(TM|_{U_i}\cong U_i\times\mathbb{R}^n\).
 2. **Möbius [[fiber-bundles/line-bundle|line bundle]]:** two local trivializations over overlapping arcs of \(S^1\) form a bundle atlas; the overlap map is given by a sign change in the fiber.
-3. **Principal bundles:** local sections of a principal \(G\)-bundle yield local trivializations and hence a bundle atlas whose transitions take values in \(G\).
+3. **Principal bundles:** local sections of a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] yield local trivializations and hence a bundle atlas whose transitions take values in \(G\).

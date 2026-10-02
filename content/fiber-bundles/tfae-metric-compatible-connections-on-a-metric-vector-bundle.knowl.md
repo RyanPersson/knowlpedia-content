@@ -41,7 +41,7 @@ For every smooth curve \(\gamma:[0,1]\to M\), the parallel transport map on fibe
 where \(\mathrm{PT}_\gamma\) denotes [[fiber-bundles/parallel-transport|parallel transport]] determined by \(\nabla\).
 
 **5. Orthonormal frame bundle reduction.**
-The bundle of orthonormal frames \(O(E)\to M\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(\mathrm{O}(r)\), and the connection induced by \(\nabla\) on the full frame bundle restricts to a principal \(\mathrm{O}(r)\)-connection on \(O(E)\).
+The bundle of orthonormal frames \(O(E)\to M\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(\mathrm{O}(r)\), and the connection induced by \(\nabla\) on the full frame bundle restricts to a principal \(\mathrm{O}(r)\)-connection on \(O(E)\).
 
 ## Holonomy and the specified metric
 

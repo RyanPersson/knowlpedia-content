@@ -19,7 +19,7 @@ The following data are equivalent, naturally and bijectively:
 
 1. A vector bundle connection \(\nabla\) on \(E\) (a covariant derivative satisfying the Leibniz rule).
 
-2. A [[fiber-bundles/principal-connection|principal connection]] on the principal bundle \(\mathrm{Fr}(E)\to M\).
+2. A [[fiber-bundles/principal-connection|principal connection]] on the [[fiber-bundles/principal-g-bundle|principal bundle]] \(\mathrm{Fr}(E)\to M\).
 
 3. A \(\mathrm{GL}(n,\mathbb R)\)-equivariant horizontal distribution \(H\subset T\,\mathrm{Fr}(E)\), i.e. a smooth subbundle such that
    \[

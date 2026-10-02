@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(E\to M\) be a rank-\(r\) Hermitian [[fiber-bundles/vector-bundle|vector bundle]] with structure group \(SU(r)\) over a closed oriented four-manifold, and let \(A\) be a determinant-preserving [[fiber-bundles/hermitian-connection|unitary connection]] with curvature \(F_A\). Its **instanton number** is
+Let \(E\to M\) be a rank-\(r\) Hermitian [[fiber-bundles/vector-bundle|vector bundle]] with [[fiber-bundles/structure-group|structure group]] \(SU(r)\) over a closed oriented four-manifold, and let \(A\) be a determinant-preserving [[fiber-bundles/hermitian-connection|unitary connection]] with curvature \(F_A\). Its **instanton number** is
 \[
 k(E)= \frac{1}{8\pi^2}\int_M\operatorname{tr}(F_A\wedge F_A)
 =\langle c_2(E),[M]\rangle\in\mathbb Z,

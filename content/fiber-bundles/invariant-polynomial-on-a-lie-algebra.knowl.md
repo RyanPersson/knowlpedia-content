@@ -40,7 +40,7 @@ On \(\mathfrak{so}(2m)\), the Pfaffian is invariant under the adjoint action of 
 
 ## Role in characteristic classes
 
-Applying a degree-\(k\) invariant polynomial to the curvature of a [[fiber-bundles/principal-connection|principal connection]] produces a [[fiber-bundles/chernweil-form|Chern–Weil form]] of degree \(2k\). Adjoint invariance is exactly what permits this curvature expression to descend from the principal bundle to the base; the [[fiber-bundles/bianchi-identity|Bianchi identity]] then gives closedness.
+Applying a degree-\(k\) invariant polynomial to the curvature of a [[fiber-bundles/principal-connection|principal connection]] produces a [[fiber-bundles/chernweil-form|Chern–Weil form]] of degree \(2k\). Adjoint invariance is exactly what permits this curvature expression to descend from the [[fiber-bundles/principal-g-bundle|principal bundle]] to the base; the [[fiber-bundles/bianchi-identity|Bianchi identity]] then gives closedness.
 
 ## Conventions and scope
 

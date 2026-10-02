@@ -25,7 +25,7 @@ A smooth manifold admits good covers subordinate to any prescribed open cover, u
 
 ## Applications
 
-Good covers are especially useful because many global invariants can be computed from the combinatorics of the cover, and because they behave well with constructions built from local trivializations (for example, principal bundles and their transition functions).
+Good covers are especially useful because many global invariants can be computed from the combinatorics of the cover, and because they behave well with constructions built from local trivializations (for example, [[fiber-bundles/principal-g-bundle|principal bundles]] and their transition functions).
 
 ## Examples
 1. **Convex covers of \(\mathbb R^n\).**

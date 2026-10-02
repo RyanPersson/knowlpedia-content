@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle with right action \(R_g:P\to P\). A differential form \(\alpha \in \Omega^k(P)\) is called **basic** if it satisfies:
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with right action \(R_g:P\to P\). A differential form \(\alpha \in \Omega^k(P)\) is called **basic** if it satisfies:
 
 1. **\(G\)-invariance:**
    \[

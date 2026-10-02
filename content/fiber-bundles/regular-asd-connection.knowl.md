@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A\) be an [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connection]] on a principal bundle over a closed oriented Riemannian four-manifold. In its [[fiber-bundles/asd-deformation-complex|ASD deformation complex]], let
+Let \(A\) be an [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connection]] on a [[fiber-bundles/principal-g-bundle|principal bundle]] over a closed oriented Riemannian four-manifold. In its [[fiber-bundles/asd-deformation-complex|ASD deformation complex]], let
 \[
 H_A^2=\operatorname{coker}\!\left(
 d_A^+:\Omega^1(X;\operatorname{ad}P)\to

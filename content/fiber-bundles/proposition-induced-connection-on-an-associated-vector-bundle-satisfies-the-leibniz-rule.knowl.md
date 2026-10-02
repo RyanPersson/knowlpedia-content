@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). Given a finite-dimensional smooth representation \(\rho:G\to \mathrm{GL}(V)\), form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] \(E:=P\times_\rho V\to M\). The connection \(\omega\) induces a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (covariant derivative)
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\), and let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\). Given a finite-dimensional smooth representation \(\rho:G\to \mathrm{GL}(V)\), form the [[fiber-bundles/associated-vector-bundle|associated vector bundle]] \(E:=P\times_\rho V\to M\). The connection \(\omega\) induces a [[fiber-bundles/connection-on-a-vector-bundle|connection on a vector bundle]] (covariant derivative)
 \[
 \nabla:\Gamma(E)\to \Omega^1(M;E),
 \]

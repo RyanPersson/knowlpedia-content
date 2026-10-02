@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:F(M)\to M\) be its frame bundle, a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G=\mathrm{GL}(n,\mathbb{R})\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\in\Omega^1(F(M);\mathfrak{gl}(n,\mathbb{R}))\), where \(\mathfrak{gl}(n,\mathbb{R})\) is the [[lie-groups/lie-algebra|Lie algebra]] of \(G\).
+Let \(M\) be an \(n\)-dimensional [[fiber-bundles/smooth-manifold|smooth manifold]] and let \(\pi:F(M)\to M\) be its frame bundle, a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G=\mathrm{GL}(n,\mathbb{R})\). Fix a [[fiber-bundles/principal-connection|principal connection]] \(\omega\in\Omega^1(F(M);\mathfrak{gl}(n,\mathbb{R}))\), where \(\mathfrak{gl}(n,\mathbb{R})\) is the [[lie-groups/lie-algebra|Lie algebra]] of \(G\).
 
 ## Statement (frame bundle formulation)
 

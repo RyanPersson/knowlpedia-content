@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a closed Riemannian \(n\)-manifold. Use the [[fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations|Sobolev completions]] of connections in \(W^{k,p}\) and [[fiber-bundles/gauge-transformation|gauge transformations]] in \(W^{k+1,p}\), where \(k\geq1\), \(1<p<\infty\), and \(kp>n\). Fix an Ad-invariant inner product on the Lie algebra and a smooth reference connection \(A\). there is \(\varepsilon>0\) such that the [[fiber-bundles/coulomb-gauge|Coulomb slice]]
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]] over a closed Riemannian \(n\)-manifold. Use the [[fiber-bundles/sobolev-completion-of-connections-and-gauge-transformations|Sobolev completions]] of connections in \(W^{k,p}\) and [[fiber-bundles/gauge-transformation|gauge transformations]] in \(W^{k+1,p}\), where \(k\geq1\), \(1<p<\infty\), and \(kp>n\). Fix an Ad-invariant inner product on the Lie algebra and a smooth reference connection \(A\). there is \(\varepsilon>0\) such that the [[fiber-bundles/coulomb-gauge|Coulomb slice]]
 \[
 \mathcal S_{A,\varepsilon}
 =\{A+a\mid d_A^*a=0,\ \|a\|_{W^{k,p}}<\varepsilon\}

@@ -31,7 +31,7 @@ Then:
 2. The de Rham class \([p_k(\nabla)]\in H^{4k}_{\mathrm{dR}}(M)\) is independent of the choice of compatible connection.
 3. The de Rham class \([p_k(\nabla)]\) is the real image of the integral class \(p_k(E)\).
 
-The de Rham representative detects only the real image of \(p_k(E)\), not any torsion in the integral class. Equivalently, this real image is the Chern–Weil class associated to the structure group \(O(r)\) (or \(SO(r)\) in the oriented case) by applying an \(Ad\)-invariant polynomial on \(\mathfrak{so}(r)\) corresponding to the \(k\)th elementary symmetric polynomial in the squares of the formal curvature eigenvalues.
+The de Rham representative detects only the real image of \(p_k(E)\), not any torsion in the integral class. Equivalently, this real image is the Chern–Weil class associated to the [[fiber-bundles/structure-group|structure group]] \(O(r)\) (or \(SO(r)\) in the oriented case) by applying an \(Ad\)-invariant polynomial on \(\mathfrak{so}(r)\) corresponding to the \(k\)th elementary symmetric polynomial in the squares of the formal curvature eigenvalues.
 
 ## Naturality
 

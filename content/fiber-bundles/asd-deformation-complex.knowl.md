@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A\) be an [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connection]] on a principal \(G\)-bundle \(P\to X\) over an oriented Riemannian four-manifold. The **ASD deformation complex at \(A\)** is
+Let \(A\) be an [[fiber-bundles/self-dual-and-anti-self-dual-connection|anti-self-dual connection]] on a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] \(P\to X\) over an oriented Riemannian four-manifold. The **ASD deformation complex at \(A\)** is
 \[
 0\longrightarrow\Omega^0(X;\operatorname{ad}P)
 \xrightarrow{\,d_A\,}

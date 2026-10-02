@@ -99396,7 +99396,7 @@
           "outcome": "corrected",
           "evidence": "Checked only the added comparison: an equivariant change of coordinates on G is left multiplication by its value at the identity; it commutes with the principal right action. Existing defining axioms were preserved.",
           "sources": [],
-          "source_sha256": "4066eb8fd397907028d32cd1c8ebe4006242e36fc9ed0ea392814d837de2a08a"
+          "source_sha256": "10fa8f8241a51bdda89bbb1218f8de8ef61fd379f27169c8e2a680c0d716eec2"
         },
         {
           "id": "fiber-bundles/smooth-fiber-bundle",

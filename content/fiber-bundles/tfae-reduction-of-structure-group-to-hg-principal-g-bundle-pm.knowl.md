@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(H\subset G\) be a closed Lie subgroup (see [[lie-groups/lie-subgroup|Lie subgroup]]). A **reduction of structure group to \(H\)** means, informally, that \(P\) can be described using \(H\) as the structure group instead of \(G\) (see [[fiber-bundles/reduction-of-structure-group|reduction of structure group]]).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\), and let \(H\subset G\) be a closed Lie subgroup (see [[lie-groups/lie-subgroup|Lie subgroup]]). A **reduction of structure group to \(H\)** means, informally, that \(P\) can be described using \(H\) as the structure group instead of \(G\) (see [[fiber-bundles/reduction-of-structure-group|reduction of structure group]]).
 
 The following are equivalent:
 

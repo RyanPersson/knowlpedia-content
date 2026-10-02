@@ -28,7 +28,7 @@ P_\gamma : E_{\gamma(a)} \longrightarrow E_{\gamma(b)},\qquad P_\gamma(v):=s_v(b
 \]
 This is a linear isomorphism, and it depends smoothly on the curve and on the initial value.
 
-This construction is the vector-bundle version of [[fiber-bundles/parallel-transport|parallel transport]]; when \(E\) is an associated bundle of a principal bundle with connection, \(P_\gamma\) can be obtained from the unique [[fiber-bundles/construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift|horizontal lift of the base curve]].
+This construction is the vector-bundle version of [[fiber-bundles/parallel-transport|parallel transport]]; when \(E\) is an associated bundle of a [[fiber-bundles/principal-g-bundle|principal bundle]] with connection, \(P_\gamma\) can be obtained from the unique [[fiber-bundles/construction-horizontal-lift-of-curves-and-uniqueness-of-horizontal-lift|horizontal lift of the base curve]].
 
 ### Basic properties
 - If \(\gamma\) is reversed, then \(P_{\gamma^{-1}}=(P_\gamma)^{-1}\).

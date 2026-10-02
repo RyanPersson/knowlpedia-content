@@ -39,7 +39,7 @@ Changing the local sections changes the functions \(g_{ij}\) by an [[fiber-bundl
 ## Examples
 1. **Trivial bundle.** For \(P=M\times G\) with [[fiber-bundles/section-of-a-fiber-bundle|global section]] \(s(x)=(x,e)\), any cover and the restricted sections \(s_i=s|_{U_i}\) give \(g_{ij}\equiv e\) on all overlaps.
 
-2. **Hopf fibration.** In the [[fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle|Hopf bundle]] \(S^3\to S^2\) with structure group \(U(1)\), take the standard cover of \(S^2\cong \mathbb{CP}^1\) by the charts \(U_0=\{[z_1:z_2]\mid z_2\neq 0\}\) and \(U_1=\{[z_1:z_2]\mid z_1\neq 0\}\). Using the local sections
+2. **Hopf fibration.** In the [[fiber-bundles/hopf-fibration-s3s2-as-a-principal-u-bundle|Hopf bundle]] \(S^3\to S^2\) with [[fiber-bundles/structure-group|structure group]] \(U(1)\), take the standard cover of \(S^2\cong \mathbb{CP}^1\) by the charts \(U_0=\{[z_1:z_2]\mid z_2\neq 0\}\) and \(U_1=\{[z_1:z_2]\mid z_1\neq 0\}\). Using the local sections
    \[
    s_0(w)=\frac{(w,1)}{\sqrt{1+|w|^2}},\qquad s_1(w')=\frac{(1,w')}{\sqrt{1+|w'|^2}},
    \]

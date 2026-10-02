@@ -36,4 +36,4 @@ Consequently \(d_\nabla^2\omega=F_\nabla\wedge\omega\), where \(F_\nabla=dA+A\we
 
 For the trivial real line with its product connection, \(d_\nabla=d\). For a line bundle with local connection one-form \(A\), it is \(d+A\wedge\cdot\).
 
-A principal connection induces this operator on associated vector bundles. Under the correspondence with tensorial forms on the principal bundle, it agrees with the [[fiber-bundles/exterior-covariant-derivative|horizontal-projection definition of exterior covariant differentiation]].
+A principal connection induces this operator on associated vector bundles. Under the correspondence with tensorial forms on the [[fiber-bundles/principal-g-bundle|principal bundle]], it agrees with the [[fiber-bundles/exterior-covariant-derivative|horizontal-projection definition of exterior covariant differentiation]].

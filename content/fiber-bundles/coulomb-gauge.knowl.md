@@ -11,7 +11,7 @@ dependency_heuristic = "axiomatic-dependency-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(A_0\) be a [[fiber-bundles/principal-connection|connection]] on a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact structure group over a [[differential-geometry/riemannian-manifold|Riemannian manifold]], choose an \(\operatorname{Ad}\)-invariant positive-definite inner product on its Lie algebra, and write another connection as \(A=A_0+a\). The connection \(A\) is in **Coulomb gauge relative to \(A_0\)** when
+Let \(A_0\) be a [[fiber-bundles/principal-connection|connection]] on a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]] over a [[differential-geometry/riemannian-manifold|Riemannian manifold]], choose an \(\operatorname{Ad}\)-invariant positive-definite inner product on its Lie algebra, and write another connection as \(A=A_0+a\). The connection \(A\) is in **Coulomb gauge relative to \(A_0\)** when
 \[
 d_{A_0}^*a=0,
 \]

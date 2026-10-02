@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathbb F\) be \(\mathbb R\) or \(\mathbb C\). An \(\mathbb F\)-**line bundle** over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is a [[fiber-bundles/vector-bundle|vector bundle]] \(L\to M\) whose [[fiber-bundles/rank-of-a-vector-bundle|rank]] over \(\mathbb F\) is one. Thus every fiber \(L_x\) is a one-dimensional \(\mathbb F\)-vector space, and [[fiber-bundles/local-trivialization|local trivializations]] identify \(L|_U\) with \(U\times\mathbb F\) by fiberwise [[linear-algebra/linear-map|linear maps]]. Its [[fiber-bundles/transition-function|transition functions]] take values in \(\mathbb F^\times\). “Real” or “complex” must be specified because the scalar field changes both the structure group and the classification theory.
+Let \(\mathbb F\) be \(\mathbb R\) or \(\mathbb C\). An \(\mathbb F\)-**line bundle** over a [[fiber-bundles/smooth-manifold|smooth manifold]] \(M\) is a [[fiber-bundles/vector-bundle|vector bundle]] \(L\to M\) whose [[fiber-bundles/rank-of-a-vector-bundle|rank]] over \(\mathbb F\) is one. Thus every fiber \(L_x\) is a one-dimensional \(\mathbb F\)-vector space, and [[fiber-bundles/local-trivialization|local trivializations]] identify \(L|_U\) with \(U\times\mathbb F\) by fiberwise [[linear-algebra/linear-map|linear maps]]. Its [[fiber-bundles/transition-function|transition functions]] take values in \(\mathbb F^\times\). “Real” or “complex” must be specified because the scalar field changes both the [[fiber-bundles/structure-group|structure group]] and the classification theory.
 
 ## Basic properties
 

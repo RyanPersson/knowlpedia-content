@@ -30,4 +30,4 @@ A choice of local section \(s:U\to P\) identifies \(\mathrm{Ad}(P)|_U\) with \(U
 ## Examples
 1. If \(P\) is trivial, \(P\cong M\times G\), then \(\mathrm{Ad}(P)\cong M\times G\) as a bundle of groups.
 2. If \(G\) is abelian, conjugation is trivial, so \(\mathrm{Ad}(P)\cong M\times G\) for every principal \(G\)-bundle.
-3. For the frame bundle of a vector bundle with structure group \(\mathrm{GL}(n)\), \(\mathrm{Ad}(P)\) encodes the bundle of change-of-frame maps, with fibers identified (after choosing a frame) with \(\mathrm{GL}(n)\).
+3. For the frame bundle of a vector bundle with [[fiber-bundles/structure-group|structure group]] \(\mathrm{GL}(n)\), \(\mathrm{Ad}(P)\) encodes the bundle of change-of-frame maps, with fibers identified (after choosing a frame) with \(\mathrm{GL}(n)\).

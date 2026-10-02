@@ -27,7 +27,7 @@ such that:
 
 In a local frame, the matrix \((h_x(e_i,e_j))\) is a smooth map to positive-definite Hermitian matrices, and transforms under change of frame by the Hermitian congruence rule.
 
-A Hermitian metric is equivalent to a reduction of the structure group to the unitary group, yielding the [[fiber-bundles/unitary-frame-bundle-reduction|unitary frame bundle]].
+A Hermitian metric is equivalent to a reduction of the [[fiber-bundles/structure-group|structure group]] to the unitary group, yielding the [[fiber-bundles/unitary-frame-bundle-reduction|unitary frame bundle]].
 
 ## Examples
 1. **Trivial bundle.** On \(M\times\mathbb C^r\), the standard Hermitian form on \(\mathbb C^r\) defines a Hermitian metric.

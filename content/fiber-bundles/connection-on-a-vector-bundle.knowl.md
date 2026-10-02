@@ -31,7 +31,7 @@ Equivalently, a connection is an \(\mathbb R\)-linear operator \(\nabla:\Gamma(E
 
 ## Remarks
 
-Connections on associated vector bundles are often constructed from a [[fiber-bundles/principal-connection|principal connection]] on a principal bundle.
+Connections on associated vector bundles are often constructed from a [[fiber-bundles/principal-connection|principal connection]] on a [[fiber-bundles/principal-g-bundle|principal bundle]].
 
 ## Examples
 1. **Trivial connection on a product bundle.** For \(E=M\times\mathbb R^r\), writing a section as a vector-valued function \(s:M\to\mathbb R^r\), define \(\nabla_X s:=X(s)\) (apply \(X\) componentwise). This is a connection.

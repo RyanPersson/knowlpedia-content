@@ -11,7 +11,7 @@ dependency_heuristic = "axiomatic-dependency-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(P\to M\) and \(P'\to M\) be principal \(G\)-bundles, and let \(\Phi:P\to P'\) be a [[fiber-bundles/principal-bundle-isomorphism|principal bundle isomorphism]] over \(M\) (a \(G\)-equivariant [[fiber-bundles/diffeomorphism|diffeomorphism]] with \(\pi'\circ\Phi=\pi\)).
+Let \(P\to M\) and \(P'\to M\) be [[fiber-bundles/principal-g-bundle|principal \(G\)-bundles]], and let \(\Phi:P\to P'\) be a [[fiber-bundles/principal-bundle-isomorphism|principal bundle isomorphism]] over \(M\) (a \(G\)-equivariant [[fiber-bundles/diffeomorphism|diffeomorphism]] with \(\pi'\circ\Phi=\pi\)).
 
 For every [[fiber-bundles/invariant-polynomial-on-a-lie-algebra|invariant polynomial]] \(p\), the corresponding [[fiber-bundles/corollary-chernweil-characteristic-classes-are-invariants-of-the-principal-bundle|Chern–Weil characteristic class]] satisfies
 \[

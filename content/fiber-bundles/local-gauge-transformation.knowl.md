@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle, and let \(U\subset M\) be an open set (typically from an [[topology/open-cover|open cover]]) on which we choose an [[fiber-bundles/equivariant-local-trivialization|equivariant local trivialization]] \(\psi:\pi^{-1}(U)\to U\times G\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]], and let \(U\subset M\) be an open set (typically from an [[topology/open-cover|open cover]]) on which we choose an [[fiber-bundles/equivariant-local-trivialization|equivariant local trivialization]] \(\psi:\pi^{-1}(U)\to U\times G\).
 
 A **local gauge transformation** on \(U\) is a smooth map
 \[

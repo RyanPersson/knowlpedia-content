@@ -11,7 +11,7 @@ dependency_heuristic = "axiomatic-dependency-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle with connection 1-form \(\omega\in \Omega^1(P;\mathfrak{g})\) (see [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]). The **curvature 2-form** is the \(\mathfrak{g}\)-valued 2-form
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with connection 1-form \(\omega\in \Omega^1(P;\mathfrak{g})\) (see [[fiber-bundles/connection-1-form-on-a-principal-bundle|connection 1-form]]). The **curvature 2-form** is the \(\mathfrak{g}\)-valued 2-form
 \[
 \Omega \;\coloneqq\; d\omega \;+\; \tfrac12[\omega\wedge \omega] \;\in\; \Omega^2(P;\mathfrak{g}),
 \]

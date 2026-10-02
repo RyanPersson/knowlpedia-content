@@ -26,5 +26,5 @@ Equivalently, it is the value at \(v\) of the inverse linear map \((d\pi_e|_{H_e
 
 ## Examples
 1. **Product bundle.** For \(E=M\times F\) with product horizontals, the lift of \(v\in T_xM\) at \((x,f)\) is \((v,0)\in T_xM\oplus T_fF\).
-2. **Principal bundle viewpoint.** On a principal bundle with connection, the horizontal lift of \(v\in T_xM\) at \(p\in\pi^{-1}(x)\) is the unique \(v^{\mathrm h}\in T_pP\) with \(d\pi_p(v^{\mathrm h})=v\) and connection 1-form equal to zero on \(v^{\mathrm h}\).
+2. **Principal bundle viewpoint.** On a [[fiber-bundles/principal-g-bundle|principal bundle]] with connection, the horizontal lift of \(v\in T_xM\) at \(p\in\pi^{-1}(x)\) is the unique \(v^{\mathrm h}\in T_pP\) with \(d\pi_p(v^{\mathrm h})=v\) and connection 1-form equal to zero on \(v^{\mathrm h}\).
 3. **Vector bundle with linear connection.** If \(E\to M\) is a vector bundle with linear connection, the horizontal lift at a vector \(e\in E_x\) encodes “moving \(e\) along a base direction \(v\) while keeping it parallel.”

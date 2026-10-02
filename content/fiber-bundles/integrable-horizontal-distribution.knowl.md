@@ -21,5 +21,5 @@ By the Frobenius theorem, integrability is equivalent to the existence of a foli
 
 ## Examples
 1. **Product horizontals are integrable.** On \(E=M\times F\) with \(H_{(x,f)}=T_xM\oplus\{0\}\), the horizontal leaves are the slices \(M\times\{f\}\), so \(H\) is integrable.
-2. **Flat principal connection gives integrable horizontals.** On a principal bundle with a flat connection, the horizontal distribution is involutive; locally, horizontal leaves provide local “parallel” sections.
+2. **Flat principal connection gives integrable horizontals.** On a [[fiber-bundles/principal-g-bundle|principal bundle]] with a flat connection, the horizontal distribution is involutive; locally, horizontal leaves provide local “parallel” sections.
 3. **Non-example from curvature.** For the Levi-Civita connection on the frame bundle of a curved [[differential-geometry/riemannian-manifold|Riemannian manifold]] (e.g. the round sphere), the induced horizontal distribution is typically not integrable; horizontal loops can produce nontrivial holonomy.

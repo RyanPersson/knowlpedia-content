@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to X\) be a principal bundle with compact structure group over a closed oriented Riemannian four-manifold. If \((A_i)\) is a sequence of [[fiber-bundles/instanton|instantons]] with uniformly bounded Yang–Mills energy, then a subsequence has a finite set \(S\subset X\), a bundle \(P_\infty\to X\setminus S\), and an instanton \(A_\infty\) such that, for every compact \(K\subset X\setminus S\), there are principal bundle isomorphisms on neighborhoods of \(K\), whose restrictions satisfy
+Let \(P\to X\) be a [[fiber-bundles/principal-g-bundle|principal bundle]] with compact [[fiber-bundles/structure-group|structure group]] over a closed oriented Riemannian four-manifold. If \((A_i)\) is a sequence of [[fiber-bundles/instanton|instantons]] with uniformly bounded Yang–Mills energy, then a subsequence has a finite set \(S\subset X\), a bundle \(P_\infty\to X\setminus S\), and an instanton \(A_\infty\) such that, for every compact \(K\subset X\setminus S\), there are principal bundle isomorphisms on neighborhoods of \(K\), whose restrictions satisfy
 \[
 u_i:P_\infty|_K\longrightarrow P|_K
 \qquad\text{with}\qquad

@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(A\) be a flat connection on a principal \(G\)-bundle \(P\to M\), and let \(H_A^j\) denote the cohomology of its [[fiber-bundles/deformation-complex-of-a-flat-connection|deformation complex]]. The **deformation-theoretic tangent space** to flat connections modulo gauge at \([A]\) is
+Let \(A\) be a flat connection on a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] \(P\to M\), and let \(H_A^j\) denote the cohomology of its [[fiber-bundles/deformation-complex-of-a-flat-connection|deformation complex]]. The **deformation-theoretic tangent space** to flat connections modulo gauge at \([A]\) is
 \[
 T^{\mathrm{def}}_{[A]}\mathcal M_{\mathrm{flat}}
 \cong

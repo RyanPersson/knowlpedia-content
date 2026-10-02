@@ -46,7 +46,7 @@ The codomain is \(f^*E\), not \(E\), unless additional bundle data identify them
 
 ## Examples and scope
 
-The [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature of a vector-bundle connection]] is an \(\operatorname{End}(E)\)-valued \(2\)-form. On a principal bundle, tensorial adjoint-valued forms descend to forms on the base with values in the [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint Lie algebra bundle]]. These are instances of the same construction, but a Lie-algebra-valued form on the total space is not automatically a bundle-valued form on the base.
+The [[fiber-bundles/curvature-of-a-vector-bundle-connection|curvature of a vector-bundle connection]] is an \(\operatorname{End}(E)\)-valued \(2\)-form. On a [[fiber-bundles/principal-g-bundle|principal bundle]], tensorial adjoint-valued forms descend to forms on the base with values in the [[fiber-bundles/construction-adjoint-lie-algebra-bundle-ad|adjoint Lie algebra bundle]]. These are instances of the same construction, but a Lie-algebra-valued form on the total space is not automatically a bundle-valued form on the base.
 
 **Warning.** For a [[fiber-bundles/complex-vector-bundle|complex vector bundle]] over a real manifold, authors may write either \(\Lambda^kT^*M\otimes_{\mathbb R}E\) or its canonically equivalent complexified formulation. The scalar convention should be stated when complex conjugation or forms of type \((p,q)\) enter.
 

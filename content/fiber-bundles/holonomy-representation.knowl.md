@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle over a connected smooth manifold, equipped with a [[fiber-bundles/flat-principal-connection|flat principal connection]]. Fix \(x\in M\) and \(p\in P_x\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a connected smooth manifold, equipped with a [[fiber-bundles/flat-principal-connection|flat principal connection]]. Fix \(x\in M\) and \(p\in P_x\).
 
 For a piecewise smooth loop \(\gamma\) based at \(x\), let \(g_\gamma\in G\) be determined by horizontal lifting as in the definition of the [[fiber-bundles/holonomy-group|holonomy group]]:
 \[

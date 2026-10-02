@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group a [[fiber-bundles/lie-group|Lie group]] \(G\) and [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). Let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(\Omega\in\Omega^2(P;\mathfrak g)\). For an open set \(U\subset M\) and a [[fiber-bundles/section-of-a-fiber-bundle|local section]] \(s:U\to P\), define the local connection form and local curvature form by
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] a [[fiber-bundles/lie-group|Lie group]] \(G\) and [[lie-groups/lie-algebra|Lie algebra]] \(\mathfrak g\). Let \(\omega\) be a [[fiber-bundles/principal-connection|principal connection]] on \(P\) with [[fiber-bundles/curvature-2-form-of-a-principal-connection|curvature 2-form]] \(\Omega\in\Omega^2(P;\mathfrak g)\). For an open set \(U\subset M\) and a [[fiber-bundles/section-of-a-fiber-bundle|local section]] \(s:U\to P\), define the local connection form and local curvature form by
 \[
 A := s^*\omega \in \Omega^1(U;\mathfrak g),
 \qquad

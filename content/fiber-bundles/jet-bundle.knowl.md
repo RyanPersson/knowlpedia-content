@@ -32,7 +32,7 @@ The derivative coordinates range freely over real matrices; changes of jet coord
 
 For fixed \(e\in E_x\), the fiber of \(J^1E\to E\) identifies with linear maps \(L:T_xM\to T_eE\) satisfying \(d\pi_e\circ L=\operatorname{id}\). Such maps are precisely the differentials of local sections with value \(e\). Their differences lie in \(\operatorname{Hom}(T_xM,V_eE)\), so this is an affine space modeled on that vector space. Here \(V_eE=\ker d\pi_e\) is the vertical tangent space.
 
-For a principal bundle \(P\to M\), the quotient \(J^1P/G\) is the [[fiber-bundles/bundle-of-connections|bundle of connections]].
+For a [[fiber-bundles/principal-g-bundle|principal bundle]] \(P\to M\), the quotient \(J^1P/G\) is the [[fiber-bundles/bundle-of-connections|bundle of connections]].
 
 ## Examples
 1. **Jets of functions.** For the trivial [[fiber-bundles/line-bundle|real line bundle]] \(E=M\times \mathbb{R}\), a section is a function \(f\colon M\to \mathbb{R}\), and \(j_x^1 f\) is determined by \((x,f(x),df_x)\). Thus \(J^1(M\times \mathbb{R})\) identifies with \(\mathbb{R}\times T^*M\) over \(M\).

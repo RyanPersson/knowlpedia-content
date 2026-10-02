@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P=M\times G\to M\) be a trivial principal bundle, where \(G\) is a Lie group with Lie algebra \(\mathfrak g\). Given a smooth map \(g:M\to G\), the **pure gauge potential** associated with \(g\) is
+Let \(P=M\times G\to M\) be a trivial [[fiber-bundles/principal-g-bundle|principal bundle]], where \(G\) is a Lie group with Lie algebra \(\mathfrak g\). Given a smooth map \(g:M\to G\), the **pure gauge potential** associated with \(g\) is
 \[
 A := g^{-1}dg \in \Omega^1(M;\mathfrak g),
 \]

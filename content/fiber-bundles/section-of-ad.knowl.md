@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\mathrm{Ad}(P)\to M\) be the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]] of a principal \(G\)-bundle \(P\).
+Let \(\mathrm{Ad}(P)\to M\) be the [[fiber-bundles/adjoint-bundle-p-g-g-with-conjugation-action|adjoint bundle]] of a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] \(P\).
 
 A **section of \(\mathrm{Ad}(P)\)** is a [[fiber-bundles/smooth-map|smooth map]]
 \[

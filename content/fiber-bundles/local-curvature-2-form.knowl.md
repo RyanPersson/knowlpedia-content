@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 2
 +++
 
-Let \(\pi:P\to M\) be a principal \(G\)-bundle with connection form \(\omega\) and curvature \(\Omega\) as in [[fiber-bundles/curvature-2-form-of-a-principal-connection|the curvature 2-form of a principal connection]].
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] with connection form \(\omega\) and curvature \(\Omega\) as in [[fiber-bundles/curvature-2-form-of-a-principal-connection|the curvature 2-form of a principal connection]].
 
 On an open set \(U\subset M\) with local section \(s:U\to P\), define the local connection 1-form \(A=s^*\omega\in \Omega^1(U;\mathfrak{g})\). The **local curvature 2-form** on \(U\) is
 \[

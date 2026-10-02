@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a principal \(G\)-bundle over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] with [[fiber-bundles/curvature|curvature]] \(F_A\).
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over an oriented [[differential-geometry/riemannian-manifold|Riemannian manifold]], and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]] with [[fiber-bundles/curvature|curvature]] \(F_A\).
 
 The **Yang–Mills equation** is
 \[

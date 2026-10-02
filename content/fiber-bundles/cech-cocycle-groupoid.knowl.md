@@ -27,7 +27,7 @@ on every overlap. If \(h:g\to g'\) and \(k:g'\to g''\), their composite \(k\circ
 Every morphism is invertible because each \(h_i\) is group-valued. Passing to
 isomorphism classes gives the [[shared-foundations/pointed-set|pointed set]]
 of nonabelian Čech \(H^1\), while retaining the groupoid also retains the
-automorphisms of each cocycle. For a cocycle defining a principal bundle,
+automorphisms of each cocycle. For a cocycle defining a [[fiber-bundles/principal-g-bundle|principal bundle]],
 these automorphisms correspond to its gauge transformations.
 
 ## Relation to bundle classification

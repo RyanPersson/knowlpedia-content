@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\). The right action of \(G\) on \(P\) differentiates to a right action on the [[fiber-bundles/tangent-bundle|tangent bundle]] \(TP\) by \(dR_g:TP\to TP\).
+Let \(\pi:P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\). The right action of \(G\) on \(P\) differentiates to a right action on the [[fiber-bundles/tangent-bundle|tangent bundle]] \(TP\) by \(dR_g:TP\to TP\).
 
 **Construction (Atiyah algebroid).** Form the quotient
 \[

@@ -16,7 +16,7 @@ Let \(\pi:E\to M\) be a real [[fiber-bundles/vector-bundle|vector bundle]] of ra
 \mathrm{SO}(E):=\{(e_1,\dots,e_n)\in \mathrm{O}(E)\ :\ (e_1,\dots,e_n)\ \text{is an oriented frame}\}.
 \]
 
-The right action of the group \(\mathrm{O}(n)\) on \(\mathrm{O}(E)\) restricts to a free right action of the special orthogonal group \(\mathrm{SO}(n)\), which is a [[fiber-bundles/lie-group|Lie group]]. With this action, \(\mathrm{SO}(E)\to M\) is a principal bundle with structure group \(\mathrm{SO}(n)\).
+The right action of the group \(\mathrm{O}(n)\) on \(\mathrm{O}(E)\) restricts to a free right action of the special orthogonal group \(\mathrm{SO}(n)\), which is a [[fiber-bundles/lie-group|Lie group]]. With this action, \(\mathrm{SO}(E)\to M\) is a [[fiber-bundles/principal-g-bundle|principal bundle]] with [[fiber-bundles/structure-group|structure group]] \(\mathrm{SO}(n)\).
 
 ## Equivalent characterizations
 Equivalently, \(\mathrm{SO}(E)\) is the reduction of the full frame bundle to \(\mathrm{SO}(n)\) determined jointly by the metric and the orientation.

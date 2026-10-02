@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a connected manifold with compact structure group \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]]. Using the full [[fiber-bundles/gauge-group|gauge group]], \(A\) is **reducible** when its [[fiber-bundles/stabilizer-of-a-connection|stabilizer]] strictly contains the subgroup of constant gauge transformations arising from the center \(Z(G)\):
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal \(G\)-bundle]] over a connected manifold with compact [[fiber-bundles/structure-group|structure group]] \(G\), and let \(A\) be a [[fiber-bundles/principal-connection|principal connection]]. Using the full [[fiber-bundles/gauge-group|gauge group]], \(A\) is **reducible** when its [[fiber-bundles/stabilizer-of-a-connection|stabilizer]] strictly contains the subgroup of constant gauge transformations arising from the center \(Z(G)\):
 \[
 \operatorname{Stab}(A)\supsetneq Z(G).
 \]

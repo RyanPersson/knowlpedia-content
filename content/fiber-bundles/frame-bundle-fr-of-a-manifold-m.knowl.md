@@ -22,7 +22,7 @@ The projection \(\mathrm{Fr}(TM)\to M\) sends a frame to its basepoint. There is
 \[
 (x,(e_1,\dots,e_n))\cdot A := (x,(\sum_j e_j A_{j1},\dots,\sum_j e_j A_{jn})).
 \]
-With this structure, \(\mathrm{Fr}(TM)\to M\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(\mathrm{GL}(n,\mathbb R)\).
+With this structure, \(\mathrm{Fr}(TM)\to M\) is a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(\mathrm{GL}(n,\mathbb R)\).
 
 Connections on \(TM\) can be equivalently encoded as principal connections on \(\mathrm{Fr}(TM)\) (see [[fiber-bundles/tfae-vector-bundle-connections-via-frame-bundles-rank-n-vector-bundle-em|connections via frame bundles]]).
 

@@ -16,7 +16,7 @@ Let \(\pi:E\to M\) be a real rank-\(n\) vector bundle over a [[fiber-bundles/smo
 \mathrm{O}(E):=\{(e_1,\dots,e_n)\in \mathrm{Fr}(E)\ :\ \langle e_i,e_j\rangle = \delta_{ij}\ \text{fiberwise}\}.
 \]
 
-The right action of \(\mathrm{GL}(n,\mathbb R)\) on \(\mathrm{Fr}(E)\) restricts to a free transitive action of \(\mathrm O(n)\) on each fiber of \(\mathrm O(E)\). Thus \(\mathrm O(E)\to M\) is a [[fiber-bundles/principal-g-bundle|principal \(\mathrm O(n)\)-bundle]] and a reduction of the frame bundle's structure group.
+The right action of \(\mathrm{GL}(n,\mathbb R)\) on \(\mathrm{Fr}(E)\) restricts to a free transitive action of \(\mathrm O(n)\) on each fiber of \(\mathrm O(E)\). Thus \(\mathrm O(E)\to M\) is a [[fiber-bundles/principal-g-bundle|principal \(\mathrm O(n)\)-bundle]] and a reduction of the frame bundle's [[fiber-bundles/structure-group|structure group]].
 
 ## Examples
 1. If \(E=TM\) with a Riemannian metric, then \(\mathrm O(TM)\) is the bundle of orthonormal tangent frames.

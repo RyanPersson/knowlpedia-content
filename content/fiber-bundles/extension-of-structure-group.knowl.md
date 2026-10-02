@@ -11,7 +11,7 @@ dependency_heuristic = "semantic-full-review-v1"
 dependency_review_count = 1
 +++
 
-Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with structure group \(G\), and let \(\varphi:G\to H\) be a [[lie-groups/lie-group-homomorphism|smooth homomorphism]] of [[fiber-bundles/lie-group|Lie groups]].
+Let \(P\to M\) be a [[fiber-bundles/principal-g-bundle|principal G-bundle]] with [[fiber-bundles/structure-group|structure group]] \(G\), and let \(\varphi:G\to H\) be a [[lie-groups/lie-group-homomorphism|smooth homomorphism]] of [[fiber-bundles/lie-group|Lie groups]].
 
 The **extension of structure group** of \(P\) along \(\varphi\) is the quotient
 \[
